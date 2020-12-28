@@ -22,28 +22,28 @@ class Obligations {
     /**
      * Code famille.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFamille;
 
     /**
      * Code obligation.
      *
-     * @var string
+     * @var string|null
      */
     private $codeObligation;
 
     /**
      * Frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $frequence;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
@@ -51,52 +51,52 @@ class Obligations {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code famille.
      *
-     * @return string Returns the code famille.
+     * @return string|null Returns the code famille.
      */
-    public function getCodeFamille() {
+    public function getCodeFamille(): ?string {
         return $this->codeFamille;
     }
 
     /**
      * Get the code obligation.
      *
-     * @return string Returns the code obligation.
+     * @return string|null Returns the code obligation.
      */
-    public function getCodeObligation() {
+    public function getCodeObligation(): ?string {
         return $this->codeObligation;
     }
 
     /**
      * Get the frequence.
      *
-     * @return string Returns the frequence.
+     * @return string|null Returns the frequence.
      */
-    public function getFrequence() {
+    public function getFrequence(): ?string {
         return $this->frequence;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
     /**
      * Set the code famille.
      *
-     * @param string $codeFamille The code famille.
+     * @param string|null $codeFamille The code famille.
      * @return Obligations Returns this Obligations.
      */
-    public function setCodeFamille($codeFamille) {
+    public function setCodeFamille(?string $codeFamille): Obligations {
         $this->codeFamille = $codeFamille;
         return $this;
     }
@@ -104,10 +104,10 @@ class Obligations {
     /**
      * Set the code obligation.
      *
-     * @param string $codeObligation The code obligation.
+     * @param string|null $codeObligation The code obligation.
      * @return Obligations Returns this Obligations.
      */
-    public function setCodeObligation($codeObligation) {
+    public function setCodeObligation(?string $codeObligation): Obligations {
         $this->codeObligation = $codeObligation;
         return $this;
     }
@@ -115,10 +115,10 @@ class Obligations {
     /**
      * Set the frequence.
      *
-     * @param string $frequence The frequence.
+     * @param string|null $frequence The frequence.
      * @return Obligations Returns this Obligations.
      */
-    public function setFrequence($frequence) {
+    public function setFrequence(?string $frequence): Obligations {
         $this->frequence = $frequence;
         return $this;
     }
@@ -126,10 +126,10 @@ class Obligations {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return Obligations Returns this Obligations.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): Obligations {
         $this->intitule = $intitule;
         return $this;
     }

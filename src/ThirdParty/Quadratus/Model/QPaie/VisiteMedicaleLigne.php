@@ -24,21 +24,21 @@ class VisiteMedicaleLigne {
     /**
      * Code medecine travail.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMedecineTravail;
 
     /**
      * Code session.
      *
-     * @var string
+     * @var string|null
      */
     private $codeSession;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -52,14 +52,14 @@ class VisiteMedicaleLigne {
     /**
      * Duree visite.
      *
-     * @var float
+     * @var float|null
      */
     private $dureeVisite;
 
     /**
      * Etat visite.
      *
-     * @var string
+     * @var string|null
      */
     private $etatVisite;
 
@@ -73,69 +73,70 @@ class VisiteMedicaleLigne {
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Tel1.
      *
-     * @var string
+     * @var string|null
      */
     private $tel1;
 
     /**
      * Type ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $typeLigne;
 
     /**
      * Type visite.
      *
-     * @var string
+     * @var string|null
      */
     private $typeVisite;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code medecine travail.
      *
-     * @return string Returns the code medecine travail.
+     * @return string|null Returns the code medecine travail.
      */
-    public function getCodeMedecineTravail() {
+    public function getCodeMedecineTravail(): ?string{
         return $this->codeMedecineTravail;
     }
 
     /**
      * Get the code session.
      *
-     * @return string Returns the code session.
+     * @return string|null Returns the code session.
      */
-    public function getCodeSession() {
+    public function getCodeSession(): ?string{
         return $this->codeSession;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
@@ -144,25 +145,25 @@ class VisiteMedicaleLigne {
      *
      * @return DateTime|null Returns the date visite.
      */
-    public function getDateVisite() {
+    public function getDateVisite(): ?DateTime{
         return $this->dateVisite;
     }
 
     /**
      * Get the duree visite.
      *
-     * @return float Returns the duree visite.
+     * @return float|null Returns the duree visite.
      */
-    public function getDureeVisite() {
+    public function getDureeVisite(): ?float{
         return $this->dureeVisite;
     }
 
     /**
      * Get the etat visite.
      *
-     * @return string Returns the etat visite.
+     * @return string|null Returns the etat visite.
      */
-    public function getEtatVisite() {
+    public function getEtatVisite(): ?string{
         return $this->etatVisite;
     }
 
@@ -171,62 +172,62 @@ class VisiteMedicaleLigne {
      *
      * @return DateTime|null Returns the heure visite.
      */
-    public function getHeureVisite() {
+    public function getHeureVisite(): ?DateTime{
         return $this->heureVisite;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the tel1.
      *
-     * @return string Returns the tel1.
+     * @return string|null Returns the tel1.
      */
-    public function getTel1() {
+    public function getTel1(): ?string{
         return $this->tel1;
     }
 
     /**
      * Get the type ligne.
      *
-     * @return string Returns the type ligne.
+     * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne() {
+    public function getTypeLigne(): ?string{
         return $this->typeLigne;
     }
 
     /**
      * Get the type visite.
      *
-     * @return string Returns the type visite.
+     * @return string|null Returns the type visite.
      */
-    public function getTypeVisite() {
+    public function getTypeVisite(): ?string{
         return $this->typeVisite;
     }
 
     /**
      * Set the code medecine travail.
      *
-     * @param string $codeMedecineTravail The code medecine travail.
+     * @param string|null $codeMedecineTravail The code medecine travail.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setCodeMedecineTravail($codeMedecineTravail) {
+    public function setCodeMedecineTravail(?string $codeMedecineTravail): VisiteMedicaleLigne {
         $this->codeMedecineTravail = $codeMedecineTravail;
         return $this;
     }
@@ -234,10 +235,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the code session.
      *
-     * @param string $codeSession The code session.
+     * @param string|null $codeSession The code session.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setCodeSession($codeSession) {
+    public function setCodeSession(?string $codeSession): VisiteMedicaleLigne {
         $this->codeSession = $codeSession;
         return $this;
     }
@@ -245,10 +246,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): VisiteMedicaleLigne {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -259,7 +260,7 @@ class VisiteMedicaleLigne {
      * @param DateTime|null $dateVisite The date visite.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setDateVisite(DateTime $dateVisite = null) {
+    public function setDateVisite(?DateTime $dateVisite): VisiteMedicaleLigne {
         $this->dateVisite = $dateVisite;
         return $this;
     }
@@ -267,10 +268,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the duree visite.
      *
-     * @param float $dureeVisite The duree visite.
+     * @param float|null $dureeVisite The duree visite.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setDureeVisite($dureeVisite) {
+    public function setDureeVisite(?float $dureeVisite): VisiteMedicaleLigne {
         $this->dureeVisite = $dureeVisite;
         return $this;
     }
@@ -278,10 +279,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the etat visite.
      *
-     * @param string $etatVisite The etat visite.
+     * @param string|null $etatVisite The etat visite.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setEtatVisite($etatVisite) {
+    public function setEtatVisite(?string $etatVisite): VisiteMedicaleLigne {
         $this->etatVisite = $etatVisite;
         return $this;
     }
@@ -292,7 +293,7 @@ class VisiteMedicaleLigne {
      * @param DateTime|null $heureVisite The heure visite.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setHeureVisite(DateTime $heureVisite = null) {
+    public function setHeureVisite(?DateTime $heureVisite): VisiteMedicaleLigne {
         $this->heureVisite = $heureVisite;
         return $this;
     }
@@ -300,10 +301,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): VisiteMedicaleLigne {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -311,10 +312,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): VisiteMedicaleLigne {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -322,10 +323,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the tel1.
      *
-     * @param string $tel1 The tel1.
+     * @param string|null $tel1 The tel1.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setTel1($tel1) {
+    public function setTel1(?string $tel1): VisiteMedicaleLigne {
         $this->tel1 = $tel1;
         return $this;
     }
@@ -333,10 +334,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the type ligne.
      *
-     * @param string $typeLigne The type ligne.
+     * @param string|null $typeLigne The type ligne.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setTypeLigne($typeLigne) {
+    public function setTypeLigne(?string $typeLigne): VisiteMedicaleLigne {
         $this->typeLigne = $typeLigne;
         return $this;
     }
@@ -344,10 +345,10 @@ class VisiteMedicaleLigne {
     /**
      * Set the type visite.
      *
-     * @param string $typeVisite The type visite.
+     * @param string|null $typeVisite The type visite.
      * @return VisiteMedicaleLigne Returns this Visite medicale ligne.
      */
-    public function setTypeVisite($typeVisite) {
+    public function setTypeVisite(?string $typeVisite): VisiteMedicaleLigne {
         $this->typeVisite = $typeVisite;
         return $this;
     }

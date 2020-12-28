@@ -27,7 +27,7 @@ class ConventionsColConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new ConventionsColConf();
 
@@ -40,7 +40,7 @@ class ConventionsColConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroit() {
+    public function testSetDroit(): void {
 
         $obj = new ConventionsColConf();
 
@@ -53,7 +53,7 @@ class ConventionsColConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new ConventionsColConf();
 
@@ -66,7 +66,7 @@ class ConventionsColConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConventionsColConf();
 

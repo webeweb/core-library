@@ -29,7 +29,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new LignesAtc();
 
@@ -42,7 +42,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCotis() {
+    public function testSetMontantCotis(): void {
 
         $obj = new LignesAtc();
 
@@ -55,7 +55,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotif() {
+    public function testSetMotif(): void {
 
         $obj = new LignesAtc();
 
@@ -68,7 +68,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesAtc();
 
@@ -81,7 +81,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new LignesAtc();
 
@@ -95,7 +95,7 @@ class LignesAtcTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class LignesAtcTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPsEuroOuFranc() {
+    public function testSetPsEuroOuFranc(): void {
 
         $obj = new LignesAtc();
 
@@ -141,7 +141,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireEuroOuFranc() {
+    public function testSetSalaireEuroOuFranc(): void {
 
         $obj = new LignesAtc();
 
@@ -154,7 +154,7 @@ class LignesAtcTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesAtc();
 

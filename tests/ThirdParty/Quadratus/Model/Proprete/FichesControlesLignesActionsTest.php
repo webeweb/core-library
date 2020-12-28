@@ -29,7 +29,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new FichesControlesLignesActions();
 
@@ -42,7 +42,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new FichesControlesLignesActions();
 
@@ -55,7 +55,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new FichesControlesLignesActions();
 
@@ -68,7 +68,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FichesControlesLignesActions();
 
@@ -82,7 +82,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleAction() {
+    public function testSetLibelleAction(): void {
 
         $obj = new FichesControlesLignesActions();
 
@@ -111,7 +111,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroFiche() {
+    public function testSetNumeroFiche(): void {
 
         $obj = new FichesControlesLignesActions();
 
@@ -124,7 +124,7 @@ class FichesControlesLignesActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesControlesLignesActions();
 

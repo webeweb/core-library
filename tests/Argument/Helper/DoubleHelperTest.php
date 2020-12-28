@@ -29,7 +29,7 @@ class DoubleHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseString() {
+    public function testParseString(): void {
 
         $this->assertNull(DoubleHelper::parseString(null));
         $this->assertEquals(1.0, DoubleHelper::parseString("1"));
@@ -45,7 +45,7 @@ class DoubleHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseStringWithFloatArgumentException() {
+    public function testParseStringWithFloatArgumentException(): void {
 
         try {
 

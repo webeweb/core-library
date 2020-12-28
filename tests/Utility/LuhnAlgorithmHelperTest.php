@@ -20,14 +20,14 @@ use WBW\Library\Core\Utility\LuhnAlgorithmHelper;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Tests\Utility
  */
-class LuhnAlgorithmTest extends AbstractTestCase {
+class LuhnAlgorithmHelperTest extends AbstractTestCase {
 
     /**
      * Tests the check() method.
      *
      * @return void
      */
-    public function testCheck() {
+    public function testCheck(): void {
 
         $this->assertTrue(LuhnAlgorithmHelper::check("51538089700014"));
         $this->assertFalse(LuhnAlgorithmHelper::check("51538089700024"));

@@ -28,7 +28,7 @@ class ApiExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         // Set an Exception mock.
         $throwable = new Exception();

@@ -27,7 +27,7 @@ class IntegerCivilityTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCivility() {
+    public function testSetCivility(): void {
 
         $obj = new TestIntegerCivilityTrait();
 
@@ -40,7 +40,7 @@ class IntegerCivilityTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerCivilityTrait();
 

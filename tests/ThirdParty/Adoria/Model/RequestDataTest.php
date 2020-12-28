@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Model;
+namespace WBW\Library\Core\Tests\ThirdParty\Adoria\Model;
 
 use DateTime;
 use Exception;
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
  * Request data test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Model
+ * @package WBW\Library\Core\Tests\ThirdParty\Adoria\Model
  */
 class RequestDataTest extends AbstractTestCase {
 
@@ -29,7 +29,7 @@ class RequestDataTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnalyticCode() {
+    public function testSetAnalyticCode(): void {
 
         $obj = new RequestData();
 
@@ -43,7 +43,7 @@ class RequestDataTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetBuyDateMax() {
+    public function testSetBuyDateMax(): void {
 
         // Set an Buy max date mock.
         $buyDateMax = new DateTime();
@@ -59,7 +59,7 @@ class RequestDataTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdentificationKey() {
+    public function testSetIdentificationKey(): void {
 
         $obj = new RequestData();
 
@@ -72,7 +72,7 @@ class RequestDataTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RequestData();
 

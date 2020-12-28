@@ -31,21 +31,21 @@ class LignesIjssPrevoyance {
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Num ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $numLigne;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
@@ -63,11 +63,12 @@ class LignesIjssPrevoyance {
      */
     private $periodeFin;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -75,34 +76,34 @@ class LignesIjssPrevoyance {
      *
      * @return DateTime|null Returns the date versement.
      */
-    public function getDateVersement() {
+    public function getDateVersement(): ?DateTime{
         return $this->dateVersement;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return string Returns the num ligne.
+     * @return string|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?string{
         return $this->numLigne;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
@@ -111,7 +112,7 @@ class LignesIjssPrevoyance {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -120,7 +121,7 @@ class LignesIjssPrevoyance {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
@@ -130,7 +131,7 @@ class LignesIjssPrevoyance {
      * @param DateTime|null $dateVersement The date versement.
      * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
-    public function setDateVersement(DateTime $dateVersement = null) {
+    public function setDateVersement(?DateTime $dateVersement): LignesIjssPrevoyance {
         $this->dateVersement = $dateVersement;
         return $this;
     }
@@ -138,10 +139,10 @@ class LignesIjssPrevoyance {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): LignesIjssPrevoyance {
         $this->montant = $montant;
         return $this;
     }
@@ -149,10 +150,10 @@ class LignesIjssPrevoyance {
     /**
      * Set the num ligne.
      *
-     * @param string $numLigne The num ligne.
+     * @param string|null $numLigne The num ligne.
      * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?string $numLigne): LignesIjssPrevoyance {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -160,10 +161,10 @@ class LignesIjssPrevoyance {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): LignesIjssPrevoyance {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -174,7 +175,7 @@ class LignesIjssPrevoyance {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): LignesIjssPrevoyance {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -185,7 +186,7 @@ class LignesIjssPrevoyance {
      * @param DateTime|null $periodeFin The periode fin.
      * @return LignesIjssPrevoyance Returns this Lignes ijss prevoyance.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): LignesIjssPrevoyance {
         $this->periodeFin = $periodeFin;
         return $this;
     }

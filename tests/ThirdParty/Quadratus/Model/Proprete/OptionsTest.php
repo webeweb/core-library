@@ -29,7 +29,7 @@ class OptionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBooleen() {
+    public function testSetBooleen(): void {
 
         $obj = new Options();
 
@@ -43,7 +43,7 @@ class OptionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateHeure() {
+    public function testSetDateHeure(): void {
 
         // Set a Date/time mock.
         $dateHeure = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class OptionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptif() {
+    public function testSetDescriptif(): void {
 
         $obj = new Options();
 
@@ -72,7 +72,7 @@ class OptionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumerique() {
+    public function testSetNumerique(): void {
 
         $obj = new Options();
 
@@ -85,7 +85,7 @@ class OptionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetString() {
+    public function testSetString(): void {
 
         $obj = new Options();
 
@@ -98,7 +98,7 @@ class OptionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Options();
 

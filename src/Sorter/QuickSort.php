@@ -49,7 +49,7 @@ class QuickSort {
      *
      * @return FunctorInterface Returns the functor.
      */
-    public function getFunctor() {
+    public function getFunctor(): FunctorInterface {
         return $this->functor;
     }
 
@@ -58,7 +58,7 @@ class QuickSort {
      *
      * @return array Returns the values.
      */
-    public function getValues() {
+    public function getValues(): array {
         return $this->values;
     }
 
@@ -69,7 +69,7 @@ class QuickSort {
      * @param int $max The max index.
      * @return void
      */
-    private function quickSort($min, $max) {
+    private function quickSort(int $min, int $max): void {
 
         $i = $min;
         $j = $max;
@@ -107,7 +107,7 @@ class QuickSort {
      * @param FunctorInterface $functor The functor.
      * @return QuickSort Returns this quick sort.
      */
-    protected function setFunctor(FunctorInterface $functor) {
+    protected function setFunctor(FunctorInterface $functor): QuickSort {
         $this->functor = $functor;
         return $this;
     }
@@ -118,7 +118,7 @@ class QuickSort {
      * @param array $values The values.
      * @return QuickSort Returns this quick sort.
      */
-    protected function setValues(array $values) {
+    protected function setValues(array $values): QuickSort {
         $this->values = $values;
         return $this;
     }
@@ -128,7 +128,7 @@ class QuickSort {
      *
      * @return void
      */
-    public function sort() {
+    public function sort(): void {
         $this->quickSort(0, count($this->getValues()) - 1);
     }
 
@@ -139,7 +139,7 @@ class QuickSort {
      * @param int $b The second value index.
      * @return void
      */
-    private function swap($a, $b) {
+    private function swap(int $a, int $b): void {
         $value = $this->getValues()[$a];
 
         $this->values[$a] = $this->getValues()[$b];

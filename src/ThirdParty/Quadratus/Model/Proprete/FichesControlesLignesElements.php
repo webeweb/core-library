@@ -24,35 +24,35 @@ class FichesControlesLignesElements {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code element.
      *
-     * @var string
+     * @var string|null
      */
     private $codeElement;
 
     /**
      * Coefficient.
      *
-     * @var float
+     * @var float|null
      */
     private $coefficient;
 
@@ -66,87 +66,88 @@ class FichesControlesLignesElements {
     /**
      * Niveau noeud.
      *
-     * @var int
+     * @var int|null
      */
     private $niveauNoeud;
 
     /**
      * Note.
      *
-     * @var int
+     * @var int|null
      */
     private $note;
 
     /**
      * Numero fiche.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroFiche;
 
     /**
      * Numero noeud.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroNoeud;
 
     /**
      * Type element.
      *
-     * @var string
+     * @var string|null
      */
     private $typeElement;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code element.
      *
-     * @return string Returns the code element.
+     * @return string|null Returns the code element.
      */
-    public function getCodeElement() {
+    public function getCodeElement(): ?string{
         return $this->codeElement;
     }
 
     /**
      * Get the coefficient.
      *
-     * @return float Returns the coefficient.
+     * @return float|null Returns the coefficient.
      */
-    public function getCoefficient() {
+    public function getCoefficient(): ?float{
         return $this->coefficient;
     }
 
@@ -155,62 +156,62 @@ class FichesControlesLignesElements {
      *
      * @return DateTime|null Returns the mise en conformite.
      */
-    public function getMiseEnConformite() {
+    public function getMiseEnConformite(): ?DateTime{
         return $this->miseEnConformite;
     }
 
     /**
      * Get the niveau noeud.
      *
-     * @return int Returns the niveau noeud.
+     * @return int|null Returns the niveau noeud.
      */
-    public function getNiveauNoeud() {
+    public function getNiveauNoeud(): ?int{
         return $this->niveauNoeud;
     }
 
     /**
      * Get the note.
      *
-     * @return int Returns the note.
+     * @return int|null Returns the note.
      */
-    public function getNote() {
+    public function getNote(): ?int{
         return $this->note;
     }
 
     /**
      * Get the numero fiche.
      *
-     * @return int Returns the numero fiche.
+     * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche() {
+    public function getNumeroFiche(): ?int{
         return $this->numeroFiche;
     }
 
     /**
      * Get the numero noeud.
      *
-     * @return int Returns the numero noeud.
+     * @return int|null Returns the numero noeud.
      */
-    public function getNumeroNoeud() {
+    public function getNumeroNoeud(): ?int{
         return $this->numeroNoeud;
     }
 
     /**
      * Get the type element.
      *
-     * @return string Returns the type element.
+     * @return string|null Returns the type element.
      */
-    public function getTypeElement() {
+    public function getTypeElement(): ?string{
         return $this->typeElement;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FichesControlesLignesElements {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -218,10 +219,10 @@ class FichesControlesLignesElements {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FichesControlesLignesElements {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -229,10 +230,10 @@ class FichesControlesLignesElements {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FichesControlesLignesElements {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -240,10 +241,10 @@ class FichesControlesLignesElements {
     /**
      * Set the code element.
      *
-     * @param string $codeElement The code element.
+     * @param string|null $codeElement The code element.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setCodeElement($codeElement) {
+    public function setCodeElement(?string $codeElement): FichesControlesLignesElements {
         $this->codeElement = $codeElement;
         return $this;
     }
@@ -251,10 +252,10 @@ class FichesControlesLignesElements {
     /**
      * Set the coefficient.
      *
-     * @param float $coefficient The coefficient.
+     * @param float|null $coefficient The coefficient.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setCoefficient($coefficient) {
+    public function setCoefficient(?float $coefficient): FichesControlesLignesElements {
         $this->coefficient = $coefficient;
         return $this;
     }
@@ -265,7 +266,7 @@ class FichesControlesLignesElements {
      * @param DateTime|null $miseEnConformite The mise en conformite.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setMiseEnConformite(DateTime $miseEnConformite = null) {
+    public function setMiseEnConformite(?DateTime $miseEnConformite): FichesControlesLignesElements {
         $this->miseEnConformite = $miseEnConformite;
         return $this;
     }
@@ -273,10 +274,10 @@ class FichesControlesLignesElements {
     /**
      * Set the niveau noeud.
      *
-     * @param int $niveauNoeud The niveau noeud.
+     * @param int|null $niveauNoeud The niveau noeud.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setNiveauNoeud($niveauNoeud) {
+    public function setNiveauNoeud(?int $niveauNoeud): FichesControlesLignesElements {
         $this->niveauNoeud = $niveauNoeud;
         return $this;
     }
@@ -284,10 +285,10 @@ class FichesControlesLignesElements {
     /**
      * Set the note.
      *
-     * @param int $note The note.
+     * @param int|null $note The note.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setNote($note) {
+    public function setNote(?int $note): FichesControlesLignesElements {
         $this->note = $note;
         return $this;
     }
@@ -295,10 +296,10 @@ class FichesControlesLignesElements {
     /**
      * Set the numero fiche.
      *
-     * @param int $numeroFiche The numero fiche.
+     * @param int|null $numeroFiche The numero fiche.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setNumeroFiche($numeroFiche) {
+    public function setNumeroFiche(?int $numeroFiche): FichesControlesLignesElements {
         $this->numeroFiche = $numeroFiche;
         return $this;
     }
@@ -306,10 +307,10 @@ class FichesControlesLignesElements {
     /**
      * Set the numero noeud.
      *
-     * @param int $numeroNoeud The numero noeud.
+     * @param int|null $numeroNoeud The numero noeud.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setNumeroNoeud($numeroNoeud) {
+    public function setNumeroNoeud(?int $numeroNoeud): FichesControlesLignesElements {
         $this->numeroNoeud = $numeroNoeud;
         return $this;
     }
@@ -317,10 +318,10 @@ class FichesControlesLignesElements {
     /**
      * Set the type element.
      *
-     * @param string $typeElement The type element.
+     * @param string|null $typeElement The type element.
      * @return FichesControlesLignesElements Returns this Fiches controles lignes elements.
      */
-    public function setTypeElement($typeElement) {
+    public function setTypeElement(?string $typeElement): FichesControlesLignesElements {
         $this->typeElement = $typeElement;
         return $this;
     }

@@ -29,7 +29,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnalDiff() {
+    public function testSetAnalDiff(): void {
 
         $obj = new LignesBulletin();
 
@@ -42,7 +42,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvantageNature() {
+    public function testSetAvantageNature(): void {
 
         $obj = new LignesBulletin();
 
@@ -55,7 +55,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseSansReintegration() {
+    public function testSetBaseSansReintegration(): void {
 
         $obj = new LignesBulletin();
 
@@ -68,7 +68,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleLigBul() {
+    public function testSetCleLigBul(): void {
 
         $obj = new LignesBulletin();
 
@@ -81,7 +81,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new LignesBulletin();
 
@@ -94,7 +94,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCalcul() {
+    public function testSetCodeCalcul(): void {
 
         $obj = new LignesBulletin();
 
@@ -107,7 +107,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionSpec() {
+    public function testSetConditionSpec(): void {
 
         $obj = new LignesBulletin();
 
@@ -120,7 +120,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCongePaye() {
+    public function testSetCongePaye(): void {
 
         $obj = new LignesBulletin();
 
@@ -133,7 +133,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumulCoutGlob() {
+    public function testSetCumulCoutGlob(): void {
 
         $obj = new LignesBulletin();
 
@@ -146,7 +146,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionBase() {
+    public function testSetEditionBase(): void {
 
         $obj = new LignesBulletin();
 
@@ -159,7 +159,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionCotPatronale() {
+    public function testSetEditionCotPatronale(): void {
 
         $obj = new LignesBulletin();
 
@@ -172,7 +172,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionResultat() {
+    public function testSetEditionResultat(): void {
 
         $obj = new LignesBulletin();
 
@@ -185,7 +185,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionTauxSal() {
+    public function testSetEditionTauxSal(): void {
 
         $obj = new LignesBulletin();
 
@@ -198,7 +198,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagForce() {
+    public function testSetFlagForce(): void {
 
         $obj = new LignesBulletin();
 
@@ -211,7 +211,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new LignesBulletin();
 
@@ -224,7 +224,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntegNetPaye() {
+    public function testSetIntegNetPaye(): void {
 
         $obj = new LignesBulletin();
 
@@ -237,7 +237,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntervientBrutAl() {
+    public function testSetIntervientBrutAl(): void {
 
         $obj = new LignesBulletin();
 
@@ -250,7 +250,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntervientIndemPreca() {
+    public function testSetIntervientIndemPreca(): void {
 
         $obj = new LignesBulletin();
 
@@ -263,7 +263,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntervientTauxHAbCp() {
+    public function testSetIntervientTauxHAbCp(): void {
 
         $obj = new LignesBulletin();
 
@@ -276,7 +276,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new LignesBulletin();
 
@@ -289,7 +289,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLien() {
+    public function testSetLien(): void {
 
         $obj = new LignesBulletin();
 
@@ -302,7 +302,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant1() {
+    public function testSetMontant1(): void {
 
         $obj = new LignesBulletin();
 
@@ -315,7 +315,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant2() {
+    public function testSetMontant2(): void {
 
         $obj = new LignesBulletin();
 
@@ -328,7 +328,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant3() {
+    public function testSetMontant3(): void {
 
         $obj = new LignesBulletin();
 
@@ -341,7 +341,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant4() {
+    public function testSetMontant4(): void {
 
         $obj = new LignesBulletin();
 
@@ -354,7 +354,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantGlobal() {
+    public function testSetMontantGlobal(): void {
 
         $obj = new LignesBulletin();
 
@@ -367,7 +367,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSalarial() {
+    public function testSetMontantSalarial(): void {
 
         $obj = new LignesBulletin();
 
@@ -380,7 +380,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNeutre() {
+    public function testSetNeutre(): void {
 
         $obj = new LignesBulletin();
 
@@ -393,7 +393,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCumulBulletin() {
+    public function testSetNumCumulBulletin(): void {
 
         $obj = new LignesBulletin();
 
@@ -406,7 +406,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCumulPatron() {
+    public function testSetNumCumulPatron(): void {
 
         $obj = new LignesBulletin();
 
@@ -419,7 +419,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigneBulletin() {
+    public function testSetNumLigneBulletin(): void {
 
         $obj = new LignesBulletin();
 
@@ -432,7 +432,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new LignesBulletin();
 
@@ -445,7 +445,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasEditer() {
+    public function testSetPasEditer(): void {
 
         $obj = new LignesBulletin();
 
@@ -459,7 +459,7 @@ class LignesBulletinTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -475,7 +475,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPpSoumisTaxe() {
+    public function testSetPpSoumisTaxe(): void {
 
         $obj = new LignesBulletin();
 
@@ -488,7 +488,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrimeNonProratisee() {
+    public function testSetPrimeNonProratisee(): void {
 
         $obj = new LignesBulletin();
 
@@ -501,7 +501,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleCalcul() {
+    public function testSetRegleCalcul(): void {
 
         $obj = new LignesBulletin();
 
@@ -514,7 +514,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleTaux() {
+    public function testSetRegleTaux(): void {
 
         $obj = new LignesBulletin();
 
@@ -527,7 +527,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisAbattement() {
+    public function testSetSoumisAbattement(): void {
 
         $obj = new LignesBulletin();
 
@@ -540,7 +540,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCrds() {
+    public function testSetSoumisCrds(): void {
 
         $obj = new LignesBulletin();
 
@@ -553,7 +553,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCsg() {
+    public function testSetSoumisCsg(): void {
 
         $obj = new LignesBulletin();
 
@@ -566,7 +566,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsence() {
+    public function testSetTypeAbsence(): void {
 
         $obj = new LignesBulletin();
 
@@ -579,7 +579,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAcompte() {
+    public function testSetTypeAcompte(): void {
 
         $obj = new LignesBulletin();
 
@@ -592,7 +592,7 @@ class LignesBulletinTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesBulletin();
 

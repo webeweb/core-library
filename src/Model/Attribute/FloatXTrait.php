@@ -22,16 +22,16 @@ trait FloatXTrait {
     /**
      * X.
      *
-     * @var float
+     * @var float|null
      */
     protected $x;
 
     /**
      * Get the x.
      *
-     * @return float Returns the x.
+     * @return float|null Returns the x.
      */
-    public function getX() {
+    public function getX(): ?float {
         return $this->x;
     }
 
@@ -40,16 +40,16 @@ trait FloatXTrait {
      *
      * @return int Returns the x.
      */
-    public function getXInt() {
+    public function getXInt(): int {
         return intval($this->x);
     }
 
     /**
      * Set the x.
      *
-     * @param float $x The x.
+     * @param float|null $x The x.
      */
-    public function setX($x) {
+    public function setX(?float $x) {
         $this->x = $x;
         return $this;
     }

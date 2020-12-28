@@ -37,7 +37,7 @@ class ResponseDeserializer {
      * @param string $rawResponse The raw response.
      * @return Line Returns the line.
      */
-    public static function deserializeLine($rawResponse) {
+    public static function deserializeLine(string $rawResponse): Line {
 
         $decodedResponse = json_decode($rawResponse, true);
 
@@ -68,7 +68,7 @@ class ResponseDeserializer {
      * @param string $rawResponse The raw response.
      * @return Result Returns the result.
      */
-    public static function deserializeResult($rawResponse) {
+    public static function deserializeResult(string $rawResponse): Result {
 
         $model = new Result();
 

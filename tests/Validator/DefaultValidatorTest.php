@@ -9,11 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Validation;
+namespace WBW\Library\Core\Tests\Validator;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validator\Rule\TestValidationRule;
-use WBW\Library\Core\Validator\API\ValidationRuleInterface;
 use WBW\Library\Core\Validator\API\ValidationRuleSetInterface;
 use WBW\Library\Core\Validator\API\ValidationStatusInterface;
 use WBW\Library\Core\Validator\DefaultValidator;
@@ -28,13 +27,6 @@ use WBW\Library\Core\Validator\RuleSet\DefaultValidationRuleSet;
 class DefaultValidatorTest extends AbstractTestCase {
 
     /**
-     * Rule.
-     *
-     * @var ValidationRuleInterface
-     */
-    private $rule;
-
-    /**
      * Rule set.
      *
      * @var ValidationRuleSetInterface
@@ -42,17 +34,17 @@ class DefaultValidatorTest extends AbstractTestCase {
     private $ruleSet;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set a Validation rule mock.
-        $this->rule = new TestValidationRule();
+        $rule = new TestValidationRule();
 
         // Set a Validation rule set mock.
         $this->ruleSet = new DefaultValidationRuleSet();
-        $this->ruleSet->addRule($this->rule);
+        $this->ruleSet->addRule($rule);
     }
 
     /**
@@ -60,7 +52,7 @@ class DefaultValidatorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testValidate() {
+    public function testValidate(): void {
 
         $obj = new DefaultValidator($this->ruleSet);
 
@@ -76,7 +68,7 @@ class DefaultValidatorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DefaultValidator($this->ruleSet);
 

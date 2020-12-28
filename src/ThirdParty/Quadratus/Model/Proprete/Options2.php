@@ -24,14 +24,14 @@ class Options2 {
     /**
      * Booleen.
      *
-     * @var bool
+     * @var bool|null
      */
     private $booleen;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
@@ -45,53 +45,54 @@ class Options2 {
     /**
      * Descriptif.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptif;
 
     /**
      * Numerique.
      *
-     * @var float
+     * @var float|null
      */
     private $numerique;
 
     /**
      * String.
      *
-     * @var string
+     * @var string|null
      */
     private $string;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the booleen.
      *
-     * @return bool Returns the booleen.
+     * @return bool|null Returns the booleen.
      */
-    public function getBooleen() {
+    public function getBooleen(): ?bool{
         return $this->booleen;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
@@ -100,53 +101,53 @@ class Options2 {
      *
      * @return DateTime|null Returns the date heure.
      */
-    public function getDateHeure() {
+    public function getDateHeure(): ?DateTime{
         return $this->dateHeure;
     }
 
     /**
      * Get the descriptif.
      *
-     * @return string Returns the descriptif.
+     * @return string|null Returns the descriptif.
      */
-    public function getDescriptif() {
+    public function getDescriptif(): ?string{
         return $this->descriptif;
     }
 
     /**
      * Get the numerique.
      *
-     * @return float Returns the numerique.
+     * @return float|null Returns the numerique.
      */
-    public function getNumerique() {
+    public function getNumerique(): ?float{
         return $this->numerique;
     }
 
     /**
      * Get the string.
      *
-     * @return string Returns the string.
+     * @return string|null Returns the string.
      */
-    public function getString() {
+    public function getString(): ?string{
         return $this->string;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the booleen.
      *
-     * @param bool $booleen The booleen.
+     * @param bool|null $booleen The booleen.
      * @return Options2 Returns this Options2.
      */
-    public function setBooleen($booleen) {
+    public function setBooleen(?bool $booleen): Options2 {
         $this->booleen = $booleen;
         return $this;
     }
@@ -154,10 +155,10 @@ class Options2 {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Options2 Returns this Options2.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Options2 {
         $this->code = $code;
         return $this;
     }
@@ -168,7 +169,7 @@ class Options2 {
      * @param DateTime|null $dateHeure The date heure.
      * @return Options2 Returns this Options2.
      */
-    public function setDateHeure(DateTime $dateHeure = null) {
+    public function setDateHeure(?DateTime $dateHeure): Options2 {
         $this->dateHeure = $dateHeure;
         return $this;
     }
@@ -176,10 +177,10 @@ class Options2 {
     /**
      * Set the descriptif.
      *
-     * @param string $descriptif The descriptif.
+     * @param string|null $descriptif The descriptif.
      * @return Options2 Returns this Options2.
      */
-    public function setDescriptif($descriptif) {
+    public function setDescriptif(?string $descriptif): Options2 {
         $this->descriptif = $descriptif;
         return $this;
     }
@@ -187,10 +188,10 @@ class Options2 {
     /**
      * Set the numerique.
      *
-     * @param float $numerique The numerique.
+     * @param float|null $numerique The numerique.
      * @return Options2 Returns this Options2.
      */
-    public function setNumerique($numerique) {
+    public function setNumerique(?float $numerique): Options2 {
         $this->numerique = $numerique;
         return $this;
     }
@@ -198,10 +199,10 @@ class Options2 {
     /**
      * Set the string.
      *
-     * @param string $string The string.
+     * @param string|null $string The string.
      * @return Options2 Returns this Options2.
      */
-    public function setString($string) {
+    public function setString(?string $string): Options2 {
         $this->string = $string;
         return $this;
     }
@@ -209,10 +210,10 @@ class Options2 {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Options2 Returns this Options2.
      */
-    public function setType($type) {
+    public function setType(?string $type): Options2 {
         $this->type = $type;
         return $this;
     }

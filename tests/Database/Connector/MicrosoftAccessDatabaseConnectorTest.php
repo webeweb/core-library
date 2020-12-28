@@ -30,7 +30,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetConnectionWithInvalidArgumentException() {
+    public function testGetConnectionWithInvalidArgumentException(): void {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, "exception");
 
@@ -49,7 +49,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetConnectionWithPDOException() {
+    public function testGetConnectionWithPDOException(): void {
 
         // Set a MDB mock.
         $mdb = getcwd() . "/tests/Fixtures/Database/Connector/test.mdb";
@@ -71,7 +71,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testPrepareBinding() {
+    public function testPrepareBinding(): void {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 
@@ -85,7 +85,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testPrepareInsert() {
+    public function testPrepareInsert(): void {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 
@@ -99,7 +99,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testPrepareUpdate() {
+    public function testPrepareUpdate(): void {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 
@@ -113,7 +113,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
      *
      * @returns void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, null);
 

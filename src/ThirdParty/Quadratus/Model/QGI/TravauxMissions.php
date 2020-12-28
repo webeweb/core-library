@@ -22,241 +22,242 @@ class TravauxMissions {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Code travail.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTravail;
 
     /**
      * Declaration a rediger.
      *
-     * @var bool
+     * @var bool|null
      */
     private $declarationARediger;
 
     /**
      * Frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $frequence;
 
     /**
      * Jour.
      *
-     * @var int
+     * @var int|null
      */
     private $jour;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Missions.
      *
-     * @var string
+     * @var string|null
      */
     private $missions;
 
     /**
      * Nb uo.
      *
-     * @var float
+     * @var float|null
      */
     private $nbUo;
 
     /**
      * Ne pas editer.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nePasEditer;
 
     /**
      * Niveau.
      *
-     * @var int
+     * @var int|null
      */
     private $niveau;
 
     /**
      * Realise par.
      *
-     * @var string
+     * @var string|null
      */
     private $realisePar;
 
     /**
      * Type affectation.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAffectation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the code travail.
      *
-     * @return string Returns the code travail.
+     * @return string|null Returns the code travail.
      */
-    public function getCodeTravail() {
+    public function getCodeTravail(): ?string{
         return $this->codeTravail;
     }
 
     /**
      * Get the declaration a rediger.
      *
-     * @return bool Returns the declaration a rediger.
+     * @return bool|null Returns the declaration a rediger.
      */
-    public function getDeclarationARediger() {
+    public function getDeclarationARediger(): ?bool{
         return $this->declarationARediger;
     }
 
     /**
      * Get the frequence.
      *
-     * @return string Returns the frequence.
+     * @return string|null Returns the frequence.
      */
-    public function getFrequence() {
+    public function getFrequence(): ?string{
         return $this->frequence;
     }
 
     /**
      * Get the jour.
      *
-     * @return int Returns the jour.
+     * @return int|null Returns the jour.
      */
-    public function getJour() {
+    public function getJour(): ?int{
         return $this->jour;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the missions.
      *
-     * @return string Returns the missions.
+     * @return string|null Returns the missions.
      */
-    public function getMissions() {
+    public function getMissions(): ?string{
         return $this->missions;
     }
 
     /**
      * Get the nb uo.
      *
-     * @return float Returns the nb uo.
+     * @return float|null Returns the nb uo.
      */
-    public function getNbUo() {
+    public function getNbUo(): ?float{
         return $this->nbUo;
     }
 
     /**
      * Get the ne pas editer.
      *
-     * @return bool Returns the ne pas editer.
+     * @return bool|null Returns the ne pas editer.
      */
-    public function getNePasEditer() {
+    public function getNePasEditer(): ?bool{
         return $this->nePasEditer;
     }
 
     /**
      * Get the niveau.
      *
-     * @return int Returns the niveau.
+     * @return int|null Returns the niveau.
      */
-    public function getNiveau() {
+    public function getNiveau(): ?int{
         return $this->niveau;
     }
 
     /**
      * Get the realise par.
      *
-     * @return string Returns the realise par.
+     * @return string|null Returns the realise par.
      */
-    public function getRealisePar() {
+    public function getRealisePar(): ?string{
         return $this->realisePar;
     }
 
     /**
      * Get the type affectation.
      *
-     * @return string Returns the type affectation.
+     * @return string|null Returns the type affectation.
      */
-    public function getTypeAffectation() {
+    public function getTypeAffectation(): ?string{
         return $this->typeAffectation;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): TravauxMissions {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -264,10 +265,10 @@ class TravauxMissions {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): TravauxMissions {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -275,10 +276,10 @@ class TravauxMissions {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): TravauxMissions {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -286,10 +287,10 @@ class TravauxMissions {
     /**
      * Set the code travail.
      *
-     * @param string $codeTravail The code travail.
+     * @param string|null $codeTravail The code travail.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setCodeTravail($codeTravail) {
+    public function setCodeTravail(?string $codeTravail): TravauxMissions {
         $this->codeTravail = $codeTravail;
         return $this;
     }
@@ -297,10 +298,10 @@ class TravauxMissions {
     /**
      * Set the declaration a rediger.
      *
-     * @param bool $declarationARediger The declaration a rediger.
+     * @param bool|null $declarationARediger The declaration a rediger.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setDeclarationARediger($declarationARediger) {
+    public function setDeclarationARediger(?bool $declarationARediger): TravauxMissions {
         $this->declarationARediger = $declarationARediger;
         return $this;
     }
@@ -308,10 +309,10 @@ class TravauxMissions {
     /**
      * Set the frequence.
      *
-     * @param string $frequence The frequence.
+     * @param string|null $frequence The frequence.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setFrequence($frequence) {
+    public function setFrequence(?string $frequence): TravauxMissions {
         $this->frequence = $frequence;
         return $this;
     }
@@ -319,10 +320,10 @@ class TravauxMissions {
     /**
      * Set the jour.
      *
-     * @param int $jour The jour.
+     * @param int|null $jour The jour.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setJour($jour) {
+    public function setJour(?int $jour): TravauxMissions {
         $this->jour = $jour;
         return $this;
     }
@@ -330,10 +331,10 @@ class TravauxMissions {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TravauxMissions {
         $this->libelle = $libelle;
         return $this;
     }
@@ -341,10 +342,10 @@ class TravauxMissions {
     /**
      * Set the missions.
      *
-     * @param string $missions The missions.
+     * @param string|null $missions The missions.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setMissions($missions) {
+    public function setMissions(?string $missions): TravauxMissions {
         $this->missions = $missions;
         return $this;
     }
@@ -352,10 +353,10 @@ class TravauxMissions {
     /**
      * Set the nb uo.
      *
-     * @param float $nbUo The nb uo.
+     * @param float|null $nbUo The nb uo.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setNbUo($nbUo) {
+    public function setNbUo(?float $nbUo): TravauxMissions {
         $this->nbUo = $nbUo;
         return $this;
     }
@@ -363,10 +364,10 @@ class TravauxMissions {
     /**
      * Set the ne pas editer.
      *
-     * @param bool $nePasEditer The ne pas editer.
+     * @param bool|null $nePasEditer The ne pas editer.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setNePasEditer($nePasEditer) {
+    public function setNePasEditer(?bool $nePasEditer): TravauxMissions {
         $this->nePasEditer = $nePasEditer;
         return $this;
     }
@@ -374,10 +375,10 @@ class TravauxMissions {
     /**
      * Set the niveau.
      *
-     * @param int $niveau The niveau.
+     * @param int|null $niveau The niveau.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setNiveau($niveau) {
+    public function setNiveau(?int $niveau): TravauxMissions {
         $this->niveau = $niveau;
         return $this;
     }
@@ -385,10 +386,10 @@ class TravauxMissions {
     /**
      * Set the realise par.
      *
-     * @param string $realisePar The realise par.
+     * @param string|null $realisePar The realise par.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setRealisePar($realisePar) {
+    public function setRealisePar(?string $realisePar): TravauxMissions {
         $this->realisePar = $realisePar;
         return $this;
     }
@@ -396,10 +397,10 @@ class TravauxMissions {
     /**
      * Set the type affectation.
      *
-     * @param string $typeAffectation The type affectation.
+     * @param string|null $typeAffectation The type affectation.
      * @return TravauxMissions Returns this Travaux missions.
      */
-    public function setTypeAffectation($typeAffectation) {
+    public function setTypeAffectation(?string $typeAffectation): TravauxMissions {
         $this->typeAffectation = $typeAffectation;
         return $this;
     }

@@ -22,81 +22,82 @@ class RegroupementDs {
     /**
      * Code rds.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRds;
 
     /**
      * Code rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRupture;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code rds.
      *
-     * @return string Returns the code rds.
+     * @return string|null Returns the code rds.
      */
-    public function getCodeRds() {
+    public function getCodeRds(): ?string{
         return $this->codeRds;
     }
 
     /**
      * Get the code rupture.
      *
-     * @return string Returns the code rupture.
+     * @return string|null Returns the code rupture.
      */
-    public function getCodeRupture() {
+    public function getCodeRupture(): ?string{
         return $this->codeRupture;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
     /**
      * Set the code rds.
      *
-     * @param string $codeRds The code rds.
+     * @param string|null $codeRds The code rds.
      * @return RegroupementDs Returns this Regroupement ds.
      */
-    public function setCodeRds($codeRds) {
+    public function setCodeRds(?string $codeRds): RegroupementDs {
         $this->codeRds = $codeRds;
         return $this;
     }
@@ -104,10 +105,10 @@ class RegroupementDs {
     /**
      * Set the code rupture.
      *
-     * @param string $codeRupture The code rupture.
+     * @param string|null $codeRupture The code rupture.
      * @return RegroupementDs Returns this Regroupement ds.
      */
-    public function setCodeRupture($codeRupture) {
+    public function setCodeRupture(?string $codeRupture): RegroupementDs {
         $this->codeRupture = $codeRupture;
         return $this;
     }
@@ -115,10 +116,10 @@ class RegroupementDs {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return RegroupementDs Returns this Regroupement ds.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): RegroupementDs {
         $this->intitule = $intitule;
         return $this;
     }
@@ -126,10 +127,10 @@ class RegroupementDs {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return RegroupementDs Returns this Regroupement ds.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): RegroupementDs {
         $this->organisme = $organisme;
         return $this;
     }

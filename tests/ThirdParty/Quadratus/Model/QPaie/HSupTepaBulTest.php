@@ -29,7 +29,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new HSupTepaBul();
 
@@ -42,7 +42,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtBrutExo() {
+    public function testSetMtBrutExo(): void {
 
         $obj = new HSupTepaBul();
 
@@ -55,7 +55,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtBrutExoAbat() {
+    public function testSetMtBrutExoAbat(): void {
 
         $obj = new HSupTepaBul();
 
@@ -68,7 +68,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJhExo() {
+    public function testSetNbJhExo(): void {
 
         $obj = new HSupTepaBul();
 
@@ -81,7 +81,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new HSupTepaBul();
 
@@ -94,7 +94,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new HSupTepaBul();
 
@@ -108,7 +108,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentMajo() {
+    public function testSetPourcentMajo(): void {
 
         $obj = new HSupTepaBul();
 
@@ -137,7 +137,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeExo() {
+    public function testSetTypeExo(): void {
 
         $obj = new HSupTepaBul();
 
@@ -150,7 +150,7 @@ class HSupTepaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HSupTepaBul();
 

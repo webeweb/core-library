@@ -27,7 +27,7 @@ class FonctionsControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new FonctionsControles();
 
@@ -40,7 +40,7 @@ class FonctionsControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotControle() {
+    public function testSetMotControle(): void {
 
         $obj = new FonctionsControles();
 
@@ -53,7 +53,7 @@ class FonctionsControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new FonctionsControles();
 
@@ -66,7 +66,7 @@ class FonctionsControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FonctionsControles();
 

@@ -27,7 +27,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new SousRepertoiresAppels();
 
@@ -40,7 +40,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new SousRepertoiresAppels();
 
@@ -53,7 +53,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauLigne() {
+    public function testSetNiveauLigne(): void {
 
         $obj = new SousRepertoiresAppels();
 
@@ -66,7 +66,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new SousRepertoiresAppels();
 
@@ -79,7 +79,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProprietes() {
+    public function testSetProprietes(): void {
 
         $obj = new SousRepertoiresAppels();
 
@@ -92,7 +92,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new SousRepertoiresAppels();
 
@@ -105,7 +105,7 @@ class SousRepertoiresAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SousRepertoiresAppels();
 

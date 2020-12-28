@@ -22,25 +22,25 @@ trait StringReferenceTrait {
     /**
      * Reference.
      *
-     * @var string
+     * @var string|null
      */
     protected $reference;
 
     /**
      * Get the reference.
      *
-     * @return string Returns the reference.
+     * @return string|null Returns the reference.
      */
-    public function getReference() {
+    public function getReference(): ?string {
         return $this->reference;
     }
 
     /**
      * Set the reference.
      *
-     * @param string $reference The reference.
+     * @param string|null $reference The reference.
      */
-    public function setReference($reference) {
+    public function setReference(?string $reference) {
         $this->reference = $reference;
         return $this;
     }

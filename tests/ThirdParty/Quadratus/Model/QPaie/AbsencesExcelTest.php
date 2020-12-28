@@ -29,7 +29,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new AbsencesExcel();
 
@@ -42,7 +42,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhSais() {
+    public function testSetNbhSais(): void {
 
         $obj = new AbsencesExcel();
 
@@ -55,7 +55,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbjSais() {
+    public function testSetNbjSais(): void {
 
         $obj = new AbsencesExcel();
 
@@ -68,7 +68,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new AbsencesExcel();
 
@@ -82,7 +82,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsCp() {
+    public function testSetTypeAbsCp(): void {
 
         $obj = new AbsencesExcel();
 
@@ -128,7 +128,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeImport() {
+    public function testSetTypeImport(): void {
 
         $obj = new AbsencesExcel();
 
@@ -141,7 +141,7 @@ class AbsencesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AbsencesExcel();
 

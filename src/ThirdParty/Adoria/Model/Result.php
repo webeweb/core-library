@@ -36,7 +36,7 @@ class Result {
     /**
      * Return code.
      *
-     * @var int
+     * @var int|null
      */
     private $returnCode;
 
@@ -53,7 +53,7 @@ class Result {
      *
      * @return Line[] Returns the data.
      */
-    public function getData() {
+    public function getData(): array {
         return $this->data;
     }
 
@@ -62,16 +62,16 @@ class Result {
      *
      * @return string[] Returns the errors.
      */
-    public function getErrors() {
+    public function getErrors(): array {
         return $this->errors;
     }
 
     /**
      * Get the return code.
      *
-     * @return int Returns the return code.
+     * @return int|null Returns the return code.
      */
-    public function getReturnCode() {
+    public function getReturnCode(): ?int {
         return $this->returnCode;
     }
 
@@ -80,7 +80,7 @@ class Result {
      *
      * @return bool Returns true in case of success, false otherwise.
      */
-    public function hasData() {
+    public function hasData(): bool {
         return 0 < count($this->getData());
     }
 
@@ -89,7 +89,7 @@ class Result {
      *
      * @return bool Returns true in case of success, false otherwise.
      */
-    public function hasError() {
+    public function hasError(): bool {
         return 0 === $this->returnCode;
     }
 
@@ -99,7 +99,7 @@ class Result {
      * @param Line[] $data The data.
      * @return Result Returns this result.
      */
-    public function setData(array $data) {
+    public function setData(array $data): Result {
         $this->data = $data;
         return $this;
     }
@@ -110,7 +110,7 @@ class Result {
      * @param string[] $errors The errors.
      * @return Result Returns this result.
      */
-    public function setErrors(array $errors = []) {
+    public function setErrors(array $errors = []): Result {
         $this->errors = $errors;
         return $this;
     }
@@ -118,10 +118,10 @@ class Result {
     /**
      * Set the return code.
      *
-     * @param int $returnCode The return code.
+     * @param int|null $returnCode The return code.
      * @return Result Returns this result.
      */
-    public function setReturnCode($returnCode) {
+    public function setReturnCode(?int $returnCode): Result {
         $this->returnCode = $returnCode;
         return $this;
     }

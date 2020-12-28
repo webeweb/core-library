@@ -22,97 +22,98 @@ class AffectationAna2 {
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
     /**
      * Num compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numCompte;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Pourcentage.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcentage;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
     /**
      * Get the num compte.
      *
-     * @return string Returns the num compte.
+     * @return string|null Returns the num compte.
      */
-    public function getNumCompte() {
+    public function getNumCompte(): ?string{
         return $this->numCompte;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the pourcentage.
      *
-     * @return float Returns the pourcentage.
+     * @return float|null Returns the pourcentage.
      */
-    public function getPourcentage() {
+    public function getPourcentage(): ?float{
         return $this->pourcentage;
     }
 
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return AffectationAna2 Returns this Affectation ana2.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): AffectationAna2 {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -120,10 +121,10 @@ class AffectationAna2 {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return AffectationAna2 Returns this Affectation ana2.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): AffectationAna2 {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -131,10 +132,10 @@ class AffectationAna2 {
     /**
      * Set the num compte.
      *
-     * @param string $numCompte The num compte.
+     * @param string|null $numCompte The num compte.
      * @return AffectationAna2 Returns this Affectation ana2.
      */
-    public function setNumCompte($numCompte) {
+    public function setNumCompte(?string $numCompte): AffectationAna2 {
         $this->numCompte = $numCompte;
         return $this;
     }
@@ -142,10 +143,10 @@ class AffectationAna2 {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return AffectationAna2 Returns this Affectation ana2.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): AffectationAna2 {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -153,10 +154,10 @@ class AffectationAna2 {
     /**
      * Set the pourcentage.
      *
-     * @param float $pourcentage The pourcentage.
+     * @param float|null $pourcentage The pourcentage.
      * @return AffectationAna2 Returns this Affectation ana2.
      */
-    public function setPourcentage($pourcentage) {
+    public function setPourcentage(?float $pourcentage): AffectationAna2 {
         $this->pourcentage = $pourcentage;
         return $this;
     }

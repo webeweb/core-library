@@ -27,7 +27,7 @@ class StringHashSha1TraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHashSha1() {
+    public function testSetHashSha1(): void {
 
         $obj = new TestStringHashSha1Trait();
 
@@ -40,7 +40,7 @@ class StringHashSha1TraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringHashSha1Trait();
 

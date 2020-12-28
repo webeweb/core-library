@@ -24,28 +24,28 @@ class Logiciels {
     /**
      * Categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $categorie;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code intervenant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeIntervenant;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -66,49 +66,49 @@ class Logiciels {
     /**
      * Indice aff.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceAff;
 
     /**
      * Maintenance.
      *
-     * @var bool
+     * @var bool|null
      */
     private $maintenance;
 
     /**
      * Montant maint.
      *
-     * @var float
+     * @var float|null
      */
     private $montantMaint;
 
     /**
      * Nom logiciel.
      *
-     * @var string
+     * @var string|null
      */
     private $nomLogiciel;
 
     /**
      * Num licence.
      *
-     * @var string
+     * @var string|null
      */
     private $numLicence;
 
     /**
      * Ref image.
      *
-     * @var string
+     * @var string|null
      */
     private $refImage;
 
     /**
      * Sous categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $sousCategorie;
 
@@ -116,42 +116,42 @@ class Logiciels {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the categorie.
      *
-     * @return string Returns the categorie.
+     * @return string|null Returns the categorie.
      */
-    public function getCategorie() {
+    public function getCategorie(): ?string {
         return $this->categorie;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code intervenant.
      *
-     * @return string Returns the code intervenant.
+     * @return string|null Returns the code intervenant.
      */
-    public function getCodeIntervenant() {
+    public function getCodeIntervenant(): ?string {
         return $this->codeIntervenant;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -160,7 +160,7 @@ class Logiciels {
      *
      * @return DateTime|null Returns the date achat.
      */
-    public function getDateAchat() {
+    public function getDateAchat(): ?DateTime {
         return $this->dateAchat;
     }
 
@@ -169,80 +169,80 @@ class Logiciels {
      *
      * @return DateTime|null Returns the date fin maint.
      */
-    public function getDateFinMaint() {
+    public function getDateFinMaint(): ?DateTime {
         return $this->dateFinMaint;
     }
 
     /**
      * Get the indice aff.
      *
-     * @return int Returns the indice aff.
+     * @return int|null Returns the indice aff.
      */
-    public function getIndiceAff() {
+    public function getIndiceAff(): ?int {
         return $this->indiceAff;
     }
 
     /**
      * Get the maintenance.
      *
-     * @return bool Returns the maintenance.
+     * @return bool|null Returns the maintenance.
      */
-    public function getMaintenance() {
+    public function getMaintenance(): ?bool {
         return $this->maintenance;
     }
 
     /**
      * Get the montant maint.
      *
-     * @return float Returns the montant maint.
+     * @return float|null Returns the montant maint.
      */
-    public function getMontantMaint() {
+    public function getMontantMaint(): ?float {
         return $this->montantMaint;
     }
 
     /**
      * Get the nom logiciel.
      *
-     * @return string Returns the nom logiciel.
+     * @return string|null Returns the nom logiciel.
      */
-    public function getNomLogiciel() {
+    public function getNomLogiciel(): ?string {
         return $this->nomLogiciel;
     }
 
     /**
      * Get the num licence.
      *
-     * @return string Returns the num licence.
+     * @return string|null Returns the num licence.
      */
-    public function getNumLicence() {
+    public function getNumLicence(): ?string {
         return $this->numLicence;
     }
 
     /**
      * Get the ref image.
      *
-     * @return string Returns the ref image.
+     * @return string|null Returns the ref image.
      */
-    public function getRefImage() {
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
     /**
      * Get the sous categorie.
      *
-     * @return string Returns the sous categorie.
+     * @return string|null Returns the sous categorie.
      */
-    public function getSousCategorie() {
+    public function getSousCategorie(): ?string {
         return $this->sousCategorie;
     }
 
     /**
      * Set the categorie.
      *
-     * @param string $categorie The categorie.
+     * @param string|null $categorie The categorie.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setCategorie($categorie) {
+    public function setCategorie(?string $categorie): Logiciels {
         $this->categorie = $categorie;
         return $this;
     }
@@ -250,10 +250,10 @@ class Logiciels {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Logiciels {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -261,10 +261,10 @@ class Logiciels {
     /**
      * Set the code intervenant.
      *
-     * @param string $codeIntervenant The code intervenant.
+     * @param string|null $codeIntervenant The code intervenant.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setCodeIntervenant($codeIntervenant) {
+    public function setCodeIntervenant(?string $codeIntervenant): Logiciels {
         $this->codeIntervenant = $codeIntervenant;
         return $this;
     }
@@ -272,10 +272,10 @@ class Logiciels {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Logiciels {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -286,7 +286,7 @@ class Logiciels {
      * @param DateTime|null $dateAchat The date achat.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setDateAchat(DateTime $dateAchat = null) {
+    public function setDateAchat(?DateTime $dateAchat): Logiciels {
         $this->dateAchat = $dateAchat;
         return $this;
     }
@@ -297,7 +297,7 @@ class Logiciels {
      * @param DateTime|null $dateFinMaint The date fin maint.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setDateFinMaint(DateTime $dateFinMaint = null) {
+    public function setDateFinMaint(?DateTime $dateFinMaint): Logiciels {
         $this->dateFinMaint = $dateFinMaint;
         return $this;
     }
@@ -305,10 +305,10 @@ class Logiciels {
     /**
      * Set the indice aff.
      *
-     * @param int $indiceAff The indice aff.
+     * @param int|null $indiceAff The indice aff.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setIndiceAff($indiceAff) {
+    public function setIndiceAff(?int $indiceAff): Logiciels {
         $this->indiceAff = $indiceAff;
         return $this;
     }
@@ -316,10 +316,10 @@ class Logiciels {
     /**
      * Set the maintenance.
      *
-     * @param bool $maintenance The maintenance.
+     * @param bool|null $maintenance The maintenance.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setMaintenance($maintenance) {
+    public function setMaintenance(?bool $maintenance): Logiciels {
         $this->maintenance = $maintenance;
         return $this;
     }
@@ -327,10 +327,10 @@ class Logiciels {
     /**
      * Set the montant maint.
      *
-     * @param float $montantMaint The montant maint.
+     * @param float|null $montantMaint The montant maint.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setMontantMaint($montantMaint) {
+    public function setMontantMaint(?float $montantMaint): Logiciels {
         $this->montantMaint = $montantMaint;
         return $this;
     }
@@ -338,10 +338,10 @@ class Logiciels {
     /**
      * Set the nom logiciel.
      *
-     * @param string $nomLogiciel The nom logiciel.
+     * @param string|null $nomLogiciel The nom logiciel.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setNomLogiciel($nomLogiciel) {
+    public function setNomLogiciel(?string $nomLogiciel): Logiciels {
         $this->nomLogiciel = $nomLogiciel;
         return $this;
     }
@@ -349,10 +349,10 @@ class Logiciels {
     /**
      * Set the num licence.
      *
-     * @param string $numLicence The num licence.
+     * @param string|null $numLicence The num licence.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setNumLicence($numLicence) {
+    public function setNumLicence(?string $numLicence): Logiciels {
         $this->numLicence = $numLicence;
         return $this;
     }
@@ -360,10 +360,10 @@ class Logiciels {
     /**
      * Set the ref image.
      *
-     * @param string $refImage The ref image.
+     * @param string|null $refImage The ref image.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setRefImage($refImage) {
+    public function setRefImage(?string $refImage): Logiciels {
         $this->refImage = $refImage;
         return $this;
     }
@@ -371,10 +371,10 @@ class Logiciels {
     /**
      * Set the sous categorie.
      *
-     * @param string $sousCategorie The sous categorie.
+     * @param string|null $sousCategorie The sous categorie.
      * @return Logiciels Returns this Logiciels.
      */
-    public function setSousCategorie($sousCategorie) {
+    public function setSousCategorie(?string $sousCategorie): Logiciels {
         $this->sousCategorie = $sousCategorie;
         return $this;
     }

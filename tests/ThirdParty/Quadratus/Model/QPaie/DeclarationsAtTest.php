@@ -29,7 +29,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse() {
+    public function testSetAdresse(): void {
 
         $obj = new DeclarationsAt();
 
@@ -42,7 +42,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorie() {
+    public function testSetCategorie(): void {
 
         $obj = new DeclarationsAt();
 
@@ -55,7 +55,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DeclarationsAt();
 
@@ -68,7 +68,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new DeclarationsAt();
 
@@ -81,7 +81,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommune() {
+    public function testSetCommune(): void {
 
         $obj = new DeclarationsAt();
 
@@ -94,7 +94,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new DeclarationsAt();
 
@@ -108,7 +108,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNaissance() {
+    public function testSetDateNaissance(): void {
 
         // Set a Date/time mock.
         $dateNaissance = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeductForfait() {
+    public function testSetDeductForfait(): void {
 
         $obj = new DeclarationsAt();
 
@@ -138,7 +138,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtAccouchement() {
+    public function testSetDtAccouchement(): void {
 
         // Set a Date/time mock.
         $dtAccouchement = new DateTime("2018-09-10");
@@ -155,7 +155,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebAt() {
+    public function testSetDtDebAt(): void {
 
         // Set a Date/time mock.
         $dtDebAt = new DateTime("2018-09-10");
@@ -172,7 +172,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebConges() {
+    public function testSetDtDebConges(): void {
 
         // Set a Date/time mock.
         $dtDebConges = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtEmbauche() {
+    public function testSetDtEmbauche(): void {
 
         // Set a Date/time mock.
         $dtEmbauche = new DateTime("2018-09-10");
@@ -206,7 +206,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinConges() {
+    public function testSetDtFinConges(): void {
 
         // Set a Date/time mock.
         $dtFinConges = new DateTime("2018-09-10");
@@ -223,7 +223,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinContrat() {
+    public function testSetDtFinContrat(): void {
 
         // Set a Date/time mock.
         $dtFinContrat = new DateTime("2018-09-10");
@@ -240,7 +240,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPreavis() {
+    public function testSetDtFinPreavis(): void {
 
         // Set a Date/time mock.
         $dtFinPreavis = new DateTime("2018-09-10");
@@ -256,7 +256,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblNom() {
+    public function testSetEtblNom(): void {
 
         $obj = new DeclarationsAt();
 
@@ -269,7 +269,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblResponsable() {
+    public function testSetEtblResponsable(): void {
 
         $obj = new DeclarationsAt();
 
@@ -282,7 +282,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblSignature() {
+    public function testSetEtblSignature(): void {
 
         $obj = new DeclarationsAt();
 
@@ -295,7 +295,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblSiret() {
+    public function testSetEtblSiret(): void {
 
         $obj = new DeclarationsAt();
 
@@ -308,7 +308,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblTel() {
+    public function testSetEtblTel(): void {
 
         $obj = new DeclarationsAt();
 
@@ -321,7 +321,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new DeclarationsAt();
 
@@ -334,7 +334,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemoAccident() {
+    public function testSetMemoAccident(): void {
 
         $obj = new DeclarationsAt();
 
@@ -347,7 +347,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemoCorrespondance() {
+    public function testSetMemoCorrespondance(): void {
 
         $obj = new DeclarationsAt();
 
@@ -360,7 +360,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifAt() {
+    public function testSetMotifAt(): void {
 
         $obj = new DeclarationsAt();
 
@@ -373,7 +373,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtSalaireBrut() {
+    public function testSetMtSalaireBrut(): void {
 
         $obj = new DeclarationsAt();
 
@@ -386,7 +386,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNir() {
+    public function testSetNir(): void {
 
         $obj = new DeclarationsAt();
 
@@ -399,7 +399,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new DeclarationsAt();
 
@@ -412,7 +412,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDat() {
+    public function testSetNumDat(): void {
 
         $obj = new DeclarationsAt();
 
@@ -425,7 +425,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new DeclarationsAt();
 
@@ -438,7 +438,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new DeclarationsAt();
 
@@ -452,7 +452,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSignDate() {
+    public function testSetSignDate(): void {
 
         // Set a Date/time mock.
         $signDate = new DateTime("2018-09-10");
@@ -468,7 +468,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDat() {
+    public function testSetTypeDat(): void {
 
         $obj = new DeclarationsAt();
 
@@ -481,7 +481,7 @@ class DeclarationsAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DeclarationsAt();
 

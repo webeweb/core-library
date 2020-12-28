@@ -27,7 +27,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFichiersPublierWeb() {
+    public function testSetFichiersPublierWeb(): void {
 
         $obj = new RgCorrespondances();
 
@@ -40,7 +40,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIgnorer() {
+    public function testSetIgnorer(): void {
 
         $obj = new RgCorrespondances();
 
@@ -53,7 +53,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new RgCorrespondances();
 
@@ -66,7 +66,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDonnees() {
+    public function testSetTypeDonnees(): void {
 
         $obj = new RgCorrespondances();
 
@@ -79,7 +79,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new RgCorrespondances();
 
@@ -92,7 +92,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur() {
+    public function testSetValeur(): void {
 
         $obj = new RgCorrespondances();
 
@@ -105,7 +105,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurOrigine() {
+    public function testSetValeurOrigine(): void {
 
         $obj = new RgCorrespondances();
 
@@ -118,7 +118,7 @@ class RgCorrespondancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RgCorrespondances();
 

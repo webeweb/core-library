@@ -29,7 +29,7 @@ class iCollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new iCollaborateurs();
 
@@ -42,7 +42,7 @@ class iCollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumiKey() {
+    public function testSetNumiKey(): void {
 
         $obj = new iCollaborateurs();
 
@@ -55,7 +55,7 @@ class iCollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassword() {
+    public function testSetPassword(): void {
 
         $obj = new iCollaborateurs();
 
@@ -69,7 +69,7 @@ class iCollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetValideA() {
+    public function testSetValideA(): void {
 
         // Set a Date/time mock.
         $valideA = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class iCollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetValideDe() {
+    public function testSetValideDe(): void {
 
         // Set a Date/time mock.
         $valideDe = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class iCollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iCollaborateurs();
 

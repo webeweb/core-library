@@ -27,7 +27,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCarteAppel() {
+    public function testSetCarteAppel(): void {
 
         $obj = new CartesAppelEtebac();
 
@@ -40,7 +40,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBanque() {
+    public function testSetCodeBanque(): void {
 
         $obj = new CartesAppelEtebac();
 
@@ -53,7 +53,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdCarte() {
+    public function testSetIdCarte(): void {
 
         $obj = new CartesAppelEtebac();
 
@@ -66,7 +66,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLgCarteAppel() {
+    public function testSetLgCarteAppel(): void {
 
         $obj = new CartesAppelEtebac();
 
@@ -79,7 +79,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new CartesAppelEtebac();
 
@@ -92,7 +92,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCarte() {
+    public function testSetTypeCarte(): void {
 
         $obj = new CartesAppelEtebac();
 
@@ -105,7 +105,7 @@ class CartesAppelEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CartesAppelEtebac();
 

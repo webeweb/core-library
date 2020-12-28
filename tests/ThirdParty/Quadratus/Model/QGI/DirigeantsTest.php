@@ -29,7 +29,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Dirigeants();
 
@@ -42,7 +42,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDirigeant() {
+    public function testSetCodeDirigeant(): void {
 
         $obj = new Dirigeants();
 
@@ -55,7 +55,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFonction() {
+    public function testSetCodeFonction(): void {
 
         $obj = new Dirigeants();
 
@@ -69,7 +69,7 @@ class DirigeantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNomination() {
+    public function testSetDateNomination(): void {
 
         // Set a Date/time mock.
         $dateNomination = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new Dirigeants();
 
@@ -98,7 +98,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new Dirigeants();
 
@@ -111,7 +111,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservations() {
+    public function testSetObservations(): void {
 
         $obj = new Dirigeants();
 
@@ -124,7 +124,7 @@ class DirigeantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Dirigeants();
 

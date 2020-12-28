@@ -22,705 +22,706 @@ class Comptes2 {
     /**
      * Affacturage.
      *
-     * @var bool
+     * @var bool|null
      */
     private $affacturage;
 
     /**
      * Bic.
      *
-     * @var string
+     * @var string|null
      */
     private $bic;
 
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Code officiel commune.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOfficielCommune;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
     /**
      * Complement suite.
      *
-     * @var string
+     * @var string|null
      */
     private $complementSuite;
 
     /**
      * Contrepartie auto.
      *
-     * @var string
+     * @var string|null
      */
     private $contrepartieAuto;
 
     /**
      * Cpt four affacturage.
      *
-     * @var string
+     * @var string|null
      */
     private $cptFourAffacturage;
 
     /**
      * Cpt origine.
      *
-     * @var string
+     * @var string|null
      */
     private $cptOrigine;
 
     /**
      * Dom banque.
      *
-     * @var string
+     * @var string|null
      */
     private $domBanque;
 
     /**
      * Dom banque2.
      *
-     * @var string
+     * @var string|null
      */
     private $domBanque2;
 
     /**
      * Dom banque3.
      *
-     * @var string
+     * @var string|null
      */
     private $domBanque3;
 
     /**
      * Echeance fin decade.
      *
-     * @var bool
+     * @var bool|null
      */
     private $echeanceFinDecade;
 
     /**
      * Echeance fin quinzaine.
      *
-     * @var bool
+     * @var bool|null
      */
     private $echeanceFinQuinzaine;
 
     /**
      * Email.
      *
-     * @var string
+     * @var string|null
      */
     private $email;
 
     /**
      * Fax.
      *
-     * @var string
+     * @var string|null
      */
     private $fax;
 
     /**
      * Iban.
      *
-     * @var string
+     * @var string|null
      */
     private $iban;
 
     /**
      * Iban code imput frais.
      *
-     * @var string
+     * @var string|null
      */
     private $ibanCodeImputFrais;
 
     /**
      * Ident tva.
      *
-     * @var string
+     * @var string|null
      */
     private $identTva;
 
     /**
      * Jour depart echeance.
      *
-     * @var int
+     * @var int|null
      */
     private $jourDepartEcheance;
 
     /**
      * Mode paiement.
      *
-     * @var string
+     * @var string|null
      */
     private $modePaiement;
 
     /**
      * Nb jours echeance.
      *
-     * @var string
+     * @var string|null
      */
     private $nbJoursEcheance;
 
     /**
      * Niveau relance.
      *
-     * @var string
+     * @var string|null
      */
     private $niveauRelance;
 
     /**
      * Nom ville.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVille;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num cpt stock.
      *
-     * @var string
+     * @var string|null
      */
     private $numCptStock;
 
     /**
      * Num mandat.
      *
-     * @var int
+     * @var int|null
      */
     private $numMandat;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Pays.
      *
-     * @var string
+     * @var string|null
      */
     private $pays;
 
     /**
      * Profession.
      *
-     * @var string
+     * @var string|null
      */
     private $profession;
 
     /**
      * Rib.
      *
-     * @var string
+     * @var string|null
      */
     private $rib;
 
     /**
      * Rib2.
      *
-     * @var string
+     * @var string|null
      */
     private $rib2;
 
     /**
      * Rib3.
      *
-     * @var string
+     * @var string|null
      */
     private $rib3;
 
     /**
      * Siret.
      *
-     * @var string
+     * @var string|null
      */
     private $siret;
 
     /**
      * Suivi stock.
      *
-     * @var bool
+     * @var bool|null
      */
     private $suiviStock;
 
     /**
      * Tel1.
      *
-     * @var string
+     * @var string|null
      */
     private $tel1;
 
     /**
      * Tel2.
      *
-     * @var string
+     * @var string|null
      */
     private $tel2;
 
     /**
      * Terme echeance le.
      *
-     * @var string
+     * @var string|null
      */
     private $termeEcheanceLe;
 
     /**
      * Type suivi.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSuivi;
 
     /**
      * Zip code.
      *
-     * @var string
+     * @var string|null
      */
     private $zipCode;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the affacturage.
      *
-     * @return bool Returns the affacturage.
+     * @return bool|null Returns the affacturage.
      */
-    public function getAffacturage() {
+    public function getAffacturage(): ?bool{
         return $this->affacturage;
     }
 
     /**
      * Get the bic.
      *
-     * @return string Returns the bic.
+     * @return string|null Returns the bic.
      */
-    public function getBic() {
+    public function getBic(): ?string{
         return $this->bic;
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the code officiel commune.
      *
-     * @return string Returns the code officiel commune.
+     * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune() {
+    public function getCodeOfficielCommune(): ?string{
         return $this->codeOfficielCommune;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
     /**
      * Get the complement suite.
      *
-     * @return string Returns the complement suite.
+     * @return string|null Returns the complement suite.
      */
-    public function getComplementSuite() {
+    public function getComplementSuite(): ?string{
         return $this->complementSuite;
     }
 
     /**
      * Get the contrepartie auto.
      *
-     * @return string Returns the contrepartie auto.
+     * @return string|null Returns the contrepartie auto.
      */
-    public function getContrepartieAuto() {
+    public function getContrepartieAuto(): ?string{
         return $this->contrepartieAuto;
     }
 
     /**
      * Get the cpt four affacturage.
      *
-     * @return string Returns the cpt four affacturage.
+     * @return string|null Returns the cpt four affacturage.
      */
-    public function getCptFourAffacturage() {
+    public function getCptFourAffacturage(): ?string{
         return $this->cptFourAffacturage;
     }
 
     /**
      * Get the cpt origine.
      *
-     * @return string Returns the cpt origine.
+     * @return string|null Returns the cpt origine.
      */
-    public function getCptOrigine() {
+    public function getCptOrigine(): ?string{
         return $this->cptOrigine;
     }
 
     /**
      * Get the dom banque.
      *
-     * @return string Returns the dom banque.
+     * @return string|null Returns the dom banque.
      */
-    public function getDomBanque() {
+    public function getDomBanque(): ?string{
         return $this->domBanque;
     }
 
     /**
      * Get the dom banque2.
      *
-     * @return string Returns the dom banque2.
+     * @return string|null Returns the dom banque2.
      */
-    public function getDomBanque2() {
+    public function getDomBanque2(): ?string{
         return $this->domBanque2;
     }
 
     /**
      * Get the dom banque3.
      *
-     * @return string Returns the dom banque3.
+     * @return string|null Returns the dom banque3.
      */
-    public function getDomBanque3() {
+    public function getDomBanque3(): ?string{
         return $this->domBanque3;
     }
 
     /**
      * Get the echeance fin decade.
      *
-     * @return bool Returns the echeance fin decade.
+     * @return bool|null Returns the echeance fin decade.
      */
-    public function getEcheanceFinDecade() {
+    public function getEcheanceFinDecade(): ?bool{
         return $this->echeanceFinDecade;
     }
 
     /**
      * Get the echeance fin quinzaine.
      *
-     * @return bool Returns the echeance fin quinzaine.
+     * @return bool|null Returns the echeance fin quinzaine.
      */
-    public function getEcheanceFinQuinzaine() {
+    public function getEcheanceFinQuinzaine(): ?bool{
         return $this->echeanceFinQuinzaine;
     }
 
     /**
      * Get the email.
      *
-     * @return string Returns the email.
+     * @return string|null Returns the email.
      */
-    public function getEmail() {
+    public function getEmail(): ?string{
         return $this->email;
     }
 
     /**
      * Get the fax.
      *
-     * @return string Returns the fax.
+     * @return string|null Returns the fax.
      */
-    public function getFax() {
+    public function getFax(): ?string{
         return $this->fax;
     }
 
     /**
      * Get the iban.
      *
-     * @return string Returns the iban.
+     * @return string|null Returns the iban.
      */
-    public function getIban() {
+    public function getIban(): ?string{
         return $this->iban;
     }
 
     /**
      * Get the iban code imput frais.
      *
-     * @return string Returns the iban code imput frais.
+     * @return string|null Returns the iban code imput frais.
      */
-    public function getIbanCodeImputFrais() {
+    public function getIbanCodeImputFrais(): ?string{
         return $this->ibanCodeImputFrais;
     }
 
     /**
      * Get the ident tva.
      *
-     * @return string Returns the ident tva.
+     * @return string|null Returns the ident tva.
      */
-    public function getIdentTva() {
+    public function getIdentTva(): ?string{
         return $this->identTva;
     }
 
     /**
      * Get the jour depart echeance.
      *
-     * @return int Returns the jour depart echeance.
+     * @return int|null Returns the jour depart echeance.
      */
-    public function getJourDepartEcheance() {
+    public function getJourDepartEcheance(): ?int{
         return $this->jourDepartEcheance;
     }
 
     /**
      * Get the mode paiement.
      *
-     * @return string Returns the mode paiement.
+     * @return string|null Returns the mode paiement.
      */
-    public function getModePaiement() {
+    public function getModePaiement(): ?string{
         return $this->modePaiement;
     }
 
     /**
      * Get the nb jours echeance.
      *
-     * @return string Returns the nb jours echeance.
+     * @return string|null Returns the nb jours echeance.
      */
-    public function getNbJoursEcheance() {
+    public function getNbJoursEcheance(): ?string{
         return $this->nbJoursEcheance;
     }
 
     /**
      * Get the niveau relance.
      *
-     * @return string Returns the niveau relance.
+     * @return string|null Returns the niveau relance.
      */
-    public function getNiveauRelance() {
+    public function getNiveauRelance(): ?string{
         return $this->niveauRelance;
     }
 
     /**
      * Get the nom ville.
      *
-     * @return string Returns the nom ville.
+     * @return string|null Returns the nom ville.
      */
-    public function getNomVille() {
+    public function getNomVille(): ?string{
         return $this->nomVille;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num cpt stock.
      *
-     * @return string Returns the num cpt stock.
+     * @return string|null Returns the num cpt stock.
      */
-    public function getNumCptStock() {
+    public function getNumCptStock(): ?string{
         return $this->numCptStock;
     }
 
     /**
      * Get the num mandat.
      *
-     * @return int Returns the num mandat.
+     * @return int|null Returns the num mandat.
      */
-    public function getNumMandat() {
+    public function getNumMandat(): ?int{
         return $this->numMandat;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the pays.
      *
-     * @return string Returns the pays.
+     * @return string|null Returns the pays.
      */
-    public function getPays() {
+    public function getPays(): ?string{
         return $this->pays;
     }
 
     /**
      * Get the profession.
      *
-     * @return string Returns the profession.
+     * @return string|null Returns the profession.
      */
-    public function getProfession() {
+    public function getProfession(): ?string{
         return $this->profession;
     }
 
     /**
      * Get the rib.
      *
-     * @return string Returns the rib.
+     * @return string|null Returns the rib.
      */
-    public function getRib() {
+    public function getRib(): ?string{
         return $this->rib;
     }
 
     /**
      * Get the rib2.
      *
-     * @return string Returns the rib2.
+     * @return string|null Returns the rib2.
      */
-    public function getRib2() {
+    public function getRib2(): ?string{
         return $this->rib2;
     }
 
     /**
      * Get the rib3.
      *
-     * @return string Returns the rib3.
+     * @return string|null Returns the rib3.
      */
-    public function getRib3() {
+    public function getRib3(): ?string{
         return $this->rib3;
     }
 
     /**
      * Get the siret.
      *
-     * @return string Returns the siret.
+     * @return string|null Returns the siret.
      */
-    public function getSiret() {
+    public function getSiret(): ?string{
         return $this->siret;
     }
 
     /**
      * Get the suivi stock.
      *
-     * @return bool Returns the suivi stock.
+     * @return bool|null Returns the suivi stock.
      */
-    public function getSuiviStock() {
+    public function getSuiviStock(): ?bool{
         return $this->suiviStock;
     }
 
     /**
      * Get the tel1.
      *
-     * @return string Returns the tel1.
+     * @return string|null Returns the tel1.
      */
-    public function getTel1() {
+    public function getTel1(): ?string{
         return $this->tel1;
     }
 
     /**
      * Get the tel2.
      *
-     * @return string Returns the tel2.
+     * @return string|null Returns the tel2.
      */
-    public function getTel2() {
+    public function getTel2(): ?string{
         return $this->tel2;
     }
 
     /**
      * Get the terme echeance le.
      *
-     * @return string Returns the terme echeance le.
+     * @return string|null Returns the terme echeance le.
      */
-    public function getTermeEcheanceLe() {
+    public function getTermeEcheanceLe(): ?string{
         return $this->termeEcheanceLe;
     }
 
     /**
      * Get the type suivi.
      *
-     * @return string Returns the type suivi.
+     * @return string|null Returns the type suivi.
      */
-    public function getTypeSuivi() {
+    public function getTypeSuivi(): ?string{
         return $this->typeSuivi;
     }
 
     /**
      * Get the zip code.
      *
-     * @return string Returns the zip code.
+     * @return string|null Returns the zip code.
      */
-    public function getZipCode() {
+    public function getZipCode(): ?string{
         return $this->zipCode;
     }
 
     /**
      * Set the affacturage.
      *
-     * @param bool $affacturage The affacturage.
+     * @param bool|null $affacturage The affacturage.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setAffacturage($affacturage) {
+    public function setAffacturage(?bool $affacturage): Comptes2 {
         $this->affacturage = $affacturage;
         return $this;
     }
@@ -728,10 +729,10 @@ class Comptes2 {
     /**
      * Set the bic.
      *
-     * @param string $bic The bic.
+     * @param string|null $bic The bic.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setBic($bic) {
+    public function setBic(?string $bic): Comptes2 {
         $this->bic = $bic;
         return $this;
     }
@@ -739,10 +740,10 @@ class Comptes2 {
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): Comptes2 {
         $this->btq = $btq;
         return $this;
     }
@@ -750,10 +751,10 @@ class Comptes2 {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): Comptes2 {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -761,10 +762,10 @@ class Comptes2 {
     /**
      * Set the code officiel commune.
      *
-     * @param string $codeOfficielCommune The code officiel commune.
+     * @param string|null $codeOfficielCommune The code officiel commune.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setCodeOfficielCommune($codeOfficielCommune) {
+    public function setCodeOfficielCommune(?string $codeOfficielCommune): Comptes2 {
         $this->codeOfficielCommune = $codeOfficielCommune;
         return $this;
     }
@@ -772,10 +773,10 @@ class Comptes2 {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): Comptes2 {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -783,10 +784,10 @@ class Comptes2 {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): Comptes2 {
         $this->complement = $complement;
         return $this;
     }
@@ -794,10 +795,10 @@ class Comptes2 {
     /**
      * Set the complement suite.
      *
-     * @param string $complementSuite The complement suite.
+     * @param string|null $complementSuite The complement suite.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setComplementSuite($complementSuite) {
+    public function setComplementSuite(?string $complementSuite): Comptes2 {
         $this->complementSuite = $complementSuite;
         return $this;
     }
@@ -805,10 +806,10 @@ class Comptes2 {
     /**
      * Set the contrepartie auto.
      *
-     * @param string $contrepartieAuto The contrepartie auto.
+     * @param string|null $contrepartieAuto The contrepartie auto.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setContrepartieAuto($contrepartieAuto) {
+    public function setContrepartieAuto(?string $contrepartieAuto): Comptes2 {
         $this->contrepartieAuto = $contrepartieAuto;
         return $this;
     }
@@ -816,10 +817,10 @@ class Comptes2 {
     /**
      * Set the cpt four affacturage.
      *
-     * @param string $cptFourAffacturage The cpt four affacturage.
+     * @param string|null $cptFourAffacturage The cpt four affacturage.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setCptFourAffacturage($cptFourAffacturage) {
+    public function setCptFourAffacturage(?string $cptFourAffacturage): Comptes2 {
         $this->cptFourAffacturage = $cptFourAffacturage;
         return $this;
     }
@@ -827,10 +828,10 @@ class Comptes2 {
     /**
      * Set the cpt origine.
      *
-     * @param string $cptOrigine The cpt origine.
+     * @param string|null $cptOrigine The cpt origine.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setCptOrigine($cptOrigine) {
+    public function setCptOrigine(?string $cptOrigine): Comptes2 {
         $this->cptOrigine = $cptOrigine;
         return $this;
     }
@@ -838,10 +839,10 @@ class Comptes2 {
     /**
      * Set the dom banque.
      *
-     * @param string $domBanque The dom banque.
+     * @param string|null $domBanque The dom banque.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setDomBanque($domBanque) {
+    public function setDomBanque(?string $domBanque): Comptes2 {
         $this->domBanque = $domBanque;
         return $this;
     }
@@ -849,10 +850,10 @@ class Comptes2 {
     /**
      * Set the dom banque2.
      *
-     * @param string $domBanque2 The dom banque2.
+     * @param string|null $domBanque2 The dom banque2.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setDomBanque2($domBanque2) {
+    public function setDomBanque2(?string $domBanque2): Comptes2 {
         $this->domBanque2 = $domBanque2;
         return $this;
     }
@@ -860,10 +861,10 @@ class Comptes2 {
     /**
      * Set the dom banque3.
      *
-     * @param string $domBanque3 The dom banque3.
+     * @param string|null $domBanque3 The dom banque3.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setDomBanque3($domBanque3) {
+    public function setDomBanque3(?string $domBanque3): Comptes2 {
         $this->domBanque3 = $domBanque3;
         return $this;
     }
@@ -871,10 +872,10 @@ class Comptes2 {
     /**
      * Set the echeance fin decade.
      *
-     * @param bool $echeanceFinDecade The echeance fin decade.
+     * @param bool|null $echeanceFinDecade The echeance fin decade.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setEcheanceFinDecade($echeanceFinDecade) {
+    public function setEcheanceFinDecade(?bool $echeanceFinDecade): Comptes2 {
         $this->echeanceFinDecade = $echeanceFinDecade;
         return $this;
     }
@@ -882,10 +883,10 @@ class Comptes2 {
     /**
      * Set the echeance fin quinzaine.
      *
-     * @param bool $echeanceFinQuinzaine The echeance fin quinzaine.
+     * @param bool|null $echeanceFinQuinzaine The echeance fin quinzaine.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setEcheanceFinQuinzaine($echeanceFinQuinzaine) {
+    public function setEcheanceFinQuinzaine(?bool $echeanceFinQuinzaine): Comptes2 {
         $this->echeanceFinQuinzaine = $echeanceFinQuinzaine;
         return $this;
     }
@@ -893,10 +894,10 @@ class Comptes2 {
     /**
      * Set the email.
      *
-     * @param string $email The email.
+     * @param string|null $email The email.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setEmail($email) {
+    public function setEmail(?string $email): Comptes2 {
         $this->email = $email;
         return $this;
     }
@@ -904,10 +905,10 @@ class Comptes2 {
     /**
      * Set the fax.
      *
-     * @param string $fax The fax.
+     * @param string|null $fax The fax.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setFax($fax) {
+    public function setFax(?string $fax): Comptes2 {
         $this->fax = $fax;
         return $this;
     }
@@ -915,10 +916,10 @@ class Comptes2 {
     /**
      * Set the iban.
      *
-     * @param string $iban The iban.
+     * @param string|null $iban The iban.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setIban($iban) {
+    public function setIban(?string $iban): Comptes2 {
         $this->iban = $iban;
         return $this;
     }
@@ -926,10 +927,10 @@ class Comptes2 {
     /**
      * Set the iban code imput frais.
      *
-     * @param string $ibanCodeImputFrais The iban code imput frais.
+     * @param string|null $ibanCodeImputFrais The iban code imput frais.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setIbanCodeImputFrais($ibanCodeImputFrais) {
+    public function setIbanCodeImputFrais(?string $ibanCodeImputFrais): Comptes2 {
         $this->ibanCodeImputFrais = $ibanCodeImputFrais;
         return $this;
     }
@@ -937,10 +938,10 @@ class Comptes2 {
     /**
      * Set the ident tva.
      *
-     * @param string $identTva The ident tva.
+     * @param string|null $identTva The ident tva.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setIdentTva($identTva) {
+    public function setIdentTva(?string $identTva): Comptes2 {
         $this->identTva = $identTva;
         return $this;
     }
@@ -948,10 +949,10 @@ class Comptes2 {
     /**
      * Set the jour depart echeance.
      *
-     * @param int $jourDepartEcheance The jour depart echeance.
+     * @param int|null $jourDepartEcheance The jour depart echeance.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setJourDepartEcheance($jourDepartEcheance) {
+    public function setJourDepartEcheance(?int $jourDepartEcheance): Comptes2 {
         $this->jourDepartEcheance = $jourDepartEcheance;
         return $this;
     }
@@ -959,10 +960,10 @@ class Comptes2 {
     /**
      * Set the mode paiement.
      *
-     * @param string $modePaiement The mode paiement.
+     * @param string|null $modePaiement The mode paiement.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setModePaiement($modePaiement) {
+    public function setModePaiement(?string $modePaiement): Comptes2 {
         $this->modePaiement = $modePaiement;
         return $this;
     }
@@ -970,10 +971,10 @@ class Comptes2 {
     /**
      * Set the nb jours echeance.
      *
-     * @param string $nbJoursEcheance The nb jours echeance.
+     * @param string|null $nbJoursEcheance The nb jours echeance.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNbJoursEcheance($nbJoursEcheance) {
+    public function setNbJoursEcheance(?string $nbJoursEcheance): Comptes2 {
         $this->nbJoursEcheance = $nbJoursEcheance;
         return $this;
     }
@@ -981,10 +982,10 @@ class Comptes2 {
     /**
      * Set the niveau relance.
      *
-     * @param string $niveauRelance The niveau relance.
+     * @param string|null $niveauRelance The niveau relance.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNiveauRelance($niveauRelance) {
+    public function setNiveauRelance(?string $niveauRelance): Comptes2 {
         $this->niveauRelance = $niveauRelance;
         return $this;
     }
@@ -992,10 +993,10 @@ class Comptes2 {
     /**
      * Set the nom ville.
      *
-     * @param string $nomVille The nom ville.
+     * @param string|null $nomVille The nom ville.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNomVille($nomVille) {
+    public function setNomVille(?string $nomVille): Comptes2 {
         $this->nomVille = $nomVille;
         return $this;
     }
@@ -1003,10 +1004,10 @@ class Comptes2 {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): Comptes2 {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -1014,10 +1015,10 @@ class Comptes2 {
     /**
      * Set the num cpt stock.
      *
-     * @param string $numCptStock The num cpt stock.
+     * @param string|null $numCptStock The num cpt stock.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNumCptStock($numCptStock) {
+    public function setNumCptStock(?string $numCptStock): Comptes2 {
         $this->numCptStock = $numCptStock;
         return $this;
     }
@@ -1025,10 +1026,10 @@ class Comptes2 {
     /**
      * Set the num mandat.
      *
-     * @param int $numMandat The num mandat.
+     * @param int|null $numMandat The num mandat.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNumMandat($numMandat) {
+    public function setNumMandat(?int $numMandat): Comptes2 {
         $this->numMandat = $numMandat;
         return $this;
     }
@@ -1036,10 +1037,10 @@ class Comptes2 {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): Comptes2 {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -1047,10 +1048,10 @@ class Comptes2 {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): Comptes2 {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -1058,10 +1059,10 @@ class Comptes2 {
     /**
      * Set the pays.
      *
-     * @param string $pays The pays.
+     * @param string|null $pays The pays.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setPays($pays) {
+    public function setPays(?string $pays): Comptes2 {
         $this->pays = $pays;
         return $this;
     }
@@ -1069,10 +1070,10 @@ class Comptes2 {
     /**
      * Set the profession.
      *
-     * @param string $profession The profession.
+     * @param string|null $profession The profession.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setProfession($profession) {
+    public function setProfession(?string $profession): Comptes2 {
         $this->profession = $profession;
         return $this;
     }
@@ -1080,10 +1081,10 @@ class Comptes2 {
     /**
      * Set the rib.
      *
-     * @param string $rib The rib.
+     * @param string|null $rib The rib.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setRib($rib) {
+    public function setRib(?string $rib): Comptes2 {
         $this->rib = $rib;
         return $this;
     }
@@ -1091,10 +1092,10 @@ class Comptes2 {
     /**
      * Set the rib2.
      *
-     * @param string $rib2 The rib2.
+     * @param string|null $rib2 The rib2.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setRib2($rib2) {
+    public function setRib2(?string $rib2): Comptes2 {
         $this->rib2 = $rib2;
         return $this;
     }
@@ -1102,10 +1103,10 @@ class Comptes2 {
     /**
      * Set the rib3.
      *
-     * @param string $rib3 The rib3.
+     * @param string|null $rib3 The rib3.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setRib3($rib3) {
+    public function setRib3(?string $rib3): Comptes2 {
         $this->rib3 = $rib3;
         return $this;
     }
@@ -1113,10 +1114,10 @@ class Comptes2 {
     /**
      * Set the siret.
      *
-     * @param string $siret The siret.
+     * @param string|null $siret The siret.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setSiret($siret) {
+    public function setSiret(?string $siret): Comptes2 {
         $this->siret = $siret;
         return $this;
     }
@@ -1124,10 +1125,10 @@ class Comptes2 {
     /**
      * Set the suivi stock.
      *
-     * @param bool $suiviStock The suivi stock.
+     * @param bool|null $suiviStock The suivi stock.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setSuiviStock($suiviStock) {
+    public function setSuiviStock(?bool $suiviStock): Comptes2 {
         $this->suiviStock = $suiviStock;
         return $this;
     }
@@ -1135,10 +1136,10 @@ class Comptes2 {
     /**
      * Set the tel1.
      *
-     * @param string $tel1 The tel1.
+     * @param string|null $tel1 The tel1.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setTel1($tel1) {
+    public function setTel1(?string $tel1): Comptes2 {
         $this->tel1 = $tel1;
         return $this;
     }
@@ -1146,10 +1147,10 @@ class Comptes2 {
     /**
      * Set the tel2.
      *
-     * @param string $tel2 The tel2.
+     * @param string|null $tel2 The tel2.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setTel2($tel2) {
+    public function setTel2(?string $tel2): Comptes2 {
         $this->tel2 = $tel2;
         return $this;
     }
@@ -1157,10 +1158,10 @@ class Comptes2 {
     /**
      * Set the terme echeance le.
      *
-     * @param string $termeEcheanceLe The terme echeance le.
+     * @param string|null $termeEcheanceLe The terme echeance le.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setTermeEcheanceLe($termeEcheanceLe) {
+    public function setTermeEcheanceLe(?string $termeEcheanceLe): Comptes2 {
         $this->termeEcheanceLe = $termeEcheanceLe;
         return $this;
     }
@@ -1168,10 +1169,10 @@ class Comptes2 {
     /**
      * Set the type suivi.
      *
-     * @param string $typeSuivi The type suivi.
+     * @param string|null $typeSuivi The type suivi.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setTypeSuivi($typeSuivi) {
+    public function setTypeSuivi(?string $typeSuivi): Comptes2 {
         $this->typeSuivi = $typeSuivi;
         return $this;
     }
@@ -1179,10 +1180,10 @@ class Comptes2 {
     /**
      * Set the zip code.
      *
-     * @param string $zipCode The zip code.
+     * @param string|null $zipCode The zip code.
      * @return Comptes2 Returns this Comptes2.
      */
-    public function setZipCode($zipCode) {
+    public function setZipCode(?string $zipCode): Comptes2 {
         $this->zipCode = $zipCode;
         return $this;
     }

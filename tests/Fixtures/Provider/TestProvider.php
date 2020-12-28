@@ -34,7 +34,7 @@ class TestProvider extends AbstractProvider {
     /**
      * {@inheritdDoc}
      */
-    public function logInfo($message, array $context) {
+    public function logInfo(string $message, array $context): AbstractProvider {
         return parent::logInfo($message, $context);
     }
 }

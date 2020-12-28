@@ -24,21 +24,21 @@ class PointageSynchroSupprime {
     /**
      * Cle enreg.
      *
-     * @var string
+     * @var string|null
      */
     private $cleEnreg;
 
     /**
      * Cree par gen prev.
      *
-     * @var bool
+     * @var bool|null
      */
     private $creeParGenPrev;
 
     /**
      * Nom table.
      *
-     * @var string
+     * @var string|null
      */
     private $nomTable;
 
@@ -52,41 +52,42 @@ class PointageSynchroSupprime {
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the cle enreg.
      *
-     * @return string Returns the cle enreg.
+     * @return string|null Returns the cle enreg.
      */
-    public function getCleEnreg() {
+    public function getCleEnreg(): ?string{
         return $this->cleEnreg;
     }
 
     /**
      * Get the cree par gen prev.
      *
-     * @return bool Returns the cree par gen prev.
+     * @return bool|null Returns the cree par gen prev.
      */
-    public function getCreeParGenPrev() {
+    public function getCreeParGenPrev(): ?bool{
         return $this->creeParGenPrev;
     }
 
     /**
      * Get the nom table.
      *
-     * @return string Returns the nom table.
+     * @return string|null Returns the nom table.
      */
-    public function getNomTable() {
+    public function getNomTable(): ?string{
         return $this->nomTable;
     }
 
@@ -95,26 +96,26 @@ class PointageSynchroSupprime {
      *
      * @return DateTime|null Returns the time suppression.
      */
-    public function getTimeSuppression() {
+    public function getTimeSuppression(): ?DateTime{
         return $this->timeSuppression;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the cle enreg.
      *
-     * @param string $cleEnreg The cle enreg.
+     * @param string|null $cleEnreg The cle enreg.
      * @return PointageSynchroSupprime Returns this Pointage synchro supprime.
      */
-    public function setCleEnreg($cleEnreg) {
+    public function setCleEnreg(?string $cleEnreg): PointageSynchroSupprime {
         $this->cleEnreg = $cleEnreg;
         return $this;
     }
@@ -122,10 +123,10 @@ class PointageSynchroSupprime {
     /**
      * Set the cree par gen prev.
      *
-     * @param bool $creeParGenPrev The cree par gen prev.
+     * @param bool|null $creeParGenPrev The cree par gen prev.
      * @return PointageSynchroSupprime Returns this Pointage synchro supprime.
      */
-    public function setCreeParGenPrev($creeParGenPrev) {
+    public function setCreeParGenPrev(?bool $creeParGenPrev): PointageSynchroSupprime {
         $this->creeParGenPrev = $creeParGenPrev;
         return $this;
     }
@@ -133,10 +134,10 @@ class PointageSynchroSupprime {
     /**
      * Set the nom table.
      *
-     * @param string $nomTable The nom table.
+     * @param string|null $nomTable The nom table.
      * @return PointageSynchroSupprime Returns this Pointage synchro supprime.
      */
-    public function setNomTable($nomTable) {
+    public function setNomTable(?string $nomTable): PointageSynchroSupprime {
         $this->nomTable = $nomTable;
         return $this;
     }
@@ -147,7 +148,7 @@ class PointageSynchroSupprime {
      * @param DateTime|null $timeSuppression The time suppression.
      * @return PointageSynchroSupprime Returns this Pointage synchro supprime.
      */
-    public function setTimeSuppression(DateTime $timeSuppression = null) {
+    public function setTimeSuppression(?DateTime $timeSuppression): PointageSynchroSupprime {
         $this->timeSuppression = $timeSuppression;
         return $this;
     }
@@ -155,10 +156,10 @@ class PointageSynchroSupprime {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return PointageSynchroSupprime Returns this Pointage synchro supprime.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): PointageSynchroSupprime {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

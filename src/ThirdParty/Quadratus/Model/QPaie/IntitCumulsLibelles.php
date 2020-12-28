@@ -22,49 +22,50 @@ class IntitCumulsLibelles {
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Num cumul bulletin.
      *
-     * @var int
+     * @var int|null
      */
     private $numCumulBulletin;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the num cumul bulletin.
      *
-     * @return int Returns the num cumul bulletin.
+     * @return int|null Returns the num cumul bulletin.
      */
-    public function getNumCumulBulletin() {
+    public function getNumCumulBulletin(): ?int{
         return $this->numCumulBulletin;
     }
 
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return IntitCumulsLibelles Returns this Intit cumuls libelles.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): IntitCumulsLibelles {
         $this->intitule = $intitule;
         return $this;
     }
@@ -72,10 +73,10 @@ class IntitCumulsLibelles {
     /**
      * Set the num cumul bulletin.
      *
-     * @param int $numCumulBulletin The num cumul bulletin.
+     * @param int|null $numCumulBulletin The num cumul bulletin.
      * @return IntitCumulsLibelles Returns this Intit cumuls libelles.
      */
-    public function setNumCumulBulletin($numCumulBulletin) {
+    public function setNumCumulBulletin(?int $numCumulBulletin): IntitCumulsLibelles {
         $this->numCumulBulletin = $numCumulBulletin;
         return $this;
     }

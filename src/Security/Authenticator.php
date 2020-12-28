@@ -35,17 +35,17 @@ class Authenticator {
     /**
      * Scheme.
      *
-     * @var string
+     * @var string|null
      */
     private $scheme;
 
     /**
      * Constructor.
      *
-     * @param string $hostname The hostname.
+     * @param string|null $hostname The hostname.
      * @param PasswordAuthentication $passwordAuthentication
      */
-    public function __construct($hostname, PasswordAuthentication $passwordAuthentication) {
+    public function __construct(?string $hostname, PasswordAuthentication $passwordAuthentication) {
         $this->setHostname($hostname);
         $this->setPasswordAuthentication($passwordAuthentication);
     }
@@ -55,16 +55,16 @@ class Authenticator {
      *
      * @return PasswordAuthentication Returns the password authentication.
      */
-    public function getPasswordAuthentication() {
+    public function getPasswordAuthentication(): PasswordAuthentication {
         return $this->passwordAuthentication;
     }
 
     /**
      * Get the scheme.
      *
-     * @return string Returns the scheme.
+     * @return string|null Returns the scheme.
      */
-    public function getScheme() {
+    public function getScheme(): ?string {
         return $this->scheme;
     }
 
@@ -74,7 +74,7 @@ class Authenticator {
      * @param PasswordAuthentication $passwordAuthentication The password authentication.
      * @return Authenticator Returns this authenticator.
      */
-    public function setPasswordAuthentication(PasswordAuthentication $passwordAuthentication) {
+    public function setPasswordAuthentication(PasswordAuthentication $passwordAuthentication): Authenticator {
         $this->passwordAuthentication = $passwordAuthentication;
         return $this;
     }
@@ -82,10 +82,10 @@ class Authenticator {
     /**
      * Set the scheme.
      *
-     * @param string $scheme The scheme.
+     * @param string|null $scheme The scheme.
      * @return Authenticator Returns this authenticator.
      */
-    public function setScheme($scheme) {
+    public function setScheme(?string $scheme): Authenticator {
         $this->scheme = $scheme;
         return $this;
     }

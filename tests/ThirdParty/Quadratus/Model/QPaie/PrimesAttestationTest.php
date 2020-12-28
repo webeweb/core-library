@@ -29,7 +29,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEuroOuFranc() {
+    public function testSetEuroOuFranc(): void {
 
         $obj = new PrimesAttestation();
 
@@ -42,7 +42,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new PrimesAttestation();
 
@@ -55,7 +55,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new PrimesAttestation();
 
@@ -68,7 +68,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new PrimesAttestation();
 
@@ -81,7 +81,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new PrimesAttestation();
 
@@ -95,7 +95,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPayeLe() {
+    public function testSetPayeLe(): void {
 
         // Set a Date/time mock.
         $payeLe = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -129,7 +129,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -145,7 +145,7 @@ class PrimesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PrimesAttestation();
 

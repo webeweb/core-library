@@ -27,7 +27,7 @@ class ContenuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new Contenu();
 
@@ -40,7 +40,7 @@ class ContenuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteContenu() {
+    public function testSetTexteContenu(): void {
 
         $obj = new Contenu();
 
@@ -53,7 +53,7 @@ class ContenuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Contenu();
 

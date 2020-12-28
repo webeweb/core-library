@@ -27,7 +27,7 @@ class FloatDiscountRateTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiscountRate() {
+    public function testSetDiscountRate(): void {
 
         $obj = new TestFloatDiscountRateTrait();
 
@@ -40,7 +40,7 @@ class FloatDiscountRateTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatDiscountRateTrait();
 

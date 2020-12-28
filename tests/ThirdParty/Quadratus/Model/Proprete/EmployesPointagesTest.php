@@ -29,7 +29,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new EmployesPointages();
 
@@ -42,7 +42,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new EmployesPointages();
 
@@ -55,7 +55,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new EmployesPointages();
 
@@ -69,7 +69,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new EmployesPointages();
 
@@ -99,7 +99,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodePointageCloturee() {
+    public function testSetPeriodePointageCloturee(): void {
 
         // Set a Date/time mock.
         $periodePointageCloturee = new DateTime("2018-09-10");
@@ -116,7 +116,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodePrevisionnelGeneree() {
+    public function testSetPeriodePrevisionnelGeneree(): void {
 
         // Set a Date/time mock.
         $periodePrevisionnelGeneree = new DateTime("2018-09-10");
@@ -132,7 +132,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new EmployesPointages();
 
@@ -145,7 +145,7 @@ class EmployesPointagesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmployesPointages();
 

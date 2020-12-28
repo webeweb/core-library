@@ -27,7 +27,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DadsuRetraiteEntete();
 
@@ -40,7 +40,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuRetraiteEntete();
 
@@ -53,7 +53,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new DadsuRetraiteEntete();
 
@@ -66,7 +66,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMailContact() {
+    public function testSetMailContact(): void {
 
         $obj = new DadsuRetraiteEntete();
 
@@ -79,7 +79,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomContact() {
+    public function testSetNomContact(): void {
 
         $obj = new DadsuRetraiteEntete();
 
@@ -92,7 +92,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelContact() {
+    public function testSetTelContact(): void {
 
         $obj = new DadsuRetraiteEntete();
 
@@ -105,7 +105,7 @@ class DadsuRetraiteEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuRetraiteEntete();
 

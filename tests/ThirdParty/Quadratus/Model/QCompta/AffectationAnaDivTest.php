@@ -27,7 +27,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -40,7 +40,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -53,7 +53,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCompte() {
+    public function testSetNumCompte(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -66,7 +66,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -79,7 +79,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -92,7 +92,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDeux() {
+    public function testSetNumeroDeux(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -105,7 +105,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentage() {
+    public function testSetPourcentage(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -118,7 +118,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AffectationAnaDiv();
 
@@ -131,7 +131,7 @@ class AffectationAnaDivTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffectationAnaDiv();
 

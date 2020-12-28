@@ -27,7 +27,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeg() {
+    public function testDeg(): void {
 
         $this->assertEquals(180, (new Angle(180, Angle::UNIT_DEGREE))->deg());
         $this->assertEquals(180, (new Angle(pi(), Angle::UNIT_RADIAN))->deg());
@@ -38,7 +38,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsDegree() {
+    public function testIsDegree(): void {
 
         $obj = new Angle(180, Angle::UNIT_DEGREE);
 
@@ -51,7 +51,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsRadian() {
+    public function testIsRadian(): void {
 
         $obj = new Angle(pi(), Angle::UNIT_RADIAN);
 
@@ -64,7 +64,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRad() {
+    public function testRad(): void {
 
         $this->assertEquals(pi(), (new Angle(180, Angle::UNIT_DEGREE))->rad());
         $this->assertEquals(pi(), (new Angle(pi(), Angle::UNIT_RADIAN))->rad());
@@ -75,7 +75,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValue() {
+    public function testSetValue(): void {
 
         $arg = pi() / 2;
 
@@ -90,7 +90,7 @@ class AngleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $this->assertEquals("degree", Angle::UNIT_DEGREE);
         $this->assertEquals("radian", Angle::UNIT_RADIAN);

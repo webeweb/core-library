@@ -22,25 +22,25 @@ trait StringAccountingCodeTrait {
     /**
      * Accounting code.
      *
-     * @var string
+     * @var string|null
      */
     protected $accountingCode;
 
     /**
      * Get the accounting code.
      *
-     * @return string Returns the accounting code.
+     * @return string|null Returns the accounting code.
      */
-    public function getAccountingCode() {
+    public function getAccountingCode(): ?string {
         return $this->accountingCode;
     }
 
     /**
      * Set the accounting code.
      *
-     * @param string $accountingCode The accounting code.
+     * @param string|null $accountingCode The accounting code.
      */
-    public function setAccountingCode($accountingCode) {
+    public function setAccountingCode(?string $accountingCode) {
         $this->accountingCode = $accountingCode;
         return $this;
     }

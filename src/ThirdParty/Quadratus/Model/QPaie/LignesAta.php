@@ -24,14 +24,14 @@ class LignesAta {
     /**
      * Avantages euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $avantagesEuroOuFranc;
 
     /**
      * Cs euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $csEuroOuFranc;
 
@@ -43,79 +43,79 @@ class LignesAta {
     private $dateEcheance;
 
     /**
-     * Frais pro soumis.
-     *
-     * @var float
-     */
-    private $fraisProSoumis;
-
-    /**
      * Frais ps euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $fraisPsEuroOuFranc;
 
     /**
+     * Frais pro soumis.
+     *
+     * @var float|null
+     */
+    private $fraisProSoumis;
+
+    /**
      * Indemnites euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $indemnitesEuroOuFranc;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Montant avantages.
      *
-     * @var float
+     * @var float|null
      */
     private $montantAvantages;
 
     /**
      * Montant cotis.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCotis;
 
     /**
      * Montant euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $montantEuroOuFranc;
 
     /**
      * Montant indemnites.
      *
-     * @var float
+     * @var float|null
      */
     private $montantIndemnites;
 
     /**
      * Nb h trav.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHTrav;
 
     /**
      * Num ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $numLigne;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
@@ -136,32 +136,33 @@ class LignesAta {
     /**
      * Taux ded sup.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxDedSup;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the avantages euro ou franc.
      *
-     * @return string Returns the avantages euro ou franc.
+     * @return string|null Returns the avantages euro ou franc.
      */
-    public function getAvantagesEuroOuFranc() {
+    public function getAvantagesEuroOuFranc(): ?string{
         return $this->avantagesEuroOuFranc;
     }
 
     /**
      * Get the cs euro ou franc.
      *
-     * @return string Returns the cs euro ou franc.
+     * @return string|null Returns the cs euro ou franc.
      */
-    public function getCsEuroOuFranc() {
+    public function getCsEuroOuFranc(): ?string{
         return $this->csEuroOuFranc;
     }
 
@@ -170,106 +171,106 @@ class LignesAta {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance() {
+    public function getDateEcheance(): ?DateTime{
         return $this->dateEcheance;
-    }
-
-    /**
-     * Get the frais pro soumis.
-     *
-     * @return float Returns the frais pro soumis.
-     */
-    public function getFraisProSoumis() {
-        return $this->fraisProSoumis;
     }
 
     /**
      * Get the frais ps euro ou franc.
      *
-     * @return string Returns the frais ps euro ou franc.
+     * @return string|null Returns the frais ps euro ou franc.
      */
-    public function getFraisPsEuroOuFranc() {
+    public function getFraisPsEuroOuFranc(): ?string{
         return $this->fraisPsEuroOuFranc;
+    }
+
+    /**
+     * Get the frais pro soumis.
+     *
+     * @return float|null Returns the frais pro soumis.
+     */
+    public function getFraisProSoumis(): ?float{
+        return $this->fraisProSoumis;
     }
 
     /**
      * Get the indemnites euro ou franc.
      *
-     * @return string Returns the indemnites euro ou franc.
+     * @return string|null Returns the indemnites euro ou franc.
      */
-    public function getIndemnitesEuroOuFranc() {
+    public function getIndemnitesEuroOuFranc(): ?string{
         return $this->indemnitesEuroOuFranc;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the montant avantages.
      *
-     * @return float Returns the montant avantages.
+     * @return float|null Returns the montant avantages.
      */
-    public function getMontantAvantages() {
+    public function getMontantAvantages(): ?float{
         return $this->montantAvantages;
     }
 
     /**
      * Get the montant cotis.
      *
-     * @return float Returns the montant cotis.
+     * @return float|null Returns the montant cotis.
      */
-    public function getMontantCotis() {
+    public function getMontantCotis(): ?float{
         return $this->montantCotis;
     }
 
     /**
      * Get the montant euro ou franc.
      *
-     * @return string Returns the montant euro ou franc.
+     * @return string|null Returns the montant euro ou franc.
      */
-    public function getMontantEuroOuFranc() {
+    public function getMontantEuroOuFranc(): ?string{
         return $this->montantEuroOuFranc;
     }
 
     /**
      * Get the montant indemnites.
      *
-     * @return float Returns the montant indemnites.
+     * @return float|null Returns the montant indemnites.
      */
-    public function getMontantIndemnites() {
+    public function getMontantIndemnites(): ?float{
         return $this->montantIndemnites;
     }
 
     /**
      * Get the nb h trav.
      *
-     * @return float Returns the nb h trav.
+     * @return float|null Returns the nb h trav.
      */
-    public function getNbHTrav() {
+    public function getNbHTrav(): ?float{
         return $this->nbHTrav;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return string Returns the num ligne.
+     * @return string|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?string{
         return $this->numLigne;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
@@ -278,7 +279,7 @@ class LignesAta {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -287,26 +288,26 @@ class LignesAta {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the taux ded sup.
      *
-     * @return float Returns the taux ded sup.
+     * @return float|null Returns the taux ded sup.
      */
-    public function getTauxDedSup() {
+    public function getTauxDedSup(): ?float{
         return $this->tauxDedSup;
     }
 
     /**
      * Set the avantages euro ou franc.
      *
-     * @param string $avantagesEuroOuFranc The avantages euro ou franc.
+     * @param string|null $avantagesEuroOuFranc The avantages euro ou franc.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setAvantagesEuroOuFranc($avantagesEuroOuFranc) {
+    public function setAvantagesEuroOuFranc(?string $avantagesEuroOuFranc): LignesAta {
         $this->avantagesEuroOuFranc = $avantagesEuroOuFranc;
         return $this;
     }
@@ -314,10 +315,10 @@ class LignesAta {
     /**
      * Set the cs euro ou franc.
      *
-     * @param string $csEuroOuFranc The cs euro ou franc.
+     * @param string|null $csEuroOuFranc The cs euro ou franc.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setCsEuroOuFranc($csEuroOuFranc) {
+    public function setCsEuroOuFranc(?string $csEuroOuFranc): LignesAta {
         $this->csEuroOuFranc = $csEuroOuFranc;
         return $this;
     }
@@ -328,40 +329,40 @@ class LignesAta {
      * @param DateTime|null $dateEcheance The date echeance.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setDateEcheance(DateTime $dateEcheance = null) {
+    public function setDateEcheance(?DateTime $dateEcheance): LignesAta {
         $this->dateEcheance = $dateEcheance;
-        return $this;
-    }
-
-    /**
-     * Set the frais pro soumis.
-     *
-     * @param float $fraisProSoumis The frais pro soumis.
-     * @return LignesAta Returns this Lignes ata.
-     */
-    public function setFraisProSoumis($fraisProSoumis) {
-        $this->fraisProSoumis = $fraisProSoumis;
         return $this;
     }
 
     /**
      * Set the frais ps euro ou franc.
      *
-     * @param string $fraisPsEuroOuFranc The frais ps euro ou franc.
+     * @param string|null $fraisPsEuroOuFranc The frais ps euro ou franc.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setFraisPsEuroOuFranc($fraisPsEuroOuFranc) {
+    public function setFraisPsEuroOuFranc(?string $fraisPsEuroOuFranc): LignesAta {
         $this->fraisPsEuroOuFranc = $fraisPsEuroOuFranc;
+        return $this;
+    }
+
+    /**
+     * Set the frais pro soumis.
+     *
+     * @param float|null $fraisProSoumis The frais pro soumis.
+     * @return LignesAta Returns this Lignes ata.
+     */
+    public function setFraisProSoumis(?float $fraisProSoumis): LignesAta {
+        $this->fraisProSoumis = $fraisProSoumis;
         return $this;
     }
 
     /**
      * Set the indemnites euro ou franc.
      *
-     * @param string $indemnitesEuroOuFranc The indemnites euro ou franc.
+     * @param string|null $indemnitesEuroOuFranc The indemnites euro ou franc.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setIndemnitesEuroOuFranc($indemnitesEuroOuFranc) {
+    public function setIndemnitesEuroOuFranc(?string $indemnitesEuroOuFranc): LignesAta {
         $this->indemnitesEuroOuFranc = $indemnitesEuroOuFranc;
         return $this;
     }
@@ -369,10 +370,10 @@ class LignesAta {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): LignesAta {
         $this->montant = $montant;
         return $this;
     }
@@ -380,10 +381,10 @@ class LignesAta {
     /**
      * Set the montant avantages.
      *
-     * @param float $montantAvantages The montant avantages.
+     * @param float|null $montantAvantages The montant avantages.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setMontantAvantages($montantAvantages) {
+    public function setMontantAvantages(?float $montantAvantages): LignesAta {
         $this->montantAvantages = $montantAvantages;
         return $this;
     }
@@ -391,10 +392,10 @@ class LignesAta {
     /**
      * Set the montant cotis.
      *
-     * @param float $montantCotis The montant cotis.
+     * @param float|null $montantCotis The montant cotis.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setMontantCotis($montantCotis) {
+    public function setMontantCotis(?float $montantCotis): LignesAta {
         $this->montantCotis = $montantCotis;
         return $this;
     }
@@ -402,10 +403,10 @@ class LignesAta {
     /**
      * Set the montant euro ou franc.
      *
-     * @param string $montantEuroOuFranc The montant euro ou franc.
+     * @param string|null $montantEuroOuFranc The montant euro ou franc.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setMontantEuroOuFranc($montantEuroOuFranc) {
+    public function setMontantEuroOuFranc(?string $montantEuroOuFranc): LignesAta {
         $this->montantEuroOuFranc = $montantEuroOuFranc;
         return $this;
     }
@@ -413,10 +414,10 @@ class LignesAta {
     /**
      * Set the montant indemnites.
      *
-     * @param float $montantIndemnites The montant indemnites.
+     * @param float|null $montantIndemnites The montant indemnites.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setMontantIndemnites($montantIndemnites) {
+    public function setMontantIndemnites(?float $montantIndemnites): LignesAta {
         $this->montantIndemnites = $montantIndemnites;
         return $this;
     }
@@ -424,10 +425,10 @@ class LignesAta {
     /**
      * Set the nb h trav.
      *
-     * @param float $nbHTrav The nb h trav.
+     * @param float|null $nbHTrav The nb h trav.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setNbHTrav($nbHTrav) {
+    public function setNbHTrav(?float $nbHTrav): LignesAta {
         $this->nbHTrav = $nbHTrav;
         return $this;
     }
@@ -435,10 +436,10 @@ class LignesAta {
     /**
      * Set the num ligne.
      *
-     * @param string $numLigne The num ligne.
+     * @param string|null $numLigne The num ligne.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?string $numLigne): LignesAta {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -446,10 +447,10 @@ class LignesAta {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): LignesAta {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -460,7 +461,7 @@ class LignesAta {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): LignesAta {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -471,7 +472,7 @@ class LignesAta {
      * @param DateTime|null $periodeFin The periode fin.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): LignesAta {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -479,10 +480,10 @@ class LignesAta {
     /**
      * Set the taux ded sup.
      *
-     * @param float $tauxDedSup The taux ded sup.
+     * @param float|null $tauxDedSup The taux ded sup.
      * @return LignesAta Returns this Lignes ata.
      */
-    public function setTauxDedSup($tauxDedSup) {
+    public function setTauxDedSup(?float $tauxDedSup): LignesAta {
         $this->tauxDedSup = $tauxDedSup;
         return $this;
     }

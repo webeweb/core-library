@@ -22,25 +22,25 @@ trait StringTitleTrait {
     /**
      * Title.
      *
-     * @var string
+     * @var string|null
      */
     protected $title;
 
     /**
      * Get the title.
      *
-     * @return string Returns the title.
+     * @return string|null Returns the title.
      */
-    public function getTitle() {
+    public function getTitle(): ?string {
         return $this->title;
     }
 
     /**
      * Set the title.
      *
-     * @param string $title The title.
+     * @param string|null $title The title.
      */
-    public function setTitle($title) {
+    public function setTitle(?string $title) {
         $this->title = $title;
         return $this;
     }

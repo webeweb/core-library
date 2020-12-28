@@ -22,14 +22,14 @@ class ClientsFavoris {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code col.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCol;
 
@@ -37,34 +37,34 @@ class ClientsFavoris {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code col.
      *
-     * @return string Returns the code col.
+     * @return string|null Returns the code col.
      */
-    public function getCodeCol() {
+    public function getCodeCol(): ?string {
         return $this->codeCol;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ClientsFavoris Returns this Clients favoris.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ClientsFavoris {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -72,10 +72,10 @@ class ClientsFavoris {
     /**
      * Set the code col.
      *
-     * @param string $codeCol The code col.
+     * @param string|null $codeCol The code col.
      * @return ClientsFavoris Returns this Clients favoris.
      */
-    public function setCodeCol($codeCol) {
+    public function setCodeCol(?string $codeCol): ClientsFavoris {
         $this->codeCol = $codeCol;
         return $this;
     }

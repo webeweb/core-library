@@ -27,7 +27,7 @@ class ProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProfil() {
+    public function testSetCodeProfil(): void {
 
         $obj = new ProfilsActions();
 
@@ -40,7 +40,7 @@ class ProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new ProfilsActions();
 
@@ -53,7 +53,7 @@ class ProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ProfilsActions();
 

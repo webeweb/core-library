@@ -29,7 +29,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -43,7 +43,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateLiaison() {
+    public function testSetDateLiaison(): void {
 
         // Set a Date/time mock.
         $dateLiaison = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRetourPrevue() {
+    public function testSetDateRetourPrevue(): void {
 
         // Set a Date/time mock.
         $dateRetourPrevue = new DateTime("2018-09-10");
@@ -76,7 +76,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDestinataire() {
+    public function testSetDestinataire(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -89,7 +89,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModules() {
+    public function testSetModules(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -102,7 +102,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModulesBloques() {
+    public function testSetModulesBloques(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -115,7 +115,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -128,7 +128,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDossier() {
+    public function testSetNumeroDossier(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -141,7 +141,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSens() {
+    public function testSetSens(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -154,7 +154,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLiaison() {
+    public function testSetTypeLiaison(): void {
 
         $obj = new LiaisonsHistorique();
 
@@ -167,7 +167,7 @@ class LiaisonsHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LiaisonsHistorique();
 

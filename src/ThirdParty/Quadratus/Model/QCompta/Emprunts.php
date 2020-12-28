@@ -24,49 +24,49 @@ class Emprunts {
     /**
      * A echoir echu.
      *
-     * @var string
+     * @var string|null
      */
     private $aEchoirEchu;
 
     /**
      * Categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $categorie;
 
     /**
      * Centre analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $centreAnalytique;
 
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
     /**
      * Cpt assurance emprunt.
      *
-     * @var string
+     * @var string|null
      */
     private $cptAssuranceEmprunt;
 
     /**
      * Cpt emprunt.
      *
-     * @var string
+     * @var string|null
      */
     private $cptEmprunt;
 
     /**
      * Cpt interet emprunt.
      *
-     * @var string
+     * @var string|null
      */
     private $cptInteretEmprunt;
 
@@ -87,189 +87,190 @@ class Emprunts {
     /**
      * Differe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $differe;
 
     /**
      * Duree.
      *
-     * @var int
+     * @var int|null
      */
     private $duree;
 
     /**
      * Emprunt en francs.
      *
-     * @var bool
+     * @var bool|null
      */
     private $empruntEnFrancs;
 
     /**
      * Identification.
      *
-     * @var string
+     * @var string|null
      */
     private $identification;
 
     /**
      * Mois annee.
      *
-     * @var string
+     * @var string|null
      */
     private $moisAnnee;
 
     /**
      * Montant assurance.
      *
-     * @var float
+     * @var float|null
      */
     private $montantAssurance;
 
     /**
      * Montant emprunte.
      *
-     * @var float
+     * @var float|null
      */
     private $montantEmprunte;
 
     /**
      * Mt capital fixe remb.
      *
-     * @var float
+     * @var float|null
      */
     private $mtCapitalFixeRemb;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Nature analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $natureAnalytique;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
 
     /**
      * Periodicite.
      *
-     * @var string
+     * @var string|null
      */
     private $periodicite;
 
     /**
      * Taux assurance.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxAssurance;
 
     /**
      * Taux interet.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxInteret;
 
     /**
      * Type in fine.
      *
-     * @var bool
+     * @var bool|null
      */
     private $typeInFine;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a echoir echu.
      *
-     * @return string Returns the a echoir echu.
+     * @return string|null Returns the a echoir echu.
      */
-    public function getAEchoirEchu() {
+    public function getAEchoirEchu(): ?string{
         return $this->aEchoirEchu;
     }
 
     /**
      * Get the categorie.
      *
-     * @return string Returns the categorie.
+     * @return string|null Returns the categorie.
      */
-    public function getCategorie() {
+    public function getCategorie(): ?string{
         return $this->categorie;
     }
 
     /**
      * Get the centre analytique.
      *
-     * @return string Returns the centre analytique.
+     * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique() {
+    public function getCentreAnalytique(): ?string{
         return $this->centreAnalytique;
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
     /**
      * Get the cpt assurance emprunt.
      *
-     * @return string Returns the cpt assurance emprunt.
+     * @return string|null Returns the cpt assurance emprunt.
      */
-    public function getCptAssuranceEmprunt() {
+    public function getCptAssuranceEmprunt(): ?string{
         return $this->cptAssuranceEmprunt;
     }
 
     /**
      * Get the cpt emprunt.
      *
-     * @return string Returns the cpt emprunt.
+     * @return string|null Returns the cpt emprunt.
      */
-    public function getCptEmprunt() {
+    public function getCptEmprunt(): ?string{
         return $this->cptEmprunt;
     }
 
     /**
      * Get the cpt interet emprunt.
      *
-     * @return string Returns the cpt interet emprunt.
+     * @return string|null Returns the cpt interet emprunt.
      */
-    public function getCptInteretEmprunt() {
+    public function getCptInteretEmprunt(): ?string{
         return $this->cptInteretEmprunt;
     }
 
@@ -278,7 +279,7 @@ class Emprunts {
      *
      * @return DateTime|null Returns the date ouverture.
      */
-    public function getDateOuverture() {
+    public function getDateOuverture(): ?DateTime{
         return $this->dateOuverture;
     }
 
@@ -287,170 +288,170 @@ class Emprunts {
      *
      * @return DateTime|null Returns the date premiere echeance.
      */
-    public function getDatePremiereEcheance() {
+    public function getDatePremiereEcheance(): ?DateTime{
         return $this->datePremiereEcheance;
     }
 
     /**
      * Get the differe.
      *
-     * @return bool Returns the differe.
+     * @return bool|null Returns the differe.
      */
-    public function getDiffere() {
+    public function getDiffere(): ?bool{
         return $this->differe;
     }
 
     /**
      * Get the duree.
      *
-     * @return int Returns the duree.
+     * @return int|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?int{
         return $this->duree;
     }
 
     /**
      * Get the emprunt en francs.
      *
-     * @return bool Returns the emprunt en francs.
+     * @return bool|null Returns the emprunt en francs.
      */
-    public function getEmpruntEnFrancs() {
+    public function getEmpruntEnFrancs(): ?bool{
         return $this->empruntEnFrancs;
     }
 
     /**
      * Get the identification.
      *
-     * @return string Returns the identification.
+     * @return string|null Returns the identification.
      */
-    public function getIdentification() {
+    public function getIdentification(): ?string{
         return $this->identification;
     }
 
     /**
      * Get the mois annee.
      *
-     * @return string Returns the mois annee.
+     * @return string|null Returns the mois annee.
      */
-    public function getMoisAnnee() {
+    public function getMoisAnnee(): ?string{
         return $this->moisAnnee;
     }
 
     /**
      * Get the montant assurance.
      *
-     * @return float Returns the montant assurance.
+     * @return float|null Returns the montant assurance.
      */
-    public function getMontantAssurance() {
+    public function getMontantAssurance(): ?float{
         return $this->montantAssurance;
     }
 
     /**
      * Get the montant emprunte.
      *
-     * @return float Returns the montant emprunte.
+     * @return float|null Returns the montant emprunte.
      */
-    public function getMontantEmprunte() {
+    public function getMontantEmprunte(): ?float{
         return $this->montantEmprunte;
     }
 
     /**
      * Get the mt capital fixe remb.
      *
-     * @return float Returns the mt capital fixe remb.
+     * @return float|null Returns the mt capital fixe remb.
      */
-    public function getMtCapitalFixeRemb() {
+    public function getMtCapitalFixeRemb(): ?float{
         return $this->mtCapitalFixeRemb;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the nature analytique.
      *
-     * @return string Returns the nature analytique.
+     * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique() {
+    public function getNatureAnalytique(): ?string{
         return $this->natureAnalytique;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int{
         return $this->numero;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
     /**
      * Get the periodicite.
      *
-     * @return string Returns the periodicite.
+     * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite() {
+    public function getPeriodicite(): ?string{
         return $this->periodicite;
     }
 
     /**
      * Get the taux assurance.
      *
-     * @return float Returns the taux assurance.
+     * @return float|null Returns the taux assurance.
      */
-    public function getTauxAssurance() {
+    public function getTauxAssurance(): ?float{
         return $this->tauxAssurance;
     }
 
     /**
      * Get the taux interet.
      *
-     * @return float Returns the taux interet.
+     * @return float|null Returns the taux interet.
      */
-    public function getTauxInteret() {
+    public function getTauxInteret(): ?float{
         return $this->tauxInteret;
     }
 
     /**
      * Get the type in fine.
      *
-     * @return bool Returns the type in fine.
+     * @return bool|null Returns the type in fine.
      */
-    public function getTypeInFine() {
+    public function getTypeInFine(): ?bool{
         return $this->typeInFine;
     }
 
     /**
      * Set the a echoir echu.
      *
-     * @param string $aEchoirEchu The a echoir echu.
+     * @param string|null $aEchoirEchu The a echoir echu.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setAEchoirEchu($aEchoirEchu) {
+    public function setAEchoirEchu(?string $aEchoirEchu): Emprunts {
         $this->aEchoirEchu = $aEchoirEchu;
         return $this;
     }
@@ -458,10 +459,10 @@ class Emprunts {
     /**
      * Set the categorie.
      *
-     * @param string $categorie The categorie.
+     * @param string|null $categorie The categorie.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setCategorie($categorie) {
+    public function setCategorie(?string $categorie): Emprunts {
         $this->categorie = $categorie;
         return $this;
     }
@@ -469,10 +470,10 @@ class Emprunts {
     /**
      * Set the centre analytique.
      *
-     * @param string $centreAnalytique The centre analytique.
+     * @param string|null $centreAnalytique The centre analytique.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setCentreAnalytique($centreAnalytique) {
+    public function setCentreAnalytique(?string $centreAnalytique): Emprunts {
         $this->centreAnalytique = $centreAnalytique;
         return $this;
     }
@@ -480,10 +481,10 @@ class Emprunts {
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): Emprunts {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -491,10 +492,10 @@ class Emprunts {
     /**
      * Set the cpt assurance emprunt.
      *
-     * @param string $cptAssuranceEmprunt The cpt assurance emprunt.
+     * @param string|null $cptAssuranceEmprunt The cpt assurance emprunt.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setCptAssuranceEmprunt($cptAssuranceEmprunt) {
+    public function setCptAssuranceEmprunt(?string $cptAssuranceEmprunt): Emprunts {
         $this->cptAssuranceEmprunt = $cptAssuranceEmprunt;
         return $this;
     }
@@ -502,10 +503,10 @@ class Emprunts {
     /**
      * Set the cpt emprunt.
      *
-     * @param string $cptEmprunt The cpt emprunt.
+     * @param string|null $cptEmprunt The cpt emprunt.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setCptEmprunt($cptEmprunt) {
+    public function setCptEmprunt(?string $cptEmprunt): Emprunts {
         $this->cptEmprunt = $cptEmprunt;
         return $this;
     }
@@ -513,10 +514,10 @@ class Emprunts {
     /**
      * Set the cpt interet emprunt.
      *
-     * @param string $cptInteretEmprunt The cpt interet emprunt.
+     * @param string|null $cptInteretEmprunt The cpt interet emprunt.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setCptInteretEmprunt($cptInteretEmprunt) {
+    public function setCptInteretEmprunt(?string $cptInteretEmprunt): Emprunts {
         $this->cptInteretEmprunt = $cptInteretEmprunt;
         return $this;
     }
@@ -527,7 +528,7 @@ class Emprunts {
      * @param DateTime|null $dateOuverture The date ouverture.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setDateOuverture(DateTime $dateOuverture = null) {
+    public function setDateOuverture(?DateTime $dateOuverture): Emprunts {
         $this->dateOuverture = $dateOuverture;
         return $this;
     }
@@ -538,7 +539,7 @@ class Emprunts {
      * @param DateTime|null $datePremiereEcheance The date premiere echeance.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setDatePremiereEcheance(DateTime $datePremiereEcheance = null) {
+    public function setDatePremiereEcheance(?DateTime $datePremiereEcheance): Emprunts {
         $this->datePremiereEcheance = $datePremiereEcheance;
         return $this;
     }
@@ -546,10 +547,10 @@ class Emprunts {
     /**
      * Set the differe.
      *
-     * @param bool $differe The differe.
+     * @param bool|null $differe The differe.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setDiffere($differe) {
+    public function setDiffere(?bool $differe): Emprunts {
         $this->differe = $differe;
         return $this;
     }
@@ -557,10 +558,10 @@ class Emprunts {
     /**
      * Set the duree.
      *
-     * @param int $duree The duree.
+     * @param int|null $duree The duree.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setDuree($duree) {
+    public function setDuree(?int $duree): Emprunts {
         $this->duree = $duree;
         return $this;
     }
@@ -568,10 +569,10 @@ class Emprunts {
     /**
      * Set the emprunt en francs.
      *
-     * @param bool $empruntEnFrancs The emprunt en francs.
+     * @param bool|null $empruntEnFrancs The emprunt en francs.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setEmpruntEnFrancs($empruntEnFrancs) {
+    public function setEmpruntEnFrancs(?bool $empruntEnFrancs): Emprunts {
         $this->empruntEnFrancs = $empruntEnFrancs;
         return $this;
     }
@@ -579,10 +580,10 @@ class Emprunts {
     /**
      * Set the identification.
      *
-     * @param string $identification The identification.
+     * @param string|null $identification The identification.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setIdentification($identification) {
+    public function setIdentification(?string $identification): Emprunts {
         $this->identification = $identification;
         return $this;
     }
@@ -590,10 +591,10 @@ class Emprunts {
     /**
      * Set the mois annee.
      *
-     * @param string $moisAnnee The mois annee.
+     * @param string|null $moisAnnee The mois annee.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setMoisAnnee($moisAnnee) {
+    public function setMoisAnnee(?string $moisAnnee): Emprunts {
         $this->moisAnnee = $moisAnnee;
         return $this;
     }
@@ -601,10 +602,10 @@ class Emprunts {
     /**
      * Set the montant assurance.
      *
-     * @param float $montantAssurance The montant assurance.
+     * @param float|null $montantAssurance The montant assurance.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setMontantAssurance($montantAssurance) {
+    public function setMontantAssurance(?float $montantAssurance): Emprunts {
         $this->montantAssurance = $montantAssurance;
         return $this;
     }
@@ -612,10 +613,10 @@ class Emprunts {
     /**
      * Set the montant emprunte.
      *
-     * @param float $montantEmprunte The montant emprunte.
+     * @param float|null $montantEmprunte The montant emprunte.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setMontantEmprunte($montantEmprunte) {
+    public function setMontantEmprunte(?float $montantEmprunte): Emprunts {
         $this->montantEmprunte = $montantEmprunte;
         return $this;
     }
@@ -623,10 +624,10 @@ class Emprunts {
     /**
      * Set the mt capital fixe remb.
      *
-     * @param float $mtCapitalFixeRemb The mt capital fixe remb.
+     * @param float|null $mtCapitalFixeRemb The mt capital fixe remb.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setMtCapitalFixeRemb($mtCapitalFixeRemb) {
+    public function setMtCapitalFixeRemb(?float $mtCapitalFixeRemb): Emprunts {
         $this->mtCapitalFixeRemb = $mtCapitalFixeRemb;
         return $this;
     }
@@ -634,10 +635,10 @@ class Emprunts {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): Emprunts {
         $this->nature = $nature;
         return $this;
     }
@@ -645,10 +646,10 @@ class Emprunts {
     /**
      * Set the nature analytique.
      *
-     * @param string $natureAnalytique The nature analytique.
+     * @param string|null $natureAnalytique The nature analytique.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setNatureAnalytique($natureAnalytique) {
+    public function setNatureAnalytique(?string $natureAnalytique): Emprunts {
         $this->natureAnalytique = $natureAnalytique;
         return $this;
     }
@@ -656,10 +657,10 @@ class Emprunts {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): Emprunts {
         $this->numero = $numero;
         return $this;
     }
@@ -667,10 +668,10 @@ class Emprunts {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): Emprunts {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -678,10 +679,10 @@ class Emprunts {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): Emprunts {
         $this->organisme = $organisme;
         return $this;
     }
@@ -689,10 +690,10 @@ class Emprunts {
     /**
      * Set the periodicite.
      *
-     * @param string $periodicite The periodicite.
+     * @param string|null $periodicite The periodicite.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setPeriodicite($periodicite) {
+    public function setPeriodicite(?string $periodicite): Emprunts {
         $this->periodicite = $periodicite;
         return $this;
     }
@@ -700,10 +701,10 @@ class Emprunts {
     /**
      * Set the taux assurance.
      *
-     * @param float $tauxAssurance The taux assurance.
+     * @param float|null $tauxAssurance The taux assurance.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setTauxAssurance($tauxAssurance) {
+    public function setTauxAssurance(?float $tauxAssurance): Emprunts {
         $this->tauxAssurance = $tauxAssurance;
         return $this;
     }
@@ -711,10 +712,10 @@ class Emprunts {
     /**
      * Set the taux interet.
      *
-     * @param float $tauxInteret The taux interet.
+     * @param float|null $tauxInteret The taux interet.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setTauxInteret($tauxInteret) {
+    public function setTauxInteret(?float $tauxInteret): Emprunts {
         $this->tauxInteret = $tauxInteret;
         return $this;
     }
@@ -722,10 +723,10 @@ class Emprunts {
     /**
      * Set the type in fine.
      *
-     * @param bool $typeInFine The type in fine.
+     * @param bool|null $typeInFine The type in fine.
      * @return Emprunts Returns this Emprunts.
      */
-    public function setTypeInFine($typeInFine) {
+    public function setTypeInFine(?bool $typeInFine): Emprunts {
         $this->typeInFine = $typeInFine;
         return $this;
     }

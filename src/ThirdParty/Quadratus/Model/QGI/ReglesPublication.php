@@ -22,97 +22,98 @@ class ReglesPublication {
     /**
      * Chaine publication.
      *
-     * @var string
+     * @var string|null
      */
     private $chainePublication;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Ews publication.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ewsPublication;
 
     /**
      * Type publication.
      *
-     * @var string
+     * @var string|null
      */
     private $typePublication;
 
     /**
      * Web publication.
      *
-     * @var bool
+     * @var bool|null
      */
     private $webPublication;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chaine publication.
      *
-     * @return string Returns the chaine publication.
+     * @return string|null Returns the chaine publication.
      */
-    public function getChainePublication() {
+    public function getChainePublication(): ?string{
         return $this->chainePublication;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the ews publication.
      *
-     * @return bool Returns the ews publication.
+     * @return bool|null Returns the ews publication.
      */
-    public function getEwsPublication() {
+    public function getEwsPublication(): ?bool{
         return $this->ewsPublication;
     }
 
     /**
      * Get the type publication.
      *
-     * @return string Returns the type publication.
+     * @return string|null Returns the type publication.
      */
-    public function getTypePublication() {
+    public function getTypePublication(): ?string{
         return $this->typePublication;
     }
 
     /**
      * Get the web publication.
      *
-     * @return bool Returns the web publication.
+     * @return bool|null Returns the web publication.
      */
-    public function getWebPublication() {
+    public function getWebPublication(): ?bool{
         return $this->webPublication;
     }
 
     /**
      * Set the chaine publication.
      *
-     * @param string $chainePublication The chaine publication.
+     * @param string|null $chainePublication The chaine publication.
      * @return ReglesPublication Returns this Regles publication.
      */
-    public function setChainePublication($chainePublication) {
+    public function setChainePublication(?string $chainePublication): ReglesPublication {
         $this->chainePublication = $chainePublication;
         return $this;
     }
@@ -120,10 +121,10 @@ class ReglesPublication {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ReglesPublication Returns this Regles publication.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ReglesPublication {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -131,10 +132,10 @@ class ReglesPublication {
     /**
      * Set the ews publication.
      *
-     * @param bool $ewsPublication The ews publication.
+     * @param bool|null $ewsPublication The ews publication.
      * @return ReglesPublication Returns this Regles publication.
      */
-    public function setEwsPublication($ewsPublication) {
+    public function setEwsPublication(?bool $ewsPublication): ReglesPublication {
         $this->ewsPublication = $ewsPublication;
         return $this;
     }
@@ -142,10 +143,10 @@ class ReglesPublication {
     /**
      * Set the type publication.
      *
-     * @param string $typePublication The type publication.
+     * @param string|null $typePublication The type publication.
      * @return ReglesPublication Returns this Regles publication.
      */
-    public function setTypePublication($typePublication) {
+    public function setTypePublication(?string $typePublication): ReglesPublication {
         $this->typePublication = $typePublication;
         return $this;
     }
@@ -153,10 +154,10 @@ class ReglesPublication {
     /**
      * Set the web publication.
      *
-     * @param bool $webPublication The web publication.
+     * @param bool|null $webPublication The web publication.
      * @return ReglesPublication Returns this Regles publication.
      */
-    public function setWebPublication($webPublication) {
+    public function setWebPublication(?bool $webPublication): ReglesPublication {
         $this->webPublication = $webPublication;
         return $this;
     }

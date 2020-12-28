@@ -24,14 +24,14 @@ class Photos {
     /**
      * A publier espace client.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aPublierEspaceClient;
 
     /**
      * Auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $auteur;
 
@@ -45,46 +45,47 @@ class Photos {
     /**
      * Nom fichier id.
      *
-     * @var string
+     * @var string|null
      */
     private $nomFichierId;
 
     /**
      * Type id.
      *
-     * @var string
+     * @var string|null
      */
     private $typeId;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a publier espace client.
      *
-     * @return bool Returns the a publier espace client.
+     * @return bool|null Returns the a publier espace client.
      */
-    public function getAPublierEspaceClient() {
+    public function getAPublierEspaceClient(): ?bool{
         return $this->aPublierEspaceClient;
     }
 
     /**
      * Get the auteur.
      *
-     * @return string Returns the auteur.
+     * @return string|null Returns the auteur.
      */
-    public function getAuteur() {
+    public function getAuteur(): ?string{
         return $this->auteur;
     }
 
@@ -93,44 +94,44 @@ class Photos {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
     /**
      * Get the nom fichier id.
      *
-     * @return string Returns the nom fichier id.
+     * @return string|null Returns the nom fichier id.
      */
-    public function getNomFichierId() {
+    public function getNomFichierId(): ?string{
         return $this->nomFichierId;
     }
 
     /**
      * Get the type id.
      *
-     * @return string Returns the type id.
+     * @return string|null Returns the type id.
      */
-    public function getTypeId() {
+    public function getTypeId(): ?string{
         return $this->typeId;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the a publier espace client.
      *
-     * @param bool $aPublierEspaceClient The a publier espace client.
+     * @param bool|null $aPublierEspaceClient The a publier espace client.
      * @return Photos Returns this Photos.
      */
-    public function setAPublierEspaceClient($aPublierEspaceClient) {
+    public function setAPublierEspaceClient(?bool $aPublierEspaceClient): Photos {
         $this->aPublierEspaceClient = $aPublierEspaceClient;
         return $this;
     }
@@ -138,10 +139,10 @@ class Photos {
     /**
      * Set the auteur.
      *
-     * @param string $auteur The auteur.
+     * @param string|null $auteur The auteur.
      * @return Photos Returns this Photos.
      */
-    public function setAuteur($auteur) {
+    public function setAuteur(?string $auteur): Photos {
         $this->auteur = $auteur;
         return $this;
     }
@@ -152,7 +153,7 @@ class Photos {
      * @param DateTime|null $dateCreation The date creation.
      * @return Photos Returns this Photos.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): Photos {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -160,10 +161,10 @@ class Photos {
     /**
      * Set the nom fichier id.
      *
-     * @param string $nomFichierId The nom fichier id.
+     * @param string|null $nomFichierId The nom fichier id.
      * @return Photos Returns this Photos.
      */
-    public function setNomFichierId($nomFichierId) {
+    public function setNomFichierId(?string $nomFichierId): Photos {
         $this->nomFichierId = $nomFichierId;
         return $this;
     }
@@ -171,10 +172,10 @@ class Photos {
     /**
      * Set the type id.
      *
-     * @param string $typeId The type id.
+     * @param string|null $typeId The type id.
      * @return Photos Returns this Photos.
      */
-    public function setTypeId($typeId) {
+    public function setTypeId(?string $typeId): Photos {
         $this->typeId = $typeId;
         return $this;
     }
@@ -182,10 +183,10 @@ class Photos {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return Photos Returns this Photos.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): Photos {
         $this->uniqId = $uniqId;
         return $this;
     }

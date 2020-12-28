@@ -27,7 +27,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantPointe() {
+    public function testSetMontantPointe(): void {
 
         $obj = new PointageReglementsLignes();
 
@@ -40,7 +40,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptPayeur() {
+    public function testSetNumCptPayeur(): void {
 
         $obj = new PointageReglementsLignes();
 
@@ -53,7 +53,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDoss() {
+    public function testSetNumDoss(): void {
 
         $obj = new PointageReglementsLignes();
 
@@ -66,7 +66,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new PointageReglementsLignes();
 
@@ -79,7 +79,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniqEcr() {
+    public function testSetNumUniqEcr(): void {
 
         $obj = new PointageReglementsLignes();
 
@@ -92,7 +92,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new PointageReglementsLignes();
 
@@ -105,7 +105,7 @@ class PointageReglementsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointageReglementsLignes();
 

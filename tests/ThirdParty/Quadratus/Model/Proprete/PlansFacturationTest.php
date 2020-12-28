@@ -29,7 +29,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new PlansFacturation();
 
@@ -42,7 +42,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new PlansFacturation();
 
@@ -55,7 +55,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PlansFacturation();
 
@@ -68,7 +68,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new PlansFacturation();
 
@@ -81,7 +81,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PlansFacturation();
 
@@ -94,7 +94,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PlansFacturation();
 
@@ -107,7 +107,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new PlansFacturation();
 
@@ -120,7 +120,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new PlansFacturation();
 
@@ -134,7 +134,7 @@ class PlansFacturationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinValidite() {
+    public function testSetDateFinValidite(): void {
 
         // Set a Date/time mock.
         $dateFinValidite = new DateTime("2018-09-10");
@@ -150,7 +150,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new PlansFacturation();
 
@@ -163,7 +163,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new PlansFacturation();
 
@@ -176,7 +176,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation2() {
+    public function testSetDesignation2(): void {
 
         $obj = new PlansFacturation();
 
@@ -189,7 +189,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation3() {
+    public function testSetDesignation3(): void {
 
         $obj = new PlansFacturation();
 
@@ -202,7 +202,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationBis() {
+    public function testSetDesignationBis(): void {
 
         $obj = new PlansFacturation();
 
@@ -215,7 +215,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationBis2() {
+    public function testSetDesignationBis2(): void {
 
         $obj = new PlansFacturation();
 
@@ -228,7 +228,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationBis3() {
+    public function testSetDesignationBis3(): void {
 
         $obj = new PlansFacturation();
 
@@ -241,7 +241,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationRtf() {
+    public function testSetDesignationRtf(): void {
 
         $obj = new PlansFacturation();
 
@@ -254,7 +254,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new PlansFacturation();
 
@@ -267,7 +267,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new PlansFacturation();
 
@@ -281,7 +281,7 @@ class PlansFacturationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriodeTarif() {
+    public function testSetFinPeriodeTarif(): void {
 
         // Set a Date/time mock.
         $finPeriodeTarif = new DateTime("2018-09-10");
@@ -297,7 +297,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new PlansFacturation();
 
@@ -310,7 +310,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new PlansFacturation();
 
@@ -323,7 +323,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJui() {
+    public function testSetJui(): void {
 
         $obj = new PlansFacturation();
 
@@ -336,7 +336,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new PlansFacturation();
 
@@ -349,7 +349,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new PlansFacturation();
 
@@ -362,7 +362,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new PlansFacturation();
 
@@ -375,7 +375,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new PlansFacturation();
 
@@ -388,7 +388,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PlansFacturation();
 
@@ -401,7 +401,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDevis() {
+    public function testSetNumeroDevis(): void {
 
         $obj = new PlansFacturation();
 
@@ -414,7 +414,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroHistorique() {
+    public function testSetNumeroHistorique(): void {
 
         $obj = new PlansFacturation();
 
@@ -427,7 +427,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new PlansFacturation();
 
@@ -441,7 +441,7 @@ class PlansFacturationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeTarif() {
+    public function testSetPeriodeTarif(): void {
 
         // Set a Date/time mock.
         $periodeTarif = new DateTime("2018-09-10");
@@ -457,7 +457,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new PlansFacturation();
 
@@ -470,7 +470,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixAchat() {
+    public function testSetPrixAchat(): void {
 
         $obj = new PlansFacturation();
 
@@ -483,7 +483,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente() {
+    public function testSetPrixVente(): void {
 
         $obj = new PlansFacturation();
 
@@ -496,7 +496,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPxFacture() {
+    public function testSetPxFacture(): void {
 
         $obj = new PlansFacturation();
 
@@ -509,7 +509,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new PlansFacturation();
 
@@ -522,7 +522,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefArticle() {
+    public function testSetRefArticle(): void {
 
         $obj = new PlansFacturation();
 
@@ -535,7 +535,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefPosteCdeWebFt() {
+    public function testSetRefPosteCdeWebFt(): void {
 
         $obj = new PlansFacturation();
 
@@ -548,7 +548,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new PlansFacturation();
 
@@ -561,7 +561,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaux() {
+    public function testSetTaux(): void {
 
         $obj = new PlansFacturation();
 
@@ -574,7 +574,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVentilMarge() {
+    public function testSetVentilMarge(): void {
 
         $obj = new PlansFacturation();
 
@@ -587,7 +587,7 @@ class PlansFacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PlansFacturation();
 

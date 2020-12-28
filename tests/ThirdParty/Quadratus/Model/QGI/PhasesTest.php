@@ -27,7 +27,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Phases();
 
@@ -40,7 +40,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new Phases();
 
@@ -53,7 +53,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Phases();
 
@@ -66,7 +66,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumOrdre() {
+    public function testSetNumOrdre(): void {
 
         $obj = new Phases();
 
@@ -79,7 +79,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieFact() {
+    public function testSetSaisieFact(): void {
 
         $obj = new Phases();
 
@@ -92,7 +92,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTemps() {
+    public function testSetSaisieTemps(): void {
 
         $obj = new Phases();
 
@@ -105,7 +105,7 @@ class PhasesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Phases();
 

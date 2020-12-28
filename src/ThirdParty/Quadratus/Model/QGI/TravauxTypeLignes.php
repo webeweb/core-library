@@ -22,129 +22,130 @@ class TravauxTypeLignes {
     /**
      * Code repartition.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRepartition;
 
     /**
      * Code travail.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTravail;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Nb uo.
      *
-     * @var float
+     * @var float|null
      */
     private $nbUo;
 
     /**
      * Niveau ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $niveauLigne;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Police.
      *
-     * @var string
+     * @var string|null
      */
     private $police;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code repartition.
      *
-     * @return string Returns the code repartition.
+     * @return string|null Returns the code repartition.
      */
-    public function getCodeRepartition() {
+    public function getCodeRepartition(): ?string{
         return $this->codeRepartition;
     }
 
     /**
      * Get the code travail.
      *
-     * @return string Returns the code travail.
+     * @return string|null Returns the code travail.
      */
-    public function getCodeTravail() {
+    public function getCodeTravail(): ?string{
         return $this->codeTravail;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the nb uo.
      *
-     * @return float Returns the nb uo.
+     * @return float|null Returns the nb uo.
      */
-    public function getNbUo() {
+    public function getNbUo(): ?float{
         return $this->nbUo;
     }
 
     /**
      * Get the niveau ligne.
      *
-     * @return string Returns the niveau ligne.
+     * @return string|null Returns the niveau ligne.
      */
-    public function getNiveauLigne() {
+    public function getNiveauLigne(): ?string{
         return $this->niveauLigne;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the police.
      *
-     * @return string Returns the police.
+     * @return string|null Returns the police.
      */
-    public function getPolice() {
+    public function getPolice(): ?string{
         return $this->police;
     }
 
     /**
      * Set the code repartition.
      *
-     * @param string $codeRepartition The code repartition.
+     * @param string|null $codeRepartition The code repartition.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setCodeRepartition($codeRepartition) {
+    public function setCodeRepartition(?string $codeRepartition): TravauxTypeLignes {
         $this->codeRepartition = $codeRepartition;
         return $this;
     }
@@ -152,10 +153,10 @@ class TravauxTypeLignes {
     /**
      * Set the code travail.
      *
-     * @param string $codeTravail The code travail.
+     * @param string|null $codeTravail The code travail.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setCodeTravail($codeTravail) {
+    public function setCodeTravail(?string $codeTravail): TravauxTypeLignes {
         $this->codeTravail = $codeTravail;
         return $this;
     }
@@ -163,10 +164,10 @@ class TravauxTypeLignes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TravauxTypeLignes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -174,10 +175,10 @@ class TravauxTypeLignes {
     /**
      * Set the nb uo.
      *
-     * @param float $nbUo The nb uo.
+     * @param float|null $nbUo The nb uo.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setNbUo($nbUo) {
+    public function setNbUo(?float $nbUo): TravauxTypeLignes {
         $this->nbUo = $nbUo;
         return $this;
     }
@@ -185,10 +186,10 @@ class TravauxTypeLignes {
     /**
      * Set the niveau ligne.
      *
-     * @param string $niveauLigne The niveau ligne.
+     * @param string|null $niveauLigne The niveau ligne.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setNiveauLigne($niveauLigne) {
+    public function setNiveauLigne(?string $niveauLigne): TravauxTypeLignes {
         $this->niveauLigne = $niveauLigne;
         return $this;
     }
@@ -196,10 +197,10 @@ class TravauxTypeLignes {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): TravauxTypeLignes {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -207,10 +208,10 @@ class TravauxTypeLignes {
     /**
      * Set the police.
      *
-     * @param string $police The police.
+     * @param string|null $police The police.
      * @return TravauxTypeLignes Returns this Travaux type lignes.
      */
-    public function setPolice($police) {
+    public function setPolice(?string $police): TravauxTypeLignes {
         $this->police = $police;
         return $this;
     }

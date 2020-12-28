@@ -24,14 +24,14 @@ class BonInterneEntete {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code livreur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLivreur;
 
@@ -45,39 +45,40 @@ class BonInterneEntete {
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * No bon int.
      *
-     * @var string
+     * @var string|null
      */
     private $noBonInt;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code livreur.
      *
-     * @return string Returns the code livreur.
+     * @return string|null Returns the code livreur.
      */
-    public function getCodeLivreur() {
+    public function getCodeLivreur(): ?string{
         return $this->codeLivreur;
     }
 
@@ -86,35 +87,35 @@ class BonInterneEntete {
      *
      * @return DateTime|null Returns the date livraison.
      */
-    public function getDateLivraison() {
+    public function getDateLivraison(): ?DateTime{
         return $this->dateLivraison;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the no bon int.
      *
-     * @return string Returns the no bon int.
+     * @return string|null Returns the no bon int.
      */
-    public function getNoBonInt() {
+    public function getNoBonInt(): ?string{
         return $this->noBonInt;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return BonInterneEntete Returns this Bon interne entete.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): BonInterneEntete {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -122,10 +123,10 @@ class BonInterneEntete {
     /**
      * Set the code livreur.
      *
-     * @param string $codeLivreur The code livreur.
+     * @param string|null $codeLivreur The code livreur.
      * @return BonInterneEntete Returns this Bon interne entete.
      */
-    public function setCodeLivreur($codeLivreur) {
+    public function setCodeLivreur(?string $codeLivreur): BonInterneEntete {
         $this->codeLivreur = $codeLivreur;
         return $this;
     }
@@ -136,7 +137,7 @@ class BonInterneEntete {
      * @param DateTime|null $dateLivraison The date livraison.
      * @return BonInterneEntete Returns this Bon interne entete.
      */
-    public function setDateLivraison(DateTime $dateLivraison = null) {
+    public function setDateLivraison(?DateTime $dateLivraison): BonInterneEntete {
         $this->dateLivraison = $dateLivraison;
         return $this;
     }
@@ -144,10 +145,10 @@ class BonInterneEntete {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return BonInterneEntete Returns this Bon interne entete.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): BonInterneEntete {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -155,10 +156,10 @@ class BonInterneEntete {
     /**
      * Set the no bon int.
      *
-     * @param string $noBonInt The no bon int.
+     * @param string|null $noBonInt The no bon int.
      * @return BonInterneEntete Returns this Bon interne entete.
      */
-    public function setNoBonInt($noBonInt) {
+    public function setNoBonInt(?string $noBonInt): BonInterneEntete {
         $this->noBonInt = $noBonInt;
         return $this;
     }

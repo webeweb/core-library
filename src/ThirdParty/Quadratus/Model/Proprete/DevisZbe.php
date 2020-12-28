@@ -22,81 +22,82 @@ class DevisZbe {
     /**
      * Batiment.
      *
-     * @var string
+     * @var string|null
      */
     private $batiment;
 
     /**
      * Etage.
      *
-     * @var string
+     * @var string|null
      */
     private $etage;
 
     /**
      * Num devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numDevis;
 
     /**
      * Zone geographique.
      *
-     * @var string
+     * @var string|null
      */
     private $zoneGeographique;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the batiment.
      *
-     * @return string Returns the batiment.
+     * @return string|null Returns the batiment.
      */
-    public function getBatiment() {
+    public function getBatiment(): ?string{
         return $this->batiment;
     }
 
     /**
      * Get the etage.
      *
-     * @return string Returns the etage.
+     * @return string|null Returns the etage.
      */
-    public function getEtage() {
+    public function getEtage(): ?string{
         return $this->etage;
     }
 
     /**
      * Get the num devis.
      *
-     * @return string Returns the num devis.
+     * @return string|null Returns the num devis.
      */
-    public function getNumDevis() {
+    public function getNumDevis(): ?string{
         return $this->numDevis;
     }
 
     /**
      * Get the zone geographique.
      *
-     * @return string Returns the zone geographique.
+     * @return string|null Returns the zone geographique.
      */
-    public function getZoneGeographique() {
+    public function getZoneGeographique(): ?string{
         return $this->zoneGeographique;
     }
 
     /**
      * Set the batiment.
      *
-     * @param string $batiment The batiment.
+     * @param string|null $batiment The batiment.
      * @return DevisZbe Returns this Devis zbe.
      */
-    public function setBatiment($batiment) {
+    public function setBatiment(?string $batiment): DevisZbe {
         $this->batiment = $batiment;
         return $this;
     }
@@ -104,10 +105,10 @@ class DevisZbe {
     /**
      * Set the etage.
      *
-     * @param string $etage The etage.
+     * @param string|null $etage The etage.
      * @return DevisZbe Returns this Devis zbe.
      */
-    public function setEtage($etage) {
+    public function setEtage(?string $etage): DevisZbe {
         $this->etage = $etage;
         return $this;
     }
@@ -115,10 +116,10 @@ class DevisZbe {
     /**
      * Set the num devis.
      *
-     * @param string $numDevis The num devis.
+     * @param string|null $numDevis The num devis.
      * @return DevisZbe Returns this Devis zbe.
      */
-    public function setNumDevis($numDevis) {
+    public function setNumDevis(?string $numDevis): DevisZbe {
         $this->numDevis = $numDevis;
         return $this;
     }
@@ -126,10 +127,10 @@ class DevisZbe {
     /**
      * Set the zone geographique.
      *
-     * @param string $zoneGeographique The zone geographique.
+     * @param string|null $zoneGeographique The zone geographique.
      * @return DevisZbe Returns this Devis zbe.
      */
-    public function setZoneGeographique($zoneGeographique) {
+    public function setZoneGeographique(?string $zoneGeographique): DevisZbe {
         $this->zoneGeographique = $zoneGeographique;
         return $this;
     }

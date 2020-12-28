@@ -29,7 +29,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAssurance() {
+    public function testSetAssurance(): void {
 
         $obj = new TableauxPaiements();
 
@@ -42,7 +42,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new TableauxPaiements();
 
@@ -56,7 +56,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEntretien() {
+    public function testSetEntretien(): void {
 
         $obj = new TableauxPaiements();
 
@@ -85,7 +85,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLoyerHt() {
+    public function testSetLoyerHt(): void {
 
         $obj = new TableauxPaiements();
 
@@ -98,7 +98,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new TableauxPaiements();
 
@@ -111,7 +111,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCb() {
+    public function testSetNumeroCb(): void {
 
         $obj = new TableauxPaiements();
 
@@ -124,7 +124,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new TableauxPaiements();
 
@@ -137,7 +137,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDeuxCb() {
+    public function testSetNumeroDeuxCb(): void {
 
         $obj = new TableauxPaiements();
 
@@ -150,7 +150,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurRachat() {
+    public function testSetValeurRachat(): void {
 
         $obj = new TableauxPaiements();
 
@@ -163,7 +163,7 @@ class TableauxPaiementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TableauxPaiements();
 

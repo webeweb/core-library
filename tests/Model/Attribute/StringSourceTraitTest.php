@@ -27,7 +27,7 @@ class StringSourceTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSource() {
+    public function testSetSource(): void {
 
         $obj = new TestStringSourceTrait();
 
@@ -40,7 +40,7 @@ class StringSourceTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringSourceTrait();
 

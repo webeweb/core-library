@@ -24,126 +24,126 @@ class AttestationExtras {
     /**
      * Ancien assedic.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ancienAssedic;
 
     /**
      * Ancien garp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ancienGarp;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code motif rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMotifRupture;
 
     /**
      * Code naf.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNaf;
 
     /**
      * Effectif.
      *
-     * @var int
+     * @var int|null
      */
     private $effectif;
 
     /**
      * Emploi.
      *
-     * @var string
+     * @var string|null
      */
     private $emploi;
 
     /**
      * Etbl adresse.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAdresse;
 
     /**
      * Etbl raison sociale.
      *
-     * @var string
+     * @var string|null
      */
     private $etblRaisonSociale;
 
     /**
      * Etbl tel.
      *
-     * @var string
+     * @var string|null
      */
     private $etblTel;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Nir.
      *
-     * @var string
+     * @var string|null
      */
     private $nir;
 
     /**
      * Nom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $nomEmploye;
 
     /**
      * Nom pole emploi.
      *
-     * @var string
+     * @var string|null
      */
     private $nomPoleEmploi;
 
     /**
      * Nom regime retraite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomRegimeRetraite;
 
     /**
      * Numero affiliation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAffiliation;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -164,9 +164,16 @@ class AttestationExtras {
     /**
      * Prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $prenom;
+
+    /**
+     * Siret.
+     *
+     * @var string|null
+     */
+    private $siret;
 
     /**
      * Signature date.
@@ -178,197 +185,191 @@ class AttestationExtras {
     /**
      * Signature nom.
      *
-     * @var string
+     * @var string|null
      */
     private $signatureNom;
 
     /**
      * Signature qualite.
      *
-     * @var string
+     * @var string|null
      */
     private $signatureQualite;
 
     /**
      * Signature ville.
      *
-     * @var string
+     * @var string|null
      */
     private $signatureVille;
 
-    /**
-     * Siret.
-     *
-     * @var string
-     */
-    private $siret;
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ancien assedic.
      *
-     * @return bool Returns the ancien assedic.
+     * @return bool|null Returns the ancien assedic.
      */
-    public function getAncienAssedic() {
+    public function getAncienAssedic(): ?bool{
         return $this->ancienAssedic;
     }
 
     /**
      * Get the ancien garp.
      *
-     * @return bool Returns the ancien garp.
+     * @return bool|null Returns the ancien garp.
      */
-    public function getAncienGarp() {
+    public function getAncienGarp(): ?bool{
         return $this->ancienGarp;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code motif rupture.
      *
-     * @return string Returns the code motif rupture.
+     * @return string|null Returns the code motif rupture.
      */
-    public function getCodeMotifRupture() {
+    public function getCodeMotifRupture(): ?string{
         return $this->codeMotifRupture;
     }
 
     /**
      * Get the code naf.
      *
-     * @return string Returns the code naf.
+     * @return string|null Returns the code naf.
      */
-    public function getCodeNaf() {
+    public function getCodeNaf(): ?string{
         return $this->codeNaf;
     }
 
     /**
      * Get the effectif.
      *
-     * @return int Returns the effectif.
+     * @return int|null Returns the effectif.
      */
-    public function getEffectif() {
+    public function getEffectif(): ?int{
         return $this->effectif;
     }
 
     /**
      * Get the emploi.
      *
-     * @return string Returns the emploi.
+     * @return string|null Returns the emploi.
      */
-    public function getEmploi() {
+    public function getEmploi(): ?string{
         return $this->emploi;
     }
 
     /**
      * Get the etbl adresse.
      *
-     * @return string Returns the etbl adresse.
+     * @return string|null Returns the etbl adresse.
      */
-    public function getEtblAdresse() {
+    public function getEtblAdresse(): ?string{
         return $this->etblAdresse;
     }
 
     /**
      * Get the etbl raison sociale.
      *
-     * @return string Returns the etbl raison sociale.
+     * @return string|null Returns the etbl raison sociale.
      */
-    public function getEtblRaisonSociale() {
+    public function getEtblRaisonSociale(): ?string{
         return $this->etblRaisonSociale;
     }
 
     /**
      * Get the etbl tel.
      *
-     * @return string Returns the etbl tel.
+     * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel() {
+    public function getEtblTel(): ?string{
         return $this->etblTel;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the nir.
      *
-     * @return string Returns the nir.
+     * @return string|null Returns the nir.
      */
-    public function getNir() {
+    public function getNir(): ?string{
         return $this->nir;
     }
 
     /**
      * Get the nom employe.
      *
-     * @return string Returns the nom employe.
+     * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye() {
+    public function getNomEmploye(): ?string{
         return $this->nomEmploye;
     }
 
     /**
      * Get the nom pole emploi.
      *
-     * @return string Returns the nom pole emploi.
+     * @return string|null Returns the nom pole emploi.
      */
-    public function getNomPoleEmploi() {
+    public function getNomPoleEmploi(): ?string{
         return $this->nomPoleEmploi;
     }
 
     /**
      * Get the nom regime retraite.
      *
-     * @return string Returns the nom regime retraite.
+     * @return string|null Returns the nom regime retraite.
      */
-    public function getNomRegimeRetraite() {
+    public function getNomRegimeRetraite(): ?string{
         return $this->nomRegimeRetraite;
     }
 
     /**
      * Get the numero affiliation.
      *
-     * @return string Returns the numero affiliation.
+     * @return string|null Returns the numero affiliation.
      */
-    public function getNumeroAffiliation() {
+    public function getNumeroAffiliation(): ?string{
         return $this->numeroAffiliation;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -377,7 +378,7 @@ class AttestationExtras {
      *
      * @return DateTime|null Returns the periode emploi deb.
      */
-    public function getPeriodeEmploiDeb() {
+    public function getPeriodeEmploiDeb(): ?DateTime{
         return $this->periodeEmploiDeb;
     }
 
@@ -386,17 +387,26 @@ class AttestationExtras {
      *
      * @return DateTime|null Returns the periode emploi fin.
      */
-    public function getPeriodeEmploiFin() {
+    public function getPeriodeEmploiFin(): ?DateTime{
         return $this->periodeEmploiFin;
     }
 
     /**
      * Get the prenom.
      *
-     * @return string Returns the prenom.
+     * @return string|null Returns the prenom.
      */
-    public function getPrenom() {
+    public function getPrenom(): ?string{
         return $this->prenom;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string|null Returns the siret.
+     */
+    public function getSiret(): ?string{
+        return $this->siret;
     }
 
     /**
@@ -404,53 +414,44 @@ class AttestationExtras {
      *
      * @return DateTime|null Returns the signature date.
      */
-    public function getSignatureDate() {
+    public function getSignatureDate(): ?DateTime{
         return $this->signatureDate;
     }
 
     /**
      * Get the signature nom.
      *
-     * @return string Returns the signature nom.
+     * @return string|null Returns the signature nom.
      */
-    public function getSignatureNom() {
+    public function getSignatureNom(): ?string{
         return $this->signatureNom;
     }
 
     /**
      * Get the signature qualite.
      *
-     * @return string Returns the signature qualite.
+     * @return string|null Returns the signature qualite.
      */
-    public function getSignatureQualite() {
+    public function getSignatureQualite(): ?string{
         return $this->signatureQualite;
     }
 
     /**
      * Get the signature ville.
      *
-     * @return string Returns the signature ville.
+     * @return string|null Returns the signature ville.
      */
-    public function getSignatureVille() {
+    public function getSignatureVille(): ?string{
         return $this->signatureVille;
-    }
-
-    /**
-     * Get the siret.
-     *
-     * @return string Returns the siret.
-     */
-    public function getSiret() {
-        return $this->siret;
     }
 
     /**
      * Set the ancien assedic.
      *
-     * @param bool $ancienAssedic The ancien assedic.
+     * @param bool|null $ancienAssedic The ancien assedic.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setAncienAssedic($ancienAssedic) {
+    public function setAncienAssedic(?bool $ancienAssedic): AttestationExtras {
         $this->ancienAssedic = $ancienAssedic;
         return $this;
     }
@@ -458,10 +459,10 @@ class AttestationExtras {
     /**
      * Set the ancien garp.
      *
-     * @param bool $ancienGarp The ancien garp.
+     * @param bool|null $ancienGarp The ancien garp.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setAncienGarp($ancienGarp) {
+    public function setAncienGarp(?bool $ancienGarp): AttestationExtras {
         $this->ancienGarp = $ancienGarp;
         return $this;
     }
@@ -469,10 +470,10 @@ class AttestationExtras {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): AttestationExtras {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -480,10 +481,10 @@ class AttestationExtras {
     /**
      * Set the code motif rupture.
      *
-     * @param string $codeMotifRupture The code motif rupture.
+     * @param string|null $codeMotifRupture The code motif rupture.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setCodeMotifRupture($codeMotifRupture) {
+    public function setCodeMotifRupture(?string $codeMotifRupture): AttestationExtras {
         $this->codeMotifRupture = $codeMotifRupture;
         return $this;
     }
@@ -491,10 +492,10 @@ class AttestationExtras {
     /**
      * Set the code naf.
      *
-     * @param string $codeNaf The code naf.
+     * @param string|null $codeNaf The code naf.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setCodeNaf($codeNaf) {
+    public function setCodeNaf(?string $codeNaf): AttestationExtras {
         $this->codeNaf = $codeNaf;
         return $this;
     }
@@ -502,10 +503,10 @@ class AttestationExtras {
     /**
      * Set the effectif.
      *
-     * @param int $effectif The effectif.
+     * @param int|null $effectif The effectif.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setEffectif($effectif) {
+    public function setEffectif(?int $effectif): AttestationExtras {
         $this->effectif = $effectif;
         return $this;
     }
@@ -513,10 +514,10 @@ class AttestationExtras {
     /**
      * Set the emploi.
      *
-     * @param string $emploi The emploi.
+     * @param string|null $emploi The emploi.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setEmploi($emploi) {
+    public function setEmploi(?string $emploi): AttestationExtras {
         $this->emploi = $emploi;
         return $this;
     }
@@ -524,10 +525,10 @@ class AttestationExtras {
     /**
      * Set the etbl adresse.
      *
-     * @param string $etblAdresse The etbl adresse.
+     * @param string|null $etblAdresse The etbl adresse.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setEtblAdresse($etblAdresse) {
+    public function setEtblAdresse(?string $etblAdresse): AttestationExtras {
         $this->etblAdresse = $etblAdresse;
         return $this;
     }
@@ -535,10 +536,10 @@ class AttestationExtras {
     /**
      * Set the etbl raison sociale.
      *
-     * @param string $etblRaisonSociale The etbl raison sociale.
+     * @param string|null $etblRaisonSociale The etbl raison sociale.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setEtblRaisonSociale($etblRaisonSociale) {
+    public function setEtblRaisonSociale(?string $etblRaisonSociale): AttestationExtras {
         $this->etblRaisonSociale = $etblRaisonSociale;
         return $this;
     }
@@ -546,10 +547,10 @@ class AttestationExtras {
     /**
      * Set the etbl tel.
      *
-     * @param string $etblTel The etbl tel.
+     * @param string|null $etblTel The etbl tel.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setEtblTel($etblTel) {
+    public function setEtblTel(?string $etblTel): AttestationExtras {
         $this->etblTel = $etblTel;
         return $this;
     }
@@ -557,10 +558,10 @@ class AttestationExtras {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): AttestationExtras {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -568,10 +569,10 @@ class AttestationExtras {
     /**
      * Set the nir.
      *
-     * @param string $nir The nir.
+     * @param string|null $nir The nir.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNir($nir) {
+    public function setNir(?string $nir): AttestationExtras {
         $this->nir = $nir;
         return $this;
     }
@@ -579,10 +580,10 @@ class AttestationExtras {
     /**
      * Set the nom employe.
      *
-     * @param string $nomEmploye The nom employe.
+     * @param string|null $nomEmploye The nom employe.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNomEmploye($nomEmploye) {
+    public function setNomEmploye(?string $nomEmploye): AttestationExtras {
         $this->nomEmploye = $nomEmploye;
         return $this;
     }
@@ -590,10 +591,10 @@ class AttestationExtras {
     /**
      * Set the nom pole emploi.
      *
-     * @param string $nomPoleEmploi The nom pole emploi.
+     * @param string|null $nomPoleEmploi The nom pole emploi.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNomPoleEmploi($nomPoleEmploi) {
+    public function setNomPoleEmploi(?string $nomPoleEmploi): AttestationExtras {
         $this->nomPoleEmploi = $nomPoleEmploi;
         return $this;
     }
@@ -601,10 +602,10 @@ class AttestationExtras {
     /**
      * Set the nom regime retraite.
      *
-     * @param string $nomRegimeRetraite The nom regime retraite.
+     * @param string|null $nomRegimeRetraite The nom regime retraite.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNomRegimeRetraite($nomRegimeRetraite) {
+    public function setNomRegimeRetraite(?string $nomRegimeRetraite): AttestationExtras {
         $this->nomRegimeRetraite = $nomRegimeRetraite;
         return $this;
     }
@@ -612,10 +613,10 @@ class AttestationExtras {
     /**
      * Set the numero affiliation.
      *
-     * @param string $numeroAffiliation The numero affiliation.
+     * @param string|null $numeroAffiliation The numero affiliation.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNumeroAffiliation($numeroAffiliation) {
+    public function setNumeroAffiliation(?string $numeroAffiliation): AttestationExtras {
         $this->numeroAffiliation = $numeroAffiliation;
         return $this;
     }
@@ -623,10 +624,10 @@ class AttestationExtras {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): AttestationExtras {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -634,10 +635,10 @@ class AttestationExtras {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): AttestationExtras {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -648,7 +649,7 @@ class AttestationExtras {
      * @param DateTime|null $periodeEmploiDeb The periode emploi deb.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setPeriodeEmploiDeb(DateTime $periodeEmploiDeb = null) {
+    public function setPeriodeEmploiDeb(?DateTime $periodeEmploiDeb): AttestationExtras {
         $this->periodeEmploiDeb = $periodeEmploiDeb;
         return $this;
     }
@@ -659,7 +660,7 @@ class AttestationExtras {
      * @param DateTime|null $periodeEmploiFin The periode emploi fin.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setPeriodeEmploiFin(DateTime $periodeEmploiFin = null) {
+    public function setPeriodeEmploiFin(?DateTime $periodeEmploiFin): AttestationExtras {
         $this->periodeEmploiFin = $periodeEmploiFin;
         return $this;
     }
@@ -667,11 +668,22 @@ class AttestationExtras {
     /**
      * Set the prenom.
      *
-     * @param string $prenom The prenom.
+     * @param string|null $prenom The prenom.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setPrenom($prenom) {
+    public function setPrenom(?string $prenom): AttestationExtras {
         $this->prenom = $prenom;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string|null $siret The siret.
+     * @return AttestationExtras Returns this Attestation extras.
+     */
+    public function setSiret(?string $siret): AttestationExtras {
+        $this->siret = $siret;
         return $this;
     }
 
@@ -681,7 +693,7 @@ class AttestationExtras {
      * @param DateTime|null $signatureDate The signature date.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setSignatureDate(DateTime $signatureDate = null) {
+    public function setSignatureDate(?DateTime $signatureDate): AttestationExtras {
         $this->signatureDate = $signatureDate;
         return $this;
     }
@@ -689,10 +701,10 @@ class AttestationExtras {
     /**
      * Set the signature nom.
      *
-     * @param string $signatureNom The signature nom.
+     * @param string|null $signatureNom The signature nom.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setSignatureNom($signatureNom) {
+    public function setSignatureNom(?string $signatureNom): AttestationExtras {
         $this->signatureNom = $signatureNom;
         return $this;
     }
@@ -700,10 +712,10 @@ class AttestationExtras {
     /**
      * Set the signature qualite.
      *
-     * @param string $signatureQualite The signature qualite.
+     * @param string|null $signatureQualite The signature qualite.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setSignatureQualite($signatureQualite) {
+    public function setSignatureQualite(?string $signatureQualite): AttestationExtras {
         $this->signatureQualite = $signatureQualite;
         return $this;
     }
@@ -711,22 +723,11 @@ class AttestationExtras {
     /**
      * Set the signature ville.
      *
-     * @param string $signatureVille The signature ville.
+     * @param string|null $signatureVille The signature ville.
      * @return AttestationExtras Returns this Attestation extras.
      */
-    public function setSignatureVille($signatureVille) {
+    public function setSignatureVille(?string $signatureVille): AttestationExtras {
         $this->signatureVille = $signatureVille;
-        return $this;
-    }
-
-    /**
-     * Set the siret.
-     *
-     * @param string $siret The siret.
-     * @return AttestationExtras Returns this Attestation extras.
-     */
-    public function setSiret($siret) {
-        $this->siret = $siret;
         return $this;
     }
 }

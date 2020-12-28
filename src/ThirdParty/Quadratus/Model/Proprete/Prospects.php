@@ -22,193 +22,194 @@ class Prospects {
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Code prospect.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProspect;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom suite2.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite2;
 
     /**
      * Nom suite3.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite3;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the code prospect.
      *
-     * @return string Returns the code prospect.
+     * @return string|null Returns the code prospect.
      */
-    public function getCodeProspect() {
+    public function getCodeProspect(): ?string{
         return $this->codeProspect;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom suite2.
      *
-     * @return string Returns the nom suite2.
+     * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2() {
+    public function getNomSuite2(): ?string{
         return $this->nomSuite2;
     }
 
     /**
      * Get the nom suite3.
      *
-     * @return string Returns the nom suite3.
+     * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3() {
+    public function getNomSuite3(): ?string{
         return $this->nomSuite3;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return Prospects Returns this Prospects.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): Prospects {
         $this->btq = $btq;
         return $this;
     }
@@ -216,10 +217,10 @@ class Prospects {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return Prospects Returns this Prospects.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): Prospects {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -227,10 +228,10 @@ class Prospects {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return Prospects Returns this Prospects.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): Prospects {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -238,10 +239,10 @@ class Prospects {
     /**
      * Set the code prospect.
      *
-     * @param string $codeProspect The code prospect.
+     * @param string|null $codeProspect The code prospect.
      * @return Prospects Returns this Prospects.
      */
-    public function setCodeProspect($codeProspect) {
+    public function setCodeProspect(?string $codeProspect): Prospects {
         $this->codeProspect = $codeProspect;
         return $this;
     }
@@ -249,10 +250,10 @@ class Prospects {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return Prospects Returns this Prospects.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): Prospects {
         $this->complement = $complement;
         return $this;
     }
@@ -260,10 +261,10 @@ class Prospects {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return Prospects Returns this Prospects.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): Prospects {
         $this->nom = $nom;
         return $this;
     }
@@ -271,10 +272,10 @@ class Prospects {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return Prospects Returns this Prospects.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): Prospects {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -282,10 +283,10 @@ class Prospects {
     /**
      * Set the nom suite2.
      *
-     * @param string $nomSuite2 The nom suite2.
+     * @param string|null $nomSuite2 The nom suite2.
      * @return Prospects Returns this Prospects.
      */
-    public function setNomSuite2($nomSuite2) {
+    public function setNomSuite2(?string $nomSuite2): Prospects {
         $this->nomSuite2 = $nomSuite2;
         return $this;
     }
@@ -293,10 +294,10 @@ class Prospects {
     /**
      * Set the nom suite3.
      *
-     * @param string $nomSuite3 The nom suite3.
+     * @param string|null $nomSuite3 The nom suite3.
      * @return Prospects Returns this Prospects.
      */
-    public function setNomSuite3($nomSuite3) {
+    public function setNomSuite3(?string $nomSuite3): Prospects {
         $this->nomSuite3 = $nomSuite3;
         return $this;
     }
@@ -304,10 +305,10 @@ class Prospects {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return Prospects Returns this Prospects.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): Prospects {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -315,10 +316,10 @@ class Prospects {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return Prospects Returns this Prospects.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): Prospects {
         $this->numVoie = $numVoie;
         return $this;
     }

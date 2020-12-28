@@ -24,35 +24,35 @@ class StartRecordFormat {
     /**
      * Currency.
      *
-     * @var string
+     * @var string|null
      */
     private $currency;
 
     /**
      * Date of file.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $dateFile;
 
     /**
      * Facility number
      *
-     * @var int
+     * @var int|null
      */
     private $facilityNumber;
 
     /**
      * Number of records.
      *
-     * @var int
+     * @var int|null
      */
     private $numberRecords;
 
     /**
      * Version of record structure.
      *
-     * @var int
+     * @var int|null
      */
     private $versionRecordStructure;
 
@@ -60,61 +60,61 @@ class StartRecordFormat {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
      * Get the currency.
      *
-     * @return string Returns the currency.
+     * @return string|null Returns the currency.
      */
-    public function getCurrency() {
+    public function getCurrency(): ?string {
         return $this->currency;
     }
 
     /**
      * Get the date of file.
      *
-     * @return DateTime Returns the date of file.
+     * @return DateTime|null Returns the date of file.
      */
-    public function getDateFile() {
+    public function getDateFile(): ?DateTime {
         return $this->dateFile;
     }
 
     /**
      * Get the facility number.
      *
-     * @return int Returns the facility number.
+     * @return int|null Returns the facility number.
      */
-    public function getFacilityNumber() {
+    public function getFacilityNumber(): ?int {
         return $this->facilityNumber;
     }
 
     /**
      * Get the number of records.
      *
-     * @return int Returns the number of records.
+     * @return int|null Returns the number of records.
      */
-    public function getNumberRecords() {
+    public function getNumberRecords(): ?int {
         return $this->numberRecords;
     }
 
     /**
      * Get the version of record structure.
      *
-     * @return int Returns the version of record structure.
+     * @return int|null Returns the version of record structure.
      */
-    public function getVersionRecordStructure() {
+    public function getVersionRecordStructure(): ?int {
         return $this->versionRecordStructure;
     }
 
     /**
      * Set the currency.
      *
-     * @param string $currency The currency.
+     * @param string|null $currency The currency.
      * @return StartRecordFormat Returns this start record format.
      */
-    public function setCurrency($currency) {
+    public function setCurrency(?string $currency): StartRecordFormat {
         $this->currency = $currency;
         return $this;
     }
@@ -125,7 +125,7 @@ class StartRecordFormat {
      * @param DateTime|null $dateFile The date of file.
      * @return StartRecordFormat Returns this start record format.
      */
-    public function setDateFile(DateTime $dateFile = null) {
+    public function setDateFile(?DateTime $dateFile): StartRecordFormat {
         $this->dateFile = $dateFile;
         return $this;
     }
@@ -133,10 +133,10 @@ class StartRecordFormat {
     /**
      * Set the facility number.
      *
-     * @param int $facilityNumber The facility number.
+     * @param int|null $facilityNumber The facility number.
      * @return StartRecordFormat Returns this start record format.
      */
-    public function setFacilityNumber($facilityNumber) {
+    public function setFacilityNumber(?int $facilityNumber): StartRecordFormat {
         $this->facilityNumber = $facilityNumber;
         return $this;
     }
@@ -144,10 +144,10 @@ class StartRecordFormat {
     /**
      * Set the number of records.
      *
-     * @param int $numberRecords The number of records.
+     * @param int|null $numberRecords The number of records.
      * @return StartRecordFormat Returns this start record format.
      */
-    public function setNumberRecords($numberRecords) {
+    public function setNumberRecords(?int $numberRecords): StartRecordFormat {
         $this->numberRecords = $numberRecords;
         return $this;
     }
@@ -155,10 +155,10 @@ class StartRecordFormat {
     /**
      * Set the version of record structure.
      *
-     * @param int $versionRecordStructure The version of record structure.
+     * @param int|null $versionRecordStructure The version of record structure.
      * @return StartRecordFormat Returns this start record format.
      */
-    public function setVersionRecordStructure($versionRecordStructure) {
+    public function setVersionRecordStructure(?int $versionRecordStructure): StartRecordFormat {
         $this->versionRecordStructure = $versionRecordStructure;
         return $this;
     }

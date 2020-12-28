@@ -35,7 +35,7 @@ class RequestSerializer {
      * @param RequestData $request The request data.
      * @return array Returns the serialized request data.
      */
-    public static function serializeRequestData(RequestData $request) {
+    public static function serializeRequestData(RequestData $request): array {
 
         $result = [];
 

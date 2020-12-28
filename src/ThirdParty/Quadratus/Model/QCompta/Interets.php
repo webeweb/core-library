@@ -31,29 +31,30 @@ class Interets {
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Taux.
      *
-     * @var float
+     * @var float|null
      */
     private $taux;
 
     /**
      * Type cpt.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCpt;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -61,34 +62,34 @@ class Interets {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the taux.
      *
-     * @return float Returns the taux.
+     * @return float|null Returns the taux.
      */
-    public function getTaux() {
+    public function getTaux(): ?float{
         return $this->taux;
     }
 
     /**
      * Get the type cpt.
      *
-     * @return string Returns the type cpt.
+     * @return string|null Returns the type cpt.
      */
-    public function getTypeCpt() {
+    public function getTypeCpt(): ?string{
         return $this->typeCpt;
     }
 
@@ -98,7 +99,7 @@ class Interets {
      * @param DateTime|null $dateDebut The date debut.
      * @return Interets Returns this Interets.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): Interets {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -106,10 +107,10 @@ class Interets {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return Interets Returns this Interets.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): Interets {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -117,10 +118,10 @@ class Interets {
     /**
      * Set the taux.
      *
-     * @param float $taux The taux.
+     * @param float|null $taux The taux.
      * @return Interets Returns this Interets.
      */
-    public function setTaux($taux) {
+    public function setTaux(?float $taux): Interets {
         $this->taux = $taux;
         return $this;
     }
@@ -128,10 +129,10 @@ class Interets {
     /**
      * Set the type cpt.
      *
-     * @param string $typeCpt The type cpt.
+     * @param string|null $typeCpt The type cpt.
      * @return Interets Returns this Interets.
      */
-    public function setTypeCpt($typeCpt) {
+    public function setTypeCpt(?string $typeCpt): Interets {
         $this->typeCpt = $typeCpt;
         return $this;
     }

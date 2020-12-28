@@ -27,7 +27,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabMessages() {
+    public function testSetCodeCollabMessages(): void {
 
         $obj = new iPaieDroits();
 
@@ -40,7 +40,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new iPaieDroits();
 
@@ -53,7 +53,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEspaceClient() {
+    public function testSetEspaceClient(): void {
 
         $obj = new iPaieDroits();
 
@@ -66,7 +66,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctAbsencesCp() {
+    public function testSetFctAbsencesCp(): void {
 
         $obj = new iPaieDroits();
 
@@ -79,7 +79,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctAcomptes() {
+    public function testSetFctAcomptes(): void {
 
         $obj = new iPaieDroits();
 
@@ -92,7 +92,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctArchives() {
+    public function testSetFctArchives(): void {
 
         $obj = new iPaieDroits();
 
@@ -105,7 +105,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctBulletins() {
+    public function testSetFctBulletins(): void {
 
         $obj = new iPaieDroits();
 
@@ -118,7 +118,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDocuments() {
+    public function testSetFctDocuments(): void {
 
         $obj = new iPaieDroits();
 
@@ -131,7 +131,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDonneesV() {
+    public function testSetFctDonneesV(): void {
 
         $obj = new iPaieDroits();
 
@@ -144,7 +144,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctEtatCivil() {
+    public function testSetFctEtatCivil(): void {
 
         $obj = new iPaieDroits();
 
@@ -157,7 +157,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifAbsencesCp() {
+    public function testSetFctModifAbsencesCp(): void {
 
         $obj = new iPaieDroits();
 
@@ -170,7 +170,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifAcomptes() {
+    public function testSetFctModifAcomptes(): void {
 
         $obj = new iPaieDroits();
 
@@ -183,7 +183,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifArchives() {
+    public function testSetFctModifArchives(): void {
 
         $obj = new iPaieDroits();
 
@@ -196,7 +196,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifBulletins() {
+    public function testSetFctModifBulletins(): void {
 
         $obj = new iPaieDroits();
 
@@ -209,7 +209,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifDocuments() {
+    public function testSetFctModifDocuments(): void {
 
         $obj = new iPaieDroits();
 
@@ -222,7 +222,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifDonneesV() {
+    public function testSetFctModifDonneesV(): void {
 
         $obj = new iPaieDroits();
 
@@ -235,7 +235,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifEtatCivil() {
+    public function testSetFctModifEtatCivil(): void {
 
         $obj = new iPaieDroits();
 
@@ -248,7 +248,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlag() {
+    public function testSetFlag(): void {
 
         $obj = new iPaieDroits();
 
@@ -261,7 +261,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauConf() {
+    public function testSetNiveauConf(): void {
 
         $obj = new iPaieDroits();
 
@@ -274,7 +274,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoDossPaie() {
+    public function testSetNoDossPaie(): void {
 
         $obj = new iPaieDroits();
 
@@ -287,7 +287,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomUser() {
+    public function testSetNomUser(): void {
 
         $obj = new iPaieDroits();
 
@@ -300,7 +300,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumiKey() {
+    public function testSetNumiKey(): void {
 
         $obj = new iPaieDroits();
 
@@ -313,7 +313,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassword() {
+    public function testSetPassword(): void {
 
         $obj = new iPaieDroits();
 
@@ -326,7 +326,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUserExpert() {
+    public function testSetUserExpert(): void {
 
         $obj = new iPaieDroits();
 
@@ -339,7 +339,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisuSalaires() {
+    public function testSetVisuSalaires(): void {
 
         $obj = new iPaieDroits();
 
@@ -352,7 +352,7 @@ class iPaieDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iPaieDroits();
 

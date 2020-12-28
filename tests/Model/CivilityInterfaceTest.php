@@ -27,7 +27,7 @@ class CivilityInterfaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $this->assertEquals(-1, CivilityInterface::CIVILITY_EMPTY);
         $this->assertEquals(164, CivilityInterface::CIVILITY_MISS);

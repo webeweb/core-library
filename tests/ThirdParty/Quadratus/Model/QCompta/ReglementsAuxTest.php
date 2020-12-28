@@ -29,7 +29,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActif() {
+    public function testSetActif(): void {
 
         $obj = new ReglementsAux();
 
@@ -42,7 +42,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutreDomBanque() {
+    public function testSetAutreDomBanque(): void {
 
         $obj = new ReglementsAux();
 
@@ -55,7 +55,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutreRib() {
+    public function testSetAutreRib(): void {
 
         $obj = new ReglementsAux();
 
@@ -68,7 +68,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalBanque() {
+    public function testSetCodeJournalBanque(): void {
 
         $obj = new ReglementsAux();
 
@@ -81,7 +81,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeModePaiement() {
+    public function testSetCodeModePaiement(): void {
 
         $obj = new ReglementsAux();
 
@@ -94,7 +94,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDans1Groupe() {
+    public function testSetDans1Groupe(): void {
 
         $obj = new ReglementsAux();
 
@@ -108,7 +108,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         // Set a Date/time mock.
         $dateEcheance = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantGroupe() {
+    public function testSetMontantGroupe(): void {
 
         $obj = new ReglementsAux();
 
@@ -137,7 +137,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisiCredit() {
+    public function testSetMontantSaisiCredit(): void {
 
         $obj = new ReglementsAux();
 
@@ -150,7 +150,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisiDebit() {
+    public function testSetMontantSaisiDebit(): void {
 
         $obj = new ReglementsAux();
 
@@ -163,7 +163,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuCredit() {
+    public function testSetMontantTenuCredit(): void {
 
         $obj = new ReglementsAux();
 
@@ -176,7 +176,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuDebit() {
+    public function testSetMontantTenuDebit(): void {
 
         $obj = new ReglementsAux();
 
@@ -189,7 +189,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoRib() {
+    public function testSetNoRib(): void {
 
         $obj = new ReglementsAux();
 
@@ -202,7 +202,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumGroupe() {
+    public function testSetNumGroupe(): void {
 
         $obj = new ReglementsAux();
 
@@ -215,7 +215,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotLcr() {
+    public function testSetNumLotLcr(): void {
 
         $obj = new ReglementsAux();
 
@@ -228,7 +228,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotLettreP() {
+    public function testSetNumLotLettreP(): void {
 
         $obj = new ReglementsAux();
 
@@ -241,7 +241,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotTraite() {
+    public function testSetNumLotTraite(): void {
 
         $obj = new ReglementsAux();
 
@@ -254,7 +254,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new ReglementsAux();
 
@@ -267,7 +267,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniqEcriture() {
+    public function testSetNumUniqEcriture(): void {
 
         $obj = new ReglementsAux();
 
@@ -280,7 +280,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new ReglementsAux();
 
@@ -293,7 +293,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceTire() {
+    public function testSetReferenceTire(): void {
 
         $obj = new ReglementsAux();
 
@@ -306,7 +306,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeReglement() {
+    public function testSetTypeReglement(): void {
 
         $obj = new ReglementsAux();
 
@@ -319,7 +319,7 @@ class ReglementsAuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ReglementsAux();
 

@@ -27,7 +27,7 @@ class EquipeEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new EquipeEmployes();
 
@@ -40,7 +40,7 @@ class EquipeEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEquipe() {
+    public function testSetCodeEquipe(): void {
 
         $obj = new EquipeEmployes();
 
@@ -53,7 +53,7 @@ class EquipeEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EquipeEmployes();
 

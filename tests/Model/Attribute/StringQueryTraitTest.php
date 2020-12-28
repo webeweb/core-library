@@ -27,7 +27,7 @@ class StringQueryTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuery() {
+    public function testSetQuery(): void {
 
         $obj = new TestStringQueryTrait();
 
@@ -40,7 +40,7 @@ class StringQueryTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringQueryTrait();
 

@@ -27,7 +27,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBlocDa() {
+    public function testSetBlocDa(): void {
 
         $obj = new ChantiersSynchroId();
 
@@ -40,7 +40,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBlocFc() {
+    public function testSetBlocFc(): void {
 
         $obj = new ChantiersSynchroId();
 
@@ -53,7 +53,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersSynchroId();
 
@@ -66,7 +66,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersSynchroId();
 
@@ -79,7 +79,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersSynchroId();
 
@@ -92,7 +92,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new ChantiersSynchroId();
 
@@ -105,7 +105,7 @@ class ChantiersSynchroIdTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersSynchroId();
 

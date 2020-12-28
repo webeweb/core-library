@@ -27,7 +27,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArchivagePermanent() {
+    public function testSetArchivagePermanent(): void {
 
         $obj = new AgendaConstantes();
 
@@ -40,7 +40,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite7() {
+    public function testSetCodeActivite7(): void {
 
         $obj = new AgendaConstantes();
 
@@ -53,7 +53,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite8() {
+    public function testSetCodeActivite8(): void {
 
         $obj = new AgendaConstantes();
 
@@ -66,7 +66,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite9() {
+    public function testSetCodeActivite9(): void {
 
         $obj = new AgendaConstantes();
 
@@ -79,7 +79,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite1() {
+    public function testSetCouleurActivite1(): void {
 
         $obj = new AgendaConstantes();
 
@@ -92,7 +92,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite10() {
+    public function testSetCouleurActivite10(): void {
 
         $obj = new AgendaConstantes();
 
@@ -105,7 +105,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite11() {
+    public function testSetCouleurActivite11(): void {
 
         $obj = new AgendaConstantes();
 
@@ -118,7 +118,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite2() {
+    public function testSetCouleurActivite2(): void {
 
         $obj = new AgendaConstantes();
 
@@ -131,7 +131,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite3() {
+    public function testSetCouleurActivite3(): void {
 
         $obj = new AgendaConstantes();
 
@@ -144,7 +144,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite4() {
+    public function testSetCouleurActivite4(): void {
 
         $obj = new AgendaConstantes();
 
@@ -157,7 +157,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite5() {
+    public function testSetCouleurActivite5(): void {
 
         $obj = new AgendaConstantes();
 
@@ -170,7 +170,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite6() {
+    public function testSetCouleurActivite6(): void {
 
         $obj = new AgendaConstantes();
 
@@ -183,7 +183,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite7() {
+    public function testSetCouleurActivite7(): void {
 
         $obj = new AgendaConstantes();
 
@@ -196,7 +196,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite8() {
+    public function testSetCouleurActivite8(): void {
 
         $obj = new AgendaConstantes();
 
@@ -209,7 +209,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurActivite9() {
+    public function testSetCouleurActivite9(): void {
 
         $obj = new AgendaConstantes();
 
@@ -222,7 +222,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurCalendrier() {
+    public function testSetCouleurCalendrier(): void {
 
         $obj = new AgendaConstantes();
 
@@ -235,7 +235,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCouleurDimJFeries() {
+    public function testSetCouleurDimJFeries(): void {
 
         $obj = new AgendaConstantes();
 
@@ -248,7 +248,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDisabledActivityLabelOnFirstRow() {
+    public function testSetDisabledActivityLabelOnFirstRow(): void {
 
         $obj = new AgendaConstantes();
 
@@ -261,7 +261,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossierFactPme() {
+    public function testSetDossierFactPme(): void {
 
         $obj = new AgendaConstantes();
 
@@ -274,7 +274,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureDebut() {
+    public function testSetHeureDebut(): void {
 
         $obj = new AgendaConstantes();
 
@@ -287,7 +287,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureFin() {
+    public function testSetHeureFin(): void {
 
         $obj = new AgendaConstantes();
 
@@ -300,7 +300,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleActivite7() {
+    public function testSetLibelleActivite7(): void {
 
         $obj = new AgendaConstantes();
 
@@ -313,7 +313,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleActivite8() {
+    public function testSetLibelleActivite8(): void {
 
         $obj = new AgendaConstantes();
 
@@ -326,7 +326,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleActivite9() {
+    public function testSetLibelleActivite9(): void {
 
         $obj = new AgendaConstantes();
 
@@ -339,7 +339,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMultiDossiers() {
+    public function testSetMultiDossiers(): void {
 
         $obj = new AgendaConstantes();
 
@@ -352,7 +352,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite1() {
+    public function testSetTextColorActivite1(): void {
 
         $obj = new AgendaConstantes();
 
@@ -365,7 +365,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite10() {
+    public function testSetTextColorActivite10(): void {
 
         $obj = new AgendaConstantes();
 
@@ -378,7 +378,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite11() {
+    public function testSetTextColorActivite11(): void {
 
         $obj = new AgendaConstantes();
 
@@ -391,7 +391,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite2() {
+    public function testSetTextColorActivite2(): void {
 
         $obj = new AgendaConstantes();
 
@@ -404,7 +404,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite3() {
+    public function testSetTextColorActivite3(): void {
 
         $obj = new AgendaConstantes();
 
@@ -417,7 +417,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite4() {
+    public function testSetTextColorActivite4(): void {
 
         $obj = new AgendaConstantes();
 
@@ -430,7 +430,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite5() {
+    public function testSetTextColorActivite5(): void {
 
         $obj = new AgendaConstantes();
 
@@ -443,7 +443,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite6() {
+    public function testSetTextColorActivite6(): void {
 
         $obj = new AgendaConstantes();
 
@@ -456,7 +456,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite7() {
+    public function testSetTextColorActivite7(): void {
 
         $obj = new AgendaConstantes();
 
@@ -469,7 +469,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite8() {
+    public function testSetTextColorActivite8(): void {
 
         $obj = new AgendaConstantes();
 
@@ -482,7 +482,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorActivite9() {
+    public function testSetTextColorActivite9(): void {
 
         $obj = new AgendaConstantes();
 
@@ -495,7 +495,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTextColorDimJFeries() {
+    public function testSetTextColorDimJFeries(): void {
 
         $obj = new AgendaConstantes();
 
@@ -508,7 +508,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUseNewGpeParam() {
+    public function testSetUseNewGpeParam(): void {
 
         $obj = new AgendaConstantes();
 
@@ -521,7 +521,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetWeekMode() {
+    public function testSetWeekMode(): void {
 
         $obj = new AgendaConstantes();
 
@@ -534,7 +534,7 @@ class AgendaConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaConstantes();
 

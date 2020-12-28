@@ -24,14 +24,14 @@ class LignesCafat {
     /**
      * Code commune.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCommune;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
@@ -52,49 +52,49 @@ class LignesCafat {
     /**
      * Nb h trav.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHTrav;
 
     /**
      * No et.
      *
-     * @var string
+     * @var string|null
      */
     private $noEt;
 
     /**
      * Nom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $nomEmploye;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero assure.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAssure;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
 
@@ -108,39 +108,40 @@ class LignesCafat {
     /**
      * Salaire brut.
      *
-     * @var float
+     * @var float|null
      */
     private $salaireBrut;
 
     /**
      * Taux at.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxAt;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code commune.
      *
-     * @return string Returns the code commune.
+     * @return string|null Returns the code commune.
      */
-    public function getCodeCommune() {
+    public function getCodeCommune(): ?string{
         return $this->codeCommune;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
@@ -149,7 +150,7 @@ class LignesCafat {
      *
      * @return DateTime|null Returns the date debauchage.
      */
-    public function getDateDebauchage() {
+    public function getDateDebauchage(): ?DateTime{
         return $this->dateDebauchage;
     }
 
@@ -158,70 +159,70 @@ class LignesCafat {
      *
      * @return DateTime|null Returns the date embauchage.
      */
-    public function getDateEmbauchage() {
+    public function getDateEmbauchage(): ?DateTime{
         return $this->dateEmbauchage;
     }
 
     /**
      * Get the nb h trav.
      *
-     * @return float Returns the nb h trav.
+     * @return float|null Returns the nb h trav.
      */
-    public function getNbHTrav() {
+    public function getNbHTrav(): ?float{
         return $this->nbHTrav;
     }
 
     /**
      * Get the no et.
      *
-     * @return string Returns the no et.
+     * @return string|null Returns the no et.
      */
-    public function getNoEt() {
+    public function getNoEt(): ?string{
         return $this->noEt;
     }
 
     /**
      * Get the nom employe.
      *
-     * @return string Returns the nom employe.
+     * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye() {
+    public function getNomEmploye(): ?string{
         return $this->nomEmploye;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero assure.
      *
-     * @return string Returns the numero assure.
+     * @return string|null Returns the numero assure.
      */
-    public function getNumeroAssure() {
+    public function getNumeroAssure(): ?string{
         return $this->numeroAssure;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
@@ -230,35 +231,35 @@ class LignesCafat {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla() {
+    public function getPeriodeDecla(): ?DateTime{
         return $this->periodeDecla;
     }
 
     /**
      * Get the salaire brut.
      *
-     * @return float Returns the salaire brut.
+     * @return float|null Returns the salaire brut.
      */
-    public function getSalaireBrut() {
+    public function getSalaireBrut(): ?float{
         return $this->salaireBrut;
     }
 
     /**
      * Get the taux at.
      *
-     * @return float Returns the taux at.
+     * @return float|null Returns the taux at.
      */
-    public function getTauxAt() {
+    public function getTauxAt(): ?float{
         return $this->tauxAt;
     }
 
     /**
      * Set the code commune.
      *
-     * @param string $codeCommune The code commune.
+     * @param string|null $codeCommune The code commune.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setCodeCommune($codeCommune) {
+    public function setCodeCommune(?string $codeCommune): LignesCafat {
         $this->codeCommune = $codeCommune;
         return $this;
     }
@@ -266,10 +267,10 @@ class LignesCafat {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): LignesCafat {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -280,7 +281,7 @@ class LignesCafat {
      * @param DateTime|null $dateDebauchage The date debauchage.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setDateDebauchage(DateTime $dateDebauchage = null) {
+    public function setDateDebauchage(?DateTime $dateDebauchage): LignesCafat {
         $this->dateDebauchage = $dateDebauchage;
         return $this;
     }
@@ -291,7 +292,7 @@ class LignesCafat {
      * @param DateTime|null $dateEmbauchage The date embauchage.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setDateEmbauchage(DateTime $dateEmbauchage = null) {
+    public function setDateEmbauchage(?DateTime $dateEmbauchage): LignesCafat {
         $this->dateEmbauchage = $dateEmbauchage;
         return $this;
     }
@@ -299,10 +300,10 @@ class LignesCafat {
     /**
      * Set the nb h trav.
      *
-     * @param float $nbHTrav The nb h trav.
+     * @param float|null $nbHTrav The nb h trav.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setNbHTrav($nbHTrav) {
+    public function setNbHTrav(?float $nbHTrav): LignesCafat {
         $this->nbHTrav = $nbHTrav;
         return $this;
     }
@@ -310,10 +311,10 @@ class LignesCafat {
     /**
      * Set the no et.
      *
-     * @param string $noEt The no et.
+     * @param string|null $noEt The no et.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setNoEt($noEt) {
+    public function setNoEt(?string $noEt): LignesCafat {
         $this->noEt = $noEt;
         return $this;
     }
@@ -321,10 +322,10 @@ class LignesCafat {
     /**
      * Set the nom employe.
      *
-     * @param string $nomEmploye The nom employe.
+     * @param string|null $nomEmploye The nom employe.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setNomEmploye($nomEmploye) {
+    public function setNomEmploye(?string $nomEmploye): LignesCafat {
         $this->nomEmploye = $nomEmploye;
         return $this;
     }
@@ -332,10 +333,10 @@ class LignesCafat {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): LignesCafat {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -343,10 +344,10 @@ class LignesCafat {
     /**
      * Set the numero assure.
      *
-     * @param string $numeroAssure The numero assure.
+     * @param string|null $numeroAssure The numero assure.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setNumeroAssure($numeroAssure) {
+    public function setNumeroAssure(?string $numeroAssure): LignesCafat {
         $this->numeroAssure = $numeroAssure;
         return $this;
     }
@@ -354,10 +355,10 @@ class LignesCafat {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): LignesCafat {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -365,10 +366,10 @@ class LignesCafat {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): LignesCafat {
         $this->organisme = $organisme;
         return $this;
     }
@@ -379,7 +380,7 @@ class LignesCafat {
      * @param DateTime|null $periodeDecla The periode decla.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setPeriodeDecla(DateTime $periodeDecla = null) {
+    public function setPeriodeDecla(?DateTime $periodeDecla): LignesCafat {
         $this->periodeDecla = $periodeDecla;
         return $this;
     }
@@ -387,10 +388,10 @@ class LignesCafat {
     /**
      * Set the salaire brut.
      *
-     * @param float $salaireBrut The salaire brut.
+     * @param float|null $salaireBrut The salaire brut.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setSalaireBrut($salaireBrut) {
+    public function setSalaireBrut(?float $salaireBrut): LignesCafat {
         $this->salaireBrut = $salaireBrut;
         return $this;
     }
@@ -398,10 +399,10 @@ class LignesCafat {
     /**
      * Set the taux at.
      *
-     * @param float $tauxAt The taux at.
+     * @param float|null $tauxAt The taux at.
      * @return LignesCafat Returns this Lignes cafat.
      */
-    public function setTauxAt($tauxAt) {
+    public function setTauxAt(?float $tauxAt): LignesCafat {
         $this->tauxAt = $tauxAt;
         return $this;
     }

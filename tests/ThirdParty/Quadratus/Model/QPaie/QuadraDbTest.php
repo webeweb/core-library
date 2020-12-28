@@ -30,7 +30,7 @@ class QuadraDbTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEnvoiMessage() {
+    public function testSetDateEnvoiMessage(): void {
 
         // Set a Date/time mock.
         $dateEnvoiMessage = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class QuadraDbTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTailleBase() {
+    public function testSetTailleBase(): void {
 
         $obj = new QuadraDb();
 
@@ -59,7 +59,7 @@ class QuadraDbTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVersion() {
+    public function testSetVersion(): void {
 
         $obj = new QuadraDb();
 
@@ -72,7 +72,7 @@ class QuadraDbTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new QuadraDb();
 

@@ -24,14 +24,14 @@ class ActionsCoSeances {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code manif.
      *
-     * @var string
+     * @var string|null
      */
     private $codeManif;
 
@@ -59,39 +59,40 @@ class ActionsCoSeances {
     /**
      * Libelle seance.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleSeance;
 
     /**
      * Num seance.
      *
-     * @var int
+     * @var int|null
      */
     private $numSeance;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string{
         return $this->codeAction;
     }
 
     /**
      * Get the code manif.
      *
-     * @return string Returns the code manif.
+     * @return string|null Returns the code manif.
      */
-    public function getCodeManif() {
+    public function getCodeManif(): ?string{
         return $this->codeManif;
     }
 
@@ -100,7 +101,7 @@ class ActionsCoSeances {
      *
      * @return DateTime|null Returns the date seance.
      */
-    public function getDateSeance() {
+    public function getDateSeance(): ?DateTime{
         return $this->dateSeance;
     }
 
@@ -109,7 +110,7 @@ class ActionsCoSeances {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb() {
+    public function getHeureDeb(): ?DateTime{
         return $this->heureDeb;
     }
 
@@ -118,35 +119,35 @@ class ActionsCoSeances {
      *
      * @return DateTime|null Returns the heure fin.
      */
-    public function getHeureFin() {
+    public function getHeureFin(): ?DateTime{
         return $this->heureFin;
     }
 
     /**
      * Get the libelle seance.
      *
-     * @return string Returns the libelle seance.
+     * @return string|null Returns the libelle seance.
      */
-    public function getLibelleSeance() {
+    public function getLibelleSeance(): ?string{
         return $this->libelleSeance;
     }
 
     /**
      * Get the num seance.
      *
-     * @return int Returns the num seance.
+     * @return int|null Returns the num seance.
      */
-    public function getNumSeance() {
+    public function getNumSeance(): ?int{
         return $this->numSeance;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ActionsCoSeances {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -154,10 +155,10 @@ class ActionsCoSeances {
     /**
      * Set the code manif.
      *
-     * @param string $codeManif The code manif.
+     * @param string|null $codeManif The code manif.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setCodeManif($codeManif) {
+    public function setCodeManif(?string $codeManif): ActionsCoSeances {
         $this->codeManif = $codeManif;
         return $this;
     }
@@ -168,7 +169,7 @@ class ActionsCoSeances {
      * @param DateTime|null $dateSeance The date seance.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setDateSeance(DateTime $dateSeance = null) {
+    public function setDateSeance(?DateTime $dateSeance): ActionsCoSeances {
         $this->dateSeance = $dateSeance;
         return $this;
     }
@@ -179,7 +180,7 @@ class ActionsCoSeances {
      * @param DateTime|null $heureDeb The heure deb.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setHeureDeb(DateTime $heureDeb = null) {
+    public function setHeureDeb(?DateTime $heureDeb): ActionsCoSeances {
         $this->heureDeb = $heureDeb;
         return $this;
     }
@@ -190,7 +191,7 @@ class ActionsCoSeances {
      * @param DateTime|null $heureFin The heure fin.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setHeureFin(DateTime $heureFin = null) {
+    public function setHeureFin(?DateTime $heureFin): ActionsCoSeances {
         $this->heureFin = $heureFin;
         return $this;
     }
@@ -198,10 +199,10 @@ class ActionsCoSeances {
     /**
      * Set the libelle seance.
      *
-     * @param string $libelleSeance The libelle seance.
+     * @param string|null $libelleSeance The libelle seance.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setLibelleSeance($libelleSeance) {
+    public function setLibelleSeance(?string $libelleSeance): ActionsCoSeances {
         $this->libelleSeance = $libelleSeance;
         return $this;
     }
@@ -209,10 +210,10 @@ class ActionsCoSeances {
     /**
      * Set the num seance.
      *
-     * @param int $numSeance The num seance.
+     * @param int|null $numSeance The num seance.
      * @return ActionsCoSeances Returns this Actions co seances.
      */
-    public function setNumSeance($numSeance) {
+    public function setNumSeance(?int $numSeance): ActionsCoSeances {
         $this->numSeance = $numSeance;
         return $this;
     }

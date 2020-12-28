@@ -24,21 +24,21 @@ class Dirigeants {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code dirigeant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDirigeant;
 
     /**
      * Code fonction.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFonction;
 
@@ -52,21 +52,21 @@ class Dirigeants {
     /**
      * Duree.
      *
-     * @var int
+     * @var int|null
      */
     private $duree;
 
     /**
      * Id.
      *
-     * @var int
+     * @var int|null
      */
     private $id;
 
     /**
      * Observations.
      *
-     * @var string
+     * @var string|null
      */
     private $observations;
 
@@ -74,33 +74,33 @@ class Dirigeants {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code dirigeant.
      *
-     * @return string Returns the code dirigeant.
+     * @return string|null Returns the code dirigeant.
      */
-    public function getCodeDirigeant() {
+    public function getCodeDirigeant(): ?string {
         return $this->codeDirigeant;
     }
 
     /**
      * Get the code fonction.
      *
-     * @return string Returns the code fonction.
+     * @return string|null Returns the code fonction.
      */
-    public function getCodeFonction() {
+    public function getCodeFonction(): ?string {
         return $this->codeFonction;
     }
 
@@ -109,44 +109,44 @@ class Dirigeants {
      *
      * @return DateTime|null Returns the date nomination.
      */
-    public function getDateNomination() {
+    public function getDateNomination(): ?DateTime {
         return $this->dateNomination;
     }
 
     /**
      * Get the duree.
      *
-     * @return int Returns the duree.
+     * @return int|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
     /**
      * Get the id.
      *
-     * @return int Returns the id.
+     * @return int|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?int {
         return $this->id;
     }
 
     /**
      * Get the observations.
      *
-     * @return string Returns the observations.
+     * @return string|null Returns the observations.
      */
-    public function getObservations() {
+    public function getObservations(): ?string {
         return $this->observations;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Dirigeants {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -154,10 +154,10 @@ class Dirigeants {
     /**
      * Set the code dirigeant.
      *
-     * @param string $codeDirigeant The code dirigeant.
+     * @param string|null $codeDirigeant The code dirigeant.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setCodeDirigeant($codeDirigeant) {
+    public function setCodeDirigeant(?string $codeDirigeant): Dirigeants {
         $this->codeDirigeant = $codeDirigeant;
         return $this;
     }
@@ -165,10 +165,10 @@ class Dirigeants {
     /**
      * Set the code fonction.
      *
-     * @param string $codeFonction The code fonction.
+     * @param string|null $codeFonction The code fonction.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setCodeFonction($codeFonction) {
+    public function setCodeFonction(?string $codeFonction): Dirigeants {
         $this->codeFonction = $codeFonction;
         return $this;
     }
@@ -179,7 +179,7 @@ class Dirigeants {
      * @param DateTime|null $dateNomination The date nomination.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setDateNomination(DateTime $dateNomination = null) {
+    public function setDateNomination(?DateTime $dateNomination): Dirigeants {
         $this->dateNomination = $dateNomination;
         return $this;
     }
@@ -187,10 +187,10 @@ class Dirigeants {
     /**
      * Set the duree.
      *
-     * @param int $duree The duree.
+     * @param int|null $duree The duree.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setDuree($duree) {
+    public function setDuree(?int $duree): Dirigeants {
         $this->duree = $duree;
         return $this;
     }
@@ -198,10 +198,10 @@ class Dirigeants {
     /**
      * Set the id.
      *
-     * @param int $id The id.
+     * @param int|null $id The id.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setId($id) {
+    public function setId(?int $id): Dirigeants {
         $this->id = $id;
         return $this;
     }
@@ -209,10 +209,10 @@ class Dirigeants {
     /**
      * Set the observations.
      *
-     * @param string $observations The observations.
+     * @param string|null $observations The observations.
      * @return Dirigeants Returns this Dirigeants.
      */
-    public function setObservations($observations) {
+    public function setObservations(?string $observations): Dirigeants {
         $this->observations = $observations;
         return $this;
     }

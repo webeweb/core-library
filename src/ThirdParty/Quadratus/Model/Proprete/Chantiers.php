@@ -22,298 +22,298 @@ use DateTime;
 class Chantiers {
 
     /**
+     * Ad fbtq.
+     *
+     * @var string|null
+     */
+    private $adFbtq;
+
+    /**
      * Ad f bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $adFBureauDistributeur;
 
     /**
      * Ad f civilite.
      *
-     * @var string
+     * @var string|null
      */
     private $adFCivilite;
 
     /**
      * Ad f code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $adFCodePays;
 
     /**
      * Ad f code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $adFCodePostal;
 
     /**
      * Ad f complement.
      *
-     * @var string
+     * @var string|null
      */
     private $adFComplement;
 
     /**
      * Ad f nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomClient;
 
     /**
      * Ad f nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomSuite;
 
     /**
      * Ad f nom suite2.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomSuite2;
 
     /**
      * Ad f nom suite3.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomSuite3;
 
     /**
      * Ad f nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomVoie;
 
     /**
      * Ad f num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNumVoie;
 
     /**
      * Ad f type adresse.
      *
-     * @var string
+     * @var string|null
      */
     private $adFTypeAdresse;
 
     /**
-     * Ad fbtq.
-     *
-     * @var string
-     */
-    private $adFbtq;
-
-    /**
      * Adresse.
      *
-     * @var string
+     * @var string|null
      */
     private $adresse;
 
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Btq livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $btqLivraison;
 
     /**
      * Budget commande.
      *
-     * @var float
+     * @var float|null
      */
     private $budgetCommande;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Bureau distributeur livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeurLivraison;
 
     /**
      * Chantier ponctuel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $chantierPonctuel;
 
     /**
      * Chef equipe.
      *
-     * @var string
+     * @var string|null
      */
     private $chefEquipe;
 
     /**
      * Cle alpha.
      *
-     * @var string
+     * @var string|null
      */
     private $cleAlpha;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code agence.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAgence;
 
     /**
      * Code analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalytique;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code commercial.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCommercial;
 
     /**
      * Code emp inspecteur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmpInspecteur;
 
     /**
      * Code formule.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFormule;
 
     /**
      * Code livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLivraison;
 
     /**
      * Code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $codePays;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Code postal livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostalLivraison;
 
     /**
      * Code reg marge.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegMarge;
 
     /**
      * Code revision.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRevision;
 
     /**
      * Code tva.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTva;
 
     /**
      * Code ventil compta.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilCompta;
 
     /**
      * Collectif.
      *
-     * @var string
+     * @var string|null
      */
     private $collectif;
 
     /**
      * Commande isolee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $commandeIsolee;
 
     /**
-     * Complement.
-     *
-     * @var string
-     */
-    private $complement;
-
-    /**
      * Complement livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $complementLivraison;
+
+    /**
+     * Complement.
+     *
+     * @var string|null
+     */
+    private $complement;
 
     /**
      * Date creat.
@@ -360,7 +360,7 @@ class Chantiers {
     /**
      * Descriptif.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptif;
 
@@ -409,582 +409,583 @@ class Chantiers {
     /**
      * Echeance annuelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $echeanceAnnuelle;
 
     /**
      * Fact negoce isolee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factNegoceIsolee;
 
     /**
      * Facture isolee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureIsolee;
 
     /**
      * Jour fact.
      *
-     * @var string
+     * @var string|null
      */
     private $jourFact;
 
     /**
      * Latitude.
      *
-     * @var float
+     * @var float|null
      */
     private $latitude;
 
     /**
      * Loi chatel sur facture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $loiChatelSurFacture;
 
     /**
      * Longitude.
      *
-     * @var float
+     * @var float|null
      */
     private $longitude;
 
     /**
      * Maj stock by da.
      *
-     * @var bool
+     * @var bool|null
      */
     private $majStockByDa;
 
     /**
      * Nb controles prevus.
      *
-     * @var int
+     * @var int|null
      */
     private $nbControlesPrevus;
 
     /**
      * Nb mois preavis.
      *
-     * @var string
+     * @var string|null
      */
     private $nbMoisPreavis;
 
     /**
      * Nom adresse.
      *
-     * @var string
+     * @var string|null
      */
     private $nomAdresse;
 
     /**
      * Nom chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $nomChantier;
 
     /**
      * Nom livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $nomLivraison;
 
     /**
      * Nom responsable.
      *
-     * @var string
+     * @var string|null
      */
     private $nomResponsable;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom suite livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuiteLivraison;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Nom voie livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoieLivraison;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Num voie livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoieLivraison;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Plan fact.
      *
-     * @var bool
+     * @var bool|null
      */
     private $planFact;
 
     /**
      * Pourc conso produit.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcConsoProduit;
 
     /**
      * Pourc marge previs.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcMargePrevis;
 
     /**
      * Reference facture.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceFacture;
 
     /**
      * Reference facture2.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceFacture2;
 
     /**
      * Rupt date livraison.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ruptDateLivraison;
 
     /**
      * Telephone.
      *
-     * @var string
+     * @var string|null
      */
     private $telephone;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
+    }
+
+    /**
+     * Get the ad fbtq.
+     *
+     * @return string|null Returns the ad fbtq.
+     */
+    public function getAdFbtq(): ?string{
+        return $this->adFbtq;
     }
 
     /**
      * Get the ad f bureau distributeur.
      *
-     * @return string Returns the ad f bureau distributeur.
+     * @return string|null Returns the ad f bureau distributeur.
      */
-    public function getAdFBureauDistributeur() {
+    public function getAdFBureauDistributeur(): ?string{
         return $this->adFBureauDistributeur;
     }
 
     /**
      * Get the ad f civilite.
      *
-     * @return string Returns the ad f civilite.
+     * @return string|null Returns the ad f civilite.
      */
-    public function getAdFCivilite() {
+    public function getAdFCivilite(): ?string{
         return $this->adFCivilite;
     }
 
     /**
      * Get the ad f code pays.
      *
-     * @return string Returns the ad f code pays.
+     * @return string|null Returns the ad f code pays.
      */
-    public function getAdFCodePays() {
+    public function getAdFCodePays(): ?string{
         return $this->adFCodePays;
     }
 
     /**
      * Get the ad f code postal.
      *
-     * @return string Returns the ad f code postal.
+     * @return string|null Returns the ad f code postal.
      */
-    public function getAdFCodePostal() {
+    public function getAdFCodePostal(): ?string{
         return $this->adFCodePostal;
     }
 
     /**
      * Get the ad f complement.
      *
-     * @return string Returns the ad f complement.
+     * @return string|null Returns the ad f complement.
      */
-    public function getAdFComplement() {
+    public function getAdFComplement(): ?string{
         return $this->adFComplement;
     }
 
     /**
      * Get the ad f nom client.
      *
-     * @return string Returns the ad f nom client.
+     * @return string|null Returns the ad f nom client.
      */
-    public function getAdFNomClient() {
+    public function getAdFNomClient(): ?string{
         return $this->adFNomClient;
     }
 
     /**
      * Get the ad f nom suite.
      *
-     * @return string Returns the ad f nom suite.
+     * @return string|null Returns the ad f nom suite.
      */
-    public function getAdFNomSuite() {
+    public function getAdFNomSuite(): ?string{
         return $this->adFNomSuite;
     }
 
     /**
      * Get the ad f nom suite2.
      *
-     * @return string Returns the ad f nom suite2.
+     * @return string|null Returns the ad f nom suite2.
      */
-    public function getAdFNomSuite2() {
+    public function getAdFNomSuite2(): ?string{
         return $this->adFNomSuite2;
     }
 
     /**
      * Get the ad f nom suite3.
      *
-     * @return string Returns the ad f nom suite3.
+     * @return string|null Returns the ad f nom suite3.
      */
-    public function getAdFNomSuite3() {
+    public function getAdFNomSuite3(): ?string{
         return $this->adFNomSuite3;
     }
 
     /**
      * Get the ad f nom voie.
      *
-     * @return string Returns the ad f nom voie.
+     * @return string|null Returns the ad f nom voie.
      */
-    public function getAdFNomVoie() {
+    public function getAdFNomVoie(): ?string{
         return $this->adFNomVoie;
     }
 
     /**
      * Get the ad f num voie.
      *
-     * @return string Returns the ad f num voie.
+     * @return string|null Returns the ad f num voie.
      */
-    public function getAdFNumVoie() {
+    public function getAdFNumVoie(): ?string{
         return $this->adFNumVoie;
     }
 
     /**
      * Get the ad f type adresse.
      *
-     * @return string Returns the ad f type adresse.
+     * @return string|null Returns the ad f type adresse.
      */
-    public function getAdFTypeAdresse() {
+    public function getAdFTypeAdresse(): ?string{
         return $this->adFTypeAdresse;
-    }
-
-    /**
-     * Get the ad fbtq.
-     *
-     * @return string Returns the ad fbtq.
-     */
-    public function getAdFbtq() {
-        return $this->adFbtq;
     }
 
     /**
      * Get the adresse.
      *
-     * @return string Returns the adresse.
+     * @return string|null Returns the adresse.
      */
-    public function getAdresse() {
+    public function getAdresse(): ?string{
         return $this->adresse;
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the btq livraison.
      *
-     * @return string Returns the btq livraison.
+     * @return string|null Returns the btq livraison.
      */
-    public function getBtqLivraison() {
+    public function getBtqLivraison(): ?string{
         return $this->btqLivraison;
     }
 
     /**
      * Get the budget commande.
      *
-     * @return float Returns the budget commande.
+     * @return float|null Returns the budget commande.
      */
-    public function getBudgetCommande() {
+    public function getBudgetCommande(): ?float{
         return $this->budgetCommande;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the bureau distributeur livraison.
      *
-     * @return string Returns the bureau distributeur livraison.
+     * @return string|null Returns the bureau distributeur livraison.
      */
-    public function getBureauDistributeurLivraison() {
+    public function getBureauDistributeurLivraison(): ?string{
         return $this->bureauDistributeurLivraison;
     }
 
     /**
      * Get the chantier ponctuel.
      *
-     * @return bool Returns the chantier ponctuel.
+     * @return bool|null Returns the chantier ponctuel.
      */
-    public function getChantierPonctuel() {
+    public function getChantierPonctuel(): ?bool{
         return $this->chantierPonctuel;
     }
 
     /**
      * Get the chef equipe.
      *
-     * @return string Returns the chef equipe.
+     * @return string|null Returns the chef equipe.
      */
-    public function getChefEquipe() {
+    public function getChefEquipe(): ?string{
         return $this->chefEquipe;
     }
 
     /**
      * Get the cle alpha.
      *
-     * @return string Returns the cle alpha.
+     * @return string|null Returns the cle alpha.
      */
-    public function getCleAlpha() {
+    public function getCleAlpha(): ?string{
         return $this->cleAlpha;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code agence.
      *
-     * @return string Returns the code agence.
+     * @return string|null Returns the code agence.
      */
-    public function getCodeAgence() {
+    public function getCodeAgence(): ?string{
         return $this->codeAgence;
     }
 
     /**
      * Get the code analytique.
      *
-     * @return string Returns the code analytique.
+     * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique() {
+    public function getCodeAnalytique(): ?string{
         return $this->codeAnalytique;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code commercial.
      *
-     * @return string Returns the code commercial.
+     * @return string|null Returns the code commercial.
      */
-    public function getCodeCommercial() {
+    public function getCodeCommercial(): ?string{
         return $this->codeCommercial;
     }
 
     /**
      * Get the code emp inspecteur.
      *
-     * @return string Returns the code emp inspecteur.
+     * @return string|null Returns the code emp inspecteur.
      */
-    public function getCodeEmpInspecteur() {
+    public function getCodeEmpInspecteur(): ?string{
         return $this->codeEmpInspecteur;
     }
 
     /**
      * Get the code formule.
      *
-     * @return string Returns the code formule.
+     * @return string|null Returns the code formule.
      */
-    public function getCodeFormule() {
+    public function getCodeFormule(): ?string{
         return $this->codeFormule;
     }
 
     /**
      * Get the code livraison.
      *
-     * @return string Returns the code livraison.
+     * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison() {
+    public function getCodeLivraison(): ?string{
         return $this->codeLivraison;
     }
 
     /**
      * Get the code pays.
      *
-     * @return string Returns the code pays.
+     * @return string|null Returns the code pays.
      */
-    public function getCodePays() {
+    public function getCodePays(): ?string{
         return $this->codePays;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the code postal livraison.
      *
-     * @return string Returns the code postal livraison.
+     * @return string|null Returns the code postal livraison.
      */
-    public function getCodePostalLivraison() {
+    public function getCodePostalLivraison(): ?string{
         return $this->codePostalLivraison;
     }
 
     /**
      * Get the code reg marge.
      *
-     * @return string Returns the code reg marge.
+     * @return string|null Returns the code reg marge.
      */
-    public function getCodeRegMarge() {
+    public function getCodeRegMarge(): ?string{
         return $this->codeRegMarge;
     }
 
     /**
      * Get the code revision.
      *
-     * @return string Returns the code revision.
+     * @return string|null Returns the code revision.
      */
-    public function getCodeRevision() {
+    public function getCodeRevision(): ?string{
         return $this->codeRevision;
     }
 
     /**
      * Get the code tva.
      *
-     * @return string Returns the code tva.
+     * @return string|null Returns the code tva.
      */
-    public function getCodeTva() {
+    public function getCodeTva(): ?string{
         return $this->codeTva;
     }
 
     /**
      * Get the code ventil compta.
      *
-     * @return string Returns the code ventil compta.
+     * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta() {
+    public function getCodeVentilCompta(): ?string{
         return $this->codeVentilCompta;
     }
 
     /**
      * Get the collectif.
      *
-     * @return string Returns the collectif.
+     * @return string|null Returns the collectif.
      */
-    public function getCollectif() {
+    public function getCollectif(): ?string{
         return $this->collectif;
     }
 
     /**
      * Get the commande isolee.
      *
-     * @return bool Returns the commande isolee.
+     * @return bool|null Returns the commande isolee.
      */
-    public function getCommandeIsolee() {
+    public function getCommandeIsolee(): ?bool{
         return $this->commandeIsolee;
-    }
-
-    /**
-     * Get the complement.
-     *
-     * @return string Returns the complement.
-     */
-    public function getComplement() {
-        return $this->complement;
     }
 
     /**
      * Get the complement livraison.
      *
-     * @return string Returns the complement livraison.
+     * @return string|null Returns the complement livraison.
      */
-    public function getComplementLivraison() {
+    public function getComplementLivraison(): ?string{
         return $this->complementLivraison;
+    }
+
+    /**
+     * Get the complement.
+     *
+     * @return string|null Returns the complement.
+     */
+    public function getComplement(): ?string{
+        return $this->complement;
     }
 
     /**
@@ -992,7 +993,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat() {
+    public function getDateCreat(): ?DateTime{
         return $this->dateCreat;
     }
 
@@ -1001,7 +1002,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
@@ -1010,7 +1011,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date echeance contrat.
      */
-    public function getDateEcheanceContrat() {
+    public function getDateEcheanceContrat(): ?DateTime{
         return $this->dateEcheanceContrat;
     }
 
@@ -1019,7 +1020,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime{
         return $this->dateFin;
     }
 
@@ -1028,7 +1029,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
@@ -1037,16 +1038,16 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision() {
+    public function getDateRevision(): ?DateTime{
         return $this->dateRevision;
     }
 
     /**
      * Get the descriptif.
      *
-     * @return string Returns the descriptif.
+     * @return string|null Returns the descriptif.
      */
-    public function getDescriptif() {
+    public function getDescriptif(): ?string{
         return $this->descriptif;
     }
 
@@ -1055,7 +1056,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt avant dern prepa.
      */
-    public function getDtAvantDernPrepa() {
+    public function getDtAvantDernPrepa(): ?DateTime{
         return $this->dtAvantDernPrepa;
     }
 
@@ -1064,7 +1065,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt dern prepa.
      */
-    public function getDtDernPrepa() {
+    public function getDtDernPrepa(): ?DateTime{
         return $this->dtDernPrepa;
     }
 
@@ -1073,7 +1074,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact deb.
      */
-    public function getDtValiditeFactDeb() {
+    public function getDtValiditeFactDeb(): ?DateTime{
         return $this->dtValiditeFactDeb;
     }
 
@@ -1082,7 +1083,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact deb deb mois.
      */
-    public function getDtValiditeFactDebDebMois() {
+    public function getDtValiditeFactDebDebMois(): ?DateTime{
         return $this->dtValiditeFactDebDebMois;
     }
 
@@ -1091,7 +1092,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact fin.
      */
-    public function getDtValiditeFactFin() {
+    public function getDtValiditeFactFin(): ?DateTime{
         return $this->dtValiditeFactFin;
     }
 
@@ -1100,269 +1101,280 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact fin fin mois.
      */
-    public function getDtValiditeFactFinFinMois() {
+    public function getDtValiditeFactFinFinMois(): ?DateTime{
         return $this->dtValiditeFactFinFinMois;
     }
 
     /**
      * Get the echeance annuelle.
      *
-     * @return bool Returns the echeance annuelle.
+     * @return bool|null Returns the echeance annuelle.
      */
-    public function getEcheanceAnnuelle() {
+    public function getEcheanceAnnuelle(): ?bool{
         return $this->echeanceAnnuelle;
     }
 
     /**
      * Get the fact negoce isolee.
      *
-     * @return bool Returns the fact negoce isolee.
+     * @return bool|null Returns the fact negoce isolee.
      */
-    public function getFactNegoceIsolee() {
+    public function getFactNegoceIsolee(): ?bool{
         return $this->factNegoceIsolee;
     }
 
     /**
      * Get the facture isolee.
      *
-     * @return bool Returns the facture isolee.
+     * @return bool|null Returns the facture isolee.
      */
-    public function getFactureIsolee() {
+    public function getFactureIsolee(): ?bool{
         return $this->factureIsolee;
     }
 
     /**
      * Get the jour fact.
      *
-     * @return string Returns the jour fact.
+     * @return string|null Returns the jour fact.
      */
-    public function getJourFact() {
+    public function getJourFact(): ?string{
         return $this->jourFact;
     }
 
     /**
      * Get the latitude.
      *
-     * @return float Returns the latitude.
+     * @return float|null Returns the latitude.
      */
-    public function getLatitude() {
+    public function getLatitude(): ?float{
         return $this->latitude;
     }
 
     /**
      * Get the loi chatel sur facture.
      *
-     * @return bool Returns the loi chatel sur facture.
+     * @return bool|null Returns the loi chatel sur facture.
      */
-    public function getLoiChatelSurFacture() {
+    public function getLoiChatelSurFacture(): ?bool{
         return $this->loiChatelSurFacture;
     }
 
     /**
      * Get the longitude.
      *
-     * @return float Returns the longitude.
+     * @return float|null Returns the longitude.
      */
-    public function getLongitude() {
+    public function getLongitude(): ?float{
         return $this->longitude;
     }
 
     /**
      * Get the maj stock by da.
      *
-     * @return bool Returns the maj stock by da.
+     * @return bool|null Returns the maj stock by da.
      */
-    public function getMajStockByDa() {
+    public function getMajStockByDa(): ?bool{
         return $this->majStockByDa;
     }
 
     /**
      * Get the nb controles prevus.
      *
-     * @return int Returns the nb controles prevus.
+     * @return int|null Returns the nb controles prevus.
      */
-    public function getNbControlesPrevus() {
+    public function getNbControlesPrevus(): ?int{
         return $this->nbControlesPrevus;
     }
 
     /**
      * Get the nb mois preavis.
      *
-     * @return string Returns the nb mois preavis.
+     * @return string|null Returns the nb mois preavis.
      */
-    public function getNbMoisPreavis() {
+    public function getNbMoisPreavis(): ?string{
         return $this->nbMoisPreavis;
     }
 
     /**
      * Get the nom adresse.
      *
-     * @return string Returns the nom adresse.
+     * @return string|null Returns the nom adresse.
      */
-    public function getNomAdresse() {
+    public function getNomAdresse(): ?string{
         return $this->nomAdresse;
     }
 
     /**
      * Get the nom chantier.
      *
-     * @return string Returns the nom chantier.
+     * @return string|null Returns the nom chantier.
      */
-    public function getNomChantier() {
+    public function getNomChantier(): ?string{
         return $this->nomChantier;
     }
 
     /**
      * Get the nom livraison.
      *
-     * @return string Returns the nom livraison.
+     * @return string|null Returns the nom livraison.
      */
-    public function getNomLivraison() {
+    public function getNomLivraison(): ?string{
         return $this->nomLivraison;
     }
 
     /**
      * Get the nom responsable.
      *
-     * @return string Returns the nom responsable.
+     * @return string|null Returns the nom responsable.
      */
-    public function getNomResponsable() {
+    public function getNomResponsable(): ?string{
         return $this->nomResponsable;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom suite livraison.
      *
-     * @return string Returns the nom suite livraison.
+     * @return string|null Returns the nom suite livraison.
      */
-    public function getNomSuiteLivraison() {
+    public function getNomSuiteLivraison(): ?string{
         return $this->nomSuiteLivraison;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the nom voie livraison.
      *
-     * @return string Returns the nom voie livraison.
+     * @return string|null Returns the nom voie livraison.
      */
-    public function getNomVoieLivraison() {
+    public function getNomVoieLivraison(): ?string{
         return $this->nomVoieLivraison;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the num voie livraison.
      *
-     * @return string Returns the num voie livraison.
+     * @return string|null Returns the num voie livraison.
      */
-    public function getNumVoieLivraison() {
+    public function getNumVoieLivraison(): ?string{
         return $this->numVoieLivraison;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the plan fact.
      *
-     * @return bool Returns the plan fact.
+     * @return bool|null Returns the plan fact.
      */
-    public function getPlanFact() {
+    public function getPlanFact(): ?bool{
         return $this->planFact;
     }
 
     /**
      * Get the pourc conso produit.
      *
-     * @return float Returns the pourc conso produit.
+     * @return float|null Returns the pourc conso produit.
      */
-    public function getPourcConsoProduit() {
+    public function getPourcConsoProduit(): ?float{
         return $this->pourcConsoProduit;
     }
 
     /**
      * Get the pourc marge previs.
      *
-     * @return float Returns the pourc marge previs.
+     * @return float|null Returns the pourc marge previs.
      */
-    public function getPourcMargePrevis() {
+    public function getPourcMargePrevis(): ?float{
         return $this->pourcMargePrevis;
     }
 
     /**
      * Get the reference facture.
      *
-     * @return string Returns the reference facture.
+     * @return string|null Returns the reference facture.
      */
-    public function getReferenceFacture() {
+    public function getReferenceFacture(): ?string{
         return $this->referenceFacture;
     }
 
     /**
      * Get the reference facture2.
      *
-     * @return string Returns the reference facture2.
+     * @return string|null Returns the reference facture2.
      */
-    public function getReferenceFacture2() {
+    public function getReferenceFacture2(): ?string{
         return $this->referenceFacture2;
     }
 
     /**
      * Get the rupt date livraison.
      *
-     * @return bool Returns the rupt date livraison.
+     * @return bool|null Returns the rupt date livraison.
      */
-    public function getRuptDateLivraison() {
+    public function getRuptDateLivraison(): ?bool{
         return $this->ruptDateLivraison;
     }
 
     /**
      * Get the telephone.
      *
-     * @return string Returns the telephone.
+     * @return string|null Returns the telephone.
      */
-    public function getTelephone() {
+    public function getTelephone(): ?string{
         return $this->telephone;
+    }
+
+    /**
+     * Set the ad fbtq.
+     *
+     * @param string|null $adFbtq The ad fbtq.
+     * @return Chantiers Returns this Chantiers.
+     */
+    public function setAdFbtq(?string $adFbtq): Chantiers {
+        $this->adFbtq = $adFbtq;
+        return $this;
     }
 
     /**
      * Set the ad f bureau distributeur.
      *
-     * @param string $adFBureauDistributeur The ad f bureau distributeur.
+     * @param string|null $adFBureauDistributeur The ad f bureau distributeur.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFBureauDistributeur($adFBureauDistributeur) {
+    public function setAdFBureauDistributeur(?string $adFBureauDistributeur): Chantiers {
         $this->adFBureauDistributeur = $adFBureauDistributeur;
         return $this;
     }
@@ -1370,10 +1382,10 @@ class Chantiers {
     /**
      * Set the ad f civilite.
      *
-     * @param string $adFCivilite The ad f civilite.
+     * @param string|null $adFCivilite The ad f civilite.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFCivilite($adFCivilite) {
+    public function setAdFCivilite(?string $adFCivilite): Chantiers {
         $this->adFCivilite = $adFCivilite;
         return $this;
     }
@@ -1381,10 +1393,10 @@ class Chantiers {
     /**
      * Set the ad f code pays.
      *
-     * @param string $adFCodePays The ad f code pays.
+     * @param string|null $adFCodePays The ad f code pays.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFCodePays($adFCodePays) {
+    public function setAdFCodePays(?string $adFCodePays): Chantiers {
         $this->adFCodePays = $adFCodePays;
         return $this;
     }
@@ -1392,10 +1404,10 @@ class Chantiers {
     /**
      * Set the ad f code postal.
      *
-     * @param string $adFCodePostal The ad f code postal.
+     * @param string|null $adFCodePostal The ad f code postal.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFCodePostal($adFCodePostal) {
+    public function setAdFCodePostal(?string $adFCodePostal): Chantiers {
         $this->adFCodePostal = $adFCodePostal;
         return $this;
     }
@@ -1403,10 +1415,10 @@ class Chantiers {
     /**
      * Set the ad f complement.
      *
-     * @param string $adFComplement The ad f complement.
+     * @param string|null $adFComplement The ad f complement.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFComplement($adFComplement) {
+    public function setAdFComplement(?string $adFComplement): Chantiers {
         $this->adFComplement = $adFComplement;
         return $this;
     }
@@ -1414,10 +1426,10 @@ class Chantiers {
     /**
      * Set the ad f nom client.
      *
-     * @param string $adFNomClient The ad f nom client.
+     * @param string|null $adFNomClient The ad f nom client.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFNomClient($adFNomClient) {
+    public function setAdFNomClient(?string $adFNomClient): Chantiers {
         $this->adFNomClient = $adFNomClient;
         return $this;
     }
@@ -1425,10 +1437,10 @@ class Chantiers {
     /**
      * Set the ad f nom suite.
      *
-     * @param string $adFNomSuite The ad f nom suite.
+     * @param string|null $adFNomSuite The ad f nom suite.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFNomSuite($adFNomSuite) {
+    public function setAdFNomSuite(?string $adFNomSuite): Chantiers {
         $this->adFNomSuite = $adFNomSuite;
         return $this;
     }
@@ -1436,10 +1448,10 @@ class Chantiers {
     /**
      * Set the ad f nom suite2.
      *
-     * @param string $adFNomSuite2 The ad f nom suite2.
+     * @param string|null $adFNomSuite2 The ad f nom suite2.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFNomSuite2($adFNomSuite2) {
+    public function setAdFNomSuite2(?string $adFNomSuite2): Chantiers {
         $this->adFNomSuite2 = $adFNomSuite2;
         return $this;
     }
@@ -1447,10 +1459,10 @@ class Chantiers {
     /**
      * Set the ad f nom suite3.
      *
-     * @param string $adFNomSuite3 The ad f nom suite3.
+     * @param string|null $adFNomSuite3 The ad f nom suite3.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFNomSuite3($adFNomSuite3) {
+    public function setAdFNomSuite3(?string $adFNomSuite3): Chantiers {
         $this->adFNomSuite3 = $adFNomSuite3;
         return $this;
     }
@@ -1458,10 +1470,10 @@ class Chantiers {
     /**
      * Set the ad f nom voie.
      *
-     * @param string $adFNomVoie The ad f nom voie.
+     * @param string|null $adFNomVoie The ad f nom voie.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFNomVoie($adFNomVoie) {
+    public function setAdFNomVoie(?string $adFNomVoie): Chantiers {
         $this->adFNomVoie = $adFNomVoie;
         return $this;
     }
@@ -1469,10 +1481,10 @@ class Chantiers {
     /**
      * Set the ad f num voie.
      *
-     * @param string $adFNumVoie The ad f num voie.
+     * @param string|null $adFNumVoie The ad f num voie.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFNumVoie($adFNumVoie) {
+    public function setAdFNumVoie(?string $adFNumVoie): Chantiers {
         $this->adFNumVoie = $adFNumVoie;
         return $this;
     }
@@ -1480,32 +1492,21 @@ class Chantiers {
     /**
      * Set the ad f type adresse.
      *
-     * @param string $adFTypeAdresse The ad f type adresse.
+     * @param string|null $adFTypeAdresse The ad f type adresse.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdFTypeAdresse($adFTypeAdresse) {
+    public function setAdFTypeAdresse(?string $adFTypeAdresse): Chantiers {
         $this->adFTypeAdresse = $adFTypeAdresse;
-        return $this;
-    }
-
-    /**
-     * Set the ad fbtq.
-     *
-     * @param string $adFbtq The ad fbtq.
-     * @return Chantiers Returns this Chantiers.
-     */
-    public function setAdFbtq($adFbtq) {
-        $this->adFbtq = $adFbtq;
         return $this;
     }
 
     /**
      * Set the adresse.
      *
-     * @param string $adresse The adresse.
+     * @param string|null $adresse The adresse.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setAdresse($adresse) {
+    public function setAdresse(?string $adresse): Chantiers {
         $this->adresse = $adresse;
         return $this;
     }
@@ -1513,10 +1514,10 @@ class Chantiers {
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): Chantiers {
         $this->btq = $btq;
         return $this;
     }
@@ -1524,10 +1525,10 @@ class Chantiers {
     /**
      * Set the btq livraison.
      *
-     * @param string $btqLivraison The btq livraison.
+     * @param string|null $btqLivraison The btq livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setBtqLivraison($btqLivraison) {
+    public function setBtqLivraison(?string $btqLivraison): Chantiers {
         $this->btqLivraison = $btqLivraison;
         return $this;
     }
@@ -1535,10 +1536,10 @@ class Chantiers {
     /**
      * Set the budget commande.
      *
-     * @param float $budgetCommande The budget commande.
+     * @param float|null $budgetCommande The budget commande.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setBudgetCommande($budgetCommande) {
+    public function setBudgetCommande(?float $budgetCommande): Chantiers {
         $this->budgetCommande = $budgetCommande;
         return $this;
     }
@@ -1546,10 +1547,10 @@ class Chantiers {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): Chantiers {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -1557,10 +1558,10 @@ class Chantiers {
     /**
      * Set the bureau distributeur livraison.
      *
-     * @param string $bureauDistributeurLivraison The bureau distributeur livraison.
+     * @param string|null $bureauDistributeurLivraison The bureau distributeur livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setBureauDistributeurLivraison($bureauDistributeurLivraison) {
+    public function setBureauDistributeurLivraison(?string $bureauDistributeurLivraison): Chantiers {
         $this->bureauDistributeurLivraison = $bureauDistributeurLivraison;
         return $this;
     }
@@ -1568,10 +1569,10 @@ class Chantiers {
     /**
      * Set the chantier ponctuel.
      *
-     * @param bool $chantierPonctuel The chantier ponctuel.
+     * @param bool|null $chantierPonctuel The chantier ponctuel.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setChantierPonctuel($chantierPonctuel) {
+    public function setChantierPonctuel(?bool $chantierPonctuel): Chantiers {
         $this->chantierPonctuel = $chantierPonctuel;
         return $this;
     }
@@ -1579,10 +1580,10 @@ class Chantiers {
     /**
      * Set the chef equipe.
      *
-     * @param string $chefEquipe The chef equipe.
+     * @param string|null $chefEquipe The chef equipe.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setChefEquipe($chefEquipe) {
+    public function setChefEquipe(?string $chefEquipe): Chantiers {
         $this->chefEquipe = $chefEquipe;
         return $this;
     }
@@ -1590,10 +1591,10 @@ class Chantiers {
     /**
      * Set the cle alpha.
      *
-     * @param string $cleAlpha The cle alpha.
+     * @param string|null $cleAlpha The cle alpha.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCleAlpha($cleAlpha) {
+    public function setCleAlpha(?string $cleAlpha): Chantiers {
         $this->cleAlpha = $cleAlpha;
         return $this;
     }
@@ -1601,10 +1602,10 @@ class Chantiers {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): Chantiers {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -1612,10 +1613,10 @@ class Chantiers {
     /**
      * Set the code agence.
      *
-     * @param string $codeAgence The code agence.
+     * @param string|null $codeAgence The code agence.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeAgence($codeAgence) {
+    public function setCodeAgence(?string $codeAgence): Chantiers {
         $this->codeAgence = $codeAgence;
         return $this;
     }
@@ -1623,10 +1624,10 @@ class Chantiers {
     /**
      * Set the code analytique.
      *
-     * @param string $codeAnalytique The code analytique.
+     * @param string|null $codeAnalytique The code analytique.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeAnalytique($codeAnalytique) {
+    public function setCodeAnalytique(?string $codeAnalytique): Chantiers {
         $this->codeAnalytique = $codeAnalytique;
         return $this;
     }
@@ -1634,10 +1635,10 @@ class Chantiers {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): Chantiers {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -1645,10 +1646,10 @@ class Chantiers {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Chantiers {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -1656,10 +1657,10 @@ class Chantiers {
     /**
      * Set the code commercial.
      *
-     * @param string $codeCommercial The code commercial.
+     * @param string|null $codeCommercial The code commercial.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeCommercial($codeCommercial) {
+    public function setCodeCommercial(?string $codeCommercial): Chantiers {
         $this->codeCommercial = $codeCommercial;
         return $this;
     }
@@ -1667,10 +1668,10 @@ class Chantiers {
     /**
      * Set the code emp inspecteur.
      *
-     * @param string $codeEmpInspecteur The code emp inspecteur.
+     * @param string|null $codeEmpInspecteur The code emp inspecteur.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeEmpInspecteur($codeEmpInspecteur) {
+    public function setCodeEmpInspecteur(?string $codeEmpInspecteur): Chantiers {
         $this->codeEmpInspecteur = $codeEmpInspecteur;
         return $this;
     }
@@ -1678,10 +1679,10 @@ class Chantiers {
     /**
      * Set the code formule.
      *
-     * @param string $codeFormule The code formule.
+     * @param string|null $codeFormule The code formule.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeFormule($codeFormule) {
+    public function setCodeFormule(?string $codeFormule): Chantiers {
         $this->codeFormule = $codeFormule;
         return $this;
     }
@@ -1689,10 +1690,10 @@ class Chantiers {
     /**
      * Set the code livraison.
      *
-     * @param string $codeLivraison The code livraison.
+     * @param string|null $codeLivraison The code livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeLivraison($codeLivraison) {
+    public function setCodeLivraison(?string $codeLivraison): Chantiers {
         $this->codeLivraison = $codeLivraison;
         return $this;
     }
@@ -1700,10 +1701,10 @@ class Chantiers {
     /**
      * Set the code pays.
      *
-     * @param string $codePays The code pays.
+     * @param string|null $codePays The code pays.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodePays($codePays) {
+    public function setCodePays(?string $codePays): Chantiers {
         $this->codePays = $codePays;
         return $this;
     }
@@ -1711,10 +1712,10 @@ class Chantiers {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): Chantiers {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -1722,10 +1723,10 @@ class Chantiers {
     /**
      * Set the code postal livraison.
      *
-     * @param string $codePostalLivraison The code postal livraison.
+     * @param string|null $codePostalLivraison The code postal livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodePostalLivraison($codePostalLivraison) {
+    public function setCodePostalLivraison(?string $codePostalLivraison): Chantiers {
         $this->codePostalLivraison = $codePostalLivraison;
         return $this;
     }
@@ -1733,10 +1734,10 @@ class Chantiers {
     /**
      * Set the code reg marge.
      *
-     * @param string $codeRegMarge The code reg marge.
+     * @param string|null $codeRegMarge The code reg marge.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeRegMarge($codeRegMarge) {
+    public function setCodeRegMarge(?string $codeRegMarge): Chantiers {
         $this->codeRegMarge = $codeRegMarge;
         return $this;
     }
@@ -1744,10 +1745,10 @@ class Chantiers {
     /**
      * Set the code revision.
      *
-     * @param string $codeRevision The code revision.
+     * @param string|null $codeRevision The code revision.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeRevision($codeRevision) {
+    public function setCodeRevision(?string $codeRevision): Chantiers {
         $this->codeRevision = $codeRevision;
         return $this;
     }
@@ -1755,10 +1756,10 @@ class Chantiers {
     /**
      * Set the code tva.
      *
-     * @param string $codeTva The code tva.
+     * @param string|null $codeTva The code tva.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeTva($codeTva) {
+    public function setCodeTva(?string $codeTva): Chantiers {
         $this->codeTva = $codeTva;
         return $this;
     }
@@ -1766,10 +1767,10 @@ class Chantiers {
     /**
      * Set the code ventil compta.
      *
-     * @param string $codeVentilCompta The code ventil compta.
+     * @param string|null $codeVentilCompta The code ventil compta.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCodeVentilCompta($codeVentilCompta) {
+    public function setCodeVentilCompta(?string $codeVentilCompta): Chantiers {
         $this->codeVentilCompta = $codeVentilCompta;
         return $this;
     }
@@ -1777,10 +1778,10 @@ class Chantiers {
     /**
      * Set the collectif.
      *
-     * @param string $collectif The collectif.
+     * @param string|null $collectif The collectif.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCollectif($collectif) {
+    public function setCollectif(?string $collectif): Chantiers {
         $this->collectif = $collectif;
         return $this;
     }
@@ -1788,33 +1789,33 @@ class Chantiers {
     /**
      * Set the commande isolee.
      *
-     * @param bool $commandeIsolee The commande isolee.
+     * @param bool|null $commandeIsolee The commande isolee.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setCommandeIsolee($commandeIsolee) {
+    public function setCommandeIsolee(?bool $commandeIsolee): Chantiers {
         $this->commandeIsolee = $commandeIsolee;
-        return $this;
-    }
-
-    /**
-     * Set the complement.
-     *
-     * @param string $complement The complement.
-     * @return Chantiers Returns this Chantiers.
-     */
-    public function setComplement($complement) {
-        $this->complement = $complement;
         return $this;
     }
 
     /**
      * Set the complement livraison.
      *
-     * @param string $complementLivraison The complement livraison.
+     * @param string|null $complementLivraison The complement livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setComplementLivraison($complementLivraison) {
+    public function setComplementLivraison(?string $complementLivraison): Chantiers {
         $this->complementLivraison = $complementLivraison;
+        return $this;
+    }
+
+    /**
+     * Set the complement.
+     *
+     * @param string|null $complement The complement.
+     * @return Chantiers Returns this Chantiers.
+     */
+    public function setComplement(?string $complement): Chantiers {
+        $this->complement = $complement;
         return $this;
     }
 
@@ -1824,7 +1825,7 @@ class Chantiers {
      * @param DateTime|null $dateCreat The date creat.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDateCreat(DateTime $dateCreat = null) {
+    public function setDateCreat(?DateTime $dateCreat): Chantiers {
         $this->dateCreat = $dateCreat;
         return $this;
     }
@@ -1835,7 +1836,7 @@ class Chantiers {
      * @param DateTime|null $dateDebut The date debut.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): Chantiers {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -1846,7 +1847,7 @@ class Chantiers {
      * @param DateTime|null $dateEcheanceContrat The date echeance contrat.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDateEcheanceContrat(DateTime $dateEcheanceContrat = null) {
+    public function setDateEcheanceContrat(?DateTime $dateEcheanceContrat): Chantiers {
         $this->dateEcheanceContrat = $dateEcheanceContrat;
         return $this;
     }
@@ -1857,7 +1858,7 @@ class Chantiers {
      * @param DateTime|null $dateFin The date fin.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): Chantiers {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -1868,7 +1869,7 @@ class Chantiers {
      * @param DateTime|null $dateModif The date modif.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): Chantiers {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -1879,7 +1880,7 @@ class Chantiers {
      * @param DateTime|null $dateRevision The date revision.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDateRevision(DateTime $dateRevision = null) {
+    public function setDateRevision(?DateTime $dateRevision): Chantiers {
         $this->dateRevision = $dateRevision;
         return $this;
     }
@@ -1887,10 +1888,10 @@ class Chantiers {
     /**
      * Set the descriptif.
      *
-     * @param string $descriptif The descriptif.
+     * @param string|null $descriptif The descriptif.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDescriptif($descriptif) {
+    public function setDescriptif(?string $descriptif): Chantiers {
         $this->descriptif = $descriptif;
         return $this;
     }
@@ -1901,7 +1902,7 @@ class Chantiers {
      * @param DateTime|null $dtAvantDernPrepa The dt avant dern prepa.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDtAvantDernPrepa(DateTime $dtAvantDernPrepa = null) {
+    public function setDtAvantDernPrepa(?DateTime $dtAvantDernPrepa): Chantiers {
         $this->dtAvantDernPrepa = $dtAvantDernPrepa;
         return $this;
     }
@@ -1912,7 +1913,7 @@ class Chantiers {
      * @param DateTime|null $dtDernPrepa The dt dern prepa.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDtDernPrepa(DateTime $dtDernPrepa = null) {
+    public function setDtDernPrepa(?DateTime $dtDernPrepa): Chantiers {
         $this->dtDernPrepa = $dtDernPrepa;
         return $this;
     }
@@ -1923,7 +1924,7 @@ class Chantiers {
      * @param DateTime|null $dtValiditeFactDeb The dt validite fact deb.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDtValiditeFactDeb(DateTime $dtValiditeFactDeb = null) {
+    public function setDtValiditeFactDeb(?DateTime $dtValiditeFactDeb): Chantiers {
         $this->dtValiditeFactDeb = $dtValiditeFactDeb;
         return $this;
     }
@@ -1934,7 +1935,7 @@ class Chantiers {
      * @param DateTime|null $dtValiditeFactDebDebMois The dt validite fact deb deb mois.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDtValiditeFactDebDebMois(DateTime $dtValiditeFactDebDebMois = null) {
+    public function setDtValiditeFactDebDebMois(?DateTime $dtValiditeFactDebDebMois): Chantiers {
         $this->dtValiditeFactDebDebMois = $dtValiditeFactDebDebMois;
         return $this;
     }
@@ -1945,7 +1946,7 @@ class Chantiers {
      * @param DateTime|null $dtValiditeFactFin The dt validite fact fin.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDtValiditeFactFin(DateTime $dtValiditeFactFin = null) {
+    public function setDtValiditeFactFin(?DateTime $dtValiditeFactFin): Chantiers {
         $this->dtValiditeFactFin = $dtValiditeFactFin;
         return $this;
     }
@@ -1956,7 +1957,7 @@ class Chantiers {
      * @param DateTime|null $dtValiditeFactFinFinMois The dt validite fact fin fin mois.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setDtValiditeFactFinFinMois(DateTime $dtValiditeFactFinFinMois = null) {
+    public function setDtValiditeFactFinFinMois(?DateTime $dtValiditeFactFinFinMois): Chantiers {
         $this->dtValiditeFactFinFinMois = $dtValiditeFactFinFinMois;
         return $this;
     }
@@ -1964,10 +1965,10 @@ class Chantiers {
     /**
      * Set the echeance annuelle.
      *
-     * @param bool $echeanceAnnuelle The echeance annuelle.
+     * @param bool|null $echeanceAnnuelle The echeance annuelle.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setEcheanceAnnuelle($echeanceAnnuelle) {
+    public function setEcheanceAnnuelle(?bool $echeanceAnnuelle): Chantiers {
         $this->echeanceAnnuelle = $echeanceAnnuelle;
         return $this;
     }
@@ -1975,10 +1976,10 @@ class Chantiers {
     /**
      * Set the fact negoce isolee.
      *
-     * @param bool $factNegoceIsolee The fact negoce isolee.
+     * @param bool|null $factNegoceIsolee The fact negoce isolee.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setFactNegoceIsolee($factNegoceIsolee) {
+    public function setFactNegoceIsolee(?bool $factNegoceIsolee): Chantiers {
         $this->factNegoceIsolee = $factNegoceIsolee;
         return $this;
     }
@@ -1986,10 +1987,10 @@ class Chantiers {
     /**
      * Set the facture isolee.
      *
-     * @param bool $factureIsolee The facture isolee.
+     * @param bool|null $factureIsolee The facture isolee.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setFactureIsolee($factureIsolee) {
+    public function setFactureIsolee(?bool $factureIsolee): Chantiers {
         $this->factureIsolee = $factureIsolee;
         return $this;
     }
@@ -1997,10 +1998,10 @@ class Chantiers {
     /**
      * Set the jour fact.
      *
-     * @param string $jourFact The jour fact.
+     * @param string|null $jourFact The jour fact.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setJourFact($jourFact) {
+    public function setJourFact(?string $jourFact): Chantiers {
         $this->jourFact = $jourFact;
         return $this;
     }
@@ -2008,10 +2009,10 @@ class Chantiers {
     /**
      * Set the latitude.
      *
-     * @param float $latitude The latitude.
+     * @param float|null $latitude The latitude.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setLatitude($latitude) {
+    public function setLatitude(?float $latitude): Chantiers {
         $this->latitude = $latitude;
         return $this;
     }
@@ -2019,10 +2020,10 @@ class Chantiers {
     /**
      * Set the loi chatel sur facture.
      *
-     * @param bool $loiChatelSurFacture The loi chatel sur facture.
+     * @param bool|null $loiChatelSurFacture The loi chatel sur facture.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setLoiChatelSurFacture($loiChatelSurFacture) {
+    public function setLoiChatelSurFacture(?bool $loiChatelSurFacture): Chantiers {
         $this->loiChatelSurFacture = $loiChatelSurFacture;
         return $this;
     }
@@ -2030,10 +2031,10 @@ class Chantiers {
     /**
      * Set the longitude.
      *
-     * @param float $longitude The longitude.
+     * @param float|null $longitude The longitude.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setLongitude($longitude) {
+    public function setLongitude(?float $longitude): Chantiers {
         $this->longitude = $longitude;
         return $this;
     }
@@ -2041,10 +2042,10 @@ class Chantiers {
     /**
      * Set the maj stock by da.
      *
-     * @param bool $majStockByDa The maj stock by da.
+     * @param bool|null $majStockByDa The maj stock by da.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setMajStockByDa($majStockByDa) {
+    public function setMajStockByDa(?bool $majStockByDa): Chantiers {
         $this->majStockByDa = $majStockByDa;
         return $this;
     }
@@ -2052,10 +2053,10 @@ class Chantiers {
     /**
      * Set the nb controles prevus.
      *
-     * @param int $nbControlesPrevus The nb controles prevus.
+     * @param int|null $nbControlesPrevus The nb controles prevus.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNbControlesPrevus($nbControlesPrevus) {
+    public function setNbControlesPrevus(?int $nbControlesPrevus): Chantiers {
         $this->nbControlesPrevus = $nbControlesPrevus;
         return $this;
     }
@@ -2063,10 +2064,10 @@ class Chantiers {
     /**
      * Set the nb mois preavis.
      *
-     * @param string $nbMoisPreavis The nb mois preavis.
+     * @param string|null $nbMoisPreavis The nb mois preavis.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNbMoisPreavis($nbMoisPreavis) {
+    public function setNbMoisPreavis(?string $nbMoisPreavis): Chantiers {
         $this->nbMoisPreavis = $nbMoisPreavis;
         return $this;
     }
@@ -2074,10 +2075,10 @@ class Chantiers {
     /**
      * Set the nom adresse.
      *
-     * @param string $nomAdresse The nom adresse.
+     * @param string|null $nomAdresse The nom adresse.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomAdresse($nomAdresse) {
+    public function setNomAdresse(?string $nomAdresse): Chantiers {
         $this->nomAdresse = $nomAdresse;
         return $this;
     }
@@ -2085,10 +2086,10 @@ class Chantiers {
     /**
      * Set the nom chantier.
      *
-     * @param string $nomChantier The nom chantier.
+     * @param string|null $nomChantier The nom chantier.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomChantier($nomChantier) {
+    public function setNomChantier(?string $nomChantier): Chantiers {
         $this->nomChantier = $nomChantier;
         return $this;
     }
@@ -2096,10 +2097,10 @@ class Chantiers {
     /**
      * Set the nom livraison.
      *
-     * @param string $nomLivraison The nom livraison.
+     * @param string|null $nomLivraison The nom livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomLivraison($nomLivraison) {
+    public function setNomLivraison(?string $nomLivraison): Chantiers {
         $this->nomLivraison = $nomLivraison;
         return $this;
     }
@@ -2107,10 +2108,10 @@ class Chantiers {
     /**
      * Set the nom responsable.
      *
-     * @param string $nomResponsable The nom responsable.
+     * @param string|null $nomResponsable The nom responsable.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomResponsable($nomResponsable) {
+    public function setNomResponsable(?string $nomResponsable): Chantiers {
         $this->nomResponsable = $nomResponsable;
         return $this;
     }
@@ -2118,10 +2119,10 @@ class Chantiers {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): Chantiers {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -2129,10 +2130,10 @@ class Chantiers {
     /**
      * Set the nom suite livraison.
      *
-     * @param string $nomSuiteLivraison The nom suite livraison.
+     * @param string|null $nomSuiteLivraison The nom suite livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomSuiteLivraison($nomSuiteLivraison) {
+    public function setNomSuiteLivraison(?string $nomSuiteLivraison): Chantiers {
         $this->nomSuiteLivraison = $nomSuiteLivraison;
         return $this;
     }
@@ -2140,10 +2141,10 @@ class Chantiers {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): Chantiers {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -2151,10 +2152,10 @@ class Chantiers {
     /**
      * Set the nom voie livraison.
      *
-     * @param string $nomVoieLivraison The nom voie livraison.
+     * @param string|null $nomVoieLivraison The nom voie livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNomVoieLivraison($nomVoieLivraison) {
+    public function setNomVoieLivraison(?string $nomVoieLivraison): Chantiers {
         $this->nomVoieLivraison = $nomVoieLivraison;
         return $this;
     }
@@ -2162,10 +2163,10 @@ class Chantiers {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): Chantiers {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -2173,10 +2174,10 @@ class Chantiers {
     /**
      * Set the num voie livraison.
      *
-     * @param string $numVoieLivraison The num voie livraison.
+     * @param string|null $numVoieLivraison The num voie livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNumVoieLivraison($numVoieLivraison) {
+    public function setNumVoieLivraison(?string $numVoieLivraison): Chantiers {
         $this->numVoieLivraison = $numVoieLivraison;
         return $this;
     }
@@ -2184,10 +2185,10 @@ class Chantiers {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): Chantiers {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -2195,10 +2196,10 @@ class Chantiers {
     /**
      * Set the plan fact.
      *
-     * @param bool $planFact The plan fact.
+     * @param bool|null $planFact The plan fact.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setPlanFact($planFact) {
+    public function setPlanFact(?bool $planFact): Chantiers {
         $this->planFact = $planFact;
         return $this;
     }
@@ -2206,10 +2207,10 @@ class Chantiers {
     /**
      * Set the pourc conso produit.
      *
-     * @param float $pourcConsoProduit The pourc conso produit.
+     * @param float|null $pourcConsoProduit The pourc conso produit.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setPourcConsoProduit($pourcConsoProduit) {
+    public function setPourcConsoProduit(?float $pourcConsoProduit): Chantiers {
         $this->pourcConsoProduit = $pourcConsoProduit;
         return $this;
     }
@@ -2217,10 +2218,10 @@ class Chantiers {
     /**
      * Set the pourc marge previs.
      *
-     * @param float $pourcMargePrevis The pourc marge previs.
+     * @param float|null $pourcMargePrevis The pourc marge previs.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setPourcMargePrevis($pourcMargePrevis) {
+    public function setPourcMargePrevis(?float $pourcMargePrevis): Chantiers {
         $this->pourcMargePrevis = $pourcMargePrevis;
         return $this;
     }
@@ -2228,10 +2229,10 @@ class Chantiers {
     /**
      * Set the reference facture.
      *
-     * @param string $referenceFacture The reference facture.
+     * @param string|null $referenceFacture The reference facture.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setReferenceFacture($referenceFacture) {
+    public function setReferenceFacture(?string $referenceFacture): Chantiers {
         $this->referenceFacture = $referenceFacture;
         return $this;
     }
@@ -2239,10 +2240,10 @@ class Chantiers {
     /**
      * Set the reference facture2.
      *
-     * @param string $referenceFacture2 The reference facture2.
+     * @param string|null $referenceFacture2 The reference facture2.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setReferenceFacture2($referenceFacture2) {
+    public function setReferenceFacture2(?string $referenceFacture2): Chantiers {
         $this->referenceFacture2 = $referenceFacture2;
         return $this;
     }
@@ -2250,10 +2251,10 @@ class Chantiers {
     /**
      * Set the rupt date livraison.
      *
-     * @param bool $ruptDateLivraison The rupt date livraison.
+     * @param bool|null $ruptDateLivraison The rupt date livraison.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setRuptDateLivraison($ruptDateLivraison) {
+    public function setRuptDateLivraison(?bool $ruptDateLivraison): Chantiers {
         $this->ruptDateLivraison = $ruptDateLivraison;
         return $this;
     }
@@ -2261,10 +2262,10 @@ class Chantiers {
     /**
      * Set the telephone.
      *
-     * @param string $telephone The telephone.
+     * @param string|null $telephone The telephone.
      * @return Chantiers Returns this Chantiers.
      */
-    public function setTelephone($telephone) {
+    public function setTelephone(?string $telephone): Chantiers {
         $this->telephone = $telephone;
         return $this;
     }

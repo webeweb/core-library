@@ -30,7 +30,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCession() {
+    public function testSetDateCession(): void {
 
         // Set a Date/time mock.
         $dateCession = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -63,7 +63,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxImposition() {
+    public function testSetTxImposition(): void {
 
         $obj = new DecTvaCa12();
 
@@ -76,7 +76,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCa12() {
+    public function testSetTypeCa12(): void {
 
         $obj = new DecTvaCa12();
 
@@ -89,7 +89,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0008() {
+    public function testSetz0008(): void {
 
         $obj = new DecTvaCa12();
 
@@ -102,7 +102,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0018() {
+    public function testSetz0018(): void {
 
         $obj = new DecTvaCa12();
 
@@ -115,7 +115,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0019() {
+    public function testSetz0019(): void {
 
         $obj = new DecTvaCa12();
 
@@ -128,7 +128,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0020() {
+    public function testSetz0020(): void {
 
         $obj = new DecTvaCa12();
 
@@ -141,7 +141,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0028() {
+    public function testSetz0028(): void {
 
         $obj = new DecTvaCa12();
 
@@ -154,7 +154,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0030b() {
+    public function testSetz0030b(): void {
 
         $obj = new DecTvaCa12();
 
@@ -167,7 +167,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0058() {
+    public function testSetz0058(): void {
 
         $obj = new DecTvaCa12();
 
@@ -180,7 +180,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0704() {
+    public function testSetz0704(): void {
 
         $obj = new DecTvaCa12();
 
@@ -193,7 +193,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0709() {
+    public function testSetz0709(): void {
 
         $obj = new DecTvaCa12();
 
@@ -206,7 +206,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0970() {
+    public function testSetz0970(): void {
 
         $obj = new DecTvaCa12();
 
@@ -219,7 +219,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0970b() {
+    public function testSetz0970b(): void {
 
         $obj = new DecTvaCa12();
 
@@ -232,7 +232,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0980() {
+    public function testSetz0980(): void {
 
         $obj = new DecTvaCa12();
 
@@ -245,7 +245,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0980b() {
+    public function testSetz0980b(): void {
 
         $obj = new DecTvaCa12();
 
@@ -258,7 +258,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0981() {
+    public function testSetz0981(): void {
 
         $obj = new DecTvaCa12();
 
@@ -271,7 +271,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0981b() {
+    public function testSetz0981b(): void {
 
         $obj = new DecTvaCa12();
 
@@ -284,7 +284,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0982() {
+    public function testSetz0982(): void {
 
         $obj = new DecTvaCa12();
 
@@ -297,7 +297,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz0983() {
+    public function testSetz0983(): void {
 
         $obj = new DecTvaCa12();
 
@@ -310,7 +310,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz3240() {
+    public function testSetz3240(): void {
 
         $obj = new DecTvaCa12();
 
@@ -323,7 +323,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz32Code() {
+    public function testSetz32Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -336,7 +336,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz32Libelle() {
+    public function testSetz32Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -349,7 +349,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz32Taxe() {
+    public function testSetz32Taxe(): void {
 
         $obj = new DecTvaCa12();
 
@@ -362,7 +362,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz35BCode() {
+    public function testSetz35BCode(): void {
 
         $obj = new DecTvaCa12();
 
@@ -375,7 +375,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz35BLibelle() {
+    public function testSetz35BLibelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -388,7 +388,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz35BTaxe() {
+    public function testSetz35BTaxe(): void {
 
         $obj = new DecTvaCa12();
 
@@ -401,7 +401,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz35Code() {
+    public function testSetz35Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -414,7 +414,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz35Libelle() {
+    public function testSetz35Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -427,7 +427,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz35Taxe() {
+    public function testSetz35Taxe(): void {
 
         $obj = new DecTvaCa12();
 
@@ -440,7 +440,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4202() {
+    public function testSetz4202(): void {
 
         $obj = new DecTvaCa12();
 
@@ -453,7 +453,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4213() {
+    public function testSetz4213(): void {
 
         $obj = new DecTvaCa12();
 
@@ -466,7 +466,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4216() {
+    public function testSetz4216(): void {
 
         $obj = new DecTvaCa12();
 
@@ -479,7 +479,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4217() {
+    public function testSetz4217(): void {
 
         $obj = new DecTvaCa12();
 
@@ -492,7 +492,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4218() {
+    public function testSetz4218(): void {
 
         $obj = new DecTvaCa12();
 
@@ -505,7 +505,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4220() {
+    public function testSetz4220(): void {
 
         $obj = new DecTvaCa12();
 
@@ -518,7 +518,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz45Ca12() {
+    public function testSetz45Ca12(): void {
 
         $obj = new DecTvaCa12();
 
@@ -531,7 +531,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz45Ca12Code() {
+    public function testSetz45Ca12Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -544,7 +544,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz45Ca12Libelle() {
+    public function testSetz45Ca12Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -557,7 +557,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz47Ca12() {
+    public function testSetz47Ca12(): void {
 
         $obj = new DecTvaCa12();
 
@@ -570,7 +570,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz47Ca12Code() {
+    public function testSetz47Ca12Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -583,7 +583,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz47Ca12Libelle() {
+    public function testSetz47Ca12Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -596,7 +596,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Aca12() {
+    public function testSetz4Aca12(): void {
 
         $obj = new DecTvaCa12();
 
@@ -609,7 +609,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Aca12Code() {
+    public function testSetz4Aca12Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -622,7 +622,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Aca12Libelle() {
+    public function testSetz4Aca12Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -635,7 +635,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Bca12() {
+    public function testSetz4Bca12(): void {
 
         $obj = new DecTvaCa12();
 
@@ -648,7 +648,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Bca12Code() {
+    public function testSetz4Bca12Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -661,7 +661,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Bca12Libelle() {
+    public function testSetz4Bca12Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -674,7 +674,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Cca12() {
+    public function testSetz4Cca12(): void {
 
         $obj = new DecTvaCa12();
 
@@ -687,7 +687,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Cca12Code() {
+    public function testSetz4Cca12Code(): void {
 
         $obj = new DecTvaCa12();
 
@@ -700,7 +700,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz4Cca12Libelle() {
+    public function testSetz4Cca12Libelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -713,7 +713,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz5bCode() {
+    public function testSetz5bCode(): void {
 
         $obj = new DecTvaCa12();
 
@@ -726,7 +726,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz5bHt() {
+    public function testSetz5bHt(): void {
 
         $obj = new DecTvaCa12();
 
@@ -739,7 +739,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz5bLibelle() {
+    public function testSetz5bLibelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -752,7 +752,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz5bTaxe() {
+    public function testSetz5bTaxe(): void {
 
         $obj = new DecTvaCa12();
 
@@ -765,7 +765,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz7bCode() {
+    public function testSetz7bCode(): void {
 
         $obj = new DecTvaCa12();
 
@@ -778,7 +778,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz7bHt() {
+    public function testSetz7bHt(): void {
 
         $obj = new DecTvaCa12();
 
@@ -791,7 +791,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz7bLibelle() {
+    public function testSetz7bLibelle(): void {
 
         $obj = new DecTvaCa12();
 
@@ -804,7 +804,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz7bTaxe() {
+    public function testSetz7bTaxe(): void {
 
         $obj = new DecTvaCa12();
 
@@ -817,7 +817,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetz8004() {
+    public function testSetz8004(): void {
 
         $obj = new DecTvaCa12();
 
@@ -830,7 +830,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAcompteDeduit1() {
+    public function testSetzAcompteDeduit1(): void {
 
         $obj = new DecTvaCa12();
 
@@ -843,7 +843,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAcompteDeduit2() {
+    public function testSetzAcompteDeduit2(): void {
 
         $obj = new DecTvaCa12();
 
@@ -856,7 +856,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAcompteDeduit3() {
+    public function testSetzAcompteDeduit3(): void {
 
         $obj = new DecTvaCa12();
 
@@ -869,7 +869,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAcompteDeduit4() {
+    public function testSetzAcompteDeduit4(): void {
 
         $obj = new DecTvaCa12();
 
@@ -882,7 +882,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAnneeAcompte1() {
+    public function testSetzAnneeAcompte1(): void {
 
         $obj = new DecTvaCa12();
 
@@ -895,7 +895,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAnneeAcompte2() {
+    public function testSetzAnneeAcompte2(): void {
 
         $obj = new DecTvaCa12();
 
@@ -908,7 +908,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAnneeAcompte3() {
+    public function testSetzAnneeAcompte3(): void {
 
         $obj = new DecTvaCa12();
 
@@ -921,7 +921,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzAnneeAcompte4() {
+    public function testSetzAnneeAcompte4(): void {
 
         $obj = new DecTvaCa12();
 
@@ -934,7 +934,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol1Acompte1() {
+    public function testSetzCol1Acompte1(): void {
 
         $obj = new DecTvaCa12();
 
@@ -947,7 +947,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol1Acompte2() {
+    public function testSetzCol1Acompte2(): void {
 
         $obj = new DecTvaCa12();
 
@@ -960,7 +960,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol1Acompte3() {
+    public function testSetzCol1Acompte3(): void {
 
         $obj = new DecTvaCa12();
 
@@ -973,7 +973,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol1Acompte4() {
+    public function testSetzCol1Acompte4(): void {
 
         $obj = new DecTvaCa12();
 
@@ -986,7 +986,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol2Acompte1() {
+    public function testSetzCol2Acompte1(): void {
 
         $obj = new DecTvaCa12();
 
@@ -999,7 +999,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol2Acompte2() {
+    public function testSetzCol2Acompte2(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1012,7 +1012,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol2Acompte3() {
+    public function testSetzCol2Acompte3(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1025,7 +1025,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzCol2Acompte4() {
+    public function testSetzCol2Acompte4(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1038,7 +1038,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzExcedentVersement() {
+    public function testSetzExcedentVersement(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1051,7 +1051,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzNomDemandeurRbt() {
+    public function testSetzNomDemandeurRbt(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1064,7 +1064,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzNumMsa() {
+    public function testSetzNumMsa(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1077,7 +1077,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzRbtDemande() {
+    public function testSetzRbtDemande(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1090,7 +1090,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzRbtQualite() {
+    public function testSetzRbtQualite(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1103,7 +1103,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzRbtVille() {
+    public function testSetzRbtVille(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1116,7 +1116,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzRbtbic() {
+    public function testSetzRbtbic(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1129,7 +1129,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzRbtiban() {
+    public function testSetzRbtiban(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1142,7 +1142,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzRbtrib() {
+    public function testSetzRbtrib(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1155,7 +1155,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzSoldeAPayer() {
+    public function testSetzSoldeAPayer(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1168,7 +1168,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzSurfaceAgr() {
+    public function testSetzSurfaceAgr(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1181,7 +1181,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzTaxesFiscales() {
+    public function testSetzTaxesFiscales(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1194,7 +1194,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetzYaDemandeRbt() {
+    public function testSetzYaDemandeRbt(): void {
 
         $obj = new DecTvaCa12();
 
@@ -1207,7 +1207,7 @@ class DecTvaCa12Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DecTvaCa12();
 

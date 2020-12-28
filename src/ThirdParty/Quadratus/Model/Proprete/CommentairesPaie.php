@@ -24,28 +24,28 @@ class CommentairesPaie {
     /**
      * Code collabo valid.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaboValid;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -66,14 +66,14 @@ class CommentairesPaie {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Id comm.
      *
-     * @var int
+     * @var int|null
      */
     private $idComm;
 
@@ -87,57 +87,58 @@ class CommentairesPaie {
     /**
      * Type comm.
      *
-     * @var string
+     * @var string|null
      */
     private $typeComm;
 
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collabo valid.
      *
-     * @return string Returns the code collabo valid.
+     * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid() {
+    public function getCodeCollaboValid(): ?string{
         return $this->codeCollaboValid;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
@@ -146,7 +147,7 @@ class CommentairesPaie {
      *
      * @return DateTime|null Returns the date comm.
      */
-    public function getDateComm() {
+    public function getDateComm(): ?DateTime{
         return $this->dateComm;
     }
 
@@ -155,25 +156,25 @@ class CommentairesPaie {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro() {
+    public function getDateValidationSynchro(): ?DateTime{
         return $this->dateValidationSynchro;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the id comm.
      *
-     * @return int Returns the id comm.
+     * @return int|null Returns the id comm.
      */
-    public function getIdComm() {
+    public function getIdComm(): ?int{
         return $this->idComm;
     }
 
@@ -182,35 +183,35 @@ class CommentairesPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the type comm.
      *
-     * @return string Returns the type comm.
+     * @return string|null Returns the type comm.
      */
-    public function getTypeComm() {
+    public function getTypeComm(): ?string{
         return $this->typeComm;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the code collabo valid.
      *
-     * @param string $codeCollaboValid The code collabo valid.
+     * @param string|null $codeCollaboValid The code collabo valid.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setCodeCollaboValid($codeCollaboValid) {
+    public function setCodeCollaboValid(?string $codeCollaboValid): CommentairesPaie {
         $this->codeCollaboValid = $codeCollaboValid;
         return $this;
     }
@@ -218,10 +219,10 @@ class CommentairesPaie {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): CommentairesPaie {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -229,10 +230,10 @@ class CommentairesPaie {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): CommentairesPaie {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -240,10 +241,10 @@ class CommentairesPaie {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): CommentairesPaie {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -254,7 +255,7 @@ class CommentairesPaie {
      * @param DateTime|null $dateComm The date comm.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setDateComm(DateTime $dateComm = null) {
+    public function setDateComm(?DateTime $dateComm): CommentairesPaie {
         $this->dateComm = $dateComm;
         return $this;
     }
@@ -265,7 +266,7 @@ class CommentairesPaie {
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+    public function setDateValidationSynchro(?DateTime $dateValidationSynchro): CommentairesPaie {
         $this->dateValidationSynchro = $dateValidationSynchro;
         return $this;
     }
@@ -273,10 +274,10 @@ class CommentairesPaie {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): CommentairesPaie {
         $this->etat = $etat;
         return $this;
     }
@@ -284,10 +285,10 @@ class CommentairesPaie {
     /**
      * Set the id comm.
      *
-     * @param int $idComm The id comm.
+     * @param int|null $idComm The id comm.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setIdComm($idComm) {
+    public function setIdComm(?int $idComm): CommentairesPaie {
         $this->idComm = $idComm;
         return $this;
     }
@@ -298,7 +299,7 @@ class CommentairesPaie {
      * @param DateTime|null $periode The periode.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): CommentairesPaie {
         $this->periode = $periode;
         return $this;
     }
@@ -306,10 +307,10 @@ class CommentairesPaie {
     /**
      * Set the type comm.
      *
-     * @param string $typeComm The type comm.
+     * @param string|null $typeComm The type comm.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setTypeComm($typeComm) {
+    public function setTypeComm(?string $typeComm): CommentairesPaie {
         $this->typeComm = $typeComm;
         return $this;
     }
@@ -317,10 +318,10 @@ class CommentairesPaie {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return CommentairesPaie Returns this Commentaires paie.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): CommentairesPaie {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

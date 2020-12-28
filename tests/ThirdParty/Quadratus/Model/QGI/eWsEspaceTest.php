@@ -27,7 +27,7 @@ class eWsEspaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDoss() {
+    public function testSetNumDoss(): void {
 
         $obj = new eWsEspace();
 
@@ -40,7 +40,7 @@ class eWsEspaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new eWsEspace();
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Model;
+namespace WBW\Library\Core\Tests\ThirdParty\Adoria\Model;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
@@ -19,7 +19,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
  * Result test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Model
+ * @package WBW\Library\Core\Tests\ThirdParty\Adoria\Model
  */
 class ResultTest extends AbstractTestCase {
 
@@ -28,7 +28,7 @@ class ResultTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testHasData() {
+    public function testHasData(): void {
 
         // Set a Line mock.
         $line = new Line();
@@ -44,7 +44,7 @@ class ResultTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testHasError() {
+    public function testHasError(): void {
 
         $obj = new Result();
 
@@ -57,7 +57,7 @@ class ResultTest extends AbstractTestCase {
      *
      * @erturn void
      */
-    public function testSetDatas() {
+    public function testSetDatas(): void {
 
         // Set a Line mock.
         $line = new Line();
@@ -73,7 +73,7 @@ class ResultTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetErrors() {
+    public function testSetErrors(): void {
 
         $obj = new Result();
 
@@ -86,7 +86,7 @@ class ResultTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReturnCode() {
+    public function testSetReturnCode(): void {
 
         $obj = new Result();
 
@@ -99,7 +99,7 @@ class ResultTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Result();
 

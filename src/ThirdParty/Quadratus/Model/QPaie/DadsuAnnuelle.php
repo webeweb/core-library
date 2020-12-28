@@ -22,49 +22,50 @@ class DadsuAnnuelle {
     /**
      * Nom fichier dadsu.
      *
-     * @var string
+     * @var string|null
      */
     private $nomFichierDadsu;
 
     /**
      * Tds annee.
      *
-     * @var int
+     * @var int|null
      */
     private $tdsAnnee;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the nom fichier dadsu.
      *
-     * @return string Returns the nom fichier dadsu.
+     * @return string|null Returns the nom fichier dadsu.
      */
-    public function getNomFichierDadsu() {
+    public function getNomFichierDadsu(): ?string{
         return $this->nomFichierDadsu;
     }
 
     /**
      * Get the tds annee.
      *
-     * @return int Returns the tds annee.
+     * @return int|null Returns the tds annee.
      */
-    public function getTdsAnnee() {
+    public function getTdsAnnee(): ?int{
         return $this->tdsAnnee;
     }
 
     /**
      * Set the nom fichier dadsu.
      *
-     * @param string $nomFichierDadsu The nom fichier dadsu.
+     * @param string|null $nomFichierDadsu The nom fichier dadsu.
      * @return DadsuAnnuelle Returns this Dadsu annuelle.
      */
-    public function setNomFichierDadsu($nomFichierDadsu) {
+    public function setNomFichierDadsu(?string $nomFichierDadsu): DadsuAnnuelle {
         $this->nomFichierDadsu = $nomFichierDadsu;
         return $this;
     }
@@ -72,10 +73,10 @@ class DadsuAnnuelle {
     /**
      * Set the tds annee.
      *
-     * @param int $tdsAnnee The tds annee.
+     * @param int|null $tdsAnnee The tds annee.
      * @return DadsuAnnuelle Returns this Dadsu annuelle.
      */
-    public function setTdsAnnee($tdsAnnee) {
+    public function setTdsAnnee(?int $tdsAnnee): DadsuAnnuelle {
         $this->tdsAnnee = $tdsAnnee;
         return $this;
     }

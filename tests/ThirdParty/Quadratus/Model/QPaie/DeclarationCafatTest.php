@@ -29,7 +29,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse1() {
+    public function testSetAdresse1(): void {
 
         $obj = new DeclarationCafat();
 
@@ -42,7 +42,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse2() {
+    public function testSetAdresse2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -55,7 +55,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse3() {
+    public function testSetAdresse3(): void {
 
         $obj = new DeclarationCafat();
 
@@ -68,7 +68,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCotis() {
+    public function testSetCodeCotis(): void {
 
         $obj = new DeclarationCafat();
 
@@ -81,7 +81,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DeclarationCafat();
 
@@ -95,7 +95,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDeclaration() {
+    public function testSetDateDeclaration(): void {
 
         // Set a Date/time mock.
         $dateDeclaration = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new DeclarationCafat();
 
@@ -124,7 +124,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtAutreDeduction() {
+    public function testSetMtAutreDeduction(): void {
 
         $obj = new DeclarationCafat();
 
@@ -137,7 +137,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtDeductionAcompte() {
+    public function testSetMtDeductionAcompte(): void {
 
         $obj = new DeclarationCafat();
 
@@ -150,7 +150,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtDeductionAcompte1() {
+    public function testSetMtDeductionAcompte1(): void {
 
         $obj = new DeclarationCafat();
 
@@ -163,7 +163,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtDeductionAcompte2() {
+    public function testSetMtDeductionAcompte2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -176,7 +176,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSalaries() {
+    public function testSetNbSalaries(): void {
 
         $obj = new DeclarationCafat();
 
@@ -189,7 +189,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoCotisant() {
+    public function testSetNoCotisant(): void {
 
         $obj = new DeclarationCafat();
 
@@ -202,7 +202,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new DeclarationCafat();
 
@@ -215,7 +215,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasDePersonnel() {
+    public function testSetPasDePersonnel(): void {
 
         $obj = new DeclarationCafat();
 
@@ -228,7 +228,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasDeReembauche() {
+    public function testSetPasDeReembauche(): void {
 
         $obj = new DeclarationCafat();
 
@@ -242,7 +242,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -258,7 +258,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond1RuammTr2() {
+    public function testSetPlafond1RuammTr2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -271,7 +271,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond2RuammTr2() {
+    public function testSetPlafond2RuammTr2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -284,7 +284,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondAutreRegime() {
+    public function testSetPlafondAutreRegime(): void {
 
         $obj = new DeclarationCafat();
 
@@ -297,7 +297,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondFsh() {
+    public function testSetPlafondFsh(): void {
 
         $obj = new DeclarationCafat();
 
@@ -310,7 +310,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondMaladie() {
+    public function testSetPlafondMaladie(): void {
 
         $obj = new DeclarationCafat();
 
@@ -323,7 +323,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondSalaire() {
+    public function testSetPlafondSalaire(): void {
 
         $obj = new DeclarationCafat();
 
@@ -336,7 +336,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRaisonSociale() {
+    public function testSetRaisonSociale(): void {
 
         $obj = new DeclarationCafat();
 
@@ -349,7 +349,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRid() {
+    public function testSetRid(): void {
 
         $obj = new DeclarationCafat();
 
@@ -362,7 +362,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSecteur() {
+    public function testSetSecteur(): void {
 
         $obj = new DeclarationCafat();
 
@@ -375,7 +375,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxAt() {
+    public function testSetTauxAt(): void {
 
         $obj = new DeclarationCafat();
 
@@ -388,7 +388,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxAutreRegime() {
+    public function testSetTauxAutreRegime(): void {
 
         $obj = new DeclarationCafat();
 
@@ -401,7 +401,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxCcs() {
+    public function testSetTauxCcs(): void {
 
         $obj = new DeclarationCafat();
 
@@ -414,7 +414,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxFsh() {
+    public function testSetTauxFsh(): void {
 
         $obj = new DeclarationCafat();
 
@@ -427,7 +427,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxMaladie() {
+    public function testSetTauxMaladie(): void {
 
         $obj = new DeclarationCafat();
 
@@ -440,7 +440,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRuammTr2() {
+    public function testSetTauxRuammTr2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -453,7 +453,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalCotisAutreRegime() {
+    public function testSetTotalCotisAutreRegime(): void {
 
         $obj = new DeclarationCafat();
 
@@ -466,7 +466,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalCotisCcs() {
+    public function testSetTotalCotisCcs(): void {
 
         $obj = new DeclarationCafat();
 
@@ -479,7 +479,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalCotisFsh() {
+    public function testSetTotalCotisFsh(): void {
 
         $obj = new DeclarationCafat();
 
@@ -492,7 +492,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalCotisMaladie() {
+    public function testSetTotalCotisMaladie(): void {
 
         $obj = new DeclarationCafat();
 
@@ -505,7 +505,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalCotisRuammTr2() {
+    public function testSetTotalCotisRuammTr2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -518,7 +518,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalRemuneration() {
+    public function testSetTotalRemuneration(): void {
 
         $obj = new DeclarationCafat();
 
@@ -531,7 +531,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalRuammTr2() {
+    public function testSetTotalRuammTr2(): void {
 
         $obj = new DeclarationCafat();
 
@@ -544,7 +544,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalSalaireAutreRegime() {
+    public function testSetTotalSalaireAutreRegime(): void {
 
         $obj = new DeclarationCafat();
 
@@ -557,7 +557,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalSalaireCcs() {
+    public function testSetTotalSalaireCcs(): void {
 
         $obj = new DeclarationCafat();
 
@@ -570,7 +570,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalSalaireFsh() {
+    public function testSetTotalSalaireFsh(): void {
 
         $obj = new DeclarationCafat();
 
@@ -583,7 +583,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalSalaireMaladie() {
+    public function testSetTotalSalaireMaladie(): void {
 
         $obj = new DeclarationCafat();
 
@@ -596,7 +596,7 @@ class DeclarationCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DeclarationCafat();
 

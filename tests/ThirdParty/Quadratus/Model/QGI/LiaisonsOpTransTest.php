@@ -29,7 +29,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBatchApres() {
+    public function testSetBatchApres(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -42,7 +42,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBatchAvant() {
+    public function testSetBatchAvant(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -55,7 +55,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -69,7 +69,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDernXFer() {
+    public function testSetDtDernXFer(): void {
 
         // Set a Date/time mock.
         $dtDernXFer = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -98,7 +98,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetListeDestinataires() {
+    public function testSetListeDestinataires(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -111,7 +111,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUseDtDernXFer() {
+    public function testSetUseDtDernXFer(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -124,7 +124,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerActivites() {
+    public function testSetXFerActivites(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -137,7 +137,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerArticles() {
+    public function testSetXFerArticles(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -150,7 +150,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerBoniMali() {
+    public function testSetXFerBoniMali(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -163,7 +163,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerBudgetsTemps() {
+    public function testSetXFerBudgetsTemps(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -176,7 +176,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCivilites() {
+    public function testSetXFerCivilites(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -189,7 +189,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCli() {
+    public function testSetXFerCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -202,7 +202,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliA1() {
+    public function testSetXFerCliA1(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -215,7 +215,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliA2() {
+    public function testSetXFerCliA2(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -228,7 +228,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliC() {
+    public function testSetXFerCliC(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -241,7 +241,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliDeb() {
+    public function testSetXFerCliDeb(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -254,7 +254,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliDocs() {
+    public function testSetXFerCliDocs(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -267,7 +267,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliE() {
+    public function testSetXFerCliE(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -280,7 +280,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliFin() {
+    public function testSetXFerCliFin(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -293,7 +293,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCliP() {
+    public function testSetXFerCliP(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -306,7 +306,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCol() {
+    public function testSetXFerCol(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -319,7 +319,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCollabTache() {
+    public function testSetXFerCollabTache(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -332,7 +332,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerContenu() {
+    public function testSetXFerContenu(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -345,7 +345,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCpta() {
+    public function testSetXFerCpta(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -358,7 +358,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaAll() {
+    public function testSetXFerCptaAll(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -371,7 +371,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaCli() {
+    public function testSetXFerCptaCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -384,7 +384,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaDest() {
+    public function testSetXFerCptaDest(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -397,7 +397,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaFrn() {
+    public function testSetXFerCptaFrn(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -410,7 +410,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaImg() {
+    public function testSetXFerCptaImg(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -423,7 +423,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaLstDc() {
+    public function testSetXFerCptaLstDc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -436,7 +436,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCptaSrc() {
+    public function testSetXFerCptaSrc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -449,7 +449,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCrDsi() {
+    public function testSetXFerCrDsi(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -462,7 +462,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCrDucs() {
+    public function testSetXFerCrDucs(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -475,7 +475,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCrPedi() {
+    public function testSetXFerCrPedi(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -488,7 +488,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCrReq() {
+    public function testSetXFerCrReq(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -501,7 +501,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCrTdfc() {
+    public function testSetXFerCrTdfc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -514,7 +514,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCrTva() {
+    public function testSetXFerCrTva(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -527,7 +527,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerCstPxKm() {
+    public function testSetXFerCstPxKm(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -540,7 +540,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerDosCpta() {
+    public function testSetXFerDosCpta(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -553,7 +553,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerDosPaie() {
+    public function testSetXFerDosPaie(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -566,7 +566,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerEdGrp() {
+    public function testSetXFerEdGrp(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -579,7 +579,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerEtebac() {
+    public function testSetXFerEtebac(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -592,7 +592,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerFactEdit() {
+    public function testSetXFerFactEdit(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -605,7 +605,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerFactEditDelSrc() {
+    public function testSetXFerFactEditDelSrc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -618,7 +618,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerFactNonEdit() {
+    public function testSetXFerFactNonEdit(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -631,7 +631,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerFactNonEditDelSrc() {
+    public function testSetXFerFactNonEditDelSrc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -644,7 +644,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerFonctions() {
+    public function testSetXFerFonctions(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -657,7 +657,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerImpotsDirects() {
+    public function testSetXFerImpotsDirects(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -670,7 +670,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerInt() {
+    public function testSetXFerInt(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -683,7 +683,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerIntNoCliOnly() {
+    public function testSetXFerIntNoCliOnly(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -696,7 +696,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerLstCabs() {
+    public function testSetXFerLstCabs(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -709,7 +709,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMis() {
+    public function testSetXFerMis(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -722,7 +722,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMisCli() {
+    public function testSetXFerMisCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -735,7 +735,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMissionPrincipale() {
+    public function testSetXFerMissionPrincipale(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -748,7 +748,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsg() {
+    public function testSetXFerMsg(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -761,7 +761,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsgCli() {
+    public function testSetXFerMsgCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -774,7 +774,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsgCol() {
+    public function testSetXFerMsgCol(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -787,7 +787,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsgDelSrc() {
+    public function testSetXFerMsgDelSrc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -800,7 +800,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsgHist() {
+    public function testSetXFerMsgHist(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -813,7 +813,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsgHistCli() {
+    public function testSetXFerMsgHistCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -826,7 +826,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerMsgHistDelSrc() {
+    public function testSetXFerMsgHistDelSrc(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -839,7 +839,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerObligations() {
+    public function testSetXFerObligations(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -852,7 +852,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerPdf() {
+    public function testSetXFerPdf(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -865,7 +865,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerPlanning() {
+    public function testSetXFerPlanning(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -878,7 +878,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerPreFact() {
+    public function testSetXFerPreFact(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -891,7 +891,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerPreFactCli() {
+    public function testSetXFerPreFactCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -904,7 +904,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerPreFactCol() {
+    public function testSetXFerPreFactCol(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -917,7 +917,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerPreFactFact() {
+    public function testSetXFerPreFactFact(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -930,7 +930,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerQInfos() {
+    public function testSetXFerQInfos(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -943,7 +943,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerQInfosDet() {
+    public function testSetXFerQInfosDet(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -956,7 +956,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerQualifiants() {
+    public function testSetXFerQualifiants(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -969,7 +969,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerReglements() {
+    public function testSetXFerReglements(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -982,7 +982,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerSuiCli() {
+    public function testSetXFerSuiCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -995,7 +995,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerTaches() {
+    public function testSetXFerTaches(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -1008,7 +1008,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerTps() {
+    public function testSetXFerTps(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -1021,7 +1021,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerTpsCli() {
+    public function testSetXFerTpsCli(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -1034,7 +1034,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerTpsCol() {
+    public function testSetXFerTpsCol(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -1047,7 +1047,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerTypeEvenements() {
+    public function testSetXFerTypeEvenements(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -1060,7 +1060,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetXFerTypeSocietes() {
+    public function testSetXFerTypeSocietes(): void {
 
         $obj = new LiaisonsOpTrans();
 
@@ -1073,7 +1073,7 @@ class LiaisonsOpTransTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LiaisonsOpTrans();
 

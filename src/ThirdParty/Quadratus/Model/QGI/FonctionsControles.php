@@ -22,65 +22,66 @@ class FonctionsControles {
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Mot controle.
      *
-     * @var string
+     * @var string|null
      */
     private $motControle;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the mot controle.
      *
-     * @return string Returns the mot controle.
+     * @return string|null Returns the mot controle.
      */
-    public function getMotControle() {
+    public function getMotControle(): ?string{
         return $this->motControle;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return FonctionsControles Returns this Fonctions controles.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): FonctionsControles {
         $this->intitule = $intitule;
         return $this;
     }
@@ -88,10 +89,10 @@ class FonctionsControles {
     /**
      * Set the mot controle.
      *
-     * @param string $motControle The mot controle.
+     * @param string|null $motControle The mot controle.
      * @return FonctionsControles Returns this Fonctions controles.
      */
-    public function setMotControle($motControle) {
+    public function setMotControle(?string $motControle): FonctionsControles {
         $this->motControle = $motControle;
         return $this;
     }
@@ -99,10 +100,10 @@ class FonctionsControles {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return FonctionsControles Returns this Fonctions controles.
      */
-    public function setType($type) {
+    public function setType(?string $type): FonctionsControles {
         $this->type = $type;
         return $this;
     }

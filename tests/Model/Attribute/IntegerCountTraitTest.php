@@ -27,7 +27,7 @@ class IntegerCountTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCount() {
+    public function testSetCount(): void {
 
         $obj = new TestIntegerCountTrait();
 
@@ -40,7 +40,7 @@ class IntegerCountTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerCountTrait();
 

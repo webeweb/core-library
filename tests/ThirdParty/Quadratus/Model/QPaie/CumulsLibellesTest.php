@@ -27,7 +27,7 @@ class CumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCumul() {
+    public function testSetMontantCumul(): void {
 
         $obj = new CumulsLibelles();
 
@@ -40,7 +40,7 @@ class CumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCumulBulletin() {
+    public function testSetNumCumulBulletin(): void {
 
         $obj = new CumulsLibelles();
 
@@ -53,7 +53,7 @@ class CumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new CumulsLibelles();
 
@@ -66,7 +66,7 @@ class CumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CumulsLibelles();
 

@@ -27,7 +27,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticlesLangues();
 
@@ -40,7 +40,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLangue() {
+    public function testSetCodeLangue(): void {
 
         $obj = new ArticlesLangues();
 
@@ -53,7 +53,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationApres() {
+    public function testSetDesignationApres(): void {
 
         $obj = new ArticlesLangues();
 
@@ -66,7 +66,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationAvant() {
+    public function testSetDesignationAvant(): void {
 
         $obj = new ArticlesLangues();
 
@@ -79,7 +79,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule1() {
+    public function testSetIntitule1(): void {
 
         $obj = new ArticlesLangues();
 
@@ -92,7 +92,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule2() {
+    public function testSetIntitule2(): void {
 
         $obj = new ArticlesLangues();
 
@@ -105,7 +105,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule3() {
+    public function testSetIntitule3(): void {
 
         $obj = new ArticlesLangues();
 
@@ -118,7 +118,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule4() {
+    public function testSetIntitule4(): void {
 
         $obj = new ArticlesLangues();
 
@@ -131,7 +131,7 @@ class ArticlesLanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticlesLangues();
 

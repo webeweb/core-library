@@ -29,7 +29,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdherentSyndicat() {
+    public function testSetAdherentSyndicat(): void {
 
         $obj = new Etablissements2();
 
@@ -42,7 +42,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeChgtEffectif() {
+    public function testSetAnneeChgtEffectif(): void {
 
         $obj = new Etablissements2();
 
@@ -55,7 +55,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeJei() {
+    public function testSetAnneeJei(): void {
 
         $obj = new Etablissements2();
 
@@ -68,7 +68,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAssujettiCvae() {
+    public function testSetAssujettiCvae(): void {
 
         $obj = new Etablissements2();
 
@@ -81,7 +81,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutreSignatureDnae() {
+    public function testSetAutreSignatureDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -94,7 +94,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic2() {
+    public function testSetBic2(): void {
 
         $obj = new Etablissements2();
 
@@ -107,7 +107,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic3() {
+    public function testSetBic3(): void {
 
         $obj = new Etablissements2();
 
@@ -120,7 +120,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaisseCpTransport() {
+    public function testSetCaisseCpTransport(): void {
 
         $obj = new Etablissements2();
 
@@ -133,7 +133,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorieJuridique() {
+    public function testSetCategorieJuridique(): void {
 
         $obj = new Etablissements2();
 
@@ -146,7 +146,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new Etablissements2();
 
@@ -159,7 +159,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMedTravDue() {
+    public function testSetCodeMedTravDue(): void {
 
         $obj = new Etablissements2();
 
@@ -172,7 +172,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrgaDue() {
+    public function testSetCodeOrgaDue(): void {
 
         $obj = new Etablissements2();
 
@@ -185,7 +185,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffFillonMoins20() {
+    public function testSetCoeffFillonMoins20(): void {
 
         $obj = new Etablissements2();
 
@@ -198,7 +198,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteChargeHeuresActPart() {
+    public function testSetCompteChargeHeuresActPart(): void {
 
         $obj = new Etablissements2();
 
@@ -211,7 +211,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteChargeIndemAbsIntemp() {
+    public function testSetCompteChargeIndemAbsIntemp(): void {
 
         $obj = new Etablissements2();
 
@@ -224,7 +224,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteChargeIndemActPart() {
+    public function testSetCompteChargeIndemActPart(): void {
 
         $obj = new Etablissements2();
 
@@ -237,7 +237,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteChargeIntVers() {
+    public function testSetCompteChargeIntVers(): void {
 
         $obj = new Etablissements2();
 
@@ -250,7 +250,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteChargePartVers() {
+    public function testSetCompteChargePartVers(): void {
 
         $obj = new Etablissements2();
 
@@ -263,7 +263,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContactSignatureDnae() {
+    public function testSetContactSignatureDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -277,7 +277,7 @@ class Etablissements2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinExclureLfr2012() {
+    public function testSetDateFinExclureLfr2012(): void {
 
         // Set a Date/time mock.
         $dateFinExclureLfr2012 = new DateTime("2018-09-10");
@@ -293,7 +293,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLfr2012() {
+    public function testSetExclureLfr2012(): void {
 
         $obj = new Etablissements2();
 
@@ -306,7 +306,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionHstepa() {
+    public function testSetGestionHstepa(): void {
 
         $obj = new Etablissements2();
 
@@ -319,7 +319,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionMaintienSalAuto() {
+    public function testSetGestionMaintienSalAuto(): void {
 
         $obj = new Etablissements2();
 
@@ -332,7 +332,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban2() {
+    public function testSetIban2(): void {
 
         $obj = new Etablissements2();
 
@@ -345,7 +345,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban3() {
+    public function testSetIban3(): void {
 
         $obj = new Etablissements2();
 
@@ -358,7 +358,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIbanIdClient2() {
+    public function testSetIbanIdClient2(): void {
 
         $obj = new Etablissements2();
 
@@ -371,7 +371,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIbanIdClient3() {
+    public function testSetIbanIdClient3(): void {
 
         $obj = new Etablissements2();
 
@@ -384,7 +384,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImplantationEntreprise() {
+    public function testSetImplantationEntreprise(): void {
 
         $obj = new Etablissements2();
 
@@ -397,7 +397,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJfChargeEmp() {
+    public function testSetJfChargeEmp(): void {
 
         $obj = new Etablissements2();
 
@@ -410,7 +410,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuSignatureDnae() {
+    public function testSetLieuSignatureDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -423,7 +423,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaintienNetDeducCsgijss() {
+    public function testSetMaintienNetDeducCsgijss(): void {
 
         $obj = new Etablissements2();
 
@@ -436,7 +436,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbFractionEtab() {
+    public function testSetNbFractionEtab(): void {
 
         $obj = new Etablissements2();
 
@@ -449,7 +449,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSignataireDnae() {
+    public function testSetNomSignataireDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -462,7 +462,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenomSignataireDnae() {
+    public function testSetPrenomSignataireDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -475,7 +475,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPseudoSiret() {
+    public function testSetPseudoSiret(): void {
 
         $obj = new Etablissements2();
 
@@ -488,7 +488,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualiteSignataireDnae() {
+    public function testSetQualiteSignataireDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -501,7 +501,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReductionMayotte() {
+    public function testSetReductionMayotte(): void {
 
         $obj = new Etablissements2();
 
@@ -514,7 +514,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemunerationExpatries() {
+    public function testSetRemunerationExpatries(): void {
 
         $obj = new Etablissements2();
 
@@ -527,7 +527,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiretCentralisateur() {
+    public function testSetSiretCentralisateur(): void {
 
         $obj = new Etablissements2();
 
@@ -540,7 +540,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicMCourant() {
+    public function testSetSmicMCourant(): void {
 
         $obj = new Etablissements2();
 
@@ -553,7 +553,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSocieteInterim() {
+    public function testSetSocieteInterim(): void {
 
         $obj = new Etablissements2();
 
@@ -566,7 +566,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxComplHeure() {
+    public function testSetTauxComplHeure(): void {
 
         $obj = new Etablissements2();
 
@@ -579,7 +579,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxCotisOssEtOpe() {
+    public function testSetTauxCotisOssEtOpe(): void {
 
         $obj = new Etablissements2();
 
@@ -592,7 +592,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxHComp() {
+    public function testSetTauxHComp(): void {
 
         $obj = new Etablissements2();
 
@@ -605,7 +605,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds19() {
+    public function testSetTds19(): void {
 
         $obj = new Etablissements2();
 
@@ -618,7 +618,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelSignatureDnae() {
+    public function testSetTelSignatureDnae(): void {
 
         $obj = new Etablissements2();
 
@@ -631,7 +631,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTepaMoins20() {
+    public function testSetTepaMoins20(): void {
 
         $obj = new Etablissements2();
 
@@ -644,7 +644,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeEffectifCt() {
+    public function testSetTypeEffectifCt(): void {
 
         $obj = new Etablissements2();
 
@@ -657,7 +657,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMaintienBrutNet() {
+    public function testSetTypeMaintienBrutNet(): void {
 
         $obj = new Etablissements2();
 
@@ -670,7 +670,7 @@ class Etablissements2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Etablissements2();
 

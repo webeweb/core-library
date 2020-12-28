@@ -29,7 +29,7 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersPeriodesFermeture();
 
@@ -42,7 +42,7 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersPeriodesFermeture();
 
@@ -55,7 +55,7 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersPeriodesFermeture();
 
@@ -69,7 +69,7 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAu() {
+    public function testSetDateAu(): void {
 
         // Set a Date/time mock.
         $dateAu = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDu() {
+    public function testSetDateDu(): void {
 
         // Set a Date/time mock.
         $dateDu = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class ChantiersPeriodesFermetureTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersPeriodesFermeture();
 

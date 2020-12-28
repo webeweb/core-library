@@ -22,65 +22,66 @@ class ChapitresDocuments {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Nom repertoire.
      *
-     * @var string
+     * @var string|null
      */
     private $nomRepertoire;
 
     /**
      * Position.
      *
-     * @var int
+     * @var int|null
      */
     private $position;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the nom repertoire.
      *
-     * @return string Returns the nom repertoire.
+     * @return string|null Returns the nom repertoire.
      */
-    public function getNomRepertoire() {
+    public function getNomRepertoire(): ?string{
         return $this->nomRepertoire;
     }
 
     /**
      * Get the position.
      *
-     * @return int Returns the position.
+     * @return int|null Returns the position.
      */
-    public function getPosition() {
+    public function getPosition(): ?int{
         return $this->position;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return ChapitresDocuments Returns this Chapitres documents.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): ChapitresDocuments {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +89,10 @@ class ChapitresDocuments {
     /**
      * Set the nom repertoire.
      *
-     * @param string $nomRepertoire The nom repertoire.
+     * @param string|null $nomRepertoire The nom repertoire.
      * @return ChapitresDocuments Returns this Chapitres documents.
      */
-    public function setNomRepertoire($nomRepertoire) {
+    public function setNomRepertoire(?string $nomRepertoire): ChapitresDocuments {
         $this->nomRepertoire = $nomRepertoire;
         return $this;
     }
@@ -99,10 +100,10 @@ class ChapitresDocuments {
     /**
      * Set the position.
      *
-     * @param int $position The position.
+     * @param int|null $position The position.
      * @return ChapitresDocuments Returns this Chapitres documents.
      */
-    public function setPosition($position) {
+    public function setPosition(?int $position): ChapitresDocuments {
         $this->position = $position;
         return $this;
     }

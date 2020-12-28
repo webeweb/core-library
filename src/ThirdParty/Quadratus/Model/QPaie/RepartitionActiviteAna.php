@@ -22,81 +22,82 @@ class RepartitionActiviteAna {
     /**
      * Centre.
      *
-     * @var string
+     * @var string|null
      */
     private $centre;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Taux ventilation.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxVentilation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the centre.
      *
-     * @return string Returns the centre.
+     * @return string|null Returns the centre.
      */
-    public function getCentre() {
+    public function getCentre(): ?string{
         return $this->centre;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the taux ventilation.
      *
-     * @return float Returns the taux ventilation.
+     * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation() {
+    public function getTauxVentilation(): ?float{
         return $this->tauxVentilation;
     }
 
     /**
      * Set the centre.
      *
-     * @param string $centre The centre.
+     * @param string|null $centre The centre.
      * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
-    public function setCentre($centre) {
+    public function setCentre(?string $centre): RepartitionActiviteAna {
         $this->centre = $centre;
         return $this;
     }
@@ -104,10 +105,10 @@ class RepartitionActiviteAna {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): RepartitionActiviteAna {
         $this->nature = $nature;
         return $this;
     }
@@ -115,10 +116,10 @@ class RepartitionActiviteAna {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): RepartitionActiviteAna {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -126,10 +127,10 @@ class RepartitionActiviteAna {
     /**
      * Set the taux ventilation.
      *
-     * @param float $tauxVentilation The taux ventilation.
+     * @param float|null $tauxVentilation The taux ventilation.
      * @return RepartitionActiviteAna Returns this Repartition activite ana.
      */
-    public function setTauxVentilation($tauxVentilation) {
+    public function setTauxVentilation(?float $tauxVentilation): RepartitionActiviteAna {
         $this->tauxVentilation = $tauxVentilation;
         return $this;
     }

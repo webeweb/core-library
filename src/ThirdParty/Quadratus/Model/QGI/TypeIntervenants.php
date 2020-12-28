@@ -22,113 +22,114 @@ class TypeIntervenants {
     /**
      * Acces libre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accesLibre;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Increment auto.
      *
-     * @var bool
+     * @var bool|null
      */
     private $incrementAuto;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Prefixe.
      *
-     * @var string
+     * @var string|null
      */
     private $prefixe;
 
     /**
      * Prochain numero.
      *
-     * @var int
+     * @var int|null
      */
     private $prochainNumero;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the acces libre.
      *
-     * @return bool Returns the acces libre.
+     * @return bool|null Returns the acces libre.
      */
-    public function getAccesLibre() {
+    public function getAccesLibre(): ?bool{
         return $this->accesLibre;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the increment auto.
      *
-     * @return bool Returns the increment auto.
+     * @return bool|null Returns the increment auto.
      */
-    public function getIncrementAuto() {
+    public function getIncrementAuto(): ?bool{
         return $this->incrementAuto;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the prefixe.
      *
-     * @return string Returns the prefixe.
+     * @return string|null Returns the prefixe.
      */
-    public function getPrefixe() {
+    public function getPrefixe(): ?string{
         return $this->prefixe;
     }
 
     /**
      * Get the prochain numero.
      *
-     * @return int Returns the prochain numero.
+     * @return int|null Returns the prochain numero.
      */
-    public function getProchainNumero() {
+    public function getProchainNumero(): ?int{
         return $this->prochainNumero;
     }
 
     /**
      * Set the acces libre.
      *
-     * @param bool $accesLibre The acces libre.
+     * @param bool|null $accesLibre The acces libre.
      * @return TypeIntervenants Returns this Type intervenants.
      */
-    public function setAccesLibre($accesLibre) {
+    public function setAccesLibre(?bool $accesLibre): TypeIntervenants {
         $this->accesLibre = $accesLibre;
         return $this;
     }
@@ -136,10 +137,10 @@ class TypeIntervenants {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return TypeIntervenants Returns this Type intervenants.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): TypeIntervenants {
         $this->code = $code;
         return $this;
     }
@@ -147,10 +148,10 @@ class TypeIntervenants {
     /**
      * Set the increment auto.
      *
-     * @param bool $incrementAuto The increment auto.
+     * @param bool|null $incrementAuto The increment auto.
      * @return TypeIntervenants Returns this Type intervenants.
      */
-    public function setIncrementAuto($incrementAuto) {
+    public function setIncrementAuto(?bool $incrementAuto): TypeIntervenants {
         $this->incrementAuto = $incrementAuto;
         return $this;
     }
@@ -158,10 +159,10 @@ class TypeIntervenants {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TypeIntervenants Returns this Type intervenants.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TypeIntervenants {
         $this->libelle = $libelle;
         return $this;
     }
@@ -169,10 +170,10 @@ class TypeIntervenants {
     /**
      * Set the prefixe.
      *
-     * @param string $prefixe The prefixe.
+     * @param string|null $prefixe The prefixe.
      * @return TypeIntervenants Returns this Type intervenants.
      */
-    public function setPrefixe($prefixe) {
+    public function setPrefixe(?string $prefixe): TypeIntervenants {
         $this->prefixe = $prefixe;
         return $this;
     }
@@ -180,10 +181,10 @@ class TypeIntervenants {
     /**
      * Set the prochain numero.
      *
-     * @param int $prochainNumero The prochain numero.
+     * @param int|null $prochainNumero The prochain numero.
      * @return TypeIntervenants Returns this Type intervenants.
      */
-    public function setProchainNumero($prochainNumero) {
+    public function setProchainNumero(?int $prochainNumero): TypeIntervenants {
         $this->prochainNumero = $prochainNumero;
         return $this;
     }

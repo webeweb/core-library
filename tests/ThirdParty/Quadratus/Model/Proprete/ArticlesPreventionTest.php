@@ -27,7 +27,7 @@ class ArticlesPreventionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticlesPrevention();
 
@@ -40,7 +40,7 @@ class ArticlesPreventionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrev() {
+    public function testSetCodePrev(): void {
 
         $obj = new ArticlesPrevention();
 
@@ -53,7 +53,7 @@ class ArticlesPreventionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticlesPrevention();
 

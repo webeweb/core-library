@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Entity;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Model;
 
 use DateTime;
 use Exception;
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\StartRecordFormat;
  * Start record format test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Entity
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Model
  */
 class StartRecordFormatTest extends AbstractTestCase {
 
@@ -29,7 +29,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCurrency() {
+    public function testSetCurrency(): void {
 
         $obj = new StartRecordFormat();
 
@@ -43,7 +43,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFile() {
+    public function testSetDateFile(): void {
 
         $obj = new StartRecordFormat();
 
@@ -56,7 +56,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFacilityNumber() {
+    public function testSetFacilityNumber(): void {
 
         $obj = new StartRecordFormat();
 
@@ -69,7 +69,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumberRecords() {
+    public function testSetNumberRecords(): void {
 
         $obj = new StartRecordFormat();
 
@@ -82,7 +82,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVersionRecordStructure() {
+    public function testSetVersionRecordStructure(): void {
 
         $obj = new StartRecordFormat();
 
@@ -95,7 +95,7 @@ class StartRecordFormatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new StartRecordFormat();
 

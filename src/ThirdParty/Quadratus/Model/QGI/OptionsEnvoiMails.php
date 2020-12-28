@@ -22,81 +22,82 @@ class OptionsEnvoiMails {
     /**
      * Avec entete.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avecEntete;
 
     /**
      * Avec pied.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avecPied;
 
     /**
      * Code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollab;
 
     /**
      * Code module.
      *
-     * @var string
+     * @var string|null
      */
     private $codeModule;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the avec entete.
      *
-     * @return bool Returns the avec entete.
+     * @return bool|null Returns the avec entete.
      */
-    public function getAvecEntete() {
+    public function getAvecEntete(): ?bool{
         return $this->avecEntete;
     }
 
     /**
      * Get the avec pied.
      *
-     * @return bool Returns the avec pied.
+     * @return bool|null Returns the avec pied.
      */
-    public function getAvecPied() {
+    public function getAvecPied(): ?bool{
         return $this->avecPied;
     }
 
     /**
      * Get the code collab.
      *
-     * @return string Returns the code collab.
+     * @return string|null Returns the code collab.
      */
-    public function getCodeCollab() {
+    public function getCodeCollab(): ?string{
         return $this->codeCollab;
     }
 
     /**
      * Get the code module.
      *
-     * @return string Returns the code module.
+     * @return string|null Returns the code module.
      */
-    public function getCodeModule() {
+    public function getCodeModule(): ?string{
         return $this->codeModule;
     }
 
     /**
      * Set the avec entete.
      *
-     * @param bool $avecEntete The avec entete.
+     * @param bool|null $avecEntete The avec entete.
      * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
-    public function setAvecEntete($avecEntete) {
+    public function setAvecEntete(?bool $avecEntete): OptionsEnvoiMails {
         $this->avecEntete = $avecEntete;
         return $this;
     }
@@ -104,10 +105,10 @@ class OptionsEnvoiMails {
     /**
      * Set the avec pied.
      *
-     * @param bool $avecPied The avec pied.
+     * @param bool|null $avecPied The avec pied.
      * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
-    public function setAvecPied($avecPied) {
+    public function setAvecPied(?bool $avecPied): OptionsEnvoiMails {
         $this->avecPied = $avecPied;
         return $this;
     }
@@ -115,10 +116,10 @@ class OptionsEnvoiMails {
     /**
      * Set the code collab.
      *
-     * @param string $codeCollab The code collab.
+     * @param string|null $codeCollab The code collab.
      * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
-    public function setCodeCollab($codeCollab) {
+    public function setCodeCollab(?string $codeCollab): OptionsEnvoiMails {
         $this->codeCollab = $codeCollab;
         return $this;
     }
@@ -126,10 +127,10 @@ class OptionsEnvoiMails {
     /**
      * Set the code module.
      *
-     * @param string $codeModule The code module.
+     * @param string|null $codeModule The code module.
      * @return OptionsEnvoiMails Returns this Options envoi mails.
      */
-    public function setCodeModule($codeModule) {
+    public function setCodeModule(?string $codeModule): OptionsEnvoiMails {
         $this->codeModule = $codeModule;
         return $this;
     }

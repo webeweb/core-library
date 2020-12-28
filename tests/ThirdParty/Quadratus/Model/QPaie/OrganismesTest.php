@@ -27,7 +27,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentrePayeur() {
+    public function testSetCentrePayeur(): void {
 
         $obj = new Organismes();
 
@@ -40,7 +40,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCatCadre() {
+    public function testSetCodeCatCadre(): void {
 
         $obj = new Organismes();
 
@@ -53,7 +53,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new Organismes();
 
@@ -66,7 +66,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new Organismes();
 
@@ -79,7 +79,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNonCadre() {
+    public function testSetCodeNonCadre(): void {
 
         $obj = new Organismes();
 
@@ -92,7 +92,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new Organismes();
 
@@ -105,7 +105,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteCharge() {
+    public function testSetCompteCharge(): void {
 
         $obj = new Organismes();
 
@@ -118,7 +118,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTiers() {
+    public function testSetCompteTiers(): void {
 
         $obj = new Organismes();
 
@@ -131,7 +131,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotAssedicParUrssaf() {
+    public function testSetCotAssedicParUrssaf(): void {
 
         $obj = new Organismes();
 
@@ -144,7 +144,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotitel() {
+    public function testSetCotitel(): void {
 
         $obj = new Organismes();
 
@@ -157,7 +157,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossCadre() {
+    public function testSetDossCadre(): void {
 
         $obj = new Organismes();
 
@@ -170,7 +170,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossNonCadre() {
+    public function testSetDossNonCadre(): void {
 
         $obj = new Organismes();
 
@@ -183,7 +183,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionDucs() {
+    public function testSetEditionDucs(): void {
 
         $obj = new Organismes();
 
@@ -196,7 +196,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPaieDecaleeOc() {
+    public function testSetGestionPaieDecaleeOc(): void {
 
         $obj = new Organismes();
 
@@ -209,7 +209,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeInterne() {
+    public function testSetGroupeInterne(): void {
 
         $obj = new Organismes();
 
@@ -222,7 +222,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdIntervenant() {
+    public function testSetIdIntervenant(): void {
 
         $obj = new Organismes();
 
@@ -235,7 +235,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourExigible() {
+    public function testSetJourExigible(): void {
 
         $obj = new Organismes();
 
@@ -248,7 +248,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourLimiteDepot() {
+    public function testSetJourLimiteDepot(): void {
 
         $obj = new Organismes();
 
@@ -261,7 +261,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourReglement() {
+    public function testSetJourReglement(): void {
 
         $obj = new Organismes();
 
@@ -274,7 +274,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensTrim() {
+    public function testSetMensTrim(): void {
 
         $obj = new Organismes();
 
@@ -287,7 +287,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoAffiliation() {
+    public function testSetNoAffiliation(): void {
 
         $obj = new Organismes();
 
@@ -300,7 +300,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOptiqueDucs() {
+    public function testSetOptiqueDucs(): void {
 
         $obj = new Organismes();
 
@@ -313,7 +313,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementEdiVlu() {
+    public function testSetPaiementEdiVlu(): void {
 
         $obj = new Organismes();
 
@@ -326,7 +326,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasTraiterEdi() {
+    public function testSetPasTraiterEdi(): void {
 
         $obj = new Organismes();
 
@@ -339,7 +339,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Organismes();
 
@@ -352,7 +352,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelepaiement() {
+    public function testSetTelepaiement(): void {
 
         $obj = new Organismes();
 
@@ -365,7 +365,7 @@ class OrganismesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Organismes();
 

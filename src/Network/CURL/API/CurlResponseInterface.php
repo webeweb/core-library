@@ -22,42 +22,42 @@ interface CurlResponseInterface {
     /**
      * Get the request body.
      *
-     * @return string Returns the request body.
+     * @return string|null Returns the request body.
      */
-    public function getRequestBody();
+    public function getRequestBody(): ?string;
 
     /**
      * Get the request header.
      *
      * @return array Returns the request header.
      */
-    public function getRequestHeader();
+    public function getRequestHeader(): array;
 
     /**
      * Get the request URL.
      *
      * @return string Returns the request URL.
      */
-    public function getRequestUrl();
+    public function getRequestUrl(): ?string;
 
     /**
      * Get the response body.
      *
      * @return string The response body.
      */
-    public function getResponseBody();
+    public function getResponseBody(): ?string;
 
     /**
      * Get the response header.
      *
      * @return array Returns the response header.
      */
-    public function getResponseHeader();
+    public function getResponseHeader(): array;
 
     /**
      * Get the response info.
      *
      * @return array Returns the response info.
      */
-    public function getResponseInfo();
+    public function getResponseInfo(): array;
 }

@@ -22,70 +22,70 @@ class Produits {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Compteur.
      *
-     * @var int
+     * @var int|null
      */
     private $compteur;
 
     /**
      * Cpt maj.
      *
-     * @var int
+     * @var int|null
      */
     private $cptMaj;
 
     /**
      * Dernier numero.
      *
-     * @var int
+     * @var int|null
      */
     private $dernierNumero;
 
     /**
      * Fichier licence.
      *
-     * @var string
+     * @var string|null
      */
     private $fichierLicence;
 
     /**
      * Gamme windows.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gammeWindows;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Lettre licence.
      *
-     * @var string
+     * @var string|null
      */
     private $lettreLicence;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Nom prod licence.
      *
-     * @var string
+     * @var string|null
      */
     private $nomProdLicence;
 
@@ -93,106 +93,106 @@ class Produits {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the compteur.
      *
-     * @return int Returns the compteur.
+     * @return int|null Returns the compteur.
      */
-    public function getCompteur() {
+    public function getCompteur(): ?int {
         return $this->compteur;
     }
 
     /**
      * Get the cpt maj.
      *
-     * @return int Returns the cpt maj.
+     * @return int|null Returns the cpt maj.
      */
-    public function getCptMaj() {
+    public function getCptMaj(): ?int {
         return $this->cptMaj;
     }
 
     /**
      * Get the dernier numero.
      *
-     * @return int Returns the dernier numero.
+     * @return int|null Returns the dernier numero.
      */
-    public function getDernierNumero() {
+    public function getDernierNumero(): ?int {
         return $this->dernierNumero;
     }
 
     /**
      * Get the fichier licence.
      *
-     * @return string Returns the fichier licence.
+     * @return string|null Returns the fichier licence.
      */
-    public function getFichierLicence() {
+    public function getFichierLicence(): ?string {
         return $this->fichierLicence;
     }
 
     /**
      * Get the gamme windows.
      *
-     * @return bool Returns the gamme windows.
+     * @return bool|null Returns the gamme windows.
      */
-    public function getGammeWindows() {
+    public function getGammeWindows(): ?bool {
         return $this->gammeWindows;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
     /**
      * Get the lettre licence.
      *
-     * @return string Returns the lettre licence.
+     * @return string|null Returns the lettre licence.
      */
-    public function getLettreLicence() {
+    public function getLettreLicence(): ?string {
         return $this->lettreLicence;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string {
         return $this->nom;
     }
 
     /**
      * Get the nom prod licence.
      *
-     * @return string Returns the nom prod licence.
+     * @return string|null Returns the nom prod licence.
      */
-    public function getNomProdLicence() {
+    public function getNomProdLicence(): ?string {
         return $this->nomProdLicence;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Produits Returns this Produits.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Produits {
         $this->code = $code;
         return $this;
     }
@@ -200,10 +200,10 @@ class Produits {
     /**
      * Set the compteur.
      *
-     * @param int $compteur The compteur.
+     * @param int|null $compteur The compteur.
      * @return Produits Returns this Produits.
      */
-    public function setCompteur($compteur) {
+    public function setCompteur(?int $compteur): Produits {
         $this->compteur = $compteur;
         return $this;
     }
@@ -211,10 +211,10 @@ class Produits {
     /**
      * Set the cpt maj.
      *
-     * @param int $cptMaj The cpt maj.
+     * @param int|null $cptMaj The cpt maj.
      * @return Produits Returns this Produits.
      */
-    public function setCptMaj($cptMaj) {
+    public function setCptMaj(?int $cptMaj): Produits {
         $this->cptMaj = $cptMaj;
         return $this;
     }
@@ -222,10 +222,10 @@ class Produits {
     /**
      * Set the dernier numero.
      *
-     * @param int $dernierNumero The dernier numero.
+     * @param int|null $dernierNumero The dernier numero.
      * @return Produits Returns this Produits.
      */
-    public function setDernierNumero($dernierNumero) {
+    public function setDernierNumero(?int $dernierNumero): Produits {
         $this->dernierNumero = $dernierNumero;
         return $this;
     }
@@ -233,10 +233,10 @@ class Produits {
     /**
      * Set the fichier licence.
      *
-     * @param string $fichierLicence The fichier licence.
+     * @param string|null $fichierLicence The fichier licence.
      * @return Produits Returns this Produits.
      */
-    public function setFichierLicence($fichierLicence) {
+    public function setFichierLicence(?string $fichierLicence): Produits {
         $this->fichierLicence = $fichierLicence;
         return $this;
     }
@@ -244,10 +244,10 @@ class Produits {
     /**
      * Set the gamme windows.
      *
-     * @param bool $gammeWindows The gamme windows.
+     * @param bool|null $gammeWindows The gamme windows.
      * @return Produits Returns this Produits.
      */
-    public function setGammeWindows($gammeWindows) {
+    public function setGammeWindows(?bool $gammeWindows): Produits {
         $this->gammeWindows = $gammeWindows;
         return $this;
     }
@@ -255,10 +255,10 @@ class Produits {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return Produits Returns this Produits.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): Produits {
         $this->intitule = $intitule;
         return $this;
     }
@@ -266,10 +266,10 @@ class Produits {
     /**
      * Set the lettre licence.
      *
-     * @param string $lettreLicence The lettre licence.
+     * @param string|null $lettreLicence The lettre licence.
      * @return Produits Returns this Produits.
      */
-    public function setLettreLicence($lettreLicence) {
+    public function setLettreLicence(?string $lettreLicence): Produits {
         $this->lettreLicence = $lettreLicence;
         return $this;
     }
@@ -277,10 +277,10 @@ class Produits {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return Produits Returns this Produits.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): Produits {
         $this->nom = $nom;
         return $this;
     }
@@ -288,10 +288,10 @@ class Produits {
     /**
      * Set the nom prod licence.
      *
-     * @param string $nomProdLicence The nom prod licence.
+     * @param string|null $nomProdLicence The nom prod licence.
      * @return Produits Returns this Produits.
      */
-    public function setNomProdLicence($nomProdLicence) {
+    public function setNomProdLicence(?string $nomProdLicence): Produits {
         $this->nomProdLicence = $nomProdLicence;
         return $this;
     }

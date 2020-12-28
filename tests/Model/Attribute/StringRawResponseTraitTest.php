@@ -27,7 +27,7 @@ class StringRawResponseTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRawResponse() {
+    public function testSetRawResponse(): void {
 
         $obj = new TestStringRawResponseTrait();
 
@@ -40,7 +40,7 @@ class StringRawResponseTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringRawResponseTrait();
 

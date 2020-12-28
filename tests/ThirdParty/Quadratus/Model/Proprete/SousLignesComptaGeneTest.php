@@ -27,7 +27,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -40,7 +40,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -53,7 +53,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -66,7 +66,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -79,7 +79,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleCompte() {
+    public function testSetIntituleCompte(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -92,7 +92,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -105,7 +105,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -118,7 +118,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDocument() {
+    public function testSetNumeroDocument(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -131,7 +131,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -144,7 +144,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroSousLigne() {
+    public function testSetNumeroSousLigne(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -157,7 +157,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDocument() {
+    public function testSetTypeDocument(): void {
 
         $obj = new SousLignesComptaGene();
 
@@ -170,7 +170,7 @@ class SousLignesComptaGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SousLignesComptaGene();
 

@@ -24,7 +24,7 @@ class CurlResponse implements CurlResponseInterface {
     /**
      * Request body.
      *
-     * @var string
+     * @var string|null
      */
     private $requestBody;
 
@@ -38,14 +38,14 @@ class CurlResponse implements CurlResponseInterface {
     /**
      * Request URL.
      *
-     * @var string
+     * @var string|null
      */
     private $requestUrl;
 
     /**
      * Response body.
      *
-     * @var string
+     * @var string|null
      */
     private $responseBody;
 
@@ -73,54 +73,54 @@ class CurlResponse implements CurlResponseInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getRequestBody() {
+    public function getRequestBody(): ?string {
         return $this->requestBody;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getRequestHeader() {
+    public function getRequestHeader(): array {
         return $this->requestHeader;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getRequestUrl() {
+    public function getRequestUrl(): ?string {
         return $this->requestUrl;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getResponseBody() {
+    public function getResponseBody(): ?string {
         return $this->responseBody;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getResponseHeader() {
+    public function getResponseHeader(): array {
         return $this->responseHeader;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getResponseInfo() {
+    public function getResponseInfo(): array {
         return $this->responseInfo;
     }
 
     /**
      * Set the request body.
      *
-     * @param string $requestBody The request body.
+     * @param string|null $requestBody The request body.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setRequestBody($requestBody) {
+    public function setRequestBody(?string $requestBody): CurlResponse {
         $this->requestBody = $requestBody;
         return $this;
     }
@@ -131,7 +131,7 @@ class CurlResponse implements CurlResponseInterface {
      * @param array $requestHeader The request header.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setRequestHeader(array $requestHeader) {
+    public function setRequestHeader(array $requestHeader): CurlResponse {
         $this->requestHeader = $requestHeader;
         return $this;
     }
@@ -142,7 +142,7 @@ class CurlResponse implements CurlResponseInterface {
      * @param string $requestUrl The request URL.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setRequestUrl($requestUrl) {
+    public function setRequestUrl($requestUrl): CurlResponse {
         $this->requestUrl = $requestUrl;
         return $this;
     }
@@ -150,10 +150,10 @@ class CurlResponse implements CurlResponseInterface {
     /**
      * Set the response body.
      *
-     * @param string $responseBody The response body.
+     * @param string|null $responseBody The response body.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setResponseBody($responseBody) {
+    public function setResponseBody(?string $responseBody): CurlResponse {
         $this->responseBody = $responseBody;
         return $this;
     }
@@ -164,7 +164,7 @@ class CurlResponse implements CurlResponseInterface {
      * @param array $responseHeader The response header.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setResponseHeader(array $responseHeader) {
+    public function setResponseHeader(array $responseHeader): CurlResponse {
         $this->responseHeader = $responseHeader;
         return $this;
     }
@@ -175,7 +175,7 @@ class CurlResponse implements CurlResponseInterface {
      * @param array $responseInfo The response info.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setResponseInfo(array $responseInfo) {
+    public function setResponseInfo(array $responseInfo): CurlResponse {
         $this->responseInfo = $responseInfo;
         return $this;
     }

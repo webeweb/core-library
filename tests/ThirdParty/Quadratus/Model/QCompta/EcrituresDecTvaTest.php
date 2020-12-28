@@ -29,7 +29,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -43,7 +43,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDecTva() {
+    public function testSetDateDecTva(): void {
 
         // Set a Date/time mock.
         $dateDecTva = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourEcriture() {
+    public function testSetJourEcriture(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -72,7 +72,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -85,7 +85,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHt() {
+    public function testSetMontantHt(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -98,7 +98,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -111,7 +111,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -125,7 +125,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcriture() {
+    public function testSetPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $periodeEcriture = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCdi() {
+    public function testSetTypeCdi(): void {
 
         $obj = new EcrituresDecTva();
 
@@ -154,7 +154,7 @@ class EcrituresDecTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EcrituresDecTva();
 

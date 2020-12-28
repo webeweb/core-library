@@ -29,7 +29,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAs4284Base() {
+    public function testSetAs4284Base(): void {
 
         $obj = new DecTva2();
 
@@ -42,7 +42,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz3510Base() {
+    public function testSetAz3510Base(): void {
 
         $obj = new DecTva2();
 
@@ -55,7 +55,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz3520Base() {
+    public function testSetAz3520Base(): void {
 
         $obj = new DecTva2();
 
@@ -68,7 +68,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4204Nb() {
+    public function testSetAz4204Nb(): void {
 
         $obj = new DecTva2();
 
@@ -81,7 +81,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4206Nb() {
+    public function testSetAz4206Nb(): void {
 
         $obj = new DecTva2();
 
@@ -94,7 +94,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4207NbK() {
+    public function testSetAz4207NbK(): void {
 
         $obj = new DecTva2();
 
@@ -107,7 +107,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4213Base() {
+    public function testSetAz4213Base(): void {
 
         $obj = new DecTva2();
 
@@ -120,7 +120,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4215Base() {
+    public function testSetAz4215Base(): void {
 
         $obj = new DecTva2();
 
@@ -133,7 +133,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4217Base() {
+    public function testSetAz4217Base(): void {
 
         $obj = new DecTva2();
 
@@ -146,7 +146,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4223Base() {
+    public function testSetAz4223Base(): void {
 
         $obj = new DecTva2();
 
@@ -159,7 +159,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4226Base() {
+    public function testSetAz4226Base(): void {
 
         $obj = new DecTva2();
 
@@ -172,7 +172,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4228Base() {
+    public function testSetAz4228Base(): void {
 
         $obj = new DecTva2();
 
@@ -185,7 +185,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4229Base() {
+    public function testSetAz4229Base(): void {
 
         $obj = new DecTva2();
 
@@ -198,7 +198,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4237Base() {
+    public function testSetAz4237Base(): void {
 
         $obj = new DecTva2();
 
@@ -211,7 +211,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4240Base() {
+    public function testSetAz4240Base(): void {
 
         $obj = new DecTva2();
 
@@ -224,7 +224,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4245Base() {
+    public function testSetAz4245Base(): void {
 
         $obj = new DecTva2();
 
@@ -237,7 +237,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4249NbT() {
+    public function testSetAz4249NbT(): void {
 
         $obj = new DecTva2();
 
@@ -250,7 +250,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4250NbE() {
+    public function testSetAz4250NbE(): void {
 
         $obj = new DecTva2();
 
@@ -263,7 +263,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4252Base() {
+    public function testSetAz4252Base(): void {
 
         $obj = new DecTva2();
 
@@ -276,7 +276,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4255Base() {
+    public function testSetAz4255Base(): void {
 
         $obj = new DecTva2();
 
@@ -289,7 +289,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4257Base() {
+    public function testSetAz4257Base(): void {
 
         $obj = new DecTva2();
 
@@ -302,7 +302,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4258Base() {
+    public function testSetAz4258Base(): void {
 
         $obj = new DecTva2();
 
@@ -315,7 +315,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4268Base2() {
+    public function testSetAz4268Base2(): void {
 
         $obj = new DecTva2();
 
@@ -328,7 +328,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4270Base2() {
+    public function testSetAz4270Base2(): void {
 
         $obj = new DecTva2();
 
@@ -341,7 +341,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4278() {
+    public function testSetAz4278(): void {
 
         $obj = new DecTva2();
 
@@ -354,7 +354,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4278Base() {
+    public function testSetAz4278Base(): void {
 
         $obj = new DecTva2();
 
@@ -367,7 +367,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4279() {
+    public function testSetAz4279(): void {
 
         $obj = new DecTva2();
 
@@ -380,7 +380,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4279NbK() {
+    public function testSetAz4279NbK(): void {
 
         $obj = new DecTva2();
 
@@ -393,7 +393,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4279NbV() {
+    public function testSetAz4279NbV(): void {
 
         $obj = new DecTva2();
 
@@ -406,7 +406,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4280() {
+    public function testSetAz4280(): void {
 
         $obj = new DecTva2();
 
@@ -419,7 +419,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4280NbK() {
+    public function testSetAz4280NbK(): void {
 
         $obj = new DecTva2();
 
@@ -432,7 +432,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4280NbV() {
+    public function testSetAz4280NbV(): void {
 
         $obj = new DecTva2();
 
@@ -445,7 +445,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4281() {
+    public function testSetAz4281(): void {
 
         $obj = new DecTva2();
 
@@ -458,7 +458,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4281Base() {
+    public function testSetAz4281Base(): void {
 
         $obj = new DecTva2();
 
@@ -471,7 +471,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4282() {
+    public function testSetAz4282(): void {
 
         $obj = new DecTva2();
 
@@ -484,7 +484,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4282Base() {
+    public function testSetAz4282Base(): void {
 
         $obj = new DecTva2();
 
@@ -497,7 +497,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4283() {
+    public function testSetAz4283(): void {
 
         $obj = new DecTva2();
 
@@ -510,7 +510,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4283Base() {
+    public function testSetAz4283Base(): void {
 
         $obj = new DecTva2();
 
@@ -523,7 +523,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4284() {
+    public function testSetAz4284(): void {
 
         $obj = new DecTva2();
 
@@ -536,7 +536,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4285() {
+    public function testSetAz4285(): void {
 
         $obj = new DecTva2();
 
@@ -549,7 +549,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4285Base() {
+    public function testSetAz4285Base(): void {
 
         $obj = new DecTva2();
 
@@ -562,7 +562,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4288() {
+    public function testSetAz4288(): void {
 
         $obj = new DecTva2();
 
@@ -575,7 +575,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4288Base() {
+    public function testSetAz4288Base(): void {
 
         $obj = new DecTva2();
 
@@ -588,7 +588,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4289() {
+    public function testSetAz4289(): void {
 
         $obj = new DecTva2();
 
@@ -601,7 +601,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4289Base() {
+    public function testSetAz4289Base(): void {
 
         $obj = new DecTva2();
 
@@ -614,7 +614,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4290() {
+    public function testSetAz4290(): void {
 
         $obj = new DecTva2();
 
@@ -627,7 +627,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAz4290Base() {
+    public function testSetAz4290Base(): void {
 
         $obj = new DecTva2();
 
@@ -641,7 +641,7 @@ class DecTva2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -657,7 +657,7 @@ class DecTva2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DecTva2();
 

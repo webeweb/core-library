@@ -30,7 +30,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -63,7 +63,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new LignesBulletinCompl();
 
@@ -76,7 +76,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigneBulletin() {
+    public function testSetNumLigneBulletin(): void {
 
         $obj = new LignesBulletinCompl();
 
@@ -89,7 +89,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new LignesBulletinCompl();
 
@@ -103,7 +103,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -119,7 +119,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new LignesBulletinCompl();
 
@@ -132,7 +132,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRegul() {
+    public function testSetTypeRegul(): void {
 
         $obj = new LignesBulletinCompl();
 
@@ -145,7 +145,7 @@ class LignesBulletinComplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesBulletinCompl();
 

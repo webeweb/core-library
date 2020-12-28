@@ -24,14 +24,14 @@ class HAbsPrepaPaie {
     /**
      * Nb h non effectue.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHNonEffectue;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -45,39 +45,40 @@ class HAbsPrepaPaie {
     /**
      * Semaine.
      *
-     * @var string
+     * @var string|null
      */
     private $semaine;
 
     /**
      * Type absence.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAbsence;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the nb h non effectue.
      *
-     * @return float Returns the nb h non effectue.
+     * @return float|null Returns the nb h non effectue.
      */
-    public function getNbHNonEffectue() {
+    public function getNbHNonEffectue(): ?float{
         return $this->nbHNonEffectue;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -86,35 +87,35 @@ class HAbsPrepaPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the semaine.
      *
-     * @return string Returns the semaine.
+     * @return string|null Returns the semaine.
      */
-    public function getSemaine() {
+    public function getSemaine(): ?string{
         return $this->semaine;
     }
 
     /**
      * Get the type absence.
      *
-     * @return string Returns the type absence.
+     * @return string|null Returns the type absence.
      */
-    public function getTypeAbsence() {
+    public function getTypeAbsence(): ?string{
         return $this->typeAbsence;
     }
 
     /**
      * Set the nb h non effectue.
      *
-     * @param float $nbHNonEffectue The nb h non effectue.
+     * @param float|null $nbHNonEffectue The nb h non effectue.
      * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
-    public function setNbHNonEffectue($nbHNonEffectue) {
+    public function setNbHNonEffectue(?float $nbHNonEffectue): HAbsPrepaPaie {
         $this->nbHNonEffectue = $nbHNonEffectue;
         return $this;
     }
@@ -122,10 +123,10 @@ class HAbsPrepaPaie {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): HAbsPrepaPaie {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -136,7 +137,7 @@ class HAbsPrepaPaie {
      * @param DateTime|null $periode The periode.
      * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): HAbsPrepaPaie {
         $this->periode = $periode;
         return $this;
     }
@@ -144,10 +145,10 @@ class HAbsPrepaPaie {
     /**
      * Set the semaine.
      *
-     * @param string $semaine The semaine.
+     * @param string|null $semaine The semaine.
      * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
-    public function setSemaine($semaine) {
+    public function setSemaine(?string $semaine): HAbsPrepaPaie {
         $this->semaine = $semaine;
         return $this;
     }
@@ -155,10 +156,10 @@ class HAbsPrepaPaie {
     /**
      * Set the type absence.
      *
-     * @param string $typeAbsence The type absence.
+     * @param string|null $typeAbsence The type absence.
      * @return HAbsPrepaPaie Returns this H abs prepa paie.
      */
-    public function setTypeAbsence($typeAbsence) {
+    public function setTypeAbsence(?string $typeAbsence): HAbsPrepaPaie {
         $this->typeAbsence = $typeAbsence;
         return $this;
     }

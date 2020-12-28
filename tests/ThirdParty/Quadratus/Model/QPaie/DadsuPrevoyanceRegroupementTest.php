@@ -27,7 +27,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -40,7 +40,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOption() {
+    public function testSetCodeOption(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -53,7 +53,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -66,7 +66,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePopulation() {
+    public function testSetCodePopulation(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -79,7 +79,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -92,7 +92,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefContrat() {
+    public function testSetRefContrat(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -105,7 +105,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCotis() {
+    public function testSetTypeCotis(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -118,7 +118,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurCotis() {
+    public function testSetValeurCotis(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -131,7 +131,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurCotisInitiale() {
+    public function testSetValeurCotisInitiale(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 
@@ -144,7 +144,7 @@ class DadsuPrevoyanceRegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuPrevoyanceRegroupement();
 

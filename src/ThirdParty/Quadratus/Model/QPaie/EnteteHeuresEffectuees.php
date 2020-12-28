@@ -24,7 +24,7 @@ class EnteteHeuresEffectuees {
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -38,30 +38,31 @@ class EnteteHeuresEffectuees {
     /**
      * Transfere.
      *
-     * @var string
+     * @var string|null
      */
     private $transfere;
 
     /**
      * Type saisie.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSaisie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -70,35 +71,35 @@ class EnteteHeuresEffectuees {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the transfere.
      *
-     * @return string Returns the transfere.
+     * @return string|null Returns the transfere.
      */
-    public function getTransfere() {
+    public function getTransfere(): ?string{
         return $this->transfere;
     }
 
     /**
      * Get the type saisie.
      *
-     * @return string Returns the type saisie.
+     * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie() {
+    public function getTypeSaisie(): ?string{
         return $this->typeSaisie;
     }
 
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EnteteHeuresEffectuees {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -109,7 +110,7 @@ class EnteteHeuresEffectuees {
      * @param DateTime|null $periode The periode.
      * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): EnteteHeuresEffectuees {
         $this->periode = $periode;
         return $this;
     }
@@ -117,10 +118,10 @@ class EnteteHeuresEffectuees {
     /**
      * Set the transfere.
      *
-     * @param string $transfere The transfere.
+     * @param string|null $transfere The transfere.
      * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
-    public function setTransfere($transfere) {
+    public function setTransfere(?string $transfere): EnteteHeuresEffectuees {
         $this->transfere = $transfere;
         return $this;
     }
@@ -128,10 +129,10 @@ class EnteteHeuresEffectuees {
     /**
      * Set the type saisie.
      *
-     * @param string $typeSaisie The type saisie.
+     * @param string|null $typeSaisie The type saisie.
      * @return EnteteHeuresEffectuees Returns this Entete heures effectuees.
      */
-    public function setTypeSaisie($typeSaisie) {
+    public function setTypeSaisie(?string $typeSaisie): EnteteHeuresEffectuees {
         $this->typeSaisie = $typeSaisie;
         return $this;
     }

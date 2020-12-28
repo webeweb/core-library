@@ -29,7 +29,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -42,7 +42,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMotifRupture() {
+    public function testSetCodeMotifRupture(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -56,7 +56,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEs() {
+    public function testSetDateEs(): void {
 
         // Set a Date/time mock.
         $dateEs = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinPeriodeEssai() {
+    public function testSetDateFinPeriodeEssai(): void {
 
         // Set a Date/time mock.
         $dateFinPeriodeEssai = new DateTime("2018-09-10");
@@ -90,7 +90,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -107,7 +107,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNotification() {
+    public function testSetDateNotification(): void {
 
         // Set a Date/time mock.
         $dateNotification = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRenouvCdd1() {
+    public function testSetDateRenouvCdd1(): void {
 
         // Set a Date/time mock.
         $dateRenouvCdd1 = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRenouvCdd2() {
+    public function testSetDateRenouvCdd2(): void {
 
         // Set a Date/time mock.
         $dateRenouvCdd2 = new DateTime("2018-09-10");
@@ -157,7 +157,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEntrepriseTravailTemp() {
+    public function testSetEntrepriseTravailTemp(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -170,7 +170,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -183,7 +183,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertEs() {
+    public function testSetTransfertEs(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -196,7 +196,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailTemp() {
+    public function testSetTravailTemp(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -209,7 +209,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeEs() {
+    public function testSetTypeEs(): void {
 
         $obj = new EntreeSortieEmp();
 
@@ -222,7 +222,7 @@ class EntreeSortieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EntreeSortieEmp();
 

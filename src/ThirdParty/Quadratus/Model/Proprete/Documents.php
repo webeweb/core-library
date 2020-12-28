@@ -24,21 +24,21 @@ class Documents {
     /**
      * Chrono.
      *
-     * @var int
+     * @var int|null
      */
     private $chrono;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
@@ -52,48 +52,49 @@ class Documents {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chrono.
      *
-     * @return int Returns the chrono.
+     * @return int|null Returns the chrono.
      */
-    public function getChrono() {
+    public function getChrono(): ?int{
         return $this->chrono;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
@@ -102,35 +103,35 @@ class Documents {
      *
      * @return DateTime|null Returns the date heure sys.
      */
-    public function getDateHeureSys() {
+    public function getDateHeureSys(): ?DateTime{
         return $this->dateHeureSys;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Set the chrono.
      *
-     * @param int $chrono The chrono.
+     * @param int|null $chrono The chrono.
      * @return Documents Returns this Documents.
      */
-    public function setChrono($chrono) {
+    public function setChrono(?int $chrono): Documents {
         $this->chrono = $chrono;
         return $this;
     }
@@ -138,10 +139,10 @@ class Documents {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Documents Returns this Documents.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Documents {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -149,10 +150,10 @@ class Documents {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return Documents Returns this Documents.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): Documents {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -163,7 +164,7 @@ class Documents {
      * @param DateTime|null $dateHeureSys The date heure sys.
      * @return Documents Returns this Documents.
      */
-    public function setDateHeureSys(DateTime $dateHeureSys = null) {
+    public function setDateHeureSys(?DateTime $dateHeureSys): Documents {
         $this->dateHeureSys = $dateHeureSys;
         return $this;
     }
@@ -171,10 +172,10 @@ class Documents {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Documents Returns this Documents.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Documents {
         $this->libelle = $libelle;
         return $this;
     }
@@ -182,10 +183,10 @@ class Documents {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return Documents Returns this Documents.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): Documents {
         $this->lienDocument = $lienDocument;
         return $this;
     }

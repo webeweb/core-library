@@ -29,7 +29,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntBtq() {
+    public function testSetAdIntBtq(): void {
 
         $obj = new FacturesEntetes();
 
@@ -42,7 +42,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntBureauDistributeur() {
+    public function testSetAdIntBureauDistributeur(): void {
 
         $obj = new FacturesEntetes();
 
@@ -55,7 +55,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntCodePays() {
+    public function testSetAdIntCodePays(): void {
 
         $obj = new FacturesEntetes();
 
@@ -68,7 +68,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntCodePostal() {
+    public function testSetAdIntCodePostal(): void {
 
         $obj = new FacturesEntetes();
 
@@ -81,7 +81,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntComplement() {
+    public function testSetAdIntComplement(): void {
 
         $obj = new FacturesEntetes();
 
@@ -94,7 +94,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntNom() {
+    public function testSetAdIntNom(): void {
 
         $obj = new FacturesEntetes();
 
@@ -107,7 +107,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntNomVoie() {
+    public function testSetAdIntNomVoie(): void {
 
         $obj = new FacturesEntetes();
 
@@ -120,7 +120,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdIntNumVoie() {
+    public function testSetAdIntNumVoie(): void {
 
         $obj = new FacturesEntetes();
 
@@ -133,7 +133,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new FacturesEntetes();
 
@@ -146,7 +146,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new FacturesEntetes();
 
@@ -159,7 +159,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCivilite() {
+    public function testSetCivilite(): void {
 
         $obj = new FacturesEntetes();
 
@@ -172,7 +172,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new FacturesEntetes();
 
@@ -185,7 +185,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalClient() {
+    public function testSetCodeAnalClient(): void {
 
         $obj = new FacturesEntetes();
 
@@ -198,7 +198,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new FacturesEntetes();
 
@@ -211,7 +211,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FacturesEntetes();
 
@@ -224,7 +224,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClientFact() {
+    public function testSetCodeClientFact(): void {
 
         $obj = new FacturesEntetes();
 
@@ -237,7 +237,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new FacturesEntetes();
 
@@ -250,7 +250,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFactor() {
+    public function testSetCodeFactor(): void {
 
         $obj = new FacturesEntetes();
 
@@ -263,7 +263,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLangueDesignationArticle() {
+    public function testSetCodeLangueDesignationArticle(): void {
 
         $obj = new FacturesEntetes();
 
@@ -276,7 +276,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeModeReglement() {
+    public function testSetCodeModeReglement(): void {
 
         $obj = new FacturesEntetes();
 
@@ -289,7 +289,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new FacturesEntetes();
 
@@ -302,7 +302,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new FacturesEntetes();
 
@@ -315,7 +315,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new FacturesEntetes();
 
@@ -328,7 +328,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRepresentant() {
+    public function testSetCodeRepresentant(): void {
 
         $obj = new FacturesEntetes();
 
@@ -341,7 +341,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTvaClient() {
+    public function testSetCodeTvaClient(): void {
 
         $obj = new FacturesEntetes();
 
@@ -354,7 +354,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilClient() {
+    public function testSetCodeVentilClient(): void {
 
         $obj = new FacturesEntetes();
 
@@ -367,7 +367,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new FacturesEntetes();
 
@@ -381,7 +381,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         // Set a Date/time mock.
         $dateEcheance = new DateTime("2018-09-10");
@@ -398,7 +398,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFacture() {
+    public function testSetDateFacture(): void {
 
         // Set a Date/time mock.
         $dateFacture = new DateTime("2018-09-10");
@@ -414,7 +414,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDateLimiteForcee() {
+    public function testSetDateLimiteForcee(): void {
 
         $obj = new FacturesEntetes();
 
@@ -428,7 +428,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateLimiteResiliation() {
+    public function testSetDateLimiteResiliation(): void {
 
         // Set a Date/time mock.
         $dateLimiteResiliation = new DateTime("2018-09-10");
@@ -444,7 +444,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceDepart() {
+    public function testSetEcheanceDepart(): void {
 
         $obj = new FacturesEntetes();
 
@@ -457,7 +457,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceForcee() {
+    public function testSetEcheanceForcee(): void {
 
         $obj = new FacturesEntetes();
 
@@ -470,7 +470,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceLe() {
+    public function testSetEcheanceLe(): void {
 
         $obj = new FacturesEntetes();
 
@@ -483,7 +483,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceNbJours() {
+    public function testSetEcheanceNbJours(): void {
 
         $obj = new FacturesEntetes();
 
@@ -496,7 +496,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new FacturesEntetes();
 
@@ -509,7 +509,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureEuros() {
+    public function testSetFactureEuros(): void {
 
         $obj = new FacturesEntetes();
 
@@ -522,7 +522,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureVm() {
+    public function testSetFactureVm(): void {
 
         $obj = new FacturesEntetes();
 
@@ -535,7 +535,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFonctionCommercial() {
+    public function testSetFonctionCommercial(): void {
 
         $obj = new FacturesEntetes();
 
@@ -548,7 +548,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterlocuteur() {
+    public function testSetInterlocuteur(): void {
 
         $obj = new FacturesEntetes();
 
@@ -561,7 +561,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibTransfCpta() {
+    public function testSetLibTransfCpta(): void {
 
         $obj = new FacturesEntetes();
 
@@ -574,7 +574,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new FacturesEntetes();
 
@@ -587,7 +587,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleTransfCpta() {
+    public function testSetLibelleTransfCpta(): void {
 
         $obj = new FacturesEntetes();
 
@@ -600,7 +600,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocDossCpta() {
+    public function testSetLienDocDossCpta(): void {
 
         $obj = new FacturesEntetes();
 
@@ -613,7 +613,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new FacturesEntetes();
 
@@ -626,7 +626,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMentionLibre() {
+    public function testSetMentionLibre(): void {
 
         $obj = new FacturesEntetes();
 
@@ -639,7 +639,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAcompte() {
+    public function testSetMontantAcompte(): void {
 
         $obj = new FacturesEntetes();
 
@@ -652,7 +652,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHtpx() {
+    public function testSetMontantHtpx(): void {
 
         $obj = new FacturesEntetes();
 
@@ -665,7 +665,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHtvm() {
+    public function testSetMontantHtvm(): void {
 
         $obj = new FacturesEntetes();
 
@@ -678,7 +678,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTtc() {
+    public function testSetMontantTtc(): void {
 
         $obj = new FacturesEntetes();
 
@@ -691,7 +691,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomClient() {
+    public function testSetNomClient(): void {
 
         $obj = new FacturesEntetes();
 
@@ -704,7 +704,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new FacturesEntetes();
 
@@ -717,7 +717,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite2() {
+    public function testSetNomSuite2(): void {
 
         $obj = new FacturesEntetes();
 
@@ -730,7 +730,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite3() {
+    public function testSetNomSuite3(): void {
 
         $obj = new FacturesEntetes();
 
@@ -743,7 +743,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new FacturesEntetes();
 
@@ -756,7 +756,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEcheances() {
+    public function testSetNombreEcheances(): void {
 
         $obj = new FacturesEntetes();
 
@@ -769,7 +769,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumMandat() {
+    public function testSetNumMandat(): void {
 
         $obj = new FacturesEntetes();
 
@@ -782,7 +782,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new FacturesEntetes();
 
@@ -795,7 +795,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCommandeWebFt() {
+    public function testSetNumeroCommandeWebFt(): void {
 
         $obj = new FacturesEntetes();
 
@@ -808,7 +808,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new FacturesEntetes();
 
@@ -821,7 +821,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDevis() {
+    public function testSetNumeroDevis(): void {
 
         $obj = new FacturesEntetes();
 
@@ -834,7 +834,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroFacture() {
+    public function testSetNumeroFacture(): void {
 
         $obj = new FacturesEntetes();
 
@@ -847,7 +847,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new FacturesEntetes();
 
@@ -860,7 +860,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrestation() {
+    public function testSetPrestation(): void {
 
         $obj = new FacturesEntetes();
 
@@ -873,7 +873,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference1() {
+    public function testSetReference1(): void {
 
         $obj = new FacturesEntetes();
 
@@ -886,7 +886,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference2() {
+    public function testSetReference2(): void {
 
         $obj = new FacturesEntetes();
 
@@ -899,7 +899,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference3() {
+    public function testSetReference3(): void {
 
         $obj = new FacturesEntetes();
 
@@ -912,7 +912,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference4() {
+    public function testSetReference4(): void {
 
         $obj = new FacturesEntetes();
 
@@ -925,7 +925,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRum() {
+    public function testSetRum(): void {
 
         $obj = new FacturesEntetes();
 
@@ -938,7 +938,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisirAdresse() {
+    public function testSetSaisirAdresse(): void {
 
         $obj = new FacturesEntetes();
 
@@ -951,7 +951,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisEscompte() {
+    public function testSetSoumisEscompte(): void {
 
         $obj = new FacturesEntetes();
 
@@ -964,7 +964,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxeDeee() {
+    public function testSetSoumisTaxeDeee(): void {
 
         $obj = new FacturesEntetes();
 
@@ -977,7 +977,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxDevise() {
+    public function testSetTauxDevise(): void {
 
         $obj = new FacturesEntetes();
 
@@ -990,7 +990,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxEscompte() {
+    public function testSetTauxEscompte(): void {
 
         $obj = new FacturesEntetes();
 
@@ -1003,7 +1003,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRemise1() {
+    public function testSetTauxRemise1(): void {
 
         $obj = new FacturesEntetes();
 
@@ -1016,7 +1016,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRemise2() {
+    public function testSetTauxRemise2(): void {
 
         $obj = new FacturesEntetes();
 
@@ -1029,7 +1029,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurIcs() {
+    public function testSetValeurIcs(): void {
 
         $obj = new FacturesEntetes();
 
@@ -1042,7 +1042,7 @@ class FacturesEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FacturesEntetes();
 

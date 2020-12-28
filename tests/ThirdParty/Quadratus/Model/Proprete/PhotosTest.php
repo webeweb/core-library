@@ -29,7 +29,7 @@ class PhotosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAPublierEspaceClient() {
+    public function testSetAPublierEspaceClient(): void {
 
         $obj = new Photos();
 
@@ -42,7 +42,7 @@ class PhotosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAuteur() {
+    public function testSetAuteur(): void {
 
         $obj = new Photos();
 
@@ -56,7 +56,7 @@ class PhotosTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class PhotosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomFichierId() {
+    public function testSetNomFichierId(): void {
 
         $obj = new Photos();
 
@@ -85,7 +85,7 @@ class PhotosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeId() {
+    public function testSetTypeId(): void {
 
         $obj = new Photos();
 
@@ -98,7 +98,7 @@ class PhotosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new Photos();
 
@@ -111,7 +111,7 @@ class PhotosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Photos();
 

@@ -36,7 +36,7 @@ class DerDeserializer {
      * @param string $filename The filename.
      * @return Document|null Returns the document in case of success, null otherwise.
      */
-    public static function deserializeDocument($filename) {
+    public static function deserializeDocument(string $filename): ?Document {
 
         $model = new Document();
         $model->setFilename($filename);
@@ -71,7 +71,7 @@ class DerDeserializer {
      * @param string $rawData The raw data.
      * @return Page|null Returns the page in case of success, null otherwise.
      */
-    protected static function deserializePage($rawData) {
+    protected static function deserializePage(string $rawData): ?Page {
 
         $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
         if (6 !== count($data)) {
@@ -94,7 +94,7 @@ class DerDeserializer {
      * @param string $rawData The raw data.
      * @return Word|null Returns the word in case of success, null otherwise.
      */
-    protected static function deserializeWord($rawData) {
+    protected static function deserializeWord(string $rawData): ?Word {
 
         $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
         if (7 !== count($data)) {
@@ -122,7 +122,7 @@ class DerDeserializer {
      * @param Document $document The document.
      * @return Document Returns the document.
      */
-    protected static function processDocument(Document $document) {
+    protected static function processDocument(Document $document): Document {
 
         foreach ($document->getWords() as $current) {
 
@@ -141,7 +141,7 @@ class DerDeserializer {
      * @param string $rawData The raw data.
      * @return string[] Returns the headers.
      */
-    protected static function processHeaders($rawData) {
+    protected static function processHeaders(string $rawData): array {
 
         $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
         if (6 === count($data)) {

@@ -27,7 +27,7 @@ class EnvoiSmsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesCollaborateur() {
+    public function testSetAccesCollaborateur(): void {
 
         $obj = new EnvoiSms();
 
@@ -40,7 +40,7 @@ class EnvoiSmsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesIntervenants() {
+    public function testSetAccesIntervenants(): void {
 
         $obj = new EnvoiSms();
 
@@ -53,7 +53,7 @@ class EnvoiSmsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesTotal() {
+    public function testSetAccesTotal(): void {
 
         $obj = new EnvoiSms();
 
@@ -66,7 +66,7 @@ class EnvoiSmsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new EnvoiSms();
 
@@ -79,7 +79,7 @@ class EnvoiSmsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSms() {
+    public function testSetNbSms(): void {
 
         $obj = new EnvoiSms();
 
@@ -92,7 +92,7 @@ class EnvoiSmsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EnvoiSms();
 

@@ -27,7 +27,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetADeclarerDsnNeant() {
+    public function testSetADeclarerDsnNeant(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -40,7 +40,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAgrementMinisteriel() {
+    public function testSetAgrementMinisteriel(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -53,7 +53,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAppliquerCpn220() {
+    public function testSetAppliquerCpn220(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -66,7 +66,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArrondirBase() {
+    public function testSetArrondirBase(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -79,7 +79,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArrondirCotis() {
+    public function testSetArrondirCotis(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -92,7 +92,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAssietteSpecifAgff() {
+    public function testSetAssietteSpecifAgff(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -105,7 +105,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -118,7 +118,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAssietteSit2() {
+    public function testSetCodeAssietteSit2(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -131,7 +131,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAssietteSit2Agff() {
+    public function testSetCodeAssietteSit2Agff(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -144,7 +144,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAssietteSitb() {
+    public function testSetCodeAssietteSitb(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -157,7 +157,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAssietteSitbagff() {
+    public function testSetCodeAssietteSitbagff(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -170,7 +170,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAssietteSitc() {
+    public function testSetCodeAssietteSitc(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -183,7 +183,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCaisseMsa() {
+    public function testSetCodeCaisseMsa(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -196,7 +196,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeAssuranceDadsu() {
+    public function testSetCodeOrganismeAssuranceDadsu(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -209,7 +209,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeMutuelleDadsu() {
+    public function testSetCodeOrganismeMutuelleDadsu(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -222,7 +222,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetailArrco() {
+    public function testSetDetailArrco(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -235,7 +235,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeCrc() {
+    public function testSetGroupeCrc(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -248,7 +248,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitution() {
+    public function testSetIdInstitution(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -261,7 +261,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitSousTotalAgffAgirc() {
+    public function testSetIntitSousTotalAgffAgirc(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -274,7 +274,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitSousTotalAgffArrco() {
+    public function testSetIntitSousTotalAgffArrco(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -287,7 +287,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitSousTotalApec() {
+    public function testSetIntitSousTotalApec(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -300,7 +300,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -313,7 +313,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienFicParamDsn() {
+    public function testSetLienFicParamDsn(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -326,7 +326,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegroupementSi() {
+    public function testSetRegroupementSi(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -339,7 +339,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousTotalAgff() {
+    public function testSetSousTotalAgff(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -352,7 +352,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousTotalApec() {
+    public function testSetSousTotalApec(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -365,7 +365,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousTotalCaisse() {
+    public function testSetSousTotalCaisse(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -378,7 +378,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTraitementDadsu() {
+    public function testSetTraitementDadsu(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -391,7 +391,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDeclaration() {
+    public function testSetTypeDeclaration(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -404,7 +404,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeOrganisme() {
+    public function testSetTypeOrganisme(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -417,7 +417,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUtilise() {
+    public function testSetUtilise(): void {
 
         $obj = new OrgaGeneriques();
 
@@ -430,7 +430,7 @@ class OrgaGeneriquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new OrgaGeneriques();
 

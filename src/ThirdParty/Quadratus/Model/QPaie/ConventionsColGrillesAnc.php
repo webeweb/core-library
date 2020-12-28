@@ -22,81 +22,82 @@ class ConventionsColGrillesAnc {
     /**
      * Code convention.
      *
-     * @var string
+     * @var string|null
      */
     private $codeConvention;
 
     /**
      * Code grille.
      *
-     * @var string
+     * @var string|null
      */
     private $codeGrille;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Type grille.
      *
-     * @var int
+     * @var int|null
      */
     private $typeGrille;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code convention.
      *
-     * @return string Returns the code convention.
+     * @return string|null Returns the code convention.
      */
-    public function getCodeConvention() {
+    public function getCodeConvention(): ?string{
         return $this->codeConvention;
     }
 
     /**
      * Get the code grille.
      *
-     * @return string Returns the code grille.
+     * @return string|null Returns the code grille.
      */
-    public function getCodeGrille() {
+    public function getCodeGrille(): ?string{
         return $this->codeGrille;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the type grille.
      *
-     * @return int Returns the type grille.
+     * @return int|null Returns the type grille.
      */
-    public function getTypeGrille() {
+    public function getTypeGrille(): ?int{
         return $this->typeGrille;
     }
 
     /**
      * Set the code convention.
      *
-     * @param string $codeConvention The code convention.
+     * @param string|null $codeConvention The code convention.
      * @return ConventionsColGrillesAnc Returns this Conventions col grilles anc.
      */
-    public function setCodeConvention($codeConvention) {
+    public function setCodeConvention(?string $codeConvention): ConventionsColGrillesAnc {
         $this->codeConvention = $codeConvention;
         return $this;
     }
@@ -104,10 +105,10 @@ class ConventionsColGrillesAnc {
     /**
      * Set the code grille.
      *
-     * @param string $codeGrille The code grille.
+     * @param string|null $codeGrille The code grille.
      * @return ConventionsColGrillesAnc Returns this Conventions col grilles anc.
      */
-    public function setCodeGrille($codeGrille) {
+    public function setCodeGrille(?string $codeGrille): ConventionsColGrillesAnc {
         $this->codeGrille = $codeGrille;
         return $this;
     }
@@ -115,10 +116,10 @@ class ConventionsColGrillesAnc {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return ConventionsColGrillesAnc Returns this Conventions col grilles anc.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): ConventionsColGrillesAnc {
         $this->intitule = $intitule;
         return $this;
     }
@@ -126,10 +127,10 @@ class ConventionsColGrillesAnc {
     /**
      * Set the type grille.
      *
-     * @param int $typeGrille The type grille.
+     * @param int|null $typeGrille The type grille.
      * @return ConventionsColGrillesAnc Returns this Conventions col grilles anc.
      */
-    public function setTypeGrille($typeGrille) {
+    public function setTypeGrille(?int $typeGrille): ConventionsColGrillesAnc {
         $this->typeGrille = $typeGrille;
         return $this;
     }

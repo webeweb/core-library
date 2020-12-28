@@ -27,7 +27,7 @@ class ArticleVariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticleVariantes();
 
@@ -40,7 +40,7 @@ class ArticleVariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBarre() {
+    public function testSetCodeBarre(): void {
 
         $obj = new ArticleVariantes();
 
@@ -53,7 +53,7 @@ class ArticleVariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVariante() {
+    public function testSetCodeVariante(): void {
 
         $obj = new ArticleVariantes();
 
@@ -66,7 +66,7 @@ class ArticleVariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ArticleVariantes();
 
@@ -79,7 +79,7 @@ class ArticleVariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticleVariantes();
 

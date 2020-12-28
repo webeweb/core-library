@@ -27,7 +27,7 @@ class InventaireTrameTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new InventaireTrame();
 
@@ -40,7 +40,7 @@ class InventaireTrameTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTrame() {
+    public function testSetCodeTrame(): void {
 
         $obj = new InventaireTrame();
 
@@ -53,7 +53,7 @@ class InventaireTrameTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new InventaireTrame();
 
@@ -66,7 +66,7 @@ class InventaireTrameTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new InventaireTrame();
 

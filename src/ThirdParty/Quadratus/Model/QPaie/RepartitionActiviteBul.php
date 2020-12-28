@@ -24,21 +24,21 @@ class RepartitionActiviteBul {
     /**
      * Code service.
      *
-     * @var string
+     * @var string|null
      */
     private $codeService;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -52,41 +52,42 @@ class RepartitionActiviteBul {
     /**
      * Taux ventilation.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxVentilation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code service.
      *
-     * @return string Returns the code service.
+     * @return string|null Returns the code service.
      */
-    public function getCodeService() {
+    public function getCodeService(): ?string{
         return $this->codeService;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -95,26 +96,26 @@ class RepartitionActiviteBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the taux ventilation.
      *
-     * @return float Returns the taux ventilation.
+     * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation() {
+    public function getTauxVentilation(): ?float{
         return $this->tauxVentilation;
     }
 
     /**
      * Set the code service.
      *
-     * @param string $codeService The code service.
+     * @param string|null $codeService The code service.
      * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
-    public function setCodeService($codeService) {
+    public function setCodeService(?string $codeService): RepartitionActiviteBul {
         $this->codeService = $codeService;
         return $this;
     }
@@ -122,10 +123,10 @@ class RepartitionActiviteBul {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): RepartitionActiviteBul {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -133,10 +134,10 @@ class RepartitionActiviteBul {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): RepartitionActiviteBul {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -147,7 +148,7 @@ class RepartitionActiviteBul {
      * @param DateTime|null $periode The periode.
      * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): RepartitionActiviteBul {
         $this->periode = $periode;
         return $this;
     }
@@ -155,10 +156,10 @@ class RepartitionActiviteBul {
     /**
      * Set the taux ventilation.
      *
-     * @param float $tauxVentilation The taux ventilation.
+     * @param float|null $tauxVentilation The taux ventilation.
      * @return RepartitionActiviteBul Returns this Repartition activite bul.
      */
-    public function setTauxVentilation($tauxVentilation) {
+    public function setTauxVentilation(?float $tauxVentilation): RepartitionActiviteBul {
         $this->tauxVentilation = $tauxVentilation;
         return $this;
     }

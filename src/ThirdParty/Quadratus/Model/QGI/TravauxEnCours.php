@@ -24,28 +24,28 @@ class TravauxEnCours {
     /**
      * Cataloguee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cataloguee;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur dest.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurDest;
 
     /**
      * Code collaborateur entrant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurEntrant;
 
@@ -80,92 +80,93 @@ class TravauxEnCours {
     /**
      * Demandeur.
      *
-     * @var string
+     * @var string|null
      */
     private $demandeur;
 
     /**
      * Envoi post it.
      *
-     * @var bool
+     * @var bool|null
      */
     private $envoiPostIt;
 
     /**
      * Id travail.
      *
-     * @var int
+     * @var int|null
      */
     private $idTravail;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $nomClient;
 
     /**
      * Piece jointe.
      *
-     * @var string
+     * @var string|null
      */
     private $pieceJointe;
 
     /**
      * Travail fait.
      *
-     * @var bool
+     * @var bool|null
      */
     private $travailFait;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the cataloguee.
      *
-     * @return bool Returns the cataloguee.
+     * @return bool|null Returns the cataloguee.
      */
-    public function getCataloguee() {
+    public function getCataloguee(): ?bool{
         return $this->cataloguee;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur dest.
      *
-     * @return string Returns the code collaborateur dest.
+     * @return string|null Returns the code collaborateur dest.
      */
-    public function getCodeCollaborateurDest() {
+    public function getCodeCollaborateurDest(): ?string{
         return $this->codeCollaborateurDest;
     }
 
     /**
      * Get the code collaborateur entrant.
      *
-     * @return string Returns the code collaborateur entrant.
+     * @return string|null Returns the code collaborateur entrant.
      */
-    public function getCodeCollaborateurEntrant() {
+    public function getCodeCollaborateurEntrant(): ?string{
         return $this->codeCollaborateurEntrant;
     }
 
@@ -174,7 +175,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date alerte.
      */
-    public function getDateAlerte() {
+    public function getDateAlerte(): ?DateTime{
         return $this->dateAlerte;
     }
 
@@ -183,7 +184,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date butoir.
      */
-    public function getDateButoir() {
+    public function getDateButoir(): ?DateTime{
         return $this->dateButoir;
     }
 
@@ -192,7 +193,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree() {
+    public function getDateEntree(): ?DateTime{
         return $this->dateEntree;
     }
 
@@ -201,80 +202,80 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
     /**
      * Get the demandeur.
      *
-     * @return string Returns the demandeur.
+     * @return string|null Returns the demandeur.
      */
-    public function getDemandeur() {
+    public function getDemandeur(): ?string{
         return $this->demandeur;
     }
 
     /**
      * Get the envoi post it.
      *
-     * @return bool Returns the envoi post it.
+     * @return bool|null Returns the envoi post it.
      */
-    public function getEnvoiPostIt() {
+    public function getEnvoiPostIt(): ?bool{
         return $this->envoiPostIt;
     }
 
     /**
      * Get the id travail.
      *
-     * @return int Returns the id travail.
+     * @return int|null Returns the id travail.
      */
-    public function getIdTravail() {
+    public function getIdTravail(): ?int{
         return $this->idTravail;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the nom client.
      *
-     * @return string Returns the nom client.
+     * @return string|null Returns the nom client.
      */
-    public function getNomClient() {
+    public function getNomClient(): ?string{
         return $this->nomClient;
     }
 
     /**
      * Get the piece jointe.
      *
-     * @return string Returns the piece jointe.
+     * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe() {
+    public function getPieceJointe(): ?string{
         return $this->pieceJointe;
     }
 
     /**
      * Get the travail fait.
      *
-     * @return bool Returns the travail fait.
+     * @return bool|null Returns the travail fait.
      */
-    public function getTravailFait() {
+    public function getTravailFait(): ?bool{
         return $this->travailFait;
     }
 
     /**
      * Set the cataloguee.
      *
-     * @param bool $cataloguee The cataloguee.
+     * @param bool|null $cataloguee The cataloguee.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setCataloguee($cataloguee) {
+    public function setCataloguee(?bool $cataloguee): TravauxEnCours {
         $this->cataloguee = $cataloguee;
         return $this;
     }
@@ -282,10 +283,10 @@ class TravauxEnCours {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): TravauxEnCours {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -293,10 +294,10 @@ class TravauxEnCours {
     /**
      * Set the code collaborateur dest.
      *
-     * @param string $codeCollaborateurDest The code collaborateur dest.
+     * @param string|null $codeCollaborateurDest The code collaborateur dest.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setCodeCollaborateurDest($codeCollaborateurDest) {
+    public function setCodeCollaborateurDest(?string $codeCollaborateurDest): TravauxEnCours {
         $this->codeCollaborateurDest = $codeCollaborateurDest;
         return $this;
     }
@@ -304,10 +305,10 @@ class TravauxEnCours {
     /**
      * Set the code collaborateur entrant.
      *
-     * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     * @param string|null $codeCollaborateurEntrant The code collaborateur entrant.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
+    public function setCodeCollaborateurEntrant(?string $codeCollaborateurEntrant): TravauxEnCours {
         $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
         return $this;
     }
@@ -318,7 +319,7 @@ class TravauxEnCours {
      * @param DateTime|null $dateAlerte The date alerte.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setDateAlerte(DateTime $dateAlerte = null) {
+    public function setDateAlerte(?DateTime $dateAlerte): TravauxEnCours {
         $this->dateAlerte = $dateAlerte;
         return $this;
     }
@@ -329,7 +330,7 @@ class TravauxEnCours {
      * @param DateTime|null $dateButoir The date butoir.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setDateButoir(DateTime $dateButoir = null) {
+    public function setDateButoir(?DateTime $dateButoir): TravauxEnCours {
         $this->dateButoir = $dateButoir;
         return $this;
     }
@@ -340,7 +341,7 @@ class TravauxEnCours {
      * @param DateTime|null $dateEntree The date entree.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setDateEntree(DateTime $dateEntree = null) {
+    public function setDateEntree(?DateTime $dateEntree): TravauxEnCours {
         $this->dateEntree = $dateEntree;
         return $this;
     }
@@ -351,7 +352,7 @@ class TravauxEnCours {
      * @param DateTime|null $dateModif The date modif.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): TravauxEnCours {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -359,10 +360,10 @@ class TravauxEnCours {
     /**
      * Set the demandeur.
      *
-     * @param string $demandeur The demandeur.
+     * @param string|null $demandeur The demandeur.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setDemandeur($demandeur) {
+    public function setDemandeur(?string $demandeur): TravauxEnCours {
         $this->demandeur = $demandeur;
         return $this;
     }
@@ -370,10 +371,10 @@ class TravauxEnCours {
     /**
      * Set the envoi post it.
      *
-     * @param bool $envoiPostIt The envoi post it.
+     * @param bool|null $envoiPostIt The envoi post it.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setEnvoiPostIt($envoiPostIt) {
+    public function setEnvoiPostIt(?bool $envoiPostIt): TravauxEnCours {
         $this->envoiPostIt = $envoiPostIt;
         return $this;
     }
@@ -381,10 +382,10 @@ class TravauxEnCours {
     /**
      * Set the id travail.
      *
-     * @param int $idTravail The id travail.
+     * @param int|null $idTravail The id travail.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setIdTravail($idTravail) {
+    public function setIdTravail(?int $idTravail): TravauxEnCours {
         $this->idTravail = $idTravail;
         return $this;
     }
@@ -392,10 +393,10 @@ class TravauxEnCours {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): TravauxEnCours {
         $this->intitule = $intitule;
         return $this;
     }
@@ -403,10 +404,10 @@ class TravauxEnCours {
     /**
      * Set the nom client.
      *
-     * @param string $nomClient The nom client.
+     * @param string|null $nomClient The nom client.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setNomClient($nomClient) {
+    public function setNomClient(?string $nomClient): TravauxEnCours {
         $this->nomClient = $nomClient;
         return $this;
     }
@@ -414,10 +415,10 @@ class TravauxEnCours {
     /**
      * Set the piece jointe.
      *
-     * @param string $pieceJointe The piece jointe.
+     * @param string|null $pieceJointe The piece jointe.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setPieceJointe($pieceJointe) {
+    public function setPieceJointe(?string $pieceJointe): TravauxEnCours {
         $this->pieceJointe = $pieceJointe;
         return $this;
     }
@@ -425,10 +426,10 @@ class TravauxEnCours {
     /**
      * Set the travail fait.
      *
-     * @param bool $travailFait The travail fait.
+     * @param bool|null $travailFait The travail fait.
      * @return TravauxEnCours Returns this Travaux en cours.
      */
-    public function setTravailFait($travailFait) {
+    public function setTravailFait(?bool $travailFait): TravauxEnCours {
         $this->travailFait = $travailFait;
         return $this;
     }

@@ -29,7 +29,7 @@ abstract class AbstractParser implements ParserInterface {
     /**
      * Start record format.
      *
-     * @var StartRecordFormat
+     * @var StartRecordFormat|null
      */
     private $startRecordFormat;
 
@@ -37,7 +37,7 @@ abstract class AbstractParser implements ParserInterface {
      * Constructor.
      */
     protected function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
@@ -46,7 +46,7 @@ abstract class AbstractParser implements ParserInterface {
      * @param string $str The string.
      * @return DateTime|null Returns the decoded string in case of success, null otherwise.
      */
-    protected function decodeDate($str) {
+    protected function decodeDate(string $str): ?DateTime {
         $date = DateTime::createFromFormat("!" . self::DATE_FORMAT, $str);
         return false === $date ? null : $date;
     }
@@ -57,7 +57,7 @@ abstract class AbstractParser implements ParserInterface {
      * @param string $str The string.
      * @return DateTime|null Returns the decoded string in case of success, null otherwise.
      */
-    protected function decodeDateTime($str) {
+    protected function decodeDateTime(string $str): ?DateTime {
         $date = DateTime::createFromFormat(self::DATETIME_FORMAT, $str);
         return false === $date ? null : $date;
     }
@@ -68,7 +68,7 @@ abstract class AbstractParser implements ParserInterface {
      * @param string $str The string.
      * @return string Returns the decoded string in case of success, "" otherwise.
      */
-    protected function decodeString($str) {
+    protected function decodeString(string $str): string {
         return ("" === $str || 2 === strlen($str)) ? "" : substr($str, 1, strlen($str) - 2);
     }
 
@@ -78,27 +78,27 @@ abstract class AbstractParser implements ParserInterface {
      * @param bool $value The value.
      * @return string Returns the encoded boolean value.
      */
-    protected function encodeBoolean($value) {
+    protected function encodeBoolean(bool $value): string {
         return "" . IntegerHelper::parseBoolean($value);
     }
 
     /**
      * Encode a date value.
      *
-     * @param DateTime $value The value.
+     * @param DateTime|null $value The value.
      * @return string Returns the encoded datetime value.
      */
-    protected function encodeDate(DateTime $value = null) {
+    protected function encodeDate(?DateTime $value): string {
         return null === $value ? "" : $value->format(self::DATE_FORMAT);
     }
 
     /**
      * Encode a datetime value.
      *
-     * @param DateTime $value The value.
+     * @param DateTime|null $value The value.
      * @return string Returns the encoded datetime value.
      */
-    protected function encodeDateTime(DateTime $value = null) {
+    protected function encodeDateTime(?DateTime $value): string {
         return null === $value ? "" : $value->format(self::DATETIME_FORMAT);
     }
 
@@ -110,7 +110,7 @@ abstract class AbstractParser implements ParserInterface {
      * @return string Returns the encoded integer.
      * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
-    protected function encodeInteger($value, $length) {
+    protected function encodeInteger(int $value, int $length): string {
         $format = "%'.0{$length}d";
         $output = null === $value ? "" : sprintf($format, $value);
         if ($length < strlen($output)) {
@@ -127,7 +127,7 @@ abstract class AbstractParser implements ParserInterface {
      * @return string Returns the encoded string.
      * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
-    protected function encodeString($value, $length = -1) {
+    protected function encodeString(string $value, int $length = -1): string {
         if (-1 !== $length && $length < strlen($value)) {
             throw new TooLongDataException($value, $length);
         }
@@ -137,19 +137,19 @@ abstract class AbstractParser implements ParserInterface {
     /**
      * Get the start record format.
      *
-     * @return StartRecordFormat Returns the start record format.
+     * @return StartRecordFormat|null Returns the start record format.
      */
-    public function getStartRecordFormat() {
+    public function getStartRecordFormat(): ?StartRecordFormat {
         return $this->startRecordFormat;
     }
 
     /**
      * Set the start record format.
      *
-     * @param StartRecordFormat $startRecordFormat The start record format.
+     * @param StartRecordFormat|null $startRecordFormat The start record format.
      * @return AbstractParser Returns the parser.
      */
-    public function setStartRecordFormat(StartRecordFormat $startRecordFormat) {
+    public function setStartRecordFormat(?StartRecordFormat $startRecordFormat): AbstractParser {
         $this->startRecordFormat = $startRecordFormat;
         return $this;
     }

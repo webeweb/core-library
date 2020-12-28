@@ -22,49 +22,50 @@ class EnteteGrillesType {
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Numero grille type.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroGrilleType;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the numero grille type.
      *
-     * @return int Returns the numero grille type.
+     * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType() {
+    public function getNumeroGrilleType(): ?int{
         return $this->numeroGrilleType;
     }
 
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return EnteteGrillesType Returns this Entete grilles type.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): EnteteGrillesType {
         $this->intitule = $intitule;
         return $this;
     }
@@ -72,10 +73,10 @@ class EnteteGrillesType {
     /**
      * Set the numero grille type.
      *
-     * @param int $numeroGrilleType The numero grille type.
+     * @param int|null $numeroGrilleType The numero grille type.
      * @return EnteteGrillesType Returns this Entete grilles type.
      */
-    public function setNumeroGrilleType($numeroGrilleType) {
+    public function setNumeroGrilleType(?int $numeroGrilleType): EnteteGrillesType {
         $this->numeroGrilleType = $numeroGrilleType;
         return $this;
     }

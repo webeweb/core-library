@@ -24,42 +24,42 @@ class EmpRecapCicemsa {
     /**
      * Caisse cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $caisseCp;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code unite.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUnite;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Nom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $nomEmploye;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -73,89 +73,90 @@ class EmpRecapCicemsa {
     /**
      * Remun assiette cice.
      *
-     * @var float
+     * @var float|null
      */
     private $remunAssietteCice;
 
     /**
      * Remun brut cice.
      *
-     * @var float
+     * @var float|null
      */
     private $remunBrutCice;
 
     /**
      * Smic mcice.
      *
-     * @var float
+     * @var float|null
      */
     private $smicMcice;
 
     /**
      * Sortie mois.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sortieMois;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the caisse cp.
      *
-     * @return bool Returns the caisse cp.
+     * @return bool|null Returns the caisse cp.
      */
-    public function getCaisseCp() {
+    public function getCaisseCp(): ?bool{
         return $this->caisseCp;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code unite.
      *
-     * @return string Returns the code unite.
+     * @return string|null Returns the code unite.
      */
-    public function getCodeUnite() {
+    public function getCodeUnite(): ?string{
         return $this->codeUnite;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the nom employe.
      *
-     * @return string Returns the nom employe.
+     * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye() {
+    public function getNomEmploye(): ?string{
         return $this->nomEmploye;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -164,53 +165,53 @@ class EmpRecapCicemsa {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the remun assiette cice.
      *
-     * @return float Returns the remun assiette cice.
+     * @return float|null Returns the remun assiette cice.
      */
-    public function getRemunAssietteCice() {
+    public function getRemunAssietteCice(): ?float{
         return $this->remunAssietteCice;
     }
 
     /**
      * Get the remun brut cice.
      *
-     * @return float Returns the remun brut cice.
+     * @return float|null Returns the remun brut cice.
      */
-    public function getRemunBrutCice() {
+    public function getRemunBrutCice(): ?float{
         return $this->remunBrutCice;
     }
 
     /**
      * Get the smic mcice.
      *
-     * @return float Returns the smic mcice.
+     * @return float|null Returns the smic mcice.
      */
-    public function getSmicMcice() {
+    public function getSmicMcice(): ?float{
         return $this->smicMcice;
     }
 
     /**
      * Get the sortie mois.
      *
-     * @return bool Returns the sortie mois.
+     * @return bool|null Returns the sortie mois.
      */
-    public function getSortieMois() {
+    public function getSortieMois(): ?bool{
         return $this->sortieMois;
     }
 
     /**
      * Set the caisse cp.
      *
-     * @param bool $caisseCp The caisse cp.
+     * @param bool|null $caisseCp The caisse cp.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setCaisseCp($caisseCp) {
+    public function setCaisseCp(?bool $caisseCp): EmpRecapCicemsa {
         $this->caisseCp = $caisseCp;
         return $this;
     }
@@ -218,10 +219,10 @@ class EmpRecapCicemsa {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): EmpRecapCicemsa {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -229,10 +230,10 @@ class EmpRecapCicemsa {
     /**
      * Set the code unite.
      *
-     * @param string $codeUnite The code unite.
+     * @param string|null $codeUnite The code unite.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setCodeUnite($codeUnite) {
+    public function setCodeUnite(?string $codeUnite): EmpRecapCicemsa {
         $this->codeUnite = $codeUnite;
         return $this;
     }
@@ -240,10 +241,10 @@ class EmpRecapCicemsa {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): EmpRecapCicemsa {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -251,10 +252,10 @@ class EmpRecapCicemsa {
     /**
      * Set the nom employe.
      *
-     * @param string $nomEmploye The nom employe.
+     * @param string|null $nomEmploye The nom employe.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setNomEmploye($nomEmploye) {
+    public function setNomEmploye(?string $nomEmploye): EmpRecapCicemsa {
         $this->nomEmploye = $nomEmploye;
         return $this;
     }
@@ -262,10 +263,10 @@ class EmpRecapCicemsa {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpRecapCicemsa {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -276,7 +277,7 @@ class EmpRecapCicemsa {
      * @param DateTime|null $periode The periode.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): EmpRecapCicemsa {
         $this->periode = $periode;
         return $this;
     }
@@ -284,10 +285,10 @@ class EmpRecapCicemsa {
     /**
      * Set the remun assiette cice.
      *
-     * @param float $remunAssietteCice The remun assiette cice.
+     * @param float|null $remunAssietteCice The remun assiette cice.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setRemunAssietteCice($remunAssietteCice) {
+    public function setRemunAssietteCice(?float $remunAssietteCice): EmpRecapCicemsa {
         $this->remunAssietteCice = $remunAssietteCice;
         return $this;
     }
@@ -295,10 +296,10 @@ class EmpRecapCicemsa {
     /**
      * Set the remun brut cice.
      *
-     * @param float $remunBrutCice The remun brut cice.
+     * @param float|null $remunBrutCice The remun brut cice.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setRemunBrutCice($remunBrutCice) {
+    public function setRemunBrutCice(?float $remunBrutCice): EmpRecapCicemsa {
         $this->remunBrutCice = $remunBrutCice;
         return $this;
     }
@@ -306,10 +307,10 @@ class EmpRecapCicemsa {
     /**
      * Set the smic mcice.
      *
-     * @param float $smicMcice The smic mcice.
+     * @param float|null $smicMcice The smic mcice.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setSmicMcice($smicMcice) {
+    public function setSmicMcice(?float $smicMcice): EmpRecapCicemsa {
         $this->smicMcice = $smicMcice;
         return $this;
     }
@@ -317,10 +318,10 @@ class EmpRecapCicemsa {
     /**
      * Set the sortie mois.
      *
-     * @param bool $sortieMois The sortie mois.
+     * @param bool|null $sortieMois The sortie mois.
      * @return EmpRecapCicemsa Returns this Emp recap cicemsa.
      */
-    public function setSortieMois($sortieMois) {
+    public function setSortieMois(?bool $sortieMois): EmpRecapCicemsa {
         $this->sortieMois = $sortieMois;
         return $this;
     }

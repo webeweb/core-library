@@ -43,7 +43,7 @@ class FtpsClient extends FtpClient {
      * @return FtpsClient Returns this FTPs client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function connect($timeout = 90) {
+    public function connect(int $timeout = 90): FtpsClient {
 
         $host = $this->getAuthenticator()->getHostname();
         $port = $this->getAuthenticator()->getPort();

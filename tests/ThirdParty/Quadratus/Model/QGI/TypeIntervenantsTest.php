@@ -27,7 +27,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesLibre() {
+    public function testSetAccesLibre(): void {
 
         $obj = new TypeIntervenants();
 
@@ -40,7 +40,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new TypeIntervenants();
 
@@ -53,7 +53,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIncrementAuto() {
+    public function testSetIncrementAuto(): void {
 
         $obj = new TypeIntervenants();
 
@@ -66,7 +66,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TypeIntervenants();
 
@@ -79,7 +79,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrefixe() {
+    public function testSetPrefixe(): void {
 
         $obj = new TypeIntervenants();
 
@@ -92,7 +92,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainNumero() {
+    public function testSetProchainNumero(): void {
 
         $obj = new TypeIntervenants();
 
@@ -105,7 +105,7 @@ class TypeIntervenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TypeIntervenants();
 

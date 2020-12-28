@@ -24,7 +24,7 @@ class Vehicules {
     /**
      * Categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $categorie;
 
@@ -52,86 +52,87 @@ class Vehicules {
     /**
      * Guid.
      *
-     * @var string
+     * @var string|null
      */
     private $guid;
 
     /**
      * Hybride.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hybride;
 
     /**
      * Immatriculation.
      *
-     * @var string
+     * @var string|null
      */
     private $immatriculation;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Lien compta.
      *
-     * @var bool
+     * @var bool|null
      */
     private $lienCompta;
 
     /**
      * Non polluant.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nonPolluant;
 
     /**
      * Puissance cv.
      *
-     * @var int
+     * @var int|null
      */
     private $puissanceCv;
 
     /**
      * Super carbu.
      *
-     * @var bool
+     * @var bool|null
      */
     private $superCarbu;
 
     /**
      * Taux emission co2.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxEmissionCo2;
 
     /**
      * Usage agricole.
      *
-     * @var bool
+     * @var bool|null
      */
     private $usageAgricole;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the categorie.
      *
-     * @return string Returns the categorie.
+     * @return string|null Returns the categorie.
      */
-    public function getCategorie() {
+    public function getCategorie(): ?string{
         return $this->categorie;
     }
 
@@ -140,7 +141,7 @@ class Vehicules {
      *
      * @return DateTime|null Returns the date cession.
      */
-    public function getDateCession() {
+    public function getDateCession(): ?DateTime{
         return $this->dateCession;
     }
 
@@ -149,7 +150,7 @@ class Vehicules {
      *
      * @return DateTime|null Returns the date immat.
      */
-    public function getDateImmat() {
+    public function getDateImmat(): ?DateTime{
         return $this->dateImmat;
     }
 
@@ -158,107 +159,107 @@ class Vehicules {
      *
      * @return DateTime|null Returns the date pmec.
      */
-    public function getDatePmec() {
+    public function getDatePmec(): ?DateTime{
         return $this->datePmec;
     }
 
     /**
      * Get the guid.
      *
-     * @return string Returns the guid.
+     * @return string|null Returns the guid.
      */
-    public function getGuid() {
+    public function getGuid(): ?string{
         return $this->guid;
     }
 
     /**
      * Get the hybride.
      *
-     * @return bool Returns the hybride.
+     * @return bool|null Returns the hybride.
      */
-    public function getHybride() {
+    public function getHybride(): ?bool{
         return $this->hybride;
     }
 
     /**
      * Get the immatriculation.
      *
-     * @return string Returns the immatriculation.
+     * @return string|null Returns the immatriculation.
      */
-    public function getImmatriculation() {
+    public function getImmatriculation(): ?string{
         return $this->immatriculation;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the lien compta.
      *
-     * @return bool Returns the lien compta.
+     * @return bool|null Returns the lien compta.
      */
-    public function getLienCompta() {
+    public function getLienCompta(): ?bool{
         return $this->lienCompta;
     }
 
     /**
      * Get the non polluant.
      *
-     * @return bool Returns the non polluant.
+     * @return bool|null Returns the non polluant.
      */
-    public function getNonPolluant() {
+    public function getNonPolluant(): ?bool{
         return $this->nonPolluant;
     }
 
     /**
      * Get the puissance cv.
      *
-     * @return int Returns the puissance cv.
+     * @return int|null Returns the puissance cv.
      */
-    public function getPuissanceCv() {
+    public function getPuissanceCv(): ?int{
         return $this->puissanceCv;
     }
 
     /**
      * Get the super carbu.
      *
-     * @return bool Returns the super carbu.
+     * @return bool|null Returns the super carbu.
      */
-    public function getSuperCarbu() {
+    public function getSuperCarbu(): ?bool{
         return $this->superCarbu;
     }
 
     /**
      * Get the taux emission co2.
      *
-     * @return float Returns the taux emission co2.
+     * @return float|null Returns the taux emission co2.
      */
-    public function getTauxEmissionCo2() {
+    public function getTauxEmissionCo2(): ?float{
         return $this->tauxEmissionCo2;
     }
 
     /**
      * Get the usage agricole.
      *
-     * @return bool Returns the usage agricole.
+     * @return bool|null Returns the usage agricole.
      */
-    public function getUsageAgricole() {
+    public function getUsageAgricole(): ?bool{
         return $this->usageAgricole;
     }
 
     /**
      * Set the categorie.
      *
-     * @param string $categorie The categorie.
+     * @param string|null $categorie The categorie.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setCategorie($categorie) {
+    public function setCategorie(?string $categorie): Vehicules {
         $this->categorie = $categorie;
         return $this;
     }
@@ -269,7 +270,7 @@ class Vehicules {
      * @param DateTime|null $dateCession The date cession.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setDateCession(DateTime $dateCession = null) {
+    public function setDateCession(?DateTime $dateCession): Vehicules {
         $this->dateCession = $dateCession;
         return $this;
     }
@@ -280,7 +281,7 @@ class Vehicules {
      * @param DateTime|null $dateImmat The date immat.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setDateImmat(DateTime $dateImmat = null) {
+    public function setDateImmat(?DateTime $dateImmat): Vehicules {
         $this->dateImmat = $dateImmat;
         return $this;
     }
@@ -291,7 +292,7 @@ class Vehicules {
      * @param DateTime|null $datePmec The date pmec.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setDatePmec(DateTime $datePmec = null) {
+    public function setDatePmec(?DateTime $datePmec): Vehicules {
         $this->datePmec = $datePmec;
         return $this;
     }
@@ -299,10 +300,10 @@ class Vehicules {
     /**
      * Set the guid.
      *
-     * @param string $guid The guid.
+     * @param string|null $guid The guid.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setGuid($guid) {
+    public function setGuid(?string $guid): Vehicules {
         $this->guid = $guid;
         return $this;
     }
@@ -310,10 +311,10 @@ class Vehicules {
     /**
      * Set the hybride.
      *
-     * @param bool $hybride The hybride.
+     * @param bool|null $hybride The hybride.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setHybride($hybride) {
+    public function setHybride(?bool $hybride): Vehicules {
         $this->hybride = $hybride;
         return $this;
     }
@@ -321,10 +322,10 @@ class Vehicules {
     /**
      * Set the immatriculation.
      *
-     * @param string $immatriculation The immatriculation.
+     * @param string|null $immatriculation The immatriculation.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setImmatriculation($immatriculation) {
+    public function setImmatriculation(?string $immatriculation): Vehicules {
         $this->immatriculation = $immatriculation;
         return $this;
     }
@@ -332,10 +333,10 @@ class Vehicules {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Vehicules {
         $this->libelle = $libelle;
         return $this;
     }
@@ -343,10 +344,10 @@ class Vehicules {
     /**
      * Set the lien compta.
      *
-     * @param bool $lienCompta The lien compta.
+     * @param bool|null $lienCompta The lien compta.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setLienCompta($lienCompta) {
+    public function setLienCompta(?bool $lienCompta): Vehicules {
         $this->lienCompta = $lienCompta;
         return $this;
     }
@@ -354,10 +355,10 @@ class Vehicules {
     /**
      * Set the non polluant.
      *
-     * @param bool $nonPolluant The non polluant.
+     * @param bool|null $nonPolluant The non polluant.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setNonPolluant($nonPolluant) {
+    public function setNonPolluant(?bool $nonPolluant): Vehicules {
         $this->nonPolluant = $nonPolluant;
         return $this;
     }
@@ -365,10 +366,10 @@ class Vehicules {
     /**
      * Set the puissance cv.
      *
-     * @param int $puissanceCv The puissance cv.
+     * @param int|null $puissanceCv The puissance cv.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setPuissanceCv($puissanceCv) {
+    public function setPuissanceCv(?int $puissanceCv): Vehicules {
         $this->puissanceCv = $puissanceCv;
         return $this;
     }
@@ -376,10 +377,10 @@ class Vehicules {
     /**
      * Set the super carbu.
      *
-     * @param bool $superCarbu The super carbu.
+     * @param bool|null $superCarbu The super carbu.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setSuperCarbu($superCarbu) {
+    public function setSuperCarbu(?bool $superCarbu): Vehicules {
         $this->superCarbu = $superCarbu;
         return $this;
     }
@@ -387,10 +388,10 @@ class Vehicules {
     /**
      * Set the taux emission co2.
      *
-     * @param float $tauxEmissionCo2 The taux emission co2.
+     * @param float|null $tauxEmissionCo2 The taux emission co2.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setTauxEmissionCo2($tauxEmissionCo2) {
+    public function setTauxEmissionCo2(?float $tauxEmissionCo2): Vehicules {
         $this->tauxEmissionCo2 = $tauxEmissionCo2;
         return $this;
     }
@@ -398,10 +399,10 @@ class Vehicules {
     /**
      * Set the usage agricole.
      *
-     * @param bool $usageAgricole The usage agricole.
+     * @param bool|null $usageAgricole The usage agricole.
      * @return Vehicules Returns this Vehicules.
      */
-    public function setUsageAgricole($usageAgricole) {
+    public function setUsageAgricole(?bool $usageAgricole): Vehicules {
         $this->usageAgricole = $usageAgricole;
         return $this;
     }

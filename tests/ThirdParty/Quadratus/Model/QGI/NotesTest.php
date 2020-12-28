@@ -29,7 +29,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCategorie() {
+    public function testSetCodeCategorie(): void {
 
         $obj = new Notes();
 
@@ -42,7 +42,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new Notes();
 
@@ -55,7 +55,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurModif() {
+    public function testSetCodeCollaborateurModif(): void {
 
         $obj = new Notes();
 
@@ -69,7 +69,7 @@ class NotesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class NotesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -103,7 +103,7 @@ class NotesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRappel() {
+    public function testSetDateRappel(): void {
 
         // Set a Date/time mock.
         $dateRappel = new DateTime("2018-09-10");
@@ -119,7 +119,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnvoiPostIt() {
+    public function testSetEnvoiPostIt(): void {
 
         $obj = new Notes();
 
@@ -132,7 +132,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Notes();
 
@@ -145,7 +145,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new Notes();
 
@@ -158,7 +158,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new Notes();
 
@@ -171,7 +171,7 @@ class NotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Notes();
 

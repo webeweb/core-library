@@ -27,7 +27,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 
@@ -40,7 +40,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 
@@ -53,7 +53,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbEnfants() {
+    public function testSetNbEnfants(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 
@@ -66,7 +66,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 
@@ -79,7 +79,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefContrat() {
+    public function testSetRefContrat(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 
@@ -92,7 +92,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteGestion() {
+    public function testSetUniteGestion(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 
@@ -105,7 +105,7 @@ class EmpDadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuAssuranceLignesContrat();
 

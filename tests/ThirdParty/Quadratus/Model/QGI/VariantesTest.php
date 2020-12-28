@@ -27,7 +27,7 @@ class VariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Variantes();
 
@@ -40,7 +40,7 @@ class VariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVariante() {
+    public function testSetCodeVariante(): void {
 
         $obj = new Variantes();
 
@@ -53,7 +53,7 @@ class VariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Variantes();
 
@@ -66,7 +66,7 @@ class VariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Variantes();
 
@@ -79,7 +79,7 @@ class VariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Variantes();
 
@@ -92,7 +92,7 @@ class VariantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Variantes();
 

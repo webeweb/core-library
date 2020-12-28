@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Core\Tests\Fixtures\ThirdParty\OcrLad\Serializer;
 
+use WBW\Library\Core\ThirdParty\OcrLad\Model\Page;
+use WBW\Library\Core\ThirdParty\OcrLad\Model\Word;
 use WBW\Library\Core\ThirdParty\OcrLad\Serializer\DerDeserializer;
 
 /**
@@ -24,21 +26,21 @@ class TestDerDeserializer extends DerDeserializer {
     /**
      * {@inheritDoc}
      */
-    public static function deserializePage($rawData) {
+    public static function deserializePage(string $rawData): ?Page {
         return parent::deserializePage($rawData);
     }
 
     /**
      * {@inheritDoc}
      */
-    public static function deserializeWord($rawData) {
+    public static function deserializeWord(string $rawData): ?Word {
         return parent::deserializeWord($rawData);
     }
 
     /**
      * {@inheritDoc}
      */
-    public static function processHeaders($rawData) {
+    public static function processHeaders(string $rawData): array {
         return parent::processHeaders($rawData);
     }
 }

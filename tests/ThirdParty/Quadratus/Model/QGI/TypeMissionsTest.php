@@ -29,7 +29,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticle() {
+    public function testSetArticle(): void {
 
         $obj = new TypeMissions();
 
@@ -42,7 +42,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreAnalytique() {
+    public function testSetCentreAnalytique(): void {
 
         $obj = new TypeMissions();
 
@@ -55,7 +55,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new TypeMissions();
 
@@ -68,7 +68,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFamille() {
+    public function testSetCodeFamille(): void {
 
         $obj = new TypeMissions();
 
@@ -81,7 +81,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeResponsable() {
+    public function testSetCodeResponsable(): void {
 
         $obj = new TypeMissions();
 
@@ -95,7 +95,7 @@ class TypeMissionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class TypeMissionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDecalageFermetureAuto() {
+    public function testSetDecalageFermetureAuto(): void {
 
         $obj = new TypeMissions();
 
@@ -141,7 +141,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDecalageFermetureAutoJours() {
+    public function testSetDecalageFermetureAutoJours(): void {
 
         $obj = new TypeMissions();
 
@@ -154,7 +154,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDecalageOuvertureAuto() {
+    public function testSetDecalageOuvertureAuto(): void {
 
         $obj = new TypeMissions();
 
@@ -167,7 +167,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptif() {
+    public function testSetDescriptif(): void {
 
         $obj = new TypeMissions();
 
@@ -180,7 +180,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptifRtf() {
+    public function testSetDescriptifRtf(): void {
 
         $obj = new TypeMissions();
 
@@ -193,7 +193,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFermetureAuto() {
+    public function testSetFermetureAuto(): void {
 
         $obj = new TypeMissions();
 
@@ -206,7 +206,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TypeMissions();
 
@@ -219,7 +219,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisOuvertureAuto() {
+    public function testSetMoisOuvertureAuto(): void {
 
         $obj = new TypeMissions();
 
@@ -232,7 +232,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdre() {
+    public function testSetOrdre(): void {
 
         $obj = new TypeMissions();
 
@@ -245,7 +245,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecurrente() {
+    public function testSetRecurrente(): void {
 
         $obj = new TypeMissions();
 
@@ -258,7 +258,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTachesGroupe() {
+    public function testSetTachesGroupe(): void {
 
         $obj = new TypeMissions();
 
@@ -271,7 +271,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertCentre() {
+    public function testSetTransfertCentre(): void {
 
         $obj = new TypeMissions();
 
@@ -284,7 +284,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCentre() {
+    public function testSetTypeCentre(): void {
 
         $obj = new TypeMissions();
 
@@ -297,7 +297,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCompteur() {
+    public function testSetTypeCompteur(): void {
 
         $obj = new TypeMissions();
 
@@ -310,7 +310,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeResponsable() {
+    public function testSetTypeResponsable(): void {
 
         $obj = new TypeMissions();
 
@@ -323,7 +323,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVisuTaches() {
+    public function testSetTypeVisuTaches(): void {
 
         $obj = new TypeMissions();
 
@@ -336,7 +336,7 @@ class TypeMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TypeMissions();
 

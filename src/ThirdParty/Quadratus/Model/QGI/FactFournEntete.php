@@ -24,14 +24,14 @@ class FactFournEntete {
     /**
      * Boni mali.
      *
-     * @var bool
+     * @var bool|null
      */
     private $boniMali;
 
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
@@ -45,109 +45,110 @@ class FactFournEntete {
     /**
      * Folio.
      *
-     * @var int
+     * @var int|null
      */
     private $folio;
 
     /**
      * Lib auto.
      *
-     * @var string
+     * @var string|null
      */
     private $libAuto;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Monnaie.
      *
-     * @var string
+     * @var string|null
      */
     private $monnaie;
 
     /**
      * Montant tt ccredit.
      *
-     * @var string
+     * @var string|null
      */
     private $montantTtCcredit;
 
     /**
      * Montant tt cdebit.
      *
-     * @var string
+     * @var string|null
      */
     private $montantTtCdebit;
 
     /**
      * Num doss cpta.
      *
-     * @var string
+     * @var string|null
      */
     private $numDossCpta;
 
     /**
      * Num facture.
      *
-     * @var string
+     * @var string|null
      */
     private $numFacture;
 
     /**
      * Num fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $numFournisseur;
 
     /**
      * Num lot.
      *
-     * @var int
+     * @var int|null
      */
     private $numLot;
 
     /**
      * Num uniq.
      *
-     * @var string
+     * @var string|null
      */
     private $numUniq;
 
     /**
      * Ref image.
      *
-     * @var string
+     * @var string|null
      */
     private $refImage;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the boni mali.
      *
-     * @return bool Returns the boni mali.
+     * @return bool|null Returns the boni mali.
      */
-    public function getBoniMali() {
+    public function getBoniMali(): ?bool{
         return $this->boniMali;
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
@@ -156,125 +157,125 @@ class FactFournEntete {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the folio.
      *
-     * @return int Returns the folio.
+     * @return int|null Returns the folio.
      */
-    public function getFolio() {
+    public function getFolio(): ?int{
         return $this->folio;
     }
 
     /**
      * Get the lib auto.
      *
-     * @return string Returns the lib auto.
+     * @return string|null Returns the lib auto.
      */
-    public function getLibAuto() {
+    public function getLibAuto(): ?string{
         return $this->libAuto;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the monnaie.
      *
-     * @return string Returns the monnaie.
+     * @return string|null Returns the monnaie.
      */
-    public function getMonnaie() {
+    public function getMonnaie(): ?string{
         return $this->monnaie;
     }
 
     /**
      * Get the montant tt ccredit.
      *
-     * @return string Returns the montant tt ccredit.
+     * @return string|null Returns the montant tt ccredit.
      */
-    public function getMontantTtCcredit() {
+    public function getMontantTtCcredit(): ?string{
         return $this->montantTtCcredit;
     }
 
     /**
      * Get the montant tt cdebit.
      *
-     * @return string Returns the montant tt cdebit.
+     * @return string|null Returns the montant tt cdebit.
      */
-    public function getMontantTtCdebit() {
+    public function getMontantTtCdebit(): ?string{
         return $this->montantTtCdebit;
     }
 
     /**
      * Get the num doss cpta.
      *
-     * @return string Returns the num doss cpta.
+     * @return string|null Returns the num doss cpta.
      */
-    public function getNumDossCpta() {
+    public function getNumDossCpta(): ?string{
         return $this->numDossCpta;
     }
 
     /**
      * Get the num facture.
      *
-     * @return string Returns the num facture.
+     * @return string|null Returns the num facture.
      */
-    public function getNumFacture() {
+    public function getNumFacture(): ?string{
         return $this->numFacture;
     }
 
     /**
      * Get the num fournisseur.
      *
-     * @return string Returns the num fournisseur.
+     * @return string|null Returns the num fournisseur.
      */
-    public function getNumFournisseur() {
+    public function getNumFournisseur(): ?string{
         return $this->numFournisseur;
     }
 
     /**
      * Get the num lot.
      *
-     * @return int Returns the num lot.
+     * @return int|null Returns the num lot.
      */
-    public function getNumLot() {
+    public function getNumLot(): ?int{
         return $this->numLot;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return string Returns the num uniq.
+     * @return string|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?string{
         return $this->numUniq;
     }
 
     /**
      * Get the ref image.
      *
-     * @return string Returns the ref image.
+     * @return string|null Returns the ref image.
      */
-    public function getRefImage() {
+    public function getRefImage(): ?string{
         return $this->refImage;
     }
 
     /**
      * Set the boni mali.
      *
-     * @param bool $boniMali The boni mali.
+     * @param bool|null $boniMali The boni mali.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setBoniMali($boniMali) {
+    public function setBoniMali(?bool $boniMali): FactFournEntete {
         $this->boniMali = $boniMali;
         return $this;
     }
@@ -282,10 +283,10 @@ class FactFournEntete {
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): FactFournEntete {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -296,7 +297,7 @@ class FactFournEntete {
      * @param DateTime|null $date The date.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): FactFournEntete {
         $this->date = $date;
         return $this;
     }
@@ -304,10 +305,10 @@ class FactFournEntete {
     /**
      * Set the folio.
      *
-     * @param int $folio The folio.
+     * @param int|null $folio The folio.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setFolio($folio) {
+    public function setFolio(?int $folio): FactFournEntete {
         $this->folio = $folio;
         return $this;
     }
@@ -315,10 +316,10 @@ class FactFournEntete {
     /**
      * Set the lib auto.
      *
-     * @param string $libAuto The lib auto.
+     * @param string|null $libAuto The lib auto.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setLibAuto($libAuto) {
+    public function setLibAuto(?string $libAuto): FactFournEntete {
         $this->libAuto = $libAuto;
         return $this;
     }
@@ -326,10 +327,10 @@ class FactFournEntete {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): FactFournEntete {
         $this->libelle = $libelle;
         return $this;
     }
@@ -337,10 +338,10 @@ class FactFournEntete {
     /**
      * Set the monnaie.
      *
-     * @param string $monnaie The monnaie.
+     * @param string|null $monnaie The monnaie.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setMonnaie($monnaie) {
+    public function setMonnaie(?string $monnaie): FactFournEntete {
         $this->monnaie = $monnaie;
         return $this;
     }
@@ -348,10 +349,10 @@ class FactFournEntete {
     /**
      * Set the montant tt ccredit.
      *
-     * @param string $montantTtCcredit The montant tt ccredit.
+     * @param string|null $montantTtCcredit The montant tt ccredit.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setMontantTtCcredit($montantTtCcredit) {
+    public function setMontantTtCcredit(?string $montantTtCcredit): FactFournEntete {
         $this->montantTtCcredit = $montantTtCcredit;
         return $this;
     }
@@ -359,10 +360,10 @@ class FactFournEntete {
     /**
      * Set the montant tt cdebit.
      *
-     * @param string $montantTtCdebit The montant tt cdebit.
+     * @param string|null $montantTtCdebit The montant tt cdebit.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setMontantTtCdebit($montantTtCdebit) {
+    public function setMontantTtCdebit(?string $montantTtCdebit): FactFournEntete {
         $this->montantTtCdebit = $montantTtCdebit;
         return $this;
     }
@@ -370,10 +371,10 @@ class FactFournEntete {
     /**
      * Set the num doss cpta.
      *
-     * @param string $numDossCpta The num doss cpta.
+     * @param string|null $numDossCpta The num doss cpta.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setNumDossCpta($numDossCpta) {
+    public function setNumDossCpta(?string $numDossCpta): FactFournEntete {
         $this->numDossCpta = $numDossCpta;
         return $this;
     }
@@ -381,10 +382,10 @@ class FactFournEntete {
     /**
      * Set the num facture.
      *
-     * @param string $numFacture The num facture.
+     * @param string|null $numFacture The num facture.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setNumFacture($numFacture) {
+    public function setNumFacture(?string $numFacture): FactFournEntete {
         $this->numFacture = $numFacture;
         return $this;
     }
@@ -392,10 +393,10 @@ class FactFournEntete {
     /**
      * Set the num fournisseur.
      *
-     * @param string $numFournisseur The num fournisseur.
+     * @param string|null $numFournisseur The num fournisseur.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setNumFournisseur($numFournisseur) {
+    public function setNumFournisseur(?string $numFournisseur): FactFournEntete {
         $this->numFournisseur = $numFournisseur;
         return $this;
     }
@@ -403,10 +404,10 @@ class FactFournEntete {
     /**
      * Set the num lot.
      *
-     * @param int $numLot The num lot.
+     * @param int|null $numLot The num lot.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setNumLot($numLot) {
+    public function setNumLot(?int $numLot): FactFournEntete {
         $this->numLot = $numLot;
         return $this;
     }
@@ -414,10 +415,10 @@ class FactFournEntete {
     /**
      * Set the num uniq.
      *
-     * @param string $numUniq The num uniq.
+     * @param string|null $numUniq The num uniq.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?string $numUniq): FactFournEntete {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -425,10 +426,10 @@ class FactFournEntete {
     /**
      * Set the ref image.
      *
-     * @param string $refImage The ref image.
+     * @param string|null $refImage The ref image.
      * @return FactFournEntete Returns this Fact fourn entete.
      */
-    public function setRefImage($refImage) {
+    public function setRefImage(?string $refImage): FactFournEntete {
         $this->refImage = $refImage;
         return $this;
     }

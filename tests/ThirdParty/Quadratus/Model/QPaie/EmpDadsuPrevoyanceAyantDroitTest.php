@@ -29,7 +29,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeACharge() {
+    public function testSetCodeACharge(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -42,7 +42,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffilSecu() {
+    public function testSetCodeAffilSecu(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -55,7 +55,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAutreCouverture() {
+    public function testSetCodeAutreCouverture(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -68,7 +68,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeExtensionSecu() {
+    public function testSetCodeExtensionSecu(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -81,7 +81,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeScolarise() {
+    public function testSetCodeScolarise(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -94,7 +94,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeType() {
+    public function testSetCodeType(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -108,7 +108,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNaissance() {
+    public function testSetDateNaissance(): void {
 
         // Set a Date/time mock.
         $dateNaissance = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNir() {
+    public function testSetNir(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -137,7 +137,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNirRattachement() {
+    public function testSetNirRattachement(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -150,7 +150,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -163,7 +163,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAyantDroit() {
+    public function testSetNumeroAyantDroit(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -176,7 +176,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -189,7 +189,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -202,7 +202,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRangNaissance() {
+    public function testSetRangNaissance(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 
@@ -215,7 +215,7 @@ class EmpDadsuPrevoyanceAyantDroitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroit();
 

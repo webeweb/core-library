@@ -22,321 +22,322 @@ class ComptesLibQuadra {
     /**
      * Code ducs.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDucs;
 
     /**
      * Code edition histo.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEditionHisto;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code type b spec prev.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTypeBSpecPrev;
 
     /**
      * Compte charge.
      *
-     * @var string
+     * @var string|null
      */
     private $compteCharge;
 
     /**
      * Condition spec.
      *
-     * @var string
+     * @var string|null
      */
     private $conditionSpec;
 
     /**
      * Edition forcee ds.
      *
-     * @var string
+     * @var string|null
      */
     private $editionForceeDs;
 
     /**
      * Exclure loi tepa.
      *
-     * @var string
+     * @var string|null
      */
     private $exclureLoiTepa;
 
     /**
      * Frais sante.
      *
-     * @var string
+     * @var string|null
      */
     private $fraisSante;
 
     /**
      * Prevoyance comp.
      *
-     * @var string
+     * @var string|null
      */
     private $prevoyanceComp;
 
     /**
      * Qualifiant cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $qualifiantCotis;
 
     /**
      * Retraite obligatoire.
      *
-     * @var string
+     * @var string|null
      */
     private $retraiteObligatoire;
 
     /**
      * Retraite supp.
      *
-     * @var string
+     * @var string|null
      */
     private $retraiteSupp;
 
     /**
      * Sans reintegration sociale.
      *
-     * @var string
+     * @var string|null
      */
     private $sansReintegrationSociale;
 
     /**
      * Soumis crds100.
      *
-     * @var string
+     * @var string|null
      */
     private $soumisCrds100;
 
     /**
      * Soumis csg100.
      *
-     * @var string
+     * @var string|null
      */
     private $soumisCsg100;
 
     /**
      * Taux forfait social20.
      *
-     * @var string
+     * @var string|null
      */
     private $tauxForfaitSocial20;
 
     /**
      * Taux forfait social8.
      *
-     * @var string
+     * @var string|null
      */
     private $tauxForfaitSocial8;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code ducs.
      *
-     * @return string Returns the code ducs.
+     * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs() {
+    public function getCodeDucs(): ?string{
         return $this->codeDucs;
     }
 
     /**
      * Get the code edition histo.
      *
-     * @return string Returns the code edition histo.
+     * @return string|null Returns the code edition histo.
      */
-    public function getCodeEditionHisto() {
+    public function getCodeEditionHisto(): ?string{
         return $this->codeEditionHisto;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code type b spec prev.
      *
-     * @return string Returns the code type b spec prev.
+     * @return string|null Returns the code type b spec prev.
      */
-    public function getCodeTypeBSpecPrev() {
+    public function getCodeTypeBSpecPrev(): ?string{
         return $this->codeTypeBSpecPrev;
     }
 
     /**
      * Get the compte charge.
      *
-     * @return string Returns the compte charge.
+     * @return string|null Returns the compte charge.
      */
-    public function getCompteCharge() {
+    public function getCompteCharge(): ?string{
         return $this->compteCharge;
     }
 
     /**
      * Get the condition spec.
      *
-     * @return string Returns the condition spec.
+     * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec() {
+    public function getConditionSpec(): ?string{
         return $this->conditionSpec;
     }
 
     /**
      * Get the edition forcee ds.
      *
-     * @return string Returns the edition forcee ds.
+     * @return string|null Returns the edition forcee ds.
      */
-    public function getEditionForceeDs() {
+    public function getEditionForceeDs(): ?string{
         return $this->editionForceeDs;
     }
 
     /**
      * Get the exclure loi tepa.
      *
-     * @return string Returns the exclure loi tepa.
+     * @return string|null Returns the exclure loi tepa.
      */
-    public function getExclureLoiTepa() {
+    public function getExclureLoiTepa(): ?string{
         return $this->exclureLoiTepa;
     }
 
     /**
      * Get the frais sante.
      *
-     * @return string Returns the frais sante.
+     * @return string|null Returns the frais sante.
      */
-    public function getFraisSante() {
+    public function getFraisSante(): ?string{
         return $this->fraisSante;
     }
 
     /**
      * Get the prevoyance comp.
      *
-     * @return string Returns the prevoyance comp.
+     * @return string|null Returns the prevoyance comp.
      */
-    public function getPrevoyanceComp() {
+    public function getPrevoyanceComp(): ?string{
         return $this->prevoyanceComp;
     }
 
     /**
      * Get the qualifiant cotis.
      *
-     * @return string Returns the qualifiant cotis.
+     * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis() {
+    public function getQualifiantCotis(): ?string{
         return $this->qualifiantCotis;
     }
 
     /**
      * Get the retraite obligatoire.
      *
-     * @return string Returns the retraite obligatoire.
+     * @return string|null Returns the retraite obligatoire.
      */
-    public function getRetraiteObligatoire() {
+    public function getRetraiteObligatoire(): ?string{
         return $this->retraiteObligatoire;
     }
 
     /**
      * Get the retraite supp.
      *
-     * @return string Returns the retraite supp.
+     * @return string|null Returns the retraite supp.
      */
-    public function getRetraiteSupp() {
+    public function getRetraiteSupp(): ?string{
         return $this->retraiteSupp;
     }
 
     /**
      * Get the sans reintegration sociale.
      *
-     * @return string Returns the sans reintegration sociale.
+     * @return string|null Returns the sans reintegration sociale.
      */
-    public function getSansReintegrationSociale() {
+    public function getSansReintegrationSociale(): ?string{
         return $this->sansReintegrationSociale;
     }
 
     /**
      * Get the soumis crds100.
      *
-     * @return string Returns the soumis crds100.
+     * @return string|null Returns the soumis crds100.
      */
-    public function getSoumisCrds100() {
+    public function getSoumisCrds100(): ?string{
         return $this->soumisCrds100;
     }
 
     /**
      * Get the soumis csg100.
      *
-     * @return string Returns the soumis csg100.
+     * @return string|null Returns the soumis csg100.
      */
-    public function getSoumisCsg100() {
+    public function getSoumisCsg100(): ?string{
         return $this->soumisCsg100;
     }
 
     /**
      * Get the taux forfait social20.
      *
-     * @return string Returns the taux forfait social20.
+     * @return string|null Returns the taux forfait social20.
      */
-    public function getTauxForfaitSocial20() {
+    public function getTauxForfaitSocial20(): ?string{
         return $this->tauxForfaitSocial20;
     }
 
     /**
      * Get the taux forfait social8.
      *
-     * @return string Returns the taux forfait social8.
+     * @return string|null Returns the taux forfait social8.
      */
-    public function getTauxForfaitSocial8() {
+    public function getTauxForfaitSocial8(): ?string{
         return $this->tauxForfaitSocial8;
     }
 
     /**
      * Set the code ducs.
      *
-     * @param string $codeDucs The code ducs.
+     * @param string|null $codeDucs The code ducs.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setCodeDucs($codeDucs) {
+    public function setCodeDucs(?string $codeDucs): ComptesLibQuadra {
         $this->codeDucs = $codeDucs;
         return $this;
     }
@@ -344,10 +345,10 @@ class ComptesLibQuadra {
     /**
      * Set the code edition histo.
      *
-     * @param string $codeEditionHisto The code edition histo.
+     * @param string|null $codeEditionHisto The code edition histo.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setCodeEditionHisto($codeEditionHisto) {
+    public function setCodeEditionHisto(?string $codeEditionHisto): ComptesLibQuadra {
         $this->codeEditionHisto = $codeEditionHisto;
         return $this;
     }
@@ -355,10 +356,10 @@ class ComptesLibQuadra {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): ComptesLibQuadra {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -366,10 +367,10 @@ class ComptesLibQuadra {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): ComptesLibQuadra {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -377,10 +378,10 @@ class ComptesLibQuadra {
     /**
      * Set the code type b spec prev.
      *
-     * @param string $codeTypeBSpecPrev The code type b spec prev.
+     * @param string|null $codeTypeBSpecPrev The code type b spec prev.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setCodeTypeBSpecPrev($codeTypeBSpecPrev) {
+    public function setCodeTypeBSpecPrev(?string $codeTypeBSpecPrev): ComptesLibQuadra {
         $this->codeTypeBSpecPrev = $codeTypeBSpecPrev;
         return $this;
     }
@@ -388,10 +389,10 @@ class ComptesLibQuadra {
     /**
      * Set the compte charge.
      *
-     * @param string $compteCharge The compte charge.
+     * @param string|null $compteCharge The compte charge.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setCompteCharge($compteCharge) {
+    public function setCompteCharge(?string $compteCharge): ComptesLibQuadra {
         $this->compteCharge = $compteCharge;
         return $this;
     }
@@ -399,10 +400,10 @@ class ComptesLibQuadra {
     /**
      * Set the condition spec.
      *
-     * @param string $conditionSpec The condition spec.
+     * @param string|null $conditionSpec The condition spec.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setConditionSpec($conditionSpec) {
+    public function setConditionSpec(?string $conditionSpec): ComptesLibQuadra {
         $this->conditionSpec = $conditionSpec;
         return $this;
     }
@@ -410,10 +411,10 @@ class ComptesLibQuadra {
     /**
      * Set the edition forcee ds.
      *
-     * @param string $editionForceeDs The edition forcee ds.
+     * @param string|null $editionForceeDs The edition forcee ds.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setEditionForceeDs($editionForceeDs) {
+    public function setEditionForceeDs(?string $editionForceeDs): ComptesLibQuadra {
         $this->editionForceeDs = $editionForceeDs;
         return $this;
     }
@@ -421,10 +422,10 @@ class ComptesLibQuadra {
     /**
      * Set the exclure loi tepa.
      *
-     * @param string $exclureLoiTepa The exclure loi tepa.
+     * @param string|null $exclureLoiTepa The exclure loi tepa.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setExclureLoiTepa($exclureLoiTepa) {
+    public function setExclureLoiTepa(?string $exclureLoiTepa): ComptesLibQuadra {
         $this->exclureLoiTepa = $exclureLoiTepa;
         return $this;
     }
@@ -432,10 +433,10 @@ class ComptesLibQuadra {
     /**
      * Set the frais sante.
      *
-     * @param string $fraisSante The frais sante.
+     * @param string|null $fraisSante The frais sante.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setFraisSante($fraisSante) {
+    public function setFraisSante(?string $fraisSante): ComptesLibQuadra {
         $this->fraisSante = $fraisSante;
         return $this;
     }
@@ -443,10 +444,10 @@ class ComptesLibQuadra {
     /**
      * Set the prevoyance comp.
      *
-     * @param string $prevoyanceComp The prevoyance comp.
+     * @param string|null $prevoyanceComp The prevoyance comp.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setPrevoyanceComp($prevoyanceComp) {
+    public function setPrevoyanceComp(?string $prevoyanceComp): ComptesLibQuadra {
         $this->prevoyanceComp = $prevoyanceComp;
         return $this;
     }
@@ -454,10 +455,10 @@ class ComptesLibQuadra {
     /**
      * Set the qualifiant cotis.
      *
-     * @param string $qualifiantCotis The qualifiant cotis.
+     * @param string|null $qualifiantCotis The qualifiant cotis.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setQualifiantCotis($qualifiantCotis) {
+    public function setQualifiantCotis(?string $qualifiantCotis): ComptesLibQuadra {
         $this->qualifiantCotis = $qualifiantCotis;
         return $this;
     }
@@ -465,10 +466,10 @@ class ComptesLibQuadra {
     /**
      * Set the retraite obligatoire.
      *
-     * @param string $retraiteObligatoire The retraite obligatoire.
+     * @param string|null $retraiteObligatoire The retraite obligatoire.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setRetraiteObligatoire($retraiteObligatoire) {
+    public function setRetraiteObligatoire(?string $retraiteObligatoire): ComptesLibQuadra {
         $this->retraiteObligatoire = $retraiteObligatoire;
         return $this;
     }
@@ -476,10 +477,10 @@ class ComptesLibQuadra {
     /**
      * Set the retraite supp.
      *
-     * @param string $retraiteSupp The retraite supp.
+     * @param string|null $retraiteSupp The retraite supp.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setRetraiteSupp($retraiteSupp) {
+    public function setRetraiteSupp(?string $retraiteSupp): ComptesLibQuadra {
         $this->retraiteSupp = $retraiteSupp;
         return $this;
     }
@@ -487,10 +488,10 @@ class ComptesLibQuadra {
     /**
      * Set the sans reintegration sociale.
      *
-     * @param string $sansReintegrationSociale The sans reintegration sociale.
+     * @param string|null $sansReintegrationSociale The sans reintegration sociale.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setSansReintegrationSociale($sansReintegrationSociale) {
+    public function setSansReintegrationSociale(?string $sansReintegrationSociale): ComptesLibQuadra {
         $this->sansReintegrationSociale = $sansReintegrationSociale;
         return $this;
     }
@@ -498,10 +499,10 @@ class ComptesLibQuadra {
     /**
      * Set the soumis crds100.
      *
-     * @param string $soumisCrds100 The soumis crds100.
+     * @param string|null $soumisCrds100 The soumis crds100.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setSoumisCrds100($soumisCrds100) {
+    public function setSoumisCrds100(?string $soumisCrds100): ComptesLibQuadra {
         $this->soumisCrds100 = $soumisCrds100;
         return $this;
     }
@@ -509,10 +510,10 @@ class ComptesLibQuadra {
     /**
      * Set the soumis csg100.
      *
-     * @param string $soumisCsg100 The soumis csg100.
+     * @param string|null $soumisCsg100 The soumis csg100.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setSoumisCsg100($soumisCsg100) {
+    public function setSoumisCsg100(?string $soumisCsg100): ComptesLibQuadra {
         $this->soumisCsg100 = $soumisCsg100;
         return $this;
     }
@@ -520,10 +521,10 @@ class ComptesLibQuadra {
     /**
      * Set the taux forfait social20.
      *
-     * @param string $tauxForfaitSocial20 The taux forfait social20.
+     * @param string|null $tauxForfaitSocial20 The taux forfait social20.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setTauxForfaitSocial20($tauxForfaitSocial20) {
+    public function setTauxForfaitSocial20(?string $tauxForfaitSocial20): ComptesLibQuadra {
         $this->tauxForfaitSocial20 = $tauxForfaitSocial20;
         return $this;
     }
@@ -531,10 +532,10 @@ class ComptesLibQuadra {
     /**
      * Set the taux forfait social8.
      *
-     * @param string $tauxForfaitSocial8 The taux forfait social8.
+     * @param string|null $tauxForfaitSocial8 The taux forfait social8.
      * @return ComptesLibQuadra Returns this Comptes lib quadra.
      */
-    public function setTauxForfaitSocial8($tauxForfaitSocial8) {
+    public function setTauxForfaitSocial8(?string $tauxForfaitSocial8): ComptesLibQuadra {
         $this->tauxForfaitSocial8 = $tauxForfaitSocial8;
         return $this;
     }

@@ -22,25 +22,25 @@ trait StringHouseNumberTrait {
     /**
      * House number.
      *
-     * @var string
+     * @var string|null
      */
     protected $houseNumber;
 
     /**
      * Get the house number.
      *
-     * @return string Returns the house number.
+     * @return string|null Returns the house number.
      */
-    public function getHouseNumber() {
+    public function getHouseNumber(): ?string {
         return $this->houseNumber;
     }
 
     /**
      * Set the house number.
      *
-     * @param string $houseNumber The house number.
+     * @param string|null $houseNumber The house number.
      */
-    public function setHouseNumber($houseNumber) {
+    public function setHouseNumber(?string $houseNumber) {
         $this->houseNumber = $houseNumber;
         return $this;
     }

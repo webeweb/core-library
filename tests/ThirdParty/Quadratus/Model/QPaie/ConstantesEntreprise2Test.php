@@ -30,7 +30,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplicationForfaitSocial8() {
+    public function testSetDateApplicationForfaitSocial8(): void {
 
         // Set a Date/time mock.
         $dateApplicationForfaitSocial8 = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplicationFsLisse() {
+    public function testSetDateApplicationFsLisse(): void {
 
         // Set a Date/time mock.
         $dateApplicationFsLisse = new DateTime("2018-09-10");
@@ -63,7 +63,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGereEvtFinContratLot() {
+    public function testSetGereEvtFinContratLot(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -76,7 +76,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGerePrevNormeDsn() {
+    public function testSetGerePrevNormeDsn(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -89,7 +89,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionDsn() {
+    public function testSetGestionDsn(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -102,7 +102,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNEvenementDsn() {
+    public function testSetNEvenementDsn(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -115,7 +115,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasActiverPrimeAnnuelleProprete() {
+    public function testSetNePasActiverPrimeAnnuelleProprete(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -128,7 +128,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegimeMixteMsa() {
+    public function testSetRegimeMixteMsa(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -141,7 +141,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPrimeAnnuellePropreteMoins20Ans() {
+    public function testSetTauxPrimeAnnuellePropreteMoins20Ans(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -154,7 +154,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPrimeAnnuellePropretePlus20Ans() {
+    public function testSetTauxPrimeAnnuellePropretePlus20Ans(): void {
 
         $obj = new ConstantesEntreprise2();
 
@@ -167,7 +167,7 @@ class ConstantesEntreprise2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstantesEntreprise2();
 

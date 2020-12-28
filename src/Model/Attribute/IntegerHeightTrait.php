@@ -22,25 +22,25 @@ trait IntegerHeightTrait {
     /**
      * Height.
      *
-     * @var int
+     * @var int|null
      */
     protected $height;
 
     /**
      * Get the height.
      *
-     * @return int Returns the height.
+     * @return int|null Returns the height.
      */
-    public function getHeight() {
+    public function getHeight(): ?int {
         return $this->height;
     }
 
     /**
      * Set the height.
      *
-     * @param int $height The height.
+     * @param int|null $height The height.
      */
-    public function setHeight($height) {
+    public function setHeight(?int $height) {
         $this->height = $height;
         return $this;
     }

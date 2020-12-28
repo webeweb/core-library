@@ -29,7 +29,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new DevisEntetes();
 
@@ -42,7 +42,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCivilite() {
+    public function testSetCivilite(): void {
 
         $obj = new DevisEntetes();
 
@@ -55,7 +55,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClientProspect() {
+    public function testSetClientProspect(): void {
 
         $obj = new DevisEntetes();
 
@@ -68,7 +68,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisEntetes();
 
@@ -81,7 +81,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCommercial() {
+    public function testSetCodeCommercial(): void {
 
         $obj = new DevisEntetes();
 
@@ -94,7 +94,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new DevisEntetes();
 
@@ -107,7 +107,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new DevisEntetes();
 
@@ -120,7 +120,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new DevisEntetes();
 
@@ -134,7 +134,7 @@ class DevisEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -151,7 +151,7 @@ class DevisEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDevis() {
+    public function testSetDateDevis(): void {
 
         // Set a Date/time mock.
         $dateDevis = new DateTime("2018-09-10");
@@ -168,7 +168,7 @@ class DevisEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -184,7 +184,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new DevisEntetes();
 
@@ -197,7 +197,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new DevisEntetes();
 
@@ -210,7 +210,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new DevisEntetes();
 
@@ -223,7 +223,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHt() {
+    public function testSetMontantHt(): void {
 
         $obj = new DevisEntetes();
 
@@ -236,7 +236,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomAdresse() {
+    public function testSetNomAdresse(): void {
 
         $obj = new DevisEntetes();
 
@@ -249,7 +249,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new DevisEntetes();
 
@@ -262,7 +262,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite2() {
+    public function testSetNomSuite2(): void {
 
         $obj = new DevisEntetes();
 
@@ -275,7 +275,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite3() {
+    public function testSetNomSuite3(): void {
 
         $obj = new DevisEntetes();
 
@@ -288,7 +288,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille() {
+    public function testSetNomVille(): void {
 
         $obj = new DevisEntetes();
 
@@ -301,7 +301,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new DevisEntetes();
 
@@ -314,7 +314,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisEntetes();
 
@@ -327,7 +327,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new DevisEntetes();
 
@@ -340,7 +340,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new DevisEntetes();
 
@@ -353,7 +353,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference1() {
+    public function testSetReference1(): void {
 
         $obj = new DevisEntetes();
 
@@ -366,7 +366,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference2() {
+    public function testSetReference2(): void {
 
         $obj = new DevisEntetes();
 
@@ -379,7 +379,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference3() {
+    public function testSetReference3(): void {
 
         $obj = new DevisEntetes();
 
@@ -392,7 +392,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference4() {
+    public function testSetReference4(): void {
 
         $obj = new DevisEntetes();
 
@@ -405,7 +405,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva() {
+    public function testSetTauxTva(): void {
 
         $obj = new DevisEntetes();
 
@@ -418,7 +418,7 @@ class DevisEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisEntetes();
 

@@ -38,7 +38,7 @@ class StartRecordFormatParser extends AbstractParser {
      * @return string Returns the parsed start record format.
      * @throws TooLongDataException Throws a too long data exception if a data is too long.
      */
-    public function parseEntity(StartRecordFormat $entity) {
+    public function parseEntity(StartRecordFormat $entity): string {
 
         $output = [
             $this->encodeInteger($entity->getVersionRecordStructure(), 6),
@@ -58,7 +58,7 @@ class StartRecordFormatParser extends AbstractParser {
      * @return StartRecordFormat Returns a start record format entity.
      * @throws IntegerArgumentException Throws an integer argument exception.
      */
-    public function parseLine($line) {
+    public function parseLine(string $line): StartRecordFormat {
 
         $data = explode(";", $line);
 

@@ -22,113 +22,114 @@ class EmpDadsuPrevoyanceLignesContrat {
     /**
      * Code option.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOption;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code population.
      *
-     * @var string
+     * @var string|null
      */
     private $codePopulation;
 
     /**
      * Nb enfants.
      *
-     * @var string
+     * @var string|null
      */
     private $nbEnfants;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code option.
      *
-     * @return string Returns the code option.
+     * @return string|null Returns the code option.
      */
-    public function getCodeOption() {
+    public function getCodeOption(): ?string{
         return $this->codeOption;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code population.
      *
-     * @return string Returns the code population.
+     * @return string|null Returns the code population.
      */
-    public function getCodePopulation() {
+    public function getCodePopulation(): ?string{
         return $this->codePopulation;
     }
 
     /**
      * Get the nb enfants.
      *
-     * @return string Returns the nb enfants.
+     * @return string|null Returns the nb enfants.
      */
-    public function getNbEnfants() {
+    public function getNbEnfants(): ?string{
         return $this->nbEnfants;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Set the code option.
      *
-     * @param string $codeOption The code option.
+     * @param string|null $codeOption The code option.
      * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
-    public function setCodeOption($codeOption) {
+    public function setCodeOption(?string $codeOption): EmpDadsuPrevoyanceLignesContrat {
         $this->codeOption = $codeOption;
         return $this;
     }
@@ -136,10 +137,10 @@ class EmpDadsuPrevoyanceLignesContrat {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): EmpDadsuPrevoyanceLignesContrat {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -147,10 +148,10 @@ class EmpDadsuPrevoyanceLignesContrat {
     /**
      * Set the code population.
      *
-     * @param string $codePopulation The code population.
+     * @param string|null $codePopulation The code population.
      * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
-    public function setCodePopulation($codePopulation) {
+    public function setCodePopulation(?string $codePopulation): EmpDadsuPrevoyanceLignesContrat {
         $this->codePopulation = $codePopulation;
         return $this;
     }
@@ -158,10 +159,10 @@ class EmpDadsuPrevoyanceLignesContrat {
     /**
      * Set the nb enfants.
      *
-     * @param string $nbEnfants The nb enfants.
+     * @param string|null $nbEnfants The nb enfants.
      * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
-    public function setNbEnfants($nbEnfants) {
+    public function setNbEnfants(?string $nbEnfants): EmpDadsuPrevoyanceLignesContrat {
         $this->nbEnfants = $nbEnfants;
         return $this;
     }
@@ -169,10 +170,10 @@ class EmpDadsuPrevoyanceLignesContrat {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpDadsuPrevoyanceLignesContrat {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -180,10 +181,10 @@ class EmpDadsuPrevoyanceLignesContrat {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return EmpDadsuPrevoyanceLignesContrat Returns this Emp dadsu prevoyance lignes contrat.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): EmpDadsuPrevoyanceLignesContrat {
         $this->refContrat = $refContrat;
         return $this;
     }

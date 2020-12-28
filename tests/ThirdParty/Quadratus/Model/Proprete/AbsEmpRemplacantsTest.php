@@ -29,7 +29,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAjouterEnHCompl() {
+    public function testSetAjouterEnHCompl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -42,7 +42,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvenantHRempl() {
+    public function testSetAvenantHRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -55,7 +55,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -68,7 +68,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaireRempl() {
+    public function testSetCodeAffaireRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -81,7 +81,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -94,7 +94,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantierRempl() {
+    public function testSetCodeChantierRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -107,7 +107,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -120,7 +120,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClientRempl() {
+    public function testSetCodeClientRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -133,7 +133,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -146,7 +146,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -159,7 +159,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -172,7 +172,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRemplacant() {
+    public function testSetCodeRemplacant(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -185,7 +185,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -198,7 +198,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheRempl() {
+    public function testSetCodeTacheRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -212,7 +212,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAbsDecalee() {
+    public function testSetDateAbsDecalee(): void {
 
         // Set a Date/time mock.
         $dateAbsDecalee = new DateTime("2018-09-10");
@@ -229,7 +229,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutAbs() {
+    public function testSetDateDebutAbs(): void {
 
         // Set a Date/time mock.
         $dateDebutAbs = new DateTime("2018-09-10");
@@ -246,7 +246,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutRempl() {
+    public function testSetDateDebutRempl(): void {
 
         // Set a Date/time mock.
         $dateDebutRempl = new DateTime("2018-09-10");
@@ -263,7 +263,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinRempl() {
+    public function testSetDateFinRempl(): void {
 
         // Set a Date/time mock.
         $dateFinRempl = new DateTime("2018-09-10");
@@ -280,7 +280,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -296,7 +296,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeRemplacement() {
+    public function testSetDureeRemplacement(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -309,7 +309,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -322,7 +322,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -335,7 +335,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBtRempl() {
+    public function testSetNumBtRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -348,7 +348,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumRempl() {
+    public function testSetNumRempl(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -361,7 +361,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAvenant() {
+    public function testSetNumeroAvenant(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -374,7 +374,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemplacantTravailleJf() {
+    public function testSetRemplacantTravailleJf(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -387,7 +387,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemplacementComplet() {
+    public function testSetRemplacementComplet(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -400,7 +400,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemplacementModifie() {
+    public function testSetRemplacementModifie(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -413,7 +413,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new AbsEmpRemplacants();
 
@@ -426,7 +426,7 @@ class AbsEmpRemplacantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AbsEmpRemplacants();
 

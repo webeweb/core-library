@@ -24,21 +24,21 @@ class ChargesPaiePrimes {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code prime.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrime;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
@@ -49,37 +49,38 @@ class ChargesPaiePrimes {
      */
     private $periode;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code prime.
      *
-     * @return string Returns the code prime.
+     * @return string|null Returns the code prime.
      */
-    public function getCodePrime() {
+    public function getCodePrime(): ?string{
         return $this->codePrime;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
@@ -88,17 +89,17 @@ class ChargesPaiePrimes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): ChargesPaiePrimes {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -106,10 +107,10 @@ class ChargesPaiePrimes {
     /**
      * Set the code prime.
      *
-     * @param string $codePrime The code prime.
+     * @param string|null $codePrime The code prime.
      * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
-    public function setCodePrime($codePrime) {
+    public function setCodePrime(?string $codePrime): ChargesPaiePrimes {
         $this->codePrime = $codePrime;
         return $this;
     }
@@ -117,10 +118,10 @@ class ChargesPaiePrimes {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): ChargesPaiePrimes {
         $this->montant = $montant;
         return $this;
     }
@@ -131,7 +132,7 @@ class ChargesPaiePrimes {
      * @param DateTime|null $periode The periode.
      * @return ChargesPaiePrimes Returns this Charges paie primes.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): ChargesPaiePrimes {
         $this->periode = $periode;
         return $this;
     }

@@ -22,25 +22,25 @@ trait StringDirectoryTrait {
     /**
      * Directory.
      *
-     * @var string
+     * @var string|null
      */
     protected $directory;
 
     /**
      * Get the directory.
      *
-     * @return string Returns the directory.
+     * @return string|null Returns the directory.
      */
-    public function getDirectory() {
+    public function getDirectory(): ?string {
         return $this->directory;
     }
 
     /**
      * Set the directory.
      *
-     * @param string $directory The directory.
+     * @param string|null $directory The directory.
      */
-    public function setDirectory($directory) {
+    public function setDirectory(?string $directory) {
         $this->directory = $directory;
         return $this;
     }

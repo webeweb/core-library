@@ -27,7 +27,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -40,7 +40,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -53,7 +53,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -66,7 +66,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceLigne() {
+    public function testSetIndiceLigne(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -79,7 +79,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -92,7 +92,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoPiece() {
+    public function testSetNoPiece(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -105,7 +105,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -118,7 +118,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigneAnal() {
+    public function testSetNumeroLigneAnal(): void {
 
         $obj = new SousLignesAnalAchats();
 
@@ -131,7 +131,7 @@ class SousLignesAnalAchatsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SousLignesAnalAchats();
 

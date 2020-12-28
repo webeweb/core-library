@@ -24,35 +24,35 @@ class DernErrPrepaFact {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Designation.
      *
-     * @var string
+     * @var string|null
      */
     private $designation;
 
@@ -66,7 +66,7 @@ class DernErrPrepaFact {
     /**
      * No chrono preparation.
      *
-     * @var int
+     * @var int|null
      */
     private $noChronoPreparation;
 
@@ -77,55 +77,56 @@ class DernErrPrepaFact {
      */
     private $periode;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the designation.
      *
-     * @return string Returns the designation.
+     * @return string|null Returns the designation.
      */
-    public function getDesignation() {
+    public function getDesignation(): ?string{
         return $this->designation;
     }
 
@@ -134,16 +135,16 @@ class DernErrPrepaFact {
      *
      * @return DateTime|null Returns the dt prepa.
      */
-    public function getDtPrepa() {
+    public function getDtPrepa(): ?DateTime{
         return $this->dtPrepa;
     }
 
     /**
      * Get the no chrono preparation.
      *
-     * @return int Returns the no chrono preparation.
+     * @return int|null Returns the no chrono preparation.
      */
-    public function getNoChronoPreparation() {
+    public function getNoChronoPreparation(): ?int{
         return $this->noChronoPreparation;
     }
 
@@ -152,17 +153,17 @@ class DernErrPrepaFact {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): DernErrPrepaFact {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -170,10 +171,10 @@ class DernErrPrepaFact {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): DernErrPrepaFact {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -181,10 +182,10 @@ class DernErrPrepaFact {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): DernErrPrepaFact {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -192,10 +193,10 @@ class DernErrPrepaFact {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): DernErrPrepaFact {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -203,10 +204,10 @@ class DernErrPrepaFact {
     /**
      * Set the designation.
      *
-     * @param string $designation The designation.
+     * @param string|null $designation The designation.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setDesignation($designation) {
+    public function setDesignation(?string $designation): DernErrPrepaFact {
         $this->designation = $designation;
         return $this;
     }
@@ -217,7 +218,7 @@ class DernErrPrepaFact {
      * @param DateTime|null $dtPrepa The dt prepa.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setDtPrepa(DateTime $dtPrepa = null) {
+    public function setDtPrepa(?DateTime $dtPrepa): DernErrPrepaFact {
         $this->dtPrepa = $dtPrepa;
         return $this;
     }
@@ -225,10 +226,10 @@ class DernErrPrepaFact {
     /**
      * Set the no chrono preparation.
      *
-     * @param int $noChronoPreparation The no chrono preparation.
+     * @param int|null $noChronoPreparation The no chrono preparation.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setNoChronoPreparation($noChronoPreparation) {
+    public function setNoChronoPreparation(?int $noChronoPreparation): DernErrPrepaFact {
         $this->noChronoPreparation = $noChronoPreparation;
         return $this;
     }
@@ -239,7 +240,7 @@ class DernErrPrepaFact {
      * @param DateTime|null $periode The periode.
      * @return DernErrPrepaFact Returns this Dern err prepa fact.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): DernErrPrepaFact {
         $this->periode = $periode;
         return $this;
     }

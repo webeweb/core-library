@@ -27,7 +27,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new AttestationFiscale();
 
@@ -40,7 +40,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle1() {
+    public function testSetCodeArticle1(): void {
 
         $obj = new AttestationFiscale();
 
@@ -53,7 +53,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle10() {
+    public function testSetCodeArticle10(): void {
 
         $obj = new AttestationFiscale();
 
@@ -66,7 +66,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle2() {
+    public function testSetCodeArticle2(): void {
 
         $obj = new AttestationFiscale();
 
@@ -79,7 +79,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle3() {
+    public function testSetCodeArticle3(): void {
 
         $obj = new AttestationFiscale();
 
@@ -92,7 +92,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle4() {
+    public function testSetCodeArticle4(): void {
 
         $obj = new AttestationFiscale();
 
@@ -105,7 +105,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle5() {
+    public function testSetCodeArticle5(): void {
 
         $obj = new AttestationFiscale();
 
@@ -118,7 +118,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle6() {
+    public function testSetCodeArticle6(): void {
 
         $obj = new AttestationFiscale();
 
@@ -131,7 +131,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle7() {
+    public function testSetCodeArticle7(): void {
 
         $obj = new AttestationFiscale();
 
@@ -144,7 +144,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle8() {
+    public function testSetCodeArticle8(): void {
 
         $obj = new AttestationFiscale();
 
@@ -157,7 +157,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle9() {
+    public function testSetCodeArticle9(): void {
 
         $obj = new AttestationFiscale();
 
@@ -170,7 +170,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AttestationFiscale();
 
@@ -183,7 +183,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeAnnuelle() {
+    public function testSetDureeAnnuelle(): void {
 
         $obj = new AttestationFiscale();
 
@@ -196,7 +196,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new AttestationFiscale();
 
@@ -209,7 +209,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille1() {
+    public function testSetFamille1(): void {
 
         $obj = new AttestationFiscale();
 
@@ -222,7 +222,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille10() {
+    public function testSetFamille10(): void {
 
         $obj = new AttestationFiscale();
 
@@ -235,7 +235,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille2() {
+    public function testSetFamille2(): void {
 
         $obj = new AttestationFiscale();
 
@@ -248,7 +248,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille3() {
+    public function testSetFamille3(): void {
 
         $obj = new AttestationFiscale();
 
@@ -261,7 +261,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille4() {
+    public function testSetFamille4(): void {
 
         $obj = new AttestationFiscale();
 
@@ -274,7 +274,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille5() {
+    public function testSetFamille5(): void {
 
         $obj = new AttestationFiscale();
 
@@ -287,7 +287,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille6() {
+    public function testSetFamille6(): void {
 
         $obj = new AttestationFiscale();
 
@@ -300,7 +300,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille7() {
+    public function testSetFamille7(): void {
 
         $obj = new AttestationFiscale();
 
@@ -313,7 +313,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille8() {
+    public function testSetFamille8(): void {
 
         $obj = new AttestationFiscale();
 
@@ -326,7 +326,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille9() {
+    public function testSetFamille9(): void {
 
         $obj = new AttestationFiscale();
 
@@ -339,7 +339,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new AttestationFiscale();
 
@@ -352,7 +352,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeReglement() {
+    public function testSetModeReglement(): void {
 
         $obj = new AttestationFiscale();
 
@@ -365,7 +365,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTes() {
+    public function testSetMontantTes(): void {
 
         $obj = new AttestationFiscale();
 
@@ -378,7 +378,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTtc() {
+    public function testSetMontantTtc(): void {
 
         $obj = new AttestationFiscale();
 
@@ -391,7 +391,7 @@ class AttestationFiscaleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AttestationFiscale();
 

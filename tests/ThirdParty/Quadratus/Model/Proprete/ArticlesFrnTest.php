@@ -27,7 +27,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticlesFrn();
 
@@ -40,7 +40,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new ArticlesFrn();
 
@@ -53,7 +53,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires() {
+    public function testSetCommentaires(): void {
 
         $obj = new ArticlesFrn();
 
@@ -66,7 +66,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionnement() {
+    public function testSetConditionnement(): void {
 
         $obj = new ArticlesFrn();
 
@@ -79,7 +79,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiLe() {
+    public function testSetDelaiLe(): void {
 
         $obj = new ArticlesFrn();
 
@@ -92,7 +92,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiLocal() {
+    public function testSetDelaiLocal(): void {
 
         $obj = new ArticlesFrn();
 
@@ -105,7 +105,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiNombre() {
+    public function testSetDelaiNombre(): void {
 
         $obj = new ArticlesFrn();
 
@@ -118,7 +118,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiType() {
+    public function testSetDelaiType(): void {
 
         $obj = new ArticlesFrn();
 
@@ -131,7 +131,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefArticleFournisseur() {
+    public function testSetRefArticleFournisseur(): void {
 
         $obj = new ArticlesFrn();
 
@@ -144,7 +144,7 @@ class ArticlesFrnTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticlesFrn();
 

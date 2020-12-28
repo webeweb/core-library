@@ -22,65 +22,66 @@ class LstDiffusionTetes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int{
         return $this->type;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return LstDiffusionTetes Returns this Lst diffusion tetes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): LstDiffusionTetes {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +89,10 @@ class LstDiffusionTetes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return LstDiffusionTetes Returns this Lst diffusion tetes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): LstDiffusionTetes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -99,10 +100,10 @@ class LstDiffusionTetes {
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      * @return LstDiffusionTetes Returns this Lst diffusion tetes.
      */
-    public function setType($type) {
+    public function setType(?int $type): LstDiffusionTetes {
         $this->type = $type;
         return $this;
     }

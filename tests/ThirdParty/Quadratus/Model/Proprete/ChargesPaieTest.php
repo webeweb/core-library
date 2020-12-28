@@ -29,7 +29,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArbitrage() {
+    public function testSetArbitrage(): void {
 
         $obj = new ChargesPaie();
 
@@ -42,7 +42,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrut() {
+    public function testSetBrut(): void {
 
         $obj = new ChargesPaie();
 
@@ -55,7 +55,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAl() {
+    public function testSetBrutAl(): void {
 
         $obj = new ChargesPaie();
 
@@ -68,7 +68,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAnl() {
+    public function testSetBrutAnl(): void {
 
         $obj = new ChargesPaie();
 
@@ -81,7 +81,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargesPatronales() {
+    public function testSetChargesPatronales(): void {
 
         $obj = new ChargesPaie();
 
@@ -94,7 +94,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new ChargesPaie();
 
@@ -107,7 +107,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEuro() {
+    public function testSetEuro(): void {
 
         $obj = new ChargesPaie();
 
@@ -120,7 +120,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeuresSup() {
+    public function testSetHeuresSup(): void {
 
         $obj = new ChargesPaie();
 
@@ -133,7 +133,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImpos() {
+    public function testSetImpos(): void {
 
         $obj = new ChargesPaie();
 
@@ -146,7 +146,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemniteCp() {
+    public function testSetIndemniteCp(): void {
 
         $obj = new ChargesPaie();
 
@@ -159,7 +159,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnitePrecarite() {
+    public function testSetIndemnitePrecarite(): void {
 
         $obj = new ChargesPaie();
 
@@ -172,7 +172,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInteressement() {
+    public function testSetInteressement(): void {
 
         $obj = new ChargesPaie();
 
@@ -185,7 +185,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtNetPayeTheo() {
+    public function testSetMtNetPayeTheo(): void {
 
         $obj = new ChargesPaie();
 
@@ -198,7 +198,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAbs() {
+    public function testSetNbHAbs(): void {
 
         $obj = new ChargesPaie();
 
@@ -211,7 +211,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHBase() {
+    public function testSetNbHBase(): void {
 
         $obj = new ChargesPaie();
 
@@ -224,7 +224,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRc() {
+    public function testSetNbHRc(): void {
 
         $obj = new ChargesPaie();
 
@@ -237,7 +237,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup1() {
+    public function testSetNbHSup1(): void {
 
         $obj = new ChargesPaie();
 
@@ -250,7 +250,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup2() {
+    public function testSetNbHSup2(): void {
 
         $obj = new ChargesPaie();
 
@@ -263,7 +263,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup3() {
+    public function testSetNbHSup3(): void {
 
         $obj = new ChargesPaie();
 
@@ -276,7 +276,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHn() {
+    public function testSetNbHn(): void {
 
         $obj = new ChargesPaie();
 
@@ -289,7 +289,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHt() {
+    public function testSetNbHt(): void {
 
         $obj = new ChargesPaie();
 
@@ -302,7 +302,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParticipation() {
+    public function testSetParticipation(): void {
 
         $obj = new ChargesPaie();
 
@@ -316,7 +316,7 @@ class ChargesPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -332,7 +332,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProvisionCp() {
+    public function testSetProvisionCp(): void {
 
         $obj = new ChargesPaie();
 
@@ -345,7 +345,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSBase() {
+    public function testSetSBase(): void {
 
         $obj = new ChargesPaie();
 
@@ -358,7 +358,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaire() {
+    public function testSetSalaire(): void {
 
         $obj = new ChargesPaie();
 
@@ -371,7 +371,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotRet() {
+    public function testSetTotRet(): void {
 
         $obj = new ChargesPaie();
 
@@ -384,7 +384,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrA() {
+    public function testSetTrA(): void {
 
         $obj = new ChargesPaie();
 
@@ -397,7 +397,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrB() {
+    public function testSetTrB(): void {
 
         $obj = new ChargesPaie();
 
@@ -410,7 +410,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrC() {
+    public function testSetTrC(): void {
 
         $obj = new ChargesPaie();
 
@@ -423,7 +423,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxHn() {
+    public function testSetTxHn(): void {
 
         $obj = new ChargesPaie();
 
@@ -436,7 +436,7 @@ class ChargesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChargesPaie();
 

@@ -27,7 +27,7 @@ class DevisZbeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBatiment() {
+    public function testSetBatiment(): void {
 
         $obj = new DevisZbe();
 
@@ -40,7 +40,7 @@ class DevisZbeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtage() {
+    public function testSetEtage(): void {
 
         $obj = new DevisZbe();
 
@@ -53,7 +53,7 @@ class DevisZbeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisZbe();
 
@@ -66,7 +66,7 @@ class DevisZbeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZoneGeographique() {
+    public function testSetZoneGeographique(): void {
 
         $obj = new DevisZbe();
 
@@ -79,7 +79,7 @@ class DevisZbeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisZbe();
 

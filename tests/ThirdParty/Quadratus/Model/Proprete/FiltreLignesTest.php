@@ -27,7 +27,7 @@ class FiltreLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new FiltreLignes();
 
@@ -40,7 +40,7 @@ class FiltreLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new FiltreLignes();
 
@@ -53,7 +53,7 @@ class FiltreLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FiltreLignes();
 

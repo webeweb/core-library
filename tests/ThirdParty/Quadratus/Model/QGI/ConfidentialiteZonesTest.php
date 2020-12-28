@@ -27,7 +27,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChamp() {
+    public function testSetChamp(): void {
 
         $obj = new ConfidentialiteZones();
 
@@ -40,7 +40,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChapitre() {
+    public function testSetChapitre(): void {
 
         $obj = new ConfidentialiteZones();
 
@@ -53,7 +53,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new ConfidentialiteZones();
 
@@ -66,7 +66,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new ConfidentialiteZones();
 
@@ -79,7 +79,7 @@ class ConfidentialiteZonesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConfidentialiteZones();
 

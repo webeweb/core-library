@@ -27,7 +27,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesLibre() {
+    public function testSetAccesLibre(): void {
 
         $obj = new DroitsAccesIntervenantsCollab();
 
@@ -40,7 +40,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new DroitsAccesIntervenantsCollab();
 
@@ -53,7 +53,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeIntervenant() {
+    public function testSetTypeIntervenant(): void {
 
         $obj = new DroitsAccesIntervenantsCollab();
 
@@ -66,7 +66,7 @@ class DroitsAccesIntervenantsCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DroitsAccesIntervenantsCollab();
 

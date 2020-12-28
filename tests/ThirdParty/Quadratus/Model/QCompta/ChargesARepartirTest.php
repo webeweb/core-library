@@ -29,7 +29,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new ChargesARepartir();
 
@@ -42,7 +42,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffDegressif() {
+    public function testSetCoeffDegressif(): void {
 
         $obj = new ChargesARepartir();
 
@@ -56,7 +56,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new ChargesARepartir();
 
@@ -85,7 +85,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ChargesARepartir();
 
@@ -98,7 +98,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new ChargesARepartir();
 
@@ -111,7 +111,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumContrat() {
+    public function testSetNumContrat(): void {
 
         $obj = new ChargesARepartir();
 
@@ -124,7 +124,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptCar() {
+    public function testSetNumCptCar(): void {
 
         $obj = new ChargesARepartir();
 
@@ -137,7 +137,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new ChargesARepartir();
 
@@ -150,7 +150,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxLineaire() {
+    public function testSetTauxLineaire(): void {
 
         $obj = new ChargesARepartir();
 
@@ -163,7 +163,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAmort() {
+    public function testSetTypeAmort(): void {
 
         $obj = new ChargesARepartir();
 
@@ -176,7 +176,7 @@ class ChargesARepartirTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChargesARepartir();
 

@@ -24,35 +24,35 @@ class DeclarationCafat {
     /**
      * Adresse1.
      *
-     * @var string
+     * @var string|null
      */
     private $adresse1;
 
     /**
      * Adresse2.
      *
-     * @var string
+     * @var string|null
      */
     private $adresse2;
 
     /**
      * Adresse3.
      *
-     * @var string
+     * @var string|null
      */
     private $adresse3;
 
     /**
      * Code cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCotis;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
@@ -66,70 +66,70 @@ class DeclarationCafat {
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Mt autre deduction.
      *
-     * @var float
+     * @var float|null
      */
     private $mtAutreDeduction;
 
     /**
      * Mt deduction acompte.
      *
-     * @var float
+     * @var float|null
      */
     private $mtDeductionAcompte;
 
     /**
      * Mt deduction acompte1.
      *
-     * @var float
+     * @var float|null
      */
     private $mtDeductionAcompte1;
 
     /**
      * Mt deduction acompte2.
      *
-     * @var float
+     * @var float|null
      */
     private $mtDeductionAcompte2;
 
     /**
      * Nb salaries.
      *
-     * @var int
+     * @var int|null
      */
     private $nbSalaries;
 
     /**
      * No cotisant.
      *
-     * @var string
+     * @var string|null
      */
     private $noCotisant;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
 
     /**
      * Pas de personnel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasDePersonnel;
 
     /**
      * Pas de reembauche.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasDeReembauche;
 
@@ -143,234 +143,235 @@ class DeclarationCafat {
     /**
      * Plafond1 ruamm tr2.
      *
-     * @var float
+     * @var float|null
      */
     private $plafond1RuammTr2;
 
     /**
      * Plafond2 ruamm tr2.
      *
-     * @var float
+     * @var float|null
      */
     private $plafond2RuammTr2;
 
     /**
      * Plafond autre regime.
      *
-     * @var float
+     * @var float|null
      */
     private $plafondAutreRegime;
 
     /**
      * Plafond fsh.
      *
-     * @var float
+     * @var float|null
      */
     private $plafondFsh;
 
     /**
      * Plafond maladie.
      *
-     * @var float
+     * @var float|null
      */
     private $plafondMaladie;
 
     /**
      * Plafond salaire.
      *
-     * @var float
+     * @var float|null
      */
     private $plafondSalaire;
 
     /**
-     * Raison sociale.
-     *
-     * @var string
-     */
-    private $raisonSociale;
-
-    /**
      * Rid.
      *
-     * @var string
+     * @var string|null
      */
     private $rid;
 
     /**
+     * Raison sociale.
+     *
+     * @var string|null
+     */
+    private $raisonSociale;
+
+    /**
      * Secteur.
      *
-     * @var string
+     * @var string|null
      */
     private $secteur;
 
     /**
      * Taux at.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxAt;
 
     /**
      * Taux autre regime.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxAutreRegime;
 
     /**
      * Taux ccs.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxCcs;
 
     /**
      * Taux fsh.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxFsh;
 
     /**
      * Taux maladie.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxMaladie;
 
     /**
      * Taux ruamm tr2.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxRuammTr2;
 
     /**
      * Total cotis autre regime.
      *
-     * @var float
+     * @var float|null
      */
     private $totalCotisAutreRegime;
 
     /**
      * Total cotis ccs.
      *
-     * @var float
+     * @var float|null
      */
     private $totalCotisCcs;
 
     /**
      * Total cotis fsh.
      *
-     * @var float
+     * @var float|null
      */
     private $totalCotisFsh;
 
     /**
      * Total cotis maladie.
      *
-     * @var float
+     * @var float|null
      */
     private $totalCotisMaladie;
 
     /**
      * Total cotis ruamm tr2.
      *
-     * @var float
+     * @var float|null
      */
     private $totalCotisRuammTr2;
 
     /**
-     * Total remuneration.
-     *
-     * @var int
-     */
-    private $totalRemuneration;
-
-    /**
      * Total ruamm tr2.
      *
-     * @var float
+     * @var float|null
      */
     private $totalRuammTr2;
 
     /**
+     * Total remuneration.
+     *
+     * @var int|null
+     */
+    private $totalRemuneration;
+
+    /**
      * Total salaire autre regime.
      *
-     * @var float
+     * @var float|null
      */
     private $totalSalaireAutreRegime;
 
     /**
      * Total salaire ccs.
      *
-     * @var float
+     * @var float|null
      */
     private $totalSalaireCcs;
 
     /**
      * Total salaire fsh.
      *
-     * @var float
+     * @var float|null
      */
     private $totalSalaireFsh;
 
     /**
      * Total salaire maladie.
      *
-     * @var float
+     * @var float|null
      */
     private $totalSalaireMaladie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the adresse1.
      *
-     * @return string Returns the adresse1.
+     * @return string|null Returns the adresse1.
      */
-    public function getAdresse1() {
+    public function getAdresse1(): ?string{
         return $this->adresse1;
     }
 
     /**
      * Get the adresse2.
      *
-     * @return string Returns the adresse2.
+     * @return string|null Returns the adresse2.
      */
-    public function getAdresse2() {
+    public function getAdresse2(): ?string{
         return $this->adresse2;
     }
 
     /**
      * Get the adresse3.
      *
-     * @return string Returns the adresse3.
+     * @return string|null Returns the adresse3.
      */
-    public function getAdresse3() {
+    public function getAdresse3(): ?string{
         return $this->adresse3;
     }
 
     /**
      * Get the code cotis.
      *
-     * @return string Returns the code cotis.
+     * @return string|null Returns the code cotis.
      */
-    public function getCodeCotis() {
+    public function getCodeCotis(): ?string{
         return $this->codeCotis;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
@@ -379,97 +380,97 @@ class DeclarationCafat {
      *
      * @return DateTime|null Returns the date declaration.
      */
-    public function getDateDeclaration() {
+    public function getDateDeclaration(): ?DateTime{
         return $this->dateDeclaration;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the mt autre deduction.
      *
-     * @return float Returns the mt autre deduction.
+     * @return float|null Returns the mt autre deduction.
      */
-    public function getMtAutreDeduction() {
+    public function getMtAutreDeduction(): ?float{
         return $this->mtAutreDeduction;
     }
 
     /**
      * Get the mt deduction acompte.
      *
-     * @return float Returns the mt deduction acompte.
+     * @return float|null Returns the mt deduction acompte.
      */
-    public function getMtDeductionAcompte() {
+    public function getMtDeductionAcompte(): ?float{
         return $this->mtDeductionAcompte;
     }
 
     /**
      * Get the mt deduction acompte1.
      *
-     * @return float Returns the mt deduction acompte1.
+     * @return float|null Returns the mt deduction acompte1.
      */
-    public function getMtDeductionAcompte1() {
+    public function getMtDeductionAcompte1(): ?float{
         return $this->mtDeductionAcompte1;
     }
 
     /**
      * Get the mt deduction acompte2.
      *
-     * @return float Returns the mt deduction acompte2.
+     * @return float|null Returns the mt deduction acompte2.
      */
-    public function getMtDeductionAcompte2() {
+    public function getMtDeductionAcompte2(): ?float{
         return $this->mtDeductionAcompte2;
     }
 
     /**
      * Get the nb salaries.
      *
-     * @return int Returns the nb salaries.
+     * @return int|null Returns the nb salaries.
      */
-    public function getNbSalaries() {
+    public function getNbSalaries(): ?int{
         return $this->nbSalaries;
     }
 
     /**
      * Get the no cotisant.
      *
-     * @return string Returns the no cotisant.
+     * @return string|null Returns the no cotisant.
      */
-    public function getNoCotisant() {
+    public function getNoCotisant(): ?string{
         return $this->noCotisant;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
     /**
      * Get the pas de personnel.
      *
-     * @return bool Returns the pas de personnel.
+     * @return bool|null Returns the pas de personnel.
      */
-    public function getPasDePersonnel() {
+    public function getPasDePersonnel(): ?bool{
         return $this->pasDePersonnel;
     }
 
     /**
      * Get the pas de reembauche.
      *
-     * @return bool Returns the pas de reembauche.
+     * @return bool|null Returns the pas de reembauche.
      */
-    public function getPasDeReembauche() {
+    public function getPasDeReembauche(): ?bool{
         return $this->pasDeReembauche;
     }
 
@@ -478,251 +479,251 @@ class DeclarationCafat {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla() {
+    public function getPeriodeDecla(): ?DateTime{
         return $this->periodeDecla;
     }
 
     /**
      * Get the plafond1 ruamm tr2.
      *
-     * @return float Returns the plafond1 ruamm tr2.
+     * @return float|null Returns the plafond1 ruamm tr2.
      */
-    public function getPlafond1RuammTr2() {
+    public function getPlafond1RuammTr2(): ?float{
         return $this->plafond1RuammTr2;
     }
 
     /**
      * Get the plafond2 ruamm tr2.
      *
-     * @return float Returns the plafond2 ruamm tr2.
+     * @return float|null Returns the plafond2 ruamm tr2.
      */
-    public function getPlafond2RuammTr2() {
+    public function getPlafond2RuammTr2(): ?float{
         return $this->plafond2RuammTr2;
     }
 
     /**
      * Get the plafond autre regime.
      *
-     * @return float Returns the plafond autre regime.
+     * @return float|null Returns the plafond autre regime.
      */
-    public function getPlafondAutreRegime() {
+    public function getPlafondAutreRegime(): ?float{
         return $this->plafondAutreRegime;
     }
 
     /**
      * Get the plafond fsh.
      *
-     * @return float Returns the plafond fsh.
+     * @return float|null Returns the plafond fsh.
      */
-    public function getPlafondFsh() {
+    public function getPlafondFsh(): ?float{
         return $this->plafondFsh;
     }
 
     /**
      * Get the plafond maladie.
      *
-     * @return float Returns the plafond maladie.
+     * @return float|null Returns the plafond maladie.
      */
-    public function getPlafondMaladie() {
+    public function getPlafondMaladie(): ?float{
         return $this->plafondMaladie;
     }
 
     /**
      * Get the plafond salaire.
      *
-     * @return float Returns the plafond salaire.
+     * @return float|null Returns the plafond salaire.
      */
-    public function getPlafondSalaire() {
+    public function getPlafondSalaire(): ?float{
         return $this->plafondSalaire;
-    }
-
-    /**
-     * Get the raison sociale.
-     *
-     * @return string Returns the raison sociale.
-     */
-    public function getRaisonSociale() {
-        return $this->raisonSociale;
     }
 
     /**
      * Get the rid.
      *
-     * @return string Returns the rid.
+     * @return string|null Returns the rid.
      */
-    public function getRid() {
+    public function getRid(): ?string{
         return $this->rid;
+    }
+
+    /**
+     * Get the raison sociale.
+     *
+     * @return string|null Returns the raison sociale.
+     */
+    public function getRaisonSociale(): ?string{
+        return $this->raisonSociale;
     }
 
     /**
      * Get the secteur.
      *
-     * @return string Returns the secteur.
+     * @return string|null Returns the secteur.
      */
-    public function getSecteur() {
+    public function getSecteur(): ?string{
         return $this->secteur;
     }
 
     /**
      * Get the taux at.
      *
-     * @return float Returns the taux at.
+     * @return float|null Returns the taux at.
      */
-    public function getTauxAt() {
+    public function getTauxAt(): ?float{
         return $this->tauxAt;
     }
 
     /**
      * Get the taux autre regime.
      *
-     * @return float Returns the taux autre regime.
+     * @return float|null Returns the taux autre regime.
      */
-    public function getTauxAutreRegime() {
+    public function getTauxAutreRegime(): ?float{
         return $this->tauxAutreRegime;
     }
 
     /**
      * Get the taux ccs.
      *
-     * @return float Returns the taux ccs.
+     * @return float|null Returns the taux ccs.
      */
-    public function getTauxCcs() {
+    public function getTauxCcs(): ?float{
         return $this->tauxCcs;
     }
 
     /**
      * Get the taux fsh.
      *
-     * @return float Returns the taux fsh.
+     * @return float|null Returns the taux fsh.
      */
-    public function getTauxFsh() {
+    public function getTauxFsh(): ?float{
         return $this->tauxFsh;
     }
 
     /**
      * Get the taux maladie.
      *
-     * @return float Returns the taux maladie.
+     * @return float|null Returns the taux maladie.
      */
-    public function getTauxMaladie() {
+    public function getTauxMaladie(): ?float{
         return $this->tauxMaladie;
     }
 
     /**
      * Get the taux ruamm tr2.
      *
-     * @return float Returns the taux ruamm tr2.
+     * @return float|null Returns the taux ruamm tr2.
      */
-    public function getTauxRuammTr2() {
+    public function getTauxRuammTr2(): ?float{
         return $this->tauxRuammTr2;
     }
 
     /**
      * Get the total cotis autre regime.
      *
-     * @return float Returns the total cotis autre regime.
+     * @return float|null Returns the total cotis autre regime.
      */
-    public function getTotalCotisAutreRegime() {
+    public function getTotalCotisAutreRegime(): ?float{
         return $this->totalCotisAutreRegime;
     }
 
     /**
      * Get the total cotis ccs.
      *
-     * @return float Returns the total cotis ccs.
+     * @return float|null Returns the total cotis ccs.
      */
-    public function getTotalCotisCcs() {
+    public function getTotalCotisCcs(): ?float{
         return $this->totalCotisCcs;
     }
 
     /**
      * Get the total cotis fsh.
      *
-     * @return float Returns the total cotis fsh.
+     * @return float|null Returns the total cotis fsh.
      */
-    public function getTotalCotisFsh() {
+    public function getTotalCotisFsh(): ?float{
         return $this->totalCotisFsh;
     }
 
     /**
      * Get the total cotis maladie.
      *
-     * @return float Returns the total cotis maladie.
+     * @return float|null Returns the total cotis maladie.
      */
-    public function getTotalCotisMaladie() {
+    public function getTotalCotisMaladie(): ?float{
         return $this->totalCotisMaladie;
     }
 
     /**
      * Get the total cotis ruamm tr2.
      *
-     * @return float Returns the total cotis ruamm tr2.
+     * @return float|null Returns the total cotis ruamm tr2.
      */
-    public function getTotalCotisRuammTr2() {
+    public function getTotalCotisRuammTr2(): ?float{
         return $this->totalCotisRuammTr2;
-    }
-
-    /**
-     * Get the total remuneration.
-     *
-     * @return int Returns the total remuneration.
-     */
-    public function getTotalRemuneration() {
-        return $this->totalRemuneration;
     }
 
     /**
      * Get the total ruamm tr2.
      *
-     * @return float Returns the total ruamm tr2.
+     * @return float|null Returns the total ruamm tr2.
      */
-    public function getTotalRuammTr2() {
+    public function getTotalRuammTr2(): ?float{
         return $this->totalRuammTr2;
+    }
+
+    /**
+     * Get the total remuneration.
+     *
+     * @return int|null Returns the total remuneration.
+     */
+    public function getTotalRemuneration(): ?int{
+        return $this->totalRemuneration;
     }
 
     /**
      * Get the total salaire autre regime.
      *
-     * @return float Returns the total salaire autre regime.
+     * @return float|null Returns the total salaire autre regime.
      */
-    public function getTotalSalaireAutreRegime() {
+    public function getTotalSalaireAutreRegime(): ?float{
         return $this->totalSalaireAutreRegime;
     }
 
     /**
      * Get the total salaire ccs.
      *
-     * @return float Returns the total salaire ccs.
+     * @return float|null Returns the total salaire ccs.
      */
-    public function getTotalSalaireCcs() {
+    public function getTotalSalaireCcs(): ?float{
         return $this->totalSalaireCcs;
     }
 
     /**
      * Get the total salaire fsh.
      *
-     * @return float Returns the total salaire fsh.
+     * @return float|null Returns the total salaire fsh.
      */
-    public function getTotalSalaireFsh() {
+    public function getTotalSalaireFsh(): ?float{
         return $this->totalSalaireFsh;
     }
 
     /**
      * Get the total salaire maladie.
      *
-     * @return float Returns the total salaire maladie.
+     * @return float|null Returns the total salaire maladie.
      */
-    public function getTotalSalaireMaladie() {
+    public function getTotalSalaireMaladie(): ?float{
         return $this->totalSalaireMaladie;
     }
 
     /**
      * Set the adresse1.
      *
-     * @param string $adresse1 The adresse1.
+     * @param string|null $adresse1 The adresse1.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setAdresse1($adresse1) {
+    public function setAdresse1(?string $adresse1): DeclarationCafat {
         $this->adresse1 = $adresse1;
         return $this;
     }
@@ -730,10 +731,10 @@ class DeclarationCafat {
     /**
      * Set the adresse2.
      *
-     * @param string $adresse2 The adresse2.
+     * @param string|null $adresse2 The adresse2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setAdresse2($adresse2) {
+    public function setAdresse2(?string $adresse2): DeclarationCafat {
         $this->adresse2 = $adresse2;
         return $this;
     }
@@ -741,10 +742,10 @@ class DeclarationCafat {
     /**
      * Set the adresse3.
      *
-     * @param string $adresse3 The adresse3.
+     * @param string|null $adresse3 The adresse3.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setAdresse3($adresse3) {
+    public function setAdresse3(?string $adresse3): DeclarationCafat {
         $this->adresse3 = $adresse3;
         return $this;
     }
@@ -752,10 +753,10 @@ class DeclarationCafat {
     /**
      * Set the code cotis.
      *
-     * @param string $codeCotis The code cotis.
+     * @param string|null $codeCotis The code cotis.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setCodeCotis($codeCotis) {
+    public function setCodeCotis(?string $codeCotis): DeclarationCafat {
         $this->codeCotis = $codeCotis;
         return $this;
     }
@@ -763,10 +764,10 @@ class DeclarationCafat {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): DeclarationCafat {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -777,7 +778,7 @@ class DeclarationCafat {
      * @param DateTime|null $dateDeclaration The date declaration.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setDateDeclaration(DateTime $dateDeclaration = null) {
+    public function setDateDeclaration(?DateTime $dateDeclaration): DeclarationCafat {
         $this->dateDeclaration = $dateDeclaration;
         return $this;
     }
@@ -785,10 +786,10 @@ class DeclarationCafat {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): DeclarationCafat {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -796,10 +797,10 @@ class DeclarationCafat {
     /**
      * Set the mt autre deduction.
      *
-     * @param float $mtAutreDeduction The mt autre deduction.
+     * @param float|null $mtAutreDeduction The mt autre deduction.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setMtAutreDeduction($mtAutreDeduction) {
+    public function setMtAutreDeduction(?float $mtAutreDeduction): DeclarationCafat {
         $this->mtAutreDeduction = $mtAutreDeduction;
         return $this;
     }
@@ -807,10 +808,10 @@ class DeclarationCafat {
     /**
      * Set the mt deduction acompte.
      *
-     * @param float $mtDeductionAcompte The mt deduction acompte.
+     * @param float|null $mtDeductionAcompte The mt deduction acompte.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setMtDeductionAcompte($mtDeductionAcompte) {
+    public function setMtDeductionAcompte(?float $mtDeductionAcompte): DeclarationCafat {
         $this->mtDeductionAcompte = $mtDeductionAcompte;
         return $this;
     }
@@ -818,10 +819,10 @@ class DeclarationCafat {
     /**
      * Set the mt deduction acompte1.
      *
-     * @param float $mtDeductionAcompte1 The mt deduction acompte1.
+     * @param float|null $mtDeductionAcompte1 The mt deduction acompte1.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setMtDeductionAcompte1($mtDeductionAcompte1) {
+    public function setMtDeductionAcompte1(?float $mtDeductionAcompte1): DeclarationCafat {
         $this->mtDeductionAcompte1 = $mtDeductionAcompte1;
         return $this;
     }
@@ -829,10 +830,10 @@ class DeclarationCafat {
     /**
      * Set the mt deduction acompte2.
      *
-     * @param float $mtDeductionAcompte2 The mt deduction acompte2.
+     * @param float|null $mtDeductionAcompte2 The mt deduction acompte2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setMtDeductionAcompte2($mtDeductionAcompte2) {
+    public function setMtDeductionAcompte2(?float $mtDeductionAcompte2): DeclarationCafat {
         $this->mtDeductionAcompte2 = $mtDeductionAcompte2;
         return $this;
     }
@@ -840,10 +841,10 @@ class DeclarationCafat {
     /**
      * Set the nb salaries.
      *
-     * @param int $nbSalaries The nb salaries.
+     * @param int|null $nbSalaries The nb salaries.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setNbSalaries($nbSalaries) {
+    public function setNbSalaries(?int $nbSalaries): DeclarationCafat {
         $this->nbSalaries = $nbSalaries;
         return $this;
     }
@@ -851,10 +852,10 @@ class DeclarationCafat {
     /**
      * Set the no cotisant.
      *
-     * @param string $noCotisant The no cotisant.
+     * @param string|null $noCotisant The no cotisant.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setNoCotisant($noCotisant) {
+    public function setNoCotisant(?string $noCotisant): DeclarationCafat {
         $this->noCotisant = $noCotisant;
         return $this;
     }
@@ -862,10 +863,10 @@ class DeclarationCafat {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): DeclarationCafat {
         $this->organisme = $organisme;
         return $this;
     }
@@ -873,10 +874,10 @@ class DeclarationCafat {
     /**
      * Set the pas de personnel.
      *
-     * @param bool $pasDePersonnel The pas de personnel.
+     * @param bool|null $pasDePersonnel The pas de personnel.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPasDePersonnel($pasDePersonnel) {
+    public function setPasDePersonnel(?bool $pasDePersonnel): DeclarationCafat {
         $this->pasDePersonnel = $pasDePersonnel;
         return $this;
     }
@@ -884,10 +885,10 @@ class DeclarationCafat {
     /**
      * Set the pas de reembauche.
      *
-     * @param bool $pasDeReembauche The pas de reembauche.
+     * @param bool|null $pasDeReembauche The pas de reembauche.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPasDeReembauche($pasDeReembauche) {
+    public function setPasDeReembauche(?bool $pasDeReembauche): DeclarationCafat {
         $this->pasDeReembauche = $pasDeReembauche;
         return $this;
     }
@@ -898,7 +899,7 @@ class DeclarationCafat {
      * @param DateTime|null $periodeDecla The periode decla.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPeriodeDecla(DateTime $periodeDecla = null) {
+    public function setPeriodeDecla(?DateTime $periodeDecla): DeclarationCafat {
         $this->periodeDecla = $periodeDecla;
         return $this;
     }
@@ -906,10 +907,10 @@ class DeclarationCafat {
     /**
      * Set the plafond1 ruamm tr2.
      *
-     * @param float $plafond1RuammTr2 The plafond1 ruamm tr2.
+     * @param float|null $plafond1RuammTr2 The plafond1 ruamm tr2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPlafond1RuammTr2($plafond1RuammTr2) {
+    public function setPlafond1RuammTr2(?float $plafond1RuammTr2): DeclarationCafat {
         $this->plafond1RuammTr2 = $plafond1RuammTr2;
         return $this;
     }
@@ -917,10 +918,10 @@ class DeclarationCafat {
     /**
      * Set the plafond2 ruamm tr2.
      *
-     * @param float $plafond2RuammTr2 The plafond2 ruamm tr2.
+     * @param float|null $plafond2RuammTr2 The plafond2 ruamm tr2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPlafond2RuammTr2($plafond2RuammTr2) {
+    public function setPlafond2RuammTr2(?float $plafond2RuammTr2): DeclarationCafat {
         $this->plafond2RuammTr2 = $plafond2RuammTr2;
         return $this;
     }
@@ -928,10 +929,10 @@ class DeclarationCafat {
     /**
      * Set the plafond autre regime.
      *
-     * @param float $plafondAutreRegime The plafond autre regime.
+     * @param float|null $plafondAutreRegime The plafond autre regime.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPlafondAutreRegime($plafondAutreRegime) {
+    public function setPlafondAutreRegime(?float $plafondAutreRegime): DeclarationCafat {
         $this->plafondAutreRegime = $plafondAutreRegime;
         return $this;
     }
@@ -939,10 +940,10 @@ class DeclarationCafat {
     /**
      * Set the plafond fsh.
      *
-     * @param float $plafondFsh The plafond fsh.
+     * @param float|null $plafondFsh The plafond fsh.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPlafondFsh($plafondFsh) {
+    public function setPlafondFsh(?float $plafondFsh): DeclarationCafat {
         $this->plafondFsh = $plafondFsh;
         return $this;
     }
@@ -950,10 +951,10 @@ class DeclarationCafat {
     /**
      * Set the plafond maladie.
      *
-     * @param float $plafondMaladie The plafond maladie.
+     * @param float|null $plafondMaladie The plafond maladie.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPlafondMaladie($plafondMaladie) {
+    public function setPlafondMaladie(?float $plafondMaladie): DeclarationCafat {
         $this->plafondMaladie = $plafondMaladie;
         return $this;
     }
@@ -961,43 +962,43 @@ class DeclarationCafat {
     /**
      * Set the plafond salaire.
      *
-     * @param float $plafondSalaire The plafond salaire.
+     * @param float|null $plafondSalaire The plafond salaire.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setPlafondSalaire($plafondSalaire) {
+    public function setPlafondSalaire(?float $plafondSalaire): DeclarationCafat {
         $this->plafondSalaire = $plafondSalaire;
-        return $this;
-    }
-
-    /**
-     * Set the raison sociale.
-     *
-     * @param string $raisonSociale The raison sociale.
-     * @return DeclarationCafat Returns this Declaration cafat.
-     */
-    public function setRaisonSociale($raisonSociale) {
-        $this->raisonSociale = $raisonSociale;
         return $this;
     }
 
     /**
      * Set the rid.
      *
-     * @param string $rid The rid.
+     * @param string|null $rid The rid.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setRid($rid) {
+    public function setRid(?string $rid): DeclarationCafat {
         $this->rid = $rid;
+        return $this;
+    }
+
+    /**
+     * Set the raison sociale.
+     *
+     * @param string|null $raisonSociale The raison sociale.
+     * @return DeclarationCafat Returns this Declaration cafat.
+     */
+    public function setRaisonSociale(?string $raisonSociale): DeclarationCafat {
+        $this->raisonSociale = $raisonSociale;
         return $this;
     }
 
     /**
      * Set the secteur.
      *
-     * @param string $secteur The secteur.
+     * @param string|null $secteur The secteur.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setSecteur($secteur) {
+    public function setSecteur(?string $secteur): DeclarationCafat {
         $this->secteur = $secteur;
         return $this;
     }
@@ -1005,10 +1006,10 @@ class DeclarationCafat {
     /**
      * Set the taux at.
      *
-     * @param float $tauxAt The taux at.
+     * @param float|null $tauxAt The taux at.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTauxAt($tauxAt) {
+    public function setTauxAt(?float $tauxAt): DeclarationCafat {
         $this->tauxAt = $tauxAt;
         return $this;
     }
@@ -1016,10 +1017,10 @@ class DeclarationCafat {
     /**
      * Set the taux autre regime.
      *
-     * @param float $tauxAutreRegime The taux autre regime.
+     * @param float|null $tauxAutreRegime The taux autre regime.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTauxAutreRegime($tauxAutreRegime) {
+    public function setTauxAutreRegime(?float $tauxAutreRegime): DeclarationCafat {
         $this->tauxAutreRegime = $tauxAutreRegime;
         return $this;
     }
@@ -1027,10 +1028,10 @@ class DeclarationCafat {
     /**
      * Set the taux ccs.
      *
-     * @param float $tauxCcs The taux ccs.
+     * @param float|null $tauxCcs The taux ccs.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTauxCcs($tauxCcs) {
+    public function setTauxCcs(?float $tauxCcs): DeclarationCafat {
         $this->tauxCcs = $tauxCcs;
         return $this;
     }
@@ -1038,10 +1039,10 @@ class DeclarationCafat {
     /**
      * Set the taux fsh.
      *
-     * @param float $tauxFsh The taux fsh.
+     * @param float|null $tauxFsh The taux fsh.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTauxFsh($tauxFsh) {
+    public function setTauxFsh(?float $tauxFsh): DeclarationCafat {
         $this->tauxFsh = $tauxFsh;
         return $this;
     }
@@ -1049,10 +1050,10 @@ class DeclarationCafat {
     /**
      * Set the taux maladie.
      *
-     * @param float $tauxMaladie The taux maladie.
+     * @param float|null $tauxMaladie The taux maladie.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTauxMaladie($tauxMaladie) {
+    public function setTauxMaladie(?float $tauxMaladie): DeclarationCafat {
         $this->tauxMaladie = $tauxMaladie;
         return $this;
     }
@@ -1060,10 +1061,10 @@ class DeclarationCafat {
     /**
      * Set the taux ruamm tr2.
      *
-     * @param float $tauxRuammTr2 The taux ruamm tr2.
+     * @param float|null $tauxRuammTr2 The taux ruamm tr2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTauxRuammTr2($tauxRuammTr2) {
+    public function setTauxRuammTr2(?float $tauxRuammTr2): DeclarationCafat {
         $this->tauxRuammTr2 = $tauxRuammTr2;
         return $this;
     }
@@ -1071,10 +1072,10 @@ class DeclarationCafat {
     /**
      * Set the total cotis autre regime.
      *
-     * @param float $totalCotisAutreRegime The total cotis autre regime.
+     * @param float|null $totalCotisAutreRegime The total cotis autre regime.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalCotisAutreRegime($totalCotisAutreRegime) {
+    public function setTotalCotisAutreRegime(?float $totalCotisAutreRegime): DeclarationCafat {
         $this->totalCotisAutreRegime = $totalCotisAutreRegime;
         return $this;
     }
@@ -1082,10 +1083,10 @@ class DeclarationCafat {
     /**
      * Set the total cotis ccs.
      *
-     * @param float $totalCotisCcs The total cotis ccs.
+     * @param float|null $totalCotisCcs The total cotis ccs.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalCotisCcs($totalCotisCcs) {
+    public function setTotalCotisCcs(?float $totalCotisCcs): DeclarationCafat {
         $this->totalCotisCcs = $totalCotisCcs;
         return $this;
     }
@@ -1093,10 +1094,10 @@ class DeclarationCafat {
     /**
      * Set the total cotis fsh.
      *
-     * @param float $totalCotisFsh The total cotis fsh.
+     * @param float|null $totalCotisFsh The total cotis fsh.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalCotisFsh($totalCotisFsh) {
+    public function setTotalCotisFsh(?float $totalCotisFsh): DeclarationCafat {
         $this->totalCotisFsh = $totalCotisFsh;
         return $this;
     }
@@ -1104,10 +1105,10 @@ class DeclarationCafat {
     /**
      * Set the total cotis maladie.
      *
-     * @param float $totalCotisMaladie The total cotis maladie.
+     * @param float|null $totalCotisMaladie The total cotis maladie.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalCotisMaladie($totalCotisMaladie) {
+    public function setTotalCotisMaladie(?float $totalCotisMaladie): DeclarationCafat {
         $this->totalCotisMaladie = $totalCotisMaladie;
         return $this;
     }
@@ -1115,43 +1116,43 @@ class DeclarationCafat {
     /**
      * Set the total cotis ruamm tr2.
      *
-     * @param float $totalCotisRuammTr2 The total cotis ruamm tr2.
+     * @param float|null $totalCotisRuammTr2 The total cotis ruamm tr2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalCotisRuammTr2($totalCotisRuammTr2) {
+    public function setTotalCotisRuammTr2(?float $totalCotisRuammTr2): DeclarationCafat {
         $this->totalCotisRuammTr2 = $totalCotisRuammTr2;
-        return $this;
-    }
-
-    /**
-     * Set the total remuneration.
-     *
-     * @param int $totalRemuneration The total remuneration.
-     * @return DeclarationCafat Returns this Declaration cafat.
-     */
-    public function setTotalRemuneration($totalRemuneration) {
-        $this->totalRemuneration = $totalRemuneration;
         return $this;
     }
 
     /**
      * Set the total ruamm tr2.
      *
-     * @param float $totalRuammTr2 The total ruamm tr2.
+     * @param float|null $totalRuammTr2 The total ruamm tr2.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalRuammTr2($totalRuammTr2) {
+    public function setTotalRuammTr2(?float $totalRuammTr2): DeclarationCafat {
         $this->totalRuammTr2 = $totalRuammTr2;
+        return $this;
+    }
+
+    /**
+     * Set the total remuneration.
+     *
+     * @param int|null $totalRemuneration The total remuneration.
+     * @return DeclarationCafat Returns this Declaration cafat.
+     */
+    public function setTotalRemuneration(?int $totalRemuneration): DeclarationCafat {
+        $this->totalRemuneration = $totalRemuneration;
         return $this;
     }
 
     /**
      * Set the total salaire autre regime.
      *
-     * @param float $totalSalaireAutreRegime The total salaire autre regime.
+     * @param float|null $totalSalaireAutreRegime The total salaire autre regime.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalSalaireAutreRegime($totalSalaireAutreRegime) {
+    public function setTotalSalaireAutreRegime(?float $totalSalaireAutreRegime): DeclarationCafat {
         $this->totalSalaireAutreRegime = $totalSalaireAutreRegime;
         return $this;
     }
@@ -1159,10 +1160,10 @@ class DeclarationCafat {
     /**
      * Set the total salaire ccs.
      *
-     * @param float $totalSalaireCcs The total salaire ccs.
+     * @param float|null $totalSalaireCcs The total salaire ccs.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalSalaireCcs($totalSalaireCcs) {
+    public function setTotalSalaireCcs(?float $totalSalaireCcs): DeclarationCafat {
         $this->totalSalaireCcs = $totalSalaireCcs;
         return $this;
     }
@@ -1170,10 +1171,10 @@ class DeclarationCafat {
     /**
      * Set the total salaire fsh.
      *
-     * @param float $totalSalaireFsh The total salaire fsh.
+     * @param float|null $totalSalaireFsh The total salaire fsh.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalSalaireFsh($totalSalaireFsh) {
+    public function setTotalSalaireFsh(?float $totalSalaireFsh): DeclarationCafat {
         $this->totalSalaireFsh = $totalSalaireFsh;
         return $this;
     }
@@ -1181,10 +1182,10 @@ class DeclarationCafat {
     /**
      * Set the total salaire maladie.
      *
-     * @param float $totalSalaireMaladie The total salaire maladie.
+     * @param float|null $totalSalaireMaladie The total salaire maladie.
      * @return DeclarationCafat Returns this Declaration cafat.
      */
-    public function setTotalSalaireMaladie($totalSalaireMaladie) {
+    public function setTotalSalaireMaladie(?float $totalSalaireMaladie): DeclarationCafat {
         $this->totalSalaireMaladie = $totalSalaireMaladie;
         return $this;
     }

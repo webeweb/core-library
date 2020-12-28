@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Entity;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Model;
 
 use DateTime;
 use Exception;
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\Card;
  * Card test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Entity
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Model
  */
 class CardTest extends AbstractTestCase {
 
@@ -29,7 +29,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticleNumber() {
+    public function testSetArticleNumber(): void {
 
         $obj = new Card();
 
@@ -42,7 +42,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCurrencyResidualValue() {
+    public function testSetCurrencyResidualValue(): void {
 
         $obj = new Card();
 
@@ -55,12 +55,12 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDisplayText() {
+    public function testSetDisplayText(): void {
 
         $obj = new Card();
 
-        $obj->setDisplayText("displayText");
-        $this->assertEquals("displayText", $obj->getDisplayText());
+        $obj->setDisplayText(true);
+        $this->assertTrue($obj->getDisplayText());
     }
 
     /**
@@ -68,7 +68,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDisplayText1() {
+    public function testSetDisplayText1(): void {
 
         $obj = new Card();
 
@@ -81,7 +81,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDisplayText2() {
+    public function testSetDisplayText2(): void {
 
         $obj = new Card();
 
@@ -94,7 +94,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEntryBarrierClosed() {
+    public function testSetEntryBarrierClosed(): void {
 
         $obj = new Card();
 
@@ -107,7 +107,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExitBarrierClosed() {
+    public function testSetExitBarrierClosed(): void {
 
         $obj = new Card();
 
@@ -121,7 +121,7 @@ class CardTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetExpires() {
+    public function testSetExpires(): void {
 
         $obj = new Card();
 
@@ -130,16 +130,16 @@ class CardTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setNeutral() method.
+     * Tests the setIsNeutral() method.
      *
      * @return void
      */
-    public function testSetNeutral() {
+    public function testSetIsNeutral(): void {
 
         $obj = new Card();
 
-        $obj->setNeutral(true);
-        $this->assertTrue($obj->getNeutral());
+        $obj->setIsNeutral(true);
+        $this->assertTrue($obj->getIsNeutral());
     }
 
     /**
@@ -147,12 +147,12 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPersonnalNo() {
+    public function testSetPersonnalNo(): void {
 
         $obj = new Card();
 
-        $obj->setPersonnalNo(1);
-        $this->assertEquals(1, $obj->getPersonnalNo());
+        $obj->setPersonalNo(1);
+        $this->assertEquals(1, $obj->getPersonalNo());
     }
 
     /**
@@ -160,7 +160,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProductionCounter() {
+    public function testSetProductionCounter(): void {
 
         $obj = new Card();
 
@@ -173,7 +173,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProductionFacilityNumber() {
+    public function testSetProductionFacilityNumber(): void {
 
         $obj = new Card();
 
@@ -186,7 +186,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProductionState() {
+    public function testSetProductionState(): void {
 
         $obj = new Card();
 
@@ -199,7 +199,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReasonProduction() {
+    public function testSetReasonProduction(): void {
 
         $obj = new Card();
 
@@ -212,7 +212,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResidualValue() {
+    public function testSetResidualValue(): void {
 
         $obj = new Card();
 
@@ -225,7 +225,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetainTicketEntry() {
+    public function testSetRetainTicketEntry(): void {
 
         $obj = new Card();
 
@@ -238,7 +238,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetainTicketExit() {
+    public function testSetRetainTicketExit(): void {
 
         $obj = new Card();
 
@@ -251,7 +251,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSerialNo() {
+    public function testSetSerialNo(): void {
 
         $obj = new Card();
 
@@ -264,7 +264,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSerialNumberKeyCardSwatch() {
+    public function testSetSerialNumberKeyCardSwatch(): void {
 
         $obj = new Card();
 
@@ -278,7 +278,7 @@ class CardTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSuspendPeriodFrom() {
+    public function testSetSuspendPeriodFrom(): void {
 
         $obj = new Card();
 
@@ -292,7 +292,7 @@ class CardTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSuspendPeriodUntil() {
+    public function testSetSuspendPeriodUntil(): void {
 
         $obj = new Card();
 
@@ -305,7 +305,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTicketNumber() {
+    public function testSetTicketNumber(): void {
 
         $obj = new Card();
 
@@ -318,7 +318,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTicketSubType() {
+    public function testSetTicketSubType(): void {
 
         $obj = new Card();
 
@@ -331,7 +331,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTicketType() {
+    public function testSetTicketType(): void {
 
         $obj = new Card();
 
@@ -344,7 +344,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUseValidCarParks() {
+    public function testSetUseValidCarParks(): void {
 
         $obj = new Card();
 
@@ -357,7 +357,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUserNumber() {
+    public function testSetUserNumber(): void {
 
         $obj = new Card();
 
@@ -371,7 +371,7 @@ class CardTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetValidFrom() {
+    public function testSetValidFrom(): void {
 
         $obj = new Card();
 
@@ -384,7 +384,7 @@ class CardTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new Card();
 
@@ -398,8 +398,8 @@ class CardTest extends AbstractTestCase {
         $this->assertNull($obj->getEntryBarrierClosed());
         $this->assertNull($obj->getExitBarrierClosed());
         $this->assertNull($obj->getExpires());
-        $this->assertNull($obj->getNeutral());
-        $this->assertNull($obj->getPersonnalNo());
+        $this->assertNull($obj->getIsNeutral());
+        $this->assertNull($obj->getPersonalNo());
         $this->assertNull($obj->getProductionCounter());
         $this->assertNull($obj->getProductionFacilityNumber());
         $this->assertNull($obj->getProductionState());

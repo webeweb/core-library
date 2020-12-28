@@ -29,7 +29,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new LignesProfil();
 
@@ -42,7 +42,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProfil() {
+    public function testSetCodeProfil(): void {
 
         $obj = new LignesProfil();
 
@@ -56,7 +56,7 @@ class LignesProfilTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebPerApplication() {
+    public function testSetDebPerApplication(): void {
 
         // Set a Date/time mock.
         $debPerApplication = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class LignesProfilTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPerApplication() {
+    public function testSetFinPerApplication(): void {
 
         // Set a Date/time mock.
         $finPerApplication = new DateTime("2018-09-10");
@@ -89,7 +89,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq1() {
+    public function testSetFreq1(): void {
 
         $obj = new LignesProfil();
 
@@ -102,7 +102,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq10() {
+    public function testSetFreq10(): void {
 
         $obj = new LignesProfil();
 
@@ -115,7 +115,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq11() {
+    public function testSetFreq11(): void {
 
         $obj = new LignesProfil();
 
@@ -128,7 +128,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq12() {
+    public function testSetFreq12(): void {
 
         $obj = new LignesProfil();
 
@@ -141,7 +141,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq2() {
+    public function testSetFreq2(): void {
 
         $obj = new LignesProfil();
 
@@ -154,7 +154,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq3() {
+    public function testSetFreq3(): void {
 
         $obj = new LignesProfil();
 
@@ -167,7 +167,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq4() {
+    public function testSetFreq4(): void {
 
         $obj = new LignesProfil();
 
@@ -180,7 +180,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq5() {
+    public function testSetFreq5(): void {
 
         $obj = new LignesProfil();
 
@@ -193,7 +193,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq6() {
+    public function testSetFreq6(): void {
 
         $obj = new LignesProfil();
 
@@ -206,7 +206,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq7() {
+    public function testSetFreq7(): void {
 
         $obj = new LignesProfil();
 
@@ -219,7 +219,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq8() {
+    public function testSetFreq8(): void {
 
         $obj = new LignesProfil();
 
@@ -232,7 +232,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq9() {
+    public function testSetFreq9(): void {
 
         $obj = new LignesProfil();
 
@@ -245,7 +245,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigneProfil() {
+    public function testSetNumLigneProfil(): void {
 
         $obj = new LignesProfil();
 
@@ -258,7 +258,7 @@ class LignesProfilTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesProfil();
 

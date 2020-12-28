@@ -22,25 +22,25 @@ trait StringSchemaTrait {
     /**
      * Schema.
      *
-     * @var string
+     * @var string|null
      */
     protected $schema;
 
     /**
      * Get the schema.
      *
-     * @return string Returns the schema.
+     * @return string|null Returns the schema.
      */
-    public function getSchema() {
+    public function getSchema(): ?string {
         return $this->schema;
     }
 
     /**
      * Set the schema.
      *
-     * @param string $schema The schema.
+     * @param string|null $schema The schema.
      */
-    public function setSchema($schema) {
+    public function setSchema(?string $schema) {
         $this->schema = $schema;
         return $this;
     }

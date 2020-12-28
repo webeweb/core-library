@@ -24,14 +24,14 @@ class TableauxPaiements {
     /**
      * Assurance.
      *
-     * @var float
+     * @var float|null
      */
     private $assurance;
 
     /**
      * Code tva.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTva;
 
@@ -45,74 +45,75 @@ class TableauxPaiements {
     /**
      * Entretien.
      *
-     * @var float
+     * @var float|null
      */
     private $entretien;
 
     /**
      * Loyer ht.
      *
-     * @var float
+     * @var float|null
      */
     private $loyerHt;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero cb.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroCb;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero deux cb.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroDeuxCb;
 
     /**
      * Valeur rachat.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurRachat;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the assurance.
      *
-     * @return float Returns the assurance.
+     * @return float|null Returns the assurance.
      */
-    public function getAssurance() {
+    public function getAssurance(): ?float{
         return $this->assurance;
     }
 
     /**
      * Get the code tva.
      *
-     * @return string Returns the code tva.
+     * @return string|null Returns the code tva.
      */
-    public function getCodeTva() {
+    public function getCodeTva(): ?string{
         return $this->codeTva;
     }
 
@@ -121,80 +122,80 @@ class TableauxPaiements {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the entretien.
      *
-     * @return float Returns the entretien.
+     * @return float|null Returns the entretien.
      */
-    public function getEntretien() {
+    public function getEntretien(): ?float{
         return $this->entretien;
     }
 
     /**
      * Get the loyer ht.
      *
-     * @return float Returns the loyer ht.
+     * @return float|null Returns the loyer ht.
      */
-    public function getLoyerHt() {
+    public function getLoyerHt(): ?float{
         return $this->loyerHt;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero cb.
      *
-     * @return int Returns the numero cb.
+     * @return int|null Returns the numero cb.
      */
-    public function getNumeroCb() {
+    public function getNumeroCb(): ?int{
         return $this->numeroCb;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero deux cb.
      *
-     * @return int Returns the numero deux cb.
+     * @return int|null Returns the numero deux cb.
      */
-    public function getNumeroDeuxCb() {
+    public function getNumeroDeuxCb(): ?int{
         return $this->numeroDeuxCb;
     }
 
     /**
      * Get the valeur rachat.
      *
-     * @return float Returns the valeur rachat.
+     * @return float|null Returns the valeur rachat.
      */
-    public function getValeurRachat() {
+    public function getValeurRachat(): ?float{
         return $this->valeurRachat;
     }
 
     /**
      * Set the assurance.
      *
-     * @param float $assurance The assurance.
+     * @param float|null $assurance The assurance.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setAssurance($assurance) {
+    public function setAssurance(?float $assurance): TableauxPaiements {
         $this->assurance = $assurance;
         return $this;
     }
@@ -202,10 +203,10 @@ class TableauxPaiements {
     /**
      * Set the code tva.
      *
-     * @param string $codeTva The code tva.
+     * @param string|null $codeTva The code tva.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setCodeTva($codeTva) {
+    public function setCodeTva(?string $codeTva): TableauxPaiements {
         $this->codeTva = $codeTva;
         return $this;
     }
@@ -216,7 +217,7 @@ class TableauxPaiements {
      * @param DateTime|null $date The date.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): TableauxPaiements {
         $this->date = $date;
         return $this;
     }
@@ -224,10 +225,10 @@ class TableauxPaiements {
     /**
      * Set the entretien.
      *
-     * @param float $entretien The entretien.
+     * @param float|null $entretien The entretien.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setEntretien($entretien) {
+    public function setEntretien(?float $entretien): TableauxPaiements {
         $this->entretien = $entretien;
         return $this;
     }
@@ -235,10 +236,10 @@ class TableauxPaiements {
     /**
      * Set the loyer ht.
      *
-     * @param float $loyerHt The loyer ht.
+     * @param float|null $loyerHt The loyer ht.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setLoyerHt($loyerHt) {
+    public function setLoyerHt(?float $loyerHt): TableauxPaiements {
         $this->loyerHt = $loyerHt;
         return $this;
     }
@@ -246,10 +247,10 @@ class TableauxPaiements {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): TableauxPaiements {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -257,10 +258,10 @@ class TableauxPaiements {
     /**
      * Set the numero cb.
      *
-     * @param int $numeroCb The numero cb.
+     * @param int|null $numeroCb The numero cb.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setNumeroCb($numeroCb) {
+    public function setNumeroCb(?int $numeroCb): TableauxPaiements {
         $this->numeroCb = $numeroCb;
         return $this;
     }
@@ -268,10 +269,10 @@ class TableauxPaiements {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): TableauxPaiements {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -279,10 +280,10 @@ class TableauxPaiements {
     /**
      * Set the numero deux cb.
      *
-     * @param int $numeroDeuxCb The numero deux cb.
+     * @param int|null $numeroDeuxCb The numero deux cb.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setNumeroDeuxCb($numeroDeuxCb) {
+    public function setNumeroDeuxCb(?int $numeroDeuxCb): TableauxPaiements {
         $this->numeroDeuxCb = $numeroDeuxCb;
         return $this;
     }
@@ -290,10 +291,10 @@ class TableauxPaiements {
     /**
      * Set the valeur rachat.
      *
-     * @param float $valeurRachat The valeur rachat.
+     * @param float|null $valeurRachat The valeur rachat.
      * @return TableauxPaiements Returns this Tableaux paiements.
      */
-    public function setValeurRachat($valeurRachat) {
+    public function setValeurRachat(?float $valeurRachat): TableauxPaiements {
         $this->valeurRachat = $valeurRachat;
         return $this;
     }

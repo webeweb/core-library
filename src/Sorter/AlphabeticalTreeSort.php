@@ -45,7 +45,7 @@ class AlphabeticalTreeSort {
      *  > 0: if the node A is gerater than node B
      *  = 0: if the two nodes are equals
      */
-    protected function compare(AlphabeticalTreeNodeInterface $a, AlphabeticalTreeNodeInterface $b) {
+    protected function compare(AlphabeticalTreeNodeInterface $a, AlphabeticalTreeNodeInterface $b): int {
 
         $pathA = AlphabeticalTreeNodeHelper::getPath($a);
         $pathB = AlphabeticalTreeNodeHelper::getPath($b);
@@ -70,7 +70,7 @@ class AlphabeticalTreeSort {
      *
      * @return AlphabeticalTreeNodeInterface[] Returns the nodes.
      */
-    public function getNodes() {
+    public function getNodes(): array {
         return $this->nodes;
     }
 
@@ -80,7 +80,7 @@ class AlphabeticalTreeSort {
      * @param AlphabeticalTreeNodeInterface[] $nodes The nodes.
      * @return AlphabeticalTreeSort Returns this alphabetical tree sort.
      */
-    protected function setNodes(array $nodes) {
+    protected function setNodes(array $nodes): AlphabeticalTreeSort {
         $this->nodes = $nodes;
         return $this;
     }
@@ -90,7 +90,7 @@ class AlphabeticalTreeSort {
      *
      * @return AlphabeticalTreeSort Returns this alphabetical tree sort.
      */
-    public function sort() {
+    public function sort(): AlphabeticalTreeSort {
         usort($this->nodes, [$this, "compare"]);
         return $this;
     }

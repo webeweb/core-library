@@ -24,26 +24,26 @@ trait IntegerPortTrait {
     /**
      * Port.
      *
-     * @var int
+     * @var int|null
      */
     protected $port;
 
     /**
      * Get the port.
      *
-     * @return int Returns the port.
+     * @return int|null Returns the port.
      */
-    public function getPort() {
+    public function getPort(): ?int {
         return $this->port;
     }
 
     /**
      * Set the port.
      *
-     * @param int $port The port.
+     * @param int|null $port The port.
      * @throws InvalidArgumentException Throws an invalid argument exception if the port is not between 1 and 65536.
      */
-    public function setPort($port) {
+    public function setPort(?int $port) {
         if ($port < 0 || 65536 < $port) {
             throw new InvalidArgumentException("The port must be between 1 and 65536");
         }

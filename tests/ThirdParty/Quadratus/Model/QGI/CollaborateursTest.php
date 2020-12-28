@@ -29,7 +29,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesAutoriseBonsTravaux() {
+    public function testSetAccesAutoriseBonsTravaux(): void {
 
         $obj = new Collaborateurs();
 
@@ -42,7 +42,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesAutorisePlanFacturation() {
+    public function testSetAccesAutorisePlanFacturation(): void {
 
         $obj = new Collaborateurs();
 
@@ -55,7 +55,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesAutorisePlanTache() {
+    public function testSetAccesAutorisePlanTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -68,7 +68,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesCurDossOnly() {
+    public function testSetAccesCurDossOnly(): void {
 
         $obj = new Collaborateurs();
 
@@ -81,7 +81,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesDocsCab() {
+    public function testSetAccesDocsCab(): void {
 
         $obj = new Collaborateurs();
 
@@ -94,7 +94,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesDossierCpta() {
+    public function testSetAccesDossierCpta(): void {
 
         $obj = new Collaborateurs();
 
@@ -107,7 +107,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesDossierPaie() {
+    public function testSetAccesDossierPaie(): void {
 
         $obj = new Collaborateurs();
 
@@ -120,7 +120,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesGestionaireStatsCroisees() {
+    public function testSetAccesGestionaireStatsCroisees(): void {
 
         $obj = new Collaborateurs();
 
@@ -133,7 +133,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesRepCommun() {
+    public function testSetAccesRepCommun(): void {
 
         $obj = new Collaborateurs();
 
@@ -146,7 +146,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesStatCab() {
+    public function testSetAccesStatCab(): void {
 
         $obj = new Collaborateurs();
 
@@ -159,7 +159,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationAffaire() {
+    public function testSetAnnulationAffaire(): void {
 
         $obj = new Collaborateurs();
 
@@ -172,7 +172,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationArticle() {
+    public function testSetAnnulationArticle(): void {
 
         $obj = new Collaborateurs();
 
@@ -185,7 +185,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationBonsTravaux() {
+    public function testSetAnnulationBonsTravaux(): void {
 
         $obj = new Collaborateurs();
 
@@ -198,7 +198,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationChantier() {
+    public function testSetAnnulationChantier(): void {
 
         $obj = new Collaborateurs();
 
@@ -211,7 +211,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationClient() {
+    public function testSetAnnulationClient(): void {
 
         $obj = new Collaborateurs();
 
@@ -224,7 +224,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationCommission() {
+    public function testSetAnnulationCommission(): void {
 
         $obj = new Collaborateurs();
 
@@ -237,7 +237,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationDossierCpta() {
+    public function testSetAnnulationDossierCpta(): void {
 
         $obj = new Collaborateurs();
 
@@ -250,7 +250,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationDossierFact() {
+    public function testSetAnnulationDossierFact(): void {
 
         $obj = new Collaborateurs();
 
@@ -263,7 +263,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationDossierPaie() {
+    public function testSetAnnulationDossierPaie(): void {
 
         $obj = new Collaborateurs();
 
@@ -276,7 +276,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationFournisseur() {
+    public function testSetAnnulationFournisseur(): void {
 
         $obj = new Collaborateurs();
 
@@ -289,7 +289,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationPlanFacturation() {
+    public function testSetAnnulationPlanFacturation(): void {
 
         $obj = new Collaborateurs();
 
@@ -302,7 +302,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationPlanTache() {
+    public function testSetAnnulationPlanTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -315,7 +315,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationTache() {
+    public function testSetAnnulationTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -328,7 +328,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationTarif() {
+    public function testSetAnnulationTarif(): void {
 
         $obj = new Collaborateurs();
 
@@ -341,7 +341,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoAccesGestionModifiables() {
+    public function testSetArticlesLstPersoAccesGestionModifiables(): void {
 
         $obj = new Collaborateurs();
 
@@ -354,7 +354,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoAccesGestionnaire() {
+    public function testSetArticlesLstPersoAccesGestionnaire(): void {
 
         $obj = new Collaborateurs();
 
@@ -367,7 +367,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoChampsModif() {
+    public function testSetArticlesLstPersoChampsModif(): void {
 
         $obj = new Collaborateurs();
 
@@ -380,7 +380,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoCopieColonne() {
+    public function testSetArticlesLstPersoCopieColonne(): void {
 
         $obj = new Collaborateurs();
 
@@ -393,7 +393,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoInterdireCreat() {
+    public function testSetArticlesLstPersoInterdireCreat(): void {
 
         $obj = new Collaborateurs();
 
@@ -406,7 +406,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutoriseSaisieTpsColonnes() {
+    public function testSetAutoriseSaisieTpsColonnes(): void {
 
         $obj = new Collaborateurs();
 
@@ -419,7 +419,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new Collaborateurs();
 
@@ -432,7 +432,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBlocageEdCli() {
+    public function testSetBlocageEdCli(): void {
 
         $obj = new Collaborateurs();
 
@@ -445,7 +445,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new Collaborateurs();
 
@@ -458,7 +458,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new Collaborateurs();
 
@@ -471,7 +471,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategoriePrixKm() {
+    public function testSetCategoriePrixKm(): void {
 
         $obj = new Collaborateurs();
 
@@ -484,7 +484,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorieTicketResto() {
+    public function testSetCategorieTicketResto(): void {
 
         $obj = new Collaborateurs();
 
@@ -497,7 +497,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargesMensuelles() {
+    public function testSetChargesMensuelles(): void {
 
         $obj = new Collaborateurs();
 
@@ -510,7 +510,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleCcnPaie() {
+    public function testSetCleCcnPaie(): void {
 
         $obj = new Collaborateurs();
 
@@ -523,7 +523,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Collaborateurs();
 
@@ -536,7 +536,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new Collaborateurs();
 
@@ -549,7 +549,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChef1() {
+    public function testSetCodeChef1(): void {
 
         $obj = new Collaborateurs();
 
@@ -562,7 +562,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChef2() {
+    public function testSetCodeChef2(): void {
 
         $obj = new Collaborateurs();
 
@@ -575,7 +575,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDepot() {
+    public function testSetCodeDepot(): void {
 
         $obj = new Collaborateurs();
 
@@ -588,7 +588,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFamille() {
+    public function testSetCodeFamille(): void {
 
         $obj = new Collaborateurs();
 
@@ -601,7 +601,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFamilleFrn() {
+    public function testSetCodeFamilleFrn(): void {
 
         $obj = new Collaborateurs();
 
@@ -614,7 +614,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeGroupe() {
+    public function testSetCodeGroupe(): void {
 
         $obj = new Collaborateurs();
 
@@ -627,7 +627,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeGroupeVisuMsg() {
+    public function testSetCodeGroupeVisuMsg(): void {
 
         $obj = new Collaborateurs();
 
@@ -640,7 +640,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLangue() {
+    public function testSetCodeLangue(): void {
 
         $obj = new Collaborateurs();
 
@@ -653,7 +653,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLiaisonDest() {
+    public function testSetCodeLiaisonDest(): void {
 
         $obj = new Collaborateurs();
 
@@ -666,7 +666,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOfficielCommune() {
+    public function testSetCodeOfficielCommune(): void {
 
         $obj = new Collaborateurs();
 
@@ -679,7 +679,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new Collaborateurs();
 
@@ -692,7 +692,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVehicule() {
+    public function testSetCodeVehicule(): void {
 
         $obj = new Collaborateurs();
 
@@ -705,7 +705,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new Collaborateurs();
 
@@ -718,7 +718,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new Collaborateurs();
 
@@ -731,7 +731,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteComptable() {
+    public function testSetCompteComptable(): void {
 
         $obj = new Collaborateurs();
 
@@ -744,7 +744,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteDeTiers() {
+    public function testSetCompteDeTiers(): void {
 
         $obj = new Collaborateurs();
 
@@ -757,7 +757,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetControleSaisieTp() {
+    public function testSetControleSaisieTp(): void {
 
         $obj = new Collaborateurs();
 
@@ -770,7 +770,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationAffaire() {
+    public function testSetCreationAffaire(): void {
 
         $obj = new Collaborateurs();
 
@@ -783,7 +783,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationArticle() {
+    public function testSetCreationArticle(): void {
 
         $obj = new Collaborateurs();
 
@@ -796,7 +796,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationBonsTravaux() {
+    public function testSetCreationBonsTravaux(): void {
 
         $obj = new Collaborateurs();
 
@@ -809,7 +809,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationChantier() {
+    public function testSetCreationChantier(): void {
 
         $obj = new Collaborateurs();
 
@@ -822,7 +822,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationClient() {
+    public function testSetCreationClient(): void {
 
         $obj = new Collaborateurs();
 
@@ -835,7 +835,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationCommission() {
+    public function testSetCreationCommission(): void {
 
         $obj = new Collaborateurs();
 
@@ -848,7 +848,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationDossierCpta() {
+    public function testSetCreationDossierCpta(): void {
 
         $obj = new Collaborateurs();
 
@@ -861,7 +861,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationDossierFact() {
+    public function testSetCreationDossierFact(): void {
 
         $obj = new Collaborateurs();
 
@@ -874,7 +874,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationDossierPaie() {
+    public function testSetCreationDossierPaie(): void {
 
         $obj = new Collaborateurs();
 
@@ -887,7 +887,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationFournisseur() {
+    public function testSetCreationFournisseur(): void {
 
         $obj = new Collaborateurs();
 
@@ -900,7 +900,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationPlanFacturation() {
+    public function testSetCreationPlanFacturation(): void {
 
         $obj = new Collaborateurs();
 
@@ -913,7 +913,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationPlanTache() {
+    public function testSetCreationPlanTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -926,7 +926,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationTache() {
+    public function testSetCreationTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -939,7 +939,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationTarif() {
+    public function testSetCreationTarif(): void {
 
         $obj = new Collaborateurs();
 
@@ -953,7 +953,7 @@ class CollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -970,7 +970,7 @@ class CollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSortie() {
+    public function testSetDateSortie(): void {
 
         // Set a Date/time mock.
         $dateSortie = new DateTime("2018-09-10");
@@ -987,7 +987,7 @@ class CollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationBudget() {
+    public function testSetDateValidationBudget(): void {
 
         // Set a Date/time mock.
         $dateValidationBudget = new DateTime("2018-09-10");
@@ -1004,7 +1004,7 @@ class CollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationNdF() {
+    public function testSetDateValidationNdF(): void {
 
         // Set a Date/time mock.
         $dateValidationNdF = new DateTime("2018-09-10");
@@ -1021,7 +1021,7 @@ class CollaborateursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationTp() {
+    public function testSetDateValidationTp(): void {
 
         // Set a Date/time mock.
         $dateValidationTp = new DateTime("2018-09-10");
@@ -1037,7 +1037,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesactiverFiltreMsg() {
+    public function testSetDesactiverFiltreMsg(): void {
 
         $obj = new Collaborateurs();
 
@@ -1050,7 +1050,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDisponible() {
+    public function testSetDisponible(): void {
 
         $obj = new Collaborateurs();
 
@@ -1063,7 +1063,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomBanque() {
+    public function testSetDomBanque(): void {
 
         $obj = new Collaborateurs();
 
@@ -1076,7 +1076,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossierPaie() {
+    public function testSetDossierPaie(): void {
 
         $obj = new Collaborateurs();
 
@@ -1089,7 +1089,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitParamEmailsConfidentiels() {
+    public function testSetDroitParamEmailsConfidentiels(): void {
 
         $obj = new Collaborateurs();
 
@@ -1102,7 +1102,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitSyncPort() {
+    public function testSetDroitSyncPort(): void {
 
         $obj = new Collaborateurs();
 
@@ -1115,7 +1115,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitSyncQProp() {
+    public function testSetDroitSyncQProp(): void {
 
         $obj = new Collaborateurs();
 
@@ -1128,7 +1128,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new Collaborateurs();
 
@@ -1141,7 +1141,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailActiverAideSaisie() {
+    public function testSetEmailActiverAideSaisie(): void {
 
         $obj = new Collaborateurs();
 
@@ -1154,7 +1154,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailAgendaDmdConfirm() {
+    public function testSetEmailAgendaDmdConfirm(): void {
 
         $obj = new Collaborateurs();
 
@@ -1167,7 +1167,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailAutoClotureImap() {
+    public function testSetEmailAutoClotureImap(): void {
 
         $obj = new Collaborateurs();
 
@@ -1180,7 +1180,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailLstAdrChoixElem() {
+    public function testSetEmailLstAdrChoixElem(): void {
 
         $obj = new Collaborateurs();
 
@@ -1193,7 +1193,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailModeSignature() {
+    public function testSetEmailModeSignature(): void {
 
         $obj = new Collaborateurs();
 
@@ -1206,7 +1206,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailNbJAgMini() {
+    public function testSetEmailNbJAgMini(): void {
 
         $obj = new Collaborateurs();
 
@@ -1219,7 +1219,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailObjetDefaut() {
+    public function testSetEmailObjetDefaut(): void {
 
         $obj = new Collaborateurs();
 
@@ -1232,7 +1232,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailPied() {
+    public function testSetEmailPied(): void {
 
         $obj = new Collaborateurs();
 
@@ -1245,7 +1245,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailRedirAuto() {
+    public function testSetEmailRedirAuto(): void {
 
         $obj = new Collaborateurs();
 
@@ -1258,7 +1258,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailRedirAutoCollab() {
+    public function testSetEmailRedirAutoCollab(): void {
 
         $obj = new Collaborateurs();
 
@@ -1271,7 +1271,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailRedirection() {
+    public function testSetEmailRedirection(): void {
 
         $obj = new Collaborateurs();
 
@@ -1284,7 +1284,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailReponseAuto() {
+    public function testSetEmailReponseAuto(): void {
 
         $obj = new Collaborateurs();
 
@@ -1297,7 +1297,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailReponseAutoText() {
+    public function testSetEmailReponseAutoText(): void {
 
         $obj = new Collaborateurs();
 
@@ -1310,7 +1310,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailRrActive() {
+    public function testSetEmailRrActive(): void {
 
         $obj = new Collaborateurs();
 
@@ -1323,7 +1323,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailStartMode() {
+    public function testSetEmailStartMode(): void {
 
         $obj = new Collaborateurs();
 
@@ -1336,7 +1336,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailSurServeur() {
+    public function testSetEmailSurServeur(): void {
 
         $obj = new Collaborateurs();
 
@@ -1349,7 +1349,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailTete() {
+    public function testSetEmailTete(): void {
 
         $obj = new Collaborateurs();
 
@@ -1362,7 +1362,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEstAcheteur() {
+    public function testSetEstAcheteur(): void {
 
         $obj = new Collaborateurs();
 
@@ -1375,7 +1375,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtabConfidentialiteQp() {
+    public function testSetEtabConfidentialiteQp(): void {
 
         $obj = new Collaborateurs();
 
@@ -1388,7 +1388,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFictif() {
+    public function testSetFictif(): void {
 
         $obj = new Collaborateurs();
 
@@ -1401,7 +1401,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFonction() {
+    public function testSetFonction(): void {
 
         $obj = new Collaborateurs();
 
@@ -1414,7 +1414,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new Collaborateurs();
 
@@ -1427,7 +1427,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdictionPwd() {
+    public function testSetInterdictionPwd(): void {
 
         $obj = new Collaborateurs();
 
@@ -1440,7 +1440,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdictionVueFacturation() {
+    public function testSetInterdictionVueFacturation(): void {
 
         $obj = new Collaborateurs();
 
@@ -1453,7 +1453,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesArchivesCpta() {
+    public function testSetInterdireAccesArchivesCpta(): void {
 
         $obj = new Collaborateurs();
 
@@ -1466,7 +1466,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesArchivesPaie() {
+    public function testSetInterdireAccesArchivesPaie(): void {
 
         $obj = new Collaborateurs();
 
@@ -1479,7 +1479,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesEditionBalance() {
+    public function testSetInterdireAccesEditionBalance(): void {
 
         $obj = new Collaborateurs();
 
@@ -1492,7 +1492,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesEntete() {
+    public function testSetInterdireAccesEntete(): void {
 
         $obj = new Collaborateurs();
 
@@ -1505,7 +1505,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesSuppDocArch() {
+    public function testSetInterdireAccesSuppDocArch(): void {
 
         $obj = new Collaborateurs();
 
@@ -1518,7 +1518,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireEditionValoriseJrnTemps() {
+    public function testSetInterdireEditionValoriseJrnTemps(): void {
 
         $obj = new Collaborateurs();
 
@@ -1531,7 +1531,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireEnvoiPostit() {
+    public function testSetInterdireEnvoiPostit(): void {
 
         $obj = new Collaborateurs();
 
@@ -1544,7 +1544,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireModifAffCli() {
+    public function testSetInterdireModifAffCli(): void {
 
         $obj = new Collaborateurs();
 
@@ -1557,7 +1557,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireModifDepot() {
+    public function testSetInterdireModifDepot(): void {
 
         $obj = new Collaborateurs();
 
@@ -1570,7 +1570,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdirePubliDocWeb() {
+    public function testSetInterdirePubliDocWeb(): void {
 
         $obj = new Collaborateurs();
 
@@ -1583,7 +1583,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterim() {
+    public function testSetInterim(): void {
 
         $obj = new Collaborateurs();
 
@@ -1596,7 +1596,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsGroupe() {
+    public function testSetIsGroupe(): void {
 
         $obj = new Collaborateurs();
 
@@ -1609,7 +1609,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsProfilMessages() {
+    public function testSetIsProfilMessages(): void {
 
         $obj = new Collaborateurs();
 
@@ -1622,7 +1622,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLimiterVisuAgenda() {
+    public function testSetLimiterVisuAgenda(): void {
 
         $obj = new Collaborateurs();
 
@@ -1635,7 +1635,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMasquerFournisseurs() {
+    public function testSetMasquerFournisseurs(): void {
 
         $obj = new Collaborateurs();
 
@@ -1648,7 +1648,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessagesConfidentiels() {
+    public function testSetMessagesConfidentiels(): void {
 
         $obj = new Collaborateurs();
 
@@ -1661,7 +1661,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifAffaire() {
+    public function testSetModifAffaire(): void {
 
         $obj = new Collaborateurs();
 
@@ -1674,7 +1674,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifArticle() {
+    public function testSetModifArticle(): void {
 
         $obj = new Collaborateurs();
 
@@ -1687,7 +1687,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifBonsTravaux() {
+    public function testSetModifBonsTravaux(): void {
 
         $obj = new Collaborateurs();
 
@@ -1700,7 +1700,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifChantier() {
+    public function testSetModifChantier(): void {
 
         $obj = new Collaborateurs();
 
@@ -1713,7 +1713,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifClient() {
+    public function testSetModifClient(): void {
 
         $obj = new Collaborateurs();
 
@@ -1726,7 +1726,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifCommission() {
+    public function testSetModifCommission(): void {
 
         $obj = new Collaborateurs();
 
@@ -1739,7 +1739,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifDossierFact() {
+    public function testSetModifDossierFact(): void {
 
         $obj = new Collaborateurs();
 
@@ -1752,7 +1752,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifDroitsAsp() {
+    public function testSetModifDroitsAsp(): void {
 
         $obj = new Collaborateurs();
 
@@ -1765,7 +1765,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifEnVue() {
+    public function testSetModifEnVue(): void {
 
         $obj = new Collaborateurs();
 
@@ -1778,7 +1778,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifFournisseur() {
+    public function testSetModifFournisseur(): void {
 
         $obj = new Collaborateurs();
 
@@ -1791,7 +1791,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifPlanFacturation() {
+    public function testSetModifPlanFacturation(): void {
 
         $obj = new Collaborateurs();
 
@@ -1804,7 +1804,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifPlanTache() {
+    public function testSetModifPlanTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -1817,7 +1817,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifTache() {
+    public function testSetModifTache(): void {
 
         $obj = new Collaborateurs();
 
@@ -1830,7 +1830,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifTarif() {
+    public function testSetModifTarif(): void {
 
         $obj = new Collaborateurs();
 
@@ -1843,7 +1843,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotDePasse() {
+    public function testSetMotDePasse(): void {
 
         $obj = new Collaborateurs();
 
@@ -1856,7 +1856,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMsgRedirAuto() {
+    public function testSetMsgRedirAuto(): void {
 
         $obj = new Collaborateurs();
 
@@ -1869,7 +1869,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivConfEmpPropreteRestreint() {
+    public function testSetNivConfEmpPropreteRestreint(): void {
 
         $obj = new Collaborateurs();
 
@@ -1882,7 +1882,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new Collaborateurs();
 
@@ -1895,7 +1895,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauConfidentialiteQp() {
+    public function testSetNiveauConfidentialiteQp(): void {
 
         $obj = new Collaborateurs();
 
@@ -1908,7 +1908,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new Collaborateurs();
 
@@ -1921,7 +1921,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille() {
+    public function testSetNomVille(): void {
 
         $obj = new Collaborateurs();
 
@@ -1934,7 +1934,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new Collaborateurs();
 
@@ -1947,7 +1947,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new Collaborateurs();
 
@@ -1960,7 +1960,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Collaborateurs();
 
@@ -1973,7 +1973,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaInvisible() {
+    public function testSetPaInvisible(): void {
 
         $obj = new Collaborateurs();
 
@@ -1986,7 +1986,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParcCodeRemorque() {
+    public function testSetParcCodeRemorque(): void {
 
         $obj = new Collaborateurs();
 
@@ -1999,7 +1999,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParcCodeVehicule() {
+    public function testSetParcCodeVehicule(): void {
 
         $obj = new Collaborateurs();
 
@@ -2012,7 +2012,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasAccesQws() {
+    public function testSetPasAccesQws(): void {
 
         $obj = new Collaborateurs();
 
@@ -2025,7 +2025,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasSaisieDesTemps() {
+    public function testSetPasSaisieDesTemps(): void {
 
         $obj = new Collaborateurs();
 
@@ -2038,7 +2038,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasSaisieDesTempsAuto() {
+    public function testSetPasSaisieDesTempsAuto(): void {
 
         $obj = new Collaborateurs();
 
@@ -2051,7 +2051,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortablePerso() {
+    public function testSetPortablePerso(): void {
 
         $obj = new Collaborateurs();
 
@@ -2064,7 +2064,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPresent() {
+    public function testSetPresent(): void {
 
         $obj = new Collaborateurs();
 
@@ -2077,7 +2077,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrevenuNouveauCd() {
+    public function testSetPrevenuNouveauCd(): void {
 
         $obj = new Collaborateurs();
 
@@ -2090,7 +2090,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixKm() {
+    public function testSetPrixKm(): void {
 
         $obj = new Collaborateurs();
 
@@ -2103,7 +2103,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente() {
+    public function testSetPrixVente(): void {
 
         $obj = new Collaborateurs();
 
@@ -2116,7 +2116,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente2() {
+    public function testSetPrixVente2(): void {
 
         $obj = new Collaborateurs();
 
@@ -2129,7 +2129,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente3() {
+    public function testSetPrixVente3(): void {
 
         $obj = new Collaborateurs();
 
@@ -2142,7 +2142,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrictAccesPieces() {
+    public function testSetRestrictAccesPieces(): void {
 
         $obj = new Collaborateurs();
 
@@ -2155,7 +2155,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrictAccesStats() {
+    public function testSetRestrictAccesStats(): void {
 
         $obj = new Collaborateurs();
 
@@ -2168,7 +2168,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Collaborateurs();
 
@@ -2181,7 +2181,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisiePvInterdite() {
+    public function testSetSaisiePvInterdite(): void {
 
         $obj = new Collaborateurs();
 
@@ -2194,7 +2194,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireMensuel() {
+    public function testSetSalaireMensuel(): void {
 
         $obj = new Collaborateurs();
 
@@ -2207,7 +2207,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelArtCollab() {
+    public function testSetSelArtCollab(): void {
 
         $obj = new Collaborateurs();
 
@@ -2220,7 +2220,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoAccesGestionModifiables() {
+    public function testSetSelAvLstPersoAccesGestionModifiables(): void {
 
         $obj = new Collaborateurs();
 
@@ -2233,7 +2233,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoAccesGestionnaire() {
+    public function testSetSelAvLstPersoAccesGestionnaire(): void {
 
         $obj = new Collaborateurs();
 
@@ -2246,7 +2246,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoChampsModif() {
+    public function testSetSelAvLstPersoChampsModif(): void {
 
         $obj = new Collaborateurs();
 
@@ -2259,7 +2259,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoCopieColonne() {
+    public function testSetSelAvLstPersoCopieColonne(): void {
 
         $obj = new Collaborateurs();
 
@@ -2272,7 +2272,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoInterdireCreat() {
+    public function testSetSelAvLstPersoInterdireCreat(): void {
 
         $obj = new Collaborateurs();
 
@@ -2285,7 +2285,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelCliCollab() {
+    public function testSetSelCliCollab(): void {
 
         $obj = new Collaborateurs();
 
@@ -2298,7 +2298,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelFrnCollab() {
+    public function testSetSelFrnCollab(): void {
 
         $obj = new Collaborateurs();
 
@@ -2311,7 +2311,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionArticle() {
+    public function testSetSelectionArticle(): void {
 
         $obj = new Collaborateurs();
 
@@ -2324,7 +2324,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionClient() {
+    public function testSetSelectionClient(): void {
 
         $obj = new Collaborateurs();
 
@@ -2337,7 +2337,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionFournisseur() {
+    public function testSetSelectionFournisseur(): void {
 
         $obj = new Collaborateurs();
 
@@ -2350,7 +2350,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviMessages() {
+    public function testSetSuiviMessages(): void {
 
         $obj = new Collaborateurs();
 
@@ -2363,7 +2363,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuperviseur() {
+    public function testSetSuperviseur(): void {
 
         $obj = new Collaborateurs();
 
@@ -2376,7 +2376,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSyncMso() {
+    public function testSetSyncMso(): void {
 
         $obj = new Collaborateurs();
 
@@ -2389,7 +2389,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTachesGroupe() {
+    public function testSetTachesGroupe(): void {
 
         $obj = new Collaborateurs();
 
@@ -2402,7 +2402,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxCommission() {
+    public function testSetTauxCommission(): void {
 
         $obj = new Collaborateurs();
 
@@ -2415,7 +2415,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelDirect() {
+    public function testSetTelDirect(): void {
 
         $obj = new Collaborateurs();
 
@@ -2428,7 +2428,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelPerso() {
+    public function testSetTelPerso(): void {
 
         $obj = new Collaborateurs();
 
@@ -2441,7 +2441,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelPortable1() {
+    public function testSetTelPortable1(): void {
 
         $obj = new Collaborateurs();
 
@@ -2454,7 +2454,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelPortable2() {
+    public function testSetTelPortable2(): void {
 
         $obj = new Collaborateurs();
 
@@ -2467,7 +2467,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelPoste() {
+    public function testSetTelPoste(): void {
 
         $obj = new Collaborateurs();
 
@@ -2480,7 +2480,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPasControler() {
+    public function testSetTpPasControler(): void {
 
         $obj = new Collaborateurs();
 
@@ -2493,7 +2493,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPasJournalTemps() {
+    public function testSetTpPasJournalTemps(): void {
 
         $obj = new Collaborateurs();
 
@@ -2506,7 +2506,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPasNotesDeFrais() {
+    public function testSetTpPasNotesDeFrais(): void {
 
         $obj = new Collaborateurs();
 
@@ -2519,7 +2519,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPasTpsValide() {
+    public function testSetTpPasTpsValide(): void {
 
         $obj = new Collaborateurs();
 
@@ -2532,7 +2532,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPourcentageNonOperationnel() {
+    public function testSetTpPourcentageNonOperationnel(): void {
 
         $obj = new Collaborateurs();
 
@@ -2545,7 +2545,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpsNiveauBlocage() {
+    public function testSetTpsNiveauBlocage(): void {
 
         $obj = new Collaborateurs();
 
@@ -2558,7 +2558,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxComInvisible() {
+    public function testSetTxComInvisible(): void {
 
         $obj = new Collaborateurs();
 
@@ -2571,7 +2571,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeConf2CmavCli() {
+    public function testSetTypeConf2CmavCli(): void {
 
         $obj = new Collaborateurs();
 
@@ -2584,7 +2584,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeConfCmavCli() {
+    public function testSetTypeConfCmavCli(): void {
 
         $obj = new Collaborateurs();
 
@@ -2597,7 +2597,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVisuAppels() {
+    public function testSetTypeVisuAppels(): void {
 
         $obj = new Collaborateurs();
 
@@ -2610,7 +2610,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVisuTaches() {
+    public function testSetTypeVisuTaches(): void {
 
         $obj = new Collaborateurs();
 
@@ -2623,7 +2623,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUseMailGeneric() {
+    public function testSetUseMailGeneric(): void {
 
         $obj = new Collaborateurs();
 
@@ -2636,7 +2636,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisualisationFicheCabinet() {
+    public function testSetVisualisationFicheCabinet(): void {
 
         $obj = new Collaborateurs();
 
@@ -2649,7 +2649,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVueComDroitReaffect() {
+    public function testSetVueComDroitReaffect(): void {
 
         $obj = new Collaborateurs();
 
@@ -2662,7 +2662,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVueDevisDroitReaffect() {
+    public function testSetVueDevisDroitReaffect(): void {
 
         $obj = new Collaborateurs();
 
@@ -2675,7 +2675,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVueDevisDroitSuppr() {
+    public function testSetVueDevisDroitSuppr(): void {
 
         $obj = new Collaborateurs();
 
@@ -2688,7 +2688,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVueDevisDroitValid() {
+    public function testSetVueDevisDroitValid(): void {
 
         $obj = new Collaborateurs();
 
@@ -2701,7 +2701,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetYaDroitsCollab() {
+    public function testSetYaDroitsCollab(): void {
 
         $obj = new Collaborateurs();
 
@@ -2714,7 +2714,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsMdp() {
+    public function testSeteWsMdp(): void {
 
         $obj = new Collaborateurs();
 
@@ -2727,7 +2727,7 @@ class CollaborateursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Collaborateurs();
 

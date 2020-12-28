@@ -22,29 +22,29 @@ interface ValidationStatusInterface {
     /**
      * Get the code.
      *
-     * @return int Returns the code.
+     * @return int|null Returns the code.
      */
-    public function getCode();
+    public function getCode(): ?int;
 
     /**
      * Get the message.
      *
-     * @return string Returns the message.
+     * @return string|null Returns the message.
      */
-    public function getMessage();
+    public function getMessage(): ?string;
 
     /**
      * Get the rule name.
      *
-     * @return string Returns the rule name.
+     * @return string|null Returns the rule name.
      */
-    public function getRuleName();
+    public function getRuleName(): ?string;
 
     /**
      * Set the rule name.
      *
-     * @param string $ruleName The rule name.
+     * @param string|null $ruleName The rule name.
      * @return ValidationStatusInterface Returns this validation status.
      */
-    public function setRuleName($ruleName);
+    public function setRuleName(?string $ruleName): ValidationStatusInterface;
 }

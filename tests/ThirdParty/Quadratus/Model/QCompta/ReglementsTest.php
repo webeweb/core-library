@@ -27,7 +27,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Reglements();
 
@@ -40,7 +40,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Reglements();
 
@@ -53,7 +53,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule2() {
+    public function testSetIntitule2(): void {
 
         $obj = new Reglements();
 
@@ -66,7 +66,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule3() {
+    public function testSetIntitule3(): void {
 
         $obj = new Reglements();
 
@@ -79,7 +79,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAcceptation() {
+    public function testSetTypeAcceptation(): void {
 
         $obj = new Reglements();
 
@@ -92,7 +92,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Reglements();
 

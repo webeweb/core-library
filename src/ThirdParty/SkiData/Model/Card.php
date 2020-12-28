@@ -27,189 +27,189 @@ class Card {
     /**
      * Article number.
      *
-     * @var int
+     * @var int|null
      */
     private $articleNumber;
 
     /**
      * Currency residual value.
      *
-     * @var string
+     * @var string|null
      */
     private $currencyResidualValue;
 
     /**
      * Display text.
      *
-     * @var bool
+     * @var bool|null
      */
     private $displayText;
 
     /**
      * Display text 1.
      *
-     * @var string
+     * @var string|null
      */
     private $displayText1;
 
     /**
      * Display text 2.
      *
-     * @var string
+     * @var string|null
      */
     private $displayText2;
 
     /**
      * Entry barrier closed.
      *
-     * @var bool
+     * @var bool|null
      */
     private $entryBarrierClosed;
 
     /**
      * Exit barrier closed.
      *
-     * @var bool
+     * @var bool|null
      */
     private $exitBarrierClosed;
 
     /**
      * Expires.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $expires;
 
     /**
      * Is neutral.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isNeutral;
 
     /**
-     * Personnal no.
+     * Personal no.
      *
-     * @var int
+     * @var int|null
      */
-    private $personnalNo;
+    private $personalNo;
 
     /**
      * Production counter.
      *
-     * @var int
+     * @var int|null
      */
     private $productionCounter;
 
     /**
      * Production facility number.
      *
-     * @var int
+     * @var int|null
      */
     private $productionFacilityNumber;
 
     /**
      * Production state.
      *
-     * @var int
+     * @var int|null
      */
     private $productionState;
 
     /**
      * Reason for production.
      *
-     * @var int
+     * @var int|null
      */
     private $reasonProduction;
 
     /**
      * Residual value.
      *
-     * @var int
+     * @var int|null
      */
     private $residualValue;
 
     /**
      * Retain ticket at entry.
      *
-     * @var bool
+     * @var bool|null
      */
     private $retainTicketEntry;
 
     /**
      * Retain ticket at exit.
      *
-     * @var bool
+     * @var bool|null
      */
     private $retainTicketExit;
 
     /**
      * Serial no.
      *
-     * @var string
+     * @var string|null
      */
     private $serialNo;
 
     /**
      * Serial number KeyCard/Swatch.
      *
-     * @var string
+     * @var string|null
      */
     private $serialNumberKeyCardSwatch;
 
     /**
      * Suspend period from.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $suspendPeriodFrom;
 
     /**
      * Suspend period until.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $suspendPeriodUntil;
 
     /**
-     *  ticket number.
+     * Ticket number.
      *
-     * @var string
+     * @var string|null
      */
     private $ticketNumber;
 
     /**
      * Ticket sub type.
      *
-     * @var string
+     * @var string|null
      */
     private $ticketSubType;
 
     /**
      * Ticket type.
      *
-     * @var int
+     * @var int|null
      */
     private $ticketType;
 
     /**
      * Use valid car parks.
      *
-     * @var bool
+     * @var bool|null
      */
     private $useValidCarParks;
 
     /**
      * User number.
      *
-     * @var int
+     * @var int|null
      */
     private $userNumber;
 
     /**
      * Valid from.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $validFrom;
 
@@ -217,259 +217,259 @@ class Card {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
      * Get the article number.
      *
-     * @return int Returns the article number.
+     * @return int|null Returns the article number.
      */
-    public function getArticleNumber() {
+    public function getArticleNumber(): ?int {
         return $this->articleNumber;
     }
 
     /**
      * Get the currency residual value.
      *
-     * @return string Returns the currency residual value.
+     * @return string|null Returns the currency residual value.
      */
-    public function getCurrencyResidualValue() {
+    public function getCurrencyResidualValue(): ?string {
         return $this->currencyResidualValue;
     }
 
     /**
      * Get the display text.
      *
-     * @return bool Returns the display text.
+     * @return bool|null Returns the display text.
      */
-    public function getDisplayText() {
+    public function getDisplayText(): ?bool {
         return $this->displayText;
     }
 
     /**
      * Get the display text 1.
      *
-     * @return string Returns the display text 1.
+     * @return string|null Returns the display text 1.
      */
-    public function getDisplayText1() {
+    public function getDisplayText1(): ?string {
         return $this->displayText1;
     }
 
     /**
      * Get the display text 2.
      *
-     * @return string Returns the display text 2.
+     * @return string|null Returns the display text 2.
      */
-    public function getDisplayText2() {
+    public function getDisplayText2(): ?string {
         return $this->displayText2;
     }
 
     /**
      * Get the entry barrier closed.
      *
-     * @return bool Returns the entry barrier closed.
+     * @return bool|null Returns the entry barrier closed.
      */
-    public function getEntryBarrierClosed() {
+    public function getEntryBarrierClosed(): ?bool {
         return $this->entryBarrierClosed;
     }
 
     /**
      * Get the exit barrier closed.
      *
-     * @return bool Returns the exit barrier closed.
+     * @return bool|null Returns the exit barrier closed.
      */
-    public function getExitBarrierClosed() {
+    public function getExitBarrierClosed(): ?bool {
         return $this->exitBarrierClosed;
     }
 
     /**
      * Get the expires.
      *
-     * @return DateTime Returns the expires.
+     * @return DateTime|null Returns the expires.
      */
-    public function getExpires() {
+    public function getExpires(): ?DateTime {
         return $this->expires;
     }
 
     /**
      * Get the is neutral.
      *
-     * @return bool Returns the is neutral.
+     * @return bool|null Returns the is neutral.
      */
-    public function getNeutral() {
+    public function getIsNeutral(): ?bool {
         return $this->isNeutral;
     }
 
     /**
-     * Get the personnal no.
+     * Get the personal no.
      *
-     * @return int Returns the personnal no.
+     * @return int|null Returns the personal no.
      */
-    public function getPersonnalNo() {
-        return $this->personnalNo;
+    public function getPersonalNo(): ?int {
+        return $this->personalNo;
     }
 
     /**
      * Get the production counter.
      *
-     * @return int Returns the production counter.
+     * @return int|null Returns the production counter.
      */
-    public function getProductionCounter() {
+    public function getProductionCounter(): ?int {
         return $this->productionCounter;
     }
 
     /**
      * Get the production facility number.
      *
-     * @return int Returns the production facility number.
+     * @return int|null Returns the production facility number.
      */
-    public function getProductionFacilityNumber() {
+    public function getProductionFacilityNumber(): ?int {
         return $this->productionFacilityNumber;
     }
 
     /**
      * Get the production state.
      *
-     * @return int Returns the production state.
+     * @return int|null Returns the production state.
      */
-    public function getProductionState() {
+    public function getProductionState(): ?int {
         return $this->productionState;
     }
 
     /**
      * Get the reason for production.
      *
-     * @return int Returns the reason for production.
+     * @return int|null Returns the reason for production.
      */
-    public function getReasonProduction() {
+    public function getReasonProduction(): ?int {
         return $this->reasonProduction;
     }
 
     /**
      * Get the residual value.
      *
-     * @return int Returns the residual value.
+     * @return int|null Returns the residual value.
      */
-    public function getResidualValue() {
+    public function getResidualValue(): ?int {
         return $this->residualValue;
     }
 
     /**
      * Get the retain ticket at entry.
      *
-     * @return bool Returns the retain ticket at entry.
+     * @return bool|null Returns the retain ticket at entry.
      */
-    public function getRetainTicketEntry() {
+    public function getRetainTicketEntry(): ?bool {
         return $this->retainTicketEntry;
     }
 
     /**
      * Get the retain ticket exit.
      *
-     * @return bool Returns the retain ticket ax exit.
+     * @return bool|null Returns the retain ticket ax exit.
      */
-    public function getRetainTicketExit() {
+    public function getRetainTicketExit(): ?bool {
         return $this->retainTicketExit;
     }
 
     /**
      * Get the serial no.
      *
-     * @return string Returns the serial no.
+     * @return string|null Returns the serial no.
      */
-    public function getSerialNo() {
+    public function getSerialNo(): ?string {
         return $this->serialNo;
     }
 
     /**
      * Get the serial number KeyCard/Swatch.
      *
-     * @return string Returns the serial number KeyCard/Swatch.
+     * @return string|null Returns the serial number KeyCard/Swatch.
      */
-    public function getSerialNumberKeyCardSwatch() {
+    public function getSerialNumberKeyCardSwatch(): ?string {
         return $this->serialNumberKeyCardSwatch;
     }
 
     /**
      * Get the suspend period from.
      *
-     * @return DateTime Returns the suspend period from.
+     * @return DateTime|null Returns the suspend period from.
      */
-    public function getSuspendPeriodFrom() {
+    public function getSuspendPeriodFrom(): ?DateTime {
         return $this->suspendPeriodFrom;
     }
 
     /**
      * Get the suspend period until.
      *
-     * @return DateTime Returns the suspend period until.
+     * @return DateTime|null Returns the suspend period until.
      */
-    public function getSuspendPeriodUntil() {
+    public function getSuspendPeriodUntil(): ?DateTime {
         return $this->suspendPeriodUntil;
     }
 
     /**
      * Get the ticket number.
      *
-     * @return string Returns the ticket number.
+     * @return string|null Returns the ticket number.
      */
-    public function getTicketNumber() {
+    public function getTicketNumber(): ?string {
         return $this->ticketNumber;
     }
 
     /**
      * Get the ticket sub type.
      *
-     * @return string Returns the ticket sub type.
+     * @return string|null Returns the ticket sub type.
      */
-    public function getTicketSubType() {
+    public function getTicketSubType(): ?string {
         return $this->ticketSubType;
     }
 
     /**
      * Get the ticket type.
      *
-     * @return int Returns the ticket type.
+     * @return int|null Returns the ticket type.
      */
-    public function getTicketType() {
+    public function getTicketType(): ?int {
         return $this->ticketType;
     }
 
     /**
      * Get the use valid car parks.
      *
-     * @return bool Returns the use valid car parks.
+     * @return bool|null Returns the use valid car parks.
      */
-    public function getUseValidCarParks() {
+    public function getUseValidCarParks(): ?bool {
         return $this->useValidCarParks;
     }
 
     /**
      * Get the user number.
      *
-     * @return int Returns the user number.
+     * @return int|null Returns the user number.
      */
-    public function getUserNumber() {
+    public function getUserNumber(): ?int {
         return $this->userNumber;
     }
 
     /**
      * Get the valid from.
      *
-     * @return DateTime Returns the valid from.
+     * @return DateTime|null Returns the valid from.
      */
-    public function getValidFrom() {
+    public function getValidFrom(): ?DateTime {
         return $this->validFrom;
     }
 
     /**
      * Set the article number.
      *
-     * @param int $articleNumber The article number.
+     * @param int|null $articleNumber The article number.
      * @return Card Returns this card.
      */
-    public function setArticleNumber($articleNumber) {
+    public function setArticleNumber(?int $articleNumber): Card {
         $this->articleNumber = $articleNumber;
         return $this;
     }
@@ -477,10 +477,10 @@ class Card {
     /**
      * Set the currency residual value.
      *
-     * @param string $currencyResidualValue The currency residual value.
+     * @param string|null $currencyResidualValue The currency residual value.
      * @return Card Returns this card.
      */
-    public function setCurrencyResidualValue($currencyResidualValue) {
+    public function setCurrencyResidualValue(?string $currencyResidualValue): Card {
         $this->currencyResidualValue = $currencyResidualValue;
         return $this;
     }
@@ -488,10 +488,10 @@ class Card {
     /**
      * Set the display text.
      *
-     * @param bool $displayText The display text.
+     * @param bool|null $displayText The display text.
      * @return Card Returns this card.
      */
-    public function setDisplayText($displayText) {
+    public function setDisplayText(?bool $displayText): Card {
         $this->displayText = $displayText;
         return $this;
     }
@@ -499,10 +499,10 @@ class Card {
     /**
      * Set the display text 1.
      *
-     * @param string $displayText1 The display text 1.
+     * @param string|null $displayText1 The display text 1.
      * @return Card Returns this card.
      */
-    public function setDisplayText1($displayText1) {
+    public function setDisplayText1(?string $displayText1): Card {
         $this->displayText1 = $displayText1;
         return $this;
     }
@@ -510,10 +510,10 @@ class Card {
     /**
      * Set the display text 2.
      *
-     * @param string $displayText2 The display text 2.
+     * @param string|null $displayText2 The display text 2.
      * @return Card Returns this card.
      */
-    public function setDisplayText2($displayText2) {
+    public function setDisplayText2(?string $displayText2): Card {
         $this->displayText2 = $displayText2;
         return $this;
     }
@@ -521,10 +521,10 @@ class Card {
     /**
      * Set the entry barrier closed.
      *
-     * @param bool $entryBarrierClosed The entry barrier closed.
+     * @param bool|null $entryBarrierClosed The entry barrier closed.
      * @return Card Returns this card.
      */
-    public function setEntryBarrierClosed($entryBarrierClosed) {
+    public function setEntryBarrierClosed(?bool $entryBarrierClosed): Card {
         $this->entryBarrierClosed = $entryBarrierClosed;
         return $this;
     }
@@ -532,10 +532,10 @@ class Card {
     /**
      * Set the exit barrier closed.
      *
-     * @param bool $exitBarrierClosed The exit barrier closed.
+     * @param bool|null $exitBarrierClosed The exit barrier closed.
      * @return Card Returns this card.
      */
-    public function setExitBarrierClosed($exitBarrierClosed) {
+    public function setExitBarrierClosed(?bool $exitBarrierClosed): Card {
         $this->exitBarrierClosed = $exitBarrierClosed;
         return $this;
     }
@@ -546,7 +546,7 @@ class Card {
      * @param DateTime|null $expires The expires.
      * @return Card Returns this card.
      */
-    public function setExpires(DateTime $expires = null) {
+    public function setExpires(?DateTime $expires): Card {
         $this->expires = $expires;
         return $this;
     }
@@ -554,32 +554,32 @@ class Card {
     /**
      * Set the is neutral.
      *
-     * @param bool $isNeutral The is neutral.
+     * @param bool|null $isNeutral The is neutral.
      * @return Card Returns this card.
      */
-    public function setNeutral($isNeutral) {
+    public function setIsNeutral(?bool $isNeutral): Card {
         $this->isNeutral = $isNeutral;
         return $this;
     }
 
     /**
-     * Set the personnal no.
+     * Set the personal no.
      *
-     * @param int $personnalNo The personnal no.
+     * @param int|null $personalNo The personal no.
      * @return Card Returns this card.
      */
-    public function setPersonnalNo($personnalNo) {
-        $this->personnalNo = $personnalNo;
+    public function setPersonalNo(?int $personalNo): Card {
+        $this->personalNo = $personalNo;
         return $this;
     }
 
     /**
      * Set the production counter.
      *
-     * @param int $productionCounter The production counter.
+     * @param int|null $productionCounter The production counter.
      * @return Card Returns this card.
      */
-    public function setProductionCounter($productionCounter) {
+    public function setProductionCounter(?int $productionCounter): Card {
         $this->productionCounter = $productionCounter;
         return $this;
     }
@@ -587,10 +587,10 @@ class Card {
     /**
      * Set the production facility number.
      *
-     * @param int $productionFacilityNumber The production facility number.
+     * @param int|null $productionFacilityNumber The production facility number.
      * @return Card Returns this card.
      */
-    public function setProductionFacilityNumber($productionFacilityNumber) {
+    public function setProductionFacilityNumber(?int $productionFacilityNumber): Card {
         $this->productionFacilityNumber = $productionFacilityNumber;
         return $this;
     }
@@ -598,10 +598,10 @@ class Card {
     /**
      * Set the production state.
      *
-     * @param int $productionState The production state.
+     * @param int|null $productionState The production state.
      * @return Card Returns this card.
      */
-    public function setProductionState($productionState) {
+    public function setProductionState(?int $productionState): Card {
         $this->productionState = $productionState;
         return $this;
     }
@@ -609,10 +609,10 @@ class Card {
     /**
      * Set the reason for production.
      *
-     * @param int $reasonProduction The reason for production.
+     * @param int|null $reasonProduction The reason for production.
      * @return Card Returns this card.
      */
-    public function setReasonProduction($reasonProduction) {
+    public function setReasonProduction(?int $reasonProduction): Card {
         $this->reasonProduction = $reasonProduction;
         return $this;
     }
@@ -620,10 +620,10 @@ class Card {
     /**
      * Set the residual value.
      *
-     * @param int $residualValue The residual value.
+     * @param int|null $residualValue The residual value.
      * @return Card Returns this card.
      */
-    public function setResidualValue($residualValue) {
+    public function setResidualValue(?int $residualValue): Card {
         $this->residualValue = $residualValue;
         return $this;
     }
@@ -631,10 +631,10 @@ class Card {
     /**
      * Set the retain ticket at entry.
      *
-     * @param bool $retainTicketEntry The retain ticket at entry.
+     * @param bool|null $retainTicketEntry The retain ticket at entry.
      * @return Card Returns this card.
      */
-    public function setRetainTicketEntry($retainTicketEntry) {
+    public function setRetainTicketEntry(?bool $retainTicketEntry): Card {
         $this->retainTicketEntry = $retainTicketEntry;
         return $this;
     }
@@ -642,10 +642,10 @@ class Card {
     /**
      * Set the retain ticket at exit.
      *
-     * @param bool $retainTicketExit The retain ticket at exit.
+     * @param bool|null $retainTicketExit The retain ticket at exit.
      * @return Card Returns this card.
      */
-    public function setRetainTicketExit($retainTicketExit) {
+    public function setRetainTicketExit(?bool $retainTicketExit): Card {
         $this->retainTicketExit = $retainTicketExit;
         return $this;
     }
@@ -653,10 +653,10 @@ class Card {
     /**
      * Set the serial no.
      *
-     * @param string $serialNo The serial no.
+     * @param string|null $serialNo The serial no.
      * @return Card Returns this card.
      */
-    public function setSerialNo($serialNo) {
+    public function setSerialNo(?string $serialNo): Card {
         $this->serialNo = $serialNo;
         return $this;
     }
@@ -664,10 +664,10 @@ class Card {
     /**
      * Set the serial number KeyCard/Swatch.
      *
-     * @param string $serialNumberKeyCardSwatch The serial number KeyCard/Swatch.
+     * @param string|null $serialNumberKeyCardSwatch The serial number KeyCard/Swatch.
      * @return Card Returns this card.
      */
-    public function setSerialNumberKeyCardSwatch($serialNumberKeyCardSwatch) {
+    public function setSerialNumberKeyCardSwatch(?string $serialNumberKeyCardSwatch): Card {
         $this->serialNumberKeyCardSwatch = $serialNumberKeyCardSwatch;
         return $this;
     }
@@ -678,7 +678,7 @@ class Card {
      * @param DateTime|null $suspendPeriodFrom The suspend period from.
      * @return Card Returns this card.
      */
-    public function setSuspendPeriodFrom(DateTime $suspendPeriodFrom = null) {
+    public function setSuspendPeriodFrom(?DateTime $suspendPeriodFrom): Card {
         $this->suspendPeriodFrom = $suspendPeriodFrom;
         return $this;
     }
@@ -689,7 +689,7 @@ class Card {
      * @param DateTime|null $suspendPeriodUntil The suspend period until.
      * @return Card Returns this card.
      */
-    public function setSuspendPeriodUntil(DateTime $suspendPeriodUntil = null) {
+    public function setSuspendPeriodUntil(?DateTime $suspendPeriodUntil): Card {
         $this->suspendPeriodUntil = $suspendPeriodUntil;
         return $this;
     }
@@ -697,10 +697,10 @@ class Card {
     /**
      * Set the ticket number.
      *
-     * @param string $ticketNumber The ticket number.
+     * @param string|null $ticketNumber The ticket number.
      * @return Card Returns this card.
      */
-    public function setTicketNumber($ticketNumber) {
+    public function setTicketNumber(?string $ticketNumber): Card {
         $this->ticketNumber = $ticketNumber;
         return $this;
     }
@@ -708,10 +708,10 @@ class Card {
     /**
      * Set the ticket sub type.
      *
-     * @param string $ticketSubType The ticket sub type.
+     * @param string|null $ticketSubType The ticket sub type.
      * @return Card Returns this card.
      */
-    public function setTicketSubType($ticketSubType) {
+    public function setTicketSubType(?string $ticketSubType): Card {
         $this->ticketSubType = $ticketSubType;
         return $this;
     }
@@ -719,10 +719,10 @@ class Card {
     /**
      * Set the ticket type.
      *
-     * @param int $ticketType The ticket type.
+     * @param int|null $ticketType The ticket type.
      * @return Card Returns this card.
      */
-    public function setTicketType($ticketType) {
+    public function setTicketType(?int $ticketType): Card {
         $this->ticketType = $ticketType;
         return $this;
     }
@@ -730,10 +730,10 @@ class Card {
     /**
      * Set the use valid car parks.
      *
-     * @param bool $useValidCarParks The use valid car parks.
+     * @param bool|null $useValidCarParks The use valid car parks.
      * @return Card Returns this card.
      */
-    public function setUseValidCarParks($useValidCarParks) {
+    public function setUseValidCarParks(?bool $useValidCarParks): Card {
         $this->useValidCarParks = $useValidCarParks;
         return $this;
     }
@@ -741,10 +741,10 @@ class Card {
     /**
      * Set the user number.
      *
-     * @param int $userNumber The user number.
+     * @param int|null $userNumber The user number.
      * @return Card Returns this card.
      */
-    public function setUserNumber($userNumber) {
+    public function setUserNumber(?int $userNumber): Card {
         $this->userNumber = $userNumber;
         return $this;
     }
@@ -755,7 +755,7 @@ class Card {
      * @param DateTime|null $validFrom The valid from.
      * @return Card Returns this card.
      */
-    public function setValidFrom(DateTime $validFrom = null) {
+    public function setValidFrom(?DateTime $validFrom): Card {
         $this->validFrom = $validFrom;
         return $this;
     }

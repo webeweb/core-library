@@ -29,7 +29,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAbatTheo() {
+    public function testSetAbatTheo(): void {
 
         $obj = new Bulletins();
 
@@ -42,7 +42,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAbattementMax() {
+    public function testSetAbattementMax(): void {
 
         $obj = new Bulletins();
 
@@ -55,7 +55,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAllegement() {
+    public function testSetAllegement(): void {
 
         $obj = new Bulletins();
 
@@ -68,7 +68,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAllegementNonProratise() {
+    public function testSetAllegementNonProratise(): void {
 
         $obj = new Bulletins();
 
@@ -81,7 +81,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvantageNature() {
+    public function testSetAvantageNature(): void {
 
         $obj = new Bulletins();
 
@@ -94,7 +94,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseGmp() {
+    public function testSetBaseGmp(): void {
 
         $obj = new Bulletins();
 
@@ -107,7 +107,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseSecu() {
+    public function testSetBaseSecu(): void {
 
         $obj = new Bulletins();
 
@@ -120,7 +120,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseSsPlafModif() {
+    public function testSetBaseSsPlafModif(): void {
 
         $obj = new Bulletins();
 
@@ -133,7 +133,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBornePerModifie() {
+    public function testSetBornePerModifie(): void {
 
         $obj = new Bulletins();
 
@@ -146,7 +146,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrut() {
+    public function testSetBrut(): void {
 
         $obj = new Bulletins();
 
@@ -159,7 +159,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAl() {
+    public function testSetBrutAl(): void {
 
         $obj = new Bulletins();
 
@@ -172,7 +172,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAlLimiteSmic() {
+    public function testSetBrutAlLimiteSmic(): void {
 
         $obj = new Bulletins();
 
@@ -185,7 +185,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAlModifie() {
+    public function testSetBrutAlModifie(): void {
 
         $obj = new Bulletins();
 
@@ -198,7 +198,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAnl() {
+    public function testSetBrutAnl(): void {
 
         $obj = new Bulletins();
 
@@ -211,7 +211,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutCaisse1() {
+    public function testSetBrutCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -224,7 +224,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutCaisse2() {
+    public function testSetBrutCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -237,7 +237,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutCaisse3() {
+    public function testSetBrutCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -250,7 +250,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutCaisseCp() {
+    public function testSetBrutCaisseCp(): void {
 
         $obj = new Bulletins();
 
@@ -263,7 +263,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutCp() {
+    public function testSetBrutCp(): void {
 
         $obj = new Bulletins();
 
@@ -276,7 +276,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutCsg() {
+    public function testSetBrutCsg(): void {
 
         $obj = new Bulletins();
 
@@ -289,7 +289,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutSoumisAbat() {
+    public function testSetBrutSoumisAbat(): void {
 
         $obj = new Bulletins();
 
@@ -302,7 +302,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutSoumisCrds() {
+    public function testSetBrutSoumisCrds(): void {
 
         $obj = new Bulletins();
 
@@ -315,7 +315,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBulletinPublie() {
+    public function testSetBulletinPublie(): void {
 
         $obj = new Bulletins();
 
@@ -328,7 +328,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategTds() {
+    public function testSetCategTds(): void {
 
         $obj = new Bulletins();
 
@@ -341,7 +341,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChequeEdite() {
+    public function testSetChequeEdite(): void {
 
         $obj = new Bulletins();
 
@@ -354,7 +354,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChomPartielCoeffIndem() {
+    public function testSetChomPartielCoeffIndem(): void {
 
         $obj = new Bulletins();
 
@@ -367,7 +367,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChomPartielCp() {
+    public function testSetChomPartielCp(): void {
 
         $obj = new Bulletins();
 
@@ -380,7 +380,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChomPartielMinIndem() {
+    public function testSetChomPartielMinIndem(): void {
 
         $obj = new Bulletins();
 
@@ -393,7 +393,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAtPer() {
+    public function testSetCodeAtPer(): void {
 
         $obj = new Bulletins();
 
@@ -406,7 +406,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentreUrssaf() {
+    public function testSetCodeCentreUrssaf(): void {
 
         $obj = new Bulletins();
 
@@ -419,7 +419,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new Bulletins();
 
@@ -432,7 +432,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSal() {
+    public function testSetCodeTypeSal(): void {
 
         $obj = new Bulletins();
 
@@ -445,7 +445,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffIntemperie() {
+    public function testSetCoeffIntemperie(): void {
 
         $obj = new Bulletins();
 
@@ -458,7 +458,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContHSupReposComp() {
+    public function testSetContHSupReposComp(): void {
 
         $obj = new Bulletins();
 
@@ -471,7 +471,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoutGlobalMois() {
+    public function testSetCoutGlobalMois(): void {
 
         $obj = new Bulletins();
 
@@ -484,7 +484,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCum30Ss() {
+    public function testSetCum30Ss(): void {
 
         $obj = new Bulletins();
 
@@ -497,7 +497,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumAntHSup() {
+    public function testSetCumAntHSup(): void {
 
         $obj = new Bulletins();
 
@@ -510,7 +510,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseGmp() {
+    public function testSetCumBaseGmp(): void {
 
         $obj = new Bulletins();
 
@@ -523,7 +523,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseSs() {
+    public function testSetCumBaseSs(): void {
 
         $obj = new Bulletins();
 
@@ -536,7 +536,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrut() {
+    public function testSetCumBrut(): void {
 
         $obj = new Bulletins();
 
@@ -549,7 +549,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutAl() {
+    public function testSetCumBrutAl(): void {
 
         $obj = new Bulletins();
 
@@ -562,7 +562,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutAnl() {
+    public function testSetCumBrutAnl(): void {
 
         $obj = new Bulletins();
 
@@ -575,7 +575,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutCaisse1() {
+    public function testSetCumBrutCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -588,7 +588,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutCaisse2() {
+    public function testSetCumBrutCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -601,7 +601,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutCaisse3() {
+    public function testSetCumBrutCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -614,7 +614,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumDifDus() {
+    public function testSetCumDifDus(): void {
 
         $obj = new Bulletins();
 
@@ -627,7 +627,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumDifDus1() {
+    public function testSetCumDifDus1(): void {
 
         $obj = new Bulletins();
 
@@ -640,7 +640,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHBonifie() {
+    public function testSetCumHBonifie(): void {
 
         $obj = new Bulletins();
 
@@ -653,7 +653,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHReposComp() {
+    public function testSetCumHReposComp(): void {
 
         $obj = new Bulletins();
 
@@ -666,7 +666,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHReposRemplace() {
+    public function testSetCumHReposRemplace(): void {
 
         $obj = new Bulletins();
 
@@ -679,7 +679,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHService() {
+    public function testSetCumHService(): void {
 
         $obj = new Bulletins();
 
@@ -692,7 +692,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumImpos() {
+    public function testSetCumImpos(): void {
 
         $obj = new Bulletins();
 
@@ -705,7 +705,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumJReposRecup() {
+    public function testSetCumJReposRecup(): void {
 
         $obj = new Bulletins();
 
@@ -718,7 +718,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumMtCpPris() {
+    public function testSetCumMtCpPris(): void {
 
         $obj = new Bulletins();
 
@@ -731,7 +731,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumMtCpPris1() {
+    public function testSetCumMtCpPris1(): void {
 
         $obj = new Bulletins();
 
@@ -744,7 +744,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumNetAPayer() {
+    public function testSetCumNetAPayer(): void {
 
         $obj = new Bulletins();
 
@@ -757,7 +757,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf1Caisse1() {
+    public function testSetCumPlaf1Caisse1(): void {
 
         $obj = new Bulletins();
 
@@ -770,7 +770,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf1Caisse2() {
+    public function testSetCumPlaf1Caisse2(): void {
 
         $obj = new Bulletins();
 
@@ -783,7 +783,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf1Caisse3() {
+    public function testSetCumPlaf1Caisse3(): void {
 
         $obj = new Bulletins();
 
@@ -796,7 +796,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf2Caisse1() {
+    public function testSetCumPlaf2Caisse1(): void {
 
         $obj = new Bulletins();
 
@@ -809,7 +809,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf2Caisse2() {
+    public function testSetCumPlaf2Caisse2(): void {
 
         $obj = new Bulletins();
 
@@ -822,7 +822,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf2Caisse3() {
+    public function testSetCumPlaf2Caisse3(): void {
 
         $obj = new Bulletins();
 
@@ -835,7 +835,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlafondGmp() {
+    public function testSetCumPlafondGmp(): void {
 
         $obj = new Bulletins();
 
@@ -848,7 +848,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPss1() {
+    public function testSetCumPss1(): void {
 
         $obj = new Bulletins();
 
@@ -861,7 +861,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPss2() {
+    public function testSetCumPss2(): void {
 
         $obj = new Bulletins();
 
@@ -874,7 +874,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumRttDus() {
+    public function testSetCumRttDus(): void {
 
         $obj = new Bulletins();
 
@@ -887,7 +887,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumRttPris() {
+    public function testSetCumRttPris(): void {
 
         $obj = new Bulletins();
 
@@ -900,7 +900,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrACaisse1() {
+    public function testSetCumTrACaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -913,7 +913,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrACaisse2() {
+    public function testSetCumTrACaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -926,7 +926,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrACaisse3() {
+    public function testSetCumTrACaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -939,7 +939,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrBCaisse1() {
+    public function testSetCumTrBCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -952,7 +952,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrBCaisse2() {
+    public function testSetCumTrBCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -965,7 +965,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrBCaisse3() {
+    public function testSetCumTrBCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -978,7 +978,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrCCaisse1() {
+    public function testSetCumTrCCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -991,7 +991,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrCCaisse2() {
+    public function testSetCumTrCCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -1004,7 +1004,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrCCaisse3() {
+    public function testSetCumTrCCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -1017,7 +1017,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTranche2() {
+    public function testSetCumTranche2(): void {
 
         $obj = new Bulletins();
 
@@ -1030,7 +1030,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheA() {
+    public function testSetCumTrancheA(): void {
 
         $obj = new Bulletins();
 
@@ -1043,7 +1043,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheB() {
+    public function testSetCumTrancheB(): void {
 
         $obj = new Bulletins();
 
@@ -1056,7 +1056,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheC() {
+    public function testSetCumTrancheC(): void {
 
         $obj = new Bulletins();
 
@@ -1069,7 +1069,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelta() {
+    public function testSetDelta(): void {
 
         $obj = new Bulletins();
 
@@ -1082,7 +1082,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitCp() {
+    public function testSetDroitCp(): void {
 
         $obj = new Bulletins();
 
@@ -1096,7 +1096,7 @@ class BulletinsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebutPeriode() {
+    public function testSetDtDebutPeriode(): void {
 
         // Set a Date/time mock.
         $dtDebutPeriode = new DateTime("2018-09-10");
@@ -1113,7 +1113,7 @@ class BulletinsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPeriode() {
+    public function testSetDtFinPeriode(): void {
 
         // Set a Date/time mock.
         $dtFinPeriode = new DateTime("2018-09-10");
@@ -1129,7 +1129,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcartCumule() {
+    public function testSetEcartCumule(): void {
 
         $obj = new Bulletins();
 
@@ -1142,7 +1142,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatBul() {
+    public function testSetEtatBul(): void {
 
         $obj = new Bulletins();
 
@@ -1155,7 +1155,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatEdition() {
+    public function testSetEtatEdition(): void {
 
         $obj = new Bulletins();
 
@@ -1168,7 +1168,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetForfaitJour() {
+    public function testSetForfaitJour(): void {
 
         $obj = new Bulletins();
 
@@ -1181,7 +1181,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestCalcNetPaye() {
+    public function testSetGestCalcNetPaye(): void {
 
         $obj = new Bulletins();
 
@@ -1194,7 +1194,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionCoeff() {
+    public function testSetGestionCoeff(): void {
 
         $obj = new Bulletins();
 
@@ -1207,7 +1207,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHReelTrav() {
+    public function testSetHReelTrav(): void {
 
         $obj = new Bulletins();
 
@@ -1220,7 +1220,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHTheoTrav() {
+    public function testSetHTheoTrav(): void {
 
         $obj = new Bulletins();
 
@@ -1233,7 +1233,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureAbsence() {
+    public function testSetHeureAbsence(): void {
 
         $obj = new Bulletins();
 
@@ -1246,7 +1246,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new Bulletins();
 
@@ -1259,7 +1259,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Bulletins();
 
@@ -1272,7 +1272,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new Bulletins();
 
@@ -1285,7 +1285,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienJustificatif() {
+    public function testSetLienJustificatif(): void {
 
         $obj = new Bulletins();
 
@@ -1298,7 +1298,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaxAbat() {
+    public function testSetMaxAbat(): void {
 
         $obj = new Bulletins();
 
@@ -1311,7 +1311,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensuelJournalier() {
+    public function testSetMensuelJournalier(): void {
 
         $obj = new Bulletins();
 
@@ -1324,7 +1324,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMethodeIndemCp() {
+    public function testSetMethodeIndemCp(): void {
 
         $obj = new Bulletins();
 
@@ -1337,7 +1337,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMig() {
+    public function testSetMig(): void {
 
         $obj = new Bulletins();
 
@@ -1350,7 +1350,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant1() {
+    public function testSetMontant1(): void {
 
         $obj = new Bulletins();
 
@@ -1363,7 +1363,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant2() {
+    public function testSetMontant2(): void {
 
         $obj = new Bulletins();
 
@@ -1376,7 +1376,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant3() {
+    public function testSetMontant3(): void {
 
         $obj = new Bulletins();
 
@@ -1389,7 +1389,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant4() {
+    public function testSetMontant4(): void {
 
         $obj = new Bulletins();
 
@@ -1402,7 +1402,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant5() {
+    public function testSetMontant5(): void {
 
         $obj = new Bulletins();
 
@@ -1415,7 +1415,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtHSupBonif() {
+    public function testSetMtHSupBonif(): void {
 
         $obj = new Bulletins();
 
@@ -1428,7 +1428,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtICpCp() {
+    public function testSetMtICpCp(): void {
 
         $obj = new Bulletins();
 
@@ -1441,7 +1441,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtICpt() {
+    public function testSetMtICpt(): void {
 
         $obj = new Bulletins();
 
@@ -1454,7 +1454,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtIInt() {
+    public function testSetMtIInt(): void {
 
         $obj = new Bulletins();
 
@@ -1467,7 +1467,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtJcpArbitrage() {
+    public function testSetMtJcpArbitrage(): void {
 
         $obj = new Bulletins();
 
@@ -1480,7 +1480,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtJourneeCp() {
+    public function testSetMtJourneeCp(): void {
 
         $obj = new Bulletins();
 
@@ -1493,7 +1493,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtNetPayeTheo() {
+    public function testSetMtNetPayeTheo(): void {
 
         $obj = new Bulletins();
 
@@ -1506,7 +1506,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtTauxLigSalBase() {
+    public function testSetMtTauxLigSalBase(): void {
 
         $obj = new Bulletins();
 
@@ -1519,7 +1519,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNb30() {
+    public function testSetNb30(): void {
 
         $obj = new Bulletins();
 
@@ -1532,7 +1532,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAbCp() {
+    public function testSetNbHAbCp(): void {
 
         $obj = new Bulletins();
 
@@ -1545,7 +1545,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAbsenceIntemp() {
+    public function testSetNbHAbsenceIntemp(): void {
 
         $obj = new Bulletins();
 
@@ -1558,7 +1558,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAttente() {
+    public function testSetNbHAttente(): void {
 
         $obj = new Bulletins();
 
@@ -1571,7 +1571,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHBonifieDues() {
+    public function testSetNbHBonifieDues(): void {
 
         $obj = new Bulletins();
 
@@ -1584,7 +1584,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHBonifiePrises() {
+    public function testSetNbHBonifiePrises(): void {
 
         $obj = new Bulletins();
 
@@ -1597,7 +1597,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHCarenceIntemp() {
+    public function testSetNbHCarenceIntemp(): void {
 
         $obj = new Bulletins();
 
@@ -1610,7 +1610,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHChomPartCp() {
+    public function testSetNbHChomPartCp(): void {
 
         $obj = new Bulletins();
 
@@ -1623,7 +1623,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHChomPartTech() {
+    public function testSetNbHChomPartTech(): void {
 
         $obj = new Bulletins();
 
@@ -1636,7 +1636,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHConduite() {
+    public function testSetNbHConduite(): void {
 
         $obj = new Bulletins();
 
@@ -1649,7 +1649,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHConting() {
+    public function testSetNbHConting(): void {
 
         $obj = new Bulletins();
 
@@ -1662,7 +1662,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHDble() {
+    public function testSetNbHDble(): void {
 
         $obj = new Bulletins();
 
@@ -1675,7 +1675,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHDifDus() {
+    public function testSetNbHDifDus(): void {
 
         $obj = new Bulletins();
 
@@ -1688,7 +1688,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHIntempIndem() {
+    public function testSetNbHIntempIndem(): void {
 
         $obj = new Bulletins();
 
@@ -1701,7 +1701,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHLigSalBase() {
+    public function testSetNbHLigSalBase(): void {
 
         $obj = new Bulletins();
 
@@ -1714,7 +1714,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHNormal() {
+    public function testSetNbHNormal(): void {
 
         $obj = new Bulletins();
 
@@ -1727,7 +1727,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHPasDroitFillon() {
+    public function testSetNbHPasDroitFillon(): void {
 
         $obj = new Bulletins();
 
@@ -1740,7 +1740,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRemplace() {
+    public function testSetNbHRemplace(): void {
 
         $obj = new Bulletins();
 
@@ -1753,7 +1753,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRepoCompDues() {
+    public function testSetNbHRepoCompDues(): void {
 
         $obj = new Bulletins();
 
@@ -1766,7 +1766,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRepoCompPrises() {
+    public function testSetNbHRepoCompPrises(): void {
 
         $obj = new Bulletins();
 
@@ -1779,7 +1779,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRepoRDues() {
+    public function testSetNbHRepoRDues(): void {
 
         $obj = new Bulletins();
 
@@ -1792,7 +1792,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRepoRPrises() {
+    public function testSetNbHRepoRPrises(): void {
 
         $obj = new Bulletins();
 
@@ -1805,7 +1805,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup1() {
+    public function testSetNbHSup1(): void {
 
         $obj = new Bulletins();
 
@@ -1818,7 +1818,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup2() {
+    public function testSetNbHSup2(): void {
 
         $obj = new Bulletins();
 
@@ -1831,7 +1831,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup3() {
+    public function testSetNbHSup3(): void {
 
         $obj = new Bulletins();
 
@@ -1844,7 +1844,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup4() {
+    public function testSetNbHSup4(): void {
 
         $obj = new Bulletins();
 
@@ -1857,7 +1857,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup5() {
+    public function testSetNbHSup5(): void {
 
         $obj = new Bulletins();
 
@@ -1870,7 +1870,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSupBonif() {
+    public function testSetNbHSupBonif(): void {
 
         $obj = new Bulletins();
 
@@ -1883,7 +1883,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSupBonifAbs() {
+    public function testSetNbHSupBonifAbs(): void {
 
         $obj = new Bulletins();
 
@@ -1896,7 +1896,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHTrav() {
+    public function testSetNbHTrav(): void {
 
         $obj = new Bulletins();
 
@@ -1909,7 +1909,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHTravail() {
+    public function testSetNbHTravail(): void {
 
         $obj = new Bulletins();
 
@@ -1922,7 +1922,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeurePaye() {
+    public function testSetNbHeurePaye(): void {
 
         $obj = new Bulletins();
 
@@ -1935,7 +1935,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureSup() {
+    public function testSetNbHeureSup(): void {
 
         $obj = new Bulletins();
 
@@ -1948,7 +1948,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureTrav() {
+    public function testSetNbHeureTrav(): void {
 
         $obj = new Bulletins();
 
@@ -1961,7 +1961,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureTravMois() {
+    public function testSetNbHeureTravMois(): void {
 
         $obj = new Bulletins();
 
@@ -1974,7 +1974,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJChomPartCp() {
+    public function testSetNbJChomPartCp(): void {
 
         $obj = new Bulletins();
 
@@ -1987,7 +1987,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJDus() {
+    public function testSetNbJDus(): void {
 
         $obj = new Bulletins();
 
@@ -2000,7 +2000,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJDus1() {
+    public function testSetNbJDus1(): void {
 
         $obj = new Bulletins();
 
@@ -2013,7 +2013,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJPris() {
+    public function testSetNbJPris(): void {
 
         $obj = new Bulletins();
 
@@ -2026,7 +2026,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJPris1() {
+    public function testSetNbJPris1(): void {
 
         $obj = new Bulletins();
 
@@ -2039,7 +2039,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJRepoRecupDus() {
+    public function testSetNbJRepoRecupDus(): void {
 
         $obj = new Bulletins();
 
@@ -2052,7 +2052,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJRepoRecupPris() {
+    public function testSetNbJRepoRecupPris(): void {
 
         $obj = new Bulletins();
 
@@ -2065,7 +2065,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJTravForce() {
+    public function testSetNbJTravForce(): void {
 
         $obj = new Bulletins();
 
@@ -2078,7 +2078,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJTravMoisEs() {
+    public function testSetNbJTravMoisEs(): void {
 
         $obj = new Bulletins();
 
@@ -2091,7 +2091,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourBase() {
+    public function testSetNbJourBase(): void {
 
         $obj = new Bulletins();
 
@@ -2104,7 +2104,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourBaseCp() {
+    public function testSetNbJourBaseCp(): void {
 
         $obj = new Bulletins();
 
@@ -2117,7 +2117,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourCpAcquis() {
+    public function testSetNbJourCpAcquis(): void {
 
         $obj = new Bulletins();
 
@@ -2130,7 +2130,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourCpPris() {
+    public function testSetNbJourCpPris(): void {
 
         $obj = new Bulletins();
 
@@ -2143,7 +2143,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourNormaux() {
+    public function testSetNbJourNormaux(): void {
 
         $obj = new Bulletins();
 
@@ -2156,7 +2156,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourTrav() {
+    public function testSetNbJourTrav(): void {
 
         $obj = new Bulletins();
 
@@ -2169,7 +2169,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJrttDus() {
+    public function testSetNbJrttDus(): void {
 
         $obj = new Bulletins();
 
@@ -2182,7 +2182,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJrttPris() {
+    public function testSetNbJrttPris(): void {
 
         $obj = new Bulletins();
 
@@ -2195,7 +2195,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNetAPayer() {
+    public function testSetNetAPayer(): void {
 
         $obj = new Bulletins();
 
@@ -2208,7 +2208,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNetImpos() {
+    public function testSetNetImpos(): void {
 
         $obj = new Bulletins();
 
@@ -2221,7 +2221,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNote1() {
+    public function testSetNote1(): void {
 
         $obj = new Bulletins();
 
@@ -2234,7 +2234,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNote2() {
+    public function testSetNote2(): void {
 
         $obj = new Bulletins();
 
@@ -2247,7 +2247,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNote3() {
+    public function testSetNote3(): void {
 
         $obj = new Bulletins();
 
@@ -2260,7 +2260,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Bulletins();
 
@@ -2273,7 +2273,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaieEuro() {
+    public function testSetPaieEuro(): void {
 
         $obj = new Bulletins();
 
@@ -2286,7 +2286,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementCpNonPris() {
+    public function testSetPaiementCpNonPris(): void {
 
         $obj = new Bulletins();
 
@@ -2300,7 +2300,7 @@ class BulletinsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -2316,7 +2316,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new Bulletins();
 
@@ -2329,7 +2329,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodiciteModifie() {
+    public function testSetPeriodiciteModifie(): void {
 
         $obj = new Bulletins();
 
@@ -2342,7 +2342,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond1Caisse1() {
+    public function testSetPlafond1Caisse1(): void {
 
         $obj = new Bulletins();
 
@@ -2355,7 +2355,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond1Caisse2() {
+    public function testSetPlafond1Caisse2(): void {
 
         $obj = new Bulletins();
 
@@ -2368,7 +2368,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond1Caisse3() {
+    public function testSetPlafond1Caisse3(): void {
 
         $obj = new Bulletins();
 
@@ -2381,7 +2381,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond2Caisse1() {
+    public function testSetPlafond2Caisse1(): void {
 
         $obj = new Bulletins();
 
@@ -2394,7 +2394,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond2Caisse2() {
+    public function testSetPlafond2Caisse2(): void {
 
         $obj = new Bulletins();
 
@@ -2407,7 +2407,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond2Caisse3() {
+    public function testSetPlafond2Caisse3(): void {
 
         $obj = new Bulletins();
 
@@ -2420,7 +2420,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondGmp() {
+    public function testSetPlafondGmp(): void {
 
         $obj = new Bulletins();
 
@@ -2433,7 +2433,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondGmpModifie() {
+    public function testSetPlafondGmpModifie(): void {
 
         $obj = new Bulletins();
 
@@ -2446,7 +2446,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondHeure() {
+    public function testSetPlafondHeure(): void {
 
         $obj = new Bulletins();
 
@@ -2459,7 +2459,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondJour() {
+    public function testSetPlafondJour(): void {
 
         $obj = new Bulletins();
 
@@ -2472,7 +2472,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondSemaine() {
+    public function testSetPlafondSemaine(): void {
 
         $obj = new Bulletins();
 
@@ -2485,7 +2485,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentAbat() {
+    public function testSetPourcentAbat(): void {
 
         $obj = new Bulletins();
 
@@ -2498,7 +2498,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentActForce() {
+    public function testSetPourcentActForce(): void {
 
         $obj = new Bulletins();
 
@@ -2511,7 +2511,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentActivite() {
+    public function testSetPourcentActivite(): void {
 
         $obj = new Bulletins();
 
@@ -2524,7 +2524,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentRemuHor() {
+    public function testSetPourcentRemuHor(): void {
 
         $obj = new Bulletins();
 
@@ -2537,7 +2537,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPpSoumisTaxe() {
+    public function testSetPpSoumisTaxe(): void {
 
         $obj = new Bulletins();
 
@@ -2550,7 +2550,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProvCp() {
+    public function testSetProvCp(): void {
 
         $obj = new Bulletins();
 
@@ -2563,7 +2563,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProvCp1() {
+    public function testSetProvCp1(): void {
 
         $obj = new Bulletins();
 
@@ -2576,7 +2576,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPss1() {
+    public function testSetPss1(): void {
 
         $obj = new Bulletins();
 
@@ -2589,7 +2589,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPss2() {
+    public function testSetPss2(): void {
 
         $obj = new Bulletins();
 
@@ -2602,7 +2602,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPss30() {
+    public function testSetPss30(): void {
 
         $obj = new Bulletins();
 
@@ -2615,7 +2615,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPssMod() {
+    public function testSetPssMod(): void {
 
         $obj = new Bulletins();
 
@@ -2628,7 +2628,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemunMens() {
+    public function testSetRemunMens(): void {
 
         $obj = new Bulletins();
 
@@ -2641,7 +2641,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSBase() {
+    public function testSetSBase(): void {
 
         $obj = new Bulletins();
 
@@ -2654,7 +2654,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmic1() {
+    public function testSetSmic1(): void {
 
         $obj = new Bulletins();
 
@@ -2667,7 +2667,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicH() {
+    public function testSetSmicH(): void {
 
         $obj = new Bulletins();
 
@@ -2680,7 +2680,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicH35() {
+    public function testSetSmicH35(): void {
 
         $obj = new Bulletins();
 
@@ -2693,7 +2693,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicH39() {
+    public function testSetSmicH39(): void {
 
         $obj = new Bulletins();
 
@@ -2706,7 +2706,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicM() {
+    public function testSetSmicM(): void {
 
         $obj = new Bulletins();
 
@@ -2719,7 +2719,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicM35() {
+    public function testSetSmicM35(): void {
 
         $obj = new Bulletins();
 
@@ -2732,7 +2732,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicM39() {
+    public function testSetSmicM39(): void {
 
         $obj = new Bulletins();
 
@@ -2745,7 +2745,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSortieMois() {
+    public function testSetSortieMois(): void {
 
         $obj = new Bulletins();
 
@@ -2758,7 +2758,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxHAbCp() {
+    public function testSetTauxHAbCp(): void {
 
         $obj = new Bulletins();
 
@@ -2771,7 +2771,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxHAbsence() {
+    public function testSetTauxHAbsence(): void {
 
         $obj = new Bulletins();
 
@@ -2784,7 +2784,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxHNormal() {
+    public function testSetTauxHNormal(): void {
 
         $obj = new Bulletins();
 
@@ -2797,7 +2797,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxJournalier() {
+    public function testSetTauxJournalier(): void {
 
         $obj = new Bulletins();
 
@@ -2810,7 +2810,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotAcompte() {
+    public function testSetTotAcompte(): void {
 
         $obj = new Bulletins();
 
@@ -2823,7 +2823,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotAcompteCp() {
+    public function testSetTotAcompteCp(): void {
 
         $obj = new Bulletins();
 
@@ -2836,7 +2836,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotCotisPatron() {
+    public function testSetTotCotisPatron(): void {
 
         $obj = new Bulletins();
 
@@ -2849,7 +2849,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotPrimeNi() {
+    public function testSetTotPrimeNi(): void {
 
         $obj = new Bulletins();
 
@@ -2862,7 +2862,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotPrimeNs() {
+    public function testSetTotPrimeNs(): void {
 
         $obj = new Bulletins();
 
@@ -2875,7 +2875,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotRetenue() {
+    public function testSetTotRetenue(): void {
 
         $obj = new Bulletins();
 
@@ -2888,7 +2888,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrACaisse1() {
+    public function testSetTrACaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -2901,7 +2901,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrACaisse2() {
+    public function testSetTrACaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -2914,7 +2914,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrACaisse3() {
+    public function testSetTrACaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -2927,7 +2927,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrBCaisse1() {
+    public function testSetTrBCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -2940,7 +2940,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrBCaisse2() {
+    public function testSetTrBCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -2953,7 +2953,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrBCaisse3() {
+    public function testSetTrBCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -2966,7 +2966,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrCCaisse1() {
+    public function testSetTrCCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -2979,7 +2979,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrCCaisse2() {
+    public function testSetTrCCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -2992,7 +2992,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrCCaisse3() {
+    public function testSetTrCCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -3005,7 +3005,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTranche2() {
+    public function testSetTranche2(): void {
 
         $obj = new Bulletins();
 
@@ -3018,7 +3018,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheA() {
+    public function testSetTrancheA(): void {
 
         $obj = new Bulletins();
 
@@ -3031,7 +3031,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheAbal() {
+    public function testSetTrancheAbal(): void {
 
         $obj = new Bulletins();
 
@@ -3044,7 +3044,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheAbanl() {
+    public function testSetTrancheAbanl(): void {
 
         $obj = new Bulletins();
 
@@ -3057,7 +3057,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheAbna() {
+    public function testSetTrancheAbna(): void {
 
         $obj = new Bulletins();
 
@@ -3070,7 +3070,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheB() {
+    public function testSetTrancheB(): void {
 
         $obj = new Bulletins();
 
@@ -3083,7 +3083,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheBbal() {
+    public function testSetTrancheBbal(): void {
 
         $obj = new Bulletins();
 
@@ -3096,7 +3096,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheBbanl() {
+    public function testSetTrancheBbanl(): void {
 
         $obj = new Bulletins();
 
@@ -3109,7 +3109,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheBbna() {
+    public function testSetTrancheBbna(): void {
 
         $obj = new Bulletins();
 
@@ -3122,7 +3122,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheC() {
+    public function testSetTrancheC(): void {
 
         $obj = new Bulletins();
 
@@ -3135,7 +3135,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheCPlaf() {
+    public function testSetTrancheCPlaf(): void {
 
         $obj = new Bulletins();
 
@@ -3148,7 +3148,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheCbal() {
+    public function testSetTrancheCbal(): void {
 
         $obj = new Bulletins();
 
@@ -3161,7 +3161,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheCbanl() {
+    public function testSetTrancheCbanl(): void {
 
         $obj = new Bulletins();
 
@@ -3174,7 +3174,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheCbna() {
+    public function testSetTrancheCbna(): void {
 
         $obj = new Bulletins();
 
@@ -3187,7 +3187,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxtNoteRtf() {
+    public function testSetTxtNoteRtf(): void {
 
         $obj = new Bulletins();
 
@@ -3200,7 +3200,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBaseCaisse1() {
+    public function testSetTypeBaseCaisse1(): void {
 
         $obj = new Bulletins();
 
@@ -3213,7 +3213,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBaseCaisse2() {
+    public function testSetTypeBaseCaisse2(): void {
 
         $obj = new Bulletins();
 
@@ -3226,7 +3226,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBaseCaisse3() {
+    public function testSetTypeBaseCaisse3(): void {
 
         $obj = new Bulletins();
 
@@ -3239,7 +3239,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeGestionBal() {
+    public function testSetTypeGestionBal(): void {
 
         $obj = new Bulletins();
 
@@ -3252,7 +3252,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePaiementBul() {
+    public function testSetTypePaiementBul(): void {
 
         $obj = new Bulletins();
 
@@ -3265,7 +3265,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePaimentModifie() {
+    public function testSetTypePaimentModifie(): void {
 
         $obj = new Bulletins();
 
@@ -3278,7 +3278,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieAbs() {
+    public function testSetTypeSaisieAbs(): void {
 
         $obj = new Bulletins();
 
@@ -3291,7 +3291,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieAbsence() {
+    public function testSetTypeSaisieAbsence(): void {
 
         $obj = new Bulletins();
 
@@ -3304,7 +3304,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValoriseCp() {
+    public function testSetValoriseCp(): void {
 
         $obj = new Bulletins();
 
@@ -3317,7 +3317,7 @@ class BulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Bulletins();
 

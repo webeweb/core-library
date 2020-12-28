@@ -22,16 +22,16 @@ trait OcrProviderTrait {
     /**
      * OCR provider.
      *
-     * @var OcrProvider
+     * @var OcrProvider|null
      */
     private $ocrProvider;
 
     /**
      * Get the OCR provider.
      *
-     * @return OcrProvider Returns the OCR provider.
+     * @return OcrProvider|null Returns the OCR provider.
      */
-    public function getOcrProvider() {
+    public function getOcrProvider(): ?OcrProvider {
         return $this->ocrProvider;
     }
 

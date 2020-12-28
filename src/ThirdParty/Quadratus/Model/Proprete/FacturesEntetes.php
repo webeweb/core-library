@@ -24,189 +24,189 @@ class FacturesEntetes {
     /**
      * Ad int btq.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntBtq;
 
     /**
      * Ad int bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntBureauDistributeur;
 
     /**
      * Ad int code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntCodePays;
 
     /**
      * Ad int code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntCodePostal;
 
     /**
      * Ad int complement.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntComplement;
 
     /**
      * Ad int nom.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntNom;
 
     /**
      * Ad int nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntNomVoie;
 
     /**
      * Ad int num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adIntNumVoie;
 
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Civilite.
      *
-     * @var string
+     * @var string|null
      */
     private $civilite;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code anal client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalClient;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code client fact.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClientFact;
 
     /**
      * Code devise.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDevise;
 
     /**
      * Code factor.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFactor;
 
     /**
      * Code langue designation article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLangueDesignationArticle;
 
     /**
      * Code mode reglement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeModeReglement;
 
     /**
      * Code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $codePays;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Code representant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRepresentant;
 
     /**
      * Code tva client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTvaClient;
 
     /**
      * Code ventil client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilClient;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
@@ -227,7 +227,7 @@ class FacturesEntetes {
     /**
      * Date limite forcee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dateLimiteForcee;
 
@@ -241,572 +241,573 @@ class FacturesEntetes {
     /**
      * Echeance depart.
      *
-     * @var string
+     * @var string|null
      */
     private $echeanceDepart;
 
     /**
      * Echeance forcee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $echeanceForcee;
 
     /**
      * Echeance le.
      *
-     * @var string
+     * @var string|null
      */
     private $echeanceLe;
 
     /**
      * Echeance nb jours.
      *
-     * @var int
+     * @var int|null
      */
     private $echeanceNbJours;
 
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Facture euros.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureEuros;
 
     /**
      * Facture vm.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureVm;
 
     /**
      * Fonction commercial.
      *
-     * @var string
+     * @var string|null
      */
     private $fonctionCommercial;
 
     /**
      * Interlocuteur.
      *
-     * @var string
+     * @var string|null
      */
     private $interlocuteur;
 
     /**
      * Lib transf cpta.
      *
-     * @var string
+     * @var string|null
      */
     private $libTransfCpta;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Libelle transf cpta.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleTransfCpta;
 
     /**
      * Lien doc doss cpta.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocDossCpta;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Mention libre.
      *
-     * @var string
+     * @var string|null
      */
     private $mentionLibre;
 
     /**
      * Montant acompte.
      *
-     * @var float
+     * @var float|null
      */
     private $montantAcompte;
 
     /**
      * Montant htpx.
      *
-     * @var float
+     * @var float|null
      */
     private $montantHtpx;
 
     /**
      * Montant htvm.
      *
-     * @var float
+     * @var float|null
      */
     private $montantHtvm;
 
     /**
      * Montant ttc.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTtc;
 
     /**
      * Nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $nomClient;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom suite2.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite2;
 
     /**
      * Nom suite3.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite3;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Nombre echeances.
      *
-     * @var string
+     * @var string|null
      */
     private $nombreEcheances;
 
     /**
      * Num mandat.
      *
-     * @var int
+     * @var int|null
      */
     private $numMandat;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Numero commande web ft.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCommandeWebFt;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroDevis;
 
     /**
      * Numero facture.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroFacture;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Prestation.
      *
-     * @var string
+     * @var string|null
      */
     private $prestation;
 
     /**
+     * Rum.
+     *
+     * @var string|null
+     */
+    private $rum;
+
+    /**
      * Reference1.
      *
-     * @var string
+     * @var string|null
      */
     private $reference1;
 
     /**
      * Reference2.
      *
-     * @var string
+     * @var string|null
      */
     private $reference2;
 
     /**
      * Reference3.
      *
-     * @var string
+     * @var string|null
      */
     private $reference3;
 
     /**
      * Reference4.
      *
-     * @var string
+     * @var string|null
      */
     private $reference4;
 
     /**
-     * Rum.
-     *
-     * @var string
-     */
-    private $rum;
-
-    /**
      * Saisir adresse.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisirAdresse;
 
     /**
      * Soumis escompte.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisEscompte;
 
     /**
      * Soumis taxe deee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTaxeDeee;
 
     /**
      * Taux devise.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxDevise;
 
     /**
      * Taux escompte.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxEscompte;
 
     /**
      * Taux remise1.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxRemise1;
 
     /**
      * Taux remise2.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxRemise2;
 
     /**
      * Valeur ics.
      *
-     * @var string
+     * @var string|null
      */
     private $valeurIcs;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ad int btq.
      *
-     * @return string Returns the ad int btq.
+     * @return string|null Returns the ad int btq.
      */
-    public function getAdIntBtq() {
+    public function getAdIntBtq(): ?string{
         return $this->adIntBtq;
     }
 
     /**
      * Get the ad int bureau distributeur.
      *
-     * @return string Returns the ad int bureau distributeur.
+     * @return string|null Returns the ad int bureau distributeur.
      */
-    public function getAdIntBureauDistributeur() {
+    public function getAdIntBureauDistributeur(): ?string{
         return $this->adIntBureauDistributeur;
     }
 
     /**
      * Get the ad int code pays.
      *
-     * @return string Returns the ad int code pays.
+     * @return string|null Returns the ad int code pays.
      */
-    public function getAdIntCodePays() {
+    public function getAdIntCodePays(): ?string{
         return $this->adIntCodePays;
     }
 
     /**
      * Get the ad int code postal.
      *
-     * @return string Returns the ad int code postal.
+     * @return string|null Returns the ad int code postal.
      */
-    public function getAdIntCodePostal() {
+    public function getAdIntCodePostal(): ?string{
         return $this->adIntCodePostal;
     }
 
     /**
      * Get the ad int complement.
      *
-     * @return string Returns the ad int complement.
+     * @return string|null Returns the ad int complement.
      */
-    public function getAdIntComplement() {
+    public function getAdIntComplement(): ?string{
         return $this->adIntComplement;
     }
 
     /**
      * Get the ad int nom.
      *
-     * @return string Returns the ad int nom.
+     * @return string|null Returns the ad int nom.
      */
-    public function getAdIntNom() {
+    public function getAdIntNom(): ?string{
         return $this->adIntNom;
     }
 
     /**
      * Get the ad int nom voie.
      *
-     * @return string Returns the ad int nom voie.
+     * @return string|null Returns the ad int nom voie.
      */
-    public function getAdIntNomVoie() {
+    public function getAdIntNomVoie(): ?string{
         return $this->adIntNomVoie;
     }
 
     /**
      * Get the ad int num voie.
      *
-     * @return string Returns the ad int num voie.
+     * @return string|null Returns the ad int num voie.
      */
-    public function getAdIntNumVoie() {
+    public function getAdIntNumVoie(): ?string{
         return $this->adIntNumVoie;
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the civilite.
      *
-     * @return string Returns the civilite.
+     * @return string|null Returns the civilite.
      */
-    public function getCivilite() {
+    public function getCivilite(): ?string{
         return $this->civilite;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code anal client.
      *
-     * @return string Returns the code anal client.
+     * @return string|null Returns the code anal client.
      */
-    public function getCodeAnalClient() {
+    public function getCodeAnalClient(): ?string{
         return $this->codeAnalClient;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code client fact.
      *
-     * @return string Returns the code client fact.
+     * @return string|null Returns the code client fact.
      */
-    public function getCodeClientFact() {
+    public function getCodeClientFact(): ?string{
         return $this->codeClientFact;
     }
 
     /**
      * Get the code devise.
      *
-     * @return string Returns the code devise.
+     * @return string|null Returns the code devise.
      */
-    public function getCodeDevise() {
+    public function getCodeDevise(): ?string{
         return $this->codeDevise;
     }
 
     /**
      * Get the code factor.
      *
-     * @return string Returns the code factor.
+     * @return string|null Returns the code factor.
      */
-    public function getCodeFactor() {
+    public function getCodeFactor(): ?string{
         return $this->codeFactor;
     }
 
     /**
      * Get the code langue designation article.
      *
-     * @return string Returns the code langue designation article.
+     * @return string|null Returns the code langue designation article.
      */
-    public function getCodeLangueDesignationArticle() {
+    public function getCodeLangueDesignationArticle(): ?string{
         return $this->codeLangueDesignationArticle;
     }
 
     /**
      * Get the code mode reglement.
      *
-     * @return string Returns the code mode reglement.
+     * @return string|null Returns the code mode reglement.
      */
-    public function getCodeModeReglement() {
+    public function getCodeModeReglement(): ?string{
         return $this->codeModeReglement;
     }
 
     /**
      * Get the code pays.
      *
-     * @return string Returns the code pays.
+     * @return string|null Returns the code pays.
      */
-    public function getCodePays() {
+    public function getCodePays(): ?string{
         return $this->codePays;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the code representant.
      *
-     * @return string Returns the code representant.
+     * @return string|null Returns the code representant.
      */
-    public function getCodeRepresentant() {
+    public function getCodeRepresentant(): ?string{
         return $this->codeRepresentant;
     }
 
     /**
      * Get the code tva client.
      *
-     * @return string Returns the code tva client.
+     * @return string|null Returns the code tva client.
      */
-    public function getCodeTvaClient() {
+    public function getCodeTvaClient(): ?string{
         return $this->codeTvaClient;
     }
 
     /**
      * Get the code ventil client.
      *
-     * @return string Returns the code ventil client.
+     * @return string|null Returns the code ventil client.
      */
-    public function getCodeVentilClient() {
+    public function getCodeVentilClient(): ?string{
         return $this->codeVentilClient;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
@@ -815,7 +816,7 @@ class FacturesEntetes {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance() {
+    public function getDateEcheance(): ?DateTime{
         return $this->dateEcheance;
     }
 
@@ -824,16 +825,16 @@ class FacturesEntetes {
      *
      * @return DateTime|null Returns the date facture.
      */
-    public function getDateFacture() {
+    public function getDateFacture(): ?DateTime{
         return $this->dateFacture;
     }
 
     /**
      * Get the date limite forcee.
      *
-     * @return bool Returns the date limite forcee.
+     * @return bool|null Returns the date limite forcee.
      */
-    public function getDateLimiteForcee() {
+    public function getDateLimiteForcee(): ?bool{
         return $this->dateLimiteForcee;
     }
 
@@ -842,431 +843,431 @@ class FacturesEntetes {
      *
      * @return DateTime|null Returns the date limite resiliation.
      */
-    public function getDateLimiteResiliation() {
+    public function getDateLimiteResiliation(): ?DateTime{
         return $this->dateLimiteResiliation;
     }
 
     /**
      * Get the echeance depart.
      *
-     * @return string Returns the echeance depart.
+     * @return string|null Returns the echeance depart.
      */
-    public function getEcheanceDepart() {
+    public function getEcheanceDepart(): ?string{
         return $this->echeanceDepart;
     }
 
     /**
      * Get the echeance forcee.
      *
-     * @return bool Returns the echeance forcee.
+     * @return bool|null Returns the echeance forcee.
      */
-    public function getEcheanceForcee() {
+    public function getEcheanceForcee(): ?bool{
         return $this->echeanceForcee;
     }
 
     /**
      * Get the echeance le.
      *
-     * @return string Returns the echeance le.
+     * @return string|null Returns the echeance le.
      */
-    public function getEcheanceLe() {
+    public function getEcheanceLe(): ?string{
         return $this->echeanceLe;
     }
 
     /**
      * Get the echeance nb jours.
      *
-     * @return int Returns the echeance nb jours.
+     * @return int|null Returns the echeance nb jours.
      */
-    public function getEcheanceNbJours() {
+    public function getEcheanceNbJours(): ?int{
         return $this->echeanceNbJours;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the facture euros.
      *
-     * @return bool Returns the facture euros.
+     * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros() {
+    public function getFactureEuros(): ?bool{
         return $this->factureEuros;
     }
 
     /**
      * Get the facture vm.
      *
-     * @return bool Returns the facture vm.
+     * @return bool|null Returns the facture vm.
      */
-    public function getFactureVm() {
+    public function getFactureVm(): ?bool{
         return $this->factureVm;
     }
 
     /**
      * Get the fonction commercial.
      *
-     * @return string Returns the fonction commercial.
+     * @return string|null Returns the fonction commercial.
      */
-    public function getFonctionCommercial() {
+    public function getFonctionCommercial(): ?string{
         return $this->fonctionCommercial;
     }
 
     /**
      * Get the interlocuteur.
      *
-     * @return string Returns the interlocuteur.
+     * @return string|null Returns the interlocuteur.
      */
-    public function getInterlocuteur() {
+    public function getInterlocuteur(): ?string{
         return $this->interlocuteur;
     }
 
     /**
      * Get the lib transf cpta.
      *
-     * @return string Returns the lib transf cpta.
+     * @return string|null Returns the lib transf cpta.
      */
-    public function getLibTransfCpta() {
+    public function getLibTransfCpta(): ?string{
         return $this->libTransfCpta;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the libelle transf cpta.
      *
-     * @return string Returns the libelle transf cpta.
+     * @return string|null Returns the libelle transf cpta.
      */
-    public function getLibelleTransfCpta() {
+    public function getLibelleTransfCpta(): ?string{
         return $this->libelleTransfCpta;
     }
 
     /**
      * Get the lien doc doss cpta.
      *
-     * @return string Returns the lien doc doss cpta.
+     * @return string|null Returns the lien doc doss cpta.
      */
-    public function getLienDocDossCpta() {
+    public function getLienDocDossCpta(): ?string{
         return $this->lienDocDossCpta;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the mention libre.
      *
-     * @return string Returns the mention libre.
+     * @return string|null Returns the mention libre.
      */
-    public function getMentionLibre() {
+    public function getMentionLibre(): ?string{
         return $this->mentionLibre;
     }
 
     /**
      * Get the montant acompte.
      *
-     * @return float Returns the montant acompte.
+     * @return float|null Returns the montant acompte.
      */
-    public function getMontantAcompte() {
+    public function getMontantAcompte(): ?float{
         return $this->montantAcompte;
     }
 
     /**
      * Get the montant htpx.
      *
-     * @return float Returns the montant htpx.
+     * @return float|null Returns the montant htpx.
      */
-    public function getMontantHtpx() {
+    public function getMontantHtpx(): ?float{
         return $this->montantHtpx;
     }
 
     /**
      * Get the montant htvm.
      *
-     * @return float Returns the montant htvm.
+     * @return float|null Returns the montant htvm.
      */
-    public function getMontantHtvm() {
+    public function getMontantHtvm(): ?float{
         return $this->montantHtvm;
     }
 
     /**
      * Get the montant ttc.
      *
-     * @return float Returns the montant ttc.
+     * @return float|null Returns the montant ttc.
      */
-    public function getMontantTtc() {
+    public function getMontantTtc(): ?float{
         return $this->montantTtc;
     }
 
     /**
      * Get the nom client.
      *
-     * @return string Returns the nom client.
+     * @return string|null Returns the nom client.
      */
-    public function getNomClient() {
+    public function getNomClient(): ?string{
         return $this->nomClient;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom suite2.
      *
-     * @return string Returns the nom suite2.
+     * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2() {
+    public function getNomSuite2(): ?string{
         return $this->nomSuite2;
     }
 
     /**
      * Get the nom suite3.
      *
-     * @return string Returns the nom suite3.
+     * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3() {
+    public function getNomSuite3(): ?string{
         return $this->nomSuite3;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the nombre echeances.
      *
-     * @return string Returns the nombre echeances.
+     * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances() {
+    public function getNombreEcheances(): ?string{
         return $this->nombreEcheances;
     }
 
     /**
      * Get the num mandat.
      *
-     * @return int Returns the num mandat.
+     * @return int|null Returns the num mandat.
      */
-    public function getNumMandat() {
+    public function getNumMandat(): ?int{
         return $this->numMandat;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the numero commande web ft.
      *
-     * @return string Returns the numero commande web ft.
+     * @return string|null Returns the numero commande web ft.
      */
-    public function getNumeroCommandeWebFt() {
+    public function getNumeroCommandeWebFt(): ?string{
         return $this->numeroCommandeWebFt;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero devis.
      *
-     * @return string Returns the numero devis.
+     * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis() {
+    public function getNumeroDevis(): ?string{
         return $this->numeroDevis;
     }
 
     /**
      * Get the numero facture.
      *
-     * @return string Returns the numero facture.
+     * @return string|null Returns the numero facture.
      */
-    public function getNumeroFacture() {
+    public function getNumeroFacture(): ?string{
         return $this->numeroFacture;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the prestation.
      *
-     * @return string Returns the prestation.
+     * @return string|null Returns the prestation.
      */
-    public function getPrestation() {
+    public function getPrestation(): ?string{
         return $this->prestation;
+    }
+
+    /**
+     * Get the rum.
+     *
+     * @return string|null Returns the rum.
+     */
+    public function getRum(): ?string{
+        return $this->rum;
     }
 
     /**
      * Get the reference1.
      *
-     * @return string Returns the reference1.
+     * @return string|null Returns the reference1.
      */
-    public function getReference1() {
+    public function getReference1(): ?string{
         return $this->reference1;
     }
 
     /**
      * Get the reference2.
      *
-     * @return string Returns the reference2.
+     * @return string|null Returns the reference2.
      */
-    public function getReference2() {
+    public function getReference2(): ?string{
         return $this->reference2;
     }
 
     /**
      * Get the reference3.
      *
-     * @return string Returns the reference3.
+     * @return string|null Returns the reference3.
      */
-    public function getReference3() {
+    public function getReference3(): ?string{
         return $this->reference3;
     }
 
     /**
      * Get the reference4.
      *
-     * @return string Returns the reference4.
+     * @return string|null Returns the reference4.
      */
-    public function getReference4() {
+    public function getReference4(): ?string{
         return $this->reference4;
-    }
-
-    /**
-     * Get the rum.
-     *
-     * @return string Returns the rum.
-     */
-    public function getRum() {
-        return $this->rum;
     }
 
     /**
      * Get the saisir adresse.
      *
-     * @return bool Returns the saisir adresse.
+     * @return bool|null Returns the saisir adresse.
      */
-    public function getSaisirAdresse() {
+    public function getSaisirAdresse(): ?bool{
         return $this->saisirAdresse;
     }
 
     /**
      * Get the soumis escompte.
      *
-     * @return bool Returns the soumis escompte.
+     * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte() {
+    public function getSoumisEscompte(): ?bool{
         return $this->soumisEscompte;
     }
 
     /**
      * Get the soumis taxe deee.
      *
-     * @return bool Returns the soumis taxe deee.
+     * @return bool|null Returns the soumis taxe deee.
      */
-    public function getSoumisTaxeDeee() {
+    public function getSoumisTaxeDeee(): ?bool{
         return $this->soumisTaxeDeee;
     }
 
     /**
      * Get the taux devise.
      *
-     * @return float Returns the taux devise.
+     * @return float|null Returns the taux devise.
      */
-    public function getTauxDevise() {
+    public function getTauxDevise(): ?float{
         return $this->tauxDevise;
     }
 
     /**
      * Get the taux escompte.
      *
-     * @return float Returns the taux escompte.
+     * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte() {
+    public function getTauxEscompte(): ?float{
         return $this->tauxEscompte;
     }
 
     /**
      * Get the taux remise1.
      *
-     * @return float Returns the taux remise1.
+     * @return float|null Returns the taux remise1.
      */
-    public function getTauxRemise1() {
+    public function getTauxRemise1(): ?float{
         return $this->tauxRemise1;
     }
 
     /**
      * Get the taux remise2.
      *
-     * @return float Returns the taux remise2.
+     * @return float|null Returns the taux remise2.
      */
-    public function getTauxRemise2() {
+    public function getTauxRemise2(): ?float{
         return $this->tauxRemise2;
     }
 
     /**
      * Get the valeur ics.
      *
-     * @return string Returns the valeur ics.
+     * @return string|null Returns the valeur ics.
      */
-    public function getValeurIcs() {
+    public function getValeurIcs(): ?string{
         return $this->valeurIcs;
     }
 
     /**
      * Set the ad int btq.
      *
-     * @param string $adIntBtq The ad int btq.
+     * @param string|null $adIntBtq The ad int btq.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntBtq($adIntBtq) {
+    public function setAdIntBtq(?string $adIntBtq): FacturesEntetes {
         $this->adIntBtq = $adIntBtq;
         return $this;
     }
@@ -1274,10 +1275,10 @@ class FacturesEntetes {
     /**
      * Set the ad int bureau distributeur.
      *
-     * @param string $adIntBureauDistributeur The ad int bureau distributeur.
+     * @param string|null $adIntBureauDistributeur The ad int bureau distributeur.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntBureauDistributeur($adIntBureauDistributeur) {
+    public function setAdIntBureauDistributeur(?string $adIntBureauDistributeur): FacturesEntetes {
         $this->adIntBureauDistributeur = $adIntBureauDistributeur;
         return $this;
     }
@@ -1285,10 +1286,10 @@ class FacturesEntetes {
     /**
      * Set the ad int code pays.
      *
-     * @param string $adIntCodePays The ad int code pays.
+     * @param string|null $adIntCodePays The ad int code pays.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntCodePays($adIntCodePays) {
+    public function setAdIntCodePays(?string $adIntCodePays): FacturesEntetes {
         $this->adIntCodePays = $adIntCodePays;
         return $this;
     }
@@ -1296,10 +1297,10 @@ class FacturesEntetes {
     /**
      * Set the ad int code postal.
      *
-     * @param string $adIntCodePostal The ad int code postal.
+     * @param string|null $adIntCodePostal The ad int code postal.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntCodePostal($adIntCodePostal) {
+    public function setAdIntCodePostal(?string $adIntCodePostal): FacturesEntetes {
         $this->adIntCodePostal = $adIntCodePostal;
         return $this;
     }
@@ -1307,10 +1308,10 @@ class FacturesEntetes {
     /**
      * Set the ad int complement.
      *
-     * @param string $adIntComplement The ad int complement.
+     * @param string|null $adIntComplement The ad int complement.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntComplement($adIntComplement) {
+    public function setAdIntComplement(?string $adIntComplement): FacturesEntetes {
         $this->adIntComplement = $adIntComplement;
         return $this;
     }
@@ -1318,10 +1319,10 @@ class FacturesEntetes {
     /**
      * Set the ad int nom.
      *
-     * @param string $adIntNom The ad int nom.
+     * @param string|null $adIntNom The ad int nom.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntNom($adIntNom) {
+    public function setAdIntNom(?string $adIntNom): FacturesEntetes {
         $this->adIntNom = $adIntNom;
         return $this;
     }
@@ -1329,10 +1330,10 @@ class FacturesEntetes {
     /**
      * Set the ad int nom voie.
      *
-     * @param string $adIntNomVoie The ad int nom voie.
+     * @param string|null $adIntNomVoie The ad int nom voie.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntNomVoie($adIntNomVoie) {
+    public function setAdIntNomVoie(?string $adIntNomVoie): FacturesEntetes {
         $this->adIntNomVoie = $adIntNomVoie;
         return $this;
     }
@@ -1340,10 +1341,10 @@ class FacturesEntetes {
     /**
      * Set the ad int num voie.
      *
-     * @param string $adIntNumVoie The ad int num voie.
+     * @param string|null $adIntNumVoie The ad int num voie.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setAdIntNumVoie($adIntNumVoie) {
+    public function setAdIntNumVoie(?string $adIntNumVoie): FacturesEntetes {
         $this->adIntNumVoie = $adIntNumVoie;
         return $this;
     }
@@ -1351,10 +1352,10 @@ class FacturesEntetes {
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): FacturesEntetes {
         $this->btq = $btq;
         return $this;
     }
@@ -1362,10 +1363,10 @@ class FacturesEntetes {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): FacturesEntetes {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -1373,10 +1374,10 @@ class FacturesEntetes {
     /**
      * Set the civilite.
      *
-     * @param string $civilite The civilite.
+     * @param string|null $civilite The civilite.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCivilite($civilite) {
+    public function setCivilite(?string $civilite): FacturesEntetes {
         $this->civilite = $civilite;
         return $this;
     }
@@ -1384,10 +1385,10 @@ class FacturesEntetes {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FacturesEntetes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -1395,10 +1396,10 @@ class FacturesEntetes {
     /**
      * Set the code anal client.
      *
-     * @param string $codeAnalClient The code anal client.
+     * @param string|null $codeAnalClient The code anal client.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeAnalClient($codeAnalClient) {
+    public function setCodeAnalClient(?string $codeAnalClient): FacturesEntetes {
         $this->codeAnalClient = $codeAnalClient;
         return $this;
     }
@@ -1406,10 +1407,10 @@ class FacturesEntetes {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FacturesEntetes {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -1417,10 +1418,10 @@ class FacturesEntetes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FacturesEntetes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -1428,10 +1429,10 @@ class FacturesEntetes {
     /**
      * Set the code client fact.
      *
-     * @param string $codeClientFact The code client fact.
+     * @param string|null $codeClientFact The code client fact.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeClientFact($codeClientFact) {
+    public function setCodeClientFact(?string $codeClientFact): FacturesEntetes {
         $this->codeClientFact = $codeClientFact;
         return $this;
     }
@@ -1439,10 +1440,10 @@ class FacturesEntetes {
     /**
      * Set the code devise.
      *
-     * @param string $codeDevise The code devise.
+     * @param string|null $codeDevise The code devise.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeDevise($codeDevise) {
+    public function setCodeDevise(?string $codeDevise): FacturesEntetes {
         $this->codeDevise = $codeDevise;
         return $this;
     }
@@ -1450,10 +1451,10 @@ class FacturesEntetes {
     /**
      * Set the code factor.
      *
-     * @param string $codeFactor The code factor.
+     * @param string|null $codeFactor The code factor.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeFactor($codeFactor) {
+    public function setCodeFactor(?string $codeFactor): FacturesEntetes {
         $this->codeFactor = $codeFactor;
         return $this;
     }
@@ -1461,10 +1462,10 @@ class FacturesEntetes {
     /**
      * Set the code langue designation article.
      *
-     * @param string $codeLangueDesignationArticle The code langue designation article.
+     * @param string|null $codeLangueDesignationArticle The code langue designation article.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeLangueDesignationArticle($codeLangueDesignationArticle) {
+    public function setCodeLangueDesignationArticle(?string $codeLangueDesignationArticle): FacturesEntetes {
         $this->codeLangueDesignationArticle = $codeLangueDesignationArticle;
         return $this;
     }
@@ -1472,10 +1473,10 @@ class FacturesEntetes {
     /**
      * Set the code mode reglement.
      *
-     * @param string $codeModeReglement The code mode reglement.
+     * @param string|null $codeModeReglement The code mode reglement.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeModeReglement($codeModeReglement) {
+    public function setCodeModeReglement(?string $codeModeReglement): FacturesEntetes {
         $this->codeModeReglement = $codeModeReglement;
         return $this;
     }
@@ -1483,10 +1484,10 @@ class FacturesEntetes {
     /**
      * Set the code pays.
      *
-     * @param string $codePays The code pays.
+     * @param string|null $codePays The code pays.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodePays($codePays) {
+    public function setCodePays(?string $codePays): FacturesEntetes {
         $this->codePays = $codePays;
         return $this;
     }
@@ -1494,10 +1495,10 @@ class FacturesEntetes {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): FacturesEntetes {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -1505,10 +1506,10 @@ class FacturesEntetes {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): FacturesEntetes {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -1516,10 +1517,10 @@ class FacturesEntetes {
     /**
      * Set the code representant.
      *
-     * @param string $codeRepresentant The code representant.
+     * @param string|null $codeRepresentant The code representant.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeRepresentant($codeRepresentant) {
+    public function setCodeRepresentant(?string $codeRepresentant): FacturesEntetes {
         $this->codeRepresentant = $codeRepresentant;
         return $this;
     }
@@ -1527,10 +1528,10 @@ class FacturesEntetes {
     /**
      * Set the code tva client.
      *
-     * @param string $codeTvaClient The code tva client.
+     * @param string|null $codeTvaClient The code tva client.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeTvaClient($codeTvaClient) {
+    public function setCodeTvaClient(?string $codeTvaClient): FacturesEntetes {
         $this->codeTvaClient = $codeTvaClient;
         return $this;
     }
@@ -1538,10 +1539,10 @@ class FacturesEntetes {
     /**
      * Set the code ventil client.
      *
-     * @param string $codeVentilClient The code ventil client.
+     * @param string|null $codeVentilClient The code ventil client.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setCodeVentilClient($codeVentilClient) {
+    public function setCodeVentilClient(?string $codeVentilClient): FacturesEntetes {
         $this->codeVentilClient = $codeVentilClient;
         return $this;
     }
@@ -1549,10 +1550,10 @@ class FacturesEntetes {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): FacturesEntetes {
         $this->complement = $complement;
         return $this;
     }
@@ -1563,7 +1564,7 @@ class FacturesEntetes {
      * @param DateTime|null $dateEcheance The date echeance.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setDateEcheance(DateTime $dateEcheance = null) {
+    public function setDateEcheance(?DateTime $dateEcheance): FacturesEntetes {
         $this->dateEcheance = $dateEcheance;
         return $this;
     }
@@ -1574,7 +1575,7 @@ class FacturesEntetes {
      * @param DateTime|null $dateFacture The date facture.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setDateFacture(DateTime $dateFacture = null) {
+    public function setDateFacture(?DateTime $dateFacture): FacturesEntetes {
         $this->dateFacture = $dateFacture;
         return $this;
     }
@@ -1582,10 +1583,10 @@ class FacturesEntetes {
     /**
      * Set the date limite forcee.
      *
-     * @param bool $dateLimiteForcee The date limite forcee.
+     * @param bool|null $dateLimiteForcee The date limite forcee.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setDateLimiteForcee($dateLimiteForcee) {
+    public function setDateLimiteForcee(?bool $dateLimiteForcee): FacturesEntetes {
         $this->dateLimiteForcee = $dateLimiteForcee;
         return $this;
     }
@@ -1596,7 +1597,7 @@ class FacturesEntetes {
      * @param DateTime|null $dateLimiteResiliation The date limite resiliation.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setDateLimiteResiliation(DateTime $dateLimiteResiliation = null) {
+    public function setDateLimiteResiliation(?DateTime $dateLimiteResiliation): FacturesEntetes {
         $this->dateLimiteResiliation = $dateLimiteResiliation;
         return $this;
     }
@@ -1604,10 +1605,10 @@ class FacturesEntetes {
     /**
      * Set the echeance depart.
      *
-     * @param string $echeanceDepart The echeance depart.
+     * @param string|null $echeanceDepart The echeance depart.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setEcheanceDepart($echeanceDepart) {
+    public function setEcheanceDepart(?string $echeanceDepart): FacturesEntetes {
         $this->echeanceDepart = $echeanceDepart;
         return $this;
     }
@@ -1615,10 +1616,10 @@ class FacturesEntetes {
     /**
      * Set the echeance forcee.
      *
-     * @param bool $echeanceForcee The echeance forcee.
+     * @param bool|null $echeanceForcee The echeance forcee.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setEcheanceForcee($echeanceForcee) {
+    public function setEcheanceForcee(?bool $echeanceForcee): FacturesEntetes {
         $this->echeanceForcee = $echeanceForcee;
         return $this;
     }
@@ -1626,10 +1627,10 @@ class FacturesEntetes {
     /**
      * Set the echeance le.
      *
-     * @param string $echeanceLe The echeance le.
+     * @param string|null $echeanceLe The echeance le.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setEcheanceLe($echeanceLe) {
+    public function setEcheanceLe(?string $echeanceLe): FacturesEntetes {
         $this->echeanceLe = $echeanceLe;
         return $this;
     }
@@ -1637,10 +1638,10 @@ class FacturesEntetes {
     /**
      * Set the echeance nb jours.
      *
-     * @param int $echeanceNbJours The echeance nb jours.
+     * @param int|null $echeanceNbJours The echeance nb jours.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setEcheanceNbJours($echeanceNbJours) {
+    public function setEcheanceNbJours(?int $echeanceNbJours): FacturesEntetes {
         $this->echeanceNbJours = $echeanceNbJours;
         return $this;
     }
@@ -1648,10 +1649,10 @@ class FacturesEntetes {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): FacturesEntetes {
         $this->etat = $etat;
         return $this;
     }
@@ -1659,10 +1660,10 @@ class FacturesEntetes {
     /**
      * Set the facture euros.
      *
-     * @param bool $factureEuros The facture euros.
+     * @param bool|null $factureEuros The facture euros.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setFactureEuros($factureEuros) {
+    public function setFactureEuros(?bool $factureEuros): FacturesEntetes {
         $this->factureEuros = $factureEuros;
         return $this;
     }
@@ -1670,10 +1671,10 @@ class FacturesEntetes {
     /**
      * Set the facture vm.
      *
-     * @param bool $factureVm The facture vm.
+     * @param bool|null $factureVm The facture vm.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setFactureVm($factureVm) {
+    public function setFactureVm(?bool $factureVm): FacturesEntetes {
         $this->factureVm = $factureVm;
         return $this;
     }
@@ -1681,10 +1682,10 @@ class FacturesEntetes {
     /**
      * Set the fonction commercial.
      *
-     * @param string $fonctionCommercial The fonction commercial.
+     * @param string|null $fonctionCommercial The fonction commercial.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setFonctionCommercial($fonctionCommercial) {
+    public function setFonctionCommercial(?string $fonctionCommercial): FacturesEntetes {
         $this->fonctionCommercial = $fonctionCommercial;
         return $this;
     }
@@ -1692,10 +1693,10 @@ class FacturesEntetes {
     /**
      * Set the interlocuteur.
      *
-     * @param string $interlocuteur The interlocuteur.
+     * @param string|null $interlocuteur The interlocuteur.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setInterlocuteur($interlocuteur) {
+    public function setInterlocuteur(?string $interlocuteur): FacturesEntetes {
         $this->interlocuteur = $interlocuteur;
         return $this;
     }
@@ -1703,10 +1704,10 @@ class FacturesEntetes {
     /**
      * Set the lib transf cpta.
      *
-     * @param string $libTransfCpta The lib transf cpta.
+     * @param string|null $libTransfCpta The lib transf cpta.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setLibTransfCpta($libTransfCpta) {
+    public function setLibTransfCpta(?string $libTransfCpta): FacturesEntetes {
         $this->libTransfCpta = $libTransfCpta;
         return $this;
     }
@@ -1714,10 +1715,10 @@ class FacturesEntetes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): FacturesEntetes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -1725,10 +1726,10 @@ class FacturesEntetes {
     /**
      * Set the libelle transf cpta.
      *
-     * @param string $libelleTransfCpta The libelle transf cpta.
+     * @param string|null $libelleTransfCpta The libelle transf cpta.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setLibelleTransfCpta($libelleTransfCpta) {
+    public function setLibelleTransfCpta(?string $libelleTransfCpta): FacturesEntetes {
         $this->libelleTransfCpta = $libelleTransfCpta;
         return $this;
     }
@@ -1736,10 +1737,10 @@ class FacturesEntetes {
     /**
      * Set the lien doc doss cpta.
      *
-     * @param string $lienDocDossCpta The lien doc doss cpta.
+     * @param string|null $lienDocDossCpta The lien doc doss cpta.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setLienDocDossCpta($lienDocDossCpta) {
+    public function setLienDocDossCpta(?string $lienDocDossCpta): FacturesEntetes {
         $this->lienDocDossCpta = $lienDocDossCpta;
         return $this;
     }
@@ -1747,10 +1748,10 @@ class FacturesEntetes {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): FacturesEntetes {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -1758,10 +1759,10 @@ class FacturesEntetes {
     /**
      * Set the mention libre.
      *
-     * @param string $mentionLibre The mention libre.
+     * @param string|null $mentionLibre The mention libre.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setMentionLibre($mentionLibre) {
+    public function setMentionLibre(?string $mentionLibre): FacturesEntetes {
         $this->mentionLibre = $mentionLibre;
         return $this;
     }
@@ -1769,10 +1770,10 @@ class FacturesEntetes {
     /**
      * Set the montant acompte.
      *
-     * @param float $montantAcompte The montant acompte.
+     * @param float|null $montantAcompte The montant acompte.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setMontantAcompte($montantAcompte) {
+    public function setMontantAcompte(?float $montantAcompte): FacturesEntetes {
         $this->montantAcompte = $montantAcompte;
         return $this;
     }
@@ -1780,10 +1781,10 @@ class FacturesEntetes {
     /**
      * Set the montant htpx.
      *
-     * @param float $montantHtpx The montant htpx.
+     * @param float|null $montantHtpx The montant htpx.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setMontantHtpx($montantHtpx) {
+    public function setMontantHtpx(?float $montantHtpx): FacturesEntetes {
         $this->montantHtpx = $montantHtpx;
         return $this;
     }
@@ -1791,10 +1792,10 @@ class FacturesEntetes {
     /**
      * Set the montant htvm.
      *
-     * @param float $montantHtvm The montant htvm.
+     * @param float|null $montantHtvm The montant htvm.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setMontantHtvm($montantHtvm) {
+    public function setMontantHtvm(?float $montantHtvm): FacturesEntetes {
         $this->montantHtvm = $montantHtvm;
         return $this;
     }
@@ -1802,10 +1803,10 @@ class FacturesEntetes {
     /**
      * Set the montant ttc.
      *
-     * @param float $montantTtc The montant ttc.
+     * @param float|null $montantTtc The montant ttc.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setMontantTtc($montantTtc) {
+    public function setMontantTtc(?float $montantTtc): FacturesEntetes {
         $this->montantTtc = $montantTtc;
         return $this;
     }
@@ -1813,10 +1814,10 @@ class FacturesEntetes {
     /**
      * Set the nom client.
      *
-     * @param string $nomClient The nom client.
+     * @param string|null $nomClient The nom client.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNomClient($nomClient) {
+    public function setNomClient(?string $nomClient): FacturesEntetes {
         $this->nomClient = $nomClient;
         return $this;
     }
@@ -1824,10 +1825,10 @@ class FacturesEntetes {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): FacturesEntetes {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -1835,10 +1836,10 @@ class FacturesEntetes {
     /**
      * Set the nom suite2.
      *
-     * @param string $nomSuite2 The nom suite2.
+     * @param string|null $nomSuite2 The nom suite2.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNomSuite2($nomSuite2) {
+    public function setNomSuite2(?string $nomSuite2): FacturesEntetes {
         $this->nomSuite2 = $nomSuite2;
         return $this;
     }
@@ -1846,10 +1847,10 @@ class FacturesEntetes {
     /**
      * Set the nom suite3.
      *
-     * @param string $nomSuite3 The nom suite3.
+     * @param string|null $nomSuite3 The nom suite3.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNomSuite3($nomSuite3) {
+    public function setNomSuite3(?string $nomSuite3): FacturesEntetes {
         $this->nomSuite3 = $nomSuite3;
         return $this;
     }
@@ -1857,10 +1858,10 @@ class FacturesEntetes {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): FacturesEntetes {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -1868,10 +1869,10 @@ class FacturesEntetes {
     /**
      * Set the nombre echeances.
      *
-     * @param string $nombreEcheances The nombre echeances.
+     * @param string|null $nombreEcheances The nombre echeances.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNombreEcheances($nombreEcheances) {
+    public function setNombreEcheances(?string $nombreEcheances): FacturesEntetes {
         $this->nombreEcheances = $nombreEcheances;
         return $this;
     }
@@ -1879,10 +1880,10 @@ class FacturesEntetes {
     /**
      * Set the num mandat.
      *
-     * @param int $numMandat The num mandat.
+     * @param int|null $numMandat The num mandat.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumMandat($numMandat) {
+    public function setNumMandat(?int $numMandat): FacturesEntetes {
         $this->numMandat = $numMandat;
         return $this;
     }
@@ -1890,10 +1891,10 @@ class FacturesEntetes {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): FacturesEntetes {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -1901,10 +1902,10 @@ class FacturesEntetes {
     /**
      * Set the numero commande web ft.
      *
-     * @param string $numeroCommandeWebFt The numero commande web ft.
+     * @param string|null $numeroCommandeWebFt The numero commande web ft.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumeroCommandeWebFt($numeroCommandeWebFt) {
+    public function setNumeroCommandeWebFt(?string $numeroCommandeWebFt): FacturesEntetes {
         $this->numeroCommandeWebFt = $numeroCommandeWebFt;
         return $this;
     }
@@ -1912,10 +1913,10 @@ class FacturesEntetes {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): FacturesEntetes {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -1923,10 +1924,10 @@ class FacturesEntetes {
     /**
      * Set the numero devis.
      *
-     * @param string $numeroDevis The numero devis.
+     * @param string|null $numeroDevis The numero devis.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumeroDevis($numeroDevis) {
+    public function setNumeroDevis(?string $numeroDevis): FacturesEntetes {
         $this->numeroDevis = $numeroDevis;
         return $this;
     }
@@ -1934,10 +1935,10 @@ class FacturesEntetes {
     /**
      * Set the numero facture.
      *
-     * @param string $numeroFacture The numero facture.
+     * @param string|null $numeroFacture The numero facture.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumeroFacture($numeroFacture) {
+    public function setNumeroFacture(?string $numeroFacture): FacturesEntetes {
         $this->numeroFacture = $numeroFacture;
         return $this;
     }
@@ -1945,10 +1946,10 @@ class FacturesEntetes {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): FacturesEntetes {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -1956,21 +1957,32 @@ class FacturesEntetes {
     /**
      * Set the prestation.
      *
-     * @param string $prestation The prestation.
+     * @param string|null $prestation The prestation.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setPrestation($prestation) {
+    public function setPrestation(?string $prestation): FacturesEntetes {
         $this->prestation = $prestation;
+        return $this;
+    }
+
+    /**
+     * Set the rum.
+     *
+     * @param string|null $rum The rum.
+     * @return FacturesEntetes Returns this Factures entetes.
+     */
+    public function setRum(?string $rum): FacturesEntetes {
+        $this->rum = $rum;
         return $this;
     }
 
     /**
      * Set the reference1.
      *
-     * @param string $reference1 The reference1.
+     * @param string|null $reference1 The reference1.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setReference1($reference1) {
+    public function setReference1(?string $reference1): FacturesEntetes {
         $this->reference1 = $reference1;
         return $this;
     }
@@ -1978,10 +1990,10 @@ class FacturesEntetes {
     /**
      * Set the reference2.
      *
-     * @param string $reference2 The reference2.
+     * @param string|null $reference2 The reference2.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setReference2($reference2) {
+    public function setReference2(?string $reference2): FacturesEntetes {
         $this->reference2 = $reference2;
         return $this;
     }
@@ -1989,10 +2001,10 @@ class FacturesEntetes {
     /**
      * Set the reference3.
      *
-     * @param string $reference3 The reference3.
+     * @param string|null $reference3 The reference3.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setReference3($reference3) {
+    public function setReference3(?string $reference3): FacturesEntetes {
         $this->reference3 = $reference3;
         return $this;
     }
@@ -2000,32 +2012,21 @@ class FacturesEntetes {
     /**
      * Set the reference4.
      *
-     * @param string $reference4 The reference4.
+     * @param string|null $reference4 The reference4.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setReference4($reference4) {
+    public function setReference4(?string $reference4): FacturesEntetes {
         $this->reference4 = $reference4;
-        return $this;
-    }
-
-    /**
-     * Set the rum.
-     *
-     * @param string $rum The rum.
-     * @return FacturesEntetes Returns this Factures entetes.
-     */
-    public function setRum($rum) {
-        $this->rum = $rum;
         return $this;
     }
 
     /**
      * Set the saisir adresse.
      *
-     * @param bool $saisirAdresse The saisir adresse.
+     * @param bool|null $saisirAdresse The saisir adresse.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setSaisirAdresse($saisirAdresse) {
+    public function setSaisirAdresse(?bool $saisirAdresse): FacturesEntetes {
         $this->saisirAdresse = $saisirAdresse;
         return $this;
     }
@@ -2033,10 +2034,10 @@ class FacturesEntetes {
     /**
      * Set the soumis escompte.
      *
-     * @param bool $soumisEscompte The soumis escompte.
+     * @param bool|null $soumisEscompte The soumis escompte.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setSoumisEscompte($soumisEscompte) {
+    public function setSoumisEscompte(?bool $soumisEscompte): FacturesEntetes {
         $this->soumisEscompte = $soumisEscompte;
         return $this;
     }
@@ -2044,10 +2045,10 @@ class FacturesEntetes {
     /**
      * Set the soumis taxe deee.
      *
-     * @param bool $soumisTaxeDeee The soumis taxe deee.
+     * @param bool|null $soumisTaxeDeee The soumis taxe deee.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setSoumisTaxeDeee($soumisTaxeDeee) {
+    public function setSoumisTaxeDeee(?bool $soumisTaxeDeee): FacturesEntetes {
         $this->soumisTaxeDeee = $soumisTaxeDeee;
         return $this;
     }
@@ -2055,10 +2056,10 @@ class FacturesEntetes {
     /**
      * Set the taux devise.
      *
-     * @param float $tauxDevise The taux devise.
+     * @param float|null $tauxDevise The taux devise.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setTauxDevise($tauxDevise) {
+    public function setTauxDevise(?float $tauxDevise): FacturesEntetes {
         $this->tauxDevise = $tauxDevise;
         return $this;
     }
@@ -2066,10 +2067,10 @@ class FacturesEntetes {
     /**
      * Set the taux escompte.
      *
-     * @param float $tauxEscompte The taux escompte.
+     * @param float|null $tauxEscompte The taux escompte.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setTauxEscompte($tauxEscompte) {
+    public function setTauxEscompte(?float $tauxEscompte): FacturesEntetes {
         $this->tauxEscompte = $tauxEscompte;
         return $this;
     }
@@ -2077,10 +2078,10 @@ class FacturesEntetes {
     /**
      * Set the taux remise1.
      *
-     * @param float $tauxRemise1 The taux remise1.
+     * @param float|null $tauxRemise1 The taux remise1.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setTauxRemise1($tauxRemise1) {
+    public function setTauxRemise1(?float $tauxRemise1): FacturesEntetes {
         $this->tauxRemise1 = $tauxRemise1;
         return $this;
     }
@@ -2088,10 +2089,10 @@ class FacturesEntetes {
     /**
      * Set the taux remise2.
      *
-     * @param float $tauxRemise2 The taux remise2.
+     * @param float|null $tauxRemise2 The taux remise2.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setTauxRemise2($tauxRemise2) {
+    public function setTauxRemise2(?float $tauxRemise2): FacturesEntetes {
         $this->tauxRemise2 = $tauxRemise2;
         return $this;
     }
@@ -2099,10 +2100,10 @@ class FacturesEntetes {
     /**
      * Set the valeur ics.
      *
-     * @param string $valeurIcs The valeur ics.
+     * @param string|null $valeurIcs The valeur ics.
      * @return FacturesEntetes Returns this Factures entetes.
      */
-    public function setValeurIcs($valeurIcs) {
+    public function setValeurIcs(?string $valeurIcs): FacturesEntetes {
         $this->valeurIcs = $valeurIcs;
         return $this;
     }

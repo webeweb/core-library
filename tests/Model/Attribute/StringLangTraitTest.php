@@ -27,7 +27,7 @@ class StringLangTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLang() {
+    public function testSetLang(): void {
 
         $obj = new TestStringLangTrait();
 
@@ -40,7 +40,7 @@ class StringLangTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringLangTrait();
 

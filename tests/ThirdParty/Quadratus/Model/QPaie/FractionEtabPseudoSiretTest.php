@@ -30,7 +30,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAPartirDe() {
+    public function testSetAPartirDe(): void {
 
         // Set a Date/time mock.
         $aPartirDe = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new FractionEtabPseudoSiret();
 
@@ -59,7 +59,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumFraction() {
+    public function testSetNumFraction(): void {
 
         $obj = new FractionEtabPseudoSiret();
 
@@ -72,7 +72,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPseudoSiret() {
+    public function testSetPseudoSiret(): void {
 
         $obj = new FractionEtabPseudoSiret();
 
@@ -85,7 +85,7 @@ class FractionEtabPseudoSiretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FractionEtabPseudoSiret();
 

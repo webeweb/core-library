@@ -29,7 +29,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function contains(TimeSlot $a, TimeSlot $b) {
+    public static function contains(TimeSlot $a, TimeSlot $b): bool {
         $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
         $c2 = DateTimeHelper::isBetween($b->getEndDate(), $a->getStartDate(), $a->getEndDate());
         return $c1 && $c2;
@@ -42,7 +42,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function equals(TimeSlot $a, TimeSlot $b) {
+    public static function equals(TimeSlot $a, TimeSlot $b): bool {
 
         if (false === DateTimeHelper::equals($a->getStartDate(), $b->getStartDate())) {
             return false;
@@ -72,7 +72,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot|null Returns a time slot in case of success, null otherwise.
      */
-    public static function fullJoin(TimeSlot $a, TimeSlot $b) {
+    public static function fullJoin(TimeSlot $a, TimeSlot $b): ?TimeSlot {
 
         if (false === static::hasFullJoin($a, $b)) {
             return null;
@@ -91,7 +91,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot[]|null Returns the time slots in case of success, null otherwise.
      */
-    public static function fullJoinWithout(TimeSlot $a, TimeSlot $b) {
+    public static function fullJoinWithout(TimeSlot $a, TimeSlot $b): ?array {
 
         $leftJoins  = static::leftJoinWithout($a, $b);
         $rightJoins = static::rightJoinWithout($a, $b);
@@ -115,7 +115,7 @@ class TimeSlotHelper {
      * @param TimeSlot[] $timeSlots the time slots.
      * @return int Returns the duration.
      */
-    public static function getDuration(array $timeSlots) {
+    public static function getDuration(array $timeSlots): int {
 
         $duration = 0;
 
@@ -133,7 +133,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function hasFullJoin(TimeSlot $a, TimeSlot $b) {
+    public static function hasFullJoin(TimeSlot $a, TimeSlot $b): bool {
         return true === static::hasInnerJoin($a, $b);
     }
 
@@ -144,7 +144,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function hasInnerJoin(TimeSlot $a, TimeSlot $b) {
+    public static function hasInnerJoin(TimeSlot $a, TimeSlot $b): bool {
         $c1 = DateTimeHelper::isBetween($b->getStartDate(), $a->getStartDate(), $a->getEndDate());
         $c2 = DateTimeHelper::isBetween($b->getEndDate(), $a->getStartDate(), $a->getEndDate());
         $c3 = DateTimeHelper::isBetween($a->getStartDate(), $b->getStartDate(), $b->getEndDate());
@@ -159,7 +159,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot|null Returns a time slot in case of success, null otherwise.
      */
-    public static function innerJoin(TimeSlot $a, TimeSlot $b) {
+    public static function innerJoin(TimeSlot $a, TimeSlot $b): ?TimeSlot {
 
         if (false === static::hasInnerJoin($a, $b)) {
             return null;
@@ -178,7 +178,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot|null Returns the time slot in case of success, null otherwise.
      */
-    public static function leftJoin(TimeSlot $a, TimeSlot $b) {
+    public static function leftJoin(TimeSlot $a, TimeSlot $b): ?TimeSlot {
 
         if (false === static::hasInnerJoin($a, $b)) {
             return null;
@@ -194,7 +194,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot[]|null Returns the time slots in case of success, null otherwise.
      */
-    public static function leftJoinWithout(TimeSlot $a, TimeSlot $b) {
+    public static function leftJoinWithout(TimeSlot $a, TimeSlot $b): ?array {
 
         if (false === static::hasInnerJoin($a, $b) || true === static::contains($b, $a)) {
             return null;
@@ -221,7 +221,7 @@ class TimeSlotHelper {
      * @param TimeSlot[] $timeSlots The time slots.
      * @return TimeSlot[] Returns the merged time slots.
      */
-    public static function merge(array $timeSlots) {
+    public static function merge(array $timeSlots): array {
 
         $number = count($timeSlots);
 
@@ -255,7 +255,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot|null Returns the time slot in case of success, null otherwise.
      */
-    public static function rightJoin(TimeSlot $a, TimeSlot $b) {
+    public static function rightJoin(TimeSlot $a, TimeSlot $b): ?TimeSlot {
         return static::leftJoin($b, $a);
     }
 
@@ -266,7 +266,7 @@ class TimeSlotHelper {
      * @param TimeSlot $b The time slot B.
      * @return TimeSlot[]|null Returns the time slots in case of success, null otherwise.
      */
-    public static function rightJoinWithout(TimeSlot $a, TimeSlot $b) {
+    public static function rightJoinWithout(TimeSlot $a, TimeSlot $b): ?array {
         return static::leftJoinWithout($b, $a);
     }
 

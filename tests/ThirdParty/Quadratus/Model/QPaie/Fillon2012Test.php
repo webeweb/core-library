@@ -29,7 +29,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeff() {
+    public function testSetCoeff(): void {
 
         $obj = new Fillon2012();
 
@@ -42,7 +42,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetForce() {
+    public function testSetForce(): void {
 
         $obj = new Fillon2012();
 
@@ -55,7 +55,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new Fillon2012();
 
@@ -68,7 +68,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSupFillon() {
+    public function testSetNbHSupFillon(): void {
 
         $obj = new Fillon2012();
 
@@ -81,7 +81,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Fillon2012();
 
@@ -95,7 +95,7 @@ class Fillon2012Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReducFillon() {
+    public function testSetReducFillon(): void {
 
         $obj = new Fillon2012();
 
@@ -124,7 +124,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReducFillonMajoHe() {
+    public function testSetReducFillonMajoHe(): void {
 
         $obj = new Fillon2012();
 
@@ -137,7 +137,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRmb() {
+    public function testSetRmb(): void {
 
         $obj = new Fillon2012();
 
@@ -150,7 +150,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRmbMajoHe() {
+    public function testSetRmbMajoHe(): void {
 
         $obj = new Fillon2012();
 
@@ -163,7 +163,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicM() {
+    public function testSetSmicM(): void {
 
         $obj = new Fillon2012();
 
@@ -176,7 +176,7 @@ class Fillon2012Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Fillon2012();
 

@@ -27,7 +27,7 @@ class AgendaGroupesComposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AgendaGroupesCompos();
 
@@ -40,7 +40,7 @@ class AgendaGroupesComposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeGroupe() {
+    public function testSetCodeGroupe(): void {
 
         $obj = new AgendaGroupesCompos();
 
@@ -53,7 +53,7 @@ class AgendaGroupesComposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaGroupesCompos();
 

@@ -24,37 +24,44 @@ class LignesAtc {
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Montant cotis.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCotis;
 
     /**
      * Motif.
      *
-     * @var string
+     * @var string|null
      */
     private $motif;
 
     /**
      * Num ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $numLigne;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
+
+    /**
+     * Ps euro ou franc.
+     *
+     * @var string|null
+     */
+    private $psEuroOuFranc;
 
     /**
      * Periode deb.
@@ -71,69 +78,72 @@ class LignesAtc {
     private $periodeFin;
 
     /**
-     * Ps euro ou franc.
-     *
-     * @var string
-     */
-    private $psEuroOuFranc;
-
-    /**
      * Salaire euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $salaireEuroOuFranc;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the montant cotis.
      *
-     * @return float Returns the montant cotis.
+     * @return float|null Returns the montant cotis.
      */
-    public function getMontantCotis() {
+    public function getMontantCotis(): ?float{
         return $this->montantCotis;
     }
 
     /**
      * Get the motif.
      *
-     * @return string Returns the motif.
+     * @return string|null Returns the motif.
      */
-    public function getMotif() {
+    public function getMotif(): ?string{
         return $this->motif;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return string Returns the num ligne.
+     * @return string|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?string{
         return $this->numLigne;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
+    }
+
+    /**
+     * Get the ps euro ou franc.
+     *
+     * @return string|null Returns the ps euro ou franc.
+     */
+    public function getPsEuroOuFranc(): ?string{
+        return $this->psEuroOuFranc;
     }
 
     /**
@@ -141,7 +151,7 @@ class LignesAtc {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -150,35 +160,26 @@ class LignesAtc {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
-    }
-
-    /**
-     * Get the ps euro ou franc.
-     *
-     * @return string Returns the ps euro ou franc.
-     */
-    public function getPsEuroOuFranc() {
-        return $this->psEuroOuFranc;
     }
 
     /**
      * Get the salaire euro ou franc.
      *
-     * @return string Returns the salaire euro ou franc.
+     * @return string|null Returns the salaire euro ou franc.
      */
-    public function getSalaireEuroOuFranc() {
+    public function getSalaireEuroOuFranc(): ?string{
         return $this->salaireEuroOuFranc;
     }
 
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): LignesAtc {
         $this->montant = $montant;
         return $this;
     }
@@ -186,10 +187,10 @@ class LignesAtc {
     /**
      * Set the montant cotis.
      *
-     * @param float $montantCotis The montant cotis.
+     * @param float|null $montantCotis The montant cotis.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setMontantCotis($montantCotis) {
+    public function setMontantCotis(?float $montantCotis): LignesAtc {
         $this->montantCotis = $montantCotis;
         return $this;
     }
@@ -197,10 +198,10 @@ class LignesAtc {
     /**
      * Set the motif.
      *
-     * @param string $motif The motif.
+     * @param string|null $motif The motif.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setMotif($motif) {
+    public function setMotif(?string $motif): LignesAtc {
         $this->motif = $motif;
         return $this;
     }
@@ -208,10 +209,10 @@ class LignesAtc {
     /**
      * Set the num ligne.
      *
-     * @param string $numLigne The num ligne.
+     * @param string|null $numLigne The num ligne.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?string $numLigne): LignesAtc {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -219,11 +220,22 @@ class LignesAtc {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): LignesAtc {
         $this->numeroAttestation = $numeroAttestation;
+        return $this;
+    }
+
+    /**
+     * Set the ps euro ou franc.
+     *
+     * @param string|null $psEuroOuFranc The ps euro ou franc.
+     * @return LignesAtc Returns this Lignes atc.
+     */
+    public function setPsEuroOuFranc(?string $psEuroOuFranc): LignesAtc {
+        $this->psEuroOuFranc = $psEuroOuFranc;
         return $this;
     }
 
@@ -233,7 +245,7 @@ class LignesAtc {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): LignesAtc {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -244,29 +256,18 @@ class LignesAtc {
      * @param DateTime|null $periodeFin The periode fin.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): LignesAtc {
         $this->periodeFin = $periodeFin;
-        return $this;
-    }
-
-    /**
-     * Set the ps euro ou franc.
-     *
-     * @param string $psEuroOuFranc The ps euro ou franc.
-     * @return LignesAtc Returns this Lignes atc.
-     */
-    public function setPsEuroOuFranc($psEuroOuFranc) {
-        $this->psEuroOuFranc = $psEuroOuFranc;
         return $this;
     }
 
     /**
      * Set the salaire euro ou franc.
      *
-     * @param string $salaireEuroOuFranc The salaire euro ou franc.
+     * @param string|null $salaireEuroOuFranc The salaire euro ou franc.
      * @return LignesAtc Returns this Lignes atc.
      */
-    public function setSalaireEuroOuFranc($salaireEuroOuFranc) {
+    public function setSalaireEuroOuFranc(?string $salaireEuroOuFranc): LignesAtc {
         $this->salaireEuroOuFranc = $salaireEuroOuFranc;
         return $this;
     }

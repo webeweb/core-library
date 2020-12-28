@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Validation\Status;
+namespace WBW\Library\Core\Tests\Validator\Status;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Validator\Status\DefaultValidationStatus;
@@ -27,7 +27,7 @@ class DefaultValidationStatusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testJsonSerialize() {
+    public function testJsonSerialize(): void {
 
         $obj = new DefaultValidationStatus();
         $obj->setCode(200);
@@ -43,7 +43,7 @@ class DefaultValidationStatusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new DefaultValidationStatus();
 
@@ -56,7 +56,7 @@ class DefaultValidationStatusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessage() {
+    public function testSetMessage(): void {
 
         $obj = new DefaultValidationStatus();
 
@@ -69,7 +69,7 @@ class DefaultValidationStatusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRuleName() {
+    public function testSetRuleName(): void {
 
         $obj = new DefaultValidationStatus();
 
@@ -82,7 +82,7 @@ class DefaultValidationStatusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DefaultValidationStatus();
 

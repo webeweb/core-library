@@ -29,7 +29,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PointEmpTache();
 
@@ -42,7 +42,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PointEmpTache();
 
@@ -55,7 +55,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PointEmpTache();
 
@@ -68,7 +68,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new PointEmpTache();
 
@@ -81,7 +81,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new PointEmpTache();
 
@@ -94,7 +94,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PointEmpTache();
 
@@ -107,7 +107,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new PointEmpTache();
 
@@ -121,7 +121,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -137,7 +137,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new PointEmpTache();
 
@@ -150,7 +150,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHRemplMens() {
+    public function testSetHRemplMens(): void {
 
         $obj = new PointEmpTache();
 
@@ -163,7 +163,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensualisation() {
+    public function testSetMensualisation(): void {
 
         $obj = new PointEmpTache();
 
@@ -176,7 +176,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPrime1Chantier() {
+    public function testSetMtPrime1Chantier(): void {
 
         $obj = new PointEmpTache();
 
@@ -189,7 +189,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPrime2Chantier() {
+    public function testSetMtPrime2Chantier(): void {
 
         $obj = new PointEmpTache();
 
@@ -202,7 +202,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPrime3Chantier() {
+    public function testSetMtPrime3Chantier(): void {
 
         $obj = new PointEmpTache();
 
@@ -215,7 +215,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures1Rs() {
+    public function testSetNbHeures1Rs(): void {
 
         $obj = new PointEmpTache();
 
@@ -228,7 +228,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures1Tp() {
+    public function testSetNbHeures1Tp(): void {
 
         $obj = new PointEmpTache();
 
@@ -241,7 +241,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures2Rs() {
+    public function testSetNbHeures2Rs(): void {
 
         $obj = new PointEmpTache();
 
@@ -254,7 +254,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures2Tp() {
+    public function testSetNbHeures2Tp(): void {
 
         $obj = new PointEmpTache();
 
@@ -267,7 +267,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPaniers() {
+    public function testSetNbPaniers(): void {
 
         $obj = new PointEmpTache();
 
@@ -280,7 +280,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PointEmpTache();
 
@@ -294,7 +294,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -310,7 +310,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxHoraire1Rs() {
+    public function testSetTxHoraire1Rs(): void {
 
         $obj = new PointEmpTache();
 
@@ -323,7 +323,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxHoraire1Tp() {
+    public function testSetTxHoraire1Tp(): void {
 
         $obj = new PointEmpTache();
 
@@ -336,7 +336,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxHoraire2Rs() {
+    public function testSetTxHoraire2Rs(): void {
 
         $obj = new PointEmpTache();
 
@@ -349,7 +349,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxHoraire2Tp() {
+    public function testSetTxHoraire2Tp(): void {
 
         $obj = new PointEmpTache();
 
@@ -362,7 +362,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new PointEmpTache();
 
@@ -375,7 +375,7 @@ class PointEmpTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointEmpTache();
 

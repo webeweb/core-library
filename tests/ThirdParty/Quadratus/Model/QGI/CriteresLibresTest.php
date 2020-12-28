@@ -29,7 +29,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase1() {
+    public function testSetCase1(): void {
 
         $obj = new CriteresLibres();
 
@@ -42,7 +42,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase10() {
+    public function testSetCase10(): void {
 
         $obj = new CriteresLibres();
 
@@ -55,7 +55,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase11() {
+    public function testSetCase11(): void {
 
         $obj = new CriteresLibres();
 
@@ -68,7 +68,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase12() {
+    public function testSetCase12(): void {
 
         $obj = new CriteresLibres();
 
@@ -81,7 +81,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase13() {
+    public function testSetCase13(): void {
 
         $obj = new CriteresLibres();
 
@@ -94,7 +94,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase14() {
+    public function testSetCase14(): void {
 
         $obj = new CriteresLibres();
 
@@ -107,7 +107,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase15() {
+    public function testSetCase15(): void {
 
         $obj = new CriteresLibres();
 
@@ -120,7 +120,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase16() {
+    public function testSetCase16(): void {
 
         $obj = new CriteresLibres();
 
@@ -133,7 +133,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase17() {
+    public function testSetCase17(): void {
 
         $obj = new CriteresLibres();
 
@@ -146,7 +146,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase18() {
+    public function testSetCase18(): void {
 
         $obj = new CriteresLibres();
 
@@ -159,7 +159,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase19() {
+    public function testSetCase19(): void {
 
         $obj = new CriteresLibres();
 
@@ -172,7 +172,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase2() {
+    public function testSetCase2(): void {
 
         $obj = new CriteresLibres();
 
@@ -185,7 +185,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase20() {
+    public function testSetCase20(): void {
 
         $obj = new CriteresLibres();
 
@@ -198,7 +198,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase21() {
+    public function testSetCase21(): void {
 
         $obj = new CriteresLibres();
 
@@ -211,7 +211,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase22() {
+    public function testSetCase22(): void {
 
         $obj = new CriteresLibres();
 
@@ -224,7 +224,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase23() {
+    public function testSetCase23(): void {
 
         $obj = new CriteresLibres();
 
@@ -237,7 +237,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase24() {
+    public function testSetCase24(): void {
 
         $obj = new CriteresLibres();
 
@@ -250,7 +250,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase25() {
+    public function testSetCase25(): void {
 
         $obj = new CriteresLibres();
 
@@ -263,7 +263,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase26() {
+    public function testSetCase26(): void {
 
         $obj = new CriteresLibres();
 
@@ -276,7 +276,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase27() {
+    public function testSetCase27(): void {
 
         $obj = new CriteresLibres();
 
@@ -289,7 +289,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase28() {
+    public function testSetCase28(): void {
 
         $obj = new CriteresLibres();
 
@@ -302,7 +302,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase29() {
+    public function testSetCase29(): void {
 
         $obj = new CriteresLibres();
 
@@ -315,7 +315,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase3() {
+    public function testSetCase3(): void {
 
         $obj = new CriteresLibres();
 
@@ -328,7 +328,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase30() {
+    public function testSetCase30(): void {
 
         $obj = new CriteresLibres();
 
@@ -341,7 +341,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase31() {
+    public function testSetCase31(): void {
 
         $obj = new CriteresLibres();
 
@@ -354,7 +354,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase32() {
+    public function testSetCase32(): void {
 
         $obj = new CriteresLibres();
 
@@ -367,7 +367,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase33() {
+    public function testSetCase33(): void {
 
         $obj = new CriteresLibres();
 
@@ -380,7 +380,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase34() {
+    public function testSetCase34(): void {
 
         $obj = new CriteresLibres();
 
@@ -393,7 +393,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase35() {
+    public function testSetCase35(): void {
 
         $obj = new CriteresLibres();
 
@@ -406,7 +406,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase36() {
+    public function testSetCase36(): void {
 
         $obj = new CriteresLibres();
 
@@ -419,7 +419,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase37() {
+    public function testSetCase37(): void {
 
         $obj = new CriteresLibres();
 
@@ -432,7 +432,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase38() {
+    public function testSetCase38(): void {
 
         $obj = new CriteresLibres();
 
@@ -445,7 +445,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase39() {
+    public function testSetCase39(): void {
 
         $obj = new CriteresLibres();
 
@@ -458,7 +458,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase4() {
+    public function testSetCase4(): void {
 
         $obj = new CriteresLibres();
 
@@ -471,7 +471,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase40() {
+    public function testSetCase40(): void {
 
         $obj = new CriteresLibres();
 
@@ -484,7 +484,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase41() {
+    public function testSetCase41(): void {
 
         $obj = new CriteresLibres();
 
@@ -497,7 +497,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase42() {
+    public function testSetCase42(): void {
 
         $obj = new CriteresLibres();
 
@@ -510,7 +510,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase43() {
+    public function testSetCase43(): void {
 
         $obj = new CriteresLibres();
 
@@ -523,7 +523,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase44() {
+    public function testSetCase44(): void {
 
         $obj = new CriteresLibres();
 
@@ -536,7 +536,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase45() {
+    public function testSetCase45(): void {
 
         $obj = new CriteresLibres();
 
@@ -549,7 +549,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase46() {
+    public function testSetCase46(): void {
 
         $obj = new CriteresLibres();
 
@@ -562,7 +562,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase47() {
+    public function testSetCase47(): void {
 
         $obj = new CriteresLibres();
 
@@ -575,7 +575,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase48() {
+    public function testSetCase48(): void {
 
         $obj = new CriteresLibres();
 
@@ -588,7 +588,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase49() {
+    public function testSetCase49(): void {
 
         $obj = new CriteresLibres();
 
@@ -601,7 +601,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase5() {
+    public function testSetCase5(): void {
 
         $obj = new CriteresLibres();
 
@@ -614,7 +614,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase50() {
+    public function testSetCase50(): void {
 
         $obj = new CriteresLibres();
 
@@ -627,7 +627,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase6() {
+    public function testSetCase6(): void {
 
         $obj = new CriteresLibres();
 
@@ -640,7 +640,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase7() {
+    public function testSetCase7(): void {
 
         $obj = new CriteresLibres();
 
@@ -653,7 +653,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase8() {
+    public function testSetCase8(): void {
 
         $obj = new CriteresLibres();
 
@@ -666,7 +666,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCase9() {
+    public function testSetCase9(): void {
 
         $obj = new CriteresLibres();
 
@@ -679,7 +679,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CriteresLibres();
 
@@ -693,7 +693,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate1() {
+    public function testSetDate1(): void {
 
         // Set a Date/time mock.
         $date1 = new DateTime("2018-09-10");
@@ -710,7 +710,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate10() {
+    public function testSetDate10(): void {
 
         // Set a Date/time mock.
         $date10 = new DateTime("2018-09-10");
@@ -727,7 +727,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate11() {
+    public function testSetDate11(): void {
 
         // Set a Date/time mock.
         $date11 = new DateTime("2018-09-10");
@@ -744,7 +744,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate12() {
+    public function testSetDate12(): void {
 
         // Set a Date/time mock.
         $date12 = new DateTime("2018-09-10");
@@ -761,7 +761,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate13() {
+    public function testSetDate13(): void {
 
         // Set a Date/time mock.
         $date13 = new DateTime("2018-09-10");
@@ -778,7 +778,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate14() {
+    public function testSetDate14(): void {
 
         // Set a Date/time mock.
         $date14 = new DateTime("2018-09-10");
@@ -795,7 +795,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate15() {
+    public function testSetDate15(): void {
 
         // Set a Date/time mock.
         $date15 = new DateTime("2018-09-10");
@@ -812,7 +812,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate16() {
+    public function testSetDate16(): void {
 
         // Set a Date/time mock.
         $date16 = new DateTime("2018-09-10");
@@ -829,7 +829,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate17() {
+    public function testSetDate17(): void {
 
         // Set a Date/time mock.
         $date17 = new DateTime("2018-09-10");
@@ -846,7 +846,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate18() {
+    public function testSetDate18(): void {
 
         // Set a Date/time mock.
         $date18 = new DateTime("2018-09-10");
@@ -863,7 +863,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate19() {
+    public function testSetDate19(): void {
 
         // Set a Date/time mock.
         $date19 = new DateTime("2018-09-10");
@@ -880,7 +880,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate2() {
+    public function testSetDate2(): void {
 
         // Set a Date/time mock.
         $date2 = new DateTime("2018-09-10");
@@ -897,7 +897,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate20() {
+    public function testSetDate20(): void {
 
         // Set a Date/time mock.
         $date20 = new DateTime("2018-09-10");
@@ -914,7 +914,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate3() {
+    public function testSetDate3(): void {
 
         // Set a Date/time mock.
         $date3 = new DateTime("2018-09-10");
@@ -931,7 +931,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate4() {
+    public function testSetDate4(): void {
 
         // Set a Date/time mock.
         $date4 = new DateTime("2018-09-10");
@@ -948,7 +948,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate5() {
+    public function testSetDate5(): void {
 
         // Set a Date/time mock.
         $date5 = new DateTime("2018-09-10");
@@ -965,7 +965,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate6() {
+    public function testSetDate6(): void {
 
         // Set a Date/time mock.
         $date6 = new DateTime("2018-09-10");
@@ -982,7 +982,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate7() {
+    public function testSetDate7(): void {
 
         // Set a Date/time mock.
         $date7 = new DateTime("2018-09-10");
@@ -999,7 +999,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate8() {
+    public function testSetDate8(): void {
 
         // Set a Date/time mock.
         $date8 = new DateTime("2018-09-10");
@@ -1016,7 +1016,7 @@ class CriteresLibresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate9() {
+    public function testSetDate9(): void {
 
         // Set a Date/time mock.
         $date9 = new DateTime("2018-09-10");
@@ -1032,7 +1032,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteA() {
+    public function testSetTexteA(): void {
 
         $obj = new CriteresLibres();
 
@@ -1045,7 +1045,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteB() {
+    public function testSetTexteB(): void {
 
         $obj = new CriteresLibres();
 
@@ -1058,7 +1058,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteC() {
+    public function testSetTexteC(): void {
 
         $obj = new CriteresLibres();
 
@@ -1071,7 +1071,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteD() {
+    public function testSetTexteD(): void {
 
         $obj = new CriteresLibres();
 
@@ -1084,7 +1084,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteE() {
+    public function testSetTexteE(): void {
 
         $obj = new CriteresLibres();
 
@@ -1097,7 +1097,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteF() {
+    public function testSetTexteF(): void {
 
         $obj = new CriteresLibres();
 
@@ -1110,7 +1110,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteG() {
+    public function testSetTexteG(): void {
 
         $obj = new CriteresLibres();
 
@@ -1123,7 +1123,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteH() {
+    public function testSetTexteH(): void {
 
         $obj = new CriteresLibres();
 
@@ -1136,7 +1136,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteI() {
+    public function testSetTexteI(): void {
 
         $obj = new CriteresLibres();
 
@@ -1149,7 +1149,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteJ() {
+    public function testSetTexteJ(): void {
 
         $obj = new CriteresLibres();
 
@@ -1162,7 +1162,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteK() {
+    public function testSetTexteK(): void {
 
         $obj = new CriteresLibres();
 
@@ -1175,7 +1175,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteL() {
+    public function testSetTexteL(): void {
 
         $obj = new CriteresLibres();
 
@@ -1188,7 +1188,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteM() {
+    public function testSetTexteM(): void {
 
         $obj = new CriteresLibres();
 
@@ -1201,7 +1201,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteN() {
+    public function testSetTexteN(): void {
 
         $obj = new CriteresLibres();
 
@@ -1214,7 +1214,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteO() {
+    public function testSetTexteO(): void {
 
         $obj = new CriteresLibres();
 
@@ -1227,7 +1227,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteP() {
+    public function testSetTexteP(): void {
 
         $obj = new CriteresLibres();
 
@@ -1240,7 +1240,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteQ() {
+    public function testSetTexteQ(): void {
 
         $obj = new CriteresLibres();
 
@@ -1253,7 +1253,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteR() {
+    public function testSetTexteR(): void {
 
         $obj = new CriteresLibres();
 
@@ -1266,7 +1266,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteS() {
+    public function testSetTexteS(): void {
 
         $obj = new CriteresLibres();
 
@@ -1279,7 +1279,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteT() {
+    public function testSetTexteT(): void {
 
         $obj = new CriteresLibres();
 
@@ -1292,7 +1292,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur1() {
+    public function testSetValeur1(): void {
 
         $obj = new CriteresLibres();
 
@@ -1305,7 +1305,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur10() {
+    public function testSetValeur10(): void {
 
         $obj = new CriteresLibres();
 
@@ -1318,7 +1318,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur11() {
+    public function testSetValeur11(): void {
 
         $obj = new CriteresLibres();
 
@@ -1331,7 +1331,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur12() {
+    public function testSetValeur12(): void {
 
         $obj = new CriteresLibres();
 
@@ -1344,7 +1344,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur13() {
+    public function testSetValeur13(): void {
 
         $obj = new CriteresLibres();
 
@@ -1357,7 +1357,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur14() {
+    public function testSetValeur14(): void {
 
         $obj = new CriteresLibres();
 
@@ -1370,7 +1370,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur15() {
+    public function testSetValeur15(): void {
 
         $obj = new CriteresLibres();
 
@@ -1383,7 +1383,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur16() {
+    public function testSetValeur16(): void {
 
         $obj = new CriteresLibres();
 
@@ -1396,7 +1396,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur17() {
+    public function testSetValeur17(): void {
 
         $obj = new CriteresLibres();
 
@@ -1409,7 +1409,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur18() {
+    public function testSetValeur18(): void {
 
         $obj = new CriteresLibres();
 
@@ -1422,7 +1422,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur19() {
+    public function testSetValeur19(): void {
 
         $obj = new CriteresLibres();
 
@@ -1435,7 +1435,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur2() {
+    public function testSetValeur2(): void {
 
         $obj = new CriteresLibres();
 
@@ -1448,7 +1448,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur20() {
+    public function testSetValeur20(): void {
 
         $obj = new CriteresLibres();
 
@@ -1461,7 +1461,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur3() {
+    public function testSetValeur3(): void {
 
         $obj = new CriteresLibres();
 
@@ -1474,7 +1474,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur4() {
+    public function testSetValeur4(): void {
 
         $obj = new CriteresLibres();
 
@@ -1487,7 +1487,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur5() {
+    public function testSetValeur5(): void {
 
         $obj = new CriteresLibres();
 
@@ -1500,7 +1500,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur6() {
+    public function testSetValeur6(): void {
 
         $obj = new CriteresLibres();
 
@@ -1513,7 +1513,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur7() {
+    public function testSetValeur7(): void {
 
         $obj = new CriteresLibres();
 
@@ -1526,7 +1526,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur8() {
+    public function testSetValeur8(): void {
 
         $obj = new CriteresLibres();
 
@@ -1539,7 +1539,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur9() {
+    public function testSetValeur9(): void {
 
         $obj = new CriteresLibres();
 
@@ -1552,7 +1552,7 @@ class CriteresLibresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CriteresLibres();
 

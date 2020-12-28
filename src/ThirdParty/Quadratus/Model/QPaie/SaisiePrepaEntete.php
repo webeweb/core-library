@@ -22,113 +22,114 @@ class SaisiePrepaEntete {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Desactive.
      *
-     * @var bool
+     * @var bool|null
      */
     private $desactive;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Saisie abs cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisieAbsCp;
 
     /**
      * Saisie acompte.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisieAcompte;
 
     /**
      * Width bord.
      *
-     * @var int
+     * @var int|null
      */
     private $widthBord;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the desactive.
      *
-     * @return bool Returns the desactive.
+     * @return bool|null Returns the desactive.
      */
-    public function getDesactive() {
+    public function getDesactive(): ?bool{
         return $this->desactive;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the saisie abs cp.
      *
-     * @return bool Returns the saisie abs cp.
+     * @return bool|null Returns the saisie abs cp.
      */
-    public function getSaisieAbsCp() {
+    public function getSaisieAbsCp(): ?bool{
         return $this->saisieAbsCp;
     }
 
     /**
      * Get the saisie acompte.
      *
-     * @return bool Returns the saisie acompte.
+     * @return bool|null Returns the saisie acompte.
      */
-    public function getSaisieAcompte() {
+    public function getSaisieAcompte(): ?bool{
         return $this->saisieAcompte;
     }
 
     /**
      * Get the width bord.
      *
-     * @return int Returns the width bord.
+     * @return int|null Returns the width bord.
      */
-    public function getWidthBord() {
+    public function getWidthBord(): ?int{
         return $this->widthBord;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): SaisiePrepaEntete {
         $this->code = $code;
         return $this;
     }
@@ -136,10 +137,10 @@ class SaisiePrepaEntete {
     /**
      * Set the desactive.
      *
-     * @param bool $desactive The desactive.
+     * @param bool|null $desactive The desactive.
      * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
-    public function setDesactive($desactive) {
+    public function setDesactive(?bool $desactive): SaisiePrepaEntete {
         $this->desactive = $desactive;
         return $this;
     }
@@ -147,10 +148,10 @@ class SaisiePrepaEntete {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): SaisiePrepaEntete {
         $this->intitule = $intitule;
         return $this;
     }
@@ -158,10 +159,10 @@ class SaisiePrepaEntete {
     /**
      * Set the saisie abs cp.
      *
-     * @param bool $saisieAbsCp The saisie abs cp.
+     * @param bool|null $saisieAbsCp The saisie abs cp.
      * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
-    public function setSaisieAbsCp($saisieAbsCp) {
+    public function setSaisieAbsCp(?bool $saisieAbsCp): SaisiePrepaEntete {
         $this->saisieAbsCp = $saisieAbsCp;
         return $this;
     }
@@ -169,10 +170,10 @@ class SaisiePrepaEntete {
     /**
      * Set the saisie acompte.
      *
-     * @param bool $saisieAcompte The saisie acompte.
+     * @param bool|null $saisieAcompte The saisie acompte.
      * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
-    public function setSaisieAcompte($saisieAcompte) {
+    public function setSaisieAcompte(?bool $saisieAcompte): SaisiePrepaEntete {
         $this->saisieAcompte = $saisieAcompte;
         return $this;
     }
@@ -180,10 +181,10 @@ class SaisiePrepaEntete {
     /**
      * Set the width bord.
      *
-     * @param int $widthBord The width bord.
+     * @param int|null $widthBord The width bord.
      * @return SaisiePrepaEntete Returns this Saisie prepa entete.
      */
-    public function setWidthBord($widthBord) {
+    public function setWidthBord(?int $widthBord): SaisiePrepaEntete {
         $this->widthBord = $widthBord;
         return $this;
     }

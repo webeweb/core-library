@@ -22,545 +22,546 @@ class BudgetLignes {
     /**
      * Centre.
      *
-     * @var string
+     * @var string|null
      */
     private $centre;
 
     /**
      * Code budget.
      *
-     * @var string
+     * @var string|null
      */
     private $codeBudget;
 
     /**
      * Coef.
      *
-     * @var float
+     * @var float|null
      */
     private $coef;
 
     /**
      * Col saisie.
      *
-     * @var string
+     * @var string|null
      */
     private $colSaisie;
 
     /**
      * Commentaires.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaires;
 
     /**
      * Compte.
      *
-     * @var string
+     * @var string|null
      */
     private $compte;
 
     /**
      * Mt1.
      *
-     * @var float
+     * @var float|null
      */
     private $mt1;
 
     /**
      * Mt10.
      *
-     * @var float
+     * @var float|null
      */
     private $mt10;
 
     /**
      * Mt11.
      *
-     * @var float
+     * @var float|null
      */
     private $mt11;
 
     /**
      * Mt12.
      *
-     * @var float
+     * @var float|null
      */
     private $mt12;
 
     /**
      * Mt13.
      *
-     * @var float
+     * @var float|null
      */
     private $mt13;
 
     /**
      * Mt14.
      *
-     * @var float
+     * @var float|null
      */
     private $mt14;
 
     /**
      * Mt15.
      *
-     * @var float
+     * @var float|null
      */
     private $mt15;
 
     /**
      * Mt16.
      *
-     * @var float
+     * @var float|null
      */
     private $mt16;
 
     /**
      * Mt17.
      *
-     * @var float
+     * @var float|null
      */
     private $mt17;
 
     /**
      * Mt18.
      *
-     * @var float
+     * @var float|null
      */
     private $mt18;
 
     /**
      * Mt19.
      *
-     * @var float
+     * @var float|null
      */
     private $mt19;
 
     /**
      * Mt2.
      *
-     * @var float
+     * @var float|null
      */
     private $mt2;
 
     /**
      * Mt20.
      *
-     * @var float
+     * @var float|null
      */
     private $mt20;
 
     /**
      * Mt21.
      *
-     * @var float
+     * @var float|null
      */
     private $mt21;
 
     /**
      * Mt22.
      *
-     * @var float
+     * @var float|null
      */
     private $mt22;
 
     /**
      * Mt23.
      *
-     * @var float
+     * @var float|null
      */
     private $mt23;
 
     /**
      * Mt24.
      *
-     * @var float
+     * @var float|null
      */
     private $mt24;
 
     /**
      * Mt3.
      *
-     * @var float
+     * @var float|null
      */
     private $mt3;
 
     /**
      * Mt4.
      *
-     * @var float
+     * @var float|null
      */
     private $mt4;
 
     /**
      * Mt5.
      *
-     * @var float
+     * @var float|null
      */
     private $mt5;
 
     /**
      * Mt6.
      *
-     * @var float
+     * @var float|null
      */
     private $mt6;
 
     /**
      * Mt7.
      *
-     * @var float
+     * @var float|null
      */
     private $mt7;
 
     /**
      * Mt8.
      *
-     * @var float
+     * @var float|null
      */
     private $mt8;
 
     /**
      * Mt9.
      *
-     * @var float
+     * @var float|null
      */
     private $mt9;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Ref image.
      *
-     * @var string
+     * @var string|null
      */
     private $refImage;
 
     /**
      * Type saisie.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSaisie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the centre.
      *
-     * @return string Returns the centre.
+     * @return string|null Returns the centre.
      */
-    public function getCentre() {
+    public function getCentre(): ?string{
         return $this->centre;
     }
 
     /**
      * Get the code budget.
      *
-     * @return string Returns the code budget.
+     * @return string|null Returns the code budget.
      */
-    public function getCodeBudget() {
+    public function getCodeBudget(): ?string{
         return $this->codeBudget;
     }
 
     /**
      * Get the coef.
      *
-     * @return float Returns the coef.
+     * @return float|null Returns the coef.
      */
-    public function getCoef() {
+    public function getCoef(): ?float{
         return $this->coef;
     }
 
     /**
      * Get the col saisie.
      *
-     * @return string Returns the col saisie.
+     * @return string|null Returns the col saisie.
      */
-    public function getColSaisie() {
+    public function getColSaisie(): ?string{
         return $this->colSaisie;
     }
 
     /**
      * Get the commentaires.
      *
-     * @return string Returns the commentaires.
+     * @return string|null Returns the commentaires.
      */
-    public function getCommentaires() {
+    public function getCommentaires(): ?string{
         return $this->commentaires;
     }
 
     /**
      * Get the compte.
      *
-     * @return string Returns the compte.
+     * @return string|null Returns the compte.
      */
-    public function getCompte() {
+    public function getCompte(): ?string{
         return $this->compte;
     }
 
     /**
      * Get the mt1.
      *
-     * @return float Returns the mt1.
+     * @return float|null Returns the mt1.
      */
-    public function getMt1() {
+    public function getMt1(): ?float{
         return $this->mt1;
     }
 
     /**
      * Get the mt10.
      *
-     * @return float Returns the mt10.
+     * @return float|null Returns the mt10.
      */
-    public function getMt10() {
+    public function getMt10(): ?float{
         return $this->mt10;
     }
 
     /**
      * Get the mt11.
      *
-     * @return float Returns the mt11.
+     * @return float|null Returns the mt11.
      */
-    public function getMt11() {
+    public function getMt11(): ?float{
         return $this->mt11;
     }
 
     /**
      * Get the mt12.
      *
-     * @return float Returns the mt12.
+     * @return float|null Returns the mt12.
      */
-    public function getMt12() {
+    public function getMt12(): ?float{
         return $this->mt12;
     }
 
     /**
      * Get the mt13.
      *
-     * @return float Returns the mt13.
+     * @return float|null Returns the mt13.
      */
-    public function getMt13() {
+    public function getMt13(): ?float{
         return $this->mt13;
     }
 
     /**
      * Get the mt14.
      *
-     * @return float Returns the mt14.
+     * @return float|null Returns the mt14.
      */
-    public function getMt14() {
+    public function getMt14(): ?float{
         return $this->mt14;
     }
 
     /**
      * Get the mt15.
      *
-     * @return float Returns the mt15.
+     * @return float|null Returns the mt15.
      */
-    public function getMt15() {
+    public function getMt15(): ?float{
         return $this->mt15;
     }
 
     /**
      * Get the mt16.
      *
-     * @return float Returns the mt16.
+     * @return float|null Returns the mt16.
      */
-    public function getMt16() {
+    public function getMt16(): ?float{
         return $this->mt16;
     }
 
     /**
      * Get the mt17.
      *
-     * @return float Returns the mt17.
+     * @return float|null Returns the mt17.
      */
-    public function getMt17() {
+    public function getMt17(): ?float{
         return $this->mt17;
     }
 
     /**
      * Get the mt18.
      *
-     * @return float Returns the mt18.
+     * @return float|null Returns the mt18.
      */
-    public function getMt18() {
+    public function getMt18(): ?float{
         return $this->mt18;
     }
 
     /**
      * Get the mt19.
      *
-     * @return float Returns the mt19.
+     * @return float|null Returns the mt19.
      */
-    public function getMt19() {
+    public function getMt19(): ?float{
         return $this->mt19;
     }
 
     /**
      * Get the mt2.
      *
-     * @return float Returns the mt2.
+     * @return float|null Returns the mt2.
      */
-    public function getMt2() {
+    public function getMt2(): ?float{
         return $this->mt2;
     }
 
     /**
      * Get the mt20.
      *
-     * @return float Returns the mt20.
+     * @return float|null Returns the mt20.
      */
-    public function getMt20() {
+    public function getMt20(): ?float{
         return $this->mt20;
     }
 
     /**
      * Get the mt21.
      *
-     * @return float Returns the mt21.
+     * @return float|null Returns the mt21.
      */
-    public function getMt21() {
+    public function getMt21(): ?float{
         return $this->mt21;
     }
 
     /**
      * Get the mt22.
      *
-     * @return float Returns the mt22.
+     * @return float|null Returns the mt22.
      */
-    public function getMt22() {
+    public function getMt22(): ?float{
         return $this->mt22;
     }
 
     /**
      * Get the mt23.
      *
-     * @return float Returns the mt23.
+     * @return float|null Returns the mt23.
      */
-    public function getMt23() {
+    public function getMt23(): ?float{
         return $this->mt23;
     }
 
     /**
      * Get the mt24.
      *
-     * @return float Returns the mt24.
+     * @return float|null Returns the mt24.
      */
-    public function getMt24() {
+    public function getMt24(): ?float{
         return $this->mt24;
     }
 
     /**
      * Get the mt3.
      *
-     * @return float Returns the mt3.
+     * @return float|null Returns the mt3.
      */
-    public function getMt3() {
+    public function getMt3(): ?float{
         return $this->mt3;
     }
 
     /**
      * Get the mt4.
      *
-     * @return float Returns the mt4.
+     * @return float|null Returns the mt4.
      */
-    public function getMt4() {
+    public function getMt4(): ?float{
         return $this->mt4;
     }
 
     /**
      * Get the mt5.
      *
-     * @return float Returns the mt5.
+     * @return float|null Returns the mt5.
      */
-    public function getMt5() {
+    public function getMt5(): ?float{
         return $this->mt5;
     }
 
     /**
      * Get the mt6.
      *
-     * @return float Returns the mt6.
+     * @return float|null Returns the mt6.
      */
-    public function getMt6() {
+    public function getMt6(): ?float{
         return $this->mt6;
     }
 
     /**
      * Get the mt7.
      *
-     * @return float Returns the mt7.
+     * @return float|null Returns the mt7.
      */
-    public function getMt7() {
+    public function getMt7(): ?float{
         return $this->mt7;
     }
 
     /**
      * Get the mt8.
      *
-     * @return float Returns the mt8.
+     * @return float|null Returns the mt8.
      */
-    public function getMt8() {
+    public function getMt8(): ?float{
         return $this->mt8;
     }
 
     /**
      * Get the mt9.
      *
-     * @return float Returns the mt9.
+     * @return float|null Returns the mt9.
      */
-    public function getMt9() {
+    public function getMt9(): ?float{
         return $this->mt9;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the ref image.
      *
-     * @return string Returns the ref image.
+     * @return string|null Returns the ref image.
      */
-    public function getRefImage() {
+    public function getRefImage(): ?string{
         return $this->refImage;
     }
 
     /**
      * Get the type saisie.
      *
-     * @return string Returns the type saisie.
+     * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie() {
+    public function getTypeSaisie(): ?string{
         return $this->typeSaisie;
     }
 
     /**
      * Set the centre.
      *
-     * @param string $centre The centre.
+     * @param string|null $centre The centre.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setCentre($centre) {
+    public function setCentre(?string $centre): BudgetLignes {
         $this->centre = $centre;
         return $this;
     }
@@ -568,10 +569,10 @@ class BudgetLignes {
     /**
      * Set the code budget.
      *
-     * @param string $codeBudget The code budget.
+     * @param string|null $codeBudget The code budget.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setCodeBudget($codeBudget) {
+    public function setCodeBudget(?string $codeBudget): BudgetLignes {
         $this->codeBudget = $codeBudget;
         return $this;
     }
@@ -579,10 +580,10 @@ class BudgetLignes {
     /**
      * Set the coef.
      *
-     * @param float $coef The coef.
+     * @param float|null $coef The coef.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setCoef($coef) {
+    public function setCoef(?float $coef): BudgetLignes {
         $this->coef = $coef;
         return $this;
     }
@@ -590,10 +591,10 @@ class BudgetLignes {
     /**
      * Set the col saisie.
      *
-     * @param string $colSaisie The col saisie.
+     * @param string|null $colSaisie The col saisie.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setColSaisie($colSaisie) {
+    public function setColSaisie(?string $colSaisie): BudgetLignes {
         $this->colSaisie = $colSaisie;
         return $this;
     }
@@ -601,10 +602,10 @@ class BudgetLignes {
     /**
      * Set the commentaires.
      *
-     * @param string $commentaires The commentaires.
+     * @param string|null $commentaires The commentaires.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setCommentaires($commentaires) {
+    public function setCommentaires(?string $commentaires): BudgetLignes {
         $this->commentaires = $commentaires;
         return $this;
     }
@@ -612,10 +613,10 @@ class BudgetLignes {
     /**
      * Set the compte.
      *
-     * @param string $compte The compte.
+     * @param string|null $compte The compte.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setCompte($compte) {
+    public function setCompte(?string $compte): BudgetLignes {
         $this->compte = $compte;
         return $this;
     }
@@ -623,10 +624,10 @@ class BudgetLignes {
     /**
      * Set the mt1.
      *
-     * @param float $mt1 The mt1.
+     * @param float|null $mt1 The mt1.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt1($mt1) {
+    public function setMt1(?float $mt1): BudgetLignes {
         $this->mt1 = $mt1;
         return $this;
     }
@@ -634,10 +635,10 @@ class BudgetLignes {
     /**
      * Set the mt10.
      *
-     * @param float $mt10 The mt10.
+     * @param float|null $mt10 The mt10.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt10($mt10) {
+    public function setMt10(?float $mt10): BudgetLignes {
         $this->mt10 = $mt10;
         return $this;
     }
@@ -645,10 +646,10 @@ class BudgetLignes {
     /**
      * Set the mt11.
      *
-     * @param float $mt11 The mt11.
+     * @param float|null $mt11 The mt11.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt11($mt11) {
+    public function setMt11(?float $mt11): BudgetLignes {
         $this->mt11 = $mt11;
         return $this;
     }
@@ -656,10 +657,10 @@ class BudgetLignes {
     /**
      * Set the mt12.
      *
-     * @param float $mt12 The mt12.
+     * @param float|null $mt12 The mt12.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt12($mt12) {
+    public function setMt12(?float $mt12): BudgetLignes {
         $this->mt12 = $mt12;
         return $this;
     }
@@ -667,10 +668,10 @@ class BudgetLignes {
     /**
      * Set the mt13.
      *
-     * @param float $mt13 The mt13.
+     * @param float|null $mt13 The mt13.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt13($mt13) {
+    public function setMt13(?float $mt13): BudgetLignes {
         $this->mt13 = $mt13;
         return $this;
     }
@@ -678,10 +679,10 @@ class BudgetLignes {
     /**
      * Set the mt14.
      *
-     * @param float $mt14 The mt14.
+     * @param float|null $mt14 The mt14.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt14($mt14) {
+    public function setMt14(?float $mt14): BudgetLignes {
         $this->mt14 = $mt14;
         return $this;
     }
@@ -689,10 +690,10 @@ class BudgetLignes {
     /**
      * Set the mt15.
      *
-     * @param float $mt15 The mt15.
+     * @param float|null $mt15 The mt15.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt15($mt15) {
+    public function setMt15(?float $mt15): BudgetLignes {
         $this->mt15 = $mt15;
         return $this;
     }
@@ -700,10 +701,10 @@ class BudgetLignes {
     /**
      * Set the mt16.
      *
-     * @param float $mt16 The mt16.
+     * @param float|null $mt16 The mt16.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt16($mt16) {
+    public function setMt16(?float $mt16): BudgetLignes {
         $this->mt16 = $mt16;
         return $this;
     }
@@ -711,10 +712,10 @@ class BudgetLignes {
     /**
      * Set the mt17.
      *
-     * @param float $mt17 The mt17.
+     * @param float|null $mt17 The mt17.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt17($mt17) {
+    public function setMt17(?float $mt17): BudgetLignes {
         $this->mt17 = $mt17;
         return $this;
     }
@@ -722,10 +723,10 @@ class BudgetLignes {
     /**
      * Set the mt18.
      *
-     * @param float $mt18 The mt18.
+     * @param float|null $mt18 The mt18.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt18($mt18) {
+    public function setMt18(?float $mt18): BudgetLignes {
         $this->mt18 = $mt18;
         return $this;
     }
@@ -733,10 +734,10 @@ class BudgetLignes {
     /**
      * Set the mt19.
      *
-     * @param float $mt19 The mt19.
+     * @param float|null $mt19 The mt19.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt19($mt19) {
+    public function setMt19(?float $mt19): BudgetLignes {
         $this->mt19 = $mt19;
         return $this;
     }
@@ -744,10 +745,10 @@ class BudgetLignes {
     /**
      * Set the mt2.
      *
-     * @param float $mt2 The mt2.
+     * @param float|null $mt2 The mt2.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt2($mt2) {
+    public function setMt2(?float $mt2): BudgetLignes {
         $this->mt2 = $mt2;
         return $this;
     }
@@ -755,10 +756,10 @@ class BudgetLignes {
     /**
      * Set the mt20.
      *
-     * @param float $mt20 The mt20.
+     * @param float|null $mt20 The mt20.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt20($mt20) {
+    public function setMt20(?float $mt20): BudgetLignes {
         $this->mt20 = $mt20;
         return $this;
     }
@@ -766,10 +767,10 @@ class BudgetLignes {
     /**
      * Set the mt21.
      *
-     * @param float $mt21 The mt21.
+     * @param float|null $mt21 The mt21.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt21($mt21) {
+    public function setMt21(?float $mt21): BudgetLignes {
         $this->mt21 = $mt21;
         return $this;
     }
@@ -777,10 +778,10 @@ class BudgetLignes {
     /**
      * Set the mt22.
      *
-     * @param float $mt22 The mt22.
+     * @param float|null $mt22 The mt22.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt22($mt22) {
+    public function setMt22(?float $mt22): BudgetLignes {
         $this->mt22 = $mt22;
         return $this;
     }
@@ -788,10 +789,10 @@ class BudgetLignes {
     /**
      * Set the mt23.
      *
-     * @param float $mt23 The mt23.
+     * @param float|null $mt23 The mt23.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt23($mt23) {
+    public function setMt23(?float $mt23): BudgetLignes {
         $this->mt23 = $mt23;
         return $this;
     }
@@ -799,10 +800,10 @@ class BudgetLignes {
     /**
      * Set the mt24.
      *
-     * @param float $mt24 The mt24.
+     * @param float|null $mt24 The mt24.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt24($mt24) {
+    public function setMt24(?float $mt24): BudgetLignes {
         $this->mt24 = $mt24;
         return $this;
     }
@@ -810,10 +811,10 @@ class BudgetLignes {
     /**
      * Set the mt3.
      *
-     * @param float $mt3 The mt3.
+     * @param float|null $mt3 The mt3.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt3($mt3) {
+    public function setMt3(?float $mt3): BudgetLignes {
         $this->mt3 = $mt3;
         return $this;
     }
@@ -821,10 +822,10 @@ class BudgetLignes {
     /**
      * Set the mt4.
      *
-     * @param float $mt4 The mt4.
+     * @param float|null $mt4 The mt4.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt4($mt4) {
+    public function setMt4(?float $mt4): BudgetLignes {
         $this->mt4 = $mt4;
         return $this;
     }
@@ -832,10 +833,10 @@ class BudgetLignes {
     /**
      * Set the mt5.
      *
-     * @param float $mt5 The mt5.
+     * @param float|null $mt5 The mt5.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt5($mt5) {
+    public function setMt5(?float $mt5): BudgetLignes {
         $this->mt5 = $mt5;
         return $this;
     }
@@ -843,10 +844,10 @@ class BudgetLignes {
     /**
      * Set the mt6.
      *
-     * @param float $mt6 The mt6.
+     * @param float|null $mt6 The mt6.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt6($mt6) {
+    public function setMt6(?float $mt6): BudgetLignes {
         $this->mt6 = $mt6;
         return $this;
     }
@@ -854,10 +855,10 @@ class BudgetLignes {
     /**
      * Set the mt7.
      *
-     * @param float $mt7 The mt7.
+     * @param float|null $mt7 The mt7.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt7($mt7) {
+    public function setMt7(?float $mt7): BudgetLignes {
         $this->mt7 = $mt7;
         return $this;
     }
@@ -865,10 +866,10 @@ class BudgetLignes {
     /**
      * Set the mt8.
      *
-     * @param float $mt8 The mt8.
+     * @param float|null $mt8 The mt8.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt8($mt8) {
+    public function setMt8(?float $mt8): BudgetLignes {
         $this->mt8 = $mt8;
         return $this;
     }
@@ -876,10 +877,10 @@ class BudgetLignes {
     /**
      * Set the mt9.
      *
-     * @param float $mt9 The mt9.
+     * @param float|null $mt9 The mt9.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setMt9($mt9) {
+    public function setMt9(?float $mt9): BudgetLignes {
         $this->mt9 = $mt9;
         return $this;
     }
@@ -887,10 +888,10 @@ class BudgetLignes {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): BudgetLignes {
         $this->nature = $nature;
         return $this;
     }
@@ -898,10 +899,10 @@ class BudgetLignes {
     /**
      * Set the ref image.
      *
-     * @param string $refImage The ref image.
+     * @param string|null $refImage The ref image.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setRefImage($refImage) {
+    public function setRefImage(?string $refImage): BudgetLignes {
         $this->refImage = $refImage;
         return $this;
     }
@@ -909,10 +910,10 @@ class BudgetLignes {
     /**
      * Set the type saisie.
      *
-     * @param string $typeSaisie The type saisie.
+     * @param string|null $typeSaisie The type saisie.
      * @return BudgetLignes Returns this Budget lignes.
      */
-    public function setTypeSaisie($typeSaisie) {
+    public function setTypeSaisie(?string $typeSaisie): BudgetLignes {
         $this->typeSaisie = $typeSaisie;
         return $this;
     }

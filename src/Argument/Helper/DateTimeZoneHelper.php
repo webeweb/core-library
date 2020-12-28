@@ -28,7 +28,7 @@ class DateTimeZoneHelper {
      * @param DateTimeZone $b The date/time zone B.
      * @return bool Returns true in case o success, false otherwise.
      */
-    public static function equals(DateTimeZone $a, DateTimeZone $b) {
+    public static function equals(DateTimeZone $a, DateTimeZone $b): bool {
         return $a->getName() === $b->getName();
     }
 }

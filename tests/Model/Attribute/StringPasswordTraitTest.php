@@ -27,7 +27,7 @@ class StringPasswordTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassword() {
+    public function testSetPassword(): void {
 
         $obj = new TestStringPasswordTrait();
 
@@ -40,7 +40,7 @@ class StringPasswordTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringPasswordTrait();
 

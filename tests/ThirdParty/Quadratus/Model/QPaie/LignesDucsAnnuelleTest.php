@@ -29,7 +29,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAt() {
+    public function testSetCodeAt(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -42,7 +42,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -55,7 +55,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDucs() {
+    public function testSetCodeDucs(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -68,7 +68,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -81,7 +81,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInsee() {
+    public function testSetCodeInsee(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -94,7 +94,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -107,7 +107,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionSpec() {
+    public function testSetConditionSpec(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -121,7 +121,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -137,7 +137,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureFusion() {
+    public function testSetExclureFusion(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -150,7 +150,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitution() {
+    public function testSetIdInstitution(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -163,7 +163,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -176,7 +176,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsTaux() {
+    public function testSetIsTaux(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -189,7 +189,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMarque() {
+    public function testSetMarque(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -202,7 +202,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -215,7 +215,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPatronal() {
+    public function testSetMtPatronal(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -228,7 +228,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtSalarial() {
+    public function testSetMtSalarial(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -241,7 +241,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbCot() {
+    public function testSetNbCot(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -254,7 +254,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPatronal() {
+    public function testSetNbPatronal(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -267,7 +267,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSalarial() {
+    public function testSetNbSalarial(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -280,7 +280,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -294,7 +294,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -310,7 +310,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiantCotis() {
+    public function testSetQualifiantCotis(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -323,7 +323,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSommeBase() {
+    public function testSetSommeBase(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -336,7 +336,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxAt() {
+    public function testSetTauxAt(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -349,7 +349,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatronal() {
+    public function testSetTauxPatronal(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -362,7 +362,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalarial() {
+    public function testSetTauxSalarial(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -375,7 +375,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBaseUnique() {
+    public function testSetTypeBaseUnique(): void {
 
         $obj = new LignesDucsAnnuelle();
 
@@ -388,7 +388,7 @@ class LignesDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesDucsAnnuelle();
 

@@ -27,7 +27,7 @@ class HTMLEntityDecodeTransformerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testTransform() {
+    public function testTransform(): void {
 
         $obj = new HTMLEntityDecodeTransformer();
 

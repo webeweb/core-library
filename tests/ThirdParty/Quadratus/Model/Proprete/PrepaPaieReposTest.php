@@ -29,7 +29,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -42,7 +42,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCpPris() {
+    public function testSetCpPris(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -55,7 +55,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHEffectives() {
+    public function testSetHEffectives(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -68,7 +68,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHPrevues() {
+    public function testSetHPrevues(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -81,7 +81,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHRealisees() {
+    public function testSetHRealisees(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -94,7 +94,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumSem() {
+    public function testSetNumSem(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -108,7 +108,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReposCompAcquis() {
+    public function testSetReposCompAcquis(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -137,7 +137,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReposCompPris() {
+    public function testSetReposCompPris(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -150,7 +150,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReposRemplAcquis() {
+    public function testSetReposRemplAcquis(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -163,7 +163,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReposRemplPris() {
+    public function testSetReposRemplPris(): void {
 
         $obj = new PrepaPaieRepos();
 
@@ -176,7 +176,7 @@ class PrepaPaieReposTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PrepaPaieRepos();
 

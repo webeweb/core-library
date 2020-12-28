@@ -27,7 +27,7 @@ class NumberArgumentExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $ex = new NumberArgumentException("exception");
 

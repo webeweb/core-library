@@ -24,35 +24,35 @@ class ChantiersReclamationsEmployes {
     /**
      * Alerte.
      *
-     * @var bool
+     * @var bool|null
      */
     private $alerte;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
@@ -66,73 +66,74 @@ class ChantiersReclamationsEmployes {
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Niveau.
      *
-     * @var string
+     * @var string|null
      */
     private $niveau;
 
     /**
      * Numero reclam.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroReclam;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the alerte.
      *
-     * @return bool Returns the alerte.
+     * @return bool|null Returns the alerte.
      */
-    public function getAlerte() {
+    public function getAlerte(): ?bool{
         return $this->alerte;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
@@ -141,44 +142,44 @@ class ChantiersReclamationsEmployes {
      *
      * @return DateTime|null Returns the date alerte paie.
      */
-    public function getDateAlertePaie() {
+    public function getDateAlertePaie(): ?DateTime{
         return $this->dateAlertePaie;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the niveau.
      *
-     * @return string Returns the niveau.
+     * @return string|null Returns the niveau.
      */
-    public function getNiveau() {
+    public function getNiveau(): ?string{
         return $this->niveau;
     }
 
     /**
      * Get the numero reclam.
      *
-     * @return int Returns the numero reclam.
+     * @return int|null Returns the numero reclam.
      */
-    public function getNumeroReclam() {
+    public function getNumeroReclam(): ?int{
         return $this->numeroReclam;
     }
 
     /**
      * Set the alerte.
      *
-     * @param bool $alerte The alerte.
+     * @param bool|null $alerte The alerte.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setAlerte($alerte) {
+    public function setAlerte(?bool $alerte): ChantiersReclamationsEmployes {
         $this->alerte = $alerte;
         return $this;
     }
@@ -186,10 +187,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): ChantiersReclamationsEmployes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -197,10 +198,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): ChantiersReclamationsEmployes {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -208,10 +209,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ChantiersReclamationsEmployes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -219,10 +220,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): ChantiersReclamationsEmployes {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -233,7 +234,7 @@ class ChantiersReclamationsEmployes {
      * @param DateTime|null $dateAlertePaie The date alerte paie.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setDateAlertePaie(DateTime $dateAlertePaie = null) {
+    public function setDateAlertePaie(?DateTime $dateAlertePaie): ChantiersReclamationsEmployes {
         $this->dateAlertePaie = $dateAlertePaie;
         return $this;
     }
@@ -241,10 +242,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): ChantiersReclamationsEmployes {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -252,10 +253,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the niveau.
      *
-     * @param string $niveau The niveau.
+     * @param string|null $niveau The niveau.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setNiveau($niveau) {
+    public function setNiveau(?string $niveau): ChantiersReclamationsEmployes {
         $this->niveau = $niveau;
         return $this;
     }
@@ -263,10 +264,10 @@ class ChantiersReclamationsEmployes {
     /**
      * Set the numero reclam.
      *
-     * @param int $numeroReclam The numero reclam.
+     * @param int|null $numeroReclam The numero reclam.
      * @return ChantiersReclamationsEmployes Returns this Chantiers reclamations employes.
      */
-    public function setNumeroReclam($numeroReclam) {
+    public function setNumeroReclam(?int $numeroReclam): ChantiersReclamationsEmployes {
         $this->numeroReclam = $numeroReclam;
         return $this;
     }

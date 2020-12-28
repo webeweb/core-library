@@ -27,7 +27,7 @@ class DetailChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new DetailCharges();
 
@@ -40,7 +40,7 @@ class DetailChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new DetailCharges();
 
@@ -53,7 +53,7 @@ class DetailChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DetailCharges();
 
@@ -66,7 +66,7 @@ class DetailChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new DetailCharges();
 
@@ -79,7 +79,7 @@ class DetailChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DetailCharges();
 

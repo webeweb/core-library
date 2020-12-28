@@ -22,21 +22,21 @@ class DossiersCpta {
     /**
      * Chemin dossier cpta.
      *
-     * @var string
+     * @var string|null
      */
     private $cheminDossierCpta;
 
     /**
      * Num dossier cpta.
      *
-     * @var string
+     * @var string|null
      */
     private $numDossierCpta;
 
     /**
      * Num dossier fact.
      *
-     * @var string
+     * @var string|null
      */
     private $numDossierFact;
 
@@ -44,43 +44,43 @@ class DossiersCpta {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chemin dossier cpta.
      *
-     * @return string Returns the chemin dossier cpta.
+     * @return string|null Returns the chemin dossier cpta.
      */
-    public function getCheminDossierCpta() {
+    public function getCheminDossierCpta(): ?string {
         return $this->cheminDossierCpta;
     }
 
     /**
      * Get the num dossier cpta.
      *
-     * @return string Returns the num dossier cpta.
+     * @return string|null Returns the num dossier cpta.
      */
-    public function getNumDossierCpta() {
+    public function getNumDossierCpta(): ?string {
         return $this->numDossierCpta;
     }
 
     /**
      * Get the num dossier fact.
      *
-     * @return string Returns the num dossier fact.
+     * @return string|null Returns the num dossier fact.
      */
-    public function getNumDossierFact() {
+    public function getNumDossierFact(): ?string {
         return $this->numDossierFact;
     }
 
     /**
      * Set the chemin dossier cpta.
      *
-     * @param string $cheminDossierCpta The chemin dossier cpta.
+     * @param string|null $cheminDossierCpta The chemin dossier cpta.
      * @return DossiersCpta Returns this Dossiers cpta.
      */
-    public function setCheminDossierCpta($cheminDossierCpta) {
+    public function setCheminDossierCpta(?string $cheminDossierCpta): DossiersCpta {
         $this->cheminDossierCpta = $cheminDossierCpta;
         return $this;
     }
@@ -88,10 +88,10 @@ class DossiersCpta {
     /**
      * Set the num dossier cpta.
      *
-     * @param string $numDossierCpta The num dossier cpta.
+     * @param string|null $numDossierCpta The num dossier cpta.
      * @return DossiersCpta Returns this Dossiers cpta.
      */
-    public function setNumDossierCpta($numDossierCpta) {
+    public function setNumDossierCpta(?string $numDossierCpta): DossiersCpta {
         $this->numDossierCpta = $numDossierCpta;
         return $this;
     }
@@ -99,10 +99,10 @@ class DossiersCpta {
     /**
      * Set the num dossier fact.
      *
-     * @param string $numDossierFact The num dossier fact.
+     * @param string|null $numDossierFact The num dossier fact.
      * @return DossiersCpta Returns this Dossiers cpta.
      */
-    public function setNumDossierFact($numDossierFact) {
+    public function setNumDossierFact(?string $numDossierFact): DossiersCpta {
         $this->numDossierFact = $numDossierFact;
         return $this;
     }

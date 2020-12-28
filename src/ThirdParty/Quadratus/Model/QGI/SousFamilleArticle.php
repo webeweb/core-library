@@ -22,65 +22,66 @@ class SousFamilleArticle {
     /**
      * Activite principale.
      *
-     * @var string
+     * @var string|null
      */
     private $activitePrincipale;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the activite principale.
      *
-     * @return string Returns the activite principale.
+     * @return string|null Returns the activite principale.
      */
-    public function getActivitePrincipale() {
+    public function getActivitePrincipale(): ?string{
         return $this->activitePrincipale;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Set the activite principale.
      *
-     * @param string $activitePrincipale The activite principale.
+     * @param string|null $activitePrincipale The activite principale.
      * @return SousFamilleArticle Returns this Sous famille article.
      */
-    public function setActivitePrincipale($activitePrincipale) {
+    public function setActivitePrincipale(?string $activitePrincipale): SousFamilleArticle {
         $this->activitePrincipale = $activitePrincipale;
         return $this;
     }
@@ -88,10 +89,10 @@ class SousFamilleArticle {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return SousFamilleArticle Returns this Sous famille article.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): SousFamilleArticle {
         $this->code = $code;
         return $this;
     }
@@ -99,10 +100,10 @@ class SousFamilleArticle {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return SousFamilleArticle Returns this Sous famille article.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): SousFamilleArticle {
         $this->libelle = $libelle;
         return $this;
     }

@@ -27,7 +27,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetControleur() {
+    public function testSetControleur(): void {
 
         $obj = new EmployesProprete();
 
@@ -40,7 +40,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHotellerie() {
+    public function testSetHotellerie(): void {
 
         $obj = new EmployesProprete();
 
@@ -53,7 +53,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLivreur() {
+    public function testSetLivreur(): void {
 
         $obj = new EmployesProprete();
 
@@ -66,7 +66,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModulation() {
+    public function testSetModulation(): void {
 
         $obj = new EmployesProprete();
 
@@ -79,7 +79,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmployesProprete();
 
@@ -92,7 +92,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolyvalent() {
+    public function testSetPolyvalent(): void {
 
         $obj = new EmployesProprete();
 
@@ -105,7 +105,7 @@ class EmployesPropreteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmployesProprete();
 

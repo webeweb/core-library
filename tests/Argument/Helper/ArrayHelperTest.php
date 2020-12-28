@@ -27,7 +27,7 @@ class ArrayHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGet() {
+    public function testGet(): void {
 
         $arg = ["array" => [], "boolean" => true, "double" => 4.0, "float" => 6.0, "integer" => 9, "string" => "string"];
 
@@ -58,7 +58,7 @@ class ArrayHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsObject() {
+    public function testIsObject(): void {
 
         $this->assertTrue(ArrayHelper::isObject(["key1" => "value1", "key2" => "value2"]));
         $this->assertFalse(ArrayHelper::isObject(["value1", "value2"]));
@@ -71,7 +71,7 @@ class ArrayHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSet() {
+    public function testSet(): void {
 
         $objN = [];
 

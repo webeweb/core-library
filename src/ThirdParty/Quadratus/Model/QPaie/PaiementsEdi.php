@@ -22,177 +22,178 @@ class PaiementsEdi {
     /**
      * Bic.
      *
-     * @var string
+     * @var string|null
      */
     private $bic;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Dom banque.
      *
-     * @var string
+     * @var string|null
      */
     private $domBanque;
 
     /**
      * Generer coupon paiement.
      *
-     * @var bool
+     * @var bool|null
      */
     private $genererCouponPaiement;
 
     /**
      * Iban.
      *
-     * @var string
+     * @var string|null
      */
     private $iban;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Montant ducs annuelle.
      *
-     * @var float
+     * @var float|null
      */
     private $montantDucsAnnuelle;
 
     /**
      * Moyen paiement.
      *
-     * @var string
+     * @var string|null
      */
     private $moyenPaiement;
 
     /**
      * Rib.
      *
-     * @var string
+     * @var string|null
      */
     private $rib;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the bic.
      *
-     * @return string Returns the bic.
+     * @return string|null Returns the bic.
      */
-    public function getBic() {
+    public function getBic(): ?string{
         return $this->bic;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the dom banque.
      *
-     * @return string Returns the dom banque.
+     * @return string|null Returns the dom banque.
      */
-    public function getDomBanque() {
+    public function getDomBanque(): ?string{
         return $this->domBanque;
     }
 
     /**
      * Get the generer coupon paiement.
      *
-     * @return bool Returns the generer coupon paiement.
+     * @return bool|null Returns the generer coupon paiement.
      */
-    public function getGenererCouponPaiement() {
+    public function getGenererCouponPaiement(): ?bool{
         return $this->genererCouponPaiement;
     }
 
     /**
      * Get the iban.
      *
-     * @return string Returns the iban.
+     * @return string|null Returns the iban.
      */
-    public function getIban() {
+    public function getIban(): ?string{
         return $this->iban;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the montant ducs annuelle.
      *
-     * @return float Returns the montant ducs annuelle.
+     * @return float|null Returns the montant ducs annuelle.
      */
-    public function getMontantDucsAnnuelle() {
+    public function getMontantDucsAnnuelle(): ?float{
         return $this->montantDucsAnnuelle;
     }
 
     /**
      * Get the moyen paiement.
      *
-     * @return string Returns the moyen paiement.
+     * @return string|null Returns the moyen paiement.
      */
-    public function getMoyenPaiement() {
+    public function getMoyenPaiement(): ?string{
         return $this->moyenPaiement;
     }
 
     /**
      * Get the rib.
      *
-     * @return string Returns the rib.
+     * @return string|null Returns the rib.
      */
-    public function getRib() {
+    public function getRib(): ?string{
         return $this->rib;
     }
 
     /**
      * Set the bic.
      *
-     * @param string $bic The bic.
+     * @param string|null $bic The bic.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setBic($bic) {
+    public function setBic(?string $bic): PaiementsEdi {
         $this->bic = $bic;
         return $this;
     }
@@ -200,10 +201,10 @@ class PaiementsEdi {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): PaiementsEdi {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -211,10 +212,10 @@ class PaiementsEdi {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): PaiementsEdi {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -222,10 +223,10 @@ class PaiementsEdi {
     /**
      * Set the dom banque.
      *
-     * @param string $domBanque The dom banque.
+     * @param string|null $domBanque The dom banque.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setDomBanque($domBanque) {
+    public function setDomBanque(?string $domBanque): PaiementsEdi {
         $this->domBanque = $domBanque;
         return $this;
     }
@@ -233,10 +234,10 @@ class PaiementsEdi {
     /**
      * Set the generer coupon paiement.
      *
-     * @param bool $genererCouponPaiement The generer coupon paiement.
+     * @param bool|null $genererCouponPaiement The generer coupon paiement.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setGenererCouponPaiement($genererCouponPaiement) {
+    public function setGenererCouponPaiement(?bool $genererCouponPaiement): PaiementsEdi {
         $this->genererCouponPaiement = $genererCouponPaiement;
         return $this;
     }
@@ -244,10 +245,10 @@ class PaiementsEdi {
     /**
      * Set the iban.
      *
-     * @param string $iban The iban.
+     * @param string|null $iban The iban.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setIban($iban) {
+    public function setIban(?string $iban): PaiementsEdi {
         $this->iban = $iban;
         return $this;
     }
@@ -255,10 +256,10 @@ class PaiementsEdi {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): PaiementsEdi {
         $this->montant = $montant;
         return $this;
     }
@@ -266,10 +267,10 @@ class PaiementsEdi {
     /**
      * Set the montant ducs annuelle.
      *
-     * @param float $montantDucsAnnuelle The montant ducs annuelle.
+     * @param float|null $montantDucsAnnuelle The montant ducs annuelle.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setMontantDucsAnnuelle($montantDucsAnnuelle) {
+    public function setMontantDucsAnnuelle(?float $montantDucsAnnuelle): PaiementsEdi {
         $this->montantDucsAnnuelle = $montantDucsAnnuelle;
         return $this;
     }
@@ -277,10 +278,10 @@ class PaiementsEdi {
     /**
      * Set the moyen paiement.
      *
-     * @param string $moyenPaiement The moyen paiement.
+     * @param string|null $moyenPaiement The moyen paiement.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setMoyenPaiement($moyenPaiement) {
+    public function setMoyenPaiement(?string $moyenPaiement): PaiementsEdi {
         $this->moyenPaiement = $moyenPaiement;
         return $this;
     }
@@ -288,10 +289,10 @@ class PaiementsEdi {
     /**
      * Set the rib.
      *
-     * @param string $rib The rib.
+     * @param string|null $rib The rib.
      * @return PaiementsEdi Returns this Paiements edi.
      */
-    public function setRib($rib) {
+    public function setRib(?string $rib): PaiementsEdi {
         $this->rib = $rib;
         return $this;
     }

@@ -29,7 +29,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande1() {
+    public function testSetBudgetCommande1(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -42,7 +42,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande10() {
+    public function testSetBudgetCommande10(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -55,7 +55,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande11() {
+    public function testSetBudgetCommande11(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -68,7 +68,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande12() {
+    public function testSetBudgetCommande12(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -81,7 +81,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande2() {
+    public function testSetBudgetCommande2(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -94,7 +94,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande3() {
+    public function testSetBudgetCommande3(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -107,7 +107,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande4() {
+    public function testSetBudgetCommande4(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -120,7 +120,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande5() {
+    public function testSetBudgetCommande5(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -133,7 +133,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande6() {
+    public function testSetBudgetCommande6(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -146,7 +146,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande7() {
+    public function testSetBudgetCommande7(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -159,7 +159,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande8() {
+    public function testSetBudgetCommande8(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -172,7 +172,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande9() {
+    public function testSetBudgetCommande9(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -185,7 +185,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -198,7 +198,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -211,7 +211,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersBudgetCommande();
 
@@ -225,7 +225,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -241,7 +241,7 @@ class ChantiersBudgetCommandeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersBudgetCommande();
 

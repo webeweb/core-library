@@ -24,35 +24,35 @@ class Missions {
     /**
      * Article.
      *
-     * @var string
+     * @var string|null
      */
     private $article;
 
     /**
      * Bm calcule.
      *
-     * @var bool
+     * @var bool|null
      */
     private $bmCalcule;
 
     /**
      * Centre analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $centreAnalytique;
 
     /**
      * Cloture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cloture;
 
     /**
      * Cloture contexte.
      *
-     * @var string
+     * @var string|null
      */
     private $clotureContexte;
 
@@ -66,35 +66,35 @@ class Missions {
     /**
      * Cloture par.
      *
-     * @var string
+     * @var string|null
      */
     private $cloturePar;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Code mission type.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMissionType;
 
     /**
      * Code responsable.
      *
-     * @var string
+     * @var string|null
      */
     private $codeResponsable;
 
@@ -129,35 +129,35 @@ class Missions {
     /**
      * Decalage fermeture auto.
      *
-     * @var int
+     * @var int|null
      */
     private $decalageFermetureAuto;
 
     /**
      * Decalage fermeture auto jours.
      *
-     * @var int
+     * @var int|null
      */
     private $decalageFermetureAutoJours;
 
     /**
      * Decalage ouverture auto.
      *
-     * @var int
+     * @var int|null
      */
     private $decalageOuvertureAuto;
 
     /**
      * Descriptif.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptif;
 
     /**
      * Descriptif rtf.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptifRtf;
 
@@ -171,35 +171,35 @@ class Missions {
     /**
      * Fermeture auto.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fermetureAuto;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Mission millesime.
      *
-     * @var bool
+     * @var bool|null
      */
     private $missionMillesime;
 
     /**
      * Mois ouverture auto.
      *
-     * @var int
+     * @var int|null
      */
     private $moisOuvertureAuto;
 
     /**
      * Ouverture contexte.
      *
-     * @var string
+     * @var string|null
      */
     private $ouvertureContexte;
 
@@ -213,49 +213,49 @@ class Missions {
     /**
      * Ouverture par.
      *
-     * @var string
+     * @var string|null
      */
     private $ouverturePar;
 
     /**
      * Societe.
      *
-     * @var string
+     * @var string|null
      */
     private $societe;
 
     /**
      * Tp archive.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tpArchive;
 
     /**
      * Tp cloture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tpCloture;
 
     /**
      * Transfert centre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $transfertCentre;
 
     /**
      * Type centre.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCentre;
 
     /**
      * Type responsable.
      *
-     * @var string
+     * @var string|null
      */
     private $typeResponsable;
 
@@ -263,51 +263,51 @@ class Missions {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the article.
      *
-     * @return string Returns the article.
+     * @return string|null Returns the article.
      */
-    public function getArticle() {
+    public function getArticle(): ?string {
         return $this->article;
     }
 
     /**
      * Get the bm calcule.
      *
-     * @return bool Returns the bm calcule.
+     * @return bool|null Returns the bm calcule.
      */
-    public function getBmCalcule() {
+    public function getBmCalcule(): ?bool {
         return $this->bmCalcule;
     }
 
     /**
      * Get the centre analytique.
      *
-     * @return string Returns the centre analytique.
+     * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique() {
+    public function getCentreAnalytique(): ?string {
         return $this->centreAnalytique;
     }
 
     /**
      * Get the cloture.
      *
-     * @return bool Returns the cloture.
+     * @return bool|null Returns the cloture.
      */
-    public function getCloture() {
+    public function getCloture(): ?bool {
         return $this->cloture;
     }
 
     /**
      * Get the cloture contexte.
      *
-     * @return string Returns the cloture contexte.
+     * @return string|null Returns the cloture contexte.
      */
-    public function getClotureContexte() {
+    public function getClotureContexte(): ?string {
         return $this->clotureContexte;
     }
 
@@ -316,52 +316,52 @@ class Missions {
      *
      * @return DateTime|null Returns the cloture date.
      */
-    public function getClotureDate() {
+    public function getClotureDate(): ?DateTime {
         return $this->clotureDate;
     }
 
     /**
      * Get the cloture par.
      *
-     * @return string Returns the cloture par.
+     * @return string|null Returns the cloture par.
      */
-    public function getCloturePar() {
+    public function getCloturePar(): ?string {
         return $this->cloturePar;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
     /**
      * Get the code mission type.
      *
-     * @return string Returns the code mission type.
+     * @return string|null Returns the code mission type.
      */
-    public function getCodeMissionType() {
+    public function getCodeMissionType(): ?string {
         return $this->codeMissionType;
     }
 
     /**
      * Get the code responsable.
      *
-     * @return string Returns the code responsable.
+     * @return string|null Returns the code responsable.
      */
-    public function getCodeResponsable() {
+    public function getCodeResponsable(): ?string {
         return $this->codeResponsable;
     }
 
@@ -370,7 +370,7 @@ class Missions {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -379,7 +379,7 @@ class Missions {
      *
      * @return DateTime|null Returns the date debut tp.
      */
-    public function getDateDebutTp() {
+    public function getDateDebutTp(): ?DateTime {
         return $this->dateDebutTp;
     }
 
@@ -388,7 +388,7 @@ class Missions {
      *
      * @return DateTime|null Returns the date fin tp.
      */
-    public function getDateFinTp() {
+    public function getDateFinTp(): ?DateTime {
         return $this->dateFinTp;
     }
 
@@ -397,52 +397,52 @@ class Missions {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
     /**
      * Get the decalage fermeture auto.
      *
-     * @return int Returns the decalage fermeture auto.
+     * @return int|null Returns the decalage fermeture auto.
      */
-    public function getDecalageFermetureAuto() {
+    public function getDecalageFermetureAuto(): ?int {
         return $this->decalageFermetureAuto;
     }
 
     /**
      * Get the decalage fermeture auto jours.
      *
-     * @return int Returns the decalage fermeture auto jours.
+     * @return int|null Returns the decalage fermeture auto jours.
      */
-    public function getDecalageFermetureAutoJours() {
+    public function getDecalageFermetureAutoJours(): ?int {
         return $this->decalageFermetureAutoJours;
     }
 
     /**
      * Get the decalage ouverture auto.
      *
-     * @return int Returns the decalage ouverture auto.
+     * @return int|null Returns the decalage ouverture auto.
      */
-    public function getDecalageOuvertureAuto() {
+    public function getDecalageOuvertureAuto(): ?int {
         return $this->decalageOuvertureAuto;
     }
 
     /**
      * Get the descriptif.
      *
-     * @return string Returns the descriptif.
+     * @return string|null Returns the descriptif.
      */
-    public function getDescriptif() {
+    public function getDescriptif(): ?string {
         return $this->descriptif;
     }
 
     /**
      * Get the descriptif rtf.
      *
-     * @return string Returns the descriptif rtf.
+     * @return string|null Returns the descriptif rtf.
      */
-    public function getDescriptifRtf() {
+    public function getDescriptifRtf(): ?string {
         return $this->descriptifRtf;
     }
 
@@ -451,52 +451,52 @@ class Missions {
      *
      * @return DateTime|null Returns the dt fermeture auto.
      */
-    public function getDtFermetureAuto() {
+    public function getDtFermetureAuto(): ?DateTime {
         return $this->dtFermetureAuto;
     }
 
     /**
      * Get the fermeture auto.
      *
-     * @return bool Returns the fermeture auto.
+     * @return bool|null Returns the fermeture auto.
      */
-    public function getFermetureAuto() {
+    public function getFermetureAuto(): ?bool {
         return $this->fermetureAuto;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the mission millesime.
      *
-     * @return bool Returns the mission millesime.
+     * @return bool|null Returns the mission millesime.
      */
-    public function getMissionMillesime() {
+    public function getMissionMillesime(): ?bool {
         return $this->missionMillesime;
     }
 
     /**
      * Get the mois ouverture auto.
      *
-     * @return int Returns the mois ouverture auto.
+     * @return int|null Returns the mois ouverture auto.
      */
-    public function getMoisOuvertureAuto() {
+    public function getMoisOuvertureAuto(): ?int {
         return $this->moisOuvertureAuto;
     }
 
     /**
      * Get the ouverture contexte.
      *
-     * @return string Returns the ouverture contexte.
+     * @return string|null Returns the ouverture contexte.
      */
-    public function getOuvertureContexte() {
+    public function getOuvertureContexte(): ?string {
         return $this->ouvertureContexte;
     }
 
@@ -505,80 +505,80 @@ class Missions {
      *
      * @return DateTime|null Returns the ouverture date.
      */
-    public function getOuvertureDate() {
+    public function getOuvertureDate(): ?DateTime {
         return $this->ouvertureDate;
     }
 
     /**
      * Get the ouverture par.
      *
-     * @return string Returns the ouverture par.
+     * @return string|null Returns the ouverture par.
      */
-    public function getOuverturePar() {
+    public function getOuverturePar(): ?string {
         return $this->ouverturePar;
     }
 
     /**
      * Get the societe.
      *
-     * @return string Returns the societe.
+     * @return string|null Returns the societe.
      */
-    public function getSociete() {
+    public function getSociete(): ?string {
         return $this->societe;
     }
 
     /**
      * Get the tp archive.
      *
-     * @return bool Returns the tp archive.
+     * @return bool|null Returns the tp archive.
      */
-    public function getTpArchive() {
+    public function getTpArchive(): ?bool {
         return $this->tpArchive;
     }
 
     /**
      * Get the tp cloture.
      *
-     * @return bool Returns the tp cloture.
+     * @return bool|null Returns the tp cloture.
      */
-    public function getTpCloture() {
+    public function getTpCloture(): ?bool {
         return $this->tpCloture;
     }
 
     /**
      * Get the transfert centre.
      *
-     * @return bool Returns the transfert centre.
+     * @return bool|null Returns the transfert centre.
      */
-    public function getTransfertCentre() {
+    public function getTransfertCentre(): ?bool {
         return $this->transfertCentre;
     }
 
     /**
      * Get the type centre.
      *
-     * @return string Returns the type centre.
+     * @return string|null Returns the type centre.
      */
-    public function getTypeCentre() {
+    public function getTypeCentre(): ?string {
         return $this->typeCentre;
     }
 
     /**
      * Get the type responsable.
      *
-     * @return string Returns the type responsable.
+     * @return string|null Returns the type responsable.
      */
-    public function getTypeResponsable() {
+    public function getTypeResponsable(): ?string {
         return $this->typeResponsable;
     }
 
     /**
      * Set the article.
      *
-     * @param string $article The article.
+     * @param string|null $article The article.
      * @return Missions Returns this Missions.
      */
-    public function setArticle($article) {
+    public function setArticle(?string $article): Missions {
         $this->article = $article;
         return $this;
     }
@@ -586,10 +586,10 @@ class Missions {
     /**
      * Set the bm calcule.
      *
-     * @param bool $bmCalcule The bm calcule.
+     * @param bool|null $bmCalcule The bm calcule.
      * @return Missions Returns this Missions.
      */
-    public function setBmCalcule($bmCalcule) {
+    public function setBmCalcule(?bool $bmCalcule): Missions {
         $this->bmCalcule = $bmCalcule;
         return $this;
     }
@@ -597,10 +597,10 @@ class Missions {
     /**
      * Set the centre analytique.
      *
-     * @param string $centreAnalytique The centre analytique.
+     * @param string|null $centreAnalytique The centre analytique.
      * @return Missions Returns this Missions.
      */
-    public function setCentreAnalytique($centreAnalytique) {
+    public function setCentreAnalytique(?string $centreAnalytique): Missions {
         $this->centreAnalytique = $centreAnalytique;
         return $this;
     }
@@ -608,10 +608,10 @@ class Missions {
     /**
      * Set the cloture.
      *
-     * @param bool $cloture The cloture.
+     * @param bool|null $cloture The cloture.
      * @return Missions Returns this Missions.
      */
-    public function setCloture($cloture) {
+    public function setCloture(?bool $cloture): Missions {
         $this->cloture = $cloture;
         return $this;
     }
@@ -619,10 +619,10 @@ class Missions {
     /**
      * Set the cloture contexte.
      *
-     * @param string $clotureContexte The cloture contexte.
+     * @param string|null $clotureContexte The cloture contexte.
      * @return Missions Returns this Missions.
      */
-    public function setClotureContexte($clotureContexte) {
+    public function setClotureContexte(?string $clotureContexte): Missions {
         $this->clotureContexte = $clotureContexte;
         return $this;
     }
@@ -633,7 +633,7 @@ class Missions {
      * @param DateTime|null $clotureDate The cloture date.
      * @return Missions Returns this Missions.
      */
-    public function setClotureDate(DateTime $clotureDate = null) {
+    public function setClotureDate(?DateTime $clotureDate): Missions {
         $this->clotureDate = $clotureDate;
         return $this;
     }
@@ -641,10 +641,10 @@ class Missions {
     /**
      * Set the cloture par.
      *
-     * @param string $cloturePar The cloture par.
+     * @param string|null $cloturePar The cloture par.
      * @return Missions Returns this Missions.
      */
-    public function setCloturePar($cloturePar) {
+    public function setCloturePar(?string $cloturePar): Missions {
         $this->cloturePar = $cloturePar;
         return $this;
     }
@@ -652,10 +652,10 @@ class Missions {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Missions Returns this Missions.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Missions {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -663,10 +663,10 @@ class Missions {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return Missions Returns this Missions.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): Missions {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -674,10 +674,10 @@ class Missions {
     /**
      * Set the code mission type.
      *
-     * @param string $codeMissionType The code mission type.
+     * @param string|null $codeMissionType The code mission type.
      * @return Missions Returns this Missions.
      */
-    public function setCodeMissionType($codeMissionType) {
+    public function setCodeMissionType(?string $codeMissionType): Missions {
         $this->codeMissionType = $codeMissionType;
         return $this;
     }
@@ -685,10 +685,10 @@ class Missions {
     /**
      * Set the code responsable.
      *
-     * @param string $codeResponsable The code responsable.
+     * @param string|null $codeResponsable The code responsable.
      * @return Missions Returns this Missions.
      */
-    public function setCodeResponsable($codeResponsable) {
+    public function setCodeResponsable(?string $codeResponsable): Missions {
         $this->codeResponsable = $codeResponsable;
         return $this;
     }
@@ -699,7 +699,7 @@ class Missions {
      * @param DateTime|null $dateCreation The date creation.
      * @return Missions Returns this Missions.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): Missions {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -710,7 +710,7 @@ class Missions {
      * @param DateTime|null $dateDebutTp The date debut tp.
      * @return Missions Returns this Missions.
      */
-    public function setDateDebutTp(DateTime $dateDebutTp = null) {
+    public function setDateDebutTp(?DateTime $dateDebutTp): Missions {
         $this->dateDebutTp = $dateDebutTp;
         return $this;
     }
@@ -721,7 +721,7 @@ class Missions {
      * @param DateTime|null $dateFinTp The date fin tp.
      * @return Missions Returns this Missions.
      */
-    public function setDateFinTp(DateTime $dateFinTp = null) {
+    public function setDateFinTp(?DateTime $dateFinTp): Missions {
         $this->dateFinTp = $dateFinTp;
         return $this;
     }
@@ -732,7 +732,7 @@ class Missions {
      * @param DateTime|null $dateModification The date modification.
      * @return Missions Returns this Missions.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): Missions {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -740,10 +740,10 @@ class Missions {
     /**
      * Set the decalage fermeture auto.
      *
-     * @param int $decalageFermetureAuto The decalage fermeture auto.
+     * @param int|null $decalageFermetureAuto The decalage fermeture auto.
      * @return Missions Returns this Missions.
      */
-    public function setDecalageFermetureAuto($decalageFermetureAuto) {
+    public function setDecalageFermetureAuto(?int $decalageFermetureAuto): Missions {
         $this->decalageFermetureAuto = $decalageFermetureAuto;
         return $this;
     }
@@ -751,10 +751,10 @@ class Missions {
     /**
      * Set the decalage fermeture auto jours.
      *
-     * @param int $decalageFermetureAutoJours The decalage fermeture auto jours.
+     * @param int|null $decalageFermetureAutoJours The decalage fermeture auto jours.
      * @return Missions Returns this Missions.
      */
-    public function setDecalageFermetureAutoJours($decalageFermetureAutoJours) {
+    public function setDecalageFermetureAutoJours(?int $decalageFermetureAutoJours): Missions {
         $this->decalageFermetureAutoJours = $decalageFermetureAutoJours;
         return $this;
     }
@@ -762,10 +762,10 @@ class Missions {
     /**
      * Set the decalage ouverture auto.
      *
-     * @param int $decalageOuvertureAuto The decalage ouverture auto.
+     * @param int|null $decalageOuvertureAuto The decalage ouverture auto.
      * @return Missions Returns this Missions.
      */
-    public function setDecalageOuvertureAuto($decalageOuvertureAuto) {
+    public function setDecalageOuvertureAuto(?int $decalageOuvertureAuto): Missions {
         $this->decalageOuvertureAuto = $decalageOuvertureAuto;
         return $this;
     }
@@ -773,10 +773,10 @@ class Missions {
     /**
      * Set the descriptif.
      *
-     * @param string $descriptif The descriptif.
+     * @param string|null $descriptif The descriptif.
      * @return Missions Returns this Missions.
      */
-    public function setDescriptif($descriptif) {
+    public function setDescriptif(?string $descriptif): Missions {
         $this->descriptif = $descriptif;
         return $this;
     }
@@ -784,10 +784,10 @@ class Missions {
     /**
      * Set the descriptif rtf.
      *
-     * @param string $descriptifRtf The descriptif rtf.
+     * @param string|null $descriptifRtf The descriptif rtf.
      * @return Missions Returns this Missions.
      */
-    public function setDescriptifRtf($descriptifRtf) {
+    public function setDescriptifRtf(?string $descriptifRtf): Missions {
         $this->descriptifRtf = $descriptifRtf;
         return $this;
     }
@@ -798,7 +798,7 @@ class Missions {
      * @param DateTime|null $dtFermetureAuto The dt fermeture auto.
      * @return Missions Returns this Missions.
      */
-    public function setDtFermetureAuto(DateTime $dtFermetureAuto = null) {
+    public function setDtFermetureAuto(?DateTime $dtFermetureAuto): Missions {
         $this->dtFermetureAuto = $dtFermetureAuto;
         return $this;
     }
@@ -806,10 +806,10 @@ class Missions {
     /**
      * Set the fermeture auto.
      *
-     * @param bool $fermetureAuto The fermeture auto.
+     * @param bool|null $fermetureAuto The fermeture auto.
      * @return Missions Returns this Missions.
      */
-    public function setFermetureAuto($fermetureAuto) {
+    public function setFermetureAuto(?bool $fermetureAuto): Missions {
         $this->fermetureAuto = $fermetureAuto;
         return $this;
     }
@@ -817,10 +817,10 @@ class Missions {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Missions Returns this Missions.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Missions {
         $this->libelle = $libelle;
         return $this;
     }
@@ -828,10 +828,10 @@ class Missions {
     /**
      * Set the mission millesime.
      *
-     * @param bool $missionMillesime The mission millesime.
+     * @param bool|null $missionMillesime The mission millesime.
      * @return Missions Returns this Missions.
      */
-    public function setMissionMillesime($missionMillesime) {
+    public function setMissionMillesime(?bool $missionMillesime): Missions {
         $this->missionMillesime = $missionMillesime;
         return $this;
     }
@@ -839,10 +839,10 @@ class Missions {
     /**
      * Set the mois ouverture auto.
      *
-     * @param int $moisOuvertureAuto The mois ouverture auto.
+     * @param int|null $moisOuvertureAuto The mois ouverture auto.
      * @return Missions Returns this Missions.
      */
-    public function setMoisOuvertureAuto($moisOuvertureAuto) {
+    public function setMoisOuvertureAuto(?int $moisOuvertureAuto): Missions {
         $this->moisOuvertureAuto = $moisOuvertureAuto;
         return $this;
     }
@@ -850,10 +850,10 @@ class Missions {
     /**
      * Set the ouverture contexte.
      *
-     * @param string $ouvertureContexte The ouverture contexte.
+     * @param string|null $ouvertureContexte The ouverture contexte.
      * @return Missions Returns this Missions.
      */
-    public function setOuvertureContexte($ouvertureContexte) {
+    public function setOuvertureContexte(?string $ouvertureContexte): Missions {
         $this->ouvertureContexte = $ouvertureContexte;
         return $this;
     }
@@ -864,7 +864,7 @@ class Missions {
      * @param DateTime|null $ouvertureDate The ouverture date.
      * @return Missions Returns this Missions.
      */
-    public function setOuvertureDate(DateTime $ouvertureDate = null) {
+    public function setOuvertureDate(?DateTime $ouvertureDate): Missions {
         $this->ouvertureDate = $ouvertureDate;
         return $this;
     }
@@ -872,10 +872,10 @@ class Missions {
     /**
      * Set the ouverture par.
      *
-     * @param string $ouverturePar The ouverture par.
+     * @param string|null $ouverturePar The ouverture par.
      * @return Missions Returns this Missions.
      */
-    public function setOuverturePar($ouverturePar) {
+    public function setOuverturePar(?string $ouverturePar): Missions {
         $this->ouverturePar = $ouverturePar;
         return $this;
     }
@@ -883,10 +883,10 @@ class Missions {
     /**
      * Set the societe.
      *
-     * @param string $societe The societe.
+     * @param string|null $societe The societe.
      * @return Missions Returns this Missions.
      */
-    public function setSociete($societe) {
+    public function setSociete(?string $societe): Missions {
         $this->societe = $societe;
         return $this;
     }
@@ -894,10 +894,10 @@ class Missions {
     /**
      * Set the tp archive.
      *
-     * @param bool $tpArchive The tp archive.
+     * @param bool|null $tpArchive The tp archive.
      * @return Missions Returns this Missions.
      */
-    public function setTpArchive($tpArchive) {
+    public function setTpArchive(?bool $tpArchive): Missions {
         $this->tpArchive = $tpArchive;
         return $this;
     }
@@ -905,10 +905,10 @@ class Missions {
     /**
      * Set the tp cloture.
      *
-     * @param bool $tpCloture The tp cloture.
+     * @param bool|null $tpCloture The tp cloture.
      * @return Missions Returns this Missions.
      */
-    public function setTpCloture($tpCloture) {
+    public function setTpCloture(?bool $tpCloture): Missions {
         $this->tpCloture = $tpCloture;
         return $this;
     }
@@ -916,10 +916,10 @@ class Missions {
     /**
      * Set the transfert centre.
      *
-     * @param bool $transfertCentre The transfert centre.
+     * @param bool|null $transfertCentre The transfert centre.
      * @return Missions Returns this Missions.
      */
-    public function setTransfertCentre($transfertCentre) {
+    public function setTransfertCentre(?bool $transfertCentre): Missions {
         $this->transfertCentre = $transfertCentre;
         return $this;
     }
@@ -927,10 +927,10 @@ class Missions {
     /**
      * Set the type centre.
      *
-     * @param string $typeCentre The type centre.
+     * @param string|null $typeCentre The type centre.
      * @return Missions Returns this Missions.
      */
-    public function setTypeCentre($typeCentre) {
+    public function setTypeCentre(?string $typeCentre): Missions {
         $this->typeCentre = $typeCentre;
         return $this;
     }
@@ -938,10 +938,10 @@ class Missions {
     /**
      * Set the type responsable.
      *
-     * @param string $typeResponsable The type responsable.
+     * @param string|null $typeResponsable The type responsable.
      * @return Missions Returns this Missions.
      */
-    public function setTypeResponsable($typeResponsable) {
+    public function setTypeResponsable(?string $typeResponsable): Missions {
         $this->typeResponsable = $typeResponsable;
         return $this;
     }

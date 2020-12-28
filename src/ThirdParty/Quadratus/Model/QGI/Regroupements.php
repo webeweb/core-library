@@ -22,21 +22,21 @@ class Regroupements {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Num ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numOrdre;
 
@@ -44,43 +44,43 @@ class Regroupements {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the num ordre.
      *
-     * @return int Returns the num ordre.
+     * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre() {
+    public function getNumOrdre(): ?int {
         return $this->numOrdre;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Regroupements Returns this Regroupements.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Regroupements {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +88,10 @@ class Regroupements {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Regroupements Returns this Regroupements.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Regroupements {
         $this->libelle = $libelle;
         return $this;
     }
@@ -99,10 +99,10 @@ class Regroupements {
     /**
      * Set the num ordre.
      *
-     * @param int $numOrdre The num ordre.
+     * @param int|null $numOrdre The num ordre.
      * @return Regroupements Returns this Regroupements.
      */
-    public function setNumOrdre($numOrdre) {
+    public function setNumOrdre(?int $numOrdre): Regroupements {
         $this->numOrdre = $numOrdre;
         return $this;
     }

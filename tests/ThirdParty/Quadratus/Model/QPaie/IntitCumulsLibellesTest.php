@@ -27,7 +27,7 @@ class IntitCumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new IntitCumulsLibelles();
 
@@ -40,7 +40,7 @@ class IntitCumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCumulBulletin() {
+    public function testSetNumCumulBulletin(): void {
 
         $obj = new IntitCumulsLibelles();
 
@@ -53,7 +53,7 @@ class IntitCumulsLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new IntitCumulsLibelles();
 

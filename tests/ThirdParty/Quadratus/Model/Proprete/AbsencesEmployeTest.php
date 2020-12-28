@@ -29,7 +29,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAbsenceModifiee() {
+    public function testSetAbsenceModifiee(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -42,7 +42,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAbsence() {
+    public function testSetCodeAbsence(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -55,7 +55,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -68,7 +68,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -81,7 +81,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -94,7 +94,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -107,7 +107,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -120,7 +120,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -133,7 +133,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -147,7 +147,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutAbs() {
+    public function testSetDateDebutAbs(): void {
 
         // Set a Date/time mock.
         $dateDebutAbs = new DateTime("2018-09-10");
@@ -164,7 +164,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinAbs() {
+    public function testSetDateFinAbs(): void {
 
         // Set a Date/time mock.
         $dateFinAbs = new DateTime("2018-09-10");
@@ -181,7 +181,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -197,7 +197,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -210,7 +210,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFromFermetureChantier() {
+    public function testSetFromFermetureChantier(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -223,7 +223,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -236,7 +236,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -249,7 +249,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new AbsencesEmploye();
 
@@ -262,7 +262,7 @@ class AbsencesEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AbsencesEmploye();
 

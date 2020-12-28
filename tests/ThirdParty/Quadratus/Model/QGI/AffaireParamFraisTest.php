@@ -29,7 +29,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -42,7 +42,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -55,7 +55,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAvenant() {
+    public function testSetCodeAvenant(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -68,7 +68,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFraisFixe() {
+    public function testSetCodeFraisFixe(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -81,7 +81,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePhase() {
+    public function testSetCodePhase(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -94,7 +94,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComptesComptables() {
+    public function testSetComptesComptables(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -107,7 +107,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -120,7 +120,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -133,7 +133,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtFg1() {
+    public function testSetMtFg1(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -146,7 +146,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtFg2() {
+    public function testSetMtFg2(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -160,7 +160,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -176,7 +176,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentage() {
+    public function testSetPourcentage(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -189,7 +189,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrctFg1() {
+    public function testSetPrctFg1(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -202,7 +202,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrctFg2() {
+    public function testSetPrctFg2(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -215,7 +215,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AffaireParamFrais();
 
@@ -228,7 +228,7 @@ class AffaireParamFraisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffaireParamFrais();
 

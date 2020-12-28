@@ -27,7 +27,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvantageNature() {
+    public function testSetAvantageNature(): void {
 
         $obj = new ComptesDas2();
 
@@ -40,7 +40,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemniteRbt() {
+    public function testSetIndemniteRbt(): void {
 
         $obj = new ComptesDas2();
 
@@ -53,7 +53,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant1() {
+    public function testSetMontant1(): void {
 
         $obj = new ComptesDas2();
 
@@ -66,7 +66,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant2() {
+    public function testSetMontant2(): void {
 
         $obj = new ComptesDas2();
 
@@ -79,7 +79,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature1() {
+    public function testSetNature1(): void {
 
         $obj = new ComptesDas2();
 
@@ -92,7 +92,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature2() {
+    public function testSetNature2(): void {
 
         $obj = new ComptesDas2();
 
@@ -105,7 +105,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new ComptesDas2();
 
@@ -118,7 +118,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetenueSource() {
+    public function testSetRetenueSource(): void {
 
         $obj = new ComptesDas2();
 
@@ -131,7 +131,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvada() {
+    public function testSetTvada(): void {
 
         $obj = new ComptesDas2();
 
@@ -144,7 +144,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAn() {
+    public function testSetTypeAn(): void {
 
         $obj = new ComptesDas2();
 
@@ -157,7 +157,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeIr() {
+    public function testSetTypeIr(): void {
 
         $obj = new ComptesDas2();
 
@@ -170,7 +170,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRs() {
+    public function testSetTypeRs(): void {
 
         $obj = new ComptesDas2();
 
@@ -183,7 +183,7 @@ class ComptesDas2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ComptesDas2();
 

@@ -27,7 +27,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfficher() {
+    public function testSetAfficher(): void {
 
         $obj = new RegroupementEdBulEntete();
 
@@ -40,7 +40,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupEdBul() {
+    public function testSetCodeRegroupEdBul(): void {
 
         $obj = new RegroupementEdBulEntete();
 
@@ -53,7 +53,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTitre() {
+    public function testSetCodeTitre(): void {
 
         $obj = new RegroupementEdBulEntete();
 
@@ -66,7 +66,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new RegroupementEdBulEntete();
 
@@ -79,7 +79,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuadra() {
+    public function testSetQuadra(): void {
 
         $obj = new RegroupementEdBulEntete();
 
@@ -92,7 +92,7 @@ class RegroupementEdBulEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RegroupementEdBulEntete();
 

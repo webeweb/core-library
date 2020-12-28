@@ -29,7 +29,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseConges() {
+    public function testSetBaseConges(): void {
 
         $obj = new CongesSpectacles();
 
@@ -42,7 +42,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrut() {
+    public function testSetBrut(): void {
 
         $obj = new CongesSpectacles();
 
@@ -55,7 +55,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCeInitial() {
+    public function testSetCeInitial(): void {
 
         $obj = new CongesSpectacles();
 
@@ -68,7 +68,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploi() {
+    public function testSetCodeEmploi(): void {
 
         $obj = new CongesSpectacles();
 
@@ -81,7 +81,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new CongesSpectacles();
 
@@ -94,7 +94,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContact() {
+    public function testSetContact(): void {
 
         $obj = new CongesSpectacles();
 
@@ -107,7 +107,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContratEnCours() {
+    public function testSetContratEnCours(): void {
 
         $obj = new CongesSpectacles();
 
@@ -121,7 +121,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCertificatEmploi() {
+    public function testSetDateCertificatEmploi(): void {
 
         // Set a Date/time mock.
         $dateCertificatEmploi = new DateTime("2018-09-10");
@@ -138,7 +138,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEmbauche() {
+    public function testSetDateEmbauche(): void {
 
         // Set a Date/time mock.
         $dateEmbauche = new DateTime("2018-09-10");
@@ -155,7 +155,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinContrat() {
+    public function testSetDateFinContrat(): void {
 
         // Set a Date/time mock.
         $dateFinContrat = new DateTime("2018-09-10");
@@ -172,7 +172,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNaissance() {
+    public function testSetDateNaissance(): void {
 
         // Set a Date/time mock.
         $dateNaissance = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePaiement() {
+    public function testSetDatePaiement(): void {
 
         // Set a Date/time mock.
         $datePaiement = new DateTime("2018-09-10");
@@ -206,7 +206,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriodeAttest() {
+    public function testSetDebutPeriodeAttest(): void {
 
         // Set a Date/time mock.
         $debutPeriodeAttest = new DateTime("2018-09-10");
@@ -222,7 +222,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeptNaissance() {
+    public function testSetDeptNaissance(): void {
 
         $obj = new CongesSpectacles();
 
@@ -235,7 +235,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDisquette() {
+    public function testSetDisquette(): void {
 
         $obj = new CongesSpectacles();
 
@@ -248,7 +248,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdite() {
+    public function testSetEdite(): void {
 
         $obj = new CongesSpectacles();
 
@@ -261,7 +261,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmpAdresse1() {
+    public function testSetEmpAdresse1(): void {
 
         $obj = new CongesSpectacles();
 
@@ -274,7 +274,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmpAdresse2() {
+    public function testSetEmpAdresse2(): void {
 
         $obj = new CongesSpectacles();
 
@@ -287,7 +287,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmpCodePostal() {
+    public function testSetEmpCodePostal(): void {
 
         $obj = new CongesSpectacles();
 
@@ -300,7 +300,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmpCommune() {
+    public function testSetEmpCommune(): void {
 
         $obj = new CongesSpectacles();
 
@@ -313,7 +313,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmploi() {
+    public function testSetEmploi(): void {
 
         $obj = new CongesSpectacles();
 
@@ -326,7 +326,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblAdresse1() {
+    public function testSetEtblAdresse1(): void {
 
         $obj = new CongesSpectacles();
 
@@ -339,7 +339,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblAdresse2() {
+    public function testSetEtblAdresse2(): void {
 
         $obj = new CongesSpectacles();
 
@@ -352,7 +352,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblCodePostal() {
+    public function testSetEtblCodePostal(): void {
 
         $obj = new CongesSpectacles();
 
@@ -365,7 +365,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblCommune() {
+    public function testSetEtblCommune(): void {
 
         $obj = new CongesSpectacles();
 
@@ -378,7 +378,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblRaisonSociale() {
+    public function testSetEtblRaisonSociale(): void {
 
         $obj = new CongesSpectacles();
 
@@ -391,7 +391,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblTel() {
+    public function testSetEtblTel(): void {
 
         $obj = new CongesSpectacles();
 
@@ -404,7 +404,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceCe() {
+    public function testSetIndiceCe(): void {
 
         $obj = new CongesSpectacles();
 
@@ -417,7 +417,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new CongesSpectacles();
 
@@ -430,7 +430,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuCertificatEmploi() {
+    public function testSetLieuCertificatEmploi(): void {
 
         $obj = new CongesSpectacles();
 
@@ -443,7 +443,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuNaissance() {
+    public function testSetLieuNaissance(): void {
 
         $obj = new CongesSpectacles();
 
@@ -456,7 +456,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourTrav() {
+    public function testSetNbJourTrav(): void {
 
         $obj = new CongesSpectacles();
 
@@ -469,7 +469,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNir() {
+    public function testSetNir(): void {
 
         $obj = new CongesSpectacles();
 
@@ -482,7 +482,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomEmploye() {
+    public function testSetNomEmploye(): void {
 
         $obj = new CongesSpectacles();
 
@@ -495,7 +495,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomNaissance() {
+    public function testSetNomNaissance(): void {
 
         $obj = new CongesSpectacles();
 
@@ -508,7 +508,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreCachets() {
+    public function testSetNombreCachets(): void {
 
         $obj = new CongesSpectacles();
 
@@ -521,7 +521,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNouvelleAttest() {
+    public function testSetNouvelleAttest(): void {
 
         $obj = new CongesSpectacles();
 
@@ -534,7 +534,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCaisseSpectacle() {
+    public function testSetNumCaisseSpectacle(): void {
 
         $obj = new CongesSpectacles();
 
@@ -547,7 +547,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new CongesSpectacles();
 
@@ -560,7 +560,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCeInitial() {
+    public function testSetNumeroCeInitial(): void {
 
         $obj = new CongesSpectacles();
 
@@ -573,7 +573,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCongesSpectacle() {
+    public function testSetNumeroCongesSpectacle(): void {
 
         $obj = new CongesSpectacles();
 
@@ -586,7 +586,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new CongesSpectacles();
 
@@ -599,7 +599,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservations() {
+    public function testSetObservations(): void {
 
         $obj = new CongesSpectacles();
 
@@ -613,7 +613,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeAttest() {
+    public function testSetPeriodeAttest(): void {
 
         // Set a Date/time mock.
         $periodeAttest = new DateTime("2018-09-10");
@@ -629,7 +629,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new CongesSpectacles();
 
@@ -642,7 +642,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPseudonyme() {
+    public function testSetPseudonyme(): void {
 
         $obj = new CongesSpectacles();
 
@@ -655,7 +655,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSexe() {
+    public function testSetSexe(): void {
 
         $obj = new CongesSpectacles();
 
@@ -668,7 +668,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignataireCertificatEmploi() {
+    public function testSetSignataireCertificatEmploi(): void {
 
         $obj = new CongesSpectacles();
 
@@ -681,7 +681,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiret() {
+    public function testSetSiret(): void {
 
         $obj = new CongesSpectacles();
 
@@ -694,7 +694,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStatutCadre() {
+    public function testSetStatutCadre(): void {
 
         $obj = new CongesSpectacles();
 
@@ -707,7 +707,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelContact() {
+    public function testSetTelContact(): void {
 
         $obj = new CongesSpectacles();
 
@@ -720,7 +720,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new CongesSpectacles();
 
@@ -733,7 +733,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCe() {
+    public function testSetTypeCe(): void {
 
         $obj = new CongesSpectacles();
 
@@ -746,7 +746,7 @@ class CongesSpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CongesSpectacles();
 

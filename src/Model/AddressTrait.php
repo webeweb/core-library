@@ -36,25 +36,25 @@ trait AddressTrait {
     /**
      * Addressee description.
      *
-     * @var string
+     * @var string|null
      */
     private $addresseeDescription;
 
     /**
      * Get the addressee description.
      *
-     * @return string Returns the addressee description.
+     * @return string|null Returns the addressee description.
      */
-    public function getAddresseeDescription() {
+    public function getAddresseeDescription(): ?string {
         return $this->addresseeDescription;
     }
 
     /**
      * Set the addressee description.
      *
-     * @param string $addresseeDescription The addressee description.
+     * @param string|null $addresseeDescription The addressee description.
      */
-    public function setAddresseeDescription($addresseeDescription) {
+    public function setAddresseeDescription(?string $addresseeDescription) {
         $this->addresseeDescription = $addresseeDescription;
         return $this;
     }

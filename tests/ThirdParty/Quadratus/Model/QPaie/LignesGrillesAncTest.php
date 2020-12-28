@@ -27,7 +27,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeGrille() {
+    public function testSetCodeGrille(): void {
 
         $obj = new LignesGrillesAnc();
 
@@ -40,7 +40,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbMoisEcoules() {
+    public function testSetNbMoisEcoules(): void {
 
         $obj = new LignesGrillesAnc();
 
@@ -53,7 +53,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur() {
+    public function testSetValeur(): void {
 
         $obj = new LignesGrillesAnc();
 
@@ -66,7 +66,7 @@ class LignesGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesGrillesAnc();
 

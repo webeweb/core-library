@@ -29,7 +29,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActif() {
+    public function testSetActif(): void {
 
         $obj = new Ecritures();
 
@@ -42,7 +42,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new Ecritures();
 
@@ -55,7 +55,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBonsAPayer() {
+    public function testSetBonsAPayer(): void {
 
         $obj = new Ecritures();
 
@@ -68,7 +68,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new Ecritures();
 
@@ -81,7 +81,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreSimple() {
+    public function testSetCentreSimple(): void {
 
         $obj = new Ecritures();
 
@@ -94,7 +94,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClientOuFrn() {
+    public function testSetClientOuFrn(): void {
 
         $obj = new Ecritures();
 
@@ -107,7 +107,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBanque() {
+    public function testSetCodeBanque(): void {
 
         $obj = new Ecritures();
 
@@ -120,7 +120,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new Ecritures();
 
@@ -133,7 +133,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new Ecritures();
 
@@ -146,7 +146,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLettrage() {
+    public function testSetCodeLettrage(): void {
 
         $obj = new Ecritures();
 
@@ -159,7 +159,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLettrageTiers() {
+    public function testSetCodeLettrageTiers(): void {
 
         $obj = new Ecritures();
 
@@ -172,7 +172,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelleAuto() {
+    public function testSetCodeLibelleAuto(): void {
 
         $obj = new Ecritures();
 
@@ -185,7 +185,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOperateur() {
+    public function testSetCodeOperateur(): void {
 
         $obj = new Ecritures();
 
@@ -198,7 +198,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new Ecritures();
 
@@ -211,7 +211,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteContrepartie() {
+    public function testSetCompteContrepartie(): void {
 
         $obj = new Ecritures();
 
@@ -225,7 +225,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDecTva() {
+    public function testSetDateDecTva(): void {
 
         // Set a Date/time mock.
         $dateDecTva = new DateTime("2018-09-10");
@@ -242,7 +242,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         // Set a Date/time mock.
         $dateEcheance = new DateTime("2018-09-10");
@@ -259,7 +259,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePointageAux() {
+    public function testSetDatePointageAux(): void {
 
         // Set a Date/time mock.
         $datePointageAux = new DateTime("2018-09-10");
@@ -276,7 +276,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRapproBancaire() {
+    public function testSetDateRapproBancaire(): void {
 
         // Set a Date/time mock.
         $dateRapproBancaire = new DateTime("2018-09-10");
@@ -293,7 +293,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSysSaisie() {
+    public function testSetDateSysSaisie(): void {
 
         // Set a Date/time mock.
         $dateSysSaisie = new DateTime("2018-09-10");
@@ -310,7 +310,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSysValidation() {
+    public function testSetDateSysValidation(): void {
 
         // Set a Date/time mock.
         $dateSysValidation = new DateTime("2018-09-10");
@@ -326,7 +326,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomBanque() {
+    public function testSetDomBanque(): void {
 
         $obj = new Ecritures();
 
@@ -340,7 +340,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetEcheanceSimple() {
+    public function testSetEcheanceSimple(): void {
 
         // Set a Date/time mock.
         $echeanceSimple = new DateTime("2018-09-10");
@@ -356,7 +356,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcritureNum() {
+    public function testSetEcritureNum(): void {
 
         $obj = new Ecritures();
 
@@ -369,7 +369,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnLitige() {
+    public function testSetEnLitige(): void {
 
         $obj = new Ecritures();
 
@@ -382,7 +382,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new Ecritures();
 
@@ -395,7 +395,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolio() {
+    public function testSetFolio(): void {
 
         $obj = new Ecritures();
 
@@ -408,7 +408,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new Ecritures();
 
@@ -421,7 +421,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourEcriture() {
+    public function testSetJourEcriture(): void {
 
         $obj = new Ecritures();
 
@@ -434,7 +434,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnRapproBancaire() {
+    public function testSetJrnRapproBancaire(): void {
 
         $obj = new Ecritures();
 
@@ -447,7 +447,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Ecritures();
 
@@ -460,7 +460,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleMemo() {
+    public function testSetLibelleMemo(): void {
 
         $obj = new Ecritures();
 
@@ -473,7 +473,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLigneFolio() {
+    public function testSetLigneFolio(): void {
 
         $obj = new Ecritures();
 
@@ -486,7 +486,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMethodeTva() {
+    public function testSetMethodeTva(): void {
 
         $obj = new Ecritures();
 
@@ -499,7 +499,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMilliemesAna() {
+    public function testSetMilliemesAna(): void {
 
         $obj = new Ecritures();
 
@@ -512,7 +512,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModePaiement() {
+    public function testSetModePaiement(): void {
 
         $obj = new Ecritures();
 
@@ -525,7 +525,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAna() {
+    public function testSetMontantAna(): void {
 
         $obj = new Ecritures();
 
@@ -538,7 +538,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisiCredit() {
+    public function testSetMontantSaisiCredit(): void {
 
         $obj = new Ecritures();
 
@@ -551,7 +551,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisiDebit() {
+    public function testSetMontantSaisiDebit(): void {
 
         $obj = new Ecritures();
 
@@ -564,7 +564,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuCredit() {
+    public function testSetMontantTenuCredit(): void {
 
         $obj = new Ecritures();
 
@@ -577,7 +577,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuDebit() {
+    public function testSetMontantTenuDebit(): void {
 
         $obj = new Ecritures();
 
@@ -590,7 +590,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtDevForce() {
+    public function testSetMtDevForce(): void {
 
         $obj = new Ecritures();
 
@@ -603,7 +603,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new Ecritures();
 
@@ -616,7 +616,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotEcritures() {
+    public function testSetNoLotEcritures(): void {
 
         $obj = new Ecritures();
 
@@ -629,7 +629,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotFactor() {
+    public function testSetNoLotFactor(): void {
 
         $obj = new Ecritures();
 
@@ -642,7 +642,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotIs() {
+    public function testSetNoLotIs(): void {
 
         $obj = new Ecritures();
 
@@ -655,7 +655,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotTrace() {
+    public function testSetNoLotTrace(): void {
 
         $obj = new Ecritures();
 
@@ -668,7 +668,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptOrigine() {
+    public function testSetNumCptOrigine(): void {
 
         $obj = new Ecritures();
 
@@ -681,7 +681,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEcrEco() {
+    public function testSetNumEcrEco(): void {
 
         $obj = new Ecritures();
 
@@ -694,7 +694,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEditLettrePaiement() {
+    public function testSetNumEditLettrePaiement(): void {
 
         $obj = new Ecritures();
 
@@ -707,7 +707,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLettrage() {
+    public function testSetNumLettrage(): void {
 
         $obj = new Ecritures();
 
@@ -720,7 +720,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new Ecritures();
 
@@ -733,7 +733,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumMandat() {
+    public function testSetNumMandat(): void {
 
         $obj = new Ecritures();
 
@@ -746,7 +746,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new Ecritures();
 
@@ -759,7 +759,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Ecritures();
 
@@ -772,7 +772,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPiece() {
+    public function testSetNumeroPiece(): void {
 
         $obj = new Ecritures();
 
@@ -786,7 +786,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcriture() {
+    public function testSetPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $periodeEcriture = new DateTime("2018-09-10");
@@ -803,7 +803,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodiciteDebut() {
+    public function testSetPeriodiciteDebut(): void {
 
         // Set a Date/time mock.
         $periodiciteDebut = new DateTime("2018-09-10");
@@ -820,7 +820,7 @@ class EcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodiciteFin() {
+    public function testSetPeriodiciteFin(): void {
 
         // Set a Date/time mock.
         $periodiciteFin = new DateTime("2018-09-10");
@@ -836,7 +836,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPieceInterne() {
+    public function testSetPieceInterne(): void {
 
         $obj = new Ecritures();
 
@@ -849,7 +849,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrctRepartition() {
+    public function testSetPrctRepartition(): void {
 
         $obj = new Ecritures();
 
@@ -862,7 +862,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new Ecritures();
 
@@ -875,7 +875,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite2() {
+    public function testSetQuantite2(): void {
 
         $obj = new Ecritures();
 
@@ -888,7 +888,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRapproBancaireOk() {
+    public function testSetRapproBancaireOk(): void {
 
         $obj = new Ecritures();
 
@@ -901,7 +901,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new Ecritures();
 
@@ -914,7 +914,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceTire() {
+    public function testSetReferenceTire(): void {
 
         $obj = new Ecritures();
 
@@ -927,7 +927,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Ecritures();
 
@@ -940,7 +940,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaE4Bi() {
+    public function testSetTvaE4Bi(): void {
 
         $obj = new Ecritures();
 
@@ -953,7 +953,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaE4Dr() {
+    public function testSetTvaE4Dr(): void {
 
         $obj = new Ecritures();
 
@@ -966,7 +966,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaE4Mt() {
+    public function testSetTvaE4Mt(): void {
 
         $obj = new Ecritures();
 
@@ -979,7 +979,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new Ecritures();
 
@@ -992,7 +992,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisie() {
+    public function testSetTypeSaisie(): void {
 
         $obj = new Ecritures();
 
@@ -1005,7 +1005,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValidee() {
+    public function testSetValidee(): void {
 
         $obj = new Ecritures();
 
@@ -1018,7 +1018,7 @@ class EcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Ecritures();
 

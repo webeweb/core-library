@@ -24,21 +24,21 @@ class AbsencesCpPrevisionnel {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $collaborateur;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -73,55 +73,56 @@ class AbsencesCpPrevisionnel {
     /**
      * Depuis web.
      *
-     * @var bool
+     * @var bool|null
      */
     private $depuisWeb;
 
     /**
      * Etat cp.
      *
-     * @var string
+     * @var string|null
      */
     private $etatCp;
 
     /**
      * Indice.
      *
-     * @var string
+     * @var string|null
      */
     private $indice;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the collaborateur.
      *
-     * @return string Returns the collaborateur.
+     * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur() {
+    public function getCollaborateur(): ?string{
         return $this->collaborateur;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
@@ -130,7 +131,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date debut cp.
      */
-    public function getDateDebutCp() {
+    public function getDateDebutCp(): ?DateTime{
         return $this->dateDebutCp;
     }
 
@@ -139,7 +140,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date demande.
      */
-    public function getDateDemande() {
+    public function getDateDemande(): ?DateTime{
         return $this->dateDemande;
     }
 
@@ -148,7 +149,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date etat cp.
      */
-    public function getDateEtatCp() {
+    public function getDateEtatCp(): ?DateTime{
         return $this->dateEtatCp;
     }
 
@@ -157,44 +158,44 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date fin cp.
      */
-    public function getDateFinCp() {
+    public function getDateFinCp(): ?DateTime{
         return $this->dateFinCp;
     }
 
     /**
      * Get the depuis web.
      *
-     * @return bool Returns the depuis web.
+     * @return bool|null Returns the depuis web.
      */
-    public function getDepuisWeb() {
+    public function getDepuisWeb(): ?bool{
         return $this->depuisWeb;
     }
 
     /**
      * Get the etat cp.
      *
-     * @return string Returns the etat cp.
+     * @return string|null Returns the etat cp.
      */
-    public function getEtatCp() {
+    public function getEtatCp(): ?string{
         return $this->etatCp;
     }
 
     /**
      * Get the indice.
      *
-     * @return string Returns the indice.
+     * @return string|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?string{
         return $this->indice;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): AbsencesCpPrevisionnel {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -202,10 +203,10 @@ class AbsencesCpPrevisionnel {
     /**
      * Set the collaborateur.
      *
-     * @param string $collaborateur The collaborateur.
+     * @param string|null $collaborateur The collaborateur.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setCollaborateur($collaborateur) {
+    public function setCollaborateur(?string $collaborateur): AbsencesCpPrevisionnel {
         $this->collaborateur = $collaborateur;
         return $this;
     }
@@ -213,10 +214,10 @@ class AbsencesCpPrevisionnel {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): AbsencesCpPrevisionnel {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -227,7 +228,7 @@ class AbsencesCpPrevisionnel {
      * @param DateTime|null $dateDebutCp The date debut cp.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setDateDebutCp(DateTime $dateDebutCp = null) {
+    public function setDateDebutCp(?DateTime $dateDebutCp): AbsencesCpPrevisionnel {
         $this->dateDebutCp = $dateDebutCp;
         return $this;
     }
@@ -238,7 +239,7 @@ class AbsencesCpPrevisionnel {
      * @param DateTime|null $dateDemande The date demande.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setDateDemande(DateTime $dateDemande = null) {
+    public function setDateDemande(?DateTime $dateDemande): AbsencesCpPrevisionnel {
         $this->dateDemande = $dateDemande;
         return $this;
     }
@@ -249,7 +250,7 @@ class AbsencesCpPrevisionnel {
      * @param DateTime|null $dateEtatCp The date etat cp.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setDateEtatCp(DateTime $dateEtatCp = null) {
+    public function setDateEtatCp(?DateTime $dateEtatCp): AbsencesCpPrevisionnel {
         $this->dateEtatCp = $dateEtatCp;
         return $this;
     }
@@ -260,7 +261,7 @@ class AbsencesCpPrevisionnel {
      * @param DateTime|null $dateFinCp The date fin cp.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setDateFinCp(DateTime $dateFinCp = null) {
+    public function setDateFinCp(?DateTime $dateFinCp): AbsencesCpPrevisionnel {
         $this->dateFinCp = $dateFinCp;
         return $this;
     }
@@ -268,10 +269,10 @@ class AbsencesCpPrevisionnel {
     /**
      * Set the depuis web.
      *
-     * @param bool $depuisWeb The depuis web.
+     * @param bool|null $depuisWeb The depuis web.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setDepuisWeb($depuisWeb) {
+    public function setDepuisWeb(?bool $depuisWeb): AbsencesCpPrevisionnel {
         $this->depuisWeb = $depuisWeb;
         return $this;
     }
@@ -279,10 +280,10 @@ class AbsencesCpPrevisionnel {
     /**
      * Set the etat cp.
      *
-     * @param string $etatCp The etat cp.
+     * @param string|null $etatCp The etat cp.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setEtatCp($etatCp) {
+    public function setEtatCp(?string $etatCp): AbsencesCpPrevisionnel {
         $this->etatCp = $etatCp;
         return $this;
     }
@@ -290,10 +291,10 @@ class AbsencesCpPrevisionnel {
     /**
      * Set the indice.
      *
-     * @param string $indice The indice.
+     * @param string|null $indice The indice.
      * @return AbsencesCpPrevisionnel Returns this Absences cp previsionnel.
      */
-    public function setIndice($indice) {
+    public function setIndice(?string $indice): AbsencesCpPrevisionnel {
         $this->indice = $indice;
         return $this;
     }

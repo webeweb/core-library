@@ -22,65 +22,66 @@ class Libelle {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Libelle Returns this Libelle.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Libelle {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +89,10 @@ class Libelle {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Libelle Returns this Libelle.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Libelle {
         $this->libelle = $libelle;
         return $this;
     }
@@ -99,10 +100,10 @@ class Libelle {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Libelle Returns this Libelle.
      */
-    public function setType($type) {
+    public function setType(?string $type): Libelle {
         $this->type = $type;
         return $this;
     }

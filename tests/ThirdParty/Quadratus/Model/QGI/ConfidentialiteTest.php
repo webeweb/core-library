@@ -27,7 +27,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActivationLstRestriArt() {
+    public function testSetActivationLstRestriArt(): void {
 
         $obj = new Confidentialite();
 
@@ -40,7 +40,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActivationLstRestriCli() {
+    public function testSetActivationLstRestriCli(): void {
 
         $obj = new Confidentialite();
 
@@ -53,7 +53,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActivationLstRestriFrn() {
+    public function testSetActivationLstRestriFrn(): void {
 
         $obj = new Confidentialite();
 
@@ -66,7 +66,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQb() {
+    public function testSetActiveConfMenusQb(): void {
 
         $obj = new Confidentialite();
 
@@ -79,7 +79,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQb2() {
+    public function testSetActiveConfMenusQb2(): void {
 
         $obj = new Confidentialite();
 
@@ -92,7 +92,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQc() {
+    public function testSetActiveConfMenusQc(): void {
 
         $obj = new Confidentialite();
 
@@ -105,7 +105,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQfact() {
+    public function testSetActiveConfMenusQfact(): void {
 
         $obj = new Confidentialite();
 
@@ -118,7 +118,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQgi() {
+    public function testSetActiveConfMenusQgi(): void {
 
         $obj = new Confidentialite();
 
@@ -131,7 +131,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQp() {
+    public function testSetActiveConfMenusQp(): void {
 
         $obj = new Confidentialite();
 
@@ -144,7 +144,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQprop() {
+    public function testSetActiveConfMenusQprop(): void {
 
         $obj = new Confidentialite();
 
@@ -157,7 +157,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfMenusQtrs() {
+    public function testSetActiveConfMenusQtrs(): void {
 
         $obj = new Confidentialite();
 
@@ -170,7 +170,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMasquerBaseAccess() {
+    public function testSetMasquerBaseAccess(): void {
 
         $obj = new Confidentialite();
 
@@ -183,7 +183,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelLstRestriArtDef() {
+    public function testSetSelLstRestriArtDef(): void {
 
         $obj = new Confidentialite();
 
@@ -196,7 +196,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelLstRestriCliDef() {
+    public function testSetSelLstRestriCliDef(): void {
 
         $obj = new Confidentialite();
 
@@ -209,7 +209,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelLstRestriFrnDef() {
+    public function testSetSelLstRestriFrnDef(): void {
 
         $obj = new Confidentialite();
 
@@ -222,7 +222,7 @@ class ConfidentialiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Confidentialite();
 

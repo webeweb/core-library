@@ -27,7 +27,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -40,7 +40,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -53,7 +53,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -66,7 +66,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeElement() {
+    public function testSetCodeElement(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -79,7 +79,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -92,7 +92,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauNoeud() {
+    public function testSetNiveauNoeud(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -105,7 +105,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroNoeud() {
+    public function testSetNumeroNoeud(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -118,7 +118,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeElement() {
+    public function testSetTypeElement(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -131,7 +131,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdLocal() {
+    public function testSetUniqIdLocal(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 
@@ -144,7 +144,7 @@ class ChantiersDescriptifLocauxElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersDescriptifLocauxElements();
 

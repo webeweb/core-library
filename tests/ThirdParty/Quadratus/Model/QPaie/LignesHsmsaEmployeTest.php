@@ -29,7 +29,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -42,7 +42,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUnite() {
+    public function testSetCodeUnite(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -55,7 +55,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtHs() {
+    public function testSetMtHs(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -68,7 +68,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHs() {
+    public function testSetNbHs(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -81,7 +81,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -94,7 +94,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -107,7 +107,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye2() {
+    public function testSetNumeroEmploye2(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -121,7 +121,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDeb() {
+    public function testSetPerDeb(): void {
 
         // Set a Date/time mock.
         $perDeb = new DateTime("2018-09-10");
@@ -138,7 +138,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -154,7 +154,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxHs() {
+    public function testSetTauxHs(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -167,7 +167,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemunHs() {
+    public function testSetTypeRemunHs(): void {
 
         $obj = new LignesHsmsaEmploye();
 
@@ -180,7 +180,7 @@ class LignesHsmsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesHsmsaEmploye();
 

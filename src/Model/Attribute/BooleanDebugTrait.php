@@ -22,25 +22,25 @@ trait BooleanDebugTrait {
     /**
      * Debug.
      *
-     * @var bool
+     * @var bool|null
      */
     protected $debug;
 
     /**
      * Get the debug.
      *
-     * @return bool Returns the debug.
+     * @return bool|null Returns the debug.
      */
-    public function getDebug() {
+    public function getDebug(): ?bool {
         return $this->debug;
     }
 
     /**
      * Set the debug.
      *
-     * @param bool $debug The debug.
+     * @param bool|null $debug The debug.
      */
-    public function setDebug($debug) {
+    public function setDebug(?bool $debug) {
         $this->debug = $debug;
         return $this;
     }

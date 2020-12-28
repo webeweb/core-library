@@ -29,7 +29,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new HistoPaieAnal();
 
@@ -42,7 +42,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new HistoPaieAnal();
 
@@ -55,7 +55,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new HistoPaieAnal();
 
@@ -68,7 +68,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigneAnal() {
+    public function testSetNumeroLigneAnal(): void {
 
         $obj = new HistoPaieAnal();
 
@@ -82,7 +82,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcent() {
+    public function testSetPourcent(): void {
 
         $obj = new HistoPaieAnal();
 
@@ -111,7 +111,7 @@ class HistoPaieAnalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoPaieAnal();
 

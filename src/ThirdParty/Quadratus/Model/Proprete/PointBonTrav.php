@@ -24,28 +24,28 @@ class PointBonTrav {
     /**
      * Avenant signe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avenantSigne;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code equipe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEquipe;
 
     /**
      * Code tache type.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTacheType;
 
@@ -66,14 +66,14 @@ class PointBonTrav {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * From gen bt.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fromGenBt;
 
@@ -115,134 +115,135 @@ class PointBonTrav {
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Nom prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $nomPrenom;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Num chrono.
      *
-     * @var int
+     * @var int|null
      */
     private $numChrono;
 
     /**
      * Numero avenant.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroAvenant;
 
     /**
      * Paniers.
      *
-     * @var float
+     * @var float|null
      */
     private $paniers;
 
     /**
      * Prime1.
      *
-     * @var float
+     * @var float|null
      */
     private $prime1;
 
     /**
      * Prime2.
      *
-     * @var float
+     * @var float|null
      */
     private $prime2;
 
     /**
      * Prime3.
      *
-     * @var float
+     * @var float|null
      */
     private $prime3;
 
     /**
      * Qualification.
      *
-     * @var string
+     * @var string|null
      */
     private $qualification;
 
     /**
      * Transfert paie.
      *
-     * @var string
+     * @var string|null
      */
     private $transfertPaie;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
     /**
      * Valide mob.
      *
-     * @var bool
+     * @var bool|null
      */
     private $valideMob;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the avenant signe.
      *
-     * @return bool Returns the avenant signe.
+     * @return bool|null Returns the avenant signe.
      */
-    public function getAvenantSigne() {
+    public function getAvenantSigne(): ?bool{
         return $this->avenantSigne;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code equipe.
      *
-     * @return string Returns the code equipe.
+     * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe() {
+    public function getCodeEquipe(): ?string{
         return $this->codeEquipe;
     }
 
     /**
      * Get the code tache type.
      *
-     * @return string Returns the code tache type.
+     * @return string|null Returns the code tache type.
      */
-    public function getCodeTacheType() {
+    public function getCodeTacheType(): ?string{
         return $this->codeTacheType;
     }
 
@@ -251,7 +252,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the date passage.
      */
-    public function getDatePassage() {
+    public function getDatePassage(): ?DateTime{
         return $this->datePassage;
     }
 
@@ -260,25 +261,25 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the date ref bt.
      */
-    public function getDateRefBt() {
+    public function getDateRefBt(): ?DateTime{
         return $this->dateRefBt;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the from gen bt.
      *
-     * @return bool Returns the from gen bt.
+     * @return bool|null Returns the from gen bt.
      */
-    public function getFromGenBt() {
+    public function getFromGenBt(): ?bool{
         return $this->fromGenBt;
     }
 
@@ -287,7 +288,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb() {
+    public function getHeureDeb(): ?DateTime{
         return $this->heureDeb;
     }
 
@@ -296,7 +297,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heure deb mob.
      */
-    public function getHeureDebMob() {
+    public function getHeureDebMob(): ?DateTime{
         return $this->heureDebMob;
     }
 
@@ -305,7 +306,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heure fin mob.
      */
-    public function getHeureFinMob() {
+    public function getHeureFinMob(): ?DateTime{
         return $this->heureFinMob;
     }
 
@@ -314,7 +315,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heures jour.
      */
-    public function getHeuresJour() {
+    public function getHeuresJour(): ?DateTime{
         return $this->heuresJour;
     }
 
@@ -323,134 +324,134 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heures nuit.
      */
-    public function getHeuresNuit() {
+    public function getHeuresNuit(): ?DateTime{
         return $this->heuresNuit;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the nom prenom.
      *
-     * @return string Returns the nom prenom.
+     * @return string|null Returns the nom prenom.
      */
-    public function getNomPrenom() {
+    public function getNomPrenom(): ?string{
         return $this->nomPrenom;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the num chrono.
      *
-     * @return int Returns the num chrono.
+     * @return int|null Returns the num chrono.
      */
-    public function getNumChrono() {
+    public function getNumChrono(): ?int{
         return $this->numChrono;
     }
 
     /**
      * Get the numero avenant.
      *
-     * @return int Returns the numero avenant.
+     * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant() {
+    public function getNumeroAvenant(): ?int{
         return $this->numeroAvenant;
     }
 
     /**
      * Get the paniers.
      *
-     * @return float Returns the paniers.
+     * @return float|null Returns the paniers.
      */
-    public function getPaniers() {
+    public function getPaniers(): ?float{
         return $this->paniers;
     }
 
     /**
      * Get the prime1.
      *
-     * @return float Returns the prime1.
+     * @return float|null Returns the prime1.
      */
-    public function getPrime1() {
+    public function getPrime1(): ?float{
         return $this->prime1;
     }
 
     /**
      * Get the prime2.
      *
-     * @return float Returns the prime2.
+     * @return float|null Returns the prime2.
      */
-    public function getPrime2() {
+    public function getPrime2(): ?float{
         return $this->prime2;
     }
 
     /**
      * Get the prime3.
      *
-     * @return float Returns the prime3.
+     * @return float|null Returns the prime3.
      */
-    public function getPrime3() {
+    public function getPrime3(): ?float{
         return $this->prime3;
     }
 
     /**
      * Get the qualification.
      *
-     * @return string Returns the qualification.
+     * @return string|null Returns the qualification.
      */
-    public function getQualification() {
+    public function getQualification(): ?string{
         return $this->qualification;
     }
 
     /**
      * Get the transfert paie.
      *
-     * @return string Returns the transfert paie.
+     * @return string|null Returns the transfert paie.
      */
-    public function getTransfertPaie() {
+    public function getTransfertPaie(): ?string{
         return $this->transfertPaie;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Get the valide mob.
      *
-     * @return bool Returns the valide mob.
+     * @return bool|null Returns the valide mob.
      */
-    public function getValideMob() {
+    public function getValideMob(): ?bool{
         return $this->valideMob;
     }
 
     /**
      * Set the avenant signe.
      *
-     * @param bool $avenantSigne The avenant signe.
+     * @param bool|null $avenantSigne The avenant signe.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setAvenantSigne($avenantSigne) {
+    public function setAvenantSigne(?bool $avenantSigne): PointBonTrav {
         $this->avenantSigne = $avenantSigne;
         return $this;
     }
@@ -458,10 +459,10 @@ class PointBonTrav {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): PointBonTrav {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -469,10 +470,10 @@ class PointBonTrav {
     /**
      * Set the code equipe.
      *
-     * @param string $codeEquipe The code equipe.
+     * @param string|null $codeEquipe The code equipe.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setCodeEquipe($codeEquipe) {
+    public function setCodeEquipe(?string $codeEquipe): PointBonTrav {
         $this->codeEquipe = $codeEquipe;
         return $this;
     }
@@ -480,10 +481,10 @@ class PointBonTrav {
     /**
      * Set the code tache type.
      *
-     * @param string $codeTacheType The code tache type.
+     * @param string|null $codeTacheType The code tache type.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setCodeTacheType($codeTacheType) {
+    public function setCodeTacheType(?string $codeTacheType): PointBonTrav {
         $this->codeTacheType = $codeTacheType;
         return $this;
     }
@@ -494,7 +495,7 @@ class PointBonTrav {
      * @param DateTime|null $datePassage The date passage.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setDatePassage(DateTime $datePassage = null) {
+    public function setDatePassage(?DateTime $datePassage): PointBonTrav {
         $this->datePassage = $datePassage;
         return $this;
     }
@@ -505,7 +506,7 @@ class PointBonTrav {
      * @param DateTime|null $dateRefBt The date ref bt.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setDateRefBt(DateTime $dateRefBt = null) {
+    public function setDateRefBt(?DateTime $dateRefBt): PointBonTrav {
         $this->dateRefBt = $dateRefBt;
         return $this;
     }
@@ -513,10 +514,10 @@ class PointBonTrav {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): PointBonTrav {
         $this->etat = $etat;
         return $this;
     }
@@ -524,10 +525,10 @@ class PointBonTrav {
     /**
      * Set the from gen bt.
      *
-     * @param bool $fromGenBt The from gen bt.
+     * @param bool|null $fromGenBt The from gen bt.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setFromGenBt($fromGenBt) {
+    public function setFromGenBt(?bool $fromGenBt): PointBonTrav {
         $this->fromGenBt = $fromGenBt;
         return $this;
     }
@@ -538,7 +539,7 @@ class PointBonTrav {
      * @param DateTime|null $heureDeb The heure deb.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setHeureDeb(DateTime $heureDeb = null) {
+    public function setHeureDeb(?DateTime $heureDeb): PointBonTrav {
         $this->heureDeb = $heureDeb;
         return $this;
     }
@@ -549,7 +550,7 @@ class PointBonTrav {
      * @param DateTime|null $heureDebMob The heure deb mob.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setHeureDebMob(DateTime $heureDebMob = null) {
+    public function setHeureDebMob(?DateTime $heureDebMob): PointBonTrav {
         $this->heureDebMob = $heureDebMob;
         return $this;
     }
@@ -560,7 +561,7 @@ class PointBonTrav {
      * @param DateTime|null $heureFinMob The heure fin mob.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setHeureFinMob(DateTime $heureFinMob = null) {
+    public function setHeureFinMob(?DateTime $heureFinMob): PointBonTrav {
         $this->heureFinMob = $heureFinMob;
         return $this;
     }
@@ -571,7 +572,7 @@ class PointBonTrav {
      * @param DateTime|null $heuresJour The heures jour.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setHeuresJour(DateTime $heuresJour = null) {
+    public function setHeuresJour(?DateTime $heuresJour): PointBonTrav {
         $this->heuresJour = $heuresJour;
         return $this;
     }
@@ -582,7 +583,7 @@ class PointBonTrav {
      * @param DateTime|null $heuresNuit The heures nuit.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setHeuresNuit(DateTime $heuresNuit = null) {
+    public function setHeuresNuit(?DateTime $heuresNuit): PointBonTrav {
         $this->heuresNuit = $heuresNuit;
         return $this;
     }
@@ -590,10 +591,10 @@ class PointBonTrav {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): PointBonTrav {
         $this->montant = $montant;
         return $this;
     }
@@ -601,10 +602,10 @@ class PointBonTrav {
     /**
      * Set the nom prenom.
      *
-     * @param string $nomPrenom The nom prenom.
+     * @param string|null $nomPrenom The nom prenom.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setNomPrenom($nomPrenom) {
+    public function setNomPrenom(?string $nomPrenom): PointBonTrav {
         $this->nomPrenom = $nomPrenom;
         return $this;
     }
@@ -612,10 +613,10 @@ class PointBonTrav {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): PointBonTrav {
         $this->numBt = $numBt;
         return $this;
     }
@@ -623,10 +624,10 @@ class PointBonTrav {
     /**
      * Set the num chrono.
      *
-     * @param int $numChrono The num chrono.
+     * @param int|null $numChrono The num chrono.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setNumChrono($numChrono) {
+    public function setNumChrono(?int $numChrono): PointBonTrav {
         $this->numChrono = $numChrono;
         return $this;
     }
@@ -634,10 +635,10 @@ class PointBonTrav {
     /**
      * Set the numero avenant.
      *
-     * @param int $numeroAvenant The numero avenant.
+     * @param int|null $numeroAvenant The numero avenant.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setNumeroAvenant($numeroAvenant) {
+    public function setNumeroAvenant(?int $numeroAvenant): PointBonTrav {
         $this->numeroAvenant = $numeroAvenant;
         return $this;
     }
@@ -645,10 +646,10 @@ class PointBonTrav {
     /**
      * Set the paniers.
      *
-     * @param float $paniers The paniers.
+     * @param float|null $paniers The paniers.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setPaniers($paniers) {
+    public function setPaniers(?float $paniers): PointBonTrav {
         $this->paniers = $paniers;
         return $this;
     }
@@ -656,10 +657,10 @@ class PointBonTrav {
     /**
      * Set the prime1.
      *
-     * @param float $prime1 The prime1.
+     * @param float|null $prime1 The prime1.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setPrime1($prime1) {
+    public function setPrime1(?float $prime1): PointBonTrav {
         $this->prime1 = $prime1;
         return $this;
     }
@@ -667,10 +668,10 @@ class PointBonTrav {
     /**
      * Set the prime2.
      *
-     * @param float $prime2 The prime2.
+     * @param float|null $prime2 The prime2.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setPrime2($prime2) {
+    public function setPrime2(?float $prime2): PointBonTrav {
         $this->prime2 = $prime2;
         return $this;
     }
@@ -678,10 +679,10 @@ class PointBonTrav {
     /**
      * Set the prime3.
      *
-     * @param float $prime3 The prime3.
+     * @param float|null $prime3 The prime3.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setPrime3($prime3) {
+    public function setPrime3(?float $prime3): PointBonTrav {
         $this->prime3 = $prime3;
         return $this;
     }
@@ -689,10 +690,10 @@ class PointBonTrav {
     /**
      * Set the qualification.
      *
-     * @param string $qualification The qualification.
+     * @param string|null $qualification The qualification.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setQualification($qualification) {
+    public function setQualification(?string $qualification): PointBonTrav {
         $this->qualification = $qualification;
         return $this;
     }
@@ -700,10 +701,10 @@ class PointBonTrav {
     /**
      * Set the transfert paie.
      *
-     * @param string $transfertPaie The transfert paie.
+     * @param string|null $transfertPaie The transfert paie.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setTransfertPaie($transfertPaie) {
+    public function setTransfertPaie(?string $transfertPaie): PointBonTrav {
         $this->transfertPaie = $transfertPaie;
         return $this;
     }
@@ -711,10 +712,10 @@ class PointBonTrav {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): PointBonTrav {
         $this->uniqId = $uniqId;
         return $this;
     }
@@ -722,10 +723,10 @@ class PointBonTrav {
     /**
      * Set the valide mob.
      *
-     * @param bool $valideMob The valide mob.
+     * @param bool|null $valideMob The valide mob.
      * @return PointBonTrav Returns this Point bon trav.
      */
-    public function setValideMob($valideMob) {
+    public function setValideMob(?bool $valideMob): PointBonTrav {
         $this->valideMob = $valideMob;
         return $this;
     }

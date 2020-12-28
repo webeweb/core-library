@@ -27,7 +27,7 @@ class LibellesiPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new LibellesiPaie();
 
@@ -40,7 +40,7 @@ class LibellesiPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new LibellesiPaie();
 
@@ -53,7 +53,7 @@ class LibellesiPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleSpecifiPaie() {
+    public function testSetIntituleSpecifiPaie(): void {
 
         $obj = new LibellesiPaie();
 
@@ -66,7 +66,7 @@ class LibellesiPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LibellesiPaie();
 
@@ -79,7 +79,7 @@ class LibellesiPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisibleiPaie() {
+    public function testSetVisibleiPaie(): void {
 
         $obj = new LibellesiPaie();
 
@@ -92,7 +92,7 @@ class LibellesiPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LibellesiPaie();
 

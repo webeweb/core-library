@@ -27,7 +27,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new ProvisionsCp();
 
@@ -40,7 +40,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetColPourSalRef() {
+    public function testSetColPourSalRef(): void {
 
         $obj = new ProvisionsCp();
 
@@ -53,7 +53,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernierSalaire() {
+    public function testSetDernierSalaire(): void {
 
         $obj = new ProvisionsCp();
 
@@ -66,7 +66,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoyenneSalaires() {
+    public function testSetMoyenneSalaires(): void {
 
         $obj = new ProvisionsCp();
 
@@ -79,7 +79,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new ProvisionsCp();
 
@@ -92,7 +92,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomCompletEmp() {
+    public function testSetNomCompletEmp(): void {
 
         $obj = new ProvisionsCp();
 
@@ -105,7 +105,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmp() {
+    public function testSetNumeroEmp(): void {
 
         $obj = new ProvisionsCp();
 
@@ -118,7 +118,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProvisionTotale() {
+    public function testSetProvisionTotale(): void {
 
         $obj = new ProvisionsCp();
 
@@ -131,7 +131,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireRef() {
+    public function testSetSalaireRef(): void {
 
         $obj = new ProvisionsCp();
 
@@ -144,7 +144,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoldeJoursN() {
+    public function testSetSoldeJoursN(): void {
 
         $obj = new ProvisionsCp();
 
@@ -157,7 +157,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoldeJoursN1() {
+    public function testSetSoldeJoursN1(): void {
 
         $obj = new ProvisionsCp();
 
@@ -170,7 +170,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxChargesSoc() {
+    public function testSetTxChargesSoc(): void {
 
         $obj = new ProvisionsCp();
 
@@ -183,7 +183,7 @@ class ProvisionsCpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ProvisionsCp();
 

@@ -22,65 +22,66 @@ class CriteresListe {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Num libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $numLibelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the num libelle.
      *
-     * @return string Returns the num libelle.
+     * @return string|null Returns the num libelle.
      */
-    public function getNumLibelle() {
+    public function getNumLibelle(): ?string{
         return $this->numLibelle;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return CriteresListe Returns this Criteres liste.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): CriteresListe {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +89,10 @@ class CriteresListe {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return CriteresListe Returns this Criteres liste.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): CriteresListe {
         $this->libelle = $libelle;
         return $this;
     }
@@ -99,10 +100,10 @@ class CriteresListe {
     /**
      * Set the num libelle.
      *
-     * @param string $numLibelle The num libelle.
+     * @param string|null $numLibelle The num libelle.
      * @return CriteresListe Returns this Criteres liste.
      */
-    public function setNumLibelle($numLibelle) {
+    public function setNumLibelle(?string $numLibelle): CriteresListe {
         $this->numLibelle = $numLibelle;
         return $this;
     }

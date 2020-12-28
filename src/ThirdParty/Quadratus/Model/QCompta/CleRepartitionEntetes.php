@@ -22,81 +22,82 @@ class CleRepartitionEntetes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Total.
      *
-     * @var float
+     * @var float|null
      */
     private $total;
 
     /**
      * Type cle.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the total.
      *
-     * @return float Returns the total.
+     * @return float|null Returns the total.
      */
-    public function getTotal() {
+    public function getTotal(): ?float{
         return $this->total;
     }
 
     /**
      * Get the type cle.
      *
-     * @return string Returns the type cle.
+     * @return string|null Returns the type cle.
      */
-    public function getTypeCle() {
+    public function getTypeCle(): ?string{
         return $this->typeCle;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return CleRepartitionEntetes Returns this Cle repartition entetes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): CleRepartitionEntetes {
         $this->code = $code;
         return $this;
     }
@@ -104,10 +105,10 @@ class CleRepartitionEntetes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return CleRepartitionEntetes Returns this Cle repartition entetes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): CleRepartitionEntetes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -115,10 +116,10 @@ class CleRepartitionEntetes {
     /**
      * Set the total.
      *
-     * @param float $total The total.
+     * @param float|null $total The total.
      * @return CleRepartitionEntetes Returns this Cle repartition entetes.
      */
-    public function setTotal($total) {
+    public function setTotal(?float $total): CleRepartitionEntetes {
         $this->total = $total;
         return $this;
     }
@@ -126,10 +127,10 @@ class CleRepartitionEntetes {
     /**
      * Set the type cle.
      *
-     * @param string $typeCle The type cle.
+     * @param string|null $typeCle The type cle.
      * @return CleRepartitionEntetes Returns this Cle repartition entetes.
      */
-    public function setTypeCle($typeCle) {
+    public function setTypeCle(?string $typeCle): CleRepartitionEntetes {
         $this->typeCle = $typeCle;
         return $this;
     }

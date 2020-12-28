@@ -29,7 +29,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesAssedic() {
+    public function testSetNbAttesAssedic(): void {
 
         $obj = new Compteur();
 
@@ -42,7 +42,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesAssedicADeduire() {
+    public function testSetNbAttesAssedicADeduire(): void {
 
         $obj = new Compteur();
 
@@ -55,7 +55,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesAssedicFact() {
+    public function testSetNbAttesAssedicFact(): void {
 
         $obj = new Compteur();
 
@@ -68,7 +68,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesIjss() {
+    public function testSetNbAttesIjss(): void {
 
         $obj = new Compteur();
 
@@ -81,7 +81,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesIjssADeduire() {
+    public function testSetNbAttesIjssADeduire(): void {
 
         $obj = new Compteur();
 
@@ -94,7 +94,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesIjssAt() {
+    public function testSetNbAttesIjssAt(): void {
 
         $obj = new Compteur();
 
@@ -107,7 +107,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesIjssAtFact() {
+    public function testSetNbAttesIjssAtFact(): void {
 
         $obj = new Compteur();
 
@@ -120,7 +120,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesIjssAtaDeduire() {
+    public function testSetNbAttesIjssAtaDeduire(): void {
 
         $obj = new Compteur();
 
@@ -133,7 +133,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttesIjssFact() {
+    public function testSetNbAttesIjssFact(): void {
 
         $obj = new Compteur();
 
@@ -146,7 +146,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttestEmploi() {
+    public function testSetNbAttestEmploi(): void {
 
         $obj = new Compteur();
 
@@ -159,7 +159,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttestEmploiADeduire() {
+    public function testSetNbAttestEmploiADeduire(): void {
 
         $obj = new Compteur();
 
@@ -172,7 +172,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAttestEmploiFact() {
+    public function testSetNbAttestEmploiFact(): void {
 
         $obj = new Compteur();
 
@@ -185,7 +185,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBulEdites() {
+    public function testSetNbBulEdites(): void {
 
         $obj = new Compteur();
 
@@ -198,7 +198,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBulEditesADeduire() {
+    public function testSetNbBulEditesADeduire(): void {
 
         $obj = new Compteur();
 
@@ -211,7 +211,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBulEditesFact() {
+    public function testSetNbBulEditesFact(): void {
 
         $obj = new Compteur();
 
@@ -224,7 +224,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBulValides() {
+    public function testSetNbBulValides(): void {
 
         $obj = new Compteur();
 
@@ -237,7 +237,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBulValidesADeduire() {
+    public function testSetNbBulValidesADeduire(): void {
 
         $obj = new Compteur();
 
@@ -250,7 +250,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBulValidesFact() {
+    public function testSetNbBulValidesFact(): void {
 
         $obj = new Compteur();
 
@@ -263,7 +263,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbCertifTravail() {
+    public function testSetNbCertifTravail(): void {
 
         $obj = new Compteur();
 
@@ -276,7 +276,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbCertifTravailADeduire() {
+    public function testSetNbCertifTravailADeduire(): void {
 
         $obj = new Compteur();
 
@@ -289,7 +289,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbCertifTravailFact() {
+    public function testSetNbCertifTravailFact(): void {
 
         $obj = new Compteur();
 
@@ -302,7 +302,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDadsEditees() {
+    public function testSetNbDadsEditees(): void {
 
         $obj = new Compteur();
 
@@ -315,7 +315,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDadsEditeesADeduire() {
+    public function testSetNbDadsEditeesADeduire(): void {
 
         $obj = new Compteur();
 
@@ -328,7 +328,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDadsEditeesFact() {
+    public function testSetNbDadsEditeesFact(): void {
 
         $obj = new Compteur();
 
@@ -341,7 +341,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDisquettesVirements() {
+    public function testSetNbDisquettesVirements(): void {
 
         $obj = new Compteur();
 
@@ -354,7 +354,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDisquettesVirementsADeduire() {
+    public function testSetNbDisquettesVirementsADeduire(): void {
 
         $obj = new Compteur();
 
@@ -367,7 +367,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDisquettesVirementsFact() {
+    public function testSetNbDisquettesVirementsFact(): void {
 
         $obj = new Compteur();
 
@@ -380,7 +380,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnEvtArret() {
+    public function testSetNbDsnEvtArret(): void {
 
         $obj = new Compteur();
 
@@ -393,7 +393,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnEvtArretADeduire() {
+    public function testSetNbDsnEvtArretADeduire(): void {
 
         $obj = new Compteur();
 
@@ -406,7 +406,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnEvtArretFact() {
+    public function testSetNbDsnEvtArretFact(): void {
 
         $obj = new Compteur();
 
@@ -419,7 +419,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnEvtFinContrat() {
+    public function testSetNbDsnEvtFinContrat(): void {
 
         $obj = new Compteur();
 
@@ -432,7 +432,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnEvtFinContratADeduire() {
+    public function testSetNbDsnEvtFinContratADeduire(): void {
 
         $obj = new Compteur();
 
@@ -445,7 +445,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnEvtFinContratFact() {
+    public function testSetNbDsnEvtFinContratFact(): void {
 
         $obj = new Compteur();
 
@@ -458,7 +458,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnMensuelle() {
+    public function testSetNbDsnMensuelle(): void {
 
         $obj = new Compteur();
 
@@ -471,7 +471,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnMensuelleADeduire() {
+    public function testSetNbDsnMensuelleADeduire(): void {
 
         $obj = new Compteur();
 
@@ -484,7 +484,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDsnMensuelleFact() {
+    public function testSetNbDsnMensuelleFact(): void {
 
         $obj = new Compteur();
 
@@ -497,7 +497,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDue() {
+    public function testSetNbDue(): void {
 
         $obj = new Compteur();
 
@@ -510,7 +510,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDueFact() {
+    public function testSetNbDueFact(): void {
 
         $obj = new Compteur();
 
@@ -523,7 +523,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDueaDeduire() {
+    public function testSetNbDueaDeduire(): void {
 
         $obj = new Compteur();
 
@@ -536,7 +536,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSoldeToutCompte() {
+    public function testSetNbSoldeToutCompte(): void {
 
         $obj = new Compteur();
 
@@ -549,7 +549,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSoldeToutCompteADeduire() {
+    public function testSetNbSoldeToutCompteADeduire(): void {
 
         $obj = new Compteur();
 
@@ -562,7 +562,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSoldeToutCompteFact() {
+    public function testSetNbSoldeToutCompteFact(): void {
 
         $obj = new Compteur();
 
@@ -575,7 +575,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbTdsRealisees() {
+    public function testSetNbTdsRealisees(): void {
 
         $obj = new Compteur();
 
@@ -588,7 +588,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbTdsRealiseesADeduire() {
+    public function testSetNbTdsRealiseesADeduire(): void {
 
         $obj = new Compteur();
 
@@ -601,7 +601,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbTdsRealiseesFact() {
+    public function testSetNbTdsRealiseesFact(): void {
 
         $obj = new Compteur();
 
@@ -615,7 +615,7 @@ class CompteurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -631,7 +631,7 @@ class CompteurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Compteur();
 

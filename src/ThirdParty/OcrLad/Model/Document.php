@@ -54,7 +54,7 @@ class Document {
      * @param Page $page The page.
      * @return Document Returns this document.
      */
-    public function addPage(Page $page) {
+    public function addPage(Page $page): Document {
         $this->pages[] = $page;
         return $this;
     }
@@ -64,7 +64,7 @@ class Document {
      *
      * @return Word[] Returns the index.
      */
-    public function getIndex() {
+    public function getIndex(): array {
         return $this->index;
     }
 
@@ -73,17 +73,17 @@ class Document {
      *
      * @return int Returns the number of pages.
      */
-    public function getNumberPages() {
+    public function getNumberPages(): int {
         return count($this->getPages());
     }
 
     /**
      * Get a page.
      *
-     * @param int $p The page.
+     * @param int|null $p The page.
      * @return Page|null Returns the page in case of success, null otherwise.
      */
-    public function getPage($p) {
+    public function getPage(?int $p): ?Page {
         if (false === is_int($p) || $p < 0 || $this->getNumberPages() <= $p) {
             return null;
         }
@@ -95,7 +95,7 @@ class Document {
      *
      * @return Page[] Returns the pages.
      */
-    public function getPages() {
+    public function getPages(): array {
         return $this->pages;
     }
 
@@ -104,7 +104,7 @@ class Document {
      *
      * @return bool Returns true in case of success, false otherwise.
      */
-    public function hasPages() {
+    public function hasPages(): bool {
         return 1 <= $this->getNumberPages();
     }
 
@@ -114,7 +114,7 @@ class Document {
      * @param Word $word The word.
      * @return Document Returns this document.
      */
-    public function index(Word $word) {
+    public function index(Word $word): Document {
 
         if (false === array_key_exists($word->getContent(), $this->index)) {
             $this->index[$word->getContent()] = [];
@@ -131,7 +131,7 @@ class Document {
      * @param Word[] $index The index.
      * @return Document Returns this document.
      */
-    protected function setIndex($index) {
+    protected function setIndex(array $index): Document {
         $this->index = $index;
         return $this;
     }
@@ -142,7 +142,7 @@ class Document {
      * @param Page[] $pages The pages.
      * @return Document Returns this document.
      */
-    protected function setPages(array $pages) {
+    protected function setPages(array $pages): Document {
         $this->pages = $pages;
         return $this;
     }

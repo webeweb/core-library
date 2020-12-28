@@ -29,7 +29,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new Forfaits();
 
@@ -42,7 +42,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new Forfaits();
 
@@ -55,7 +55,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new Forfaits();
 
@@ -68,7 +68,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new Forfaits();
 
@@ -81,7 +81,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Forfaits();
 
@@ -94,7 +94,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new Forfaits();
 
@@ -107,7 +107,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrime() {
+    public function testSetCodePrime(): void {
 
         $obj = new Forfaits();
 
@@ -120,7 +120,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheType() {
+    public function testSetCodeTacheType(): void {
 
         $obj = new Forfaits();
 
@@ -134,7 +134,7 @@ class ForfaitsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -151,7 +151,7 @@ class ForfaitsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -167,7 +167,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new Forfaits();
 
@@ -180,7 +180,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new Forfaits();
 
@@ -193,7 +193,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new Forfaits();
 
@@ -206,7 +206,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuil() {
+    public function testSetJuil(): void {
 
         $obj = new Forfaits();
 
@@ -219,7 +219,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new Forfaits();
 
@@ -232,7 +232,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new Forfaits();
 
@@ -245,7 +245,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new Forfaits();
 
@@ -258,7 +258,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new Forfaits();
 
@@ -271,7 +271,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new Forfaits();
 
@@ -284,7 +284,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumForfait() {
+    public function testSetNumForfait(): void {
 
         $obj = new Forfaits();
 
@@ -297,7 +297,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new Forfaits();
 
@@ -310,7 +310,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new Forfaits();
 
@@ -323,7 +323,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodePrime() {
+    public function testSetTypeCodePrime(): void {
 
         $obj = new Forfaits();
 
@@ -336,7 +336,7 @@ class ForfaitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Forfaits();
 

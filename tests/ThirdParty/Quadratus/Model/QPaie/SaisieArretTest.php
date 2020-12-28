@@ -30,7 +30,7 @@ class SaisieArretTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtCourrier() {
+    public function testSetDtCourrier(): void {
 
         // Set a Date/time mock.
         $dtCourrier = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class SaisieArretTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebutSaisie() {
+    public function testSetDtDebutSaisie(): void {
 
         // Set a Date/time mock.
         $dtDebutSaisie = new DateTime("2018-09-10");
@@ -64,7 +64,7 @@ class SaisieArretTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinSaisie() {
+    public function testSetDtFinSaisie(): void {
 
         // Set a Date/time mock.
         $dtFinSaisie = new DateTime("2018-09-10");
@@ -80,7 +80,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new SaisieArret();
 
@@ -93,7 +93,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCreance() {
+    public function testSetMtCreance(): void {
 
         $obj = new SaisieArret();
 
@@ -106,7 +106,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtDejaPaye() {
+    public function testSetMtDejaPaye(): void {
 
         $obj = new SaisieArret();
 
@@ -119,7 +119,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbACharge() {
+    public function testSetNbACharge(): void {
 
         $obj = new SaisieArret();
 
@@ -132,7 +132,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomTribunal() {
+    public function testSetNomTribunal(): void {
 
         $obj = new SaisieArret();
 
@@ -145,7 +145,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new SaisieArret();
 
@@ -158,7 +158,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisie() {
+    public function testSetTypeSaisie(): void {
 
         $obj = new SaisieArret();
 
@@ -171,7 +171,7 @@ class SaisieArretTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SaisieArret();
 

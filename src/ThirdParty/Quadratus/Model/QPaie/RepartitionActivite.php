@@ -22,65 +22,66 @@ class RepartitionActivite {
     /**
      * Code service.
      *
-     * @var string
+     * @var string|null
      */
     private $codeService;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Taux ventilation.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxVentilation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code service.
      *
-     * @return string Returns the code service.
+     * @return string|null Returns the code service.
      */
-    public function getCodeService() {
+    public function getCodeService(): ?string{
         return $this->codeService;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the taux ventilation.
      *
-     * @return float Returns the taux ventilation.
+     * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation() {
+    public function getTauxVentilation(): ?float{
         return $this->tauxVentilation;
     }
 
     /**
      * Set the code service.
      *
-     * @param string $codeService The code service.
+     * @param string|null $codeService The code service.
      * @return RepartitionActivite Returns this Repartition activite.
      */
-    public function setCodeService($codeService) {
+    public function setCodeService(?string $codeService): RepartitionActivite {
         $this->codeService = $codeService;
         return $this;
     }
@@ -88,10 +89,10 @@ class RepartitionActivite {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return RepartitionActivite Returns this Repartition activite.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): RepartitionActivite {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -99,10 +100,10 @@ class RepartitionActivite {
     /**
      * Set the taux ventilation.
      *
-     * @param float $tauxVentilation The taux ventilation.
+     * @param float|null $tauxVentilation The taux ventilation.
      * @return RepartitionActivite Returns this Repartition activite.
      */
-    public function setTauxVentilation($tauxVentilation) {
+    public function setTauxVentilation(?float $tauxVentilation): RepartitionActivite {
         $this->tauxVentilation = $tauxVentilation;
         return $this;
     }

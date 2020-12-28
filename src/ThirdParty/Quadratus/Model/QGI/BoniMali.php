@@ -24,35 +24,35 @@ class BoniMali {
     /**
      * Bm calcule.
      *
-     * @var bool
+     * @var bool|null
      */
     private $bmCalcule;
 
     /**
      * Bonus.
      *
-     * @var float
+     * @var float|null
      */
     private $bonus;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
@@ -66,35 +66,35 @@ class BoniMali {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Malus.
      *
-     * @var float
+     * @var float|null
      */
     private $malus;
 
     /**
      * Monnaie.
      *
-     * @var string
+     * @var string|null
      */
     private $monnaie;
 
     /**
      * Numero bm.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroBm;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
@@ -102,51 +102,51 @@ class BoniMali {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the bm calcule.
      *
-     * @return bool Returns the bm calcule.
+     * @return bool|null Returns the bm calcule.
      */
-    public function getBmCalcule() {
+    public function getBmCalcule(): ?bool {
         return $this->bmCalcule;
     }
 
     /**
      * Get the bonus.
      *
-     * @return float Returns the bonus.
+     * @return float|null Returns the bonus.
      */
-    public function getBonus() {
+    public function getBonus(): ?float {
         return $this->bonus;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -155,62 +155,62 @@ class BoniMali {
      *
      * @return DateTime|null Returns the date bm.
      */
-    public function getDateBm() {
+    public function getDateBm(): ?DateTime {
         return $this->dateBm;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the malus.
      *
-     * @return float Returns the malus.
+     * @return float|null Returns the malus.
      */
-    public function getMalus() {
+    public function getMalus(): ?float {
         return $this->malus;
     }
 
     /**
      * Get the monnaie.
      *
-     * @return string Returns the monnaie.
+     * @return string|null Returns the monnaie.
      */
-    public function getMonnaie() {
+    public function getMonnaie(): ?string {
         return $this->monnaie;
     }
 
     /**
      * Get the numero bm.
      *
-     * @return string Returns the numero bm.
+     * @return string|null Returns the numero bm.
      */
-    public function getNumeroBm() {
+    public function getNumeroBm(): ?string {
         return $this->numeroBm;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
     /**
      * Set the bm calcule.
      *
-     * @param bool $bmCalcule The bm calcule.
+     * @param bool|null $bmCalcule The bm calcule.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setBmCalcule($bmCalcule) {
+    public function setBmCalcule(?bool $bmCalcule): BoniMali {
         $this->bmCalcule = $bmCalcule;
         return $this;
     }
@@ -218,10 +218,10 @@ class BoniMali {
     /**
      * Set the bonus.
      *
-     * @param float $bonus The bonus.
+     * @param float|null $bonus The bonus.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setBonus($bonus) {
+    public function setBonus(?float $bonus): BoniMali {
         $this->bonus = $bonus;
         return $this;
     }
@@ -229,10 +229,10 @@ class BoniMali {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): BoniMali {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -240,10 +240,10 @@ class BoniMali {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): BoniMali {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -251,10 +251,10 @@ class BoniMali {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): BoniMali {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -265,7 +265,7 @@ class BoniMali {
      * @param DateTime|null $dateBm The date bm.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setDateBm(DateTime $dateBm = null) {
+    public function setDateBm(?DateTime $dateBm): BoniMali {
         $this->dateBm = $dateBm;
         return $this;
     }
@@ -273,10 +273,10 @@ class BoniMali {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): BoniMali {
         $this->libelle = $libelle;
         return $this;
     }
@@ -284,10 +284,10 @@ class BoniMali {
     /**
      * Set the malus.
      *
-     * @param float $malus The malus.
+     * @param float|null $malus The malus.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setMalus($malus) {
+    public function setMalus(?float $malus): BoniMali {
         $this->malus = $malus;
         return $this;
     }
@@ -295,10 +295,10 @@ class BoniMali {
     /**
      * Set the monnaie.
      *
-     * @param string $monnaie The monnaie.
+     * @param string|null $monnaie The monnaie.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setMonnaie($monnaie) {
+    public function setMonnaie(?string $monnaie): BoniMali {
         $this->monnaie = $monnaie;
         return $this;
     }
@@ -306,10 +306,10 @@ class BoniMali {
     /**
      * Set the numero bm.
      *
-     * @param string $numeroBm The numero bm.
+     * @param string|null $numeroBm The numero bm.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setNumeroBm($numeroBm) {
+    public function setNumeroBm(?string $numeroBm): BoniMali {
         $this->numeroBm = $numeroBm;
         return $this;
     }
@@ -317,10 +317,10 @@ class BoniMali {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return BoniMali Returns this Boni mali.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): BoniMali {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }

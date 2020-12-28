@@ -22,25 +22,25 @@ trait IntegerIdTrait {
     /**
      * Id.
      *
-     * @var int
+     * @var int|null
      */
     protected $id;
 
     /**
      * Get the id.
      *
-     * @return int Returns the id.
+     * @return int|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?int {
         return $this->id;
     }
 
     /**
      * Set the id.
      *
-     * @param int $id The id.
+     * @param int|null $id The id.
      */
-    protected function setId($id) {
+    protected function setId(?int $id) {
         $this->id = $id;
         return $this;
     }

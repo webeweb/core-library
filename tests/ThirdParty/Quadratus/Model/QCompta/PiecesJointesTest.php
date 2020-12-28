@@ -29,7 +29,7 @@ class PiecesJointesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAuteur() {
+    public function testSetAuteur(): void {
 
         $obj = new PiecesJointes();
 
@@ -43,7 +43,7 @@ class PiecesJointesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class PiecesJointesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new PiecesJointes();
 
@@ -72,7 +72,7 @@ class PiecesJointesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new PiecesJointes();
 
@@ -85,7 +85,7 @@ class PiecesJointesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomPiece() {
+    public function testSetNomPiece(): void {
 
         $obj = new PiecesJointes();
 
@@ -98,7 +98,7 @@ class PiecesJointesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumPiece() {
+    public function testSetNumPiece(): void {
 
         $obj = new PiecesJointes();
 
@@ -111,7 +111,7 @@ class PiecesJointesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PiecesJointes();
 

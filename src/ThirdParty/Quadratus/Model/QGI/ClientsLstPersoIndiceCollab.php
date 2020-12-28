@@ -22,97 +22,98 @@ class ClientsLstPersoIndiceCollab {
     /**
      * Chapitre.
      *
-     * @var string
+     * @var string|null
      */
     private $chapitre;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Origine.
      *
-     * @var int
+     * @var int|null
      */
     private $origine;
 
     /**
      * Ref guid.
      *
-     * @var string
+     * @var string|null
      */
     private $refGuid;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chapitre.
      *
-     * @return string Returns the chapitre.
+     * @return string|null Returns the chapitre.
      */
-    public function getChapitre() {
+    public function getChapitre(): ?string{
         return $this->chapitre;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the origine.
      *
-     * @return int Returns the origine.
+     * @return int|null Returns the origine.
      */
-    public function getOrigine() {
+    public function getOrigine(): ?int{
         return $this->origine;
     }
 
     /**
      * Get the ref guid.
      *
-     * @return string Returns the ref guid.
+     * @return string|null Returns the ref guid.
      */
-    public function getRefGuid() {
+    public function getRefGuid(): ?string{
         return $this->refGuid;
     }
 
     /**
      * Set the chapitre.
      *
-     * @param string $chapitre The chapitre.
+     * @param string|null $chapitre The chapitre.
      * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
-    public function setChapitre($chapitre) {
+    public function setChapitre(?string $chapitre): ClientsLstPersoIndiceCollab {
         $this->chapitre = $chapitre;
         return $this;
     }
@@ -120,10 +121,10 @@ class ClientsLstPersoIndiceCollab {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): ClientsLstPersoIndiceCollab {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -131,10 +132,10 @@ class ClientsLstPersoIndiceCollab {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): ClientsLstPersoIndiceCollab {
         $this->indice = $indice;
         return $this;
     }
@@ -142,10 +143,10 @@ class ClientsLstPersoIndiceCollab {
     /**
      * Set the origine.
      *
-     * @param int $origine The origine.
+     * @param int|null $origine The origine.
      * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
-    public function setOrigine($origine) {
+    public function setOrigine(?int $origine): ClientsLstPersoIndiceCollab {
         $this->origine = $origine;
         return $this;
     }
@@ -153,10 +154,10 @@ class ClientsLstPersoIndiceCollab {
     /**
      * Set the ref guid.
      *
-     * @param string $refGuid The ref guid.
+     * @param string|null $refGuid The ref guid.
      * @return ClientsLstPersoIndiceCollab Returns this Clients lst perso indice collab.
      */
-    public function setRefGuid($refGuid) {
+    public function setRefGuid(?string $refGuid): ClientsLstPersoIndiceCollab {
         $this->refGuid = $refGuid;
         return $this;
     }

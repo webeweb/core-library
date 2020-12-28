@@ -24,56 +24,56 @@ class PlansFacturation {
     /**
      * Aou.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aou;
 
     /**
      * Avr.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avr;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Coefficient.
      *
-     * @var float
+     * @var float|null
      */
     private $coefficient;
 
@@ -87,70 +87,70 @@ class PlansFacturation {
     /**
      * Dec.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dec;
 
     /**
      * Designation.
      *
-     * @var string
+     * @var string|null
      */
     private $designation;
 
     /**
      * Designation2.
      *
-     * @var string
+     * @var string|null
      */
     private $designation2;
 
     /**
      * Designation3.
      *
-     * @var string
+     * @var string|null
      */
     private $designation3;
 
     /**
      * Designation bis.
      *
-     * @var string
+     * @var string|null
      */
     private $designationBis;
 
     /**
      * Designation bis2.
      *
-     * @var string
+     * @var string|null
      */
     private $designationBis2;
 
     /**
      * Designation bis3.
      *
-     * @var string
+     * @var string|null
      */
     private $designationBis3;
 
     /**
      * Designation rtf.
      *
-     * @var string
+     * @var string|null
      */
     private $designationRtf;
 
     /**
      * Duree.
      *
-     * @var float
+     * @var float|null
      */
     private $duree;
 
     /**
      * Fev.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fev;
 
@@ -164,77 +164,77 @@ class PlansFacturation {
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Jan.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jan;
 
     /**
      * Jui.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jui;
 
     /**
      * Juin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juin;
 
     /**
      * Mai.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mai;
 
     /**
      * Mar.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mar;
 
     /**
      * Nov.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nov;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Numero devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroDevis;
 
     /**
      * Numero historique.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroHistorique;
 
     /**
      * Oct.
      *
-     * @var bool
+     * @var bool|null
      */
     private $oct;
 
@@ -248,149 +248,150 @@ class PlansFacturation {
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Prix achat.
      *
-     * @var float
+     * @var float|null
      */
     private $prixAchat;
 
     /**
      * Prix vente.
      *
-     * @var float
+     * @var float|null
      */
     private $prixVente;
 
     /**
      * Px facture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pxFacture;
 
     /**
      * Quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite;
 
     /**
      * Ref article.
      *
-     * @var bool
+     * @var bool|null
      */
     private $refArticle;
 
     /**
      * Ref poste cde web ft.
      *
-     * @var string
+     * @var string|null
      */
     private $refPosteCdeWebFt;
 
     /**
      * Sep.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sep;
 
     /**
      * Taux.
      *
-     * @var float
+     * @var float|null
      */
     private $taux;
 
     /**
      * Ventil marge.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ventilMarge;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the aou.
      *
-     * @return bool Returns the aou.
+     * @return bool|null Returns the aou.
      */
-    public function getAou() {
+    public function getAou(): ?bool{
         return $this->aou;
     }
 
     /**
      * Get the avr.
      *
-     * @return bool Returns the avr.
+     * @return bool|null Returns the avr.
      */
-    public function getAvr() {
+    public function getAvr(): ?bool{
         return $this->avr;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the coefficient.
      *
-     * @return float Returns the coefficient.
+     * @return float|null Returns the coefficient.
      */
-    public function getCoefficient() {
+    public function getCoefficient(): ?float{
         return $this->coefficient;
     }
 
@@ -399,97 +400,97 @@ class PlansFacturation {
      *
      * @return DateTime|null Returns the date fin validite.
      */
-    public function getDateFinValidite() {
+    public function getDateFinValidite(): ?DateTime{
         return $this->dateFinValidite;
     }
 
     /**
      * Get the dec.
      *
-     * @return bool Returns the dec.
+     * @return bool|null Returns the dec.
      */
-    public function getDec() {
+    public function getDec(): ?bool{
         return $this->dec;
     }
 
     /**
      * Get the designation.
      *
-     * @return string Returns the designation.
+     * @return string|null Returns the designation.
      */
-    public function getDesignation() {
+    public function getDesignation(): ?string{
         return $this->designation;
     }
 
     /**
      * Get the designation2.
      *
-     * @return string Returns the designation2.
+     * @return string|null Returns the designation2.
      */
-    public function getDesignation2() {
+    public function getDesignation2(): ?string{
         return $this->designation2;
     }
 
     /**
      * Get the designation3.
      *
-     * @return string Returns the designation3.
+     * @return string|null Returns the designation3.
      */
-    public function getDesignation3() {
+    public function getDesignation3(): ?string{
         return $this->designation3;
     }
 
     /**
      * Get the designation bis.
      *
-     * @return string Returns the designation bis.
+     * @return string|null Returns the designation bis.
      */
-    public function getDesignationBis() {
+    public function getDesignationBis(): ?string{
         return $this->designationBis;
     }
 
     /**
      * Get the designation bis2.
      *
-     * @return string Returns the designation bis2.
+     * @return string|null Returns the designation bis2.
      */
-    public function getDesignationBis2() {
+    public function getDesignationBis2(): ?string{
         return $this->designationBis2;
     }
 
     /**
      * Get the designation bis3.
      *
-     * @return string Returns the designation bis3.
+     * @return string|null Returns the designation bis3.
      */
-    public function getDesignationBis3() {
+    public function getDesignationBis3(): ?string{
         return $this->designationBis3;
     }
 
     /**
      * Get the designation rtf.
      *
-     * @return string Returns the designation rtf.
+     * @return string|null Returns the designation rtf.
      */
-    public function getDesignationRtf() {
+    public function getDesignationRtf(): ?string{
         return $this->designationRtf;
     }
 
     /**
      * Get the duree.
      *
-     * @return float Returns the duree.
+     * @return float|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?float{
         return $this->duree;
     }
 
     /**
      * Get the fev.
      *
-     * @return bool Returns the fev.
+     * @return bool|null Returns the fev.
      */
-    public function getFev() {
+    public function getFev(): ?bool{
         return $this->fev;
     }
 
@@ -498,106 +499,106 @@ class PlansFacturation {
      *
      * @return DateTime|null Returns the fin periode tarif.
      */
-    public function getFinPeriodeTarif() {
+    public function getFinPeriodeTarif(): ?DateTime{
         return $this->finPeriodeTarif;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the jan.
      *
-     * @return bool Returns the jan.
+     * @return bool|null Returns the jan.
      */
-    public function getJan() {
+    public function getJan(): ?bool{
         return $this->jan;
     }
 
     /**
      * Get the jui.
      *
-     * @return bool Returns the jui.
+     * @return bool|null Returns the jui.
      */
-    public function getJui() {
+    public function getJui(): ?bool{
         return $this->jui;
     }
 
     /**
      * Get the juin.
      *
-     * @return bool Returns the juin.
+     * @return bool|null Returns the juin.
      */
-    public function getJuin() {
+    public function getJuin(): ?bool{
         return $this->juin;
     }
 
     /**
      * Get the mai.
      *
-     * @return bool Returns the mai.
+     * @return bool|null Returns the mai.
      */
-    public function getMai() {
+    public function getMai(): ?bool{
         return $this->mai;
     }
 
     /**
      * Get the mar.
      *
-     * @return bool Returns the mar.
+     * @return bool|null Returns the mar.
      */
-    public function getMar() {
+    public function getMar(): ?bool{
         return $this->mar;
     }
 
     /**
      * Get the nov.
      *
-     * @return bool Returns the nov.
+     * @return bool|null Returns the nov.
      */
-    public function getNov() {
+    public function getNov(): ?bool{
         return $this->nov;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the numero devis.
      *
-     * @return string Returns the numero devis.
+     * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis() {
+    public function getNumeroDevis(): ?string{
         return $this->numeroDevis;
     }
 
     /**
      * Get the numero historique.
      *
-     * @return int Returns the numero historique.
+     * @return int|null Returns the numero historique.
      */
-    public function getNumeroHistorique() {
+    public function getNumeroHistorique(): ?int{
         return $this->numeroHistorique;
     }
 
     /**
      * Get the oct.
      *
-     * @return bool Returns the oct.
+     * @return bool|null Returns the oct.
      */
-    public function getOct() {
+    public function getOct(): ?bool{
         return $this->oct;
     }
 
@@ -606,107 +607,107 @@ class PlansFacturation {
      *
      * @return DateTime|null Returns the periode tarif.
      */
-    public function getPeriodeTarif() {
+    public function getPeriodeTarif(): ?DateTime{
         return $this->periodeTarif;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the prix achat.
      *
-     * @return float Returns the prix achat.
+     * @return float|null Returns the prix achat.
      */
-    public function getPrixAchat() {
+    public function getPrixAchat(): ?float{
         return $this->prixAchat;
     }
 
     /**
      * Get the prix vente.
      *
-     * @return float Returns the prix vente.
+     * @return float|null Returns the prix vente.
      */
-    public function getPrixVente() {
+    public function getPrixVente(): ?float{
         return $this->prixVente;
     }
 
     /**
      * Get the px facture.
      *
-     * @return bool Returns the px facture.
+     * @return bool|null Returns the px facture.
      */
-    public function getPxFacture() {
+    public function getPxFacture(): ?bool{
         return $this->pxFacture;
     }
 
     /**
      * Get the quantite.
      *
-     * @return float Returns the quantite.
+     * @return float|null Returns the quantite.
      */
-    public function getQuantite() {
+    public function getQuantite(): ?float{
         return $this->quantite;
     }
 
     /**
      * Get the ref article.
      *
-     * @return bool Returns the ref article.
+     * @return bool|null Returns the ref article.
      */
-    public function getRefArticle() {
+    public function getRefArticle(): ?bool{
         return $this->refArticle;
     }
 
     /**
      * Get the ref poste cde web ft.
      *
-     * @return string Returns the ref poste cde web ft.
+     * @return string|null Returns the ref poste cde web ft.
      */
-    public function getRefPosteCdeWebFt() {
+    public function getRefPosteCdeWebFt(): ?string{
         return $this->refPosteCdeWebFt;
     }
 
     /**
      * Get the sep.
      *
-     * @return bool Returns the sep.
+     * @return bool|null Returns the sep.
      */
-    public function getSep() {
+    public function getSep(): ?bool{
         return $this->sep;
     }
 
     /**
      * Get the taux.
      *
-     * @return float Returns the taux.
+     * @return float|null Returns the taux.
      */
-    public function getTaux() {
+    public function getTaux(): ?float{
         return $this->taux;
     }
 
     /**
      * Get the ventil marge.
      *
-     * @return bool Returns the ventil marge.
+     * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge() {
+    public function getVentilMarge(): ?bool{
         return $this->ventilMarge;
     }
 
     /**
      * Set the aou.
      *
-     * @param bool $aou The aou.
+     * @param bool|null $aou The aou.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setAou($aou) {
+    public function setAou(?bool $aou): PlansFacturation {
         $this->aou = $aou;
         return $this;
     }
@@ -714,10 +715,10 @@ class PlansFacturation {
     /**
      * Set the avr.
      *
-     * @param bool $avr The avr.
+     * @param bool|null $avr The avr.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setAvr($avr) {
+    public function setAvr(?bool $avr): PlansFacturation {
         $this->avr = $avr;
         return $this;
     }
@@ -725,10 +726,10 @@ class PlansFacturation {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): PlansFacturation {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -736,10 +737,10 @@ class PlansFacturation {
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): PlansFacturation {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -747,10 +748,10 @@ class PlansFacturation {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): PlansFacturation {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -758,10 +759,10 @@ class PlansFacturation {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): PlansFacturation {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -769,10 +770,10 @@ class PlansFacturation {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): PlansFacturation {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -780,10 +781,10 @@ class PlansFacturation {
     /**
      * Set the coefficient.
      *
-     * @param float $coefficient The coefficient.
+     * @param float|null $coefficient The coefficient.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setCoefficient($coefficient) {
+    public function setCoefficient(?float $coefficient): PlansFacturation {
         $this->coefficient = $coefficient;
         return $this;
     }
@@ -794,7 +795,7 @@ class PlansFacturation {
      * @param DateTime|null $dateFinValidite The date fin validite.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDateFinValidite(DateTime $dateFinValidite = null) {
+    public function setDateFinValidite(?DateTime $dateFinValidite): PlansFacturation {
         $this->dateFinValidite = $dateFinValidite;
         return $this;
     }
@@ -802,10 +803,10 @@ class PlansFacturation {
     /**
      * Set the dec.
      *
-     * @param bool $dec The dec.
+     * @param bool|null $dec The dec.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDec($dec) {
+    public function setDec(?bool $dec): PlansFacturation {
         $this->dec = $dec;
         return $this;
     }
@@ -813,10 +814,10 @@ class PlansFacturation {
     /**
      * Set the designation.
      *
-     * @param string $designation The designation.
+     * @param string|null $designation The designation.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignation($designation) {
+    public function setDesignation(?string $designation): PlansFacturation {
         $this->designation = $designation;
         return $this;
     }
@@ -824,10 +825,10 @@ class PlansFacturation {
     /**
      * Set the designation2.
      *
-     * @param string $designation2 The designation2.
+     * @param string|null $designation2 The designation2.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignation2($designation2) {
+    public function setDesignation2(?string $designation2): PlansFacturation {
         $this->designation2 = $designation2;
         return $this;
     }
@@ -835,10 +836,10 @@ class PlansFacturation {
     /**
      * Set the designation3.
      *
-     * @param string $designation3 The designation3.
+     * @param string|null $designation3 The designation3.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignation3($designation3) {
+    public function setDesignation3(?string $designation3): PlansFacturation {
         $this->designation3 = $designation3;
         return $this;
     }
@@ -846,10 +847,10 @@ class PlansFacturation {
     /**
      * Set the designation bis.
      *
-     * @param string $designationBis The designation bis.
+     * @param string|null $designationBis The designation bis.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignationBis($designationBis) {
+    public function setDesignationBis(?string $designationBis): PlansFacturation {
         $this->designationBis = $designationBis;
         return $this;
     }
@@ -857,10 +858,10 @@ class PlansFacturation {
     /**
      * Set the designation bis2.
      *
-     * @param string $designationBis2 The designation bis2.
+     * @param string|null $designationBis2 The designation bis2.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignationBis2($designationBis2) {
+    public function setDesignationBis2(?string $designationBis2): PlansFacturation {
         $this->designationBis2 = $designationBis2;
         return $this;
     }
@@ -868,10 +869,10 @@ class PlansFacturation {
     /**
      * Set the designation bis3.
      *
-     * @param string $designationBis3 The designation bis3.
+     * @param string|null $designationBis3 The designation bis3.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignationBis3($designationBis3) {
+    public function setDesignationBis3(?string $designationBis3): PlansFacturation {
         $this->designationBis3 = $designationBis3;
         return $this;
     }
@@ -879,10 +880,10 @@ class PlansFacturation {
     /**
      * Set the designation rtf.
      *
-     * @param string $designationRtf The designation rtf.
+     * @param string|null $designationRtf The designation rtf.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDesignationRtf($designationRtf) {
+    public function setDesignationRtf(?string $designationRtf): PlansFacturation {
         $this->designationRtf = $designationRtf;
         return $this;
     }
@@ -890,10 +891,10 @@ class PlansFacturation {
     /**
      * Set the duree.
      *
-     * @param float $duree The duree.
+     * @param float|null $duree The duree.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setDuree($duree) {
+    public function setDuree(?float $duree): PlansFacturation {
         $this->duree = $duree;
         return $this;
     }
@@ -901,10 +902,10 @@ class PlansFacturation {
     /**
      * Set the fev.
      *
-     * @param bool $fev The fev.
+     * @param bool|null $fev The fev.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setFev($fev) {
+    public function setFev(?bool $fev): PlansFacturation {
         $this->fev = $fev;
         return $this;
     }
@@ -915,7 +916,7 @@ class PlansFacturation {
      * @param DateTime|null $finPeriodeTarif The fin periode tarif.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setFinPeriodeTarif(DateTime $finPeriodeTarif = null) {
+    public function setFinPeriodeTarif(?DateTime $finPeriodeTarif): PlansFacturation {
         $this->finPeriodeTarif = $finPeriodeTarif;
         return $this;
     }
@@ -923,10 +924,10 @@ class PlansFacturation {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): PlansFacturation {
         $this->indice = $indice;
         return $this;
     }
@@ -934,10 +935,10 @@ class PlansFacturation {
     /**
      * Set the jan.
      *
-     * @param bool $jan The jan.
+     * @param bool|null $jan The jan.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setJan($jan) {
+    public function setJan(?bool $jan): PlansFacturation {
         $this->jan = $jan;
         return $this;
     }
@@ -945,10 +946,10 @@ class PlansFacturation {
     /**
      * Set the jui.
      *
-     * @param bool $jui The jui.
+     * @param bool|null $jui The jui.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setJui($jui) {
+    public function setJui(?bool $jui): PlansFacturation {
         $this->jui = $jui;
         return $this;
     }
@@ -956,10 +957,10 @@ class PlansFacturation {
     /**
      * Set the juin.
      *
-     * @param bool $juin The juin.
+     * @param bool|null $juin The juin.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setJuin($juin) {
+    public function setJuin(?bool $juin): PlansFacturation {
         $this->juin = $juin;
         return $this;
     }
@@ -967,10 +968,10 @@ class PlansFacturation {
     /**
      * Set the mai.
      *
-     * @param bool $mai The mai.
+     * @param bool|null $mai The mai.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setMai($mai) {
+    public function setMai(?bool $mai): PlansFacturation {
         $this->mai = $mai;
         return $this;
     }
@@ -978,10 +979,10 @@ class PlansFacturation {
     /**
      * Set the mar.
      *
-     * @param bool $mar The mar.
+     * @param bool|null $mar The mar.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setMar($mar) {
+    public function setMar(?bool $mar): PlansFacturation {
         $this->mar = $mar;
         return $this;
     }
@@ -989,10 +990,10 @@ class PlansFacturation {
     /**
      * Set the nov.
      *
-     * @param bool $nov The nov.
+     * @param bool|null $nov The nov.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setNov($nov) {
+    public function setNov(?bool $nov): PlansFacturation {
         $this->nov = $nov;
         return $this;
     }
@@ -1000,10 +1001,10 @@ class PlansFacturation {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): PlansFacturation {
         $this->numBt = $numBt;
         return $this;
     }
@@ -1011,10 +1012,10 @@ class PlansFacturation {
     /**
      * Set the numero devis.
      *
-     * @param string $numeroDevis The numero devis.
+     * @param string|null $numeroDevis The numero devis.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setNumeroDevis($numeroDevis) {
+    public function setNumeroDevis(?string $numeroDevis): PlansFacturation {
         $this->numeroDevis = $numeroDevis;
         return $this;
     }
@@ -1022,10 +1023,10 @@ class PlansFacturation {
     /**
      * Set the numero historique.
      *
-     * @param int $numeroHistorique The numero historique.
+     * @param int|null $numeroHistorique The numero historique.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setNumeroHistorique($numeroHistorique) {
+    public function setNumeroHistorique(?int $numeroHistorique): PlansFacturation {
         $this->numeroHistorique = $numeroHistorique;
         return $this;
     }
@@ -1033,10 +1034,10 @@ class PlansFacturation {
     /**
      * Set the oct.
      *
-     * @param bool $oct The oct.
+     * @param bool|null $oct The oct.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setOct($oct) {
+    public function setOct(?bool $oct): PlansFacturation {
         $this->oct = $oct;
         return $this;
     }
@@ -1047,7 +1048,7 @@ class PlansFacturation {
      * @param DateTime|null $periodeTarif The periode tarif.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setPeriodeTarif(DateTime $periodeTarif = null) {
+    public function setPeriodeTarif(?DateTime $periodeTarif): PlansFacturation {
         $this->periodeTarif = $periodeTarif;
         return $this;
     }
@@ -1055,10 +1056,10 @@ class PlansFacturation {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): PlansFacturation {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -1066,10 +1067,10 @@ class PlansFacturation {
     /**
      * Set the prix achat.
      *
-     * @param float $prixAchat The prix achat.
+     * @param float|null $prixAchat The prix achat.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setPrixAchat($prixAchat) {
+    public function setPrixAchat(?float $prixAchat): PlansFacturation {
         $this->prixAchat = $prixAchat;
         return $this;
     }
@@ -1077,10 +1078,10 @@ class PlansFacturation {
     /**
      * Set the prix vente.
      *
-     * @param float $prixVente The prix vente.
+     * @param float|null $prixVente The prix vente.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setPrixVente($prixVente) {
+    public function setPrixVente(?float $prixVente): PlansFacturation {
         $this->prixVente = $prixVente;
         return $this;
     }
@@ -1088,10 +1089,10 @@ class PlansFacturation {
     /**
      * Set the px facture.
      *
-     * @param bool $pxFacture The px facture.
+     * @param bool|null $pxFacture The px facture.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setPxFacture($pxFacture) {
+    public function setPxFacture(?bool $pxFacture): PlansFacturation {
         $this->pxFacture = $pxFacture;
         return $this;
     }
@@ -1099,10 +1100,10 @@ class PlansFacturation {
     /**
      * Set the quantite.
      *
-     * @param float $quantite The quantite.
+     * @param float|null $quantite The quantite.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setQuantite($quantite) {
+    public function setQuantite(?float $quantite): PlansFacturation {
         $this->quantite = $quantite;
         return $this;
     }
@@ -1110,10 +1111,10 @@ class PlansFacturation {
     /**
      * Set the ref article.
      *
-     * @param bool $refArticle The ref article.
+     * @param bool|null $refArticle The ref article.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setRefArticle($refArticle) {
+    public function setRefArticle(?bool $refArticle): PlansFacturation {
         $this->refArticle = $refArticle;
         return $this;
     }
@@ -1121,10 +1122,10 @@ class PlansFacturation {
     /**
      * Set the ref poste cde web ft.
      *
-     * @param string $refPosteCdeWebFt The ref poste cde web ft.
+     * @param string|null $refPosteCdeWebFt The ref poste cde web ft.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setRefPosteCdeWebFt($refPosteCdeWebFt) {
+    public function setRefPosteCdeWebFt(?string $refPosteCdeWebFt): PlansFacturation {
         $this->refPosteCdeWebFt = $refPosteCdeWebFt;
         return $this;
     }
@@ -1132,10 +1133,10 @@ class PlansFacturation {
     /**
      * Set the sep.
      *
-     * @param bool $sep The sep.
+     * @param bool|null $sep The sep.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setSep($sep) {
+    public function setSep(?bool $sep): PlansFacturation {
         $this->sep = $sep;
         return $this;
     }
@@ -1143,10 +1144,10 @@ class PlansFacturation {
     /**
      * Set the taux.
      *
-     * @param float $taux The taux.
+     * @param float|null $taux The taux.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setTaux($taux) {
+    public function setTaux(?float $taux): PlansFacturation {
         $this->taux = $taux;
         return $this;
     }
@@ -1154,10 +1155,10 @@ class PlansFacturation {
     /**
      * Set the ventil marge.
      *
-     * @param bool $ventilMarge The ventil marge.
+     * @param bool|null $ventilMarge The ventil marge.
      * @return PlansFacturation Returns this Plans facturation.
      */
-    public function setVentilMarge($ventilMarge) {
+    public function setVentilMarge(?bool $ventilMarge): PlansFacturation {
         $this->ventilMarge = $ventilMarge;
         return $this;
     }

@@ -27,7 +27,7 @@ class SynchroChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new SynchroChantiers();
 
@@ -40,7 +40,7 @@ class SynchroChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new SynchroChantiers();
 
@@ -53,7 +53,7 @@ class SynchroChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new SynchroChantiers();
 
@@ -66,7 +66,7 @@ class SynchroChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSynchro() {
+    public function testSetCodeSynchro(): void {
 
         $obj = new SynchroChantiers();
 
@@ -79,7 +79,7 @@ class SynchroChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SynchroChantiers();
 

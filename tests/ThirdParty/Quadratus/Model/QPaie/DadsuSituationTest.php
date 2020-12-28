@@ -29,7 +29,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDebutPeriode() {
+    public function testSetCodeDebutPeriode(): void {
 
         $obj = new DadsuSituation();
 
@@ -42,7 +42,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuSituation();
 
@@ -55,7 +55,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTempsArret() {
+    public function testSetCodeTempsArret(): void {
 
         $obj = new DadsuSituation();
 
@@ -69,7 +69,7 @@ class DadsuSituationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCtrlNorme() {
+    public function testSetDateCtrlNorme(): void {
 
         // Set a Date/time mock.
         $dateCtrlNorme = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class DadsuSituationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriode() {
+    public function testSetDebutPeriode(): void {
 
         // Set a Date/time mock.
         $debutPeriode = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDepuisCalcul() {
+    public function testSetDepuisCalcul(): void {
 
         $obj = new DadsuSituation();
 
@@ -115,7 +115,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCtrlNorme() {
+    public function testSetEtatCtrlNorme(): void {
 
         $obj = new DadsuSituation();
 
@@ -129,7 +129,7 @@ class DadsuSituationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriode() {
+    public function testSetFinPeriode(): void {
 
         // Set a Date/time mock.
         $finPeriode = new DateTime("2018-09-10");
@@ -145,7 +145,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant1() {
+    public function testSetMontant1(): void {
 
         $obj = new DadsuSituation();
 
@@ -158,7 +158,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant2() {
+    public function testSetMontant2(): void {
 
         $obj = new DadsuSituation();
 
@@ -171,7 +171,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantEmployeur() {
+    public function testSetMontantEmployeur(): void {
 
         $obj = new DadsuSituation();
 
@@ -184,7 +184,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifSituation() {
+    public function testSetMotifSituation(): void {
 
         $obj = new DadsuSituation();
 
@@ -197,7 +197,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new DadsuSituation();
 
@@ -210,7 +210,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new DadsuSituation();
 
@@ -223,7 +223,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifUniteTemps() {
+    public function testSetQualifUniteTemps(): void {
 
         $obj = new DadsuSituation();
 
@@ -236,7 +236,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTempsArret() {
+    public function testSetTempsArret(): void {
 
         $obj = new DadsuSituation();
 
@@ -249,7 +249,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBase() {
+    public function testSetTypeBase(): void {
 
         $obj = new DadsuSituation();
 
@@ -262,7 +262,7 @@ class DadsuSituationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuSituation();
 

@@ -24,16 +24,16 @@ trait DateTimeCreatedAtTrait {
     /**
      * Created at.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     protected $createdAt;
 
     /**
      * Get the created at.
      *
-     * @return DateTime Returns the created at.
+     * @return DateTime|null Returns the created at.
      */
-    public function getCreatedAt() {
+    public function getCreatedAt(): ?DateTime {
         return $this->createdAt;
     }
 
@@ -42,7 +42,7 @@ trait DateTimeCreatedAtTrait {
      *
      * @param DateTime|null $createdAt The created at.
      */
-    public function setCreatedAt(DateTime $createdAt = null) {
+    public function setCreatedAt(?DateTime $createdAt) {
         $this->createdAt = $createdAt;
         return $this;
     }

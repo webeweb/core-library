@@ -22,497 +22,498 @@ class DevisProgLignes {
     /**
      * Aou.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aou;
 
     /**
      * Avr.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avr;
 
     /**
      * Code echelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEchelle;
 
     /**
      * Code operation.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOperation;
 
     /**
      * Coefficient.
      *
-     * @var float
+     * @var float|null
      */
     private $coefficient;
 
     /**
      * Dec.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dec;
 
     /**
      * Dimanche.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dimanche;
 
     /**
      * Fev.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fev;
 
     /**
      * Jan.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jan;
 
     /**
      * Jeudi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jeudi;
 
     /**
      * Juil.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juil;
 
     /**
      * Juin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juin;
 
     /**
      * Lundi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $lundi;
 
     /**
      * Mai.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mai;
 
     /**
      * Mar.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mar;
 
     /**
      * Mardi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mardi;
 
     /**
      * Mercredi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mercredi;
 
     /**
      * Note resultat.
      *
-     * @var float
+     * @var float|null
      */
     private $noteResultat;
 
     /**
      * Nov.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nov;
 
     /**
      * Num devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numDevis;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Num programme.
      *
-     * @var int
+     * @var int|null
      */
     private $numProgramme;
 
     /**
      * Occurrence.
      *
-     * @var string
+     * @var string|null
      */
     private $occurrence;
 
     /**
      * Oct.
      *
-     * @var bool
+     * @var bool|null
      */
     private $oct;
 
     /**
      * Periodicite.
      *
-     * @var string
+     * @var string|null
      */
     private $periodicite;
 
     /**
      * Samedi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $samedi;
 
     /**
      * Sep.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sep;
 
     /**
      * Vendredi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $vendredi;
 
     /**
      * Vitesse reelle.
      *
-     * @var float
+     * @var float|null
      */
     private $vitesseReelle;
 
     /**
      * Vitesse theorique.
      *
-     * @var float
+     * @var float|null
      */
     private $vitesseTheorique;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the aou.
      *
-     * @return bool Returns the aou.
+     * @return bool|null Returns the aou.
      */
-    public function getAou() {
+    public function getAou(): ?bool{
         return $this->aou;
     }
 
     /**
      * Get the avr.
      *
-     * @return bool Returns the avr.
+     * @return bool|null Returns the avr.
      */
-    public function getAvr() {
+    public function getAvr(): ?bool{
         return $this->avr;
     }
 
     /**
      * Get the code echelle.
      *
-     * @return string Returns the code echelle.
+     * @return string|null Returns the code echelle.
      */
-    public function getCodeEchelle() {
+    public function getCodeEchelle(): ?string{
         return $this->codeEchelle;
     }
 
     /**
      * Get the code operation.
      *
-     * @return string Returns the code operation.
+     * @return string|null Returns the code operation.
      */
-    public function getCodeOperation() {
+    public function getCodeOperation(): ?string{
         return $this->codeOperation;
     }
 
     /**
      * Get the coefficient.
      *
-     * @return float Returns the coefficient.
+     * @return float|null Returns the coefficient.
      */
-    public function getCoefficient() {
+    public function getCoefficient(): ?float{
         return $this->coefficient;
     }
 
     /**
      * Get the dec.
      *
-     * @return bool Returns the dec.
+     * @return bool|null Returns the dec.
      */
-    public function getDec() {
+    public function getDec(): ?bool{
         return $this->dec;
     }
 
     /**
      * Get the dimanche.
      *
-     * @return bool Returns the dimanche.
+     * @return bool|null Returns the dimanche.
      */
-    public function getDimanche() {
+    public function getDimanche(): ?bool{
         return $this->dimanche;
     }
 
     /**
      * Get the fev.
      *
-     * @return bool Returns the fev.
+     * @return bool|null Returns the fev.
      */
-    public function getFev() {
+    public function getFev(): ?bool{
         return $this->fev;
     }
 
     /**
      * Get the jan.
      *
-     * @return bool Returns the jan.
+     * @return bool|null Returns the jan.
      */
-    public function getJan() {
+    public function getJan(): ?bool{
         return $this->jan;
     }
 
     /**
      * Get the jeudi.
      *
-     * @return bool Returns the jeudi.
+     * @return bool|null Returns the jeudi.
      */
-    public function getJeudi() {
+    public function getJeudi(): ?bool{
         return $this->jeudi;
     }
 
     /**
      * Get the juil.
      *
-     * @return bool Returns the juil.
+     * @return bool|null Returns the juil.
      */
-    public function getJuil() {
+    public function getJuil(): ?bool{
         return $this->juil;
     }
 
     /**
      * Get the juin.
      *
-     * @return bool Returns the juin.
+     * @return bool|null Returns the juin.
      */
-    public function getJuin() {
+    public function getJuin(): ?bool{
         return $this->juin;
     }
 
     /**
      * Get the lundi.
      *
-     * @return bool Returns the lundi.
+     * @return bool|null Returns the lundi.
      */
-    public function getLundi() {
+    public function getLundi(): ?bool{
         return $this->lundi;
     }
 
     /**
      * Get the mai.
      *
-     * @return bool Returns the mai.
+     * @return bool|null Returns the mai.
      */
-    public function getMai() {
+    public function getMai(): ?bool{
         return $this->mai;
     }
 
     /**
      * Get the mar.
      *
-     * @return bool Returns the mar.
+     * @return bool|null Returns the mar.
      */
-    public function getMar() {
+    public function getMar(): ?bool{
         return $this->mar;
     }
 
     /**
      * Get the mardi.
      *
-     * @return bool Returns the mardi.
+     * @return bool|null Returns the mardi.
      */
-    public function getMardi() {
+    public function getMardi(): ?bool{
         return $this->mardi;
     }
 
     /**
      * Get the mercredi.
      *
-     * @return bool Returns the mercredi.
+     * @return bool|null Returns the mercredi.
      */
-    public function getMercredi() {
+    public function getMercredi(): ?bool{
         return $this->mercredi;
     }
 
     /**
      * Get the note resultat.
      *
-     * @return float Returns the note resultat.
+     * @return float|null Returns the note resultat.
      */
-    public function getNoteResultat() {
+    public function getNoteResultat(): ?float{
         return $this->noteResultat;
     }
 
     /**
      * Get the nov.
      *
-     * @return bool Returns the nov.
+     * @return bool|null Returns the nov.
      */
-    public function getNov() {
+    public function getNov(): ?bool{
         return $this->nov;
     }
 
     /**
      * Get the num devis.
      *
-     * @return string Returns the num devis.
+     * @return string|null Returns the num devis.
      */
-    public function getNumDevis() {
+    public function getNumDevis(): ?string{
         return $this->numDevis;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the num programme.
      *
-     * @return int Returns the num programme.
+     * @return int|null Returns the num programme.
      */
-    public function getNumProgramme() {
+    public function getNumProgramme(): ?int{
         return $this->numProgramme;
     }
 
     /**
      * Get the occurrence.
      *
-     * @return string Returns the occurrence.
+     * @return string|null Returns the occurrence.
      */
-    public function getOccurrence() {
+    public function getOccurrence(): ?string{
         return $this->occurrence;
     }
 
     /**
      * Get the oct.
      *
-     * @return bool Returns the oct.
+     * @return bool|null Returns the oct.
      */
-    public function getOct() {
+    public function getOct(): ?bool{
         return $this->oct;
     }
 
     /**
      * Get the periodicite.
      *
-     * @return string Returns the periodicite.
+     * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite() {
+    public function getPeriodicite(): ?string{
         return $this->periodicite;
     }
 
     /**
      * Get the samedi.
      *
-     * @return bool Returns the samedi.
+     * @return bool|null Returns the samedi.
      */
-    public function getSamedi() {
+    public function getSamedi(): ?bool{
         return $this->samedi;
     }
 
     /**
      * Get the sep.
      *
-     * @return bool Returns the sep.
+     * @return bool|null Returns the sep.
      */
-    public function getSep() {
+    public function getSep(): ?bool{
         return $this->sep;
     }
 
     /**
      * Get the vendredi.
      *
-     * @return bool Returns the vendredi.
+     * @return bool|null Returns the vendredi.
      */
-    public function getVendredi() {
+    public function getVendredi(): ?bool{
         return $this->vendredi;
     }
 
     /**
      * Get the vitesse reelle.
      *
-     * @return float Returns the vitesse reelle.
+     * @return float|null Returns the vitesse reelle.
      */
-    public function getVitesseReelle() {
+    public function getVitesseReelle(): ?float{
         return $this->vitesseReelle;
     }
 
     /**
      * Get the vitesse theorique.
      *
-     * @return float Returns the vitesse theorique.
+     * @return float|null Returns the vitesse theorique.
      */
-    public function getVitesseTheorique() {
+    public function getVitesseTheorique(): ?float{
         return $this->vitesseTheorique;
     }
 
     /**
      * Set the aou.
      *
-     * @param bool $aou The aou.
+     * @param bool|null $aou The aou.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setAou($aou) {
+    public function setAou(?bool $aou): DevisProgLignes {
         $this->aou = $aou;
         return $this;
     }
@@ -520,10 +521,10 @@ class DevisProgLignes {
     /**
      * Set the avr.
      *
-     * @param bool $avr The avr.
+     * @param bool|null $avr The avr.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setAvr($avr) {
+    public function setAvr(?bool $avr): DevisProgLignes {
         $this->avr = $avr;
         return $this;
     }
@@ -531,10 +532,10 @@ class DevisProgLignes {
     /**
      * Set the code echelle.
      *
-     * @param string $codeEchelle The code echelle.
+     * @param string|null $codeEchelle The code echelle.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setCodeEchelle($codeEchelle) {
+    public function setCodeEchelle(?string $codeEchelle): DevisProgLignes {
         $this->codeEchelle = $codeEchelle;
         return $this;
     }
@@ -542,10 +543,10 @@ class DevisProgLignes {
     /**
      * Set the code operation.
      *
-     * @param string $codeOperation The code operation.
+     * @param string|null $codeOperation The code operation.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setCodeOperation($codeOperation) {
+    public function setCodeOperation(?string $codeOperation): DevisProgLignes {
         $this->codeOperation = $codeOperation;
         return $this;
     }
@@ -553,10 +554,10 @@ class DevisProgLignes {
     /**
      * Set the coefficient.
      *
-     * @param float $coefficient The coefficient.
+     * @param float|null $coefficient The coefficient.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setCoefficient($coefficient) {
+    public function setCoefficient(?float $coefficient): DevisProgLignes {
         $this->coefficient = $coefficient;
         return $this;
     }
@@ -564,10 +565,10 @@ class DevisProgLignes {
     /**
      * Set the dec.
      *
-     * @param bool $dec The dec.
+     * @param bool|null $dec The dec.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setDec($dec) {
+    public function setDec(?bool $dec): DevisProgLignes {
         $this->dec = $dec;
         return $this;
     }
@@ -575,10 +576,10 @@ class DevisProgLignes {
     /**
      * Set the dimanche.
      *
-     * @param bool $dimanche The dimanche.
+     * @param bool|null $dimanche The dimanche.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setDimanche($dimanche) {
+    public function setDimanche(?bool $dimanche): DevisProgLignes {
         $this->dimanche = $dimanche;
         return $this;
     }
@@ -586,10 +587,10 @@ class DevisProgLignes {
     /**
      * Set the fev.
      *
-     * @param bool $fev The fev.
+     * @param bool|null $fev The fev.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setFev($fev) {
+    public function setFev(?bool $fev): DevisProgLignes {
         $this->fev = $fev;
         return $this;
     }
@@ -597,10 +598,10 @@ class DevisProgLignes {
     /**
      * Set the jan.
      *
-     * @param bool $jan The jan.
+     * @param bool|null $jan The jan.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setJan($jan) {
+    public function setJan(?bool $jan): DevisProgLignes {
         $this->jan = $jan;
         return $this;
     }
@@ -608,10 +609,10 @@ class DevisProgLignes {
     /**
      * Set the jeudi.
      *
-     * @param bool $jeudi The jeudi.
+     * @param bool|null $jeudi The jeudi.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setJeudi($jeudi) {
+    public function setJeudi(?bool $jeudi): DevisProgLignes {
         $this->jeudi = $jeudi;
         return $this;
     }
@@ -619,10 +620,10 @@ class DevisProgLignes {
     /**
      * Set the juil.
      *
-     * @param bool $juil The juil.
+     * @param bool|null $juil The juil.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setJuil($juil) {
+    public function setJuil(?bool $juil): DevisProgLignes {
         $this->juil = $juil;
         return $this;
     }
@@ -630,10 +631,10 @@ class DevisProgLignes {
     /**
      * Set the juin.
      *
-     * @param bool $juin The juin.
+     * @param bool|null $juin The juin.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setJuin($juin) {
+    public function setJuin(?bool $juin): DevisProgLignes {
         $this->juin = $juin;
         return $this;
     }
@@ -641,10 +642,10 @@ class DevisProgLignes {
     /**
      * Set the lundi.
      *
-     * @param bool $lundi The lundi.
+     * @param bool|null $lundi The lundi.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setLundi($lundi) {
+    public function setLundi(?bool $lundi): DevisProgLignes {
         $this->lundi = $lundi;
         return $this;
     }
@@ -652,10 +653,10 @@ class DevisProgLignes {
     /**
      * Set the mai.
      *
-     * @param bool $mai The mai.
+     * @param bool|null $mai The mai.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setMai($mai) {
+    public function setMai(?bool $mai): DevisProgLignes {
         $this->mai = $mai;
         return $this;
     }
@@ -663,10 +664,10 @@ class DevisProgLignes {
     /**
      * Set the mar.
      *
-     * @param bool $mar The mar.
+     * @param bool|null $mar The mar.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setMar($mar) {
+    public function setMar(?bool $mar): DevisProgLignes {
         $this->mar = $mar;
         return $this;
     }
@@ -674,10 +675,10 @@ class DevisProgLignes {
     /**
      * Set the mardi.
      *
-     * @param bool $mardi The mardi.
+     * @param bool|null $mardi The mardi.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setMardi($mardi) {
+    public function setMardi(?bool $mardi): DevisProgLignes {
         $this->mardi = $mardi;
         return $this;
     }
@@ -685,10 +686,10 @@ class DevisProgLignes {
     /**
      * Set the mercredi.
      *
-     * @param bool $mercredi The mercredi.
+     * @param bool|null $mercredi The mercredi.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setMercredi($mercredi) {
+    public function setMercredi(?bool $mercredi): DevisProgLignes {
         $this->mercredi = $mercredi;
         return $this;
     }
@@ -696,10 +697,10 @@ class DevisProgLignes {
     /**
      * Set the note resultat.
      *
-     * @param float $noteResultat The note resultat.
+     * @param float|null $noteResultat The note resultat.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setNoteResultat($noteResultat) {
+    public function setNoteResultat(?float $noteResultat): DevisProgLignes {
         $this->noteResultat = $noteResultat;
         return $this;
     }
@@ -707,10 +708,10 @@ class DevisProgLignes {
     /**
      * Set the nov.
      *
-     * @param bool $nov The nov.
+     * @param bool|null $nov The nov.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setNov($nov) {
+    public function setNov(?bool $nov): DevisProgLignes {
         $this->nov = $nov;
         return $this;
     }
@@ -718,10 +719,10 @@ class DevisProgLignes {
     /**
      * Set the num devis.
      *
-     * @param string $numDevis The num devis.
+     * @param string|null $numDevis The num devis.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setNumDevis($numDevis) {
+    public function setNumDevis(?string $numDevis): DevisProgLignes {
         $this->numDevis = $numDevis;
         return $this;
     }
@@ -729,10 +730,10 @@ class DevisProgLignes {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): DevisProgLignes {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -740,10 +741,10 @@ class DevisProgLignes {
     /**
      * Set the num programme.
      *
-     * @param int $numProgramme The num programme.
+     * @param int|null $numProgramme The num programme.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setNumProgramme($numProgramme) {
+    public function setNumProgramme(?int $numProgramme): DevisProgLignes {
         $this->numProgramme = $numProgramme;
         return $this;
     }
@@ -751,10 +752,10 @@ class DevisProgLignes {
     /**
      * Set the occurrence.
      *
-     * @param string $occurrence The occurrence.
+     * @param string|null $occurrence The occurrence.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setOccurrence($occurrence) {
+    public function setOccurrence(?string $occurrence): DevisProgLignes {
         $this->occurrence = $occurrence;
         return $this;
     }
@@ -762,10 +763,10 @@ class DevisProgLignes {
     /**
      * Set the oct.
      *
-     * @param bool $oct The oct.
+     * @param bool|null $oct The oct.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setOct($oct) {
+    public function setOct(?bool $oct): DevisProgLignes {
         $this->oct = $oct;
         return $this;
     }
@@ -773,10 +774,10 @@ class DevisProgLignes {
     /**
      * Set the periodicite.
      *
-     * @param string $periodicite The periodicite.
+     * @param string|null $periodicite The periodicite.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setPeriodicite($periodicite) {
+    public function setPeriodicite(?string $periodicite): DevisProgLignes {
         $this->periodicite = $periodicite;
         return $this;
     }
@@ -784,10 +785,10 @@ class DevisProgLignes {
     /**
      * Set the samedi.
      *
-     * @param bool $samedi The samedi.
+     * @param bool|null $samedi The samedi.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setSamedi($samedi) {
+    public function setSamedi(?bool $samedi): DevisProgLignes {
         $this->samedi = $samedi;
         return $this;
     }
@@ -795,10 +796,10 @@ class DevisProgLignes {
     /**
      * Set the sep.
      *
-     * @param bool $sep The sep.
+     * @param bool|null $sep The sep.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setSep($sep) {
+    public function setSep(?bool $sep): DevisProgLignes {
         $this->sep = $sep;
         return $this;
     }
@@ -806,10 +807,10 @@ class DevisProgLignes {
     /**
      * Set the vendredi.
      *
-     * @param bool $vendredi The vendredi.
+     * @param bool|null $vendredi The vendredi.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setVendredi($vendredi) {
+    public function setVendredi(?bool $vendredi): DevisProgLignes {
         $this->vendredi = $vendredi;
         return $this;
     }
@@ -817,10 +818,10 @@ class DevisProgLignes {
     /**
      * Set the vitesse reelle.
      *
-     * @param float $vitesseReelle The vitesse reelle.
+     * @param float|null $vitesseReelle The vitesse reelle.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setVitesseReelle($vitesseReelle) {
+    public function setVitesseReelle(?float $vitesseReelle): DevisProgLignes {
         $this->vitesseReelle = $vitesseReelle;
         return $this;
     }
@@ -828,10 +829,10 @@ class DevisProgLignes {
     /**
      * Set the vitesse theorique.
      *
-     * @param float $vitesseTheorique The vitesse theorique.
+     * @param float|null $vitesseTheorique The vitesse theorique.
      * @return DevisProgLignes Returns this Devis prog lignes.
      */
-    public function setVitesseTheorique($vitesseTheorique) {
+    public function setVitesseTheorique(?float $vitesseTheorique): DevisProgLignes {
         $this->vitesseTheorique = $vitesseTheorique;
         return $this;
     }

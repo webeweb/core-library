@@ -24,35 +24,35 @@ class Documents {
     /**
      * Annee.
      *
-     * @var string
+     * @var string|null
      */
     private $annee;
 
     /**
      * Auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $auteur;
 
     /**
      * Chapitre.
      *
-     * @var string
+     * @var string|null
      */
     private $chapitre;
 
     /**
      * Chrono.
      *
-     * @var string
+     * @var string|null
      */
     private $chrono;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
@@ -73,28 +73,28 @@ class Documents {
     /**
      * Indice bulletin.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceBulletin;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -108,59 +108,60 @@ class Documents {
     /**
      * Publier web.
      *
-     * @var bool
+     * @var bool|null
      */
     private $publierWeb;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the annee.
      *
-     * @return string Returns the annee.
+     * @return string|null Returns the annee.
      */
-    public function getAnnee() {
+    public function getAnnee(): ?string{
         return $this->annee;
     }
 
     /**
      * Get the auteur.
      *
-     * @return string Returns the auteur.
+     * @return string|null Returns the auteur.
      */
-    public function getAuteur() {
+    public function getAuteur(): ?string{
         return $this->auteur;
     }
 
     /**
      * Get the chapitre.
      *
-     * @return string Returns the chapitre.
+     * @return string|null Returns the chapitre.
      */
-    public function getChapitre() {
+    public function getChapitre(): ?string{
         return $this->chapitre;
     }
 
     /**
      * Get the chrono.
      *
-     * @return string Returns the chrono.
+     * @return string|null Returns the chrono.
      */
-    public function getChrono() {
+    public function getChrono(): ?string{
         return $this->chrono;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
@@ -169,7 +170,7 @@ class Documents {
      *
      * @return DateTime|null Returns the date heure sys.
      */
-    public function getDateHeureSys() {
+    public function getDateHeureSys(): ?DateTime{
         return $this->dateHeureSys;
     }
 
@@ -178,43 +179,43 @@ class Documents {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime{
         return $this->dateModification;
     }
 
     /**
      * Get the indice bulletin.
      *
-     * @return int Returns the indice bulletin.
+     * @return int|null Returns the indice bulletin.
      */
-    public function getIndiceBulletin() {
+    public function getIndiceBulletin(): ?int{
         return $this->indiceBulletin;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -223,26 +224,26 @@ class Documents {
      *
      * @return DateTime|null Returns the periode archivage.
      */
-    public function getPeriodeArchivage() {
+    public function getPeriodeArchivage(): ?DateTime{
         return $this->periodeArchivage;
     }
 
     /**
      * Get the publier web.
      *
-     * @return bool Returns the publier web.
+     * @return bool|null Returns the publier web.
      */
-    public function getPublierWeb() {
+    public function getPublierWeb(): ?bool{
         return $this->publierWeb;
     }
 
     /**
      * Set the annee.
      *
-     * @param string $annee The annee.
+     * @param string|null $annee The annee.
      * @return Documents Returns this Documents.
      */
-    public function setAnnee($annee) {
+    public function setAnnee(?string $annee): Documents {
         $this->annee = $annee;
         return $this;
     }
@@ -250,10 +251,10 @@ class Documents {
     /**
      * Set the auteur.
      *
-     * @param string $auteur The auteur.
+     * @param string|null $auteur The auteur.
      * @return Documents Returns this Documents.
      */
-    public function setAuteur($auteur) {
+    public function setAuteur(?string $auteur): Documents {
         $this->auteur = $auteur;
         return $this;
     }
@@ -261,10 +262,10 @@ class Documents {
     /**
      * Set the chapitre.
      *
-     * @param string $chapitre The chapitre.
+     * @param string|null $chapitre The chapitre.
      * @return Documents Returns this Documents.
      */
-    public function setChapitre($chapitre) {
+    public function setChapitre(?string $chapitre): Documents {
         $this->chapitre = $chapitre;
         return $this;
     }
@@ -272,10 +273,10 @@ class Documents {
     /**
      * Set the chrono.
      *
-     * @param string $chrono The chrono.
+     * @param string|null $chrono The chrono.
      * @return Documents Returns this Documents.
      */
-    public function setChrono($chrono) {
+    public function setChrono(?string $chrono): Documents {
         $this->chrono = $chrono;
         return $this;
     }
@@ -283,10 +284,10 @@ class Documents {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return Documents Returns this Documents.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): Documents {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -297,7 +298,7 @@ class Documents {
      * @param DateTime|null $dateHeureSys The date heure sys.
      * @return Documents Returns this Documents.
      */
-    public function setDateHeureSys(DateTime $dateHeureSys = null) {
+    public function setDateHeureSys(?DateTime $dateHeureSys): Documents {
         $this->dateHeureSys = $dateHeureSys;
         return $this;
     }
@@ -308,7 +309,7 @@ class Documents {
      * @param DateTime|null $dateModification The date modification.
      * @return Documents Returns this Documents.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): Documents {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -316,10 +317,10 @@ class Documents {
     /**
      * Set the indice bulletin.
      *
-     * @param int $indiceBulletin The indice bulletin.
+     * @param int|null $indiceBulletin The indice bulletin.
      * @return Documents Returns this Documents.
      */
-    public function setIndiceBulletin($indiceBulletin) {
+    public function setIndiceBulletin(?int $indiceBulletin): Documents {
         $this->indiceBulletin = $indiceBulletin;
         return $this;
     }
@@ -327,10 +328,10 @@ class Documents {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Documents Returns this Documents.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Documents {
         $this->libelle = $libelle;
         return $this;
     }
@@ -338,10 +339,10 @@ class Documents {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return Documents Returns this Documents.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): Documents {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -349,10 +350,10 @@ class Documents {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return Documents Returns this Documents.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): Documents {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -363,7 +364,7 @@ class Documents {
      * @param DateTime|null $periodeArchivage The periode archivage.
      * @return Documents Returns this Documents.
      */
-    public function setPeriodeArchivage(DateTime $periodeArchivage = null) {
+    public function setPeriodeArchivage(?DateTime $periodeArchivage): Documents {
         $this->periodeArchivage = $periodeArchivage;
         return $this;
     }
@@ -371,10 +372,10 @@ class Documents {
     /**
      * Set the publier web.
      *
-     * @param bool $publierWeb The publier web.
+     * @param bool|null $publierWeb The publier web.
      * @return Documents Returns this Documents.
      */
-    public function setPublierWeb($publierWeb) {
+    public function setPublierWeb(?bool $publierWeb): Documents {
         $this->publierWeb = $publierWeb;
         return $this;
     }

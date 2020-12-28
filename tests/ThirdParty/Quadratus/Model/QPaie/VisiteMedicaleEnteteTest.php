@@ -29,7 +29,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseMt() {
+    public function testSetAdresseMt(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -42,7 +42,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -55,7 +55,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMedecineTravail() {
+    public function testSetCodeMedecineTravail(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -68,7 +68,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostalMt() {
+    public function testSetCodePostalMt(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -82,7 +82,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebut1() {
+    public function testSetDebut1(): void {
 
         // Set a Date/time mock.
         $debut1 = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebut2() {
+    public function testSetDebut2(): void {
 
         // Set a Date/time mock.
         $debut2 = new DateTime("2018-09-10");
@@ -116,7 +116,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutSession() {
+    public function testSetDebutSession(): void {
 
         // Set a Date/time mock.
         $debutSession = new DateTime("2018-09-10");
@@ -132,7 +132,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -145,7 +145,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeVisite() {
+    public function testSetDureeVisite(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -159,7 +159,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFin1() {
+    public function testSetFin1(): void {
 
         // Set a Date/time mock.
         $fin1 = new DateTime("2018-09-10");
@@ -176,7 +176,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFin2() {
+    public function testSetFin2(): void {
 
         // Set a Date/time mock.
         $fin2 = new DateTime("2018-09-10");
@@ -193,7 +193,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinSession() {
+    public function testSetFinSession(): void {
 
         // Set a Date/time mock.
         $finSession = new DateTime("2018-09-10");
@@ -209,7 +209,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLientDocument() {
+    public function testSetLientDocument(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -222,7 +222,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMedecinResponsable() {
+    public function testSetMedecinResponsable(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -235,7 +235,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomMt() {
+    public function testSetNomMt(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -248,7 +248,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour1() {
+    public function testSetRdvJour1(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -261,7 +261,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour2() {
+    public function testSetRdvJour2(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -274,7 +274,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour3() {
+    public function testSetRdvJour3(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -287,7 +287,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour4() {
+    public function testSetRdvJour4(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -300,7 +300,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour5() {
+    public function testSetRdvJour5(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -313,7 +313,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour6() {
+    public function testSetRdvJour6(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -326,7 +326,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdvJour7() {
+    public function testSetRdvJour7(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -339,7 +339,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel1() {
+    public function testSetTel1(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -352,7 +352,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVilleMt() {
+    public function testSetVilleMt(): void {
 
         $obj = new VisiteMedicaleEntete();
 
@@ -365,7 +365,7 @@ class VisiteMedicaleEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new VisiteMedicaleEntete();
 

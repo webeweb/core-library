@@ -22,81 +22,82 @@ class DetailCharges {
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return DetailCharges Returns this Detail charges.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): DetailCharges {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -104,10 +105,10 @@ class DetailCharges {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return DetailCharges Returns this Detail charges.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): DetailCharges {
         $this->montant = $montant;
         return $this;
     }
@@ -115,10 +116,10 @@ class DetailCharges {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return DetailCharges Returns this Detail charges.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): DetailCharges {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -126,10 +127,10 @@ class DetailCharges {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return DetailCharges Returns this Detail charges.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): DetailCharges {
         $this->uniqId = $uniqId;
         return $this;
     }

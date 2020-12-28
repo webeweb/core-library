@@ -27,7 +27,7 @@ class StringUrlTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUrl() {
+    public function testSetUrl(): void {
 
         $obj = new TestStringUrlTrait();
 
@@ -40,7 +40,7 @@ class StringUrlTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringUrlTrait();
 

@@ -38,24 +38,24 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function addRule(ValidationRuleInterface $rule) {
+    public function addRule(ValidationRuleInterface $rule): ValidationRuleSetInterface {
         $this->rules[] = $rule;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getRules() {
+    public function getRules(): array {
         return $this->rules;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function removeRule(ValidationRuleInterface $rule) {
+    public function removeRule(ValidationRuleInterface $rule): ValidationRuleSetInterface {
 
         for ($i = count($this->rules) - 1; 0 <= $i; --$i) {
 
@@ -75,15 +75,15 @@ abstract class AbstractValidationRuleSet implements ValidationRuleSetInterface {
      * @param ValidationRuleInterface[] $rules The rules.
      * @return ValidationRuleSetInterface Returns this validation rule set.
      */
-    public function setRules(array $rules) {
+    public function setRules(array $rules): ValidationRuleSetInterface {
         $this->rules = $rules;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function validate($object) {
+    public function validate($object): array {
 
         $result = [];
 

@@ -29,7 +29,7 @@ class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetConnectionWithPDOException() {
+    public function testGetConnectionWithPDOException(): void {
 
         $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, "exception");
 
@@ -48,7 +48,7 @@ class MicrosoftSQLServerDatabaseConnectorTest extends AbstractTestCase {
      *
      * @returns void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MicrosoftSQLServerDatabaseConnector($this->authenticator, null);
 

@@ -24,7 +24,7 @@ class EmpRecapPenibilite {
     /**
      * Code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollab;
 
@@ -59,35 +59,35 @@ class EmpRecapPenibilite {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Id recap.
      *
-     * @var int
+     * @var int|null
      */
     private $idRecap;
 
     /**
      * Indice bul.
      *
-     * @var string
+     * @var string|null
      */
     private $indiceBul;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Numero ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroOrdre;
 
@@ -98,19 +98,20 @@ class EmpRecapPenibilite {
      */
     private $reguleTraitee;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab.
      *
-     * @return string Returns the code collab.
+     * @return string|null Returns the code collab.
      */
-    public function getCodeCollab() {
+    public function getCodeCollab(): ?string{
         return $this->codeCollab;
     }
 
@@ -119,7 +120,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat() {
+    public function getDateCreat(): ?DateTime{
         return $this->dateCreat;
     }
 
@@ -128,7 +129,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
@@ -137,7 +138,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime{
         return $this->dateFin;
     }
 
@@ -146,52 +147,52 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the id recap.
      *
-     * @return int Returns the id recap.
+     * @return int|null Returns the id recap.
      */
-    public function getIdRecap() {
+    public function getIdRecap(): ?int{
         return $this->idRecap;
     }
 
     /**
      * Get the indice bul.
      *
-     * @return string Returns the indice bul.
+     * @return string|null Returns the indice bul.
      */
-    public function getIndiceBul() {
+    public function getIndiceBul(): ?string{
         return $this->indiceBul;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the numero ordre.
      *
-     * @return int Returns the numero ordre.
+     * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre() {
+    public function getNumeroOrdre(): ?int{
         return $this->numeroOrdre;
     }
 
@@ -200,17 +201,17 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the regule traitee.
      */
-    public function getReguleTraitee() {
+    public function getReguleTraitee(): ?DateTime{
         return $this->reguleTraitee;
     }
 
     /**
      * Set the code collab.
      *
-     * @param string $codeCollab The code collab.
+     * @param string|null $codeCollab The code collab.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setCodeCollab($codeCollab) {
+    public function setCodeCollab(?string $codeCollab): EmpRecapPenibilite {
         $this->codeCollab = $codeCollab;
         return $this;
     }
@@ -221,7 +222,7 @@ class EmpRecapPenibilite {
      * @param DateTime|null $dateCreat The date creat.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setDateCreat(DateTime $dateCreat = null) {
+    public function setDateCreat(?DateTime $dateCreat): EmpRecapPenibilite {
         $this->dateCreat = $dateCreat;
         return $this;
     }
@@ -232,7 +233,7 @@ class EmpRecapPenibilite {
      * @param DateTime|null $dateDebut The date debut.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): EmpRecapPenibilite {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -243,7 +244,7 @@ class EmpRecapPenibilite {
      * @param DateTime|null $dateFin The date fin.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): EmpRecapPenibilite {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -254,7 +255,7 @@ class EmpRecapPenibilite {
      * @param DateTime|null $dateModif The date modif.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): EmpRecapPenibilite {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -262,10 +263,10 @@ class EmpRecapPenibilite {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): EmpRecapPenibilite {
         $this->etat = $etat;
         return $this;
     }
@@ -273,10 +274,10 @@ class EmpRecapPenibilite {
     /**
      * Set the id recap.
      *
-     * @param int $idRecap The id recap.
+     * @param int|null $idRecap The id recap.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setIdRecap($idRecap) {
+    public function setIdRecap(?int $idRecap): EmpRecapPenibilite {
         $this->idRecap = $idRecap;
         return $this;
     }
@@ -284,10 +285,10 @@ class EmpRecapPenibilite {
     /**
      * Set the indice bul.
      *
-     * @param string $indiceBul The indice bul.
+     * @param string|null $indiceBul The indice bul.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setIndiceBul($indiceBul) {
+    public function setIndiceBul(?string $indiceBul): EmpRecapPenibilite {
         $this->indiceBul = $indiceBul;
         return $this;
     }
@@ -295,10 +296,10 @@ class EmpRecapPenibilite {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpRecapPenibilite {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -306,10 +307,10 @@ class EmpRecapPenibilite {
     /**
      * Set the numero ordre.
      *
-     * @param int $numeroOrdre The numero ordre.
+     * @param int|null $numeroOrdre The numero ordre.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setNumeroOrdre($numeroOrdre) {
+    public function setNumeroOrdre(?int $numeroOrdre): EmpRecapPenibilite {
         $this->numeroOrdre = $numeroOrdre;
         return $this;
     }
@@ -320,7 +321,7 @@ class EmpRecapPenibilite {
      * @param DateTime|null $reguleTraitee The regule traitee.
      * @return EmpRecapPenibilite Returns this Emp recap penibilite.
      */
-    public function setReguleTraitee(DateTime $reguleTraitee = null) {
+    public function setReguleTraitee(?DateTime $reguleTraitee): EmpRecapPenibilite {
         $this->reguleTraitee = $reguleTraitee;
         return $this;
     }

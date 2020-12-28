@@ -29,7 +29,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse1() {
+    public function testSetAdresse1(): void {
 
         $obj = new RepertoireCol();
 
@@ -42,7 +42,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse2() {
+    public function testSetAdresse2(): void {
 
         $obj = new RepertoireCol();
 
@@ -55,7 +55,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse3() {
+    public function testSetAdresse3(): void {
 
         $obj = new RepertoireCol();
 
@@ -68,7 +68,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new RepertoireCol();
 
@@ -81,7 +81,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new RepertoireCol();
 
@@ -94,7 +94,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeComp() {
+    public function testSetCodeComp(): void {
 
         $obj = new RepertoireCol();
 
@@ -107,7 +107,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollModif() {
+    public function testSetCollModif(): void {
 
         $obj = new RepertoireCol();
 
@@ -120,7 +120,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new RepertoireCol();
 
@@ -134,7 +134,7 @@ class RepertoireColTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -150,7 +150,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new RepertoireCol();
 
@@ -163,7 +163,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail2() {
+    public function testSetEmail2(): void {
 
         $obj = new RepertoireCol();
 
@@ -176,7 +176,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTel() {
+    public function testSetFlagTel(): void {
 
         $obj = new RepertoireCol();
 
@@ -189,7 +189,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTel2() {
+    public function testSetFlagTel2(): void {
 
         $obj = new RepertoireCol();
 
@@ -202,7 +202,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTel3() {
+    public function testSetFlagTel3(): void {
 
         $obj = new RepertoireCol();
 
@@ -215,7 +215,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTel4() {
+    public function testSetFlagTel4(): void {
 
         $obj = new RepertoireCol();
 
@@ -228,7 +228,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLdapAdsPath() {
+    public function testSetLdapAdsPath(): void {
 
         $obj = new RepertoireCol();
 
@@ -241,7 +241,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new RepertoireCol();
 
@@ -254,7 +254,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumSousRep() {
+    public function testSetNumSousRep(): void {
 
         $obj = new RepertoireCol();
 
@@ -267,7 +267,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new RepertoireCol();
 
@@ -280,7 +280,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new RepertoireCol();
 
@@ -293,7 +293,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel() {
+    public function testSetTel(): void {
 
         $obj = new RepertoireCol();
 
@@ -306,7 +306,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel2() {
+    public function testSetTel2(): void {
 
         $obj = new RepertoireCol();
 
@@ -319,7 +319,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel3() {
+    public function testSetTel3(): void {
 
         $obj = new RepertoireCol();
 
@@ -332,7 +332,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel4() {
+    public function testSetTel4(): void {
 
         $obj = new RepertoireCol();
 
@@ -345,7 +345,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new RepertoireCol();
 
@@ -358,7 +358,7 @@ class RepertoireColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RepertoireCol();
 

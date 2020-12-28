@@ -29,7 +29,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseAf() {
+    public function testSetBaseAf(): void {
 
         $obj = new RegularisationAf();
 
@@ -42,7 +42,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new RegularisationAf();
 
@@ -55,7 +55,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceBulDeb() {
+    public function testSetIndiceBulDeb(): void {
 
         $obj = new RegularisationAf();
 
@@ -68,7 +68,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceBulFin() {
+    public function testSetIndiceBulFin(): void {
 
         $obj = new RegularisationAf();
 
@@ -81,7 +81,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new RegularisationAf();
 
@@ -94,7 +94,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new RegularisationAf();
 
@@ -108,7 +108,7 @@ class RegularisationAfTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerBulDeb() {
+    public function testSetPerBulDeb(): void {
 
         // Set a Date/time mock.
         $perBulDeb = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class RegularisationAfTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerBulFin() {
+    public function testSetPerBulFin(): void {
 
         // Set a Date/time mock.
         $perBulFin = new DateTime("2018-09-10");
@@ -142,7 +142,7 @@ class RegularisationAfTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -158,7 +158,7 @@ class RegularisationAfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RegularisationAf();
 

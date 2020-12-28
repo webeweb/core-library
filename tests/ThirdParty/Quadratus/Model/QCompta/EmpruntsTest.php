@@ -29,7 +29,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAEchoirEchu() {
+    public function testSetAEchoirEchu(): void {
 
         $obj = new Emprunts();
 
@@ -42,7 +42,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorie() {
+    public function testSetCategorie(): void {
 
         $obj = new Emprunts();
 
@@ -55,7 +55,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreAnalytique() {
+    public function testSetCentreAnalytique(): void {
 
         $obj = new Emprunts();
 
@@ -68,7 +68,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new Emprunts();
 
@@ -81,7 +81,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptAssuranceEmprunt() {
+    public function testSetCptAssuranceEmprunt(): void {
 
         $obj = new Emprunts();
 
@@ -94,7 +94,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptEmprunt() {
+    public function testSetCptEmprunt(): void {
 
         $obj = new Emprunts();
 
@@ -107,7 +107,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptInteretEmprunt() {
+    public function testSetCptInteretEmprunt(): void {
 
         $obj = new Emprunts();
 
@@ -121,7 +121,7 @@ class EmpruntsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateOuverture() {
+    public function testSetDateOuverture(): void {
 
         // Set a Date/time mock.
         $dateOuverture = new DateTime("2018-09-10");
@@ -138,7 +138,7 @@ class EmpruntsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePremiereEcheance() {
+    public function testSetDatePremiereEcheance(): void {
 
         // Set a Date/time mock.
         $datePremiereEcheance = new DateTime("2018-09-10");
@@ -154,7 +154,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiffere() {
+    public function testSetDiffere(): void {
 
         $obj = new Emprunts();
 
@@ -167,7 +167,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new Emprunts();
 
@@ -180,7 +180,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmpruntEnFrancs() {
+    public function testSetEmpruntEnFrancs(): void {
 
         $obj = new Emprunts();
 
@@ -193,7 +193,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdentification() {
+    public function testSetIdentification(): void {
 
         $obj = new Emprunts();
 
@@ -206,7 +206,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisAnnee() {
+    public function testSetMoisAnnee(): void {
 
         $obj = new Emprunts();
 
@@ -219,7 +219,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAssurance() {
+    public function testSetMontantAssurance(): void {
 
         $obj = new Emprunts();
 
@@ -232,7 +232,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantEmprunte() {
+    public function testSetMontantEmprunte(): void {
 
         $obj = new Emprunts();
 
@@ -245,7 +245,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCapitalFixeRemb() {
+    public function testSetMtCapitalFixeRemb(): void {
 
         $obj = new Emprunts();
 
@@ -258,7 +258,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new Emprunts();
 
@@ -271,7 +271,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNatureAnalytique() {
+    public function testSetNatureAnalytique(): void {
 
         $obj = new Emprunts();
 
@@ -284,7 +284,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Emprunts();
 
@@ -297,7 +297,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new Emprunts();
 
@@ -310,7 +310,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new Emprunts();
 
@@ -323,7 +323,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new Emprunts();
 
@@ -336,7 +336,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxAssurance() {
+    public function testSetTauxAssurance(): void {
 
         $obj = new Emprunts();
 
@@ -349,7 +349,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxInteret() {
+    public function testSetTauxInteret(): void {
 
         $obj = new Emprunts();
 
@@ -362,7 +362,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeInFine() {
+    public function testSetTypeInFine(): void {
 
         $obj = new Emprunts();
 
@@ -375,7 +375,7 @@ class EmpruntsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Emprunts();
 

@@ -29,7 +29,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testD() {
+    public function testD(): void {
 
         $obj = new Line(new Point(0, 0), new Point(3, 4));
 
@@ -41,7 +41,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeg() {
+    public function testDeg(): void {
 
         $obj = new Line(new Point(0, 0), new Point(5, 5));
 
@@ -53,7 +53,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testM() {
+    public function testM(): void {
 
         $obj = new Line(new Point(0, 0), new Point(5, 5));
 
@@ -65,7 +65,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testOriginallyAbscissa() {
+    public function testOriginallyAbscissa(): void {
 
         $obj = new Line(new Point(5, 10), new Point(10, 15));
 
@@ -79,7 +79,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testOriginallyOrdered() {
+    public function testOriginallyOrdered(): void {
 
         $obj = new Line(new Point(5, 10), new Point(10, 15));
 
@@ -93,7 +93,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRad() {
+    public function testRad(): void {
 
         $obj = new Line(new Point(0, 0), new Point(5, 5));
 
@@ -105,7 +105,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRotate() {
+    public function testRotate(): void {
 
         $obj = new Line(new Point(1, 1), new Point(5, 5));
 
@@ -121,7 +121,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetA() {
+    public function testSetA(): void {
 
         // Set a Point mock.
         $point = new Point();
@@ -137,7 +137,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetB() {
+    public function testSetB(): void {
 
         // Set a Point mock.
         $point = new Point();
@@ -153,7 +153,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Line();
 

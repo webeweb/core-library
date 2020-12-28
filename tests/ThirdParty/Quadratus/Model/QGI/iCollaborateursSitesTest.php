@@ -27,7 +27,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseIp() {
+    public function testSetAdresseIp(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -40,7 +40,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -53,7 +53,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossier() {
+    public function testSetDossier(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -66,7 +66,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAssist1() {
+    public function testSetRestrCliAssist1(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -79,7 +79,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAssist2() {
+    public function testSetRestrCliAssist2(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -92,7 +92,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAutre1() {
+    public function testSetRestrCliAutre1(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -105,7 +105,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAutre2() {
+    public function testSetRestrCliAutre2(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -118,7 +118,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliCollab() {
+    public function testSetRestrCliCollab(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -131,7 +131,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliExpert() {
+    public function testSetRestrCliExpert(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -144,7 +144,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliPortef() {
+    public function testSetRestrCliPortef(): void {
 
         $obj = new iCollaborateursSites();
 
@@ -157,7 +157,7 @@ class iCollaborateursSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iCollaborateursSites();
 

@@ -27,7 +27,7 @@ class PaginateHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetPageOffsetAndLimit() {
+    public function testGetPageOffsetAndLimit(): void {
 
         $this->assertEquals([-1, -1], PaginateHelper::getPageOffsetAndLimit(-1, 300));
         $this->assertEquals([-1, -1], PaginateHelper::getPageOffsetAndLimit(0, -1));
@@ -49,7 +49,7 @@ class PaginateHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetPagesCount() {
+    public function testGetPagesCount(): void {
 
         $this->assertEquals(-1, PaginateHelper::getPagesCount(-1, 300));
         $this->assertEquals(-1, PaginateHelper::getPagesCount(0, -1));

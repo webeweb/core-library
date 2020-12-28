@@ -27,7 +27,7 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCharge() {
+    public function testSetCodeCharge(): void {
 
         $obj = new RegroupementPostesCharges();
 
@@ -40,7 +40,7 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegCharge() {
+    public function testSetCodeRegCharge(): void {
 
         $obj = new RegroupementPostesCharges();
 
@@ -53,7 +53,7 @@ class RegroupementPostesChargesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RegroupementPostesCharges();
 

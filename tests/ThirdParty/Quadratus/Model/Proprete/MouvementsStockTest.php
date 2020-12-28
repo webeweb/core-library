@@ -29,7 +29,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBonSortie() {
+    public function testSetBonSortie(): void {
 
         $obj = new MouvementsStock();
 
@@ -42,7 +42,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new MouvementsStock();
 
@@ -55,7 +55,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new MouvementsStock();
 
@@ -68,7 +68,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new MouvementsStock();
 
@@ -81,7 +81,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new MouvementsStock();
 
@@ -94,7 +94,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDepot() {
+    public function testSetCodeDepot(): void {
 
         $obj = new MouvementsStock();
 
@@ -107,7 +107,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new MouvementsStock();
 
@@ -120,7 +120,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new MouvementsStock();
 
@@ -133,7 +133,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new MouvementsStock();
 
@@ -146,7 +146,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVariante() {
+    public function testSetCodeVariante(): void {
 
         $obj = new MouvementsStock();
 
@@ -159,7 +159,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new MouvementsStock();
 
@@ -173,7 +173,7 @@ class MouvementsStockTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEuro() {
+    public function testSetEuro(): void {
 
         $obj = new MouvementsStock();
 
@@ -202,7 +202,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndex() {
+    public function testSetIndex(): void {
 
         $obj = new MouvementsStock();
 
@@ -215,7 +215,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMouvementGenere() {
+    public function testSetMouvementGenere(): void {
 
         $obj = new MouvementsStock();
 
@@ -228,7 +228,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new MouvementsStock();
 
@@ -241,7 +241,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixU() {
+    public function testSetPrixU(): void {
 
         $obj = new MouvementsStock();
 
@@ -254,7 +254,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new MouvementsStock();
 
@@ -267,7 +267,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteVoulue() {
+    public function testSetQuantiteVoulue(): void {
 
         $obj = new MouvementsStock();
 
@@ -280,7 +280,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne1() {
+    public function testSetRemiseLigne1(): void {
 
         $obj = new MouvementsStock();
 
@@ -293,7 +293,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne2() {
+    public function testSetRemiseLigne2(): void {
 
         $obj = new MouvementsStock();
 
@@ -306,7 +306,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne3() {
+    public function testSetRemiseLigne3(): void {
 
         $obj = new MouvementsStock();
 
@@ -319,7 +319,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new MouvementsStock();
 
@@ -332,7 +332,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeGestion() {
+    public function testSetTypeGestion(): void {
 
         $obj = new MouvementsStock();
 
@@ -345,7 +345,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new MouvementsStock();
 
@@ -358,7 +358,7 @@ class MouvementsStockTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MouvementsStock();
 

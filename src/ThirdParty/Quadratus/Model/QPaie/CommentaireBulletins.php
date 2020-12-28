@@ -24,49 +24,49 @@ class CommentaireBulletins {
     /**
      * Commentaire1.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire1;
 
     /**
      * Commentaire2.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire2;
 
     /**
      * Commentaire3.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire3;
 
     /**
      * Commentaire4.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire4;
 
     /**
      * Commentaire5.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire5;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -80,84 +80,85 @@ class CommentaireBulletins {
     /**
      * Txt commentaire rtf.
      *
-     * @var string
+     * @var string|null
      */
     private $txtCommentaireRtf;
 
     /**
      * Txt commentaire saisi.
      *
-     * @var string
+     * @var string|null
      */
     private $txtCommentaireSaisi;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the commentaire1.
      *
-     * @return string Returns the commentaire1.
+     * @return string|null Returns the commentaire1.
      */
-    public function getCommentaire1() {
+    public function getCommentaire1(): ?string{
         return $this->commentaire1;
     }
 
     /**
      * Get the commentaire2.
      *
-     * @return string Returns the commentaire2.
+     * @return string|null Returns the commentaire2.
      */
-    public function getCommentaire2() {
+    public function getCommentaire2(): ?string{
         return $this->commentaire2;
     }
 
     /**
      * Get the commentaire3.
      *
-     * @return string Returns the commentaire3.
+     * @return string|null Returns the commentaire3.
      */
-    public function getCommentaire3() {
+    public function getCommentaire3(): ?string{
         return $this->commentaire3;
     }
 
     /**
      * Get the commentaire4.
      *
-     * @return string Returns the commentaire4.
+     * @return string|null Returns the commentaire4.
      */
-    public function getCommentaire4() {
+    public function getCommentaire4(): ?string{
         return $this->commentaire4;
     }
 
     /**
      * Get the commentaire5.
      *
-     * @return string Returns the commentaire5.
+     * @return string|null Returns the commentaire5.
      */
-    public function getCommentaire5() {
+    public function getCommentaire5(): ?string{
         return $this->commentaire5;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -166,35 +167,35 @@ class CommentaireBulletins {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the txt commentaire rtf.
      *
-     * @return string Returns the txt commentaire rtf.
+     * @return string|null Returns the txt commentaire rtf.
      */
-    public function getTxtCommentaireRtf() {
+    public function getTxtCommentaireRtf(): ?string{
         return $this->txtCommentaireRtf;
     }
 
     /**
      * Get the txt commentaire saisi.
      *
-     * @return string Returns the txt commentaire saisi.
+     * @return string|null Returns the txt commentaire saisi.
      */
-    public function getTxtCommentaireSaisi() {
+    public function getTxtCommentaireSaisi(): ?string{
         return $this->txtCommentaireSaisi;
     }
 
     /**
      * Set the commentaire1.
      *
-     * @param string $commentaire1 The commentaire1.
+     * @param string|null $commentaire1 The commentaire1.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setCommentaire1($commentaire1) {
+    public function setCommentaire1(?string $commentaire1): CommentaireBulletins {
         $this->commentaire1 = $commentaire1;
         return $this;
     }
@@ -202,10 +203,10 @@ class CommentaireBulletins {
     /**
      * Set the commentaire2.
      *
-     * @param string $commentaire2 The commentaire2.
+     * @param string|null $commentaire2 The commentaire2.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setCommentaire2($commentaire2) {
+    public function setCommentaire2(?string $commentaire2): CommentaireBulletins {
         $this->commentaire2 = $commentaire2;
         return $this;
     }
@@ -213,10 +214,10 @@ class CommentaireBulletins {
     /**
      * Set the commentaire3.
      *
-     * @param string $commentaire3 The commentaire3.
+     * @param string|null $commentaire3 The commentaire3.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setCommentaire3($commentaire3) {
+    public function setCommentaire3(?string $commentaire3): CommentaireBulletins {
         $this->commentaire3 = $commentaire3;
         return $this;
     }
@@ -224,10 +225,10 @@ class CommentaireBulletins {
     /**
      * Set the commentaire4.
      *
-     * @param string $commentaire4 The commentaire4.
+     * @param string|null $commentaire4 The commentaire4.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setCommentaire4($commentaire4) {
+    public function setCommentaire4(?string $commentaire4): CommentaireBulletins {
         $this->commentaire4 = $commentaire4;
         return $this;
     }
@@ -235,10 +236,10 @@ class CommentaireBulletins {
     /**
      * Set the commentaire5.
      *
-     * @param string $commentaire5 The commentaire5.
+     * @param string|null $commentaire5 The commentaire5.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setCommentaire5($commentaire5) {
+    public function setCommentaire5(?string $commentaire5): CommentaireBulletins {
         $this->commentaire5 = $commentaire5;
         return $this;
     }
@@ -246,10 +247,10 @@ class CommentaireBulletins {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): CommentaireBulletins {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -257,10 +258,10 @@ class CommentaireBulletins {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): CommentaireBulletins {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -271,7 +272,7 @@ class CommentaireBulletins {
      * @param DateTime|null $periode The periode.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): CommentaireBulletins {
         $this->periode = $periode;
         return $this;
     }
@@ -279,10 +280,10 @@ class CommentaireBulletins {
     /**
      * Set the txt commentaire rtf.
      *
-     * @param string $txtCommentaireRtf The txt commentaire rtf.
+     * @param string|null $txtCommentaireRtf The txt commentaire rtf.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setTxtCommentaireRtf($txtCommentaireRtf) {
+    public function setTxtCommentaireRtf(?string $txtCommentaireRtf): CommentaireBulletins {
         $this->txtCommentaireRtf = $txtCommentaireRtf;
         return $this;
     }
@@ -290,10 +291,10 @@ class CommentaireBulletins {
     /**
      * Set the txt commentaire saisi.
      *
-     * @param string $txtCommentaireSaisi The txt commentaire saisi.
+     * @param string|null $txtCommentaireSaisi The txt commentaire saisi.
      * @return CommentaireBulletins Returns this Commentaire bulletins.
      */
-    public function setTxtCommentaireSaisi($txtCommentaireSaisi) {
+    public function setTxtCommentaireSaisi(?string $txtCommentaireSaisi): CommentaireBulletins {
         $this->txtCommentaireSaisi = $txtCommentaireSaisi;
         return $this;
     }

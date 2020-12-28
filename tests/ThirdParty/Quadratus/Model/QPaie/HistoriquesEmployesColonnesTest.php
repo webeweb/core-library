@@ -27,7 +27,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClauseWhere() {
+    public function testSetClauseWhere(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -40,7 +40,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -53,7 +53,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceTri() {
+    public function testSetIndiceTri(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -66,7 +66,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -79,7 +79,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJointure() {
+    public function testSetJointure(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -92,7 +92,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomChamp() {
+    public function testSetNomChamp(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -105,7 +105,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomTable() {
+    public function testSetNomTable(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -118,7 +118,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefGuid() {
+    public function testSetRefGuid(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -131,7 +131,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisie() {
+    public function testSetSaisie(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -144,7 +144,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelection() {
+    public function testSetSelection(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -157,7 +157,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaille() {
+    public function testSetTaille(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -170,7 +170,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -183,7 +183,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetbEnGraph() {
+    public function testSetbEnGraph(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 
@@ -196,7 +196,7 @@ class HistoriquesEmployesColonnesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoriquesEmployesColonnes();
 

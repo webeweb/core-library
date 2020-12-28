@@ -27,7 +27,7 @@ class ConstTabVentilVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilArticle() {
+    public function testSetCodeVentilArticle(): void {
 
         $obj = new ConstTabVentilVente();
 
@@ -40,7 +40,7 @@ class ConstTabVentilVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilClient() {
+    public function testSetCodeVentilClient(): void {
 
         $obj = new ConstTabVentilVente();
 
@@ -53,7 +53,7 @@ class ConstTabVentilVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteVentil() {
+    public function testSetCompteVentil(): void {
 
         $obj = new ConstTabVentilVente();
 
@@ -66,7 +66,7 @@ class ConstTabVentilVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ConstTabVentilVente();
 
@@ -79,7 +79,7 @@ class ConstTabVentilVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstTabVentilVente();
 

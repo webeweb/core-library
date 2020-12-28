@@ -22,49 +22,50 @@ class ActionsCoConstantes {
     /**
      * Lieu edition.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuEdition;
 
     /**
      * Num declaration.
      *
-     * @var string
+     * @var string|null
      */
     private $numDeclaration;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the lieu edition.
      *
-     * @return string Returns the lieu edition.
+     * @return string|null Returns the lieu edition.
      */
-    public function getLieuEdition() {
+    public function getLieuEdition(): ?string{
         return $this->lieuEdition;
     }
 
     /**
      * Get the num declaration.
      *
-     * @return string Returns the num declaration.
+     * @return string|null Returns the num declaration.
      */
-    public function getNumDeclaration() {
+    public function getNumDeclaration(): ?string{
         return $this->numDeclaration;
     }
 
     /**
      * Set the lieu edition.
      *
-     * @param string $lieuEdition The lieu edition.
+     * @param string|null $lieuEdition The lieu edition.
      * @return ActionsCoConstantes Returns this Actions co constantes.
      */
-    public function setLieuEdition($lieuEdition) {
+    public function setLieuEdition(?string $lieuEdition): ActionsCoConstantes {
         $this->lieuEdition = $lieuEdition;
         return $this;
     }
@@ -72,10 +73,10 @@ class ActionsCoConstantes {
     /**
      * Set the num declaration.
      *
-     * @param string $numDeclaration The num declaration.
+     * @param string|null $numDeclaration The num declaration.
      * @return ActionsCoConstantes Returns this Actions co constantes.
      */
-    public function setNumDeclaration($numDeclaration) {
+    public function setNumDeclaration(?string $numDeclaration): ActionsCoConstantes {
         $this->numDeclaration = $numDeclaration;
         return $this;
     }

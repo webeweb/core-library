@@ -22,25 +22,25 @@ trait StringHashTrait {
     /**
      * Hash.
      *
-     * @var string
+     * @var string|null
      */
     protected $hash;
 
     /**
      * Get the hash.
      *
-     * @return string Returns the hash.
+     * @return string|null Returns the hash.
      */
-    public function getHash() {
+    public function getHash(): ?string {
         return $this->hash;
     }
 
     /**
      * Set the hash.
      *
-     * @param string $hash The hash.
+     * @param string|null $hash The hash.
      */
-    public function setHash($hash) {
+    public function setHash(?string $hash) {
         $this->hash = $hash;
         return $this;
     }

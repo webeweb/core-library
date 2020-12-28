@@ -22,65 +22,66 @@ class ConstPrimes {
     /**
      * Code prime q paie.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrimeQPaie;
 
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code prime q paie.
      *
-     * @return string Returns the code prime q paie.
+     * @return string|null Returns the code prime q paie.
      */
-    public function getCodePrimeQPaie() {
+    public function getCodePrimeQPaie(): ?string{
         return $this->codePrimeQPaie;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Set the code prime q paie.
      *
-     * @param string $codePrimeQPaie The code prime q paie.
+     * @param string|null $codePrimeQPaie The code prime q paie.
      * @return ConstPrimes Returns this Const primes.
      */
-    public function setCodePrimeQPaie($codePrimeQPaie) {
+    public function setCodePrimeQPaie(?string $codePrimeQPaie): ConstPrimes {
         $this->codePrimeQPaie = $codePrimeQPaie;
         return $this;
     }
@@ -88,10 +89,10 @@ class ConstPrimes {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return ConstPrimes Returns this Const primes.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): ConstPrimes {
         $this->indice = $indice;
         return $this;
     }
@@ -99,10 +100,10 @@ class ConstPrimes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ConstPrimes Returns this Const primes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ConstPrimes {
         $this->libelle = $libelle;
         return $this;
     }

@@ -27,7 +27,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -40,7 +40,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -53,7 +53,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -66,7 +66,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -79,7 +79,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauNoeud() {
+    public function testSetNiveauNoeud(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -92,7 +92,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoeudLocal() {
+    public function testSetNoeudLocal(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -105,7 +105,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -118,7 +118,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroNoeud() {
+    public function testSetNumeroNoeud(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -131,7 +131,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdNoeud() {
+    public function testSetUniqIdNoeud(): void {
 
         $obj = new DevisDescriptifLocaux();
 
@@ -144,7 +144,7 @@ class DevisDescriptifLocauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisDescriptifLocaux();
 

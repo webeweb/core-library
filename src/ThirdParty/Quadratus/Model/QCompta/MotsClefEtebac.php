@@ -22,129 +22,130 @@ class MotsClefEtebac {
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Liste comptes.
      *
-     * @var string
+     * @var string|null
      */
     private $listeComptes;
 
     /**
      * Mot.
      *
-     * @var string
+     * @var string|null
      */
     private $mot;
 
     /**
      * Numero compte depense.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompteDepense;
 
     /**
      * Numero compte recette.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompteRecette;
 
     /**
      * Regle.
      *
-     * @var string
+     * @var string|null
      */
     private $regle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the liste comptes.
      *
-     * @return string Returns the liste comptes.
+     * @return string|null Returns the liste comptes.
      */
-    public function getListeComptes() {
+    public function getListeComptes(): ?string{
         return $this->listeComptes;
     }
 
     /**
      * Get the mot.
      *
-     * @return string Returns the mot.
+     * @return string|null Returns the mot.
      */
-    public function getMot() {
+    public function getMot(): ?string{
         return $this->mot;
     }
 
     /**
      * Get the numero compte depense.
      *
-     * @return string Returns the numero compte depense.
+     * @return string|null Returns the numero compte depense.
      */
-    public function getNumeroCompteDepense() {
+    public function getNumeroCompteDepense(): ?string{
         return $this->numeroCompteDepense;
     }
 
     /**
      * Get the numero compte recette.
      *
-     * @return string Returns the numero compte recette.
+     * @return string|null Returns the numero compte recette.
      */
-    public function getNumeroCompteRecette() {
+    public function getNumeroCompteRecette(): ?string{
         return $this->numeroCompteRecette;
     }
 
     /**
      * Get the regle.
      *
-     * @return string Returns the regle.
+     * @return string|null Returns the regle.
      */
-    public function getRegle() {
+    public function getRegle(): ?string{
         return $this->regle;
     }
 
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): MotsClefEtebac {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -152,10 +153,10 @@ class MotsClefEtebac {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): MotsClefEtebac {
         $this->libelle = $libelle;
         return $this;
     }
@@ -163,10 +164,10 @@ class MotsClefEtebac {
     /**
      * Set the liste comptes.
      *
-     * @param string $listeComptes The liste comptes.
+     * @param string|null $listeComptes The liste comptes.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setListeComptes($listeComptes) {
+    public function setListeComptes(?string $listeComptes): MotsClefEtebac {
         $this->listeComptes = $listeComptes;
         return $this;
     }
@@ -174,10 +175,10 @@ class MotsClefEtebac {
     /**
      * Set the mot.
      *
-     * @param string $mot The mot.
+     * @param string|null $mot The mot.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setMot($mot) {
+    public function setMot(?string $mot): MotsClefEtebac {
         $this->mot = $mot;
         return $this;
     }
@@ -185,10 +186,10 @@ class MotsClefEtebac {
     /**
      * Set the numero compte depense.
      *
-     * @param string $numeroCompteDepense The numero compte depense.
+     * @param string|null $numeroCompteDepense The numero compte depense.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setNumeroCompteDepense($numeroCompteDepense) {
+    public function setNumeroCompteDepense(?string $numeroCompteDepense): MotsClefEtebac {
         $this->numeroCompteDepense = $numeroCompteDepense;
         return $this;
     }
@@ -196,10 +197,10 @@ class MotsClefEtebac {
     /**
      * Set the numero compte recette.
      *
-     * @param string $numeroCompteRecette The numero compte recette.
+     * @param string|null $numeroCompteRecette The numero compte recette.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setNumeroCompteRecette($numeroCompteRecette) {
+    public function setNumeroCompteRecette(?string $numeroCompteRecette): MotsClefEtebac {
         $this->numeroCompteRecette = $numeroCompteRecette;
         return $this;
     }
@@ -207,10 +208,10 @@ class MotsClefEtebac {
     /**
      * Set the regle.
      *
-     * @param string $regle The regle.
+     * @param string|null $regle The regle.
      * @return MotsClefEtebac Returns this Mots clef etebac.
      */
-    public function setRegle($regle) {
+    public function setRegle(?string $regle): MotsClefEtebac {
         $this->regle = $regle;
         return $this;
     }

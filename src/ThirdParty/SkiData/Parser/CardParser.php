@@ -39,7 +39,7 @@ class CardParser extends AbstractParser {
      * @return string Returns the parsed card.
      * @throws TooLongDataException Throws a too long data exception if a data is too long.
      */
-    public function parseEntity(Card $entity) {
+    public function parseEntity(Card $entity): string {
 
         $output = [
             $this->encodeString($entity->getTicketNumber(), 23),
@@ -52,7 +52,7 @@ class CardParser extends AbstractParser {
             $this->encodeInteger($entity->getProductionState(), 1),
             $this->encodeInteger($entity->getReasonProduction(), 1),
             $this->encodeInteger($entity->getProductionCounter(), 4),
-            $this->encodeBoolean($entity->getNeutral()),
+            $this->encodeBoolean($entity->getIsNeutral()),
             $this->encodeBoolean($entity->getRetainTicketEntry()),
             $this->encodeBoolean($entity->getEntryBarrierClosed()),
             $this->encodeBoolean($entity->getExitBarrierClosed()),
@@ -60,7 +60,7 @@ class CardParser extends AbstractParser {
             $this->encodeBoolean($entity->getDisplayText()),
             $this->encodeString($entity->getDisplayText1(), 16),
             $this->encodeString($entity->getDisplayText2(), 16),
-            $this->encodeInteger($entity->getPersonnalNo(), 4),
+            $this->encodeInteger($entity->getPersonalNo(), 4),
             $this->encodeInteger($entity->getResidualValue(), 12),
             $this->encodeString($entity->getSerialNumberKeyCardSwatch(), 20),
             $this->encodeString($entity->getCurrencyResidualValue(), 3),
@@ -83,7 +83,7 @@ class CardParser extends AbstractParser {
      * @return Card Returns a card.
      * @throws IntegerArgumentException Throws an integer argument exception.
      */
-    public function parseLine($line) {
+    public function parseLine(string $line): Card {
 
         $data = explode(";", $line);
 
@@ -100,7 +100,7 @@ class CardParser extends AbstractParser {
         $model->setProductionState(IntegerHelper::parseString($data[++$i]));
         $model->setReasonProduction(IntegerHelper::parseString($data[++$i]));
         $model->setProductionCounter(IntegerHelper::parseString($data[++$i]));
-        $model->setNeutral(BooleanHelper::parseString($data[++$i]));
+        $model->setIsNeutral(BooleanHelper::parseString($data[++$i]));
         $model->setRetainTicketEntry(BooleanHelper::parseString($data[++$i]));
         $model->setEntryBarrierClosed(BooleanHelper::parseString($data[++$i]));
         $model->setExitBarrierClosed(BooleanHelper::parseString($data[++$i]));
@@ -108,7 +108,7 @@ class CardParser extends AbstractParser {
         $model->setDisplayText(BooleanHelper::parseString($data[++$i]));
         $model->setDisplayText1($this->decodeString($data[++$i]));
         $model->setDisplayText2($this->decodeString($data[++$i]));
-        $model->setPersonnalNo(IntegerHelper::parseString($data[++$i]));
+        $model->setPersonalNo(IntegerHelper::parseString($data[++$i]));
         $model->setResidualValue(IntegerHelper::parseString($data[++$i]));
         $model->setSerialNumberKeyCardSwatch($this->decodeString($data[++$i]));
         $model->setCurrencyResidualValue($this->decodeString($data[++$i]));

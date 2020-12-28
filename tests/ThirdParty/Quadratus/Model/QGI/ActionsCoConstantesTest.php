@@ -27,7 +27,7 @@ class ActionsCoConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuEdition() {
+    public function testSetLieuEdition(): void {
 
         $obj = new ActionsCoConstantes();
 
@@ -40,7 +40,7 @@ class ActionsCoConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDeclaration() {
+    public function testSetNumDeclaration(): void {
 
         $obj = new ActionsCoConstantes();
 
@@ -53,7 +53,7 @@ class ActionsCoConstantesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCoConstantes();
 

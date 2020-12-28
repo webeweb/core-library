@@ -22,129 +22,130 @@ class DadsuAssuranceLignesContrat {
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code porteur risque.
      *
-     * @var string
+     * @var string|null
      */
     private $codePorteurRisque;
 
     /**
      * Designation commerciale.
      *
-     * @var string
+     * @var string|null
      */
     private $designationCommerciale;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
 
     /**
      * Unite gestion.
      *
-     * @var string
+     * @var string|null
      */
     private $uniteGestion;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code porteur risque.
      *
-     * @return string Returns the code porteur risque.
+     * @return string|null Returns the code porteur risque.
      */
-    public function getCodePorteurRisque() {
+    public function getCodePorteurRisque(): ?string{
         return $this->codePorteurRisque;
     }
 
     /**
      * Get the designation commerciale.
      *
-     * @return string Returns the designation commerciale.
+     * @return string|null Returns the designation commerciale.
      */
-    public function getDesignationCommerciale() {
+    public function getDesignationCommerciale(): ?string{
         return $this->designationCommerciale;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Get the unite gestion.
      *
-     * @return string Returns the unite gestion.
+     * @return string|null Returns the unite gestion.
      */
-    public function getUniteGestion() {
+    public function getUniteGestion(): ?string{
         return $this->uniteGestion;
     }
 
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): DadsuAssuranceLignesContrat {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -152,10 +153,10 @@ class DadsuAssuranceLignesContrat {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): DadsuAssuranceLignesContrat {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -163,10 +164,10 @@ class DadsuAssuranceLignesContrat {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuAssuranceLignesContrat {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -174,10 +175,10 @@ class DadsuAssuranceLignesContrat {
     /**
      * Set the code porteur risque.
      *
-     * @param string $codePorteurRisque The code porteur risque.
+     * @param string|null $codePorteurRisque The code porteur risque.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setCodePorteurRisque($codePorteurRisque) {
+    public function setCodePorteurRisque(?string $codePorteurRisque): DadsuAssuranceLignesContrat {
         $this->codePorteurRisque = $codePorteurRisque;
         return $this;
     }
@@ -185,10 +186,10 @@ class DadsuAssuranceLignesContrat {
     /**
      * Set the designation commerciale.
      *
-     * @param string $designationCommerciale The designation commerciale.
+     * @param string|null $designationCommerciale The designation commerciale.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setDesignationCommerciale($designationCommerciale) {
+    public function setDesignationCommerciale(?string $designationCommerciale): DadsuAssuranceLignesContrat {
         $this->designationCommerciale = $designationCommerciale;
         return $this;
     }
@@ -196,10 +197,10 @@ class DadsuAssuranceLignesContrat {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): DadsuAssuranceLignesContrat {
         $this->refContrat = $refContrat;
         return $this;
     }
@@ -207,10 +208,10 @@ class DadsuAssuranceLignesContrat {
     /**
      * Set the unite gestion.
      *
-     * @param string $uniteGestion The unite gestion.
+     * @param string|null $uniteGestion The unite gestion.
      * @return DadsuAssuranceLignesContrat Returns this Dadsu assurance lignes contrat.
      */
-    public function setUniteGestion($uniteGestion) {
+    public function setUniteGestion(?string $uniteGestion): DadsuAssuranceLignesContrat {
         $this->uniteGestion = $uniteGestion;
         return $this;
     }

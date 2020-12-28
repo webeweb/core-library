@@ -27,7 +27,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabMessages() {
+    public function testSetCodeCollabMessages(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -40,7 +40,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -53,7 +53,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossierClient() {
+    public function testSetDossierClient(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -66,7 +66,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDocuments() {
+    public function testSetFctDocuments(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -79,7 +79,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDocumentsAutre() {
+    public function testSetFctDocumentsAutre(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -92,7 +92,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDocumentsCompta() {
+    public function testSetFctDocumentsCompta(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -105,7 +105,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDocumentsJuridique() {
+    public function testSetFctDocumentsJuridique(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -118,7 +118,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDocumentsPaie() {
+    public function testSetFctDocumentsPaie(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -131,7 +131,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctInfos() {
+    public function testSetFctInfos(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -144,7 +144,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctMessagerie() {
+    public function testSetFctMessagerie(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -157,7 +157,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomUser() {
+    public function testSetNomUser(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -170,7 +170,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassword() {
+    public function testSetPassword(): void {
 
         $obj = new iEspaceClientDroits();
 
@@ -183,7 +183,7 @@ class iEspaceClientDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iEspaceClientDroits();
 

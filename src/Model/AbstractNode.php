@@ -55,11 +55,10 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @param string $id The id.
      */
-    protected function __construct($id) {
+    protected function __construct(string $id) {
         $this->setId($id);
         $this->setIndex([]);
         $this->setNodes([]);
-        $this->setParent(null);
     }
 
     /**
@@ -68,7 +67,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param AbstractNode $node The children node.
      * @return AbstractNode Returns this node.
      */
-    public function addNode(AbstractNode $node) {
+    public function addNode(AbstractNode $node): AbstractNode {
         $node->parent           = $this;
         $this->index[$node->id] = count($this->nodes);
         $this->nodes[]          = $node;
@@ -80,7 +79,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return AbstractNode Returns this node.
      */
-    public function clearNodes() {
+    public function clearNodes(): AbstractNode {
         foreach ($this->nodes as $node) {
             $this->removeNode($node);
         }
@@ -88,16 +87,16 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getAlphabeticalTreeNodeLabel() {
+    public function getAlphabeticalTreeNodeLabel(): string {
         return $this->id;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getAlphabeticalTreeNodeParent() {
+    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface {
         return $this->parent;
     }
 
@@ -106,7 +105,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return AbstractNode|null Returns the first node in case of success, null otherwise.
      */
-    public function getFirstNode() {
+    public function getFirstNode(): ?AbstractNode {
         return $this->getNodeAt(0);
     }
 
@@ -115,7 +114,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return string Returns the id.
      */
-    public function getId() {
+    public function getId(): string {
         return $this->id;
     }
 
@@ -124,7 +123,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return AbstractNode|null Returns the last node in case of success, null otherwise.
      */
-    public function getLastNode() {
+    public function getLastNode(): ?AbstractNode {
         return $this->getNodeAt(count($this->nodes) - 1);
     }
 
@@ -134,7 +133,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param int $position The position.
      * @return AbstractNode|null Returns the node in case of success, null otherwise.
      */
-    public function getNodeAt($position) {
+    public function getNodeAt(int $position): ?AbstractNode {
         if (0 <= $position && $position <= count($this->nodes) - 1) {
             return $this->nodes[$position];
         }
@@ -148,7 +147,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param bool $recursively Recursively ?
      * @return AbstractNode|null Returns a node in case of success, null otherwise.
      */
-    public function getNodeById($id, $recursively = false) {
+    public function getNodeById(string $id, $recursively = false): ?AbstractNode {
         $found = null;
         if (true === array_key_exists($id, $this->index)) {
             $found = $this->getNodeAt($this->index[$id]);
@@ -169,7 +168,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return AbstractNode[] Returns the nodes.
      */
-    public function getNodes() {
+    public function getNodes(): array {
         return $this->nodes;
     }
 
@@ -178,7 +177,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return AbstractNode Returns the parent.
      */
-    public function getParent() {
+    public function getParent(): ?AbstractNode {
         return $this->parent;
     }
 
@@ -188,7 +187,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param AbstractNode $node The children node.
      * @return AbstractNode Returns this node.
      */
-    public function removeNode(AbstractNode $node) {
+    public function removeNode(AbstractNode $node): AbstractNode {
         if (true === array_key_exists($node->id, $this->index)) {
             unset($this->nodes[$this->index[$node->id]]);
             unset($this->index[$node->id]);
@@ -203,7 +202,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param string $id The id.
      * @return AbstractNode Returns this node.
      */
-    protected function setId($id) {
+    protected function setId(string $id): AbstractNode {
         $this->id = $id;
         return $this;
     }
@@ -214,7 +213,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param array $index The index.
      * @return AbstractNode Returns this node.
      */
-    protected function setIndex(array $index) {
+    protected function setIndex(array $index): AbstractNode {
         $this->index = $index;
         return $this;
     }
@@ -225,7 +224,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param AbstractNode[] $nodes The nodes.
      * @return AbstractNode Returns this node.
      */
-    protected function setNodes(array $nodes) {
+    protected function setNodes(array $nodes): AbstractNode {
         $this->nodes = $nodes;
         return $this;
     }
@@ -233,10 +232,10 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     /**
      * Set the parent.
      *
-     * @param AbstractNode $parent The parent.
+     * @param AbstractNode|null $parent The parent.
      * @return AbstractNode Returns this node.
      */
-    protected function setParent(AbstractNode $parent = null) {
+    protected function setParent(AbstractNode $parent = null): AbstractNode {
         $this->parent = $parent;
         return $this;
     }
@@ -246,7 +245,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      *
      * @return int Returns the size.
      */
-    public function size() {
+    public function size(): int {
         return count($this->nodes);
     }
 }

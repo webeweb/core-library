@@ -29,7 +29,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAncienAssedic() {
+    public function testSetAncienAssedic(): void {
 
         $obj = new AttestationExtras();
 
@@ -42,7 +42,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAncienGarp() {
+    public function testSetAncienGarp(): void {
 
         $obj = new AttestationExtras();
 
@@ -55,7 +55,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new AttestationExtras();
 
@@ -68,7 +68,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMotifRupture() {
+    public function testSetCodeMotifRupture(): void {
 
         $obj = new AttestationExtras();
 
@@ -81,7 +81,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNaf() {
+    public function testSetCodeNaf(): void {
 
         $obj = new AttestationExtras();
 
@@ -94,7 +94,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEffectif() {
+    public function testSetEffectif(): void {
 
         $obj = new AttestationExtras();
 
@@ -107,7 +107,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmploi() {
+    public function testSetEmploi(): void {
 
         $obj = new AttestationExtras();
 
@@ -120,7 +120,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblAdresse() {
+    public function testSetEtblAdresse(): void {
 
         $obj = new AttestationExtras();
 
@@ -133,7 +133,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblRaisonSociale() {
+    public function testSetEtblRaisonSociale(): void {
 
         $obj = new AttestationExtras();
 
@@ -146,7 +146,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblTel() {
+    public function testSetEtblTel(): void {
 
         $obj = new AttestationExtras();
 
@@ -159,7 +159,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new AttestationExtras();
 
@@ -172,7 +172,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNir() {
+    public function testSetNir(): void {
 
         $obj = new AttestationExtras();
 
@@ -185,7 +185,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomEmploye() {
+    public function testSetNomEmploye(): void {
 
         $obj = new AttestationExtras();
 
@@ -198,7 +198,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomPoleEmploi() {
+    public function testSetNomPoleEmploi(): void {
 
         $obj = new AttestationExtras();
 
@@ -211,7 +211,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomRegimeRetraite() {
+    public function testSetNomRegimeRetraite(): void {
 
         $obj = new AttestationExtras();
 
@@ -224,7 +224,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAffiliation() {
+    public function testSetNumeroAffiliation(): void {
 
         $obj = new AttestationExtras();
 
@@ -237,7 +237,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new AttestationExtras();
 
@@ -250,7 +250,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new AttestationExtras();
 
@@ -264,7 +264,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEmploiDeb() {
+    public function testSetPeriodeEmploiDeb(): void {
 
         // Set a Date/time mock.
         $periodeEmploiDeb = new DateTime("2018-09-10");
@@ -281,7 +281,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEmploiFin() {
+    public function testSetPeriodeEmploiFin(): void {
 
         // Set a Date/time mock.
         $periodeEmploiFin = new DateTime("2018-09-10");
@@ -297,7 +297,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new AttestationExtras();
 
@@ -311,7 +311,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSignatureDate() {
+    public function testSetSignatureDate(): void {
 
         // Set a Date/time mock.
         $signatureDate = new DateTime("2018-09-10");
@@ -327,7 +327,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignatureNom() {
+    public function testSetSignatureNom(): void {
 
         $obj = new AttestationExtras();
 
@@ -340,7 +340,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignatureQualite() {
+    public function testSetSignatureQualite(): void {
 
         $obj = new AttestationExtras();
 
@@ -353,7 +353,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignatureVille() {
+    public function testSetSignatureVille(): void {
 
         $obj = new AttestationExtras();
 
@@ -366,7 +366,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiret() {
+    public function testSetSiret(): void {
 
         $obj = new AttestationExtras();
 
@@ -379,7 +379,7 @@ class AttestationExtrasTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AttestationExtras();
 

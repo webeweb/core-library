@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Serializer;
+namespace WBW\Library\Core\Tests\ThirdParty\Adoria\Serializer;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
@@ -21,7 +21,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Serializer\ResponseDeserializer;
  * Response deserializer test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Serializer
+ * @package WBW\Library\Core\Tests\ThirdParty\Adoria\Serializer
  */
 class ResponseDeserializerTest extends AbstractTestCase {
 
@@ -80,7 +80,7 @@ JSON;
      *
      * @return void
      */
-    public function testDeserializeLine() {
+    public function testDeserializeLine(): void {
 
         $obj = ResponseDeserializer::deserializeLine(self::RAW_RESPONSE_LINE);
 
@@ -105,7 +105,7 @@ JSON;
      *
      * @return void
      */
-    public function testDeserializeResult() {
+    public function testDeserializeResult(): void {
 
         $obj = ResponseDeserializer::deserializeResult(self::RAW_RESPONSE_RESULT);
 
@@ -134,7 +134,7 @@ JSON;
      *
      * @return void
      */
-    public function testDeserializeResultWithMalformedResponse() {
+    public function testDeserializeResultWithMalformedResponse(): void {
 
         $obj = ResponseDeserializer::deserializeResult("");
 
@@ -150,7 +150,7 @@ JSON;
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $this->assertEquals(RequestSerializer::REQUEST_DATE_FORMAT, ResponseDeserializer::RESPONSE_DATE_FORMAT);
     }

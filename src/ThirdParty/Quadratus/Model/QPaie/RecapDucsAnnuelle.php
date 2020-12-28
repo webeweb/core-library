@@ -24,42 +24,42 @@ class RecapDucsAnnuelle {
     /**
      * A editer ducs.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aEditerDucs;
 
     /**
      * Acompte.
      *
-     * @var float
+     * @var float|null
      */
     private $acompte;
 
     /**
      * Arrondi base.
      *
-     * @var string
+     * @var string|null
      */
     private $arrondiBase;
 
     /**
      * Arrondi cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $arrondiCotis;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
@@ -80,28 +80,28 @@ class RecapDucsAnnuelle {
     /**
      * Ducs euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ducsEuro;
 
     /**
      * Effectif inscrit.
      *
-     * @var int
+     * @var int|null
      */
     private $effectifInscrit;
 
     /**
      * Effectif moyen.
      *
-     * @var float
+     * @var float|null
      */
     private $effectifMoyen;
 
     /**
      * Effectif paye.
      *
-     * @var int
+     * @var int|null
      */
     private $effectifPaye;
 
@@ -115,105 +115,105 @@ class RecapDucsAnnuelle {
     /**
      * Grand decalage.
      *
-     * @var bool
+     * @var bool|null
      */
     private $grandDecalage;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Methode calcul cicehe.
      *
-     * @var string
+     * @var string|null
      */
     private $methodeCalculCicehe;
 
     /**
      * Montant total.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTotal;
 
     /**
      * Motif ecart eff.
      *
-     * @var string
+     * @var string|null
      */
     private $motifEcartEff;
 
     /**
      * Mt aide ct aides.
      *
-     * @var float
+     * @var float|null
      */
     private $mtAideCtAides;
 
     /**
      * Mt brut dads.
      *
-     * @var float
+     * @var float|null
      */
     private $mtBrutDads;
 
     /**
      * Mt regul lodeom.
      *
-     * @var float
+     * @var float|null
      */
     private $mtRegulLodeom;
 
     /**
      * Nb autres.
      *
-     * @var float
+     * @var float|null
      */
     private $nbAutres;
 
     /**
      * Nb femmes.
      *
-     * @var float
+     * @var float|null
      */
     private $nbFemmes;
 
     /**
      * Nb fin contrat.
      *
-     * @var float
+     * @var float|null
      */
     private $nbFinContrat;
 
     /**
      * Nb hommes.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHommes;
 
     /**
      * No affiliation.
      *
-     * @var string
+     * @var string|null
      */
     private $noAffiliation;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
 
     /**
      * Paie decalee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $paieDecalee;
 
@@ -234,7 +234,7 @@ class RecapDucsAnnuelle {
     /**
      * Periode.
      *
-     * @var string
+     * @var string|null
      */
     private $periode;
 
@@ -248,7 +248,7 @@ class RecapDucsAnnuelle {
     /**
      * Petit decalage.
      *
-     * @var bool
+     * @var bool|null
      */
     private $petitDecalage;
 
@@ -262,194 +262,195 @@ class RecapDucsAnnuelle {
     /**
      * Raison sociale.
      *
-     * @var string
+     * @var string|null
      */
     private $raisonSociale;
 
     /**
      * Recap ducs1.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs1;
 
     /**
      * Recap ducs10.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs10;
 
     /**
      * Recap ducs11.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs11;
 
     /**
      * Recap ducs12.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs12;
 
     /**
      * Recap ducs13.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs13;
 
     /**
      * Recap ducs2.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs2;
 
     /**
      * Recap ducs3.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs3;
 
     /**
      * Recap ducs4.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs4;
 
     /**
      * Recap ducs5.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs5;
 
     /**
      * Recap ducs6.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs6;
 
     /**
      * Recap ducs7.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs7;
 
     /**
      * Recap ducs8.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs8;
 
     /**
      * Recap ducs9.
      *
-     * @var float
+     * @var float|null
      */
     private $recapDucs9;
 
     /**
      * Regul ducs.
      *
-     * @var float
+     * @var float|null
      */
     private $regulDucs;
 
     /**
      * Rib.
      *
-     * @var string
+     * @var string|null
      */
     private $rib;
 
     /**
      * Sous type organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $sousTypeOrganisme;
 
     /**
      * Traiter edi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $traiterEdi;
 
     /**
      * Type organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $typeOrganisme;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a editer ducs.
      *
-     * @return bool Returns the a editer ducs.
+     * @return bool|null Returns the a editer ducs.
      */
-    public function getAEditerDucs() {
+    public function getAEditerDucs(): ?bool{
         return $this->aEditerDucs;
     }
 
     /**
      * Get the acompte.
      *
-     * @return float Returns the acompte.
+     * @return float|null Returns the acompte.
      */
-    public function getAcompte() {
+    public function getAcompte(): ?float{
         return $this->acompte;
     }
 
     /**
      * Get the arrondi base.
      *
-     * @return string Returns the arrondi base.
+     * @return string|null Returns the arrondi base.
      */
-    public function getArrondiBase() {
+    public function getArrondiBase(): ?string{
         return $this->arrondiBase;
     }
 
     /**
      * Get the arrondi cotis.
      *
-     * @return string Returns the arrondi cotis.
+     * @return string|null Returns the arrondi cotis.
      */
-    public function getArrondiCotis() {
+    public function getArrondiCotis(): ?string{
         return $this->arrondiCotis;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
@@ -458,7 +459,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the date reglement.
      */
-    public function getDateReglement() {
+    public function getDateReglement(): ?DateTime{
         return $this->dateReglement;
     }
 
@@ -467,43 +468,43 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the date verse salaire.
      */
-    public function getDateVerseSalaire() {
+    public function getDateVerseSalaire(): ?DateTime{
         return $this->dateVerseSalaire;
     }
 
     /**
      * Get the ducs euro.
      *
-     * @return bool Returns the ducs euro.
+     * @return bool|null Returns the ducs euro.
      */
-    public function getDucsEuro() {
+    public function getDucsEuro(): ?bool{
         return $this->ducsEuro;
     }
 
     /**
      * Get the effectif inscrit.
      *
-     * @return int Returns the effectif inscrit.
+     * @return int|null Returns the effectif inscrit.
      */
-    public function getEffectifInscrit() {
+    public function getEffectifInscrit(): ?int{
         return $this->effectifInscrit;
     }
 
     /**
      * Get the effectif moyen.
      *
-     * @return float Returns the effectif moyen.
+     * @return float|null Returns the effectif moyen.
      */
-    public function getEffectifMoyen() {
+    public function getEffectifMoyen(): ?float{
         return $this->effectifMoyen;
     }
 
     /**
      * Get the effectif paye.
      *
-     * @return int Returns the effectif paye.
+     * @return int|null Returns the effectif paye.
      */
-    public function getEffectifPaye() {
+    public function getEffectifPaye(): ?int{
         return $this->effectifPaye;
     }
 
@@ -512,142 +513,142 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the fin per.
      */
-    public function getFinPer() {
+    public function getFinPer(): ?DateTime{
         return $this->finPer;
     }
 
     /**
      * Get the grand decalage.
      *
-     * @return bool Returns the grand decalage.
+     * @return bool|null Returns the grand decalage.
      */
-    public function getGrandDecalage() {
+    public function getGrandDecalage(): ?bool{
         return $this->grandDecalage;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the methode calcul cicehe.
      *
-     * @return string Returns the methode calcul cicehe.
+     * @return string|null Returns the methode calcul cicehe.
      */
-    public function getMethodeCalculCicehe() {
+    public function getMethodeCalculCicehe(): ?string{
         return $this->methodeCalculCicehe;
     }
 
     /**
      * Get the montant total.
      *
-     * @return float Returns the montant total.
+     * @return float|null Returns the montant total.
      */
-    public function getMontantTotal() {
+    public function getMontantTotal(): ?float{
         return $this->montantTotal;
     }
 
     /**
      * Get the motif ecart eff.
      *
-     * @return string Returns the motif ecart eff.
+     * @return string|null Returns the motif ecart eff.
      */
-    public function getMotifEcartEff() {
+    public function getMotifEcartEff(): ?string{
         return $this->motifEcartEff;
     }
 
     /**
      * Get the mt aide ct aides.
      *
-     * @return float Returns the mt aide ct aides.
+     * @return float|null Returns the mt aide ct aides.
      */
-    public function getMtAideCtAides() {
+    public function getMtAideCtAides(): ?float{
         return $this->mtAideCtAides;
     }
 
     /**
      * Get the mt brut dads.
      *
-     * @return float Returns the mt brut dads.
+     * @return float|null Returns the mt brut dads.
      */
-    public function getMtBrutDads() {
+    public function getMtBrutDads(): ?float{
         return $this->mtBrutDads;
     }
 
     /**
      * Get the mt regul lodeom.
      *
-     * @return float Returns the mt regul lodeom.
+     * @return float|null Returns the mt regul lodeom.
      */
-    public function getMtRegulLodeom() {
+    public function getMtRegulLodeom(): ?float{
         return $this->mtRegulLodeom;
     }
 
     /**
      * Get the nb autres.
      *
-     * @return float Returns the nb autres.
+     * @return float|null Returns the nb autres.
      */
-    public function getNbAutres() {
+    public function getNbAutres(): ?float{
         return $this->nbAutres;
     }
 
     /**
      * Get the nb femmes.
      *
-     * @return float Returns the nb femmes.
+     * @return float|null Returns the nb femmes.
      */
-    public function getNbFemmes() {
+    public function getNbFemmes(): ?float{
         return $this->nbFemmes;
     }
 
     /**
      * Get the nb fin contrat.
      *
-     * @return float Returns the nb fin contrat.
+     * @return float|null Returns the nb fin contrat.
      */
-    public function getNbFinContrat() {
+    public function getNbFinContrat(): ?float{
         return $this->nbFinContrat;
     }
 
     /**
      * Get the nb hommes.
      *
-     * @return float Returns the nb hommes.
+     * @return float|null Returns the nb hommes.
      */
-    public function getNbHommes() {
+    public function getNbHommes(): ?float{
         return $this->nbHommes;
     }
 
     /**
      * Get the no affiliation.
      *
-     * @return string Returns the no affiliation.
+     * @return string|null Returns the no affiliation.
      */
-    public function getNoAffiliation() {
+    public function getNoAffiliation(): ?string{
         return $this->noAffiliation;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
     /**
      * Get the paie decalee.
      *
-     * @return bool Returns the paie decalee.
+     * @return bool|null Returns the paie decalee.
      */
-    public function getPaieDecalee() {
+    public function getPaieDecalee(): ?bool{
         return $this->paieDecalee;
     }
 
@@ -656,7 +657,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the per deb cice.
      */
-    public function getPerDebCice() {
+    public function getPerDebCice(): ?DateTime{
         return $this->perDebCice;
     }
 
@@ -665,16 +666,16 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the per fin cice.
      */
-    public function getPerFinCice() {
+    public function getPerFinCice(): ?DateTime{
         return $this->perFinCice;
     }
 
     /**
      * Get the periode.
      *
-     * @return string Returns the periode.
+     * @return string|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?string{
         return $this->periode;
     }
 
@@ -683,16 +684,16 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla() {
+    public function getPeriodeDecla(): ?DateTime{
         return $this->periodeDecla;
     }
 
     /**
      * Get the petit decalage.
      *
-     * @return bool Returns the petit decalage.
+     * @return bool|null Returns the petit decalage.
      */
-    public function getPetitDecalage() {
+    public function getPetitDecalage(): ?bool{
         return $this->petitDecalage;
     }
 
@@ -701,188 +702,188 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the prem mois.
      */
-    public function getPremMois() {
+    public function getPremMois(): ?DateTime{
         return $this->premMois;
     }
 
     /**
      * Get the raison sociale.
      *
-     * @return string Returns the raison sociale.
+     * @return string|null Returns the raison sociale.
      */
-    public function getRaisonSociale() {
+    public function getRaisonSociale(): ?string{
         return $this->raisonSociale;
     }
 
     /**
      * Get the recap ducs1.
      *
-     * @return float Returns the recap ducs1.
+     * @return float|null Returns the recap ducs1.
      */
-    public function getRecapDucs1() {
+    public function getRecapDucs1(): ?float{
         return $this->recapDucs1;
     }
 
     /**
      * Get the recap ducs10.
      *
-     * @return float Returns the recap ducs10.
+     * @return float|null Returns the recap ducs10.
      */
-    public function getRecapDucs10() {
+    public function getRecapDucs10(): ?float{
         return $this->recapDucs10;
     }
 
     /**
      * Get the recap ducs11.
      *
-     * @return float Returns the recap ducs11.
+     * @return float|null Returns the recap ducs11.
      */
-    public function getRecapDucs11() {
+    public function getRecapDucs11(): ?float{
         return $this->recapDucs11;
     }
 
     /**
      * Get the recap ducs12.
      *
-     * @return float Returns the recap ducs12.
+     * @return float|null Returns the recap ducs12.
      */
-    public function getRecapDucs12() {
+    public function getRecapDucs12(): ?float{
         return $this->recapDucs12;
     }
 
     /**
      * Get the recap ducs13.
      *
-     * @return float Returns the recap ducs13.
+     * @return float|null Returns the recap ducs13.
      */
-    public function getRecapDucs13() {
+    public function getRecapDucs13(): ?float{
         return $this->recapDucs13;
     }
 
     /**
      * Get the recap ducs2.
      *
-     * @return float Returns the recap ducs2.
+     * @return float|null Returns the recap ducs2.
      */
-    public function getRecapDucs2() {
+    public function getRecapDucs2(): ?float{
         return $this->recapDucs2;
     }
 
     /**
      * Get the recap ducs3.
      *
-     * @return float Returns the recap ducs3.
+     * @return float|null Returns the recap ducs3.
      */
-    public function getRecapDucs3() {
+    public function getRecapDucs3(): ?float{
         return $this->recapDucs3;
     }
 
     /**
      * Get the recap ducs4.
      *
-     * @return float Returns the recap ducs4.
+     * @return float|null Returns the recap ducs4.
      */
-    public function getRecapDucs4() {
+    public function getRecapDucs4(): ?float{
         return $this->recapDucs4;
     }
 
     /**
      * Get the recap ducs5.
      *
-     * @return float Returns the recap ducs5.
+     * @return float|null Returns the recap ducs5.
      */
-    public function getRecapDucs5() {
+    public function getRecapDucs5(): ?float{
         return $this->recapDucs5;
     }
 
     /**
      * Get the recap ducs6.
      *
-     * @return float Returns the recap ducs6.
+     * @return float|null Returns the recap ducs6.
      */
-    public function getRecapDucs6() {
+    public function getRecapDucs6(): ?float{
         return $this->recapDucs6;
     }
 
     /**
      * Get the recap ducs7.
      *
-     * @return float Returns the recap ducs7.
+     * @return float|null Returns the recap ducs7.
      */
-    public function getRecapDucs7() {
+    public function getRecapDucs7(): ?float{
         return $this->recapDucs7;
     }
 
     /**
      * Get the recap ducs8.
      *
-     * @return float Returns the recap ducs8.
+     * @return float|null Returns the recap ducs8.
      */
-    public function getRecapDucs8() {
+    public function getRecapDucs8(): ?float{
         return $this->recapDucs8;
     }
 
     /**
      * Get the recap ducs9.
      *
-     * @return float Returns the recap ducs9.
+     * @return float|null Returns the recap ducs9.
      */
-    public function getRecapDucs9() {
+    public function getRecapDucs9(): ?float{
         return $this->recapDucs9;
     }
 
     /**
      * Get the regul ducs.
      *
-     * @return float Returns the regul ducs.
+     * @return float|null Returns the regul ducs.
      */
-    public function getRegulDucs() {
+    public function getRegulDucs(): ?float{
         return $this->regulDucs;
     }
 
     /**
      * Get the rib.
      *
-     * @return string Returns the rib.
+     * @return string|null Returns the rib.
      */
-    public function getRib() {
+    public function getRib(): ?string{
         return $this->rib;
     }
 
     /**
      * Get the sous type organisme.
      *
-     * @return string Returns the sous type organisme.
+     * @return string|null Returns the sous type organisme.
      */
-    public function getSousTypeOrganisme() {
+    public function getSousTypeOrganisme(): ?string{
         return $this->sousTypeOrganisme;
     }
 
     /**
      * Get the traiter edi.
      *
-     * @return bool Returns the traiter edi.
+     * @return bool|null Returns the traiter edi.
      */
-    public function getTraiterEdi() {
+    public function getTraiterEdi(): ?bool{
         return $this->traiterEdi;
     }
 
     /**
      * Get the type organisme.
      *
-     * @return string Returns the type organisme.
+     * @return string|null Returns the type organisme.
      */
-    public function getTypeOrganisme() {
+    public function getTypeOrganisme(): ?string{
         return $this->typeOrganisme;
     }
 
     /**
      * Set the a editer ducs.
      *
-     * @param bool $aEditerDucs The a editer ducs.
+     * @param bool|null $aEditerDucs The a editer ducs.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setAEditerDucs($aEditerDucs) {
+    public function setAEditerDucs(?bool $aEditerDucs): RecapDucsAnnuelle {
         $this->aEditerDucs = $aEditerDucs;
         return $this;
     }
@@ -890,10 +891,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the acompte.
      *
-     * @param float $acompte The acompte.
+     * @param float|null $acompte The acompte.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setAcompte($acompte) {
+    public function setAcompte(?float $acompte): RecapDucsAnnuelle {
         $this->acompte = $acompte;
         return $this;
     }
@@ -901,10 +902,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the arrondi base.
      *
-     * @param string $arrondiBase The arrondi base.
+     * @param string|null $arrondiBase The arrondi base.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setArrondiBase($arrondiBase) {
+    public function setArrondiBase(?string $arrondiBase): RecapDucsAnnuelle {
         $this->arrondiBase = $arrondiBase;
         return $this;
     }
@@ -912,10 +913,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the arrondi cotis.
      *
-     * @param string $arrondiCotis The arrondi cotis.
+     * @param string|null $arrondiCotis The arrondi cotis.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setArrondiCotis($arrondiCotis) {
+    public function setArrondiCotis(?string $arrondiCotis): RecapDucsAnnuelle {
         $this->arrondiCotis = $arrondiCotis;
         return $this;
     }
@@ -923,10 +924,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): RecapDucsAnnuelle {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -934,10 +935,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): RecapDucsAnnuelle {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -948,7 +949,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $dateReglement The date reglement.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setDateReglement(DateTime $dateReglement = null) {
+    public function setDateReglement(?DateTime $dateReglement): RecapDucsAnnuelle {
         $this->dateReglement = $dateReglement;
         return $this;
     }
@@ -959,7 +960,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $dateVerseSalaire The date verse salaire.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setDateVerseSalaire(DateTime $dateVerseSalaire = null) {
+    public function setDateVerseSalaire(?DateTime $dateVerseSalaire): RecapDucsAnnuelle {
         $this->dateVerseSalaire = $dateVerseSalaire;
         return $this;
     }
@@ -967,10 +968,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the ducs euro.
      *
-     * @param bool $ducsEuro The ducs euro.
+     * @param bool|null $ducsEuro The ducs euro.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setDucsEuro($ducsEuro) {
+    public function setDucsEuro(?bool $ducsEuro): RecapDucsAnnuelle {
         $this->ducsEuro = $ducsEuro;
         return $this;
     }
@@ -978,10 +979,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the effectif inscrit.
      *
-     * @param int $effectifInscrit The effectif inscrit.
+     * @param int|null $effectifInscrit The effectif inscrit.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setEffectifInscrit($effectifInscrit) {
+    public function setEffectifInscrit(?int $effectifInscrit): RecapDucsAnnuelle {
         $this->effectifInscrit = $effectifInscrit;
         return $this;
     }
@@ -989,10 +990,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the effectif moyen.
      *
-     * @param float $effectifMoyen The effectif moyen.
+     * @param float|null $effectifMoyen The effectif moyen.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setEffectifMoyen($effectifMoyen) {
+    public function setEffectifMoyen(?float $effectifMoyen): RecapDucsAnnuelle {
         $this->effectifMoyen = $effectifMoyen;
         return $this;
     }
@@ -1000,10 +1001,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the effectif paye.
      *
-     * @param int $effectifPaye The effectif paye.
+     * @param int|null $effectifPaye The effectif paye.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setEffectifPaye($effectifPaye) {
+    public function setEffectifPaye(?int $effectifPaye): RecapDucsAnnuelle {
         $this->effectifPaye = $effectifPaye;
         return $this;
     }
@@ -1014,7 +1015,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $finPer The fin per.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setFinPer(DateTime $finPer = null) {
+    public function setFinPer(?DateTime $finPer): RecapDucsAnnuelle {
         $this->finPer = $finPer;
         return $this;
     }
@@ -1022,10 +1023,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the grand decalage.
      *
-     * @param bool $grandDecalage The grand decalage.
+     * @param bool|null $grandDecalage The grand decalage.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setGrandDecalage($grandDecalage) {
+    public function setGrandDecalage(?bool $grandDecalage): RecapDucsAnnuelle {
         $this->grandDecalage = $grandDecalage;
         return $this;
     }
@@ -1033,10 +1034,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): RecapDucsAnnuelle {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -1044,10 +1045,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the methode calcul cicehe.
      *
-     * @param string $methodeCalculCicehe The methode calcul cicehe.
+     * @param string|null $methodeCalculCicehe The methode calcul cicehe.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setMethodeCalculCicehe($methodeCalculCicehe) {
+    public function setMethodeCalculCicehe(?string $methodeCalculCicehe): RecapDucsAnnuelle {
         $this->methodeCalculCicehe = $methodeCalculCicehe;
         return $this;
     }
@@ -1055,10 +1056,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the montant total.
      *
-     * @param float $montantTotal The montant total.
+     * @param float|null $montantTotal The montant total.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setMontantTotal($montantTotal) {
+    public function setMontantTotal(?float $montantTotal): RecapDucsAnnuelle {
         $this->montantTotal = $montantTotal;
         return $this;
     }
@@ -1066,10 +1067,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the motif ecart eff.
      *
-     * @param string $motifEcartEff The motif ecart eff.
+     * @param string|null $motifEcartEff The motif ecart eff.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setMotifEcartEff($motifEcartEff) {
+    public function setMotifEcartEff(?string $motifEcartEff): RecapDucsAnnuelle {
         $this->motifEcartEff = $motifEcartEff;
         return $this;
     }
@@ -1077,10 +1078,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the mt aide ct aides.
      *
-     * @param float $mtAideCtAides The mt aide ct aides.
+     * @param float|null $mtAideCtAides The mt aide ct aides.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setMtAideCtAides($mtAideCtAides) {
+    public function setMtAideCtAides(?float $mtAideCtAides): RecapDucsAnnuelle {
         $this->mtAideCtAides = $mtAideCtAides;
         return $this;
     }
@@ -1088,10 +1089,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the mt brut dads.
      *
-     * @param float $mtBrutDads The mt brut dads.
+     * @param float|null $mtBrutDads The mt brut dads.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setMtBrutDads($mtBrutDads) {
+    public function setMtBrutDads(?float $mtBrutDads): RecapDucsAnnuelle {
         $this->mtBrutDads = $mtBrutDads;
         return $this;
     }
@@ -1099,10 +1100,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the mt regul lodeom.
      *
-     * @param float $mtRegulLodeom The mt regul lodeom.
+     * @param float|null $mtRegulLodeom The mt regul lodeom.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setMtRegulLodeom($mtRegulLodeom) {
+    public function setMtRegulLodeom(?float $mtRegulLodeom): RecapDucsAnnuelle {
         $this->mtRegulLodeom = $mtRegulLodeom;
         return $this;
     }
@@ -1110,10 +1111,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the nb autres.
      *
-     * @param float $nbAutres The nb autres.
+     * @param float|null $nbAutres The nb autres.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setNbAutres($nbAutres) {
+    public function setNbAutres(?float $nbAutres): RecapDucsAnnuelle {
         $this->nbAutres = $nbAutres;
         return $this;
     }
@@ -1121,10 +1122,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the nb femmes.
      *
-     * @param float $nbFemmes The nb femmes.
+     * @param float|null $nbFemmes The nb femmes.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setNbFemmes($nbFemmes) {
+    public function setNbFemmes(?float $nbFemmes): RecapDucsAnnuelle {
         $this->nbFemmes = $nbFemmes;
         return $this;
     }
@@ -1132,10 +1133,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the nb fin contrat.
      *
-     * @param float $nbFinContrat The nb fin contrat.
+     * @param float|null $nbFinContrat The nb fin contrat.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setNbFinContrat($nbFinContrat) {
+    public function setNbFinContrat(?float $nbFinContrat): RecapDucsAnnuelle {
         $this->nbFinContrat = $nbFinContrat;
         return $this;
     }
@@ -1143,10 +1144,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the nb hommes.
      *
-     * @param float $nbHommes The nb hommes.
+     * @param float|null $nbHommes The nb hommes.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setNbHommes($nbHommes) {
+    public function setNbHommes(?float $nbHommes): RecapDucsAnnuelle {
         $this->nbHommes = $nbHommes;
         return $this;
     }
@@ -1154,10 +1155,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the no affiliation.
      *
-     * @param string $noAffiliation The no affiliation.
+     * @param string|null $noAffiliation The no affiliation.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setNoAffiliation($noAffiliation) {
+    public function setNoAffiliation(?string $noAffiliation): RecapDucsAnnuelle {
         $this->noAffiliation = $noAffiliation;
         return $this;
     }
@@ -1165,10 +1166,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): RecapDucsAnnuelle {
         $this->organisme = $organisme;
         return $this;
     }
@@ -1176,10 +1177,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the paie decalee.
      *
-     * @param bool $paieDecalee The paie decalee.
+     * @param bool|null $paieDecalee The paie decalee.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPaieDecalee($paieDecalee) {
+    public function setPaieDecalee(?bool $paieDecalee): RecapDucsAnnuelle {
         $this->paieDecalee = $paieDecalee;
         return $this;
     }
@@ -1190,7 +1191,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $perDebCice The per deb cice.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPerDebCice(DateTime $perDebCice = null) {
+    public function setPerDebCice(?DateTime $perDebCice): RecapDucsAnnuelle {
         $this->perDebCice = $perDebCice;
         return $this;
     }
@@ -1201,7 +1202,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $perFinCice The per fin cice.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPerFinCice(DateTime $perFinCice = null) {
+    public function setPerFinCice(?DateTime $perFinCice): RecapDucsAnnuelle {
         $this->perFinCice = $perFinCice;
         return $this;
     }
@@ -1209,10 +1210,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the periode.
      *
-     * @param string $periode The periode.
+     * @param string|null $periode The periode.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPeriode($periode) {
+    public function setPeriode(?string $periode): RecapDucsAnnuelle {
         $this->periode = $periode;
         return $this;
     }
@@ -1223,7 +1224,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $periodeDecla The periode decla.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPeriodeDecla(DateTime $periodeDecla = null) {
+    public function setPeriodeDecla(?DateTime $periodeDecla): RecapDucsAnnuelle {
         $this->periodeDecla = $periodeDecla;
         return $this;
     }
@@ -1231,10 +1232,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the petit decalage.
      *
-     * @param bool $petitDecalage The petit decalage.
+     * @param bool|null $petitDecalage The petit decalage.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPetitDecalage($petitDecalage) {
+    public function setPetitDecalage(?bool $petitDecalage): RecapDucsAnnuelle {
         $this->petitDecalage = $petitDecalage;
         return $this;
     }
@@ -1245,7 +1246,7 @@ class RecapDucsAnnuelle {
      * @param DateTime|null $premMois The prem mois.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setPremMois(DateTime $premMois = null) {
+    public function setPremMois(?DateTime $premMois): RecapDucsAnnuelle {
         $this->premMois = $premMois;
         return $this;
     }
@@ -1253,10 +1254,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the raison sociale.
      *
-     * @param string $raisonSociale The raison sociale.
+     * @param string|null $raisonSociale The raison sociale.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRaisonSociale($raisonSociale) {
+    public function setRaisonSociale(?string $raisonSociale): RecapDucsAnnuelle {
         $this->raisonSociale = $raisonSociale;
         return $this;
     }
@@ -1264,10 +1265,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs1.
      *
-     * @param float $recapDucs1 The recap ducs1.
+     * @param float|null $recapDucs1 The recap ducs1.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs1($recapDucs1) {
+    public function setRecapDucs1(?float $recapDucs1): RecapDucsAnnuelle {
         $this->recapDucs1 = $recapDucs1;
         return $this;
     }
@@ -1275,10 +1276,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs10.
      *
-     * @param float $recapDucs10 The recap ducs10.
+     * @param float|null $recapDucs10 The recap ducs10.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs10($recapDucs10) {
+    public function setRecapDucs10(?float $recapDucs10): RecapDucsAnnuelle {
         $this->recapDucs10 = $recapDucs10;
         return $this;
     }
@@ -1286,10 +1287,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs11.
      *
-     * @param float $recapDucs11 The recap ducs11.
+     * @param float|null $recapDucs11 The recap ducs11.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs11($recapDucs11) {
+    public function setRecapDucs11(?float $recapDucs11): RecapDucsAnnuelle {
         $this->recapDucs11 = $recapDucs11;
         return $this;
     }
@@ -1297,10 +1298,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs12.
      *
-     * @param float $recapDucs12 The recap ducs12.
+     * @param float|null $recapDucs12 The recap ducs12.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs12($recapDucs12) {
+    public function setRecapDucs12(?float $recapDucs12): RecapDucsAnnuelle {
         $this->recapDucs12 = $recapDucs12;
         return $this;
     }
@@ -1308,10 +1309,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs13.
      *
-     * @param float $recapDucs13 The recap ducs13.
+     * @param float|null $recapDucs13 The recap ducs13.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs13($recapDucs13) {
+    public function setRecapDucs13(?float $recapDucs13): RecapDucsAnnuelle {
         $this->recapDucs13 = $recapDucs13;
         return $this;
     }
@@ -1319,10 +1320,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs2.
      *
-     * @param float $recapDucs2 The recap ducs2.
+     * @param float|null $recapDucs2 The recap ducs2.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs2($recapDucs2) {
+    public function setRecapDucs2(?float $recapDucs2): RecapDucsAnnuelle {
         $this->recapDucs2 = $recapDucs2;
         return $this;
     }
@@ -1330,10 +1331,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs3.
      *
-     * @param float $recapDucs3 The recap ducs3.
+     * @param float|null $recapDucs3 The recap ducs3.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs3($recapDucs3) {
+    public function setRecapDucs3(?float $recapDucs3): RecapDucsAnnuelle {
         $this->recapDucs3 = $recapDucs3;
         return $this;
     }
@@ -1341,10 +1342,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs4.
      *
-     * @param float $recapDucs4 The recap ducs4.
+     * @param float|null $recapDucs4 The recap ducs4.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs4($recapDucs4) {
+    public function setRecapDucs4(?float $recapDucs4): RecapDucsAnnuelle {
         $this->recapDucs4 = $recapDucs4;
         return $this;
     }
@@ -1352,10 +1353,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs5.
      *
-     * @param float $recapDucs5 The recap ducs5.
+     * @param float|null $recapDucs5 The recap ducs5.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs5($recapDucs5) {
+    public function setRecapDucs5(?float $recapDucs5): RecapDucsAnnuelle {
         $this->recapDucs5 = $recapDucs5;
         return $this;
     }
@@ -1363,10 +1364,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs6.
      *
-     * @param float $recapDucs6 The recap ducs6.
+     * @param float|null $recapDucs6 The recap ducs6.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs6($recapDucs6) {
+    public function setRecapDucs6(?float $recapDucs6): RecapDucsAnnuelle {
         $this->recapDucs6 = $recapDucs6;
         return $this;
     }
@@ -1374,10 +1375,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs7.
      *
-     * @param float $recapDucs7 The recap ducs7.
+     * @param float|null $recapDucs7 The recap ducs7.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs7($recapDucs7) {
+    public function setRecapDucs7(?float $recapDucs7): RecapDucsAnnuelle {
         $this->recapDucs7 = $recapDucs7;
         return $this;
     }
@@ -1385,10 +1386,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs8.
      *
-     * @param float $recapDucs8 The recap ducs8.
+     * @param float|null $recapDucs8 The recap ducs8.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs8($recapDucs8) {
+    public function setRecapDucs8(?float $recapDucs8): RecapDucsAnnuelle {
         $this->recapDucs8 = $recapDucs8;
         return $this;
     }
@@ -1396,10 +1397,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the recap ducs9.
      *
-     * @param float $recapDucs9 The recap ducs9.
+     * @param float|null $recapDucs9 The recap ducs9.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRecapDucs9($recapDucs9) {
+    public function setRecapDucs9(?float $recapDucs9): RecapDucsAnnuelle {
         $this->recapDucs9 = $recapDucs9;
         return $this;
     }
@@ -1407,10 +1408,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the regul ducs.
      *
-     * @param float $regulDucs The regul ducs.
+     * @param float|null $regulDucs The regul ducs.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRegulDucs($regulDucs) {
+    public function setRegulDucs(?float $regulDucs): RecapDucsAnnuelle {
         $this->regulDucs = $regulDucs;
         return $this;
     }
@@ -1418,10 +1419,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the rib.
      *
-     * @param string $rib The rib.
+     * @param string|null $rib The rib.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setRib($rib) {
+    public function setRib(?string $rib): RecapDucsAnnuelle {
         $this->rib = $rib;
         return $this;
     }
@@ -1429,10 +1430,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the sous type organisme.
      *
-     * @param string $sousTypeOrganisme The sous type organisme.
+     * @param string|null $sousTypeOrganisme The sous type organisme.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setSousTypeOrganisme($sousTypeOrganisme) {
+    public function setSousTypeOrganisme(?string $sousTypeOrganisme): RecapDucsAnnuelle {
         $this->sousTypeOrganisme = $sousTypeOrganisme;
         return $this;
     }
@@ -1440,10 +1441,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the traiter edi.
      *
-     * @param bool $traiterEdi The traiter edi.
+     * @param bool|null $traiterEdi The traiter edi.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setTraiterEdi($traiterEdi) {
+    public function setTraiterEdi(?bool $traiterEdi): RecapDucsAnnuelle {
         $this->traiterEdi = $traiterEdi;
         return $this;
     }
@@ -1451,10 +1452,10 @@ class RecapDucsAnnuelle {
     /**
      * Set the type organisme.
      *
-     * @param string $typeOrganisme The type organisme.
+     * @param string|null $typeOrganisme The type organisme.
      * @return RecapDucsAnnuelle Returns this Recap ducs annuelle.
      */
-    public function setTypeOrganisme($typeOrganisme) {
+    public function setTypeOrganisme(?string $typeOrganisme): RecapDucsAnnuelle {
         $this->typeOrganisme = $typeOrganisme;
         return $this;
     }

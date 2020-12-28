@@ -27,7 +27,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new RetraitesEmp();
 
@@ -40,7 +40,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitution() {
+    public function testSetIdInstitution(): void {
 
         $obj = new RetraitesEmp();
 
@@ -53,7 +53,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceContrat() {
+    public function testSetIndiceContrat(): void {
 
         $obj = new RetraitesEmp();
 
@@ -66,7 +66,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNonGere() {
+    public function testSetNonGere(): void {
 
         $obj = new RetraitesEmp();
 
@@ -79,7 +79,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new RetraitesEmp();
 
@@ -92,7 +92,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeOrga() {
+    public function testSetTypeOrga(): void {
 
         $obj = new RetraitesEmp();
 
@@ -105,7 +105,7 @@ class RetraitesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RetraitesEmp();
 

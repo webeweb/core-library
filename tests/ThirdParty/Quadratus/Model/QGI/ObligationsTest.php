@@ -27,7 +27,7 @@ class ObligationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFamille() {
+    public function testSetCodeFamille(): void {
 
         $obj = new Obligations();
 
@@ -40,7 +40,7 @@ class ObligationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeObligation() {
+    public function testSetCodeObligation(): void {
 
         $obj = new Obligations();
 
@@ -53,7 +53,7 @@ class ObligationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrequence() {
+    public function testSetFrequence(): void {
 
         $obj = new Obligations();
 
@@ -66,7 +66,7 @@ class ObligationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Obligations();
 
@@ -79,7 +79,7 @@ class ObligationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Obligations();
 

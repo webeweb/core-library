@@ -27,7 +27,7 @@ class StringMessageTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessage() {
+    public function testSetMessage(): void {
 
         $obj = new TestStringMessageTrait();
 
@@ -40,7 +40,7 @@ class StringMessageTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringMessageTrait();
 

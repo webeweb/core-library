@@ -22,25 +22,25 @@ trait FloatSizeTrait {
     /**
      * Size.
      *
-     * @var float
+     * @var float|null
      */
     protected $size;
 
     /**
      * Get the size.
      *
-     * @return float Returns the size.
+     * @return float|null Returns the size.
      */
-    public function getSize() {
+    public function getSize(): ?float {
         return $this->size;
     }
 
     /**
      * Set the size.
      *
-     * @param float $size The size.
+     * @param float|null $size The size.
      */
-    public function setSize($size) {
+    public function setSize(?float $size) {
         $this->size = $size;
         return $this;
     }

@@ -27,7 +27,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new DevisProgEntetes();
 
@@ -40,7 +40,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisProgEntetes();
 
@@ -53,7 +53,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumProgramme() {
+    public function testSetNumProgramme(): void {
 
         $obj = new DevisProgEntetes();
 
@@ -66,7 +66,7 @@ class DevisProgEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisProgEntetes();
 

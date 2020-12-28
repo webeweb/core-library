@@ -24,14 +24,14 @@ class Subventions {
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Coeff degressif.
      *
-     * @var float
+     * @var float|null
      */
     private $coeffDegressif;
 
@@ -59,102 +59,103 @@ class Subventions {
     /**
      * Duree.
      *
-     * @var int
+     * @var int|null
      */
     private $duree;
 
     /**
      * Immo numero.
      *
-     * @var int
+     * @var int|null
      */
     private $immoNumero;
 
     /**
      * Immo numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $immoNumeroCompte;
 
     /**
      * Immo numero deux.
      *
-     * @var int
+     * @var int|null
      */
     private $immoNumeroDeux;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Num contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $numContrat;
 
     /**
      * Num cpt subvention.
      *
-     * @var string
+     * @var string|null
      */
     private $numCptSubvention;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Taux lineaire.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxLineaire;
 
     /**
      * Type amort.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAmort;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the coeff degressif.
      *
-     * @return float Returns the coeff degressif.
+     * @return float|null Returns the coeff degressif.
      */
-    public function getCoeffDegressif() {
+    public function getCoeffDegressif(): ?float{
         return $this->coeffDegressif;
     }
 
@@ -163,7 +164,7 @@ class Subventions {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
@@ -172,7 +173,7 @@ class Subventions {
      *
      * @return DateTime|null Returns the date cession.
      */
-    public function getDateCession() {
+    public function getDateCession(): ?DateTime{
         return $this->dateCession;
     }
 
@@ -181,116 +182,116 @@ class Subventions {
      *
      * @return DateTime|null Returns the date mise en service.
      */
-    public function getDateMiseEnService() {
+    public function getDateMiseEnService(): ?DateTime{
         return $this->dateMiseEnService;
     }
 
     /**
      * Get the duree.
      *
-     * @return int Returns the duree.
+     * @return int|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?int{
         return $this->duree;
     }
 
     /**
      * Get the immo numero.
      *
-     * @return int Returns the immo numero.
+     * @return int|null Returns the immo numero.
      */
-    public function getImmoNumero() {
+    public function getImmoNumero(): ?int{
         return $this->immoNumero;
     }
 
     /**
      * Get the immo numero compte.
      *
-     * @return string Returns the immo numero compte.
+     * @return string|null Returns the immo numero compte.
      */
-    public function getImmoNumeroCompte() {
+    public function getImmoNumeroCompte(): ?string{
         return $this->immoNumeroCompte;
     }
 
     /**
      * Get the immo numero deux.
      *
-     * @return int Returns the immo numero deux.
+     * @return int|null Returns the immo numero deux.
      */
-    public function getImmoNumeroDeux() {
+    public function getImmoNumeroDeux(): ?int{
         return $this->immoNumeroDeux;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the num contrat.
      *
-     * @return string Returns the num contrat.
+     * @return string|null Returns the num contrat.
      */
-    public function getNumContrat() {
+    public function getNumContrat(): ?string{
         return $this->numContrat;
     }
 
     /**
      * Get the num cpt subvention.
      *
-     * @return string Returns the num cpt subvention.
+     * @return string|null Returns the num cpt subvention.
      */
-    public function getNumCptSubvention() {
+    public function getNumCptSubvention(): ?string{
         return $this->numCptSubvention;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the taux lineaire.
      *
-     * @return float Returns the taux lineaire.
+     * @return float|null Returns the taux lineaire.
      */
-    public function getTauxLineaire() {
+    public function getTauxLineaire(): ?float{
         return $this->tauxLineaire;
     }
 
     /**
      * Get the type amort.
      *
-     * @return string Returns the type amort.
+     * @return string|null Returns the type amort.
      */
-    public function getTypeAmort() {
+    public function getTypeAmort(): ?string{
         return $this->typeAmort;
     }
 
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return Subventions Returns this Subventions.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): Subventions {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -298,10 +299,10 @@ class Subventions {
     /**
      * Set the coeff degressif.
      *
-     * @param float $coeffDegressif The coeff degressif.
+     * @param float|null $coeffDegressif The coeff degressif.
      * @return Subventions Returns this Subventions.
      */
-    public function setCoeffDegressif($coeffDegressif) {
+    public function setCoeffDegressif(?float $coeffDegressif): Subventions {
         $this->coeffDegressif = $coeffDegressif;
         return $this;
     }
@@ -312,7 +313,7 @@ class Subventions {
      * @param DateTime|null $date The date.
      * @return Subventions Returns this Subventions.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): Subventions {
         $this->date = $date;
         return $this;
     }
@@ -323,7 +324,7 @@ class Subventions {
      * @param DateTime|null $dateCession The date cession.
      * @return Subventions Returns this Subventions.
      */
-    public function setDateCession(DateTime $dateCession = null) {
+    public function setDateCession(?DateTime $dateCession): Subventions {
         $this->dateCession = $dateCession;
         return $this;
     }
@@ -334,7 +335,7 @@ class Subventions {
      * @param DateTime|null $dateMiseEnService The date mise en service.
      * @return Subventions Returns this Subventions.
      */
-    public function setDateMiseEnService(DateTime $dateMiseEnService = null) {
+    public function setDateMiseEnService(?DateTime $dateMiseEnService): Subventions {
         $this->dateMiseEnService = $dateMiseEnService;
         return $this;
     }
@@ -342,10 +343,10 @@ class Subventions {
     /**
      * Set the duree.
      *
-     * @param int $duree The duree.
+     * @param int|null $duree The duree.
      * @return Subventions Returns this Subventions.
      */
-    public function setDuree($duree) {
+    public function setDuree(?int $duree): Subventions {
         $this->duree = $duree;
         return $this;
     }
@@ -353,10 +354,10 @@ class Subventions {
     /**
      * Set the immo numero.
      *
-     * @param int $immoNumero The immo numero.
+     * @param int|null $immoNumero The immo numero.
      * @return Subventions Returns this Subventions.
      */
-    public function setImmoNumero($immoNumero) {
+    public function setImmoNumero(?int $immoNumero): Subventions {
         $this->immoNumero = $immoNumero;
         return $this;
     }
@@ -364,10 +365,10 @@ class Subventions {
     /**
      * Set the immo numero compte.
      *
-     * @param string $immoNumeroCompte The immo numero compte.
+     * @param string|null $immoNumeroCompte The immo numero compte.
      * @return Subventions Returns this Subventions.
      */
-    public function setImmoNumeroCompte($immoNumeroCompte) {
+    public function setImmoNumeroCompte(?string $immoNumeroCompte): Subventions {
         $this->immoNumeroCompte = $immoNumeroCompte;
         return $this;
     }
@@ -375,10 +376,10 @@ class Subventions {
     /**
      * Set the immo numero deux.
      *
-     * @param int $immoNumeroDeux The immo numero deux.
+     * @param int|null $immoNumeroDeux The immo numero deux.
      * @return Subventions Returns this Subventions.
      */
-    public function setImmoNumeroDeux($immoNumeroDeux) {
+    public function setImmoNumeroDeux(?int $immoNumeroDeux): Subventions {
         $this->immoNumeroDeux = $immoNumeroDeux;
         return $this;
     }
@@ -386,10 +387,10 @@ class Subventions {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Subventions Returns this Subventions.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Subventions {
         $this->libelle = $libelle;
         return $this;
     }
@@ -397,10 +398,10 @@ class Subventions {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return Subventions Returns this Subventions.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): Subventions {
         $this->montant = $montant;
         return $this;
     }
@@ -408,10 +409,10 @@ class Subventions {
     /**
      * Set the num contrat.
      *
-     * @param string $numContrat The num contrat.
+     * @param string|null $numContrat The num contrat.
      * @return Subventions Returns this Subventions.
      */
-    public function setNumContrat($numContrat) {
+    public function setNumContrat(?string $numContrat): Subventions {
         $this->numContrat = $numContrat;
         return $this;
     }
@@ -419,10 +420,10 @@ class Subventions {
     /**
      * Set the num cpt subvention.
      *
-     * @param string $numCptSubvention The num cpt subvention.
+     * @param string|null $numCptSubvention The num cpt subvention.
      * @return Subventions Returns this Subventions.
      */
-    public function setNumCptSubvention($numCptSubvention) {
+    public function setNumCptSubvention(?string $numCptSubvention): Subventions {
         $this->numCptSubvention = $numCptSubvention;
         return $this;
     }
@@ -430,10 +431,10 @@ class Subventions {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return Subventions Returns this Subventions.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): Subventions {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -441,10 +442,10 @@ class Subventions {
     /**
      * Set the taux lineaire.
      *
-     * @param float $tauxLineaire The taux lineaire.
+     * @param float|null $tauxLineaire The taux lineaire.
      * @return Subventions Returns this Subventions.
      */
-    public function setTauxLineaire($tauxLineaire) {
+    public function setTauxLineaire(?float $tauxLineaire): Subventions {
         $this->tauxLineaire = $tauxLineaire;
         return $this;
     }
@@ -452,10 +453,10 @@ class Subventions {
     /**
      * Set the type amort.
      *
-     * @param string $typeAmort The type amort.
+     * @param string|null $typeAmort The type amort.
      * @return Subventions Returns this Subventions.
      */
-    public function setTypeAmort($typeAmort) {
+    public function setTypeAmort(?string $typeAmort): Subventions {
         $this->typeAmort = $typeAmort;
         return $this;
     }

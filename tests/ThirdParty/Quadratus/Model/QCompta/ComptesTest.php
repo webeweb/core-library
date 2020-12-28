@@ -29,7 +29,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetALettrerAuto() {
+    public function testSetALettrerAuto(): void {
 
         $obj = new Comptes();
 
@@ -42,7 +42,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiverLotTrace() {
+    public function testSetActiverLotTrace(): void {
 
         $obj = new Comptes();
 
@@ -55,7 +55,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBonAPayer() {
+    public function testSetBonAPayer(): void {
 
         $obj = new Comptes();
 
@@ -68,7 +68,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentraliseGdLivre() {
+    public function testSetCentraliseGdLivre(): void {
 
         $obj = new Comptes();
 
@@ -81,7 +81,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleDeux() {
+    public function testSetCleDeux(): void {
 
         $obj = new Comptes();
 
@@ -94,7 +94,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new Comptes();
 
@@ -107,7 +107,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new Comptes();
 
@@ -120,7 +120,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroup1() {
+    public function testSetCodeRegroup1(): void {
 
         $obj = new Comptes();
 
@@ -133,7 +133,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroup2() {
+    public function testSetCodeRegroup2(): void {
 
         $obj = new Comptes();
 
@@ -146,7 +146,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroup3() {
+    public function testSetCodeRegroup3(): void {
 
         $obj = new Comptes();
 
@@ -159,7 +159,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroup4() {
+    public function testSetCodeRegroup4(): void {
 
         $obj = new Comptes();
 
@@ -172,7 +172,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRepartitionAna() {
+    public function testSetCodeRepartitionAna(): void {
 
         $obj = new Comptes();
 
@@ -185,7 +185,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new Comptes();
 
@@ -198,7 +198,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif() {
+    public function testSetCollectif(): void {
 
         $obj = new Comptes();
 
@@ -211,7 +211,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif1() {
+    public function testSetCollectif1(): void {
 
         $obj = new Comptes();
 
@@ -224,7 +224,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif2() {
+    public function testSetCollectif2(): void {
 
         $obj = new Comptes();
 
@@ -237,7 +237,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteInactif() {
+    public function testSetCompteInactif(): void {
 
         $obj = new Comptes();
 
@@ -250,7 +250,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContrepartieChargeProd() {
+    public function testSetContrepartieChargeProd(): void {
 
         $obj = new Comptes();
 
@@ -263,7 +263,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptParticulier() {
+    public function testSetCptParticulier(): void {
 
         $obj = new Comptes();
 
@@ -276,7 +276,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptTvaContrepCpr() {
+    public function testSetCptTvaContrepCpr(): void {
 
         $obj = new Comptes();
 
@@ -289,7 +289,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCredit() {
+    public function testSetCredit(): void {
 
         $obj = new Comptes();
 
@@ -302,7 +302,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCredit1() {
+    public function testSetCredit1(): void {
 
         $obj = new Comptes();
 
@@ -315,7 +315,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCredit2() {
+    public function testSetCredit2(): void {
 
         $obj = new Comptes();
 
@@ -328,7 +328,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditHorsEx() {
+    public function testSetCreditHorsEx(): void {
 
         $obj = new Comptes();
 
@@ -341,7 +341,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumulPiedJournal() {
+    public function testSetCumulPiedJournal(): void {
 
         $obj = new Comptes();
 
@@ -355,7 +355,7 @@ class ComptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRevision() {
+    public function testSetDateRevision(): void {
 
         // Set a Date/time mock.
         $dateRevision = new DateTime("2018-09-10");
@@ -372,7 +372,7 @@ class ComptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSysCreation() {
+    public function testSetDateSysCreation(): void {
 
         // Set a Date/time mock.
         $dateSysCreation = new DateTime("2018-09-10");
@@ -388,7 +388,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebit() {
+    public function testSetDebit(): void {
 
         $obj = new Comptes();
 
@@ -401,7 +401,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebit1() {
+    public function testSetDebit1(): void {
 
         $obj = new Comptes();
 
@@ -414,7 +414,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebit2() {
+    public function testSetDebit2(): void {
 
         $obj = new Comptes();
 
@@ -427,7 +427,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebitHorsEx() {
+    public function testSetDebitHorsEx(): void {
 
         $obj = new Comptes();
 
@@ -440,7 +440,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetailCloture() {
+    public function testSetDetailCloture(): void {
 
         $obj = new Comptes();
 
@@ -453,7 +453,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditM2() {
+    public function testSetEditM2(): void {
 
         $obj = new Comptes();
 
@@ -466,7 +466,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatRevision() {
+    public function testSetEtatRevision(): void {
 
         $obj = new Comptes();
 
@@ -479,7 +479,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille() {
+    public function testSetFamille(): void {
 
         $obj = new Comptes();
 
@@ -492,7 +492,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFranchise() {
+    public function testSetFranchise(): void {
 
         $obj = new Comptes();
 
@@ -505,7 +505,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGererIntCptCour() {
+    public function testSetGererIntCptCour(): void {
 
         $obj = new Comptes();
 
@@ -518,7 +518,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Comptes();
 
@@ -531,7 +531,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleAll() {
+    public function testSetIntituleAll(): void {
 
         $obj = new Comptes();
 
@@ -544,7 +544,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleAng() {
+    public function testSetIntituleAng(): void {
 
         $obj = new Comptes();
 
@@ -557,7 +557,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleEsp() {
+    public function testSetIntituleEsp(): void {
 
         $obj = new Comptes();
 
@@ -570,7 +570,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleIta() {
+    public function testSetIntituleIta(): void {
 
         $obj = new Comptes();
 
@@ -583,7 +583,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleLong() {
+    public function testSetIntituleLong(): void {
 
         $obj = new Comptes();
 
@@ -596,7 +596,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntraCom() {
+    public function testSetIntraCom(): void {
 
         $obj = new Comptes();
 
@@ -609,7 +609,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJalTreRegl() {
+    public function testSetJalTreRegl(): void {
 
         $obj = new Comptes();
 
@@ -622,7 +622,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleLotTrace() {
+    public function testSetLibelleLotTrace(): void {
 
         $obj = new Comptes();
 
@@ -635,7 +635,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMargeTheorique() {
+    public function testSetMargeTheorique(): void {
 
         $obj = new Comptes();
 
@@ -648,7 +648,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMethodeTva() {
+    public function testSetMethodeTva(): void {
 
         $obj = new Comptes();
 
@@ -661,7 +661,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbEcritures() {
+    public function testSetNbEcritures(): void {
 
         $obj = new Comptes();
 
@@ -674,7 +674,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauDroit() {
+    public function testSetNiveauDroit(): void {
 
         $obj = new Comptes();
 
@@ -687,7 +687,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoDossReflechi() {
+    public function testSetNoDossReflechi(): void {
 
         $obj = new Comptes();
 
@@ -700,7 +700,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoProchainLettrage() {
+    public function testSetNoProchainLettrage(): void {
 
         $obj = new Comptes();
 
@@ -713,7 +713,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptReflechi() {
+    public function testSetNumCptReflechi(): void {
 
         $obj = new Comptes();
 
@@ -726,7 +726,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Comptes();
 
@@ -739,7 +739,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new Comptes();
 
@@ -752,7 +752,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPersonneMorale() {
+    public function testSetPersonneMorale(): void {
 
         $obj = new Comptes();
 
@@ -765,7 +765,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrestaTel() {
+    public function testSetPrestaTel(): void {
 
         $obj = new Comptes();
 
@@ -778,7 +778,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrestataire() {
+    public function testSetPrestataire(): void {
 
         $obj = new Comptes();
 
@@ -791,7 +791,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixMoyenNbDec() {
+    public function testSetPrixMoyenNbDec(): void {
 
         $obj = new Comptes();
 
@@ -804,7 +804,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixMoyenNbDec2() {
+    public function testSetPrixMoyenNbDec2(): void {
 
         $obj = new Comptes();
 
@@ -817,7 +817,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixMoyenNbEntier() {
+    public function testSetPrixMoyenNbEntier(): void {
 
         $obj = new Comptes();
 
@@ -830,7 +830,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixMoyenNbEntier2() {
+    public function testSetPrixMoyenNbEntier2(): void {
 
         $obj = new Comptes();
 
@@ -843,7 +843,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchaineLettre() {
+    public function testSetProchaineLettre(): void {
 
         $obj = new Comptes();
 
@@ -856,7 +856,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchaineLettreTiers() {
+    public function testSetProchaineLettreTiers(): void {
 
         $obj = new Comptes();
 
@@ -869,7 +869,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteLibelle() {
+    public function testSetQuantiteLibelle(): void {
 
         $obj = new Comptes();
 
@@ -882,7 +882,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteLibelle2() {
+    public function testSetQuantiteLibelle2(): void {
 
         $obj = new Comptes();
 
@@ -895,7 +895,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteNbDec() {
+    public function testSetQuantiteNbDec(): void {
 
         $obj = new Comptes();
 
@@ -908,7 +908,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteNbDec2() {
+    public function testSetQuantiteNbDec2(): void {
 
         $obj = new Comptes();
 
@@ -921,7 +921,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteNbEntier() {
+    public function testSetQuantiteNbEntier(): void {
 
         $obj = new Comptes();
 
@@ -934,7 +934,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteNbEntier2() {
+    public function testSetQuantiteNbEntier2(): void {
 
         $obj = new Comptes();
 
@@ -947,7 +947,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new Comptes();
 
@@ -960,7 +960,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFournisseur() {
+    public function testSetReferenceFournisseur(): void {
 
         $obj = new Comptes();
 
@@ -973,7 +973,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepartitionAna() {
+    public function testSetRepartitionAna(): void {
 
         $obj = new Comptes();
 
@@ -986,7 +986,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepartitionAuto() {
+    public function testSetRepartitionAuto(): void {
 
         $obj = new Comptes();
 
@@ -999,7 +999,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRubriqueBilan1() {
+    public function testSetRubriqueBilan1(): void {
 
         $obj = new Comptes();
 
@@ -1012,7 +1012,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRubriqueBilan2() {
+    public function testSetRubriqueBilan2(): void {
 
         $obj = new Comptes();
 
@@ -1025,7 +1025,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviDevises() {
+    public function testSetSuiviDevises(): void {
 
         $obj = new Comptes();
 
@@ -1038,7 +1038,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviQuantite() {
+    public function testSetSuiviQuantite(): void {
 
         $obj = new Comptes();
 
@@ -1051,7 +1051,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviQuantite2() {
+    public function testSetSuiviQuantite2(): void {
 
         $obj = new Comptes();
 
@@ -1064,7 +1064,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaAutresOpeImpos() {
+    public function testSetTvaAutresOpeImpos(): void {
 
         $obj = new Comptes();
 
@@ -1077,7 +1077,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaDom() {
+    public function testSetTvaDom(): void {
 
         $obj = new Comptes();
 
@@ -1090,7 +1090,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEncaissement() {
+    public function testSetTvaEncaissement(): void {
 
         $obj = new Comptes();
 
@@ -1103,7 +1103,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Comptes();
 
@@ -1116,7 +1116,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCollectif() {
+    public function testSetTypeCollectif(): void {
 
         $obj = new Comptes();
 
@@ -1129,7 +1129,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCptTiers() {
+    public function testSetTypeCptTiers(): void {
 
         $obj = new Comptes();
 
@@ -1142,7 +1142,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeIntraCom() {
+    public function testSetTypeIntraCom(): void {
 
         $obj = new Comptes();
 
@@ -1155,7 +1155,7 @@ class ComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Comptes();
 

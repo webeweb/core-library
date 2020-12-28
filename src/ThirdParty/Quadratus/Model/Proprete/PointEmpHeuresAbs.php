@@ -24,42 +24,42 @@ class PointEmpHeuresAbs {
     /**
      * Code absence.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAbsence;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
@@ -87,75 +87,76 @@ class PointEmpHeuresAbs {
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Type heure.
      *
-     * @var string
+     * @var string|null
      */
     private $typeHeure;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code absence.
      *
-     * @return string Returns the code absence.
+     * @return string|null Returns the code absence.
      */
-    public function getCodeAbsence() {
+    public function getCodeAbsence(): ?string{
         return $this->codeAbsence;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
@@ -164,7 +165,7 @@ class PointEmpHeuresAbs {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
@@ -173,7 +174,7 @@ class PointEmpHeuresAbs {
      *
      * @return DateTime|null Returns the heure abs.
      */
-    public function getHeureAbs() {
+    public function getHeureAbs(): ?DateTime{
         return $this->heureAbs;
     }
 
@@ -182,35 +183,35 @@ class PointEmpHeuresAbs {
      *
      * @return DateTime|null Returns the heure abs nuit.
      */
-    public function getHeureAbsNuit() {
+    public function getHeureAbsNuit(): ?DateTime{
         return $this->heureAbsNuit;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the type heure.
      *
-     * @return string Returns the type heure.
+     * @return string|null Returns the type heure.
      */
-    public function getTypeHeure() {
+    public function getTypeHeure(): ?string{
         return $this->typeHeure;
     }
 
     /**
      * Set the code absence.
      *
-     * @param string $codeAbsence The code absence.
+     * @param string|null $codeAbsence The code absence.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setCodeAbsence($codeAbsence) {
+    public function setCodeAbsence(?string $codeAbsence): PointEmpHeuresAbs {
         $this->codeAbsence = $codeAbsence;
         return $this;
     }
@@ -218,10 +219,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): PointEmpHeuresAbs {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -229,10 +230,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): PointEmpHeuresAbs {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -240,10 +241,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): PointEmpHeuresAbs {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -251,10 +252,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): PointEmpHeuresAbs {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -262,10 +263,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): PointEmpHeuresAbs {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -276,7 +277,7 @@ class PointEmpHeuresAbs {
      * @param DateTime|null $date The date.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): PointEmpHeuresAbs {
         $this->date = $date;
         return $this;
     }
@@ -287,7 +288,7 @@ class PointEmpHeuresAbs {
      * @param DateTime|null $heureAbs The heure abs.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setHeureAbs(DateTime $heureAbs = null) {
+    public function setHeureAbs(?DateTime $heureAbs): PointEmpHeuresAbs {
         $this->heureAbs = $heureAbs;
         return $this;
     }
@@ -298,7 +299,7 @@ class PointEmpHeuresAbs {
      * @param DateTime|null $heureAbsNuit The heure abs nuit.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setHeureAbsNuit(DateTime $heureAbsNuit = null) {
+    public function setHeureAbsNuit(?DateTime $heureAbsNuit): PointEmpHeuresAbs {
         $this->heureAbsNuit = $heureAbsNuit;
         return $this;
     }
@@ -306,10 +307,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): PointEmpHeuresAbs {
         $this->numBt = $numBt;
         return $this;
     }
@@ -317,10 +318,10 @@ class PointEmpHeuresAbs {
     /**
      * Set the type heure.
      *
-     * @param string $typeHeure The type heure.
+     * @param string|null $typeHeure The type heure.
      * @return PointEmpHeuresAbs Returns this Point emp heures abs.
      */
-    public function setTypeHeure($typeHeure) {
+    public function setTypeHeure(?string $typeHeure): PointEmpHeuresAbs {
         $this->typeHeure = $typeHeure;
         return $this;
     }

@@ -27,7 +27,7 @@ class CategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCarTec() {
+    public function testSetCarTec(): void {
 
         $obj = new Categories();
 
@@ -40,7 +40,7 @@ class CategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Categories();
 
@@ -53,7 +53,7 @@ class CategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParent() {
+    public function testSetParent(): void {
 
         $obj = new Categories();
 
@@ -66,7 +66,7 @@ class CategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Categories();
 
@@ -79,7 +79,7 @@ class CategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Categories();
 

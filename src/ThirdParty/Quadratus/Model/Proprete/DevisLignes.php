@@ -22,225 +22,226 @@ class DevisLignes {
     /**
      * Batiment.
      *
-     * @var string
+     * @var string|null
      */
     private $batiment;
 
     /**
      * Code local.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLocal;
 
     /**
      * Code revetement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRevetement;
 
     /**
      * Etage.
      *
-     * @var string
+     * @var string|null
      */
     private $etage;
 
     /**
      * Identification.
      *
-     * @var string
+     * @var string|null
      */
     private $identification;
 
     /**
      * Libelle local.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleLocal;
 
     /**
      * Libelle revetement.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleRevetement;
 
     /**
      * Num devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numDevis;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Num programme.
      *
-     * @var int
+     * @var int|null
      */
     private $numProgramme;
 
     /**
      * Sol mur.
      *
-     * @var string
+     * @var string|null
      */
     private $solMur;
 
     /**
      * Surface.
      *
-     * @var float
+     * @var float|null
      */
     private $surface;
 
     /**
      * Zone geographique.
      *
-     * @var string
+     * @var string|null
      */
     private $zoneGeographique;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the batiment.
      *
-     * @return string Returns the batiment.
+     * @return string|null Returns the batiment.
      */
-    public function getBatiment() {
+    public function getBatiment(): ?string{
         return $this->batiment;
     }
 
     /**
      * Get the code local.
      *
-     * @return string Returns the code local.
+     * @return string|null Returns the code local.
      */
-    public function getCodeLocal() {
+    public function getCodeLocal(): ?string{
         return $this->codeLocal;
     }
 
     /**
      * Get the code revetement.
      *
-     * @return string Returns the code revetement.
+     * @return string|null Returns the code revetement.
      */
-    public function getCodeRevetement() {
+    public function getCodeRevetement(): ?string{
         return $this->codeRevetement;
     }
 
     /**
      * Get the etage.
      *
-     * @return string Returns the etage.
+     * @return string|null Returns the etage.
      */
-    public function getEtage() {
+    public function getEtage(): ?string{
         return $this->etage;
     }
 
     /**
      * Get the identification.
      *
-     * @return string Returns the identification.
+     * @return string|null Returns the identification.
      */
-    public function getIdentification() {
+    public function getIdentification(): ?string{
         return $this->identification;
     }
 
     /**
      * Get the libelle local.
      *
-     * @return string Returns the libelle local.
+     * @return string|null Returns the libelle local.
      */
-    public function getLibelleLocal() {
+    public function getLibelleLocal(): ?string{
         return $this->libelleLocal;
     }
 
     /**
      * Get the libelle revetement.
      *
-     * @return string Returns the libelle revetement.
+     * @return string|null Returns the libelle revetement.
      */
-    public function getLibelleRevetement() {
+    public function getLibelleRevetement(): ?string{
         return $this->libelleRevetement;
     }
 
     /**
      * Get the num devis.
      *
-     * @return string Returns the num devis.
+     * @return string|null Returns the num devis.
      */
-    public function getNumDevis() {
+    public function getNumDevis(): ?string{
         return $this->numDevis;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the num programme.
      *
-     * @return int Returns the num programme.
+     * @return int|null Returns the num programme.
      */
-    public function getNumProgramme() {
+    public function getNumProgramme(): ?int{
         return $this->numProgramme;
     }
 
     /**
      * Get the sol mur.
      *
-     * @return string Returns the sol mur.
+     * @return string|null Returns the sol mur.
      */
-    public function getSolMur() {
+    public function getSolMur(): ?string{
         return $this->solMur;
     }
 
     /**
      * Get the surface.
      *
-     * @return float Returns the surface.
+     * @return float|null Returns the surface.
      */
-    public function getSurface() {
+    public function getSurface(): ?float{
         return $this->surface;
     }
 
     /**
      * Get the zone geographique.
      *
-     * @return string Returns the zone geographique.
+     * @return string|null Returns the zone geographique.
      */
-    public function getZoneGeographique() {
+    public function getZoneGeographique(): ?string{
         return $this->zoneGeographique;
     }
 
     /**
      * Set the batiment.
      *
-     * @param string $batiment The batiment.
+     * @param string|null $batiment The batiment.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setBatiment($batiment) {
+    public function setBatiment(?string $batiment): DevisLignes {
         $this->batiment = $batiment;
         return $this;
     }
@@ -248,10 +249,10 @@ class DevisLignes {
     /**
      * Set the code local.
      *
-     * @param string $codeLocal The code local.
+     * @param string|null $codeLocal The code local.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setCodeLocal($codeLocal) {
+    public function setCodeLocal(?string $codeLocal): DevisLignes {
         $this->codeLocal = $codeLocal;
         return $this;
     }
@@ -259,10 +260,10 @@ class DevisLignes {
     /**
      * Set the code revetement.
      *
-     * @param string $codeRevetement The code revetement.
+     * @param string|null $codeRevetement The code revetement.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setCodeRevetement($codeRevetement) {
+    public function setCodeRevetement(?string $codeRevetement): DevisLignes {
         $this->codeRevetement = $codeRevetement;
         return $this;
     }
@@ -270,10 +271,10 @@ class DevisLignes {
     /**
      * Set the etage.
      *
-     * @param string $etage The etage.
+     * @param string|null $etage The etage.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setEtage($etage) {
+    public function setEtage(?string $etage): DevisLignes {
         $this->etage = $etage;
         return $this;
     }
@@ -281,10 +282,10 @@ class DevisLignes {
     /**
      * Set the identification.
      *
-     * @param string $identification The identification.
+     * @param string|null $identification The identification.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setIdentification($identification) {
+    public function setIdentification(?string $identification): DevisLignes {
         $this->identification = $identification;
         return $this;
     }
@@ -292,10 +293,10 @@ class DevisLignes {
     /**
      * Set the libelle local.
      *
-     * @param string $libelleLocal The libelle local.
+     * @param string|null $libelleLocal The libelle local.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setLibelleLocal($libelleLocal) {
+    public function setLibelleLocal(?string $libelleLocal): DevisLignes {
         $this->libelleLocal = $libelleLocal;
         return $this;
     }
@@ -303,10 +304,10 @@ class DevisLignes {
     /**
      * Set the libelle revetement.
      *
-     * @param string $libelleRevetement The libelle revetement.
+     * @param string|null $libelleRevetement The libelle revetement.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setLibelleRevetement($libelleRevetement) {
+    public function setLibelleRevetement(?string $libelleRevetement): DevisLignes {
         $this->libelleRevetement = $libelleRevetement;
         return $this;
     }
@@ -314,10 +315,10 @@ class DevisLignes {
     /**
      * Set the num devis.
      *
-     * @param string $numDevis The num devis.
+     * @param string|null $numDevis The num devis.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setNumDevis($numDevis) {
+    public function setNumDevis(?string $numDevis): DevisLignes {
         $this->numDevis = $numDevis;
         return $this;
     }
@@ -325,10 +326,10 @@ class DevisLignes {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): DevisLignes {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -336,10 +337,10 @@ class DevisLignes {
     /**
      * Set the num programme.
      *
-     * @param int $numProgramme The num programme.
+     * @param int|null $numProgramme The num programme.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setNumProgramme($numProgramme) {
+    public function setNumProgramme(?int $numProgramme): DevisLignes {
         $this->numProgramme = $numProgramme;
         return $this;
     }
@@ -347,10 +348,10 @@ class DevisLignes {
     /**
      * Set the sol mur.
      *
-     * @param string $solMur The sol mur.
+     * @param string|null $solMur The sol mur.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setSolMur($solMur) {
+    public function setSolMur(?string $solMur): DevisLignes {
         $this->solMur = $solMur;
         return $this;
     }
@@ -358,10 +359,10 @@ class DevisLignes {
     /**
      * Set the surface.
      *
-     * @param float $surface The surface.
+     * @param float|null $surface The surface.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setSurface($surface) {
+    public function setSurface(?float $surface): DevisLignes {
         $this->surface = $surface;
         return $this;
     }
@@ -369,10 +370,10 @@ class DevisLignes {
     /**
      * Set the zone geographique.
      *
-     * @param string $zoneGeographique The zone geographique.
+     * @param string|null $zoneGeographique The zone geographique.
      * @return DevisLignes Returns this Devis lignes.
      */
-    public function setZoneGeographique($zoneGeographique) {
+    public function setZoneGeographique(?string $zoneGeographique): DevisLignes {
         $this->zoneGeographique = $zoneGeographique;
         return $this;
     }

@@ -28,7 +28,7 @@ class IntegerHelper {
      * @return void
      * @throws IntegerArgumentException Throws a Integer argument exception if the value is not of expected type.
      */
-    public static function isInteger($value) {
+    public static function isInteger($value): void {
         if (false === is_integer($value)) {
             throw new IntegerArgumentException($value);
         }
@@ -40,18 +40,18 @@ class IntegerHelper {
      * @param bool $value The boolean value.
      * @return int Returns 1 in case of success, 0 otherwise.
      */
-    public static function parseBoolean($value) {
+    public static function parseBoolean(?bool $value): int {
         return $value === true ? 1 : 0;
     }
 
     /**
      * Parse a string.
      *
-     * @param string $value The string value.
-     * @return int Returns the integer represented by the string value..
+     * @param string|null $value The string value.
+     * @return int|null Returns the integer in case of success, null otherwise.
      * @throws IntegerArgumentException Throws an integer argument exception if the string value does not represent an integer.
      */
-    public static function parseString($value) {
+    public static function parseString(?string $value): ?int {
         if (null === $value) {
             return null;
         }

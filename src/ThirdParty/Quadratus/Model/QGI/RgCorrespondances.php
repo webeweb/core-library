@@ -22,129 +22,130 @@ class RgCorrespondances {
     /**
      * Fichiers publier web.
      *
-     * @var string
+     * @var string|null
      */
     private $fichiersPublierWeb;
 
     /**
      * Ignorer.
      *
-     * @var string
+     * @var string|null
      */
     private $ignorer;
 
     /**
      * Niveau.
      *
-     * @var int
+     * @var int|null
      */
     private $niveau;
 
     /**
      * Type donnees.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDonnees;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
     /**
      * Valeur.
      *
-     * @var string
+     * @var string|null
      */
     private $valeur;
 
     /**
      * Valeur origine.
      *
-     * @var string
+     * @var string|null
      */
     private $valeurOrigine;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the fichiers publier web.
      *
-     * @return string Returns the fichiers publier web.
+     * @return string|null Returns the fichiers publier web.
      */
-    public function getFichiersPublierWeb() {
+    public function getFichiersPublierWeb(): ?string{
         return $this->fichiersPublierWeb;
     }
 
     /**
      * Get the ignorer.
      *
-     * @return string Returns the ignorer.
+     * @return string|null Returns the ignorer.
      */
-    public function getIgnorer() {
+    public function getIgnorer(): ?string{
         return $this->ignorer;
     }
 
     /**
      * Get the niveau.
      *
-     * @return int Returns the niveau.
+     * @return int|null Returns the niveau.
      */
-    public function getNiveau() {
+    public function getNiveau(): ?int{
         return $this->niveau;
     }
 
     /**
      * Get the type donnees.
      *
-     * @return string Returns the type donnees.
+     * @return string|null Returns the type donnees.
      */
-    public function getTypeDonnees() {
+    public function getTypeDonnees(): ?string{
         return $this->typeDonnees;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Get the valeur.
      *
-     * @return string Returns the valeur.
+     * @return string|null Returns the valeur.
      */
-    public function getValeur() {
+    public function getValeur(): ?string{
         return $this->valeur;
     }
 
     /**
      * Get the valeur origine.
      *
-     * @return string Returns the valeur origine.
+     * @return string|null Returns the valeur origine.
      */
-    public function getValeurOrigine() {
+    public function getValeurOrigine(): ?string{
         return $this->valeurOrigine;
     }
 
     /**
      * Set the fichiers publier web.
      *
-     * @param string $fichiersPublierWeb The fichiers publier web.
+     * @param string|null $fichiersPublierWeb The fichiers publier web.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setFichiersPublierWeb($fichiersPublierWeb) {
+    public function setFichiersPublierWeb(?string $fichiersPublierWeb): RgCorrespondances {
         $this->fichiersPublierWeb = $fichiersPublierWeb;
         return $this;
     }
@@ -152,10 +153,10 @@ class RgCorrespondances {
     /**
      * Set the ignorer.
      *
-     * @param string $ignorer The ignorer.
+     * @param string|null $ignorer The ignorer.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setIgnorer($ignorer) {
+    public function setIgnorer(?string $ignorer): RgCorrespondances {
         $this->ignorer = $ignorer;
         return $this;
     }
@@ -163,10 +164,10 @@ class RgCorrespondances {
     /**
      * Set the niveau.
      *
-     * @param int $niveau The niveau.
+     * @param int|null $niveau The niveau.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setNiveau($niveau) {
+    public function setNiveau(?int $niveau): RgCorrespondances {
         $this->niveau = $niveau;
         return $this;
     }
@@ -174,10 +175,10 @@ class RgCorrespondances {
     /**
      * Set the type donnees.
      *
-     * @param string $typeDonnees The type donnees.
+     * @param string|null $typeDonnees The type donnees.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setTypeDonnees($typeDonnees) {
+    public function setTypeDonnees(?string $typeDonnees): RgCorrespondances {
         $this->typeDonnees = $typeDonnees;
         return $this;
     }
@@ -185,10 +186,10 @@ class RgCorrespondances {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): RgCorrespondances {
         $this->uniqId = $uniqId;
         return $this;
     }
@@ -196,10 +197,10 @@ class RgCorrespondances {
     /**
      * Set the valeur.
      *
-     * @param string $valeur The valeur.
+     * @param string|null $valeur The valeur.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setValeur($valeur) {
+    public function setValeur(?string $valeur): RgCorrespondances {
         $this->valeur = $valeur;
         return $this;
     }
@@ -207,10 +208,10 @@ class RgCorrespondances {
     /**
      * Set the valeur origine.
      *
-     * @param string $valeurOrigine The valeur origine.
+     * @param string|null $valeurOrigine The valeur origine.
      * @return RgCorrespondances Returns this Rg correspondances.
      */
-    public function setValeurOrigine($valeurOrigine) {
+    public function setValeurOrigine(?string $valeurOrigine): RgCorrespondances {
         $this->valeurOrigine = $valeurOrigine;
         return $this;
     }

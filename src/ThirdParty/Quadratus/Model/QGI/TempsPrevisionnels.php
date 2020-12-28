@@ -22,113 +22,114 @@ class TempsPrevisionnels {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code avenant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAvenant;
 
     /**
      * Code phase.
      *
-     * @var string
+     * @var string|null
      */
     private $codePhase;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Cout horaire.
      *
-     * @var float
+     * @var float|null
      */
     private $coutHoraire;
 
     /**
      * Nb heures.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code avenant.
      *
-     * @return string Returns the code avenant.
+     * @return string|null Returns the code avenant.
      */
-    public function getCodeAvenant() {
+    public function getCodeAvenant(): ?string{
         return $this->codeAvenant;
     }
 
     /**
      * Get the code phase.
      *
-     * @return string Returns the code phase.
+     * @return string|null Returns the code phase.
      */
-    public function getCodePhase() {
+    public function getCodePhase(): ?string{
         return $this->codePhase;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the cout horaire.
      *
-     * @return float Returns the cout horaire.
+     * @return float|null Returns the cout horaire.
      */
-    public function getCoutHoraire() {
+    public function getCoutHoraire(): ?float{
         return $this->coutHoraire;
     }
 
     /**
      * Get the nb heures.
      *
-     * @return float Returns the nb heures.
+     * @return float|null Returns the nb heures.
      */
-    public function getNbHeures() {
+    public function getNbHeures(): ?float{
         return $this->nbHeures;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): TempsPrevisionnels {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -136,10 +137,10 @@ class TempsPrevisionnels {
     /**
      * Set the code avenant.
      *
-     * @param string $codeAvenant The code avenant.
+     * @param string|null $codeAvenant The code avenant.
      * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
-    public function setCodeAvenant($codeAvenant) {
+    public function setCodeAvenant(?string $codeAvenant): TempsPrevisionnels {
         $this->codeAvenant = $codeAvenant;
         return $this;
     }
@@ -147,10 +148,10 @@ class TempsPrevisionnels {
     /**
      * Set the code phase.
      *
-     * @param string $codePhase The code phase.
+     * @param string|null $codePhase The code phase.
      * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
-    public function setCodePhase($codePhase) {
+    public function setCodePhase(?string $codePhase): TempsPrevisionnels {
         $this->codePhase = $codePhase;
         return $this;
     }
@@ -158,10 +159,10 @@ class TempsPrevisionnels {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): TempsPrevisionnels {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -169,10 +170,10 @@ class TempsPrevisionnels {
     /**
      * Set the cout horaire.
      *
-     * @param float $coutHoraire The cout horaire.
+     * @param float|null $coutHoraire The cout horaire.
      * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
-    public function setCoutHoraire($coutHoraire) {
+    public function setCoutHoraire(?float $coutHoraire): TempsPrevisionnels {
         $this->coutHoraire = $coutHoraire;
         return $this;
     }
@@ -180,10 +181,10 @@ class TempsPrevisionnels {
     /**
      * Set the nb heures.
      *
-     * @param float $nbHeures The nb heures.
+     * @param float|null $nbHeures The nb heures.
      * @return TempsPrevisionnels Returns this Temps previsionnels.
      */
-    public function setNbHeures($nbHeures) {
+    public function setNbHeures(?float $nbHeures): TempsPrevisionnels {
         $this->nbHeures = $nbHeures;
         return $this;
     }

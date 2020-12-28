@@ -22,25 +22,25 @@ trait StringColumnTrait {
     /**
      * Column.
      *
-     * @var string
+     * @var string|null
      */
     protected $column;
 
     /**
      * Get the column.
      *
-     * @return string Returns the column.
+     * @return string|null Returns the column.
      */
-    public function getColumn() {
+    public function getColumn(): ?string {
         return $this->column;
     }
 
     /**
      * Set the column.
      *
-     * @param string $column The column.
+     * @param string|null $column The column.
      */
-    public function setColumn($column) {
+    public function setColumn(?string $column) {
         $this->column = $column;
         return $this;
     }

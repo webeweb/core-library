@@ -24,16 +24,16 @@ trait DateTimeBirthDateTrait {
     /**
      * Birth date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     protected $birthDate;
 
     /**
      * Get the birth date.
      *
-     * @return DateTime Returns the birth date.
+     * @return DateTime|null Returns the birth date.
      */
-    public function getBirthDate() {
+    public function getBirthDate(): ?DateTime {
         return $this->birthDate;
     }
 
@@ -42,7 +42,7 @@ trait DateTimeBirthDateTrait {
      *
      * @param DateTime|null $birthDate The birth date.
      */
-    public function setBirthDate(DateTime $birthDate = null) {
+    public function setBirthDate(?DateTime $birthDate) {
         $this->birthDate = $birthDate;
         return $this;
     }

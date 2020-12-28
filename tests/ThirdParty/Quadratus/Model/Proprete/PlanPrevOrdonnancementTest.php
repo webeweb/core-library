@@ -29,7 +29,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -42,7 +42,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -55,7 +55,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -68,7 +68,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -81,7 +81,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -95,7 +95,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptif() {
+    public function testSetDescriptif(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -124,7 +124,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiscrTache() {
+    public function testSetDiscrTache(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -137,7 +137,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -150,7 +150,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumOrdre() {
+    public function testSetNumOrdre(): void {
 
         $obj = new PlanPrevOrdonnancement();
 
@@ -163,7 +163,7 @@ class PlanPrevOrdonnancementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PlanPrevOrdonnancement();
 

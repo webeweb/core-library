@@ -27,7 +27,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -40,7 +40,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -53,7 +53,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeManif() {
+    public function testSetCodeManif(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -66,7 +66,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConfirmes() {
+    public function testSetConfirmes(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -79,7 +79,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContrat() {
+    public function testSetContrat(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -92,7 +92,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInscrits() {
+    public function testSetInscrits(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -105,7 +105,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumInterlocuteur() {
+    public function testSetNumInterlocuteur(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -118,7 +118,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumSeance() {
+    public function testSetNumSeance(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -131,7 +131,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPresents() {
+    public function testSetPresents(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -144,7 +144,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPriseRdv() {
+    public function testSetPriseRdv(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -157,7 +157,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeInvite() {
+    public function testSetTypeInvite(): void {
 
         $obj = new ActionsCoSuivi();
 
@@ -170,7 +170,7 @@ class ActionsCoSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCoSuivi();
 

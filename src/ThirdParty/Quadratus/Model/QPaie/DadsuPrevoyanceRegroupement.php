@@ -22,161 +22,162 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Code option.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOption;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code population.
      *
-     * @var string
+     * @var string|null
      */
     private $codePopulation;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
 
     /**
      * Type cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCotis;
 
     /**
      * Valeur cotis.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurCotis;
 
     /**
      * Valeur cotis initiale.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurCotisInitiale;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the code option.
      *
-     * @return string Returns the code option.
+     * @return string|null Returns the code option.
      */
-    public function getCodeOption() {
+    public function getCodeOption(): ?string{
         return $this->codeOption;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code population.
      *
-     * @return string Returns the code population.
+     * @return string|null Returns the code population.
      */
-    public function getCodePopulation() {
+    public function getCodePopulation(): ?string{
         return $this->codePopulation;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Get the type cotis.
      *
-     * @return string Returns the type cotis.
+     * @return string|null Returns the type cotis.
      */
-    public function getTypeCotis() {
+    public function getTypeCotis(): ?string{
         return $this->typeCotis;
     }
 
     /**
      * Get the valeur cotis.
      *
-     * @return float Returns the valeur cotis.
+     * @return float|null Returns the valeur cotis.
      */
-    public function getValeurCotis() {
+    public function getValeurCotis(): ?float{
         return $this->valeurCotis;
     }
 
     /**
      * Get the valeur cotis initiale.
      *
-     * @return float Returns the valeur cotis initiale.
+     * @return float|null Returns the valeur cotis initiale.
      */
-    public function getValeurCotisInitiale() {
+    public function getValeurCotisInitiale(): ?float{
         return $this->valeurCotisInitiale;
     }
 
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): DadsuPrevoyanceRegroupement {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -184,10 +185,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the code option.
      *
-     * @param string $codeOption The code option.
+     * @param string|null $codeOption The code option.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setCodeOption($codeOption) {
+    public function setCodeOption(?string $codeOption): DadsuPrevoyanceRegroupement {
         $this->codeOption = $codeOption;
         return $this;
     }
@@ -195,10 +196,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuPrevoyanceRegroupement {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -206,10 +207,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the code population.
      *
-     * @param string $codePopulation The code population.
+     * @param string|null $codePopulation The code population.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setCodePopulation($codePopulation) {
+    public function setCodePopulation(?string $codePopulation): DadsuPrevoyanceRegroupement {
         $this->codePopulation = $codePopulation;
         return $this;
     }
@@ -217,10 +218,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): DadsuPrevoyanceRegroupement {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -228,10 +229,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): DadsuPrevoyanceRegroupement {
         $this->refContrat = $refContrat;
         return $this;
     }
@@ -239,10 +240,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the type cotis.
      *
-     * @param string $typeCotis The type cotis.
+     * @param string|null $typeCotis The type cotis.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setTypeCotis($typeCotis) {
+    public function setTypeCotis(?string $typeCotis): DadsuPrevoyanceRegroupement {
         $this->typeCotis = $typeCotis;
         return $this;
     }
@@ -250,10 +251,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the valeur cotis.
      *
-     * @param float $valeurCotis The valeur cotis.
+     * @param float|null $valeurCotis The valeur cotis.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setValeurCotis($valeurCotis) {
+    public function setValeurCotis(?float $valeurCotis): DadsuPrevoyanceRegroupement {
         $this->valeurCotis = $valeurCotis;
         return $this;
     }
@@ -261,10 +262,10 @@ class DadsuPrevoyanceRegroupement {
     /**
      * Set the valeur cotis initiale.
      *
-     * @param float $valeurCotisInitiale The valeur cotis initiale.
+     * @param float|null $valeurCotisInitiale The valeur cotis initiale.
      * @return DadsuPrevoyanceRegroupement Returns this Dadsu prevoyance regroupement.
      */
-    public function setValeurCotisInitiale($valeurCotisInitiale) {
+    public function setValeurCotisInitiale(?float $valeurCotisInitiale): DadsuPrevoyanceRegroupement {
         $this->valeurCotisInitiale = $valeurCotisInitiale;
         return $this;
     }

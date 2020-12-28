@@ -27,7 +27,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeDed() {
+    public function testSetAnneeDed(): void {
 
         $obj = new RecapDfi();
 
@@ -40,7 +40,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeUtilisation() {
+    public function testSetAnneeUtilisation(): void {
 
         $obj = new RecapDfi();
 
@@ -53,7 +53,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmobilisations() {
+    public function testSetImmobilisations(): void {
 
         $obj = new RecapDfi();
 
@@ -66,7 +66,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttAnnee() {
+    public function testSetMttAnnee(): void {
 
         $obj = new RecapDfi();
 
@@ -79,7 +79,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPartsSociales() {
+    public function testSetPartsSociales(): void {
 
         $obj = new RecapDfi();
 
@@ -92,7 +92,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReintAnticipee() {
+    public function testSetReintAnticipee(): void {
 
         $obj = new RecapDfi();
 
@@ -105,7 +105,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStocks() {
+    public function testSetStocks(): void {
 
         $obj = new RecapDfi();
 
@@ -118,7 +118,7 @@ class RecapDfiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RecapDfi();
 

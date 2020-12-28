@@ -27,7 +27,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testAlert() {
+    public function testAlert(): void {
 
         $obj = new NullLogger();
 
@@ -39,7 +39,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testCritical() {
+    public function testCritical(): void {
 
         $obj = new NullLogger();
 
@@ -51,7 +51,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDebug() {
+    public function testDebug(): void {
 
         $obj = new NullLogger();
 
@@ -63,7 +63,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testEmergency() {
+    public function testEmergency(): void {
 
         $obj = new NullLogger();
 
@@ -75,7 +75,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testError() {
+    public function testError(): void {
 
         $obj = new NullLogger();
 
@@ -87,7 +87,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testInfo() {
+    public function testInfo(): void {
 
         $obj = new NullLogger();
 
@@ -99,7 +99,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testNotice() {
+    public function testNotice(): void {
 
         $obj = new NullLogger();
 
@@ -111,7 +111,7 @@ class NullLoggerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testWarning() {
+    public function testWarning(): void {
 
         $obj = new NullLogger();
 

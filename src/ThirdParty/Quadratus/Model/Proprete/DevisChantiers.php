@@ -22,113 +22,114 @@ class DevisChantiers {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Maj descriptif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $majDescriptif;
 
     /**
      * Montant ht.
      *
-     * @var float
+     * @var float|null
      */
     private $montantHt;
 
     /**
      * Num devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numDevis;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the maj descriptif.
      *
-     * @return bool Returns the maj descriptif.
+     * @return bool|null Returns the maj descriptif.
      */
-    public function getMajDescriptif() {
+    public function getMajDescriptif(): ?bool{
         return $this->majDescriptif;
     }
 
     /**
      * Get the montant ht.
      *
-     * @return float Returns the montant ht.
+     * @return float|null Returns the montant ht.
      */
-    public function getMontantHt() {
+    public function getMontantHt(): ?float{
         return $this->montantHt;
     }
 
     /**
      * Get the num devis.
      *
-     * @return string Returns the num devis.
+     * @return string|null Returns the num devis.
      */
-    public function getNumDevis() {
+    public function getNumDevis(): ?string{
         return $this->numDevis;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return DevisChantiers Returns this Devis chantiers.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): DevisChantiers {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -136,10 +137,10 @@ class DevisChantiers {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return DevisChantiers Returns this Devis chantiers.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): DevisChantiers {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -147,10 +148,10 @@ class DevisChantiers {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return DevisChantiers Returns this Devis chantiers.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): DevisChantiers {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -158,10 +159,10 @@ class DevisChantiers {
     /**
      * Set the maj descriptif.
      *
-     * @param bool $majDescriptif The maj descriptif.
+     * @param bool|null $majDescriptif The maj descriptif.
      * @return DevisChantiers Returns this Devis chantiers.
      */
-    public function setMajDescriptif($majDescriptif) {
+    public function setMajDescriptif(?bool $majDescriptif): DevisChantiers {
         $this->majDescriptif = $majDescriptif;
         return $this;
     }
@@ -169,10 +170,10 @@ class DevisChantiers {
     /**
      * Set the montant ht.
      *
-     * @param float $montantHt The montant ht.
+     * @param float|null $montantHt The montant ht.
      * @return DevisChantiers Returns this Devis chantiers.
      */
-    public function setMontantHt($montantHt) {
+    public function setMontantHt(?float $montantHt): DevisChantiers {
         $this->montantHt = $montantHt;
         return $this;
     }
@@ -180,10 +181,10 @@ class DevisChantiers {
     /**
      * Set the num devis.
      *
-     * @param string $numDevis The num devis.
+     * @param string|null $numDevis The num devis.
      * @return DevisChantiers Returns this Devis chantiers.
      */
-    public function setNumDevis($numDevis) {
+    public function setNumDevis(?string $numDevis): DevisChantiers {
         $this->numDevis = $numDevis;
         return $this;
     }

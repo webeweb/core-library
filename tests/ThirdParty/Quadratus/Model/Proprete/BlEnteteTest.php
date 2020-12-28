@@ -29,7 +29,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new BlEntete();
 
@@ -42,7 +42,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq2() {
+    public function testSetBtq2(): void {
 
         $obj = new BlEntete();
 
@@ -55,7 +55,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new BlEntete();
 
@@ -68,7 +68,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur2() {
+    public function testSetBureauDistributeur2(): void {
 
         $obj = new BlEntete();
 
@@ -81,7 +81,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new BlEntete();
 
@@ -94,7 +94,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new BlEntete();
 
@@ -107,7 +107,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BlEntete();
 
@@ -120,7 +120,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new BlEntete();
 
@@ -133,7 +133,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOfficielCommune() {
+    public function testSetCodeOfficielCommune(): void {
 
         $obj = new BlEntete();
 
@@ -146,7 +146,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOfficielCommune2() {
+    public function testSetCodeOfficielCommune2(): void {
 
         $obj = new BlEntete();
 
@@ -159,7 +159,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new BlEntete();
 
@@ -172,7 +172,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal2() {
+    public function testSetCodePostal2(): void {
 
         $obj = new BlEntete();
 
@@ -185,7 +185,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeReglement() {
+    public function testSetCodeReglement(): void {
 
         $obj = new BlEntete();
 
@@ -198,7 +198,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new BlEntete();
 
@@ -211,7 +211,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRepresentant() {
+    public function testSetCodeRepresentant(): void {
 
         $obj = new BlEntete();
 
@@ -224,7 +224,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new BlEntete();
 
@@ -237,7 +237,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new BlEntete();
 
@@ -250,7 +250,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new BlEntete();
 
@@ -263,7 +263,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement2() {
+    public function testSetComplement2(): void {
 
         $obj = new BlEntete();
 
@@ -277,7 +277,7 @@ class BlEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -294,7 +294,7 @@ class BlEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         // Set a Date/time mock.
         $dateEcheance = new DateTime("2018-09-10");
@@ -311,7 +311,7 @@ class BlEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -328,7 +328,7 @@ class BlEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePiece() {
+    public function testSetDatePiece(): void {
 
         // Set a Date/time mock.
         $datePiece = new DateTime("2018-09-10");
@@ -345,7 +345,7 @@ class BlEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReceptionPrevue() {
+    public function testSetDateReceptionPrevue(): void {
 
         // Set a Date/time mock.
         $dateReceptionPrevue = new DateTime("2018-09-10");
@@ -361,7 +361,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceForcee() {
+    public function testSetEcheanceForcee(): void {
 
         $obj = new BlEntete();
 
@@ -374,7 +374,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdition() {
+    public function testSetEdition(): void {
 
         $obj = new BlEntete();
 
@@ -387,7 +387,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureEuros() {
+    public function testSetFactureEuros(): void {
 
         $obj = new BlEntete();
 
@@ -400,7 +400,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAcompte() {
+    public function testSetMontantAcompte(): void {
 
         $obj = new BlEntete();
 
@@ -413,7 +413,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbColis() {
+    public function testSetNbColis(): void {
 
         $obj = new BlEntete();
 
@@ -426,7 +426,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoPiece() {
+    public function testSetNoPiece(): void {
 
         $obj = new BlEntete();
 
@@ -439,7 +439,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new BlEntete();
 
@@ -452,7 +452,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom2() {
+    public function testSetNom2(): void {
 
         $obj = new BlEntete();
 
@@ -465,7 +465,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new BlEntete();
 
@@ -478,7 +478,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite2() {
+    public function testSetNomSuite2(): void {
 
         $obj = new BlEntete();
 
@@ -491,7 +491,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille() {
+    public function testSetNomVille(): void {
 
         $obj = new BlEntete();
 
@@ -504,7 +504,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille2() {
+    public function testSetNomVille2(): void {
 
         $obj = new BlEntete();
 
@@ -517,7 +517,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new BlEntete();
 
@@ -530,7 +530,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie2() {
+    public function testSetNomVoie2(): void {
 
         $obj = new BlEntete();
 
@@ -543,7 +543,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEcheances() {
+    public function testSetNombreEcheances(): void {
 
         $obj = new BlEntete();
 
@@ -556,7 +556,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new BlEntete();
 
@@ -569,7 +569,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie2() {
+    public function testSetNumVoie2(): void {
 
         $obj = new BlEntete();
 
@@ -582,7 +582,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new BlEntete();
 
@@ -595,7 +595,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementDepartLe() {
+    public function testSetPaiementDepartLe(): void {
 
         $obj = new BlEntete();
 
@@ -608,7 +608,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementLe() {
+    public function testSetPaiementLe(): void {
 
         $obj = new BlEntete();
 
@@ -621,7 +621,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementNombreDeJours() {
+    public function testSetPaiementNombreDeJours(): void {
 
         $obj = new BlEntete();
 
@@ -634,7 +634,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPoids() {
+    public function testSetPoids(): void {
 
         $obj = new BlEntete();
 
@@ -647,7 +647,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference1() {
+    public function testSetReference1(): void {
 
         $obj = new BlEntete();
 
@@ -660,7 +660,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference2() {
+    public function testSetReference2(): void {
 
         $obj = new BlEntete();
 
@@ -673,7 +673,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference3() {
+    public function testSetReference3(): void {
 
         $obj = new BlEntete();
 
@@ -686,7 +686,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference4() {
+    public function testSetReference4(): void {
 
         $obj = new BlEntete();
 
@@ -699,7 +699,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied() {
+    public function testSetRemisePied(): void {
 
         $obj = new BlEntete();
 
@@ -712,7 +712,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied2() {
+    public function testSetRemisePied2(): void {
 
         $obj = new BlEntete();
 
@@ -725,7 +725,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied3() {
+    public function testSetRemisePied3(): void {
 
         $obj = new BlEntete();
 
@@ -738,7 +738,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisirAdresse() {
+    public function testSetSaisirAdresse(): void {
 
         $obj = new BlEntete();
 
@@ -751,7 +751,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisirAdresseLivraison() {
+    public function testSetSaisirAdresseLivraison(): void {
 
         $obj = new BlEntete();
 
@@ -764,7 +764,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisEscompte() {
+    public function testSetSoumisEscompte(): void {
 
         $obj = new BlEntete();
 
@@ -777,7 +777,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxe1() {
+    public function testSetSoumisTaxe1(): void {
 
         $obj = new BlEntete();
 
@@ -790,7 +790,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxe2() {
+    public function testSetSoumisTaxe2(): void {
 
         $obj = new BlEntete();
 
@@ -803,7 +803,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxe3() {
+    public function testSetSoumisTaxe3(): void {
 
         $obj = new BlEntete();
 
@@ -816,7 +816,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxCommission() {
+    public function testSetTauxCommission(): void {
 
         $obj = new BlEntete();
 
@@ -829,7 +829,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxDevise() {
+    public function testSetTauxDevise(): void {
 
         $obj = new BlEntete();
 
@@ -842,7 +842,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfert() {
+    public function testSetTransfert(): void {
 
         $obj = new BlEntete();
 
@@ -855,7 +855,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransporteur() {
+    public function testSetTransporteur(): void {
 
         $obj = new BlEntete();
 
@@ -868,7 +868,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxEscompteVente() {
+    public function testSetTxEscompteVente(): void {
 
         $obj = new BlEntete();
 
@@ -881,7 +881,7 @@ class BlEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BlEntete();
 

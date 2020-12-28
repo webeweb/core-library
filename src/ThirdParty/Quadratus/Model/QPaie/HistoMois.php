@@ -24,21 +24,21 @@ class HistoMois {
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
@@ -49,37 +49,38 @@ class HistoMois {
      */
     private $periode;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
@@ -88,17 +89,17 @@ class HistoMois {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return HistoMois Returns this Histo mois.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): HistoMois {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -106,10 +107,10 @@ class HistoMois {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return HistoMois Returns this Histo mois.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): HistoMois {
         $this->libelle = $libelle;
         return $this;
     }
@@ -117,10 +118,10 @@ class HistoMois {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return HistoMois Returns this Histo mois.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): HistoMois {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -131,7 +132,7 @@ class HistoMois {
      * @param DateTime|null $periode The periode.
      * @return HistoMois Returns this Histo mois.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): HistoMois {
         $this->periode = $periode;
         return $this;
     }

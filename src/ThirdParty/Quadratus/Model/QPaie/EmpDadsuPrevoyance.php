@@ -24,7 +24,7 @@ class EmpDadsuPrevoyance {
     /**
      * Code affil secu.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffilSecu;
 
@@ -52,14 +52,14 @@ class EmpDadsuPrevoyance {
     /**
      * Nb enfants.
      *
-     * @var string
+     * @var string|null
      */
     private $nbEnfants;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -73,23 +73,24 @@ class EmpDadsuPrevoyance {
     /**
      * Rang naissance.
      *
-     * @var string
+     * @var string|null
      */
     private $rangNaissance;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affil secu.
      *
-     * @return string Returns the code affil secu.
+     * @return string|null Returns the code affil secu.
      */
-    public function getCodeAffilSecu() {
+    public function getCodeAffilSecu(): ?string{
         return $this->codeAffilSecu;
     }
 
@@ -98,7 +99,7 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the date ancien branche.
      */
-    public function getDateAncienBranche() {
+    public function getDateAncienBranche(): ?DateTime{
         return $this->dateAncienBranche;
     }
 
@@ -107,7 +108,7 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the date ancien college.
      */
-    public function getDateAncienCollege() {
+    public function getDateAncienCollege(): ?DateTime{
         return $this->dateAncienCollege;
     }
 
@@ -116,25 +117,25 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the date ancien poste.
      */
-    public function getDateAncienPoste() {
+    public function getDateAncienPoste(): ?DateTime{
         return $this->dateAncienPoste;
     }
 
     /**
      * Get the nb enfants.
      *
-     * @return string Returns the nb enfants.
+     * @return string|null Returns the nb enfants.
      */
-    public function getNbEnfants() {
+    public function getNbEnfants(): ?string{
         return $this->nbEnfants;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -143,26 +144,26 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the prem date entree.
      */
-    public function getPremDateEntree() {
+    public function getPremDateEntree(): ?DateTime{
         return $this->premDateEntree;
     }
 
     /**
      * Get the rang naissance.
      *
-     * @return string Returns the rang naissance.
+     * @return string|null Returns the rang naissance.
      */
-    public function getRangNaissance() {
+    public function getRangNaissance(): ?string{
         return $this->rangNaissance;
     }
 
     /**
      * Set the code affil secu.
      *
-     * @param string $codeAffilSecu The code affil secu.
+     * @param string|null $codeAffilSecu The code affil secu.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setCodeAffilSecu($codeAffilSecu) {
+    public function setCodeAffilSecu(?string $codeAffilSecu): EmpDadsuPrevoyance {
         $this->codeAffilSecu = $codeAffilSecu;
         return $this;
     }
@@ -173,7 +174,7 @@ class EmpDadsuPrevoyance {
      * @param DateTime|null $dateAncienBranche The date ancien branche.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setDateAncienBranche(DateTime $dateAncienBranche = null) {
+    public function setDateAncienBranche(?DateTime $dateAncienBranche): EmpDadsuPrevoyance {
         $this->dateAncienBranche = $dateAncienBranche;
         return $this;
     }
@@ -184,7 +185,7 @@ class EmpDadsuPrevoyance {
      * @param DateTime|null $dateAncienCollege The date ancien college.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setDateAncienCollege(DateTime $dateAncienCollege = null) {
+    public function setDateAncienCollege(?DateTime $dateAncienCollege): EmpDadsuPrevoyance {
         $this->dateAncienCollege = $dateAncienCollege;
         return $this;
     }
@@ -195,7 +196,7 @@ class EmpDadsuPrevoyance {
      * @param DateTime|null $dateAncienPoste The date ancien poste.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setDateAncienPoste(DateTime $dateAncienPoste = null) {
+    public function setDateAncienPoste(?DateTime $dateAncienPoste): EmpDadsuPrevoyance {
         $this->dateAncienPoste = $dateAncienPoste;
         return $this;
     }
@@ -203,10 +204,10 @@ class EmpDadsuPrevoyance {
     /**
      * Set the nb enfants.
      *
-     * @param string $nbEnfants The nb enfants.
+     * @param string|null $nbEnfants The nb enfants.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setNbEnfants($nbEnfants) {
+    public function setNbEnfants(?string $nbEnfants): EmpDadsuPrevoyance {
         $this->nbEnfants = $nbEnfants;
         return $this;
     }
@@ -214,10 +215,10 @@ class EmpDadsuPrevoyance {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpDadsuPrevoyance {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -228,7 +229,7 @@ class EmpDadsuPrevoyance {
      * @param DateTime|null $premDateEntree The prem date entree.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setPremDateEntree(DateTime $premDateEntree = null) {
+    public function setPremDateEntree(?DateTime $premDateEntree): EmpDadsuPrevoyance {
         $this->premDateEntree = $premDateEntree;
         return $this;
     }
@@ -236,10 +237,10 @@ class EmpDadsuPrevoyance {
     /**
      * Set the rang naissance.
      *
-     * @param string $rangNaissance The rang naissance.
+     * @param string|null $rangNaissance The rang naissance.
      * @return EmpDadsuPrevoyance Returns this Emp dadsu prevoyance.
      */
-    public function setRangNaissance($rangNaissance) {
+    public function setRangNaissance(?string $rangNaissance): EmpDadsuPrevoyance {
         $this->rangNaissance = $rangNaissance;
         return $this;
     }

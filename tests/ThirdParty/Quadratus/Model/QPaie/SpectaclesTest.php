@@ -30,7 +30,7 @@ class SpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebut() {
+    public function testSetDtDebut(): void {
 
         // Set a Date/time mock.
         $dtDebut = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class SpectaclesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFin() {
+    public function testSetDtFin(): void {
 
         // Set a Date/time mock.
         $dtFin = new DateTime("2018-09-10");
@@ -63,7 +63,7 @@ class SpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Spectacles();
 
@@ -76,7 +76,7 @@ class SpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumObjet() {
+    public function testSetNumObjet(): void {
 
         $obj = new Spectacles();
 
@@ -89,7 +89,7 @@ class SpectaclesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Spectacles();
 

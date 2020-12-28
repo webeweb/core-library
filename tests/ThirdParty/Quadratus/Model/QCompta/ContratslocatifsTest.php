@@ -29,7 +29,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaution() {
+    public function testSetCaution(): void {
 
         $obj = new Contratslocatifs();
 
@@ -42,7 +42,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaution2() {
+    public function testSetCaution2(): void {
 
         $obj = new Contratslocatifs();
 
@@ -55,7 +55,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaution3() {
+    public function testSetCaution3(): void {
 
         $obj = new Contratslocatifs();
 
@@ -68,7 +68,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaution4() {
+    public function testSetCaution4(): void {
 
         $obj = new Contratslocatifs();
 
@@ -81,7 +81,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaution5() {
+    public function testSetCaution5(): void {
 
         $obj = new Contratslocatifs();
 
@@ -94,7 +94,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClausespeciale() {
+    public function testSetClausespeciale(): void {
 
         $obj = new Contratslocatifs();
 
@@ -107,7 +107,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new Contratslocatifs();
 
@@ -120,7 +120,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDateAnniversaire() {
+    public function testSetDateAnniversaire(): void {
 
         $obj = new Contratslocatifs();
 
@@ -134,7 +134,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCaution() {
+    public function testSetDateCaution(): void {
 
         // Set a Date/time mock.
         $dateCaution = new DateTime("2018-09-10");
@@ -151,7 +151,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCaution2() {
+    public function testSetDateCaution2(): void {
 
         // Set a Date/time mock.
         $dateCaution2 = new DateTime("2018-09-10");
@@ -168,7 +168,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCaution3() {
+    public function testSetDateCaution3(): void {
 
         // Set a Date/time mock.
         $dateCaution3 = new DateTime("2018-09-10");
@@ -185,7 +185,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCaution4() {
+    public function testSetDateCaution4(): void {
 
         // Set a Date/time mock.
         $dateCaution4 = new DateTime("2018-09-10");
@@ -202,7 +202,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCaution5() {
+    public function testSetDateCaution5(): void {
 
         // Set a Date/time mock.
         $dateCaution5 = new DateTime("2018-09-10");
@@ -219,7 +219,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature() {
+    public function testSetDateSignature(): void {
 
         // Set a Date/time mock.
         $dateSignature = new DateTime("2018-09-10");
@@ -236,7 +236,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature2() {
+    public function testSetDateSignature2(): void {
 
         // Set a Date/time mock.
         $dateSignature2 = new DateTime("2018-09-10");
@@ -253,7 +253,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature3() {
+    public function testSetDateSignature3(): void {
 
         // Set a Date/time mock.
         $dateSignature3 = new DateTime("2018-09-10");
@@ -270,7 +270,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature4() {
+    public function testSetDateSignature4(): void {
 
         // Set a Date/time mock.
         $dateSignature4 = new DateTime("2018-09-10");
@@ -287,7 +287,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature5() {
+    public function testSetDateSignature5(): void {
 
         // Set a Date/time mock.
         $dateSignature5 = new DateTime("2018-09-10");
@@ -303,7 +303,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new Contratslocatifs();
 
@@ -316,7 +316,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureePreavis() {
+    public function testSetDureePreavis(): void {
 
         $obj = new Contratslocatifs();
 
@@ -329,7 +329,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Contratslocatifs();
 
@@ -342,7 +342,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMonnaieCaution() {
+    public function testSetMonnaieCaution(): void {
 
         $obj = new Contratslocatifs();
 
@@ -355,7 +355,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMonnaieLoyer() {
+    public function testSetMonnaieLoyer(): void {
 
         $obj = new Contratslocatifs();
 
@@ -368,7 +368,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel() {
+    public function testSetMontantAnnuel(): void {
 
         $obj = new Contratslocatifs();
 
@@ -381,7 +381,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel2() {
+    public function testSetMontantAnnuel2(): void {
 
         $obj = new Contratslocatifs();
 
@@ -394,7 +394,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel3() {
+    public function testSetMontantAnnuel3(): void {
 
         $obj = new Contratslocatifs();
 
@@ -407,7 +407,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel4() {
+    public function testSetMontantAnnuel4(): void {
 
         $obj = new Contratslocatifs();
 
@@ -420,7 +420,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel5() {
+    public function testSetMontantAnnuel5(): void {
 
         $obj = new Contratslocatifs();
 
@@ -433,7 +433,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCharges() {
+    public function testSetMontantCharges(): void {
 
         $obj = new Contratslocatifs();
 
@@ -446,7 +446,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCharges2() {
+    public function testSetMontantCharges2(): void {
 
         $obj = new Contratslocatifs();
 
@@ -459,7 +459,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCharges3() {
+    public function testSetMontantCharges3(): void {
 
         $obj = new Contratslocatifs();
 
@@ -472,7 +472,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCharges4() {
+    public function testSetMontantCharges4(): void {
 
         $obj = new Contratslocatifs();
 
@@ -485,7 +485,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCharges5() {
+    public function testSetMontantCharges5(): void {
 
         $obj = new Contratslocatifs();
 
@@ -498,7 +498,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptCaution() {
+    public function testSetNumCptCaution(): void {
 
         $obj = new Contratslocatifs();
 
@@ -511,7 +511,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptCharges() {
+    public function testSetNumCptCharges(): void {
 
         $obj = new Contratslocatifs();
 
@@ -524,7 +524,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptLoyer() {
+    public function testSetNumCptLoyer(): void {
 
         $obj = new Contratslocatifs();
 
@@ -537,7 +537,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumOrdre() {
+    public function testSetNumOrdre(): void {
 
         $obj = new Contratslocatifs();
 
@@ -550,7 +550,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new Contratslocatifs();
 
@@ -563,7 +563,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new Contratslocatifs();
 
@@ -576,7 +576,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new Contratslocatifs();
 
@@ -589,7 +589,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteDuree() {
+    public function testSetUniteDuree(): void {
 
         $obj = new Contratslocatifs();
 
@@ -602,7 +602,7 @@ class ContratslocatifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Contratslocatifs();
 

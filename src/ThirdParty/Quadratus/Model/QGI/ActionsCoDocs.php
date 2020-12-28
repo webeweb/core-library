@@ -24,35 +24,35 @@ class ActionsCoDocs {
     /**
      * Auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $auteur;
 
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code doc.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDoc;
 
     /**
      * Code manif.
      *
-     * @var string
+     * @var string|null
      */
     private $codeManif;
 
@@ -73,21 +73,21 @@ class ActionsCoDocs {
     /**
      * Emplacement fichier.
      *
-     * @var string
+     * @var string|null
      */
     private $emplacementFichier;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
@@ -95,51 +95,51 @@ class ActionsCoDocs {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the auteur.
      *
-     * @return string Returns the auteur.
+     * @return string|null Returns the auteur.
      */
-    public function getAuteur() {
+    public function getAuteur(): ?string {
         return $this->auteur;
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code doc.
      *
-     * @return string Returns the code doc.
+     * @return string|null Returns the code doc.
      */
-    public function getCodeDoc() {
+    public function getCodeDoc(): ?string {
         return $this->codeDoc;
     }
 
     /**
      * Get the code manif.
      *
-     * @return string Returns the code manif.
+     * @return string|null Returns the code manif.
      */
-    public function getCodeManif() {
+    public function getCodeManif(): ?string {
         return $this->codeManif;
     }
 
@@ -148,7 +148,7 @@ class ActionsCoDocs {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -157,44 +157,44 @@ class ActionsCoDocs {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
     /**
      * Get the emplacement fichier.
      *
-     * @return string Returns the emplacement fichier.
+     * @return string|null Returns the emplacement fichier.
      */
-    public function getEmplacementFichier() {
+    public function getEmplacementFichier(): ?string {
         return $this->emplacementFichier;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
     /**
      * Set the auteur.
      *
-     * @param string $auteur The auteur.
+     * @param string|null $auteur The auteur.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setAuteur($auteur) {
+    public function setAuteur(?string $auteur): ActionsCoDocs {
         $this->auteur = $auteur;
         return $this;
     }
@@ -202,10 +202,10 @@ class ActionsCoDocs {
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ActionsCoDocs {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -213,10 +213,10 @@ class ActionsCoDocs {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ActionsCoDocs {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -224,10 +224,10 @@ class ActionsCoDocs {
     /**
      * Set the code doc.
      *
-     * @param string $codeDoc The code doc.
+     * @param string|null $codeDoc The code doc.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setCodeDoc($codeDoc) {
+    public function setCodeDoc(?string $codeDoc): ActionsCoDocs {
         $this->codeDoc = $codeDoc;
         return $this;
     }
@@ -235,10 +235,10 @@ class ActionsCoDocs {
     /**
      * Set the code manif.
      *
-     * @param string $codeManif The code manif.
+     * @param string|null $codeManif The code manif.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setCodeManif($codeManif) {
+    public function setCodeManif(?string $codeManif): ActionsCoDocs {
         $this->codeManif = $codeManif;
         return $this;
     }
@@ -249,7 +249,7 @@ class ActionsCoDocs {
      * @param DateTime|null $dateCreation The date creation.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): ActionsCoDocs {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -260,7 +260,7 @@ class ActionsCoDocs {
      * @param DateTime|null $dateModification The date modification.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): ActionsCoDocs {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -268,10 +268,10 @@ class ActionsCoDocs {
     /**
      * Set the emplacement fichier.
      *
-     * @param string $emplacementFichier The emplacement fichier.
+     * @param string|null $emplacementFichier The emplacement fichier.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setEmplacementFichier($emplacementFichier) {
+    public function setEmplacementFichier(?string $emplacementFichier): ActionsCoDocs {
         $this->emplacementFichier = $emplacementFichier;
         return $this;
     }
@@ -279,10 +279,10 @@ class ActionsCoDocs {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ActionsCoDocs {
         $this->libelle = $libelle;
         return $this;
     }
@@ -290,10 +290,10 @@ class ActionsCoDocs {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return ActionsCoDocs Returns this Actions co docs.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): ActionsCoDocs {
         $this->numero = $numero;
         return $this;
     }

@@ -31,7 +31,7 @@ class UserParserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseEntity() {
+    public function testParseEntity(): void {
 
         $obj = new User();
         $obj->setUserNumber(987654321);
@@ -71,7 +71,7 @@ class UserParserTest extends AbstractTestCase {
      * @retrun void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseLine() {
+    public function testParseLine(): void {
 
         $obj = '987654321;123456789;"title";"surname";"firstname";20170920;"12345";"remarks";20170921 115500;0;"identificationNumber";0;1;1;"creditCardNumber";;"remarks2";"remarks3";"division";"email";1;1;"eTicketEmailTelephone";1;3;2';
 

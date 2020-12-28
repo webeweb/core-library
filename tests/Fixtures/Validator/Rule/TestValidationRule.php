@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Core\Tests\Fixtures\Validator\Rule;
 
+use WBW\Library\Core\Validator\API\ValidationStatusInterface;
 use WBW\Library\Core\Validator\Rule\AbstractValidationRule;
 use WBW\Library\Core\Validator\Status\DefaultValidationStatus;
 
@@ -30,14 +31,18 @@ class TestValidationRule extends AbstractValidationRule {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function validate($object) {
+    public function validate($object): ValidationStatusInterface {
+
         $status = new DefaultValidationStatus(200);
+        $status->setRuleName($this->getName());
+
         if (false === is_int($object)) {
             $status->setCode(500);
             $status->setMessage("The argument is not an int");
         }
+
         return $status;
     }
 }

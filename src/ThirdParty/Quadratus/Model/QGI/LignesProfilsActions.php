@@ -22,65 +22,66 @@ class LignesProfilsActions {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code profil.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProfil;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string{
         return $this->codeAction;
     }
 
     /**
      * Get the code profil.
      *
-     * @return string Returns the code profil.
+     * @return string|null Returns the code profil.
      */
-    public function getCodeProfil() {
+    public function getCodeProfil(): ?string{
         return $this->codeProfil;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return LignesProfilsActions Returns this Lignes profils actions.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): LignesProfilsActions {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -88,10 +89,10 @@ class LignesProfilsActions {
     /**
      * Set the code profil.
      *
-     * @param string $codeProfil The code profil.
+     * @param string|null $codeProfil The code profil.
      * @return LignesProfilsActions Returns this Lignes profils actions.
      */
-    public function setCodeProfil($codeProfil) {
+    public function setCodeProfil(?string $codeProfil): LignesProfilsActions {
         $this->codeProfil = $codeProfil;
         return $this;
     }
@@ -99,10 +100,10 @@ class LignesProfilsActions {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return LignesProfilsActions Returns this Lignes profils actions.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): LignesProfilsActions {
         $this->numLigne = $numLigne;
         return $this;
     }

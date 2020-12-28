@@ -27,7 +27,7 @@ class InfoStatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAFacturerHorsEx() {
+    public function testSetAFacturerHorsEx(): void {
 
         $obj = new InfoStatistiques();
 
@@ -40,7 +40,7 @@ class InfoStatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAFacturerSurEx() {
+    public function testSetAFacturerSurEx(): void {
 
         $obj = new InfoStatistiques();
 
@@ -53,7 +53,7 @@ class InfoStatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeElement() {
+    public function testSetCodeElement(): void {
 
         $obj = new InfoStatistiques();
 
@@ -66,7 +66,7 @@ class InfoStatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteurHorsEx() {
+    public function testSetCompteurHorsEx(): void {
 
         $obj = new InfoStatistiques();
 
@@ -79,7 +79,7 @@ class InfoStatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteurSurEx() {
+    public function testSetCompteurSurEx(): void {
 
         $obj = new InfoStatistiques();
 
@@ -92,7 +92,7 @@ class InfoStatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new InfoStatistiques();
 

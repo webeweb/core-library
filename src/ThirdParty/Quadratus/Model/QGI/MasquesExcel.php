@@ -22,21 +22,21 @@ class MasquesExcel {
     /**
      * Modele.
      *
-     * @var string
+     * @var string|null
      */
     private $modele;
 
     /**
      * Titre.
      *
-     * @var string
+     * @var string|null
      */
     private $titre;
 
     /**
      * Type masque.
      *
-     * @var string
+     * @var string|null
      */
     private $typeMasque;
 
@@ -44,43 +44,43 @@ class MasquesExcel {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the modele.
      *
-     * @return string Returns the modele.
+     * @return string|null Returns the modele.
      */
-    public function getModele() {
+    public function getModele(): ?string {
         return $this->modele;
     }
 
     /**
      * Get the titre.
      *
-     * @return string Returns the titre.
+     * @return string|null Returns the titre.
      */
-    public function getTitre() {
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
     /**
      * Get the type masque.
      *
-     * @return string Returns the type masque.
+     * @return string|null Returns the type masque.
      */
-    public function getTypeMasque() {
+    public function getTypeMasque(): ?string {
         return $this->typeMasque;
     }
 
     /**
      * Set the modele.
      *
-     * @param string $modele The modele.
+     * @param string|null $modele The modele.
      * @return MasquesExcel Returns this Masques excel.
      */
-    public function setModele($modele) {
+    public function setModele(?string $modele): MasquesExcel {
         $this->modele = $modele;
         return $this;
     }
@@ -88,10 +88,10 @@ class MasquesExcel {
     /**
      * Set the titre.
      *
-     * @param string $titre The titre.
+     * @param string|null $titre The titre.
      * @return MasquesExcel Returns this Masques excel.
      */
-    public function setTitre($titre) {
+    public function setTitre(?string $titre): MasquesExcel {
         $this->titre = $titre;
         return $this;
     }
@@ -99,10 +99,10 @@ class MasquesExcel {
     /**
      * Set the type masque.
      *
-     * @param string $typeMasque The type masque.
+     * @param string|null $typeMasque The type masque.
      * @return MasquesExcel Returns this Masques excel.
      */
-    public function setTypeMasque($typeMasque) {
+    public function setTypeMasque(?string $typeMasque): MasquesExcel {
         $this->typeMasque = $typeMasque;
         return $this;
     }

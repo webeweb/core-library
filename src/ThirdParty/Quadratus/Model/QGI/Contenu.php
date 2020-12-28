@@ -22,14 +22,14 @@ class Contenu {
     /**
      * Position.
      *
-     * @var int
+     * @var int|null
      */
     private $position;
 
     /**
      * Texte contenu.
      *
-     * @var string
+     * @var string|null
      */
     private $texteContenu;
 
@@ -37,34 +37,34 @@ class Contenu {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the position.
      *
-     * @return int Returns the position.
+     * @return int|null Returns the position.
      */
-    public function getPosition() {
+    public function getPosition(): ?int {
         return $this->position;
     }
 
     /**
      * Get the texte contenu.
      *
-     * @return string Returns the texte contenu.
+     * @return string|null Returns the texte contenu.
      */
-    public function getTexteContenu() {
+    public function getTexteContenu(): ?string {
         return $this->texteContenu;
     }
 
     /**
      * Set the position.
      *
-     * @param int $position The position.
+     * @param int|null $position The position.
      * @return Contenu Returns this Contenu.
      */
-    public function setPosition($position) {
+    public function setPosition(?int $position): Contenu {
         $this->position = $position;
         return $this;
     }
@@ -72,10 +72,10 @@ class Contenu {
     /**
      * Set the texte contenu.
      *
-     * @param string $texteContenu The texte contenu.
+     * @param string|null $texteContenu The texte contenu.
      * @return Contenu Returns this Contenu.
      */
-    public function setTexteContenu($texteContenu) {
+    public function setTexteContenu(?string $texteContenu): Contenu {
         $this->texteContenu = $texteContenu;
         return $this;
     }

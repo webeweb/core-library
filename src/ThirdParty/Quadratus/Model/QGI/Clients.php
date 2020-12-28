@@ -24,441 +24,441 @@ class Clients {
     /**
      * Actif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $actif;
 
     /**
      * Activite nouvelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $activiteNouvelle;
 
     /**
      * Activite saiso.
      *
-     * @var bool
+     * @var bool|null
      */
     private $activiteSaiso;
 
     /**
      * Adresse site client.
      *
-     * @var string
+     * @var string|null
      */
     private $adresseSiteClient;
 
     /**
      * Article port1.
      *
-     * @var string
+     * @var string|null
      */
     private $articlePort1;
 
     /**
      * Article port2.
      *
-     * @var string
+     * @var string|null
      */
     private $articlePort2;
 
     /**
      * Assurance.
      *
-     * @var bool
+     * @var bool|null
      */
     private $assurance;
 
     /**
      * Bibliotheque novaxel.
      *
-     * @var string
+     * @var string|null
      */
     private $bibliothequeNovaxel;
 
     /**
      * Bl chiffre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $blChiffre;
 
     /**
      * Bloque.
      *
-     * @var bool
+     * @var bool|null
      */
     private $bloque;
 
     /**
      * Cde auto manu.
      *
-     * @var string
+     * @var string|null
      */
     private $cdeAutoManu;
 
     /**
      * Cga.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cga;
 
     /**
      * Charges.
      *
-     * @var string
+     * @var string|null
      */
     private $charges;
 
     /**
      * Chiffre affaire.
      *
-     * @var float
+     * @var float|null
      */
     private $chiffreAffaire;
 
     /**
      * Cle alpha.
      *
-     * @var string
+     * @var string|null
      */
     private $cleAlpha;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code activite.
      *
-     * @var string
+     * @var string|null
      */
     private $codeActivite;
 
     /**
      * Code agence.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAgence;
 
     /**
      * Code article cotisation.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticleCotisation;
 
     /**
      * Code article droit fixe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticleDroitFixe;
 
     /**
      * Code article frais fixe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticleFraisFixe;
 
     /**
      * Code assistant juridique.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAssistantJuridique;
 
     /**
      * Code assistant social.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAssistantSocial;
 
     /**
      * Code autre1.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAutre1;
 
     /**
      * Code autre2.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAutre2;
 
     /**
      * Code avocat.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAvocat;
 
     /**
      * Code barre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $codeBarre;
 
     /**
      * Code categorie client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCategorieClient;
 
     /**
      * Code client fact.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClientFact;
 
     /**
      * Code client livr.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClientLivr;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code depot.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDepot;
 
     /**
      * Code devise.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDevise;
 
     /**
      * Code edition fact.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEditionFact;
 
     /**
      * Code exc.
      *
-     * @var string
+     * @var string|null
      */
     private $codeExc;
 
     /**
      * Code expert.
      *
-     * @var string
+     * @var string|null
      */
     private $codeExpert;
 
     /**
      * Code factor.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFactor;
 
     /**
      * Code famille.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFamille;
 
     /**
      * Code geo.
      *
-     * @var string
+     * @var string|null
      */
     private $codeGeo;
 
     /**
      * Code imputation analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $codeImputationAnalytique;
 
     /**
      * Code langue designation article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLangueDesignationArticle;
 
     /**
      * Code mission frais fixe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMissionFraisFixe;
 
     /**
      * Code origine.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrigine;
 
     /**
      * Code pays corres.
      *
-     * @var string
+     * @var string|null
      */
     private $codePaysCorres;
 
     /**
      * Code pays fact.
      *
-     * @var string
+     * @var string|null
      */
     private $codePaysFact;
 
     /**
      * Code portefeuille.
      *
-     * @var string
+     * @var string|null
      */
     private $codePortefeuille;
 
     /**
      * Code recette impots.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRecetteImpots;
 
     /**
      * Code reglement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeReglement;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Code representant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRepresentant;
 
     /**
      * Code revision.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRevision;
 
     /**
      * Code sous famille.
      *
-     * @var string
+     * @var string|null
      */
     private $codeSousFamille;
 
     /**
      * Code sous tournee.
      *
-     * @var string
+     * @var string|null
      */
     private $codeSousTournee;
 
     /**
      * Code tarif.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTarif;
 
     /**
      * Code tournee.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTournee;
 
     /**
      * Code transporteur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTransporteur;
 
     /**
      * Code tva.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTva;
 
     /**
      * Code ventil compta.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilCompta;
 
     /**
      * Coef sur pv.
      *
-     * @var float
+     * @var float|null
      */
     private $coefSurPv;
 
     /**
      * Coeff pv client.
      *
-     * @var float
+     * @var float|null
      */
     private $coeffPvClient;
 
     /**
      * Collectif.
      *
-     * @var string
+     * @var string|null
      */
     private $collectif;
 
     /**
      * Conjoint.
      *
-     * @var string
+     * @var string|null
      */
     private $conjoint;
 
     /**
      * Contact recette impots.
      *
-     * @var string
+     * @var string|null
      */
     private $contactRecetteImpots;
 
@@ -535,42 +535,42 @@ class Clients {
     /**
      * Delai tarif.
      *
-     * @var int
+     * @var int|null
      */
     private $delaiTarif;
 
     /**
      * Domiciliation bancaire1.
      *
-     * @var string
+     * @var string|null
      */
     private $domiciliationBancaire1;
 
     /**
      * Domiciliation bancaire2.
      *
-     * @var string
+     * @var string|null
      */
     private $domiciliationBancaire2;
 
     /**
      * Dossier comptable.
      *
-     * @var string
+     * @var string|null
      */
     private $dossierComptable;
 
     /**
      * Dossier paie.
      *
-     * @var string
+     * @var string|null
      */
     private $dossierPaie;
 
     /**
      * Ds code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $dsCodeCollab;
 
@@ -591,21 +591,21 @@ class Clients {
     /**
      * Du client.
      *
-     * @var string
+     * @var string|null
      */
     private $duClient;
 
     /**
      * Duree echeances.
      *
-     * @var string
+     * @var string|null
      */
     private $dureeEcheances;
 
     /**
      * Effectif etp.
      *
-     * @var int
+     * @var int|null
      */
     private $effectifEtp;
 
@@ -626,112 +626,112 @@ class Clients {
     /**
      * Equip info.
      *
-     * @var string
+     * @var string|null
      */
     private $equipInfo;
 
     /**
      * Etat1.
      *
-     * @var string
+     * @var string|null
      */
     private $etat1;
 
     /**
      * Etat2.
      *
-     * @var string
+     * @var string|null
      */
     private $etat2;
 
     /**
      * Etat3.
      *
-     * @var string
+     * @var string|null
      */
     private $etat3;
 
     /**
      * Etat4.
      *
-     * @var string
+     * @var string|null
      */
     private $etat4;
 
     /**
      * Etat5.
      *
-     * @var string
+     * @var string|null
      */
     private $etat5;
 
     /**
      * Etiquettes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $etiquettes;
 
     /**
      * Fact btq.
      *
-     * @var string
+     * @var string|null
      */
     private $factBtq;
 
     /**
      * Fact bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $factBureauDistributeur;
 
     /**
      * Fact code officiel commune.
      *
-     * @var string
+     * @var string|null
      */
     private $factCodeOfficielCommune;
 
     /**
      * Fact code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $factCodePostal;
 
     /**
      * Fact complement.
      *
-     * @var string
+     * @var string|null
      */
     private $factComplement;
 
     /**
      * Fact nom rs.
      *
-     * @var string
+     * @var string|null
      */
     private $factNomRs;
 
     /**
      * Fact nom ville.
      *
-     * @var string
+     * @var string|null
      */
     private $factNomVille;
 
     /**
      * Fact nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $factNomVoie;
 
     /**
      * Fact num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $factNumVoie;
 
@@ -752,21 +752,21 @@ class Clients {
     /**
      * Facturation cotisation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $facturationCotisation;
 
     /**
      * Facturation droit fixe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $facturationDroitFixe;
 
     /**
      * Facturation frais fixe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $facturationFraisFixe;
 
@@ -787,105 +787,105 @@ class Clients {
     /**
      * Facture euros.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureEuros;
 
     /**
      * Facture isolee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureIsolee;
 
     /**
      * Facture temps passes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureTempsPasses;
 
     /**
      * Factures mail.
      *
-     * @var bool
+     * @var bool|null
      */
     private $facturesMail;
 
     /**
      * Fortement impose.
      *
-     * @var string
+     * @var string|null
      */
     private $fortementImpose;
 
     /**
      * Frais fixes1.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fraisFixes1;
 
     /**
      * Frais fixes2.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fraisFixes2;
 
     /**
      * Franco port1.
      *
-     * @var float
+     * @var float|null
      */
     private $francoPort1;
 
     /**
      * Franco port2.
      *
-     * @var float
+     * @var float|null
      */
     private $francoPort2;
 
     /**
      * Heure appel.
      *
-     * @var string
+     * @var string|null
      */
     private $heureAppel;
 
     /**
      * Identifiant tva.
      *
-     * @var string
+     * @var string|null
      */
     private $identifiantTva;
 
     /**
      * Indice factures mail.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceFacturesMail;
 
     /**
      * Insp.
      *
-     * @var string
+     * @var string|null
      */
     private $insp;
 
     /**
      * Interesse gestion.
      *
-     * @var string
+     * @var string|null
      */
     private $interesseGestion;
 
     /**
      * Mensualisation actif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mensualisationActif;
 
@@ -906,693 +906,693 @@ class Clients {
     /**
      * Mensualisation frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $mensualisationFrequence;
 
     /**
      * Mensualisation montant.
      *
-     * @var float
+     * @var float|null
      */
     private $mensualisationMontant;
 
     /**
      * Mission sur dossier.
      *
-     * @var int
+     * @var int|null
      */
     private $missionSurDossier;
 
     /**
      * Modele bl.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleBl;
 
     /**
      * Modele commande.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleCommande;
 
     /**
      * Modele facture.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleFacture;
 
     /**
      * Modele proformas.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleProformas;
 
     /**
      * Modele releve.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleReleve;
 
     /**
      * Mois cloture.
      *
-     * @var string
+     * @var string|null
      */
     private $moisCloture;
 
     /**
      * Mois cotisation.
      *
-     * @var int
+     * @var int|null
      */
     private $moisCotisation;
 
     /**
      * Mois droit fixe.
      *
-     * @var int
+     * @var int|null
      */
     private $moisDroitFixe;
 
     /**
      * Mt cmd non fact.
      *
-     * @var float
+     * @var float|null
      */
     private $mtCmdNonFact;
 
     /**
      * Mt encours.
      *
-     * @var float
+     * @var float|null
      */
     private $mtEncours;
 
     /**
      * Mt encours autorise.
      *
-     * @var float
+     * @var float|null
      */
     private $mtEncoursAutorise;
 
     /**
      * Nb appels en cours.
      *
-     * @var int
+     * @var int|null
      */
     private $nbAppelsEnCours;
 
     /**
      * Nb bl.
      *
-     * @var string
+     * @var string|null
      */
     private $nbBl;
 
     /**
      * Nb bl non chiffres.
      *
-     * @var int
+     * @var int|null
      */
     private $nbBlNonChiffres;
 
     /**
      * Nb commande.
      *
-     * @var string
+     * @var string|null
      */
     private $nbCommande;
 
     /**
      * Nb devis.
      *
-     * @var string
+     * @var string|null
      */
     private $nbDevis;
 
     /**
      * Nb facture.
      *
-     * @var string
+     * @var string|null
      */
     private $nbFacture;
 
     /**
      * Nb jour interval.
      *
-     * @var int
+     * @var int|null
      */
     private $nbJourInterval;
 
     /**
      * Nb max bl.
      *
-     * @var string
+     * @var string|null
      */
     private $nbMaxBl;
 
     /**
      * Nb releve.
      *
-     * @var string
+     * @var string|null
      */
     private $nbReleve;
 
     /**
      * Nombre echeances.
      *
-     * @var string
+     * @var string|null
      */
     private $nombreEcheances;
 
     /**
      * Nombre mois exercice.
      *
-     * @var string
+     * @var string|null
      */
     private $nombreMoisExercice;
 
     /**
      * Notoriete.
      *
-     * @var string
+     * @var string|null
      */
     private $notoriete;
 
     /**
      * Num web adherent.
      *
-     * @var string
+     * @var string|null
      */
     private $numWebAdherent;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Observation1.
      *
-     * @var string
+     * @var string|null
      */
     private $observation1;
 
     /**
      * Observation2.
      *
-     * @var string
+     * @var string|null
      */
     private $observation2;
 
     /**
      * Observation3.
      *
-     * @var string
+     * @var string|null
      */
     private $observation3;
 
     /**
      * Occasionnel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $occasionnel;
 
     /**
      * Organisation adm.
      *
-     * @var string
+     * @var string|null
      */
     private $organisationAdm;
 
     /**
      * Paiement depart le.
      *
-     * @var int
+     * @var int|null
      */
     private $paiementDepartLe;
 
     /**
      * Paiement le.
      *
-     * @var string
+     * @var string|null
      */
     private $paiementLe;
 
     /**
      * Paiement nombre de jours.
      *
-     * @var int
+     * @var int|null
      */
     private $paiementNombreDeJours;
 
     /**
      * Pas productif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasProductif;
 
     /**
      * Pas taches operationnelles.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasTachesOperationnelles;
 
     /**
      * Patrimoine.
      *
-     * @var string
+     * @var string|null
      */
     private $patrimoine;
 
     /**
      * Prelevements perso.
      *
-     * @var string
+     * @var string|null
      */
     private $prelevementsPerso;
 
     /**
      * Prescripteur.
      *
-     * @var string
+     * @var string|null
      */
     private $prescripteur;
 
     /**
      * Previsionnel.
      *
-     * @var string
+     * @var string|null
      */
     private $previsionnel;
 
     /**
      * Prioritaire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $prioritaire;
 
     /**
      * Profil dir anxieux.
      *
-     * @var bool
+     * @var bool|null
      */
     private $profilDirAnxieux;
 
     /**
      * Profil dir commercial.
      *
-     * @var bool
+     * @var bool|null
      */
     private $profilDirCommercial;
 
     /**
      * Profil dir gestionnaire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $profilDirGestionnaire;
 
     /**
      * Profil dir somnolent.
      *
-     * @var bool
+     * @var bool|null
      */
     private $profilDirSomnolent;
 
     /**
      * Profil dir technicien.
      *
-     * @var bool
+     * @var bool|null
      */
     private $profilDirTechnicien;
 
     /**
      * Profil ent.
      *
-     * @var string
+     * @var string|null
      */
     private $profilEnt;
 
     /**
      * Prospect.
      *
-     * @var bool
+     * @var bool|null
      */
     private $prospect;
 
     /**
      * Qualite paiement.
      *
-     * @var string
+     * @var string|null
      */
     private $qualitePaiement;
 
     /**
      * Raison fin activite.
      *
-     * @var string
+     * @var string|null
      */
     private $raisonFinActivite;
 
     /**
      * Raison mv paiement.
      *
-     * @var string
+     * @var string|null
      */
     private $raisonMvPaiement;
 
     /**
      * Regime.
      *
-     * @var string
+     * @var string|null
      */
     private $regime;
 
     /**
      * Regroupement fact.
      *
-     * @var string
+     * @var string|null
      */
     private $regroupementFact;
 
     /**
      * Relation cabinet.
      *
-     * @var string
+     * @var string|null
      */
     private $relationCabinet;
 
     /**
      * Releve facture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $releveFacture;
 
     /**
      * Remise ligne1.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseLigne1;
 
     /**
      * Remise ligne2.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseLigne2;
 
     /**
      * Remise ligne3.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseLigne3;
 
     /**
      * Remise pied.
      *
-     * @var float
+     * @var float|null
      */
     private $remisePied;
 
     /**
      * Remise pied2.
      *
-     * @var float
+     * @var float|null
      */
     private $remisePied2;
 
     /**
      * Remise pied3.
      *
-     * @var float
+     * @var float|null
      */
     private $remisePied3;
 
     /**
      * Resultat.
      *
-     * @var float
+     * @var float|null
      */
     private $resultat;
 
     /**
      * Rib.
      *
-     * @var string
+     * @var string|null
      */
     private $rib;
 
     /**
      * Sante financiere.
      *
-     * @var string
+     * @var string|null
      */
     private $santeFinanciere;
 
     /**
      * Service cpta.
      *
-     * @var bool
+     * @var bool|null
      */
     private $serviceCpta;
 
     /**
      * Siege groupe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $siegeGroupe;
 
     /**
      * Social.
      *
-     * @var bool
+     * @var bool|null
      */
     private $social;
 
     /**
      * Social btq.
      *
-     * @var string
+     * @var string|null
      */
     private $socialBtq;
 
     /**
      * Social bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $socialBureauDistributeur;
 
     /**
      * Social code officiel commune.
      *
-     * @var string
+     * @var string|null
      */
     private $socialCodeOfficielCommune;
 
     /**
      * Social code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $socialCodePostal;
 
     /**
      * Social complement.
      *
-     * @var string
+     * @var string|null
      */
     private $socialComplement;
 
     /**
      * Social nom rs.
      *
-     * @var string
+     * @var string|null
      */
     private $socialNomRs;
 
     /**
      * Social nom ville.
      *
-     * @var string
+     * @var string|null
      */
     private $socialNomVille;
 
     /**
      * Social nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $socialNomVoie;
 
     /**
      * Social num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $socialNumVoie;
 
     /**
      * Soumis escompte.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisEscompte;
 
     /**
      * Soumis port1.
      *
-     * @var string
+     * @var string|null
      */
     private $soumisPort1;
 
     /**
      * Soumis port2.
      *
-     * @var string
+     * @var string|null
      */
     private $soumisPort2;
 
     /**
      * Soumis taxe1.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTaxe1;
 
     /**
      * Soumis taxe2.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTaxe2;
 
     /**
      * Soumis taxe3.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTaxe3;
 
     /**
      * Soumis taxe4.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTaxe4;
 
     /**
      * Soumis taxe5.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTaxe5;
 
     /**
      * Soumis tva.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisTva;
 
     /**
      * Tableau de bord.
      *
-     * @var string
+     * @var string|null
      */
     private $tableauDeBord;
 
     /**
      * Toutes activites.
      *
-     * @var string
+     * @var string|null
      */
     private $toutesActivites;
 
     /**
      * Transporteur.
      *
-     * @var string
+     * @var string|null
      */
     private $transporteur;
 
     /**
      * Tresorerie.
      *
-     * @var string
+     * @var string|null
      */
     private $tresorerie;
 
     /**
      * Tva regime.
      *
-     * @var string
+     * @var string|null
      */
     private $tvaRegime;
 
     /**
      * Tx escompte vente.
      *
-     * @var float
+     * @var float|null
      */
     private $txEscompteVente;
 
     /**
      * Type client.
      *
-     * @var string
+     * @var string|null
      */
     private $typeClient;
 
     /**
      * Type edit bl.
      *
-     * @var string
+     * @var string|null
      */
     private $typeEditBl;
 
     /**
      * Type facture.
      *
-     * @var int
+     * @var int|null
      */
     private $typeFacture;
 
     /**
      * Type gestion etebac.
      *
-     * @var string
+     * @var string|null
      */
     private $typeGestionEtebac;
 
     /**
      * Use adresse fact.
      *
-     * @var bool
+     * @var bool|null
      */
     private $useAdresseFact;
 
     /**
      * Use corres sociale.
      *
-     * @var bool
+     * @var bool|null
      */
     private $useCorresSociale;
 
@@ -1600,573 +1600,573 @@ class Clients {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the actif.
      *
-     * @return bool Returns the actif.
+     * @return bool|null Returns the actif.
      */
-    public function getActif() {
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
     /**
      * Get the activite nouvelle.
      *
-     * @return bool Returns the activite nouvelle.
+     * @return bool|null Returns the activite nouvelle.
      */
-    public function getActiviteNouvelle() {
+    public function getActiviteNouvelle(): ?bool {
         return $this->activiteNouvelle;
     }
 
     /**
      * Get the activite saiso.
      *
-     * @return bool Returns the activite saiso.
+     * @return bool|null Returns the activite saiso.
      */
-    public function getActiviteSaiso() {
+    public function getActiviteSaiso(): ?bool {
         return $this->activiteSaiso;
     }
 
     /**
      * Get the adresse site client.
      *
-     * @return string Returns the adresse site client.
+     * @return string|null Returns the adresse site client.
      */
-    public function getAdresseSiteClient() {
+    public function getAdresseSiteClient(): ?string {
         return $this->adresseSiteClient;
     }
 
     /**
      * Get the article port1.
      *
-     * @return string Returns the article port1.
+     * @return string|null Returns the article port1.
      */
-    public function getArticlePort1() {
+    public function getArticlePort1(): ?string {
         return $this->articlePort1;
     }
 
     /**
      * Get the article port2.
      *
-     * @return string Returns the article port2.
+     * @return string|null Returns the article port2.
      */
-    public function getArticlePort2() {
+    public function getArticlePort2(): ?string {
         return $this->articlePort2;
     }
 
     /**
      * Get the assurance.
      *
-     * @return bool Returns the assurance.
+     * @return bool|null Returns the assurance.
      */
-    public function getAssurance() {
+    public function getAssurance(): ?bool {
         return $this->assurance;
     }
 
     /**
      * Get the bibliotheque novaxel.
      *
-     * @return string Returns the bibliotheque novaxel.
+     * @return string|null Returns the bibliotheque novaxel.
      */
-    public function getBibliothequeNovaxel() {
+    public function getBibliothequeNovaxel(): ?string {
         return $this->bibliothequeNovaxel;
     }
 
     /**
      * Get the bl chiffre.
      *
-     * @return bool Returns the bl chiffre.
+     * @return bool|null Returns the bl chiffre.
      */
-    public function getBlChiffre() {
+    public function getBlChiffre(): ?bool {
         return $this->blChiffre;
     }
 
     /**
      * Get the bloque.
      *
-     * @return bool Returns the bloque.
+     * @return bool|null Returns the bloque.
      */
-    public function getBloque() {
+    public function getBloque(): ?bool {
         return $this->bloque;
     }
 
     /**
      * Get the cde auto manu.
      *
-     * @return string Returns the cde auto manu.
+     * @return string|null Returns the cde auto manu.
      */
-    public function getCdeAutoManu() {
+    public function getCdeAutoManu(): ?string {
         return $this->cdeAutoManu;
     }
 
     /**
      * Get the cga.
      *
-     * @return bool Returns the cga.
+     * @return bool|null Returns the cga.
      */
-    public function getCga() {
+    public function getCga(): ?bool {
         return $this->cga;
     }
 
     /**
      * Get the charges.
      *
-     * @return string Returns the charges.
+     * @return string|null Returns the charges.
      */
-    public function getCharges() {
+    public function getCharges(): ?string {
         return $this->charges;
     }
 
     /**
      * Get the chiffre affaire.
      *
-     * @return float Returns the chiffre affaire.
+     * @return float|null Returns the chiffre affaire.
      */
-    public function getChiffreAffaire() {
+    public function getChiffreAffaire(): ?float {
         return $this->chiffreAffaire;
     }
 
     /**
      * Get the cle alpha.
      *
-     * @return string Returns the cle alpha.
+     * @return string|null Returns the cle alpha.
      */
-    public function getCleAlpha() {
+    public function getCleAlpha(): ?string {
         return $this->cleAlpha;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the code activite.
      *
-     * @return string Returns the code activite.
+     * @return string|null Returns the code activite.
      */
-    public function getCodeActivite() {
+    public function getCodeActivite(): ?string {
         return $this->codeActivite;
     }
 
     /**
      * Get the code agence.
      *
-     * @return string Returns the code agence.
+     * @return string|null Returns the code agence.
      */
-    public function getCodeAgence() {
+    public function getCodeAgence(): ?string {
         return $this->codeAgence;
     }
 
     /**
      * Get the code article cotisation.
      *
-     * @return string Returns the code article cotisation.
+     * @return string|null Returns the code article cotisation.
      */
-    public function getCodeArticleCotisation() {
+    public function getCodeArticleCotisation(): ?string {
         return $this->codeArticleCotisation;
     }
 
     /**
      * Get the code article droit fixe.
      *
-     * @return string Returns the code article droit fixe.
+     * @return string|null Returns the code article droit fixe.
      */
-    public function getCodeArticleDroitFixe() {
+    public function getCodeArticleDroitFixe(): ?string {
         return $this->codeArticleDroitFixe;
     }
 
     /**
      * Get the code article frais fixe.
      *
-     * @return string Returns the code article frais fixe.
+     * @return string|null Returns the code article frais fixe.
      */
-    public function getCodeArticleFraisFixe() {
+    public function getCodeArticleFraisFixe(): ?string {
         return $this->codeArticleFraisFixe;
     }
 
     /**
      * Get the code assistant juridique.
      *
-     * @return string Returns the code assistant juridique.
+     * @return string|null Returns the code assistant juridique.
      */
-    public function getCodeAssistantJuridique() {
+    public function getCodeAssistantJuridique(): ?string {
         return $this->codeAssistantJuridique;
     }
 
     /**
      * Get the code assistant social.
      *
-     * @return string Returns the code assistant social.
+     * @return string|null Returns the code assistant social.
      */
-    public function getCodeAssistantSocial() {
+    public function getCodeAssistantSocial(): ?string {
         return $this->codeAssistantSocial;
     }
 
     /**
      * Get the code autre1.
      *
-     * @return string Returns the code autre1.
+     * @return string|null Returns the code autre1.
      */
-    public function getCodeAutre1() {
+    public function getCodeAutre1(): ?string {
         return $this->codeAutre1;
     }
 
     /**
      * Get the code autre2.
      *
-     * @return string Returns the code autre2.
+     * @return string|null Returns the code autre2.
      */
-    public function getCodeAutre2() {
+    public function getCodeAutre2(): ?string {
         return $this->codeAutre2;
     }
 
     /**
      * Get the code avocat.
      *
-     * @return string Returns the code avocat.
+     * @return string|null Returns the code avocat.
      */
-    public function getCodeAvocat() {
+    public function getCodeAvocat(): ?string {
         return $this->codeAvocat;
     }
 
     /**
      * Get the code barre.
      *
-     * @return bool Returns the code barre.
+     * @return bool|null Returns the code barre.
      */
-    public function getCodeBarre() {
+    public function getCodeBarre(): ?bool {
         return $this->codeBarre;
     }
 
     /**
      * Get the code categorie client.
      *
-     * @return string Returns the code categorie client.
+     * @return string|null Returns the code categorie client.
      */
-    public function getCodeCategorieClient() {
+    public function getCodeCategorieClient(): ?string {
         return $this->codeCategorieClient;
     }
 
     /**
      * Get the code client fact.
      *
-     * @return string Returns the code client fact.
+     * @return string|null Returns the code client fact.
      */
-    public function getCodeClientFact() {
+    public function getCodeClientFact(): ?string {
         return $this->codeClientFact;
     }
 
     /**
      * Get the code client livr.
      *
-     * @return string Returns the code client livr.
+     * @return string|null Returns the code client livr.
      */
-    public function getCodeClientLivr() {
+    public function getCodeClientLivr(): ?string {
         return $this->codeClientLivr;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code depot.
      *
-     * @return string Returns the code depot.
+     * @return string|null Returns the code depot.
      */
-    public function getCodeDepot() {
+    public function getCodeDepot(): ?string {
         return $this->codeDepot;
     }
 
     /**
      * Get the code devise.
      *
-     * @return string Returns the code devise.
+     * @return string|null Returns the code devise.
      */
-    public function getCodeDevise() {
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
     /**
      * Get the code edition fact.
      *
-     * @return string Returns the code edition fact.
+     * @return string|null Returns the code edition fact.
      */
-    public function getCodeEditionFact() {
+    public function getCodeEditionFact(): ?string {
         return $this->codeEditionFact;
     }
 
     /**
      * Get the code exc.
      *
-     * @return string Returns the code exc.
+     * @return string|null Returns the code exc.
      */
-    public function getCodeExc() {
+    public function getCodeExc(): ?string {
         return $this->codeExc;
     }
 
     /**
      * Get the code expert.
      *
-     * @return string Returns the code expert.
+     * @return string|null Returns the code expert.
      */
-    public function getCodeExpert() {
+    public function getCodeExpert(): ?string {
         return $this->codeExpert;
     }
 
     /**
      * Get the code factor.
      *
-     * @return string Returns the code factor.
+     * @return string|null Returns the code factor.
      */
-    public function getCodeFactor() {
+    public function getCodeFactor(): ?string {
         return $this->codeFactor;
     }
 
     /**
      * Get the code famille.
      *
-     * @return string Returns the code famille.
+     * @return string|null Returns the code famille.
      */
-    public function getCodeFamille() {
+    public function getCodeFamille(): ?string {
         return $this->codeFamille;
     }
 
     /**
      * Get the code geo.
      *
-     * @return string Returns the code geo.
+     * @return string|null Returns the code geo.
      */
-    public function getCodeGeo() {
+    public function getCodeGeo(): ?string {
         return $this->codeGeo;
     }
 
     /**
      * Get the code imputation analytique.
      *
-     * @return string Returns the code imputation analytique.
+     * @return string|null Returns the code imputation analytique.
      */
-    public function getCodeImputationAnalytique() {
+    public function getCodeImputationAnalytique(): ?string {
         return $this->codeImputationAnalytique;
     }
 
     /**
      * Get the code langue designation article.
      *
-     * @return string Returns the code langue designation article.
+     * @return string|null Returns the code langue designation article.
      */
-    public function getCodeLangueDesignationArticle() {
+    public function getCodeLangueDesignationArticle(): ?string {
         return $this->codeLangueDesignationArticle;
     }
 
     /**
      * Get the code mission frais fixe.
      *
-     * @return string Returns the code mission frais fixe.
+     * @return string|null Returns the code mission frais fixe.
      */
-    public function getCodeMissionFraisFixe() {
+    public function getCodeMissionFraisFixe(): ?string {
         return $this->codeMissionFraisFixe;
     }
 
     /**
      * Get the code origine.
      *
-     * @return string Returns the code origine.
+     * @return string|null Returns the code origine.
      */
-    public function getCodeOrigine() {
+    public function getCodeOrigine(): ?string {
         return $this->codeOrigine;
     }
 
     /**
      * Get the code pays corres.
      *
-     * @return string Returns the code pays corres.
+     * @return string|null Returns the code pays corres.
      */
-    public function getCodePaysCorres() {
+    public function getCodePaysCorres(): ?string {
         return $this->codePaysCorres;
     }
 
     /**
      * Get the code pays fact.
      *
-     * @return string Returns the code pays fact.
+     * @return string|null Returns the code pays fact.
      */
-    public function getCodePaysFact() {
+    public function getCodePaysFact(): ?string {
         return $this->codePaysFact;
     }
 
     /**
      * Get the code portefeuille.
      *
-     * @return string Returns the code portefeuille.
+     * @return string|null Returns the code portefeuille.
      */
-    public function getCodePortefeuille() {
+    public function getCodePortefeuille(): ?string {
         return $this->codePortefeuille;
     }
 
     /**
      * Get the code recette impots.
      *
-     * @return string Returns the code recette impots.
+     * @return string|null Returns the code recette impots.
      */
-    public function getCodeRecetteImpots() {
+    public function getCodeRecetteImpots(): ?string {
         return $this->codeRecetteImpots;
     }
 
     /**
      * Get the code reglement.
      *
-     * @return string Returns the code reglement.
+     * @return string|null Returns the code reglement.
      */
-    public function getCodeReglement() {
+    public function getCodeReglement(): ?string {
         return $this->codeReglement;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
     /**
      * Get the code representant.
      *
-     * @return string Returns the code representant.
+     * @return string|null Returns the code representant.
      */
-    public function getCodeRepresentant() {
+    public function getCodeRepresentant(): ?string {
         return $this->codeRepresentant;
     }
 
     /**
      * Get the code revision.
      *
-     * @return string Returns the code revision.
+     * @return string|null Returns the code revision.
      */
-    public function getCodeRevision() {
+    public function getCodeRevision(): ?string {
         return $this->codeRevision;
     }
 
     /**
      * Get the code sous famille.
      *
-     * @return string Returns the code sous famille.
+     * @return string|null Returns the code sous famille.
      */
-    public function getCodeSousFamille() {
+    public function getCodeSousFamille(): ?string {
         return $this->codeSousFamille;
     }
 
     /**
      * Get the code sous tournee.
      *
-     * @return string Returns the code sous tournee.
+     * @return string|null Returns the code sous tournee.
      */
-    public function getCodeSousTournee() {
+    public function getCodeSousTournee(): ?string {
         return $this->codeSousTournee;
     }
 
     /**
      * Get the code tarif.
      *
-     * @return string Returns the code tarif.
+     * @return string|null Returns the code tarif.
      */
-    public function getCodeTarif() {
+    public function getCodeTarif(): ?string {
         return $this->codeTarif;
     }
 
     /**
      * Get the code tournee.
      *
-     * @return string Returns the code tournee.
+     * @return string|null Returns the code tournee.
      */
-    public function getCodeTournee() {
+    public function getCodeTournee(): ?string {
         return $this->codeTournee;
     }
 
     /**
      * Get the code transporteur.
      *
-     * @return string Returns the code transporteur.
+     * @return string|null Returns the code transporteur.
      */
-    public function getCodeTransporteur() {
+    public function getCodeTransporteur(): ?string {
         return $this->codeTransporteur;
     }
 
     /**
      * Get the code tva.
      *
-     * @return string Returns the code tva.
+     * @return string|null Returns the code tva.
      */
-    public function getCodeTva() {
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
     /**
      * Get the code ventil compta.
      *
-     * @return string Returns the code ventil compta.
+     * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta() {
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
     /**
      * Get the coef sur pv.
      *
-     * @return float Returns the coef sur pv.
+     * @return float|null Returns the coef sur pv.
      */
-    public function getCoefSurPv() {
+    public function getCoefSurPv(): ?float {
         return $this->coefSurPv;
     }
 
     /**
      * Get the coeff pv client.
      *
-     * @return float Returns the coeff pv client.
+     * @return float|null Returns the coeff pv client.
      */
-    public function getCoeffPvClient() {
+    public function getCoeffPvClient(): ?float {
         return $this->coeffPvClient;
     }
 
     /**
      * Get the collectif.
      *
-     * @return string Returns the collectif.
+     * @return string|null Returns the collectif.
      */
-    public function getCollectif() {
+    public function getCollectif(): ?string {
         return $this->collectif;
     }
 
     /**
      * Get the conjoint.
      *
-     * @return string Returns the conjoint.
+     * @return string|null Returns the conjoint.
      */
-    public function getConjoint() {
+    public function getConjoint(): ?string {
         return $this->conjoint;
     }
 
     /**
      * Get the contact recette impots.
      *
-     * @return string Returns the contact recette impots.
+     * @return string|null Returns the contact recette impots.
      */
-    public function getContactRecetteImpots() {
+    public function getContactRecetteImpots(): ?string {
         return $this->contactRecetteImpots;
     }
 
@@ -2175,7 +2175,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date attrib encours.
      */
-    public function getDateAttribEncours() {
+    public function getDateAttribEncours(): ?DateTime {
         return $this->dateAttribEncours;
     }
 
@@ -2184,7 +2184,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -2193,7 +2193,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date deb activite.
      */
-    public function getDateDebActivite() {
+    public function getDateDebActivite(): ?DateTime {
         return $this->dateDebActivite;
     }
 
@@ -2202,7 +2202,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date deb prof.
      */
-    public function getDateDebProf() {
+    public function getDateDebProf(): ?DateTime {
         return $this->dateDebProf;
     }
 
@@ -2211,7 +2211,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date derniere vente.
      */
-    public function getDateDerniereVente() {
+    public function getDateDerniereVente(): ?DateTime {
         return $this->dateDerniereVente;
     }
 
@@ -2220,7 +2220,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree() {
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -2229,7 +2229,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date fin activite.
      */
-    public function getDateFinActivite() {
+    public function getDateFinActivite(): ?DateTime {
         return $this->dateFinActivite;
     }
 
@@ -2238,7 +2238,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -2247,7 +2247,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date reprise.
      */
-    public function getDateReprise() {
+    public function getDateReprise(): ?DateTime {
         return $this->dateReprise;
     }
 
@@ -2256,61 +2256,61 @@ class Clients {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie() {
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
     /**
      * Get the delai tarif.
      *
-     * @return int Returns the delai tarif.
+     * @return int|null Returns the delai tarif.
      */
-    public function getDelaiTarif() {
+    public function getDelaiTarif(): ?int {
         return $this->delaiTarif;
     }
 
     /**
      * Get the domiciliation bancaire1.
      *
-     * @return string Returns the domiciliation bancaire1.
+     * @return string|null Returns the domiciliation bancaire1.
      */
-    public function getDomiciliationBancaire1() {
+    public function getDomiciliationBancaire1(): ?string {
         return $this->domiciliationBancaire1;
     }
 
     /**
      * Get the domiciliation bancaire2.
      *
-     * @return string Returns the domiciliation bancaire2.
+     * @return string|null Returns the domiciliation bancaire2.
      */
-    public function getDomiciliationBancaire2() {
+    public function getDomiciliationBancaire2(): ?string {
         return $this->domiciliationBancaire2;
     }
 
     /**
      * Get the dossier comptable.
      *
-     * @return string Returns the dossier comptable.
+     * @return string|null Returns the dossier comptable.
      */
-    public function getDossierComptable() {
+    public function getDossierComptable(): ?string {
         return $this->dossierComptable;
     }
 
     /**
      * Get the dossier paie.
      *
-     * @return string Returns the dossier paie.
+     * @return string|null Returns the dossier paie.
      */
-    public function getDossierPaie() {
+    public function getDossierPaie(): ?string {
         return $this->dossierPaie;
     }
 
     /**
      * Get the ds code collab.
      *
-     * @return string Returns the ds code collab.
+     * @return string|null Returns the ds code collab.
      */
-    public function getDsCodeCollab() {
+    public function getDsCodeCollab(): ?string {
         return $this->dsCodeCollab;
     }
 
@@ -2319,7 +2319,7 @@ class Clients {
      *
      * @return DateTime|null Returns the ds date retour.
      */
-    public function getDsDateRetour() {
+    public function getDsDateRetour(): ?DateTime {
         return $this->dsDateRetour;
     }
 
@@ -2328,34 +2328,34 @@ class Clients {
      *
      * @return DateTime|null Returns the ds date sortie.
      */
-    public function getDsDateSortie() {
+    public function getDsDateSortie(): ?DateTime {
         return $this->dsDateSortie;
     }
 
     /**
      * Get the du client.
      *
-     * @return string Returns the du client.
+     * @return string|null Returns the du client.
      */
-    public function getDuClient() {
+    public function getDuClient(): ?string {
         return $this->duClient;
     }
 
     /**
      * Get the duree echeances.
      *
-     * @return string Returns the duree echeances.
+     * @return string|null Returns the duree echeances.
      */
-    public function getDureeEcheances() {
+    public function getDureeEcheances(): ?string {
         return $this->dureeEcheances;
     }
 
     /**
      * Get the effectif etp.
      *
-     * @return int Returns the effectif etp.
+     * @return int|null Returns the effectif etp.
      */
-    public function getEffectifEtp() {
+    public function getEffectifEtp(): ?int {
         return $this->effectifEtp;
     }
 
@@ -2364,7 +2364,7 @@ class Clients {
      *
      * @return DateTime|null Returns the election ce.
      */
-    public function getElectionCe() {
+    public function getElectionCe(): ?DateTime {
         return $this->electionCe;
     }
 
@@ -2373,151 +2373,151 @@ class Clients {
      *
      * @return DateTime|null Returns the election delegue personnel.
      */
-    public function getElectionDeleguePersonnel() {
+    public function getElectionDeleguePersonnel(): ?DateTime {
         return $this->electionDeleguePersonnel;
     }
 
     /**
      * Get the equip info.
      *
-     * @return string Returns the equip info.
+     * @return string|null Returns the equip info.
      */
-    public function getEquipInfo() {
+    public function getEquipInfo(): ?string {
         return $this->equipInfo;
     }
 
     /**
      * Get the etat1.
      *
-     * @return string Returns the etat1.
+     * @return string|null Returns the etat1.
      */
-    public function getEtat1() {
+    public function getEtat1(): ?string {
         return $this->etat1;
     }
 
     /**
      * Get the etat2.
      *
-     * @return string Returns the etat2.
+     * @return string|null Returns the etat2.
      */
-    public function getEtat2() {
+    public function getEtat2(): ?string {
         return $this->etat2;
     }
 
     /**
      * Get the etat3.
      *
-     * @return string Returns the etat3.
+     * @return string|null Returns the etat3.
      */
-    public function getEtat3() {
+    public function getEtat3(): ?string {
         return $this->etat3;
     }
 
     /**
      * Get the etat4.
      *
-     * @return string Returns the etat4.
+     * @return string|null Returns the etat4.
      */
-    public function getEtat4() {
+    public function getEtat4(): ?string {
         return $this->etat4;
     }
 
     /**
      * Get the etat5.
      *
-     * @return string Returns the etat5.
+     * @return string|null Returns the etat5.
      */
-    public function getEtat5() {
+    public function getEtat5(): ?string {
         return $this->etat5;
     }
 
     /**
      * Get the etiquettes.
      *
-     * @return bool Returns the etiquettes.
+     * @return bool|null Returns the etiquettes.
      */
-    public function getEtiquettes() {
+    public function getEtiquettes(): ?bool {
         return $this->etiquettes;
     }
 
     /**
      * Get the fact btq.
      *
-     * @return string Returns the fact btq.
+     * @return string|null Returns the fact btq.
      */
-    public function getFactBtq() {
+    public function getFactBtq(): ?string {
         return $this->factBtq;
     }
 
     /**
      * Get the fact bureau distributeur.
      *
-     * @return string Returns the fact bureau distributeur.
+     * @return string|null Returns the fact bureau distributeur.
      */
-    public function getFactBureauDistributeur() {
+    public function getFactBureauDistributeur(): ?string {
         return $this->factBureauDistributeur;
     }
 
     /**
      * Get the fact code officiel commune.
      *
-     * @return string Returns the fact code officiel commune.
+     * @return string|null Returns the fact code officiel commune.
      */
-    public function getFactCodeOfficielCommune() {
+    public function getFactCodeOfficielCommune(): ?string {
         return $this->factCodeOfficielCommune;
     }
 
     /**
      * Get the fact code postal.
      *
-     * @return string Returns the fact code postal.
+     * @return string|null Returns the fact code postal.
      */
-    public function getFactCodePostal() {
+    public function getFactCodePostal(): ?string {
         return $this->factCodePostal;
     }
 
     /**
      * Get the fact complement.
      *
-     * @return string Returns the fact complement.
+     * @return string|null Returns the fact complement.
      */
-    public function getFactComplement() {
+    public function getFactComplement(): ?string {
         return $this->factComplement;
     }
 
     /**
      * Get the fact nom rs.
      *
-     * @return string Returns the fact nom rs.
+     * @return string|null Returns the fact nom rs.
      */
-    public function getFactNomRs() {
+    public function getFactNomRs(): ?string {
         return $this->factNomRs;
     }
 
     /**
      * Get the fact nom ville.
      *
-     * @return string Returns the fact nom ville.
+     * @return string|null Returns the fact nom ville.
      */
-    public function getFactNomVille() {
+    public function getFactNomVille(): ?string {
         return $this->factNomVille;
     }
 
     /**
      * Get the fact nom voie.
      *
-     * @return string Returns the fact nom voie.
+     * @return string|null Returns the fact nom voie.
      */
-    public function getFactNomVoie() {
+    public function getFactNomVoie(): ?string {
         return $this->factNomVoie;
     }
 
     /**
      * Get the fact num voie.
      *
-     * @return string Returns the fact num voie.
+     * @return string|null Returns the fact num voie.
      */
-    public function getFactNumVoie() {
+    public function getFactNumVoie(): ?string {
         return $this->factNumVoie;
     }
 
@@ -2526,7 +2526,7 @@ class Clients {
      *
      * @return DateTime|null Returns the facturation compta.
      */
-    public function getFacturationCompta() {
+    public function getFacturationCompta(): ?DateTime {
         return $this->facturationCompta;
     }
 
@@ -2535,34 +2535,34 @@ class Clients {
      *
      * @return DateTime|null Returns the facturation compta prec.
      */
-    public function getFacturationComptaPrec() {
+    public function getFacturationComptaPrec(): ?DateTime {
         return $this->facturationComptaPrec;
     }
 
     /**
      * Get the facturation cotisation.
      *
-     * @return bool Returns the facturation cotisation.
+     * @return bool|null Returns the facturation cotisation.
      */
-    public function getFacturationCotisation() {
+    public function getFacturationCotisation(): ?bool {
         return $this->facturationCotisation;
     }
 
     /**
      * Get the facturation droit fixe.
      *
-     * @return bool Returns the facturation droit fixe.
+     * @return bool|null Returns the facturation droit fixe.
      */
-    public function getFacturationDroitFixe() {
+    public function getFacturationDroitFixe(): ?bool {
         return $this->facturationDroitFixe;
     }
 
     /**
      * Get the facturation frais fixe.
      *
-     * @return bool Returns the facturation frais fixe.
+     * @return bool|null Returns the facturation frais fixe.
      */
-    public function getFacturationFraisFixe() {
+    public function getFacturationFraisFixe(): ?bool {
         return $this->facturationFraisFixe;
     }
 
@@ -2571,7 +2571,7 @@ class Clients {
      *
      * @return DateTime|null Returns the facturation paie.
      */
-    public function getFacturationPaie() {
+    public function getFacturationPaie(): ?DateTime {
         return $this->facturationPaie;
     }
 
@@ -2580,142 +2580,142 @@ class Clients {
      *
      * @return DateTime|null Returns the facturation paie prec.
      */
-    public function getFacturationPaiePrec() {
+    public function getFacturationPaiePrec(): ?DateTime {
         return $this->facturationPaiePrec;
     }
 
     /**
      * Get the facture euros.
      *
-     * @return bool Returns the facture euros.
+     * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros() {
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
     /**
      * Get the facture isolee.
      *
-     * @return bool Returns the facture isolee.
+     * @return bool|null Returns the facture isolee.
      */
-    public function getFactureIsolee() {
+    public function getFactureIsolee(): ?bool {
         return $this->factureIsolee;
     }
 
     /**
      * Get the facture temps passes.
      *
-     * @return bool Returns the facture temps passes.
+     * @return bool|null Returns the facture temps passes.
      */
-    public function getFactureTempsPasses() {
+    public function getFactureTempsPasses(): ?bool {
         return $this->factureTempsPasses;
     }
 
     /**
      * Get the factures mail.
      *
-     * @return bool Returns the factures mail.
+     * @return bool|null Returns the factures mail.
      */
-    public function getFacturesMail() {
+    public function getFacturesMail(): ?bool {
         return $this->facturesMail;
     }
 
     /**
      * Get the fortement impose.
      *
-     * @return string Returns the fortement impose.
+     * @return string|null Returns the fortement impose.
      */
-    public function getFortementImpose() {
+    public function getFortementImpose(): ?string {
         return $this->fortementImpose;
     }
 
     /**
      * Get the frais fixes1.
      *
-     * @return bool Returns the frais fixes1.
+     * @return bool|null Returns the frais fixes1.
      */
-    public function getFraisFixes1() {
+    public function getFraisFixes1(): ?bool {
         return $this->fraisFixes1;
     }
 
     /**
      * Get the frais fixes2.
      *
-     * @return bool Returns the frais fixes2.
+     * @return bool|null Returns the frais fixes2.
      */
-    public function getFraisFixes2() {
+    public function getFraisFixes2(): ?bool {
         return $this->fraisFixes2;
     }
 
     /**
      * Get the franco port1.
      *
-     * @return float Returns the franco port1.
+     * @return float|null Returns the franco port1.
      */
-    public function getFrancoPort1() {
+    public function getFrancoPort1(): ?float {
         return $this->francoPort1;
     }
 
     /**
      * Get the franco port2.
      *
-     * @return float Returns the franco port2.
+     * @return float|null Returns the franco port2.
      */
-    public function getFrancoPort2() {
+    public function getFrancoPort2(): ?float {
         return $this->francoPort2;
     }
 
     /**
      * Get the heure appel.
      *
-     * @return string Returns the heure appel.
+     * @return string|null Returns the heure appel.
      */
-    public function getHeureAppel() {
+    public function getHeureAppel(): ?string {
         return $this->heureAppel;
     }
 
     /**
      * Get the identifiant tva.
      *
-     * @return string Returns the identifiant tva.
+     * @return string|null Returns the identifiant tva.
      */
-    public function getIdentifiantTva() {
+    public function getIdentifiantTva(): ?string {
         return $this->identifiantTva;
     }
 
     /**
      * Get the indice factures mail.
      *
-     * @return int Returns the indice factures mail.
+     * @return int|null Returns the indice factures mail.
      */
-    public function getIndiceFacturesMail() {
+    public function getIndiceFacturesMail(): ?int {
         return $this->indiceFacturesMail;
     }
 
     /**
      * Get the insp.
      *
-     * @return string Returns the insp.
+     * @return string|null Returns the insp.
      */
-    public function getInsp() {
+    public function getInsp(): ?string {
         return $this->insp;
     }
 
     /**
      * Get the interesse gestion.
      *
-     * @return string Returns the interesse gestion.
+     * @return string|null Returns the interesse gestion.
      */
-    public function getInteresseGestion() {
+    public function getInteresseGestion(): ?string {
         return $this->interesseGestion;
     }
 
     /**
      * Get the mensualisation actif.
      *
-     * @return bool Returns the mensualisation actif.
+     * @return bool|null Returns the mensualisation actif.
      */
-    public function getMensualisationActif() {
+    public function getMensualisationActif(): ?bool {
         return $this->mensualisationActif;
     }
 
@@ -2724,7 +2724,7 @@ class Clients {
      *
      * @return DateTime|null Returns the mensualisation au.
      */
-    public function getMensualisationAu() {
+    public function getMensualisationAu(): ?DateTime {
         return $this->mensualisationAu;
     }
 
@@ -2733,908 +2733,908 @@ class Clients {
      *
      * @return DateTime|null Returns the mensualisation du.
      */
-    public function getMensualisationDu() {
+    public function getMensualisationDu(): ?DateTime {
         return $this->mensualisationDu;
     }
 
     /**
      * Get the mensualisation frequence.
      *
-     * @return string Returns the mensualisation frequence.
+     * @return string|null Returns the mensualisation frequence.
      */
-    public function getMensualisationFrequence() {
+    public function getMensualisationFrequence(): ?string {
         return $this->mensualisationFrequence;
     }
 
     /**
      * Get the mensualisation montant.
      *
-     * @return float Returns the mensualisation montant.
+     * @return float|null Returns the mensualisation montant.
      */
-    public function getMensualisationMontant() {
+    public function getMensualisationMontant(): ?float {
         return $this->mensualisationMontant;
     }
 
     /**
      * Get the mission sur dossier.
      *
-     * @return int Returns the mission sur dossier.
+     * @return int|null Returns the mission sur dossier.
      */
-    public function getMissionSurDossier() {
+    public function getMissionSurDossier(): ?int {
         return $this->missionSurDossier;
     }
 
     /**
      * Get the modele bl.
      *
-     * @return string Returns the modele bl.
+     * @return string|null Returns the modele bl.
      */
-    public function getModeleBl() {
+    public function getModeleBl(): ?string {
         return $this->modeleBl;
     }
 
     /**
      * Get the modele commande.
      *
-     * @return string Returns the modele commande.
+     * @return string|null Returns the modele commande.
      */
-    public function getModeleCommande() {
+    public function getModeleCommande(): ?string {
         return $this->modeleCommande;
     }
 
     /**
      * Get the modele facture.
      *
-     * @return string Returns the modele facture.
+     * @return string|null Returns the modele facture.
      */
-    public function getModeleFacture() {
+    public function getModeleFacture(): ?string {
         return $this->modeleFacture;
     }
 
     /**
      * Get the modele proformas.
      *
-     * @return string Returns the modele proformas.
+     * @return string|null Returns the modele proformas.
      */
-    public function getModeleProformas() {
+    public function getModeleProformas(): ?string {
         return $this->modeleProformas;
     }
 
     /**
      * Get the modele releve.
      *
-     * @return string Returns the modele releve.
+     * @return string|null Returns the modele releve.
      */
-    public function getModeleReleve() {
+    public function getModeleReleve(): ?string {
         return $this->modeleReleve;
     }
 
     /**
      * Get the mois cloture.
      *
-     * @return string Returns the mois cloture.
+     * @return string|null Returns the mois cloture.
      */
-    public function getMoisCloture() {
+    public function getMoisCloture(): ?string {
         return $this->moisCloture;
     }
 
     /**
      * Get the mois cotisation.
      *
-     * @return int Returns the mois cotisation.
+     * @return int|null Returns the mois cotisation.
      */
-    public function getMoisCotisation() {
+    public function getMoisCotisation(): ?int {
         return $this->moisCotisation;
     }
 
     /**
      * Get the mois droit fixe.
      *
-     * @return int Returns the mois droit fixe.
+     * @return int|null Returns the mois droit fixe.
      */
-    public function getMoisDroitFixe() {
+    public function getMoisDroitFixe(): ?int {
         return $this->moisDroitFixe;
     }
 
     /**
      * Get the mt cmd non fact.
      *
-     * @return float Returns the mt cmd non fact.
+     * @return float|null Returns the mt cmd non fact.
      */
-    public function getMtCmdNonFact() {
+    public function getMtCmdNonFact(): ?float {
         return $this->mtCmdNonFact;
     }
 
     /**
      * Get the mt encours.
      *
-     * @return float Returns the mt encours.
+     * @return float|null Returns the mt encours.
      */
-    public function getMtEncours() {
+    public function getMtEncours(): ?float {
         return $this->mtEncours;
     }
 
     /**
      * Get the mt encours autorise.
      *
-     * @return float Returns the mt encours autorise.
+     * @return float|null Returns the mt encours autorise.
      */
-    public function getMtEncoursAutorise() {
+    public function getMtEncoursAutorise(): ?float {
         return $this->mtEncoursAutorise;
     }
 
     /**
      * Get the nb appels en cours.
      *
-     * @return int Returns the nb appels en cours.
+     * @return int|null Returns the nb appels en cours.
      */
-    public function getNbAppelsEnCours() {
+    public function getNbAppelsEnCours(): ?int {
         return $this->nbAppelsEnCours;
     }
 
     /**
      * Get the nb bl.
      *
-     * @return string Returns the nb bl.
+     * @return string|null Returns the nb bl.
      */
-    public function getNbBl() {
+    public function getNbBl(): ?string {
         return $this->nbBl;
     }
 
     /**
      * Get the nb bl non chiffres.
      *
-     * @return int Returns the nb bl non chiffres.
+     * @return int|null Returns the nb bl non chiffres.
      */
-    public function getNbBlNonChiffres() {
+    public function getNbBlNonChiffres(): ?int {
         return $this->nbBlNonChiffres;
     }
 
     /**
      * Get the nb commande.
      *
-     * @return string Returns the nb commande.
+     * @return string|null Returns the nb commande.
      */
-    public function getNbCommande() {
+    public function getNbCommande(): ?string {
         return $this->nbCommande;
     }
 
     /**
      * Get the nb devis.
      *
-     * @return string Returns the nb devis.
+     * @return string|null Returns the nb devis.
      */
-    public function getNbDevis() {
+    public function getNbDevis(): ?string {
         return $this->nbDevis;
     }
 
     /**
      * Get the nb facture.
      *
-     * @return string Returns the nb facture.
+     * @return string|null Returns the nb facture.
      */
-    public function getNbFacture() {
+    public function getNbFacture(): ?string {
         return $this->nbFacture;
     }
 
     /**
      * Get the nb jour interval.
      *
-     * @return int Returns the nb jour interval.
+     * @return int|null Returns the nb jour interval.
      */
-    public function getNbJourInterval() {
+    public function getNbJourInterval(): ?int {
         return $this->nbJourInterval;
     }
 
     /**
      * Get the nb max bl.
      *
-     * @return string Returns the nb max bl.
+     * @return string|null Returns the nb max bl.
      */
-    public function getNbMaxBl() {
+    public function getNbMaxBl(): ?string {
         return $this->nbMaxBl;
     }
 
     /**
      * Get the nb releve.
      *
-     * @return string Returns the nb releve.
+     * @return string|null Returns the nb releve.
      */
-    public function getNbReleve() {
+    public function getNbReleve(): ?string {
         return $this->nbReleve;
     }
 
     /**
      * Get the nombre echeances.
      *
-     * @return string Returns the nombre echeances.
+     * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances() {
+    public function getNombreEcheances(): ?string {
         return $this->nombreEcheances;
     }
 
     /**
      * Get the nombre mois exercice.
      *
-     * @return string Returns the nombre mois exercice.
+     * @return string|null Returns the nombre mois exercice.
      */
-    public function getNombreMoisExercice() {
+    public function getNombreMoisExercice(): ?string {
         return $this->nombreMoisExercice;
     }
 
     /**
      * Get the notoriete.
      *
-     * @return string Returns the notoriete.
+     * @return string|null Returns the notoriete.
      */
-    public function getNotoriete() {
+    public function getNotoriete(): ?string {
         return $this->notoriete;
     }
 
     /**
      * Get the num web adherent.
      *
-     * @return string Returns the num web adherent.
+     * @return string|null Returns the num web adherent.
      */
-    public function getNumWebAdherent() {
+    public function getNumWebAdherent(): ?string {
         return $this->numWebAdherent;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
     /**
      * Get the observation1.
      *
-     * @return string Returns the observation1.
+     * @return string|null Returns the observation1.
      */
-    public function getObservation1() {
+    public function getObservation1(): ?string {
         return $this->observation1;
     }
 
     /**
      * Get the observation2.
      *
-     * @return string Returns the observation2.
+     * @return string|null Returns the observation2.
      */
-    public function getObservation2() {
+    public function getObservation2(): ?string {
         return $this->observation2;
     }
 
     /**
      * Get the observation3.
      *
-     * @return string Returns the observation3.
+     * @return string|null Returns the observation3.
      */
-    public function getObservation3() {
+    public function getObservation3(): ?string {
         return $this->observation3;
     }
 
     /**
      * Get the occasionnel.
      *
-     * @return bool Returns the occasionnel.
+     * @return bool|null Returns the occasionnel.
      */
-    public function getOccasionnel() {
+    public function getOccasionnel(): ?bool {
         return $this->occasionnel;
     }
 
     /**
      * Get the organisation adm.
      *
-     * @return string Returns the organisation adm.
+     * @return string|null Returns the organisation adm.
      */
-    public function getOrganisationAdm() {
+    public function getOrganisationAdm(): ?string {
         return $this->organisationAdm;
     }
 
     /**
      * Get the paiement depart le.
      *
-     * @return int Returns the paiement depart le.
+     * @return int|null Returns the paiement depart le.
      */
-    public function getPaiementDepartLe() {
+    public function getPaiementDepartLe(): ?int {
         return $this->paiementDepartLe;
     }
 
     /**
      * Get the paiement le.
      *
-     * @return string Returns the paiement le.
+     * @return string|null Returns the paiement le.
      */
-    public function getPaiementLe() {
+    public function getPaiementLe(): ?string {
         return $this->paiementLe;
     }
 
     /**
      * Get the paiement nombre de jours.
      *
-     * @return int Returns the paiement nombre de jours.
+     * @return int|null Returns the paiement nombre de jours.
      */
-    public function getPaiementNombreDeJours() {
+    public function getPaiementNombreDeJours(): ?int {
         return $this->paiementNombreDeJours;
     }
 
     /**
      * Get the pas productif.
      *
-     * @return bool Returns the pas productif.
+     * @return bool|null Returns the pas productif.
      */
-    public function getPasProductif() {
+    public function getPasProductif(): ?bool {
         return $this->pasProductif;
     }
 
     /**
      * Get the pas taches operationnelles.
      *
-     * @return bool Returns the pas taches operationnelles.
+     * @return bool|null Returns the pas taches operationnelles.
      */
-    public function getPasTachesOperationnelles() {
+    public function getPasTachesOperationnelles(): ?bool {
         return $this->pasTachesOperationnelles;
     }
 
     /**
      * Get the patrimoine.
      *
-     * @return string Returns the patrimoine.
+     * @return string|null Returns the patrimoine.
      */
-    public function getPatrimoine() {
+    public function getPatrimoine(): ?string {
         return $this->patrimoine;
     }
 
     /**
      * Get the prelevements perso.
      *
-     * @return string Returns the prelevements perso.
+     * @return string|null Returns the prelevements perso.
      */
-    public function getPrelevementsPerso() {
+    public function getPrelevementsPerso(): ?string {
         return $this->prelevementsPerso;
     }
 
     /**
      * Get the prescripteur.
      *
-     * @return string Returns the prescripteur.
+     * @return string|null Returns the prescripteur.
      */
-    public function getPrescripteur() {
+    public function getPrescripteur(): ?string {
         return $this->prescripteur;
     }
 
     /**
      * Get the previsionnel.
      *
-     * @return string Returns the previsionnel.
+     * @return string|null Returns the previsionnel.
      */
-    public function getPrevisionnel() {
+    public function getPrevisionnel(): ?string {
         return $this->previsionnel;
     }
 
     /**
      * Get the prioritaire.
      *
-     * @return bool Returns the prioritaire.
+     * @return bool|null Returns the prioritaire.
      */
-    public function getPrioritaire() {
+    public function getPrioritaire(): ?bool {
         return $this->prioritaire;
     }
 
     /**
      * Get the profil dir anxieux.
      *
-     * @return bool Returns the profil dir anxieux.
+     * @return bool|null Returns the profil dir anxieux.
      */
-    public function getProfilDirAnxieux() {
+    public function getProfilDirAnxieux(): ?bool {
         return $this->profilDirAnxieux;
     }
 
     /**
      * Get the profil dir commercial.
      *
-     * @return bool Returns the profil dir commercial.
+     * @return bool|null Returns the profil dir commercial.
      */
-    public function getProfilDirCommercial() {
+    public function getProfilDirCommercial(): ?bool {
         return $this->profilDirCommercial;
     }
 
     /**
      * Get the profil dir gestionnaire.
      *
-     * @return bool Returns the profil dir gestionnaire.
+     * @return bool|null Returns the profil dir gestionnaire.
      */
-    public function getProfilDirGestionnaire() {
+    public function getProfilDirGestionnaire(): ?bool {
         return $this->profilDirGestionnaire;
     }
 
     /**
      * Get the profil dir somnolent.
      *
-     * @return bool Returns the profil dir somnolent.
+     * @return bool|null Returns the profil dir somnolent.
      */
-    public function getProfilDirSomnolent() {
+    public function getProfilDirSomnolent(): ?bool {
         return $this->profilDirSomnolent;
     }
 
     /**
      * Get the profil dir technicien.
      *
-     * @return bool Returns the profil dir technicien.
+     * @return bool|null Returns the profil dir technicien.
      */
-    public function getProfilDirTechnicien() {
+    public function getProfilDirTechnicien(): ?bool {
         return $this->profilDirTechnicien;
     }
 
     /**
      * Get the profil ent.
      *
-     * @return string Returns the profil ent.
+     * @return string|null Returns the profil ent.
      */
-    public function getProfilEnt() {
+    public function getProfilEnt(): ?string {
         return $this->profilEnt;
     }
 
     /**
      * Get the prospect.
      *
-     * @return bool Returns the prospect.
+     * @return bool|null Returns the prospect.
      */
-    public function getProspect() {
+    public function getProspect(): ?bool {
         return $this->prospect;
     }
 
     /**
      * Get the qualite paiement.
      *
-     * @return string Returns the qualite paiement.
+     * @return string|null Returns the qualite paiement.
      */
-    public function getQualitePaiement() {
+    public function getQualitePaiement(): ?string {
         return $this->qualitePaiement;
     }
 
     /**
      * Get the raison fin activite.
      *
-     * @return string Returns the raison fin activite.
+     * @return string|null Returns the raison fin activite.
      */
-    public function getRaisonFinActivite() {
+    public function getRaisonFinActivite(): ?string {
         return $this->raisonFinActivite;
     }
 
     /**
      * Get the raison mv paiement.
      *
-     * @return string Returns the raison mv paiement.
+     * @return string|null Returns the raison mv paiement.
      */
-    public function getRaisonMvPaiement() {
+    public function getRaisonMvPaiement(): ?string {
         return $this->raisonMvPaiement;
     }
 
     /**
      * Get the regime.
      *
-     * @return string Returns the regime.
+     * @return string|null Returns the regime.
      */
-    public function getRegime() {
+    public function getRegime(): ?string {
         return $this->regime;
     }
 
     /**
      * Get the regroupement fact.
      *
-     * @return string Returns the regroupement fact.
+     * @return string|null Returns the regroupement fact.
      */
-    public function getRegroupementFact() {
+    public function getRegroupementFact(): ?string {
         return $this->regroupementFact;
     }
 
     /**
      * Get the relation cabinet.
      *
-     * @return string Returns the relation cabinet.
+     * @return string|null Returns the relation cabinet.
      */
-    public function getRelationCabinet() {
+    public function getRelationCabinet(): ?string {
         return $this->relationCabinet;
     }
 
     /**
      * Get the releve facture.
      *
-     * @return bool Returns the releve facture.
+     * @return bool|null Returns the releve facture.
      */
-    public function getReleveFacture() {
+    public function getReleveFacture(): ?bool {
         return $this->releveFacture;
     }
 
     /**
      * Get the remise ligne1.
      *
-     * @return float Returns the remise ligne1.
+     * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1() {
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
     /**
      * Get the remise ligne2.
      *
-     * @return float Returns the remise ligne2.
+     * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2() {
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
     /**
      * Get the remise ligne3.
      *
-     * @return float Returns the remise ligne3.
+     * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3() {
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
     /**
      * Get the remise pied.
      *
-     * @return float Returns the remise pied.
+     * @return float|null Returns the remise pied.
      */
-    public function getRemisePied() {
+    public function getRemisePied(): ?float {
         return $this->remisePied;
     }
 
     /**
      * Get the remise pied2.
      *
-     * @return float Returns the remise pied2.
+     * @return float|null Returns the remise pied2.
      */
-    public function getRemisePied2() {
+    public function getRemisePied2(): ?float {
         return $this->remisePied2;
     }
 
     /**
      * Get the remise pied3.
      *
-     * @return float Returns the remise pied3.
+     * @return float|null Returns the remise pied3.
      */
-    public function getRemisePied3() {
+    public function getRemisePied3(): ?float {
         return $this->remisePied3;
     }
 
     /**
      * Get the resultat.
      *
-     * @return float Returns the resultat.
+     * @return float|null Returns the resultat.
      */
-    public function getResultat() {
+    public function getResultat(): ?float {
         return $this->resultat;
     }
 
     /**
      * Get the rib.
      *
-     * @return string Returns the rib.
+     * @return string|null Returns the rib.
      */
-    public function getRib() {
+    public function getRib(): ?string {
         return $this->rib;
     }
 
     /**
      * Get the sante financiere.
      *
-     * @return string Returns the sante financiere.
+     * @return string|null Returns the sante financiere.
      */
-    public function getSanteFinanciere() {
+    public function getSanteFinanciere(): ?string {
         return $this->santeFinanciere;
     }
 
     /**
      * Get the service cpta.
      *
-     * @return bool Returns the service cpta.
+     * @return bool|null Returns the service cpta.
      */
-    public function getServiceCpta() {
+    public function getServiceCpta(): ?bool {
         return $this->serviceCpta;
     }
 
     /**
      * Get the siege groupe.
      *
-     * @return bool Returns the siege groupe.
+     * @return bool|null Returns the siege groupe.
      */
-    public function getSiegeGroupe() {
+    public function getSiegeGroupe(): ?bool {
         return $this->siegeGroupe;
     }
 
     /**
      * Get the social.
      *
-     * @return bool Returns the social.
+     * @return bool|null Returns the social.
      */
-    public function getSocial() {
+    public function getSocial(): ?bool {
         return $this->social;
     }
 
     /**
      * Get the social btq.
      *
-     * @return string Returns the social btq.
+     * @return string|null Returns the social btq.
      */
-    public function getSocialBtq() {
+    public function getSocialBtq(): ?string {
         return $this->socialBtq;
     }
 
     /**
      * Get the social bureau distributeur.
      *
-     * @return string Returns the social bureau distributeur.
+     * @return string|null Returns the social bureau distributeur.
      */
-    public function getSocialBureauDistributeur() {
+    public function getSocialBureauDistributeur(): ?string {
         return $this->socialBureauDistributeur;
     }
 
     /**
      * Get the social code officiel commune.
      *
-     * @return string Returns the social code officiel commune.
+     * @return string|null Returns the social code officiel commune.
      */
-    public function getSocialCodeOfficielCommune() {
+    public function getSocialCodeOfficielCommune(): ?string {
         return $this->socialCodeOfficielCommune;
     }
 
     /**
      * Get the social code postal.
      *
-     * @return string Returns the social code postal.
+     * @return string|null Returns the social code postal.
      */
-    public function getSocialCodePostal() {
+    public function getSocialCodePostal(): ?string {
         return $this->socialCodePostal;
     }
 
     /**
      * Get the social complement.
      *
-     * @return string Returns the social complement.
+     * @return string|null Returns the social complement.
      */
-    public function getSocialComplement() {
+    public function getSocialComplement(): ?string {
         return $this->socialComplement;
     }
 
     /**
      * Get the social nom rs.
      *
-     * @return string Returns the social nom rs.
+     * @return string|null Returns the social nom rs.
      */
-    public function getSocialNomRs() {
+    public function getSocialNomRs(): ?string {
         return $this->socialNomRs;
     }
 
     /**
      * Get the social nom ville.
      *
-     * @return string Returns the social nom ville.
+     * @return string|null Returns the social nom ville.
      */
-    public function getSocialNomVille() {
+    public function getSocialNomVille(): ?string {
         return $this->socialNomVille;
     }
 
     /**
      * Get the social nom voie.
      *
-     * @return string Returns the social nom voie.
+     * @return string|null Returns the social nom voie.
      */
-    public function getSocialNomVoie() {
+    public function getSocialNomVoie(): ?string {
         return $this->socialNomVoie;
     }
 
     /**
      * Get the social num voie.
      *
-     * @return string Returns the social num voie.
+     * @return string|null Returns the social num voie.
      */
-    public function getSocialNumVoie() {
+    public function getSocialNumVoie(): ?string {
         return $this->socialNumVoie;
     }
 
     /**
      * Get the soumis escompte.
      *
-     * @return bool Returns the soumis escompte.
+     * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte() {
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
     /**
      * Get the soumis port1.
      *
-     * @return string Returns the soumis port1.
+     * @return string|null Returns the soumis port1.
      */
-    public function getSoumisPort1() {
+    public function getSoumisPort1(): ?string {
         return $this->soumisPort1;
     }
 
     /**
      * Get the soumis port2.
      *
-     * @return string Returns the soumis port2.
+     * @return string|null Returns the soumis port2.
      */
-    public function getSoumisPort2() {
+    public function getSoumisPort2(): ?string {
         return $this->soumisPort2;
     }
 
     /**
      * Get the soumis taxe1.
      *
-     * @return bool Returns the soumis taxe1.
+     * @return bool|null Returns the soumis taxe1.
      */
-    public function getSoumisTaxe1() {
+    public function getSoumisTaxe1(): ?bool {
         return $this->soumisTaxe1;
     }
 
     /**
      * Get the soumis taxe2.
      *
-     * @return bool Returns the soumis taxe2.
+     * @return bool|null Returns the soumis taxe2.
      */
-    public function getSoumisTaxe2() {
+    public function getSoumisTaxe2(): ?bool {
         return $this->soumisTaxe2;
     }
 
     /**
      * Get the soumis taxe3.
      *
-     * @return bool Returns the soumis taxe3.
+     * @return bool|null Returns the soumis taxe3.
      */
-    public function getSoumisTaxe3() {
+    public function getSoumisTaxe3(): ?bool {
         return $this->soumisTaxe3;
     }
 
     /**
      * Get the soumis taxe4.
      *
-     * @return bool Returns the soumis taxe4.
+     * @return bool|null Returns the soumis taxe4.
      */
-    public function getSoumisTaxe4() {
+    public function getSoumisTaxe4(): ?bool {
         return $this->soumisTaxe4;
     }
 
     /**
      * Get the soumis taxe5.
      *
-     * @return bool Returns the soumis taxe5.
+     * @return bool|null Returns the soumis taxe5.
      */
-    public function getSoumisTaxe5() {
+    public function getSoumisTaxe5(): ?bool {
         return $this->soumisTaxe5;
     }
 
     /**
      * Get the soumis tva.
      *
-     * @return bool Returns the soumis tva.
+     * @return bool|null Returns the soumis tva.
      */
-    public function getSoumisTva() {
+    public function getSoumisTva(): ?bool {
         return $this->soumisTva;
     }
 
     /**
      * Get the tableau de bord.
      *
-     * @return string Returns the tableau de bord.
+     * @return string|null Returns the tableau de bord.
      */
-    public function getTableauDeBord() {
+    public function getTableauDeBord(): ?string {
         return $this->tableauDeBord;
     }
 
     /**
      * Get the toutes activites.
      *
-     * @return string Returns the toutes activites.
+     * @return string|null Returns the toutes activites.
      */
-    public function getToutesActivites() {
+    public function getToutesActivites(): ?string {
         return $this->toutesActivites;
     }
 
     /**
      * Get the transporteur.
      *
-     * @return string Returns the transporteur.
+     * @return string|null Returns the transporteur.
      */
-    public function getTransporteur() {
+    public function getTransporteur(): ?string {
         return $this->transporteur;
     }
 
     /**
      * Get the tresorerie.
      *
-     * @return string Returns the tresorerie.
+     * @return string|null Returns the tresorerie.
      */
-    public function getTresorerie() {
+    public function getTresorerie(): ?string {
         return $this->tresorerie;
     }
 
     /**
      * Get the tva regime.
      *
-     * @return string Returns the tva regime.
+     * @return string|null Returns the tva regime.
      */
-    public function getTvaRegime() {
+    public function getTvaRegime(): ?string {
         return $this->tvaRegime;
     }
 
     /**
      * Get the tx escompte vente.
      *
-     * @return float Returns the tx escompte vente.
+     * @return float|null Returns the tx escompte vente.
      */
-    public function getTxEscompteVente() {
+    public function getTxEscompteVente(): ?float {
         return $this->txEscompteVente;
     }
 
     /**
      * Get the type client.
      *
-     * @return string Returns the type client.
+     * @return string|null Returns the type client.
      */
-    public function getTypeClient() {
+    public function getTypeClient(): ?string {
         return $this->typeClient;
     }
 
     /**
      * Get the type edit bl.
      *
-     * @return string Returns the type edit bl.
+     * @return string|null Returns the type edit bl.
      */
-    public function getTypeEditBl() {
+    public function getTypeEditBl(): ?string {
         return $this->typeEditBl;
     }
 
     /**
      * Get the type facture.
      *
-     * @return int Returns the type facture.
+     * @return int|null Returns the type facture.
      */
-    public function getTypeFacture() {
+    public function getTypeFacture(): ?int {
         return $this->typeFacture;
     }
 
     /**
      * Get the type gestion etebac.
      *
-     * @return string Returns the type gestion etebac.
+     * @return string|null Returns the type gestion etebac.
      */
-    public function getTypeGestionEtebac() {
+    public function getTypeGestionEtebac(): ?string {
         return $this->typeGestionEtebac;
     }
 
     /**
      * Get the use adresse fact.
      *
-     * @return bool Returns the use adresse fact.
+     * @return bool|null Returns the use adresse fact.
      */
-    public function getUseAdresseFact() {
+    public function getUseAdresseFact(): ?bool {
         return $this->useAdresseFact;
     }
 
     /**
      * Get the use corres sociale.
      *
-     * @return bool Returns the use corres sociale.
+     * @return bool|null Returns the use corres sociale.
      */
-    public function getUseCorresSociale() {
+    public function getUseCorresSociale(): ?bool {
         return $this->useCorresSociale;
     }
 
     /**
      * Set the actif.
      *
-     * @param bool $actif The actif.
+     * @param bool|null $actif The actif.
      * @return Clients Returns this Clients.
      */
-    public function setActif($actif) {
+    public function setActif(?bool $actif): Clients {
         $this->actif = $actif;
         return $this;
     }
@@ -3642,10 +3642,10 @@ class Clients {
     /**
      * Set the activite nouvelle.
      *
-     * @param bool $activiteNouvelle The activite nouvelle.
+     * @param bool|null $activiteNouvelle The activite nouvelle.
      * @return Clients Returns this Clients.
      */
-    public function setActiviteNouvelle($activiteNouvelle) {
+    public function setActiviteNouvelle(?bool $activiteNouvelle): Clients {
         $this->activiteNouvelle = $activiteNouvelle;
         return $this;
     }
@@ -3653,10 +3653,10 @@ class Clients {
     /**
      * Set the activite saiso.
      *
-     * @param bool $activiteSaiso The activite saiso.
+     * @param bool|null $activiteSaiso The activite saiso.
      * @return Clients Returns this Clients.
      */
-    public function setActiviteSaiso($activiteSaiso) {
+    public function setActiviteSaiso(?bool $activiteSaiso): Clients {
         $this->activiteSaiso = $activiteSaiso;
         return $this;
     }
@@ -3664,10 +3664,10 @@ class Clients {
     /**
      * Set the adresse site client.
      *
-     * @param string $adresseSiteClient The adresse site client.
+     * @param string|null $adresseSiteClient The adresse site client.
      * @return Clients Returns this Clients.
      */
-    public function setAdresseSiteClient($adresseSiteClient) {
+    public function setAdresseSiteClient(?string $adresseSiteClient): Clients {
         $this->adresseSiteClient = $adresseSiteClient;
         return $this;
     }
@@ -3675,10 +3675,10 @@ class Clients {
     /**
      * Set the article port1.
      *
-     * @param string $articlePort1 The article port1.
+     * @param string|null $articlePort1 The article port1.
      * @return Clients Returns this Clients.
      */
-    public function setArticlePort1($articlePort1) {
+    public function setArticlePort1(?string $articlePort1): Clients {
         $this->articlePort1 = $articlePort1;
         return $this;
     }
@@ -3686,10 +3686,10 @@ class Clients {
     /**
      * Set the article port2.
      *
-     * @param string $articlePort2 The article port2.
+     * @param string|null $articlePort2 The article port2.
      * @return Clients Returns this Clients.
      */
-    public function setArticlePort2($articlePort2) {
+    public function setArticlePort2(?string $articlePort2): Clients {
         $this->articlePort2 = $articlePort2;
         return $this;
     }
@@ -3697,10 +3697,10 @@ class Clients {
     /**
      * Set the assurance.
      *
-     * @param bool $assurance The assurance.
+     * @param bool|null $assurance The assurance.
      * @return Clients Returns this Clients.
      */
-    public function setAssurance($assurance) {
+    public function setAssurance(?bool $assurance): Clients {
         $this->assurance = $assurance;
         return $this;
     }
@@ -3708,10 +3708,10 @@ class Clients {
     /**
      * Set the bibliotheque novaxel.
      *
-     * @param string $bibliothequeNovaxel The bibliotheque novaxel.
+     * @param string|null $bibliothequeNovaxel The bibliotheque novaxel.
      * @return Clients Returns this Clients.
      */
-    public function setBibliothequeNovaxel($bibliothequeNovaxel) {
+    public function setBibliothequeNovaxel(?string $bibliothequeNovaxel): Clients {
         $this->bibliothequeNovaxel = $bibliothequeNovaxel;
         return $this;
     }
@@ -3719,10 +3719,10 @@ class Clients {
     /**
      * Set the bl chiffre.
      *
-     * @param bool $blChiffre The bl chiffre.
+     * @param bool|null $blChiffre The bl chiffre.
      * @return Clients Returns this Clients.
      */
-    public function setBlChiffre($blChiffre) {
+    public function setBlChiffre(?bool $blChiffre): Clients {
         $this->blChiffre = $blChiffre;
         return $this;
     }
@@ -3730,10 +3730,10 @@ class Clients {
     /**
      * Set the bloque.
      *
-     * @param bool $bloque The bloque.
+     * @param bool|null $bloque The bloque.
      * @return Clients Returns this Clients.
      */
-    public function setBloque($bloque) {
+    public function setBloque(?bool $bloque): Clients {
         $this->bloque = $bloque;
         return $this;
     }
@@ -3741,10 +3741,10 @@ class Clients {
     /**
      * Set the cde auto manu.
      *
-     * @param string $cdeAutoManu The cde auto manu.
+     * @param string|null $cdeAutoManu The cde auto manu.
      * @return Clients Returns this Clients.
      */
-    public function setCdeAutoManu($cdeAutoManu) {
+    public function setCdeAutoManu(?string $cdeAutoManu): Clients {
         $this->cdeAutoManu = $cdeAutoManu;
         return $this;
     }
@@ -3752,10 +3752,10 @@ class Clients {
     /**
      * Set the cga.
      *
-     * @param bool $cga The cga.
+     * @param bool|null $cga The cga.
      * @return Clients Returns this Clients.
      */
-    public function setCga($cga) {
+    public function setCga(?bool $cga): Clients {
         $this->cga = $cga;
         return $this;
     }
@@ -3763,10 +3763,10 @@ class Clients {
     /**
      * Set the charges.
      *
-     * @param string $charges The charges.
+     * @param string|null $charges The charges.
      * @return Clients Returns this Clients.
      */
-    public function setCharges($charges) {
+    public function setCharges(?string $charges): Clients {
         $this->charges = $charges;
         return $this;
     }
@@ -3774,10 +3774,10 @@ class Clients {
     /**
      * Set the chiffre affaire.
      *
-     * @param float $chiffreAffaire The chiffre affaire.
+     * @param float|null $chiffreAffaire The chiffre affaire.
      * @return Clients Returns this Clients.
      */
-    public function setChiffreAffaire($chiffreAffaire) {
+    public function setChiffreAffaire(?float $chiffreAffaire): Clients {
         $this->chiffreAffaire = $chiffreAffaire;
         return $this;
     }
@@ -3785,10 +3785,10 @@ class Clients {
     /**
      * Set the cle alpha.
      *
-     * @param string $cleAlpha The cle alpha.
+     * @param string|null $cleAlpha The cle alpha.
      * @return Clients Returns this Clients.
      */
-    public function setCleAlpha($cleAlpha) {
+    public function setCleAlpha(?string $cleAlpha): Clients {
         $this->cleAlpha = $cleAlpha;
         return $this;
     }
@@ -3796,10 +3796,10 @@ class Clients {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Clients Returns this Clients.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Clients {
         $this->code = $code;
         return $this;
     }
@@ -3807,10 +3807,10 @@ class Clients {
     /**
      * Set the code activite.
      *
-     * @param string $codeActivite The code activite.
+     * @param string|null $codeActivite The code activite.
      * @return Clients Returns this Clients.
      */
-    public function setCodeActivite($codeActivite) {
+    public function setCodeActivite(?string $codeActivite): Clients {
         $this->codeActivite = $codeActivite;
         return $this;
     }
@@ -3818,10 +3818,10 @@ class Clients {
     /**
      * Set the code agence.
      *
-     * @param string $codeAgence The code agence.
+     * @param string|null $codeAgence The code agence.
      * @return Clients Returns this Clients.
      */
-    public function setCodeAgence($codeAgence) {
+    public function setCodeAgence(?string $codeAgence): Clients {
         $this->codeAgence = $codeAgence;
         return $this;
     }
@@ -3829,10 +3829,10 @@ class Clients {
     /**
      * Set the code article cotisation.
      *
-     * @param string $codeArticleCotisation The code article cotisation.
+     * @param string|null $codeArticleCotisation The code article cotisation.
      * @return Clients Returns this Clients.
      */
-    public function setCodeArticleCotisation($codeArticleCotisation) {
+    public function setCodeArticleCotisation(?string $codeArticleCotisation): Clients {
         $this->codeArticleCotisation = $codeArticleCotisation;
         return $this;
     }
@@ -3840,10 +3840,10 @@ class Clients {
     /**
      * Set the code article droit fixe.
      *
-     * @param string $codeArticleDroitFixe The code article droit fixe.
+     * @param string|null $codeArticleDroitFixe The code article droit fixe.
      * @return Clients Returns this Clients.
      */
-    public function setCodeArticleDroitFixe($codeArticleDroitFixe) {
+    public function setCodeArticleDroitFixe(?string $codeArticleDroitFixe): Clients {
         $this->codeArticleDroitFixe = $codeArticleDroitFixe;
         return $this;
     }
@@ -3851,10 +3851,10 @@ class Clients {
     /**
      * Set the code article frais fixe.
      *
-     * @param string $codeArticleFraisFixe The code article frais fixe.
+     * @param string|null $codeArticleFraisFixe The code article frais fixe.
      * @return Clients Returns this Clients.
      */
-    public function setCodeArticleFraisFixe($codeArticleFraisFixe) {
+    public function setCodeArticleFraisFixe(?string $codeArticleFraisFixe): Clients {
         $this->codeArticleFraisFixe = $codeArticleFraisFixe;
         return $this;
     }
@@ -3862,10 +3862,10 @@ class Clients {
     /**
      * Set the code assistant juridique.
      *
-     * @param string $codeAssistantJuridique The code assistant juridique.
+     * @param string|null $codeAssistantJuridique The code assistant juridique.
      * @return Clients Returns this Clients.
      */
-    public function setCodeAssistantJuridique($codeAssistantJuridique) {
+    public function setCodeAssistantJuridique(?string $codeAssistantJuridique): Clients {
         $this->codeAssistantJuridique = $codeAssistantJuridique;
         return $this;
     }
@@ -3873,10 +3873,10 @@ class Clients {
     /**
      * Set the code assistant social.
      *
-     * @param string $codeAssistantSocial The code assistant social.
+     * @param string|null $codeAssistantSocial The code assistant social.
      * @return Clients Returns this Clients.
      */
-    public function setCodeAssistantSocial($codeAssistantSocial) {
+    public function setCodeAssistantSocial(?string $codeAssistantSocial): Clients {
         $this->codeAssistantSocial = $codeAssistantSocial;
         return $this;
     }
@@ -3884,10 +3884,10 @@ class Clients {
     /**
      * Set the code autre1.
      *
-     * @param string $codeAutre1 The code autre1.
+     * @param string|null $codeAutre1 The code autre1.
      * @return Clients Returns this Clients.
      */
-    public function setCodeAutre1($codeAutre1) {
+    public function setCodeAutre1(?string $codeAutre1): Clients {
         $this->codeAutre1 = $codeAutre1;
         return $this;
     }
@@ -3895,10 +3895,10 @@ class Clients {
     /**
      * Set the code autre2.
      *
-     * @param string $codeAutre2 The code autre2.
+     * @param string|null $codeAutre2 The code autre2.
      * @return Clients Returns this Clients.
      */
-    public function setCodeAutre2($codeAutre2) {
+    public function setCodeAutre2(?string $codeAutre2): Clients {
         $this->codeAutre2 = $codeAutre2;
         return $this;
     }
@@ -3906,10 +3906,10 @@ class Clients {
     /**
      * Set the code avocat.
      *
-     * @param string $codeAvocat The code avocat.
+     * @param string|null $codeAvocat The code avocat.
      * @return Clients Returns this Clients.
      */
-    public function setCodeAvocat($codeAvocat) {
+    public function setCodeAvocat(?string $codeAvocat): Clients {
         $this->codeAvocat = $codeAvocat;
         return $this;
     }
@@ -3917,10 +3917,10 @@ class Clients {
     /**
      * Set the code barre.
      *
-     * @param bool $codeBarre The code barre.
+     * @param bool|null $codeBarre The code barre.
      * @return Clients Returns this Clients.
      */
-    public function setCodeBarre($codeBarre) {
+    public function setCodeBarre(?bool $codeBarre): Clients {
         $this->codeBarre = $codeBarre;
         return $this;
     }
@@ -3928,10 +3928,10 @@ class Clients {
     /**
      * Set the code categorie client.
      *
-     * @param string $codeCategorieClient The code categorie client.
+     * @param string|null $codeCategorieClient The code categorie client.
      * @return Clients Returns this Clients.
      */
-    public function setCodeCategorieClient($codeCategorieClient) {
+    public function setCodeCategorieClient(?string $codeCategorieClient): Clients {
         $this->codeCategorieClient = $codeCategorieClient;
         return $this;
     }
@@ -3939,10 +3939,10 @@ class Clients {
     /**
      * Set the code client fact.
      *
-     * @param string $codeClientFact The code client fact.
+     * @param string|null $codeClientFact The code client fact.
      * @return Clients Returns this Clients.
      */
-    public function setCodeClientFact($codeClientFact) {
+    public function setCodeClientFact(?string $codeClientFact): Clients {
         $this->codeClientFact = $codeClientFact;
         return $this;
     }
@@ -3950,10 +3950,10 @@ class Clients {
     /**
      * Set the code client livr.
      *
-     * @param string $codeClientLivr The code client livr.
+     * @param string|null $codeClientLivr The code client livr.
      * @return Clients Returns this Clients.
      */
-    public function setCodeClientLivr($codeClientLivr) {
+    public function setCodeClientLivr(?string $codeClientLivr): Clients {
         $this->codeClientLivr = $codeClientLivr;
         return $this;
     }
@@ -3961,10 +3961,10 @@ class Clients {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return Clients Returns this Clients.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): Clients {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -3972,10 +3972,10 @@ class Clients {
     /**
      * Set the code depot.
      *
-     * @param string $codeDepot The code depot.
+     * @param string|null $codeDepot The code depot.
      * @return Clients Returns this Clients.
      */
-    public function setCodeDepot($codeDepot) {
+    public function setCodeDepot(?string $codeDepot): Clients {
         $this->codeDepot = $codeDepot;
         return $this;
     }
@@ -3983,10 +3983,10 @@ class Clients {
     /**
      * Set the code devise.
      *
-     * @param string $codeDevise The code devise.
+     * @param string|null $codeDevise The code devise.
      * @return Clients Returns this Clients.
      */
-    public function setCodeDevise($codeDevise) {
+    public function setCodeDevise(?string $codeDevise): Clients {
         $this->codeDevise = $codeDevise;
         return $this;
     }
@@ -3994,10 +3994,10 @@ class Clients {
     /**
      * Set the code edition fact.
      *
-     * @param string $codeEditionFact The code edition fact.
+     * @param string|null $codeEditionFact The code edition fact.
      * @return Clients Returns this Clients.
      */
-    public function setCodeEditionFact($codeEditionFact) {
+    public function setCodeEditionFact(?string $codeEditionFact): Clients {
         $this->codeEditionFact = $codeEditionFact;
         return $this;
     }
@@ -4005,10 +4005,10 @@ class Clients {
     /**
      * Set the code exc.
      *
-     * @param string $codeExc The code exc.
+     * @param string|null $codeExc The code exc.
      * @return Clients Returns this Clients.
      */
-    public function setCodeExc($codeExc) {
+    public function setCodeExc(?string $codeExc): Clients {
         $this->codeExc = $codeExc;
         return $this;
     }
@@ -4016,10 +4016,10 @@ class Clients {
     /**
      * Set the code expert.
      *
-     * @param string $codeExpert The code expert.
+     * @param string|null $codeExpert The code expert.
      * @return Clients Returns this Clients.
      */
-    public function setCodeExpert($codeExpert) {
+    public function setCodeExpert(?string $codeExpert): Clients {
         $this->codeExpert = $codeExpert;
         return $this;
     }
@@ -4027,10 +4027,10 @@ class Clients {
     /**
      * Set the code factor.
      *
-     * @param string $codeFactor The code factor.
+     * @param string|null $codeFactor The code factor.
      * @return Clients Returns this Clients.
      */
-    public function setCodeFactor($codeFactor) {
+    public function setCodeFactor(?string $codeFactor): Clients {
         $this->codeFactor = $codeFactor;
         return $this;
     }
@@ -4038,10 +4038,10 @@ class Clients {
     /**
      * Set the code famille.
      *
-     * @param string $codeFamille The code famille.
+     * @param string|null $codeFamille The code famille.
      * @return Clients Returns this Clients.
      */
-    public function setCodeFamille($codeFamille) {
+    public function setCodeFamille(?string $codeFamille): Clients {
         $this->codeFamille = $codeFamille;
         return $this;
     }
@@ -4049,10 +4049,10 @@ class Clients {
     /**
      * Set the code geo.
      *
-     * @param string $codeGeo The code geo.
+     * @param string|null $codeGeo The code geo.
      * @return Clients Returns this Clients.
      */
-    public function setCodeGeo($codeGeo) {
+    public function setCodeGeo(?string $codeGeo): Clients {
         $this->codeGeo = $codeGeo;
         return $this;
     }
@@ -4060,10 +4060,10 @@ class Clients {
     /**
      * Set the code imputation analytique.
      *
-     * @param string $codeImputationAnalytique The code imputation analytique.
+     * @param string|null $codeImputationAnalytique The code imputation analytique.
      * @return Clients Returns this Clients.
      */
-    public function setCodeImputationAnalytique($codeImputationAnalytique) {
+    public function setCodeImputationAnalytique(?string $codeImputationAnalytique): Clients {
         $this->codeImputationAnalytique = $codeImputationAnalytique;
         return $this;
     }
@@ -4071,10 +4071,10 @@ class Clients {
     /**
      * Set the code langue designation article.
      *
-     * @param string $codeLangueDesignationArticle The code langue designation article.
+     * @param string|null $codeLangueDesignationArticle The code langue designation article.
      * @return Clients Returns this Clients.
      */
-    public function setCodeLangueDesignationArticle($codeLangueDesignationArticle) {
+    public function setCodeLangueDesignationArticle(?string $codeLangueDesignationArticle): Clients {
         $this->codeLangueDesignationArticle = $codeLangueDesignationArticle;
         return $this;
     }
@@ -4082,10 +4082,10 @@ class Clients {
     /**
      * Set the code mission frais fixe.
      *
-     * @param string $codeMissionFraisFixe The code mission frais fixe.
+     * @param string|null $codeMissionFraisFixe The code mission frais fixe.
      * @return Clients Returns this Clients.
      */
-    public function setCodeMissionFraisFixe($codeMissionFraisFixe) {
+    public function setCodeMissionFraisFixe(?string $codeMissionFraisFixe): Clients {
         $this->codeMissionFraisFixe = $codeMissionFraisFixe;
         return $this;
     }
@@ -4093,10 +4093,10 @@ class Clients {
     /**
      * Set the code origine.
      *
-     * @param string $codeOrigine The code origine.
+     * @param string|null $codeOrigine The code origine.
      * @return Clients Returns this Clients.
      */
-    public function setCodeOrigine($codeOrigine) {
+    public function setCodeOrigine(?string $codeOrigine): Clients {
         $this->codeOrigine = $codeOrigine;
         return $this;
     }
@@ -4104,10 +4104,10 @@ class Clients {
     /**
      * Set the code pays corres.
      *
-     * @param string $codePaysCorres The code pays corres.
+     * @param string|null $codePaysCorres The code pays corres.
      * @return Clients Returns this Clients.
      */
-    public function setCodePaysCorres($codePaysCorres) {
+    public function setCodePaysCorres(?string $codePaysCorres): Clients {
         $this->codePaysCorres = $codePaysCorres;
         return $this;
     }
@@ -4115,10 +4115,10 @@ class Clients {
     /**
      * Set the code pays fact.
      *
-     * @param string $codePaysFact The code pays fact.
+     * @param string|null $codePaysFact The code pays fact.
      * @return Clients Returns this Clients.
      */
-    public function setCodePaysFact($codePaysFact) {
+    public function setCodePaysFact(?string $codePaysFact): Clients {
         $this->codePaysFact = $codePaysFact;
         return $this;
     }
@@ -4126,10 +4126,10 @@ class Clients {
     /**
      * Set the code portefeuille.
      *
-     * @param string $codePortefeuille The code portefeuille.
+     * @param string|null $codePortefeuille The code portefeuille.
      * @return Clients Returns this Clients.
      */
-    public function setCodePortefeuille($codePortefeuille) {
+    public function setCodePortefeuille(?string $codePortefeuille): Clients {
         $this->codePortefeuille = $codePortefeuille;
         return $this;
     }
@@ -4137,10 +4137,10 @@ class Clients {
     /**
      * Set the code recette impots.
      *
-     * @param string $codeRecetteImpots The code recette impots.
+     * @param string|null $codeRecetteImpots The code recette impots.
      * @return Clients Returns this Clients.
      */
-    public function setCodeRecetteImpots($codeRecetteImpots) {
+    public function setCodeRecetteImpots(?string $codeRecetteImpots): Clients {
         $this->codeRecetteImpots = $codeRecetteImpots;
         return $this;
     }
@@ -4148,10 +4148,10 @@ class Clients {
     /**
      * Set the code reglement.
      *
-     * @param string $codeReglement The code reglement.
+     * @param string|null $codeReglement The code reglement.
      * @return Clients Returns this Clients.
      */
-    public function setCodeReglement($codeReglement) {
+    public function setCodeReglement(?string $codeReglement): Clients {
         $this->codeReglement = $codeReglement;
         return $this;
     }
@@ -4159,10 +4159,10 @@ class Clients {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return Clients Returns this Clients.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): Clients {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -4170,10 +4170,10 @@ class Clients {
     /**
      * Set the code representant.
      *
-     * @param string $codeRepresentant The code representant.
+     * @param string|null $codeRepresentant The code representant.
      * @return Clients Returns this Clients.
      */
-    public function setCodeRepresentant($codeRepresentant) {
+    public function setCodeRepresentant(?string $codeRepresentant): Clients {
         $this->codeRepresentant = $codeRepresentant;
         return $this;
     }
@@ -4181,10 +4181,10 @@ class Clients {
     /**
      * Set the code revision.
      *
-     * @param string $codeRevision The code revision.
+     * @param string|null $codeRevision The code revision.
      * @return Clients Returns this Clients.
      */
-    public function setCodeRevision($codeRevision) {
+    public function setCodeRevision(?string $codeRevision): Clients {
         $this->codeRevision = $codeRevision;
         return $this;
     }
@@ -4192,10 +4192,10 @@ class Clients {
     /**
      * Set the code sous famille.
      *
-     * @param string $codeSousFamille The code sous famille.
+     * @param string|null $codeSousFamille The code sous famille.
      * @return Clients Returns this Clients.
      */
-    public function setCodeSousFamille($codeSousFamille) {
+    public function setCodeSousFamille(?string $codeSousFamille): Clients {
         $this->codeSousFamille = $codeSousFamille;
         return $this;
     }
@@ -4203,10 +4203,10 @@ class Clients {
     /**
      * Set the code sous tournee.
      *
-     * @param string $codeSousTournee The code sous tournee.
+     * @param string|null $codeSousTournee The code sous tournee.
      * @return Clients Returns this Clients.
      */
-    public function setCodeSousTournee($codeSousTournee) {
+    public function setCodeSousTournee(?string $codeSousTournee): Clients {
         $this->codeSousTournee = $codeSousTournee;
         return $this;
     }
@@ -4214,10 +4214,10 @@ class Clients {
     /**
      * Set the code tarif.
      *
-     * @param string $codeTarif The code tarif.
+     * @param string|null $codeTarif The code tarif.
      * @return Clients Returns this Clients.
      */
-    public function setCodeTarif($codeTarif) {
+    public function setCodeTarif(?string $codeTarif): Clients {
         $this->codeTarif = $codeTarif;
         return $this;
     }
@@ -4225,10 +4225,10 @@ class Clients {
     /**
      * Set the code tournee.
      *
-     * @param string $codeTournee The code tournee.
+     * @param string|null $codeTournee The code tournee.
      * @return Clients Returns this Clients.
      */
-    public function setCodeTournee($codeTournee) {
+    public function setCodeTournee(?string $codeTournee): Clients {
         $this->codeTournee = $codeTournee;
         return $this;
     }
@@ -4236,10 +4236,10 @@ class Clients {
     /**
      * Set the code transporteur.
      *
-     * @param string $codeTransporteur The code transporteur.
+     * @param string|null $codeTransporteur The code transporteur.
      * @return Clients Returns this Clients.
      */
-    public function setCodeTransporteur($codeTransporteur) {
+    public function setCodeTransporteur(?string $codeTransporteur): Clients {
         $this->codeTransporteur = $codeTransporteur;
         return $this;
     }
@@ -4247,10 +4247,10 @@ class Clients {
     /**
      * Set the code tva.
      *
-     * @param string $codeTva The code tva.
+     * @param string|null $codeTva The code tva.
      * @return Clients Returns this Clients.
      */
-    public function setCodeTva($codeTva) {
+    public function setCodeTva(?string $codeTva): Clients {
         $this->codeTva = $codeTva;
         return $this;
     }
@@ -4258,10 +4258,10 @@ class Clients {
     /**
      * Set the code ventil compta.
      *
-     * @param string $codeVentilCompta The code ventil compta.
+     * @param string|null $codeVentilCompta The code ventil compta.
      * @return Clients Returns this Clients.
      */
-    public function setCodeVentilCompta($codeVentilCompta) {
+    public function setCodeVentilCompta(?string $codeVentilCompta): Clients {
         $this->codeVentilCompta = $codeVentilCompta;
         return $this;
     }
@@ -4269,10 +4269,10 @@ class Clients {
     /**
      * Set the coef sur pv.
      *
-     * @param float $coefSurPv The coef sur pv.
+     * @param float|null $coefSurPv The coef sur pv.
      * @return Clients Returns this Clients.
      */
-    public function setCoefSurPv($coefSurPv) {
+    public function setCoefSurPv(?float $coefSurPv): Clients {
         $this->coefSurPv = $coefSurPv;
         return $this;
     }
@@ -4280,10 +4280,10 @@ class Clients {
     /**
      * Set the coeff pv client.
      *
-     * @param float $coeffPvClient The coeff pv client.
+     * @param float|null $coeffPvClient The coeff pv client.
      * @return Clients Returns this Clients.
      */
-    public function setCoeffPvClient($coeffPvClient) {
+    public function setCoeffPvClient(?float $coeffPvClient): Clients {
         $this->coeffPvClient = $coeffPvClient;
         return $this;
     }
@@ -4291,10 +4291,10 @@ class Clients {
     /**
      * Set the collectif.
      *
-     * @param string $collectif The collectif.
+     * @param string|null $collectif The collectif.
      * @return Clients Returns this Clients.
      */
-    public function setCollectif($collectif) {
+    public function setCollectif(?string $collectif): Clients {
         $this->collectif = $collectif;
         return $this;
     }
@@ -4302,10 +4302,10 @@ class Clients {
     /**
      * Set the conjoint.
      *
-     * @param string $conjoint The conjoint.
+     * @param string|null $conjoint The conjoint.
      * @return Clients Returns this Clients.
      */
-    public function setConjoint($conjoint) {
+    public function setConjoint(?string $conjoint): Clients {
         $this->conjoint = $conjoint;
         return $this;
     }
@@ -4313,10 +4313,10 @@ class Clients {
     /**
      * Set the contact recette impots.
      *
-     * @param string $contactRecetteImpots The contact recette impots.
+     * @param string|null $contactRecetteImpots The contact recette impots.
      * @return Clients Returns this Clients.
      */
-    public function setContactRecetteImpots($contactRecetteImpots) {
+    public function setContactRecetteImpots(?string $contactRecetteImpots): Clients {
         $this->contactRecetteImpots = $contactRecetteImpots;
         return $this;
     }
@@ -4327,7 +4327,7 @@ class Clients {
      * @param DateTime|null $dateAttribEncours The date attrib encours.
      * @return Clients Returns this Clients.
      */
-    public function setDateAttribEncours(DateTime $dateAttribEncours = null) {
+    public function setDateAttribEncours(?DateTime $dateAttribEncours): Clients {
         $this->dateAttribEncours = $dateAttribEncours;
         return $this;
     }
@@ -4338,7 +4338,7 @@ class Clients {
      * @param DateTime|null $dateCreation The date creation.
      * @return Clients Returns this Clients.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): Clients {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -4349,7 +4349,7 @@ class Clients {
      * @param DateTime|null $dateDebActivite The date deb activite.
      * @return Clients Returns this Clients.
      */
-    public function setDateDebActivite(DateTime $dateDebActivite = null) {
+    public function setDateDebActivite(?DateTime $dateDebActivite): Clients {
         $this->dateDebActivite = $dateDebActivite;
         return $this;
     }
@@ -4360,7 +4360,7 @@ class Clients {
      * @param DateTime|null $dateDebProf The date deb prof.
      * @return Clients Returns this Clients.
      */
-    public function setDateDebProf(DateTime $dateDebProf = null) {
+    public function setDateDebProf(?DateTime $dateDebProf): Clients {
         $this->dateDebProf = $dateDebProf;
         return $this;
     }
@@ -4371,7 +4371,7 @@ class Clients {
      * @param DateTime|null $dateDerniereVente The date derniere vente.
      * @return Clients Returns this Clients.
      */
-    public function setDateDerniereVente(DateTime $dateDerniereVente = null) {
+    public function setDateDerniereVente(?DateTime $dateDerniereVente): Clients {
         $this->dateDerniereVente = $dateDerniereVente;
         return $this;
     }
@@ -4382,7 +4382,7 @@ class Clients {
      * @param DateTime|null $dateEntree The date entree.
      * @return Clients Returns this Clients.
      */
-    public function setDateEntree(DateTime $dateEntree = null) {
+    public function setDateEntree(?DateTime $dateEntree): Clients {
         $this->dateEntree = $dateEntree;
         return $this;
     }
@@ -4393,7 +4393,7 @@ class Clients {
      * @param DateTime|null $dateFinActivite The date fin activite.
      * @return Clients Returns this Clients.
      */
-    public function setDateFinActivite(DateTime $dateFinActivite = null) {
+    public function setDateFinActivite(?DateTime $dateFinActivite): Clients {
         $this->dateFinActivite = $dateFinActivite;
         return $this;
     }
@@ -4404,7 +4404,7 @@ class Clients {
      * @param DateTime|null $dateModification The date modification.
      * @return Clients Returns this Clients.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): Clients {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -4415,7 +4415,7 @@ class Clients {
      * @param DateTime|null $dateReprise The date reprise.
      * @return Clients Returns this Clients.
      */
-    public function setDateReprise(DateTime $dateReprise = null) {
+    public function setDateReprise(?DateTime $dateReprise): Clients {
         $this->dateReprise = $dateReprise;
         return $this;
     }
@@ -4426,7 +4426,7 @@ class Clients {
      * @param DateTime|null $dateSortie The date sortie.
      * @return Clients Returns this Clients.
      */
-    public function setDateSortie(DateTime $dateSortie = null) {
+    public function setDateSortie(?DateTime $dateSortie): Clients {
         $this->dateSortie = $dateSortie;
         return $this;
     }
@@ -4434,10 +4434,10 @@ class Clients {
     /**
      * Set the delai tarif.
      *
-     * @param int $delaiTarif The delai tarif.
+     * @param int|null $delaiTarif The delai tarif.
      * @return Clients Returns this Clients.
      */
-    public function setDelaiTarif($delaiTarif) {
+    public function setDelaiTarif(?int $delaiTarif): Clients {
         $this->delaiTarif = $delaiTarif;
         return $this;
     }
@@ -4445,10 +4445,10 @@ class Clients {
     /**
      * Set the domiciliation bancaire1.
      *
-     * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @param string|null $domiciliationBancaire1 The domiciliation bancaire1.
      * @return Clients Returns this Clients.
      */
-    public function setDomiciliationBancaire1($domiciliationBancaire1) {
+    public function setDomiciliationBancaire1(?string $domiciliationBancaire1): Clients {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
         return $this;
     }
@@ -4456,10 +4456,10 @@ class Clients {
     /**
      * Set the domiciliation bancaire2.
      *
-     * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @param string|null $domiciliationBancaire2 The domiciliation bancaire2.
      * @return Clients Returns this Clients.
      */
-    public function setDomiciliationBancaire2($domiciliationBancaire2) {
+    public function setDomiciliationBancaire2(?string $domiciliationBancaire2): Clients {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
         return $this;
     }
@@ -4467,10 +4467,10 @@ class Clients {
     /**
      * Set the dossier comptable.
      *
-     * @param string $dossierComptable The dossier comptable.
+     * @param string|null $dossierComptable The dossier comptable.
      * @return Clients Returns this Clients.
      */
-    public function setDossierComptable($dossierComptable) {
+    public function setDossierComptable(?string $dossierComptable): Clients {
         $this->dossierComptable = $dossierComptable;
         return $this;
     }
@@ -4478,10 +4478,10 @@ class Clients {
     /**
      * Set the dossier paie.
      *
-     * @param string $dossierPaie The dossier paie.
+     * @param string|null $dossierPaie The dossier paie.
      * @return Clients Returns this Clients.
      */
-    public function setDossierPaie($dossierPaie) {
+    public function setDossierPaie(?string $dossierPaie): Clients {
         $this->dossierPaie = $dossierPaie;
         return $this;
     }
@@ -4489,10 +4489,10 @@ class Clients {
     /**
      * Set the ds code collab.
      *
-     * @param string $dsCodeCollab The ds code collab.
+     * @param string|null $dsCodeCollab The ds code collab.
      * @return Clients Returns this Clients.
      */
-    public function setDsCodeCollab($dsCodeCollab) {
+    public function setDsCodeCollab(?string $dsCodeCollab): Clients {
         $this->dsCodeCollab = $dsCodeCollab;
         return $this;
     }
@@ -4503,7 +4503,7 @@ class Clients {
      * @param DateTime|null $dsDateRetour The ds date retour.
      * @return Clients Returns this Clients.
      */
-    public function setDsDateRetour(DateTime $dsDateRetour = null) {
+    public function setDsDateRetour(?DateTime $dsDateRetour): Clients {
         $this->dsDateRetour = $dsDateRetour;
         return $this;
     }
@@ -4514,7 +4514,7 @@ class Clients {
      * @param DateTime|null $dsDateSortie The ds date sortie.
      * @return Clients Returns this Clients.
      */
-    public function setDsDateSortie(DateTime $dsDateSortie = null) {
+    public function setDsDateSortie(?DateTime $dsDateSortie): Clients {
         $this->dsDateSortie = $dsDateSortie;
         return $this;
     }
@@ -4522,10 +4522,10 @@ class Clients {
     /**
      * Set the du client.
      *
-     * @param string $duClient The du client.
+     * @param string|null $duClient The du client.
      * @return Clients Returns this Clients.
      */
-    public function setDuClient($duClient) {
+    public function setDuClient(?string $duClient): Clients {
         $this->duClient = $duClient;
         return $this;
     }
@@ -4533,10 +4533,10 @@ class Clients {
     /**
      * Set the duree echeances.
      *
-     * @param string $dureeEcheances The duree echeances.
+     * @param string|null $dureeEcheances The duree echeances.
      * @return Clients Returns this Clients.
      */
-    public function setDureeEcheances($dureeEcheances) {
+    public function setDureeEcheances(?string $dureeEcheances): Clients {
         $this->dureeEcheances = $dureeEcheances;
         return $this;
     }
@@ -4544,10 +4544,10 @@ class Clients {
     /**
      * Set the effectif etp.
      *
-     * @param int $effectifEtp The effectif etp.
+     * @param int|null $effectifEtp The effectif etp.
      * @return Clients Returns this Clients.
      */
-    public function setEffectifEtp($effectifEtp) {
+    public function setEffectifEtp(?int $effectifEtp): Clients {
         $this->effectifEtp = $effectifEtp;
         return $this;
     }
@@ -4558,7 +4558,7 @@ class Clients {
      * @param DateTime|null $electionCe The election ce.
      * @return Clients Returns this Clients.
      */
-    public function setElectionCe(DateTime $electionCe = null) {
+    public function setElectionCe(?DateTime $electionCe): Clients {
         $this->electionCe = $electionCe;
         return $this;
     }
@@ -4569,7 +4569,7 @@ class Clients {
      * @param DateTime|null $electionDeleguePersonnel The election delegue personnel.
      * @return Clients Returns this Clients.
      */
-    public function setElectionDeleguePersonnel(DateTime $electionDeleguePersonnel = null) {
+    public function setElectionDeleguePersonnel(?DateTime $electionDeleguePersonnel): Clients {
         $this->electionDeleguePersonnel = $electionDeleguePersonnel;
         return $this;
     }
@@ -4577,10 +4577,10 @@ class Clients {
     /**
      * Set the equip info.
      *
-     * @param string $equipInfo The equip info.
+     * @param string|null $equipInfo The equip info.
      * @return Clients Returns this Clients.
      */
-    public function setEquipInfo($equipInfo) {
+    public function setEquipInfo(?string $equipInfo): Clients {
         $this->equipInfo = $equipInfo;
         return $this;
     }
@@ -4588,10 +4588,10 @@ class Clients {
     /**
      * Set the etat1.
      *
-     * @param string $etat1 The etat1.
+     * @param string|null $etat1 The etat1.
      * @return Clients Returns this Clients.
      */
-    public function setEtat1($etat1) {
+    public function setEtat1(?string $etat1): Clients {
         $this->etat1 = $etat1;
         return $this;
     }
@@ -4599,10 +4599,10 @@ class Clients {
     /**
      * Set the etat2.
      *
-     * @param string $etat2 The etat2.
+     * @param string|null $etat2 The etat2.
      * @return Clients Returns this Clients.
      */
-    public function setEtat2($etat2) {
+    public function setEtat2(?string $etat2): Clients {
         $this->etat2 = $etat2;
         return $this;
     }
@@ -4610,10 +4610,10 @@ class Clients {
     /**
      * Set the etat3.
      *
-     * @param string $etat3 The etat3.
+     * @param string|null $etat3 The etat3.
      * @return Clients Returns this Clients.
      */
-    public function setEtat3($etat3) {
+    public function setEtat3(?string $etat3): Clients {
         $this->etat3 = $etat3;
         return $this;
     }
@@ -4621,10 +4621,10 @@ class Clients {
     /**
      * Set the etat4.
      *
-     * @param string $etat4 The etat4.
+     * @param string|null $etat4 The etat4.
      * @return Clients Returns this Clients.
      */
-    public function setEtat4($etat4) {
+    public function setEtat4(?string $etat4): Clients {
         $this->etat4 = $etat4;
         return $this;
     }
@@ -4632,10 +4632,10 @@ class Clients {
     /**
      * Set the etat5.
      *
-     * @param string $etat5 The etat5.
+     * @param string|null $etat5 The etat5.
      * @return Clients Returns this Clients.
      */
-    public function setEtat5($etat5) {
+    public function setEtat5(?string $etat5): Clients {
         $this->etat5 = $etat5;
         return $this;
     }
@@ -4643,10 +4643,10 @@ class Clients {
     /**
      * Set the etiquettes.
      *
-     * @param bool $etiquettes The etiquettes.
+     * @param bool|null $etiquettes The etiquettes.
      * @return Clients Returns this Clients.
      */
-    public function setEtiquettes($etiquettes) {
+    public function setEtiquettes(?bool $etiquettes): Clients {
         $this->etiquettes = $etiquettes;
         return $this;
     }
@@ -4654,10 +4654,10 @@ class Clients {
     /**
      * Set the fact btq.
      *
-     * @param string $factBtq The fact btq.
+     * @param string|null $factBtq The fact btq.
      * @return Clients Returns this Clients.
      */
-    public function setFactBtq($factBtq) {
+    public function setFactBtq(?string $factBtq): Clients {
         $this->factBtq = $factBtq;
         return $this;
     }
@@ -4665,10 +4665,10 @@ class Clients {
     /**
      * Set the fact bureau distributeur.
      *
-     * @param string $factBureauDistributeur The fact bureau distributeur.
+     * @param string|null $factBureauDistributeur The fact bureau distributeur.
      * @return Clients Returns this Clients.
      */
-    public function setFactBureauDistributeur($factBureauDistributeur) {
+    public function setFactBureauDistributeur(?string $factBureauDistributeur): Clients {
         $this->factBureauDistributeur = $factBureauDistributeur;
         return $this;
     }
@@ -4676,10 +4676,10 @@ class Clients {
     /**
      * Set the fact code officiel commune.
      *
-     * @param string $factCodeOfficielCommune The fact code officiel commune.
+     * @param string|null $factCodeOfficielCommune The fact code officiel commune.
      * @return Clients Returns this Clients.
      */
-    public function setFactCodeOfficielCommune($factCodeOfficielCommune) {
+    public function setFactCodeOfficielCommune(?string $factCodeOfficielCommune): Clients {
         $this->factCodeOfficielCommune = $factCodeOfficielCommune;
         return $this;
     }
@@ -4687,10 +4687,10 @@ class Clients {
     /**
      * Set the fact code postal.
      *
-     * @param string $factCodePostal The fact code postal.
+     * @param string|null $factCodePostal The fact code postal.
      * @return Clients Returns this Clients.
      */
-    public function setFactCodePostal($factCodePostal) {
+    public function setFactCodePostal(?string $factCodePostal): Clients {
         $this->factCodePostal = $factCodePostal;
         return $this;
     }
@@ -4698,10 +4698,10 @@ class Clients {
     /**
      * Set the fact complement.
      *
-     * @param string $factComplement The fact complement.
+     * @param string|null $factComplement The fact complement.
      * @return Clients Returns this Clients.
      */
-    public function setFactComplement($factComplement) {
+    public function setFactComplement(?string $factComplement): Clients {
         $this->factComplement = $factComplement;
         return $this;
     }
@@ -4709,10 +4709,10 @@ class Clients {
     /**
      * Set the fact nom rs.
      *
-     * @param string $factNomRs The fact nom rs.
+     * @param string|null $factNomRs The fact nom rs.
      * @return Clients Returns this Clients.
      */
-    public function setFactNomRs($factNomRs) {
+    public function setFactNomRs(?string $factNomRs): Clients {
         $this->factNomRs = $factNomRs;
         return $this;
     }
@@ -4720,10 +4720,10 @@ class Clients {
     /**
      * Set the fact nom ville.
      *
-     * @param string $factNomVille The fact nom ville.
+     * @param string|null $factNomVille The fact nom ville.
      * @return Clients Returns this Clients.
      */
-    public function setFactNomVille($factNomVille) {
+    public function setFactNomVille(?string $factNomVille): Clients {
         $this->factNomVille = $factNomVille;
         return $this;
     }
@@ -4731,10 +4731,10 @@ class Clients {
     /**
      * Set the fact nom voie.
      *
-     * @param string $factNomVoie The fact nom voie.
+     * @param string|null $factNomVoie The fact nom voie.
      * @return Clients Returns this Clients.
      */
-    public function setFactNomVoie($factNomVoie) {
+    public function setFactNomVoie(?string $factNomVoie): Clients {
         $this->factNomVoie = $factNomVoie;
         return $this;
     }
@@ -4742,10 +4742,10 @@ class Clients {
     /**
      * Set the fact num voie.
      *
-     * @param string $factNumVoie The fact num voie.
+     * @param string|null $factNumVoie The fact num voie.
      * @return Clients Returns this Clients.
      */
-    public function setFactNumVoie($factNumVoie) {
+    public function setFactNumVoie(?string $factNumVoie): Clients {
         $this->factNumVoie = $factNumVoie;
         return $this;
     }
@@ -4756,7 +4756,7 @@ class Clients {
      * @param DateTime|null $facturationCompta The facturation compta.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationCompta(DateTime $facturationCompta = null) {
+    public function setFacturationCompta(?DateTime $facturationCompta): Clients {
         $this->facturationCompta = $facturationCompta;
         return $this;
     }
@@ -4767,7 +4767,7 @@ class Clients {
      * @param DateTime|null $facturationComptaPrec The facturation compta prec.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationComptaPrec(DateTime $facturationComptaPrec = null) {
+    public function setFacturationComptaPrec(?DateTime $facturationComptaPrec): Clients {
         $this->facturationComptaPrec = $facturationComptaPrec;
         return $this;
     }
@@ -4775,10 +4775,10 @@ class Clients {
     /**
      * Set the facturation cotisation.
      *
-     * @param bool $facturationCotisation The facturation cotisation.
+     * @param bool|null $facturationCotisation The facturation cotisation.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationCotisation($facturationCotisation) {
+    public function setFacturationCotisation(?bool $facturationCotisation): Clients {
         $this->facturationCotisation = $facturationCotisation;
         return $this;
     }
@@ -4786,10 +4786,10 @@ class Clients {
     /**
      * Set the facturation droit fixe.
      *
-     * @param bool $facturationDroitFixe The facturation droit fixe.
+     * @param bool|null $facturationDroitFixe The facturation droit fixe.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationDroitFixe($facturationDroitFixe) {
+    public function setFacturationDroitFixe(?bool $facturationDroitFixe): Clients {
         $this->facturationDroitFixe = $facturationDroitFixe;
         return $this;
     }
@@ -4797,10 +4797,10 @@ class Clients {
     /**
      * Set the facturation frais fixe.
      *
-     * @param bool $facturationFraisFixe The facturation frais fixe.
+     * @param bool|null $facturationFraisFixe The facturation frais fixe.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationFraisFixe($facturationFraisFixe) {
+    public function setFacturationFraisFixe(?bool $facturationFraisFixe): Clients {
         $this->facturationFraisFixe = $facturationFraisFixe;
         return $this;
     }
@@ -4811,7 +4811,7 @@ class Clients {
      * @param DateTime|null $facturationPaie The facturation paie.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationPaie(DateTime $facturationPaie = null) {
+    public function setFacturationPaie(?DateTime $facturationPaie): Clients {
         $this->facturationPaie = $facturationPaie;
         return $this;
     }
@@ -4822,7 +4822,7 @@ class Clients {
      * @param DateTime|null $facturationPaiePrec The facturation paie prec.
      * @return Clients Returns this Clients.
      */
-    public function setFacturationPaiePrec(DateTime $facturationPaiePrec = null) {
+    public function setFacturationPaiePrec(?DateTime $facturationPaiePrec): Clients {
         $this->facturationPaiePrec = $facturationPaiePrec;
         return $this;
     }
@@ -4830,10 +4830,10 @@ class Clients {
     /**
      * Set the facture euros.
      *
-     * @param bool $factureEuros The facture euros.
+     * @param bool|null $factureEuros The facture euros.
      * @return Clients Returns this Clients.
      */
-    public function setFactureEuros($factureEuros) {
+    public function setFactureEuros(?bool $factureEuros): Clients {
         $this->factureEuros = $factureEuros;
         return $this;
     }
@@ -4841,10 +4841,10 @@ class Clients {
     /**
      * Set the facture isolee.
      *
-     * @param bool $factureIsolee The facture isolee.
+     * @param bool|null $factureIsolee The facture isolee.
      * @return Clients Returns this Clients.
      */
-    public function setFactureIsolee($factureIsolee) {
+    public function setFactureIsolee(?bool $factureIsolee): Clients {
         $this->factureIsolee = $factureIsolee;
         return $this;
     }
@@ -4852,10 +4852,10 @@ class Clients {
     /**
      * Set the facture temps passes.
      *
-     * @param bool $factureTempsPasses The facture temps passes.
+     * @param bool|null $factureTempsPasses The facture temps passes.
      * @return Clients Returns this Clients.
      */
-    public function setFactureTempsPasses($factureTempsPasses) {
+    public function setFactureTempsPasses(?bool $factureTempsPasses): Clients {
         $this->factureTempsPasses = $factureTempsPasses;
         return $this;
     }
@@ -4863,10 +4863,10 @@ class Clients {
     /**
      * Set the factures mail.
      *
-     * @param bool $facturesMail The factures mail.
+     * @param bool|null $facturesMail The factures mail.
      * @return Clients Returns this Clients.
      */
-    public function setFacturesMail($facturesMail) {
+    public function setFacturesMail(?bool $facturesMail): Clients {
         $this->facturesMail = $facturesMail;
         return $this;
     }
@@ -4874,10 +4874,10 @@ class Clients {
     /**
      * Set the fortement impose.
      *
-     * @param string $fortementImpose The fortement impose.
+     * @param string|null $fortementImpose The fortement impose.
      * @return Clients Returns this Clients.
      */
-    public function setFortementImpose($fortementImpose) {
+    public function setFortementImpose(?string $fortementImpose): Clients {
         $this->fortementImpose = $fortementImpose;
         return $this;
     }
@@ -4885,10 +4885,10 @@ class Clients {
     /**
      * Set the frais fixes1.
      *
-     * @param bool $fraisFixes1 The frais fixes1.
+     * @param bool|null $fraisFixes1 The frais fixes1.
      * @return Clients Returns this Clients.
      */
-    public function setFraisFixes1($fraisFixes1) {
+    public function setFraisFixes1(?bool $fraisFixes1): Clients {
         $this->fraisFixes1 = $fraisFixes1;
         return $this;
     }
@@ -4896,10 +4896,10 @@ class Clients {
     /**
      * Set the frais fixes2.
      *
-     * @param bool $fraisFixes2 The frais fixes2.
+     * @param bool|null $fraisFixes2 The frais fixes2.
      * @return Clients Returns this Clients.
      */
-    public function setFraisFixes2($fraisFixes2) {
+    public function setFraisFixes2(?bool $fraisFixes2): Clients {
         $this->fraisFixes2 = $fraisFixes2;
         return $this;
     }
@@ -4907,10 +4907,10 @@ class Clients {
     /**
      * Set the franco port1.
      *
-     * @param float $francoPort1 The franco port1.
+     * @param float|null $francoPort1 The franco port1.
      * @return Clients Returns this Clients.
      */
-    public function setFrancoPort1($francoPort1) {
+    public function setFrancoPort1(?float $francoPort1): Clients {
         $this->francoPort1 = $francoPort1;
         return $this;
     }
@@ -4918,10 +4918,10 @@ class Clients {
     /**
      * Set the franco port2.
      *
-     * @param float $francoPort2 The franco port2.
+     * @param float|null $francoPort2 The franco port2.
      * @return Clients Returns this Clients.
      */
-    public function setFrancoPort2($francoPort2) {
+    public function setFrancoPort2(?float $francoPort2): Clients {
         $this->francoPort2 = $francoPort2;
         return $this;
     }
@@ -4929,10 +4929,10 @@ class Clients {
     /**
      * Set the heure appel.
      *
-     * @param string $heureAppel The heure appel.
+     * @param string|null $heureAppel The heure appel.
      * @return Clients Returns this Clients.
      */
-    public function setHeureAppel($heureAppel) {
+    public function setHeureAppel(?string $heureAppel): Clients {
         $this->heureAppel = $heureAppel;
         return $this;
     }
@@ -4940,10 +4940,10 @@ class Clients {
     /**
      * Set the identifiant tva.
      *
-     * @param string $identifiantTva The identifiant tva.
+     * @param string|null $identifiantTva The identifiant tva.
      * @return Clients Returns this Clients.
      */
-    public function setIdentifiantTva($identifiantTva) {
+    public function setIdentifiantTva(?string $identifiantTva): Clients {
         $this->identifiantTva = $identifiantTva;
         return $this;
     }
@@ -4951,10 +4951,10 @@ class Clients {
     /**
      * Set the indice factures mail.
      *
-     * @param int $indiceFacturesMail The indice factures mail.
+     * @param int|null $indiceFacturesMail The indice factures mail.
      * @return Clients Returns this Clients.
      */
-    public function setIndiceFacturesMail($indiceFacturesMail) {
+    public function setIndiceFacturesMail(?int $indiceFacturesMail): Clients {
         $this->indiceFacturesMail = $indiceFacturesMail;
         return $this;
     }
@@ -4962,10 +4962,10 @@ class Clients {
     /**
      * Set the insp.
      *
-     * @param string $insp The insp.
+     * @param string|null $insp The insp.
      * @return Clients Returns this Clients.
      */
-    public function setInsp($insp) {
+    public function setInsp(?string $insp): Clients {
         $this->insp = $insp;
         return $this;
     }
@@ -4973,10 +4973,10 @@ class Clients {
     /**
      * Set the interesse gestion.
      *
-     * @param string $interesseGestion The interesse gestion.
+     * @param string|null $interesseGestion The interesse gestion.
      * @return Clients Returns this Clients.
      */
-    public function setInteresseGestion($interesseGestion) {
+    public function setInteresseGestion(?string $interesseGestion): Clients {
         $this->interesseGestion = $interesseGestion;
         return $this;
     }
@@ -4984,10 +4984,10 @@ class Clients {
     /**
      * Set the mensualisation actif.
      *
-     * @param bool $mensualisationActif The mensualisation actif.
+     * @param bool|null $mensualisationActif The mensualisation actif.
      * @return Clients Returns this Clients.
      */
-    public function setMensualisationActif($mensualisationActif) {
+    public function setMensualisationActif(?bool $mensualisationActif): Clients {
         $this->mensualisationActif = $mensualisationActif;
         return $this;
     }
@@ -4998,7 +4998,7 @@ class Clients {
      * @param DateTime|null $mensualisationAu The mensualisation au.
      * @return Clients Returns this Clients.
      */
-    public function setMensualisationAu(DateTime $mensualisationAu = null) {
+    public function setMensualisationAu(?DateTime $mensualisationAu): Clients {
         $this->mensualisationAu = $mensualisationAu;
         return $this;
     }
@@ -5009,7 +5009,7 @@ class Clients {
      * @param DateTime|null $mensualisationDu The mensualisation du.
      * @return Clients Returns this Clients.
      */
-    public function setMensualisationDu(DateTime $mensualisationDu = null) {
+    public function setMensualisationDu(?DateTime $mensualisationDu): Clients {
         $this->mensualisationDu = $mensualisationDu;
         return $this;
     }
@@ -5017,10 +5017,10 @@ class Clients {
     /**
      * Set the mensualisation frequence.
      *
-     * @param string $mensualisationFrequence The mensualisation frequence.
+     * @param string|null $mensualisationFrequence The mensualisation frequence.
      * @return Clients Returns this Clients.
      */
-    public function setMensualisationFrequence($mensualisationFrequence) {
+    public function setMensualisationFrequence(?string $mensualisationFrequence): Clients {
         $this->mensualisationFrequence = $mensualisationFrequence;
         return $this;
     }
@@ -5028,10 +5028,10 @@ class Clients {
     /**
      * Set the mensualisation montant.
      *
-     * @param float $mensualisationMontant The mensualisation montant.
+     * @param float|null $mensualisationMontant The mensualisation montant.
      * @return Clients Returns this Clients.
      */
-    public function setMensualisationMontant($mensualisationMontant) {
+    public function setMensualisationMontant(?float $mensualisationMontant): Clients {
         $this->mensualisationMontant = $mensualisationMontant;
         return $this;
     }
@@ -5039,10 +5039,10 @@ class Clients {
     /**
      * Set the mission sur dossier.
      *
-     * @param int $missionSurDossier The mission sur dossier.
+     * @param int|null $missionSurDossier The mission sur dossier.
      * @return Clients Returns this Clients.
      */
-    public function setMissionSurDossier($missionSurDossier) {
+    public function setMissionSurDossier(?int $missionSurDossier): Clients {
         $this->missionSurDossier = $missionSurDossier;
         return $this;
     }
@@ -5050,10 +5050,10 @@ class Clients {
     /**
      * Set the modele bl.
      *
-     * @param string $modeleBl The modele bl.
+     * @param string|null $modeleBl The modele bl.
      * @return Clients Returns this Clients.
      */
-    public function setModeleBl($modeleBl) {
+    public function setModeleBl(?string $modeleBl): Clients {
         $this->modeleBl = $modeleBl;
         return $this;
     }
@@ -5061,10 +5061,10 @@ class Clients {
     /**
      * Set the modele commande.
      *
-     * @param string $modeleCommande The modele commande.
+     * @param string|null $modeleCommande The modele commande.
      * @return Clients Returns this Clients.
      */
-    public function setModeleCommande($modeleCommande) {
+    public function setModeleCommande(?string $modeleCommande): Clients {
         $this->modeleCommande = $modeleCommande;
         return $this;
     }
@@ -5072,10 +5072,10 @@ class Clients {
     /**
      * Set the modele facture.
      *
-     * @param string $modeleFacture The modele facture.
+     * @param string|null $modeleFacture The modele facture.
      * @return Clients Returns this Clients.
      */
-    public function setModeleFacture($modeleFacture) {
+    public function setModeleFacture(?string $modeleFacture): Clients {
         $this->modeleFacture = $modeleFacture;
         return $this;
     }
@@ -5083,10 +5083,10 @@ class Clients {
     /**
      * Set the modele proformas.
      *
-     * @param string $modeleProformas The modele proformas.
+     * @param string|null $modeleProformas The modele proformas.
      * @return Clients Returns this Clients.
      */
-    public function setModeleProformas($modeleProformas) {
+    public function setModeleProformas(?string $modeleProformas): Clients {
         $this->modeleProformas = $modeleProformas;
         return $this;
     }
@@ -5094,10 +5094,10 @@ class Clients {
     /**
      * Set the modele releve.
      *
-     * @param string $modeleReleve The modele releve.
+     * @param string|null $modeleReleve The modele releve.
      * @return Clients Returns this Clients.
      */
-    public function setModeleReleve($modeleReleve) {
+    public function setModeleReleve(?string $modeleReleve): Clients {
         $this->modeleReleve = $modeleReleve;
         return $this;
     }
@@ -5105,10 +5105,10 @@ class Clients {
     /**
      * Set the mois cloture.
      *
-     * @param string $moisCloture The mois cloture.
+     * @param string|null $moisCloture The mois cloture.
      * @return Clients Returns this Clients.
      */
-    public function setMoisCloture($moisCloture) {
+    public function setMoisCloture(?string $moisCloture): Clients {
         $this->moisCloture = $moisCloture;
         return $this;
     }
@@ -5116,10 +5116,10 @@ class Clients {
     /**
      * Set the mois cotisation.
      *
-     * @param int $moisCotisation The mois cotisation.
+     * @param int|null $moisCotisation The mois cotisation.
      * @return Clients Returns this Clients.
      */
-    public function setMoisCotisation($moisCotisation) {
+    public function setMoisCotisation(?int $moisCotisation): Clients {
         $this->moisCotisation = $moisCotisation;
         return $this;
     }
@@ -5127,10 +5127,10 @@ class Clients {
     /**
      * Set the mois droit fixe.
      *
-     * @param int $moisDroitFixe The mois droit fixe.
+     * @param int|null $moisDroitFixe The mois droit fixe.
      * @return Clients Returns this Clients.
      */
-    public function setMoisDroitFixe($moisDroitFixe) {
+    public function setMoisDroitFixe(?int $moisDroitFixe): Clients {
         $this->moisDroitFixe = $moisDroitFixe;
         return $this;
     }
@@ -5138,10 +5138,10 @@ class Clients {
     /**
      * Set the mt cmd non fact.
      *
-     * @param float $mtCmdNonFact The mt cmd non fact.
+     * @param float|null $mtCmdNonFact The mt cmd non fact.
      * @return Clients Returns this Clients.
      */
-    public function setMtCmdNonFact($mtCmdNonFact) {
+    public function setMtCmdNonFact(?float $mtCmdNonFact): Clients {
         $this->mtCmdNonFact = $mtCmdNonFact;
         return $this;
     }
@@ -5149,10 +5149,10 @@ class Clients {
     /**
      * Set the mt encours.
      *
-     * @param float $mtEncours The mt encours.
+     * @param float|null $mtEncours The mt encours.
      * @return Clients Returns this Clients.
      */
-    public function setMtEncours($mtEncours) {
+    public function setMtEncours(?float $mtEncours): Clients {
         $this->mtEncours = $mtEncours;
         return $this;
     }
@@ -5160,10 +5160,10 @@ class Clients {
     /**
      * Set the mt encours autorise.
      *
-     * @param float $mtEncoursAutorise The mt encours autorise.
+     * @param float|null $mtEncoursAutorise The mt encours autorise.
      * @return Clients Returns this Clients.
      */
-    public function setMtEncoursAutorise($mtEncoursAutorise) {
+    public function setMtEncoursAutorise(?float $mtEncoursAutorise): Clients {
         $this->mtEncoursAutorise = $mtEncoursAutorise;
         return $this;
     }
@@ -5171,10 +5171,10 @@ class Clients {
     /**
      * Set the nb appels en cours.
      *
-     * @param int $nbAppelsEnCours The nb appels en cours.
+     * @param int|null $nbAppelsEnCours The nb appels en cours.
      * @return Clients Returns this Clients.
      */
-    public function setNbAppelsEnCours($nbAppelsEnCours) {
+    public function setNbAppelsEnCours(?int $nbAppelsEnCours): Clients {
         $this->nbAppelsEnCours = $nbAppelsEnCours;
         return $this;
     }
@@ -5182,10 +5182,10 @@ class Clients {
     /**
      * Set the nb bl.
      *
-     * @param string $nbBl The nb bl.
+     * @param string|null $nbBl The nb bl.
      * @return Clients Returns this Clients.
      */
-    public function setNbBl($nbBl) {
+    public function setNbBl(?string $nbBl): Clients {
         $this->nbBl = $nbBl;
         return $this;
     }
@@ -5193,10 +5193,10 @@ class Clients {
     /**
      * Set the nb bl non chiffres.
      *
-     * @param int $nbBlNonChiffres The nb bl non chiffres.
+     * @param int|null $nbBlNonChiffres The nb bl non chiffres.
      * @return Clients Returns this Clients.
      */
-    public function setNbBlNonChiffres($nbBlNonChiffres) {
+    public function setNbBlNonChiffres(?int $nbBlNonChiffres): Clients {
         $this->nbBlNonChiffres = $nbBlNonChiffres;
         return $this;
     }
@@ -5204,10 +5204,10 @@ class Clients {
     /**
      * Set the nb commande.
      *
-     * @param string $nbCommande The nb commande.
+     * @param string|null $nbCommande The nb commande.
      * @return Clients Returns this Clients.
      */
-    public function setNbCommande($nbCommande) {
+    public function setNbCommande(?string $nbCommande): Clients {
         $this->nbCommande = $nbCommande;
         return $this;
     }
@@ -5215,10 +5215,10 @@ class Clients {
     /**
      * Set the nb devis.
      *
-     * @param string $nbDevis The nb devis.
+     * @param string|null $nbDevis The nb devis.
      * @return Clients Returns this Clients.
      */
-    public function setNbDevis($nbDevis) {
+    public function setNbDevis(?string $nbDevis): Clients {
         $this->nbDevis = $nbDevis;
         return $this;
     }
@@ -5226,10 +5226,10 @@ class Clients {
     /**
      * Set the nb facture.
      *
-     * @param string $nbFacture The nb facture.
+     * @param string|null $nbFacture The nb facture.
      * @return Clients Returns this Clients.
      */
-    public function setNbFacture($nbFacture) {
+    public function setNbFacture(?string $nbFacture): Clients {
         $this->nbFacture = $nbFacture;
         return $this;
     }
@@ -5237,10 +5237,10 @@ class Clients {
     /**
      * Set the nb jour interval.
      *
-     * @param int $nbJourInterval The nb jour interval.
+     * @param int|null $nbJourInterval The nb jour interval.
      * @return Clients Returns this Clients.
      */
-    public function setNbJourInterval($nbJourInterval) {
+    public function setNbJourInterval(?int $nbJourInterval): Clients {
         $this->nbJourInterval = $nbJourInterval;
         return $this;
     }
@@ -5248,10 +5248,10 @@ class Clients {
     /**
      * Set the nb max bl.
      *
-     * @param string $nbMaxBl The nb max bl.
+     * @param string|null $nbMaxBl The nb max bl.
      * @return Clients Returns this Clients.
      */
-    public function setNbMaxBl($nbMaxBl) {
+    public function setNbMaxBl(?string $nbMaxBl): Clients {
         $this->nbMaxBl = $nbMaxBl;
         return $this;
     }
@@ -5259,10 +5259,10 @@ class Clients {
     /**
      * Set the nb releve.
      *
-     * @param string $nbReleve The nb releve.
+     * @param string|null $nbReleve The nb releve.
      * @return Clients Returns this Clients.
      */
-    public function setNbReleve($nbReleve) {
+    public function setNbReleve(?string $nbReleve): Clients {
         $this->nbReleve = $nbReleve;
         return $this;
     }
@@ -5270,10 +5270,10 @@ class Clients {
     /**
      * Set the nombre echeances.
      *
-     * @param string $nombreEcheances The nombre echeances.
+     * @param string|null $nombreEcheances The nombre echeances.
      * @return Clients Returns this Clients.
      */
-    public function setNombreEcheances($nombreEcheances) {
+    public function setNombreEcheances(?string $nombreEcheances): Clients {
         $this->nombreEcheances = $nombreEcheances;
         return $this;
     }
@@ -5281,10 +5281,10 @@ class Clients {
     /**
      * Set the nombre mois exercice.
      *
-     * @param string $nombreMoisExercice The nombre mois exercice.
+     * @param string|null $nombreMoisExercice The nombre mois exercice.
      * @return Clients Returns this Clients.
      */
-    public function setNombreMoisExercice($nombreMoisExercice) {
+    public function setNombreMoisExercice(?string $nombreMoisExercice): Clients {
         $this->nombreMoisExercice = $nombreMoisExercice;
         return $this;
     }
@@ -5292,10 +5292,10 @@ class Clients {
     /**
      * Set the notoriete.
      *
-     * @param string $notoriete The notoriete.
+     * @param string|null $notoriete The notoriete.
      * @return Clients Returns this Clients.
      */
-    public function setNotoriete($notoriete) {
+    public function setNotoriete(?string $notoriete): Clients {
         $this->notoriete = $notoriete;
         return $this;
     }
@@ -5303,10 +5303,10 @@ class Clients {
     /**
      * Set the num web adherent.
      *
-     * @param string $numWebAdherent The num web adherent.
+     * @param string|null $numWebAdherent The num web adherent.
      * @return Clients Returns this Clients.
      */
-    public function setNumWebAdherent($numWebAdherent) {
+    public function setNumWebAdherent(?string $numWebAdherent): Clients {
         $this->numWebAdherent = $numWebAdherent;
         return $this;
     }
@@ -5314,10 +5314,10 @@ class Clients {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return Clients Returns this Clients.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): Clients {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -5325,10 +5325,10 @@ class Clients {
     /**
      * Set the observation1.
      *
-     * @param string $observation1 The observation1.
+     * @param string|null $observation1 The observation1.
      * @return Clients Returns this Clients.
      */
-    public function setObservation1($observation1) {
+    public function setObservation1(?string $observation1): Clients {
         $this->observation1 = $observation1;
         return $this;
     }
@@ -5336,10 +5336,10 @@ class Clients {
     /**
      * Set the observation2.
      *
-     * @param string $observation2 The observation2.
+     * @param string|null $observation2 The observation2.
      * @return Clients Returns this Clients.
      */
-    public function setObservation2($observation2) {
+    public function setObservation2(?string $observation2): Clients {
         $this->observation2 = $observation2;
         return $this;
     }
@@ -5347,10 +5347,10 @@ class Clients {
     /**
      * Set the observation3.
      *
-     * @param string $observation3 The observation3.
+     * @param string|null $observation3 The observation3.
      * @return Clients Returns this Clients.
      */
-    public function setObservation3($observation3) {
+    public function setObservation3(?string $observation3): Clients {
         $this->observation3 = $observation3;
         return $this;
     }
@@ -5358,10 +5358,10 @@ class Clients {
     /**
      * Set the occasionnel.
      *
-     * @param bool $occasionnel The occasionnel.
+     * @param bool|null $occasionnel The occasionnel.
      * @return Clients Returns this Clients.
      */
-    public function setOccasionnel($occasionnel) {
+    public function setOccasionnel(?bool $occasionnel): Clients {
         $this->occasionnel = $occasionnel;
         return $this;
     }
@@ -5369,10 +5369,10 @@ class Clients {
     /**
      * Set the organisation adm.
      *
-     * @param string $organisationAdm The organisation adm.
+     * @param string|null $organisationAdm The organisation adm.
      * @return Clients Returns this Clients.
      */
-    public function setOrganisationAdm($organisationAdm) {
+    public function setOrganisationAdm(?string $organisationAdm): Clients {
         $this->organisationAdm = $organisationAdm;
         return $this;
     }
@@ -5380,10 +5380,10 @@ class Clients {
     /**
      * Set the paiement depart le.
      *
-     * @param int $paiementDepartLe The paiement depart le.
+     * @param int|null $paiementDepartLe The paiement depart le.
      * @return Clients Returns this Clients.
      */
-    public function setPaiementDepartLe($paiementDepartLe) {
+    public function setPaiementDepartLe(?int $paiementDepartLe): Clients {
         $this->paiementDepartLe = $paiementDepartLe;
         return $this;
     }
@@ -5391,10 +5391,10 @@ class Clients {
     /**
      * Set the paiement le.
      *
-     * @param string $paiementLe The paiement le.
+     * @param string|null $paiementLe The paiement le.
      * @return Clients Returns this Clients.
      */
-    public function setPaiementLe($paiementLe) {
+    public function setPaiementLe(?string $paiementLe): Clients {
         $this->paiementLe = $paiementLe;
         return $this;
     }
@@ -5402,10 +5402,10 @@ class Clients {
     /**
      * Set the paiement nombre de jours.
      *
-     * @param int $paiementNombreDeJours The paiement nombre de jours.
+     * @param int|null $paiementNombreDeJours The paiement nombre de jours.
      * @return Clients Returns this Clients.
      */
-    public function setPaiementNombreDeJours($paiementNombreDeJours) {
+    public function setPaiementNombreDeJours(?int $paiementNombreDeJours): Clients {
         $this->paiementNombreDeJours = $paiementNombreDeJours;
         return $this;
     }
@@ -5413,10 +5413,10 @@ class Clients {
     /**
      * Set the pas productif.
      *
-     * @param bool $pasProductif The pas productif.
+     * @param bool|null $pasProductif The pas productif.
      * @return Clients Returns this Clients.
      */
-    public function setPasProductif($pasProductif) {
+    public function setPasProductif(?bool $pasProductif): Clients {
         $this->pasProductif = $pasProductif;
         return $this;
     }
@@ -5424,10 +5424,10 @@ class Clients {
     /**
      * Set the pas taches operationnelles.
      *
-     * @param bool $pasTachesOperationnelles The pas taches operationnelles.
+     * @param bool|null $pasTachesOperationnelles The pas taches operationnelles.
      * @return Clients Returns this Clients.
      */
-    public function setPasTachesOperationnelles($pasTachesOperationnelles) {
+    public function setPasTachesOperationnelles(?bool $pasTachesOperationnelles): Clients {
         $this->pasTachesOperationnelles = $pasTachesOperationnelles;
         return $this;
     }
@@ -5435,10 +5435,10 @@ class Clients {
     /**
      * Set the patrimoine.
      *
-     * @param string $patrimoine The patrimoine.
+     * @param string|null $patrimoine The patrimoine.
      * @return Clients Returns this Clients.
      */
-    public function setPatrimoine($patrimoine) {
+    public function setPatrimoine(?string $patrimoine): Clients {
         $this->patrimoine = $patrimoine;
         return $this;
     }
@@ -5446,10 +5446,10 @@ class Clients {
     /**
      * Set the prelevements perso.
      *
-     * @param string $prelevementsPerso The prelevements perso.
+     * @param string|null $prelevementsPerso The prelevements perso.
      * @return Clients Returns this Clients.
      */
-    public function setPrelevementsPerso($prelevementsPerso) {
+    public function setPrelevementsPerso(?string $prelevementsPerso): Clients {
         $this->prelevementsPerso = $prelevementsPerso;
         return $this;
     }
@@ -5457,10 +5457,10 @@ class Clients {
     /**
      * Set the prescripteur.
      *
-     * @param string $prescripteur The prescripteur.
+     * @param string|null $prescripteur The prescripteur.
      * @return Clients Returns this Clients.
      */
-    public function setPrescripteur($prescripteur) {
+    public function setPrescripteur(?string $prescripteur): Clients {
         $this->prescripteur = $prescripteur;
         return $this;
     }
@@ -5468,10 +5468,10 @@ class Clients {
     /**
      * Set the previsionnel.
      *
-     * @param string $previsionnel The previsionnel.
+     * @param string|null $previsionnel The previsionnel.
      * @return Clients Returns this Clients.
      */
-    public function setPrevisionnel($previsionnel) {
+    public function setPrevisionnel(?string $previsionnel): Clients {
         $this->previsionnel = $previsionnel;
         return $this;
     }
@@ -5479,10 +5479,10 @@ class Clients {
     /**
      * Set the prioritaire.
      *
-     * @param bool $prioritaire The prioritaire.
+     * @param bool|null $prioritaire The prioritaire.
      * @return Clients Returns this Clients.
      */
-    public function setPrioritaire($prioritaire) {
+    public function setPrioritaire(?bool $prioritaire): Clients {
         $this->prioritaire = $prioritaire;
         return $this;
     }
@@ -5490,10 +5490,10 @@ class Clients {
     /**
      * Set the profil dir anxieux.
      *
-     * @param bool $profilDirAnxieux The profil dir anxieux.
+     * @param bool|null $profilDirAnxieux The profil dir anxieux.
      * @return Clients Returns this Clients.
      */
-    public function setProfilDirAnxieux($profilDirAnxieux) {
+    public function setProfilDirAnxieux(?bool $profilDirAnxieux): Clients {
         $this->profilDirAnxieux = $profilDirAnxieux;
         return $this;
     }
@@ -5501,10 +5501,10 @@ class Clients {
     /**
      * Set the profil dir commercial.
      *
-     * @param bool $profilDirCommercial The profil dir commercial.
+     * @param bool|null $profilDirCommercial The profil dir commercial.
      * @return Clients Returns this Clients.
      */
-    public function setProfilDirCommercial($profilDirCommercial) {
+    public function setProfilDirCommercial(?bool $profilDirCommercial): Clients {
         $this->profilDirCommercial = $profilDirCommercial;
         return $this;
     }
@@ -5512,10 +5512,10 @@ class Clients {
     /**
      * Set the profil dir gestionnaire.
      *
-     * @param bool $profilDirGestionnaire The profil dir gestionnaire.
+     * @param bool|null $profilDirGestionnaire The profil dir gestionnaire.
      * @return Clients Returns this Clients.
      */
-    public function setProfilDirGestionnaire($profilDirGestionnaire) {
+    public function setProfilDirGestionnaire(?bool $profilDirGestionnaire): Clients {
         $this->profilDirGestionnaire = $profilDirGestionnaire;
         return $this;
     }
@@ -5523,10 +5523,10 @@ class Clients {
     /**
      * Set the profil dir somnolent.
      *
-     * @param bool $profilDirSomnolent The profil dir somnolent.
+     * @param bool|null $profilDirSomnolent The profil dir somnolent.
      * @return Clients Returns this Clients.
      */
-    public function setProfilDirSomnolent($profilDirSomnolent) {
+    public function setProfilDirSomnolent(?bool $profilDirSomnolent): Clients {
         $this->profilDirSomnolent = $profilDirSomnolent;
         return $this;
     }
@@ -5534,10 +5534,10 @@ class Clients {
     /**
      * Set the profil dir technicien.
      *
-     * @param bool $profilDirTechnicien The profil dir technicien.
+     * @param bool|null $profilDirTechnicien The profil dir technicien.
      * @return Clients Returns this Clients.
      */
-    public function setProfilDirTechnicien($profilDirTechnicien) {
+    public function setProfilDirTechnicien(?bool $profilDirTechnicien): Clients {
         $this->profilDirTechnicien = $profilDirTechnicien;
         return $this;
     }
@@ -5545,10 +5545,10 @@ class Clients {
     /**
      * Set the profil ent.
      *
-     * @param string $profilEnt The profil ent.
+     * @param string|null $profilEnt The profil ent.
      * @return Clients Returns this Clients.
      */
-    public function setProfilEnt($profilEnt) {
+    public function setProfilEnt(?string $profilEnt): Clients {
         $this->profilEnt = $profilEnt;
         return $this;
     }
@@ -5556,10 +5556,10 @@ class Clients {
     /**
      * Set the prospect.
      *
-     * @param bool $prospect The prospect.
+     * @param bool|null $prospect The prospect.
      * @return Clients Returns this Clients.
      */
-    public function setProspect($prospect) {
+    public function setProspect(?bool $prospect): Clients {
         $this->prospect = $prospect;
         return $this;
     }
@@ -5567,10 +5567,10 @@ class Clients {
     /**
      * Set the qualite paiement.
      *
-     * @param string $qualitePaiement The qualite paiement.
+     * @param string|null $qualitePaiement The qualite paiement.
      * @return Clients Returns this Clients.
      */
-    public function setQualitePaiement($qualitePaiement) {
+    public function setQualitePaiement(?string $qualitePaiement): Clients {
         $this->qualitePaiement = $qualitePaiement;
         return $this;
     }
@@ -5578,10 +5578,10 @@ class Clients {
     /**
      * Set the raison fin activite.
      *
-     * @param string $raisonFinActivite The raison fin activite.
+     * @param string|null $raisonFinActivite The raison fin activite.
      * @return Clients Returns this Clients.
      */
-    public function setRaisonFinActivite($raisonFinActivite) {
+    public function setRaisonFinActivite(?string $raisonFinActivite): Clients {
         $this->raisonFinActivite = $raisonFinActivite;
         return $this;
     }
@@ -5589,10 +5589,10 @@ class Clients {
     /**
      * Set the raison mv paiement.
      *
-     * @param string $raisonMvPaiement The raison mv paiement.
+     * @param string|null $raisonMvPaiement The raison mv paiement.
      * @return Clients Returns this Clients.
      */
-    public function setRaisonMvPaiement($raisonMvPaiement) {
+    public function setRaisonMvPaiement(?string $raisonMvPaiement): Clients {
         $this->raisonMvPaiement = $raisonMvPaiement;
         return $this;
     }
@@ -5600,10 +5600,10 @@ class Clients {
     /**
      * Set the regime.
      *
-     * @param string $regime The regime.
+     * @param string|null $regime The regime.
      * @return Clients Returns this Clients.
      */
-    public function setRegime($regime) {
+    public function setRegime(?string $regime): Clients {
         $this->regime = $regime;
         return $this;
     }
@@ -5611,10 +5611,10 @@ class Clients {
     /**
      * Set the regroupement fact.
      *
-     * @param string $regroupementFact The regroupement fact.
+     * @param string|null $regroupementFact The regroupement fact.
      * @return Clients Returns this Clients.
      */
-    public function setRegroupementFact($regroupementFact) {
+    public function setRegroupementFact(?string $regroupementFact): Clients {
         $this->regroupementFact = $regroupementFact;
         return $this;
     }
@@ -5622,10 +5622,10 @@ class Clients {
     /**
      * Set the relation cabinet.
      *
-     * @param string $relationCabinet The relation cabinet.
+     * @param string|null $relationCabinet The relation cabinet.
      * @return Clients Returns this Clients.
      */
-    public function setRelationCabinet($relationCabinet) {
+    public function setRelationCabinet(?string $relationCabinet): Clients {
         $this->relationCabinet = $relationCabinet;
         return $this;
     }
@@ -5633,10 +5633,10 @@ class Clients {
     /**
      * Set the releve facture.
      *
-     * @param bool $releveFacture The releve facture.
+     * @param bool|null $releveFacture The releve facture.
      * @return Clients Returns this Clients.
      */
-    public function setReleveFacture($releveFacture) {
+    public function setReleveFacture(?bool $releveFacture): Clients {
         $this->releveFacture = $releveFacture;
         return $this;
     }
@@ -5644,10 +5644,10 @@ class Clients {
     /**
      * Set the remise ligne1.
      *
-     * @param float $remiseLigne1 The remise ligne1.
+     * @param float|null $remiseLigne1 The remise ligne1.
      * @return Clients Returns this Clients.
      */
-    public function setRemiseLigne1($remiseLigne1) {
+    public function setRemiseLigne1(?float $remiseLigne1): Clients {
         $this->remiseLigne1 = $remiseLigne1;
         return $this;
     }
@@ -5655,10 +5655,10 @@ class Clients {
     /**
      * Set the remise ligne2.
      *
-     * @param float $remiseLigne2 The remise ligne2.
+     * @param float|null $remiseLigne2 The remise ligne2.
      * @return Clients Returns this Clients.
      */
-    public function setRemiseLigne2($remiseLigne2) {
+    public function setRemiseLigne2(?float $remiseLigne2): Clients {
         $this->remiseLigne2 = $remiseLigne2;
         return $this;
     }
@@ -5666,10 +5666,10 @@ class Clients {
     /**
      * Set the remise ligne3.
      *
-     * @param float $remiseLigne3 The remise ligne3.
+     * @param float|null $remiseLigne3 The remise ligne3.
      * @return Clients Returns this Clients.
      */
-    public function setRemiseLigne3($remiseLigne3) {
+    public function setRemiseLigne3(?float $remiseLigne3): Clients {
         $this->remiseLigne3 = $remiseLigne3;
         return $this;
     }
@@ -5677,10 +5677,10 @@ class Clients {
     /**
      * Set the remise pied.
      *
-     * @param float $remisePied The remise pied.
+     * @param float|null $remisePied The remise pied.
      * @return Clients Returns this Clients.
      */
-    public function setRemisePied($remisePied) {
+    public function setRemisePied(?float $remisePied): Clients {
         $this->remisePied = $remisePied;
         return $this;
     }
@@ -5688,10 +5688,10 @@ class Clients {
     /**
      * Set the remise pied2.
      *
-     * @param float $remisePied2 The remise pied2.
+     * @param float|null $remisePied2 The remise pied2.
      * @return Clients Returns this Clients.
      */
-    public function setRemisePied2($remisePied2) {
+    public function setRemisePied2(?float $remisePied2): Clients {
         $this->remisePied2 = $remisePied2;
         return $this;
     }
@@ -5699,10 +5699,10 @@ class Clients {
     /**
      * Set the remise pied3.
      *
-     * @param float $remisePied3 The remise pied3.
+     * @param float|null $remisePied3 The remise pied3.
      * @return Clients Returns this Clients.
      */
-    public function setRemisePied3($remisePied3) {
+    public function setRemisePied3(?float $remisePied3): Clients {
         $this->remisePied3 = $remisePied3;
         return $this;
     }
@@ -5710,10 +5710,10 @@ class Clients {
     /**
      * Set the resultat.
      *
-     * @param float $resultat The resultat.
+     * @param float|null $resultat The resultat.
      * @return Clients Returns this Clients.
      */
-    public function setResultat($resultat) {
+    public function setResultat(?float $resultat): Clients {
         $this->resultat = $resultat;
         return $this;
     }
@@ -5721,10 +5721,10 @@ class Clients {
     /**
      * Set the rib.
      *
-     * @param string $rib The rib.
+     * @param string|null $rib The rib.
      * @return Clients Returns this Clients.
      */
-    public function setRib($rib) {
+    public function setRib(?string $rib): Clients {
         $this->rib = $rib;
         return $this;
     }
@@ -5732,10 +5732,10 @@ class Clients {
     /**
      * Set the sante financiere.
      *
-     * @param string $santeFinanciere The sante financiere.
+     * @param string|null $santeFinanciere The sante financiere.
      * @return Clients Returns this Clients.
      */
-    public function setSanteFinanciere($santeFinanciere) {
+    public function setSanteFinanciere(?string $santeFinanciere): Clients {
         $this->santeFinanciere = $santeFinanciere;
         return $this;
     }
@@ -5743,10 +5743,10 @@ class Clients {
     /**
      * Set the service cpta.
      *
-     * @param bool $serviceCpta The service cpta.
+     * @param bool|null $serviceCpta The service cpta.
      * @return Clients Returns this Clients.
      */
-    public function setServiceCpta($serviceCpta) {
+    public function setServiceCpta(?bool $serviceCpta): Clients {
         $this->serviceCpta = $serviceCpta;
         return $this;
     }
@@ -5754,10 +5754,10 @@ class Clients {
     /**
      * Set the siege groupe.
      *
-     * @param bool $siegeGroupe The siege groupe.
+     * @param bool|null $siegeGroupe The siege groupe.
      * @return Clients Returns this Clients.
      */
-    public function setSiegeGroupe($siegeGroupe) {
+    public function setSiegeGroupe(?bool $siegeGroupe): Clients {
         $this->siegeGroupe = $siegeGroupe;
         return $this;
     }
@@ -5765,10 +5765,10 @@ class Clients {
     /**
      * Set the social.
      *
-     * @param bool $social The social.
+     * @param bool|null $social The social.
      * @return Clients Returns this Clients.
      */
-    public function setSocial($social) {
+    public function setSocial(?bool $social): Clients {
         $this->social = $social;
         return $this;
     }
@@ -5776,10 +5776,10 @@ class Clients {
     /**
      * Set the social btq.
      *
-     * @param string $socialBtq The social btq.
+     * @param string|null $socialBtq The social btq.
      * @return Clients Returns this Clients.
      */
-    public function setSocialBtq($socialBtq) {
+    public function setSocialBtq(?string $socialBtq): Clients {
         $this->socialBtq = $socialBtq;
         return $this;
     }
@@ -5787,10 +5787,10 @@ class Clients {
     /**
      * Set the social bureau distributeur.
      *
-     * @param string $socialBureauDistributeur The social bureau distributeur.
+     * @param string|null $socialBureauDistributeur The social bureau distributeur.
      * @return Clients Returns this Clients.
      */
-    public function setSocialBureauDistributeur($socialBureauDistributeur) {
+    public function setSocialBureauDistributeur(?string $socialBureauDistributeur): Clients {
         $this->socialBureauDistributeur = $socialBureauDistributeur;
         return $this;
     }
@@ -5798,10 +5798,10 @@ class Clients {
     /**
      * Set the social code officiel commune.
      *
-     * @param string $socialCodeOfficielCommune The social code officiel commune.
+     * @param string|null $socialCodeOfficielCommune The social code officiel commune.
      * @return Clients Returns this Clients.
      */
-    public function setSocialCodeOfficielCommune($socialCodeOfficielCommune) {
+    public function setSocialCodeOfficielCommune(?string $socialCodeOfficielCommune): Clients {
         $this->socialCodeOfficielCommune = $socialCodeOfficielCommune;
         return $this;
     }
@@ -5809,10 +5809,10 @@ class Clients {
     /**
      * Set the social code postal.
      *
-     * @param string $socialCodePostal The social code postal.
+     * @param string|null $socialCodePostal The social code postal.
      * @return Clients Returns this Clients.
      */
-    public function setSocialCodePostal($socialCodePostal) {
+    public function setSocialCodePostal(?string $socialCodePostal): Clients {
         $this->socialCodePostal = $socialCodePostal;
         return $this;
     }
@@ -5820,10 +5820,10 @@ class Clients {
     /**
      * Set the social complement.
      *
-     * @param string $socialComplement The social complement.
+     * @param string|null $socialComplement The social complement.
      * @return Clients Returns this Clients.
      */
-    public function setSocialComplement($socialComplement) {
+    public function setSocialComplement(?string $socialComplement): Clients {
         $this->socialComplement = $socialComplement;
         return $this;
     }
@@ -5831,10 +5831,10 @@ class Clients {
     /**
      * Set the social nom rs.
      *
-     * @param string $socialNomRs The social nom rs.
+     * @param string|null $socialNomRs The social nom rs.
      * @return Clients Returns this Clients.
      */
-    public function setSocialNomRs($socialNomRs) {
+    public function setSocialNomRs(?string $socialNomRs): Clients {
         $this->socialNomRs = $socialNomRs;
         return $this;
     }
@@ -5842,10 +5842,10 @@ class Clients {
     /**
      * Set the social nom ville.
      *
-     * @param string $socialNomVille The social nom ville.
+     * @param string|null $socialNomVille The social nom ville.
      * @return Clients Returns this Clients.
      */
-    public function setSocialNomVille($socialNomVille) {
+    public function setSocialNomVille(?string $socialNomVille): Clients {
         $this->socialNomVille = $socialNomVille;
         return $this;
     }
@@ -5853,10 +5853,10 @@ class Clients {
     /**
      * Set the social nom voie.
      *
-     * @param string $socialNomVoie The social nom voie.
+     * @param string|null $socialNomVoie The social nom voie.
      * @return Clients Returns this Clients.
      */
-    public function setSocialNomVoie($socialNomVoie) {
+    public function setSocialNomVoie(?string $socialNomVoie): Clients {
         $this->socialNomVoie = $socialNomVoie;
         return $this;
     }
@@ -5864,10 +5864,10 @@ class Clients {
     /**
      * Set the social num voie.
      *
-     * @param string $socialNumVoie The social num voie.
+     * @param string|null $socialNumVoie The social num voie.
      * @return Clients Returns this Clients.
      */
-    public function setSocialNumVoie($socialNumVoie) {
+    public function setSocialNumVoie(?string $socialNumVoie): Clients {
         $this->socialNumVoie = $socialNumVoie;
         return $this;
     }
@@ -5875,10 +5875,10 @@ class Clients {
     /**
      * Set the soumis escompte.
      *
-     * @param bool $soumisEscompte The soumis escompte.
+     * @param bool|null $soumisEscompte The soumis escompte.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisEscompte($soumisEscompte) {
+    public function setSoumisEscompte(?bool $soumisEscompte): Clients {
         $this->soumisEscompte = $soumisEscompte;
         return $this;
     }
@@ -5886,10 +5886,10 @@ class Clients {
     /**
      * Set the soumis port1.
      *
-     * @param string $soumisPort1 The soumis port1.
+     * @param string|null $soumisPort1 The soumis port1.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisPort1($soumisPort1) {
+    public function setSoumisPort1(?string $soumisPort1): Clients {
         $this->soumisPort1 = $soumisPort1;
         return $this;
     }
@@ -5897,10 +5897,10 @@ class Clients {
     /**
      * Set the soumis port2.
      *
-     * @param string $soumisPort2 The soumis port2.
+     * @param string|null $soumisPort2 The soumis port2.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisPort2($soumisPort2) {
+    public function setSoumisPort2(?string $soumisPort2): Clients {
         $this->soumisPort2 = $soumisPort2;
         return $this;
     }
@@ -5908,10 +5908,10 @@ class Clients {
     /**
      * Set the soumis taxe1.
      *
-     * @param bool $soumisTaxe1 The soumis taxe1.
+     * @param bool|null $soumisTaxe1 The soumis taxe1.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisTaxe1($soumisTaxe1) {
+    public function setSoumisTaxe1(?bool $soumisTaxe1): Clients {
         $this->soumisTaxe1 = $soumisTaxe1;
         return $this;
     }
@@ -5919,10 +5919,10 @@ class Clients {
     /**
      * Set the soumis taxe2.
      *
-     * @param bool $soumisTaxe2 The soumis taxe2.
+     * @param bool|null $soumisTaxe2 The soumis taxe2.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisTaxe2($soumisTaxe2) {
+    public function setSoumisTaxe2(?bool $soumisTaxe2): Clients {
         $this->soumisTaxe2 = $soumisTaxe2;
         return $this;
     }
@@ -5930,10 +5930,10 @@ class Clients {
     /**
      * Set the soumis taxe3.
      *
-     * @param bool $soumisTaxe3 The soumis taxe3.
+     * @param bool|null $soumisTaxe3 The soumis taxe3.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisTaxe3($soumisTaxe3) {
+    public function setSoumisTaxe3(?bool $soumisTaxe3): Clients {
         $this->soumisTaxe3 = $soumisTaxe3;
         return $this;
     }
@@ -5941,10 +5941,10 @@ class Clients {
     /**
      * Set the soumis taxe4.
      *
-     * @param bool $soumisTaxe4 The soumis taxe4.
+     * @param bool|null $soumisTaxe4 The soumis taxe4.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisTaxe4($soumisTaxe4) {
+    public function setSoumisTaxe4(?bool $soumisTaxe4): Clients {
         $this->soumisTaxe4 = $soumisTaxe4;
         return $this;
     }
@@ -5952,10 +5952,10 @@ class Clients {
     /**
      * Set the soumis taxe5.
      *
-     * @param bool $soumisTaxe5 The soumis taxe5.
+     * @param bool|null $soumisTaxe5 The soumis taxe5.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisTaxe5($soumisTaxe5) {
+    public function setSoumisTaxe5(?bool $soumisTaxe5): Clients {
         $this->soumisTaxe5 = $soumisTaxe5;
         return $this;
     }
@@ -5963,10 +5963,10 @@ class Clients {
     /**
      * Set the soumis tva.
      *
-     * @param bool $soumisTva The soumis tva.
+     * @param bool|null $soumisTva The soumis tva.
      * @return Clients Returns this Clients.
      */
-    public function setSoumisTva($soumisTva) {
+    public function setSoumisTva(?bool $soumisTva): Clients {
         $this->soumisTva = $soumisTva;
         return $this;
     }
@@ -5974,10 +5974,10 @@ class Clients {
     /**
      * Set the tableau de bord.
      *
-     * @param string $tableauDeBord The tableau de bord.
+     * @param string|null $tableauDeBord The tableau de bord.
      * @return Clients Returns this Clients.
      */
-    public function setTableauDeBord($tableauDeBord) {
+    public function setTableauDeBord(?string $tableauDeBord): Clients {
         $this->tableauDeBord = $tableauDeBord;
         return $this;
     }
@@ -5985,10 +5985,10 @@ class Clients {
     /**
      * Set the toutes activites.
      *
-     * @param string $toutesActivites The toutes activites.
+     * @param string|null $toutesActivites The toutes activites.
      * @return Clients Returns this Clients.
      */
-    public function setToutesActivites($toutesActivites) {
+    public function setToutesActivites(?string $toutesActivites): Clients {
         $this->toutesActivites = $toutesActivites;
         return $this;
     }
@@ -5996,10 +5996,10 @@ class Clients {
     /**
      * Set the transporteur.
      *
-     * @param string $transporteur The transporteur.
+     * @param string|null $transporteur The transporteur.
      * @return Clients Returns this Clients.
      */
-    public function setTransporteur($transporteur) {
+    public function setTransporteur(?string $transporteur): Clients {
         $this->transporteur = $transporteur;
         return $this;
     }
@@ -6007,10 +6007,10 @@ class Clients {
     /**
      * Set the tresorerie.
      *
-     * @param string $tresorerie The tresorerie.
+     * @param string|null $tresorerie The tresorerie.
      * @return Clients Returns this Clients.
      */
-    public function setTresorerie($tresorerie) {
+    public function setTresorerie(?string $tresorerie): Clients {
         $this->tresorerie = $tresorerie;
         return $this;
     }
@@ -6018,10 +6018,10 @@ class Clients {
     /**
      * Set the tva regime.
      *
-     * @param string $tvaRegime The tva regime.
+     * @param string|null $tvaRegime The tva regime.
      * @return Clients Returns this Clients.
      */
-    public function setTvaRegime($tvaRegime) {
+    public function setTvaRegime(?string $tvaRegime): Clients {
         $this->tvaRegime = $tvaRegime;
         return $this;
     }
@@ -6029,10 +6029,10 @@ class Clients {
     /**
      * Set the tx escompte vente.
      *
-     * @param float $txEscompteVente The tx escompte vente.
+     * @param float|null $txEscompteVente The tx escompte vente.
      * @return Clients Returns this Clients.
      */
-    public function setTxEscompteVente($txEscompteVente) {
+    public function setTxEscompteVente(?float $txEscompteVente): Clients {
         $this->txEscompteVente = $txEscompteVente;
         return $this;
     }
@@ -6040,10 +6040,10 @@ class Clients {
     /**
      * Set the type client.
      *
-     * @param string $typeClient The type client.
+     * @param string|null $typeClient The type client.
      * @return Clients Returns this Clients.
      */
-    public function setTypeClient($typeClient) {
+    public function setTypeClient(?string $typeClient): Clients {
         $this->typeClient = $typeClient;
         return $this;
     }
@@ -6051,10 +6051,10 @@ class Clients {
     /**
      * Set the type edit bl.
      *
-     * @param string $typeEditBl The type edit bl.
+     * @param string|null $typeEditBl The type edit bl.
      * @return Clients Returns this Clients.
      */
-    public function setTypeEditBl($typeEditBl) {
+    public function setTypeEditBl(?string $typeEditBl): Clients {
         $this->typeEditBl = $typeEditBl;
         return $this;
     }
@@ -6062,10 +6062,10 @@ class Clients {
     /**
      * Set the type facture.
      *
-     * @param int $typeFacture The type facture.
+     * @param int|null $typeFacture The type facture.
      * @return Clients Returns this Clients.
      */
-    public function setTypeFacture($typeFacture) {
+    public function setTypeFacture(?int $typeFacture): Clients {
         $this->typeFacture = $typeFacture;
         return $this;
     }
@@ -6073,10 +6073,10 @@ class Clients {
     /**
      * Set the type gestion etebac.
      *
-     * @param string $typeGestionEtebac The type gestion etebac.
+     * @param string|null $typeGestionEtebac The type gestion etebac.
      * @return Clients Returns this Clients.
      */
-    public function setTypeGestionEtebac($typeGestionEtebac) {
+    public function setTypeGestionEtebac(?string $typeGestionEtebac): Clients {
         $this->typeGestionEtebac = $typeGestionEtebac;
         return $this;
     }
@@ -6084,10 +6084,10 @@ class Clients {
     /**
      * Set the use adresse fact.
      *
-     * @param bool $useAdresseFact The use adresse fact.
+     * @param bool|null $useAdresseFact The use adresse fact.
      * @return Clients Returns this Clients.
      */
-    public function setUseAdresseFact($useAdresseFact) {
+    public function setUseAdresseFact(?bool $useAdresseFact): Clients {
         $this->useAdresseFact = $useAdresseFact;
         return $this;
     }
@@ -6095,10 +6095,10 @@ class Clients {
     /**
      * Set the use corres sociale.
      *
-     * @param bool $useCorresSociale The use corres sociale.
+     * @param bool|null $useCorresSociale The use corres sociale.
      * @return Clients Returns this Clients.
      */
-    public function setUseCorresSociale($useCorresSociale) {
+    public function setUseCorresSociale(?bool $useCorresSociale): Clients {
         $this->useCorresSociale = $useCorresSociale;
         return $this;
     }

@@ -27,7 +27,7 @@ class RegroupementDsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRds() {
+    public function testSetCodeRds(): void {
 
         $obj = new RegroupementDs();
 
@@ -40,7 +40,7 @@ class RegroupementDsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRupture() {
+    public function testSetCodeRupture(): void {
 
         $obj = new RegroupementDs();
 
@@ -53,7 +53,7 @@ class RegroupementDsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new RegroupementDs();
 
@@ -66,7 +66,7 @@ class RegroupementDsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new RegroupementDs();
 
@@ -79,7 +79,7 @@ class RegroupementDsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RegroupementDs();
 

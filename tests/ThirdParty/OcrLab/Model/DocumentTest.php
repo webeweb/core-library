@@ -28,7 +28,7 @@ class DocumentTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testAddPage() {
+    public function testAddPage(): void {
 
         // Set a Page mock.
         $page = new Page();
@@ -46,7 +46,7 @@ class DocumentTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetPage() {
+    public function testGetPage(): void {
 
         // Set a Page mock.
         $page = new Page();
@@ -65,7 +65,7 @@ class DocumentTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Document();
 

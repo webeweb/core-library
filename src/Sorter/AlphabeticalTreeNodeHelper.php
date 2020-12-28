@@ -25,7 +25,7 @@ class AlphabeticalTreeNodeHelper {
      * @param AlphabeticalTreeNodeInterface[] $choices The choices.
      * @return array Returns the choices.
      */
-    public static function createChoices(array $choices) {
+    public static function createChoices(array $choices): array {
 
         $output = [];
 
@@ -54,7 +54,7 @@ class AlphabeticalTreeNodeHelper {
      * @param AlphabeticalTreeNodeInterface $node The node.
      * @return int Returns the level.
      */
-    public static function getLevel(AlphabeticalTreeNodeInterface $node) {
+    public static function getLevel(AlphabeticalTreeNodeInterface $node): int {
         return count(static::getPath($node)) - 1;
     }
 
@@ -64,7 +64,7 @@ class AlphabeticalTreeNodeHelper {
      * @param AlphabeticalTreeNodeInterface $node The node.
      * @return array Returns the path.
      */
-    public static function getPath(AlphabeticalTreeNodeInterface $node) {
+    public static function getPath(AlphabeticalTreeNodeInterface $node): array {
 
         $path = [];
 
@@ -84,7 +84,7 @@ class AlphabeticalTreeNodeHelper {
      * @param AlphabeticalTreeNodeInterface[] $nodes The nodes.
      * @return void
      */
-    public static function removeOrphan(array &$nodes = []) {
+    public static function removeOrphan(array &$nodes = []): void {
         do {
             $found = false;
             foreach ($nodes as $k => $v) {

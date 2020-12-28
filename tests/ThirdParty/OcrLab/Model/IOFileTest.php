@@ -32,7 +32,7 @@ class IOFileTest extends AbstractTestCase {
     /**
      * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set a filename mock.
@@ -44,7 +44,7 @@ class IOFileTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetUniqFilenameDer() {
+    public function testGetUniqFilenameDer(): void {
 
         $md5 = md5($this->filename);
 
@@ -58,7 +58,7 @@ class IOFileTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetUniqFilenamePdf() {
+    public function testGetUniqFilenamePdf(): void {
 
         $md5 = md5($this->filename);
 
@@ -72,7 +72,7 @@ class IOFileTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetUniqFilenameTif() {
+    public function testGetUniqFilenameTif(): void {
 
         $md5 = md5($this->filename);
 
@@ -86,7 +86,7 @@ class IOFileTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetUniqFilenameXml() {
+    public function testGetUniqFilenameXml(): void {
 
         $md5 = md5($this->filename);
 
@@ -100,7 +100,7 @@ class IOFileTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new IOFile($this->filename);
 

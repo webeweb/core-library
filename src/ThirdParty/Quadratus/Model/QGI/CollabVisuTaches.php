@@ -22,49 +22,50 @@ class CollabVisuTaches {
     /**
      * Code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollab;
 
     /**
      * Code tache visu.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTacheVisu;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab.
      *
-     * @return string Returns the code collab.
+     * @return string|null Returns the code collab.
      */
-    public function getCodeCollab() {
+    public function getCodeCollab(): ?string{
         return $this->codeCollab;
     }
 
     /**
      * Get the code tache visu.
      *
-     * @return string Returns the code tache visu.
+     * @return string|null Returns the code tache visu.
      */
-    public function getCodeTacheVisu() {
+    public function getCodeTacheVisu(): ?string{
         return $this->codeTacheVisu;
     }
 
     /**
      * Set the code collab.
      *
-     * @param string $codeCollab The code collab.
+     * @param string|null $codeCollab The code collab.
      * @return CollabVisuTaches Returns this Collab visu taches.
      */
-    public function setCodeCollab($codeCollab) {
+    public function setCodeCollab(?string $codeCollab): CollabVisuTaches {
         $this->codeCollab = $codeCollab;
         return $this;
     }
@@ -72,10 +73,10 @@ class CollabVisuTaches {
     /**
      * Set the code tache visu.
      *
-     * @param string $codeTacheVisu The code tache visu.
+     * @param string|null $codeTacheVisu The code tache visu.
      * @return CollabVisuTaches Returns this Collab visu taches.
      */
-    public function setCodeTacheVisu($codeTacheVisu) {
+    public function setCodeTacheVisu(?string $codeTacheVisu): CollabVisuTaches {
         $this->codeTacheVisu = $codeTacheVisu;
         return $this;
     }

@@ -29,7 +29,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibHNuit() {
+    public function testSetCodeLibHNuit(): void {
 
         $obj = new GrillesType();
 
@@ -42,7 +42,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContingentHSupRc() {
+    public function testSetContingentHSupRc(): void {
 
         $obj = new GrillesType();
 
@@ -55,7 +55,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContingentHSupRcit() {
+    public function testSetContingentHSupRcit(): void {
 
         $obj = new GrillesType();
 
@@ -69,7 +69,7 @@ class GrillesTypeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class GrillesTypeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeHebdo() {
+    public function testSetDureeHebdo(): void {
 
         $obj = new GrillesType();
 
@@ -115,7 +115,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMaxHebdo() {
+    public function testSetDureeMaxHebdo(): void {
 
         $obj = new GrillesType();
 
@@ -128,7 +128,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMaxHebdoModul() {
+    public function testSetDureeMaxHebdoModul(): void {
 
         $obj = new GrillesType();
 
@@ -141,7 +141,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMaxMens() {
+    public function testSetDureeMaxMens(): void {
 
         $obj = new GrillesType();
 
@@ -154,7 +154,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMoyHebdo1() {
+    public function testSetDureeMoyHebdo1(): void {
 
         $obj = new GrillesType();
 
@@ -167,7 +167,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMoyHebdo2() {
+    public function testSetDureeMoyHebdo2(): void {
 
         $obj = new GrillesType();
 
@@ -180,7 +180,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMoyPeriode1() {
+    public function testSetDureeMoyPeriode1(): void {
 
         $obj = new GrillesType();
 
@@ -193,7 +193,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMoyPeriode2() {
+    public function testSetDureeMoyPeriode2(): void {
 
         $obj = new GrillesType();
 
@@ -206,7 +206,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionHNuit() {
+    public function testSetGestionHNuit(): void {
 
         $obj = new GrillesType();
 
@@ -219,7 +219,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionJfnt() {
+    public function testSetGestionJfnt(): void {
 
         $obj = new GrillesType();
 
@@ -232,7 +232,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPlagesHoraires() {
+    public function testSetGestionPlagesHoraires(): void {
 
         $obj = new GrillesType();
 
@@ -245,7 +245,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHNuitDeb() {
+    public function testSetHNuitDeb(): void {
 
         $obj = new GrillesType();
 
@@ -258,7 +258,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHNuitFin() {
+    public function testSetHNuitFin(): void {
 
         $obj = new GrillesType();
 
@@ -271,7 +271,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHNuitTxMajo() {
+    public function testSetHNuitTxMajo(): void {
 
         $obj = new GrillesType();
 
@@ -284,7 +284,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHebdoMens() {
+    public function testSetHebdoMens(): void {
 
         $obj = new GrillesType();
 
@@ -297,7 +297,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModulation() {
+    public function testSetModulation(): void {
 
         $obj = new GrillesType();
 
@@ -310,7 +310,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeuresDansJour() {
+    public function testSetNbHeuresDansJour(): void {
 
         $obj = new GrillesType();
 
@@ -323,7 +323,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf1() {
+    public function testSetNbHjf1(): void {
 
         $obj = new GrillesType();
 
@@ -336,7 +336,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf2() {
+    public function testSetNbHjf2(): void {
 
         $obj = new GrillesType();
 
@@ -349,7 +349,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf3() {
+    public function testSetNbHjf3(): void {
 
         $obj = new GrillesType();
 
@@ -362,7 +362,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf4() {
+    public function testSetNbHjf4(): void {
 
         $obj = new GrillesType();
 
@@ -375,7 +375,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf5() {
+    public function testSetNbHjf5(): void {
 
         $obj = new GrillesType();
 
@@ -388,7 +388,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf6() {
+    public function testSetNbHjf6(): void {
 
         $obj = new GrillesType();
 
@@ -401,7 +401,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjf7() {
+    public function testSetNbHjf7(): void {
 
         $obj = new GrillesType();
 
@@ -414,7 +414,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroGrilleType() {
+    public function testSetNumeroGrilleType(): void {
 
         $obj = new GrillesType();
 
@@ -427,7 +427,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReposRecup() {
+    public function testSetReposRecup(): void {
 
         $obj = new GrillesType();
 
@@ -440,7 +440,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxReposComp() {
+    public function testSetTauxReposComp(): void {
 
         $obj = new GrillesType();
 
@@ -453,7 +453,7 @@ class GrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new GrillesType();
 

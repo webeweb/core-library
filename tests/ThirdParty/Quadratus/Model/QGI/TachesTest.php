@@ -27,7 +27,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticle() {
+    public function testSetArticle(): void {
 
         $obj = new Taches();
 
@@ -40,7 +40,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Taches();
 
@@ -53,7 +53,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFrais() {
+    public function testSetCodeFrais(): void {
 
         $obj = new Taches();
 
@@ -66,7 +66,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new Taches();
 
@@ -79,7 +79,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTravail() {
+    public function testSetCodeTravail(): void {
 
         $obj = new Taches();
 
@@ -92,7 +92,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUo() {
+    public function testSetCodeUo(): void {
 
         $obj = new Taches();
 
@@ -105,7 +105,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteComptable() {
+    public function testSetCompteComptable(): void {
 
         $obj = new Taches();
 
@@ -118,7 +118,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTva() {
+    public function testSetCompteTva(): void {
 
         $obj = new Taches();
 
@@ -131,7 +131,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFacturable() {
+    public function testSetFacturable(): void {
 
         $obj = new Taches();
 
@@ -144,7 +144,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInactif() {
+    public function testSetInactif(): void {
 
         $obj = new Taches();
 
@@ -157,7 +157,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Taches();
 
@@ -170,7 +170,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleRtf() {
+    public function testSetIntituleRtf(): void {
 
         $obj = new Taches();
 
@@ -183,7 +183,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetListeTravaux() {
+    public function testSetListeTravaux(): void {
 
         $obj = new Taches();
 
@@ -196,7 +196,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauExec() {
+    public function testSetNiveauExec(): void {
 
         $obj = new Taches();
 
@@ -209,7 +209,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNonRemboursable() {
+    public function testSetNonRemboursable(): void {
 
         $obj = new Taches();
 
@@ -222,7 +222,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNonTravaillee() {
+    public function testSetNonTravaillee(): void {
 
         $obj = new Taches();
 
@@ -235,7 +235,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOperationnelle() {
+    public function testSetOperationnelle(): void {
 
         $obj = new Taches();
 
@@ -248,7 +248,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente1() {
+    public function testSetPrixVente1(): void {
 
         $obj = new Taches();
 
@@ -261,7 +261,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente2() {
+    public function testSetPrixVente2(): void {
 
         $obj = new Taches();
 
@@ -274,7 +274,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente3() {
+    public function testSetPrixVente3(): void {
 
         $obj = new Taches();
 
@@ -287,7 +287,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPvMaxi() {
+    public function testSetPvMaxi(): void {
 
         $obj = new Taches();
 
@@ -300,7 +300,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTva() {
+    public function testSetSaisieTva(): void {
 
         $obj = new Taches();
 
@@ -313,7 +313,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuperFacturable() {
+    public function testSetSuperFacturable(): void {
 
         $obj = new Taches();
 
@@ -326,7 +326,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTicketResto() {
+    public function testSetTicketResto(): void {
 
         $obj = new Taches();
 
@@ -339,7 +339,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHeure() {
+    public function testSetTypeHeure(): void {
 
         $obj = new Taches();
 
@@ -352,7 +352,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Taches();
 

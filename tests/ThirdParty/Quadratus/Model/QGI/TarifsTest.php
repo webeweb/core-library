@@ -27,7 +27,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new Tarifs();
 
@@ -40,7 +40,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Tarifs();
 
@@ -53,7 +53,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new Tarifs();
 
@@ -66,7 +66,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new Tarifs();
 
@@ -79,7 +79,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComSurMargeBrute() {
+    public function testSetComSurMargeBrute(): void {
 
         $obj = new Tarifs();
 
@@ -92,7 +92,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixTtc() {
+    public function testSetPrixTtc(): void {
 
         $obj = new Tarifs();
 
@@ -105,7 +105,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixUnitBase() {
+    public function testSetPrixUnitBase(): void {
 
         $obj = new Tarifs();
 
@@ -118,7 +118,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxCommission() {
+    public function testSetTauxCommission(): void {
 
         $obj = new Tarifs();
 
@@ -131,7 +131,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodeArticle() {
+    public function testSetTypeCodeArticle(): void {
 
         $obj = new Tarifs();
 
@@ -144,7 +144,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodeClient() {
+    public function testSetTypeCodeClient(): void {
 
         $obj = new Tarifs();
 
@@ -157,7 +157,7 @@ class TarifsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Tarifs();
 

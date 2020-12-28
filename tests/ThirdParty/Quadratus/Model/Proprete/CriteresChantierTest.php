@@ -27,7 +27,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new CriteresChantier();
 
@@ -40,7 +40,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new CriteresChantier();
 
@@ -53,7 +53,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CriteresChantier();
 
@@ -66,7 +66,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRef1() {
+    public function testSetCodeRef1(): void {
 
         $obj = new CriteresChantier();
 
@@ -79,7 +79,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRef2() {
+    public function testSetCodeRef2(): void {
 
         $obj = new CriteresChantier();
 
@@ -92,7 +92,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRef3() {
+    public function testSetCodeRef3(): void {
 
         $obj = new CriteresChantier();
 
@@ -105,7 +105,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRef4() {
+    public function testSetCodeRef4(): void {
 
         $obj = new CriteresChantier();
 
@@ -118,7 +118,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRef5() {
+    public function testSetCodeRef5(): void {
 
         $obj = new CriteresChantier();
 
@@ -131,7 +131,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte1() {
+    public function testSetTexte1(): void {
 
         $obj = new CriteresChantier();
 
@@ -144,7 +144,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte2() {
+    public function testSetTexte2(): void {
 
         $obj = new CriteresChantier();
 
@@ -157,7 +157,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte3() {
+    public function testSetTexte3(): void {
 
         $obj = new CriteresChantier();
 
@@ -170,7 +170,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte4() {
+    public function testSetTexte4(): void {
 
         $obj = new CriteresChantier();
 
@@ -183,7 +183,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte5() {
+    public function testSetTexte5(): void {
 
         $obj = new CriteresChantier();
 
@@ -196,7 +196,7 @@ class CriteresChantierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CriteresChantier();
 

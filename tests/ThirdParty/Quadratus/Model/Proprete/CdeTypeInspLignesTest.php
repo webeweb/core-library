@@ -29,7 +29,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -42,7 +42,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -55,7 +55,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -68,7 +68,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -81,7 +81,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -94,7 +94,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -107,7 +107,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -120,7 +120,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInspecteur() {
+    public function testSetCodeInspecteur(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -133,7 +133,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLivraison() {
+    public function testSetCodeLivraison(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -146,7 +146,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommandeIsolee() {
+    public function testSetCommandeIsolee(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -160,7 +160,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutValidite() {
+    public function testSetDateDebutValidite(): void {
 
         // Set a Date/time mock.
         $dateDebutValidite = new DateTime("2018-09-10");
@@ -177,7 +177,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinValidite() {
+    public function testSetDateFinValidite(): void {
 
         // Set a Date/time mock.
         $dateFinValidite = new DateTime("2018-09-10");
@@ -194,7 +194,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidee() {
+    public function testSetDateValidee(): void {
 
         // Set a Date/time mock.
         $dateValidee = new DateTime("2018-09-10");
@@ -210,7 +210,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -223,7 +223,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation1() {
+    public function testSetDesignation1(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -236,7 +236,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation2() {
+    public function testSetDesignation2(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -249,7 +249,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation3() {
+    public function testSetDesignation3(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -262,7 +262,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -275,7 +275,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -288,7 +288,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourLivraison() {
+    public function testSetJourLivraison(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -301,7 +301,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuil() {
+    public function testSetJuil(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -314,7 +314,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -327,7 +327,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -340,7 +340,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajStockByDa() {
+    public function testSetMajStockByDa(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -353,7 +353,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -366,7 +366,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -379,7 +379,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -392,7 +392,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -405,7 +405,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -418,7 +418,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -431,7 +431,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisirModaliteLiv() {
+    public function testSetSaisirModaliteLiv(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -444,7 +444,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -457,7 +457,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeGestion() {
+    public function testSetTypeGestion(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -470,7 +470,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValidee() {
+    public function testSetValidee(): void {
 
         $obj = new CdeTypeInspLignes();
 
@@ -483,7 +483,7 @@ class CdeTypeInspLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CdeTypeInspLignes();
 

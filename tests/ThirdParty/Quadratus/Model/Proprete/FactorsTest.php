@@ -27,7 +27,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new Factors();
 
@@ -40,7 +40,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new Factors();
 
@@ -53,7 +53,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new Factors();
 
@@ -66,7 +66,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFactor() {
+    public function testSetCodeFactor(): void {
 
         $obj = new Factors();
 
@@ -79,7 +79,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new Factors();
 
@@ -92,7 +92,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new Factors();
 
@@ -105,7 +105,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire1() {
+    public function testSetDomiciliationBancaire1(): void {
 
         $obj = new Factors();
 
@@ -118,7 +118,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire2() {
+    public function testSetDomiciliationBancaire2(): void {
 
         $obj = new Factors();
 
@@ -131,7 +131,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new Factors();
 
@@ -144,7 +144,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new Factors();
 
@@ -157,7 +157,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new Factors();
 
@@ -170,7 +170,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new Factors();
 
@@ -183,7 +183,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new Factors();
 
@@ -196,7 +196,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Factors();
 
@@ -209,7 +209,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelephone() {
+    public function testSetTelephone(): void {
 
         $obj = new Factors();
 
@@ -222,7 +222,7 @@ class FactorsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Factors();
 

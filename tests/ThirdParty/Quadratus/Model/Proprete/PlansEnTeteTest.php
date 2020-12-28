@@ -29,7 +29,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new PlansEnTete();
 
@@ -42,7 +42,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new PlansEnTete();
 
@@ -55,7 +55,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCivilite() {
+    public function testSetCivilite(): void {
 
         $obj = new PlansEnTete();
 
@@ -68,7 +68,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PlansEnTete();
 
@@ -81,7 +81,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PlansEnTete();
 
@@ -94,7 +94,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PlansEnTete();
 
@@ -107,7 +107,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new PlansEnTete();
 
@@ -120,7 +120,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new PlansEnTete();
 
@@ -133,7 +133,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new PlansEnTete();
 
@@ -146,7 +146,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new PlansEnTete();
 
@@ -160,7 +160,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRevision() {
+    public function testSetDateRevision(): void {
 
         // Set a Date/time mock.
         $dateRevision = new DateTime("2018-09-10");
@@ -177,7 +177,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtAvantDernPrepa() {
+    public function testSetDtAvantDernPrepa(): void {
 
         // Set a Date/time mock.
         $dtAvantDernPrepa = new DateTime("2018-09-10");
@@ -194,7 +194,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDernPrepa() {
+    public function testSetDtDernPrepa(): void {
 
         // Set a Date/time mock.
         $dtDernPrepa = new DateTime("2018-09-10");
@@ -211,7 +211,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactDeb() {
+    public function testSetDtValiditeFactDeb(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactDeb = new DateTime("2018-09-10");
@@ -228,7 +228,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactDebDebMois() {
+    public function testSetDtValiditeFactDebDebMois(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactDebDebMois = new DateTime("2018-09-10");
@@ -245,7 +245,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactFin() {
+    public function testSetDtValiditeFactFin(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactFin = new DateTime("2018-09-10");
@@ -262,7 +262,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactFinFinMois() {
+    public function testSetDtValiditeFactFinFinMois(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactFinFinMois = new DateTime("2018-09-10");
@@ -278,7 +278,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourFact() {
+    public function testSetJourFact(): void {
 
         $obj = new PlansEnTete();
 
@@ -291,7 +291,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHtpx() {
+    public function testSetMontantHtpx(): void {
 
         $obj = new PlansEnTete();
 
@@ -304,7 +304,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHtvm() {
+    public function testSetMontantHtvm(): void {
 
         $obj = new PlansEnTete();
 
@@ -317,7 +317,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomClient() {
+    public function testSetNomClient(): void {
 
         $obj = new PlansEnTete();
 
@@ -330,7 +330,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new PlansEnTete();
 
@@ -343,7 +343,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite2() {
+    public function testSetNomSuite2(): void {
 
         $obj = new PlansEnTete();
 
@@ -356,7 +356,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite3() {
+    public function testSetNomSuite3(): void {
 
         $obj = new PlansEnTete();
 
@@ -369,7 +369,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new PlansEnTete();
 
@@ -382,7 +382,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PlansEnTete();
 
@@ -395,7 +395,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new PlansEnTete();
 
@@ -408,7 +408,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCommandeWebFt() {
+    public function testSetNumeroCommandeWebFt(): void {
 
         $obj = new PlansEnTete();
 
@@ -421,7 +421,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDevis() {
+    public function testSetNumeroDevis(): void {
 
         $obj = new PlansEnTete();
 
@@ -434,7 +434,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFacture() {
+    public function testSetReferenceFacture(): void {
 
         $obj = new PlansEnTete();
 
@@ -447,7 +447,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFacture2() {
+    public function testSetReferenceFacture2(): void {
 
         $obj = new PlansEnTete();
 
@@ -460,7 +460,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRevisionAnnuelle() {
+    public function testSetRevisionAnnuelle(): void {
 
         $obj = new PlansEnTete();
 
@@ -473,7 +473,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAdresse() {
+    public function testSetTypeAdresse(): void {
 
         $obj = new PlansEnTete();
 
@@ -486,7 +486,7 @@ class PlansEnTeteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PlansEnTete();
 

@@ -29,7 +29,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActivationConf2CmavCli() {
+    public function testSetActivationConf2CmavCli(): void {
 
         $obj = new Constantes2();
 
@@ -42,7 +42,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveConfConvCol() {
+    public function testSetActiveConfConvCol(): void {
 
         $obj = new Constantes2();
 
@@ -55,7 +55,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiverSaisieRegl() {
+    public function testSetActiverSaisieRegl(): void {
 
         $obj = new Constantes2();
 
@@ -68,7 +68,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAffectationsCliFrn() {
+    public function testSetAffectationsCliFrn(): void {
 
         $obj = new Constantes2();
 
@@ -81,7 +81,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnulationAffaire() {
+    public function testSetAnnulationAffaire(): void {
 
         $obj = new Constantes2();
 
@@ -94,7 +94,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoAccesGestionModifiables() {
+    public function testSetArticlesLstPersoAccesGestionModifiables(): void {
 
         $obj = new Constantes2();
 
@@ -107,7 +107,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoAccesGestionnaire() {
+    public function testSetArticlesLstPersoAccesGestionnaire(): void {
 
         $obj = new Constantes2();
 
@@ -120,7 +120,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoChampsModif() {
+    public function testSetArticlesLstPersoChampsModif(): void {
 
         $obj = new Constantes2();
 
@@ -133,7 +133,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoCopieColonne() {
+    public function testSetArticlesLstPersoCopieColonne(): void {
 
         $obj = new Constantes2();
 
@@ -146,7 +146,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArticlesLstPersoInterdireCreat() {
+    public function testSetArticlesLstPersoInterdireCreat(): void {
 
         $obj = new Constantes2();
 
@@ -159,7 +159,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAspAffectationMessages() {
+    public function testSetAspAffectationMessages(): void {
 
         $obj = new Constantes2();
 
@@ -172,7 +172,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecHeuresTheo() {
+    public function testSetAvecHeuresTheo(): void {
 
         $obj = new Constantes2();
 
@@ -185,7 +185,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCalculNombreMessages() {
+    public function testSetCalculNombreMessages(): void {
 
         $obj = new Constantes2();
 
@@ -198,7 +198,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle21() {
+    public function testSetChampsCritereArticle21(): void {
 
         $obj = new Constantes2();
 
@@ -211,7 +211,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle210() {
+    public function testSetChampsCritereArticle210(): void {
 
         $obj = new Constantes2();
 
@@ -224,7 +224,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle22() {
+    public function testSetChampsCritereArticle22(): void {
 
         $obj = new Constantes2();
 
@@ -237,7 +237,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle23() {
+    public function testSetChampsCritereArticle23(): void {
 
         $obj = new Constantes2();
 
@@ -250,7 +250,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle24() {
+    public function testSetChampsCritereArticle24(): void {
 
         $obj = new Constantes2();
 
@@ -263,7 +263,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle25() {
+    public function testSetChampsCritereArticle25(): void {
 
         $obj = new Constantes2();
 
@@ -276,7 +276,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle26() {
+    public function testSetChampsCritereArticle26(): void {
 
         $obj = new Constantes2();
 
@@ -289,7 +289,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle27() {
+    public function testSetChampsCritereArticle27(): void {
 
         $obj = new Constantes2();
 
@@ -302,7 +302,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle28() {
+    public function testSetChampsCritereArticle28(): void {
 
         $obj = new Constantes2();
 
@@ -315,7 +315,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereArticle29() {
+    public function testSetChampsCritereArticle29(): void {
 
         $obj = new Constantes2();
 
@@ -328,7 +328,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc1() {
+    public function testSetChampsCritereEntPieceAc1(): void {
 
         $obj = new Constantes2();
 
@@ -341,7 +341,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc10() {
+    public function testSetChampsCritereEntPieceAc10(): void {
 
         $obj = new Constantes2();
 
@@ -354,7 +354,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc2() {
+    public function testSetChampsCritereEntPieceAc2(): void {
 
         $obj = new Constantes2();
 
@@ -367,7 +367,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc3() {
+    public function testSetChampsCritereEntPieceAc3(): void {
 
         $obj = new Constantes2();
 
@@ -380,7 +380,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc4() {
+    public function testSetChampsCritereEntPieceAc4(): void {
 
         $obj = new Constantes2();
 
@@ -393,7 +393,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc5() {
+    public function testSetChampsCritereEntPieceAc5(): void {
 
         $obj = new Constantes2();
 
@@ -406,7 +406,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc6() {
+    public function testSetChampsCritereEntPieceAc6(): void {
 
         $obj = new Constantes2();
 
@@ -419,7 +419,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc7() {
+    public function testSetChampsCritereEntPieceAc7(): void {
 
         $obj = new Constantes2();
 
@@ -432,7 +432,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc8() {
+    public function testSetChampsCritereEntPieceAc8(): void {
 
         $obj = new Constantes2();
 
@@ -445,7 +445,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChampsCritereEntPieceAc9() {
+    public function testSetChampsCritereEntPieceAc9(): void {
 
         $obj = new Constantes2();
 
@@ -458,7 +458,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAccesConf() {
+    public function testSetCleAccesConf(): void {
 
         $obj = new Constantes2();
 
@@ -471,7 +471,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAccesPlaquettes() {
+    public function testSetCleAccesPlaquettes(): void {
 
         $obj = new Constantes2();
 
@@ -484,7 +484,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAccesQAdminDb() {
+    public function testSetCleAccesQAdminDb(): void {
 
         $obj = new Constantes2();
 
@@ -497,7 +497,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClotureArchivageAuto() {
+    public function testSetClotureArchivageAuto(): void {
 
         $obj = new Constantes2();
 
@@ -510,7 +510,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClientQuadratus() {
+    public function testSetCodeClientQuadratus(): void {
 
         $obj = new Constantes2();
 
@@ -523,7 +523,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteurFilDiscussion() {
+    public function testSetCompteurFilDiscussion(): void {
 
         $obj = new Constantes2();
 
@@ -536,7 +536,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConfidentialiteAffaire() {
+    public function testSetConfidentialiteAffaire(): void {
 
         $obj = new Constantes2();
 
@@ -549,7 +549,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoutMoyenHoraire() {
+    public function testSetCoutMoyenHoraire(): void {
 
         $obj = new Constantes2();
 
@@ -562,7 +562,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreateCli1FactParBl() {
+    public function testSetCreateCli1FactParBl(): void {
 
         $obj = new Constantes2();
 
@@ -575,7 +575,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreationAffaire() {
+    public function testSetCreationAffaire(): void {
 
         $obj = new Constantes2();
 
@@ -589,7 +589,7 @@ class Constantes2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDha() {
+    public function testSetDateDha(): void {
 
         // Set a Date/time mock.
         $dateDha = new DateTime("2018-09-10");
@@ -606,7 +606,7 @@ class Constantes2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateLastExeQpubWeb() {
+    public function testSetDateLastExeQpubWeb(): void {
 
         // Set a Date/time mock.
         $dateLastExeQpubWeb = new DateTime("2018-09-10");
@@ -623,7 +623,7 @@ class Constantes2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePha() {
+    public function testSetDatePha(): void {
 
         // Set a Date/time mock.
         $datePha = new DateTime("2018-09-10");
@@ -639,7 +639,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerniereVersionCd() {
+    public function testSetDerniereVersionCd(): void {
 
         $obj = new Constantes2();
 
@@ -652,7 +652,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitCollabVisuDocuments() {
+    public function testSetDroitCollabVisuDocuments(): void {
 
         $obj = new Constantes2();
 
@@ -665,7 +665,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEchDetailAff() {
+    public function testSetEchDetailAff(): void {
 
         $obj = new Constantes2();
 
@@ -678,7 +678,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtebacDestMessage() {
+    public function testSetEtebacDestMessage(): void {
 
         $obj = new Constantes2();
 
@@ -691,7 +691,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFGsurAc() {
+    public function testSetFGsurAc(): void {
 
         $obj = new Constantes2();
 
@@ -704,7 +704,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFGsurMonf() {
+    public function testSetFGsurMonf(): void {
 
         $obj = new Constantes2();
 
@@ -717,7 +717,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamillesLiees() {
+    public function testSetFamillesLiees(): void {
 
         $obj = new Constantes2();
 
@@ -730,7 +730,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFgSurCdeFrn() {
+    public function testSetFgSurCdeFrn(): void {
 
         $obj = new Constantes2();
 
@@ -743,7 +743,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFicheCliNePasProposerCreationDpdc() {
+    public function testSetFicheCliNePasProposerCreationDpdc(): void {
 
         $obj = new Constantes2();
 
@@ -756,7 +756,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionGammes() {
+    public function testSetGestionGammes(): void {
 
         $obj = new Constantes2();
 
@@ -769,7 +769,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPointeuseQFact() {
+    public function testSetGestionPointeuseQFact(): void {
 
         $obj = new Constantes2();
 
@@ -782,7 +782,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPointeuseQc() {
+    public function testSetGestionPointeuseQc(): void {
 
         $obj = new Constantes2();
 
@@ -795,7 +795,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPointeuseQgi() {
+    public function testSetGestionPointeuseQgi(): void {
 
         $obj = new Constantes2();
 
@@ -808,7 +808,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPointeuseQp() {
+    public function testSetGestionPointeuseQp(): void {
 
         $obj = new Constantes2();
 
@@ -821,7 +821,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionTarifsTransporteurs() {
+    public function testSetGestionTarifsTransporteurs(): void {
 
         $obj = new Constantes2();
 
@@ -834,7 +834,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionTarifsTransporteursNbDec() {
+    public function testSetGestionTarifsTransporteursNbDec(): void {
 
         $obj = new Constantes2();
 
@@ -847,7 +847,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionVariantes() {
+    public function testSetGestionVariantes(): void {
 
         $obj = new Constantes2();
 
@@ -860,7 +860,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHtAvecJoursFeries() {
+    public function testSetHtAvecJoursFeries(): void {
 
         $obj = new Constantes2();
 
@@ -873,7 +873,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHtAvecSaisieConges() {
+    public function testSetHtAvecSaisieConges(): void {
 
         $obj = new Constantes2();
 
@@ -886,7 +886,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHtAvecSaisieCongesCodesClients() {
+    public function testSetHtAvecSaisieCongesCodesClients(): void {
 
         $obj = new Constantes2();
 
@@ -899,7 +899,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHtAvecSaisieCongesCodesTaches() {
+    public function testSetHtAvecSaisieCongesCodesTaches(): void {
 
         $obj = new Constantes2();
 
@@ -912,7 +912,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIncremAutoArticle() {
+    public function testSetIncremAutoArticle(): void {
 
         $obj = new Constantes2();
 
@@ -925,7 +925,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesArchivesCpta() {
+    public function testSetInterdireAccesArchivesCpta(): void {
 
         $obj = new Constantes2();
 
@@ -938,7 +938,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesArchivesPaie() {
+    public function testSetInterdireAccesArchivesPaie(): void {
 
         $obj = new Constantes2();
 
@@ -951,7 +951,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesEditionBalance() {
+    public function testSetInterdireAccesEditionBalance(): void {
 
         $obj = new Constantes2();
 
@@ -964,7 +964,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireAccesSuppDocArch() {
+    public function testSetInterdireAccesSuppDocArch(): void {
 
         $obj = new Constantes2();
 
@@ -977,7 +977,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdirePubliDocWeb() {
+    public function testSetInterdirePubliDocWeb(): void {
 
         $obj = new Constantes2();
 
@@ -990,7 +990,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIpPriveQws() {
+    public function testSetIpPriveQws(): void {
 
         $obj = new Constantes2();
 
@@ -1003,7 +1003,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLiaisonTda() {
+    public function testSetLiaisonTda(): void {
 
         $obj = new Constantes2();
 
@@ -1016,7 +1016,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn1() {
+    public function testSetLibAffectationFrn1(): void {
 
         $obj = new Constantes2();
 
@@ -1029,7 +1029,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn2() {
+    public function testSetLibAffectationFrn2(): void {
 
         $obj = new Constantes2();
 
@@ -1042,7 +1042,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn3() {
+    public function testSetLibAffectationFrn3(): void {
 
         $obj = new Constantes2();
 
@@ -1055,7 +1055,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn4() {
+    public function testSetLibAffectationFrn4(): void {
 
         $obj = new Constantes2();
 
@@ -1068,7 +1068,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn5() {
+    public function testSetLibAffectationFrn5(): void {
 
         $obj = new Constantes2();
 
@@ -1081,7 +1081,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn6() {
+    public function testSetLibAffectationFrn6(): void {
 
         $obj = new Constantes2();
 
@@ -1094,7 +1094,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAffectationFrn7() {
+    public function testSetLibAffectationFrn7(): void {
 
         $obj = new Constantes2();
 
@@ -1107,7 +1107,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle21() {
+    public function testSetLibCritereArticle21(): void {
 
         $obj = new Constantes2();
 
@@ -1120,7 +1120,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle210() {
+    public function testSetLibCritereArticle210(): void {
 
         $obj = new Constantes2();
 
@@ -1133,7 +1133,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle22() {
+    public function testSetLibCritereArticle22(): void {
 
         $obj = new Constantes2();
 
@@ -1146,7 +1146,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle23() {
+    public function testSetLibCritereArticle23(): void {
 
         $obj = new Constantes2();
 
@@ -1159,7 +1159,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle24() {
+    public function testSetLibCritereArticle24(): void {
 
         $obj = new Constantes2();
 
@@ -1172,7 +1172,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle25() {
+    public function testSetLibCritereArticle25(): void {
 
         $obj = new Constantes2();
 
@@ -1185,7 +1185,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle26() {
+    public function testSetLibCritereArticle26(): void {
 
         $obj = new Constantes2();
 
@@ -1198,7 +1198,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle27() {
+    public function testSetLibCritereArticle27(): void {
 
         $obj = new Constantes2();
 
@@ -1211,7 +1211,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle28() {
+    public function testSetLibCritereArticle28(): void {
 
         $obj = new Constantes2();
 
@@ -1224,7 +1224,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereArticle29() {
+    public function testSetLibCritereArticle29(): void {
 
         $obj = new Constantes2();
 
@@ -1237,7 +1237,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc1() {
+    public function testSetLibCritereEntPieceAc1(): void {
 
         $obj = new Constantes2();
 
@@ -1250,7 +1250,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc10() {
+    public function testSetLibCritereEntPieceAc10(): void {
 
         $obj = new Constantes2();
 
@@ -1263,7 +1263,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc2() {
+    public function testSetLibCritereEntPieceAc2(): void {
 
         $obj = new Constantes2();
 
@@ -1276,7 +1276,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc3() {
+    public function testSetLibCritereEntPieceAc3(): void {
 
         $obj = new Constantes2();
 
@@ -1289,7 +1289,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc4() {
+    public function testSetLibCritereEntPieceAc4(): void {
 
         $obj = new Constantes2();
 
@@ -1302,7 +1302,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc5() {
+    public function testSetLibCritereEntPieceAc5(): void {
 
         $obj = new Constantes2();
 
@@ -1315,7 +1315,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc6() {
+    public function testSetLibCritereEntPieceAc6(): void {
 
         $obj = new Constantes2();
 
@@ -1328,7 +1328,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc7() {
+    public function testSetLibCritereEntPieceAc7(): void {
 
         $obj = new Constantes2();
 
@@ -1341,7 +1341,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc8() {
+    public function testSetLibCritereEntPieceAc8(): void {
 
         $obj = new Constantes2();
 
@@ -1354,7 +1354,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCritereEntPieceAc9() {
+    public function testSetLibCritereEntPieceAc9(): void {
 
         $obj = new Constantes2();
 
@@ -1367,7 +1367,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibFrais1() {
+    public function testSetLibFrais1(): void {
 
         $obj = new Constantes2();
 
@@ -1380,7 +1380,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibFrais2() {
+    public function testSetLibFrais2(): void {
 
         $obj = new Constantes2();
 
@@ -1393,7 +1393,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibFrais3() {
+    public function testSetLibFrais3(): void {
 
         $obj = new Constantes2();
 
@@ -1406,7 +1406,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleGamme() {
+    public function testSetLibelleGamme(): void {
 
         $obj = new Constantes2();
 
@@ -1419,7 +1419,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleVariante() {
+    public function testSetLibelleVariante(): void {
 
         $obj = new Constantes2();
 
@@ -1432,7 +1432,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLongueurNumAff() {
+    public function testSetLongueurNumAff(): void {
 
         $obj = new Constantes2();
 
@@ -1445,7 +1445,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajCodesActiviteCga() {
+    public function testSetMajCodesActiviteCga(): void {
 
         $obj = new Constantes2();
 
@@ -1458,7 +1458,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessAspod() {
+    public function testSetMessAspod(): void {
 
         $obj = new Constantes2();
 
@@ -1471,7 +1471,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifAffaire() {
+    public function testSetModifAffaire(): void {
 
         $obj = new Constantes2();
 
@@ -1484,7 +1484,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifDroitsAsp() {
+    public function testSetModifDroitsAsp(): void {
 
         $obj = new Constantes2();
 
@@ -1497,7 +1497,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbMaxGamme() {
+    public function testSetNbMaxGamme(): void {
 
         $obj = new Constantes2();
 
@@ -1510,7 +1510,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasCreerCptCli() {
+    public function testSetNePasCreerCptCli(): void {
 
         $obj = new Constantes2();
 
@@ -1523,7 +1523,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasCreerCptFrn() {
+    public function testSetNePasCreerCptFrn(): void {
 
         $obj = new Constantes2();
 
@@ -1536,7 +1536,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNewDbInfos() {
+    public function testSetNewDbInfos(): void {
 
         $obj = new Constantes2();
 
@@ -1549,7 +1549,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNewQBureau() {
+    public function testSetNewQBureau(): void {
 
         $obj = new Constantes2();
 
@@ -1562,7 +1562,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoDossFactCab() {
+    public function testSetNoDossFactCab(): void {
 
         $obj = new Constantes2();
 
@@ -1575,7 +1575,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasDeLienComptabilite() {
+    public function testSetPasDeLienComptabilite(): void {
 
         $obj = new Constantes2();
 
@@ -1588,7 +1588,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPmeDossierRattachement() {
+    public function testSetPmeDossierRattachement(): void {
 
         $obj = new Constantes2();
 
@@ -1601,7 +1601,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrefixeCodeClient() {
+    public function testSetPrefixeCodeClient(): void {
 
         $obj = new Constantes2();
 
@@ -1614,7 +1614,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainCodeClient() {
+    public function testSetProchainCodeClient(): void {
 
         $obj = new Constantes2();
 
@@ -1627,7 +1627,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProxyActif() {
+    public function testSetProxyActif(): void {
 
         $obj = new Constantes2();
 
@@ -1640,7 +1640,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProxyAdresse() {
+    public function testSetProxyAdresse(): void {
 
         $obj = new Constantes2();
 
@@ -1653,7 +1653,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProxyPort() {
+    public function testSetProxyPort(): void {
 
         $obj = new Constantes2();
 
@@ -1666,7 +1666,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQPubWebCodeCollaborateurDest() {
+    public function testSetQPubWebCodeCollaborateurDest(): void {
 
         $obj = new Constantes2();
 
@@ -1679,7 +1679,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQwsCheminLogo() {
+    public function testSetQwsCheminLogo(): void {
 
         $obj = new Constantes2();
 
@@ -1692,7 +1692,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQwsCodeIpl() {
+    public function testSetQwsCodeIpl(): void {
 
         $obj = new Constantes2();
 
@@ -1705,7 +1705,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQwsHttpSecurise() {
+    public function testSetQwsHttpSecurise(): void {
 
         $obj = new Constantes2();
 
@@ -1718,7 +1718,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQwsNomProduit() {
+    public function testSetQwsNomProduit(): void {
 
         $obj = new Constantes2();
 
@@ -1731,7 +1731,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQwsUtiliserLogoCabinet() {
+    public function testSetQwsUtiliserLogoCabinet(): void {
 
         $obj = new Constantes2();
 
@@ -1744,7 +1744,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQwsipl() {
+    public function testSetQwsipl(): void {
 
         $obj = new Constantes2();
 
@@ -1757,7 +1757,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRacDataPaie() {
+    public function testSetRacDataPaie(): void {
 
         $obj = new Constantes2();
 
@@ -1770,7 +1770,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRapportQInfos() {
+    public function testSetRapportQInfos(): void {
 
         $obj = new Constantes2();
 
@@ -1783,7 +1783,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReqDemandeur() {
+    public function testSetReqDemandeur(): void {
 
         $obj = new Constantes2();
 
@@ -1796,7 +1796,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieProprieteMess() {
+    public function testSetSaisieProprieteMess(): void {
 
         $obj = new Constantes2();
 
@@ -1809,7 +1809,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieReglDirect() {
+    public function testSetSaisieReglDirect(): void {
 
         $obj = new Constantes2();
 
@@ -1822,7 +1822,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTempsNbJApres() {
+    public function testSetSaisieTempsNbJApres(): void {
 
         $obj = new Constantes2();
 
@@ -1835,7 +1835,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTempsNbJAvant() {
+    public function testSetSaisieTempsNbJAvant(): void {
 
         $obj = new Constantes2();
 
@@ -1848,7 +1848,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTpNePasAfficherDp() {
+    public function testSetSaisieTpNePasAfficherDp(): void {
 
         $obj = new Constantes2();
 
@@ -1861,7 +1861,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTpOngletUniqueDp() {
+    public function testSetSaisieTpOngletUniqueDp(): void {
 
         $obj = new Constantes2();
 
@@ -1874,7 +1874,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieTpOngletUniqueTn() {
+    public function testSetSaisieTpOngletUniqueTn(): void {
 
         $obj = new Constantes2();
 
@@ -1887,7 +1887,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaveHistoMemo2File() {
+    public function testSetSaveHistoMemo2File(): void {
 
         $obj = new Constantes2();
 
@@ -1900,7 +1900,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoAccesGestionModifiables() {
+    public function testSetSelAvLstPersoAccesGestionModifiables(): void {
 
         $obj = new Constantes2();
 
@@ -1913,7 +1913,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoAccesGestionnaire() {
+    public function testSetSelAvLstPersoAccesGestionnaire(): void {
 
         $obj = new Constantes2();
 
@@ -1926,7 +1926,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoChampsModif() {
+    public function testSetSelAvLstPersoChampsModif(): void {
 
         $obj = new Constantes2();
 
@@ -1939,7 +1939,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoCopieColonne() {
+    public function testSetSelAvLstPersoCopieColonne(): void {
 
         $obj = new Constantes2();
 
@@ -1952,7 +1952,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelAvLstPersoInterdireCreat() {
+    public function testSetSelAvLstPersoInterdireCreat(): void {
 
         $obj = new Constantes2();
 
@@ -1965,7 +1965,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsApiKey() {
+    public function testSetSmsApiKey(): void {
 
         $obj = new Constantes2();
 
@@ -1978,7 +1978,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsDroitAcces() {
+    public function testSetSmsDroitAcces(): void {
 
         $obj = new Constantes2();
 
@@ -1991,7 +1991,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsKey() {
+    public function testSetSmsKey(): void {
 
         $obj = new Constantes2();
 
@@ -2004,7 +2004,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsPrestataire() {
+    public function testSetSmsPrestataire(): void {
 
         $obj = new Constantes2();
 
@@ -2017,7 +2017,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsSender() {
+    public function testSetSmsSender(): void {
 
         $obj = new Constantes2();
 
@@ -2030,7 +2030,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsType() {
+    public function testSetSmsType(): void {
 
         $obj = new Constantes2();
 
@@ -2043,7 +2043,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmsUserLogin() {
+    public function testSetSmsUserLogin(): void {
 
         $obj = new Constantes2();
 
@@ -2056,7 +2056,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoldeCptaOd() {
+    public function testSetSoldeCptaOd(): void {
 
         $obj = new Constantes2();
 
@@ -2069,7 +2069,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric1() {
+    public function testSetSuiviClientIntituleGeneric1(): void {
 
         $obj = new Constantes2();
 
@@ -2082,7 +2082,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric10() {
+    public function testSetSuiviClientIntituleGeneric10(): void {
 
         $obj = new Constantes2();
 
@@ -2095,7 +2095,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric2() {
+    public function testSetSuiviClientIntituleGeneric2(): void {
 
         $obj = new Constantes2();
 
@@ -2108,7 +2108,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric3() {
+    public function testSetSuiviClientIntituleGeneric3(): void {
 
         $obj = new Constantes2();
 
@@ -2121,7 +2121,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric4() {
+    public function testSetSuiviClientIntituleGeneric4(): void {
 
         $obj = new Constantes2();
 
@@ -2134,7 +2134,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric5() {
+    public function testSetSuiviClientIntituleGeneric5(): void {
 
         $obj = new Constantes2();
 
@@ -2147,7 +2147,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric6() {
+    public function testSetSuiviClientIntituleGeneric6(): void {
 
         $obj = new Constantes2();
 
@@ -2160,7 +2160,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric7() {
+    public function testSetSuiviClientIntituleGeneric7(): void {
 
         $obj = new Constantes2();
 
@@ -2173,7 +2173,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric8() {
+    public function testSetSuiviClientIntituleGeneric8(): void {
 
         $obj = new Constantes2();
 
@@ -2186,7 +2186,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviClientIntituleGeneric9() {
+    public function testSetSuiviClientIntituleGeneric9(): void {
 
         $obj = new Constantes2();
 
@@ -2199,7 +2199,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpAccesEncoursClient() {
+    public function testSetTpAccesEncoursClient(): void {
 
         $obj = new Constantes2();
 
@@ -2212,7 +2212,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpAvancementALaLigne() {
+    public function testSetTpAvancementALaLigne(): void {
 
         $obj = new Constantes2();
 
@@ -2225,7 +2225,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpInterditQte() {
+    public function testSetTpInterditQte(): void {
 
         $obj = new Constantes2();
 
@@ -2238,7 +2238,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpLibelleMission() {
+    public function testSetTpLibelleMission(): void {
 
         $obj = new Constantes2();
 
@@ -2251,7 +2251,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpLimiteSaisieNonOperationnel() {
+    public function testSetTpLimiteSaisieNonOperationnel(): void {
 
         $obj = new Constantes2();
 
@@ -2264,7 +2264,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPasMoisCloture() {
+    public function testSetTpPasMoisCloture(): void {
 
         $obj = new Constantes2();
 
@@ -2278,7 +2278,7 @@ class Constantes2Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTpPourcentageNonOperationnelDate() {
+    public function testSetTpPourcentageNonOperationnelDate(): void {
 
         // Set a Date/time mock.
         $tpPourcentageNonOperationnelDate = new DateTime("2018-09-10");
@@ -2294,7 +2294,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpQteInvisible() {
+    public function testSetTpQteInvisible(): void {
 
         $obj = new Constantes2();
 
@@ -2307,7 +2307,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpSaisieAvancement() {
+    public function testSetTpSaisieAvancement(): void {
 
         $obj = new Constantes2();
 
@@ -2320,7 +2320,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTppupv123() {
+    public function testSetTppupv123(): void {
 
         $obj = new Constantes2();
 
@@ -2333,7 +2333,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpsNumArchive() {
+    public function testSetTpsNumArchive(): void {
 
         $obj = new Constantes2();
 
@@ -2346,7 +2346,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransVariantesFactgi() {
+    public function testSetTransVariantesFactgi(): void {
 
         $obj = new Constantes2();
 
@@ -2359,7 +2359,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAffichageSoldeFourn() {
+    public function testSetTypeAffichageSoldeFourn(): void {
 
         $obj = new Constantes2();
 
@@ -2372,7 +2372,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFrais1() {
+    public function testSetTypeFrais1(): void {
 
         $obj = new Constantes2();
 
@@ -2385,7 +2385,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFrais2() {
+    public function testSetTypeFrais2(): void {
 
         $obj = new Constantes2();
 
@@ -2398,7 +2398,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFrais3() {
+    public function testSetTypeFrais3(): void {
 
         $obj = new Constantes2();
 
@@ -2411,7 +2411,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieTauxDevises() {
+    public function testSetTypeSaisieTauxDevises(): void {
 
         $obj = new Constantes2();
 
@@ -2424,7 +2424,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVEsurDepAff() {
+    public function testSetVEsurDepAff(): void {
 
         $obj = new Constantes2();
 
@@ -2437,7 +2437,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValAutoTarifsTransporteurs() {
+    public function testSetValAutoTarifsTransporteurs(): void {
 
         $obj = new Constantes2();
 
@@ -2450,7 +2450,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisualisationFicheCabinet() {
+    public function testSetVisualisationFicheCabinet(): void {
 
         $obj = new Constantes2();
 
@@ -2463,7 +2463,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetWordAccesParQClient() {
+    public function testSetWordAccesParQClient(): void {
 
         $obj = new Constantes2();
 
@@ -2476,7 +2476,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsCabinet() {
+    public function testSeteWsCabinet(): void {
 
         $obj = new Constantes2();
 
@@ -2489,7 +2489,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsCollId() {
+    public function testSeteWsCollId(): void {
 
         $obj = new Constantes2();
 
@@ -2502,7 +2502,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsCollMdp() {
+    public function testSeteWsCollMdp(): void {
 
         $obj = new Constantes2();
 
@@ -2515,7 +2515,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsSrvMdp() {
+    public function testSeteWsSrvMdp(): void {
 
         $obj = new Constantes2();
 
@@ -2528,7 +2528,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsSrvName() {
+    public function testSeteWsSrvName(): void {
 
         $obj = new Constantes2();
 
@@ -2541,7 +2541,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSeteWsSrvUtil() {
+    public function testSeteWsSrvUtil(): void {
 
         $obj = new Constantes2();
 
@@ -2554,7 +2554,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetlngCodeArticleAuto() {
+    public function testSetlngCodeArticleAuto(): void {
 
         $obj = new Constantes2();
 
@@ -2567,7 +2567,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Constantes2();
 

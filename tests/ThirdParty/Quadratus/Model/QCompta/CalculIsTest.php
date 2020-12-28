@@ -27,7 +27,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCorrespondance() {
+    public function testSetCorrespondance(): void {
 
         $obj = new CalculIs();
 
@@ -40,7 +40,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new CalculIs();
 
@@ -53,7 +53,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new CalculIs();
 
@@ -66,7 +66,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantN1() {
+    public function testSetMontantN1(): void {
 
         $obj = new CalculIs();
 
@@ -79,7 +79,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new CalculIs();
 
@@ -92,7 +92,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new CalculIs();
 
@@ -105,7 +105,7 @@ class CalculIsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CalculIs();
 

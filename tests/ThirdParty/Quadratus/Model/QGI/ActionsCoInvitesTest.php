@@ -29,7 +29,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -42,7 +42,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -55,7 +55,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeColl() {
+    public function testSetCodeColl(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -69,7 +69,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAjout() {
+    public function testSetDateAjout(): void {
 
         // Set a Date/time mock.
         $dateAjout = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomInterlocuteur() {
+    public function testSetNomInterlocuteur(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -98,7 +98,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumInterlocuteur() {
+    public function testSetNumInterlocuteur(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -111,7 +111,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetourNeg() {
+    public function testSetRetourNeg(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -124,7 +124,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeInvitation() {
+    public function testSetTypeInvitation(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -137,7 +137,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeInvite() {
+    public function testSetTypeInvite(): void {
 
         $obj = new ActionsCoInvites();
 
@@ -150,7 +150,7 @@ class ActionsCoInvitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCoInvites();
 

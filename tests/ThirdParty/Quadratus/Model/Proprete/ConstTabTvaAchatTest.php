@@ -27,7 +27,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTvaArticle() {
+    public function testSetCodeTvaArticle(): void {
 
         $obj = new ConstTabTvaAchat();
 
@@ -40,7 +40,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTvaFourn() {
+    public function testSetCodeTvaFourn(): void {
 
         $obj = new ConstTabTvaAchat();
 
@@ -53,7 +53,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTva() {
+    public function testSetCompteTva(): void {
 
         $obj = new ConstTabTvaAchat();
 
@@ -66,7 +66,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ConstTabTvaAchat();
 
@@ -79,7 +79,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva() {
+    public function testSetTauxTva(): void {
 
         $obj = new ConstTabTvaAchat();
 
@@ -92,7 +92,7 @@ class ConstTabTvaAchatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstTabTvaAchat();
 

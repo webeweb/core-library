@@ -27,7 +27,7 @@ class CriteresListeEntPieceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new CriteresListeEntPiece();
 
@@ -40,7 +40,7 @@ class CriteresListeEntPieceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new CriteresListeEntPiece();
 
@@ -53,7 +53,7 @@ class CriteresListeEntPieceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLibelle() {
+    public function testSetNumLibelle(): void {
 
         $obj = new CriteresListeEntPiece();
 
@@ -66,7 +66,7 @@ class CriteresListeEntPieceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CriteresListeEntPiece();
 

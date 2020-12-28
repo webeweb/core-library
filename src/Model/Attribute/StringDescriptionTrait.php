@@ -22,25 +22,25 @@ trait StringDescriptionTrait {
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     protected $description;
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string {
         return $this->description;
     }
 
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description) {
         $this->description = $description;
         return $this;
     }

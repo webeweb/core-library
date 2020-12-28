@@ -29,7 +29,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHNonEffectue() {
+    public function testSetNbHNonEffectue(): void {
 
         $obj = new HAbsPrepaPaie();
 
@@ -42,7 +42,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new HAbsPrepaPaie();
 
@@ -56,7 +56,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSemaine() {
+    public function testSetSemaine(): void {
 
         $obj = new HAbsPrepaPaie();
 
@@ -85,7 +85,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsence() {
+    public function testSetTypeAbsence(): void {
 
         $obj = new HAbsPrepaPaie();
 
@@ -98,7 +98,7 @@ class HAbsPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HAbsPrepaPaie();
 

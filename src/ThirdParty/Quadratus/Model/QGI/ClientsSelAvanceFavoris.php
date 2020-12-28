@@ -22,97 +22,98 @@ class ClientsSelAvanceFavoris {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code liste.
      *
-     * @var string
+     * @var string|null
      */
     private $codeListe;
 
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     private $description;
 
     /**
      * Ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $ordre;
 
     /**
      * Origine.
      *
-     * @var string
+     * @var string|null
      */
     private $origine;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code liste.
      *
-     * @return string Returns the code liste.
+     * @return string|null Returns the code liste.
      */
-    public function getCodeListe() {
+    public function getCodeListe(): ?string{
         return $this->codeListe;
     }
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string{
         return $this->description;
     }
 
     /**
      * Get the ordre.
      *
-     * @return int Returns the ordre.
+     * @return int|null Returns the ordre.
      */
-    public function getOrdre() {
+    public function getOrdre(): ?int{
         return $this->ordre;
     }
 
     /**
      * Get the origine.
      *
-     * @return string Returns the origine.
+     * @return string|null Returns the origine.
      */
-    public function getOrigine() {
+    public function getOrigine(): ?string{
         return $this->origine;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): ClientsSelAvanceFavoris {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -120,10 +121,10 @@ class ClientsSelAvanceFavoris {
     /**
      * Set the code liste.
      *
-     * @param string $codeListe The code liste.
+     * @param string|null $codeListe The code liste.
      * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
-    public function setCodeListe($codeListe) {
+    public function setCodeListe(?string $codeListe): ClientsSelAvanceFavoris {
         $this->codeListe = $codeListe;
         return $this;
     }
@@ -131,10 +132,10 @@ class ClientsSelAvanceFavoris {
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description): ClientsSelAvanceFavoris {
         $this->description = $description;
         return $this;
     }
@@ -142,10 +143,10 @@ class ClientsSelAvanceFavoris {
     /**
      * Set the ordre.
      *
-     * @param int $ordre The ordre.
+     * @param int|null $ordre The ordre.
      * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
-    public function setOrdre($ordre) {
+    public function setOrdre(?int $ordre): ClientsSelAvanceFavoris {
         $this->ordre = $ordre;
         return $this;
     }
@@ -153,10 +154,10 @@ class ClientsSelAvanceFavoris {
     /**
      * Set the origine.
      *
-     * @param string $origine The origine.
+     * @param string|null $origine The origine.
      * @return ClientsSelAvanceFavoris Returns this Clients sel avance favoris.
      */
-    public function setOrigine($origine) {
+    public function setOrigine(?string $origine): ClientsSelAvanceFavoris {
         $this->origine = $origine;
         return $this;
     }

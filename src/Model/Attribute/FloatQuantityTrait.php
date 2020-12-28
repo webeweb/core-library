@@ -22,25 +22,25 @@ trait FloatQuantityTrait {
     /**
      * Quantity.
      *
-     * @var float
+     * @var float|null
      */
     protected $quantity;
 
     /**
      * Get the quantity.
      *
-     * @return float Returns the quantity.
+     * @return float|null Returns the quantity.
      */
-    public function getQuantity() {
+    public function getQuantity(): ?float {
         return $this->quantity;
     }
 
     /**
      * Set the quantity.
      *
-     * @param float $quantity The quantity.
+     * @param float|null $quantity The quantity.
      */
-    public function setQuantity($quantity) {
+    public function setQuantity(?float $quantity) {
         $this->quantity = $quantity;
         return $this;
     }

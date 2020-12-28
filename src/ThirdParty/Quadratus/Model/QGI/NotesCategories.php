@@ -22,81 +22,82 @@ class NotesCategories {
     /**
      * Code categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCategorie;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Nom categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomCategorie;
 
     /**
      * Position.
      *
-     * @var int
+     * @var int|null
      */
     private $position;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code categorie.
      *
-     * @return string Returns the code categorie.
+     * @return string|null Returns the code categorie.
      */
-    public function getCodeCategorie() {
+    public function getCodeCategorie(): ?string{
         return $this->codeCategorie;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the nom categorie.
      *
-     * @return string Returns the nom categorie.
+     * @return string|null Returns the nom categorie.
      */
-    public function getNomCategorie() {
+    public function getNomCategorie(): ?string{
         return $this->nomCategorie;
     }
 
     /**
      * Get the position.
      *
-     * @return int Returns the position.
+     * @return int|null Returns the position.
      */
-    public function getPosition() {
+    public function getPosition(): ?int{
         return $this->position;
     }
 
     /**
      * Set the code categorie.
      *
-     * @param string $codeCategorie The code categorie.
+     * @param string|null $codeCategorie The code categorie.
      * @return NotesCategories Returns this Notes categories.
      */
-    public function setCodeCategorie($codeCategorie) {
+    public function setCodeCategorie(?string $codeCategorie): NotesCategories {
         $this->codeCategorie = $codeCategorie;
         return $this;
     }
@@ -104,10 +105,10 @@ class NotesCategories {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return NotesCategories Returns this Notes categories.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): NotesCategories {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -115,10 +116,10 @@ class NotesCategories {
     /**
      * Set the nom categorie.
      *
-     * @param string $nomCategorie The nom categorie.
+     * @param string|null $nomCategorie The nom categorie.
      * @return NotesCategories Returns this Notes categories.
      */
-    public function setNomCategorie($nomCategorie) {
+    public function setNomCategorie(?string $nomCategorie): NotesCategories {
         $this->nomCategorie = $nomCategorie;
         return $this;
     }
@@ -126,10 +127,10 @@ class NotesCategories {
     /**
      * Set the position.
      *
-     * @param int $position The position.
+     * @param int|null $position The position.
      * @return NotesCategories Returns this Notes categories.
      */
-    public function setPosition($position) {
+    public function setPosition(?int $position): NotesCategories {
         $this->position = $position;
         return $this;
     }

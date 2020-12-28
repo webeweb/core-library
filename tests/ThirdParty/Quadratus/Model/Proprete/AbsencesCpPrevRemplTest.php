@@ -29,7 +29,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AbsencesCpPrevRempl();
 
@@ -42,7 +42,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRemplacant() {
+    public function testSetCodeRemplacant(): void {
 
         $obj = new AbsencesCpPrevRempl();
 
@@ -56,7 +56,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutCp() {
+    public function testSetDateDebutCp(): void {
 
         // Set a Date/time mock.
         $dateDebutCp = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutRempl() {
+    public function testSetDateDebutRempl(): void {
 
         // Set a Date/time mock.
         $dateDebutRempl = new DateTime("2018-09-10");
@@ -90,7 +90,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinRempl() {
+    public function testSetDateFinRempl(): void {
 
         // Set a Date/time mock.
         $dateFinRempl = new DateTime("2018-09-10");
@@ -106,7 +106,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new AbsencesCpPrevRempl();
 
@@ -119,7 +119,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRempl() {
+    public function testSetTypeRempl(): void {
 
         $obj = new AbsencesCpPrevRempl();
 
@@ -132,7 +132,7 @@ class AbsencesCpPrevRemplTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AbsencesCpPrevRempl();
 

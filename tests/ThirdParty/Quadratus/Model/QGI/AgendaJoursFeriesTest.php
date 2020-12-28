@@ -29,7 +29,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCalculee() {
+    public function testSetCalculee(): void {
 
         $obj = new AgendaJoursFeries();
 
@@ -43,7 +43,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFeriee() {
+    public function testSetDateFeriee(): void {
 
         // Set a Date/time mock.
         $dateFeriee = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new AgendaJoursFeries();
 
@@ -72,7 +72,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AgendaJoursFeries();
 
@@ -85,7 +85,7 @@ class AgendaJoursFeriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaJoursFeries();
 

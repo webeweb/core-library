@@ -27,7 +27,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -40,7 +40,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -53,7 +53,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -66,7 +66,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJour() {
+    public function testSetJour(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -79,7 +79,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMois() {
+    public function testSetMois(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -92,7 +92,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroFreq() {
+    public function testSetNumeroFreq(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -105,7 +105,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuePremiereAnnee() {
+    public function testSetQuePremiereAnnee(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -118,7 +118,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeControle() {
+    public function testSetTypeControle(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 
@@ -131,7 +131,7 @@ class ChantiersFrequencesControlesQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersFrequencesControlesQualite();
 

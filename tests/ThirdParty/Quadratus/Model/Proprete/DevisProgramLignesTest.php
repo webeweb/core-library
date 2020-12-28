@@ -27,7 +27,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -40,7 +40,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -53,7 +53,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -66,7 +66,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEchelle() {
+    public function testSetCodeEchelle(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -79,7 +79,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOperation() {
+    public function testSetCodeOperation(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -92,7 +92,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProgramme() {
+    public function testSetCodeProgramme(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -105,7 +105,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -118,7 +118,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoteResultat() {
+    public function testSetNoteResultat(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -131,7 +131,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -144,7 +144,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -157,7 +157,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigneProg() {
+    public function testSetNumLigneProg(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -170,7 +170,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVitesseTheorique() {
+    public function testSetVitesseTheorique(): void {
 
         $obj = new DevisProgramLignes();
 
@@ -183,7 +183,7 @@ class DevisProgramLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisProgramLignes();
 

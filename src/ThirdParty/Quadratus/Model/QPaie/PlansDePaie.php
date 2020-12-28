@@ -24,7 +24,7 @@ class PlansDePaie {
     /**
      * Code pro lib.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProLib;
 
@@ -45,135 +45,136 @@ class PlansDePaie {
     /**
      * Freq1.
      *
-     * @var string
+     * @var string|null
      */
     private $freq1;
 
     /**
      * Freq10.
      *
-     * @var string
+     * @var string|null
      */
     private $freq10;
 
     /**
      * Freq11.
      *
-     * @var string
+     * @var string|null
      */
     private $freq11;
 
     /**
      * Freq12.
      *
-     * @var string
+     * @var string|null
      */
     private $freq12;
 
     /**
      * Freq2.
      *
-     * @var string
+     * @var string|null
      */
     private $freq2;
 
     /**
      * Freq3.
      *
-     * @var string
+     * @var string|null
      */
     private $freq3;
 
     /**
      * Freq4.
      *
-     * @var string
+     * @var string|null
      */
     private $freq4;
 
     /**
      * Freq5.
      *
-     * @var string
+     * @var string|null
      */
     private $freq5;
 
     /**
      * Freq6.
      *
-     * @var string
+     * @var string|null
      */
     private $freq6;
 
     /**
      * Freq7.
      *
-     * @var string
+     * @var string|null
      */
     private $freq7;
 
     /**
      * Freq8.
      *
-     * @var string
+     * @var string|null
      */
     private $freq8;
 
     /**
      * Freq9.
      *
-     * @var string
+     * @var string|null
      */
     private $freq9;
 
     /**
      * Num ligne plan.
      *
-     * @var int
+     * @var int|null
      */
     private $numLignePlan;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Profil ou libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $profilOuLibelle;
 
     /**
      * Type bens.
      *
-     * @var string
+     * @var string|null
      */
     private $typeBens;
 
     /**
      * Type commentaire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $typeCommentaire;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code pro lib.
      *
-     * @return string Returns the code pro lib.
+     * @return string|null Returns the code pro lib.
      */
-    public function getCodeProLib() {
+    public function getCodeProLib(): ?string{
         return $this->codeProLib;
     }
 
@@ -182,7 +183,7 @@ class PlansDePaie {
      *
      * @return DateTime|null Returns the deb per application.
      */
-    public function getDebPerApplication() {
+    public function getDebPerApplication(): ?DateTime{
         return $this->debPerApplication;
     }
 
@@ -191,170 +192,170 @@ class PlansDePaie {
      *
      * @return DateTime|null Returns the fin per application.
      */
-    public function getFinPerApplication() {
+    public function getFinPerApplication(): ?DateTime{
         return $this->finPerApplication;
     }
 
     /**
      * Get the freq1.
      *
-     * @return string Returns the freq1.
+     * @return string|null Returns the freq1.
      */
-    public function getFreq1() {
+    public function getFreq1(): ?string{
         return $this->freq1;
     }
 
     /**
      * Get the freq10.
      *
-     * @return string Returns the freq10.
+     * @return string|null Returns the freq10.
      */
-    public function getFreq10() {
+    public function getFreq10(): ?string{
         return $this->freq10;
     }
 
     /**
      * Get the freq11.
      *
-     * @return string Returns the freq11.
+     * @return string|null Returns the freq11.
      */
-    public function getFreq11() {
+    public function getFreq11(): ?string{
         return $this->freq11;
     }
 
     /**
      * Get the freq12.
      *
-     * @return string Returns the freq12.
+     * @return string|null Returns the freq12.
      */
-    public function getFreq12() {
+    public function getFreq12(): ?string{
         return $this->freq12;
     }
 
     /**
      * Get the freq2.
      *
-     * @return string Returns the freq2.
+     * @return string|null Returns the freq2.
      */
-    public function getFreq2() {
+    public function getFreq2(): ?string{
         return $this->freq2;
     }
 
     /**
      * Get the freq3.
      *
-     * @return string Returns the freq3.
+     * @return string|null Returns the freq3.
      */
-    public function getFreq3() {
+    public function getFreq3(): ?string{
         return $this->freq3;
     }
 
     /**
      * Get the freq4.
      *
-     * @return string Returns the freq4.
+     * @return string|null Returns the freq4.
      */
-    public function getFreq4() {
+    public function getFreq4(): ?string{
         return $this->freq4;
     }
 
     /**
      * Get the freq5.
      *
-     * @return string Returns the freq5.
+     * @return string|null Returns the freq5.
      */
-    public function getFreq5() {
+    public function getFreq5(): ?string{
         return $this->freq5;
     }
 
     /**
      * Get the freq6.
      *
-     * @return string Returns the freq6.
+     * @return string|null Returns the freq6.
      */
-    public function getFreq6() {
+    public function getFreq6(): ?string{
         return $this->freq6;
     }
 
     /**
      * Get the freq7.
      *
-     * @return string Returns the freq7.
+     * @return string|null Returns the freq7.
      */
-    public function getFreq7() {
+    public function getFreq7(): ?string{
         return $this->freq7;
     }
 
     /**
      * Get the freq8.
      *
-     * @return string Returns the freq8.
+     * @return string|null Returns the freq8.
      */
-    public function getFreq8() {
+    public function getFreq8(): ?string{
         return $this->freq8;
     }
 
     /**
      * Get the freq9.
      *
-     * @return string Returns the freq9.
+     * @return string|null Returns the freq9.
      */
-    public function getFreq9() {
+    public function getFreq9(): ?string{
         return $this->freq9;
     }
 
     /**
      * Get the num ligne plan.
      *
-     * @return int Returns the num ligne plan.
+     * @return int|null Returns the num ligne plan.
      */
-    public function getNumLignePlan() {
+    public function getNumLignePlan(): ?int{
         return $this->numLignePlan;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the profil ou libelle.
      *
-     * @return string Returns the profil ou libelle.
+     * @return string|null Returns the profil ou libelle.
      */
-    public function getProfilOuLibelle() {
+    public function getProfilOuLibelle(): ?string{
         return $this->profilOuLibelle;
     }
 
     /**
      * Get the type bens.
      *
-     * @return string Returns the type bens.
+     * @return string|null Returns the type bens.
      */
-    public function getTypeBens() {
+    public function getTypeBens(): ?string{
         return $this->typeBens;
     }
 
     /**
      * Get the type commentaire.
      *
-     * @return bool Returns the type commentaire.
+     * @return bool|null Returns the type commentaire.
      */
-    public function getTypeCommentaire() {
+    public function getTypeCommentaire(): ?bool{
         return $this->typeCommentaire;
     }
 
     /**
      * Set the code pro lib.
      *
-     * @param string $codeProLib The code pro lib.
+     * @param string|null $codeProLib The code pro lib.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setCodeProLib($codeProLib) {
+    public function setCodeProLib(?string $codeProLib): PlansDePaie {
         $this->codeProLib = $codeProLib;
         return $this;
     }
@@ -365,7 +366,7 @@ class PlansDePaie {
      * @param DateTime|null $debPerApplication The deb per application.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setDebPerApplication(DateTime $debPerApplication = null) {
+    public function setDebPerApplication(?DateTime $debPerApplication): PlansDePaie {
         $this->debPerApplication = $debPerApplication;
         return $this;
     }
@@ -376,7 +377,7 @@ class PlansDePaie {
      * @param DateTime|null $finPerApplication The fin per application.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFinPerApplication(DateTime $finPerApplication = null) {
+    public function setFinPerApplication(?DateTime $finPerApplication): PlansDePaie {
         $this->finPerApplication = $finPerApplication;
         return $this;
     }
@@ -384,10 +385,10 @@ class PlansDePaie {
     /**
      * Set the freq1.
      *
-     * @param string $freq1 The freq1.
+     * @param string|null $freq1 The freq1.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq1($freq1) {
+    public function setFreq1(?string $freq1): PlansDePaie {
         $this->freq1 = $freq1;
         return $this;
     }
@@ -395,10 +396,10 @@ class PlansDePaie {
     /**
      * Set the freq10.
      *
-     * @param string $freq10 The freq10.
+     * @param string|null $freq10 The freq10.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq10($freq10) {
+    public function setFreq10(?string $freq10): PlansDePaie {
         $this->freq10 = $freq10;
         return $this;
     }
@@ -406,10 +407,10 @@ class PlansDePaie {
     /**
      * Set the freq11.
      *
-     * @param string $freq11 The freq11.
+     * @param string|null $freq11 The freq11.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq11($freq11) {
+    public function setFreq11(?string $freq11): PlansDePaie {
         $this->freq11 = $freq11;
         return $this;
     }
@@ -417,10 +418,10 @@ class PlansDePaie {
     /**
      * Set the freq12.
      *
-     * @param string $freq12 The freq12.
+     * @param string|null $freq12 The freq12.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq12($freq12) {
+    public function setFreq12(?string $freq12): PlansDePaie {
         $this->freq12 = $freq12;
         return $this;
     }
@@ -428,10 +429,10 @@ class PlansDePaie {
     /**
      * Set the freq2.
      *
-     * @param string $freq2 The freq2.
+     * @param string|null $freq2 The freq2.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq2($freq2) {
+    public function setFreq2(?string $freq2): PlansDePaie {
         $this->freq2 = $freq2;
         return $this;
     }
@@ -439,10 +440,10 @@ class PlansDePaie {
     /**
      * Set the freq3.
      *
-     * @param string $freq3 The freq3.
+     * @param string|null $freq3 The freq3.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq3($freq3) {
+    public function setFreq3(?string $freq3): PlansDePaie {
         $this->freq3 = $freq3;
         return $this;
     }
@@ -450,10 +451,10 @@ class PlansDePaie {
     /**
      * Set the freq4.
      *
-     * @param string $freq4 The freq4.
+     * @param string|null $freq4 The freq4.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq4($freq4) {
+    public function setFreq4(?string $freq4): PlansDePaie {
         $this->freq4 = $freq4;
         return $this;
     }
@@ -461,10 +462,10 @@ class PlansDePaie {
     /**
      * Set the freq5.
      *
-     * @param string $freq5 The freq5.
+     * @param string|null $freq5 The freq5.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq5($freq5) {
+    public function setFreq5(?string $freq5): PlansDePaie {
         $this->freq5 = $freq5;
         return $this;
     }
@@ -472,10 +473,10 @@ class PlansDePaie {
     /**
      * Set the freq6.
      *
-     * @param string $freq6 The freq6.
+     * @param string|null $freq6 The freq6.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq6($freq6) {
+    public function setFreq6(?string $freq6): PlansDePaie {
         $this->freq6 = $freq6;
         return $this;
     }
@@ -483,10 +484,10 @@ class PlansDePaie {
     /**
      * Set the freq7.
      *
-     * @param string $freq7 The freq7.
+     * @param string|null $freq7 The freq7.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq7($freq7) {
+    public function setFreq7(?string $freq7): PlansDePaie {
         $this->freq7 = $freq7;
         return $this;
     }
@@ -494,10 +495,10 @@ class PlansDePaie {
     /**
      * Set the freq8.
      *
-     * @param string $freq8 The freq8.
+     * @param string|null $freq8 The freq8.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq8($freq8) {
+    public function setFreq8(?string $freq8): PlansDePaie {
         $this->freq8 = $freq8;
         return $this;
     }
@@ -505,10 +506,10 @@ class PlansDePaie {
     /**
      * Set the freq9.
      *
-     * @param string $freq9 The freq9.
+     * @param string|null $freq9 The freq9.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setFreq9($freq9) {
+    public function setFreq9(?string $freq9): PlansDePaie {
         $this->freq9 = $freq9;
         return $this;
     }
@@ -516,10 +517,10 @@ class PlansDePaie {
     /**
      * Set the num ligne plan.
      *
-     * @param int $numLignePlan The num ligne plan.
+     * @param int|null $numLignePlan The num ligne plan.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setNumLignePlan($numLignePlan) {
+    public function setNumLignePlan(?int $numLignePlan): PlansDePaie {
         $this->numLignePlan = $numLignePlan;
         return $this;
     }
@@ -527,10 +528,10 @@ class PlansDePaie {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): PlansDePaie {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -538,10 +539,10 @@ class PlansDePaie {
     /**
      * Set the profil ou libelle.
      *
-     * @param string $profilOuLibelle The profil ou libelle.
+     * @param string|null $profilOuLibelle The profil ou libelle.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setProfilOuLibelle($profilOuLibelle) {
+    public function setProfilOuLibelle(?string $profilOuLibelle): PlansDePaie {
         $this->profilOuLibelle = $profilOuLibelle;
         return $this;
     }
@@ -549,10 +550,10 @@ class PlansDePaie {
     /**
      * Set the type bens.
      *
-     * @param string $typeBens The type bens.
+     * @param string|null $typeBens The type bens.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setTypeBens($typeBens) {
+    public function setTypeBens(?string $typeBens): PlansDePaie {
         $this->typeBens = $typeBens;
         return $this;
     }
@@ -560,10 +561,10 @@ class PlansDePaie {
     /**
      * Set the type commentaire.
      *
-     * @param bool $typeCommentaire The type commentaire.
+     * @param bool|null $typeCommentaire The type commentaire.
      * @return PlansDePaie Returns this Plans de paie.
      */
-    public function setTypeCommentaire($typeCommentaire) {
+    public function setTypeCommentaire(?bool $typeCommentaire): PlansDePaie {
         $this->typeCommentaire = $typeCommentaire;
         return $this;
     }

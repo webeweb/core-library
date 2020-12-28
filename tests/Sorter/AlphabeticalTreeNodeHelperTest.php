@@ -33,9 +33,9 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
     private $nodes;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set the node mocks.
@@ -47,7 +47,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testCreateChoices() {
+    public function testCreateChoices(): void {
 
         $res = AlphabeticalTreeNodeHelper::createChoices($this->nodes);
         $this->assertCount(3, $res["id01"]);
@@ -67,7 +67,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetLevel() {
+    public function testGetLevel(): void {
 
         $this->assertEquals(0, AlphabeticalTreeNodeHelper::getLevel($this->nodes[0]));
         $this->assertEquals(0, AlphabeticalTreeNodeHelper::getLevel($this->nodes[1]));
@@ -86,7 +86,7 @@ class AlphabeticalTreeNodeHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRemoveOrphan() {
+    public function testRemoveOrphan(): void {
 
         AlphabeticalTreeNodeHelper::removeOrphan($this->nodes);
         $this->assertCount(10, $this->nodes);

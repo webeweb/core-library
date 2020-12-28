@@ -30,7 +30,7 @@ class InteretsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class InteretsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Interets();
 
@@ -59,7 +59,7 @@ class InteretsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaux() {
+    public function testSetTaux(): void {
 
         $obj = new Interets();
 
@@ -72,7 +72,7 @@ class InteretsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCpt() {
+    public function testSetTypeCpt(): void {
 
         $obj = new Interets();
 
@@ -85,7 +85,7 @@ class InteretsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Interets();
 

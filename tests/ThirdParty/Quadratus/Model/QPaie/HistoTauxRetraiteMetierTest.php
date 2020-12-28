@@ -30,7 +30,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAPartirDe() {
+    public function testSetAPartirDe(): void {
 
         // Set a Date/time mock.
         $aPartirDe = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarie() {
+    public function testSetCategSalarie(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -59,7 +59,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite() {
+    public function testSetCodeActivite(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -72,7 +72,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -85,7 +85,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMetier() {
+    public function testSetCodeMetier(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -98,7 +98,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormatNonEtendu() {
+    public function testSetFormatNonEtendu(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -111,7 +111,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceCateg() {
+    public function testSetIndiceCateg(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -124,7 +124,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -137,7 +137,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatronal() {
+    public function testSetTauxPatronal(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -150,7 +150,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalarial() {
+    public function testSetTauxSalarial(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 
@@ -163,7 +163,7 @@ class HistoTauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoTauxRetraiteMetier();
 

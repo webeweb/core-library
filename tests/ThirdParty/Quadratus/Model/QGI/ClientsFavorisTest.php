@@ -27,7 +27,7 @@ class ClientsFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ClientsFavoris();
 
@@ -40,7 +40,7 @@ class ClientsFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCol() {
+    public function testSetCodeCol(): void {
 
         $obj = new ClientsFavoris();
 
@@ -53,7 +53,7 @@ class ClientsFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsFavoris();
 

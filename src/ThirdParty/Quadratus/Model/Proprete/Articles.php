@@ -24,105 +24,105 @@ class Articles {
     /**
      * Actif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $actif;
 
     /**
      * Article remplacement.
      *
-     * @var string
+     * @var string|null
      */
     private $articleRemplacement;
 
     /**
      * Classification four.
      *
-     * @var string
+     * @var string|null
      */
     private $classificationFour;
 
     /**
      * Classification util.
      *
-     * @var string
+     * @var string|null
      */
     private $classificationUtil;
 
     /**
      * Code affect rent.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffectRent;
 
     /**
      * Code anal achat.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalAchat;
 
     /**
      * Code anal vente.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalVente;
 
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFournisseur;
 
     /**
      * Code tva achat.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTvaAchat;
 
     /**
      * Code tva vente.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTvaVente;
 
     /**
      * Code unite.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUnite;
 
     /**
      * Code ventil achat.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilAchat;
 
     /**
      * Code ventil vente.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilVente;
 
     /**
      * Coef.
      *
-     * @var float
+     * @var float|null
      */
     private $coef;
 
@@ -143,359 +143,360 @@ class Articles {
     /**
      * Depuis deb fac.
      *
-     * @var bool
+     * @var bool|null
      */
     private $depuisDebFac;
 
     /**
      * Dernier prix achat.
      *
-     * @var float
+     * @var float|null
      */
     private $dernierPrixAchat;
 
     /**
      * Designation.
      *
-     * @var string
+     * @var string|null
      */
     private $designation;
 
     /**
      * Designation2.
      *
-     * @var string
+     * @var string|null
      */
     private $designation2;
 
     /**
      * Designation3.
      *
-     * @var string
+     * @var string|null
      */
     private $designation3;
 
     /**
      * Designation rtf.
      *
-     * @var string
+     * @var string|null
      */
     private $designationRtf;
 
     /**
      * Famille article.
      *
-     * @var string
+     * @var string|null
      */
     private $familleArticle;
 
     /**
      * Imprimer dans pied.
      *
-     * @var bool
+     * @var bool|null
      */
     private $imprimerDansPied;
 
     /**
      * Montant unitaire taxe.
      *
-     * @var float
+     * @var float|null
      */
     private $montantUnitaireTaxe;
 
     /**
      * Mot cle dans pied.
      *
-     * @var string
+     * @var string|null
      */
     private $motCleDansPied;
 
     /**
      * Ne pas reviser.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nePasReviser;
 
     /**
      * Nombre echeances.
      *
-     * @var string
+     * @var string|null
      */
     private $nombreEcheances;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Pamp.
      *
-     * @var float
+     * @var float|null
      */
     private $pamp;
 
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Prix net.
      *
-     * @var bool
+     * @var bool|null
      */
     private $prixNet;
 
     /**
      * Prix revient.
      *
-     * @var float
+     * @var float|null
      */
     private $prixRevient;
 
     /**
      * Prix vente.
      *
-     * @var float
+     * @var float|null
      */
     private $prixVente;
 
     /**
      * Prix vente euros.
      *
-     * @var float
+     * @var float|null
      */
     private $prixVenteEuros;
 
     /**
      * Produit.
      *
-     * @var bool
+     * @var bool|null
      */
     private $produit;
 
     /**
      * Produit chimique.
      *
-     * @var bool
+     * @var bool|null
      */
     private $produitChimique;
 
     /**
      * Px facture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pxFacture;
 
     /**
      * Qte stock mini.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockMini;
 
     /**
      * Qte stock reel.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockReel;
 
     /**
      * Soumis escompte.
      *
-     * @var bool
+     * @var bool|null
      */
     private $soumisEscompte;
 
     /**
      * Suivi stock.
      *
-     * @var bool
+     * @var bool|null
      */
     private $suiviStock;
 
     /**
      * Taux escompte.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxEscompte;
 
     /**
      * Type article.
      *
-     * @var string
+     * @var string|null
      */
     private $typeArticle;
 
     /**
      * Variante.
      *
-     * @var bool
+     * @var bool|null
      */
     private $variante;
 
     /**
      * Ventil marge.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ventilMarge;
 
     /**
      * Visu dans att fisc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $visuDansAttFisc;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the actif.
      *
-     * @return bool Returns the actif.
+     * @return bool|null Returns the actif.
      */
-    public function getActif() {
+    public function getActif(): ?bool{
         return $this->actif;
     }
 
     /**
      * Get the article remplacement.
      *
-     * @return string Returns the article remplacement.
+     * @return string|null Returns the article remplacement.
      */
-    public function getArticleRemplacement() {
+    public function getArticleRemplacement(): ?string{
         return $this->articleRemplacement;
     }
 
     /**
      * Get the classification four.
      *
-     * @return string Returns the classification four.
+     * @return string|null Returns the classification four.
      */
-    public function getClassificationFour() {
+    public function getClassificationFour(): ?string{
         return $this->classificationFour;
     }
 
     /**
      * Get the classification util.
      *
-     * @return string Returns the classification util.
+     * @return string|null Returns the classification util.
      */
-    public function getClassificationUtil() {
+    public function getClassificationUtil(): ?string{
         return $this->classificationUtil;
     }
 
     /**
      * Get the code affect rent.
      *
-     * @return string Returns the code affect rent.
+     * @return string|null Returns the code affect rent.
      */
-    public function getCodeAffectRent() {
+    public function getCodeAffectRent(): ?string{
         return $this->codeAffectRent;
     }
 
     /**
      * Get the code anal achat.
      *
-     * @return string Returns the code anal achat.
+     * @return string|null Returns the code anal achat.
      */
-    public function getCodeAnalAchat() {
+    public function getCodeAnalAchat(): ?string{
         return $this->codeAnalAchat;
     }
 
     /**
      * Get the code anal vente.
      *
-     * @return string Returns the code anal vente.
+     * @return string|null Returns the code anal vente.
      */
-    public function getCodeAnalVente() {
+    public function getCodeAnalVente(): ?string{
         return $this->codeAnalVente;
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code fournisseur.
      *
-     * @return string Returns the code fournisseur.
+     * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur() {
+    public function getCodeFournisseur(): ?string{
         return $this->codeFournisseur;
     }
 
     /**
      * Get the code tva achat.
      *
-     * @return string Returns the code tva achat.
+     * @return string|null Returns the code tva achat.
      */
-    public function getCodeTvaAchat() {
+    public function getCodeTvaAchat(): ?string{
         return $this->codeTvaAchat;
     }
 
     /**
      * Get the code tva vente.
      *
-     * @return string Returns the code tva vente.
+     * @return string|null Returns the code tva vente.
      */
-    public function getCodeTvaVente() {
+    public function getCodeTvaVente(): ?string{
         return $this->codeTvaVente;
     }
 
     /**
      * Get the code unite.
      *
-     * @return string Returns the code unite.
+     * @return string|null Returns the code unite.
      */
-    public function getCodeUnite() {
+    public function getCodeUnite(): ?string{
         return $this->codeUnite;
     }
 
     /**
      * Get the code ventil achat.
      *
-     * @return string Returns the code ventil achat.
+     * @return string|null Returns the code ventil achat.
      */
-    public function getCodeVentilAchat() {
+    public function getCodeVentilAchat(): ?string{
         return $this->codeVentilAchat;
     }
 
     /**
      * Get the code ventil vente.
      *
-     * @return string Returns the code ventil vente.
+     * @return string|null Returns the code ventil vente.
      */
-    public function getCodeVentilVente() {
+    public function getCodeVentilVente(): ?string{
         return $this->codeVentilVente;
     }
 
     /**
      * Get the coef.
      *
-     * @return float Returns the coef.
+     * @return float|null Returns the coef.
      */
-    public function getCoef() {
+    public function getCoef(): ?float{
         return $this->coef;
     }
 
@@ -504,7 +505,7 @@ class Articles {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
@@ -513,296 +514,296 @@ class Articles {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime{
         return $this->dateModification;
     }
 
     /**
      * Get the depuis deb fac.
      *
-     * @return bool Returns the depuis deb fac.
+     * @return bool|null Returns the depuis deb fac.
      */
-    public function getDepuisDebFac() {
+    public function getDepuisDebFac(): ?bool{
         return $this->depuisDebFac;
     }
 
     /**
      * Get the dernier prix achat.
      *
-     * @return float Returns the dernier prix achat.
+     * @return float|null Returns the dernier prix achat.
      */
-    public function getDernierPrixAchat() {
+    public function getDernierPrixAchat(): ?float{
         return $this->dernierPrixAchat;
     }
 
     /**
      * Get the designation.
      *
-     * @return string Returns the designation.
+     * @return string|null Returns the designation.
      */
-    public function getDesignation() {
+    public function getDesignation(): ?string{
         return $this->designation;
     }
 
     /**
      * Get the designation2.
      *
-     * @return string Returns the designation2.
+     * @return string|null Returns the designation2.
      */
-    public function getDesignation2() {
+    public function getDesignation2(): ?string{
         return $this->designation2;
     }
 
     /**
      * Get the designation3.
      *
-     * @return string Returns the designation3.
+     * @return string|null Returns the designation3.
      */
-    public function getDesignation3() {
+    public function getDesignation3(): ?string{
         return $this->designation3;
     }
 
     /**
      * Get the designation rtf.
      *
-     * @return string Returns the designation rtf.
+     * @return string|null Returns the designation rtf.
      */
-    public function getDesignationRtf() {
+    public function getDesignationRtf(): ?string{
         return $this->designationRtf;
     }
 
     /**
      * Get the famille article.
      *
-     * @return string Returns the famille article.
+     * @return string|null Returns the famille article.
      */
-    public function getFamilleArticle() {
+    public function getFamilleArticle(): ?string{
         return $this->familleArticle;
     }
 
     /**
      * Get the imprimer dans pied.
      *
-     * @return bool Returns the imprimer dans pied.
+     * @return bool|null Returns the imprimer dans pied.
      */
-    public function getImprimerDansPied() {
+    public function getImprimerDansPied(): ?bool{
         return $this->imprimerDansPied;
     }
 
     /**
      * Get the montant unitaire taxe.
      *
-     * @return float Returns the montant unitaire taxe.
+     * @return float|null Returns the montant unitaire taxe.
      */
-    public function getMontantUnitaireTaxe() {
+    public function getMontantUnitaireTaxe(): ?float{
         return $this->montantUnitaireTaxe;
     }
 
     /**
      * Get the mot cle dans pied.
      *
-     * @return string Returns the mot cle dans pied.
+     * @return string|null Returns the mot cle dans pied.
      */
-    public function getMotCleDansPied() {
+    public function getMotCleDansPied(): ?string{
         return $this->motCleDansPied;
     }
 
     /**
      * Get the ne pas reviser.
      *
-     * @return bool Returns the ne pas reviser.
+     * @return bool|null Returns the ne pas reviser.
      */
-    public function getNePasReviser() {
+    public function getNePasReviser(): ?bool{
         return $this->nePasReviser;
     }
 
     /**
      * Get the nombre echeances.
      *
-     * @return string Returns the nombre echeances.
+     * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances() {
+    public function getNombreEcheances(): ?string{
         return $this->nombreEcheances;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the pamp.
      *
-     * @return float Returns the pamp.
+     * @return float|null Returns the pamp.
      */
-    public function getPamp() {
+    public function getPamp(): ?float{
         return $this->pamp;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the prix net.
      *
-     * @return bool Returns the prix net.
+     * @return bool|null Returns the prix net.
      */
-    public function getPrixNet() {
+    public function getPrixNet(): ?bool{
         return $this->prixNet;
     }
 
     /**
      * Get the prix revient.
      *
-     * @return float Returns the prix revient.
+     * @return float|null Returns the prix revient.
      */
-    public function getPrixRevient() {
+    public function getPrixRevient(): ?float{
         return $this->prixRevient;
     }
 
     /**
      * Get the prix vente.
      *
-     * @return float Returns the prix vente.
+     * @return float|null Returns the prix vente.
      */
-    public function getPrixVente() {
+    public function getPrixVente(): ?float{
         return $this->prixVente;
     }
 
     /**
      * Get the prix vente euros.
      *
-     * @return float Returns the prix vente euros.
+     * @return float|null Returns the prix vente euros.
      */
-    public function getPrixVenteEuros() {
+    public function getPrixVenteEuros(): ?float{
         return $this->prixVenteEuros;
     }
 
     /**
      * Get the produit.
      *
-     * @return bool Returns the produit.
+     * @return bool|null Returns the produit.
      */
-    public function getProduit() {
+    public function getProduit(): ?bool{
         return $this->produit;
     }
 
     /**
      * Get the produit chimique.
      *
-     * @return bool Returns the produit chimique.
+     * @return bool|null Returns the produit chimique.
      */
-    public function getProduitChimique() {
+    public function getProduitChimique(): ?bool{
         return $this->produitChimique;
     }
 
     /**
      * Get the px facture.
      *
-     * @return bool Returns the px facture.
+     * @return bool|null Returns the px facture.
      */
-    public function getPxFacture() {
+    public function getPxFacture(): ?bool{
         return $this->pxFacture;
     }
 
     /**
      * Get the qte stock mini.
      *
-     * @return float Returns the qte stock mini.
+     * @return float|null Returns the qte stock mini.
      */
-    public function getQteStockMini() {
+    public function getQteStockMini(): ?float{
         return $this->qteStockMini;
     }
 
     /**
      * Get the qte stock reel.
      *
-     * @return float Returns the qte stock reel.
+     * @return float|null Returns the qte stock reel.
      */
-    public function getQteStockReel() {
+    public function getQteStockReel(): ?float{
         return $this->qteStockReel;
     }
 
     /**
      * Get the soumis escompte.
      *
-     * @return bool Returns the soumis escompte.
+     * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte() {
+    public function getSoumisEscompte(): ?bool{
         return $this->soumisEscompte;
     }
 
     /**
      * Get the suivi stock.
      *
-     * @return bool Returns the suivi stock.
+     * @return bool|null Returns the suivi stock.
      */
-    public function getSuiviStock() {
+    public function getSuiviStock(): ?bool{
         return $this->suiviStock;
     }
 
     /**
      * Get the taux escompte.
      *
-     * @return float Returns the taux escompte.
+     * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte() {
+    public function getTauxEscompte(): ?float{
         return $this->tauxEscompte;
     }
 
     /**
      * Get the type article.
      *
-     * @return string Returns the type article.
+     * @return string|null Returns the type article.
      */
-    public function getTypeArticle() {
+    public function getTypeArticle(): ?string{
         return $this->typeArticle;
     }
 
     /**
      * Get the variante.
      *
-     * @return bool Returns the variante.
+     * @return bool|null Returns the variante.
      */
-    public function getVariante() {
+    public function getVariante(): ?bool{
         return $this->variante;
     }
 
     /**
      * Get the ventil marge.
      *
-     * @return bool Returns the ventil marge.
+     * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge() {
+    public function getVentilMarge(): ?bool{
         return $this->ventilMarge;
     }
 
     /**
      * Get the visu dans att fisc.
      *
-     * @return bool Returns the visu dans att fisc.
+     * @return bool|null Returns the visu dans att fisc.
      */
-    public function getVisuDansAttFisc() {
+    public function getVisuDansAttFisc(): ?bool{
         return $this->visuDansAttFisc;
     }
 
     /**
      * Set the actif.
      *
-     * @param bool $actif The actif.
+     * @param bool|null $actif The actif.
      * @return Articles Returns this Articles.
      */
-    public function setActif($actif) {
+    public function setActif(?bool $actif): Articles {
         $this->actif = $actif;
         return $this;
     }
@@ -810,10 +811,10 @@ class Articles {
     /**
      * Set the article remplacement.
      *
-     * @param string $articleRemplacement The article remplacement.
+     * @param string|null $articleRemplacement The article remplacement.
      * @return Articles Returns this Articles.
      */
-    public function setArticleRemplacement($articleRemplacement) {
+    public function setArticleRemplacement(?string $articleRemplacement): Articles {
         $this->articleRemplacement = $articleRemplacement;
         return $this;
     }
@@ -821,10 +822,10 @@ class Articles {
     /**
      * Set the classification four.
      *
-     * @param string $classificationFour The classification four.
+     * @param string|null $classificationFour The classification four.
      * @return Articles Returns this Articles.
      */
-    public function setClassificationFour($classificationFour) {
+    public function setClassificationFour(?string $classificationFour): Articles {
         $this->classificationFour = $classificationFour;
         return $this;
     }
@@ -832,10 +833,10 @@ class Articles {
     /**
      * Set the classification util.
      *
-     * @param string $classificationUtil The classification util.
+     * @param string|null $classificationUtil The classification util.
      * @return Articles Returns this Articles.
      */
-    public function setClassificationUtil($classificationUtil) {
+    public function setClassificationUtil(?string $classificationUtil): Articles {
         $this->classificationUtil = $classificationUtil;
         return $this;
     }
@@ -843,10 +844,10 @@ class Articles {
     /**
      * Set the code affect rent.
      *
-     * @param string $codeAffectRent The code affect rent.
+     * @param string|null $codeAffectRent The code affect rent.
      * @return Articles Returns this Articles.
      */
-    public function setCodeAffectRent($codeAffectRent) {
+    public function setCodeAffectRent(?string $codeAffectRent): Articles {
         $this->codeAffectRent = $codeAffectRent;
         return $this;
     }
@@ -854,10 +855,10 @@ class Articles {
     /**
      * Set the code anal achat.
      *
-     * @param string $codeAnalAchat The code anal achat.
+     * @param string|null $codeAnalAchat The code anal achat.
      * @return Articles Returns this Articles.
      */
-    public function setCodeAnalAchat($codeAnalAchat) {
+    public function setCodeAnalAchat(?string $codeAnalAchat): Articles {
         $this->codeAnalAchat = $codeAnalAchat;
         return $this;
     }
@@ -865,10 +866,10 @@ class Articles {
     /**
      * Set the code anal vente.
      *
-     * @param string $codeAnalVente The code anal vente.
+     * @param string|null $codeAnalVente The code anal vente.
      * @return Articles Returns this Articles.
      */
-    public function setCodeAnalVente($codeAnalVente) {
+    public function setCodeAnalVente(?string $codeAnalVente): Articles {
         $this->codeAnalVente = $codeAnalVente;
         return $this;
     }
@@ -876,10 +877,10 @@ class Articles {
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return Articles Returns this Articles.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): Articles {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -887,10 +888,10 @@ class Articles {
     /**
      * Set the code fournisseur.
      *
-     * @param string $codeFournisseur The code fournisseur.
+     * @param string|null $codeFournisseur The code fournisseur.
      * @return Articles Returns this Articles.
      */
-    public function setCodeFournisseur($codeFournisseur) {
+    public function setCodeFournisseur(?string $codeFournisseur): Articles {
         $this->codeFournisseur = $codeFournisseur;
         return $this;
     }
@@ -898,10 +899,10 @@ class Articles {
     /**
      * Set the code tva achat.
      *
-     * @param string $codeTvaAchat The code tva achat.
+     * @param string|null $codeTvaAchat The code tva achat.
      * @return Articles Returns this Articles.
      */
-    public function setCodeTvaAchat($codeTvaAchat) {
+    public function setCodeTvaAchat(?string $codeTvaAchat): Articles {
         $this->codeTvaAchat = $codeTvaAchat;
         return $this;
     }
@@ -909,10 +910,10 @@ class Articles {
     /**
      * Set the code tva vente.
      *
-     * @param string $codeTvaVente The code tva vente.
+     * @param string|null $codeTvaVente The code tva vente.
      * @return Articles Returns this Articles.
      */
-    public function setCodeTvaVente($codeTvaVente) {
+    public function setCodeTvaVente(?string $codeTvaVente): Articles {
         $this->codeTvaVente = $codeTvaVente;
         return $this;
     }
@@ -920,10 +921,10 @@ class Articles {
     /**
      * Set the code unite.
      *
-     * @param string $codeUnite The code unite.
+     * @param string|null $codeUnite The code unite.
      * @return Articles Returns this Articles.
      */
-    public function setCodeUnite($codeUnite) {
+    public function setCodeUnite(?string $codeUnite): Articles {
         $this->codeUnite = $codeUnite;
         return $this;
     }
@@ -931,10 +932,10 @@ class Articles {
     /**
      * Set the code ventil achat.
      *
-     * @param string $codeVentilAchat The code ventil achat.
+     * @param string|null $codeVentilAchat The code ventil achat.
      * @return Articles Returns this Articles.
      */
-    public function setCodeVentilAchat($codeVentilAchat) {
+    public function setCodeVentilAchat(?string $codeVentilAchat): Articles {
         $this->codeVentilAchat = $codeVentilAchat;
         return $this;
     }
@@ -942,10 +943,10 @@ class Articles {
     /**
      * Set the code ventil vente.
      *
-     * @param string $codeVentilVente The code ventil vente.
+     * @param string|null $codeVentilVente The code ventil vente.
      * @return Articles Returns this Articles.
      */
-    public function setCodeVentilVente($codeVentilVente) {
+    public function setCodeVentilVente(?string $codeVentilVente): Articles {
         $this->codeVentilVente = $codeVentilVente;
         return $this;
     }
@@ -953,10 +954,10 @@ class Articles {
     /**
      * Set the coef.
      *
-     * @param float $coef The coef.
+     * @param float|null $coef The coef.
      * @return Articles Returns this Articles.
      */
-    public function setCoef($coef) {
+    public function setCoef(?float $coef): Articles {
         $this->coef = $coef;
         return $this;
     }
@@ -967,7 +968,7 @@ class Articles {
      * @param DateTime|null $dateCreation The date creation.
      * @return Articles Returns this Articles.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): Articles {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -978,7 +979,7 @@ class Articles {
      * @param DateTime|null $dateModification The date modification.
      * @return Articles Returns this Articles.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): Articles {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -986,10 +987,10 @@ class Articles {
     /**
      * Set the depuis deb fac.
      *
-     * @param bool $depuisDebFac The depuis deb fac.
+     * @param bool|null $depuisDebFac The depuis deb fac.
      * @return Articles Returns this Articles.
      */
-    public function setDepuisDebFac($depuisDebFac) {
+    public function setDepuisDebFac(?bool $depuisDebFac): Articles {
         $this->depuisDebFac = $depuisDebFac;
         return $this;
     }
@@ -997,10 +998,10 @@ class Articles {
     /**
      * Set the dernier prix achat.
      *
-     * @param float $dernierPrixAchat The dernier prix achat.
+     * @param float|null $dernierPrixAchat The dernier prix achat.
      * @return Articles Returns this Articles.
      */
-    public function setDernierPrixAchat($dernierPrixAchat) {
+    public function setDernierPrixAchat(?float $dernierPrixAchat): Articles {
         $this->dernierPrixAchat = $dernierPrixAchat;
         return $this;
     }
@@ -1008,10 +1009,10 @@ class Articles {
     /**
      * Set the designation.
      *
-     * @param string $designation The designation.
+     * @param string|null $designation The designation.
      * @return Articles Returns this Articles.
      */
-    public function setDesignation($designation) {
+    public function setDesignation(?string $designation): Articles {
         $this->designation = $designation;
         return $this;
     }
@@ -1019,10 +1020,10 @@ class Articles {
     /**
      * Set the designation2.
      *
-     * @param string $designation2 The designation2.
+     * @param string|null $designation2 The designation2.
      * @return Articles Returns this Articles.
      */
-    public function setDesignation2($designation2) {
+    public function setDesignation2(?string $designation2): Articles {
         $this->designation2 = $designation2;
         return $this;
     }
@@ -1030,10 +1031,10 @@ class Articles {
     /**
      * Set the designation3.
      *
-     * @param string $designation3 The designation3.
+     * @param string|null $designation3 The designation3.
      * @return Articles Returns this Articles.
      */
-    public function setDesignation3($designation3) {
+    public function setDesignation3(?string $designation3): Articles {
         $this->designation3 = $designation3;
         return $this;
     }
@@ -1041,10 +1042,10 @@ class Articles {
     /**
      * Set the designation rtf.
      *
-     * @param string $designationRtf The designation rtf.
+     * @param string|null $designationRtf The designation rtf.
      * @return Articles Returns this Articles.
      */
-    public function setDesignationRtf($designationRtf) {
+    public function setDesignationRtf(?string $designationRtf): Articles {
         $this->designationRtf = $designationRtf;
         return $this;
     }
@@ -1052,10 +1053,10 @@ class Articles {
     /**
      * Set the famille article.
      *
-     * @param string $familleArticle The famille article.
+     * @param string|null $familleArticle The famille article.
      * @return Articles Returns this Articles.
      */
-    public function setFamilleArticle($familleArticle) {
+    public function setFamilleArticle(?string $familleArticle): Articles {
         $this->familleArticle = $familleArticle;
         return $this;
     }
@@ -1063,10 +1064,10 @@ class Articles {
     /**
      * Set the imprimer dans pied.
      *
-     * @param bool $imprimerDansPied The imprimer dans pied.
+     * @param bool|null $imprimerDansPied The imprimer dans pied.
      * @return Articles Returns this Articles.
      */
-    public function setImprimerDansPied($imprimerDansPied) {
+    public function setImprimerDansPied(?bool $imprimerDansPied): Articles {
         $this->imprimerDansPied = $imprimerDansPied;
         return $this;
     }
@@ -1074,10 +1075,10 @@ class Articles {
     /**
      * Set the montant unitaire taxe.
      *
-     * @param float $montantUnitaireTaxe The montant unitaire taxe.
+     * @param float|null $montantUnitaireTaxe The montant unitaire taxe.
      * @return Articles Returns this Articles.
      */
-    public function setMontantUnitaireTaxe($montantUnitaireTaxe) {
+    public function setMontantUnitaireTaxe(?float $montantUnitaireTaxe): Articles {
         $this->montantUnitaireTaxe = $montantUnitaireTaxe;
         return $this;
     }
@@ -1085,10 +1086,10 @@ class Articles {
     /**
      * Set the mot cle dans pied.
      *
-     * @param string $motCleDansPied The mot cle dans pied.
+     * @param string|null $motCleDansPied The mot cle dans pied.
      * @return Articles Returns this Articles.
      */
-    public function setMotCleDansPied($motCleDansPied) {
+    public function setMotCleDansPied(?string $motCleDansPied): Articles {
         $this->motCleDansPied = $motCleDansPied;
         return $this;
     }
@@ -1096,10 +1097,10 @@ class Articles {
     /**
      * Set the ne pas reviser.
      *
-     * @param bool $nePasReviser The ne pas reviser.
+     * @param bool|null $nePasReviser The ne pas reviser.
      * @return Articles Returns this Articles.
      */
-    public function setNePasReviser($nePasReviser) {
+    public function setNePasReviser(?bool $nePasReviser): Articles {
         $this->nePasReviser = $nePasReviser;
         return $this;
     }
@@ -1107,10 +1108,10 @@ class Articles {
     /**
      * Set the nombre echeances.
      *
-     * @param string $nombreEcheances The nombre echeances.
+     * @param string|null $nombreEcheances The nombre echeances.
      * @return Articles Returns this Articles.
      */
-    public function setNombreEcheances($nombreEcheances) {
+    public function setNombreEcheances(?string $nombreEcheances): Articles {
         $this->nombreEcheances = $nombreEcheances;
         return $this;
     }
@@ -1118,10 +1119,10 @@ class Articles {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return Articles Returns this Articles.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): Articles {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -1129,10 +1130,10 @@ class Articles {
     /**
      * Set the pamp.
      *
-     * @param float $pamp The pamp.
+     * @param float|null $pamp The pamp.
      * @return Articles Returns this Articles.
      */
-    public function setPamp($pamp) {
+    public function setPamp(?float $pamp): Articles {
         $this->pamp = $pamp;
         return $this;
     }
@@ -1140,10 +1141,10 @@ class Articles {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return Articles Returns this Articles.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): Articles {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -1151,10 +1152,10 @@ class Articles {
     /**
      * Set the prix net.
      *
-     * @param bool $prixNet The prix net.
+     * @param bool|null $prixNet The prix net.
      * @return Articles Returns this Articles.
      */
-    public function setPrixNet($prixNet) {
+    public function setPrixNet(?bool $prixNet): Articles {
         $this->prixNet = $prixNet;
         return $this;
     }
@@ -1162,10 +1163,10 @@ class Articles {
     /**
      * Set the prix revient.
      *
-     * @param float $prixRevient The prix revient.
+     * @param float|null $prixRevient The prix revient.
      * @return Articles Returns this Articles.
      */
-    public function setPrixRevient($prixRevient) {
+    public function setPrixRevient(?float $prixRevient): Articles {
         $this->prixRevient = $prixRevient;
         return $this;
     }
@@ -1173,10 +1174,10 @@ class Articles {
     /**
      * Set the prix vente.
      *
-     * @param float $prixVente The prix vente.
+     * @param float|null $prixVente The prix vente.
      * @return Articles Returns this Articles.
      */
-    public function setPrixVente($prixVente) {
+    public function setPrixVente(?float $prixVente): Articles {
         $this->prixVente = $prixVente;
         return $this;
     }
@@ -1184,10 +1185,10 @@ class Articles {
     /**
      * Set the prix vente euros.
      *
-     * @param float $prixVenteEuros The prix vente euros.
+     * @param float|null $prixVenteEuros The prix vente euros.
      * @return Articles Returns this Articles.
      */
-    public function setPrixVenteEuros($prixVenteEuros) {
+    public function setPrixVenteEuros(?float $prixVenteEuros): Articles {
         $this->prixVenteEuros = $prixVenteEuros;
         return $this;
     }
@@ -1195,10 +1196,10 @@ class Articles {
     /**
      * Set the produit.
      *
-     * @param bool $produit The produit.
+     * @param bool|null $produit The produit.
      * @return Articles Returns this Articles.
      */
-    public function setProduit($produit) {
+    public function setProduit(?bool $produit): Articles {
         $this->produit = $produit;
         return $this;
     }
@@ -1206,10 +1207,10 @@ class Articles {
     /**
      * Set the produit chimique.
      *
-     * @param bool $produitChimique The produit chimique.
+     * @param bool|null $produitChimique The produit chimique.
      * @return Articles Returns this Articles.
      */
-    public function setProduitChimique($produitChimique) {
+    public function setProduitChimique(?bool $produitChimique): Articles {
         $this->produitChimique = $produitChimique;
         return $this;
     }
@@ -1217,10 +1218,10 @@ class Articles {
     /**
      * Set the px facture.
      *
-     * @param bool $pxFacture The px facture.
+     * @param bool|null $pxFacture The px facture.
      * @return Articles Returns this Articles.
      */
-    public function setPxFacture($pxFacture) {
+    public function setPxFacture(?bool $pxFacture): Articles {
         $this->pxFacture = $pxFacture;
         return $this;
     }
@@ -1228,10 +1229,10 @@ class Articles {
     /**
      * Set the qte stock mini.
      *
-     * @param float $qteStockMini The qte stock mini.
+     * @param float|null $qteStockMini The qte stock mini.
      * @return Articles Returns this Articles.
      */
-    public function setQteStockMini($qteStockMini) {
+    public function setQteStockMini(?float $qteStockMini): Articles {
         $this->qteStockMini = $qteStockMini;
         return $this;
     }
@@ -1239,10 +1240,10 @@ class Articles {
     /**
      * Set the qte stock reel.
      *
-     * @param float $qteStockReel The qte stock reel.
+     * @param float|null $qteStockReel The qte stock reel.
      * @return Articles Returns this Articles.
      */
-    public function setQteStockReel($qteStockReel) {
+    public function setQteStockReel(?float $qteStockReel): Articles {
         $this->qteStockReel = $qteStockReel;
         return $this;
     }
@@ -1250,10 +1251,10 @@ class Articles {
     /**
      * Set the soumis escompte.
      *
-     * @param bool $soumisEscompte The soumis escompte.
+     * @param bool|null $soumisEscompte The soumis escompte.
      * @return Articles Returns this Articles.
      */
-    public function setSoumisEscompte($soumisEscompte) {
+    public function setSoumisEscompte(?bool $soumisEscompte): Articles {
         $this->soumisEscompte = $soumisEscompte;
         return $this;
     }
@@ -1261,10 +1262,10 @@ class Articles {
     /**
      * Set the suivi stock.
      *
-     * @param bool $suiviStock The suivi stock.
+     * @param bool|null $suiviStock The suivi stock.
      * @return Articles Returns this Articles.
      */
-    public function setSuiviStock($suiviStock) {
+    public function setSuiviStock(?bool $suiviStock): Articles {
         $this->suiviStock = $suiviStock;
         return $this;
     }
@@ -1272,10 +1273,10 @@ class Articles {
     /**
      * Set the taux escompte.
      *
-     * @param float $tauxEscompte The taux escompte.
+     * @param float|null $tauxEscompte The taux escompte.
      * @return Articles Returns this Articles.
      */
-    public function setTauxEscompte($tauxEscompte) {
+    public function setTauxEscompte(?float $tauxEscompte): Articles {
         $this->tauxEscompte = $tauxEscompte;
         return $this;
     }
@@ -1283,10 +1284,10 @@ class Articles {
     /**
      * Set the type article.
      *
-     * @param string $typeArticle The type article.
+     * @param string|null $typeArticle The type article.
      * @return Articles Returns this Articles.
      */
-    public function setTypeArticle($typeArticle) {
+    public function setTypeArticle(?string $typeArticle): Articles {
         $this->typeArticle = $typeArticle;
         return $this;
     }
@@ -1294,10 +1295,10 @@ class Articles {
     /**
      * Set the variante.
      *
-     * @param bool $variante The variante.
+     * @param bool|null $variante The variante.
      * @return Articles Returns this Articles.
      */
-    public function setVariante($variante) {
+    public function setVariante(?bool $variante): Articles {
         $this->variante = $variante;
         return $this;
     }
@@ -1305,10 +1306,10 @@ class Articles {
     /**
      * Set the ventil marge.
      *
-     * @param bool $ventilMarge The ventil marge.
+     * @param bool|null $ventilMarge The ventil marge.
      * @return Articles Returns this Articles.
      */
-    public function setVentilMarge($ventilMarge) {
+    public function setVentilMarge(?bool $ventilMarge): Articles {
         $this->ventilMarge = $ventilMarge;
         return $this;
     }
@@ -1316,10 +1317,10 @@ class Articles {
     /**
      * Set the visu dans att fisc.
      *
-     * @param bool $visuDansAttFisc The visu dans att fisc.
+     * @param bool|null $visuDansAttFisc The visu dans att fisc.
      * @return Articles Returns this Articles.
      */
-    public function setVisuDansAttFisc($visuDansAttFisc) {
+    public function setVisuDansAttFisc(?bool $visuDansAttFisc): Articles {
         $this->visuDansAttFisc = $visuDansAttFisc;
         return $this;
     }

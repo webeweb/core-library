@@ -27,7 +27,7 @@ class FloatExcludingVatTotalTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExcludingVatTotal() {
+    public function testSetExcludingVatTotal(): void {
 
         $obj = new TestFloatExcludingVatTotalTrait();
 
@@ -40,7 +40,7 @@ class FloatExcludingVatTotalTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatExcludingVatTotalTrait();
 

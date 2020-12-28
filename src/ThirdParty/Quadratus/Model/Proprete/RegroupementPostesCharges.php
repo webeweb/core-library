@@ -22,49 +22,50 @@ class RegroupementPostesCharges {
     /**
      * Code charge.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCharge;
 
     /**
      * Code reg charge.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegCharge;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code charge.
      *
-     * @return string Returns the code charge.
+     * @return string|null Returns the code charge.
      */
-    public function getCodeCharge() {
+    public function getCodeCharge(): ?string{
         return $this->codeCharge;
     }
 
     /**
      * Get the code reg charge.
      *
-     * @return string Returns the code reg charge.
+     * @return string|null Returns the code reg charge.
      */
-    public function getCodeRegCharge() {
+    public function getCodeRegCharge(): ?string{
         return $this->codeRegCharge;
     }
 
     /**
      * Set the code charge.
      *
-     * @param string $codeCharge The code charge.
+     * @param string|null $codeCharge The code charge.
      * @return RegroupementPostesCharges Returns this Regroupement postes charges.
      */
-    public function setCodeCharge($codeCharge) {
+    public function setCodeCharge(?string $codeCharge): RegroupementPostesCharges {
         $this->codeCharge = $codeCharge;
         return $this;
     }
@@ -72,10 +73,10 @@ class RegroupementPostesCharges {
     /**
      * Set the code reg charge.
      *
-     * @param string $codeRegCharge The code reg charge.
+     * @param string|null $codeRegCharge The code reg charge.
      * @return RegroupementPostesCharges Returns this Regroupement postes charges.
      */
-    public function setCodeRegCharge($codeRegCharge) {
+    public function setCodeRegCharge(?string $codeRegCharge): RegroupementPostesCharges {
         $this->codeRegCharge = $codeRegCharge;
         return $this;
     }

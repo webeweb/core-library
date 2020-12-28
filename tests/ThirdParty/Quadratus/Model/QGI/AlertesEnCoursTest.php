@@ -29,7 +29,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArDemande() {
+    public function testSetArDemande(): void {
 
         $obj = new AlertesEnCours();
 
@@ -42,7 +42,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AlertesEnCours();
 
@@ -55,7 +55,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabDst() {
+    public function testSetCodeCollabDst(): void {
 
         $obj = new AlertesEnCours();
 
@@ -68,7 +68,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabOrg() {
+    public function testSetCodeCollabOrg(): void {
 
         $obj = new AlertesEnCours();
 
@@ -82,7 +82,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDeclenchement() {
+    public function testSetDateDeclenchement(): void {
 
         // Set a Date/time mock.
         $dateDeclenchement = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdAlerte() {
+    public function testSetIdAlerte(): void {
 
         $obj = new AlertesEnCours();
 
@@ -128,7 +128,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteAlerte() {
+    public function testSetTexteAlerte(): void {
 
         $obj = new AlertesEnCours();
 
@@ -141,7 +141,7 @@ class AlertesEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AlertesEnCours();
 

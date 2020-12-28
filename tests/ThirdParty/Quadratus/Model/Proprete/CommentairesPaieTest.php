@@ -29,7 +29,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new CommentairesPaie();
 
@@ -42,7 +42,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new CommentairesPaie();
 
@@ -55,7 +55,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new CommentairesPaie();
 
@@ -68,7 +68,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new CommentairesPaie();
 
@@ -82,7 +82,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateComm() {
+    public function testSetDateComm(): void {
 
         // Set a Date/time mock.
         $dateComm = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new CommentairesPaie();
 
@@ -128,7 +128,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdComm() {
+    public function testSetIdComm(): void {
 
         $obj = new CommentairesPaie();
 
@@ -142,7 +142,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -158,7 +158,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeComm() {
+    public function testSetTypeComm(): void {
 
         $obj = new CommentairesPaie();
 
@@ -171,7 +171,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new CommentairesPaie();
 
@@ -184,7 +184,7 @@ class CommentairesPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CommentairesPaie();
 

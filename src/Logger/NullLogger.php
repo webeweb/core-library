@@ -24,7 +24,7 @@ class NullLogger extends AbstractLogger {
     /**
      *{@inheritDoc}
      */
-    public function log($level, $message, array $context = []) {
-        // NOTHING TO DO.
+    public function log($level, $message, array $context = []): void {
+        // NOTHING TO DO
     }
 }

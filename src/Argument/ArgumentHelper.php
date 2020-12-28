@@ -38,13 +38,13 @@ class ArgumentHelper implements ArgumentInterface {
     /**
      * Convert a string value into type $type.
      *
-     * @param string $value The string value.
+     * @param string|null $value The string value.
      * @param int $type The type.
      * @param string $dateFormat The date format.
      * @return mixed Returns the value.
      * @throws InvalidArgumentException Throws an invalid argument exception.
      */
-    public static function convert($value, $type, $dateFormat = null) {
+    public static function convert(?string $value, int $type, $dateFormat = null) {
 
         switch ($type) {
 
@@ -95,7 +95,7 @@ class ArgumentHelper implements ArgumentInterface {
      * @return bool Returns true.
      * @throws InvalidArgumentException Throws an invalid argument exception.
      */
-    public static function isTypeOf($value, $type) {
+    public static function isTypeOf($value, int $type): bool {
 
         switch ($type) {
 

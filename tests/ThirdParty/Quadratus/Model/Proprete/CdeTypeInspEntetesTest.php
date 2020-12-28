@@ -29,7 +29,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInspecteur() {
+    public function testSetCodeInspecteur(): void {
 
         $obj = new CdeTypeInspEntetes();
 
@@ -43,7 +43,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeDebut() {
+    public function testSetDtValiditeDebut(): void {
 
         // Set a Date/time mock.
         $dtValiditeDebut = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFin() {
+    public function testSetDtValiditeFin(): void {
 
         // Set a Date/time mock.
         $dtValiditeFin = new DateTime("2018-09-10");
@@ -76,7 +76,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBudget() {
+    public function testSetMontantBudget(): void {
 
         $obj = new CdeTypeInspEntetes();
 
@@ -89,7 +89,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHtCde() {
+    public function testSetMontantHtCde(): void {
 
         $obj = new CdeTypeInspEntetes();
 
@@ -102,7 +102,7 @@ class CdeTypeInspEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CdeTypeInspEntetes();
 

@@ -29,7 +29,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArtt() {
+    public function testSetArtt(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -42,7 +42,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -55,7 +55,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSiteTenue() {
+    public function testSetCodeSiteTenue(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -68,7 +68,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConfidentiel() {
+    public function testSetConfidentiel(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -82,7 +82,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDerniereModifAgenda() {
+    public function testSetDateDerniereModifAgenda(): void {
 
         // Set a Date/time mock.
         $dateDerniereModifAgenda = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDimancheAMdeb() {
+    public function testSetDimancheAMdeb(): void {
 
         // Set a Date/time mock.
         $dimancheAMdeb = new DateTime("2018-09-10");
@@ -116,7 +116,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDimancheAMfin() {
+    public function testSetDimancheAMfin(): void {
 
         // Set a Date/time mock.
         $dimancheAMfin = new DateTime("2018-09-10");
@@ -133,7 +133,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDimanchePMdeb() {
+    public function testSetDimanchePMdeb(): void {
 
         // Set a Date/time mock.
         $dimanchePMdeb = new DateTime("2018-09-10");
@@ -150,7 +150,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDimanchePMfin() {
+    public function testSetDimanchePMfin(): void {
 
         // Set a Date/time mock.
         $dimanchePMfin = new DateTime("2018-09-10");
@@ -166,7 +166,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterdireRdVHorsTravail() {
+    public function testSetInterdireRdVHorsTravail(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -180,7 +180,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJeudiAMdeb() {
+    public function testSetJeudiAMdeb(): void {
 
         // Set a Date/time mock.
         $jeudiAMdeb = new DateTime("2018-09-10");
@@ -197,7 +197,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJeudiAMfin() {
+    public function testSetJeudiAMfin(): void {
 
         // Set a Date/time mock.
         $jeudiAMfin = new DateTime("2018-09-10");
@@ -214,7 +214,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJeudiPMdeb() {
+    public function testSetJeudiPMdeb(): void {
 
         // Set a Date/time mock.
         $jeudiPMdeb = new DateTime("2018-09-10");
@@ -231,7 +231,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJeudiPMfin() {
+    public function testSetJeudiPMfin(): void {
 
         // Set a Date/time mock.
         $jeudiPMfin = new DateTime("2018-09-10");
@@ -248,7 +248,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetLundiAMdeb() {
+    public function testSetLundiAMdeb(): void {
 
         // Set a Date/time mock.
         $lundiAMdeb = new DateTime("2018-09-10");
@@ -265,7 +265,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetLundiAMfin() {
+    public function testSetLundiAMfin(): void {
 
         // Set a Date/time mock.
         $lundiAMfin = new DateTime("2018-09-10");
@@ -282,7 +282,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetLundiPMdeb() {
+    public function testSetLundiPMdeb(): void {
 
         // Set a Date/time mock.
         $lundiPMdeb = new DateTime("2018-09-10");
@@ -299,7 +299,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetLundiPMfin() {
+    public function testSetLundiPMfin(): void {
 
         // Set a Date/time mock.
         $lundiPMfin = new DateTime("2018-09-10");
@@ -316,7 +316,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMardiAMdeb() {
+    public function testSetMardiAMdeb(): void {
 
         // Set a Date/time mock.
         $mardiAMdeb = new DateTime("2018-09-10");
@@ -333,7 +333,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMardiAMfin() {
+    public function testSetMardiAMfin(): void {
 
         // Set a Date/time mock.
         $mardiAMfin = new DateTime("2018-09-10");
@@ -350,7 +350,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMardiPMdeb() {
+    public function testSetMardiPMdeb(): void {
 
         // Set a Date/time mock.
         $mardiPMdeb = new DateTime("2018-09-10");
@@ -367,7 +367,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMardiPMfin() {
+    public function testSetMardiPMfin(): void {
 
         // Set a Date/time mock.
         $mardiPMfin = new DateTime("2018-09-10");
@@ -384,7 +384,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMercrediAMdeb() {
+    public function testSetMercrediAMdeb(): void {
 
         // Set a Date/time mock.
         $mercrediAMdeb = new DateTime("2018-09-10");
@@ -401,7 +401,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMercrediAMfin() {
+    public function testSetMercrediAMfin(): void {
 
         // Set a Date/time mock.
         $mercrediAMfin = new DateTime("2018-09-10");
@@ -418,7 +418,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMercrediPMdeb() {
+    public function testSetMercrediPMdeb(): void {
 
         // Set a Date/time mock.
         $mercrediPMdeb = new DateTime("2018-09-10");
@@ -435,7 +435,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMercrediPMfin() {
+    public function testSetMercrediPMfin(): void {
 
         // Set a Date/time mock.
         $mercrediPMfin = new DateTime("2018-09-10");
@@ -452,7 +452,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPlusPetiteDateActiviteModifiee() {
+    public function testSetPlusPetiteDateActiviteModifiee(): void {
 
         // Set a Date/time mock.
         $plusPetiteDateActiviteModifiee = new DateTime("2018-09-10");
@@ -469,7 +469,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSamediAMdeb() {
+    public function testSetSamediAMdeb(): void {
 
         // Set a Date/time mock.
         $samediAMdeb = new DateTime("2018-09-10");
@@ -486,7 +486,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSamediAMfin() {
+    public function testSetSamediAMfin(): void {
 
         // Set a Date/time mock.
         $samediAMfin = new DateTime("2018-09-10");
@@ -503,7 +503,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSamediPMdeb() {
+    public function testSetSamediPMdeb(): void {
 
         // Set a Date/time mock.
         $samediPMdeb = new DateTime("2018-09-10");
@@ -520,7 +520,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSamediPMfin() {
+    public function testSetSamediPMfin(): void {
 
         // Set a Date/time mock.
         $samediPMfin = new DateTime("2018-09-10");
@@ -536,7 +536,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviOrdreMission() {
+    public function testSetSuiviOrdreMission(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -549,7 +549,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteRdv() {
+    public function testSetUniteRdv(): void {
 
         $obj = new AgendaCollabConst();
 
@@ -563,7 +563,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetVendrediAMdeb() {
+    public function testSetVendrediAMdeb(): void {
 
         // Set a Date/time mock.
         $vendrediAMdeb = new DateTime("2018-09-10");
@@ -580,7 +580,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetVendrediAMfin() {
+    public function testSetVendrediAMfin(): void {
 
         // Set a Date/time mock.
         $vendrediAMfin = new DateTime("2018-09-10");
@@ -597,7 +597,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetVendrediPMdeb() {
+    public function testSetVendrediPMdeb(): void {
 
         // Set a Date/time mock.
         $vendrediPMdeb = new DateTime("2018-09-10");
@@ -614,7 +614,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetVendrediPMfin() {
+    public function testSetVendrediPMfin(): void {
 
         // Set a Date/time mock.
         $vendrediPMfin = new DateTime("2018-09-10");
@@ -630,7 +630,7 @@ class AgendaCollabConstTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaCollabConst();
 

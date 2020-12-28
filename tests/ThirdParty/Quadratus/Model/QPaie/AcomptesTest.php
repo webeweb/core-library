@@ -29,7 +29,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new Acomptes();
 
@@ -42,7 +42,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new Acomptes();
 
@@ -55,7 +55,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCongesPayes() {
+    public function testSetCongesPayes(): void {
 
         $obj = new Acomptes();
 
@@ -69,7 +69,7 @@ class AcomptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class AcomptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAdded() {
+    public function testSetDateAdded(): void {
 
         // Set a Date/time mock.
         $dateAdded = new DateTime("2018-09-10");
@@ -103,7 +103,7 @@ class AcomptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAddedColl() {
+    public function testSetDateAddedColl(): void {
 
         // Set a Date/time mock.
         $dateAddedColl = new DateTime("2018-09-10");
@@ -119,7 +119,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnEuro() {
+    public function testSetEnEuro(): void {
 
         $obj = new Acomptes();
 
@@ -132,7 +132,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInBul() {
+    public function testSetInBul(): void {
 
         $obj = new Acomptes();
 
@@ -145,7 +145,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Acomptes();
 
@@ -158,7 +158,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new Acomptes();
 
@@ -171,7 +171,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new Acomptes();
 
@@ -184,7 +184,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Acomptes();
 
@@ -197,7 +197,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaye() {
+    public function testSetPaye(): void {
 
         $obj = new Acomptes();
 
@@ -210,7 +210,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePaiement() {
+    public function testSetTypePaiement(): void {
 
         $obj = new Acomptes();
 
@@ -223,7 +223,7 @@ class AcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Acomptes();
 

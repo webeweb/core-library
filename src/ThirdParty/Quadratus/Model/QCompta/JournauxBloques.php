@@ -24,7 +24,7 @@ class JournauxBloques {
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
@@ -35,19 +35,20 @@ class JournauxBloques {
      */
     private $periode;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
@@ -56,17 +57,17 @@ class JournauxBloques {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return JournauxBloques Returns this Journaux bloques.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): JournauxBloques {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -77,7 +78,7 @@ class JournauxBloques {
      * @param DateTime|null $periode The periode.
      * @return JournauxBloques Returns this Journaux bloques.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): JournauxBloques {
         $this->periode = $periode;
         return $this;
     }

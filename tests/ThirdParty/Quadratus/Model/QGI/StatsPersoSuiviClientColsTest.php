@@ -27,7 +27,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnN() {
+    public function testSetAnN(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -40,7 +40,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -53,7 +53,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -66,7 +66,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -79,7 +79,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleAutres() {
+    public function testSetRegleAutres(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -92,7 +92,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleBarn() {
+    public function testSetRegleBarn(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -105,7 +105,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleBars() {
+    public function testSetRegleBars(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -118,7 +118,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleBicrn() {
+    public function testSetRegleBicrn(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -131,7 +131,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleBicrs() {
+    public function testSetRegleBicrs(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -144,7 +144,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleBnc() {
+    public function testSetRegleBnc(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -157,7 +157,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleSci() {
+    public function testSetRegleSci(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -170,7 +170,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleScm() {
+    public function testSetRegleScm(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -183,7 +183,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleTous() {
+    public function testSetRegleTous(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 
@@ -196,7 +196,7 @@ class StatsPersoSuiviClientColsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new StatsPersoSuiviClientCols();
 

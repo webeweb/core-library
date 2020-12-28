@@ -27,7 +27,7 @@ class StringTextTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText() {
+    public function testSetText(): void {
 
         $obj = new TestStringTextTrait();
 
@@ -40,7 +40,7 @@ class StringTextTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringTextTrait();
 

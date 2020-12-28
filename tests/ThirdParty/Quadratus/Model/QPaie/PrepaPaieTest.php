@@ -29,7 +29,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCpPris() {
+    public function testSetCpPris(): void {
 
         $obj = new PrepaPaie();
 
@@ -42,7 +42,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHMajoAcquis() {
+    public function testSetHMajoAcquis(): void {
 
         $obj = new PrepaPaie();
 
@@ -55,7 +55,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHMajoPris() {
+    public function testSetHMajoPris(): void {
 
         $obj = new PrepaPaie();
 
@@ -68,7 +68,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSupAComptabiliserRc() {
+    public function testSetHSupAComptabiliserRc(): void {
 
         $obj = new PrepaPaie();
 
@@ -81,7 +81,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSupAComptabiliserRcit() {
+    public function testSetHSupAComptabiliserRcit(): void {
 
         $obj = new PrepaPaie();
 
@@ -94,7 +94,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSupBonif() {
+    public function testSetHSupBonif(): void {
 
         $obj = new PrepaPaie();
 
@@ -107,7 +107,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHorairePrevu() {
+    public function testSetHorairePrevu(): void {
 
         $obj = new PrepaPaie();
 
@@ -120,7 +120,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHComp() {
+    public function testSetNbHComp(): void {
 
         $obj = new PrepaPaie();
 
@@ -133,7 +133,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHNuit() {
+    public function testSetNbHNuit(): void {
 
         $obj = new PrepaPaie();
 
@@ -146,7 +146,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new PrepaPaie();
 
@@ -160,7 +160,7 @@ class PrepaPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -176,7 +176,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentHBonif() {
+    public function testSetPourcentHBonif(): void {
 
         $obj = new PrepaPaie();
 
@@ -189,7 +189,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRRecupAcquis() {
+    public function testSetRRecupAcquis(): void {
 
         $obj = new PrepaPaie();
 
@@ -202,7 +202,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRRecupPris() {
+    public function testSetRRecupPris(): void {
 
         $obj = new PrepaPaie();
 
@@ -215,7 +215,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRcAcquis() {
+    public function testSetRcAcquis(): void {
 
         $obj = new PrepaPaie();
 
@@ -228,7 +228,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRcPris() {
+    public function testSetRcPris(): void {
 
         $obj = new PrepaPaie();
 
@@ -241,7 +241,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRrAcquis() {
+    public function testSetRrAcquis(): void {
 
         $obj = new PrepaPaie();
 
@@ -254,7 +254,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRrPris() {
+    public function testSetRrPris(): void {
 
         $obj = new PrepaPaie();
 
@@ -267,7 +267,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSemaine() {
+    public function testSetSemaine(): void {
 
         $obj = new PrepaPaie();
 
@@ -280,7 +280,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotRealise() {
+    public function testSetTotRealise(): void {
 
         $obj = new PrepaPaie();
 
@@ -293,7 +293,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailEffectif() {
+    public function testSetTravailEffectif(): void {
 
         $obj = new PrepaPaie();
 
@@ -306,7 +306,7 @@ class PrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PrepaPaie();
 

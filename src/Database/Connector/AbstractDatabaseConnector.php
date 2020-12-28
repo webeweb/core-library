@@ -59,14 +59,14 @@ abstract class AbstractDatabaseConnector {
      * @return PDO Returns the connection.
      * @throws Exception Throws an exception if the connection failed.
      */
-    abstract protected function connect();
+    abstract protected function connect(): PDO;
 
     /**
      * Get the authenticator.
      *
      * @return Authenticator Returns the authenticator.
      */
-    public function getAuthenticator() {
+    public function getAuthenticator(): Authenticator {
         return $this->authenticator;
     }
 
@@ -76,7 +76,7 @@ abstract class AbstractDatabaseConnector {
      * @return PDO Returns the connection.
      * @throws Exception Throws an exception if the connection failed.
      */
-    public function getConnection() {
+    public function getConnection(): PDO {
         if (null === $this->connection) {
             $this->connection = $this->connect();
         }
@@ -88,7 +88,7 @@ abstract class AbstractDatabaseConnector {
      *
      * @return string Returns the database.
      */
-    public function getDatabase() {
+    public function getDatabase(): ?string {
         return $this->database;
     }
 
@@ -98,7 +98,7 @@ abstract class AbstractDatabaseConnector {
      * @param array $fields The fields.
      * @return array Returns the binding as key => :key.
      */
-    public function prepareBinding(array $fields) {
+    public function prepareBinding(array $fields): array {
         $output = [];
         foreach ($fields as $current) {
             $output[$current] = ":" . $current;
@@ -113,7 +113,7 @@ abstract class AbstractDatabaseConnector {
      * @param array $values The values [field => value].
      * @return string Returns the INSERT SQL query.
      */
-    public function prepareInsert($table, array $values) {
+    public function prepareInsert(string $table, array $values): string {
 
         $query = [
             "INSERT INTO ",
@@ -135,7 +135,7 @@ abstract class AbstractDatabaseConnector {
      * @param array $values The values [field => value]
      * @return string Returns the UPDATE SQL query.
      */
-    public function prepareUpdate($table, array $values) {
+    public function prepareUpdate(string $table, array $values): string {
 
         $set = [];
         foreach ($values as $k => $v) {
@@ -158,7 +158,7 @@ abstract class AbstractDatabaseConnector {
      * @param Authenticator $authenticator The authenticator.
      * @return AbstractDatabaseConnector Returns this database connector.
      */
-    protected function setAuthenticator(Authenticator $authenticator) {
+    protected function setAuthenticator(Authenticator $authenticator): AbstractDatabaseConnector {
         $this->authenticator = $authenticator;
         return $this;
     }
@@ -166,10 +166,10 @@ abstract class AbstractDatabaseConnector {
     /**
      * Set the database.
      *
-     * @param string $database The database.
+     * @param string|null $database The database.
      * @return AbstractDatabaseConnector Returns this database connector.
      */
-    protected function setDatabase($database) {
+    protected function setDatabase(?string $database): AbstractDatabaseConnector {
         $this->database = $database;
         return $this;
     }

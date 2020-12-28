@@ -22,161 +22,162 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code element.
      *
-     * @var string
+     * @var string|null
      */
     private $codeElement;
 
     /**
      * Coefficient.
      *
-     * @var float
+     * @var float|null
      */
     private $coefficient;
 
     /**
      * Niveau noeud.
      *
-     * @var int
+     * @var int|null
      */
     private $niveauNoeud;
 
     /**
      * Numero noeud.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroNoeud;
 
     /**
      * Type element.
      *
-     * @var string
+     * @var string|null
      */
     private $typeElement;
 
     /**
      * Uniq id local.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdLocal;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code element.
      *
-     * @return string Returns the code element.
+     * @return string|null Returns the code element.
      */
-    public function getCodeElement() {
+    public function getCodeElement(): ?string{
         return $this->codeElement;
     }
 
     /**
      * Get the coefficient.
      *
-     * @return float Returns the coefficient.
+     * @return float|null Returns the coefficient.
      */
-    public function getCoefficient() {
+    public function getCoefficient(): ?float{
         return $this->coefficient;
     }
 
     /**
      * Get the niveau noeud.
      *
-     * @return int Returns the niveau noeud.
+     * @return int|null Returns the niveau noeud.
      */
-    public function getNiveauNoeud() {
+    public function getNiveauNoeud(): ?int{
         return $this->niveauNoeud;
     }
 
     /**
      * Get the numero noeud.
      *
-     * @return int Returns the numero noeud.
+     * @return int|null Returns the numero noeud.
      */
-    public function getNumeroNoeud() {
+    public function getNumeroNoeud(): ?int{
         return $this->numeroNoeud;
     }
 
     /**
      * Get the type element.
      *
-     * @return string Returns the type element.
+     * @return string|null Returns the type element.
      */
-    public function getTypeElement() {
+    public function getTypeElement(): ?string{
         return $this->typeElement;
     }
 
     /**
      * Get the uniq id local.
      *
-     * @return string Returns the uniq id local.
+     * @return string|null Returns the uniq id local.
      */
-    public function getUniqIdLocal() {
+    public function getUniqIdLocal(): ?string{
         return $this->uniqIdLocal;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): ChantiersDescriptifLocauxElements {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -184,10 +185,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): ChantiersDescriptifLocauxElements {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -195,10 +196,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ChantiersDescriptifLocauxElements {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -206,10 +207,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the code element.
      *
-     * @param string $codeElement The code element.
+     * @param string|null $codeElement The code element.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setCodeElement($codeElement) {
+    public function setCodeElement(?string $codeElement): ChantiersDescriptifLocauxElements {
         $this->codeElement = $codeElement;
         return $this;
     }
@@ -217,10 +218,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the coefficient.
      *
-     * @param float $coefficient The coefficient.
+     * @param float|null $coefficient The coefficient.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setCoefficient($coefficient) {
+    public function setCoefficient(?float $coefficient): ChantiersDescriptifLocauxElements {
         $this->coefficient = $coefficient;
         return $this;
     }
@@ -228,10 +229,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the niveau noeud.
      *
-     * @param int $niveauNoeud The niveau noeud.
+     * @param int|null $niveauNoeud The niveau noeud.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setNiveauNoeud($niveauNoeud) {
+    public function setNiveauNoeud(?int $niveauNoeud): ChantiersDescriptifLocauxElements {
         $this->niveauNoeud = $niveauNoeud;
         return $this;
     }
@@ -239,10 +240,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the numero noeud.
      *
-     * @param int $numeroNoeud The numero noeud.
+     * @param int|null $numeroNoeud The numero noeud.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setNumeroNoeud($numeroNoeud) {
+    public function setNumeroNoeud(?int $numeroNoeud): ChantiersDescriptifLocauxElements {
         $this->numeroNoeud = $numeroNoeud;
         return $this;
     }
@@ -250,10 +251,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the type element.
      *
-     * @param string $typeElement The type element.
+     * @param string|null $typeElement The type element.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setTypeElement($typeElement) {
+    public function setTypeElement(?string $typeElement): ChantiersDescriptifLocauxElements {
         $this->typeElement = $typeElement;
         return $this;
     }
@@ -261,10 +262,10 @@ class ChantiersDescriptifLocauxElements {
     /**
      * Set the uniq id local.
      *
-     * @param string $uniqIdLocal The uniq id local.
+     * @param string|null $uniqIdLocal The uniq id local.
      * @return ChantiersDescriptifLocauxElements Returns this Chantiers descriptif locaux elements.
      */
-    public function setUniqIdLocal($uniqIdLocal) {
+    public function setUniqIdLocal(?string $uniqIdLocal): ChantiersDescriptifLocauxElements {
         $this->uniqIdLocal = $uniqIdLocal;
         return $this;
     }

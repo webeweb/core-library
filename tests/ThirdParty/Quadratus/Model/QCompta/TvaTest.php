@@ -27,7 +27,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Tva();
 
@@ -40,7 +40,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTvaAchat() {
+    public function testSetCompteTvaAchat(): void {
 
         $obj = new Tva();
 
@@ -53,7 +53,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTvaImmo() {
+    public function testSetCompteTvaImmo(): void {
 
         $obj = new Tva();
 
@@ -66,7 +66,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTvaVente() {
+    public function testSetCompteTvaVente(): void {
 
         $obj = new Tva();
 
@@ -79,7 +79,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteVentilation() {
+    public function testSetCompteVentilation(): void {
 
         $obj = new Tva();
 
@@ -92,7 +92,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva() {
+    public function testSetTauxTva(): void {
 
         $obj = new Tva();
 
@@ -105,7 +105,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutoliquidation() {
+    public function testSetTypeAutoliquidation(): void {
 
         $obj = new Tva();
 
@@ -118,7 +118,7 @@ class TvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Tva();
 

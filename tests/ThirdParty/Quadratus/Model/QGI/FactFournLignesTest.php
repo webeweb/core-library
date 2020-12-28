@@ -27,7 +27,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FactFournLignes();
 
@@ -40,7 +40,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new FactFournLignes();
 
@@ -53,7 +53,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollaborateur() {
+    public function testSetCollaborateur(): void {
 
         $obj = new FactFournLignes();
 
@@ -66,7 +66,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompte() {
+    public function testSetCompte(): void {
 
         $obj = new FactFournLignes();
 
@@ -79,7 +79,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new FactFournLignes();
 
@@ -92,7 +92,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCredit() {
+    public function testSetMontantCredit(): void {
 
         $obj = new FactFournLignes();
 
@@ -105,7 +105,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantDebit() {
+    public function testSetMontantDebit(): void {
 
         $obj = new FactFournLignes();
 
@@ -118,7 +118,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEntete() {
+    public function testSetNumEntete(): void {
 
         $obj = new FactFournLignes();
 
@@ -131,7 +131,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new FactFournLignes();
 
@@ -144,7 +144,7 @@ class FactFournLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FactFournLignes();
 

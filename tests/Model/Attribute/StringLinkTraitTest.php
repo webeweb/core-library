@@ -27,7 +27,7 @@ class StringLinkTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLink() {
+    public function testSetLink(): void {
 
         $obj = new TestStringLinkTrait();
 
@@ -40,7 +40,7 @@ class StringLinkTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringLinkTrait();
 

@@ -41,7 +41,7 @@ class PregReplaceTransformer implements TransformerInterface {
      * @param string $pattern The pattern.
      * @param string $replacement The replacement.
      */
-    public function __construct($pattern, $replacement) {
+    public function __construct(string $pattern, string $replacement) {
         $this->setPattern($pattern);
         $this->setReplacement($replacement);
     }
@@ -51,7 +51,7 @@ class PregReplaceTransformer implements TransformerInterface {
      *
      * @return string Returns the pattern.
      */
-    public function getPattern() {
+    public function getPattern(): string {
         return $this->pattern;
     }
 
@@ -60,7 +60,7 @@ class PregReplaceTransformer implements TransformerInterface {
      *
      * @return string Returns the replacement.
      */
-    public function getReplacement() {
+    public function getReplacement(): string {
         return $this->replacement;
     }
 
@@ -70,7 +70,7 @@ class PregReplaceTransformer implements TransformerInterface {
      * @param string $pattern The pattern.
      * @return TransformerInterface Returns this preg_replace transformer.
      */
-    public function setPattern($pattern) {
+    public function setPattern(string $pattern): TransformerInterface {
         $this->pattern = $pattern;
         return $this;
     }
@@ -81,13 +81,13 @@ class PregReplaceTransformer implements TransformerInterface {
      * @param string $replacement The replacement.
      * @return TransformerInterface Returns this preg_replace transformer.
      */
-    public function setReplacement($replacement) {
+    public function setReplacement(string $replacement): TransformerInterface {
         $this->replacement = $replacement;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function transform($value) {
         if (null === $value || false === is_string($value)) {

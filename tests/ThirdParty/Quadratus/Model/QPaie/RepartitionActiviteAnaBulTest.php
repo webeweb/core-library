@@ -29,7 +29,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new RepartitionActiviteAnaBul();
 
@@ -42,7 +42,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new RepartitionActiviteAnaBul();
 
@@ -55,7 +55,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new RepartitionActiviteAnaBul();
 
@@ -68,7 +68,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new RepartitionActiviteAnaBul();
 
@@ -82,7 +82,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxVentilation() {
+    public function testSetTauxVentilation(): void {
 
         $obj = new RepartitionActiviteAnaBul();
 
@@ -111,7 +111,7 @@ class RepartitionActiviteAnaBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RepartitionActiviteAnaBul();
 

@@ -24,280 +24,245 @@ class Immobilisations {
     /**
      * Ad amort anterieur.
      *
-     * @var float
+     * @var float|null
      */
     private $adAmortAnterieur;
 
     /**
      * Ad amort anterieur2.
      *
-     * @var float
+     * @var float|null
      */
     private $adAmortAnterieur2;
 
     /**
      * Ad annees amort.
      *
-     * @var float
+     * @var float|null
      */
     private $adAnneesAmort;
 
     /**
      * Ad coeff degressif.
      *
-     * @var float
+     * @var float|null
      */
     private $adCoeffDegressif;
 
     /**
      * Ad deduction amort anterieur.
      *
-     * @var float
+     * @var float|null
      */
     private $adDeductionAmortAnterieur;
 
     /**
      * Ad deduction dotation.
      *
-     * @var float
+     * @var float|null
      */
     private $adDeductionDotation;
 
     /**
      * Ad dotation.
      *
-     * @var float
+     * @var float|null
      */
     private $adDotation;
 
     /**
      * Ad dotation2.
      *
-     * @var float
+     * @var float|null
      */
     private $adDotation2;
 
     /**
      * Ad dotation except.
      *
-     * @var float
+     * @var float|null
      */
     private $adDotationExcept;
 
     /**
      * Ad duree.
      *
-     * @var float
+     * @var float|null
      */
     private $adDuree;
 
     /**
      * Ad duree tot.
      *
-     * @var string
+     * @var string|null
      */
     private $adDureeTot;
 
     /**
      * Ad garder dot saisie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $adGarderDotSaisie;
 
     /**
      * Ad quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $adQuantite;
 
     /**
      * Ad taux lineaire.
      *
-     * @var float
+     * @var float|null
      */
     private $adTauxLineaire;
 
     /**
      * Ad type.
      *
-     * @var string
+     * @var string|null
      */
     private $adType;
 
     /**
      * Af amort anterieur.
      *
-     * @var float
+     * @var float|null
      */
     private $afAmortAnterieur;
 
     /**
      * Af annees amort.
      *
-     * @var float
+     * @var float|null
      */
     private $afAnneesAmort;
 
     /**
      * Af coeff degressif.
      *
-     * @var float
+     * @var float|null
      */
     private $afCoeffDegressif;
 
     /**
      * Af dotation.
      *
-     * @var float
+     * @var float|null
      */
     private $afDotation;
 
     /**
      * Af duree.
      *
-     * @var float
+     * @var float|null
      */
     private $afDuree;
 
     /**
+     * Afsii.
+     *
+     * @var bool|null
+     */
+    private $afsii;
+
+    /**
      * Af taux except.
      *
-     * @var float
+     * @var float|null
      */
     private $afTauxExcept;
 
     /**
      * Af taux lineaire.
      *
-     * @var float
+     * @var float|null
      */
     private $afTauxLineaire;
 
     /**
      * Af type.
      *
-     * @var string
+     * @var string|null
      */
     private $afType;
 
     /**
-     * Afsii.
-     *
-     * @var bool
-     */
-    private $afsii;
-
-    /**
      * Art151 duree deja etalee.
      *
-     * @var string
+     * @var string|null
      */
     private $art151DureeDejaEtalee;
 
     /**
      * Art151 duree etalement.
      *
-     * @var string
+     * @var string|null
      */
     private $art151DureeEtalement;
 
     /**
      * Art151 montant deja etale.
      *
-     * @var float
+     * @var float|null
      */
     private $art151MontantDejaEtale;
 
     /**
      * Art151 montant etale annee.
      *
-     * @var float
+     * @var float|null
      */
     private $art151MontantEtaleAnnee;
 
     /**
      * Base calcul.
      *
-     * @var int
+     * @var int|null
      */
     private $baseCalcul;
 
     /**
      * Base taxe pro.
      *
-     * @var float
+     * @var float|null
      */
     private $baseTaxePro;
 
     /**
      * Bureau.
      *
-     * @var string
+     * @var string|null
      */
     private $bureau;
 
     /**
-     * C taux imp.
-     *
-     * @var float
-     */
-    private $cTauxImp;
-
-    /**
-     * C valeur euros.
-     *
-     * @var float
-     */
-    private $cValeurEuros;
-
-    /**
-     * Centre analytique.
-     *
-     * @var string
-     */
-    private $centreAnalytique;
-
-    /**
-     * Code tva.
-     *
-     * @var string
-     */
-    private $codeTva;
-
-    /**
-     * Compte frn.
-     *
-     * @var string
-     */
-    private $compteFrn;
-
-    /**
      * Cr is dot.
      *
-     * @var bool
+     * @var bool|null
      */
     private $crIsDot;
 
     /**
      * Crr151 motif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $crr151Motif;
 
     /**
      * Crr151 pm value ct.
      *
-     * @var float
+     * @var float|null
      */
     private $crr151PmValueCt;
 
     /**
      * Crr151 pm value lt.
      *
-     * @var float
+     * @var float|null
      */
     private $crr151PmValueLt;
 
@@ -309,67 +274,109 @@ class Immobilisations {
     private $crrDate;
 
     /**
-     * Crr px cession ht.
-     *
-     * @var float
-     */
-    private $crrPxCessionHt;
-
-    /**
-     * Crr qte vendue.
-     *
-     * @var float
-     */
-    private $crrQteVendue;
-
-    /**
-     * Crr suppl amort.
-     *
-     * @var float
-     */
-    private $crrSupplAmort;
-
-    /**
-     * Crr suppl valeur.
-     *
-     * @var float
-     */
-    private $crrSupplValeur;
-
-    /**
-     * Crr type.
-     *
-     * @var string
-     */
-    private $crrType;
-
-    /**
      * Crrpm value ct.
      *
-     * @var float
+     * @var float|null
      */
     private $crrpmValueCt;
 
     /**
      * Crrpm value ctf.
      *
-     * @var float
+     * @var float|null
      */
     private $crrpmValueCtf;
 
     /**
      * Crrpm value lt.
      *
-     * @var float
+     * @var float|null
      */
     private $crrpmValueLt;
 
     /**
      * Crrpm value ltf.
      *
-     * @var float
+     * @var float|null
      */
     private $crrpmValueLtf;
+
+    /**
+     * Crr px cession ht.
+     *
+     * @var float|null
+     */
+    private $crrPxCessionHt;
+
+    /**
+     * Crr qte vendue.
+     *
+     * @var float|null
+     */
+    private $crrQteVendue;
+
+    /**
+     * Crr suppl amort.
+     *
+     * @var float|null
+     */
+    private $crrSupplAmort;
+
+    /**
+     * Crr suppl valeur.
+     *
+     * @var float|null
+     */
+    private $crrSupplValeur;
+
+    /**
+     * Crr type.
+     *
+     * @var string|null
+     */
+    private $crrType;
+
+    /**
+     * C taux imp.
+     *
+     * @var float|null
+     */
+    private $cTauxImp;
+
+    /**
+     * C valeur euros.
+     *
+     * @var float|null
+     */
+    private $cValeurEuros;
+
+    /**
+     * Centre analytique.
+     *
+     * @var string|null
+     */
+    private $centreAnalytique;
+
+    /**
+     * Code tva.
+     *
+     * @var string|null
+     */
+    private $codeTva;
+
+    /**
+     * Compte frn.
+     *
+     * @var string|null
+     */
+    private $compteFrn;
+
+    /**
+     * Din.
+     *
+     * @var bool|null
+     */
+    private $din;
 
     /**
      * Date acq forfait.
@@ -400,200 +407,172 @@ class Immobilisations {
     private $dateReeval;
 
     /**
-     * Din.
-     *
-     * @var bool
-     */
-    private $din;
-
-    /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Famille.
      *
-     * @var string
+     * @var string|null
      */
     private $famille;
 
     /**
      * Guid vehicule.
      *
-     * @var string
+     * @var string|null
      */
     private $guidVehicule;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Libelle frn.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleFrn;
 
     /**
      * Libelle quantite.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleQuantite;
 
     /**
      * Limite amort.
      *
-     * @var float
+     * @var float|null
      */
     private $limiteAmort;
 
     /**
      * Majoration.
      *
-     * @var bool
+     * @var bool|null
      */
     private $majoration;
 
     /**
      * Materiaux agricole.
      *
-     * @var bool
+     * @var bool|null
      */
     private $materiauxAgricole;
 
     /**
      * Montant tva.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTva;
 
     /**
      * Nature analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $natureAnalytique;
 
     /**
      * Nb mois majoration.
      *
-     * @var string
+     * @var string|null
      */
     private $nbMoisMajoration;
 
     /**
      * Num cpt trans dot.
      *
-     * @var string
+     * @var string|null
      */
     private $numCptTransDot;
 
     /**
      * Num doss org.
      *
-     * @var string
+     * @var string|null
      */
     private $numDossOrg;
 
     /**
      * Num ens realloc.
      *
-     * @var int
+     * @var int|null
      */
     private $numEnsRealloc;
 
     /**
      * Num ensemble.
      *
-     * @var int
+     * @var int|null
      */
     private $numEnsemble;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero deux.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroDeux;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Pilotage.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pilotage;
 
     /**
      * Quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite;
 
     /**
      * Service.
      *
-     * @var string
+     * @var string|null
      */
     private $service;
 
     /**
      * Site.
      *
-     * @var string
+     * @var string|null
      */
     private $site;
-
-    /**
-     * Taux tva.
-     *
-     * @var float
-     */
-    private $tauxTva;
-
-    /**
-     * Taxe fonciere.
-     *
-     * @var bool
-     */
-    private $taxeFonciere;
-
-    /**
-     * Taxe pro.
-     *
-     * @var bool
-     */
-    private $taxePro;
 
     /**
      * Tp date origine.
@@ -603,6 +582,27 @@ class Immobilisations {
     private $tpDateOrigine;
 
     /**
+     * Taux tva.
+     *
+     * @var float|null
+     */
+    private $tauxTva;
+
+    /**
+     * Taxe fonciere.
+     *
+     * @var bool|null
+     */
+    private $taxeFonciere;
+
+    /**
+     * Taxe pro.
+     *
+     * @var bool|null
+     */
+    private $taxePro;
+
+    /**
      * V date.
      *
      * @var DateTime|null
@@ -610,474 +610,430 @@ class Immobilisations {
     private $vDate;
 
     /**
+     * Vnc realloc.
+     *
+     * @var float|null
+     */
+    private $vncRealloc;
+
+    /**
      * V numero.
      *
-     * @var int
+     * @var int|null
      */
     private $vNumero;
 
     /**
      * V numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $vNumeroCompte;
 
     /**
      * V numero compte ini.
      *
-     * @var string
+     * @var string|null
      */
     private $vNumeroCompteIni;
 
     /**
      * V numero deux.
      *
-     * @var int
+     * @var int|null
      */
     private $vNumeroDeux;
 
     /**
      * V numero deux ini.
      *
-     * @var int
+     * @var int|null
      */
     private $vNumeroDeuxIni;
 
     /**
      * V numero ini.
      *
-     * @var int
+     * @var int|null
      */
     private $vNumeroIni;
 
     /**
      * Valeur acq forfait.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurAcqForfait;
 
     /**
      * Valeur base amortissement.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurBaseAmortissement;
 
     /**
      * Valeur deduction.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurDeduction;
 
     /**
      * Valeur ht.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurHt;
 
     /**
      * Valeur ht origine.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurHtOrigine;
 
     /**
-     * Vnc realloc.
-     *
-     * @var float
-     */
-    private $vncRealloc;
-
-    /**
      * Zone libre1.
      *
-     * @var string
+     * @var string|null
      */
     private $zoneLibre1;
 
     /**
      * Zone libre2.
      *
-     * @var string
+     * @var string|null
      */
     private $zoneLibre2;
 
     /**
      * Zone libre3.
      *
-     * @var string
+     * @var string|null
      */
     private $zoneLibre3;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ad amort anterieur.
      *
-     * @return float Returns the ad amort anterieur.
+     * @return float|null Returns the ad amort anterieur.
      */
-    public function getAdAmortAnterieur() {
+    public function getAdAmortAnterieur(): ?float{
         return $this->adAmortAnterieur;
     }
 
     /**
      * Get the ad amort anterieur2.
      *
-     * @return float Returns the ad amort anterieur2.
+     * @return float|null Returns the ad amort anterieur2.
      */
-    public function getAdAmortAnterieur2() {
+    public function getAdAmortAnterieur2(): ?float{
         return $this->adAmortAnterieur2;
     }
 
     /**
      * Get the ad annees amort.
      *
-     * @return float Returns the ad annees amort.
+     * @return float|null Returns the ad annees amort.
      */
-    public function getAdAnneesAmort() {
+    public function getAdAnneesAmort(): ?float{
         return $this->adAnneesAmort;
     }
 
     /**
      * Get the ad coeff degressif.
      *
-     * @return float Returns the ad coeff degressif.
+     * @return float|null Returns the ad coeff degressif.
      */
-    public function getAdCoeffDegressif() {
+    public function getAdCoeffDegressif(): ?float{
         return $this->adCoeffDegressif;
     }
 
     /**
      * Get the ad deduction amort anterieur.
      *
-     * @return float Returns the ad deduction amort anterieur.
+     * @return float|null Returns the ad deduction amort anterieur.
      */
-    public function getAdDeductionAmortAnterieur() {
+    public function getAdDeductionAmortAnterieur(): ?float{
         return $this->adDeductionAmortAnterieur;
     }
 
     /**
      * Get the ad deduction dotation.
      *
-     * @return float Returns the ad deduction dotation.
+     * @return float|null Returns the ad deduction dotation.
      */
-    public function getAdDeductionDotation() {
+    public function getAdDeductionDotation(): ?float{
         return $this->adDeductionDotation;
     }
 
     /**
      * Get the ad dotation.
      *
-     * @return float Returns the ad dotation.
+     * @return float|null Returns the ad dotation.
      */
-    public function getAdDotation() {
+    public function getAdDotation(): ?float{
         return $this->adDotation;
     }
 
     /**
      * Get the ad dotation2.
      *
-     * @return float Returns the ad dotation2.
+     * @return float|null Returns the ad dotation2.
      */
-    public function getAdDotation2() {
+    public function getAdDotation2(): ?float{
         return $this->adDotation2;
     }
 
     /**
      * Get the ad dotation except.
      *
-     * @return float Returns the ad dotation except.
+     * @return float|null Returns the ad dotation except.
      */
-    public function getAdDotationExcept() {
+    public function getAdDotationExcept(): ?float{
         return $this->adDotationExcept;
     }
 
     /**
      * Get the ad duree.
      *
-     * @return float Returns the ad duree.
+     * @return float|null Returns the ad duree.
      */
-    public function getAdDuree() {
+    public function getAdDuree(): ?float{
         return $this->adDuree;
     }
 
     /**
      * Get the ad duree tot.
      *
-     * @return string Returns the ad duree tot.
+     * @return string|null Returns the ad duree tot.
      */
-    public function getAdDureeTot() {
+    public function getAdDureeTot(): ?string{
         return $this->adDureeTot;
     }
 
     /**
      * Get the ad garder dot saisie.
      *
-     * @return bool Returns the ad garder dot saisie.
+     * @return bool|null Returns the ad garder dot saisie.
      */
-    public function getAdGarderDotSaisie() {
+    public function getAdGarderDotSaisie(): ?bool{
         return $this->adGarderDotSaisie;
     }
 
     /**
      * Get the ad quantite.
      *
-     * @return float Returns the ad quantite.
+     * @return float|null Returns the ad quantite.
      */
-    public function getAdQuantite() {
+    public function getAdQuantite(): ?float{
         return $this->adQuantite;
     }
 
     /**
      * Get the ad taux lineaire.
      *
-     * @return float Returns the ad taux lineaire.
+     * @return float|null Returns the ad taux lineaire.
      */
-    public function getAdTauxLineaire() {
+    public function getAdTauxLineaire(): ?float{
         return $this->adTauxLineaire;
     }
 
     /**
      * Get the ad type.
      *
-     * @return string Returns the ad type.
+     * @return string|null Returns the ad type.
      */
-    public function getAdType() {
+    public function getAdType(): ?string{
         return $this->adType;
     }
 
     /**
      * Get the af amort anterieur.
      *
-     * @return float Returns the af amort anterieur.
+     * @return float|null Returns the af amort anterieur.
      */
-    public function getAfAmortAnterieur() {
+    public function getAfAmortAnterieur(): ?float{
         return $this->afAmortAnterieur;
     }
 
     /**
      * Get the af annees amort.
      *
-     * @return float Returns the af annees amort.
+     * @return float|null Returns the af annees amort.
      */
-    public function getAfAnneesAmort() {
+    public function getAfAnneesAmort(): ?float{
         return $this->afAnneesAmort;
     }
 
     /**
      * Get the af coeff degressif.
      *
-     * @return float Returns the af coeff degressif.
+     * @return float|null Returns the af coeff degressif.
      */
-    public function getAfCoeffDegressif() {
+    public function getAfCoeffDegressif(): ?float{
         return $this->afCoeffDegressif;
     }
 
     /**
      * Get the af dotation.
      *
-     * @return float Returns the af dotation.
+     * @return float|null Returns the af dotation.
      */
-    public function getAfDotation() {
+    public function getAfDotation(): ?float{
         return $this->afDotation;
     }
 
     /**
      * Get the af duree.
      *
-     * @return float Returns the af duree.
+     * @return float|null Returns the af duree.
      */
-    public function getAfDuree() {
+    public function getAfDuree(): ?float{
         return $this->afDuree;
+    }
+
+    /**
+     * Get the afsii.
+     *
+     * @return bool|null Returns the afsii.
+     */
+    public function getAfsii(): ?bool{
+        return $this->afsii;
     }
 
     /**
      * Get the af taux except.
      *
-     * @return float Returns the af taux except.
+     * @return float|null Returns the af taux except.
      */
-    public function getAfTauxExcept() {
+    public function getAfTauxExcept(): ?float{
         return $this->afTauxExcept;
     }
 
     /**
      * Get the af taux lineaire.
      *
-     * @return float Returns the af taux lineaire.
+     * @return float|null Returns the af taux lineaire.
      */
-    public function getAfTauxLineaire() {
+    public function getAfTauxLineaire(): ?float{
         return $this->afTauxLineaire;
     }
 
     /**
      * Get the af type.
      *
-     * @return string Returns the af type.
+     * @return string|null Returns the af type.
      */
-    public function getAfType() {
+    public function getAfType(): ?string{
         return $this->afType;
-    }
-
-    /**
-     * Get the afsii.
-     *
-     * @return bool Returns the afsii.
-     */
-    public function getAfsii() {
-        return $this->afsii;
     }
 
     /**
      * Get the art151 duree deja etalee.
      *
-     * @return string Returns the art151 duree deja etalee.
+     * @return string|null Returns the art151 duree deja etalee.
      */
-    public function getArt151DureeDejaEtalee() {
+    public function getArt151DureeDejaEtalee(): ?string{
         return $this->art151DureeDejaEtalee;
     }
 
     /**
      * Get the art151 duree etalement.
      *
-     * @return string Returns the art151 duree etalement.
+     * @return string|null Returns the art151 duree etalement.
      */
-    public function getArt151DureeEtalement() {
+    public function getArt151DureeEtalement(): ?string{
         return $this->art151DureeEtalement;
     }
 
     /**
      * Get the art151 montant deja etale.
      *
-     * @return float Returns the art151 montant deja etale.
+     * @return float|null Returns the art151 montant deja etale.
      */
-    public function getArt151MontantDejaEtale() {
+    public function getArt151MontantDejaEtale(): ?float{
         return $this->art151MontantDejaEtale;
     }
 
     /**
      * Get the art151 montant etale annee.
      *
-     * @return float Returns the art151 montant etale annee.
+     * @return float|null Returns the art151 montant etale annee.
      */
-    public function getArt151MontantEtaleAnnee() {
+    public function getArt151MontantEtaleAnnee(): ?float{
         return $this->art151MontantEtaleAnnee;
     }
 
     /**
      * Get the base calcul.
      *
-     * @return int Returns the base calcul.
+     * @return int|null Returns the base calcul.
      */
-    public function getBaseCalcul() {
+    public function getBaseCalcul(): ?int{
         return $this->baseCalcul;
     }
 
     /**
      * Get the base taxe pro.
      *
-     * @return float Returns the base taxe pro.
+     * @return float|null Returns the base taxe pro.
      */
-    public function getBaseTaxePro() {
+    public function getBaseTaxePro(): ?float{
         return $this->baseTaxePro;
     }
 
     /**
      * Get the bureau.
      *
-     * @return string Returns the bureau.
+     * @return string|null Returns the bureau.
      */
-    public function getBureau() {
+    public function getBureau(): ?string{
         return $this->bureau;
-    }
-
-    /**
-     * Get the c taux imp.
-     *
-     * @return float Returns the c taux imp.
-     */
-    public function getCTauxImp() {
-        return $this->cTauxImp;
-    }
-
-    /**
-     * Get the c valeur euros.
-     *
-     * @return float Returns the c valeur euros.
-     */
-    public function getCValeurEuros() {
-        return $this->cValeurEuros;
-    }
-
-    /**
-     * Get the centre analytique.
-     *
-     * @return string Returns the centre analytique.
-     */
-    public function getCentreAnalytique() {
-        return $this->centreAnalytique;
-    }
-
-    /**
-     * Get the code tva.
-     *
-     * @return string Returns the code tva.
-     */
-    public function getCodeTva() {
-        return $this->codeTva;
-    }
-
-    /**
-     * Get the compte frn.
-     *
-     * @return string Returns the compte frn.
-     */
-    public function getCompteFrn() {
-        return $this->compteFrn;
     }
 
     /**
      * Get the cr is dot.
      *
-     * @return bool Returns the cr is dot.
+     * @return bool|null Returns the cr is dot.
      */
-    public function getCrIsDot() {
+    public function getCrIsDot(): ?bool{
         return $this->crIsDot;
     }
 
     /**
      * Get the crr151 motif.
      *
-     * @return bool Returns the crr151 motif.
+     * @return bool|null Returns the crr151 motif.
      */
-    public function getCrr151Motif() {
+    public function getCrr151Motif(): ?bool{
         return $this->crr151Motif;
     }
 
     /**
      * Get the crr151 pm value ct.
      *
-     * @return float Returns the crr151 pm value ct.
+     * @return float|null Returns the crr151 pm value ct.
      */
-    public function getCrr151PmValueCt() {
+    public function getCrr151PmValueCt(): ?float{
         return $this->crr151PmValueCt;
     }
 
     /**
      * Get the crr151 pm value lt.
      *
-     * @return float Returns the crr151 pm value lt.
+     * @return float|null Returns the crr151 pm value lt.
      */
-    public function getCrr151PmValueLt() {
+    public function getCrr151PmValueLt(): ?float{
         return $this->crr151PmValueLt;
     }
 
@@ -1086,89 +1042,143 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the crr date.
      */
-    public function getCrrDate() {
+    public function getCrrDate(): ?DateTime{
         return $this->crrDate;
-    }
-
-    /**
-     * Get the crr px cession ht.
-     *
-     * @return float Returns the crr px cession ht.
-     */
-    public function getCrrPxCessionHt() {
-        return $this->crrPxCessionHt;
-    }
-
-    /**
-     * Get the crr qte vendue.
-     *
-     * @return float Returns the crr qte vendue.
-     */
-    public function getCrrQteVendue() {
-        return $this->crrQteVendue;
-    }
-
-    /**
-     * Get the crr suppl amort.
-     *
-     * @return float Returns the crr suppl amort.
-     */
-    public function getCrrSupplAmort() {
-        return $this->crrSupplAmort;
-    }
-
-    /**
-     * Get the crr suppl valeur.
-     *
-     * @return float Returns the crr suppl valeur.
-     */
-    public function getCrrSupplValeur() {
-        return $this->crrSupplValeur;
-    }
-
-    /**
-     * Get the crr type.
-     *
-     * @return string Returns the crr type.
-     */
-    public function getCrrType() {
-        return $this->crrType;
     }
 
     /**
      * Get the crrpm value ct.
      *
-     * @return float Returns the crrpm value ct.
+     * @return float|null Returns the crrpm value ct.
      */
-    public function getCrrpmValueCt() {
+    public function getCrrpmValueCt(): ?float{
         return $this->crrpmValueCt;
     }
 
     /**
      * Get the crrpm value ctf.
      *
-     * @return float Returns the crrpm value ctf.
+     * @return float|null Returns the crrpm value ctf.
      */
-    public function getCrrpmValueCtf() {
+    public function getCrrpmValueCtf(): ?float{
         return $this->crrpmValueCtf;
     }
 
     /**
      * Get the crrpm value lt.
      *
-     * @return float Returns the crrpm value lt.
+     * @return float|null Returns the crrpm value lt.
      */
-    public function getCrrpmValueLt() {
+    public function getCrrpmValueLt(): ?float{
         return $this->crrpmValueLt;
     }
 
     /**
      * Get the crrpm value ltf.
      *
-     * @return float Returns the crrpm value ltf.
+     * @return float|null Returns the crrpm value ltf.
      */
-    public function getCrrpmValueLtf() {
+    public function getCrrpmValueLtf(): ?float{
         return $this->crrpmValueLtf;
+    }
+
+    /**
+     * Get the crr px cession ht.
+     *
+     * @return float|null Returns the crr px cession ht.
+     */
+    public function getCrrPxCessionHt(): ?float{
+        return $this->crrPxCessionHt;
+    }
+
+    /**
+     * Get the crr qte vendue.
+     *
+     * @return float|null Returns the crr qte vendue.
+     */
+    public function getCrrQteVendue(): ?float{
+        return $this->crrQteVendue;
+    }
+
+    /**
+     * Get the crr suppl amort.
+     *
+     * @return float|null Returns the crr suppl amort.
+     */
+    public function getCrrSupplAmort(): ?float{
+        return $this->crrSupplAmort;
+    }
+
+    /**
+     * Get the crr suppl valeur.
+     *
+     * @return float|null Returns the crr suppl valeur.
+     */
+    public function getCrrSupplValeur(): ?float{
+        return $this->crrSupplValeur;
+    }
+
+    /**
+     * Get the crr type.
+     *
+     * @return string|null Returns the crr type.
+     */
+    public function getCrrType(): ?string{
+        return $this->crrType;
+    }
+
+    /**
+     * Get the c taux imp.
+     *
+     * @return float|null Returns the c taux imp.
+     */
+    public function getCTauxImp(): ?float{
+        return $this->cTauxImp;
+    }
+
+    /**
+     * Get the c valeur euros.
+     *
+     * @return float|null Returns the c valeur euros.
+     */
+    public function getCValeurEuros(): ?float{
+        return $this->cValeurEuros;
+    }
+
+    /**
+     * Get the centre analytique.
+     *
+     * @return string|null Returns the centre analytique.
+     */
+    public function getCentreAnalytique(): ?string{
+        return $this->centreAnalytique;
+    }
+
+    /**
+     * Get the code tva.
+     *
+     * @return string|null Returns the code tva.
+     */
+    public function getCodeTva(): ?string{
+        return $this->codeTva;
+    }
+
+    /**
+     * Get the compte frn.
+     *
+     * @return string|null Returns the compte frn.
+     */
+    public function getCompteFrn(): ?string{
+        return $this->compteFrn;
+    }
+
+    /**
+     * Get the din.
+     *
+     * @return bool|null Returns the din.
+     */
+    public function getDin(): ?bool{
+        return $this->din;
     }
 
     /**
@@ -1176,7 +1186,7 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the date acq forfait.
      */
-    public function getDateAcqForfait() {
+    public function getDateAcqForfait(): ?DateTime{
         return $this->dateAcqForfait;
     }
 
@@ -1185,7 +1195,7 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the date acquisition.
      */
-    public function getDateAcquisition() {
+    public function getDateAcquisition(): ?DateTime{
         return $this->dateAcquisition;
     }
 
@@ -1194,7 +1204,7 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the date mise service.
      */
-    public function getDateMiseService() {
+    public function getDateMiseService(): ?DateTime{
         return $this->dateMiseService;
     }
 
@@ -1203,260 +1213,224 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the date reeval.
      */
-    public function getDateReeval() {
+    public function getDateReeval(): ?DateTime{
         return $this->dateReeval;
-    }
-
-    /**
-     * Get the din.
-     *
-     * @return bool Returns the din.
-     */
-    public function getDin() {
-        return $this->din;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the famille.
      *
-     * @return string Returns the famille.
+     * @return string|null Returns the famille.
      */
-    public function getFamille() {
+    public function getFamille(): ?string{
         return $this->famille;
     }
 
     /**
      * Get the guid vehicule.
      *
-     * @return string Returns the guid vehicule.
+     * @return string|null Returns the guid vehicule.
      */
-    public function getGuidVehicule() {
+    public function getGuidVehicule(): ?string{
         return $this->guidVehicule;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the libelle frn.
      *
-     * @return string Returns the libelle frn.
+     * @return string|null Returns the libelle frn.
      */
-    public function getLibelleFrn() {
+    public function getLibelleFrn(): ?string{
         return $this->libelleFrn;
     }
 
     /**
      * Get the libelle quantite.
      *
-     * @return string Returns the libelle quantite.
+     * @return string|null Returns the libelle quantite.
      */
-    public function getLibelleQuantite() {
+    public function getLibelleQuantite(): ?string{
         return $this->libelleQuantite;
     }
 
     /**
      * Get the limite amort.
      *
-     * @return float Returns the limite amort.
+     * @return float|null Returns the limite amort.
      */
-    public function getLimiteAmort() {
+    public function getLimiteAmort(): ?float{
         return $this->limiteAmort;
     }
 
     /**
      * Get the majoration.
      *
-     * @return bool Returns the majoration.
+     * @return bool|null Returns the majoration.
      */
-    public function getMajoration() {
+    public function getMajoration(): ?bool{
         return $this->majoration;
     }
 
     /**
      * Get the materiaux agricole.
      *
-     * @return bool Returns the materiaux agricole.
+     * @return bool|null Returns the materiaux agricole.
      */
-    public function getMateriauxAgricole() {
+    public function getMateriauxAgricole(): ?bool{
         return $this->materiauxAgricole;
     }
 
     /**
      * Get the montant tva.
      *
-     * @return float Returns the montant tva.
+     * @return float|null Returns the montant tva.
      */
-    public function getMontantTva() {
+    public function getMontantTva(): ?float{
         return $this->montantTva;
     }
 
     /**
      * Get the nature analytique.
      *
-     * @return string Returns the nature analytique.
+     * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique() {
+    public function getNatureAnalytique(): ?string{
         return $this->natureAnalytique;
     }
 
     /**
      * Get the nb mois majoration.
      *
-     * @return string Returns the nb mois majoration.
+     * @return string|null Returns the nb mois majoration.
      */
-    public function getNbMoisMajoration() {
+    public function getNbMoisMajoration(): ?string{
         return $this->nbMoisMajoration;
     }
 
     /**
      * Get the num cpt trans dot.
      *
-     * @return string Returns the num cpt trans dot.
+     * @return string|null Returns the num cpt trans dot.
      */
-    public function getNumCptTransDot() {
+    public function getNumCptTransDot(): ?string{
         return $this->numCptTransDot;
     }
 
     /**
      * Get the num doss org.
      *
-     * @return string Returns the num doss org.
+     * @return string|null Returns the num doss org.
      */
-    public function getNumDossOrg() {
+    public function getNumDossOrg(): ?string{
         return $this->numDossOrg;
     }
 
     /**
      * Get the num ens realloc.
      *
-     * @return int Returns the num ens realloc.
+     * @return int|null Returns the num ens realloc.
      */
-    public function getNumEnsRealloc() {
+    public function getNumEnsRealloc(): ?int{
         return $this->numEnsRealloc;
     }
 
     /**
      * Get the num ensemble.
      *
-     * @return int Returns the num ensemble.
+     * @return int|null Returns the num ensemble.
      */
-    public function getNumEnsemble() {
+    public function getNumEnsemble(): ?int{
         return $this->numEnsemble;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int{
         return $this->numero;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero deux.
      *
-     * @return int Returns the numero deux.
+     * @return int|null Returns the numero deux.
      */
-    public function getNumeroDeux() {
+    public function getNumeroDeux(): ?int{
         return $this->numeroDeux;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the pilotage.
      *
-     * @return bool Returns the pilotage.
+     * @return bool|null Returns the pilotage.
      */
-    public function getPilotage() {
+    public function getPilotage(): ?bool{
         return $this->pilotage;
     }
 
     /**
      * Get the quantite.
      *
-     * @return float Returns the quantite.
+     * @return float|null Returns the quantite.
      */
-    public function getQuantite() {
+    public function getQuantite(): ?float{
         return $this->quantite;
     }
 
     /**
      * Get the service.
      *
-     * @return string Returns the service.
+     * @return string|null Returns the service.
      */
-    public function getService() {
+    public function getService(): ?string{
         return $this->service;
     }
 
     /**
      * Get the site.
      *
-     * @return string Returns the site.
+     * @return string|null Returns the site.
      */
-    public function getSite() {
+    public function getSite(): ?string{
         return $this->site;
-    }
-
-    /**
-     * Get the taux tva.
-     *
-     * @return float Returns the taux tva.
-     */
-    public function getTauxTva() {
-        return $this->tauxTva;
-    }
-
-    /**
-     * Get the taxe fonciere.
-     *
-     * @return bool Returns the taxe fonciere.
-     */
-    public function getTaxeFonciere() {
-        return $this->taxeFonciere;
-    }
-
-    /**
-     * Get the taxe pro.
-     *
-     * @return bool Returns the taxe pro.
-     */
-    public function getTaxePro() {
-        return $this->taxePro;
     }
 
     /**
@@ -1464,8 +1438,35 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the tp date origine.
      */
-    public function getTpDateOrigine() {
+    public function getTpDateOrigine(): ?DateTime{
         return $this->tpDateOrigine;
+    }
+
+    /**
+     * Get the taux tva.
+     *
+     * @return float|null Returns the taux tva.
+     */
+    public function getTauxTva(): ?float{
+        return $this->tauxTva;
+    }
+
+    /**
+     * Get the taxe fonciere.
+     *
+     * @return bool|null Returns the taxe fonciere.
+     */
+    public function getTaxeFonciere(): ?bool{
+        return $this->taxeFonciere;
+    }
+
+    /**
+     * Get the taxe pro.
+     *
+     * @return bool|null Returns the taxe pro.
+     */
+    public function getTaxePro(): ?bool{
+        return $this->taxePro;
     }
 
     /**
@@ -1473,152 +1474,152 @@ class Immobilisations {
      *
      * @return DateTime|null Returns the v date.
      */
-    public function getVDate() {
+    public function getVDate(): ?DateTime{
         return $this->vDate;
+    }
+
+    /**
+     * Get the vnc realloc.
+     *
+     * @return float|null Returns the vnc realloc.
+     */
+    public function getVncRealloc(): ?float{
+        return $this->vncRealloc;
     }
 
     /**
      * Get the v numero.
      *
-     * @return int Returns the v numero.
+     * @return int|null Returns the v numero.
      */
-    public function getVNumero() {
+    public function getVNumero(): ?int{
         return $this->vNumero;
     }
 
     /**
      * Get the v numero compte.
      *
-     * @return string Returns the v numero compte.
+     * @return string|null Returns the v numero compte.
      */
-    public function getVNumeroCompte() {
+    public function getVNumeroCompte(): ?string{
         return $this->vNumeroCompte;
     }
 
     /**
      * Get the v numero compte ini.
      *
-     * @return string Returns the v numero compte ini.
+     * @return string|null Returns the v numero compte ini.
      */
-    public function getVNumeroCompteIni() {
+    public function getVNumeroCompteIni(): ?string{
         return $this->vNumeroCompteIni;
     }
 
     /**
      * Get the v numero deux.
      *
-     * @return int Returns the v numero deux.
+     * @return int|null Returns the v numero deux.
      */
-    public function getVNumeroDeux() {
+    public function getVNumeroDeux(): ?int{
         return $this->vNumeroDeux;
     }
 
     /**
      * Get the v numero deux ini.
      *
-     * @return int Returns the v numero deux ini.
+     * @return int|null Returns the v numero deux ini.
      */
-    public function getVNumeroDeuxIni() {
+    public function getVNumeroDeuxIni(): ?int{
         return $this->vNumeroDeuxIni;
     }
 
     /**
      * Get the v numero ini.
      *
-     * @return int Returns the v numero ini.
+     * @return int|null Returns the v numero ini.
      */
-    public function getVNumeroIni() {
+    public function getVNumeroIni(): ?int{
         return $this->vNumeroIni;
     }
 
     /**
      * Get the valeur acq forfait.
      *
-     * @return float Returns the valeur acq forfait.
+     * @return float|null Returns the valeur acq forfait.
      */
-    public function getValeurAcqForfait() {
+    public function getValeurAcqForfait(): ?float{
         return $this->valeurAcqForfait;
     }
 
     /**
      * Get the valeur base amortissement.
      *
-     * @return float Returns the valeur base amortissement.
+     * @return float|null Returns the valeur base amortissement.
      */
-    public function getValeurBaseAmortissement() {
+    public function getValeurBaseAmortissement(): ?float{
         return $this->valeurBaseAmortissement;
     }
 
     /**
      * Get the valeur deduction.
      *
-     * @return float Returns the valeur deduction.
+     * @return float|null Returns the valeur deduction.
      */
-    public function getValeurDeduction() {
+    public function getValeurDeduction(): ?float{
         return $this->valeurDeduction;
     }
 
     /**
      * Get the valeur ht.
      *
-     * @return float Returns the valeur ht.
+     * @return float|null Returns the valeur ht.
      */
-    public function getValeurHt() {
+    public function getValeurHt(): ?float{
         return $this->valeurHt;
     }
 
     /**
      * Get the valeur ht origine.
      *
-     * @return float Returns the valeur ht origine.
+     * @return float|null Returns the valeur ht origine.
      */
-    public function getValeurHtOrigine() {
+    public function getValeurHtOrigine(): ?float{
         return $this->valeurHtOrigine;
-    }
-
-    /**
-     * Get the vnc realloc.
-     *
-     * @return float Returns the vnc realloc.
-     */
-    public function getVncRealloc() {
-        return $this->vncRealloc;
     }
 
     /**
      * Get the zone libre1.
      *
-     * @return string Returns the zone libre1.
+     * @return string|null Returns the zone libre1.
      */
-    public function getZoneLibre1() {
+    public function getZoneLibre1(): ?string{
         return $this->zoneLibre1;
     }
 
     /**
      * Get the zone libre2.
      *
-     * @return string Returns the zone libre2.
+     * @return string|null Returns the zone libre2.
      */
-    public function getZoneLibre2() {
+    public function getZoneLibre2(): ?string{
         return $this->zoneLibre2;
     }
 
     /**
      * Get the zone libre3.
      *
-     * @return string Returns the zone libre3.
+     * @return string|null Returns the zone libre3.
      */
-    public function getZoneLibre3() {
+    public function getZoneLibre3(): ?string{
         return $this->zoneLibre3;
     }
 
     /**
      * Set the ad amort anterieur.
      *
-     * @param float $adAmortAnterieur The ad amort anterieur.
+     * @param float|null $adAmortAnterieur The ad amort anterieur.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdAmortAnterieur($adAmortAnterieur) {
+    public function setAdAmortAnterieur(?float $adAmortAnterieur): Immobilisations {
         $this->adAmortAnterieur = $adAmortAnterieur;
         return $this;
     }
@@ -1626,10 +1627,10 @@ class Immobilisations {
     /**
      * Set the ad amort anterieur2.
      *
-     * @param float $adAmortAnterieur2 The ad amort anterieur2.
+     * @param float|null $adAmortAnterieur2 The ad amort anterieur2.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdAmortAnterieur2($adAmortAnterieur2) {
+    public function setAdAmortAnterieur2(?float $adAmortAnterieur2): Immobilisations {
         $this->adAmortAnterieur2 = $adAmortAnterieur2;
         return $this;
     }
@@ -1637,10 +1638,10 @@ class Immobilisations {
     /**
      * Set the ad annees amort.
      *
-     * @param float $adAnneesAmort The ad annees amort.
+     * @param float|null $adAnneesAmort The ad annees amort.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdAnneesAmort($adAnneesAmort) {
+    public function setAdAnneesAmort(?float $adAnneesAmort): Immobilisations {
         $this->adAnneesAmort = $adAnneesAmort;
         return $this;
     }
@@ -1648,10 +1649,10 @@ class Immobilisations {
     /**
      * Set the ad coeff degressif.
      *
-     * @param float $adCoeffDegressif The ad coeff degressif.
+     * @param float|null $adCoeffDegressif The ad coeff degressif.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdCoeffDegressif($adCoeffDegressif) {
+    public function setAdCoeffDegressif(?float $adCoeffDegressif): Immobilisations {
         $this->adCoeffDegressif = $adCoeffDegressif;
         return $this;
     }
@@ -1659,10 +1660,10 @@ class Immobilisations {
     /**
      * Set the ad deduction amort anterieur.
      *
-     * @param float $adDeductionAmortAnterieur The ad deduction amort anterieur.
+     * @param float|null $adDeductionAmortAnterieur The ad deduction amort anterieur.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDeductionAmortAnterieur($adDeductionAmortAnterieur) {
+    public function setAdDeductionAmortAnterieur(?float $adDeductionAmortAnterieur): Immobilisations {
         $this->adDeductionAmortAnterieur = $adDeductionAmortAnterieur;
         return $this;
     }
@@ -1670,10 +1671,10 @@ class Immobilisations {
     /**
      * Set the ad deduction dotation.
      *
-     * @param float $adDeductionDotation The ad deduction dotation.
+     * @param float|null $adDeductionDotation The ad deduction dotation.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDeductionDotation($adDeductionDotation) {
+    public function setAdDeductionDotation(?float $adDeductionDotation): Immobilisations {
         $this->adDeductionDotation = $adDeductionDotation;
         return $this;
     }
@@ -1681,10 +1682,10 @@ class Immobilisations {
     /**
      * Set the ad dotation.
      *
-     * @param float $adDotation The ad dotation.
+     * @param float|null $adDotation The ad dotation.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDotation($adDotation) {
+    public function setAdDotation(?float $adDotation): Immobilisations {
         $this->adDotation = $adDotation;
         return $this;
     }
@@ -1692,10 +1693,10 @@ class Immobilisations {
     /**
      * Set the ad dotation2.
      *
-     * @param float $adDotation2 The ad dotation2.
+     * @param float|null $adDotation2 The ad dotation2.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDotation2($adDotation2) {
+    public function setAdDotation2(?float $adDotation2): Immobilisations {
         $this->adDotation2 = $adDotation2;
         return $this;
     }
@@ -1703,10 +1704,10 @@ class Immobilisations {
     /**
      * Set the ad dotation except.
      *
-     * @param float $adDotationExcept The ad dotation except.
+     * @param float|null $adDotationExcept The ad dotation except.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDotationExcept($adDotationExcept) {
+    public function setAdDotationExcept(?float $adDotationExcept): Immobilisations {
         $this->adDotationExcept = $adDotationExcept;
         return $this;
     }
@@ -1714,10 +1715,10 @@ class Immobilisations {
     /**
      * Set the ad duree.
      *
-     * @param float $adDuree The ad duree.
+     * @param float|null $adDuree The ad duree.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDuree($adDuree) {
+    public function setAdDuree(?float $adDuree): Immobilisations {
         $this->adDuree = $adDuree;
         return $this;
     }
@@ -1725,10 +1726,10 @@ class Immobilisations {
     /**
      * Set the ad duree tot.
      *
-     * @param string $adDureeTot The ad duree tot.
+     * @param string|null $adDureeTot The ad duree tot.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdDureeTot($adDureeTot) {
+    public function setAdDureeTot(?string $adDureeTot): Immobilisations {
         $this->adDureeTot = $adDureeTot;
         return $this;
     }
@@ -1736,10 +1737,10 @@ class Immobilisations {
     /**
      * Set the ad garder dot saisie.
      *
-     * @param bool $adGarderDotSaisie The ad garder dot saisie.
+     * @param bool|null $adGarderDotSaisie The ad garder dot saisie.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdGarderDotSaisie($adGarderDotSaisie) {
+    public function setAdGarderDotSaisie(?bool $adGarderDotSaisie): Immobilisations {
         $this->adGarderDotSaisie = $adGarderDotSaisie;
         return $this;
     }
@@ -1747,10 +1748,10 @@ class Immobilisations {
     /**
      * Set the ad quantite.
      *
-     * @param float $adQuantite The ad quantite.
+     * @param float|null $adQuantite The ad quantite.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdQuantite($adQuantite) {
+    public function setAdQuantite(?float $adQuantite): Immobilisations {
         $this->adQuantite = $adQuantite;
         return $this;
     }
@@ -1758,10 +1759,10 @@ class Immobilisations {
     /**
      * Set the ad taux lineaire.
      *
-     * @param float $adTauxLineaire The ad taux lineaire.
+     * @param float|null $adTauxLineaire The ad taux lineaire.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdTauxLineaire($adTauxLineaire) {
+    public function setAdTauxLineaire(?float $adTauxLineaire): Immobilisations {
         $this->adTauxLineaire = $adTauxLineaire;
         return $this;
     }
@@ -1769,10 +1770,10 @@ class Immobilisations {
     /**
      * Set the ad type.
      *
-     * @param string $adType The ad type.
+     * @param string|null $adType The ad type.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAdType($adType) {
+    public function setAdType(?string $adType): Immobilisations {
         $this->adType = $adType;
         return $this;
     }
@@ -1780,10 +1781,10 @@ class Immobilisations {
     /**
      * Set the af amort anterieur.
      *
-     * @param float $afAmortAnterieur The af amort anterieur.
+     * @param float|null $afAmortAnterieur The af amort anterieur.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfAmortAnterieur($afAmortAnterieur) {
+    public function setAfAmortAnterieur(?float $afAmortAnterieur): Immobilisations {
         $this->afAmortAnterieur = $afAmortAnterieur;
         return $this;
     }
@@ -1791,10 +1792,10 @@ class Immobilisations {
     /**
      * Set the af annees amort.
      *
-     * @param float $afAnneesAmort The af annees amort.
+     * @param float|null $afAnneesAmort The af annees amort.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfAnneesAmort($afAnneesAmort) {
+    public function setAfAnneesAmort(?float $afAnneesAmort): Immobilisations {
         $this->afAnneesAmort = $afAnneesAmort;
         return $this;
     }
@@ -1802,10 +1803,10 @@ class Immobilisations {
     /**
      * Set the af coeff degressif.
      *
-     * @param float $afCoeffDegressif The af coeff degressif.
+     * @param float|null $afCoeffDegressif The af coeff degressif.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfCoeffDegressif($afCoeffDegressif) {
+    public function setAfCoeffDegressif(?float $afCoeffDegressif): Immobilisations {
         $this->afCoeffDegressif = $afCoeffDegressif;
         return $this;
     }
@@ -1813,10 +1814,10 @@ class Immobilisations {
     /**
      * Set the af dotation.
      *
-     * @param float $afDotation The af dotation.
+     * @param float|null $afDotation The af dotation.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfDotation($afDotation) {
+    public function setAfDotation(?float $afDotation): Immobilisations {
         $this->afDotation = $afDotation;
         return $this;
     }
@@ -1824,21 +1825,32 @@ class Immobilisations {
     /**
      * Set the af duree.
      *
-     * @param float $afDuree The af duree.
+     * @param float|null $afDuree The af duree.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfDuree($afDuree) {
+    public function setAfDuree(?float $afDuree): Immobilisations {
         $this->afDuree = $afDuree;
+        return $this;
+    }
+
+    /**
+     * Set the afsii.
+     *
+     * @param bool|null $afsii The afsii.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setAfsii(?bool $afsii): Immobilisations {
+        $this->afsii = $afsii;
         return $this;
     }
 
     /**
      * Set the af taux except.
      *
-     * @param float $afTauxExcept The af taux except.
+     * @param float|null $afTauxExcept The af taux except.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfTauxExcept($afTauxExcept) {
+    public function setAfTauxExcept(?float $afTauxExcept): Immobilisations {
         $this->afTauxExcept = $afTauxExcept;
         return $this;
     }
@@ -1846,10 +1858,10 @@ class Immobilisations {
     /**
      * Set the af taux lineaire.
      *
-     * @param float $afTauxLineaire The af taux lineaire.
+     * @param float|null $afTauxLineaire The af taux lineaire.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfTauxLineaire($afTauxLineaire) {
+    public function setAfTauxLineaire(?float $afTauxLineaire): Immobilisations {
         $this->afTauxLineaire = $afTauxLineaire;
         return $this;
     }
@@ -1857,32 +1869,21 @@ class Immobilisations {
     /**
      * Set the af type.
      *
-     * @param string $afType The af type.
+     * @param string|null $afType The af type.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setAfType($afType) {
+    public function setAfType(?string $afType): Immobilisations {
         $this->afType = $afType;
-        return $this;
-    }
-
-    /**
-     * Set the afsii.
-     *
-     * @param bool $afsii The afsii.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setAfsii($afsii) {
-        $this->afsii = $afsii;
         return $this;
     }
 
     /**
      * Set the art151 duree deja etalee.
      *
-     * @param string $art151DureeDejaEtalee The art151 duree deja etalee.
+     * @param string|null $art151DureeDejaEtalee The art151 duree deja etalee.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setArt151DureeDejaEtalee($art151DureeDejaEtalee) {
+    public function setArt151DureeDejaEtalee(?string $art151DureeDejaEtalee): Immobilisations {
         $this->art151DureeDejaEtalee = $art151DureeDejaEtalee;
         return $this;
     }
@@ -1890,10 +1891,10 @@ class Immobilisations {
     /**
      * Set the art151 duree etalement.
      *
-     * @param string $art151DureeEtalement The art151 duree etalement.
+     * @param string|null $art151DureeEtalement The art151 duree etalement.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setArt151DureeEtalement($art151DureeEtalement) {
+    public function setArt151DureeEtalement(?string $art151DureeEtalement): Immobilisations {
         $this->art151DureeEtalement = $art151DureeEtalement;
         return $this;
     }
@@ -1901,10 +1902,10 @@ class Immobilisations {
     /**
      * Set the art151 montant deja etale.
      *
-     * @param float $art151MontantDejaEtale The art151 montant deja etale.
+     * @param float|null $art151MontantDejaEtale The art151 montant deja etale.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setArt151MontantDejaEtale($art151MontantDejaEtale) {
+    public function setArt151MontantDejaEtale(?float $art151MontantDejaEtale): Immobilisations {
         $this->art151MontantDejaEtale = $art151MontantDejaEtale;
         return $this;
     }
@@ -1912,10 +1913,10 @@ class Immobilisations {
     /**
      * Set the art151 montant etale annee.
      *
-     * @param float $art151MontantEtaleAnnee The art151 montant etale annee.
+     * @param float|null $art151MontantEtaleAnnee The art151 montant etale annee.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setArt151MontantEtaleAnnee($art151MontantEtaleAnnee) {
+    public function setArt151MontantEtaleAnnee(?float $art151MontantEtaleAnnee): Immobilisations {
         $this->art151MontantEtaleAnnee = $art151MontantEtaleAnnee;
         return $this;
     }
@@ -1923,10 +1924,10 @@ class Immobilisations {
     /**
      * Set the base calcul.
      *
-     * @param int $baseCalcul The base calcul.
+     * @param int|null $baseCalcul The base calcul.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setBaseCalcul($baseCalcul) {
+    public function setBaseCalcul(?int $baseCalcul): Immobilisations {
         $this->baseCalcul = $baseCalcul;
         return $this;
     }
@@ -1934,10 +1935,10 @@ class Immobilisations {
     /**
      * Set the base taxe pro.
      *
-     * @param float $baseTaxePro The base taxe pro.
+     * @param float|null $baseTaxePro The base taxe pro.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setBaseTaxePro($baseTaxePro) {
+    public function setBaseTaxePro(?float $baseTaxePro): Immobilisations {
         $this->baseTaxePro = $baseTaxePro;
         return $this;
     }
@@ -1945,76 +1946,21 @@ class Immobilisations {
     /**
      * Set the bureau.
      *
-     * @param string $bureau The bureau.
+     * @param string|null $bureau The bureau.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setBureau($bureau) {
+    public function setBureau(?string $bureau): Immobilisations {
         $this->bureau = $bureau;
-        return $this;
-    }
-
-    /**
-     * Set the c taux imp.
-     *
-     * @param float $cTauxImp The c taux imp.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCTauxImp($cTauxImp) {
-        $this->cTauxImp = $cTauxImp;
-        return $this;
-    }
-
-    /**
-     * Set the c valeur euros.
-     *
-     * @param float $cValeurEuros The c valeur euros.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCValeurEuros($cValeurEuros) {
-        $this->cValeurEuros = $cValeurEuros;
-        return $this;
-    }
-
-    /**
-     * Set the centre analytique.
-     *
-     * @param string $centreAnalytique The centre analytique.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCentreAnalytique($centreAnalytique) {
-        $this->centreAnalytique = $centreAnalytique;
-        return $this;
-    }
-
-    /**
-     * Set the code tva.
-     *
-     * @param string $codeTva The code tva.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCodeTva($codeTva) {
-        $this->codeTva = $codeTva;
-        return $this;
-    }
-
-    /**
-     * Set the compte frn.
-     *
-     * @param string $compteFrn The compte frn.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCompteFrn($compteFrn) {
-        $this->compteFrn = $compteFrn;
         return $this;
     }
 
     /**
      * Set the cr is dot.
      *
-     * @param bool $crIsDot The cr is dot.
+     * @param bool|null $crIsDot The cr is dot.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrIsDot($crIsDot) {
+    public function setCrIsDot(?bool $crIsDot): Immobilisations {
         $this->crIsDot = $crIsDot;
         return $this;
     }
@@ -2022,10 +1968,10 @@ class Immobilisations {
     /**
      * Set the crr151 motif.
      *
-     * @param bool $crr151Motif The crr151 motif.
+     * @param bool|null $crr151Motif The crr151 motif.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrr151Motif($crr151Motif) {
+    public function setCrr151Motif(?bool $crr151Motif): Immobilisations {
         $this->crr151Motif = $crr151Motif;
         return $this;
     }
@@ -2033,10 +1979,10 @@ class Immobilisations {
     /**
      * Set the crr151 pm value ct.
      *
-     * @param float $crr151PmValueCt The crr151 pm value ct.
+     * @param float|null $crr151PmValueCt The crr151 pm value ct.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrr151PmValueCt($crr151PmValueCt) {
+    public function setCrr151PmValueCt(?float $crr151PmValueCt): Immobilisations {
         $this->crr151PmValueCt = $crr151PmValueCt;
         return $this;
     }
@@ -2044,10 +1990,10 @@ class Immobilisations {
     /**
      * Set the crr151 pm value lt.
      *
-     * @param float $crr151PmValueLt The crr151 pm value lt.
+     * @param float|null $crr151PmValueLt The crr151 pm value lt.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrr151PmValueLt($crr151PmValueLt) {
+    public function setCrr151PmValueLt(?float $crr151PmValueLt): Immobilisations {
         $this->crr151PmValueLt = $crr151PmValueLt;
         return $this;
     }
@@ -2058,73 +2004,18 @@ class Immobilisations {
      * @param DateTime|null $crrDate The crr date.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrrDate(DateTime $crrDate = null) {
+    public function setCrrDate(?DateTime $crrDate): Immobilisations {
         $this->crrDate = $crrDate;
-        return $this;
-    }
-
-    /**
-     * Set the crr px cession ht.
-     *
-     * @param float $crrPxCessionHt The crr px cession ht.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCrrPxCessionHt($crrPxCessionHt) {
-        $this->crrPxCessionHt = $crrPxCessionHt;
-        return $this;
-    }
-
-    /**
-     * Set the crr qte vendue.
-     *
-     * @param float $crrQteVendue The crr qte vendue.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCrrQteVendue($crrQteVendue) {
-        $this->crrQteVendue = $crrQteVendue;
-        return $this;
-    }
-
-    /**
-     * Set the crr suppl amort.
-     *
-     * @param float $crrSupplAmort The crr suppl amort.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCrrSupplAmort($crrSupplAmort) {
-        $this->crrSupplAmort = $crrSupplAmort;
-        return $this;
-    }
-
-    /**
-     * Set the crr suppl valeur.
-     *
-     * @param float $crrSupplValeur The crr suppl valeur.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCrrSupplValeur($crrSupplValeur) {
-        $this->crrSupplValeur = $crrSupplValeur;
-        return $this;
-    }
-
-    /**
-     * Set the crr type.
-     *
-     * @param string $crrType The crr type.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setCrrType($crrType) {
-        $this->crrType = $crrType;
         return $this;
     }
 
     /**
      * Set the crrpm value ct.
      *
-     * @param float $crrpmValueCt The crrpm value ct.
+     * @param float|null $crrpmValueCt The crrpm value ct.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrrpmValueCt($crrpmValueCt) {
+    public function setCrrpmValueCt(?float $crrpmValueCt): Immobilisations {
         $this->crrpmValueCt = $crrpmValueCt;
         return $this;
     }
@@ -2132,10 +2023,10 @@ class Immobilisations {
     /**
      * Set the crrpm value ctf.
      *
-     * @param float $crrpmValueCtf The crrpm value ctf.
+     * @param float|null $crrpmValueCtf The crrpm value ctf.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrrpmValueCtf($crrpmValueCtf) {
+    public function setCrrpmValueCtf(?float $crrpmValueCtf): Immobilisations {
         $this->crrpmValueCtf = $crrpmValueCtf;
         return $this;
     }
@@ -2143,10 +2034,10 @@ class Immobilisations {
     /**
      * Set the crrpm value lt.
      *
-     * @param float $crrpmValueLt The crrpm value lt.
+     * @param float|null $crrpmValueLt The crrpm value lt.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrrpmValueLt($crrpmValueLt) {
+    public function setCrrpmValueLt(?float $crrpmValueLt): Immobilisations {
         $this->crrpmValueLt = $crrpmValueLt;
         return $this;
     }
@@ -2154,11 +2045,132 @@ class Immobilisations {
     /**
      * Set the crrpm value ltf.
      *
-     * @param float $crrpmValueLtf The crrpm value ltf.
+     * @param float|null $crrpmValueLtf The crrpm value ltf.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setCrrpmValueLtf($crrpmValueLtf) {
+    public function setCrrpmValueLtf(?float $crrpmValueLtf): Immobilisations {
         $this->crrpmValueLtf = $crrpmValueLtf;
+        return $this;
+    }
+
+    /**
+     * Set the crr px cession ht.
+     *
+     * @param float|null $crrPxCessionHt The crr px cession ht.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCrrPxCessionHt(?float $crrPxCessionHt): Immobilisations {
+        $this->crrPxCessionHt = $crrPxCessionHt;
+        return $this;
+    }
+
+    /**
+     * Set the crr qte vendue.
+     *
+     * @param float|null $crrQteVendue The crr qte vendue.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCrrQteVendue(?float $crrQteVendue): Immobilisations {
+        $this->crrQteVendue = $crrQteVendue;
+        return $this;
+    }
+
+    /**
+     * Set the crr suppl amort.
+     *
+     * @param float|null $crrSupplAmort The crr suppl amort.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCrrSupplAmort(?float $crrSupplAmort): Immobilisations {
+        $this->crrSupplAmort = $crrSupplAmort;
+        return $this;
+    }
+
+    /**
+     * Set the crr suppl valeur.
+     *
+     * @param float|null $crrSupplValeur The crr suppl valeur.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCrrSupplValeur(?float $crrSupplValeur): Immobilisations {
+        $this->crrSupplValeur = $crrSupplValeur;
+        return $this;
+    }
+
+    /**
+     * Set the crr type.
+     *
+     * @param string|null $crrType The crr type.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCrrType(?string $crrType): Immobilisations {
+        $this->crrType = $crrType;
+        return $this;
+    }
+
+    /**
+     * Set the c taux imp.
+     *
+     * @param float|null $cTauxImp The c taux imp.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCTauxImp(?float $cTauxImp): Immobilisations {
+        $this->cTauxImp = $cTauxImp;
+        return $this;
+    }
+
+    /**
+     * Set the c valeur euros.
+     *
+     * @param float|null $cValeurEuros The c valeur euros.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCValeurEuros(?float $cValeurEuros): Immobilisations {
+        $this->cValeurEuros = $cValeurEuros;
+        return $this;
+    }
+
+    /**
+     * Set the centre analytique.
+     *
+     * @param string|null $centreAnalytique The centre analytique.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCentreAnalytique(?string $centreAnalytique): Immobilisations {
+        $this->centreAnalytique = $centreAnalytique;
+        return $this;
+    }
+
+    /**
+     * Set the code tva.
+     *
+     * @param string|null $codeTva The code tva.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCodeTva(?string $codeTva): Immobilisations {
+        $this->codeTva = $codeTva;
+        return $this;
+    }
+
+    /**
+     * Set the compte frn.
+     *
+     * @param string|null $compteFrn The compte frn.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setCompteFrn(?string $compteFrn): Immobilisations {
+        $this->compteFrn = $compteFrn;
+        return $this;
+    }
+
+    /**
+     * Set the din.
+     *
+     * @param bool|null $din The din.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setDin(?bool $din): Immobilisations {
+        $this->din = $din;
         return $this;
     }
 
@@ -2168,7 +2180,7 @@ class Immobilisations {
      * @param DateTime|null $dateAcqForfait The date acq forfait.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setDateAcqForfait(DateTime $dateAcqForfait = null) {
+    public function setDateAcqForfait(?DateTime $dateAcqForfait): Immobilisations {
         $this->dateAcqForfait = $dateAcqForfait;
         return $this;
     }
@@ -2179,7 +2191,7 @@ class Immobilisations {
      * @param DateTime|null $dateAcquisition The date acquisition.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setDateAcquisition(DateTime $dateAcquisition = null) {
+    public function setDateAcquisition(?DateTime $dateAcquisition): Immobilisations {
         $this->dateAcquisition = $dateAcquisition;
         return $this;
     }
@@ -2190,7 +2202,7 @@ class Immobilisations {
      * @param DateTime|null $dateMiseService The date mise service.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setDateMiseService(DateTime $dateMiseService = null) {
+    public function setDateMiseService(?DateTime $dateMiseService): Immobilisations {
         $this->dateMiseService = $dateMiseService;
         return $this;
     }
@@ -2201,29 +2213,18 @@ class Immobilisations {
      * @param DateTime|null $dateReeval The date reeval.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setDateReeval(DateTime $dateReeval = null) {
+    public function setDateReeval(?DateTime $dateReeval): Immobilisations {
         $this->dateReeval = $dateReeval;
-        return $this;
-    }
-
-    /**
-     * Set the din.
-     *
-     * @param bool $din The din.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setDin($din) {
-        $this->din = $din;
         return $this;
     }
 
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): Immobilisations {
         $this->etat = $etat;
         return $this;
     }
@@ -2231,10 +2232,10 @@ class Immobilisations {
     /**
      * Set the famille.
      *
-     * @param string $famille The famille.
+     * @param string|null $famille The famille.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setFamille($famille) {
+    public function setFamille(?string $famille): Immobilisations {
         $this->famille = $famille;
         return $this;
     }
@@ -2242,10 +2243,10 @@ class Immobilisations {
     /**
      * Set the guid vehicule.
      *
-     * @param string $guidVehicule The guid vehicule.
+     * @param string|null $guidVehicule The guid vehicule.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setGuidVehicule($guidVehicule) {
+    public function setGuidVehicule(?string $guidVehicule): Immobilisations {
         $this->guidVehicule = $guidVehicule;
         return $this;
     }
@@ -2253,10 +2254,10 @@ class Immobilisations {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Immobilisations {
         $this->libelle = $libelle;
         return $this;
     }
@@ -2264,10 +2265,10 @@ class Immobilisations {
     /**
      * Set the libelle frn.
      *
-     * @param string $libelleFrn The libelle frn.
+     * @param string|null $libelleFrn The libelle frn.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setLibelleFrn($libelleFrn) {
+    public function setLibelleFrn(?string $libelleFrn): Immobilisations {
         $this->libelleFrn = $libelleFrn;
         return $this;
     }
@@ -2275,10 +2276,10 @@ class Immobilisations {
     /**
      * Set the libelle quantite.
      *
-     * @param string $libelleQuantite The libelle quantite.
+     * @param string|null $libelleQuantite The libelle quantite.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setLibelleQuantite($libelleQuantite) {
+    public function setLibelleQuantite(?string $libelleQuantite): Immobilisations {
         $this->libelleQuantite = $libelleQuantite;
         return $this;
     }
@@ -2286,10 +2287,10 @@ class Immobilisations {
     /**
      * Set the limite amort.
      *
-     * @param float $limiteAmort The limite amort.
+     * @param float|null $limiteAmort The limite amort.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setLimiteAmort($limiteAmort) {
+    public function setLimiteAmort(?float $limiteAmort): Immobilisations {
         $this->limiteAmort = $limiteAmort;
         return $this;
     }
@@ -2297,10 +2298,10 @@ class Immobilisations {
     /**
      * Set the majoration.
      *
-     * @param bool $majoration The majoration.
+     * @param bool|null $majoration The majoration.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setMajoration($majoration) {
+    public function setMajoration(?bool $majoration): Immobilisations {
         $this->majoration = $majoration;
         return $this;
     }
@@ -2308,10 +2309,10 @@ class Immobilisations {
     /**
      * Set the materiaux agricole.
      *
-     * @param bool $materiauxAgricole The materiaux agricole.
+     * @param bool|null $materiauxAgricole The materiaux agricole.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setMateriauxAgricole($materiauxAgricole) {
+    public function setMateriauxAgricole(?bool $materiauxAgricole): Immobilisations {
         $this->materiauxAgricole = $materiauxAgricole;
         return $this;
     }
@@ -2319,10 +2320,10 @@ class Immobilisations {
     /**
      * Set the montant tva.
      *
-     * @param float $montantTva The montant tva.
+     * @param float|null $montantTva The montant tva.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setMontantTva($montantTva) {
+    public function setMontantTva(?float $montantTva): Immobilisations {
         $this->montantTva = $montantTva;
         return $this;
     }
@@ -2330,10 +2331,10 @@ class Immobilisations {
     /**
      * Set the nature analytique.
      *
-     * @param string $natureAnalytique The nature analytique.
+     * @param string|null $natureAnalytique The nature analytique.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNatureAnalytique($natureAnalytique) {
+    public function setNatureAnalytique(?string $natureAnalytique): Immobilisations {
         $this->natureAnalytique = $natureAnalytique;
         return $this;
     }
@@ -2341,10 +2342,10 @@ class Immobilisations {
     /**
      * Set the nb mois majoration.
      *
-     * @param string $nbMoisMajoration The nb mois majoration.
+     * @param string|null $nbMoisMajoration The nb mois majoration.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNbMoisMajoration($nbMoisMajoration) {
+    public function setNbMoisMajoration(?string $nbMoisMajoration): Immobilisations {
         $this->nbMoisMajoration = $nbMoisMajoration;
         return $this;
     }
@@ -2352,10 +2353,10 @@ class Immobilisations {
     /**
      * Set the num cpt trans dot.
      *
-     * @param string $numCptTransDot The num cpt trans dot.
+     * @param string|null $numCptTransDot The num cpt trans dot.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumCptTransDot($numCptTransDot) {
+    public function setNumCptTransDot(?string $numCptTransDot): Immobilisations {
         $this->numCptTransDot = $numCptTransDot;
         return $this;
     }
@@ -2363,10 +2364,10 @@ class Immobilisations {
     /**
      * Set the num doss org.
      *
-     * @param string $numDossOrg The num doss org.
+     * @param string|null $numDossOrg The num doss org.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumDossOrg($numDossOrg) {
+    public function setNumDossOrg(?string $numDossOrg): Immobilisations {
         $this->numDossOrg = $numDossOrg;
         return $this;
     }
@@ -2374,10 +2375,10 @@ class Immobilisations {
     /**
      * Set the num ens realloc.
      *
-     * @param int $numEnsRealloc The num ens realloc.
+     * @param int|null $numEnsRealloc The num ens realloc.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumEnsRealloc($numEnsRealloc) {
+    public function setNumEnsRealloc(?int $numEnsRealloc): Immobilisations {
         $this->numEnsRealloc = $numEnsRealloc;
         return $this;
     }
@@ -2385,10 +2386,10 @@ class Immobilisations {
     /**
      * Set the num ensemble.
      *
-     * @param int $numEnsemble The num ensemble.
+     * @param int|null $numEnsemble The num ensemble.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumEnsemble($numEnsemble) {
+    public function setNumEnsemble(?int $numEnsemble): Immobilisations {
         $this->numEnsemble = $numEnsemble;
         return $this;
     }
@@ -2396,10 +2397,10 @@ class Immobilisations {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): Immobilisations {
         $this->numero = $numero;
         return $this;
     }
@@ -2407,10 +2408,10 @@ class Immobilisations {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): Immobilisations {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -2418,10 +2419,10 @@ class Immobilisations {
     /**
      * Set the numero deux.
      *
-     * @param int $numeroDeux The numero deux.
+     * @param int|null $numeroDeux The numero deux.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumeroDeux($numeroDeux) {
+    public function setNumeroDeux(?int $numeroDeux): Immobilisations {
         $this->numeroDeux = $numeroDeux;
         return $this;
     }
@@ -2429,10 +2430,10 @@ class Immobilisations {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): Immobilisations {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -2440,10 +2441,10 @@ class Immobilisations {
     /**
      * Set the pilotage.
      *
-     * @param bool $pilotage The pilotage.
+     * @param bool|null $pilotage The pilotage.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setPilotage($pilotage) {
+    public function setPilotage(?bool $pilotage): Immobilisations {
         $this->pilotage = $pilotage;
         return $this;
     }
@@ -2451,10 +2452,10 @@ class Immobilisations {
     /**
      * Set the quantite.
      *
-     * @param float $quantite The quantite.
+     * @param float|null $quantite The quantite.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setQuantite($quantite) {
+    public function setQuantite(?float $quantite): Immobilisations {
         $this->quantite = $quantite;
         return $this;
     }
@@ -2462,10 +2463,10 @@ class Immobilisations {
     /**
      * Set the service.
      *
-     * @param string $service The service.
+     * @param string|null $service The service.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setService($service) {
+    public function setService(?string $service): Immobilisations {
         $this->service = $service;
         return $this;
     }
@@ -2473,44 +2474,11 @@ class Immobilisations {
     /**
      * Set the site.
      *
-     * @param string $site The site.
+     * @param string|null $site The site.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setSite($site) {
+    public function setSite(?string $site): Immobilisations {
         $this->site = $site;
-        return $this;
-    }
-
-    /**
-     * Set the taux tva.
-     *
-     * @param float $tauxTva The taux tva.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setTauxTva($tauxTva) {
-        $this->tauxTva = $tauxTva;
-        return $this;
-    }
-
-    /**
-     * Set the taxe fonciere.
-     *
-     * @param bool $taxeFonciere The taxe fonciere.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setTaxeFonciere($taxeFonciere) {
-        $this->taxeFonciere = $taxeFonciere;
-        return $this;
-    }
-
-    /**
-     * Set the taxe pro.
-     *
-     * @param bool $taxePro The taxe pro.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setTaxePro($taxePro) {
-        $this->taxePro = $taxePro;
         return $this;
     }
 
@@ -2520,8 +2488,41 @@ class Immobilisations {
      * @param DateTime|null $tpDateOrigine The tp date origine.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setTpDateOrigine(DateTime $tpDateOrigine = null) {
+    public function setTpDateOrigine(?DateTime $tpDateOrigine): Immobilisations {
         $this->tpDateOrigine = $tpDateOrigine;
+        return $this;
+    }
+
+    /**
+     * Set the taux tva.
+     *
+     * @param float|null $tauxTva The taux tva.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setTauxTva(?float $tauxTva): Immobilisations {
+        $this->tauxTva = $tauxTva;
+        return $this;
+    }
+
+    /**
+     * Set the taxe fonciere.
+     *
+     * @param bool|null $taxeFonciere The taxe fonciere.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setTaxeFonciere(?bool $taxeFonciere): Immobilisations {
+        $this->taxeFonciere = $taxeFonciere;
+        return $this;
+    }
+
+    /**
+     * Set the taxe pro.
+     *
+     * @param bool|null $taxePro The taxe pro.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setTaxePro(?bool $taxePro): Immobilisations {
+        $this->taxePro = $taxePro;
         return $this;
     }
 
@@ -2531,18 +2532,29 @@ class Immobilisations {
      * @param DateTime|null $vDate The v date.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVDate(DateTime $vDate = null) {
+    public function setVDate(?DateTime $vDate): Immobilisations {
         $this->vDate = $vDate;
+        return $this;
+    }
+
+    /**
+     * Set the vnc realloc.
+     *
+     * @param float|null $vncRealloc The vnc realloc.
+     * @return Immobilisations Returns this Immobilisations.
+     */
+    public function setVncRealloc(?float $vncRealloc): Immobilisations {
+        $this->vncRealloc = $vncRealloc;
         return $this;
     }
 
     /**
      * Set the v numero.
      *
-     * @param int $vNumero The v numero.
+     * @param int|null $vNumero The v numero.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVNumero($vNumero) {
+    public function setVNumero(?int $vNumero): Immobilisations {
         $this->vNumero = $vNumero;
         return $this;
     }
@@ -2550,10 +2562,10 @@ class Immobilisations {
     /**
      * Set the v numero compte.
      *
-     * @param string $vNumeroCompte The v numero compte.
+     * @param string|null $vNumeroCompte The v numero compte.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVNumeroCompte($vNumeroCompte) {
+    public function setVNumeroCompte(?string $vNumeroCompte): Immobilisations {
         $this->vNumeroCompte = $vNumeroCompte;
         return $this;
     }
@@ -2561,10 +2573,10 @@ class Immobilisations {
     /**
      * Set the v numero compte ini.
      *
-     * @param string $vNumeroCompteIni The v numero compte ini.
+     * @param string|null $vNumeroCompteIni The v numero compte ini.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVNumeroCompteIni($vNumeroCompteIni) {
+    public function setVNumeroCompteIni(?string $vNumeroCompteIni): Immobilisations {
         $this->vNumeroCompteIni = $vNumeroCompteIni;
         return $this;
     }
@@ -2572,10 +2584,10 @@ class Immobilisations {
     /**
      * Set the v numero deux.
      *
-     * @param int $vNumeroDeux The v numero deux.
+     * @param int|null $vNumeroDeux The v numero deux.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVNumeroDeux($vNumeroDeux) {
+    public function setVNumeroDeux(?int $vNumeroDeux): Immobilisations {
         $this->vNumeroDeux = $vNumeroDeux;
         return $this;
     }
@@ -2583,10 +2595,10 @@ class Immobilisations {
     /**
      * Set the v numero deux ini.
      *
-     * @param int $vNumeroDeuxIni The v numero deux ini.
+     * @param int|null $vNumeroDeuxIni The v numero deux ini.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVNumeroDeuxIni($vNumeroDeuxIni) {
+    public function setVNumeroDeuxIni(?int $vNumeroDeuxIni): Immobilisations {
         $this->vNumeroDeuxIni = $vNumeroDeuxIni;
         return $this;
     }
@@ -2594,10 +2606,10 @@ class Immobilisations {
     /**
      * Set the v numero ini.
      *
-     * @param int $vNumeroIni The v numero ini.
+     * @param int|null $vNumeroIni The v numero ini.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setVNumeroIni($vNumeroIni) {
+    public function setVNumeroIni(?int $vNumeroIni): Immobilisations {
         $this->vNumeroIni = $vNumeroIni;
         return $this;
     }
@@ -2605,10 +2617,10 @@ class Immobilisations {
     /**
      * Set the valeur acq forfait.
      *
-     * @param float $valeurAcqForfait The valeur acq forfait.
+     * @param float|null $valeurAcqForfait The valeur acq forfait.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setValeurAcqForfait($valeurAcqForfait) {
+    public function setValeurAcqForfait(?float $valeurAcqForfait): Immobilisations {
         $this->valeurAcqForfait = $valeurAcqForfait;
         return $this;
     }
@@ -2616,10 +2628,10 @@ class Immobilisations {
     /**
      * Set the valeur base amortissement.
      *
-     * @param float $valeurBaseAmortissement The valeur base amortissement.
+     * @param float|null $valeurBaseAmortissement The valeur base amortissement.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setValeurBaseAmortissement($valeurBaseAmortissement) {
+    public function setValeurBaseAmortissement(?float $valeurBaseAmortissement): Immobilisations {
         $this->valeurBaseAmortissement = $valeurBaseAmortissement;
         return $this;
     }
@@ -2627,10 +2639,10 @@ class Immobilisations {
     /**
      * Set the valeur deduction.
      *
-     * @param float $valeurDeduction The valeur deduction.
+     * @param float|null $valeurDeduction The valeur deduction.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setValeurDeduction($valeurDeduction) {
+    public function setValeurDeduction(?float $valeurDeduction): Immobilisations {
         $this->valeurDeduction = $valeurDeduction;
         return $this;
     }
@@ -2638,10 +2650,10 @@ class Immobilisations {
     /**
      * Set the valeur ht.
      *
-     * @param float $valeurHt The valeur ht.
+     * @param float|null $valeurHt The valeur ht.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setValeurHt($valeurHt) {
+    public function setValeurHt(?float $valeurHt): Immobilisations {
         $this->valeurHt = $valeurHt;
         return $this;
     }
@@ -2649,32 +2661,21 @@ class Immobilisations {
     /**
      * Set the valeur ht origine.
      *
-     * @param float $valeurHtOrigine The valeur ht origine.
+     * @param float|null $valeurHtOrigine The valeur ht origine.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setValeurHtOrigine($valeurHtOrigine) {
+    public function setValeurHtOrigine(?float $valeurHtOrigine): Immobilisations {
         $this->valeurHtOrigine = $valeurHtOrigine;
-        return $this;
-    }
-
-    /**
-     * Set the vnc realloc.
-     *
-     * @param float $vncRealloc The vnc realloc.
-     * @return Immobilisations Returns this Immobilisations.
-     */
-    public function setVncRealloc($vncRealloc) {
-        $this->vncRealloc = $vncRealloc;
         return $this;
     }
 
     /**
      * Set the zone libre1.
      *
-     * @param string $zoneLibre1 The zone libre1.
+     * @param string|null $zoneLibre1 The zone libre1.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setZoneLibre1($zoneLibre1) {
+    public function setZoneLibre1(?string $zoneLibre1): Immobilisations {
         $this->zoneLibre1 = $zoneLibre1;
         return $this;
     }
@@ -2682,10 +2683,10 @@ class Immobilisations {
     /**
      * Set the zone libre2.
      *
-     * @param string $zoneLibre2 The zone libre2.
+     * @param string|null $zoneLibre2 The zone libre2.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setZoneLibre2($zoneLibre2) {
+    public function setZoneLibre2(?string $zoneLibre2): Immobilisations {
         $this->zoneLibre2 = $zoneLibre2;
         return $this;
     }
@@ -2693,10 +2694,10 @@ class Immobilisations {
     /**
      * Set the zone libre3.
      *
-     * @param string $zoneLibre3 The zone libre3.
+     * @param string|null $zoneLibre3 The zone libre3.
      * @return Immobilisations Returns this Immobilisations.
      */
-    public function setZoneLibre3($zoneLibre3) {
+    public function setZoneLibre3(?string $zoneLibre3): Immobilisations {
         $this->zoneLibre3 = $zoneLibre3;
         return $this;
     }

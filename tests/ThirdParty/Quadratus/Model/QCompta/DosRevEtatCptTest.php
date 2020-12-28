@@ -29,7 +29,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollaborateur() {
+    public function testSetCollaborateur(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -42,7 +42,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCredit() {
+    public function testSetCredit(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -56,7 +56,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebit() {
+    public function testSetDebit(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -85,7 +85,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCpt() {
+    public function testSetEtatCpt(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -98,7 +98,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifie() {
+    public function testSetModifie(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -111,7 +111,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -125,7 +125,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeRev() {
+    public function testSetPeriodeRev(): void {
 
         // Set a Date/time mock.
         $periodeRev = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSolde() {
+    public function testSetSolde(): void {
 
         $obj = new DosRevEtatCpt();
 
@@ -154,7 +154,7 @@ class DosRevEtatCptTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DosRevEtatCpt();
 

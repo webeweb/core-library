@@ -24,7 +24,7 @@ class AgendaFichiers {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
@@ -38,28 +38,28 @@ class AgendaFichiers {
     /**
      * Nom fichier.
      *
-     * @var string
+     * @var string|null
      */
     private $nomFichier;
 
     /**
      * Origine fichier.
      *
-     * @var string
+     * @var string|null
      */
     private $origineFichier;
 
     /**
      * Ref guid.
      *
-     * @var string
+     * @var string|null
      */
     private $refGuid;
 
     /**
      * Titre.
      *
-     * @var string
+     * @var string|null
      */
     private $titre;
 
@@ -67,15 +67,15 @@ class AgendaFichiers {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -84,53 +84,53 @@ class AgendaFichiers {
      *
      * @return DateTime|null Returns the date ajout.
      */
-    public function getDateAjout() {
+    public function getDateAjout(): ?DateTime {
         return $this->dateAjout;
     }
 
     /**
      * Get the nom fichier.
      *
-     * @return string Returns the nom fichier.
+     * @return string|null Returns the nom fichier.
      */
-    public function getNomFichier() {
+    public function getNomFichier(): ?string {
         return $this->nomFichier;
     }
 
     /**
      * Get the origine fichier.
      *
-     * @return string Returns the origine fichier.
+     * @return string|null Returns the origine fichier.
      */
-    public function getOrigineFichier() {
+    public function getOrigineFichier(): ?string {
         return $this->origineFichier;
     }
 
     /**
      * Get the ref guid.
      *
-     * @return string Returns the ref guid.
+     * @return string|null Returns the ref guid.
      */
-    public function getRefGuid() {
+    public function getRefGuid(): ?string {
         return $this->refGuid;
     }
 
     /**
      * Get the titre.
      *
-     * @return string Returns the titre.
+     * @return string|null Returns the titre.
      */
-    public function getTitre() {
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return AgendaFichiers Returns this Agenda fichiers.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): AgendaFichiers {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -141,7 +141,7 @@ class AgendaFichiers {
      * @param DateTime|null $dateAjout The date ajout.
      * @return AgendaFichiers Returns this Agenda fichiers.
      */
-    public function setDateAjout(DateTime $dateAjout = null) {
+    public function setDateAjout(?DateTime $dateAjout): AgendaFichiers {
         $this->dateAjout = $dateAjout;
         return $this;
     }
@@ -149,10 +149,10 @@ class AgendaFichiers {
     /**
      * Set the nom fichier.
      *
-     * @param string $nomFichier The nom fichier.
+     * @param string|null $nomFichier The nom fichier.
      * @return AgendaFichiers Returns this Agenda fichiers.
      */
-    public function setNomFichier($nomFichier) {
+    public function setNomFichier(?string $nomFichier): AgendaFichiers {
         $this->nomFichier = $nomFichier;
         return $this;
     }
@@ -160,10 +160,10 @@ class AgendaFichiers {
     /**
      * Set the origine fichier.
      *
-     * @param string $origineFichier The origine fichier.
+     * @param string|null $origineFichier The origine fichier.
      * @return AgendaFichiers Returns this Agenda fichiers.
      */
-    public function setOrigineFichier($origineFichier) {
+    public function setOrigineFichier(?string $origineFichier): AgendaFichiers {
         $this->origineFichier = $origineFichier;
         return $this;
     }
@@ -171,10 +171,10 @@ class AgendaFichiers {
     /**
      * Set the ref guid.
      *
-     * @param string $refGuid The ref guid.
+     * @param string|null $refGuid The ref guid.
      * @return AgendaFichiers Returns this Agenda fichiers.
      */
-    public function setRefGuid($refGuid) {
+    public function setRefGuid(?string $refGuid): AgendaFichiers {
         $this->refGuid = $refGuid;
         return $this;
     }
@@ -182,10 +182,10 @@ class AgendaFichiers {
     /**
      * Set the titre.
      *
-     * @param string $titre The titre.
+     * @param string|null $titre The titre.
      * @return AgendaFichiers Returns this Agenda fichiers.
      */
-    public function setTitre($titre) {
+    public function setTitre(?string $titre): AgendaFichiers {
         $this->titre = $titre;
         return $this;
     }

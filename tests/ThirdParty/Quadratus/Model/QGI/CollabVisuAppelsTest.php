@@ -27,7 +27,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new CollabVisuAppels();
 
@@ -40,7 +40,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabVisu() {
+    public function testSetCodeCollabVisu(): void {
 
         $obj = new CollabVisuAppels();
 
@@ -53,7 +53,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCode() {
+    public function testSetTypeCode(): void {
 
         $obj = new CollabVisuAppels();
 
@@ -66,7 +66,7 @@ class CollabVisuAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CollabVisuAppels();
 

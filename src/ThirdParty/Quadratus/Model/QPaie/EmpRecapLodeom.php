@@ -24,63 +24,63 @@ class EmpRecapLodeom {
     /**
      * Brut.
      *
-     * @var float
+     * @var float|null
      */
     private $brut;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code etablissement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Difference.
      *
-     * @var float
+     * @var float|null
      */
     private $difference;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Nbhr.
      *
-     * @var float
+     * @var float|null
      */
     private $nbhr;
 
     /**
      * Nom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $nomEmploye;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -94,109 +94,110 @@ class EmpRecapLodeom {
     /**
      * Reduc bul.
      *
-     * @var float
+     * @var float|null
      */
     private $reducBul;
 
     /**
      * Reduc recalc.
      *
-     * @var float
+     * @var float|null
      */
     private $reducRecalc;
 
     /**
      * Shb.
      *
-     * @var float
+     * @var float|null
      */
     private $shb;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the brut.
      *
-     * @return float Returns the brut.
+     * @return float|null Returns the brut.
      */
-    public function getBrut() {
+    public function getBrut(): ?float{
         return $this->brut;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return string Returns the code etablissement.
+     * @return string|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?string{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the difference.
      *
-     * @return float Returns the difference.
+     * @return float|null Returns the difference.
      */
-    public function getDifference() {
+    public function getDifference(): ?float{
         return $this->difference;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the nbhr.
      *
-     * @return float Returns the nbhr.
+     * @return float|null Returns the nbhr.
      */
-    public function getNbhr() {
+    public function getNbhr(): ?float{
         return $this->nbhr;
     }
 
     /**
      * Get the nom employe.
      *
-     * @return string Returns the nom employe.
+     * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye() {
+    public function getNomEmploye(): ?string{
         return $this->nomEmploye;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -205,44 +206,44 @@ class EmpRecapLodeom {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the reduc bul.
      *
-     * @return float Returns the reduc bul.
+     * @return float|null Returns the reduc bul.
      */
-    public function getReducBul() {
+    public function getReducBul(): ?float{
         return $this->reducBul;
     }
 
     /**
      * Get the reduc recalc.
      *
-     * @return float Returns the reduc recalc.
+     * @return float|null Returns the reduc recalc.
      */
-    public function getReducRecalc() {
+    public function getReducRecalc(): ?float{
         return $this->reducRecalc;
     }
 
     /**
      * Get the shb.
      *
-     * @return float Returns the shb.
+     * @return float|null Returns the shb.
      */
-    public function getShb() {
+    public function getShb(): ?float{
         return $this->shb;
     }
 
     /**
      * Set the brut.
      *
-     * @param float $brut The brut.
+     * @param float|null $brut The brut.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setBrut($brut) {
+    public function setBrut(?float $brut): EmpRecapLodeom {
         $this->brut = $brut;
         return $this;
     }
@@ -250,10 +251,10 @@ class EmpRecapLodeom {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): EmpRecapLodeom {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -261,10 +262,10 @@ class EmpRecapLodeom {
     /**
      * Set the code etablissement.
      *
-     * @param string $codeEtablissement The code etablissement.
+     * @param string|null $codeEtablissement The code etablissement.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?string $codeEtablissement): EmpRecapLodeom {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -272,10 +273,10 @@ class EmpRecapLodeom {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): EmpRecapLodeom {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -283,10 +284,10 @@ class EmpRecapLodeom {
     /**
      * Set the difference.
      *
-     * @param float $difference The difference.
+     * @param float|null $difference The difference.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setDifference($difference) {
+    public function setDifference(?float $difference): EmpRecapLodeom {
         $this->difference = $difference;
         return $this;
     }
@@ -294,10 +295,10 @@ class EmpRecapLodeom {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): EmpRecapLodeom {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -305,10 +306,10 @@ class EmpRecapLodeom {
     /**
      * Set the nbhr.
      *
-     * @param float $nbhr The nbhr.
+     * @param float|null $nbhr The nbhr.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setNbhr($nbhr) {
+    public function setNbhr(?float $nbhr): EmpRecapLodeom {
         $this->nbhr = $nbhr;
         return $this;
     }
@@ -316,10 +317,10 @@ class EmpRecapLodeom {
     /**
      * Set the nom employe.
      *
-     * @param string $nomEmploye The nom employe.
+     * @param string|null $nomEmploye The nom employe.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setNomEmploye($nomEmploye) {
+    public function setNomEmploye(?string $nomEmploye): EmpRecapLodeom {
         $this->nomEmploye = $nomEmploye;
         return $this;
     }
@@ -327,10 +328,10 @@ class EmpRecapLodeom {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpRecapLodeom {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -341,7 +342,7 @@ class EmpRecapLodeom {
      * @param DateTime|null $periode The periode.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): EmpRecapLodeom {
         $this->periode = $periode;
         return $this;
     }
@@ -349,10 +350,10 @@ class EmpRecapLodeom {
     /**
      * Set the reduc bul.
      *
-     * @param float $reducBul The reduc bul.
+     * @param float|null $reducBul The reduc bul.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setReducBul($reducBul) {
+    public function setReducBul(?float $reducBul): EmpRecapLodeom {
         $this->reducBul = $reducBul;
         return $this;
     }
@@ -360,10 +361,10 @@ class EmpRecapLodeom {
     /**
      * Set the reduc recalc.
      *
-     * @param float $reducRecalc The reduc recalc.
+     * @param float|null $reducRecalc The reduc recalc.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setReducRecalc($reducRecalc) {
+    public function setReducRecalc(?float $reducRecalc): EmpRecapLodeom {
         $this->reducRecalc = $reducRecalc;
         return $this;
     }
@@ -371,10 +372,10 @@ class EmpRecapLodeom {
     /**
      * Set the shb.
      *
-     * @param float $shb The shb.
+     * @param float|null $shb The shb.
      * @return EmpRecapLodeom Returns this Emp recap lodeom.
      */
-    public function setShb($shb) {
+    public function setShb(?float $shb): EmpRecapLodeom {
         $this->shb = $shb;
         return $this;
     }

@@ -29,7 +29,7 @@ class EmployesModulesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new EmployesModules();
 
@@ -43,7 +43,7 @@ class EmployesModulesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutModulation() {
+    public function testSetDebutModulation(): void {
 
         // Set a Date/time mock.
         $debutModulation = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class EmployesModulesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcartCumuleInit() {
+    public function testSetEcartCumuleInit(): void {
 
         $obj = new EmployesModules();
 
@@ -73,7 +73,7 @@ class EmployesModulesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinModulation() {
+    public function testSetFinModulation(): void {
 
         // Set a Date/time mock.
         $finModulation = new DateTime("2018-09-10");
@@ -90,7 +90,7 @@ class EmployesModulesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcartCumule() {
+    public function testSetPeriodeEcartCumule(): void {
 
         // Set a Date/time mock.
         $periodeEcartCumule = new DateTime("2018-09-10");
@@ -106,7 +106,7 @@ class EmployesModulesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmployesModules();
 

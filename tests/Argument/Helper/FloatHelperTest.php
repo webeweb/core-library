@@ -29,7 +29,7 @@ class FloatHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseString() {
+    public function testParseString(): void {
 
         $this->assertNull(FloatHelper::parseString(null));
         $this->assertEquals(1.0, FloatHelper::parseString("1"));
@@ -45,7 +45,7 @@ class FloatHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseStringWithFloatArgumentException() {
+    public function testParseStringWithFloatArgumentException(): void {
 
         try {
 

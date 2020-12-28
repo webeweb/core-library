@@ -24,42 +24,42 @@ class BordPrepVar {
     /**
      * Code modele.
      *
-     * @var string
+     * @var string|null
      */
     private $codeModele;
 
     /**
      * Flag force.
      *
-     * @var bool
+     * @var bool|null
      */
     private $flagForce;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Num col.
      *
-     * @var string
+     * @var string|null
      */
     private $numCol;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -73,68 +73,69 @@ class BordPrepVar {
     /**
      * Valeur.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code modele.
      *
-     * @return string Returns the code modele.
+     * @return string|null Returns the code modele.
      */
-    public function getCodeModele() {
+    public function getCodeModele(): ?string{
         return $this->codeModele;
     }
 
     /**
      * Get the flag force.
      *
-     * @return bool Returns the flag force.
+     * @return bool|null Returns the flag force.
      */
-    public function getFlagForce() {
+    public function getFlagForce(): ?bool{
         return $this->flagForce;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the num col.
      *
-     * @return string Returns the num col.
+     * @return string|null Returns the num col.
      */
-    public function getNumCol() {
+    public function getNumCol(): ?string{
         return $this->numCol;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -143,26 +144,26 @@ class BordPrepVar {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the valeur.
      *
-     * @return float Returns the valeur.
+     * @return float|null Returns the valeur.
      */
-    public function getValeur() {
+    public function getValeur(): ?float{
         return $this->valeur;
     }
 
     /**
      * Set the code modele.
      *
-     * @param string $codeModele The code modele.
+     * @param string|null $codeModele The code modele.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setCodeModele($codeModele) {
+    public function setCodeModele(?string $codeModele): BordPrepVar {
         $this->codeModele = $codeModele;
         return $this;
     }
@@ -170,10 +171,10 @@ class BordPrepVar {
     /**
      * Set the flag force.
      *
-     * @param bool $flagForce The flag force.
+     * @param bool|null $flagForce The flag force.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setFlagForce($flagForce) {
+    public function setFlagForce(?bool $flagForce): BordPrepVar {
         $this->flagForce = $flagForce;
         return $this;
     }
@@ -181,10 +182,10 @@ class BordPrepVar {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): BordPrepVar {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -192,10 +193,10 @@ class BordPrepVar {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): BordPrepVar {
         $this->intitule = $intitule;
         return $this;
     }
@@ -203,10 +204,10 @@ class BordPrepVar {
     /**
      * Set the num col.
      *
-     * @param string $numCol The num col.
+     * @param string|null $numCol The num col.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setNumCol($numCol) {
+    public function setNumCol(?string $numCol): BordPrepVar {
         $this->numCol = $numCol;
         return $this;
     }
@@ -214,10 +215,10 @@ class BordPrepVar {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): BordPrepVar {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -228,7 +229,7 @@ class BordPrepVar {
      * @param DateTime|null $periode The periode.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): BordPrepVar {
         $this->periode = $periode;
         return $this;
     }
@@ -236,10 +237,10 @@ class BordPrepVar {
     /**
      * Set the valeur.
      *
-     * @param float $valeur The valeur.
+     * @param float|null $valeur The valeur.
      * @return BordPrepVar Returns this Bord prep var.
      */
-    public function setValeur($valeur) {
+    public function setValeur(?float $valeur): BordPrepVar {
         $this->valeur = $valeur;
         return $this;
     }

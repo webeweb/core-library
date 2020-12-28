@@ -22,25 +22,25 @@ trait FloatValueTrait {
     /**
      * Value.
      *
-     * @var float
+     * @var float|null
      */
     protected $value;
 
     /**
      * Get the value.
      *
-     * @return float Returns the value.
+     * @return float|null Returns the value.
      */
-    public function getValue() {
+    public function getValue(): ?float {
         return $this->value;
     }
 
     /**
      * Set the value.
      *
-     * @param float $value The value.
+     * @param float|null $value The value.
      */
-    public function setValue($value) {
+    public function setValue(?float $value) {
         $this->value = $value;
         return $this;
     }

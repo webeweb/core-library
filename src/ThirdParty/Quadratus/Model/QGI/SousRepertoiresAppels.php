@@ -22,113 +22,114 @@ class SousRepertoiresAppels {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Niveau ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $niveauLigne;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Proprietes.
      *
-     * @var string
+     * @var string|null
      */
     private $proprietes;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the niveau ligne.
      *
-     * @return int Returns the niveau ligne.
+     * @return int|null Returns the niveau ligne.
      */
-    public function getNiveauLigne() {
+    public function getNiveauLigne(): ?int{
         return $this->niveauLigne;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the proprietes.
      *
-     * @return string Returns the proprietes.
+     * @return string|null Returns the proprietes.
      */
-    public function getProprietes() {
+    public function getProprietes(): ?string{
         return $this->proprietes;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): SousRepertoiresAppels {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -136,10 +137,10 @@ class SousRepertoiresAppels {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): SousRepertoiresAppels {
         $this->libelle = $libelle;
         return $this;
     }
@@ -147,10 +148,10 @@ class SousRepertoiresAppels {
     /**
      * Set the niveau ligne.
      *
-     * @param int $niveauLigne The niveau ligne.
+     * @param int|null $niveauLigne The niveau ligne.
      * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
-    public function setNiveauLigne($niveauLigne) {
+    public function setNiveauLigne(?int $niveauLigne): SousRepertoiresAppels {
         $this->niveauLigne = $niveauLigne;
         return $this;
     }
@@ -158,10 +159,10 @@ class SousRepertoiresAppels {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): SousRepertoiresAppels {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -169,10 +170,10 @@ class SousRepertoiresAppels {
     /**
      * Set the proprietes.
      *
-     * @param string $proprietes The proprietes.
+     * @param string|null $proprietes The proprietes.
      * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
-    public function setProprietes($proprietes) {
+    public function setProprietes(?string $proprietes): SousRepertoiresAppels {
         $this->proprietes = $proprietes;
         return $this;
     }
@@ -180,10 +181,10 @@ class SousRepertoiresAppels {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return SousRepertoiresAppels Returns this Sous repertoires appels.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): SousRepertoiresAppels {
         $this->uniqId = $uniqId;
         return $this;
     }

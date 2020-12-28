@@ -22,49 +22,50 @@ class DataSynchroSupprime {
     /**
      * Type data.
      *
-     * @var string
+     * @var string|null
      */
     private $typeData;
 
     /**
      * Uniq id blocage.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdBlocage;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the type data.
      *
-     * @return string Returns the type data.
+     * @return string|null Returns the type data.
      */
-    public function getTypeData() {
+    public function getTypeData(): ?string{
         return $this->typeData;
     }
 
     /**
      * Get the uniq id blocage.
      *
-     * @return string Returns the uniq id blocage.
+     * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage() {
+    public function getUniqIdBlocage(): ?string{
         return $this->uniqIdBlocage;
     }
 
     /**
      * Set the type data.
      *
-     * @param string $typeData The type data.
+     * @param string|null $typeData The type data.
      * @return DataSynchroSupprime Returns this Data synchro supprime.
      */
-    public function setTypeData($typeData) {
+    public function setTypeData(?string $typeData): DataSynchroSupprime {
         $this->typeData = $typeData;
         return $this;
     }
@@ -72,10 +73,10 @@ class DataSynchroSupprime {
     /**
      * Set the uniq id blocage.
      *
-     * @param string $uniqIdBlocage The uniq id blocage.
+     * @param string|null $uniqIdBlocage The uniq id blocage.
      * @return DataSynchroSupprime Returns this Data synchro supprime.
      */
-    public function setUniqIdBlocage($uniqIdBlocage) {
+    public function setUniqIdBlocage(?string $uniqIdBlocage): DataSynchroSupprime {
         $this->uniqIdBlocage = $uniqIdBlocage;
         return $this;
     }

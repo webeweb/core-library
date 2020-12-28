@@ -27,7 +27,7 @@ class AbstractProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testLogInfo() {
+    public function testLogInfo(): void {
 
         $obj = new TestProvider($this->logger);
 
@@ -39,7 +39,7 @@ class AbstractProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TestProvider($this->logger);
 

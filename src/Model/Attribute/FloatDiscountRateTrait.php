@@ -22,25 +22,25 @@ trait FloatDiscountRateTrait {
     /**
      * Discount rate.
      *
-     * @var float
+     * @var float|null
      */
     protected $discountRate;
 
     /**
      * Get the discount rate.
      *
-     * @return float Returns the discount rate.
+     * @return float|null Returns the discount rate.
      */
-    public function getDiscountRate() {
+    public function getDiscountRate(): ?float {
         return $this->discountRate;
     }
 
     /**
      * Set the discount rate.
      *
-     * @param float $discountRate The discount rate.
+     * @param float|null $discountRate The discount rate.
      */
-    public function setDiscountRate($discountRate) {
+    public function setDiscountRate(?float $discountRate) {
         $this->discountRate = $discountRate;
         return $this;
     }

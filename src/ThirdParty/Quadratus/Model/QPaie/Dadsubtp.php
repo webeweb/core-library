@@ -24,21 +24,21 @@ class Dadsubtp {
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code temps arret.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTempsArret;
 
@@ -59,76 +59,77 @@ class Dadsubtp {
     /**
      * Montant employeur.
      *
-     * @var float
+     * @var float|null
      */
     private $montantEmployeur;
 
     /**
      * Numero.
      *
-     * @var string
+     * @var string|null
      */
     private $numero;
 
     /**
      * Numero ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroOrdre;
 
     /**
      * Qualif unite temps.
      *
-     * @var string
+     * @var string|null
      */
     private $qualifUniteTemps;
 
     /**
      * Temps arret.
      *
-     * @var float
+     * @var float|null
      */
     private $tempsArret;
 
     /**
      * Type arret.
      *
-     * @var string
+     * @var string|null
      */
     private $typeArret;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code temps arret.
      *
-     * @return string Returns the code temps arret.
+     * @return string|null Returns the code temps arret.
      */
-    public function getCodeTempsArret() {
+    public function getCodeTempsArret(): ?string{
         return $this->codeTempsArret;
     }
 
@@ -137,7 +138,7 @@ class Dadsubtp {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode() {
+    public function getDebutPeriode(): ?DateTime{
         return $this->debutPeriode;
     }
 
@@ -146,71 +147,71 @@ class Dadsubtp {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode() {
+    public function getFinPeriode(): ?DateTime{
         return $this->finPeriode;
     }
 
     /**
      * Get the montant employeur.
      *
-     * @return float Returns the montant employeur.
+     * @return float|null Returns the montant employeur.
      */
-    public function getMontantEmployeur() {
+    public function getMontantEmployeur(): ?float{
         return $this->montantEmployeur;
     }
 
     /**
      * Get the numero.
      *
-     * @return string Returns the numero.
+     * @return string|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?string{
         return $this->numero;
     }
 
     /**
      * Get the numero ordre.
      *
-     * @return int Returns the numero ordre.
+     * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre() {
+    public function getNumeroOrdre(): ?int{
         return $this->numeroOrdre;
     }
 
     /**
      * Get the qualif unite temps.
      *
-     * @return string Returns the qualif unite temps.
+     * @return string|null Returns the qualif unite temps.
      */
-    public function getQualifUniteTemps() {
+    public function getQualifUniteTemps(): ?string{
         return $this->qualifUniteTemps;
     }
 
     /**
      * Get the temps arret.
      *
-     * @return float Returns the temps arret.
+     * @return float|null Returns the temps arret.
      */
-    public function getTempsArret() {
+    public function getTempsArret(): ?float{
         return $this->tempsArret;
     }
 
     /**
      * Get the type arret.
      *
-     * @return string Returns the type arret.
+     * @return string|null Returns the type arret.
      */
-    public function getTypeArret() {
+    public function getTypeArret(): ?string{
         return $this->typeArret;
     }
 
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): Dadsubtp {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -218,10 +219,10 @@ class Dadsubtp {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): Dadsubtp {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -229,10 +230,10 @@ class Dadsubtp {
     /**
      * Set the code temps arret.
      *
-     * @param string $codeTempsArret The code temps arret.
+     * @param string|null $codeTempsArret The code temps arret.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setCodeTempsArret($codeTempsArret) {
+    public function setCodeTempsArret(?string $codeTempsArret): Dadsubtp {
         $this->codeTempsArret = $codeTempsArret;
         return $this;
     }
@@ -243,7 +244,7 @@ class Dadsubtp {
      * @param DateTime|null $debutPeriode The debut periode.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setDebutPeriode(DateTime $debutPeriode = null) {
+    public function setDebutPeriode(?DateTime $debutPeriode): Dadsubtp {
         $this->debutPeriode = $debutPeriode;
         return $this;
     }
@@ -254,7 +255,7 @@ class Dadsubtp {
      * @param DateTime|null $finPeriode The fin periode.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setFinPeriode(DateTime $finPeriode = null) {
+    public function setFinPeriode(?DateTime $finPeriode): Dadsubtp {
         $this->finPeriode = $finPeriode;
         return $this;
     }
@@ -262,10 +263,10 @@ class Dadsubtp {
     /**
      * Set the montant employeur.
      *
-     * @param float $montantEmployeur The montant employeur.
+     * @param float|null $montantEmployeur The montant employeur.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setMontantEmployeur($montantEmployeur) {
+    public function setMontantEmployeur(?float $montantEmployeur): Dadsubtp {
         $this->montantEmployeur = $montantEmployeur;
         return $this;
     }
@@ -273,10 +274,10 @@ class Dadsubtp {
     /**
      * Set the numero.
      *
-     * @param string $numero The numero.
+     * @param string|null $numero The numero.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setNumero($numero) {
+    public function setNumero(?string $numero): Dadsubtp {
         $this->numero = $numero;
         return $this;
     }
@@ -284,10 +285,10 @@ class Dadsubtp {
     /**
      * Set the numero ordre.
      *
-     * @param int $numeroOrdre The numero ordre.
+     * @param int|null $numeroOrdre The numero ordre.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setNumeroOrdre($numeroOrdre) {
+    public function setNumeroOrdre(?int $numeroOrdre): Dadsubtp {
         $this->numeroOrdre = $numeroOrdre;
         return $this;
     }
@@ -295,10 +296,10 @@ class Dadsubtp {
     /**
      * Set the qualif unite temps.
      *
-     * @param string $qualifUniteTemps The qualif unite temps.
+     * @param string|null $qualifUniteTemps The qualif unite temps.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setQualifUniteTemps($qualifUniteTemps) {
+    public function setQualifUniteTemps(?string $qualifUniteTemps): Dadsubtp {
         $this->qualifUniteTemps = $qualifUniteTemps;
         return $this;
     }
@@ -306,10 +307,10 @@ class Dadsubtp {
     /**
      * Set the temps arret.
      *
-     * @param float $tempsArret The temps arret.
+     * @param float|null $tempsArret The temps arret.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setTempsArret($tempsArret) {
+    public function setTempsArret(?float $tempsArret): Dadsubtp {
         $this->tempsArret = $tempsArret;
         return $this;
     }
@@ -317,10 +318,10 @@ class Dadsubtp {
     /**
      * Set the type arret.
      *
-     * @param string $typeArret The type arret.
+     * @param string|null $typeArret The type arret.
      * @return Dadsubtp Returns this Dadsubtp.
      */
-    public function setTypeArret($typeArret) {
+    public function setTypeArret(?string $typeArret): Dadsubtp {
         $this->typeArret = $typeArret;
         return $this;
     }

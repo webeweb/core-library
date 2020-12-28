@@ -22,65 +22,66 @@ class PrestationsRisques {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Taux exposition.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxExposition;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the taux exposition.
      *
-     * @return float Returns the taux exposition.
+     * @return float|null Returns the taux exposition.
      */
-    public function getTauxExposition() {
+    public function getTauxExposition(): ?float{
         return $this->tauxExposition;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return PrestationsRisques Returns this Prestations risques.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): PrestationsRisques {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -88,10 +89,10 @@ class PrestationsRisques {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return PrestationsRisques Returns this Prestations risques.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): PrestationsRisques {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -99,10 +100,10 @@ class PrestationsRisques {
     /**
      * Set the taux exposition.
      *
-     * @param float $tauxExposition The taux exposition.
+     * @param float|null $tauxExposition The taux exposition.
      * @return PrestationsRisques Returns this Prestations risques.
      */
-    public function setTauxExposition($tauxExposition) {
+    public function setTauxExposition(?float $tauxExposition): PrestationsRisques {
         $this->tauxExposition = $tauxExposition;
         return $this;
     }

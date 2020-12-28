@@ -25,14 +25,14 @@ interface TransformerSetInterface {
      * @param TransformerInterface $transformer The transformer.
      * @return TransformerSetInterface Returns this transformer set.
      */
-    public function addTransformer(TransformerInterface $transformer);
+    public function addTransformer(TransformerInterface $transformer): TransformerSetInterface;
 
     /**
      * Get the transformers.
      *
      * @return TransformerInterface[] Returns the transformers.
      */
-    public function getTransformers();
+    public function getTransformers(): array;
 
     /**
      * Remove a transformer.
@@ -40,7 +40,7 @@ interface TransformerSetInterface {
      * @param TransformerInterface $transformer The transformer.
      * @return TransformerSetInterface Returns this transformer set.
      */
-    public function removeTransformer(TransformerInterface $transformer);
+    public function removeTransformer(TransformerInterface $transformer): TransformerSetInterface;
 
     /**
      * Transform a value.

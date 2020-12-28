@@ -27,7 +27,7 @@ class StringDirectoryTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDirectory() {
+    public function testSetDirectory(): void {
 
         $obj = new TestStringDirectoryTrait();
 
@@ -40,7 +40,7 @@ class StringDirectoryTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringDirectoryTrait();
 

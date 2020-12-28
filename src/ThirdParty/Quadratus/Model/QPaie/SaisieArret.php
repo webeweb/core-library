@@ -45,57 +45,58 @@ class SaisieArret {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Mt creance.
      *
-     * @var float
+     * @var float|null
      */
     private $mtCreance;
 
     /**
      * Mt deja paye.
      *
-     * @var float
+     * @var float|null
      */
     private $mtDejaPaye;
 
     /**
      * Nb a charge.
      *
-     * @var string
+     * @var string|null
      */
     private $nbACharge;
 
     /**
      * Nom tribunal.
      *
-     * @var string
+     * @var string|null
      */
     private $nomTribunal;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Type saisie.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSaisie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -103,7 +104,7 @@ class SaisieArret {
      *
      * @return DateTime|null Returns the dt courrier.
      */
-    public function getDtCourrier() {
+    public function getDtCourrier(): ?DateTime{
         return $this->dtCourrier;
     }
 
@@ -112,7 +113,7 @@ class SaisieArret {
      *
      * @return DateTime|null Returns the dt debut saisie.
      */
-    public function getDtDebutSaisie() {
+    public function getDtDebutSaisie(): ?DateTime{
         return $this->dtDebutSaisie;
     }
 
@@ -121,70 +122,70 @@ class SaisieArret {
      *
      * @return DateTime|null Returns the dt fin saisie.
      */
-    public function getDtFinSaisie() {
+    public function getDtFinSaisie(): ?DateTime{
         return $this->dtFinSaisie;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the mt creance.
      *
-     * @return float Returns the mt creance.
+     * @return float|null Returns the mt creance.
      */
-    public function getMtCreance() {
+    public function getMtCreance(): ?float{
         return $this->mtCreance;
     }
 
     /**
      * Get the mt deja paye.
      *
-     * @return float Returns the mt deja paye.
+     * @return float|null Returns the mt deja paye.
      */
-    public function getMtDejaPaye() {
+    public function getMtDejaPaye(): ?float{
         return $this->mtDejaPaye;
     }
 
     /**
      * Get the nb a charge.
      *
-     * @return string Returns the nb a charge.
+     * @return string|null Returns the nb a charge.
      */
-    public function getNbACharge() {
+    public function getNbACharge(): ?string{
         return $this->nbACharge;
     }
 
     /**
      * Get the nom tribunal.
      *
-     * @return string Returns the nom tribunal.
+     * @return string|null Returns the nom tribunal.
      */
-    public function getNomTribunal() {
+    public function getNomTribunal(): ?string{
         return $this->nomTribunal;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the type saisie.
      *
-     * @return string Returns the type saisie.
+     * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie() {
+    public function getTypeSaisie(): ?string{
         return $this->typeSaisie;
     }
 
@@ -194,7 +195,7 @@ class SaisieArret {
      * @param DateTime|null $dtCourrier The dt courrier.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setDtCourrier(DateTime $dtCourrier = null) {
+    public function setDtCourrier(?DateTime $dtCourrier): SaisieArret {
         $this->dtCourrier = $dtCourrier;
         return $this;
     }
@@ -205,7 +206,7 @@ class SaisieArret {
      * @param DateTime|null $dtDebutSaisie The dt debut saisie.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setDtDebutSaisie(DateTime $dtDebutSaisie = null) {
+    public function setDtDebutSaisie(?DateTime $dtDebutSaisie): SaisieArret {
         $this->dtDebutSaisie = $dtDebutSaisie;
         return $this;
     }
@@ -216,7 +217,7 @@ class SaisieArret {
      * @param DateTime|null $dtFinSaisie The dt fin saisie.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setDtFinSaisie(DateTime $dtFinSaisie = null) {
+    public function setDtFinSaisie(?DateTime $dtFinSaisie): SaisieArret {
         $this->dtFinSaisie = $dtFinSaisie;
         return $this;
     }
@@ -224,10 +225,10 @@ class SaisieArret {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): SaisieArret {
         $this->libelle = $libelle;
         return $this;
     }
@@ -235,10 +236,10 @@ class SaisieArret {
     /**
      * Set the mt creance.
      *
-     * @param float $mtCreance The mt creance.
+     * @param float|null $mtCreance The mt creance.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setMtCreance($mtCreance) {
+    public function setMtCreance(?float $mtCreance): SaisieArret {
         $this->mtCreance = $mtCreance;
         return $this;
     }
@@ -246,10 +247,10 @@ class SaisieArret {
     /**
      * Set the mt deja paye.
      *
-     * @param float $mtDejaPaye The mt deja paye.
+     * @param float|null $mtDejaPaye The mt deja paye.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setMtDejaPaye($mtDejaPaye) {
+    public function setMtDejaPaye(?float $mtDejaPaye): SaisieArret {
         $this->mtDejaPaye = $mtDejaPaye;
         return $this;
     }
@@ -257,10 +258,10 @@ class SaisieArret {
     /**
      * Set the nb a charge.
      *
-     * @param string $nbACharge The nb a charge.
+     * @param string|null $nbACharge The nb a charge.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setNbACharge($nbACharge) {
+    public function setNbACharge(?string $nbACharge): SaisieArret {
         $this->nbACharge = $nbACharge;
         return $this;
     }
@@ -268,10 +269,10 @@ class SaisieArret {
     /**
      * Set the nom tribunal.
      *
-     * @param string $nomTribunal The nom tribunal.
+     * @param string|null $nomTribunal The nom tribunal.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setNomTribunal($nomTribunal) {
+    public function setNomTribunal(?string $nomTribunal): SaisieArret {
         $this->nomTribunal = $nomTribunal;
         return $this;
     }
@@ -279,10 +280,10 @@ class SaisieArret {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): SaisieArret {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -290,10 +291,10 @@ class SaisieArret {
     /**
      * Set the type saisie.
      *
-     * @param string $typeSaisie The type saisie.
+     * @param string|null $typeSaisie The type saisie.
      * @return SaisieArret Returns this Saisie arret.
      */
-    public function setTypeSaisie($typeSaisie) {
+    public function setTypeSaisie(?string $typeSaisie): SaisieArret {
         $this->typeSaisie = $typeSaisie;
         return $this;
     }

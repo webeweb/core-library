@@ -22,81 +22,82 @@ class CleRepartitionLignes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Valeur.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the valeur.
      *
-     * @return float Returns the valeur.
+     * @return float|null Returns the valeur.
      */
-    public function getValeur() {
+    public function getValeur(): ?float{
         return $this->valeur;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return CleRepartitionLignes Returns this Cle repartition lignes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): CleRepartitionLignes {
         $this->code = $code;
         return $this;
     }
@@ -104,10 +105,10 @@ class CleRepartitionLignes {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return CleRepartitionLignes Returns this Cle repartition lignes.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): CleRepartitionLignes {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -115,10 +116,10 @@ class CleRepartitionLignes {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return CleRepartitionLignes Returns this Cle repartition lignes.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): CleRepartitionLignes {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -126,10 +127,10 @@ class CleRepartitionLignes {
     /**
      * Set the valeur.
      *
-     * @param float $valeur The valeur.
+     * @param float|null $valeur The valeur.
      * @return CleRepartitionLignes Returns this Cle repartition lignes.
      */
-    public function setValeur($valeur) {
+    public function setValeur(?float $valeur): CleRepartitionLignes {
         $this->valeur = $valeur;
         return $this;
     }

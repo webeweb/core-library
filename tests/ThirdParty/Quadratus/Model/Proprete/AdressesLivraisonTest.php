@@ -27,7 +27,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new AdressesLivraison();
 
@@ -40,7 +40,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new AdressesLivraison();
 
@@ -53,7 +53,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLivraison() {
+    public function testSetCodeLivraison(): void {
 
         $obj = new AdressesLivraison();
 
@@ -66,7 +66,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new AdressesLivraison();
 
@@ -79,7 +79,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new AdressesLivraison();
 
@@ -92,7 +92,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new AdressesLivraison();
 
@@ -105,7 +105,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new AdressesLivraison();
 
@@ -118,7 +118,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new AdressesLivraison();
 
@@ -131,7 +131,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new AdressesLivraison();
 
@@ -144,7 +144,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new AdressesLivraison();
 
@@ -157,7 +157,7 @@ class AdressesLivraisonTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AdressesLivraison();
 

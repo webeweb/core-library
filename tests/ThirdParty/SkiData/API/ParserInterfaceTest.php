@@ -27,7 +27,7 @@ class ParserInterfaceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $this->assertEquals("Ymd", ParserInterface::DATE_FORMAT);
         $this->assertEquals("Ymd His", ParserInterface::DATETIME_FORMAT);

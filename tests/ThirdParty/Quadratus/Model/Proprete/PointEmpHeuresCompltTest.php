@@ -29,7 +29,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAFacturer() {
+    public function testSetAFacturer(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -42,7 +42,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -55,7 +55,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -68,7 +68,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -81,7 +81,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -94,7 +94,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -108,7 +108,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureCompl() {
+    public function testSetHeureCompl(): void {
 
         // Set a Date/time mock.
         $heureCompl = new DateTime("2018-09-10");
@@ -142,7 +142,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureComplNuit() {
+    public function testSetHeureComplNuit(): void {
 
         // Set a Date/time mock.
         $heureComplNuit = new DateTime("2018-09-10");
@@ -158,7 +158,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -171,7 +171,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHeure() {
+    public function testSetTypeHeure(): void {
 
         $obj = new PointEmpHeuresComplt();
 
@@ -184,7 +184,7 @@ class PointEmpHeuresCompltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointEmpHeuresComplt();
 

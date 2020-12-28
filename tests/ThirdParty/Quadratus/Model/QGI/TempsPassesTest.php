@@ -29,7 +29,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new TempsPasses();
 
@@ -42,7 +42,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new TempsPasses();
 
@@ -55,7 +55,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new TempsPasses();
 
@@ -68,7 +68,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePhase() {
+    public function testSetCodePhase(): void {
 
         $obj = new TempsPasses();
 
@@ -81,7 +81,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new TempsPasses();
 
@@ -94,7 +94,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVehicule() {
+    public function testSetCodeVehicule(): void {
 
         $obj = new TempsPasses();
 
@@ -107,7 +107,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoutKm() {
+    public function testSetCoutKm(): void {
 
         $obj = new TempsPasses();
 
@@ -121,7 +121,7 @@ class TempsPassesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSaisie() {
+    public function testSetDateSaisie(): void {
 
         // Set a Date/time mock.
         $dateSaisie = new DateTime("2018-09-10");
@@ -138,7 +138,7 @@ class TempsPassesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSysSaisie() {
+    public function testSetDateSysSaisie(): void {
 
         // Set a Date/time mock.
         $dateSysSaisie = new DateTime("2018-09-10");
@@ -154,7 +154,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new TempsPasses();
 
@@ -167,7 +167,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFacturable() {
+    public function testSetFacturable(): void {
 
         $obj = new TempsPasses();
 
@@ -180,7 +180,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGUniqId() {
+    public function testSetGUniqId(): void {
 
         $obj = new TempsPasses();
 
@@ -194,7 +194,7 @@ class TempsPassesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDebut() {
+    public function testSetHeureDebut(): void {
 
         // Set a Date/time mock.
         $heureDebut = new DateTime("2018-09-10");
@@ -211,7 +211,7 @@ class TempsPassesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureFin() {
+    public function testSetHeureFin(): void {
 
         // Set a Date/time mock.
         $heureFin = new DateTime("2018-09-10");
@@ -227,7 +227,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdTps() {
+    public function testSetIdTps(): void {
 
         $obj = new TempsPasses();
 
@@ -240,7 +240,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsTransf() {
+    public function testSetIsTransf(): void {
 
         $obj = new TempsPasses();
 
@@ -253,7 +253,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TempsPasses();
 
@@ -266,7 +266,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMonnaie() {
+    public function testSetMonnaie(): void {
 
         $obj = new TempsPasses();
 
@@ -279,7 +279,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCrt() {
+    public function testSetMontantCrt(): void {
 
         $obj = new TempsPasses();
 
@@ -292,7 +292,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTva() {
+    public function testSetMontantTva(): void {
 
         $obj = new TempsPasses();
 
@@ -305,7 +305,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbKm() {
+    public function testSetNbKm(): void {
 
         $obj = new TempsPasses();
 
@@ -318,7 +318,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbUo() {
+    public function testSetNbUo(): void {
 
         $obj = new TempsPasses();
 
@@ -332,7 +332,7 @@ class TempsPassesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEditionNdF() {
+    public function testSetPeriodeEditionNdF(): void {
 
         // Set a Date/time mock.
         $periodeEditionNdF = new DateTime("2018-09-10");
@@ -348,7 +348,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPu() {
+    public function testSetPu(): void {
 
         $obj = new TempsPasses();
 
@@ -361,7 +361,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPv1() {
+    public function testSetPv1(): void {
 
         $obj = new TempsPasses();
 
@@ -374,7 +374,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPv2() {
+    public function testSetPv2(): void {
 
         $obj = new TempsPasses();
 
@@ -387,7 +387,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPv3() {
+    public function testSetPv3(): void {
 
         $obj = new TempsPasses();
 
@@ -400,7 +400,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQte() {
+    public function testSetQte(): void {
 
         $obj = new TempsPasses();
 
@@ -413,7 +413,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRemise() {
+    public function testSetTauxRemise(): void {
 
         $obj = new TempsPasses();
 
@@ -426,7 +426,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRemiseIci() {
+    public function testSetTauxRemiseIci(): void {
 
         $obj = new TempsPasses();
 
@@ -439,7 +439,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdFacture() {
+    public function testSetUniqIdFacture(): void {
 
         $obj = new TempsPasses();
 
@@ -452,7 +452,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValide() {
+    public function testSetValide(): void {
 
         $obj = new TempsPasses();
 
@@ -465,7 +465,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValideCollab() {
+    public function testSetValideCollab(): void {
 
         $obj = new TempsPasses();
 
@@ -479,7 +479,7 @@ class TempsPassesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetValideDate() {
+    public function testSetValideDate(): void {
 
         // Set a Date/time mock.
         $valideDate = new DateTime("2018-09-10");
@@ -495,7 +495,7 @@ class TempsPassesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TempsPasses();
 

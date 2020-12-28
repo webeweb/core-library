@@ -22,25 +22,25 @@ trait StringLabelTrait {
     /**
      * Label.
      *
-     * @var string
+     * @var string|null
      */
     protected $label;
 
     /**
      * Get the label.
      *
-     * @return string Returns the label.
+     * @return string|null Returns the label.
      */
-    public function getLabel() {
+    public function getLabel(): ?string {
         return $this->label;
     }
 
     /**
      * Set the label.
      *
-     * @param string $label The label.
+     * @param string|null $label The label.
      */
-    public function setLabel($label) {
+    public function setLabel(?string $label) {
         $this->label = $label;
         return $this;
     }

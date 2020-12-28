@@ -22,49 +22,50 @@ class ValorisationHoraire {
     /**
      * Cout horaire.
      *
-     * @var float
+     * @var float|null
      */
     private $coutHoraire;
 
     /**
      * Qualification.
      *
-     * @var string
+     * @var string|null
      */
     private $qualification;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the cout horaire.
      *
-     * @return float Returns the cout horaire.
+     * @return float|null Returns the cout horaire.
      */
-    public function getCoutHoraire() {
+    public function getCoutHoraire(): ?float{
         return $this->coutHoraire;
     }
 
     /**
      * Get the qualification.
      *
-     * @return string Returns the qualification.
+     * @return string|null Returns the qualification.
      */
-    public function getQualification() {
+    public function getQualification(): ?string{
         return $this->qualification;
     }
 
     /**
      * Set the cout horaire.
      *
-     * @param float $coutHoraire The cout horaire.
+     * @param float|null $coutHoraire The cout horaire.
      * @return ValorisationHoraire Returns this Valorisation horaire.
      */
-    public function setCoutHoraire($coutHoraire) {
+    public function setCoutHoraire(?float $coutHoraire): ValorisationHoraire {
         $this->coutHoraire = $coutHoraire;
         return $this;
     }
@@ -72,10 +73,10 @@ class ValorisationHoraire {
     /**
      * Set the qualification.
      *
-     * @param string $qualification The qualification.
+     * @param string|null $qualification The qualification.
      * @return ValorisationHoraire Returns this Valorisation horaire.
      */
-    public function setQualification($qualification) {
+    public function setQualification(?string $qualification): ValorisationHoraire {
         $this->qualification = $qualification;
         return $this;
     }

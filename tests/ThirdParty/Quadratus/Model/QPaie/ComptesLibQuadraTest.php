@@ -27,7 +27,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDucs() {
+    public function testSetCodeDucs(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -40,7 +40,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEditionHisto() {
+    public function testSetCodeEditionHisto(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -53,7 +53,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -66,7 +66,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -79,7 +79,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBSpecPrev() {
+    public function testSetCodeTypeBSpecPrev(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -92,7 +92,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteCharge() {
+    public function testSetCompteCharge(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -105,7 +105,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionSpec() {
+    public function testSetConditionSpec(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -118,7 +118,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionForceeDs() {
+    public function testSetEditionForceeDs(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -131,7 +131,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLoiTepa() {
+    public function testSetExclureLoiTepa(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -144,7 +144,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisSante() {
+    public function testSetFraisSante(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -157,7 +157,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrevoyanceComp() {
+    public function testSetPrevoyanceComp(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -170,7 +170,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiantCotis() {
+    public function testSetQualifiantCotis(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -183,7 +183,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetraiteObligatoire() {
+    public function testSetRetraiteObligatoire(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -196,7 +196,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetraiteSupp() {
+    public function testSetRetraiteSupp(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -209,7 +209,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSansReintegrationSociale() {
+    public function testSetSansReintegrationSociale(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -222,7 +222,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCrds100() {
+    public function testSetSoumisCrds100(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -235,7 +235,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCsg100() {
+    public function testSetSoumisCsg100(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -248,7 +248,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxForfaitSocial20() {
+    public function testSetTauxForfaitSocial20(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -261,7 +261,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxForfaitSocial8() {
+    public function testSetTauxForfaitSocial8(): void {
 
         $obj = new ComptesLibQuadra();
 
@@ -274,7 +274,7 @@ class ComptesLibQuadraTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ComptesLibQuadra();
 

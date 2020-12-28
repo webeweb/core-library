@@ -27,7 +27,7 @@ class RepartitionActiviteAnaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new RepartitionActiviteAna();
 
@@ -40,7 +40,7 @@ class RepartitionActiviteAnaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new RepartitionActiviteAna();
 
@@ -53,7 +53,7 @@ class RepartitionActiviteAnaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new RepartitionActiviteAna();
 
@@ -66,7 +66,7 @@ class RepartitionActiviteAnaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxVentilation() {
+    public function testSetTauxVentilation(): void {
 
         $obj = new RepartitionActiviteAna();
 
@@ -79,7 +79,7 @@ class RepartitionActiviteAnaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RepartitionActiviteAna();
 

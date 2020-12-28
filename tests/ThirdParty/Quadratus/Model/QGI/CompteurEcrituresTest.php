@@ -29,7 +29,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CompteurEcritures();
 
@@ -43,7 +43,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateComptage() {
+    public function testSetDateComptage(): void {
 
         // Set a Date/time mock.
         $dateComptage = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMillesime() {
+    public function testSetMillesime(): void {
 
         $obj = new CompteurEcritures();
 
@@ -72,7 +72,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbEcritures() {
+    public function testSetNbEcritures(): void {
 
         $obj = new CompteurEcritures();
 
@@ -85,7 +85,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbEcrituresADeduire() {
+    public function testSetNbEcrituresADeduire(): void {
 
         $obj = new CompteurEcritures();
 
@@ -98,7 +98,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoChronoPreparation() {
+    public function testSetNoChronoPreparation(): void {
 
         $obj = new CompteurEcritures();
 
@@ -112,7 +112,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodePreparation() {
+    public function testSetPeriodePreparation(): void {
 
         // Set a Date/time mock.
         $periodePreparation = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new CompteurEcritures();
 
@@ -141,7 +141,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdPdf() {
+    public function testSetUniqIdPdf(): void {
 
         $obj = new CompteurEcritures();
 
@@ -154,7 +154,7 @@ class CompteurEcrituresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CompteurEcritures();
 

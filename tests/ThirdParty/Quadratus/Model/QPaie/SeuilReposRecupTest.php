@@ -30,7 +30,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourReposRecup() {
+    public function testSetNbJourReposRecup(): void {
 
         $obj = new SeuilReposRecup();
 
@@ -59,7 +59,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroGrilleType() {
+    public function testSetNumeroGrilleType(): void {
 
         $obj = new SeuilReposRecup();
 
@@ -72,7 +72,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSeuilDeclenche() {
+    public function testSetSeuilDeclenche(): void {
 
         $obj = new SeuilReposRecup();
 
@@ -85,7 +85,7 @@ class SeuilReposRecupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SeuilReposRecup();
 

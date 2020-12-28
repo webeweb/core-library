@@ -29,7 +29,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBmCalcule() {
+    public function testSetBmCalcule(): void {
 
         $obj = new BoniMali();
 
@@ -42,7 +42,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBonus() {
+    public function testSetBonus(): void {
 
         $obj = new BoniMali();
 
@@ -55,7 +55,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BoniMali();
 
@@ -68,7 +68,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new BoniMali();
 
@@ -81,7 +81,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new BoniMali();
 
@@ -95,7 +95,7 @@ class BoniMaliTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateBm() {
+    public function testSetDateBm(): void {
 
         // Set a Date/time mock.
         $dateBm = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new BoniMali();
 
@@ -124,7 +124,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMalus() {
+    public function testSetMalus(): void {
 
         $obj = new BoniMali();
 
@@ -137,7 +137,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMonnaie() {
+    public function testSetMonnaie(): void {
 
         $obj = new BoniMali();
 
@@ -150,7 +150,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroBm() {
+    public function testSetNumeroBm(): void {
 
         $obj = new BoniMali();
 
@@ -163,7 +163,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new BoniMali();
 
@@ -176,7 +176,7 @@ class BoniMaliTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BoniMali();
 

@@ -22,49 +22,50 @@ class Regroupement {
     /**
      * Classe.
      *
-     * @var string
+     * @var string|null
      */
     private $classe;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the classe.
      *
-     * @return string Returns the classe.
+     * @return string|null Returns the classe.
      */
-    public function getClasse() {
+    public function getClasse(): ?string{
         return $this->classe;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Set the classe.
      *
-     * @param string $classe The classe.
+     * @param string|null $classe The classe.
      * @return Regroupement Returns this Regroupement.
      */
-    public function setClasse($classe) {
+    public function setClasse(?string $classe): Regroupement {
         $this->classe = $classe;
         return $this;
     }
@@ -72,10 +73,10 @@ class Regroupement {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return Regroupement Returns this Regroupement.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): Regroupement {
         $this->intitule = $intitule;
         return $this;
     }

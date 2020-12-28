@@ -22,97 +22,98 @@ class VariablesPaieEmp {
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Valeur1.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur1;
 
     /**
      * Valeur2.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur2;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the valeur1.
      *
-     * @return float Returns the valeur1.
+     * @return float|null Returns the valeur1.
      */
-    public function getValeur1() {
+    public function getValeur1(): ?float{
         return $this->valeur1;
     }
 
     /**
      * Get the valeur2.
      *
-     * @return float Returns the valeur2.
+     * @return float|null Returns the valeur2.
      */
-    public function getValeur2() {
+    public function getValeur2(): ?float{
         return $this->valeur2;
     }
 
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return VariablesPaieEmp Returns this Variables paie emp.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): VariablesPaieEmp {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -120,10 +121,10 @@ class VariablesPaieEmp {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return VariablesPaieEmp Returns this Variables paie emp.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): VariablesPaieEmp {
         $this->libelle = $libelle;
         return $this;
     }
@@ -131,10 +132,10 @@ class VariablesPaieEmp {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return VariablesPaieEmp Returns this Variables paie emp.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): VariablesPaieEmp {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -142,10 +143,10 @@ class VariablesPaieEmp {
     /**
      * Set the valeur1.
      *
-     * @param float $valeur1 The valeur1.
+     * @param float|null $valeur1 The valeur1.
      * @return VariablesPaieEmp Returns this Variables paie emp.
      */
-    public function setValeur1($valeur1) {
+    public function setValeur1(?float $valeur1): VariablesPaieEmp {
         $this->valeur1 = $valeur1;
         return $this;
     }
@@ -153,10 +154,10 @@ class VariablesPaieEmp {
     /**
      * Set the valeur2.
      *
-     * @param float $valeur2 The valeur2.
+     * @param float|null $valeur2 The valeur2.
      * @return VariablesPaieEmp Returns this Variables paie emp.
      */
-    public function setValeur2($valeur2) {
+    public function setValeur2(?float $valeur2): VariablesPaieEmp {
         $this->valeur2 = $valeur2;
         return $this;
     }

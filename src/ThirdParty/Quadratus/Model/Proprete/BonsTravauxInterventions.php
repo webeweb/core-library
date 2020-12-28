@@ -22,209 +22,210 @@ class BonsTravauxInterventions {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Dimanche.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dimanche;
 
     /**
      * Jeudi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jeudi;
 
     /**
      * Lundi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $lundi;
 
     /**
      * Mardi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mardi;
 
     /**
      * Mercredi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mercredi;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Num sem.
      *
-     * @var string
+     * @var string|null
      */
     private $numSem;
 
     /**
      * Samedi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $samedi;
 
     /**
      * Vendredi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $vendredi;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the dimanche.
      *
-     * @return bool Returns the dimanche.
+     * @return bool|null Returns the dimanche.
      */
-    public function getDimanche() {
+    public function getDimanche(): ?bool{
         return $this->dimanche;
     }
 
     /**
      * Get the jeudi.
      *
-     * @return bool Returns the jeudi.
+     * @return bool|null Returns the jeudi.
      */
-    public function getJeudi() {
+    public function getJeudi(): ?bool{
         return $this->jeudi;
     }
 
     /**
      * Get the lundi.
      *
-     * @return bool Returns the lundi.
+     * @return bool|null Returns the lundi.
      */
-    public function getLundi() {
+    public function getLundi(): ?bool{
         return $this->lundi;
     }
 
     /**
      * Get the mardi.
      *
-     * @return bool Returns the mardi.
+     * @return bool|null Returns the mardi.
      */
-    public function getMardi() {
+    public function getMardi(): ?bool{
         return $this->mardi;
     }
 
     /**
      * Get the mercredi.
      *
-     * @return bool Returns the mercredi.
+     * @return bool|null Returns the mercredi.
      */
-    public function getMercredi() {
+    public function getMercredi(): ?bool{
         return $this->mercredi;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the num sem.
      *
-     * @return string Returns the num sem.
+     * @return string|null Returns the num sem.
      */
-    public function getNumSem() {
+    public function getNumSem(): ?string{
         return $this->numSem;
     }
 
     /**
      * Get the samedi.
      *
-     * @return bool Returns the samedi.
+     * @return bool|null Returns the samedi.
      */
-    public function getSamedi() {
+    public function getSamedi(): ?bool{
         return $this->samedi;
     }
 
     /**
      * Get the vendredi.
      *
-     * @return bool Returns the vendredi.
+     * @return bool|null Returns the vendredi.
      */
-    public function getVendredi() {
+    public function getVendredi(): ?bool{
         return $this->vendredi;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): BonsTravauxInterventions {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -232,10 +233,10 @@ class BonsTravauxInterventions {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): BonsTravauxInterventions {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -243,10 +244,10 @@ class BonsTravauxInterventions {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): BonsTravauxInterventions {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -254,10 +255,10 @@ class BonsTravauxInterventions {
     /**
      * Set the dimanche.
      *
-     * @param bool $dimanche The dimanche.
+     * @param bool|null $dimanche The dimanche.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setDimanche($dimanche) {
+    public function setDimanche(?bool $dimanche): BonsTravauxInterventions {
         $this->dimanche = $dimanche;
         return $this;
     }
@@ -265,10 +266,10 @@ class BonsTravauxInterventions {
     /**
      * Set the jeudi.
      *
-     * @param bool $jeudi The jeudi.
+     * @param bool|null $jeudi The jeudi.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setJeudi($jeudi) {
+    public function setJeudi(?bool $jeudi): BonsTravauxInterventions {
         $this->jeudi = $jeudi;
         return $this;
     }
@@ -276,10 +277,10 @@ class BonsTravauxInterventions {
     /**
      * Set the lundi.
      *
-     * @param bool $lundi The lundi.
+     * @param bool|null $lundi The lundi.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setLundi($lundi) {
+    public function setLundi(?bool $lundi): BonsTravauxInterventions {
         $this->lundi = $lundi;
         return $this;
     }
@@ -287,10 +288,10 @@ class BonsTravauxInterventions {
     /**
      * Set the mardi.
      *
-     * @param bool $mardi The mardi.
+     * @param bool|null $mardi The mardi.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setMardi($mardi) {
+    public function setMardi(?bool $mardi): BonsTravauxInterventions {
         $this->mardi = $mardi;
         return $this;
     }
@@ -298,10 +299,10 @@ class BonsTravauxInterventions {
     /**
      * Set the mercredi.
      *
-     * @param bool $mercredi The mercredi.
+     * @param bool|null $mercredi The mercredi.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setMercredi($mercredi) {
+    public function setMercredi(?bool $mercredi): BonsTravauxInterventions {
         $this->mercredi = $mercredi;
         return $this;
     }
@@ -309,10 +310,10 @@ class BonsTravauxInterventions {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): BonsTravauxInterventions {
         $this->numBt = $numBt;
         return $this;
     }
@@ -320,10 +321,10 @@ class BonsTravauxInterventions {
     /**
      * Set the num sem.
      *
-     * @param string $numSem The num sem.
+     * @param string|null $numSem The num sem.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setNumSem($numSem) {
+    public function setNumSem(?string $numSem): BonsTravauxInterventions {
         $this->numSem = $numSem;
         return $this;
     }
@@ -331,10 +332,10 @@ class BonsTravauxInterventions {
     /**
      * Set the samedi.
      *
-     * @param bool $samedi The samedi.
+     * @param bool|null $samedi The samedi.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setSamedi($samedi) {
+    public function setSamedi(?bool $samedi): BonsTravauxInterventions {
         $this->samedi = $samedi;
         return $this;
     }
@@ -342,10 +343,10 @@ class BonsTravauxInterventions {
     /**
      * Set the vendredi.
      *
-     * @param bool $vendredi The vendredi.
+     * @param bool|null $vendredi The vendredi.
      * @return BonsTravauxInterventions Returns this Bons travaux interventions.
      */
-    public function setVendredi($vendredi) {
+    public function setVendredi(?bool $vendredi): BonsTravauxInterventions {
         $this->vendredi = $vendredi;
         return $this;
     }

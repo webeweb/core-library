@@ -29,7 +29,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -42,7 +42,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -55,7 +55,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -68,7 +68,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -81,7 +81,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -94,7 +94,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -108,7 +108,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePrevue() {
+    public function testSetDatePrevue(): void {
 
         // Set a Date/time mock.
         $datePrevue = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReelle() {
+    public function testSetDateReelle(): void {
 
         // Set a Date/time mock.
         $dateReelle = new DateTime("2018-09-10");
@@ -142,7 +142,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -158,7 +158,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -171,7 +171,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoteGlobale() {
+    public function testSetNoteGlobale(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -184,7 +184,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroReclam() {
+    public function testSetNumeroReclam(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -197,7 +197,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRealiseParFcq() {
+    public function testSetRealiseParFcq(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -210,7 +210,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeControle() {
+    public function testSetTypeControle(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -223,7 +223,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdNoeud() {
+    public function testSetUniqIdNoeud(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -236,7 +236,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 
@@ -249,7 +249,7 @@ class ChantiersPlanCtrlQualiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersPlanCtrlQualite();
 

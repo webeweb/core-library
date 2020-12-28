@@ -24,35 +24,35 @@ class HistoPaieAbsences {
     /**
      * Code abs paie.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAbsPaie;
 
     /**
      * Code absence.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAbsence;
 
     /**
      * Code collabo valid.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaboValid;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
@@ -80,21 +80,21 @@ class HistoPaieAbsences {
     /**
      * Duree absence.
      *
-     * @var float
+     * @var float|null
      */
     private $dureeAbsence;
 
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Nb jours abs.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJoursAbs;
 
@@ -108,66 +108,67 @@ class HistoPaieAbsences {
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code abs paie.
      *
-     * @return string Returns the code abs paie.
+     * @return string|null Returns the code abs paie.
      */
-    public function getCodeAbsPaie() {
+    public function getCodeAbsPaie(): ?string{
         return $this->codeAbsPaie;
     }
 
     /**
      * Get the code absence.
      *
-     * @return string Returns the code absence.
+     * @return string|null Returns the code absence.
      */
-    public function getCodeAbsence() {
+    public function getCodeAbsence(): ?string{
         return $this->codeAbsence;
     }
 
     /**
      * Get the code collabo valid.
      *
-     * @return string Returns the code collabo valid.
+     * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid() {
+    public function getCodeCollaboValid(): ?string{
         return $this->codeCollaboValid;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
@@ -176,7 +177,7 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the date debut abs.
      */
-    public function getDateDebutAbs() {
+    public function getDateDebutAbs(): ?DateTime{
         return $this->dateDebutAbs;
     }
 
@@ -185,7 +186,7 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the date fin abs.
      */
-    public function getDateFinAbs() {
+    public function getDateFinAbs(): ?DateTime{
         return $this->dateFinAbs;
     }
 
@@ -194,34 +195,34 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro() {
+    public function getDateValidationSynchro(): ?DateTime{
         return $this->dateValidationSynchro;
     }
 
     /**
      * Get the duree absence.
      *
-     * @return float Returns the duree absence.
+     * @return float|null Returns the duree absence.
      */
-    public function getDureeAbsence() {
+    public function getDureeAbsence(): ?float{
         return $this->dureeAbsence;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the nb jours abs.
      *
-     * @return float Returns the nb jours abs.
+     * @return float|null Returns the nb jours abs.
      */
-    public function getNbJoursAbs() {
+    public function getNbJoursAbs(): ?float{
         return $this->nbJoursAbs;
     }
 
@@ -230,35 +231,35 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the code abs paie.
      *
-     * @param string $codeAbsPaie The code abs paie.
+     * @param string|null $codeAbsPaie The code abs paie.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setCodeAbsPaie($codeAbsPaie) {
+    public function setCodeAbsPaie(?string $codeAbsPaie): HistoPaieAbsences {
         $this->codeAbsPaie = $codeAbsPaie;
         return $this;
     }
@@ -266,10 +267,10 @@ class HistoPaieAbsences {
     /**
      * Set the code absence.
      *
-     * @param string $codeAbsence The code absence.
+     * @param string|null $codeAbsence The code absence.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setCodeAbsence($codeAbsence) {
+    public function setCodeAbsence(?string $codeAbsence): HistoPaieAbsences {
         $this->codeAbsence = $codeAbsence;
         return $this;
     }
@@ -277,10 +278,10 @@ class HistoPaieAbsences {
     /**
      * Set the code collabo valid.
      *
-     * @param string $codeCollaboValid The code collabo valid.
+     * @param string|null $codeCollaboValid The code collabo valid.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setCodeCollaboValid($codeCollaboValid) {
+    public function setCodeCollaboValid(?string $codeCollaboValid): HistoPaieAbsences {
         $this->codeCollaboValid = $codeCollaboValid;
         return $this;
     }
@@ -288,10 +289,10 @@ class HistoPaieAbsences {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): HistoPaieAbsences {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -299,10 +300,10 @@ class HistoPaieAbsences {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): HistoPaieAbsences {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -313,7 +314,7 @@ class HistoPaieAbsences {
      * @param DateTime|null $dateDebutAbs The date debut abs.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setDateDebutAbs(DateTime $dateDebutAbs = null) {
+    public function setDateDebutAbs(?DateTime $dateDebutAbs): HistoPaieAbsences {
         $this->dateDebutAbs = $dateDebutAbs;
         return $this;
     }
@@ -324,7 +325,7 @@ class HistoPaieAbsences {
      * @param DateTime|null $dateFinAbs The date fin abs.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setDateFinAbs(DateTime $dateFinAbs = null) {
+    public function setDateFinAbs(?DateTime $dateFinAbs): HistoPaieAbsences {
         $this->dateFinAbs = $dateFinAbs;
         return $this;
     }
@@ -335,7 +336,7 @@ class HistoPaieAbsences {
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+    public function setDateValidationSynchro(?DateTime $dateValidationSynchro): HistoPaieAbsences {
         $this->dateValidationSynchro = $dateValidationSynchro;
         return $this;
     }
@@ -343,10 +344,10 @@ class HistoPaieAbsences {
     /**
      * Set the duree absence.
      *
-     * @param float $dureeAbsence The duree absence.
+     * @param float|null $dureeAbsence The duree absence.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setDureeAbsence($dureeAbsence) {
+    public function setDureeAbsence(?float $dureeAbsence): HistoPaieAbsences {
         $this->dureeAbsence = $dureeAbsence;
         return $this;
     }
@@ -354,10 +355,10 @@ class HistoPaieAbsences {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): HistoPaieAbsences {
         $this->etat = $etat;
         return $this;
     }
@@ -365,10 +366,10 @@ class HistoPaieAbsences {
     /**
      * Set the nb jours abs.
      *
-     * @param float $nbJoursAbs The nb jours abs.
+     * @param float|null $nbJoursAbs The nb jours abs.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setNbJoursAbs($nbJoursAbs) {
+    public function setNbJoursAbs(?float $nbJoursAbs): HistoPaieAbsences {
         $this->nbJoursAbs = $nbJoursAbs;
         return $this;
     }
@@ -379,7 +380,7 @@ class HistoPaieAbsences {
      * @param DateTime|null $periode The periode.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): HistoPaieAbsences {
         $this->periode = $periode;
         return $this;
     }
@@ -387,10 +388,10 @@ class HistoPaieAbsences {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): HistoPaieAbsences {
         $this->uniqId = $uniqId;
         return $this;
     }
@@ -398,10 +399,10 @@ class HistoPaieAbsences {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return HistoPaieAbsences Returns this Histo paie absences.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): HistoPaieAbsences {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

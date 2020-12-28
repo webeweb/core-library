@@ -27,7 +27,7 @@ class ValorisationHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoutHoraire() {
+    public function testSetCoutHoraire(): void {
 
         $obj = new ValorisationHoraire();
 
@@ -40,7 +40,7 @@ class ValorisationHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualification() {
+    public function testSetQualification(): void {
 
         $obj = new ValorisationHoraire();
 
@@ -53,7 +53,7 @@ class ValorisationHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ValorisationHoraire();
 

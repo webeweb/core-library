@@ -27,7 +27,7 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ClientsAffairesChantiers();
 
@@ -40,7 +40,7 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ClientsAffairesChantiers();
 
@@ -53,7 +53,7 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ClientsAffairesChantiers();
 
@@ -66,7 +66,7 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossierProp() {
+    public function testSetDossierProp(): void {
 
         $obj = new ClientsAffairesChantiers();
 
@@ -79,7 +79,7 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new ClientsAffairesChantiers();
 
@@ -92,7 +92,7 @@ class ClientsAffairesChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsAffairesChantiers();
 

@@ -22,49 +22,49 @@ class Actions {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code calcul.
      *
-     * @var int
+     * @var int|null
      */
     private $codeCalcul;
 
     /**
      * Descriptif court.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptifCourt;
 
     /**
      * Descriptif long.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptifLong;
 
     /**
      * Obligation liee.
      *
-     * @var string
+     * @var string|null
      */
     private $obligationLiee;
 
     /**
      * Quantite heure.
      *
-     * @var float
+     * @var float|null
      */
     private $quantiteHeure;
 
     /**
      * Relation qh.
      *
-     * @var bool
+     * @var bool|null
      */
     private $relationQh;
 
@@ -72,79 +72,79 @@ class Actions {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
     /**
      * Get the code calcul.
      *
-     * @return int Returns the code calcul.
+     * @return int|null Returns the code calcul.
      */
-    public function getCodeCalcul() {
+    public function getCodeCalcul(): ?int {
         return $this->codeCalcul;
     }
 
     /**
      * Get the descriptif court.
      *
-     * @return string Returns the descriptif court.
+     * @return string|null Returns the descriptif court.
      */
-    public function getDescriptifCourt() {
+    public function getDescriptifCourt(): ?string {
         return $this->descriptifCourt;
     }
 
     /**
      * Get the descriptif long.
      *
-     * @return string Returns the descriptif long.
+     * @return string|null Returns the descriptif long.
      */
-    public function getDescriptifLong() {
+    public function getDescriptifLong(): ?string {
         return $this->descriptifLong;
     }
 
     /**
      * Get the obligation liee.
      *
-     * @return string Returns the obligation liee.
+     * @return string|null Returns the obligation liee.
      */
-    public function getObligationLiee() {
+    public function getObligationLiee(): ?string {
         return $this->obligationLiee;
     }
 
     /**
      * Get the quantite heure.
      *
-     * @return float Returns the quantite heure.
+     * @return float|null Returns the quantite heure.
      */
-    public function getQuantiteHeure() {
+    public function getQuantiteHeure(): ?float {
         return $this->quantiteHeure;
     }
 
     /**
      * Get the relation qh.
      *
-     * @return bool Returns the relation qh.
+     * @return bool|null Returns the relation qh.
      */
-    public function getRelationQh() {
+    public function getRelationQh(): ?bool {
         return $this->relationQh;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return Actions Returns this Actions.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): Actions {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -152,10 +152,10 @@ class Actions {
     /**
      * Set the code calcul.
      *
-     * @param int $codeCalcul The code calcul.
+     * @param int|null $codeCalcul The code calcul.
      * @return Actions Returns this Actions.
      */
-    public function setCodeCalcul($codeCalcul) {
+    public function setCodeCalcul(?int $codeCalcul): Actions {
         $this->codeCalcul = $codeCalcul;
         return $this;
     }
@@ -163,10 +163,10 @@ class Actions {
     /**
      * Set the descriptif court.
      *
-     * @param string $descriptifCourt The descriptif court.
+     * @param string|null $descriptifCourt The descriptif court.
      * @return Actions Returns this Actions.
      */
-    public function setDescriptifCourt($descriptifCourt) {
+    public function setDescriptifCourt(?string $descriptifCourt): Actions {
         $this->descriptifCourt = $descriptifCourt;
         return $this;
     }
@@ -174,10 +174,10 @@ class Actions {
     /**
      * Set the descriptif long.
      *
-     * @param string $descriptifLong The descriptif long.
+     * @param string|null $descriptifLong The descriptif long.
      * @return Actions Returns this Actions.
      */
-    public function setDescriptifLong($descriptifLong) {
+    public function setDescriptifLong(?string $descriptifLong): Actions {
         $this->descriptifLong = $descriptifLong;
         return $this;
     }
@@ -185,10 +185,10 @@ class Actions {
     /**
      * Set the obligation liee.
      *
-     * @param string $obligationLiee The obligation liee.
+     * @param string|null $obligationLiee The obligation liee.
      * @return Actions Returns this Actions.
      */
-    public function setObligationLiee($obligationLiee) {
+    public function setObligationLiee(?string $obligationLiee): Actions {
         $this->obligationLiee = $obligationLiee;
         return $this;
     }
@@ -196,10 +196,10 @@ class Actions {
     /**
      * Set the quantite heure.
      *
-     * @param float $quantiteHeure The quantite heure.
+     * @param float|null $quantiteHeure The quantite heure.
      * @return Actions Returns this Actions.
      */
-    public function setQuantiteHeure($quantiteHeure) {
+    public function setQuantiteHeure(?float $quantiteHeure): Actions {
         $this->quantiteHeure = $quantiteHeure;
         return $this;
     }
@@ -207,10 +207,10 @@ class Actions {
     /**
      * Set the relation qh.
      *
-     * @param bool $relationQh The relation qh.
+     * @param bool|null $relationQh The relation qh.
      * @return Actions Returns this Actions.
      */
-    public function setRelationQh($relationQh) {
+    public function setRelationQh(?bool $relationQh): Actions {
         $this->relationQh = $relationQh;
         return $this;
     }

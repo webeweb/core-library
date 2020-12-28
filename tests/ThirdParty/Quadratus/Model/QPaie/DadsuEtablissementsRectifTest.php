@@ -27,7 +27,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActif() {
+    public function testSetActif(): void {
 
         $obj = new DadsuEtablissementsRectif();
 
@@ -40,7 +40,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DadsuEtablissementsRectif();
 
@@ -53,7 +53,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProBase() {
+    public function testSetFormaProBase(): void {
 
         $obj = new DadsuEtablissementsRectif();
 
@@ -66,7 +66,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProBaseCdd() {
+    public function testSetFormaProBaseCdd(): void {
 
         $obj = new DadsuEtablissementsRectif();
 
@@ -79,7 +79,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceRectif() {
+    public function testSetIndiceRectif(): void {
 
         $obj = new DadsuEtablissementsRectif();
 
@@ -92,7 +92,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeApprentissageBase() {
+    public function testSetTaxeApprentissageBase(): void {
 
         $obj = new DadsuEtablissementsRectif();
 
@@ -105,7 +105,7 @@ class DadsuEtablissementsRectifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuEtablissementsRectif();
 

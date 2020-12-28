@@ -29,7 +29,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new Stocks();
 
@@ -42,7 +42,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new Stocks();
 
@@ -55,7 +55,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleEcriture() {
+    public function testSetLibelleEcriture(): void {
 
         $obj = new Stocks();
 
@@ -68,7 +68,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new Stocks();
 
@@ -81,7 +81,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new Stocks();
 
@@ -94,7 +94,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new Stocks();
 
@@ -107,7 +107,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Stocks();
 
@@ -121,7 +121,7 @@ class StocksTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -137,7 +137,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixU() {
+    public function testSetPrixU(): void {
 
         $obj = new Stocks();
 
@@ -150,7 +150,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixU2() {
+    public function testSetPrixU2(): void {
 
         $obj = new Stocks();
 
@@ -163,7 +163,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new Stocks();
 
@@ -176,7 +176,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite2() {
+    public function testSetQuantite2(): void {
 
         $obj = new Stocks();
 
@@ -189,7 +189,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefEcrCodeJournal() {
+    public function testSetRefEcrCodeJournal(): void {
 
         $obj = new Stocks();
 
@@ -202,7 +202,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefEcrFolio() {
+    public function testSetRefEcrFolio(): void {
 
         $obj = new Stocks();
 
@@ -215,7 +215,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefEcrLigneFolio() {
+    public function testSetRefEcrLigneFolio(): void {
 
         $obj = new Stocks();
 
@@ -228,7 +228,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefEcrNumLigne() {
+    public function testSetRefEcrNumLigne(): void {
 
         $obj = new Stocks();
 
@@ -242,7 +242,7 @@ class StocksTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetRefEcrPeriodeEcriture() {
+    public function testSetRefEcrPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $refEcrPeriodeEcriture = new DateTime("2018-09-10");
@@ -258,7 +258,7 @@ class StocksTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Stocks();
 

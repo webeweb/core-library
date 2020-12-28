@@ -22,65 +22,66 @@ class LignesGrillesAnc {
     /**
      * Code grille.
      *
-     * @var string
+     * @var string|null
      */
     private $codeGrille;
 
     /**
      * Nb mois ecoules.
      *
-     * @var int
+     * @var int|null
      */
     private $nbMoisEcoules;
 
     /**
      * Valeur.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code grille.
      *
-     * @return string Returns the code grille.
+     * @return string|null Returns the code grille.
      */
-    public function getCodeGrille() {
+    public function getCodeGrille(): ?string{
         return $this->codeGrille;
     }
 
     /**
      * Get the nb mois ecoules.
      *
-     * @return int Returns the nb mois ecoules.
+     * @return int|null Returns the nb mois ecoules.
      */
-    public function getNbMoisEcoules() {
+    public function getNbMoisEcoules(): ?int{
         return $this->nbMoisEcoules;
     }
 
     /**
      * Get the valeur.
      *
-     * @return float Returns the valeur.
+     * @return float|null Returns the valeur.
      */
-    public function getValeur() {
+    public function getValeur(): ?float{
         return $this->valeur;
     }
 
     /**
      * Set the code grille.
      *
-     * @param string $codeGrille The code grille.
+     * @param string|null $codeGrille The code grille.
      * @return LignesGrillesAnc Returns this Lignes grilles anc.
      */
-    public function setCodeGrille($codeGrille) {
+    public function setCodeGrille(?string $codeGrille): LignesGrillesAnc {
         $this->codeGrille = $codeGrille;
         return $this;
     }
@@ -88,10 +89,10 @@ class LignesGrillesAnc {
     /**
      * Set the nb mois ecoules.
      *
-     * @param int $nbMoisEcoules The nb mois ecoules.
+     * @param int|null $nbMoisEcoules The nb mois ecoules.
      * @return LignesGrillesAnc Returns this Lignes grilles anc.
      */
-    public function setNbMoisEcoules($nbMoisEcoules) {
+    public function setNbMoisEcoules(?int $nbMoisEcoules): LignesGrillesAnc {
         $this->nbMoisEcoules = $nbMoisEcoules;
         return $this;
     }
@@ -99,10 +100,10 @@ class LignesGrillesAnc {
     /**
      * Set the valeur.
      *
-     * @param float $valeur The valeur.
+     * @param float|null $valeur The valeur.
      * @return LignesGrillesAnc Returns this Lignes grilles anc.
      */
-    public function setValeur($valeur) {
+    public function setValeur(?float $valeur): LignesGrillesAnc {
         $this->valeur = $valeur;
         return $this;
     }

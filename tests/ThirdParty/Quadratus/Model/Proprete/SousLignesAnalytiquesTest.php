@@ -27,7 +27,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -40,7 +40,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -53,7 +53,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -66,7 +66,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -79,7 +79,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -92,7 +92,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -105,7 +105,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -118,7 +118,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDocument() {
+    public function testSetNumeroDocument(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -131,7 +131,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -144,7 +144,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigneAnal() {
+    public function testSetNumeroLigneAnal(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -157,7 +157,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroSousLigneCptHt() {
+    public function testSetNumeroSousLigneCptHt(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -170,7 +170,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDocument() {
+    public function testSetTypeDocument(): void {
 
         $obj = new SousLignesAnalytiques();
 
@@ -183,7 +183,7 @@ class SousLignesAnalytiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SousLignesAnalytiques();
 

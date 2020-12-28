@@ -24,7 +24,7 @@ class Devises {
     /**
      * Code devise.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDevise;
 
@@ -38,21 +38,21 @@ class Devises {
     /**
      * Nb dec.
      *
-     * @var string
+     * @var string|null
      */
     private $nbDec;
 
     /**
      * Taux.
      *
-     * @var float
+     * @var float|null
      */
     private $taux;
 
     /**
      * Use nb dec.
      *
-     * @var bool
+     * @var bool|null
      */
     private $useNbDec;
 
@@ -60,15 +60,15 @@ class Devises {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code devise.
      *
-     * @return string Returns the code devise.
+     * @return string|null Returns the code devise.
      */
-    public function getCodeDevise() {
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -77,44 +77,44 @@ class Devises {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
     /**
      * Get the nb dec.
      *
-     * @return string Returns the nb dec.
+     * @return string|null Returns the nb dec.
      */
-    public function getNbDec() {
+    public function getNbDec(): ?string {
         return $this->nbDec;
     }
 
     /**
      * Get the taux.
      *
-     * @return float Returns the taux.
+     * @return float|null Returns the taux.
      */
-    public function getTaux() {
+    public function getTaux(): ?float {
         return $this->taux;
     }
 
     /**
      * Get the use nb dec.
      *
-     * @return bool Returns the use nb dec.
+     * @return bool|null Returns the use nb dec.
      */
-    public function getUseNbDec() {
+    public function getUseNbDec(): ?bool {
         return $this->useNbDec;
     }
 
     /**
      * Set the code devise.
      *
-     * @param string $codeDevise The code devise.
+     * @param string|null $codeDevise The code devise.
      * @return Devises Returns this Devises.
      */
-    public function setCodeDevise($codeDevise) {
+    public function setCodeDevise(?string $codeDevise): Devises {
         $this->codeDevise = $codeDevise;
         return $this;
     }
@@ -125,7 +125,7 @@ class Devises {
      * @param DateTime|null $date The date.
      * @return Devises Returns this Devises.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): Devises {
         $this->date = $date;
         return $this;
     }
@@ -133,10 +133,10 @@ class Devises {
     /**
      * Set the nb dec.
      *
-     * @param string $nbDec The nb dec.
+     * @param string|null $nbDec The nb dec.
      * @return Devises Returns this Devises.
      */
-    public function setNbDec($nbDec) {
+    public function setNbDec(?string $nbDec): Devises {
         $this->nbDec = $nbDec;
         return $this;
     }
@@ -144,10 +144,10 @@ class Devises {
     /**
      * Set the taux.
      *
-     * @param float $taux The taux.
+     * @param float|null $taux The taux.
      * @return Devises Returns this Devises.
      */
-    public function setTaux($taux) {
+    public function setTaux(?float $taux): Devises {
         $this->taux = $taux;
         return $this;
     }
@@ -155,10 +155,10 @@ class Devises {
     /**
      * Set the use nb dec.
      *
-     * @param bool $useNbDec The use nb dec.
+     * @param bool|null $useNbDec The use nb dec.
      * @return Devises Returns this Devises.
      */
-    public function setUseNbDec($useNbDec) {
+    public function setUseNbDec(?bool $useNbDec): Devises {
         $this->useNbDec = $useNbDec;
         return $this;
     }

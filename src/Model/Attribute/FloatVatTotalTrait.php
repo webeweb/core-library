@@ -22,25 +22,25 @@ trait FloatVatTotalTrait {
     /**
      *  VAT total.
      *
-     * @var float
+     * @var float|null
      */
     protected $vatTotal;
 
     /**
      * Get the VAT total.
      *
-     * @return float Returns the VAT total.
+     * @return float|null Returns the VAT total.
      */
-    public function getVatTotal() {
+    public function getVatTotal(): ?float {
         return $this->vatTotal;
     }
 
     /**
      * Set the VAT total.
      *
-     * @param float $vatTotal The VAT total.
+     * @param float|null $vatTotal The VAT total.
      */
-    public function setVatTotal($vatTotal) {
+    public function setVatTotal(?float $vatTotal) {
         $this->vatTotal = $vatTotal;
         return $this;
     }

@@ -27,7 +27,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new LignesProfilsActions();
 
@@ -40,7 +40,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProfil() {
+    public function testSetCodeProfil(): void {
 
         $obj = new LignesProfilsActions();
 
@@ -53,7 +53,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesProfilsActions();
 
@@ -66,7 +66,7 @@ class LignesProfilsActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesProfilsActions();
 

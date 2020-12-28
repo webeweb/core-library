@@ -29,7 +29,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveSalMinConv() {
+    public function testSetActiveSalMinConv(): void {
 
         $obj = new InfosComplBul();
 
@@ -42,7 +42,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveSmic() {
+    public function testSetActiveSmic(): void {
 
         $obj = new InfosComplBul();
 
@@ -55,7 +55,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAenLogement() {
+    public function testSetAenLogement(): void {
 
         $obj = new InfosComplBul();
 
@@ -68,7 +68,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAllegParticulierEmp() {
+    public function testSetAllegParticulierEmp(): void {
 
         $obj = new InfosComplBul();
 
@@ -81,7 +81,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnexe7Mutation() {
+    public function testSetAnnexe7Mutation(): void {
 
         $obj = new InfosComplBul();
 
@@ -94,7 +94,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArbitrageAuto() {
+    public function testSetArbitrageAuto(): void {
 
         $obj = new InfosComplBul();
 
@@ -107,7 +107,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAssietteAf() {
+    public function testSetAssietteAf(): void {
 
         $obj = new InfosComplBul();
 
@@ -120,7 +120,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutreAllegEmp() {
+    public function testSetAutreAllegEmp(): void {
 
         $obj = new InfosComplBul();
 
@@ -133,7 +133,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAlSansHSup() {
+    public function testSetBrutAlSansHSup(): void {
 
         $obj = new InfosComplBul();
 
@@ -146,7 +146,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAlSansHSupMajoHe() {
+    public function testSetBrutAlSansHSupMajoHe(): void {
 
         $obj = new InfosComplBul();
 
@@ -159,7 +159,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new InfosComplBul();
 
@@ -172,7 +172,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new InfosComplBul();
 
@@ -185,7 +185,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaisseCp() {
+    public function testSetCaisseCp(): void {
 
         $obj = new InfosComplBul();
 
@@ -198,7 +198,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategPopulation() {
+    public function testSetCategPopulation(): void {
 
         $obj = new InfosComplBul();
 
@@ -211,7 +211,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarie() {
+    public function testSetCategSalarie(): void {
 
         $obj = new InfosComplBul();
 
@@ -224,7 +224,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCddcdi() {
+    public function testSetCddcdi(): void {
 
         $obj = new InfosComplBul();
 
@@ -237,7 +237,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreAnalytique() {
+    public function testSetCentreAnalytique(): void {
 
         $obj = new InfosComplBul();
 
@@ -250,7 +250,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClassification() {
+    public function testSetClassification(): void {
 
         $obj = new InfosComplBul();
 
@@ -263,7 +263,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCaisseCp() {
+    public function testSetCodeCaisseCp(): void {
 
         $obj = new InfosComplBul();
 
@@ -276,7 +276,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCaract() {
+    public function testSetCodeCaract(): void {
 
         $obj = new InfosComplBul();
 
@@ -289,7 +289,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCategSalPourcentAbat() {
+    public function testSetCodeCategSalPourcentAbat(): void {
 
         $obj = new InfosComplBul();
 
@@ -302,7 +302,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClassBtp() {
+    public function testSetCodeClassBtp(): void {
 
         $obj = new InfosComplBul();
 
@@ -315,7 +315,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeContratTrav() {
+    public function testSetCodeContratTrav(): void {
 
         $obj = new InfosComplBul();
 
@@ -328,7 +328,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeConvention() {
+    public function testSetCodeConvention(): void {
 
         $obj = new InfosComplBul();
 
@@ -341,7 +341,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeConventionCol() {
+    public function testSetCodeConventionCol(): void {
 
         $obj = new InfosComplBul();
 
@@ -354,7 +354,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmpRemplace() {
+    public function testSetCodeEmpRemplace(): void {
 
         $obj = new InfosComplBul();
 
@@ -367,7 +367,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeExoTrav() {
+    public function testSetCodeExoTrav(): void {
 
         $obj = new InfosComplBul();
 
@@ -380,7 +380,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeIntitContratTrav() {
+    public function testSetCodeIntitContratTrav(): void {
 
         $obj = new InfosComplBul();
 
@@ -393,7 +393,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMetierBtp() {
+    public function testSetCodeMetierBtp(): void {
 
         $obj = new InfosComplBul();
 
@@ -406,7 +406,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOfficielCommune() {
+    public function testSetCodeOfficielCommune(): void {
 
         $obj = new InfosComplBul();
 
@@ -419,7 +419,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new InfosComplBul();
 
@@ -432,7 +432,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeAt() {
+    public function testSetCodeRegimeAt(): void {
 
         $obj = new InfosComplBul();
 
@@ -445,7 +445,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeBaseObl() {
+    public function testSetCodeRegimeBaseObl(): void {
 
         $obj = new InfosComplBul();
 
@@ -458,7 +458,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeVieillesse() {
+    public function testSetCodeRegimeVieillesse(): void {
 
         $obj = new InfosComplBul();
 
@@ -471,7 +471,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRetraiteComplementaire() {
+    public function testSetCodeRetraiteComplementaire(): void {
 
         $obj = new InfosComplBul();
 
@@ -484,7 +484,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSituAdmin() {
+    public function testSetCodeSituAdmin(): void {
 
         $obj = new InfosComplBul();
 
@@ -497,7 +497,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeStatutCateg() {
+    public function testSetCodeStatutCateg(): void {
 
         $obj = new InfosComplBul();
 
@@ -510,7 +510,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeStatutCategRetraite() {
+    public function testSetCodeStatutCategRetraite(): void {
 
         $obj = new InfosComplBul();
 
@@ -523,7 +523,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeStatutPro() {
+    public function testSetCodeStatutPro(): void {
 
         $obj = new InfosComplBul();
 
@@ -536,7 +536,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTuteur() {
+    public function testSetCodeTuteur(): void {
 
         $obj = new InfosComplBul();
 
@@ -549,7 +549,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUniteTempsTravail() {
+    public function testSetCodeUniteTempsTravail(): void {
 
         $obj = new InfosComplBul();
 
@@ -562,7 +562,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffConvention() {
+    public function testSetCoeffConvention(): void {
 
         $obj = new InfosComplBul();
 
@@ -575,7 +575,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffFillonMoins20() {
+    public function testSetCoeffFillonMoins20(): void {
 
         $obj = new InfosComplBul();
 
@@ -588,7 +588,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new InfosComplBul();
 
@@ -601,7 +601,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplementPcs() {
+    public function testSetComplementPcs(): void {
 
         $obj = new InfosComplBul();
 
@@ -614,7 +614,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContratCne() {
+    public function testSetContratCne(): void {
 
         $obj = new InfosComplBul();
 
@@ -627,7 +627,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBasePrevoyanceComp() {
+    public function testSetCumBasePrevoyanceComp(): void {
 
         $obj = new InfosComplBul();
 
@@ -640,7 +640,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseRetraiteObli() {
+    public function testSetCumBaseRetraiteObli(): void {
 
         $obj = new InfosComplBul();
 
@@ -653,7 +653,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseRetraiteSupp() {
+    public function testSetCumBaseRetraiteSupp(): void {
 
         $obj = new InfosComplBul();
 
@@ -666,7 +666,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumMtForfaitSocial20() {
+    public function testSetCumMtForfaitSocial20(): void {
 
         $obj = new InfosComplBul();
 
@@ -679,7 +679,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumMtForfaitSocial8() {
+    public function testSetCumMtForfaitSocial8(): void {
 
         $obj = new InfosComplBul();
 
@@ -692,7 +692,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPpFiscPrev() {
+    public function testSetCumPpFiscPrev(): void {
 
         $obj = new InfosComplBul();
 
@@ -705,7 +705,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPpFiscRet() {
+    public function testSetCumPpFiscRet(): void {
 
         $obj = new InfosComplBul();
 
@@ -718,7 +718,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPsFiscPrev() {
+    public function testSetCumPsFiscPrev(): void {
 
         $obj = new InfosComplBul();
 
@@ -731,7 +731,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPsFiscRet() {
+    public function testSetCumPsFiscRet(): void {
 
         $obj = new InfosComplBul();
 
@@ -744,7 +744,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumSmicM() {
+    public function testSetCumSmicM(): void {
 
         $obj = new InfosComplBul();
 
@@ -757,7 +757,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrD1Caisse1() {
+    public function testSetCumTrD1Caisse1(): void {
 
         $obj = new InfosComplBul();
 
@@ -770,7 +770,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrD1caisse2() {
+    public function testSetCumTrD1caisse2(): void {
 
         $obj = new InfosComplBul();
 
@@ -783,7 +783,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrD1caisse3() {
+    public function testSetCumTrD1caisse3(): void {
 
         $obj = new InfosComplBul();
 
@@ -796,7 +796,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrDCaisse1() {
+    public function testSetCumTrDCaisse1(): void {
 
         $obj = new InfosComplBul();
 
@@ -809,7 +809,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrDcaisse2() {
+    public function testSetCumTrDcaisse2(): void {
 
         $obj = new InfosComplBul();
 
@@ -822,7 +822,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrDcaisse3() {
+    public function testSetCumTrDcaisse3(): void {
 
         $obj = new InfosComplBul();
 
@@ -835,7 +835,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheD() {
+    public function testSetCumTrancheD(): void {
 
         $obj = new InfosComplBul();
 
@@ -848,7 +848,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheD1() {
+    public function testSetCumTrancheD1(): void {
 
         $obj = new InfosComplBul();
 
@@ -862,7 +862,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAncienBranche() {
+    public function testSetDateAncienBranche(): void {
 
         // Set a Date/time mock.
         $dateAncienBranche = new DateTime("2018-09-10");
@@ -879,7 +879,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAncienCollege() {
+    public function testSetDateAncienCollege(): void {
 
         // Set a Date/time mock.
         $dateAncienCollege = new DateTime("2018-09-10");
@@ -896,7 +896,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAncienPoste() {
+    public function testSetDateAncienPoste(): void {
 
         // Set a Date/time mock.
         $dateAncienPoste = new DateTime("2018-09-10");
@@ -913,7 +913,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutChomCdd() {
+    public function testSetDateDebutChomCdd(): void {
 
         // Set a Date/time mock.
         $dateDebutChomCdd = new DateTime("2018-09-10");
@@ -930,7 +930,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutContrat() {
+    public function testSetDateDebutContrat(): void {
 
         // Set a Date/time mock.
         $dateDebutContrat = new DateTime("2018-09-10");
@@ -947,7 +947,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEnvoiMail() {
+    public function testSetDateEnvoiMail(): void {
 
         // Set a Date/time mock.
         $dateEnvoiMail = new DateTime("2018-09-10");
@@ -964,7 +964,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinChomCdd() {
+    public function testSetDateFinChomCdd(): void {
 
         // Set a Date/time mock.
         $dateFinChomCdd = new DateTime("2018-09-10");
@@ -981,7 +981,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinContrat() {
+    public function testSetDateFinContrat(): void {
 
         // Set a Date/time mock.
         $dateFinContrat = new DateTime("2018-09-10");
@@ -998,7 +998,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinPrev() {
+    public function testSetDateFinPrev(): void {
 
         // Set a Date/time mock.
         $dateFinPrev = new DateTime("2018-09-10");
@@ -1015,7 +1015,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRachat() {
+    public function testSetDateRachat(): void {
 
         // Set a Date/time mock.
         $dateRachat = new DateTime("2018-09-10");
@@ -1032,7 +1032,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRenouvCdd() {
+    public function testSetDateRenouvCdd(): void {
 
         // Set a Date/time mock.
         $dateRenouvCdd = new DateTime("2018-09-10");
@@ -1049,7 +1049,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRenouvCdd2() {
+    public function testSetDateRenouvCdd2(): void {
 
         // Set a Date/time mock.
         $dateRenouvCdd2 = new DateTime("2018-09-10");
@@ -1065,7 +1065,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetacheExpatrie() {
+    public function testSetDetacheExpatrie(): void {
 
         $obj = new InfosComplBul();
 
@@ -1078,7 +1078,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEchelon() {
+    public function testSetEchelon(): void {
 
         $obj = new InfosComplBul();
 
@@ -1091,7 +1091,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEchelonConventionCol() {
+    public function testSetEchelonConventionCol(): void {
 
         $obj = new InfosComplBul();
 
@@ -1104,7 +1104,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new InfosComplBul();
 
@@ -1117,7 +1117,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmploi() {
+    public function testSetEmploi(): void {
 
         $obj = new InfosComplBul();
 
@@ -1130,7 +1130,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtabLieuTravail() {
+    public function testSetEtabLieuTravail(): void {
 
         $obj = new InfosComplBul();
 
@@ -1143,7 +1143,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureChomCdd() {
+    public function testSetExclureChomCdd(): void {
 
         $obj = new InfosComplBul();
 
@@ -1156,7 +1156,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureCice() {
+    public function testSetExclureCice(): void {
 
         $obj = new InfosComplBul();
 
@@ -1169,7 +1169,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureCospar() {
+    public function testSetExclureCospar(): void {
 
         $obj = new InfosComplBul();
 
@@ -1182,7 +1182,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureDsn() {
+    public function testSetExclureDsn(): void {
 
         $obj = new InfosComplBul();
 
@@ -1195,7 +1195,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLoiTepa() {
+    public function testSetExclureLoiTepa(): void {
 
         $obj = new InfosComplBul();
 
@@ -1208,7 +1208,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLoiTepaPartP() {
+    public function testSetExclureLoiTepaPartP(): void {
 
         $obj = new InfosComplBul();
 
@@ -1221,7 +1221,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLoiTepaPartS() {
+    public function testSetExclureLoiTepaPartS(): void {
 
         $obj = new InfosComplBul();
 
@@ -1234,7 +1234,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureQgc() {
+    public function testSetExclureQgc(): void {
 
         $obj = new InfosComplBul();
 
@@ -1247,7 +1247,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoAccre17() {
+    public function testSetExoAccre17(): void {
 
         $obj = new InfosComplBul();
 
@@ -1260,7 +1260,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoOccasionnelMsa() {
+    public function testSetExoOccasionnelMsa(): void {
 
         $obj = new InfosComplBul();
 
@@ -1273,7 +1273,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoProfessionnalisation() {
+    public function testSetExoProfessionnalisation(): void {
 
         $obj = new InfosComplBul();
 
@@ -1286,7 +1286,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoSpecif() {
+    public function testSetExoSpecif(): void {
 
         $obj = new InfosComplBul();
 
@@ -1299,7 +1299,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetForfaitHeure() {
+    public function testSetForfaitHeure(): void {
 
         $obj = new InfosComplBul();
 
@@ -1312,7 +1312,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFractionEtab() {
+    public function testSetFractionEtab(): void {
 
         $obj = new InfosComplBul();
 
@@ -1325,7 +1325,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionCp() {
+    public function testSetGestionCp(): void {
 
         $obj = new InfosComplBul();
 
@@ -1338,7 +1338,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionHstepa() {
+    public function testSetGestionHstepa(): void {
 
         $obj = new InfosComplBul();
 
@@ -1351,7 +1351,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionMailBulletin() {
+    public function testSetGestionMailBulletin(): void {
 
         $obj = new InfosComplBul();
 
@@ -1364,7 +1364,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionRtt() {
+    public function testSetGestionRtt(): void {
 
         $obj = new InfosComplBul();
 
@@ -1377,7 +1377,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGrilleAnc1() {
+    public function testSetGrilleAnc1(): void {
 
         $obj = new InfosComplBul();
 
@@ -1390,7 +1390,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGrilleAnc2() {
+    public function testSetGrilleAnc2(): void {
 
         $obj = new InfosComplBul();
 
@@ -1403,7 +1403,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGrilleAnc3() {
+    public function testSetGrilleAnc3(): void {
 
         $obj = new InfosComplBul();
 
@@ -1416,7 +1416,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdLieuTravail() {
+    public function testSetIdLieuTravail(): void {
 
         $obj = new InfosComplBul();
 
@@ -1429,7 +1429,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemCpMsa() {
+    public function testSetIndemCpMsa(): void {
 
         $obj = new InfosComplBul();
 
@@ -1442,7 +1442,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new InfosComplBul();
 
@@ -1455,7 +1455,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceCateg() {
+    public function testSetIndiceCateg(): void {
 
         $obj = new InfosComplBul();
 
@@ -1468,7 +1468,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new InfosComplBul();
 
@@ -1481,7 +1481,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterimIndemCpFillon() {
+    public function testSetInterimIndemCpFillon(): void {
 
         $obj = new InfosComplBul();
 
@@ -1494,7 +1494,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleReintegration() {
+    public function testSetLibelleReintegration(): void {
 
         $obj = new InfosComplBul();
 
@@ -1507,7 +1507,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienReintegration() {
+    public function testSetLienReintegration(): void {
 
         $obj = new InfosComplBul();
 
@@ -1520,7 +1520,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaintienIntervientCp() {
+    public function testSetMaintienIntervientCp(): void {
 
         $obj = new InfosComplBul();
 
@@ -1533,7 +1533,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaintienSalaire() {
+    public function testSetMaintienSalaire(): void {
 
         $obj = new InfosComplBul();
 
@@ -1546,7 +1546,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAvantage() {
+    public function testSetMontantAvantage(): void {
 
         $obj = new InfosComplBul();
 
@@ -1559,7 +1559,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifCdd() {
+    public function testSetMotifCdd(): void {
 
         $obj = new InfosComplBul();
 
@@ -1572,7 +1572,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifExclusionDsn() {
+    public function testSetMotifExclusionDsn(): void {
 
         $obj = new InfosComplBul();
 
@@ -1585,7 +1585,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtAbsActPart() {
+    public function testSetMtAbsActPart(): void {
 
         $obj = new InfosComplBul();
 
@@ -1598,7 +1598,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCotisationPrev() {
+    public function testSetMtCotisationPrev(): void {
 
         $obj = new InfosComplBul();
 
@@ -1611,7 +1611,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCotisationRetraite() {
+    public function testSetMtCotisationRetraite(): void {
 
         $obj = new InfosComplBul();
 
@@ -1624,7 +1624,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCrds100() {
+    public function testSetMtCrds100(): void {
 
         $obj = new InfosComplBul();
 
@@ -1637,7 +1637,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCsg100() {
+    public function testSetMtCsg100(): void {
 
         $obj = new InfosComplBul();
 
@@ -1650,7 +1650,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtFiscFraisSante() {
+    public function testSetMtFiscFraisSante(): void {
 
         $obj = new InfosComplBul();
 
@@ -1663,7 +1663,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtFiscPrev() {
+    public function testSetMtFiscPrev(): void {
 
         $obj = new InfosComplBul();
 
@@ -1676,7 +1676,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtFiscRetraite() {
+    public function testSetMtFiscRetraite(): void {
 
         $obj = new InfosComplBul();
 
@@ -1689,7 +1689,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtForfaitSocial20() {
+    public function testSetMtForfaitSocial20(): void {
 
         $obj = new InfosComplBul();
 
@@ -1702,7 +1702,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtForfaitSocial8() {
+    public function testSetMtForfaitSocial8(): void {
 
         $obj = new InfosComplBul();
 
@@ -1715,7 +1715,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtIap() {
+    public function testSetMtIap(): void {
 
         $obj = new InfosComplBul();
 
@@ -1728,7 +1728,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtJourneeCpn() {
+    public function testSetMtJourneeCpn(): void {
 
         $obj = new InfosComplBul();
 
@@ -1741,7 +1741,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtJourneeCpn1() {
+    public function testSetMtJourneeCpn1(): void {
 
         $obj = new InfosComplBul();
 
@@ -1754,7 +1754,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMultiEmployeur() {
+    public function testSetMultiEmployeur(): void {
 
         $obj = new InfosComplBul();
 
@@ -1767,7 +1767,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNatureAnalytique() {
+    public function testSetNatureAnalytique(): void {
 
         $obj = new InfosComplBul();
 
@@ -1780,7 +1780,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNb30RenouvCdd() {
+    public function testSetNb30RenouvCdd(): void {
 
         $obj = new InfosComplBul();
 
@@ -1793,7 +1793,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHActPart() {
+    public function testSetNbHActPart(): void {
 
         $obj = new InfosComplBul();
 
@@ -1806,7 +1806,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHActPartIndem() {
+    public function testSetNbHActPartIndem(): void {
 
         $obj = new InfosComplBul();
 
@@ -1819,7 +1819,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHBonifie() {
+    public function testSetNbHBonifie(): void {
 
         $obj = new InfosComplBul();
 
@@ -1832,7 +1832,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHContingent() {
+    public function testSetNbHContingent(): void {
 
         $obj = new InfosComplBul();
 
@@ -1845,7 +1845,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHContract() {
+    public function testSetNbHContract(): void {
 
         $obj = new InfosComplBul();
 
@@ -1858,7 +1858,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureMois() {
+    public function testSetNbHeureMois(): void {
 
         $obj = new InfosComplBul();
 
@@ -1871,7 +1871,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourAnnee() {
+    public function testSetNbJourAnnee(): void {
 
         $obj = new InfosComplBul();
 
@@ -1884,7 +1884,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourCpAcquis() {
+    public function testSetNbJourCpAcquis(): void {
 
         $obj = new InfosComplBul();
 
@@ -1897,7 +1897,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourCpSup() {
+    public function testSetNbJourCpSup(): void {
 
         $obj = new InfosComplBul();
 
@@ -1910,7 +1910,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPieceLogement() {
+    public function testSetNbPieceLogement(): void {
 
         $obj = new InfosComplBul();
 
@@ -1923,7 +1923,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasActiverPrimeAnnuelleProprete() {
+    public function testSetNePasActiverPrimeAnnuelleProprete(): void {
 
         $obj = new InfosComplBul();
 
@@ -1936,7 +1936,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasPublierWeb() {
+    public function testSetNePasPublierWeb(): void {
 
         $obj = new InfosComplBul();
 
@@ -1949,7 +1949,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new InfosComplBul();
 
@@ -1962,7 +1962,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauConventionCol() {
+    public function testSetNiveauConventionCol(): void {
 
         $obj = new InfosComplBul();
 
@@ -1975,7 +1975,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomMarital() {
+    public function testSetNomMarital(): void {
 
         $obj = new InfosComplBul();
 
@@ -1988,7 +1988,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomNaissance() {
+    public function testSetNomNaissance(): void {
 
         $obj = new InfosComplBul();
 
@@ -2001,7 +2001,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille() {
+    public function testSetNomVille(): void {
 
         $obj = new InfosComplBul();
 
@@ -2014,7 +2014,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new InfosComplBul();
 
@@ -2027,7 +2027,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEvenement() {
+    public function testSetNumEvenement(): void {
 
         $obj = new InfosComplBul();
 
@@ -2040,7 +2040,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumObjet() {
+    public function testSetNumObjet(): void {
 
         $obj = new InfosComplBul();
 
@@ -2053,7 +2053,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new InfosComplBul();
 
@@ -2066,7 +2066,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new InfosComplBul();
 
@@ -2079,7 +2079,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAbattementContratMsa() {
+    public function testSetNumeroAbattementContratMsa(): void {
 
         $obj = new InfosComplBul();
 
@@ -2092,7 +2092,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroContrat() {
+    public function testSetNumeroContrat(): void {
 
         $obj = new InfosComplBul();
 
@@ -2105,7 +2105,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroGrilleType() {
+    public function testSetNumeroGrilleType(): void {
 
         $obj = new InfosComplBul();
 
@@ -2118,7 +2118,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPartPatronPrevForfaitSocial8() {
+    public function testSetPartPatronPrevForfaitSocial8(): void {
 
         $obj = new InfosComplBul();
 
@@ -2131,7 +2131,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasDeReintegration() {
+    public function testSetPasDeReintegration(): void {
 
         $obj = new InfosComplBul();
 
@@ -2144,7 +2144,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasGestionDif() {
+    public function testSetPasGestionDif(): void {
 
         $obj = new InfosComplBul();
 
@@ -2158,7 +2158,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -2174,7 +2174,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new InfosComplBul();
 
@@ -2187,7 +2187,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPositionConventionCol() {
+    public function testSetPositionConventionCol(): void {
 
         $obj = new InfosComplBul();
 
@@ -2200,7 +2200,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentExo() {
+    public function testSetPourcentExo(): void {
 
         $obj = new InfosComplBul();
 
@@ -2214,7 +2214,7 @@ class InfosComplBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPremDateEntree() {
+    public function testSetPremDateEntree(): void {
 
         // Set a Date/time mock.
         $premDateEntree = new DateTime("2018-09-10");
@@ -2230,7 +2230,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new InfosComplBul();
 
@@ -2243,7 +2243,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPss1Force() {
+    public function testSetPss1Force(): void {
 
         $obj = new InfosComplBul();
 
@@ -2256,7 +2256,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualification() {
+    public function testSetQualification(): void {
 
         $obj = new InfosComplBul();
 
@@ -2269,7 +2269,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReductionFillon() {
+    public function testSetReductionFillon(): void {
 
         $obj = new InfosComplBul();
 
@@ -2282,7 +2282,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleCalcul() {
+    public function testSetRegleCalcul(): void {
 
         $obj = new InfosComplBul();
 
@@ -2295,7 +2295,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemunPartFillon() {
+    public function testSetRemunPartFillon(): void {
 
         $obj = new InfosComplBul();
 
@@ -2308,7 +2308,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt1() {
+    public function testSetRtt1(): void {
 
         $obj = new InfosComplBul();
 
@@ -2321,7 +2321,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt10() {
+    public function testSetRtt10(): void {
 
         $obj = new InfosComplBul();
 
@@ -2334,7 +2334,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt11() {
+    public function testSetRtt11(): void {
 
         $obj = new InfosComplBul();
 
@@ -2347,7 +2347,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt12() {
+    public function testSetRtt12(): void {
 
         $obj = new InfosComplBul();
 
@@ -2360,7 +2360,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt2() {
+    public function testSetRtt2(): void {
 
         $obj = new InfosComplBul();
 
@@ -2373,7 +2373,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt3() {
+    public function testSetRtt3(): void {
 
         $obj = new InfosComplBul();
 
@@ -2386,7 +2386,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt4() {
+    public function testSetRtt4(): void {
 
         $obj = new InfosComplBul();
 
@@ -2399,7 +2399,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt5() {
+    public function testSetRtt5(): void {
 
         $obj = new InfosComplBul();
 
@@ -2412,7 +2412,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt6() {
+    public function testSetRtt6(): void {
 
         $obj = new InfosComplBul();
 
@@ -2425,7 +2425,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt7() {
+    public function testSetRtt7(): void {
 
         $obj = new InfosComplBul();
 
@@ -2438,7 +2438,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt8() {
+    public function testSetRtt8(): void {
 
         $obj = new InfosComplBul();
 
@@ -2451,7 +2451,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRtt9() {
+    public function testSetRtt9(): void {
 
         $obj = new InfosComplBul();
 
@@ -2464,7 +2464,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireBase() {
+    public function testSetSalaireBase(): void {
 
         $obj = new InfosComplBul();
 
@@ -2477,7 +2477,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireReference() {
+    public function testSetSalaireReference(): void {
 
         $obj = new InfosComplBul();
 
@@ -2490,7 +2490,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireRetabliDsn() {
+    public function testSetSalaireRetabliDsn(): void {
 
         $obj = new InfosComplBul();
 
@@ -2503,7 +2503,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireRetabliDsnForce() {
+    public function testSetSalaireRetabliDsnForce(): void {
 
         $obj = new InfosComplBul();
 
@@ -2516,7 +2516,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSansContrat() {
+    public function testSetSansContrat(): void {
 
         $obj = new InfosComplBul();
 
@@ -2529,7 +2529,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new InfosComplBul();
 
@@ -2542,7 +2542,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSetpFillon() {
+    public function testSetSetpFillon(): void {
 
         $obj = new InfosComplBul();
 
@@ -2555,7 +2555,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSigneAf() {
+    public function testSetSigneAf(): void {
 
         $obj = new InfosComplBul();
 
@@ -2568,7 +2568,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiretLieuTrav() {
+    public function testSetSiretLieuTrav(): void {
 
         $obj = new InfosComplBul();
 
@@ -2581,7 +2581,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicMFillonSansHs() {
+    public function testSetSmicMFillonSansHs(): void {
 
         $obj = new InfosComplBul();
 
@@ -2594,7 +2594,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicMaf() {
+    public function testSetSmicMaf(): void {
 
         $obj = new InfosComplBul();
 
@@ -2607,7 +2607,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicMcice() {
+    public function testSetSmicMcice(): void {
 
         $obj = new InfosComplBul();
 
@@ -2620,7 +2620,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSubrogation() {
+    public function testSetSubrogation(): void {
 
         $obj = new InfosComplBul();
 
@@ -2633,7 +2633,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds59() {
+    public function testSetTds59(): void {
 
         $obj = new InfosComplBul();
 
@@ -2646,7 +2646,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds76() {
+    public function testSetTds76(): void {
 
         $obj = new InfosComplBul();
 
@@ -2659,7 +2659,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel1() {
+    public function testSetTel1(): void {
 
         $obj = new InfosComplBul();
 
@@ -2672,7 +2672,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel2() {
+    public function testSetTel2(): void {
 
         $obj = new InfosComplBul();
 
@@ -2685,7 +2685,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTepaMoins20() {
+    public function testSetTepaMoins20(): void {
 
         $obj = new InfosComplBul();
 
@@ -2698,7 +2698,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new InfosComplBul();
 
@@ -2711,7 +2711,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotCotUrssaf() {
+    public function testSetTotCotUrssaf(): void {
 
         $obj = new InfosComplBul();
 
@@ -2724,7 +2724,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrD1Caisse1() {
+    public function testSetTrD1Caisse1(): void {
 
         $obj = new InfosComplBul();
 
@@ -2737,7 +2737,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrD1caisse2() {
+    public function testSetTrD1caisse2(): void {
 
         $obj = new InfosComplBul();
 
@@ -2750,7 +2750,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrD1caisse3() {
+    public function testSetTrD1caisse3(): void {
 
         $obj = new InfosComplBul();
 
@@ -2763,7 +2763,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrDCaisse1() {
+    public function testSetTrDCaisse1(): void {
 
         $obj = new InfosComplBul();
 
@@ -2776,7 +2776,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrDcaisse2() {
+    public function testSetTrDcaisse2(): void {
 
         $obj = new InfosComplBul();
 
@@ -2789,7 +2789,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrDcaisse3() {
+    public function testSetTrDcaisse3(): void {
 
         $obj = new InfosComplBul();
 
@@ -2802,7 +2802,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheD() {
+    public function testSetTrancheD(): void {
 
         $obj = new InfosComplBul();
 
@@ -2815,7 +2815,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheD1() {
+    public function testSetTrancheD1(): void {
 
         $obj = new InfosComplBul();
 
@@ -2828,7 +2828,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeChomCdd() {
+    public function testSetTypeChomCdd(): void {
 
         $obj = new InfosComplBul();
 
@@ -2841,7 +2841,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeContrat() {
+    public function testSetTypeContrat(): void {
 
         $obj = new InfosComplBul();
 
@@ -2854,7 +2854,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeExoLodeom() {
+    public function testSetTypeExoLodeom(): void {
 
         $obj = new InfosComplBul();
 
@@ -2867,7 +2867,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHeFillon() {
+    public function testSetTypeHeFillon(): void {
 
         $obj = new InfosComplBul();
 
@@ -2880,7 +2880,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMaintienSalaire() {
+    public function testSetTypeMaintienSalaire(): void {
 
         $obj = new InfosComplBul();
 
@@ -2893,7 +2893,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeReductionFillon() {
+    public function testSetTypeReductionFillon(): void {
 
         $obj = new InfosComplBul();
 
@@ -2906,7 +2906,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeReductionMayotte() {
+    public function testSetTypeReductionMayotte(): void {
 
         $obj = new InfosComplBul();
 
@@ -2919,7 +2919,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieAbCp() {
+    public function testSetTypeSaisieAbCp(): void {
 
         $obj = new InfosComplBul();
 
@@ -2932,7 +2932,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieChomIntemp() {
+    public function testSetTypeSaisieChomIntemp(): void {
 
         $obj = new InfosComplBul();
 
@@ -2945,7 +2945,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVrpMulticarte() {
+    public function testSetVrpMulticarte(): void {
 
         $obj = new InfosComplBul();
 
@@ -2958,7 +2958,7 @@ class InfosComplBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new InfosComplBul();
 

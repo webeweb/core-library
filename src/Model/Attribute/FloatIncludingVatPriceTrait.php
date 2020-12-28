@@ -22,25 +22,25 @@ trait FloatIncludingVatPriceTrait {
     /**
      * Including VAT price.
      *
-     * @var float
+     * @var float|null
      */
     protected $includingVatPrice;
 
     /**
      * Get the including VAT price.
      *
-     * @return float Returns the including VAT price.
+     * @return float|null Returns the including VAT price.
      */
-    public function getIncludingVatPrice() {
+    public function getIncludingVatPrice(): ?float {
         return $this->includingVatPrice;
     }
 
     /**
      * Set the including VAT price.
      *
-     * @param float $includingVatPrice The including VAT price.
+     * @param float|null $includingVatPrice The including VAT price.
      */
-    public function setIncludingVatPrice($includingVatPrice) {
+    public function setIncludingVatPrice(?float $includingVatPrice) {
         $this->includingVatPrice = $includingVatPrice;
         return $this;
     }

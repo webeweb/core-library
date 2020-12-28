@@ -27,7 +27,7 @@ class Comptes3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSection() {
+    public function testSetCodeSection(): void {
 
         $obj = new Comptes3();
 
@@ -40,7 +40,7 @@ class Comptes3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Comptes3();
 
@@ -53,7 +53,7 @@ class Comptes3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentRepart() {
+    public function testSetPourcentRepart(): void {
 
         $obj = new Comptes3();
 
@@ -66,7 +66,7 @@ class Comptes3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Comptes3();
 

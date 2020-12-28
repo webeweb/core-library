@@ -31,50 +31,51 @@ class TauxAt {
     /**
      * Bureau.
      *
-     * @var string
+     * @var string|null
      */
     private $bureau;
 
     /**
      * Code at.
      *
-     * @var int
+     * @var int|null
      */
     private $codeAt;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Risque.
      *
-     * @var string
+     * @var string|null
      */
     private $risque;
 
     /**
      * Section.
      *
-     * @var string
+     * @var string|null
      */
     private $section;
 
     /**
      * Taux.
      *
-     * @var float
+     * @var float|null
      */
     private $taux;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -82,61 +83,61 @@ class TauxAt {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe() {
+    public function getAPartirDe(): ?DateTime{
         return $this->aPartirDe;
     }
 
     /**
      * Get the bureau.
      *
-     * @return string Returns the bureau.
+     * @return string|null Returns the bureau.
      */
-    public function getBureau() {
+    public function getBureau(): ?string{
         return $this->bureau;
     }
 
     /**
      * Get the code at.
      *
-     * @return int Returns the code at.
+     * @return int|null Returns the code at.
      */
-    public function getCodeAt() {
+    public function getCodeAt(): ?int{
         return $this->codeAt;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the risque.
      *
-     * @return string Returns the risque.
+     * @return string|null Returns the risque.
      */
-    public function getRisque() {
+    public function getRisque(): ?string{
         return $this->risque;
     }
 
     /**
      * Get the section.
      *
-     * @return string Returns the section.
+     * @return string|null Returns the section.
      */
-    public function getSection() {
+    public function getSection(): ?string{
         return $this->section;
     }
 
     /**
      * Get the taux.
      *
-     * @return float Returns the taux.
+     * @return float|null Returns the taux.
      */
-    public function getTaux() {
+    public function getTaux(): ?float{
         return $this->taux;
     }
 
@@ -146,7 +147,7 @@ class TauxAt {
      * @param DateTime|null $aPartirDe The a partir de.
      * @return TauxAt Returns this Taux at.
      */
-    public function setAPartirDe(DateTime $aPartirDe = null) {
+    public function setAPartirDe(?DateTime $aPartirDe): TauxAt {
         $this->aPartirDe = $aPartirDe;
         return $this;
     }
@@ -154,10 +155,10 @@ class TauxAt {
     /**
      * Set the bureau.
      *
-     * @param string $bureau The bureau.
+     * @param string|null $bureau The bureau.
      * @return TauxAt Returns this Taux at.
      */
-    public function setBureau($bureau) {
+    public function setBureau(?string $bureau): TauxAt {
         $this->bureau = $bureau;
         return $this;
     }
@@ -165,10 +166,10 @@ class TauxAt {
     /**
      * Set the code at.
      *
-     * @param int $codeAt The code at.
+     * @param int|null $codeAt The code at.
      * @return TauxAt Returns this Taux at.
      */
-    public function setCodeAt($codeAt) {
+    public function setCodeAt(?int $codeAt): TauxAt {
         $this->codeAt = $codeAt;
         return $this;
     }
@@ -176,10 +177,10 @@ class TauxAt {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return TauxAt Returns this Taux at.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): TauxAt {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -187,10 +188,10 @@ class TauxAt {
     /**
      * Set the risque.
      *
-     * @param string $risque The risque.
+     * @param string|null $risque The risque.
      * @return TauxAt Returns this Taux at.
      */
-    public function setRisque($risque) {
+    public function setRisque(?string $risque): TauxAt {
         $this->risque = $risque;
         return $this;
     }
@@ -198,10 +199,10 @@ class TauxAt {
     /**
      * Set the section.
      *
-     * @param string $section The section.
+     * @param string|null $section The section.
      * @return TauxAt Returns this Taux at.
      */
-    public function setSection($section) {
+    public function setSection(?string $section): TauxAt {
         $this->section = $section;
         return $this;
     }
@@ -209,10 +210,10 @@ class TauxAt {
     /**
      * Set the taux.
      *
-     * @param float $taux The taux.
+     * @param float|null $taux The taux.
      * @return TauxAt Returns this Taux at.
      */
-    public function setTaux($taux) {
+    public function setTaux(?float $taux): TauxAt {
         $this->taux = $taux;
         return $this;
     }

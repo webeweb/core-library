@@ -22,129 +22,130 @@ class FichesConfidentialitesControles {
     /**
      * Agence.
      *
-     * @var string
+     * @var string|null
      */
     private $agence;
 
     /**
      * Autorise.
      *
-     * @var bool
+     * @var bool|null
      */
     private $autorise;
 
     /**
      * Code coll.
      *
-     * @var string
+     * @var string|null
      */
     private $codeColl;
 
     /**
      * Dossier.
      *
-     * @var string
+     * @var string|null
      */
     private $dossier;
 
     /**
      * Mot controle.
      *
-     * @var string
+     * @var string|null
      */
     private $motControle;
 
     /**
      * Mot de passe.
      *
-     * @var string
+     * @var string|null
      */
     private $motDePasse;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the agence.
      *
-     * @return string Returns the agence.
+     * @return string|null Returns the agence.
      */
-    public function getAgence() {
+    public function getAgence(): ?string{
         return $this->agence;
     }
 
     /**
      * Get the autorise.
      *
-     * @return bool Returns the autorise.
+     * @return bool|null Returns the autorise.
      */
-    public function getAutorise() {
+    public function getAutorise(): ?bool{
         return $this->autorise;
     }
 
     /**
      * Get the code coll.
      *
-     * @return string Returns the code coll.
+     * @return string|null Returns the code coll.
      */
-    public function getCodeColl() {
+    public function getCodeColl(): ?string{
         return $this->codeColl;
     }
 
     /**
      * Get the dossier.
      *
-     * @return string Returns the dossier.
+     * @return string|null Returns the dossier.
      */
-    public function getDossier() {
+    public function getDossier(): ?string{
         return $this->dossier;
     }
 
     /**
      * Get the mot controle.
      *
-     * @return string Returns the mot controle.
+     * @return string|null Returns the mot controle.
      */
-    public function getMotControle() {
+    public function getMotControle(): ?string{
         return $this->motControle;
     }
 
     /**
      * Get the mot de passe.
      *
-     * @return string Returns the mot de passe.
+     * @return string|null Returns the mot de passe.
      */
-    public function getMotDePasse() {
+    public function getMotDePasse(): ?string{
         return $this->motDePasse;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the agence.
      *
-     * @param string $agence The agence.
+     * @param string|null $agence The agence.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setAgence($agence) {
+    public function setAgence(?string $agence): FichesConfidentialitesControles {
         $this->agence = $agence;
         return $this;
     }
@@ -152,10 +153,10 @@ class FichesConfidentialitesControles {
     /**
      * Set the autorise.
      *
-     * @param bool $autorise The autorise.
+     * @param bool|null $autorise The autorise.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setAutorise($autorise) {
+    public function setAutorise(?bool $autorise): FichesConfidentialitesControles {
         $this->autorise = $autorise;
         return $this;
     }
@@ -163,10 +164,10 @@ class FichesConfidentialitesControles {
     /**
      * Set the code coll.
      *
-     * @param string $codeColl The code coll.
+     * @param string|null $codeColl The code coll.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setCodeColl($codeColl) {
+    public function setCodeColl(?string $codeColl): FichesConfidentialitesControles {
         $this->codeColl = $codeColl;
         return $this;
     }
@@ -174,10 +175,10 @@ class FichesConfidentialitesControles {
     /**
      * Set the dossier.
      *
-     * @param string $dossier The dossier.
+     * @param string|null $dossier The dossier.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setDossier($dossier) {
+    public function setDossier(?string $dossier): FichesConfidentialitesControles {
         $this->dossier = $dossier;
         return $this;
     }
@@ -185,10 +186,10 @@ class FichesConfidentialitesControles {
     /**
      * Set the mot controle.
      *
-     * @param string $motControle The mot controle.
+     * @param string|null $motControle The mot controle.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setMotControle($motControle) {
+    public function setMotControle(?string $motControle): FichesConfidentialitesControles {
         $this->motControle = $motControle;
         return $this;
     }
@@ -196,10 +197,10 @@ class FichesConfidentialitesControles {
     /**
      * Set the mot de passe.
      *
-     * @param string $motDePasse The mot de passe.
+     * @param string|null $motDePasse The mot de passe.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setMotDePasse($motDePasse) {
+    public function setMotDePasse(?string $motDePasse): FichesConfidentialitesControles {
         $this->motDePasse = $motDePasse;
         return $this;
     }
@@ -207,10 +208,10 @@ class FichesConfidentialitesControles {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return FichesConfidentialitesControles Returns this Fiches confidentialites controles.
      */
-    public function setType($type) {
+    public function setType(?string $type): FichesConfidentialitesControles {
         $this->type = $type;
         return $this;
     }

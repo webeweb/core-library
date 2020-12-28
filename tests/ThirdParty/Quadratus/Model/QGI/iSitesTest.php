@@ -27,7 +27,7 @@ class iSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseIp() {
+    public function testSetAdresseIp(): void {
 
         $obj = new iSites();
 
@@ -40,7 +40,7 @@ class iSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSite() {
+    public function testSetNomSite(): void {
 
         $obj = new iSites();
 
@@ -53,7 +53,7 @@ class iSitesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iSites();
 

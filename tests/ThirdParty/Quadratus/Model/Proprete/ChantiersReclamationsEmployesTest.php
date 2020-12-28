@@ -29,7 +29,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAlerte() {
+    public function testSetAlerte(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -42,7 +42,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -55,7 +55,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -68,7 +68,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -81,7 +81,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -95,7 +95,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAlertePaie() {
+    public function testSetDateAlertePaie(): void {
 
         // Set a Date/time mock.
         $dateAlertePaie = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -124,7 +124,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -137,7 +137,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroReclam() {
+    public function testSetNumeroReclam(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 
@@ -150,7 +150,7 @@ class ChantiersReclamationsEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersReclamationsEmployes();
 

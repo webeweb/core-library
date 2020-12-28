@@ -27,7 +27,7 @@ class StringSchemaTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSchema() {
+    public function testSetSchema(): void {
 
         $obj = new TestStringSchemaTrait();
 
@@ -40,7 +40,7 @@ class StringSchemaTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringSchemaTrait();
 

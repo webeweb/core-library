@@ -25,11 +25,11 @@ class HTMLEntityDecodeTransformer implements TransformerInterface {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function transform($value) {
         if (null === $value || false === is_string($value)) {

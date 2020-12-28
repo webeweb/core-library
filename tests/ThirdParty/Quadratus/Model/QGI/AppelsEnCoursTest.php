@@ -29,7 +29,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecMiseEnSomm() {
+    public function testSetAvecMiseEnSomm(): void {
 
         $obj = new AppelsEnCours();
 
@@ -42,7 +42,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AppelsEnCours();
 
@@ -55,7 +55,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurDest() {
+    public function testSetCodeCollaborateurDest(): void {
 
         $obj = new AppelsEnCours();
 
@@ -68,7 +68,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurEntrant() {
+    public function testSetCodeCollaborateurEntrant(): void {
 
         $obj = new AppelsEnCours();
 
@@ -81,7 +81,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurRedir() {
+    public function testSetCodeCollaborateurRedir(): void {
 
         $obj = new AppelsEnCours();
 
@@ -94,7 +94,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProduit() {
+    public function testSetCodeProduit(): void {
 
         $obj = new AppelsEnCours();
 
@@ -107,7 +107,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteurTemps() {
+    public function testSetCompteurTemps(): void {
 
         $obj = new AppelsEnCours();
 
@@ -120,7 +120,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConfidentiel() {
+    public function testSetConfidentiel(): void {
 
         $obj = new AppelsEnCours();
 
@@ -133,7 +133,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConsequence() {
+    public function testSetConsequence(): void {
 
         $obj = new AppelsEnCours();
 
@@ -147,7 +147,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreationClient() {
+    public function testSetDateCreationClient(): void {
 
         // Set a Date/time mock.
         $dateCreationClient = new DateTime("2018-09-10");
@@ -164,7 +164,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -181,7 +181,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateMessageLu() {
+    public function testSetDateMessageLu(): void {
 
         // Set a Date/time mock.
         $dateMessageLu = new DateTime("2018-09-10");
@@ -198,7 +198,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRedir() {
+    public function testSetDateRedir(): void {
 
         // Set a Date/time mock.
         $dateRedir = new DateTime("2018-09-10");
@@ -214,7 +214,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDemandeAr() {
+    public function testSetDemandeAr(): void {
 
         $obj = new AppelsEnCours();
 
@@ -227,7 +227,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDestinatairesA() {
+    public function testSetDestinatairesA(): void {
 
         $obj = new AppelsEnCours();
 
@@ -240,7 +240,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDestinatairesCc() {
+    public function testSetDestinatairesCc(): void {
 
         $obj = new AppelsEnCours();
 
@@ -253,7 +253,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailAuteur() {
+    public function testSetEmailAuteur(): void {
 
         $obj = new AppelsEnCours();
 
@@ -266,7 +266,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeQualifiant() {
+    public function testSetGroupeQualifiant(): void {
 
         $obj = new AppelsEnCours();
 
@@ -279,7 +279,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdAppel() {
+    public function testSetIdAppel(): void {
 
         $obj = new AppelsEnCours();
 
@@ -292,7 +292,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new AppelsEnCours();
 
@@ -305,7 +305,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessageLu() {
+    public function testSetMessageLu(): void {
 
         $obj = new AppelsEnCours();
 
@@ -319,7 +319,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMiseEnSommDateHeure() {
+    public function testSetMiseEnSommDateHeure(): void {
 
         // Set a Date/time mock.
         $miseEnSommDateHeure = new DateTime("2018-09-10");
@@ -335,7 +335,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new AppelsEnCours();
 
@@ -348,7 +348,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAppelsEnCours() {
+    public function testSetNbAppelsEnCours(): void {
 
         $obj = new AppelsEnCours();
 
@@ -361,7 +361,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomClient() {
+    public function testSetNomClient(): void {
 
         $obj = new AppelsEnCours();
 
@@ -374,7 +374,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigine() {
+    public function testSetOrigine(): void {
 
         $obj = new AppelsEnCours();
 
@@ -387,7 +387,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPieceJointe() {
+    public function testSetPieceJointe(): void {
 
         $obj = new AppelsEnCours();
 
@@ -400,7 +400,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReponse() {
+    public function testSetReponse(): void {
 
         $obj = new AppelsEnCours();
 
@@ -413,7 +413,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousRepRefGuid() {
+    public function testSetSousRepRefGuid(): void {
 
         $obj = new AppelsEnCours();
 
@@ -426,7 +426,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSpecial() {
+    public function testSetSpecial(): void {
 
         $obj = new AppelsEnCours();
 
@@ -439,7 +439,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel() {
+    public function testSetTel(): void {
 
         $obj = new AppelsEnCours();
 
@@ -452,7 +452,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMessage() {
+    public function testSetTypeMessage(): void {
 
         $obj = new AppelsEnCours();
 
@@ -465,7 +465,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new AppelsEnCours();
 
@@ -478,7 +478,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUrgent() {
+    public function testSetUrgent(): void {
 
         $obj = new AppelsEnCours();
 
@@ -491,7 +491,7 @@ class AppelsEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AppelsEnCours();
 

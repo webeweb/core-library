@@ -22,81 +22,82 @@ class DadsuRetraiteLignesContrat {
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Designation commerciale.
      *
-     * @var string
+     * @var string|null
      */
     private $designationCommerciale;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the designation commerciale.
      *
-     * @return string Returns the designation commerciale.
+     * @return string|null Returns the designation commerciale.
      */
-    public function getDesignationCommerciale() {
+    public function getDesignationCommerciale(): ?string{
         return $this->designationCommerciale;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return DadsuRetraiteLignesContrat Returns this Dadsu retraite lignes contrat.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): DadsuRetraiteLignesContrat {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -104,10 +105,10 @@ class DadsuRetraiteLignesContrat {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuRetraiteLignesContrat Returns this Dadsu retraite lignes contrat.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuRetraiteLignesContrat {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -115,10 +116,10 @@ class DadsuRetraiteLignesContrat {
     /**
      * Set the designation commerciale.
      *
-     * @param string $designationCommerciale The designation commerciale.
+     * @param string|null $designationCommerciale The designation commerciale.
      * @return DadsuRetraiteLignesContrat Returns this Dadsu retraite lignes contrat.
      */
-    public function setDesignationCommerciale($designationCommerciale) {
+    public function setDesignationCommerciale(?string $designationCommerciale): DadsuRetraiteLignesContrat {
         $this->designationCommerciale = $designationCommerciale;
         return $this;
     }
@@ -126,10 +127,10 @@ class DadsuRetraiteLignesContrat {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return DadsuRetraiteLignesContrat Returns this Dadsu retraite lignes contrat.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): DadsuRetraiteLignesContrat {
         $this->refContrat = $refContrat;
         return $this;
     }

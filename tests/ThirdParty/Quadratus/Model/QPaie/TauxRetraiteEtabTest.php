@@ -30,7 +30,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAPartirDe() {
+    public function testSetAPartirDe(): void {
 
         // Set a Date/time mock.
         $aPartirDe = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -59,7 +59,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTr2Pp() {
+    public function testSetTauxRetTr2Pp(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -72,7 +72,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTr2Ps() {
+    public function testSetTauxRetTr2Ps(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -85,7 +85,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrApp() {
+    public function testSetTauxRetTrApp(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -98,7 +98,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrAps() {
+    public function testSetTauxRetTrAps(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -111,7 +111,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrBpp() {
+    public function testSetTauxRetTrBpp(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -124,7 +124,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrBps() {
+    public function testSetTauxRetTrBps(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -137,7 +137,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrCpp() {
+    public function testSetTauxRetTrCpp(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -150,7 +150,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrCps() {
+    public function testSetTauxRetTrCps(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -163,7 +163,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrDpp() {
+    public function testSetTauxRetTrDpp(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -176,7 +176,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxRetTrDps() {
+    public function testSetTauxRetTrDps(): void {
 
         $obj = new TauxRetraiteEtab();
 
@@ -189,7 +189,7 @@ class TauxRetraiteEtabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TauxRetraiteEtab();
 

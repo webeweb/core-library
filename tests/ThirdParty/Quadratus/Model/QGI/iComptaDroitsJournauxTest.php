@@ -27,7 +27,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new iComptaDroitsJournaux();
 
@@ -40,7 +40,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new iComptaDroitsJournaux();
 
@@ -53,7 +53,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlag() {
+    public function testSetFlag(): void {
 
         $obj = new iComptaDroitsJournaux();
 
@@ -66,7 +66,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new iComptaDroitsJournaux();
 
@@ -79,7 +79,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoDossCpta() {
+    public function testSetNoDossCpta(): void {
 
         $obj = new iComptaDroitsJournaux();
 
@@ -92,7 +92,7 @@ class iComptaDroitsJournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iComptaDroitsJournaux();
 

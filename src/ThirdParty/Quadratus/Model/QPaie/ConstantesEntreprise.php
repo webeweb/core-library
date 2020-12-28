@@ -24,231 +24,231 @@ class ConstantesEntreprise {
     /**
      * Absence extra.
      *
-     * @var string
+     * @var string|null
      */
     private $absenceExtra;
 
     /**
      * Activer pointage qws.
      *
-     * @var bool
+     * @var bool|null
      */
     private $activerPointageQws;
 
     /**
      * Adhesion tds norme.
      *
-     * @var string
+     * @var string|null
      */
     private $adhesionTdsNorme;
 
     /**
      * Affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $affaire;
 
     /**
      * Affectation taux27.
      *
-     * @var bool
+     * @var bool|null
      */
     private $affectationTaux27;
 
     /**
      * Analytique employe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $analytiqueEmploye;
 
     /**
      * Arbitrage auto.
      *
-     * @var string
+     * @var string|null
      */
     private $arbitrageAuto;
 
     /**
      * Archivage actif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $archivageActif;
 
     /**
      * Attest auto.
      *
-     * @var bool
+     * @var bool|null
      */
     private $attestAuto;
 
     /**
      * Beneficie cice.
      *
-     * @var bool
+     * @var bool|null
      */
     private $beneficieCice;
 
     /**
      * Brut al sal min conv.
      *
-     * @var bool
+     * @var bool|null
      */
     private $brutAlSalMinConv;
 
     /**
+     * Cice pj mail cli ducs edi.
+     *
+     * @var bool|null
+     */
+    private $cicePjMailCliDucsEdi;
+
+    /**
      * Calcul auto h theorique.
      *
-     * @var bool
+     * @var bool|null
      */
     private $calculAutoHTheorique;
 
     /**
      * Certif auto.
      *
-     * @var bool
+     * @var bool|null
      */
     private $certifAuto;
 
     /**
      * Cheques euro.
      *
-     * @var string
+     * @var string|null
      */
     private $chequesEuro;
 
     /**
      * Choix edition cheque tc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $choixEditionChequeTc;
 
     /**
-     * Cice pj mail cli ducs edi.
-     *
-     * @var bool
-     */
-    private $cicePjMailCliDucsEdi;
-
-    /**
      * Cle acces1.
      *
-     * @var string
+     * @var string|null
      */
     private $cleAcces1;
 
     /**
      * Cle portable.
      *
-     * @var string
+     * @var string|null
      */
     private $clePortable;
 
     /**
      * Code org btpdadsu.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrgBtpdadsu;
 
     /**
      * Collaborateuri paie.
      *
-     * @var string
+     * @var string|null
      */
     private $collaborateuriPaie;
 
     /**
      * Compression.
      *
-     * @var bool
+     * @var bool|null
      */
     private $compression;
 
     /**
      * Compte gain euro.
      *
-     * @var string
+     * @var string|null
      */
     private $compteGainEuro;
 
     /**
      * Compte perte euro.
      *
-     * @var string
+     * @var string|null
      */
     private $comptePerteEuro;
 
     /**
      * Cpta elit euros.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cptaElitEuros;
 
     /**
      * Ctrl auto cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ctrlAutoCp;
 
     /**
      * Ctrl auto cp anticip.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ctrlAutoCpAnticip;
 
     /**
      * Ctrl taux base.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ctrlTauxBase;
 
     /**
      * Dads dernier choix gestion aen.
      *
-     * @var string
+     * @var string|null
      */
     private $dadsDernierChoixGestionAen;
 
     /**
      * Dads type gestion aen.
      *
-     * @var string
+     * @var string|null
      */
     private $dadsTypeGestionAen;
 
     /**
      * Dadsu num agr ansp.
      *
-     * @var string
+     * @var string|null
      */
     private $dadsuNumAgrAnsp;
 
     /**
      * Dadsu ref dec.
      *
-     * @var string
+     * @var string|null
      */
     private $dadsuRefDec;
 
     /**
      * Das type decl.
      *
-     * @var string
+     * @var string|null
      */
     private $dasTypeDecl;
 
     /**
      * Das type decl detail.
      *
-     * @var string
+     * @var string|null
      */
     private $dasTypeDeclDetail;
 
@@ -276,56 +276,56 @@ class ConstantesEntreprise {
     /**
      * Deduction h sup fillon.
      *
-     * @var bool
+     * @var bool|null
      */
     private $deductionHSupFillon;
 
     /**
      * Deduire h sup non structurelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $deduireHSupNonStructurelle;
 
     /**
      * Dernier indice bul.
      *
-     * @var int
+     * @var int|null
      */
     private $dernierIndiceBul;
 
     /**
      * Dest point irc.
      *
-     * @var string
+     * @var string|null
      */
     private $destPointIrc;
 
     /**
      * Dest tri point.
      *
-     * @var string
+     * @var string|null
      */
     private $destTriPoint;
 
     /**
      * Dossier proprete.
      *
-     * @var string
+     * @var string|null
      */
     private $dossierProprete;
 
     /**
      * Dossier sur web.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dossierSurWeb;
 
     /**
      * Ds code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $dsCodeCollab;
 
@@ -346,14 +346,14 @@ class ConstantesEntreprise {
     /**
      * Ds fusion.
      *
-     * @var string
+     * @var string|null
      */
     private $dsFusion;
 
     /**
      * Ds type edition.
      *
-     * @var string
+     * @var string|null
      */
     private $dsTypeEdition;
 
@@ -374,301 +374,301 @@ class ConstantesEntreprise {
     /**
      * Ducs franc euro.
      *
-     * @var string
+     * @var string|null
      */
     private $ducsFrancEuro;
 
     /**
      * Ecr type.
      *
-     * @var string
+     * @var string|null
      */
     private $ecrType;
 
     /**
      * Ed bord choix modele.
      *
-     * @var string
+     * @var string|null
      */
     private $edBordChoixModele;
 
     /**
      * Ed bord rupture emp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edBordRuptureEmp;
 
     /**
      * Ed bord type imp.
      *
-     * @var string
+     * @var string|null
      */
     private $edBordTypeImp;
 
     /**
      * Ed bordereau.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edBordereau;
 
     /**
      * Ed bordereau prep.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edBordereauPrep;
 
     /**
      * Ed bordereau prepa.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edBordereauPrepa;
 
     /**
      * Ed bul last fax.
      *
-     * @var string
+     * @var string|null
      */
     private $edBulLastFax;
 
     /**
      * Ed bul last mail.
      *
-     * @var string
+     * @var string|null
      */
     private $edBulLastMail;
 
     /**
      * Ed bul type sortie.
      *
-     * @var string
+     * @var string|null
      */
     private $edBulTypeSortie;
 
     /**
      * Ed correspondance.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edCorrespondance;
 
     /**
-     * Ed ducs auto.
-     *
-     * @var bool
-     */
-    private $edDucsAuto;
-
-    /**
      * Ed ducs nb ex.
      *
-     * @var string
+     * @var string|null
      */
     private $edDucsNbEx;
 
     /**
      * Ed ducs opt btp.
      *
-     * @var string
+     * @var string|null
      */
     private $edDucsOptBtp;
 
     /**
      * Ed ducs type sortie.
      *
-     * @var string
+     * @var string|null
      */
     private $edDucsTypeSortie;
 
     /**
+     * Ed ducs auto.
+     *
+     * @var bool|null
+     */
+    private $edDucsAuto;
+
+    /**
      * Ed h sup bonif que majo.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edHSupBonifQueMajo;
 
     /**
      * Ed histo tri emp.
      *
-     * @var string
+     * @var string|null
      */
     private $edHistoTriEmp;
 
     /**
      * Ed histo tri etablissement.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edHistoTriEtablissement;
 
     /**
      * Ed histo tri service.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edHistoTriService;
 
     /**
      * Ed histo type.
      *
-     * @var string
+     * @var string|null
      */
     private $edHistoType;
 
     /**
      * Ed imput comptable.
      *
-     * @var bool
+     * @var bool|null
      */
     private $edImputComptable;
 
     /**
      * Ed texte1.
      *
-     * @var string
+     * @var string|null
      */
     private $edTexte1;
 
     /**
      * Ed texte2.
      *
-     * @var string
+     * @var string|null
      */
     private $edTexte2;
 
     /**
      * Ed trt cpta last fax.
      *
-     * @var string
+     * @var string|null
      */
     private $edTrtCptaLastFax;
 
     /**
      * Ed trt cpta last mail.
      *
-     * @var string
+     * @var string|null
      */
     private $edTrtCptaLastMail;
 
     /**
      * Ed trt cpta sortie.
      *
-     * @var string
+     * @var string|null
      */
     private $edTrtCptaSortie;
 
     /**
      * Edit qpxl absences.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editQpxlAbsences;
 
     /**
      * Edit qpxl acomptes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editQpxlAcomptes;
 
     /**
      * Edit qpxl tri emp.
      *
-     * @var string
+     * @var string|null
      */
     private $editQpxlTriEmp;
 
     /**
      * Edit qpxl vider lib.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editQpxlViderLib;
 
     /**
      * Editer bulletin stc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editerBulletinStc;
 
     /**
      * Edition cheque tc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editionChequeTc;
 
     /**
      * Edition date.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editionDate;
 
     /**
      * Edition heure.
      *
-     * @var bool
+     * @var bool|null
      */
     private $editionHeure;
 
     /**
      * Email.
      *
-     * @var string
+     * @var string|null
      */
     private $email;
 
     /**
      * Entete solde tc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $enteteSoldeTc;
 
     /**
      * Etat controle dadsu.
      *
-     * @var string
+     * @var string|null
      */
     private $etatControleDadsu;
 
     /**
      * Etat ctrl norme.
      *
-     * @var string
+     * @var string|null
      */
     private $etatCtrlNorme;
 
     /**
      * Etat das.
      *
-     * @var string
+     * @var string|null
      */
     private $etatDas;
 
     /**
      * Etat das rect.
      *
-     * @var string
+     * @var string|null
      */
     private $etatDasRect;
 
     /**
      * Fichier unique.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fichierUnique;
 
     /**
      * Filtrer liste emp.
      *
-     * @var int
+     * @var int|null
      */
     private $filtrerListeEmp;
 
@@ -689,595 +689,595 @@ class ConstantesEntreprise {
     /**
      * Flag traite.
      *
-     * @var string
+     * @var string|null
      */
     private $flagTraite;
 
     /**
      * Flag traite2.
      *
-     * @var int
+     * @var int|null
      */
     private $flagTraite2;
 
     /**
      * Flag traite3.
      *
-     * @var int
+     * @var int|null
      */
     private $flagTraite3;
 
     /**
      * Format fic virement.
      *
-     * @var string
+     * @var string|null
      */
     private $formatFicVirement;
 
     /**
      * Gest num bulletin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestNumBulletin;
 
     /**
      * Gest repo compens.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestRepoCompens;
 
     /**
      * Gest texte.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestTexte;
 
     /**
      * Gestion coeff.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionCoeff;
 
     /**
      * Gestion coeff grille.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionCoeffGrille;
 
     /**
      * Gestion exemplaire.
      *
-     * @var string
+     * @var string|null
      */
     private $gestionExemplaire;
 
     /**
      * Gestion intemperie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionIntemperie;
 
     /**
      * Gestion numero employe auto.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionNumeroEmployeAuto;
 
     /**
      * Gestion qpxl.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionQpxl;
 
     /**
      * Gestion td bilaterale.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionTdBilaterale;
 
     /**
      * Gestion td sou dadsu.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionTdSouDadsu;
 
     /**
      * Groupe gi.
      *
-     * @var string
+     * @var string|null
      */
     private $groupeGi;
 
     /**
      * H bonif influ cassation.
      *
-     * @var string
+     * @var string|null
      */
     private $hBonifInfluCassation;
 
     /**
      * H sup1 structurelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hSup1Structurelle;
 
     /**
      * H sup2 structurelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hSup2Structurelle;
 
     /**
      * H sup3 structurelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hSup3Structurelle;
 
     /**
      * H sup4 structurelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hSup4Structurelle;
 
     /**
      * H sup5 structurelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hSup5Structurelle;
 
     /**
      * Heure sup2 influ cassation.
      *
-     * @var string
+     * @var string|null
      */
     private $heureSup2InfluCassation;
 
     /**
      * Heure sup3 influ cassation.
      *
-     * @var string
+     * @var string|null
      */
     private $heureSup3InfluCassation;
 
     /**
      * Heure sup4 influ cassation.
      *
-     * @var string
+     * @var string|null
      */
     private $heureSup4InfluCassation;
 
     /**
      * Heure sup5 influ cassation.
      *
-     * @var string
+     * @var string|null
      */
     private $heureSup5InfluCassation;
 
     /**
      * Heure sup influ cassation.
      *
-     * @var string
+     * @var string|null
      */
     private $heureSupInfluCassation;
 
     /**
      * Heure theo base trav.
      *
-     * @var string
+     * @var string|null
      */
     private $heureTheoBaseTrav;
 
     /**
      * Indem cp intervient brut al.
      *
-     * @var bool
+     * @var bool|null
      */
     private $indemCpIntervientBrutAl;
 
     /**
      * Jour debut transfert.
      *
-     * @var int
+     * @var int|null
      */
     private $jourDebutTransfert;
 
     /**
      * Jour fin transfert.
      *
-     * @var int
+     * @var int|null
      */
     private $jourFinTransfert;
 
     /**
      * Jrn format.
      *
-     * @var string
+     * @var string|null
      */
     private $jrnFormat;
 
     /**
      * Jrn regroupe abs.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jrnRegroupeAbs;
 
     /**
      * Jrn tri.
      *
-     * @var string
+     * @var string|null
      */
     private $jrnTri;
 
     /**
      * Jrn tri etablissement.
      *
-     * @var string
+     * @var string|null
      */
     private $jrnTriEtablissement;
 
     /**
      * Jrn tri service.
      *
-     * @var string
+     * @var string|null
      */
     private $jrnTriService;
 
     /**
      * Jrn type.
      *
-     * @var string
+     * @var string|null
      */
     private $jrnType;
 
     /**
      * Liaison proprete.
      *
-     * @var bool
+     * @var bool|null
      */
     private $liaisonProprete;
 
     /**
      * Lib arbitrage.
      *
-     * @var string
+     * @var string|null
      */
     private $libArbitrage;
 
     /**
-     * Lib base conge.
-     *
-     * @var string
-     */
-    private $libBaseConge;
-
-    /**
      * Lib bqcp.
      *
-     * @var string
+     * @var string|null
      */
     private $libBqcp;
 
     /**
+     * Lib base conge.
+     *
+     * @var string|null
+     */
+    private $libBaseConge;
+
+    /**
      * Lib cachet aem.
      *
-     * @var string
+     * @var string|null
      */
     private $libCachetAem;
 
     /**
      * Lib cotis cne.
      *
-     * @var string
+     * @var string|null
      */
     private $libCotisCne;
 
     /**
      * Lib fin contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $libFinContrat;
 
     /**
      * Lib fin contrat cne.
      *
-     * @var string
+     * @var string|null
      */
     private $libFinContratCne;
 
     /**
      * Lib indem cp.
      *
-     * @var string
+     * @var string|null
      */
     private $libIndemCp;
 
     /**
      * Libelle libre virement.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleLibreVirement;
 
     /**
      * Ligne bul euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ligneBulEuro;
 
     /**
      * Lignes transport.
      *
-     * @var bool
+     * @var bool|null
      */
     private $lignesTransport;
 
     /**
      * Mail bulletin.
      *
-     * @var string
+     * @var string|null
      */
     private $mailBulletin;
 
     /**
      * Mail bulletin cle.
      *
-     * @var string
+     * @var string|null
      */
     private $mailBulletinCle;
 
     /**
      * Mail bulletin pj.
      *
-     * @var string
+     * @var string|null
      */
     private $mailBulletinPj;
 
     /**
      * Mail c li ducs edi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mailCLiDucsEdi;
 
     /**
      * Mention cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mentionCp;
 
     /**
      * Message vu.
      *
-     * @var bool
+     * @var bool|null
      */
     private $messageVu;
 
     /**
      * Millesime1.
      *
-     * @var int
+     * @var int|null
      */
     private $millesime1;
 
     /**
      * Mode planning.
      *
-     * @var int
+     * @var int|null
      */
     private $modePlanning;
 
     /**
      * Modele apercu.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleApercu;
 
     /**
      * Modele bon bleu.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleBonBleu;
 
     /**
      * Modele bulletin.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleBulletin;
 
     /**
      * Modele certif.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleCertif;
 
     /**
      * Modele certif trav.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleCertifTrav;
 
     /**
      * Modele cheque.
      *
-     * @var string
+     * @var string|null
      */
     private $modeleCheque;
 
     /**
      * Mois cloture an.
      *
-     * @var string
+     * @var string|null
      */
     private $moisClotureAn;
 
     /**
      * N attest aem.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestAem;
 
     /**
      * N attest aemedi.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestAemedi;
 
     /**
      * N attest aemx.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestAemx;
 
     /**
      * N attest assedic.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestAssedic;
 
     /**
      * N attest extras.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestExtras;
 
     /**
      * N attest ijss.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestIjss;
 
     /**
      * N attest ijss at.
      *
-     * @var int
+     * @var int|null
      */
     private $nAttestIjssAt;
 
     /**
+     * Nce conges spectacles.
+     *
+     * @var int|null
+     */
+    private $nceCongesSpectacles;
+
+    /**
      * N der document.
      *
-     * @var int
+     * @var int|null
      */
     private $nDerDocument;
 
     /**
      * Nap euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $napEuro;
 
     /**
      * Nb exemplaire.
      *
-     * @var string
+     * @var string|null
      */
     private $nbExemplaire;
 
     /**
-     * Nce conges spectacles.
-     *
-     * @var int
-     */
-    private $nceCongesSpectacles;
-
-    /**
      * Nouv param retraite type.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nouvParamRetraiteType;
 
     /**
      * Options calc abs.
      *
-     * @var bool
+     * @var bool|null
      */
     private $optionsCalcAbs;
 
     /**
      * Ordre libelle h sup.
      *
-     * @var string
+     * @var string|null
      */
     private $ordreLibelleHSup;
 
     /**
      * Paie euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $paieEuro;
 
     /**
      * Part sal seule.
      *
-     * @var bool
+     * @var bool|null
      */
     private $partSalSeule;
 
     /**
      * Pas gestion indice bul.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasGestionIndiceBul;
 
     /**
      * Pas prendre iccp fillon.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasPrendreIccpFillon;
 
     /**
      * Pas sous tot s base.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pasSousTotSBase;
 
     /**
      * Passage35 h fait.
      *
-     * @var bool
+     * @var bool|null
      */
     private $passage35HFait;
 
     /**
      * Path virement.
      *
-     * @var string
+     * @var string|null
      */
     private $pathVirement;
 
@@ -1298,794 +1298,795 @@ class ConstantesEntreprise {
     /**
      * Pj mail c li ducs edi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pjMailCLiDucsEdi;
 
     /**
      * Pj mail cli coupon paiement.
      *
-     * @var bool
+     * @var bool|null
      */
     private $pjMailCliCouponPaiement;
 
     /**
      * Plafond.
      *
-     * @var float
+     * @var float|null
      */
     private $plafond;
 
     /**
      * Porta frais sante certif trav.
      *
-     * @var bool
+     * @var bool|null
      */
     private $portaFraisSanteCertifTrav;
 
     /**
      * Porta prevoyance oblig.
      *
-     * @var bool
+     * @var bool|null
      */
     private $portaPrevoyanceOblig;
 
     /**
      * Preparation tdp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $preparationTdp;
 
     /**
      * Presence min.
      *
-     * @var string
+     * @var string|null
      */
     private $presenceMin;
 
     /**
      * Prorata dif certif trav.
      *
-     * @var bool
+     * @var bool|null
      */
     private $prorataDifCertifTrav;
 
     /**
-     * Raz commentaire.
-     *
-     * @var string
-     */
-    private $razCommentaire;
-
-    /**
-     * Raz h sup.
-     *
-     * @var string
-     */
-    private $razHSup;
-
-    /**
      * Rdlpascii.
      *
-     * @var bool
+     * @var bool|null
      */
     private $rdlpascii;
 
     /**
      * Rdlpemployes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $rdlpemployes;
 
     /**
+     * Raz commentaire.
+     *
+     * @var string|null
+     */
+    private $razCommentaire;
+
+    /**
+     * Raz h sup.
+     *
+     * @var string|null
+     */
+    private $razHSup;
+
+    /**
      * Ref remise.
      *
-     * @var int
+     * @var int|null
      */
     private $refRemise;
 
     /**
      * Ref trans.
      *
-     * @var int
+     * @var int|null
      */
     private $refTrans;
 
     /**
      * Reference interne virement.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceInterneVirement;
 
     /**
      * Regroup lib ed bul.
      *
-     * @var bool
+     * @var bool|null
      */
     private $regroupLibEdBul;
 
     /**
      * Report minimum.
      *
-     * @var int
+     * @var int|null
      */
     private $reportMinimum;
 
     /**
      * Retraite97.
      *
-     * @var bool
+     * @var bool|null
      */
     private $retraite97;
 
     /**
      * Sais plan emp sem.
      *
-     * @var string
+     * @var string|null
      */
     private $saisPlanEmpSem;
 
     /**
      * Saisie indice bul.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisieIndiceBul;
 
     /**
      * Saut page.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sautPage;
 
     /**
      * Seuil.
      *
-     * @var float
+     * @var float|null
      */
     private $seuil;
 
     /**
      * Seuil conting.
      *
-     * @var float
+     * @var float|null
      */
     private $seuilConting;
 
     /**
      * Stc auto.
      *
-     * @var bool
+     * @var bool|null
      */
     private $stcAuto;
 
     /**
      * Tab bord tri etablissement.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tabBordTriEtablissement;
 
     /**
      * Tab bord tri service.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tabBordTriService;
 
     /**
      * Tableau charge.
      *
-     * @var string
+     * @var string|null
      */
     private $tableauCharge;
 
     /**
      * Tds annee.
      *
-     * @var int
+     * @var int|null
      */
     private $tdsAnnee;
 
     /**
      * Tds euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tdsEuro;
 
     /**
      * Tot gene isole.
      *
-     * @var string
+     * @var string|null
      */
     private $totGeneIsole;
 
     /**
      * Tot service isole.
      *
-     * @var string
+     * @var string|null
      */
     private $totServiceIsole;
 
     /**
      * Total etab isole.
      *
-     * @var string
+     * @var string|null
      */
     private $totalEtabIsole;
 
     /**
      * Trans rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $transRupture;
 
     /**
      * Trans tri etablissement.
      *
-     * @var string
+     * @var string|null
      */
     private $transTriEtablissement;
 
     /**
      * Transfert tds emp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $transfertTdsEmp;
 
     /**
      * Tri employe.
      *
-     * @var string
+     * @var string|null
      */
     private $triEmploye;
 
     /**
      * Tx sal decote.
      *
-     * @var float
+     * @var float|null
      */
     private $txSalDecote;
 
     /**
      * Type abs sans solde.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAbsSansSolde;
 
     /**
      * Type agrement aem.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAgrementAem;
 
     /**
      * Type bordereau prepa.
      *
-     * @var string
+     * @var string|null
      */
     private $typeBordereauPrepa;
 
     /**
      * Type bulletin.
      *
-     * @var string
+     * @var string|null
      */
     private $typeBulletin;
 
     /**
-     * Type dossier.
-     *
-     * @var string
-     */
-    private $typeDossier;
-
-    /**
      * Type due.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDue;
 
     /**
+     * Type dossier.
+     *
+     * @var string|null
+     */
+    private $typeDossier;
+
+    /**
      * Type effectif.
      *
-     * @var string
+     * @var string|null
      */
     private $typeEffectif;
 
     /**
      * Type fich bilat.
      *
-     * @var string
+     * @var string|null
      */
     private $typeFichBilat;
 
     /**
      * Type gestion bal.
      *
-     * @var string
+     * @var string|null
      */
     private $typeGestionBal;
 
     /**
      * Type modele.
      *
-     * @var string
+     * @var string|null
      */
     private $typeModele;
 
     /**
      * Type prep dadsu.
      *
-     * @var string
+     * @var string|null
      */
     private $typePrepDadsu;
 
     /**
      * Type saisie abs.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSaisieAbs;
 
     /**
      * Type saisie absence.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSaisieAbsence;
 
     /**
      * Type stc.
      *
-     * @var string
+     * @var string|null
      */
     private $typeStc;
 
     /**
      * Type taux intemperie.
      *
-     * @var string
+     * @var string|null
      */
     private $typeTauxIntemperie;
 
     /**
      * Type tri.
      *
-     * @var string
+     * @var string|null
      */
     private $typeTri;
 
     /**
      * Type virement.
      *
-     * @var string
+     * @var string|null
      */
     private $typeVirement;
 
     /**
      * Type visu col saisie bul.
      *
-     * @var string
+     * @var string|null
      */
     private $typeVisuColSaisieBul;
 
     /**
      * Utilise pdp quadra.
      *
-     * @var bool
+     * @var bool|null
      */
     private $utilisePdpQuadra;
 
     /**
      * Utilise pdp quadra2.
      *
-     * @var bool
+     * @var bool|null
      */
     private $utilisePdpQuadra2;
 
     /**
      * Val cp bulletin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $valCpBulletin;
 
     /**
      * Val filtre liste emp.
      *
-     * @var int
+     * @var int|null
      */
     private $valFiltreListeEmp;
 
     /**
      * Version controle dadsu.
      *
-     * @var int
+     * @var int|null
      */
     private $versionControleDadsu;
 
     /**
      * Vir code etab.
      *
-     * @var string
+     * @var string|null
      */
     private $virCodeEtab;
 
     /**
      * Vir collectivite.
      *
-     * @var string
+     * @var string|null
      */
     private $virCollectivite;
 
     /**
      * Vir comptable centre.
      *
-     * @var string
+     * @var string|null
      */
     private $virComptableCentre;
 
     /**
      * Vir comptable sub.
      *
-     * @var string
+     * @var string|null
      */
     private $virComptableSub;
 
     /**
      * Vir fonction publique.
      *
-     * @var bool
+     * @var bool|null
      */
     private $virFonctionPublique;
 
     /**
      * Vir seuil.
      *
-     * @var float
+     * @var float|null
      */
     private $virSeuil;
 
     /**
      * Vir type etab.
      *
-     * @var string
+     * @var string|null
      */
     private $virTypeEtab;
 
     /**
      * Virement cr lf.
      *
-     * @var bool
+     * @var bool|null
      */
     private $virementCrLf;
 
     /**
      * Virements euro.
      *
-     * @var string
+     * @var string|null
      */
     private $virementsEuro;
 
     /**
      * Web prioritaire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $webPrioritaire;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the absence extra.
      *
-     * @return string Returns the absence extra.
+     * @return string|null Returns the absence extra.
      */
-    public function getAbsenceExtra() {
+    public function getAbsenceExtra(): ?string{
         return $this->absenceExtra;
     }
 
     /**
      * Get the activer pointage qws.
      *
-     * @return bool Returns the activer pointage qws.
+     * @return bool|null Returns the activer pointage qws.
      */
-    public function getActiverPointageQws() {
+    public function getActiverPointageQws(): ?bool{
         return $this->activerPointageQws;
     }
 
     /**
      * Get the adhesion tds norme.
      *
-     * @return string Returns the adhesion tds norme.
+     * @return string|null Returns the adhesion tds norme.
      */
-    public function getAdhesionTdsNorme() {
+    public function getAdhesionTdsNorme(): ?string{
         return $this->adhesionTdsNorme;
     }
 
     /**
      * Get the affaire.
      *
-     * @return string Returns the affaire.
+     * @return string|null Returns the affaire.
      */
-    public function getAffaire() {
+    public function getAffaire(): ?string{
         return $this->affaire;
     }
 
     /**
      * Get the affectation taux27.
      *
-     * @return bool Returns the affectation taux27.
+     * @return bool|null Returns the affectation taux27.
      */
-    public function getAffectationTaux27() {
+    public function getAffectationTaux27(): ?bool{
         return $this->affectationTaux27;
     }
 
     /**
      * Get the analytique employe.
      *
-     * @return bool Returns the analytique employe.
+     * @return bool|null Returns the analytique employe.
      */
-    public function getAnalytiqueEmploye() {
+    public function getAnalytiqueEmploye(): ?bool{
         return $this->analytiqueEmploye;
     }
 
     /**
      * Get the arbitrage auto.
      *
-     * @return string Returns the arbitrage auto.
+     * @return string|null Returns the arbitrage auto.
      */
-    public function getArbitrageAuto() {
+    public function getArbitrageAuto(): ?string{
         return $this->arbitrageAuto;
     }
 
     /**
      * Get the archivage actif.
      *
-     * @return bool Returns the archivage actif.
+     * @return bool|null Returns the archivage actif.
      */
-    public function getArchivageActif() {
+    public function getArchivageActif(): ?bool{
         return $this->archivageActif;
     }
 
     /**
      * Get the attest auto.
      *
-     * @return bool Returns the attest auto.
+     * @return bool|null Returns the attest auto.
      */
-    public function getAttestAuto() {
+    public function getAttestAuto(): ?bool{
         return $this->attestAuto;
     }
 
     /**
      * Get the beneficie cice.
      *
-     * @return bool Returns the beneficie cice.
+     * @return bool|null Returns the beneficie cice.
      */
-    public function getBeneficieCice() {
+    public function getBeneficieCice(): ?bool{
         return $this->beneficieCice;
     }
 
     /**
      * Get the brut al sal min conv.
      *
-     * @return bool Returns the brut al sal min conv.
+     * @return bool|null Returns the brut al sal min conv.
      */
-    public function getBrutAlSalMinConv() {
+    public function getBrutAlSalMinConv(): ?bool{
         return $this->brutAlSalMinConv;
+    }
+
+    /**
+     * Get the cice pj mail cli ducs edi.
+     *
+     * @return bool|null Returns the cice pj mail cli ducs edi.
+     */
+    public function getCicePjMailCliDucsEdi(): ?bool{
+        return $this->cicePjMailCliDucsEdi;
     }
 
     /**
      * Get the calcul auto h theorique.
      *
-     * @return bool Returns the calcul auto h theorique.
+     * @return bool|null Returns the calcul auto h theorique.
      */
-    public function getCalculAutoHTheorique() {
+    public function getCalculAutoHTheorique(): ?bool{
         return $this->calculAutoHTheorique;
     }
 
     /**
      * Get the certif auto.
      *
-     * @return bool Returns the certif auto.
+     * @return bool|null Returns the certif auto.
      */
-    public function getCertifAuto() {
+    public function getCertifAuto(): ?bool{
         return $this->certifAuto;
     }
 
     /**
      * Get the cheques euro.
      *
-     * @return string Returns the cheques euro.
+     * @return string|null Returns the cheques euro.
      */
-    public function getChequesEuro() {
+    public function getChequesEuro(): ?string{
         return $this->chequesEuro;
     }
 
     /**
      * Get the choix edition cheque tc.
      *
-     * @return bool Returns the choix edition cheque tc.
+     * @return bool|null Returns the choix edition cheque tc.
      */
-    public function getChoixEditionChequeTc() {
+    public function getChoixEditionChequeTc(): ?bool{
         return $this->choixEditionChequeTc;
-    }
-
-    /**
-     * Get the cice pj mail cli ducs edi.
-     *
-     * @return bool Returns the cice pj mail cli ducs edi.
-     */
-    public function getCicePjMailCliDucsEdi() {
-        return $this->cicePjMailCliDucsEdi;
     }
 
     /**
      * Get the cle acces1.
      *
-     * @return string Returns the cle acces1.
+     * @return string|null Returns the cle acces1.
      */
-    public function getCleAcces1() {
+    public function getCleAcces1(): ?string{
         return $this->cleAcces1;
     }
 
     /**
      * Get the cle portable.
      *
-     * @return string Returns the cle portable.
+     * @return string|null Returns the cle portable.
      */
-    public function getClePortable() {
+    public function getClePortable(): ?string{
         return $this->clePortable;
     }
 
     /**
      * Get the code org btpdadsu.
      *
-     * @return string Returns the code org btpdadsu.
+     * @return string|null Returns the code org btpdadsu.
      */
-    public function getCodeOrgBtpdadsu() {
+    public function getCodeOrgBtpdadsu(): ?string{
         return $this->codeOrgBtpdadsu;
     }
 
     /**
      * Get the collaborateuri paie.
      *
-     * @return string Returns the collaborateuri paie.
+     * @return string|null Returns the collaborateuri paie.
      */
-    public function getCollaborateuriPaie() {
+    public function getCollaborateuriPaie(): ?string{
         return $this->collaborateuriPaie;
     }
 
     /**
      * Get the compression.
      *
-     * @return bool Returns the compression.
+     * @return bool|null Returns the compression.
      */
-    public function getCompression() {
+    public function getCompression(): ?bool{
         return $this->compression;
     }
 
     /**
      * Get the compte gain euro.
      *
-     * @return string Returns the compte gain euro.
+     * @return string|null Returns the compte gain euro.
      */
-    public function getCompteGainEuro() {
+    public function getCompteGainEuro(): ?string{
         return $this->compteGainEuro;
     }
 
     /**
      * Get the compte perte euro.
      *
-     * @return string Returns the compte perte euro.
+     * @return string|null Returns the compte perte euro.
      */
-    public function getComptePerteEuro() {
+    public function getComptePerteEuro(): ?string{
         return $this->comptePerteEuro;
     }
 
     /**
      * Get the cpta elit euros.
      *
-     * @return bool Returns the cpta elit euros.
+     * @return bool|null Returns the cpta elit euros.
      */
-    public function getCptaElitEuros() {
+    public function getCptaElitEuros(): ?bool{
         return $this->cptaElitEuros;
     }
 
     /**
      * Get the ctrl auto cp.
      *
-     * @return bool Returns the ctrl auto cp.
+     * @return bool|null Returns the ctrl auto cp.
      */
-    public function getCtrlAutoCp() {
+    public function getCtrlAutoCp(): ?bool{
         return $this->ctrlAutoCp;
     }
 
     /**
      * Get the ctrl auto cp anticip.
      *
-     * @return bool Returns the ctrl auto cp anticip.
+     * @return bool|null Returns the ctrl auto cp anticip.
      */
-    public function getCtrlAutoCpAnticip() {
+    public function getCtrlAutoCpAnticip(): ?bool{
         return $this->ctrlAutoCpAnticip;
     }
 
     /**
      * Get the ctrl taux base.
      *
-     * @return bool Returns the ctrl taux base.
+     * @return bool|null Returns the ctrl taux base.
      */
-    public function getCtrlTauxBase() {
+    public function getCtrlTauxBase(): ?bool{
         return $this->ctrlTauxBase;
     }
 
     /**
      * Get the dads dernier choix gestion aen.
      *
-     * @return string Returns the dads dernier choix gestion aen.
+     * @return string|null Returns the dads dernier choix gestion aen.
      */
-    public function getDadsDernierChoixGestionAen() {
+    public function getDadsDernierChoixGestionAen(): ?string{
         return $this->dadsDernierChoixGestionAen;
     }
 
     /**
      * Get the dads type gestion aen.
      *
-     * @return string Returns the dads type gestion aen.
+     * @return string|null Returns the dads type gestion aen.
      */
-    public function getDadsTypeGestionAen() {
+    public function getDadsTypeGestionAen(): ?string{
         return $this->dadsTypeGestionAen;
     }
 
     /**
      * Get the dadsu num agr ansp.
      *
-     * @return string Returns the dadsu num agr ansp.
+     * @return string|null Returns the dadsu num agr ansp.
      */
-    public function getDadsuNumAgrAnsp() {
+    public function getDadsuNumAgrAnsp(): ?string{
         return $this->dadsuNumAgrAnsp;
     }
 
     /**
      * Get the dadsu ref dec.
      *
-     * @return string Returns the dadsu ref dec.
+     * @return string|null Returns the dadsu ref dec.
      */
-    public function getDadsuRefDec() {
+    public function getDadsuRefDec(): ?string{
         return $this->dadsuRefDec;
     }
 
     /**
      * Get the das type decl.
      *
-     * @return string Returns the das type decl.
+     * @return string|null Returns the das type decl.
      */
-    public function getDasTypeDecl() {
+    public function getDasTypeDecl(): ?string{
         return $this->dasTypeDecl;
     }
 
     /**
      * Get the das type decl detail.
      *
-     * @return string Returns the das type decl detail.
+     * @return string|null Returns the das type decl detail.
      */
-    public function getDasTypeDeclDetail() {
+    public function getDasTypeDeclDetail(): ?string{
         return $this->dasTypeDeclDetail;
     }
 
@@ -2094,7 +2095,7 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the date dp.
      */
-    public function getDateDp() {
+    public function getDateDp(): ?DateTime{
         return $this->dateDp;
     }
 
@@ -2103,7 +2104,7 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the debut periode das.
      */
-    public function getDebutPeriodeDas() {
+    public function getDebutPeriodeDas(): ?DateTime{
         return $this->debutPeriodeDas;
     }
 
@@ -2112,79 +2113,79 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the debut periode histo das.
      */
-    public function getDebutPeriodeHistoDas() {
+    public function getDebutPeriodeHistoDas(): ?DateTime{
         return $this->debutPeriodeHistoDas;
     }
 
     /**
      * Get the deduction h sup fillon.
      *
-     * @return bool Returns the deduction h sup fillon.
+     * @return bool|null Returns the deduction h sup fillon.
      */
-    public function getDeductionHSupFillon() {
+    public function getDeductionHSupFillon(): ?bool{
         return $this->deductionHSupFillon;
     }
 
     /**
      * Get the deduire h sup non structurelle.
      *
-     * @return bool Returns the deduire h sup non structurelle.
+     * @return bool|null Returns the deduire h sup non structurelle.
      */
-    public function getDeduireHSupNonStructurelle() {
+    public function getDeduireHSupNonStructurelle(): ?bool{
         return $this->deduireHSupNonStructurelle;
     }
 
     /**
      * Get the dernier indice bul.
      *
-     * @return int Returns the dernier indice bul.
+     * @return int|null Returns the dernier indice bul.
      */
-    public function getDernierIndiceBul() {
+    public function getDernierIndiceBul(): ?int{
         return $this->dernierIndiceBul;
     }
 
     /**
      * Get the dest point irc.
      *
-     * @return string Returns the dest point irc.
+     * @return string|null Returns the dest point irc.
      */
-    public function getDestPointIrc() {
+    public function getDestPointIrc(): ?string{
         return $this->destPointIrc;
     }
 
     /**
      * Get the dest tri point.
      *
-     * @return string Returns the dest tri point.
+     * @return string|null Returns the dest tri point.
      */
-    public function getDestTriPoint() {
+    public function getDestTriPoint(): ?string{
         return $this->destTriPoint;
     }
 
     /**
      * Get the dossier proprete.
      *
-     * @return string Returns the dossier proprete.
+     * @return string|null Returns the dossier proprete.
      */
-    public function getDossierProprete() {
+    public function getDossierProprete(): ?string{
         return $this->dossierProprete;
     }
 
     /**
      * Get the dossier sur web.
      *
-     * @return bool Returns the dossier sur web.
+     * @return bool|null Returns the dossier sur web.
      */
-    public function getDossierSurWeb() {
+    public function getDossierSurWeb(): ?bool{
         return $this->dossierSurWeb;
     }
 
     /**
      * Get the ds code collab.
      *
-     * @return string Returns the ds code collab.
+     * @return string|null Returns the ds code collab.
      */
-    public function getDsCodeCollab() {
+    public function getDsCodeCollab(): ?string{
         return $this->dsCodeCollab;
     }
 
@@ -2193,7 +2194,7 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the ds date retour.
      */
-    public function getDsDateRetour() {
+    public function getDsDateRetour(): ?DateTime{
         return $this->dsDateRetour;
     }
 
@@ -2202,25 +2203,25 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the ds date sortie.
      */
-    public function getDsDateSortie() {
+    public function getDsDateSortie(): ?DateTime{
         return $this->dsDateSortie;
     }
 
     /**
      * Get the ds fusion.
      *
-     * @return string Returns the ds fusion.
+     * @return string|null Returns the ds fusion.
      */
-    public function getDsFusion() {
+    public function getDsFusion(): ?string{
         return $this->dsFusion;
     }
 
     /**
      * Get the ds type edition.
      *
-     * @return string Returns the ds type edition.
+     * @return string|null Returns the ds type edition.
      */
-    public function getDsTypeEdition() {
+    public function getDsTypeEdition(): ?string{
         return $this->dsTypeEdition;
     }
 
@@ -2229,7 +2230,7 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the dt debut periode.
      */
-    public function getDtDebutPeriode() {
+    public function getDtDebutPeriode(): ?DateTime{
         return $this->dtDebutPeriode;
     }
 
@@ -2238,394 +2239,394 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the dt fin periode.
      */
-    public function getDtFinPeriode() {
+    public function getDtFinPeriode(): ?DateTime{
         return $this->dtFinPeriode;
     }
 
     /**
      * Get the ducs franc euro.
      *
-     * @return string Returns the ducs franc euro.
+     * @return string|null Returns the ducs franc euro.
      */
-    public function getDucsFrancEuro() {
+    public function getDucsFrancEuro(): ?string{
         return $this->ducsFrancEuro;
     }
 
     /**
      * Get the ecr type.
      *
-     * @return string Returns the ecr type.
+     * @return string|null Returns the ecr type.
      */
-    public function getEcrType() {
+    public function getEcrType(): ?string{
         return $this->ecrType;
     }
 
     /**
      * Get the ed bord choix modele.
      *
-     * @return string Returns the ed bord choix modele.
+     * @return string|null Returns the ed bord choix modele.
      */
-    public function getEdBordChoixModele() {
+    public function getEdBordChoixModele(): ?string{
         return $this->edBordChoixModele;
     }
 
     /**
      * Get the ed bord rupture emp.
      *
-     * @return bool Returns the ed bord rupture emp.
+     * @return bool|null Returns the ed bord rupture emp.
      */
-    public function getEdBordRuptureEmp() {
+    public function getEdBordRuptureEmp(): ?bool{
         return $this->edBordRuptureEmp;
     }
 
     /**
      * Get the ed bord type imp.
      *
-     * @return string Returns the ed bord type imp.
+     * @return string|null Returns the ed bord type imp.
      */
-    public function getEdBordTypeImp() {
+    public function getEdBordTypeImp(): ?string{
         return $this->edBordTypeImp;
     }
 
     /**
      * Get the ed bordereau.
      *
-     * @return bool Returns the ed bordereau.
+     * @return bool|null Returns the ed bordereau.
      */
-    public function getEdBordereau() {
+    public function getEdBordereau(): ?bool{
         return $this->edBordereau;
     }
 
     /**
      * Get the ed bordereau prep.
      *
-     * @return bool Returns the ed bordereau prep.
+     * @return bool|null Returns the ed bordereau prep.
      */
-    public function getEdBordereauPrep() {
+    public function getEdBordereauPrep(): ?bool{
         return $this->edBordereauPrep;
     }
 
     /**
      * Get the ed bordereau prepa.
      *
-     * @return bool Returns the ed bordereau prepa.
+     * @return bool|null Returns the ed bordereau prepa.
      */
-    public function getEdBordereauPrepa() {
+    public function getEdBordereauPrepa(): ?bool{
         return $this->edBordereauPrepa;
     }
 
     /**
      * Get the ed bul last fax.
      *
-     * @return string Returns the ed bul last fax.
+     * @return string|null Returns the ed bul last fax.
      */
-    public function getEdBulLastFax() {
+    public function getEdBulLastFax(): ?string{
         return $this->edBulLastFax;
     }
 
     /**
      * Get the ed bul last mail.
      *
-     * @return string Returns the ed bul last mail.
+     * @return string|null Returns the ed bul last mail.
      */
-    public function getEdBulLastMail() {
+    public function getEdBulLastMail(): ?string{
         return $this->edBulLastMail;
     }
 
     /**
      * Get the ed bul type sortie.
      *
-     * @return string Returns the ed bul type sortie.
+     * @return string|null Returns the ed bul type sortie.
      */
-    public function getEdBulTypeSortie() {
+    public function getEdBulTypeSortie(): ?string{
         return $this->edBulTypeSortie;
     }
 
     /**
      * Get the ed correspondance.
      *
-     * @return bool Returns the ed correspondance.
+     * @return bool|null Returns the ed correspondance.
      */
-    public function getEdCorrespondance() {
+    public function getEdCorrespondance(): ?bool{
         return $this->edCorrespondance;
-    }
-
-    /**
-     * Get the ed ducs auto.
-     *
-     * @return bool Returns the ed ducs auto.
-     */
-    public function getEdDucsAuto() {
-        return $this->edDucsAuto;
     }
 
     /**
      * Get the ed ducs nb ex.
      *
-     * @return string Returns the ed ducs nb ex.
+     * @return string|null Returns the ed ducs nb ex.
      */
-    public function getEdDucsNbEx() {
+    public function getEdDucsNbEx(): ?string{
         return $this->edDucsNbEx;
     }
 
     /**
      * Get the ed ducs opt btp.
      *
-     * @return string Returns the ed ducs opt btp.
+     * @return string|null Returns the ed ducs opt btp.
      */
-    public function getEdDucsOptBtp() {
+    public function getEdDucsOptBtp(): ?string{
         return $this->edDucsOptBtp;
     }
 
     /**
      * Get the ed ducs type sortie.
      *
-     * @return string Returns the ed ducs type sortie.
+     * @return string|null Returns the ed ducs type sortie.
      */
-    public function getEdDucsTypeSortie() {
+    public function getEdDucsTypeSortie(): ?string{
         return $this->edDucsTypeSortie;
+    }
+
+    /**
+     * Get the ed ducs auto.
+     *
+     * @return bool|null Returns the ed ducs auto.
+     */
+    public function getEdDucsAuto(): ?bool{
+        return $this->edDucsAuto;
     }
 
     /**
      * Get the ed h sup bonif que majo.
      *
-     * @return bool Returns the ed h sup bonif que majo.
+     * @return bool|null Returns the ed h sup bonif que majo.
      */
-    public function getEdHSupBonifQueMajo() {
+    public function getEdHSupBonifQueMajo(): ?bool{
         return $this->edHSupBonifQueMajo;
     }
 
     /**
      * Get the ed histo tri emp.
      *
-     * @return string Returns the ed histo tri emp.
+     * @return string|null Returns the ed histo tri emp.
      */
-    public function getEdHistoTriEmp() {
+    public function getEdHistoTriEmp(): ?string{
         return $this->edHistoTriEmp;
     }
 
     /**
      * Get the ed histo tri etablissement.
      *
-     * @return bool Returns the ed histo tri etablissement.
+     * @return bool|null Returns the ed histo tri etablissement.
      */
-    public function getEdHistoTriEtablissement() {
+    public function getEdHistoTriEtablissement(): ?bool{
         return $this->edHistoTriEtablissement;
     }
 
     /**
      * Get the ed histo tri service.
      *
-     * @return bool Returns the ed histo tri service.
+     * @return bool|null Returns the ed histo tri service.
      */
-    public function getEdHistoTriService() {
+    public function getEdHistoTriService(): ?bool{
         return $this->edHistoTriService;
     }
 
     /**
      * Get the ed histo type.
      *
-     * @return string Returns the ed histo type.
+     * @return string|null Returns the ed histo type.
      */
-    public function getEdHistoType() {
+    public function getEdHistoType(): ?string{
         return $this->edHistoType;
     }
 
     /**
      * Get the ed imput comptable.
      *
-     * @return bool Returns the ed imput comptable.
+     * @return bool|null Returns the ed imput comptable.
      */
-    public function getEdImputComptable() {
+    public function getEdImputComptable(): ?bool{
         return $this->edImputComptable;
     }
 
     /**
      * Get the ed texte1.
      *
-     * @return string Returns the ed texte1.
+     * @return string|null Returns the ed texte1.
      */
-    public function getEdTexte1() {
+    public function getEdTexte1(): ?string{
         return $this->edTexte1;
     }
 
     /**
      * Get the ed texte2.
      *
-     * @return string Returns the ed texte2.
+     * @return string|null Returns the ed texte2.
      */
-    public function getEdTexte2() {
+    public function getEdTexte2(): ?string{
         return $this->edTexte2;
     }
 
     /**
      * Get the ed trt cpta last fax.
      *
-     * @return string Returns the ed trt cpta last fax.
+     * @return string|null Returns the ed trt cpta last fax.
      */
-    public function getEdTrtCptaLastFax() {
+    public function getEdTrtCptaLastFax(): ?string{
         return $this->edTrtCptaLastFax;
     }
 
     /**
      * Get the ed trt cpta last mail.
      *
-     * @return string Returns the ed trt cpta last mail.
+     * @return string|null Returns the ed trt cpta last mail.
      */
-    public function getEdTrtCptaLastMail() {
+    public function getEdTrtCptaLastMail(): ?string{
         return $this->edTrtCptaLastMail;
     }
 
     /**
      * Get the ed trt cpta sortie.
      *
-     * @return string Returns the ed trt cpta sortie.
+     * @return string|null Returns the ed trt cpta sortie.
      */
-    public function getEdTrtCptaSortie() {
+    public function getEdTrtCptaSortie(): ?string{
         return $this->edTrtCptaSortie;
     }
 
     /**
      * Get the edit qpxl absences.
      *
-     * @return bool Returns the edit qpxl absences.
+     * @return bool|null Returns the edit qpxl absences.
      */
-    public function getEditQpxlAbsences() {
+    public function getEditQpxlAbsences(): ?bool{
         return $this->editQpxlAbsences;
     }
 
     /**
      * Get the edit qpxl acomptes.
      *
-     * @return bool Returns the edit qpxl acomptes.
+     * @return bool|null Returns the edit qpxl acomptes.
      */
-    public function getEditQpxlAcomptes() {
+    public function getEditQpxlAcomptes(): ?bool{
         return $this->editQpxlAcomptes;
     }
 
     /**
      * Get the edit qpxl tri emp.
      *
-     * @return string Returns the edit qpxl tri emp.
+     * @return string|null Returns the edit qpxl tri emp.
      */
-    public function getEditQpxlTriEmp() {
+    public function getEditQpxlTriEmp(): ?string{
         return $this->editQpxlTriEmp;
     }
 
     /**
      * Get the edit qpxl vider lib.
      *
-     * @return bool Returns the edit qpxl vider lib.
+     * @return bool|null Returns the edit qpxl vider lib.
      */
-    public function getEditQpxlViderLib() {
+    public function getEditQpxlViderLib(): ?bool{
         return $this->editQpxlViderLib;
     }
 
     /**
      * Get the editer bulletin stc.
      *
-     * @return bool Returns the editer bulletin stc.
+     * @return bool|null Returns the editer bulletin stc.
      */
-    public function getEditerBulletinStc() {
+    public function getEditerBulletinStc(): ?bool{
         return $this->editerBulletinStc;
     }
 
     /**
      * Get the edition cheque tc.
      *
-     * @return bool Returns the edition cheque tc.
+     * @return bool|null Returns the edition cheque tc.
      */
-    public function getEditionChequeTc() {
+    public function getEditionChequeTc(): ?bool{
         return $this->editionChequeTc;
     }
 
     /**
      * Get the edition date.
      *
-     * @return bool Returns the edition date.
+     * @return bool|null Returns the edition date.
      */
-    public function getEditionDate() {
+    public function getEditionDate(): ?bool{
         return $this->editionDate;
     }
 
     /**
      * Get the edition heure.
      *
-     * @return bool Returns the edition heure.
+     * @return bool|null Returns the edition heure.
      */
-    public function getEditionHeure() {
+    public function getEditionHeure(): ?bool{
         return $this->editionHeure;
     }
 
     /**
      * Get the email.
      *
-     * @return string Returns the email.
+     * @return string|null Returns the email.
      */
-    public function getEmail() {
+    public function getEmail(): ?string{
         return $this->email;
     }
 
     /**
      * Get the entete solde tc.
      *
-     * @return bool Returns the entete solde tc.
+     * @return bool|null Returns the entete solde tc.
      */
-    public function getEnteteSoldeTc() {
+    public function getEnteteSoldeTc(): ?bool{
         return $this->enteteSoldeTc;
     }
 
     /**
      * Get the etat controle dadsu.
      *
-     * @return string Returns the etat controle dadsu.
+     * @return string|null Returns the etat controle dadsu.
      */
-    public function getEtatControleDadsu() {
+    public function getEtatControleDadsu(): ?string{
         return $this->etatControleDadsu;
     }
 
     /**
      * Get the etat ctrl norme.
      *
-     * @return string Returns the etat ctrl norme.
+     * @return string|null Returns the etat ctrl norme.
      */
-    public function getEtatCtrlNorme() {
+    public function getEtatCtrlNorme(): ?string{
         return $this->etatCtrlNorme;
     }
 
     /**
      * Get the etat das.
      *
-     * @return string Returns the etat das.
+     * @return string|null Returns the etat das.
      */
-    public function getEtatDas() {
+    public function getEtatDas(): ?string{
         return $this->etatDas;
     }
 
     /**
      * Get the etat das rect.
      *
-     * @return string Returns the etat das rect.
+     * @return string|null Returns the etat das rect.
      */
-    public function getEtatDasRect() {
+    public function getEtatDasRect(): ?string{
         return $this->etatDasRect;
     }
 
     /**
      * Get the fichier unique.
      *
-     * @return bool Returns the fichier unique.
+     * @return bool|null Returns the fichier unique.
      */
-    public function getFichierUnique() {
+    public function getFichierUnique(): ?bool{
         return $this->fichierUnique;
     }
 
     /**
      * Get the filtrer liste emp.
      *
-     * @return int Returns the filtrer liste emp.
+     * @return int|null Returns the filtrer liste emp.
      */
-    public function getFiltrerListeEmp() {
+    public function getFiltrerListeEmp(): ?int{
         return $this->filtrerListeEmp;
     }
 
@@ -2634,7 +2635,7 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the fin periode das.
      */
-    public function getFinPeriodeDas() {
+    public function getFinPeriodeDas(): ?DateTime{
         return $this->finPeriodeDas;
     }
 
@@ -2643,772 +2644,772 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the fin periode histo das.
      */
-    public function getFinPeriodeHistoDas() {
+    public function getFinPeriodeHistoDas(): ?DateTime{
         return $this->finPeriodeHistoDas;
     }
 
     /**
      * Get the flag traite.
      *
-     * @return string Returns the flag traite.
+     * @return string|null Returns the flag traite.
      */
-    public function getFlagTraite() {
+    public function getFlagTraite(): ?string{
         return $this->flagTraite;
     }
 
     /**
      * Get the flag traite2.
      *
-     * @return int Returns the flag traite2.
+     * @return int|null Returns the flag traite2.
      */
-    public function getFlagTraite2() {
+    public function getFlagTraite2(): ?int{
         return $this->flagTraite2;
     }
 
     /**
      * Get the flag traite3.
      *
-     * @return int Returns the flag traite3.
+     * @return int|null Returns the flag traite3.
      */
-    public function getFlagTraite3() {
+    public function getFlagTraite3(): ?int{
         return $this->flagTraite3;
     }
 
     /**
      * Get the format fic virement.
      *
-     * @return string Returns the format fic virement.
+     * @return string|null Returns the format fic virement.
      */
-    public function getFormatFicVirement() {
+    public function getFormatFicVirement(): ?string{
         return $this->formatFicVirement;
     }
 
     /**
      * Get the gest num bulletin.
      *
-     * @return bool Returns the gest num bulletin.
+     * @return bool|null Returns the gest num bulletin.
      */
-    public function getGestNumBulletin() {
+    public function getGestNumBulletin(): ?bool{
         return $this->gestNumBulletin;
     }
 
     /**
      * Get the gest repo compens.
      *
-     * @return bool Returns the gest repo compens.
+     * @return bool|null Returns the gest repo compens.
      */
-    public function getGestRepoCompens() {
+    public function getGestRepoCompens(): ?bool{
         return $this->gestRepoCompens;
     }
 
     /**
      * Get the gest texte.
      *
-     * @return bool Returns the gest texte.
+     * @return bool|null Returns the gest texte.
      */
-    public function getGestTexte() {
+    public function getGestTexte(): ?bool{
         return $this->gestTexte;
     }
 
     /**
      * Get the gestion coeff.
      *
-     * @return bool Returns the gestion coeff.
+     * @return bool|null Returns the gestion coeff.
      */
-    public function getGestionCoeff() {
+    public function getGestionCoeff(): ?bool{
         return $this->gestionCoeff;
     }
 
     /**
      * Get the gestion coeff grille.
      *
-     * @return bool Returns the gestion coeff grille.
+     * @return bool|null Returns the gestion coeff grille.
      */
-    public function getGestionCoeffGrille() {
+    public function getGestionCoeffGrille(): ?bool{
         return $this->gestionCoeffGrille;
     }
 
     /**
      * Get the gestion exemplaire.
      *
-     * @return string Returns the gestion exemplaire.
+     * @return string|null Returns the gestion exemplaire.
      */
-    public function getGestionExemplaire() {
+    public function getGestionExemplaire(): ?string{
         return $this->gestionExemplaire;
     }
 
     /**
      * Get the gestion intemperie.
      *
-     * @return bool Returns the gestion intemperie.
+     * @return bool|null Returns the gestion intemperie.
      */
-    public function getGestionIntemperie() {
+    public function getGestionIntemperie(): ?bool{
         return $this->gestionIntemperie;
     }
 
     /**
      * Get the gestion numero employe auto.
      *
-     * @return bool Returns the gestion numero employe auto.
+     * @return bool|null Returns the gestion numero employe auto.
      */
-    public function getGestionNumeroEmployeAuto() {
+    public function getGestionNumeroEmployeAuto(): ?bool{
         return $this->gestionNumeroEmployeAuto;
     }
 
     /**
      * Get the gestion qpxl.
      *
-     * @return bool Returns the gestion qpxl.
+     * @return bool|null Returns the gestion qpxl.
      */
-    public function getGestionQpxl() {
+    public function getGestionQpxl(): ?bool{
         return $this->gestionQpxl;
     }
 
     /**
      * Get the gestion td bilaterale.
      *
-     * @return bool Returns the gestion td bilaterale.
+     * @return bool|null Returns the gestion td bilaterale.
      */
-    public function getGestionTdBilaterale() {
+    public function getGestionTdBilaterale(): ?bool{
         return $this->gestionTdBilaterale;
     }
 
     /**
      * Get the gestion td sou dadsu.
      *
-     * @return bool Returns the gestion td sou dadsu.
+     * @return bool|null Returns the gestion td sou dadsu.
      */
-    public function getGestionTdSouDadsu() {
+    public function getGestionTdSouDadsu(): ?bool{
         return $this->gestionTdSouDadsu;
     }
 
     /**
      * Get the groupe gi.
      *
-     * @return string Returns the groupe gi.
+     * @return string|null Returns the groupe gi.
      */
-    public function getGroupeGi() {
+    public function getGroupeGi(): ?string{
         return $this->groupeGi;
     }
 
     /**
      * Get the h bonif influ cassation.
      *
-     * @return string Returns the h bonif influ cassation.
+     * @return string|null Returns the h bonif influ cassation.
      */
-    public function getHBonifInfluCassation() {
+    public function getHBonifInfluCassation(): ?string{
         return $this->hBonifInfluCassation;
     }
 
     /**
      * Get the h sup1 structurelle.
      *
-     * @return bool Returns the h sup1 structurelle.
+     * @return bool|null Returns the h sup1 structurelle.
      */
-    public function getHSup1Structurelle() {
+    public function getHSup1Structurelle(): ?bool{
         return $this->hSup1Structurelle;
     }
 
     /**
      * Get the h sup2 structurelle.
      *
-     * @return bool Returns the h sup2 structurelle.
+     * @return bool|null Returns the h sup2 structurelle.
      */
-    public function getHSup2Structurelle() {
+    public function getHSup2Structurelle(): ?bool{
         return $this->hSup2Structurelle;
     }
 
     /**
      * Get the h sup3 structurelle.
      *
-     * @return bool Returns the h sup3 structurelle.
+     * @return bool|null Returns the h sup3 structurelle.
      */
-    public function getHSup3Structurelle() {
+    public function getHSup3Structurelle(): ?bool{
         return $this->hSup3Structurelle;
     }
 
     /**
      * Get the h sup4 structurelle.
      *
-     * @return bool Returns the h sup4 structurelle.
+     * @return bool|null Returns the h sup4 structurelle.
      */
-    public function getHSup4Structurelle() {
+    public function getHSup4Structurelle(): ?bool{
         return $this->hSup4Structurelle;
     }
 
     /**
      * Get the h sup5 structurelle.
      *
-     * @return bool Returns the h sup5 structurelle.
+     * @return bool|null Returns the h sup5 structurelle.
      */
-    public function getHSup5Structurelle() {
+    public function getHSup5Structurelle(): ?bool{
         return $this->hSup5Structurelle;
     }
 
     /**
      * Get the heure sup2 influ cassation.
      *
-     * @return string Returns the heure sup2 influ cassation.
+     * @return string|null Returns the heure sup2 influ cassation.
      */
-    public function getHeureSup2InfluCassation() {
+    public function getHeureSup2InfluCassation(): ?string{
         return $this->heureSup2InfluCassation;
     }
 
     /**
      * Get the heure sup3 influ cassation.
      *
-     * @return string Returns the heure sup3 influ cassation.
+     * @return string|null Returns the heure sup3 influ cassation.
      */
-    public function getHeureSup3InfluCassation() {
+    public function getHeureSup3InfluCassation(): ?string{
         return $this->heureSup3InfluCassation;
     }
 
     /**
      * Get the heure sup4 influ cassation.
      *
-     * @return string Returns the heure sup4 influ cassation.
+     * @return string|null Returns the heure sup4 influ cassation.
      */
-    public function getHeureSup4InfluCassation() {
+    public function getHeureSup4InfluCassation(): ?string{
         return $this->heureSup4InfluCassation;
     }
 
     /**
      * Get the heure sup5 influ cassation.
      *
-     * @return string Returns the heure sup5 influ cassation.
+     * @return string|null Returns the heure sup5 influ cassation.
      */
-    public function getHeureSup5InfluCassation() {
+    public function getHeureSup5InfluCassation(): ?string{
         return $this->heureSup5InfluCassation;
     }
 
     /**
      * Get the heure sup influ cassation.
      *
-     * @return string Returns the heure sup influ cassation.
+     * @return string|null Returns the heure sup influ cassation.
      */
-    public function getHeureSupInfluCassation() {
+    public function getHeureSupInfluCassation(): ?string{
         return $this->heureSupInfluCassation;
     }
 
     /**
      * Get the heure theo base trav.
      *
-     * @return string Returns the heure theo base trav.
+     * @return string|null Returns the heure theo base trav.
      */
-    public function getHeureTheoBaseTrav() {
+    public function getHeureTheoBaseTrav(): ?string{
         return $this->heureTheoBaseTrav;
     }
 
     /**
      * Get the indem cp intervient brut al.
      *
-     * @return bool Returns the indem cp intervient brut al.
+     * @return bool|null Returns the indem cp intervient brut al.
      */
-    public function getIndemCpIntervientBrutAl() {
+    public function getIndemCpIntervientBrutAl(): ?bool{
         return $this->indemCpIntervientBrutAl;
     }
 
     /**
      * Get the jour debut transfert.
      *
-     * @return int Returns the jour debut transfert.
+     * @return int|null Returns the jour debut transfert.
      */
-    public function getJourDebutTransfert() {
+    public function getJourDebutTransfert(): ?int{
         return $this->jourDebutTransfert;
     }
 
     /**
      * Get the jour fin transfert.
      *
-     * @return int Returns the jour fin transfert.
+     * @return int|null Returns the jour fin transfert.
      */
-    public function getJourFinTransfert() {
+    public function getJourFinTransfert(): ?int{
         return $this->jourFinTransfert;
     }
 
     /**
      * Get the jrn format.
      *
-     * @return string Returns the jrn format.
+     * @return string|null Returns the jrn format.
      */
-    public function getJrnFormat() {
+    public function getJrnFormat(): ?string{
         return $this->jrnFormat;
     }
 
     /**
      * Get the jrn regroupe abs.
      *
-     * @return bool Returns the jrn regroupe abs.
+     * @return bool|null Returns the jrn regroupe abs.
      */
-    public function getJrnRegroupeAbs() {
+    public function getJrnRegroupeAbs(): ?bool{
         return $this->jrnRegroupeAbs;
     }
 
     /**
      * Get the jrn tri.
      *
-     * @return string Returns the jrn tri.
+     * @return string|null Returns the jrn tri.
      */
-    public function getJrnTri() {
+    public function getJrnTri(): ?string{
         return $this->jrnTri;
     }
 
     /**
      * Get the jrn tri etablissement.
      *
-     * @return string Returns the jrn tri etablissement.
+     * @return string|null Returns the jrn tri etablissement.
      */
-    public function getJrnTriEtablissement() {
+    public function getJrnTriEtablissement(): ?string{
         return $this->jrnTriEtablissement;
     }
 
     /**
      * Get the jrn tri service.
      *
-     * @return string Returns the jrn tri service.
+     * @return string|null Returns the jrn tri service.
      */
-    public function getJrnTriService() {
+    public function getJrnTriService(): ?string{
         return $this->jrnTriService;
     }
 
     /**
      * Get the jrn type.
      *
-     * @return string Returns the jrn type.
+     * @return string|null Returns the jrn type.
      */
-    public function getJrnType() {
+    public function getJrnType(): ?string{
         return $this->jrnType;
     }
 
     /**
      * Get the liaison proprete.
      *
-     * @return bool Returns the liaison proprete.
+     * @return bool|null Returns the liaison proprete.
      */
-    public function getLiaisonProprete() {
+    public function getLiaisonProprete(): ?bool{
         return $this->liaisonProprete;
     }
 
     /**
      * Get the lib arbitrage.
      *
-     * @return string Returns the lib arbitrage.
+     * @return string|null Returns the lib arbitrage.
      */
-    public function getLibArbitrage() {
+    public function getLibArbitrage(): ?string{
         return $this->libArbitrage;
-    }
-
-    /**
-     * Get the lib base conge.
-     *
-     * @return string Returns the lib base conge.
-     */
-    public function getLibBaseConge() {
-        return $this->libBaseConge;
     }
 
     /**
      * Get the lib bqcp.
      *
-     * @return string Returns the lib bqcp.
+     * @return string|null Returns the lib bqcp.
      */
-    public function getLibBqcp() {
+    public function getLibBqcp(): ?string{
         return $this->libBqcp;
+    }
+
+    /**
+     * Get the lib base conge.
+     *
+     * @return string|null Returns the lib base conge.
+     */
+    public function getLibBaseConge(): ?string{
+        return $this->libBaseConge;
     }
 
     /**
      * Get the lib cachet aem.
      *
-     * @return string Returns the lib cachet aem.
+     * @return string|null Returns the lib cachet aem.
      */
-    public function getLibCachetAem() {
+    public function getLibCachetAem(): ?string{
         return $this->libCachetAem;
     }
 
     /**
      * Get the lib cotis cne.
      *
-     * @return string Returns the lib cotis cne.
+     * @return string|null Returns the lib cotis cne.
      */
-    public function getLibCotisCne() {
+    public function getLibCotisCne(): ?string{
         return $this->libCotisCne;
     }
 
     /**
      * Get the lib fin contrat.
      *
-     * @return string Returns the lib fin contrat.
+     * @return string|null Returns the lib fin contrat.
      */
-    public function getLibFinContrat() {
+    public function getLibFinContrat(): ?string{
         return $this->libFinContrat;
     }
 
     /**
      * Get the lib fin contrat cne.
      *
-     * @return string Returns the lib fin contrat cne.
+     * @return string|null Returns the lib fin contrat cne.
      */
-    public function getLibFinContratCne() {
+    public function getLibFinContratCne(): ?string{
         return $this->libFinContratCne;
     }
 
     /**
      * Get the lib indem cp.
      *
-     * @return string Returns the lib indem cp.
+     * @return string|null Returns the lib indem cp.
      */
-    public function getLibIndemCp() {
+    public function getLibIndemCp(): ?string{
         return $this->libIndemCp;
     }
 
     /**
      * Get the libelle libre virement.
      *
-     * @return string Returns the libelle libre virement.
+     * @return string|null Returns the libelle libre virement.
      */
-    public function getLibelleLibreVirement() {
+    public function getLibelleLibreVirement(): ?string{
         return $this->libelleLibreVirement;
     }
 
     /**
      * Get the ligne bul euro.
      *
-     * @return bool Returns the ligne bul euro.
+     * @return bool|null Returns the ligne bul euro.
      */
-    public function getLigneBulEuro() {
+    public function getLigneBulEuro(): ?bool{
         return $this->ligneBulEuro;
     }
 
     /**
      * Get the lignes transport.
      *
-     * @return bool Returns the lignes transport.
+     * @return bool|null Returns the lignes transport.
      */
-    public function getLignesTransport() {
+    public function getLignesTransport(): ?bool{
         return $this->lignesTransport;
     }
 
     /**
      * Get the mail bulletin.
      *
-     * @return string Returns the mail bulletin.
+     * @return string|null Returns the mail bulletin.
      */
-    public function getMailBulletin() {
+    public function getMailBulletin(): ?string{
         return $this->mailBulletin;
     }
 
     /**
      * Get the mail bulletin cle.
      *
-     * @return string Returns the mail bulletin cle.
+     * @return string|null Returns the mail bulletin cle.
      */
-    public function getMailBulletinCle() {
+    public function getMailBulletinCle(): ?string{
         return $this->mailBulletinCle;
     }
 
     /**
      * Get the mail bulletin pj.
      *
-     * @return string Returns the mail bulletin pj.
+     * @return string|null Returns the mail bulletin pj.
      */
-    public function getMailBulletinPj() {
+    public function getMailBulletinPj(): ?string{
         return $this->mailBulletinPj;
     }
 
     /**
      * Get the mail c li ducs edi.
      *
-     * @return bool Returns the mail c li ducs edi.
+     * @return bool|null Returns the mail c li ducs edi.
      */
-    public function getMailCLiDucsEdi() {
+    public function getMailCLiDucsEdi(): ?bool{
         return $this->mailCLiDucsEdi;
     }
 
     /**
      * Get the mention cp.
      *
-     * @return bool Returns the mention cp.
+     * @return bool|null Returns the mention cp.
      */
-    public function getMentionCp() {
+    public function getMentionCp(): ?bool{
         return $this->mentionCp;
     }
 
     /**
      * Get the message vu.
      *
-     * @return bool Returns the message vu.
+     * @return bool|null Returns the message vu.
      */
-    public function getMessageVu() {
+    public function getMessageVu(): ?bool{
         return $this->messageVu;
     }
 
     /**
      * Get the millesime1.
      *
-     * @return int Returns the millesime1.
+     * @return int|null Returns the millesime1.
      */
-    public function getMillesime1() {
+    public function getMillesime1(): ?int{
         return $this->millesime1;
     }
 
     /**
      * Get the mode planning.
      *
-     * @return int Returns the mode planning.
+     * @return int|null Returns the mode planning.
      */
-    public function getModePlanning() {
+    public function getModePlanning(): ?int{
         return $this->modePlanning;
     }
 
     /**
      * Get the modele apercu.
      *
-     * @return string Returns the modele apercu.
+     * @return string|null Returns the modele apercu.
      */
-    public function getModeleApercu() {
+    public function getModeleApercu(): ?string{
         return $this->modeleApercu;
     }
 
     /**
      * Get the modele bon bleu.
      *
-     * @return string Returns the modele bon bleu.
+     * @return string|null Returns the modele bon bleu.
      */
-    public function getModeleBonBleu() {
+    public function getModeleBonBleu(): ?string{
         return $this->modeleBonBleu;
     }
 
     /**
      * Get the modele bulletin.
      *
-     * @return string Returns the modele bulletin.
+     * @return string|null Returns the modele bulletin.
      */
-    public function getModeleBulletin() {
+    public function getModeleBulletin(): ?string{
         return $this->modeleBulletin;
     }
 
     /**
      * Get the modele certif.
      *
-     * @return string Returns the modele certif.
+     * @return string|null Returns the modele certif.
      */
-    public function getModeleCertif() {
+    public function getModeleCertif(): ?string{
         return $this->modeleCertif;
     }
 
     /**
      * Get the modele certif trav.
      *
-     * @return string Returns the modele certif trav.
+     * @return string|null Returns the modele certif trav.
      */
-    public function getModeleCertifTrav() {
+    public function getModeleCertifTrav(): ?string{
         return $this->modeleCertifTrav;
     }
 
     /**
      * Get the modele cheque.
      *
-     * @return string Returns the modele cheque.
+     * @return string|null Returns the modele cheque.
      */
-    public function getModeleCheque() {
+    public function getModeleCheque(): ?string{
         return $this->modeleCheque;
     }
 
     /**
      * Get the mois cloture an.
      *
-     * @return string Returns the mois cloture an.
+     * @return string|null Returns the mois cloture an.
      */
-    public function getMoisClotureAn() {
+    public function getMoisClotureAn(): ?string{
         return $this->moisClotureAn;
     }
 
     /**
      * Get the n attest aem.
      *
-     * @return int Returns the n attest aem.
+     * @return int|null Returns the n attest aem.
      */
-    public function getNAttestAem() {
+    public function getNAttestAem(): ?int{
         return $this->nAttestAem;
     }
 
     /**
      * Get the n attest aemedi.
      *
-     * @return int Returns the n attest aemedi.
+     * @return int|null Returns the n attest aemedi.
      */
-    public function getNAttestAemedi() {
+    public function getNAttestAemedi(): ?int{
         return $this->nAttestAemedi;
     }
 
     /**
      * Get the n attest aemx.
      *
-     * @return int Returns the n attest aemx.
+     * @return int|null Returns the n attest aemx.
      */
-    public function getNAttestAemx() {
+    public function getNAttestAemx(): ?int{
         return $this->nAttestAemx;
     }
 
     /**
      * Get the n attest assedic.
      *
-     * @return int Returns the n attest assedic.
+     * @return int|null Returns the n attest assedic.
      */
-    public function getNAttestAssedic() {
+    public function getNAttestAssedic(): ?int{
         return $this->nAttestAssedic;
     }
 
     /**
      * Get the n attest extras.
      *
-     * @return int Returns the n attest extras.
+     * @return int|null Returns the n attest extras.
      */
-    public function getNAttestExtras() {
+    public function getNAttestExtras(): ?int{
         return $this->nAttestExtras;
     }
 
     /**
      * Get the n attest ijss.
      *
-     * @return int Returns the n attest ijss.
+     * @return int|null Returns the n attest ijss.
      */
-    public function getNAttestIjss() {
+    public function getNAttestIjss(): ?int{
         return $this->nAttestIjss;
     }
 
     /**
      * Get the n attest ijss at.
      *
-     * @return int Returns the n attest ijss at.
+     * @return int|null Returns the n attest ijss at.
      */
-    public function getNAttestIjssAt() {
+    public function getNAttestIjssAt(): ?int{
         return $this->nAttestIjssAt;
+    }
+
+    /**
+     * Get the nce conges spectacles.
+     *
+     * @return int|null Returns the nce conges spectacles.
+     */
+    public function getNceCongesSpectacles(): ?int{
+        return $this->nceCongesSpectacles;
     }
 
     /**
      * Get the n der document.
      *
-     * @return int Returns the n der document.
+     * @return int|null Returns the n der document.
      */
-    public function getNDerDocument() {
+    public function getNDerDocument(): ?int{
         return $this->nDerDocument;
     }
 
     /**
      * Get the nap euro.
      *
-     * @return bool Returns the nap euro.
+     * @return bool|null Returns the nap euro.
      */
-    public function getNapEuro() {
+    public function getNapEuro(): ?bool{
         return $this->napEuro;
     }
 
     /**
      * Get the nb exemplaire.
      *
-     * @return string Returns the nb exemplaire.
+     * @return string|null Returns the nb exemplaire.
      */
-    public function getNbExemplaire() {
+    public function getNbExemplaire(): ?string{
         return $this->nbExemplaire;
-    }
-
-    /**
-     * Get the nce conges spectacles.
-     *
-     * @return int Returns the nce conges spectacles.
-     */
-    public function getNceCongesSpectacles() {
-        return $this->nceCongesSpectacles;
     }
 
     /**
      * Get the nouv param retraite type.
      *
-     * @return bool Returns the nouv param retraite type.
+     * @return bool|null Returns the nouv param retraite type.
      */
-    public function getNouvParamRetraiteType() {
+    public function getNouvParamRetraiteType(): ?bool{
         return $this->nouvParamRetraiteType;
     }
 
     /**
      * Get the options calc abs.
      *
-     * @return bool Returns the options calc abs.
+     * @return bool|null Returns the options calc abs.
      */
-    public function getOptionsCalcAbs() {
+    public function getOptionsCalcAbs(): ?bool{
         return $this->optionsCalcAbs;
     }
 
     /**
      * Get the ordre libelle h sup.
      *
-     * @return string Returns the ordre libelle h sup.
+     * @return string|null Returns the ordre libelle h sup.
      */
-    public function getOrdreLibelleHSup() {
+    public function getOrdreLibelleHSup(): ?string{
         return $this->ordreLibelleHSup;
     }
 
     /**
      * Get the paie euro.
      *
-     * @return bool Returns the paie euro.
+     * @return bool|null Returns the paie euro.
      */
-    public function getPaieEuro() {
+    public function getPaieEuro(): ?bool{
         return $this->paieEuro;
     }
 
     /**
      * Get the part sal seule.
      *
-     * @return bool Returns the part sal seule.
+     * @return bool|null Returns the part sal seule.
      */
-    public function getPartSalSeule() {
+    public function getPartSalSeule(): ?bool{
         return $this->partSalSeule;
     }
 
     /**
      * Get the pas gestion indice bul.
      *
-     * @return bool Returns the pas gestion indice bul.
+     * @return bool|null Returns the pas gestion indice bul.
      */
-    public function getPasGestionIndiceBul() {
+    public function getPasGestionIndiceBul(): ?bool{
         return $this->pasGestionIndiceBul;
     }
 
     /**
      * Get the pas prendre iccp fillon.
      *
-     * @return bool Returns the pas prendre iccp fillon.
+     * @return bool|null Returns the pas prendre iccp fillon.
      */
-    public function getPasPrendreIccpFillon() {
+    public function getPasPrendreIccpFillon(): ?bool{
         return $this->pasPrendreIccpFillon;
     }
 
     /**
      * Get the pas sous tot s base.
      *
-     * @return bool Returns the pas sous tot s base.
+     * @return bool|null Returns the pas sous tot s base.
      */
-    public function getPasSousTotSBase() {
+    public function getPasSousTotSBase(): ?bool{
         return $this->pasSousTotSBase;
     }
 
     /**
      * Get the passage35 h fait.
      *
-     * @return bool Returns the passage35 h fait.
+     * @return bool|null Returns the passage35 h fait.
      */
-    public function getPassage35HFait() {
+    public function getPassage35HFait(): ?bool{
         return $this->passage35HFait;
     }
 
     /**
      * Get the path virement.
      *
-     * @return string Returns the path virement.
+     * @return string|null Returns the path virement.
      */
-    public function getPathVirement() {
+    public function getPathVirement(): ?string{
         return $this->pathVirement;
     }
 
@@ -3417,7 +3418,7 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the periode i paie.
      */
-    public function getPeriodeIPaie() {
+    public function getPeriodeIPaie(): ?DateTime{
         return $this->periodeIPaie;
     }
 
@@ -3426,647 +3427,647 @@ class ConstantesEntreprise {
      *
      * @return DateTime|null Returns the periode paie.
      */
-    public function getPeriodePaie() {
+    public function getPeriodePaie(): ?DateTime{
         return $this->periodePaie;
     }
 
     /**
      * Get the pj mail c li ducs edi.
      *
-     * @return bool Returns the pj mail c li ducs edi.
+     * @return bool|null Returns the pj mail c li ducs edi.
      */
-    public function getPjMailCLiDucsEdi() {
+    public function getPjMailCLiDucsEdi(): ?bool{
         return $this->pjMailCLiDucsEdi;
     }
 
     /**
      * Get the pj mail cli coupon paiement.
      *
-     * @return bool Returns the pj mail cli coupon paiement.
+     * @return bool|null Returns the pj mail cli coupon paiement.
      */
-    public function getPjMailCliCouponPaiement() {
+    public function getPjMailCliCouponPaiement(): ?bool{
         return $this->pjMailCliCouponPaiement;
     }
 
     /**
      * Get the plafond.
      *
-     * @return float Returns the plafond.
+     * @return float|null Returns the plafond.
      */
-    public function getPlafond() {
+    public function getPlafond(): ?float{
         return $this->plafond;
     }
 
     /**
      * Get the porta frais sante certif trav.
      *
-     * @return bool Returns the porta frais sante certif trav.
+     * @return bool|null Returns the porta frais sante certif trav.
      */
-    public function getPortaFraisSanteCertifTrav() {
+    public function getPortaFraisSanteCertifTrav(): ?bool{
         return $this->portaFraisSanteCertifTrav;
     }
 
     /**
      * Get the porta prevoyance oblig.
      *
-     * @return bool Returns the porta prevoyance oblig.
+     * @return bool|null Returns the porta prevoyance oblig.
      */
-    public function getPortaPrevoyanceOblig() {
+    public function getPortaPrevoyanceOblig(): ?bool{
         return $this->portaPrevoyanceOblig;
     }
 
     /**
      * Get the preparation tdp.
      *
-     * @return bool Returns the preparation tdp.
+     * @return bool|null Returns the preparation tdp.
      */
-    public function getPreparationTdp() {
+    public function getPreparationTdp(): ?bool{
         return $this->preparationTdp;
     }
 
     /**
      * Get the presence min.
      *
-     * @return string Returns the presence min.
+     * @return string|null Returns the presence min.
      */
-    public function getPresenceMin() {
+    public function getPresenceMin(): ?string{
         return $this->presenceMin;
     }
 
     /**
      * Get the prorata dif certif trav.
      *
-     * @return bool Returns the prorata dif certif trav.
+     * @return bool|null Returns the prorata dif certif trav.
      */
-    public function getProrataDifCertifTrav() {
+    public function getProrataDifCertifTrav(): ?bool{
         return $this->prorataDifCertifTrav;
-    }
-
-    /**
-     * Get the raz commentaire.
-     *
-     * @return string Returns the raz commentaire.
-     */
-    public function getRazCommentaire() {
-        return $this->razCommentaire;
-    }
-
-    /**
-     * Get the raz h sup.
-     *
-     * @return string Returns the raz h sup.
-     */
-    public function getRazHSup() {
-        return $this->razHSup;
     }
 
     /**
      * Get the rdlpascii.
      *
-     * @return bool Returns the rdlpascii.
+     * @return bool|null Returns the rdlpascii.
      */
-    public function getRdlpascii() {
+    public function getRdlpascii(): ?bool{
         return $this->rdlpascii;
     }
 
     /**
      * Get the rdlpemployes.
      *
-     * @return bool Returns the rdlpemployes.
+     * @return bool|null Returns the rdlpemployes.
      */
-    public function getRdlpemployes() {
+    public function getRdlpemployes(): ?bool{
         return $this->rdlpemployes;
+    }
+
+    /**
+     * Get the raz commentaire.
+     *
+     * @return string|null Returns the raz commentaire.
+     */
+    public function getRazCommentaire(): ?string{
+        return $this->razCommentaire;
+    }
+
+    /**
+     * Get the raz h sup.
+     *
+     * @return string|null Returns the raz h sup.
+     */
+    public function getRazHSup(): ?string{
+        return $this->razHSup;
     }
 
     /**
      * Get the ref remise.
      *
-     * @return int Returns the ref remise.
+     * @return int|null Returns the ref remise.
      */
-    public function getRefRemise() {
+    public function getRefRemise(): ?int{
         return $this->refRemise;
     }
 
     /**
      * Get the ref trans.
      *
-     * @return int Returns the ref trans.
+     * @return int|null Returns the ref trans.
      */
-    public function getRefTrans() {
+    public function getRefTrans(): ?int{
         return $this->refTrans;
     }
 
     /**
      * Get the reference interne virement.
      *
-     * @return string Returns the reference interne virement.
+     * @return string|null Returns the reference interne virement.
      */
-    public function getReferenceInterneVirement() {
+    public function getReferenceInterneVirement(): ?string{
         return $this->referenceInterneVirement;
     }
 
     /**
      * Get the regroup lib ed bul.
      *
-     * @return bool Returns the regroup lib ed bul.
+     * @return bool|null Returns the regroup lib ed bul.
      */
-    public function getRegroupLibEdBul() {
+    public function getRegroupLibEdBul(): ?bool{
         return $this->regroupLibEdBul;
     }
 
     /**
      * Get the report minimum.
      *
-     * @return int Returns the report minimum.
+     * @return int|null Returns the report minimum.
      */
-    public function getReportMinimum() {
+    public function getReportMinimum(): ?int{
         return $this->reportMinimum;
     }
 
     /**
      * Get the retraite97.
      *
-     * @return bool Returns the retraite97.
+     * @return bool|null Returns the retraite97.
      */
-    public function getRetraite97() {
+    public function getRetraite97(): ?bool{
         return $this->retraite97;
     }
 
     /**
      * Get the sais plan emp sem.
      *
-     * @return string Returns the sais plan emp sem.
+     * @return string|null Returns the sais plan emp sem.
      */
-    public function getSaisPlanEmpSem() {
+    public function getSaisPlanEmpSem(): ?string{
         return $this->saisPlanEmpSem;
     }
 
     /**
      * Get the saisie indice bul.
      *
-     * @return bool Returns the saisie indice bul.
+     * @return bool|null Returns the saisie indice bul.
      */
-    public function getSaisieIndiceBul() {
+    public function getSaisieIndiceBul(): ?bool{
         return $this->saisieIndiceBul;
     }
 
     /**
      * Get the saut page.
      *
-     * @return bool Returns the saut page.
+     * @return bool|null Returns the saut page.
      */
-    public function getSautPage() {
+    public function getSautPage(): ?bool{
         return $this->sautPage;
     }
 
     /**
      * Get the seuil.
      *
-     * @return float Returns the seuil.
+     * @return float|null Returns the seuil.
      */
-    public function getSeuil() {
+    public function getSeuil(): ?float{
         return $this->seuil;
     }
 
     /**
      * Get the seuil conting.
      *
-     * @return float Returns the seuil conting.
+     * @return float|null Returns the seuil conting.
      */
-    public function getSeuilConting() {
+    public function getSeuilConting(): ?float{
         return $this->seuilConting;
     }
 
     /**
      * Get the stc auto.
      *
-     * @return bool Returns the stc auto.
+     * @return bool|null Returns the stc auto.
      */
-    public function getStcAuto() {
+    public function getStcAuto(): ?bool{
         return $this->stcAuto;
     }
 
     /**
      * Get the tab bord tri etablissement.
      *
-     * @return bool Returns the tab bord tri etablissement.
+     * @return bool|null Returns the tab bord tri etablissement.
      */
-    public function getTabBordTriEtablissement() {
+    public function getTabBordTriEtablissement(): ?bool{
         return $this->tabBordTriEtablissement;
     }
 
     /**
      * Get the tab bord tri service.
      *
-     * @return bool Returns the tab bord tri service.
+     * @return bool|null Returns the tab bord tri service.
      */
-    public function getTabBordTriService() {
+    public function getTabBordTriService(): ?bool{
         return $this->tabBordTriService;
     }
 
     /**
      * Get the tableau charge.
      *
-     * @return string Returns the tableau charge.
+     * @return string|null Returns the tableau charge.
      */
-    public function getTableauCharge() {
+    public function getTableauCharge(): ?string{
         return $this->tableauCharge;
     }
 
     /**
      * Get the tds annee.
      *
-     * @return int Returns the tds annee.
+     * @return int|null Returns the tds annee.
      */
-    public function getTdsAnnee() {
+    public function getTdsAnnee(): ?int{
         return $this->tdsAnnee;
     }
 
     /**
      * Get the tds euro.
      *
-     * @return bool Returns the tds euro.
+     * @return bool|null Returns the tds euro.
      */
-    public function getTdsEuro() {
+    public function getTdsEuro(): ?bool{
         return $this->tdsEuro;
     }
 
     /**
      * Get the tot gene isole.
      *
-     * @return string Returns the tot gene isole.
+     * @return string|null Returns the tot gene isole.
      */
-    public function getTotGeneIsole() {
+    public function getTotGeneIsole(): ?string{
         return $this->totGeneIsole;
     }
 
     /**
      * Get the tot service isole.
      *
-     * @return string Returns the tot service isole.
+     * @return string|null Returns the tot service isole.
      */
-    public function getTotServiceIsole() {
+    public function getTotServiceIsole(): ?string{
         return $this->totServiceIsole;
     }
 
     /**
      * Get the total etab isole.
      *
-     * @return string Returns the total etab isole.
+     * @return string|null Returns the total etab isole.
      */
-    public function getTotalEtabIsole() {
+    public function getTotalEtabIsole(): ?string{
         return $this->totalEtabIsole;
     }
 
     /**
      * Get the trans rupture.
      *
-     * @return string Returns the trans rupture.
+     * @return string|null Returns the trans rupture.
      */
-    public function getTransRupture() {
+    public function getTransRupture(): ?string{
         return $this->transRupture;
     }
 
     /**
      * Get the trans tri etablissement.
      *
-     * @return string Returns the trans tri etablissement.
+     * @return string|null Returns the trans tri etablissement.
      */
-    public function getTransTriEtablissement() {
+    public function getTransTriEtablissement(): ?string{
         return $this->transTriEtablissement;
     }
 
     /**
      * Get the transfert tds emp.
      *
-     * @return bool Returns the transfert tds emp.
+     * @return bool|null Returns the transfert tds emp.
      */
-    public function getTransfertTdsEmp() {
+    public function getTransfertTdsEmp(): ?bool{
         return $this->transfertTdsEmp;
     }
 
     /**
      * Get the tri employe.
      *
-     * @return string Returns the tri employe.
+     * @return string|null Returns the tri employe.
      */
-    public function getTriEmploye() {
+    public function getTriEmploye(): ?string{
         return $this->triEmploye;
     }
 
     /**
      * Get the tx sal decote.
      *
-     * @return float Returns the tx sal decote.
+     * @return float|null Returns the tx sal decote.
      */
-    public function getTxSalDecote() {
+    public function getTxSalDecote(): ?float{
         return $this->txSalDecote;
     }
 
     /**
      * Get the type abs sans solde.
      *
-     * @return string Returns the type abs sans solde.
+     * @return string|null Returns the type abs sans solde.
      */
-    public function getTypeAbsSansSolde() {
+    public function getTypeAbsSansSolde(): ?string{
         return $this->typeAbsSansSolde;
     }
 
     /**
      * Get the type agrement aem.
      *
-     * @return string Returns the type agrement aem.
+     * @return string|null Returns the type agrement aem.
      */
-    public function getTypeAgrementAem() {
+    public function getTypeAgrementAem(): ?string{
         return $this->typeAgrementAem;
     }
 
     /**
      * Get the type bordereau prepa.
      *
-     * @return string Returns the type bordereau prepa.
+     * @return string|null Returns the type bordereau prepa.
      */
-    public function getTypeBordereauPrepa() {
+    public function getTypeBordereauPrepa(): ?string{
         return $this->typeBordereauPrepa;
     }
 
     /**
      * Get the type bulletin.
      *
-     * @return string Returns the type bulletin.
+     * @return string|null Returns the type bulletin.
      */
-    public function getTypeBulletin() {
+    public function getTypeBulletin(): ?string{
         return $this->typeBulletin;
-    }
-
-    /**
-     * Get the type dossier.
-     *
-     * @return string Returns the type dossier.
-     */
-    public function getTypeDossier() {
-        return $this->typeDossier;
     }
 
     /**
      * Get the type due.
      *
-     * @return string Returns the type due.
+     * @return string|null Returns the type due.
      */
-    public function getTypeDue() {
+    public function getTypeDue(): ?string{
         return $this->typeDue;
+    }
+
+    /**
+     * Get the type dossier.
+     *
+     * @return string|null Returns the type dossier.
+     */
+    public function getTypeDossier(): ?string{
+        return $this->typeDossier;
     }
 
     /**
      * Get the type effectif.
      *
-     * @return string Returns the type effectif.
+     * @return string|null Returns the type effectif.
      */
-    public function getTypeEffectif() {
+    public function getTypeEffectif(): ?string{
         return $this->typeEffectif;
     }
 
     /**
      * Get the type fich bilat.
      *
-     * @return string Returns the type fich bilat.
+     * @return string|null Returns the type fich bilat.
      */
-    public function getTypeFichBilat() {
+    public function getTypeFichBilat(): ?string{
         return $this->typeFichBilat;
     }
 
     /**
      * Get the type gestion bal.
      *
-     * @return string Returns the type gestion bal.
+     * @return string|null Returns the type gestion bal.
      */
-    public function getTypeGestionBal() {
+    public function getTypeGestionBal(): ?string{
         return $this->typeGestionBal;
     }
 
     /**
      * Get the type modele.
      *
-     * @return string Returns the type modele.
+     * @return string|null Returns the type modele.
      */
-    public function getTypeModele() {
+    public function getTypeModele(): ?string{
         return $this->typeModele;
     }
 
     /**
      * Get the type prep dadsu.
      *
-     * @return string Returns the type prep dadsu.
+     * @return string|null Returns the type prep dadsu.
      */
-    public function getTypePrepDadsu() {
+    public function getTypePrepDadsu(): ?string{
         return $this->typePrepDadsu;
     }
 
     /**
      * Get the type saisie abs.
      *
-     * @return string Returns the type saisie abs.
+     * @return string|null Returns the type saisie abs.
      */
-    public function getTypeSaisieAbs() {
+    public function getTypeSaisieAbs(): ?string{
         return $this->typeSaisieAbs;
     }
 
     /**
      * Get the type saisie absence.
      *
-     * @return string Returns the type saisie absence.
+     * @return string|null Returns the type saisie absence.
      */
-    public function getTypeSaisieAbsence() {
+    public function getTypeSaisieAbsence(): ?string{
         return $this->typeSaisieAbsence;
     }
 
     /**
      * Get the type stc.
      *
-     * @return string Returns the type stc.
+     * @return string|null Returns the type stc.
      */
-    public function getTypeStc() {
+    public function getTypeStc(): ?string{
         return $this->typeStc;
     }
 
     /**
      * Get the type taux intemperie.
      *
-     * @return string Returns the type taux intemperie.
+     * @return string|null Returns the type taux intemperie.
      */
-    public function getTypeTauxIntemperie() {
+    public function getTypeTauxIntemperie(): ?string{
         return $this->typeTauxIntemperie;
     }
 
     /**
      * Get the type tri.
      *
-     * @return string Returns the type tri.
+     * @return string|null Returns the type tri.
      */
-    public function getTypeTri() {
+    public function getTypeTri(): ?string{
         return $this->typeTri;
     }
 
     /**
      * Get the type virement.
      *
-     * @return string Returns the type virement.
+     * @return string|null Returns the type virement.
      */
-    public function getTypeVirement() {
+    public function getTypeVirement(): ?string{
         return $this->typeVirement;
     }
 
     /**
      * Get the type visu col saisie bul.
      *
-     * @return string Returns the type visu col saisie bul.
+     * @return string|null Returns the type visu col saisie bul.
      */
-    public function getTypeVisuColSaisieBul() {
+    public function getTypeVisuColSaisieBul(): ?string{
         return $this->typeVisuColSaisieBul;
     }
 
     /**
      * Get the utilise pdp quadra.
      *
-     * @return bool Returns the utilise pdp quadra.
+     * @return bool|null Returns the utilise pdp quadra.
      */
-    public function getUtilisePdpQuadra() {
+    public function getUtilisePdpQuadra(): ?bool{
         return $this->utilisePdpQuadra;
     }
 
     /**
      * Get the utilise pdp quadra2.
      *
-     * @return bool Returns the utilise pdp quadra2.
+     * @return bool|null Returns the utilise pdp quadra2.
      */
-    public function getUtilisePdpQuadra2() {
+    public function getUtilisePdpQuadra2(): ?bool{
         return $this->utilisePdpQuadra2;
     }
 
     /**
      * Get the val cp bulletin.
      *
-     * @return bool Returns the val cp bulletin.
+     * @return bool|null Returns the val cp bulletin.
      */
-    public function getValCpBulletin() {
+    public function getValCpBulletin(): ?bool{
         return $this->valCpBulletin;
     }
 
     /**
      * Get the val filtre liste emp.
      *
-     * @return int Returns the val filtre liste emp.
+     * @return int|null Returns the val filtre liste emp.
      */
-    public function getValFiltreListeEmp() {
+    public function getValFiltreListeEmp(): ?int{
         return $this->valFiltreListeEmp;
     }
 
     /**
      * Get the version controle dadsu.
      *
-     * @return int Returns the version controle dadsu.
+     * @return int|null Returns the version controle dadsu.
      */
-    public function getVersionControleDadsu() {
+    public function getVersionControleDadsu(): ?int{
         return $this->versionControleDadsu;
     }
 
     /**
      * Get the vir code etab.
      *
-     * @return string Returns the vir code etab.
+     * @return string|null Returns the vir code etab.
      */
-    public function getVirCodeEtab() {
+    public function getVirCodeEtab(): ?string{
         return $this->virCodeEtab;
     }
 
     /**
      * Get the vir collectivite.
      *
-     * @return string Returns the vir collectivite.
+     * @return string|null Returns the vir collectivite.
      */
-    public function getVirCollectivite() {
+    public function getVirCollectivite(): ?string{
         return $this->virCollectivite;
     }
 
     /**
      * Get the vir comptable centre.
      *
-     * @return string Returns the vir comptable centre.
+     * @return string|null Returns the vir comptable centre.
      */
-    public function getVirComptableCentre() {
+    public function getVirComptableCentre(): ?string{
         return $this->virComptableCentre;
     }
 
     /**
      * Get the vir comptable sub.
      *
-     * @return string Returns the vir comptable sub.
+     * @return string|null Returns the vir comptable sub.
      */
-    public function getVirComptableSub() {
+    public function getVirComptableSub(): ?string{
         return $this->virComptableSub;
     }
 
     /**
      * Get the vir fonction publique.
      *
-     * @return bool Returns the vir fonction publique.
+     * @return bool|null Returns the vir fonction publique.
      */
-    public function getVirFonctionPublique() {
+    public function getVirFonctionPublique(): ?bool{
         return $this->virFonctionPublique;
     }
 
     /**
      * Get the vir seuil.
      *
-     * @return float Returns the vir seuil.
+     * @return float|null Returns the vir seuil.
      */
-    public function getVirSeuil() {
+    public function getVirSeuil(): ?float{
         return $this->virSeuil;
     }
 
     /**
      * Get the vir type etab.
      *
-     * @return string Returns the vir type etab.
+     * @return string|null Returns the vir type etab.
      */
-    public function getVirTypeEtab() {
+    public function getVirTypeEtab(): ?string{
         return $this->virTypeEtab;
     }
 
     /**
      * Get the virement cr lf.
      *
-     * @return bool Returns the virement cr lf.
+     * @return bool|null Returns the virement cr lf.
      */
-    public function getVirementCrLf() {
+    public function getVirementCrLf(): ?bool{
         return $this->virementCrLf;
     }
 
     /**
      * Get the virements euro.
      *
-     * @return string Returns the virements euro.
+     * @return string|null Returns the virements euro.
      */
-    public function getVirementsEuro() {
+    public function getVirementsEuro(): ?string{
         return $this->virementsEuro;
     }
 
     /**
      * Get the web prioritaire.
      *
-     * @return bool Returns the web prioritaire.
+     * @return bool|null Returns the web prioritaire.
      */
-    public function getWebPrioritaire() {
+    public function getWebPrioritaire(): ?bool{
         return $this->webPrioritaire;
     }
 
     /**
      * Set the absence extra.
      *
-     * @param string $absenceExtra The absence extra.
+     * @param string|null $absenceExtra The absence extra.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setAbsenceExtra($absenceExtra) {
+    public function setAbsenceExtra(?string $absenceExtra): ConstantesEntreprise {
         $this->absenceExtra = $absenceExtra;
         return $this;
     }
@@ -4074,10 +4075,10 @@ class ConstantesEntreprise {
     /**
      * Set the activer pointage qws.
      *
-     * @param bool $activerPointageQws The activer pointage qws.
+     * @param bool|null $activerPointageQws The activer pointage qws.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setActiverPointageQws($activerPointageQws) {
+    public function setActiverPointageQws(?bool $activerPointageQws): ConstantesEntreprise {
         $this->activerPointageQws = $activerPointageQws;
         return $this;
     }
@@ -4085,10 +4086,10 @@ class ConstantesEntreprise {
     /**
      * Set the adhesion tds norme.
      *
-     * @param string $adhesionTdsNorme The adhesion tds norme.
+     * @param string|null $adhesionTdsNorme The adhesion tds norme.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setAdhesionTdsNorme($adhesionTdsNorme) {
+    public function setAdhesionTdsNorme(?string $adhesionTdsNorme): ConstantesEntreprise {
         $this->adhesionTdsNorme = $adhesionTdsNorme;
         return $this;
     }
@@ -4096,10 +4097,10 @@ class ConstantesEntreprise {
     /**
      * Set the affaire.
      *
-     * @param string $affaire The affaire.
+     * @param string|null $affaire The affaire.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setAffaire($affaire) {
+    public function setAffaire(?string $affaire): ConstantesEntreprise {
         $this->affaire = $affaire;
         return $this;
     }
@@ -4107,10 +4108,10 @@ class ConstantesEntreprise {
     /**
      * Set the affectation taux27.
      *
-     * @param bool $affectationTaux27 The affectation taux27.
+     * @param bool|null $affectationTaux27 The affectation taux27.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setAffectationTaux27($affectationTaux27) {
+    public function setAffectationTaux27(?bool $affectationTaux27): ConstantesEntreprise {
         $this->affectationTaux27 = $affectationTaux27;
         return $this;
     }
@@ -4118,10 +4119,10 @@ class ConstantesEntreprise {
     /**
      * Set the analytique employe.
      *
-     * @param bool $analytiqueEmploye The analytique employe.
+     * @param bool|null $analytiqueEmploye The analytique employe.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setAnalytiqueEmploye($analytiqueEmploye) {
+    public function setAnalytiqueEmploye(?bool $analytiqueEmploye): ConstantesEntreprise {
         $this->analytiqueEmploye = $analytiqueEmploye;
         return $this;
     }
@@ -4129,10 +4130,10 @@ class ConstantesEntreprise {
     /**
      * Set the arbitrage auto.
      *
-     * @param string $arbitrageAuto The arbitrage auto.
+     * @param string|null $arbitrageAuto The arbitrage auto.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setArbitrageAuto($arbitrageAuto) {
+    public function setArbitrageAuto(?string $arbitrageAuto): ConstantesEntreprise {
         $this->arbitrageAuto = $arbitrageAuto;
         return $this;
     }
@@ -4140,10 +4141,10 @@ class ConstantesEntreprise {
     /**
      * Set the archivage actif.
      *
-     * @param bool $archivageActif The archivage actif.
+     * @param bool|null $archivageActif The archivage actif.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setArchivageActif($archivageActif) {
+    public function setArchivageActif(?bool $archivageActif): ConstantesEntreprise {
         $this->archivageActif = $archivageActif;
         return $this;
     }
@@ -4151,10 +4152,10 @@ class ConstantesEntreprise {
     /**
      * Set the attest auto.
      *
-     * @param bool $attestAuto The attest auto.
+     * @param bool|null $attestAuto The attest auto.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setAttestAuto($attestAuto) {
+    public function setAttestAuto(?bool $attestAuto): ConstantesEntreprise {
         $this->attestAuto = $attestAuto;
         return $this;
     }
@@ -4162,10 +4163,10 @@ class ConstantesEntreprise {
     /**
      * Set the beneficie cice.
      *
-     * @param bool $beneficieCice The beneficie cice.
+     * @param bool|null $beneficieCice The beneficie cice.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setBeneficieCice($beneficieCice) {
+    public function setBeneficieCice(?bool $beneficieCice): ConstantesEntreprise {
         $this->beneficieCice = $beneficieCice;
         return $this;
     }
@@ -4173,21 +4174,32 @@ class ConstantesEntreprise {
     /**
      * Set the brut al sal min conv.
      *
-     * @param bool $brutAlSalMinConv The brut al sal min conv.
+     * @param bool|null $brutAlSalMinConv The brut al sal min conv.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setBrutAlSalMinConv($brutAlSalMinConv) {
+    public function setBrutAlSalMinConv(?bool $brutAlSalMinConv): ConstantesEntreprise {
         $this->brutAlSalMinConv = $brutAlSalMinConv;
+        return $this;
+    }
+
+    /**
+     * Set the cice pj mail cli ducs edi.
+     *
+     * @param bool|null $cicePjMailCliDucsEdi The cice pj mail cli ducs edi.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setCicePjMailCliDucsEdi(?bool $cicePjMailCliDucsEdi): ConstantesEntreprise {
+        $this->cicePjMailCliDucsEdi = $cicePjMailCliDucsEdi;
         return $this;
     }
 
     /**
      * Set the calcul auto h theorique.
      *
-     * @param bool $calculAutoHTheorique The calcul auto h theorique.
+     * @param bool|null $calculAutoHTheorique The calcul auto h theorique.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCalculAutoHTheorique($calculAutoHTheorique) {
+    public function setCalculAutoHTheorique(?bool $calculAutoHTheorique): ConstantesEntreprise {
         $this->calculAutoHTheorique = $calculAutoHTheorique;
         return $this;
     }
@@ -4195,10 +4207,10 @@ class ConstantesEntreprise {
     /**
      * Set the certif auto.
      *
-     * @param bool $certifAuto The certif auto.
+     * @param bool|null $certifAuto The certif auto.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCertifAuto($certifAuto) {
+    public function setCertifAuto(?bool $certifAuto): ConstantesEntreprise {
         $this->certifAuto = $certifAuto;
         return $this;
     }
@@ -4206,10 +4218,10 @@ class ConstantesEntreprise {
     /**
      * Set the cheques euro.
      *
-     * @param string $chequesEuro The cheques euro.
+     * @param string|null $chequesEuro The cheques euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setChequesEuro($chequesEuro) {
+    public function setChequesEuro(?string $chequesEuro): ConstantesEntreprise {
         $this->chequesEuro = $chequesEuro;
         return $this;
     }
@@ -4217,32 +4229,21 @@ class ConstantesEntreprise {
     /**
      * Set the choix edition cheque tc.
      *
-     * @param bool $choixEditionChequeTc The choix edition cheque tc.
+     * @param bool|null $choixEditionChequeTc The choix edition cheque tc.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setChoixEditionChequeTc($choixEditionChequeTc) {
+    public function setChoixEditionChequeTc(?bool $choixEditionChequeTc): ConstantesEntreprise {
         $this->choixEditionChequeTc = $choixEditionChequeTc;
-        return $this;
-    }
-
-    /**
-     * Set the cice pj mail cli ducs edi.
-     *
-     * @param bool $cicePjMailCliDucsEdi The cice pj mail cli ducs edi.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setCicePjMailCliDucsEdi($cicePjMailCliDucsEdi) {
-        $this->cicePjMailCliDucsEdi = $cicePjMailCliDucsEdi;
         return $this;
     }
 
     /**
      * Set the cle acces1.
      *
-     * @param string $cleAcces1 The cle acces1.
+     * @param string|null $cleAcces1 The cle acces1.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCleAcces1($cleAcces1) {
+    public function setCleAcces1(?string $cleAcces1): ConstantesEntreprise {
         $this->cleAcces1 = $cleAcces1;
         return $this;
     }
@@ -4250,10 +4251,10 @@ class ConstantesEntreprise {
     /**
      * Set the cle portable.
      *
-     * @param string $clePortable The cle portable.
+     * @param string|null $clePortable The cle portable.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setClePortable($clePortable) {
+    public function setClePortable(?string $clePortable): ConstantesEntreprise {
         $this->clePortable = $clePortable;
         return $this;
     }
@@ -4261,10 +4262,10 @@ class ConstantesEntreprise {
     /**
      * Set the code org btpdadsu.
      *
-     * @param string $codeOrgBtpdadsu The code org btpdadsu.
+     * @param string|null $codeOrgBtpdadsu The code org btpdadsu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCodeOrgBtpdadsu($codeOrgBtpdadsu) {
+    public function setCodeOrgBtpdadsu(?string $codeOrgBtpdadsu): ConstantesEntreprise {
         $this->codeOrgBtpdadsu = $codeOrgBtpdadsu;
         return $this;
     }
@@ -4272,10 +4273,10 @@ class ConstantesEntreprise {
     /**
      * Set the collaborateuri paie.
      *
-     * @param string $collaborateuriPaie The collaborateuri paie.
+     * @param string|null $collaborateuriPaie The collaborateuri paie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCollaborateuriPaie($collaborateuriPaie) {
+    public function setCollaborateuriPaie(?string $collaborateuriPaie): ConstantesEntreprise {
         $this->collaborateuriPaie = $collaborateuriPaie;
         return $this;
     }
@@ -4283,10 +4284,10 @@ class ConstantesEntreprise {
     /**
      * Set the compression.
      *
-     * @param bool $compression The compression.
+     * @param bool|null $compression The compression.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCompression($compression) {
+    public function setCompression(?bool $compression): ConstantesEntreprise {
         $this->compression = $compression;
         return $this;
     }
@@ -4294,10 +4295,10 @@ class ConstantesEntreprise {
     /**
      * Set the compte gain euro.
      *
-     * @param string $compteGainEuro The compte gain euro.
+     * @param string|null $compteGainEuro The compte gain euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCompteGainEuro($compteGainEuro) {
+    public function setCompteGainEuro(?string $compteGainEuro): ConstantesEntreprise {
         $this->compteGainEuro = $compteGainEuro;
         return $this;
     }
@@ -4305,10 +4306,10 @@ class ConstantesEntreprise {
     /**
      * Set the compte perte euro.
      *
-     * @param string $comptePerteEuro The compte perte euro.
+     * @param string|null $comptePerteEuro The compte perte euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setComptePerteEuro($comptePerteEuro) {
+    public function setComptePerteEuro(?string $comptePerteEuro): ConstantesEntreprise {
         $this->comptePerteEuro = $comptePerteEuro;
         return $this;
     }
@@ -4316,10 +4317,10 @@ class ConstantesEntreprise {
     /**
      * Set the cpta elit euros.
      *
-     * @param bool $cptaElitEuros The cpta elit euros.
+     * @param bool|null $cptaElitEuros The cpta elit euros.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCptaElitEuros($cptaElitEuros) {
+    public function setCptaElitEuros(?bool $cptaElitEuros): ConstantesEntreprise {
         $this->cptaElitEuros = $cptaElitEuros;
         return $this;
     }
@@ -4327,10 +4328,10 @@ class ConstantesEntreprise {
     /**
      * Set the ctrl auto cp.
      *
-     * @param bool $ctrlAutoCp The ctrl auto cp.
+     * @param bool|null $ctrlAutoCp The ctrl auto cp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCtrlAutoCp($ctrlAutoCp) {
+    public function setCtrlAutoCp(?bool $ctrlAutoCp): ConstantesEntreprise {
         $this->ctrlAutoCp = $ctrlAutoCp;
         return $this;
     }
@@ -4338,10 +4339,10 @@ class ConstantesEntreprise {
     /**
      * Set the ctrl auto cp anticip.
      *
-     * @param bool $ctrlAutoCpAnticip The ctrl auto cp anticip.
+     * @param bool|null $ctrlAutoCpAnticip The ctrl auto cp anticip.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCtrlAutoCpAnticip($ctrlAutoCpAnticip) {
+    public function setCtrlAutoCpAnticip(?bool $ctrlAutoCpAnticip): ConstantesEntreprise {
         $this->ctrlAutoCpAnticip = $ctrlAutoCpAnticip;
         return $this;
     }
@@ -4349,10 +4350,10 @@ class ConstantesEntreprise {
     /**
      * Set the ctrl taux base.
      *
-     * @param bool $ctrlTauxBase The ctrl taux base.
+     * @param bool|null $ctrlTauxBase The ctrl taux base.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setCtrlTauxBase($ctrlTauxBase) {
+    public function setCtrlTauxBase(?bool $ctrlTauxBase): ConstantesEntreprise {
         $this->ctrlTauxBase = $ctrlTauxBase;
         return $this;
     }
@@ -4360,10 +4361,10 @@ class ConstantesEntreprise {
     /**
      * Set the dads dernier choix gestion aen.
      *
-     * @param string $dadsDernierChoixGestionAen The dads dernier choix gestion aen.
+     * @param string|null $dadsDernierChoixGestionAen The dads dernier choix gestion aen.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDadsDernierChoixGestionAen($dadsDernierChoixGestionAen) {
+    public function setDadsDernierChoixGestionAen(?string $dadsDernierChoixGestionAen): ConstantesEntreprise {
         $this->dadsDernierChoixGestionAen = $dadsDernierChoixGestionAen;
         return $this;
     }
@@ -4371,10 +4372,10 @@ class ConstantesEntreprise {
     /**
      * Set the dads type gestion aen.
      *
-     * @param string $dadsTypeGestionAen The dads type gestion aen.
+     * @param string|null $dadsTypeGestionAen The dads type gestion aen.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDadsTypeGestionAen($dadsTypeGestionAen) {
+    public function setDadsTypeGestionAen(?string $dadsTypeGestionAen): ConstantesEntreprise {
         $this->dadsTypeGestionAen = $dadsTypeGestionAen;
         return $this;
     }
@@ -4382,10 +4383,10 @@ class ConstantesEntreprise {
     /**
      * Set the dadsu num agr ansp.
      *
-     * @param string $dadsuNumAgrAnsp The dadsu num agr ansp.
+     * @param string|null $dadsuNumAgrAnsp The dadsu num agr ansp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDadsuNumAgrAnsp($dadsuNumAgrAnsp) {
+    public function setDadsuNumAgrAnsp(?string $dadsuNumAgrAnsp): ConstantesEntreprise {
         $this->dadsuNumAgrAnsp = $dadsuNumAgrAnsp;
         return $this;
     }
@@ -4393,10 +4394,10 @@ class ConstantesEntreprise {
     /**
      * Set the dadsu ref dec.
      *
-     * @param string $dadsuRefDec The dadsu ref dec.
+     * @param string|null $dadsuRefDec The dadsu ref dec.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDadsuRefDec($dadsuRefDec) {
+    public function setDadsuRefDec(?string $dadsuRefDec): ConstantesEntreprise {
         $this->dadsuRefDec = $dadsuRefDec;
         return $this;
     }
@@ -4404,10 +4405,10 @@ class ConstantesEntreprise {
     /**
      * Set the das type decl.
      *
-     * @param string $dasTypeDecl The das type decl.
+     * @param string|null $dasTypeDecl The das type decl.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDasTypeDecl($dasTypeDecl) {
+    public function setDasTypeDecl(?string $dasTypeDecl): ConstantesEntreprise {
         $this->dasTypeDecl = $dasTypeDecl;
         return $this;
     }
@@ -4415,10 +4416,10 @@ class ConstantesEntreprise {
     /**
      * Set the das type decl detail.
      *
-     * @param string $dasTypeDeclDetail The das type decl detail.
+     * @param string|null $dasTypeDeclDetail The das type decl detail.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDasTypeDeclDetail($dasTypeDeclDetail) {
+    public function setDasTypeDeclDetail(?string $dasTypeDeclDetail): ConstantesEntreprise {
         $this->dasTypeDeclDetail = $dasTypeDeclDetail;
         return $this;
     }
@@ -4429,7 +4430,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $dateDp The date dp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDateDp(DateTime $dateDp = null) {
+    public function setDateDp(?DateTime $dateDp): ConstantesEntreprise {
         $this->dateDp = $dateDp;
         return $this;
     }
@@ -4440,7 +4441,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $debutPeriodeDas The debut periode das.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDebutPeriodeDas(DateTime $debutPeriodeDas = null) {
+    public function setDebutPeriodeDas(?DateTime $debutPeriodeDas): ConstantesEntreprise {
         $this->debutPeriodeDas = $debutPeriodeDas;
         return $this;
     }
@@ -4451,7 +4452,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $debutPeriodeHistoDas The debut periode histo das.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDebutPeriodeHistoDas(DateTime $debutPeriodeHistoDas = null) {
+    public function setDebutPeriodeHistoDas(?DateTime $debutPeriodeHistoDas): ConstantesEntreprise {
         $this->debutPeriodeHistoDas = $debutPeriodeHistoDas;
         return $this;
     }
@@ -4459,10 +4460,10 @@ class ConstantesEntreprise {
     /**
      * Set the deduction h sup fillon.
      *
-     * @param bool $deductionHSupFillon The deduction h sup fillon.
+     * @param bool|null $deductionHSupFillon The deduction h sup fillon.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDeductionHSupFillon($deductionHSupFillon) {
+    public function setDeductionHSupFillon(?bool $deductionHSupFillon): ConstantesEntreprise {
         $this->deductionHSupFillon = $deductionHSupFillon;
         return $this;
     }
@@ -4470,10 +4471,10 @@ class ConstantesEntreprise {
     /**
      * Set the deduire h sup non structurelle.
      *
-     * @param bool $deduireHSupNonStructurelle The deduire h sup non structurelle.
+     * @param bool|null $deduireHSupNonStructurelle The deduire h sup non structurelle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDeduireHSupNonStructurelle($deduireHSupNonStructurelle) {
+    public function setDeduireHSupNonStructurelle(?bool $deduireHSupNonStructurelle): ConstantesEntreprise {
         $this->deduireHSupNonStructurelle = $deduireHSupNonStructurelle;
         return $this;
     }
@@ -4481,10 +4482,10 @@ class ConstantesEntreprise {
     /**
      * Set the dernier indice bul.
      *
-     * @param int $dernierIndiceBul The dernier indice bul.
+     * @param int|null $dernierIndiceBul The dernier indice bul.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDernierIndiceBul($dernierIndiceBul) {
+    public function setDernierIndiceBul(?int $dernierIndiceBul): ConstantesEntreprise {
         $this->dernierIndiceBul = $dernierIndiceBul;
         return $this;
     }
@@ -4492,10 +4493,10 @@ class ConstantesEntreprise {
     /**
      * Set the dest point irc.
      *
-     * @param string $destPointIrc The dest point irc.
+     * @param string|null $destPointIrc The dest point irc.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDestPointIrc($destPointIrc) {
+    public function setDestPointIrc(?string $destPointIrc): ConstantesEntreprise {
         $this->destPointIrc = $destPointIrc;
         return $this;
     }
@@ -4503,10 +4504,10 @@ class ConstantesEntreprise {
     /**
      * Set the dest tri point.
      *
-     * @param string $destTriPoint The dest tri point.
+     * @param string|null $destTriPoint The dest tri point.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDestTriPoint($destTriPoint) {
+    public function setDestTriPoint(?string $destTriPoint): ConstantesEntreprise {
         $this->destTriPoint = $destTriPoint;
         return $this;
     }
@@ -4514,10 +4515,10 @@ class ConstantesEntreprise {
     /**
      * Set the dossier proprete.
      *
-     * @param string $dossierProprete The dossier proprete.
+     * @param string|null $dossierProprete The dossier proprete.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDossierProprete($dossierProprete) {
+    public function setDossierProprete(?string $dossierProprete): ConstantesEntreprise {
         $this->dossierProprete = $dossierProprete;
         return $this;
     }
@@ -4525,10 +4526,10 @@ class ConstantesEntreprise {
     /**
      * Set the dossier sur web.
      *
-     * @param bool $dossierSurWeb The dossier sur web.
+     * @param bool|null $dossierSurWeb The dossier sur web.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDossierSurWeb($dossierSurWeb) {
+    public function setDossierSurWeb(?bool $dossierSurWeb): ConstantesEntreprise {
         $this->dossierSurWeb = $dossierSurWeb;
         return $this;
     }
@@ -4536,10 +4537,10 @@ class ConstantesEntreprise {
     /**
      * Set the ds code collab.
      *
-     * @param string $dsCodeCollab The ds code collab.
+     * @param string|null $dsCodeCollab The ds code collab.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDsCodeCollab($dsCodeCollab) {
+    public function setDsCodeCollab(?string $dsCodeCollab): ConstantesEntreprise {
         $this->dsCodeCollab = $dsCodeCollab;
         return $this;
     }
@@ -4550,7 +4551,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $dsDateRetour The ds date retour.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDsDateRetour(DateTime $dsDateRetour = null) {
+    public function setDsDateRetour(?DateTime $dsDateRetour): ConstantesEntreprise {
         $this->dsDateRetour = $dsDateRetour;
         return $this;
     }
@@ -4561,7 +4562,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $dsDateSortie The ds date sortie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDsDateSortie(DateTime $dsDateSortie = null) {
+    public function setDsDateSortie(?DateTime $dsDateSortie): ConstantesEntreprise {
         $this->dsDateSortie = $dsDateSortie;
         return $this;
     }
@@ -4569,10 +4570,10 @@ class ConstantesEntreprise {
     /**
      * Set the ds fusion.
      *
-     * @param string $dsFusion The ds fusion.
+     * @param string|null $dsFusion The ds fusion.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDsFusion($dsFusion) {
+    public function setDsFusion(?string $dsFusion): ConstantesEntreprise {
         $this->dsFusion = $dsFusion;
         return $this;
     }
@@ -4580,10 +4581,10 @@ class ConstantesEntreprise {
     /**
      * Set the ds type edition.
      *
-     * @param string $dsTypeEdition The ds type edition.
+     * @param string|null $dsTypeEdition The ds type edition.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDsTypeEdition($dsTypeEdition) {
+    public function setDsTypeEdition(?string $dsTypeEdition): ConstantesEntreprise {
         $this->dsTypeEdition = $dsTypeEdition;
         return $this;
     }
@@ -4594,7 +4595,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $dtDebutPeriode The dt debut periode.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDtDebutPeriode(DateTime $dtDebutPeriode = null) {
+    public function setDtDebutPeriode(?DateTime $dtDebutPeriode): ConstantesEntreprise {
         $this->dtDebutPeriode = $dtDebutPeriode;
         return $this;
     }
@@ -4605,7 +4606,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $dtFinPeriode The dt fin periode.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDtFinPeriode(DateTime $dtFinPeriode = null) {
+    public function setDtFinPeriode(?DateTime $dtFinPeriode): ConstantesEntreprise {
         $this->dtFinPeriode = $dtFinPeriode;
         return $this;
     }
@@ -4613,10 +4614,10 @@ class ConstantesEntreprise {
     /**
      * Set the ducs franc euro.
      *
-     * @param string $ducsFrancEuro The ducs franc euro.
+     * @param string|null $ducsFrancEuro The ducs franc euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setDucsFrancEuro($ducsFrancEuro) {
+    public function setDucsFrancEuro(?string $ducsFrancEuro): ConstantesEntreprise {
         $this->ducsFrancEuro = $ducsFrancEuro;
         return $this;
     }
@@ -4624,10 +4625,10 @@ class ConstantesEntreprise {
     /**
      * Set the ecr type.
      *
-     * @param string $ecrType The ecr type.
+     * @param string|null $ecrType The ecr type.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEcrType($ecrType) {
+    public function setEcrType(?string $ecrType): ConstantesEntreprise {
         $this->ecrType = $ecrType;
         return $this;
     }
@@ -4635,10 +4636,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bord choix modele.
      *
-     * @param string $edBordChoixModele The ed bord choix modele.
+     * @param string|null $edBordChoixModele The ed bord choix modele.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBordChoixModele($edBordChoixModele) {
+    public function setEdBordChoixModele(?string $edBordChoixModele): ConstantesEntreprise {
         $this->edBordChoixModele = $edBordChoixModele;
         return $this;
     }
@@ -4646,10 +4647,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bord rupture emp.
      *
-     * @param bool $edBordRuptureEmp The ed bord rupture emp.
+     * @param bool|null $edBordRuptureEmp The ed bord rupture emp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBordRuptureEmp($edBordRuptureEmp) {
+    public function setEdBordRuptureEmp(?bool $edBordRuptureEmp): ConstantesEntreprise {
         $this->edBordRuptureEmp = $edBordRuptureEmp;
         return $this;
     }
@@ -4657,10 +4658,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bord type imp.
      *
-     * @param string $edBordTypeImp The ed bord type imp.
+     * @param string|null $edBordTypeImp The ed bord type imp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBordTypeImp($edBordTypeImp) {
+    public function setEdBordTypeImp(?string $edBordTypeImp): ConstantesEntreprise {
         $this->edBordTypeImp = $edBordTypeImp;
         return $this;
     }
@@ -4668,10 +4669,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bordereau.
      *
-     * @param bool $edBordereau The ed bordereau.
+     * @param bool|null $edBordereau The ed bordereau.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBordereau($edBordereau) {
+    public function setEdBordereau(?bool $edBordereau): ConstantesEntreprise {
         $this->edBordereau = $edBordereau;
         return $this;
     }
@@ -4679,10 +4680,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bordereau prep.
      *
-     * @param bool $edBordereauPrep The ed bordereau prep.
+     * @param bool|null $edBordereauPrep The ed bordereau prep.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBordereauPrep($edBordereauPrep) {
+    public function setEdBordereauPrep(?bool $edBordereauPrep): ConstantesEntreprise {
         $this->edBordereauPrep = $edBordereauPrep;
         return $this;
     }
@@ -4690,10 +4691,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bordereau prepa.
      *
-     * @param bool $edBordereauPrepa The ed bordereau prepa.
+     * @param bool|null $edBordereauPrepa The ed bordereau prepa.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBordereauPrepa($edBordereauPrepa) {
+    public function setEdBordereauPrepa(?bool $edBordereauPrepa): ConstantesEntreprise {
         $this->edBordereauPrepa = $edBordereauPrepa;
         return $this;
     }
@@ -4701,10 +4702,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bul last fax.
      *
-     * @param string $edBulLastFax The ed bul last fax.
+     * @param string|null $edBulLastFax The ed bul last fax.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBulLastFax($edBulLastFax) {
+    public function setEdBulLastFax(?string $edBulLastFax): ConstantesEntreprise {
         $this->edBulLastFax = $edBulLastFax;
         return $this;
     }
@@ -4712,10 +4713,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bul last mail.
      *
-     * @param string $edBulLastMail The ed bul last mail.
+     * @param string|null $edBulLastMail The ed bul last mail.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBulLastMail($edBulLastMail) {
+    public function setEdBulLastMail(?string $edBulLastMail): ConstantesEntreprise {
         $this->edBulLastMail = $edBulLastMail;
         return $this;
     }
@@ -4723,10 +4724,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed bul type sortie.
      *
-     * @param string $edBulTypeSortie The ed bul type sortie.
+     * @param string|null $edBulTypeSortie The ed bul type sortie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdBulTypeSortie($edBulTypeSortie) {
+    public function setEdBulTypeSortie(?string $edBulTypeSortie): ConstantesEntreprise {
         $this->edBulTypeSortie = $edBulTypeSortie;
         return $this;
     }
@@ -4734,32 +4735,21 @@ class ConstantesEntreprise {
     /**
      * Set the ed correspondance.
      *
-     * @param bool $edCorrespondance The ed correspondance.
+     * @param bool|null $edCorrespondance The ed correspondance.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdCorrespondance($edCorrespondance) {
+    public function setEdCorrespondance(?bool $edCorrespondance): ConstantesEntreprise {
         $this->edCorrespondance = $edCorrespondance;
-        return $this;
-    }
-
-    /**
-     * Set the ed ducs auto.
-     *
-     * @param bool $edDucsAuto The ed ducs auto.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setEdDucsAuto($edDucsAuto) {
-        $this->edDucsAuto = $edDucsAuto;
         return $this;
     }
 
     /**
      * Set the ed ducs nb ex.
      *
-     * @param string $edDucsNbEx The ed ducs nb ex.
+     * @param string|null $edDucsNbEx The ed ducs nb ex.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdDucsNbEx($edDucsNbEx) {
+    public function setEdDucsNbEx(?string $edDucsNbEx): ConstantesEntreprise {
         $this->edDucsNbEx = $edDucsNbEx;
         return $this;
     }
@@ -4767,10 +4757,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed ducs opt btp.
      *
-     * @param string $edDucsOptBtp The ed ducs opt btp.
+     * @param string|null $edDucsOptBtp The ed ducs opt btp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdDucsOptBtp($edDucsOptBtp) {
+    public function setEdDucsOptBtp(?string $edDucsOptBtp): ConstantesEntreprise {
         $this->edDucsOptBtp = $edDucsOptBtp;
         return $this;
     }
@@ -4778,21 +4768,32 @@ class ConstantesEntreprise {
     /**
      * Set the ed ducs type sortie.
      *
-     * @param string $edDucsTypeSortie The ed ducs type sortie.
+     * @param string|null $edDucsTypeSortie The ed ducs type sortie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdDucsTypeSortie($edDucsTypeSortie) {
+    public function setEdDucsTypeSortie(?string $edDucsTypeSortie): ConstantesEntreprise {
         $this->edDucsTypeSortie = $edDucsTypeSortie;
+        return $this;
+    }
+
+    /**
+     * Set the ed ducs auto.
+     *
+     * @param bool|null $edDucsAuto The ed ducs auto.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setEdDucsAuto(?bool $edDucsAuto): ConstantesEntreprise {
+        $this->edDucsAuto = $edDucsAuto;
         return $this;
     }
 
     /**
      * Set the ed h sup bonif que majo.
      *
-     * @param bool $edHSupBonifQueMajo The ed h sup bonif que majo.
+     * @param bool|null $edHSupBonifQueMajo The ed h sup bonif que majo.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdHSupBonifQueMajo($edHSupBonifQueMajo) {
+    public function setEdHSupBonifQueMajo(?bool $edHSupBonifQueMajo): ConstantesEntreprise {
         $this->edHSupBonifQueMajo = $edHSupBonifQueMajo;
         return $this;
     }
@@ -4800,10 +4801,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed histo tri emp.
      *
-     * @param string $edHistoTriEmp The ed histo tri emp.
+     * @param string|null $edHistoTriEmp The ed histo tri emp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdHistoTriEmp($edHistoTriEmp) {
+    public function setEdHistoTriEmp(?string $edHistoTriEmp): ConstantesEntreprise {
         $this->edHistoTriEmp = $edHistoTriEmp;
         return $this;
     }
@@ -4811,10 +4812,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed histo tri etablissement.
      *
-     * @param bool $edHistoTriEtablissement The ed histo tri etablissement.
+     * @param bool|null $edHistoTriEtablissement The ed histo tri etablissement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdHistoTriEtablissement($edHistoTriEtablissement) {
+    public function setEdHistoTriEtablissement(?bool $edHistoTriEtablissement): ConstantesEntreprise {
         $this->edHistoTriEtablissement = $edHistoTriEtablissement;
         return $this;
     }
@@ -4822,10 +4823,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed histo tri service.
      *
-     * @param bool $edHistoTriService The ed histo tri service.
+     * @param bool|null $edHistoTriService The ed histo tri service.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdHistoTriService($edHistoTriService) {
+    public function setEdHistoTriService(?bool $edHistoTriService): ConstantesEntreprise {
         $this->edHistoTriService = $edHistoTriService;
         return $this;
     }
@@ -4833,10 +4834,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed histo type.
      *
-     * @param string $edHistoType The ed histo type.
+     * @param string|null $edHistoType The ed histo type.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdHistoType($edHistoType) {
+    public function setEdHistoType(?string $edHistoType): ConstantesEntreprise {
         $this->edHistoType = $edHistoType;
         return $this;
     }
@@ -4844,10 +4845,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed imput comptable.
      *
-     * @param bool $edImputComptable The ed imput comptable.
+     * @param bool|null $edImputComptable The ed imput comptable.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdImputComptable($edImputComptable) {
+    public function setEdImputComptable(?bool $edImputComptable): ConstantesEntreprise {
         $this->edImputComptable = $edImputComptable;
         return $this;
     }
@@ -4855,10 +4856,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed texte1.
      *
-     * @param string $edTexte1 The ed texte1.
+     * @param string|null $edTexte1 The ed texte1.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdTexte1($edTexte1) {
+    public function setEdTexte1(?string $edTexte1): ConstantesEntreprise {
         $this->edTexte1 = $edTexte1;
         return $this;
     }
@@ -4866,10 +4867,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed texte2.
      *
-     * @param string $edTexte2 The ed texte2.
+     * @param string|null $edTexte2 The ed texte2.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdTexte2($edTexte2) {
+    public function setEdTexte2(?string $edTexte2): ConstantesEntreprise {
         $this->edTexte2 = $edTexte2;
         return $this;
     }
@@ -4877,10 +4878,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed trt cpta last fax.
      *
-     * @param string $edTrtCptaLastFax The ed trt cpta last fax.
+     * @param string|null $edTrtCptaLastFax The ed trt cpta last fax.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdTrtCptaLastFax($edTrtCptaLastFax) {
+    public function setEdTrtCptaLastFax(?string $edTrtCptaLastFax): ConstantesEntreprise {
         $this->edTrtCptaLastFax = $edTrtCptaLastFax;
         return $this;
     }
@@ -4888,10 +4889,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed trt cpta last mail.
      *
-     * @param string $edTrtCptaLastMail The ed trt cpta last mail.
+     * @param string|null $edTrtCptaLastMail The ed trt cpta last mail.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdTrtCptaLastMail($edTrtCptaLastMail) {
+    public function setEdTrtCptaLastMail(?string $edTrtCptaLastMail): ConstantesEntreprise {
         $this->edTrtCptaLastMail = $edTrtCptaLastMail;
         return $this;
     }
@@ -4899,10 +4900,10 @@ class ConstantesEntreprise {
     /**
      * Set the ed trt cpta sortie.
      *
-     * @param string $edTrtCptaSortie The ed trt cpta sortie.
+     * @param string|null $edTrtCptaSortie The ed trt cpta sortie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEdTrtCptaSortie($edTrtCptaSortie) {
+    public function setEdTrtCptaSortie(?string $edTrtCptaSortie): ConstantesEntreprise {
         $this->edTrtCptaSortie = $edTrtCptaSortie;
         return $this;
     }
@@ -4910,10 +4911,10 @@ class ConstantesEntreprise {
     /**
      * Set the edit qpxl absences.
      *
-     * @param bool $editQpxlAbsences The edit qpxl absences.
+     * @param bool|null $editQpxlAbsences The edit qpxl absences.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditQpxlAbsences($editQpxlAbsences) {
+    public function setEditQpxlAbsences(?bool $editQpxlAbsences): ConstantesEntreprise {
         $this->editQpxlAbsences = $editQpxlAbsences;
         return $this;
     }
@@ -4921,10 +4922,10 @@ class ConstantesEntreprise {
     /**
      * Set the edit qpxl acomptes.
      *
-     * @param bool $editQpxlAcomptes The edit qpxl acomptes.
+     * @param bool|null $editQpxlAcomptes The edit qpxl acomptes.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditQpxlAcomptes($editQpxlAcomptes) {
+    public function setEditQpxlAcomptes(?bool $editQpxlAcomptes): ConstantesEntreprise {
         $this->editQpxlAcomptes = $editQpxlAcomptes;
         return $this;
     }
@@ -4932,10 +4933,10 @@ class ConstantesEntreprise {
     /**
      * Set the edit qpxl tri emp.
      *
-     * @param string $editQpxlTriEmp The edit qpxl tri emp.
+     * @param string|null $editQpxlTriEmp The edit qpxl tri emp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditQpxlTriEmp($editQpxlTriEmp) {
+    public function setEditQpxlTriEmp(?string $editQpxlTriEmp): ConstantesEntreprise {
         $this->editQpxlTriEmp = $editQpxlTriEmp;
         return $this;
     }
@@ -4943,10 +4944,10 @@ class ConstantesEntreprise {
     /**
      * Set the edit qpxl vider lib.
      *
-     * @param bool $editQpxlViderLib The edit qpxl vider lib.
+     * @param bool|null $editQpxlViderLib The edit qpxl vider lib.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditQpxlViderLib($editQpxlViderLib) {
+    public function setEditQpxlViderLib(?bool $editQpxlViderLib): ConstantesEntreprise {
         $this->editQpxlViderLib = $editQpxlViderLib;
         return $this;
     }
@@ -4954,10 +4955,10 @@ class ConstantesEntreprise {
     /**
      * Set the editer bulletin stc.
      *
-     * @param bool $editerBulletinStc The editer bulletin stc.
+     * @param bool|null $editerBulletinStc The editer bulletin stc.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditerBulletinStc($editerBulletinStc) {
+    public function setEditerBulletinStc(?bool $editerBulletinStc): ConstantesEntreprise {
         $this->editerBulletinStc = $editerBulletinStc;
         return $this;
     }
@@ -4965,10 +4966,10 @@ class ConstantesEntreprise {
     /**
      * Set the edition cheque tc.
      *
-     * @param bool $editionChequeTc The edition cheque tc.
+     * @param bool|null $editionChequeTc The edition cheque tc.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditionChequeTc($editionChequeTc) {
+    public function setEditionChequeTc(?bool $editionChequeTc): ConstantesEntreprise {
         $this->editionChequeTc = $editionChequeTc;
         return $this;
     }
@@ -4976,10 +4977,10 @@ class ConstantesEntreprise {
     /**
      * Set the edition date.
      *
-     * @param bool $editionDate The edition date.
+     * @param bool|null $editionDate The edition date.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditionDate($editionDate) {
+    public function setEditionDate(?bool $editionDate): ConstantesEntreprise {
         $this->editionDate = $editionDate;
         return $this;
     }
@@ -4987,10 +4988,10 @@ class ConstantesEntreprise {
     /**
      * Set the edition heure.
      *
-     * @param bool $editionHeure The edition heure.
+     * @param bool|null $editionHeure The edition heure.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEditionHeure($editionHeure) {
+    public function setEditionHeure(?bool $editionHeure): ConstantesEntreprise {
         $this->editionHeure = $editionHeure;
         return $this;
     }
@@ -4998,10 +4999,10 @@ class ConstantesEntreprise {
     /**
      * Set the email.
      *
-     * @param string $email The email.
+     * @param string|null $email The email.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEmail($email) {
+    public function setEmail(?string $email): ConstantesEntreprise {
         $this->email = $email;
         return $this;
     }
@@ -5009,10 +5010,10 @@ class ConstantesEntreprise {
     /**
      * Set the entete solde tc.
      *
-     * @param bool $enteteSoldeTc The entete solde tc.
+     * @param bool|null $enteteSoldeTc The entete solde tc.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEnteteSoldeTc($enteteSoldeTc) {
+    public function setEnteteSoldeTc(?bool $enteteSoldeTc): ConstantesEntreprise {
         $this->enteteSoldeTc = $enteteSoldeTc;
         return $this;
     }
@@ -5020,10 +5021,10 @@ class ConstantesEntreprise {
     /**
      * Set the etat controle dadsu.
      *
-     * @param string $etatControleDadsu The etat controle dadsu.
+     * @param string|null $etatControleDadsu The etat controle dadsu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEtatControleDadsu($etatControleDadsu) {
+    public function setEtatControleDadsu(?string $etatControleDadsu): ConstantesEntreprise {
         $this->etatControleDadsu = $etatControleDadsu;
         return $this;
     }
@@ -5031,10 +5032,10 @@ class ConstantesEntreprise {
     /**
      * Set the etat ctrl norme.
      *
-     * @param string $etatCtrlNorme The etat ctrl norme.
+     * @param string|null $etatCtrlNorme The etat ctrl norme.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEtatCtrlNorme($etatCtrlNorme) {
+    public function setEtatCtrlNorme(?string $etatCtrlNorme): ConstantesEntreprise {
         $this->etatCtrlNorme = $etatCtrlNorme;
         return $this;
     }
@@ -5042,10 +5043,10 @@ class ConstantesEntreprise {
     /**
      * Set the etat das.
      *
-     * @param string $etatDas The etat das.
+     * @param string|null $etatDas The etat das.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEtatDas($etatDas) {
+    public function setEtatDas(?string $etatDas): ConstantesEntreprise {
         $this->etatDas = $etatDas;
         return $this;
     }
@@ -5053,10 +5054,10 @@ class ConstantesEntreprise {
     /**
      * Set the etat das rect.
      *
-     * @param string $etatDasRect The etat das rect.
+     * @param string|null $etatDasRect The etat das rect.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setEtatDasRect($etatDasRect) {
+    public function setEtatDasRect(?string $etatDasRect): ConstantesEntreprise {
         $this->etatDasRect = $etatDasRect;
         return $this;
     }
@@ -5064,10 +5065,10 @@ class ConstantesEntreprise {
     /**
      * Set the fichier unique.
      *
-     * @param bool $fichierUnique The fichier unique.
+     * @param bool|null $fichierUnique The fichier unique.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFichierUnique($fichierUnique) {
+    public function setFichierUnique(?bool $fichierUnique): ConstantesEntreprise {
         $this->fichierUnique = $fichierUnique;
         return $this;
     }
@@ -5075,10 +5076,10 @@ class ConstantesEntreprise {
     /**
      * Set the filtrer liste emp.
      *
-     * @param int $filtrerListeEmp The filtrer liste emp.
+     * @param int|null $filtrerListeEmp The filtrer liste emp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFiltrerListeEmp($filtrerListeEmp) {
+    public function setFiltrerListeEmp(?int $filtrerListeEmp): ConstantesEntreprise {
         $this->filtrerListeEmp = $filtrerListeEmp;
         return $this;
     }
@@ -5089,7 +5090,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $finPeriodeDas The fin periode das.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFinPeriodeDas(DateTime $finPeriodeDas = null) {
+    public function setFinPeriodeDas(?DateTime $finPeriodeDas): ConstantesEntreprise {
         $this->finPeriodeDas = $finPeriodeDas;
         return $this;
     }
@@ -5100,7 +5101,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $finPeriodeHistoDas The fin periode histo das.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFinPeriodeHistoDas(DateTime $finPeriodeHistoDas = null) {
+    public function setFinPeriodeHistoDas(?DateTime $finPeriodeHistoDas): ConstantesEntreprise {
         $this->finPeriodeHistoDas = $finPeriodeHistoDas;
         return $this;
     }
@@ -5108,10 +5109,10 @@ class ConstantesEntreprise {
     /**
      * Set the flag traite.
      *
-     * @param string $flagTraite The flag traite.
+     * @param string|null $flagTraite The flag traite.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFlagTraite($flagTraite) {
+    public function setFlagTraite(?string $flagTraite): ConstantesEntreprise {
         $this->flagTraite = $flagTraite;
         return $this;
     }
@@ -5119,10 +5120,10 @@ class ConstantesEntreprise {
     /**
      * Set the flag traite2.
      *
-     * @param int $flagTraite2 The flag traite2.
+     * @param int|null $flagTraite2 The flag traite2.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFlagTraite2($flagTraite2) {
+    public function setFlagTraite2(?int $flagTraite2): ConstantesEntreprise {
         $this->flagTraite2 = $flagTraite2;
         return $this;
     }
@@ -5130,10 +5131,10 @@ class ConstantesEntreprise {
     /**
      * Set the flag traite3.
      *
-     * @param int $flagTraite3 The flag traite3.
+     * @param int|null $flagTraite3 The flag traite3.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFlagTraite3($flagTraite3) {
+    public function setFlagTraite3(?int $flagTraite3): ConstantesEntreprise {
         $this->flagTraite3 = $flagTraite3;
         return $this;
     }
@@ -5141,10 +5142,10 @@ class ConstantesEntreprise {
     /**
      * Set the format fic virement.
      *
-     * @param string $formatFicVirement The format fic virement.
+     * @param string|null $formatFicVirement The format fic virement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setFormatFicVirement($formatFicVirement) {
+    public function setFormatFicVirement(?string $formatFicVirement): ConstantesEntreprise {
         $this->formatFicVirement = $formatFicVirement;
         return $this;
     }
@@ -5152,10 +5153,10 @@ class ConstantesEntreprise {
     /**
      * Set the gest num bulletin.
      *
-     * @param bool $gestNumBulletin The gest num bulletin.
+     * @param bool|null $gestNumBulletin The gest num bulletin.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestNumBulletin($gestNumBulletin) {
+    public function setGestNumBulletin(?bool $gestNumBulletin): ConstantesEntreprise {
         $this->gestNumBulletin = $gestNumBulletin;
         return $this;
     }
@@ -5163,10 +5164,10 @@ class ConstantesEntreprise {
     /**
      * Set the gest repo compens.
      *
-     * @param bool $gestRepoCompens The gest repo compens.
+     * @param bool|null $gestRepoCompens The gest repo compens.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestRepoCompens($gestRepoCompens) {
+    public function setGestRepoCompens(?bool $gestRepoCompens): ConstantesEntreprise {
         $this->gestRepoCompens = $gestRepoCompens;
         return $this;
     }
@@ -5174,10 +5175,10 @@ class ConstantesEntreprise {
     /**
      * Set the gest texte.
      *
-     * @param bool $gestTexte The gest texte.
+     * @param bool|null $gestTexte The gest texte.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestTexte($gestTexte) {
+    public function setGestTexte(?bool $gestTexte): ConstantesEntreprise {
         $this->gestTexte = $gestTexte;
         return $this;
     }
@@ -5185,10 +5186,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion coeff.
      *
-     * @param bool $gestionCoeff The gestion coeff.
+     * @param bool|null $gestionCoeff The gestion coeff.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionCoeff($gestionCoeff) {
+    public function setGestionCoeff(?bool $gestionCoeff): ConstantesEntreprise {
         $this->gestionCoeff = $gestionCoeff;
         return $this;
     }
@@ -5196,10 +5197,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion coeff grille.
      *
-     * @param bool $gestionCoeffGrille The gestion coeff grille.
+     * @param bool|null $gestionCoeffGrille The gestion coeff grille.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionCoeffGrille($gestionCoeffGrille) {
+    public function setGestionCoeffGrille(?bool $gestionCoeffGrille): ConstantesEntreprise {
         $this->gestionCoeffGrille = $gestionCoeffGrille;
         return $this;
     }
@@ -5207,10 +5208,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion exemplaire.
      *
-     * @param string $gestionExemplaire The gestion exemplaire.
+     * @param string|null $gestionExemplaire The gestion exemplaire.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionExemplaire($gestionExemplaire) {
+    public function setGestionExemplaire(?string $gestionExemplaire): ConstantesEntreprise {
         $this->gestionExemplaire = $gestionExemplaire;
         return $this;
     }
@@ -5218,10 +5219,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion intemperie.
      *
-     * @param bool $gestionIntemperie The gestion intemperie.
+     * @param bool|null $gestionIntemperie The gestion intemperie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionIntemperie($gestionIntemperie) {
+    public function setGestionIntemperie(?bool $gestionIntemperie): ConstantesEntreprise {
         $this->gestionIntemperie = $gestionIntemperie;
         return $this;
     }
@@ -5229,10 +5230,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion numero employe auto.
      *
-     * @param bool $gestionNumeroEmployeAuto The gestion numero employe auto.
+     * @param bool|null $gestionNumeroEmployeAuto The gestion numero employe auto.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionNumeroEmployeAuto($gestionNumeroEmployeAuto) {
+    public function setGestionNumeroEmployeAuto(?bool $gestionNumeroEmployeAuto): ConstantesEntreprise {
         $this->gestionNumeroEmployeAuto = $gestionNumeroEmployeAuto;
         return $this;
     }
@@ -5240,10 +5241,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion qpxl.
      *
-     * @param bool $gestionQpxl The gestion qpxl.
+     * @param bool|null $gestionQpxl The gestion qpxl.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionQpxl($gestionQpxl) {
+    public function setGestionQpxl(?bool $gestionQpxl): ConstantesEntreprise {
         $this->gestionQpxl = $gestionQpxl;
         return $this;
     }
@@ -5251,10 +5252,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion td bilaterale.
      *
-     * @param bool $gestionTdBilaterale The gestion td bilaterale.
+     * @param bool|null $gestionTdBilaterale The gestion td bilaterale.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionTdBilaterale($gestionTdBilaterale) {
+    public function setGestionTdBilaterale(?bool $gestionTdBilaterale): ConstantesEntreprise {
         $this->gestionTdBilaterale = $gestionTdBilaterale;
         return $this;
     }
@@ -5262,10 +5263,10 @@ class ConstantesEntreprise {
     /**
      * Set the gestion td sou dadsu.
      *
-     * @param bool $gestionTdSouDadsu The gestion td sou dadsu.
+     * @param bool|null $gestionTdSouDadsu The gestion td sou dadsu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGestionTdSouDadsu($gestionTdSouDadsu) {
+    public function setGestionTdSouDadsu(?bool $gestionTdSouDadsu): ConstantesEntreprise {
         $this->gestionTdSouDadsu = $gestionTdSouDadsu;
         return $this;
     }
@@ -5273,10 +5274,10 @@ class ConstantesEntreprise {
     /**
      * Set the groupe gi.
      *
-     * @param string $groupeGi The groupe gi.
+     * @param string|null $groupeGi The groupe gi.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setGroupeGi($groupeGi) {
+    public function setGroupeGi(?string $groupeGi): ConstantesEntreprise {
         $this->groupeGi = $groupeGi;
         return $this;
     }
@@ -5284,10 +5285,10 @@ class ConstantesEntreprise {
     /**
      * Set the h bonif influ cassation.
      *
-     * @param string $hBonifInfluCassation The h bonif influ cassation.
+     * @param string|null $hBonifInfluCassation The h bonif influ cassation.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHBonifInfluCassation($hBonifInfluCassation) {
+    public function setHBonifInfluCassation(?string $hBonifInfluCassation): ConstantesEntreprise {
         $this->hBonifInfluCassation = $hBonifInfluCassation;
         return $this;
     }
@@ -5295,10 +5296,10 @@ class ConstantesEntreprise {
     /**
      * Set the h sup1 structurelle.
      *
-     * @param bool $hSup1Structurelle The h sup1 structurelle.
+     * @param bool|null $hSup1Structurelle The h sup1 structurelle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHSup1Structurelle($hSup1Structurelle) {
+    public function setHSup1Structurelle(?bool $hSup1Structurelle): ConstantesEntreprise {
         $this->hSup1Structurelle = $hSup1Structurelle;
         return $this;
     }
@@ -5306,10 +5307,10 @@ class ConstantesEntreprise {
     /**
      * Set the h sup2 structurelle.
      *
-     * @param bool $hSup2Structurelle The h sup2 structurelle.
+     * @param bool|null $hSup2Structurelle The h sup2 structurelle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHSup2Structurelle($hSup2Structurelle) {
+    public function setHSup2Structurelle(?bool $hSup2Structurelle): ConstantesEntreprise {
         $this->hSup2Structurelle = $hSup2Structurelle;
         return $this;
     }
@@ -5317,10 +5318,10 @@ class ConstantesEntreprise {
     /**
      * Set the h sup3 structurelle.
      *
-     * @param bool $hSup3Structurelle The h sup3 structurelle.
+     * @param bool|null $hSup3Structurelle The h sup3 structurelle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHSup3Structurelle($hSup3Structurelle) {
+    public function setHSup3Structurelle(?bool $hSup3Structurelle): ConstantesEntreprise {
         $this->hSup3Structurelle = $hSup3Structurelle;
         return $this;
     }
@@ -5328,10 +5329,10 @@ class ConstantesEntreprise {
     /**
      * Set the h sup4 structurelle.
      *
-     * @param bool $hSup4Structurelle The h sup4 structurelle.
+     * @param bool|null $hSup4Structurelle The h sup4 structurelle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHSup4Structurelle($hSup4Structurelle) {
+    public function setHSup4Structurelle(?bool $hSup4Structurelle): ConstantesEntreprise {
         $this->hSup4Structurelle = $hSup4Structurelle;
         return $this;
     }
@@ -5339,10 +5340,10 @@ class ConstantesEntreprise {
     /**
      * Set the h sup5 structurelle.
      *
-     * @param bool $hSup5Structurelle The h sup5 structurelle.
+     * @param bool|null $hSup5Structurelle The h sup5 structurelle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHSup5Structurelle($hSup5Structurelle) {
+    public function setHSup5Structurelle(?bool $hSup5Structurelle): ConstantesEntreprise {
         $this->hSup5Structurelle = $hSup5Structurelle;
         return $this;
     }
@@ -5350,10 +5351,10 @@ class ConstantesEntreprise {
     /**
      * Set the heure sup2 influ cassation.
      *
-     * @param string $heureSup2InfluCassation The heure sup2 influ cassation.
+     * @param string|null $heureSup2InfluCassation The heure sup2 influ cassation.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHeureSup2InfluCassation($heureSup2InfluCassation) {
+    public function setHeureSup2InfluCassation(?string $heureSup2InfluCassation): ConstantesEntreprise {
         $this->heureSup2InfluCassation = $heureSup2InfluCassation;
         return $this;
     }
@@ -5361,10 +5362,10 @@ class ConstantesEntreprise {
     /**
      * Set the heure sup3 influ cassation.
      *
-     * @param string $heureSup3InfluCassation The heure sup3 influ cassation.
+     * @param string|null $heureSup3InfluCassation The heure sup3 influ cassation.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHeureSup3InfluCassation($heureSup3InfluCassation) {
+    public function setHeureSup3InfluCassation(?string $heureSup3InfluCassation): ConstantesEntreprise {
         $this->heureSup3InfluCassation = $heureSup3InfluCassation;
         return $this;
     }
@@ -5372,10 +5373,10 @@ class ConstantesEntreprise {
     /**
      * Set the heure sup4 influ cassation.
      *
-     * @param string $heureSup4InfluCassation The heure sup4 influ cassation.
+     * @param string|null $heureSup4InfluCassation The heure sup4 influ cassation.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHeureSup4InfluCassation($heureSup4InfluCassation) {
+    public function setHeureSup4InfluCassation(?string $heureSup4InfluCassation): ConstantesEntreprise {
         $this->heureSup4InfluCassation = $heureSup4InfluCassation;
         return $this;
     }
@@ -5383,10 +5384,10 @@ class ConstantesEntreprise {
     /**
      * Set the heure sup5 influ cassation.
      *
-     * @param string $heureSup5InfluCassation The heure sup5 influ cassation.
+     * @param string|null $heureSup5InfluCassation The heure sup5 influ cassation.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHeureSup5InfluCassation($heureSup5InfluCassation) {
+    public function setHeureSup5InfluCassation(?string $heureSup5InfluCassation): ConstantesEntreprise {
         $this->heureSup5InfluCassation = $heureSup5InfluCassation;
         return $this;
     }
@@ -5394,10 +5395,10 @@ class ConstantesEntreprise {
     /**
      * Set the heure sup influ cassation.
      *
-     * @param string $heureSupInfluCassation The heure sup influ cassation.
+     * @param string|null $heureSupInfluCassation The heure sup influ cassation.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHeureSupInfluCassation($heureSupInfluCassation) {
+    public function setHeureSupInfluCassation(?string $heureSupInfluCassation): ConstantesEntreprise {
         $this->heureSupInfluCassation = $heureSupInfluCassation;
         return $this;
     }
@@ -5405,10 +5406,10 @@ class ConstantesEntreprise {
     /**
      * Set the heure theo base trav.
      *
-     * @param string $heureTheoBaseTrav The heure theo base trav.
+     * @param string|null $heureTheoBaseTrav The heure theo base trav.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setHeureTheoBaseTrav($heureTheoBaseTrav) {
+    public function setHeureTheoBaseTrav(?string $heureTheoBaseTrav): ConstantesEntreprise {
         $this->heureTheoBaseTrav = $heureTheoBaseTrav;
         return $this;
     }
@@ -5416,10 +5417,10 @@ class ConstantesEntreprise {
     /**
      * Set the indem cp intervient brut al.
      *
-     * @param bool $indemCpIntervientBrutAl The indem cp intervient brut al.
+     * @param bool|null $indemCpIntervientBrutAl The indem cp intervient brut al.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setIndemCpIntervientBrutAl($indemCpIntervientBrutAl) {
+    public function setIndemCpIntervientBrutAl(?bool $indemCpIntervientBrutAl): ConstantesEntreprise {
         $this->indemCpIntervientBrutAl = $indemCpIntervientBrutAl;
         return $this;
     }
@@ -5427,10 +5428,10 @@ class ConstantesEntreprise {
     /**
      * Set the jour debut transfert.
      *
-     * @param int $jourDebutTransfert The jour debut transfert.
+     * @param int|null $jourDebutTransfert The jour debut transfert.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJourDebutTransfert($jourDebutTransfert) {
+    public function setJourDebutTransfert(?int $jourDebutTransfert): ConstantesEntreprise {
         $this->jourDebutTransfert = $jourDebutTransfert;
         return $this;
     }
@@ -5438,10 +5439,10 @@ class ConstantesEntreprise {
     /**
      * Set the jour fin transfert.
      *
-     * @param int $jourFinTransfert The jour fin transfert.
+     * @param int|null $jourFinTransfert The jour fin transfert.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJourFinTransfert($jourFinTransfert) {
+    public function setJourFinTransfert(?int $jourFinTransfert): ConstantesEntreprise {
         $this->jourFinTransfert = $jourFinTransfert;
         return $this;
     }
@@ -5449,10 +5450,10 @@ class ConstantesEntreprise {
     /**
      * Set the jrn format.
      *
-     * @param string $jrnFormat The jrn format.
+     * @param string|null $jrnFormat The jrn format.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJrnFormat($jrnFormat) {
+    public function setJrnFormat(?string $jrnFormat): ConstantesEntreprise {
         $this->jrnFormat = $jrnFormat;
         return $this;
     }
@@ -5460,10 +5461,10 @@ class ConstantesEntreprise {
     /**
      * Set the jrn regroupe abs.
      *
-     * @param bool $jrnRegroupeAbs The jrn regroupe abs.
+     * @param bool|null $jrnRegroupeAbs The jrn regroupe abs.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJrnRegroupeAbs($jrnRegroupeAbs) {
+    public function setJrnRegroupeAbs(?bool $jrnRegroupeAbs): ConstantesEntreprise {
         $this->jrnRegroupeAbs = $jrnRegroupeAbs;
         return $this;
     }
@@ -5471,10 +5472,10 @@ class ConstantesEntreprise {
     /**
      * Set the jrn tri.
      *
-     * @param string $jrnTri The jrn tri.
+     * @param string|null $jrnTri The jrn tri.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJrnTri($jrnTri) {
+    public function setJrnTri(?string $jrnTri): ConstantesEntreprise {
         $this->jrnTri = $jrnTri;
         return $this;
     }
@@ -5482,10 +5483,10 @@ class ConstantesEntreprise {
     /**
      * Set the jrn tri etablissement.
      *
-     * @param string $jrnTriEtablissement The jrn tri etablissement.
+     * @param string|null $jrnTriEtablissement The jrn tri etablissement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJrnTriEtablissement($jrnTriEtablissement) {
+    public function setJrnTriEtablissement(?string $jrnTriEtablissement): ConstantesEntreprise {
         $this->jrnTriEtablissement = $jrnTriEtablissement;
         return $this;
     }
@@ -5493,10 +5494,10 @@ class ConstantesEntreprise {
     /**
      * Set the jrn tri service.
      *
-     * @param string $jrnTriService The jrn tri service.
+     * @param string|null $jrnTriService The jrn tri service.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJrnTriService($jrnTriService) {
+    public function setJrnTriService(?string $jrnTriService): ConstantesEntreprise {
         $this->jrnTriService = $jrnTriService;
         return $this;
     }
@@ -5504,10 +5505,10 @@ class ConstantesEntreprise {
     /**
      * Set the jrn type.
      *
-     * @param string $jrnType The jrn type.
+     * @param string|null $jrnType The jrn type.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setJrnType($jrnType) {
+    public function setJrnType(?string $jrnType): ConstantesEntreprise {
         $this->jrnType = $jrnType;
         return $this;
     }
@@ -5515,10 +5516,10 @@ class ConstantesEntreprise {
     /**
      * Set the liaison proprete.
      *
-     * @param bool $liaisonProprete The liaison proprete.
+     * @param bool|null $liaisonProprete The liaison proprete.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLiaisonProprete($liaisonProprete) {
+    public function setLiaisonProprete(?bool $liaisonProprete): ConstantesEntreprise {
         $this->liaisonProprete = $liaisonProprete;
         return $this;
     }
@@ -5526,43 +5527,43 @@ class ConstantesEntreprise {
     /**
      * Set the lib arbitrage.
      *
-     * @param string $libArbitrage The lib arbitrage.
+     * @param string|null $libArbitrage The lib arbitrage.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibArbitrage($libArbitrage) {
+    public function setLibArbitrage(?string $libArbitrage): ConstantesEntreprise {
         $this->libArbitrage = $libArbitrage;
-        return $this;
-    }
-
-    /**
-     * Set the lib base conge.
-     *
-     * @param string $libBaseConge The lib base conge.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setLibBaseConge($libBaseConge) {
-        $this->libBaseConge = $libBaseConge;
         return $this;
     }
 
     /**
      * Set the lib bqcp.
      *
-     * @param string $libBqcp The lib bqcp.
+     * @param string|null $libBqcp The lib bqcp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibBqcp($libBqcp) {
+    public function setLibBqcp(?string $libBqcp): ConstantesEntreprise {
         $this->libBqcp = $libBqcp;
+        return $this;
+    }
+
+    /**
+     * Set the lib base conge.
+     *
+     * @param string|null $libBaseConge The lib base conge.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setLibBaseConge(?string $libBaseConge): ConstantesEntreprise {
+        $this->libBaseConge = $libBaseConge;
         return $this;
     }
 
     /**
      * Set the lib cachet aem.
      *
-     * @param string $libCachetAem The lib cachet aem.
+     * @param string|null $libCachetAem The lib cachet aem.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibCachetAem($libCachetAem) {
+    public function setLibCachetAem(?string $libCachetAem): ConstantesEntreprise {
         $this->libCachetAem = $libCachetAem;
         return $this;
     }
@@ -5570,10 +5571,10 @@ class ConstantesEntreprise {
     /**
      * Set the lib cotis cne.
      *
-     * @param string $libCotisCne The lib cotis cne.
+     * @param string|null $libCotisCne The lib cotis cne.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibCotisCne($libCotisCne) {
+    public function setLibCotisCne(?string $libCotisCne): ConstantesEntreprise {
         $this->libCotisCne = $libCotisCne;
         return $this;
     }
@@ -5581,10 +5582,10 @@ class ConstantesEntreprise {
     /**
      * Set the lib fin contrat.
      *
-     * @param string $libFinContrat The lib fin contrat.
+     * @param string|null $libFinContrat The lib fin contrat.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibFinContrat($libFinContrat) {
+    public function setLibFinContrat(?string $libFinContrat): ConstantesEntreprise {
         $this->libFinContrat = $libFinContrat;
         return $this;
     }
@@ -5592,10 +5593,10 @@ class ConstantesEntreprise {
     /**
      * Set the lib fin contrat cne.
      *
-     * @param string $libFinContratCne The lib fin contrat cne.
+     * @param string|null $libFinContratCne The lib fin contrat cne.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibFinContratCne($libFinContratCne) {
+    public function setLibFinContratCne(?string $libFinContratCne): ConstantesEntreprise {
         $this->libFinContratCne = $libFinContratCne;
         return $this;
     }
@@ -5603,10 +5604,10 @@ class ConstantesEntreprise {
     /**
      * Set the lib indem cp.
      *
-     * @param string $libIndemCp The lib indem cp.
+     * @param string|null $libIndemCp The lib indem cp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibIndemCp($libIndemCp) {
+    public function setLibIndemCp(?string $libIndemCp): ConstantesEntreprise {
         $this->libIndemCp = $libIndemCp;
         return $this;
     }
@@ -5614,10 +5615,10 @@ class ConstantesEntreprise {
     /**
      * Set the libelle libre virement.
      *
-     * @param string $libelleLibreVirement The libelle libre virement.
+     * @param string|null $libelleLibreVirement The libelle libre virement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLibelleLibreVirement($libelleLibreVirement) {
+    public function setLibelleLibreVirement(?string $libelleLibreVirement): ConstantesEntreprise {
         $this->libelleLibreVirement = $libelleLibreVirement;
         return $this;
     }
@@ -5625,10 +5626,10 @@ class ConstantesEntreprise {
     /**
      * Set the ligne bul euro.
      *
-     * @param bool $ligneBulEuro The ligne bul euro.
+     * @param bool|null $ligneBulEuro The ligne bul euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLigneBulEuro($ligneBulEuro) {
+    public function setLigneBulEuro(?bool $ligneBulEuro): ConstantesEntreprise {
         $this->ligneBulEuro = $ligneBulEuro;
         return $this;
     }
@@ -5636,10 +5637,10 @@ class ConstantesEntreprise {
     /**
      * Set the lignes transport.
      *
-     * @param bool $lignesTransport The lignes transport.
+     * @param bool|null $lignesTransport The lignes transport.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setLignesTransport($lignesTransport) {
+    public function setLignesTransport(?bool $lignesTransport): ConstantesEntreprise {
         $this->lignesTransport = $lignesTransport;
         return $this;
     }
@@ -5647,10 +5648,10 @@ class ConstantesEntreprise {
     /**
      * Set the mail bulletin.
      *
-     * @param string $mailBulletin The mail bulletin.
+     * @param string|null $mailBulletin The mail bulletin.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMailBulletin($mailBulletin) {
+    public function setMailBulletin(?string $mailBulletin): ConstantesEntreprise {
         $this->mailBulletin = $mailBulletin;
         return $this;
     }
@@ -5658,10 +5659,10 @@ class ConstantesEntreprise {
     /**
      * Set the mail bulletin cle.
      *
-     * @param string $mailBulletinCle The mail bulletin cle.
+     * @param string|null $mailBulletinCle The mail bulletin cle.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMailBulletinCle($mailBulletinCle) {
+    public function setMailBulletinCle(?string $mailBulletinCle): ConstantesEntreprise {
         $this->mailBulletinCle = $mailBulletinCle;
         return $this;
     }
@@ -5669,10 +5670,10 @@ class ConstantesEntreprise {
     /**
      * Set the mail bulletin pj.
      *
-     * @param string $mailBulletinPj The mail bulletin pj.
+     * @param string|null $mailBulletinPj The mail bulletin pj.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMailBulletinPj($mailBulletinPj) {
+    public function setMailBulletinPj(?string $mailBulletinPj): ConstantesEntreprise {
         $this->mailBulletinPj = $mailBulletinPj;
         return $this;
     }
@@ -5680,10 +5681,10 @@ class ConstantesEntreprise {
     /**
      * Set the mail c li ducs edi.
      *
-     * @param bool $mailCLiDucsEdi The mail c li ducs edi.
+     * @param bool|null $mailCLiDucsEdi The mail c li ducs edi.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMailCLiDucsEdi($mailCLiDucsEdi) {
+    public function setMailCLiDucsEdi(?bool $mailCLiDucsEdi): ConstantesEntreprise {
         $this->mailCLiDucsEdi = $mailCLiDucsEdi;
         return $this;
     }
@@ -5691,10 +5692,10 @@ class ConstantesEntreprise {
     /**
      * Set the mention cp.
      *
-     * @param bool $mentionCp The mention cp.
+     * @param bool|null $mentionCp The mention cp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMentionCp($mentionCp) {
+    public function setMentionCp(?bool $mentionCp): ConstantesEntreprise {
         $this->mentionCp = $mentionCp;
         return $this;
     }
@@ -5702,10 +5703,10 @@ class ConstantesEntreprise {
     /**
      * Set the message vu.
      *
-     * @param bool $messageVu The message vu.
+     * @param bool|null $messageVu The message vu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMessageVu($messageVu) {
+    public function setMessageVu(?bool $messageVu): ConstantesEntreprise {
         $this->messageVu = $messageVu;
         return $this;
     }
@@ -5713,10 +5714,10 @@ class ConstantesEntreprise {
     /**
      * Set the millesime1.
      *
-     * @param int $millesime1 The millesime1.
+     * @param int|null $millesime1 The millesime1.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMillesime1($millesime1) {
+    public function setMillesime1(?int $millesime1): ConstantesEntreprise {
         $this->millesime1 = $millesime1;
         return $this;
     }
@@ -5724,10 +5725,10 @@ class ConstantesEntreprise {
     /**
      * Set the mode planning.
      *
-     * @param int $modePlanning The mode planning.
+     * @param int|null $modePlanning The mode planning.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModePlanning($modePlanning) {
+    public function setModePlanning(?int $modePlanning): ConstantesEntreprise {
         $this->modePlanning = $modePlanning;
         return $this;
     }
@@ -5735,10 +5736,10 @@ class ConstantesEntreprise {
     /**
      * Set the modele apercu.
      *
-     * @param string $modeleApercu The modele apercu.
+     * @param string|null $modeleApercu The modele apercu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModeleApercu($modeleApercu) {
+    public function setModeleApercu(?string $modeleApercu): ConstantesEntreprise {
         $this->modeleApercu = $modeleApercu;
         return $this;
     }
@@ -5746,10 +5747,10 @@ class ConstantesEntreprise {
     /**
      * Set the modele bon bleu.
      *
-     * @param string $modeleBonBleu The modele bon bleu.
+     * @param string|null $modeleBonBleu The modele bon bleu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModeleBonBleu($modeleBonBleu) {
+    public function setModeleBonBleu(?string $modeleBonBleu): ConstantesEntreprise {
         $this->modeleBonBleu = $modeleBonBleu;
         return $this;
     }
@@ -5757,10 +5758,10 @@ class ConstantesEntreprise {
     /**
      * Set the modele bulletin.
      *
-     * @param string $modeleBulletin The modele bulletin.
+     * @param string|null $modeleBulletin The modele bulletin.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModeleBulletin($modeleBulletin) {
+    public function setModeleBulletin(?string $modeleBulletin): ConstantesEntreprise {
         $this->modeleBulletin = $modeleBulletin;
         return $this;
     }
@@ -5768,10 +5769,10 @@ class ConstantesEntreprise {
     /**
      * Set the modele certif.
      *
-     * @param string $modeleCertif The modele certif.
+     * @param string|null $modeleCertif The modele certif.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModeleCertif($modeleCertif) {
+    public function setModeleCertif(?string $modeleCertif): ConstantesEntreprise {
         $this->modeleCertif = $modeleCertif;
         return $this;
     }
@@ -5779,10 +5780,10 @@ class ConstantesEntreprise {
     /**
      * Set the modele certif trav.
      *
-     * @param string $modeleCertifTrav The modele certif trav.
+     * @param string|null $modeleCertifTrav The modele certif trav.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModeleCertifTrav($modeleCertifTrav) {
+    public function setModeleCertifTrav(?string $modeleCertifTrav): ConstantesEntreprise {
         $this->modeleCertifTrav = $modeleCertifTrav;
         return $this;
     }
@@ -5790,10 +5791,10 @@ class ConstantesEntreprise {
     /**
      * Set the modele cheque.
      *
-     * @param string $modeleCheque The modele cheque.
+     * @param string|null $modeleCheque The modele cheque.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setModeleCheque($modeleCheque) {
+    public function setModeleCheque(?string $modeleCheque): ConstantesEntreprise {
         $this->modeleCheque = $modeleCheque;
         return $this;
     }
@@ -5801,10 +5802,10 @@ class ConstantesEntreprise {
     /**
      * Set the mois cloture an.
      *
-     * @param string $moisClotureAn The mois cloture an.
+     * @param string|null $moisClotureAn The mois cloture an.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setMoisClotureAn($moisClotureAn) {
+    public function setMoisClotureAn(?string $moisClotureAn): ConstantesEntreprise {
         $this->moisClotureAn = $moisClotureAn;
         return $this;
     }
@@ -5812,10 +5813,10 @@ class ConstantesEntreprise {
     /**
      * Set the n attest aem.
      *
-     * @param int $nAttestAem The n attest aem.
+     * @param int|null $nAttestAem The n attest aem.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestAem($nAttestAem) {
+    public function setNAttestAem(?int $nAttestAem): ConstantesEntreprise {
         $this->nAttestAem = $nAttestAem;
         return $this;
     }
@@ -5823,10 +5824,10 @@ class ConstantesEntreprise {
     /**
      * Set the n attest aemedi.
      *
-     * @param int $nAttestAemedi The n attest aemedi.
+     * @param int|null $nAttestAemedi The n attest aemedi.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestAemedi($nAttestAemedi) {
+    public function setNAttestAemedi(?int $nAttestAemedi): ConstantesEntreprise {
         $this->nAttestAemedi = $nAttestAemedi;
         return $this;
     }
@@ -5834,10 +5835,10 @@ class ConstantesEntreprise {
     /**
      * Set the n attest aemx.
      *
-     * @param int $nAttestAemx The n attest aemx.
+     * @param int|null $nAttestAemx The n attest aemx.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestAemx($nAttestAemx) {
+    public function setNAttestAemx(?int $nAttestAemx): ConstantesEntreprise {
         $this->nAttestAemx = $nAttestAemx;
         return $this;
     }
@@ -5845,10 +5846,10 @@ class ConstantesEntreprise {
     /**
      * Set the n attest assedic.
      *
-     * @param int $nAttestAssedic The n attest assedic.
+     * @param int|null $nAttestAssedic The n attest assedic.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestAssedic($nAttestAssedic) {
+    public function setNAttestAssedic(?int $nAttestAssedic): ConstantesEntreprise {
         $this->nAttestAssedic = $nAttestAssedic;
         return $this;
     }
@@ -5856,10 +5857,10 @@ class ConstantesEntreprise {
     /**
      * Set the n attest extras.
      *
-     * @param int $nAttestExtras The n attest extras.
+     * @param int|null $nAttestExtras The n attest extras.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestExtras($nAttestExtras) {
+    public function setNAttestExtras(?int $nAttestExtras): ConstantesEntreprise {
         $this->nAttestExtras = $nAttestExtras;
         return $this;
     }
@@ -5867,10 +5868,10 @@ class ConstantesEntreprise {
     /**
      * Set the n attest ijss.
      *
-     * @param int $nAttestIjss The n attest ijss.
+     * @param int|null $nAttestIjss The n attest ijss.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestIjss($nAttestIjss) {
+    public function setNAttestIjss(?int $nAttestIjss): ConstantesEntreprise {
         $this->nAttestIjss = $nAttestIjss;
         return $this;
     }
@@ -5878,21 +5879,32 @@ class ConstantesEntreprise {
     /**
      * Set the n attest ijss at.
      *
-     * @param int $nAttestIjssAt The n attest ijss at.
+     * @param int|null $nAttestIjssAt The n attest ijss at.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNAttestIjssAt($nAttestIjssAt) {
+    public function setNAttestIjssAt(?int $nAttestIjssAt): ConstantesEntreprise {
         $this->nAttestIjssAt = $nAttestIjssAt;
+        return $this;
+    }
+
+    /**
+     * Set the nce conges spectacles.
+     *
+     * @param int|null $nceCongesSpectacles The nce conges spectacles.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setNceCongesSpectacles(?int $nceCongesSpectacles): ConstantesEntreprise {
+        $this->nceCongesSpectacles = $nceCongesSpectacles;
         return $this;
     }
 
     /**
      * Set the n der document.
      *
-     * @param int $nDerDocument The n der document.
+     * @param int|null $nDerDocument The n der document.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNDerDocument($nDerDocument) {
+    public function setNDerDocument(?int $nDerDocument): ConstantesEntreprise {
         $this->nDerDocument = $nDerDocument;
         return $this;
     }
@@ -5900,10 +5912,10 @@ class ConstantesEntreprise {
     /**
      * Set the nap euro.
      *
-     * @param bool $napEuro The nap euro.
+     * @param bool|null $napEuro The nap euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNapEuro($napEuro) {
+    public function setNapEuro(?bool $napEuro): ConstantesEntreprise {
         $this->napEuro = $napEuro;
         return $this;
     }
@@ -5911,32 +5923,21 @@ class ConstantesEntreprise {
     /**
      * Set the nb exemplaire.
      *
-     * @param string $nbExemplaire The nb exemplaire.
+     * @param string|null $nbExemplaire The nb exemplaire.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNbExemplaire($nbExemplaire) {
+    public function setNbExemplaire(?string $nbExemplaire): ConstantesEntreprise {
         $this->nbExemplaire = $nbExemplaire;
-        return $this;
-    }
-
-    /**
-     * Set the nce conges spectacles.
-     *
-     * @param int $nceCongesSpectacles The nce conges spectacles.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setNceCongesSpectacles($nceCongesSpectacles) {
-        $this->nceCongesSpectacles = $nceCongesSpectacles;
         return $this;
     }
 
     /**
      * Set the nouv param retraite type.
      *
-     * @param bool $nouvParamRetraiteType The nouv param retraite type.
+     * @param bool|null $nouvParamRetraiteType The nouv param retraite type.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setNouvParamRetraiteType($nouvParamRetraiteType) {
+    public function setNouvParamRetraiteType(?bool $nouvParamRetraiteType): ConstantesEntreprise {
         $this->nouvParamRetraiteType = $nouvParamRetraiteType;
         return $this;
     }
@@ -5944,10 +5945,10 @@ class ConstantesEntreprise {
     /**
      * Set the options calc abs.
      *
-     * @param bool $optionsCalcAbs The options calc abs.
+     * @param bool|null $optionsCalcAbs The options calc abs.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setOptionsCalcAbs($optionsCalcAbs) {
+    public function setOptionsCalcAbs(?bool $optionsCalcAbs): ConstantesEntreprise {
         $this->optionsCalcAbs = $optionsCalcAbs;
         return $this;
     }
@@ -5955,10 +5956,10 @@ class ConstantesEntreprise {
     /**
      * Set the ordre libelle h sup.
      *
-     * @param string $ordreLibelleHSup The ordre libelle h sup.
+     * @param string|null $ordreLibelleHSup The ordre libelle h sup.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setOrdreLibelleHSup($ordreLibelleHSup) {
+    public function setOrdreLibelleHSup(?string $ordreLibelleHSup): ConstantesEntreprise {
         $this->ordreLibelleHSup = $ordreLibelleHSup;
         return $this;
     }
@@ -5966,10 +5967,10 @@ class ConstantesEntreprise {
     /**
      * Set the paie euro.
      *
-     * @param bool $paieEuro The paie euro.
+     * @param bool|null $paieEuro The paie euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPaieEuro($paieEuro) {
+    public function setPaieEuro(?bool $paieEuro): ConstantesEntreprise {
         $this->paieEuro = $paieEuro;
         return $this;
     }
@@ -5977,10 +5978,10 @@ class ConstantesEntreprise {
     /**
      * Set the part sal seule.
      *
-     * @param bool $partSalSeule The part sal seule.
+     * @param bool|null $partSalSeule The part sal seule.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPartSalSeule($partSalSeule) {
+    public function setPartSalSeule(?bool $partSalSeule): ConstantesEntreprise {
         $this->partSalSeule = $partSalSeule;
         return $this;
     }
@@ -5988,10 +5989,10 @@ class ConstantesEntreprise {
     /**
      * Set the pas gestion indice bul.
      *
-     * @param bool $pasGestionIndiceBul The pas gestion indice bul.
+     * @param bool|null $pasGestionIndiceBul The pas gestion indice bul.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPasGestionIndiceBul($pasGestionIndiceBul) {
+    public function setPasGestionIndiceBul(?bool $pasGestionIndiceBul): ConstantesEntreprise {
         $this->pasGestionIndiceBul = $pasGestionIndiceBul;
         return $this;
     }
@@ -5999,10 +6000,10 @@ class ConstantesEntreprise {
     /**
      * Set the pas prendre iccp fillon.
      *
-     * @param bool $pasPrendreIccpFillon The pas prendre iccp fillon.
+     * @param bool|null $pasPrendreIccpFillon The pas prendre iccp fillon.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPasPrendreIccpFillon($pasPrendreIccpFillon) {
+    public function setPasPrendreIccpFillon(?bool $pasPrendreIccpFillon): ConstantesEntreprise {
         $this->pasPrendreIccpFillon = $pasPrendreIccpFillon;
         return $this;
     }
@@ -6010,10 +6011,10 @@ class ConstantesEntreprise {
     /**
      * Set the pas sous tot s base.
      *
-     * @param bool $pasSousTotSBase The pas sous tot s base.
+     * @param bool|null $pasSousTotSBase The pas sous tot s base.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPasSousTotSBase($pasSousTotSBase) {
+    public function setPasSousTotSBase(?bool $pasSousTotSBase): ConstantesEntreprise {
         $this->pasSousTotSBase = $pasSousTotSBase;
         return $this;
     }
@@ -6021,10 +6022,10 @@ class ConstantesEntreprise {
     /**
      * Set the passage35 h fait.
      *
-     * @param bool $passage35HFait The passage35 h fait.
+     * @param bool|null $passage35HFait The passage35 h fait.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPassage35HFait($passage35HFait) {
+    public function setPassage35HFait(?bool $passage35HFait): ConstantesEntreprise {
         $this->passage35HFait = $passage35HFait;
         return $this;
     }
@@ -6032,10 +6033,10 @@ class ConstantesEntreprise {
     /**
      * Set the path virement.
      *
-     * @param string $pathVirement The path virement.
+     * @param string|null $pathVirement The path virement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPathVirement($pathVirement) {
+    public function setPathVirement(?string $pathVirement): ConstantesEntreprise {
         $this->pathVirement = $pathVirement;
         return $this;
     }
@@ -6046,7 +6047,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $periodeIPaie The periode i paie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPeriodeIPaie(DateTime $periodeIPaie = null) {
+    public function setPeriodeIPaie(?DateTime $periodeIPaie): ConstantesEntreprise {
         $this->periodeIPaie = $periodeIPaie;
         return $this;
     }
@@ -6057,7 +6058,7 @@ class ConstantesEntreprise {
      * @param DateTime|null $periodePaie The periode paie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPeriodePaie(DateTime $periodePaie = null) {
+    public function setPeriodePaie(?DateTime $periodePaie): ConstantesEntreprise {
         $this->periodePaie = $periodePaie;
         return $this;
     }
@@ -6065,10 +6066,10 @@ class ConstantesEntreprise {
     /**
      * Set the pj mail c li ducs edi.
      *
-     * @param bool $pjMailCLiDucsEdi The pj mail c li ducs edi.
+     * @param bool|null $pjMailCLiDucsEdi The pj mail c li ducs edi.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPjMailCLiDucsEdi($pjMailCLiDucsEdi) {
+    public function setPjMailCLiDucsEdi(?bool $pjMailCLiDucsEdi): ConstantesEntreprise {
         $this->pjMailCLiDucsEdi = $pjMailCLiDucsEdi;
         return $this;
     }
@@ -6076,10 +6077,10 @@ class ConstantesEntreprise {
     /**
      * Set the pj mail cli coupon paiement.
      *
-     * @param bool $pjMailCliCouponPaiement The pj mail cli coupon paiement.
+     * @param bool|null $pjMailCliCouponPaiement The pj mail cli coupon paiement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPjMailCliCouponPaiement($pjMailCliCouponPaiement) {
+    public function setPjMailCliCouponPaiement(?bool $pjMailCliCouponPaiement): ConstantesEntreprise {
         $this->pjMailCliCouponPaiement = $pjMailCliCouponPaiement;
         return $this;
     }
@@ -6087,10 +6088,10 @@ class ConstantesEntreprise {
     /**
      * Set the plafond.
      *
-     * @param float $plafond The plafond.
+     * @param float|null $plafond The plafond.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPlafond($plafond) {
+    public function setPlafond(?float $plafond): ConstantesEntreprise {
         $this->plafond = $plafond;
         return $this;
     }
@@ -6098,10 +6099,10 @@ class ConstantesEntreprise {
     /**
      * Set the porta frais sante certif trav.
      *
-     * @param bool $portaFraisSanteCertifTrav The porta frais sante certif trav.
+     * @param bool|null $portaFraisSanteCertifTrav The porta frais sante certif trav.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPortaFraisSanteCertifTrav($portaFraisSanteCertifTrav) {
+    public function setPortaFraisSanteCertifTrav(?bool $portaFraisSanteCertifTrav): ConstantesEntreprise {
         $this->portaFraisSanteCertifTrav = $portaFraisSanteCertifTrav;
         return $this;
     }
@@ -6109,10 +6110,10 @@ class ConstantesEntreprise {
     /**
      * Set the porta prevoyance oblig.
      *
-     * @param bool $portaPrevoyanceOblig The porta prevoyance oblig.
+     * @param bool|null $portaPrevoyanceOblig The porta prevoyance oblig.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPortaPrevoyanceOblig($portaPrevoyanceOblig) {
+    public function setPortaPrevoyanceOblig(?bool $portaPrevoyanceOblig): ConstantesEntreprise {
         $this->portaPrevoyanceOblig = $portaPrevoyanceOblig;
         return $this;
     }
@@ -6120,10 +6121,10 @@ class ConstantesEntreprise {
     /**
      * Set the preparation tdp.
      *
-     * @param bool $preparationTdp The preparation tdp.
+     * @param bool|null $preparationTdp The preparation tdp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPreparationTdp($preparationTdp) {
+    public function setPreparationTdp(?bool $preparationTdp): ConstantesEntreprise {
         $this->preparationTdp = $preparationTdp;
         return $this;
     }
@@ -6131,10 +6132,10 @@ class ConstantesEntreprise {
     /**
      * Set the presence min.
      *
-     * @param string $presenceMin The presence min.
+     * @param string|null $presenceMin The presence min.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setPresenceMin($presenceMin) {
+    public function setPresenceMin(?string $presenceMin): ConstantesEntreprise {
         $this->presenceMin = $presenceMin;
         return $this;
     }
@@ -6142,43 +6143,21 @@ class ConstantesEntreprise {
     /**
      * Set the prorata dif certif trav.
      *
-     * @param bool $prorataDifCertifTrav The prorata dif certif trav.
+     * @param bool|null $prorataDifCertifTrav The prorata dif certif trav.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setProrataDifCertifTrav($prorataDifCertifTrav) {
+    public function setProrataDifCertifTrav(?bool $prorataDifCertifTrav): ConstantesEntreprise {
         $this->prorataDifCertifTrav = $prorataDifCertifTrav;
-        return $this;
-    }
-
-    /**
-     * Set the raz commentaire.
-     *
-     * @param string $razCommentaire The raz commentaire.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setRazCommentaire($razCommentaire) {
-        $this->razCommentaire = $razCommentaire;
-        return $this;
-    }
-
-    /**
-     * Set the raz h sup.
-     *
-     * @param string $razHSup The raz h sup.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setRazHSup($razHSup) {
-        $this->razHSup = $razHSup;
         return $this;
     }
 
     /**
      * Set the rdlpascii.
      *
-     * @param bool $rdlpascii The rdlpascii.
+     * @param bool|null $rdlpascii The rdlpascii.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setRdlpascii($rdlpascii) {
+    public function setRdlpascii(?bool $rdlpascii): ConstantesEntreprise {
         $this->rdlpascii = $rdlpascii;
         return $this;
     }
@@ -6186,21 +6165,43 @@ class ConstantesEntreprise {
     /**
      * Set the rdlpemployes.
      *
-     * @param bool $rdlpemployes The rdlpemployes.
+     * @param bool|null $rdlpemployes The rdlpemployes.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setRdlpemployes($rdlpemployes) {
+    public function setRdlpemployes(?bool $rdlpemployes): ConstantesEntreprise {
         $this->rdlpemployes = $rdlpemployes;
+        return $this;
+    }
+
+    /**
+     * Set the raz commentaire.
+     *
+     * @param string|null $razCommentaire The raz commentaire.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setRazCommentaire(?string $razCommentaire): ConstantesEntreprise {
+        $this->razCommentaire = $razCommentaire;
+        return $this;
+    }
+
+    /**
+     * Set the raz h sup.
+     *
+     * @param string|null $razHSup The raz h sup.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setRazHSup(?string $razHSup): ConstantesEntreprise {
+        $this->razHSup = $razHSup;
         return $this;
     }
 
     /**
      * Set the ref remise.
      *
-     * @param int $refRemise The ref remise.
+     * @param int|null $refRemise The ref remise.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setRefRemise($refRemise) {
+    public function setRefRemise(?int $refRemise): ConstantesEntreprise {
         $this->refRemise = $refRemise;
         return $this;
     }
@@ -6208,10 +6209,10 @@ class ConstantesEntreprise {
     /**
      * Set the ref trans.
      *
-     * @param int $refTrans The ref trans.
+     * @param int|null $refTrans The ref trans.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setRefTrans($refTrans) {
+    public function setRefTrans(?int $refTrans): ConstantesEntreprise {
         $this->refTrans = $refTrans;
         return $this;
     }
@@ -6219,10 +6220,10 @@ class ConstantesEntreprise {
     /**
      * Set the reference interne virement.
      *
-     * @param string $referenceInterneVirement The reference interne virement.
+     * @param string|null $referenceInterneVirement The reference interne virement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setReferenceInterneVirement($referenceInterneVirement) {
+    public function setReferenceInterneVirement(?string $referenceInterneVirement): ConstantesEntreprise {
         $this->referenceInterneVirement = $referenceInterneVirement;
         return $this;
     }
@@ -6230,10 +6231,10 @@ class ConstantesEntreprise {
     /**
      * Set the regroup lib ed bul.
      *
-     * @param bool $regroupLibEdBul The regroup lib ed bul.
+     * @param bool|null $regroupLibEdBul The regroup lib ed bul.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setRegroupLibEdBul($regroupLibEdBul) {
+    public function setRegroupLibEdBul(?bool $regroupLibEdBul): ConstantesEntreprise {
         $this->regroupLibEdBul = $regroupLibEdBul;
         return $this;
     }
@@ -6241,10 +6242,10 @@ class ConstantesEntreprise {
     /**
      * Set the report minimum.
      *
-     * @param int $reportMinimum The report minimum.
+     * @param int|null $reportMinimum The report minimum.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setReportMinimum($reportMinimum) {
+    public function setReportMinimum(?int $reportMinimum): ConstantesEntreprise {
         $this->reportMinimum = $reportMinimum;
         return $this;
     }
@@ -6252,10 +6253,10 @@ class ConstantesEntreprise {
     /**
      * Set the retraite97.
      *
-     * @param bool $retraite97 The retraite97.
+     * @param bool|null $retraite97 The retraite97.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setRetraite97($retraite97) {
+    public function setRetraite97(?bool $retraite97): ConstantesEntreprise {
         $this->retraite97 = $retraite97;
         return $this;
     }
@@ -6263,10 +6264,10 @@ class ConstantesEntreprise {
     /**
      * Set the sais plan emp sem.
      *
-     * @param string $saisPlanEmpSem The sais plan emp sem.
+     * @param string|null $saisPlanEmpSem The sais plan emp sem.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setSaisPlanEmpSem($saisPlanEmpSem) {
+    public function setSaisPlanEmpSem(?string $saisPlanEmpSem): ConstantesEntreprise {
         $this->saisPlanEmpSem = $saisPlanEmpSem;
         return $this;
     }
@@ -6274,10 +6275,10 @@ class ConstantesEntreprise {
     /**
      * Set the saisie indice bul.
      *
-     * @param bool $saisieIndiceBul The saisie indice bul.
+     * @param bool|null $saisieIndiceBul The saisie indice bul.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setSaisieIndiceBul($saisieIndiceBul) {
+    public function setSaisieIndiceBul(?bool $saisieIndiceBul): ConstantesEntreprise {
         $this->saisieIndiceBul = $saisieIndiceBul;
         return $this;
     }
@@ -6285,10 +6286,10 @@ class ConstantesEntreprise {
     /**
      * Set the saut page.
      *
-     * @param bool $sautPage The saut page.
+     * @param bool|null $sautPage The saut page.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setSautPage($sautPage) {
+    public function setSautPage(?bool $sautPage): ConstantesEntreprise {
         $this->sautPage = $sautPage;
         return $this;
     }
@@ -6296,10 +6297,10 @@ class ConstantesEntreprise {
     /**
      * Set the seuil.
      *
-     * @param float $seuil The seuil.
+     * @param float|null $seuil The seuil.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setSeuil($seuil) {
+    public function setSeuil(?float $seuil): ConstantesEntreprise {
         $this->seuil = $seuil;
         return $this;
     }
@@ -6307,10 +6308,10 @@ class ConstantesEntreprise {
     /**
      * Set the seuil conting.
      *
-     * @param float $seuilConting The seuil conting.
+     * @param float|null $seuilConting The seuil conting.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setSeuilConting($seuilConting) {
+    public function setSeuilConting(?float $seuilConting): ConstantesEntreprise {
         $this->seuilConting = $seuilConting;
         return $this;
     }
@@ -6318,10 +6319,10 @@ class ConstantesEntreprise {
     /**
      * Set the stc auto.
      *
-     * @param bool $stcAuto The stc auto.
+     * @param bool|null $stcAuto The stc auto.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setStcAuto($stcAuto) {
+    public function setStcAuto(?bool $stcAuto): ConstantesEntreprise {
         $this->stcAuto = $stcAuto;
         return $this;
     }
@@ -6329,10 +6330,10 @@ class ConstantesEntreprise {
     /**
      * Set the tab bord tri etablissement.
      *
-     * @param bool $tabBordTriEtablissement The tab bord tri etablissement.
+     * @param bool|null $tabBordTriEtablissement The tab bord tri etablissement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTabBordTriEtablissement($tabBordTriEtablissement) {
+    public function setTabBordTriEtablissement(?bool $tabBordTriEtablissement): ConstantesEntreprise {
         $this->tabBordTriEtablissement = $tabBordTriEtablissement;
         return $this;
     }
@@ -6340,10 +6341,10 @@ class ConstantesEntreprise {
     /**
      * Set the tab bord tri service.
      *
-     * @param bool $tabBordTriService The tab bord tri service.
+     * @param bool|null $tabBordTriService The tab bord tri service.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTabBordTriService($tabBordTriService) {
+    public function setTabBordTriService(?bool $tabBordTriService): ConstantesEntreprise {
         $this->tabBordTriService = $tabBordTriService;
         return $this;
     }
@@ -6351,10 +6352,10 @@ class ConstantesEntreprise {
     /**
      * Set the tableau charge.
      *
-     * @param string $tableauCharge The tableau charge.
+     * @param string|null $tableauCharge The tableau charge.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTableauCharge($tableauCharge) {
+    public function setTableauCharge(?string $tableauCharge): ConstantesEntreprise {
         $this->tableauCharge = $tableauCharge;
         return $this;
     }
@@ -6362,10 +6363,10 @@ class ConstantesEntreprise {
     /**
      * Set the tds annee.
      *
-     * @param int $tdsAnnee The tds annee.
+     * @param int|null $tdsAnnee The tds annee.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTdsAnnee($tdsAnnee) {
+    public function setTdsAnnee(?int $tdsAnnee): ConstantesEntreprise {
         $this->tdsAnnee = $tdsAnnee;
         return $this;
     }
@@ -6373,10 +6374,10 @@ class ConstantesEntreprise {
     /**
      * Set the tds euro.
      *
-     * @param bool $tdsEuro The tds euro.
+     * @param bool|null $tdsEuro The tds euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTdsEuro($tdsEuro) {
+    public function setTdsEuro(?bool $tdsEuro): ConstantesEntreprise {
         $this->tdsEuro = $tdsEuro;
         return $this;
     }
@@ -6384,10 +6385,10 @@ class ConstantesEntreprise {
     /**
      * Set the tot gene isole.
      *
-     * @param string $totGeneIsole The tot gene isole.
+     * @param string|null $totGeneIsole The tot gene isole.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTotGeneIsole($totGeneIsole) {
+    public function setTotGeneIsole(?string $totGeneIsole): ConstantesEntreprise {
         $this->totGeneIsole = $totGeneIsole;
         return $this;
     }
@@ -6395,10 +6396,10 @@ class ConstantesEntreprise {
     /**
      * Set the tot service isole.
      *
-     * @param string $totServiceIsole The tot service isole.
+     * @param string|null $totServiceIsole The tot service isole.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTotServiceIsole($totServiceIsole) {
+    public function setTotServiceIsole(?string $totServiceIsole): ConstantesEntreprise {
         $this->totServiceIsole = $totServiceIsole;
         return $this;
     }
@@ -6406,10 +6407,10 @@ class ConstantesEntreprise {
     /**
      * Set the total etab isole.
      *
-     * @param string $totalEtabIsole The total etab isole.
+     * @param string|null $totalEtabIsole The total etab isole.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTotalEtabIsole($totalEtabIsole) {
+    public function setTotalEtabIsole(?string $totalEtabIsole): ConstantesEntreprise {
         $this->totalEtabIsole = $totalEtabIsole;
         return $this;
     }
@@ -6417,10 +6418,10 @@ class ConstantesEntreprise {
     /**
      * Set the trans rupture.
      *
-     * @param string $transRupture The trans rupture.
+     * @param string|null $transRupture The trans rupture.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTransRupture($transRupture) {
+    public function setTransRupture(?string $transRupture): ConstantesEntreprise {
         $this->transRupture = $transRupture;
         return $this;
     }
@@ -6428,10 +6429,10 @@ class ConstantesEntreprise {
     /**
      * Set the trans tri etablissement.
      *
-     * @param string $transTriEtablissement The trans tri etablissement.
+     * @param string|null $transTriEtablissement The trans tri etablissement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTransTriEtablissement($transTriEtablissement) {
+    public function setTransTriEtablissement(?string $transTriEtablissement): ConstantesEntreprise {
         $this->transTriEtablissement = $transTriEtablissement;
         return $this;
     }
@@ -6439,10 +6440,10 @@ class ConstantesEntreprise {
     /**
      * Set the transfert tds emp.
      *
-     * @param bool $transfertTdsEmp The transfert tds emp.
+     * @param bool|null $transfertTdsEmp The transfert tds emp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTransfertTdsEmp($transfertTdsEmp) {
+    public function setTransfertTdsEmp(?bool $transfertTdsEmp): ConstantesEntreprise {
         $this->transfertTdsEmp = $transfertTdsEmp;
         return $this;
     }
@@ -6450,10 +6451,10 @@ class ConstantesEntreprise {
     /**
      * Set the tri employe.
      *
-     * @param string $triEmploye The tri employe.
+     * @param string|null $triEmploye The tri employe.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTriEmploye($triEmploye) {
+    public function setTriEmploye(?string $triEmploye): ConstantesEntreprise {
         $this->triEmploye = $triEmploye;
         return $this;
     }
@@ -6461,10 +6462,10 @@ class ConstantesEntreprise {
     /**
      * Set the tx sal decote.
      *
-     * @param float $txSalDecote The tx sal decote.
+     * @param float|null $txSalDecote The tx sal decote.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTxSalDecote($txSalDecote) {
+    public function setTxSalDecote(?float $txSalDecote): ConstantesEntreprise {
         $this->txSalDecote = $txSalDecote;
         return $this;
     }
@@ -6472,10 +6473,10 @@ class ConstantesEntreprise {
     /**
      * Set the type abs sans solde.
      *
-     * @param string $typeAbsSansSolde The type abs sans solde.
+     * @param string|null $typeAbsSansSolde The type abs sans solde.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeAbsSansSolde($typeAbsSansSolde) {
+    public function setTypeAbsSansSolde(?string $typeAbsSansSolde): ConstantesEntreprise {
         $this->typeAbsSansSolde = $typeAbsSansSolde;
         return $this;
     }
@@ -6483,10 +6484,10 @@ class ConstantesEntreprise {
     /**
      * Set the type agrement aem.
      *
-     * @param string $typeAgrementAem The type agrement aem.
+     * @param string|null $typeAgrementAem The type agrement aem.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeAgrementAem($typeAgrementAem) {
+    public function setTypeAgrementAem(?string $typeAgrementAem): ConstantesEntreprise {
         $this->typeAgrementAem = $typeAgrementAem;
         return $this;
     }
@@ -6494,10 +6495,10 @@ class ConstantesEntreprise {
     /**
      * Set the type bordereau prepa.
      *
-     * @param string $typeBordereauPrepa The type bordereau prepa.
+     * @param string|null $typeBordereauPrepa The type bordereau prepa.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeBordereauPrepa($typeBordereauPrepa) {
+    public function setTypeBordereauPrepa(?string $typeBordereauPrepa): ConstantesEntreprise {
         $this->typeBordereauPrepa = $typeBordereauPrepa;
         return $this;
     }
@@ -6505,43 +6506,43 @@ class ConstantesEntreprise {
     /**
      * Set the type bulletin.
      *
-     * @param string $typeBulletin The type bulletin.
+     * @param string|null $typeBulletin The type bulletin.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeBulletin($typeBulletin) {
+    public function setTypeBulletin(?string $typeBulletin): ConstantesEntreprise {
         $this->typeBulletin = $typeBulletin;
-        return $this;
-    }
-
-    /**
-     * Set the type dossier.
-     *
-     * @param string $typeDossier The type dossier.
-     * @return ConstantesEntreprise Returns this Constantes entreprise.
-     */
-    public function setTypeDossier($typeDossier) {
-        $this->typeDossier = $typeDossier;
         return $this;
     }
 
     /**
      * Set the type due.
      *
-     * @param string $typeDue The type due.
+     * @param string|null $typeDue The type due.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeDue($typeDue) {
+    public function setTypeDue(?string $typeDue): ConstantesEntreprise {
         $this->typeDue = $typeDue;
+        return $this;
+    }
+
+    /**
+     * Set the type dossier.
+     *
+     * @param string|null $typeDossier The type dossier.
+     * @return ConstantesEntreprise Returns this Constantes entreprise.
+     */
+    public function setTypeDossier(?string $typeDossier): ConstantesEntreprise {
+        $this->typeDossier = $typeDossier;
         return $this;
     }
 
     /**
      * Set the type effectif.
      *
-     * @param string $typeEffectif The type effectif.
+     * @param string|null $typeEffectif The type effectif.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeEffectif($typeEffectif) {
+    public function setTypeEffectif(?string $typeEffectif): ConstantesEntreprise {
         $this->typeEffectif = $typeEffectif;
         return $this;
     }
@@ -6549,10 +6550,10 @@ class ConstantesEntreprise {
     /**
      * Set the type fich bilat.
      *
-     * @param string $typeFichBilat The type fich bilat.
+     * @param string|null $typeFichBilat The type fich bilat.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeFichBilat($typeFichBilat) {
+    public function setTypeFichBilat(?string $typeFichBilat): ConstantesEntreprise {
         $this->typeFichBilat = $typeFichBilat;
         return $this;
     }
@@ -6560,10 +6561,10 @@ class ConstantesEntreprise {
     /**
      * Set the type gestion bal.
      *
-     * @param string $typeGestionBal The type gestion bal.
+     * @param string|null $typeGestionBal The type gestion bal.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeGestionBal($typeGestionBal) {
+    public function setTypeGestionBal(?string $typeGestionBal): ConstantesEntreprise {
         $this->typeGestionBal = $typeGestionBal;
         return $this;
     }
@@ -6571,10 +6572,10 @@ class ConstantesEntreprise {
     /**
      * Set the type modele.
      *
-     * @param string $typeModele The type modele.
+     * @param string|null $typeModele The type modele.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeModele($typeModele) {
+    public function setTypeModele(?string $typeModele): ConstantesEntreprise {
         $this->typeModele = $typeModele;
         return $this;
     }
@@ -6582,10 +6583,10 @@ class ConstantesEntreprise {
     /**
      * Set the type prep dadsu.
      *
-     * @param string $typePrepDadsu The type prep dadsu.
+     * @param string|null $typePrepDadsu The type prep dadsu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypePrepDadsu($typePrepDadsu) {
+    public function setTypePrepDadsu(?string $typePrepDadsu): ConstantesEntreprise {
         $this->typePrepDadsu = $typePrepDadsu;
         return $this;
     }
@@ -6593,10 +6594,10 @@ class ConstantesEntreprise {
     /**
      * Set the type saisie abs.
      *
-     * @param string $typeSaisieAbs The type saisie abs.
+     * @param string|null $typeSaisieAbs The type saisie abs.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeSaisieAbs($typeSaisieAbs) {
+    public function setTypeSaisieAbs(?string $typeSaisieAbs): ConstantesEntreprise {
         $this->typeSaisieAbs = $typeSaisieAbs;
         return $this;
     }
@@ -6604,10 +6605,10 @@ class ConstantesEntreprise {
     /**
      * Set the type saisie absence.
      *
-     * @param string $typeSaisieAbsence The type saisie absence.
+     * @param string|null $typeSaisieAbsence The type saisie absence.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeSaisieAbsence($typeSaisieAbsence) {
+    public function setTypeSaisieAbsence(?string $typeSaisieAbsence): ConstantesEntreprise {
         $this->typeSaisieAbsence = $typeSaisieAbsence;
         return $this;
     }
@@ -6615,10 +6616,10 @@ class ConstantesEntreprise {
     /**
      * Set the type stc.
      *
-     * @param string $typeStc The type stc.
+     * @param string|null $typeStc The type stc.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeStc($typeStc) {
+    public function setTypeStc(?string $typeStc): ConstantesEntreprise {
         $this->typeStc = $typeStc;
         return $this;
     }
@@ -6626,10 +6627,10 @@ class ConstantesEntreprise {
     /**
      * Set the type taux intemperie.
      *
-     * @param string $typeTauxIntemperie The type taux intemperie.
+     * @param string|null $typeTauxIntemperie The type taux intemperie.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeTauxIntemperie($typeTauxIntemperie) {
+    public function setTypeTauxIntemperie(?string $typeTauxIntemperie): ConstantesEntreprise {
         $this->typeTauxIntemperie = $typeTauxIntemperie;
         return $this;
     }
@@ -6637,10 +6638,10 @@ class ConstantesEntreprise {
     /**
      * Set the type tri.
      *
-     * @param string $typeTri The type tri.
+     * @param string|null $typeTri The type tri.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeTri($typeTri) {
+    public function setTypeTri(?string $typeTri): ConstantesEntreprise {
         $this->typeTri = $typeTri;
         return $this;
     }
@@ -6648,10 +6649,10 @@ class ConstantesEntreprise {
     /**
      * Set the type virement.
      *
-     * @param string $typeVirement The type virement.
+     * @param string|null $typeVirement The type virement.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeVirement($typeVirement) {
+    public function setTypeVirement(?string $typeVirement): ConstantesEntreprise {
         $this->typeVirement = $typeVirement;
         return $this;
     }
@@ -6659,10 +6660,10 @@ class ConstantesEntreprise {
     /**
      * Set the type visu col saisie bul.
      *
-     * @param string $typeVisuColSaisieBul The type visu col saisie bul.
+     * @param string|null $typeVisuColSaisieBul The type visu col saisie bul.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setTypeVisuColSaisieBul($typeVisuColSaisieBul) {
+    public function setTypeVisuColSaisieBul(?string $typeVisuColSaisieBul): ConstantesEntreprise {
         $this->typeVisuColSaisieBul = $typeVisuColSaisieBul;
         return $this;
     }
@@ -6670,10 +6671,10 @@ class ConstantesEntreprise {
     /**
      * Set the utilise pdp quadra.
      *
-     * @param bool $utilisePdpQuadra The utilise pdp quadra.
+     * @param bool|null $utilisePdpQuadra The utilise pdp quadra.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setUtilisePdpQuadra($utilisePdpQuadra) {
+    public function setUtilisePdpQuadra(?bool $utilisePdpQuadra): ConstantesEntreprise {
         $this->utilisePdpQuadra = $utilisePdpQuadra;
         return $this;
     }
@@ -6681,10 +6682,10 @@ class ConstantesEntreprise {
     /**
      * Set the utilise pdp quadra2.
      *
-     * @param bool $utilisePdpQuadra2 The utilise pdp quadra2.
+     * @param bool|null $utilisePdpQuadra2 The utilise pdp quadra2.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setUtilisePdpQuadra2($utilisePdpQuadra2) {
+    public function setUtilisePdpQuadra2(?bool $utilisePdpQuadra2): ConstantesEntreprise {
         $this->utilisePdpQuadra2 = $utilisePdpQuadra2;
         return $this;
     }
@@ -6692,10 +6693,10 @@ class ConstantesEntreprise {
     /**
      * Set the val cp bulletin.
      *
-     * @param bool $valCpBulletin The val cp bulletin.
+     * @param bool|null $valCpBulletin The val cp bulletin.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setValCpBulletin($valCpBulletin) {
+    public function setValCpBulletin(?bool $valCpBulletin): ConstantesEntreprise {
         $this->valCpBulletin = $valCpBulletin;
         return $this;
     }
@@ -6703,10 +6704,10 @@ class ConstantesEntreprise {
     /**
      * Set the val filtre liste emp.
      *
-     * @param int $valFiltreListeEmp The val filtre liste emp.
+     * @param int|null $valFiltreListeEmp The val filtre liste emp.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setValFiltreListeEmp($valFiltreListeEmp) {
+    public function setValFiltreListeEmp(?int $valFiltreListeEmp): ConstantesEntreprise {
         $this->valFiltreListeEmp = $valFiltreListeEmp;
         return $this;
     }
@@ -6714,10 +6715,10 @@ class ConstantesEntreprise {
     /**
      * Set the version controle dadsu.
      *
-     * @param int $versionControleDadsu The version controle dadsu.
+     * @param int|null $versionControleDadsu The version controle dadsu.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVersionControleDadsu($versionControleDadsu) {
+    public function setVersionControleDadsu(?int $versionControleDadsu): ConstantesEntreprise {
         $this->versionControleDadsu = $versionControleDadsu;
         return $this;
     }
@@ -6725,10 +6726,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir code etab.
      *
-     * @param string $virCodeEtab The vir code etab.
+     * @param string|null $virCodeEtab The vir code etab.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirCodeEtab($virCodeEtab) {
+    public function setVirCodeEtab(?string $virCodeEtab): ConstantesEntreprise {
         $this->virCodeEtab = $virCodeEtab;
         return $this;
     }
@@ -6736,10 +6737,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir collectivite.
      *
-     * @param string $virCollectivite The vir collectivite.
+     * @param string|null $virCollectivite The vir collectivite.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirCollectivite($virCollectivite) {
+    public function setVirCollectivite(?string $virCollectivite): ConstantesEntreprise {
         $this->virCollectivite = $virCollectivite;
         return $this;
     }
@@ -6747,10 +6748,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir comptable centre.
      *
-     * @param string $virComptableCentre The vir comptable centre.
+     * @param string|null $virComptableCentre The vir comptable centre.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirComptableCentre($virComptableCentre) {
+    public function setVirComptableCentre(?string $virComptableCentre): ConstantesEntreprise {
         $this->virComptableCentre = $virComptableCentre;
         return $this;
     }
@@ -6758,10 +6759,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir comptable sub.
      *
-     * @param string $virComptableSub The vir comptable sub.
+     * @param string|null $virComptableSub The vir comptable sub.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirComptableSub($virComptableSub) {
+    public function setVirComptableSub(?string $virComptableSub): ConstantesEntreprise {
         $this->virComptableSub = $virComptableSub;
         return $this;
     }
@@ -6769,10 +6770,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir fonction publique.
      *
-     * @param bool $virFonctionPublique The vir fonction publique.
+     * @param bool|null $virFonctionPublique The vir fonction publique.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirFonctionPublique($virFonctionPublique) {
+    public function setVirFonctionPublique(?bool $virFonctionPublique): ConstantesEntreprise {
         $this->virFonctionPublique = $virFonctionPublique;
         return $this;
     }
@@ -6780,10 +6781,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir seuil.
      *
-     * @param float $virSeuil The vir seuil.
+     * @param float|null $virSeuil The vir seuil.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirSeuil($virSeuil) {
+    public function setVirSeuil(?float $virSeuil): ConstantesEntreprise {
         $this->virSeuil = $virSeuil;
         return $this;
     }
@@ -6791,10 +6792,10 @@ class ConstantesEntreprise {
     /**
      * Set the vir type etab.
      *
-     * @param string $virTypeEtab The vir type etab.
+     * @param string|null $virTypeEtab The vir type etab.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirTypeEtab($virTypeEtab) {
+    public function setVirTypeEtab(?string $virTypeEtab): ConstantesEntreprise {
         $this->virTypeEtab = $virTypeEtab;
         return $this;
     }
@@ -6802,10 +6803,10 @@ class ConstantesEntreprise {
     /**
      * Set the virement cr lf.
      *
-     * @param bool $virementCrLf The virement cr lf.
+     * @param bool|null $virementCrLf The virement cr lf.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirementCrLf($virementCrLf) {
+    public function setVirementCrLf(?bool $virementCrLf): ConstantesEntreprise {
         $this->virementCrLf = $virementCrLf;
         return $this;
     }
@@ -6813,10 +6814,10 @@ class ConstantesEntreprise {
     /**
      * Set the virements euro.
      *
-     * @param string $virementsEuro The virements euro.
+     * @param string|null $virementsEuro The virements euro.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setVirementsEuro($virementsEuro) {
+    public function setVirementsEuro(?string $virementsEuro): ConstantesEntreprise {
         $this->virementsEuro = $virementsEuro;
         return $this;
     }
@@ -6824,10 +6825,10 @@ class ConstantesEntreprise {
     /**
      * Set the web prioritaire.
      *
-     * @param bool $webPrioritaire The web prioritaire.
+     * @param bool|null $webPrioritaire The web prioritaire.
      * @return ConstantesEntreprise Returns this Constantes entreprise.
      */
-    public function setWebPrioritaire($webPrioritaire) {
+    public function setWebPrioritaire(?bool $webPrioritaire): ConstantesEntreprise {
         $this->webPrioritaire = $webPrioritaire;
         return $this;
     }

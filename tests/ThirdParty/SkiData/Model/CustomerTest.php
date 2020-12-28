@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Entity;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Model;
 
 use DateTime;
 use Exception;
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\Customer;
  * Customer test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Entity
+ * @package WBW\Library\Core\Tests\SkiData\Model
  */
 class CustomerTest extends AbstractTestCase {
 
@@ -29,7 +29,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccountingNumber() {
+    public function testSetAccountingNumber(): void {
 
         $obj = new Customer();
 
@@ -43,7 +43,7 @@ class CustomerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetBeginDate() {
+    public function testSetBeginDate(): void {
 
         $obj = new Customer();
 
@@ -56,7 +56,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCity() {
+    public function testSetCity(): void {
 
         $obj = new Customer();
 
@@ -69,7 +69,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCountingNeutralCards() {
+    public function testSetCountingNeutralCards(): void {
 
         $obj = new Customer();
 
@@ -82,7 +82,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCountry() {
+    public function testSetCountry(): void {
 
         $obj = new Customer();
 
@@ -95,7 +95,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeposit() {
+    public function testSetDeposit(): void {
 
         $obj = new Customer();
 
@@ -108,7 +108,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEntryMaxLevelAllowed() {
+    public function testSetEntryMaxLevelAllowed(): void {
 
         $obj = new Customer();
 
@@ -121,7 +121,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdDocumentNo() {
+    public function testSetIdDocumentNo(): void {
 
         $obj = new Customer();
 
@@ -134,7 +134,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaxLevelCarPark() {
+    public function testSetMaxLevelCarPark(): void {
 
         $obj = new Customer();
 
@@ -147,7 +147,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaximumLevel() {
+    public function testSetMaximumLevel(): void {
 
         $obj = new Customer();
 
@@ -160,7 +160,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNationality() {
+    public function testSetNationality(): void {
 
         $obj = new Customer();
 
@@ -173,7 +173,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPCode() {
+    public function testSetPCode(): void {
 
         $obj = new Customer();
 
@@ -186,7 +186,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRentalAgreementNo() {
+    public function testSetRentalAgreementNo(): void {
 
         $obj = new Customer();
 
@@ -199,7 +199,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStreet() {
+    public function testSetStreet(): void {
 
         $obj = new Customer();
 
@@ -212,7 +212,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxCode() {
+    public function testSetTaxCode(): void {
 
         $obj = new Customer();
 
@@ -225,7 +225,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelephone() {
+    public function testSetTelephone(): void {
 
         $obj = new Customer();
 
@@ -239,7 +239,7 @@ class CustomerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTerminationDate() {
+    public function testSetTerminationDate(): void {
 
         $obj = new Customer();
 
@@ -252,7 +252,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTicketReturnAllowed() {
+    public function testSetTicketReturnAllowed(): void {
 
         $obj = new Customer();
 
@@ -265,7 +265,7 @@ class CustomerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new Customer();
 

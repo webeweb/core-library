@@ -22,25 +22,25 @@ trait StringCountryTrait {
     /**
      * Country.
      *
-     * @var string
+     * @var string|null
      */
     protected $country;
 
     /**
      * Get the country.
      *
-     * @return string Returns the country.
+     * @return string|null Returns the country.
      */
-    public function getCountry() {
+    public function getCountry(): ?string {
         return $this->country;
     }
 
     /**
      * Set the country.
      *
-     * @param string $country The country.
+     * @param string|null $country The country.
      */
-    public function setCountry($country) {
+    public function setCountry(?string $country) {
         $this->country = $country;
         return $this;
     }

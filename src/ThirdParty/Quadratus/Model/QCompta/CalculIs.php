@@ -22,113 +22,114 @@ class CalculIs {
     /**
      * Correspondance.
      *
-     * @var string
+     * @var string|null
      */
     private $correspondance;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Montant n1.
      *
-     * @var float
+     * @var float|null
      */
     private $montantN1;
 
     /**
      * Num uniq.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniq;
 
     /**
      * Type ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $typeLigne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the correspondance.
      *
-     * @return string Returns the correspondance.
+     * @return string|null Returns the correspondance.
      */
-    public function getCorrespondance() {
+    public function getCorrespondance(): ?string{
         return $this->correspondance;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the montant n1.
      *
-     * @return float Returns the montant n1.
+     * @return float|null Returns the montant n1.
      */
-    public function getMontantN1() {
+    public function getMontantN1(): ?float{
         return $this->montantN1;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return int Returns the num uniq.
+     * @return int|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?int{
         return $this->numUniq;
     }
 
     /**
      * Get the type ligne.
      *
-     * @return string Returns the type ligne.
+     * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne() {
+    public function getTypeLigne(): ?string{
         return $this->typeLigne;
     }
 
     /**
      * Set the correspondance.
      *
-     * @param string $correspondance The correspondance.
+     * @param string|null $correspondance The correspondance.
      * @return CalculIs Returns this Calcul is.
      */
-    public function setCorrespondance($correspondance) {
+    public function setCorrespondance(?string $correspondance): CalculIs {
         $this->correspondance = $correspondance;
         return $this;
     }
@@ -136,10 +137,10 @@ class CalculIs {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return CalculIs Returns this Calcul is.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): CalculIs {
         $this->libelle = $libelle;
         return $this;
     }
@@ -147,10 +148,10 @@ class CalculIs {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return CalculIs Returns this Calcul is.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): CalculIs {
         $this->montant = $montant;
         return $this;
     }
@@ -158,10 +159,10 @@ class CalculIs {
     /**
      * Set the montant n1.
      *
-     * @param float $montantN1 The montant n1.
+     * @param float|null $montantN1 The montant n1.
      * @return CalculIs Returns this Calcul is.
      */
-    public function setMontantN1($montantN1) {
+    public function setMontantN1(?float $montantN1): CalculIs {
         $this->montantN1 = $montantN1;
         return $this;
     }
@@ -169,10 +170,10 @@ class CalculIs {
     /**
      * Set the num uniq.
      *
-     * @param int $numUniq The num uniq.
+     * @param int|null $numUniq The num uniq.
      * @return CalculIs Returns this Calcul is.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?int $numUniq): CalculIs {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -180,10 +181,10 @@ class CalculIs {
     /**
      * Set the type ligne.
      *
-     * @param string $typeLigne The type ligne.
+     * @param string|null $typeLigne The type ligne.
      * @return CalculIs Returns this Calcul is.
      */
-    public function setTypeLigne($typeLigne) {
+    public function setTypeLigne(?string $typeLigne): CalculIs {
         $this->typeLigne = $typeLigne;
         return $this;
     }

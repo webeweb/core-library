@@ -22,145 +22,146 @@ class SousLignesAnalAchats {
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFournisseur;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
     /**
      * Indice ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceLigne;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * No piece.
      *
-     * @var string
+     * @var string|null
      */
     private $noPiece;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Numero ligne anal.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigneAnal;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code fournisseur.
      *
-     * @return string Returns the code fournisseur.
+     * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur() {
+    public function getCodeFournisseur(): ?string{
         return $this->codeFournisseur;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
     /**
      * Get the indice ligne.
      *
-     * @return int Returns the indice ligne.
+     * @return int|null Returns the indice ligne.
      */
-    public function getIndiceLigne() {
+    public function getIndiceLigne(): ?int{
         return $this->indiceLigne;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the no piece.
      *
-     * @return string Returns the no piece.
+     * @return string|null Returns the no piece.
      */
-    public function getNoPiece() {
+    public function getNoPiece(): ?string{
         return $this->noPiece;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the numero ligne anal.
      *
-     * @return int Returns the numero ligne anal.
+     * @return int|null Returns the numero ligne anal.
      */
-    public function getNumeroLigneAnal() {
+    public function getNumeroLigneAnal(): ?int{
         return $this->numeroLigneAnal;
     }
 
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): SousLignesAnalAchats {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -168,10 +169,10 @@ class SousLignesAnalAchats {
     /**
      * Set the code fournisseur.
      *
-     * @param string $codeFournisseur The code fournisseur.
+     * @param string|null $codeFournisseur The code fournisseur.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setCodeFournisseur($codeFournisseur) {
+    public function setCodeFournisseur(?string $codeFournisseur): SousLignesAnalAchats {
         $this->codeFournisseur = $codeFournisseur;
         return $this;
     }
@@ -179,10 +180,10 @@ class SousLignesAnalAchats {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): SousLignesAnalAchats {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -190,10 +191,10 @@ class SousLignesAnalAchats {
     /**
      * Set the indice ligne.
      *
-     * @param int $indiceLigne The indice ligne.
+     * @param int|null $indiceLigne The indice ligne.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setIndiceLigne($indiceLigne) {
+    public function setIndiceLigne(?int $indiceLigne): SousLignesAnalAchats {
         $this->indiceLigne = $indiceLigne;
         return $this;
     }
@@ -201,10 +202,10 @@ class SousLignesAnalAchats {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): SousLignesAnalAchats {
         $this->montant = $montant;
         return $this;
     }
@@ -212,10 +213,10 @@ class SousLignesAnalAchats {
     /**
      * Set the no piece.
      *
-     * @param string $noPiece The no piece.
+     * @param string|null $noPiece The no piece.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setNoPiece($noPiece) {
+    public function setNoPiece(?string $noPiece): SousLignesAnalAchats {
         $this->noPiece = $noPiece;
         return $this;
     }
@@ -223,10 +224,10 @@ class SousLignesAnalAchats {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): SousLignesAnalAchats {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -234,10 +235,10 @@ class SousLignesAnalAchats {
     /**
      * Set the numero ligne anal.
      *
-     * @param int $numeroLigneAnal The numero ligne anal.
+     * @param int|null $numeroLigneAnal The numero ligne anal.
      * @return SousLignesAnalAchats Returns this Sous lignes anal achats.
      */
-    public function setNumeroLigneAnal($numeroLigneAnal) {
+    public function setNumeroLigneAnal(?int $numeroLigneAnal): SousLignesAnalAchats {
         $this->numeroLigneAnal = $numeroLigneAnal;
         return $this;
     }

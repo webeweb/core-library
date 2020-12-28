@@ -24,7 +24,7 @@ class CaisseAttestation {
     /**
      * Collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $collaborateur;
 
@@ -59,100 +59,101 @@ class CaisseAttestation {
     /**
      * Info fichier.
      *
-     * @var string
+     * @var string|null
      */
     private $infoFichier;
 
     /**
      * Licence.
      *
-     * @var string
+     * @var string|null
      */
     private $licence;
 
     /**
      * Nom responsable.
      *
-     * @var string
+     * @var string|null
      */
     private $nomResponsable;
 
     /**
      * Nom ville.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVille;
 
     /**
      * Num version.
      *
-     * @var string
+     * @var string|null
      */
     private $numVersion;
 
     /**
      * Ordinateur.
      *
-     * @var string
+     * @var string|null
      */
     private $ordinateur;
 
     /**
      * Origine.
      *
-     * @var string
+     * @var string|null
      */
     private $origine;
 
     /**
      * Prenom responsable.
      *
-     * @var string
+     * @var string|null
      */
     private $prenomResponsable;
 
     /**
      * Raison sociale distri.
      *
-     * @var string
+     * @var string|null
      */
     private $raisonSocialeDistri;
 
     /**
      * Raison sociale societe.
      *
-     * @var string
+     * @var string|null
      */
     private $raisonSocialeSociete;
 
     /**
      * Uniq id.
      *
-     * @var int
+     * @var int|null
      */
     private $uniqId;
 
     /**
      * Utilisateur.
      *
-     * @var string
+     * @var string|null
      */
     private $utilisateur;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the collaborateur.
      *
-     * @return string Returns the collaborateur.
+     * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur() {
+    public function getCollaborateur(): ?string{
         return $this->collaborateur;
     }
 
@@ -161,7 +162,7 @@ class CaisseAttestation {
      *
      * @return DateTime|null Returns the date acquisition.
      */
-    public function getDateAcquisition() {
+    public function getDateAcquisition(): ?DateTime{
         return $this->dateAcquisition;
     }
 
@@ -170,7 +171,7 @@ class CaisseAttestation {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication() {
+    public function getDateApplication(): ?DateTime{
         return $this->dateApplication;
     }
 
@@ -179,7 +180,7 @@ class CaisseAttestation {
      *
      * @return DateTime|null Returns the date attestation.
      */
-    public function getDateAttestation() {
+    public function getDateAttestation(): ?DateTime{
         return $this->dateAttestation;
     }
 
@@ -188,125 +189,125 @@ class CaisseAttestation {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
     /**
      * Get the info fichier.
      *
-     * @return string Returns the info fichier.
+     * @return string|null Returns the info fichier.
      */
-    public function getInfoFichier() {
+    public function getInfoFichier(): ?string{
         return $this->infoFichier;
     }
 
     /**
      * Get the licence.
      *
-     * @return string Returns the licence.
+     * @return string|null Returns the licence.
      */
-    public function getLicence() {
+    public function getLicence(): ?string{
         return $this->licence;
     }
 
     /**
      * Get the nom responsable.
      *
-     * @return string Returns the nom responsable.
+     * @return string|null Returns the nom responsable.
      */
-    public function getNomResponsable() {
+    public function getNomResponsable(): ?string{
         return $this->nomResponsable;
     }
 
     /**
      * Get the nom ville.
      *
-     * @return string Returns the nom ville.
+     * @return string|null Returns the nom ville.
      */
-    public function getNomVille() {
+    public function getNomVille(): ?string{
         return $this->nomVille;
     }
 
     /**
      * Get the num version.
      *
-     * @return string Returns the num version.
+     * @return string|null Returns the num version.
      */
-    public function getNumVersion() {
+    public function getNumVersion(): ?string{
         return $this->numVersion;
     }
 
     /**
      * Get the ordinateur.
      *
-     * @return string Returns the ordinateur.
+     * @return string|null Returns the ordinateur.
      */
-    public function getOrdinateur() {
+    public function getOrdinateur(): ?string{
         return $this->ordinateur;
     }
 
     /**
      * Get the origine.
      *
-     * @return string Returns the origine.
+     * @return string|null Returns the origine.
      */
-    public function getOrigine() {
+    public function getOrigine(): ?string{
         return $this->origine;
     }
 
     /**
      * Get the prenom responsable.
      *
-     * @return string Returns the prenom responsable.
+     * @return string|null Returns the prenom responsable.
      */
-    public function getPrenomResponsable() {
+    public function getPrenomResponsable(): ?string{
         return $this->prenomResponsable;
     }
 
     /**
      * Get the raison sociale distri.
      *
-     * @return string Returns the raison sociale distri.
+     * @return string|null Returns the raison sociale distri.
      */
-    public function getRaisonSocialeDistri() {
+    public function getRaisonSocialeDistri(): ?string{
         return $this->raisonSocialeDistri;
     }
 
     /**
      * Get the raison sociale societe.
      *
-     * @return string Returns the raison sociale societe.
+     * @return string|null Returns the raison sociale societe.
      */
-    public function getRaisonSocialeSociete() {
+    public function getRaisonSocialeSociete(): ?string{
         return $this->raisonSocialeSociete;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return int Returns the uniq id.
+     * @return int|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?int{
         return $this->uniqId;
     }
 
     /**
      * Get the utilisateur.
      *
-     * @return string Returns the utilisateur.
+     * @return string|null Returns the utilisateur.
      */
-    public function getUtilisateur() {
+    public function getUtilisateur(): ?string{
         return $this->utilisateur;
     }
 
     /**
      * Set the collaborateur.
      *
-     * @param string $collaborateur The collaborateur.
+     * @param string|null $collaborateur The collaborateur.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setCollaborateur($collaborateur) {
+    public function setCollaborateur(?string $collaborateur): CaisseAttestation {
         $this->collaborateur = $collaborateur;
         return $this;
     }
@@ -317,7 +318,7 @@ class CaisseAttestation {
      * @param DateTime|null $dateAcquisition The date acquisition.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setDateAcquisition(DateTime $dateAcquisition = null) {
+    public function setDateAcquisition(?DateTime $dateAcquisition): CaisseAttestation {
         $this->dateAcquisition = $dateAcquisition;
         return $this;
     }
@@ -328,7 +329,7 @@ class CaisseAttestation {
      * @param DateTime|null $dateApplication The date application.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setDateApplication(DateTime $dateApplication = null) {
+    public function setDateApplication(?DateTime $dateApplication): CaisseAttestation {
         $this->dateApplication = $dateApplication;
         return $this;
     }
@@ -339,7 +340,7 @@ class CaisseAttestation {
      * @param DateTime|null $dateAttestation The date attestation.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setDateAttestation(DateTime $dateAttestation = null) {
+    public function setDateAttestation(?DateTime $dateAttestation): CaisseAttestation {
         $this->dateAttestation = $dateAttestation;
         return $this;
     }
@@ -350,7 +351,7 @@ class CaisseAttestation {
      * @param DateTime|null $dateCreation The date creation.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): CaisseAttestation {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -358,10 +359,10 @@ class CaisseAttestation {
     /**
      * Set the info fichier.
      *
-     * @param string $infoFichier The info fichier.
+     * @param string|null $infoFichier The info fichier.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setInfoFichier($infoFichier) {
+    public function setInfoFichier(?string $infoFichier): CaisseAttestation {
         $this->infoFichier = $infoFichier;
         return $this;
     }
@@ -369,10 +370,10 @@ class CaisseAttestation {
     /**
      * Set the licence.
      *
-     * @param string $licence The licence.
+     * @param string|null $licence The licence.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setLicence($licence) {
+    public function setLicence(?string $licence): CaisseAttestation {
         $this->licence = $licence;
         return $this;
     }
@@ -380,10 +381,10 @@ class CaisseAttestation {
     /**
      * Set the nom responsable.
      *
-     * @param string $nomResponsable The nom responsable.
+     * @param string|null $nomResponsable The nom responsable.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setNomResponsable($nomResponsable) {
+    public function setNomResponsable(?string $nomResponsable): CaisseAttestation {
         $this->nomResponsable = $nomResponsable;
         return $this;
     }
@@ -391,10 +392,10 @@ class CaisseAttestation {
     /**
      * Set the nom ville.
      *
-     * @param string $nomVille The nom ville.
+     * @param string|null $nomVille The nom ville.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setNomVille($nomVille) {
+    public function setNomVille(?string $nomVille): CaisseAttestation {
         $this->nomVille = $nomVille;
         return $this;
     }
@@ -402,10 +403,10 @@ class CaisseAttestation {
     /**
      * Set the num version.
      *
-     * @param string $numVersion The num version.
+     * @param string|null $numVersion The num version.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setNumVersion($numVersion) {
+    public function setNumVersion(?string $numVersion): CaisseAttestation {
         $this->numVersion = $numVersion;
         return $this;
     }
@@ -413,10 +414,10 @@ class CaisseAttestation {
     /**
      * Set the ordinateur.
      *
-     * @param string $ordinateur The ordinateur.
+     * @param string|null $ordinateur The ordinateur.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setOrdinateur($ordinateur) {
+    public function setOrdinateur(?string $ordinateur): CaisseAttestation {
         $this->ordinateur = $ordinateur;
         return $this;
     }
@@ -424,10 +425,10 @@ class CaisseAttestation {
     /**
      * Set the origine.
      *
-     * @param string $origine The origine.
+     * @param string|null $origine The origine.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setOrigine($origine) {
+    public function setOrigine(?string $origine): CaisseAttestation {
         $this->origine = $origine;
         return $this;
     }
@@ -435,10 +436,10 @@ class CaisseAttestation {
     /**
      * Set the prenom responsable.
      *
-     * @param string $prenomResponsable The prenom responsable.
+     * @param string|null $prenomResponsable The prenom responsable.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setPrenomResponsable($prenomResponsable) {
+    public function setPrenomResponsable(?string $prenomResponsable): CaisseAttestation {
         $this->prenomResponsable = $prenomResponsable;
         return $this;
     }
@@ -446,10 +447,10 @@ class CaisseAttestation {
     /**
      * Set the raison sociale distri.
      *
-     * @param string $raisonSocialeDistri The raison sociale distri.
+     * @param string|null $raisonSocialeDistri The raison sociale distri.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setRaisonSocialeDistri($raisonSocialeDistri) {
+    public function setRaisonSocialeDistri(?string $raisonSocialeDistri): CaisseAttestation {
         $this->raisonSocialeDistri = $raisonSocialeDistri;
         return $this;
     }
@@ -457,10 +458,10 @@ class CaisseAttestation {
     /**
      * Set the raison sociale societe.
      *
-     * @param string $raisonSocialeSociete The raison sociale societe.
+     * @param string|null $raisonSocialeSociete The raison sociale societe.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setRaisonSocialeSociete($raisonSocialeSociete) {
+    public function setRaisonSocialeSociete(?string $raisonSocialeSociete): CaisseAttestation {
         $this->raisonSocialeSociete = $raisonSocialeSociete;
         return $this;
     }
@@ -468,10 +469,10 @@ class CaisseAttestation {
     /**
      * Set the uniq id.
      *
-     * @param int $uniqId The uniq id.
+     * @param int|null $uniqId The uniq id.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?int $uniqId): CaisseAttestation {
         $this->uniqId = $uniqId;
         return $this;
     }
@@ -479,10 +480,10 @@ class CaisseAttestation {
     /**
      * Set the utilisateur.
      *
-     * @param string $utilisateur The utilisateur.
+     * @param string|null $utilisateur The utilisateur.
      * @return CaisseAttestation Returns this Caisse attestation.
      */
-    public function setUtilisateur($utilisateur) {
+    public function setUtilisateur(?string $utilisateur): CaisseAttestation {
         $this->utilisateur = $utilisateur;
         return $this;
     }

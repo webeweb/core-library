@@ -22,81 +22,82 @@ class LstDiffusionLignes {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code groupe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeGroupe;
 
     /**
      * Num lig.
      *
-     * @var int
+     * @var int|null
      */
     private $numLig;
 
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code groupe.
      *
-     * @return string Returns the code groupe.
+     * @return string|null Returns the code groupe.
      */
-    public function getCodeGroupe() {
+    public function getCodeGroupe(): ?string{
         return $this->codeGroupe;
     }
 
     /**
      * Get the num lig.
      *
-     * @return int Returns the num lig.
+     * @return int|null Returns the num lig.
      */
-    public function getNumLig() {
+    public function getNumLig(): ?int{
         return $this->numLig;
     }
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int{
         return $this->type;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return LstDiffusionLignes Returns this Lst diffusion lignes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): LstDiffusionLignes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -104,10 +105,10 @@ class LstDiffusionLignes {
     /**
      * Set the code groupe.
      *
-     * @param string $codeGroupe The code groupe.
+     * @param string|null $codeGroupe The code groupe.
      * @return LstDiffusionLignes Returns this Lst diffusion lignes.
      */
-    public function setCodeGroupe($codeGroupe) {
+    public function setCodeGroupe(?string $codeGroupe): LstDiffusionLignes {
         $this->codeGroupe = $codeGroupe;
         return $this;
     }
@@ -115,10 +116,10 @@ class LstDiffusionLignes {
     /**
      * Set the num lig.
      *
-     * @param int $numLig The num lig.
+     * @param int|null $numLig The num lig.
      * @return LstDiffusionLignes Returns this Lst diffusion lignes.
      */
-    public function setNumLig($numLig) {
+    public function setNumLig(?int $numLig): LstDiffusionLignes {
         $this->numLig = $numLig;
         return $this;
     }
@@ -126,10 +127,10 @@ class LstDiffusionLignes {
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      * @return LstDiffusionLignes Returns this Lst diffusion lignes.
      */
-    public function setType($type) {
+    public function setType(?int $type): LstDiffusionLignes {
         $this->type = $type;
         return $this;
     }

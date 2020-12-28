@@ -29,7 +29,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChrono() {
+    public function testSetChrono(): void {
 
         $obj = new AvenantsContrats();
 
@@ -42,7 +42,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AvenantsContrats();
 
@@ -56,7 +56,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAvenant() {
+    public function testSetDateAvenant(): void {
 
         // Set a Date/time mock.
         $dateAvenant = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new AvenantsContrats();
 
@@ -85,7 +85,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumAvenantSaisi() {
+    public function testSetNumAvenantSaisi(): void {
 
         $obj = new AvenantsContrats();
 
@@ -98,7 +98,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAvenant() {
+    public function testSetNumeroAvenant(): void {
 
         $obj = new AvenantsContrats();
 
@@ -111,7 +111,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservation() {
+    public function testSetObservation(): void {
 
         $obj = new AvenantsContrats();
 
@@ -125,7 +125,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeAvenant() {
+    public function testSetPeriodeAvenant(): void {
 
         // Set a Date/time mock.
         $periodeAvenant = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignatureEmploye() {
+    public function testSetSignatureEmploye(): void {
 
         $obj = new AvenantsContrats();
 
@@ -154,7 +154,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAvenant() {
+    public function testSetTypeAvenant(): void {
 
         $obj = new AvenantsContrats();
 
@@ -167,7 +167,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDocument() {
+    public function testSetTypeDocument(): void {
 
         $obj = new AvenantsContrats();
 
@@ -180,7 +180,7 @@ class AvenantsContratsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AvenantsContrats();
 

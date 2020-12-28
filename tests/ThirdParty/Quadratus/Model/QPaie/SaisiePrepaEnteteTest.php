@@ -27,7 +27,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new SaisiePrepaEntete();
 
@@ -40,7 +40,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesactive() {
+    public function testSetDesactive(): void {
 
         $obj = new SaisiePrepaEntete();
 
@@ -53,7 +53,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new SaisiePrepaEntete();
 
@@ -66,7 +66,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieAbsCp() {
+    public function testSetSaisieAbsCp(): void {
 
         $obj = new SaisiePrepaEntete();
 
@@ -79,7 +79,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieAcompte() {
+    public function testSetSaisieAcompte(): void {
 
         $obj = new SaisiePrepaEntete();
 
@@ -92,7 +92,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetWidthBord() {
+    public function testSetWidthBord(): void {
 
         $obj = new SaisiePrepaEntete();
 
@@ -105,7 +105,7 @@ class SaisiePrepaEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SaisiePrepaEntete();
 

@@ -24,21 +24,21 @@ class iSessions {
     /**
      * Adresse ip.
      *
-     * @var string
+     * @var string|null
      */
     private $adresseIp;
 
     /**
      * Appli.
      *
-     * @var string
+     * @var string|null
      */
     private $appli;
 
     /**
      * Code user.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUser;
 
@@ -59,14 +59,14 @@ class iSessions {
     /**
      * Dossier.
      *
-     * @var string
+     * @var string|null
      */
     private $dossier;
 
     /**
      * Id.
      *
-     * @var int
+     * @var int|null
      */
     private $id;
 
@@ -74,33 +74,33 @@ class iSessions {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the adresse ip.
      *
-     * @return string Returns the adresse ip.
+     * @return string|null Returns the adresse ip.
      */
-    public function getAdresseIp() {
+    public function getAdresseIp(): ?string {
         return $this->adresseIp;
     }
 
     /**
      * Get the appli.
      *
-     * @return string Returns the appli.
+     * @return string|null Returns the appli.
      */
-    public function getAppli() {
+    public function getAppli(): ?string {
         return $this->appli;
     }
 
     /**
      * Get the code user.
      *
-     * @return string Returns the code user.
+     * @return string|null Returns the code user.
      */
-    public function getCodeUser() {
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
@@ -109,7 +109,7 @@ class iSessions {
      *
      * @return DateTime|null Returns the date active.
      */
-    public function getDateActive() {
+    public function getDateActive(): ?DateTime {
         return $this->dateActive;
     }
 
@@ -118,35 +118,35 @@ class iSessions {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded() {
+    public function getDateAdded(): ?DateTime {
         return $this->dateAdded;
     }
 
     /**
      * Get the dossier.
      *
-     * @return string Returns the dossier.
+     * @return string|null Returns the dossier.
      */
-    public function getDossier() {
+    public function getDossier(): ?string {
         return $this->dossier;
     }
 
     /**
      * Get the id.
      *
-     * @return int Returns the id.
+     * @return int|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?int {
         return $this->id;
     }
 
     /**
      * Set the adresse ip.
      *
-     * @param string $adresseIp The adresse ip.
+     * @param string|null $adresseIp The adresse ip.
      * @return iSessions Returns this i sessions.
      */
-    public function setAdresseIp($adresseIp) {
+    public function setAdresseIp(?string $adresseIp): iSessions {
         $this->adresseIp = $adresseIp;
         return $this;
     }
@@ -154,10 +154,10 @@ class iSessions {
     /**
      * Set the appli.
      *
-     * @param string $appli The appli.
+     * @param string|null $appli The appli.
      * @return iSessions Returns this i sessions.
      */
-    public function setAppli($appli) {
+    public function setAppli(?string $appli): iSessions {
         $this->appli = $appli;
         return $this;
     }
@@ -165,10 +165,10 @@ class iSessions {
     /**
      * Set the code user.
      *
-     * @param string $codeUser The code user.
+     * @param string|null $codeUser The code user.
      * @return iSessions Returns this i sessions.
      */
-    public function setCodeUser($codeUser) {
+    public function setCodeUser(?string $codeUser): iSessions {
         $this->codeUser = $codeUser;
         return $this;
     }
@@ -179,7 +179,7 @@ class iSessions {
      * @param DateTime|null $dateActive The date active.
      * @return iSessions Returns this i sessions.
      */
-    public function setDateActive(DateTime $dateActive = null) {
+    public function setDateActive(?DateTime $dateActive): iSessions {
         $this->dateActive = $dateActive;
         return $this;
     }
@@ -190,7 +190,7 @@ class iSessions {
      * @param DateTime|null $dateAdded The date added.
      * @return iSessions Returns this i sessions.
      */
-    public function setDateAdded(DateTime $dateAdded = null) {
+    public function setDateAdded(?DateTime $dateAdded): iSessions {
         $this->dateAdded = $dateAdded;
         return $this;
     }
@@ -198,10 +198,10 @@ class iSessions {
     /**
      * Set the dossier.
      *
-     * @param string $dossier The dossier.
+     * @param string|null $dossier The dossier.
      * @return iSessions Returns this i sessions.
      */
-    public function setDossier($dossier) {
+    public function setDossier(?string $dossier): iSessions {
         $this->dossier = $dossier;
         return $this;
     }
@@ -209,10 +209,10 @@ class iSessions {
     /**
      * Set the id.
      *
-     * @param int $id The id.
+     * @param int|null $id The id.
      * @return iSessions Returns this i sessions.
      */
-    public function setId($id) {
+    public function setId(?int $id): iSessions {
         $this->id = $id;
         return $this;
     }

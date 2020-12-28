@@ -27,7 +27,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new Journaux();
 
@@ -40,7 +40,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentraliseGdLivre() {
+    public function testSetCentraliseGdLivre(): void {
 
         $obj = new Journaux();
 
@@ -53,7 +53,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAcces() {
+    public function testSetCleAcces(): void {
 
         $obj = new Journaux();
 
@@ -66,7 +66,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Journaux();
 
@@ -79,7 +79,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new Journaux();
 
@@ -92,7 +92,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEntree() {
+    public function testSetCodeEntree(): void {
 
         $obj = new Journaux();
 
@@ -105,7 +105,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteContrepartie() {
+    public function testSetCompteContrepartie(): void {
 
         $obj = new Journaux();
 
@@ -118,7 +118,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteContrepartieAamm() {
+    public function testSetCompteContrepartieAamm(): void {
 
         $obj = new Journaux();
 
@@ -131,7 +131,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContrepartie() {
+    public function testSetContrepartie(): void {
 
         $obj = new Journaux();
 
@@ -144,7 +144,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomBanque() {
+    public function testSetDomBanque(): void {
 
         $obj = new Journaux();
 
@@ -157,7 +157,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEquilibreAuto() {
+    public function testSetEquilibreAuto(): void {
 
         $obj = new Journaux();
 
@@ -170,7 +170,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtebacSkipTva() {
+    public function testSetEtebacSkipTva(): void {
 
         $obj = new Journaux();
 
@@ -183,7 +183,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtebacXFerDetaillerBq() {
+    public function testSetEtebacXFerDetaillerBq(): void {
 
         $obj = new Journaux();
 
@@ -196,7 +196,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtebacXFerDoPrefixCodeOp() {
+    public function testSetEtebacXFerDoPrefixCodeOp(): void {
 
         $obj = new Journaux();
 
@@ -209,7 +209,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtebacXFerIndLibelle() {
+    public function testSetEtebacXFerIndLibelle(): void {
 
         $obj = new Journaux();
 
@@ -222,7 +222,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtebacXFerLignesComp() {
+    public function testSetEtebacXFerLignesComp(): void {
 
         $obj = new Journaux();
 
@@ -235,7 +235,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille() {
+    public function testSetFamille(): void {
 
         $obj = new Journaux();
 
@@ -248,7 +248,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestNumPieceJrn() {
+    public function testSetGestNumPieceJrn(): void {
 
         $obj = new Journaux();
 
@@ -261,7 +261,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionFolio() {
+    public function testSetGestionFolio(): void {
 
         $obj = new Journaux();
 
@@ -274,7 +274,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionNumPiece() {
+    public function testSetGestionNumPiece(): void {
 
         $obj = new Journaux();
 
@@ -287,7 +287,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new Journaux();
 
@@ -300,7 +300,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIbanIdClient() {
+    public function testSetIbanIdClient(): void {
 
         $obj = new Journaux();
 
@@ -313,7 +313,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Journaux();
 
@@ -326,7 +326,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantNegatif() {
+    public function testSetMontantNegatif(): void {
 
         $obj = new Journaux();
 
@@ -339,7 +339,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauDroit() {
+    public function testSetNiveauDroit(): void {
 
         $obj = new Journaux();
 
@@ -352,7 +352,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEmetteur() {
+    public function testSetNumEmetteur(): void {
 
         $obj = new Journaux();
 
@@ -365,7 +365,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainNumPiece() {
+    public function testSetProchainNumPiece(): void {
 
         $obj = new Journaux();
 
@@ -378,7 +378,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPropoLibelle() {
+    public function testSetPropoLibelle(): void {
 
         $obj = new Journaux();
 
@@ -391,7 +391,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Journaux();
 
@@ -404,7 +404,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieBordereau() {
+    public function testSetSaisieBordereau(): void {
 
         $obj = new Journaux();
 
@@ -417,7 +417,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeJournal() {
+    public function testSetTypeJournal(): void {
 
         $obj = new Journaux();
 
@@ -430,7 +430,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePieceGlobal() {
+    public function testSetTypePieceGlobal(): void {
 
         $obj = new Journaux();
 
@@ -443,7 +443,7 @@ class JournauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Journaux();
 

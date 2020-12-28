@@ -22,49 +22,50 @@ class ObligationsLiees {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code obligation.
      *
-     * @var string
+     * @var string|null
      */
     private $codeObligation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string{
         return $this->codeAction;
     }
 
     /**
      * Get the code obligation.
      *
-     * @return string Returns the code obligation.
+     * @return string|null Returns the code obligation.
      */
-    public function getCodeObligation() {
+    public function getCodeObligation(): ?string{
         return $this->codeObligation;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ObligationsLiees Returns this Obligations liees.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ObligationsLiees {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -72,10 +73,10 @@ class ObligationsLiees {
     /**
      * Set the code obligation.
      *
-     * @param string $codeObligation The code obligation.
+     * @param string|null $codeObligation The code obligation.
      * @return ObligationsLiees Returns this Obligations liees.
      */
-    public function setCodeObligation($codeObligation) {
+    public function setCodeObligation(?string $codeObligation): ObligationsLiees {
         $this->codeObligation = $codeObligation;
         return $this;
     }

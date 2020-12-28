@@ -24,49 +24,49 @@ class AffectationMateriel {
     /**
      * Budget depense euro.
      *
-     * @var float
+     * @var float|null
      */
     private $budgetDepenseEuro;
 
     /**
      * Budget depense frf.
      *
-     * @var float
+     * @var float|null
      */
     private $budgetDepenseFrf;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code materiel.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMateriel;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
@@ -87,77 +87,78 @@ class AffectationMateriel {
     /**
      * Pourcent utilise.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcentUtilise;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the budget depense euro.
      *
-     * @return float Returns the budget depense euro.
+     * @return float|null Returns the budget depense euro.
      */
-    public function getBudgetDepenseEuro() {
+    public function getBudgetDepenseEuro(): ?float{
         return $this->budgetDepenseEuro;
     }
 
     /**
      * Get the budget depense frf.
      *
-     * @return float Returns the budget depense frf.
+     * @return float|null Returns the budget depense frf.
      */
-    public function getBudgetDepenseFrf() {
+    public function getBudgetDepenseFrf(): ?float{
         return $this->budgetDepenseFrf;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code materiel.
      *
-     * @return string Returns the code materiel.
+     * @return string|null Returns the code materiel.
      */
-    public function getCodeMateriel() {
+    public function getCodeMateriel(): ?string{
         return $this->codeMateriel;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
@@ -166,7 +167,7 @@ class AffectationMateriel {
      *
      * @return DateTime|null Returns the debut affect.
      */
-    public function getDebutAffect() {
+    public function getDebutAffect(): ?DateTime{
         return $this->debutAffect;
     }
 
@@ -175,26 +176,26 @@ class AffectationMateriel {
      *
      * @return DateTime|null Returns the fin affect.
      */
-    public function getFinAffect() {
+    public function getFinAffect(): ?DateTime{
         return $this->finAffect;
     }
 
     /**
      * Get the pourcent utilise.
      *
-     * @return float Returns the pourcent utilise.
+     * @return float|null Returns the pourcent utilise.
      */
-    public function getPourcentUtilise() {
+    public function getPourcentUtilise(): ?float{
         return $this->pourcentUtilise;
     }
 
     /**
      * Set the budget depense euro.
      *
-     * @param float $budgetDepenseEuro The budget depense euro.
+     * @param float|null $budgetDepenseEuro The budget depense euro.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setBudgetDepenseEuro($budgetDepenseEuro) {
+    public function setBudgetDepenseEuro(?float $budgetDepenseEuro): AffectationMateriel {
         $this->budgetDepenseEuro = $budgetDepenseEuro;
         return $this;
     }
@@ -202,10 +203,10 @@ class AffectationMateriel {
     /**
      * Set the budget depense frf.
      *
-     * @param float $budgetDepenseFrf The budget depense frf.
+     * @param float|null $budgetDepenseFrf The budget depense frf.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setBudgetDepenseFrf($budgetDepenseFrf) {
+    public function setBudgetDepenseFrf(?float $budgetDepenseFrf): AffectationMateriel {
         $this->budgetDepenseFrf = $budgetDepenseFrf;
         return $this;
     }
@@ -213,10 +214,10 @@ class AffectationMateriel {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): AffectationMateriel {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -224,10 +225,10 @@ class AffectationMateriel {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): AffectationMateriel {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -235,10 +236,10 @@ class AffectationMateriel {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): AffectationMateriel {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -246,10 +247,10 @@ class AffectationMateriel {
     /**
      * Set the code materiel.
      *
-     * @param string $codeMateriel The code materiel.
+     * @param string|null $codeMateriel The code materiel.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setCodeMateriel($codeMateriel) {
+    public function setCodeMateriel(?string $codeMateriel): AffectationMateriel {
         $this->codeMateriel = $codeMateriel;
         return $this;
     }
@@ -257,10 +258,10 @@ class AffectationMateriel {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): AffectationMateriel {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -271,7 +272,7 @@ class AffectationMateriel {
      * @param DateTime|null $debutAffect The debut affect.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setDebutAffect(DateTime $debutAffect = null) {
+    public function setDebutAffect(?DateTime $debutAffect): AffectationMateriel {
         $this->debutAffect = $debutAffect;
         return $this;
     }
@@ -282,7 +283,7 @@ class AffectationMateriel {
      * @param DateTime|null $finAffect The fin affect.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setFinAffect(DateTime $finAffect = null) {
+    public function setFinAffect(?DateTime $finAffect): AffectationMateriel {
         $this->finAffect = $finAffect;
         return $this;
     }
@@ -290,10 +291,10 @@ class AffectationMateriel {
     /**
      * Set the pourcent utilise.
      *
-     * @param float $pourcentUtilise The pourcent utilise.
+     * @param float|null $pourcentUtilise The pourcent utilise.
      * @return AffectationMateriel Returns this Affectation materiel.
      */
-    public function setPourcentUtilise($pourcentUtilise) {
+    public function setPourcentUtilise(?float $pourcentUtilise): AffectationMateriel {
         $this->pourcentUtilise = $pourcentUtilise;
         return $this;
     }

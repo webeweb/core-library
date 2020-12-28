@@ -29,7 +29,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new Dadsubtp();
 
@@ -42,7 +42,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new Dadsubtp();
 
@@ -55,7 +55,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTempsArret() {
+    public function testSetCodeTempsArret(): void {
 
         $obj = new Dadsubtp();
 
@@ -69,7 +69,7 @@ class DadsubtpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriode() {
+    public function testSetDebutPeriode(): void {
 
         // Set a Date/time mock.
         $debutPeriode = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class DadsubtpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriode() {
+    public function testSetFinPeriode(): void {
 
         // Set a Date/time mock.
         $finPeriode = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantEmployeur() {
+    public function testSetMontantEmployeur(): void {
 
         $obj = new Dadsubtp();
 
@@ -115,7 +115,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Dadsubtp();
 
@@ -128,7 +128,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new Dadsubtp();
 
@@ -141,7 +141,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifUniteTemps() {
+    public function testSetQualifUniteTemps(): void {
 
         $obj = new Dadsubtp();
 
@@ -154,7 +154,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTempsArret() {
+    public function testSetTempsArret(): void {
 
         $obj = new Dadsubtp();
 
@@ -167,7 +167,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeArret() {
+    public function testSetTypeArret(): void {
 
         $obj = new Dadsubtp();
 
@@ -180,7 +180,7 @@ class DadsubtpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Dadsubtp();
 

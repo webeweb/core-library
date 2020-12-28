@@ -22,25 +22,25 @@ trait StringTextTrait {
     /**
      * Text.
      *
-     * @var string
+     * @var string|null
      */
     protected $text;
 
     /**
      * Get the text.
      *
-     * @return string Returns the text.
+     * @return string|null Returns the text.
      */
-    public function getText() {
+    public function getText(): ?string {
         return $this->text;
     }
 
     /**
      * Set the text.
      *
-     * @param string $text The text.
+     * @param string|null $text The text.
      */
-    public function setText($text) {
+    public function setText(?string $text) {
         $this->text = $text;
         return $this;
     }

@@ -27,7 +27,7 @@ class ObligationsLieesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ObligationsLiees();
 
@@ -40,7 +40,7 @@ class ObligationsLieesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeObligation() {
+    public function testSetCodeObligation(): void {
 
         $obj = new ObligationsLiees();
 
@@ -53,7 +53,7 @@ class ObligationsLieesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ObligationsLiees();
 

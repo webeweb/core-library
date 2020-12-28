@@ -29,7 +29,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollaborateur() {
+    public function testSetCollaborateur(): void {
 
         $obj = new CaisseAttestation();
 
@@ -43,7 +43,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAcquisition() {
+    public function testSetDateAcquisition(): void {
 
         // Set a Date/time mock.
         $dateAcquisition = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -77,7 +77,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAttestation() {
+    public function testSetDateAttestation(): void {
 
         // Set a Date/time mock.
         $dateAttestation = new DateTime("2018-09-10");
@@ -94,7 +94,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -110,7 +110,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInfoFichier() {
+    public function testSetInfoFichier(): void {
 
         $obj = new CaisseAttestation();
 
@@ -123,7 +123,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLicence() {
+    public function testSetLicence(): void {
 
         $obj = new CaisseAttestation();
 
@@ -136,7 +136,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomResponsable() {
+    public function testSetNomResponsable(): void {
 
         $obj = new CaisseAttestation();
 
@@ -149,7 +149,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille() {
+    public function testSetNomVille(): void {
 
         $obj = new CaisseAttestation();
 
@@ -162,7 +162,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVersion() {
+    public function testSetNumVersion(): void {
 
         $obj = new CaisseAttestation();
 
@@ -175,7 +175,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdinateur() {
+    public function testSetOrdinateur(): void {
 
         $obj = new CaisseAttestation();
 
@@ -188,7 +188,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigine() {
+    public function testSetOrigine(): void {
 
         $obj = new CaisseAttestation();
 
@@ -201,7 +201,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenomResponsable() {
+    public function testSetPrenomResponsable(): void {
 
         $obj = new CaisseAttestation();
 
@@ -214,7 +214,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRaisonSocialeDistri() {
+    public function testSetRaisonSocialeDistri(): void {
 
         $obj = new CaisseAttestation();
 
@@ -227,7 +227,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRaisonSocialeSociete() {
+    public function testSetRaisonSocialeSociete(): void {
 
         $obj = new CaisseAttestation();
 
@@ -240,7 +240,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new CaisseAttestation();
 
@@ -253,7 +253,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUtilisateur() {
+    public function testSetUtilisateur(): void {
 
         $obj = new CaisseAttestation();
 
@@ -266,7 +266,7 @@ class CaisseAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CaisseAttestation();
 

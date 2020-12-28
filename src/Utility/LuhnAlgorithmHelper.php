@@ -25,7 +25,7 @@ class LuhnAlgorithmHelper {
      * @param string $str The string.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function check($str) {
+    public static function check(string $str): bool {
 
         $sum    = 0;
         $length = strlen($str);

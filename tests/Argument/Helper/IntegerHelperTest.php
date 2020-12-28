@@ -29,7 +29,7 @@ class IntegerHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseBoolean() {
+    public function testParseBoolean(): void {
 
         $this->assertEquals(0, IntegerHelper::parseBoolean(null));
         $this->assertEquals(0, IntegerHelper::parseBoolean(false));
@@ -41,7 +41,7 @@ class IntegerHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseString() {
+    public function testParseString(): void {
 
         $this->assertNull(IntegerHelper::parseString(null));
         $this->assertEquals(1, IntegerHelper::parseString("1"));
@@ -53,7 +53,7 @@ class IntegerHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseStringWithIntegerArgumentException() {
+    public function testParseStringWithIntegerArgumentException(): void {
 
         try {
 

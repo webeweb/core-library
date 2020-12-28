@@ -22,25 +22,25 @@ trait StringStreetNameTrait {
     /**
      * Street name.
      *
-     * @var string
+     * @var string|null
      */
     protected $streetName;
 
     /**
      * Get the street name.
      *
-     * @return string Returns the street name.
+     * @return string|null Returns the street name.
      */
-    public function getStreetName() {
+    public function getStreetName(): ?string {
         return $this->streetName;
     }
 
     /**
      * Set the street name.
      *
-     * @param string $streetName The street name.
+     * @param string|null $streetName The street name.
      */
-    public function setStreetName($streetName) {
+    public function setStreetName(?string $streetName) {
         $this->streetName = $streetName;
         return $this;
     }

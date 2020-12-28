@@ -29,7 +29,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -42,7 +42,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAvenant() {
+    public function testSetCodeAvenant(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -55,7 +55,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePhase() {
+    public function testSetCodePhase(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -69,7 +69,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePrev() {
+    public function testSetDatePrev(): void {
 
         // Set a Date/time mock.
         $datePrev = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPhase() {
+    public function testSetMtPhase(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -98,7 +98,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPrev() {
+    public function testSetMtPrev(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -111,7 +111,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrctPhase() {
+    public function testSetPrctPhase(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -124,7 +124,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AffaireMtPrevisionnel();
 
@@ -137,7 +137,7 @@ class AffaireMtPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffaireMtPrevisionnel();
 

@@ -44,7 +44,7 @@ class Image implements ImageInterface {
      *
      * @param string $pathname The pathname.
      */
-    public function __construct($pathname) {
+    public function __construct(string $pathname) {
         $this->setPathname($pathname);
     }
 
@@ -53,7 +53,7 @@ class Image implements ImageInterface {
      *
      * @return int[] Returns the dimensions.
      */
-    public function getDimensions() {
+    public function getDimensions(): array {
         return [$this->getWidth(), $this->getHeight()];
     }
 
@@ -62,7 +62,7 @@ class Image implements ImageInterface {
      *
      * @return string|null Returns the orientation, null if width and height are equals.
      */
-    public function getOrientation() {
+    public function getOrientation(): ?string {
 
         if ($this->getHeight() < $this->getWidth()) {
             return self::ORIENTATION_HORIZONTAL;
@@ -80,7 +80,7 @@ class Image implements ImageInterface {
      *
      * @return Image Returns this image.
      */
-    public function init() {
+    public function init(): Image {
 
         if (null !== $this->getDirectory()) {
             return $this;
@@ -94,7 +94,7 @@ class Image implements ImageInterface {
 
         $this->setMimeType(mime_content_type($this->getPathname()));
 
-        list($width, $height) = getimagesize($this->getPathname());
+        [$width, $height] = getimagesize($this->getPathname());
         $this->setWidth($width);
         $this->setHeight($height);
 
@@ -112,9 +112,9 @@ class Image implements ImageInterface {
      * @return bool Returns true in case of success, false otherwise.
      * @throws RuntimeException Throws a runtime exception if the re-sampled copy failed.
      */
-    public function resize($newWidth, $newHeight, $pathname) {
+    public function resize(int $newWidth, int $newHeight, string $pathname): bool {
 
-        list($w, $h) = ImageHelper::newDimensions($this, $newWidth, $newHeight);
+        [$w, $h] = ImageHelper::newDimensions($this, $newWidth, $newHeight);
 
         $input  = ImageHelper::newInputStream($this);
         $output = ImageHelper::newOutputStream($this, $w, $h);
@@ -137,7 +137,7 @@ class Image implements ImageInterface {
      * @return Image Returns this image.
      * @throws InvalidArgumentException Throws an invalid argument exception if the pathname was not found.
      */
-    protected function setPathname($pathname) {
+    protected function setPathname(string $pathname): Image {
         if (false === realpath($pathname)) {
             throw new InvalidArgumentException(sprintf('The image "%s" was not found', $pathname));
         }

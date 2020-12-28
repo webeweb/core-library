@@ -27,7 +27,7 @@ class RegroupementLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new RegroupementLibelles();
 
@@ -40,7 +40,7 @@ class RegroupementLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumRegroupement() {
+    public function testSetNumRegroupement(): void {
 
         $obj = new RegroupementLibelles();
 
@@ -53,7 +53,7 @@ class RegroupementLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RegroupementLibelles();
 

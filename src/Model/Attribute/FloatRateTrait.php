@@ -22,25 +22,25 @@ trait FloatRateTrait {
     /**
      * Rate.
      *
-     * @var float
+     * @var float|null
      */
     protected $rate;
 
     /**
      * Get the rate.
      *
-     * @return float Returns the rate.
+     * @return float|null Returns the rate.
      */
-    public function getRate() {
+    public function getRate(): ?float {
         return $this->rate;
     }
 
     /**
      * Set the rate.
      *
-     * @param float $rate The rate.
+     * @param float|null $rate The rate.
      */
-    public function setRate($rate) {
+    public function setRate(?float $rate) {
         $this->rate = $rate;
         return $this;
     }

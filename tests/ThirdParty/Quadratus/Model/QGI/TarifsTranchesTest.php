@@ -29,7 +29,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new TarifsTranches();
 
@@ -42,7 +42,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new TarifsTranches();
 
@@ -55,7 +55,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new TarifsTranches();
 
@@ -68,7 +68,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new TarifsTranches();
 
@@ -81,7 +81,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeff() {
+    public function testSetCoeff(): void {
 
         $obj = new TarifsTranches();
 
@@ -95,7 +95,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumTranche() {
+    public function testSetNumTranche(): void {
 
         $obj = new TarifsTranches();
 
@@ -141,7 +141,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixNet() {
+    public function testSetPrixNet(): void {
 
         $obj = new TarifsTranches();
 
@@ -154,7 +154,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixUnit() {
+    public function testSetPrixUnit(): void {
 
         $obj = new TarifsTranches();
 
@@ -167,7 +167,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteMini() {
+    public function testSetQteMini(): void {
 
         $obj = new TarifsTranches();
 
@@ -180,7 +180,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodeArticle() {
+    public function testSetTypeCodeArticle(): void {
 
         $obj = new TarifsTranches();
 
@@ -193,7 +193,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodeClient() {
+    public function testSetTypeCodeClient(): void {
 
         $obj = new TarifsTranches();
 
@@ -206,7 +206,7 @@ class TarifsTranchesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TarifsTranches();
 

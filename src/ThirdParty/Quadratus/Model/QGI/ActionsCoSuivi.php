@@ -22,77 +22,77 @@ class ActionsCoSuivi {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code manif.
      *
-     * @var string
+     * @var string|null
      */
     private $codeManif;
 
     /**
      * Confirmes.
      *
-     * @var int
+     * @var int|null
      */
     private $confirmes;
 
     /**
      * Contrat.
      *
-     * @var int
+     * @var int|null
      */
     private $contrat;
 
     /**
      * Inscrits.
      *
-     * @var int
+     * @var int|null
      */
     private $inscrits;
 
     /**
      * Num interlocuteur.
      *
-     * @var int
+     * @var int|null
      */
     private $numInterlocuteur;
 
     /**
      * Num seance.
      *
-     * @var int
+     * @var int|null
      */
     private $numSeance;
 
     /**
      * Presents.
      *
-     * @var int
+     * @var int|null
      */
     private $presents;
 
     /**
      * Prise rdv.
      *
-     * @var int
+     * @var int|null
      */
     private $priseRdv;
 
     /**
      * Type invite.
      *
-     * @var string
+     * @var string|null
      */
     private $typeInvite;
 
@@ -100,115 +100,115 @@ class ActionsCoSuivi {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code manif.
      *
-     * @return string Returns the code manif.
+     * @return string|null Returns the code manif.
      */
-    public function getCodeManif() {
+    public function getCodeManif(): ?string {
         return $this->codeManif;
     }
 
     /**
      * Get the confirmes.
      *
-     * @return int Returns the confirmes.
+     * @return int|null Returns the confirmes.
      */
-    public function getConfirmes() {
+    public function getConfirmes(): ?int {
         return $this->confirmes;
     }
 
     /**
      * Get the contrat.
      *
-     * @return int Returns the contrat.
+     * @return int|null Returns the contrat.
      */
-    public function getContrat() {
+    public function getContrat(): ?int {
         return $this->contrat;
     }
 
     /**
      * Get the inscrits.
      *
-     * @return int Returns the inscrits.
+     * @return int|null Returns the inscrits.
      */
-    public function getInscrits() {
+    public function getInscrits(): ?int {
         return $this->inscrits;
     }
 
     /**
      * Get the num interlocuteur.
      *
-     * @return int Returns the num interlocuteur.
+     * @return int|null Returns the num interlocuteur.
      */
-    public function getNumInterlocuteur() {
+    public function getNumInterlocuteur(): ?int {
         return $this->numInterlocuteur;
     }
 
     /**
      * Get the num seance.
      *
-     * @return int Returns the num seance.
+     * @return int|null Returns the num seance.
      */
-    public function getNumSeance() {
+    public function getNumSeance(): ?int {
         return $this->numSeance;
     }
 
     /**
      * Get the presents.
      *
-     * @return int Returns the presents.
+     * @return int|null Returns the presents.
      */
-    public function getPresents() {
+    public function getPresents(): ?int {
         return $this->presents;
     }
 
     /**
      * Get the prise rdv.
      *
-     * @return int Returns the prise rdv.
+     * @return int|null Returns the prise rdv.
      */
-    public function getPriseRdv() {
+    public function getPriseRdv(): ?int {
         return $this->priseRdv;
     }
 
     /**
      * Get the type invite.
      *
-     * @return string Returns the type invite.
+     * @return string|null Returns the type invite.
      */
-    public function getTypeInvite() {
+    public function getTypeInvite(): ?string {
         return $this->typeInvite;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ActionsCoSuivi {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -216,10 +216,10 @@ class ActionsCoSuivi {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ActionsCoSuivi {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -227,10 +227,10 @@ class ActionsCoSuivi {
     /**
      * Set the code manif.
      *
-     * @param string $codeManif The code manif.
+     * @param string|null $codeManif The code manif.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setCodeManif($codeManif) {
+    public function setCodeManif(?string $codeManif): ActionsCoSuivi {
         $this->codeManif = $codeManif;
         return $this;
     }
@@ -238,10 +238,10 @@ class ActionsCoSuivi {
     /**
      * Set the confirmes.
      *
-     * @param int $confirmes The confirmes.
+     * @param int|null $confirmes The confirmes.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setConfirmes($confirmes) {
+    public function setConfirmes(?int $confirmes): ActionsCoSuivi {
         $this->confirmes = $confirmes;
         return $this;
     }
@@ -249,10 +249,10 @@ class ActionsCoSuivi {
     /**
      * Set the contrat.
      *
-     * @param int $contrat The contrat.
+     * @param int|null $contrat The contrat.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setContrat($contrat) {
+    public function setContrat(?int $contrat): ActionsCoSuivi {
         $this->contrat = $contrat;
         return $this;
     }
@@ -260,10 +260,10 @@ class ActionsCoSuivi {
     /**
      * Set the inscrits.
      *
-     * @param int $inscrits The inscrits.
+     * @param int|null $inscrits The inscrits.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setInscrits($inscrits) {
+    public function setInscrits(?int $inscrits): ActionsCoSuivi {
         $this->inscrits = $inscrits;
         return $this;
     }
@@ -271,10 +271,10 @@ class ActionsCoSuivi {
     /**
      * Set the num interlocuteur.
      *
-     * @param int $numInterlocuteur The num interlocuteur.
+     * @param int|null $numInterlocuteur The num interlocuteur.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setNumInterlocuteur($numInterlocuteur) {
+    public function setNumInterlocuteur(?int $numInterlocuteur): ActionsCoSuivi {
         $this->numInterlocuteur = $numInterlocuteur;
         return $this;
     }
@@ -282,10 +282,10 @@ class ActionsCoSuivi {
     /**
      * Set the num seance.
      *
-     * @param int $numSeance The num seance.
+     * @param int|null $numSeance The num seance.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setNumSeance($numSeance) {
+    public function setNumSeance(?int $numSeance): ActionsCoSuivi {
         $this->numSeance = $numSeance;
         return $this;
     }
@@ -293,10 +293,10 @@ class ActionsCoSuivi {
     /**
      * Set the presents.
      *
-     * @param int $presents The presents.
+     * @param int|null $presents The presents.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setPresents($presents) {
+    public function setPresents(?int $presents): ActionsCoSuivi {
         $this->presents = $presents;
         return $this;
     }
@@ -304,10 +304,10 @@ class ActionsCoSuivi {
     /**
      * Set the prise rdv.
      *
-     * @param int $priseRdv The prise rdv.
+     * @param int|null $priseRdv The prise rdv.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setPriseRdv($priseRdv) {
+    public function setPriseRdv(?int $priseRdv): ActionsCoSuivi {
         $this->priseRdv = $priseRdv;
         return $this;
     }
@@ -315,10 +315,10 @@ class ActionsCoSuivi {
     /**
      * Set the type invite.
      *
-     * @param string $typeInvite The type invite.
+     * @param string|null $typeInvite The type invite.
      * @return ActionsCoSuivi Returns this Actions co suivi.
      */
-    public function setTypeInvite($typeInvite) {
+    public function setTypeInvite(?string $typeInvite): ActionsCoSuivi {
         $this->typeInvite = $typeInvite;
         return $this;
     }

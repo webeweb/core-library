@@ -29,7 +29,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesAgenda() {
+    public function testSetAccesAgenda(): void {
 
         $obj = new AccesWeb();
 
@@ -42,7 +42,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesArticles() {
+    public function testSetAccesArticles(): void {
 
         $obj = new AccesWeb();
 
@@ -55,7 +55,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesArticlesConsommes() {
+    public function testSetAccesArticlesConsommes(): void {
 
         $obj = new AccesWeb();
 
@@ -68,7 +68,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesClients() {
+    public function testSetAccesClients(): void {
 
         $obj = new AccesWeb();
 
@@ -81,7 +81,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesClientsFavoris() {
+    public function testSetAccesClientsFavoris(): void {
 
         $obj = new AccesWeb();
 
@@ -94,7 +94,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesConsultation() {
+    public function testSetAccesConsultation(): void {
 
         $obj = new AccesWeb();
 
@@ -107,7 +107,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesDossierCabinet() {
+    public function testSetAccesDossierCabinet(): void {
 
         $obj = new AccesWeb();
 
@@ -120,7 +120,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesFacture() {
+    public function testSetAccesFacture(): void {
 
         $obj = new AccesWeb();
 
@@ -133,7 +133,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesIBureau() {
+    public function testSetAccesIBureau(): void {
 
         $obj = new AccesWeb();
 
@@ -146,7 +146,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesInterventions() {
+    public function testSetAccesInterventions(): void {
 
         $obj = new AccesWeb();
 
@@ -159,7 +159,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesListeCollab() {
+    public function testSetAccesListeCollab(): void {
 
         $obj = new AccesWeb();
 
@@ -172,7 +172,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesMessages() {
+    public function testSetAccesMessages(): void {
 
         $obj = new AccesWeb();
 
@@ -185,7 +185,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesNoteFrais() {
+    public function testSetAccesNoteFrais(): void {
 
         $obj = new AccesWeb();
 
@@ -198,7 +198,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesRepertoire() {
+    public function testSetAccesRepertoire(): void {
 
         $obj = new AccesWeb();
 
@@ -211,7 +211,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesSaisieCommande() {
+    public function testSetAccesSaisieCommande(): void {
 
         $obj = new AccesWeb();
 
@@ -224,7 +224,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesSaisieTp() {
+    public function testSetAccesSaisieTp(): void {
 
         $obj = new AccesWeb();
 
@@ -237,7 +237,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesSoldeCpta() {
+    public function testSetAccesSoldeCpta(): void {
 
         $obj = new AccesWeb();
 
@@ -250,7 +250,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccesTableauxBord() {
+    public function testSetAccesTableauxBord(): void {
 
         $obj = new AccesWeb();
 
@@ -263,7 +263,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AccesWeb();
 
@@ -277,7 +277,7 @@ class AccesWebTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateActivation() {
+    public function testSetDateActivation(): void {
 
         // Set a Date/time mock.
         $dateActivation = new DateTime("2018-09-10");
@@ -294,7 +294,7 @@ class AccesWebTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -311,7 +311,7 @@ class AccesWebTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDernTentative() {
+    public function testSetDernTentative(): void {
 
         // Set a Date/time mock.
         $dernTentative = new DateTime("2018-09-10");
@@ -327,7 +327,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossCpta() {
+    public function testSetDossCpta(): void {
 
         $obj = new AccesWeb();
 
@@ -340,7 +340,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossPaie() {
+    public function testSetDossPaie(): void {
 
         $obj = new AccesWeb();
 
@@ -353,7 +353,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossProp() {
+    public function testSetDossProp(): void {
 
         $obj = new AccesWeb();
 
@@ -366,7 +366,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDupliqueIntervention() {
+    public function testSetDupliqueIntervention(): void {
 
         $obj = new AccesWeb();
 
@@ -379,7 +379,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemeMdpQueIBureau() {
+    public function testSetMemeMdpQueIBureau(): void {
 
         $obj = new AccesWeb();
 
@@ -392,7 +392,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotDePasse() {
+    public function testSetMotDePasse(): void {
 
         $obj = new AccesWeb();
 
@@ -405,7 +405,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAssist1() {
+    public function testSetRestrCliAssist1(): void {
 
         $obj = new AccesWeb();
 
@@ -418,7 +418,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAssist2() {
+    public function testSetRestrCliAssist2(): void {
 
         $obj = new AccesWeb();
 
@@ -431,7 +431,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAutre1() {
+    public function testSetRestrCliAutre1(): void {
 
         $obj = new AccesWeb();
 
@@ -444,7 +444,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliAutre2() {
+    public function testSetRestrCliAutre2(): void {
 
         $obj = new AccesWeb();
 
@@ -457,7 +457,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliCollab() {
+    public function testSetRestrCliCollab(): void {
 
         $obj = new AccesWeb();
 
@@ -470,7 +470,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliDebut() {
+    public function testSetRestrCliDebut(): void {
 
         $obj = new AccesWeb();
 
@@ -483,7 +483,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliExpert() {
+    public function testSetRestrCliExpert(): void {
 
         $obj = new AccesWeb();
 
@@ -496,7 +496,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliFin() {
+    public function testSetRestrCliFin(): void {
 
         $obj = new AccesWeb();
 
@@ -509,7 +509,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrCliPortef() {
+    public function testSetRestrCliPortef(): void {
 
         $obj = new AccesWeb();
 
@@ -522,7 +522,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTentatives() {
+    public function testSetTentatives(): void {
 
         $obj = new AccesWeb();
 
@@ -535,7 +535,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetiKey() {
+    public function testSetiKey(): void {
 
         $obj = new AccesWeb();
 
@@ -548,7 +548,7 @@ class AccesWebTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AccesWeb();
 

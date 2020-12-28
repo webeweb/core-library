@@ -22,42 +22,42 @@ class Phases {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Num ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numOrdre;
 
     /**
      * Saisie fact.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisieFact;
 
     /**
      * Saisie temps.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisieTemps;
 
@@ -65,70 +65,70 @@ class Phases {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the num ordre.
      *
-     * @return int Returns the num ordre.
+     * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre() {
+    public function getNumOrdre(): ?int {
         return $this->numOrdre;
     }
 
     /**
      * Get the saisie fact.
      *
-     * @return bool Returns the saisie fact.
+     * @return bool|null Returns the saisie fact.
      */
-    public function getSaisieFact() {
+    public function getSaisieFact(): ?bool {
         return $this->saisieFact;
     }
 
     /**
      * Get the saisie temps.
      *
-     * @return bool Returns the saisie temps.
+     * @return bool|null Returns the saisie temps.
      */
-    public function getSaisieTemps() {
+    public function getSaisieTemps(): ?bool {
         return $this->saisieTemps;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Phases Returns this Phases.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Phases {
         $this->code = $code;
         return $this;
     }
@@ -136,10 +136,10 @@ class Phases {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return Phases Returns this Phases.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): Phases {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -147,10 +147,10 @@ class Phases {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Phases Returns this Phases.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Phases {
         $this->libelle = $libelle;
         return $this;
     }
@@ -158,10 +158,10 @@ class Phases {
     /**
      * Set the num ordre.
      *
-     * @param int $numOrdre The num ordre.
+     * @param int|null $numOrdre The num ordre.
      * @return Phases Returns this Phases.
      */
-    public function setNumOrdre($numOrdre) {
+    public function setNumOrdre(?int $numOrdre): Phases {
         $this->numOrdre = $numOrdre;
         return $this;
     }
@@ -169,10 +169,10 @@ class Phases {
     /**
      * Set the saisie fact.
      *
-     * @param bool $saisieFact The saisie fact.
+     * @param bool|null $saisieFact The saisie fact.
      * @return Phases Returns this Phases.
      */
-    public function setSaisieFact($saisieFact) {
+    public function setSaisieFact(?bool $saisieFact): Phases {
         $this->saisieFact = $saisieFact;
         return $this;
     }
@@ -180,10 +180,10 @@ class Phases {
     /**
      * Set the saisie temps.
      *
-     * @param bool $saisieTemps The saisie temps.
+     * @param bool|null $saisieTemps The saisie temps.
      * @return Phases Returns this Phases.
      */
-    public function setSaisieTemps($saisieTemps) {
+    public function setSaisieTemps(?bool $saisieTemps): Phases {
         $this->saisieTemps = $saisieTemps;
         return $this;
     }

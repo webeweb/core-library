@@ -22,35 +22,35 @@ class Libelles {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
     /**
      * Type montant.
      *
-     * @var string
+     * @var string|null
      */
     private $typeMontant;
 
@@ -58,61 +58,61 @@ class Libelles {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Get the type montant.
      *
-     * @return string Returns the type montant.
+     * @return string|null Returns the type montant.
      */
-    public function getTypeMontant() {
+    public function getTypeMontant(): ?string {
         return $this->typeMontant;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Libelles Returns this Libelles.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Libelles {
         $this->code = $code;
         return $this;
     }
@@ -120,10 +120,10 @@ class Libelles {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Libelles Returns this Libelles.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Libelles {
         $this->libelle = $libelle;
         return $this;
     }
@@ -131,10 +131,10 @@ class Libelles {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return Libelles Returns this Libelles.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): Libelles {
         $this->montant = $montant;
         return $this;
     }
@@ -142,10 +142,10 @@ class Libelles {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Libelles Returns this Libelles.
      */
-    public function setType($type) {
+    public function setType(?string $type): Libelles {
         $this->type = $type;
         return $this;
     }
@@ -153,10 +153,10 @@ class Libelles {
     /**
      * Set the type montant.
      *
-     * @param string $typeMontant The type montant.
+     * @param string|null $typeMontant The type montant.
      * @return Libelles Returns this Libelles.
      */
-    public function setTypeMontant($typeMontant) {
+    public function setTypeMontant(?string $typeMontant): Libelles {
         $this->typeMontant = $typeMontant;
         return $this;
     }

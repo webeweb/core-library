@@ -22,35 +22,35 @@ class Qualifiants {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Colonne.
      *
-     * @var int
+     * @var int|null
      */
     private $colonne;
 
     /**
      * Visu appels.
      *
-     * @var bool
+     * @var bool|null
      */
     private $visuAppels;
 
     /**
      * Visu documents.
      *
-     * @var bool
+     * @var bool|null
      */
     private $visuDocuments;
 
     /**
      * Visu evenements.
      *
-     * @var bool
+     * @var bool|null
      */
     private $visuEvenements;
 
@@ -58,61 +58,61 @@ class Qualifiants {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the colonne.
      *
-     * @return int Returns the colonne.
+     * @return int|null Returns the colonne.
      */
-    public function getColonne() {
+    public function getColonne(): ?int {
         return $this->colonne;
     }
 
     /**
      * Get the visu appels.
      *
-     * @return bool Returns the visu appels.
+     * @return bool|null Returns the visu appels.
      */
-    public function getVisuAppels() {
+    public function getVisuAppels(): ?bool {
         return $this->visuAppels;
     }
 
     /**
      * Get the visu documents.
      *
-     * @return bool Returns the visu documents.
+     * @return bool|null Returns the visu documents.
      */
-    public function getVisuDocuments() {
+    public function getVisuDocuments(): ?bool {
         return $this->visuDocuments;
     }
 
     /**
      * Get the visu evenements.
      *
-     * @return bool Returns the visu evenements.
+     * @return bool|null Returns the visu evenements.
      */
-    public function getVisuEvenements() {
+    public function getVisuEvenements(): ?bool {
         return $this->visuEvenements;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Qualifiants Returns this Qualifiants.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Qualifiants {
         $this->code = $code;
         return $this;
     }
@@ -120,10 +120,10 @@ class Qualifiants {
     /**
      * Set the colonne.
      *
-     * @param int $colonne The colonne.
+     * @param int|null $colonne The colonne.
      * @return Qualifiants Returns this Qualifiants.
      */
-    public function setColonne($colonne) {
+    public function setColonne(?int $colonne): Qualifiants {
         $this->colonne = $colonne;
         return $this;
     }
@@ -131,10 +131,10 @@ class Qualifiants {
     /**
      * Set the visu appels.
      *
-     * @param bool $visuAppels The visu appels.
+     * @param bool|null $visuAppels The visu appels.
      * @return Qualifiants Returns this Qualifiants.
      */
-    public function setVisuAppels($visuAppels) {
+    public function setVisuAppels(?bool $visuAppels): Qualifiants {
         $this->visuAppels = $visuAppels;
         return $this;
     }
@@ -142,10 +142,10 @@ class Qualifiants {
     /**
      * Set the visu documents.
      *
-     * @param bool $visuDocuments The visu documents.
+     * @param bool|null $visuDocuments The visu documents.
      * @return Qualifiants Returns this Qualifiants.
      */
-    public function setVisuDocuments($visuDocuments) {
+    public function setVisuDocuments(?bool $visuDocuments): Qualifiants {
         $this->visuDocuments = $visuDocuments;
         return $this;
     }
@@ -153,10 +153,10 @@ class Qualifiants {
     /**
      * Set the visu evenements.
      *
-     * @param bool $visuEvenements The visu evenements.
+     * @param bool|null $visuEvenements The visu evenements.
      * @return Qualifiants Returns this Qualifiants.
      */
-    public function setVisuEvenements($visuEvenements) {
+    public function setVisuEvenements(?bool $visuEvenements): Qualifiants {
         $this->visuEvenements = $visuEvenements;
         return $this;
     }

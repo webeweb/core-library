@@ -24,7 +24,7 @@ class Pointeuse {
     /**
      * Code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollab;
 
@@ -38,14 +38,14 @@ class Pointeuse {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Id pointeuse.
      *
-     * @var int
+     * @var int|null
      */
     private $idPointeuse;
 
@@ -53,15 +53,15 @@ class Pointeuse {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab.
      *
-     * @return string Returns the code collab.
+     * @return string|null Returns the code collab.
      */
-    public function getCodeCollab() {
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -70,35 +70,35 @@ class Pointeuse {
      *
      * @return DateTime|null Returns the date heure systeme.
      */
-    public function getDateHeureSysteme() {
+    public function getDateHeureSysteme(): ?DateTime {
         return $this->dateHeureSysteme;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
     /**
      * Get the id pointeuse.
      *
-     * @return int Returns the id pointeuse.
+     * @return int|null Returns the id pointeuse.
      */
-    public function getIdPointeuse() {
+    public function getIdPointeuse(): ?int {
         return $this->idPointeuse;
     }
 
     /**
      * Set the code collab.
      *
-     * @param string $codeCollab The code collab.
+     * @param string|null $codeCollab The code collab.
      * @return Pointeuse Returns this Pointeuse.
      */
-    public function setCodeCollab($codeCollab) {
+    public function setCodeCollab(?string $codeCollab): Pointeuse {
         $this->codeCollab = $codeCollab;
         return $this;
     }
@@ -109,7 +109,7 @@ class Pointeuse {
      * @param DateTime|null $dateHeureSysteme The date heure systeme.
      * @return Pointeuse Returns this Pointeuse.
      */
-    public function setDateHeureSysteme(DateTime $dateHeureSysteme = null) {
+    public function setDateHeureSysteme(?DateTime $dateHeureSysteme): Pointeuse {
         $this->dateHeureSysteme = $dateHeureSysteme;
         return $this;
     }
@@ -117,10 +117,10 @@ class Pointeuse {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return Pointeuse Returns this Pointeuse.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): Pointeuse {
         $this->etat = $etat;
         return $this;
     }
@@ -128,10 +128,10 @@ class Pointeuse {
     /**
      * Set the id pointeuse.
      *
-     * @param int $idPointeuse The id pointeuse.
+     * @param int|null $idPointeuse The id pointeuse.
      * @return Pointeuse Returns this Pointeuse.
      */
-    public function setIdPointeuse($idPointeuse) {
+    public function setIdPointeuse(?int $idPointeuse): Pointeuse {
         $this->idPointeuse = $idPointeuse;
         return $this;
     }

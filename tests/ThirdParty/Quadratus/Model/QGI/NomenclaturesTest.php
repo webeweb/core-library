@@ -29,7 +29,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode1() {
+    public function testSetCode1(): void {
 
         $obj = new Nomenclatures();
 
@@ -42,7 +42,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode2() {
+    public function testSetCode2(): void {
 
         $obj = new Nomenclatures();
 
@@ -55,7 +55,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Nomenclatures();
 
@@ -68,7 +68,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire2() {
+    public function testSetCommentaire2(): void {
 
         $obj = new Nomenclatures();
 
@@ -82,7 +82,7 @@ class NomenclaturesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate1() {
+    public function testSetDate1(): void {
 
         // Set a Date/time mock.
         $date1 = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class NomenclaturesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate2() {
+    public function testSetDate2(): void {
 
         // Set a Date/time mock.
         $date2 = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble1() {
+    public function testSetDouble1(): void {
 
         $obj = new Nomenclatures();
 
@@ -128,7 +128,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble2() {
+    public function testSetDouble2(): void {
 
         $obj = new Nomenclatures();
 
@@ -141,7 +141,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Nomenclatures();
 
@@ -154,7 +154,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte1() {
+    public function testSetTexte1(): void {
 
         $obj = new Nomenclatures();
 
@@ -167,7 +167,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte2() {
+    public function testSetTexte2(): void {
 
         $obj = new Nomenclatures();
 
@@ -180,7 +180,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte3() {
+    public function testSetTexte3(): void {
 
         $obj = new Nomenclatures();
 
@@ -193,7 +193,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte4() {
+    public function testSetTexte4(): void {
 
         $obj = new Nomenclatures();
 
@@ -206,7 +206,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte5() {
+    public function testSetTexte5(): void {
 
         $obj = new Nomenclatures();
 
@@ -219,7 +219,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Nomenclatures();
 
@@ -232,7 +232,7 @@ class NomenclaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Nomenclatures();
 

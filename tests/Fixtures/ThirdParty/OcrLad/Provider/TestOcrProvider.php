@@ -25,7 +25,7 @@ class TestOcrProvider extends OcrProvider {
     /**
      * {@inheritDoc}
      */
-    public function buildFilePaths(IOFile $file) {
+    public function buildFilePaths(IOFile $file): array {
         return parent::buildFilePaths($file);
     }
 }

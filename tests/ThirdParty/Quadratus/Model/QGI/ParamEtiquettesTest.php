@@ -27,7 +27,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecCodeBarre() {
+    public function testSetAvecCodeBarre(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -40,7 +40,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecPrixVente() {
+    public function testSetAvecPrixVente(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -53,7 +53,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeModele() {
+    public function testSetCodeModele(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -66,7 +66,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtiqDeFront() {
+    public function testSetEtiqDeFront(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -79,7 +79,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtiqMasque() {
+    public function testSetEtiqMasque(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -92,7 +92,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtiqPlus() {
+    public function testSetEtiqPlus(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -105,7 +105,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImprimante() {
+    public function testSetImprimante(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -118,7 +118,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInitChamp() {
+    public function testSetInitChamp(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -131,7 +131,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInitTable() {
+    public function testSetInitTable(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -144,7 +144,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInitValeur() {
+    public function testSetInitValeur(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -157,7 +157,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLgZone() {
+    public function testSetLgZone(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -170,7 +170,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibZone() {
+    public function testSetLibZone(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -183,7 +183,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -196,7 +196,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -209,7 +209,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteEnt() {
+    public function testSetQteEnt(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -222,7 +222,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new ParamEtiquettes();
 
@@ -235,7 +235,7 @@ class ParamEtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ParamEtiquettes();
 

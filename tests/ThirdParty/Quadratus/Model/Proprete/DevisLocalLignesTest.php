@@ -27,7 +27,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -40,7 +40,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -53,7 +53,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -66,7 +66,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -79,7 +79,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -92,7 +92,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProgramme() {
+    public function testSetCodeProgramme(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -105,7 +105,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -118,7 +118,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -131,7 +131,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDimanche() {
+    public function testSetDimanche(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -144,7 +144,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -157,7 +157,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -170,7 +170,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJeudi() {
+    public function testSetJeudi(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -183,7 +183,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuil() {
+    public function testSetJuil(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -196,7 +196,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -209,7 +209,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLundi() {
+    public function testSetLundi(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -222,7 +222,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -235,7 +235,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -248,7 +248,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMardi() {
+    public function testSetMardi(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -261,7 +261,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMercredi() {
+    public function testSetMercredi(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -274,7 +274,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -287,7 +287,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -300,7 +300,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -313,7 +313,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigneLocal() {
+    public function testSetNumLigneLocal(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -326,7 +326,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOccurrence() {
+    public function testSetOccurrence(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -339,7 +339,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -352,7 +352,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -365,7 +365,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSamedi() {
+    public function testSetSamedi(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -378,7 +378,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -391,7 +391,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVendredi() {
+    public function testSetVendredi(): void {
 
         $obj = new DevisLocalLignes();
 
@@ -404,7 +404,7 @@ class DevisLocalLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisLocalLignes();
 

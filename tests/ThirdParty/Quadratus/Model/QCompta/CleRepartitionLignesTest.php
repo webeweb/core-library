@@ -27,7 +27,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new CleRepartitionLignes();
 
@@ -40,7 +40,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new CleRepartitionLignes();
 
@@ -53,7 +53,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new CleRepartitionLignes();
 
@@ -66,7 +66,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur() {
+    public function testSetValeur(): void {
 
         $obj = new CleRepartitionLignes();
 
@@ -79,7 +79,7 @@ class CleRepartitionLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CleRepartitionLignes();
 

@@ -29,7 +29,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ActionsCoManif();
 
@@ -42,7 +42,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeManif() {
+    public function testSetCodeManif(): void {
 
         $obj = new ActionsCoManif();
 
@@ -55,7 +55,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContact() {
+    public function testSetContact(): void {
 
         $obj = new ActionsCoManif();
 
@@ -69,7 +69,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDeb() {
+    public function testSetDateDeb(): void {
 
         // Set a Date/time mock.
         $dateDeb = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new ActionsCoManif();
 
@@ -115,7 +115,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeDbl() {
+    public function testSetDureeDbl(): void {
 
         $obj = new ActionsCoManif();
 
@@ -128,7 +128,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceAff() {
+    public function testSetIndiceAff(): void {
 
         $obj = new ActionsCoManif();
 
@@ -141,7 +141,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsMontantHt() {
+    public function testSetIsMontantHt(): void {
 
         $obj = new ActionsCoManif();
 
@@ -154,7 +154,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ActionsCoManif();
 
@@ -167,7 +167,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleMemo() {
+    public function testSetLibelleMemo(): void {
 
         $obj = new ActionsCoManif();
 
@@ -180,7 +180,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuBtq() {
+    public function testSetLieuBtq(): void {
 
         $obj = new ActionsCoManif();
 
@@ -193,7 +193,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuBureauDistributeur() {
+    public function testSetLieuBureauDistributeur(): void {
 
         $obj = new ActionsCoManif();
 
@@ -206,7 +206,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuCodePostal() {
+    public function testSetLieuCodePostal(): void {
 
         $obj = new ActionsCoManif();
 
@@ -219,7 +219,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuComplement() {
+    public function testSetLieuComplement(): void {
 
         $obj = new ActionsCoManif();
 
@@ -232,7 +232,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuEmail() {
+    public function testSetLieuEmail(): void {
 
         $obj = new ActionsCoManif();
 
@@ -245,7 +245,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuFax() {
+    public function testSetLieuFax(): void {
 
         $obj = new ActionsCoManif();
 
@@ -258,7 +258,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuNom() {
+    public function testSetLieuNom(): void {
 
         $obj = new ActionsCoManif();
 
@@ -271,7 +271,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuNomVoie() {
+    public function testSetLieuNomVoie(): void {
 
         $obj = new ActionsCoManif();
 
@@ -284,7 +284,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuNumVoie() {
+    public function testSetLieuNumVoie(): void {
 
         $obj = new ActionsCoManif();
 
@@ -297,7 +297,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuPj() {
+    public function testSetLieuPj(): void {
 
         $obj = new ActionsCoManif();
 
@@ -310,7 +310,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuTel() {
+    public function testSetLieuTel(): void {
 
         $obj = new ActionsCoManif();
 
@@ -323,7 +323,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCheque() {
+    public function testSetMontantCheque(): void {
 
         $obj = new ActionsCoManif();
 
@@ -336,7 +336,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSeances() {
+    public function testSetNbSeances(): void {
 
         $obj = new ActionsCoManif();
 
@@ -349,7 +349,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomFormateur() {
+    public function testSetNomFormateur(): void {
 
         $obj = new ActionsCoManif();
 
@@ -362,7 +362,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFormation() {
+    public function testSetTypeFormation(): void {
 
         $obj = new ActionsCoManif();
 
@@ -375,7 +375,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetYaFeuillePresence() {
+    public function testSetYaFeuillePresence(): void {
 
         $obj = new ActionsCoManif();
 
@@ -388,7 +388,7 @@ class ActionsCoManifTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCoManif();
 

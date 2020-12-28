@@ -29,7 +29,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCataloguee() {
+    public function testSetCataloguee(): void {
 
         $obj = new TravauxEnCours();
 
@@ -42,7 +42,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new TravauxEnCours();
 
@@ -55,7 +55,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurDest() {
+    public function testSetCodeCollaborateurDest(): void {
 
         $obj = new TravauxEnCours();
 
@@ -68,7 +68,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurEntrant() {
+    public function testSetCodeCollaborateurEntrant(): void {
 
         $obj = new TravauxEnCours();
 
@@ -82,7 +82,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAlerte() {
+    public function testSetDateAlerte(): void {
 
         // Set a Date/time mock.
         $dateAlerte = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateButoir() {
+    public function testSetDateButoir(): void {
 
         // Set a Date/time mock.
         $dateButoir = new DateTime("2018-09-10");
@@ -116,7 +116,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -133,7 +133,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -149,7 +149,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDemandeur() {
+    public function testSetDemandeur(): void {
 
         $obj = new TravauxEnCours();
 
@@ -162,7 +162,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnvoiPostIt() {
+    public function testSetEnvoiPostIt(): void {
 
         $obj = new TravauxEnCours();
 
@@ -175,7 +175,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdTravail() {
+    public function testSetIdTravail(): void {
 
         $obj = new TravauxEnCours();
 
@@ -188,7 +188,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new TravauxEnCours();
 
@@ -201,7 +201,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomClient() {
+    public function testSetNomClient(): void {
 
         $obj = new TravauxEnCours();
 
@@ -214,7 +214,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPieceJointe() {
+    public function testSetPieceJointe(): void {
 
         $obj = new TravauxEnCours();
 
@@ -227,7 +227,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailFait() {
+    public function testSetTravailFait(): void {
 
         $obj = new TravauxEnCours();
 
@@ -240,7 +240,7 @@ class TravauxEnCoursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TravauxEnCours();
 

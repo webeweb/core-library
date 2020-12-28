@@ -28,7 +28,7 @@ abstract class AbstractProvider {
     /**
      * Logger.
      *
-     * @var LoggerInterface
+     * @var LoggerInterface|null
      */
     private $logger;
 
@@ -45,9 +45,9 @@ abstract class AbstractProvider {
     /**
      * Get the logger.
      *
-     * @return LoggerInterface Returns the logger.
+     * @return LoggerInterface|null Returns the logger.
      */
-    public function getLogger() {
+    public function getLogger(): ?LoggerInterface {
         return $this->logger;
     }
 
@@ -58,7 +58,7 @@ abstract class AbstractProvider {
      * @param array $context The context.
      * @return AbstractProvider Returns this provider.
      */
-    protected function logInfo($message, array $context) {
+    protected function logInfo(string $message, array $context): AbstractProvider {
         if (null !== $this->getLogger()) {
             $this->getLogger()->info($message, $context);
         }
@@ -68,10 +68,10 @@ abstract class AbstractProvider {
     /**
      * Set the logger.
      *
-     * @param LoggerInterface $logger The logger.
+     * @param LoggerInterface|null $logger The logger.
      * @return AbstractProvider Returns this provider.
      */
-    protected function setLogger(LoggerInterface $logger = null) {
+    protected function setLogger(LoggerInterface $logger = null): AbstractProvider {
         $this->logger = $logger;
         return $this;
     }

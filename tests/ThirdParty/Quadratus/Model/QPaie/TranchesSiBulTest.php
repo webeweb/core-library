@@ -29,7 +29,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAlSansSi() {
+    public function testSetBrutAlSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -42,7 +42,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutAlSansSi() {
+    public function testSetCumBrutAlSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -55,7 +55,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTotSi() {
+    public function testSetCumTotSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -68,7 +68,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTranche2SansSi() {
+    public function testSetCumTranche2SansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -81,7 +81,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTranche2Si() {
+    public function testSetCumTranche2Si(): void {
 
         $obj = new TranchesSiBul();
 
@@ -94,7 +94,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheASansSi() {
+    public function testSetCumTrancheASansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -107,7 +107,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheAsi() {
+    public function testSetCumTrancheAsi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -120,7 +120,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheBSansSi() {
+    public function testSetCumTrancheBSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -133,7 +133,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheBsi() {
+    public function testSetCumTrancheBsi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -146,7 +146,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheCSansSi() {
+    public function testSetCumTrancheCSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -159,7 +159,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheCsi() {
+    public function testSetCumTrancheCsi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -172,7 +172,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheD1SansSi() {
+    public function testSetCumTrancheD1SansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -185,7 +185,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheDSansSi() {
+    public function testSetCumTrancheDSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -198,7 +198,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new TranchesSiBul();
 
@@ -211,7 +211,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new TranchesSiBul();
 
@@ -225,7 +225,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -241,7 +241,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotSi() {
+    public function testSetTotSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -254,7 +254,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTranche2SansSi() {
+    public function testSetTranche2SansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -267,7 +267,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTranche2Si() {
+    public function testSetTranche2Si(): void {
 
         $obj = new TranchesSiBul();
 
@@ -280,7 +280,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheASansSi() {
+    public function testSetTrancheASansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -293,7 +293,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheAsi() {
+    public function testSetTrancheAsi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -306,7 +306,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheBSansSi() {
+    public function testSetTrancheBSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -319,7 +319,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheBsi() {
+    public function testSetTrancheBsi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -332,7 +332,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheCSansSi() {
+    public function testSetTrancheCSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -345,7 +345,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheCsi() {
+    public function testSetTrancheCsi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -358,7 +358,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheD1SansSi() {
+    public function testSetTrancheD1SansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -371,7 +371,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrancheDSansSi() {
+    public function testSetTrancheDSansSi(): void {
 
         $obj = new TranchesSiBul();
 
@@ -384,7 +384,7 @@ class TranchesSiBulTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TranchesSiBul();
 

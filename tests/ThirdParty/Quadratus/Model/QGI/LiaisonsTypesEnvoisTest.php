@@ -27,7 +27,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetABloquer() {
+    public function testSetABloquer(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -40,7 +40,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAEmettre() {
+    public function testSetAEmettre(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -53,7 +53,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccepteDepuisQBureau() {
+    public function testSetAccepteDepuisQBureau(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -66,7 +66,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccepteDepuisQc() {
+    public function testSetAccepteDepuisQc(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -79,7 +79,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccepteDepuisQp() {
+    public function testSetAccepteDepuisQp(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -92,7 +92,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -105,7 +105,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -118,7 +118,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModifiable() {
+    public function testSetModifiable(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -131,7 +131,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSansImages() {
+    public function testSetSansImages(): void {
 
         $obj = new LiaisonsTypesEnvois();
 
@@ -144,7 +144,7 @@ class LiaisonsTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LiaisonsTypesEnvois();
 

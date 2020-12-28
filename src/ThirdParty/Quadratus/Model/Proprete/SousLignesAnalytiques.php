@@ -22,209 +22,210 @@ class SousLignesAnalytiques {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Numero document.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroDocument;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Numero ligne anal.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigneAnal;
 
     /**
      * Numero sous ligne cpt ht.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroSousLigneCptHt;
 
     /**
      * Type document.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDocument;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the numero document.
      *
-     * @return string Returns the numero document.
+     * @return string|null Returns the numero document.
      */
-    public function getNumeroDocument() {
+    public function getNumeroDocument(): ?string{
         return $this->numeroDocument;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the numero ligne anal.
      *
-     * @return int Returns the numero ligne anal.
+     * @return int|null Returns the numero ligne anal.
      */
-    public function getNumeroLigneAnal() {
+    public function getNumeroLigneAnal(): ?int{
         return $this->numeroLigneAnal;
     }
 
     /**
      * Get the numero sous ligne cpt ht.
      *
-     * @return int Returns the numero sous ligne cpt ht.
+     * @return int|null Returns the numero sous ligne cpt ht.
      */
-    public function getNumeroSousLigneCptHt() {
+    public function getNumeroSousLigneCptHt(): ?int{
         return $this->numeroSousLigneCptHt;
     }
 
     /**
      * Get the type document.
      *
-     * @return string Returns the type document.
+     * @return string|null Returns the type document.
      */
-    public function getTypeDocument() {
+    public function getTypeDocument(): ?string{
         return $this->typeDocument;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): SousLignesAnalytiques {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -232,10 +233,10 @@ class SousLignesAnalytiques {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): SousLignesAnalytiques {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -243,10 +244,10 @@ class SousLignesAnalytiques {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): SousLignesAnalytiques {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -254,10 +255,10 @@ class SousLignesAnalytiques {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): SousLignesAnalytiques {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -265,10 +266,10 @@ class SousLignesAnalytiques {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): SousLignesAnalytiques {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -276,10 +277,10 @@ class SousLignesAnalytiques {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): SousLignesAnalytiques {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -287,10 +288,10 @@ class SousLignesAnalytiques {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): SousLignesAnalytiques {
         $this->montant = $montant;
         return $this;
     }
@@ -298,10 +299,10 @@ class SousLignesAnalytiques {
     /**
      * Set the numero document.
      *
-     * @param string $numeroDocument The numero document.
+     * @param string|null $numeroDocument The numero document.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setNumeroDocument($numeroDocument) {
+    public function setNumeroDocument(?string $numeroDocument): SousLignesAnalytiques {
         $this->numeroDocument = $numeroDocument;
         return $this;
     }
@@ -309,10 +310,10 @@ class SousLignesAnalytiques {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): SousLignesAnalytiques {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -320,10 +321,10 @@ class SousLignesAnalytiques {
     /**
      * Set the numero ligne anal.
      *
-     * @param int $numeroLigneAnal The numero ligne anal.
+     * @param int|null $numeroLigneAnal The numero ligne anal.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setNumeroLigneAnal($numeroLigneAnal) {
+    public function setNumeroLigneAnal(?int $numeroLigneAnal): SousLignesAnalytiques {
         $this->numeroLigneAnal = $numeroLigneAnal;
         return $this;
     }
@@ -331,10 +332,10 @@ class SousLignesAnalytiques {
     /**
      * Set the numero sous ligne cpt ht.
      *
-     * @param int $numeroSousLigneCptHt The numero sous ligne cpt ht.
+     * @param int|null $numeroSousLigneCptHt The numero sous ligne cpt ht.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setNumeroSousLigneCptHt($numeroSousLigneCptHt) {
+    public function setNumeroSousLigneCptHt(?int $numeroSousLigneCptHt): SousLignesAnalytiques {
         $this->numeroSousLigneCptHt = $numeroSousLigneCptHt;
         return $this;
     }
@@ -342,10 +343,10 @@ class SousLignesAnalytiques {
     /**
      * Set the type document.
      *
-     * @param string $typeDocument The type document.
+     * @param string|null $typeDocument The type document.
      * @return SousLignesAnalytiques Returns this Sous lignes analytiques.
      */
-    public function setTypeDocument($typeDocument) {
+    public function setTypeDocument(?string $typeDocument): SousLignesAnalytiques {
         $this->typeDocument = $typeDocument;
         return $this;
     }

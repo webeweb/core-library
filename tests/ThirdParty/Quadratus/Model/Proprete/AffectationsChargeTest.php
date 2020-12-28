@@ -29,7 +29,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAjoutCharge() {
+    public function testSetAjoutCharge(): void {
 
         $obj = new AffectationsCharge();
 
@@ -42,7 +42,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new AffectationsCharge();
 
@@ -55,7 +55,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new AffectationsCharge();
 
@@ -68,7 +68,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargeMensualisee() {
+    public function testSetChargeMensualisee(): void {
 
         $obj = new AffectationsCharge();
 
@@ -81,7 +81,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargeQFact() {
+    public function testSetChargeQFact(): void {
 
         $obj = new AffectationsCharge();
 
@@ -94,7 +94,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargeValidee() {
+    public function testSetChargeValidee(): void {
 
         $obj = new AffectationsCharge();
 
@@ -107,7 +107,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChefEquipe() {
+    public function testSetChefEquipe(): void {
 
         $obj = new AffectationsCharge();
 
@@ -120,7 +120,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AffectationsCharge();
 
@@ -133,7 +133,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new AffectationsCharge();
 
@@ -146,7 +146,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCharge() {
+    public function testSetCodeCharge(): void {
 
         $obj = new AffectationsCharge();
 
@@ -159,7 +159,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AffectationsCharge();
 
@@ -172,7 +172,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInspecteur() {
+    public function testSetCodeInspecteur(): void {
 
         $obj = new AffectationsCharge();
 
@@ -185,7 +185,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new AffectationsCharge();
 
@@ -198,7 +198,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new AffectationsCharge();
 
@@ -211,7 +211,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new AffectationsCharge();
 
@@ -224,7 +224,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new AffectationsCharge();
 
@@ -237,7 +237,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new AffectationsCharge();
 
@@ -250,7 +250,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuil() {
+    public function testSetJuil(): void {
 
         $obj = new AffectationsCharge();
 
@@ -263,7 +263,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new AffectationsCharge();
 
@@ -276,7 +276,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new AffectationsCharge();
 
@@ -289,7 +289,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new AffectationsCharge();
 
@@ -302,7 +302,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new AffectationsCharge();
 
@@ -315,7 +315,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new AffectationsCharge();
 
@@ -328,7 +328,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new AffectationsCharge();
 
@@ -341,7 +341,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigineChargeMens() {
+    public function testSetOrigineChargeMens(): void {
 
         $obj = new AffectationsCharge();
 
@@ -355,7 +355,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -372,7 +372,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -388,7 +388,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new AffectationsCharge();
 
@@ -401,7 +401,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new AffectationsCharge();
 
@@ -414,7 +414,7 @@ class AffectationsChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffectationsCharge();
 

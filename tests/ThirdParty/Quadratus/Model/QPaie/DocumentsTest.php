@@ -29,7 +29,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new Documents();
 
@@ -42,7 +42,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAuteur() {
+    public function testSetAuteur(): void {
 
         $obj = new Documents();
 
@@ -55,7 +55,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChapitre() {
+    public function testSetChapitre(): void {
 
         $obj = new Documents();
 
@@ -68,7 +68,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChrono() {
+    public function testSetChrono(): void {
 
         $obj = new Documents();
 
@@ -81,7 +81,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new Documents();
 
@@ -95,7 +95,7 @@ class DocumentsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateHeureSys() {
+    public function testSetDateHeureSys(): void {
 
         // Set a Date/time mock.
         $dateHeureSys = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class DocumentsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceBulletin() {
+    public function testSetIndiceBulletin(): void {
 
         $obj = new Documents();
 
@@ -141,7 +141,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Documents();
 
@@ -154,7 +154,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new Documents();
 
@@ -167,7 +167,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Documents();
 
@@ -181,7 +181,7 @@ class DocumentsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeArchivage() {
+    public function testSetPeriodeArchivage(): void {
 
         // Set a Date/time mock.
         $periodeArchivage = new DateTime("2018-09-10");
@@ -197,7 +197,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPublierWeb() {
+    public function testSetPublierWeb(): void {
 
         $obj = new Documents();
 
@@ -210,7 +210,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Documents();
 

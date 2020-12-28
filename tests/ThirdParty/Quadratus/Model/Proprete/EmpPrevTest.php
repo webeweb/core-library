@@ -29,7 +29,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new EmpPrev();
 
@@ -42,7 +42,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new EmpPrev();
 
@@ -55,7 +55,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new EmpPrev();
 
@@ -69,7 +69,7 @@ class EmpPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class EmpPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAbsDecalee() {
+    public function testSetDateAbsDecalee(): void {
 
         // Set a Date/time mock.
         $dateAbsDecalee = new DateTime("2018-09-10");
@@ -103,7 +103,7 @@ class EmpPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -119,7 +119,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDimType2() {
+    public function testSetDimType2(): void {
 
         $obj = new EmpPrev();
 
@@ -132,7 +132,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiscrTache() {
+    public function testSetDiscrTache(): void {
 
         $obj = new EmpPrev();
 
@@ -146,7 +146,7 @@ class EmpPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         // Set a Date/time mock.
         $duree = new DateTime("2018-09-10");
@@ -162,7 +162,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmployeRemplace() {
+    public function testSetEmployeRemplace(): void {
 
         $obj = new EmpPrev();
 
@@ -175,7 +175,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new EmpPrev();
 
@@ -188,7 +188,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHNuitType2() {
+    public function testSetHNuitType2(): void {
 
         $obj = new EmpPrev();
 
@@ -202,7 +202,7 @@ class EmpPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDeb() {
+    public function testSetHeureDeb(): void {
 
         // Set a Date/time mock.
         $heureDeb = new DateTime("2018-09-10");
@@ -218,7 +218,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJfType2() {
+    public function testSetJfType2(): void {
 
         $obj = new EmpPrev();
 
@@ -231,7 +231,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbChambres() {
+    public function testSetNbChambres(): void {
 
         $obj = new EmpPrev();
 
@@ -244,7 +244,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoteMemo() {
+    public function testSetNoteMemo(): void {
 
         $obj = new EmpPrev();
 
@@ -257,7 +257,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumChrono() {
+    public function testSetNumChrono(): void {
 
         $obj = new EmpPrev();
 
@@ -270,7 +270,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPointage() {
+    public function testSetPointage(): void {
 
         $obj = new EmpPrev();
 
@@ -283,7 +283,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new EmpPrev();
 
@@ -296,7 +296,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdPlanning() {
+    public function testSetUniqIdPlanning(): void {
 
         $obj = new EmpPrev();
 
@@ -309,7 +309,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new EmpPrev();
 
@@ -322,7 +322,7 @@ class EmpPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpPrev();
 

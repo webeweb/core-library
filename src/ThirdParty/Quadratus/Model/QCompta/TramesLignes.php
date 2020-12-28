@@ -24,42 +24,42 @@ class TramesLignes {
     /**
      * Code.
      *
-     * @var int
+     * @var int|null
      */
     private $code;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code lib auto.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibAuto;
 
     /**
      * Compte.
      *
-     * @var string
+     * @var string|null
      */
     private $compte;
 
     /**
      * Compte contrepartie.
      *
-     * @var string
+     * @var string|null
      */
     private $compteContrepartie;
 
     /**
      * Credit.
      *
-     * @var float
+     * @var float|null
      */
     private $credit;
 
@@ -73,89 +73,90 @@ class TramesLignes {
     /**
      * Debit.
      *
-     * @var float
+     * @var float|null
      */
     private $debit;
 
     /**
      * Is debit.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isDebit;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return int Returns the code.
+     * @return int|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?int{
         return $this->code;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code lib auto.
      *
-     * @return string Returns the code lib auto.
+     * @return string|null Returns the code lib auto.
      */
-    public function getCodeLibAuto() {
+    public function getCodeLibAuto(): ?string{
         return $this->codeLibAuto;
     }
 
     /**
      * Get the compte.
      *
-     * @return string Returns the compte.
+     * @return string|null Returns the compte.
      */
-    public function getCompte() {
+    public function getCompte(): ?string{
         return $this->compte;
     }
 
     /**
      * Get the compte contrepartie.
      *
-     * @return string Returns the compte contrepartie.
+     * @return string|null Returns the compte contrepartie.
      */
-    public function getCompteContrepartie() {
+    public function getCompteContrepartie(): ?string{
         return $this->compteContrepartie;
     }
 
     /**
      * Get the credit.
      *
-     * @return float Returns the credit.
+     * @return float|null Returns the credit.
      */
-    public function getCredit() {
+    public function getCredit(): ?float{
         return $this->credit;
     }
 
@@ -164,53 +165,53 @@ class TramesLignes {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance() {
+    public function getDateEcheance(): ?DateTime{
         return $this->dateEcheance;
     }
 
     /**
      * Get the debit.
      *
-     * @return float Returns the debit.
+     * @return float|null Returns the debit.
      */
-    public function getDebit() {
+    public function getDebit(): ?float{
         return $this->debit;
     }
 
     /**
      * Get the is debit.
      *
-     * @return bool Returns the is debit.
+     * @return bool|null Returns the is debit.
      */
-    public function getIsDebit() {
+    public function getIsDebit(): ?bool{
         return $this->isDebit;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Set the code.
      *
-     * @param int $code The code.
+     * @param int|null $code The code.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setCode($code) {
+    public function setCode(?int $code): TramesLignes {
         $this->code = $code;
         return $this;
     }
@@ -218,10 +219,10 @@ class TramesLignes {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): TramesLignes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -229,10 +230,10 @@ class TramesLignes {
     /**
      * Set the code lib auto.
      *
-     * @param string $codeLibAuto The code lib auto.
+     * @param string|null $codeLibAuto The code lib auto.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setCodeLibAuto($codeLibAuto) {
+    public function setCodeLibAuto(?string $codeLibAuto): TramesLignes {
         $this->codeLibAuto = $codeLibAuto;
         return $this;
     }
@@ -240,10 +241,10 @@ class TramesLignes {
     /**
      * Set the compte.
      *
-     * @param string $compte The compte.
+     * @param string|null $compte The compte.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setCompte($compte) {
+    public function setCompte(?string $compte): TramesLignes {
         $this->compte = $compte;
         return $this;
     }
@@ -251,10 +252,10 @@ class TramesLignes {
     /**
      * Set the compte contrepartie.
      *
-     * @param string $compteContrepartie The compte contrepartie.
+     * @param string|null $compteContrepartie The compte contrepartie.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setCompteContrepartie($compteContrepartie) {
+    public function setCompteContrepartie(?string $compteContrepartie): TramesLignes {
         $this->compteContrepartie = $compteContrepartie;
         return $this;
     }
@@ -262,10 +263,10 @@ class TramesLignes {
     /**
      * Set the credit.
      *
-     * @param float $credit The credit.
+     * @param float|null $credit The credit.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setCredit($credit) {
+    public function setCredit(?float $credit): TramesLignes {
         $this->credit = $credit;
         return $this;
     }
@@ -276,7 +277,7 @@ class TramesLignes {
      * @param DateTime|null $dateEcheance The date echeance.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setDateEcheance(DateTime $dateEcheance = null) {
+    public function setDateEcheance(?DateTime $dateEcheance): TramesLignes {
         $this->dateEcheance = $dateEcheance;
         return $this;
     }
@@ -284,10 +285,10 @@ class TramesLignes {
     /**
      * Set the debit.
      *
-     * @param float $debit The debit.
+     * @param float|null $debit The debit.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setDebit($debit) {
+    public function setDebit(?float $debit): TramesLignes {
         $this->debit = $debit;
         return $this;
     }
@@ -295,10 +296,10 @@ class TramesLignes {
     /**
      * Set the is debit.
      *
-     * @param bool $isDebit The is debit.
+     * @param bool|null $isDebit The is debit.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setIsDebit($isDebit) {
+    public function setIsDebit(?bool $isDebit): TramesLignes {
         $this->isDebit = $isDebit;
         return $this;
     }
@@ -306,10 +307,10 @@ class TramesLignes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TramesLignes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -317,10 +318,10 @@ class TramesLignes {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return TramesLignes Returns this Trames lignes.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): TramesLignes {
         $this->numLigne = $numLigne;
         return $this;
     }

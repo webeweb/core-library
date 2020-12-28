@@ -27,7 +27,7 @@ class StringUsernameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUsername() {
+    public function testSetUsername(): void {
 
         $obj = new TestStringUsernameTrait();
 
@@ -40,7 +40,7 @@ class StringUsernameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringUsernameTrait();
 

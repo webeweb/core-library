@@ -29,7 +29,7 @@ class iSessionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseIp() {
+    public function testSetAdresseIp(): void {
 
         $obj = new iSessions();
 
@@ -42,7 +42,7 @@ class iSessionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAppli() {
+    public function testSetAppli(): void {
 
         $obj = new iSessions();
 
@@ -55,7 +55,7 @@ class iSessionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new iSessions();
 
@@ -69,7 +69,7 @@ class iSessionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateActive() {
+    public function testSetDateActive(): void {
 
         // Set a Date/time mock.
         $dateActive = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class iSessionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAdded() {
+    public function testSetDateAdded(): void {
 
         // Set a Date/time mock.
         $dateAdded = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class iSessionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossier() {
+    public function testSetDossier(): void {
 
         $obj = new iSessions();
 
@@ -115,7 +115,7 @@ class iSessionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new iSessions();
 
@@ -128,7 +128,7 @@ class iSessionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iSessions();
 

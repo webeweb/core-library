@@ -37,7 +37,7 @@ class DateTimeRenderer {
      * @return int Returns the age.
      * @throws Exception Throws an exception if an errors occurs.
      */
-    public static function renderAge(DateTime $birthDate, DateTime $refDate = null) {
+    public static function renderAge(DateTime $birthDate, DateTime $refDate = null): int {
 
         // Use the current date/time.
         if (null === $refDate) {
@@ -57,7 +57,7 @@ class DateTimeRenderer {
      * @param string $format The format.
      * @return string Returns the rendered date/time.
      */
-    public static function renderDateTime(DateTime $dateTime = null, $format = self::DATETIME_FORMAT) {
+    public static function renderDateTime(DateTime $dateTime = null, string $format = self::DATETIME_FORMAT): string {
         if (null === $dateTime) {
             return "";
         }

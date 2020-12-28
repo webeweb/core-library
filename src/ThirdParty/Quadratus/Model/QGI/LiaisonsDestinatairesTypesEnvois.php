@@ -22,49 +22,50 @@ class LiaisonsDestinatairesTypesEnvois {
     /**
      * Code destinataire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDestinataire;
 
     /**
      * Code type envoi.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTypeEnvoi;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code destinataire.
      *
-     * @return string Returns the code destinataire.
+     * @return string|null Returns the code destinataire.
      */
-    public function getCodeDestinataire() {
+    public function getCodeDestinataire(): ?string{
         return $this->codeDestinataire;
     }
 
     /**
      * Get the code type envoi.
      *
-     * @return string Returns the code type envoi.
+     * @return string|null Returns the code type envoi.
      */
-    public function getCodeTypeEnvoi() {
+    public function getCodeTypeEnvoi(): ?string{
         return $this->codeTypeEnvoi;
     }
 
     /**
      * Set the code destinataire.
      *
-     * @param string $codeDestinataire The code destinataire.
+     * @param string|null $codeDestinataire The code destinataire.
      * @return LiaisonsDestinatairesTypesEnvois Returns this Liaisons destinataires types envois.
      */
-    public function setCodeDestinataire($codeDestinataire) {
+    public function setCodeDestinataire(?string $codeDestinataire): LiaisonsDestinatairesTypesEnvois {
         $this->codeDestinataire = $codeDestinataire;
         return $this;
     }
@@ -72,10 +73,10 @@ class LiaisonsDestinatairesTypesEnvois {
     /**
      * Set the code type envoi.
      *
-     * @param string $codeTypeEnvoi The code type envoi.
+     * @param string|null $codeTypeEnvoi The code type envoi.
      * @return LiaisonsDestinatairesTypesEnvois Returns this Liaisons destinataires types envois.
      */
-    public function setCodeTypeEnvoi($codeTypeEnvoi) {
+    public function setCodeTypeEnvoi(?string $codeTypeEnvoi): LiaisonsDestinatairesTypesEnvois {
         $this->codeTypeEnvoi = $codeTypeEnvoi;
         return $this;
     }

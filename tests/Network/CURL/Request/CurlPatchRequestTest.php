@@ -30,7 +30,7 @@ class CurlPatchRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCall() {
+    public function testCall(): void {
 
         $obj = new CurlPatchRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("header", "header");
@@ -49,7 +49,7 @@ class CurlPatchRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CurlPatchRequest($this->curlConfiguration, $this->curlResourcePath);
 

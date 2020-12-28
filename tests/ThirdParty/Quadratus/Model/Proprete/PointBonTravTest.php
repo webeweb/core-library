@@ -29,7 +29,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvenantSigne() {
+    public function testSetAvenantSigne(): void {
 
         $obj = new PointBonTrav();
 
@@ -42,7 +42,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PointBonTrav();
 
@@ -55,7 +55,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEquipe() {
+    public function testSetCodeEquipe(): void {
 
         $obj = new PointBonTrav();
 
@@ -68,7 +68,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheType() {
+    public function testSetCodeTacheType(): void {
 
         $obj = new PointBonTrav();
 
@@ -82,7 +82,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePassage() {
+    public function testSetDatePassage(): void {
 
         // Set a Date/time mock.
         $datePassage = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRefBt() {
+    public function testSetDateRefBt(): void {
 
         // Set a Date/time mock.
         $dateRefBt = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new PointBonTrav();
 
@@ -128,7 +128,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFromGenBt() {
+    public function testSetFromGenBt(): void {
 
         $obj = new PointBonTrav();
 
@@ -142,7 +142,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDeb() {
+    public function testSetHeureDeb(): void {
 
         // Set a Date/time mock.
         $heureDeb = new DateTime("2018-09-10");
@@ -159,7 +159,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDebMob() {
+    public function testSetHeureDebMob(): void {
 
         // Set a Date/time mock.
         $heureDebMob = new DateTime("2018-09-10");
@@ -176,7 +176,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureFinMob() {
+    public function testSetHeureFinMob(): void {
 
         // Set a Date/time mock.
         $heureFinMob = new DateTime("2018-09-10");
@@ -193,7 +193,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeuresJour() {
+    public function testSetHeuresJour(): void {
 
         // Set a Date/time mock.
         $heuresJour = new DateTime("2018-09-10");
@@ -210,7 +210,7 @@ class PointBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeuresNuit() {
+    public function testSetHeuresNuit(): void {
 
         // Set a Date/time mock.
         $heuresNuit = new DateTime("2018-09-10");
@@ -226,7 +226,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new PointBonTrav();
 
@@ -239,7 +239,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomPrenom() {
+    public function testSetNomPrenom(): void {
 
         $obj = new PointBonTrav();
 
@@ -252,7 +252,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PointBonTrav();
 
@@ -265,7 +265,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumChrono() {
+    public function testSetNumChrono(): void {
 
         $obj = new PointBonTrav();
 
@@ -278,7 +278,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAvenant() {
+    public function testSetNumeroAvenant(): void {
 
         $obj = new PointBonTrav();
 
@@ -291,7 +291,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaniers() {
+    public function testSetPaniers(): void {
 
         $obj = new PointBonTrav();
 
@@ -304,7 +304,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrime1() {
+    public function testSetPrime1(): void {
 
         $obj = new PointBonTrav();
 
@@ -317,7 +317,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrime2() {
+    public function testSetPrime2(): void {
 
         $obj = new PointBonTrav();
 
@@ -330,7 +330,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrime3() {
+    public function testSetPrime3(): void {
 
         $obj = new PointBonTrav();
 
@@ -343,7 +343,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualification() {
+    public function testSetQualification(): void {
 
         $obj = new PointBonTrav();
 
@@ -356,7 +356,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertPaie() {
+    public function testSetTransfertPaie(): void {
 
         $obj = new PointBonTrav();
 
@@ -369,7 +369,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new PointBonTrav();
 
@@ -382,7 +382,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValideMob() {
+    public function testSetValideMob(): void {
 
         $obj = new PointBonTrav();
 
@@ -395,7 +395,7 @@ class PointBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointBonTrav();
 

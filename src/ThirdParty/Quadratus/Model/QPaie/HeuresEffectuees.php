@@ -31,106 +31,107 @@ class HeuresEffectuees {
     /**
      * H deb am.
      *
-     * @var string
+     * @var string|null
      */
     private $hDebAm;
 
     /**
      * H deb pm.
      *
-     * @var string
+     * @var string|null
      */
     private $hDebPm;
 
     /**
      * H fin am.
      *
-     * @var string
+     * @var string|null
      */
     private $hFinAm;
 
     /**
      * H fin pm.
      *
-     * @var string
+     * @var string|null
      */
     private $hFinPm;
 
     /**
      * Nb h absence cp.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHAbsenceCp;
 
     /**
+     * Nb hjfnt.
+     *
+     * @var float|null
+     */
+    private $nbHjfnt;
+
+    /**
      * Nb h majo.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHMajo;
 
     /**
      * Nb h nuit.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHNuit;
 
     /**
      * Nb h repos comp pris.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHReposCompPris;
 
     /**
      * Nb h repos remplace pris.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHReposRemplacePris;
 
     /**
      * Nb h travail reel.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHTravailReel;
 
     /**
-     * Nb hjfnt.
-     *
-     * @var float
-     */
-    private $nbHjfnt;
-
-    /**
      * Nb j repos recup pris.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJReposRecupPris;
 
     /**
      * Nb jour cp pris.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJourCpPris;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -138,133 +139,133 @@ class HeuresEffectuees {
      *
      * @return DateTime|null Returns the date jour.
      */
-    public function getDateJour() {
+    public function getDateJour(): ?DateTime{
         return $this->dateJour;
     }
 
     /**
      * Get the h deb am.
      *
-     * @return string Returns the h deb am.
+     * @return string|null Returns the h deb am.
      */
-    public function getHDebAm() {
+    public function getHDebAm(): ?string{
         return $this->hDebAm;
     }
 
     /**
      * Get the h deb pm.
      *
-     * @return string Returns the h deb pm.
+     * @return string|null Returns the h deb pm.
      */
-    public function getHDebPm() {
+    public function getHDebPm(): ?string{
         return $this->hDebPm;
     }
 
     /**
      * Get the h fin am.
      *
-     * @return string Returns the h fin am.
+     * @return string|null Returns the h fin am.
      */
-    public function getHFinAm() {
+    public function getHFinAm(): ?string{
         return $this->hFinAm;
     }
 
     /**
      * Get the h fin pm.
      *
-     * @return string Returns the h fin pm.
+     * @return string|null Returns the h fin pm.
      */
-    public function getHFinPm() {
+    public function getHFinPm(): ?string{
         return $this->hFinPm;
     }
 
     /**
      * Get the nb h absence cp.
      *
-     * @return float Returns the nb h absence cp.
+     * @return float|null Returns the nb h absence cp.
      */
-    public function getNbHAbsenceCp() {
+    public function getNbHAbsenceCp(): ?float{
         return $this->nbHAbsenceCp;
+    }
+
+    /**
+     * Get the nb hjfnt.
+     *
+     * @return float|null Returns the nb hjfnt.
+     */
+    public function getNbHjfnt(): ?float{
+        return $this->nbHjfnt;
     }
 
     /**
      * Get the nb h majo.
      *
-     * @return float Returns the nb h majo.
+     * @return float|null Returns the nb h majo.
      */
-    public function getNbHMajo() {
+    public function getNbHMajo(): ?float{
         return $this->nbHMajo;
     }
 
     /**
      * Get the nb h nuit.
      *
-     * @return float Returns the nb h nuit.
+     * @return float|null Returns the nb h nuit.
      */
-    public function getNbHNuit() {
+    public function getNbHNuit(): ?float{
         return $this->nbHNuit;
     }
 
     /**
      * Get the nb h repos comp pris.
      *
-     * @return float Returns the nb h repos comp pris.
+     * @return float|null Returns the nb h repos comp pris.
      */
-    public function getNbHReposCompPris() {
+    public function getNbHReposCompPris(): ?float{
         return $this->nbHReposCompPris;
     }
 
     /**
      * Get the nb h repos remplace pris.
      *
-     * @return float Returns the nb h repos remplace pris.
+     * @return float|null Returns the nb h repos remplace pris.
      */
-    public function getNbHReposRemplacePris() {
+    public function getNbHReposRemplacePris(): ?float{
         return $this->nbHReposRemplacePris;
     }
 
     /**
      * Get the nb h travail reel.
      *
-     * @return float Returns the nb h travail reel.
+     * @return float|null Returns the nb h travail reel.
      */
-    public function getNbHTravailReel() {
+    public function getNbHTravailReel(): ?float{
         return $this->nbHTravailReel;
-    }
-
-    /**
-     * Get the nb hjfnt.
-     *
-     * @return float Returns the nb hjfnt.
-     */
-    public function getNbHjfnt() {
-        return $this->nbHjfnt;
     }
 
     /**
      * Get the nb j repos recup pris.
      *
-     * @return float Returns the nb j repos recup pris.
+     * @return float|null Returns the nb j repos recup pris.
      */
-    public function getNbJReposRecupPris() {
+    public function getNbJReposRecupPris(): ?float{
         return $this->nbJReposRecupPris;
     }
 
     /**
      * Get the nb jour cp pris.
      *
-     * @return float Returns the nb jour cp pris.
+     * @return float|null Returns the nb jour cp pris.
      */
-    public function getNbJourCpPris() {
+    public function getNbJourCpPris(): ?float{
         return $this->nbJourCpPris;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -274,7 +275,7 @@ class HeuresEffectuees {
      * @param DateTime|null $dateJour The date jour.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setDateJour(DateTime $dateJour = null) {
+    public function setDateJour(?DateTime $dateJour): HeuresEffectuees {
         $this->dateJour = $dateJour;
         return $this;
     }
@@ -282,10 +283,10 @@ class HeuresEffectuees {
     /**
      * Set the h deb am.
      *
-     * @param string $hDebAm The h deb am.
+     * @param string|null $hDebAm The h deb am.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setHDebAm($hDebAm) {
+    public function setHDebAm(?string $hDebAm): HeuresEffectuees {
         $this->hDebAm = $hDebAm;
         return $this;
     }
@@ -293,10 +294,10 @@ class HeuresEffectuees {
     /**
      * Set the h deb pm.
      *
-     * @param string $hDebPm The h deb pm.
+     * @param string|null $hDebPm The h deb pm.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setHDebPm($hDebPm) {
+    public function setHDebPm(?string $hDebPm): HeuresEffectuees {
         $this->hDebPm = $hDebPm;
         return $this;
     }
@@ -304,10 +305,10 @@ class HeuresEffectuees {
     /**
      * Set the h fin am.
      *
-     * @param string $hFinAm The h fin am.
+     * @param string|null $hFinAm The h fin am.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setHFinAm($hFinAm) {
+    public function setHFinAm(?string $hFinAm): HeuresEffectuees {
         $this->hFinAm = $hFinAm;
         return $this;
     }
@@ -315,10 +316,10 @@ class HeuresEffectuees {
     /**
      * Set the h fin pm.
      *
-     * @param string $hFinPm The h fin pm.
+     * @param string|null $hFinPm The h fin pm.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setHFinPm($hFinPm) {
+    public function setHFinPm(?string $hFinPm): HeuresEffectuees {
         $this->hFinPm = $hFinPm;
         return $this;
     }
@@ -326,21 +327,32 @@ class HeuresEffectuees {
     /**
      * Set the nb h absence cp.
      *
-     * @param float $nbHAbsenceCp The nb h absence cp.
+     * @param float|null $nbHAbsenceCp The nb h absence cp.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbHAbsenceCp($nbHAbsenceCp) {
+    public function setNbHAbsenceCp(?float $nbHAbsenceCp): HeuresEffectuees {
         $this->nbHAbsenceCp = $nbHAbsenceCp;
+        return $this;
+    }
+
+    /**
+     * Set the nb hjfnt.
+     *
+     * @param float|null $nbHjfnt The nb hjfnt.
+     * @return HeuresEffectuees Returns this Heures effectuees.
+     */
+    public function setNbHjfnt(?float $nbHjfnt): HeuresEffectuees {
+        $this->nbHjfnt = $nbHjfnt;
         return $this;
     }
 
     /**
      * Set the nb h majo.
      *
-     * @param float $nbHMajo The nb h majo.
+     * @param float|null $nbHMajo The nb h majo.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbHMajo($nbHMajo) {
+    public function setNbHMajo(?float $nbHMajo): HeuresEffectuees {
         $this->nbHMajo = $nbHMajo;
         return $this;
     }
@@ -348,10 +360,10 @@ class HeuresEffectuees {
     /**
      * Set the nb h nuit.
      *
-     * @param float $nbHNuit The nb h nuit.
+     * @param float|null $nbHNuit The nb h nuit.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbHNuit($nbHNuit) {
+    public function setNbHNuit(?float $nbHNuit): HeuresEffectuees {
         $this->nbHNuit = $nbHNuit;
         return $this;
     }
@@ -359,10 +371,10 @@ class HeuresEffectuees {
     /**
      * Set the nb h repos comp pris.
      *
-     * @param float $nbHReposCompPris The nb h repos comp pris.
+     * @param float|null $nbHReposCompPris The nb h repos comp pris.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbHReposCompPris($nbHReposCompPris) {
+    public function setNbHReposCompPris(?float $nbHReposCompPris): HeuresEffectuees {
         $this->nbHReposCompPris = $nbHReposCompPris;
         return $this;
     }
@@ -370,10 +382,10 @@ class HeuresEffectuees {
     /**
      * Set the nb h repos remplace pris.
      *
-     * @param float $nbHReposRemplacePris The nb h repos remplace pris.
+     * @param float|null $nbHReposRemplacePris The nb h repos remplace pris.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbHReposRemplacePris($nbHReposRemplacePris) {
+    public function setNbHReposRemplacePris(?float $nbHReposRemplacePris): HeuresEffectuees {
         $this->nbHReposRemplacePris = $nbHReposRemplacePris;
         return $this;
     }
@@ -381,32 +393,21 @@ class HeuresEffectuees {
     /**
      * Set the nb h travail reel.
      *
-     * @param float $nbHTravailReel The nb h travail reel.
+     * @param float|null $nbHTravailReel The nb h travail reel.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbHTravailReel($nbHTravailReel) {
+    public function setNbHTravailReel(?float $nbHTravailReel): HeuresEffectuees {
         $this->nbHTravailReel = $nbHTravailReel;
-        return $this;
-    }
-
-    /**
-     * Set the nb hjfnt.
-     *
-     * @param float $nbHjfnt The nb hjfnt.
-     * @return HeuresEffectuees Returns this Heures effectuees.
-     */
-    public function setNbHjfnt($nbHjfnt) {
-        $this->nbHjfnt = $nbHjfnt;
         return $this;
     }
 
     /**
      * Set the nb j repos recup pris.
      *
-     * @param float $nbJReposRecupPris The nb j repos recup pris.
+     * @param float|null $nbJReposRecupPris The nb j repos recup pris.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbJReposRecupPris($nbJReposRecupPris) {
+    public function setNbJReposRecupPris(?float $nbJReposRecupPris): HeuresEffectuees {
         $this->nbJReposRecupPris = $nbJReposRecupPris;
         return $this;
     }
@@ -414,10 +415,10 @@ class HeuresEffectuees {
     /**
      * Set the nb jour cp pris.
      *
-     * @param float $nbJourCpPris The nb jour cp pris.
+     * @param float|null $nbJourCpPris The nb jour cp pris.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNbJourCpPris($nbJourCpPris) {
+    public function setNbJourCpPris(?float $nbJourCpPris): HeuresEffectuees {
         $this->nbJourCpPris = $nbJourCpPris;
         return $this;
     }
@@ -425,10 +426,10 @@ class HeuresEffectuees {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return HeuresEffectuees Returns this Heures effectuees.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): HeuresEffectuees {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }

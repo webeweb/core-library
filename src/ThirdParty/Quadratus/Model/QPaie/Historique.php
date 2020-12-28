@@ -24,23 +24,16 @@ class Historique {
     /**
      * Annees.
      *
-     * @var int
+     * @var int|null
      */
     private $annees;
 
     /**
      * Annees plus.
      *
-     * @var int
+     * @var int|null
      */
     private $anneesPlus;
-
-    /**
-     * Code etablissement.
-     *
-     * @var int
-     */
-    private $codeEtablissement;
 
     /**
      * Cs valide.
@@ -57,16 +50,23 @@ class Historique {
     private $ctValide;
 
     /**
+     * Code etablissement.
+     *
+     * @var int|null
+     */
+    private $codeEtablissement;
+
+    /**
      * Rub.
      *
-     * @var string
+     * @var string|null
      */
     private $rub;
 
     /**
      * Service.
      *
-     * @var string
+     * @var string|null
      */
     private $service;
 
@@ -77,38 +77,30 @@ class Historique {
      */
     private $visiteMedicale;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the annees.
      *
-     * @return int Returns the annees.
+     * @return int|null Returns the annees.
      */
-    public function getAnnees() {
+    public function getAnnees(): ?int{
         return $this->annees;
     }
 
     /**
      * Get the annees plus.
      *
-     * @return int Returns the annees plus.
+     * @return int|null Returns the annees plus.
      */
-    public function getAnneesPlus() {
+    public function getAnneesPlus(): ?int{
         return $this->anneesPlus;
-    }
-
-    /**
-     * Get the code etablissement.
-     *
-     * @return int Returns the code etablissement.
-     */
-    public function getCodeEtablissement() {
-        return $this->codeEtablissement;
     }
 
     /**
@@ -116,7 +108,7 @@ class Historique {
      *
      * @return DateTime|null Returns the cs valide.
      */
-    public function getCsValide() {
+    public function getCsValide(): ?DateTime{
         return $this->csValide;
     }
 
@@ -125,25 +117,34 @@ class Historique {
      *
      * @return DateTime|null Returns the ct valide.
      */
-    public function getCtValide() {
+    public function getCtValide(): ?DateTime{
         return $this->ctValide;
+    }
+
+    /**
+     * Get the code etablissement.
+     *
+     * @return int|null Returns the code etablissement.
+     */
+    public function getCodeEtablissement(): ?int{
+        return $this->codeEtablissement;
     }
 
     /**
      * Get the rub.
      *
-     * @return string Returns the rub.
+     * @return string|null Returns the rub.
      */
-    public function getRub() {
+    public function getRub(): ?string{
         return $this->rub;
     }
 
     /**
      * Get the service.
      *
-     * @return string Returns the service.
+     * @return string|null Returns the service.
      */
-    public function getService() {
+    public function getService(): ?string{
         return $this->service;
     }
 
@@ -152,17 +153,17 @@ class Historique {
      *
      * @return DateTime|null Returns the visite medicale.
      */
-    public function getVisiteMedicale() {
+    public function getVisiteMedicale(): ?DateTime{
         return $this->visiteMedicale;
     }
 
     /**
      * Set the annees.
      *
-     * @param int $annees The annees.
+     * @param int|null $annees The annees.
      * @return Historique Returns this Historique.
      */
-    public function setAnnees($annees) {
+    public function setAnnees(?int $annees): Historique {
         $this->annees = $annees;
         return $this;
     }
@@ -170,22 +171,11 @@ class Historique {
     /**
      * Set the annees plus.
      *
-     * @param int $anneesPlus The annees plus.
+     * @param int|null $anneesPlus The annees plus.
      * @return Historique Returns this Historique.
      */
-    public function setAnneesPlus($anneesPlus) {
+    public function setAnneesPlus(?int $anneesPlus): Historique {
         $this->anneesPlus = $anneesPlus;
-        return $this;
-    }
-
-    /**
-     * Set the code etablissement.
-     *
-     * @param int $codeEtablissement The code etablissement.
-     * @return Historique Returns this Historique.
-     */
-    public function setCodeEtablissement($codeEtablissement) {
-        $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
 
@@ -195,7 +185,7 @@ class Historique {
      * @param DateTime|null $csValide The cs valide.
      * @return Historique Returns this Historique.
      */
-    public function setCsValide(DateTime $csValide = null) {
+    public function setCsValide(?DateTime $csValide): Historique {
         $this->csValide = $csValide;
         return $this;
     }
@@ -206,18 +196,29 @@ class Historique {
      * @param DateTime|null $ctValide The ct valide.
      * @return Historique Returns this Historique.
      */
-    public function setCtValide(DateTime $ctValide = null) {
+    public function setCtValide(?DateTime $ctValide): Historique {
         $this->ctValide = $ctValide;
+        return $this;
+    }
+
+    /**
+     * Set the code etablissement.
+     *
+     * @param int|null $codeEtablissement The code etablissement.
+     * @return Historique Returns this Historique.
+     */
+    public function setCodeEtablissement(?int $codeEtablissement): Historique {
+        $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
 
     /**
      * Set the rub.
      *
-     * @param string $rub The rub.
+     * @param string|null $rub The rub.
      * @return Historique Returns this Historique.
      */
-    public function setRub($rub) {
+    public function setRub(?string $rub): Historique {
         $this->rub = $rub;
         return $this;
     }
@@ -225,10 +226,10 @@ class Historique {
     /**
      * Set the service.
      *
-     * @param string $service The service.
+     * @param string|null $service The service.
      * @return Historique Returns this Historique.
      */
-    public function setService($service) {
+    public function setService(?string $service): Historique {
         $this->service = $service;
         return $this;
     }
@@ -239,7 +240,7 @@ class Historique {
      * @param DateTime|null $visiteMedicale The visite medicale.
      * @return Historique Returns this Historique.
      */
-    public function setVisiteMedicale(DateTime $visiteMedicale = null) {
+    public function setVisiteMedicale(?DateTime $visiteMedicale): Historique {
         $this->visiteMedicale = $visiteMedicale;
         return $this;
     }

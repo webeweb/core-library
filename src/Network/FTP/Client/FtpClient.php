@@ -42,7 +42,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function cdup() {
+    public function cdup(): FtpClient {
 
         if (false === @ftp_cdup($this->getConnection())) {
             throw $this->newFtpException("ftp_cdup failed");
@@ -58,7 +58,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function chdir($directory) {
+    public function chdir(string $directory): FtpClient {
 
         if (false === @ftp_chdir($this->getConnection(), $directory)) {
             throw $this->newFtpException("ftp_chdir failed: [{$directory}]");
@@ -75,7 +75,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function chmod($mode, $filename) {
+    public function chmod(int $mode, string $filename): FtpClient {
 
         if (false === @ftp_chmod($this->getConnection(), $mode, $filename)) {
             throw $this->newFtpException("ftp_chmod failed: [{$mode}, {$filename}]");
@@ -90,7 +90,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function close() {
+    public function close(): FtpClient {
 
         if (false === @ftp_close($this->getConnection())) {
             throw $this->newFtpException("ftp_close failed");
@@ -106,7 +106,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function connect($timeout = 90) {
+    public function connect(int $timeout = 90): FtpClient {
 
         $host = $this->getAuthenticator()->getHostname();
         $port = $this->getAuthenticator()->getPort();
@@ -126,7 +126,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function delete($path) {
+    public function delete(string $path): FtpClient {
 
         if (false === @ftp_delete($this->getConnection(), $path)) {
             throw $this->newFtpException("ftp_delete failed: [{$path}]");
@@ -145,7 +145,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function fget($localStream, $remoteFile, $mode = FTP_BINARY, $resumePos = 0) {
+    public function fget($localStream, string $remoteFile, int $mode = FTP_BINARY, int $resumePos = 0): FtpClient {
 
         if (false === @ftp_fget($this->getConnection(), $localStream, $remoteFile, $mode, $resumePos)) {
             throw $this->newFtpException("ftp_fget failed: [{$localStream}, {$remoteFile}, {$mode}, {$resumePos}]");
@@ -164,7 +164,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function fput($remoteFile, $localStream, $mode = FTP_BINARY, $startPos = 0) {
+    public function fput(string $remoteFile, string $localStream, int $mode = FTP_BINARY, int $startPos = 0): FtpClient {
 
         if (false === @ftp_fput($this->getConnection(), $remoteFile, $localStream, $mode, $startPos)) {
             throw $this->newFtpException("ftp_fput failed: [{$remoteFile}, {$localStream}, {$mode}, {$startPos}]");
@@ -183,7 +183,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function get($localFile, $remoteFile, $mode = FTP_BINARY, $resumePos = 0) {
+    public function get(string $localFile, string $remoteFile, int $mode = FTP_BINARY, int $resumePos = 0): FtpClient {
 
         if (false === @ftp_get($this->getConnection(), $localFile, $remoteFile, $mode, $resumePos)) {
             throw $this->newFtpException("ftp_get failed: [{$localFile}, {$remoteFile}, {$mode}, {$remoteFile}]");
@@ -198,7 +198,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function login() {
+    public function login(): FtpClient {
 
         $username = $this->getAuthenticator()->getPasswordAuthentication()->getUsername();
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
@@ -217,7 +217,7 @@ class FtpClient extends AbstractFtpClient {
      * @return int Returns the last modified time of the given file.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function mdtm($remoteFile) {
+    public function mdtm(string $remoteFile): int {
 
         $result = @ftp_mdtm($this->getConnection(), $remoteFile);
         if (false === $result) {
@@ -234,7 +234,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function mkdir($directory) {
+    public function mkdir(string $directory): FtpClient {
 
         if (false === @ftp_mkdir($this->getConnection(), $directory)) {
             throw $this->newFtpException("mkdir failed: [{$directory}]");
@@ -250,7 +250,7 @@ class FtpClient extends AbstractFtpClient {
      * @return array Returns a list of files in the given directory.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function mlsd($directory) {
+    public function mlsd(string $directory): array {
 
         $result = @ftp_mlsd($this->getConnection(), $directory);
         if (false === $result) {
@@ -269,7 +269,7 @@ class FtpClient extends AbstractFtpClient {
      * @param int $resumePos The resume position.
      * @return int
      */
-    public function nbFget($localStream, $remoteFile, $mode = FTP_BINARY, $resumePos = 0) {
+    public function nbFget($localStream, string $remoteFile, int $mode = FTP_BINARY, int $resumePos = 0): int {
         return @ftp_nb_fget($this->getConnection(), $localStream, $remoteFile, $mode, $resumePos);
     }
 
@@ -282,7 +282,7 @@ class FtpClient extends AbstractFtpClient {
      * @param int $startPos The start position.
      * @return int
      */
-    public function nbFput($remoteFile, $localStream, $mode = FTP_BINARY, $startPos = 0) {
+    public function nbFput(string $remoteFile, $localStream, int $mode = FTP_BINARY, $startPos = 0): int {
         return @ftp_nb_fput($this->getConnection(), $remoteFile, $localStream, $mode, $startPos);
     }
 
@@ -295,7 +295,7 @@ class FtpClient extends AbstractFtpClient {
      * @param int $resumePos The resume position.
      * @return int
      */
-    public function nbGet($localFile, $remoteFile, $mode = FTP_BINARY, $resumePos = 0) {
+    public function nbGet(string $localFile, string $remoteFile, int $mode = FTP_BINARY, int $resumePos = 0): int {
         return @ftp_nb_get($this->getConnection(), $localFile, $remoteFile, $mode, $resumePos);
     }
 
@@ -308,7 +308,7 @@ class FtpClient extends AbstractFtpClient {
      * @param int $startPos The start position.
      * @return int
      */
-    public function nbPut($remoteFile, $localFile, $mode = FTP_BINARY, $startPos = 0) {
+    public function nbPut(string $remoteFile, string $localFile, int $mode = FTP_BINARY, int $startPos = 0): int {
         return @ftp_nb_put($this->getConnection(), $remoteFile, $localFile, $mode, $startPos);
     }
 
@@ -319,7 +319,7 @@ class FtpClient extends AbstractFtpClient {
      * @return string[] Returns a list of files in the given directory.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function nlist($directory) {
+    public function nlist(string $directory): array {
 
         $result = @ftp_nlist($this->getConnection(), $directory);
         if (false === $result) {
@@ -336,7 +336,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function pasv($pasv) {
+    public function pasv(bool $pasv): FtpClient {
 
         if (false === @ftp_pasv($this->getConnection(), $pasv)) {
             throw $this->newFtpException("ftp_pasv failed: [{$pasv}]");
@@ -355,7 +355,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function put($localFile, $remoteFile, $mode = FTP_BINARY, $startPos = 0) {
+    public function put(string $localFile, string $remoteFile, int $mode = FTP_BINARY, int $startPos = 0): FtpClient {
 
         if (false === @ftp_put($this->getConnection(), $remoteFile, $localFile, $mode, $startPos)) {
             throw $this->newFtpException("ftp_put failed: [{$remoteFile}, {$localFile}, {$mode}, {$startPos}]");
@@ -370,7 +370,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function pwd() {
+    public function pwd(): FtpClient {
 
         if (false === @ftp_pwd($this->getConnection())) {
             throw $this->newFtpException("ftp_pwd failed");
@@ -387,7 +387,7 @@ class FtpClient extends AbstractFtpClient {
      * @return array Returns a detailed list of files in the given directory.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function rawList($directory, $recursive = false) {
+    public function rawList(string $directory, bool $recursive = false): array {
 
         $result = @ftp_rawList($this->getConnection(), $directory, $recursive);
         if (false === $result) {
@@ -405,7 +405,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function rename($oldName, $newName) {
+    public function rename(string $oldName, string $newName): FtpClient {
 
         if (false === @ftp_rename($this->getConnection(), $oldName, $newName)) {
             throw $this->newFtpException("ftp_rename failed: [{$oldName}, {$newName}]");
@@ -421,7 +421,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function rmdir($directory) {
+    public function rmdir(string $directory): FtpClient {
 
         if (false === @ftp_rmdir($this->getConnection(), $directory)) {
             throw $this->newFtpException("ftp_rmdir failed: [{$directory}]");
@@ -437,7 +437,7 @@ class FtpClient extends AbstractFtpClient {
      * @return int Returns the size of the given file.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function size($remoteFile) {
+    public function size(string $remoteFile): int {
 
         $result = @ftp_size($this->getConnection(), $remoteFile);
         if (-1 === $result) {
@@ -453,7 +453,7 @@ class FtpClient extends AbstractFtpClient {
      * @return string Returns the system type identifier of the remote FTP server.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function systype() {
+    public function systype(): string {
 
         $result = @ftp_systype($this->getConnection());
         if (false === $result) {

@@ -27,7 +27,7 @@ class StringCommentTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment() {
+    public function testSetComment(): void {
 
         $obj = new TestStringCommentTrait();
 
@@ -40,7 +40,7 @@ class StringCommentTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringCommentTrait();
 

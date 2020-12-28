@@ -29,7 +29,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAlerteRouge() {
+    public function testSetAlerteRouge(): void {
 
         $obj = new DernPrepaPaie();
 
@@ -42,7 +42,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new DernPrepaPaie();
 
@@ -55,7 +55,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new DernPrepaPaie();
 
@@ -69,7 +69,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtPrepa() {
+    public function testSetDtPrepa(): void {
 
         // Set a Date/time mock.
         $dtPrepa = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class DernPrepaPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DernPrepaPaie();
 

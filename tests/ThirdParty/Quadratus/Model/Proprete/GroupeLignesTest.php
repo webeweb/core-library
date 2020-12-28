@@ -27,7 +27,7 @@ class GroupeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeElement() {
+    public function testSetCodeElement(): void {
 
         $obj = new GroupeLignes();
 
@@ -40,7 +40,7 @@ class GroupeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupe() {
+    public function testSetGroupe(): void {
 
         $obj = new GroupeLignes();
 
@@ -53,7 +53,7 @@ class GroupeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdre() {
+    public function testSetOrdre(): void {
 
         $obj = new GroupeLignes();
 
@@ -66,7 +66,7 @@ class GroupeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeElement() {
+    public function testSetTypeElement(): void {
 
         $obj = new GroupeLignes();
 
@@ -79,7 +79,7 @@ class GroupeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new GroupeLignes();
 

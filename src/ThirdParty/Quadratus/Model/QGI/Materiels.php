@@ -24,35 +24,35 @@ class Materiels {
     /**
      * Car tec.
      *
-     * @var string
+     * @var string|null
      */
     private $carTec;
 
     /**
      * Categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $categorie;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code intervenant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeIntervenant;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -73,28 +73,28 @@ class Materiels {
     /**
      * Indice aff.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceAff;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Ref image.
      *
-     * @var string
+     * @var string|null
      */
     private $refImage;
 
     /**
      * Sous categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $sousCategorie;
 
@@ -102,51 +102,51 @@ class Materiels {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the car tec.
      *
-     * @return string Returns the car tec.
+     * @return string|null Returns the car tec.
      */
-    public function getCarTec() {
+    public function getCarTec(): ?string {
         return $this->carTec;
     }
 
     /**
      * Get the categorie.
      *
-     * @return string Returns the categorie.
+     * @return string|null Returns the categorie.
      */
-    public function getCategorie() {
+    public function getCategorie(): ?string {
         return $this->categorie;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code intervenant.
      *
-     * @return string Returns the code intervenant.
+     * @return string|null Returns the code intervenant.
      */
-    public function getCodeIntervenant() {
+    public function getCodeIntervenant(): ?string {
         return $this->codeIntervenant;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -155,7 +155,7 @@ class Materiels {
      *
      * @return DateTime|null Returns the date achat.
      */
-    public function getDateAchat() {
+    public function getDateAchat(): ?DateTime {
         return $this->dateAchat;
     }
 
@@ -164,53 +164,53 @@ class Materiels {
      *
      * @return DateTime|null Returns the date fin util.
      */
-    public function getDateFinUtil() {
+    public function getDateFinUtil(): ?DateTime {
         return $this->dateFinUtil;
     }
 
     /**
      * Get the indice aff.
      *
-     * @return int Returns the indice aff.
+     * @return int|null Returns the indice aff.
      */
-    public function getIndiceAff() {
+    public function getIndiceAff(): ?int {
         return $this->indiceAff;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the ref image.
      *
-     * @return string Returns the ref image.
+     * @return string|null Returns the ref image.
      */
-    public function getRefImage() {
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
     /**
      * Get the sous categorie.
      *
-     * @return string Returns the sous categorie.
+     * @return string|null Returns the sous categorie.
      */
-    public function getSousCategorie() {
+    public function getSousCategorie(): ?string {
         return $this->sousCategorie;
     }
 
     /**
      * Set the car tec.
      *
-     * @param string $carTec The car tec.
+     * @param string|null $carTec The car tec.
      * @return Materiels Returns this Materiels.
      */
-    public function setCarTec($carTec) {
+    public function setCarTec(?string $carTec): Materiels {
         $this->carTec = $carTec;
         return $this;
     }
@@ -218,10 +218,10 @@ class Materiels {
     /**
      * Set the categorie.
      *
-     * @param string $categorie The categorie.
+     * @param string|null $categorie The categorie.
      * @return Materiels Returns this Materiels.
      */
-    public function setCategorie($categorie) {
+    public function setCategorie(?string $categorie): Materiels {
         $this->categorie = $categorie;
         return $this;
     }
@@ -229,10 +229,10 @@ class Materiels {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Materiels Returns this Materiels.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Materiels {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -240,10 +240,10 @@ class Materiels {
     /**
      * Set the code intervenant.
      *
-     * @param string $codeIntervenant The code intervenant.
+     * @param string|null $codeIntervenant The code intervenant.
      * @return Materiels Returns this Materiels.
      */
-    public function setCodeIntervenant($codeIntervenant) {
+    public function setCodeIntervenant(?string $codeIntervenant): Materiels {
         $this->codeIntervenant = $codeIntervenant;
         return $this;
     }
@@ -251,10 +251,10 @@ class Materiels {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Materiels Returns this Materiels.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Materiels {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -265,7 +265,7 @@ class Materiels {
      * @param DateTime|null $dateAchat The date achat.
      * @return Materiels Returns this Materiels.
      */
-    public function setDateAchat(DateTime $dateAchat = null) {
+    public function setDateAchat(?DateTime $dateAchat): Materiels {
         $this->dateAchat = $dateAchat;
         return $this;
     }
@@ -276,7 +276,7 @@ class Materiels {
      * @param DateTime|null $dateFinUtil The date fin util.
      * @return Materiels Returns this Materiels.
      */
-    public function setDateFinUtil(DateTime $dateFinUtil = null) {
+    public function setDateFinUtil(?DateTime $dateFinUtil): Materiels {
         $this->dateFinUtil = $dateFinUtil;
         return $this;
     }
@@ -284,10 +284,10 @@ class Materiels {
     /**
      * Set the indice aff.
      *
-     * @param int $indiceAff The indice aff.
+     * @param int|null $indiceAff The indice aff.
      * @return Materiels Returns this Materiels.
      */
-    public function setIndiceAff($indiceAff) {
+    public function setIndiceAff(?int $indiceAff): Materiels {
         $this->indiceAff = $indiceAff;
         return $this;
     }
@@ -295,10 +295,10 @@ class Materiels {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Materiels Returns this Materiels.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Materiels {
         $this->libelle = $libelle;
         return $this;
     }
@@ -306,10 +306,10 @@ class Materiels {
     /**
      * Set the ref image.
      *
-     * @param string $refImage The ref image.
+     * @param string|null $refImage The ref image.
      * @return Materiels Returns this Materiels.
      */
-    public function setRefImage($refImage) {
+    public function setRefImage(?string $refImage): Materiels {
         $this->refImage = $refImage;
         return $this;
     }
@@ -317,10 +317,10 @@ class Materiels {
     /**
      * Set the sous categorie.
      *
-     * @param string $sousCategorie The sous categorie.
+     * @param string|null $sousCategorie The sous categorie.
      * @return Materiels Returns this Materiels.
      */
-    public function setSousCategorie($sousCategorie) {
+    public function setSousCategorie(?string $sousCategorie): Materiels {
         $this->sousCategorie = $sousCategorie;
         return $this;
     }

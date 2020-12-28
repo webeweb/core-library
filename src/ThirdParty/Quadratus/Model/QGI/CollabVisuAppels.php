@@ -22,65 +22,66 @@ class CollabVisuAppels {
     /**
      * Code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollab;
 
     /**
      * Code collab visu.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabVisu;
 
     /**
      * Type code.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCode;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab.
      *
-     * @return string Returns the code collab.
+     * @return string|null Returns the code collab.
      */
-    public function getCodeCollab() {
+    public function getCodeCollab(): ?string{
         return $this->codeCollab;
     }
 
     /**
      * Get the code collab visu.
      *
-     * @return string Returns the code collab visu.
+     * @return string|null Returns the code collab visu.
      */
-    public function getCodeCollabVisu() {
+    public function getCodeCollabVisu(): ?string{
         return $this->codeCollabVisu;
     }
 
     /**
      * Get the type code.
      *
-     * @return string Returns the type code.
+     * @return string|null Returns the type code.
      */
-    public function getTypeCode() {
+    public function getTypeCode(): ?string{
         return $this->typeCode;
     }
 
     /**
      * Set the code collab.
      *
-     * @param string $codeCollab The code collab.
+     * @param string|null $codeCollab The code collab.
      * @return CollabVisuAppels Returns this Collab visu appels.
      */
-    public function setCodeCollab($codeCollab) {
+    public function setCodeCollab(?string $codeCollab): CollabVisuAppels {
         $this->codeCollab = $codeCollab;
         return $this;
     }
@@ -88,10 +89,10 @@ class CollabVisuAppels {
     /**
      * Set the code collab visu.
      *
-     * @param string $codeCollabVisu The code collab visu.
+     * @param string|null $codeCollabVisu The code collab visu.
      * @return CollabVisuAppels Returns this Collab visu appels.
      */
-    public function setCodeCollabVisu($codeCollabVisu) {
+    public function setCodeCollabVisu(?string $codeCollabVisu): CollabVisuAppels {
         $this->codeCollabVisu = $codeCollabVisu;
         return $this;
     }
@@ -99,10 +100,10 @@ class CollabVisuAppels {
     /**
      * Set the type code.
      *
-     * @param string $typeCode The type code.
+     * @param string|null $typeCode The type code.
      * @return CollabVisuAppels Returns this Collab visu appels.
      */
-    public function setTypeCode($typeCode) {
+    public function setTypeCode(?string $typeCode): CollabVisuAppels {
         $this->typeCode = $typeCode;
         return $this;
     }

@@ -29,7 +29,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new Assurances();
 
@@ -42,7 +42,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new Assurances();
 
@@ -55,7 +55,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompagnie() {
+    public function testSetCompagnie(): void {
 
         $obj = new Assurances();
 
@@ -68,7 +68,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCourtier() {
+    public function testSetCourtier(): void {
 
         $obj = new Assurances();
 
@@ -81,7 +81,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         $obj = new Assurances();
 
@@ -95,7 +95,7 @@ class AssurancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateInitiale() {
+    public function testSetDateInitiale(): void {
 
         // Set a Date/time mock.
         $dateInitiale = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class AssurancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature1() {
+    public function testSetDateSignature1(): void {
 
         // Set a Date/time mock.
         $dateSignature1 = new DateTime("2018-09-10");
@@ -129,7 +129,7 @@ class AssurancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature2() {
+    public function testSetDateSignature2(): void {
 
         // Set a Date/time mock.
         $dateSignature2 = new DateTime("2018-09-10");
@@ -146,7 +146,7 @@ class AssurancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature3() {
+    public function testSetDateSignature3(): void {
 
         // Set a Date/time mock.
         $dateSignature3 = new DateTime("2018-09-10");
@@ -163,7 +163,7 @@ class AssurancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature4() {
+    public function testSetDateSignature4(): void {
 
         // Set a Date/time mock.
         $dateSignature4 = new DateTime("2018-09-10");
@@ -180,7 +180,7 @@ class AssurancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature5() {
+    public function testSetDateSignature5(): void {
 
         // Set a Date/time mock.
         $dateSignature5 = new DateTime("2018-09-10");
@@ -196,7 +196,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new Assurances();
 
@@ -209,7 +209,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureePreavis() {
+    public function testSetDureePreavis(): void {
 
         $obj = new Assurances();
 
@@ -222,7 +222,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Assurances();
 
@@ -235,7 +235,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel1() {
+    public function testSetMontantAnnuel1(): void {
 
         $obj = new Assurances();
 
@@ -248,7 +248,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel2() {
+    public function testSetMontantAnnuel2(): void {
 
         $obj = new Assurances();
 
@@ -261,7 +261,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel3() {
+    public function testSetMontantAnnuel3(): void {
 
         $obj = new Assurances();
 
@@ -274,7 +274,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel4() {
+    public function testSetMontantAnnuel4(): void {
 
         $obj = new Assurances();
 
@@ -287,7 +287,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAnnuel5() {
+    public function testSetMontantAnnuel5(): void {
 
         $obj = new Assurances();
 
@@ -300,7 +300,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantFixe() {
+    public function testSetMontantFixe(): void {
 
         $obj = new Assurances();
 
@@ -313,7 +313,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumContrat() {
+    public function testSetNumContrat(): void {
 
         $obj = new Assurances();
 
@@ -326,7 +326,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptAssurance() {
+    public function testSetNumCptAssurance(): void {
 
         $obj = new Assurances();
 
@@ -339,7 +339,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new Assurances();
 
@@ -352,7 +352,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteDuree() {
+    public function testSetUniteDuree(): void {
 
         $obj = new Assurances();
 
@@ -365,7 +365,7 @@ class AssurancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Assurances();
 

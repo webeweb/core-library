@@ -29,7 +29,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutresOpe1() {
+    public function testSetAutresOpe1(): void {
 
         $obj = new DecTva3519();
 
@@ -42,7 +42,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutresOpe2() {
+    public function testSetAutresOpe2(): void {
 
         $obj = new DecTva3519();
 
@@ -55,7 +55,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutresOpe3() {
+    public function testSetAutresOpe3(): void {
 
         $obj = new DecTva3519();
 
@@ -68,7 +68,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutresOpe4() {
+    public function testSetAutresOpe4(): void {
 
         $obj = new DecTva3519();
 
@@ -81,7 +81,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutresOpeTotal() {
+    public function testSetAutresOpeTotal(): void {
 
         $obj = new DecTva3519();
 
@@ -94,7 +94,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new DecTva3519();
 
@@ -107,7 +107,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires1() {
+    public function testSetCommentaires1(): void {
 
         $obj = new DecTva3519();
 
@@ -120,7 +120,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires2() {
+    public function testSetCommentaires2(): void {
 
         $obj = new DecTva3519();
 
@@ -133,7 +133,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires3() {
+    public function testSetCommentaires3(): void {
 
         $obj = new DecTva3519();
 
@@ -146,7 +146,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires4() {
+    public function testSetCommentaires4(): void {
 
         $obj = new DecTva3519();
 
@@ -159,7 +159,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires5() {
+    public function testSetCommentaires5(): void {
 
         $obj = new DecTva3519();
 
@@ -172,7 +172,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditCompte() {
+    public function testSetCreditCompte(): void {
 
         $obj = new DecTva3519();
 
@@ -185,7 +185,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditImputer() {
+    public function testSetCreditImputer(): void {
 
         $obj = new DecTva3519();
 
@@ -198,7 +198,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditNonRemb() {
+    public function testSetCreditNonRemb(): void {
 
         $obj = new DecTva3519();
 
@@ -212,7 +212,7 @@ class DecTva3519Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCession() {
+    public function testSetDateCession(): void {
 
         // Set a Date/time mock.
         $dateCession = new DateTime("2018-09-10");
@@ -229,7 +229,7 @@ class DecTva3519Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -246,7 +246,7 @@ class DecTva3519Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDemande() {
+    public function testSetDateDemande(): void {
 
         // Set a Date/time mock.
         $dateDemande = new DateTime("2018-09-10");
@@ -262,7 +262,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpBiens1() {
+    public function testSetExpBiens1(): void {
 
         $obj = new DecTva3519();
 
@@ -275,7 +275,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpBiens2() {
+    public function testSetExpBiens2(): void {
 
         $obj = new DecTva3519();
 
@@ -288,7 +288,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpBiens3() {
+    public function testSetExpBiens3(): void {
 
         $obj = new DecTva3519();
 
@@ -301,7 +301,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpBiens4() {
+    public function testSetExpBiens4(): void {
 
         $obj = new DecTva3519();
 
@@ -314,7 +314,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpBiensTotal() {
+    public function testSetExpBiensTotal(): void {
 
         $obj = new DecTva3519();
 
@@ -327,7 +327,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpPeriodes() {
+    public function testSetExpPeriodes(): void {
 
         $obj = new DecTva3519();
 
@@ -340,7 +340,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new DecTva3519();
 
@@ -353,7 +353,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntracom1() {
+    public function testSetIntracom1(): void {
 
         $obj = new DecTva3519();
 
@@ -366,7 +366,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntracom2() {
+    public function testSetIntracom2(): void {
 
         $obj = new DecTva3519();
 
@@ -379,7 +379,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntracom3() {
+    public function testSetIntracom3(): void {
 
         $obj = new DecTva3519();
 
@@ -392,7 +392,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntracom4() {
+    public function testSetIntracom4(): void {
 
         $obj = new DecTva3519();
 
@@ -405,7 +405,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntracomTotal() {
+    public function testSetIntracomTotal(): void {
 
         $obj = new DecTva3519();
 
@@ -418,7 +418,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMois1() {
+    public function testSetMois1(): void {
 
         $obj = new DecTva3519();
 
@@ -431,7 +431,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMois2() {
+    public function testSetMois2(): void {
 
         $obj = new DecTva3519();
 
@@ -444,7 +444,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMois3() {
+    public function testSetMois3(): void {
 
         $obj = new DecTva3519();
 
@@ -457,7 +457,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant1() {
+    public function testSetMontant1(): void {
 
         $obj = new DecTva3519();
 
@@ -470,7 +470,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant2() {
+    public function testSetMontant2(): void {
 
         $obj = new DecTva3519();
 
@@ -483,7 +483,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant3() {
+    public function testSetMontant3(): void {
 
         $obj = new DecTva3519();
 
@@ -496,7 +496,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantRbt() {
+    public function testSetMontantRbt(): void {
 
         $obj = new DecTva3519();
 
@@ -509,7 +509,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNationalite() {
+    public function testSetNationalite(): void {
 
         $obj = new DecTva3519();
 
@@ -522,7 +522,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomPrenom() {
+    public function testSetNomPrenom(): void {
 
         $obj = new DecTva3519();
 
@@ -536,7 +536,7 @@ class DecTva3519Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -552,7 +552,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafondRbt() {
+    public function testSetPlafondRbt(): void {
 
         $obj = new DecTva3519();
 
@@ -565,7 +565,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualite() {
+    public function testSetQualite(): void {
 
         $obj = new DecTva3519();
 
@@ -578,7 +578,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRbtDemande() {
+    public function testSetRbtDemande(): void {
 
         $obj = new DecTva3519();
 
@@ -591,7 +591,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReportCredit() {
+    public function testSetReportCredit(): void {
 
         $obj = new DecTva3519();
 
@@ -604,7 +604,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new DecTva3519();
 
@@ -617,7 +617,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva1() {
+    public function testSetTauxTva1(): void {
 
         $obj = new DecTva3519();
 
@@ -630,7 +630,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva2() {
+    public function testSetTauxTva2(): void {
 
         $obj = new DecTva3519();
 
@@ -643,7 +643,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva3() {
+    public function testSetTauxTva3(): void {
 
         $obj = new DecTva3519();
 
@@ -656,7 +656,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva4() {
+    public function testSetTauxTva4(): void {
 
         $obj = new DecTva3519();
 
@@ -669,7 +669,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalColonne1() {
+    public function testSetTotalColonne1(): void {
 
         $obj = new DecTva3519();
 
@@ -682,7 +682,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalColonne2() {
+    public function testSetTotalColonne2(): void {
 
         $obj = new DecTva3519();
 
@@ -695,7 +695,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalColonne3() {
+    public function testSetTotalColonne3(): void {
 
         $obj = new DecTva3519();
 
@@ -708,7 +708,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalColonne4() {
+    public function testSetTotalColonne4(): void {
 
         $obj = new DecTva3519();
 
@@ -721,7 +721,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalColonne5() {
+    public function testSetTotalColonne5(): void {
 
         $obj = new DecTva3519();
 
@@ -734,7 +734,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictive1() {
+    public function testSetTvaFictive1(): void {
 
         $obj = new DecTva3519();
 
@@ -747,7 +747,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictive2() {
+    public function testSetTvaFictive2(): void {
 
         $obj = new DecTva3519();
 
@@ -760,7 +760,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictive3() {
+    public function testSetTvaFictive3(): void {
 
         $obj = new DecTva3519();
 
@@ -773,7 +773,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictive4() {
+    public function testSetTvaFictive4(): void {
 
         $obj = new DecTva3519();
 
@@ -786,7 +786,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictive5() {
+    public function testSetTvaFictive5(): void {
 
         $obj = new DecTva3519();
 
@@ -799,7 +799,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictivePrec() {
+    public function testSetTvaFictivePrec(): void {
 
         $obj = new DecTva3519();
 
@@ -812,7 +812,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFictivePres() {
+    public function testSetTvaFictivePres(): void {
 
         $obj = new DecTva3519();
 
@@ -825,7 +825,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDemande() {
+    public function testSetTypeDemande(): void {
 
         $obj = new DecTva3519();
 
@@ -838,7 +838,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVille() {
+    public function testSetVille(): void {
 
         $obj = new DecTva3519();
 
@@ -851,7 +851,7 @@ class DecTva3519Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DecTva3519();
 

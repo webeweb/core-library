@@ -27,7 +27,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new MissionVisuTaches();
 
@@ -40,7 +40,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheVisu() {
+    public function testSetCodeTacheVisu(): void {
 
         $obj = new MissionVisuTaches();
 
@@ -53,7 +53,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsRegroupement() {
+    public function testSetIsRegroupement(): void {
 
         $obj = new MissionVisuTaches();
 
@@ -66,7 +66,7 @@ class MissionVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MissionVisuTaches();
 

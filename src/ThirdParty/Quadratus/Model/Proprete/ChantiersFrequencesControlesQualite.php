@@ -22,145 +22,146 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Jour.
      *
-     * @var string
+     * @var string|null
      */
     private $jour;
 
     /**
      * Mois.
      *
-     * @var string
+     * @var string|null
      */
     private $mois;
 
     /**
      * Numero freq.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroFreq;
 
     /**
      * Que premiere annee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $quePremiereAnnee;
 
     /**
      * Type controle.
      *
-     * @var string
+     * @var string|null
      */
     private $typeControle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the jour.
      *
-     * @return string Returns the jour.
+     * @return string|null Returns the jour.
      */
-    public function getJour() {
+    public function getJour(): ?string{
         return $this->jour;
     }
 
     /**
      * Get the mois.
      *
-     * @return string Returns the mois.
+     * @return string|null Returns the mois.
      */
-    public function getMois() {
+    public function getMois(): ?string{
         return $this->mois;
     }
 
     /**
      * Get the numero freq.
      *
-     * @return int Returns the numero freq.
+     * @return int|null Returns the numero freq.
      */
-    public function getNumeroFreq() {
+    public function getNumeroFreq(): ?int{
         return $this->numeroFreq;
     }
 
     /**
      * Get the que premiere annee.
      *
-     * @return bool Returns the que premiere annee.
+     * @return bool|null Returns the que premiere annee.
      */
-    public function getQuePremiereAnnee() {
+    public function getQuePremiereAnnee(): ?bool{
         return $this->quePremiereAnnee;
     }
 
     /**
      * Get the type controle.
      *
-     * @return string Returns the type controle.
+     * @return string|null Returns the type controle.
      */
-    public function getTypeControle() {
+    public function getTypeControle(): ?string{
         return $this->typeControle;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): ChantiersFrequencesControlesQualite {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -168,10 +169,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): ChantiersFrequencesControlesQualite {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -179,10 +180,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ChantiersFrequencesControlesQualite {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -190,10 +191,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the jour.
      *
-     * @param string $jour The jour.
+     * @param string|null $jour The jour.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setJour($jour) {
+    public function setJour(?string $jour): ChantiersFrequencesControlesQualite {
         $this->jour = $jour;
         return $this;
     }
@@ -201,10 +202,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the mois.
      *
-     * @param string $mois The mois.
+     * @param string|null $mois The mois.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setMois($mois) {
+    public function setMois(?string $mois): ChantiersFrequencesControlesQualite {
         $this->mois = $mois;
         return $this;
     }
@@ -212,10 +213,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the numero freq.
      *
-     * @param int $numeroFreq The numero freq.
+     * @param int|null $numeroFreq The numero freq.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setNumeroFreq($numeroFreq) {
+    public function setNumeroFreq(?int $numeroFreq): ChantiersFrequencesControlesQualite {
         $this->numeroFreq = $numeroFreq;
         return $this;
     }
@@ -223,10 +224,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the que premiere annee.
      *
-     * @param bool $quePremiereAnnee The que premiere annee.
+     * @param bool|null $quePremiereAnnee The que premiere annee.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setQuePremiereAnnee($quePremiereAnnee) {
+    public function setQuePremiereAnnee(?bool $quePremiereAnnee): ChantiersFrequencesControlesQualite {
         $this->quePremiereAnnee = $quePremiereAnnee;
         return $this;
     }
@@ -234,10 +235,10 @@ class ChantiersFrequencesControlesQualite {
     /**
      * Set the type controle.
      *
-     * @param string $typeControle The type controle.
+     * @param string|null $typeControle The type controle.
      * @return ChantiersFrequencesControlesQualite Returns this Chantiers frequences controles qualite.
      */
-    public function setTypeControle($typeControle) {
+    public function setTypeControle(?string $typeControle): ChantiersFrequencesControlesQualite {
         $this->typeControle = $typeControle;
         return $this;
     }

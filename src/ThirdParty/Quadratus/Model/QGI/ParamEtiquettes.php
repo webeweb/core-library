@@ -22,273 +22,274 @@ class ParamEtiquettes {
     /**
      * Avec code barre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avecCodeBarre;
 
     /**
      * Avec prix vente.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avecPrixVente;
 
     /**
      * Code modele.
      *
-     * @var string
+     * @var string|null
      */
     private $codeModele;
 
     /**
      * Etiq de front.
      *
-     * @var int
+     * @var int|null
      */
     private $etiqDeFront;
 
     /**
      * Etiq masque.
      *
-     * @var bool
+     * @var bool|null
      */
     private $etiqMasque;
 
     /**
      * Etiq plus.
      *
-     * @var bool
+     * @var bool|null
      */
     private $etiqPlus;
 
     /**
      * Imprimante.
      *
-     * @var string
+     * @var string|null
      */
     private $imprimante;
 
     /**
      * Init champ.
      *
-     * @var string
+     * @var string|null
      */
     private $initChamp;
 
     /**
      * Init table.
      *
-     * @var string
+     * @var string|null
      */
     private $initTable;
 
     /**
      * Init valeur.
      *
-     * @var string
+     * @var string|null
      */
     private $initValeur;
 
     /**
      * Lg zone.
      *
-     * @var string
+     * @var string|null
      */
     private $lgZone;
 
     /**
      * Lib zone.
      *
-     * @var string
+     * @var string|null
      */
     private $libZone;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Qte ent.
      *
-     * @var bool
+     * @var bool|null
      */
     private $qteEnt;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the avec code barre.
      *
-     * @return bool Returns the avec code barre.
+     * @return bool|null Returns the avec code barre.
      */
-    public function getAvecCodeBarre() {
+    public function getAvecCodeBarre(): ?bool{
         return $this->avecCodeBarre;
     }
 
     /**
      * Get the avec prix vente.
      *
-     * @return bool Returns the avec prix vente.
+     * @return bool|null Returns the avec prix vente.
      */
-    public function getAvecPrixVente() {
+    public function getAvecPrixVente(): ?bool{
         return $this->avecPrixVente;
     }
 
     /**
      * Get the code modele.
      *
-     * @return string Returns the code modele.
+     * @return string|null Returns the code modele.
      */
-    public function getCodeModele() {
+    public function getCodeModele(): ?string{
         return $this->codeModele;
     }
 
     /**
      * Get the etiq de front.
      *
-     * @return int Returns the etiq de front.
+     * @return int|null Returns the etiq de front.
      */
-    public function getEtiqDeFront() {
+    public function getEtiqDeFront(): ?int{
         return $this->etiqDeFront;
     }
 
     /**
      * Get the etiq masque.
      *
-     * @return bool Returns the etiq masque.
+     * @return bool|null Returns the etiq masque.
      */
-    public function getEtiqMasque() {
+    public function getEtiqMasque(): ?bool{
         return $this->etiqMasque;
     }
 
     /**
      * Get the etiq plus.
      *
-     * @return bool Returns the etiq plus.
+     * @return bool|null Returns the etiq plus.
      */
-    public function getEtiqPlus() {
+    public function getEtiqPlus(): ?bool{
         return $this->etiqPlus;
     }
 
     /**
      * Get the imprimante.
      *
-     * @return string Returns the imprimante.
+     * @return string|null Returns the imprimante.
      */
-    public function getImprimante() {
+    public function getImprimante(): ?string{
         return $this->imprimante;
     }
 
     /**
      * Get the init champ.
      *
-     * @return string Returns the init champ.
+     * @return string|null Returns the init champ.
      */
-    public function getInitChamp() {
+    public function getInitChamp(): ?string{
         return $this->initChamp;
     }
 
     /**
      * Get the init table.
      *
-     * @return string Returns the init table.
+     * @return string|null Returns the init table.
      */
-    public function getInitTable() {
+    public function getInitTable(): ?string{
         return $this->initTable;
     }
 
     /**
      * Get the init valeur.
      *
-     * @return string Returns the init valeur.
+     * @return string|null Returns the init valeur.
      */
-    public function getInitValeur() {
+    public function getInitValeur(): ?string{
         return $this->initValeur;
     }
 
     /**
      * Get the lg zone.
      *
-     * @return string Returns the lg zone.
+     * @return string|null Returns the lg zone.
      */
-    public function getLgZone() {
+    public function getLgZone(): ?string{
         return $this->lgZone;
     }
 
     /**
      * Get the lib zone.
      *
-     * @return string Returns the lib zone.
+     * @return string|null Returns the lib zone.
      */
-    public function getLibZone() {
+    public function getLibZone(): ?string{
         return $this->libZone;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the qte ent.
      *
-     * @return bool Returns the qte ent.
+     * @return bool|null Returns the qte ent.
      */
-    public function getQteEnt() {
+    public function getQteEnt(): ?bool{
         return $this->qteEnt;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the avec code barre.
      *
-     * @param bool $avecCodeBarre The avec code barre.
+     * @param bool|null $avecCodeBarre The avec code barre.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setAvecCodeBarre($avecCodeBarre) {
+    public function setAvecCodeBarre(?bool $avecCodeBarre): ParamEtiquettes {
         $this->avecCodeBarre = $avecCodeBarre;
         return $this;
     }
@@ -296,10 +297,10 @@ class ParamEtiquettes {
     /**
      * Set the avec prix vente.
      *
-     * @param bool $avecPrixVente The avec prix vente.
+     * @param bool|null $avecPrixVente The avec prix vente.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setAvecPrixVente($avecPrixVente) {
+    public function setAvecPrixVente(?bool $avecPrixVente): ParamEtiquettes {
         $this->avecPrixVente = $avecPrixVente;
         return $this;
     }
@@ -307,10 +308,10 @@ class ParamEtiquettes {
     /**
      * Set the code modele.
      *
-     * @param string $codeModele The code modele.
+     * @param string|null $codeModele The code modele.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setCodeModele($codeModele) {
+    public function setCodeModele(?string $codeModele): ParamEtiquettes {
         $this->codeModele = $codeModele;
         return $this;
     }
@@ -318,10 +319,10 @@ class ParamEtiquettes {
     /**
      * Set the etiq de front.
      *
-     * @param int $etiqDeFront The etiq de front.
+     * @param int|null $etiqDeFront The etiq de front.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setEtiqDeFront($etiqDeFront) {
+    public function setEtiqDeFront(?int $etiqDeFront): ParamEtiquettes {
         $this->etiqDeFront = $etiqDeFront;
         return $this;
     }
@@ -329,10 +330,10 @@ class ParamEtiquettes {
     /**
      * Set the etiq masque.
      *
-     * @param bool $etiqMasque The etiq masque.
+     * @param bool|null $etiqMasque The etiq masque.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setEtiqMasque($etiqMasque) {
+    public function setEtiqMasque(?bool $etiqMasque): ParamEtiquettes {
         $this->etiqMasque = $etiqMasque;
         return $this;
     }
@@ -340,10 +341,10 @@ class ParamEtiquettes {
     /**
      * Set the etiq plus.
      *
-     * @param bool $etiqPlus The etiq plus.
+     * @param bool|null $etiqPlus The etiq plus.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setEtiqPlus($etiqPlus) {
+    public function setEtiqPlus(?bool $etiqPlus): ParamEtiquettes {
         $this->etiqPlus = $etiqPlus;
         return $this;
     }
@@ -351,10 +352,10 @@ class ParamEtiquettes {
     /**
      * Set the imprimante.
      *
-     * @param string $imprimante The imprimante.
+     * @param string|null $imprimante The imprimante.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setImprimante($imprimante) {
+    public function setImprimante(?string $imprimante): ParamEtiquettes {
         $this->imprimante = $imprimante;
         return $this;
     }
@@ -362,10 +363,10 @@ class ParamEtiquettes {
     /**
      * Set the init champ.
      *
-     * @param string $initChamp The init champ.
+     * @param string|null $initChamp The init champ.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setInitChamp($initChamp) {
+    public function setInitChamp(?string $initChamp): ParamEtiquettes {
         $this->initChamp = $initChamp;
         return $this;
     }
@@ -373,10 +374,10 @@ class ParamEtiquettes {
     /**
      * Set the init table.
      *
-     * @param string $initTable The init table.
+     * @param string|null $initTable The init table.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setInitTable($initTable) {
+    public function setInitTable(?string $initTable): ParamEtiquettes {
         $this->initTable = $initTable;
         return $this;
     }
@@ -384,10 +385,10 @@ class ParamEtiquettes {
     /**
      * Set the init valeur.
      *
-     * @param string $initValeur The init valeur.
+     * @param string|null $initValeur The init valeur.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setInitValeur($initValeur) {
+    public function setInitValeur(?string $initValeur): ParamEtiquettes {
         $this->initValeur = $initValeur;
         return $this;
     }
@@ -395,10 +396,10 @@ class ParamEtiquettes {
     /**
      * Set the lg zone.
      *
-     * @param string $lgZone The lg zone.
+     * @param string|null $lgZone The lg zone.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setLgZone($lgZone) {
+    public function setLgZone(?string $lgZone): ParamEtiquettes {
         $this->lgZone = $lgZone;
         return $this;
     }
@@ -406,10 +407,10 @@ class ParamEtiquettes {
     /**
      * Set the lib zone.
      *
-     * @param string $libZone The lib zone.
+     * @param string|null $libZone The lib zone.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setLibZone($libZone) {
+    public function setLibZone(?string $libZone): ParamEtiquettes {
         $this->libZone = $libZone;
         return $this;
     }
@@ -417,10 +418,10 @@ class ParamEtiquettes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ParamEtiquettes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -428,10 +429,10 @@ class ParamEtiquettes {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): ParamEtiquettes {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -439,10 +440,10 @@ class ParamEtiquettes {
     /**
      * Set the qte ent.
      *
-     * @param bool $qteEnt The qte ent.
+     * @param bool|null $qteEnt The qte ent.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setQteEnt($qteEnt) {
+    public function setQteEnt(?bool $qteEnt): ParamEtiquettes {
         $this->qteEnt = $qteEnt;
         return $this;
     }
@@ -450,10 +451,10 @@ class ParamEtiquettes {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return ParamEtiquettes Returns this Param etiquettes.
      */
-    public function setType($type) {
+    public function setType(?string $type): ParamEtiquettes {
         $this->type = $type;
         return $this;
     }

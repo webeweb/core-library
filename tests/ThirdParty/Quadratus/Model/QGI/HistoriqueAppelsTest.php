@@ -29,7 +29,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -42,7 +42,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurClot() {
+    public function testSetCodeCollaborateurClot(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -55,7 +55,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurDest() {
+    public function testSetCodeCollaborateurDest(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -68,7 +68,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateurEntrant() {
+    public function testSetCodeCollaborateurEntrant(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -81,7 +81,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProduit() {
+    public function testSetCodeProduit(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -94,7 +94,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConfidentiel() {
+    public function testSetConfidentiel(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -107,7 +107,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConsequence() {
+    public function testSetConsequence(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -121,7 +121,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -138,7 +138,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSortie() {
+    public function testSetDateSortie(): void {
 
         // Set a Date/time mock.
         $dateSortie = new DateTime("2018-09-10");
@@ -154,7 +154,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmailAuteur() {
+    public function testSetEmailAuteur(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -167,7 +167,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeQualifiant() {
+    public function testSetGroupeQualifiant(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -180,7 +180,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdHistorique() {
+    public function testSetIdHistorique(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -193,7 +193,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -206,7 +206,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -219,7 +219,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomClient() {
+    public function testSetNomClient(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -232,7 +232,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigine() {
+    public function testSetOrigine(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -245,7 +245,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPieceJointe() {
+    public function testSetPieceJointe(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -258,7 +258,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReponse() {
+    public function testSetReponse(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -271,7 +271,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSpecial() {
+    public function testSetSpecial(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -284,7 +284,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel() {
+    public function testSetTel(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -297,7 +297,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMessage() {
+    public function testSetTypeMessage(): void {
 
         $obj = new HistoriqueAppels();
 
@@ -310,7 +310,7 @@ class HistoriqueAppelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoriqueAppels();
 

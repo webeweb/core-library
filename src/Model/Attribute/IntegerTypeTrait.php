@@ -22,25 +22,25 @@ trait IntegerTypeTrait {
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     protected $type;
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int {
         return $this->type;
     }
 
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      */
-    public function setType($type) {
+    public function setType(?int $type) {
         $this->type = $type;
         return $this;
     }

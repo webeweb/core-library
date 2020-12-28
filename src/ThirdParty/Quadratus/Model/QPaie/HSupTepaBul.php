@@ -24,42 +24,42 @@ class HSupTepaBul {
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Mt brut exo.
      *
-     * @var float
+     * @var float|null
      */
     private $mtBrutExo;
 
     /**
      * Mt brut exo abat.
      *
-     * @var float
+     * @var float|null
      */
     private $mtBrutExoAbat;
 
     /**
      * Nb jh exo.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJhExo;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -73,75 +73,76 @@ class HSupTepaBul {
     /**
      * Pourcent majo.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcentMajo;
 
     /**
      * Type exo.
      *
-     * @var string
+     * @var string|null
      */
     private $typeExo;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the mt brut exo.
      *
-     * @return float Returns the mt brut exo.
+     * @return float|null Returns the mt brut exo.
      */
-    public function getMtBrutExo() {
+    public function getMtBrutExo(): ?float{
         return $this->mtBrutExo;
     }
 
     /**
      * Get the mt brut exo abat.
      *
-     * @return float Returns the mt brut exo abat.
+     * @return float|null Returns the mt brut exo abat.
      */
-    public function getMtBrutExoAbat() {
+    public function getMtBrutExoAbat(): ?float{
         return $this->mtBrutExoAbat;
     }
 
     /**
      * Get the nb jh exo.
      *
-     * @return float Returns the nb jh exo.
+     * @return float|null Returns the nb jh exo.
      */
-    public function getNbJhExo() {
+    public function getNbJhExo(): ?float{
         return $this->nbJhExo;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -150,35 +151,35 @@ class HSupTepaBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the pourcent majo.
      *
-     * @return float Returns the pourcent majo.
+     * @return float|null Returns the pourcent majo.
      */
-    public function getPourcentMajo() {
+    public function getPourcentMajo(): ?float{
         return $this->pourcentMajo;
     }
 
     /**
      * Get the type exo.
      *
-     * @return string Returns the type exo.
+     * @return string|null Returns the type exo.
      */
-    public function getTypeExo() {
+    public function getTypeExo(): ?string{
         return $this->typeExo;
     }
 
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): HSupTepaBul {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -186,10 +187,10 @@ class HSupTepaBul {
     /**
      * Set the mt brut exo.
      *
-     * @param float $mtBrutExo The mt brut exo.
+     * @param float|null $mtBrutExo The mt brut exo.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setMtBrutExo($mtBrutExo) {
+    public function setMtBrutExo(?float $mtBrutExo): HSupTepaBul {
         $this->mtBrutExo = $mtBrutExo;
         return $this;
     }
@@ -197,10 +198,10 @@ class HSupTepaBul {
     /**
      * Set the mt brut exo abat.
      *
-     * @param float $mtBrutExoAbat The mt brut exo abat.
+     * @param float|null $mtBrutExoAbat The mt brut exo abat.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setMtBrutExoAbat($mtBrutExoAbat) {
+    public function setMtBrutExoAbat(?float $mtBrutExoAbat): HSupTepaBul {
         $this->mtBrutExoAbat = $mtBrutExoAbat;
         return $this;
     }
@@ -208,10 +209,10 @@ class HSupTepaBul {
     /**
      * Set the nb jh exo.
      *
-     * @param float $nbJhExo The nb jh exo.
+     * @param float|null $nbJhExo The nb jh exo.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setNbJhExo($nbJhExo) {
+    public function setNbJhExo(?float $nbJhExo): HSupTepaBul {
         $this->nbJhExo = $nbJhExo;
         return $this;
     }
@@ -219,10 +220,10 @@ class HSupTepaBul {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): HSupTepaBul {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -230,10 +231,10 @@ class HSupTepaBul {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): HSupTepaBul {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -244,7 +245,7 @@ class HSupTepaBul {
      * @param DateTime|null $periode The periode.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): HSupTepaBul {
         $this->periode = $periode;
         return $this;
     }
@@ -252,10 +253,10 @@ class HSupTepaBul {
     /**
      * Set the pourcent majo.
      *
-     * @param float $pourcentMajo The pourcent majo.
+     * @param float|null $pourcentMajo The pourcent majo.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setPourcentMajo($pourcentMajo) {
+    public function setPourcentMajo(?float $pourcentMajo): HSupTepaBul {
         $this->pourcentMajo = $pourcentMajo;
         return $this;
     }
@@ -263,10 +264,10 @@ class HSupTepaBul {
     /**
      * Set the type exo.
      *
-     * @param string $typeExo The type exo.
+     * @param string|null $typeExo The type exo.
      * @return HSupTepaBul Returns this H sup tepa bul.
      */
-    public function setTypeExo($typeExo) {
+    public function setTypeExo(?string $typeExo): HSupTepaBul {
         $this->typeExo = $typeExo;
         return $this;
     }

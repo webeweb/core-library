@@ -29,7 +29,7 @@ class CardTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBlocked() {
+    public function testSetBlocked(): void {
 
         $obj = new TestCardTrait();
 
@@ -43,7 +43,7 @@ class CardTraitTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetBlockedDate() {
+    public function testSetBlockedDate(): void {
 
         $obj = new TestCardTrait();
 
@@ -56,7 +56,7 @@ class CardTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestCardTrait();
 

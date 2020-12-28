@@ -27,7 +27,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseEmail() {
+    public function testSetAdresseEmail(): void {
 
         $obj = new CollabAdrMailConf();
 
@@ -40,7 +40,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new CollabAdrMailConf();
 
@@ -53,7 +53,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new CollabAdrMailConf();
 
@@ -66,7 +66,7 @@ class CollabAdrMailConfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CollabAdrMailConf();
 

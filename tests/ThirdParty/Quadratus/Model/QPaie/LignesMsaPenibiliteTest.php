@@ -29,7 +29,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -42,7 +42,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque1() {
+    public function testSetCodeRisque1(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -55,7 +55,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque10() {
+    public function testSetCodeRisque10(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -68,7 +68,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque2() {
+    public function testSetCodeRisque2(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -81,7 +81,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque3() {
+    public function testSetCodeRisque3(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -94,7 +94,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque4() {
+    public function testSetCodeRisque4(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -107,7 +107,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque5() {
+    public function testSetCodeRisque5(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -120,7 +120,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque6() {
+    public function testSetCodeRisque6(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -133,7 +133,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque7() {
+    public function testSetCodeRisque7(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -146,7 +146,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque8() {
+    public function testSetCodeRisque8(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -159,7 +159,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRisque9() {
+    public function testSetCodeRisque9(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -172,7 +172,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUnite() {
+    public function testSetCodeUnite(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -186,7 +186,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebPenibilite() {
+    public function testSetDtDebPenibilite(): void {
 
         // Set a Date/time mock.
         $dtDebPenibilite = new DateTime("2018-09-10");
@@ -203,7 +203,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebPer() {
+    public function testSetDtDebPer(): void {
 
         // Set a Date/time mock.
         $dtDebPer = new DateTime("2018-09-10");
@@ -220,7 +220,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPenibilite() {
+    public function testSetDtFinPenibilite(): void {
 
         // Set a Date/time mock.
         $dtFinPenibilite = new DateTime("2018-09-10");
@@ -237,7 +237,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPer() {
+    public function testSetDtFinPer(): void {
 
         // Set a Date/time mock.
         $dtFinPer = new DateTime("2018-09-10");
@@ -253,7 +253,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new LignesMsaPenibilite();
 
@@ -267,7 +267,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -283,7 +283,7 @@ class LignesMsaPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesMsaPenibilite();
 

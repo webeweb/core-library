@@ -22,65 +22,66 @@ class Trames {
     /**
      * Code.
      *
-     * @var int
+     * @var int|null
      */
     private $code;
 
     /**
      * Garde montants.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gardeMontants;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return int Returns the code.
+     * @return int|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?int{
         return $this->code;
     }
 
     /**
      * Get the garde montants.
      *
-     * @return bool Returns the garde montants.
+     * @return bool|null Returns the garde montants.
      */
-    public function getGardeMontants() {
+    public function getGardeMontants(): ?bool{
         return $this->gardeMontants;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Set the code.
      *
-     * @param int $code The code.
+     * @param int|null $code The code.
      * @return Trames Returns this Trames.
      */
-    public function setCode($code) {
+    public function setCode(?int $code): Trames {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +89,10 @@ class Trames {
     /**
      * Set the garde montants.
      *
-     * @param bool $gardeMontants The garde montants.
+     * @param bool|null $gardeMontants The garde montants.
      * @return Trames Returns this Trames.
      */
-    public function setGardeMontants($gardeMontants) {
+    public function setGardeMontants(?bool $gardeMontants): Trames {
         $this->gardeMontants = $gardeMontants;
         return $this;
     }
@@ -99,10 +100,10 @@ class Trames {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Trames Returns this Trames.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Trames {
         $this->libelle = $libelle;
         return $this;
     }

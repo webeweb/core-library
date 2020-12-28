@@ -29,126 +29,126 @@ class Customer {
     /**
      * Accounting number
      *
-     * @var string
+     * @var string|null
      */
     private $accountingNumber;
 
     /**
      * Begin date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $beginDate;
 
     /**
      * City.
      *
-     * @var string
+     * @var string|null
      */
     private $city;
 
     /**
      * Counting of neutral cards.
      *
-     * @var bool
+     * @var bool|null
      */
     private $countingNeutralCards;
 
     /**
      * Country.
      *
-     * @var string
+     * @var string|null
      */
     private $country;
 
     /**
      * Deposit.
      *
-     * @var int
+     * @var int|null
      */
     private $deposit;
 
     /**
      * Entry during max. level allowed.
      *
-     * @var bool
+     * @var bool|null
      */
     private $entryMaxLevelAllowed;
 
     /**
      * ID document no.
      *
-     * @var string
+     * @var string|null
      */
     private $idDocumentNo;
 
     /**
      * Max. level per car park.
      *
-     * @var bool
+     * @var bool|null
      */
     private $maxLevelCarPark;
 
     /**
      * Maximum level.
      *
-     * @var int
+     * @var int|null
      */
     private $maximumLevel;
 
     /**
      * Natinality.
      *
-     * @var string
+     * @var string|null
      */
     private $nationality;
 
     /**
      * PCode.
      *
-     * @var string
+     * @var string|null
      */
     private $pCode;
 
     /**
      * Rental agreement no.
      *
-     * @var string
+     * @var string|null
      */
     private $rentalAgreementNo;
 
     /**
      * Street.
      *
-     * @var string
+     * @var string|null
      */
     private $street;
 
     /**
      * Tax code.
      *
-     * @var string
+     * @var string|null
      */
     private $taxCode;
 
     /**
      * Telephone.
      *
-     * @var string
+     * @var string|null
      */
     private $telephone;
 
     /**
      * Termination date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $terminationDate;
 
     /**
      * Ticket return allowed.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ticketReturnAllowed;
 
@@ -156,178 +156,178 @@ class Customer {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
      * Get the accounting number.
      *
-     * @return string Returns the accounting number.
+     * @return string|null Returns the accounting number.
      */
-    public function getAccountingNumber() {
+    public function getAccountingNumber(): ?string {
         return $this->accountingNumber;
     }
 
     /**
      * Get the begin date.
      *
-     * @return DateTime Returns the begin date.
+     * @return DateTime|null Returns the begin date.
      */
-    public function getBeginDate() {
+    public function getBeginDate(): ?DateTime {
         return $this->beginDate;
     }
 
     /**
      * Get the city.
      *
-     * @return string Returns the city.
+     * @return string|null Returns the city.
      */
-    public function getCity() {
+    public function getCity(): ?string {
         return $this->city;
     }
 
     /**
      * Get the counting neutral cards.
      *
-     * @return bool Returns the counting neutral cards.
+     * @return bool|null Returns the counting neutral cards.
      */
-    public function getCountingNeutralCards() {
+    public function getCountingNeutralCards(): ?bool {
         return $this->countingNeutralCards;
     }
 
     /**
      * Get the country.
      *
-     * @return string Returns the country.
+     * @return string|null Returns the country.
      */
-    public function getCountry() {
+    public function getCountry(): ?string {
         return $this->country;
     }
 
     /**
      * Get the deposit.
      *
-     * @return int Returns the deposit.
+     * @return int|null Returns the deposit.
      */
-    public function getDeposit() {
+    public function getDeposit(): ?int {
         return $this->deposit;
     }
 
     /**
      * Get the entry during max. level allowed.
      *
-     * @return bool Returns the entry during max. level allowed.
+     * @return bool|null Returns the entry during max. level allowed.
      */
-    public function getEntryMaxLevelAllowed() {
+    public function getEntryMaxLevelAllowed(): ?bool {
         return $this->entryMaxLevelAllowed;
     }
 
     /**
      * Get the ID document no.
      *
-     * @return string Returns the ID document no.
+     * @return string|null Returns the ID document no.
      */
-    public function getIdDocumentNo() {
+    public function getIdDocumentNo(): ?string {
         return $this->idDocumentNo;
     }
 
     /**
      * Get the max level per car park.
      *
-     * @return bool Returns the max level per car park.
+     * @return bool|null Returns the max level per car park.
      */
-    public function getMaxLevelCarPark() {
+    public function getMaxLevelCarPark(): ?bool {
         return $this->maxLevelCarPark;
     }
 
     /**
      * Get the maximum level.
      *
-     * @return int Returns the maximum level.
+     * @return int|null Returns the maximum level.
      */
-    public function getMaximumLevel() {
+    public function getMaximumLevel(): ?int {
         return $this->maximumLevel;
     }
 
     /**
      * Get the nationality.
      *
-     * @return string Returns the nationality.
+     * @return string|null Returns the nationality.
      */
-    public function getNationality() {
+    public function getNationality(): ?string {
         return $this->nationality;
     }
 
     /**
      * Get the PCode.
      *
-     * @return string Returns the PCode.
+     * @return string|null Returns the PCode.
      */
-    public function getPCode() {
+    public function getPCode(): ?string {
         return $this->pCode;
     }
 
     /**
      * Get the rental agreement no.
      *
-     * @return string Returns the rental agreement no.
+     * @return string|null Returns the rental agreement no.
      */
-    public function getRentalAgreementNo() {
+    public function getRentalAgreementNo(): ?string {
         return $this->rentalAgreementNo;
     }
 
     /**
      * Get the street.
      *
-     * @return string Returns the street.
+     * @return string|null Returns the street.
      */
-    public function getStreet() {
+    public function getStreet(): ?string {
         return $this->street;
     }
 
     /**
      * Get the tax code.
      *
-     * @return string Returns the tax code.
+     * @return string|null Returns the tax code.
      */
-    public function getTaxCode() {
+    public function getTaxCode(): ?string {
         return $this->taxCode;
     }
 
     /**
      * Get the telephone.
      *
-     * @return string Return the telephone.
+     * @return string|null Return the telephone.
      */
-    public function getTelephone() {
+    public function getTelephone(): ?string {
         return $this->telephone;
     }
 
     /**
      * Get the termination date.
      *
-     * @return DateTime Returns the termination date.
+     * @return DateTime|null Returns the termination date.
      */
-    public function getTerminationDate() {
+    public function getTerminationDate(): ?DateTime {
         return $this->terminationDate;
     }
 
     /**
      * Get the ticket return allowed.
      *
-     * @return bool Returns the ticket return allowed.
+     * @return bool|null Returns the ticket return allowed.
      */
-    public function getTicketReturnAllowed() {
+    public function getTicketReturnAllowed(): ?bool {
         return $this->ticketReturnAllowed;
     }
 
     /**
      * Set the accounting number.
      *
-     * @param string $accountingNumber The accounting number.
+     * @param string|null $accountingNumber The accounting number.
      * @return Customer Returns this customer.
      */
-    public function setAccountingNumber($accountingNumber) {
+    public function setAccountingNumber(?string $accountingNumber): Customer {
         $this->accountingNumber = $accountingNumber;
         return $this;
     }
@@ -338,7 +338,7 @@ class Customer {
      * @param DateTime|null $beginDate The begin date.
      * @return Customer Returns this customer.
      */
-    public function setBeginDate(DateTime $beginDate = null) {
+    public function setBeginDate(?DateTime $beginDate): Customer {
         $this->beginDate = $beginDate;
         return $this;
     }
@@ -346,10 +346,10 @@ class Customer {
     /**
      * Set the city.
      *
-     * @param string $city The city.
+     * @param string|null $city The city.
      * @return Customer Returns this customer.
      */
-    public function setCity($city) {
+    public function setCity(?string $city): Customer {
         $this->city = $city;
         return $this;
     }
@@ -357,10 +357,10 @@ class Customer {
     /**
      * Set the counting neutral cards.
      *
-     * @param bool $countingNeutralCards The counting neutral cards.
+     * @param bool|null $countingNeutralCards The counting neutral cards.
      * @return Customer Returns this customer.
      */
-    public function setCountingNeutralCards($countingNeutralCards) {
+    public function setCountingNeutralCards(?bool $countingNeutralCards): Customer {
         $this->countingNeutralCards = $countingNeutralCards;
         return $this;
     }
@@ -368,10 +368,10 @@ class Customer {
     /**
      * Set the country.
      *
-     * @param string $country The country.
+     * @param string|null $country The country.
      * @return Customer Returns this customer.
      */
-    public function setCountry($country) {
+    public function setCountry(?string $country): Customer {
         $this->country = $country;
         return $this;
     }
@@ -379,10 +379,10 @@ class Customer {
     /**
      * Set the deposit.
      *
-     * @param int $deposit The deposit.
+     * @param int|null $deposit The deposit.
      * @return Customer Returns this customer.
      */
-    public function setDeposit($deposit) {
+    public function setDeposit(?int $deposit): Customer {
         $this->deposit = $deposit;
         return $this;
     }
@@ -390,10 +390,10 @@ class Customer {
     /**
      * Set the entry during max level allowed.
      *
-     * @param bool $entryMaxLevelAllowed The entry during max level allowed.
+     * @param bool|null $entryMaxLevelAllowed The entry during max level allowed.
      * @return Customer Returns this customer.
      */
-    public function setEntryMaxLevelAllowed($entryMaxLevelAllowed) {
+    public function setEntryMaxLevelAllowed(?bool $entryMaxLevelAllowed): Customer {
         $this->entryMaxLevelAllowed = $entryMaxLevelAllowed;
         return $this;
     }
@@ -401,10 +401,10 @@ class Customer {
     /**
      * Set the ID document no.
      *
-     * @param string $idDocumentNo The ID document no.
+     * @param string|null $idDocumentNo The ID document no.
      * @return Customer Returns this customer.
      */
-    public function setIdDocumentNo($idDocumentNo) {
+    public function setIdDocumentNo(?string $idDocumentNo): Customer {
         $this->idDocumentNo = $idDocumentNo;
         return $this;
     }
@@ -412,10 +412,10 @@ class Customer {
     /**
      * Set the max level per car park.
      *
-     * @param bool $maxLevelCarPark The max level per car park.
+     * @param bool|null $maxLevelCarPark The max level per car park.
      * @return Customer Returns this customer.
      */
-    public function setMaxLevelCarPark($maxLevelCarPark) {
+    public function setMaxLevelCarPark(?bool $maxLevelCarPark): Customer {
         $this->maxLevelCarPark = $maxLevelCarPark;
         return $this;
     }
@@ -423,10 +423,10 @@ class Customer {
     /**
      * Set the maximum level.
      *
-     * @param int $maximumLevel The maximum level.
+     * @param int|null $maximumLevel The maximum level.
      * @return Customer Returns this customer.
      */
-    public function setMaximumLevel($maximumLevel) {
+    public function setMaximumLevel(?int $maximumLevel): Customer {
         $this->maximumLevel = $maximumLevel;
         return $this;
     }
@@ -434,10 +434,10 @@ class Customer {
     /**
      * Set the nationality.
      *
-     * @param string $nationality The nationality.
+     * @param string|null $nationality The nationality.
      * @return Customer Returns this customer.
      */
-    public function setNationality($nationality) {
+    public function setNationality(?string $nationality): Customer {
         $this->nationality = $nationality;
         return $this;
     }
@@ -445,10 +445,10 @@ class Customer {
     /**
      * Set the PCode.
      *
-     * @param string $pCode The PCode.
+     * @param string|null $pCode The PCode.
      * @return Customer Returns this customer.
      */
-    public function setPCode($pCode) {
+    public function setPCode(?string $pCode): Customer {
         $this->pCode = $pCode;
         return $this;
     }
@@ -456,10 +456,10 @@ class Customer {
     /**
      * Set the rental agreements no.
      *
-     * @param string $rentalAgreementNo The rental agreement no.
+     * @param string|null $rentalAgreementNo The rental agreement no.
      * @return Customer Returns this customer.
      */
-    public function setRentalAgreementNo($rentalAgreementNo) {
+    public function setRentalAgreementNo(?string $rentalAgreementNo): Customer {
         $this->rentalAgreementNo = $rentalAgreementNo;
         return $this;
     }
@@ -467,10 +467,10 @@ class Customer {
     /**
      * Set the street.
      *
-     * @param string $street The street.
+     * @param string|null $street The street.
      * @return Customer Returns this customer.
      */
-    public function setStreet($street) {
+    public function setStreet(?string $street): Customer {
         $this->street = $street;
         return $this;
     }
@@ -478,10 +478,10 @@ class Customer {
     /**
      * Set the tax code.
      *
-     * @param string $taxCode The tax code.
+     * @param string|null $taxCode The tax code.
      * @return Customer Returns this customer.
      */
-    public function setTaxCode($taxCode) {
+    public function setTaxCode(?string $taxCode): Customer {
         $this->taxCode = $taxCode;
         return $this;
     }
@@ -489,10 +489,10 @@ class Customer {
     /**
      * Set the telephone.
      *
-     * @param string $telephone The telephone.
+     * @param string|null $telephone The telephone.
      * @return Customer Returns this customer.
      */
-    public function setTelephone($telephone) {
+    public function setTelephone(?string $telephone): Customer {
         $this->telephone = $telephone;
         return $this;
     }
@@ -503,7 +503,7 @@ class Customer {
      * @param DateTime|null $terminationDate The termination date.
      * @return Customer Returns this customer.
      */
-    public function setTerminationDate(DateTime $terminationDate = null) {
+    public function setTerminationDate(?DateTime $terminationDate): Customer {
         $this->terminationDate = $terminationDate;
         return $this;
     }
@@ -511,10 +511,10 @@ class Customer {
     /**
      * Set the ticket return allowed.
      *
-     * @param bool $ticketReturnAllowed The ticket return allowed.
+     * @param bool|null $ticketReturnAllowed The ticket return allowed.
      * @return Customer Returns this customer.
      */
-    public function setTicketReturnAllowed($ticketReturnAllowed) {
+    public function setTicketReturnAllowed(?bool $ticketReturnAllowed): Customer {
         $this->ticketReturnAllowed = $ticketReturnAllowed;
         return $this;
     }

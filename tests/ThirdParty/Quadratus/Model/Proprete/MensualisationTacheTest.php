@@ -29,7 +29,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new MensualisationTache();
 
@@ -42,7 +42,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new MensualisationTache();
 
@@ -55,7 +55,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new MensualisationTache();
 
@@ -68,7 +68,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new MensualisationTache();
 
@@ -81,7 +81,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new MensualisationTache();
 
@@ -94,7 +94,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new MensualisationTache();
 
@@ -107,7 +107,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new MensualisationTache();
 
@@ -121,7 +121,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -137,7 +137,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new MensualisationTache();
 
@@ -150,7 +150,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHistoMensSaisi() {
+    public function testSetHistoMensSaisi(): void {
 
         $obj = new MensualisationTache();
 
@@ -163,7 +163,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensualisationCalculee() {
+    public function testSetMensualisationCalculee(): void {
 
         $obj = new MensualisationTache();
 
@@ -176,7 +176,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensualisationSaisie() {
+    public function testSetMensualisationSaisie(): void {
 
         $obj = new MensualisationTache();
 
@@ -189,7 +189,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtPrime() {
+    public function testSetMtPrime(): void {
 
         $obj = new MensualisationTache();
 
@@ -202,7 +202,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPaniers() {
+    public function testSetNbPaniers(): void {
 
         $obj = new MensualisationTache();
 
@@ -215,7 +215,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new MensualisationTache();
 
@@ -229,7 +229,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDebutValidite() {
+    public function testSetPeriodeDebutValidite(): void {
 
         // Set a Date/time mock.
         $periodeDebutValidite = new DateTime("2018-09-10");
@@ -245,7 +245,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new MensualisationTache();
 
@@ -258,7 +258,7 @@ class MensualisationTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MensualisationTache();
 

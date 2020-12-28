@@ -30,7 +30,7 @@ class DateTimeRendererTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRenderAge() {
+    public function testRenderAge(): void {
 
         // Set a Date/time mock.
         $ref = new DateTime("2019-02-14");
@@ -48,7 +48,7 @@ class DateTimeRendererTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRenderDateTime() {
+    public function testRenderDateTime(): void {
 
         $this->assertEquals("2018-01-14 17:00", DateTimeRenderer::renderDateTime(new DateTime("2018-01-14 17:00")));
     }
@@ -59,7 +59,7 @@ class DateTimeRendererTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRenderDateTimeWithFormat() {
+    public function testRenderDateTimeWithFormat(): void {
 
         $this->assertEquals("14/01/2018 17:00", DateTimeRenderer::renderDateTime(new DateTime("2018-01-14 17:00"), "d/m/Y H:i"));
     }
@@ -69,7 +69,7 @@ class DateTimeRendererTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRenderDateTimeWithoutArguments() {
+    public function testRenderDateTimeWithoutArguments(): void {
 
         $this->assertEquals("", DateTimeRenderer::renderDateTime());
     }
@@ -79,7 +79,7 @@ class DateTimeRendererTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $this->assertEquals("Y-m-d H:i", DateTimeRenderer::DATETIME_FORMAT);
     }

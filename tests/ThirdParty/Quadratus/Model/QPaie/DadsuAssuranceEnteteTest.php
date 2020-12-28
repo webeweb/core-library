@@ -29,7 +29,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -42,7 +42,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -55,7 +55,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePeriodicite() {
+    public function testSetCodePeriodicite(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -69,7 +69,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEmission() {
+    public function testSetDateEmission(): void {
 
         // Set a Date/time mock.
         $dateEmission = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -115,7 +115,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMailContact() {
+    public function testSetMailContact(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -128,7 +128,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisAnniv() {
+    public function testSetMoisAnniv(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -141,7 +141,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomContact() {
+    public function testSetNomContact(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -154,7 +154,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelContact() {
+    public function testSetTelContact(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -167,7 +167,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteGestion() {
+    public function testSetUniteGestion(): void {
 
         $obj = new DadsuAssuranceEntete();
 
@@ -180,7 +180,7 @@ class DadsuAssuranceEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuAssuranceEntete();
 

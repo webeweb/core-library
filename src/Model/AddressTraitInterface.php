@@ -22,90 +22,90 @@ interface AddressTraitInterface {
     /**
      * Get the addressee.
      *
-     * @return string Returns the addressee.
+     * @return string|null Returns the addressee.
      */
-    public function getAddressee();
+    public function getAddressee(): ?string;
 
     /**
      * Get the country.
      *
-     * @return string Returns the country.
+     * @return string|null Returns the country.
      */
-    public function getCountry();
+    public function getCountry(): ?string;
 
     /**
      * Get the house number.
      *
-     * @return string Returns the house number.
+     * @return string|null Returns the house number.
      */
-    public function getHouseNumber();
+    public function getHouseNumber(): ?string;
 
     /**
      * Get the location.
      *
-     * @return string Returns the location.
+     * @return string|null Returns the location.
      */
-    public function getLocation();
+    public function getLocation(): ?string;
 
     /**
      * Get the postal code.
      *
-     * @return string Returns the postal code.
+     * @return string|null Returns the postal code.
      */
-    public function getPostalCode();
+    public function getPostalCode(): ?string;
 
     /**
      * Get the street name.
      *
-     * @return string Returns the street name.
+     * @return string|null Returns the street name.
      */
-    public function getStreetName();
+    public function getStreetName(): ?string;
 
     /**
      * Set the addressee.
      *
-     * @param string $addressee The addressee.
+     * @param string|null $addressee The addressee.
      * @return AddressTraitInterface Returns this address trait.
      */
-    public function setAddressee($addressee);
+    public function setAddressee(?string $addressee);
 
     /**
      * Set the country.
      *
-     * @param string $country The country.
+     * @param string|null $country The country.
      * @return AddressTraitInterface Returns this address trait.
      */
-    public function setCountry($country);
+    public function setCountry(?string $country);
 
     /**
      * Set the house number.
      *
-     * @param string $houseNumber The house number.
+     * @param string|null $houseNumber The house number.
      * @return AddressTraitInterface Returns this address trait.
      */
-    public function setHouseNumber($houseNumber);
+    public function setHouseNumber(?string $houseNumber);
 
     /**
      * Set the location.
      *
-     * @param string $location The location.
+     * @param string|null $location The location.
      * @return AddressTraitInterface Returns this address trait.
      */
-    public function setLocation($location);
+    public function setLocation(?string $location);
 
     /**
      * Set the postal code.
      *
-     * @param string $postalCode The postal code.
+     * @param string|null $postalCode The postal code.
      * @return AddressTraitInterface Returns this address trait.
      */
-    public function setPostalCode($postalCode);
+    public function setPostalCode(?string $postalCode);
 
     /**
      * Set the street name.
      *
-     * @param string $streetName The street name.
+     * @param string|null $streetName The street name.
      * @return AddressTraitInterface Returns this address trait.
      */
-    public function setStreetName($streetName);
+    public function setStreetName(?string $streetName);
 }

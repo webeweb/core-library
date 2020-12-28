@@ -22,81 +22,82 @@ class GroupeLignes {
     /**
      * Code element.
      *
-     * @var string
+     * @var string|null
      */
     private $codeElement;
 
     /**
      * Groupe.
      *
-     * @var string
+     * @var string|null
      */
     private $groupe;
 
     /**
      * Ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $ordre;
 
     /**
      * Type element.
      *
-     * @var string
+     * @var string|null
      */
     private $typeElement;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code element.
      *
-     * @return string Returns the code element.
+     * @return string|null Returns the code element.
      */
-    public function getCodeElement() {
+    public function getCodeElement(): ?string{
         return $this->codeElement;
     }
 
     /**
      * Get the groupe.
      *
-     * @return string Returns the groupe.
+     * @return string|null Returns the groupe.
      */
-    public function getGroupe() {
+    public function getGroupe(): ?string{
         return $this->groupe;
     }
 
     /**
      * Get the ordre.
      *
-     * @return int Returns the ordre.
+     * @return int|null Returns the ordre.
      */
-    public function getOrdre() {
+    public function getOrdre(): ?int{
         return $this->ordre;
     }
 
     /**
      * Get the type element.
      *
-     * @return string Returns the type element.
+     * @return string|null Returns the type element.
      */
-    public function getTypeElement() {
+    public function getTypeElement(): ?string{
         return $this->typeElement;
     }
 
     /**
      * Set the code element.
      *
-     * @param string $codeElement The code element.
+     * @param string|null $codeElement The code element.
      * @return GroupeLignes Returns this Groupe lignes.
      */
-    public function setCodeElement($codeElement) {
+    public function setCodeElement(?string $codeElement): GroupeLignes {
         $this->codeElement = $codeElement;
         return $this;
     }
@@ -104,10 +105,10 @@ class GroupeLignes {
     /**
      * Set the groupe.
      *
-     * @param string $groupe The groupe.
+     * @param string|null $groupe The groupe.
      * @return GroupeLignes Returns this Groupe lignes.
      */
-    public function setGroupe($groupe) {
+    public function setGroupe(?string $groupe): GroupeLignes {
         $this->groupe = $groupe;
         return $this;
     }
@@ -115,10 +116,10 @@ class GroupeLignes {
     /**
      * Set the ordre.
      *
-     * @param int $ordre The ordre.
+     * @param int|null $ordre The ordre.
      * @return GroupeLignes Returns this Groupe lignes.
      */
-    public function setOrdre($ordre) {
+    public function setOrdre(?int $ordre): GroupeLignes {
         $this->ordre = $ordre;
         return $this;
     }
@@ -126,10 +127,10 @@ class GroupeLignes {
     /**
      * Set the type element.
      *
-     * @param string $typeElement The type element.
+     * @param string|null $typeElement The type element.
      * @return GroupeLignes Returns this Groupe lignes.
      */
-    public function setTypeElement($typeElement) {
+    public function setTypeElement(?string $typeElement): GroupeLignes {
         $this->typeElement = $typeElement;
         return $this;
     }

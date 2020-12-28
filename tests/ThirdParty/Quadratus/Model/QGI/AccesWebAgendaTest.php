@@ -27,7 +27,7 @@ class AccesWebAgendaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new AccesWebAgenda();
 
@@ -40,7 +40,7 @@ class AccesWebAgendaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AccesWebAgenda();
 
@@ -53,7 +53,7 @@ class AccesWebAgendaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitModif() {
+    public function testSetDroitModif(): void {
 
         $obj = new AccesWebAgenda();
 
@@ -66,7 +66,7 @@ class AccesWebAgendaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AccesWebAgenda();
 
@@ -79,7 +79,7 @@ class AccesWebAgendaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AccesWebAgenda();
 

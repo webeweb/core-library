@@ -27,7 +27,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new ChapitresDocuments();
 
@@ -40,7 +40,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomRepertoire() {
+    public function testSetNomRepertoire(): void {
 
         $obj = new ChapitresDocuments();
 
@@ -53,7 +53,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new ChapitresDocuments();
 
@@ -66,7 +66,7 @@ class ChapitresDocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChapitresDocuments();
 

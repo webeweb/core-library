@@ -22,145 +22,146 @@ class AffectationAnaDiv {
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
     /**
      * Num compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numCompte;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Numero deux.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroDeux;
 
     /**
      * Pourcentage.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcentage;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
     /**
      * Get the num compte.
      *
-     * @return string Returns the num compte.
+     * @return string|null Returns the num compte.
      */
-    public function getNumCompte() {
+    public function getNumCompte(): ?string{
         return $this->numCompte;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int{
         return $this->numero;
     }
 
     /**
      * Get the numero deux.
      *
-     * @return int Returns the numero deux.
+     * @return int|null Returns the numero deux.
      */
-    public function getNumeroDeux() {
+    public function getNumeroDeux(): ?int{
         return $this->numeroDeux;
     }
 
     /**
      * Get the pourcentage.
      *
-     * @return float Returns the pourcentage.
+     * @return float|null Returns the pourcentage.
      */
-    public function getPourcentage() {
+    public function getPourcentage(): ?float{
         return $this->pourcentage;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): AffectationAnaDiv {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -168,10 +169,10 @@ class AffectationAnaDiv {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): AffectationAnaDiv {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -179,10 +180,10 @@ class AffectationAnaDiv {
     /**
      * Set the num compte.
      *
-     * @param string $numCompte The num compte.
+     * @param string|null $numCompte The num compte.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setNumCompte($numCompte) {
+    public function setNumCompte(?string $numCompte): AffectationAnaDiv {
         $this->numCompte = $numCompte;
         return $this;
     }
@@ -190,10 +191,10 @@ class AffectationAnaDiv {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): AffectationAnaDiv {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -201,10 +202,10 @@ class AffectationAnaDiv {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): AffectationAnaDiv {
         $this->numero = $numero;
         return $this;
     }
@@ -212,10 +213,10 @@ class AffectationAnaDiv {
     /**
      * Set the numero deux.
      *
-     * @param int $numeroDeux The numero deux.
+     * @param int|null $numeroDeux The numero deux.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setNumeroDeux($numeroDeux) {
+    public function setNumeroDeux(?int $numeroDeux): AffectationAnaDiv {
         $this->numeroDeux = $numeroDeux;
         return $this;
     }
@@ -223,10 +224,10 @@ class AffectationAnaDiv {
     /**
      * Set the pourcentage.
      *
-     * @param float $pourcentage The pourcentage.
+     * @param float|null $pourcentage The pourcentage.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setPourcentage($pourcentage) {
+    public function setPourcentage(?float $pourcentage): AffectationAnaDiv {
         $this->pourcentage = $pourcentage;
         return $this;
     }
@@ -234,10 +235,10 @@ class AffectationAnaDiv {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return AffectationAnaDiv Returns this Affectation ana div.
      */
-    public function setType($type) {
+    public function setType(?string $type): AffectationAnaDiv {
         $this->type = $type;
         return $this;
     }

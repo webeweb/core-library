@@ -24,7 +24,7 @@ interface ValidatorInterface {
      *
      * @return ValidationRuleSetInterface Returns the validation rule set.
      */
-    public function getRuleSet();
+    public function getRuleSet(): ValidationRuleSetInterface;
 
     /**
      * Validate.
@@ -32,5 +32,5 @@ interface ValidatorInterface {
      * @param mixed $object The object.
      * @return ValidationStatusInterface[] Returns the validation status.
      */
-    public function validate($object);
+    public function validate($object): array;
 }

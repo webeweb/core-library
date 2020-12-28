@@ -51,7 +51,7 @@ class StrReplaceTransformer implements TransformerInterface {
      *
      * @return array Returns the replaces.
      */
-    public function getReplaces() {
+    public function getReplaces(): array {
         return $this->replaces;
     }
 
@@ -60,7 +60,7 @@ class StrReplaceTransformer implements TransformerInterface {
      *
      * @return array Returns the searches.
      */
-    public function getSearches() {
+    public function getSearches(): array {
         return $this->searches;
     }
 
@@ -70,7 +70,7 @@ class StrReplaceTransformer implements TransformerInterface {
      * @param array $replaces The replaces.
      * @return TransformerInterface Returns this str_replace transformer.
      */
-    public function setReplaces(array $replaces) {
+    public function setReplaces(array $replaces): TransformerInterface {
         $this->replaces = $replaces;
         return $this;
     }
@@ -81,13 +81,13 @@ class StrReplaceTransformer implements TransformerInterface {
      * @param array $searches The searches.
      * @return TransformerInterface Returns this str_replace transformer.
      */
-    public function setSearches(array $searches) {
+    public function setSearches(array $searches): TransformerInterface {
         $this->searches = $searches;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function transform($value) {
         if (null === $value || false === is_string($value)) {

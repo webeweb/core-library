@@ -27,7 +27,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarie() {
+    public function testSetCategSalarie(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -40,7 +40,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarieEquiv() {
+    public function testSetCategSalarieEquiv(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -53,7 +53,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite() {
+    public function testSetCodeActivite(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -66,7 +66,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMetier() {
+    public function testSetCodeMetier(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -79,7 +79,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeAgirc() {
+    public function testSetCodeOrganismeAgirc(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -92,7 +92,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeArrco() {
+    public function testSetCodeOrganismeArrco(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -105,7 +105,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeCcca() {
+    public function testSetCodeOrganismeCcca(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -118,7 +118,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeFraisSante() {
+    public function testSetCodeOrganismeFraisSante(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -131,7 +131,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismePrev() {
+    public function testSetCodeOrganismePrev(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -144,7 +144,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismePrevComp() {
+    public function testSetCodeOrganismePrevComp(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -157,7 +157,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitutionAgirc() {
+    public function testSetIdInstitutionAgirc(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -170,7 +170,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitutionArrco() {
+    public function testSetIdInstitutionArrco(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -183,7 +183,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitutionCcca() {
+    public function testSetIdInstitutionCcca(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -196,7 +196,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitutionFraisSante() {
+    public function testSetIdInstitutionFraisSante(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -209,7 +209,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitutionPrev() {
+    public function testSetIdInstitutionPrev(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -222,7 +222,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitutionPrevComp() {
+    public function testSetIdInstitutionPrevComp(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -235,7 +235,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceCateg() {
+    public function testSetIndiceCateg(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -248,7 +248,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -261,7 +261,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasActive() {
+    public function testSetPasActive(): void {
 
         $obj = new CaissesRetraiteMetier();
 
@@ -274,7 +274,7 @@ class CaissesRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CaissesRetraiteMetier();
 

@@ -27,7 +27,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new Etiquettes();
 
@@ -40,7 +40,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBarre() {
+    public function testSetCodeBarre(): void {
 
         $obj = new Etiquettes();
 
@@ -53,7 +53,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCliFour() {
+    public function testSetCodeCliFour(): void {
 
         $obj = new Etiquettes();
 
@@ -66,7 +66,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeModele() {
+    public function testSetCodeModele(): void {
 
         $obj = new Etiquettes();
 
@@ -79,7 +79,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtiqPlus() {
+    public function testSetEtiqPlus(): void {
 
         $obj = new Etiquettes();
 
@@ -92,7 +92,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImprimante() {
+    public function testSetImprimante(): void {
 
         $obj = new Etiquettes();
 
@@ -105,7 +105,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixVente() {
+    public function testSetPrixVente(): void {
 
         $obj = new Etiquettes();
 
@@ -118,7 +118,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Etiquettes();
 
@@ -131,7 +131,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone1() {
+    public function testSetZone1(): void {
 
         $obj = new Etiquettes();
 
@@ -144,7 +144,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone10() {
+    public function testSetZone10(): void {
 
         $obj = new Etiquettes();
 
@@ -157,7 +157,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone11() {
+    public function testSetZone11(): void {
 
         $obj = new Etiquettes();
 
@@ -170,7 +170,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone12() {
+    public function testSetZone12(): void {
 
         $obj = new Etiquettes();
 
@@ -183,7 +183,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone13() {
+    public function testSetZone13(): void {
 
         $obj = new Etiquettes();
 
@@ -196,7 +196,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone14() {
+    public function testSetZone14(): void {
 
         $obj = new Etiquettes();
 
@@ -209,7 +209,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone15() {
+    public function testSetZone15(): void {
 
         $obj = new Etiquettes();
 
@@ -222,7 +222,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone2() {
+    public function testSetZone2(): void {
 
         $obj = new Etiquettes();
 
@@ -235,7 +235,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone3() {
+    public function testSetZone3(): void {
 
         $obj = new Etiquettes();
 
@@ -248,7 +248,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone4() {
+    public function testSetZone4(): void {
 
         $obj = new Etiquettes();
 
@@ -261,7 +261,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone5() {
+    public function testSetZone5(): void {
 
         $obj = new Etiquettes();
 
@@ -274,7 +274,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone6() {
+    public function testSetZone6(): void {
 
         $obj = new Etiquettes();
 
@@ -287,7 +287,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone7() {
+    public function testSetZone7(): void {
 
         $obj = new Etiquettes();
 
@@ -300,7 +300,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone8() {
+    public function testSetZone8(): void {
 
         $obj = new Etiquettes();
 
@@ -313,7 +313,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone9() {
+    public function testSetZone9(): void {
 
         $obj = new Etiquettes();
 
@@ -326,7 +326,7 @@ class EtiquettesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Etiquettes();
 

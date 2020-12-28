@@ -29,7 +29,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -42,7 +42,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -55,7 +55,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -68,7 +68,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -81,7 +81,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -94,7 +94,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -107,7 +107,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInspecteur() {
+    public function testSetCodeInspecteur(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -120,7 +120,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLivraison() {
+    public function testSetCodeLivraison(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -133,7 +133,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLivreur() {
+    public function testSetCodeLivreur(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -146,7 +146,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommandeIsolee() {
+    public function testSetCommandeIsolee(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -159,7 +159,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereTexte1() {
+    public function testSetCritereTexte1(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -173,7 +173,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateLivraison() {
+    public function testSetDateLivraison(): void {
 
         // Set a Date/time mock.
         $dateLivraison = new DateTime("2018-09-10");
@@ -190,7 +190,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfert() {
+    public function testSetDateTransfert(): void {
 
         // Set a Date/time mock.
         $dateTransfert = new DateTime("2018-09-10");
@@ -206,7 +206,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -219,7 +219,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation2() {
+    public function testSetDesignation2(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -232,7 +232,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation3() {
+    public function testSetDesignation3(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -245,7 +245,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFromCdeType() {
+    public function testSetFromCdeType(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -258,7 +258,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajStockByDa() {
+    public function testSetMajStockByDa(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -271,7 +271,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoBonInt() {
+    public function testSetNoBonInt(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -284,7 +284,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoPieceCde() {
+    public function testSetNoPieceCde(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -297,7 +297,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoPieceCdeCli() {
+    public function testSetNoPieceCdeCli(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -310,7 +310,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroBsGenere() {
+    public function testSetNumeroBsGenere(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -323,7 +323,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -337,7 +337,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -353,7 +353,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -366,7 +366,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixSaisi() {
+    public function testSetPrixSaisi(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -379,7 +379,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPuBrut() {
+    public function testSetPuBrut(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -392,7 +392,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -405,7 +405,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteBs() {
+    public function testSetQuantiteBs(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -418,7 +418,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteCde() {
+    public function testSetQuantiteCde(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -431,7 +431,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteCdeCli() {
+    public function testSetQuantiteCdeCli(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -444,7 +444,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteLiv() {
+    public function testSetQuantiteLiv(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -457,7 +457,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemise1() {
+    public function testSetRemise1(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -470,7 +470,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemise2() {
+    public function testSetRemise2(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -483,7 +483,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemise3() {
+    public function testSetRemise3(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -496,7 +496,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeGestion() {
+    public function testSetTypeGestion(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -509,7 +509,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePiece() {
+    public function testSetTypePiece(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -522,7 +522,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdBlocage() {
+    public function testSetUniqIdBlocage(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -535,7 +535,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValidee() {
+    public function testSetValidee(): void {
 
         $obj = new CdeFournisseurMensu();
 
@@ -548,7 +548,7 @@ class CdeFournisseurMensuTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CdeFournisseurMensu();
 

@@ -24,21 +24,21 @@ class RequestData {
     /**
      * Analytic code.
      *
-     * @var string
+     * @var string|null
      */
     private $analyticCode;
 
     /**
      * Buy date max.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $buyDateMax;
 
     /**
      * Identification key.
      *
-     * @var string
+     * @var string|null
      */
     private $identificationKey;
 
@@ -46,43 +46,43 @@ class RequestData {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
      * Get the analytic code.
      *
-     * @return string Returns the analytic code.
+     * @return string|null Returns the analytic code.
      */
-    public function getAnalyticCode() {
+    public function getAnalyticCode(): ?string {
         return $this->analyticCode;
     }
 
     /**
      * Get the buy date max.
      *
-     * @return DateTime Returns the buy date max.
+     * @return DateTime|null Returns the buy date max.
      */
-    public function getBuyDateMax() {
+    public function getBuyDateMax(): ?DateTime {
         return $this->buyDateMax;
     }
 
     /**
      * Get the identification key.
      *
-     * @return string Returns the identification key.
+     * @return string|null Returns the identification key.
      */
-    public function getIdentificationKey() {
+    public function getIdentificationKey(): ?string {
         return $this->identificationKey;
     }
 
     /**
      * Set the analytic code.
      *
-     * @param string $analyticCode The analytic code.
+     * @param string|null $analyticCode The analytic code.
      * @return RequestData Returns this request data.
      */
-    public function setAnalyticCode($analyticCode) {
+    public function setAnalyticCode(?string $analyticCode) {
         $this->analyticCode = $analyticCode;
         return $this;
     }
@@ -93,7 +93,7 @@ class RequestData {
      * @param DateTime|null $buyDateMax The buy date max.
      * @return RequestData Returns this request data.
      */
-    public function setBuyDateMax(DateTime $buyDateMax = null) {
+    public function setBuyDateMax(?DateTime $buyDateMax) {
         $this->buyDateMax = $buyDateMax;
         return $this;
     }
@@ -101,10 +101,10 @@ class RequestData {
     /**
      * Set the identification key.
      *
-     * @param string $identificationKey The identification key.
+     * @param string|null $identificationKey The identification key.
      * @return RequestData Returns this request data.
      */
-    public function setIdentificationKey($identificationKey) {
+    public function setIdentificationKey(?string $identificationKey) {
         $this->identificationKey = $identificationKey;
         return $this;
     }

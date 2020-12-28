@@ -29,7 +29,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new FichesControles();
 
@@ -42,7 +42,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new FichesControles();
 
@@ -55,7 +55,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FichesControles();
 
@@ -68,7 +68,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new FichesControles();
 
@@ -82,7 +82,7 @@ class FichesControlesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateControle() {
+    public function testSetDateControle(): void {
 
         // Set a Date/time mock.
         $dateControle = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class FichesControlesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfert() {
+    public function testSetDateTransfert(): void {
 
         // Set a Date/time mock.
         $dateTransfert = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new FichesControles();
 
@@ -128,7 +128,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new FichesControles();
 
@@ -141,7 +141,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new FichesControles();
 
@@ -154,7 +154,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroReclamation() {
+    public function testSetNumeroReclamation(): void {
 
         $obj = new FichesControles();
 
@@ -167,7 +167,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new FichesControles();
 
@@ -180,7 +180,7 @@ class FichesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesControles();
 

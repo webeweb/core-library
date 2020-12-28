@@ -22,81 +22,82 @@ class tblPaieTempLibelles {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code calcul.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCalcul;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the code calcul.
      *
-     * @return string Returns the code calcul.
+     * @return string|null Returns the code calcul.
      */
-    public function getCodeCalcul() {
+    public function getCodeCalcul(): ?string{
         return $this->codeCalcul;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): tblPaieTempLibelles {
         $this->code = $code;
         return $this;
     }
@@ -104,10 +105,10 @@ class tblPaieTempLibelles {
     /**
      * Set the code calcul.
      *
-     * @param string $codeCalcul The code calcul.
+     * @param string|null $codeCalcul The code calcul.
      * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
-    public function setCodeCalcul($codeCalcul) {
+    public function setCodeCalcul(?string $codeCalcul): tblPaieTempLibelles {
         $this->codeCalcul = $codeCalcul;
         return $this;
     }
@@ -115,10 +116,10 @@ class tblPaieTempLibelles {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): tblPaieTempLibelles {
         $this->intitule = $intitule;
         return $this;
     }
@@ -126,10 +127,10 @@ class tblPaieTempLibelles {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return tblPaieTempLibelles Returns this tbl paie temp libelles.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): tblPaieTempLibelles {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }

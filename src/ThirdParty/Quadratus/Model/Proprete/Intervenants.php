@@ -24,49 +24,49 @@ class Intervenants {
     /**
      * Ape.
      *
-     * @var string
+     * @var string|null
      */
     private $ape;
 
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Civilite.
      *
-     * @var string
+     * @var string|null
      */
     private $civilite;
 
     /**
      * Code officiel commune.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOfficielCommune;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
@@ -87,210 +87,211 @@ class Intervenants {
     /**
      * Fax.
      *
-     * @var string
+     * @var string|null
      */
     private $fax;
 
     /**
      * Id.
      *
-     * @var string
+     * @var string|null
      */
     private $id;
 
     /**
      * Ident tva.
      *
-     * @var string
+     * @var string|null
      */
     private $identTva;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Nom marital.
      *
-     * @var string
+     * @var string|null
      */
     private $nomMarital;
 
     /**
      * Nom responsable.
      *
-     * @var string
+     * @var string|null
      */
     private $nomResponsable;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom ville.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVille;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Portable1.
      *
-     * @var string
+     * @var string|null
      */
     private $portable1;
 
     /**
      * Portable2.
      *
-     * @var string
+     * @var string|null
      */
     private $portable2;
 
     /**
      * Prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $prenom;
 
     /**
      * Qualite.
      *
-     * @var string
+     * @var string|null
      */
     private $qualite;
 
     /**
      * Rc.
      *
-     * @var string
+     * @var string|null
      */
     private $rc;
 
     /**
      * Siret.
      *
-     * @var string
+     * @var string|null
      */
     private $siret;
 
     /**
      * Tel1.
      *
-     * @var string
+     * @var string|null
      */
     private $tel1;
 
     /**
      * Tel2.
      *
-     * @var string
+     * @var string|null
      */
     private $tel2;
 
     /**
      * Tel voiture.
      *
-     * @var string
+     * @var string|null
      */
     private $telVoiture;
 
     /**
      * Telex.
      *
-     * @var string
+     * @var string|null
      */
     private $telex;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ape.
      *
-     * @return string Returns the ape.
+     * @return string|null Returns the ape.
      */
-    public function getApe() {
+    public function getApe(): ?string{
         return $this->ape;
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the civilite.
      *
-     * @return string Returns the civilite.
+     * @return string|null Returns the civilite.
      */
-    public function getCivilite() {
+    public function getCivilite(): ?string{
         return $this->civilite;
     }
 
     /**
      * Get the code officiel commune.
      *
-     * @return string Returns the code officiel commune.
+     * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune() {
+    public function getCodeOfficielCommune(): ?string{
         return $this->codeOfficielCommune;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
@@ -299,7 +300,7 @@ class Intervenants {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat() {
+    public function getDateCreat(): ?DateTime{
         return $this->dateCreat;
     }
 
@@ -308,197 +309,197 @@ class Intervenants {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
     /**
      * Get the fax.
      *
-     * @return string Returns the fax.
+     * @return string|null Returns the fax.
      */
-    public function getFax() {
+    public function getFax(): ?string{
         return $this->fax;
     }
 
     /**
      * Get the id.
      *
-     * @return string Returns the id.
+     * @return string|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?string{
         return $this->id;
     }
 
     /**
      * Get the ident tva.
      *
-     * @return string Returns the ident tva.
+     * @return string|null Returns the ident tva.
      */
-    public function getIdentTva() {
+    public function getIdentTva(): ?string{
         return $this->identTva;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
     /**
      * Get the nom marital.
      *
-     * @return string Returns the nom marital.
+     * @return string|null Returns the nom marital.
      */
-    public function getNomMarital() {
+    public function getNomMarital(): ?string{
         return $this->nomMarital;
     }
 
     /**
      * Get the nom responsable.
      *
-     * @return string Returns the nom responsable.
+     * @return string|null Returns the nom responsable.
      */
-    public function getNomResponsable() {
+    public function getNomResponsable(): ?string{
         return $this->nomResponsable;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom ville.
      *
-     * @return string Returns the nom ville.
+     * @return string|null Returns the nom ville.
      */
-    public function getNomVille() {
+    public function getNomVille(): ?string{
         return $this->nomVille;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the portable1.
      *
-     * @return string Returns the portable1.
+     * @return string|null Returns the portable1.
      */
-    public function getPortable1() {
+    public function getPortable1(): ?string{
         return $this->portable1;
     }
 
     /**
      * Get the portable2.
      *
-     * @return string Returns the portable2.
+     * @return string|null Returns the portable2.
      */
-    public function getPortable2() {
+    public function getPortable2(): ?string{
         return $this->portable2;
     }
 
     /**
      * Get the prenom.
      *
-     * @return string Returns the prenom.
+     * @return string|null Returns the prenom.
      */
-    public function getPrenom() {
+    public function getPrenom(): ?string{
         return $this->prenom;
     }
 
     /**
      * Get the qualite.
      *
-     * @return string Returns the qualite.
+     * @return string|null Returns the qualite.
      */
-    public function getQualite() {
+    public function getQualite(): ?string{
         return $this->qualite;
     }
 
     /**
      * Get the rc.
      *
-     * @return string Returns the rc.
+     * @return string|null Returns the rc.
      */
-    public function getRc() {
+    public function getRc(): ?string{
         return $this->rc;
     }
 
     /**
      * Get the siret.
      *
-     * @return string Returns the siret.
+     * @return string|null Returns the siret.
      */
-    public function getSiret() {
+    public function getSiret(): ?string{
         return $this->siret;
     }
 
     /**
      * Get the tel1.
      *
-     * @return string Returns the tel1.
+     * @return string|null Returns the tel1.
      */
-    public function getTel1() {
+    public function getTel1(): ?string{
         return $this->tel1;
     }
 
     /**
      * Get the tel2.
      *
-     * @return string Returns the tel2.
+     * @return string|null Returns the tel2.
      */
-    public function getTel2() {
+    public function getTel2(): ?string{
         return $this->tel2;
     }
 
     /**
      * Get the tel voiture.
      *
-     * @return string Returns the tel voiture.
+     * @return string|null Returns the tel voiture.
      */
-    public function getTelVoiture() {
+    public function getTelVoiture(): ?string{
         return $this->telVoiture;
     }
 
     /**
      * Get the telex.
      *
-     * @return string Returns the telex.
+     * @return string|null Returns the telex.
      */
-    public function getTelex() {
+    public function getTelex(): ?string{
         return $this->telex;
     }
 
     /**
      * Set the ape.
      *
-     * @param string $ape The ape.
+     * @param string|null $ape The ape.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setApe($ape) {
+    public function setApe(?string $ape): Intervenants {
         $this->ape = $ape;
         return $this;
     }
@@ -506,10 +507,10 @@ class Intervenants {
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): Intervenants {
         $this->btq = $btq;
         return $this;
     }
@@ -517,10 +518,10 @@ class Intervenants {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): Intervenants {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -528,10 +529,10 @@ class Intervenants {
     /**
      * Set the civilite.
      *
-     * @param string $civilite The civilite.
+     * @param string|null $civilite The civilite.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setCivilite($civilite) {
+    public function setCivilite(?string $civilite): Intervenants {
         $this->civilite = $civilite;
         return $this;
     }
@@ -539,10 +540,10 @@ class Intervenants {
     /**
      * Set the code officiel commune.
      *
-     * @param string $codeOfficielCommune The code officiel commune.
+     * @param string|null $codeOfficielCommune The code officiel commune.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setCodeOfficielCommune($codeOfficielCommune) {
+    public function setCodeOfficielCommune(?string $codeOfficielCommune): Intervenants {
         $this->codeOfficielCommune = $codeOfficielCommune;
         return $this;
     }
@@ -550,10 +551,10 @@ class Intervenants {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): Intervenants {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -561,10 +562,10 @@ class Intervenants {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): Intervenants {
         $this->complement = $complement;
         return $this;
     }
@@ -575,7 +576,7 @@ class Intervenants {
      * @param DateTime|null $dateCreat The date creat.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setDateCreat(DateTime $dateCreat = null) {
+    public function setDateCreat(?DateTime $dateCreat): Intervenants {
         $this->dateCreat = $dateCreat;
         return $this;
     }
@@ -586,7 +587,7 @@ class Intervenants {
      * @param DateTime|null $dateModif The date modif.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): Intervenants {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -594,10 +595,10 @@ class Intervenants {
     /**
      * Set the fax.
      *
-     * @param string $fax The fax.
+     * @param string|null $fax The fax.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setFax($fax) {
+    public function setFax(?string $fax): Intervenants {
         $this->fax = $fax;
         return $this;
     }
@@ -605,10 +606,10 @@ class Intervenants {
     /**
      * Set the id.
      *
-     * @param string $id The id.
+     * @param string|null $id The id.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setId($id) {
+    public function setId(?string $id): Intervenants {
         $this->id = $id;
         return $this;
     }
@@ -616,10 +617,10 @@ class Intervenants {
     /**
      * Set the ident tva.
      *
-     * @param string $identTva The ident tva.
+     * @param string|null $identTva The ident tva.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setIdentTva($identTva) {
+    public function setIdentTva(?string $identTva): Intervenants {
         $this->identTva = $identTva;
         return $this;
     }
@@ -627,10 +628,10 @@ class Intervenants {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): Intervenants {
         $this->nom = $nom;
         return $this;
     }
@@ -638,10 +639,10 @@ class Intervenants {
     /**
      * Set the nom marital.
      *
-     * @param string $nomMarital The nom marital.
+     * @param string|null $nomMarital The nom marital.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNomMarital($nomMarital) {
+    public function setNomMarital(?string $nomMarital): Intervenants {
         $this->nomMarital = $nomMarital;
         return $this;
     }
@@ -649,10 +650,10 @@ class Intervenants {
     /**
      * Set the nom responsable.
      *
-     * @param string $nomResponsable The nom responsable.
+     * @param string|null $nomResponsable The nom responsable.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNomResponsable($nomResponsable) {
+    public function setNomResponsable(?string $nomResponsable): Intervenants {
         $this->nomResponsable = $nomResponsable;
         return $this;
     }
@@ -660,10 +661,10 @@ class Intervenants {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): Intervenants {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -671,10 +672,10 @@ class Intervenants {
     /**
      * Set the nom ville.
      *
-     * @param string $nomVille The nom ville.
+     * @param string|null $nomVille The nom ville.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNomVille($nomVille) {
+    public function setNomVille(?string $nomVille): Intervenants {
         $this->nomVille = $nomVille;
         return $this;
     }
@@ -682,10 +683,10 @@ class Intervenants {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): Intervenants {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -693,10 +694,10 @@ class Intervenants {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): Intervenants {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -704,10 +705,10 @@ class Intervenants {
     /**
      * Set the portable1.
      *
-     * @param string $portable1 The portable1.
+     * @param string|null $portable1 The portable1.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setPortable1($portable1) {
+    public function setPortable1(?string $portable1): Intervenants {
         $this->portable1 = $portable1;
         return $this;
     }
@@ -715,10 +716,10 @@ class Intervenants {
     /**
      * Set the portable2.
      *
-     * @param string $portable2 The portable2.
+     * @param string|null $portable2 The portable2.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setPortable2($portable2) {
+    public function setPortable2(?string $portable2): Intervenants {
         $this->portable2 = $portable2;
         return $this;
     }
@@ -726,10 +727,10 @@ class Intervenants {
     /**
      * Set the prenom.
      *
-     * @param string $prenom The prenom.
+     * @param string|null $prenom The prenom.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setPrenom($prenom) {
+    public function setPrenom(?string $prenom): Intervenants {
         $this->prenom = $prenom;
         return $this;
     }
@@ -737,10 +738,10 @@ class Intervenants {
     /**
      * Set the qualite.
      *
-     * @param string $qualite The qualite.
+     * @param string|null $qualite The qualite.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setQualite($qualite) {
+    public function setQualite(?string $qualite): Intervenants {
         $this->qualite = $qualite;
         return $this;
     }
@@ -748,10 +749,10 @@ class Intervenants {
     /**
      * Set the rc.
      *
-     * @param string $rc The rc.
+     * @param string|null $rc The rc.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setRc($rc) {
+    public function setRc(?string $rc): Intervenants {
         $this->rc = $rc;
         return $this;
     }
@@ -759,10 +760,10 @@ class Intervenants {
     /**
      * Set the siret.
      *
-     * @param string $siret The siret.
+     * @param string|null $siret The siret.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setSiret($siret) {
+    public function setSiret(?string $siret): Intervenants {
         $this->siret = $siret;
         return $this;
     }
@@ -770,10 +771,10 @@ class Intervenants {
     /**
      * Set the tel1.
      *
-     * @param string $tel1 The tel1.
+     * @param string|null $tel1 The tel1.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setTel1($tel1) {
+    public function setTel1(?string $tel1): Intervenants {
         $this->tel1 = $tel1;
         return $this;
     }
@@ -781,10 +782,10 @@ class Intervenants {
     /**
      * Set the tel2.
      *
-     * @param string $tel2 The tel2.
+     * @param string|null $tel2 The tel2.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setTel2($tel2) {
+    public function setTel2(?string $tel2): Intervenants {
         $this->tel2 = $tel2;
         return $this;
     }
@@ -792,10 +793,10 @@ class Intervenants {
     /**
      * Set the tel voiture.
      *
-     * @param string $telVoiture The tel voiture.
+     * @param string|null $telVoiture The tel voiture.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setTelVoiture($telVoiture) {
+    public function setTelVoiture(?string $telVoiture): Intervenants {
         $this->telVoiture = $telVoiture;
         return $this;
     }
@@ -803,10 +804,10 @@ class Intervenants {
     /**
      * Set the telex.
      *
-     * @param string $telex The telex.
+     * @param string|null $telex The telex.
      * @return Intervenants Returns this Intervenants.
      */
-    public function setTelex($telex) {
+    public function setTelex(?string $telex): Intervenants {
         $this->telex = $telex;
         return $this;
     }

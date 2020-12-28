@@ -29,7 +29,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffilSecu() {
+    public function testSetCodeAffilSecu(): void {
 
         $obj = new EmpDadsuPrevoyance();
 
@@ -43,7 +43,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAncienBranche() {
+    public function testSetDateAncienBranche(): void {
 
         // Set a Date/time mock.
         $dateAncienBranche = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAncienCollege() {
+    public function testSetDateAncienCollege(): void {
 
         // Set a Date/time mock.
         $dateAncienCollege = new DateTime("2018-09-10");
@@ -77,7 +77,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAncienPoste() {
+    public function testSetDateAncienPoste(): void {
 
         // Set a Date/time mock.
         $dateAncienPoste = new DateTime("2018-09-10");
@@ -93,7 +93,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbEnfants() {
+    public function testSetNbEnfants(): void {
 
         $obj = new EmpDadsuPrevoyance();
 
@@ -106,7 +106,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpDadsuPrevoyance();
 
@@ -120,7 +120,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPremDateEntree() {
+    public function testSetPremDateEntree(): void {
 
         // Set a Date/time mock.
         $premDateEntree = new DateTime("2018-09-10");
@@ -136,7 +136,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRangNaissance() {
+    public function testSetRangNaissance(): void {
 
         $obj = new EmpDadsuPrevoyance();
 
@@ -149,7 +149,7 @@ class EmpDadsuPrevoyanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuPrevoyance();
 

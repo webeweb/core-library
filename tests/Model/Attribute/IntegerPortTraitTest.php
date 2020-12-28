@@ -30,7 +30,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPort() {
+    public function testSetPort(): void {
 
         $obj = new TestIntegerPortTrait();
 
@@ -43,7 +43,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortWithGreaterThan65536() {
+    public function testSetPortWithGreaterThan65536(): void {
 
         $obj = new TestIntegerPortTrait();
 
@@ -62,7 +62,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortWithLessThan1() {
+    public function testSetPortWithLessThan1(): void {
 
         $obj = new TestIntegerPortTrait();
 
@@ -81,7 +81,7 @@ class IntegerPortTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerPortTrait();
 

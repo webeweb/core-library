@@ -28,7 +28,7 @@ class PointTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testD() {
+    public function testD(): void {
 
         $obj = new Point(3, 4);
 
@@ -40,7 +40,7 @@ class PointTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeg() {
+    public function testDeg(): void {
 
         $obj = new Point(5, 5);
 
@@ -54,7 +54,7 @@ class PointTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testM() {
+    public function testM(): void {
 
         $obj = new Point(5, 5);
 
@@ -67,7 +67,7 @@ class PointTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRotate() {
+    public function testRotate(): void {
 
         $obj = new Point(5, 5);
 
@@ -81,7 +81,7 @@ class PointTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Point();
 

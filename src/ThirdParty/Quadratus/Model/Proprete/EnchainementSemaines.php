@@ -22,49 +22,50 @@ class EnchainementSemaines {
     /**
      * Discr sem.
      *
-     * @var int
+     * @var int|null
      */
     private $discrSem;
 
     /**
      * Num ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numOrdre;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the discr sem.
      *
-     * @return int Returns the discr sem.
+     * @return int|null Returns the discr sem.
      */
-    public function getDiscrSem() {
+    public function getDiscrSem(): ?int{
         return $this->discrSem;
     }
 
     /**
      * Get the num ordre.
      *
-     * @return int Returns the num ordre.
+     * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre() {
+    public function getNumOrdre(): ?int{
         return $this->numOrdre;
     }
 
     /**
      * Set the discr sem.
      *
-     * @param int $discrSem The discr sem.
+     * @param int|null $discrSem The discr sem.
      * @return EnchainementSemaines Returns this Enchainement semaines.
      */
-    public function setDiscrSem($discrSem) {
+    public function setDiscrSem(?int $discrSem): EnchainementSemaines {
         $this->discrSem = $discrSem;
         return $this;
     }
@@ -72,10 +73,10 @@ class EnchainementSemaines {
     /**
      * Set the num ordre.
      *
-     * @param int $numOrdre The num ordre.
+     * @param int|null $numOrdre The num ordre.
      * @return EnchainementSemaines Returns this Enchainement semaines.
      */
-    public function setNumOrdre($numOrdre) {
+    public function setNumOrdre(?int $numOrdre): EnchainementSemaines {
         $this->numOrdre = $numOrdre;
         return $this;
     }

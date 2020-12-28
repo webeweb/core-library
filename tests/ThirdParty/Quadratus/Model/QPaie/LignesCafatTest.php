@@ -29,7 +29,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCommune() {
+    public function testSetCodeCommune(): void {
 
         $obj = new LignesCafat();
 
@@ -42,7 +42,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new LignesCafat();
 
@@ -56,7 +56,7 @@ class LignesCafatTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebauchage() {
+    public function testSetDateDebauchage(): void {
 
         // Set a Date/time mock.
         $dateDebauchage = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class LignesCafatTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEmbauchage() {
+    public function testSetDateEmbauchage(): void {
 
         // Set a Date/time mock.
         $dateEmbauchage = new DateTime("2018-09-10");
@@ -89,7 +89,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHTrav() {
+    public function testSetNbHTrav(): void {
 
         $obj = new LignesCafat();
 
@@ -102,7 +102,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoEt() {
+    public function testSetNoEt(): void {
 
         $obj = new LignesCafat();
 
@@ -115,7 +115,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomEmploye() {
+    public function testSetNomEmploye(): void {
 
         $obj = new LignesCafat();
 
@@ -128,7 +128,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesCafat();
 
@@ -141,7 +141,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAssure() {
+    public function testSetNumeroAssure(): void {
 
         $obj = new LignesCafat();
 
@@ -154,7 +154,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new LignesCafat();
 
@@ -167,7 +167,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new LignesCafat();
 
@@ -181,7 +181,7 @@ class LignesCafatTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -197,7 +197,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireBrut() {
+    public function testSetSalaireBrut(): void {
 
         $obj = new LignesCafat();
 
@@ -210,7 +210,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxAt() {
+    public function testSetTauxAt(): void {
 
         $obj = new LignesCafat();
 
@@ -223,7 +223,7 @@ class LignesCafatTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesCafat();
 

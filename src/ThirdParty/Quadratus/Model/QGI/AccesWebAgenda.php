@@ -22,28 +22,28 @@ class AccesWebAgenda {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Droit modif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $droitModif;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
@@ -51,52 +51,52 @@ class AccesWebAgenda {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the droit modif.
      *
-     * @return bool Returns the droit modif.
+     * @return bool|null Returns the droit modif.
      */
-    public function getDroitModif() {
+    public function getDroitModif(): ?bool {
         return $this->droitModif;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return AccesWebAgenda Returns this Acces web agenda.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): AccesWebAgenda {
         $this->code = $code;
         return $this;
     }
@@ -104,10 +104,10 @@ class AccesWebAgenda {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return AccesWebAgenda Returns this Acces web agenda.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): AccesWebAgenda {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -115,10 +115,10 @@ class AccesWebAgenda {
     /**
      * Set the droit modif.
      *
-     * @param bool $droitModif The droit modif.
+     * @param bool|null $droitModif The droit modif.
      * @return AccesWebAgenda Returns this Acces web agenda.
      */
-    public function setDroitModif($droitModif) {
+    public function setDroitModif(?bool $droitModif): AccesWebAgenda {
         $this->droitModif = $droitModif;
         return $this;
     }
@@ -126,10 +126,10 @@ class AccesWebAgenda {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return AccesWebAgenda Returns this Acces web agenda.
      */
-    public function setType($type) {
+    public function setType(?string $type): AccesWebAgenda {
         $this->type = $type;
         return $this;
     }

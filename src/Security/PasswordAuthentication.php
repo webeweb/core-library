@@ -28,10 +28,10 @@ class PasswordAuthentication {
     /**
      * Constructor.
      *
-     * @param string $username The username.
-     * @param string $password The password.
+     * @param string|null $username The username.
+     * @param string|null $password The password.
      */
-    public function __construct($username, $password) {
+    public function __construct(?string $username, ?string $password) {
         $this->setPassword($password);
         $this->setUsername($username);
     }

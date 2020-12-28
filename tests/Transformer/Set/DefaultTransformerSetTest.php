@@ -29,7 +29,7 @@ class DefaultTransformerSetTest extends AbstractTestCase {
      *
      * @retun void
      */
-    public function testRemoveTransformer() {
+    public function testRemoveTransformer(): void {
 
         // Set a Transformer mock.
         $transformer = $this->getMockBuilder(TransformerInterface::class)->getMock();
@@ -52,7 +52,7 @@ class DefaultTransformerSetTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testTransform() {
+    public function testTransform(): void {
 
         // Set a Transformer mock.
         $transformer = new TrimTransformer();
@@ -68,7 +68,7 @@ class DefaultTransformerSetTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DefaultTransformerSet();
 

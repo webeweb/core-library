@@ -29,7 +29,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new Prefacturation();
 
@@ -42,7 +42,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Prefacturation();
 
@@ -55,7 +55,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new Prefacturation();
 
@@ -68,7 +68,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new Prefacturation();
 
@@ -81,7 +81,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePhase() {
+    public function testSetCodePhase(): void {
 
         $obj = new Prefacturation();
 
@@ -94,7 +94,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new Prefacturation();
 
@@ -108,7 +108,7 @@ class PrefacturationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSaisie() {
+    public function testSetDateSaisie(): void {
 
         // Set a Date/time mock.
         $dateSaisie = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class PrefacturationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSysSaisie() {
+    public function testSetDateSysSaisie(): void {
 
         // Set a Date/time mock.
         $dateSysSaisie = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFacturable() {
+    public function testSetFacturable(): void {
 
         $obj = new Prefacturation();
 
@@ -154,7 +154,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdPrefacturation() {
+    public function testSetIdPrefacturation(): void {
 
         $obj = new Prefacturation();
 
@@ -167,7 +167,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsTransf() {
+    public function testSetIsTransf(): void {
 
         $obj = new Prefacturation();
 
@@ -180,7 +180,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Prefacturation();
 
@@ -193,7 +193,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMonnaie() {
+    public function testSetMonnaie(): void {
 
         $obj = new Prefacturation();
 
@@ -206,7 +206,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPu() {
+    public function testSetPu(): void {
 
         $obj = new Prefacturation();
 
@@ -219,7 +219,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQte() {
+    public function testSetQte(): void {
 
         $obj = new Prefacturation();
 
@@ -232,7 +232,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdFacture() {
+    public function testSetUniqIdFacture(): void {
 
         $obj = new Prefacturation();
 
@@ -245,7 +245,7 @@ class PrefacturationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Prefacturation();
 

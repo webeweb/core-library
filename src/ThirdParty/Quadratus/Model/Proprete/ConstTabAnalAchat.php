@@ -22,81 +22,82 @@ class ConstTabAnalAchat {
     /**
      * Code anal article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalArticle;
 
     /**
      * Code anal fourn.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalFourn;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code anal article.
      *
-     * @return string Returns the code anal article.
+     * @return string|null Returns the code anal article.
      */
-    public function getCodeAnalArticle() {
+    public function getCodeAnalArticle(): ?string{
         return $this->codeAnalArticle;
     }
 
     /**
      * Get the code anal fourn.
      *
-     * @return string Returns the code anal fourn.
+     * @return string|null Returns the code anal fourn.
      */
-    public function getCodeAnalFourn() {
+    public function getCodeAnalFourn(): ?string{
         return $this->codeAnalFourn;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
     /**
      * Set the code anal article.
      *
-     * @param string $codeAnalArticle The code anal article.
+     * @param string|null $codeAnalArticle The code anal article.
      * @return ConstTabAnalAchat Returns this Const tab anal achat.
      */
-    public function setCodeAnalArticle($codeAnalArticle) {
+    public function setCodeAnalArticle(?string $codeAnalArticle): ConstTabAnalAchat {
         $this->codeAnalArticle = $codeAnalArticle;
         return $this;
     }
@@ -104,10 +105,10 @@ class ConstTabAnalAchat {
     /**
      * Set the code anal fourn.
      *
-     * @param string $codeAnalFourn The code anal fourn.
+     * @param string|null $codeAnalFourn The code anal fourn.
      * @return ConstTabAnalAchat Returns this Const tab anal achat.
      */
-    public function setCodeAnalFourn($codeAnalFourn) {
+    public function setCodeAnalFourn(?string $codeAnalFourn): ConstTabAnalAchat {
         $this->codeAnalFourn = $codeAnalFourn;
         return $this;
     }
@@ -115,10 +116,10 @@ class ConstTabAnalAchat {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return ConstTabAnalAchat Returns this Const tab anal achat.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): ConstTabAnalAchat {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -126,10 +127,10 @@ class ConstTabAnalAchat {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return ConstTabAnalAchat Returns this Const tab anal achat.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): ConstTabAnalAchat {
         $this->codeNature = $codeNature;
         return $this;
     }

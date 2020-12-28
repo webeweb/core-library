@@ -30,7 +30,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAnciennBtp() {
+    public function testSetAnciennBtp(): void {
 
         // Set a Date/time mock.
         $anciennBtp = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnexe7Mutation() {
+    public function testSetAnnexe7Mutation(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -59,7 +59,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetApprentiEtam() {
+    public function testSetApprentiEtam(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -72,7 +72,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBenefAssedic() {
+    public function testSetBenefAssedic(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -85,7 +85,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtqLieuTrav() {
+    public function testSetBtqLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -98,7 +98,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeurLieuTrav() {
+    public function testSetBureauDistributeurLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -111,7 +111,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCaisseCp() {
+    public function testSetCodeCaisseCp(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -124,7 +124,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCaract() {
+    public function testSetCodeCaract(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -137,7 +137,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCategSalPourcentAbat() {
+    public function testSetCodeCategSalPourcentAbat(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -150,7 +150,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClassBtp() {
+    public function testSetCodeClassBtp(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -163,7 +163,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeContratTrav() {
+    public function testSetCodeContratTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -176,7 +176,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeConventionCol() {
+    public function testSetCodeConventionCol(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -189,7 +189,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDistriEtranger() {
+    public function testSetCodeDistriEtranger(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -202,7 +202,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeExoTrav() {
+    public function testSetCodeExoTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -215,7 +215,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInseeLieuTrav() {
+    public function testSetCodeInseeLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -228,7 +228,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeIntitContratTrav() {
+    public function testSetCodeIntitContratTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -241,7 +241,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMetierBtp() {
+    public function testSetCodeMetierBtp(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -254,7 +254,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOfficielCommuneLieuTrav() {
+    public function testSetCodeOfficielCommuneLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -267,7 +267,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePaysLieuTrav() {
+    public function testSetCodePaysLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -280,7 +280,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostalLieuTrav() {
+    public function testSetCodePostalLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -293,7 +293,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeAt() {
+    public function testSetCodeRegimeAt(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -306,7 +306,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeBaseObl() {
+    public function testSetCodeRegimeBaseObl(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -319,7 +319,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeVieillesse() {
+    public function testSetCodeRegimeVieillesse(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -332,7 +332,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRetraiteComplementaire() {
+    public function testSetCodeRetraiteComplementaire(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -345,7 +345,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSituAdmin() {
+    public function testSetCodeSituAdmin(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -358,7 +358,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeStatutCateg() {
+    public function testSetCodeStatutCateg(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -371,7 +371,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeStatutCategRetraite() {
+    public function testSetCodeStatutCategRetraite(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -384,7 +384,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeStatutPro() {
+    public function testSetCodeStatutPro(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -397,7 +397,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeExo1() {
+    public function testSetCodeTypeExo1(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -410,7 +410,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeExo2() {
+    public function testSetCodeTypeExo2(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -423,7 +423,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeExo3() {
+    public function testSetCodeTypeExo3(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -436,7 +436,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUniteTempsTravail() {
+    public function testSetCodeUniteTempsTravail(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -449,7 +449,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeZoneGeo() {
+    public function testSetCodeZoneGeo(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -462,7 +462,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplementLieuTrav() {
+    public function testSetComplementLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -476,7 +476,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRachat() {
+    public function testSetDateRachat(): void {
 
         // Set a Date/time mock.
         $dateRachat = new DateTime("2018-09-10");
@@ -492,7 +492,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetacheExpatrie() {
+    public function testSetDetacheExpatrie(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -505,7 +505,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEchelon() {
+    public function testSetEchelon(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -518,7 +518,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtabLieuTravail() {
+    public function testSetEtabLieuTravail(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -531,7 +531,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdLieuTravail() {
+    public function testSetIdLieuTravail(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -544,7 +544,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -557,7 +557,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -570,7 +570,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVilleInseeLieuTrav() {
+    public function testSetNomVilleInseeLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -583,7 +583,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVilleLieuTrav() {
+    public function testSetNomVilleLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -596,7 +596,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoieLieuTrav() {
+    public function testSetNomVoieLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -609,7 +609,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoieLieuTrav() {
+    public function testSetNumVoieLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -622,7 +622,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -635,7 +635,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -648,7 +648,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRaisonSocLieuTrav() {
+    public function testSetRaisonSocLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -661,7 +661,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiretLieuTrav() {
+    public function testSetSiretLieuTrav(): void {
 
         $obj = new EmpDadsuGene();
 
@@ -674,7 +674,7 @@ class EmpDadsuGeneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuGene();
 

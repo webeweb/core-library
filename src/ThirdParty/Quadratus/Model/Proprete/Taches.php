@@ -24,91 +24,91 @@ class Taches {
     /**
      * Auto incr.
      *
-     * @var int
+     * @var int|null
      */
     private $autoIncr;
 
     /**
      * Cadence.
      *
-     * @var float
+     * @var float|null
      */
     private $cadence;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalytique;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code dern sem gen.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDernSemGen;
 
     /**
      * Code prime dimanche1 type2.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrimeDimanche1Type2;
 
     /**
      * Code prime jf1 type2.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrimeJf1Type2;
 
     /**
      * Code prime nuit1 type2.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrimeNuit1Type2;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Code tache type.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTacheType;
 
     /**
      * Descriptif.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptif;
 
@@ -122,208 +122,209 @@ class Taches {
     /**
      * Duree budget.
      *
-     * @var float
+     * @var float|null
      */
     private $dureeBudget;
 
     /**
      * Fiche poste.
      *
-     * @var string
+     * @var string|null
      */
     private $fichePoste;
 
     /**
      * Gestion hotellerie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionHotellerie;
 
     /**
      * Maj dim normal type2.
      *
-     * @var float
+     * @var float|null
      */
     private $majDimNormalType2;
 
     /**
      * Maj jf normal type2.
      *
-     * @var float
+     * @var float|null
      */
     private $majJfNormalType2;
 
     /**
      * Maj nuit normal type2.
      *
-     * @var float
+     * @var float|null
      */
     private $majNuitNormalType2;
 
     /**
      * Niveau qualif.
      *
-     * @var int
+     * @var int|null
      */
     private $niveauQualif;
 
     /**
      * Non oeuvrant.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nonOeuvrant;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Planning dern sem prioritaire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $planningDernSemPrioritaire;
 
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Suivi heures.
      *
-     * @var bool
+     * @var bool|null
      */
     private $suiviHeures;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the auto incr.
      *
-     * @return int Returns the auto incr.
+     * @return int|null Returns the auto incr.
      */
-    public function getAutoIncr() {
+    public function getAutoIncr(): ?int{
         return $this->autoIncr;
     }
 
     /**
      * Get the cadence.
      *
-     * @return float Returns the cadence.
+     * @return float|null Returns the cadence.
      */
-    public function getCadence() {
+    public function getCadence(): ?float{
         return $this->cadence;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code analytique.
      *
-     * @return string Returns the code analytique.
+     * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique() {
+    public function getCodeAnalytique(): ?string{
         return $this->codeAnalytique;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code dern sem gen.
      *
-     * @return string Returns the code dern sem gen.
+     * @return string|null Returns the code dern sem gen.
      */
-    public function getCodeDernSemGen() {
+    public function getCodeDernSemGen(): ?string{
         return $this->codeDernSemGen;
     }
 
     /**
      * Get the code prime dimanche1 type2.
      *
-     * @return string Returns the code prime dimanche1 type2.
+     * @return string|null Returns the code prime dimanche1 type2.
      */
-    public function getCodePrimeDimanche1Type2() {
+    public function getCodePrimeDimanche1Type2(): ?string{
         return $this->codePrimeDimanche1Type2;
     }
 
     /**
      * Get the code prime jf1 type2.
      *
-     * @return string Returns the code prime jf1 type2.
+     * @return string|null Returns the code prime jf1 type2.
      */
-    public function getCodePrimeJf1Type2() {
+    public function getCodePrimeJf1Type2(): ?string{
         return $this->codePrimeJf1Type2;
     }
 
     /**
      * Get the code prime nuit1 type2.
      *
-     * @return string Returns the code prime nuit1 type2.
+     * @return string|null Returns the code prime nuit1 type2.
      */
-    public function getCodePrimeNuit1Type2() {
+    public function getCodePrimeNuit1Type2(): ?string{
         return $this->codePrimeNuit1Type2;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the code tache type.
      *
-     * @return string Returns the code tache type.
+     * @return string|null Returns the code tache type.
      */
-    public function getCodeTacheType() {
+    public function getCodeTacheType(): ?string{
         return $this->codeTacheType;
     }
 
     /**
      * Get the descriptif.
      *
-     * @return string Returns the descriptif.
+     * @return string|null Returns the descriptif.
      */
-    public function getDescriptif() {
+    public function getDescriptif(): ?string{
         return $this->descriptif;
     }
 
@@ -332,125 +333,125 @@ class Taches {
      *
      * @return DateTime|null Returns the dt dern sem gen.
      */
-    public function getDtDernSemGen() {
+    public function getDtDernSemGen(): ?DateTime{
         return $this->dtDernSemGen;
     }
 
     /**
      * Get the duree budget.
      *
-     * @return float Returns the duree budget.
+     * @return float|null Returns the duree budget.
      */
-    public function getDureeBudget() {
+    public function getDureeBudget(): ?float{
         return $this->dureeBudget;
     }
 
     /**
      * Get the fiche poste.
      *
-     * @return string Returns the fiche poste.
+     * @return string|null Returns the fiche poste.
      */
-    public function getFichePoste() {
+    public function getFichePoste(): ?string{
         return $this->fichePoste;
     }
 
     /**
      * Get the gestion hotellerie.
      *
-     * @return bool Returns the gestion hotellerie.
+     * @return bool|null Returns the gestion hotellerie.
      */
-    public function getGestionHotellerie() {
+    public function getGestionHotellerie(): ?bool{
         return $this->gestionHotellerie;
     }
 
     /**
      * Get the maj dim normal type2.
      *
-     * @return float Returns the maj dim normal type2.
+     * @return float|null Returns the maj dim normal type2.
      */
-    public function getMajDimNormalType2() {
+    public function getMajDimNormalType2(): ?float{
         return $this->majDimNormalType2;
     }
 
     /**
      * Get the maj jf normal type2.
      *
-     * @return float Returns the maj jf normal type2.
+     * @return float|null Returns the maj jf normal type2.
      */
-    public function getMajJfNormalType2() {
+    public function getMajJfNormalType2(): ?float{
         return $this->majJfNormalType2;
     }
 
     /**
      * Get the maj nuit normal type2.
      *
-     * @return float Returns the maj nuit normal type2.
+     * @return float|null Returns the maj nuit normal type2.
      */
-    public function getMajNuitNormalType2() {
+    public function getMajNuitNormalType2(): ?float{
         return $this->majNuitNormalType2;
     }
 
     /**
      * Get the niveau qualif.
      *
-     * @return int Returns the niveau qualif.
+     * @return int|null Returns the niveau qualif.
      */
-    public function getNiveauQualif() {
+    public function getNiveauQualif(): ?int{
         return $this->niveauQualif;
     }
 
     /**
      * Get the non oeuvrant.
      *
-     * @return bool Returns the non oeuvrant.
+     * @return bool|null Returns the non oeuvrant.
      */
-    public function getNonOeuvrant() {
+    public function getNonOeuvrant(): ?bool{
         return $this->nonOeuvrant;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the planning dern sem prioritaire.
      *
-     * @return bool Returns the planning dern sem prioritaire.
+     * @return bool|null Returns the planning dern sem prioritaire.
      */
-    public function getPlanningDernSemPrioritaire() {
+    public function getPlanningDernSemPrioritaire(): ?bool{
         return $this->planningDernSemPrioritaire;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the suivi heures.
      *
-     * @return bool Returns the suivi heures.
+     * @return bool|null Returns the suivi heures.
      */
-    public function getSuiviHeures() {
+    public function getSuiviHeures(): ?bool{
         return $this->suiviHeures;
     }
 
     /**
      * Set the auto incr.
      *
-     * @param int $autoIncr The auto incr.
+     * @param int|null $autoIncr The auto incr.
      * @return Taches Returns this Taches.
      */
-    public function setAutoIncr($autoIncr) {
+    public function setAutoIncr(?int $autoIncr): Taches {
         $this->autoIncr = $autoIncr;
         return $this;
     }
@@ -458,10 +459,10 @@ class Taches {
     /**
      * Set the cadence.
      *
-     * @param float $cadence The cadence.
+     * @param float|null $cadence The cadence.
      * @return Taches Returns this Taches.
      */
-    public function setCadence($cadence) {
+    public function setCadence(?float $cadence): Taches {
         $this->cadence = $cadence;
         return $this;
     }
@@ -469,10 +470,10 @@ class Taches {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return Taches Returns this Taches.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): Taches {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -480,10 +481,10 @@ class Taches {
     /**
      * Set the code analytique.
      *
-     * @param string $codeAnalytique The code analytique.
+     * @param string|null $codeAnalytique The code analytique.
      * @return Taches Returns this Taches.
      */
-    public function setCodeAnalytique($codeAnalytique) {
+    public function setCodeAnalytique(?string $codeAnalytique): Taches {
         $this->codeAnalytique = $codeAnalytique;
         return $this;
     }
@@ -491,10 +492,10 @@ class Taches {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return Taches Returns this Taches.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): Taches {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -502,10 +503,10 @@ class Taches {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Taches Returns this Taches.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Taches {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -513,10 +514,10 @@ class Taches {
     /**
      * Set the code dern sem gen.
      *
-     * @param string $codeDernSemGen The code dern sem gen.
+     * @param string|null $codeDernSemGen The code dern sem gen.
      * @return Taches Returns this Taches.
      */
-    public function setCodeDernSemGen($codeDernSemGen) {
+    public function setCodeDernSemGen(?string $codeDernSemGen): Taches {
         $this->codeDernSemGen = $codeDernSemGen;
         return $this;
     }
@@ -524,10 +525,10 @@ class Taches {
     /**
      * Set the code prime dimanche1 type2.
      *
-     * @param string $codePrimeDimanche1Type2 The code prime dimanche1 type2.
+     * @param string|null $codePrimeDimanche1Type2 The code prime dimanche1 type2.
      * @return Taches Returns this Taches.
      */
-    public function setCodePrimeDimanche1Type2($codePrimeDimanche1Type2) {
+    public function setCodePrimeDimanche1Type2(?string $codePrimeDimanche1Type2): Taches {
         $this->codePrimeDimanche1Type2 = $codePrimeDimanche1Type2;
         return $this;
     }
@@ -535,10 +536,10 @@ class Taches {
     /**
      * Set the code prime jf1 type2.
      *
-     * @param string $codePrimeJf1Type2 The code prime jf1 type2.
+     * @param string|null $codePrimeJf1Type2 The code prime jf1 type2.
      * @return Taches Returns this Taches.
      */
-    public function setCodePrimeJf1Type2($codePrimeJf1Type2) {
+    public function setCodePrimeJf1Type2(?string $codePrimeJf1Type2): Taches {
         $this->codePrimeJf1Type2 = $codePrimeJf1Type2;
         return $this;
     }
@@ -546,10 +547,10 @@ class Taches {
     /**
      * Set the code prime nuit1 type2.
      *
-     * @param string $codePrimeNuit1Type2 The code prime nuit1 type2.
+     * @param string|null $codePrimeNuit1Type2 The code prime nuit1 type2.
      * @return Taches Returns this Taches.
      */
-    public function setCodePrimeNuit1Type2($codePrimeNuit1Type2) {
+    public function setCodePrimeNuit1Type2(?string $codePrimeNuit1Type2): Taches {
         $this->codePrimeNuit1Type2 = $codePrimeNuit1Type2;
         return $this;
     }
@@ -557,10 +558,10 @@ class Taches {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return Taches Returns this Taches.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): Taches {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -568,10 +569,10 @@ class Taches {
     /**
      * Set the code tache type.
      *
-     * @param string $codeTacheType The code tache type.
+     * @param string|null $codeTacheType The code tache type.
      * @return Taches Returns this Taches.
      */
-    public function setCodeTacheType($codeTacheType) {
+    public function setCodeTacheType(?string $codeTacheType): Taches {
         $this->codeTacheType = $codeTacheType;
         return $this;
     }
@@ -579,10 +580,10 @@ class Taches {
     /**
      * Set the descriptif.
      *
-     * @param string $descriptif The descriptif.
+     * @param string|null $descriptif The descriptif.
      * @return Taches Returns this Taches.
      */
-    public function setDescriptif($descriptif) {
+    public function setDescriptif(?string $descriptif): Taches {
         $this->descriptif = $descriptif;
         return $this;
     }
@@ -593,7 +594,7 @@ class Taches {
      * @param DateTime|null $dtDernSemGen The dt dern sem gen.
      * @return Taches Returns this Taches.
      */
-    public function setDtDernSemGen(DateTime $dtDernSemGen = null) {
+    public function setDtDernSemGen(?DateTime $dtDernSemGen): Taches {
         $this->dtDernSemGen = $dtDernSemGen;
         return $this;
     }
@@ -601,10 +602,10 @@ class Taches {
     /**
      * Set the duree budget.
      *
-     * @param float $dureeBudget The duree budget.
+     * @param float|null $dureeBudget The duree budget.
      * @return Taches Returns this Taches.
      */
-    public function setDureeBudget($dureeBudget) {
+    public function setDureeBudget(?float $dureeBudget): Taches {
         $this->dureeBudget = $dureeBudget;
         return $this;
     }
@@ -612,10 +613,10 @@ class Taches {
     /**
      * Set the fiche poste.
      *
-     * @param string $fichePoste The fiche poste.
+     * @param string|null $fichePoste The fiche poste.
      * @return Taches Returns this Taches.
      */
-    public function setFichePoste($fichePoste) {
+    public function setFichePoste(?string $fichePoste): Taches {
         $this->fichePoste = $fichePoste;
         return $this;
     }
@@ -623,10 +624,10 @@ class Taches {
     /**
      * Set the gestion hotellerie.
      *
-     * @param bool $gestionHotellerie The gestion hotellerie.
+     * @param bool|null $gestionHotellerie The gestion hotellerie.
      * @return Taches Returns this Taches.
      */
-    public function setGestionHotellerie($gestionHotellerie) {
+    public function setGestionHotellerie(?bool $gestionHotellerie): Taches {
         $this->gestionHotellerie = $gestionHotellerie;
         return $this;
     }
@@ -634,10 +635,10 @@ class Taches {
     /**
      * Set the maj dim normal type2.
      *
-     * @param float $majDimNormalType2 The maj dim normal type2.
+     * @param float|null $majDimNormalType2 The maj dim normal type2.
      * @return Taches Returns this Taches.
      */
-    public function setMajDimNormalType2($majDimNormalType2) {
+    public function setMajDimNormalType2(?float $majDimNormalType2): Taches {
         $this->majDimNormalType2 = $majDimNormalType2;
         return $this;
     }
@@ -645,10 +646,10 @@ class Taches {
     /**
      * Set the maj jf normal type2.
      *
-     * @param float $majJfNormalType2 The maj jf normal type2.
+     * @param float|null $majJfNormalType2 The maj jf normal type2.
      * @return Taches Returns this Taches.
      */
-    public function setMajJfNormalType2($majJfNormalType2) {
+    public function setMajJfNormalType2(?float $majJfNormalType2): Taches {
         $this->majJfNormalType2 = $majJfNormalType2;
         return $this;
     }
@@ -656,10 +657,10 @@ class Taches {
     /**
      * Set the maj nuit normal type2.
      *
-     * @param float $majNuitNormalType2 The maj nuit normal type2.
+     * @param float|null $majNuitNormalType2 The maj nuit normal type2.
      * @return Taches Returns this Taches.
      */
-    public function setMajNuitNormalType2($majNuitNormalType2) {
+    public function setMajNuitNormalType2(?float $majNuitNormalType2): Taches {
         $this->majNuitNormalType2 = $majNuitNormalType2;
         return $this;
     }
@@ -667,10 +668,10 @@ class Taches {
     /**
      * Set the niveau qualif.
      *
-     * @param int $niveauQualif The niveau qualif.
+     * @param int|null $niveauQualif The niveau qualif.
      * @return Taches Returns this Taches.
      */
-    public function setNiveauQualif($niveauQualif) {
+    public function setNiveauQualif(?int $niveauQualif): Taches {
         $this->niveauQualif = $niveauQualif;
         return $this;
     }
@@ -678,10 +679,10 @@ class Taches {
     /**
      * Set the non oeuvrant.
      *
-     * @param bool $nonOeuvrant The non oeuvrant.
+     * @param bool|null $nonOeuvrant The non oeuvrant.
      * @return Taches Returns this Taches.
      */
-    public function setNonOeuvrant($nonOeuvrant) {
+    public function setNonOeuvrant(?bool $nonOeuvrant): Taches {
         $this->nonOeuvrant = $nonOeuvrant;
         return $this;
     }
@@ -689,10 +690,10 @@ class Taches {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return Taches Returns this Taches.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): Taches {
         $this->numBt = $numBt;
         return $this;
     }
@@ -700,10 +701,10 @@ class Taches {
     /**
      * Set the planning dern sem prioritaire.
      *
-     * @param bool $planningDernSemPrioritaire The planning dern sem prioritaire.
+     * @param bool|null $planningDernSemPrioritaire The planning dern sem prioritaire.
      * @return Taches Returns this Taches.
      */
-    public function setPlanningDernSemPrioritaire($planningDernSemPrioritaire) {
+    public function setPlanningDernSemPrioritaire(?bool $planningDernSemPrioritaire): Taches {
         $this->planningDernSemPrioritaire = $planningDernSemPrioritaire;
         return $this;
     }
@@ -711,10 +712,10 @@ class Taches {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return Taches Returns this Taches.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): Taches {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -722,10 +723,10 @@ class Taches {
     /**
      * Set the suivi heures.
      *
-     * @param bool $suiviHeures The suivi heures.
+     * @param bool|null $suiviHeures The suivi heures.
      * @return Taches Returns this Taches.
      */
-    public function setSuiviHeures($suiviHeures) {
+    public function setSuiviHeures(?bool $suiviHeures): Taches {
         $this->suiviHeures = $suiviHeures;
         return $this;
     }

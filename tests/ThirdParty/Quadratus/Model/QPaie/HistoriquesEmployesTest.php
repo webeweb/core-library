@@ -29,7 +29,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChapitre() {
+    public function testSetChapitre(): void {
 
         $obj = new HistoriquesEmployes();
 
@@ -42,7 +42,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollCreat() {
+    public function testSetCollCreat(): void {
 
         $obj = new HistoriquesEmployes();
 
@@ -55,7 +55,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollModif() {
+    public function testSetCollModif(): void {
 
         $obj = new HistoriquesEmployes();
 
@@ -69,7 +69,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreat() {
+    public function testSetDateCreat(): void {
 
         // Set a Date/time mock.
         $dateCreat = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new HistoriquesEmployes();
 
@@ -115,7 +115,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGUniqId() {
+    public function testSetGUniqId(): void {
 
         $obj = new HistoriquesEmployes();
 
@@ -128,7 +128,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new HistoriquesEmployes();
 
@@ -141,7 +141,7 @@ class HistoriquesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoriquesEmployes();
 

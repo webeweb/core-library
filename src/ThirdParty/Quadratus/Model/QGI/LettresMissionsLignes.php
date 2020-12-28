@@ -24,35 +24,35 @@ class LettresMissionsLignes {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Code travail.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTravail;
 
@@ -73,150 +73,151 @@ class LettresMissionsLignes {
     /**
      * Declaration a rediger.
      *
-     * @var bool
+     * @var bool|null
      */
     private $declarationARediger;
 
     /**
      * Frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $frequence;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Nbr heures.
      *
-     * @var float
+     * @var float|null
      */
     private $nbrHeures;
 
     /**
      * Nbr operations.
      *
-     * @var string
+     * @var string|null
      */
     private $nbrOperations;
 
     /**
      * Niveau.
      *
-     * @var int
+     * @var int|null
      */
     private $niveau;
 
     /**
      * Niveau ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $niveauLigne;
 
     /**
      * Numero lettre.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroLettre;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Observations.
      *
-     * @var string
+     * @var string|null
      */
     private $observations;
 
     /**
      * Police.
      *
-     * @var string
+     * @var string|null
      */
     private $police;
 
     /**
      * Realise par.
      *
-     * @var string
+     * @var string|null
      */
     private $realisePar;
 
     /**
      * Type affectation.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAffectation;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string{
         return $this->codeMission;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the code travail.
      *
-     * @return string Returns the code travail.
+     * @return string|null Returns the code travail.
      */
-    public function getCodeTravail() {
+    public function getCodeTravail(): ?string{
         return $this->codeTravail;
     }
 
@@ -225,7 +226,7 @@ class LettresMissionsLignes {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
@@ -234,143 +235,143 @@ class LettresMissionsLignes {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime{
         return $this->dateFin;
     }
 
     /**
      * Get the declaration a rediger.
      *
-     * @return bool Returns the declaration a rediger.
+     * @return bool|null Returns the declaration a rediger.
      */
-    public function getDeclarationARediger() {
+    public function getDeclarationARediger(): ?bool{
         return $this->declarationARediger;
     }
 
     /**
      * Get the frequence.
      *
-     * @return string Returns the frequence.
+     * @return string|null Returns the frequence.
      */
-    public function getFrequence() {
+    public function getFrequence(): ?string{
         return $this->frequence;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the nbr heures.
      *
-     * @return float Returns the nbr heures.
+     * @return float|null Returns the nbr heures.
      */
-    public function getNbrHeures() {
+    public function getNbrHeures(): ?float{
         return $this->nbrHeures;
     }
 
     /**
      * Get the nbr operations.
      *
-     * @return string Returns the nbr operations.
+     * @return string|null Returns the nbr operations.
      */
-    public function getNbrOperations() {
+    public function getNbrOperations(): ?string{
         return $this->nbrOperations;
     }
 
     /**
      * Get the niveau.
      *
-     * @return int Returns the niveau.
+     * @return int|null Returns the niveau.
      */
-    public function getNiveau() {
+    public function getNiveau(): ?int{
         return $this->niveau;
     }
 
     /**
      * Get the niveau ligne.
      *
-     * @return string Returns the niveau ligne.
+     * @return string|null Returns the niveau ligne.
      */
-    public function getNiveauLigne() {
+    public function getNiveauLigne(): ?string{
         return $this->niveauLigne;
     }
 
     /**
      * Get the numero lettre.
      *
-     * @return string Returns the numero lettre.
+     * @return string|null Returns the numero lettre.
      */
-    public function getNumeroLettre() {
+    public function getNumeroLettre(): ?string{
         return $this->numeroLettre;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the observations.
      *
-     * @return string Returns the observations.
+     * @return string|null Returns the observations.
      */
-    public function getObservations() {
+    public function getObservations(): ?string{
         return $this->observations;
     }
 
     /**
      * Get the police.
      *
-     * @return string Returns the police.
+     * @return string|null Returns the police.
      */
-    public function getPolice() {
+    public function getPolice(): ?string{
         return $this->police;
     }
 
     /**
      * Get the realise par.
      *
-     * @return string Returns the realise par.
+     * @return string|null Returns the realise par.
      */
-    public function getRealisePar() {
+    public function getRealisePar(): ?string{
         return $this->realisePar;
     }
 
     /**
      * Get the type affectation.
      *
-     * @return string Returns the type affectation.
+     * @return string|null Returns the type affectation.
      */
-    public function getTypeAffectation() {
+    public function getTypeAffectation(): ?string{
         return $this->typeAffectation;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): LettresMissionsLignes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -378,10 +379,10 @@ class LettresMissionsLignes {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): LettresMissionsLignes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -389,10 +390,10 @@ class LettresMissionsLignes {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): LettresMissionsLignes {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -400,10 +401,10 @@ class LettresMissionsLignes {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): LettresMissionsLignes {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -411,10 +412,10 @@ class LettresMissionsLignes {
     /**
      * Set the code travail.
      *
-     * @param string $codeTravail The code travail.
+     * @param string|null $codeTravail The code travail.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setCodeTravail($codeTravail) {
+    public function setCodeTravail(?string $codeTravail): LettresMissionsLignes {
         $this->codeTravail = $codeTravail;
         return $this;
     }
@@ -425,7 +426,7 @@ class LettresMissionsLignes {
      * @param DateTime|null $dateDebut The date debut.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): LettresMissionsLignes {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -436,7 +437,7 @@ class LettresMissionsLignes {
      * @param DateTime|null $dateFin The date fin.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): LettresMissionsLignes {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -444,10 +445,10 @@ class LettresMissionsLignes {
     /**
      * Set the declaration a rediger.
      *
-     * @param bool $declarationARediger The declaration a rediger.
+     * @param bool|null $declarationARediger The declaration a rediger.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setDeclarationARediger($declarationARediger) {
+    public function setDeclarationARediger(?bool $declarationARediger): LettresMissionsLignes {
         $this->declarationARediger = $declarationARediger;
         return $this;
     }
@@ -455,10 +456,10 @@ class LettresMissionsLignes {
     /**
      * Set the frequence.
      *
-     * @param string $frequence The frequence.
+     * @param string|null $frequence The frequence.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setFrequence($frequence) {
+    public function setFrequence(?string $frequence): LettresMissionsLignes {
         $this->frequence = $frequence;
         return $this;
     }
@@ -466,10 +467,10 @@ class LettresMissionsLignes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): LettresMissionsLignes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -477,10 +478,10 @@ class LettresMissionsLignes {
     /**
      * Set the nbr heures.
      *
-     * @param float $nbrHeures The nbr heures.
+     * @param float|null $nbrHeures The nbr heures.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setNbrHeures($nbrHeures) {
+    public function setNbrHeures(?float $nbrHeures): LettresMissionsLignes {
         $this->nbrHeures = $nbrHeures;
         return $this;
     }
@@ -488,10 +489,10 @@ class LettresMissionsLignes {
     /**
      * Set the nbr operations.
      *
-     * @param string $nbrOperations The nbr operations.
+     * @param string|null $nbrOperations The nbr operations.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setNbrOperations($nbrOperations) {
+    public function setNbrOperations(?string $nbrOperations): LettresMissionsLignes {
         $this->nbrOperations = $nbrOperations;
         return $this;
     }
@@ -499,10 +500,10 @@ class LettresMissionsLignes {
     /**
      * Set the niveau.
      *
-     * @param int $niveau The niveau.
+     * @param int|null $niveau The niveau.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setNiveau($niveau) {
+    public function setNiveau(?int $niveau): LettresMissionsLignes {
         $this->niveau = $niveau;
         return $this;
     }
@@ -510,10 +511,10 @@ class LettresMissionsLignes {
     /**
      * Set the niveau ligne.
      *
-     * @param string $niveauLigne The niveau ligne.
+     * @param string|null $niveauLigne The niveau ligne.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setNiveauLigne($niveauLigne) {
+    public function setNiveauLigne(?string $niveauLigne): LettresMissionsLignes {
         $this->niveauLigne = $niveauLigne;
         return $this;
     }
@@ -521,10 +522,10 @@ class LettresMissionsLignes {
     /**
      * Set the numero lettre.
      *
-     * @param string $numeroLettre The numero lettre.
+     * @param string|null $numeroLettre The numero lettre.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setNumeroLettre($numeroLettre) {
+    public function setNumeroLettre(?string $numeroLettre): LettresMissionsLignes {
         $this->numeroLettre = $numeroLettre;
         return $this;
     }
@@ -532,10 +533,10 @@ class LettresMissionsLignes {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): LettresMissionsLignes {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -543,10 +544,10 @@ class LettresMissionsLignes {
     /**
      * Set the observations.
      *
-     * @param string $observations The observations.
+     * @param string|null $observations The observations.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setObservations($observations) {
+    public function setObservations(?string $observations): LettresMissionsLignes {
         $this->observations = $observations;
         return $this;
     }
@@ -554,10 +555,10 @@ class LettresMissionsLignes {
     /**
      * Set the police.
      *
-     * @param string $police The police.
+     * @param string|null $police The police.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setPolice($police) {
+    public function setPolice(?string $police): LettresMissionsLignes {
         $this->police = $police;
         return $this;
     }
@@ -565,10 +566,10 @@ class LettresMissionsLignes {
     /**
      * Set the realise par.
      *
-     * @param string $realisePar The realise par.
+     * @param string|null $realisePar The realise par.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setRealisePar($realisePar) {
+    public function setRealisePar(?string $realisePar): LettresMissionsLignes {
         $this->realisePar = $realisePar;
         return $this;
     }
@@ -576,10 +577,10 @@ class LettresMissionsLignes {
     /**
      * Set the type affectation.
      *
-     * @param string $typeAffectation The type affectation.
+     * @param string|null $typeAffectation The type affectation.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setTypeAffectation($typeAffectation) {
+    public function setTypeAffectation(?string $typeAffectation): LettresMissionsLignes {
         $this->typeAffectation = $typeAffectation;
         return $this;
     }
@@ -587,10 +588,10 @@ class LettresMissionsLignes {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return LettresMissionsLignes Returns this Lettres missions lignes.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): LettresMissionsLignes {
         $this->uniqId = $uniqId;
         return $this;
     }

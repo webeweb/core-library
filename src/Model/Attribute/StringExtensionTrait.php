@@ -22,25 +22,25 @@ trait StringExtensionTrait {
     /**
      * Extension.
      *
-     * @var string
+     * @var string|null
      */
     protected $extension;
 
     /**
      * Get the extension.
      *
-     * @return string Returns the extension.
+     * @return string|null Returns the extension.
      */
-    public function getExtension() {
+    public function getExtension(): ?string {
         return $this->extension;
     }
 
     /**
      * Set the extension.
      *
-     * @param string $extension The extension.
+     * @param string|null $extension The extension.
      */
-    public function setExtension($extension) {
+    public function setExtension(?string $extension) {
         $this->extension = $extension;
         return $this;
     }

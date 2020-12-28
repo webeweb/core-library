@@ -22,175 +22,175 @@ class iPaieDroits {
     /**
      * Code collab messages.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabMessages;
 
     /**
      * Code user.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUser;
 
     /**
      * Espace client.
      *
-     * @var bool
+     * @var bool|null
      */
     private $espaceClient;
 
     /**
      * Fct absences cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctAbsencesCp;
 
     /**
      * Fct acomptes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctAcomptes;
 
     /**
      * Fct archives.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctArchives;
 
     /**
      * Fct bulletins.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctBulletins;
 
     /**
      * Fct documents.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctDocuments;
 
     /**
      * Fct donnees v.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctDonneesV;
 
     /**
      * Fct etat civil.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctEtatCivil;
 
     /**
      * Fct modif absences cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifAbsencesCp;
 
     /**
      * Fct modif acomptes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifAcomptes;
 
     /**
      * Fct modif archives.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifArchives;
 
     /**
      * Fct modif bulletins.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifBulletins;
 
     /**
      * Fct modif documents.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifDocuments;
 
     /**
      * Fct modif donnees v.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifDonneesV;
 
     /**
      * Fct modif etat civil.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctModifEtatCivil;
 
     /**
      * Flag.
      *
-     * @var string
+     * @var string|null
      */
     private $flag;
 
     /**
      * Niveau conf.
      *
-     * @var string
+     * @var string|null
      */
     private $niveauConf;
 
     /**
      * No doss paie.
      *
-     * @var string
+     * @var string|null
      */
     private $noDossPaie;
 
     /**
      * Nom user.
      *
-     * @var string
+     * @var string|null
      */
     private $nomUser;
 
     /**
      * Numi key.
      *
-     * @var string
+     * @var string|null
      */
     private $numiKey;
 
     /**
      * Password.
      *
-     * @var string
+     * @var string|null
      */
     private $password;
 
     /**
      * User expert.
      *
-     * @var bool
+     * @var bool|null
      */
     private $userExpert;
 
     /**
      * Visu salaires.
      *
-     * @var bool
+     * @var bool|null
      */
     private $visuSalaires;
 
@@ -198,241 +198,241 @@ class iPaieDroits {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab messages.
      *
-     * @return string Returns the code collab messages.
+     * @return string|null Returns the code collab messages.
      */
-    public function getCodeCollabMessages() {
+    public function getCodeCollabMessages(): ?string {
         return $this->codeCollabMessages;
     }
 
     /**
      * Get the code user.
      *
-     * @return string Returns the code user.
+     * @return string|null Returns the code user.
      */
-    public function getCodeUser() {
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
     /**
      * Get the espace client.
      *
-     * @return bool Returns the espace client.
+     * @return bool|null Returns the espace client.
      */
-    public function getEspaceClient() {
+    public function getEspaceClient(): ?bool {
         return $this->espaceClient;
     }
 
     /**
      * Get the fct absences cp.
      *
-     * @return bool Returns the fct absences cp.
+     * @return bool|null Returns the fct absences cp.
      */
-    public function getFctAbsencesCp() {
+    public function getFctAbsencesCp(): ?bool {
         return $this->fctAbsencesCp;
     }
 
     /**
      * Get the fct acomptes.
      *
-     * @return bool Returns the fct acomptes.
+     * @return bool|null Returns the fct acomptes.
      */
-    public function getFctAcomptes() {
+    public function getFctAcomptes(): ?bool {
         return $this->fctAcomptes;
     }
 
     /**
      * Get the fct archives.
      *
-     * @return bool Returns the fct archives.
+     * @return bool|null Returns the fct archives.
      */
-    public function getFctArchives() {
+    public function getFctArchives(): ?bool {
         return $this->fctArchives;
     }
 
     /**
      * Get the fct bulletins.
      *
-     * @return bool Returns the fct bulletins.
+     * @return bool|null Returns the fct bulletins.
      */
-    public function getFctBulletins() {
+    public function getFctBulletins(): ?bool {
         return $this->fctBulletins;
     }
 
     /**
      * Get the fct documents.
      *
-     * @return bool Returns the fct documents.
+     * @return bool|null Returns the fct documents.
      */
-    public function getFctDocuments() {
+    public function getFctDocuments(): ?bool {
         return $this->fctDocuments;
     }
 
     /**
      * Get the fct donnees v.
      *
-     * @return bool Returns the fct donnees v.
+     * @return bool|null Returns the fct donnees v.
      */
-    public function getFctDonneesV() {
+    public function getFctDonneesV(): ?bool {
         return $this->fctDonneesV;
     }
 
     /**
      * Get the fct etat civil.
      *
-     * @return bool Returns the fct etat civil.
+     * @return bool|null Returns the fct etat civil.
      */
-    public function getFctEtatCivil() {
+    public function getFctEtatCivil(): ?bool {
         return $this->fctEtatCivil;
     }
 
     /**
      * Get the fct modif absences cp.
      *
-     * @return bool Returns the fct modif absences cp.
+     * @return bool|null Returns the fct modif absences cp.
      */
-    public function getFctModifAbsencesCp() {
+    public function getFctModifAbsencesCp(): ?bool {
         return $this->fctModifAbsencesCp;
     }
 
     /**
      * Get the fct modif acomptes.
      *
-     * @return bool Returns the fct modif acomptes.
+     * @return bool|null Returns the fct modif acomptes.
      */
-    public function getFctModifAcomptes() {
+    public function getFctModifAcomptes(): ?bool {
         return $this->fctModifAcomptes;
     }
 
     /**
      * Get the fct modif archives.
      *
-     * @return bool Returns the fct modif archives.
+     * @return bool|null Returns the fct modif archives.
      */
-    public function getFctModifArchives() {
+    public function getFctModifArchives(): ?bool {
         return $this->fctModifArchives;
     }
 
     /**
      * Get the fct modif bulletins.
      *
-     * @return bool Returns the fct modif bulletins.
+     * @return bool|null Returns the fct modif bulletins.
      */
-    public function getFctModifBulletins() {
+    public function getFctModifBulletins(): ?bool {
         return $this->fctModifBulletins;
     }
 
     /**
      * Get the fct modif documents.
      *
-     * @return bool Returns the fct modif documents.
+     * @return bool|null Returns the fct modif documents.
      */
-    public function getFctModifDocuments() {
+    public function getFctModifDocuments(): ?bool {
         return $this->fctModifDocuments;
     }
 
     /**
      * Get the fct modif donnees v.
      *
-     * @return bool Returns the fct modif donnees v.
+     * @return bool|null Returns the fct modif donnees v.
      */
-    public function getFctModifDonneesV() {
+    public function getFctModifDonneesV(): ?bool {
         return $this->fctModifDonneesV;
     }
 
     /**
      * Get the fct modif etat civil.
      *
-     * @return bool Returns the fct modif etat civil.
+     * @return bool|null Returns the fct modif etat civil.
      */
-    public function getFctModifEtatCivil() {
+    public function getFctModifEtatCivil(): ?bool {
         return $this->fctModifEtatCivil;
     }
 
     /**
      * Get the flag.
      *
-     * @return string Returns the flag.
+     * @return string|null Returns the flag.
      */
-    public function getFlag() {
+    public function getFlag(): ?string {
         return $this->flag;
     }
 
     /**
      * Get the niveau conf.
      *
-     * @return string Returns the niveau conf.
+     * @return string|null Returns the niveau conf.
      */
-    public function getNiveauConf() {
+    public function getNiveauConf(): ?string {
         return $this->niveauConf;
     }
 
     /**
      * Get the no doss paie.
      *
-     * @return string Returns the no doss paie.
+     * @return string|null Returns the no doss paie.
      */
-    public function getNoDossPaie() {
+    public function getNoDossPaie(): ?string {
         return $this->noDossPaie;
     }
 
     /**
      * Get the nom user.
      *
-     * @return string Returns the nom user.
+     * @return string|null Returns the nom user.
      */
-    public function getNomUser() {
+    public function getNomUser(): ?string {
         return $this->nomUser;
     }
 
     /**
      * Get the numi key.
      *
-     * @return string Returns the numi key.
+     * @return string|null Returns the numi key.
      */
-    public function getNumiKey() {
+    public function getNumiKey(): ?string {
         return $this->numiKey;
     }
 
     /**
      * Get the password.
      *
-     * @return string Returns the password.
+     * @return string|null Returns the password.
      */
-    public function getPassword() {
+    public function getPassword(): ?string {
         return $this->password;
     }
 
     /**
      * Get the user expert.
      *
-     * @return bool Returns the user expert.
+     * @return bool|null Returns the user expert.
      */
-    public function getUserExpert() {
+    public function getUserExpert(): ?bool {
         return $this->userExpert;
     }
 
     /**
      * Get the visu salaires.
      *
-     * @return bool Returns the visu salaires.
+     * @return bool|null Returns the visu salaires.
      */
-    public function getVisuSalaires() {
+    public function getVisuSalaires(): ?bool {
         return $this->visuSalaires;
     }
 
     /**
      * Set the code collab messages.
      *
-     * @param string $codeCollabMessages The code collab messages.
+     * @param string|null $codeCollabMessages The code collab messages.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setCodeCollabMessages($codeCollabMessages) {
+    public function setCodeCollabMessages(?string $codeCollabMessages): iPaieDroits {
         $this->codeCollabMessages = $codeCollabMessages;
         return $this;
     }
@@ -440,10 +440,10 @@ class iPaieDroits {
     /**
      * Set the code user.
      *
-     * @param string $codeUser The code user.
+     * @param string|null $codeUser The code user.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setCodeUser($codeUser) {
+    public function setCodeUser(?string $codeUser): iPaieDroits {
         $this->codeUser = $codeUser;
         return $this;
     }
@@ -451,10 +451,10 @@ class iPaieDroits {
     /**
      * Set the espace client.
      *
-     * @param bool $espaceClient The espace client.
+     * @param bool|null $espaceClient The espace client.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setEspaceClient($espaceClient) {
+    public function setEspaceClient(?bool $espaceClient): iPaieDroits {
         $this->espaceClient = $espaceClient;
         return $this;
     }
@@ -462,10 +462,10 @@ class iPaieDroits {
     /**
      * Set the fct absences cp.
      *
-     * @param bool $fctAbsencesCp The fct absences cp.
+     * @param bool|null $fctAbsencesCp The fct absences cp.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctAbsencesCp($fctAbsencesCp) {
+    public function setFctAbsencesCp(?bool $fctAbsencesCp): iPaieDroits {
         $this->fctAbsencesCp = $fctAbsencesCp;
         return $this;
     }
@@ -473,10 +473,10 @@ class iPaieDroits {
     /**
      * Set the fct acomptes.
      *
-     * @param bool $fctAcomptes The fct acomptes.
+     * @param bool|null $fctAcomptes The fct acomptes.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctAcomptes($fctAcomptes) {
+    public function setFctAcomptes(?bool $fctAcomptes): iPaieDroits {
         $this->fctAcomptes = $fctAcomptes;
         return $this;
     }
@@ -484,10 +484,10 @@ class iPaieDroits {
     /**
      * Set the fct archives.
      *
-     * @param bool $fctArchives The fct archives.
+     * @param bool|null $fctArchives The fct archives.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctArchives($fctArchives) {
+    public function setFctArchives(?bool $fctArchives): iPaieDroits {
         $this->fctArchives = $fctArchives;
         return $this;
     }
@@ -495,10 +495,10 @@ class iPaieDroits {
     /**
      * Set the fct bulletins.
      *
-     * @param bool $fctBulletins The fct bulletins.
+     * @param bool|null $fctBulletins The fct bulletins.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctBulletins($fctBulletins) {
+    public function setFctBulletins(?bool $fctBulletins): iPaieDroits {
         $this->fctBulletins = $fctBulletins;
         return $this;
     }
@@ -506,10 +506,10 @@ class iPaieDroits {
     /**
      * Set the fct documents.
      *
-     * @param bool $fctDocuments The fct documents.
+     * @param bool|null $fctDocuments The fct documents.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctDocuments($fctDocuments) {
+    public function setFctDocuments(?bool $fctDocuments): iPaieDroits {
         $this->fctDocuments = $fctDocuments;
         return $this;
     }
@@ -517,10 +517,10 @@ class iPaieDroits {
     /**
      * Set the fct donnees v.
      *
-     * @param bool $fctDonneesV The fct donnees v.
+     * @param bool|null $fctDonneesV The fct donnees v.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctDonneesV($fctDonneesV) {
+    public function setFctDonneesV(?bool $fctDonneesV): iPaieDroits {
         $this->fctDonneesV = $fctDonneesV;
         return $this;
     }
@@ -528,10 +528,10 @@ class iPaieDroits {
     /**
      * Set the fct etat civil.
      *
-     * @param bool $fctEtatCivil The fct etat civil.
+     * @param bool|null $fctEtatCivil The fct etat civil.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctEtatCivil($fctEtatCivil) {
+    public function setFctEtatCivil(?bool $fctEtatCivil): iPaieDroits {
         $this->fctEtatCivil = $fctEtatCivil;
         return $this;
     }
@@ -539,10 +539,10 @@ class iPaieDroits {
     /**
      * Set the fct modif absences cp.
      *
-     * @param bool $fctModifAbsencesCp The fct modif absences cp.
+     * @param bool|null $fctModifAbsencesCp The fct modif absences cp.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifAbsencesCp($fctModifAbsencesCp) {
+    public function setFctModifAbsencesCp(?bool $fctModifAbsencesCp): iPaieDroits {
         $this->fctModifAbsencesCp = $fctModifAbsencesCp;
         return $this;
     }
@@ -550,10 +550,10 @@ class iPaieDroits {
     /**
      * Set the fct modif acomptes.
      *
-     * @param bool $fctModifAcomptes The fct modif acomptes.
+     * @param bool|null $fctModifAcomptes The fct modif acomptes.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifAcomptes($fctModifAcomptes) {
+    public function setFctModifAcomptes(?bool $fctModifAcomptes): iPaieDroits {
         $this->fctModifAcomptes = $fctModifAcomptes;
         return $this;
     }
@@ -561,10 +561,10 @@ class iPaieDroits {
     /**
      * Set the fct modif archives.
      *
-     * @param bool $fctModifArchives The fct modif archives.
+     * @param bool|null $fctModifArchives The fct modif archives.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifArchives($fctModifArchives) {
+    public function setFctModifArchives(?bool $fctModifArchives): iPaieDroits {
         $this->fctModifArchives = $fctModifArchives;
         return $this;
     }
@@ -572,10 +572,10 @@ class iPaieDroits {
     /**
      * Set the fct modif bulletins.
      *
-     * @param bool $fctModifBulletins The fct modif bulletins.
+     * @param bool|null $fctModifBulletins The fct modif bulletins.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifBulletins($fctModifBulletins) {
+    public function setFctModifBulletins(?bool $fctModifBulletins): iPaieDroits {
         $this->fctModifBulletins = $fctModifBulletins;
         return $this;
     }
@@ -583,10 +583,10 @@ class iPaieDroits {
     /**
      * Set the fct modif documents.
      *
-     * @param bool $fctModifDocuments The fct modif documents.
+     * @param bool|null $fctModifDocuments The fct modif documents.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifDocuments($fctModifDocuments) {
+    public function setFctModifDocuments(?bool $fctModifDocuments): iPaieDroits {
         $this->fctModifDocuments = $fctModifDocuments;
         return $this;
     }
@@ -594,10 +594,10 @@ class iPaieDroits {
     /**
      * Set the fct modif donnees v.
      *
-     * @param bool $fctModifDonneesV The fct modif donnees v.
+     * @param bool|null $fctModifDonneesV The fct modif donnees v.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifDonneesV($fctModifDonneesV) {
+    public function setFctModifDonneesV(?bool $fctModifDonneesV): iPaieDroits {
         $this->fctModifDonneesV = $fctModifDonneesV;
         return $this;
     }
@@ -605,10 +605,10 @@ class iPaieDroits {
     /**
      * Set the fct modif etat civil.
      *
-     * @param bool $fctModifEtatCivil The fct modif etat civil.
+     * @param bool|null $fctModifEtatCivil The fct modif etat civil.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFctModifEtatCivil($fctModifEtatCivil) {
+    public function setFctModifEtatCivil(?bool $fctModifEtatCivil): iPaieDroits {
         $this->fctModifEtatCivil = $fctModifEtatCivil;
         return $this;
     }
@@ -616,10 +616,10 @@ class iPaieDroits {
     /**
      * Set the flag.
      *
-     * @param string $flag The flag.
+     * @param string|null $flag The flag.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setFlag($flag) {
+    public function setFlag(?string $flag): iPaieDroits {
         $this->flag = $flag;
         return $this;
     }
@@ -627,10 +627,10 @@ class iPaieDroits {
     /**
      * Set the niveau conf.
      *
-     * @param string $niveauConf The niveau conf.
+     * @param string|null $niveauConf The niveau conf.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setNiveauConf($niveauConf) {
+    public function setNiveauConf(?string $niveauConf): iPaieDroits {
         $this->niveauConf = $niveauConf;
         return $this;
     }
@@ -638,10 +638,10 @@ class iPaieDroits {
     /**
      * Set the no doss paie.
      *
-     * @param string $noDossPaie The no doss paie.
+     * @param string|null $noDossPaie The no doss paie.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setNoDossPaie($noDossPaie) {
+    public function setNoDossPaie(?string $noDossPaie): iPaieDroits {
         $this->noDossPaie = $noDossPaie;
         return $this;
     }
@@ -649,10 +649,10 @@ class iPaieDroits {
     /**
      * Set the nom user.
      *
-     * @param string $nomUser The nom user.
+     * @param string|null $nomUser The nom user.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setNomUser($nomUser) {
+    public function setNomUser(?string $nomUser): iPaieDroits {
         $this->nomUser = $nomUser;
         return $this;
     }
@@ -660,10 +660,10 @@ class iPaieDroits {
     /**
      * Set the numi key.
      *
-     * @param string $numiKey The numi key.
+     * @param string|null $numiKey The numi key.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setNumiKey($numiKey) {
+    public function setNumiKey(?string $numiKey): iPaieDroits {
         $this->numiKey = $numiKey;
         return $this;
     }
@@ -671,10 +671,10 @@ class iPaieDroits {
     /**
      * Set the password.
      *
-     * @param string $password The password.
+     * @param string|null $password The password.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setPassword($password) {
+    public function setPassword(?string $password): iPaieDroits {
         $this->password = $password;
         return $this;
     }
@@ -682,10 +682,10 @@ class iPaieDroits {
     /**
      * Set the user expert.
      *
-     * @param bool $userExpert The user expert.
+     * @param bool|null $userExpert The user expert.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setUserExpert($userExpert) {
+    public function setUserExpert(?bool $userExpert): iPaieDroits {
         $this->userExpert = $userExpert;
         return $this;
     }
@@ -693,10 +693,10 @@ class iPaieDroits {
     /**
      * Set the visu salaires.
      *
-     * @param bool $visuSalaires The visu salaires.
+     * @param bool|null $visuSalaires The visu salaires.
      * @return iPaieDroits Returns this i paie droits.
      */
-    public function setVisuSalaires($visuSalaires) {
+    public function setVisuSalaires(?bool $visuSalaires): iPaieDroits {
         $this->visuSalaires = $visuSalaires;
         return $this;
     }

@@ -22,25 +22,25 @@ trait StringAddresseeTrait {
     /**
      * Addressee.
      *
-     * @var string
+     * @var string|null
      */
     protected $addressee;
 
     /**
      * Get the addressee.
      *
-     * @return string Returns the addressee.
+     * @return string|null Returns the addressee.
      */
-    public function getAddressee() {
+    public function getAddressee(): ?string {
         return $this->addressee;
     }
 
     /**
      * Set the addressee.
      *
-     * @param string $addressee The addressee.
+     * @param string|null $addressee The addressee.
      */
-    public function setAddressee($addressee) {
+    public function setAddressee(?string $addressee) {
         $this->addressee = $addressee;
         return $this;
     }

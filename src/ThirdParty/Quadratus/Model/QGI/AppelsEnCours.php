@@ -24,63 +24,63 @@ class AppelsEnCours {
     /**
      * Avec mise en somm.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avecMiseEnSomm;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur dest.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurDest;
 
     /**
      * Code collaborateur entrant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurEntrant;
 
     /**
      * Code collaborateur redir.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurRedir;
 
     /**
      * Code produit.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProduit;
 
     /**
      * Compteur temps.
      *
-     * @var int
+     * @var int|null
      */
     private $compteurTemps;
 
     /**
      * Confidentiel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $confidentiel;
 
     /**
      * Consequence.
      *
-     * @var string
+     * @var string|null
      */
     private $consequence;
 
@@ -115,56 +115,56 @@ class AppelsEnCours {
     /**
      * Demande ar.
      *
-     * @var bool
+     * @var bool|null
      */
     private $demandeAr;
 
     /**
      * Destinataires a.
      *
-     * @var string
+     * @var string|null
      */
     private $destinatairesA;
 
     /**
      * Destinataires cc.
      *
-     * @var string
+     * @var string|null
      */
     private $destinatairesCc;
 
     /**
      * Email auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $emailAuteur;
 
     /**
      * Groupe qualifiant.
      *
-     * @var string
+     * @var string|null
      */
     private $groupeQualifiant;
 
     /**
      * Id appel.
      *
-     * @var int
+     * @var int|null
      */
     private $idAppel;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Message lu.
      *
-     * @var bool
+     * @var bool|null
      */
     private $messageLu;
 
@@ -178,84 +178,84 @@ class AppelsEnCours {
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Nb appels en cours.
      *
-     * @var int
+     * @var int|null
      */
     private $nbAppelsEnCours;
 
     /**
      * Nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $nomClient;
 
     /**
      * Origine.
      *
-     * @var string
+     * @var string|null
      */
     private $origine;
 
     /**
      * Piece jointe.
      *
-     * @var string
+     * @var string|null
      */
     private $pieceJointe;
 
     /**
      * Reponse.
      *
-     * @var string
+     * @var string|null
      */
     private $reponse;
 
     /**
      * Sous rep ref guid.
      *
-     * @var string
+     * @var string|null
      */
     private $sousRepRefGuid;
 
     /**
      * Special.
      *
-     * @var string
+     * @var string|null
      */
     private $special;
 
     /**
      * Tel.
      *
-     * @var string
+     * @var string|null
      */
     private $tel;
 
     /**
      * Type message.
      *
-     * @var string
+     * @var string|null
      */
     private $typeMessage;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
     /**
      * Urgent.
      *
-     * @var bool
+     * @var bool|null
      */
     private $urgent;
 
@@ -263,87 +263,87 @@ class AppelsEnCours {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the avec mise en somm.
      *
-     * @return bool Returns the avec mise en somm.
+     * @return bool|null Returns the avec mise en somm.
      */
-    public function getAvecMiseEnSomm() {
+    public function getAvecMiseEnSomm(): ?bool {
         return $this->avecMiseEnSomm;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur dest.
      *
-     * @return string Returns the code collaborateur dest.
+     * @return string|null Returns the code collaborateur dest.
      */
-    public function getCodeCollaborateurDest() {
+    public function getCodeCollaborateurDest(): ?string {
         return $this->codeCollaborateurDest;
     }
 
     /**
      * Get the code collaborateur entrant.
      *
-     * @return string Returns the code collaborateur entrant.
+     * @return string|null Returns the code collaborateur entrant.
      */
-    public function getCodeCollaborateurEntrant() {
+    public function getCodeCollaborateurEntrant(): ?string {
         return $this->codeCollaborateurEntrant;
     }
 
     /**
      * Get the code collaborateur redir.
      *
-     * @return string Returns the code collaborateur redir.
+     * @return string|null Returns the code collaborateur redir.
      */
-    public function getCodeCollaborateurRedir() {
+    public function getCodeCollaborateurRedir(): ?string {
         return $this->codeCollaborateurRedir;
     }
 
     /**
      * Get the code produit.
      *
-     * @return string Returns the code produit.
+     * @return string|null Returns the code produit.
      */
-    public function getCodeProduit() {
+    public function getCodeProduit(): ?string {
         return $this->codeProduit;
     }
 
     /**
      * Get the compteur temps.
      *
-     * @return int Returns the compteur temps.
+     * @return int|null Returns the compteur temps.
      */
-    public function getCompteurTemps() {
+    public function getCompteurTemps(): ?int {
         return $this->compteurTemps;
     }
 
     /**
      * Get the confidentiel.
      *
-     * @return bool Returns the confidentiel.
+     * @return bool|null Returns the confidentiel.
      */
-    public function getConfidentiel() {
+    public function getConfidentiel(): ?bool {
         return $this->confidentiel;
     }
 
     /**
      * Get the consequence.
      *
-     * @return string Returns the consequence.
+     * @return string|null Returns the consequence.
      */
-    public function getConsequence() {
+    public function getConsequence(): ?string {
         return $this->consequence;
     }
 
@@ -352,7 +352,7 @@ class AppelsEnCours {
      *
      * @return DateTime|null Returns the date creation client.
      */
-    public function getDateCreationClient() {
+    public function getDateCreationClient(): ?DateTime {
         return $this->dateCreationClient;
     }
 
@@ -361,7 +361,7 @@ class AppelsEnCours {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree() {
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -370,7 +370,7 @@ class AppelsEnCours {
      *
      * @return DateTime|null Returns the date message lu.
      */
-    public function getDateMessageLu() {
+    public function getDateMessageLu(): ?DateTime {
         return $this->dateMessageLu;
     }
 
@@ -379,79 +379,79 @@ class AppelsEnCours {
      *
      * @return DateTime|null Returns the date redir.
      */
-    public function getDateRedir() {
+    public function getDateRedir(): ?DateTime {
         return $this->dateRedir;
     }
 
     /**
      * Get the demande ar.
      *
-     * @return bool Returns the demande ar.
+     * @return bool|null Returns the demande ar.
      */
-    public function getDemandeAr() {
+    public function getDemandeAr(): ?bool {
         return $this->demandeAr;
     }
 
     /**
      * Get the destinataires a.
      *
-     * @return string Returns the destinataires a.
+     * @return string|null Returns the destinataires a.
      */
-    public function getDestinatairesA() {
+    public function getDestinatairesA(): ?string {
         return $this->destinatairesA;
     }
 
     /**
      * Get the destinataires cc.
      *
-     * @return string Returns the destinataires cc.
+     * @return string|null Returns the destinataires cc.
      */
-    public function getDestinatairesCc() {
+    public function getDestinatairesCc(): ?string {
         return $this->destinatairesCc;
     }
 
     /**
      * Get the email auteur.
      *
-     * @return string Returns the email auteur.
+     * @return string|null Returns the email auteur.
      */
-    public function getEmailAuteur() {
+    public function getEmailAuteur(): ?string {
         return $this->emailAuteur;
     }
 
     /**
      * Get the groupe qualifiant.
      *
-     * @return string Returns the groupe qualifiant.
+     * @return string|null Returns the groupe qualifiant.
      */
-    public function getGroupeQualifiant() {
+    public function getGroupeQualifiant(): ?string {
         return $this->groupeQualifiant;
     }
 
     /**
      * Get the id appel.
      *
-     * @return int Returns the id appel.
+     * @return int|null Returns the id appel.
      */
-    public function getIdAppel() {
+    public function getIdAppel(): ?int {
         return $this->idAppel;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
     /**
      * Get the message lu.
      *
-     * @return bool Returns the message lu.
+     * @return bool|null Returns the message lu.
      */
-    public function getMessageLu() {
+    public function getMessageLu(): ?bool {
         return $this->messageLu;
     }
 
@@ -460,125 +460,125 @@ class AppelsEnCours {
      *
      * @return DateTime|null Returns the mise en somm date heure.
      */
-    public function getMiseEnSommDateHeure() {
+    public function getMiseEnSommDateHeure(): ?DateTime {
         return $this->miseEnSommDateHeure;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string {
         return $this->nature;
     }
 
     /**
      * Get the nb appels en cours.
      *
-     * @return int Returns the nb appels en cours.
+     * @return int|null Returns the nb appels en cours.
      */
-    public function getNbAppelsEnCours() {
+    public function getNbAppelsEnCours(): ?int {
         return $this->nbAppelsEnCours;
     }
 
     /**
      * Get the nom client.
      *
-     * @return string Returns the nom client.
+     * @return string|null Returns the nom client.
      */
-    public function getNomClient() {
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
     /**
      * Get the origine.
      *
-     * @return string Returns the origine.
+     * @return string|null Returns the origine.
      */
-    public function getOrigine() {
+    public function getOrigine(): ?string {
         return $this->origine;
     }
 
     /**
      * Get the piece jointe.
      *
-     * @return string Returns the piece jointe.
+     * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe() {
+    public function getPieceJointe(): ?string {
         return $this->pieceJointe;
     }
 
     /**
      * Get the reponse.
      *
-     * @return string Returns the reponse.
+     * @return string|null Returns the reponse.
      */
-    public function getReponse() {
+    public function getReponse(): ?string {
         return $this->reponse;
     }
 
     /**
      * Get the sous rep ref guid.
      *
-     * @return string Returns the sous rep ref guid.
+     * @return string|null Returns the sous rep ref guid.
      */
-    public function getSousRepRefGuid() {
+    public function getSousRepRefGuid(): ?string {
         return $this->sousRepRefGuid;
     }
 
     /**
      * Get the special.
      *
-     * @return string Returns the special.
+     * @return string|null Returns the special.
      */
-    public function getSpecial() {
+    public function getSpecial(): ?string {
         return $this->special;
     }
 
     /**
      * Get the tel.
      *
-     * @return string Returns the tel.
+     * @return string|null Returns the tel.
      */
-    public function getTel() {
+    public function getTel(): ?string {
         return $this->tel;
     }
 
     /**
      * Get the type message.
      *
-     * @return string Returns the type message.
+     * @return string|null Returns the type message.
      */
-    public function getTypeMessage() {
+    public function getTypeMessage(): ?string {
         return $this->typeMessage;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
     /**
      * Get the urgent.
      *
-     * @return bool Returns the urgent.
+     * @return bool|null Returns the urgent.
      */
-    public function getUrgent() {
+    public function getUrgent(): ?bool {
         return $this->urgent;
     }
 
     /**
      * Set the avec mise en somm.
      *
-     * @param bool $avecMiseEnSomm The avec mise en somm.
+     * @param bool|null $avecMiseEnSomm The avec mise en somm.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setAvecMiseEnSomm($avecMiseEnSomm) {
+    public function setAvecMiseEnSomm(?bool $avecMiseEnSomm): AppelsEnCours {
         $this->avecMiseEnSomm = $avecMiseEnSomm;
         return $this;
     }
@@ -586,10 +586,10 @@ class AppelsEnCours {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): AppelsEnCours {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -597,10 +597,10 @@ class AppelsEnCours {
     /**
      * Set the code collaborateur dest.
      *
-     * @param string $codeCollaborateurDest The code collaborateur dest.
+     * @param string|null $codeCollaborateurDest The code collaborateur dest.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setCodeCollaborateurDest($codeCollaborateurDest) {
+    public function setCodeCollaborateurDest(?string $codeCollaborateurDest): AppelsEnCours {
         $this->codeCollaborateurDest = $codeCollaborateurDest;
         return $this;
     }
@@ -608,10 +608,10 @@ class AppelsEnCours {
     /**
      * Set the code collaborateur entrant.
      *
-     * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     * @param string|null $codeCollaborateurEntrant The code collaborateur entrant.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
+    public function setCodeCollaborateurEntrant(?string $codeCollaborateurEntrant): AppelsEnCours {
         $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
         return $this;
     }
@@ -619,10 +619,10 @@ class AppelsEnCours {
     /**
      * Set the code collaborateur redir.
      *
-     * @param string $codeCollaborateurRedir The code collaborateur redir.
+     * @param string|null $codeCollaborateurRedir The code collaborateur redir.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setCodeCollaborateurRedir($codeCollaborateurRedir) {
+    public function setCodeCollaborateurRedir(?string $codeCollaborateurRedir): AppelsEnCours {
         $this->codeCollaborateurRedir = $codeCollaborateurRedir;
         return $this;
     }
@@ -630,10 +630,10 @@ class AppelsEnCours {
     /**
      * Set the code produit.
      *
-     * @param string $codeProduit The code produit.
+     * @param string|null $codeProduit The code produit.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setCodeProduit($codeProduit) {
+    public function setCodeProduit(?string $codeProduit): AppelsEnCours {
         $this->codeProduit = $codeProduit;
         return $this;
     }
@@ -641,10 +641,10 @@ class AppelsEnCours {
     /**
      * Set the compteur temps.
      *
-     * @param int $compteurTemps The compteur temps.
+     * @param int|null $compteurTemps The compteur temps.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setCompteurTemps($compteurTemps) {
+    public function setCompteurTemps(?int $compteurTemps): AppelsEnCours {
         $this->compteurTemps = $compteurTemps;
         return $this;
     }
@@ -652,10 +652,10 @@ class AppelsEnCours {
     /**
      * Set the confidentiel.
      *
-     * @param bool $confidentiel The confidentiel.
+     * @param bool|null $confidentiel The confidentiel.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setConfidentiel($confidentiel) {
+    public function setConfidentiel(?bool $confidentiel): AppelsEnCours {
         $this->confidentiel = $confidentiel;
         return $this;
     }
@@ -663,10 +663,10 @@ class AppelsEnCours {
     /**
      * Set the consequence.
      *
-     * @param string $consequence The consequence.
+     * @param string|null $consequence The consequence.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setConsequence($consequence) {
+    public function setConsequence(?string $consequence): AppelsEnCours {
         $this->consequence = $consequence;
         return $this;
     }
@@ -677,7 +677,7 @@ class AppelsEnCours {
      * @param DateTime|null $dateCreationClient The date creation client.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDateCreationClient(DateTime $dateCreationClient = null) {
+    public function setDateCreationClient(?DateTime $dateCreationClient): AppelsEnCours {
         $this->dateCreationClient = $dateCreationClient;
         return $this;
     }
@@ -688,7 +688,7 @@ class AppelsEnCours {
      * @param DateTime|null $dateEntree The date entree.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDateEntree(DateTime $dateEntree = null) {
+    public function setDateEntree(?DateTime $dateEntree): AppelsEnCours {
         $this->dateEntree = $dateEntree;
         return $this;
     }
@@ -699,7 +699,7 @@ class AppelsEnCours {
      * @param DateTime|null $dateMessageLu The date message lu.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDateMessageLu(DateTime $dateMessageLu = null) {
+    public function setDateMessageLu(?DateTime $dateMessageLu): AppelsEnCours {
         $this->dateMessageLu = $dateMessageLu;
         return $this;
     }
@@ -710,7 +710,7 @@ class AppelsEnCours {
      * @param DateTime|null $dateRedir The date redir.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDateRedir(DateTime $dateRedir = null) {
+    public function setDateRedir(?DateTime $dateRedir): AppelsEnCours {
         $this->dateRedir = $dateRedir;
         return $this;
     }
@@ -718,10 +718,10 @@ class AppelsEnCours {
     /**
      * Set the demande ar.
      *
-     * @param bool $demandeAr The demande ar.
+     * @param bool|null $demandeAr The demande ar.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDemandeAr($demandeAr) {
+    public function setDemandeAr(?bool $demandeAr): AppelsEnCours {
         $this->demandeAr = $demandeAr;
         return $this;
     }
@@ -729,10 +729,10 @@ class AppelsEnCours {
     /**
      * Set the destinataires a.
      *
-     * @param string $destinatairesA The destinataires a.
+     * @param string|null $destinatairesA The destinataires a.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDestinatairesA($destinatairesA) {
+    public function setDestinatairesA(?string $destinatairesA): AppelsEnCours {
         $this->destinatairesA = $destinatairesA;
         return $this;
     }
@@ -740,10 +740,10 @@ class AppelsEnCours {
     /**
      * Set the destinataires cc.
      *
-     * @param string $destinatairesCc The destinataires cc.
+     * @param string|null $destinatairesCc The destinataires cc.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setDestinatairesCc($destinatairesCc) {
+    public function setDestinatairesCc(?string $destinatairesCc): AppelsEnCours {
         $this->destinatairesCc = $destinatairesCc;
         return $this;
     }
@@ -751,10 +751,10 @@ class AppelsEnCours {
     /**
      * Set the email auteur.
      *
-     * @param string $emailAuteur The email auteur.
+     * @param string|null $emailAuteur The email auteur.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setEmailAuteur($emailAuteur) {
+    public function setEmailAuteur(?string $emailAuteur): AppelsEnCours {
         $this->emailAuteur = $emailAuteur;
         return $this;
     }
@@ -762,10 +762,10 @@ class AppelsEnCours {
     /**
      * Set the groupe qualifiant.
      *
-     * @param string $groupeQualifiant The groupe qualifiant.
+     * @param string|null $groupeQualifiant The groupe qualifiant.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setGroupeQualifiant($groupeQualifiant) {
+    public function setGroupeQualifiant(?string $groupeQualifiant): AppelsEnCours {
         $this->groupeQualifiant = $groupeQualifiant;
         return $this;
     }
@@ -773,10 +773,10 @@ class AppelsEnCours {
     /**
      * Set the id appel.
      *
-     * @param int $idAppel The id appel.
+     * @param int|null $idAppel The id appel.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setIdAppel($idAppel) {
+    public function setIdAppel(?int $idAppel): AppelsEnCours {
         $this->idAppel = $idAppel;
         return $this;
     }
@@ -784,10 +784,10 @@ class AppelsEnCours {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): AppelsEnCours {
         $this->intitule = $intitule;
         return $this;
     }
@@ -795,10 +795,10 @@ class AppelsEnCours {
     /**
      * Set the message lu.
      *
-     * @param bool $messageLu The message lu.
+     * @param bool|null $messageLu The message lu.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setMessageLu($messageLu) {
+    public function setMessageLu(?bool $messageLu): AppelsEnCours {
         $this->messageLu = $messageLu;
         return $this;
     }
@@ -809,7 +809,7 @@ class AppelsEnCours {
      * @param DateTime|null $miseEnSommDateHeure The mise en somm date heure.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setMiseEnSommDateHeure(DateTime $miseEnSommDateHeure = null) {
+    public function setMiseEnSommDateHeure(?DateTime $miseEnSommDateHeure): AppelsEnCours {
         $this->miseEnSommDateHeure = $miseEnSommDateHeure;
         return $this;
     }
@@ -817,10 +817,10 @@ class AppelsEnCours {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): AppelsEnCours {
         $this->nature = $nature;
         return $this;
     }
@@ -828,10 +828,10 @@ class AppelsEnCours {
     /**
      * Set the nb appels en cours.
      *
-     * @param int $nbAppelsEnCours The nb appels en cours.
+     * @param int|null $nbAppelsEnCours The nb appels en cours.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setNbAppelsEnCours($nbAppelsEnCours) {
+    public function setNbAppelsEnCours(?int $nbAppelsEnCours): AppelsEnCours {
         $this->nbAppelsEnCours = $nbAppelsEnCours;
         return $this;
     }
@@ -839,10 +839,10 @@ class AppelsEnCours {
     /**
      * Set the nom client.
      *
-     * @param string $nomClient The nom client.
+     * @param string|null $nomClient The nom client.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setNomClient($nomClient) {
+    public function setNomClient(?string $nomClient): AppelsEnCours {
         $this->nomClient = $nomClient;
         return $this;
     }
@@ -850,10 +850,10 @@ class AppelsEnCours {
     /**
      * Set the origine.
      *
-     * @param string $origine The origine.
+     * @param string|null $origine The origine.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setOrigine($origine) {
+    public function setOrigine(?string $origine): AppelsEnCours {
         $this->origine = $origine;
         return $this;
     }
@@ -861,10 +861,10 @@ class AppelsEnCours {
     /**
      * Set the piece jointe.
      *
-     * @param string $pieceJointe The piece jointe.
+     * @param string|null $pieceJointe The piece jointe.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setPieceJointe($pieceJointe) {
+    public function setPieceJointe(?string $pieceJointe): AppelsEnCours {
         $this->pieceJointe = $pieceJointe;
         return $this;
     }
@@ -872,10 +872,10 @@ class AppelsEnCours {
     /**
      * Set the reponse.
      *
-     * @param string $reponse The reponse.
+     * @param string|null $reponse The reponse.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setReponse($reponse) {
+    public function setReponse(?string $reponse): AppelsEnCours {
         $this->reponse = $reponse;
         return $this;
     }
@@ -883,10 +883,10 @@ class AppelsEnCours {
     /**
      * Set the sous rep ref guid.
      *
-     * @param string $sousRepRefGuid The sous rep ref guid.
+     * @param string|null $sousRepRefGuid The sous rep ref guid.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setSousRepRefGuid($sousRepRefGuid) {
+    public function setSousRepRefGuid(?string $sousRepRefGuid): AppelsEnCours {
         $this->sousRepRefGuid = $sousRepRefGuid;
         return $this;
     }
@@ -894,10 +894,10 @@ class AppelsEnCours {
     /**
      * Set the special.
      *
-     * @param string $special The special.
+     * @param string|null $special The special.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setSpecial($special) {
+    public function setSpecial(?string $special): AppelsEnCours {
         $this->special = $special;
         return $this;
     }
@@ -905,10 +905,10 @@ class AppelsEnCours {
     /**
      * Set the tel.
      *
-     * @param string $tel The tel.
+     * @param string|null $tel The tel.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setTel($tel) {
+    public function setTel(?string $tel): AppelsEnCours {
         $this->tel = $tel;
         return $this;
     }
@@ -916,10 +916,10 @@ class AppelsEnCours {
     /**
      * Set the type message.
      *
-     * @param string $typeMessage The type message.
+     * @param string|null $typeMessage The type message.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setTypeMessage($typeMessage) {
+    public function setTypeMessage(?string $typeMessage): AppelsEnCours {
         $this->typeMessage = $typeMessage;
         return $this;
     }
@@ -927,10 +927,10 @@ class AppelsEnCours {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): AppelsEnCours {
         $this->uniqId = $uniqId;
         return $this;
     }
@@ -938,10 +938,10 @@ class AppelsEnCours {
     /**
      * Set the urgent.
      *
-     * @param bool $urgent The urgent.
+     * @param bool|null $urgent The urgent.
      * @return AppelsEnCours Returns this Appels en cours.
      */
-    public function setUrgent($urgent) {
+    public function setUrgent(?bool $urgent): AppelsEnCours {
         $this->urgent = $urgent;
         return $this;
     }

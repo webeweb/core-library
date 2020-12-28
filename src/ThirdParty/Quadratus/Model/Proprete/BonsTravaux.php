@@ -22,254 +22,254 @@ use DateTime;
 class BonsTravaux {
 
     /**
+     * Ad btbtq.
+     *
+     * @var string|null
+     */
+    private $adBtbtq;
+
+    /**
      * Ad bt bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtBureauDistributeur;
 
     /**
      * Ad bt civilite.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtCivilite;
 
     /**
      * Ad bt code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtCodePays;
 
     /**
      * Ad bt code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtCodePostal;
 
     /**
      * Ad bt complement.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtComplement;
 
     /**
      * Ad bt nom.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtNom;
 
     /**
      * Ad bt nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtNomSuite;
 
     /**
      * Ad bt nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtNomVoie;
 
     /**
      * Ad bt num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adBtNumVoie;
 
     /**
-     * Ad btbtq.
+     * Ad fbtq.
      *
-     * @var string
+     * @var string|null
      */
-    private $adBtbtq;
+    private $adFbtq;
 
     /**
      * Ad f bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $adFBureauDistributeur;
 
     /**
      * Ad f civilite.
      *
-     * @var string
+     * @var string|null
      */
     private $adFCivilite;
 
     /**
      * Ad f code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $adFCodePays;
 
     /**
      * Ad f code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $adFCodePostal;
 
     /**
      * Ad f complement.
      *
-     * @var string
+     * @var string|null
      */
     private $adFComplement;
 
     /**
      * Ad f nom.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNom;
 
     /**
      * Ad f nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomSuite;
 
     /**
      * Ad f nom suite2.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomSuite2;
 
     /**
      * Ad f nom suite3.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomSuite3;
 
     /**
      * Ad f nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNomVoie;
 
     /**
      * Ad f num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $adFNumVoie;
 
     /**
-     * Ad fbtq.
-     *
-     * @var string
-     */
-    private $adFbtq;
-
-    /**
      * Adresse bt saisie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $adresseBtSaisie;
 
     /**
      * Adresse facturation saisie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $adresseFacturationSaisie;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFrequence;
 
     /**
      * Code tache bt.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTacheBt;
 
     /**
      * Code tournee.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTournee;
 
     /**
      * Critere liste1.
      *
-     * @var string
+     * @var string|null
      */
     private $critereListe1;
 
     /**
      * Critere liste2.
      *
-     * @var string
+     * @var string|null
      */
     private $critereListe2;
 
     /**
      * Critere numerique1.
      *
-     * @var float
+     * @var float|null
      */
     private $critereNumerique1;
 
     /**
      * Critere numerique2.
      *
-     * @var float
+     * @var float|null
      */
     private $critereNumerique2;
 
     /**
      * Critere texte1.
      *
-     * @var string
+     * @var string|null
      */
     private $critereTexte1;
 
     /**
      * Critere texte2.
      *
-     * @var string
+     * @var string|null
      */
     private $critereTexte2;
 
@@ -304,35 +304,35 @@ class BonsTravaux {
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     private $description;
 
     /**
      * Equipe.
      *
-     * @var string
+     * @var string|null
      */
     private $equipe;
 
     /**
      * Frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $frequence;
 
     /**
      * Frequence suite.
      *
-     * @var string
+     * @var string|null
      */
     private $frequenceSuite;
 
     /**
      * Gestion planning.
      *
-     * @var bool
+     * @var bool|null
      */
     private $gestionPlanning;
 
@@ -346,422 +346,423 @@ class BonsTravaux {
     /**
      * Latitude.
      *
-     * @var float
+     * @var float|null
      */
     private $latitude;
 
     /**
      * Longitude.
      *
-     * @var float
+     * @var float|null
      */
     private $longitude;
 
     /**
      * Mention speciale.
      *
-     * @var string
+     * @var string|null
      */
     private $mentionSpeciale;
 
     /**
      * Nb heures.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures;
 
     /**
      * Nb jours.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJours;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Saisie inter jour.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisieInterJour;
 
     /**
      * Travaille dimanche.
      *
-     * @var bool
+     * @var bool|null
      */
     private $travailleDimanche;
 
     /**
      * Travaille jours feries.
      *
-     * @var bool
+     * @var bool|null
      */
     private $travailleJoursFeries;
 
     /**
      * Travaille samedi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $travailleSamedi;
 
     /**
      * Type frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $typeFrequence;
 
     /**
      * Un bon par mois.
      *
-     * @var bool
+     * @var bool|null
      */
     private $unBonParMois;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
+    }
+
+    /**
+     * Get the ad btbtq.
+     *
+     * @return string|null Returns the ad btbtq.
+     */
+    public function getAdBtbtq(): ?string{
+        return $this->adBtbtq;
     }
 
     /**
      * Get the ad bt bureau distributeur.
      *
-     * @return string Returns the ad bt bureau distributeur.
+     * @return string|null Returns the ad bt bureau distributeur.
      */
-    public function getAdBtBureauDistributeur() {
+    public function getAdBtBureauDistributeur(): ?string{
         return $this->adBtBureauDistributeur;
     }
 
     /**
      * Get the ad bt civilite.
      *
-     * @return string Returns the ad bt civilite.
+     * @return string|null Returns the ad bt civilite.
      */
-    public function getAdBtCivilite() {
+    public function getAdBtCivilite(): ?string{
         return $this->adBtCivilite;
     }
 
     /**
      * Get the ad bt code pays.
      *
-     * @return string Returns the ad bt code pays.
+     * @return string|null Returns the ad bt code pays.
      */
-    public function getAdBtCodePays() {
+    public function getAdBtCodePays(): ?string{
         return $this->adBtCodePays;
     }
 
     /**
      * Get the ad bt code postal.
      *
-     * @return string Returns the ad bt code postal.
+     * @return string|null Returns the ad bt code postal.
      */
-    public function getAdBtCodePostal() {
+    public function getAdBtCodePostal(): ?string{
         return $this->adBtCodePostal;
     }
 
     /**
      * Get the ad bt complement.
      *
-     * @return string Returns the ad bt complement.
+     * @return string|null Returns the ad bt complement.
      */
-    public function getAdBtComplement() {
+    public function getAdBtComplement(): ?string{
         return $this->adBtComplement;
     }
 
     /**
      * Get the ad bt nom.
      *
-     * @return string Returns the ad bt nom.
+     * @return string|null Returns the ad bt nom.
      */
-    public function getAdBtNom() {
+    public function getAdBtNom(): ?string{
         return $this->adBtNom;
     }
 
     /**
      * Get the ad bt nom suite.
      *
-     * @return string Returns the ad bt nom suite.
+     * @return string|null Returns the ad bt nom suite.
      */
-    public function getAdBtNomSuite() {
+    public function getAdBtNomSuite(): ?string{
         return $this->adBtNomSuite;
     }
 
     /**
      * Get the ad bt nom voie.
      *
-     * @return string Returns the ad bt nom voie.
+     * @return string|null Returns the ad bt nom voie.
      */
-    public function getAdBtNomVoie() {
+    public function getAdBtNomVoie(): ?string{
         return $this->adBtNomVoie;
     }
 
     /**
      * Get the ad bt num voie.
      *
-     * @return string Returns the ad bt num voie.
+     * @return string|null Returns the ad bt num voie.
      */
-    public function getAdBtNumVoie() {
+    public function getAdBtNumVoie(): ?string{
         return $this->adBtNumVoie;
     }
 
     /**
-     * Get the ad btbtq.
+     * Get the ad fbtq.
      *
-     * @return string Returns the ad btbtq.
+     * @return string|null Returns the ad fbtq.
      */
-    public function getAdBtbtq() {
-        return $this->adBtbtq;
+    public function getAdFbtq(): ?string{
+        return $this->adFbtq;
     }
 
     /**
      * Get the ad f bureau distributeur.
      *
-     * @return string Returns the ad f bureau distributeur.
+     * @return string|null Returns the ad f bureau distributeur.
      */
-    public function getAdFBureauDistributeur() {
+    public function getAdFBureauDistributeur(): ?string{
         return $this->adFBureauDistributeur;
     }
 
     /**
      * Get the ad f civilite.
      *
-     * @return string Returns the ad f civilite.
+     * @return string|null Returns the ad f civilite.
      */
-    public function getAdFCivilite() {
+    public function getAdFCivilite(): ?string{
         return $this->adFCivilite;
     }
 
     /**
      * Get the ad f code pays.
      *
-     * @return string Returns the ad f code pays.
+     * @return string|null Returns the ad f code pays.
      */
-    public function getAdFCodePays() {
+    public function getAdFCodePays(): ?string{
         return $this->adFCodePays;
     }
 
     /**
      * Get the ad f code postal.
      *
-     * @return string Returns the ad f code postal.
+     * @return string|null Returns the ad f code postal.
      */
-    public function getAdFCodePostal() {
+    public function getAdFCodePostal(): ?string{
         return $this->adFCodePostal;
     }
 
     /**
      * Get the ad f complement.
      *
-     * @return string Returns the ad f complement.
+     * @return string|null Returns the ad f complement.
      */
-    public function getAdFComplement() {
+    public function getAdFComplement(): ?string{
         return $this->adFComplement;
     }
 
     /**
      * Get the ad f nom.
      *
-     * @return string Returns the ad f nom.
+     * @return string|null Returns the ad f nom.
      */
-    public function getAdFNom() {
+    public function getAdFNom(): ?string{
         return $this->adFNom;
     }
 
     /**
      * Get the ad f nom suite.
      *
-     * @return string Returns the ad f nom suite.
+     * @return string|null Returns the ad f nom suite.
      */
-    public function getAdFNomSuite() {
+    public function getAdFNomSuite(): ?string{
         return $this->adFNomSuite;
     }
 
     /**
      * Get the ad f nom suite2.
      *
-     * @return string Returns the ad f nom suite2.
+     * @return string|null Returns the ad f nom suite2.
      */
-    public function getAdFNomSuite2() {
+    public function getAdFNomSuite2(): ?string{
         return $this->adFNomSuite2;
     }
 
     /**
      * Get the ad f nom suite3.
      *
-     * @return string Returns the ad f nom suite3.
+     * @return string|null Returns the ad f nom suite3.
      */
-    public function getAdFNomSuite3() {
+    public function getAdFNomSuite3(): ?string{
         return $this->adFNomSuite3;
     }
 
     /**
      * Get the ad f nom voie.
      *
-     * @return string Returns the ad f nom voie.
+     * @return string|null Returns the ad f nom voie.
      */
-    public function getAdFNomVoie() {
+    public function getAdFNomVoie(): ?string{
         return $this->adFNomVoie;
     }
 
     /**
      * Get the ad f num voie.
      *
-     * @return string Returns the ad f num voie.
+     * @return string|null Returns the ad f num voie.
      */
-    public function getAdFNumVoie() {
+    public function getAdFNumVoie(): ?string{
         return $this->adFNumVoie;
-    }
-
-    /**
-     * Get the ad fbtq.
-     *
-     * @return string Returns the ad fbtq.
-     */
-    public function getAdFbtq() {
-        return $this->adFbtq;
     }
 
     /**
      * Get the adresse bt saisie.
      *
-     * @return bool Returns the adresse bt saisie.
+     * @return bool|null Returns the adresse bt saisie.
      */
-    public function getAdresseBtSaisie() {
+    public function getAdresseBtSaisie(): ?bool{
         return $this->adresseBtSaisie;
     }
 
     /**
      * Get the adresse facturation saisie.
      *
-     * @return bool Returns the adresse facturation saisie.
+     * @return bool|null Returns the adresse facturation saisie.
      */
-    public function getAdresseFacturationSaisie() {
+    public function getAdresseFacturationSaisie(): ?bool{
         return $this->adresseFacturationSaisie;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code frequence.
      *
-     * @return string Returns the code frequence.
+     * @return string|null Returns the code frequence.
      */
-    public function getCodeFrequence() {
+    public function getCodeFrequence(): ?string{
         return $this->codeFrequence;
     }
 
     /**
      * Get the code tache bt.
      *
-     * @return string Returns the code tache bt.
+     * @return string|null Returns the code tache bt.
      */
-    public function getCodeTacheBt() {
+    public function getCodeTacheBt(): ?string{
         return $this->codeTacheBt;
     }
 
     /**
      * Get the code tournee.
      *
-     * @return string Returns the code tournee.
+     * @return string|null Returns the code tournee.
      */
-    public function getCodeTournee() {
+    public function getCodeTournee(): ?string{
         return $this->codeTournee;
     }
 
     /**
      * Get the critere liste1.
      *
-     * @return string Returns the critere liste1.
+     * @return string|null Returns the critere liste1.
      */
-    public function getCritereListe1() {
+    public function getCritereListe1(): ?string{
         return $this->critereListe1;
     }
 
     /**
      * Get the critere liste2.
      *
-     * @return string Returns the critere liste2.
+     * @return string|null Returns the critere liste2.
      */
-    public function getCritereListe2() {
+    public function getCritereListe2(): ?string{
         return $this->critereListe2;
     }
 
     /**
      * Get the critere numerique1.
      *
-     * @return float Returns the critere numerique1.
+     * @return float|null Returns the critere numerique1.
      */
-    public function getCritereNumerique1() {
+    public function getCritereNumerique1(): ?float{
         return $this->critereNumerique1;
     }
 
     /**
      * Get the critere numerique2.
      *
-     * @return float Returns the critere numerique2.
+     * @return float|null Returns the critere numerique2.
      */
-    public function getCritereNumerique2() {
+    public function getCritereNumerique2(): ?float{
         return $this->critereNumerique2;
     }
 
     /**
      * Get the critere texte1.
      *
-     * @return string Returns the critere texte1.
+     * @return string|null Returns the critere texte1.
      */
-    public function getCritereTexte1() {
+    public function getCritereTexte1(): ?string{
         return $this->critereTexte1;
     }
 
     /**
      * Get the critere texte2.
      *
-     * @return string Returns the critere texte2.
+     * @return string|null Returns the critere texte2.
      */
-    public function getCritereTexte2() {
+    public function getCritereTexte2(): ?string{
         return $this->critereTexte2;
     }
 
@@ -770,7 +771,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date dernier passage.
      */
-    public function getDateDernierPassage() {
+    public function getDateDernierPassage(): ?DateTime{
         return $this->dateDernierPassage;
     }
 
@@ -779,7 +780,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date fin validite.
      */
-    public function getDateFinValidite() {
+    public function getDateFinValidite(): ?DateTime{
         return $this->dateFinValidite;
     }
 
@@ -788,7 +789,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date premier passage.
      */
-    public function getDatePremierPassage() {
+    public function getDatePremierPassage(): ?DateTime{
         return $this->datePremierPassage;
     }
 
@@ -797,52 +798,52 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date validite.
      */
-    public function getDateValidite() {
+    public function getDateValidite(): ?DateTime{
         return $this->dateValidite;
     }
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string{
         return $this->description;
     }
 
     /**
      * Get the equipe.
      *
-     * @return string Returns the equipe.
+     * @return string|null Returns the equipe.
      */
-    public function getEquipe() {
+    public function getEquipe(): ?string{
         return $this->equipe;
     }
 
     /**
      * Get the frequence.
      *
-     * @return string Returns the frequence.
+     * @return string|null Returns the frequence.
      */
-    public function getFrequence() {
+    public function getFrequence(): ?string{
         return $this->frequence;
     }
 
     /**
      * Get the frequence suite.
      *
-     * @return string Returns the frequence suite.
+     * @return string|null Returns the frequence suite.
      */
-    public function getFrequenceSuite() {
+    public function getFrequenceSuite(): ?string{
         return $this->frequenceSuite;
     }
 
     /**
      * Get the gestion planning.
      *
-     * @return bool Returns the gestion planning.
+     * @return bool|null Returns the gestion planning.
      */
-    public function getGestionPlanning() {
+    public function getGestionPlanning(): ?bool{
         return $this->gestionPlanning;
     }
 
@@ -851,134 +852,145 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb() {
+    public function getHeureDeb(): ?DateTime{
         return $this->heureDeb;
     }
 
     /**
      * Get the latitude.
      *
-     * @return float Returns the latitude.
+     * @return float|null Returns the latitude.
      */
-    public function getLatitude() {
+    public function getLatitude(): ?float{
         return $this->latitude;
     }
 
     /**
      * Get the longitude.
      *
-     * @return float Returns the longitude.
+     * @return float|null Returns the longitude.
      */
-    public function getLongitude() {
+    public function getLongitude(): ?float{
         return $this->longitude;
     }
 
     /**
      * Get the mention speciale.
      *
-     * @return string Returns the mention speciale.
+     * @return string|null Returns the mention speciale.
      */
-    public function getMentionSpeciale() {
+    public function getMentionSpeciale(): ?string{
         return $this->mentionSpeciale;
     }
 
     /**
      * Get the nb heures.
      *
-     * @return float Returns the nb heures.
+     * @return float|null Returns the nb heures.
      */
-    public function getNbHeures() {
+    public function getNbHeures(): ?float{
         return $this->nbHeures;
     }
 
     /**
      * Get the nb jours.
      *
-     * @return float Returns the nb jours.
+     * @return float|null Returns the nb jours.
      */
-    public function getNbJours() {
+    public function getNbJours(): ?float{
         return $this->nbJours;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the saisie inter jour.
      *
-     * @return bool Returns the saisie inter jour.
+     * @return bool|null Returns the saisie inter jour.
      */
-    public function getSaisieInterJour() {
+    public function getSaisieInterJour(): ?bool{
         return $this->saisieInterJour;
     }
 
     /**
      * Get the travaille dimanche.
      *
-     * @return bool Returns the travaille dimanche.
+     * @return bool|null Returns the travaille dimanche.
      */
-    public function getTravailleDimanche() {
+    public function getTravailleDimanche(): ?bool{
         return $this->travailleDimanche;
     }
 
     /**
      * Get the travaille jours feries.
      *
-     * @return bool Returns the travaille jours feries.
+     * @return bool|null Returns the travaille jours feries.
      */
-    public function getTravailleJoursFeries() {
+    public function getTravailleJoursFeries(): ?bool{
         return $this->travailleJoursFeries;
     }
 
     /**
      * Get the travaille samedi.
      *
-     * @return bool Returns the travaille samedi.
+     * @return bool|null Returns the travaille samedi.
      */
-    public function getTravailleSamedi() {
+    public function getTravailleSamedi(): ?bool{
         return $this->travailleSamedi;
     }
 
     /**
      * Get the type frequence.
      *
-     * @return string Returns the type frequence.
+     * @return string|null Returns the type frequence.
      */
-    public function getTypeFrequence() {
+    public function getTypeFrequence(): ?string{
         return $this->typeFrequence;
     }
 
     /**
      * Get the un bon par mois.
      *
-     * @return bool Returns the un bon par mois.
+     * @return bool|null Returns the un bon par mois.
      */
-    public function getUnBonParMois() {
+    public function getUnBonParMois(): ?bool{
         return $this->unBonParMois;
+    }
+
+    /**
+     * Set the ad btbtq.
+     *
+     * @param string|null $adBtbtq The ad btbtq.
+     * @return BonsTravaux Returns this Bons travaux.
+     */
+    public function setAdBtbtq(?string $adBtbtq): BonsTravaux {
+        $this->adBtbtq = $adBtbtq;
+        return $this;
     }
 
     /**
      * Set the ad bt bureau distributeur.
      *
-     * @param string $adBtBureauDistributeur The ad bt bureau distributeur.
+     * @param string|null $adBtBureauDistributeur The ad bt bureau distributeur.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtBureauDistributeur($adBtBureauDistributeur) {
+    public function setAdBtBureauDistributeur(?string $adBtBureauDistributeur): BonsTravaux {
         $this->adBtBureauDistributeur = $adBtBureauDistributeur;
         return $this;
     }
@@ -986,10 +998,10 @@ class BonsTravaux {
     /**
      * Set the ad bt civilite.
      *
-     * @param string $adBtCivilite The ad bt civilite.
+     * @param string|null $adBtCivilite The ad bt civilite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtCivilite($adBtCivilite) {
+    public function setAdBtCivilite(?string $adBtCivilite): BonsTravaux {
         $this->adBtCivilite = $adBtCivilite;
         return $this;
     }
@@ -997,10 +1009,10 @@ class BonsTravaux {
     /**
      * Set the ad bt code pays.
      *
-     * @param string $adBtCodePays The ad bt code pays.
+     * @param string|null $adBtCodePays The ad bt code pays.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtCodePays($adBtCodePays) {
+    public function setAdBtCodePays(?string $adBtCodePays): BonsTravaux {
         $this->adBtCodePays = $adBtCodePays;
         return $this;
     }
@@ -1008,10 +1020,10 @@ class BonsTravaux {
     /**
      * Set the ad bt code postal.
      *
-     * @param string $adBtCodePostal The ad bt code postal.
+     * @param string|null $adBtCodePostal The ad bt code postal.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtCodePostal($adBtCodePostal) {
+    public function setAdBtCodePostal(?string $adBtCodePostal): BonsTravaux {
         $this->adBtCodePostal = $adBtCodePostal;
         return $this;
     }
@@ -1019,10 +1031,10 @@ class BonsTravaux {
     /**
      * Set the ad bt complement.
      *
-     * @param string $adBtComplement The ad bt complement.
+     * @param string|null $adBtComplement The ad bt complement.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtComplement($adBtComplement) {
+    public function setAdBtComplement(?string $adBtComplement): BonsTravaux {
         $this->adBtComplement = $adBtComplement;
         return $this;
     }
@@ -1030,10 +1042,10 @@ class BonsTravaux {
     /**
      * Set the ad bt nom.
      *
-     * @param string $adBtNom The ad bt nom.
+     * @param string|null $adBtNom The ad bt nom.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtNom($adBtNom) {
+    public function setAdBtNom(?string $adBtNom): BonsTravaux {
         $this->adBtNom = $adBtNom;
         return $this;
     }
@@ -1041,10 +1053,10 @@ class BonsTravaux {
     /**
      * Set the ad bt nom suite.
      *
-     * @param string $adBtNomSuite The ad bt nom suite.
+     * @param string|null $adBtNomSuite The ad bt nom suite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtNomSuite($adBtNomSuite) {
+    public function setAdBtNomSuite(?string $adBtNomSuite): BonsTravaux {
         $this->adBtNomSuite = $adBtNomSuite;
         return $this;
     }
@@ -1052,10 +1064,10 @@ class BonsTravaux {
     /**
      * Set the ad bt nom voie.
      *
-     * @param string $adBtNomVoie The ad bt nom voie.
+     * @param string|null $adBtNomVoie The ad bt nom voie.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtNomVoie($adBtNomVoie) {
+    public function setAdBtNomVoie(?string $adBtNomVoie): BonsTravaux {
         $this->adBtNomVoie = $adBtNomVoie;
         return $this;
     }
@@ -1063,32 +1075,32 @@ class BonsTravaux {
     /**
      * Set the ad bt num voie.
      *
-     * @param string $adBtNumVoie The ad bt num voie.
+     * @param string|null $adBtNumVoie The ad bt num voie.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtNumVoie($adBtNumVoie) {
+    public function setAdBtNumVoie(?string $adBtNumVoie): BonsTravaux {
         $this->adBtNumVoie = $adBtNumVoie;
         return $this;
     }
 
     /**
-     * Set the ad btbtq.
+     * Set the ad fbtq.
      *
-     * @param string $adBtbtq The ad btbtq.
+     * @param string|null $adFbtq The ad fbtq.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdBtbtq($adBtbtq) {
-        $this->adBtbtq = $adBtbtq;
+    public function setAdFbtq(?string $adFbtq): BonsTravaux {
+        $this->adFbtq = $adFbtq;
         return $this;
     }
 
     /**
      * Set the ad f bureau distributeur.
      *
-     * @param string $adFBureauDistributeur The ad f bureau distributeur.
+     * @param string|null $adFBureauDistributeur The ad f bureau distributeur.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFBureauDistributeur($adFBureauDistributeur) {
+    public function setAdFBureauDistributeur(?string $adFBureauDistributeur): BonsTravaux {
         $this->adFBureauDistributeur = $adFBureauDistributeur;
         return $this;
     }
@@ -1096,10 +1108,10 @@ class BonsTravaux {
     /**
      * Set the ad f civilite.
      *
-     * @param string $adFCivilite The ad f civilite.
+     * @param string|null $adFCivilite The ad f civilite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFCivilite($adFCivilite) {
+    public function setAdFCivilite(?string $adFCivilite): BonsTravaux {
         $this->adFCivilite = $adFCivilite;
         return $this;
     }
@@ -1107,10 +1119,10 @@ class BonsTravaux {
     /**
      * Set the ad f code pays.
      *
-     * @param string $adFCodePays The ad f code pays.
+     * @param string|null $adFCodePays The ad f code pays.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFCodePays($adFCodePays) {
+    public function setAdFCodePays(?string $adFCodePays): BonsTravaux {
         $this->adFCodePays = $adFCodePays;
         return $this;
     }
@@ -1118,10 +1130,10 @@ class BonsTravaux {
     /**
      * Set the ad f code postal.
      *
-     * @param string $adFCodePostal The ad f code postal.
+     * @param string|null $adFCodePostal The ad f code postal.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFCodePostal($adFCodePostal) {
+    public function setAdFCodePostal(?string $adFCodePostal): BonsTravaux {
         $this->adFCodePostal = $adFCodePostal;
         return $this;
     }
@@ -1129,10 +1141,10 @@ class BonsTravaux {
     /**
      * Set the ad f complement.
      *
-     * @param string $adFComplement The ad f complement.
+     * @param string|null $adFComplement The ad f complement.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFComplement($adFComplement) {
+    public function setAdFComplement(?string $adFComplement): BonsTravaux {
         $this->adFComplement = $adFComplement;
         return $this;
     }
@@ -1140,10 +1152,10 @@ class BonsTravaux {
     /**
      * Set the ad f nom.
      *
-     * @param string $adFNom The ad f nom.
+     * @param string|null $adFNom The ad f nom.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFNom($adFNom) {
+    public function setAdFNom(?string $adFNom): BonsTravaux {
         $this->adFNom = $adFNom;
         return $this;
     }
@@ -1151,10 +1163,10 @@ class BonsTravaux {
     /**
      * Set the ad f nom suite.
      *
-     * @param string $adFNomSuite The ad f nom suite.
+     * @param string|null $adFNomSuite The ad f nom suite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFNomSuite($adFNomSuite) {
+    public function setAdFNomSuite(?string $adFNomSuite): BonsTravaux {
         $this->adFNomSuite = $adFNomSuite;
         return $this;
     }
@@ -1162,10 +1174,10 @@ class BonsTravaux {
     /**
      * Set the ad f nom suite2.
      *
-     * @param string $adFNomSuite2 The ad f nom suite2.
+     * @param string|null $adFNomSuite2 The ad f nom suite2.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFNomSuite2($adFNomSuite2) {
+    public function setAdFNomSuite2(?string $adFNomSuite2): BonsTravaux {
         $this->adFNomSuite2 = $adFNomSuite2;
         return $this;
     }
@@ -1173,10 +1185,10 @@ class BonsTravaux {
     /**
      * Set the ad f nom suite3.
      *
-     * @param string $adFNomSuite3 The ad f nom suite3.
+     * @param string|null $adFNomSuite3 The ad f nom suite3.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFNomSuite3($adFNomSuite3) {
+    public function setAdFNomSuite3(?string $adFNomSuite3): BonsTravaux {
         $this->adFNomSuite3 = $adFNomSuite3;
         return $this;
     }
@@ -1184,10 +1196,10 @@ class BonsTravaux {
     /**
      * Set the ad f nom voie.
      *
-     * @param string $adFNomVoie The ad f nom voie.
+     * @param string|null $adFNomVoie The ad f nom voie.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFNomVoie($adFNomVoie) {
+    public function setAdFNomVoie(?string $adFNomVoie): BonsTravaux {
         $this->adFNomVoie = $adFNomVoie;
         return $this;
     }
@@ -1195,32 +1207,21 @@ class BonsTravaux {
     /**
      * Set the ad f num voie.
      *
-     * @param string $adFNumVoie The ad f num voie.
+     * @param string|null $adFNumVoie The ad f num voie.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFNumVoie($adFNumVoie) {
+    public function setAdFNumVoie(?string $adFNumVoie): BonsTravaux {
         $this->adFNumVoie = $adFNumVoie;
-        return $this;
-    }
-
-    /**
-     * Set the ad fbtq.
-     *
-     * @param string $adFbtq The ad fbtq.
-     * @return BonsTravaux Returns this Bons travaux.
-     */
-    public function setAdFbtq($adFbtq) {
-        $this->adFbtq = $adFbtq;
         return $this;
     }
 
     /**
      * Set the adresse bt saisie.
      *
-     * @param bool $adresseBtSaisie The adresse bt saisie.
+     * @param bool|null $adresseBtSaisie The adresse bt saisie.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdresseBtSaisie($adresseBtSaisie) {
+    public function setAdresseBtSaisie(?bool $adresseBtSaisie): BonsTravaux {
         $this->adresseBtSaisie = $adresseBtSaisie;
         return $this;
     }
@@ -1228,10 +1229,10 @@ class BonsTravaux {
     /**
      * Set the adresse facturation saisie.
      *
-     * @param bool $adresseFacturationSaisie The adresse facturation saisie.
+     * @param bool|null $adresseFacturationSaisie The adresse facturation saisie.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdresseFacturationSaisie($adresseFacturationSaisie) {
+    public function setAdresseFacturationSaisie(?bool $adresseFacturationSaisie): BonsTravaux {
         $this->adresseFacturationSaisie = $adresseFacturationSaisie;
         return $this;
     }
@@ -1239,10 +1240,10 @@ class BonsTravaux {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): BonsTravaux {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -1250,10 +1251,10 @@ class BonsTravaux {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): BonsTravaux {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -1261,10 +1262,10 @@ class BonsTravaux {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): BonsTravaux {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -1272,10 +1273,10 @@ class BonsTravaux {
     /**
      * Set the code frequence.
      *
-     * @param string $codeFrequence The code frequence.
+     * @param string|null $codeFrequence The code frequence.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCodeFrequence($codeFrequence) {
+    public function setCodeFrequence(?string $codeFrequence): BonsTravaux {
         $this->codeFrequence = $codeFrequence;
         return $this;
     }
@@ -1283,10 +1284,10 @@ class BonsTravaux {
     /**
      * Set the code tache bt.
      *
-     * @param string $codeTacheBt The code tache bt.
+     * @param string|null $codeTacheBt The code tache bt.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCodeTacheBt($codeTacheBt) {
+    public function setCodeTacheBt(?string $codeTacheBt): BonsTravaux {
         $this->codeTacheBt = $codeTacheBt;
         return $this;
     }
@@ -1294,10 +1295,10 @@ class BonsTravaux {
     /**
      * Set the code tournee.
      *
-     * @param string $codeTournee The code tournee.
+     * @param string|null $codeTournee The code tournee.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCodeTournee($codeTournee) {
+    public function setCodeTournee(?string $codeTournee): BonsTravaux {
         $this->codeTournee = $codeTournee;
         return $this;
     }
@@ -1305,10 +1306,10 @@ class BonsTravaux {
     /**
      * Set the critere liste1.
      *
-     * @param string $critereListe1 The critere liste1.
+     * @param string|null $critereListe1 The critere liste1.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCritereListe1($critereListe1) {
+    public function setCritereListe1(?string $critereListe1): BonsTravaux {
         $this->critereListe1 = $critereListe1;
         return $this;
     }
@@ -1316,10 +1317,10 @@ class BonsTravaux {
     /**
      * Set the critere liste2.
      *
-     * @param string $critereListe2 The critere liste2.
+     * @param string|null $critereListe2 The critere liste2.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCritereListe2($critereListe2) {
+    public function setCritereListe2(?string $critereListe2): BonsTravaux {
         $this->critereListe2 = $critereListe2;
         return $this;
     }
@@ -1327,10 +1328,10 @@ class BonsTravaux {
     /**
      * Set the critere numerique1.
      *
-     * @param float $critereNumerique1 The critere numerique1.
+     * @param float|null $critereNumerique1 The critere numerique1.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCritereNumerique1($critereNumerique1) {
+    public function setCritereNumerique1(?float $critereNumerique1): BonsTravaux {
         $this->critereNumerique1 = $critereNumerique1;
         return $this;
     }
@@ -1338,10 +1339,10 @@ class BonsTravaux {
     /**
      * Set the critere numerique2.
      *
-     * @param float $critereNumerique2 The critere numerique2.
+     * @param float|null $critereNumerique2 The critere numerique2.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCritereNumerique2($critereNumerique2) {
+    public function setCritereNumerique2(?float $critereNumerique2): BonsTravaux {
         $this->critereNumerique2 = $critereNumerique2;
         return $this;
     }
@@ -1349,10 +1350,10 @@ class BonsTravaux {
     /**
      * Set the critere texte1.
      *
-     * @param string $critereTexte1 The critere texte1.
+     * @param string|null $critereTexte1 The critere texte1.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCritereTexte1($critereTexte1) {
+    public function setCritereTexte1(?string $critereTexte1): BonsTravaux {
         $this->critereTexte1 = $critereTexte1;
         return $this;
     }
@@ -1360,10 +1361,10 @@ class BonsTravaux {
     /**
      * Set the critere texte2.
      *
-     * @param string $critereTexte2 The critere texte2.
+     * @param string|null $critereTexte2 The critere texte2.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setCritereTexte2($critereTexte2) {
+    public function setCritereTexte2(?string $critereTexte2): BonsTravaux {
         $this->critereTexte2 = $critereTexte2;
         return $this;
     }
@@ -1374,7 +1375,7 @@ class BonsTravaux {
      * @param DateTime|null $dateDernierPassage The date dernier passage.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setDateDernierPassage(DateTime $dateDernierPassage = null) {
+    public function setDateDernierPassage(?DateTime $dateDernierPassage): BonsTravaux {
         $this->dateDernierPassage = $dateDernierPassage;
         return $this;
     }
@@ -1385,7 +1386,7 @@ class BonsTravaux {
      * @param DateTime|null $dateFinValidite The date fin validite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setDateFinValidite(DateTime $dateFinValidite = null) {
+    public function setDateFinValidite(?DateTime $dateFinValidite): BonsTravaux {
         $this->dateFinValidite = $dateFinValidite;
         return $this;
     }
@@ -1396,7 +1397,7 @@ class BonsTravaux {
      * @param DateTime|null $datePremierPassage The date premier passage.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setDatePremierPassage(DateTime $datePremierPassage = null) {
+    public function setDatePremierPassage(?DateTime $datePremierPassage): BonsTravaux {
         $this->datePremierPassage = $datePremierPassage;
         return $this;
     }
@@ -1407,7 +1408,7 @@ class BonsTravaux {
      * @param DateTime|null $dateValidite The date validite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setDateValidite(DateTime $dateValidite = null) {
+    public function setDateValidite(?DateTime $dateValidite): BonsTravaux {
         $this->dateValidite = $dateValidite;
         return $this;
     }
@@ -1415,10 +1416,10 @@ class BonsTravaux {
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description): BonsTravaux {
         $this->description = $description;
         return $this;
     }
@@ -1426,10 +1427,10 @@ class BonsTravaux {
     /**
      * Set the equipe.
      *
-     * @param string $equipe The equipe.
+     * @param string|null $equipe The equipe.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setEquipe($equipe) {
+    public function setEquipe(?string $equipe): BonsTravaux {
         $this->equipe = $equipe;
         return $this;
     }
@@ -1437,10 +1438,10 @@ class BonsTravaux {
     /**
      * Set the frequence.
      *
-     * @param string $frequence The frequence.
+     * @param string|null $frequence The frequence.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setFrequence($frequence) {
+    public function setFrequence(?string $frequence): BonsTravaux {
         $this->frequence = $frequence;
         return $this;
     }
@@ -1448,10 +1449,10 @@ class BonsTravaux {
     /**
      * Set the frequence suite.
      *
-     * @param string $frequenceSuite The frequence suite.
+     * @param string|null $frequenceSuite The frequence suite.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setFrequenceSuite($frequenceSuite) {
+    public function setFrequenceSuite(?string $frequenceSuite): BonsTravaux {
         $this->frequenceSuite = $frequenceSuite;
         return $this;
     }
@@ -1459,10 +1460,10 @@ class BonsTravaux {
     /**
      * Set the gestion planning.
      *
-     * @param bool $gestionPlanning The gestion planning.
+     * @param bool|null $gestionPlanning The gestion planning.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setGestionPlanning($gestionPlanning) {
+    public function setGestionPlanning(?bool $gestionPlanning): BonsTravaux {
         $this->gestionPlanning = $gestionPlanning;
         return $this;
     }
@@ -1473,7 +1474,7 @@ class BonsTravaux {
      * @param DateTime|null $heureDeb The heure deb.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setHeureDeb(DateTime $heureDeb = null) {
+    public function setHeureDeb(?DateTime $heureDeb): BonsTravaux {
         $this->heureDeb = $heureDeb;
         return $this;
     }
@@ -1481,10 +1482,10 @@ class BonsTravaux {
     /**
      * Set the latitude.
      *
-     * @param float $latitude The latitude.
+     * @param float|null $latitude The latitude.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setLatitude($latitude) {
+    public function setLatitude(?float $latitude): BonsTravaux {
         $this->latitude = $latitude;
         return $this;
     }
@@ -1492,10 +1493,10 @@ class BonsTravaux {
     /**
      * Set the longitude.
      *
-     * @param float $longitude The longitude.
+     * @param float|null $longitude The longitude.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setLongitude($longitude) {
+    public function setLongitude(?float $longitude): BonsTravaux {
         $this->longitude = $longitude;
         return $this;
     }
@@ -1503,10 +1504,10 @@ class BonsTravaux {
     /**
      * Set the mention speciale.
      *
-     * @param string $mentionSpeciale The mention speciale.
+     * @param string|null $mentionSpeciale The mention speciale.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setMentionSpeciale($mentionSpeciale) {
+    public function setMentionSpeciale(?string $mentionSpeciale): BonsTravaux {
         $this->mentionSpeciale = $mentionSpeciale;
         return $this;
     }
@@ -1514,10 +1515,10 @@ class BonsTravaux {
     /**
      * Set the nb heures.
      *
-     * @param float $nbHeures The nb heures.
+     * @param float|null $nbHeures The nb heures.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setNbHeures($nbHeures) {
+    public function setNbHeures(?float $nbHeures): BonsTravaux {
         $this->nbHeures = $nbHeures;
         return $this;
     }
@@ -1525,10 +1526,10 @@ class BonsTravaux {
     /**
      * Set the nb jours.
      *
-     * @param float $nbJours The nb jours.
+     * @param float|null $nbJours The nb jours.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setNbJours($nbJours) {
+    public function setNbJours(?float $nbJours): BonsTravaux {
         $this->nbJours = $nbJours;
         return $this;
     }
@@ -1536,10 +1537,10 @@ class BonsTravaux {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): BonsTravaux {
         $this->numBt = $numBt;
         return $this;
     }
@@ -1547,10 +1548,10 @@ class BonsTravaux {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): BonsTravaux {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -1558,10 +1559,10 @@ class BonsTravaux {
     /**
      * Set the saisie inter jour.
      *
-     * @param bool $saisieInterJour The saisie inter jour.
+     * @param bool|null $saisieInterJour The saisie inter jour.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setSaisieInterJour($saisieInterJour) {
+    public function setSaisieInterJour(?bool $saisieInterJour): BonsTravaux {
         $this->saisieInterJour = $saisieInterJour;
         return $this;
     }
@@ -1569,10 +1570,10 @@ class BonsTravaux {
     /**
      * Set the travaille dimanche.
      *
-     * @param bool $travailleDimanche The travaille dimanche.
+     * @param bool|null $travailleDimanche The travaille dimanche.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setTravailleDimanche($travailleDimanche) {
+    public function setTravailleDimanche(?bool $travailleDimanche): BonsTravaux {
         $this->travailleDimanche = $travailleDimanche;
         return $this;
     }
@@ -1580,10 +1581,10 @@ class BonsTravaux {
     /**
      * Set the travaille jours feries.
      *
-     * @param bool $travailleJoursFeries The travaille jours feries.
+     * @param bool|null $travailleJoursFeries The travaille jours feries.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setTravailleJoursFeries($travailleJoursFeries) {
+    public function setTravailleJoursFeries(?bool $travailleJoursFeries): BonsTravaux {
         $this->travailleJoursFeries = $travailleJoursFeries;
         return $this;
     }
@@ -1591,10 +1592,10 @@ class BonsTravaux {
     /**
      * Set the travaille samedi.
      *
-     * @param bool $travailleSamedi The travaille samedi.
+     * @param bool|null $travailleSamedi The travaille samedi.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setTravailleSamedi($travailleSamedi) {
+    public function setTravailleSamedi(?bool $travailleSamedi): BonsTravaux {
         $this->travailleSamedi = $travailleSamedi;
         return $this;
     }
@@ -1602,10 +1603,10 @@ class BonsTravaux {
     /**
      * Set the type frequence.
      *
-     * @param string $typeFrequence The type frequence.
+     * @param string|null $typeFrequence The type frequence.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setTypeFrequence($typeFrequence) {
+    public function setTypeFrequence(?string $typeFrequence): BonsTravaux {
         $this->typeFrequence = $typeFrequence;
         return $this;
     }
@@ -1613,10 +1614,10 @@ class BonsTravaux {
     /**
      * Set the un bon par mois.
      *
-     * @param bool $unBonParMois The un bon par mois.
+     * @param bool|null $unBonParMois The un bon par mois.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setUnBonParMois($unBonParMois) {
+    public function setUnBonParMois(?bool $unBonParMois): BonsTravaux {
         $this->unBonParMois = $unBonParMois;
         return $this;
     }

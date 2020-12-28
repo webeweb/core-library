@@ -24,28 +24,28 @@ class BordPrepAbsences {
     /**
      * Id.
      *
-     * @var int
+     * @var int|null
      */
     private $id;
 
     /**
      * Nbh sais.
      *
-     * @var float
+     * @var float|null
      */
     private $nbhSais;
 
     /**
      * Nbj sais.
      *
-     * @var float
+     * @var float|null
      */
     private $nbjSais;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -73,50 +73,51 @@ class BordPrepAbsences {
     /**
      * Type abs cp.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAbsCp;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the id.
      *
-     * @return int Returns the id.
+     * @return int|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?int{
         return $this->id;
     }
 
     /**
      * Get the nbh sais.
      *
-     * @return float Returns the nbh sais.
+     * @return float|null Returns the nbh sais.
      */
-    public function getNbhSais() {
+    public function getNbhSais(): ?float{
         return $this->nbhSais;
     }
 
     /**
      * Get the nbj sais.
      *
-     * @return float Returns the nbj sais.
+     * @return float|null Returns the nbj sais.
      */
-    public function getNbjSais() {
+    public function getNbjSais(): ?float{
         return $this->nbjSais;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -125,7 +126,7 @@ class BordPrepAbsences {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
@@ -134,7 +135,7 @@ class BordPrepAbsences {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -143,26 +144,26 @@ class BordPrepAbsences {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the type abs cp.
      *
-     * @return string Returns the type abs cp.
+     * @return string|null Returns the type abs cp.
      */
-    public function getTypeAbsCp() {
+    public function getTypeAbsCp(): ?string{
         return $this->typeAbsCp;
     }
 
     /**
      * Set the id.
      *
-     * @param int $id The id.
+     * @param int|null $id The id.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setId($id) {
+    public function setId(?int $id): BordPrepAbsences {
         $this->id = $id;
         return $this;
     }
@@ -170,10 +171,10 @@ class BordPrepAbsences {
     /**
      * Set the nbh sais.
      *
-     * @param float $nbhSais The nbh sais.
+     * @param float|null $nbhSais The nbh sais.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setNbhSais($nbhSais) {
+    public function setNbhSais(?float $nbhSais): BordPrepAbsences {
         $this->nbhSais = $nbhSais;
         return $this;
     }
@@ -181,10 +182,10 @@ class BordPrepAbsences {
     /**
      * Set the nbj sais.
      *
-     * @param float $nbjSais The nbj sais.
+     * @param float|null $nbjSais The nbj sais.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setNbjSais($nbjSais) {
+    public function setNbjSais(?float $nbjSais): BordPrepAbsences {
         $this->nbjSais = $nbjSais;
         return $this;
     }
@@ -192,10 +193,10 @@ class BordPrepAbsences {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): BordPrepAbsences {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -206,7 +207,7 @@ class BordPrepAbsences {
      * @param DateTime|null $periode The periode.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): BordPrepAbsences {
         $this->periode = $periode;
         return $this;
     }
@@ -217,7 +218,7 @@ class BordPrepAbsences {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): BordPrepAbsences {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -228,7 +229,7 @@ class BordPrepAbsences {
      * @param DateTime|null $periodeFin The periode fin.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): BordPrepAbsences {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -236,10 +237,10 @@ class BordPrepAbsences {
     /**
      * Set the type abs cp.
      *
-     * @param string $typeAbsCp The type abs cp.
+     * @param string|null $typeAbsCp The type abs cp.
      * @return BordPrepAbsences Returns this Bord prep absences.
      */
-    public function setTypeAbsCp($typeAbsCp) {
+    public function setTypeAbsCp(?string $typeAbsCp): BordPrepAbsences {
         $this->typeAbsCp = $typeAbsCp;
         return $this;
     }

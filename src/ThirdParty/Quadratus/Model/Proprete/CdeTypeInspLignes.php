@@ -24,70 +24,70 @@ class CdeTypeInspLignes {
     /**
      * Aou.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aou;
 
     /**
      * Avr.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avr;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFournisseur;
 
     /**
      * Code inspecteur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeInspecteur;
 
     /**
      * Code livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLivraison;
 
     /**
      * Commande isolee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $commandeIsolee;
 
@@ -115,244 +115,245 @@ class CdeTypeInspLignes {
     /**
      * Dec.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dec;
 
     /**
      * Designation1.
      *
-     * @var string
+     * @var string|null
      */
     private $designation1;
 
     /**
      * Designation2.
      *
-     * @var string
+     * @var string|null
      */
     private $designation2;
 
     /**
      * Designation3.
      *
-     * @var string
+     * @var string|null
      */
     private $designation3;
 
     /**
      * Fev.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fev;
 
     /**
      * Jan.
      *
-     * @var bool
+     * @var bool|null
      */
     private $jan;
 
     /**
      * Jour livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $jourLivraison;
 
     /**
      * Juil.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juil;
 
     /**
      * Juin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juin;
 
     /**
      * Mai.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mai;
 
     /**
      * Maj stock by da.
      *
-     * @var bool
+     * @var bool|null
      */
     private $majStockByDa;
 
     /**
      * Mar.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mar;
 
     /**
      * Nov.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nov;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Oct.
      *
-     * @var bool
+     * @var bool|null
      */
     private $oct;
 
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite;
 
     /**
      * Saisir modalite liv.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisirModaliteLiv;
 
     /**
      * Sep.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sep;
 
     /**
      * Type gestion.
      *
-     * @var string
+     * @var string|null
      */
     private $typeGestion;
 
     /**
      * Validee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $validee;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the aou.
      *
-     * @return bool Returns the aou.
+     * @return bool|null Returns the aou.
      */
-    public function getAou() {
+    public function getAou(): ?bool{
         return $this->aou;
     }
 
     /**
      * Get the avr.
      *
-     * @return bool Returns the avr.
+     * @return bool|null Returns the avr.
      */
-    public function getAvr() {
+    public function getAvr(): ?bool{
         return $this->avr;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code fournisseur.
      *
-     * @return string Returns the code fournisseur.
+     * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur() {
+    public function getCodeFournisseur(): ?string{
         return $this->codeFournisseur;
     }
 
     /**
      * Get the code inspecteur.
      *
-     * @return string Returns the code inspecteur.
+     * @return string|null Returns the code inspecteur.
      */
-    public function getCodeInspecteur() {
+    public function getCodeInspecteur(): ?string{
         return $this->codeInspecteur;
     }
 
     /**
      * Get the code livraison.
      *
-     * @return string Returns the code livraison.
+     * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison() {
+    public function getCodeLivraison(): ?string{
         return $this->codeLivraison;
     }
 
     /**
      * Get the commande isolee.
      *
-     * @return bool Returns the commande isolee.
+     * @return bool|null Returns the commande isolee.
      */
-    public function getCommandeIsolee() {
+    public function getCommandeIsolee(): ?bool{
         return $this->commandeIsolee;
     }
 
@@ -361,7 +362,7 @@ class CdeTypeInspLignes {
      *
      * @return DateTime|null Returns the date debut validite.
      */
-    public function getDateDebutValidite() {
+    public function getDateDebutValidite(): ?DateTime{
         return $this->dateDebutValidite;
     }
 
@@ -370,7 +371,7 @@ class CdeTypeInspLignes {
      *
      * @return DateTime|null Returns the date fin validite.
      */
-    public function getDateFinValidite() {
+    public function getDateFinValidite(): ?DateTime{
         return $this->dateFinValidite;
     }
 
@@ -379,206 +380,206 @@ class CdeTypeInspLignes {
      *
      * @return DateTime|null Returns the date validee.
      */
-    public function getDateValidee() {
+    public function getDateValidee(): ?DateTime{
         return $this->dateValidee;
     }
 
     /**
      * Get the dec.
      *
-     * @return bool Returns the dec.
+     * @return bool|null Returns the dec.
      */
-    public function getDec() {
+    public function getDec(): ?bool{
         return $this->dec;
     }
 
     /**
      * Get the designation1.
      *
-     * @return string Returns the designation1.
+     * @return string|null Returns the designation1.
      */
-    public function getDesignation1() {
+    public function getDesignation1(): ?string{
         return $this->designation1;
     }
 
     /**
      * Get the designation2.
      *
-     * @return string Returns the designation2.
+     * @return string|null Returns the designation2.
      */
-    public function getDesignation2() {
+    public function getDesignation2(): ?string{
         return $this->designation2;
     }
 
     /**
      * Get the designation3.
      *
-     * @return string Returns the designation3.
+     * @return string|null Returns the designation3.
      */
-    public function getDesignation3() {
+    public function getDesignation3(): ?string{
         return $this->designation3;
     }
 
     /**
      * Get the fev.
      *
-     * @return bool Returns the fev.
+     * @return bool|null Returns the fev.
      */
-    public function getFev() {
+    public function getFev(): ?bool{
         return $this->fev;
     }
 
     /**
      * Get the jan.
      *
-     * @return bool Returns the jan.
+     * @return bool|null Returns the jan.
      */
-    public function getJan() {
+    public function getJan(): ?bool{
         return $this->jan;
     }
 
     /**
      * Get the jour livraison.
      *
-     * @return string Returns the jour livraison.
+     * @return string|null Returns the jour livraison.
      */
-    public function getJourLivraison() {
+    public function getJourLivraison(): ?string{
         return $this->jourLivraison;
     }
 
     /**
      * Get the juil.
      *
-     * @return bool Returns the juil.
+     * @return bool|null Returns the juil.
      */
-    public function getJuil() {
+    public function getJuil(): ?bool{
         return $this->juil;
     }
 
     /**
      * Get the juin.
      *
-     * @return bool Returns the juin.
+     * @return bool|null Returns the juin.
      */
-    public function getJuin() {
+    public function getJuin(): ?bool{
         return $this->juin;
     }
 
     /**
      * Get the mai.
      *
-     * @return bool Returns the mai.
+     * @return bool|null Returns the mai.
      */
-    public function getMai() {
+    public function getMai(): ?bool{
         return $this->mai;
     }
 
     /**
      * Get the maj stock by da.
      *
-     * @return bool Returns the maj stock by da.
+     * @return bool|null Returns the maj stock by da.
      */
-    public function getMajStockByDa() {
+    public function getMajStockByDa(): ?bool{
         return $this->majStockByDa;
     }
 
     /**
      * Get the mar.
      *
-     * @return bool Returns the mar.
+     * @return bool|null Returns the mar.
      */
-    public function getMar() {
+    public function getMar(): ?bool{
         return $this->mar;
     }
 
     /**
      * Get the nov.
      *
-     * @return bool Returns the nov.
+     * @return bool|null Returns the nov.
      */
-    public function getNov() {
+    public function getNov(): ?bool{
         return $this->nov;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the oct.
      *
-     * @return bool Returns the oct.
+     * @return bool|null Returns the oct.
      */
-    public function getOct() {
+    public function getOct(): ?bool{
         return $this->oct;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the quantite.
      *
-     * @return float Returns the quantite.
+     * @return float|null Returns the quantite.
      */
-    public function getQuantite() {
+    public function getQuantite(): ?float{
         return $this->quantite;
     }
 
     /**
      * Get the saisir modalite liv.
      *
-     * @return bool Returns the saisir modalite liv.
+     * @return bool|null Returns the saisir modalite liv.
      */
-    public function getSaisirModaliteLiv() {
+    public function getSaisirModaliteLiv(): ?bool{
         return $this->saisirModaliteLiv;
     }
 
     /**
      * Get the sep.
      *
-     * @return bool Returns the sep.
+     * @return bool|null Returns the sep.
      */
-    public function getSep() {
+    public function getSep(): ?bool{
         return $this->sep;
     }
 
     /**
      * Get the type gestion.
      *
-     * @return string Returns the type gestion.
+     * @return string|null Returns the type gestion.
      */
-    public function getTypeGestion() {
+    public function getTypeGestion(): ?string{
         return $this->typeGestion;
     }
 
     /**
      * Get the validee.
      *
-     * @return bool Returns the validee.
+     * @return bool|null Returns the validee.
      */
-    public function getValidee() {
+    public function getValidee(): ?bool{
         return $this->validee;
     }
 
     /**
      * Set the aou.
      *
-     * @param bool $aou The aou.
+     * @param bool|null $aou The aou.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setAou($aou) {
+    public function setAou(?bool $aou): CdeTypeInspLignes {
         $this->aou = $aou;
         return $this;
     }
@@ -586,10 +587,10 @@ class CdeTypeInspLignes {
     /**
      * Set the avr.
      *
-     * @param bool $avr The avr.
+     * @param bool|null $avr The avr.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setAvr($avr) {
+    public function setAvr(?bool $avr): CdeTypeInspLignes {
         $this->avr = $avr;
         return $this;
     }
@@ -597,10 +598,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): CdeTypeInspLignes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -608,10 +609,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): CdeTypeInspLignes {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -619,10 +620,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): CdeTypeInspLignes {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -630,10 +631,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): CdeTypeInspLignes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -641,10 +642,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code fournisseur.
      *
-     * @param string $codeFournisseur The code fournisseur.
+     * @param string|null $codeFournisseur The code fournisseur.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeFournisseur($codeFournisseur) {
+    public function setCodeFournisseur(?string $codeFournisseur): CdeTypeInspLignes {
         $this->codeFournisseur = $codeFournisseur;
         return $this;
     }
@@ -652,10 +653,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code inspecteur.
      *
-     * @param string $codeInspecteur The code inspecteur.
+     * @param string|null $codeInspecteur The code inspecteur.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeInspecteur($codeInspecteur) {
+    public function setCodeInspecteur(?string $codeInspecteur): CdeTypeInspLignes {
         $this->codeInspecteur = $codeInspecteur;
         return $this;
     }
@@ -663,10 +664,10 @@ class CdeTypeInspLignes {
     /**
      * Set the code livraison.
      *
-     * @param string $codeLivraison The code livraison.
+     * @param string|null $codeLivraison The code livraison.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCodeLivraison($codeLivraison) {
+    public function setCodeLivraison(?string $codeLivraison): CdeTypeInspLignes {
         $this->codeLivraison = $codeLivraison;
         return $this;
     }
@@ -674,10 +675,10 @@ class CdeTypeInspLignes {
     /**
      * Set the commande isolee.
      *
-     * @param bool $commandeIsolee The commande isolee.
+     * @param bool|null $commandeIsolee The commande isolee.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setCommandeIsolee($commandeIsolee) {
+    public function setCommandeIsolee(?bool $commandeIsolee): CdeTypeInspLignes {
         $this->commandeIsolee = $commandeIsolee;
         return $this;
     }
@@ -688,7 +689,7 @@ class CdeTypeInspLignes {
      * @param DateTime|null $dateDebutValidite The date debut validite.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDateDebutValidite(DateTime $dateDebutValidite = null) {
+    public function setDateDebutValidite(?DateTime $dateDebutValidite): CdeTypeInspLignes {
         $this->dateDebutValidite = $dateDebutValidite;
         return $this;
     }
@@ -699,7 +700,7 @@ class CdeTypeInspLignes {
      * @param DateTime|null $dateFinValidite The date fin validite.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDateFinValidite(DateTime $dateFinValidite = null) {
+    public function setDateFinValidite(?DateTime $dateFinValidite): CdeTypeInspLignes {
         $this->dateFinValidite = $dateFinValidite;
         return $this;
     }
@@ -710,7 +711,7 @@ class CdeTypeInspLignes {
      * @param DateTime|null $dateValidee The date validee.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDateValidee(DateTime $dateValidee = null) {
+    public function setDateValidee(?DateTime $dateValidee): CdeTypeInspLignes {
         $this->dateValidee = $dateValidee;
         return $this;
     }
@@ -718,10 +719,10 @@ class CdeTypeInspLignes {
     /**
      * Set the dec.
      *
-     * @param bool $dec The dec.
+     * @param bool|null $dec The dec.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDec($dec) {
+    public function setDec(?bool $dec): CdeTypeInspLignes {
         $this->dec = $dec;
         return $this;
     }
@@ -729,10 +730,10 @@ class CdeTypeInspLignes {
     /**
      * Set the designation1.
      *
-     * @param string $designation1 The designation1.
+     * @param string|null $designation1 The designation1.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDesignation1($designation1) {
+    public function setDesignation1(?string $designation1): CdeTypeInspLignes {
         $this->designation1 = $designation1;
         return $this;
     }
@@ -740,10 +741,10 @@ class CdeTypeInspLignes {
     /**
      * Set the designation2.
      *
-     * @param string $designation2 The designation2.
+     * @param string|null $designation2 The designation2.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDesignation2($designation2) {
+    public function setDesignation2(?string $designation2): CdeTypeInspLignes {
         $this->designation2 = $designation2;
         return $this;
     }
@@ -751,10 +752,10 @@ class CdeTypeInspLignes {
     /**
      * Set the designation3.
      *
-     * @param string $designation3 The designation3.
+     * @param string|null $designation3 The designation3.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setDesignation3($designation3) {
+    public function setDesignation3(?string $designation3): CdeTypeInspLignes {
         $this->designation3 = $designation3;
         return $this;
     }
@@ -762,10 +763,10 @@ class CdeTypeInspLignes {
     /**
      * Set the fev.
      *
-     * @param bool $fev The fev.
+     * @param bool|null $fev The fev.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setFev($fev) {
+    public function setFev(?bool $fev): CdeTypeInspLignes {
         $this->fev = $fev;
         return $this;
     }
@@ -773,10 +774,10 @@ class CdeTypeInspLignes {
     /**
      * Set the jan.
      *
-     * @param bool $jan The jan.
+     * @param bool|null $jan The jan.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setJan($jan) {
+    public function setJan(?bool $jan): CdeTypeInspLignes {
         $this->jan = $jan;
         return $this;
     }
@@ -784,10 +785,10 @@ class CdeTypeInspLignes {
     /**
      * Set the jour livraison.
      *
-     * @param string $jourLivraison The jour livraison.
+     * @param string|null $jourLivraison The jour livraison.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setJourLivraison($jourLivraison) {
+    public function setJourLivraison(?string $jourLivraison): CdeTypeInspLignes {
         $this->jourLivraison = $jourLivraison;
         return $this;
     }
@@ -795,10 +796,10 @@ class CdeTypeInspLignes {
     /**
      * Set the juil.
      *
-     * @param bool $juil The juil.
+     * @param bool|null $juil The juil.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setJuil($juil) {
+    public function setJuil(?bool $juil): CdeTypeInspLignes {
         $this->juil = $juil;
         return $this;
     }
@@ -806,10 +807,10 @@ class CdeTypeInspLignes {
     /**
      * Set the juin.
      *
-     * @param bool $juin The juin.
+     * @param bool|null $juin The juin.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setJuin($juin) {
+    public function setJuin(?bool $juin): CdeTypeInspLignes {
         $this->juin = $juin;
         return $this;
     }
@@ -817,10 +818,10 @@ class CdeTypeInspLignes {
     /**
      * Set the mai.
      *
-     * @param bool $mai The mai.
+     * @param bool|null $mai The mai.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setMai($mai) {
+    public function setMai(?bool $mai): CdeTypeInspLignes {
         $this->mai = $mai;
         return $this;
     }
@@ -828,10 +829,10 @@ class CdeTypeInspLignes {
     /**
      * Set the maj stock by da.
      *
-     * @param bool $majStockByDa The maj stock by da.
+     * @param bool|null $majStockByDa The maj stock by da.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setMajStockByDa($majStockByDa) {
+    public function setMajStockByDa(?bool $majStockByDa): CdeTypeInspLignes {
         $this->majStockByDa = $majStockByDa;
         return $this;
     }
@@ -839,10 +840,10 @@ class CdeTypeInspLignes {
     /**
      * Set the mar.
      *
-     * @param bool $mar The mar.
+     * @param bool|null $mar The mar.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setMar($mar) {
+    public function setMar(?bool $mar): CdeTypeInspLignes {
         $this->mar = $mar;
         return $this;
     }
@@ -850,10 +851,10 @@ class CdeTypeInspLignes {
     /**
      * Set the nov.
      *
-     * @param bool $nov The nov.
+     * @param bool|null $nov The nov.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setNov($nov) {
+    public function setNov(?bool $nov): CdeTypeInspLignes {
         $this->nov = $nov;
         return $this;
     }
@@ -861,10 +862,10 @@ class CdeTypeInspLignes {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): CdeTypeInspLignes {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -872,10 +873,10 @@ class CdeTypeInspLignes {
     /**
      * Set the oct.
      *
-     * @param bool $oct The oct.
+     * @param bool|null $oct The oct.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setOct($oct) {
+    public function setOct(?bool $oct): CdeTypeInspLignes {
         $this->oct = $oct;
         return $this;
     }
@@ -883,10 +884,10 @@ class CdeTypeInspLignes {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): CdeTypeInspLignes {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -894,10 +895,10 @@ class CdeTypeInspLignes {
     /**
      * Set the quantite.
      *
-     * @param float $quantite The quantite.
+     * @param float|null $quantite The quantite.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setQuantite($quantite) {
+    public function setQuantite(?float $quantite): CdeTypeInspLignes {
         $this->quantite = $quantite;
         return $this;
     }
@@ -905,10 +906,10 @@ class CdeTypeInspLignes {
     /**
      * Set the saisir modalite liv.
      *
-     * @param bool $saisirModaliteLiv The saisir modalite liv.
+     * @param bool|null $saisirModaliteLiv The saisir modalite liv.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setSaisirModaliteLiv($saisirModaliteLiv) {
+    public function setSaisirModaliteLiv(?bool $saisirModaliteLiv): CdeTypeInspLignes {
         $this->saisirModaliteLiv = $saisirModaliteLiv;
         return $this;
     }
@@ -916,10 +917,10 @@ class CdeTypeInspLignes {
     /**
      * Set the sep.
      *
-     * @param bool $sep The sep.
+     * @param bool|null $sep The sep.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setSep($sep) {
+    public function setSep(?bool $sep): CdeTypeInspLignes {
         $this->sep = $sep;
         return $this;
     }
@@ -927,10 +928,10 @@ class CdeTypeInspLignes {
     /**
      * Set the type gestion.
      *
-     * @param string $typeGestion The type gestion.
+     * @param string|null $typeGestion The type gestion.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setTypeGestion($typeGestion) {
+    public function setTypeGestion(?string $typeGestion): CdeTypeInspLignes {
         $this->typeGestion = $typeGestion;
         return $this;
     }
@@ -938,10 +939,10 @@ class CdeTypeInspLignes {
     /**
      * Set the validee.
      *
-     * @param bool $validee The validee.
+     * @param bool|null $validee The validee.
      * @return CdeTypeInspLignes Returns this Cde type insp lignes.
      */
-    public function setValidee($validee) {
+    public function setValidee(?bool $validee): CdeTypeInspLignes {
         $this->validee = $validee;
         return $this;
     }

@@ -29,7 +29,7 @@ class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetConnectionWithPDOException() {
+    public function testGetConnectionWithPDOException(): void {
 
         $obj = new OracleMySQLDatabaseConnector($this->authenticator, "exception");
 
@@ -48,7 +48,7 @@ class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
      *
      * @returns void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new OracleMySQLDatabaseConnector($this->authenticator, null);
 

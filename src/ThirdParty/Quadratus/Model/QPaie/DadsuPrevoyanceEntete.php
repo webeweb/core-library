@@ -24,14 +24,14 @@ class DadsuPrevoyanceEntete {
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code periodicite.
      *
-     * @var string
+     * @var string|null
      */
     private $codePeriodicite;
 
@@ -52,60 +52,61 @@ class DadsuPrevoyanceEntete {
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Mail contact.
      *
-     * @var string
+     * @var string|null
      */
     private $mailContact;
 
     /**
      * Mois anniv.
      *
-     * @var string
+     * @var string|null
      */
     private $moisAnniv;
 
     /**
      * Nom contact.
      *
-     * @var string
+     * @var string|null
      */
     private $nomContact;
 
     /**
      * Tel contact.
      *
-     * @var string
+     * @var string|null
      */
     private $telContact;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code periodicite.
      *
-     * @return string Returns the code periodicite.
+     * @return string|null Returns the code periodicite.
      */
-    public function getCodePeriodicite() {
+    public function getCodePeriodicite(): ?string{
         return $this->codePeriodicite;
     }
 
@@ -114,7 +115,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication() {
+    public function getDateApplication(): ?DateTime{
         return $this->dateApplication;
     }
 
@@ -123,62 +124,62 @@ class DadsuPrevoyanceEntete {
      *
      * @return DateTime|null Returns the date emission.
      */
-    public function getDateEmission() {
+    public function getDateEmission(): ?DateTime{
         return $this->dateEmission;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the mail contact.
      *
-     * @return string Returns the mail contact.
+     * @return string|null Returns the mail contact.
      */
-    public function getMailContact() {
+    public function getMailContact(): ?string{
         return $this->mailContact;
     }
 
     /**
      * Get the mois anniv.
      *
-     * @return string Returns the mois anniv.
+     * @return string|null Returns the mois anniv.
      */
-    public function getMoisAnniv() {
+    public function getMoisAnniv(): ?string{
         return $this->moisAnniv;
     }
 
     /**
      * Get the nom contact.
      *
-     * @return string Returns the nom contact.
+     * @return string|null Returns the nom contact.
      */
-    public function getNomContact() {
+    public function getNomContact(): ?string{
         return $this->nomContact;
     }
 
     /**
      * Get the tel contact.
      *
-     * @return string Returns the tel contact.
+     * @return string|null Returns the tel contact.
      */
-    public function getTelContact() {
+    public function getTelContact(): ?string{
         return $this->telContact;
     }
 
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuPrevoyanceEntete {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -186,10 +187,10 @@ class DadsuPrevoyanceEntete {
     /**
      * Set the code periodicite.
      *
-     * @param string $codePeriodicite The code periodicite.
+     * @param string|null $codePeriodicite The code periodicite.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setCodePeriodicite($codePeriodicite) {
+    public function setCodePeriodicite(?string $codePeriodicite): DadsuPrevoyanceEntete {
         $this->codePeriodicite = $codePeriodicite;
         return $this;
     }
@@ -200,7 +201,7 @@ class DadsuPrevoyanceEntete {
      * @param DateTime|null $dateApplication The date application.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setDateApplication(DateTime $dateApplication = null) {
+    public function setDateApplication(?DateTime $dateApplication): DadsuPrevoyanceEntete {
         $this->dateApplication = $dateApplication;
         return $this;
     }
@@ -211,7 +212,7 @@ class DadsuPrevoyanceEntete {
      * @param DateTime|null $dateEmission The date emission.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setDateEmission(DateTime $dateEmission = null) {
+    public function setDateEmission(?DateTime $dateEmission): DadsuPrevoyanceEntete {
         $this->dateEmission = $dateEmission;
         return $this;
     }
@@ -219,10 +220,10 @@ class DadsuPrevoyanceEntete {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): DadsuPrevoyanceEntete {
         $this->intitule = $intitule;
         return $this;
     }
@@ -230,10 +231,10 @@ class DadsuPrevoyanceEntete {
     /**
      * Set the mail contact.
      *
-     * @param string $mailContact The mail contact.
+     * @param string|null $mailContact The mail contact.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setMailContact($mailContact) {
+    public function setMailContact(?string $mailContact): DadsuPrevoyanceEntete {
         $this->mailContact = $mailContact;
         return $this;
     }
@@ -241,10 +242,10 @@ class DadsuPrevoyanceEntete {
     /**
      * Set the mois anniv.
      *
-     * @param string $moisAnniv The mois anniv.
+     * @param string|null $moisAnniv The mois anniv.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setMoisAnniv($moisAnniv) {
+    public function setMoisAnniv(?string $moisAnniv): DadsuPrevoyanceEntete {
         $this->moisAnniv = $moisAnniv;
         return $this;
     }
@@ -252,10 +253,10 @@ class DadsuPrevoyanceEntete {
     /**
      * Set the nom contact.
      *
-     * @param string $nomContact The nom contact.
+     * @param string|null $nomContact The nom contact.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setNomContact($nomContact) {
+    public function setNomContact(?string $nomContact): DadsuPrevoyanceEntete {
         $this->nomContact = $nomContact;
         return $this;
     }
@@ -263,10 +264,10 @@ class DadsuPrevoyanceEntete {
     /**
      * Set the tel contact.
      *
-     * @param string $telContact The tel contact.
+     * @param string|null $telContact The tel contact.
      * @return DadsuPrevoyanceEntete Returns this Dadsu prevoyance entete.
      */
-    public function setTelContact($telContact) {
+    public function setTelContact(?string $telContact): DadsuPrevoyanceEntete {
         $this->telContact = $telContact;
         return $this;
     }

@@ -27,7 +27,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOperation() {
+    public function testSetCodeOperation(): void {
 
         $obj = new ProgTypeLignes();
 
@@ -40,7 +40,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new ProgTypeLignes();
 
@@ -53,7 +53,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new ProgTypeLignes();
 
@@ -66,7 +66,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumProgramme() {
+    public function testSetNumProgramme(): void {
 
         $obj = new ProgTypeLignes();
 
@@ -79,7 +79,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVitesseReelle() {
+    public function testSetVitesseReelle(): void {
 
         $obj = new ProgTypeLignes();
 
@@ -92,7 +92,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVitesseTheorique() {
+    public function testSetVitesseTheorique(): void {
 
         $obj = new ProgTypeLignes();
 
@@ -105,7 +105,7 @@ class ProgTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ProgTypeLignes();
 

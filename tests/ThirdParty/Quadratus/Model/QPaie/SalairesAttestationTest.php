@@ -30,7 +30,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePaie() {
+    public function testSetDatePaie(): void {
 
         // Set a Date/time mock.
         $datePaie = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEuroOuFranc() {
+    public function testSetEuroOuFranc(): void {
 
         $obj = new SalairesAttestation();
 
@@ -59,7 +59,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeuresTrav() {
+    public function testSetHeuresTrav(): void {
 
         $obj = new SalairesAttestation();
 
@@ -72,7 +72,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJoursNonPayes() {
+    public function testSetJoursNonPayes(): void {
 
         $obj = new SalairesAttestation();
 
@@ -85,7 +85,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new SalairesAttestation();
 
@@ -98,7 +98,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new SalairesAttestation();
 
@@ -111,7 +111,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservation() {
+    public function testSetObservation(): void {
 
         $obj = new SalairesAttestation();
 
@@ -125,7 +125,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -142,7 +142,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -158,7 +158,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrecompte() {
+    public function testSetPrecompte(): void {
 
         $obj = new SalairesAttestation();
 
@@ -171,7 +171,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireBrut() {
+    public function testSetSalaireBrut(): void {
 
         $obj = new SalairesAttestation();
 
@@ -184,7 +184,7 @@ class SalairesAttestationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SalairesAttestation();
 

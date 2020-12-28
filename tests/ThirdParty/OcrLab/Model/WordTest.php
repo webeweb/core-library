@@ -28,7 +28,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOcrConfidence() {
+    public function testSetOcrConfidence(): void {
 
         $obj = new Word();
 
@@ -41,7 +41,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetX1() {
+    public function testSetX1(): void {
 
         $obj = new Word();
 
@@ -54,7 +54,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetX2() {
+    public function testSetX2(): void {
 
         $obj = new Word();
 
@@ -67,7 +67,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetY1() {
+    public function testSetY1(): void {
 
         $obj = new Word();
 
@@ -80,7 +80,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetY2() {
+    public function testSetY2(): void {
 
         $obj = new Word();
 
@@ -93,7 +93,7 @@ class WordTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $this->assertEquals("LB", Word::TYPE_LINE_BREAK);
         $this->assertEquals("NLB", Word::TYPE_NO_LINE_BREAK);

@@ -24,16 +24,16 @@ trait DateTimeDateTrait {
     /**
      * Date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     protected $date;
 
     /**
      * Get the date.
      *
-     * @return DateTime Returns the date.
+     * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -42,7 +42,7 @@ trait DateTimeDateTrait {
      *
      * @param DateTime|null $date The date.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date) {
         $this->date = $date;
         return $this;
     }

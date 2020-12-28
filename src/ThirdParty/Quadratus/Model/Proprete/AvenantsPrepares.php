@@ -24,28 +24,28 @@ class AvenantsPrepares {
     /**
      * Chrono.
      *
-     * @var string
+     * @var string|null
      */
     private $chrono;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Continuer verif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $continuerVerif;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
@@ -59,57 +59,58 @@ class AvenantsPrepares {
     /**
      * Prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $prenom;
 
     /**
      * Type document.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDocument;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chrono.
      *
-     * @return string Returns the chrono.
+     * @return string|null Returns the chrono.
      */
-    public function getChrono() {
+    public function getChrono(): ?string{
         return $this->chrono;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the continuer verif.
      *
-     * @return bool Returns the continuer verif.
+     * @return bool|null Returns the continuer verif.
      */
-    public function getContinuerVerif() {
+    public function getContinuerVerif(): ?bool{
         return $this->continuerVerif;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
@@ -118,35 +119,35 @@ class AvenantsPrepares {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the prenom.
      *
-     * @return string Returns the prenom.
+     * @return string|null Returns the prenom.
      */
-    public function getPrenom() {
+    public function getPrenom(): ?string{
         return $this->prenom;
     }
 
     /**
      * Get the type document.
      *
-     * @return string Returns the type document.
+     * @return string|null Returns the type document.
      */
-    public function getTypeDocument() {
+    public function getTypeDocument(): ?string{
         return $this->typeDocument;
     }
 
     /**
      * Set the chrono.
      *
-     * @param string $chrono The chrono.
+     * @param string|null $chrono The chrono.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setChrono($chrono) {
+    public function setChrono(?string $chrono): AvenantsPrepares {
         $this->chrono = $chrono;
         return $this;
     }
@@ -154,10 +155,10 @@ class AvenantsPrepares {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): AvenantsPrepares {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -165,10 +166,10 @@ class AvenantsPrepares {
     /**
      * Set the continuer verif.
      *
-     * @param bool $continuerVerif The continuer verif.
+     * @param bool|null $continuerVerif The continuer verif.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setContinuerVerif($continuerVerif) {
+    public function setContinuerVerif(?bool $continuerVerif): AvenantsPrepares {
         $this->continuerVerif = $continuerVerif;
         return $this;
     }
@@ -176,10 +177,10 @@ class AvenantsPrepares {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): AvenantsPrepares {
         $this->nom = $nom;
         return $this;
     }
@@ -190,7 +191,7 @@ class AvenantsPrepares {
      * @param DateTime|null $periode The periode.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): AvenantsPrepares {
         $this->periode = $periode;
         return $this;
     }
@@ -198,10 +199,10 @@ class AvenantsPrepares {
     /**
      * Set the prenom.
      *
-     * @param string $prenom The prenom.
+     * @param string|null $prenom The prenom.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setPrenom($prenom) {
+    public function setPrenom(?string $prenom): AvenantsPrepares {
         $this->prenom = $prenom;
         return $this;
     }
@@ -209,10 +210,10 @@ class AvenantsPrepares {
     /**
      * Set the type document.
      *
-     * @param string $typeDocument The type document.
+     * @param string|null $typeDocument The type document.
      * @return AvenantsPrepares Returns this Avenants prepares.
      */
-    public function setTypeDocument($typeDocument) {
+    public function setTypeDocument(?string $typeDocument): AvenantsPrepares {
         $this->typeDocument = $typeDocument;
         return $this;
     }

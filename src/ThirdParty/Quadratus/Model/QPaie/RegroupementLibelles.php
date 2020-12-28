@@ -22,49 +22,50 @@ class RegroupementLibelles {
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Num regroupement.
      *
-     * @var int
+     * @var int|null
      */
     private $numRegroupement;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the num regroupement.
      *
-     * @return int Returns the num regroupement.
+     * @return int|null Returns the num regroupement.
      */
-    public function getNumRegroupement() {
+    public function getNumRegroupement(): ?int{
         return $this->numRegroupement;
     }
 
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return RegroupementLibelles Returns this Regroupement libelles.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): RegroupementLibelles {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -72,10 +73,10 @@ class RegroupementLibelles {
     /**
      * Set the num regroupement.
      *
-     * @param int $numRegroupement The num regroupement.
+     * @param int|null $numRegroupement The num regroupement.
      * @return RegroupementLibelles Returns this Regroupement libelles.
      */
-    public function setNumRegroupement($numRegroupement) {
+    public function setNumRegroupement(?int $numRegroupement): RegroupementLibelles {
         $this->numRegroupement = $numRegroupement;
         return $this;
     }

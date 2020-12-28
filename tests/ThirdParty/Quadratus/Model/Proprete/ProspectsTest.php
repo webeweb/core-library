@@ -27,7 +27,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new Prospects();
 
@@ -40,7 +40,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new Prospects();
 
@@ -53,7 +53,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new Prospects();
 
@@ -66,7 +66,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProspect() {
+    public function testSetCodeProspect(): void {
 
         $obj = new Prospects();
 
@@ -79,7 +79,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new Prospects();
 
@@ -92,7 +92,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new Prospects();
 
@@ -105,7 +105,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new Prospects();
 
@@ -118,7 +118,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite2() {
+    public function testSetNomSuite2(): void {
 
         $obj = new Prospects();
 
@@ -131,7 +131,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite3() {
+    public function testSetNomSuite3(): void {
 
         $obj = new Prospects();
 
@@ -144,7 +144,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new Prospects();
 
@@ -157,7 +157,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new Prospects();
 
@@ -170,7 +170,7 @@ class ProspectsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Prospects();
 

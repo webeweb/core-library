@@ -22,33 +22,34 @@ class QuadraDb {
     /**
      * Version.
      *
-     * @var int
+     * @var int|null
      */
     private $version;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the version.
      *
-     * @return int Returns the version.
+     * @return int|null Returns the version.
      */
-    public function getVersion() {
+    public function getVersion(): ?int{
         return $this->version;
     }
 
     /**
      * Set the version.
      *
-     * @param int $version The version.
+     * @param int|null $version The version.
      * @return QuadraDb Returns this Quadra db.
      */
-    public function setVersion($version) {
+    public function setVersion(?int $version): QuadraDb {
         $this->version = $version;
         return $this;
     }

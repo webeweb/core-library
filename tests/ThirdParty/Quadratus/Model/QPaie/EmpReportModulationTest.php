@@ -30,7 +30,7 @@ class EmpReportModulationTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class EmpReportModulationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpReportModulation();
 
@@ -59,7 +59,7 @@ class EmpReportModulationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReportModAnt() {
+    public function testSetReportModAnt(): void {
 
         $obj = new EmpReportModulation();
 
@@ -72,7 +72,7 @@ class EmpReportModulationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpReportModulation();
 

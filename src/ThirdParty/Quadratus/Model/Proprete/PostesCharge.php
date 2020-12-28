@@ -22,113 +22,114 @@ class PostesCharge {
     /**
      * Actif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $actif;
 
     /**
      * Code charge.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCharge;
 
     /**
      * Dern poste affecte.
      *
-     * @var string
+     * @var string|null
      */
     private $dernPosteAffecte;
 
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     private $description;
 
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Type prorata.
      *
-     * @var string
+     * @var string|null
      */
     private $typeProrata;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the actif.
      *
-     * @return bool Returns the actif.
+     * @return bool|null Returns the actif.
      */
-    public function getActif() {
+    public function getActif(): ?bool{
         return $this->actif;
     }
 
     /**
      * Get the code charge.
      *
-     * @return string Returns the code charge.
+     * @return string|null Returns the code charge.
      */
-    public function getCodeCharge() {
+    public function getCodeCharge(): ?string{
         return $this->codeCharge;
     }
 
     /**
      * Get the dern poste affecte.
      *
-     * @return string Returns the dern poste affecte.
+     * @return string|null Returns the dern poste affecte.
      */
-    public function getDernPosteAffecte() {
+    public function getDernPosteAffecte(): ?string{
         return $this->dernPosteAffecte;
     }
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string{
         return $this->description;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the type prorata.
      *
-     * @return string Returns the type prorata.
+     * @return string|null Returns the type prorata.
      */
-    public function getTypeProrata() {
+    public function getTypeProrata(): ?string{
         return $this->typeProrata;
     }
 
     /**
      * Set the actif.
      *
-     * @param bool $actif The actif.
+     * @param bool|null $actif The actif.
      * @return PostesCharge Returns this Postes charge.
      */
-    public function setActif($actif) {
+    public function setActif(?bool $actif): PostesCharge {
         $this->actif = $actif;
         return $this;
     }
@@ -136,10 +137,10 @@ class PostesCharge {
     /**
      * Set the code charge.
      *
-     * @param string $codeCharge The code charge.
+     * @param string|null $codeCharge The code charge.
      * @return PostesCharge Returns this Postes charge.
      */
-    public function setCodeCharge($codeCharge) {
+    public function setCodeCharge(?string $codeCharge): PostesCharge {
         $this->codeCharge = $codeCharge;
         return $this;
     }
@@ -147,10 +148,10 @@ class PostesCharge {
     /**
      * Set the dern poste affecte.
      *
-     * @param string $dernPosteAffecte The dern poste affecte.
+     * @param string|null $dernPosteAffecte The dern poste affecte.
      * @return PostesCharge Returns this Postes charge.
      */
-    public function setDernPosteAffecte($dernPosteAffecte) {
+    public function setDernPosteAffecte(?string $dernPosteAffecte): PostesCharge {
         $this->dernPosteAffecte = $dernPosteAffecte;
         return $this;
     }
@@ -158,10 +159,10 @@ class PostesCharge {
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      * @return PostesCharge Returns this Postes charge.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description): PostesCharge {
         $this->description = $description;
         return $this;
     }
@@ -169,10 +170,10 @@ class PostesCharge {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return PostesCharge Returns this Postes charge.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): PostesCharge {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -180,10 +181,10 @@ class PostesCharge {
     /**
      * Set the type prorata.
      *
-     * @param string $typeProrata The type prorata.
+     * @param string|null $typeProrata The type prorata.
      * @return PostesCharge Returns this Postes charge.
      */
-    public function setTypeProrata($typeProrata) {
+    public function setTypeProrata(?string $typeProrata): PostesCharge {
         $this->typeProrata = $typeProrata;
         return $this;
     }

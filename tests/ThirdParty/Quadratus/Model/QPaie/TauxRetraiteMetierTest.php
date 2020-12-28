@@ -27,7 +27,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActive() {
+    public function testSetActive(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -40,7 +40,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarie() {
+    public function testSetCategSalarie(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -53,7 +53,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite() {
+    public function testSetCodeActivite(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -66,7 +66,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDucs() {
+    public function testSetCodeDucs(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -79,7 +79,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEditionHisto() {
+    public function testSetCodeEditionHisto(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -92,7 +92,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -105,7 +105,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMetier() {
+    public function testSetCodeMetier(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -118,7 +118,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -131,7 +131,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteCharge() {
+    public function testSetCompteCharge(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -144,7 +144,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionSpec() {
+    public function testSetConditionSpec(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -157,7 +157,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLoiTepa() {
+    public function testSetExclureLoiTepa(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -170,7 +170,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceCateg() {
+    public function testSetIndiceCateg(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -183,7 +183,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleBul() {
+    public function testSetLibelleBul(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -196,7 +196,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -209,7 +209,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiantCotis() {
+    public function testSetQualifiantCotis(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -222,7 +222,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLibelle() {
+    public function testSetTypeLibelle(): void {
 
         $obj = new TauxRetraiteMetier();
 
@@ -235,7 +235,7 @@ class TauxRetraiteMetierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TauxRetraiteMetier();
 

@@ -24,70 +24,70 @@ class DecTvaUlt {
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
     /**
      * Code tva.
      *
-     * @var int
+     * @var int|null
      */
     private $codeTva;
 
     /**
      * Compteur.
      *
-     * @var int
+     * @var int|null
      */
     private $compteur;
 
     /**
      * Folio.
      *
-     * @var int
+     * @var int|null
      */
     private $folio;
 
     /**
      * Libelle ecr.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleEcr;
 
     /**
      * Ligne folio.
      *
-     * @var int
+     * @var int|null
      */
     private $ligneFolio;
 
     /**
      * Montant ht.
      *
-     * @var float
+     * @var float|null
      */
     private $montantHt;
 
     /**
      * Montant tva.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTva;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Num uniq ecr.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniqEcr;
 
@@ -112,100 +112,101 @@ class DecTvaUlt {
      */
     private $periodeEcriture;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
     /**
      * Get the code tva.
      *
-     * @return int Returns the code tva.
+     * @return int|null Returns the code tva.
      */
-    public function getCodeTva() {
+    public function getCodeTva(): ?int{
         return $this->codeTva;
     }
 
     /**
      * Get the compteur.
      *
-     * @return int Returns the compteur.
+     * @return int|null Returns the compteur.
      */
-    public function getCompteur() {
+    public function getCompteur(): ?int{
         return $this->compteur;
     }
 
     /**
      * Get the folio.
      *
-     * @return int Returns the folio.
+     * @return int|null Returns the folio.
      */
-    public function getFolio() {
+    public function getFolio(): ?int{
         return $this->folio;
     }
 
     /**
      * Get the libelle ecr.
      *
-     * @return string Returns the libelle ecr.
+     * @return string|null Returns the libelle ecr.
      */
-    public function getLibelleEcr() {
+    public function getLibelleEcr(): ?string{
         return $this->libelleEcr;
     }
 
     /**
      * Get the ligne folio.
      *
-     * @return int Returns the ligne folio.
+     * @return int|null Returns the ligne folio.
      */
-    public function getLigneFolio() {
+    public function getLigneFolio(): ?int{
         return $this->ligneFolio;
     }
 
     /**
      * Get the montant ht.
      *
-     * @return float Returns the montant ht.
+     * @return float|null Returns the montant ht.
      */
-    public function getMontantHt() {
+    public function getMontantHt(): ?float{
         return $this->montantHt;
     }
 
     /**
      * Get the montant tva.
      *
-     * @return float Returns the montant tva.
+     * @return float|null Returns the montant tva.
      */
-    public function getMontantTva() {
+    public function getMontantTva(): ?float{
         return $this->montantTva;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the num uniq ecr.
      *
-     * @return int Returns the num uniq ecr.
+     * @return int|null Returns the num uniq ecr.
      */
-    public function getNumUniqEcr() {
+    public function getNumUniqEcr(): ?int{
         return $this->numUniqEcr;
     }
 
@@ -214,7 +215,7 @@ class DecTvaUlt {
      *
      * @return DateTime|null Returns the per dec.
      */
-    public function getPerDec() {
+    public function getPerDec(): ?DateTime{
         return $this->perDec;
     }
 
@@ -223,7 +224,7 @@ class DecTvaUlt {
      *
      * @return DateTime|null Returns the per dec ult.
      */
-    public function getPerDecUlt() {
+    public function getPerDecUlt(): ?DateTime{
         return $this->perDecUlt;
     }
 
@@ -232,17 +233,17 @@ class DecTvaUlt {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture() {
+    public function getPeriodeEcriture(): ?DateTime{
         return $this->periodeEcriture;
     }
 
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): DecTvaUlt {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -250,10 +251,10 @@ class DecTvaUlt {
     /**
      * Set the code tva.
      *
-     * @param int $codeTva The code tva.
+     * @param int|null $codeTva The code tva.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setCodeTva($codeTva) {
+    public function setCodeTva(?int $codeTva): DecTvaUlt {
         $this->codeTva = $codeTva;
         return $this;
     }
@@ -261,10 +262,10 @@ class DecTvaUlt {
     /**
      * Set the compteur.
      *
-     * @param int $compteur The compteur.
+     * @param int|null $compteur The compteur.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setCompteur($compteur) {
+    public function setCompteur(?int $compteur): DecTvaUlt {
         $this->compteur = $compteur;
         return $this;
     }
@@ -272,10 +273,10 @@ class DecTvaUlt {
     /**
      * Set the folio.
      *
-     * @param int $folio The folio.
+     * @param int|null $folio The folio.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setFolio($folio) {
+    public function setFolio(?int $folio): DecTvaUlt {
         $this->folio = $folio;
         return $this;
     }
@@ -283,10 +284,10 @@ class DecTvaUlt {
     /**
      * Set the libelle ecr.
      *
-     * @param string $libelleEcr The libelle ecr.
+     * @param string|null $libelleEcr The libelle ecr.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setLibelleEcr($libelleEcr) {
+    public function setLibelleEcr(?string $libelleEcr): DecTvaUlt {
         $this->libelleEcr = $libelleEcr;
         return $this;
     }
@@ -294,10 +295,10 @@ class DecTvaUlt {
     /**
      * Set the ligne folio.
      *
-     * @param int $ligneFolio The ligne folio.
+     * @param int|null $ligneFolio The ligne folio.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setLigneFolio($ligneFolio) {
+    public function setLigneFolio(?int $ligneFolio): DecTvaUlt {
         $this->ligneFolio = $ligneFolio;
         return $this;
     }
@@ -305,10 +306,10 @@ class DecTvaUlt {
     /**
      * Set the montant ht.
      *
-     * @param float $montantHt The montant ht.
+     * @param float|null $montantHt The montant ht.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setMontantHt($montantHt) {
+    public function setMontantHt(?float $montantHt): DecTvaUlt {
         $this->montantHt = $montantHt;
         return $this;
     }
@@ -316,10 +317,10 @@ class DecTvaUlt {
     /**
      * Set the montant tva.
      *
-     * @param float $montantTva The montant tva.
+     * @param float|null $montantTva The montant tva.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setMontantTva($montantTva) {
+    public function setMontantTva(?float $montantTva): DecTvaUlt {
         $this->montantTva = $montantTva;
         return $this;
     }
@@ -327,10 +328,10 @@ class DecTvaUlt {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): DecTvaUlt {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -338,10 +339,10 @@ class DecTvaUlt {
     /**
      * Set the num uniq ecr.
      *
-     * @param int $numUniqEcr The num uniq ecr.
+     * @param int|null $numUniqEcr The num uniq ecr.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setNumUniqEcr($numUniqEcr) {
+    public function setNumUniqEcr(?int $numUniqEcr): DecTvaUlt {
         $this->numUniqEcr = $numUniqEcr;
         return $this;
     }
@@ -352,7 +353,7 @@ class DecTvaUlt {
      * @param DateTime|null $perDec The per dec.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setPerDec(DateTime $perDec = null) {
+    public function setPerDec(?DateTime $perDec): DecTvaUlt {
         $this->perDec = $perDec;
         return $this;
     }
@@ -363,7 +364,7 @@ class DecTvaUlt {
      * @param DateTime|null $perDecUlt The per dec ult.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setPerDecUlt(DateTime $perDecUlt = null) {
+    public function setPerDecUlt(?DateTime $perDecUlt): DecTvaUlt {
         $this->perDecUlt = $perDecUlt;
         return $this;
     }
@@ -374,7 +375,7 @@ class DecTvaUlt {
      * @param DateTime|null $periodeEcriture The periode ecriture.
      * @return DecTvaUlt Returns this Dec tva ult.
      */
-    public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
+    public function setPeriodeEcriture(?DateTime $periodeEcriture): DecTvaUlt {
         $this->periodeEcriture = $periodeEcriture;
         return $this;
     }

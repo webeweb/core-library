@@ -22,25 +22,25 @@ trait IntegerMaritalStatusTrait {
     /**
      * Marital status.
      *
-     * @var int
+     * @var int|null
      */
     protected $maritalStatus;
 
     /**
      * Get the marital status.
      *
-     * @return int Returns the marital status.
+     * @return int|null Returns the marital status.
      */
-    public function getMaritalStatus() {
+    public function getMaritalStatus(): ?int {
         return $this->maritalStatus;
     }
 
     /**
      * Set the marital status.
      *
-     * @param int $maritalStatus The marital status.
+     * @param int|null $maritalStatus The marital status.
      */
-    public function setMaritalStatus($maritalStatus) {
+    public function setMaritalStatus(?int $maritalStatus) {
         $this->maritalStatus = $maritalStatus;
         return $this;
     }

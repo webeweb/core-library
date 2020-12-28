@@ -27,7 +27,7 @@ class FloatAverageTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAverage() {
+    public function testSetAverage(): void {
 
         $obj = new TestFloatAverageTrait();
 
@@ -40,7 +40,7 @@ class FloatAverageTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatAverageTrait();
 

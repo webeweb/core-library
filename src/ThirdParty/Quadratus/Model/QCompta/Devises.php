@@ -24,7 +24,7 @@ class Devises {
     /**
      * Code devise.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDevise;
 
@@ -38,23 +38,24 @@ class Devises {
     /**
      * Taux.
      *
-     * @var float
+     * @var float|null
      */
     private $taux;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code devise.
      *
-     * @return string Returns the code devise.
+     * @return string|null Returns the code devise.
      */
-    public function getCodeDevise() {
+    public function getCodeDevise(): ?string{
         return $this->codeDevise;
     }
 
@@ -63,26 +64,26 @@ class Devises {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the taux.
      *
-     * @return float Returns the taux.
+     * @return float|null Returns the taux.
      */
-    public function getTaux() {
+    public function getTaux(): ?float{
         return $this->taux;
     }
 
     /**
      * Set the code devise.
      *
-     * @param string $codeDevise The code devise.
+     * @param string|null $codeDevise The code devise.
      * @return Devises Returns this Devises.
      */
-    public function setCodeDevise($codeDevise) {
+    public function setCodeDevise(?string $codeDevise): Devises {
         $this->codeDevise = $codeDevise;
         return $this;
     }
@@ -93,7 +94,7 @@ class Devises {
      * @param DateTime|null $date The date.
      * @return Devises Returns this Devises.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): Devises {
         $this->date = $date;
         return $this;
     }
@@ -101,10 +102,10 @@ class Devises {
     /**
      * Set the taux.
      *
-     * @param float $taux The taux.
+     * @param float|null $taux The taux.
      * @return Devises Returns this Devises.
      */
-    public function setTaux($taux) {
+    public function setTaux(?float $taux): Devises {
         $this->taux = $taux;
         return $this;
     }

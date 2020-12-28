@@ -27,7 +27,7 @@ class CollabVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new CollabVisuTaches();
 
@@ -40,7 +40,7 @@ class CollabVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheVisu() {
+    public function testSetCodeTacheVisu(): void {
 
         $obj = new CollabVisuTaches();
 
@@ -53,7 +53,7 @@ class CollabVisuTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CollabVisuTaches();
 

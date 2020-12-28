@@ -29,7 +29,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChrono() {
+    public function testSetChrono(): void {
 
         $obj = new Documents();
 
@@ -42,7 +42,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Documents();
 
@@ -55,7 +55,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new Documents();
 
@@ -69,7 +69,7 @@ class DocumentsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateHeureSys() {
+    public function testSetDateHeureSys(): void {
 
         // Set a Date/time mock.
         $dateHeureSys = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Documents();
 
@@ -98,7 +98,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new Documents();
 
@@ -111,7 +111,7 @@ class DocumentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Documents();
 

@@ -24,14 +24,14 @@ class PostIt {
     /**
      * Code coll dest.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollDest;
 
     /**
      * Code coll org.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollOrg;
 
@@ -52,28 +52,28 @@ class PostIt {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Ref guid.
      *
-     * @var string
+     * @var string|null
      */
     private $refGuid;
 
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     private $type;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
@@ -81,24 +81,24 @@ class PostIt {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code coll dest.
      *
-     * @return string Returns the code coll dest.
+     * @return string|null Returns the code coll dest.
      */
-    public function getCodeCollDest() {
+    public function getCodeCollDest(): ?string {
         return $this->codeCollDest;
     }
 
     /**
      * Get the code coll org.
      *
-     * @return string Returns the code coll org.
+     * @return string|null Returns the code coll org.
      */
-    public function getCodeCollOrg() {
+    public function getCodeCollOrg(): ?string {
         return $this->codeCollOrg;
     }
 
@@ -107,7 +107,7 @@ class PostIt {
      *
      * @return DateTime|null Returns the date heure.
      */
-    public function getDateHeure() {
+    public function getDateHeure(): ?DateTime {
         return $this->dateHeure;
     }
 
@@ -116,53 +116,53 @@ class PostIt {
      *
      * @return DateTime|null Returns the date sys saisie.
      */
-    public function getDateSysSaisie() {
+    public function getDateSysSaisie(): ?DateTime {
         return $this->dateSysSaisie;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the ref guid.
      *
-     * @return string Returns the ref guid.
+     * @return string|null Returns the ref guid.
      */
-    public function getRefGuid() {
+    public function getRefGuid(): ?string {
         return $this->refGuid;
     }
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int {
         return $this->type;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
     /**
      * Set the code coll dest.
      *
-     * @param string $codeCollDest The code coll dest.
+     * @param string|null $codeCollDest The code coll dest.
      * @return PostIt Returns this Post it.
      */
-    public function setCodeCollDest($codeCollDest) {
+    public function setCodeCollDest(?string $codeCollDest): PostIt {
         $this->codeCollDest = $codeCollDest;
         return $this;
     }
@@ -170,10 +170,10 @@ class PostIt {
     /**
      * Set the code coll org.
      *
-     * @param string $codeCollOrg The code coll org.
+     * @param string|null $codeCollOrg The code coll org.
      * @return PostIt Returns this Post it.
      */
-    public function setCodeCollOrg($codeCollOrg) {
+    public function setCodeCollOrg(?string $codeCollOrg): PostIt {
         $this->codeCollOrg = $codeCollOrg;
         return $this;
     }
@@ -184,7 +184,7 @@ class PostIt {
      * @param DateTime|null $dateHeure The date heure.
      * @return PostIt Returns this Post it.
      */
-    public function setDateHeure(DateTime $dateHeure = null) {
+    public function setDateHeure(?DateTime $dateHeure): PostIt {
         $this->dateHeure = $dateHeure;
         return $this;
     }
@@ -195,7 +195,7 @@ class PostIt {
      * @param DateTime|null $dateSysSaisie The date sys saisie.
      * @return PostIt Returns this Post it.
      */
-    public function setDateSysSaisie(DateTime $dateSysSaisie = null) {
+    public function setDateSysSaisie(?DateTime $dateSysSaisie): PostIt {
         $this->dateSysSaisie = $dateSysSaisie;
         return $this;
     }
@@ -203,10 +203,10 @@ class PostIt {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return PostIt Returns this Post it.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): PostIt {
         $this->libelle = $libelle;
         return $this;
     }
@@ -214,10 +214,10 @@ class PostIt {
     /**
      * Set the ref guid.
      *
-     * @param string $refGuid The ref guid.
+     * @param string|null $refGuid The ref guid.
      * @return PostIt Returns this Post it.
      */
-    public function setRefGuid($refGuid) {
+    public function setRefGuid(?string $refGuid): PostIt {
         $this->refGuid = $refGuid;
         return $this;
     }
@@ -225,10 +225,10 @@ class PostIt {
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      * @return PostIt Returns this Post it.
      */
-    public function setType($type) {
+    public function setType(?int $type): PostIt {
         $this->type = $type;
         return $this;
     }
@@ -236,10 +236,10 @@ class PostIt {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return PostIt Returns this Post it.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): PostIt {
         $this->uniqId = $uniqId;
         return $this;
     }

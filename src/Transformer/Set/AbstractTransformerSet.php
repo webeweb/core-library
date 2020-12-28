@@ -37,24 +37,24 @@ abstract class AbstractTransformerSet implements TransformerSetInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function addTransformer(TransformerInterface $transformer) {
+    public function addTransformer(TransformerInterface $transformer): TransformerSetInterface {
         $this->transformers[] = $transformer;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getTransformers() {
+    public function getTransformers(): array {
         return $this->transformers;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function removeTransformer(TransformerInterface $transformer) {
+    public function removeTransformer(TransformerInterface $transformer): TransformerSetInterface {
 
         $count = count($this->transformers);
         for ($i = $count - 1; 0 <= $i; --$i) {
@@ -75,13 +75,13 @@ abstract class AbstractTransformerSet implements TransformerSetInterface {
      * @param TransformerInterface[] $transformers The transformers.
      * @return TransformerSetInterface Returns this transformer set.
      */
-    protected function setTransformers(array $transformers) {
+    protected function setTransformers(array $transformers): TransformerSetInterface {
         $this->transformers = $transformers;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function transform($value) {
 

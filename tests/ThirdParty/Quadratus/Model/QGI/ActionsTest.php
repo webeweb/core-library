@@ -27,7 +27,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new Actions();
 
@@ -40,7 +40,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCalcul() {
+    public function testSetCodeCalcul(): void {
 
         $obj = new Actions();
 
@@ -53,7 +53,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptifCourt() {
+    public function testSetDescriptifCourt(): void {
 
         $obj = new Actions();
 
@@ -66,7 +66,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptifLong() {
+    public function testSetDescriptifLong(): void {
 
         $obj = new Actions();
 
@@ -79,7 +79,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObligationLiee() {
+    public function testSetObligationLiee(): void {
 
         $obj = new Actions();
 
@@ -92,7 +92,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantiteHeure() {
+    public function testSetQuantiteHeure(): void {
 
         $obj = new Actions();
 
@@ -105,7 +105,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRelationQh() {
+    public function testSetRelationQh(): void {
 
         $obj = new Actions();
 
@@ -118,7 +118,7 @@ class ActionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Actions();
 

@@ -29,7 +29,7 @@ class PrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new Previsionnel();
 
@@ -43,7 +43,7 @@ class PrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class PrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutSemaine() {
+    public function testSetDebutSemaine(): void {
 
         // Set a Date/time mock.
         $debutSemaine = new DateTime("2018-09-10");
@@ -76,7 +76,7 @@ class PrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHorairePrevu() {
+    public function testSetHorairePrevu(): void {
 
         $obj = new Previsionnel();
 
@@ -89,7 +89,7 @@ class PrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroGrilleType() {
+    public function testSetNumeroGrilleType(): void {
 
         $obj = new Previsionnel();
 
@@ -102,7 +102,7 @@ class PrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroSemaine() {
+    public function testSetNumeroSemaine(): void {
 
         $obj = new Previsionnel();
 
@@ -115,7 +115,7 @@ class PrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Previsionnel();
 

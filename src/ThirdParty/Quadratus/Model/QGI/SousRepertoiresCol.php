@@ -22,65 +22,66 @@ class SousRepertoiresCol {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Num sous rep.
      *
-     * @var int
+     * @var int|null
      */
     private $numSousRep;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
     /**
      * Get the num sous rep.
      *
-     * @return int Returns the num sous rep.
+     * @return int|null Returns the num sous rep.
      */
-    public function getNumSousRep() {
+    public function getNumSousRep(): ?int{
         return $this->numSousRep;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return SousRepertoiresCol Returns this Sous repertoires col.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): SousRepertoiresCol {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -88,10 +89,10 @@ class SousRepertoiresCol {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return SousRepertoiresCol Returns this Sous repertoires col.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): SousRepertoiresCol {
         $this->nom = $nom;
         return $this;
     }
@@ -99,10 +100,10 @@ class SousRepertoiresCol {
     /**
      * Set the num sous rep.
      *
-     * @param int $numSousRep The num sous rep.
+     * @param int|null $numSousRep The num sous rep.
      * @return SousRepertoiresCol Returns this Sous repertoires col.
      */
-    public function setNumSousRep($numSousRep) {
+    public function setNumSousRep(?int $numSousRep): SousRepertoiresCol {
         $this->numSousRep = $numSousRep;
         return $this;
     }

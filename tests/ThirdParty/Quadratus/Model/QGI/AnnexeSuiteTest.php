@@ -27,7 +27,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode1() {
+    public function testSetCode1(): void {
 
         $obj = new AnnexeSuite();
 
@@ -40,7 +40,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode2() {
+    public function testSetCode2(): void {
 
         $obj = new AnnexeSuite();
 
@@ -53,7 +53,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereLibre1() {
+    public function testSetCritereLibre1(): void {
 
         $obj = new AnnexeSuite();
 
@@ -66,7 +66,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereLibre2() {
+    public function testSetCritereLibre2(): void {
 
         $obj = new AnnexeSuite();
 
@@ -79,7 +79,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDestRelance() {
+    public function testSetDestRelance(): void {
 
         $obj = new AnnexeSuite();
 
@@ -92,7 +92,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFax() {
+    public function testSetFax(): void {
 
         $obj = new AnnexeSuite();
 
@@ -105,7 +105,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new AnnexeSuite();
 
@@ -118,7 +118,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new AnnexeSuite();
 
@@ -131,7 +131,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemarquesRtf() {
+    public function testSetRemarquesRtf(): void {
 
         $obj = new AnnexeSuite();
 
@@ -144,7 +144,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new AnnexeSuite();
 
@@ -157,7 +157,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AnnexeSuite();
 
@@ -170,7 +170,7 @@ class AnnexeSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AnnexeSuite();
 

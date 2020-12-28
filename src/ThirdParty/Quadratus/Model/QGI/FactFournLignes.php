@@ -22,161 +22,162 @@ class FactFournLignes {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $collaborateur;
 
     /**
      * Compte.
      *
-     * @var string
+     * @var string|null
      */
     private $compte;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Montant credit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCredit;
 
     /**
      * Montant debit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantDebit;
 
     /**
      * Num entete.
      *
-     * @var string
+     * @var string|null
      */
     private $numEntete;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string{
         return $this->codeMission;
     }
 
     /**
      * Get the collaborateur.
      *
-     * @return string Returns the collaborateur.
+     * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur() {
+    public function getCollaborateur(): ?string{
         return $this->collaborateur;
     }
 
     /**
      * Get the compte.
      *
-     * @return string Returns the compte.
+     * @return string|null Returns the compte.
      */
-    public function getCompte() {
+    public function getCompte(): ?string{
         return $this->compte;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the montant credit.
      *
-     * @return float Returns the montant credit.
+     * @return float|null Returns the montant credit.
      */
-    public function getMontantCredit() {
+    public function getMontantCredit(): ?float{
         return $this->montantCredit;
     }
 
     /**
      * Get the montant debit.
      *
-     * @return float Returns the montant debit.
+     * @return float|null Returns the montant debit.
      */
-    public function getMontantDebit() {
+    public function getMontantDebit(): ?float{
         return $this->montantDebit;
     }
 
     /**
      * Get the num entete.
      *
-     * @return string Returns the num entete.
+     * @return string|null Returns the num entete.
      */
-    public function getNumEntete() {
+    public function getNumEntete(): ?string{
         return $this->numEntete;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FactFournLignes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -184,10 +185,10 @@ class FactFournLignes {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): FactFournLignes {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -195,10 +196,10 @@ class FactFournLignes {
     /**
      * Set the collaborateur.
      *
-     * @param string $collaborateur The collaborateur.
+     * @param string|null $collaborateur The collaborateur.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setCollaborateur($collaborateur) {
+    public function setCollaborateur(?string $collaborateur): FactFournLignes {
         $this->collaborateur = $collaborateur;
         return $this;
     }
@@ -206,10 +207,10 @@ class FactFournLignes {
     /**
      * Set the compte.
      *
-     * @param string $compte The compte.
+     * @param string|null $compte The compte.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setCompte($compte) {
+    public function setCompte(?string $compte): FactFournLignes {
         $this->compte = $compte;
         return $this;
     }
@@ -217,10 +218,10 @@ class FactFournLignes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): FactFournLignes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -228,10 +229,10 @@ class FactFournLignes {
     /**
      * Set the montant credit.
      *
-     * @param float $montantCredit The montant credit.
+     * @param float|null $montantCredit The montant credit.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setMontantCredit($montantCredit) {
+    public function setMontantCredit(?float $montantCredit): FactFournLignes {
         $this->montantCredit = $montantCredit;
         return $this;
     }
@@ -239,10 +240,10 @@ class FactFournLignes {
     /**
      * Set the montant debit.
      *
-     * @param float $montantDebit The montant debit.
+     * @param float|null $montantDebit The montant debit.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setMontantDebit($montantDebit) {
+    public function setMontantDebit(?float $montantDebit): FactFournLignes {
         $this->montantDebit = $montantDebit;
         return $this;
     }
@@ -250,10 +251,10 @@ class FactFournLignes {
     /**
      * Set the num entete.
      *
-     * @param string $numEntete The num entete.
+     * @param string|null $numEntete The num entete.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setNumEntete($numEntete) {
+    public function setNumEntete(?string $numEntete): FactFournLignes {
         $this->numEntete = $numEntete;
         return $this;
     }
@@ -261,10 +262,10 @@ class FactFournLignes {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return FactFournLignes Returns this Fact fourn lignes.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): FactFournLignes {
         $this->numLigne = $numLigne;
         return $this;
     }

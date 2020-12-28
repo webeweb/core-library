@@ -27,7 +27,7 @@ class NotesCategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCategorie() {
+    public function testSetCodeCategorie(): void {
 
         $obj = new NotesCategories();
 
@@ -40,7 +40,7 @@ class NotesCategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new NotesCategories();
 
@@ -53,7 +53,7 @@ class NotesCategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomCategorie() {
+    public function testSetNomCategorie(): void {
 
         $obj = new NotesCategories();
 
@@ -66,7 +66,7 @@ class NotesCategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new NotesCategories();
 
@@ -79,7 +79,7 @@ class NotesCategoriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new NotesCategories();
 

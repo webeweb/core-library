@@ -29,7 +29,7 @@ class JoursFeriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new JoursFeries();
 
@@ -43,7 +43,7 @@ class JoursFeriesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJour() {
+    public function testSetJour(): void {
 
         // Set a Date/time mock.
         $jour = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class JoursFeriesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new JoursFeries();
 

@@ -27,7 +27,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActive() {
+    public function testSetActive(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -40,7 +40,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarie() {
+    public function testSetCategSalarie(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -53,7 +53,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeConvention() {
+    public function testSetCodeConvention(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -66,7 +66,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -79,7 +79,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisSanteAm() {
+    public function testSetFraisSanteAm(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -92,7 +92,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceCateg() {
+    public function testSetIndiceCateg(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -105,7 +105,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -118,7 +118,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new ConventionsColLibelles();
 
@@ -131,7 +131,7 @@ class ConventionsColLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConventionsColLibelles();
 

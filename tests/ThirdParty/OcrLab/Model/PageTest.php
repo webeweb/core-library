@@ -28,7 +28,7 @@ class PageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParent() {
+    public function testSetParent(): void {
 
         // Set a Document mock.
         $document = new Document();
@@ -44,7 +44,7 @@ class PageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResolution() {
+    public function testSetResolution(): void {
 
         $obj = new Page();
 
@@ -57,7 +57,7 @@ class PageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRotation() {
+    public function testSetRotation(): void {
 
         $obj = new Page();
 
@@ -70,7 +70,7 @@ class PageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTag() {
+    public function testSetTag(): void {
 
         $obj = new Page();
 
@@ -83,7 +83,7 @@ class PageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Page();
 

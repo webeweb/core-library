@@ -27,7 +27,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new HoraireTheorique();
 
@@ -40,7 +40,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new HoraireTheorique();
 
@@ -53,7 +53,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreH() {
+    public function testSetNbreH(): void {
 
         $obj = new HoraireTheorique();
 
@@ -66,7 +66,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHDimanche() {
+    public function testSetNbreHDimanche(): void {
 
         $obj = new HoraireTheorique();
 
@@ -79,7 +79,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHJeudi() {
+    public function testSetNbreHJeudi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -92,7 +92,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHLundi() {
+    public function testSetNbreHLundi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -105,7 +105,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMardi() {
+    public function testSetNbreHMardi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -118,7 +118,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMax() {
+    public function testSetNbreHMax(): void {
 
         $obj = new HoraireTheorique();
 
@@ -131,7 +131,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiDimanche() {
+    public function testSetNbreHMaxiDimanche(): void {
 
         $obj = new HoraireTheorique();
 
@@ -144,7 +144,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiJeudi() {
+    public function testSetNbreHMaxiJeudi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -157,7 +157,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiLundi() {
+    public function testSetNbreHMaxiLundi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -170,7 +170,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiMardi() {
+    public function testSetNbreHMaxiMardi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -183,7 +183,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiMercredi() {
+    public function testSetNbreHMaxiMercredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -196,7 +196,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiSamedi() {
+    public function testSetNbreHMaxiSamedi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -209,7 +209,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMaxiVendredi() {
+    public function testSetNbreHMaxiVendredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -222,7 +222,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMercredi() {
+    public function testSetNbreHMercredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -235,7 +235,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMini() {
+    public function testSetNbreHMini(): void {
 
         $obj = new HoraireTheorique();
 
@@ -248,7 +248,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniDimanche() {
+    public function testSetNbreHMiniDimanche(): void {
 
         $obj = new HoraireTheorique();
 
@@ -261,7 +261,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniJeudi() {
+    public function testSetNbreHMiniJeudi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -274,7 +274,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniLundi() {
+    public function testSetNbreHMiniLundi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -287,7 +287,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniMardi() {
+    public function testSetNbreHMiniMardi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -300,7 +300,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniMercredi() {
+    public function testSetNbreHMiniMercredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -313,7 +313,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniSamedi() {
+    public function testSetNbreHMiniSamedi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -326,7 +326,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHMiniVendredi() {
+    public function testSetNbreHMiniVendredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -339,7 +339,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHSamedi() {
+    public function testSetNbreHSamedi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -352,7 +352,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbreHVendredi() {
+    public function testSetNbreHVendredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -365,7 +365,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroSem() {
+    public function testSetNumeroSem(): void {
 
         $obj = new HoraireTheorique();
 
@@ -378,7 +378,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTDimanche() {
+    public function testSetTDimanche(): void {
 
         $obj = new HoraireTheorique();
 
@@ -391,7 +391,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTJeudi() {
+    public function testSetTJeudi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -404,7 +404,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTLundi() {
+    public function testSetTLundi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -417,7 +417,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTMardi() {
+    public function testSetTMardi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -430,7 +430,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTMercredi() {
+    public function testSetTMercredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -443,7 +443,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTSamedi() {
+    public function testSetTSamedi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -456,7 +456,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTVendredi() {
+    public function testSetTVendredi(): void {
 
         $obj = new HoraireTheorique();
 
@@ -469,7 +469,7 @@ class HoraireTheoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HoraireTheorique();
 

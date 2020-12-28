@@ -27,7 +27,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDelegGestion() {
+    public function testSetCodeDelegGestion(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -40,7 +40,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -53,7 +53,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOption() {
+    public function testSetCodeOption(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -66,7 +66,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -79,7 +79,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePopulation() {
+    public function testSetCodePopulation(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -92,7 +92,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -105,7 +105,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodeAffectation() {
+    public function testSetPeriodeAffectation(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -118,7 +118,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualificationFraisSante() {
+    public function testSetQualificationFraisSante(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -131,7 +131,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefContrat() {
+    public function testSetRefContrat(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -144,7 +144,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCotis() {
+    public function testSetTypeCotis(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -157,7 +157,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePopulation() {
+    public function testSetTypePopulation(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -170,7 +170,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteDateAncienBranche() {
+    public function testSetUniteDateAncienBranche(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -183,7 +183,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteDateAncienCollege() {
+    public function testSetUniteDateAncienCollege(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -196,7 +196,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteDateAncienPoste() {
+    public function testSetUniteDateAncienPoste(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -209,7 +209,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUnitePremDateEntree() {
+    public function testSetUnitePremDateEntree(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -222,7 +222,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurCotis() {
+    public function testSetValeurCotis(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -235,7 +235,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurCotisInitiale() {
+    public function testSetValeurCotisInitiale(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 
@@ -248,7 +248,7 @@ class DadsuPrevoyanceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuPrevoyanceLignesContrat();
 

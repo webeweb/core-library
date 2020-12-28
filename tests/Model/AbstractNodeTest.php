@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Node;
+namespace WBW\Library\Core\Tests\Model;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
@@ -27,7 +27,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testAddNode() {
+    public function testAddNode(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -41,7 +41,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testClearNode() {
+    public function testClearNode(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -58,7 +58,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetFirstNode() {
+    public function testGetFirstNode(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -72,7 +72,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetLastNode() {
+    public function testGetLastNode(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -86,7 +86,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetNodeAt() {
+    public function testGetNodeAt(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -102,7 +102,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetNodeById() {
+    public function testGetNodeById(): void {
 
         $obj  = new TestNode("id");
         $add1 = new TestNode("id2");
@@ -121,7 +121,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRemoveNode() {
+    public function testRemoveNode(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -138,7 +138,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSize() {
+    public function testSize(): void {
 
         $obj = new TestNode("id");
         $add = new TestNode("id2");
@@ -154,7 +154,7 @@ class AbstractNodeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TestNode("id");
 

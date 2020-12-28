@@ -29,7 +29,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AgendaFichiers();
 
@@ -43,7 +43,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAjout() {
+    public function testSetDateAjout(): void {
 
         // Set a Date/time mock.
         $dateAjout = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomFichier() {
+    public function testSetNomFichier(): void {
 
         $obj = new AgendaFichiers();
 
@@ -72,7 +72,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigineFichier() {
+    public function testSetOrigineFichier(): void {
 
         $obj = new AgendaFichiers();
 
@@ -85,7 +85,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefGuid() {
+    public function testSetRefGuid(): void {
 
         $obj = new AgendaFichiers();
 
@@ -98,7 +98,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new AgendaFichiers();
 
@@ -111,7 +111,7 @@ class AgendaFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaFichiers();
 

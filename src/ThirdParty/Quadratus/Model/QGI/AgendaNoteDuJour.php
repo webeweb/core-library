@@ -24,14 +24,14 @@ class AgendaNoteDuJour {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -52,32 +52,33 @@ class AgendaNoteDuJour {
     /**
      * Ma j externe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $maJExterne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
@@ -86,7 +87,7 @@ class AgendaNoteDuJour {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
@@ -95,26 +96,26 @@ class AgendaNoteDuJour {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour() {
+    public function getJour(): ?DateTime{
         return $this->jour;
     }
 
     /**
      * Get the ma j externe.
      *
-     * @return bool Returns the ma j externe.
+     * @return bool|null Returns the ma j externe.
      */
-    public function getMaJExterne() {
+    public function getMaJExterne(): ?bool{
         return $this->maJExterne;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): AgendaNoteDuJour {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -122,10 +123,10 @@ class AgendaNoteDuJour {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): AgendaNoteDuJour {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -136,7 +137,7 @@ class AgendaNoteDuJour {
      * @param DateTime|null $dateModif The date modif.
      * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): AgendaNoteDuJour {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -147,7 +148,7 @@ class AgendaNoteDuJour {
      * @param DateTime|null $jour The jour.
      * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
-    public function setJour(DateTime $jour = null) {
+    public function setJour(?DateTime $jour): AgendaNoteDuJour {
         $this->jour = $jour;
         return $this;
     }
@@ -155,10 +156,10 @@ class AgendaNoteDuJour {
     /**
      * Set the ma j externe.
      *
-     * @param bool $maJExterne The ma j externe.
+     * @param bool|null $maJExterne The ma j externe.
      * @return AgendaNoteDuJour Returns this Agenda note du jour.
      */
-    public function setMaJExterne($maJExterne) {
+    public function setMaJExterne(?bool $maJExterne): AgendaNoteDuJour {
         $this->maJExterne = $maJExterne;
         return $this;
     }

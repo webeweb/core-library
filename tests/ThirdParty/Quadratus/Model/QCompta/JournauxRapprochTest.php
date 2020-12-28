@@ -29,7 +29,7 @@ class JournauxRapprochTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new JournauxRapproch();
 
@@ -42,7 +42,7 @@ class JournauxRapprochTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMethode() {
+    public function testSetMethode(): void {
 
         $obj = new JournauxRapproch();
 
@@ -55,7 +55,7 @@ class JournauxRapprochTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasSaisirSoldeFin() {
+    public function testSetNePasSaisirSoldeFin(): void {
 
         $obj = new JournauxRapproch();
 
@@ -69,7 +69,7 @@ class JournauxRapprochTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class JournauxRapprochTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoldeFin() {
+    public function testSetSoldeFin(): void {
 
         $obj = new JournauxRapproch();
 
@@ -98,7 +98,7 @@ class JournauxRapprochTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new JournauxRapproch();
 

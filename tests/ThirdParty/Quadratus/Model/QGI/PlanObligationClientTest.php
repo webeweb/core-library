@@ -29,7 +29,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PlanObligationClient();
 
@@ -42,7 +42,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabSpecif() {
+    public function testSetCodeCollabSpecif(): void {
 
         $obj = new PlanObligationClient();
 
@@ -55,7 +55,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeObligation() {
+    public function testSetCodeObligation(): void {
 
         $obj = new PlanObligationClient();
 
@@ -69,7 +69,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrequence() {
+    public function testSetFrequence(): void {
 
         $obj = new PlanObligationClient();
 
@@ -115,7 +115,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new PlanObligationClient();
 
@@ -128,7 +128,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuiLeFait() {
+    public function testSetQuiLeFait(): void {
 
         $obj = new PlanObligationClient();
 
@@ -141,7 +141,7 @@ class PlanObligationClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PlanObligationClient();
 

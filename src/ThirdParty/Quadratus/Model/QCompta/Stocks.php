@@ -24,49 +24,49 @@ class Stocks {
     /**
      * Annee.
      *
-     * @var string
+     * @var string|null
      */
     private $annee;
 
     /**
      * Centre.
      *
-     * @var string
+     * @var string|null
      */
     private $centre;
 
     /**
      * Libelle ecriture.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleEcriture;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
@@ -80,56 +80,56 @@ class Stocks {
     /**
      * Prix u.
      *
-     * @var float
+     * @var float|null
      */
     private $prixU;
 
     /**
      * Prix u2.
      *
-     * @var float
+     * @var float|null
      */
     private $prixU2;
 
     /**
      * Quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite;
 
     /**
      * Quantite2.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite2;
 
     /**
      * Ref ecr code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $refEcrCodeJournal;
 
     /**
      * Ref ecr folio.
      *
-     * @var int
+     * @var int|null
      */
     private $refEcrFolio;
 
     /**
      * Ref ecr ligne folio.
      *
-     * @var int
+     * @var int|null
      */
     private $refEcrLigneFolio;
 
     /**
      * Ref ecr num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $refEcrNumLigne;
 
@@ -140,73 +140,74 @@ class Stocks {
      */
     private $refEcrPeriodeEcriture;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the annee.
      *
-     * @return string Returns the annee.
+     * @return string|null Returns the annee.
      */
-    public function getAnnee() {
+    public function getAnnee(): ?string{
         return $this->annee;
     }
 
     /**
      * Get the centre.
      *
-     * @return string Returns the centre.
+     * @return string|null Returns the centre.
      */
-    public function getCentre() {
+    public function getCentre(): ?string{
         return $this->centre;
     }
 
     /**
      * Get the libelle ecriture.
      *
-     * @return string Returns the libelle ecriture.
+     * @return string|null Returns the libelle ecriture.
      */
-    public function getLibelleEcriture() {
+    public function getLibelleEcriture(): ?string{
         return $this->libelleEcriture;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
@@ -215,79 +216,79 @@ class Stocks {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the prix u.
      *
-     * @return float Returns the prix u.
+     * @return float|null Returns the prix u.
      */
-    public function getPrixU() {
+    public function getPrixU(): ?float{
         return $this->prixU;
     }
 
     /**
      * Get the prix u2.
      *
-     * @return float Returns the prix u2.
+     * @return float|null Returns the prix u2.
      */
-    public function getPrixU2() {
+    public function getPrixU2(): ?float{
         return $this->prixU2;
     }
 
     /**
      * Get the quantite.
      *
-     * @return float Returns the quantite.
+     * @return float|null Returns the quantite.
      */
-    public function getQuantite() {
+    public function getQuantite(): ?float{
         return $this->quantite;
     }
 
     /**
      * Get the quantite2.
      *
-     * @return float Returns the quantite2.
+     * @return float|null Returns the quantite2.
      */
-    public function getQuantite2() {
+    public function getQuantite2(): ?float{
         return $this->quantite2;
     }
 
     /**
      * Get the ref ecr code journal.
      *
-     * @return string Returns the ref ecr code journal.
+     * @return string|null Returns the ref ecr code journal.
      */
-    public function getRefEcrCodeJournal() {
+    public function getRefEcrCodeJournal(): ?string{
         return $this->refEcrCodeJournal;
     }
 
     /**
      * Get the ref ecr folio.
      *
-     * @return int Returns the ref ecr folio.
+     * @return int|null Returns the ref ecr folio.
      */
-    public function getRefEcrFolio() {
+    public function getRefEcrFolio(): ?int{
         return $this->refEcrFolio;
     }
 
     /**
      * Get the ref ecr ligne folio.
      *
-     * @return int Returns the ref ecr ligne folio.
+     * @return int|null Returns the ref ecr ligne folio.
      */
-    public function getRefEcrLigneFolio() {
+    public function getRefEcrLigneFolio(): ?int{
         return $this->refEcrLigneFolio;
     }
 
     /**
      * Get the ref ecr num ligne.
      *
-     * @return int Returns the ref ecr num ligne.
+     * @return int|null Returns the ref ecr num ligne.
      */
-    public function getRefEcrNumLigne() {
+    public function getRefEcrNumLigne(): ?int{
         return $this->refEcrNumLigne;
     }
 
@@ -296,17 +297,17 @@ class Stocks {
      *
      * @return DateTime|null Returns the ref ecr periode ecriture.
      */
-    public function getRefEcrPeriodeEcriture() {
+    public function getRefEcrPeriodeEcriture(): ?DateTime{
         return $this->refEcrPeriodeEcriture;
     }
 
     /**
      * Set the annee.
      *
-     * @param string $annee The annee.
+     * @param string|null $annee The annee.
      * @return Stocks Returns this Stocks.
      */
-    public function setAnnee($annee) {
+    public function setAnnee(?string $annee): Stocks {
         $this->annee = $annee;
         return $this;
     }
@@ -314,10 +315,10 @@ class Stocks {
     /**
      * Set the centre.
      *
-     * @param string $centre The centre.
+     * @param string|null $centre The centre.
      * @return Stocks Returns this Stocks.
      */
-    public function setCentre($centre) {
+    public function setCentre(?string $centre): Stocks {
         $this->centre = $centre;
         return $this;
     }
@@ -325,10 +326,10 @@ class Stocks {
     /**
      * Set the libelle ecriture.
      *
-     * @param string $libelleEcriture The libelle ecriture.
+     * @param string|null $libelleEcriture The libelle ecriture.
      * @return Stocks Returns this Stocks.
      */
-    public function setLibelleEcriture($libelleEcriture) {
+    public function setLibelleEcriture(?string $libelleEcriture): Stocks {
         $this->libelleEcriture = $libelleEcriture;
         return $this;
     }
@@ -336,10 +337,10 @@ class Stocks {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return Stocks Returns this Stocks.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): Stocks {
         $this->montant = $montant;
         return $this;
     }
@@ -347,10 +348,10 @@ class Stocks {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return Stocks Returns this Stocks.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): Stocks {
         $this->nature = $nature;
         return $this;
     }
@@ -358,10 +359,10 @@ class Stocks {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return Stocks Returns this Stocks.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): Stocks {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -369,10 +370,10 @@ class Stocks {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return Stocks Returns this Stocks.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): Stocks {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -383,7 +384,7 @@ class Stocks {
      * @param DateTime|null $periode The periode.
      * @return Stocks Returns this Stocks.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): Stocks {
         $this->periode = $periode;
         return $this;
     }
@@ -391,10 +392,10 @@ class Stocks {
     /**
      * Set the prix u.
      *
-     * @param float $prixU The prix u.
+     * @param float|null $prixU The prix u.
      * @return Stocks Returns this Stocks.
      */
-    public function setPrixU($prixU) {
+    public function setPrixU(?float $prixU): Stocks {
         $this->prixU = $prixU;
         return $this;
     }
@@ -402,10 +403,10 @@ class Stocks {
     /**
      * Set the prix u2.
      *
-     * @param float $prixU2 The prix u2.
+     * @param float|null $prixU2 The prix u2.
      * @return Stocks Returns this Stocks.
      */
-    public function setPrixU2($prixU2) {
+    public function setPrixU2(?float $prixU2): Stocks {
         $this->prixU2 = $prixU2;
         return $this;
     }
@@ -413,10 +414,10 @@ class Stocks {
     /**
      * Set the quantite.
      *
-     * @param float $quantite The quantite.
+     * @param float|null $quantite The quantite.
      * @return Stocks Returns this Stocks.
      */
-    public function setQuantite($quantite) {
+    public function setQuantite(?float $quantite): Stocks {
         $this->quantite = $quantite;
         return $this;
     }
@@ -424,10 +425,10 @@ class Stocks {
     /**
      * Set the quantite2.
      *
-     * @param float $quantite2 The quantite2.
+     * @param float|null $quantite2 The quantite2.
      * @return Stocks Returns this Stocks.
      */
-    public function setQuantite2($quantite2) {
+    public function setQuantite2(?float $quantite2): Stocks {
         $this->quantite2 = $quantite2;
         return $this;
     }
@@ -435,10 +436,10 @@ class Stocks {
     /**
      * Set the ref ecr code journal.
      *
-     * @param string $refEcrCodeJournal The ref ecr code journal.
+     * @param string|null $refEcrCodeJournal The ref ecr code journal.
      * @return Stocks Returns this Stocks.
      */
-    public function setRefEcrCodeJournal($refEcrCodeJournal) {
+    public function setRefEcrCodeJournal(?string $refEcrCodeJournal): Stocks {
         $this->refEcrCodeJournal = $refEcrCodeJournal;
         return $this;
     }
@@ -446,10 +447,10 @@ class Stocks {
     /**
      * Set the ref ecr folio.
      *
-     * @param int $refEcrFolio The ref ecr folio.
+     * @param int|null $refEcrFolio The ref ecr folio.
      * @return Stocks Returns this Stocks.
      */
-    public function setRefEcrFolio($refEcrFolio) {
+    public function setRefEcrFolio(?int $refEcrFolio): Stocks {
         $this->refEcrFolio = $refEcrFolio;
         return $this;
     }
@@ -457,10 +458,10 @@ class Stocks {
     /**
      * Set the ref ecr ligne folio.
      *
-     * @param int $refEcrLigneFolio The ref ecr ligne folio.
+     * @param int|null $refEcrLigneFolio The ref ecr ligne folio.
      * @return Stocks Returns this Stocks.
      */
-    public function setRefEcrLigneFolio($refEcrLigneFolio) {
+    public function setRefEcrLigneFolio(?int $refEcrLigneFolio): Stocks {
         $this->refEcrLigneFolio = $refEcrLigneFolio;
         return $this;
     }
@@ -468,10 +469,10 @@ class Stocks {
     /**
      * Set the ref ecr num ligne.
      *
-     * @param int $refEcrNumLigne The ref ecr num ligne.
+     * @param int|null $refEcrNumLigne The ref ecr num ligne.
      * @return Stocks Returns this Stocks.
      */
-    public function setRefEcrNumLigne($refEcrNumLigne) {
+    public function setRefEcrNumLigne(?int $refEcrNumLigne): Stocks {
         $this->refEcrNumLigne = $refEcrNumLigne;
         return $this;
     }
@@ -482,7 +483,7 @@ class Stocks {
      * @param DateTime|null $refEcrPeriodeEcriture The ref ecr periode ecriture.
      * @return Stocks Returns this Stocks.
      */
-    public function setRefEcrPeriodeEcriture(DateTime $refEcrPeriodeEcriture = null) {
+    public function setRefEcrPeriodeEcriture(?DateTime $refEcrPeriodeEcriture): Stocks {
         $this->refEcrPeriodeEcriture = $refEcrPeriodeEcriture;
         return $this;
     }

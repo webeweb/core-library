@@ -30,7 +30,7 @@ class NotesFichiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class NotesFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomFichier() {
+    public function testSetNomFichier(): void {
 
         $obj = new NotesFichiers();
 
@@ -59,7 +59,7 @@ class NotesFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumNote() {
+    public function testSetNumNote(): void {
 
         $obj = new NotesFichiers();
 
@@ -72,7 +72,7 @@ class NotesFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigineFichier() {
+    public function testSetOrigineFichier(): void {
 
         $obj = new NotesFichiers();
 
@@ -85,7 +85,7 @@ class NotesFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new NotesFichiers();
 
@@ -98,7 +98,7 @@ class NotesFichiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new NotesFichiers();
 

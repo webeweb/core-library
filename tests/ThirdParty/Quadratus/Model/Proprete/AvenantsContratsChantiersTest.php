@@ -29,7 +29,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAbsence() {
+    public function testSetCodeAbsence(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -42,7 +42,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -55,7 +55,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -68,7 +68,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -81,7 +81,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -94,7 +94,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTitulaire() {
+    public function testSetCodeTitulaire(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -107,7 +107,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAvenant() {
+    public function testSetNumeroAvenant(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -120,7 +120,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -134,7 +134,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetRemplaceAu() {
+    public function testSetRemplaceAu(): void {
 
         // Set a Date/time mock.
         $remplaceAu = new DateTime("2018-09-10");
@@ -151,7 +151,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetRemplaceDu() {
+    public function testSetRemplaceDu(): void {
 
         // Set a Date/time mock.
         $remplaceDu = new DateTime("2018-09-10");
@@ -167,7 +167,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDocument() {
+    public function testSetTypeDocument(): void {
 
         $obj = new AvenantsContratsChantiers();
 
@@ -180,7 +180,7 @@ class AvenantsContratsChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AvenantsContratsChantiers();
 

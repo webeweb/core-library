@@ -22,81 +22,82 @@ class ConfidentialiteZones {
     /**
      * Champ.
      *
-     * @var string
+     * @var string|null
      */
     private $champ;
 
     /**
      * Chapitre.
      *
-     * @var string
+     * @var string|null
      */
     private $chapitre;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the champ.
      *
-     * @return string Returns the champ.
+     * @return string|null Returns the champ.
      */
-    public function getChamp() {
+    public function getChamp(): ?string{
         return $this->champ;
     }
 
     /**
      * Get the chapitre.
      *
-     * @return string Returns the chapitre.
+     * @return string|null Returns the chapitre.
      */
-    public function getChapitre() {
+    public function getChapitre(): ?string{
         return $this->chapitre;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the champ.
      *
-     * @param string $champ The champ.
+     * @param string|null $champ The champ.
      * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
-    public function setChamp($champ) {
+    public function setChamp(?string $champ): ConfidentialiteZones {
         $this->champ = $champ;
         return $this;
     }
@@ -104,10 +105,10 @@ class ConfidentialiteZones {
     /**
      * Set the chapitre.
      *
-     * @param string $chapitre The chapitre.
+     * @param string|null $chapitre The chapitre.
      * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
-    public function setChapitre($chapitre) {
+    public function setChapitre(?string $chapitre): ConfidentialiteZones {
         $this->chapitre = $chapitre;
         return $this;
     }
@@ -115,10 +116,10 @@ class ConfidentialiteZones {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): ConfidentialiteZones {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -126,10 +127,10 @@ class ConfidentialiteZones {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return ConfidentialiteZones Returns this Confidentialite zones.
      */
-    public function setType($type) {
+    public function setType(?string $type): ConfidentialiteZones {
         $this->type = $type;
         return $this;
     }

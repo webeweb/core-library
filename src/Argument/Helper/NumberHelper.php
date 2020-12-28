@@ -28,7 +28,7 @@ class NumberHelper {
      * @return void
      * @throws NumberArgumentException Throws a Number argument exception if the value is not of expected type.
      */
-    public static function isNumber($value) {
+    public static function isNumber($value): void {
         if (false === is_numeric($value)) {
             throw new NumberArgumentException($value);
         }

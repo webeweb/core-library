@@ -30,28 +30,28 @@ class Page {
     /**
      * Parent.
      *
-     * @var Document
+     * @var Document|null
      */
     private $parent;
 
     /**
      * Resolution.
      *
-     * @var int
+     * @var int|null
      */
     private $resolution;
 
     /**
      * Rotation.
      *
-     * @var int
+     * @var int|null
      */
     private $rotation;
 
     /**
      * Tag.
      *
-     * @var int
+     * @var int|null
      */
     private $tag;
 
@@ -65,36 +65,36 @@ class Page {
     /**
      * Get the parent.
      *
-     * @return Document Returns the parent.
+     * @return Document|null Returns the parent.
      */
-    public function getParent() {
+    public function getParent(): ?Document {
         return $this->parent;
     }
 
     /**
      * Get the resolution.
      *
-     * @return int Returns the resolution.
+     * @return int|null Returns the resolution.
      */
-    public function getResolution() {
+    public function getResolution(): ?int {
         return $this->resolution;
     }
 
     /**
      * Get the rotation.
      *
-     * @return int Returns the rotation.
+     * @return int|null Returns the rotation.
      */
-    public function getRotation() {
+    public function getRotation(): ?int {
         return $this->rotation;
     }
 
     /**
      * Get the tag.
      *
-     * @return int Returns the tag.
+     * @return int|null Returns the tag.
      */
-    public function getTag() {
+    public function getTag(): ?int {
         return $this->tag;
     }
 
@@ -104,7 +104,7 @@ class Page {
      * @param Document|null $parent The parent.
      * @return Page Returns this page.
      */
-    public function setParent(Document $parent = null) {
+    public function setParent(Document $parent = null): Page {
         $this->parent = $parent;
         return $this;
     }
@@ -112,10 +112,10 @@ class Page {
     /**
      * Set the resolution.
      *
-     * @param int $resolution
+     * @param int|null $resolution
      * @return Page Returns this page.
      */
-    public function setResolution($resolution) {
+    public function setResolution(?int $resolution): Page {
         $this->resolution = $resolution;
         return $this;
     }
@@ -123,10 +123,10 @@ class Page {
     /**
      * Set the rotation.
      *
-     * @param int $rotation The rotation.
+     * @param int|null $rotation The rotation.
      * @return Page Returns this page.
      */
-    public function setRotation($rotation) {
+    public function setRotation(?int $rotation): Page {
         $this->rotation = $rotation;
         return $this;
     }
@@ -134,10 +134,10 @@ class Page {
     /**
      * Set the tag.
      *
-     * @param int $tag The tag.
+     * @param int|null $tag The tag.
      * @return Page Returns this page.
      */
-    public function setTag($tag) {
+    public function setTag(?int $tag): Page {
         $this->tag = $tag;
         return $this;
     }

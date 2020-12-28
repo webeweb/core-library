@@ -22,209 +22,210 @@ class TransfertImmos {
     /**
      * Cpt der cap.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDerCap;
 
     /**
      * Cpt der dot.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDerDot;
 
     /**
      * Cpt der maj.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDerMaj;
 
     /**
      * Cpt der rep.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDerRep;
 
     /**
      * Cpt dot cor.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDotCor;
 
     /**
      * Cpt dot exc.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDotExc;
 
     /**
      * Cpt dot fin.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDotFin;
 
     /**
      * Cpt dot inc.
      *
-     * @var string
+     * @var string|null
      */
     private $cptDotInc;
 
     /**
      * Cpt val cor.
      *
-     * @var string
+     * @var string|null
      */
     private $cptValCor;
 
     /**
      * Cpt val exc.
      *
-     * @var string
+     * @var string|null
      */
     private $cptValExc;
 
     /**
      * Cpt val fin.
      *
-     * @var string
+     * @var string|null
      */
     private $cptValFin;
 
     /**
      * Cpt val inc.
      *
-     * @var string
+     * @var string|null
      */
     private $cptValInc;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the cpt der cap.
      *
-     * @return string Returns the cpt der cap.
+     * @return string|null Returns the cpt der cap.
      */
-    public function getCptDerCap() {
+    public function getCptDerCap(): ?string{
         return $this->cptDerCap;
     }
 
     /**
      * Get the cpt der dot.
      *
-     * @return string Returns the cpt der dot.
+     * @return string|null Returns the cpt der dot.
      */
-    public function getCptDerDot() {
+    public function getCptDerDot(): ?string{
         return $this->cptDerDot;
     }
 
     /**
      * Get the cpt der maj.
      *
-     * @return string Returns the cpt der maj.
+     * @return string|null Returns the cpt der maj.
      */
-    public function getCptDerMaj() {
+    public function getCptDerMaj(): ?string{
         return $this->cptDerMaj;
     }
 
     /**
      * Get the cpt der rep.
      *
-     * @return string Returns the cpt der rep.
+     * @return string|null Returns the cpt der rep.
      */
-    public function getCptDerRep() {
+    public function getCptDerRep(): ?string{
         return $this->cptDerRep;
     }
 
     /**
      * Get the cpt dot cor.
      *
-     * @return string Returns the cpt dot cor.
+     * @return string|null Returns the cpt dot cor.
      */
-    public function getCptDotCor() {
+    public function getCptDotCor(): ?string{
         return $this->cptDotCor;
     }
 
     /**
      * Get the cpt dot exc.
      *
-     * @return string Returns the cpt dot exc.
+     * @return string|null Returns the cpt dot exc.
      */
-    public function getCptDotExc() {
+    public function getCptDotExc(): ?string{
         return $this->cptDotExc;
     }
 
     /**
      * Get the cpt dot fin.
      *
-     * @return string Returns the cpt dot fin.
+     * @return string|null Returns the cpt dot fin.
      */
-    public function getCptDotFin() {
+    public function getCptDotFin(): ?string{
         return $this->cptDotFin;
     }
 
     /**
      * Get the cpt dot inc.
      *
-     * @return string Returns the cpt dot inc.
+     * @return string|null Returns the cpt dot inc.
      */
-    public function getCptDotInc() {
+    public function getCptDotInc(): ?string{
         return $this->cptDotInc;
     }
 
     /**
      * Get the cpt val cor.
      *
-     * @return string Returns the cpt val cor.
+     * @return string|null Returns the cpt val cor.
      */
-    public function getCptValCor() {
+    public function getCptValCor(): ?string{
         return $this->cptValCor;
     }
 
     /**
      * Get the cpt val exc.
      *
-     * @return string Returns the cpt val exc.
+     * @return string|null Returns the cpt val exc.
      */
-    public function getCptValExc() {
+    public function getCptValExc(): ?string{
         return $this->cptValExc;
     }
 
     /**
      * Get the cpt val fin.
      *
-     * @return string Returns the cpt val fin.
+     * @return string|null Returns the cpt val fin.
      */
-    public function getCptValFin() {
+    public function getCptValFin(): ?string{
         return $this->cptValFin;
     }
 
     /**
      * Get the cpt val inc.
      *
-     * @return string Returns the cpt val inc.
+     * @return string|null Returns the cpt val inc.
      */
-    public function getCptValInc() {
+    public function getCptValInc(): ?string{
         return $this->cptValInc;
     }
 
     /**
      * Set the cpt der cap.
      *
-     * @param string $cptDerCap The cpt der cap.
+     * @param string|null $cptDerCap The cpt der cap.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDerCap($cptDerCap) {
+    public function setCptDerCap(?string $cptDerCap): TransfertImmos {
         $this->cptDerCap = $cptDerCap;
         return $this;
     }
@@ -232,10 +233,10 @@ class TransfertImmos {
     /**
      * Set the cpt der dot.
      *
-     * @param string $cptDerDot The cpt der dot.
+     * @param string|null $cptDerDot The cpt der dot.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDerDot($cptDerDot) {
+    public function setCptDerDot(?string $cptDerDot): TransfertImmos {
         $this->cptDerDot = $cptDerDot;
         return $this;
     }
@@ -243,10 +244,10 @@ class TransfertImmos {
     /**
      * Set the cpt der maj.
      *
-     * @param string $cptDerMaj The cpt der maj.
+     * @param string|null $cptDerMaj The cpt der maj.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDerMaj($cptDerMaj) {
+    public function setCptDerMaj(?string $cptDerMaj): TransfertImmos {
         $this->cptDerMaj = $cptDerMaj;
         return $this;
     }
@@ -254,10 +255,10 @@ class TransfertImmos {
     /**
      * Set the cpt der rep.
      *
-     * @param string $cptDerRep The cpt der rep.
+     * @param string|null $cptDerRep The cpt der rep.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDerRep($cptDerRep) {
+    public function setCptDerRep(?string $cptDerRep): TransfertImmos {
         $this->cptDerRep = $cptDerRep;
         return $this;
     }
@@ -265,10 +266,10 @@ class TransfertImmos {
     /**
      * Set the cpt dot cor.
      *
-     * @param string $cptDotCor The cpt dot cor.
+     * @param string|null $cptDotCor The cpt dot cor.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDotCor($cptDotCor) {
+    public function setCptDotCor(?string $cptDotCor): TransfertImmos {
         $this->cptDotCor = $cptDotCor;
         return $this;
     }
@@ -276,10 +277,10 @@ class TransfertImmos {
     /**
      * Set the cpt dot exc.
      *
-     * @param string $cptDotExc The cpt dot exc.
+     * @param string|null $cptDotExc The cpt dot exc.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDotExc($cptDotExc) {
+    public function setCptDotExc(?string $cptDotExc): TransfertImmos {
         $this->cptDotExc = $cptDotExc;
         return $this;
     }
@@ -287,10 +288,10 @@ class TransfertImmos {
     /**
      * Set the cpt dot fin.
      *
-     * @param string $cptDotFin The cpt dot fin.
+     * @param string|null $cptDotFin The cpt dot fin.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDotFin($cptDotFin) {
+    public function setCptDotFin(?string $cptDotFin): TransfertImmos {
         $this->cptDotFin = $cptDotFin;
         return $this;
     }
@@ -298,10 +299,10 @@ class TransfertImmos {
     /**
      * Set the cpt dot inc.
      *
-     * @param string $cptDotInc The cpt dot inc.
+     * @param string|null $cptDotInc The cpt dot inc.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptDotInc($cptDotInc) {
+    public function setCptDotInc(?string $cptDotInc): TransfertImmos {
         $this->cptDotInc = $cptDotInc;
         return $this;
     }
@@ -309,10 +310,10 @@ class TransfertImmos {
     /**
      * Set the cpt val cor.
      *
-     * @param string $cptValCor The cpt val cor.
+     * @param string|null $cptValCor The cpt val cor.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptValCor($cptValCor) {
+    public function setCptValCor(?string $cptValCor): TransfertImmos {
         $this->cptValCor = $cptValCor;
         return $this;
     }
@@ -320,10 +321,10 @@ class TransfertImmos {
     /**
      * Set the cpt val exc.
      *
-     * @param string $cptValExc The cpt val exc.
+     * @param string|null $cptValExc The cpt val exc.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptValExc($cptValExc) {
+    public function setCptValExc(?string $cptValExc): TransfertImmos {
         $this->cptValExc = $cptValExc;
         return $this;
     }
@@ -331,10 +332,10 @@ class TransfertImmos {
     /**
      * Set the cpt val fin.
      *
-     * @param string $cptValFin The cpt val fin.
+     * @param string|null $cptValFin The cpt val fin.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptValFin($cptValFin) {
+    public function setCptValFin(?string $cptValFin): TransfertImmos {
         $this->cptValFin = $cptValFin;
         return $this;
     }
@@ -342,10 +343,10 @@ class TransfertImmos {
     /**
      * Set the cpt val inc.
      *
-     * @param string $cptValInc The cpt val inc.
+     * @param string|null $cptValInc The cpt val inc.
      * @return TransfertImmos Returns this Transfert immos.
      */
-    public function setCptValInc($cptValInc) {
+    public function setCptValInc(?string $cptValInc): TransfertImmos {
         $this->cptValInc = $cptValInc;
         return $this;
     }

@@ -24,28 +24,28 @@ class HistoPaieAnal {
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
     /**
      * Numero ligne anal.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigneAnal;
 
@@ -59,50 +59,51 @@ class HistoPaieAnal {
     /**
      * Pourcent.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcent;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
     /**
      * Get the numero ligne anal.
      *
-     * @return int Returns the numero ligne anal.
+     * @return int|null Returns the numero ligne anal.
      */
-    public function getNumeroLigneAnal() {
+    public function getNumeroLigneAnal(): ?int{
         return $this->numeroLigneAnal;
     }
 
@@ -111,26 +112,26 @@ class HistoPaieAnal {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the pourcent.
      *
-     * @return float Returns the pourcent.
+     * @return float|null Returns the pourcent.
      */
-    public function getPourcent() {
+    public function getPourcent(): ?float{
         return $this->pourcent;
     }
 
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return HistoPaieAnal Returns this Histo paie anal.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): HistoPaieAnal {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -138,10 +139,10 @@ class HistoPaieAnal {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return HistoPaieAnal Returns this Histo paie anal.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): HistoPaieAnal {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -149,10 +150,10 @@ class HistoPaieAnal {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return HistoPaieAnal Returns this Histo paie anal.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): HistoPaieAnal {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -160,10 +161,10 @@ class HistoPaieAnal {
     /**
      * Set the numero ligne anal.
      *
-     * @param int $numeroLigneAnal The numero ligne anal.
+     * @param int|null $numeroLigneAnal The numero ligne anal.
      * @return HistoPaieAnal Returns this Histo paie anal.
      */
-    public function setNumeroLigneAnal($numeroLigneAnal) {
+    public function setNumeroLigneAnal(?int $numeroLigneAnal): HistoPaieAnal {
         $this->numeroLigneAnal = $numeroLigneAnal;
         return $this;
     }
@@ -174,7 +175,7 @@ class HistoPaieAnal {
      * @param DateTime|null $periode The periode.
      * @return HistoPaieAnal Returns this Histo paie anal.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): HistoPaieAnal {
         $this->periode = $periode;
         return $this;
     }
@@ -182,10 +183,10 @@ class HistoPaieAnal {
     /**
      * Set the pourcent.
      *
-     * @param float $pourcent The pourcent.
+     * @param float|null $pourcent The pourcent.
      * @return HistoPaieAnal Returns this Histo paie anal.
      */
-    public function setPourcent($pourcent) {
+    public function setPourcent(?float $pourcent): HistoPaieAnal {
         $this->pourcent = $pourcent;
         return $this;
     }

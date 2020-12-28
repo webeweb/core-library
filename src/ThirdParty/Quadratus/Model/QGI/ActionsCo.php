@@ -24,7 +24,7 @@ class ActionsCo {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
@@ -52,91 +52,91 @@ class ActionsCo {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Libelle memo.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleMemo;
 
     /**
      * Op confirmation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opConfirmation;
 
     /**
      * Op contrat signe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opContratSigne;
 
     /**
      * Op explication.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opExplication;
 
     /**
      * Op invitation indiv.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opInvitationIndiv;
 
     /**
      * Op invitation masse.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opInvitationMasse;
 
     /**
      * Op presence.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opPresence;
 
     /**
      * Op prise rdv.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opPriseRdv;
 
     /**
      * Op relance.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opRelance;
 
     /**
      * Op reponse inscrip.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opReponseInscrip;
 
     /**
      * Op reponse negative.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opReponseNegative;
 
     /**
      * Op reservation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $opReservation;
 
@@ -144,15 +144,15 @@ class ActionsCo {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -161,7 +161,7 @@ class ActionsCo {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -170,7 +170,7 @@ class ActionsCo {
      *
      * @return DateTime|null Returns the date fin vie.
      */
-    public function getDateFinVie() {
+    public function getDateFinVie(): ?DateTime {
         return $this->dateFinVie;
     }
 
@@ -179,134 +179,134 @@ class ActionsCo {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the libelle memo.
      *
-     * @return string Returns the libelle memo.
+     * @return string|null Returns the libelle memo.
      */
-    public function getLibelleMemo() {
+    public function getLibelleMemo(): ?string {
         return $this->libelleMemo;
     }
 
     /**
      * Get the op confirmation.
      *
-     * @return bool Returns the op confirmation.
+     * @return bool|null Returns the op confirmation.
      */
-    public function getOpConfirmation() {
+    public function getOpConfirmation(): ?bool {
         return $this->opConfirmation;
     }
 
     /**
      * Get the op contrat signe.
      *
-     * @return bool Returns the op contrat signe.
+     * @return bool|null Returns the op contrat signe.
      */
-    public function getOpContratSigne() {
+    public function getOpContratSigne(): ?bool {
         return $this->opContratSigne;
     }
 
     /**
      * Get the op explication.
      *
-     * @return bool Returns the op explication.
+     * @return bool|null Returns the op explication.
      */
-    public function getOpExplication() {
+    public function getOpExplication(): ?bool {
         return $this->opExplication;
     }
 
     /**
      * Get the op invitation indiv.
      *
-     * @return bool Returns the op invitation indiv.
+     * @return bool|null Returns the op invitation indiv.
      */
-    public function getOpInvitationIndiv() {
+    public function getOpInvitationIndiv(): ?bool {
         return $this->opInvitationIndiv;
     }
 
     /**
      * Get the op invitation masse.
      *
-     * @return bool Returns the op invitation masse.
+     * @return bool|null Returns the op invitation masse.
      */
-    public function getOpInvitationMasse() {
+    public function getOpInvitationMasse(): ?bool {
         return $this->opInvitationMasse;
     }
 
     /**
      * Get the op presence.
      *
-     * @return bool Returns the op presence.
+     * @return bool|null Returns the op presence.
      */
-    public function getOpPresence() {
+    public function getOpPresence(): ?bool {
         return $this->opPresence;
     }
 
     /**
      * Get the op prise rdv.
      *
-     * @return bool Returns the op prise rdv.
+     * @return bool|null Returns the op prise rdv.
      */
-    public function getOpPriseRdv() {
+    public function getOpPriseRdv(): ?bool {
         return $this->opPriseRdv;
     }
 
     /**
      * Get the op relance.
      *
-     * @return bool Returns the op relance.
+     * @return bool|null Returns the op relance.
      */
-    public function getOpRelance() {
+    public function getOpRelance(): ?bool {
         return $this->opRelance;
     }
 
     /**
      * Get the op reponse inscrip.
      *
-     * @return bool Returns the op reponse inscrip.
+     * @return bool|null Returns the op reponse inscrip.
      */
-    public function getOpReponseInscrip() {
+    public function getOpReponseInscrip(): ?bool {
         return $this->opReponseInscrip;
     }
 
     /**
      * Get the op reponse negative.
      *
-     * @return bool Returns the op reponse negative.
+     * @return bool|null Returns the op reponse negative.
      */
-    public function getOpReponseNegative() {
+    public function getOpReponseNegative(): ?bool {
         return $this->opReponseNegative;
     }
 
     /**
      * Get the op reservation.
      *
-     * @return bool Returns the op reservation.
+     * @return bool|null Returns the op reservation.
      */
-    public function getOpReservation() {
+    public function getOpReservation(): ?bool {
         return $this->opReservation;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): ActionsCo {
         $this->code = $code;
         return $this;
     }
@@ -317,7 +317,7 @@ class ActionsCo {
      * @param DateTime|null $dateCreation The date creation.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): ActionsCo {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -328,7 +328,7 @@ class ActionsCo {
      * @param DateTime|null $dateFinVie The date fin vie.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setDateFinVie(DateTime $dateFinVie = null) {
+    public function setDateFinVie(?DateTime $dateFinVie): ActionsCo {
         $this->dateFinVie = $dateFinVie;
         return $this;
     }
@@ -339,7 +339,7 @@ class ActionsCo {
      * @param DateTime|null $dateModification The date modification.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): ActionsCo {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -347,10 +347,10 @@ class ActionsCo {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ActionsCo {
         $this->libelle = $libelle;
         return $this;
     }
@@ -358,10 +358,10 @@ class ActionsCo {
     /**
      * Set the libelle memo.
      *
-     * @param string $libelleMemo The libelle memo.
+     * @param string|null $libelleMemo The libelle memo.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setLibelleMemo($libelleMemo) {
+    public function setLibelleMemo(?string $libelleMemo): ActionsCo {
         $this->libelleMemo = $libelleMemo;
         return $this;
     }
@@ -369,10 +369,10 @@ class ActionsCo {
     /**
      * Set the op confirmation.
      *
-     * @param bool $opConfirmation The op confirmation.
+     * @param bool|null $opConfirmation The op confirmation.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpConfirmation($opConfirmation) {
+    public function setOpConfirmation(?bool $opConfirmation): ActionsCo {
         $this->opConfirmation = $opConfirmation;
         return $this;
     }
@@ -380,10 +380,10 @@ class ActionsCo {
     /**
      * Set the op contrat signe.
      *
-     * @param bool $opContratSigne The op contrat signe.
+     * @param bool|null $opContratSigne The op contrat signe.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpContratSigne($opContratSigne) {
+    public function setOpContratSigne(?bool $opContratSigne): ActionsCo {
         $this->opContratSigne = $opContratSigne;
         return $this;
     }
@@ -391,10 +391,10 @@ class ActionsCo {
     /**
      * Set the op explication.
      *
-     * @param bool $opExplication The op explication.
+     * @param bool|null $opExplication The op explication.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpExplication($opExplication) {
+    public function setOpExplication(?bool $opExplication): ActionsCo {
         $this->opExplication = $opExplication;
         return $this;
     }
@@ -402,10 +402,10 @@ class ActionsCo {
     /**
      * Set the op invitation indiv.
      *
-     * @param bool $opInvitationIndiv The op invitation indiv.
+     * @param bool|null $opInvitationIndiv The op invitation indiv.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpInvitationIndiv($opInvitationIndiv) {
+    public function setOpInvitationIndiv(?bool $opInvitationIndiv): ActionsCo {
         $this->opInvitationIndiv = $opInvitationIndiv;
         return $this;
     }
@@ -413,10 +413,10 @@ class ActionsCo {
     /**
      * Set the op invitation masse.
      *
-     * @param bool $opInvitationMasse The op invitation masse.
+     * @param bool|null $opInvitationMasse The op invitation masse.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpInvitationMasse($opInvitationMasse) {
+    public function setOpInvitationMasse(?bool $opInvitationMasse): ActionsCo {
         $this->opInvitationMasse = $opInvitationMasse;
         return $this;
     }
@@ -424,10 +424,10 @@ class ActionsCo {
     /**
      * Set the op presence.
      *
-     * @param bool $opPresence The op presence.
+     * @param bool|null $opPresence The op presence.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpPresence($opPresence) {
+    public function setOpPresence(?bool $opPresence): ActionsCo {
         $this->opPresence = $opPresence;
         return $this;
     }
@@ -435,10 +435,10 @@ class ActionsCo {
     /**
      * Set the op prise rdv.
      *
-     * @param bool $opPriseRdv The op prise rdv.
+     * @param bool|null $opPriseRdv The op prise rdv.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpPriseRdv($opPriseRdv) {
+    public function setOpPriseRdv(?bool $opPriseRdv): ActionsCo {
         $this->opPriseRdv = $opPriseRdv;
         return $this;
     }
@@ -446,10 +446,10 @@ class ActionsCo {
     /**
      * Set the op relance.
      *
-     * @param bool $opRelance The op relance.
+     * @param bool|null $opRelance The op relance.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpRelance($opRelance) {
+    public function setOpRelance(?bool $opRelance): ActionsCo {
         $this->opRelance = $opRelance;
         return $this;
     }
@@ -457,10 +457,10 @@ class ActionsCo {
     /**
      * Set the op reponse inscrip.
      *
-     * @param bool $opReponseInscrip The op reponse inscrip.
+     * @param bool|null $opReponseInscrip The op reponse inscrip.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpReponseInscrip($opReponseInscrip) {
+    public function setOpReponseInscrip(?bool $opReponseInscrip): ActionsCo {
         $this->opReponseInscrip = $opReponseInscrip;
         return $this;
     }
@@ -468,10 +468,10 @@ class ActionsCo {
     /**
      * Set the op reponse negative.
      *
-     * @param bool $opReponseNegative The op reponse negative.
+     * @param bool|null $opReponseNegative The op reponse negative.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpReponseNegative($opReponseNegative) {
+    public function setOpReponseNegative(?bool $opReponseNegative): ActionsCo {
         $this->opReponseNegative = $opReponseNegative;
         return $this;
     }
@@ -479,10 +479,10 @@ class ActionsCo {
     /**
      * Set the op reservation.
      *
-     * @param bool $opReservation The op reservation.
+     * @param bool|null $opReservation The op reservation.
      * @return ActionsCo Returns this Actions co.
      */
-    public function setOpReservation($opReservation) {
+    public function setOpReservation(?bool $opReservation): ActionsCo {
         $this->opReservation = $opReservation;
         return $this;
     }

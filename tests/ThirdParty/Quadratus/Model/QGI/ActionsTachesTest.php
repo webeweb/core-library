@@ -27,7 +27,7 @@ class ActionsTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ActionsTaches();
 
@@ -40,7 +40,7 @@ class ActionsTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new ActionsTaches();
 
@@ -53,7 +53,7 @@ class ActionsTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsTaches();
 

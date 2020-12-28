@@ -24,49 +24,49 @@ class TempsPasses {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Code phase.
      *
-     * @var string
+     * @var string|null
      */
     private $codePhase;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Code vehicule.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVehicule;
 
     /**
      * Cout km.
      *
-     * @var float
+     * @var float|null
      */
     private $coutKm;
 
@@ -87,21 +87,21 @@ class TempsPasses {
     /**
      * Etat.
      *
-     * @var int
+     * @var int|null
      */
     private $etat;
 
     /**
      * Facturable.
      *
-     * @var bool
+     * @var bool|null
      */
     private $facturable;
 
     /**
      * G uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $gUniqId;
 
@@ -122,56 +122,56 @@ class TempsPasses {
     /**
      * Id tps.
      *
-     * @var int
+     * @var int|null
      */
     private $idTps;
 
     /**
      * Is transf.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isTransf;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Monnaie.
      *
-     * @var string
+     * @var string|null
      */
     private $monnaie;
 
     /**
      * Montant crt.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCrt;
 
     /**
      * Montant tva.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTva;
 
     /**
      * Nb km.
      *
-     * @var float
+     * @var float|null
      */
     private $nbKm;
 
     /**
      * Nb uo.
      *
-     * @var float
+     * @var float|null
      */
     private $nbUo;
 
@@ -185,70 +185,70 @@ class TempsPasses {
     /**
      * Pu.
      *
-     * @var float
+     * @var float|null
      */
     private $pu;
 
     /**
      * Pv1.
      *
-     * @var float
+     * @var float|null
      */
     private $pv1;
 
     /**
      * Pv2.
      *
-     * @var float
+     * @var float|null
      */
     private $pv2;
 
     /**
      * Pv3.
      *
-     * @var float
+     * @var float|null
      */
     private $pv3;
 
     /**
      * Qte.
      *
-     * @var float
+     * @var float|null
      */
     private $qte;
 
     /**
      * Taux remise.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxRemise;
 
     /**
      * Taux remise ici.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tauxRemiseIci;
 
     /**
      * Uniq id facture.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdFacture;
 
     /**
      * Valide.
      *
-     * @var bool
+     * @var bool|null
      */
     private $valide;
 
     /**
      * Valide collab.
      *
-     * @var string
+     * @var string|null
      */
     private $valideCollab;
 
@@ -263,69 +263,69 @@ class TempsPasses {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
     /**
      * Get the code phase.
      *
-     * @return string Returns the code phase.
+     * @return string|null Returns the code phase.
      */
-    public function getCodePhase() {
+    public function getCodePhase(): ?string {
         return $this->codePhase;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
     /**
      * Get the code vehicule.
      *
-     * @return string Returns the code vehicule.
+     * @return string|null Returns the code vehicule.
      */
-    public function getCodeVehicule() {
+    public function getCodeVehicule(): ?string {
         return $this->codeVehicule;
     }
 
     /**
      * Get the cout km.
      *
-     * @return float Returns the cout km.
+     * @return float|null Returns the cout km.
      */
-    public function getCoutKm() {
+    public function getCoutKm(): ?float {
         return $this->coutKm;
     }
 
@@ -334,7 +334,7 @@ class TempsPasses {
      *
      * @return DateTime|null Returns the date saisie.
      */
-    public function getDateSaisie() {
+    public function getDateSaisie(): ?DateTime {
         return $this->dateSaisie;
     }
 
@@ -343,34 +343,34 @@ class TempsPasses {
      *
      * @return DateTime|null Returns the date sys saisie.
      */
-    public function getDateSysSaisie() {
+    public function getDateSysSaisie(): ?DateTime {
         return $this->dateSysSaisie;
     }
 
     /**
      * Get the etat.
      *
-     * @return int Returns the etat.
+     * @return int|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?int {
         return $this->etat;
     }
 
     /**
      * Get the facturable.
      *
-     * @return bool Returns the facturable.
+     * @return bool|null Returns the facturable.
      */
-    public function getFacturable() {
+    public function getFacturable(): ?bool {
         return $this->facturable;
     }
 
     /**
      * Get the g uniq id.
      *
-     * @return string Returns the g uniq id.
+     * @return string|null Returns the g uniq id.
      */
-    public function getGUniqId() {
+    public function getGUniqId(): ?string {
         return $this->gUniqId;
     }
 
@@ -379,7 +379,7 @@ class TempsPasses {
      *
      * @return DateTime|null Returns the heure debut.
      */
-    public function getHeureDebut() {
+    public function getHeureDebut(): ?DateTime {
         return $this->heureDebut;
     }
 
@@ -388,79 +388,79 @@ class TempsPasses {
      *
      * @return DateTime|null Returns the heure fin.
      */
-    public function getHeureFin() {
+    public function getHeureFin(): ?DateTime {
         return $this->heureFin;
     }
 
     /**
      * Get the id tps.
      *
-     * @return int Returns the id tps.
+     * @return int|null Returns the id tps.
      */
-    public function getIdTps() {
+    public function getIdTps(): ?int {
         return $this->idTps;
     }
 
     /**
      * Get the is transf.
      *
-     * @return bool Returns the is transf.
+     * @return bool|null Returns the is transf.
      */
-    public function getIsTransf() {
+    public function getIsTransf(): ?bool {
         return $this->isTransf;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the monnaie.
      *
-     * @return string Returns the monnaie.
+     * @return string|null Returns the monnaie.
      */
-    public function getMonnaie() {
+    public function getMonnaie(): ?string {
         return $this->monnaie;
     }
 
     /**
      * Get the montant crt.
      *
-     * @return float Returns the montant crt.
+     * @return float|null Returns the montant crt.
      */
-    public function getMontantCrt() {
+    public function getMontantCrt(): ?float {
         return $this->montantCrt;
     }
 
     /**
      * Get the montant tva.
      *
-     * @return float Returns the montant tva.
+     * @return float|null Returns the montant tva.
      */
-    public function getMontantTva() {
+    public function getMontantTva(): ?float {
         return $this->montantTva;
     }
 
     /**
      * Get the nb km.
      *
-     * @return float Returns the nb km.
+     * @return float|null Returns the nb km.
      */
-    public function getNbKm() {
+    public function getNbKm(): ?float {
         return $this->nbKm;
     }
 
     /**
      * Get the nb uo.
      *
-     * @return float Returns the nb uo.
+     * @return float|null Returns the nb uo.
      */
-    public function getNbUo() {
+    public function getNbUo(): ?float {
         return $this->nbUo;
     }
 
@@ -469,97 +469,97 @@ class TempsPasses {
      *
      * @return DateTime|null Returns the periode edition nd f.
      */
-    public function getPeriodeEditionNdF() {
+    public function getPeriodeEditionNdF(): ?DateTime {
         return $this->periodeEditionNdF;
     }
 
     /**
      * Get the pu.
      *
-     * @return float Returns the pu.
+     * @return float|null Returns the pu.
      */
-    public function getPu() {
+    public function getPu(): ?float {
         return $this->pu;
     }
 
     /**
      * Get the pv1.
      *
-     * @return float Returns the pv1.
+     * @return float|null Returns the pv1.
      */
-    public function getPv1() {
+    public function getPv1(): ?float {
         return $this->pv1;
     }
 
     /**
      * Get the pv2.
      *
-     * @return float Returns the pv2.
+     * @return float|null Returns the pv2.
      */
-    public function getPv2() {
+    public function getPv2(): ?float {
         return $this->pv2;
     }
 
     /**
      * Get the pv3.
      *
-     * @return float Returns the pv3.
+     * @return float|null Returns the pv3.
      */
-    public function getPv3() {
+    public function getPv3(): ?float {
         return $this->pv3;
     }
 
     /**
      * Get the qte.
      *
-     * @return float Returns the qte.
+     * @return float|null Returns the qte.
      */
-    public function getQte() {
+    public function getQte(): ?float {
         return $this->qte;
     }
 
     /**
      * Get the taux remise.
      *
-     * @return float Returns the taux remise.
+     * @return float|null Returns the taux remise.
      */
-    public function getTauxRemise() {
+    public function getTauxRemise(): ?float {
         return $this->tauxRemise;
     }
 
     /**
      * Get the taux remise ici.
      *
-     * @return bool Returns the taux remise ici.
+     * @return bool|null Returns the taux remise ici.
      */
-    public function getTauxRemiseIci() {
+    public function getTauxRemiseIci(): ?bool {
         return $this->tauxRemiseIci;
     }
 
     /**
      * Get the uniq id facture.
      *
-     * @return string Returns the uniq id facture.
+     * @return string|null Returns the uniq id facture.
      */
-    public function getUniqIdFacture() {
+    public function getUniqIdFacture(): ?string {
         return $this->uniqIdFacture;
     }
 
     /**
      * Get the valide.
      *
-     * @return bool Returns the valide.
+     * @return bool|null Returns the valide.
      */
-    public function getValide() {
+    public function getValide(): ?bool {
         return $this->valide;
     }
 
     /**
      * Get the valide collab.
      *
-     * @return string Returns the valide collab.
+     * @return string|null Returns the valide collab.
      */
-    public function getValideCollab() {
+    public function getValideCollab(): ?string {
         return $this->valideCollab;
     }
 
@@ -568,17 +568,17 @@ class TempsPasses {
      *
      * @return DateTime|null Returns the valide date.
      */
-    public function getValideDate() {
+    public function getValideDate(): ?DateTime {
         return $this->valideDate;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): TempsPasses {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -586,10 +586,10 @@ class TempsPasses {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): TempsPasses {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -597,10 +597,10 @@ class TempsPasses {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): TempsPasses {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -608,10 +608,10 @@ class TempsPasses {
     /**
      * Set the code phase.
      *
-     * @param string $codePhase The code phase.
+     * @param string|null $codePhase The code phase.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCodePhase($codePhase) {
+    public function setCodePhase(?string $codePhase): TempsPasses {
         $this->codePhase = $codePhase;
         return $this;
     }
@@ -619,10 +619,10 @@ class TempsPasses {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): TempsPasses {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -630,10 +630,10 @@ class TempsPasses {
     /**
      * Set the code vehicule.
      *
-     * @param string $codeVehicule The code vehicule.
+     * @param string|null $codeVehicule The code vehicule.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCodeVehicule($codeVehicule) {
+    public function setCodeVehicule(?string $codeVehicule): TempsPasses {
         $this->codeVehicule = $codeVehicule;
         return $this;
     }
@@ -641,10 +641,10 @@ class TempsPasses {
     /**
      * Set the cout km.
      *
-     * @param float $coutKm The cout km.
+     * @param float|null $coutKm The cout km.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setCoutKm($coutKm) {
+    public function setCoutKm(?float $coutKm): TempsPasses {
         $this->coutKm = $coutKm;
         return $this;
     }
@@ -655,7 +655,7 @@ class TempsPasses {
      * @param DateTime|null $dateSaisie The date saisie.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setDateSaisie(DateTime $dateSaisie = null) {
+    public function setDateSaisie(?DateTime $dateSaisie): TempsPasses {
         $this->dateSaisie = $dateSaisie;
         return $this;
     }
@@ -666,7 +666,7 @@ class TempsPasses {
      * @param DateTime|null $dateSysSaisie The date sys saisie.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setDateSysSaisie(DateTime $dateSysSaisie = null) {
+    public function setDateSysSaisie(?DateTime $dateSysSaisie): TempsPasses {
         $this->dateSysSaisie = $dateSysSaisie;
         return $this;
     }
@@ -674,10 +674,10 @@ class TempsPasses {
     /**
      * Set the etat.
      *
-     * @param int $etat The etat.
+     * @param int|null $etat The etat.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setEtat($etat) {
+    public function setEtat(?int $etat): TempsPasses {
         $this->etat = $etat;
         return $this;
     }
@@ -685,10 +685,10 @@ class TempsPasses {
     /**
      * Set the facturable.
      *
-     * @param bool $facturable The facturable.
+     * @param bool|null $facturable The facturable.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setFacturable($facturable) {
+    public function setFacturable(?bool $facturable): TempsPasses {
         $this->facturable = $facturable;
         return $this;
     }
@@ -696,10 +696,10 @@ class TempsPasses {
     /**
      * Set the g uniq id.
      *
-     * @param string $gUniqId The g uniq id.
+     * @param string|null $gUniqId The g uniq id.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setGUniqId($gUniqId) {
+    public function setGUniqId(?string $gUniqId): TempsPasses {
         $this->gUniqId = $gUniqId;
         return $this;
     }
@@ -710,7 +710,7 @@ class TempsPasses {
      * @param DateTime|null $heureDebut The heure debut.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setHeureDebut(DateTime $heureDebut = null) {
+    public function setHeureDebut(?DateTime $heureDebut): TempsPasses {
         $this->heureDebut = $heureDebut;
         return $this;
     }
@@ -721,7 +721,7 @@ class TempsPasses {
      * @param DateTime|null $heureFin The heure fin.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setHeureFin(DateTime $heureFin = null) {
+    public function setHeureFin(?DateTime $heureFin): TempsPasses {
         $this->heureFin = $heureFin;
         return $this;
     }
@@ -729,10 +729,10 @@ class TempsPasses {
     /**
      * Set the id tps.
      *
-     * @param int $idTps The id tps.
+     * @param int|null $idTps The id tps.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setIdTps($idTps) {
+    public function setIdTps(?int $idTps): TempsPasses {
         $this->idTps = $idTps;
         return $this;
     }
@@ -740,10 +740,10 @@ class TempsPasses {
     /**
      * Set the is transf.
      *
-     * @param bool $isTransf The is transf.
+     * @param bool|null $isTransf The is transf.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setIsTransf($isTransf) {
+    public function setIsTransf(?bool $isTransf): TempsPasses {
         $this->isTransf = $isTransf;
         return $this;
     }
@@ -751,10 +751,10 @@ class TempsPasses {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TempsPasses {
         $this->libelle = $libelle;
         return $this;
     }
@@ -762,10 +762,10 @@ class TempsPasses {
     /**
      * Set the monnaie.
      *
-     * @param string $monnaie The monnaie.
+     * @param string|null $monnaie The monnaie.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setMonnaie($monnaie) {
+    public function setMonnaie(?string $monnaie): TempsPasses {
         $this->monnaie = $monnaie;
         return $this;
     }
@@ -773,10 +773,10 @@ class TempsPasses {
     /**
      * Set the montant crt.
      *
-     * @param float $montantCrt The montant crt.
+     * @param float|null $montantCrt The montant crt.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setMontantCrt($montantCrt) {
+    public function setMontantCrt(?float $montantCrt): TempsPasses {
         $this->montantCrt = $montantCrt;
         return $this;
     }
@@ -784,10 +784,10 @@ class TempsPasses {
     /**
      * Set the montant tva.
      *
-     * @param float $montantTva The montant tva.
+     * @param float|null $montantTva The montant tva.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setMontantTva($montantTva) {
+    public function setMontantTva(?float $montantTva): TempsPasses {
         $this->montantTva = $montantTva;
         return $this;
     }
@@ -795,10 +795,10 @@ class TempsPasses {
     /**
      * Set the nb km.
      *
-     * @param float $nbKm The nb km.
+     * @param float|null $nbKm The nb km.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setNbKm($nbKm) {
+    public function setNbKm(?float $nbKm): TempsPasses {
         $this->nbKm = $nbKm;
         return $this;
     }
@@ -806,10 +806,10 @@ class TempsPasses {
     /**
      * Set the nb uo.
      *
-     * @param float $nbUo The nb uo.
+     * @param float|null $nbUo The nb uo.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setNbUo($nbUo) {
+    public function setNbUo(?float $nbUo): TempsPasses {
         $this->nbUo = $nbUo;
         return $this;
     }
@@ -820,7 +820,7 @@ class TempsPasses {
      * @param DateTime|null $periodeEditionNdF The periode edition nd f.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setPeriodeEditionNdF(DateTime $periodeEditionNdF = null) {
+    public function setPeriodeEditionNdF(?DateTime $periodeEditionNdF): TempsPasses {
         $this->periodeEditionNdF = $periodeEditionNdF;
         return $this;
     }
@@ -828,10 +828,10 @@ class TempsPasses {
     /**
      * Set the pu.
      *
-     * @param float $pu The pu.
+     * @param float|null $pu The pu.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setPu($pu) {
+    public function setPu(?float $pu): TempsPasses {
         $this->pu = $pu;
         return $this;
     }
@@ -839,10 +839,10 @@ class TempsPasses {
     /**
      * Set the pv1.
      *
-     * @param float $pv1 The pv1.
+     * @param float|null $pv1 The pv1.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setPv1($pv1) {
+    public function setPv1(?float $pv1): TempsPasses {
         $this->pv1 = $pv1;
         return $this;
     }
@@ -850,10 +850,10 @@ class TempsPasses {
     /**
      * Set the pv2.
      *
-     * @param float $pv2 The pv2.
+     * @param float|null $pv2 The pv2.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setPv2($pv2) {
+    public function setPv2(?float $pv2): TempsPasses {
         $this->pv2 = $pv2;
         return $this;
     }
@@ -861,10 +861,10 @@ class TempsPasses {
     /**
      * Set the pv3.
      *
-     * @param float $pv3 The pv3.
+     * @param float|null $pv3 The pv3.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setPv3($pv3) {
+    public function setPv3(?float $pv3): TempsPasses {
         $this->pv3 = $pv3;
         return $this;
     }
@@ -872,10 +872,10 @@ class TempsPasses {
     /**
      * Set the qte.
      *
-     * @param float $qte The qte.
+     * @param float|null $qte The qte.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setQte($qte) {
+    public function setQte(?float $qte): TempsPasses {
         $this->qte = $qte;
         return $this;
     }
@@ -883,10 +883,10 @@ class TempsPasses {
     /**
      * Set the taux remise.
      *
-     * @param float $tauxRemise The taux remise.
+     * @param float|null $tauxRemise The taux remise.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setTauxRemise($tauxRemise) {
+    public function setTauxRemise(?float $tauxRemise): TempsPasses {
         $this->tauxRemise = $tauxRemise;
         return $this;
     }
@@ -894,10 +894,10 @@ class TempsPasses {
     /**
      * Set the taux remise ici.
      *
-     * @param bool $tauxRemiseIci The taux remise ici.
+     * @param bool|null $tauxRemiseIci The taux remise ici.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setTauxRemiseIci($tauxRemiseIci) {
+    public function setTauxRemiseIci(?bool $tauxRemiseIci): TempsPasses {
         $this->tauxRemiseIci = $tauxRemiseIci;
         return $this;
     }
@@ -905,10 +905,10 @@ class TempsPasses {
     /**
      * Set the uniq id facture.
      *
-     * @param string $uniqIdFacture The uniq id facture.
+     * @param string|null $uniqIdFacture The uniq id facture.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setUniqIdFacture($uniqIdFacture) {
+    public function setUniqIdFacture(?string $uniqIdFacture): TempsPasses {
         $this->uniqIdFacture = $uniqIdFacture;
         return $this;
     }
@@ -916,10 +916,10 @@ class TempsPasses {
     /**
      * Set the valide.
      *
-     * @param bool $valide The valide.
+     * @param bool|null $valide The valide.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setValide($valide) {
+    public function setValide(?bool $valide): TempsPasses {
         $this->valide = $valide;
         return $this;
     }
@@ -927,10 +927,10 @@ class TempsPasses {
     /**
      * Set the valide collab.
      *
-     * @param string $valideCollab The valide collab.
+     * @param string|null $valideCollab The valide collab.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setValideCollab($valideCollab) {
+    public function setValideCollab(?string $valideCollab): TempsPasses {
         $this->valideCollab = $valideCollab;
         return $this;
     }
@@ -941,7 +941,7 @@ class TempsPasses {
      * @param DateTime|null $valideDate The valide date.
      * @return TempsPasses Returns this Temps passes.
      */
-    public function setValideDate(DateTime $valideDate = null) {
+    public function setValideDate(?DateTime $valideDate): TempsPasses {
         $this->valideDate = $valideDate;
         return $this;
     }

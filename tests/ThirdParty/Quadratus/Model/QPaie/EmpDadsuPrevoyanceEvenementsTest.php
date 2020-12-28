@@ -29,7 +29,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetADeclarerDsn() {
+    public function testSetADeclarerDsn(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -42,7 +42,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEvenement() {
+    public function testSetCodeEvenement(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -55,7 +55,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOption() {
+    public function testSetCodeOption(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -68,7 +68,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -81,7 +81,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePopulation() {
+    public function testSetCodePopulation(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -95,7 +95,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEvenement() {
+    public function testSetDateEvenement(): void {
 
         // Set a Date/time mock.
         $dateEvenement = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -124,7 +124,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefContrat() {
+    public function testSetRefContrat(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 
@@ -137,7 +137,7 @@ class EmpDadsuPrevoyanceEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuPrevoyanceEvenements();
 

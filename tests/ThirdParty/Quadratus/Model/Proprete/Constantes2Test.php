@@ -27,7 +27,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormatDuree() {
+    public function testSetFormatDuree(): void {
 
         $obj = new Constantes2();
 
@@ -40,7 +40,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJoursCpaDeduire() {
+    public function testSetJoursCpaDeduire(): void {
 
         $obj = new Constantes2();
 
@@ -53,7 +53,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDecimalesDuree() {
+    public function testSetNbDecimalesDuree(): void {
 
         $obj = new Constantes2();
 
@@ -66,7 +66,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtBool1() {
+    public function testSetNumCritereBtBool1(): void {
 
         $obj = new Constantes2();
 
@@ -79,7 +79,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtBool2() {
+    public function testSetNumCritereBtBool2(): void {
 
         $obj = new Constantes2();
 
@@ -92,7 +92,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtByte1() {
+    public function testSetNumCritereBtByte1(): void {
 
         $obj = new Constantes2();
 
@@ -105,7 +105,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtLst1() {
+    public function testSetNumCritereBtLst1(): void {
 
         $obj = new Constantes2();
 
@@ -118,7 +118,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtLst2() {
+    public function testSetNumCritereBtLst2(): void {
 
         $obj = new Constantes2();
 
@@ -131,7 +131,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtTxt1() {
+    public function testSetNumCritereBtTxt1(): void {
 
         $obj = new Constantes2();
 
@@ -144,7 +144,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereBtTxt2() {
+    public function testSetNumCritereBtTxt2(): void {
 
         $obj = new Constantes2();
 
@@ -157,7 +157,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereCouleurBt() {
+    public function testSetNumCritereCouleurBt(): void {
 
         $obj = new Constantes2();
 
@@ -170,7 +170,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereDaTxt1() {
+    public function testSetNumCritereDaTxt1(): void {
 
         $obj = new Constantes2();
 
@@ -183,7 +183,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereReclaLst1() {
+    public function testSetNumCritereReclaLst1(): void {
 
         $obj = new Constantes2();
 
@@ -196,7 +196,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCritereReclaLst2() {
+    public function testSetNumCritereReclaLst2(): void {
 
         $obj = new Constantes2();
 
@@ -209,7 +209,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPublierPhotoWeb() {
+    public function testSetPublierPhotoWeb(): void {
 
         $obj = new Constantes2();
 
@@ -222,7 +222,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCritereCouleurBt() {
+    public function testSetTypeCritereCouleurBt(): void {
 
         $obj = new Constantes2();
 
@@ -235,7 +235,7 @@ class Constantes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Constantes2();
 

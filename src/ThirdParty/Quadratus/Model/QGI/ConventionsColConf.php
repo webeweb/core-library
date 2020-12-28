@@ -22,65 +22,66 @@ class ConventionsColConf {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Droit.
      *
-     * @var string
+     * @var string|null
      */
     private $droit;
 
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the droit.
      *
-     * @return string Returns the droit.
+     * @return string|null Returns the droit.
      */
-    public function getDroit() {
+    public function getDroit(): ?string{
         return $this->droit;
     }
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int{
         return $this->type;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return ConventionsColConf Returns this Conventions col conf.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): ConventionsColConf {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -88,10 +89,10 @@ class ConventionsColConf {
     /**
      * Set the droit.
      *
-     * @param string $droit The droit.
+     * @param string|null $droit The droit.
      * @return ConventionsColConf Returns this Conventions col conf.
      */
-    public function setDroit($droit) {
+    public function setDroit(?string $droit): ConventionsColConf {
         $this->droit = $droit;
         return $this;
     }
@@ -99,10 +100,10 @@ class ConventionsColConf {
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      * @return ConventionsColConf Returns this Conventions col conf.
      */
-    public function setType($type) {
+    public function setType(?int $type): ConventionsColConf {
         $this->type = $type;
         return $this;
     }

@@ -29,7 +29,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdAmortAnterieur() {
+    public function testSetAdAmortAnterieur(): void {
 
         $obj = new CreditsBails();
 
@@ -42,7 +42,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdAmortAnterieur2() {
+    public function testSetAdAmortAnterieur2(): void {
 
         $obj = new CreditsBails();
 
@@ -55,7 +55,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdAnneesAmort() {
+    public function testSetAdAnneesAmort(): void {
 
         $obj = new CreditsBails();
 
@@ -68,7 +68,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdCoeffDegressif() {
+    public function testSetAdCoeffDegressif(): void {
 
         $obj = new CreditsBails();
 
@@ -81,7 +81,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDotation() {
+    public function testSetAdDotation(): void {
 
         $obj = new CreditsBails();
 
@@ -94,7 +94,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDotation2() {
+    public function testSetAdDotation2(): void {
 
         $obj = new CreditsBails();
 
@@ -107,7 +107,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDotationExcept() {
+    public function testSetAdDotationExcept(): void {
 
         $obj = new CreditsBails();
 
@@ -120,7 +120,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDuree() {
+    public function testSetAdDuree(): void {
 
         $obj = new CreditsBails();
 
@@ -133,7 +133,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdTauxLineaire() {
+    public function testSetAdTauxLineaire(): void {
 
         $obj = new CreditsBails();
 
@@ -146,7 +146,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdType() {
+    public function testSetAdType(): void {
 
         $obj = new CreditsBails();
 
@@ -159,7 +159,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfAmortAnterieur() {
+    public function testSetAfAmortAnterieur(): void {
 
         $obj = new CreditsBails();
 
@@ -172,7 +172,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfAnneesAmort() {
+    public function testSetAfAnneesAmort(): void {
 
         $obj = new CreditsBails();
 
@@ -185,7 +185,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfCoeffDegressif() {
+    public function testSetAfCoeffDegressif(): void {
 
         $obj = new CreditsBails();
 
@@ -198,7 +198,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfDotation() {
+    public function testSetAfDotation(): void {
 
         $obj = new CreditsBails();
 
@@ -211,7 +211,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfDuree() {
+    public function testSetAfDuree(): void {
 
         $obj = new CreditsBails();
 
@@ -224,7 +224,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfTauxExcept() {
+    public function testSetAfTauxExcept(): void {
 
         $obj = new CreditsBails();
 
@@ -237,7 +237,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfTauxLineaire() {
+    public function testSetAfTauxLineaire(): void {
 
         $obj = new CreditsBails();
 
@@ -250,7 +250,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfType() {
+    public function testSetAfType(): void {
 
         $obj = new CreditsBails();
 
@@ -263,7 +263,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfsii() {
+    public function testSetAfsii(): void {
 
         $obj = new CreditsBails();
 
@@ -276,7 +276,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseTaxePro() {
+    public function testSetBaseTaxePro(): void {
 
         $obj = new CreditsBails();
 
@@ -289,7 +289,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureau() {
+    public function testSetBureau(): void {
 
         $obj = new CreditsBails();
 
@@ -302,7 +302,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCbEnFrancs() {
+    public function testSetCbEnFrancs(): void {
 
         $obj = new CreditsBails();
 
@@ -315,7 +315,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreAnalytique() {
+    public function testSetCentreAnalytique(): void {
 
         $obj = new CreditsBails();
 
@@ -328,7 +328,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalEcheance() {
+    public function testSetCodeJournalEcheance(): void {
 
         $obj = new CreditsBails();
 
@@ -341,7 +341,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalPaiement() {
+    public function testSetCodeJournalPaiement(): void {
 
         $obj = new CreditsBails();
 
@@ -354,7 +354,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new CreditsBails();
 
@@ -367,7 +367,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFrn() {
+    public function testSetCompteFrn(): void {
 
         $obj = new CreditsBails();
 
@@ -380,7 +380,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptAssurance() {
+    public function testSetCptAssurance(): void {
 
         $obj = new CreditsBails();
 
@@ -393,7 +393,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptCharge() {
+    public function testSetCptCharge(): void {
 
         $obj = new CreditsBails();
 
@@ -406,7 +406,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptEntretien() {
+    public function testSetCptEntretien(): void {
 
         $obj = new CreditsBails();
 
@@ -419,7 +419,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptTva() {
+    public function testSetCptTva(): void {
 
         $obj = new CreditsBails();
 
@@ -432,7 +432,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptTvaAssu() {
+    public function testSetCptTvaAssu(): void {
 
         $obj = new CreditsBails();
 
@@ -445,7 +445,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrValeurEuros() {
+    public function testSetCrValeurEuros(): void {
 
         $obj = new CreditsBails();
 
@@ -459,7 +459,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetCrrDate() {
+    public function testSetCrrDate(): void {
 
         // Set a Date/time mock.
         $crrDate = new DateTime("2018-09-10");
@@ -475,7 +475,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrPxCessionHt() {
+    public function testSetCrrPxCessionHt(): void {
 
         $obj = new CreditsBails();
 
@@ -488,7 +488,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrQteVendue() {
+    public function testSetCrrQteVendue(): void {
 
         $obj = new CreditsBails();
 
@@ -501,7 +501,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrSupplAmort() {
+    public function testSetCrrSupplAmort(): void {
 
         $obj = new CreditsBails();
 
@@ -514,7 +514,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrSupplValeur() {
+    public function testSetCrrSupplValeur(): void {
 
         $obj = new CreditsBails();
 
@@ -527,7 +527,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrType() {
+    public function testSetCrrType(): void {
 
         $obj = new CreditsBails();
 
@@ -540,7 +540,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrpmValueCt() {
+    public function testSetCrrpmValueCt(): void {
 
         $obj = new CreditsBails();
 
@@ -553,7 +553,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrpmValueLt() {
+    public function testSetCrrpmValueLt(): void {
 
         $obj = new CreditsBails();
 
@@ -567,7 +567,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAcquisition() {
+    public function testSetDateAcquisition(): void {
 
         // Set a Date/time mock.
         $dateAcquisition = new DateTime("2018-09-10");
@@ -584,7 +584,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateMiseService() {
+    public function testSetDateMiseService(): void {
 
         // Set a Date/time mock.
         $dateMiseService = new DateTime("2018-09-10");
@@ -600,7 +600,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDin() {
+    public function testSetDin(): void {
 
         $obj = new CreditsBails();
 
@@ -613,7 +613,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new CreditsBails();
 
@@ -626,7 +626,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGuidVehicule() {
+    public function testSetGuidVehicule(): void {
 
         $obj = new CreditsBails();
 
@@ -639,7 +639,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new CreditsBails();
 
@@ -652,7 +652,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleFrn() {
+    public function testSetLibelleFrn(): void {
 
         $obj = new CreditsBails();
 
@@ -665,7 +665,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLimiteAmort() {
+    public function testSetLimiteAmort(): void {
 
         $obj = new CreditsBails();
 
@@ -678,7 +678,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMateriauxAgricole() {
+    public function testSetMateriauxAgricole(): void {
 
         $obj = new CreditsBails();
 
@@ -691,7 +691,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTva() {
+    public function testSetMontantTva(): void {
 
         $obj = new CreditsBails();
 
@@ -704,7 +704,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNatureAnalytique() {
+    public function testSetNatureAnalytique(): void {
 
         $obj = new CreditsBails();
 
@@ -717,7 +717,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDeuxImmoRachat() {
+    public function testSetNumDeuxImmoRachat(): void {
 
         $obj = new CreditsBails();
 
@@ -730,7 +730,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumImmoRachat() {
+    public function testSetNumImmoRachat(): void {
 
         $obj = new CreditsBails();
 
@@ -743,7 +743,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new CreditsBails();
 
@@ -756,7 +756,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new CreditsBails();
 
@@ -769,7 +769,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDeux() {
+    public function testSetNumeroDeux(): void {
 
         $obj = new CreditsBails();
 
@@ -782,7 +782,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new CreditsBails();
 
@@ -795,7 +795,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new CreditsBails();
 
@@ -808,7 +808,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new CreditsBails();
 
@@ -821,7 +821,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeFonciere() {
+    public function testSetTaxeFonciere(): void {
 
         $obj = new CreditsBails();
 
@@ -834,7 +834,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxePro() {
+    public function testSetTaxePro(): void {
 
         $obj = new CreditsBails();
 
@@ -847,7 +847,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpDuree() {
+    public function testSetTpDuree(): void {
 
         $obj = new CreditsBails();
 
@@ -860,7 +860,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpEchoirEchu() {
+    public function testSetTpEchoirEchu(): void {
 
         $obj = new CreditsBails();
 
@@ -873,7 +873,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpMoisAnnee() {
+    public function testSetTpMoisAnnee(): void {
 
         $obj = new CreditsBails();
 
@@ -886,7 +886,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpMonttDepot() {
+    public function testSetTpMonttDepot(): void {
 
         $obj = new CreditsBails();
 
@@ -899,7 +899,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPeriodicite() {
+    public function testSetTpPeriodicite(): void {
 
         $obj = new CreditsBails();
 
@@ -913,7 +913,7 @@ class CreditsBailsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTpPremierPaiement() {
+    public function testSetTpPremierPaiement(): void {
 
         // Set a Date/time mock.
         $tpPremierPaiement = new DateTime("2018-09-10");
@@ -929,7 +929,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurEuros() {
+    public function testSetValeurEuros(): void {
 
         $obj = new CreditsBails();
 
@@ -942,7 +942,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurHt() {
+    public function testSetValeurHt(): void {
 
         $obj = new CreditsBails();
 
@@ -955,7 +955,7 @@ class CreditsBailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CreditsBails();
 

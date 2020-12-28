@@ -27,7 +27,7 @@ class ConstPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrimeQPaie() {
+    public function testSetCodePrimeQPaie(): void {
 
         $obj = new ConstPrimes();
 
@@ -40,7 +40,7 @@ class ConstPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new ConstPrimes();
 
@@ -53,7 +53,7 @@ class ConstPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ConstPrimes();
 
@@ -66,7 +66,7 @@ class ConstPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstPrimes();
 

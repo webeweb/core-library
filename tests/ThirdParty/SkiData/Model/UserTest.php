@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\SkiData\Entity;
+namespace WBW\Library\Core\Tests\ThirdParty\SkiData\Model;
 
 use DateTime;
 use Exception;
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\SkiData\Model\User;
  * User test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\SkiData\Entity
+ * @package WBW\Library\Core\Tests\ThirdParty\SkiData\Model
  */
 class UserTest extends AbstractTestCase {
 
@@ -29,7 +29,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCheckLicensePlate() {
+    public function testSetCheckLicensePlate(): void {
 
         $obj = new User();
 
@@ -42,7 +42,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditCardNumber() {
+    public function testSetCreditCardNumber(): void {
 
         $obj = new User();
 
@@ -56,7 +56,7 @@ class UserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateBirth() {
+    public function testSetDateBirth(): void {
 
         $obj = new User();
 
@@ -69,7 +69,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetETicketAuthentication() {
+    public function testSetETicketAuthentication(): void {
 
         $obj = new User();
 
@@ -82,7 +82,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetETicketEmailTelephone() {
+    public function testSetETicketEmailTelephone(): void {
 
         $obj = new User();
 
@@ -95,7 +95,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetETicketServiceArt() {
+    public function testSetETicketServiceArt(): void {
 
         $obj = new User();
 
@@ -108,7 +108,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetETicketServiceTyp() {
+    public function testSetETicketServiceTyp(): void {
 
         $obj = new User();
 
@@ -121,7 +121,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetETicketTypeP() {
+    public function testSetETicketTypeP(): void {
 
         $obj = new User();
 
@@ -134,7 +134,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExcessTimesCreditCard() {
+    public function testSetExcessTimesCreditCard(): void {
 
         $obj = new User();
 
@@ -148,7 +148,7 @@ class UserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetExpiryDate() {
+    public function testSetExpiryDate(): void {
 
         $obj = new User();
 
@@ -161,7 +161,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdentificationNumber() {
+    public function testSetIdentificationNumber(): void {
 
         $obj = new User();
 
@@ -174,7 +174,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParkingSpace() {
+    public function testSetParkingSpace(): void {
 
         $obj = new User();
 
@@ -187,7 +187,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassageLicensePlatePermitted() {
+    public function testSetPassageLicensePlatePermitted(): void {
 
         $obj = new User();
 
@@ -200,7 +200,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUserNumber() {
+    public function testSetUserNumber(): void {
 
         $obj = new User();
 
@@ -213,7 +213,7 @@ class UserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new User();
 

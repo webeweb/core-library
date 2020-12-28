@@ -22,65 +22,66 @@ class EmpRecapCodePenibilite {
     /**
      * Code penibilite.
      *
-     * @var string
+     * @var string|null
      */
     private $codePenibilite;
 
     /**
      * Id recap.
      *
-     * @var int
+     * @var int|null
      */
     private $idRecap;
 
     /**
      * Numero ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroOrdre;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code penibilite.
      *
-     * @return string Returns the code penibilite.
+     * @return string|null Returns the code penibilite.
      */
-    public function getCodePenibilite() {
+    public function getCodePenibilite(): ?string{
         return $this->codePenibilite;
     }
 
     /**
      * Get the id recap.
      *
-     * @return int Returns the id recap.
+     * @return int|null Returns the id recap.
      */
-    public function getIdRecap() {
+    public function getIdRecap(): ?int{
         return $this->idRecap;
     }
 
     /**
      * Get the numero ordre.
      *
-     * @return int Returns the numero ordre.
+     * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre() {
+    public function getNumeroOrdre(): ?int{
         return $this->numeroOrdre;
     }
 
     /**
      * Set the code penibilite.
      *
-     * @param string $codePenibilite The code penibilite.
+     * @param string|null $codePenibilite The code penibilite.
      * @return EmpRecapCodePenibilite Returns this Emp recap code penibilite.
      */
-    public function setCodePenibilite($codePenibilite) {
+    public function setCodePenibilite(?string $codePenibilite): EmpRecapCodePenibilite {
         $this->codePenibilite = $codePenibilite;
         return $this;
     }
@@ -88,10 +89,10 @@ class EmpRecapCodePenibilite {
     /**
      * Set the id recap.
      *
-     * @param int $idRecap The id recap.
+     * @param int|null $idRecap The id recap.
      * @return EmpRecapCodePenibilite Returns this Emp recap code penibilite.
      */
-    public function setIdRecap($idRecap) {
+    public function setIdRecap(?int $idRecap): EmpRecapCodePenibilite {
         $this->idRecap = $idRecap;
         return $this;
     }
@@ -99,10 +100,10 @@ class EmpRecapCodePenibilite {
     /**
      * Set the numero ordre.
      *
-     * @param int $numeroOrdre The numero ordre.
+     * @param int|null $numeroOrdre The numero ordre.
      * @return EmpRecapCodePenibilite Returns this Emp recap code penibilite.
      */
-    public function setNumeroOrdre($numeroOrdre) {
+    public function setNumeroOrdre(?int $numeroOrdre): EmpRecapCodePenibilite {
         $this->numeroOrdre = $numeroOrdre;
         return $this;
     }

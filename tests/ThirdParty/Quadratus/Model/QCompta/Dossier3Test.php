@@ -29,7 +29,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAchatVenteAutomate() {
+    public function testSetAchatVenteAutomate(): void {
 
         $obj = new Dossier3();
 
@@ -42,7 +42,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAchatVenteLocalTva() {
+    public function testSetAchatVenteLocalTva(): void {
 
         $obj = new Dossier3();
 
@@ -55,7 +55,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAchatVenteStopTva() {
+    public function testSetAchatVenteStopTva(): void {
 
         $obj = new Dossier3();
 
@@ -68,7 +68,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBonsAPayer() {
+    public function testSetBonsAPayer(): void {
 
         $obj = new Dossier3();
 
@@ -81,7 +81,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeIcs() {
+    public function testSetCodeIcs(): void {
 
         $obj = new Dossier3();
 
@@ -94,7 +94,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalRevision() {
+    public function testSetCodeJournalRevision(): void {
 
         $obj = new Dossier3();
 
@@ -107,7 +107,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalTransfImmo() {
+    public function testSetCodeJournalTransfImmo(): void {
 
         $obj = new Dossier3();
 
@@ -120,7 +120,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompCliFrs() {
+    public function testSetCompCliFrs(): void {
 
         $obj = new Dossier3();
 
@@ -133,7 +133,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteDebutAssurance() {
+    public function testSetCompteDebutAssurance(): void {
 
         $obj = new Dossier3();
 
@@ -146,7 +146,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteDebutBail() {
+    public function testSetCompteDebutBail(): void {
 
         $obj = new Dossier3();
 
@@ -159,7 +159,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteDebutCar() {
+    public function testSetCompteDebutCar(): void {
 
         $obj = new Dossier3();
 
@@ -172,7 +172,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteDebutSubventions() {
+    public function testSetCompteDebutSubventions(): void {
 
         $obj = new Dossier3();
 
@@ -185,7 +185,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFinAssurance() {
+    public function testSetCompteFinAssurance(): void {
 
         $obj = new Dossier3();
 
@@ -198,7 +198,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFinBail() {
+    public function testSetCompteFinBail(): void {
 
         $obj = new Dossier3();
 
@@ -211,7 +211,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFinCar() {
+    public function testSetCompteFinCar(): void {
 
         $obj = new Dossier3();
 
@@ -224,7 +224,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFinSubventions() {
+    public function testSetCompteFinSubventions(): void {
 
         $obj = new Dossier3();
 
@@ -237,7 +237,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteTvacar() {
+    public function testSetCompteTvacar(): void {
 
         $obj = new Dossier3();
 
@@ -250,7 +250,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConserveMoisRb() {
+    public function testSetConserveMoisRb(): void {
 
         $obj = new Dossier3();
 
@@ -263,7 +263,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetControleEdition() {
+    public function testSetControleEdition(): void {
 
         $obj = new Dossier3();
 
@@ -276,7 +276,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetControleExistEcr() {
+    public function testSetControleExistEcr(): void {
 
         $obj = new Dossier3();
 
@@ -289,7 +289,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetControleRefTire() {
+    public function testSetControleRefTire(): void {
 
         $obj = new Dossier3();
 
@@ -302,7 +302,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptTransfImmoCommuns() {
+    public function testSetCptTransfImmoCommuns(): void {
 
         $obj = new Dossier3();
 
@@ -316,7 +316,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRevision() {
+    public function testSetDateRevision(): void {
 
         // Set a Date/time mock.
         $dateRevision = new DateTime("2018-09-10");
@@ -333,7 +333,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfCb() {
+    public function testSetDateTransfCb(): void {
 
         // Set a Date/time mock.
         $dateTransfCb = new DateTime("2018-09-10");
@@ -350,7 +350,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfCliDouteux() {
+    public function testSetDateTransfCliDouteux(): void {
 
         // Set a Date/time mock.
         $dateTransfCliDouteux = new DateTime("2018-09-10");
@@ -367,7 +367,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfIntCourus() {
+    public function testSetDateTransfIntCourus(): void {
 
         // Set a Date/time mock.
         $dateTransfIntCourus = new DateTime("2018-09-10");
@@ -384,7 +384,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfIntExtournes() {
+    public function testSetDateTransfIntExtournes(): void {
 
         // Set a Date/time mock.
         $dateTransfIntExtournes = new DateTime("2018-09-10");
@@ -401,7 +401,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfLf() {
+    public function testSetDateTransfLf(): void {
 
         // Set a Date/time mock.
         $dateTransfLf = new DateTime("2018-09-10");
@@ -418,7 +418,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfProvCp() {
+    public function testSetDateTransfProvCp(): void {
 
         // Set a Date/time mock.
         $dateTransfProvCp = new DateTime("2018-09-10");
@@ -435,7 +435,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfertEchCb() {
+    public function testSetDateTransfertEchCb(): void {
 
         // Set a Date/time mock.
         $dateTransfertEchCb = new DateTime("2018-09-10");
@@ -452,7 +452,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfertEchLf() {
+    public function testSetDateTransfertEchLf(): void {
 
         // Set a Date/time mock.
         $dateTransfertEchLf = new DateTime("2018-09-10");
@@ -469,7 +469,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfertEcheance() {
+    public function testSetDateTransfertEcheance(): void {
 
         // Set a Date/time mock.
         $dateTransfertEcheance = new DateTime("2018-09-10");
@@ -486,7 +486,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutCalculImmo() {
+    public function testSetDebutCalculImmo(): void {
 
         // Set a Date/time mock.
         $debutCalculImmo = new DateTime("2018-09-10");
@@ -502,7 +502,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiRejetEffet() {
+    public function testSetDelaiRejetEffet(): void {
 
         $obj = new Dossier3();
 
@@ -515,7 +515,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetailCb() {
+    public function testSetDetailCb(): void {
 
         $obj = new Dossier3();
 
@@ -528,7 +528,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetailImmo() {
+    public function testSetDetailImmo(): void {
 
         $obj = new Dossier3();
 
@@ -541,7 +541,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDotFrancCentime() {
+    public function testSetDotFrancCentime(): void {
 
         $obj = new Dossier3();
 
@@ -554,7 +554,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdi400() {
+    public function testSetEdi400(): void {
 
         $obj = new Dossier3();
 
@@ -567,7 +567,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditAnaContrepasse() {
+    public function testSetEditAnaContrepasse(): void {
 
         $obj = new Dossier3();
 
@@ -581,7 +581,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinCalculImmo() {
+    public function testSetFinCalculImmo(): void {
 
         // Set a Date/time mock.
         $finCalculImmo = new DateTime("2018-09-10");
@@ -597,7 +597,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolioRevision() {
+    public function testSetFolioRevision(): void {
 
         $obj = new Dossier3();
 
@@ -610,7 +610,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolioTransfImmo() {
+    public function testSetFolioTransfImmo(): void {
 
         $obj = new Dossier3();
 
@@ -623,7 +623,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPmagClient() {
+    public function testSetGestionPmagClient(): void {
 
         $obj = new Dossier3();
 
@@ -636,7 +636,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionTraitePapier() {
+    public function testSetGestionTraitePapier(): void {
 
         $obj = new Dossier3();
 
@@ -649,7 +649,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionVirementFrn() {
+    public function testSetGestionVirementFrn(): void {
 
         $obj = new Dossier3();
 
@@ -662,7 +662,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoDetailLignes() {
+    public function testSetImmoDetailLignes(): void {
 
         $obj = new Dossier3();
 
@@ -675,7 +675,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoDetailParCpt() {
+    public function testSetImmoDetailParCpt(): void {
 
         $obj = new Dossier3();
 
@@ -688,7 +688,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoEditEnsemble() {
+    public function testSetImmoEditEnsemble(): void {
 
         $obj = new Dossier3();
 
@@ -701,7 +701,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoJoursParAn() {
+    public function testSetImmoJoursParAn(): void {
 
         $obj = new Dossier3();
 
@@ -714,7 +714,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoSsTotImmo() {
+    public function testSetImmoSsTotImmo(): void {
 
         $obj = new Dossier3();
 
@@ -727,7 +727,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoTotParCompte() {
+    public function testSetImmoTotParCompte(): void {
 
         $obj = new Dossier3();
 
@@ -740,7 +740,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoTransfertForfaitVersReel() {
+    public function testSetImmoTransfertForfaitVersReel(): void {
 
         $obj = new Dossier3();
 
@@ -753,7 +753,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoTriAnalytique() {
+    public function testSetImmoTriAnalytique(): void {
 
         $obj = new Dossier3();
 
@@ -766,7 +766,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoTriParDate() {
+    public function testSetImmoTriParDate(): void {
 
         $obj = new Dossier3();
 
@@ -779,7 +779,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoTriParService() {
+    public function testSetImmoTriParService(): void {
 
         $obj = new Dossier3();
 
@@ -792,7 +792,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoTypeLiasse() {
+    public function testSetImmoTypeLiasse(): void {
 
         $obj = new Dossier3();
 
@@ -805,7 +805,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsClientExp() {
+    public function testSetIsClientExp(): void {
 
         $obj = new Dossier3();
 
@@ -818,7 +818,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLettrePvautBo() {
+    public function testSetLettrePvautBo(): void {
 
         $obj = new Dossier3();
 
@@ -831,7 +831,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibVariable1() {
+    public function testSetLibVariable1(): void {
 
         $obj = new Dossier3();
 
@@ -844,7 +844,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibVariable2() {
+    public function testSetLibVariable2(): void {
 
         $obj = new Dossier3();
 
@@ -857,7 +857,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibVariable3() {
+    public function testSetLibVariable3(): void {
 
         $obj = new Dossier3();
 
@@ -870,7 +870,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiseEnPortefeuilleBicF() {
+    public function testSetMiseEnPortefeuilleBicF(): void {
 
         $obj = new Dossier3();
 
@@ -883,7 +883,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiseEnPortefeuilleDomF() {
+    public function testSetMiseEnPortefeuilleDomF(): void {
 
         $obj = new Dossier3();
 
@@ -896,7 +896,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiseEnPortefeuilleIbanF() {
+    public function testSetMiseEnPortefeuilleIbanF(): void {
 
         $obj = new Dossier3();
 
@@ -909,7 +909,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiseEnPortefeuilleRibF() {
+    public function testSetMiseEnPortefeuilleRibF(): void {
 
         $obj = new Dossier3();
 
@@ -922,7 +922,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMultiEchClient() {
+    public function testSetMultiEchClient(): void {
 
         $obj = new Dossier3();
 
@@ -935,7 +935,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMultiEchFrn() {
+    public function testSetMultiEchFrn(): void {
 
         $obj = new Dossier3();
 
@@ -948,7 +948,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMultiEchParCodeLibAuto() {
+    public function testSetMultiEchParCodeLibAuto(): void {
 
         $obj = new Dossier3();
 
@@ -961,7 +961,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePlusAfficher() {
+    public function testSetNePlusAfficher(): void {
 
         $obj = new Dossier3();
 
@@ -974,7 +974,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriAnalytique() {
+    public function testSetNivTriAnalytique(): void {
 
         $obj = new Dossier3();
 
@@ -987,7 +987,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriBureau() {
+    public function testSetNivTriBureau(): void {
 
         $obj = new Dossier3();
 
@@ -1000,7 +1000,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriFamille() {
+    public function testSetNivTriFamille(): void {
 
         $obj = new Dossier3();
 
@@ -1013,7 +1013,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriNat() {
+    public function testSetNivTriNat(): void {
 
         $obj = new Dossier3();
 
@@ -1026,7 +1026,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriService() {
+    public function testSetNivTriService(): void {
 
         $obj = new Dossier3();
 
@@ -1039,7 +1039,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriSite() {
+    public function testSetNivTriSite(): void {
 
         $obj = new Dossier3();
 
@@ -1052,7 +1052,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriZl1() {
+    public function testSetNivTriZl1(): void {
 
         $obj = new Dossier3();
 
@@ -1065,7 +1065,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriZl2() {
+    public function testSetNivTriZl2(): void {
 
         $obj = new Dossier3();
 
@@ -1078,7 +1078,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNivTriZl3() {
+    public function testSetNivTriZl3(): void {
 
         $obj = new Dossier3();
 
@@ -1091,7 +1091,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomLettreP() {
+    public function testSetNomLettreP(): void {
 
         $obj = new Dossier3();
 
@@ -1104,7 +1104,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomLettrePc() {
+    public function testSetNomLettrePc(): void {
 
         $obj = new Dossier3();
 
@@ -1117,7 +1117,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumChronoBo() {
+    public function testSetNumChronoBo(): void {
 
         $obj = new Dossier3();
 
@@ -1130,7 +1130,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotCliDouteux() {
+    public function testSetNumLotCliDouteux(): void {
 
         $obj = new Dossier3();
 
@@ -1143,7 +1143,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransAssurance() {
+    public function testSetNumLotEcritTransAssurance(): void {
 
         $obj = new Dossier3();
 
@@ -1156,7 +1156,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransBaux() {
+    public function testSetNumLotEcritTransBaux(): void {
 
         $obj = new Dossier3();
 
@@ -1169,7 +1169,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransCar() {
+    public function testSetNumLotEcritTransCar(): void {
 
         $obj = new Dossier3();
 
@@ -1182,7 +1182,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransPeriodicite() {
+    public function testSetNumLotEcritTransPeriodicite(): void {
 
         $obj = new Dossier3();
 
@@ -1195,7 +1195,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransSubventions() {
+    public function testSetNumLotEcritTransSubventions(): void {
 
         $obj = new Dossier3();
 
@@ -1208,7 +1208,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransfCb() {
+    public function testSetNumLotEcritTransfCb(): void {
 
         $obj = new Dossier3();
 
@@ -1221,7 +1221,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransfImmo() {
+    public function testSetNumLotEcritTransfImmo(): void {
 
         $obj = new Dossier3();
 
@@ -1234,7 +1234,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcritTransfLf() {
+    public function testSetNumLotEcritTransfLf(): void {
 
         $obj = new Dossier3();
 
@@ -1247,7 +1247,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotIntCourus() {
+    public function testSetNumLotIntCourus(): void {
 
         $obj = new Dossier3();
 
@@ -1260,7 +1260,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotIntExtournes() {
+    public function testSetNumLotIntExtournes(): void {
 
         $obj = new Dossier3();
 
@@ -1273,7 +1273,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotProvCp() {
+    public function testSetNumLotProvCp(): void {
 
         $obj = new Dossier3();
 
@@ -1286,7 +1286,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOptionImportMvtRb() {
+    public function testSetOptionImportMvtRb(): void {
 
         $obj = new Dossier3();
 
@@ -1300,7 +1300,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeRevision() {
+    public function testSetPeriodeRevision(): void {
 
         // Set a Date/time mock.
         $periodeRevision = new DateTime("2018-09-10");
@@ -1317,7 +1317,7 @@ class Dossier3Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeTransfImmo() {
+    public function testSetPeriodeTransfImmo(): void {
 
         // Set a Date/time mock.
         $periodeTransfImmo = new DateTime("2018-09-10");
@@ -1333,7 +1333,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodiciteUtiliserLibelle() {
+    public function testSetPeriodiciteUtiliserLibelle(): void {
 
         $obj = new Dossier3();
 
@@ -1346,7 +1346,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainLotLcr() {
+    public function testSetProchainLotLcr(): void {
 
         $obj = new Dossier3();
 
@@ -1359,7 +1359,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainLotLettreP() {
+    public function testSetProchainLotLettreP(): void {
 
         $obj = new Dossier3();
 
@@ -1372,7 +1372,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainLotTraite() {
+    public function testSetProchainLotTraite(): void {
 
         $obj = new Dossier3();
 
@@ -1385,7 +1385,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainNumCb() {
+    public function testSetProchainNumCb(): void {
 
         $obj = new Dossier3();
 
@@ -1398,7 +1398,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainNumImmo() {
+    public function testSetProchainNumImmo(): void {
 
         $obj = new Dossier3();
 
@@ -1411,7 +1411,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainNumLf() {
+    public function testSetProchainNumLf(): void {
 
         $obj = new Dossier3();
 
@@ -1424,7 +1424,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchainNumPj() {
+    public function testSetProchainNumPj(): void {
 
         $obj = new Dossier3();
 
@@ -1437,7 +1437,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRacineImportMvtRb() {
+    public function testSetRacineImportMvtRb(): void {
 
         $obj = new Dossier3();
 
@@ -1450,7 +1450,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRebutVautCession() {
+    public function testSetRebutVautCession(): void {
 
         $obj = new Dossier3();
 
@@ -1463,7 +1463,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefRemiseLcr() {
+    public function testSetRefRemiseLcr(): void {
 
         $obj = new Dossier3();
 
@@ -1476,7 +1476,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefVirementFrn() {
+    public function testSetRefVirementFrn(): void {
 
         $obj = new Dossier3();
 
@@ -1489,7 +1489,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegroupFourCptEch() {
+    public function testSetRegroupFourCptEch(): void {
 
         $obj = new Dossier3();
 
@@ -1502,7 +1502,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepAss() {
+    public function testSetRepAss(): void {
 
         $obj = new Dossier3();
 
@@ -1515,7 +1515,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepBudget() {
+    public function testSetRepBudget(): void {
 
         $obj = new Dossier3();
 
@@ -1528,7 +1528,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepCar() {
+    public function testSetRepCar(): void {
 
         $obj = new Dossier3();
 
@@ -1541,7 +1541,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepCb() {
+    public function testSetRepCb(): void {
 
         $obj = new Dossier3();
 
@@ -1554,7 +1554,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepCl() {
+    public function testSetRepCl(): void {
 
         $obj = new Dossier3();
 
@@ -1567,7 +1567,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepComptaGen() {
+    public function testSetRepComptaGen(): void {
 
         $obj = new Dossier3();
 
@@ -1580,7 +1580,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepDecTva() {
+    public function testSetRepDecTva(): void {
 
         $obj = new Dossier3();
 
@@ -1593,7 +1593,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepDosRev() {
+    public function testSetRepDosRev(): void {
 
         $obj = new Dossier3();
 
@@ -1606,7 +1606,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepEmprunts() {
+    public function testSetRepEmprunts(): void {
 
         $obj = new Dossier3();
 
@@ -1619,7 +1619,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepEs() {
+    public function testSetRepEs(): void {
 
         $obj = new Dossier3();
 
@@ -1632,7 +1632,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepImmo() {
+    public function testSetRepImmo(): void {
 
         $obj = new Dossier3();
 
@@ -1645,7 +1645,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepLocFi() {
+    public function testSetRepLocFi(): void {
 
         $obj = new Dossier3();
 
@@ -1658,7 +1658,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepPartielle() {
+    public function testSetRepPartielle(): void {
 
         $obj = new Dossier3();
 
@@ -1671,7 +1671,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepSubv() {
+    public function testSetRepSubv(): void {
 
         $obj = new Dossier3();
 
@@ -1684,7 +1684,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepVmp() {
+    public function testSetRepVmp(): void {
 
         $obj = new Dossier3();
 
@@ -1697,7 +1697,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRevisSoldeEnEuro() {
+    public function testSetRevisSoldeEnEuro(): void {
 
         $obj = new Dossier3();
 
@@ -1710,7 +1710,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRevisVoirSoldeEx() {
+    public function testSetRevisVoirSoldeEx(): void {
 
         $obj = new Dossier3();
 
@@ -1723,7 +1723,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieCaisse() {
+    public function testSetSaisieCaisse(): void {
 
         $obj = new Dossier3();
 
@@ -1736,7 +1736,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieNumPiece() {
+    public function testSetSaisieNumPiece(): void {
 
         $obj = new Dossier3();
 
@@ -1749,7 +1749,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSauverPeriodicite() {
+    public function testSetSauverPeriodicite(): void {
 
         $obj = new Dossier3();
 
@@ -1762,7 +1762,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviAuxClient() {
+    public function testSetSuiviAuxClient(): void {
 
         $obj = new Dossier3();
 
@@ -1775,7 +1775,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviAuxFrn() {
+    public function testSetSuiviAuxFrn(): void {
 
         $obj = new Dossier3();
 
@@ -1788,7 +1788,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviDevises() {
+    public function testSetSuiviDevises(): void {
 
         $obj = new Dossier3();
 
@@ -1801,7 +1801,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertImmoOk() {
+    public function testSetTransfertImmoOk(): void {
 
         $obj = new Dossier3();
 
@@ -1814,7 +1814,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePmagClient() {
+    public function testSetTypePmagClient(): void {
 
         $obj = new Dossier3();
 
@@ -1827,7 +1827,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTransfertImmo() {
+    public function testSetTypeTransfertImmo(): void {
 
         $obj = new Dossier3();
 
@@ -1840,7 +1840,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTransfertTiers() {
+    public function testSetTypeTransfertTiers(): void {
 
         $obj = new Dossier3();
 
@@ -1853,7 +1853,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTransfertTiersF() {
+    public function testSetTypeTransfertTiersF(): void {
 
         $obj = new Dossier3();
 
@@ -1866,7 +1866,7 @@ class Dossier3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Dossier3();
 

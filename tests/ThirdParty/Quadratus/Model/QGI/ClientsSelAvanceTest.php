@@ -27,7 +27,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -40,7 +40,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCol() {
+    public function testSetCodeCol(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -53,7 +53,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -66,7 +66,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq1() {
+    public function testSetNomReq1(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -79,7 +79,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq10() {
+    public function testSetNomReq10(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -92,7 +92,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq11() {
+    public function testSetNomReq11(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -105,7 +105,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq12() {
+    public function testSetNomReq12(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -118,7 +118,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq2() {
+    public function testSetNomReq2(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -131,7 +131,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq3() {
+    public function testSetNomReq3(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -144,7 +144,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq4() {
+    public function testSetNomReq4(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -157,7 +157,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq5() {
+    public function testSetNomReq5(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -170,7 +170,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq6() {
+    public function testSetNomReq6(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -183,7 +183,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq7() {
+    public function testSetNomReq7(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -196,7 +196,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq8() {
+    public function testSetNomReq8(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -209,7 +209,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomReq9() {
+    public function testSetNomReq9(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -222,7 +222,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete1() {
+    public function testSetRequete1(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -235,7 +235,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete10() {
+    public function testSetRequete10(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -248,7 +248,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete11() {
+    public function testSetRequete11(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -261,7 +261,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete12() {
+    public function testSetRequete12(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -274,7 +274,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete2() {
+    public function testSetRequete2(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -287,7 +287,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete3() {
+    public function testSetRequete3(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -300,7 +300,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete4() {
+    public function testSetRequete4(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -313,7 +313,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete5() {
+    public function testSetRequete5(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -326,7 +326,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete6() {
+    public function testSetRequete6(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -339,7 +339,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete7() {
+    public function testSetRequete7(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -352,7 +352,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete8() {
+    public function testSetRequete8(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -365,7 +365,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequete9() {
+    public function testSetRequete9(): void {
 
         $obj = new ClientsSelAvance();
 
@@ -378,7 +378,7 @@ class ClientsSelAvanceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsSelAvance();
 

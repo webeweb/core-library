@@ -24,16 +24,16 @@ trait DateTimeUpdatedAtTrait {
     /**
      * Updated at.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     protected $updatedAt;
 
     /**
      * Get the updated at.
      *
-     * @return DateTime Returns the updated at.
+     * @return DateTime|null Returns the updated at.
      */
-    public function getUpdatedAt() {
+    public function getUpdatedAt(): ?DateTime {
         return $this->updatedAt;
     }
 
@@ -42,7 +42,7 @@ trait DateTimeUpdatedAtTrait {
      *
      * @param DateTime|null $updatedAt The updated at.
      */
-    public function setUpdatedAt(DateTime $updatedAt = null) {
+    public function setUpdatedAt(?DateTime $updatedAt) {
         $this->updatedAt = $updatedAt;
         return $this;
     }

@@ -24,21 +24,21 @@ class JournauxRapproch {
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
     /**
      * Methode.
      *
-     * @var string
+     * @var string|null
      */
     private $methode;
 
     /**
      * Ne pas saisir solde fin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nePasSaisirSoldeFin;
 
@@ -52,41 +52,42 @@ class JournauxRapproch {
     /**
      * Solde fin.
      *
-     * @var float
+     * @var float|null
      */
     private $soldeFin;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
     /**
      * Get the methode.
      *
-     * @return string Returns the methode.
+     * @return string|null Returns the methode.
      */
-    public function getMethode() {
+    public function getMethode(): ?string{
         return $this->methode;
     }
 
     /**
      * Get the ne pas saisir solde fin.
      *
-     * @return bool Returns the ne pas saisir solde fin.
+     * @return bool|null Returns the ne pas saisir solde fin.
      */
-    public function getNePasSaisirSoldeFin() {
+    public function getNePasSaisirSoldeFin(): ?bool{
         return $this->nePasSaisirSoldeFin;
     }
 
@@ -95,26 +96,26 @@ class JournauxRapproch {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the solde fin.
      *
-     * @return float Returns the solde fin.
+     * @return float|null Returns the solde fin.
      */
-    public function getSoldeFin() {
+    public function getSoldeFin(): ?float{
         return $this->soldeFin;
     }
 
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return JournauxRapproch Returns this Journaux rapproch.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): JournauxRapproch {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -122,10 +123,10 @@ class JournauxRapproch {
     /**
      * Set the methode.
      *
-     * @param string $methode The methode.
+     * @param string|null $methode The methode.
      * @return JournauxRapproch Returns this Journaux rapproch.
      */
-    public function setMethode($methode) {
+    public function setMethode(?string $methode): JournauxRapproch {
         $this->methode = $methode;
         return $this;
     }
@@ -133,10 +134,10 @@ class JournauxRapproch {
     /**
      * Set the ne pas saisir solde fin.
      *
-     * @param bool $nePasSaisirSoldeFin The ne pas saisir solde fin.
+     * @param bool|null $nePasSaisirSoldeFin The ne pas saisir solde fin.
      * @return JournauxRapproch Returns this Journaux rapproch.
      */
-    public function setNePasSaisirSoldeFin($nePasSaisirSoldeFin) {
+    public function setNePasSaisirSoldeFin(?bool $nePasSaisirSoldeFin): JournauxRapproch {
         $this->nePasSaisirSoldeFin = $nePasSaisirSoldeFin;
         return $this;
     }
@@ -147,7 +148,7 @@ class JournauxRapproch {
      * @param DateTime|null $periode The periode.
      * @return JournauxRapproch Returns this Journaux rapproch.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): JournauxRapproch {
         $this->periode = $periode;
         return $this;
     }
@@ -155,10 +156,10 @@ class JournauxRapproch {
     /**
      * Set the solde fin.
      *
-     * @param float $soldeFin The solde fin.
+     * @param float|null $soldeFin The solde fin.
      * @return JournauxRapproch Returns this Journaux rapproch.
      */
-    public function setSoldeFin($soldeFin) {
+    public function setSoldeFin(?float $soldeFin): JournauxRapproch {
         $this->soldeFin = $soldeFin;
         return $this;
     }

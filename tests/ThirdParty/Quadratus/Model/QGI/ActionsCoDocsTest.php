@@ -29,7 +29,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAuteur() {
+    public function testSetAuteur(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -42,7 +42,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -55,7 +55,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -68,7 +68,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDoc() {
+    public function testSetCodeDoc(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -81,7 +81,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeManif() {
+    public function testSetCodeManif(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -95,7 +95,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmplacementFichier() {
+    public function testSetEmplacementFichier(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -141,7 +141,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -154,7 +154,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new ActionsCoDocs();
 
@@ -167,7 +167,7 @@ class ActionsCoDocsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCoDocs();
 

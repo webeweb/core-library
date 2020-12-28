@@ -22,145 +22,146 @@ class RecapDpa {
     /**
      * Aleas climat.
      *
-     * @var float
+     * @var float|null
      */
     private $aleasClimat;
 
     /**
      * Aleas eco.
      *
-     * @var float
+     * @var float|null
      */
     private $aleasEco;
 
     /**
      * Annee ded.
      *
-     * @var int
+     * @var int|null
      */
     private $anneeDed;
 
     /**
      * Annee utilisation.
      *
-     * @var int
+     * @var int|null
      */
     private $anneeUtilisation;
 
     /**
      * Autres.
      *
-     * @var float
+     * @var float|null
      */
     private $autres;
 
     /**
      * Franch dommages.
      *
-     * @var float
+     * @var float|null
      */
     private $franchDommages;
 
     /**
      * Mtt annee.
      *
-     * @var float
+     * @var float|null
      */
     private $mttAnnee;
 
     /**
      * Primes franch.
      *
-     * @var float
+     * @var float|null
      */
     private $primesFranch;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the aleas climat.
      *
-     * @return float Returns the aleas climat.
+     * @return float|null Returns the aleas climat.
      */
-    public function getAleasClimat() {
+    public function getAleasClimat(): ?float{
         return $this->aleasClimat;
     }
 
     /**
      * Get the aleas eco.
      *
-     * @return float Returns the aleas eco.
+     * @return float|null Returns the aleas eco.
      */
-    public function getAleasEco() {
+    public function getAleasEco(): ?float{
         return $this->aleasEco;
     }
 
     /**
      * Get the annee ded.
      *
-     * @return int Returns the annee ded.
+     * @return int|null Returns the annee ded.
      */
-    public function getAnneeDed() {
+    public function getAnneeDed(): ?int{
         return $this->anneeDed;
     }
 
     /**
      * Get the annee utilisation.
      *
-     * @return int Returns the annee utilisation.
+     * @return int|null Returns the annee utilisation.
      */
-    public function getAnneeUtilisation() {
+    public function getAnneeUtilisation(): ?int{
         return $this->anneeUtilisation;
     }
 
     /**
      * Get the autres.
      *
-     * @return float Returns the autres.
+     * @return float|null Returns the autres.
      */
-    public function getAutres() {
+    public function getAutres(): ?float{
         return $this->autres;
     }
 
     /**
      * Get the franch dommages.
      *
-     * @return float Returns the franch dommages.
+     * @return float|null Returns the franch dommages.
      */
-    public function getFranchDommages() {
+    public function getFranchDommages(): ?float{
         return $this->franchDommages;
     }
 
     /**
      * Get the mtt annee.
      *
-     * @return float Returns the mtt annee.
+     * @return float|null Returns the mtt annee.
      */
-    public function getMttAnnee() {
+    public function getMttAnnee(): ?float{
         return $this->mttAnnee;
     }
 
     /**
      * Get the primes franch.
      *
-     * @return float Returns the primes franch.
+     * @return float|null Returns the primes franch.
      */
-    public function getPrimesFranch() {
+    public function getPrimesFranch(): ?float{
         return $this->primesFranch;
     }
 
     /**
      * Set the aleas climat.
      *
-     * @param float $aleasClimat The aleas climat.
+     * @param float|null $aleasClimat The aleas climat.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setAleasClimat($aleasClimat) {
+    public function setAleasClimat(?float $aleasClimat): RecapDpa {
         $this->aleasClimat = $aleasClimat;
         return $this;
     }
@@ -168,10 +169,10 @@ class RecapDpa {
     /**
      * Set the aleas eco.
      *
-     * @param float $aleasEco The aleas eco.
+     * @param float|null $aleasEco The aleas eco.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setAleasEco($aleasEco) {
+    public function setAleasEco(?float $aleasEco): RecapDpa {
         $this->aleasEco = $aleasEco;
         return $this;
     }
@@ -179,10 +180,10 @@ class RecapDpa {
     /**
      * Set the annee ded.
      *
-     * @param int $anneeDed The annee ded.
+     * @param int|null $anneeDed The annee ded.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setAnneeDed($anneeDed) {
+    public function setAnneeDed(?int $anneeDed): RecapDpa {
         $this->anneeDed = $anneeDed;
         return $this;
     }
@@ -190,10 +191,10 @@ class RecapDpa {
     /**
      * Set the annee utilisation.
      *
-     * @param int $anneeUtilisation The annee utilisation.
+     * @param int|null $anneeUtilisation The annee utilisation.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setAnneeUtilisation($anneeUtilisation) {
+    public function setAnneeUtilisation(?int $anneeUtilisation): RecapDpa {
         $this->anneeUtilisation = $anneeUtilisation;
         return $this;
     }
@@ -201,10 +202,10 @@ class RecapDpa {
     /**
      * Set the autres.
      *
-     * @param float $autres The autres.
+     * @param float|null $autres The autres.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setAutres($autres) {
+    public function setAutres(?float $autres): RecapDpa {
         $this->autres = $autres;
         return $this;
     }
@@ -212,10 +213,10 @@ class RecapDpa {
     /**
      * Set the franch dommages.
      *
-     * @param float $franchDommages The franch dommages.
+     * @param float|null $franchDommages The franch dommages.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setFranchDommages($franchDommages) {
+    public function setFranchDommages(?float $franchDommages): RecapDpa {
         $this->franchDommages = $franchDommages;
         return $this;
     }
@@ -223,10 +224,10 @@ class RecapDpa {
     /**
      * Set the mtt annee.
      *
-     * @param float $mttAnnee The mtt annee.
+     * @param float|null $mttAnnee The mtt annee.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setMttAnnee($mttAnnee) {
+    public function setMttAnnee(?float $mttAnnee): RecapDpa {
         $this->mttAnnee = $mttAnnee;
         return $this;
     }
@@ -234,10 +235,10 @@ class RecapDpa {
     /**
      * Set the primes franch.
      *
-     * @param float $primesFranch The primes franch.
+     * @param float|null $primesFranch The primes franch.
      * @return RecapDpa Returns this Recap dpa.
      */
-    public function setPrimesFranch($primesFranch) {
+    public function setPrimesFranch(?float $primesFranch): RecapDpa {
         $this->primesFranch = $primesFranch;
         return $this;
     }

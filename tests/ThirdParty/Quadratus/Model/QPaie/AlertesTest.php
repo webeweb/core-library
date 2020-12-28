@@ -29,7 +29,7 @@ class AlertesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCloturee() {
+    public function testSetCloturee(): void {
 
         $obj = new Alertes();
 
@@ -42,7 +42,7 @@ class AlertesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new Alertes();
 
@@ -55,7 +55,7 @@ class AlertesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Alertes();
 
@@ -68,7 +68,7 @@ class AlertesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Alertes();
 
@@ -82,7 +82,7 @@ class AlertesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class AlertesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Alertes();
 
@@ -111,7 +111,7 @@ class AlertesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Alertes();
 

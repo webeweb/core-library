@@ -29,7 +29,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCac() {
+    public function testSetCodeCac(): void {
 
         $obj = new CommissairesComptes();
 
@@ -42,7 +42,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CommissairesComptes();
 
@@ -56,7 +56,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNomination() {
+    public function testSetDateNomination(): void {
 
         // Set a Date/time mock.
         $dateNomination = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeMandat() {
+    public function testSetDureeMandat(): void {
 
         $obj = new CommissairesComptes();
 
@@ -85,7 +85,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservations() {
+    public function testSetObservations(): void {
 
         $obj = new CommissairesComptes();
 
@@ -98,7 +98,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new CommissairesComptes();
 
@@ -111,7 +111,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitulaire() {
+    public function testSetTitulaire(): void {
 
         $obj = new CommissairesComptes();
 
@@ -124,7 +124,7 @@ class CommissairesComptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CommissairesComptes();
 

@@ -27,7 +27,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -40,7 +40,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -53,7 +53,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -66,7 +66,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePorteurRisque() {
+    public function testSetCodePorteurRisque(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -79,7 +79,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationCommerciale() {
+    public function testSetDesignationCommerciale(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -92,7 +92,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefContrat() {
+    public function testSetRefContrat(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -105,7 +105,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniteGestion() {
+    public function testSetUniteGestion(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 
@@ -118,7 +118,7 @@ class DadsuAssuranceLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuAssuranceLignesContrat();
 

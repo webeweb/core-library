@@ -30,7 +30,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAnciennBtp() {
+    public function testSetAnciennBtp(): void {
 
         // Set a Date/time mock.
         $anciennBtp = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeSommeIsol() {
+    public function testSetAnneeSommeIsol(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -59,7 +59,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeSommeIsol2() {
+    public function testSetAnneeSommeIsol2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -72,7 +72,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeSommeIsol3() {
+    public function testSetAnneeSommeIsol3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -85,7 +85,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeSommeIsol4() {
+    public function testSetAnneeSommeIsol4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -98,7 +98,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeSommeIsol5() {
+    public function testSetAnneeSommeIsol5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -111,7 +111,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseBruteCotCcpbtp() {
+    public function testSetBaseBruteCotCcpbtp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -124,7 +124,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseBruteCotOppbtp() {
+    public function testSetBaseBruteCotOppbtp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -137,7 +137,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseBruteCpbtp() {
+    public function testSetBaseBruteCpbtp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -150,7 +150,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBenefAssedic() {
+    public function testSetBenefAssedic(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -163,7 +163,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutIrcantec() {
+    public function testSetBrutIrcantec(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -176,7 +176,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtpSalMoyen() {
+    public function testSetBtpSalMoyen(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -189,7 +189,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClassBtp() {
+    public function testSetCodeClassBtp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -202,7 +202,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDureeTrav() {
+    public function testSetCodeDureeTrav(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -215,7 +215,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -228,7 +228,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBPlaf() {
+    public function testSetCodeLibBPlaf(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -241,7 +241,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBPlaf2() {
+    public function testSetCodeLibBPlaf2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -254,7 +254,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBPlaf3() {
+    public function testSetCodeLibBPlaf3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -267,7 +267,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBPlaf4() {
+    public function testSetCodeLibBPlaf4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -280,7 +280,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBPlaf5() {
+    public function testSetCodeLibBPlaf5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -293,7 +293,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBrut() {
+    public function testSetCodeLibBrut(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -306,7 +306,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBrut2() {
+    public function testSetCodeLibBrut2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -319,7 +319,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBrut3() {
+    public function testSetCodeLibBrut3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -332,7 +332,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBrut4() {
+    public function testSetCodeLibBrut4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -345,7 +345,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibBrut5() {
+    public function testSetCodeLibBrut5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -358,7 +358,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibCsg() {
+    public function testSetCodeLibCsg(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -371,7 +371,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibIrc1() {
+    public function testSetCodeLibIrc1(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -384,7 +384,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibIrc2() {
+    public function testSetCodeLibIrc2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -397,7 +397,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibIrc3() {
+    public function testSetCodeLibIrc3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -410,7 +410,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibSomme() {
+    public function testSetCodeLibSomme(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -423,7 +423,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibSomme2() {
+    public function testSetCodeLibSomme2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -436,7 +436,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibSomme3() {
+    public function testSetCodeLibSomme3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -449,7 +449,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibSomme4() {
+    public function testSetCodeLibSomme4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -462,7 +462,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibSomme5() {
+    public function testSetCodeLibSomme5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -475,7 +475,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMetierBtp() {
+    public function testSetCodeMetierBtp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -488,7 +488,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBPlaf() {
+    public function testSetCodeTypeBPlaf(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -501,7 +501,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBPlaf2() {
+    public function testSetCodeTypeBPlaf2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -514,7 +514,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBPlaf3() {
+    public function testSetCodeTypeBPlaf3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -527,7 +527,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBPlaf4() {
+    public function testSetCodeTypeBPlaf4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -540,7 +540,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBPlaf5() {
+    public function testSetCodeTypeBPlaf5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -553,7 +553,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBrut() {
+    public function testSetCodeTypeBrut(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -566,7 +566,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBrut2() {
+    public function testSetCodeTypeBrut2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -579,7 +579,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBrut3() {
+    public function testSetCodeTypeBrut3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -592,7 +592,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBrut4() {
+    public function testSetCodeTypeBrut4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -605,7 +605,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBrut5() {
+    public function testSetCodeTypeBrut5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -618,7 +618,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSomme() {
+    public function testSetCodeTypeSomme(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -631,7 +631,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSomme2() {
+    public function testSetCodeTypeSomme2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -644,7 +644,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSomme3() {
+    public function testSetCodeTypeSomme3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -657,7 +657,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSomme4() {
+    public function testSetCodeTypeSomme4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -670,7 +670,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSomme5() {
+    public function testSetCodeTypeSomme5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -683,7 +683,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCsgSpecif() {
+    public function testSetCsgSpecif(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -696,7 +696,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeTrav() {
+    public function testSetDureeTrav(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -709,7 +709,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHCode1() {
+    public function testSetExoHCode1(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -722,7 +722,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHCode2() {
+    public function testSetExoHCode2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -735,7 +735,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHCode3() {
+    public function testSetExoHCode3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -748,7 +748,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHCode4() {
+    public function testSetExoHCode4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -761,7 +761,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHCode5() {
+    public function testSetExoHCode5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -774,7 +774,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMnt1() {
+    public function testSetExoHMnt1(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -787,7 +787,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMnt2() {
+    public function testSetExoHMnt2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -800,7 +800,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMnt3() {
+    public function testSetExoHMnt3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -813,7 +813,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMnt4() {
+    public function testSetExoHMnt4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -826,7 +826,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMnt5() {
+    public function testSetExoHMnt5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -839,7 +839,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntDeducCotPat1() {
+    public function testSetExoHMntDeducCotPat1(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -852,7 +852,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntDeducCotPat2() {
+    public function testSetExoHMntDeducCotPat2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -865,7 +865,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntDeducCotPat3() {
+    public function testSetExoHMntDeducCotPat3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -878,7 +878,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntDeducCotPat4() {
+    public function testSetExoHMntDeducCotPat4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -891,7 +891,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntDeducCotPat5() {
+    public function testSetExoHMntDeducCotPat5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -904,7 +904,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntDeducCotPatTot() {
+    public function testSetExoHMntDeducCotPatTot(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -917,7 +917,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntReducCotSal1() {
+    public function testSetExoHMntReducCotSal1(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -930,7 +930,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntReducCotSal2() {
+    public function testSetExoHMntReducCotSal2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -943,7 +943,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntReducCotSal3() {
+    public function testSetExoHMntReducCotSal3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -956,7 +956,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntReducCotSal4() {
+    public function testSetExoHMntReducCotSal4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -969,7 +969,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntReducCotSal5() {
+    public function testSetExoHMntReducCotSal5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -982,7 +982,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHMntReducCotSalTot() {
+    public function testSetExoHMntReducCotSalTot(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -995,7 +995,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHNbHj1() {
+    public function testSetExoHNbHj1(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1008,7 +1008,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHNbHj2() {
+    public function testSetExoHNbHj2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1021,7 +1021,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHNbHj3() {
+    public function testSetExoHNbHj3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1034,7 +1034,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHNbHj4() {
+    public function testSetExoHNbHj4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1047,7 +1047,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoHNbHj5() {
+    public function testSetExoHNbHj5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1060,7 +1060,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProBase() {
+    public function testSetFormaProBase(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1073,7 +1073,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProBaseCdd() {
+    public function testSetFormaProBaseCdd(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1086,7 +1086,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndCp() {
+    public function testSetIndCp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1099,7 +1099,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndIntemp() {
+    public function testSetIndIntemp(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1112,7 +1112,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBPlaf() {
+    public function testSetMontantBPlaf(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1125,7 +1125,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBPlaf2() {
+    public function testSetMontantBPlaf2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1138,7 +1138,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBPlaf3() {
+    public function testSetMontantBPlaf3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1151,7 +1151,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBPlaf4() {
+    public function testSetMontantBPlaf4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1164,7 +1164,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBPlaf5() {
+    public function testSetMontantBPlaf5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1177,7 +1177,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBrut() {
+    public function testSetMontantBrut(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1190,7 +1190,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBrut2() {
+    public function testSetMontantBrut2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1203,7 +1203,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBrut3() {
+    public function testSetMontantBrut3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1216,7 +1216,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBrut4() {
+    public function testSetMontantBrut4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1229,7 +1229,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantBrut5() {
+    public function testSetMontantBrut5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1242,7 +1242,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolBrut() {
+    public function testSetMontantSommeIsolBrut(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1255,7 +1255,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolBrut2() {
+    public function testSetMontantSommeIsolBrut2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1268,7 +1268,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolBrut3() {
+    public function testSetMontantSommeIsolBrut3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1281,7 +1281,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolBrut4() {
+    public function testSetMontantSommeIsolBrut4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1294,7 +1294,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolBrut5() {
+    public function testSetMontantSommeIsolBrut5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1307,7 +1307,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolPlaf() {
+    public function testSetMontantSommeIsolPlaf(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1320,7 +1320,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolPlaf2() {
+    public function testSetMontantSommeIsolPlaf2(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1333,7 +1333,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolPlaf3() {
+    public function testSetMontantSommeIsolPlaf3(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1346,7 +1346,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolPlaf4() {
+    public function testSetMontantSommeIsolPlaf4(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1359,7 +1359,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSommeIsolPlaf5() {
+    public function testSetMontantSommeIsolPlaf5(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1372,7 +1372,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtJRtt2007() {
+    public function testSetMtJRtt2007(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1385,7 +1385,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJRtt2007() {
+    public function testSetNbJRtt2007(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1398,7 +1398,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPeriode() {
+    public function testSetNbPeriode(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1411,7 +1411,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhChomPartiel() {
+    public function testSetNbhChomPartiel(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1424,7 +1424,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhSemIrcantec() {
+    public function testSetNbhSemIrcantec(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1437,7 +1437,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1450,7 +1450,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1463,7 +1463,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafIrcantec() {
+    public function testSetPlafIrcantec(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1476,7 +1476,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifUniteTemps() {
+    public function testSetQualifUniteTemps(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1489,7 +1489,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSupplFam() {
+    public function testSetSupplFam(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1502,7 +1502,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeApprentissageBase() {
+    public function testSetTaxeApprentissageBase(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1515,7 +1515,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeSalaire() {
+    public function testSetTaxeSalaire(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1528,7 +1528,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrAIrcantec() {
+    public function testSetTrAIrcantec(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1541,7 +1541,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTrBIrcantec() {
+    public function testSetTrBIrcantec(): void {
 
         $obj = new EmpDadsuCalcul();
 
@@ -1554,7 +1554,7 @@ class EmpDadsuCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuCalcul();
 

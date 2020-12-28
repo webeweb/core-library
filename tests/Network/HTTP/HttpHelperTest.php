@@ -27,7 +27,7 @@ class HttpHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetHttpMethods() {
+    public function testGetHttpMethods(): void {
 
         $res = HttpHelper::getHttpMethods();
         $this->assertCount(7, $res);
@@ -38,7 +38,7 @@ class HttpHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testGetHttpStatus() {
+    public function testGetHttpStatus(): void {
 
         $res = HttpHelper::getHttpStatus();
         $this->assertCount(57, $res);

@@ -22,25 +22,25 @@ trait IntegerCountTrait {
     /**
      * Count.
      *
-     * @var int
+     * @var int|null
      */
     protected $count;
 
     /**
      * Get the count.
      *
-     * @return int Returns the count.
+     * @return int|null Returns the count.
      */
-    public function getCount() {
+    public function getCount(): ?int {
         return $this->count;
     }
 
     /**
      * Set the count.
      *
-     * @param int $count The count.
+     * @param int|null $count The count.
      */
-    public function setCount($count) {
+    public function setCount(?int $count) {
         $this->count = $count;
         return $this;
     }

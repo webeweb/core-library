@@ -29,7 +29,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -42,7 +42,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -55,7 +55,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -68,7 +68,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -81,7 +81,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -94,7 +94,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -107,7 +107,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrime() {
+    public function testSetCodePrime(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -120,7 +120,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -133,7 +133,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheTypeBt() {
+    public function testSetCodeTacheTypeBt(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -147,7 +147,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -164,7 +164,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -180,7 +180,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDefaut() {
+    public function testSetDefaut(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -193,7 +193,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -206,7 +206,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureMajoration() {
+    public function testSetNbHeureMajoration(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -219,7 +219,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombrePrime() {
+    public function testSetNombrePrime(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -232,7 +232,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -245,7 +245,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPrime() {
+    public function testSetNumeroPrime(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -259,7 +259,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -275,7 +275,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPrime() {
+    public function testSetTauxPrime(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -288,7 +288,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMajo() {
+    public function testSetTypeMajo(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -301,7 +301,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePrime() {
+    public function testSetTypePrime(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -314,7 +314,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new PointEmpPrimes();
 
@@ -327,7 +327,7 @@ class PointEmpPrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointEmpPrimes();
 

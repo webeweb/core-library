@@ -27,7 +27,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new DetailImmos();
 
@@ -40,7 +40,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DetailImmos();
 
@@ -53,7 +53,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new DetailImmos();
 
@@ -66,7 +66,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new DetailImmos();
 
@@ -79,7 +79,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDeux() {
+    public function testSetNumeroDeux(): void {
 
         $obj = new DetailImmos();
 
@@ -92,7 +92,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new DetailImmos();
 
@@ -105,7 +105,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur() {
+    public function testSetValeur(): void {
 
         $obj = new DetailImmos();
 
@@ -118,7 +118,7 @@ class DetailImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DetailImmos();
 

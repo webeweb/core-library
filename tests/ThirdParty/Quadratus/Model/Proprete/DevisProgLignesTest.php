@@ -27,7 +27,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new DevisProgLignes();
 
@@ -40,7 +40,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new DevisProgLignes();
 
@@ -53,7 +53,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEchelle() {
+    public function testSetCodeEchelle(): void {
 
         $obj = new DevisProgLignes();
 
@@ -66,7 +66,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOperation() {
+    public function testSetCodeOperation(): void {
 
         $obj = new DevisProgLignes();
 
@@ -79,7 +79,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new DevisProgLignes();
 
@@ -92,7 +92,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new DevisProgLignes();
 
@@ -105,7 +105,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDimanche() {
+    public function testSetDimanche(): void {
 
         $obj = new DevisProgLignes();
 
@@ -118,7 +118,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new DevisProgLignes();
 
@@ -131,7 +131,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new DevisProgLignes();
 
@@ -144,7 +144,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJeudi() {
+    public function testSetJeudi(): void {
 
         $obj = new DevisProgLignes();
 
@@ -157,7 +157,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuil() {
+    public function testSetJuil(): void {
 
         $obj = new DevisProgLignes();
 
@@ -170,7 +170,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new DevisProgLignes();
 
@@ -183,7 +183,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLundi() {
+    public function testSetLundi(): void {
 
         $obj = new DevisProgLignes();
 
@@ -196,7 +196,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new DevisProgLignes();
 
@@ -209,7 +209,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new DevisProgLignes();
 
@@ -222,7 +222,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMardi() {
+    public function testSetMardi(): void {
 
         $obj = new DevisProgLignes();
 
@@ -235,7 +235,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMercredi() {
+    public function testSetMercredi(): void {
 
         $obj = new DevisProgLignes();
 
@@ -248,7 +248,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoteResultat() {
+    public function testSetNoteResultat(): void {
 
         $obj = new DevisProgLignes();
 
@@ -261,7 +261,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new DevisProgLignes();
 
@@ -274,7 +274,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisProgLignes();
 
@@ -287,7 +287,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DevisProgLignes();
 
@@ -300,7 +300,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumProgramme() {
+    public function testSetNumProgramme(): void {
 
         $obj = new DevisProgLignes();
 
@@ -313,7 +313,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOccurrence() {
+    public function testSetOccurrence(): void {
 
         $obj = new DevisProgLignes();
 
@@ -326,7 +326,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new DevisProgLignes();
 
@@ -339,7 +339,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new DevisProgLignes();
 
@@ -352,7 +352,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSamedi() {
+    public function testSetSamedi(): void {
 
         $obj = new DevisProgLignes();
 
@@ -365,7 +365,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new DevisProgLignes();
 
@@ -378,7 +378,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVendredi() {
+    public function testSetVendredi(): void {
 
         $obj = new DevisProgLignes();
 
@@ -391,7 +391,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVitesseReelle() {
+    public function testSetVitesseReelle(): void {
 
         $obj = new DevisProgLignes();
 
@@ -404,7 +404,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVitesseTheorique() {
+    public function testSetVitesseTheorique(): void {
 
         $obj = new DevisProgLignes();
 
@@ -417,7 +417,7 @@ class DevisProgLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisProgLignes();
 

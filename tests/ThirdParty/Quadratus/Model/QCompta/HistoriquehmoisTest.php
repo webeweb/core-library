@@ -29,7 +29,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAlpha() {
+    public function testSetAlpha(): void {
 
         $obj = new Historiquehmois();
 
@@ -42,7 +42,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnN() {
+    public function testSetAnN(): void {
 
         $obj = new Historiquehmois();
 
@@ -55,7 +55,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnN1() {
+    public function testSetAnN1(): void {
 
         $obj = new Historiquehmois();
 
@@ -68,7 +68,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnN2() {
+    public function testSetAnN2(): void {
 
         $obj = new Historiquehmois();
 
@@ -81,7 +81,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudget1() {
+    public function testSetBudget1(): void {
 
         $obj = new Historiquehmois();
 
@@ -94,7 +94,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudget2() {
+    public function testSetBudget2(): void {
 
         $obj = new Historiquehmois();
 
@@ -108,7 +108,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlgAnN() {
+    public function testSetFlgAnN(): void {
 
         $obj = new Historiquehmois();
 
@@ -137,7 +137,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlgAnN1() {
+    public function testSetFlgAnN1(): void {
 
         $obj = new Historiquehmois();
 
@@ -150,7 +150,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlgAnN2() {
+    public function testSetFlgAnN2(): void {
 
         $obj = new Historiquehmois();
 
@@ -163,7 +163,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlgBudget1() {
+    public function testSetFlgBudget1(): void {
 
         $obj = new Historiquehmois();
 
@@ -176,7 +176,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlgBudget2() {
+    public function testSetFlgBudget2(): void {
 
         $obj = new Historiquehmois();
 
@@ -189,7 +189,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFmtDec() {
+    public function testSetFmtDec(): void {
 
         $obj = new Historiquehmois();
 
@@ -202,7 +202,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFmtInt() {
+    public function testSetFmtInt(): void {
 
         $obj = new Historiquehmois();
 
@@ -215,7 +215,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemo() {
+    public function testSetMemo(): void {
 
         $obj = new Historiquehmois();
 
@@ -228,7 +228,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoConvEuro() {
+    public function testSetNoConvEuro(): void {
 
         $obj = new Historiquehmois();
 
@@ -241,7 +241,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegle() {
+    public function testSetRegle(): void {
 
         $obj = new Historiquehmois();
 
@@ -254,7 +254,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRub() {
+    public function testSetRub(): void {
 
         $obj = new Historiquehmois();
 
@@ -267,7 +267,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeZone() {
+    public function testSetTypeZone(): void {
 
         $obj = new Historiquehmois();
 
@@ -280,7 +280,7 @@ class HistoriquehmoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Historiquehmois();
 

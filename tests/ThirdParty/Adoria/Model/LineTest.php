@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Model;
+namespace WBW\Library\Core\Tests\ThirdParty\Adoria\Model;
 
 use DateTime;
 use Exception;
@@ -20,7 +20,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Model\Line;
  * Line test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Model
+ * @package WBW\Library\Core\Tests\ThirdParty\Adoria\Model
  */
 class LineTest extends AbstractTestCase {
 
@@ -29,7 +29,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAmount() {
+    public function testSetAmount(): void {
 
         $obj = new Line();
 
@@ -42,7 +42,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAmountSign() {
+    public function testSetAmountSign(): void {
 
         $obj = new Line();
 
@@ -55,7 +55,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnalyticCode() {
+    public function testSetAnalyticCode(): void {
 
         $obj = new Line();
 
@@ -68,7 +68,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBookingJournalCode() {
+    public function testSetBookingJournalCode(): void {
 
         $obj = new Line();
 
@@ -81,7 +81,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCurrency() {
+    public function testSetCurrency(): void {
 
         $obj = new Line();
 
@@ -94,7 +94,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreeField() {
+    public function testSetFreeField(): void {
 
         $obj = new Line();
 
@@ -108,7 +108,7 @@ class LineTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetInvoiceDate() {
+    public function testSetInvoiceDate(): void {
 
         // Set an Invoice date mock.
         $invoiceDate = new DateTime();
@@ -125,7 +125,7 @@ class LineTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetInvoiceDueDate() {
+    public function testSetInvoiceDueDate(): void {
 
         // Set a Invoice due date mock.
         $invoiceDueDate = new DateTime();
@@ -141,7 +141,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInvoiceNumber() {
+    public function testSetInvoiceNumber(): void {
 
         $obj = new Line();
 
@@ -154,7 +154,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSubledgerAccount() {
+    public function testSetSubledgerAccount(): void {
 
         $obj = new Line();
 
@@ -167,7 +167,7 @@ class LineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Line();
 

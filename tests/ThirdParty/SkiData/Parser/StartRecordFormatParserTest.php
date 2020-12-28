@@ -32,7 +32,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseEntity() {
+    public function testParseEntity(): void {
 
         $obj = new StartRecordFormat();
         $obj->setVersionRecordStructure(190000);
@@ -51,7 +51,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseEntityWithSkiDataTooLongException() {
+    public function testParseEntityWithSkiDataTooLongException(): void {
 
         $obj = new StartRecordFormat();
         $obj->setVersionRecordStructure(190000);
@@ -88,7 +88,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseLine() {
+    public function testParseLine(): void {
 
         $res = '190000;0202747;20170921;00018;"EUR"';
 
@@ -105,7 +105,7 @@ class StartRecordFormatParserTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new StartRecordFormatParser();
 

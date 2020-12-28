@@ -27,7 +27,7 @@ class FloatQuantityTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantity() {
+    public function testSetQuantity(): void {
 
         $obj = new TestFloatQuantityTrait();
 
@@ -40,7 +40,7 @@ class FloatQuantityTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatQuantityTrait();
 

@@ -24,14 +24,14 @@ class CommissairesComptes {
     /**
      * Code cac.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCac;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
@@ -45,53 +45,54 @@ class CommissairesComptes {
     /**
      * Duree mandat.
      *
-     * @var int
+     * @var int|null
      */
     private $dureeMandat;
 
     /**
      * Observations.
      *
-     * @var string
+     * @var string|null
      */
     private $observations;
 
     /**
      * Position.
      *
-     * @var int
+     * @var int|null
      */
     private $position;
 
     /**
      * Titulaire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $titulaire;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code cac.
      *
-     * @return string Returns the code cac.
+     * @return string|null Returns the code cac.
      */
-    public function getCodeCac() {
+    public function getCodeCac(): ?string{
         return $this->codeCac;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
@@ -100,53 +101,53 @@ class CommissairesComptes {
      *
      * @return DateTime|null Returns the date nomination.
      */
-    public function getDateNomination() {
+    public function getDateNomination(): ?DateTime{
         return $this->dateNomination;
     }
 
     /**
      * Get the duree mandat.
      *
-     * @return int Returns the duree mandat.
+     * @return int|null Returns the duree mandat.
      */
-    public function getDureeMandat() {
+    public function getDureeMandat(): ?int{
         return $this->dureeMandat;
     }
 
     /**
      * Get the observations.
      *
-     * @return string Returns the observations.
+     * @return string|null Returns the observations.
      */
-    public function getObservations() {
+    public function getObservations(): ?string{
         return $this->observations;
     }
 
     /**
      * Get the position.
      *
-     * @return int Returns the position.
+     * @return int|null Returns the position.
      */
-    public function getPosition() {
+    public function getPosition(): ?int{
         return $this->position;
     }
 
     /**
      * Get the titulaire.
      *
-     * @return bool Returns the titulaire.
+     * @return bool|null Returns the titulaire.
      */
-    public function getTitulaire() {
+    public function getTitulaire(): ?bool{
         return $this->titulaire;
     }
 
     /**
      * Set the code cac.
      *
-     * @param string $codeCac The code cac.
+     * @param string|null $codeCac The code cac.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setCodeCac($codeCac) {
+    public function setCodeCac(?string $codeCac): CommissairesComptes {
         $this->codeCac = $codeCac;
         return $this;
     }
@@ -154,10 +155,10 @@ class CommissairesComptes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): CommissairesComptes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -168,7 +169,7 @@ class CommissairesComptes {
      * @param DateTime|null $dateNomination The date nomination.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setDateNomination(DateTime $dateNomination = null) {
+    public function setDateNomination(?DateTime $dateNomination): CommissairesComptes {
         $this->dateNomination = $dateNomination;
         return $this;
     }
@@ -176,10 +177,10 @@ class CommissairesComptes {
     /**
      * Set the duree mandat.
      *
-     * @param int $dureeMandat The duree mandat.
+     * @param int|null $dureeMandat The duree mandat.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setDureeMandat($dureeMandat) {
+    public function setDureeMandat(?int $dureeMandat): CommissairesComptes {
         $this->dureeMandat = $dureeMandat;
         return $this;
     }
@@ -187,10 +188,10 @@ class CommissairesComptes {
     /**
      * Set the observations.
      *
-     * @param string $observations The observations.
+     * @param string|null $observations The observations.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setObservations($observations) {
+    public function setObservations(?string $observations): CommissairesComptes {
         $this->observations = $observations;
         return $this;
     }
@@ -198,10 +199,10 @@ class CommissairesComptes {
     /**
      * Set the position.
      *
-     * @param int $position The position.
+     * @param int|null $position The position.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setPosition($position) {
+    public function setPosition(?int $position): CommissairesComptes {
         $this->position = $position;
         return $this;
     }
@@ -209,10 +210,10 @@ class CommissairesComptes {
     /**
      * Set the titulaire.
      *
-     * @param bool $titulaire The titulaire.
+     * @param bool|null $titulaire The titulaire.
      * @return CommissairesComptes Returns this Commissaires comptes.
      */
-    public function setTitulaire($titulaire) {
+    public function setTitulaire(?bool $titulaire): CommissairesComptes {
         $this->titulaire = $titulaire;
         return $this;
     }

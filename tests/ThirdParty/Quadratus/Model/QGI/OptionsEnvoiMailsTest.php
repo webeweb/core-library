@@ -27,7 +27,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecEntete() {
+    public function testSetAvecEntete(): void {
 
         $obj = new OptionsEnvoiMails();
 
@@ -40,7 +40,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecPied() {
+    public function testSetAvecPied(): void {
 
         $obj = new OptionsEnvoiMails();
 
@@ -53,7 +53,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new OptionsEnvoiMails();
 
@@ -66,7 +66,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeModule() {
+    public function testSetCodeModule(): void {
 
         $obj = new OptionsEnvoiMails();
 
@@ -79,7 +79,7 @@ class OptionsEnvoiMailsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new OptionsEnvoiMails();
 

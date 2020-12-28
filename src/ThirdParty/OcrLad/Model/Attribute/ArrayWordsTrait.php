@@ -43,7 +43,7 @@ trait ArrayWordsTrait {
      *
      * @return int Returns the number of words.
      */
-    public function getNumberWords() {
+    public function getNumberWords(): int {
         return count($this->words);
     }
 
@@ -52,7 +52,7 @@ trait ArrayWordsTrait {
      *
      * @return Word[] Returns the words.
      */
-    public function getWords() {
+    public function getWords(): array {
         return $this->words;
     }
 
@@ -61,7 +61,7 @@ trait ArrayWordsTrait {
      *
      * @return bool Returns true in case of success, false otherwise.
      */
-    public function hasWords() {
+    public function hasWords(): bool {
         return 1 <= $this->getNumberWords();
     }
 

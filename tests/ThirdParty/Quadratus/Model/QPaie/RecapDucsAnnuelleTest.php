@@ -29,7 +29,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAEditerDucs() {
+    public function testSetAEditerDucs(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -42,7 +42,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAcompte() {
+    public function testSetAcompte(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -55,7 +55,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArrondiBase() {
+    public function testSetArrondiBase(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -68,7 +68,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArrondiCotis() {
+    public function testSetArrondiCotis(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -81,7 +81,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -94,7 +94,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -108,7 +108,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReglement() {
+    public function testSetDateReglement(): void {
 
         // Set a Date/time mock.
         $dateReglement = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateVerseSalaire() {
+    public function testSetDateVerseSalaire(): void {
 
         // Set a Date/time mock.
         $dateVerseSalaire = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDucsEuro() {
+    public function testSetDucsEuro(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -154,7 +154,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEffectifInscrit() {
+    public function testSetEffectifInscrit(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -167,7 +167,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEffectifMoyen() {
+    public function testSetEffectifMoyen(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -180,7 +180,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEffectifPaye() {
+    public function testSetEffectifPaye(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -194,7 +194,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPer() {
+    public function testSetFinPer(): void {
 
         // Set a Date/time mock.
         $finPer = new DateTime("2018-09-10");
@@ -210,7 +210,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGrandDecalage() {
+    public function testSetGrandDecalage(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -223,7 +223,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -236,7 +236,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMethodeCalculCicehe() {
+    public function testSetMethodeCalculCicehe(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -249,7 +249,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTotal() {
+    public function testSetMontantTotal(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -262,7 +262,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifEcartEff() {
+    public function testSetMotifEcartEff(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -275,7 +275,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtAideCtAides() {
+    public function testSetMtAideCtAides(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -288,7 +288,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtBrutDads() {
+    public function testSetMtBrutDads(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -301,7 +301,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtRegulLodeom() {
+    public function testSetMtRegulLodeom(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -314,7 +314,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAutres() {
+    public function testSetNbAutres(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -327,7 +327,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbFemmes() {
+    public function testSetNbFemmes(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -340,7 +340,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbFinContrat() {
+    public function testSetNbFinContrat(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -353,7 +353,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHommes() {
+    public function testSetNbHommes(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -366,7 +366,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoAffiliation() {
+    public function testSetNoAffiliation(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -379,7 +379,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -392,7 +392,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaieDecalee() {
+    public function testSetPaieDecalee(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -406,7 +406,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDebCice() {
+    public function testSetPerDebCice(): void {
 
         // Set a Date/time mock.
         $perDebCice = new DateTime("2018-09-10");
@@ -423,7 +423,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerFinCice() {
+    public function testSetPerFinCice(): void {
 
         // Set a Date/time mock.
         $perFinCice = new DateTime("2018-09-10");
@@ -439,7 +439,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -453,7 +453,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -469,7 +469,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPetitDecalage() {
+    public function testSetPetitDecalage(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -483,7 +483,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPremMois() {
+    public function testSetPremMois(): void {
 
         // Set a Date/time mock.
         $premMois = new DateTime("2018-09-10");
@@ -499,7 +499,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRaisonSociale() {
+    public function testSetRaisonSociale(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -512,7 +512,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs1() {
+    public function testSetRecapDucs1(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -525,7 +525,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs10() {
+    public function testSetRecapDucs10(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -538,7 +538,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs11() {
+    public function testSetRecapDucs11(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -551,7 +551,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs12() {
+    public function testSetRecapDucs12(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -564,7 +564,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs13() {
+    public function testSetRecapDucs13(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -577,7 +577,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs2() {
+    public function testSetRecapDucs2(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -590,7 +590,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs3() {
+    public function testSetRecapDucs3(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -603,7 +603,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs4() {
+    public function testSetRecapDucs4(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -616,7 +616,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs5() {
+    public function testSetRecapDucs5(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -629,7 +629,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs6() {
+    public function testSetRecapDucs6(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -642,7 +642,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs7() {
+    public function testSetRecapDucs7(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -655,7 +655,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs8() {
+    public function testSetRecapDucs8(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -668,7 +668,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecapDucs9() {
+    public function testSetRecapDucs9(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -681,7 +681,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegulDucs() {
+    public function testSetRegulDucs(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -694,7 +694,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -707,7 +707,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousTypeOrganisme() {
+    public function testSetSousTypeOrganisme(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -720,7 +720,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTraiterEdi() {
+    public function testSetTraiterEdi(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -733,7 +733,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeOrganisme() {
+    public function testSetTypeOrganisme(): void {
 
         $obj = new RecapDucsAnnuelle();
 
@@ -746,7 +746,7 @@ class RecapDucsAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RecapDucsAnnuelle();
 

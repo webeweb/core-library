@@ -29,7 +29,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBloquant() {
+    public function testSetBloquant(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -42,7 +42,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollModifQuestion() {
+    public function testSetCodeCollModifQuestion(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -55,7 +55,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollModifReponse() {
+    public function testSetCodeCollModifReponse(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -68,7 +68,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollQuestion() {
+    public function testSetCodeCollQuestion(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -81,7 +81,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollReponse() {
+    public function testSetCodeCollReponse(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -94,7 +94,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptComment() {
+    public function testSetCptComment(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -108,7 +108,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtCreationQuestion() {
+    public function testSetDtCreationQuestion(): void {
 
         // Set a Date/time mock.
         $dtCreationQuestion = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtCreationReponse() {
+    public function testSetDtCreationReponse(): void {
 
         // Set a Date/time mock.
         $dtCreationReponse = new DateTime("2018-09-10");
@@ -142,7 +142,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtModifQuestion() {
+    public function testSetDtModifQuestion(): void {
 
         // Set a Date/time mock.
         $dtModifQuestion = new DateTime("2018-09-10");
@@ -159,7 +159,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtModifReponse() {
+    public function testSetDtModifReponse(): void {
 
         // Set a Date/time mock.
         $dtModifReponse = new DateTime("2018-09-10");
@@ -176,7 +176,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtTransfertDa() {
+    public function testSetDtTransfertDa(): void {
 
         // Set a Date/time mock.
         $dtTransfertDa = new DateTime("2018-09-10");
@@ -192,7 +192,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnAttenteReponse() {
+    public function testSetEnAttenteReponse(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -205,7 +205,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNeedAnswer() {
+    public function testSetNeedAnswer(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -218,7 +218,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -232,7 +232,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeRev() {
+    public function testSetPeriodeRev(): void {
 
         // Set a Date/time mock.
         $periodeRev = new DateTime("2018-09-10");
@@ -248,7 +248,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPermanent() {
+    public function testSetPermanent(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -261,7 +261,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxtQuestion() {
+    public function testSetTxtQuestion(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -274,7 +274,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxtReponse() {
+    public function testSetTxtReponse(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -287,7 +287,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new DosRevCommentaires();
 
@@ -300,7 +300,7 @@ class DosRevCommentairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DosRevCommentaires();
 

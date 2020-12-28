@@ -22,25 +22,25 @@ trait StringEmailTrait {
     /**
      * Email.
      *
-     * @var string
+     * @var string|null
      */
     protected $email;
 
     /**
      * Get the email.
      *
-     * @return string Returns the email.
+     * @return string|null Returns the email.
      */
-    public function getEmail() {
+    public function getEmail(): ?string {
         return $this->email;
     }
 
     /**
      * Set the email.
      *
-     * @param string $email The email.
+     * @param string|null $email The email.
      */
-    public function setEmail($email) {
+    public function setEmail(?string $email) {
         $this->email = $email;
         return $this;
     }

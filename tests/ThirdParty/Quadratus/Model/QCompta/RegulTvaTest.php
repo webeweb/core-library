@@ -29,7 +29,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new RegulTva();
 
@@ -42,7 +42,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHt() {
+    public function testSetHt(): void {
 
         $obj = new RegulTva();
 
@@ -55,7 +55,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new RegulTva();
 
@@ -68,7 +68,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLigne() {
+    public function testSetLigne(): void {
 
         $obj = new RegulTva();
 
@@ -82,7 +82,7 @@ class RegulTvaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTtc() {
+    public function testSetTtc(): void {
 
         $obj = new RegulTva();
 
@@ -111,7 +111,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTva() {
+    public function testSetTva(): void {
 
         $obj = new RegulTva();
 
@@ -124,7 +124,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new RegulTva();
 
@@ -137,7 +137,7 @@ class RegulTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RegulTva();
 

@@ -26,9 +26,9 @@ class TestFixtures {
     /**
      * Get the images.
      *
-     * @return string[]
+     * @return string[] Returns the images.
      */
-    public static function getImages() {
+    public static function getImages(): array {
         return [
             getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1037.jpg",
             getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1037.png",
@@ -42,7 +42,7 @@ class TestFixtures {
      *
      * @return TestNode[] Returns the TestNode fixtures.
      */
-    public static function getTestNodes() {
+    public static function getTestNodes(): array {
 
         $nodes = [
             new TestNode("id01"),
@@ -77,7 +77,7 @@ class TestFixtures {
      * @return DateTime[] Returns the time slot date/times.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public static function getTimeSlotDateTimes() {
+    public static function getTimeSlotDateTimes(): array {
         return [
             new DateTime("2018-08-22 08:00:00"),
             new DateTime("2018-08-22 11:00:00"),

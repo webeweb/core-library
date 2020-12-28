@@ -29,7 +29,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVmp() {
+    public function testSetCodeVmp(): void {
 
         $obj = new VmpMouvements();
 
@@ -43,7 +43,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrancsEuros() {
+    public function testSetFrancsEuros(): void {
 
         $obj = new VmpMouvements();
 
@@ -72,7 +72,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGratuit() {
+    public function testSetGratuit(): void {
 
         $obj = new VmpMouvements();
 
@@ -85,7 +85,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantComm() {
+    public function testSetMontantComm(): void {
 
         $obj = new VmpMouvements();
 
@@ -98,7 +98,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCoupon() {
+    public function testSetMontantCoupon(): void {
 
         $obj = new VmpMouvements();
 
@@ -111,7 +111,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantFrais() {
+    public function testSetMontantFrais(): void {
 
         $obj = new VmpMouvements();
 
@@ -124,7 +124,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotEcr() {
+    public function testSetNoLotEcr(): void {
 
         $obj = new VmpMouvements();
 
@@ -137,7 +137,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotTrace() {
+    public function testSetNoLotTrace(): void {
 
         $obj = new VmpMouvements();
 
@@ -150,7 +150,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new VmpMouvements();
 
@@ -163,7 +163,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniqEcr() {
+    public function testSetNumUniqEcr(): void {
 
         $obj = new VmpMouvements();
 
@@ -176,7 +176,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixUnitaire() {
+    public function testSetPrixUnitaire(): void {
 
         $obj = new VmpMouvements();
 
@@ -189,7 +189,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new VmpMouvements();
 
@@ -202,7 +202,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoldeQuantite() {
+    public function testSetSoldeQuantite(): void {
 
         $obj = new VmpMouvements();
 
@@ -215,7 +215,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new VmpMouvements();
 
@@ -228,7 +228,7 @@ class VmpMouvementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new VmpMouvements();
 

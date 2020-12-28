@@ -27,7 +27,7 @@ class PregReplaceTransformerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testTransform() {
+    public function testTransform(): void {
 
         $obj = new PregReplaceTransformer("/pattern/", "replacement");
 
@@ -41,7 +41,7 @@ class PregReplaceTransformerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PregReplaceTransformer("/pattern/", "replacement");
 

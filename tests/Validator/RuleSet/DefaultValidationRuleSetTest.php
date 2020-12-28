@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Validation\RuleSet;
+namespace WBW\Library\Core\Tests\Validator\RuleSet;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validator\Rule\TestValidationRule;
@@ -29,7 +29,7 @@ class DefaultValidationRuleSetTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRemoveRule() {
+    public function testRemoveRule(): void {
 
         $obj = new DefaultValidationRuleSet();
 
@@ -52,7 +52,7 @@ class DefaultValidationRuleSetTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testValidate() {
+    public function testValidate(): void {
 
         $obj = new DefaultValidationRuleSet();
         $obj->addRule(new TestValidationRule());
@@ -70,7 +70,7 @@ class DefaultValidationRuleSetTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DefaultValidationRuleSet();
 

@@ -27,7 +27,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new MissionRepartitionTaches();
 
@@ -40,7 +40,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new MissionRepartitionTaches();
 
@@ -53,7 +53,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new MissionRepartitionTaches();
 
@@ -66,7 +66,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new MissionRepartitionTaches();
 
@@ -79,7 +79,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepartition() {
+    public function testSetRepartition(): void {
 
         $obj = new MissionRepartitionTaches();
 
@@ -92,7 +92,7 @@ class MissionRepartitionTachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MissionRepartitionTaches();
 

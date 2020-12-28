@@ -27,7 +27,7 @@ class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCharge() {
+    public function testSetCodeCharge(): void {
 
         $obj = new CorrespondanceFamArtQFactChargesQProp();
 
@@ -40,7 +40,7 @@ class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFamArt() {
+    public function testSetCodeFamArt(): void {
 
         $obj = new CorrespondanceFamArtQFactChargesQProp();
 
@@ -53,7 +53,7 @@ class CorrespondanceFamArtQFactChargesQPropTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CorrespondanceFamArtQFactChargesQProp();
 

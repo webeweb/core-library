@@ -29,7 +29,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCustomerNumber() {
+    public function testSetCustomerNumber(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -43,7 +43,7 @@ class CustomerTraitTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatetimeLastModification() {
+    public function testSetDatetimeLastModification(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -56,7 +56,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeletedRecord() {
+    public function testSetDeletedRecord(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -69,7 +69,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDivision() {
+    public function testSetDivision(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -82,7 +82,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -95,7 +95,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFirstname() {
+    public function testSetFirstname(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -108,7 +108,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupCounting() {
+    public function testSetGroupCounting(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -121,7 +121,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemarks() {
+    public function testSetRemarks(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -134,7 +134,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemarks2() {
+    public function testSetRemarks2(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -147,7 +147,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemarks3() {
+    public function testSetRemarks3(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -160,7 +160,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSurname() {
+    public function testSetSurname(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -173,7 +173,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitle() {
+    public function testSetTitle(): void {
 
         $obj = new TestCustomerTrait();
 
@@ -186,7 +186,7 @@ class CustomerTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestCustomerTrait();
 

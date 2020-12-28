@@ -27,7 +27,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -40,7 +40,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -53,7 +53,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetListeComptes() {
+    public function testSetListeComptes(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -66,7 +66,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMot() {
+    public function testSetMot(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -79,7 +79,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompteDepense() {
+    public function testSetNumeroCompteDepense(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -92,7 +92,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompteRecette() {
+    public function testSetNumeroCompteRecette(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -105,7 +105,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegle() {
+    public function testSetRegle(): void {
 
         $obj = new MotsClefEtebac();
 
@@ -118,7 +118,7 @@ class MotsClefEtebacTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MotsClefEtebac();
 

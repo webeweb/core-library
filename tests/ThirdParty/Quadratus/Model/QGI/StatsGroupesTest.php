@@ -27,7 +27,7 @@ class StatsGroupesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new StatsGroupes();
 
@@ -40,7 +40,7 @@ class StatsGroupesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeStat() {
+    public function testSetGroupeStat(): void {
 
         $obj = new StatsGroupes();
 
@@ -53,7 +53,7 @@ class StatsGroupesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeChamp() {
+    public function testSetTypeChamp(): void {
 
         $obj = new StatsGroupes();
 
@@ -66,7 +66,7 @@ class StatsGroupesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new StatsGroupes();
 

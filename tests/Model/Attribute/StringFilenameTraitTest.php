@@ -27,7 +27,7 @@ class StringFilenameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFilename() {
+    public function testSetFilename(): void {
 
         $obj = new TestStringFilenameTrait();
 
@@ -40,7 +40,7 @@ class StringFilenameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringFilenameTrait();
 

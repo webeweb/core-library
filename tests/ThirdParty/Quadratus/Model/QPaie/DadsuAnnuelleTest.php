@@ -27,7 +27,7 @@ class DadsuAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomFichierDadsu() {
+    public function testSetNomFichierDadsu(): void {
 
         $obj = new DadsuAnnuelle();
 
@@ -40,7 +40,7 @@ class DadsuAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsAnnee() {
+    public function testSetTdsAnnee(): void {
 
         $obj = new DadsuAnnuelle();
 
@@ -53,7 +53,7 @@ class DadsuAnnuelleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuAnnuelle();
 

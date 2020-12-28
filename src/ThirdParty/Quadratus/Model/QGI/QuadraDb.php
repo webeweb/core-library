@@ -31,14 +31,14 @@ class QuadraDb {
     /**
      * Taille base.
      *
-     * @var float
+     * @var float|null
      */
     private $tailleBase;
 
     /**
      * Version.
      *
-     * @var int
+     * @var int|null
      */
     private $version;
 
@@ -46,7 +46,7 @@ class QuadraDb {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -54,25 +54,25 @@ class QuadraDb {
      *
      * @return DateTime|null Returns the date envoi message.
      */
-    public function getDateEnvoiMessage() {
+    public function getDateEnvoiMessage(): ?DateTime {
         return $this->dateEnvoiMessage;
     }
 
     /**
      * Get the taille base.
      *
-     * @return float Returns the taille base.
+     * @return float|null Returns the taille base.
      */
-    public function getTailleBase() {
+    public function getTailleBase(): ?float {
         return $this->tailleBase;
     }
 
     /**
      * Get the version.
      *
-     * @return int Returns the version.
+     * @return int|null Returns the version.
      */
-    public function getVersion() {
+    public function getVersion(): ?int {
         return $this->version;
     }
 
@@ -82,7 +82,7 @@ class QuadraDb {
      * @param DateTime|null $dateEnvoiMessage The date envoi message.
      * @return QuadraDb Returns this Quadra db.
      */
-    public function setDateEnvoiMessage(DateTime $dateEnvoiMessage = null) {
+    public function setDateEnvoiMessage(?DateTime $dateEnvoiMessage): QuadraDb {
         $this->dateEnvoiMessage = $dateEnvoiMessage;
         return $this;
     }
@@ -90,10 +90,10 @@ class QuadraDb {
     /**
      * Set the taille base.
      *
-     * @param float $tailleBase The taille base.
+     * @param float|null $tailleBase The taille base.
      * @return QuadraDb Returns this Quadra db.
      */
-    public function setTailleBase($tailleBase) {
+    public function setTailleBase(?float $tailleBase): QuadraDb {
         $this->tailleBase = $tailleBase;
         return $this;
     }
@@ -101,10 +101,10 @@ class QuadraDb {
     /**
      * Set the version.
      *
-     * @param int $version The version.
+     * @param int|null $version The version.
      * @return QuadraDb Returns this Quadra db.
      */
-    public function setVersion($version) {
+    public function setVersion(?int $version): QuadraDb {
         $this->version = $version;
         return $this;
     }

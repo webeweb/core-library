@@ -29,7 +29,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new TarifsPeriodes();
 
@@ -42,7 +42,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new TarifsPeriodes();
 
@@ -55,7 +55,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new TarifsPeriodes();
 
@@ -69,7 +69,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseBase() {
+    public function testSetRemiseBase(): void {
 
         $obj = new TarifsPeriodes();
 
@@ -115,7 +115,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodeArticle() {
+    public function testSetTypeCodeArticle(): void {
 
         $obj = new TarifsPeriodes();
 
@@ -128,7 +128,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCodeClient() {
+    public function testSetTypeCodeClient(): void {
 
         $obj = new TarifsPeriodes();
 
@@ -141,7 +141,7 @@ class TarifsPeriodesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TarifsPeriodes();
 

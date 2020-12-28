@@ -27,7 +27,7 @@ class StringEmailTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new TestStringEmailTrait();
 
@@ -40,7 +40,7 @@ class StringEmailTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringEmailTrait();
 

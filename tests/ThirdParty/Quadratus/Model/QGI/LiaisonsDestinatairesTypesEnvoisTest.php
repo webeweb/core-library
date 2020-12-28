@@ -27,7 +27,7 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDestinataire() {
+    public function testSetCodeDestinataire(): void {
 
         $obj = new LiaisonsDestinatairesTypesEnvois();
 
@@ -40,7 +40,7 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeEnvoi() {
+    public function testSetCodeTypeEnvoi(): void {
 
         $obj = new LiaisonsDestinatairesTypesEnvois();
 
@@ -53,7 +53,7 @@ class LiaisonsDestinatairesTypesEnvoisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LiaisonsDestinatairesTypesEnvois();
 

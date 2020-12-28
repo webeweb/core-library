@@ -29,7 +29,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new Affaires();
 
@@ -42,7 +42,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new Affaires();
 
@@ -55,7 +55,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaStatAnnuel() {
+    public function testSetCaStatAnnuel(): void {
 
         $obj = new Affaires();
 
@@ -68,7 +68,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new Affaires();
 
@@ -81,7 +81,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalytique() {
+    public function testSetCodeAnalytique(): void {
 
         $obj = new Affaires();
 
@@ -94,7 +94,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Affaires();
 
@@ -107,7 +107,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCommercial() {
+    public function testSetCodeCommercial(): void {
 
         $obj = new Affaires();
 
@@ -120,7 +120,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFactor() {
+    public function testSetCodeFactor(): void {
 
         $obj = new Affaires();
 
@@ -133,7 +133,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new Affaires();
 
@@ -146,7 +146,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new Affaires();
 
@@ -159,7 +159,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegMarge() {
+    public function testSetCodeRegMarge(): void {
 
         $obj = new Affaires();
 
@@ -172,7 +172,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new Affaires();
 
@@ -185,7 +185,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new Affaires();
 
@@ -198,7 +198,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new Affaires();
 
@@ -212,7 +212,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreat() {
+    public function testSetDateCreat(): void {
 
         // Set a Date/time mock.
         $dateCreat = new DateTime("2018-09-10");
@@ -229,7 +229,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebAffaire() {
+    public function testSetDateDebAffaire(): void {
 
         // Set a Date/time mock.
         $dateDebAffaire = new DateTime("2018-09-10");
@@ -246,7 +246,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebAffaireDebMois() {
+    public function testSetDateDebAffaireDebMois(): void {
 
         // Set a Date/time mock.
         $dateDebAffaireDebMois = new DateTime("2018-09-10");
@@ -263,7 +263,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinAffaire() {
+    public function testSetDateFinAffaire(): void {
 
         // Set a Date/time mock.
         $dateFinAffaire = new DateTime("2018-09-10");
@@ -280,7 +280,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinAffaireFinMois() {
+    public function testSetDateFinAffaireFinMois(): void {
 
         // Set a Date/time mock.
         $dateFinAffaireFinMois = new DateTime("2018-09-10");
@@ -297,7 +297,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -314,7 +314,7 @@ class AffairesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateVente() {
+    public function testSetDateVente(): void {
 
         // Set a Date/time mock.
         $dateVente = new DateTime("2018-09-10");
@@ -330,7 +330,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureIsolee() {
+    public function testSetFactureIsolee(): void {
 
         $obj = new Affaires();
 
@@ -343,7 +343,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeSousTraite() {
+    public function testSetGroupeSousTraite(): void {
 
         $obj = new Affaires();
 
@@ -356,7 +356,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomAdresse() {
+    public function testSetNomAdresse(): void {
 
         $obj = new Affaires();
 
@@ -369,7 +369,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomAffaire() {
+    public function testSetNomAffaire(): void {
 
         $obj = new Affaires();
 
@@ -382,7 +382,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new Affaires();
 
@@ -395,7 +395,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new Affaires();
 
@@ -408,7 +408,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new Affaires();
 
@@ -421,7 +421,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFacture() {
+    public function testSetReferenceFacture(): void {
 
         $obj = new Affaires();
 
@@ -434,7 +434,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFacture2() {
+    public function testSetReferenceFacture2(): void {
 
         $obj = new Affaires();
 
@@ -447,7 +447,7 @@ class AffairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Affaires();
 

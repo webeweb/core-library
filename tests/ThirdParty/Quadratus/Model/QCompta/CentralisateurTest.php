@@ -29,7 +29,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new Centralisateur();
 
@@ -42,7 +42,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditClasse15() {
+    public function testSetCreditClasse15(): void {
 
         $obj = new Centralisateur();
 
@@ -55,7 +55,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditClasse67() {
+    public function testSetCreditClasse67(): void {
 
         $obj = new Centralisateur();
 
@@ -68,7 +68,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditClient() {
+    public function testSetCreditClient(): void {
 
         $obj = new Centralisateur();
 
@@ -81,7 +81,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreditFournisseur() {
+    public function testSetCreditFournisseur(): void {
 
         $obj = new Centralisateur();
 
@@ -94,7 +94,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebitClasse15() {
+    public function testSetDebitClasse15(): void {
 
         $obj = new Centralisateur();
 
@@ -107,7 +107,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebitClasse67() {
+    public function testSetDebitClasse67(): void {
 
         $obj = new Centralisateur();
 
@@ -120,7 +120,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebitClient() {
+    public function testSetDebitClient(): void {
 
         $obj = new Centralisateur();
 
@@ -133,7 +133,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebitFournisseur() {
+    public function testSetDebitFournisseur(): void {
 
         $obj = new Centralisateur();
 
@@ -146,7 +146,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolio() {
+    public function testSetFolio(): void {
 
         $obj = new Centralisateur();
 
@@ -159,7 +159,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbLigneFolio() {
+    public function testSetNbLigneFolio(): void {
 
         $obj = new Centralisateur();
 
@@ -173,7 +173,7 @@ class CentralisateurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProchaineLigne() {
+    public function testSetProchaineLigne(): void {
 
         $obj = new Centralisateur();
 
@@ -202,7 +202,7 @@ class CentralisateurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Centralisateur();
 

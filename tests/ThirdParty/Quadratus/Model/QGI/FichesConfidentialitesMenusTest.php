@@ -27,7 +27,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -40,7 +40,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossier() {
+    public function testSetDossier(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -53,7 +53,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitAjout() {
+    public function testSetDroitAjout(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -66,7 +66,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitModification() {
+    public function testSetDroitModification(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -79,7 +79,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitSuppression() {
+    public function testSetDroitSuppression(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -92,7 +92,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndex() {
+    public function testSetIndex(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -105,7 +105,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo1() {
+    public function testSetIndexDuPereNo1(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -118,7 +118,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo2() {
+    public function testSetIndexDuPereNo2(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -131,7 +131,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo3() {
+    public function testSetIndexDuPereNo3(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -144,7 +144,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo4() {
+    public function testSetIndexDuPereNo4(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -157,7 +157,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo5() {
+    public function testSetIndexDuPereNo5(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -170,7 +170,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo6() {
+    public function testSetIndexDuPereNo6(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -183,7 +183,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndexDuPereNo7() {
+    public function testSetIndexDuPereNo7(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -196,7 +196,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleMenu() {
+    public function testSetLibelleMenu(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -209,7 +209,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMenuVisible() {
+    public function testSetMenuVisible(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -222,7 +222,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotDePasse() {
+    public function testSetMotDePasse(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -235,7 +235,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauLigne() {
+    public function testSetNiveauLigne(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -248,7 +248,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo1() {
+    public function testSetNomDuPereNo1(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -261,7 +261,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo2() {
+    public function testSetNomDuPereNo2(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -274,7 +274,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo3() {
+    public function testSetNomDuPereNo3(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -287,7 +287,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo4() {
+    public function testSetNomDuPereNo4(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -300,7 +300,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo5() {
+    public function testSetNomDuPereNo5(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -313,7 +313,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo6() {
+    public function testSetNomDuPereNo6(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -326,7 +326,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomDuPereNo7() {
+    public function testSetNomDuPereNo7(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -339,7 +339,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomMenu() {
+    public function testSetNomMenu(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -352,7 +352,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -365,7 +365,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSelection() {
+    public function testSetTypeSelection(): void {
 
         $obj = new FichesConfidentialitesMenus();
 
@@ -378,7 +378,7 @@ class FichesConfidentialitesMenusTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesConfidentialitesMenus();
 

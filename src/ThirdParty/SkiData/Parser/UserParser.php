@@ -39,7 +39,7 @@ class UserParser extends AbstractParser {
      * @return string Returns the parsed user.
      * @throws TooLongDataException Throws a too long data exception if a data is too long.
      */
-    public function parseEntity(User $entity) {
+    public function parseEntity(User $entity): string {
 
         $output = [
             $this->encodeInteger($entity->getUserNumber(), 9),
@@ -80,7 +80,7 @@ class UserParser extends AbstractParser {
      * @return User Returns a user.
      * @throws IntegerArgumentException Throws an integer argument exception.
      */
-    public function parseLine($line) {
+    public function parseLine(string $line): User {
 
         $data = explode(";", $line);
 

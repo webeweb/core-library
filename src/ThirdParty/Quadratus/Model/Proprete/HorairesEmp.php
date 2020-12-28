@@ -24,35 +24,35 @@ class HorairesEmp {
     /**
      * Aou.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aou;
 
     /**
      * Avr.
      *
-     * @var bool
+     * @var bool|null
      */
     private $avr;
 
     /**
      * Code collabo valid.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaboValid;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
@@ -80,21 +80,21 @@ class HorairesEmp {
     /**
      * Dec.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dec;
 
     /**
      * Dim type2.
      *
-     * @var string
+     * @var string|null
      */
     private $dimType2;
 
     /**
      * Discr sem.
      *
-     * @var int
+     * @var int|null
      */
     private $discrSem;
 
@@ -108,21 +108,21 @@ class HorairesEmp {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Fev.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fev;
 
     /**
      * H nuit type2.
      *
-     * @var string
+     * @var string|null
      */
     private $hNuitType2;
 
@@ -134,201 +134,202 @@ class HorairesEmp {
     private $heureDeb;
 
     /**
-     * Jan.
-     *
-     * @var bool
-     */
-    private $jan;
-
-    /**
      * Jf type2.
      *
-     * @var string
+     * @var string|null
      */
     private $jfType2;
 
     /**
+     * Jan.
+     *
+     * @var bool|null
+     */
+    private $jan;
+
+    /**
      * Juil.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juil;
 
     /**
      * Juin.
      *
-     * @var bool
+     * @var bool|null
      */
     private $juin;
 
     /**
      * Mai.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mai;
 
     /**
      * Mar.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mar;
 
     /**
      * Note memo.
      *
-     * @var string
+     * @var string|null
      */
     private $noteMemo;
 
     /**
      * Nov.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nov;
 
     /**
      * Num chrono.
      *
-     * @var int
+     * @var int|null
      */
     private $numChrono;
 
     /**
      * Num jour.
      *
-     * @var string
+     * @var string|null
      */
     private $numJour;
 
     /**
      * Numero avenant.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroAvenant;
 
     /**
      * Numero semaine.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroSemaine;
 
     /**
      * Oct.
      *
-     * @var bool
+     * @var bool|null
      */
     private $oct;
 
     /**
      * Sauf semaine complete.
      *
-     * @var string
+     * @var string|null
      */
     private $saufSemaineComplete;
 
     /**
      * Semaine complete.
      *
-     * @var bool
+     * @var bool|null
      */
     private $semaineComplete;
 
     /**
      * Sep.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sep;
 
     /**
      * Travaille jf.
      *
-     * @var string
+     * @var string|null
      */
     private $travailleJf;
 
     /**
      * Type contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $typeContrat;
 
     /**
      * Type freq.
      *
-     * @var string
+     * @var string|null
      */
     private $typeFreq;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the aou.
      *
-     * @return bool Returns the aou.
+     * @return bool|null Returns the aou.
      */
-    public function getAou() {
+    public function getAou(): ?bool{
         return $this->aou;
     }
 
     /**
      * Get the avr.
      *
-     * @return bool Returns the avr.
+     * @return bool|null Returns the avr.
      */
-    public function getAvr() {
+    public function getAvr(): ?bool{
         return $this->avr;
     }
 
     /**
      * Get the code collabo valid.
      *
-     * @return string Returns the code collabo valid.
+     * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid() {
+    public function getCodeCollaboValid(): ?string{
         return $this->codeCollaboValid;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
@@ -337,7 +338,7 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the date debut affectation.
      */
-    public function getDateDebutAffectation() {
+    public function getDateDebutAffectation(): ?DateTime{
         return $this->dateDebutAffectation;
     }
 
@@ -346,7 +347,7 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the date fin affectation.
      */
-    public function getDateFinAffectation() {
+    public function getDateFinAffectation(): ?DateTime{
         return $this->dateFinAffectation;
     }
 
@@ -355,34 +356,34 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro() {
+    public function getDateValidationSynchro(): ?DateTime{
         return $this->dateValidationSynchro;
     }
 
     /**
      * Get the dec.
      *
-     * @return bool Returns the dec.
+     * @return bool|null Returns the dec.
      */
-    public function getDec() {
+    public function getDec(): ?bool{
         return $this->dec;
     }
 
     /**
      * Get the dim type2.
      *
-     * @return string Returns the dim type2.
+     * @return string|null Returns the dim type2.
      */
-    public function getDimType2() {
+    public function getDimType2(): ?string{
         return $this->dimType2;
     }
 
     /**
      * Get the discr sem.
      *
-     * @return int Returns the discr sem.
+     * @return int|null Returns the discr sem.
      */
-    public function getDiscrSem() {
+    public function getDiscrSem(): ?int{
         return $this->discrSem;
     }
 
@@ -391,34 +392,34 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?DateTime{
         return $this->duree;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the fev.
      *
-     * @return bool Returns the fev.
+     * @return bool|null Returns the fev.
      */
-    public function getFev() {
+    public function getFev(): ?bool{
         return $this->fev;
     }
 
     /**
      * Get the h nuit type2.
      *
-     * @return string Returns the h nuit type2.
+     * @return string|null Returns the h nuit type2.
      */
-    public function getHNuitType2() {
+    public function getHNuitType2(): ?string{
         return $this->hNuitType2;
     }
 
@@ -427,206 +428,206 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb() {
+    public function getHeureDeb(): ?DateTime{
         return $this->heureDeb;
-    }
-
-    /**
-     * Get the jan.
-     *
-     * @return bool Returns the jan.
-     */
-    public function getJan() {
-        return $this->jan;
     }
 
     /**
      * Get the jf type2.
      *
-     * @return string Returns the jf type2.
+     * @return string|null Returns the jf type2.
      */
-    public function getJfType2() {
+    public function getJfType2(): ?string{
         return $this->jfType2;
+    }
+
+    /**
+     * Get the jan.
+     *
+     * @return bool|null Returns the jan.
+     */
+    public function getJan(): ?bool{
+        return $this->jan;
     }
 
     /**
      * Get the juil.
      *
-     * @return bool Returns the juil.
+     * @return bool|null Returns the juil.
      */
-    public function getJuil() {
+    public function getJuil(): ?bool{
         return $this->juil;
     }
 
     /**
      * Get the juin.
      *
-     * @return bool Returns the juin.
+     * @return bool|null Returns the juin.
      */
-    public function getJuin() {
+    public function getJuin(): ?bool{
         return $this->juin;
     }
 
     /**
      * Get the mai.
      *
-     * @return bool Returns the mai.
+     * @return bool|null Returns the mai.
      */
-    public function getMai() {
+    public function getMai(): ?bool{
         return $this->mai;
     }
 
     /**
      * Get the mar.
      *
-     * @return bool Returns the mar.
+     * @return bool|null Returns the mar.
      */
-    public function getMar() {
+    public function getMar(): ?bool{
         return $this->mar;
     }
 
     /**
      * Get the note memo.
      *
-     * @return string Returns the note memo.
+     * @return string|null Returns the note memo.
      */
-    public function getNoteMemo() {
+    public function getNoteMemo(): ?string{
         return $this->noteMemo;
     }
 
     /**
      * Get the nov.
      *
-     * @return bool Returns the nov.
+     * @return bool|null Returns the nov.
      */
-    public function getNov() {
+    public function getNov(): ?bool{
         return $this->nov;
     }
 
     /**
      * Get the num chrono.
      *
-     * @return int Returns the num chrono.
+     * @return int|null Returns the num chrono.
      */
-    public function getNumChrono() {
+    public function getNumChrono(): ?int{
         return $this->numChrono;
     }
 
     /**
      * Get the num jour.
      *
-     * @return string Returns the num jour.
+     * @return string|null Returns the num jour.
      */
-    public function getNumJour() {
+    public function getNumJour(): ?string{
         return $this->numJour;
     }
 
     /**
      * Get the numero avenant.
      *
-     * @return int Returns the numero avenant.
+     * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant() {
+    public function getNumeroAvenant(): ?int{
         return $this->numeroAvenant;
     }
 
     /**
      * Get the numero semaine.
      *
-     * @return string Returns the numero semaine.
+     * @return string|null Returns the numero semaine.
      */
-    public function getNumeroSemaine() {
+    public function getNumeroSemaine(): ?string{
         return $this->numeroSemaine;
     }
 
     /**
      * Get the oct.
      *
-     * @return bool Returns the oct.
+     * @return bool|null Returns the oct.
      */
-    public function getOct() {
+    public function getOct(): ?bool{
         return $this->oct;
     }
 
     /**
      * Get the sauf semaine complete.
      *
-     * @return string Returns the sauf semaine complete.
+     * @return string|null Returns the sauf semaine complete.
      */
-    public function getSaufSemaineComplete() {
+    public function getSaufSemaineComplete(): ?string{
         return $this->saufSemaineComplete;
     }
 
     /**
      * Get the semaine complete.
      *
-     * @return bool Returns the semaine complete.
+     * @return bool|null Returns the semaine complete.
      */
-    public function getSemaineComplete() {
+    public function getSemaineComplete(): ?bool{
         return $this->semaineComplete;
     }
 
     /**
      * Get the sep.
      *
-     * @return bool Returns the sep.
+     * @return bool|null Returns the sep.
      */
-    public function getSep() {
+    public function getSep(): ?bool{
         return $this->sep;
     }
 
     /**
      * Get the travaille jf.
      *
-     * @return string Returns the travaille jf.
+     * @return string|null Returns the travaille jf.
      */
-    public function getTravailleJf() {
+    public function getTravailleJf(): ?string{
         return $this->travailleJf;
     }
 
     /**
      * Get the type contrat.
      *
-     * @return string Returns the type contrat.
+     * @return string|null Returns the type contrat.
      */
-    public function getTypeContrat() {
+    public function getTypeContrat(): ?string{
         return $this->typeContrat;
     }
 
     /**
      * Get the type freq.
      *
-     * @return string Returns the type freq.
+     * @return string|null Returns the type freq.
      */
-    public function getTypeFreq() {
+    public function getTypeFreq(): ?string{
         return $this->typeFreq;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the aou.
      *
-     * @param bool $aou The aou.
+     * @param bool|null $aou The aou.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setAou($aou) {
+    public function setAou(?bool $aou): HorairesEmp {
         $this->aou = $aou;
         return $this;
     }
@@ -634,10 +635,10 @@ class HorairesEmp {
     /**
      * Set the avr.
      *
-     * @param bool $avr The avr.
+     * @param bool|null $avr The avr.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setAvr($avr) {
+    public function setAvr(?bool $avr): HorairesEmp {
         $this->avr = $avr;
         return $this;
     }
@@ -645,10 +646,10 @@ class HorairesEmp {
     /**
      * Set the code collabo valid.
      *
-     * @param string $codeCollaboValid The code collabo valid.
+     * @param string|null $codeCollaboValid The code collabo valid.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setCodeCollaboValid($codeCollaboValid) {
+    public function setCodeCollaboValid(?string $codeCollaboValid): HorairesEmp {
         $this->codeCollaboValid = $codeCollaboValid;
         return $this;
     }
@@ -656,10 +657,10 @@ class HorairesEmp {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): HorairesEmp {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -667,10 +668,10 @@ class HorairesEmp {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): HorairesEmp {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -681,7 +682,7 @@ class HorairesEmp {
      * @param DateTime|null $dateDebutAffectation The date debut affectation.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDateDebutAffectation(DateTime $dateDebutAffectation = null) {
+    public function setDateDebutAffectation(?DateTime $dateDebutAffectation): HorairesEmp {
         $this->dateDebutAffectation = $dateDebutAffectation;
         return $this;
     }
@@ -692,7 +693,7 @@ class HorairesEmp {
      * @param DateTime|null $dateFinAffectation The date fin affectation.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDateFinAffectation(DateTime $dateFinAffectation = null) {
+    public function setDateFinAffectation(?DateTime $dateFinAffectation): HorairesEmp {
         $this->dateFinAffectation = $dateFinAffectation;
         return $this;
     }
@@ -703,7 +704,7 @@ class HorairesEmp {
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+    public function setDateValidationSynchro(?DateTime $dateValidationSynchro): HorairesEmp {
         $this->dateValidationSynchro = $dateValidationSynchro;
         return $this;
     }
@@ -711,10 +712,10 @@ class HorairesEmp {
     /**
      * Set the dec.
      *
-     * @param bool $dec The dec.
+     * @param bool|null $dec The dec.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDec($dec) {
+    public function setDec(?bool $dec): HorairesEmp {
         $this->dec = $dec;
         return $this;
     }
@@ -722,10 +723,10 @@ class HorairesEmp {
     /**
      * Set the dim type2.
      *
-     * @param string $dimType2 The dim type2.
+     * @param string|null $dimType2 The dim type2.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDimType2($dimType2) {
+    public function setDimType2(?string $dimType2): HorairesEmp {
         $this->dimType2 = $dimType2;
         return $this;
     }
@@ -733,10 +734,10 @@ class HorairesEmp {
     /**
      * Set the discr sem.
      *
-     * @param int $discrSem The discr sem.
+     * @param int|null $discrSem The discr sem.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDiscrSem($discrSem) {
+    public function setDiscrSem(?int $discrSem): HorairesEmp {
         $this->discrSem = $discrSem;
         return $this;
     }
@@ -747,7 +748,7 @@ class HorairesEmp {
      * @param DateTime|null $duree The duree.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setDuree(DateTime $duree = null) {
+    public function setDuree(?DateTime $duree): HorairesEmp {
         $this->duree = $duree;
         return $this;
     }
@@ -755,10 +756,10 @@ class HorairesEmp {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): HorairesEmp {
         $this->etat = $etat;
         return $this;
     }
@@ -766,10 +767,10 @@ class HorairesEmp {
     /**
      * Set the fev.
      *
-     * @param bool $fev The fev.
+     * @param bool|null $fev The fev.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setFev($fev) {
+    public function setFev(?bool $fev): HorairesEmp {
         $this->fev = $fev;
         return $this;
     }
@@ -777,10 +778,10 @@ class HorairesEmp {
     /**
      * Set the h nuit type2.
      *
-     * @param string $hNuitType2 The h nuit type2.
+     * @param string|null $hNuitType2 The h nuit type2.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setHNuitType2($hNuitType2) {
+    public function setHNuitType2(?string $hNuitType2): HorairesEmp {
         $this->hNuitType2 = $hNuitType2;
         return $this;
     }
@@ -791,40 +792,40 @@ class HorairesEmp {
      * @param DateTime|null $heureDeb The heure deb.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setHeureDeb(DateTime $heureDeb = null) {
+    public function setHeureDeb(?DateTime $heureDeb): HorairesEmp {
         $this->heureDeb = $heureDeb;
-        return $this;
-    }
-
-    /**
-     * Set the jan.
-     *
-     * @param bool $jan The jan.
-     * @return HorairesEmp Returns this Horaires emp.
-     */
-    public function setJan($jan) {
-        $this->jan = $jan;
         return $this;
     }
 
     /**
      * Set the jf type2.
      *
-     * @param string $jfType2 The jf type2.
+     * @param string|null $jfType2 The jf type2.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setJfType2($jfType2) {
+    public function setJfType2(?string $jfType2): HorairesEmp {
         $this->jfType2 = $jfType2;
+        return $this;
+    }
+
+    /**
+     * Set the jan.
+     *
+     * @param bool|null $jan The jan.
+     * @return HorairesEmp Returns this Horaires emp.
+     */
+    public function setJan(?bool $jan): HorairesEmp {
+        $this->jan = $jan;
         return $this;
     }
 
     /**
      * Set the juil.
      *
-     * @param bool $juil The juil.
+     * @param bool|null $juil The juil.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setJuil($juil) {
+    public function setJuil(?bool $juil): HorairesEmp {
         $this->juil = $juil;
         return $this;
     }
@@ -832,10 +833,10 @@ class HorairesEmp {
     /**
      * Set the juin.
      *
-     * @param bool $juin The juin.
+     * @param bool|null $juin The juin.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setJuin($juin) {
+    public function setJuin(?bool $juin): HorairesEmp {
         $this->juin = $juin;
         return $this;
     }
@@ -843,10 +844,10 @@ class HorairesEmp {
     /**
      * Set the mai.
      *
-     * @param bool $mai The mai.
+     * @param bool|null $mai The mai.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setMai($mai) {
+    public function setMai(?bool $mai): HorairesEmp {
         $this->mai = $mai;
         return $this;
     }
@@ -854,10 +855,10 @@ class HorairesEmp {
     /**
      * Set the mar.
      *
-     * @param bool $mar The mar.
+     * @param bool|null $mar The mar.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setMar($mar) {
+    public function setMar(?bool $mar): HorairesEmp {
         $this->mar = $mar;
         return $this;
     }
@@ -865,10 +866,10 @@ class HorairesEmp {
     /**
      * Set the note memo.
      *
-     * @param string $noteMemo The note memo.
+     * @param string|null $noteMemo The note memo.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setNoteMemo($noteMemo) {
+    public function setNoteMemo(?string $noteMemo): HorairesEmp {
         $this->noteMemo = $noteMemo;
         return $this;
     }
@@ -876,10 +877,10 @@ class HorairesEmp {
     /**
      * Set the nov.
      *
-     * @param bool $nov The nov.
+     * @param bool|null $nov The nov.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setNov($nov) {
+    public function setNov(?bool $nov): HorairesEmp {
         $this->nov = $nov;
         return $this;
     }
@@ -887,10 +888,10 @@ class HorairesEmp {
     /**
      * Set the num chrono.
      *
-     * @param int $numChrono The num chrono.
+     * @param int|null $numChrono The num chrono.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setNumChrono($numChrono) {
+    public function setNumChrono(?int $numChrono): HorairesEmp {
         $this->numChrono = $numChrono;
         return $this;
     }
@@ -898,10 +899,10 @@ class HorairesEmp {
     /**
      * Set the num jour.
      *
-     * @param string $numJour The num jour.
+     * @param string|null $numJour The num jour.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setNumJour($numJour) {
+    public function setNumJour(?string $numJour): HorairesEmp {
         $this->numJour = $numJour;
         return $this;
     }
@@ -909,10 +910,10 @@ class HorairesEmp {
     /**
      * Set the numero avenant.
      *
-     * @param int $numeroAvenant The numero avenant.
+     * @param int|null $numeroAvenant The numero avenant.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setNumeroAvenant($numeroAvenant) {
+    public function setNumeroAvenant(?int $numeroAvenant): HorairesEmp {
         $this->numeroAvenant = $numeroAvenant;
         return $this;
     }
@@ -920,10 +921,10 @@ class HorairesEmp {
     /**
      * Set the numero semaine.
      *
-     * @param string $numeroSemaine The numero semaine.
+     * @param string|null $numeroSemaine The numero semaine.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setNumeroSemaine($numeroSemaine) {
+    public function setNumeroSemaine(?string $numeroSemaine): HorairesEmp {
         $this->numeroSemaine = $numeroSemaine;
         return $this;
     }
@@ -931,10 +932,10 @@ class HorairesEmp {
     /**
      * Set the oct.
      *
-     * @param bool $oct The oct.
+     * @param bool|null $oct The oct.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setOct($oct) {
+    public function setOct(?bool $oct): HorairesEmp {
         $this->oct = $oct;
         return $this;
     }
@@ -942,10 +943,10 @@ class HorairesEmp {
     /**
      * Set the sauf semaine complete.
      *
-     * @param string $saufSemaineComplete The sauf semaine complete.
+     * @param string|null $saufSemaineComplete The sauf semaine complete.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setSaufSemaineComplete($saufSemaineComplete) {
+    public function setSaufSemaineComplete(?string $saufSemaineComplete): HorairesEmp {
         $this->saufSemaineComplete = $saufSemaineComplete;
         return $this;
     }
@@ -953,10 +954,10 @@ class HorairesEmp {
     /**
      * Set the semaine complete.
      *
-     * @param bool $semaineComplete The semaine complete.
+     * @param bool|null $semaineComplete The semaine complete.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setSemaineComplete($semaineComplete) {
+    public function setSemaineComplete(?bool $semaineComplete): HorairesEmp {
         $this->semaineComplete = $semaineComplete;
         return $this;
     }
@@ -964,10 +965,10 @@ class HorairesEmp {
     /**
      * Set the sep.
      *
-     * @param bool $sep The sep.
+     * @param bool|null $sep The sep.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setSep($sep) {
+    public function setSep(?bool $sep): HorairesEmp {
         $this->sep = $sep;
         return $this;
     }
@@ -975,10 +976,10 @@ class HorairesEmp {
     /**
      * Set the travaille jf.
      *
-     * @param string $travailleJf The travaille jf.
+     * @param string|null $travailleJf The travaille jf.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setTravailleJf($travailleJf) {
+    public function setTravailleJf(?string $travailleJf): HorairesEmp {
         $this->travailleJf = $travailleJf;
         return $this;
     }
@@ -986,10 +987,10 @@ class HorairesEmp {
     /**
      * Set the type contrat.
      *
-     * @param string $typeContrat The type contrat.
+     * @param string|null $typeContrat The type contrat.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setTypeContrat($typeContrat) {
+    public function setTypeContrat(?string $typeContrat): HorairesEmp {
         $this->typeContrat = $typeContrat;
         return $this;
     }
@@ -997,10 +998,10 @@ class HorairesEmp {
     /**
      * Set the type freq.
      *
-     * @param string $typeFreq The type freq.
+     * @param string|null $typeFreq The type freq.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setTypeFreq($typeFreq) {
+    public function setTypeFreq(?string $typeFreq): HorairesEmp {
         $this->typeFreq = $typeFreq;
         return $this;
     }
@@ -1008,10 +1009,10 @@ class HorairesEmp {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): HorairesEmp {
         $this->uniqId = $uniqId;
         return $this;
     }
@@ -1019,10 +1020,10 @@ class HorairesEmp {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return HorairesEmp Returns this Horaires emp.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): HorairesEmp {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

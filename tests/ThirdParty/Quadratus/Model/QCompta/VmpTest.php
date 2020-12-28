@@ -27,7 +27,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Vmp();
 
@@ -40,7 +40,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new Vmp();
 
@@ -53,7 +53,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Vmp();
 
@@ -66,7 +66,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteComm() {
+    public function testSetCompteComm(): void {
 
         $obj = new Vmp();
 
@@ -79,7 +79,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteCoupons() {
+    public function testSetCompteCoupons(): void {
 
         $obj = new Vmp();
 
@@ -92,7 +92,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFrais() {
+    public function testSetCompteFrais(): void {
 
         $obj = new Vmp();
 
@@ -105,7 +105,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdentifiant() {
+    public function testSetIdentifiant(): void {
 
         $obj = new Vmp();
 
@@ -118,7 +118,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Vmp();
 
@@ -131,7 +131,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbLignesMvt() {
+    public function testSetNbLignesMvt(): void {
 
         $obj = new Vmp();
 
@@ -144,7 +144,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCompte() {
+    public function testSetNumCompte(): void {
 
         $obj = new Vmp();
 
@@ -157,7 +157,7 @@ class VmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Vmp();
 

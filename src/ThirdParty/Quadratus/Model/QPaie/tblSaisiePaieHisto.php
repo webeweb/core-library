@@ -24,14 +24,14 @@ class tblSaisiePaieHisto {
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Code user.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUser;
 
@@ -45,56 +45,56 @@ class tblSaisiePaieHisto {
     /**
      * Flag.
      *
-     * @var int
+     * @var int|null
      */
     private $flag;
 
     /**
      * Id.
      *
-     * @var int
+     * @var int|null
      */
     private $id;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Intitule2.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule2;
 
     /**
      * Mois deb fixe.
      *
-     * @var string
+     * @var string|null
      */
     private $moisDebFixe;
 
     /**
      * Mois fin fixe.
      *
-     * @var string
+     * @var string|null
      */
     private $moisFinFixe;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -115,53 +115,54 @@ class tblSaisiePaieHisto {
     /**
      * Posit.
      *
-     * @var int
+     * @var int|null
      */
     private $posit;
 
     /**
      * Type ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $typeLigne;
 
     /**
      * Valeur1.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur1;
 
     /**
      * Valeur2.
      *
-     * @var float
+     * @var float|null
      */
     private $valeur2;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the code user.
      *
-     * @return string Returns the code user.
+     * @return string|null Returns the code user.
      */
-    public function getCodeUser() {
+    public function getCodeUser(): ?string{
         return $this->codeUser;
     }
 
@@ -170,79 +171,79 @@ class tblSaisiePaieHisto {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded() {
+    public function getDateAdded(): ?DateTime{
         return $this->dateAdded;
     }
 
     /**
      * Get the flag.
      *
-     * @return int Returns the flag.
+     * @return int|null Returns the flag.
      */
-    public function getFlag() {
+    public function getFlag(): ?int{
         return $this->flag;
     }
 
     /**
      * Get the id.
      *
-     * @return int Returns the id.
+     * @return int|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?int{
         return $this->id;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the intitule2.
      *
-     * @return string Returns the intitule2.
+     * @return string|null Returns the intitule2.
      */
-    public function getIntitule2() {
+    public function getIntitule2(): ?string{
         return $this->intitule2;
     }
 
     /**
      * Get the mois deb fixe.
      *
-     * @return string Returns the mois deb fixe.
+     * @return string|null Returns the mois deb fixe.
      */
-    public function getMoisDebFixe() {
+    public function getMoisDebFixe(): ?string{
         return $this->moisDebFixe;
     }
 
     /**
      * Get the mois fin fixe.
      *
-     * @return string Returns the mois fin fixe.
+     * @return string|null Returns the mois fin fixe.
      */
-    public function getMoisFinFixe() {
+    public function getMoisFinFixe(): ?string{
         return $this->moisFinFixe;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -251,7 +252,7 @@ class tblSaisiePaieHisto {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
@@ -260,53 +261,53 @@ class tblSaisiePaieHisto {
      *
      * @return DateTime|null Returns the periode rappel.
      */
-    public function getPeriodeRappel() {
+    public function getPeriodeRappel(): ?DateTime{
         return $this->periodeRappel;
     }
 
     /**
      * Get the posit.
      *
-     * @return int Returns the posit.
+     * @return int|null Returns the posit.
      */
-    public function getPosit() {
+    public function getPosit(): ?int{
         return $this->posit;
     }
 
     /**
      * Get the type ligne.
      *
-     * @return string Returns the type ligne.
+     * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne() {
+    public function getTypeLigne(): ?string{
         return $this->typeLigne;
     }
 
     /**
      * Get the valeur1.
      *
-     * @return float Returns the valeur1.
+     * @return float|null Returns the valeur1.
      */
-    public function getValeur1() {
+    public function getValeur1(): ?float{
         return $this->valeur1;
     }
 
     /**
      * Get the valeur2.
      *
-     * @return float Returns the valeur2.
+     * @return float|null Returns the valeur2.
      */
-    public function getValeur2() {
+    public function getValeur2(): ?float{
         return $this->valeur2;
     }
 
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): tblSaisiePaieHisto {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -314,10 +315,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the code user.
      *
-     * @param string $codeUser The code user.
+     * @param string|null $codeUser The code user.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setCodeUser($codeUser) {
+    public function setCodeUser(?string $codeUser): tblSaisiePaieHisto {
         $this->codeUser = $codeUser;
         return $this;
     }
@@ -328,7 +329,7 @@ class tblSaisiePaieHisto {
      * @param DateTime|null $dateAdded The date added.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setDateAdded(DateTime $dateAdded = null) {
+    public function setDateAdded(?DateTime $dateAdded): tblSaisiePaieHisto {
         $this->dateAdded = $dateAdded;
         return $this;
     }
@@ -336,10 +337,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the flag.
      *
-     * @param int $flag The flag.
+     * @param int|null $flag The flag.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setFlag($flag) {
+    public function setFlag(?int $flag): tblSaisiePaieHisto {
         $this->flag = $flag;
         return $this;
     }
@@ -347,10 +348,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the id.
      *
-     * @param int $id The id.
+     * @param int|null $id The id.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setId($id) {
+    public function setId(?int $id): tblSaisiePaieHisto {
         $this->id = $id;
         return $this;
     }
@@ -358,10 +359,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): tblSaisiePaieHisto {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -369,10 +370,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): tblSaisiePaieHisto {
         $this->intitule = $intitule;
         return $this;
     }
@@ -380,10 +381,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the intitule2.
      *
-     * @param string $intitule2 The intitule2.
+     * @param string|null $intitule2 The intitule2.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setIntitule2($intitule2) {
+    public function setIntitule2(?string $intitule2): tblSaisiePaieHisto {
         $this->intitule2 = $intitule2;
         return $this;
     }
@@ -391,10 +392,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the mois deb fixe.
      *
-     * @param string $moisDebFixe The mois deb fixe.
+     * @param string|null $moisDebFixe The mois deb fixe.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setMoisDebFixe($moisDebFixe) {
+    public function setMoisDebFixe(?string $moisDebFixe): tblSaisiePaieHisto {
         $this->moisDebFixe = $moisDebFixe;
         return $this;
     }
@@ -402,10 +403,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the mois fin fixe.
      *
-     * @param string $moisFinFixe The mois fin fixe.
+     * @param string|null $moisFinFixe The mois fin fixe.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setMoisFinFixe($moisFinFixe) {
+    public function setMoisFinFixe(?string $moisFinFixe): tblSaisiePaieHisto {
         $this->moisFinFixe = $moisFinFixe;
         return $this;
     }
@@ -413,10 +414,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): tblSaisiePaieHisto {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -427,7 +428,7 @@ class tblSaisiePaieHisto {
      * @param DateTime|null $periode The periode.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): tblSaisiePaieHisto {
         $this->periode = $periode;
         return $this;
     }
@@ -438,7 +439,7 @@ class tblSaisiePaieHisto {
      * @param DateTime|null $periodeRappel The periode rappel.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setPeriodeRappel(DateTime $periodeRappel = null) {
+    public function setPeriodeRappel(?DateTime $periodeRappel): tblSaisiePaieHisto {
         $this->periodeRappel = $periodeRappel;
         return $this;
     }
@@ -446,10 +447,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the posit.
      *
-     * @param int $posit The posit.
+     * @param int|null $posit The posit.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setPosit($posit) {
+    public function setPosit(?int $posit): tblSaisiePaieHisto {
         $this->posit = $posit;
         return $this;
     }
@@ -457,10 +458,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the type ligne.
      *
-     * @param string $typeLigne The type ligne.
+     * @param string|null $typeLigne The type ligne.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setTypeLigne($typeLigne) {
+    public function setTypeLigne(?string $typeLigne): tblSaisiePaieHisto {
         $this->typeLigne = $typeLigne;
         return $this;
     }
@@ -468,10 +469,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the valeur1.
      *
-     * @param float $valeur1 The valeur1.
+     * @param float|null $valeur1 The valeur1.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setValeur1($valeur1) {
+    public function setValeur1(?float $valeur1): tblSaisiePaieHisto {
         $this->valeur1 = $valeur1;
         return $this;
     }
@@ -479,10 +480,10 @@ class tblSaisiePaieHisto {
     /**
      * Set the valeur2.
      *
-     * @param float $valeur2 The valeur2.
+     * @param float|null $valeur2 The valeur2.
      * @return tblSaisiePaieHisto Returns this tbl saisie paie histo.
      */
-    public function setValeur2($valeur2) {
+    public function setValeur2(?float $valeur2): tblSaisiePaieHisto {
         $this->valeur2 = $valeur2;
         return $this;
     }

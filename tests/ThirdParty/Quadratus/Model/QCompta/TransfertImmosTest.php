@@ -27,7 +27,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDerCap() {
+    public function testSetCptDerCap(): void {
 
         $obj = new TransfertImmos();
 
@@ -40,7 +40,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDerDot() {
+    public function testSetCptDerDot(): void {
 
         $obj = new TransfertImmos();
 
@@ -53,7 +53,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDerMaj() {
+    public function testSetCptDerMaj(): void {
 
         $obj = new TransfertImmos();
 
@@ -66,7 +66,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDerRep() {
+    public function testSetCptDerRep(): void {
 
         $obj = new TransfertImmos();
 
@@ -79,7 +79,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDotCor() {
+    public function testSetCptDotCor(): void {
 
         $obj = new TransfertImmos();
 
@@ -92,7 +92,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDotExc() {
+    public function testSetCptDotExc(): void {
 
         $obj = new TransfertImmos();
 
@@ -105,7 +105,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDotFin() {
+    public function testSetCptDotFin(): void {
 
         $obj = new TransfertImmos();
 
@@ -118,7 +118,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptDotInc() {
+    public function testSetCptDotInc(): void {
 
         $obj = new TransfertImmos();
 
@@ -131,7 +131,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptValCor() {
+    public function testSetCptValCor(): void {
 
         $obj = new TransfertImmos();
 
@@ -144,7 +144,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptValExc() {
+    public function testSetCptValExc(): void {
 
         $obj = new TransfertImmos();
 
@@ -157,7 +157,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptValFin() {
+    public function testSetCptValFin(): void {
 
         $obj = new TransfertImmos();
 
@@ -170,7 +170,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptValInc() {
+    public function testSetCptValInc(): void {
 
         $obj = new TransfertImmos();
 
@@ -183,7 +183,7 @@ class TransfertImmosTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TransfertImmos();
 

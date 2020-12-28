@@ -22,257 +22,258 @@ class Factors {
     /**
      * Bic.
      *
-     * @var string
+     * @var string|null
      */
     private $bic;
 
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Code factor.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFactor;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
     /**
      * Domiciliation bancaire1.
      *
-     * @var string
+     * @var string|null
      */
     private $domiciliationBancaire1;
 
     /**
      * Domiciliation bancaire2.
      *
-     * @var string
+     * @var string|null
      */
     private $domiciliationBancaire2;
 
     /**
      * Iban.
      *
-     * @var string
+     * @var string|null
      */
     private $iban;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Rib.
      *
-     * @var string
+     * @var string|null
      */
     private $rib;
 
     /**
      * Telephone.
      *
-     * @var string
+     * @var string|null
      */
     private $telephone;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the bic.
      *
-     * @return string Returns the bic.
+     * @return string|null Returns the bic.
      */
-    public function getBic() {
+    public function getBic(): ?string{
         return $this->bic;
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the code factor.
      *
-     * @return string Returns the code factor.
+     * @return string|null Returns the code factor.
      */
-    public function getCodeFactor() {
+    public function getCodeFactor(): ?string{
         return $this->codeFactor;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
     /**
      * Get the domiciliation bancaire1.
      *
-     * @return string Returns the domiciliation bancaire1.
+     * @return string|null Returns the domiciliation bancaire1.
      */
-    public function getDomiciliationBancaire1() {
+    public function getDomiciliationBancaire1(): ?string{
         return $this->domiciliationBancaire1;
     }
 
     /**
      * Get the domiciliation bancaire2.
      *
-     * @return string Returns the domiciliation bancaire2.
+     * @return string|null Returns the domiciliation bancaire2.
      */
-    public function getDomiciliationBancaire2() {
+    public function getDomiciliationBancaire2(): ?string{
         return $this->domiciliationBancaire2;
     }
 
     /**
      * Get the iban.
      *
-     * @return string Returns the iban.
+     * @return string|null Returns the iban.
      */
-    public function getIban() {
+    public function getIban(): ?string{
         return $this->iban;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the rib.
      *
-     * @return string Returns the rib.
+     * @return string|null Returns the rib.
      */
-    public function getRib() {
+    public function getRib(): ?string{
         return $this->rib;
     }
 
     /**
      * Get the telephone.
      *
-     * @return string Returns the telephone.
+     * @return string|null Returns the telephone.
      */
-    public function getTelephone() {
+    public function getTelephone(): ?string{
         return $this->telephone;
     }
 
     /**
      * Set the bic.
      *
-     * @param string $bic The bic.
+     * @param string|null $bic The bic.
      * @return Factors Returns this Factors.
      */
-    public function setBic($bic) {
+    public function setBic(?string $bic): Factors {
         $this->bic = $bic;
         return $this;
     }
@@ -280,10 +281,10 @@ class Factors {
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return Factors Returns this Factors.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): Factors {
         $this->btq = $btq;
         return $this;
     }
@@ -291,10 +292,10 @@ class Factors {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return Factors Returns this Factors.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): Factors {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -302,10 +303,10 @@ class Factors {
     /**
      * Set the code factor.
      *
-     * @param string $codeFactor The code factor.
+     * @param string|null $codeFactor The code factor.
      * @return Factors Returns this Factors.
      */
-    public function setCodeFactor($codeFactor) {
+    public function setCodeFactor(?string $codeFactor): Factors {
         $this->codeFactor = $codeFactor;
         return $this;
     }
@@ -313,10 +314,10 @@ class Factors {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return Factors Returns this Factors.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): Factors {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -324,10 +325,10 @@ class Factors {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return Factors Returns this Factors.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): Factors {
         $this->complement = $complement;
         return $this;
     }
@@ -335,10 +336,10 @@ class Factors {
     /**
      * Set the domiciliation bancaire1.
      *
-     * @param string $domiciliationBancaire1 The domiciliation bancaire1.
+     * @param string|null $domiciliationBancaire1 The domiciliation bancaire1.
      * @return Factors Returns this Factors.
      */
-    public function setDomiciliationBancaire1($domiciliationBancaire1) {
+    public function setDomiciliationBancaire1(?string $domiciliationBancaire1): Factors {
         $this->domiciliationBancaire1 = $domiciliationBancaire1;
         return $this;
     }
@@ -346,10 +347,10 @@ class Factors {
     /**
      * Set the domiciliation bancaire2.
      *
-     * @param string $domiciliationBancaire2 The domiciliation bancaire2.
+     * @param string|null $domiciliationBancaire2 The domiciliation bancaire2.
      * @return Factors Returns this Factors.
      */
-    public function setDomiciliationBancaire2($domiciliationBancaire2) {
+    public function setDomiciliationBancaire2(?string $domiciliationBancaire2): Factors {
         $this->domiciliationBancaire2 = $domiciliationBancaire2;
         return $this;
     }
@@ -357,10 +358,10 @@ class Factors {
     /**
      * Set the iban.
      *
-     * @param string $iban The iban.
+     * @param string|null $iban The iban.
      * @return Factors Returns this Factors.
      */
-    public function setIban($iban) {
+    public function setIban(?string $iban): Factors {
         $this->iban = $iban;
         return $this;
     }
@@ -368,10 +369,10 @@ class Factors {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return Factors Returns this Factors.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): Factors {
         $this->nom = $nom;
         return $this;
     }
@@ -379,10 +380,10 @@ class Factors {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return Factors Returns this Factors.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): Factors {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -390,10 +391,10 @@ class Factors {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return Factors Returns this Factors.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): Factors {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -401,10 +402,10 @@ class Factors {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return Factors Returns this Factors.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): Factors {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -412,10 +413,10 @@ class Factors {
     /**
      * Set the rib.
      *
-     * @param string $rib The rib.
+     * @param string|null $rib The rib.
      * @return Factors Returns this Factors.
      */
-    public function setRib($rib) {
+    public function setRib(?string $rib): Factors {
         $this->rib = $rib;
         return $this;
     }
@@ -423,10 +424,10 @@ class Factors {
     /**
      * Set the telephone.
      *
-     * @param string $telephone The telephone.
+     * @param string|null $telephone The telephone.
      * @return Factors Returns this Factors.
      */
-    public function setTelephone($telephone) {
+    public function setTelephone(?string $telephone): Factors {
         $this->telephone = $telephone;
         return $this;
     }

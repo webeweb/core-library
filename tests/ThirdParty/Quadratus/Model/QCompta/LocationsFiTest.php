@@ -29,7 +29,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureau() {
+    public function testSetBureau(): void {
 
         $obj = new LocationsFi();
 
@@ -42,7 +42,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreAnalytique() {
+    public function testSetCentreAnalytique(): void {
 
         $obj = new LocationsFi();
 
@@ -55,7 +55,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalEcheance() {
+    public function testSetCodeJournalEcheance(): void {
 
         $obj = new LocationsFi();
 
@@ -68,7 +68,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournalPaiement() {
+    public function testSetCodeJournalPaiement(): void {
 
         $obj = new LocationsFi();
 
@@ -81,7 +81,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new LocationsFi();
 
@@ -94,7 +94,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFrn() {
+    public function testSetCompteFrn(): void {
 
         $obj = new LocationsFi();
 
@@ -107,7 +107,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptAssurance() {
+    public function testSetCptAssurance(): void {
 
         $obj = new LocationsFi();
 
@@ -120,7 +120,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptCharge() {
+    public function testSetCptCharge(): void {
 
         $obj = new LocationsFi();
 
@@ -133,7 +133,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptEntretien() {
+    public function testSetCptEntretien(): void {
 
         $obj = new LocationsFi();
 
@@ -146,7 +146,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptTva() {
+    public function testSetCptTva(): void {
 
         $obj = new LocationsFi();
 
@@ -159,7 +159,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptTvaAssu() {
+    public function testSetCptTvaAssu(): void {
 
         $obj = new LocationsFi();
 
@@ -173,7 +173,7 @@ class LocationsFiTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAcquisition() {
+    public function testSetDateAcquisition(): void {
 
         // Set a Date/time mock.
         $dateAcquisition = new DateTime("2018-09-10");
@@ -190,7 +190,7 @@ class LocationsFiTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinContrat() {
+    public function testSetDateFinContrat(): void {
 
         // Set a Date/time mock.
         $dateFinContrat = new DateTime("2018-09-10");
@@ -207,7 +207,7 @@ class LocationsFiTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateMiseService() {
+    public function testSetDateMiseService(): void {
 
         // Set a Date/time mock.
         $dateMiseService = new DateTime("2018-09-10");
@@ -223,7 +223,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDin() {
+    public function testSetDin(): void {
 
         $obj = new LocationsFi();
 
@@ -236,7 +236,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGuidVehicule() {
+    public function testSetGuidVehicule(): void {
 
         $obj = new LocationsFi();
 
@@ -249,7 +249,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new LocationsFi();
 
@@ -262,7 +262,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleFrn() {
+    public function testSetLibelleFrn(): void {
 
         $obj = new LocationsFi();
 
@@ -275,7 +275,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMateriauxAgricole() {
+    public function testSetMateriauxAgricole(): void {
 
         $obj = new LocationsFi();
 
@@ -288,7 +288,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTva() {
+    public function testSetMontantTva(): void {
 
         $obj = new LocationsFi();
 
@@ -301,7 +301,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new LocationsFi();
 
@@ -314,7 +314,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new LocationsFi();
 
@@ -327,7 +327,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new LocationsFi();
 
@@ -340,7 +340,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new LocationsFi();
 
@@ -353,7 +353,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new LocationsFi();
 
@@ -366,7 +366,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxePro() {
+    public function testSetTaxePro(): void {
 
         $obj = new LocationsFi();
 
@@ -379,7 +379,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpDuree() {
+    public function testSetTpDuree(): void {
 
         $obj = new LocationsFi();
 
@@ -392,7 +392,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpEchoirEchu() {
+    public function testSetTpEchoirEchu(): void {
 
         $obj = new LocationsFi();
 
@@ -405,7 +405,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpMoisAnnee() {
+    public function testSetTpMoisAnnee(): void {
 
         $obj = new LocationsFi();
 
@@ -418,7 +418,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpMonttDepot() {
+    public function testSetTpMonttDepot(): void {
 
         $obj = new LocationsFi();
 
@@ -431,7 +431,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpPeriodicite() {
+    public function testSetTpPeriodicite(): void {
 
         $obj = new LocationsFi();
 
@@ -445,7 +445,7 @@ class LocationsFiTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTpPremierPaiement() {
+    public function testSetTpPremierPaiement(): void {
 
         // Set a Date/time mock.
         $tpPremierPaiement = new DateTime("2018-09-10");
@@ -461,7 +461,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurHt() {
+    public function testSetValeurHt(): void {
 
         $obj = new LocationsFi();
 
@@ -474,7 +474,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurLocative() {
+    public function testSetValeurLocative(): void {
 
         $obj = new LocationsFi();
 
@@ -487,7 +487,7 @@ class LocationsFiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LocationsFi();
 

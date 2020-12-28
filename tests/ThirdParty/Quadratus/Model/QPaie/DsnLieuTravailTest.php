@@ -27,7 +27,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -40,7 +40,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -53,7 +53,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDistribution() {
+    public function testSetCodeDistribution(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -66,7 +66,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInsee() {
+    public function testSetCodeInsee(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -79,7 +79,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNaf() {
+    public function testSetCodeNaf(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -92,7 +92,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -105,7 +105,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -118,7 +118,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -131,7 +131,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplementVoie() {
+    public function testSetComplementVoie(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -144,7 +144,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -157,7 +157,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNatureJuridique() {
+    public function testSetNatureJuridique(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -170,7 +170,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -183,7 +183,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -196,7 +196,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRaisonSociale() {
+    public function testSetRaisonSociale(): void {
 
         $obj = new DsnLieuTravail();
 
@@ -209,7 +209,7 @@ class DsnLieuTravailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DsnLieuTravail();
 

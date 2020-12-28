@@ -27,7 +27,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecEtat() {
+    public function testSetAvecEtat(): void {
 
         $obj = new TypeEvenements();
 
@@ -40,7 +40,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new TypeEvenements();
 
@@ -53,7 +53,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCouleur1() {
+    public function testSetEtatCouleur1(): void {
 
         $obj = new TypeEvenements();
 
@@ -66,7 +66,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCouleur2() {
+    public function testSetEtatCouleur2(): void {
 
         $obj = new TypeEvenements();
 
@@ -79,7 +79,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCouleur3() {
+    public function testSetEtatCouleur3(): void {
 
         $obj = new TypeEvenements();
 
@@ -92,7 +92,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatPriorite1() {
+    public function testSetEtatPriorite1(): void {
 
         $obj = new TypeEvenements();
 
@@ -105,7 +105,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatPriorite2() {
+    public function testSetEtatPriorite2(): void {
 
         $obj = new TypeEvenements();
 
@@ -118,7 +118,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatPriorite3() {
+    public function testSetEtatPriorite3(): void {
 
         $obj = new TypeEvenements();
 
@@ -131,7 +131,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TypeEvenements();
 
@@ -144,7 +144,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle1() {
+    public function testSetLibelle1(): void {
 
         $obj = new TypeEvenements();
 
@@ -157,7 +157,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle2() {
+    public function testSetLibelle2(): void {
 
         $obj = new TypeEvenements();
 
@@ -170,7 +170,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle3() {
+    public function testSetLibelle3(): void {
 
         $obj = new TypeEvenements();
 
@@ -183,7 +183,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleEtat() {
+    public function testSetLibelleEtat(): void {
 
         $obj = new TypeEvenements();
 
@@ -196,7 +196,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosFlag() {
+    public function testSetPosFlag(): void {
 
         $obj = new TypeEvenements();
 
@@ -209,7 +209,7 @@ class TypeEvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TypeEvenements();
 

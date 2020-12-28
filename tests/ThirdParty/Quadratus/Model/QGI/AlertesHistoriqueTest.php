@@ -29,7 +29,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArEnvoye() {
+    public function testSetArEnvoye(): void {
 
         $obj = new AlertesHistorique();
 
@@ -42,7 +42,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AlertesHistorique();
 
@@ -55,7 +55,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabDst() {
+    public function testSetCodeCollabDst(): void {
 
         $obj = new AlertesHistorique();
 
@@ -68,7 +68,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabOrg() {
+    public function testSetCodeCollabOrg(): void {
 
         $obj = new AlertesHistorique();
 
@@ -82,7 +82,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDeclenchement() {
+    public function testSetDateDeclenchement(): void {
 
         // Set a Date/time mock.
         $dateDeclenchement = new DateTime("2018-09-10");
@@ -116,7 +116,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReponse() {
+    public function testSetDateReponse(): void {
 
         // Set a Date/time mock.
         $dateReponse = new DateTime("2018-09-10");
@@ -132,7 +132,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdAlerteHisto() {
+    public function testSetIdAlerteHisto(): void {
 
         $obj = new AlertesHistorique();
 
@@ -145,7 +145,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteAlerte() {
+    public function testSetTexteAlerte(): void {
 
         $obj = new AlertesHistorique();
 
@@ -158,7 +158,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexteReponse() {
+    public function testSetTexteReponse(): void {
 
         $obj = new AlertesHistorique();
 
@@ -171,7 +171,7 @@ class AlertesHistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AlertesHistorique();
 

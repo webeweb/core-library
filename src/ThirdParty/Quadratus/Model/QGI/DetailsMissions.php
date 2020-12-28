@@ -22,113 +22,114 @@ class DetailsMissions {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Code travail.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTravail;
 
     /**
      * Niveau.
      *
-     * @var int
+     * @var int|null
      */
     private $niveau;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Type affectation.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAffectation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string{
         return $this->codeMission;
     }
 
     /**
      * Get the code travail.
      *
-     * @return string Returns the code travail.
+     * @return string|null Returns the code travail.
      */
-    public function getCodeTravail() {
+    public function getCodeTravail(): ?string{
         return $this->codeTravail;
     }
 
     /**
      * Get the niveau.
      *
-     * @return int Returns the niveau.
+     * @return int|null Returns the niveau.
      */
-    public function getNiveau() {
+    public function getNiveau(): ?int{
         return $this->niveau;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the type affectation.
      *
-     * @return string Returns the type affectation.
+     * @return string|null Returns the type affectation.
      */
-    public function getTypeAffectation() {
+    public function getTypeAffectation(): ?string{
         return $this->typeAffectation;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return DetailsMissions Returns this Details missions.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): DetailsMissions {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -136,10 +137,10 @@ class DetailsMissions {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return DetailsMissions Returns this Details missions.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): DetailsMissions {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -147,10 +148,10 @@ class DetailsMissions {
     /**
      * Set the code travail.
      *
-     * @param string $codeTravail The code travail.
+     * @param string|null $codeTravail The code travail.
      * @return DetailsMissions Returns this Details missions.
      */
-    public function setCodeTravail($codeTravail) {
+    public function setCodeTravail(?string $codeTravail): DetailsMissions {
         $this->codeTravail = $codeTravail;
         return $this;
     }
@@ -158,10 +159,10 @@ class DetailsMissions {
     /**
      * Set the niveau.
      *
-     * @param int $niveau The niveau.
+     * @param int|null $niveau The niveau.
      * @return DetailsMissions Returns this Details missions.
      */
-    public function setNiveau($niveau) {
+    public function setNiveau(?int $niveau): DetailsMissions {
         $this->niveau = $niveau;
         return $this;
     }
@@ -169,10 +170,10 @@ class DetailsMissions {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return DetailsMissions Returns this Details missions.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): DetailsMissions {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -180,10 +181,10 @@ class DetailsMissions {
     /**
      * Set the type affectation.
      *
-     * @param string $typeAffectation The type affectation.
+     * @param string|null $typeAffectation The type affectation.
      * @return DetailsMissions Returns this Details missions.
      */
-    public function setTypeAffectation($typeAffectation) {
+    public function setTypeAffectation(?string $typeAffectation): DetailsMissions {
         $this->typeAffectation = $typeAffectation;
         return $this;
     }

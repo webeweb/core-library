@@ -29,7 +29,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -42,7 +42,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -55,7 +55,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -68,7 +68,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -81,7 +81,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDepot() {
+    public function testSetCodeDepot(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -94,7 +94,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -107,7 +107,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -120,7 +120,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUnite() {
+    public function testSetCodeUnite(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -133,7 +133,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVariante() {
+    public function testSetCodeVariante(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -146,7 +146,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilAchat() {
+    public function testSetCodeVentilAchat(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -159,7 +159,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommandeRecue() {
+    public function testSetCommandeRecue(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -172,7 +172,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionnement() {
+    public function testSetConditionnement(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -186,7 +186,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReceptionPrevue() {
+    public function testSetDateReceptionPrevue(): void {
 
         // Set a Date/time mock.
         $dateReceptionPrevue = new DateTime("2018-09-10");
@@ -202,7 +202,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -215,7 +215,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation2() {
+    public function testSetDesignation2(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -228,7 +228,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation3() {
+    public function testSetDesignation3(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -241,7 +241,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceLigne() {
+    public function testSetIndiceLigne(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -254,7 +254,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoBr() {
+    public function testSetNoBr(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -267,7 +267,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLigneBr() {
+    public function testSetNoLigneBr(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -280,7 +280,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoPiece() {
+    public function testSetNoPiece(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -293,7 +293,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -306,7 +306,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -319,7 +319,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPuBrut() {
+    public function testSetPuBrut(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -332,7 +332,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteCond() {
+    public function testSetQteCond(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -345,7 +345,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteOrigine() {
+    public function testSetQteOrigine(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -358,7 +358,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -371,7 +371,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefArticleFournisseur() {
+    public function testSetRefArticleFournisseur(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -384,7 +384,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne1() {
+    public function testSetRemiseLigne1(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -397,7 +397,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne2() {
+    public function testSetRemiseLigne2(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -410,7 +410,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne3() {
+    public function testSetRemiseLigne3(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -423,7 +423,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva() {
+    public function testSetTauxTva(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -436,7 +436,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new CdeFournisseurLigne();
 
@@ -449,7 +449,7 @@ class CdeFournisseurLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CdeFournisseurLigne();
 

@@ -27,7 +27,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeService() {
+    public function testSetCodeService(): void {
 
         $obj = new RepartitionActivite();
 
@@ -40,7 +40,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new RepartitionActivite();
 
@@ -53,7 +53,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxVentilation() {
+    public function testSetTauxVentilation(): void {
 
         $obj = new RepartitionActivite();
 
@@ -66,7 +66,7 @@ class RepartitionActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RepartitionActivite();
 

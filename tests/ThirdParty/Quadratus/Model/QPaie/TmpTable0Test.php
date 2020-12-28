@@ -29,7 +29,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBase() {
+    public function testSetBase(): void {
 
         $obj = new TmpTable0();
 
@@ -42,7 +42,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseTot() {
+    public function testSetBaseTot(): void {
 
         $obj = new TmpTable0();
 
@@ -55,7 +55,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargePat() {
+    public function testSetChargePat(): void {
 
         $obj = new TmpTable0();
 
@@ -68,7 +68,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargePatTot() {
+    public function testSetChargePatTot(): void {
 
         $obj = new TmpTable0();
 
@@ -81,7 +81,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargeSal() {
+    public function testSetChargeSal(): void {
 
         $obj = new TmpTable0();
 
@@ -94,7 +94,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChargeSalTot() {
+    public function testSetChargeSalTot(): void {
 
         $obj = new TmpTable0();
 
@@ -107,7 +107,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClasse() {
+    public function testSetClasse(): void {
 
         $obj = new TmpTable0();
 
@@ -120,7 +120,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new TmpTable0();
 
@@ -133,7 +133,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new TmpTable0();
 
@@ -146,7 +146,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtablissement() {
+    public function testSetEtablissement(): void {
 
         $obj = new TmpTable0();
 
@@ -159,7 +159,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImputation() {
+    public function testSetImputation(): void {
 
         $obj = new TmpTable0();
 
@@ -172,7 +172,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new TmpTable0();
 
@@ -185,7 +185,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInverse() {
+    public function testSetInverse(): void {
 
         $obj = new TmpTable0();
 
@@ -198,7 +198,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TmpTable0();
 
@@ -211,7 +211,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new TmpTable0();
 
@@ -225,7 +225,7 @@ class TmpTable0Test extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -241,7 +241,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQui() {
+    public function testSetQui(): void {
 
         $obj = new TmpTable0();
 
@@ -254,7 +254,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new TmpTable0();
 
@@ -267,7 +267,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPat() {
+    public function testSetTauxPat(): void {
 
         $obj = new TmpTable0();
 
@@ -280,7 +280,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSal() {
+    public function testSetTauxSal(): void {
 
         $obj = new TmpTable0();
 
@@ -293,7 +293,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new TmpTable0();
 
@@ -306,7 +306,7 @@ class TmpTable0Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TmpTable0();
 

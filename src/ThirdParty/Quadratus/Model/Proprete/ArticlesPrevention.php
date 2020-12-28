@@ -22,49 +22,50 @@ class ArticlesPrevention {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code prev.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrev;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code prev.
      *
-     * @return string Returns the code prev.
+     * @return string|null Returns the code prev.
      */
-    public function getCodePrev() {
+    public function getCodePrev(): ?string{
         return $this->codePrev;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return ArticlesPrevention Returns this Articles prevention.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): ArticlesPrevention {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -72,10 +73,10 @@ class ArticlesPrevention {
     /**
      * Set the code prev.
      *
-     * @param string $codePrev The code prev.
+     * @param string|null $codePrev The code prev.
      * @return ArticlesPrevention Returns this Articles prevention.
      */
-    public function setCodePrev($codePrev) {
+    public function setCodePrev(?string $codePrev): ArticlesPrevention {
         $this->codePrev = $codePrev;
         return $this;
     }

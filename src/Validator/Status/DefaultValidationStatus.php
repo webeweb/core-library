@@ -22,10 +22,10 @@ class DefaultValidationStatus extends AbstractValidationStatus {
     /**
      * Constructor.
      *
-     * @param int $code The code.
-     * @param string $message The message.
+     * @param int|null $code The code.
+     * @param string|null $message The message.
      */
-    public function __construct($code = null, $message = null) {
+    public function __construct(int $code = null, string $message = null) {
         parent::__construct($code, $message);
     }
 }

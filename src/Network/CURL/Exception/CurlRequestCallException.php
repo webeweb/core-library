@@ -24,7 +24,7 @@ class CurlRequestCallException extends AbstractCurlException {
     /**
      * cURL response.
      *
-     * @var CurlResponseInterface
+     * @var CurlResponseInterface|null
      */
     private $response;
 
@@ -35,7 +35,7 @@ class CurlRequestCallException extends AbstractCurlException {
      * @param int $code The code.
      * @param CurlResponseInterface $response The response.
      */
-    public function __construct($message, $code, CurlResponseInterface $response) {
+    public function __construct(string $message, int $code, CurlResponseInterface $response) {
         parent::__construct($message, $code);
         $this->setResponse($response);
     }
@@ -43,9 +43,9 @@ class CurlRequestCallException extends AbstractCurlException {
     /**
      * Get the response.
      *
-     * @return CurlResponseInterface Returns the response.
+     * @return CurlResponseInterface|null Returns the response.
      */
-    public function getResponse() {
+    public function getResponse(): ?CurlResponseInterface {
         return $this->response;
     }
 
@@ -55,7 +55,7 @@ class CurlRequestCallException extends AbstractCurlException {
      * @param CurlResponseInterface $response The response.
      * @return CurlRequestCallException Returns this request call exception.
      */
-    protected function setResponse(CurlResponseInterface $response) {
+    protected function setResponse(CurlResponseInterface $response): CurlRequestCallException {
         $this->response = $response;
         return $this;
     }

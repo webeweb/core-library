@@ -27,7 +27,7 @@ class EnchainementSemainesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiscrSem() {
+    public function testSetDiscrSem(): void {
 
         $obj = new EnchainementSemaines();
 
@@ -40,7 +40,7 @@ class EnchainementSemainesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumOrdre() {
+    public function testSetNumOrdre(): void {
 
         $obj = new EnchainementSemaines();
 
@@ -53,7 +53,7 @@ class EnchainementSemainesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EnchainementSemaines();
 

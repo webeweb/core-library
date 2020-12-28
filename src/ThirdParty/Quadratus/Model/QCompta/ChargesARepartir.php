@@ -24,14 +24,14 @@ class ChargesARepartir {
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Coeff degressif.
      *
-     * @var float
+     * @var float|null
      */
     private $coeffDegressif;
 
@@ -45,81 +45,82 @@ class ChargesARepartir {
     /**
      * Duree.
      *
-     * @var float
+     * @var float|null
      */
     private $duree;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Num contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $numContrat;
 
     /**
      * Num cpt car.
      *
-     * @var string
+     * @var string|null
      */
     private $numCptCar;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Taux lineaire.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxLineaire;
 
     /**
      * Type amort.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAmort;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the coeff degressif.
      *
-     * @return float Returns the coeff degressif.
+     * @return float|null Returns the coeff degressif.
      */
-    public function getCoeffDegressif() {
+    public function getCoeffDegressif(): ?float{
         return $this->coeffDegressif;
     }
 
@@ -128,89 +129,89 @@ class ChargesARepartir {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the duree.
      *
-     * @return float Returns the duree.
+     * @return float|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?float{
         return $this->duree;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the num contrat.
      *
-     * @return string Returns the num contrat.
+     * @return string|null Returns the num contrat.
      */
-    public function getNumContrat() {
+    public function getNumContrat(): ?string{
         return $this->numContrat;
     }
 
     /**
      * Get the num cpt car.
      *
-     * @return string Returns the num cpt car.
+     * @return string|null Returns the num cpt car.
      */
-    public function getNumCptCar() {
+    public function getNumCptCar(): ?string{
         return $this->numCptCar;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the taux lineaire.
      *
-     * @return float Returns the taux lineaire.
+     * @return float|null Returns the taux lineaire.
      */
-    public function getTauxLineaire() {
+    public function getTauxLineaire(): ?float{
         return $this->tauxLineaire;
     }
 
     /**
      * Get the type amort.
      *
-     * @return string Returns the type amort.
+     * @return string|null Returns the type amort.
      */
-    public function getTypeAmort() {
+    public function getTypeAmort(): ?string{
         return $this->typeAmort;
     }
 
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): ChargesARepartir {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -218,10 +219,10 @@ class ChargesARepartir {
     /**
      * Set the coeff degressif.
      *
-     * @param float $coeffDegressif The coeff degressif.
+     * @param float|null $coeffDegressif The coeff degressif.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setCoeffDegressif($coeffDegressif) {
+    public function setCoeffDegressif(?float $coeffDegressif): ChargesARepartir {
         $this->coeffDegressif = $coeffDegressif;
         return $this;
     }
@@ -232,7 +233,7 @@ class ChargesARepartir {
      * @param DateTime|null $date The date.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): ChargesARepartir {
         $this->date = $date;
         return $this;
     }
@@ -240,10 +241,10 @@ class ChargesARepartir {
     /**
      * Set the duree.
      *
-     * @param float $duree The duree.
+     * @param float|null $duree The duree.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setDuree($duree) {
+    public function setDuree(?float $duree): ChargesARepartir {
         $this->duree = $duree;
         return $this;
     }
@@ -251,10 +252,10 @@ class ChargesARepartir {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ChargesARepartir {
         $this->libelle = $libelle;
         return $this;
     }
@@ -262,10 +263,10 @@ class ChargesARepartir {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): ChargesARepartir {
         $this->montant = $montant;
         return $this;
     }
@@ -273,10 +274,10 @@ class ChargesARepartir {
     /**
      * Set the num contrat.
      *
-     * @param string $numContrat The num contrat.
+     * @param string|null $numContrat The num contrat.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setNumContrat($numContrat) {
+    public function setNumContrat(?string $numContrat): ChargesARepartir {
         $this->numContrat = $numContrat;
         return $this;
     }
@@ -284,10 +285,10 @@ class ChargesARepartir {
     /**
      * Set the num cpt car.
      *
-     * @param string $numCptCar The num cpt car.
+     * @param string|null $numCptCar The num cpt car.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setNumCptCar($numCptCar) {
+    public function setNumCptCar(?string $numCptCar): ChargesARepartir {
         $this->numCptCar = $numCptCar;
         return $this;
     }
@@ -295,10 +296,10 @@ class ChargesARepartir {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): ChargesARepartir {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -306,10 +307,10 @@ class ChargesARepartir {
     /**
      * Set the taux lineaire.
      *
-     * @param float $tauxLineaire The taux lineaire.
+     * @param float|null $tauxLineaire The taux lineaire.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setTauxLineaire($tauxLineaire) {
+    public function setTauxLineaire(?float $tauxLineaire): ChargesARepartir {
         $this->tauxLineaire = $tauxLineaire;
         return $this;
     }
@@ -317,10 +318,10 @@ class ChargesARepartir {
     /**
      * Set the type amort.
      *
-     * @param string $typeAmort The type amort.
+     * @param string|null $typeAmort The type amort.
      * @return ChargesARepartir Returns this Charges a repartir.
      */
-    public function setTypeAmort($typeAmort) {
+    public function setTypeAmort(?string $typeAmort): ChargesARepartir {
         $this->typeAmort = $typeAmort;
         return $this;
     }

@@ -28,11 +28,10 @@ class WordHelper {
      * @param string $glue The glue.
      * @return string Returns the imploded words.
      */
-    public static function implodeWords(array $words, $glue = " ") {
+    public static function implodeWords(array $words, string $glue = " "): string {
 
         $output = [];
 
-        /** @var Word $current */
         foreach ($words as $current) {
             $output[] = $current->getContent();
         }

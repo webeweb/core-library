@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Network\CURL\API;
 
 use Exception;
-use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
 
 /**
@@ -29,9 +28,8 @@ interface CurlRequestInterface {
      * @param string $name The header name.
      * @param string $value The header value.
      * @return CurlRequestInterface Returns this cURL request.
-     * @throws StringArgumentException Throws a string argument exception if the name is not a string.
      */
-    public function addHeader($name, $value);
+    public function addHeader(string $name, string $value): CurlRequestInterface;
 
     /**
      * Add a POST data.
@@ -39,9 +37,8 @@ interface CurlRequestInterface {
      * @param string $name The POST data name.
      * @param string $value The POST data value.
      * @return CurlRequestInterface Returns this cURL request.
-     * @throws StringArgumentException Throws a string argument exception if the name is not a string.
      */
-    public function addPostData($name, $value);
+    public function addPostData(string $name, string $value): CurlRequestInterface;
 
     /**
      * Add a query data.
@@ -49,9 +46,8 @@ interface CurlRequestInterface {
      * @param string $name The query data name.
      * @param string $value The query data value.
      * @return CurlRequestInterface Returns this cURL request.
-     * @throws StringArgumentException Throws a string argument exception if the name is not a string.
      */
-    public function addQueryData($name, $value);
+    public function addQueryData(string $name, string $value): CurlRequestInterface;
 
     /**
      * Call the request.
@@ -59,70 +55,70 @@ interface CurlRequestInterface {
      * @return CurlResponseInterface Returns the response.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function call();
+    public function call(): CurlResponseInterface;
 
     /**
      * Clear headers.
      *
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function clearHeaders();
+    public function clearHeaders(): CurlRequestInterface;
 
     /**
      * Clear post data.
      *
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function clearPostData();
+    public function clearPostData(): CurlRequestInterface;
 
     /**
      * Clear query data.
      *
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function clearQueryData();
+    public function clearQueryData(): CurlRequestInterface;
 
     /**
      * Get the configuration.
      *
      * @return CurlConfiguration Returns the configuration.
      */
-    public function getConfiguration();
+    public function getConfiguration(): CurlConfiguration;
 
     /**
      * Get the headers.
      *
      * @return array Returns the headers.
      */
-    public function getHeaders();
+    public function getHeaders(): array;
 
     /**
      * Get the method.
      *
      * @return string Returns the method.
      */
-    public function getMethod();
+    public function getMethod(): string;
 
     /**
      * Get the POST data.
      *
      * @return array Returns the POST data.
      */
-    public function getPostData();
+    public function getPostData(): array;
 
     /**
      * Get the query data.
      *
      * @return array Returns the query data.
      */
-    public function getQueryData();
+    public function getQueryData(): array;
 
     /**
      * Get the resource path.
      *
      * @return string Returns the resource path.
      */
-    public function getResourcePath();
+    public function getResourcePath(): string;
 
     /**
      * Remove an header.
@@ -130,7 +126,7 @@ interface CurlRequestInterface {
      * @param string $name The header name.
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function removeHeader($name);
+    public function removeHeader(string $name): CurlRequestInterface;
 
     /**
      * Remove a POST data.
@@ -138,7 +134,7 @@ interface CurlRequestInterface {
      * @param string $name The POST data name.
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function removePostData($name);
+    public function removePostData(string $name): CurlRequestInterface;
 
     /**
      * Remove a query data.
@@ -146,13 +142,13 @@ interface CurlRequestInterface {
      * @param string $name The query data name.
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function removeQueryData($name);
+    public function removeQueryData(string $name): CurlRequestInterface;
 
     /**
      * Set the resource path.
      *
-     * @param string $resourcePath The resource path.
+     * @param string|null $resourcePath The resource path.
      * @return CurlRequestInterface Returns this cURL request.
      */
-    public function setResourcePath($resourcePath);
+    public function setResourcePath(?string $resourcePath): CurlRequestInterface;
 }

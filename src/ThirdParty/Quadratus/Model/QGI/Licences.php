@@ -24,35 +24,35 @@ class Licences {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code client distr.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClientDistr;
 
     /**
      * Code produit.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProduit;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Cp ville.
      *
-     * @var string
+     * @var string|null
      */
     private $cpVille;
 
@@ -66,56 +66,56 @@ class Licences {
     /**
      * Demo.
      *
-     * @var bool
+     * @var bool|null
      */
     private $demo;
 
     /**
      * Licence.
      *
-     * @var string
+     * @var string|null
      */
     private $licence;
 
     /**
      * Nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $nomClient;
 
     /**
      * Nombre postes.
      *
-     * @var int
+     * @var int|null
      */
     private $nombrePostes;
 
     /**
      * Option1.
      *
-     * @var string
+     * @var string|null
      */
     private $option1;
 
     /**
      * Option2.
      *
-     * @var string
+     * @var string|null
      */
     private $option2;
 
     /**
      * Option3.
      *
-     * @var string
+     * @var string|null
      */
     private $option3;
 
     /**
      * Option4.
      *
-     * @var string
+     * @var string|null
      */
     private $option4;
 
@@ -129,21 +129,21 @@ class Licences {
     /**
      * Support.
      *
-     * @var string
+     * @var string|null
      */
     private $support;
 
     /**
      * Type reseau.
      *
-     * @var string
+     * @var string|null
      */
     private $typeReseau;
 
     /**
      * Version.
      *
-     * @var string
+     * @var string|null
      */
     private $version;
 
@@ -151,51 +151,51 @@ class Licences {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code client distr.
      *
-     * @return string Returns the code client distr.
+     * @return string|null Returns the code client distr.
      */
-    public function getCodeClientDistr() {
+    public function getCodeClientDistr(): ?string {
         return $this->codeClientDistr;
     }
 
     /**
      * Get the code produit.
      *
-     * @return string Returns the code produit.
+     * @return string|null Returns the code produit.
      */
-    public function getCodeProduit() {
+    public function getCodeProduit(): ?string {
         return $this->codeProduit;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
     /**
      * Get the cp ville.
      *
-     * @return string Returns the cp ville.
+     * @return string|null Returns the cp ville.
      */
-    public function getCpVille() {
+    public function getCpVille(): ?string {
         return $this->cpVille;
     }
 
@@ -204,79 +204,79 @@ class Licences {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
     /**
      * Get the demo.
      *
-     * @return bool Returns the demo.
+     * @return bool|null Returns the demo.
      */
-    public function getDemo() {
+    public function getDemo(): ?bool {
         return $this->demo;
     }
 
     /**
      * Get the licence.
      *
-     * @return string Returns the licence.
+     * @return string|null Returns the licence.
      */
-    public function getLicence() {
+    public function getLicence(): ?string {
         return $this->licence;
     }
 
     /**
      * Get the nom client.
      *
-     * @return string Returns the nom client.
+     * @return string|null Returns the nom client.
      */
-    public function getNomClient() {
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
     /**
      * Get the nombre postes.
      *
-     * @return int Returns the nombre postes.
+     * @return int|null Returns the nombre postes.
      */
-    public function getNombrePostes() {
+    public function getNombrePostes(): ?int {
         return $this->nombrePostes;
     }
 
     /**
      * Get the option1.
      *
-     * @return string Returns the option1.
+     * @return string|null Returns the option1.
      */
-    public function getOption1() {
+    public function getOption1(): ?string {
         return $this->option1;
     }
 
     /**
      * Get the option2.
      *
-     * @return string Returns the option2.
+     * @return string|null Returns the option2.
      */
-    public function getOption2() {
+    public function getOption2(): ?string {
         return $this->option2;
     }
 
     /**
      * Get the option3.
      *
-     * @return string Returns the option3.
+     * @return string|null Returns the option3.
      */
-    public function getOption3() {
+    public function getOption3(): ?string {
         return $this->option3;
     }
 
     /**
      * Get the option4.
      *
-     * @return string Returns the option4.
+     * @return string|null Returns the option4.
      */
-    public function getOption4() {
+    public function getOption4(): ?string {
         return $this->option4;
     }
 
@@ -285,44 +285,44 @@ class Licences {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
     /**
      * Get the support.
      *
-     * @return string Returns the support.
+     * @return string|null Returns the support.
      */
-    public function getSupport() {
+    public function getSupport(): ?string {
         return $this->support;
     }
 
     /**
      * Get the type reseau.
      *
-     * @return string Returns the type reseau.
+     * @return string|null Returns the type reseau.
      */
-    public function getTypeReseau() {
+    public function getTypeReseau(): ?string {
         return $this->typeReseau;
     }
 
     /**
      * Get the version.
      *
-     * @return string Returns the version.
+     * @return string|null Returns the version.
      */
-    public function getVersion() {
+    public function getVersion(): ?string {
         return $this->version;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Licences Returns this Licences.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Licences {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -330,10 +330,10 @@ class Licences {
     /**
      * Set the code client distr.
      *
-     * @param string $codeClientDistr The code client distr.
+     * @param string|null $codeClientDistr The code client distr.
      * @return Licences Returns this Licences.
      */
-    public function setCodeClientDistr($codeClientDistr) {
+    public function setCodeClientDistr(?string $codeClientDistr): Licences {
         $this->codeClientDistr = $codeClientDistr;
         return $this;
     }
@@ -341,10 +341,10 @@ class Licences {
     /**
      * Set the code produit.
      *
-     * @param string $codeProduit The code produit.
+     * @param string|null $codeProduit The code produit.
      * @return Licences Returns this Licences.
      */
-    public function setCodeProduit($codeProduit) {
+    public function setCodeProduit(?string $codeProduit): Licences {
         $this->codeProduit = $codeProduit;
         return $this;
     }
@@ -352,10 +352,10 @@ class Licences {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Licences Returns this Licences.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Licences {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -363,10 +363,10 @@ class Licences {
     /**
      * Set the cp ville.
      *
-     * @param string $cpVille The cp ville.
+     * @param string|null $cpVille The cp ville.
      * @return Licences Returns this Licences.
      */
-    public function setCpVille($cpVille) {
+    public function setCpVille(?string $cpVille): Licences {
         $this->cpVille = $cpVille;
         return $this;
     }
@@ -377,7 +377,7 @@ class Licences {
      * @param DateTime|null $dateCreation The date creation.
      * @return Licences Returns this Licences.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): Licences {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -385,10 +385,10 @@ class Licences {
     /**
      * Set the demo.
      *
-     * @param bool $demo The demo.
+     * @param bool|null $demo The demo.
      * @return Licences Returns this Licences.
      */
-    public function setDemo($demo) {
+    public function setDemo(?bool $demo): Licences {
         $this->demo = $demo;
         return $this;
     }
@@ -396,10 +396,10 @@ class Licences {
     /**
      * Set the licence.
      *
-     * @param string $licence The licence.
+     * @param string|null $licence The licence.
      * @return Licences Returns this Licences.
      */
-    public function setLicence($licence) {
+    public function setLicence(?string $licence): Licences {
         $this->licence = $licence;
         return $this;
     }
@@ -407,10 +407,10 @@ class Licences {
     /**
      * Set the nom client.
      *
-     * @param string $nomClient The nom client.
+     * @param string|null $nomClient The nom client.
      * @return Licences Returns this Licences.
      */
-    public function setNomClient($nomClient) {
+    public function setNomClient(?string $nomClient): Licences {
         $this->nomClient = $nomClient;
         return $this;
     }
@@ -418,10 +418,10 @@ class Licences {
     /**
      * Set the nombre postes.
      *
-     * @param int $nombrePostes The nombre postes.
+     * @param int|null $nombrePostes The nombre postes.
      * @return Licences Returns this Licences.
      */
-    public function setNombrePostes($nombrePostes) {
+    public function setNombrePostes(?int $nombrePostes): Licences {
         $this->nombrePostes = $nombrePostes;
         return $this;
     }
@@ -429,10 +429,10 @@ class Licences {
     /**
      * Set the option1.
      *
-     * @param string $option1 The option1.
+     * @param string|null $option1 The option1.
      * @return Licences Returns this Licences.
      */
-    public function setOption1($option1) {
+    public function setOption1(?string $option1): Licences {
         $this->option1 = $option1;
         return $this;
     }
@@ -440,10 +440,10 @@ class Licences {
     /**
      * Set the option2.
      *
-     * @param string $option2 The option2.
+     * @param string|null $option2 The option2.
      * @return Licences Returns this Licences.
      */
-    public function setOption2($option2) {
+    public function setOption2(?string $option2): Licences {
         $this->option2 = $option2;
         return $this;
     }
@@ -451,10 +451,10 @@ class Licences {
     /**
      * Set the option3.
      *
-     * @param string $option3 The option3.
+     * @param string|null $option3 The option3.
      * @return Licences Returns this Licences.
      */
-    public function setOption3($option3) {
+    public function setOption3(?string $option3): Licences {
         $this->option3 = $option3;
         return $this;
     }
@@ -462,10 +462,10 @@ class Licences {
     /**
      * Set the option4.
      *
-     * @param string $option4 The option4.
+     * @param string|null $option4 The option4.
      * @return Licences Returns this Licences.
      */
-    public function setOption4($option4) {
+    public function setOption4(?string $option4): Licences {
         $this->option4 = $option4;
         return $this;
     }
@@ -476,7 +476,7 @@ class Licences {
      * @param DateTime|null $periode The periode.
      * @return Licences Returns this Licences.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): Licences {
         $this->periode = $periode;
         return $this;
     }
@@ -484,10 +484,10 @@ class Licences {
     /**
      * Set the support.
      *
-     * @param string $support The support.
+     * @param string|null $support The support.
      * @return Licences Returns this Licences.
      */
-    public function setSupport($support) {
+    public function setSupport(?string $support): Licences {
         $this->support = $support;
         return $this;
     }
@@ -495,10 +495,10 @@ class Licences {
     /**
      * Set the type reseau.
      *
-     * @param string $typeReseau The type reseau.
+     * @param string|null $typeReseau The type reseau.
      * @return Licences Returns this Licences.
      */
-    public function setTypeReseau($typeReseau) {
+    public function setTypeReseau(?string $typeReseau): Licences {
         $this->typeReseau = $typeReseau;
         return $this;
     }
@@ -506,10 +506,10 @@ class Licences {
     /**
      * Set the version.
      *
-     * @param string $version The version.
+     * @param string|null $version The version.
      * @return Licences Returns this Licences.
      */
-    public function setVersion($version) {
+    public function setVersion(?string $version): Licences {
         $this->version = $version;
         return $this;
     }

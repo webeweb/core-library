@@ -31,9 +31,9 @@ class AuthenticatorTest extends AbstractTestCase {
     private $passwordAuthentication;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set the Password authentication mock.
@@ -45,7 +45,7 @@ class AuthenticatorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasswordAuthentication() {
+    public function testSetPasswordAuthentication(): void {
 
         $obj = new Authenticator(null, $this->passwordAuthentication);
 
@@ -59,7 +59,7 @@ class AuthenticatorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetScheme() {
+    public function testSetScheme(): void {
 
         $obj = new Authenticator(null, $this->passwordAuthentication);
 
@@ -72,7 +72,7 @@ class AuthenticatorTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Authenticator(null, $this->passwordAuthentication);
 

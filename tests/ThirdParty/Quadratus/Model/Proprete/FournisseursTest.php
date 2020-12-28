@@ -29,7 +29,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetApe() {
+    public function testSetApe(): void {
 
         $obj = new Fournisseurs();
 
@@ -42,7 +42,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new Fournisseurs();
 
@@ -55,7 +55,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new Fournisseurs();
 
@@ -68,7 +68,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Fournisseurs();
 
@@ -81,7 +81,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new Fournisseurs();
 
@@ -94,7 +94,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFamille() {
+    public function testSetCodeFamille(): void {
 
         $obj = new Fournisseurs();
 
@@ -107,7 +107,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeImputationAnalytique() {
+    public function testSetCodeImputationAnalytique(): void {
 
         $obj = new Fournisseurs();
 
@@ -120,7 +120,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLangueDesignationArticle() {
+    public function testSetCodeLangueDesignationArticle(): void {
 
         $obj = new Fournisseurs();
 
@@ -133,7 +133,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOfficielCommune() {
+    public function testSetCodeOfficielCommune(): void {
 
         $obj = new Fournisseurs();
 
@@ -146,7 +146,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new Fournisseurs();
 
@@ -159,7 +159,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new Fournisseurs();
 
@@ -172,7 +172,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeReglement() {
+    public function testSetCodeReglement(): void {
 
         $obj = new Fournisseurs();
 
@@ -185,7 +185,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSousFamille() {
+    public function testSetCodeSousFamille(): void {
 
         $obj = new Fournisseurs();
 
@@ -198,7 +198,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new Fournisseurs();
 
@@ -211,7 +211,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva1() {
+    public function testSetCodeTva1(): void {
 
         $obj = new Fournisseurs();
 
@@ -224,7 +224,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva2() {
+    public function testSetCodeTva2(): void {
 
         $obj = new Fournisseurs();
 
@@ -237,7 +237,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new Fournisseurs();
 
@@ -250,7 +250,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif() {
+    public function testSetCollectif(): void {
 
         $obj = new Fournisseurs();
 
@@ -263,7 +263,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires() {
+    public function testSetCommentaires(): void {
 
         $obj = new Fournisseurs();
 
@@ -276,7 +276,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new Fournisseurs();
 
@@ -290,7 +290,7 @@ class FournisseursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -307,7 +307,7 @@ class FournisseursTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -323,7 +323,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiLe() {
+    public function testSetDelaiLe(): void {
 
         $obj = new Fournisseurs();
 
@@ -336,7 +336,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiNombre() {
+    public function testSetDelaiNombre(): void {
 
         $obj = new Fournisseurs();
 
@@ -349,7 +349,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiType() {
+    public function testSetDelaiType(): void {
 
         $obj = new Fournisseurs();
 
@@ -362,7 +362,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire1() {
+    public function testSetDomiciliationBancaire1(): void {
 
         $obj = new Fournisseurs();
 
@@ -375,7 +375,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire2() {
+    public function testSetDomiciliationBancaire2(): void {
 
         $obj = new Fournisseurs();
 
@@ -388,7 +388,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new Fournisseurs();
 
@@ -401,7 +401,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureEuros() {
+    public function testSetFactureEuros(): void {
 
         $obj = new Fournisseurs();
 
@@ -414,7 +414,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFax() {
+    public function testSetFax(): void {
 
         $obj = new Fournisseurs();
 
@@ -427,7 +427,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisFixes1() {
+    public function testSetFraisFixes1(): void {
 
         $obj = new Fournisseurs();
 
@@ -440,7 +440,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisFixes2() {
+    public function testSetFraisFixes2(): void {
 
         $obj = new Fournisseurs();
 
@@ -453,7 +453,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisFixes3() {
+    public function testSetFraisFixes3(): void {
 
         $obj = new Fournisseurs();
 
@@ -466,7 +466,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdentTva() {
+    public function testSetIdentTva(): void {
 
         $obj = new Fournisseurs();
 
@@ -479,7 +479,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAcompte() {
+    public function testSetMontantAcompte(): void {
 
         $obj = new Fournisseurs();
 
@@ -492,7 +492,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbColis() {
+    public function testSetNbColis(): void {
 
         $obj = new Fournisseurs();
 
@@ -505,7 +505,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new Fournisseurs();
 
@@ -518,7 +518,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomResponsable() {
+    public function testSetNomResponsable(): void {
 
         $obj = new Fournisseurs();
 
@@ -531,7 +531,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new Fournisseurs();
 
@@ -544,7 +544,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVille() {
+    public function testSetNomVille(): void {
 
         $obj = new Fournisseurs();
 
@@ -557,7 +557,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new Fournisseurs();
 
@@ -570,7 +570,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEcheances() {
+    public function testSetNombreEcheances(): void {
 
         $obj = new Fournisseurs();
 
@@ -583,7 +583,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new Fournisseurs();
 
@@ -596,7 +596,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Fournisseurs();
 
@@ -609,7 +609,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementDepartLe() {
+    public function testSetPaiementDepartLe(): void {
 
         $obj = new Fournisseurs();
 
@@ -622,7 +622,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementLe() {
+    public function testSetPaiementLe(): void {
 
         $obj = new Fournisseurs();
 
@@ -635,7 +635,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementNombreDeJours() {
+    public function testSetPaiementNombreDeJours(): void {
 
         $obj = new Fournisseurs();
 
@@ -648,7 +648,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPoids() {
+    public function testSetPoids(): void {
 
         $obj = new Fournisseurs();
 
@@ -661,7 +661,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortable1() {
+    public function testSetPortable1(): void {
 
         $obj = new Fournisseurs();
 
@@ -674,7 +674,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortable2() {
+    public function testSetPortable2(): void {
 
         $obj = new Fournisseurs();
 
@@ -687,7 +687,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRc() {
+    public function testSetRc(): void {
 
         $obj = new Fournisseurs();
 
@@ -700,7 +700,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceClient() {
+    public function testSetReferenceClient(): void {
 
         $obj = new Fournisseurs();
 
@@ -713,7 +713,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne1() {
+    public function testSetRemiseLigne1(): void {
 
         $obj = new Fournisseurs();
 
@@ -726,7 +726,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne2() {
+    public function testSetRemiseLigne2(): void {
 
         $obj = new Fournisseurs();
 
@@ -739,7 +739,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne3() {
+    public function testSetRemiseLigne3(): void {
 
         $obj = new Fournisseurs();
 
@@ -752,7 +752,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied() {
+    public function testSetRemisePied(): void {
 
         $obj = new Fournisseurs();
 
@@ -765,7 +765,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied2() {
+    public function testSetRemisePied2(): void {
 
         $obj = new Fournisseurs();
 
@@ -778,7 +778,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied3() {
+    public function testSetRemisePied3(): void {
 
         $obj = new Fournisseurs();
 
@@ -791,7 +791,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Fournisseurs();
 
@@ -804,7 +804,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiret() {
+    public function testSetSiret(): void {
 
         $obj = new Fournisseurs();
 
@@ -817,7 +817,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxe1() {
+    public function testSetSoumisTaxe1(): void {
 
         $obj = new Fournisseurs();
 
@@ -830,7 +830,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxe2() {
+    public function testSetSoumisTaxe2(): void {
 
         $obj = new Fournisseurs();
 
@@ -843,7 +843,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisTaxe3() {
+    public function testSetSoumisTaxe3(): void {
 
         $obj = new Fournisseurs();
 
@@ -856,7 +856,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel1() {
+    public function testSetTel1(): void {
 
         $obj = new Fournisseurs();
 
@@ -869,7 +869,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel2() {
+    public function testSetTel2(): void {
 
         $obj = new Fournisseurs();
 
@@ -882,7 +882,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelVoiture() {
+    public function testSetTelVoiture(): void {
 
         $obj = new Fournisseurs();
 
@@ -895,7 +895,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelex() {
+    public function testSetTelex(): void {
 
         $obj = new Fournisseurs();
 
@@ -908,7 +908,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransporteur() {
+    public function testSetTransporteur(): void {
 
         $obj = new Fournisseurs();
 
@@ -921,7 +921,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaCle() {
+    public function testSetTvaCle(): void {
 
         $obj = new Fournisseurs();
 
@@ -934,7 +934,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaCodeDossier() {
+    public function testSetTvaCodeDossier(): void {
 
         $obj = new Fournisseurs();
 
@@ -947,7 +947,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaCodeRecette() {
+    public function testSetTvaCodeRecette(): void {
 
         $obj = new Fournisseurs();
 
@@ -960,7 +960,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaRegime() {
+    public function testSetTvaRegime(): void {
 
         $obj = new Fournisseurs();
 
@@ -973,7 +973,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxEscompteAchat() {
+    public function testSetTxEscompteAchat(): void {
 
         $obj = new Fournisseurs();
 
@@ -986,7 +986,7 @@ class FournisseursTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Fournisseurs();
 

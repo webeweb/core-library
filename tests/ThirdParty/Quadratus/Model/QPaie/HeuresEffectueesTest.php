@@ -30,7 +30,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateJour() {
+    public function testSetDateJour(): void {
 
         // Set a Date/time mock.
         $dateJour = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHDebAm() {
+    public function testSetHDebAm(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -59,7 +59,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHDebPm() {
+    public function testSetHDebPm(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -72,7 +72,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHFinAm() {
+    public function testSetHFinAm(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -85,7 +85,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHFinPm() {
+    public function testSetHFinPm(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -98,7 +98,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAbsenceCp() {
+    public function testSetNbHAbsenceCp(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -111,7 +111,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHMajo() {
+    public function testSetNbHMajo(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -124,7 +124,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHNuit() {
+    public function testSetNbHNuit(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -137,7 +137,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHReposCompPris() {
+    public function testSetNbHReposCompPris(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -150,7 +150,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHReposRemplacePris() {
+    public function testSetNbHReposRemplacePris(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -163,7 +163,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHTravailReel() {
+    public function testSetNbHTravailReel(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -176,7 +176,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHjfnt() {
+    public function testSetNbHjfnt(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -189,7 +189,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJReposRecupPris() {
+    public function testSetNbJReposRecupPris(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -202,7 +202,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourCpPris() {
+    public function testSetNbJourCpPris(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -215,7 +215,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new HeuresEffectuees();
 
@@ -228,7 +228,7 @@ class HeuresEffectueesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HeuresEffectuees();
 

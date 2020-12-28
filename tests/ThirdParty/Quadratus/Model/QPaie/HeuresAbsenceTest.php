@@ -30,7 +30,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAbsenceAu() {
+    public function testSetAbsenceAu(): void {
 
         // Set a Date/time mock.
         $absenceAu = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAbsenceDu() {
+    public function testSetAbsenceDu(): void {
 
         // Set a Date/time mock.
         $absenceDu = new DateTime("2018-09-10");
@@ -64,7 +64,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateJour() {
+    public function testSetDateJour(): void {
 
         // Set a Date/time mock.
         $dateJour = new DateTime("2018-09-10");
@@ -80,7 +80,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHNonEffectue() {
+    public function testSetNbHNonEffectue(): void {
 
         $obj = new HeuresAbsence();
 
@@ -93,7 +93,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRetenueSalaire() {
+    public function testSetNbHRetenueSalaire(): void {
 
         $obj = new HeuresAbsence();
 
@@ -106,7 +106,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHaReintegrer() {
+    public function testSetNbHaReintegrer(): void {
 
         $obj = new HeuresAbsence();
 
@@ -119,7 +119,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new HeuresAbsence();
 
@@ -132,7 +132,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfere() {
+    public function testSetTransfere(): void {
 
         $obj = new HeuresAbsence();
 
@@ -145,7 +145,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsence() {
+    public function testSetTypeAbsence(): void {
 
         $obj = new HeuresAbsence();
 
@@ -158,7 +158,7 @@ class HeuresAbsenceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HeuresAbsence();
 

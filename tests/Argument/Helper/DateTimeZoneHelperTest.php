@@ -28,7 +28,7 @@ class DateTimeZoneHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testEquals() {
+    public function testEquals(): void {
 
         $this->assertTrue(DateTimeZoneHelper::equals(new DateTimeZone("UTC"), new DateTimeZone("UTC")));
         $this->assertFalse(DateTimeZoneHelper::equals(new DateTimeZone("UTC"), new DateTimeZone("Europe/Paris")));

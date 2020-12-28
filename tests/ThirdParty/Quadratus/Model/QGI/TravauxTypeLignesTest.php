@@ -27,7 +27,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRepartition() {
+    public function testSetCodeRepartition(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -40,7 +40,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTravail() {
+    public function testSetCodeTravail(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -53,7 +53,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -66,7 +66,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbUo() {
+    public function testSetNbUo(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -79,7 +79,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauLigne() {
+    public function testSetNiveauLigne(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -92,7 +92,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -105,7 +105,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice() {
+    public function testSetPolice(): void {
 
         $obj = new TravauxTypeLignes();
 
@@ -118,7 +118,7 @@ class TravauxTypeLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TravauxTypeLignes();
 

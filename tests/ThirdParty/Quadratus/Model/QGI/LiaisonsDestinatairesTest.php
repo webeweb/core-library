@@ -27,7 +27,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAgence() {
+    public function testSetAgence(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -40,7 +40,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChemin() {
+    public function testSetChemin(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -53,7 +53,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -66,7 +66,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -79,7 +79,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -92,7 +92,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMachine() {
+    public function testSetMachine(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -105,7 +105,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotDePasse() {
+    public function testSetMotDePasse(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -118,7 +118,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPartage() {
+    public function testSetPartage(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -131,7 +131,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionArticle() {
+    public function testSetSelectionArticle(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -144,7 +144,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionClient() {
+    public function testSetSelectionClient(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -157,7 +157,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionFournisseur() {
+    public function testSetSelectionFournisseur(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -170,7 +170,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLiaison() {
+    public function testSetTypeLiaison(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -183,7 +183,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUtilisateur() {
+    public function testSetUtilisateur(): void {
 
         $obj = new LiaisonsDestinataires();
 
@@ -196,7 +196,7 @@ class LiaisonsDestinatairesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LiaisonsDestinataires();
 

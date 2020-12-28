@@ -24,63 +24,63 @@ class AgendaLignes {
     /**
      * Budget num uniq.
      *
-     * @var string
+     * @var string|null
      */
     private $budgetNumUniq;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Coll creation.
      *
-     * @var string
+     * @var string|null
      */
     private $collCreation;
 
     /**
      * Coll modif.
      *
-     * @var string
+     * @var string|null
      */
     private $collModif;
 
     /**
      * Confirme.
      *
-     * @var bool
+     * @var bool|null
      */
     private $confirme;
 
     /**
      * Critere libre.
      *
-     * @var string
+     * @var string|null
      */
     private $critereLibre;
 
@@ -115,21 +115,21 @@ class AgendaLignes {
     /**
      * Interlocuteur.
      *
-     * @var string
+     * @var string|null
      */
     private $interlocuteur;
 
     /**
      * Is tache tp.
      *
-     * @var int
+     * @var int|null
      */
     private $isTacheTp;
 
     /**
      * Is transf.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isTransf;
 
@@ -143,63 +143,63 @@ class AgendaLignes {
     /**
      * Memo plus.
      *
-     * @var string
+     * @var string|null
      */
     private $memoPlus;
 
     /**
      * Message.
      *
-     * @var string
+     * @var string|null
      */
     private $message;
 
     /**
      * Num ordre mission.
      *
-     * @var string
+     * @var string|null
      */
     private $numOrdreMission;
 
     /**
      * Num uniq.
      *
-     * @var string
+     * @var string|null
      */
     private $numUniq;
 
     /**
      * Num uniq2.
      *
-     * @var string
+     * @var string|null
      */
     private $numUniq2;
 
     /**
      * Piece jointe.
      *
-     * @var string
+     * @var string|null
      */
     private $pieceJointe;
 
     /**
      * Prive.
      *
-     * @var bool
+     * @var bool|null
      */
     private $prive;
 
     /**
      * Recurrence.
      *
-     * @var string
+     * @var string|null
      */
     private $recurrence;
 
     /**
      * Type activite.
      *
-     * @var string
+     * @var string|null
      */
     private $typeActivite;
 
@@ -207,87 +207,87 @@ class AgendaLignes {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the budget num uniq.
      *
-     * @return string Returns the budget num uniq.
+     * @return string|null Returns the budget num uniq.
      */
-    public function getBudgetNumUniq() {
+    public function getBudgetNumUniq(): ?string {
         return $this->budgetNumUniq;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
     /**
      * Get the coll creation.
      *
-     * @return string Returns the coll creation.
+     * @return string|null Returns the coll creation.
      */
-    public function getCollCreation() {
+    public function getCollCreation(): ?string {
         return $this->collCreation;
     }
 
     /**
      * Get the coll modif.
      *
-     * @return string Returns the coll modif.
+     * @return string|null Returns the coll modif.
      */
-    public function getCollModif() {
+    public function getCollModif(): ?string {
         return $this->collModif;
     }
 
     /**
      * Get the confirme.
      *
-     * @return bool Returns the confirme.
+     * @return bool|null Returns the confirme.
      */
-    public function getConfirme() {
+    public function getConfirme(): ?bool {
         return $this->confirme;
     }
 
     /**
      * Get the critere libre.
      *
-     * @return string Returns the critere libre.
+     * @return string|null Returns the critere libre.
      */
-    public function getCritereLibre() {
+    public function getCritereLibre(): ?string {
         return $this->critereLibre;
     }
 
@@ -296,7 +296,7 @@ class AgendaLignes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -305,7 +305,7 @@ class AgendaLignes {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -314,7 +314,7 @@ class AgendaLignes {
      *
      * @return DateTime|null Returns the heure debut.
      */
-    public function getHeureDebut() {
+    public function getHeureDebut(): ?DateTime {
         return $this->heureDebut;
     }
 
@@ -323,34 +323,34 @@ class AgendaLignes {
      *
      * @return DateTime|null Returns the heure fin.
      */
-    public function getHeureFin() {
+    public function getHeureFin(): ?DateTime {
         return $this->heureFin;
     }
 
     /**
      * Get the interlocuteur.
      *
-     * @return string Returns the interlocuteur.
+     * @return string|null Returns the interlocuteur.
      */
-    public function getInterlocuteur() {
+    public function getInterlocuteur(): ?string {
         return $this->interlocuteur;
     }
 
     /**
      * Get the is tache tp.
      *
-     * @return int Returns the is tache tp.
+     * @return int|null Returns the is tache tp.
      */
-    public function getIsTacheTp() {
+    public function getIsTacheTp(): ?int {
         return $this->isTacheTp;
     }
 
     /**
      * Get the is transf.
      *
-     * @return bool Returns the is transf.
+     * @return bool|null Returns the is transf.
      */
-    public function getIsTransf() {
+    public function getIsTransf(): ?bool {
         return $this->isTransf;
     }
 
@@ -359,98 +359,98 @@ class AgendaLignes {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour() {
+    public function getJour(): ?DateTime {
         return $this->jour;
     }
 
     /**
      * Get the memo plus.
      *
-     * @return string Returns the memo plus.
+     * @return string|null Returns the memo plus.
      */
-    public function getMemoPlus() {
+    public function getMemoPlus(): ?string {
         return $this->memoPlus;
     }
 
     /**
      * Get the message.
      *
-     * @return string Returns the message.
+     * @return string|null Returns the message.
      */
-    public function getMessage() {
+    public function getMessage(): ?string {
         return $this->message;
     }
 
     /**
      * Get the num ordre mission.
      *
-     * @return string Returns the num ordre mission.
+     * @return string|null Returns the num ordre mission.
      */
-    public function getNumOrdreMission() {
+    public function getNumOrdreMission(): ?string {
         return $this->numOrdreMission;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return string Returns the num uniq.
+     * @return string|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?string {
         return $this->numUniq;
     }
 
     /**
      * Get the num uniq2.
      *
-     * @return string Returns the num uniq2.
+     * @return string|null Returns the num uniq2.
      */
-    public function getNumUniq2() {
+    public function getNumUniq2(): ?string {
         return $this->numUniq2;
     }
 
     /**
      * Get the piece jointe.
      *
-     * @return string Returns the piece jointe.
+     * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe() {
+    public function getPieceJointe(): ?string {
         return $this->pieceJointe;
     }
 
     /**
      * Get the prive.
      *
-     * @return bool Returns the prive.
+     * @return bool|null Returns the prive.
      */
-    public function getPrive() {
+    public function getPrive(): ?bool {
         return $this->prive;
     }
 
     /**
      * Get the recurrence.
      *
-     * @return string Returns the recurrence.
+     * @return string|null Returns the recurrence.
      */
-    public function getRecurrence() {
+    public function getRecurrence(): ?string {
         return $this->recurrence;
     }
 
     /**
      * Get the type activite.
      *
-     * @return string Returns the type activite.
+     * @return string|null Returns the type activite.
      */
-    public function getTypeActivite() {
+    public function getTypeActivite(): ?string {
         return $this->typeActivite;
     }
 
     /**
      * Set the budget num uniq.
      *
-     * @param string $budgetNumUniq The budget num uniq.
+     * @param string|null $budgetNumUniq The budget num uniq.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setBudgetNumUniq($budgetNumUniq) {
+    public function setBudgetNumUniq(?string $budgetNumUniq): AgendaLignes {
         $this->budgetNumUniq = $budgetNumUniq;
         return $this;
     }
@@ -458,10 +458,10 @@ class AgendaLignes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): AgendaLignes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -469,10 +469,10 @@ class AgendaLignes {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): AgendaLignes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -480,10 +480,10 @@ class AgendaLignes {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): AgendaLignes {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -491,10 +491,10 @@ class AgendaLignes {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): AgendaLignes {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -502,10 +502,10 @@ class AgendaLignes {
     /**
      * Set the coll creation.
      *
-     * @param string $collCreation The coll creation.
+     * @param string|null $collCreation The coll creation.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCollCreation($collCreation) {
+    public function setCollCreation(?string $collCreation): AgendaLignes {
         $this->collCreation = $collCreation;
         return $this;
     }
@@ -513,10 +513,10 @@ class AgendaLignes {
     /**
      * Set the coll modif.
      *
-     * @param string $collModif The coll modif.
+     * @param string|null $collModif The coll modif.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCollModif($collModif) {
+    public function setCollModif(?string $collModif): AgendaLignes {
         $this->collModif = $collModif;
         return $this;
     }
@@ -524,10 +524,10 @@ class AgendaLignes {
     /**
      * Set the confirme.
      *
-     * @param bool $confirme The confirme.
+     * @param bool|null $confirme The confirme.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setConfirme($confirme) {
+    public function setConfirme(?bool $confirme): AgendaLignes {
         $this->confirme = $confirme;
         return $this;
     }
@@ -535,10 +535,10 @@ class AgendaLignes {
     /**
      * Set the critere libre.
      *
-     * @param string $critereLibre The critere libre.
+     * @param string|null $critereLibre The critere libre.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setCritereLibre($critereLibre) {
+    public function setCritereLibre(?string $critereLibre): AgendaLignes {
         $this->critereLibre = $critereLibre;
         return $this;
     }
@@ -549,7 +549,7 @@ class AgendaLignes {
      * @param DateTime|null $dateCreation The date creation.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): AgendaLignes {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -560,7 +560,7 @@ class AgendaLignes {
      * @param DateTime|null $dateModif The date modif.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): AgendaLignes {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -571,7 +571,7 @@ class AgendaLignes {
      * @param DateTime|null $heureDebut The heure debut.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setHeureDebut(DateTime $heureDebut = null) {
+    public function setHeureDebut(?DateTime $heureDebut): AgendaLignes {
         $this->heureDebut = $heureDebut;
         return $this;
     }
@@ -582,7 +582,7 @@ class AgendaLignes {
      * @param DateTime|null $heureFin The heure fin.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setHeureFin(DateTime $heureFin = null) {
+    public function setHeureFin(?DateTime $heureFin): AgendaLignes {
         $this->heureFin = $heureFin;
         return $this;
     }
@@ -590,10 +590,10 @@ class AgendaLignes {
     /**
      * Set the interlocuteur.
      *
-     * @param string $interlocuteur The interlocuteur.
+     * @param string|null $interlocuteur The interlocuteur.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setInterlocuteur($interlocuteur) {
+    public function setInterlocuteur(?string $interlocuteur): AgendaLignes {
         $this->interlocuteur = $interlocuteur;
         return $this;
     }
@@ -601,10 +601,10 @@ class AgendaLignes {
     /**
      * Set the is tache tp.
      *
-     * @param int $isTacheTp The is tache tp.
+     * @param int|null $isTacheTp The is tache tp.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setIsTacheTp($isTacheTp) {
+    public function setIsTacheTp(?int $isTacheTp): AgendaLignes {
         $this->isTacheTp = $isTacheTp;
         return $this;
     }
@@ -612,10 +612,10 @@ class AgendaLignes {
     /**
      * Set the is transf.
      *
-     * @param bool $isTransf The is transf.
+     * @param bool|null $isTransf The is transf.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setIsTransf($isTransf) {
+    public function setIsTransf(?bool $isTransf): AgendaLignes {
         $this->isTransf = $isTransf;
         return $this;
     }
@@ -626,7 +626,7 @@ class AgendaLignes {
      * @param DateTime|null $jour The jour.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setJour(DateTime $jour = null) {
+    public function setJour(?DateTime $jour): AgendaLignes {
         $this->jour = $jour;
         return $this;
     }
@@ -634,10 +634,10 @@ class AgendaLignes {
     /**
      * Set the memo plus.
      *
-     * @param string $memoPlus The memo plus.
+     * @param string|null $memoPlus The memo plus.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setMemoPlus($memoPlus) {
+    public function setMemoPlus(?string $memoPlus): AgendaLignes {
         $this->memoPlus = $memoPlus;
         return $this;
     }
@@ -645,10 +645,10 @@ class AgendaLignes {
     /**
      * Set the message.
      *
-     * @param string $message The message.
+     * @param string|null $message The message.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setMessage($message) {
+    public function setMessage(?string $message): AgendaLignes {
         $this->message = $message;
         return $this;
     }
@@ -656,10 +656,10 @@ class AgendaLignes {
     /**
      * Set the num ordre mission.
      *
-     * @param string $numOrdreMission The num ordre mission.
+     * @param string|null $numOrdreMission The num ordre mission.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setNumOrdreMission($numOrdreMission) {
+    public function setNumOrdreMission(?string $numOrdreMission): AgendaLignes {
         $this->numOrdreMission = $numOrdreMission;
         return $this;
     }
@@ -667,10 +667,10 @@ class AgendaLignes {
     /**
      * Set the num uniq.
      *
-     * @param string $numUniq The num uniq.
+     * @param string|null $numUniq The num uniq.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?string $numUniq): AgendaLignes {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -678,10 +678,10 @@ class AgendaLignes {
     /**
      * Set the num uniq2.
      *
-     * @param string $numUniq2 The num uniq2.
+     * @param string|null $numUniq2 The num uniq2.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setNumUniq2($numUniq2) {
+    public function setNumUniq2(?string $numUniq2): AgendaLignes {
         $this->numUniq2 = $numUniq2;
         return $this;
     }
@@ -689,10 +689,10 @@ class AgendaLignes {
     /**
      * Set the piece jointe.
      *
-     * @param string $pieceJointe The piece jointe.
+     * @param string|null $pieceJointe The piece jointe.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setPieceJointe($pieceJointe) {
+    public function setPieceJointe(?string $pieceJointe): AgendaLignes {
         $this->pieceJointe = $pieceJointe;
         return $this;
     }
@@ -700,10 +700,10 @@ class AgendaLignes {
     /**
      * Set the prive.
      *
-     * @param bool $prive The prive.
+     * @param bool|null $prive The prive.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setPrive($prive) {
+    public function setPrive(?bool $prive): AgendaLignes {
         $this->prive = $prive;
         return $this;
     }
@@ -711,10 +711,10 @@ class AgendaLignes {
     /**
      * Set the recurrence.
      *
-     * @param string $recurrence The recurrence.
+     * @param string|null $recurrence The recurrence.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setRecurrence($recurrence) {
+    public function setRecurrence(?string $recurrence): AgendaLignes {
         $this->recurrence = $recurrence;
         return $this;
     }
@@ -722,10 +722,10 @@ class AgendaLignes {
     /**
      * Set the type activite.
      *
-     * @param string $typeActivite The type activite.
+     * @param string|null $typeActivite The type activite.
      * @return AgendaLignes Returns this Agenda lignes.
      */
-    public function setTypeActivite($typeActivite) {
+    public function setTypeActivite(?string $typeActivite): AgendaLignes {
         $this->typeActivite = $typeActivite;
         return $this;
     }

@@ -22,97 +22,98 @@ class ConstTabTvaAchat {
     /**
      * Code tva article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTvaArticle;
 
     /**
      * Code tva fourn.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTvaFourn;
 
     /**
      * Compte tva.
      *
-     * @var string
+     * @var string|null
      */
     private $compteTva;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Taux tva.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxTva;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code tva article.
      *
-     * @return string Returns the code tva article.
+     * @return string|null Returns the code tva article.
      */
-    public function getCodeTvaArticle() {
+    public function getCodeTvaArticle(): ?string{
         return $this->codeTvaArticle;
     }
 
     /**
      * Get the code tva fourn.
      *
-     * @return string Returns the code tva fourn.
+     * @return string|null Returns the code tva fourn.
      */
-    public function getCodeTvaFourn() {
+    public function getCodeTvaFourn(): ?string{
         return $this->codeTvaFourn;
     }
 
     /**
      * Get the compte tva.
      *
-     * @return string Returns the compte tva.
+     * @return string|null Returns the compte tva.
      */
-    public function getCompteTva() {
+    public function getCompteTva(): ?string{
         return $this->compteTva;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the taux tva.
      *
-     * @return float Returns the taux tva.
+     * @return float|null Returns the taux tva.
      */
-    public function getTauxTva() {
+    public function getTauxTva(): ?float{
         return $this->tauxTva;
     }
 
     /**
      * Set the code tva article.
      *
-     * @param string $codeTvaArticle The code tva article.
+     * @param string|null $codeTvaArticle The code tva article.
      * @return ConstTabTvaAchat Returns this Const tab tva achat.
      */
-    public function setCodeTvaArticle($codeTvaArticle) {
+    public function setCodeTvaArticle(?string $codeTvaArticle): ConstTabTvaAchat {
         $this->codeTvaArticle = $codeTvaArticle;
         return $this;
     }
@@ -120,10 +121,10 @@ class ConstTabTvaAchat {
     /**
      * Set the code tva fourn.
      *
-     * @param string $codeTvaFourn The code tva fourn.
+     * @param string|null $codeTvaFourn The code tva fourn.
      * @return ConstTabTvaAchat Returns this Const tab tva achat.
      */
-    public function setCodeTvaFourn($codeTvaFourn) {
+    public function setCodeTvaFourn(?string $codeTvaFourn): ConstTabTvaAchat {
         $this->codeTvaFourn = $codeTvaFourn;
         return $this;
     }
@@ -131,10 +132,10 @@ class ConstTabTvaAchat {
     /**
      * Set the compte tva.
      *
-     * @param string $compteTva The compte tva.
+     * @param string|null $compteTva The compte tva.
      * @return ConstTabTvaAchat Returns this Const tab tva achat.
      */
-    public function setCompteTva($compteTva) {
+    public function setCompteTva(?string $compteTva): ConstTabTvaAchat {
         $this->compteTva = $compteTva;
         return $this;
     }
@@ -142,10 +143,10 @@ class ConstTabTvaAchat {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ConstTabTvaAchat Returns this Const tab tva achat.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ConstTabTvaAchat {
         $this->libelle = $libelle;
         return $this;
     }
@@ -153,10 +154,10 @@ class ConstTabTvaAchat {
     /**
      * Set the taux tva.
      *
-     * @param float $tauxTva The taux tva.
+     * @param float|null $tauxTva The taux tva.
      * @return ConstTabTvaAchat Returns this Const tab tva achat.
      */
-    public function setTauxTva($tauxTva) {
+    public function setTauxTva(?float $tauxTva): ConstTabTvaAchat {
         $this->tauxTva = $tauxTva;
         return $this;
     }

@@ -22,241 +22,242 @@ class ClientsLstPersoColonnes {
     /**
      * Clause where.
      *
-     * @var string
+     * @var string|null
      */
     private $clauseWhere;
 
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Indice tri.
      *
-     * @var string
+     * @var string|null
      */
     private $indiceTri;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Is formule.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isFormule;
 
     /**
      * Jointure.
      *
-     * @var string
+     * @var string|null
      */
     private $jointure;
 
     /**
      * Nb decimales.
      *
-     * @var string
+     * @var string|null
      */
     private $nbDecimales;
 
     /**
      * Nom champ.
      *
-     * @var string
+     * @var string|null
      */
     private $nomChamp;
 
     /**
      * Nom table.
      *
-     * @var string
+     * @var string|null
      */
     private $nomTable;
 
     /**
      * Ref guid.
      *
-     * @var string
+     * @var string|null
      */
     private $refGuid;
 
     /**
      * Saisie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $saisie;
 
     /**
      * Selection.
      *
-     * @var string
+     * @var string|null
      */
     private $selection;
 
     /**
      * Taille.
      *
-     * @var int
+     * @var int|null
      */
     private $taille;
 
     /**
      * Titre.
      *
-     * @var string
+     * @var string|null
      */
     private $titre;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the clause where.
      *
-     * @return string Returns the clause where.
+     * @return string|null Returns the clause where.
      */
-    public function getClauseWhere() {
+    public function getClauseWhere(): ?string{
         return $this->clauseWhere;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the indice tri.
      *
-     * @return string Returns the indice tri.
+     * @return string|null Returns the indice tri.
      */
-    public function getIndiceTri() {
+    public function getIndiceTri(): ?string{
         return $this->indiceTri;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the is formule.
      *
-     * @return bool Returns the is formule.
+     * @return bool|null Returns the is formule.
      */
-    public function getIsFormule() {
+    public function getIsFormule(): ?bool{
         return $this->isFormule;
     }
 
     /**
      * Get the jointure.
      *
-     * @return string Returns the jointure.
+     * @return string|null Returns the jointure.
      */
-    public function getJointure() {
+    public function getJointure(): ?string{
         return $this->jointure;
     }
 
     /**
      * Get the nb decimales.
      *
-     * @return string Returns the nb decimales.
+     * @return string|null Returns the nb decimales.
      */
-    public function getNbDecimales() {
+    public function getNbDecimales(): ?string{
         return $this->nbDecimales;
     }
 
     /**
      * Get the nom champ.
      *
-     * @return string Returns the nom champ.
+     * @return string|null Returns the nom champ.
      */
-    public function getNomChamp() {
+    public function getNomChamp(): ?string{
         return $this->nomChamp;
     }
 
     /**
      * Get the nom table.
      *
-     * @return string Returns the nom table.
+     * @return string|null Returns the nom table.
      */
-    public function getNomTable() {
+    public function getNomTable(): ?string{
         return $this->nomTable;
     }
 
     /**
      * Get the ref guid.
      *
-     * @return string Returns the ref guid.
+     * @return string|null Returns the ref guid.
      */
-    public function getRefGuid() {
+    public function getRefGuid(): ?string{
         return $this->refGuid;
     }
 
     /**
      * Get the saisie.
      *
-     * @return bool Returns the saisie.
+     * @return bool|null Returns the saisie.
      */
-    public function getSaisie() {
+    public function getSaisie(): ?bool{
         return $this->saisie;
     }
 
     /**
      * Get the selection.
      *
-     * @return string Returns the selection.
+     * @return string|null Returns the selection.
      */
-    public function getSelection() {
+    public function getSelection(): ?string{
         return $this->selection;
     }
 
     /**
      * Get the taille.
      *
-     * @return int Returns the taille.
+     * @return int|null Returns the taille.
      */
-    public function getTaille() {
+    public function getTaille(): ?int{
         return $this->taille;
     }
 
     /**
      * Get the titre.
      *
-     * @return string Returns the titre.
+     * @return string|null Returns the titre.
      */
-    public function getTitre() {
+    public function getTitre(): ?string{
         return $this->titre;
     }
 
     /**
      * Set the clause where.
      *
-     * @param string $clauseWhere The clause where.
+     * @param string|null $clauseWhere The clause where.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setClauseWhere($clauseWhere) {
+    public function setClauseWhere(?string $clauseWhere): ClientsLstPersoColonnes {
         $this->clauseWhere = $clauseWhere;
         return $this;
     }
@@ -264,10 +265,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): ClientsLstPersoColonnes {
         $this->indice = $indice;
         return $this;
     }
@@ -275,10 +276,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the indice tri.
      *
-     * @param string $indiceTri The indice tri.
+     * @param string|null $indiceTri The indice tri.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setIndiceTri($indiceTri) {
+    public function setIndiceTri(?string $indiceTri): ClientsLstPersoColonnes {
         $this->indiceTri = $indiceTri;
         return $this;
     }
@@ -286,10 +287,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): ClientsLstPersoColonnes {
         $this->intitule = $intitule;
         return $this;
     }
@@ -297,10 +298,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the is formule.
      *
-     * @param bool $isFormule The is formule.
+     * @param bool|null $isFormule The is formule.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setIsFormule($isFormule) {
+    public function setIsFormule(?bool $isFormule): ClientsLstPersoColonnes {
         $this->isFormule = $isFormule;
         return $this;
     }
@@ -308,10 +309,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the jointure.
      *
-     * @param string $jointure The jointure.
+     * @param string|null $jointure The jointure.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setJointure($jointure) {
+    public function setJointure(?string $jointure): ClientsLstPersoColonnes {
         $this->jointure = $jointure;
         return $this;
     }
@@ -319,10 +320,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the nb decimales.
      *
-     * @param string $nbDecimales The nb decimales.
+     * @param string|null $nbDecimales The nb decimales.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setNbDecimales($nbDecimales) {
+    public function setNbDecimales(?string $nbDecimales): ClientsLstPersoColonnes {
         $this->nbDecimales = $nbDecimales;
         return $this;
     }
@@ -330,10 +331,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the nom champ.
      *
-     * @param string $nomChamp The nom champ.
+     * @param string|null $nomChamp The nom champ.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setNomChamp($nomChamp) {
+    public function setNomChamp(?string $nomChamp): ClientsLstPersoColonnes {
         $this->nomChamp = $nomChamp;
         return $this;
     }
@@ -341,10 +342,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the nom table.
      *
-     * @param string $nomTable The nom table.
+     * @param string|null $nomTable The nom table.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setNomTable($nomTable) {
+    public function setNomTable(?string $nomTable): ClientsLstPersoColonnes {
         $this->nomTable = $nomTable;
         return $this;
     }
@@ -352,10 +353,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the ref guid.
      *
-     * @param string $refGuid The ref guid.
+     * @param string|null $refGuid The ref guid.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setRefGuid($refGuid) {
+    public function setRefGuid(?string $refGuid): ClientsLstPersoColonnes {
         $this->refGuid = $refGuid;
         return $this;
     }
@@ -363,10 +364,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the saisie.
      *
-     * @param bool $saisie The saisie.
+     * @param bool|null $saisie The saisie.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setSaisie($saisie) {
+    public function setSaisie(?bool $saisie): ClientsLstPersoColonnes {
         $this->saisie = $saisie;
         return $this;
     }
@@ -374,10 +375,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the selection.
      *
-     * @param string $selection The selection.
+     * @param string|null $selection The selection.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setSelection($selection) {
+    public function setSelection(?string $selection): ClientsLstPersoColonnes {
         $this->selection = $selection;
         return $this;
     }
@@ -385,10 +386,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the taille.
      *
-     * @param int $taille The taille.
+     * @param int|null $taille The taille.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setTaille($taille) {
+    public function setTaille(?int $taille): ClientsLstPersoColonnes {
         $this->taille = $taille;
         return $this;
     }
@@ -396,10 +397,10 @@ class ClientsLstPersoColonnes {
     /**
      * Set the titre.
      *
-     * @param string $titre The titre.
+     * @param string|null $titre The titre.
      * @return ClientsLstPersoColonnes Returns this Clients lst perso colonnes.
      */
-    public function setTitre($titre) {
+    public function setTitre(?string $titre): ClientsLstPersoColonnes {
         $this->titre = $titre;
         return $this;
     }

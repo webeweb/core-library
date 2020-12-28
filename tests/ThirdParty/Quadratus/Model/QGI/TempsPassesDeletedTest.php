@@ -29,7 +29,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContexte() {
+    public function testSetContexte(): void {
 
         $obj = new TempsPassesDeleted();
 
@@ -43,7 +43,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSuppression() {
+    public function testSetDateSuppression(): void {
 
         // Set a Date/time mock.
         $dateSuppression = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGUniqId() {
+    public function testSetGUniqId(): void {
 
         $obj = new TempsPassesDeleted();
 
@@ -72,7 +72,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUser() {
+    public function testSetUser(): void {
 
         $obj = new TempsPassesDeleted();
 
@@ -85,7 +85,7 @@ class TempsPassesDeletedTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TempsPassesDeleted();
 

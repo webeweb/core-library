@@ -25,7 +25,7 @@ class TooLongDataException extends AbstractException {
      * @param string $value The value.
      * @param int $length The length.
      */
-    public function __construct($value, $length) {
+    public function __construct(string $value, int $length) {
         parent::__construct(sprintf('The data "%s" exceeds the length "%d" allowed', $value, $length));
     }
 }

@@ -29,7 +29,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOption() {
+    public function testSetCodeOption(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 
@@ -42,7 +42,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 
@@ -55,7 +55,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePopulation() {
+    public function testSetCodePopulation(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 
@@ -69,7 +69,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriode() {
+    public function testSetDebutPeriode(): void {
 
         // Set a Date/time mock.
         $debutPeriode = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriode() {
+    public function testSetFinPeriode(): void {
 
         // Set a Date/time mock.
         $finPeriode = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAyantDroit() {
+    public function testSetNumeroAyantDroit(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 
@@ -115,7 +115,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 
@@ -128,7 +128,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefContrat() {
+    public function testSetRefContrat(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 
@@ -141,7 +141,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpDadsuPrevoyanceAyantDroitLignesContrat();
 

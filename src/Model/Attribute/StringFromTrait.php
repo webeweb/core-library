@@ -22,25 +22,25 @@ trait StringFromTrait {
     /**
      * From.
      *
-     * @var string
+     * @var string|null
      */
     protected $from;
 
     /**
      * Get the from.
      *
-     * @return string Returns the from.
+     * @return string|null Returns the from.
      */
-    public function getFrom() {
+    public function getFrom(): ?string {
         return $this->from;
     }
 
     /**
      * Set the from.
      *
-     * @param string $from The from.
+     * @param string|null $from The from.
      */
-    public function setFrom($from) {
+    public function setFrom(?string $from) {
         $this->from = $from;
         return $this;
     }

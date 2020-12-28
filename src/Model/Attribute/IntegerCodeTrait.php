@@ -22,25 +22,25 @@ trait IntegerCodeTrait {
     /**
      * Code.
      *
-     * @var int
+     * @var int|null
      */
     protected $code;
 
     /**
      * Get the code.
      *
-     * @return int Returns the code.
+     * @return int|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?int {
         return $this->code;
     }
 
     /**
      * Set the code.
      *
-     * @param int $code The code.
+     * @param int|null $code The code.
      */
-    public function setCode($code) {
+    public function setCode(?int $code) {
         $this->code = $code;
         return $this;
     }

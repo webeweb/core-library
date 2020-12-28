@@ -31,22 +31,23 @@ class EmpReportModulation {
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Report mod ant.
      *
-     * @var float
+     * @var float|null
      */
     private $reportModAnt;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -54,25 +55,25 @@ class EmpReportModulation {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication() {
+    public function getDateApplication(): ?DateTime{
         return $this->dateApplication;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the report mod ant.
      *
-     * @return float Returns the report mod ant.
+     * @return float|null Returns the report mod ant.
      */
-    public function getReportModAnt() {
+    public function getReportModAnt(): ?float{
         return $this->reportModAnt;
     }
 
@@ -82,7 +83,7 @@ class EmpReportModulation {
      * @param DateTime|null $dateApplication The date application.
      * @return EmpReportModulation Returns this Emp report modulation.
      */
-    public function setDateApplication(DateTime $dateApplication = null) {
+    public function setDateApplication(?DateTime $dateApplication): EmpReportModulation {
         $this->dateApplication = $dateApplication;
         return $this;
     }
@@ -90,10 +91,10 @@ class EmpReportModulation {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpReportModulation Returns this Emp report modulation.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpReportModulation {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -101,10 +102,10 @@ class EmpReportModulation {
     /**
      * Set the report mod ant.
      *
-     * @param float $reportModAnt The report mod ant.
+     * @param float|null $reportModAnt The report mod ant.
      * @return EmpReportModulation Returns this Emp report modulation.
      */
-    public function setReportModAnt($reportModAnt) {
+    public function setReportModAnt(?float $reportModAnt): EmpReportModulation {
         $this->reportModAnt = $reportModAnt;
         return $this;
     }

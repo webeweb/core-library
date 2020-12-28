@@ -27,7 +27,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCocheClient() {
+    public function testSetCocheClient(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -40,7 +40,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCocheFournisseur() {
+    public function testSetCocheFournisseur(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -53,7 +53,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCocheIntervenant() {
+    public function testSetCocheIntervenant(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -66,7 +66,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCocheProspect() {
+    public function testSetCocheProspect(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -79,7 +79,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCocheSorti() {
+    public function testSetCocheSorti(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -92,7 +92,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCol() {
+    public function testSetCodeCol(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -105,7 +105,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ClientsSelectionSuite();
 
@@ -118,7 +118,7 @@ class ClientsSelectionSuiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsSelectionSuite();
 

@@ -27,7 +27,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFichiersMove() {
+    public function testSetFichiersMove(): void {
 
         $obj = new RgProfils();
 
@@ -40,7 +40,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFichiersPublierWeb() {
+    public function testSetFichiersPublierWeb(): void {
 
         $obj = new RgProfils();
 
@@ -53,7 +53,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauMaxi() {
+    public function testSetNiveauMaxi(): void {
 
         $obj = new RgProfils();
 
@@ -66,7 +66,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauSupplementairelibelle() {
+    public function testSetNiveauSupplementairelibelle(): void {
 
         $obj = new RgProfils();
 
@@ -79,7 +79,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPath() {
+    public function testSetPath(): void {
 
         $obj = new RgProfils();
 
@@ -92,7 +92,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPathFormat() {
+    public function testSetPathFormat(): void {
 
         $obj = new RgProfils();
 
@@ -105,7 +105,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new RgProfils();
 
@@ -118,7 +118,7 @@ class RgProfilsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RgProfils();
 

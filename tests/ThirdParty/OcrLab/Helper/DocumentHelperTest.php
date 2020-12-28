@@ -35,7 +35,7 @@ class DocumentHelperTest extends AbstractTestCase {
     /**
      * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set a filename mock.
@@ -50,7 +50,7 @@ class DocumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testFindWordAt() {
+    public function testFindWordAt(): void {
 
         $obj = new DocumentHelper($this->document);
 
@@ -66,7 +66,7 @@ class DocumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testFindWordsIn() {
+    public function testFindWordsIn(): void {
 
         $obj = new DocumentHelper($this->document);
 
@@ -81,7 +81,7 @@ class DocumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testFindWordsStartAt() {
+    public function testFindWordsStartAt(): void {
 
         $obj = new DocumentHelper($this->document);
 
@@ -97,7 +97,7 @@ class DocumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DocumentHelper($this->document);
 

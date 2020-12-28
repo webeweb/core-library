@@ -22,49 +22,50 @@ class EtebacLibAuto {
     /**
      * Code etebac.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEtebac;
 
     /**
      * Code lib auto.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibAuto;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code etebac.
      *
-     * @return string Returns the code etebac.
+     * @return string|null Returns the code etebac.
      */
-    public function getCodeEtebac() {
+    public function getCodeEtebac(): ?string{
         return $this->codeEtebac;
     }
 
     /**
      * Get the code lib auto.
      *
-     * @return string Returns the code lib auto.
+     * @return string|null Returns the code lib auto.
      */
-    public function getCodeLibAuto() {
+    public function getCodeLibAuto(): ?string{
         return $this->codeLibAuto;
     }
 
     /**
      * Set the code etebac.
      *
-     * @param string $codeEtebac The code etebac.
+     * @param string|null $codeEtebac The code etebac.
      * @return EtebacLibAuto Returns this Etebac lib auto.
      */
-    public function setCodeEtebac($codeEtebac) {
+    public function setCodeEtebac(?string $codeEtebac): EtebacLibAuto {
         $this->codeEtebac = $codeEtebac;
         return $this;
     }
@@ -72,10 +73,10 @@ class EtebacLibAuto {
     /**
      * Set the code lib auto.
      *
-     * @param string $codeLibAuto The code lib auto.
+     * @param string|null $codeLibAuto The code lib auto.
      * @return EtebacLibAuto Returns this Etebac lib auto.
      */
-    public function setCodeLibAuto($codeLibAuto) {
+    public function setCodeLibAuto(?string $codeLibAuto): EtebacLibAuto {
         $this->codeLibAuto = $codeLibAuto;
         return $this;
     }

@@ -29,7 +29,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollDest() {
+    public function testSetCodeCollDest(): void {
 
         $obj = new PostIt();
 
@@ -42,7 +42,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollOrg() {
+    public function testSetCodeCollOrg(): void {
 
         $obj = new PostIt();
 
@@ -56,7 +56,7 @@ class PostItTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateHeure() {
+    public function testSetDateHeure(): void {
 
         // Set a Date/time mock.
         $dateHeure = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class PostItTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSysSaisie() {
+    public function testSetDateSysSaisie(): void {
 
         // Set a Date/time mock.
         $dateSysSaisie = new DateTime("2018-09-10");
@@ -89,7 +89,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new PostIt();
 
@@ -102,7 +102,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefGuid() {
+    public function testSetRefGuid(): void {
 
         $obj = new PostIt();
 
@@ -115,7 +115,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new PostIt();
 
@@ -128,7 +128,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new PostIt();
 
@@ -141,7 +141,7 @@ class PostItTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PostIt();
 

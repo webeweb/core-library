@@ -27,7 +27,7 @@ class LanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLangue() {
+    public function testSetCodeLangue(): void {
 
         $obj = new Langues();
 
@@ -40,7 +40,7 @@ class LanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Langues();
 
@@ -53,7 +53,7 @@ class LanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Langues();
 
@@ -66,7 +66,7 @@ class LanguesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Langues();
 

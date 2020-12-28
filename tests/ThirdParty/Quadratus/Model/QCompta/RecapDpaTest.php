@@ -27,7 +27,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAleasClimat() {
+    public function testSetAleasClimat(): void {
 
         $obj = new RecapDpa();
 
@@ -40,7 +40,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAleasEco() {
+    public function testSetAleasEco(): void {
 
         $obj = new RecapDpa();
 
@@ -53,7 +53,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeDed() {
+    public function testSetAnneeDed(): void {
 
         $obj = new RecapDpa();
 
@@ -66,7 +66,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeUtilisation() {
+    public function testSetAnneeUtilisation(): void {
 
         $obj = new RecapDpa();
 
@@ -79,7 +79,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutres() {
+    public function testSetAutres(): void {
 
         $obj = new RecapDpa();
 
@@ -92,7 +92,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFranchDommages() {
+    public function testSetFranchDommages(): void {
 
         $obj = new RecapDpa();
 
@@ -105,7 +105,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttAnnee() {
+    public function testSetMttAnnee(): void {
 
         $obj = new RecapDpa();
 
@@ -118,7 +118,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrimesFranch() {
+    public function testSetPrimesFranch(): void {
 
         $obj = new RecapDpa();
 
@@ -131,7 +131,7 @@ class RecapDpaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RecapDpa();
 

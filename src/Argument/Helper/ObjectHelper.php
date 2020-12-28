@@ -28,7 +28,7 @@ class ObjectHelper {
      * @return void
      * @throws ObjectArgumentException Throws an Object argument exception if the value is not of expected type.
      */
-    public static function isObject($value) {
+    public static function isObject($value): void {
         if (false === is_object($value)) {
             throw new ObjectArgumentException($value);
         }

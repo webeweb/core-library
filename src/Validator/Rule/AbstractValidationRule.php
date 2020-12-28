@@ -39,9 +39,9 @@ abstract class AbstractValidationRule implements ValidationRuleInterface {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getName() {
+    public function getName(): string {
         return $this->name;
     }
 
@@ -51,7 +51,7 @@ abstract class AbstractValidationRule implements ValidationRuleInterface {
      * @param string $name The name.
      * @return ValidationRuleInterface Returns this validation rule.
      */
-    protected function setName($name) {
+    protected function setName(string $name): ValidationRuleInterface {
         $this->name = $name;
         return $this;
     }

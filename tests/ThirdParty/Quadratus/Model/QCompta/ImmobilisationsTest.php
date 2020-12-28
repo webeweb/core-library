@@ -29,7 +29,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdAmortAnterieur() {
+    public function testSetAdAmortAnterieur(): void {
 
         $obj = new Immobilisations();
 
@@ -42,7 +42,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdAmortAnterieur2() {
+    public function testSetAdAmortAnterieur2(): void {
 
         $obj = new Immobilisations();
 
@@ -55,7 +55,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdAnneesAmort() {
+    public function testSetAdAnneesAmort(): void {
 
         $obj = new Immobilisations();
 
@@ -68,7 +68,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdCoeffDegressif() {
+    public function testSetAdCoeffDegressif(): void {
 
         $obj = new Immobilisations();
 
@@ -81,7 +81,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDeductionAmortAnterieur() {
+    public function testSetAdDeductionAmortAnterieur(): void {
 
         $obj = new Immobilisations();
 
@@ -94,7 +94,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDeductionDotation() {
+    public function testSetAdDeductionDotation(): void {
 
         $obj = new Immobilisations();
 
@@ -107,7 +107,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDotation() {
+    public function testSetAdDotation(): void {
 
         $obj = new Immobilisations();
 
@@ -120,7 +120,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDotation2() {
+    public function testSetAdDotation2(): void {
 
         $obj = new Immobilisations();
 
@@ -133,7 +133,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDotationExcept() {
+    public function testSetAdDotationExcept(): void {
 
         $obj = new Immobilisations();
 
@@ -146,7 +146,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDuree() {
+    public function testSetAdDuree(): void {
 
         $obj = new Immobilisations();
 
@@ -159,7 +159,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdDureeTot() {
+    public function testSetAdDureeTot(): void {
 
         $obj = new Immobilisations();
 
@@ -172,7 +172,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdGarderDotSaisie() {
+    public function testSetAdGarderDotSaisie(): void {
 
         $obj = new Immobilisations();
 
@@ -185,7 +185,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdQuantite() {
+    public function testSetAdQuantite(): void {
 
         $obj = new Immobilisations();
 
@@ -198,7 +198,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdTauxLineaire() {
+    public function testSetAdTauxLineaire(): void {
 
         $obj = new Immobilisations();
 
@@ -211,7 +211,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdType() {
+    public function testSetAdType(): void {
 
         $obj = new Immobilisations();
 
@@ -224,7 +224,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfAmortAnterieur() {
+    public function testSetAfAmortAnterieur(): void {
 
         $obj = new Immobilisations();
 
@@ -237,7 +237,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfAnneesAmort() {
+    public function testSetAfAnneesAmort(): void {
 
         $obj = new Immobilisations();
 
@@ -250,7 +250,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfCoeffDegressif() {
+    public function testSetAfCoeffDegressif(): void {
 
         $obj = new Immobilisations();
 
@@ -263,7 +263,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfDotation() {
+    public function testSetAfDotation(): void {
 
         $obj = new Immobilisations();
 
@@ -276,7 +276,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfDuree() {
+    public function testSetAfDuree(): void {
 
         $obj = new Immobilisations();
 
@@ -289,7 +289,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfTauxExcept() {
+    public function testSetAfTauxExcept(): void {
 
         $obj = new Immobilisations();
 
@@ -302,7 +302,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfTauxLineaire() {
+    public function testSetAfTauxLineaire(): void {
 
         $obj = new Immobilisations();
 
@@ -315,7 +315,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfType() {
+    public function testSetAfType(): void {
 
         $obj = new Immobilisations();
 
@@ -328,7 +328,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAfsii() {
+    public function testSetAfsii(): void {
 
         $obj = new Immobilisations();
 
@@ -341,7 +341,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArt151DureeDejaEtalee() {
+    public function testSetArt151DureeDejaEtalee(): void {
 
         $obj = new Immobilisations();
 
@@ -354,7 +354,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArt151DureeEtalement() {
+    public function testSetArt151DureeEtalement(): void {
 
         $obj = new Immobilisations();
 
@@ -367,7 +367,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArt151MontantDejaEtale() {
+    public function testSetArt151MontantDejaEtale(): void {
 
         $obj = new Immobilisations();
 
@@ -380,7 +380,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArt151MontantEtaleAnnee() {
+    public function testSetArt151MontantEtaleAnnee(): void {
 
         $obj = new Immobilisations();
 
@@ -393,7 +393,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseCalcul() {
+    public function testSetBaseCalcul(): void {
 
         $obj = new Immobilisations();
 
@@ -406,7 +406,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseTaxePro() {
+    public function testSetBaseTaxePro(): void {
 
         $obj = new Immobilisations();
 
@@ -419,7 +419,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureau() {
+    public function testSetBureau(): void {
 
         $obj = new Immobilisations();
 
@@ -432,7 +432,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCTauxImp() {
+    public function testSetCTauxImp(): void {
 
         $obj = new Immobilisations();
 
@@ -445,7 +445,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCValeurEuros() {
+    public function testSetCValeurEuros(): void {
 
         $obj = new Immobilisations();
 
@@ -458,7 +458,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreAnalytique() {
+    public function testSetCentreAnalytique(): void {
 
         $obj = new Immobilisations();
 
@@ -471,7 +471,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new Immobilisations();
 
@@ -484,7 +484,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteFrn() {
+    public function testSetCompteFrn(): void {
 
         $obj = new Immobilisations();
 
@@ -497,7 +497,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrIsDot() {
+    public function testSetCrIsDot(): void {
 
         $obj = new Immobilisations();
 
@@ -510,7 +510,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrr151Motif() {
+    public function testSetCrr151Motif(): void {
 
         $obj = new Immobilisations();
 
@@ -523,7 +523,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrr151PmValueCt() {
+    public function testSetCrr151PmValueCt(): void {
 
         $obj = new Immobilisations();
 
@@ -536,7 +536,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrr151PmValueLt() {
+    public function testSetCrr151PmValueLt(): void {
 
         $obj = new Immobilisations();
 
@@ -550,7 +550,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetCrrDate() {
+    public function testSetCrrDate(): void {
 
         // Set a Date/time mock.
         $crrDate = new DateTime("2018-09-10");
@@ -566,7 +566,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrPxCessionHt() {
+    public function testSetCrrPxCessionHt(): void {
 
         $obj = new Immobilisations();
 
@@ -579,7 +579,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrQteVendue() {
+    public function testSetCrrQteVendue(): void {
 
         $obj = new Immobilisations();
 
@@ -592,7 +592,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrSupplAmort() {
+    public function testSetCrrSupplAmort(): void {
 
         $obj = new Immobilisations();
 
@@ -605,7 +605,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrSupplValeur() {
+    public function testSetCrrSupplValeur(): void {
 
         $obj = new Immobilisations();
 
@@ -618,7 +618,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrType() {
+    public function testSetCrrType(): void {
 
         $obj = new Immobilisations();
 
@@ -631,7 +631,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrpmValueCt() {
+    public function testSetCrrpmValueCt(): void {
 
         $obj = new Immobilisations();
 
@@ -644,7 +644,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrpmValueCtf() {
+    public function testSetCrrpmValueCtf(): void {
 
         $obj = new Immobilisations();
 
@@ -657,7 +657,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrpmValueLt() {
+    public function testSetCrrpmValueLt(): void {
 
         $obj = new Immobilisations();
 
@@ -670,7 +670,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCrrpmValueLtf() {
+    public function testSetCrrpmValueLtf(): void {
 
         $obj = new Immobilisations();
 
@@ -684,7 +684,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAcqForfait() {
+    public function testSetDateAcqForfait(): void {
 
         // Set a Date/time mock.
         $dateAcqForfait = new DateTime("2018-09-10");
@@ -701,7 +701,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAcquisition() {
+    public function testSetDateAcquisition(): void {
 
         // Set a Date/time mock.
         $dateAcquisition = new DateTime("2018-09-10");
@@ -718,7 +718,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateMiseService() {
+    public function testSetDateMiseService(): void {
 
         // Set a Date/time mock.
         $dateMiseService = new DateTime("2018-09-10");
@@ -735,7 +735,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReeval() {
+    public function testSetDateReeval(): void {
 
         // Set a Date/time mock.
         $dateReeval = new DateTime("2018-09-10");
@@ -751,7 +751,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDin() {
+    public function testSetDin(): void {
 
         $obj = new Immobilisations();
 
@@ -764,7 +764,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new Immobilisations();
 
@@ -777,7 +777,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFamille() {
+    public function testSetFamille(): void {
 
         $obj = new Immobilisations();
 
@@ -790,7 +790,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGuidVehicule() {
+    public function testSetGuidVehicule(): void {
 
         $obj = new Immobilisations();
 
@@ -803,7 +803,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Immobilisations();
 
@@ -816,7 +816,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleFrn() {
+    public function testSetLibelleFrn(): void {
 
         $obj = new Immobilisations();
 
@@ -829,7 +829,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleQuantite() {
+    public function testSetLibelleQuantite(): void {
 
         $obj = new Immobilisations();
 
@@ -842,7 +842,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLimiteAmort() {
+    public function testSetLimiteAmort(): void {
 
         $obj = new Immobilisations();
 
@@ -855,7 +855,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajoration() {
+    public function testSetMajoration(): void {
 
         $obj = new Immobilisations();
 
@@ -868,7 +868,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMateriauxAgricole() {
+    public function testSetMateriauxAgricole(): void {
 
         $obj = new Immobilisations();
 
@@ -881,7 +881,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTva() {
+    public function testSetMontantTva(): void {
 
         $obj = new Immobilisations();
 
@@ -894,7 +894,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNatureAnalytique() {
+    public function testSetNatureAnalytique(): void {
 
         $obj = new Immobilisations();
 
@@ -907,7 +907,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbMoisMajoration() {
+    public function testSetNbMoisMajoration(): void {
 
         $obj = new Immobilisations();
 
@@ -920,7 +920,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptTransDot() {
+    public function testSetNumCptTransDot(): void {
 
         $obj = new Immobilisations();
 
@@ -933,7 +933,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDossOrg() {
+    public function testSetNumDossOrg(): void {
 
         $obj = new Immobilisations();
 
@@ -946,7 +946,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEnsRealloc() {
+    public function testSetNumEnsRealloc(): void {
 
         $obj = new Immobilisations();
 
@@ -959,7 +959,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEnsemble() {
+    public function testSetNumEnsemble(): void {
 
         $obj = new Immobilisations();
 
@@ -972,7 +972,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Immobilisations();
 
@@ -985,7 +985,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Immobilisations();
 
@@ -998,7 +998,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDeux() {
+    public function testSetNumeroDeux(): void {
 
         $obj = new Immobilisations();
 
@@ -1011,7 +1011,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new Immobilisations();
 
@@ -1024,7 +1024,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPilotage() {
+    public function testSetPilotage(): void {
 
         $obj = new Immobilisations();
 
@@ -1037,7 +1037,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new Immobilisations();
 
@@ -1050,7 +1050,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new Immobilisations();
 
@@ -1063,7 +1063,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSite() {
+    public function testSetSite(): void {
 
         $obj = new Immobilisations();
 
@@ -1076,7 +1076,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTva() {
+    public function testSetTauxTva(): void {
 
         $obj = new Immobilisations();
 
@@ -1089,7 +1089,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeFonciere() {
+    public function testSetTaxeFonciere(): void {
 
         $obj = new Immobilisations();
 
@@ -1102,7 +1102,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxePro() {
+    public function testSetTaxePro(): void {
 
         $obj = new Immobilisations();
 
@@ -1116,7 +1116,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTpDateOrigine() {
+    public function testSetTpDateOrigine(): void {
 
         // Set a Date/time mock.
         $tpDateOrigine = new DateTime("2018-09-10");
@@ -1133,7 +1133,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetVDate() {
+    public function testSetVDate(): void {
 
         // Set a Date/time mock.
         $vDate = new DateTime("2018-09-10");
@@ -1149,7 +1149,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVNumero() {
+    public function testSetVNumero(): void {
 
         $obj = new Immobilisations();
 
@@ -1162,7 +1162,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVNumeroCompte() {
+    public function testSetVNumeroCompte(): void {
 
         $obj = new Immobilisations();
 
@@ -1175,7 +1175,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVNumeroCompteIni() {
+    public function testSetVNumeroCompteIni(): void {
 
         $obj = new Immobilisations();
 
@@ -1188,7 +1188,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVNumeroDeux() {
+    public function testSetVNumeroDeux(): void {
 
         $obj = new Immobilisations();
 
@@ -1201,7 +1201,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVNumeroDeuxIni() {
+    public function testSetVNumeroDeuxIni(): void {
 
         $obj = new Immobilisations();
 
@@ -1214,7 +1214,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVNumeroIni() {
+    public function testSetVNumeroIni(): void {
 
         $obj = new Immobilisations();
 
@@ -1227,7 +1227,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurAcqForfait() {
+    public function testSetValeurAcqForfait(): void {
 
         $obj = new Immobilisations();
 
@@ -1240,7 +1240,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurBaseAmortissement() {
+    public function testSetValeurBaseAmortissement(): void {
 
         $obj = new Immobilisations();
 
@@ -1253,7 +1253,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurDeduction() {
+    public function testSetValeurDeduction(): void {
 
         $obj = new Immobilisations();
 
@@ -1266,7 +1266,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurHt() {
+    public function testSetValeurHt(): void {
 
         $obj = new Immobilisations();
 
@@ -1279,7 +1279,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurHtOrigine() {
+    public function testSetValeurHtOrigine(): void {
 
         $obj = new Immobilisations();
 
@@ -1292,7 +1292,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVncRealloc() {
+    public function testSetVncRealloc(): void {
 
         $obj = new Immobilisations();
 
@@ -1305,7 +1305,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZoneLibre1() {
+    public function testSetZoneLibre1(): void {
 
         $obj = new Immobilisations();
 
@@ -1318,7 +1318,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZoneLibre2() {
+    public function testSetZoneLibre2(): void {
 
         $obj = new Immobilisations();
 
@@ -1331,7 +1331,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZoneLibre3() {
+    public function testSetZoneLibre3(): void {
 
         $obj = new Immobilisations();
 
@@ -1344,7 +1344,7 @@ class ImmobilisationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Immobilisations();
 

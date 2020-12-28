@@ -24,49 +24,49 @@ class PointEmpTache {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collabo valid.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaboValid;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
@@ -80,84 +80,84 @@ class PointEmpTache {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * H rempl mens.
      *
-     * @var float
+     * @var float|null
      */
     private $hRemplMens;
 
     /**
      * Mensualisation.
      *
-     * @var float
+     * @var float|null
      */
     private $mensualisation;
 
     /**
      * Mt prime1 chantier.
      *
-     * @var float
+     * @var float|null
      */
     private $mtPrime1Chantier;
 
     /**
      * Mt prime2 chantier.
      *
-     * @var float
+     * @var float|null
      */
     private $mtPrime2Chantier;
 
     /**
      * Mt prime3 chantier.
      *
-     * @var float
+     * @var float|null
      */
     private $mtPrime3Chantier;
 
     /**
      * Nb heures1 rs.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures1Rs;
 
     /**
      * Nb heures1 tp.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures1Tp;
 
     /**
      * Nb heures2 rs.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures2Rs;
 
     /**
      * Nb heures2 tp.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures2Tp;
 
     /**
      * Nb paniers.
      *
-     * @var float
+     * @var float|null
      */
     private $nbPaniers;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
@@ -171,105 +171,106 @@ class PointEmpTache {
     /**
      * Tx horaire1 rs.
      *
-     * @var float
+     * @var float|null
      */
     private $txHoraire1Rs;
 
     /**
      * Tx horaire1 tp.
      *
-     * @var float
+     * @var float|null
      */
     private $txHoraire1Tp;
 
     /**
      * Tx horaire2 rs.
      *
-     * @var float
+     * @var float|null
      */
     private $txHoraire2Rs;
 
     /**
      * Tx horaire2 tp.
      *
-     * @var float
+     * @var float|null
      */
     private $txHoraire2Tp;
 
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collabo valid.
      *
-     * @return string Returns the code collabo valid.
+     * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid() {
+    public function getCodeCollaboValid(): ?string{
         return $this->codeCollaboValid;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
@@ -278,115 +279,115 @@ class PointEmpTache {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro() {
+    public function getDateValidationSynchro(): ?DateTime{
         return $this->dateValidationSynchro;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the h rempl mens.
      *
-     * @return float Returns the h rempl mens.
+     * @return float|null Returns the h rempl mens.
      */
-    public function getHRemplMens() {
+    public function getHRemplMens(): ?float{
         return $this->hRemplMens;
     }
 
     /**
      * Get the mensualisation.
      *
-     * @return float Returns the mensualisation.
+     * @return float|null Returns the mensualisation.
      */
-    public function getMensualisation() {
+    public function getMensualisation(): ?float{
         return $this->mensualisation;
     }
 
     /**
      * Get the mt prime1 chantier.
      *
-     * @return float Returns the mt prime1 chantier.
+     * @return float|null Returns the mt prime1 chantier.
      */
-    public function getMtPrime1Chantier() {
+    public function getMtPrime1Chantier(): ?float{
         return $this->mtPrime1Chantier;
     }
 
     /**
      * Get the mt prime2 chantier.
      *
-     * @return float Returns the mt prime2 chantier.
+     * @return float|null Returns the mt prime2 chantier.
      */
-    public function getMtPrime2Chantier() {
+    public function getMtPrime2Chantier(): ?float{
         return $this->mtPrime2Chantier;
     }
 
     /**
      * Get the mt prime3 chantier.
      *
-     * @return float Returns the mt prime3 chantier.
+     * @return float|null Returns the mt prime3 chantier.
      */
-    public function getMtPrime3Chantier() {
+    public function getMtPrime3Chantier(): ?float{
         return $this->mtPrime3Chantier;
     }
 
     /**
      * Get the nb heures1 rs.
      *
-     * @return float Returns the nb heures1 rs.
+     * @return float|null Returns the nb heures1 rs.
      */
-    public function getNbHeures1Rs() {
+    public function getNbHeures1Rs(): ?float{
         return $this->nbHeures1Rs;
     }
 
     /**
      * Get the nb heures1 tp.
      *
-     * @return float Returns the nb heures1 tp.
+     * @return float|null Returns the nb heures1 tp.
      */
-    public function getNbHeures1Tp() {
+    public function getNbHeures1Tp(): ?float{
         return $this->nbHeures1Tp;
     }
 
     /**
      * Get the nb heures2 rs.
      *
-     * @return float Returns the nb heures2 rs.
+     * @return float|null Returns the nb heures2 rs.
      */
-    public function getNbHeures2Rs() {
+    public function getNbHeures2Rs(): ?float{
         return $this->nbHeures2Rs;
     }
 
     /**
      * Get the nb heures2 tp.
      *
-     * @return float Returns the nb heures2 tp.
+     * @return float|null Returns the nb heures2 tp.
      */
-    public function getNbHeures2Tp() {
+    public function getNbHeures2Tp(): ?float{
         return $this->nbHeures2Tp;
     }
 
     /**
      * Get the nb paniers.
      *
-     * @return float Returns the nb paniers.
+     * @return float|null Returns the nb paniers.
      */
-    public function getNbPaniers() {
+    public function getNbPaniers(): ?float{
         return $this->nbPaniers;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
@@ -395,62 +396,62 @@ class PointEmpTache {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the tx horaire1 rs.
      *
-     * @return float Returns the tx horaire1 rs.
+     * @return float|null Returns the tx horaire1 rs.
      */
-    public function getTxHoraire1Rs() {
+    public function getTxHoraire1Rs(): ?float{
         return $this->txHoraire1Rs;
     }
 
     /**
      * Get the tx horaire1 tp.
      *
-     * @return float Returns the tx horaire1 tp.
+     * @return float|null Returns the tx horaire1 tp.
      */
-    public function getTxHoraire1Tp() {
+    public function getTxHoraire1Tp(): ?float{
         return $this->txHoraire1Tp;
     }
 
     /**
      * Get the tx horaire2 rs.
      *
-     * @return float Returns the tx horaire2 rs.
+     * @return float|null Returns the tx horaire2 rs.
      */
-    public function getTxHoraire2Rs() {
+    public function getTxHoraire2Rs(): ?float{
         return $this->txHoraire2Rs;
     }
 
     /**
      * Get the tx horaire2 tp.
      *
-     * @return float Returns the tx horaire2 tp.
+     * @return float|null Returns the tx horaire2 tp.
      */
-    public function getTxHoraire2Tp() {
+    public function getTxHoraire2Tp(): ?float{
         return $this->txHoraire2Tp;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): PointEmpTache {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -458,10 +459,10 @@ class PointEmpTache {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): PointEmpTache {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -469,10 +470,10 @@ class PointEmpTache {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): PointEmpTache {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -480,10 +481,10 @@ class PointEmpTache {
     /**
      * Set the code collabo valid.
      *
-     * @param string $codeCollaboValid The code collabo valid.
+     * @param string|null $codeCollaboValid The code collabo valid.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeCollaboValid($codeCollaboValid) {
+    public function setCodeCollaboValid(?string $codeCollaboValid): PointEmpTache {
         $this->codeCollaboValid = $codeCollaboValid;
         return $this;
     }
@@ -491,10 +492,10 @@ class PointEmpTache {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): PointEmpTache {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -502,10 +503,10 @@ class PointEmpTache {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): PointEmpTache {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -513,10 +514,10 @@ class PointEmpTache {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): PointEmpTache {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -527,7 +528,7 @@ class PointEmpTache {
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+    public function setDateValidationSynchro(?DateTime $dateValidationSynchro): PointEmpTache {
         $this->dateValidationSynchro = $dateValidationSynchro;
         return $this;
     }
@@ -535,10 +536,10 @@ class PointEmpTache {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): PointEmpTache {
         $this->etat = $etat;
         return $this;
     }
@@ -546,10 +547,10 @@ class PointEmpTache {
     /**
      * Set the h rempl mens.
      *
-     * @param float $hRemplMens The h rempl mens.
+     * @param float|null $hRemplMens The h rempl mens.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setHRemplMens($hRemplMens) {
+    public function setHRemplMens(?float $hRemplMens): PointEmpTache {
         $this->hRemplMens = $hRemplMens;
         return $this;
     }
@@ -557,10 +558,10 @@ class PointEmpTache {
     /**
      * Set the mensualisation.
      *
-     * @param float $mensualisation The mensualisation.
+     * @param float|null $mensualisation The mensualisation.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setMensualisation($mensualisation) {
+    public function setMensualisation(?float $mensualisation): PointEmpTache {
         $this->mensualisation = $mensualisation;
         return $this;
     }
@@ -568,10 +569,10 @@ class PointEmpTache {
     /**
      * Set the mt prime1 chantier.
      *
-     * @param float $mtPrime1Chantier The mt prime1 chantier.
+     * @param float|null $mtPrime1Chantier The mt prime1 chantier.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setMtPrime1Chantier($mtPrime1Chantier) {
+    public function setMtPrime1Chantier(?float $mtPrime1Chantier): PointEmpTache {
         $this->mtPrime1Chantier = $mtPrime1Chantier;
         return $this;
     }
@@ -579,10 +580,10 @@ class PointEmpTache {
     /**
      * Set the mt prime2 chantier.
      *
-     * @param float $mtPrime2Chantier The mt prime2 chantier.
+     * @param float|null $mtPrime2Chantier The mt prime2 chantier.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setMtPrime2Chantier($mtPrime2Chantier) {
+    public function setMtPrime2Chantier(?float $mtPrime2Chantier): PointEmpTache {
         $this->mtPrime2Chantier = $mtPrime2Chantier;
         return $this;
     }
@@ -590,10 +591,10 @@ class PointEmpTache {
     /**
      * Set the mt prime3 chantier.
      *
-     * @param float $mtPrime3Chantier The mt prime3 chantier.
+     * @param float|null $mtPrime3Chantier The mt prime3 chantier.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setMtPrime3Chantier($mtPrime3Chantier) {
+    public function setMtPrime3Chantier(?float $mtPrime3Chantier): PointEmpTache {
         $this->mtPrime3Chantier = $mtPrime3Chantier;
         return $this;
     }
@@ -601,10 +602,10 @@ class PointEmpTache {
     /**
      * Set the nb heures1 rs.
      *
-     * @param float $nbHeures1Rs The nb heures1 rs.
+     * @param float|null $nbHeures1Rs The nb heures1 rs.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setNbHeures1Rs($nbHeures1Rs) {
+    public function setNbHeures1Rs(?float $nbHeures1Rs): PointEmpTache {
         $this->nbHeures1Rs = $nbHeures1Rs;
         return $this;
     }
@@ -612,10 +613,10 @@ class PointEmpTache {
     /**
      * Set the nb heures1 tp.
      *
-     * @param float $nbHeures1Tp The nb heures1 tp.
+     * @param float|null $nbHeures1Tp The nb heures1 tp.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setNbHeures1Tp($nbHeures1Tp) {
+    public function setNbHeures1Tp(?float $nbHeures1Tp): PointEmpTache {
         $this->nbHeures1Tp = $nbHeures1Tp;
         return $this;
     }
@@ -623,10 +624,10 @@ class PointEmpTache {
     /**
      * Set the nb heures2 rs.
      *
-     * @param float $nbHeures2Rs The nb heures2 rs.
+     * @param float|null $nbHeures2Rs The nb heures2 rs.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setNbHeures2Rs($nbHeures2Rs) {
+    public function setNbHeures2Rs(?float $nbHeures2Rs): PointEmpTache {
         $this->nbHeures2Rs = $nbHeures2Rs;
         return $this;
     }
@@ -634,10 +635,10 @@ class PointEmpTache {
     /**
      * Set the nb heures2 tp.
      *
-     * @param float $nbHeures2Tp The nb heures2 tp.
+     * @param float|null $nbHeures2Tp The nb heures2 tp.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setNbHeures2Tp($nbHeures2Tp) {
+    public function setNbHeures2Tp(?float $nbHeures2Tp): PointEmpTache {
         $this->nbHeures2Tp = $nbHeures2Tp;
         return $this;
     }
@@ -645,10 +646,10 @@ class PointEmpTache {
     /**
      * Set the nb paniers.
      *
-     * @param float $nbPaniers The nb paniers.
+     * @param float|null $nbPaniers The nb paniers.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setNbPaniers($nbPaniers) {
+    public function setNbPaniers(?float $nbPaniers): PointEmpTache {
         $this->nbPaniers = $nbPaniers;
         return $this;
     }
@@ -656,10 +657,10 @@ class PointEmpTache {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): PointEmpTache {
         $this->numBt = $numBt;
         return $this;
     }
@@ -670,7 +671,7 @@ class PointEmpTache {
      * @param DateTime|null $periode The periode.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): PointEmpTache {
         $this->periode = $periode;
         return $this;
     }
@@ -678,10 +679,10 @@ class PointEmpTache {
     /**
      * Set the tx horaire1 rs.
      *
-     * @param float $txHoraire1Rs The tx horaire1 rs.
+     * @param float|null $txHoraire1Rs The tx horaire1 rs.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setTxHoraire1Rs($txHoraire1Rs) {
+    public function setTxHoraire1Rs(?float $txHoraire1Rs): PointEmpTache {
         $this->txHoraire1Rs = $txHoraire1Rs;
         return $this;
     }
@@ -689,10 +690,10 @@ class PointEmpTache {
     /**
      * Set the tx horaire1 tp.
      *
-     * @param float $txHoraire1Tp The tx horaire1 tp.
+     * @param float|null $txHoraire1Tp The tx horaire1 tp.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setTxHoraire1Tp($txHoraire1Tp) {
+    public function setTxHoraire1Tp(?float $txHoraire1Tp): PointEmpTache {
         $this->txHoraire1Tp = $txHoraire1Tp;
         return $this;
     }
@@ -700,10 +701,10 @@ class PointEmpTache {
     /**
      * Set the tx horaire2 rs.
      *
-     * @param float $txHoraire2Rs The tx horaire2 rs.
+     * @param float|null $txHoraire2Rs The tx horaire2 rs.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setTxHoraire2Rs($txHoraire2Rs) {
+    public function setTxHoraire2Rs(?float $txHoraire2Rs): PointEmpTache {
         $this->txHoraire2Rs = $txHoraire2Rs;
         return $this;
     }
@@ -711,10 +712,10 @@ class PointEmpTache {
     /**
      * Set the tx horaire2 tp.
      *
-     * @param float $txHoraire2Tp The tx horaire2 tp.
+     * @param float|null $txHoraire2Tp The tx horaire2 tp.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setTxHoraire2Tp($txHoraire2Tp) {
+    public function setTxHoraire2Tp(?float $txHoraire2Tp): PointEmpTache {
         $this->txHoraire2Tp = $txHoraire2Tp;
         return $this;
     }
@@ -722,10 +723,10 @@ class PointEmpTache {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return PointEmpTache Returns this Point emp tache.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): PointEmpTache {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

@@ -22,209 +22,210 @@ class iEspaceClientDroits {
     /**
      * Code collab messages.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabMessages;
 
     /**
      * Code user.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUser;
 
     /**
      * Dossier client.
      *
-     * @var string
+     * @var string|null
      */
     private $dossierClient;
 
     /**
      * Fct documents.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctDocuments;
 
     /**
      * Fct documents autre.
      *
-     * @var int
+     * @var int|null
      */
     private $fctDocumentsAutre;
 
     /**
      * Fct documents compta.
      *
-     * @var int
+     * @var int|null
      */
     private $fctDocumentsCompta;
 
     /**
      * Fct documents juridique.
      *
-     * @var int
+     * @var int|null
      */
     private $fctDocumentsJuridique;
 
     /**
      * Fct documents paie.
      *
-     * @var int
+     * @var int|null
      */
     private $fctDocumentsPaie;
 
     /**
      * Fct infos.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fctInfos;
 
     /**
      * Fct messagerie.
      *
-     * @var int
+     * @var int|null
      */
     private $fctMessagerie;
 
     /**
      * Nom user.
      *
-     * @var string
+     * @var string|null
      */
     private $nomUser;
 
     /**
      * Password.
      *
-     * @var string
+     * @var string|null
      */
     private $password;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab messages.
      *
-     * @return string Returns the code collab messages.
+     * @return string|null Returns the code collab messages.
      */
-    public function getCodeCollabMessages() {
+    public function getCodeCollabMessages(): ?string{
         return $this->codeCollabMessages;
     }
 
     /**
      * Get the code user.
      *
-     * @return string Returns the code user.
+     * @return string|null Returns the code user.
      */
-    public function getCodeUser() {
+    public function getCodeUser(): ?string{
         return $this->codeUser;
     }
 
     /**
      * Get the dossier client.
      *
-     * @return string Returns the dossier client.
+     * @return string|null Returns the dossier client.
      */
-    public function getDossierClient() {
+    public function getDossierClient(): ?string{
         return $this->dossierClient;
     }
 
     /**
      * Get the fct documents.
      *
-     * @return bool Returns the fct documents.
+     * @return bool|null Returns the fct documents.
      */
-    public function getFctDocuments() {
+    public function getFctDocuments(): ?bool{
         return $this->fctDocuments;
     }
 
     /**
      * Get the fct documents autre.
      *
-     * @return int Returns the fct documents autre.
+     * @return int|null Returns the fct documents autre.
      */
-    public function getFctDocumentsAutre() {
+    public function getFctDocumentsAutre(): ?int{
         return $this->fctDocumentsAutre;
     }
 
     /**
      * Get the fct documents compta.
      *
-     * @return int Returns the fct documents compta.
+     * @return int|null Returns the fct documents compta.
      */
-    public function getFctDocumentsCompta() {
+    public function getFctDocumentsCompta(): ?int{
         return $this->fctDocumentsCompta;
     }
 
     /**
      * Get the fct documents juridique.
      *
-     * @return int Returns the fct documents juridique.
+     * @return int|null Returns the fct documents juridique.
      */
-    public function getFctDocumentsJuridique() {
+    public function getFctDocumentsJuridique(): ?int{
         return $this->fctDocumentsJuridique;
     }
 
     /**
      * Get the fct documents paie.
      *
-     * @return int Returns the fct documents paie.
+     * @return int|null Returns the fct documents paie.
      */
-    public function getFctDocumentsPaie() {
+    public function getFctDocumentsPaie(): ?int{
         return $this->fctDocumentsPaie;
     }
 
     /**
      * Get the fct infos.
      *
-     * @return bool Returns the fct infos.
+     * @return bool|null Returns the fct infos.
      */
-    public function getFctInfos() {
+    public function getFctInfos(): ?bool{
         return $this->fctInfos;
     }
 
     /**
      * Get the fct messagerie.
      *
-     * @return int Returns the fct messagerie.
+     * @return int|null Returns the fct messagerie.
      */
-    public function getFctMessagerie() {
+    public function getFctMessagerie(): ?int{
         return $this->fctMessagerie;
     }
 
     /**
      * Get the nom user.
      *
-     * @return string Returns the nom user.
+     * @return string|null Returns the nom user.
      */
-    public function getNomUser() {
+    public function getNomUser(): ?string{
         return $this->nomUser;
     }
 
     /**
      * Get the password.
      *
-     * @return string Returns the password.
+     * @return string|null Returns the password.
      */
-    public function getPassword() {
+    public function getPassword(): ?string{
         return $this->password;
     }
 
     /**
      * Set the code collab messages.
      *
-     * @param string $codeCollabMessages The code collab messages.
+     * @param string|null $codeCollabMessages The code collab messages.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setCodeCollabMessages($codeCollabMessages) {
+    public function setCodeCollabMessages(?string $codeCollabMessages): iEspaceClientDroits {
         $this->codeCollabMessages = $codeCollabMessages;
         return $this;
     }
@@ -232,10 +233,10 @@ class iEspaceClientDroits {
     /**
      * Set the code user.
      *
-     * @param string $codeUser The code user.
+     * @param string|null $codeUser The code user.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setCodeUser($codeUser) {
+    public function setCodeUser(?string $codeUser): iEspaceClientDroits {
         $this->codeUser = $codeUser;
         return $this;
     }
@@ -243,10 +244,10 @@ class iEspaceClientDroits {
     /**
      * Set the dossier client.
      *
-     * @param string $dossierClient The dossier client.
+     * @param string|null $dossierClient The dossier client.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setDossierClient($dossierClient) {
+    public function setDossierClient(?string $dossierClient): iEspaceClientDroits {
         $this->dossierClient = $dossierClient;
         return $this;
     }
@@ -254,10 +255,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct documents.
      *
-     * @param bool $fctDocuments The fct documents.
+     * @param bool|null $fctDocuments The fct documents.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctDocuments($fctDocuments) {
+    public function setFctDocuments(?bool $fctDocuments): iEspaceClientDroits {
         $this->fctDocuments = $fctDocuments;
         return $this;
     }
@@ -265,10 +266,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct documents autre.
      *
-     * @param int $fctDocumentsAutre The fct documents autre.
+     * @param int|null $fctDocumentsAutre The fct documents autre.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctDocumentsAutre($fctDocumentsAutre) {
+    public function setFctDocumentsAutre(?int $fctDocumentsAutre): iEspaceClientDroits {
         $this->fctDocumentsAutre = $fctDocumentsAutre;
         return $this;
     }
@@ -276,10 +277,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct documents compta.
      *
-     * @param int $fctDocumentsCompta The fct documents compta.
+     * @param int|null $fctDocumentsCompta The fct documents compta.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctDocumentsCompta($fctDocumentsCompta) {
+    public function setFctDocumentsCompta(?int $fctDocumentsCompta): iEspaceClientDroits {
         $this->fctDocumentsCompta = $fctDocumentsCompta;
         return $this;
     }
@@ -287,10 +288,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct documents juridique.
      *
-     * @param int $fctDocumentsJuridique The fct documents juridique.
+     * @param int|null $fctDocumentsJuridique The fct documents juridique.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctDocumentsJuridique($fctDocumentsJuridique) {
+    public function setFctDocumentsJuridique(?int $fctDocumentsJuridique): iEspaceClientDroits {
         $this->fctDocumentsJuridique = $fctDocumentsJuridique;
         return $this;
     }
@@ -298,10 +299,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct documents paie.
      *
-     * @param int $fctDocumentsPaie The fct documents paie.
+     * @param int|null $fctDocumentsPaie The fct documents paie.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctDocumentsPaie($fctDocumentsPaie) {
+    public function setFctDocumentsPaie(?int $fctDocumentsPaie): iEspaceClientDroits {
         $this->fctDocumentsPaie = $fctDocumentsPaie;
         return $this;
     }
@@ -309,10 +310,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct infos.
      *
-     * @param bool $fctInfos The fct infos.
+     * @param bool|null $fctInfos The fct infos.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctInfos($fctInfos) {
+    public function setFctInfos(?bool $fctInfos): iEspaceClientDroits {
         $this->fctInfos = $fctInfos;
         return $this;
     }
@@ -320,10 +321,10 @@ class iEspaceClientDroits {
     /**
      * Set the fct messagerie.
      *
-     * @param int $fctMessagerie The fct messagerie.
+     * @param int|null $fctMessagerie The fct messagerie.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setFctMessagerie($fctMessagerie) {
+    public function setFctMessagerie(?int $fctMessagerie): iEspaceClientDroits {
         $this->fctMessagerie = $fctMessagerie;
         return $this;
     }
@@ -331,10 +332,10 @@ class iEspaceClientDroits {
     /**
      * Set the nom user.
      *
-     * @param string $nomUser The nom user.
+     * @param string|null $nomUser The nom user.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setNomUser($nomUser) {
+    public function setNomUser(?string $nomUser): iEspaceClientDroits {
         $this->nomUser = $nomUser;
         return $this;
     }
@@ -342,10 +343,10 @@ class iEspaceClientDroits {
     /**
      * Set the password.
      *
-     * @param string $password The password.
+     * @param string|null $password The password.
      * @return iEspaceClientDroits Returns this i espace client droits.
      */
-    public function setPassword($password) {
+    public function setPassword(?string $password): iEspaceClientDroits {
         $this->password = $password;
         return $this;
     }

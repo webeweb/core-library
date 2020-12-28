@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Request;
 
 use Exception;
-use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Exception\CurlRequestCallException;
 use WBW\Library\Core\Network\CURL\Request\CurlGetRequest;
 use WBW\Library\Core\Network\HTTP\HttpHelper;
@@ -27,52 +26,12 @@ use WBW\Library\Core\Tests\AbstractTestCase;
 class CurlGetRequestTest extends AbstractTestCase {
 
     /**
-     * Tests addHeader() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testAddHeaderWithStringArgumentException() {
-
-        $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
-        try {
-
-            $obj->addHeader(1, "value");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(StringArgumentException::class, $ex);
-            $this->assertEquals('The argument "1" is not a string', $ex->getMessage());
-        }
-    }
-
-    /**
-     * Tests addQueryData() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testAddQueryDataWithStringArgumentException() {
-
-        $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
-
-        try {
-
-            $obj->addQueryData(1, "value");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(StringArgumentException::class, $ex);
-            $this->assertEquals('The argument "1" is not a string', $ex->getMessage());
-        }
-    }
-
-    /**
      * Tests call() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithAllowEncoding() {
+    public function testCallWithAllowEncoding(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setAllowEncoding(true);
@@ -88,7 +47,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithConnectTimeout() {
+    public function testCallWithConnectTimeout(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setConnectTimeout(30);
@@ -104,7 +63,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithDebug() {
+    public function testCallWithDebug(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setDebug(true);
@@ -120,7 +79,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithHTTPCodes() {
+    public function testCallWithHTTPCodes(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -137,6 +96,8 @@ class CurlGetRequestTest extends AbstractTestCase {
             } catch (Exception $ex) {
 
                 $this->assertInstanceOf(CurlRequestCallException::class, $ex);
+
+                /** @var CurlRequestCallException $ex */
                 $this->assertEquals($code, $ex->getCode());
                 $this->assertEquals($code, $ex->getResponse()->getResponseInfo()["http_code"]);
             }
@@ -149,7 +110,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithHeader() {
+    public function testCallWithHeader(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("h", "v");
@@ -166,7 +127,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithHeaderApplicationJSON() {
+    public function testCallWithHeaderApplicationJSON(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("Content-Type", "application/json");
@@ -184,7 +145,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithRequestTimeout() {
+    public function testCallWithRequestTimeout(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setRequestTimeout(30);
@@ -200,7 +161,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithRequestTimeoutException() {
+    public function testCallWithRequestTimeoutException(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setRequestTimeout(10);
@@ -212,6 +173,8 @@ class CurlGetRequestTest extends AbstractTestCase {
         } catch (Exception $ex) {
 
             $this->assertInstanceOf(CurlRequestCallException::class, $ex);
+
+            /** @var CurlRequestCallException $ex */
             $this->assertContains("Call to ", $ex->getMessage());
             $this->assertEquals(0, $ex->getResponse()->getResponseInfo()["http_code"]);
         }
@@ -223,7 +186,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithSSLVerification() {
+    public function testCallWithSSLVerification(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setSslVerification(false);
@@ -239,7 +202,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCallWithVerbose() {
+    public function testCallWithVerbose(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->getConfiguration()->setVerbose(true);
@@ -255,7 +218,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testClearHeaders() {
+    public function testClearHeaders(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -272,7 +235,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testClearQueryData() {
+    public function testClearQueryData(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -289,7 +252,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRemoveHeader() {
+    public function testRemoveHeader(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -309,7 +272,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRemoveQueryData() {
+    public function testRemoveQueryData(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -329,7 +292,7 @@ class CurlGetRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
 

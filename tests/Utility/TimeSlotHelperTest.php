@@ -34,9 +34,9 @@ class TimeSlotHelperTest extends AbstractTestCase {
     private $dates;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set Date/times mock.
@@ -49,7 +49,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testContains() {
+    public function testContains(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertFalse(TimeSlotHelper::contains(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -73,7 +73,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testEquals() {
+    public function testEquals(): void {
 
         $obj = [];
 
@@ -106,7 +106,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testFullJoin() {
+    public function testFullJoin(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::fullJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -138,7 +138,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testFullJoinWithout() {
+    public function testFullJoinWithout(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::fullJoinWithout(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -194,7 +194,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetDuration() {
+    public function testGetDuration(): void {
 
         $arg    = [];
         $arg [] = new TimeSlot($this->dates[0], $this->dates[1]);
@@ -211,7 +211,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testHasFullJoin() {
+    public function testHasFullJoin(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertFalse(TimeSlotHelper::hasFullJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -235,7 +235,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testHasInnerJoin() {
+    public function testHasInnerJoin(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertFalse(TimeSlotHelper::hasInnerJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -259,7 +259,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testInnerJoin() {
+    public function testInnerJoin(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::innerJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -291,7 +291,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testLeftJoin() {
+    public function testLeftJoin(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::leftJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -323,7 +323,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testLeftJoinWithout() {
+    public function testLeftJoinWithout(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::leftJoinWithout(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -365,7 +365,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testMerge() {
+    public function testMerge(): void {
 
         // ===
         $arg0 = [];
@@ -406,7 +406,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRightJoin() {
+    public function testRightJoin(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::rightJoin(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));
@@ -438,7 +438,7 @@ class TimeSlotHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRightJoinWithout() {
+    public function testRightJoinWithout(): void {
 
         // 08:00-11:00 / 15:00-18:00
         $this->assertNull(TimeSlotHelper::rightJoinWithout(new TimeSlot($this->dates[0], $this->dates[1]), new TimeSlot($this->dates[2], $this->dates[3])));

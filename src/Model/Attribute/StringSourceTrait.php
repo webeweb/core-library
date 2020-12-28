@@ -22,25 +22,25 @@ trait StringSourceTrait {
     /**
      * Source.
      *
-     * @var string
+     * @var string|null
      */
     protected $source;
 
     /**
      * Get the source.
      *
-     * @return string Returns the source.
+     * @return string|null Returns the source.
      */
-    public function getSource() {
+    public function getSource(): ?string {
         return $this->source;
     }
 
     /**
      * Set the source.
      *
-     * @param string $source The source.
+     * @param string|null $source The source.
      */
-    public function setSource($source) {
+    public function setSource(?string $source) {
         $this->source = $source;
         return $this;
     }

@@ -29,7 +29,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -42,7 +42,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcartCumule() {
+    public function testSetEcartCumule(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -55,7 +55,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHcrPayees() {
+    public function testSetHcrPayees(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -68,7 +68,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHnpComplH() {
+    public function testSetHnpComplH(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -81,7 +81,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHnphc11() {
+    public function testSetHnphc11(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -94,7 +94,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHnphc25() {
+    public function testSetHnphc25(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -107,7 +107,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHnphc33() {
+    public function testSetHnphc33(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -120,7 +120,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbComplH() {
+    public function testSetNbComplH(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -133,7 +133,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAbs() {
+    public function testSetNbHAbs(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -146,7 +146,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHAbsJf() {
+    public function testSetNbHAbsJf(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -159,7 +159,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHCompl() {
+    public function testSetNbHCompl(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -172,7 +172,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHRempl() {
+    public function testSetNbHRempl(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -185,7 +185,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHprevues() {
+    public function testSetNbHprevues(): void {
 
         $obj = new HistoTransfPaie();
 
@@ -199,7 +199,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -215,7 +215,7 @@ class HistoTransfPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoTransfPaie();
 

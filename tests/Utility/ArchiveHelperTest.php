@@ -25,9 +25,9 @@ use WBW\Library\Core\Utility\ArchiveHelper;
 class ArchiveHelperTest extends AbstractTestCase {
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public static function tearDownAfterClass() {
+    public static function tearDownAfterClass(): void {
 
         $filenames = [
             getcwd() . "/README.md.zip",
@@ -47,7 +47,7 @@ class ArchiveHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testZip() {
+    public function testZip(): void {
 
         $src = getcwd() . "/README.md";
         $dst = getcwd() . "/README.md.zip";
@@ -62,7 +62,7 @@ class ArchiveHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testZipWithDirectory() {
+    public function testZipWithDirectory(): void {
 
         $src = getcwd() . "/tests";
         $dst = getcwd() . "/tests.zip";
@@ -77,7 +77,7 @@ class ArchiveHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testZipWithInvalidArgumentException() {
+    public function testZipWithInvalidArgumentException(): void {
 
         try {
 

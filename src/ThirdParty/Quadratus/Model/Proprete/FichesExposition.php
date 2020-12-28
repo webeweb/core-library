@@ -24,21 +24,21 @@ class FichesExposition {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code prestation.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrestation;
 
     /**
      * Code produit.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProduit;
 
@@ -73,62 +73,63 @@ class FichesExposition {
     /**
      * Lst code phase.
      *
-     * @var string
+     * @var string|null
      */
     private $lstCodePhase;
 
     /**
      * Lst code prev.
      *
-     * @var string
+     * @var string|null
      */
     private $lstCodePrev;
 
     /**
      * Resu ctrl.
      *
-     * @var string
+     * @var string|null
      */
     private $resuCtrl;
 
     /**
      * Temps exposition.
      *
-     * @var float
+     * @var float|null
      */
     private $tempsExposition;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code prestation.
      *
-     * @return string Returns the code prestation.
+     * @return string|null Returns the code prestation.
      */
-    public function getCodePrestation() {
+    public function getCodePrestation(): ?string{
         return $this->codePrestation;
     }
 
     /**
      * Get the code produit.
      *
-     * @return string Returns the code produit.
+     * @return string|null Returns the code produit.
      */
-    public function getCodeProduit() {
+    public function getCodeProduit(): ?string{
         return $this->codeProduit;
     }
 
@@ -137,7 +138,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date ctrl.
      */
-    public function getDateCtrl() {
+    public function getDateCtrl(): ?DateTime{
         return $this->dateCtrl;
     }
 
@@ -146,7 +147,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date deb expo.
      */
-    public function getDateDebExpo() {
+    public function getDateDebExpo(): ?DateTime{
         return $this->dateDebExpo;
     }
 
@@ -155,7 +156,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date fiche.
      */
-    public function getDateFiche() {
+    public function getDateFiche(): ?DateTime{
         return $this->dateFiche;
     }
 
@@ -164,53 +165,53 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date fin expo.
      */
-    public function getDateFinExpo() {
+    public function getDateFinExpo(): ?DateTime{
         return $this->dateFinExpo;
     }
 
     /**
      * Get the lst code phase.
      *
-     * @return string Returns the lst code phase.
+     * @return string|null Returns the lst code phase.
      */
-    public function getLstCodePhase() {
+    public function getLstCodePhase(): ?string{
         return $this->lstCodePhase;
     }
 
     /**
      * Get the lst code prev.
      *
-     * @return string Returns the lst code prev.
+     * @return string|null Returns the lst code prev.
      */
-    public function getLstCodePrev() {
+    public function getLstCodePrev(): ?string{
         return $this->lstCodePrev;
     }
 
     /**
      * Get the resu ctrl.
      *
-     * @return string Returns the resu ctrl.
+     * @return string|null Returns the resu ctrl.
      */
-    public function getResuCtrl() {
+    public function getResuCtrl(): ?string{
         return $this->resuCtrl;
     }
 
     /**
      * Get the temps exposition.
      *
-     * @return float Returns the temps exposition.
+     * @return float|null Returns the temps exposition.
      */
-    public function getTempsExposition() {
+    public function getTempsExposition(): ?float{
         return $this->tempsExposition;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): FichesExposition {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -218,10 +219,10 @@ class FichesExposition {
     /**
      * Set the code prestation.
      *
-     * @param string $codePrestation The code prestation.
+     * @param string|null $codePrestation The code prestation.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setCodePrestation($codePrestation) {
+    public function setCodePrestation(?string $codePrestation): FichesExposition {
         $this->codePrestation = $codePrestation;
         return $this;
     }
@@ -229,10 +230,10 @@ class FichesExposition {
     /**
      * Set the code produit.
      *
-     * @param string $codeProduit The code produit.
+     * @param string|null $codeProduit The code produit.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setCodeProduit($codeProduit) {
+    public function setCodeProduit(?string $codeProduit): FichesExposition {
         $this->codeProduit = $codeProduit;
         return $this;
     }
@@ -243,7 +244,7 @@ class FichesExposition {
      * @param DateTime|null $dateCtrl The date ctrl.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setDateCtrl(DateTime $dateCtrl = null) {
+    public function setDateCtrl(?DateTime $dateCtrl): FichesExposition {
         $this->dateCtrl = $dateCtrl;
         return $this;
     }
@@ -254,7 +255,7 @@ class FichesExposition {
      * @param DateTime|null $dateDebExpo The date deb expo.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setDateDebExpo(DateTime $dateDebExpo = null) {
+    public function setDateDebExpo(?DateTime $dateDebExpo): FichesExposition {
         $this->dateDebExpo = $dateDebExpo;
         return $this;
     }
@@ -265,7 +266,7 @@ class FichesExposition {
      * @param DateTime|null $dateFiche The date fiche.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setDateFiche(DateTime $dateFiche = null) {
+    public function setDateFiche(?DateTime $dateFiche): FichesExposition {
         $this->dateFiche = $dateFiche;
         return $this;
     }
@@ -276,7 +277,7 @@ class FichesExposition {
      * @param DateTime|null $dateFinExpo The date fin expo.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setDateFinExpo(DateTime $dateFinExpo = null) {
+    public function setDateFinExpo(?DateTime $dateFinExpo): FichesExposition {
         $this->dateFinExpo = $dateFinExpo;
         return $this;
     }
@@ -284,10 +285,10 @@ class FichesExposition {
     /**
      * Set the lst code phase.
      *
-     * @param string $lstCodePhase The lst code phase.
+     * @param string|null $lstCodePhase The lst code phase.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setLstCodePhase($lstCodePhase) {
+    public function setLstCodePhase(?string $lstCodePhase): FichesExposition {
         $this->lstCodePhase = $lstCodePhase;
         return $this;
     }
@@ -295,10 +296,10 @@ class FichesExposition {
     /**
      * Set the lst code prev.
      *
-     * @param string $lstCodePrev The lst code prev.
+     * @param string|null $lstCodePrev The lst code prev.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setLstCodePrev($lstCodePrev) {
+    public function setLstCodePrev(?string $lstCodePrev): FichesExposition {
         $this->lstCodePrev = $lstCodePrev;
         return $this;
     }
@@ -306,10 +307,10 @@ class FichesExposition {
     /**
      * Set the resu ctrl.
      *
-     * @param string $resuCtrl The resu ctrl.
+     * @param string|null $resuCtrl The resu ctrl.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setResuCtrl($resuCtrl) {
+    public function setResuCtrl(?string $resuCtrl): FichesExposition {
         $this->resuCtrl = $resuCtrl;
         return $this;
     }
@@ -317,10 +318,10 @@ class FichesExposition {
     /**
      * Set the temps exposition.
      *
-     * @param float $tempsExposition The temps exposition.
+     * @param float|null $tempsExposition The temps exposition.
      * @return FichesExposition Returns this Fiches exposition.
      */
-    public function setTempsExposition($tempsExposition) {
+    public function setTempsExposition(?float $tempsExposition): FichesExposition {
         $this->tempsExposition = $tempsExposition;
         return $this;
     }

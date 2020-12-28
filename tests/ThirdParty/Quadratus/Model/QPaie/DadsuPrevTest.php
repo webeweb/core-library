@@ -29,7 +29,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBasePrev() {
+    public function testSetBasePrev(): void {
 
         $obj = new DadsuPrev();
 
@@ -42,7 +42,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DadsuPrev();
 
@@ -55,7 +55,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new DadsuPrev();
 
@@ -68,7 +68,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganismeGestionnaire() {
+    public function testSetCodeOrganismeGestionnaire(): void {
 
         $obj = new DadsuPrev();
 
@@ -81,7 +81,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePopul() {
+    public function testSetCodePopul(): void {
 
         $obj = new DadsuPrev();
 
@@ -94,7 +94,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypePrev() {
+    public function testSetCodeTypePrev(): void {
 
         $obj = new DadsuPrev();
 
@@ -108,7 +108,7 @@ class DadsuPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriode() {
+    public function testSetDebutPeriode(): void {
 
         // Set a Date/time mock.
         $debutPeriode = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvenContrat() {
+    public function testSetEvenContrat(): void {
 
         $obj = new DadsuPrev();
 
@@ -138,7 +138,7 @@ class DadsuPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriode() {
+    public function testSetFinPeriode(): void {
 
         // Set a Date/time mock.
         $finPeriode = new DateTime("2018-09-10");
@@ -154,7 +154,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitution() {
+    public function testSetIdInstitution(): void {
 
         $obj = new DadsuPrev();
 
@@ -167,7 +167,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceDadsu() {
+    public function testSetIndiceDadsu(): void {
 
         $obj = new DadsuPrev();
 
@@ -180,7 +180,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoAffiliation() {
+    public function testSetNoAffiliation(): void {
 
         $obj = new DadsuPrev();
 
@@ -193,7 +193,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new DadsuPrev();
 
@@ -206,7 +206,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new DadsuPrev();
 
@@ -219,7 +219,7 @@ class DadsuPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuPrev();
 

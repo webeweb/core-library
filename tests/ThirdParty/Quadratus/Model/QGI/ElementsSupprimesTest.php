@@ -30,7 +30,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate1() {
+    public function testSetDate1(): void {
 
         // Set a Date/time mock.
         $date1 = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateElem() {
+    public function testSetDateElem(): void {
 
         // Set a Date/time mock.
         $dateElem = new DateTime("2018-09-10");
@@ -63,7 +63,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemo1() {
+    public function testSetMemo1(): void {
 
         $obj = new ElementsSupprimes();
 
@@ -76,7 +76,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTexte1() {
+    public function testSetTexte1(): void {
 
         $obj = new ElementsSupprimes();
 
@@ -89,7 +89,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeElem() {
+    public function testSetTypeElem(): void {
 
         $obj = new ElementsSupprimes();
 
@@ -102,7 +102,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new ElementsSupprimes();
 
@@ -115,7 +115,7 @@ class ElementsSupprimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ElementsSupprimes();
 

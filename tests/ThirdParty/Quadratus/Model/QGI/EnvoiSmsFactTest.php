@@ -27,7 +27,7 @@ class EnvoiSmsFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new EnvoiSmsFact();
 
@@ -40,7 +40,7 @@ class EnvoiSmsFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new EnvoiSmsFact();
 
@@ -53,7 +53,7 @@ class EnvoiSmsFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMsgClient() {
+    public function testSetMsgClient(): void {
 
         $obj = new EnvoiSmsFact();
 
@@ -66,7 +66,7 @@ class EnvoiSmsFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMsgRepresentant() {
+    public function testSetMsgRepresentant(): void {
 
         $obj = new EnvoiSmsFact();
 
@@ -79,7 +79,7 @@ class EnvoiSmsFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EnvoiSmsFact();
 

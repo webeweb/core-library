@@ -27,9 +27,9 @@ class MissingStartRecordFormatExceptionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
-        $ex = new MissingStartRecordFormatException("", 0);
+        $ex = new MissingStartRecordFormatException();
 
         $res = "The start record format is missing";
         $this->assertEquals($res, $ex->getMessage());

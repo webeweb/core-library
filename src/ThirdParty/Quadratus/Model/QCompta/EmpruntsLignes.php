@@ -31,64 +31,65 @@ class EmpruntsLignes {
     /**
      * Dont assurance.
      *
-     * @var float
+     * @var float|null
      */
     private $dontAssurance;
 
     /**
      * Dont capital.
      *
-     * @var float
+     * @var float|null
      */
     private $dontCapital;
 
     /**
      * Dont interet.
      *
-     * @var float
+     * @var float|null
      */
     private $dontInteret;
 
     /**
      * Montant rembour.
      *
-     * @var float
+     * @var float|null
      */
     private $montantRembour;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Restant du avant.
      *
-     * @var float
+     * @var float|null
      */
     private $restantDuAvant;
 
     /**
      * Taux ligne.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxLigne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -96,79 +97,79 @@ class EmpruntsLignes {
      *
      * @return DateTime|null Returns the date remboursement.
      */
-    public function getDateRemboursement() {
+    public function getDateRemboursement(): ?DateTime{
         return $this->dateRemboursement;
     }
 
     /**
      * Get the dont assurance.
      *
-     * @return float Returns the dont assurance.
+     * @return float|null Returns the dont assurance.
      */
-    public function getDontAssurance() {
+    public function getDontAssurance(): ?float{
         return $this->dontAssurance;
     }
 
     /**
      * Get the dont capital.
      *
-     * @return float Returns the dont capital.
+     * @return float|null Returns the dont capital.
      */
-    public function getDontCapital() {
+    public function getDontCapital(): ?float{
         return $this->dontCapital;
     }
 
     /**
      * Get the dont interet.
      *
-     * @return float Returns the dont interet.
+     * @return float|null Returns the dont interet.
      */
-    public function getDontInteret() {
+    public function getDontInteret(): ?float{
         return $this->dontInteret;
     }
 
     /**
      * Get the montant rembour.
      *
-     * @return float Returns the montant rembour.
+     * @return float|null Returns the montant rembour.
      */
-    public function getMontantRembour() {
+    public function getMontantRembour(): ?float{
         return $this->montantRembour;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int{
         return $this->numero;
     }
 
     /**
      * Get the restant du avant.
      *
-     * @return float Returns the restant du avant.
+     * @return float|null Returns the restant du avant.
      */
-    public function getRestantDuAvant() {
+    public function getRestantDuAvant(): ?float{
         return $this->restantDuAvant;
     }
 
     /**
      * Get the taux ligne.
      *
-     * @return float Returns the taux ligne.
+     * @return float|null Returns the taux ligne.
      */
-    public function getTauxLigne() {
+    public function getTauxLigne(): ?float{
         return $this->tauxLigne;
     }
 
@@ -178,7 +179,7 @@ class EmpruntsLignes {
      * @param DateTime|null $dateRemboursement The date remboursement.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setDateRemboursement(DateTime $dateRemboursement = null) {
+    public function setDateRemboursement(?DateTime $dateRemboursement): EmpruntsLignes {
         $this->dateRemboursement = $dateRemboursement;
         return $this;
     }
@@ -186,10 +187,10 @@ class EmpruntsLignes {
     /**
      * Set the dont assurance.
      *
-     * @param float $dontAssurance The dont assurance.
+     * @param float|null $dontAssurance The dont assurance.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setDontAssurance($dontAssurance) {
+    public function setDontAssurance(?float $dontAssurance): EmpruntsLignes {
         $this->dontAssurance = $dontAssurance;
         return $this;
     }
@@ -197,10 +198,10 @@ class EmpruntsLignes {
     /**
      * Set the dont capital.
      *
-     * @param float $dontCapital The dont capital.
+     * @param float|null $dontCapital The dont capital.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setDontCapital($dontCapital) {
+    public function setDontCapital(?float $dontCapital): EmpruntsLignes {
         $this->dontCapital = $dontCapital;
         return $this;
     }
@@ -208,10 +209,10 @@ class EmpruntsLignes {
     /**
      * Set the dont interet.
      *
-     * @param float $dontInteret The dont interet.
+     * @param float|null $dontInteret The dont interet.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setDontInteret($dontInteret) {
+    public function setDontInteret(?float $dontInteret): EmpruntsLignes {
         $this->dontInteret = $dontInteret;
         return $this;
     }
@@ -219,10 +220,10 @@ class EmpruntsLignes {
     /**
      * Set the montant rembour.
      *
-     * @param float $montantRembour The montant rembour.
+     * @param float|null $montantRembour The montant rembour.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setMontantRembour($montantRembour) {
+    public function setMontantRembour(?float $montantRembour): EmpruntsLignes {
         $this->montantRembour = $montantRembour;
         return $this;
     }
@@ -230,10 +231,10 @@ class EmpruntsLignes {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): EmpruntsLignes {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -241,10 +242,10 @@ class EmpruntsLignes {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): EmpruntsLignes {
         $this->numero = $numero;
         return $this;
     }
@@ -252,10 +253,10 @@ class EmpruntsLignes {
     /**
      * Set the restant du avant.
      *
-     * @param float $restantDuAvant The restant du avant.
+     * @param float|null $restantDuAvant The restant du avant.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setRestantDuAvant($restantDuAvant) {
+    public function setRestantDuAvant(?float $restantDuAvant): EmpruntsLignes {
         $this->restantDuAvant = $restantDuAvant;
         return $this;
     }
@@ -263,10 +264,10 @@ class EmpruntsLignes {
     /**
      * Set the taux ligne.
      *
-     * @param float $tauxLigne The taux ligne.
+     * @param float|null $tauxLigne The taux ligne.
      * @return EmpruntsLignes Returns this Emprunts lignes.
      */
-    public function setTauxLigne($tauxLigne) {
+    public function setTauxLigne(?float $tauxLigne): EmpruntsLignes {
         $this->tauxLigne = $tauxLigne;
         return $this;
     }

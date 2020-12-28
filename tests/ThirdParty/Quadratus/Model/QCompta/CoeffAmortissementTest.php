@@ -29,7 +29,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeff() {
+    public function testSetCoeff(): void {
 
         $obj = new CoeffAmortissement();
 
@@ -43,7 +43,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new CoeffAmortissement();
 
@@ -72,7 +72,7 @@ class CoeffAmortissementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CoeffAmortissement();
 

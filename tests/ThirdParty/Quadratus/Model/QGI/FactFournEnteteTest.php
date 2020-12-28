@@ -29,7 +29,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoniMali() {
+    public function testSetBoniMali(): void {
 
         $obj = new FactFournEntete();
 
@@ -42,7 +42,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new FactFournEntete();
 
@@ -56,7 +56,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolio() {
+    public function testSetFolio(): void {
 
         $obj = new FactFournEntete();
 
@@ -85,7 +85,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibAuto() {
+    public function testSetLibAuto(): void {
 
         $obj = new FactFournEntete();
 
@@ -98,7 +98,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new FactFournEntete();
 
@@ -111,7 +111,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMonnaie() {
+    public function testSetMonnaie(): void {
 
         $obj = new FactFournEntete();
 
@@ -124,7 +124,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTtCcredit() {
+    public function testSetMontantTtCcredit(): void {
 
         $obj = new FactFournEntete();
 
@@ -137,7 +137,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTtCdebit() {
+    public function testSetMontantTtCdebit(): void {
 
         $obj = new FactFournEntete();
 
@@ -150,7 +150,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDossCpta() {
+    public function testSetNumDossCpta(): void {
 
         $obj = new FactFournEntete();
 
@@ -163,7 +163,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumFacture() {
+    public function testSetNumFacture(): void {
 
         $obj = new FactFournEntete();
 
@@ -176,7 +176,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumFournisseur() {
+    public function testSetNumFournisseur(): void {
 
         $obj = new FactFournEntete();
 
@@ -189,7 +189,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLot() {
+    public function testSetNumLot(): void {
 
         $obj = new FactFournEntete();
 
@@ -202,7 +202,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new FactFournEntete();
 
@@ -215,7 +215,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new FactFournEntete();
 
@@ -228,7 +228,7 @@ class FactFournEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FactFournEntete();
 

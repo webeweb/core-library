@@ -27,7 +27,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new TravauxTypeEntetes();
 
@@ -40,7 +40,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new TravauxTypeEntetes();
 
@@ -53,7 +53,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TravauxTypeEntetes();
 
@@ -66,7 +66,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice() {
+    public function testSetPolice(): void {
 
         $obj = new TravauxTypeEntetes();
 
@@ -79,7 +79,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice2() {
+    public function testSetPolice2(): void {
 
         $obj = new TravauxTypeEntetes();
 
@@ -92,7 +92,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice3() {
+    public function testSetPolice3(): void {
 
         $obj = new TravauxTypeEntetes();
 
@@ -105,7 +105,7 @@ class TravauxTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TravauxTypeEntetes();
 

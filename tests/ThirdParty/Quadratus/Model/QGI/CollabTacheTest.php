@@ -27,7 +27,7 @@ class CollabTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new CollabTache();
 
@@ -40,7 +40,7 @@ class CollabTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new CollabTache();
 
@@ -53,7 +53,7 @@ class CollabTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPv1() {
+    public function testSetPv1(): void {
 
         $obj = new CollabTache();
 
@@ -66,7 +66,7 @@ class CollabTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPv2() {
+    public function testSetPv2(): void {
 
         $obj = new CollabTache();
 
@@ -79,7 +79,7 @@ class CollabTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPv3() {
+    public function testSetPv3(): void {
 
         $obj = new CollabTache();
 
@@ -92,7 +92,7 @@ class CollabTacheTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CollabTache();
 

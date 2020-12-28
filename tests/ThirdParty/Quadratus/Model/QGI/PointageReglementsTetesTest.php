@@ -29,7 +29,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -42,7 +42,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollCreation() {
+    public function testSetCodeCollCreation(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -55,7 +55,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollGenere() {
+    public function testSetCodeCollGenere(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -68,7 +68,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollModif() {
+    public function testSetCodeCollModif(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -82,7 +82,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateGenere() {
+    public function testSetDateGenere(): void {
 
         // Set a Date/time mock.
         $dateGenere = new DateTime("2018-09-10");
@@ -116,7 +116,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -132,7 +132,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -145,7 +145,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisi() {
+    public function testSetMontantSaisi(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -158,7 +158,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptPayeur() {
+    public function testSetNumCptPayeur(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -171,7 +171,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDoss() {
+    public function testSetNumDoss(): void {
 
         $obj = new PointageReglementsTetes();
 
@@ -184,7 +184,7 @@ class PointageReglementsTetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointageReglementsTetes();
 

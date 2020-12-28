@@ -30,7 +30,7 @@ class DateTimeBirthDateTraitTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetBirthdate() {
+    public function testSetBirthdate(): void {
 
         // Set a date/time mock.
         $birthDate = new DateTime();
@@ -46,7 +46,7 @@ class DateTimeBirthDateTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestDateTimeBirthDateTrait();
 

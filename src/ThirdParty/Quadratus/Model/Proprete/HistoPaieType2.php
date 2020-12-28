@@ -24,21 +24,21 @@ class HistoPaieType2 {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code prime.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrime;
 
     /**
      * Nb heures.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeures;
 
@@ -52,48 +52,49 @@ class HistoPaieType2 {
     /**
      * Taux majoration.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxMajoration;
 
     /**
      * Type dnjf.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDnjf;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code prime.
      *
-     * @return string Returns the code prime.
+     * @return string|null Returns the code prime.
      */
-    public function getCodePrime() {
+    public function getCodePrime(): ?string{
         return $this->codePrime;
     }
 
     /**
      * Get the nb heures.
      *
-     * @return float Returns the nb heures.
+     * @return float|null Returns the nb heures.
      */
-    public function getNbHeures() {
+    public function getNbHeures(): ?float{
         return $this->nbHeures;
     }
 
@@ -102,35 +103,35 @@ class HistoPaieType2 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the taux majoration.
      *
-     * @return float Returns the taux majoration.
+     * @return float|null Returns the taux majoration.
      */
-    public function getTauxMajoration() {
+    public function getTauxMajoration(): ?float{
         return $this->tauxMajoration;
     }
 
     /**
      * Get the type dnjf.
      *
-     * @return string Returns the type dnjf.
+     * @return string|null Returns the type dnjf.
      */
-    public function getTypeDnjf() {
+    public function getTypeDnjf(): ?string{
         return $this->typeDnjf;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return HistoPaieType2 Returns this Histo paie type2.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): HistoPaieType2 {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -138,10 +139,10 @@ class HistoPaieType2 {
     /**
      * Set the code prime.
      *
-     * @param string $codePrime The code prime.
+     * @param string|null $codePrime The code prime.
      * @return HistoPaieType2 Returns this Histo paie type2.
      */
-    public function setCodePrime($codePrime) {
+    public function setCodePrime(?string $codePrime): HistoPaieType2 {
         $this->codePrime = $codePrime;
         return $this;
     }
@@ -149,10 +150,10 @@ class HistoPaieType2 {
     /**
      * Set the nb heures.
      *
-     * @param float $nbHeures The nb heures.
+     * @param float|null $nbHeures The nb heures.
      * @return HistoPaieType2 Returns this Histo paie type2.
      */
-    public function setNbHeures($nbHeures) {
+    public function setNbHeures(?float $nbHeures): HistoPaieType2 {
         $this->nbHeures = $nbHeures;
         return $this;
     }
@@ -163,7 +164,7 @@ class HistoPaieType2 {
      * @param DateTime|null $periode The periode.
      * @return HistoPaieType2 Returns this Histo paie type2.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): HistoPaieType2 {
         $this->periode = $periode;
         return $this;
     }
@@ -171,10 +172,10 @@ class HistoPaieType2 {
     /**
      * Set the taux majoration.
      *
-     * @param float $tauxMajoration The taux majoration.
+     * @param float|null $tauxMajoration The taux majoration.
      * @return HistoPaieType2 Returns this Histo paie type2.
      */
-    public function setTauxMajoration($tauxMajoration) {
+    public function setTauxMajoration(?float $tauxMajoration): HistoPaieType2 {
         $this->tauxMajoration = $tauxMajoration;
         return $this;
     }
@@ -182,10 +183,10 @@ class HistoPaieType2 {
     /**
      * Set the type dnjf.
      *
-     * @param string $typeDnjf The type dnjf.
+     * @param string|null $typeDnjf The type dnjf.
      * @return HistoPaieType2 Returns this Histo paie type2.
      */
-    public function setTypeDnjf($typeDnjf) {
+    public function setTypeDnjf(?string $typeDnjf): HistoPaieType2 {
         $this->typeDnjf = $typeDnjf;
         return $this;
     }

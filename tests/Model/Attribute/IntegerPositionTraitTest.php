@@ -27,7 +27,7 @@ class IntegerPositionTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosition() {
+    public function testSetPosition(): void {
 
         $obj = new TestIntegerPositionTrait();
 
@@ -40,7 +40,7 @@ class IntegerPositionTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerPositionTrait();
 

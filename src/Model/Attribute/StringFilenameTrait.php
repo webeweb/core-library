@@ -22,25 +22,25 @@ trait StringFilenameTrait {
     /**
      * Filename.
      *
-     * @var string
+     * @var string|null
      */
     protected $filename;
 
     /**
      * Get the filename.
      *
-     * @return string Returns the filename.
+     * @return string|null Returns the filename.
      */
-    public function getFilename() {
+    public function getFilename(): ?string {
         return $this->filename;
     }
 
     /**
      * Set the filename.
      *
-     * @param string $filename The filename.
+     * @param string|null $filename The filename.
      */
-    public function setFilename($filename) {
+    public function setFilename(?string $filename) {
         $this->filename = $filename;
         return $this;
     }

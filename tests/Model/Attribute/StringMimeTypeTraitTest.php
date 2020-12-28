@@ -27,7 +27,7 @@ class StringMimeTypeTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMimeType() {
+    public function testSetMimeType(): void {
 
         $obj = new TestStringMimeTypeTrait();
 
@@ -40,7 +40,7 @@ class StringMimeTypeTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringMimeTypeTrait();
 

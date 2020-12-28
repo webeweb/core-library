@@ -24,7 +24,7 @@ class LiaisonsHistorique {
     /**
      * Code collab.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollab;
 
@@ -45,65 +45,66 @@ class LiaisonsHistorique {
     /**
      * Destinataire.
      *
-     * @var string
+     * @var string|null
      */
     private $destinataire;
 
     /**
      * Modules.
      *
-     * @var string
+     * @var string|null
      */
     private $modules;
 
     /**
      * Modules bloques.
      *
-     * @var string
+     * @var string|null
      */
     private $modulesBloques;
 
     /**
      * Num uniq.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniq;
 
     /**
      * Numero dossier.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroDossier;
 
     /**
      * Sens.
      *
-     * @var string
+     * @var string|null
      */
     private $sens;
 
     /**
      * Type liaison.
      *
-     * @var string
+     * @var string|null
      */
     private $typeLiaison;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collab.
      *
-     * @return string Returns the code collab.
+     * @return string|null Returns the code collab.
      */
-    public function getCodeCollab() {
+    public function getCodeCollab(): ?string{
         return $this->codeCollab;
     }
 
@@ -112,7 +113,7 @@ class LiaisonsHistorique {
      *
      * @return DateTime|null Returns the date liaison.
      */
-    public function getDateLiaison() {
+    public function getDateLiaison(): ?DateTime{
         return $this->dateLiaison;
     }
 
@@ -121,80 +122,80 @@ class LiaisonsHistorique {
      *
      * @return DateTime|null Returns the date retour prevue.
      */
-    public function getDateRetourPrevue() {
+    public function getDateRetourPrevue(): ?DateTime{
         return $this->dateRetourPrevue;
     }
 
     /**
      * Get the destinataire.
      *
-     * @return string Returns the destinataire.
+     * @return string|null Returns the destinataire.
      */
-    public function getDestinataire() {
+    public function getDestinataire(): ?string{
         return $this->destinataire;
     }
 
     /**
      * Get the modules.
      *
-     * @return string Returns the modules.
+     * @return string|null Returns the modules.
      */
-    public function getModules() {
+    public function getModules(): ?string{
         return $this->modules;
     }
 
     /**
      * Get the modules bloques.
      *
-     * @return string Returns the modules bloques.
+     * @return string|null Returns the modules bloques.
      */
-    public function getModulesBloques() {
+    public function getModulesBloques(): ?string{
         return $this->modulesBloques;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return int Returns the num uniq.
+     * @return int|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?int{
         return $this->numUniq;
     }
 
     /**
      * Get the numero dossier.
      *
-     * @return string Returns the numero dossier.
+     * @return string|null Returns the numero dossier.
      */
-    public function getNumeroDossier() {
+    public function getNumeroDossier(): ?string{
         return $this->numeroDossier;
     }
 
     /**
      * Get the sens.
      *
-     * @return string Returns the sens.
+     * @return string|null Returns the sens.
      */
-    public function getSens() {
+    public function getSens(): ?string{
         return $this->sens;
     }
 
     /**
      * Get the type liaison.
      *
-     * @return string Returns the type liaison.
+     * @return string|null Returns the type liaison.
      */
-    public function getTypeLiaison() {
+    public function getTypeLiaison(): ?string{
         return $this->typeLiaison;
     }
 
     /**
      * Set the code collab.
      *
-     * @param string $codeCollab The code collab.
+     * @param string|null $codeCollab The code collab.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setCodeCollab($codeCollab) {
+    public function setCodeCollab(?string $codeCollab): LiaisonsHistorique {
         $this->codeCollab = $codeCollab;
         return $this;
     }
@@ -205,7 +206,7 @@ class LiaisonsHistorique {
      * @param DateTime|null $dateLiaison The date liaison.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setDateLiaison(DateTime $dateLiaison = null) {
+    public function setDateLiaison(?DateTime $dateLiaison): LiaisonsHistorique {
         $this->dateLiaison = $dateLiaison;
         return $this;
     }
@@ -216,7 +217,7 @@ class LiaisonsHistorique {
      * @param DateTime|null $dateRetourPrevue The date retour prevue.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setDateRetourPrevue(DateTime $dateRetourPrevue = null) {
+    public function setDateRetourPrevue(?DateTime $dateRetourPrevue): LiaisonsHistorique {
         $this->dateRetourPrevue = $dateRetourPrevue;
         return $this;
     }
@@ -224,10 +225,10 @@ class LiaisonsHistorique {
     /**
      * Set the destinataire.
      *
-     * @param string $destinataire The destinataire.
+     * @param string|null $destinataire The destinataire.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setDestinataire($destinataire) {
+    public function setDestinataire(?string $destinataire): LiaisonsHistorique {
         $this->destinataire = $destinataire;
         return $this;
     }
@@ -235,10 +236,10 @@ class LiaisonsHistorique {
     /**
      * Set the modules.
      *
-     * @param string $modules The modules.
+     * @param string|null $modules The modules.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setModules($modules) {
+    public function setModules(?string $modules): LiaisonsHistorique {
         $this->modules = $modules;
         return $this;
     }
@@ -246,10 +247,10 @@ class LiaisonsHistorique {
     /**
      * Set the modules bloques.
      *
-     * @param string $modulesBloques The modules bloques.
+     * @param string|null $modulesBloques The modules bloques.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setModulesBloques($modulesBloques) {
+    public function setModulesBloques(?string $modulesBloques): LiaisonsHistorique {
         $this->modulesBloques = $modulesBloques;
         return $this;
     }
@@ -257,10 +258,10 @@ class LiaisonsHistorique {
     /**
      * Set the num uniq.
      *
-     * @param int $numUniq The num uniq.
+     * @param int|null $numUniq The num uniq.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?int $numUniq): LiaisonsHistorique {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -268,10 +269,10 @@ class LiaisonsHistorique {
     /**
      * Set the numero dossier.
      *
-     * @param string $numeroDossier The numero dossier.
+     * @param string|null $numeroDossier The numero dossier.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setNumeroDossier($numeroDossier) {
+    public function setNumeroDossier(?string $numeroDossier): LiaisonsHistorique {
         $this->numeroDossier = $numeroDossier;
         return $this;
     }
@@ -279,10 +280,10 @@ class LiaisonsHistorique {
     /**
      * Set the sens.
      *
-     * @param string $sens The sens.
+     * @param string|null $sens The sens.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setSens($sens) {
+    public function setSens(?string $sens): LiaisonsHistorique {
         $this->sens = $sens;
         return $this;
     }
@@ -290,10 +291,10 @@ class LiaisonsHistorique {
     /**
      * Set the type liaison.
      *
-     * @param string $typeLiaison The type liaison.
+     * @param string|null $typeLiaison The type liaison.
      * @return LiaisonsHistorique Returns this Liaisons historique.
      */
-    public function setTypeLiaison($typeLiaison) {
+    public function setTypeLiaison(?string $typeLiaison): LiaisonsHistorique {
         $this->typeLiaison = $typeLiaison;
         return $this;
     }

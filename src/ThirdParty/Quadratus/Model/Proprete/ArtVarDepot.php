@@ -22,161 +22,162 @@ class ArtVarDepot {
     /**
      * Allee casier.
      *
-     * @var string
+     * @var string|null
      */
     private $alleeCasier;
 
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code depot.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDepot;
 
     /**
      * Code variante.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVariante;
 
     /**
      * Qte stock attente.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockAttente;
 
     /**
      * Qte stock maxi.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockMaxi;
 
     /**
      * Qte stock mini.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockMini;
 
     /**
      * Qte stock reel.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockReel;
 
     /**
      * Qte stock reserve.
      *
-     * @var float
+     * @var float|null
      */
     private $qteStockReserve;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the allee casier.
      *
-     * @return string Returns the allee casier.
+     * @return string|null Returns the allee casier.
      */
-    public function getAlleeCasier() {
+    public function getAlleeCasier(): ?string{
         return $this->alleeCasier;
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code depot.
      *
-     * @return string Returns the code depot.
+     * @return string|null Returns the code depot.
      */
-    public function getCodeDepot() {
+    public function getCodeDepot(): ?string{
         return $this->codeDepot;
     }
 
     /**
      * Get the code variante.
      *
-     * @return string Returns the code variante.
+     * @return string|null Returns the code variante.
      */
-    public function getCodeVariante() {
+    public function getCodeVariante(): ?string{
         return $this->codeVariante;
     }
 
     /**
      * Get the qte stock attente.
      *
-     * @return float Returns the qte stock attente.
+     * @return float|null Returns the qte stock attente.
      */
-    public function getQteStockAttente() {
+    public function getQteStockAttente(): ?float{
         return $this->qteStockAttente;
     }
 
     /**
      * Get the qte stock maxi.
      *
-     * @return float Returns the qte stock maxi.
+     * @return float|null Returns the qte stock maxi.
      */
-    public function getQteStockMaxi() {
+    public function getQteStockMaxi(): ?float{
         return $this->qteStockMaxi;
     }
 
     /**
      * Get the qte stock mini.
      *
-     * @return float Returns the qte stock mini.
+     * @return float|null Returns the qte stock mini.
      */
-    public function getQteStockMini() {
+    public function getQteStockMini(): ?float{
         return $this->qteStockMini;
     }
 
     /**
      * Get the qte stock reel.
      *
-     * @return float Returns the qte stock reel.
+     * @return float|null Returns the qte stock reel.
      */
-    public function getQteStockReel() {
+    public function getQteStockReel(): ?float{
         return $this->qteStockReel;
     }
 
     /**
      * Get the qte stock reserve.
      *
-     * @return float Returns the qte stock reserve.
+     * @return float|null Returns the qte stock reserve.
      */
-    public function getQteStockReserve() {
+    public function getQteStockReserve(): ?float{
         return $this->qteStockReserve;
     }
 
     /**
      * Set the allee casier.
      *
-     * @param string $alleeCasier The allee casier.
+     * @param string|null $alleeCasier The allee casier.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setAlleeCasier($alleeCasier) {
+    public function setAlleeCasier(?string $alleeCasier): ArtVarDepot {
         $this->alleeCasier = $alleeCasier;
         return $this;
     }
@@ -184,10 +185,10 @@ class ArtVarDepot {
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): ArtVarDepot {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -195,10 +196,10 @@ class ArtVarDepot {
     /**
      * Set the code depot.
      *
-     * @param string $codeDepot The code depot.
+     * @param string|null $codeDepot The code depot.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setCodeDepot($codeDepot) {
+    public function setCodeDepot(?string $codeDepot): ArtVarDepot {
         $this->codeDepot = $codeDepot;
         return $this;
     }
@@ -206,10 +207,10 @@ class ArtVarDepot {
     /**
      * Set the code variante.
      *
-     * @param string $codeVariante The code variante.
+     * @param string|null $codeVariante The code variante.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setCodeVariante($codeVariante) {
+    public function setCodeVariante(?string $codeVariante): ArtVarDepot {
         $this->codeVariante = $codeVariante;
         return $this;
     }
@@ -217,10 +218,10 @@ class ArtVarDepot {
     /**
      * Set the qte stock attente.
      *
-     * @param float $qteStockAttente The qte stock attente.
+     * @param float|null $qteStockAttente The qte stock attente.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setQteStockAttente($qteStockAttente) {
+    public function setQteStockAttente(?float $qteStockAttente): ArtVarDepot {
         $this->qteStockAttente = $qteStockAttente;
         return $this;
     }
@@ -228,10 +229,10 @@ class ArtVarDepot {
     /**
      * Set the qte stock maxi.
      *
-     * @param float $qteStockMaxi The qte stock maxi.
+     * @param float|null $qteStockMaxi The qte stock maxi.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setQteStockMaxi($qteStockMaxi) {
+    public function setQteStockMaxi(?float $qteStockMaxi): ArtVarDepot {
         $this->qteStockMaxi = $qteStockMaxi;
         return $this;
     }
@@ -239,10 +240,10 @@ class ArtVarDepot {
     /**
      * Set the qte stock mini.
      *
-     * @param float $qteStockMini The qte stock mini.
+     * @param float|null $qteStockMini The qte stock mini.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setQteStockMini($qteStockMini) {
+    public function setQteStockMini(?float $qteStockMini): ArtVarDepot {
         $this->qteStockMini = $qteStockMini;
         return $this;
     }
@@ -250,10 +251,10 @@ class ArtVarDepot {
     /**
      * Set the qte stock reel.
      *
-     * @param float $qteStockReel The qte stock reel.
+     * @param float|null $qteStockReel The qte stock reel.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setQteStockReel($qteStockReel) {
+    public function setQteStockReel(?float $qteStockReel): ArtVarDepot {
         $this->qteStockReel = $qteStockReel;
         return $this;
     }
@@ -261,10 +262,10 @@ class ArtVarDepot {
     /**
      * Set the qte stock reserve.
      *
-     * @param float $qteStockReserve The qte stock reserve.
+     * @param float|null $qteStockReserve The qte stock reserve.
      * @return ArtVarDepot Returns this Art var depot.
      */
-    public function setQteStockReserve($qteStockReserve) {
+    public function setQteStockReserve(?float $qteStockReserve): ArtVarDepot {
         $this->qteStockReserve = $qteStockReserve;
         return $this;
     }

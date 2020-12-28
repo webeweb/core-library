@@ -22,193 +22,194 @@ class SousLignesComptaGene {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Intitule compte.
      *
-     * @var string
+     * @var string|null
      */
     private $intituleCompte;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero document.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroDocument;
 
     /**
      * Numero ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroLigne;
 
     /**
      * Numero sous ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroSousLigne;
 
     /**
      * Type document.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDocument;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the intitule compte.
      *
-     * @return string Returns the intitule compte.
+     * @return string|null Returns the intitule compte.
      */
-    public function getIntituleCompte() {
+    public function getIntituleCompte(): ?string{
         return $this->intituleCompte;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero document.
      *
-     * @return string Returns the numero document.
+     * @return string|null Returns the numero document.
      */
-    public function getNumeroDocument() {
+    public function getNumeroDocument(): ?string{
         return $this->numeroDocument;
     }
 
     /**
      * Get the numero ligne.
      *
-     * @return int Returns the numero ligne.
+     * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne() {
+    public function getNumeroLigne(): ?int{
         return $this->numeroLigne;
     }
 
     /**
      * Get the numero sous ligne.
      *
-     * @return int Returns the numero sous ligne.
+     * @return int|null Returns the numero sous ligne.
      */
-    public function getNumeroSousLigne() {
+    public function getNumeroSousLigne(): ?int{
         return $this->numeroSousLigne;
     }
 
     /**
      * Get the type document.
      *
-     * @return string Returns the type document.
+     * @return string|null Returns the type document.
      */
-    public function getTypeDocument() {
+    public function getTypeDocument(): ?string{
         return $this->typeDocument;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): SousLignesComptaGene {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -216,10 +217,10 @@ class SousLignesComptaGene {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): SousLignesComptaGene {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -227,10 +228,10 @@ class SousLignesComptaGene {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): SousLignesComptaGene {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -238,10 +239,10 @@ class SousLignesComptaGene {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): SousLignesComptaGene {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -249,10 +250,10 @@ class SousLignesComptaGene {
     /**
      * Set the intitule compte.
      *
-     * @param string $intituleCompte The intitule compte.
+     * @param string|null $intituleCompte The intitule compte.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setIntituleCompte($intituleCompte) {
+    public function setIntituleCompte(?string $intituleCompte): SousLignesComptaGene {
         $this->intituleCompte = $intituleCompte;
         return $this;
     }
@@ -260,10 +261,10 @@ class SousLignesComptaGene {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): SousLignesComptaGene {
         $this->montant = $montant;
         return $this;
     }
@@ -271,10 +272,10 @@ class SousLignesComptaGene {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): SousLignesComptaGene {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -282,10 +283,10 @@ class SousLignesComptaGene {
     /**
      * Set the numero document.
      *
-     * @param string $numeroDocument The numero document.
+     * @param string|null $numeroDocument The numero document.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setNumeroDocument($numeroDocument) {
+    public function setNumeroDocument(?string $numeroDocument): SousLignesComptaGene {
         $this->numeroDocument = $numeroDocument;
         return $this;
     }
@@ -293,10 +294,10 @@ class SousLignesComptaGene {
     /**
      * Set the numero ligne.
      *
-     * @param int $numeroLigne The numero ligne.
+     * @param int|null $numeroLigne The numero ligne.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setNumeroLigne($numeroLigne) {
+    public function setNumeroLigne(?int $numeroLigne): SousLignesComptaGene {
         $this->numeroLigne = $numeroLigne;
         return $this;
     }
@@ -304,10 +305,10 @@ class SousLignesComptaGene {
     /**
      * Set the numero sous ligne.
      *
-     * @param int $numeroSousLigne The numero sous ligne.
+     * @param int|null $numeroSousLigne The numero sous ligne.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setNumeroSousLigne($numeroSousLigne) {
+    public function setNumeroSousLigne(?int $numeroSousLigne): SousLignesComptaGene {
         $this->numeroSousLigne = $numeroSousLigne;
         return $this;
     }
@@ -315,10 +316,10 @@ class SousLignesComptaGene {
     /**
      * Set the type document.
      *
-     * @param string $typeDocument The type document.
+     * @param string|null $typeDocument The type document.
      * @return SousLignesComptaGene Returns this Sous lignes compta gene.
      */
-    public function setTypeDocument($typeDocument) {
+    public function setTypeDocument(?string $typeDocument): SousLignesComptaGene {
         $this->typeDocument = $typeDocument;
         return $this;
     }

@@ -22,25 +22,25 @@ trait BooleanEnabledTrait {
     /**
      * Enabled.
      *
-     * @var bool
+     * @var bool|null
      */
     protected $enabled;
 
     /**
      * Get the enabled.
      *
-     * @return bool Returns the enabled.
+     * @return bool|null Returns the enabled.
      */
-    public function getEnabled() {
+    public function getEnabled(): ?bool {
         return $this->enabled;
     }
 
     /**
      * Set the enabled.
      *
-     * @param bool $enabled The enabled.
+     * @param bool|null $enabled The enabled.
      */
-    public function setEnabled($enabled) {
+    public function setEnabled(?bool $enabled) {
         $this->enabled = $enabled;
         return $this;
     }

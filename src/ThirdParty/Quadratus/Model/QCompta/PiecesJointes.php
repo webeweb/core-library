@@ -24,7 +24,7 @@ class PiecesJointes {
     /**
      * Auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $auteur;
 
@@ -38,44 +38,45 @@ class PiecesJointes {
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Nom piece.
      *
-     * @var string
+     * @var string|null
      */
     private $nomPiece;
 
     /**
      * Num piece.
      *
-     * @var int
+     * @var int|null
      */
     private $numPiece;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the auteur.
      *
-     * @return string Returns the auteur.
+     * @return string|null Returns the auteur.
      */
-    public function getAuteur() {
+    public function getAuteur(): ?string{
         return $this->auteur;
     }
 
@@ -84,53 +85,53 @@ class PiecesJointes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the nom piece.
      *
-     * @return string Returns the nom piece.
+     * @return string|null Returns the nom piece.
      */
-    public function getNomPiece() {
+    public function getNomPiece(): ?string{
         return $this->nomPiece;
     }
 
     /**
      * Get the num piece.
      *
-     * @return int Returns the num piece.
+     * @return int|null Returns the num piece.
      */
-    public function getNumPiece() {
+    public function getNumPiece(): ?int{
         return $this->numPiece;
     }
 
     /**
      * Set the auteur.
      *
-     * @param string $auteur The auteur.
+     * @param string|null $auteur The auteur.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setAuteur($auteur) {
+    public function setAuteur(?string $auteur): PiecesJointes {
         $this->auteur = $auteur;
         return $this;
     }
@@ -141,7 +142,7 @@ class PiecesJointes {
      * @param DateTime|null $dateCreation The date creation.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): PiecesJointes {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -149,10 +150,10 @@ class PiecesJointes {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): PiecesJointes {
         $this->indice = $indice;
         return $this;
     }
@@ -160,10 +161,10 @@ class PiecesJointes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): PiecesJointes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -171,10 +172,10 @@ class PiecesJointes {
     /**
      * Set the nom piece.
      *
-     * @param string $nomPiece The nom piece.
+     * @param string|null $nomPiece The nom piece.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setNomPiece($nomPiece) {
+    public function setNomPiece(?string $nomPiece): PiecesJointes {
         $this->nomPiece = $nomPiece;
         return $this;
     }
@@ -182,10 +183,10 @@ class PiecesJointes {
     /**
      * Set the num piece.
      *
-     * @param int $numPiece The num piece.
+     * @param int|null $numPiece The num piece.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setNumPiece($numPiece) {
+    public function setNumPiece(?int $numPiece): PiecesJointes {
         $this->numPiece = $numPiece;
         return $this;
     }

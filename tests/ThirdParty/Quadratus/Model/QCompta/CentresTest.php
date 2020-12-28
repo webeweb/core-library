@@ -29,7 +29,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseRue1() {
+    public function testSetAdresseRue1(): void {
 
         $obj = new Centres();
 
@@ -42,7 +42,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseRue2() {
+    public function testSetAdresseRue2(): void {
 
         $obj = new Centres();
 
@@ -55,7 +55,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseVille() {
+    public function testSetAdresseVille(): void {
 
         $obj = new Centres();
 
@@ -68,7 +68,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentreInactif() {
+    public function testSetCentreInactif(): void {
 
         $obj = new Centres();
 
@@ -81,7 +81,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleRepartition() {
+    public function testSetCleRepartition(): void {
 
         $obj = new Centres();
 
@@ -94,7 +94,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Centres();
 
@@ -108,7 +108,7 @@ class CentresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class CentresTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDevis() {
+    public function testSetDateDevis(): void {
 
         // Set a Date/time mock.
         $dateDevis = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new Centres();
 
@@ -154,7 +154,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Centres();
 
@@ -167,7 +167,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMargeDirecte() {
+    public function testSetMargeDirecte(): void {
 
         $obj = new Centres();
 
@@ -180,7 +180,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauRepartition() {
+    public function testSetNiveauRepartition(): void {
 
         $obj = new Centres();
 
@@ -193,7 +193,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdreEdition() {
+    public function testSetOrdreEdition(): void {
 
         $obj = new Centres();
 
@@ -206,7 +206,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepartitionAna() {
+    public function testSetRepartitionAna(): void {
 
         $obj = new Centres();
 
@@ -219,7 +219,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRepartitionAuto() {
+    public function testSetRepartitionAuto(): void {
 
         $obj = new Centres();
 
@@ -232,7 +232,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResponsable() {
+    public function testSetResponsable(): void {
 
         $obj = new Centres();
 
@@ -245,7 +245,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRestrictions() {
+    public function testSetRestrictions(): void {
 
         $obj = new Centres();
 
@@ -258,7 +258,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviAnneeRecolte() {
+    public function testSetSuiviAnneeRecolte(): void {
 
         $obj = new Centres();
 
@@ -271,7 +271,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuperficie() {
+    public function testSetSuperficie(): void {
 
         $obj = new Centres();
 
@@ -284,7 +284,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCentre() {
+    public function testSetTypeCentre(): void {
 
         $obj = new Centres();
 
@@ -297,7 +297,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSuivi() {
+    public function testSetTypeSuivi(): void {
 
         $obj = new Centres();
 
@@ -310,7 +310,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSuiviAutreTexte() {
+    public function testSetTypeSuiviAutreTexte(): void {
 
         $obj = new Centres();
 
@@ -323,7 +323,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSuiviAutreValeur() {
+    public function testSetTypeSuiviAutreValeur(): void {
 
         $obj = new Centres();
 
@@ -336,7 +336,7 @@ class CentresTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Centres();
 

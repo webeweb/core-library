@@ -27,7 +27,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ImmoEnsemble();
 
@@ -40,7 +40,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new ImmoEnsemble();
 
@@ -53,7 +53,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEnsemble() {
+    public function testSetNumeroEnsemble(): void {
 
         $obj = new ImmoEnsemble();
 
@@ -66,7 +66,7 @@ class ImmoEnsembleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ImmoEnsemble();
 

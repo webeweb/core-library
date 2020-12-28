@@ -24,28 +24,28 @@ class AlertesEnCours {
     /**
      * Ar demande.
      *
-     * @var bool
+     * @var bool|null
      */
     private $arDemande;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collab dst.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabDst;
 
     /**
      * Code collab org.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabOrg;
 
@@ -66,14 +66,14 @@ class AlertesEnCours {
     /**
      * Id alerte.
      *
-     * @var int
+     * @var int|null
      */
     private $idAlerte;
 
     /**
      * Texte alerte.
      *
-     * @var string
+     * @var string|null
      */
     private $texteAlerte;
 
@@ -81,42 +81,42 @@ class AlertesEnCours {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ar demande.
      *
-     * @return bool Returns the ar demande.
+     * @return bool|null Returns the ar demande.
      */
-    public function getArDemande() {
+    public function getArDemande(): ?bool {
         return $this->arDemande;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code collab dst.
      *
-     * @return string Returns the code collab dst.
+     * @return string|null Returns the code collab dst.
      */
-    public function getCodeCollabDst() {
+    public function getCodeCollabDst(): ?string {
         return $this->codeCollabDst;
     }
 
     /**
      * Get the code collab org.
      *
-     * @return string Returns the code collab org.
+     * @return string|null Returns the code collab org.
      */
-    public function getCodeCollabOrg() {
+    public function getCodeCollabOrg(): ?string {
         return $this->codeCollabOrg;
     }
 
@@ -125,7 +125,7 @@ class AlertesEnCours {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -134,35 +134,35 @@ class AlertesEnCours {
      *
      * @return DateTime|null Returns the date declenchement.
      */
-    public function getDateDeclenchement() {
+    public function getDateDeclenchement(): ?DateTime {
         return $this->dateDeclenchement;
     }
 
     /**
      * Get the id alerte.
      *
-     * @return int Returns the id alerte.
+     * @return int|null Returns the id alerte.
      */
-    public function getIdAlerte() {
+    public function getIdAlerte(): ?int {
         return $this->idAlerte;
     }
 
     /**
      * Get the texte alerte.
      *
-     * @return string Returns the texte alerte.
+     * @return string|null Returns the texte alerte.
      */
-    public function getTexteAlerte() {
+    public function getTexteAlerte(): ?string {
         return $this->texteAlerte;
     }
 
     /**
      * Set the ar demande.
      *
-     * @param bool $arDemande The ar demande.
+     * @param bool|null $arDemande The ar demande.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setArDemande($arDemande) {
+    public function setArDemande(?bool $arDemande): AlertesEnCours {
         $this->arDemande = $arDemande;
         return $this;
     }
@@ -170,10 +170,10 @@ class AlertesEnCours {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): AlertesEnCours {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -181,10 +181,10 @@ class AlertesEnCours {
     /**
      * Set the code collab dst.
      *
-     * @param string $codeCollabDst The code collab dst.
+     * @param string|null $codeCollabDst The code collab dst.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setCodeCollabDst($codeCollabDst) {
+    public function setCodeCollabDst(?string $codeCollabDst): AlertesEnCours {
         $this->codeCollabDst = $codeCollabDst;
         return $this;
     }
@@ -192,10 +192,10 @@ class AlertesEnCours {
     /**
      * Set the code collab org.
      *
-     * @param string $codeCollabOrg The code collab org.
+     * @param string|null $codeCollabOrg The code collab org.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setCodeCollabOrg($codeCollabOrg) {
+    public function setCodeCollabOrg(?string $codeCollabOrg): AlertesEnCours {
         $this->codeCollabOrg = $codeCollabOrg;
         return $this;
     }
@@ -206,7 +206,7 @@ class AlertesEnCours {
      * @param DateTime|null $dateCreation The date creation.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): AlertesEnCours {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -217,7 +217,7 @@ class AlertesEnCours {
      * @param DateTime|null $dateDeclenchement The date declenchement.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setDateDeclenchement(DateTime $dateDeclenchement = null) {
+    public function setDateDeclenchement(?DateTime $dateDeclenchement): AlertesEnCours {
         $this->dateDeclenchement = $dateDeclenchement;
         return $this;
     }
@@ -225,10 +225,10 @@ class AlertesEnCours {
     /**
      * Set the id alerte.
      *
-     * @param int $idAlerte The id alerte.
+     * @param int|null $idAlerte The id alerte.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setIdAlerte($idAlerte) {
+    public function setIdAlerte(?int $idAlerte): AlertesEnCours {
         $this->idAlerte = $idAlerte;
         return $this;
     }
@@ -236,10 +236,10 @@ class AlertesEnCours {
     /**
      * Set the texte alerte.
      *
-     * @param string $texteAlerte The texte alerte.
+     * @param string|null $texteAlerte The texte alerte.
      * @return AlertesEnCours Returns this Alertes en cours.
      */
-    public function setTexteAlerte($texteAlerte) {
+    public function setTexteAlerte(?string $texteAlerte): AlertesEnCours {
         $this->texteAlerte = $texteAlerte;
         return $this;
     }

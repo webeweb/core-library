@@ -22,25 +22,25 @@ trait FloatExcludingVatTotalTrait {
     /**
      * Excluding VAT total.
      *
-     * @var float
+     * @var float|null
      */
     protected $excludingVatTotal;
 
     /**
      * Get the excluding VAT total.
      *
-     * @return float Returns the excluding VAT total.
+     * @return float|null Returns the excluding VAT total.
      */
-    public function getExcludingVatTotal() {
+    public function getExcludingVatTotal(): ?float {
         return $this->excludingVatTotal;
     }
 
     /**
      * Set the excluding VAT total.
      *
-     * @param float $excludingVatTotal The excluding VAT total.
+     * @param float|null $excludingVatTotal The excluding VAT total.
      */
-    public function setExcludingVatTotal($excludingVatTotal) {
+    public function setExcludingVatTotal(?float $excludingVatTotal) {
         $this->excludingVatTotal = $excludingVatTotal;
         return $this;
     }

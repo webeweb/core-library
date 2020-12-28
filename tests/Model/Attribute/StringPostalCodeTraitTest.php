@@ -27,7 +27,7 @@ class StringPostalCodeTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPostalCode() {
+    public function testSetPostalCode(): void {
 
         $obj = new TestStringPostalCodeTrait();
 
@@ -40,7 +40,7 @@ class StringPostalCodeTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringPostalCodeTrait();
 

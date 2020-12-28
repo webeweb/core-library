@@ -29,7 +29,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAgirc() {
+    public function testSetAgirc(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -42,7 +42,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAgircEvo() {
+    public function testSetAgircEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -55,7 +55,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCadre() {
+    public function testSetCadre(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -68,7 +68,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCadreEvo() {
+    public function testSetCadreEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -81,7 +81,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCddcdi() {
+    public function testSetCddcdi(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -94,7 +94,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCddcdiEvo() {
+    public function testSetCddcdiEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -107,7 +107,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollegePrud() {
+    public function testSetCodeCollegePrud(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -120,7 +120,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollegePrudPrec() {
+    public function testSetCodeCollegePrudPrec(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -133,7 +133,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -146,7 +146,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSectionPrud() {
+    public function testSetCodeSectionPrud(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -159,7 +159,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSectionPrudPrec() {
+    public function testSetCodeSectionPrudPrec(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -172,7 +172,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUnite() {
+    public function testSetCodeUnite(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -185,7 +185,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffEmploi() {
+    public function testSetCoeffEmploi(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -198,7 +198,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffEmploiEvo() {
+    public function testSetCoeffEmploiEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -211,7 +211,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires() {
+    public function testSetCommentaires(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -224,7 +224,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContrat() {
+    public function testSetContrat(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -237,7 +237,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContratEvo() {
+    public function testSetContratEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -251,7 +251,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -268,7 +268,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEvo() {
+    public function testSetDateEvo(): void {
 
         // Set a Date/time mock.
         $dateEvo = new DateTime("2018-09-10");
@@ -285,7 +285,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSortie() {
+    public function testSetDateSortie(): void {
 
         // Set a Date/time mock.
         $dateSortie = new DateTime("2018-09-10");
@@ -302,7 +302,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebAbs() {
+    public function testSetDtDebAbs(): void {
 
         // Set a Date/time mock.
         $dtDebAbs = new DateTime("2018-09-10");
@@ -319,7 +319,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinAbs() {
+    public function testSetDtFinAbs(): void {
 
         // Set a Date/time mock.
         $dtFinAbs = new DateTime("2018-09-10");
@@ -335,7 +335,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeTrav() {
+    public function testSetDureeTrav(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -348,7 +348,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeTravPrec() {
+    public function testSetDureeTravPrec(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -361,7 +361,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmploi() {
+    public function testSetEmploi(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -374,7 +374,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmploiEvo() {
+    public function testSetEmploiEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -387,7 +387,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoAgirc() {
+    public function testSetEvoAgirc(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -400,7 +400,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoCadre() {
+    public function testSetEvoCadre(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -413,7 +413,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoCddcdi() {
+    public function testSetEvoCddcdi(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -426,7 +426,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoContrat() {
+    public function testSetEvoContrat(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -439,7 +439,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoCrcca36() {
+    public function testSetEvoCrcca36(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -452,7 +452,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoCrcca4Bis() {
+    public function testSetEvoCrcca4Bis(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -465,7 +465,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoEmploi() {
+    public function testSetEvoEmploi(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -478,7 +478,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEvoFisc() {
+    public function testSetEvoFisc(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -491,7 +491,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFisc() {
+    public function testSetFisc(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -504,7 +504,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFiscEvo() {
+    public function testSetFiscEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -517,7 +517,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHEquivalence() {
+    public function testSetHEquivalence(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -530,7 +530,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHEquivalencePrec() {
+    public function testSetHEquivalencePrec(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -543,7 +543,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuTravail() {
+    public function testSetLieuTravail(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -556,7 +556,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieuTravailEvo() {
+    public function testSetLieuTravailEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -569,7 +569,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant11() {
+    public function testSetMontant11(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -582,7 +582,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant12() {
+    public function testSetMontant12(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -595,7 +595,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant13() {
+    public function testSetMontant13(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -608,7 +608,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant14() {
+    public function testSetMontant14(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -621,7 +621,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant21() {
+    public function testSetMontant21(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -634,7 +634,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant22() {
+    public function testSetMontant22(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -647,7 +647,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant23() {
+    public function testSetMontant23(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -660,7 +660,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant24() {
+    public function testSetMontant24(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -673,7 +673,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant31() {
+    public function testSetMontant31(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -686,7 +686,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant32() {
+    public function testSetMontant32(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -699,7 +699,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant33() {
+    public function testSetMontant33(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -712,7 +712,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant34() {
+    public function testSetMontant34(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -725,7 +725,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre11() {
+    public function testSetMontantAutre11(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -738,7 +738,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre12() {
+    public function testSetMontantAutre12(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -751,7 +751,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre13() {
+    public function testSetMontantAutre13(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -764,7 +764,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre14() {
+    public function testSetMontantAutre14(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -777,7 +777,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre21() {
+    public function testSetMontantAutre21(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -790,7 +790,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre22() {
+    public function testSetMontantAutre22(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -803,7 +803,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre23() {
+    public function testSetMontantAutre23(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -816,7 +816,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre24() {
+    public function testSetMontantAutre24(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -829,7 +829,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre31() {
+    public function testSetMontantAutre31(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -842,7 +842,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre32() {
+    public function testSetMontantAutre32(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -855,7 +855,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre33() {
+    public function testSetMontantAutre33(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -868,7 +868,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAutre34() {
+    public function testSetMontantAutre34(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -881,7 +881,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSmicRetenu1() {
+    public function testSetMontantSmicRetenu1(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -894,7 +894,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSmicRetenu2() {
+    public function testSetMontantSmicRetenu2(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -907,7 +907,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSmicRetenu3() {
+    public function testSetMontantSmicRetenu3(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -920,7 +920,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures1() {
+    public function testSetNbHeures1(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -933,7 +933,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures2() {
+    public function testSetNbHeures2(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -946,7 +946,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures3() {
+    public function testSetNbHeures3(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -959,7 +959,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJours1() {
+    public function testSetNbJours1(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -972,7 +972,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJours2() {
+    public function testSetNbJours2(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -985,7 +985,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJours3() {
+    public function testSetNbJours3(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -998,7 +998,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNir() {
+    public function testSetNir(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1011,7 +1011,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomEmploye() {
+    public function testSetNomEmploye(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1024,7 +1024,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1037,7 +1037,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye2() {
+    public function testSetNumeroEmploye2(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1050,7 +1050,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPCentPartiel() {
+    public function testSetPCentPartiel(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1064,7 +1064,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDeb1() {
+    public function testSetPerDeb1(): void {
 
         // Set a Date/time mock.
         $perDeb1 = new DateTime("2018-09-10");
@@ -1081,7 +1081,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDeb2() {
+    public function testSetPerDeb2(): void {
 
         // Set a Date/time mock.
         $perDeb2 = new DateTime("2018-09-10");
@@ -1098,7 +1098,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDeb3() {
+    public function testSetPerDeb3(): void {
 
         // Set a Date/time mock.
         $perDeb3 = new DateTime("2018-09-10");
@@ -1115,7 +1115,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerFin1() {
+    public function testSetPerFin1(): void {
 
         // Set a Date/time mock.
         $perFin1 = new DateTime("2018-09-10");
@@ -1132,7 +1132,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerFin2() {
+    public function testSetPerFin2(): void {
 
         // Set a Date/time mock.
         $perFin2 = new DateTime("2018-09-10");
@@ -1149,7 +1149,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerFin3() {
+    public function testSetPerFin3(): void {
 
         // Set a Date/time mock.
         $perFin3 = new DateTime("2018-09-10");
@@ -1166,7 +1166,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -1182,7 +1182,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1195,7 +1195,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicitePrec() {
+    public function testSetPeriodicitePrec(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1208,7 +1208,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenomEmploye() {
+    public function testSetPrenomEmploye(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1221,7 +1221,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisonnier() {
+    public function testSetSaisonnier(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1234,7 +1234,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisonnierPrec() {
+    public function testSetSaisonnierPrec(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1247,7 +1247,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1260,7 +1260,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetServiceEvo() {
+    public function testSetServiceEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1273,7 +1273,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuspensionZrrzru1() {
+    public function testSetSuspensionZrrzru1(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1286,7 +1286,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuspensionZrrzru2() {
+    public function testSetSuspensionZrrzru2(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1299,7 +1299,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuspensionZrrzru3() {
+    public function testSetSuspensionZrrzru3(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1312,7 +1312,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSmicFillon1() {
+    public function testSetTauxSmicFillon1(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1325,7 +1325,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSmicFillon2() {
+    public function testSetTauxSmicFillon2(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1338,7 +1338,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSmicFillon3() {
+    public function testSetTauxSmicFillon3(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1351,7 +1351,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTempsPartiel() {
+    public function testSetTempsPartiel(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1364,7 +1364,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTempsPartielEvo() {
+    public function testSetTempsPartielEvo(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1377,7 +1377,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalGeneral() {
+    public function testSetTotalGeneral(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1390,7 +1390,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsence() {
+    public function testSetTypeAbsence(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1403,7 +1403,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun11() {
+    public function testSetTypeAutreRemun11(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1416,7 +1416,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun12() {
+    public function testSetTypeAutreRemun12(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1429,7 +1429,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun13() {
+    public function testSetTypeAutreRemun13(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1442,7 +1442,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun14() {
+    public function testSetTypeAutreRemun14(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1455,7 +1455,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun21() {
+    public function testSetTypeAutreRemun21(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1468,7 +1468,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun22() {
+    public function testSetTypeAutreRemun22(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1481,7 +1481,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun23() {
+    public function testSetTypeAutreRemun23(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1494,7 +1494,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun24() {
+    public function testSetTypeAutreRemun24(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1507,7 +1507,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun31() {
+    public function testSetTypeAutreRemun31(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1520,7 +1520,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun32() {
+    public function testSetTypeAutreRemun32(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1533,7 +1533,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun33() {
+    public function testSetTypeAutreRemun33(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1546,7 +1546,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAutreRemun34() {
+    public function testSetTypeAutreRemun34(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1559,7 +1559,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCrccaEmp() {
+    public function testSetTypeCrccaEmp(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1572,7 +1572,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun11() {
+    public function testSetTypeRemun11(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1585,7 +1585,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun12() {
+    public function testSetTypeRemun12(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1598,7 +1598,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun13() {
+    public function testSetTypeRemun13(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1611,7 +1611,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun14() {
+    public function testSetTypeRemun14(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1624,7 +1624,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun21() {
+    public function testSetTypeRemun21(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1637,7 +1637,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun22() {
+    public function testSetTypeRemun22(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1650,7 +1650,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun23() {
+    public function testSetTypeRemun23(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1663,7 +1663,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun24() {
+    public function testSetTypeRemun24(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1676,7 +1676,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun31() {
+    public function testSetTypeRemun31(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1689,7 +1689,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun32() {
+    public function testSetTypeRemun32(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1702,7 +1702,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun33() {
+    public function testSetTypeRemun33(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1715,7 +1715,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeRemun34() {
+    public function testSetTypeRemun34(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1728,7 +1728,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTravail() {
+    public function testSetTypeTravail(): void {
 
         $obj = new LignesMsaEmploye();
 
@@ -1741,7 +1741,7 @@ class LignesMsaEmployeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesMsaEmploye();
 

@@ -29,7 +29,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -42,7 +42,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -55,7 +55,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -68,7 +68,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeElement() {
+    public function testSetCodeElement(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -81,7 +81,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -95,7 +95,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMiseEnConformite() {
+    public function testSetMiseEnConformite(): void {
 
         // Set a Date/time mock.
         $miseEnConformite = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauNoeud() {
+    public function testSetNiveauNoeud(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -124,7 +124,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNote() {
+    public function testSetNote(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -137,7 +137,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroFiche() {
+    public function testSetNumeroFiche(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -150,7 +150,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroNoeud() {
+    public function testSetNumeroNoeud(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -163,7 +163,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeElement() {
+    public function testSetTypeElement(): void {
 
         $obj = new FichesControlesLignesElements();
 
@@ -176,7 +176,7 @@ class FichesControlesLignesElementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesControlesLignesElements();
 

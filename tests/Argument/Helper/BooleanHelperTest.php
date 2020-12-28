@@ -27,7 +27,7 @@ class BooleanHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseString() {
+    public function testParseString(): void {
 
         $this->assertFalse(BooleanHelper::parseString(null));
         $this->assertFalse(BooleanHelper::parseString(""));

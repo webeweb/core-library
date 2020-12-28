@@ -27,7 +27,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFiltre() {
+    public function testSetCodeFiltre(): void {
 
         $obj = new FiltreEntetes();
 
@@ -40,7 +40,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollaborateur() {
+    public function testSetCollaborateur(): void {
 
         $obj = new FiltreEntetes();
 
@@ -53,7 +53,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommercialFacture() {
+    public function testSetCommercialFacture(): void {
 
         $obj = new FiltreEntetes();
 
@@ -66,7 +66,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFonctionnalite() {
+    public function testSetFonctionnalite(): void {
 
         $obj = new FiltreEntetes();
 
@@ -79,7 +79,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new FiltreEntetes();
 
@@ -92,7 +92,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFiltre() {
+    public function testSetTypeFiltre(): void {
 
         $obj = new FiltreEntetes();
 
@@ -105,7 +105,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new FiltreEntetes();
 
@@ -118,7 +118,7 @@ class FiltreEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FiltreEntetes();
 

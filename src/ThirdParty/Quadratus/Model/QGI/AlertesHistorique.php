@@ -24,28 +24,28 @@ class AlertesHistorique {
     /**
      * Ar envoye.
      *
-     * @var bool
+     * @var bool|null
      */
     private $arEnvoye;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collab dst.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabDst;
 
     /**
      * Code collab org.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabOrg;
 
@@ -73,64 +73,65 @@ class AlertesHistorique {
     /**
      * Id alerte histo.
      *
-     * @var int
+     * @var int|null
      */
     private $idAlerteHisto;
 
     /**
      * Texte alerte.
      *
-     * @var string
+     * @var string|null
      */
     private $texteAlerte;
 
     /**
      * Texte reponse.
      *
-     * @var string
+     * @var string|null
      */
     private $texteReponse;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ar envoye.
      *
-     * @return bool Returns the ar envoye.
+     * @return bool|null Returns the ar envoye.
      */
-    public function getArEnvoye() {
+    public function getArEnvoye(): ?bool{
         return $this->arEnvoye;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collab dst.
      *
-     * @return string Returns the code collab dst.
+     * @return string|null Returns the code collab dst.
      */
-    public function getCodeCollabDst() {
+    public function getCodeCollabDst(): ?string{
         return $this->codeCollabDst;
     }
 
     /**
      * Get the code collab org.
      *
-     * @return string Returns the code collab org.
+     * @return string|null Returns the code collab org.
      */
-    public function getCodeCollabOrg() {
+    public function getCodeCollabOrg(): ?string{
         return $this->codeCollabOrg;
     }
 
@@ -139,7 +140,7 @@ class AlertesHistorique {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
@@ -148,7 +149,7 @@ class AlertesHistorique {
      *
      * @return DateTime|null Returns the date declenchement.
      */
-    public function getDateDeclenchement() {
+    public function getDateDeclenchement(): ?DateTime{
         return $this->dateDeclenchement;
     }
 
@@ -157,44 +158,44 @@ class AlertesHistorique {
      *
      * @return DateTime|null Returns the date reponse.
      */
-    public function getDateReponse() {
+    public function getDateReponse(): ?DateTime{
         return $this->dateReponse;
     }
 
     /**
      * Get the id alerte histo.
      *
-     * @return int Returns the id alerte histo.
+     * @return int|null Returns the id alerte histo.
      */
-    public function getIdAlerteHisto() {
+    public function getIdAlerteHisto(): ?int{
         return $this->idAlerteHisto;
     }
 
     /**
      * Get the texte alerte.
      *
-     * @return string Returns the texte alerte.
+     * @return string|null Returns the texte alerte.
      */
-    public function getTexteAlerte() {
+    public function getTexteAlerte(): ?string{
         return $this->texteAlerte;
     }
 
     /**
      * Get the texte reponse.
      *
-     * @return string Returns the texte reponse.
+     * @return string|null Returns the texte reponse.
      */
-    public function getTexteReponse() {
+    public function getTexteReponse(): ?string{
         return $this->texteReponse;
     }
 
     /**
      * Set the ar envoye.
      *
-     * @param bool $arEnvoye The ar envoye.
+     * @param bool|null $arEnvoye The ar envoye.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setArEnvoye($arEnvoye) {
+    public function setArEnvoye(?bool $arEnvoye): AlertesHistorique {
         $this->arEnvoye = $arEnvoye;
         return $this;
     }
@@ -202,10 +203,10 @@ class AlertesHistorique {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): AlertesHistorique {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -213,10 +214,10 @@ class AlertesHistorique {
     /**
      * Set the code collab dst.
      *
-     * @param string $codeCollabDst The code collab dst.
+     * @param string|null $codeCollabDst The code collab dst.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setCodeCollabDst($codeCollabDst) {
+    public function setCodeCollabDst(?string $codeCollabDst): AlertesHistorique {
         $this->codeCollabDst = $codeCollabDst;
         return $this;
     }
@@ -224,10 +225,10 @@ class AlertesHistorique {
     /**
      * Set the code collab org.
      *
-     * @param string $codeCollabOrg The code collab org.
+     * @param string|null $codeCollabOrg The code collab org.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setCodeCollabOrg($codeCollabOrg) {
+    public function setCodeCollabOrg(?string $codeCollabOrg): AlertesHistorique {
         $this->codeCollabOrg = $codeCollabOrg;
         return $this;
     }
@@ -238,7 +239,7 @@ class AlertesHistorique {
      * @param DateTime|null $dateCreation The date creation.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): AlertesHistorique {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -249,7 +250,7 @@ class AlertesHistorique {
      * @param DateTime|null $dateDeclenchement The date declenchement.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setDateDeclenchement(DateTime $dateDeclenchement = null) {
+    public function setDateDeclenchement(?DateTime $dateDeclenchement): AlertesHistorique {
         $this->dateDeclenchement = $dateDeclenchement;
         return $this;
     }
@@ -260,7 +261,7 @@ class AlertesHistorique {
      * @param DateTime|null $dateReponse The date reponse.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setDateReponse(DateTime $dateReponse = null) {
+    public function setDateReponse(?DateTime $dateReponse): AlertesHistorique {
         $this->dateReponse = $dateReponse;
         return $this;
     }
@@ -268,10 +269,10 @@ class AlertesHistorique {
     /**
      * Set the id alerte histo.
      *
-     * @param int $idAlerteHisto The id alerte histo.
+     * @param int|null $idAlerteHisto The id alerte histo.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setIdAlerteHisto($idAlerteHisto) {
+    public function setIdAlerteHisto(?int $idAlerteHisto): AlertesHistorique {
         $this->idAlerteHisto = $idAlerteHisto;
         return $this;
     }
@@ -279,10 +280,10 @@ class AlertesHistorique {
     /**
      * Set the texte alerte.
      *
-     * @param string $texteAlerte The texte alerte.
+     * @param string|null $texteAlerte The texte alerte.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setTexteAlerte($texteAlerte) {
+    public function setTexteAlerte(?string $texteAlerte): AlertesHistorique {
         $this->texteAlerte = $texteAlerte;
         return $this;
     }
@@ -290,10 +291,10 @@ class AlertesHistorique {
     /**
      * Set the texte reponse.
      *
-     * @param string $texteReponse The texte reponse.
+     * @param string|null $texteReponse The texte reponse.
      * @return AlertesHistorique Returns this Alertes historique.
      */
-    public function setTexteReponse($texteReponse) {
+    public function setTexteReponse(?string $texteReponse): AlertesHistorique {
         $this->texteReponse = $texteReponse;
         return $this;
     }

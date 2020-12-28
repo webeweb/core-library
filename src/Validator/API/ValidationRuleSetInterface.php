@@ -25,14 +25,14 @@ interface ValidationRuleSetInterface {
      * @param ValidationRuleInterface $rule The rule.
      * @return ValidationRuleSetInterface Returns this validation rule set.
      */
-    public function addRule(ValidationRuleInterface $rule);
+    public function addRule(ValidationRuleInterface $rule): ValidationRuleSetInterface;
 
     /**
      * Get the rules.
      *
      * @return ValidationRuleInterface[] Returns the rules.
      */
-    public function getRules();
+    public function getRules(): array;
 
     /**
      * Remove a rule.
@@ -40,7 +40,7 @@ interface ValidationRuleSetInterface {
      * @param ValidationRuleInterface $rule The rule.
      * @return ValidationRuleSetInterface Returns this validation rule set.
      */
-    public function removeRule(ValidationRuleInterface $rule);
+    public function removeRule(ValidationRuleInterface $rule): ValidationRuleSetInterface;
 
     /**
      * Validate.
@@ -48,5 +48,5 @@ interface ValidationRuleSetInterface {
      * @param mixed $object The object.
      * @return ValidationStatusInterface[] Returns the validation status.
      */
-    public function validate($object);
+    public function validate($object): array;
 }

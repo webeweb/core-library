@@ -24,7 +24,7 @@ class JoursFeries {
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
@@ -35,19 +35,20 @@ class JoursFeries {
      */
     private $jour;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
@@ -56,17 +57,17 @@ class JoursFeries {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour() {
+    public function getJour(): ?DateTime{
         return $this->jour;
     }
 
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return JoursFeries Returns this Jours feries.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): JoursFeries {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -77,7 +78,7 @@ class JoursFeries {
      * @param DateTime|null $jour The jour.
      * @return JoursFeries Returns this Jours feries.
      */
-    public function setJour(DateTime $jour = null) {
+    public function setJour(?DateTime $jour): JoursFeries {
         $this->jour = $jour;
         return $this;
     }

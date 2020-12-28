@@ -22,25 +22,25 @@ trait StringUrlTrait {
     /**
      * URL.
      *
-     * @var string
+     * @var string|null
      */
     protected $url;
 
     /**
      * Get the URL.
      *
-     * @return string Returns the URL.
+     * @return string|null Returns the URL.
      */
-    public function getUrl() {
+    public function getUrl(): ?string {
         return $this->url;
     }
 
     /**
      * Set the URL.
      *
-     * @param string $url The URL.
+     * @param string|null $url The URL.
      */
-    public function setUrl($url) {
+    public function setUrl(?string $url) {
         $this->url = $url;
         return $this;
     }

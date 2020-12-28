@@ -27,7 +27,7 @@ class StringLocationTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLocation() {
+    public function testSetLocation(): void {
 
         $obj = new TestStringLocationTrait();
 
@@ -40,7 +40,7 @@ class StringLocationTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringLocationTrait();
 

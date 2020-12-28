@@ -22,97 +22,98 @@ class LibellesiPaie {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Intitule specifi paie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $intituleSpecifiPaie;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Visiblei paie.
      *
-     * @var string
+     * @var string|null
      */
     private $visibleiPaie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the intitule specifi paie.
      *
-     * @return bool Returns the intitule specifi paie.
+     * @return bool|null Returns the intitule specifi paie.
      */
-    public function getIntituleSpecifiPaie() {
+    public function getIntituleSpecifiPaie(): ?bool{
         return $this->intituleSpecifiPaie;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the visiblei paie.
      *
-     * @return string Returns the visiblei paie.
+     * @return string|null Returns the visiblei paie.
      */
-    public function getVisibleiPaie() {
+    public function getVisibleiPaie(): ?string{
         return $this->visibleiPaie;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return LibellesiPaie Returns this Libellesi paie.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): LibellesiPaie {
         $this->code = $code;
         return $this;
     }
@@ -120,10 +121,10 @@ class LibellesiPaie {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return LibellesiPaie Returns this Libellesi paie.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): LibellesiPaie {
         $this->intitule = $intitule;
         return $this;
     }
@@ -131,10 +132,10 @@ class LibellesiPaie {
     /**
      * Set the intitule specifi paie.
      *
-     * @param bool $intituleSpecifiPaie The intitule specifi paie.
+     * @param bool|null $intituleSpecifiPaie The intitule specifi paie.
      * @return LibellesiPaie Returns this Libellesi paie.
      */
-    public function setIntituleSpecifiPaie($intituleSpecifiPaie) {
+    public function setIntituleSpecifiPaie(?bool $intituleSpecifiPaie): LibellesiPaie {
         $this->intituleSpecifiPaie = $intituleSpecifiPaie;
         return $this;
     }
@@ -142,10 +143,10 @@ class LibellesiPaie {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return LibellesiPaie Returns this Libellesi paie.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): LibellesiPaie {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -153,10 +154,10 @@ class LibellesiPaie {
     /**
      * Set the visiblei paie.
      *
-     * @param string $visibleiPaie The visiblei paie.
+     * @param string|null $visibleiPaie The visiblei paie.
      * @return LibellesiPaie Returns this Libellesi paie.
      */
-    public function setVisibleiPaie($visibleiPaie) {
+    public function setVisibleiPaie(?string $visibleiPaie): LibellesiPaie {
         $this->visibleiPaie = $visibleiPaie;
         return $this;
     }

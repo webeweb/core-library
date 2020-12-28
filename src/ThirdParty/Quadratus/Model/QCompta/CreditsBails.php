@@ -24,233 +24,156 @@ class CreditsBails {
     /**
      * Ad amort anterieur.
      *
-     * @var float
+     * @var float|null
      */
     private $adAmortAnterieur;
 
     /**
      * Ad amort anterieur2.
      *
-     * @var float
+     * @var float|null
      */
     private $adAmortAnterieur2;
 
     /**
      * Ad annees amort.
      *
-     * @var float
+     * @var float|null
      */
     private $adAnneesAmort;
 
     /**
      * Ad coeff degressif.
      *
-     * @var float
+     * @var float|null
      */
     private $adCoeffDegressif;
 
     /**
      * Ad dotation.
      *
-     * @var float
+     * @var float|null
      */
     private $adDotation;
 
     /**
      * Ad dotation2.
      *
-     * @var float
+     * @var float|null
      */
     private $adDotation2;
 
     /**
      * Ad dotation except.
      *
-     * @var float
+     * @var float|null
      */
     private $adDotationExcept;
 
     /**
      * Ad duree.
      *
-     * @var float
+     * @var float|null
      */
     private $adDuree;
 
     /**
      * Ad taux lineaire.
      *
-     * @var float
+     * @var float|null
      */
     private $adTauxLineaire;
 
     /**
      * Ad type.
      *
-     * @var string
+     * @var string|null
      */
     private $adType;
 
     /**
      * Af amort anterieur.
      *
-     * @var float
+     * @var float|null
      */
     private $afAmortAnterieur;
 
     /**
      * Af annees amort.
      *
-     * @var float
+     * @var float|null
      */
     private $afAnneesAmort;
 
     /**
      * Af coeff degressif.
      *
-     * @var float
+     * @var float|null
      */
     private $afCoeffDegressif;
 
     /**
      * Af dotation.
      *
-     * @var float
+     * @var float|null
      */
     private $afDotation;
 
     /**
      * Af duree.
      *
-     * @var float
+     * @var float|null
      */
     private $afDuree;
 
     /**
+     * Afsii.
+     *
+     * @var bool|null
+     */
+    private $afsii;
+
+    /**
      * Af taux except.
      *
-     * @var float
+     * @var float|null
      */
     private $afTauxExcept;
 
     /**
      * Af taux lineaire.
      *
-     * @var float
+     * @var float|null
      */
     private $afTauxLineaire;
 
     /**
      * Af type.
      *
-     * @var string
+     * @var string|null
      */
     private $afType;
 
     /**
-     * Afsii.
-     *
-     * @var bool
-     */
-    private $afsii;
-
-    /**
      * Base taxe pro.
      *
-     * @var float
+     * @var float|null
      */
     private $baseTaxePro;
 
     /**
      * Bureau.
      *
-     * @var string
+     * @var string|null
      */
     private $bureau;
 
     /**
      * Cb en francs.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cbEnFrancs;
-
-    /**
-     * Centre analytique.
-     *
-     * @var string
-     */
-    private $centreAnalytique;
-
-    /**
-     * Code journal echeance.
-     *
-     * @var string
-     */
-    private $codeJournalEcheance;
-
-    /**
-     * Code journal paiement.
-     *
-     * @var string
-     */
-    private $codeJournalPaiement;
-
-    /**
-     * Code tva.
-     *
-     * @var string
-     */
-    private $codeTva;
-
-    /**
-     * Compte frn.
-     *
-     * @var string
-     */
-    private $compteFrn;
-
-    /**
-     * Cpt assurance.
-     *
-     * @var string
-     */
-    private $cptAssurance;
-
-    /**
-     * Cpt charge.
-     *
-     * @var string
-     */
-    private $cptCharge;
-
-    /**
-     * Cpt entretien.
-     *
-     * @var string
-     */
-    private $cptEntretien;
-
-    /**
-     * Cpt tva.
-     *
-     * @var string
-     */
-    private $cptTva;
-
-    /**
-     * Cpt tva assu.
-     *
-     * @var string
-     */
-    private $cptTvaAssu;
-
-    /**
-     * Cr valeur euros.
-     *
-     * @var float
-     */
-    private $crValeurEuros;
 
     /**
      * Crr date.
@@ -260,53 +183,137 @@ class CreditsBails {
     private $crrDate;
 
     /**
-     * Crr px cession ht.
-     *
-     * @var float
-     */
-    private $crrPxCessionHt;
-
-    /**
-     * Crr qte vendue.
-     *
-     * @var float
-     */
-    private $crrQteVendue;
-
-    /**
-     * Crr suppl amort.
-     *
-     * @var float
-     */
-    private $crrSupplAmort;
-
-    /**
-     * Crr suppl valeur.
-     *
-     * @var float
-     */
-    private $crrSupplValeur;
-
-    /**
-     * Crr type.
-     *
-     * @var string
-     */
-    private $crrType;
-
-    /**
      * Crrpm value ct.
      *
-     * @var float
+     * @var float|null
      */
     private $crrpmValueCt;
 
     /**
      * Crrpm value lt.
      *
-     * @var float
+     * @var float|null
      */
     private $crrpmValueLt;
+
+    /**
+     * Crr px cession ht.
+     *
+     * @var float|null
+     */
+    private $crrPxCessionHt;
+
+    /**
+     * Crr qte vendue.
+     *
+     * @var float|null
+     */
+    private $crrQteVendue;
+
+    /**
+     * Crr suppl amort.
+     *
+     * @var float|null
+     */
+    private $crrSupplAmort;
+
+    /**
+     * Crr suppl valeur.
+     *
+     * @var float|null
+     */
+    private $crrSupplValeur;
+
+    /**
+     * Crr type.
+     *
+     * @var string|null
+     */
+    private $crrType;
+
+    /**
+     * Cr valeur euros.
+     *
+     * @var float|null
+     */
+    private $crValeurEuros;
+
+    /**
+     * Centre analytique.
+     *
+     * @var string|null
+     */
+    private $centreAnalytique;
+
+    /**
+     * Code journal echeance.
+     *
+     * @var string|null
+     */
+    private $codeJournalEcheance;
+
+    /**
+     * Code journal paiement.
+     *
+     * @var string|null
+     */
+    private $codeJournalPaiement;
+
+    /**
+     * Code tva.
+     *
+     * @var string|null
+     */
+    private $codeTva;
+
+    /**
+     * Compte frn.
+     *
+     * @var string|null
+     */
+    private $compteFrn;
+
+    /**
+     * Cpt assurance.
+     *
+     * @var string|null
+     */
+    private $cptAssurance;
+
+    /**
+     * Cpt charge.
+     *
+     * @var string|null
+     */
+    private $cptCharge;
+
+    /**
+     * Cpt entretien.
+     *
+     * @var string|null
+     */
+    private $cptEntretien;
+
+    /**
+     * Cpt tva.
+     *
+     * @var string|null
+     */
+    private $cptTva;
+
+    /**
+     * Cpt tva assu.
+     *
+     * @var string|null
+     */
+    private $cptTvaAssu;
+
+    /**
+     * Din.
+     *
+     * @var bool|null
+     */
+    private $din;
 
     /**
      * Date acquisition.
@@ -323,170 +330,149 @@ class CreditsBails {
     private $dateMiseService;
 
     /**
-     * Din.
-     *
-     * @var bool
-     */
-    private $din;
-
-    /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Guid vehicule.
      *
-     * @var string
+     * @var string|null
      */
     private $guidVehicule;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Libelle frn.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleFrn;
 
     /**
      * Limite amort.
      *
-     * @var float
+     * @var float|null
      */
     private $limiteAmort;
 
     /**
      * Materiaux agricole.
      *
-     * @var bool
+     * @var bool|null
      */
     private $materiauxAgricole;
 
     /**
      * Montant tva.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTva;
 
     /**
      * Nature analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $natureAnalytique;
 
     /**
      * Num deux immo rachat.
      *
-     * @var int
+     * @var int|null
      */
     private $numDeuxImmoRachat;
 
     /**
      * Num immo rachat.
      *
-     * @var int
+     * @var int|null
      */
     private $numImmoRachat;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero deux.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroDeux;
 
     /**
      * Numero pj.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPj;
 
     /**
      * Quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite;
 
     /**
      * Service.
      *
-     * @var string
+     * @var string|null
      */
     private $service;
 
     /**
-     * Taxe fonciere.
-     *
-     * @var bool
-     */
-    private $taxeFonciere;
-
-    /**
-     * Taxe pro.
-     *
-     * @var bool
-     */
-    private $taxePro;
-
-    /**
      * Tp duree.
      *
-     * @var int
+     * @var int|null
      */
     private $tpDuree;
 
     /**
      * Tp echoir echu.
      *
-     * @var string
+     * @var string|null
      */
     private $tpEchoirEchu;
 
     /**
      * Tp mois annee.
      *
-     * @var string
+     * @var string|null
      */
     private $tpMoisAnnee;
 
     /**
      * Tp montt depot.
      *
-     * @var float
+     * @var float|null
      */
     private $tpMonttDepot;
 
     /**
      * Tp periodicite.
      *
-     * @var string
+     * @var string|null
      */
     private $tpPeriodicite;
 
@@ -498,321 +484,237 @@ class CreditsBails {
     private $tpPremierPaiement;
 
     /**
+     * Taxe fonciere.
+     *
+     * @var bool|null
+     */
+    private $taxeFonciere;
+
+    /**
+     * Taxe pro.
+     *
+     * @var bool|null
+     */
+    private $taxePro;
+
+    /**
      * Valeur euros.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurEuros;
 
     /**
      * Valeur ht.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurHt;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the ad amort anterieur.
      *
-     * @return float Returns the ad amort anterieur.
+     * @return float|null Returns the ad amort anterieur.
      */
-    public function getAdAmortAnterieur() {
+    public function getAdAmortAnterieur(): ?float{
         return $this->adAmortAnterieur;
     }
 
     /**
      * Get the ad amort anterieur2.
      *
-     * @return float Returns the ad amort anterieur2.
+     * @return float|null Returns the ad amort anterieur2.
      */
-    public function getAdAmortAnterieur2() {
+    public function getAdAmortAnterieur2(): ?float{
         return $this->adAmortAnterieur2;
     }
 
     /**
      * Get the ad annees amort.
      *
-     * @return float Returns the ad annees amort.
+     * @return float|null Returns the ad annees amort.
      */
-    public function getAdAnneesAmort() {
+    public function getAdAnneesAmort(): ?float{
         return $this->adAnneesAmort;
     }
 
     /**
      * Get the ad coeff degressif.
      *
-     * @return float Returns the ad coeff degressif.
+     * @return float|null Returns the ad coeff degressif.
      */
-    public function getAdCoeffDegressif() {
+    public function getAdCoeffDegressif(): ?float{
         return $this->adCoeffDegressif;
     }
 
     /**
      * Get the ad dotation.
      *
-     * @return float Returns the ad dotation.
+     * @return float|null Returns the ad dotation.
      */
-    public function getAdDotation() {
+    public function getAdDotation(): ?float{
         return $this->adDotation;
     }
 
     /**
      * Get the ad dotation2.
      *
-     * @return float Returns the ad dotation2.
+     * @return float|null Returns the ad dotation2.
      */
-    public function getAdDotation2() {
+    public function getAdDotation2(): ?float{
         return $this->adDotation2;
     }
 
     /**
      * Get the ad dotation except.
      *
-     * @return float Returns the ad dotation except.
+     * @return float|null Returns the ad dotation except.
      */
-    public function getAdDotationExcept() {
+    public function getAdDotationExcept(): ?float{
         return $this->adDotationExcept;
     }
 
     /**
      * Get the ad duree.
      *
-     * @return float Returns the ad duree.
+     * @return float|null Returns the ad duree.
      */
-    public function getAdDuree() {
+    public function getAdDuree(): ?float{
         return $this->adDuree;
     }
 
     /**
      * Get the ad taux lineaire.
      *
-     * @return float Returns the ad taux lineaire.
+     * @return float|null Returns the ad taux lineaire.
      */
-    public function getAdTauxLineaire() {
+    public function getAdTauxLineaire(): ?float{
         return $this->adTauxLineaire;
     }
 
     /**
      * Get the ad type.
      *
-     * @return string Returns the ad type.
+     * @return string|null Returns the ad type.
      */
-    public function getAdType() {
+    public function getAdType(): ?string{
         return $this->adType;
     }
 
     /**
      * Get the af amort anterieur.
      *
-     * @return float Returns the af amort anterieur.
+     * @return float|null Returns the af amort anterieur.
      */
-    public function getAfAmortAnterieur() {
+    public function getAfAmortAnterieur(): ?float{
         return $this->afAmortAnterieur;
     }
 
     /**
      * Get the af annees amort.
      *
-     * @return float Returns the af annees amort.
+     * @return float|null Returns the af annees amort.
      */
-    public function getAfAnneesAmort() {
+    public function getAfAnneesAmort(): ?float{
         return $this->afAnneesAmort;
     }
 
     /**
      * Get the af coeff degressif.
      *
-     * @return float Returns the af coeff degressif.
+     * @return float|null Returns the af coeff degressif.
      */
-    public function getAfCoeffDegressif() {
+    public function getAfCoeffDegressif(): ?float{
         return $this->afCoeffDegressif;
     }
 
     /**
      * Get the af dotation.
      *
-     * @return float Returns the af dotation.
+     * @return float|null Returns the af dotation.
      */
-    public function getAfDotation() {
+    public function getAfDotation(): ?float{
         return $this->afDotation;
     }
 
     /**
      * Get the af duree.
      *
-     * @return float Returns the af duree.
+     * @return float|null Returns the af duree.
      */
-    public function getAfDuree() {
+    public function getAfDuree(): ?float{
         return $this->afDuree;
+    }
+
+    /**
+     * Get the afsii.
+     *
+     * @return bool|null Returns the afsii.
+     */
+    public function getAfsii(): ?bool{
+        return $this->afsii;
     }
 
     /**
      * Get the af taux except.
      *
-     * @return float Returns the af taux except.
+     * @return float|null Returns the af taux except.
      */
-    public function getAfTauxExcept() {
+    public function getAfTauxExcept(): ?float{
         return $this->afTauxExcept;
     }
 
     /**
      * Get the af taux lineaire.
      *
-     * @return float Returns the af taux lineaire.
+     * @return float|null Returns the af taux lineaire.
      */
-    public function getAfTauxLineaire() {
+    public function getAfTauxLineaire(): ?float{
         return $this->afTauxLineaire;
     }
 
     /**
      * Get the af type.
      *
-     * @return string Returns the af type.
+     * @return string|null Returns the af type.
      */
-    public function getAfType() {
+    public function getAfType(): ?string{
         return $this->afType;
-    }
-
-    /**
-     * Get the afsii.
-     *
-     * @return bool Returns the afsii.
-     */
-    public function getAfsii() {
-        return $this->afsii;
     }
 
     /**
      * Get the base taxe pro.
      *
-     * @return float Returns the base taxe pro.
+     * @return float|null Returns the base taxe pro.
      */
-    public function getBaseTaxePro() {
+    public function getBaseTaxePro(): ?float{
         return $this->baseTaxePro;
     }
 
     /**
      * Get the bureau.
      *
-     * @return string Returns the bureau.
+     * @return string|null Returns the bureau.
      */
-    public function getBureau() {
+    public function getBureau(): ?string{
         return $this->bureau;
     }
 
     /**
      * Get the cb en francs.
      *
-     * @return bool Returns the cb en francs.
+     * @return bool|null Returns the cb en francs.
      */
-    public function getCbEnFrancs() {
+    public function getCbEnFrancs(): ?bool{
         return $this->cbEnFrancs;
-    }
-
-    /**
-     * Get the centre analytique.
-     *
-     * @return string Returns the centre analytique.
-     */
-    public function getCentreAnalytique() {
-        return $this->centreAnalytique;
-    }
-
-    /**
-     * Get the code journal echeance.
-     *
-     * @return string Returns the code journal echeance.
-     */
-    public function getCodeJournalEcheance() {
-        return $this->codeJournalEcheance;
-    }
-
-    /**
-     * Get the code journal paiement.
-     *
-     * @return string Returns the code journal paiement.
-     */
-    public function getCodeJournalPaiement() {
-        return $this->codeJournalPaiement;
-    }
-
-    /**
-     * Get the code tva.
-     *
-     * @return string Returns the code tva.
-     */
-    public function getCodeTva() {
-        return $this->codeTva;
-    }
-
-    /**
-     * Get the compte frn.
-     *
-     * @return string Returns the compte frn.
-     */
-    public function getCompteFrn() {
-        return $this->compteFrn;
-    }
-
-    /**
-     * Get the cpt assurance.
-     *
-     * @return string Returns the cpt assurance.
-     */
-    public function getCptAssurance() {
-        return $this->cptAssurance;
-    }
-
-    /**
-     * Get the cpt charge.
-     *
-     * @return string Returns the cpt charge.
-     */
-    public function getCptCharge() {
-        return $this->cptCharge;
-    }
-
-    /**
-     * Get the cpt entretien.
-     *
-     * @return string Returns the cpt entretien.
-     */
-    public function getCptEntretien() {
-        return $this->cptEntretien;
-    }
-
-    /**
-     * Get the cpt tva.
-     *
-     * @return string Returns the cpt tva.
-     */
-    public function getCptTva() {
-        return $this->cptTva;
-    }
-
-    /**
-     * Get the cpt tva assu.
-     *
-     * @return string Returns the cpt tva assu.
-     */
-    public function getCptTvaAssu() {
-        return $this->cptTvaAssu;
-    }
-
-    /**
-     * Get the cr valeur euros.
-     *
-     * @return float Returns the cr valeur euros.
-     */
-    public function getCrValeurEuros() {
-        return $this->crValeurEuros;
     }
 
     /**
@@ -820,71 +722,179 @@ class CreditsBails {
      *
      * @return DateTime|null Returns the crr date.
      */
-    public function getCrrDate() {
+    public function getCrrDate(): ?DateTime{
         return $this->crrDate;
-    }
-
-    /**
-     * Get the crr px cession ht.
-     *
-     * @return float Returns the crr px cession ht.
-     */
-    public function getCrrPxCessionHt() {
-        return $this->crrPxCessionHt;
-    }
-
-    /**
-     * Get the crr qte vendue.
-     *
-     * @return float Returns the crr qte vendue.
-     */
-    public function getCrrQteVendue() {
-        return $this->crrQteVendue;
-    }
-
-    /**
-     * Get the crr suppl amort.
-     *
-     * @return float Returns the crr suppl amort.
-     */
-    public function getCrrSupplAmort() {
-        return $this->crrSupplAmort;
-    }
-
-    /**
-     * Get the crr suppl valeur.
-     *
-     * @return float Returns the crr suppl valeur.
-     */
-    public function getCrrSupplValeur() {
-        return $this->crrSupplValeur;
-    }
-
-    /**
-     * Get the crr type.
-     *
-     * @return string Returns the crr type.
-     */
-    public function getCrrType() {
-        return $this->crrType;
     }
 
     /**
      * Get the crrpm value ct.
      *
-     * @return float Returns the crrpm value ct.
+     * @return float|null Returns the crrpm value ct.
      */
-    public function getCrrpmValueCt() {
+    public function getCrrpmValueCt(): ?float{
         return $this->crrpmValueCt;
     }
 
     /**
      * Get the crrpm value lt.
      *
-     * @return float Returns the crrpm value lt.
+     * @return float|null Returns the crrpm value lt.
      */
-    public function getCrrpmValueLt() {
+    public function getCrrpmValueLt(): ?float{
         return $this->crrpmValueLt;
+    }
+
+    /**
+     * Get the crr px cession ht.
+     *
+     * @return float|null Returns the crr px cession ht.
+     */
+    public function getCrrPxCessionHt(): ?float{
+        return $this->crrPxCessionHt;
+    }
+
+    /**
+     * Get the crr qte vendue.
+     *
+     * @return float|null Returns the crr qte vendue.
+     */
+    public function getCrrQteVendue(): ?float{
+        return $this->crrQteVendue;
+    }
+
+    /**
+     * Get the crr suppl amort.
+     *
+     * @return float|null Returns the crr suppl amort.
+     */
+    public function getCrrSupplAmort(): ?float{
+        return $this->crrSupplAmort;
+    }
+
+    /**
+     * Get the crr suppl valeur.
+     *
+     * @return float|null Returns the crr suppl valeur.
+     */
+    public function getCrrSupplValeur(): ?float{
+        return $this->crrSupplValeur;
+    }
+
+    /**
+     * Get the crr type.
+     *
+     * @return string|null Returns the crr type.
+     */
+    public function getCrrType(): ?string{
+        return $this->crrType;
+    }
+
+    /**
+     * Get the cr valeur euros.
+     *
+     * @return float|null Returns the cr valeur euros.
+     */
+    public function getCrValeurEuros(): ?float{
+        return $this->crValeurEuros;
+    }
+
+    /**
+     * Get the centre analytique.
+     *
+     * @return string|null Returns the centre analytique.
+     */
+    public function getCentreAnalytique(): ?string{
+        return $this->centreAnalytique;
+    }
+
+    /**
+     * Get the code journal echeance.
+     *
+     * @return string|null Returns the code journal echeance.
+     */
+    public function getCodeJournalEcheance(): ?string{
+        return $this->codeJournalEcheance;
+    }
+
+    /**
+     * Get the code journal paiement.
+     *
+     * @return string|null Returns the code journal paiement.
+     */
+    public function getCodeJournalPaiement(): ?string{
+        return $this->codeJournalPaiement;
+    }
+
+    /**
+     * Get the code tva.
+     *
+     * @return string|null Returns the code tva.
+     */
+    public function getCodeTva(): ?string{
+        return $this->codeTva;
+    }
+
+    /**
+     * Get the compte frn.
+     *
+     * @return string|null Returns the compte frn.
+     */
+    public function getCompteFrn(): ?string{
+        return $this->compteFrn;
+    }
+
+    /**
+     * Get the cpt assurance.
+     *
+     * @return string|null Returns the cpt assurance.
+     */
+    public function getCptAssurance(): ?string{
+        return $this->cptAssurance;
+    }
+
+    /**
+     * Get the cpt charge.
+     *
+     * @return string|null Returns the cpt charge.
+     */
+    public function getCptCharge(): ?string{
+        return $this->cptCharge;
+    }
+
+    /**
+     * Get the cpt entretien.
+     *
+     * @return string|null Returns the cpt entretien.
+     */
+    public function getCptEntretien(): ?string{
+        return $this->cptEntretien;
+    }
+
+    /**
+     * Get the cpt tva.
+     *
+     * @return string|null Returns the cpt tva.
+     */
+    public function getCptTva(): ?string{
+        return $this->cptTva;
+    }
+
+    /**
+     * Get the cpt tva assu.
+     *
+     * @return string|null Returns the cpt tva assu.
+     */
+    public function getCptTvaAssu(): ?string{
+        return $this->cptTvaAssu;
+    }
+
+    /**
+     * Get the din.
+     *
+     * @return bool|null Returns the din.
+     */
+    public function getDin(): ?bool{
+        return $this->din;
     }
 
     /**
@@ -892,7 +902,7 @@ class CreditsBails {
      *
      * @return DateTime|null Returns the date acquisition.
      */
-    public function getDateAcquisition() {
+    public function getDateAcquisition(): ?DateTime{
         return $this->dateAcquisition;
     }
 
@@ -901,223 +911,196 @@ class CreditsBails {
      *
      * @return DateTime|null Returns the date mise service.
      */
-    public function getDateMiseService() {
+    public function getDateMiseService(): ?DateTime{
         return $this->dateMiseService;
-    }
-
-    /**
-     * Get the din.
-     *
-     * @return bool Returns the din.
-     */
-    public function getDin() {
-        return $this->din;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the guid vehicule.
      *
-     * @return string Returns the guid vehicule.
+     * @return string|null Returns the guid vehicule.
      */
-    public function getGuidVehicule() {
+    public function getGuidVehicule(): ?string{
         return $this->guidVehicule;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the libelle frn.
      *
-     * @return string Returns the libelle frn.
+     * @return string|null Returns the libelle frn.
      */
-    public function getLibelleFrn() {
+    public function getLibelleFrn(): ?string{
         return $this->libelleFrn;
     }
 
     /**
      * Get the limite amort.
      *
-     * @return float Returns the limite amort.
+     * @return float|null Returns the limite amort.
      */
-    public function getLimiteAmort() {
+    public function getLimiteAmort(): ?float{
         return $this->limiteAmort;
     }
 
     /**
      * Get the materiaux agricole.
      *
-     * @return bool Returns the materiaux agricole.
+     * @return bool|null Returns the materiaux agricole.
      */
-    public function getMateriauxAgricole() {
+    public function getMateriauxAgricole(): ?bool{
         return $this->materiauxAgricole;
     }
 
     /**
      * Get the montant tva.
      *
-     * @return float Returns the montant tva.
+     * @return float|null Returns the montant tva.
      */
-    public function getMontantTva() {
+    public function getMontantTva(): ?float{
         return $this->montantTva;
     }
 
     /**
      * Get the nature analytique.
      *
-     * @return string Returns the nature analytique.
+     * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique() {
+    public function getNatureAnalytique(): ?string{
         return $this->natureAnalytique;
     }
 
     /**
      * Get the num deux immo rachat.
      *
-     * @return int Returns the num deux immo rachat.
+     * @return int|null Returns the num deux immo rachat.
      */
-    public function getNumDeuxImmoRachat() {
+    public function getNumDeuxImmoRachat(): ?int{
         return $this->numDeuxImmoRachat;
     }
 
     /**
      * Get the num immo rachat.
      *
-     * @return int Returns the num immo rachat.
+     * @return int|null Returns the num immo rachat.
      */
-    public function getNumImmoRachat() {
+    public function getNumImmoRachat(): ?int{
         return $this->numImmoRachat;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int{
         return $this->numero;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero deux.
      *
-     * @return int Returns the numero deux.
+     * @return int|null Returns the numero deux.
      */
-    public function getNumeroDeux() {
+    public function getNumeroDeux(): ?int{
         return $this->numeroDeux;
     }
 
     /**
      * Get the numero pj.
      *
-     * @return int Returns the numero pj.
+     * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj() {
+    public function getNumeroPj(): ?int{
         return $this->numeroPj;
     }
 
     /**
      * Get the quantite.
      *
-     * @return float Returns the quantite.
+     * @return float|null Returns the quantite.
      */
-    public function getQuantite() {
+    public function getQuantite(): ?float{
         return $this->quantite;
     }
 
     /**
      * Get the service.
      *
-     * @return string Returns the service.
+     * @return string|null Returns the service.
      */
-    public function getService() {
+    public function getService(): ?string{
         return $this->service;
-    }
-
-    /**
-     * Get the taxe fonciere.
-     *
-     * @return bool Returns the taxe fonciere.
-     */
-    public function getTaxeFonciere() {
-        return $this->taxeFonciere;
-    }
-
-    /**
-     * Get the taxe pro.
-     *
-     * @return bool Returns the taxe pro.
-     */
-    public function getTaxePro() {
-        return $this->taxePro;
     }
 
     /**
      * Get the tp duree.
      *
-     * @return int Returns the tp duree.
+     * @return int|null Returns the tp duree.
      */
-    public function getTpDuree() {
+    public function getTpDuree(): ?int{
         return $this->tpDuree;
     }
 
     /**
      * Get the tp echoir echu.
      *
-     * @return string Returns the tp echoir echu.
+     * @return string|null Returns the tp echoir echu.
      */
-    public function getTpEchoirEchu() {
+    public function getTpEchoirEchu(): ?string{
         return $this->tpEchoirEchu;
     }
 
     /**
      * Get the tp mois annee.
      *
-     * @return string Returns the tp mois annee.
+     * @return string|null Returns the tp mois annee.
      */
-    public function getTpMoisAnnee() {
+    public function getTpMoisAnnee(): ?string{
         return $this->tpMoisAnnee;
     }
 
     /**
      * Get the tp montt depot.
      *
-     * @return float Returns the tp montt depot.
+     * @return float|null Returns the tp montt depot.
      */
-    public function getTpMonttDepot() {
+    public function getTpMonttDepot(): ?float{
         return $this->tpMonttDepot;
     }
 
     /**
      * Get the tp periodicite.
      *
-     * @return string Returns the tp periodicite.
+     * @return string|null Returns the tp periodicite.
      */
-    public function getTpPeriodicite() {
+    public function getTpPeriodicite(): ?string{
         return $this->tpPeriodicite;
     }
 
@@ -1126,35 +1109,53 @@ class CreditsBails {
      *
      * @return DateTime|null Returns the tp premier paiement.
      */
-    public function getTpPremierPaiement() {
+    public function getTpPremierPaiement(): ?DateTime{
         return $this->tpPremierPaiement;
+    }
+
+    /**
+     * Get the taxe fonciere.
+     *
+     * @return bool|null Returns the taxe fonciere.
+     */
+    public function getTaxeFonciere(): ?bool{
+        return $this->taxeFonciere;
+    }
+
+    /**
+     * Get the taxe pro.
+     *
+     * @return bool|null Returns the taxe pro.
+     */
+    public function getTaxePro(): ?bool{
+        return $this->taxePro;
     }
 
     /**
      * Get the valeur euros.
      *
-     * @return float Returns the valeur euros.
+     * @return float|null Returns the valeur euros.
      */
-    public function getValeurEuros() {
+    public function getValeurEuros(): ?float{
         return $this->valeurEuros;
     }
 
     /**
      * Get the valeur ht.
      *
-     * @return float Returns the valeur ht.
+     * @return float|null Returns the valeur ht.
      */
-    public function getValeurHt() {
+    public function getValeurHt(): ?float{
         return $this->valeurHt;
     }
 
     /**
      * Set the ad amort anterieur.
      *
-     * @param float $adAmortAnterieur The ad amort anterieur.
+     * @param float|null $adAmortAnterieur The ad amort anterieur.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdAmortAnterieur($adAmortAnterieur) {
+    public function setAdAmortAnterieur(?float $adAmortAnterieur): CreditsBails {
         $this->adAmortAnterieur = $adAmortAnterieur;
         return $this;
     }
@@ -1162,10 +1163,10 @@ class CreditsBails {
     /**
      * Set the ad amort anterieur2.
      *
-     * @param float $adAmortAnterieur2 The ad amort anterieur2.
+     * @param float|null $adAmortAnterieur2 The ad amort anterieur2.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdAmortAnterieur2($adAmortAnterieur2) {
+    public function setAdAmortAnterieur2(?float $adAmortAnterieur2): CreditsBails {
         $this->adAmortAnterieur2 = $adAmortAnterieur2;
         return $this;
     }
@@ -1173,10 +1174,10 @@ class CreditsBails {
     /**
      * Set the ad annees amort.
      *
-     * @param float $adAnneesAmort The ad annees amort.
+     * @param float|null $adAnneesAmort The ad annees amort.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdAnneesAmort($adAnneesAmort) {
+    public function setAdAnneesAmort(?float $adAnneesAmort): CreditsBails {
         $this->adAnneesAmort = $adAnneesAmort;
         return $this;
     }
@@ -1184,10 +1185,10 @@ class CreditsBails {
     /**
      * Set the ad coeff degressif.
      *
-     * @param float $adCoeffDegressif The ad coeff degressif.
+     * @param float|null $adCoeffDegressif The ad coeff degressif.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdCoeffDegressif($adCoeffDegressif) {
+    public function setAdCoeffDegressif(?float $adCoeffDegressif): CreditsBails {
         $this->adCoeffDegressif = $adCoeffDegressif;
         return $this;
     }
@@ -1195,10 +1196,10 @@ class CreditsBails {
     /**
      * Set the ad dotation.
      *
-     * @param float $adDotation The ad dotation.
+     * @param float|null $adDotation The ad dotation.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdDotation($adDotation) {
+    public function setAdDotation(?float $adDotation): CreditsBails {
         $this->adDotation = $adDotation;
         return $this;
     }
@@ -1206,10 +1207,10 @@ class CreditsBails {
     /**
      * Set the ad dotation2.
      *
-     * @param float $adDotation2 The ad dotation2.
+     * @param float|null $adDotation2 The ad dotation2.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdDotation2($adDotation2) {
+    public function setAdDotation2(?float $adDotation2): CreditsBails {
         $this->adDotation2 = $adDotation2;
         return $this;
     }
@@ -1217,10 +1218,10 @@ class CreditsBails {
     /**
      * Set the ad dotation except.
      *
-     * @param float $adDotationExcept The ad dotation except.
+     * @param float|null $adDotationExcept The ad dotation except.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdDotationExcept($adDotationExcept) {
+    public function setAdDotationExcept(?float $adDotationExcept): CreditsBails {
         $this->adDotationExcept = $adDotationExcept;
         return $this;
     }
@@ -1228,10 +1229,10 @@ class CreditsBails {
     /**
      * Set the ad duree.
      *
-     * @param float $adDuree The ad duree.
+     * @param float|null $adDuree The ad duree.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdDuree($adDuree) {
+    public function setAdDuree(?float $adDuree): CreditsBails {
         $this->adDuree = $adDuree;
         return $this;
     }
@@ -1239,10 +1240,10 @@ class CreditsBails {
     /**
      * Set the ad taux lineaire.
      *
-     * @param float $adTauxLineaire The ad taux lineaire.
+     * @param float|null $adTauxLineaire The ad taux lineaire.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdTauxLineaire($adTauxLineaire) {
+    public function setAdTauxLineaire(?float $adTauxLineaire): CreditsBails {
         $this->adTauxLineaire = $adTauxLineaire;
         return $this;
     }
@@ -1250,10 +1251,10 @@ class CreditsBails {
     /**
      * Set the ad type.
      *
-     * @param string $adType The ad type.
+     * @param string|null $adType The ad type.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAdType($adType) {
+    public function setAdType(?string $adType): CreditsBails {
         $this->adType = $adType;
         return $this;
     }
@@ -1261,10 +1262,10 @@ class CreditsBails {
     /**
      * Set the af amort anterieur.
      *
-     * @param float $afAmortAnterieur The af amort anterieur.
+     * @param float|null $afAmortAnterieur The af amort anterieur.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfAmortAnterieur($afAmortAnterieur) {
+    public function setAfAmortAnterieur(?float $afAmortAnterieur): CreditsBails {
         $this->afAmortAnterieur = $afAmortAnterieur;
         return $this;
     }
@@ -1272,10 +1273,10 @@ class CreditsBails {
     /**
      * Set the af annees amort.
      *
-     * @param float $afAnneesAmort The af annees amort.
+     * @param float|null $afAnneesAmort The af annees amort.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfAnneesAmort($afAnneesAmort) {
+    public function setAfAnneesAmort(?float $afAnneesAmort): CreditsBails {
         $this->afAnneesAmort = $afAnneesAmort;
         return $this;
     }
@@ -1283,10 +1284,10 @@ class CreditsBails {
     /**
      * Set the af coeff degressif.
      *
-     * @param float $afCoeffDegressif The af coeff degressif.
+     * @param float|null $afCoeffDegressif The af coeff degressif.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfCoeffDegressif($afCoeffDegressif) {
+    public function setAfCoeffDegressif(?float $afCoeffDegressif): CreditsBails {
         $this->afCoeffDegressif = $afCoeffDegressif;
         return $this;
     }
@@ -1294,10 +1295,10 @@ class CreditsBails {
     /**
      * Set the af dotation.
      *
-     * @param float $afDotation The af dotation.
+     * @param float|null $afDotation The af dotation.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfDotation($afDotation) {
+    public function setAfDotation(?float $afDotation): CreditsBails {
         $this->afDotation = $afDotation;
         return $this;
     }
@@ -1305,21 +1306,32 @@ class CreditsBails {
     /**
      * Set the af duree.
      *
-     * @param float $afDuree The af duree.
+     * @param float|null $afDuree The af duree.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfDuree($afDuree) {
+    public function setAfDuree(?float $afDuree): CreditsBails {
         $this->afDuree = $afDuree;
+        return $this;
+    }
+
+    /**
+     * Set the afsii.
+     *
+     * @param bool|null $afsii The afsii.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setAfsii(?bool $afsii): CreditsBails {
+        $this->afsii = $afsii;
         return $this;
     }
 
     /**
      * Set the af taux except.
      *
-     * @param float $afTauxExcept The af taux except.
+     * @param float|null $afTauxExcept The af taux except.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfTauxExcept($afTauxExcept) {
+    public function setAfTauxExcept(?float $afTauxExcept): CreditsBails {
         $this->afTauxExcept = $afTauxExcept;
         return $this;
     }
@@ -1327,10 +1339,10 @@ class CreditsBails {
     /**
      * Set the af taux lineaire.
      *
-     * @param float $afTauxLineaire The af taux lineaire.
+     * @param float|null $afTauxLineaire The af taux lineaire.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfTauxLineaire($afTauxLineaire) {
+    public function setAfTauxLineaire(?float $afTauxLineaire): CreditsBails {
         $this->afTauxLineaire = $afTauxLineaire;
         return $this;
     }
@@ -1338,32 +1350,21 @@ class CreditsBails {
     /**
      * Set the af type.
      *
-     * @param string $afType The af type.
+     * @param string|null $afType The af type.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setAfType($afType) {
+    public function setAfType(?string $afType): CreditsBails {
         $this->afType = $afType;
-        return $this;
-    }
-
-    /**
-     * Set the afsii.
-     *
-     * @param bool $afsii The afsii.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setAfsii($afsii) {
-        $this->afsii = $afsii;
         return $this;
     }
 
     /**
      * Set the base taxe pro.
      *
-     * @param float $baseTaxePro The base taxe pro.
+     * @param float|null $baseTaxePro The base taxe pro.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setBaseTaxePro($baseTaxePro) {
+    public function setBaseTaxePro(?float $baseTaxePro): CreditsBails {
         $this->baseTaxePro = $baseTaxePro;
         return $this;
     }
@@ -1371,10 +1372,10 @@ class CreditsBails {
     /**
      * Set the bureau.
      *
-     * @param string $bureau The bureau.
+     * @param string|null $bureau The bureau.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setBureau($bureau) {
+    public function setBureau(?string $bureau): CreditsBails {
         $this->bureau = $bureau;
         return $this;
     }
@@ -1382,132 +1383,11 @@ class CreditsBails {
     /**
      * Set the cb en francs.
      *
-     * @param bool $cbEnFrancs The cb en francs.
+     * @param bool|null $cbEnFrancs The cb en francs.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setCbEnFrancs($cbEnFrancs) {
+    public function setCbEnFrancs(?bool $cbEnFrancs): CreditsBails {
         $this->cbEnFrancs = $cbEnFrancs;
-        return $this;
-    }
-
-    /**
-     * Set the centre analytique.
-     *
-     * @param string $centreAnalytique The centre analytique.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCentreAnalytique($centreAnalytique) {
-        $this->centreAnalytique = $centreAnalytique;
-        return $this;
-    }
-
-    /**
-     * Set the code journal echeance.
-     *
-     * @param string $codeJournalEcheance The code journal echeance.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCodeJournalEcheance($codeJournalEcheance) {
-        $this->codeJournalEcheance = $codeJournalEcheance;
-        return $this;
-    }
-
-    /**
-     * Set the code journal paiement.
-     *
-     * @param string $codeJournalPaiement The code journal paiement.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCodeJournalPaiement($codeJournalPaiement) {
-        $this->codeJournalPaiement = $codeJournalPaiement;
-        return $this;
-    }
-
-    /**
-     * Set the code tva.
-     *
-     * @param string $codeTva The code tva.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCodeTva($codeTva) {
-        $this->codeTva = $codeTva;
-        return $this;
-    }
-
-    /**
-     * Set the compte frn.
-     *
-     * @param string $compteFrn The compte frn.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCompteFrn($compteFrn) {
-        $this->compteFrn = $compteFrn;
-        return $this;
-    }
-
-    /**
-     * Set the cpt assurance.
-     *
-     * @param string $cptAssurance The cpt assurance.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCptAssurance($cptAssurance) {
-        $this->cptAssurance = $cptAssurance;
-        return $this;
-    }
-
-    /**
-     * Set the cpt charge.
-     *
-     * @param string $cptCharge The cpt charge.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCptCharge($cptCharge) {
-        $this->cptCharge = $cptCharge;
-        return $this;
-    }
-
-    /**
-     * Set the cpt entretien.
-     *
-     * @param string $cptEntretien The cpt entretien.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCptEntretien($cptEntretien) {
-        $this->cptEntretien = $cptEntretien;
-        return $this;
-    }
-
-    /**
-     * Set the cpt tva.
-     *
-     * @param string $cptTva The cpt tva.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCptTva($cptTva) {
-        $this->cptTva = $cptTva;
-        return $this;
-    }
-
-    /**
-     * Set the cpt tva assu.
-     *
-     * @param string $cptTvaAssu The cpt tva assu.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCptTvaAssu($cptTvaAssu) {
-        $this->cptTvaAssu = $cptTvaAssu;
-        return $this;
-    }
-
-    /**
-     * Set the cr valeur euros.
-     *
-     * @param float $crValeurEuros The cr valeur euros.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrValeurEuros($crValeurEuros) {
-        $this->crValeurEuros = $crValeurEuros;
         return $this;
     }
 
@@ -1517,73 +1397,18 @@ class CreditsBails {
      * @param DateTime|null $crrDate The crr date.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setCrrDate(DateTime $crrDate = null) {
+    public function setCrrDate(?DateTime $crrDate): CreditsBails {
         $this->crrDate = $crrDate;
-        return $this;
-    }
-
-    /**
-     * Set the crr px cession ht.
-     *
-     * @param float $crrPxCessionHt The crr px cession ht.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrPxCessionHt($crrPxCessionHt) {
-        $this->crrPxCessionHt = $crrPxCessionHt;
-        return $this;
-    }
-
-    /**
-     * Set the crr qte vendue.
-     *
-     * @param float $crrQteVendue The crr qte vendue.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrQteVendue($crrQteVendue) {
-        $this->crrQteVendue = $crrQteVendue;
-        return $this;
-    }
-
-    /**
-     * Set the crr suppl amort.
-     *
-     * @param float $crrSupplAmort The crr suppl amort.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrSupplAmort($crrSupplAmort) {
-        $this->crrSupplAmort = $crrSupplAmort;
-        return $this;
-    }
-
-    /**
-     * Set the crr suppl valeur.
-     *
-     * @param float $crrSupplValeur The crr suppl valeur.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrSupplValeur($crrSupplValeur) {
-        $this->crrSupplValeur = $crrSupplValeur;
-        return $this;
-    }
-
-    /**
-     * Set the crr type.
-     *
-     * @param string $crrType The crr type.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrType($crrType) {
-        $this->crrType = $crrType;
         return $this;
     }
 
     /**
      * Set the crrpm value ct.
      *
-     * @param float $crrpmValueCt The crrpm value ct.
+     * @param float|null $crrpmValueCt The crrpm value ct.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setCrrpmValueCt($crrpmValueCt) {
+    public function setCrrpmValueCt(?float $crrpmValueCt): CreditsBails {
         $this->crrpmValueCt = $crrpmValueCt;
         return $this;
     }
@@ -1591,11 +1416,198 @@ class CreditsBails {
     /**
      * Set the crrpm value lt.
      *
-     * @param float $crrpmValueLt The crrpm value lt.
+     * @param float|null $crrpmValueLt The crrpm value lt.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setCrrpmValueLt($crrpmValueLt) {
+    public function setCrrpmValueLt(?float $crrpmValueLt): CreditsBails {
         $this->crrpmValueLt = $crrpmValueLt;
+        return $this;
+    }
+
+    /**
+     * Set the crr px cession ht.
+     *
+     * @param float|null $crrPxCessionHt The crr px cession ht.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrPxCessionHt(?float $crrPxCessionHt): CreditsBails {
+        $this->crrPxCessionHt = $crrPxCessionHt;
+        return $this;
+    }
+
+    /**
+     * Set the crr qte vendue.
+     *
+     * @param float|null $crrQteVendue The crr qte vendue.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrQteVendue(?float $crrQteVendue): CreditsBails {
+        $this->crrQteVendue = $crrQteVendue;
+        return $this;
+    }
+
+    /**
+     * Set the crr suppl amort.
+     *
+     * @param float|null $crrSupplAmort The crr suppl amort.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrSupplAmort(?float $crrSupplAmort): CreditsBails {
+        $this->crrSupplAmort = $crrSupplAmort;
+        return $this;
+    }
+
+    /**
+     * Set the crr suppl valeur.
+     *
+     * @param float|null $crrSupplValeur The crr suppl valeur.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrSupplValeur(?float $crrSupplValeur): CreditsBails {
+        $this->crrSupplValeur = $crrSupplValeur;
+        return $this;
+    }
+
+    /**
+     * Set the crr type.
+     *
+     * @param string|null $crrType The crr type.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrType(?string $crrType): CreditsBails {
+        $this->crrType = $crrType;
+        return $this;
+    }
+
+    /**
+     * Set the cr valeur euros.
+     *
+     * @param float|null $crValeurEuros The cr valeur euros.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrValeurEuros(?float $crValeurEuros): CreditsBails {
+        $this->crValeurEuros = $crValeurEuros;
+        return $this;
+    }
+
+    /**
+     * Set the centre analytique.
+     *
+     * @param string|null $centreAnalytique The centre analytique.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCentreAnalytique(?string $centreAnalytique): CreditsBails {
+        $this->centreAnalytique = $centreAnalytique;
+        return $this;
+    }
+
+    /**
+     * Set the code journal echeance.
+     *
+     * @param string|null $codeJournalEcheance The code journal echeance.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCodeJournalEcheance(?string $codeJournalEcheance): CreditsBails {
+        $this->codeJournalEcheance = $codeJournalEcheance;
+        return $this;
+    }
+
+    /**
+     * Set the code journal paiement.
+     *
+     * @param string|null $codeJournalPaiement The code journal paiement.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCodeJournalPaiement(?string $codeJournalPaiement): CreditsBails {
+        $this->codeJournalPaiement = $codeJournalPaiement;
+        return $this;
+    }
+
+    /**
+     * Set the code tva.
+     *
+     * @param string|null $codeTva The code tva.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCodeTva(?string $codeTva): CreditsBails {
+        $this->codeTva = $codeTva;
+        return $this;
+    }
+
+    /**
+     * Set the compte frn.
+     *
+     * @param string|null $compteFrn The compte frn.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCompteFrn(?string $compteFrn): CreditsBails {
+        $this->compteFrn = $compteFrn;
+        return $this;
+    }
+
+    /**
+     * Set the cpt assurance.
+     *
+     * @param string|null $cptAssurance The cpt assurance.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCptAssurance(?string $cptAssurance): CreditsBails {
+        $this->cptAssurance = $cptAssurance;
+        return $this;
+    }
+
+    /**
+     * Set the cpt charge.
+     *
+     * @param string|null $cptCharge The cpt charge.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCptCharge(?string $cptCharge): CreditsBails {
+        $this->cptCharge = $cptCharge;
+        return $this;
+    }
+
+    /**
+     * Set the cpt entretien.
+     *
+     * @param string|null $cptEntretien The cpt entretien.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCptEntretien(?string $cptEntretien): CreditsBails {
+        $this->cptEntretien = $cptEntretien;
+        return $this;
+    }
+
+    /**
+     * Set the cpt tva.
+     *
+     * @param string|null $cptTva The cpt tva.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCptTva(?string $cptTva): CreditsBails {
+        $this->cptTva = $cptTva;
+        return $this;
+    }
+
+    /**
+     * Set the cpt tva assu.
+     *
+     * @param string|null $cptTvaAssu The cpt tva assu.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCptTvaAssu(?string $cptTvaAssu): CreditsBails {
+        $this->cptTvaAssu = $cptTvaAssu;
+        return $this;
+    }
+
+    /**
+     * Set the din.
+     *
+     * @param bool|null $din The din.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setDin(?bool $din): CreditsBails {
+        $this->din = $din;
         return $this;
     }
 
@@ -1605,7 +1617,7 @@ class CreditsBails {
      * @param DateTime|null $dateAcquisition The date acquisition.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setDateAcquisition(DateTime $dateAcquisition = null) {
+    public function setDateAcquisition(?DateTime $dateAcquisition): CreditsBails {
         $this->dateAcquisition = $dateAcquisition;
         return $this;
     }
@@ -1616,29 +1628,18 @@ class CreditsBails {
      * @param DateTime|null $dateMiseService The date mise service.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setDateMiseService(DateTime $dateMiseService = null) {
+    public function setDateMiseService(?DateTime $dateMiseService): CreditsBails {
         $this->dateMiseService = $dateMiseService;
-        return $this;
-    }
-
-    /**
-     * Set the din.
-     *
-     * @param bool $din The din.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setDin($din) {
-        $this->din = $din;
         return $this;
     }
 
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): CreditsBails {
         $this->etat = $etat;
         return $this;
     }
@@ -1646,10 +1647,10 @@ class CreditsBails {
     /**
      * Set the guid vehicule.
      *
-     * @param string $guidVehicule The guid vehicule.
+     * @param string|null $guidVehicule The guid vehicule.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setGuidVehicule($guidVehicule) {
+    public function setGuidVehicule(?string $guidVehicule): CreditsBails {
         $this->guidVehicule = $guidVehicule;
         return $this;
     }
@@ -1657,10 +1658,10 @@ class CreditsBails {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): CreditsBails {
         $this->libelle = $libelle;
         return $this;
     }
@@ -1668,10 +1669,10 @@ class CreditsBails {
     /**
      * Set the libelle frn.
      *
-     * @param string $libelleFrn The libelle frn.
+     * @param string|null $libelleFrn The libelle frn.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setLibelleFrn($libelleFrn) {
+    public function setLibelleFrn(?string $libelleFrn): CreditsBails {
         $this->libelleFrn = $libelleFrn;
         return $this;
     }
@@ -1679,10 +1680,10 @@ class CreditsBails {
     /**
      * Set the limite amort.
      *
-     * @param float $limiteAmort The limite amort.
+     * @param float|null $limiteAmort The limite amort.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setLimiteAmort($limiteAmort) {
+    public function setLimiteAmort(?float $limiteAmort): CreditsBails {
         $this->limiteAmort = $limiteAmort;
         return $this;
     }
@@ -1690,10 +1691,10 @@ class CreditsBails {
     /**
      * Set the materiaux agricole.
      *
-     * @param bool $materiauxAgricole The materiaux agricole.
+     * @param bool|null $materiauxAgricole The materiaux agricole.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setMateriauxAgricole($materiauxAgricole) {
+    public function setMateriauxAgricole(?bool $materiauxAgricole): CreditsBails {
         $this->materiauxAgricole = $materiauxAgricole;
         return $this;
     }
@@ -1701,10 +1702,10 @@ class CreditsBails {
     /**
      * Set the montant tva.
      *
-     * @param float $montantTva The montant tva.
+     * @param float|null $montantTva The montant tva.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setMontantTva($montantTva) {
+    public function setMontantTva(?float $montantTva): CreditsBails {
         $this->montantTva = $montantTva;
         return $this;
     }
@@ -1712,10 +1713,10 @@ class CreditsBails {
     /**
      * Set the nature analytique.
      *
-     * @param string $natureAnalytique The nature analytique.
+     * @param string|null $natureAnalytique The nature analytique.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNatureAnalytique($natureAnalytique) {
+    public function setNatureAnalytique(?string $natureAnalytique): CreditsBails {
         $this->natureAnalytique = $natureAnalytique;
         return $this;
     }
@@ -1723,10 +1724,10 @@ class CreditsBails {
     /**
      * Set the num deux immo rachat.
      *
-     * @param int $numDeuxImmoRachat The num deux immo rachat.
+     * @param int|null $numDeuxImmoRachat The num deux immo rachat.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNumDeuxImmoRachat($numDeuxImmoRachat) {
+    public function setNumDeuxImmoRachat(?int $numDeuxImmoRachat): CreditsBails {
         $this->numDeuxImmoRachat = $numDeuxImmoRachat;
         return $this;
     }
@@ -1734,10 +1735,10 @@ class CreditsBails {
     /**
      * Set the num immo rachat.
      *
-     * @param int $numImmoRachat The num immo rachat.
+     * @param int|null $numImmoRachat The num immo rachat.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNumImmoRachat($numImmoRachat) {
+    public function setNumImmoRachat(?int $numImmoRachat): CreditsBails {
         $this->numImmoRachat = $numImmoRachat;
         return $this;
     }
@@ -1745,10 +1746,10 @@ class CreditsBails {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): CreditsBails {
         $this->numero = $numero;
         return $this;
     }
@@ -1756,10 +1757,10 @@ class CreditsBails {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): CreditsBails {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -1767,10 +1768,10 @@ class CreditsBails {
     /**
      * Set the numero deux.
      *
-     * @param int $numeroDeux The numero deux.
+     * @param int|null $numeroDeux The numero deux.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNumeroDeux($numeroDeux) {
+    public function setNumeroDeux(?int $numeroDeux): CreditsBails {
         $this->numeroDeux = $numeroDeux;
         return $this;
     }
@@ -1778,10 +1779,10 @@ class CreditsBails {
     /**
      * Set the numero pj.
      *
-     * @param int $numeroPj The numero pj.
+     * @param int|null $numeroPj The numero pj.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setNumeroPj($numeroPj) {
+    public function setNumeroPj(?int $numeroPj): CreditsBails {
         $this->numeroPj = $numeroPj;
         return $this;
     }
@@ -1789,10 +1790,10 @@ class CreditsBails {
     /**
      * Set the quantite.
      *
-     * @param float $quantite The quantite.
+     * @param float|null $quantite The quantite.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setQuantite($quantite) {
+    public function setQuantite(?float $quantite): CreditsBails {
         $this->quantite = $quantite;
         return $this;
     }
@@ -1800,43 +1801,21 @@ class CreditsBails {
     /**
      * Set the service.
      *
-     * @param string $service The service.
+     * @param string|null $service The service.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setService($service) {
+    public function setService(?string $service): CreditsBails {
         $this->service = $service;
-        return $this;
-    }
-
-    /**
-     * Set the taxe fonciere.
-     *
-     * @param bool $taxeFonciere The taxe fonciere.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setTaxeFonciere($taxeFonciere) {
-        $this->taxeFonciere = $taxeFonciere;
-        return $this;
-    }
-
-    /**
-     * Set the taxe pro.
-     *
-     * @param bool $taxePro The taxe pro.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setTaxePro($taxePro) {
-        $this->taxePro = $taxePro;
         return $this;
     }
 
     /**
      * Set the tp duree.
      *
-     * @param int $tpDuree The tp duree.
+     * @param int|null $tpDuree The tp duree.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setTpDuree($tpDuree) {
+    public function setTpDuree(?int $tpDuree): CreditsBails {
         $this->tpDuree = $tpDuree;
         return $this;
     }
@@ -1844,10 +1823,10 @@ class CreditsBails {
     /**
      * Set the tp echoir echu.
      *
-     * @param string $tpEchoirEchu The tp echoir echu.
+     * @param string|null $tpEchoirEchu The tp echoir echu.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setTpEchoirEchu($tpEchoirEchu) {
+    public function setTpEchoirEchu(?string $tpEchoirEchu): CreditsBails {
         $this->tpEchoirEchu = $tpEchoirEchu;
         return $this;
     }
@@ -1855,10 +1834,10 @@ class CreditsBails {
     /**
      * Set the tp mois annee.
      *
-     * @param string $tpMoisAnnee The tp mois annee.
+     * @param string|null $tpMoisAnnee The tp mois annee.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setTpMoisAnnee($tpMoisAnnee) {
+    public function setTpMoisAnnee(?string $tpMoisAnnee): CreditsBails {
         $this->tpMoisAnnee = $tpMoisAnnee;
         return $this;
     }
@@ -1866,10 +1845,10 @@ class CreditsBails {
     /**
      * Set the tp montt depot.
      *
-     * @param float $tpMonttDepot The tp montt depot.
+     * @param float|null $tpMonttDepot The tp montt depot.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setTpMonttDepot($tpMonttDepot) {
+    public function setTpMonttDepot(?float $tpMonttDepot): CreditsBails {
         $this->tpMonttDepot = $tpMonttDepot;
         return $this;
     }
@@ -1877,10 +1856,10 @@ class CreditsBails {
     /**
      * Set the tp periodicite.
      *
-     * @param string $tpPeriodicite The tp periodicite.
+     * @param string|null $tpPeriodicite The tp periodicite.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setTpPeriodicite($tpPeriodicite) {
+    public function setTpPeriodicite(?string $tpPeriodicite): CreditsBails {
         $this->tpPeriodicite = $tpPeriodicite;
         return $this;
     }
@@ -1891,18 +1870,40 @@ class CreditsBails {
      * @param DateTime|null $tpPremierPaiement The tp premier paiement.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setTpPremierPaiement(DateTime $tpPremierPaiement = null) {
+    public function setTpPremierPaiement(?DateTime $tpPremierPaiement): CreditsBails {
         $this->tpPremierPaiement = $tpPremierPaiement;
+        return $this;
+    }
+
+    /**
+     * Set the taxe fonciere.
+     *
+     * @param bool|null $taxeFonciere The taxe fonciere.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setTaxeFonciere(?bool $taxeFonciere): CreditsBails {
+        $this->taxeFonciere = $taxeFonciere;
+        return $this;
+    }
+
+    /**
+     * Set the taxe pro.
+     *
+     * @param bool|null $taxePro The taxe pro.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setTaxePro(?bool $taxePro): CreditsBails {
+        $this->taxePro = $taxePro;
         return $this;
     }
 
     /**
      * Set the valeur euros.
      *
-     * @param float $valeurEuros The valeur euros.
+     * @param float|null $valeurEuros The valeur euros.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setValeurEuros($valeurEuros) {
+    public function setValeurEuros(?float $valeurEuros): CreditsBails {
         $this->valeurEuros = $valeurEuros;
         return $this;
     }
@@ -1910,10 +1911,10 @@ class CreditsBails {
     /**
      * Set the valeur ht.
      *
-     * @param float $valeurHt The valeur ht.
+     * @param float|null $valeurHt The valeur ht.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setValeurHt($valeurHt) {
+    public function setValeurHt(?float $valeurHt): CreditsBails {
         $this->valeurHt = $valeurHt;
         return $this;
     }

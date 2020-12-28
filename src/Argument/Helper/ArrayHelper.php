@@ -40,7 +40,7 @@ class ArrayHelper {
      * @return void
      * @throws ArrayArgumentException Throws an Array argument exception if the value is not of expected type.
      */
-    public static function isArray($value) {
+    public static function isArray($value): void {
         if (false === is_array($value)) {
             throw new ArrayArgumentException($value);
         }
@@ -52,7 +52,7 @@ class ArrayHelper {
      * @param array $array The array.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function isObject(array $array) {
+    public static function isObject(array $array): bool {
         return range(0, count($array) - 1) !== array_keys($array);
     }
 
@@ -65,7 +65,7 @@ class ArrayHelper {
      * @param array $tests The tests.
      * @return void
      */
-    public static function set(array &$array, $key, $value, array $tests = []) {
+    public static function set(array &$array, string $key, $value, array $tests = []): void {
         foreach ($tests as $current) {
             if ($current !== $value) {
                 continue;

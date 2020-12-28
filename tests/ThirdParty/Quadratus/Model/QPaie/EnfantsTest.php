@@ -29,7 +29,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACharge() {
+    public function testSetACharge(): void {
 
         $obj = new Enfants();
 
@@ -43,7 +43,7 @@ class EnfantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNaissance() {
+    public function testSetDateNaissance(): void {
 
         // Set a Date/time mock.
         $dateNaissance = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new Enfants();
 
@@ -72,7 +72,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new Enfants();
 
@@ -85,7 +85,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Enfants();
 
@@ -98,7 +98,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new Enfants();
 
@@ -111,7 +111,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSexe() {
+    public function testSetSexe(): void {
 
         $obj = new Enfants();
 
@@ -124,7 +124,7 @@ class EnfantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Enfants();
 

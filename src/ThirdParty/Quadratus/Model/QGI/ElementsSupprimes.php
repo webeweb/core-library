@@ -38,36 +38,37 @@ class ElementsSupprimes {
     /**
      * Memo1.
      *
-     * @var string
+     * @var string|null
      */
     private $memo1;
 
     /**
      * Texte1.
      *
-     * @var string
+     * @var string|null
      */
     private $texte1;
 
     /**
      * Type elem.
      *
-     * @var string
+     * @var string|null
      */
     private $typeElem;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -75,7 +76,7 @@ class ElementsSupprimes {
      *
      * @return DateTime|null Returns the date1.
      */
-    public function getDate1() {
+    public function getDate1(): ?DateTime{
         return $this->date1;
     }
 
@@ -84,43 +85,43 @@ class ElementsSupprimes {
      *
      * @return DateTime|null Returns the date elem.
      */
-    public function getDateElem() {
+    public function getDateElem(): ?DateTime{
         return $this->dateElem;
     }
 
     /**
      * Get the memo1.
      *
-     * @return string Returns the memo1.
+     * @return string|null Returns the memo1.
      */
-    public function getMemo1() {
+    public function getMemo1(): ?string{
         return $this->memo1;
     }
 
     /**
      * Get the texte1.
      *
-     * @return string Returns the texte1.
+     * @return string|null Returns the texte1.
      */
-    public function getTexte1() {
+    public function getTexte1(): ?string{
         return $this->texte1;
     }
 
     /**
      * Get the type elem.
      *
-     * @return string Returns the type elem.
+     * @return string|null Returns the type elem.
      */
-    public function getTypeElem() {
+    public function getTypeElem(): ?string{
         return $this->typeElem;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
@@ -130,7 +131,7 @@ class ElementsSupprimes {
      * @param DateTime|null $date1 The date1.
      * @return ElementsSupprimes Returns this Elements supprimes.
      */
-    public function setDate1(DateTime $date1 = null) {
+    public function setDate1(?DateTime $date1): ElementsSupprimes {
         $this->date1 = $date1;
         return $this;
     }
@@ -141,7 +142,7 @@ class ElementsSupprimes {
      * @param DateTime|null $dateElem The date elem.
      * @return ElementsSupprimes Returns this Elements supprimes.
      */
-    public function setDateElem(DateTime $dateElem = null) {
+    public function setDateElem(?DateTime $dateElem): ElementsSupprimes {
         $this->dateElem = $dateElem;
         return $this;
     }
@@ -149,10 +150,10 @@ class ElementsSupprimes {
     /**
      * Set the memo1.
      *
-     * @param string $memo1 The memo1.
+     * @param string|null $memo1 The memo1.
      * @return ElementsSupprimes Returns this Elements supprimes.
      */
-    public function setMemo1($memo1) {
+    public function setMemo1(?string $memo1): ElementsSupprimes {
         $this->memo1 = $memo1;
         return $this;
     }
@@ -160,10 +161,10 @@ class ElementsSupprimes {
     /**
      * Set the texte1.
      *
-     * @param string $texte1 The texte1.
+     * @param string|null $texte1 The texte1.
      * @return ElementsSupprimes Returns this Elements supprimes.
      */
-    public function setTexte1($texte1) {
+    public function setTexte1(?string $texte1): ElementsSupprimes {
         $this->texte1 = $texte1;
         return $this;
     }
@@ -171,10 +172,10 @@ class ElementsSupprimes {
     /**
      * Set the type elem.
      *
-     * @param string $typeElem The type elem.
+     * @param string|null $typeElem The type elem.
      * @return ElementsSupprimes Returns this Elements supprimes.
      */
-    public function setTypeElem($typeElem) {
+    public function setTypeElem(?string $typeElem): ElementsSupprimes {
         $this->typeElem = $typeElem;
         return $this;
     }
@@ -182,10 +183,10 @@ class ElementsSupprimes {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return ElementsSupprimes Returns this Elements supprimes.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): ElementsSupprimes {
         $this->uniqId = $uniqId;
         return $this;
     }

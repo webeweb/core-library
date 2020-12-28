@@ -38,21 +38,21 @@ class LignesBulletinCompl {
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Num ligne bulletin.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigneBulletin;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -66,22 +66,23 @@ class LignesBulletinCompl {
     /**
      * Periodicite.
      *
-     * @var string
+     * @var string|null
      */
     private $periodicite;
 
     /**
      * Type regul.
      *
-     * @var string
+     * @var string|null
      */
     private $typeRegul;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -89,7 +90,7 @@ class LignesBulletinCompl {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
@@ -98,34 +99,34 @@ class LignesBulletinCompl {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime{
         return $this->dateFin;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the num ligne bulletin.
      *
-     * @return int Returns the num ligne bulletin.
+     * @return int|null Returns the num ligne bulletin.
      */
-    public function getNumLigneBulletin() {
+    public function getNumLigneBulletin(): ?int{
         return $this->numLigneBulletin;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -134,25 +135,25 @@ class LignesBulletinCompl {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the periodicite.
      *
-     * @return string Returns the periodicite.
+     * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite() {
+    public function getPeriodicite(): ?string{
         return $this->periodicite;
     }
 
     /**
      * Get the type regul.
      *
-     * @return string Returns the type regul.
+     * @return string|null Returns the type regul.
      */
-    public function getTypeRegul() {
+    public function getTypeRegul(): ?string{
         return $this->typeRegul;
     }
 
@@ -162,7 +163,7 @@ class LignesBulletinCompl {
      * @param DateTime|null $dateDebut The date debut.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): LignesBulletinCompl {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -173,7 +174,7 @@ class LignesBulletinCompl {
      * @param DateTime|null $dateFin The date fin.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): LignesBulletinCompl {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -181,10 +182,10 @@ class LignesBulletinCompl {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): LignesBulletinCompl {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -192,10 +193,10 @@ class LignesBulletinCompl {
     /**
      * Set the num ligne bulletin.
      *
-     * @param int $numLigneBulletin The num ligne bulletin.
+     * @param int|null $numLigneBulletin The num ligne bulletin.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setNumLigneBulletin($numLigneBulletin) {
+    public function setNumLigneBulletin(?int $numLigneBulletin): LignesBulletinCompl {
         $this->numLigneBulletin = $numLigneBulletin;
         return $this;
     }
@@ -203,10 +204,10 @@ class LignesBulletinCompl {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): LignesBulletinCompl {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -217,7 +218,7 @@ class LignesBulletinCompl {
      * @param DateTime|null $periode The periode.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): LignesBulletinCompl {
         $this->periode = $periode;
         return $this;
     }
@@ -225,10 +226,10 @@ class LignesBulletinCompl {
     /**
      * Set the periodicite.
      *
-     * @param string $periodicite The periodicite.
+     * @param string|null $periodicite The periodicite.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setPeriodicite($periodicite) {
+    public function setPeriodicite(?string $periodicite): LignesBulletinCompl {
         $this->periodicite = $periodicite;
         return $this;
     }
@@ -236,10 +237,10 @@ class LignesBulletinCompl {
     /**
      * Set the type regul.
      *
-     * @param string $typeRegul The type regul.
+     * @param string|null $typeRegul The type regul.
      * @return LignesBulletinCompl Returns this Lignes bulletin compl.
      */
-    public function setTypeRegul($typeRegul) {
+    public function setTypeRegul(?string $typeRegul): LignesBulletinCompl {
         $this->typeRegul = $typeRegul;
         return $this;
     }

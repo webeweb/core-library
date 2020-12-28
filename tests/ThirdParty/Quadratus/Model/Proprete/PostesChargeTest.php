@@ -27,7 +27,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActif() {
+    public function testSetActif(): void {
 
         $obj = new PostesCharge();
 
@@ -40,7 +40,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCharge() {
+    public function testSetCodeCharge(): void {
 
         $obj = new PostesCharge();
 
@@ -53,7 +53,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernPosteAffecte() {
+    public function testSetDernPosteAffecte(): void {
 
         $obj = new PostesCharge();
 
@@ -66,7 +66,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new PostesCharge();
 
@@ -79,7 +79,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new PostesCharge();
 
@@ -92,7 +92,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeProrata() {
+    public function testSetTypeProrata(): void {
 
         $obj = new PostesCharge();
 
@@ -105,7 +105,7 @@ class PostesChargeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PostesCharge();
 

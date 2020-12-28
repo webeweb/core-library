@@ -29,7 +29,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseMsa() {
+    public function testSetAdresseMsa(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -42,7 +42,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCCollect() {
+    public function testSetCCollect(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -55,7 +55,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeActivite() {
+    public function testSetCodeActivite(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -68,7 +68,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -81,7 +81,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUnite() {
+    public function testSetCodeUnite(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -95,7 +95,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateReglement() {
+    public function testSetDateReglement(): void {
 
         // Set a Date/time mock.
         $dateReglement = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEffectifCice() {
+    public function testSetEffectifCice(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -124,7 +124,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitA() {
+    public function testSetFaitA(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -138,7 +138,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFaitLe() {
+    public function testSetFaitLe(): void {
 
         // Set a Date/time mock.
         $faitLe = new DateTime("2018-09-10");
@@ -155,7 +155,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPer() {
+    public function testSetFinPer(): void {
 
         // Set a Date/time mock.
         $finPer = new DateTime("2018-09-10");
@@ -171,7 +171,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleCodeUnite() {
+    public function testSetIntituleCodeUnite(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -184,7 +184,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetListeServices() {
+    public function testSetListeServices(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -197,7 +197,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCsg() {
+    public function testSetMtCsg(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -210,7 +210,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCsgrdsrrImp() {
+    public function testSetMtCsgrdsrrImp(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -223,7 +223,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCsgrdsrrNonImp() {
+    public function testSetMtCsgrdsrrNonImp(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -236,7 +236,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul57() {
+    public function testSetMtElemCalcul57(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -249,7 +249,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul58() {
+    public function testSetMtElemCalcul58(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -262,7 +262,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul59() {
+    public function testSetMtElemCalcul59(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -275,7 +275,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul60() {
+    public function testSetMtElemCalcul60(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -288,7 +288,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul61() {
+    public function testSetMtElemCalcul61(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -301,7 +301,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul62() {
+    public function testSetMtElemCalcul62(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -314,7 +314,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul63() {
+    public function testSetMtElemCalcul63(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -327,7 +327,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul65() {
+    public function testSetMtElemCalcul65(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -340,7 +340,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul66() {
+    public function testSetMtElemCalcul66(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -353,7 +353,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul67() {
+    public function testSetMtElemCalcul67(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -366,7 +366,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul68() {
+    public function testSetMtElemCalcul68(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -379,7 +379,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul69() {
+    public function testSetMtElemCalcul69(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -392,7 +392,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul70() {
+    public function testSetMtElemCalcul70(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -405,7 +405,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul71() {
+    public function testSetMtElemCalcul71(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -418,7 +418,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul72() {
+    public function testSetMtElemCalcul72(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -431,7 +431,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul73() {
+    public function testSetMtElemCalcul73(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -444,7 +444,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul74() {
+    public function testSetMtElemCalcul74(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -457,7 +457,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul75() {
+    public function testSetMtElemCalcul75(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -470,7 +470,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul76() {
+    public function testSetMtElemCalcul76(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -483,7 +483,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul77() {
+    public function testSetMtElemCalcul77(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -496,7 +496,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul78() {
+    public function testSetMtElemCalcul78(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -509,7 +509,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul79() {
+    public function testSetMtElemCalcul79(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -522,7 +522,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul97() {
+    public function testSetMtElemCalcul97(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -535,7 +535,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtElemCalcul98() {
+    public function testSetMtElemCalcul98(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -548,7 +548,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtTcp() {
+    public function testSetMtTcp(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -562,7 +562,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDebCice() {
+    public function testSetPerDebCice(): void {
 
         // Set a Date/time mock.
         $perDebCice = new DateTime("2018-09-10");
@@ -579,7 +579,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerFinCice() {
+    public function testSetPerFinCice(): void {
 
         // Set a Date/time mock.
         $perFinCice = new DateTime("2018-09-10");
@@ -596,7 +596,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDecla() {
+    public function testSetPeriodeDecla(): void {
 
         // Set a Date/time mock.
         $periodeDecla = new DateTime("2018-09-10");
@@ -612,7 +612,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPersonneContact() {
+    public function testSetPersonneContact(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -626,7 +626,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPremMois() {
+    public function testSetPremMois(): void {
 
         // Set a Date/time mock.
         $premMois = new DateTime("2018-09-10");
@@ -642,7 +642,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalariesDe() {
+    public function testSetSalariesDe(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -655,7 +655,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSelectionService() {
+    public function testSetSelectionService(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -668,7 +668,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiren() {
+    public function testSetSiren(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -681,7 +681,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiret() {
+    public function testSetSiret(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -694,7 +694,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviPar() {
+    public function testSetSuiviPar(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -707,7 +707,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelPersonne() {
+    public function testSetTelPersonne(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -720,7 +720,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTriDeclMsa() {
+    public function testSetTriDeclMsa(): void {
 
         $obj = new RecapLignesMsa();
 
@@ -733,7 +733,7 @@ class RecapLignesMsaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RecapLignesMsa();
 

@@ -29,7 +29,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new TramesLignes();
 
@@ -42,7 +42,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new TramesLignes();
 
@@ -55,7 +55,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibAuto() {
+    public function testSetCodeLibAuto(): void {
 
         $obj = new TramesLignes();
 
@@ -68,7 +68,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompte() {
+    public function testSetCompte(): void {
 
         $obj = new TramesLignes();
 
@@ -81,7 +81,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteContrepartie() {
+    public function testSetCompteContrepartie(): void {
 
         $obj = new TramesLignes();
 
@@ -94,7 +94,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCredit() {
+    public function testSetCredit(): void {
 
         $obj = new TramesLignes();
 
@@ -108,7 +108,7 @@ class TramesLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         // Set a Date/time mock.
         $dateEcheance = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebit() {
+    public function testSetDebit(): void {
 
         $obj = new TramesLignes();
 
@@ -137,7 +137,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsDebit() {
+    public function testSetIsDebit(): void {
 
         $obj = new TramesLignes();
 
@@ -150,7 +150,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TramesLignes();
 
@@ -163,7 +163,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new TramesLignes();
 
@@ -176,7 +176,7 @@ class TramesLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TramesLignes();
 

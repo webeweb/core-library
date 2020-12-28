@@ -29,7 +29,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new HistoPaiePrimes();
 
@@ -42,7 +42,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrime() {
+    public function testSetCodePrime(): void {
 
         $obj = new HistoPaiePrimes();
 
@@ -55,7 +55,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombrePrime() {
+    public function testSetNombrePrime(): void {
 
         $obj = new HistoPaiePrimes();
 
@@ -68,7 +68,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPrime() {
+    public function testSetNumeroPrime(): void {
 
         $obj = new HistoPaiePrimes();
 
@@ -82,7 +82,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeRappel() {
+    public function testSetPeriodeRappel(): void {
 
         // Set a Date/time mock.
         $periodeRappel = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPrime() {
+    public function testSetTauxPrime(): void {
 
         $obj = new HistoPaiePrimes();
 
@@ -128,7 +128,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePrime() {
+    public function testSetTypePrime(): void {
 
         $obj = new HistoPaiePrimes();
 
@@ -141,7 +141,7 @@ class HistoPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoPaiePrimes();
 

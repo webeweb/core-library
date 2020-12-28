@@ -27,7 +27,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new FichesDePoste();
 
@@ -40,7 +40,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new FichesDePoste();
 
@@ -53,7 +53,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FichesDePoste();
 
@@ -66,7 +66,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new FichesDePoste();
 
@@ -79,7 +79,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new FichesDePoste();
 
@@ -92,7 +92,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new FichesDePoste();
 
@@ -105,7 +105,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPoste() {
+    public function testSetPoste(): void {
 
         $obj = new FichesDePoste();
 
@@ -118,7 +118,7 @@ class FichesDePosteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesDePoste();
 

@@ -29,7 +29,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new DecTvaUlt();
 
@@ -42,7 +42,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new DecTvaUlt();
 
@@ -55,7 +55,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteur() {
+    public function testSetCompteur(): void {
 
         $obj = new DecTvaUlt();
 
@@ -68,7 +68,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolio() {
+    public function testSetFolio(): void {
 
         $obj = new DecTvaUlt();
 
@@ -81,7 +81,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleEcr() {
+    public function testSetLibelleEcr(): void {
 
         $obj = new DecTvaUlt();
 
@@ -94,7 +94,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLigneFolio() {
+    public function testSetLigneFolio(): void {
 
         $obj = new DecTvaUlt();
 
@@ -107,7 +107,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHt() {
+    public function testSetMontantHt(): void {
 
         $obj = new DecTvaUlt();
 
@@ -120,7 +120,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTva() {
+    public function testSetMontantTva(): void {
 
         $obj = new DecTvaUlt();
 
@@ -133,7 +133,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DecTvaUlt();
 
@@ -146,7 +146,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniqEcr() {
+    public function testSetNumUniqEcr(): void {
 
         $obj = new DecTvaUlt();
 
@@ -160,7 +160,7 @@ class DecTvaUltTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDec() {
+    public function testSetPerDec(): void {
 
         // Set a Date/time mock.
         $perDec = new DateTime("2018-09-10");
@@ -177,7 +177,7 @@ class DecTvaUltTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerDecUlt() {
+    public function testSetPerDecUlt(): void {
 
         // Set a Date/time mock.
         $perDecUlt = new DateTime("2018-09-10");
@@ -194,7 +194,7 @@ class DecTvaUltTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcriture() {
+    public function testSetPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $periodeEcriture = new DateTime("2018-09-10");
@@ -210,7 +210,7 @@ class DecTvaUltTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DecTvaUlt();
 

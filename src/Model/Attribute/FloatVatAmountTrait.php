@@ -22,25 +22,25 @@ trait FloatVatAmountTrait {
     /**
      *  VAT amount.
      *
-     * @var float
+     * @var float|null
      */
     protected $vatAmount;
 
     /**
      * Get the VAT amount.
      *
-     * @return float Returns the VAT amount.
+     * @return float|null Returns the VAT amount.
      */
-    public function getVatAmount() {
+    public function getVatAmount(): ?float {
         return $this->vatAmount;
     }
 
     /**
      * Set the VAT amount.
      *
-     * @param float $vatAmount The VAT amount.
+     * @param float|null $vatAmount The VAT amount.
      */
-    public function setVatAmount($vatAmount) {
+    public function setVatAmount(?float $vatAmount) {
         $this->vatAmount = $vatAmount;
         return $this;
     }

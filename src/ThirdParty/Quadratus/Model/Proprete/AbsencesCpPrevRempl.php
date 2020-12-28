@@ -24,14 +24,14 @@ class AbsencesCpPrevRempl {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code remplacant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRemplacant;
 
@@ -59,39 +59,40 @@ class AbsencesCpPrevRempl {
     /**
      * Indice.
      *
-     * @var string
+     * @var string|null
      */
     private $indice;
 
     /**
      * Type rempl.
      *
-     * @var string
+     * @var string|null
      */
     private $typeRempl;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code remplacant.
      *
-     * @return string Returns the code remplacant.
+     * @return string|null Returns the code remplacant.
      */
-    public function getCodeRemplacant() {
+    public function getCodeRemplacant(): ?string{
         return $this->codeRemplacant;
     }
 
@@ -100,7 +101,7 @@ class AbsencesCpPrevRempl {
      *
      * @return DateTime|null Returns the date debut cp.
      */
-    public function getDateDebutCp() {
+    public function getDateDebutCp(): ?DateTime{
         return $this->dateDebutCp;
     }
 
@@ -109,7 +110,7 @@ class AbsencesCpPrevRempl {
      *
      * @return DateTime|null Returns the date debut rempl.
      */
-    public function getDateDebutRempl() {
+    public function getDateDebutRempl(): ?DateTime{
         return $this->dateDebutRempl;
     }
 
@@ -118,35 +119,35 @@ class AbsencesCpPrevRempl {
      *
      * @return DateTime|null Returns the date fin rempl.
      */
-    public function getDateFinRempl() {
+    public function getDateFinRempl(): ?DateTime{
         return $this->dateFinRempl;
     }
 
     /**
      * Get the indice.
      *
-     * @return string Returns the indice.
+     * @return string|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?string{
         return $this->indice;
     }
 
     /**
      * Get the type rempl.
      *
-     * @return string Returns the type rempl.
+     * @return string|null Returns the type rempl.
      */
-    public function getTypeRempl() {
+    public function getTypeRempl(): ?string{
         return $this->typeRempl;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): AbsencesCpPrevRempl {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -154,10 +155,10 @@ class AbsencesCpPrevRempl {
     /**
      * Set the code remplacant.
      *
-     * @param string $codeRemplacant The code remplacant.
+     * @param string|null $codeRemplacant The code remplacant.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setCodeRemplacant($codeRemplacant) {
+    public function setCodeRemplacant(?string $codeRemplacant): AbsencesCpPrevRempl {
         $this->codeRemplacant = $codeRemplacant;
         return $this;
     }
@@ -168,7 +169,7 @@ class AbsencesCpPrevRempl {
      * @param DateTime|null $dateDebutCp The date debut cp.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setDateDebutCp(DateTime $dateDebutCp = null) {
+    public function setDateDebutCp(?DateTime $dateDebutCp): AbsencesCpPrevRempl {
         $this->dateDebutCp = $dateDebutCp;
         return $this;
     }
@@ -179,7 +180,7 @@ class AbsencesCpPrevRempl {
      * @param DateTime|null $dateDebutRempl The date debut rempl.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setDateDebutRempl(DateTime $dateDebutRempl = null) {
+    public function setDateDebutRempl(?DateTime $dateDebutRempl): AbsencesCpPrevRempl {
         $this->dateDebutRempl = $dateDebutRempl;
         return $this;
     }
@@ -190,7 +191,7 @@ class AbsencesCpPrevRempl {
      * @param DateTime|null $dateFinRempl The date fin rempl.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setDateFinRempl(DateTime $dateFinRempl = null) {
+    public function setDateFinRempl(?DateTime $dateFinRempl): AbsencesCpPrevRempl {
         $this->dateFinRempl = $dateFinRempl;
         return $this;
     }
@@ -198,10 +199,10 @@ class AbsencesCpPrevRempl {
     /**
      * Set the indice.
      *
-     * @param string $indice The indice.
+     * @param string|null $indice The indice.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setIndice($indice) {
+    public function setIndice(?string $indice): AbsencesCpPrevRempl {
         $this->indice = $indice;
         return $this;
     }
@@ -209,10 +210,10 @@ class AbsencesCpPrevRempl {
     /**
      * Set the type rempl.
      *
-     * @param string $typeRempl The type rempl.
+     * @param string|null $typeRempl The type rempl.
      * @return AbsencesCpPrevRempl Returns this Absences cp prev rempl.
      */
-    public function setTypeRempl($typeRempl) {
+    public function setTypeRempl(?string $typeRempl): AbsencesCpPrevRempl {
         $this->typeRempl = $typeRempl;
         return $this;
     }

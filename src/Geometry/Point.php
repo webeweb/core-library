@@ -42,7 +42,7 @@ class Point {
      * @param Point $p The point.
      * @return float Returns the distance.
      */
-    public function d(Point $p) {
+    public function d(Point $p): float {
 
         $x = $this->getX() - $p->getX();
         $y = $this->getY() - $p->getY();
@@ -59,7 +59,7 @@ class Point {
      * @param Point $p The point.
      * @return Angle Returns the degree.
      */
-    public function deg(Point $p) {
+    public function deg(Point $p): Angle {
 
         $rad = $this->rad($p);
 
@@ -72,12 +72,12 @@ class Point {
      * @param Point $p The point.
      * @return float Returns the slope.
      */
-    public function m(Point $p) {
+    public function m(Point $p): float {
 
         $x = $this->getX() - $p->getX();
         $y = $this->getY() - $p->getY();
 
-        if (0 === $x) {
+        if (0 == $x) {
             return INF;
         }
 
@@ -90,7 +90,7 @@ class Point {
      * @param Point $p The point.
      * @return Angle Returns the radian.
      */
-    public function rad(Point $p) {
+    public function rad(Point $p): Angle {
 
         $m = $this->m($p);
         if (INF !== $m) {
@@ -109,7 +109,7 @@ class Point {
      * @param Angle $a The angle.
      * @return Point Returns the rotated point.
      */
-    public function rotate(Point $o, Angle $a) {
+    public function rotate(Point $o, Angle $a): Point {
 
         $rad = $a->rad();
 

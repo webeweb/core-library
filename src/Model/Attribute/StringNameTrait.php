@@ -22,25 +22,25 @@ trait StringNameTrait {
     /**
      * Name.
      *
-     * @var string
+     * @var string|null
      */
     protected $name;
 
     /**
      * Get the name.
      *
-     * @return string Returns the name.
+     * @return string|null Returns the name.
      */
-    public function getName() {
+    public function getName(): ?string {
         return $this->name;
     }
 
     /**
      * Set the name.
      *
-     * @param string $name The name.
+     * @param string|null $name The name.
      */
-    public function setName($name) {
+    public function setName(?string $name) {
         $this->name = $name;
         return $this;
     }

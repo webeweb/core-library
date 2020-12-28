@@ -30,7 +30,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -47,7 +47,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -64,7 +64,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePaiement() {
+    public function testSetDatePaiement(): void {
 
         // Set a Date/time mock.
         $datePaiement = new DateTime("2018-09-10");
@@ -80,7 +80,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -93,7 +93,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantPrecompte() {
+    public function testSetMontantPrecompte(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -106,7 +106,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureTrav() {
+    public function testSetNbHeureTrav(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -119,7 +119,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJourTrav() {
+    public function testSetNbJourTrav(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -132,7 +132,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -145,7 +145,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -158,7 +158,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireBrut() {
+    public function testSetSalaireBrut(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -171,7 +171,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new LignesAttestationCacm();
 
@@ -184,7 +184,7 @@ class LignesAttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesAttestationCacm();
 

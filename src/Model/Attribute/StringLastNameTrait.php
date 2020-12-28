@@ -22,25 +22,25 @@ trait StringLastNameTrait {
     /**
      * Last name.
      *
-     * @var string
+     * @var string|null
      */
     protected $lastName;
 
     /**
      * Get the last name.
      *
-     * @return string Returns the last name.
+     * @return string|null Returns the last name.
      */
-    public function getLastName() {
+    public function getLastName(): ?string {
         return $this->lastName;
     }
 
     /**
      * Set the last name.
      *
-     * @param string $lastName The last name.
+     * @param string|null $lastName The last name.
      */
-    public function setLastName($lastName) {
+    public function setLastName(?string $lastName) {
         $this->lastName = $lastName;
         return $this;
     }

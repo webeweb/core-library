@@ -22,25 +22,25 @@ trait IntegerCivilityTrait {
     /**
      * Civility.
      *
-     * @var int
+     * @var int|null
      */
     protected $civility;
 
     /**
      * Get the civility.
      *
-     * @return int Returns the civility.
+     * @return int|null Returns the civility.
      */
-    public function getCivility() {
+    public function getCivility(): ?int {
         return $this->civility;
     }
 
     /**
      * Set the civility.
      *
-     * @param int $civility The civility.
+     * @param int|null $civility The civility.
      */
-    public function setCivility($civility) {
+    public function setCivility(?int $civility) {
         $this->civility = $civility;
         return $this;
     }

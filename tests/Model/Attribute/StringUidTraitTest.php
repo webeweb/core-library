@@ -27,7 +27,7 @@ class StringUidTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUid() {
+    public function testSetUid(): void {
 
         $obj = new TestStringUidTrait();
 
@@ -40,7 +40,7 @@ class StringUidTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringUidTrait();
 

@@ -24,7 +24,7 @@ class Enfants {
     /**
      * A charge.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aCharge;
 
@@ -38,51 +38,52 @@ class Enfants {
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $prenom;
 
     /**
      * Sexe.
      *
-     * @var string
+     * @var string|null
      */
     private $sexe;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a charge.
      *
-     * @return bool Returns the a charge.
+     * @return bool|null Returns the a charge.
      */
-    public function getACharge() {
+    public function getACharge(): ?bool{
         return $this->aCharge;
     }
 
@@ -91,62 +92,62 @@ class Enfants {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance() {
+    public function getDateNaissance(): ?DateTime{
         return $this->dateNaissance;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the prenom.
      *
-     * @return string Returns the prenom.
+     * @return string|null Returns the prenom.
      */
-    public function getPrenom() {
+    public function getPrenom(): ?string{
         return $this->prenom;
     }
 
     /**
      * Get the sexe.
      *
-     * @return string Returns the sexe.
+     * @return string|null Returns the sexe.
      */
-    public function getSexe() {
+    public function getSexe(): ?string{
         return $this->sexe;
     }
 
     /**
      * Set the a charge.
      *
-     * @param bool $aCharge The a charge.
+     * @param bool|null $aCharge The a charge.
      * @return Enfants Returns this Enfants.
      */
-    public function setACharge($aCharge) {
+    public function setACharge(?bool $aCharge): Enfants {
         $this->aCharge = $aCharge;
         return $this;
     }
@@ -157,7 +158,7 @@ class Enfants {
      * @param DateTime|null $dateNaissance The date naissance.
      * @return Enfants Returns this Enfants.
      */
-    public function setDateNaissance(DateTime $dateNaissance = null) {
+    public function setDateNaissance(?DateTime $dateNaissance): Enfants {
         $this->dateNaissance = $dateNaissance;
         return $this;
     }
@@ -165,10 +166,10 @@ class Enfants {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return Enfants Returns this Enfants.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): Enfants {
         $this->nom = $nom;
         return $this;
     }
@@ -176,10 +177,10 @@ class Enfants {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return Enfants Returns this Enfants.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): Enfants {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -187,10 +188,10 @@ class Enfants {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return Enfants Returns this Enfants.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): Enfants {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -198,10 +199,10 @@ class Enfants {
     /**
      * Set the prenom.
      *
-     * @param string $prenom The prenom.
+     * @param string|null $prenom The prenom.
      * @return Enfants Returns this Enfants.
      */
-    public function setPrenom($prenom) {
+    public function setPrenom(?string $prenom): Enfants {
         $this->prenom = $prenom;
         return $this;
     }
@@ -209,10 +210,10 @@ class Enfants {
     /**
      * Set the sexe.
      *
-     * @param string $sexe The sexe.
+     * @param string|null $sexe The sexe.
      * @return Enfants Returns this Enfants.
      */
-    public function setSexe($sexe) {
+    public function setSexe(?string $sexe): Enfants {
         $this->sexe = $sexe;
         return $this;
     }

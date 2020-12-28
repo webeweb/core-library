@@ -27,7 +27,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new CleRepartitionEntetes();
 
@@ -40,7 +40,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new CleRepartitionEntetes();
 
@@ -53,7 +53,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotal() {
+    public function testSetTotal(): void {
 
         $obj = new CleRepartitionEntetes();
 
@@ -66,7 +66,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCle() {
+    public function testSetTypeCle(): void {
 
         $obj = new CleRepartitionEntetes();
 
@@ -79,7 +79,7 @@ class CleRepartitionEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CleRepartitionEntetes();
 

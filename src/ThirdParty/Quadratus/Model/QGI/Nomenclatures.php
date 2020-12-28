@@ -24,28 +24,28 @@ class Nomenclatures {
     /**
      * Code1.
      *
-     * @var string
+     * @var string|null
      */
     private $code1;
 
     /**
      * Code2.
      *
-     * @var string
+     * @var string|null
      */
     private $code2;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Commentaire2.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire2;
 
@@ -66,63 +66,63 @@ class Nomenclatures {
     /**
      * Double1.
      *
-     * @var float
+     * @var float|null
      */
     private $double1;
 
     /**
      * Double2.
      *
-     * @var float
+     * @var float|null
      */
     private $double2;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Texte1.
      *
-     * @var string
+     * @var string|null
      */
     private $texte1;
 
     /**
      * Texte2.
      *
-     * @var string
+     * @var string|null
      */
     private $texte2;
 
     /**
      * Texte3.
      *
-     * @var string
+     * @var string|null
      */
     private $texte3;
 
     /**
      * Texte4.
      *
-     * @var string
+     * @var string|null
      */
     private $texte4;
 
     /**
      * Texte5.
      *
-     * @var string
+     * @var string|null
      */
     private $texte5;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
@@ -130,42 +130,42 @@ class Nomenclatures {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code1.
      *
-     * @return string Returns the code1.
+     * @return string|null Returns the code1.
      */
-    public function getCode1() {
+    public function getCode1(): ?string {
         return $this->code1;
     }
 
     /**
      * Get the code2.
      *
-     * @return string Returns the code2.
+     * @return string|null Returns the code2.
      */
-    public function getCode2() {
+    public function getCode2(): ?string {
         return $this->code2;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
     /**
      * Get the commentaire2.
      *
-     * @return string Returns the commentaire2.
+     * @return string|null Returns the commentaire2.
      */
-    public function getCommentaire2() {
+    public function getCommentaire2(): ?string {
         return $this->commentaire2;
     }
 
@@ -174,7 +174,7 @@ class Nomenclatures {
      *
      * @return DateTime|null Returns the date1.
      */
-    public function getDate1() {
+    public function getDate1(): ?DateTime {
         return $this->date1;
     }
 
@@ -183,98 +183,98 @@ class Nomenclatures {
      *
      * @return DateTime|null Returns the date2.
      */
-    public function getDate2() {
+    public function getDate2(): ?DateTime {
         return $this->date2;
     }
 
     /**
      * Get the double1.
      *
-     * @return float Returns the double1.
+     * @return float|null Returns the double1.
      */
-    public function getDouble1() {
+    public function getDouble1(): ?float {
         return $this->double1;
     }
 
     /**
      * Get the double2.
      *
-     * @return float Returns the double2.
+     * @return float|null Returns the double2.
      */
-    public function getDouble2() {
+    public function getDouble2(): ?float {
         return $this->double2;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
     /**
      * Get the texte1.
      *
-     * @return string Returns the texte1.
+     * @return string|null Returns the texte1.
      */
-    public function getTexte1() {
+    public function getTexte1(): ?string {
         return $this->texte1;
     }
 
     /**
      * Get the texte2.
      *
-     * @return string Returns the texte2.
+     * @return string|null Returns the texte2.
      */
-    public function getTexte2() {
+    public function getTexte2(): ?string {
         return $this->texte2;
     }
 
     /**
      * Get the texte3.
      *
-     * @return string Returns the texte3.
+     * @return string|null Returns the texte3.
      */
-    public function getTexte3() {
+    public function getTexte3(): ?string {
         return $this->texte3;
     }
 
     /**
      * Get the texte4.
      *
-     * @return string Returns the texte4.
+     * @return string|null Returns the texte4.
      */
-    public function getTexte4() {
+    public function getTexte4(): ?string {
         return $this->texte4;
     }
 
     /**
      * Get the texte5.
      *
-     * @return string Returns the texte5.
+     * @return string|null Returns the texte5.
      */
-    public function getTexte5() {
+    public function getTexte5(): ?string {
         return $this->texte5;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Set the code1.
      *
-     * @param string $code1 The code1.
+     * @param string|null $code1 The code1.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setCode1($code1) {
+    public function setCode1(?string $code1): Nomenclatures {
         $this->code1 = $code1;
         return $this;
     }
@@ -282,10 +282,10 @@ class Nomenclatures {
     /**
      * Set the code2.
      *
-     * @param string $code2 The code2.
+     * @param string|null $code2 The code2.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setCode2($code2) {
+    public function setCode2(?string $code2): Nomenclatures {
         $this->code2 = $code2;
         return $this;
     }
@@ -293,10 +293,10 @@ class Nomenclatures {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Nomenclatures {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -304,10 +304,10 @@ class Nomenclatures {
     /**
      * Set the commentaire2.
      *
-     * @param string $commentaire2 The commentaire2.
+     * @param string|null $commentaire2 The commentaire2.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setCommentaire2($commentaire2) {
+    public function setCommentaire2(?string $commentaire2): Nomenclatures {
         $this->commentaire2 = $commentaire2;
         return $this;
     }
@@ -318,7 +318,7 @@ class Nomenclatures {
      * @param DateTime|null $date1 The date1.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setDate1(DateTime $date1 = null) {
+    public function setDate1(?DateTime $date1): Nomenclatures {
         $this->date1 = $date1;
         return $this;
     }
@@ -329,7 +329,7 @@ class Nomenclatures {
      * @param DateTime|null $date2 The date2.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setDate2(DateTime $date2 = null) {
+    public function setDate2(?DateTime $date2): Nomenclatures {
         $this->date2 = $date2;
         return $this;
     }
@@ -337,10 +337,10 @@ class Nomenclatures {
     /**
      * Set the double1.
      *
-     * @param float $double1 The double1.
+     * @param float|null $double1 The double1.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setDouble1($double1) {
+    public function setDouble1(?float $double1): Nomenclatures {
         $this->double1 = $double1;
         return $this;
     }
@@ -348,10 +348,10 @@ class Nomenclatures {
     /**
      * Set the double2.
      *
-     * @param float $double2 The double2.
+     * @param float|null $double2 The double2.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setDouble2($double2) {
+    public function setDouble2(?float $double2): Nomenclatures {
         $this->double2 = $double2;
         return $this;
     }
@@ -359,10 +359,10 @@ class Nomenclatures {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): Nomenclatures {
         $this->numero = $numero;
         return $this;
     }
@@ -370,10 +370,10 @@ class Nomenclatures {
     /**
      * Set the texte1.
      *
-     * @param string $texte1 The texte1.
+     * @param string|null $texte1 The texte1.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setTexte1($texte1) {
+    public function setTexte1(?string $texte1): Nomenclatures {
         $this->texte1 = $texte1;
         return $this;
     }
@@ -381,10 +381,10 @@ class Nomenclatures {
     /**
      * Set the texte2.
      *
-     * @param string $texte2 The texte2.
+     * @param string|null $texte2 The texte2.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setTexte2($texte2) {
+    public function setTexte2(?string $texte2): Nomenclatures {
         $this->texte2 = $texte2;
         return $this;
     }
@@ -392,10 +392,10 @@ class Nomenclatures {
     /**
      * Set the texte3.
      *
-     * @param string $texte3 The texte3.
+     * @param string|null $texte3 The texte3.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setTexte3($texte3) {
+    public function setTexte3(?string $texte3): Nomenclatures {
         $this->texte3 = $texte3;
         return $this;
     }
@@ -403,10 +403,10 @@ class Nomenclatures {
     /**
      * Set the texte4.
      *
-     * @param string $texte4 The texte4.
+     * @param string|null $texte4 The texte4.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setTexte4($texte4) {
+    public function setTexte4(?string $texte4): Nomenclatures {
         $this->texte4 = $texte4;
         return $this;
     }
@@ -414,10 +414,10 @@ class Nomenclatures {
     /**
      * Set the texte5.
      *
-     * @param string $texte5 The texte5.
+     * @param string|null $texte5 The texte5.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setTexte5($texte5) {
+    public function setTexte5(?string $texte5): Nomenclatures {
         $this->texte5 = $texte5;
         return $this;
     }
@@ -425,10 +425,10 @@ class Nomenclatures {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Nomenclatures Returns this Nomenclatures.
      */
-    public function setType($type) {
+    public function setType(?string $type): Nomenclatures {
         $this->type = $type;
         return $this;
     }

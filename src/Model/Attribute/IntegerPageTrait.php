@@ -11,8 +11,6 @@
 
 namespace WBW\Library\Core\Model\Attribute;
 
-use InvalidArgumentException;
-
 /**
  * Integer page trait.
  *
@@ -24,26 +22,25 @@ trait IntegerPageTrait {
     /**
      * Page.
      *
-     * @var int
+     * @var int|null
      */
     protected $page;
 
     /**
      * Get the page.
      *
-     * @return int Returns the page.
+     * @return int|null Returns the page.
      */
-    public function getPage() {
+    public function getPage(): ?int {
         return $this->page;
     }
 
     /**
      * Set the page.
      *
-     * @param int $page The page.
-     * @throws InvalidArgumentException Throws an invalid argument exception if the page is not between 1 and 65536.
+     * @param int|null $page The page.
      */
-    public function setPage($page) {
+    public function setPage(?int $page) {
         $this->page = $page;
         return $this;
     }

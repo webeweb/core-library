@@ -27,7 +27,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new ClientsSelAvanceFavoris();
 
@@ -40,7 +40,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeListe() {
+    public function testSetCodeListe(): void {
 
         $obj = new ClientsSelAvanceFavoris();
 
@@ -53,7 +53,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new ClientsSelAvanceFavoris();
 
@@ -66,7 +66,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdre() {
+    public function testSetOrdre(): void {
 
         $obj = new ClientsSelAvanceFavoris();
 
@@ -79,7 +79,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigine() {
+    public function testSetOrigine(): void {
 
         $obj = new ClientsSelAvanceFavoris();
 
@@ -92,7 +92,7 @@ class ClientsSelAvanceFavorisTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsSelAvanceFavoris();
 

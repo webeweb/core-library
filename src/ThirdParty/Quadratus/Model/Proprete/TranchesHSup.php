@@ -22,65 +22,66 @@ class TranchesHSup {
     /**
      * Nb heures.
      *
-     * @var int
+     * @var int|null
      */
     private $nbHeures;
 
     /**
      * Taux.
      *
-     * @var float
+     * @var float|null
      */
     private $taux;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the nb heures.
      *
-     * @return int Returns the nb heures.
+     * @return int|null Returns the nb heures.
      */
-    public function getNbHeures() {
+    public function getNbHeures(): ?int{
         return $this->nbHeures;
     }
 
     /**
      * Get the taux.
      *
-     * @return float Returns the taux.
+     * @return float|null Returns the taux.
      */
-    public function getTaux() {
+    public function getTaux(): ?float{
         return $this->taux;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the nb heures.
      *
-     * @param int $nbHeures The nb heures.
+     * @param int|null $nbHeures The nb heures.
      * @return TranchesHSup Returns this Tranches h sup.
      */
-    public function setNbHeures($nbHeures) {
+    public function setNbHeures(?int $nbHeures): TranchesHSup {
         $this->nbHeures = $nbHeures;
         return $this;
     }
@@ -88,10 +89,10 @@ class TranchesHSup {
     /**
      * Set the taux.
      *
-     * @param float $taux The taux.
+     * @param float|null $taux The taux.
      * @return TranchesHSup Returns this Tranches h sup.
      */
-    public function setTaux($taux) {
+    public function setTaux(?float $taux): TranchesHSup {
         $this->taux = $taux;
         return $this;
     }
@@ -99,10 +100,10 @@ class TranchesHSup {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return TranchesHSup Returns this Tranches h sup.
      */
-    public function setType($type) {
+    public function setType(?string $type): TranchesHSup {
         $this->type = $type;
         return $this;
     }

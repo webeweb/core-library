@@ -27,7 +27,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChapitreAffect() {
+    public function testSetChapitreAffect(): void {
 
         $obj = new Natures();
 
@@ -40,7 +40,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Natures();
 
@@ -53,7 +53,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Natures();
 
@@ -66,7 +66,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeCalculRepart() {
+    public function testSetModeCalculRepart(): void {
 
         $obj = new Natures();
 
@@ -79,7 +79,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNatureInactive() {
+    public function testSetNatureInactive(): void {
 
         $obj = new Natures();
 
@@ -92,7 +92,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdreEdition() {
+    public function testSetOrdreEdition(): void {
 
         $obj = new Natures();
 
@@ -105,7 +105,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviAnneeRecolte() {
+    public function testSetSuiviAnneeRecolte(): void {
 
         $obj = new Natures();
 
@@ -118,7 +118,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviQuantite() {
+    public function testSetSuiviQuantite(): void {
 
         $obj = new Natures();
 
@@ -131,7 +131,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeNature() {
+    public function testSetTypeNature(): void {
 
         $obj = new Natures();
 
@@ -144,7 +144,7 @@ class NaturesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Natures();
 

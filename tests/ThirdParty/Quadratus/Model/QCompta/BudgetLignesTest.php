@@ -27,7 +27,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new BudgetLignes();
 
@@ -40,7 +40,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBudget() {
+    public function testSetCodeBudget(): void {
 
         $obj = new BudgetLignes();
 
@@ -53,7 +53,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoef() {
+    public function testSetCoef(): void {
 
         $obj = new BudgetLignes();
 
@@ -66,7 +66,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetColSaisie() {
+    public function testSetColSaisie(): void {
 
         $obj = new BudgetLignes();
 
@@ -79,7 +79,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires() {
+    public function testSetCommentaires(): void {
 
         $obj = new BudgetLignes();
 
@@ -92,7 +92,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompte() {
+    public function testSetCompte(): void {
 
         $obj = new BudgetLignes();
 
@@ -105,7 +105,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt1() {
+    public function testSetMt1(): void {
 
         $obj = new BudgetLignes();
 
@@ -118,7 +118,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt10() {
+    public function testSetMt10(): void {
 
         $obj = new BudgetLignes();
 
@@ -131,7 +131,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt11() {
+    public function testSetMt11(): void {
 
         $obj = new BudgetLignes();
 
@@ -144,7 +144,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt12() {
+    public function testSetMt12(): void {
 
         $obj = new BudgetLignes();
 
@@ -157,7 +157,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt13() {
+    public function testSetMt13(): void {
 
         $obj = new BudgetLignes();
 
@@ -170,7 +170,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt14() {
+    public function testSetMt14(): void {
 
         $obj = new BudgetLignes();
 
@@ -183,7 +183,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt15() {
+    public function testSetMt15(): void {
 
         $obj = new BudgetLignes();
 
@@ -196,7 +196,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt16() {
+    public function testSetMt16(): void {
 
         $obj = new BudgetLignes();
 
@@ -209,7 +209,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt17() {
+    public function testSetMt17(): void {
 
         $obj = new BudgetLignes();
 
@@ -222,7 +222,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt18() {
+    public function testSetMt18(): void {
 
         $obj = new BudgetLignes();
 
@@ -235,7 +235,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt19() {
+    public function testSetMt19(): void {
 
         $obj = new BudgetLignes();
 
@@ -248,7 +248,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt2() {
+    public function testSetMt2(): void {
 
         $obj = new BudgetLignes();
 
@@ -261,7 +261,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt20() {
+    public function testSetMt20(): void {
 
         $obj = new BudgetLignes();
 
@@ -274,7 +274,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt21() {
+    public function testSetMt21(): void {
 
         $obj = new BudgetLignes();
 
@@ -287,7 +287,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt22() {
+    public function testSetMt22(): void {
 
         $obj = new BudgetLignes();
 
@@ -300,7 +300,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt23() {
+    public function testSetMt23(): void {
 
         $obj = new BudgetLignes();
 
@@ -313,7 +313,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt24() {
+    public function testSetMt24(): void {
 
         $obj = new BudgetLignes();
 
@@ -326,7 +326,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt3() {
+    public function testSetMt3(): void {
 
         $obj = new BudgetLignes();
 
@@ -339,7 +339,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt4() {
+    public function testSetMt4(): void {
 
         $obj = new BudgetLignes();
 
@@ -352,7 +352,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt5() {
+    public function testSetMt5(): void {
 
         $obj = new BudgetLignes();
 
@@ -365,7 +365,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt6() {
+    public function testSetMt6(): void {
 
         $obj = new BudgetLignes();
 
@@ -378,7 +378,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt7() {
+    public function testSetMt7(): void {
 
         $obj = new BudgetLignes();
 
@@ -391,7 +391,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt8() {
+    public function testSetMt8(): void {
 
         $obj = new BudgetLignes();
 
@@ -404,7 +404,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMt9() {
+    public function testSetMt9(): void {
 
         $obj = new BudgetLignes();
 
@@ -417,7 +417,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new BudgetLignes();
 
@@ -430,7 +430,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new BudgetLignes();
 
@@ -443,7 +443,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisie() {
+    public function testSetTypeSaisie(): void {
 
         $obj = new BudgetLignes();
 
@@ -456,7 +456,7 @@ class BudgetLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BudgetLignes();
 

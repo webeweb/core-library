@@ -40,7 +40,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithDelete() {
+    public function testNewCurlRequestWithDelete(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_DELETE);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -53,7 +53,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithGet() {
+    public function testNewCurlRequestWithGet(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_GET);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -66,7 +66,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithHead() {
+    public function testNewCurlRequestWithHead(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_HEAD);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -79,7 +79,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithInvalidArgumentException() {
+    public function testNewCurlRequestWithInvalidArgumentException(): void {
 
         try {
 
@@ -97,7 +97,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithOptions() {
+    public function testNewCurlRequestWithOptions(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_OPTIONS);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -110,7 +110,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithPatch() {
+    public function testNewCurlRequestWithPatch(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_PATCH);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -123,7 +123,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithPost() {
+    public function testNewCurlRequestWithPost(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_POST);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -136,7 +136,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlRequestWithPut() {
+    public function testNewCurlRequestWithPut(): void {
 
         $obj = CurlFactory::newCurlRequest(HttpInterface::HTTP_METHOD_PUT);
         $this->assertInstanceOf(CurlRequestInterface::class, $obj);
@@ -149,7 +149,7 @@ class CurlFactoryTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testNewCurlResponse() {
+    public function testNewCurlResponse(): void {
 
         $obj = CurlFactory::newCurlResponse();
         $this->assertInstanceOf(CurlResponseInterface::class, $obj);

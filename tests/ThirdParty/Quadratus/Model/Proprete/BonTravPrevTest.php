@@ -29,7 +29,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtBureauDistributeur() {
+    public function testSetAdBtBureauDistributeur(): void {
 
         $obj = new BonTravPrev();
 
@@ -42,7 +42,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtCivilite() {
+    public function testSetAdBtCivilite(): void {
 
         $obj = new BonTravPrev();
 
@@ -55,7 +55,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtCodePays() {
+    public function testSetAdBtCodePays(): void {
 
         $obj = new BonTravPrev();
 
@@ -68,7 +68,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtCodePostal() {
+    public function testSetAdBtCodePostal(): void {
 
         $obj = new BonTravPrev();
 
@@ -81,7 +81,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtComplement() {
+    public function testSetAdBtComplement(): void {
 
         $obj = new BonTravPrev();
 
@@ -94,7 +94,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNom() {
+    public function testSetAdBtNom(): void {
 
         $obj = new BonTravPrev();
 
@@ -107,7 +107,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNomSuite() {
+    public function testSetAdBtNomSuite(): void {
 
         $obj = new BonTravPrev();
 
@@ -120,7 +120,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNomVoie() {
+    public function testSetAdBtNomVoie(): void {
 
         $obj = new BonTravPrev();
 
@@ -133,7 +133,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNumVoie() {
+    public function testSetAdBtNumVoie(): void {
 
         $obj = new BonTravPrev();
 
@@ -146,7 +146,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtbtq() {
+    public function testSetAdBtbtq(): void {
 
         $obj = new BonTravPrev();
 
@@ -159,7 +159,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFBureauDistributeur() {
+    public function testSetAdFBureauDistributeur(): void {
 
         $obj = new BonTravPrev();
 
@@ -172,7 +172,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCivilite() {
+    public function testSetAdFCivilite(): void {
 
         $obj = new BonTravPrev();
 
@@ -185,7 +185,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCodePays() {
+    public function testSetAdFCodePays(): void {
 
         $obj = new BonTravPrev();
 
@@ -198,7 +198,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCodePostal() {
+    public function testSetAdFCodePostal(): void {
 
         $obj = new BonTravPrev();
 
@@ -211,7 +211,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFComplement() {
+    public function testSetAdFComplement(): void {
 
         $obj = new BonTravPrev();
 
@@ -224,7 +224,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNom() {
+    public function testSetAdFNom(): void {
 
         $obj = new BonTravPrev();
 
@@ -237,7 +237,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite() {
+    public function testSetAdFNomSuite(): void {
 
         $obj = new BonTravPrev();
 
@@ -250,7 +250,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite2() {
+    public function testSetAdFNomSuite2(): void {
 
         $obj = new BonTravPrev();
 
@@ -263,7 +263,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite3() {
+    public function testSetAdFNomSuite3(): void {
 
         $obj = new BonTravPrev();
 
@@ -276,7 +276,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomVoie() {
+    public function testSetAdFNomVoie(): void {
 
         $obj = new BonTravPrev();
 
@@ -289,7 +289,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNumVoie() {
+    public function testSetAdFNumVoie(): void {
 
         $obj = new BonTravPrev();
 
@@ -302,7 +302,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFbtq() {
+    public function testSetAdFbtq(): void {
 
         $obj = new BonTravPrev();
 
@@ -315,7 +315,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseBtSaisie() {
+    public function testSetAdresseBtSaisie(): void {
 
         $obj = new BonTravPrev();
 
@@ -328,7 +328,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseFacturationSaisie() {
+    public function testSetAdresseFacturationSaisie(): void {
 
         $obj = new BonTravPrev();
 
@@ -341,7 +341,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtCopie() {
+    public function testSetBtCopie(): void {
 
         $obj = new BonTravPrev();
 
@@ -354,7 +354,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtDevisDejaFacture() {
+    public function testSetBtDevisDejaFacture(): void {
 
         $obj = new BonTravPrev();
 
@@ -367,7 +367,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtValide() {
+    public function testSetBtValide(): void {
 
         $obj = new BonTravPrev();
 
@@ -380,7 +380,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new BonTravPrev();
 
@@ -393,7 +393,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new BonTravPrev();
 
@@ -406,7 +406,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BonTravPrev();
 
@@ -419,7 +419,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new BonTravPrev();
 
@@ -432,7 +432,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEquipe() {
+    public function testSetCodeEquipe(): void {
 
         $obj = new BonTravPrev();
 
@@ -445,7 +445,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupementDevis() {
+    public function testSetCodeRegroupementDevis(): void {
 
         $obj = new BonTravPrev();
 
@@ -458,7 +458,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheType() {
+    public function testSetCodeTacheType(): void {
 
         $obj = new BonTravPrev();
 
@@ -471,7 +471,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTournee() {
+    public function testSetCodeTournee(): void {
 
         $obj = new BonTravPrev();
 
@@ -484,7 +484,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereBool1() {
+    public function testSetCritereBool1(): void {
 
         $obj = new BonTravPrev();
 
@@ -497,7 +497,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereBool2() {
+    public function testSetCritereBool2(): void {
 
         $obj = new BonTravPrev();
 
@@ -510,7 +510,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereByte1() {
+    public function testSetCritereByte1(): void {
 
         $obj = new BonTravPrev();
 
@@ -523,7 +523,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereListe1() {
+    public function testSetCritereListe1(): void {
 
         $obj = new BonTravPrev();
 
@@ -536,7 +536,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereListe2() {
+    public function testSetCritereListe2(): void {
 
         $obj = new BonTravPrev();
 
@@ -549,7 +549,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereNumerique1() {
+    public function testSetCritereNumerique1(): void {
 
         $obj = new BonTravPrev();
 
@@ -562,7 +562,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereNumerique2() {
+    public function testSetCritereNumerique2(): void {
 
         $obj = new BonTravPrev();
 
@@ -575,7 +575,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereTexte1() {
+    public function testSetCritereTexte1(): void {
 
         $obj = new BonTravPrev();
 
@@ -588,7 +588,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereTexte2() {
+    public function testSetCritereTexte2(): void {
 
         $obj = new BonTravPrev();
 
@@ -602,7 +602,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePassage() {
+    public function testSetDatePassage(): void {
 
         // Set a Date/time mock.
         $datePassage = new DateTime("2018-09-10");
@@ -619,7 +619,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePremierPassage() {
+    public function testSetDatePremierPassage(): void {
 
         // Set a Date/time mock.
         $datePremierPassage = new DateTime("2018-09-10");
@@ -636,7 +636,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateTransfert() {
+    public function testSetDateTransfert(): void {
 
         // Set a Date/time mock.
         $dateTransfert = new DateTime("2018-09-10");
@@ -652,7 +652,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new BonTravPrev();
 
@@ -665,7 +665,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureePointee() {
+    public function testSetDureePointee(): void {
 
         $obj = new BonTravPrev();
 
@@ -678,7 +678,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureePrevue() {
+    public function testSetDureePrevue(): void {
 
         $obj = new BonTravPrev();
 
@@ -691,7 +691,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeValidee() {
+    public function testSetDureeValidee(): void {
 
         $obj = new BonTravPrev();
 
@@ -704,7 +704,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmployeSigneMob() {
+    public function testSetEmployeSigneMob(): void {
 
         $obj = new BonTravPrev();
 
@@ -717,7 +717,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPlanning() {
+    public function testSetGestionPlanning(): void {
 
         $obj = new BonTravPrev();
 
@@ -730,7 +730,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGuidMob() {
+    public function testSetGuidMob(): void {
 
         $obj = new BonTravPrev();
 
@@ -744,7 +744,7 @@ class BonTravPrevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDeb() {
+    public function testSetHeureDeb(): void {
 
         // Set a Date/time mock.
         $heureDeb = new DateTime("2018-09-10");
@@ -760,7 +760,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLatitude() {
+    public function testSetLatitude(): void {
 
         $obj = new BonTravPrev();
 
@@ -773,7 +773,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new BonTravPrev();
 
@@ -786,7 +786,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new BonTravPrev();
 
@@ -799,7 +799,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLongitude() {
+    public function testSetLongitude(): void {
 
         $obj = new BonTravPrev();
 
@@ -812,7 +812,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHtDevis() {
+    public function testSetMontantHtDevis(): void {
 
         $obj = new BonTravPrev();
 
@@ -825,7 +825,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJoursPointes() {
+    public function testSetNbJoursPointes(): void {
 
         $obj = new BonTravPrev();
 
@@ -838,7 +838,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJoursPrevus() {
+    public function testSetNbJoursPrevus(): void {
 
         $obj = new BonTravPrev();
 
@@ -851,7 +851,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEmployes() {
+    public function testSetNombreEmployes(): void {
 
         $obj = new BonTravPrev();
 
@@ -864,7 +864,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNonTraite() {
+    public function testSetNonTraite(): void {
 
         $obj = new BonTravPrev();
 
@@ -877,7 +877,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new BonTravPrev();
 
@@ -890,7 +890,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDevis() {
+    public function testSetNumeroDevis(): void {
 
         $obj = new BonTravPrev();
 
@@ -903,7 +903,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroFacture() {
+    public function testSetNumeroFacture(): void {
 
         $obj = new BonTravPrev();
 
@@ -916,7 +916,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new BonTravPrev();
 
@@ -929,7 +929,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservationClient() {
+    public function testSetObservationClient(): void {
 
         $obj = new BonTravPrev();
 
@@ -942,7 +942,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservationInterne() {
+    public function testSetObservationInterne(): void {
 
         $obj = new BonTravPrev();
 
@@ -955,7 +955,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOccasionnel() {
+    public function testSetOccasionnel(): void {
 
         $obj = new BonTravPrev();
 
@@ -968,7 +968,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlusieursJours() {
+    public function testSetPlusieursJours(): void {
 
         $obj = new BonTravPrev();
 
@@ -981,7 +981,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlusieursMois() {
+    public function testSetPlusieursMois(): void {
 
         $obj = new BonTravPrev();
 
@@ -994,7 +994,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new BonTravPrev();
 
@@ -1007,7 +1007,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProratise() {
+    public function testSetProratise(): void {
 
         $obj = new BonTravPrev();
 
@@ -1020,7 +1020,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignataire() {
+    public function testSetSignataire(): void {
 
         $obj = new BonTravPrev();
 
@@ -1033,7 +1033,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSigne() {
+    public function testSetSigne(): void {
 
         $obj = new BonTravPrev();
 
@@ -1046,7 +1046,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStartMob() {
+    public function testSetStartMob(): void {
 
         $obj = new BonTravPrev();
 
@@ -1059,7 +1059,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBt() {
+    public function testSetTypeBt(): void {
 
         $obj = new BonTravPrev();
 
@@ -1072,7 +1072,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBtSaisi() {
+    public function testSetTypeBtSaisi(): void {
 
         $obj = new BonTravPrev();
 
@@ -1085,7 +1085,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdBlocage() {
+    public function testSetUniqIdBlocage(): void {
 
         $obj = new BonTravPrev();
 
@@ -1098,7 +1098,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVia() {
+    public function testSetVia(): void {
 
         $obj = new BonTravPrev();
 
@@ -1111,7 +1111,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetreference1Devis() {
+    public function testSetreference1Devis(): void {
 
         $obj = new BonTravPrev();
 
@@ -1124,7 +1124,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetreference2Devis() {
+    public function testSetreference2Devis(): void {
 
         $obj = new BonTravPrev();
 
@@ -1137,7 +1137,7 @@ class BonTravPrevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BonTravPrev();
 

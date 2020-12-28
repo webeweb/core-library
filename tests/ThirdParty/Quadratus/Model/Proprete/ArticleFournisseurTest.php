@@ -29,7 +29,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerCodeDevise() {
+    public function testSetAvtDerCodeDevise(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -43,7 +43,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAvtDerDateAchat() {
+    public function testSetAvtDerDateAchat(): void {
 
         // Set a Date/time mock.
         $avtDerDateAchat = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerEuros() {
+    public function testSetAvtDerEuros(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -72,7 +72,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerPxAchat() {
+    public function testSetAvtDerPxAchat(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -85,7 +85,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerQteAchat() {
+    public function testSetAvtDerQteAchat(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -98,7 +98,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerRemise1() {
+    public function testSetAvtDerRemise1(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -111,7 +111,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerRemise2() {
+    public function testSetAvtDerRemise2(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -124,7 +124,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvtDerRemise3() {
+    public function testSetAvtDerRemise3(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -137,7 +137,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -150,7 +150,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -163,7 +163,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires() {
+    public function testSetCommentaires(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -176,7 +176,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionnement() {
+    public function testSetConditionnement(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -189,7 +189,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiLe() {
+    public function testSetDelaiLe(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -202,7 +202,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiNombre() {
+    public function testSetDelaiNombre(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -215,7 +215,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiType() {
+    public function testSetDelaiType(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -228,7 +228,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerCodeDevise() {
+    public function testSetDerCodeDevise(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -242,7 +242,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDerDateAchat() {
+    public function testSetDerDateAchat(): void {
 
         // Set a Date/time mock.
         $derDateAchat = new DateTime("2018-09-10");
@@ -258,7 +258,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerEuros() {
+    public function testSetDerEuros(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -271,7 +271,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerPxAchat() {
+    public function testSetDerPxAchat(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -284,7 +284,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerQteAchat() {
+    public function testSetDerQteAchat(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -297,7 +297,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerRemise1() {
+    public function testSetDerRemise1(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -310,7 +310,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerRemise2() {
+    public function testSetDerRemise2(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -323,7 +323,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDerRemise3() {
+    public function testSetDerRemise3(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -336,7 +336,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniCodeDevise() {
+    public function testSetMiniCodeDevise(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -350,7 +350,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMiniDateAchat() {
+    public function testSetMiniDateAchat(): void {
 
         // Set a Date/time mock.
         $miniDateAchat = new DateTime("2018-09-10");
@@ -366,7 +366,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniEuros() {
+    public function testSetMiniEuros(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -379,7 +379,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniPxAchat() {
+    public function testSetMiniPxAchat(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -392,7 +392,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniQteAchat() {
+    public function testSetMiniQteAchat(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -405,7 +405,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniRemise1() {
+    public function testSetMiniRemise1(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -418,7 +418,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniRemise2() {
+    public function testSetMiniRemise2(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -431,7 +431,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMiniRemise3() {
+    public function testSetMiniRemise3(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -444,7 +444,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -457,7 +457,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteEconomique() {
+    public function testSetQteEconomique(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -470,7 +470,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefArticleFournisseur() {
+    public function testSetRefArticleFournisseur(): void {
 
         $obj = new ArticleFournisseur();
 
@@ -483,7 +483,7 @@ class ArticleFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticleFournisseur();
 

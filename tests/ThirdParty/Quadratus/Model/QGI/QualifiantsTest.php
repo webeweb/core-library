@@ -27,7 +27,7 @@ class QualifiantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Qualifiants();
 
@@ -40,7 +40,7 @@ class QualifiantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetColonne() {
+    public function testSetColonne(): void {
 
         $obj = new Qualifiants();
 
@@ -53,7 +53,7 @@ class QualifiantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisuAppels() {
+    public function testSetVisuAppels(): void {
 
         $obj = new Qualifiants();
 
@@ -66,7 +66,7 @@ class QualifiantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisuDocuments() {
+    public function testSetVisuDocuments(): void {
 
         $obj = new Qualifiants();
 
@@ -79,7 +79,7 @@ class QualifiantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVisuEvenements() {
+    public function testSetVisuEvenements(): void {
 
         $obj = new Qualifiants();
 
@@ -92,7 +92,7 @@ class QualifiantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Qualifiants();
 

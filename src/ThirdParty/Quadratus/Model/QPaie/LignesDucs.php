@@ -24,49 +24,49 @@ class LignesDucs {
     /**
      * Code at.
      *
-     * @var int
+     * @var int|null
      */
     private $codeAt;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code ducs.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDucs;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code insee.
      *
-     * @var string
+     * @var string|null
      */
     private $codeInsee;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Condition spec.
      *
-     * @var string
+     * @var string|null
      */
     private $conditionSpec;
 
@@ -80,84 +80,84 @@ class LignesDucs {
     /**
      * Exclure fusion.
      *
-     * @var bool
+     * @var bool|null
      */
     private $exclureFusion;
 
     /**
      * Id institution.
      *
-     * @var string
+     * @var string|null
      */
     private $idInstitution;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Is taux.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isTaux;
 
     /**
      * Marque.
      *
-     * @var bool
+     * @var bool|null
      */
     private $marque;
 
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Mt patronal.
      *
-     * @var float
+     * @var float|null
      */
     private $mtPatronal;
 
     /**
      * Mt salarial.
      *
-     * @var float
+     * @var float|null
      */
     private $mtSalarial;
 
     /**
      * Nb cot.
      *
-     * @var float
+     * @var float|null
      */
     private $nbCot;
 
     /**
      * Nb patronal.
      *
-     * @var float
+     * @var float|null
      */
     private $nbPatronal;
 
     /**
      * Nb salarial.
      *
-     * @var float
+     * @var float|null
      */
     private $nbSalarial;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
 
@@ -171,112 +171,113 @@ class LignesDucs {
     /**
      * Qualifiant cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $qualifiantCotis;
 
     /**
      * Somme base.
      *
-     * @var float
+     * @var float|null
      */
     private $sommeBase;
 
     /**
      * Taux at.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxAt;
 
     /**
      * Taux patronal.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxPatronal;
 
     /**
      * Taux salarial.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxSalarial;
 
     /**
      * Type base unique.
      *
-     * @var bool
+     * @var bool|null
      */
     private $typeBaseUnique;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code at.
      *
-     * @return int Returns the code at.
+     * @return int|null Returns the code at.
      */
-    public function getCodeAt() {
+    public function getCodeAt(): ?int{
         return $this->codeAt;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code ducs.
      *
-     * @return string Returns the code ducs.
+     * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs() {
+    public function getCodeDucs(): ?string{
         return $this->codeDucs;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code insee.
      *
-     * @return string Returns the code insee.
+     * @return string|null Returns the code insee.
      */
-    public function getCodeInsee() {
+    public function getCodeInsee(): ?string{
         return $this->codeInsee;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the condition spec.
      *
-     * @return string Returns the condition spec.
+     * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec() {
+    public function getConditionSpec(): ?string{
         return $this->conditionSpec;
     }
 
@@ -285,115 +286,115 @@ class LignesDucs {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication() {
+    public function getDateApplication(): ?DateTime{
         return $this->dateApplication;
     }
 
     /**
      * Get the exclure fusion.
      *
-     * @return bool Returns the exclure fusion.
+     * @return bool|null Returns the exclure fusion.
      */
-    public function getExclureFusion() {
+    public function getExclureFusion(): ?bool{
         return $this->exclureFusion;
     }
 
     /**
      * Get the id institution.
      *
-     * @return string Returns the id institution.
+     * @return string|null Returns the id institution.
      */
-    public function getIdInstitution() {
+    public function getIdInstitution(): ?string{
         return $this->idInstitution;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the is taux.
      *
-     * @return bool Returns the is taux.
+     * @return bool|null Returns the is taux.
      */
-    public function getIsTaux() {
+    public function getIsTaux(): ?bool{
         return $this->isTaux;
     }
 
     /**
      * Get the marque.
      *
-     * @return bool Returns the marque.
+     * @return bool|null Returns the marque.
      */
-    public function getMarque() {
+    public function getMarque(): ?bool{
         return $this->marque;
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the mt patronal.
      *
-     * @return float Returns the mt patronal.
+     * @return float|null Returns the mt patronal.
      */
-    public function getMtPatronal() {
+    public function getMtPatronal(): ?float{
         return $this->mtPatronal;
     }
 
     /**
      * Get the mt salarial.
      *
-     * @return float Returns the mt salarial.
+     * @return float|null Returns the mt salarial.
      */
-    public function getMtSalarial() {
+    public function getMtSalarial(): ?float{
         return $this->mtSalarial;
     }
 
     /**
      * Get the nb cot.
      *
-     * @return float Returns the nb cot.
+     * @return float|null Returns the nb cot.
      */
-    public function getNbCot() {
+    public function getNbCot(): ?float{
         return $this->nbCot;
     }
 
     /**
      * Get the nb patronal.
      *
-     * @return float Returns the nb patronal.
+     * @return float|null Returns the nb patronal.
      */
-    public function getNbPatronal() {
+    public function getNbPatronal(): ?float{
         return $this->nbPatronal;
     }
 
     /**
      * Get the nb salarial.
      *
-     * @return float Returns the nb salarial.
+     * @return float|null Returns the nb salarial.
      */
-    public function getNbSalarial() {
+    public function getNbSalarial(): ?float{
         return $this->nbSalarial;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
@@ -402,71 +403,71 @@ class LignesDucs {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla() {
+    public function getPeriodeDecla(): ?DateTime{
         return $this->periodeDecla;
     }
 
     /**
      * Get the qualifiant cotis.
      *
-     * @return string Returns the qualifiant cotis.
+     * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis() {
+    public function getQualifiantCotis(): ?string{
         return $this->qualifiantCotis;
     }
 
     /**
      * Get the somme base.
      *
-     * @return float Returns the somme base.
+     * @return float|null Returns the somme base.
      */
-    public function getSommeBase() {
+    public function getSommeBase(): ?float{
         return $this->sommeBase;
     }
 
     /**
      * Get the taux at.
      *
-     * @return float Returns the taux at.
+     * @return float|null Returns the taux at.
      */
-    public function getTauxAt() {
+    public function getTauxAt(): ?float{
         return $this->tauxAt;
     }
 
     /**
      * Get the taux patronal.
      *
-     * @return float Returns the taux patronal.
+     * @return float|null Returns the taux patronal.
      */
-    public function getTauxPatronal() {
+    public function getTauxPatronal(): ?float{
         return $this->tauxPatronal;
     }
 
     /**
      * Get the taux salarial.
      *
-     * @return float Returns the taux salarial.
+     * @return float|null Returns the taux salarial.
      */
-    public function getTauxSalarial() {
+    public function getTauxSalarial(): ?float{
         return $this->tauxSalarial;
     }
 
     /**
      * Get the type base unique.
      *
-     * @return bool Returns the type base unique.
+     * @return bool|null Returns the type base unique.
      */
-    public function getTypeBaseUnique() {
+    public function getTypeBaseUnique(): ?bool{
         return $this->typeBaseUnique;
     }
 
     /**
      * Set the code at.
      *
-     * @param int $codeAt The code at.
+     * @param int|null $codeAt The code at.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setCodeAt($codeAt) {
+    public function setCodeAt(?int $codeAt): LignesDucs {
         $this->codeAt = $codeAt;
         return $this;
     }
@@ -474,10 +475,10 @@ class LignesDucs {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): LignesDucs {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -485,10 +486,10 @@ class LignesDucs {
     /**
      * Set the code ducs.
      *
-     * @param string $codeDucs The code ducs.
+     * @param string|null $codeDucs The code ducs.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setCodeDucs($codeDucs) {
+    public function setCodeDucs(?string $codeDucs): LignesDucs {
         $this->codeDucs = $codeDucs;
         return $this;
     }
@@ -496,10 +497,10 @@ class LignesDucs {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): LignesDucs {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -507,10 +508,10 @@ class LignesDucs {
     /**
      * Set the code insee.
      *
-     * @param string $codeInsee The code insee.
+     * @param string|null $codeInsee The code insee.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setCodeInsee($codeInsee) {
+    public function setCodeInsee(?string $codeInsee): LignesDucs {
         $this->codeInsee = $codeInsee;
         return $this;
     }
@@ -518,10 +519,10 @@ class LignesDucs {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): LignesDucs {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -529,10 +530,10 @@ class LignesDucs {
     /**
      * Set the condition spec.
      *
-     * @param string $conditionSpec The condition spec.
+     * @param string|null $conditionSpec The condition spec.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setConditionSpec($conditionSpec) {
+    public function setConditionSpec(?string $conditionSpec): LignesDucs {
         $this->conditionSpec = $conditionSpec;
         return $this;
     }
@@ -543,7 +544,7 @@ class LignesDucs {
      * @param DateTime|null $dateApplication The date application.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setDateApplication(DateTime $dateApplication = null) {
+    public function setDateApplication(?DateTime $dateApplication): LignesDucs {
         $this->dateApplication = $dateApplication;
         return $this;
     }
@@ -551,10 +552,10 @@ class LignesDucs {
     /**
      * Set the exclure fusion.
      *
-     * @param bool $exclureFusion The exclure fusion.
+     * @param bool|null $exclureFusion The exclure fusion.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setExclureFusion($exclureFusion) {
+    public function setExclureFusion(?bool $exclureFusion): LignesDucs {
         $this->exclureFusion = $exclureFusion;
         return $this;
     }
@@ -562,10 +563,10 @@ class LignesDucs {
     /**
      * Set the id institution.
      *
-     * @param string $idInstitution The id institution.
+     * @param string|null $idInstitution The id institution.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setIdInstitution($idInstitution) {
+    public function setIdInstitution(?string $idInstitution): LignesDucs {
         $this->idInstitution = $idInstitution;
         return $this;
     }
@@ -573,10 +574,10 @@ class LignesDucs {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): LignesDucs {
         $this->intitule = $intitule;
         return $this;
     }
@@ -584,10 +585,10 @@ class LignesDucs {
     /**
      * Set the is taux.
      *
-     * @param bool $isTaux The is taux.
+     * @param bool|null $isTaux The is taux.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setIsTaux($isTaux) {
+    public function setIsTaux(?bool $isTaux): LignesDucs {
         $this->isTaux = $isTaux;
         return $this;
     }
@@ -595,10 +596,10 @@ class LignesDucs {
     /**
      * Set the marque.
      *
-     * @param bool $marque The marque.
+     * @param bool|null $marque The marque.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setMarque($marque) {
+    public function setMarque(?bool $marque): LignesDucs {
         $this->marque = $marque;
         return $this;
     }
@@ -606,10 +607,10 @@ class LignesDucs {
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): LignesDucs {
         $this->montant = $montant;
         return $this;
     }
@@ -617,10 +618,10 @@ class LignesDucs {
     /**
      * Set the mt patronal.
      *
-     * @param float $mtPatronal The mt patronal.
+     * @param float|null $mtPatronal The mt patronal.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setMtPatronal($mtPatronal) {
+    public function setMtPatronal(?float $mtPatronal): LignesDucs {
         $this->mtPatronal = $mtPatronal;
         return $this;
     }
@@ -628,10 +629,10 @@ class LignesDucs {
     /**
      * Set the mt salarial.
      *
-     * @param float $mtSalarial The mt salarial.
+     * @param float|null $mtSalarial The mt salarial.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setMtSalarial($mtSalarial) {
+    public function setMtSalarial(?float $mtSalarial): LignesDucs {
         $this->mtSalarial = $mtSalarial;
         return $this;
     }
@@ -639,10 +640,10 @@ class LignesDucs {
     /**
      * Set the nb cot.
      *
-     * @param float $nbCot The nb cot.
+     * @param float|null $nbCot The nb cot.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setNbCot($nbCot) {
+    public function setNbCot(?float $nbCot): LignesDucs {
         $this->nbCot = $nbCot;
         return $this;
     }
@@ -650,10 +651,10 @@ class LignesDucs {
     /**
      * Set the nb patronal.
      *
-     * @param float $nbPatronal The nb patronal.
+     * @param float|null $nbPatronal The nb patronal.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setNbPatronal($nbPatronal) {
+    public function setNbPatronal(?float $nbPatronal): LignesDucs {
         $this->nbPatronal = $nbPatronal;
         return $this;
     }
@@ -661,10 +662,10 @@ class LignesDucs {
     /**
      * Set the nb salarial.
      *
-     * @param float $nbSalarial The nb salarial.
+     * @param float|null $nbSalarial The nb salarial.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setNbSalarial($nbSalarial) {
+    public function setNbSalarial(?float $nbSalarial): LignesDucs {
         $this->nbSalarial = $nbSalarial;
         return $this;
     }
@@ -672,10 +673,10 @@ class LignesDucs {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): LignesDucs {
         $this->organisme = $organisme;
         return $this;
     }
@@ -686,7 +687,7 @@ class LignesDucs {
      * @param DateTime|null $periodeDecla The periode decla.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setPeriodeDecla(DateTime $periodeDecla = null) {
+    public function setPeriodeDecla(?DateTime $periodeDecla): LignesDucs {
         $this->periodeDecla = $periodeDecla;
         return $this;
     }
@@ -694,10 +695,10 @@ class LignesDucs {
     /**
      * Set the qualifiant cotis.
      *
-     * @param string $qualifiantCotis The qualifiant cotis.
+     * @param string|null $qualifiantCotis The qualifiant cotis.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setQualifiantCotis($qualifiantCotis) {
+    public function setQualifiantCotis(?string $qualifiantCotis): LignesDucs {
         $this->qualifiantCotis = $qualifiantCotis;
         return $this;
     }
@@ -705,10 +706,10 @@ class LignesDucs {
     /**
      * Set the somme base.
      *
-     * @param float $sommeBase The somme base.
+     * @param float|null $sommeBase The somme base.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setSommeBase($sommeBase) {
+    public function setSommeBase(?float $sommeBase): LignesDucs {
         $this->sommeBase = $sommeBase;
         return $this;
     }
@@ -716,10 +717,10 @@ class LignesDucs {
     /**
      * Set the taux at.
      *
-     * @param float $tauxAt The taux at.
+     * @param float|null $tauxAt The taux at.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setTauxAt($tauxAt) {
+    public function setTauxAt(?float $tauxAt): LignesDucs {
         $this->tauxAt = $tauxAt;
         return $this;
     }
@@ -727,10 +728,10 @@ class LignesDucs {
     /**
      * Set the taux patronal.
      *
-     * @param float $tauxPatronal The taux patronal.
+     * @param float|null $tauxPatronal The taux patronal.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setTauxPatronal($tauxPatronal) {
+    public function setTauxPatronal(?float $tauxPatronal): LignesDucs {
         $this->tauxPatronal = $tauxPatronal;
         return $this;
     }
@@ -738,10 +739,10 @@ class LignesDucs {
     /**
      * Set the taux salarial.
      *
-     * @param float $tauxSalarial The taux salarial.
+     * @param float|null $tauxSalarial The taux salarial.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setTauxSalarial($tauxSalarial) {
+    public function setTauxSalarial(?float $tauxSalarial): LignesDucs {
         $this->tauxSalarial = $tauxSalarial;
         return $this;
     }
@@ -749,10 +750,10 @@ class LignesDucs {
     /**
      * Set the type base unique.
      *
-     * @param bool $typeBaseUnique The type base unique.
+     * @param bool|null $typeBaseUnique The type base unique.
      * @return LignesDucs Returns this Lignes ducs.
      */
-    public function setTypeBaseUnique($typeBaseUnique) {
+    public function setTypeBaseUnique(?bool $typeBaseUnique): LignesDucs {
         $this->typeBaseUnique = $typeBaseUnique;
         return $this;
     }

@@ -27,7 +27,7 @@ class StringHashMd5TraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHashMd5() {
+    public function testSetHashMd5(): void {
 
         $obj = new TestStringHashMd5Trait();
 
@@ -40,7 +40,7 @@ class StringHashMd5TraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringHashMd5Trait();
 

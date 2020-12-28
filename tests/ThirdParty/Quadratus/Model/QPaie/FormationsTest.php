@@ -29,7 +29,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActive() {
+    public function testSetActive(): void {
 
         $obj = new Formations();
 
@@ -42,7 +42,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new Formations();
 
@@ -55,7 +55,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new Formations();
 
@@ -68,7 +68,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new Formations();
 
@@ -81,7 +81,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLieu() {
+    public function testSetLieu(): void {
 
         $obj = new Formations();
 
@@ -94,7 +94,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHFormation() {
+    public function testSetNbHFormation(): void {
 
         $obj = new Formations();
 
@@ -107,7 +107,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhDiFPrisW() {
+    public function testSetNbhDiFPrisW(): void {
 
         $obj = new Formations();
 
@@ -120,7 +120,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhDifPrisHorsW() {
+    public function testSetNbhDifPrisHorsW(): void {
 
         $obj = new Formations();
 
@@ -133,7 +133,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new Formations();
 
@@ -146,7 +146,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganisme() {
+    public function testSetOrganisme(): void {
 
         $obj = new Formations();
 
@@ -160,7 +160,7 @@ class FormationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -177,7 +177,7 @@ class FormationsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -193,7 +193,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFormation() {
+    public function testSetTypeFormation(): void {
 
         $obj = new Formations();
 
@@ -206,7 +206,7 @@ class FormationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Formations();
 

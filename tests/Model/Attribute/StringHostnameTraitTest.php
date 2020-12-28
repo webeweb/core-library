@@ -27,7 +27,7 @@ class StringHostnameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHostname() {
+    public function testSetHostname(): void {
 
         $obj = new TestStringHostnameTrait();
 
@@ -40,7 +40,7 @@ class StringHostnameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringHostnameTrait();
 

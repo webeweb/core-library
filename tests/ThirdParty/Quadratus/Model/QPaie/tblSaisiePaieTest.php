@@ -29,7 +29,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -42,7 +42,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -56,7 +56,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAdded() {
+    public function testSetDateAdded(): void {
 
         // Set a Date/time mock.
         $dateAdded = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlag() {
+    public function testSetFlag(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -85,7 +85,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -98,7 +98,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -111,7 +111,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -124,7 +124,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule2() {
+    public function testSetIntitule2(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -137,7 +137,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisDebFixe() {
+    public function testSetMoisDebFixe(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -150,7 +150,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisFinFixe() {
+    public function testSetMoisFinFixe(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -163,7 +163,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -177,7 +177,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -194,7 +194,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeRappel() {
+    public function testSetPeriodeRappel(): void {
 
         // Set a Date/time mock.
         $periodeRappel = new DateTime("2018-09-10");
@@ -210,7 +210,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosit() {
+    public function testSetPosit(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -223,7 +223,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -236,7 +236,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur1() {
+    public function testSetValeur1(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -249,7 +249,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur2() {
+    public function testSetValeur2(): void {
 
         $obj = new tblSaisiePaie();
 
@@ -262,7 +262,7 @@ class tblSaisiePaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new tblSaisiePaie();
 

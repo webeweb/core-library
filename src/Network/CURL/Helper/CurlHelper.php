@@ -31,7 +31,7 @@ class CurlHelper {
      * @param CurlConfiguration $config The cURL configuration.
      * @return resource Returns the cURL stream.
      */
-    public static function initStream($url, CurlConfiguration $config) {
+    public static function initStream(string $url, CurlConfiguration $config) {
 
         $stream = curl_init();
 
@@ -55,7 +55,7 @@ class CurlHelper {
      * @param array $headers The headers.
      * @return void
      */
-    public static function setHeaders($stream, array $headers) {
+    public static function setHeaders($stream, array $headers): void {
         curl_setopt($stream, CURLOPT_HEADER, 1);
         curl_setopt($stream, CURLOPT_HTTPHEADER, $headers);
     }
@@ -68,7 +68,7 @@ class CurlHelper {
      * @param string $postData The POST data.
      * @return void
      */
-    public static function setPost($stream, $method, $postData) {
+    public static function setPost($stream, string $method, string $postData): void {
 
         switch ($method) {
 
@@ -98,7 +98,7 @@ class CurlHelper {
      * @param CurlConfiguration $config The cURL configuration.
      * @return void
      */
-    public static function setProxy($stream, CurlConfiguration $config) {
+    public static function setProxy($stream, CurlConfiguration $config): void {
 
         if (null !== $config->getProxyHost()) {
             curl_setopt($stream, CURLOPT_PROXY, $config->getProxyHost());
@@ -123,7 +123,7 @@ class CurlHelper {
      * @param resource $stream The stream.
      * @return void
      */
-    public static function setReturnTransfer($stream) {
+    public static function setReturnTransfer($stream): void {
         curl_setopt($stream, CURLOPT_RETURNTRANSFER, true);
     }
 
@@ -134,7 +134,7 @@ class CurlHelper {
      * @param CurlConfiguration $config The cURL configuration.
      * @return void
      */
-    public static function setSsl($stream, CurlConfiguration $config) {
+    public static function setSsl($stream, CurlConfiguration $config): void {
         if (false === $config->getSslVerification()) {
             curl_setopt($stream, CURLOPT_SSL_VERIFYHOST, 0);
             curl_setopt($stream, CURLOPT_SSL_VERIFYPEER, 0);
@@ -148,7 +148,7 @@ class CurlHelper {
      * @param CurlConfiguration $config The cURL configuration.
      * @return void
      */
-    public static function setTimeout($stream, CurlConfiguration $config) {
+    public static function setTimeout($stream, CurlConfiguration $config): void {
         if (0 < $config->getRequestTimeout()) {
             curl_setopt($stream, CURLOPT_TIMEOUT, $config->getRequestTimeout());
         }
@@ -161,7 +161,7 @@ class CurlHelper {
      * @param CurlConfiguration $config The cURL configuration.
      * @return void
      */
-    public static function setUserAgent($stream, CurlConfiguration $config) {
+    public static function setUserAgent($stream, CurlConfiguration $config): void {
         curl_setopt($stream, CURLOPT_USERAGENT, $config->getUserAgent());
     }
 
@@ -175,7 +175,7 @@ class CurlHelper {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public static function setVerbose($stream, CurlConfiguration $config, $url, $postData) {
+    public static function setVerbose($stream, CurlConfiguration $config, string $url, string $postData): void {
 
         if (true === $config->getDebug()) {
 

@@ -22,65 +22,66 @@ class DevisProgEntetes {
     /**
      * Designation.
      *
-     * @var string
+     * @var string|null
      */
     private $designation;
 
     /**
      * Num devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numDevis;
 
     /**
      * Num programme.
      *
-     * @var int
+     * @var int|null
      */
     private $numProgramme;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the designation.
      *
-     * @return string Returns the designation.
+     * @return string|null Returns the designation.
      */
-    public function getDesignation() {
+    public function getDesignation(): ?string{
         return $this->designation;
     }
 
     /**
      * Get the num devis.
      *
-     * @return string Returns the num devis.
+     * @return string|null Returns the num devis.
      */
-    public function getNumDevis() {
+    public function getNumDevis(): ?string{
         return $this->numDevis;
     }
 
     /**
      * Get the num programme.
      *
-     * @return int Returns the num programme.
+     * @return int|null Returns the num programme.
      */
-    public function getNumProgramme() {
+    public function getNumProgramme(): ?int{
         return $this->numProgramme;
     }
 
     /**
      * Set the designation.
      *
-     * @param string $designation The designation.
+     * @param string|null $designation The designation.
      * @return DevisProgEntetes Returns this Devis prog entetes.
      */
-    public function setDesignation($designation) {
+    public function setDesignation(?string $designation): DevisProgEntetes {
         $this->designation = $designation;
         return $this;
     }
@@ -88,10 +89,10 @@ class DevisProgEntetes {
     /**
      * Set the num devis.
      *
-     * @param string $numDevis The num devis.
+     * @param string|null $numDevis The num devis.
      * @return DevisProgEntetes Returns this Devis prog entetes.
      */
-    public function setNumDevis($numDevis) {
+    public function setNumDevis(?string $numDevis): DevisProgEntetes {
         $this->numDevis = $numDevis;
         return $this;
     }
@@ -99,10 +100,10 @@ class DevisProgEntetes {
     /**
      * Set the num programme.
      *
-     * @param int $numProgramme The num programme.
+     * @param int|null $numProgramme The num programme.
      * @return DevisProgEntetes Returns this Devis prog entetes.
      */
-    public function setNumProgramme($numProgramme) {
+    public function setNumProgramme(?int $numProgramme): DevisProgEntetes {
         $this->numProgramme = $numProgramme;
         return $this;
     }

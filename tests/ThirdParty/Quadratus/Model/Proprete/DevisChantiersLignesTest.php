@@ -27,7 +27,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -40,7 +40,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -53,7 +53,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -66,7 +66,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLocalType() {
+    public function testSetCodeLocalType(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -79,7 +79,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRevetement() {
+    public function testSetCodeRevetement(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -92,7 +92,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHt() {
+    public function testSetMontantHt(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -105,7 +105,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -118,7 +118,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -131,7 +131,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSolMur() {
+    public function testSetSolMur(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -144,7 +144,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSurface() {
+    public function testSetSurface(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -157,7 +157,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdNoeud() {
+    public function testSetUniqIdNoeud(): void {
 
         $obj = new DevisChantiersLignes();
 
@@ -170,7 +170,7 @@ class DevisChantiersLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisChantiersLignes();
 

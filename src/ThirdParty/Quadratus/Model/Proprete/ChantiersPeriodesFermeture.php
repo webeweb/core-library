@@ -24,21 +24,21 @@ class ChantiersPeriodesFermeture {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
@@ -56,37 +56,38 @@ class ChantiersPeriodesFermeture {
      */
     private $dateDu;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
@@ -95,7 +96,7 @@ class ChantiersPeriodesFermeture {
      *
      * @return DateTime|null Returns the date au.
      */
-    public function getDateAu() {
+    public function getDateAu(): ?DateTime{
         return $this->dateAu;
     }
 
@@ -104,17 +105,17 @@ class ChantiersPeriodesFermeture {
      *
      * @return DateTime|null Returns the date du.
      */
-    public function getDateDu() {
+    public function getDateDu(): ?DateTime{
         return $this->dateDu;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): ChantiersPeriodesFermeture {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -122,10 +123,10 @@ class ChantiersPeriodesFermeture {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): ChantiersPeriodesFermeture {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -133,10 +134,10 @@ class ChantiersPeriodesFermeture {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ChantiersPeriodesFermeture {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -147,7 +148,7 @@ class ChantiersPeriodesFermeture {
      * @param DateTime|null $dateAu The date au.
      * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
-    public function setDateAu(DateTime $dateAu = null) {
+    public function setDateAu(?DateTime $dateAu): ChantiersPeriodesFermeture {
         $this->dateAu = $dateAu;
         return $this;
     }
@@ -158,7 +159,7 @@ class ChantiersPeriodesFermeture {
      * @param DateTime|null $dateDu The date du.
      * @return ChantiersPeriodesFermeture Returns this Chantiers periodes fermeture.
      */
-    public function setDateDu(DateTime $dateDu = null) {
+    public function setDateDu(?DateTime $dateDu): ChantiersPeriodesFermeture {
         $this->dateDu = $dateDu;
         return $this;
     }

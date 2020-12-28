@@ -29,7 +29,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ObligationsPointees();
 
@@ -42,7 +42,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeObligation() {
+    public function testSetCodeObligation(): void {
 
         $obj = new ObligationsPointees();
 
@@ -56,7 +56,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEffet() {
+    public function testSetDateEffet(): void {
 
         // Set a Date/time mock.
         $dateEffet = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetLe() {
+    public function testSetLe(): void {
 
         // Set a Date/time mock.
         $le = new DateTime("2018-09-10");
@@ -89,7 +89,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPar() {
+    public function testSetPar(): void {
 
         $obj = new ObligationsPointees();
 
@@ -102,7 +102,7 @@ class ObligationsPointeesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ObligationsPointees();
 

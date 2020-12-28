@@ -24,42 +24,42 @@ class AttestationCacm {
     /**
      * Adresse employe.
      *
-     * @var string
+     * @var string|null
      */
     private $adresseEmploye;
 
     /**
      * Autre contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $autreContrat;
 
     /**
      * Autre statut.
      *
-     * @var string
+     * @var string|null
      */
     private $autreStatut;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code motif rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMotifRupture;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
@@ -87,14 +87,14 @@ class AttestationCacm {
     /**
      * Dern lieu travail.
      *
-     * @var string
+     * @var string|null
      */
     private $dernLieuTravail;
 
     /**
      * Dernier emploi.
      *
-     * @var string
+     * @var string|null
      */
     private $dernierEmploi;
 
@@ -150,210 +150,210 @@ class AttestationCacm {
     /**
      * Etbl adr.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAdr;
 
     /**
      * Etbl cacm.
      *
-     * @var string
+     * @var string|null
      */
     private $etblCacm;
 
     /**
      * Etbl effectif.
      *
-     * @var int
+     * @var int|null
      */
     private $etblEffectif;
 
     /**
      * Etbl fax.
      *
-     * @var string
+     * @var string|null
      */
     private $etblFax;
 
     /**
      * Etbl mail.
      *
-     * @var string
+     * @var string|null
      */
     private $etblMail;
 
     /**
      * Etbl naf.
      *
-     * @var string
+     * @var string|null
      */
     private $etblNaf;
 
     /**
      * Etbl siret.
      *
-     * @var string
+     * @var string|null
      */
     private $etblSiret;
 
     /**
      * Etbl tel.
      *
-     * @var string
+     * @var string|null
      */
     private $etblTel;
 
     /**
      * Indemn autre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $indemnAutre;
 
     /**
      * Indemn legale.
      *
-     * @var bool
+     * @var bool|null
      */
     private $indemnLegale;
 
     /**
      * Indemn lic.
      *
-     * @var bool
+     * @var bool|null
      */
     private $indemnLic;
 
     /**
      * Indemn supp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $indemnSupp;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Lien parente.
      *
-     * @var bool
+     * @var bool|null
      */
     private $lienParente;
 
     /**
      * Motif preavis non paye.
      *
-     * @var string
+     * @var string|null
      */
     private $motifPreavisNonPaye;
 
     /**
      * Motif rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $motifRupture;
 
     /**
      * Mt indemn autre.
      *
-     * @var float
+     * @var float|null
      */
     private $mtIndemnAutre;
 
     /**
      * Mt indemn legale.
      *
-     * @var float
+     * @var float|null
      */
     private $mtIndemnLegale;
 
     /**
      * Mt indemn lic.
      *
-     * @var float
+     * @var float|null
      */
     private $mtIndemnLic;
 
     /**
      * Mt indemn supp.
      *
-     * @var float
+     * @var float|null
      */
     private $mtIndemnSupp;
 
     /**
      * Mt salaire brut.
      *
-     * @var float
+     * @var float|null
      */
     private $mtSalaireBrut;
 
     /**
      * Nb heure mens.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeureMens;
 
     /**
      * Niveau qualif.
      *
-     * @var string
+     * @var string|null
      */
     private $niveauQualif;
 
     /**
      * No cacm.
      *
-     * @var string
+     * @var string|null
      */
     private $noCacm;
 
     /**
      * No cssm.
      *
-     * @var string
+     * @var string|null
      */
     private $noCssm;
 
     /**
      * Nom marital.
      *
-     * @var string
+     * @var string|null
      */
     private $nomMarital;
 
     /**
      * Nom naissance.
      *
-     * @var string
+     * @var string|null
      */
     private $nomNaissance;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Organisme cacm.
      *
-     * @var string
+     * @var string|null
      */
     private $organismeCacm;
 
@@ -374,21 +374,21 @@ class AttestationCacm {
     /**
      * Preavis non effectue paye.
      *
-     * @var bool
+     * @var bool|null
      */
     private $preavisNonEffectuePaye;
 
     /**
      * Prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $prenom;
 
     /**
      * Sign autre.
      *
-     * @var string
+     * @var string|null
      */
     private $signAutre;
 
@@ -402,152 +402,153 @@ class AttestationCacm {
     /**
      * Sign form juridique.
      *
-     * @var string
+     * @var string|null
      */
     private $signFormJuridique;
 
     /**
      * Sign motif rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $signMotifRupture;
 
     /**
      * Sign nom.
      *
-     * @var string
+     * @var string|null
      */
     private $signNom;
 
     /**
      * Sign prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $signPrenom;
 
     /**
      * Sign qualite.
      *
-     * @var int
+     * @var int|null
      */
     private $signQualite;
 
     /**
      * Sign raison sociale.
      *
-     * @var string
+     * @var string|null
      */
     private $signRaisonSociale;
 
     /**
      * Statut cadre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $statutCadre;
 
     /**
      * Statut juridique.
      *
-     * @var string
+     * @var string|null
      */
     private $statutJuridique;
 
     /**
      * Statut particulier.
      *
-     * @var int
+     * @var int|null
      */
     private $statutParticulier;
 
     /**
      * Titre.
      *
-     * @var string
+     * @var string|null
      */
     private $titre;
 
     /**
      * Titre lien parente.
      *
-     * @var string
+     * @var string|null
      */
     private $titreLienParente;
 
     /**
      * Type contrat.
      *
-     * @var int
+     * @var int|null
      */
     private $typeContrat;
 
     /**
      * Type horaire.
      *
-     * @var int
+     * @var int|null
      */
     private $typeHoraire;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the adresse employe.
      *
-     * @return string Returns the adresse employe.
+     * @return string|null Returns the adresse employe.
      */
-    public function getAdresseEmploye() {
+    public function getAdresseEmploye(): ?string{
         return $this->adresseEmploye;
     }
 
     /**
      * Get the autre contrat.
      *
-     * @return string Returns the autre contrat.
+     * @return string|null Returns the autre contrat.
      */
-    public function getAutreContrat() {
+    public function getAutreContrat(): ?string{
         return $this->autreContrat;
     }
 
     /**
      * Get the autre statut.
      *
-     * @return string Returns the autre statut.
+     * @return string|null Returns the autre statut.
      */
-    public function getAutreStatut() {
+    public function getAutreStatut(): ?string{
         return $this->autreStatut;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code motif rupture.
      *
-     * @return string Returns the code motif rupture.
+     * @return string|null Returns the code motif rupture.
      */
-    public function getCodeMotifRupture() {
+    public function getCodeMotifRupture(): ?string{
         return $this->codeMotifRupture;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
@@ -556,7 +557,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance() {
+    public function getDateNaissance(): ?DateTime{
         return $this->dateNaissance;
     }
 
@@ -565,7 +566,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the date notification.
      */
-    public function getDateNotification() {
+    public function getDateNotification(): ?DateTime{
         return $this->dateNotification;
     }
 
@@ -574,25 +575,25 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the date paiement.
      */
-    public function getDatePaiement() {
+    public function getDatePaiement(): ?DateTime{
         return $this->datePaiement;
     }
 
     /**
      * Get the dern lieu travail.
      *
-     * @return string Returns the dern lieu travail.
+     * @return string|null Returns the dern lieu travail.
      */
-    public function getDernLieuTravail() {
+    public function getDernLieuTravail(): ?string{
         return $this->dernLieuTravail;
     }
 
     /**
      * Get the dernier emploi.
      *
-     * @return string Returns the dernier emploi.
+     * @return string|null Returns the dernier emploi.
      */
-    public function getDernierEmploi() {
+    public function getDernierEmploi(): ?string{
         return $this->dernierEmploi;
     }
 
@@ -601,7 +602,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt deb preavis effectue.
      */
-    public function getDtDebPreavisEffectue() {
+    public function getDtDebPreavisEffectue(): ?DateTime{
         return $this->dtDebPreavisEffectue;
     }
 
@@ -610,7 +611,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt deb preavis non effectue.
      */
-    public function getDtDebPreavisNonEffectue() {
+    public function getDtDebPreavisNonEffectue(): ?DateTime{
         return $this->dtDebPreavisNonEffectue;
     }
 
@@ -619,7 +620,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt debut emploi.
      */
-    public function getDtDebutEmploi() {
+    public function getDtDebutEmploi(): ?DateTime{
         return $this->dtDebutEmploi;
     }
 
@@ -628,7 +629,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt dern jour trav.
      */
-    public function getDtDernJourTrav() {
+    public function getDtDernJourTrav(): ?DateTime{
         return $this->dtDernJourTrav;
     }
 
@@ -637,7 +638,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt fin emploi.
      */
-    public function getDtFinEmploi() {
+    public function getDtFinEmploi(): ?DateTime{
         return $this->dtFinEmploi;
     }
 
@@ -646,7 +647,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt fin preavis effectue.
      */
-    public function getDtFinPreavisEffectue() {
+    public function getDtFinPreavisEffectue(): ?DateTime{
         return $this->dtFinPreavisEffectue;
     }
 
@@ -655,277 +656,277 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the dt fin preavis non effectue.
      */
-    public function getDtFinPreavisNonEffectue() {
+    public function getDtFinPreavisNonEffectue(): ?DateTime{
         return $this->dtFinPreavisNonEffectue;
     }
 
     /**
      * Get the etbl adr.
      *
-     * @return string Returns the etbl adr.
+     * @return string|null Returns the etbl adr.
      */
-    public function getEtblAdr() {
+    public function getEtblAdr(): ?string{
         return $this->etblAdr;
     }
 
     /**
      * Get the etbl cacm.
      *
-     * @return string Returns the etbl cacm.
+     * @return string|null Returns the etbl cacm.
      */
-    public function getEtblCacm() {
+    public function getEtblCacm(): ?string{
         return $this->etblCacm;
     }
 
     /**
      * Get the etbl effectif.
      *
-     * @return int Returns the etbl effectif.
+     * @return int|null Returns the etbl effectif.
      */
-    public function getEtblEffectif() {
+    public function getEtblEffectif(): ?int{
         return $this->etblEffectif;
     }
 
     /**
      * Get the etbl fax.
      *
-     * @return string Returns the etbl fax.
+     * @return string|null Returns the etbl fax.
      */
-    public function getEtblFax() {
+    public function getEtblFax(): ?string{
         return $this->etblFax;
     }
 
     /**
      * Get the etbl mail.
      *
-     * @return string Returns the etbl mail.
+     * @return string|null Returns the etbl mail.
      */
-    public function getEtblMail() {
+    public function getEtblMail(): ?string{
         return $this->etblMail;
     }
 
     /**
      * Get the etbl naf.
      *
-     * @return string Returns the etbl naf.
+     * @return string|null Returns the etbl naf.
      */
-    public function getEtblNaf() {
+    public function getEtblNaf(): ?string{
         return $this->etblNaf;
     }
 
     /**
      * Get the etbl siret.
      *
-     * @return string Returns the etbl siret.
+     * @return string|null Returns the etbl siret.
      */
-    public function getEtblSiret() {
+    public function getEtblSiret(): ?string{
         return $this->etblSiret;
     }
 
     /**
      * Get the etbl tel.
      *
-     * @return string Returns the etbl tel.
+     * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel() {
+    public function getEtblTel(): ?string{
         return $this->etblTel;
     }
 
     /**
      * Get the indemn autre.
      *
-     * @return bool Returns the indemn autre.
+     * @return bool|null Returns the indemn autre.
      */
-    public function getIndemnAutre() {
+    public function getIndemnAutre(): ?bool{
         return $this->indemnAutre;
     }
 
     /**
      * Get the indemn legale.
      *
-     * @return bool Returns the indemn legale.
+     * @return bool|null Returns the indemn legale.
      */
-    public function getIndemnLegale() {
+    public function getIndemnLegale(): ?bool{
         return $this->indemnLegale;
     }
 
     /**
      * Get the indemn lic.
      *
-     * @return bool Returns the indemn lic.
+     * @return bool|null Returns the indemn lic.
      */
-    public function getIndemnLic() {
+    public function getIndemnLic(): ?bool{
         return $this->indemnLic;
     }
 
     /**
      * Get the indemn supp.
      *
-     * @return bool Returns the indemn supp.
+     * @return bool|null Returns the indemn supp.
      */
-    public function getIndemnSupp() {
+    public function getIndemnSupp(): ?bool{
         return $this->indemnSupp;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the lien parente.
      *
-     * @return bool Returns the lien parente.
+     * @return bool|null Returns the lien parente.
      */
-    public function getLienParente() {
+    public function getLienParente(): ?bool{
         return $this->lienParente;
     }
 
     /**
      * Get the motif preavis non paye.
      *
-     * @return string Returns the motif preavis non paye.
+     * @return string|null Returns the motif preavis non paye.
      */
-    public function getMotifPreavisNonPaye() {
+    public function getMotifPreavisNonPaye(): ?string{
         return $this->motifPreavisNonPaye;
     }
 
     /**
      * Get the motif rupture.
      *
-     * @return string Returns the motif rupture.
+     * @return string|null Returns the motif rupture.
      */
-    public function getMotifRupture() {
+    public function getMotifRupture(): ?string{
         return $this->motifRupture;
     }
 
     /**
      * Get the mt indemn autre.
      *
-     * @return float Returns the mt indemn autre.
+     * @return float|null Returns the mt indemn autre.
      */
-    public function getMtIndemnAutre() {
+    public function getMtIndemnAutre(): ?float{
         return $this->mtIndemnAutre;
     }
 
     /**
      * Get the mt indemn legale.
      *
-     * @return float Returns the mt indemn legale.
+     * @return float|null Returns the mt indemn legale.
      */
-    public function getMtIndemnLegale() {
+    public function getMtIndemnLegale(): ?float{
         return $this->mtIndemnLegale;
     }
 
     /**
      * Get the mt indemn lic.
      *
-     * @return float Returns the mt indemn lic.
+     * @return float|null Returns the mt indemn lic.
      */
-    public function getMtIndemnLic() {
+    public function getMtIndemnLic(): ?float{
         return $this->mtIndemnLic;
     }
 
     /**
      * Get the mt indemn supp.
      *
-     * @return float Returns the mt indemn supp.
+     * @return float|null Returns the mt indemn supp.
      */
-    public function getMtIndemnSupp() {
+    public function getMtIndemnSupp(): ?float{
         return $this->mtIndemnSupp;
     }
 
     /**
      * Get the mt salaire brut.
      *
-     * @return float Returns the mt salaire brut.
+     * @return float|null Returns the mt salaire brut.
      */
-    public function getMtSalaireBrut() {
+    public function getMtSalaireBrut(): ?float{
         return $this->mtSalaireBrut;
     }
 
     /**
      * Get the nb heure mens.
      *
-     * @return float Returns the nb heure mens.
+     * @return float|null Returns the nb heure mens.
      */
-    public function getNbHeureMens() {
+    public function getNbHeureMens(): ?float{
         return $this->nbHeureMens;
     }
 
     /**
      * Get the niveau qualif.
      *
-     * @return string Returns the niveau qualif.
+     * @return string|null Returns the niveau qualif.
      */
-    public function getNiveauQualif() {
+    public function getNiveauQualif(): ?string{
         return $this->niveauQualif;
     }
 
     /**
      * Get the no cacm.
      *
-     * @return string Returns the no cacm.
+     * @return string|null Returns the no cacm.
      */
-    public function getNoCacm() {
+    public function getNoCacm(): ?string{
         return $this->noCacm;
     }
 
     /**
      * Get the no cssm.
      *
-     * @return string Returns the no cssm.
+     * @return string|null Returns the no cssm.
      */
-    public function getNoCssm() {
+    public function getNoCssm(): ?string{
         return $this->noCssm;
     }
 
     /**
      * Get the nom marital.
      *
-     * @return string Returns the nom marital.
+     * @return string|null Returns the nom marital.
      */
-    public function getNomMarital() {
+    public function getNomMarital(): ?string{
         return $this->nomMarital;
     }
 
     /**
      * Get the nom naissance.
      *
-     * @return string Returns the nom naissance.
+     * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance() {
+    public function getNomNaissance(): ?string{
         return $this->nomNaissance;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the organisme cacm.
      *
-     * @return string Returns the organisme cacm.
+     * @return string|null Returns the organisme cacm.
      */
-    public function getOrganismeCacm() {
+    public function getOrganismeCacm(): ?string{
         return $this->organismeCacm;
     }
 
@@ -934,7 +935,7 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the periode emploi deb.
      */
-    public function getPeriodeEmploiDeb() {
+    public function getPeriodeEmploiDeb(): ?DateTime{
         return $this->periodeEmploiDeb;
     }
 
@@ -943,34 +944,34 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the periode emploi fin.
      */
-    public function getPeriodeEmploiFin() {
+    public function getPeriodeEmploiFin(): ?DateTime{
         return $this->periodeEmploiFin;
     }
 
     /**
      * Get the preavis non effectue paye.
      *
-     * @return bool Returns the preavis non effectue paye.
+     * @return bool|null Returns the preavis non effectue paye.
      */
-    public function getPreavisNonEffectuePaye() {
+    public function getPreavisNonEffectuePaye(): ?bool{
         return $this->preavisNonEffectuePaye;
     }
 
     /**
      * Get the prenom.
      *
-     * @return string Returns the prenom.
+     * @return string|null Returns the prenom.
      */
-    public function getPrenom() {
+    public function getPrenom(): ?string{
         return $this->prenom;
     }
 
     /**
      * Get the sign autre.
      *
-     * @return string Returns the sign autre.
+     * @return string|null Returns the sign autre.
      */
-    public function getSignAutre() {
+    public function getSignAutre(): ?string{
         return $this->signAutre;
     }
 
@@ -979,134 +980,134 @@ class AttestationCacm {
      *
      * @return DateTime|null Returns the sign date.
      */
-    public function getSignDate() {
+    public function getSignDate(): ?DateTime{
         return $this->signDate;
     }
 
     /**
      * Get the sign form juridique.
      *
-     * @return string Returns the sign form juridique.
+     * @return string|null Returns the sign form juridique.
      */
-    public function getSignFormJuridique() {
+    public function getSignFormJuridique(): ?string{
         return $this->signFormJuridique;
     }
 
     /**
      * Get the sign motif rupture.
      *
-     * @return string Returns the sign motif rupture.
+     * @return string|null Returns the sign motif rupture.
      */
-    public function getSignMotifRupture() {
+    public function getSignMotifRupture(): ?string{
         return $this->signMotifRupture;
     }
 
     /**
      * Get the sign nom.
      *
-     * @return string Returns the sign nom.
+     * @return string|null Returns the sign nom.
      */
-    public function getSignNom() {
+    public function getSignNom(): ?string{
         return $this->signNom;
     }
 
     /**
      * Get the sign prenom.
      *
-     * @return string Returns the sign prenom.
+     * @return string|null Returns the sign prenom.
      */
-    public function getSignPrenom() {
+    public function getSignPrenom(): ?string{
         return $this->signPrenom;
     }
 
     /**
      * Get the sign qualite.
      *
-     * @return int Returns the sign qualite.
+     * @return int|null Returns the sign qualite.
      */
-    public function getSignQualite() {
+    public function getSignQualite(): ?int{
         return $this->signQualite;
     }
 
     /**
      * Get the sign raison sociale.
      *
-     * @return string Returns the sign raison sociale.
+     * @return string|null Returns the sign raison sociale.
      */
-    public function getSignRaisonSociale() {
+    public function getSignRaisonSociale(): ?string{
         return $this->signRaisonSociale;
     }
 
     /**
      * Get the statut cadre.
      *
-     * @return bool Returns the statut cadre.
+     * @return bool|null Returns the statut cadre.
      */
-    public function getStatutCadre() {
+    public function getStatutCadre(): ?bool{
         return $this->statutCadre;
     }
 
     /**
      * Get the statut juridique.
      *
-     * @return string Returns the statut juridique.
+     * @return string|null Returns the statut juridique.
      */
-    public function getStatutJuridique() {
+    public function getStatutJuridique(): ?string{
         return $this->statutJuridique;
     }
 
     /**
      * Get the statut particulier.
      *
-     * @return int Returns the statut particulier.
+     * @return int|null Returns the statut particulier.
      */
-    public function getStatutParticulier() {
+    public function getStatutParticulier(): ?int{
         return $this->statutParticulier;
     }
 
     /**
      * Get the titre.
      *
-     * @return string Returns the titre.
+     * @return string|null Returns the titre.
      */
-    public function getTitre() {
+    public function getTitre(): ?string{
         return $this->titre;
     }
 
     /**
      * Get the titre lien parente.
      *
-     * @return string Returns the titre lien parente.
+     * @return string|null Returns the titre lien parente.
      */
-    public function getTitreLienParente() {
+    public function getTitreLienParente(): ?string{
         return $this->titreLienParente;
     }
 
     /**
      * Get the type contrat.
      *
-     * @return int Returns the type contrat.
+     * @return int|null Returns the type contrat.
      */
-    public function getTypeContrat() {
+    public function getTypeContrat(): ?int{
         return $this->typeContrat;
     }
 
     /**
      * Get the type horaire.
      *
-     * @return int Returns the type horaire.
+     * @return int|null Returns the type horaire.
      */
-    public function getTypeHoraire() {
+    public function getTypeHoraire(): ?int{
         return $this->typeHoraire;
     }
 
     /**
      * Set the adresse employe.
      *
-     * @param string $adresseEmploye The adresse employe.
+     * @param string|null $adresseEmploye The adresse employe.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setAdresseEmploye($adresseEmploye) {
+    public function setAdresseEmploye(?string $adresseEmploye): AttestationCacm {
         $this->adresseEmploye = $adresseEmploye;
         return $this;
     }
@@ -1114,10 +1115,10 @@ class AttestationCacm {
     /**
      * Set the autre contrat.
      *
-     * @param string $autreContrat The autre contrat.
+     * @param string|null $autreContrat The autre contrat.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setAutreContrat($autreContrat) {
+    public function setAutreContrat(?string $autreContrat): AttestationCacm {
         $this->autreContrat = $autreContrat;
         return $this;
     }
@@ -1125,10 +1126,10 @@ class AttestationCacm {
     /**
      * Set the autre statut.
      *
-     * @param string $autreStatut The autre statut.
+     * @param string|null $autreStatut The autre statut.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setAutreStatut($autreStatut) {
+    public function setAutreStatut(?string $autreStatut): AttestationCacm {
         $this->autreStatut = $autreStatut;
         return $this;
     }
@@ -1136,10 +1137,10 @@ class AttestationCacm {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): AttestationCacm {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -1147,10 +1148,10 @@ class AttestationCacm {
     /**
      * Set the code motif rupture.
      *
-     * @param string $codeMotifRupture The code motif rupture.
+     * @param string|null $codeMotifRupture The code motif rupture.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setCodeMotifRupture($codeMotifRupture) {
+    public function setCodeMotifRupture(?string $codeMotifRupture): AttestationCacm {
         $this->codeMotifRupture = $codeMotifRupture;
         return $this;
     }
@@ -1158,10 +1159,10 @@ class AttestationCacm {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): AttestationCacm {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -1172,7 +1173,7 @@ class AttestationCacm {
      * @param DateTime|null $dateNaissance The date naissance.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDateNaissance(DateTime $dateNaissance = null) {
+    public function setDateNaissance(?DateTime $dateNaissance): AttestationCacm {
         $this->dateNaissance = $dateNaissance;
         return $this;
     }
@@ -1183,7 +1184,7 @@ class AttestationCacm {
      * @param DateTime|null $dateNotification The date notification.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDateNotification(DateTime $dateNotification = null) {
+    public function setDateNotification(?DateTime $dateNotification): AttestationCacm {
         $this->dateNotification = $dateNotification;
         return $this;
     }
@@ -1194,7 +1195,7 @@ class AttestationCacm {
      * @param DateTime|null $datePaiement The date paiement.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDatePaiement(DateTime $datePaiement = null) {
+    public function setDatePaiement(?DateTime $datePaiement): AttestationCacm {
         $this->datePaiement = $datePaiement;
         return $this;
     }
@@ -1202,10 +1203,10 @@ class AttestationCacm {
     /**
      * Set the dern lieu travail.
      *
-     * @param string $dernLieuTravail The dern lieu travail.
+     * @param string|null $dernLieuTravail The dern lieu travail.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDernLieuTravail($dernLieuTravail) {
+    public function setDernLieuTravail(?string $dernLieuTravail): AttestationCacm {
         $this->dernLieuTravail = $dernLieuTravail;
         return $this;
     }
@@ -1213,10 +1214,10 @@ class AttestationCacm {
     /**
      * Set the dernier emploi.
      *
-     * @param string $dernierEmploi The dernier emploi.
+     * @param string|null $dernierEmploi The dernier emploi.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDernierEmploi($dernierEmploi) {
+    public function setDernierEmploi(?string $dernierEmploi): AttestationCacm {
         $this->dernierEmploi = $dernierEmploi;
         return $this;
     }
@@ -1227,7 +1228,7 @@ class AttestationCacm {
      * @param DateTime|null $dtDebPreavisEffectue The dt deb preavis effectue.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtDebPreavisEffectue(DateTime $dtDebPreavisEffectue = null) {
+    public function setDtDebPreavisEffectue(?DateTime $dtDebPreavisEffectue): AttestationCacm {
         $this->dtDebPreavisEffectue = $dtDebPreavisEffectue;
         return $this;
     }
@@ -1238,7 +1239,7 @@ class AttestationCacm {
      * @param DateTime|null $dtDebPreavisNonEffectue The dt deb preavis non effectue.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtDebPreavisNonEffectue(DateTime $dtDebPreavisNonEffectue = null) {
+    public function setDtDebPreavisNonEffectue(?DateTime $dtDebPreavisNonEffectue): AttestationCacm {
         $this->dtDebPreavisNonEffectue = $dtDebPreavisNonEffectue;
         return $this;
     }
@@ -1249,7 +1250,7 @@ class AttestationCacm {
      * @param DateTime|null $dtDebutEmploi The dt debut emploi.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtDebutEmploi(DateTime $dtDebutEmploi = null) {
+    public function setDtDebutEmploi(?DateTime $dtDebutEmploi): AttestationCacm {
         $this->dtDebutEmploi = $dtDebutEmploi;
         return $this;
     }
@@ -1260,7 +1261,7 @@ class AttestationCacm {
      * @param DateTime|null $dtDernJourTrav The dt dern jour trav.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtDernJourTrav(DateTime $dtDernJourTrav = null) {
+    public function setDtDernJourTrav(?DateTime $dtDernJourTrav): AttestationCacm {
         $this->dtDernJourTrav = $dtDernJourTrav;
         return $this;
     }
@@ -1271,7 +1272,7 @@ class AttestationCacm {
      * @param DateTime|null $dtFinEmploi The dt fin emploi.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtFinEmploi(DateTime $dtFinEmploi = null) {
+    public function setDtFinEmploi(?DateTime $dtFinEmploi): AttestationCacm {
         $this->dtFinEmploi = $dtFinEmploi;
         return $this;
     }
@@ -1282,7 +1283,7 @@ class AttestationCacm {
      * @param DateTime|null $dtFinPreavisEffectue The dt fin preavis effectue.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtFinPreavisEffectue(DateTime $dtFinPreavisEffectue = null) {
+    public function setDtFinPreavisEffectue(?DateTime $dtFinPreavisEffectue): AttestationCacm {
         $this->dtFinPreavisEffectue = $dtFinPreavisEffectue;
         return $this;
     }
@@ -1293,7 +1294,7 @@ class AttestationCacm {
      * @param DateTime|null $dtFinPreavisNonEffectue The dt fin preavis non effectue.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setDtFinPreavisNonEffectue(DateTime $dtFinPreavisNonEffectue = null) {
+    public function setDtFinPreavisNonEffectue(?DateTime $dtFinPreavisNonEffectue): AttestationCacm {
         $this->dtFinPreavisNonEffectue = $dtFinPreavisNonEffectue;
         return $this;
     }
@@ -1301,10 +1302,10 @@ class AttestationCacm {
     /**
      * Set the etbl adr.
      *
-     * @param string $etblAdr The etbl adr.
+     * @param string|null $etblAdr The etbl adr.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblAdr($etblAdr) {
+    public function setEtblAdr(?string $etblAdr): AttestationCacm {
         $this->etblAdr = $etblAdr;
         return $this;
     }
@@ -1312,10 +1313,10 @@ class AttestationCacm {
     /**
      * Set the etbl cacm.
      *
-     * @param string $etblCacm The etbl cacm.
+     * @param string|null $etblCacm The etbl cacm.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblCacm($etblCacm) {
+    public function setEtblCacm(?string $etblCacm): AttestationCacm {
         $this->etblCacm = $etblCacm;
         return $this;
     }
@@ -1323,10 +1324,10 @@ class AttestationCacm {
     /**
      * Set the etbl effectif.
      *
-     * @param int $etblEffectif The etbl effectif.
+     * @param int|null $etblEffectif The etbl effectif.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblEffectif($etblEffectif) {
+    public function setEtblEffectif(?int $etblEffectif): AttestationCacm {
         $this->etblEffectif = $etblEffectif;
         return $this;
     }
@@ -1334,10 +1335,10 @@ class AttestationCacm {
     /**
      * Set the etbl fax.
      *
-     * @param string $etblFax The etbl fax.
+     * @param string|null $etblFax The etbl fax.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblFax($etblFax) {
+    public function setEtblFax(?string $etblFax): AttestationCacm {
         $this->etblFax = $etblFax;
         return $this;
     }
@@ -1345,10 +1346,10 @@ class AttestationCacm {
     /**
      * Set the etbl mail.
      *
-     * @param string $etblMail The etbl mail.
+     * @param string|null $etblMail The etbl mail.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblMail($etblMail) {
+    public function setEtblMail(?string $etblMail): AttestationCacm {
         $this->etblMail = $etblMail;
         return $this;
     }
@@ -1356,10 +1357,10 @@ class AttestationCacm {
     /**
      * Set the etbl naf.
      *
-     * @param string $etblNaf The etbl naf.
+     * @param string|null $etblNaf The etbl naf.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblNaf($etblNaf) {
+    public function setEtblNaf(?string $etblNaf): AttestationCacm {
         $this->etblNaf = $etblNaf;
         return $this;
     }
@@ -1367,10 +1368,10 @@ class AttestationCacm {
     /**
      * Set the etbl siret.
      *
-     * @param string $etblSiret The etbl siret.
+     * @param string|null $etblSiret The etbl siret.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblSiret($etblSiret) {
+    public function setEtblSiret(?string $etblSiret): AttestationCacm {
         $this->etblSiret = $etblSiret;
         return $this;
     }
@@ -1378,10 +1379,10 @@ class AttestationCacm {
     /**
      * Set the etbl tel.
      *
-     * @param string $etblTel The etbl tel.
+     * @param string|null $etblTel The etbl tel.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setEtblTel($etblTel) {
+    public function setEtblTel(?string $etblTel): AttestationCacm {
         $this->etblTel = $etblTel;
         return $this;
     }
@@ -1389,10 +1390,10 @@ class AttestationCacm {
     /**
      * Set the indemn autre.
      *
-     * @param bool $indemnAutre The indemn autre.
+     * @param bool|null $indemnAutre The indemn autre.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setIndemnAutre($indemnAutre) {
+    public function setIndemnAutre(?bool $indemnAutre): AttestationCacm {
         $this->indemnAutre = $indemnAutre;
         return $this;
     }
@@ -1400,10 +1401,10 @@ class AttestationCacm {
     /**
      * Set the indemn legale.
      *
-     * @param bool $indemnLegale The indemn legale.
+     * @param bool|null $indemnLegale The indemn legale.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setIndemnLegale($indemnLegale) {
+    public function setIndemnLegale(?bool $indemnLegale): AttestationCacm {
         $this->indemnLegale = $indemnLegale;
         return $this;
     }
@@ -1411,10 +1412,10 @@ class AttestationCacm {
     /**
      * Set the indemn lic.
      *
-     * @param bool $indemnLic The indemn lic.
+     * @param bool|null $indemnLic The indemn lic.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setIndemnLic($indemnLic) {
+    public function setIndemnLic(?bool $indemnLic): AttestationCacm {
         $this->indemnLic = $indemnLic;
         return $this;
     }
@@ -1422,10 +1423,10 @@ class AttestationCacm {
     /**
      * Set the indemn supp.
      *
-     * @param bool $indemnSupp The indemn supp.
+     * @param bool|null $indemnSupp The indemn supp.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setIndemnSupp($indemnSupp) {
+    public function setIndemnSupp(?bool $indemnSupp): AttestationCacm {
         $this->indemnSupp = $indemnSupp;
         return $this;
     }
@@ -1433,10 +1434,10 @@ class AttestationCacm {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): AttestationCacm {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -1444,10 +1445,10 @@ class AttestationCacm {
     /**
      * Set the lien parente.
      *
-     * @param bool $lienParente The lien parente.
+     * @param bool|null $lienParente The lien parente.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setLienParente($lienParente) {
+    public function setLienParente(?bool $lienParente): AttestationCacm {
         $this->lienParente = $lienParente;
         return $this;
     }
@@ -1455,10 +1456,10 @@ class AttestationCacm {
     /**
      * Set the motif preavis non paye.
      *
-     * @param string $motifPreavisNonPaye The motif preavis non paye.
+     * @param string|null $motifPreavisNonPaye The motif preavis non paye.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMotifPreavisNonPaye($motifPreavisNonPaye) {
+    public function setMotifPreavisNonPaye(?string $motifPreavisNonPaye): AttestationCacm {
         $this->motifPreavisNonPaye = $motifPreavisNonPaye;
         return $this;
     }
@@ -1466,10 +1467,10 @@ class AttestationCacm {
     /**
      * Set the motif rupture.
      *
-     * @param string $motifRupture The motif rupture.
+     * @param string|null $motifRupture The motif rupture.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMotifRupture($motifRupture) {
+    public function setMotifRupture(?string $motifRupture): AttestationCacm {
         $this->motifRupture = $motifRupture;
         return $this;
     }
@@ -1477,10 +1478,10 @@ class AttestationCacm {
     /**
      * Set the mt indemn autre.
      *
-     * @param float $mtIndemnAutre The mt indemn autre.
+     * @param float|null $mtIndemnAutre The mt indemn autre.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMtIndemnAutre($mtIndemnAutre) {
+    public function setMtIndemnAutre(?float $mtIndemnAutre): AttestationCacm {
         $this->mtIndemnAutre = $mtIndemnAutre;
         return $this;
     }
@@ -1488,10 +1489,10 @@ class AttestationCacm {
     /**
      * Set the mt indemn legale.
      *
-     * @param float $mtIndemnLegale The mt indemn legale.
+     * @param float|null $mtIndemnLegale The mt indemn legale.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMtIndemnLegale($mtIndemnLegale) {
+    public function setMtIndemnLegale(?float $mtIndemnLegale): AttestationCacm {
         $this->mtIndemnLegale = $mtIndemnLegale;
         return $this;
     }
@@ -1499,10 +1500,10 @@ class AttestationCacm {
     /**
      * Set the mt indemn lic.
      *
-     * @param float $mtIndemnLic The mt indemn lic.
+     * @param float|null $mtIndemnLic The mt indemn lic.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMtIndemnLic($mtIndemnLic) {
+    public function setMtIndemnLic(?float $mtIndemnLic): AttestationCacm {
         $this->mtIndemnLic = $mtIndemnLic;
         return $this;
     }
@@ -1510,10 +1511,10 @@ class AttestationCacm {
     /**
      * Set the mt indemn supp.
      *
-     * @param float $mtIndemnSupp The mt indemn supp.
+     * @param float|null $mtIndemnSupp The mt indemn supp.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMtIndemnSupp($mtIndemnSupp) {
+    public function setMtIndemnSupp(?float $mtIndemnSupp): AttestationCacm {
         $this->mtIndemnSupp = $mtIndemnSupp;
         return $this;
     }
@@ -1521,10 +1522,10 @@ class AttestationCacm {
     /**
      * Set the mt salaire brut.
      *
-     * @param float $mtSalaireBrut The mt salaire brut.
+     * @param float|null $mtSalaireBrut The mt salaire brut.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setMtSalaireBrut($mtSalaireBrut) {
+    public function setMtSalaireBrut(?float $mtSalaireBrut): AttestationCacm {
         $this->mtSalaireBrut = $mtSalaireBrut;
         return $this;
     }
@@ -1532,10 +1533,10 @@ class AttestationCacm {
     /**
      * Set the nb heure mens.
      *
-     * @param float $nbHeureMens The nb heure mens.
+     * @param float|null $nbHeureMens The nb heure mens.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNbHeureMens($nbHeureMens) {
+    public function setNbHeureMens(?float $nbHeureMens): AttestationCacm {
         $this->nbHeureMens = $nbHeureMens;
         return $this;
     }
@@ -1543,10 +1544,10 @@ class AttestationCacm {
     /**
      * Set the niveau qualif.
      *
-     * @param string $niveauQualif The niveau qualif.
+     * @param string|null $niveauQualif The niveau qualif.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNiveauQualif($niveauQualif) {
+    public function setNiveauQualif(?string $niveauQualif): AttestationCacm {
         $this->niveauQualif = $niveauQualif;
         return $this;
     }
@@ -1554,10 +1555,10 @@ class AttestationCacm {
     /**
      * Set the no cacm.
      *
-     * @param string $noCacm The no cacm.
+     * @param string|null $noCacm The no cacm.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNoCacm($noCacm) {
+    public function setNoCacm(?string $noCacm): AttestationCacm {
         $this->noCacm = $noCacm;
         return $this;
     }
@@ -1565,10 +1566,10 @@ class AttestationCacm {
     /**
      * Set the no cssm.
      *
-     * @param string $noCssm The no cssm.
+     * @param string|null $noCssm The no cssm.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNoCssm($noCssm) {
+    public function setNoCssm(?string $noCssm): AttestationCacm {
         $this->noCssm = $noCssm;
         return $this;
     }
@@ -1576,10 +1577,10 @@ class AttestationCacm {
     /**
      * Set the nom marital.
      *
-     * @param string $nomMarital The nom marital.
+     * @param string|null $nomMarital The nom marital.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNomMarital($nomMarital) {
+    public function setNomMarital(?string $nomMarital): AttestationCacm {
         $this->nomMarital = $nomMarital;
         return $this;
     }
@@ -1587,10 +1588,10 @@ class AttestationCacm {
     /**
      * Set the nom naissance.
      *
-     * @param string $nomNaissance The nom naissance.
+     * @param string|null $nomNaissance The nom naissance.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNomNaissance($nomNaissance) {
+    public function setNomNaissance(?string $nomNaissance): AttestationCacm {
         $this->nomNaissance = $nomNaissance;
         return $this;
     }
@@ -1598,10 +1599,10 @@ class AttestationCacm {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): AttestationCacm {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -1609,10 +1610,10 @@ class AttestationCacm {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): AttestationCacm {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -1620,10 +1621,10 @@ class AttestationCacm {
     /**
      * Set the organisme cacm.
      *
-     * @param string $organismeCacm The organisme cacm.
+     * @param string|null $organismeCacm The organisme cacm.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setOrganismeCacm($organismeCacm) {
+    public function setOrganismeCacm(?string $organismeCacm): AttestationCacm {
         $this->organismeCacm = $organismeCacm;
         return $this;
     }
@@ -1634,7 +1635,7 @@ class AttestationCacm {
      * @param DateTime|null $periodeEmploiDeb The periode emploi deb.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setPeriodeEmploiDeb(DateTime $periodeEmploiDeb = null) {
+    public function setPeriodeEmploiDeb(?DateTime $periodeEmploiDeb): AttestationCacm {
         $this->periodeEmploiDeb = $periodeEmploiDeb;
         return $this;
     }
@@ -1645,7 +1646,7 @@ class AttestationCacm {
      * @param DateTime|null $periodeEmploiFin The periode emploi fin.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setPeriodeEmploiFin(DateTime $periodeEmploiFin = null) {
+    public function setPeriodeEmploiFin(?DateTime $periodeEmploiFin): AttestationCacm {
         $this->periodeEmploiFin = $periodeEmploiFin;
         return $this;
     }
@@ -1653,10 +1654,10 @@ class AttestationCacm {
     /**
      * Set the preavis non effectue paye.
      *
-     * @param bool $preavisNonEffectuePaye The preavis non effectue paye.
+     * @param bool|null $preavisNonEffectuePaye The preavis non effectue paye.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setPreavisNonEffectuePaye($preavisNonEffectuePaye) {
+    public function setPreavisNonEffectuePaye(?bool $preavisNonEffectuePaye): AttestationCacm {
         $this->preavisNonEffectuePaye = $preavisNonEffectuePaye;
         return $this;
     }
@@ -1664,10 +1665,10 @@ class AttestationCacm {
     /**
      * Set the prenom.
      *
-     * @param string $prenom The prenom.
+     * @param string|null $prenom The prenom.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setPrenom($prenom) {
+    public function setPrenom(?string $prenom): AttestationCacm {
         $this->prenom = $prenom;
         return $this;
     }
@@ -1675,10 +1676,10 @@ class AttestationCacm {
     /**
      * Set the sign autre.
      *
-     * @param string $signAutre The sign autre.
+     * @param string|null $signAutre The sign autre.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignAutre($signAutre) {
+    public function setSignAutre(?string $signAutre): AttestationCacm {
         $this->signAutre = $signAutre;
         return $this;
     }
@@ -1689,7 +1690,7 @@ class AttestationCacm {
      * @param DateTime|null $signDate The sign date.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignDate(DateTime $signDate = null) {
+    public function setSignDate(?DateTime $signDate): AttestationCacm {
         $this->signDate = $signDate;
         return $this;
     }
@@ -1697,10 +1698,10 @@ class AttestationCacm {
     /**
      * Set the sign form juridique.
      *
-     * @param string $signFormJuridique The sign form juridique.
+     * @param string|null $signFormJuridique The sign form juridique.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignFormJuridique($signFormJuridique) {
+    public function setSignFormJuridique(?string $signFormJuridique): AttestationCacm {
         $this->signFormJuridique = $signFormJuridique;
         return $this;
     }
@@ -1708,10 +1709,10 @@ class AttestationCacm {
     /**
      * Set the sign motif rupture.
      *
-     * @param string $signMotifRupture The sign motif rupture.
+     * @param string|null $signMotifRupture The sign motif rupture.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignMotifRupture($signMotifRupture) {
+    public function setSignMotifRupture(?string $signMotifRupture): AttestationCacm {
         $this->signMotifRupture = $signMotifRupture;
         return $this;
     }
@@ -1719,10 +1720,10 @@ class AttestationCacm {
     /**
      * Set the sign nom.
      *
-     * @param string $signNom The sign nom.
+     * @param string|null $signNom The sign nom.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignNom($signNom) {
+    public function setSignNom(?string $signNom): AttestationCacm {
         $this->signNom = $signNom;
         return $this;
     }
@@ -1730,10 +1731,10 @@ class AttestationCacm {
     /**
      * Set the sign prenom.
      *
-     * @param string $signPrenom The sign prenom.
+     * @param string|null $signPrenom The sign prenom.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignPrenom($signPrenom) {
+    public function setSignPrenom(?string $signPrenom): AttestationCacm {
         $this->signPrenom = $signPrenom;
         return $this;
     }
@@ -1741,10 +1742,10 @@ class AttestationCacm {
     /**
      * Set the sign qualite.
      *
-     * @param int $signQualite The sign qualite.
+     * @param int|null $signQualite The sign qualite.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignQualite($signQualite) {
+    public function setSignQualite(?int $signQualite): AttestationCacm {
         $this->signQualite = $signQualite;
         return $this;
     }
@@ -1752,10 +1753,10 @@ class AttestationCacm {
     /**
      * Set the sign raison sociale.
      *
-     * @param string $signRaisonSociale The sign raison sociale.
+     * @param string|null $signRaisonSociale The sign raison sociale.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setSignRaisonSociale($signRaisonSociale) {
+    public function setSignRaisonSociale(?string $signRaisonSociale): AttestationCacm {
         $this->signRaisonSociale = $signRaisonSociale;
         return $this;
     }
@@ -1763,10 +1764,10 @@ class AttestationCacm {
     /**
      * Set the statut cadre.
      *
-     * @param bool $statutCadre The statut cadre.
+     * @param bool|null $statutCadre The statut cadre.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setStatutCadre($statutCadre) {
+    public function setStatutCadre(?bool $statutCadre): AttestationCacm {
         $this->statutCadre = $statutCadre;
         return $this;
     }
@@ -1774,10 +1775,10 @@ class AttestationCacm {
     /**
      * Set the statut juridique.
      *
-     * @param string $statutJuridique The statut juridique.
+     * @param string|null $statutJuridique The statut juridique.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setStatutJuridique($statutJuridique) {
+    public function setStatutJuridique(?string $statutJuridique): AttestationCacm {
         $this->statutJuridique = $statutJuridique;
         return $this;
     }
@@ -1785,10 +1786,10 @@ class AttestationCacm {
     /**
      * Set the statut particulier.
      *
-     * @param int $statutParticulier The statut particulier.
+     * @param int|null $statutParticulier The statut particulier.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setStatutParticulier($statutParticulier) {
+    public function setStatutParticulier(?int $statutParticulier): AttestationCacm {
         $this->statutParticulier = $statutParticulier;
         return $this;
     }
@@ -1796,10 +1797,10 @@ class AttestationCacm {
     /**
      * Set the titre.
      *
-     * @param string $titre The titre.
+     * @param string|null $titre The titre.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setTitre($titre) {
+    public function setTitre(?string $titre): AttestationCacm {
         $this->titre = $titre;
         return $this;
     }
@@ -1807,10 +1808,10 @@ class AttestationCacm {
     /**
      * Set the titre lien parente.
      *
-     * @param string $titreLienParente The titre lien parente.
+     * @param string|null $titreLienParente The titre lien parente.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setTitreLienParente($titreLienParente) {
+    public function setTitreLienParente(?string $titreLienParente): AttestationCacm {
         $this->titreLienParente = $titreLienParente;
         return $this;
     }
@@ -1818,10 +1819,10 @@ class AttestationCacm {
     /**
      * Set the type contrat.
      *
-     * @param int $typeContrat The type contrat.
+     * @param int|null $typeContrat The type contrat.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setTypeContrat($typeContrat) {
+    public function setTypeContrat(?int $typeContrat): AttestationCacm {
         $this->typeContrat = $typeContrat;
         return $this;
     }
@@ -1829,10 +1830,10 @@ class AttestationCacm {
     /**
      * Set the type horaire.
      *
-     * @param int $typeHoraire The type horaire.
+     * @param int|null $typeHoraire The type horaire.
      * @return AttestationCacm Returns this Attestation cacm.
      */
-    public function setTypeHoraire($typeHoraire) {
+    public function setTypeHoraire(?int $typeHoraire): AttestationCacm {
         $this->typeHoraire = $typeHoraire;
         return $this;
     }

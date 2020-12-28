@@ -24,28 +24,28 @@ class LignesIjssTpsPartiel {
     /**
      * Montant.
      *
-     * @var float
+     * @var float|null
      */
     private $montant;
 
     /**
      * Montant plein.
      *
-     * @var float
+     * @var float|null
      */
     private $montantPlein;
 
     /**
      * Num ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $numLigne;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
@@ -63,46 +63,47 @@ class LignesIjssTpsPartiel {
      */
     private $periodeFin;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the montant.
      *
-     * @return float Returns the montant.
+     * @return float|null Returns the montant.
      */
-    public function getMontant() {
+    public function getMontant(): ?float{
         return $this->montant;
     }
 
     /**
      * Get the montant plein.
      *
-     * @return float Returns the montant plein.
+     * @return float|null Returns the montant plein.
      */
-    public function getMontantPlein() {
+    public function getMontantPlein(): ?float{
         return $this->montantPlein;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return string Returns the num ligne.
+     * @return string|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?string{
         return $this->numLigne;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
@@ -111,7 +112,7 @@ class LignesIjssTpsPartiel {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -120,17 +121,17 @@ class LignesIjssTpsPartiel {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Set the montant.
      *
-     * @param float $montant The montant.
+     * @param float|null $montant The montant.
      * @return LignesIjssTpsPartiel Returns this Lignes ijss tps partiel.
      */
-    public function setMontant($montant) {
+    public function setMontant(?float $montant): LignesIjssTpsPartiel {
         $this->montant = $montant;
         return $this;
     }
@@ -138,10 +139,10 @@ class LignesIjssTpsPartiel {
     /**
      * Set the montant plein.
      *
-     * @param float $montantPlein The montant plein.
+     * @param float|null $montantPlein The montant plein.
      * @return LignesIjssTpsPartiel Returns this Lignes ijss tps partiel.
      */
-    public function setMontantPlein($montantPlein) {
+    public function setMontantPlein(?float $montantPlein): LignesIjssTpsPartiel {
         $this->montantPlein = $montantPlein;
         return $this;
     }
@@ -149,10 +150,10 @@ class LignesIjssTpsPartiel {
     /**
      * Set the num ligne.
      *
-     * @param string $numLigne The num ligne.
+     * @param string|null $numLigne The num ligne.
      * @return LignesIjssTpsPartiel Returns this Lignes ijss tps partiel.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?string $numLigne): LignesIjssTpsPartiel {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -160,10 +161,10 @@ class LignesIjssTpsPartiel {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return LignesIjssTpsPartiel Returns this Lignes ijss tps partiel.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): LignesIjssTpsPartiel {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -174,7 +175,7 @@ class LignesIjssTpsPartiel {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return LignesIjssTpsPartiel Returns this Lignes ijss tps partiel.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): LignesIjssTpsPartiel {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -185,7 +186,7 @@ class LignesIjssTpsPartiel {
      * @param DateTime|null $periodeFin The periode fin.
      * @return LignesIjssTpsPartiel Returns this Lignes ijss tps partiel.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): LignesIjssTpsPartiel {
         $this->periodeFin = $periodeFin;
         return $this;
     }

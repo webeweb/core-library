@@ -27,7 +27,7 @@ class EtebacLibAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtebac() {
+    public function testSetCodeEtebac(): void {
 
         $obj = new EtebacLibAuto();
 
@@ -40,7 +40,7 @@ class EtebacLibAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibAuto() {
+    public function testSetCodeLibAuto(): void {
 
         $obj = new EtebacLibAuto();
 
@@ -53,7 +53,7 @@ class EtebacLibAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EtebacLibAuto();
 

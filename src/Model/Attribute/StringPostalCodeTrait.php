@@ -22,25 +22,25 @@ trait StringPostalCodeTrait {
     /**
      * Postal code.
      *
-     * @var string
+     * @var string|null
      */
     protected $postalCode;
 
     /**
      * Get the postal code.
      *
-     * @return string Returns the postal code.
+     * @return string|null Returns the postal code.
      */
-    public function getPostalCode() {
+    public function getPostalCode(): ?string {
         return $this->postalCode;
     }
 
     /**
      * Set the postal code.
      *
-     * @param string $postalCode The postal code.
+     * @param string|null $postalCode The postal code.
      */
-    public function setPostalCode($postalCode) {
+    public function setPostalCode(?string $postalCode) {
         $this->postalCode = $postalCode;
         return $this;
     }

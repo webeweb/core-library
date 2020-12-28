@@ -30,7 +30,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdTableau() {
+    public function testSetIdTableau(): void {
 
         $obj = new ReintegrationFf();
 
@@ -59,7 +59,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttApports() {
+    public function testSetMttApports(): void {
 
         $obj = new ReintegrationFf();
 
@@ -72,7 +72,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttEmprunts() {
+    public function testSetMttEmprunts(): void {
 
         $obj = new ReintegrationFf();
 
@@ -85,7 +85,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttPrelev() {
+    public function testSetMttPrelev(): void {
 
         $obj = new ReintegrationFf();
 
@@ -98,7 +98,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttTreso() {
+    public function testSetMttTreso(): void {
 
         $obj = new ReintegrationFf();
 
@@ -111,7 +111,7 @@ class ReintegrationFfTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ReintegrationFf();
 

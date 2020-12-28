@@ -22,25 +22,25 @@ trait StringRawResponseTrait {
     /**
      * Raw response.
      *
-     * @var string
+     * @var string|null
      */
     protected $rawResponse;
 
     /**
      * Get the raw response.
      *
-     * @return string Returns the raw response.
+     * @return string|null Returns the raw response.
      */
-    public function getRawResponse() {
+    public function getRawResponse(): ?string {
         return $this->rawResponse;
     }
 
     /**
      * Set the raw response.
      *
-     * @param string $rawResponse The raw response.
+     * @param string|null $rawResponse The raw response.
      */
-    public function setRawResponse($rawResponse) {
+    public function setRawResponse(?string $rawResponse) {
         $this->rawResponse = $rawResponse;
         return $this;
     }

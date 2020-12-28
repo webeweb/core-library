@@ -27,7 +27,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeConvention() {
+    public function testSetCodeConvention(): void {
 
         $obj = new ConventionsColGrillesAnc();
 
@@ -40,7 +40,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeGrille() {
+    public function testSetCodeGrille(): void {
 
         $obj = new ConventionsColGrillesAnc();
 
@@ -53,7 +53,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new ConventionsColGrillesAnc();
 
@@ -66,7 +66,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeGrille() {
+    public function testSetTypeGrille(): void {
 
         $obj = new ConventionsColGrillesAnc();
 
@@ -79,7 +79,7 @@ class ConventionsColGrillesAncTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConventionsColGrillesAnc();
 

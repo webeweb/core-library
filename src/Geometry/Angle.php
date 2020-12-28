@@ -50,7 +50,7 @@ class Angle {
      * @param float $value The value.
      * @param string $units The units.
      */
-    public function __construct($value, $units = self::UNIT_RADIAN) {
+    public function __construct(float $value, string $units = self::UNIT_RADIAN) {
         $this->setUnits($units);
         $this->setValue($value);
     }
@@ -60,7 +60,7 @@ class Angle {
      *
      * @return float Returns the degree.
      */
-    public function deg() {
+    public function deg(): float {
 
         if (true === $this->isDegree()) {
             return $this->getValue();
@@ -74,7 +74,7 @@ class Angle {
      *
      * @return string Returns the unit.
      */
-    public function getUnits() {
+    public function getUnits(): string {
         return $this->units;
     }
 
@@ -83,7 +83,7 @@ class Angle {
      *
      * @return bool Returns true in case of success, false otherwise.
      */
-    public function isDegree() {
+    public function isDegree(): bool {
         return Angle::UNIT_DEGREE === $this->getUnits();
     }
 
@@ -92,7 +92,7 @@ class Angle {
      *
      * @return bool Returns true in case of success, false otherwise.
      */
-    public function isRadian() {
+    public function isRadian(): bool {
         return Angle::UNIT_RADIAN === $this->getUnits();
     }
 
@@ -101,7 +101,7 @@ class Angle {
      *
      * @return float Returns the radian.
      */
-    public function rad() {
+    public function rad(): float {
 
         if (true === $this->isRadian()) {
             return $this->getValue();
@@ -116,7 +116,7 @@ class Angle {
      * @param string $units The unit.
      * @return Angle Returns this angle.
      */
-    protected function setUnits($units) {
+    protected function setUnits(string $units): Angle {
         $this->units = $units;
         return $this;
     }

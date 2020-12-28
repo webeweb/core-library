@@ -27,7 +27,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -40,7 +40,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -53,7 +53,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -66,7 +66,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -79,7 +79,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEquipe() {
+    public function testSetCodeEquipe(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -92,7 +92,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -105,7 +105,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertPaie() {
+    public function testSetTransfertPaie(): void {
 
         $obj = new BonsTravauxEmployes();
 
@@ -118,7 +118,7 @@ class BonsTravauxEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BonsTravauxEmployes();
 

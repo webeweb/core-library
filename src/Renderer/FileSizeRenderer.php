@@ -43,11 +43,11 @@ class FileSizeRenderer {
     /**
      * Render a size.
      *
-     * @param int $size The size.
+     * @param int|null $size The size.
      * @param int $decimals The decimals.
      * @return string Returns the rendered size.
      */
-    public static function renderSize($size, $decimals = 2) {
+    public static function renderSize(?int $size, int $decimals = 2): string {
 
         if (null === $size || $size < 0) {
             return "";

@@ -22,129 +22,130 @@ class ClientsSelectionSuite {
     /**
      * Coche client.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cocheClient;
 
     /**
      * Coche fournisseur.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cocheFournisseur;
 
     /**
      * Coche intervenant.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cocheIntervenant;
 
     /**
      * Coche prospect.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cocheProspect;
 
     /**
      * Coche sorti.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cocheSorti;
 
     /**
      * Code col.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCol;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the coche client.
      *
-     * @return bool Returns the coche client.
+     * @return bool|null Returns the coche client.
      */
-    public function getCocheClient() {
+    public function getCocheClient(): ?bool{
         return $this->cocheClient;
     }
 
     /**
      * Get the coche fournisseur.
      *
-     * @return bool Returns the coche fournisseur.
+     * @return bool|null Returns the coche fournisseur.
      */
-    public function getCocheFournisseur() {
+    public function getCocheFournisseur(): ?bool{
         return $this->cocheFournisseur;
     }
 
     /**
      * Get the coche intervenant.
      *
-     * @return bool Returns the coche intervenant.
+     * @return bool|null Returns the coche intervenant.
      */
-    public function getCocheIntervenant() {
+    public function getCocheIntervenant(): ?bool{
         return $this->cocheIntervenant;
     }
 
     /**
      * Get the coche prospect.
      *
-     * @return bool Returns the coche prospect.
+     * @return bool|null Returns the coche prospect.
      */
-    public function getCocheProspect() {
+    public function getCocheProspect(): ?bool{
         return $this->cocheProspect;
     }
 
     /**
      * Get the coche sorti.
      *
-     * @return bool Returns the coche sorti.
+     * @return bool|null Returns the coche sorti.
      */
-    public function getCocheSorti() {
+    public function getCocheSorti(): ?bool{
         return $this->cocheSorti;
     }
 
     /**
      * Get the code col.
      *
-     * @return string Returns the code col.
+     * @return string|null Returns the code col.
      */
-    public function getCodeCol() {
+    public function getCodeCol(): ?string{
         return $this->codeCol;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Set the coche client.
      *
-     * @param bool $cocheClient The coche client.
+     * @param bool|null $cocheClient The coche client.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setCocheClient($cocheClient) {
+    public function setCocheClient(?bool $cocheClient): ClientsSelectionSuite {
         $this->cocheClient = $cocheClient;
         return $this;
     }
@@ -152,10 +153,10 @@ class ClientsSelectionSuite {
     /**
      * Set the coche fournisseur.
      *
-     * @param bool $cocheFournisseur The coche fournisseur.
+     * @param bool|null $cocheFournisseur The coche fournisseur.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setCocheFournisseur($cocheFournisseur) {
+    public function setCocheFournisseur(?bool $cocheFournisseur): ClientsSelectionSuite {
         $this->cocheFournisseur = $cocheFournisseur;
         return $this;
     }
@@ -163,10 +164,10 @@ class ClientsSelectionSuite {
     /**
      * Set the coche intervenant.
      *
-     * @param bool $cocheIntervenant The coche intervenant.
+     * @param bool|null $cocheIntervenant The coche intervenant.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setCocheIntervenant($cocheIntervenant) {
+    public function setCocheIntervenant(?bool $cocheIntervenant): ClientsSelectionSuite {
         $this->cocheIntervenant = $cocheIntervenant;
         return $this;
     }
@@ -174,10 +175,10 @@ class ClientsSelectionSuite {
     /**
      * Set the coche prospect.
      *
-     * @param bool $cocheProspect The coche prospect.
+     * @param bool|null $cocheProspect The coche prospect.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setCocheProspect($cocheProspect) {
+    public function setCocheProspect(?bool $cocheProspect): ClientsSelectionSuite {
         $this->cocheProspect = $cocheProspect;
         return $this;
     }
@@ -185,10 +186,10 @@ class ClientsSelectionSuite {
     /**
      * Set the coche sorti.
      *
-     * @param bool $cocheSorti The coche sorti.
+     * @param bool|null $cocheSorti The coche sorti.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setCocheSorti($cocheSorti) {
+    public function setCocheSorti(?bool $cocheSorti): ClientsSelectionSuite {
         $this->cocheSorti = $cocheSorti;
         return $this;
     }
@@ -196,10 +197,10 @@ class ClientsSelectionSuite {
     /**
      * Set the code col.
      *
-     * @param string $codeCol The code col.
+     * @param string|null $codeCol The code col.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setCodeCol($codeCol) {
+    public function setCodeCol(?string $codeCol): ClientsSelectionSuite {
         $this->codeCol = $codeCol;
         return $this;
     }
@@ -207,10 +208,10 @@ class ClientsSelectionSuite {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ClientsSelectionSuite Returns this Clients selection suite.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ClientsSelectionSuite {
         $this->libelle = $libelle;
         return $this;
     }

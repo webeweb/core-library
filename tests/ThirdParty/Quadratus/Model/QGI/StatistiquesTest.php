@@ -27,7 +27,7 @@ class StatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Statistiques();
 
@@ -40,7 +40,7 @@ class StatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRubrique() {
+    public function testSetCodeRubrique(): void {
 
         $obj = new Statistiques();
 
@@ -53,7 +53,7 @@ class StatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInfoCellule() {
+    public function testSetInfoCellule(): void {
 
         $obj = new Statistiques();
 
@@ -66,7 +66,7 @@ class StatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMillesime() {
+    public function testSetMillesime(): void {
 
         $obj = new Statistiques();
 
@@ -79,7 +79,7 @@ class StatistiquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Statistiques();
 

@@ -29,7 +29,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtBureauDistributeur() {
+    public function testSetAdBtBureauDistributeur(): void {
 
         $obj = new BonsTravaux();
 
@@ -42,7 +42,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtCivilite() {
+    public function testSetAdBtCivilite(): void {
 
         $obj = new BonsTravaux();
 
@@ -55,7 +55,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtCodePays() {
+    public function testSetAdBtCodePays(): void {
 
         $obj = new BonsTravaux();
 
@@ -68,7 +68,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtCodePostal() {
+    public function testSetAdBtCodePostal(): void {
 
         $obj = new BonsTravaux();
 
@@ -81,7 +81,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtComplement() {
+    public function testSetAdBtComplement(): void {
 
         $obj = new BonsTravaux();
 
@@ -94,7 +94,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNom() {
+    public function testSetAdBtNom(): void {
 
         $obj = new BonsTravaux();
 
@@ -107,7 +107,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNomSuite() {
+    public function testSetAdBtNomSuite(): void {
 
         $obj = new BonsTravaux();
 
@@ -120,7 +120,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNomVoie() {
+    public function testSetAdBtNomVoie(): void {
 
         $obj = new BonsTravaux();
 
@@ -133,7 +133,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtNumVoie() {
+    public function testSetAdBtNumVoie(): void {
 
         $obj = new BonsTravaux();
 
@@ -146,7 +146,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdBtbtq() {
+    public function testSetAdBtbtq(): void {
 
         $obj = new BonsTravaux();
 
@@ -159,7 +159,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFBureauDistributeur() {
+    public function testSetAdFBureauDistributeur(): void {
 
         $obj = new BonsTravaux();
 
@@ -172,7 +172,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCivilite() {
+    public function testSetAdFCivilite(): void {
 
         $obj = new BonsTravaux();
 
@@ -185,7 +185,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCodePays() {
+    public function testSetAdFCodePays(): void {
 
         $obj = new BonsTravaux();
 
@@ -198,7 +198,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCodePostal() {
+    public function testSetAdFCodePostal(): void {
 
         $obj = new BonsTravaux();
 
@@ -211,7 +211,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFComplement() {
+    public function testSetAdFComplement(): void {
 
         $obj = new BonsTravaux();
 
@@ -224,7 +224,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNom() {
+    public function testSetAdFNom(): void {
 
         $obj = new BonsTravaux();
 
@@ -237,7 +237,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite() {
+    public function testSetAdFNomSuite(): void {
 
         $obj = new BonsTravaux();
 
@@ -250,7 +250,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite2() {
+    public function testSetAdFNomSuite2(): void {
 
         $obj = new BonsTravaux();
 
@@ -263,7 +263,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite3() {
+    public function testSetAdFNomSuite3(): void {
 
         $obj = new BonsTravaux();
 
@@ -276,7 +276,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomVoie() {
+    public function testSetAdFNomVoie(): void {
 
         $obj = new BonsTravaux();
 
@@ -289,7 +289,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNumVoie() {
+    public function testSetAdFNumVoie(): void {
 
         $obj = new BonsTravaux();
 
@@ -302,7 +302,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFbtq() {
+    public function testSetAdFbtq(): void {
 
         $obj = new BonsTravaux();
 
@@ -315,7 +315,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseBtSaisie() {
+    public function testSetAdresseBtSaisie(): void {
 
         $obj = new BonsTravaux();
 
@@ -328,7 +328,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseFacturationSaisie() {
+    public function testSetAdresseFacturationSaisie(): void {
 
         $obj = new BonsTravaux();
 
@@ -341,7 +341,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new BonsTravaux();
 
@@ -354,7 +354,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new BonsTravaux();
 
@@ -367,7 +367,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BonsTravaux();
 
@@ -380,7 +380,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFrequence() {
+    public function testSetCodeFrequence(): void {
 
         $obj = new BonsTravaux();
 
@@ -393,7 +393,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheBt() {
+    public function testSetCodeTacheBt(): void {
 
         $obj = new BonsTravaux();
 
@@ -406,7 +406,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTournee() {
+    public function testSetCodeTournee(): void {
 
         $obj = new BonsTravaux();
 
@@ -419,7 +419,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereListe1() {
+    public function testSetCritereListe1(): void {
 
         $obj = new BonsTravaux();
 
@@ -432,7 +432,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereListe2() {
+    public function testSetCritereListe2(): void {
 
         $obj = new BonsTravaux();
 
@@ -445,7 +445,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereNumerique1() {
+    public function testSetCritereNumerique1(): void {
 
         $obj = new BonsTravaux();
 
@@ -458,7 +458,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereNumerique2() {
+    public function testSetCritereNumerique2(): void {
 
         $obj = new BonsTravaux();
 
@@ -471,7 +471,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereTexte1() {
+    public function testSetCritereTexte1(): void {
 
         $obj = new BonsTravaux();
 
@@ -484,7 +484,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereTexte2() {
+    public function testSetCritereTexte2(): void {
 
         $obj = new BonsTravaux();
 
@@ -498,7 +498,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDernierPassage() {
+    public function testSetDateDernierPassage(): void {
 
         // Set a Date/time mock.
         $dateDernierPassage = new DateTime("2018-09-10");
@@ -515,7 +515,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinValidite() {
+    public function testSetDateFinValidite(): void {
 
         // Set a Date/time mock.
         $dateFinValidite = new DateTime("2018-09-10");
@@ -532,7 +532,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePremierPassage() {
+    public function testSetDatePremierPassage(): void {
 
         // Set a Date/time mock.
         $datePremierPassage = new DateTime("2018-09-10");
@@ -549,7 +549,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidite() {
+    public function testSetDateValidite(): void {
 
         // Set a Date/time mock.
         $dateValidite = new DateTime("2018-09-10");
@@ -565,7 +565,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new BonsTravaux();
 
@@ -578,7 +578,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEquipe() {
+    public function testSetEquipe(): void {
 
         $obj = new BonsTravaux();
 
@@ -591,7 +591,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrequence() {
+    public function testSetFrequence(): void {
 
         $obj = new BonsTravaux();
 
@@ -604,7 +604,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrequenceSuite() {
+    public function testSetFrequenceSuite(): void {
 
         $obj = new BonsTravaux();
 
@@ -617,7 +617,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPlanning() {
+    public function testSetGestionPlanning(): void {
 
         $obj = new BonsTravaux();
 
@@ -631,7 +631,7 @@ class BonsTravauxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDeb() {
+    public function testSetHeureDeb(): void {
 
         // Set a Date/time mock.
         $heureDeb = new DateTime("2018-09-10");
@@ -647,7 +647,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLatitude() {
+    public function testSetLatitude(): void {
 
         $obj = new BonsTravaux();
 
@@ -660,7 +660,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLongitude() {
+    public function testSetLongitude(): void {
 
         $obj = new BonsTravaux();
 
@@ -673,7 +673,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMentionSpeciale() {
+    public function testSetMentionSpeciale(): void {
 
         $obj = new BonsTravaux();
 
@@ -686,7 +686,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures() {
+    public function testSetNbHeures(): void {
 
         $obj = new BonsTravaux();
 
@@ -699,7 +699,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbJours() {
+    public function testSetNbJours(): void {
 
         $obj = new BonsTravaux();
 
@@ -712,7 +712,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new BonsTravaux();
 
@@ -725,7 +725,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new BonsTravaux();
 
@@ -738,7 +738,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieInterJour() {
+    public function testSetSaisieInterJour(): void {
 
         $obj = new BonsTravaux();
 
@@ -751,7 +751,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailleDimanche() {
+    public function testSetTravailleDimanche(): void {
 
         $obj = new BonsTravaux();
 
@@ -764,7 +764,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailleJoursFeries() {
+    public function testSetTravailleJoursFeries(): void {
 
         $obj = new BonsTravaux();
 
@@ -777,7 +777,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailleSamedi() {
+    public function testSetTravailleSamedi(): void {
 
         $obj = new BonsTravaux();
 
@@ -790,7 +790,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFrequence() {
+    public function testSetTypeFrequence(): void {
 
         $obj = new BonsTravaux();
 
@@ -803,7 +803,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUnBonParMois() {
+    public function testSetUnBonParMois(): void {
 
         $obj = new BonsTravaux();
 
@@ -816,7 +816,7 @@ class BonsTravauxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BonsTravaux();
 

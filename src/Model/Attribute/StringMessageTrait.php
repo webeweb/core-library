@@ -22,25 +22,25 @@ trait StringMessageTrait {
     /**
      * Message.
      *
-     * @var string
+     * @var string|null
      */
     protected $message;
 
     /**
      * Get the message.
      *
-     * @return string Returns the message.
+     * @return string|null Returns the message.
      */
-    public function getMessage() {
+    public function getMessage(): ?string {
         return $this->message;
     }
 
     /**
      * Set the message.
      *
-     * @param string $message The message.
+     * @param string|null $message The message.
      */
-    public function setMessage($message) {
+    public function setMessage(?string $message) {
         $this->message = $message;
         return $this;
     }

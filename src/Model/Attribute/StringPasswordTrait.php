@@ -22,25 +22,25 @@ trait StringPasswordTrait {
     /**
      * Password.
      *
-     * @var string
+     * @var string|null
      */
     protected $password;
 
     /**
      * Get the password.
      *
-     * @return string Returns the password.
+     * @return string|null Returns the password.
      */
-    public function getPassword() {
+    public function getPassword(): ?string {
         return $this->password;
     }
 
     /**
      * Set the password.
      *
-     * @param string $password The password.
+     * @param string|null $password The password.
      */
-    public function setPassword($password) {
+    public function setPassword(?string $password) {
         $this->password = $password;
         return $this;
     }

@@ -27,7 +27,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -40,7 +40,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -53,7 +53,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -66,7 +66,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDimanche() {
+    public function testSetDimanche(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -79,7 +79,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJeudi() {
+    public function testSetJeudi(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -92,7 +92,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLundi() {
+    public function testSetLundi(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -105,7 +105,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMardi() {
+    public function testSetMardi(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -118,7 +118,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMercredi() {
+    public function testSetMercredi(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -131,7 +131,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -144,7 +144,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumSem() {
+    public function testSetNumSem(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -157,7 +157,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSamedi() {
+    public function testSetSamedi(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -170,7 +170,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVendredi() {
+    public function testSetVendredi(): void {
 
         $obj = new BonsTravauxInterventions();
 
@@ -183,7 +183,7 @@ class BonsTravauxInterventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BonsTravauxInterventions();
 

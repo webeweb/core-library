@@ -49,7 +49,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function close() {
+    public function close(): SftpClient {
 
         if (false === ssh2_exec($this->getConnection(), "exit")) {
             throw $this->newFtpException("ssh2_exec failed: [exit]");
@@ -64,7 +64,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function connect() {
+    public function connect(): SftpClient {
 
         $host = $this->getAuthenticator()->getHostname();
         $port = $this->getAuthenticator()->getPort();
@@ -84,7 +84,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function delete($path) {
+    public function delete(string $path): SftpClient {
 
         if (false === ssh2_sftp_unlink($this->getSftp(), $path)) {
             throw $this->newFtpException("ssh2_sftp_unlink failed: [{$path}]");
@@ -100,7 +100,7 @@ class SftpClient extends AbstractFtpClient {
      * @param string $remoteFile The remote file.
      * @return SftpClient Returns this SFTP client.
      */
-    public function get($localFile, $remoteFile) {
+    public function get(string $localFile, string $remoteFile): SftpClient {
 
         $input  = fopen("ssh2.sftp://" . intval($this->getSftp()) . $remoteFile, "r");
         $output = fopen($localFile, "w");
@@ -133,7 +133,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function login() {
+    public function login(): SftpClient {
 
         $username = $this->getAuthenticator()->getPasswordAuthentication()->getUsername();
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
@@ -154,7 +154,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function mkdir($directory, $mode = 0777, $recursive = false) {
+    public function mkdir(string $directory, int $mode = 0777, bool $recursive = false): SftpClient {
 
         if (false === ssh2_sftp_mkdir($this->getSftp(), $directory, $mode, $recursive)) {
             throw $this->newFtpException("ssh2_sftp_mkdir failed: [{$directory}]");
@@ -170,7 +170,7 @@ class SftpClient extends AbstractFtpClient {
      * @param string $remoteFile The remote file.
      * @return SftpClient Returns this SFTP client.
      */
-    public function put($localFile, $remoteFile) {
+    public function put(string $localFile, string $remoteFile): SftpClient {
 
         $input  = fopen($localFile, "r");
         $output = fopen("ssh2.sftp://" . intval($this->getSftp()) . $remoteFile, "w");
@@ -191,7 +191,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function rename($oldName, $newName) {
+    public function rename(string $oldName, string $newName): SftpClient {
 
         if (false === ssh2_sftp_rename($this->getSftp(), $oldName, $newName)) {
             throw $this->newFtpException("ssh2_sftp_rename failed: [{$oldName}, {$newName}]");
@@ -207,7 +207,7 @@ class SftpClient extends AbstractFtpClient {
      * @return SftpClient Returns this SFTP client.
      * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
-    public function rmdir($directory) {
+    public function rmdir(string $directory): SftpClient {
 
         if (false === ssh2_sftp_rmdir($this->getSftp(), $directory)) {
             throw $this->newFtpException("ssh2_sftp_rmdir failed: [{$directory}]");

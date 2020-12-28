@@ -22,25 +22,25 @@ trait StringLocationTrait {
     /**
      * Location.
      *
-     * @var string
+     * @var string|null
      */
     protected $location;
 
     /**
      * Get the location.
      *
-     * @return string Returns the location.
+     * @return string|null Returns the location.
      */
-    public function getLocation() {
+    public function getLocation(): ?string {
         return $this->location;
     }
 
     /**
      * Set the location.
      *
-     * @param string $location The location.
+     * @param string|null $location The location.
      */
-    public function setLocation($location) {
+    public function setLocation(?string $location) {
         $this->location = $location;
         return $this;
     }

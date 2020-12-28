@@ -27,7 +27,7 @@ class IntegerMaritalStatusTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaritalStatus() {
+    public function testSetMaritalStatus(): void {
 
         $obj = new TestIntegerMaritalStatusTrait();
 
@@ -40,7 +40,7 @@ class IntegerMaritalStatusTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerMaritalStatusTrait();
 

@@ -32,9 +32,9 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
     private $nodes;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set the node mocks.
@@ -46,7 +46,7 @@ class AlphabeticalTreeSortTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSort() {
+    public function testSort(): void {
 
         $obj = new AlphabeticalTreeSort($this->nodes);
 

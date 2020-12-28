@@ -22,289 +22,290 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Code deleg gestion.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDelegGestion;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Code option.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOption;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code population.
      *
-     * @var string
+     * @var string|null
      */
     private $codePopulation;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Periode affectation.
      *
-     * @var string
+     * @var string|null
      */
     private $periodeAffectation;
 
     /**
      * Qualification frais sante.
      *
-     * @var string
+     * @var string|null
      */
     private $qualificationFraisSante;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
 
     /**
      * Type cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCotis;
 
     /**
      * Type population.
      *
-     * @var string
+     * @var string|null
      */
     private $typePopulation;
 
     /**
      * Unite date ancien branche.
      *
-     * @var string
+     * @var string|null
      */
     private $uniteDateAncienBranche;
 
     /**
      * Unite date ancien college.
      *
-     * @var string
+     * @var string|null
      */
     private $uniteDateAncienCollege;
 
     /**
      * Unite date ancien poste.
      *
-     * @var string
+     * @var string|null
      */
     private $uniteDateAncienPoste;
 
     /**
      * Unite prem date entree.
      *
-     * @var string
+     * @var string|null
      */
     private $unitePremDateEntree;
 
     /**
      * Valeur cotis.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurCotis;
 
     /**
      * Valeur cotis initiale.
      *
-     * @var float
+     * @var float|null
      */
     private $valeurCotisInitiale;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code deleg gestion.
      *
-     * @return string Returns the code deleg gestion.
+     * @return string|null Returns the code deleg gestion.
      */
-    public function getCodeDelegGestion() {
+    public function getCodeDelegGestion(): ?string{
         return $this->codeDelegGestion;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the code option.
      *
-     * @return string Returns the code option.
+     * @return string|null Returns the code option.
      */
-    public function getCodeOption() {
+    public function getCodeOption(): ?string{
         return $this->codeOption;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code population.
      *
-     * @return string Returns the code population.
+     * @return string|null Returns the code population.
      */
-    public function getCodePopulation() {
+    public function getCodePopulation(): ?string{
         return $this->codePopulation;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the periode affectation.
      *
-     * @return string Returns the periode affectation.
+     * @return string|null Returns the periode affectation.
      */
-    public function getPeriodeAffectation() {
+    public function getPeriodeAffectation(): ?string{
         return $this->periodeAffectation;
     }
 
     /**
      * Get the qualification frais sante.
      *
-     * @return string Returns the qualification frais sante.
+     * @return string|null Returns the qualification frais sante.
      */
-    public function getQualificationFraisSante() {
+    public function getQualificationFraisSante(): ?string{
         return $this->qualificationFraisSante;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Get the type cotis.
      *
-     * @return string Returns the type cotis.
+     * @return string|null Returns the type cotis.
      */
-    public function getTypeCotis() {
+    public function getTypeCotis(): ?string{
         return $this->typeCotis;
     }
 
     /**
      * Get the type population.
      *
-     * @return string Returns the type population.
+     * @return string|null Returns the type population.
      */
-    public function getTypePopulation() {
+    public function getTypePopulation(): ?string{
         return $this->typePopulation;
     }
 
     /**
      * Get the unite date ancien branche.
      *
-     * @return string Returns the unite date ancien branche.
+     * @return string|null Returns the unite date ancien branche.
      */
-    public function getUniteDateAncienBranche() {
+    public function getUniteDateAncienBranche(): ?string{
         return $this->uniteDateAncienBranche;
     }
 
     /**
      * Get the unite date ancien college.
      *
-     * @return string Returns the unite date ancien college.
+     * @return string|null Returns the unite date ancien college.
      */
-    public function getUniteDateAncienCollege() {
+    public function getUniteDateAncienCollege(): ?string{
         return $this->uniteDateAncienCollege;
     }
 
     /**
      * Get the unite date ancien poste.
      *
-     * @return string Returns the unite date ancien poste.
+     * @return string|null Returns the unite date ancien poste.
      */
-    public function getUniteDateAncienPoste() {
+    public function getUniteDateAncienPoste(): ?string{
         return $this->uniteDateAncienPoste;
     }
 
     /**
      * Get the unite prem date entree.
      *
-     * @return string Returns the unite prem date entree.
+     * @return string|null Returns the unite prem date entree.
      */
-    public function getUnitePremDateEntree() {
+    public function getUnitePremDateEntree(): ?string{
         return $this->unitePremDateEntree;
     }
 
     /**
      * Get the valeur cotis.
      *
-     * @return float Returns the valeur cotis.
+     * @return float|null Returns the valeur cotis.
      */
-    public function getValeurCotis() {
+    public function getValeurCotis(): ?float{
         return $this->valeurCotis;
     }
 
     /**
      * Get the valeur cotis initiale.
      *
-     * @return float Returns the valeur cotis initiale.
+     * @return float|null Returns the valeur cotis initiale.
      */
-    public function getValeurCotisInitiale() {
+    public function getValeurCotisInitiale(): ?float{
         return $this->valeurCotisInitiale;
     }
 
     /**
      * Set the code deleg gestion.
      *
-     * @param string $codeDelegGestion The code deleg gestion.
+     * @param string|null $codeDelegGestion The code deleg gestion.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setCodeDelegGestion($codeDelegGestion) {
+    public function setCodeDelegGestion(?string $codeDelegGestion): DadsuPrevoyanceLignesContrat {
         $this->codeDelegGestion = $codeDelegGestion;
         return $this;
     }
@@ -312,10 +313,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): DadsuPrevoyanceLignesContrat {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -323,10 +324,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the code option.
      *
-     * @param string $codeOption The code option.
+     * @param string|null $codeOption The code option.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setCodeOption($codeOption) {
+    public function setCodeOption(?string $codeOption): DadsuPrevoyanceLignesContrat {
         $this->codeOption = $codeOption;
         return $this;
     }
@@ -334,10 +335,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuPrevoyanceLignesContrat {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -345,10 +346,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the code population.
      *
-     * @param string $codePopulation The code population.
+     * @param string|null $codePopulation The code population.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setCodePopulation($codePopulation) {
+    public function setCodePopulation(?string $codePopulation): DadsuPrevoyanceLignesContrat {
         $this->codePopulation = $codePopulation;
         return $this;
     }
@@ -356,10 +357,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): DadsuPrevoyanceLignesContrat {
         $this->intitule = $intitule;
         return $this;
     }
@@ -367,10 +368,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the periode affectation.
      *
-     * @param string $periodeAffectation The periode affectation.
+     * @param string|null $periodeAffectation The periode affectation.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setPeriodeAffectation($periodeAffectation) {
+    public function setPeriodeAffectation(?string $periodeAffectation): DadsuPrevoyanceLignesContrat {
         $this->periodeAffectation = $periodeAffectation;
         return $this;
     }
@@ -378,10 +379,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the qualification frais sante.
      *
-     * @param string $qualificationFraisSante The qualification frais sante.
+     * @param string|null $qualificationFraisSante The qualification frais sante.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setQualificationFraisSante($qualificationFraisSante) {
+    public function setQualificationFraisSante(?string $qualificationFraisSante): DadsuPrevoyanceLignesContrat {
         $this->qualificationFraisSante = $qualificationFraisSante;
         return $this;
     }
@@ -389,10 +390,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): DadsuPrevoyanceLignesContrat {
         $this->refContrat = $refContrat;
         return $this;
     }
@@ -400,10 +401,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the type cotis.
      *
-     * @param string $typeCotis The type cotis.
+     * @param string|null $typeCotis The type cotis.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setTypeCotis($typeCotis) {
+    public function setTypeCotis(?string $typeCotis): DadsuPrevoyanceLignesContrat {
         $this->typeCotis = $typeCotis;
         return $this;
     }
@@ -411,10 +412,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the type population.
      *
-     * @param string $typePopulation The type population.
+     * @param string|null $typePopulation The type population.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setTypePopulation($typePopulation) {
+    public function setTypePopulation(?string $typePopulation): DadsuPrevoyanceLignesContrat {
         $this->typePopulation = $typePopulation;
         return $this;
     }
@@ -422,10 +423,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the unite date ancien branche.
      *
-     * @param string $uniteDateAncienBranche The unite date ancien branche.
+     * @param string|null $uniteDateAncienBranche The unite date ancien branche.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setUniteDateAncienBranche($uniteDateAncienBranche) {
+    public function setUniteDateAncienBranche(?string $uniteDateAncienBranche): DadsuPrevoyanceLignesContrat {
         $this->uniteDateAncienBranche = $uniteDateAncienBranche;
         return $this;
     }
@@ -433,10 +434,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the unite date ancien college.
      *
-     * @param string $uniteDateAncienCollege The unite date ancien college.
+     * @param string|null $uniteDateAncienCollege The unite date ancien college.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setUniteDateAncienCollege($uniteDateAncienCollege) {
+    public function setUniteDateAncienCollege(?string $uniteDateAncienCollege): DadsuPrevoyanceLignesContrat {
         $this->uniteDateAncienCollege = $uniteDateAncienCollege;
         return $this;
     }
@@ -444,10 +445,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the unite date ancien poste.
      *
-     * @param string $uniteDateAncienPoste The unite date ancien poste.
+     * @param string|null $uniteDateAncienPoste The unite date ancien poste.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setUniteDateAncienPoste($uniteDateAncienPoste) {
+    public function setUniteDateAncienPoste(?string $uniteDateAncienPoste): DadsuPrevoyanceLignesContrat {
         $this->uniteDateAncienPoste = $uniteDateAncienPoste;
         return $this;
     }
@@ -455,10 +456,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the unite prem date entree.
      *
-     * @param string $unitePremDateEntree The unite prem date entree.
+     * @param string|null $unitePremDateEntree The unite prem date entree.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setUnitePremDateEntree($unitePremDateEntree) {
+    public function setUnitePremDateEntree(?string $unitePremDateEntree): DadsuPrevoyanceLignesContrat {
         $this->unitePremDateEntree = $unitePremDateEntree;
         return $this;
     }
@@ -466,10 +467,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the valeur cotis.
      *
-     * @param float $valeurCotis The valeur cotis.
+     * @param float|null $valeurCotis The valeur cotis.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setValeurCotis($valeurCotis) {
+    public function setValeurCotis(?float $valeurCotis): DadsuPrevoyanceLignesContrat {
         $this->valeurCotis = $valeurCotis;
         return $this;
     }
@@ -477,10 +478,10 @@ class DadsuPrevoyanceLignesContrat {
     /**
      * Set the valeur cotis initiale.
      *
-     * @param float $valeurCotisInitiale The valeur cotis initiale.
+     * @param float|null $valeurCotisInitiale The valeur cotis initiale.
      * @return DadsuPrevoyanceLignesContrat Returns this Dadsu prevoyance lignes contrat.
      */
-    public function setValeurCotisInitiale($valeurCotisInitiale) {
+    public function setValeurCotisInitiale(?float $valeurCotisInitiale): DadsuPrevoyanceLignesContrat {
         $this->valeurCotisInitiale = $valeurCotisInitiale;
         return $this;
     }

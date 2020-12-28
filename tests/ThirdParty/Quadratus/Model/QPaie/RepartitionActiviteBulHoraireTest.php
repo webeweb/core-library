@@ -29,7 +29,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeService() {
+    public function testSetCodeService(): void {
 
         $obj = new RepartitionActiviteBulHoraire();
 
@@ -42,7 +42,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new RepartitionActiviteBulHoraire();
 
@@ -55,7 +55,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterimaire() {
+    public function testSetInterimaire(): void {
 
         $obj = new RepartitionActiviteBulHoraire();
 
@@ -68,7 +68,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures() {
+    public function testSetNbHeures(): void {
 
         $obj = new RepartitionActiviteBulHoraire();
 
@@ -81,7 +81,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new RepartitionActiviteBulHoraire();
 
@@ -95,7 +95,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class RepartitionActiviteBulHoraireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new RepartitionActiviteBulHoraire();
 

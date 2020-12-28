@@ -24,70 +24,70 @@ class PlansEnTete {
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Civilite.
      *
-     * @var string
+     * @var string|null
      */
     private $civilite;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $codePays;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
@@ -143,209 +143,210 @@ class PlansEnTete {
     /**
      * Jour fact.
      *
-     * @var string
+     * @var string|null
      */
     private $jourFact;
 
     /**
      * Montant htpx.
      *
-     * @var float
+     * @var float|null
      */
     private $montantHtpx;
 
     /**
      * Montant htvm.
      *
-     * @var float
+     * @var float|null
      */
     private $montantHtvm;
 
     /**
      * Nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $nomClient;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom suite2.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite2;
 
     /**
      * Nom suite3.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite3;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Numero commande web ft.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCommandeWebFt;
 
     /**
      * Numero devis.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroDevis;
 
     /**
      * Reference facture.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceFacture;
 
     /**
      * Reference facture2.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceFacture2;
 
     /**
      * Revision annuelle.
      *
-     * @var bool
+     * @var bool|null
      */
     private $revisionAnnuelle;
 
     /**
      * Type adresse.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAdresse;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the civilite.
      *
-     * @return string Returns the civilite.
+     * @return string|null Returns the civilite.
      */
-    public function getCivilite() {
+    public function getCivilite(): ?string{
         return $this->civilite;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code pays.
      *
-     * @return string Returns the code pays.
+     * @return string|null Returns the code pays.
      */
-    public function getCodePays() {
+    public function getCodePays(): ?string{
         return $this->codePays;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string{
         return $this->codeRegroupement;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
@@ -354,7 +355,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision() {
+    public function getDateRevision(): ?DateTime{
         return $this->dateRevision;
     }
 
@@ -363,7 +364,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt avant dern prepa.
      */
-    public function getDtAvantDernPrepa() {
+    public function getDtAvantDernPrepa(): ?DateTime{
         return $this->dtAvantDernPrepa;
     }
 
@@ -372,7 +373,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt dern prepa.
      */
-    public function getDtDernPrepa() {
+    public function getDtDernPrepa(): ?DateTime{
         return $this->dtDernPrepa;
     }
 
@@ -381,7 +382,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact deb.
      */
-    public function getDtValiditeFactDeb() {
+    public function getDtValiditeFactDeb(): ?DateTime{
         return $this->dtValiditeFactDeb;
     }
 
@@ -390,7 +391,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact deb deb mois.
      */
-    public function getDtValiditeFactDebDebMois() {
+    public function getDtValiditeFactDebDebMois(): ?DateTime{
         return $this->dtValiditeFactDebDebMois;
     }
 
@@ -399,7 +400,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact fin.
      */
-    public function getDtValiditeFactFin() {
+    public function getDtValiditeFactFin(): ?DateTime{
         return $this->dtValiditeFactFin;
     }
 
@@ -408,161 +409,161 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact fin fin mois.
      */
-    public function getDtValiditeFactFinFinMois() {
+    public function getDtValiditeFactFinFinMois(): ?DateTime{
         return $this->dtValiditeFactFinFinMois;
     }
 
     /**
      * Get the jour fact.
      *
-     * @return string Returns the jour fact.
+     * @return string|null Returns the jour fact.
      */
-    public function getJourFact() {
+    public function getJourFact(): ?string{
         return $this->jourFact;
     }
 
     /**
      * Get the montant htpx.
      *
-     * @return float Returns the montant htpx.
+     * @return float|null Returns the montant htpx.
      */
-    public function getMontantHtpx() {
+    public function getMontantHtpx(): ?float{
         return $this->montantHtpx;
     }
 
     /**
      * Get the montant htvm.
      *
-     * @return float Returns the montant htvm.
+     * @return float|null Returns the montant htvm.
      */
-    public function getMontantHtvm() {
+    public function getMontantHtvm(): ?float{
         return $this->montantHtvm;
     }
 
     /**
      * Get the nom client.
      *
-     * @return string Returns the nom client.
+     * @return string|null Returns the nom client.
      */
-    public function getNomClient() {
+    public function getNomClient(): ?string{
         return $this->nomClient;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom suite2.
      *
-     * @return string Returns the nom suite2.
+     * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2() {
+    public function getNomSuite2(): ?string{
         return $this->nomSuite2;
     }
 
     /**
      * Get the nom suite3.
      *
-     * @return string Returns the nom suite3.
+     * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3() {
+    public function getNomSuite3(): ?string{
         return $this->nomSuite3;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the numero commande web ft.
      *
-     * @return string Returns the numero commande web ft.
+     * @return string|null Returns the numero commande web ft.
      */
-    public function getNumeroCommandeWebFt() {
+    public function getNumeroCommandeWebFt(): ?string{
         return $this->numeroCommandeWebFt;
     }
 
     /**
      * Get the numero devis.
      *
-     * @return string Returns the numero devis.
+     * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis() {
+    public function getNumeroDevis(): ?string{
         return $this->numeroDevis;
     }
 
     /**
      * Get the reference facture.
      *
-     * @return string Returns the reference facture.
+     * @return string|null Returns the reference facture.
      */
-    public function getReferenceFacture() {
+    public function getReferenceFacture(): ?string{
         return $this->referenceFacture;
     }
 
     /**
      * Get the reference facture2.
      *
-     * @return string Returns the reference facture2.
+     * @return string|null Returns the reference facture2.
      */
-    public function getReferenceFacture2() {
+    public function getReferenceFacture2(): ?string{
         return $this->referenceFacture2;
     }
 
     /**
      * Get the revision annuelle.
      *
-     * @return bool Returns the revision annuelle.
+     * @return bool|null Returns the revision annuelle.
      */
-    public function getRevisionAnnuelle() {
+    public function getRevisionAnnuelle(): ?bool{
         return $this->revisionAnnuelle;
     }
 
     /**
      * Get the type adresse.
      *
-     * @return string Returns the type adresse.
+     * @return string|null Returns the type adresse.
      */
-    public function getTypeAdresse() {
+    public function getTypeAdresse(): ?string{
         return $this->typeAdresse;
     }
 
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): PlansEnTete {
         $this->btq = $btq;
         return $this;
     }
@@ -570,10 +571,10 @@ class PlansEnTete {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): PlansEnTete {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -581,10 +582,10 @@ class PlansEnTete {
     /**
      * Set the civilite.
      *
-     * @param string $civilite The civilite.
+     * @param string|null $civilite The civilite.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCivilite($civilite) {
+    public function setCivilite(?string $civilite): PlansEnTete {
         $this->civilite = $civilite;
         return $this;
     }
@@ -592,10 +593,10 @@ class PlansEnTete {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): PlansEnTete {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -603,10 +604,10 @@ class PlansEnTete {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): PlansEnTete {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -614,10 +615,10 @@ class PlansEnTete {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): PlansEnTete {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -625,10 +626,10 @@ class PlansEnTete {
     /**
      * Set the code pays.
      *
-     * @param string $codePays The code pays.
+     * @param string|null $codePays The code pays.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCodePays($codePays) {
+    public function setCodePays(?string $codePays): PlansEnTete {
         $this->codePays = $codePays;
         return $this;
     }
@@ -636,10 +637,10 @@ class PlansEnTete {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): PlansEnTete {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -647,10 +648,10 @@ class PlansEnTete {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): PlansEnTete {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -658,10 +659,10 @@ class PlansEnTete {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): PlansEnTete {
         $this->complement = $complement;
         return $this;
     }
@@ -672,7 +673,7 @@ class PlansEnTete {
      * @param DateTime|null $dateRevision The date revision.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDateRevision(DateTime $dateRevision = null) {
+    public function setDateRevision(?DateTime $dateRevision): PlansEnTete {
         $this->dateRevision = $dateRevision;
         return $this;
     }
@@ -683,7 +684,7 @@ class PlansEnTete {
      * @param DateTime|null $dtAvantDernPrepa The dt avant dern prepa.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDtAvantDernPrepa(DateTime $dtAvantDernPrepa = null) {
+    public function setDtAvantDernPrepa(?DateTime $dtAvantDernPrepa): PlansEnTete {
         $this->dtAvantDernPrepa = $dtAvantDernPrepa;
         return $this;
     }
@@ -694,7 +695,7 @@ class PlansEnTete {
      * @param DateTime|null $dtDernPrepa The dt dern prepa.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDtDernPrepa(DateTime $dtDernPrepa = null) {
+    public function setDtDernPrepa(?DateTime $dtDernPrepa): PlansEnTete {
         $this->dtDernPrepa = $dtDernPrepa;
         return $this;
     }
@@ -705,7 +706,7 @@ class PlansEnTete {
      * @param DateTime|null $dtValiditeFactDeb The dt validite fact deb.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDtValiditeFactDeb(DateTime $dtValiditeFactDeb = null) {
+    public function setDtValiditeFactDeb(?DateTime $dtValiditeFactDeb): PlansEnTete {
         $this->dtValiditeFactDeb = $dtValiditeFactDeb;
         return $this;
     }
@@ -716,7 +717,7 @@ class PlansEnTete {
      * @param DateTime|null $dtValiditeFactDebDebMois The dt validite fact deb deb mois.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDtValiditeFactDebDebMois(DateTime $dtValiditeFactDebDebMois = null) {
+    public function setDtValiditeFactDebDebMois(?DateTime $dtValiditeFactDebDebMois): PlansEnTete {
         $this->dtValiditeFactDebDebMois = $dtValiditeFactDebDebMois;
         return $this;
     }
@@ -727,7 +728,7 @@ class PlansEnTete {
      * @param DateTime|null $dtValiditeFactFin The dt validite fact fin.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDtValiditeFactFin(DateTime $dtValiditeFactFin = null) {
+    public function setDtValiditeFactFin(?DateTime $dtValiditeFactFin): PlansEnTete {
         $this->dtValiditeFactFin = $dtValiditeFactFin;
         return $this;
     }
@@ -738,7 +739,7 @@ class PlansEnTete {
      * @param DateTime|null $dtValiditeFactFinFinMois The dt validite fact fin fin mois.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setDtValiditeFactFinFinMois(DateTime $dtValiditeFactFinFinMois = null) {
+    public function setDtValiditeFactFinFinMois(?DateTime $dtValiditeFactFinFinMois): PlansEnTete {
         $this->dtValiditeFactFinFinMois = $dtValiditeFactFinFinMois;
         return $this;
     }
@@ -746,10 +747,10 @@ class PlansEnTete {
     /**
      * Set the jour fact.
      *
-     * @param string $jourFact The jour fact.
+     * @param string|null $jourFact The jour fact.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setJourFact($jourFact) {
+    public function setJourFact(?string $jourFact): PlansEnTete {
         $this->jourFact = $jourFact;
         return $this;
     }
@@ -757,10 +758,10 @@ class PlansEnTete {
     /**
      * Set the montant htpx.
      *
-     * @param float $montantHtpx The montant htpx.
+     * @param float|null $montantHtpx The montant htpx.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setMontantHtpx($montantHtpx) {
+    public function setMontantHtpx(?float $montantHtpx): PlansEnTete {
         $this->montantHtpx = $montantHtpx;
         return $this;
     }
@@ -768,10 +769,10 @@ class PlansEnTete {
     /**
      * Set the montant htvm.
      *
-     * @param float $montantHtvm The montant htvm.
+     * @param float|null $montantHtvm The montant htvm.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setMontantHtvm($montantHtvm) {
+    public function setMontantHtvm(?float $montantHtvm): PlansEnTete {
         $this->montantHtvm = $montantHtvm;
         return $this;
     }
@@ -779,10 +780,10 @@ class PlansEnTete {
     /**
      * Set the nom client.
      *
-     * @param string $nomClient The nom client.
+     * @param string|null $nomClient The nom client.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNomClient($nomClient) {
+    public function setNomClient(?string $nomClient): PlansEnTete {
         $this->nomClient = $nomClient;
         return $this;
     }
@@ -790,10 +791,10 @@ class PlansEnTete {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): PlansEnTete {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -801,10 +802,10 @@ class PlansEnTete {
     /**
      * Set the nom suite2.
      *
-     * @param string $nomSuite2 The nom suite2.
+     * @param string|null $nomSuite2 The nom suite2.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNomSuite2($nomSuite2) {
+    public function setNomSuite2(?string $nomSuite2): PlansEnTete {
         $this->nomSuite2 = $nomSuite2;
         return $this;
     }
@@ -812,10 +813,10 @@ class PlansEnTete {
     /**
      * Set the nom suite3.
      *
-     * @param string $nomSuite3 The nom suite3.
+     * @param string|null $nomSuite3 The nom suite3.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNomSuite3($nomSuite3) {
+    public function setNomSuite3(?string $nomSuite3): PlansEnTete {
         $this->nomSuite3 = $nomSuite3;
         return $this;
     }
@@ -823,10 +824,10 @@ class PlansEnTete {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): PlansEnTete {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -834,10 +835,10 @@ class PlansEnTete {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): PlansEnTete {
         $this->numBt = $numBt;
         return $this;
     }
@@ -845,10 +846,10 @@ class PlansEnTete {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): PlansEnTete {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -856,10 +857,10 @@ class PlansEnTete {
     /**
      * Set the numero commande web ft.
      *
-     * @param string $numeroCommandeWebFt The numero commande web ft.
+     * @param string|null $numeroCommandeWebFt The numero commande web ft.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNumeroCommandeWebFt($numeroCommandeWebFt) {
+    public function setNumeroCommandeWebFt(?string $numeroCommandeWebFt): PlansEnTete {
         $this->numeroCommandeWebFt = $numeroCommandeWebFt;
         return $this;
     }
@@ -867,10 +868,10 @@ class PlansEnTete {
     /**
      * Set the numero devis.
      *
-     * @param string $numeroDevis The numero devis.
+     * @param string|null $numeroDevis The numero devis.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setNumeroDevis($numeroDevis) {
+    public function setNumeroDevis(?string $numeroDevis): PlansEnTete {
         $this->numeroDevis = $numeroDevis;
         return $this;
     }
@@ -878,10 +879,10 @@ class PlansEnTete {
     /**
      * Set the reference facture.
      *
-     * @param string $referenceFacture The reference facture.
+     * @param string|null $referenceFacture The reference facture.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setReferenceFacture($referenceFacture) {
+    public function setReferenceFacture(?string $referenceFacture): PlansEnTete {
         $this->referenceFacture = $referenceFacture;
         return $this;
     }
@@ -889,10 +890,10 @@ class PlansEnTete {
     /**
      * Set the reference facture2.
      *
-     * @param string $referenceFacture2 The reference facture2.
+     * @param string|null $referenceFacture2 The reference facture2.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setReferenceFacture2($referenceFacture2) {
+    public function setReferenceFacture2(?string $referenceFacture2): PlansEnTete {
         $this->referenceFacture2 = $referenceFacture2;
         return $this;
     }
@@ -900,10 +901,10 @@ class PlansEnTete {
     /**
      * Set the revision annuelle.
      *
-     * @param bool $revisionAnnuelle The revision annuelle.
+     * @param bool|null $revisionAnnuelle The revision annuelle.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setRevisionAnnuelle($revisionAnnuelle) {
+    public function setRevisionAnnuelle(?bool $revisionAnnuelle): PlansEnTete {
         $this->revisionAnnuelle = $revisionAnnuelle;
         return $this;
     }
@@ -911,10 +912,10 @@ class PlansEnTete {
     /**
      * Set the type adresse.
      *
-     * @param string $typeAdresse The type adresse.
+     * @param string|null $typeAdresse The type adresse.
      * @return PlansEnTete Returns this Plans en tete.
      */
-    public function setTypeAdresse($typeAdresse) {
+    public function setTypeAdresse(?string $typeAdresse): PlansEnTete {
         $this->typeAdresse = $typeAdresse;
         return $this;
     }

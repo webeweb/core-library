@@ -24,21 +24,21 @@ class PlanObligationClient {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collab specif.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollabSpecif;
 
     /**
      * Code obligation.
      *
-     * @var string
+     * @var string|null
      */
     private $codeObligation;
 
@@ -59,55 +59,56 @@ class PlanObligationClient {
     /**
      * Frequence.
      *
-     * @var string
+     * @var string|null
      */
     private $frequence;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Qui le fait.
      *
-     * @var int
+     * @var int|null
      */
     private $quiLeFait;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collab specif.
      *
-     * @return string Returns the code collab specif.
+     * @return string|null Returns the code collab specif.
      */
-    public function getCodeCollabSpecif() {
+    public function getCodeCollabSpecif(): ?string{
         return $this->codeCollabSpecif;
     }
 
     /**
      * Get the code obligation.
      *
-     * @return string Returns the code obligation.
+     * @return string|null Returns the code obligation.
      */
-    public function getCodeObligation() {
+    public function getCodeObligation(): ?string{
         return $this->codeObligation;
     }
 
@@ -116,7 +117,7 @@ class PlanObligationClient {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
@@ -125,44 +126,44 @@ class PlanObligationClient {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime{
         return $this->dateFin;
     }
 
     /**
      * Get the frequence.
      *
-     * @return string Returns the frequence.
+     * @return string|null Returns the frequence.
      */
-    public function getFrequence() {
+    public function getFrequence(): ?string{
         return $this->frequence;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the qui le fait.
      *
-     * @return int Returns the qui le fait.
+     * @return int|null Returns the qui le fait.
      */
-    public function getQuiLeFait() {
+    public function getQuiLeFait(): ?int{
         return $this->quiLeFait;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): PlanObligationClient {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -170,10 +171,10 @@ class PlanObligationClient {
     /**
      * Set the code collab specif.
      *
-     * @param string $codeCollabSpecif The code collab specif.
+     * @param string|null $codeCollabSpecif The code collab specif.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setCodeCollabSpecif($codeCollabSpecif) {
+    public function setCodeCollabSpecif(?string $codeCollabSpecif): PlanObligationClient {
         $this->codeCollabSpecif = $codeCollabSpecif;
         return $this;
     }
@@ -181,10 +182,10 @@ class PlanObligationClient {
     /**
      * Set the code obligation.
      *
-     * @param string $codeObligation The code obligation.
+     * @param string|null $codeObligation The code obligation.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setCodeObligation($codeObligation) {
+    public function setCodeObligation(?string $codeObligation): PlanObligationClient {
         $this->codeObligation = $codeObligation;
         return $this;
     }
@@ -195,7 +196,7 @@ class PlanObligationClient {
      * @param DateTime|null $dateDebut The date debut.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): PlanObligationClient {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -206,7 +207,7 @@ class PlanObligationClient {
      * @param DateTime|null $dateFin The date fin.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): PlanObligationClient {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -214,10 +215,10 @@ class PlanObligationClient {
     /**
      * Set the frequence.
      *
-     * @param string $frequence The frequence.
+     * @param string|null $frequence The frequence.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setFrequence($frequence) {
+    public function setFrequence(?string $frequence): PlanObligationClient {
         $this->frequence = $frequence;
         return $this;
     }
@@ -225,10 +226,10 @@ class PlanObligationClient {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): PlanObligationClient {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -236,10 +237,10 @@ class PlanObligationClient {
     /**
      * Set the qui le fait.
      *
-     * @param int $quiLeFait The qui le fait.
+     * @param int|null $quiLeFait The qui le fait.
      * @return PlanObligationClient Returns this Plan obligation client.
      */
-    public function setQuiLeFait($quiLeFait) {
+    public function setQuiLeFait(?int $quiLeFait): PlanObligationClient {
         $this->quiLeFait = $quiLeFait;
         return $this;
     }

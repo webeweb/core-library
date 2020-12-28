@@ -27,7 +27,7 @@ class PrestationsRisquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new PrestationsRisques();
 
@@ -40,7 +40,7 @@ class PrestationsRisquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new PrestationsRisques();
 
@@ -53,7 +53,7 @@ class PrestationsRisquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxExposition() {
+    public function testSetTauxExposition(): void {
 
         $obj = new PrestationsRisques();
 
@@ -66,7 +66,7 @@ class PrestationsRisquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PrestationsRisques();
 

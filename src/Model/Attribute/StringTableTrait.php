@@ -22,25 +22,25 @@ trait StringTableTrait {
     /**
      * Table.
      *
-     * @var string
+     * @var string|null
      */
     protected $table;
 
     /**
      * Get the table.
      *
-     * @return string Returns the table.
+     * @return string|null Returns the table.
      */
-    public function getTable() {
+    public function getTable(): ?string {
         return $this->table;
     }
 
     /**
      * Set the table.
      *
-     * @param string $table The table.
+     * @param string|null $table The table.
      */
-    public function setTable($table) {
+    public function setTable(?string $table) {
         $this->table = $table;
         return $this;
     }

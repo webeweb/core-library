@@ -24,41 +24,41 @@ trait CardTrait {
     /**
      * Blocked.
      *
-     * @var bool
+     * @var bool|null
      */
     private $blocked;
 
     /**
      * Blocked as of date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $blockedDate;
 
     /**
      * Get the blocked.
      *
-     * @return bool Returns the blocked.
+     * @return bool|null Returns the blocked.
      */
-    public function getBlocked() {
+    public function getBlocked(): ?bool {
         return $this->blocked;
     }
 
     /**
      * Get the blocked as of date.
      *
-     * @return DateTime Returns the blocked as of date.
+     * @return DateTime|null Returns the blocked as of date.
      */
-    public function getBlockedDate() {
+    public function getBlockedDate(): ?DateTime {
         return $this->blockedDate;
     }
 
     /**
      * Set the blocked.
      *
-     * @param bool $blocked The blocked.
+     * @param bool|null $blocked The blocked.
      */
-    public function setBlocked($blocked) {
+    public function setBlocked(?bool $blocked) {
         $this->blocked = $blocked;
         return $this;
     }
@@ -68,7 +68,7 @@ trait CardTrait {
      *
      * @param DateTime|null $blockedDate The blocked as of date.
      */
-    public function setBlockedDate(DateTime $blockedDate = null) {
+    public function setBlockedDate(?DateTime $blockedDate) {
         $this->blockedDate = $blockedDate;
         return $this;
     }

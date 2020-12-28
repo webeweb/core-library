@@ -22,7 +22,7 @@ class eWsEspace {
     /**
      * Num doss.
      *
-     * @var string
+     * @var string|null
      */
     private $numDoss;
 
@@ -30,25 +30,25 @@ class eWsEspace {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the num doss.
      *
-     * @return string Returns the num doss.
+     * @return string|null Returns the num doss.
      */
-    public function getNumDoss() {
+    public function getNumDoss(): ?string {
         return $this->numDoss;
     }
 
     /**
      * Set the num doss.
      *
-     * @param string $numDoss The num doss.
+     * @param string|null $numDoss The num doss.
      * @return eWsEspace Returns this e ws espace.
      */
-    public function setNumDoss($numDoss) {
+    public function setNumDoss(?string $numDoss): eWsEspace {
         $this->numDoss = $numDoss;
         return $this;
     }

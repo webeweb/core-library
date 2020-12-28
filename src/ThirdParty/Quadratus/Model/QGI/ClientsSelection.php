@@ -22,97 +22,98 @@ class ClientsSelection {
     /**
      * Champ.
      *
-     * @var string
+     * @var string|null
      */
     private $champ;
 
     /**
      * Code col.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCol;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
     /**
      * Valeur.
      *
-     * @var string
+     * @var string|null
      */
     private $valeur;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the champ.
      *
-     * @return string Returns the champ.
+     * @return string|null Returns the champ.
      */
-    public function getChamp() {
+    public function getChamp(): ?string{
         return $this->champ;
     }
 
     /**
      * Get the code col.
      *
-     * @return string Returns the code col.
+     * @return string|null Returns the code col.
      */
-    public function getCodeCol() {
+    public function getCodeCol(): ?string{
         return $this->codeCol;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Get the valeur.
      *
-     * @return string Returns the valeur.
+     * @return string|null Returns the valeur.
      */
-    public function getValeur() {
+    public function getValeur(): ?string{
         return $this->valeur;
     }
 
     /**
      * Set the champ.
      *
-     * @param string $champ The champ.
+     * @param string|null $champ The champ.
      * @return ClientsSelection Returns this Clients selection.
      */
-    public function setChamp($champ) {
+    public function setChamp(?string $champ): ClientsSelection {
         $this->champ = $champ;
         return $this;
     }
@@ -120,10 +121,10 @@ class ClientsSelection {
     /**
      * Set the code col.
      *
-     * @param string $codeCol The code col.
+     * @param string|null $codeCol The code col.
      * @return ClientsSelection Returns this Clients selection.
      */
-    public function setCodeCol($codeCol) {
+    public function setCodeCol(?string $codeCol): ClientsSelection {
         $this->codeCol = $codeCol;
         return $this;
     }
@@ -131,10 +132,10 @@ class ClientsSelection {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ClientsSelection Returns this Clients selection.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ClientsSelection {
         $this->libelle = $libelle;
         return $this;
     }
@@ -142,10 +143,10 @@ class ClientsSelection {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return ClientsSelection Returns this Clients selection.
      */
-    public function setType($type) {
+    public function setType(?string $type): ClientsSelection {
         $this->type = $type;
         return $this;
     }
@@ -153,10 +154,10 @@ class ClientsSelection {
     /**
      * Set the valeur.
      *
-     * @param string $valeur The valeur.
+     * @param string|null $valeur The valeur.
      * @return ClientsSelection Returns this Clients selection.
      */
-    public function setValeur($valeur) {
+    public function setValeur(?string $valeur): ClientsSelection {
         $this->valeur = $valeur;
         return $this;
     }

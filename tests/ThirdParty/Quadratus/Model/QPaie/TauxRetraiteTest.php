@@ -27,7 +27,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategCadre() {
+    public function testSetCategCadre(): void {
 
         $obj = new TauxRetraite();
 
@@ -40,7 +40,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new TauxRetraite();
 
@@ -53,7 +53,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new TauxRetraite();
 
@@ -66,7 +66,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new TauxRetraite();
 
@@ -79,7 +79,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceContrat() {
+    public function testSetIndiceContrat(): void {
 
         $obj = new TauxRetraite();
 
@@ -92,7 +92,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleBul() {
+    public function testSetLibelleBul(): void {
 
         $obj = new TauxRetraite();
 
@@ -105,7 +105,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDossier() {
+    public function testSetNumDossier(): void {
 
         $obj = new TauxRetraite();
 
@@ -118,7 +118,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousDossier() {
+    public function testSetSousDossier(): void {
 
         $obj = new TauxRetraite();
 
@@ -131,7 +131,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatTrA() {
+    public function testSetTauxPatTrA(): void {
 
         $obj = new TauxRetraite();
 
@@ -144,7 +144,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatTrB() {
+    public function testSetTauxPatTrB(): void {
 
         $obj = new TauxRetraite();
 
@@ -157,7 +157,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatTrC() {
+    public function testSetTauxPatTrC(): void {
 
         $obj = new TauxRetraite();
 
@@ -170,7 +170,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalTrA() {
+    public function testSetTauxSalTrA(): void {
 
         $obj = new TauxRetraite();
 
@@ -183,7 +183,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalTrB() {
+    public function testSetTauxSalTrB(): void {
 
         $obj = new TauxRetraite();
 
@@ -196,7 +196,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalTrC() {
+    public function testSetTauxSalTrC(): void {
 
         $obj = new TauxRetraite();
 
@@ -209,7 +209,7 @@ class TauxRetraiteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TauxRetraite();
 

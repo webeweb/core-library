@@ -30,7 +30,7 @@ class TauxAtTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAPartirDe() {
+    public function testSetAPartirDe(): void {
 
         // Set a Date/time mock.
         $aPartirDe = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureau() {
+    public function testSetBureau(): void {
 
         $obj = new TauxAt();
 
@@ -59,7 +59,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAt() {
+    public function testSetCodeAt(): void {
 
         $obj = new TauxAt();
 
@@ -72,7 +72,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new TauxAt();
 
@@ -85,7 +85,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRisque() {
+    public function testSetRisque(): void {
 
         $obj = new TauxAt();
 
@@ -98,7 +98,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSection() {
+    public function testSetSection(): void {
 
         $obj = new TauxAt();
 
@@ -111,7 +111,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaux() {
+    public function testSetTaux(): void {
 
         $obj = new TauxAt();
 
@@ -124,7 +124,7 @@ class TauxAtTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TauxAt();
 

@@ -22,25 +22,25 @@ trait IntegerSizeTrait {
     /**
      * Size.
      *
-     * @var int
+     * @var int|null
      */
     protected $size;
 
     /**
      * Get the size.
      *
-     * @return int Returns the size.
+     * @return int|null Returns the size.
      */
-    public function getSize() {
+    public function getSize(): ?int {
         return $this->size;
     }
 
     /**
      * Set the size.
      *
-     * @param int $size The size.
+     * @param int|null $size The size.
      */
-    public function setSize($size) {
+    public function setSize(?int $size) {
         $this->size = $size;
         return $this;
     }

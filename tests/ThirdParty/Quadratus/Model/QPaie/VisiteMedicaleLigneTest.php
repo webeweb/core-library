@@ -29,7 +29,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMedecineTravail() {
+    public function testSetCodeMedecineTravail(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -42,7 +42,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSession() {
+    public function testSetCodeSession(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -55,7 +55,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -69,7 +69,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateVisite() {
+    public function testSetDateVisite(): void {
 
         // Set a Date/time mock.
         $dateVisite = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeVisite() {
+    public function testSetDureeVisite(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -98,7 +98,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatVisite() {
+    public function testSetEtatVisite(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -112,7 +112,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureVisite() {
+    public function testSetHeureVisite(): void {
 
         // Set a Date/time mock.
         $heureVisite = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -141,7 +141,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -154,7 +154,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTel1() {
+    public function testSetTel1(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -167,7 +167,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -180,7 +180,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVisite() {
+    public function testSetTypeVisite(): void {
 
         $obj = new VisiteMedicaleLigne();
 
@@ -193,7 +193,7 @@ class VisiteMedicaleLigneTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new VisiteMedicaleLigne();
 

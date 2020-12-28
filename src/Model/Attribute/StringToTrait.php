@@ -22,25 +22,25 @@ trait StringToTrait {
     /**
      * To.
      *
-     * @var string
+     * @var string|null
      */
     protected $to;
 
     /**
      * Get the to.
      *
-     * @return string Returns the to.
+     * @return string|null Returns the to.
      */
-    public function getTo() {
+    public function getTo(): ?string {
         return $this->to;
     }
 
     /**
      * Set the to.
      *
-     * @param string $to The to.
+     * @param string|null $to The to.
      */
-    public function setTo($to) {
+    public function setTo(?string $to) {
         $this->to = $to;
         return $this;
     }

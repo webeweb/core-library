@@ -29,7 +29,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new LignesIjss();
 
@@ -42,7 +42,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant2() {
+    public function testSetMontant2(): void {
 
         $obj = new LignesIjss();
 
@@ -55,7 +55,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantEuroOuFranc() {
+    public function testSetMontantEuroOuFranc(): void {
 
         $obj = new LignesIjss();
 
@@ -68,7 +68,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotif() {
+    public function testSetMotif(): void {
 
         $obj = new LignesIjss();
 
@@ -81,7 +81,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtBrutPerteSalaire() {
+    public function testSetMtBrutPerteSalaire(): void {
 
         $obj = new LignesIjss();
 
@@ -94,7 +94,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbC() {
+    public function testSetNbC(): void {
 
         $obj = new LignesIjss();
 
@@ -107,7 +107,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbE() {
+    public function testSetNbE(): void {
 
         $obj = new LignesIjss();
 
@@ -120,7 +120,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesIjss();
 
@@ -133,7 +133,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new LignesIjss();
 
@@ -147,7 +147,7 @@ class LignesIjssTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -164,7 +164,7 @@ class LignesIjssTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -180,7 +180,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalRetEuroOuFranc() {
+    public function testSetSalRetEuroOuFranc(): void {
 
         $obj = new LignesIjss();
 
@@ -193,7 +193,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireRet() {
+    public function testSetSalaireRet(): void {
 
         $obj = new LignesIjss();
 
@@ -206,7 +206,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSommeRegul1() {
+    public function testSetSommeRegul1(): void {
 
         $obj = new LignesIjss();
 
@@ -219,7 +219,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSommeRegul2() {
+    public function testSetSommeRegul2(): void {
 
         $obj = new LignesIjss();
 
@@ -232,7 +232,7 @@ class LignesIjssTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesIjss();
 

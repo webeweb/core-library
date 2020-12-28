@@ -35,7 +35,7 @@ class DateTimeHelper {
      *   1: if the date/time A is greater than date/time B
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function compare(DateTime $a, DateTime $b) {
+    public static function compare(DateTime $a, DateTime $b): int {
         if (true === static::isLessThan($a, $b)) {
             return -1;
         }
@@ -53,7 +53,7 @@ class DateTimeHelper {
      * @return void
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    protected static function compareZone(DateTime $a, DateTime $b) {
+    protected static function compareZone(DateTime $a, DateTime $b): void {
         if (false === DateTimeZoneHelper::equals($a->getTimezone(), $b->getTimezone())) {
             throw new InvalidArgumentException("The two date/times does not have the same time zone");
         }
@@ -67,7 +67,7 @@ class DateTimeHelper {
      * @return bool Returns true in case o success, false otherwise.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function equals(DateTime $a, DateTime $b) {
+    public static function equals(DateTime $a, DateTime $b): bool {
         return 0 === static::compare($a, $b);
     }
 
@@ -77,7 +77,7 @@ class DateTimeHelper {
      * @param DateTime $dateTime The date/time.
      * @return int Returns the day number between 1 and 7 with monday equals to 1.
      */
-    public static function getDayNumber(DateTime $dateTime) {
+    public static function getDayNumber(DateTime $dateTime): int {
         return intval($dateTime->format("N"));
     }
 
@@ -89,7 +89,7 @@ class DateTimeHelper {
      * @return int Returns the duration.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function getDuration(DateTime $a, DateTime $b) {
+    public static function getDuration(DateTime $a, DateTime $b): int {
         static::compareZone($a, $b);
         return $b->getTimestamp() - $a->getTimestamp();
     }
@@ -102,7 +102,7 @@ class DateTimeHelper {
      * @return DateTime Returns the greater date/time.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function getGreater(DateTime $a, DateTime $b) {
+    public static function getGreater(DateTime $a, DateTime $b): DateTime {
         return 0 <= static::compare($a, $b) ? $a : $b;
     }
 
@@ -112,7 +112,7 @@ class DateTimeHelper {
      * @param DateTime $dateTime The date/time.
      * @return int Returns the month number.
      */
-    public static function getMonthNumber(DateTime $dateTime) {
+    public static function getMonthNumber(DateTime $dateTime): int {
         return intval($dateTime->format("m"));
     }
 
@@ -124,7 +124,7 @@ class DateTimeHelper {
      * @return DateTime Returns the smaller date/time.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function getSmaller(DateTime $a, DateTime $b) {
+    public static function getSmaller(DateTime $a, DateTime $b): DateTime {
         return 0 <= static::compare($a, $b) ? $b : $a;
     }
 
@@ -134,7 +134,7 @@ class DateTimeHelper {
      * @param DateTime $dateTime The date/time.
      * @return int Returns the week number.
      */
-    public static function getWeekNumber(DateTime $dateTime) {
+    public static function getWeekNumber(DateTime $dateTime): int {
         return intval($dateTime->format("W"));
     }
 
@@ -159,7 +159,7 @@ class DateTimeHelper {
      * @param int $weekOffset The week offset.
      * @return int Returns the week number to apply between 1 and $weekCount.
      */
-    public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, $weekCount, $weekOffset = 1) {
+    public static function getWeekNumberToApply(DateTime $date, DateTime $startDate, int $weekCount, int $weekOffset = 1): int {
 
         if ($weekCount <= 0 || $weekOffset <= 0 || $weekCount < $weekOffset) {
             return -1;
@@ -181,7 +181,7 @@ class DateTimeHelper {
      * @param DateTime $dateTime The date/time.
      * @return int Returns the year number.
      */
-    public static function getYearNumber(DateTime $dateTime) {
+    public static function getYearNumber(DateTime $dateTime): int {
         return intval($dateTime->format("Y"));
     }
 
@@ -194,7 +194,7 @@ class DateTimeHelper {
      * @return bool Returns true in case of success, false otherwise.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b) {
+    public static function isBetween(DateTime $dateTime, DateTime $a, DateTime $b): bool {
         static::compareZone($a, $b);
         $c1 = $a->getTimestamp() <= $dateTime->getTimestamp();
         $c2 = $dateTime->getTimestamp() <= $b->getTimestamp();
@@ -208,7 +208,7 @@ class DateTimeHelper {
      * @return void
      * @throws DateArgumentException Throws a Date argument exception if the value is not of expected type.
      */
-    public static function isDate($value) {
+    public static function isDate($value): void {
         if (false === strtotime($value)) {
             throw new DateArgumentException($value);
         }
@@ -222,7 +222,7 @@ class DateTimeHelper {
      * @return bool Returns true in case of success, false otherwise.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function isGreaterThan(DateTime $a, DateTime $b) {
+    public static function isGreaterThan(DateTime $a, DateTime $b): bool {
         static::compareZone($a, $b);
         return $a->getTimestamp() > $b->getTimestamp();
     }
@@ -235,7 +235,7 @@ class DateTimeHelper {
      * @return bool Returns true in case of success, false otherwise.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
-    public static function isLessThan(DateTime $a, DateTime $b) {
+    public static function isLessThan(DateTime $a, DateTime $b): bool {
         static::compareZone($a, $b);
         return $a->getTimestamp() < $b->getTimestamp();
     }
@@ -247,7 +247,7 @@ class DateTimeHelper {
      * @param string $locale The locale.
      * @return string Returns the weekday part translated.
      */
-    public static function translateWeekday($date, $locale = "en") {
+    public static function translateWeekday(string $date, $locale = "en"): string {
 
         $messages = __DIR__ . "/../../Resources/translations/messages.%locale%.yml";
         $filename = str_replace("%locale%", $locale, $messages);

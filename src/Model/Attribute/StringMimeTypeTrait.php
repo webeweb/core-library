@@ -22,25 +22,25 @@ trait StringMimeTypeTrait {
     /**
      * Mime type.
      *
-     * @var string
+     * @var string|null
      */
     protected $mimeType;
 
     /**
      * Get the mime type.
      *
-     * @return string Returns the mime type.
+     * @return string|null Returns the mime type.
      */
-    public function getMimeType() {
+    public function getMimeType(): ?string {
         return $this->mimeType;
     }
 
     /**
      * Set the mime type.
      *
-     * @param string $mimeType The mime type.
+     * @param string|null $mimeType The mime type.
      */
-    public function setMimeType($mimeType) {
+    public function setMimeType(?string $mimeType) {
         $this->mimeType = $mimeType;
         return $this;
     }

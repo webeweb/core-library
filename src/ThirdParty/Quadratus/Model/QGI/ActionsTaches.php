@@ -22,14 +22,14 @@ class ActionsTaches {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
@@ -37,34 +37,34 @@ class ActionsTaches {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ActionsTaches Returns this Actions taches.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ActionsTaches {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -72,10 +72,10 @@ class ActionsTaches {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return ActionsTaches Returns this Actions taches.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): ActionsTaches {
         $this->codeTache = $codeTache;
         return $this;
     }

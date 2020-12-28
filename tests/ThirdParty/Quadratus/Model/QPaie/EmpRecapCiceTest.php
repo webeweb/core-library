@@ -29,7 +29,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCaisseCp() {
+    public function testSetCaisseCp(): void {
 
         $obj = new EmpRecapCice();
 
@@ -42,7 +42,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new EmpRecapCice();
 
@@ -55,7 +55,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new EmpRecapCice();
 
@@ -68,7 +68,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new EmpRecapCice();
 
@@ -81,7 +81,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFractionEtab() {
+    public function testSetFractionEtab(): void {
 
         $obj = new EmpRecapCice();
 
@@ -94,7 +94,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new EmpRecapCice();
 
@@ -107,7 +107,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomEmploye() {
+    public function testSetNomEmploye(): void {
 
         $obj = new EmpRecapCice();
 
@@ -120,7 +120,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpRecapCice();
 
@@ -134,7 +134,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -150,7 +150,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemunAssietteCice() {
+    public function testSetRemunAssietteCice(): void {
 
         $obj = new EmpRecapCice();
 
@@ -163,7 +163,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemunBrutCice() {
+    public function testSetRemunBrutCice(): void {
 
         $obj = new EmpRecapCice();
 
@@ -176,7 +176,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSmicMcice() {
+    public function testSetSmicMcice(): void {
 
         $obj = new EmpRecapCice();
 
@@ -189,7 +189,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSortieMois() {
+    public function testSetSortieMois(): void {
 
         $obj = new EmpRecapCice();
 
@@ -202,7 +202,7 @@ class EmpRecapCiceTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpRecapCice();
 

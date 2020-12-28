@@ -28,7 +28,7 @@ class FloatHelper {
      * @return void
      * @throws FloatArgumentException Throws a Float argument exception if the value is not of expected type.
      */
-    public static function isFloat($value) {
+    public static function isFloat($value): void {
         if (false === is_float($value)) {
             throw new FloatArgumentException($value);
         }
@@ -37,11 +37,11 @@ class FloatHelper {
     /**
      * Parse a string.
      *
-     * @param string $value The string value.
-     * @return float Returns the float represented by the string value.
+     * @param string|null $value The string value.
+     * @return float|null Returns the float in case of success, null otherwise.
      * @throws FloatArgumentException Throws a float argument exception if the string value does not represent a float.
      */
-    public static function parseString($value) {
+    public static function parseString(?string $value): ?float {
         if (null === $value) {
             return null;
         }

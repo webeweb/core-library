@@ -22,25 +22,25 @@ trait FloatAverageTrait {
     /**
      * Average.
      *
-     * @var float
+     * @var float|null
      */
     protected $average;
 
     /**
      * Get the average.
      *
-     * @return float Returns the average.
+     * @return float|null Returns the average.
      */
-    public function getAverage() {
+    public function getAverage(): ?float {
         return $this->average;
     }
 
     /**
      * Set the average.
      *
-     * @param float $average The average.
+     * @param float|null $average The average.
      */
-    public function setAverage($average) {
+    public function setAverage(?float $average) {
         $this->average = $average;
         return $this;
     }

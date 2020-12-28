@@ -24,77 +24,77 @@ class Banques {
     /**
      * Bic.
      *
-     * @var string
+     * @var string|null
      */
     private $bic;
 
     /**
      * Code banque.
      *
-     * @var string
+     * @var string|null
      */
     private $codeBanque;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Edi tdfc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ediTdfc;
 
     /**
      * Iban.
      *
-     * @var string
+     * @var string|null
      */
     private $iban;
 
     /**
      * Id carte appel env.
      *
-     * @var string
+     * @var string|null
      */
     private $idCarteAppelEnv;
 
     /**
      * Id carte appel env2.
      *
-     * @var string
+     * @var string|null
      */
     private $idCarteAppelEnv2;
 
     /**
      * Id carte appel env3.
      *
-     * @var string
+     * @var string|null
      */
     private $idCarteAppelEnv3;
 
     /**
      * Id carte appel rec.
      *
-     * @var string
+     * @var string|null
      */
     private $idCarteAppelRec;
 
     /**
      * Is banque fact.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isBanqueFact;
 
@@ -108,63 +108,63 @@ class Banques {
     /**
      * Mandat duree etebac.
      *
-     * @var int
+     * @var int|null
      */
     private $mandatDureeEtebac;
 
     /**
      * Mandat piece jointe etebac.
      *
-     * @var string
+     * @var string|null
      */
     private $mandatPieceJointeEtebac;
 
     /**
      * Nb prelevements.
      *
-     * @var int
+     * @var int|null
      */
     private $nbPrelevements;
 
     /**
      * Nom int.
      *
-     * @var string
+     * @var string|null
      */
     private $nomInt;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Rib.
      *
-     * @var string
+     * @var string|null
      */
     private $rib;
 
     /**
      * Sepa.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sepa;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
 
@@ -172,105 +172,105 @@ class Banques {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the bic.
      *
-     * @return string Returns the bic.
+     * @return string|null Returns the bic.
      */
-    public function getBic() {
+    public function getBic(): ?string {
         return $this->bic;
     }
 
     /**
      * Get the code banque.
      *
-     * @return string Returns the code banque.
+     * @return string|null Returns the code banque.
      */
-    public function getCodeBanque() {
+    public function getCodeBanque(): ?string {
         return $this->codeBanque;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
     /**
      * Get the edi tdfc.
      *
-     * @return bool Returns the edi tdfc.
+     * @return bool|null Returns the edi tdfc.
      */
-    public function getEdiTdfc() {
+    public function getEdiTdfc(): ?bool {
         return $this->ediTdfc;
     }
 
     /**
      * Get the iban.
      *
-     * @return string Returns the iban.
+     * @return string|null Returns the iban.
      */
-    public function getIban() {
+    public function getIban(): ?string {
         return $this->iban;
     }
 
     /**
      * Get the id carte appel env.
      *
-     * @return string Returns the id carte appel env.
+     * @return string|null Returns the id carte appel env.
      */
-    public function getIdCarteAppelEnv() {
+    public function getIdCarteAppelEnv(): ?string {
         return $this->idCarteAppelEnv;
     }
 
     /**
      * Get the id carte appel env2.
      *
-     * @return string Returns the id carte appel env2.
+     * @return string|null Returns the id carte appel env2.
      */
-    public function getIdCarteAppelEnv2() {
+    public function getIdCarteAppelEnv2(): ?string {
         return $this->idCarteAppelEnv2;
     }
 
     /**
      * Get the id carte appel env3.
      *
-     * @return string Returns the id carte appel env3.
+     * @return string|null Returns the id carte appel env3.
      */
-    public function getIdCarteAppelEnv3() {
+    public function getIdCarteAppelEnv3(): ?string {
         return $this->idCarteAppelEnv3;
     }
 
     /**
      * Get the id carte appel rec.
      *
-     * @return string Returns the id carte appel rec.
+     * @return string|null Returns the id carte appel rec.
      */
-    public function getIdCarteAppelRec() {
+    public function getIdCarteAppelRec(): ?string {
         return $this->idCarteAppelRec;
     }
 
     /**
      * Get the is banque fact.
      *
-     * @return bool Returns the is banque fact.
+     * @return bool|null Returns the is banque fact.
      */
-    public function getIsBanqueFact() {
+    public function getIsBanqueFact(): ?bool {
         return $this->isBanqueFact;
     }
 
@@ -279,98 +279,98 @@ class Banques {
      *
      * @return DateTime|null Returns the mandat date debut etebac.
      */
-    public function getMandatDateDebutEtebac() {
+    public function getMandatDateDebutEtebac(): ?DateTime {
         return $this->mandatDateDebutEtebac;
     }
 
     /**
      * Get the mandat duree etebac.
      *
-     * @return int Returns the mandat duree etebac.
+     * @return int|null Returns the mandat duree etebac.
      */
-    public function getMandatDureeEtebac() {
+    public function getMandatDureeEtebac(): ?int {
         return $this->mandatDureeEtebac;
     }
 
     /**
      * Get the mandat piece jointe etebac.
      *
-     * @return string Returns the mandat piece jointe etebac.
+     * @return string|null Returns the mandat piece jointe etebac.
      */
-    public function getMandatPieceJointeEtebac() {
+    public function getMandatPieceJointeEtebac(): ?string {
         return $this->mandatPieceJointeEtebac;
     }
 
     /**
      * Get the nb prelevements.
      *
-     * @return int Returns the nb prelevements.
+     * @return int|null Returns the nb prelevements.
      */
-    public function getNbPrelevements() {
+    public function getNbPrelevements(): ?int {
         return $this->nbPrelevements;
     }
 
     /**
      * Get the nom int.
      *
-     * @return string Returns the nom int.
+     * @return string|null Returns the nom int.
      */
-    public function getNomInt() {
+    public function getNomInt(): ?string {
         return $this->nomInt;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
     /**
      * Get the rib.
      *
-     * @return string Returns the rib.
+     * @return string|null Returns the rib.
      */
-    public function getRib() {
+    public function getRib(): ?string {
         return $this->rib;
     }
 
     /**
      * Get the sepa.
      *
-     * @return bool Returns the sepa.
+     * @return bool|null Returns the sepa.
      */
-    public function getSepa() {
+    public function getSepa(): ?bool {
         return $this->sepa;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
     /**
      * Set the bic.
      *
-     * @param string $bic The bic.
+     * @param string|null $bic The bic.
      * @return Banques Returns this Banques.
      */
-    public function setBic($bic) {
+    public function setBic(?string $bic): Banques {
         $this->bic = $bic;
         return $this;
     }
@@ -378,10 +378,10 @@ class Banques {
     /**
      * Set the code banque.
      *
-     * @param string $codeBanque The code banque.
+     * @param string|null $codeBanque The code banque.
      * @return Banques Returns this Banques.
      */
-    public function setCodeBanque($codeBanque) {
+    public function setCodeBanque(?string $codeBanque): Banques {
         $this->codeBanque = $codeBanque;
         return $this;
     }
@@ -389,10 +389,10 @@ class Banques {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Banques Returns this Banques.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Banques {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -400,10 +400,10 @@ class Banques {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Banques Returns this Banques.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Banques {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -411,10 +411,10 @@ class Banques {
     /**
      * Set the edi tdfc.
      *
-     * @param bool $ediTdfc The edi tdfc.
+     * @param bool|null $ediTdfc The edi tdfc.
      * @return Banques Returns this Banques.
      */
-    public function setEdiTdfc($ediTdfc) {
+    public function setEdiTdfc(?bool $ediTdfc): Banques {
         $this->ediTdfc = $ediTdfc;
         return $this;
     }
@@ -422,10 +422,10 @@ class Banques {
     /**
      * Set the iban.
      *
-     * @param string $iban The iban.
+     * @param string|null $iban The iban.
      * @return Banques Returns this Banques.
      */
-    public function setIban($iban) {
+    public function setIban(?string $iban): Banques {
         $this->iban = $iban;
         return $this;
     }
@@ -433,10 +433,10 @@ class Banques {
     /**
      * Set the id carte appel env.
      *
-     * @param string $idCarteAppelEnv The id carte appel env.
+     * @param string|null $idCarteAppelEnv The id carte appel env.
      * @return Banques Returns this Banques.
      */
-    public function setIdCarteAppelEnv($idCarteAppelEnv) {
+    public function setIdCarteAppelEnv(?string $idCarteAppelEnv): Banques {
         $this->idCarteAppelEnv = $idCarteAppelEnv;
         return $this;
     }
@@ -444,10 +444,10 @@ class Banques {
     /**
      * Set the id carte appel env2.
      *
-     * @param string $idCarteAppelEnv2 The id carte appel env2.
+     * @param string|null $idCarteAppelEnv2 The id carte appel env2.
      * @return Banques Returns this Banques.
      */
-    public function setIdCarteAppelEnv2($idCarteAppelEnv2) {
+    public function setIdCarteAppelEnv2(?string $idCarteAppelEnv2): Banques {
         $this->idCarteAppelEnv2 = $idCarteAppelEnv2;
         return $this;
     }
@@ -455,10 +455,10 @@ class Banques {
     /**
      * Set the id carte appel env3.
      *
-     * @param string $idCarteAppelEnv3 The id carte appel env3.
+     * @param string|null $idCarteAppelEnv3 The id carte appel env3.
      * @return Banques Returns this Banques.
      */
-    public function setIdCarteAppelEnv3($idCarteAppelEnv3) {
+    public function setIdCarteAppelEnv3(?string $idCarteAppelEnv3): Banques {
         $this->idCarteAppelEnv3 = $idCarteAppelEnv3;
         return $this;
     }
@@ -466,10 +466,10 @@ class Banques {
     /**
      * Set the id carte appel rec.
      *
-     * @param string $idCarteAppelRec The id carte appel rec.
+     * @param string|null $idCarteAppelRec The id carte appel rec.
      * @return Banques Returns this Banques.
      */
-    public function setIdCarteAppelRec($idCarteAppelRec) {
+    public function setIdCarteAppelRec(?string $idCarteAppelRec): Banques {
         $this->idCarteAppelRec = $idCarteAppelRec;
         return $this;
     }
@@ -477,10 +477,10 @@ class Banques {
     /**
      * Set the is banque fact.
      *
-     * @param bool $isBanqueFact The is banque fact.
+     * @param bool|null $isBanqueFact The is banque fact.
      * @return Banques Returns this Banques.
      */
-    public function setIsBanqueFact($isBanqueFact) {
+    public function setIsBanqueFact(?bool $isBanqueFact): Banques {
         $this->isBanqueFact = $isBanqueFact;
         return $this;
     }
@@ -491,7 +491,7 @@ class Banques {
      * @param DateTime|null $mandatDateDebutEtebac The mandat date debut etebac.
      * @return Banques Returns this Banques.
      */
-    public function setMandatDateDebutEtebac(DateTime $mandatDateDebutEtebac = null) {
+    public function setMandatDateDebutEtebac(?DateTime $mandatDateDebutEtebac): Banques {
         $this->mandatDateDebutEtebac = $mandatDateDebutEtebac;
         return $this;
     }
@@ -499,10 +499,10 @@ class Banques {
     /**
      * Set the mandat duree etebac.
      *
-     * @param int $mandatDureeEtebac The mandat duree etebac.
+     * @param int|null $mandatDureeEtebac The mandat duree etebac.
      * @return Banques Returns this Banques.
      */
-    public function setMandatDureeEtebac($mandatDureeEtebac) {
+    public function setMandatDureeEtebac(?int $mandatDureeEtebac): Banques {
         $this->mandatDureeEtebac = $mandatDureeEtebac;
         return $this;
     }
@@ -510,10 +510,10 @@ class Banques {
     /**
      * Set the mandat piece jointe etebac.
      *
-     * @param string $mandatPieceJointeEtebac The mandat piece jointe etebac.
+     * @param string|null $mandatPieceJointeEtebac The mandat piece jointe etebac.
      * @return Banques Returns this Banques.
      */
-    public function setMandatPieceJointeEtebac($mandatPieceJointeEtebac) {
+    public function setMandatPieceJointeEtebac(?string $mandatPieceJointeEtebac): Banques {
         $this->mandatPieceJointeEtebac = $mandatPieceJointeEtebac;
         return $this;
     }
@@ -521,10 +521,10 @@ class Banques {
     /**
      * Set the nb prelevements.
      *
-     * @param int $nbPrelevements The nb prelevements.
+     * @param int|null $nbPrelevements The nb prelevements.
      * @return Banques Returns this Banques.
      */
-    public function setNbPrelevements($nbPrelevements) {
+    public function setNbPrelevements(?int $nbPrelevements): Banques {
         $this->nbPrelevements = $nbPrelevements;
         return $this;
     }
@@ -532,10 +532,10 @@ class Banques {
     /**
      * Set the nom int.
      *
-     * @param string $nomInt The nom int.
+     * @param string|null $nomInt The nom int.
      * @return Banques Returns this Banques.
      */
-    public function setNomInt($nomInt) {
+    public function setNomInt(?string $nomInt): Banques {
         $this->nomInt = $nomInt;
         return $this;
     }
@@ -543,10 +543,10 @@ class Banques {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return Banques Returns this Banques.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): Banques {
         $this->numero = $numero;
         return $this;
     }
@@ -554,10 +554,10 @@ class Banques {
     /**
      * Set the rib.
      *
-     * @param string $rib The rib.
+     * @param string|null $rib The rib.
      * @return Banques Returns this Banques.
      */
-    public function setRib($rib) {
+    public function setRib(?string $rib): Banques {
         $this->rib = $rib;
         return $this;
     }
@@ -565,10 +565,10 @@ class Banques {
     /**
      * Set the sepa.
      *
-     * @param bool $sepa The sepa.
+     * @param bool|null $sepa The sepa.
      * @return Banques Returns this Banques.
      */
-    public function setSepa($sepa) {
+    public function setSepa(?bool $sepa): Banques {
         $this->sepa = $sepa;
         return $this;
     }
@@ -576,10 +576,10 @@ class Banques {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Banques Returns this Banques.
      */
-    public function setType($type) {
+    public function setType(?string $type): Banques {
         $this->type = $type;
         return $this;
     }
@@ -587,10 +587,10 @@ class Banques {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return Banques Returns this Banques.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): Banques {
         $this->uniqId = $uniqId;
         return $this;
     }

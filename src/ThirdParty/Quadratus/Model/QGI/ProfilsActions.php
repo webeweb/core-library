@@ -22,14 +22,14 @@ class ProfilsActions {
     /**
      * Code profil.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProfil;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
@@ -37,34 +37,34 @@ class ProfilsActions {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code profil.
      *
-     * @return string Returns the code profil.
+     * @return string|null Returns the code profil.
      */
-    public function getCodeProfil() {
+    public function getCodeProfil(): ?string {
         return $this->codeProfil;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
     /**
      * Set the code profil.
      *
-     * @param string $codeProfil The code profil.
+     * @param string|null $codeProfil The code profil.
      * @return ProfilsActions Returns this Profils actions.
      */
-    public function setCodeProfil($codeProfil) {
+    public function setCodeProfil(?string $codeProfil): ProfilsActions {
         $this->codeProfil = $codeProfil;
         return $this;
     }
@@ -72,10 +72,10 @@ class ProfilsActions {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return ProfilsActions Returns this Profils actions.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): ProfilsActions {
         $this->intitule = $intitule;
         return $this;
     }

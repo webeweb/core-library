@@ -22,25 +22,25 @@ trait IntegerWidthTrait {
     /**
      * Width.
      *
-     * @var int
+     * @var int|null
      */
     protected $width;
 
     /**
      * Get the width.
      *
-     * @return int Returns the width.
+     * @return int|null Returns the width.
      */
-    public function getWidth() {
+    public function getWidth(): ?int {
         return $this->width;
     }
 
     /**
      * Set the width.
      *
-     * @param int $width The width.
+     * @param int|null $width The width.
      */
-    public function setWidth($width) {
+    public function setWidth(?int $width) {
         $this->width = $width;
         return $this;
     }

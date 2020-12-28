@@ -22,113 +22,114 @@ class EmployesProprete {
     /**
      * Controleur.
      *
-     * @var bool
+     * @var bool|null
      */
     private $controleur;
 
     /**
      * Hotellerie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $hotellerie;
 
     /**
      * Livreur.
      *
-     * @var bool
+     * @var bool|null
      */
     private $livreur;
 
     /**
      * Modulation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $modulation;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Polyvalent.
      *
-     * @var bool
+     * @var bool|null
      */
     private $polyvalent;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the controleur.
      *
-     * @return bool Returns the controleur.
+     * @return bool|null Returns the controleur.
      */
-    public function getControleur() {
+    public function getControleur(): ?bool{
         return $this->controleur;
     }
 
     /**
      * Get the hotellerie.
      *
-     * @return bool Returns the hotellerie.
+     * @return bool|null Returns the hotellerie.
      */
-    public function getHotellerie() {
+    public function getHotellerie(): ?bool{
         return $this->hotellerie;
     }
 
     /**
      * Get the livreur.
      *
-     * @return bool Returns the livreur.
+     * @return bool|null Returns the livreur.
      */
-    public function getLivreur() {
+    public function getLivreur(): ?bool{
         return $this->livreur;
     }
 
     /**
      * Get the modulation.
      *
-     * @return bool Returns the modulation.
+     * @return bool|null Returns the modulation.
      */
-    public function getModulation() {
+    public function getModulation(): ?bool{
         return $this->modulation;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the polyvalent.
      *
-     * @return bool Returns the polyvalent.
+     * @return bool|null Returns the polyvalent.
      */
-    public function getPolyvalent() {
+    public function getPolyvalent(): ?bool{
         return $this->polyvalent;
     }
 
     /**
      * Set the controleur.
      *
-     * @param bool $controleur The controleur.
+     * @param bool|null $controleur The controleur.
      * @return EmployesProprete Returns this Employes proprete.
      */
-    public function setControleur($controleur) {
+    public function setControleur(?bool $controleur): EmployesProprete {
         $this->controleur = $controleur;
         return $this;
     }
@@ -136,10 +137,10 @@ class EmployesProprete {
     /**
      * Set the hotellerie.
      *
-     * @param bool $hotellerie The hotellerie.
+     * @param bool|null $hotellerie The hotellerie.
      * @return EmployesProprete Returns this Employes proprete.
      */
-    public function setHotellerie($hotellerie) {
+    public function setHotellerie(?bool $hotellerie): EmployesProprete {
         $this->hotellerie = $hotellerie;
         return $this;
     }
@@ -147,10 +148,10 @@ class EmployesProprete {
     /**
      * Set the livreur.
      *
-     * @param bool $livreur The livreur.
+     * @param bool|null $livreur The livreur.
      * @return EmployesProprete Returns this Employes proprete.
      */
-    public function setLivreur($livreur) {
+    public function setLivreur(?bool $livreur): EmployesProprete {
         $this->livreur = $livreur;
         return $this;
     }
@@ -158,10 +159,10 @@ class EmployesProprete {
     /**
      * Set the modulation.
      *
-     * @param bool $modulation The modulation.
+     * @param bool|null $modulation The modulation.
      * @return EmployesProprete Returns this Employes proprete.
      */
-    public function setModulation($modulation) {
+    public function setModulation(?bool $modulation): EmployesProprete {
         $this->modulation = $modulation;
         return $this;
     }
@@ -169,10 +170,10 @@ class EmployesProprete {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmployesProprete Returns this Employes proprete.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmployesProprete {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -180,10 +181,10 @@ class EmployesProprete {
     /**
      * Set the polyvalent.
      *
-     * @param bool $polyvalent The polyvalent.
+     * @param bool|null $polyvalent The polyvalent.
      * @return EmployesProprete Returns this Employes proprete.
      */
-    public function setPolyvalent($polyvalent) {
+    public function setPolyvalent(?bool $polyvalent): EmployesProprete {
         $this->polyvalent = $polyvalent;
         return $this;
     }

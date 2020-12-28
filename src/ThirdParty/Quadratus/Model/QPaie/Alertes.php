@@ -24,28 +24,28 @@ class Alertes {
     /**
      * Cloturee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cloturee;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -59,50 +59,51 @@ class Alertes {
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the cloturee.
      *
-     * @return bool Returns the cloturee.
+     * @return bool|null Returns the cloturee.
      */
-    public function getCloturee() {
+    public function getCloturee(): ?bool{
         return $this->cloturee;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -111,26 +112,26 @@ class Alertes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the cloturee.
      *
-     * @param bool $cloturee The cloturee.
+     * @param bool|null $cloturee The cloturee.
      * @return Alertes Returns this Alertes.
      */
-    public function setCloturee($cloturee) {
+    public function setCloturee(?bool $cloturee): Alertes {
         $this->cloturee = $cloturee;
         return $this;
     }
@@ -138,10 +139,10 @@ class Alertes {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return Alertes Returns this Alertes.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): Alertes {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -149,10 +150,10 @@ class Alertes {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Alertes Returns this Alertes.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Alertes {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -160,10 +161,10 @@ class Alertes {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return Alertes Returns this Alertes.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): Alertes {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -174,7 +175,7 @@ class Alertes {
      * @param DateTime|null $periode The periode.
      * @return Alertes Returns this Alertes.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): Alertes {
         $this->periode = $periode;
         return $this;
     }
@@ -182,10 +183,10 @@ class Alertes {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Alertes Returns this Alertes.
      */
-    public function setType($type) {
+    public function setType(?string $type): Alertes {
         $this->type = $type;
         return $this;
     }

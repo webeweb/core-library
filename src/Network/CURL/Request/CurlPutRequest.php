@@ -26,10 +26,10 @@ class CurlPutRequest extends AbstractCurlRequest {
      * Constructor.
      *
      * @param CurlConfiguration $configuration The configuration.
-     * @param string $resourcePath The resource path.
+     * @param string|null $resourcePath The resource path.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is invalid.
      */
-    public function __construct(CurlConfiguration $configuration, $resourcePath) {
+    public function __construct(CurlConfiguration $configuration, ?string $resourcePath) {
         parent::__construct(self::HTTP_METHOD_PUT, $configuration, $resourcePath);
     }
 }

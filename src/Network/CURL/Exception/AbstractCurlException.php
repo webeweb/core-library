@@ -27,9 +27,9 @@ abstract class AbstractCurlException extends Exception {
      *
      * @param string $message The message.
      * @param int $code The code.
-     * @param Exception $previous The previous exception.
+     * @param Exception|null $previous The previous exception.
      */
-    public function __construct($message, $code = 500, Exception $previous = null) {
+    public function __construct(string $message, int $code = 500, Exception $previous = null) {
         parent::__construct($message, $code, $previous);
     }
 }

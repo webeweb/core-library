@@ -24,21 +24,21 @@ class TarifsPeriodes {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code nature.
      *
-     * @var string
+     * @var string|null
      */
     private $codeNature;
 
@@ -59,55 +59,56 @@ class TarifsPeriodes {
     /**
      * Remise base.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseBase;
 
     /**
      * Type code article.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCodeArticle;
 
     /**
      * Type code client.
      *
-     * @var string
+     * @var string|null
      */
     private $typeCodeClient;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code nature.
      *
-     * @return string Returns the code nature.
+     * @return string|null Returns the code nature.
      */
-    public function getCodeNature() {
+    public function getCodeNature(): ?string{
         return $this->codeNature;
     }
 
@@ -116,7 +117,7 @@ class TarifsPeriodes {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
@@ -125,44 +126,44 @@ class TarifsPeriodes {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime{
         return $this->dateFin;
     }
 
     /**
      * Get the remise base.
      *
-     * @return float Returns the remise base.
+     * @return float|null Returns the remise base.
      */
-    public function getRemiseBase() {
+    public function getRemiseBase(): ?float{
         return $this->remiseBase;
     }
 
     /**
      * Get the type code article.
      *
-     * @return string Returns the type code article.
+     * @return string|null Returns the type code article.
      */
-    public function getTypeCodeArticle() {
+    public function getTypeCodeArticle(): ?string{
         return $this->typeCodeArticle;
     }
 
     /**
      * Get the type code client.
      *
-     * @return string Returns the type code client.
+     * @return string|null Returns the type code client.
      */
-    public function getTypeCodeClient() {
+    public function getTypeCodeClient(): ?string{
         return $this->typeCodeClient;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): TarifsPeriodes {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -170,10 +171,10 @@ class TarifsPeriodes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): TarifsPeriodes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -181,10 +182,10 @@ class TarifsPeriodes {
     /**
      * Set the code nature.
      *
-     * @param string $codeNature The code nature.
+     * @param string|null $codeNature The code nature.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setCodeNature($codeNature) {
+    public function setCodeNature(?string $codeNature): TarifsPeriodes {
         $this->codeNature = $codeNature;
         return $this;
     }
@@ -195,7 +196,7 @@ class TarifsPeriodes {
      * @param DateTime|null $dateDebut The date debut.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): TarifsPeriodes {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -206,7 +207,7 @@ class TarifsPeriodes {
      * @param DateTime|null $dateFin The date fin.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): TarifsPeriodes {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -214,10 +215,10 @@ class TarifsPeriodes {
     /**
      * Set the remise base.
      *
-     * @param float $remiseBase The remise base.
+     * @param float|null $remiseBase The remise base.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setRemiseBase($remiseBase) {
+    public function setRemiseBase(?float $remiseBase): TarifsPeriodes {
         $this->remiseBase = $remiseBase;
         return $this;
     }
@@ -225,10 +226,10 @@ class TarifsPeriodes {
     /**
      * Set the type code article.
      *
-     * @param string $typeCodeArticle The type code article.
+     * @param string|null $typeCodeArticle The type code article.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setTypeCodeArticle($typeCodeArticle) {
+    public function setTypeCodeArticle(?string $typeCodeArticle): TarifsPeriodes {
         $this->typeCodeArticle = $typeCodeArticle;
         return $this;
     }
@@ -236,10 +237,10 @@ class TarifsPeriodes {
     /**
      * Set the type code client.
      *
-     * @param string $typeCodeClient The type code client.
+     * @param string|null $typeCodeClient The type code client.
      * @return TarifsPeriodes Returns this Tarifs periodes.
      */
-    public function setTypeCodeClient($typeCodeClient) {
+    public function setTypeCodeClient(?string $typeCodeClient): TarifsPeriodes {
         $this->typeCodeClient = $typeCodeClient;
         return $this;
     }

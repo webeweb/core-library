@@ -22,129 +22,130 @@ class RecapDfi {
     /**
      * Annee ded.
      *
-     * @var int
+     * @var int|null
      */
     private $anneeDed;
 
     /**
      * Annee utilisation.
      *
-     * @var int
+     * @var int|null
      */
     private $anneeUtilisation;
 
     /**
      * Immobilisations.
      *
-     * @var float
+     * @var float|null
      */
     private $immobilisations;
 
     /**
      * Mtt annee.
      *
-     * @var float
+     * @var float|null
      */
     private $mttAnnee;
 
     /**
      * Parts sociales.
      *
-     * @var float
+     * @var float|null
      */
     private $partsSociales;
 
     /**
      * Reint anticipee.
      *
-     * @var float
+     * @var float|null
      */
     private $reintAnticipee;
 
     /**
      * Stocks.
      *
-     * @var float
+     * @var float|null
      */
     private $stocks;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the annee ded.
      *
-     * @return int Returns the annee ded.
+     * @return int|null Returns the annee ded.
      */
-    public function getAnneeDed() {
+    public function getAnneeDed(): ?int{
         return $this->anneeDed;
     }
 
     /**
      * Get the annee utilisation.
      *
-     * @return int Returns the annee utilisation.
+     * @return int|null Returns the annee utilisation.
      */
-    public function getAnneeUtilisation() {
+    public function getAnneeUtilisation(): ?int{
         return $this->anneeUtilisation;
     }
 
     /**
      * Get the immobilisations.
      *
-     * @return float Returns the immobilisations.
+     * @return float|null Returns the immobilisations.
      */
-    public function getImmobilisations() {
+    public function getImmobilisations(): ?float{
         return $this->immobilisations;
     }
 
     /**
      * Get the mtt annee.
      *
-     * @return float Returns the mtt annee.
+     * @return float|null Returns the mtt annee.
      */
-    public function getMttAnnee() {
+    public function getMttAnnee(): ?float{
         return $this->mttAnnee;
     }
 
     /**
      * Get the parts sociales.
      *
-     * @return float Returns the parts sociales.
+     * @return float|null Returns the parts sociales.
      */
-    public function getPartsSociales() {
+    public function getPartsSociales(): ?float{
         return $this->partsSociales;
     }
 
     /**
      * Get the reint anticipee.
      *
-     * @return float Returns the reint anticipee.
+     * @return float|null Returns the reint anticipee.
      */
-    public function getReintAnticipee() {
+    public function getReintAnticipee(): ?float{
         return $this->reintAnticipee;
     }
 
     /**
      * Get the stocks.
      *
-     * @return float Returns the stocks.
+     * @return float|null Returns the stocks.
      */
-    public function getStocks() {
+    public function getStocks(): ?float{
         return $this->stocks;
     }
 
     /**
      * Set the annee ded.
      *
-     * @param int $anneeDed The annee ded.
+     * @param int|null $anneeDed The annee ded.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setAnneeDed($anneeDed) {
+    public function setAnneeDed(?int $anneeDed): RecapDfi {
         $this->anneeDed = $anneeDed;
         return $this;
     }
@@ -152,10 +153,10 @@ class RecapDfi {
     /**
      * Set the annee utilisation.
      *
-     * @param int $anneeUtilisation The annee utilisation.
+     * @param int|null $anneeUtilisation The annee utilisation.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setAnneeUtilisation($anneeUtilisation) {
+    public function setAnneeUtilisation(?int $anneeUtilisation): RecapDfi {
         $this->anneeUtilisation = $anneeUtilisation;
         return $this;
     }
@@ -163,10 +164,10 @@ class RecapDfi {
     /**
      * Set the immobilisations.
      *
-     * @param float $immobilisations The immobilisations.
+     * @param float|null $immobilisations The immobilisations.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setImmobilisations($immobilisations) {
+    public function setImmobilisations(?float $immobilisations): RecapDfi {
         $this->immobilisations = $immobilisations;
         return $this;
     }
@@ -174,10 +175,10 @@ class RecapDfi {
     /**
      * Set the mtt annee.
      *
-     * @param float $mttAnnee The mtt annee.
+     * @param float|null $mttAnnee The mtt annee.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setMttAnnee($mttAnnee) {
+    public function setMttAnnee(?float $mttAnnee): RecapDfi {
         $this->mttAnnee = $mttAnnee;
         return $this;
     }
@@ -185,10 +186,10 @@ class RecapDfi {
     /**
      * Set the parts sociales.
      *
-     * @param float $partsSociales The parts sociales.
+     * @param float|null $partsSociales The parts sociales.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setPartsSociales($partsSociales) {
+    public function setPartsSociales(?float $partsSociales): RecapDfi {
         $this->partsSociales = $partsSociales;
         return $this;
     }
@@ -196,10 +197,10 @@ class RecapDfi {
     /**
      * Set the reint anticipee.
      *
-     * @param float $reintAnticipee The reint anticipee.
+     * @param float|null $reintAnticipee The reint anticipee.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setReintAnticipee($reintAnticipee) {
+    public function setReintAnticipee(?float $reintAnticipee): RecapDfi {
         $this->reintAnticipee = $reintAnticipee;
         return $this;
     }
@@ -207,10 +208,10 @@ class RecapDfi {
     /**
      * Set the stocks.
      *
-     * @param float $stocks The stocks.
+     * @param float|null $stocks The stocks.
      * @return RecapDfi Returns this Recap dfi.
      */
-    public function setStocks($stocks) {
+    public function setStocks(?float $stocks): RecapDfi {
         $this->stocks = $stocks;
         return $this;
     }

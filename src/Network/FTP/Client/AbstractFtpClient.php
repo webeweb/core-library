@@ -33,7 +33,7 @@ abstract class AbstractFtpClient {
     /**
      * Connection.
      *
-     * @var ressource
+     * @var resource
      */
     private $connection;
 
@@ -49,9 +49,9 @@ abstract class AbstractFtpClient {
     /**
      * Get the authenticator.
      *
-     * @return Authenticator Returns the authenticator.
+     * @return Authenticator|null Returns the authenticator.
      */
-    public function getAuthenticator() {
+    public function getAuthenticator(): ?Authenticator {
         return $this->authenticator;
     }
 

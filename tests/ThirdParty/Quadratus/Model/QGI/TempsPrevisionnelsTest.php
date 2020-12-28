@@ -27,7 +27,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new TempsPrevisionnels();
 
@@ -40,7 +40,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAvenant() {
+    public function testSetCodeAvenant(): void {
 
         $obj = new TempsPrevisionnels();
 
@@ -53,7 +53,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePhase() {
+    public function testSetCodePhase(): void {
 
         $obj = new TempsPrevisionnels();
 
@@ -66,7 +66,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new TempsPrevisionnels();
 
@@ -79,7 +79,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoutHoraire() {
+    public function testSetCoutHoraire(): void {
 
         $obj = new TempsPrevisionnels();
 
@@ -92,7 +92,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures() {
+    public function testSetNbHeures(): void {
 
         $obj = new TempsPrevisionnels();
 
@@ -105,7 +105,7 @@ class TempsPrevisionnelsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TempsPrevisionnels();
 

@@ -29,7 +29,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrut() {
+    public function testSetBrut(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -42,7 +42,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -55,7 +55,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -68,7 +68,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -81,7 +81,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDifference() {
+    public function testSetDifference(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -94,7 +94,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -107,7 +107,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhr() {
+    public function testSetNbhr(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -120,7 +120,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomEmploye() {
+    public function testSetNomEmploye(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -133,7 +133,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -147,7 +147,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -163,7 +163,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReducBul() {
+    public function testSetReducBul(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -176,7 +176,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReducRecalc() {
+    public function testSetReducRecalc(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -189,7 +189,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetShb() {
+    public function testSetShb(): void {
 
         $obj = new EmpRecapLodeom();
 
@@ -202,7 +202,7 @@ class EmpRecapLodeomTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpRecapLodeom();
 

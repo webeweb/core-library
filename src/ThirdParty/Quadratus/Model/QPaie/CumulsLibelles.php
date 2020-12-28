@@ -22,65 +22,66 @@ class CumulsLibelles {
     /**
      * Montant cumul.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCumul;
 
     /**
      * Num cumul bulletin.
      *
-     * @var int
+     * @var int|null
      */
     private $numCumulBulletin;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the montant cumul.
      *
-     * @return float Returns the montant cumul.
+     * @return float|null Returns the montant cumul.
      */
-    public function getMontantCumul() {
+    public function getMontantCumul(): ?float{
         return $this->montantCumul;
     }
 
     /**
      * Get the num cumul bulletin.
      *
-     * @return int Returns the num cumul bulletin.
+     * @return int|null Returns the num cumul bulletin.
      */
-    public function getNumCumulBulletin() {
+    public function getNumCumulBulletin(): ?int{
         return $this->numCumulBulletin;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Set the montant cumul.
      *
-     * @param float $montantCumul The montant cumul.
+     * @param float|null $montantCumul The montant cumul.
      * @return CumulsLibelles Returns this Cumuls libelles.
      */
-    public function setMontantCumul($montantCumul) {
+    public function setMontantCumul(?float $montantCumul): CumulsLibelles {
         $this->montantCumul = $montantCumul;
         return $this;
     }
@@ -88,10 +89,10 @@ class CumulsLibelles {
     /**
      * Set the num cumul bulletin.
      *
-     * @param int $numCumulBulletin The num cumul bulletin.
+     * @param int|null $numCumulBulletin The num cumul bulletin.
      * @return CumulsLibelles Returns this Cumuls libelles.
      */
-    public function setNumCumulBulletin($numCumulBulletin) {
+    public function setNumCumulBulletin(?int $numCumulBulletin): CumulsLibelles {
         $this->numCumulBulletin = $numCumulBulletin;
         return $this;
     }
@@ -99,10 +100,10 @@ class CumulsLibelles {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return CumulsLibelles Returns this Cumuls libelles.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): CumulsLibelles {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }

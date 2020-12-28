@@ -22,113 +22,114 @@ class EmpDadsuAssuranceLignesContrat {
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Nb enfants.
      *
-     * @var string
+     * @var string|null
      */
     private $nbEnfants;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
 
     /**
      * Unite gestion.
      *
-     * @var string
+     * @var string|null
      */
     private $uniteGestion;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the nb enfants.
      *
-     * @return string Returns the nb enfants.
+     * @return string|null Returns the nb enfants.
      */
-    public function getNbEnfants() {
+    public function getNbEnfants(): ?string{
         return $this->nbEnfants;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Get the unite gestion.
      *
-     * @return string Returns the unite gestion.
+     * @return string|null Returns the unite gestion.
      */
-    public function getUniteGestion() {
+    public function getUniteGestion(): ?string{
         return $this->uniteGestion;
     }
 
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): EmpDadsuAssuranceLignesContrat {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -136,10 +137,10 @@ class EmpDadsuAssuranceLignesContrat {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): EmpDadsuAssuranceLignesContrat {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -147,10 +148,10 @@ class EmpDadsuAssuranceLignesContrat {
     /**
      * Set the nb enfants.
      *
-     * @param string $nbEnfants The nb enfants.
+     * @param string|null $nbEnfants The nb enfants.
      * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
-    public function setNbEnfants($nbEnfants) {
+    public function setNbEnfants(?string $nbEnfants): EmpDadsuAssuranceLignesContrat {
         $this->nbEnfants = $nbEnfants;
         return $this;
     }
@@ -158,10 +159,10 @@ class EmpDadsuAssuranceLignesContrat {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpDadsuAssuranceLignesContrat {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -169,10 +170,10 @@ class EmpDadsuAssuranceLignesContrat {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): EmpDadsuAssuranceLignesContrat {
         $this->refContrat = $refContrat;
         return $this;
     }
@@ -180,10 +181,10 @@ class EmpDadsuAssuranceLignesContrat {
     /**
      * Set the unite gestion.
      *
-     * @param string $uniteGestion The unite gestion.
+     * @param string|null $uniteGestion The unite gestion.
      * @return EmpDadsuAssuranceLignesContrat Returns this Emp dadsu assurance lignes contrat.
      */
-    public function setUniteGestion($uniteGestion) {
+    public function setUniteGestion(?string $uniteGestion): EmpDadsuAssuranceLignesContrat {
         $this->uniteGestion = $uniteGestion;
         return $this;
     }

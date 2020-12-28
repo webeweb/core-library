@@ -29,7 +29,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -42,7 +42,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -55,7 +55,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -68,7 +68,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFormule() {
+    public function testSetCodeFormule(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -81,7 +81,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -94,7 +94,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -108,7 +108,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRevision() {
+    public function testSetDateRevision(): void {
 
         // Set a Date/time mock.
         $dateRevision = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormule() {
+    public function testSetFormule(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -137,7 +137,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -150,7 +150,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -163,7 +163,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigneRev() {
+    public function testSetNumLigneRev(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -177,7 +177,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeRevisee() {
+    public function testSetPeriodeRevisee(): void {
 
         // Set a Date/time mock.
         $periodeRevisee = new DateTime("2018-09-10");
@@ -193,7 +193,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentage() {
+    public function testSetPourcentage(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -206,7 +206,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefusClient() {
+    public function testSetRefusClient(): void {
 
         $obj = new ChantiersHistoRev();
 
@@ -219,7 +219,7 @@ class ChantiersHistoRevTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChantiersHistoRev();
 

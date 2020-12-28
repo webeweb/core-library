@@ -29,7 +29,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -42,7 +42,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -55,7 +55,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -68,7 +68,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptFiliale() {
+    public function testSetCptFiliale(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -82,7 +82,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSortie() {
+    public function testSetDateSortie(): void {
 
         // Set a Date/time mock.
         $dateSortie = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetentionDirecte() {
+    public function testSetDetentionDirecte(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -128,7 +128,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetentionIndirecte() {
+    public function testSetDetentionIndirecte(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -141,7 +141,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormeJuridique() {
+    public function testSetFormeJuridique(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -154,7 +154,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibDoss() {
+    public function testSetLibDoss(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -167,7 +167,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoDoss() {
+    public function testSetNoDoss(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -180,7 +180,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -193,7 +193,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -206,7 +206,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -219,7 +219,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSiren() {
+    public function testSetSiren(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -232,7 +232,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVille() {
+    public function testSetVille(): void {
 
         $obj = new DecTvaFiliales();
 
@@ -245,7 +245,7 @@ class DecTvaFilialesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DecTvaFiliales();
 

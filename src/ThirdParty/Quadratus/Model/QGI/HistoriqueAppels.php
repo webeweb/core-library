@@ -24,49 +24,49 @@ class HistoriqueAppels {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur clot.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurClot;
 
     /**
      * Code collaborateur dest.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurDest;
 
     /**
      * Code collaborateur entrant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateurEntrant;
 
     /**
      * Code produit.
      *
-     * @var string
+     * @var string|null
      */
     private $codeProduit;
 
     /**
      * Confidentiel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $confidentiel;
 
     /**
      * Consequence.
      *
-     * @var string
+     * @var string|null
      */
     private $consequence;
 
@@ -87,154 +87,155 @@ class HistoriqueAppels {
     /**
      * Email auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $emailAuteur;
 
     /**
      * Groupe qualifiant.
      *
-     * @var string
+     * @var string|null
      */
     private $groupeQualifiant;
 
     /**
      * Id historique.
      *
-     * @var int
+     * @var int|null
      */
     private $idHistorique;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Nom client.
      *
-     * @var string
+     * @var string|null
      */
     private $nomClient;
 
     /**
      * Origine.
      *
-     * @var string
+     * @var string|null
      */
     private $origine;
 
     /**
      * Piece jointe.
      *
-     * @var string
+     * @var string|null
      */
     private $pieceJointe;
 
     /**
      * Reponse.
      *
-     * @var string
+     * @var string|null
      */
     private $reponse;
 
     /**
      * Special.
      *
-     * @var string
+     * @var string|null
      */
     private $special;
 
     /**
      * Tel.
      *
-     * @var string
+     * @var string|null
      */
     private $tel;
 
     /**
      * Type message.
      *
-     * @var string
+     * @var string|null
      */
     private $typeMessage;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur clot.
      *
-     * @return string Returns the code collaborateur clot.
+     * @return string|null Returns the code collaborateur clot.
      */
-    public function getCodeCollaborateurClot() {
+    public function getCodeCollaborateurClot(): ?string{
         return $this->codeCollaborateurClot;
     }
 
     /**
      * Get the code collaborateur dest.
      *
-     * @return string Returns the code collaborateur dest.
+     * @return string|null Returns the code collaborateur dest.
      */
-    public function getCodeCollaborateurDest() {
+    public function getCodeCollaborateurDest(): ?string{
         return $this->codeCollaborateurDest;
     }
 
     /**
      * Get the code collaborateur entrant.
      *
-     * @return string Returns the code collaborateur entrant.
+     * @return string|null Returns the code collaborateur entrant.
      */
-    public function getCodeCollaborateurEntrant() {
+    public function getCodeCollaborateurEntrant(): ?string{
         return $this->codeCollaborateurEntrant;
     }
 
     /**
      * Get the code produit.
      *
-     * @return string Returns the code produit.
+     * @return string|null Returns the code produit.
      */
-    public function getCodeProduit() {
+    public function getCodeProduit(): ?string{
         return $this->codeProduit;
     }
 
     /**
      * Get the confidentiel.
      *
-     * @return bool Returns the confidentiel.
+     * @return bool|null Returns the confidentiel.
      */
-    public function getConfidentiel() {
+    public function getConfidentiel(): ?bool{
         return $this->confidentiel;
     }
 
     /**
      * Get the consequence.
      *
-     * @return string Returns the consequence.
+     * @return string|null Returns the consequence.
      */
-    public function getConsequence() {
+    public function getConsequence(): ?string{
         return $this->consequence;
     }
 
@@ -243,7 +244,7 @@ class HistoriqueAppels {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree() {
+    public function getDateEntree(): ?DateTime{
         return $this->dateEntree;
     }
 
@@ -252,125 +253,125 @@ class HistoriqueAppels {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie() {
+    public function getDateSortie(): ?DateTime{
         return $this->dateSortie;
     }
 
     /**
      * Get the email auteur.
      *
-     * @return string Returns the email auteur.
+     * @return string|null Returns the email auteur.
      */
-    public function getEmailAuteur() {
+    public function getEmailAuteur(): ?string{
         return $this->emailAuteur;
     }
 
     /**
      * Get the groupe qualifiant.
      *
-     * @return string Returns the groupe qualifiant.
+     * @return string|null Returns the groupe qualifiant.
      */
-    public function getGroupeQualifiant() {
+    public function getGroupeQualifiant(): ?string{
         return $this->groupeQualifiant;
     }
 
     /**
      * Get the id historique.
      *
-     * @return int Returns the id historique.
+     * @return int|null Returns the id historique.
      */
-    public function getIdHistorique() {
+    public function getIdHistorique(): ?int{
         return $this->idHistorique;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the nom client.
      *
-     * @return string Returns the nom client.
+     * @return string|null Returns the nom client.
      */
-    public function getNomClient() {
+    public function getNomClient(): ?string{
         return $this->nomClient;
     }
 
     /**
      * Get the origine.
      *
-     * @return string Returns the origine.
+     * @return string|null Returns the origine.
      */
-    public function getOrigine() {
+    public function getOrigine(): ?string{
         return $this->origine;
     }
 
     /**
      * Get the piece jointe.
      *
-     * @return string Returns the piece jointe.
+     * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe() {
+    public function getPieceJointe(): ?string{
         return $this->pieceJointe;
     }
 
     /**
      * Get the reponse.
      *
-     * @return string Returns the reponse.
+     * @return string|null Returns the reponse.
      */
-    public function getReponse() {
+    public function getReponse(): ?string{
         return $this->reponse;
     }
 
     /**
      * Get the special.
      *
-     * @return string Returns the special.
+     * @return string|null Returns the special.
      */
-    public function getSpecial() {
+    public function getSpecial(): ?string{
         return $this->special;
     }
 
     /**
      * Get the tel.
      *
-     * @return string Returns the tel.
+     * @return string|null Returns the tel.
      */
-    public function getTel() {
+    public function getTel(): ?string{
         return $this->tel;
     }
 
     /**
      * Get the type message.
      *
-     * @return string Returns the type message.
+     * @return string|null Returns the type message.
      */
-    public function getTypeMessage() {
+    public function getTypeMessage(): ?string{
         return $this->typeMessage;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): HistoriqueAppels {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -378,10 +379,10 @@ class HistoriqueAppels {
     /**
      * Set the code collaborateur clot.
      *
-     * @param string $codeCollaborateurClot The code collaborateur clot.
+     * @param string|null $codeCollaborateurClot The code collaborateur clot.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setCodeCollaborateurClot($codeCollaborateurClot) {
+    public function setCodeCollaborateurClot(?string $codeCollaborateurClot): HistoriqueAppels {
         $this->codeCollaborateurClot = $codeCollaborateurClot;
         return $this;
     }
@@ -389,10 +390,10 @@ class HistoriqueAppels {
     /**
      * Set the code collaborateur dest.
      *
-     * @param string $codeCollaborateurDest The code collaborateur dest.
+     * @param string|null $codeCollaborateurDest The code collaborateur dest.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setCodeCollaborateurDest($codeCollaborateurDest) {
+    public function setCodeCollaborateurDest(?string $codeCollaborateurDest): HistoriqueAppels {
         $this->codeCollaborateurDest = $codeCollaborateurDest;
         return $this;
     }
@@ -400,10 +401,10 @@ class HistoriqueAppels {
     /**
      * Set the code collaborateur entrant.
      *
-     * @param string $codeCollaborateurEntrant The code collaborateur entrant.
+     * @param string|null $codeCollaborateurEntrant The code collaborateur entrant.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setCodeCollaborateurEntrant($codeCollaborateurEntrant) {
+    public function setCodeCollaborateurEntrant(?string $codeCollaborateurEntrant): HistoriqueAppels {
         $this->codeCollaborateurEntrant = $codeCollaborateurEntrant;
         return $this;
     }
@@ -411,10 +412,10 @@ class HistoriqueAppels {
     /**
      * Set the code produit.
      *
-     * @param string $codeProduit The code produit.
+     * @param string|null $codeProduit The code produit.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setCodeProduit($codeProduit) {
+    public function setCodeProduit(?string $codeProduit): HistoriqueAppels {
         $this->codeProduit = $codeProduit;
         return $this;
     }
@@ -422,10 +423,10 @@ class HistoriqueAppels {
     /**
      * Set the confidentiel.
      *
-     * @param bool $confidentiel The confidentiel.
+     * @param bool|null $confidentiel The confidentiel.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setConfidentiel($confidentiel) {
+    public function setConfidentiel(?bool $confidentiel): HistoriqueAppels {
         $this->confidentiel = $confidentiel;
         return $this;
     }
@@ -433,10 +434,10 @@ class HistoriqueAppels {
     /**
      * Set the consequence.
      *
-     * @param string $consequence The consequence.
+     * @param string|null $consequence The consequence.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setConsequence($consequence) {
+    public function setConsequence(?string $consequence): HistoriqueAppels {
         $this->consequence = $consequence;
         return $this;
     }
@@ -447,7 +448,7 @@ class HistoriqueAppels {
      * @param DateTime|null $dateEntree The date entree.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setDateEntree(DateTime $dateEntree = null) {
+    public function setDateEntree(?DateTime $dateEntree): HistoriqueAppels {
         $this->dateEntree = $dateEntree;
         return $this;
     }
@@ -458,7 +459,7 @@ class HistoriqueAppels {
      * @param DateTime|null $dateSortie The date sortie.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setDateSortie(DateTime $dateSortie = null) {
+    public function setDateSortie(?DateTime $dateSortie): HistoriqueAppels {
         $this->dateSortie = $dateSortie;
         return $this;
     }
@@ -466,10 +467,10 @@ class HistoriqueAppels {
     /**
      * Set the email auteur.
      *
-     * @param string $emailAuteur The email auteur.
+     * @param string|null $emailAuteur The email auteur.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setEmailAuteur($emailAuteur) {
+    public function setEmailAuteur(?string $emailAuteur): HistoriqueAppels {
         $this->emailAuteur = $emailAuteur;
         return $this;
     }
@@ -477,10 +478,10 @@ class HistoriqueAppels {
     /**
      * Set the groupe qualifiant.
      *
-     * @param string $groupeQualifiant The groupe qualifiant.
+     * @param string|null $groupeQualifiant The groupe qualifiant.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setGroupeQualifiant($groupeQualifiant) {
+    public function setGroupeQualifiant(?string $groupeQualifiant): HistoriqueAppels {
         $this->groupeQualifiant = $groupeQualifiant;
         return $this;
     }
@@ -488,10 +489,10 @@ class HistoriqueAppels {
     /**
      * Set the id historique.
      *
-     * @param int $idHistorique The id historique.
+     * @param int|null $idHistorique The id historique.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setIdHistorique($idHistorique) {
+    public function setIdHistorique(?int $idHistorique): HistoriqueAppels {
         $this->idHistorique = $idHistorique;
         return $this;
     }
@@ -499,10 +500,10 @@ class HistoriqueAppels {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): HistoriqueAppels {
         $this->intitule = $intitule;
         return $this;
     }
@@ -510,10 +511,10 @@ class HistoriqueAppels {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): HistoriqueAppels {
         $this->nature = $nature;
         return $this;
     }
@@ -521,10 +522,10 @@ class HistoriqueAppels {
     /**
      * Set the nom client.
      *
-     * @param string $nomClient The nom client.
+     * @param string|null $nomClient The nom client.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setNomClient($nomClient) {
+    public function setNomClient(?string $nomClient): HistoriqueAppels {
         $this->nomClient = $nomClient;
         return $this;
     }
@@ -532,10 +533,10 @@ class HistoriqueAppels {
     /**
      * Set the origine.
      *
-     * @param string $origine The origine.
+     * @param string|null $origine The origine.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setOrigine($origine) {
+    public function setOrigine(?string $origine): HistoriqueAppels {
         $this->origine = $origine;
         return $this;
     }
@@ -543,10 +544,10 @@ class HistoriqueAppels {
     /**
      * Set the piece jointe.
      *
-     * @param string $pieceJointe The piece jointe.
+     * @param string|null $pieceJointe The piece jointe.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setPieceJointe($pieceJointe) {
+    public function setPieceJointe(?string $pieceJointe): HistoriqueAppels {
         $this->pieceJointe = $pieceJointe;
         return $this;
     }
@@ -554,10 +555,10 @@ class HistoriqueAppels {
     /**
      * Set the reponse.
      *
-     * @param string $reponse The reponse.
+     * @param string|null $reponse The reponse.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setReponse($reponse) {
+    public function setReponse(?string $reponse): HistoriqueAppels {
         $this->reponse = $reponse;
         return $this;
     }
@@ -565,10 +566,10 @@ class HistoriqueAppels {
     /**
      * Set the special.
      *
-     * @param string $special The special.
+     * @param string|null $special The special.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setSpecial($special) {
+    public function setSpecial(?string $special): HistoriqueAppels {
         $this->special = $special;
         return $this;
     }
@@ -576,10 +577,10 @@ class HistoriqueAppels {
     /**
      * Set the tel.
      *
-     * @param string $tel The tel.
+     * @param string|null $tel The tel.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setTel($tel) {
+    public function setTel(?string $tel): HistoriqueAppels {
         $this->tel = $tel;
         return $this;
     }
@@ -587,10 +588,10 @@ class HistoriqueAppels {
     /**
      * Set the type message.
      *
-     * @param string $typeMessage The type message.
+     * @param string|null $typeMessage The type message.
      * @return HistoriqueAppels Returns this Historique appels.
      */
-    public function setTypeMessage($typeMessage) {
+    public function setTypeMessage(?string $typeMessage): HistoriqueAppels {
         $this->typeMessage = $typeMessage;
         return $this;
     }

@@ -31,43 +31,44 @@ class TauxPlanPaie {
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Format non etendu.
      *
-     * @var bool
+     * @var bool|null
      */
     private $formatNonEtendu;
 
     /**
      * Numero taux.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroTaux;
 
     /**
      * Taux patronal.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxPatronal;
 
     /**
      * Taux salarial.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxSalarial;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -75,52 +76,52 @@ class TauxPlanPaie {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe() {
+    public function getAPartirDe(): ?DateTime{
         return $this->aPartirDe;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the format non etendu.
      *
-     * @return bool Returns the format non etendu.
+     * @return bool|null Returns the format non etendu.
      */
-    public function getFormatNonEtendu() {
+    public function getFormatNonEtendu(): ?bool{
         return $this->formatNonEtendu;
     }
 
     /**
      * Get the numero taux.
      *
-     * @return int Returns the numero taux.
+     * @return int|null Returns the numero taux.
      */
-    public function getNumeroTaux() {
+    public function getNumeroTaux(): ?int{
         return $this->numeroTaux;
     }
 
     /**
      * Get the taux patronal.
      *
-     * @return float Returns the taux patronal.
+     * @return float|null Returns the taux patronal.
      */
-    public function getTauxPatronal() {
+    public function getTauxPatronal(): ?float{
         return $this->tauxPatronal;
     }
 
     /**
      * Get the taux salarial.
      *
-     * @return float Returns the taux salarial.
+     * @return float|null Returns the taux salarial.
      */
-    public function getTauxSalarial() {
+    public function getTauxSalarial(): ?float{
         return $this->tauxSalarial;
     }
 
@@ -130,7 +131,7 @@ class TauxPlanPaie {
      * @param DateTime|null $aPartirDe The a partir de.
      * @return TauxPlanPaie Returns this Taux plan paie.
      */
-    public function setAPartirDe(DateTime $aPartirDe = null) {
+    public function setAPartirDe(?DateTime $aPartirDe): TauxPlanPaie {
         $this->aPartirDe = $aPartirDe;
         return $this;
     }
@@ -138,10 +139,10 @@ class TauxPlanPaie {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return TauxPlanPaie Returns this Taux plan paie.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): TauxPlanPaie {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -149,10 +150,10 @@ class TauxPlanPaie {
     /**
      * Set the format non etendu.
      *
-     * @param bool $formatNonEtendu The format non etendu.
+     * @param bool|null $formatNonEtendu The format non etendu.
      * @return TauxPlanPaie Returns this Taux plan paie.
      */
-    public function setFormatNonEtendu($formatNonEtendu) {
+    public function setFormatNonEtendu(?bool $formatNonEtendu): TauxPlanPaie {
         $this->formatNonEtendu = $formatNonEtendu;
         return $this;
     }
@@ -160,10 +161,10 @@ class TauxPlanPaie {
     /**
      * Set the numero taux.
      *
-     * @param int $numeroTaux The numero taux.
+     * @param int|null $numeroTaux The numero taux.
      * @return TauxPlanPaie Returns this Taux plan paie.
      */
-    public function setNumeroTaux($numeroTaux) {
+    public function setNumeroTaux(?int $numeroTaux): TauxPlanPaie {
         $this->numeroTaux = $numeroTaux;
         return $this;
     }
@@ -171,10 +172,10 @@ class TauxPlanPaie {
     /**
      * Set the taux patronal.
      *
-     * @param float $tauxPatronal The taux patronal.
+     * @param float|null $tauxPatronal The taux patronal.
      * @return TauxPlanPaie Returns this Taux plan paie.
      */
-    public function setTauxPatronal($tauxPatronal) {
+    public function setTauxPatronal(?float $tauxPatronal): TauxPlanPaie {
         $this->tauxPatronal = $tauxPatronal;
         return $this;
     }
@@ -182,10 +183,10 @@ class TauxPlanPaie {
     /**
      * Set the taux salarial.
      *
-     * @param float $tauxSalarial The taux salarial.
+     * @param float|null $tauxSalarial The taux salarial.
      * @return TauxPlanPaie Returns this Taux plan paie.
      */
-    public function setTauxSalarial($tauxSalarial) {
+    public function setTauxSalarial(?float $tauxSalarial): TauxPlanPaie {
         $this->tauxSalarial = $tauxSalarial;
         return $this;
     }

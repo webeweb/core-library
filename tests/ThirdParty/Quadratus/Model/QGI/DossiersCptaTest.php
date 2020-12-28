@@ -27,7 +27,7 @@ class DossiersCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCheminDossierCpta() {
+    public function testSetCheminDossierCpta(): void {
 
         $obj = new DossiersCpta();
 
@@ -40,7 +40,7 @@ class DossiersCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDossierCpta() {
+    public function testSetNumDossierCpta(): void {
 
         $obj = new DossiersCpta();
 
@@ -53,7 +53,7 @@ class DossiersCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDossierFact() {
+    public function testSetNumDossierFact(): void {
 
         $obj = new DossiersCpta();
 
@@ -66,7 +66,7 @@ class DossiersCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DossiersCpta();
 

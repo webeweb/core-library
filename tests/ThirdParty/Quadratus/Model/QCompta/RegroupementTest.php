@@ -27,7 +27,7 @@ class RegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClasse() {
+    public function testSetClasse(): void {
 
         $obj = new Regroupement();
 
@@ -40,7 +40,7 @@ class RegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Regroupement();
 
@@ -53,7 +53,7 @@ class RegroupementTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Regroupement();
 

@@ -22,77 +22,77 @@ class AnnexeSuite {
     /**
      * Code1.
      *
-     * @var string
+     * @var string|null
      */
     private $code1;
 
     /**
      * Code2.
      *
-     * @var string
+     * @var string|null
      */
     private $code2;
 
     /**
      * Critere libre1.
      *
-     * @var string
+     * @var string|null
      */
     private $critereLibre1;
 
     /**
      * Critere libre2.
      *
-     * @var string
+     * @var string|null
      */
     private $critereLibre2;
 
     /**
      * Dest relance.
      *
-     * @var bool
+     * @var bool|null
      */
     private $destRelance;
 
     /**
      * Fax.
      *
-     * @var string
+     * @var string|null
      */
     private $fax;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $prenom;
 
     /**
      * Remarques rtf.
      *
-     * @var string
+     * @var string|null
      */
     private $remarquesRtf;
 
     /**
      * Service.
      *
-     * @var string
+     * @var string|null
      */
     private $service;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
@@ -100,115 +100,115 @@ class AnnexeSuite {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code1.
      *
-     * @return string Returns the code1.
+     * @return string|null Returns the code1.
      */
-    public function getCode1() {
+    public function getCode1(): ?string {
         return $this->code1;
     }
 
     /**
      * Get the code2.
      *
-     * @return string Returns the code2.
+     * @return string|null Returns the code2.
      */
-    public function getCode2() {
+    public function getCode2(): ?string {
         return $this->code2;
     }
 
     /**
      * Get the critere libre1.
      *
-     * @return string Returns the critere libre1.
+     * @return string|null Returns the critere libre1.
      */
-    public function getCritereLibre1() {
+    public function getCritereLibre1(): ?string {
         return $this->critereLibre1;
     }
 
     /**
      * Get the critere libre2.
      *
-     * @return string Returns the critere libre2.
+     * @return string|null Returns the critere libre2.
      */
-    public function getCritereLibre2() {
+    public function getCritereLibre2(): ?string {
         return $this->critereLibre2;
     }
 
     /**
      * Get the dest relance.
      *
-     * @return bool Returns the dest relance.
+     * @return bool|null Returns the dest relance.
      */
-    public function getDestRelance() {
+    public function getDestRelance(): ?bool {
         return $this->destRelance;
     }
 
     /**
      * Get the fax.
      *
-     * @return string Returns the fax.
+     * @return string|null Returns the fax.
      */
-    public function getFax() {
+    public function getFax(): ?string {
         return $this->fax;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
     /**
      * Get the prenom.
      *
-     * @return string Returns the prenom.
+     * @return string|null Returns the prenom.
      */
-    public function getPrenom() {
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
     /**
      * Get the remarques rtf.
      *
-     * @return string Returns the remarques rtf.
+     * @return string|null Returns the remarques rtf.
      */
-    public function getRemarquesRtf() {
+    public function getRemarquesRtf(): ?string {
         return $this->remarquesRtf;
     }
 
     /**
      * Get the service.
      *
-     * @return string Returns the service.
+     * @return string|null Returns the service.
      */
-    public function getService() {
+    public function getService(): ?string {
         return $this->service;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Set the code1.
      *
-     * @param string $code1 The code1.
+     * @param string|null $code1 The code1.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setCode1($code1) {
+    public function setCode1(?string $code1): AnnexeSuite {
         $this->code1 = $code1;
         return $this;
     }
@@ -216,10 +216,10 @@ class AnnexeSuite {
     /**
      * Set the code2.
      *
-     * @param string $code2 The code2.
+     * @param string|null $code2 The code2.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setCode2($code2) {
+    public function setCode2(?string $code2): AnnexeSuite {
         $this->code2 = $code2;
         return $this;
     }
@@ -227,10 +227,10 @@ class AnnexeSuite {
     /**
      * Set the critere libre1.
      *
-     * @param string $critereLibre1 The critere libre1.
+     * @param string|null $critereLibre1 The critere libre1.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setCritereLibre1($critereLibre1) {
+    public function setCritereLibre1(?string $critereLibre1): AnnexeSuite {
         $this->critereLibre1 = $critereLibre1;
         return $this;
     }
@@ -238,10 +238,10 @@ class AnnexeSuite {
     /**
      * Set the critere libre2.
      *
-     * @param string $critereLibre2 The critere libre2.
+     * @param string|null $critereLibre2 The critere libre2.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setCritereLibre2($critereLibre2) {
+    public function setCritereLibre2(?string $critereLibre2): AnnexeSuite {
         $this->critereLibre2 = $critereLibre2;
         return $this;
     }
@@ -249,10 +249,10 @@ class AnnexeSuite {
     /**
      * Set the dest relance.
      *
-     * @param bool $destRelance The dest relance.
+     * @param bool|null $destRelance The dest relance.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setDestRelance($destRelance) {
+    public function setDestRelance(?bool $destRelance): AnnexeSuite {
         $this->destRelance = $destRelance;
         return $this;
     }
@@ -260,10 +260,10 @@ class AnnexeSuite {
     /**
      * Set the fax.
      *
-     * @param string $fax The fax.
+     * @param string|null $fax The fax.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setFax($fax) {
+    public function setFax(?string $fax): AnnexeSuite {
         $this->fax = $fax;
         return $this;
     }
@@ -271,10 +271,10 @@ class AnnexeSuite {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): AnnexeSuite {
         $this->numero = $numero;
         return $this;
     }
@@ -282,10 +282,10 @@ class AnnexeSuite {
     /**
      * Set the prenom.
      *
-     * @param string $prenom The prenom.
+     * @param string|null $prenom The prenom.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setPrenom($prenom) {
+    public function setPrenom(?string $prenom): AnnexeSuite {
         $this->prenom = $prenom;
         return $this;
     }
@@ -293,10 +293,10 @@ class AnnexeSuite {
     /**
      * Set the remarques rtf.
      *
-     * @param string $remarquesRtf The remarques rtf.
+     * @param string|null $remarquesRtf The remarques rtf.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setRemarquesRtf($remarquesRtf) {
+    public function setRemarquesRtf(?string $remarquesRtf): AnnexeSuite {
         $this->remarquesRtf = $remarquesRtf;
         return $this;
     }
@@ -304,10 +304,10 @@ class AnnexeSuite {
     /**
      * Set the service.
      *
-     * @param string $service The service.
+     * @param string|null $service The service.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setService($service) {
+    public function setService(?string $service): AnnexeSuite {
         $this->service = $service;
         return $this;
     }
@@ -315,10 +315,10 @@ class AnnexeSuite {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return AnnexeSuite Returns this Annexe suite.
      */
-    public function setType($type) {
+    public function setType(?string $type): AnnexeSuite {
         $this->type = $type;
         return $this;
     }

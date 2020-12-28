@@ -27,7 +27,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DevisChantiers();
 
@@ -40,7 +40,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DevisChantiers();
 
@@ -53,7 +53,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisChantiers();
 
@@ -66,7 +66,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajDescriptif() {
+    public function testSetMajDescriptif(): void {
 
         $obj = new DevisChantiers();
 
@@ -79,7 +79,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHt() {
+    public function testSetMontantHt(): void {
 
         $obj = new DevisChantiers();
 
@@ -92,7 +92,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumDevis() {
+    public function testSetNumDevis(): void {
 
         $obj = new DevisChantiers();
 
@@ -105,7 +105,7 @@ class DevisChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisChantiers();
 

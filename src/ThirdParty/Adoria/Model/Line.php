@@ -29,70 +29,70 @@ class Line {
     /**
      * Amount.
      *
-     * @var string
+     * @var string|null
      */
     private $amount;
 
     /**
      * Amount sign.
      *
-     * @var string
+     * @var string|null
      */
     private $amountSign;
 
     /**
      * Analytic code.
      *
-     * @var string
+     * @var string|null
      */
     private $analyticCode;
 
     /**
      * Booking journal code.
      *
-     * @var string
+     * @var string|null
      */
     private $bookingJournalCode;
 
     /**
      * Currency.
      *
-     * @var string
+     * @var string|null
      */
     private $currency;
 
     /**
      * Free field.
      *
-     * @var string
+     * @var string|null
      */
     private $freeField;
 
     /**
      * Invoice date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $invoiceDate;
 
     /**
      * Invoice due date.
      *
-     * @var DateTime
+     * @var DateTime|null
      */
     private $invoiceDueDate;
 
     /**
      * Invoice number.
      *
-     * @var string
+     * @var string|null
      */
     private $invoiceNumber;
 
     /**
      * Subledger account.
      *
-     * @var string
+     * @var string|null
      */
     private $subledgerAccount;
 
@@ -100,106 +100,106 @@ class Line {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO.
+        // NOTHING TO DO
     }
 
     /**
      * Get the amount.
      *
-     * @return string Returns the amount.
+     * @return string|null Returns the amount.
      */
-    public function getAmount() {
+    public function getAmount(): ?string {
         return $this->amount;
     }
 
     /**
      * Get the amount sign.
      *
-     * @return string Returns the amount sign.
+     * @return string|null Returns the amount sign.
      */
-    public function getAmountSign() {
+    public function getAmountSign(): ?string {
         return $this->amountSign;
     }
 
     /**
      * Get the analytic code.
      *
-     * @return string Returns the analytic code.
+     * @return string|null Returns the analytic code.
      */
-    public function getAnalyticCode() {
+    public function getAnalyticCode(): ?string {
         return $this->analyticCode;
     }
 
     /**
      * Get the booking journal code.
      *
-     * @return string Returns the booking journal code.
+     * @return string|null Returns the booking journal code.
      */
-    public function getBookingJournalCode() {
+    public function getBookingJournalCode(): ?string {
         return $this->bookingJournalCode;
     }
 
     /**
      * Get the currency.
      *
-     * @return string Returns the currency.
+     * @return string|null Returns the currency.
      */
-    public function getCurrency() {
+    public function getCurrency(): ?string {
         return $this->currency;
     }
 
     /**
      * Get the free field.
      *
-     * @return string Returns the free field.
+     * @return string|null Returns the free field.
      */
-    public function getFreeField() {
+    public function getFreeField(): ?string {
         return $this->freeField;
     }
 
     /**
      * Get the invoice date.
      *
-     * @return DateTime Returns the invoice date.
+     * @return DateTime|null Returns the invoice date.
      */
-    public function getInvoiceDate() {
+    public function getInvoiceDate(): ?DateTime {
         return $this->invoiceDate;
     }
 
     /**
      * Get the invoice date.
      *
-     * @return DateTime Returns the invoice date.
+     * @return DateTime|null Returns the invoice date.
      */
-    public function getInvoiceDueDate() {
+    public function getInvoiceDueDate(): ?DateTime {
         return $this->invoiceDueDate;
     }
 
     /**
      * Get the invoice number.
      *
-     * @return string Returns the invoice number.
+     * @return string|null Returns the invoice number.
      */
-    public function getInvoiceNumber() {
+    public function getInvoiceNumber(): ?string {
         return $this->invoiceNumber;
     }
 
     /**
      * Get the subledger account.
      *
-     * @return string Returns the subledger account.
+     * @return string|null Returns the subledger account.
      */
-    public function getSubledgerAccount() {
+    public function getSubledgerAccount(): ?string {
         return $this->subledgerAccount;
     }
 
     /**
      * Set the amount.
      *
-     * @param string $amount The amount.
+     * @param string|null $amount The amount.
      * @return Line Returns this line.
      */
-    public function setAmount($amount) {
+    public function setAmount(?string $amount): Line {
         $this->amount = $amount;
         return $this;
     }
@@ -207,10 +207,10 @@ class Line {
     /**
      * Set the amount sign.
      *
-     * @param string $amountSign The amount sign.
+     * @param string|null $amountSign The amount sign.
      * @return Line Returns this line.
      */
-    public function setAmountSign($amountSign) {
+    public function setAmountSign(?string $amountSign): Line {
         $this->amountSign = $amountSign;
         return $this;
     }
@@ -218,10 +218,10 @@ class Line {
     /**
      * Set the analytic code.
      *
-     * @param string $analyticCode The analytic code.
+     * @param string|null $analyticCode The analytic code.
      * @return Line Returns this line.
      */
-    public function setAnalyticCode($analyticCode) {
+    public function setAnalyticCode(?string $analyticCode): Line {
         $this->analyticCode = $analyticCode;
         return $this;
     }
@@ -229,10 +229,10 @@ class Line {
     /**
      * Set the booking journal code.
      *
-     * @param string $bookingJournalCode The booking journal code.
+     * @param string|null $bookingJournalCode The booking journal code.
      * @return Line Returns this line.
      */
-    public function setBookingJournalCode($bookingJournalCode) {
+    public function setBookingJournalCode(?string $bookingJournalCode): Line {
         $this->bookingJournalCode = $bookingJournalCode;
         return $this;
     }
@@ -240,10 +240,10 @@ class Line {
     /**
      * Set the currency.
      *
-     * @param string $currency The currency.
+     * @param string|null $currency The currency.
      * @return Line Returns this line.
      */
-    public function setCurrency($currency) {
+    public function setCurrency(?string $currency): Line {
         $this->currency = $currency;
         return $this;
     }
@@ -251,10 +251,10 @@ class Line {
     /**
      * Set the free field.
      *
-     * @param string $freeField The free field.
+     * @param string|null $freeField The free field.
      * @return Line Returns this line.
      */
-    public function setFreeField($freeField) {
+    public function setFreeField(?string $freeField): Line {
         $this->freeField = $freeField;
         return $this;
     }
@@ -265,7 +265,7 @@ class Line {
      * @param DateTime|null $invoiceDate The invoice date.
      * @return Line Returns this line.
      */
-    public function setInvoiceDate(DateTime $invoiceDate = null) {
+    public function setInvoiceDate(?DateTime $invoiceDate): Line {
         $this->invoiceDate = $invoiceDate;
         return $this;
     }
@@ -276,7 +276,7 @@ class Line {
      * @param DateTime|null $invoiceDueDate The invoice due date.
      * @return Line Returns this line.
      */
-    public function setInvoiceDueDate(DateTime $invoiceDueDate = null) {
+    public function setInvoiceDueDate(?DateTime $invoiceDueDate): Line {
         $this->invoiceDueDate = $invoiceDueDate;
         return $this;
     }
@@ -284,10 +284,10 @@ class Line {
     /**
      * Set the invoice number.
      *
-     * @param string $invoiceNumber The invoice number.
+     * @param string|null $invoiceNumber The invoice number.
      * @return Line Returns this line.
      */
-    public function setInvoiceNumber($invoiceNumber) {
+    public function setInvoiceNumber(?string $invoiceNumber): Line {
         $this->invoiceNumber = $invoiceNumber;
         return $this;
     }
@@ -295,10 +295,10 @@ class Line {
     /**
      * Set the subledger account.
      *
-     * @param string $subledgerAccount The subledger account.
+     * @param string|null $subledgerAccount The subledger account.
      * @return Line Returns this line.
      */
-    public function setSubledgerAccount($subledgerAccount) {
+    public function setSubledgerAccount(?string $subledgerAccount): Line {
         $this->subledgerAccount = $subledgerAccount;
         return $this;
     }

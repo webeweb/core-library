@@ -33,9 +33,9 @@ class OracleMySQLDatabaseConnector extends AbstractDatabaseConnector {
      * Constructor.
      *
      * @param Authenticator $authenticator The authenticator.
-     * @param string $database The database.
+     * @param string|null $database The database.
      */
-    public function __construct(Authenticator $authenticator, $database) {
+    public function __construct(Authenticator $authenticator, ?string $database) {
         parent::__construct($authenticator);
 
         $this->setDatabase($database);
@@ -46,9 +46,9 @@ class OracleMySQLDatabaseConnector extends AbstractDatabaseConnector {
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function connect() {
+    protected function connect(): PDO {
 
         $searches   = ["%HOST%", "%PORT%", "%DATABASE%"];
         $replaces   = [$this->getAuthenticator()->getHostname(), $this->getAuthenticator()->getPort(), $this->getDatabase()];

@@ -22,25 +22,25 @@ trait StringUsernameTrait {
     /**
      * Username.
      *
-     * @var string
+     * @var string|null
      */
     protected $username;
 
     /**
      * Get the username.
      *
-     * @return string Returns the username.
+     * @return string|null Returns the username.
      */
-    public function getUsername() {
+    public function getUsername(): ?string {
         return $this->username;
     }
 
     /**
      * Set the username.
      *
-     * @param string $username The username.
+     * @param string|null $username The username.
      */
-    public function setUsername($username) {
+    public function setUsername(?string $username) {
         $this->username = $username;
         return $this;
     }

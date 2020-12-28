@@ -24,154 +24,154 @@ class ChargesPaie {
     /**
      * Arbitrage.
      *
-     * @var float
+     * @var float|null
      */
     private $arbitrage;
 
     /**
      * Brut.
      *
-     * @var float
+     * @var float|null
      */
     private $brut;
 
     /**
      * Brut al.
      *
-     * @var float
+     * @var float|null
      */
     private $brutAl;
 
     /**
      * Brut anl.
      *
-     * @var float
+     * @var float|null
      */
     private $brutAnl;
 
     /**
      * Charges patronales.
      *
-     * @var float
+     * @var float|null
      */
     private $chargesPatronales;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $euro;
 
     /**
      * Heures sup.
      *
-     * @var float
+     * @var float|null
      */
     private $heuresSup;
 
     /**
      * Impos.
      *
-     * @var float
+     * @var float|null
      */
     private $impos;
 
     /**
      * Indemnite cp.
      *
-     * @var float
+     * @var float|null
      */
     private $indemniteCp;
 
     /**
      * Indemnite precarite.
      *
-     * @var float
+     * @var float|null
      */
     private $indemnitePrecarite;
 
     /**
      * Interessement.
      *
-     * @var float
+     * @var float|null
      */
     private $interessement;
 
     /**
      * Mt net paye theo.
      *
-     * @var float
+     * @var float|null
      */
     private $mtNetPayeTheo;
 
     /**
      * Nb h abs.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHAbs;
 
     /**
      * Nb h base.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHBase;
 
     /**
+     * Nb hn.
+     *
+     * @var float|null
+     */
+    private $nbHn;
+
+    /**
      * Nb h rc.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHRc;
 
     /**
      * Nb h sup1.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHSup1;
 
     /**
      * Nb h sup2.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHSup2;
 
     /**
      * Nb h sup3.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHSup3;
 
     /**
-     * Nb hn.
-     *
-     * @var float
-     */
-    private $nbHn;
-
-    /**
      * Nb ht.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHt;
 
     /**
      * Participation.
      *
-     * @var float
+     * @var float|null
      */
     private $participation;
 
@@ -185,261 +185,262 @@ class ChargesPaie {
     /**
      * Provision cp.
      *
-     * @var float
+     * @var float|null
      */
     private $provisionCp;
 
     /**
      * S base.
      *
-     * @var float
+     * @var float|null
      */
     private $sBase;
 
     /**
      * Salaire.
      *
-     * @var float
+     * @var float|null
      */
     private $salaire;
 
     /**
      * Tot ret.
      *
-     * @var float
+     * @var float|null
      */
     private $totRet;
 
     /**
      * Tr a.
      *
-     * @var float
+     * @var float|null
      */
     private $trA;
 
     /**
      * Tr b.
      *
-     * @var float
+     * @var float|null
      */
     private $trB;
 
     /**
      * Tr c.
      *
-     * @var float
+     * @var float|null
      */
     private $trC;
 
     /**
      * Tx hn.
      *
-     * @var float
+     * @var float|null
      */
     private $txHn;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the arbitrage.
      *
-     * @return float Returns the arbitrage.
+     * @return float|null Returns the arbitrage.
      */
-    public function getArbitrage() {
+    public function getArbitrage(): ?float{
         return $this->arbitrage;
     }
 
     /**
      * Get the brut.
      *
-     * @return float Returns the brut.
+     * @return float|null Returns the brut.
      */
-    public function getBrut() {
+    public function getBrut(): ?float{
         return $this->brut;
     }
 
     /**
      * Get the brut al.
      *
-     * @return float Returns the brut al.
+     * @return float|null Returns the brut al.
      */
-    public function getBrutAl() {
+    public function getBrutAl(): ?float{
         return $this->brutAl;
     }
 
     /**
      * Get the brut anl.
      *
-     * @return float Returns the brut anl.
+     * @return float|null Returns the brut anl.
      */
-    public function getBrutAnl() {
+    public function getBrutAnl(): ?float{
         return $this->brutAnl;
     }
 
     /**
      * Get the charges patronales.
      *
-     * @return float Returns the charges patronales.
+     * @return float|null Returns the charges patronales.
      */
-    public function getChargesPatronales() {
+    public function getChargesPatronales(): ?float{
         return $this->chargesPatronales;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the euro.
      *
-     * @return bool Returns the euro.
+     * @return bool|null Returns the euro.
      */
-    public function getEuro() {
+    public function getEuro(): ?bool{
         return $this->euro;
     }
 
     /**
      * Get the heures sup.
      *
-     * @return float Returns the heures sup.
+     * @return float|null Returns the heures sup.
      */
-    public function getHeuresSup() {
+    public function getHeuresSup(): ?float{
         return $this->heuresSup;
     }
 
     /**
      * Get the impos.
      *
-     * @return float Returns the impos.
+     * @return float|null Returns the impos.
      */
-    public function getImpos() {
+    public function getImpos(): ?float{
         return $this->impos;
     }
 
     /**
      * Get the indemnite cp.
      *
-     * @return float Returns the indemnite cp.
+     * @return float|null Returns the indemnite cp.
      */
-    public function getIndemniteCp() {
+    public function getIndemniteCp(): ?float{
         return $this->indemniteCp;
     }
 
     /**
      * Get the indemnite precarite.
      *
-     * @return float Returns the indemnite precarite.
+     * @return float|null Returns the indemnite precarite.
      */
-    public function getIndemnitePrecarite() {
+    public function getIndemnitePrecarite(): ?float{
         return $this->indemnitePrecarite;
     }
 
     /**
      * Get the interessement.
      *
-     * @return float Returns the interessement.
+     * @return float|null Returns the interessement.
      */
-    public function getInteressement() {
+    public function getInteressement(): ?float{
         return $this->interessement;
     }
 
     /**
      * Get the mt net paye theo.
      *
-     * @return float Returns the mt net paye theo.
+     * @return float|null Returns the mt net paye theo.
      */
-    public function getMtNetPayeTheo() {
+    public function getMtNetPayeTheo(): ?float{
         return $this->mtNetPayeTheo;
     }
 
     /**
      * Get the nb h abs.
      *
-     * @return float Returns the nb h abs.
+     * @return float|null Returns the nb h abs.
      */
-    public function getNbHAbs() {
+    public function getNbHAbs(): ?float{
         return $this->nbHAbs;
     }
 
     /**
      * Get the nb h base.
      *
-     * @return float Returns the nb h base.
+     * @return float|null Returns the nb h base.
      */
-    public function getNbHBase() {
+    public function getNbHBase(): ?float{
         return $this->nbHBase;
+    }
+
+    /**
+     * Get the nb hn.
+     *
+     * @return float|null Returns the nb hn.
+     */
+    public function getNbHn(): ?float{
+        return $this->nbHn;
     }
 
     /**
      * Get the nb h rc.
      *
-     * @return float Returns the nb h rc.
+     * @return float|null Returns the nb h rc.
      */
-    public function getNbHRc() {
+    public function getNbHRc(): ?float{
         return $this->nbHRc;
     }
 
     /**
      * Get the nb h sup1.
      *
-     * @return float Returns the nb h sup1.
+     * @return float|null Returns the nb h sup1.
      */
-    public function getNbHSup1() {
+    public function getNbHSup1(): ?float{
         return $this->nbHSup1;
     }
 
     /**
      * Get the nb h sup2.
      *
-     * @return float Returns the nb h sup2.
+     * @return float|null Returns the nb h sup2.
      */
-    public function getNbHSup2() {
+    public function getNbHSup2(): ?float{
         return $this->nbHSup2;
     }
 
     /**
      * Get the nb h sup3.
      *
-     * @return float Returns the nb h sup3.
+     * @return float|null Returns the nb h sup3.
      */
-    public function getNbHSup3() {
+    public function getNbHSup3(): ?float{
         return $this->nbHSup3;
-    }
-
-    /**
-     * Get the nb hn.
-     *
-     * @return float Returns the nb hn.
-     */
-    public function getNbHn() {
-        return $this->nbHn;
     }
 
     /**
      * Get the nb ht.
      *
-     * @return float Returns the nb ht.
+     * @return float|null Returns the nb ht.
      */
-    public function getNbHt() {
+    public function getNbHt(): ?float{
         return $this->nbHt;
     }
 
     /**
      * Get the participation.
      *
-     * @return float Returns the participation.
+     * @return float|null Returns the participation.
      */
-    public function getParticipation() {
+    public function getParticipation(): ?float{
         return $this->participation;
     }
 
@@ -448,89 +449,89 @@ class ChargesPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the provision cp.
      *
-     * @return float Returns the provision cp.
+     * @return float|null Returns the provision cp.
      */
-    public function getProvisionCp() {
+    public function getProvisionCp(): ?float{
         return $this->provisionCp;
     }
 
     /**
      * Get the s base.
      *
-     * @return float Returns the s base.
+     * @return float|null Returns the s base.
      */
-    public function getSBase() {
+    public function getSBase(): ?float{
         return $this->sBase;
     }
 
     /**
      * Get the salaire.
      *
-     * @return float Returns the salaire.
+     * @return float|null Returns the salaire.
      */
-    public function getSalaire() {
+    public function getSalaire(): ?float{
         return $this->salaire;
     }
 
     /**
      * Get the tot ret.
      *
-     * @return float Returns the tot ret.
+     * @return float|null Returns the tot ret.
      */
-    public function getTotRet() {
+    public function getTotRet(): ?float{
         return $this->totRet;
     }
 
     /**
      * Get the tr a.
      *
-     * @return float Returns the tr a.
+     * @return float|null Returns the tr a.
      */
-    public function getTrA() {
+    public function getTrA(): ?float{
         return $this->trA;
     }
 
     /**
      * Get the tr b.
      *
-     * @return float Returns the tr b.
+     * @return float|null Returns the tr b.
      */
-    public function getTrB() {
+    public function getTrB(): ?float{
         return $this->trB;
     }
 
     /**
      * Get the tr c.
      *
-     * @return float Returns the tr c.
+     * @return float|null Returns the tr c.
      */
-    public function getTrC() {
+    public function getTrC(): ?float{
         return $this->trC;
     }
 
     /**
      * Get the tx hn.
      *
-     * @return float Returns the tx hn.
+     * @return float|null Returns the tx hn.
      */
-    public function getTxHn() {
+    public function getTxHn(): ?float{
         return $this->txHn;
     }
 
     /**
      * Set the arbitrage.
      *
-     * @param float $arbitrage The arbitrage.
+     * @param float|null $arbitrage The arbitrage.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setArbitrage($arbitrage) {
+    public function setArbitrage(?float $arbitrage): ChargesPaie {
         $this->arbitrage = $arbitrage;
         return $this;
     }
@@ -538,10 +539,10 @@ class ChargesPaie {
     /**
      * Set the brut.
      *
-     * @param float $brut The brut.
+     * @param float|null $brut The brut.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setBrut($brut) {
+    public function setBrut(?float $brut): ChargesPaie {
         $this->brut = $brut;
         return $this;
     }
@@ -549,10 +550,10 @@ class ChargesPaie {
     /**
      * Set the brut al.
      *
-     * @param float $brutAl The brut al.
+     * @param float|null $brutAl The brut al.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setBrutAl($brutAl) {
+    public function setBrutAl(?float $brutAl): ChargesPaie {
         $this->brutAl = $brutAl;
         return $this;
     }
@@ -560,10 +561,10 @@ class ChargesPaie {
     /**
      * Set the brut anl.
      *
-     * @param float $brutAnl The brut anl.
+     * @param float|null $brutAnl The brut anl.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setBrutAnl($brutAnl) {
+    public function setBrutAnl(?float $brutAnl): ChargesPaie {
         $this->brutAnl = $brutAnl;
         return $this;
     }
@@ -571,10 +572,10 @@ class ChargesPaie {
     /**
      * Set the charges patronales.
      *
-     * @param float $chargesPatronales The charges patronales.
+     * @param float|null $chargesPatronales The charges patronales.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setChargesPatronales($chargesPatronales) {
+    public function setChargesPatronales(?float $chargesPatronales): ChargesPaie {
         $this->chargesPatronales = $chargesPatronales;
         return $this;
     }
@@ -582,10 +583,10 @@ class ChargesPaie {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): ChargesPaie {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -593,10 +594,10 @@ class ChargesPaie {
     /**
      * Set the euro.
      *
-     * @param bool $euro The euro.
+     * @param bool|null $euro The euro.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setEuro($euro) {
+    public function setEuro(?bool $euro): ChargesPaie {
         $this->euro = $euro;
         return $this;
     }
@@ -604,10 +605,10 @@ class ChargesPaie {
     /**
      * Set the heures sup.
      *
-     * @param float $heuresSup The heures sup.
+     * @param float|null $heuresSup The heures sup.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setHeuresSup($heuresSup) {
+    public function setHeuresSup(?float $heuresSup): ChargesPaie {
         $this->heuresSup = $heuresSup;
         return $this;
     }
@@ -615,10 +616,10 @@ class ChargesPaie {
     /**
      * Set the impos.
      *
-     * @param float $impos The impos.
+     * @param float|null $impos The impos.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setImpos($impos) {
+    public function setImpos(?float $impos): ChargesPaie {
         $this->impos = $impos;
         return $this;
     }
@@ -626,10 +627,10 @@ class ChargesPaie {
     /**
      * Set the indemnite cp.
      *
-     * @param float $indemniteCp The indemnite cp.
+     * @param float|null $indemniteCp The indemnite cp.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setIndemniteCp($indemniteCp) {
+    public function setIndemniteCp(?float $indemniteCp): ChargesPaie {
         $this->indemniteCp = $indemniteCp;
         return $this;
     }
@@ -637,10 +638,10 @@ class ChargesPaie {
     /**
      * Set the indemnite precarite.
      *
-     * @param float $indemnitePrecarite The indemnite precarite.
+     * @param float|null $indemnitePrecarite The indemnite precarite.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setIndemnitePrecarite($indemnitePrecarite) {
+    public function setIndemnitePrecarite(?float $indemnitePrecarite): ChargesPaie {
         $this->indemnitePrecarite = $indemnitePrecarite;
         return $this;
     }
@@ -648,10 +649,10 @@ class ChargesPaie {
     /**
      * Set the interessement.
      *
-     * @param float $interessement The interessement.
+     * @param float|null $interessement The interessement.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setInteressement($interessement) {
+    public function setInteressement(?float $interessement): ChargesPaie {
         $this->interessement = $interessement;
         return $this;
     }
@@ -659,10 +660,10 @@ class ChargesPaie {
     /**
      * Set the mt net paye theo.
      *
-     * @param float $mtNetPayeTheo The mt net paye theo.
+     * @param float|null $mtNetPayeTheo The mt net paye theo.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setMtNetPayeTheo($mtNetPayeTheo) {
+    public function setMtNetPayeTheo(?float $mtNetPayeTheo): ChargesPaie {
         $this->mtNetPayeTheo = $mtNetPayeTheo;
         return $this;
     }
@@ -670,10 +671,10 @@ class ChargesPaie {
     /**
      * Set the nb h abs.
      *
-     * @param float $nbHAbs The nb h abs.
+     * @param float|null $nbHAbs The nb h abs.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHAbs($nbHAbs) {
+    public function setNbHAbs(?float $nbHAbs): ChargesPaie {
         $this->nbHAbs = $nbHAbs;
         return $this;
     }
@@ -681,21 +682,32 @@ class ChargesPaie {
     /**
      * Set the nb h base.
      *
-     * @param float $nbHBase The nb h base.
+     * @param float|null $nbHBase The nb h base.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHBase($nbHBase) {
+    public function setNbHBase(?float $nbHBase): ChargesPaie {
         $this->nbHBase = $nbHBase;
+        return $this;
+    }
+
+    /**
+     * Set the nb hn.
+     *
+     * @param float|null $nbHn The nb hn.
+     * @return ChargesPaie Returns this Charges paie.
+     */
+    public function setNbHn(?float $nbHn): ChargesPaie {
+        $this->nbHn = $nbHn;
         return $this;
     }
 
     /**
      * Set the nb h rc.
      *
-     * @param float $nbHRc The nb h rc.
+     * @param float|null $nbHRc The nb h rc.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHRc($nbHRc) {
+    public function setNbHRc(?float $nbHRc): ChargesPaie {
         $this->nbHRc = $nbHRc;
         return $this;
     }
@@ -703,10 +715,10 @@ class ChargesPaie {
     /**
      * Set the nb h sup1.
      *
-     * @param float $nbHSup1 The nb h sup1.
+     * @param float|null $nbHSup1 The nb h sup1.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHSup1($nbHSup1) {
+    public function setNbHSup1(?float $nbHSup1): ChargesPaie {
         $this->nbHSup1 = $nbHSup1;
         return $this;
     }
@@ -714,10 +726,10 @@ class ChargesPaie {
     /**
      * Set the nb h sup2.
      *
-     * @param float $nbHSup2 The nb h sup2.
+     * @param float|null $nbHSup2 The nb h sup2.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHSup2($nbHSup2) {
+    public function setNbHSup2(?float $nbHSup2): ChargesPaie {
         $this->nbHSup2 = $nbHSup2;
         return $this;
     }
@@ -725,32 +737,21 @@ class ChargesPaie {
     /**
      * Set the nb h sup3.
      *
-     * @param float $nbHSup3 The nb h sup3.
+     * @param float|null $nbHSup3 The nb h sup3.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHSup3($nbHSup3) {
+    public function setNbHSup3(?float $nbHSup3): ChargesPaie {
         $this->nbHSup3 = $nbHSup3;
-        return $this;
-    }
-
-    /**
-     * Set the nb hn.
-     *
-     * @param float $nbHn The nb hn.
-     * @return ChargesPaie Returns this Charges paie.
-     */
-    public function setNbHn($nbHn) {
-        $this->nbHn = $nbHn;
         return $this;
     }
 
     /**
      * Set the nb ht.
      *
-     * @param float $nbHt The nb ht.
+     * @param float|null $nbHt The nb ht.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setNbHt($nbHt) {
+    public function setNbHt(?float $nbHt): ChargesPaie {
         $this->nbHt = $nbHt;
         return $this;
     }
@@ -758,10 +759,10 @@ class ChargesPaie {
     /**
      * Set the participation.
      *
-     * @param float $participation The participation.
+     * @param float|null $participation The participation.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setParticipation($participation) {
+    public function setParticipation(?float $participation): ChargesPaie {
         $this->participation = $participation;
         return $this;
     }
@@ -772,7 +773,7 @@ class ChargesPaie {
      * @param DateTime|null $periode The periode.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): ChargesPaie {
         $this->periode = $periode;
         return $this;
     }
@@ -780,10 +781,10 @@ class ChargesPaie {
     /**
      * Set the provision cp.
      *
-     * @param float $provisionCp The provision cp.
+     * @param float|null $provisionCp The provision cp.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setProvisionCp($provisionCp) {
+    public function setProvisionCp(?float $provisionCp): ChargesPaie {
         $this->provisionCp = $provisionCp;
         return $this;
     }
@@ -791,10 +792,10 @@ class ChargesPaie {
     /**
      * Set the s base.
      *
-     * @param float $sBase The s base.
+     * @param float|null $sBase The s base.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setSBase($sBase) {
+    public function setSBase(?float $sBase): ChargesPaie {
         $this->sBase = $sBase;
         return $this;
     }
@@ -802,10 +803,10 @@ class ChargesPaie {
     /**
      * Set the salaire.
      *
-     * @param float $salaire The salaire.
+     * @param float|null $salaire The salaire.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setSalaire($salaire) {
+    public function setSalaire(?float $salaire): ChargesPaie {
         $this->salaire = $salaire;
         return $this;
     }
@@ -813,10 +814,10 @@ class ChargesPaie {
     /**
      * Set the tot ret.
      *
-     * @param float $totRet The tot ret.
+     * @param float|null $totRet The tot ret.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setTotRet($totRet) {
+    public function setTotRet(?float $totRet): ChargesPaie {
         $this->totRet = $totRet;
         return $this;
     }
@@ -824,10 +825,10 @@ class ChargesPaie {
     /**
      * Set the tr a.
      *
-     * @param float $trA The tr a.
+     * @param float|null $trA The tr a.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setTrA($trA) {
+    public function setTrA(?float $trA): ChargesPaie {
         $this->trA = $trA;
         return $this;
     }
@@ -835,10 +836,10 @@ class ChargesPaie {
     /**
      * Set the tr b.
      *
-     * @param float $trB The tr b.
+     * @param float|null $trB The tr b.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setTrB($trB) {
+    public function setTrB(?float $trB): ChargesPaie {
         $this->trB = $trB;
         return $this;
     }
@@ -846,10 +847,10 @@ class ChargesPaie {
     /**
      * Set the tr c.
      *
-     * @param float $trC The tr c.
+     * @param float|null $trC The tr c.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setTrC($trC) {
+    public function setTrC(?float $trC): ChargesPaie {
         $this->trC = $trC;
         return $this;
     }
@@ -857,10 +858,10 @@ class ChargesPaie {
     /**
      * Set the tx hn.
      *
-     * @param float $txHn The tx hn.
+     * @param float|null $txHn The tx hn.
      * @return ChargesPaie Returns this Charges paie.
      */
-    public function setTxHn($txHn) {
+    public function setTxHn(?float $txHn): ChargesPaie {
         $this->txHn = $txHn;
         return $this;
     }

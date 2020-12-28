@@ -24,28 +24,28 @@ class SuiviCompteParticulier {
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
     /**
      * Code lettrage.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLettrage;
 
     /**
      * Code libelle auto.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelleAuto;
 
     /**
      * Code operateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOperateur;
 
@@ -59,63 +59,63 @@ class SuiviCompteParticulier {
     /**
      * Folio.
      *
-     * @var int
+     * @var int|null
      */
     private $folio;
 
     /**
      * Jour ecriture.
      *
-     * @var string
+     * @var string|null
      */
     private $jourEcriture;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Ligne folio.
      *
-     * @var int
+     * @var int|null
      */
     private $ligneFolio;
 
     /**
      * Montant tenu credit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTenuCredit;
 
     /**
      * Montant tenu debit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTenuDebit;
 
     /**
      * Num uniq.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniq;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero piece.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroPiece;
 
@@ -129,57 +129,58 @@ class SuiviCompteParticulier {
     /**
      * Type ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $typeLigne;
 
     /**
      * Type operation.
      *
-     * @var string
+     * @var string|null
      */
     private $typeOperation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
     /**
      * Get the code lettrage.
      *
-     * @return string Returns the code lettrage.
+     * @return string|null Returns the code lettrage.
      */
-    public function getCodeLettrage() {
+    public function getCodeLettrage(): ?string{
         return $this->codeLettrage;
     }
 
     /**
      * Get the code libelle auto.
      *
-     * @return string Returns the code libelle auto.
+     * @return string|null Returns the code libelle auto.
      */
-    public function getCodeLibelleAuto() {
+    public function getCodeLibelleAuto(): ?string{
         return $this->codeLibelleAuto;
     }
 
     /**
      * Get the code operateur.
      *
-     * @return string Returns the code operateur.
+     * @return string|null Returns the code operateur.
      */
-    public function getCodeOperateur() {
+    public function getCodeOperateur(): ?string{
         return $this->codeOperateur;
     }
 
@@ -188,88 +189,88 @@ class SuiviCompteParticulier {
      *
      * @return DateTime|null Returns the date operation.
      */
-    public function getDateOperation() {
+    public function getDateOperation(): ?DateTime{
         return $this->dateOperation;
     }
 
     /**
      * Get the folio.
      *
-     * @return int Returns the folio.
+     * @return int|null Returns the folio.
      */
-    public function getFolio() {
+    public function getFolio(): ?int{
         return $this->folio;
     }
 
     /**
      * Get the jour ecriture.
      *
-     * @return string Returns the jour ecriture.
+     * @return string|null Returns the jour ecriture.
      */
-    public function getJourEcriture() {
+    public function getJourEcriture(): ?string{
         return $this->jourEcriture;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the ligne folio.
      *
-     * @return int Returns the ligne folio.
+     * @return int|null Returns the ligne folio.
      */
-    public function getLigneFolio() {
+    public function getLigneFolio(): ?int{
         return $this->ligneFolio;
     }
 
     /**
      * Get the montant tenu credit.
      *
-     * @return float Returns the montant tenu credit.
+     * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit() {
+    public function getMontantTenuCredit(): ?float{
         return $this->montantTenuCredit;
     }
 
     /**
      * Get the montant tenu debit.
      *
-     * @return float Returns the montant tenu debit.
+     * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit() {
+    public function getMontantTenuDebit(): ?float{
         return $this->montantTenuDebit;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return int Returns the num uniq.
+     * @return int|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?int{
         return $this->numUniq;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero piece.
      *
-     * @return string Returns the numero piece.
+     * @return string|null Returns the numero piece.
      */
-    public function getNumeroPiece() {
+    public function getNumeroPiece(): ?string{
         return $this->numeroPiece;
     }
 
@@ -278,35 +279,35 @@ class SuiviCompteParticulier {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture() {
+    public function getPeriodeEcriture(): ?DateTime{
         return $this->periodeEcriture;
     }
 
     /**
      * Get the type ligne.
      *
-     * @return string Returns the type ligne.
+     * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne() {
+    public function getTypeLigne(): ?string{
         return $this->typeLigne;
     }
 
     /**
      * Get the type operation.
      *
-     * @return string Returns the type operation.
+     * @return string|null Returns the type operation.
      */
-    public function getTypeOperation() {
+    public function getTypeOperation(): ?string{
         return $this->typeOperation;
     }
 
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): SuiviCompteParticulier {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -314,10 +315,10 @@ class SuiviCompteParticulier {
     /**
      * Set the code lettrage.
      *
-     * @param string $codeLettrage The code lettrage.
+     * @param string|null $codeLettrage The code lettrage.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setCodeLettrage($codeLettrage) {
+    public function setCodeLettrage(?string $codeLettrage): SuiviCompteParticulier {
         $this->codeLettrage = $codeLettrage;
         return $this;
     }
@@ -325,10 +326,10 @@ class SuiviCompteParticulier {
     /**
      * Set the code libelle auto.
      *
-     * @param string $codeLibelleAuto The code libelle auto.
+     * @param string|null $codeLibelleAuto The code libelle auto.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setCodeLibelleAuto($codeLibelleAuto) {
+    public function setCodeLibelleAuto(?string $codeLibelleAuto): SuiviCompteParticulier {
         $this->codeLibelleAuto = $codeLibelleAuto;
         return $this;
     }
@@ -336,10 +337,10 @@ class SuiviCompteParticulier {
     /**
      * Set the code operateur.
      *
-     * @param string $codeOperateur The code operateur.
+     * @param string|null $codeOperateur The code operateur.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setCodeOperateur($codeOperateur) {
+    public function setCodeOperateur(?string $codeOperateur): SuiviCompteParticulier {
         $this->codeOperateur = $codeOperateur;
         return $this;
     }
@@ -350,7 +351,7 @@ class SuiviCompteParticulier {
      * @param DateTime|null $dateOperation The date operation.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setDateOperation(DateTime $dateOperation = null) {
+    public function setDateOperation(?DateTime $dateOperation): SuiviCompteParticulier {
         $this->dateOperation = $dateOperation;
         return $this;
     }
@@ -358,10 +359,10 @@ class SuiviCompteParticulier {
     /**
      * Set the folio.
      *
-     * @param int $folio The folio.
+     * @param int|null $folio The folio.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setFolio($folio) {
+    public function setFolio(?int $folio): SuiviCompteParticulier {
         $this->folio = $folio;
         return $this;
     }
@@ -369,10 +370,10 @@ class SuiviCompteParticulier {
     /**
      * Set the jour ecriture.
      *
-     * @param string $jourEcriture The jour ecriture.
+     * @param string|null $jourEcriture The jour ecriture.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setJourEcriture($jourEcriture) {
+    public function setJourEcriture(?string $jourEcriture): SuiviCompteParticulier {
         $this->jourEcriture = $jourEcriture;
         return $this;
     }
@@ -380,10 +381,10 @@ class SuiviCompteParticulier {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): SuiviCompteParticulier {
         $this->libelle = $libelle;
         return $this;
     }
@@ -391,10 +392,10 @@ class SuiviCompteParticulier {
     /**
      * Set the ligne folio.
      *
-     * @param int $ligneFolio The ligne folio.
+     * @param int|null $ligneFolio The ligne folio.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setLigneFolio($ligneFolio) {
+    public function setLigneFolio(?int $ligneFolio): SuiviCompteParticulier {
         $this->ligneFolio = $ligneFolio;
         return $this;
     }
@@ -402,10 +403,10 @@ class SuiviCompteParticulier {
     /**
      * Set the montant tenu credit.
      *
-     * @param float $montantTenuCredit The montant tenu credit.
+     * @param float|null $montantTenuCredit The montant tenu credit.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setMontantTenuCredit($montantTenuCredit) {
+    public function setMontantTenuCredit(?float $montantTenuCredit): SuiviCompteParticulier {
         $this->montantTenuCredit = $montantTenuCredit;
         return $this;
     }
@@ -413,10 +414,10 @@ class SuiviCompteParticulier {
     /**
      * Set the montant tenu debit.
      *
-     * @param float $montantTenuDebit The montant tenu debit.
+     * @param float|null $montantTenuDebit The montant tenu debit.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setMontantTenuDebit($montantTenuDebit) {
+    public function setMontantTenuDebit(?float $montantTenuDebit): SuiviCompteParticulier {
         $this->montantTenuDebit = $montantTenuDebit;
         return $this;
     }
@@ -424,10 +425,10 @@ class SuiviCompteParticulier {
     /**
      * Set the num uniq.
      *
-     * @param int $numUniq The num uniq.
+     * @param int|null $numUniq The num uniq.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?int $numUniq): SuiviCompteParticulier {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -435,10 +436,10 @@ class SuiviCompteParticulier {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): SuiviCompteParticulier {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -446,10 +447,10 @@ class SuiviCompteParticulier {
     /**
      * Set the numero piece.
      *
-     * @param string $numeroPiece The numero piece.
+     * @param string|null $numeroPiece The numero piece.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setNumeroPiece($numeroPiece) {
+    public function setNumeroPiece(?string $numeroPiece): SuiviCompteParticulier {
         $this->numeroPiece = $numeroPiece;
         return $this;
     }
@@ -460,7 +461,7 @@ class SuiviCompteParticulier {
      * @param DateTime|null $periodeEcriture The periode ecriture.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
+    public function setPeriodeEcriture(?DateTime $periodeEcriture): SuiviCompteParticulier {
         $this->periodeEcriture = $periodeEcriture;
         return $this;
     }
@@ -468,10 +469,10 @@ class SuiviCompteParticulier {
     /**
      * Set the type ligne.
      *
-     * @param string $typeLigne The type ligne.
+     * @param string|null $typeLigne The type ligne.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setTypeLigne($typeLigne) {
+    public function setTypeLigne(?string $typeLigne): SuiviCompteParticulier {
         $this->typeLigne = $typeLigne;
         return $this;
     }
@@ -479,10 +480,10 @@ class SuiviCompteParticulier {
     /**
      * Set the type operation.
      *
-     * @param string $typeOperation The type operation.
+     * @param string|null $typeOperation The type operation.
      * @return SuiviCompteParticulier Returns this Suivi compte particulier.
      */
-    public function setTypeOperation($typeOperation) {
+    public function setTypeOperation(?string $typeOperation): SuiviCompteParticulier {
         $this->typeOperation = $typeOperation;
         return $this;
     }

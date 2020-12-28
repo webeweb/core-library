@@ -22,65 +22,66 @@ class TrameInventaire {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code trame.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTrame;
 
     /**
      * Num ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numOrdre;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code trame.
      *
-     * @return string Returns the code trame.
+     * @return string|null Returns the code trame.
      */
-    public function getCodeTrame() {
+    public function getCodeTrame(): ?string{
         return $this->codeTrame;
     }
 
     /**
      * Get the num ordre.
      *
-     * @return int Returns the num ordre.
+     * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre() {
+    public function getNumOrdre(): ?int{
         return $this->numOrdre;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return TrameInventaire Returns this Trame inventaire.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): TrameInventaire {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -88,10 +89,10 @@ class TrameInventaire {
     /**
      * Set the code trame.
      *
-     * @param string $codeTrame The code trame.
+     * @param string|null $codeTrame The code trame.
      * @return TrameInventaire Returns this Trame inventaire.
      */
-    public function setCodeTrame($codeTrame) {
+    public function setCodeTrame(?string $codeTrame): TrameInventaire {
         $this->codeTrame = $codeTrame;
         return $this;
     }
@@ -99,10 +100,10 @@ class TrameInventaire {
     /**
      * Set the num ordre.
      *
-     * @param int $numOrdre The num ordre.
+     * @param int|null $numOrdre The num ordre.
      * @return TrameInventaire Returns this Trame inventaire.
      */
-    public function setNumOrdre($numOrdre) {
+    public function setNumOrdre(?int $numOrdre): TrameInventaire {
         $this->numOrdre = $numOrdre;
         return $this;
     }

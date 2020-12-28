@@ -27,7 +27,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -40,7 +40,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCum30Ss() {
+    public function testSetCum30Ss(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -53,7 +53,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseCsg() {
+    public function testSetCumBaseCsg(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -66,7 +66,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseGmp() {
+    public function testSetCumBaseGmp(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -79,7 +79,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseSs() {
+    public function testSetCumBaseSs(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -92,7 +92,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTr2() {
+    public function testSetCumBaseTr2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -105,7 +105,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrA() {
+    public function testSetCumBaseTrA(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -118,7 +118,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrACaisse1() {
+    public function testSetCumBaseTrACaisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -131,7 +131,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrACaisse2() {
+    public function testSetCumBaseTrACaisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -144,7 +144,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrACaisse3() {
+    public function testSetCumBaseTrACaisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -157,7 +157,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrB() {
+    public function testSetCumBaseTrB(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -170,7 +170,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrBCaisse1() {
+    public function testSetCumBaseTrBCaisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -183,7 +183,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrBCaisse2() {
+    public function testSetCumBaseTrBCaisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -196,7 +196,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrBCaisse3() {
+    public function testSetCumBaseTrBCaisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -209,7 +209,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrC() {
+    public function testSetCumBaseTrC(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -222,7 +222,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrCCaisse1() {
+    public function testSetCumBaseTrCCaisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -235,7 +235,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrCCaisse2() {
+    public function testSetCumBaseTrCCaisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -248,7 +248,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrCCaisse3() {
+    public function testSetCumBaseTrCCaisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -261,7 +261,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrD() {
+    public function testSetCumBaseTrD(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -274,7 +274,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrD1() {
+    public function testSetCumBaseTrD1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -287,7 +287,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrD1Caisse1() {
+    public function testSetCumBaseTrD1Caisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -300,7 +300,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrD1Caisse2() {
+    public function testSetCumBaseTrD1Caisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -313,7 +313,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrD1Caisse3() {
+    public function testSetCumBaseTrD1Caisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -326,7 +326,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrDCaisse1() {
+    public function testSetCumBaseTrDCaisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -339,7 +339,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrDCaisse2() {
+    public function testSetCumBaseTrDCaisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -352,7 +352,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBaseTrDCaisse3() {
+    public function testSetCumBaseTrDCaisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -365,7 +365,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutAbatNonLim() {
+    public function testSetCumBrutAbatNonLim(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -378,7 +378,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutAl() {
+    public function testSetCumBrutAl(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -391,7 +391,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutAlSansSi() {
+    public function testSetCumBrutAlSansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -404,7 +404,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutCaisse1() {
+    public function testSetCumBrutCaisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -417,7 +417,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutCaisse2() {
+    public function testSetCumBrutCaisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -430,7 +430,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutCaisse3() {
+    public function testSetCumBrutCaisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -443,7 +443,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumBrutNonAbattu() {
+    public function testSetCumBrutNonAbattu(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -456,7 +456,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumCpDus() {
+    public function testSetCumCpDus(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -469,7 +469,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumCpDus1() {
+    public function testSetCumCpDus1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -482,7 +482,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumCpPris() {
+    public function testSetCumCpPris(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -495,7 +495,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumCpPris1() {
+    public function testSetCumCpPris1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -508,7 +508,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumDifDus() {
+    public function testSetCumDifDus(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -521,7 +521,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumDifDus1() {
+    public function testSetCumDifDus1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -534,7 +534,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHBonifie() {
+    public function testSetCumHBonifie(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -547,7 +547,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHReposRemplace() {
+    public function testSetCumHReposRemplace(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -560,7 +560,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHService() {
+    public function testSetCumHService(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -573,7 +573,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHSup() {
+    public function testSetCumHSup(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -586,7 +586,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHSupRcit() {
+    public function testSetCumHSupRcit(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -599,7 +599,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHeurePaye() {
+    public function testSetCumHeurePaye(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -612,7 +612,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumHeureTrav() {
+    public function testSetCumHeureTrav(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -625,7 +625,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumJReposRecup() {
+    public function testSetCumJReposRecup(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -638,7 +638,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumJourPaye() {
+    public function testSetCumJourPaye(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -651,7 +651,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumJourTrav() {
+    public function testSetCumJourTrav(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -664,7 +664,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumMtCpPris() {
+    public function testSetCumMtCpPris(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -677,7 +677,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumMtCpPris1() {
+    public function testSetCumMtCpPris1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -690,7 +690,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumNetAPayer() {
+    public function testSetCumNetAPayer(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -703,7 +703,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumNetImposable() {
+    public function testSetCumNetImposable(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -716,7 +716,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf1Caisse1() {
+    public function testSetCumPlaf1Caisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -729,7 +729,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf1Caisse2() {
+    public function testSetCumPlaf1Caisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -742,7 +742,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf1Caisse3() {
+    public function testSetCumPlaf1Caisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -755,7 +755,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf2Caisse1() {
+    public function testSetCumPlaf2Caisse1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -768,7 +768,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf2Caisse2() {
+    public function testSetCumPlaf2Caisse2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -781,7 +781,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlaf2Caisse3() {
+    public function testSetCumPlaf2Caisse3(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -794,7 +794,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlafondGmp() {
+    public function testSetCumPlafondGmp(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -807,7 +807,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlafondSs1() {
+    public function testSetCumPlafondSs1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -820,7 +820,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumPlafondSs2() {
+    public function testSetCumPlafondSs2(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -833,7 +833,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumProvCp() {
+    public function testSetCumProvCp(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -846,7 +846,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumProvCp1() {
+    public function testSetCumProvCp1(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -859,7 +859,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumReposComp() {
+    public function testSetCumReposComp(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -872,7 +872,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumRttDus() {
+    public function testSetCumRttDus(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -885,7 +885,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumRttPris() {
+    public function testSetCumRttPris(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -898,7 +898,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTotSi() {
+    public function testSetCumTotSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -911,7 +911,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTranche2SansSi() {
+    public function testSetCumTranche2SansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -924,7 +924,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTranche2Si() {
+    public function testSetCumTranche2Si(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -937,7 +937,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheASansSi() {
+    public function testSetCumTrancheASansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -950,7 +950,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheAsi() {
+    public function testSetCumTrancheAsi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -963,7 +963,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheBSansSi() {
+    public function testSetCumTrancheBSansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -976,7 +976,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheBsi() {
+    public function testSetCumTrancheBsi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -989,7 +989,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheCSansSi() {
+    public function testSetCumTrancheCSansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -1002,7 +1002,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheCsi() {
+    public function testSetCumTrancheCsi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -1015,7 +1015,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheD1SansSi() {
+    public function testSetCumTrancheD1SansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -1028,7 +1028,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumTrancheDSansSi() {
+    public function testSetCumTrancheDSansSi(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -1041,7 +1041,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new CumulsAnneePrec();
 
@@ -1054,7 +1054,7 @@ class CumulsAnneePrecTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CumulsAnneePrec();
 

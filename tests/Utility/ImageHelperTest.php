@@ -34,7 +34,7 @@ class ImageHelperTest extends AbstractTestCase {
     /**
      * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set the images mock.
@@ -46,7 +46,7 @@ class ImageHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testNewDimensions() {
+    public function testNewDimensions(): void {
 
         $hImage = new Image($this->images[1]); // Horizontal image
         $sImage = new Image($this->images[2]); // Square image
@@ -66,7 +66,7 @@ class ImageHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testNewInputStream() {
+    public function testNewInputStream(): void {
 
         $jpg = new Image($this->images[0]);
         $png = new Image($this->images[1]);
@@ -80,7 +80,7 @@ class ImageHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testNewOutputStream() {
+    public function testNewOutputStream(): void {
 
         $jpg = new Image($this->images[0]);
         $png = new Image($this->images[1]);
@@ -94,7 +94,7 @@ class ImageHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSaveOutputStream() {
+    public function testSaveOutputStream(): void {
 
         // Set a paths mock.
         $paths = [

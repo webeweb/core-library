@@ -27,7 +27,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollDroit() {
+    public function testSetCodeCollDroit(): void {
 
         $obj = new AgendaDroitsAcces();
 
@@ -40,7 +40,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollSuivi() {
+    public function testSetCodeCollSuivi(): void {
 
         $obj = new AgendaDroitsAcces();
 
@@ -53,7 +53,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauDroit() {
+    public function testSetNiveauDroit(): void {
 
         $obj = new AgendaDroitsAcces();
 
@@ -66,7 +66,7 @@ class AgendaDroitsAccesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaDroitsAcces();
 

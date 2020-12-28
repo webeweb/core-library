@@ -22,49 +22,50 @@ class EquipeEmployes {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code equipe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEquipe;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code equipe.
      *
-     * @return string Returns the code equipe.
+     * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe() {
+    public function getCodeEquipe(): ?string{
         return $this->codeEquipe;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return EquipeEmployes Returns this Equipe employes.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): EquipeEmployes {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -72,10 +73,10 @@ class EquipeEmployes {
     /**
      * Set the code equipe.
      *
-     * @param string $codeEquipe The code equipe.
+     * @param string|null $codeEquipe The code equipe.
      * @return EquipeEmployes Returns this Equipe employes.
      */
-    public function setCodeEquipe($codeEquipe) {
+    public function setCodeEquipe(?string $codeEquipe): EquipeEmployes {
         $this->codeEquipe = $codeEquipe;
         return $this;
     }

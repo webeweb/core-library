@@ -24,56 +24,56 @@ class AttestationAt {
     /**
      * Accident.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accident;
 
     /**
      * Accident mois embauche.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accidentMoisEmbauche;
 
     /**
      * Adresse1.
      *
-     * @var string
+     * @var string|null
      */
     private $adresse1;
 
     /**
      * Adresse3.
      *
-     * @var string
+     * @var string|null
      */
     private $adresse3;
 
     /**
      * Anciennete.
      *
-     * @var string
+     * @var string|null
      */
     private $anciennete;
 
     /**
      * Autre vivtime.
      *
-     * @var bool
+     * @var bool|null
      */
     private $autreVivtime;
 
     /**
      * Cas part.
      *
-     * @var string
+     * @var string|null
      */
     private $casPart;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
@@ -122,238 +122,238 @@ class AttestationAt {
     /**
      * Emploi.
      *
-     * @var string
+     * @var string|null
      */
     private $emploi;
 
     /**
      * Etbl a adresse1.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAAdresse1;
 
     /**
      * Etbl a adresse2.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAAdresse2;
 
     /**
      * Etbl a adresse3.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAAdresse3;
 
     /**
      * Etbl a tel.
      *
-     * @var string
+     * @var string|null
      */
     private $etblATel;
 
     /**
      * Etbl adresse1.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAdresse1;
 
     /**
      * Etbl adresse2.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAdresse2;
 
     /**
      * Etbl adresse3.
      *
-     * @var string
+     * @var string|null
      */
     private $etblAdresse3;
 
     /**
      * Etbl nature activite.
      *
-     * @var string
+     * @var string|null
      */
     private $etblNatureActivite;
 
     /**
      * Etbl no adherent.
      *
-     * @var string
+     * @var string|null
      */
     private $etblNoAdherent;
 
     /**
      * Etbl nom prenom.
      *
-     * @var string
+     * @var string|null
      */
     private $etblNomPrenom;
 
     /**
      * Etbl raison sociale.
      *
-     * @var string
+     * @var string|null
      */
     private $etblRaisonSociale;
 
     /**
      * Etbl tel.
      *
-     * @var string
+     * @var string|null
      */
     private $etblTel;
 
     /**
      * Iban.
      *
-     * @var string
+     * @var string|null
      */
     private $iban;
 
     /**
      * Integral.
      *
-     * @var bool
+     * @var bool|null
      */
     private $integral;
 
     /**
      * Intitule compte.
      *
-     * @var string
+     * @var string|null
      */
     private $intituleCompte;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Lieu naissance.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuNaissance;
 
     /**
      * Maintien.
      *
-     * @var bool
+     * @var bool|null
      */
     private $maintien;
 
     /**
      * Maladie pro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $maladiePro;
 
     /**
      * Medecin.
      *
-     * @var string
+     * @var string|null
      */
     private $medecin;
 
     /**
      * Montant cotis theo.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCotisTheo;
 
     /**
      * Montant sal theo.
      *
-     * @var float
+     * @var float|null
      */
     private $montantSalTheo;
 
     /**
+     * Nir.
+     *
+     * @var string|null
+     */
+    private $nir;
+
+    /**
      * Nationalite autre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nationaliteAutre;
 
     /**
      * Nationalite cee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nationaliteCee;
 
     /**
      * Nationalite fr.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nationaliteFr;
 
     /**
-     * Nir.
-     *
-     * @var string
-     */
-    private $nir;
-
-    /**
      * Nom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $nomEmploye;
 
     /**
      * Nom marital.
      *
-     * @var string
+     * @var string|null
      */
     private $nomMarital;
 
     /**
      * Non repris.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nonRepris;
 
     /**
      * Num contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $numContrat;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Partiel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $partiel;
 
@@ -367,7 +367,7 @@ class AttestationAt {
     /**
      * Per reference cotisations.
      *
-     * @var float
+     * @var float|null
      */
     private $perReferenceCotisations;
 
@@ -381,21 +381,21 @@ class AttestationAt {
     /**
      * Per reference montant.
      *
-     * @var float
+     * @var float|null
      */
     private $perReferenceMontant;
 
     /**
      * Per reference nb heures.
      *
-     * @var float
+     * @var float|null
      */
     private $perReferenceNbHeures;
 
     /**
      * Per reference salaires.
      *
-     * @var float
+     * @var float|null
      */
     private $perReferenceSalaires;
 
@@ -416,14 +416,14 @@ class AttestationAt {
     /**
      * Prenom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $prenomEmploye;
 
     /**
      * Qualification.
      *
-     * @var string
+     * @var string|null
      */
     private $qualification;
 
@@ -437,21 +437,28 @@ class AttestationAt {
     /**
      * Risque at.
      *
-     * @var string
+     * @var string|null
      */
     private $risqueAt;
 
     /**
+     * Siret.
+     *
+     * @var string|null
+     */
+    private $siret;
+
+    /**
      * Salaire mini.
      *
-     * @var float
+     * @var float|null
      */
     private $salaireMini;
 
     /**
      * Sexe.
      *
-     * @var string
+     * @var string|null
      */
     private $sexe;
 
@@ -465,142 +472,136 @@ class AttestationAt {
     /**
      * Signature nom.
      *
-     * @var string
+     * @var string|null
      */
     private $signatureNom;
 
     /**
      * Signature qualite.
      *
-     * @var string
+     * @var string|null
      */
     private $signatureQualite;
 
     /**
      * Signature ville.
      *
-     * @var string
+     * @var string|null
      */
     private $signatureVille;
 
     /**
-     * Siret.
-     *
-     * @var string
-     */
-    private $siret;
-
-    /**
      * Sub integral.
      *
-     * @var bool
+     * @var bool|null
      */
     private $subIntegral;
 
     /**
      * Sub partiel.
      *
-     * @var bool
+     * @var bool|null
      */
     private $subPartiel;
 
     /**
      * Subrogation duree max.
      *
-     * @var string
+     * @var string|null
      */
     private $subrogationDureeMax;
 
     /**
      * Subrogation montant.
      *
-     * @var float
+     * @var float|null
      */
     private $subrogationMontant;
 
     /**
      * Type attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAttestation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the accident.
      *
-     * @return bool Returns the accident.
+     * @return bool|null Returns the accident.
      */
-    public function getAccident() {
+    public function getAccident(): ?bool{
         return $this->accident;
     }
 
     /**
      * Get the accident mois embauche.
      *
-     * @return bool Returns the accident mois embauche.
+     * @return bool|null Returns the accident mois embauche.
      */
-    public function getAccidentMoisEmbauche() {
+    public function getAccidentMoisEmbauche(): ?bool{
         return $this->accidentMoisEmbauche;
     }
 
     /**
      * Get the adresse1.
      *
-     * @return string Returns the adresse1.
+     * @return string|null Returns the adresse1.
      */
-    public function getAdresse1() {
+    public function getAdresse1(): ?string{
         return $this->adresse1;
     }
 
     /**
      * Get the adresse3.
      *
-     * @return string Returns the adresse3.
+     * @return string|null Returns the adresse3.
      */
-    public function getAdresse3() {
+    public function getAdresse3(): ?string{
         return $this->adresse3;
     }
 
     /**
      * Get the anciennete.
      *
-     * @return string Returns the anciennete.
+     * @return string|null Returns the anciennete.
      */
-    public function getAnciennete() {
+    public function getAnciennete(): ?string{
         return $this->anciennete;
     }
 
     /**
      * Get the autre vivtime.
      *
-     * @return bool Returns the autre vivtime.
+     * @return bool|null Returns the autre vivtime.
      */
-    public function getAutreVivtime() {
+    public function getAutreVivtime(): ?bool{
         return $this->autreVivtime;
     }
 
     /**
      * Get the cas part.
      *
-     * @return string Returns the cas part.
+     * @return string|null Returns the cas part.
      */
-    public function getCasPart() {
+    public function getCasPart(): ?string{
         return $this->casPart;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
@@ -609,7 +610,7 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the date accident.
      */
-    public function getDateAccident() {
+    public function getDateAccident(): ?DateTime{
         return $this->dateAccident;
     }
 
@@ -618,7 +619,7 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the date contrat.
      */
-    public function getDateContrat() {
+    public function getDateContrat(): ?DateTime{
         return $this->dateContrat;
     }
 
@@ -627,7 +628,7 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance() {
+    public function getDateNaissance(): ?DateTime{
         return $this->dateNaissance;
     }
 
@@ -636,7 +637,7 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the dern heure.
      */
-    public function getDernHeure() {
+    public function getDernHeure(): ?DateTime{
         return $this->dernHeure;
     }
 
@@ -645,7 +646,7 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the dern j.
      */
-    public function getDernJ() {
+    public function getDernJ(): ?DateTime{
         return $this->dernJ;
     }
 
@@ -654,313 +655,313 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the embauche.
      */
-    public function getEmbauche() {
+    public function getEmbauche(): ?DateTime{
         return $this->embauche;
     }
 
     /**
      * Get the emploi.
      *
-     * @return string Returns the emploi.
+     * @return string|null Returns the emploi.
      */
-    public function getEmploi() {
+    public function getEmploi(): ?string{
         return $this->emploi;
     }
 
     /**
      * Get the etbl a adresse1.
      *
-     * @return string Returns the etbl a adresse1.
+     * @return string|null Returns the etbl a adresse1.
      */
-    public function getEtblAAdresse1() {
+    public function getEtblAAdresse1(): ?string{
         return $this->etblAAdresse1;
     }
 
     /**
      * Get the etbl a adresse2.
      *
-     * @return string Returns the etbl a adresse2.
+     * @return string|null Returns the etbl a adresse2.
      */
-    public function getEtblAAdresse2() {
+    public function getEtblAAdresse2(): ?string{
         return $this->etblAAdresse2;
     }
 
     /**
      * Get the etbl a adresse3.
      *
-     * @return string Returns the etbl a adresse3.
+     * @return string|null Returns the etbl a adresse3.
      */
-    public function getEtblAAdresse3() {
+    public function getEtblAAdresse3(): ?string{
         return $this->etblAAdresse3;
     }
 
     /**
      * Get the etbl a tel.
      *
-     * @return string Returns the etbl a tel.
+     * @return string|null Returns the etbl a tel.
      */
-    public function getEtblATel() {
+    public function getEtblATel(): ?string{
         return $this->etblATel;
     }
 
     /**
      * Get the etbl adresse1.
      *
-     * @return string Returns the etbl adresse1.
+     * @return string|null Returns the etbl adresse1.
      */
-    public function getEtblAdresse1() {
+    public function getEtblAdresse1(): ?string{
         return $this->etblAdresse1;
     }
 
     /**
      * Get the etbl adresse2.
      *
-     * @return string Returns the etbl adresse2.
+     * @return string|null Returns the etbl adresse2.
      */
-    public function getEtblAdresse2() {
+    public function getEtblAdresse2(): ?string{
         return $this->etblAdresse2;
     }
 
     /**
      * Get the etbl adresse3.
      *
-     * @return string Returns the etbl adresse3.
+     * @return string|null Returns the etbl adresse3.
      */
-    public function getEtblAdresse3() {
+    public function getEtblAdresse3(): ?string{
         return $this->etblAdresse3;
     }
 
     /**
      * Get the etbl nature activite.
      *
-     * @return string Returns the etbl nature activite.
+     * @return string|null Returns the etbl nature activite.
      */
-    public function getEtblNatureActivite() {
+    public function getEtblNatureActivite(): ?string{
         return $this->etblNatureActivite;
     }
 
     /**
      * Get the etbl no adherent.
      *
-     * @return string Returns the etbl no adherent.
+     * @return string|null Returns the etbl no adherent.
      */
-    public function getEtblNoAdherent() {
+    public function getEtblNoAdherent(): ?string{
         return $this->etblNoAdherent;
     }
 
     /**
      * Get the etbl nom prenom.
      *
-     * @return string Returns the etbl nom prenom.
+     * @return string|null Returns the etbl nom prenom.
      */
-    public function getEtblNomPrenom() {
+    public function getEtblNomPrenom(): ?string{
         return $this->etblNomPrenom;
     }
 
     /**
      * Get the etbl raison sociale.
      *
-     * @return string Returns the etbl raison sociale.
+     * @return string|null Returns the etbl raison sociale.
      */
-    public function getEtblRaisonSociale() {
+    public function getEtblRaisonSociale(): ?string{
         return $this->etblRaisonSociale;
     }
 
     /**
      * Get the etbl tel.
      *
-     * @return string Returns the etbl tel.
+     * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel() {
+    public function getEtblTel(): ?string{
         return $this->etblTel;
     }
 
     /**
      * Get the iban.
      *
-     * @return string Returns the iban.
+     * @return string|null Returns the iban.
      */
-    public function getIban() {
+    public function getIban(): ?string{
         return $this->iban;
     }
 
     /**
      * Get the integral.
      *
-     * @return bool Returns the integral.
+     * @return bool|null Returns the integral.
      */
-    public function getIntegral() {
+    public function getIntegral(): ?bool{
         return $this->integral;
     }
 
     /**
      * Get the intitule compte.
      *
-     * @return string Returns the intitule compte.
+     * @return string|null Returns the intitule compte.
      */
-    public function getIntituleCompte() {
+    public function getIntituleCompte(): ?string{
         return $this->intituleCompte;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the lieu naissance.
      *
-     * @return string Returns the lieu naissance.
+     * @return string|null Returns the lieu naissance.
      */
-    public function getLieuNaissance() {
+    public function getLieuNaissance(): ?string{
         return $this->lieuNaissance;
     }
 
     /**
      * Get the maintien.
      *
-     * @return bool Returns the maintien.
+     * @return bool|null Returns the maintien.
      */
-    public function getMaintien() {
+    public function getMaintien(): ?bool{
         return $this->maintien;
     }
 
     /**
      * Get the maladie pro.
      *
-     * @return bool Returns the maladie pro.
+     * @return bool|null Returns the maladie pro.
      */
-    public function getMaladiePro() {
+    public function getMaladiePro(): ?bool{
         return $this->maladiePro;
     }
 
     /**
      * Get the medecin.
      *
-     * @return string Returns the medecin.
+     * @return string|null Returns the medecin.
      */
-    public function getMedecin() {
+    public function getMedecin(): ?string{
         return $this->medecin;
     }
 
     /**
      * Get the montant cotis theo.
      *
-     * @return float Returns the montant cotis theo.
+     * @return float|null Returns the montant cotis theo.
      */
-    public function getMontantCotisTheo() {
+    public function getMontantCotisTheo(): ?float{
         return $this->montantCotisTheo;
     }
 
     /**
      * Get the montant sal theo.
      *
-     * @return float Returns the montant sal theo.
+     * @return float|null Returns the montant sal theo.
      */
-    public function getMontantSalTheo() {
+    public function getMontantSalTheo(): ?float{
         return $this->montantSalTheo;
+    }
+
+    /**
+     * Get the nir.
+     *
+     * @return string|null Returns the nir.
+     */
+    public function getNir(): ?string{
+        return $this->nir;
     }
 
     /**
      * Get the nationalite autre.
      *
-     * @return bool Returns the nationalite autre.
+     * @return bool|null Returns the nationalite autre.
      */
-    public function getNationaliteAutre() {
+    public function getNationaliteAutre(): ?bool{
         return $this->nationaliteAutre;
     }
 
     /**
      * Get the nationalite cee.
      *
-     * @return bool Returns the nationalite cee.
+     * @return bool|null Returns the nationalite cee.
      */
-    public function getNationaliteCee() {
+    public function getNationaliteCee(): ?bool{
         return $this->nationaliteCee;
     }
 
     /**
      * Get the nationalite fr.
      *
-     * @return bool Returns the nationalite fr.
+     * @return bool|null Returns the nationalite fr.
      */
-    public function getNationaliteFr() {
+    public function getNationaliteFr(): ?bool{
         return $this->nationaliteFr;
-    }
-
-    /**
-     * Get the nir.
-     *
-     * @return string Returns the nir.
-     */
-    public function getNir() {
-        return $this->nir;
     }
 
     /**
      * Get the nom employe.
      *
-     * @return string Returns the nom employe.
+     * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye() {
+    public function getNomEmploye(): ?string{
         return $this->nomEmploye;
     }
 
     /**
      * Get the nom marital.
      *
-     * @return string Returns the nom marital.
+     * @return string|null Returns the nom marital.
      */
-    public function getNomMarital() {
+    public function getNomMarital(): ?string{
         return $this->nomMarital;
     }
 
     /**
      * Get the non repris.
      *
-     * @return bool Returns the non repris.
+     * @return bool|null Returns the non repris.
      */
-    public function getNonRepris() {
+    public function getNonRepris(): ?bool{
         return $this->nonRepris;
     }
 
     /**
      * Get the num contrat.
      *
-     * @return string Returns the num contrat.
+     * @return string|null Returns the num contrat.
      */
-    public function getNumContrat() {
+    public function getNumContrat(): ?string{
         return $this->numContrat;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the partiel.
      *
-     * @return bool Returns the partiel.
+     * @return bool|null Returns the partiel.
      */
-    public function getPartiel() {
+    public function getPartiel(): ?bool{
         return $this->partiel;
     }
 
@@ -969,16 +970,16 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the per reference au.
      */
-    public function getPerReferenceAu() {
+    public function getPerReferenceAu(): ?DateTime{
         return $this->perReferenceAu;
     }
 
     /**
      * Get the per reference cotisations.
      *
-     * @return float Returns the per reference cotisations.
+     * @return float|null Returns the per reference cotisations.
      */
-    public function getPerReferenceCotisations() {
+    public function getPerReferenceCotisations(): ?float{
         return $this->perReferenceCotisations;
     }
 
@@ -987,34 +988,34 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the per reference du.
      */
-    public function getPerReferenceDu() {
+    public function getPerReferenceDu(): ?DateTime{
         return $this->perReferenceDu;
     }
 
     /**
      * Get the per reference montant.
      *
-     * @return float Returns the per reference montant.
+     * @return float|null Returns the per reference montant.
      */
-    public function getPerReferenceMontant() {
+    public function getPerReferenceMontant(): ?float{
         return $this->perReferenceMontant;
     }
 
     /**
      * Get the per reference nb heures.
      *
-     * @return float Returns the per reference nb heures.
+     * @return float|null Returns the per reference nb heures.
      */
-    public function getPerReferenceNbHeures() {
+    public function getPerReferenceNbHeures(): ?float{
         return $this->perReferenceNbHeures;
     }
 
     /**
      * Get the per reference salaires.
      *
-     * @return float Returns the per reference salaires.
+     * @return float|null Returns the per reference salaires.
      */
-    public function getPerReferenceSalaires() {
+    public function getPerReferenceSalaires(): ?float{
         return $this->perReferenceSalaires;
     }
 
@@ -1023,7 +1024,7 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the periode subr au.
      */
-    public function getPeriodeSubrAu() {
+    public function getPeriodeSubrAu(): ?DateTime{
         return $this->periodeSubrAu;
     }
 
@@ -1032,25 +1033,25 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the periode subr du.
      */
-    public function getPeriodeSubrDu() {
+    public function getPeriodeSubrDu(): ?DateTime{
         return $this->periodeSubrDu;
     }
 
     /**
      * Get the prenom employe.
      *
-     * @return string Returns the prenom employe.
+     * @return string|null Returns the prenom employe.
      */
-    public function getPrenomEmploye() {
+    public function getPrenomEmploye(): ?string{
         return $this->prenomEmploye;
     }
 
     /**
      * Get the qualification.
      *
-     * @return string Returns the qualification.
+     * @return string|null Returns the qualification.
      */
-    public function getQualification() {
+    public function getQualification(): ?string{
         return $this->qualification;
     }
 
@@ -1059,34 +1060,43 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the reprise.
      */
-    public function getReprise() {
+    public function getReprise(): ?DateTime{
         return $this->reprise;
     }
 
     /**
      * Get the risque at.
      *
-     * @return string Returns the risque at.
+     * @return string|null Returns the risque at.
      */
-    public function getRisqueAt() {
+    public function getRisqueAt(): ?string{
         return $this->risqueAt;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string|null Returns the siret.
+     */
+    public function getSiret(): ?string{
+        return $this->siret;
     }
 
     /**
      * Get the salaire mini.
      *
-     * @return float Returns the salaire mini.
+     * @return float|null Returns the salaire mini.
      */
-    public function getSalaireMini() {
+    public function getSalaireMini(): ?float{
         return $this->salaireMini;
     }
 
     /**
      * Get the sexe.
      *
-     * @return string Returns the sexe.
+     * @return string|null Returns the sexe.
      */
-    public function getSexe() {
+    public function getSexe(): ?string{
         return $this->sexe;
     }
 
@@ -1095,98 +1105,89 @@ class AttestationAt {
      *
      * @return DateTime|null Returns the signature date.
      */
-    public function getSignatureDate() {
+    public function getSignatureDate(): ?DateTime{
         return $this->signatureDate;
     }
 
     /**
      * Get the signature nom.
      *
-     * @return string Returns the signature nom.
+     * @return string|null Returns the signature nom.
      */
-    public function getSignatureNom() {
+    public function getSignatureNom(): ?string{
         return $this->signatureNom;
     }
 
     /**
      * Get the signature qualite.
      *
-     * @return string Returns the signature qualite.
+     * @return string|null Returns the signature qualite.
      */
-    public function getSignatureQualite() {
+    public function getSignatureQualite(): ?string{
         return $this->signatureQualite;
     }
 
     /**
      * Get the signature ville.
      *
-     * @return string Returns the signature ville.
+     * @return string|null Returns the signature ville.
      */
-    public function getSignatureVille() {
+    public function getSignatureVille(): ?string{
         return $this->signatureVille;
-    }
-
-    /**
-     * Get the siret.
-     *
-     * @return string Returns the siret.
-     */
-    public function getSiret() {
-        return $this->siret;
     }
 
     /**
      * Get the sub integral.
      *
-     * @return bool Returns the sub integral.
+     * @return bool|null Returns the sub integral.
      */
-    public function getSubIntegral() {
+    public function getSubIntegral(): ?bool{
         return $this->subIntegral;
     }
 
     /**
      * Get the sub partiel.
      *
-     * @return bool Returns the sub partiel.
+     * @return bool|null Returns the sub partiel.
      */
-    public function getSubPartiel() {
+    public function getSubPartiel(): ?bool{
         return $this->subPartiel;
     }
 
     /**
      * Get the subrogation duree max.
      *
-     * @return string Returns the subrogation duree max.
+     * @return string|null Returns the subrogation duree max.
      */
-    public function getSubrogationDureeMax() {
+    public function getSubrogationDureeMax(): ?string{
         return $this->subrogationDureeMax;
     }
 
     /**
      * Get the subrogation montant.
      *
-     * @return float Returns the subrogation montant.
+     * @return float|null Returns the subrogation montant.
      */
-    public function getSubrogationMontant() {
+    public function getSubrogationMontant(): ?float{
         return $this->subrogationMontant;
     }
 
     /**
      * Get the type attestation.
      *
-     * @return string Returns the type attestation.
+     * @return string|null Returns the type attestation.
      */
-    public function getTypeAttestation() {
+    public function getTypeAttestation(): ?string{
         return $this->typeAttestation;
     }
 
     /**
      * Set the accident.
      *
-     * @param bool $accident The accident.
+     * @param bool|null $accident The accident.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setAccident($accident) {
+    public function setAccident(?bool $accident): AttestationAt {
         $this->accident = $accident;
         return $this;
     }
@@ -1194,10 +1195,10 @@ class AttestationAt {
     /**
      * Set the accident mois embauche.
      *
-     * @param bool $accidentMoisEmbauche The accident mois embauche.
+     * @param bool|null $accidentMoisEmbauche The accident mois embauche.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setAccidentMoisEmbauche($accidentMoisEmbauche) {
+    public function setAccidentMoisEmbauche(?bool $accidentMoisEmbauche): AttestationAt {
         $this->accidentMoisEmbauche = $accidentMoisEmbauche;
         return $this;
     }
@@ -1205,10 +1206,10 @@ class AttestationAt {
     /**
      * Set the adresse1.
      *
-     * @param string $adresse1 The adresse1.
+     * @param string|null $adresse1 The adresse1.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setAdresse1($adresse1) {
+    public function setAdresse1(?string $adresse1): AttestationAt {
         $this->adresse1 = $adresse1;
         return $this;
     }
@@ -1216,10 +1217,10 @@ class AttestationAt {
     /**
      * Set the adresse3.
      *
-     * @param string $adresse3 The adresse3.
+     * @param string|null $adresse3 The adresse3.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setAdresse3($adresse3) {
+    public function setAdresse3(?string $adresse3): AttestationAt {
         $this->adresse3 = $adresse3;
         return $this;
     }
@@ -1227,10 +1228,10 @@ class AttestationAt {
     /**
      * Set the anciennete.
      *
-     * @param string $anciennete The anciennete.
+     * @param string|null $anciennete The anciennete.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setAnciennete($anciennete) {
+    public function setAnciennete(?string $anciennete): AttestationAt {
         $this->anciennete = $anciennete;
         return $this;
     }
@@ -1238,10 +1239,10 @@ class AttestationAt {
     /**
      * Set the autre vivtime.
      *
-     * @param bool $autreVivtime The autre vivtime.
+     * @param bool|null $autreVivtime The autre vivtime.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setAutreVivtime($autreVivtime) {
+    public function setAutreVivtime(?bool $autreVivtime): AttestationAt {
         $this->autreVivtime = $autreVivtime;
         return $this;
     }
@@ -1249,10 +1250,10 @@ class AttestationAt {
     /**
      * Set the cas part.
      *
-     * @param string $casPart The cas part.
+     * @param string|null $casPart The cas part.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setCasPart($casPart) {
+    public function setCasPart(?string $casPart): AttestationAt {
         $this->casPart = $casPart;
         return $this;
     }
@@ -1260,10 +1261,10 @@ class AttestationAt {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): AttestationAt {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -1274,7 +1275,7 @@ class AttestationAt {
      * @param DateTime|null $dateAccident The date accident.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setDateAccident(DateTime $dateAccident = null) {
+    public function setDateAccident(?DateTime $dateAccident): AttestationAt {
         $this->dateAccident = $dateAccident;
         return $this;
     }
@@ -1285,7 +1286,7 @@ class AttestationAt {
      * @param DateTime|null $dateContrat The date contrat.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setDateContrat(DateTime $dateContrat = null) {
+    public function setDateContrat(?DateTime $dateContrat): AttestationAt {
         $this->dateContrat = $dateContrat;
         return $this;
     }
@@ -1296,7 +1297,7 @@ class AttestationAt {
      * @param DateTime|null $dateNaissance The date naissance.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setDateNaissance(DateTime $dateNaissance = null) {
+    public function setDateNaissance(?DateTime $dateNaissance): AttestationAt {
         $this->dateNaissance = $dateNaissance;
         return $this;
     }
@@ -1307,7 +1308,7 @@ class AttestationAt {
      * @param DateTime|null $dernHeure The dern heure.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setDernHeure(DateTime $dernHeure = null) {
+    public function setDernHeure(?DateTime $dernHeure): AttestationAt {
         $this->dernHeure = $dernHeure;
         return $this;
     }
@@ -1318,7 +1319,7 @@ class AttestationAt {
      * @param DateTime|null $dernJ The dern j.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setDernJ(DateTime $dernJ = null) {
+    public function setDernJ(?DateTime $dernJ): AttestationAt {
         $this->dernJ = $dernJ;
         return $this;
     }
@@ -1329,7 +1330,7 @@ class AttestationAt {
      * @param DateTime|null $embauche The embauche.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEmbauche(DateTime $embauche = null) {
+    public function setEmbauche(?DateTime $embauche): AttestationAt {
         $this->embauche = $embauche;
         return $this;
     }
@@ -1337,10 +1338,10 @@ class AttestationAt {
     /**
      * Set the emploi.
      *
-     * @param string $emploi The emploi.
+     * @param string|null $emploi The emploi.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEmploi($emploi) {
+    public function setEmploi(?string $emploi): AttestationAt {
         $this->emploi = $emploi;
         return $this;
     }
@@ -1348,10 +1349,10 @@ class AttestationAt {
     /**
      * Set the etbl a adresse1.
      *
-     * @param string $etblAAdresse1 The etbl a adresse1.
+     * @param string|null $etblAAdresse1 The etbl a adresse1.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblAAdresse1($etblAAdresse1) {
+    public function setEtblAAdresse1(?string $etblAAdresse1): AttestationAt {
         $this->etblAAdresse1 = $etblAAdresse1;
         return $this;
     }
@@ -1359,10 +1360,10 @@ class AttestationAt {
     /**
      * Set the etbl a adresse2.
      *
-     * @param string $etblAAdresse2 The etbl a adresse2.
+     * @param string|null $etblAAdresse2 The etbl a adresse2.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblAAdresse2($etblAAdresse2) {
+    public function setEtblAAdresse2(?string $etblAAdresse2): AttestationAt {
         $this->etblAAdresse2 = $etblAAdresse2;
         return $this;
     }
@@ -1370,10 +1371,10 @@ class AttestationAt {
     /**
      * Set the etbl a adresse3.
      *
-     * @param string $etblAAdresse3 The etbl a adresse3.
+     * @param string|null $etblAAdresse3 The etbl a adresse3.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblAAdresse3($etblAAdresse3) {
+    public function setEtblAAdresse3(?string $etblAAdresse3): AttestationAt {
         $this->etblAAdresse3 = $etblAAdresse3;
         return $this;
     }
@@ -1381,10 +1382,10 @@ class AttestationAt {
     /**
      * Set the etbl a tel.
      *
-     * @param string $etblATel The etbl a tel.
+     * @param string|null $etblATel The etbl a tel.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblATel($etblATel) {
+    public function setEtblATel(?string $etblATel): AttestationAt {
         $this->etblATel = $etblATel;
         return $this;
     }
@@ -1392,10 +1393,10 @@ class AttestationAt {
     /**
      * Set the etbl adresse1.
      *
-     * @param string $etblAdresse1 The etbl adresse1.
+     * @param string|null $etblAdresse1 The etbl adresse1.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblAdresse1($etblAdresse1) {
+    public function setEtblAdresse1(?string $etblAdresse1): AttestationAt {
         $this->etblAdresse1 = $etblAdresse1;
         return $this;
     }
@@ -1403,10 +1404,10 @@ class AttestationAt {
     /**
      * Set the etbl adresse2.
      *
-     * @param string $etblAdresse2 The etbl adresse2.
+     * @param string|null $etblAdresse2 The etbl adresse2.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblAdresse2($etblAdresse2) {
+    public function setEtblAdresse2(?string $etblAdresse2): AttestationAt {
         $this->etblAdresse2 = $etblAdresse2;
         return $this;
     }
@@ -1414,10 +1415,10 @@ class AttestationAt {
     /**
      * Set the etbl adresse3.
      *
-     * @param string $etblAdresse3 The etbl adresse3.
+     * @param string|null $etblAdresse3 The etbl adresse3.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblAdresse3($etblAdresse3) {
+    public function setEtblAdresse3(?string $etblAdresse3): AttestationAt {
         $this->etblAdresse3 = $etblAdresse3;
         return $this;
     }
@@ -1425,10 +1426,10 @@ class AttestationAt {
     /**
      * Set the etbl nature activite.
      *
-     * @param string $etblNatureActivite The etbl nature activite.
+     * @param string|null $etblNatureActivite The etbl nature activite.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblNatureActivite($etblNatureActivite) {
+    public function setEtblNatureActivite(?string $etblNatureActivite): AttestationAt {
         $this->etblNatureActivite = $etblNatureActivite;
         return $this;
     }
@@ -1436,10 +1437,10 @@ class AttestationAt {
     /**
      * Set the etbl no adherent.
      *
-     * @param string $etblNoAdherent The etbl no adherent.
+     * @param string|null $etblNoAdherent The etbl no adherent.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblNoAdherent($etblNoAdherent) {
+    public function setEtblNoAdherent(?string $etblNoAdherent): AttestationAt {
         $this->etblNoAdherent = $etblNoAdherent;
         return $this;
     }
@@ -1447,10 +1448,10 @@ class AttestationAt {
     /**
      * Set the etbl nom prenom.
      *
-     * @param string $etblNomPrenom The etbl nom prenom.
+     * @param string|null $etblNomPrenom The etbl nom prenom.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblNomPrenom($etblNomPrenom) {
+    public function setEtblNomPrenom(?string $etblNomPrenom): AttestationAt {
         $this->etblNomPrenom = $etblNomPrenom;
         return $this;
     }
@@ -1458,10 +1459,10 @@ class AttestationAt {
     /**
      * Set the etbl raison sociale.
      *
-     * @param string $etblRaisonSociale The etbl raison sociale.
+     * @param string|null $etblRaisonSociale The etbl raison sociale.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblRaisonSociale($etblRaisonSociale) {
+    public function setEtblRaisonSociale(?string $etblRaisonSociale): AttestationAt {
         $this->etblRaisonSociale = $etblRaisonSociale;
         return $this;
     }
@@ -1469,10 +1470,10 @@ class AttestationAt {
     /**
      * Set the etbl tel.
      *
-     * @param string $etblTel The etbl tel.
+     * @param string|null $etblTel The etbl tel.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setEtblTel($etblTel) {
+    public function setEtblTel(?string $etblTel): AttestationAt {
         $this->etblTel = $etblTel;
         return $this;
     }
@@ -1480,10 +1481,10 @@ class AttestationAt {
     /**
      * Set the iban.
      *
-     * @param string $iban The iban.
+     * @param string|null $iban The iban.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setIban($iban) {
+    public function setIban(?string $iban): AttestationAt {
         $this->iban = $iban;
         return $this;
     }
@@ -1491,10 +1492,10 @@ class AttestationAt {
     /**
      * Set the integral.
      *
-     * @param bool $integral The integral.
+     * @param bool|null $integral The integral.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setIntegral($integral) {
+    public function setIntegral(?bool $integral): AttestationAt {
         $this->integral = $integral;
         return $this;
     }
@@ -1502,10 +1503,10 @@ class AttestationAt {
     /**
      * Set the intitule compte.
      *
-     * @param string $intituleCompte The intitule compte.
+     * @param string|null $intituleCompte The intitule compte.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setIntituleCompte($intituleCompte) {
+    public function setIntituleCompte(?string $intituleCompte): AttestationAt {
         $this->intituleCompte = $intituleCompte;
         return $this;
     }
@@ -1513,10 +1514,10 @@ class AttestationAt {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): AttestationAt {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -1524,10 +1525,10 @@ class AttestationAt {
     /**
      * Set the lieu naissance.
      *
-     * @param string $lieuNaissance The lieu naissance.
+     * @param string|null $lieuNaissance The lieu naissance.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setLieuNaissance($lieuNaissance) {
+    public function setLieuNaissance(?string $lieuNaissance): AttestationAt {
         $this->lieuNaissance = $lieuNaissance;
         return $this;
     }
@@ -1535,10 +1536,10 @@ class AttestationAt {
     /**
      * Set the maintien.
      *
-     * @param bool $maintien The maintien.
+     * @param bool|null $maintien The maintien.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setMaintien($maintien) {
+    public function setMaintien(?bool $maintien): AttestationAt {
         $this->maintien = $maintien;
         return $this;
     }
@@ -1546,10 +1547,10 @@ class AttestationAt {
     /**
      * Set the maladie pro.
      *
-     * @param bool $maladiePro The maladie pro.
+     * @param bool|null $maladiePro The maladie pro.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setMaladiePro($maladiePro) {
+    public function setMaladiePro(?bool $maladiePro): AttestationAt {
         $this->maladiePro = $maladiePro;
         return $this;
     }
@@ -1557,10 +1558,10 @@ class AttestationAt {
     /**
      * Set the medecin.
      *
-     * @param string $medecin The medecin.
+     * @param string|null $medecin The medecin.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setMedecin($medecin) {
+    public function setMedecin(?string $medecin): AttestationAt {
         $this->medecin = $medecin;
         return $this;
     }
@@ -1568,10 +1569,10 @@ class AttestationAt {
     /**
      * Set the montant cotis theo.
      *
-     * @param float $montantCotisTheo The montant cotis theo.
+     * @param float|null $montantCotisTheo The montant cotis theo.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setMontantCotisTheo($montantCotisTheo) {
+    public function setMontantCotisTheo(?float $montantCotisTheo): AttestationAt {
         $this->montantCotisTheo = $montantCotisTheo;
         return $this;
     }
@@ -1579,21 +1580,32 @@ class AttestationAt {
     /**
      * Set the montant sal theo.
      *
-     * @param float $montantSalTheo The montant sal theo.
+     * @param float|null $montantSalTheo The montant sal theo.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setMontantSalTheo($montantSalTheo) {
+    public function setMontantSalTheo(?float $montantSalTheo): AttestationAt {
         $this->montantSalTheo = $montantSalTheo;
+        return $this;
+    }
+
+    /**
+     * Set the nir.
+     *
+     * @param string|null $nir The nir.
+     * @return AttestationAt Returns this Attestation at.
+     */
+    public function setNir(?string $nir): AttestationAt {
+        $this->nir = $nir;
         return $this;
     }
 
     /**
      * Set the nationalite autre.
      *
-     * @param bool $nationaliteAutre The nationalite autre.
+     * @param bool|null $nationaliteAutre The nationalite autre.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNationaliteAutre($nationaliteAutre) {
+    public function setNationaliteAutre(?bool $nationaliteAutre): AttestationAt {
         $this->nationaliteAutre = $nationaliteAutre;
         return $this;
     }
@@ -1601,10 +1613,10 @@ class AttestationAt {
     /**
      * Set the nationalite cee.
      *
-     * @param bool $nationaliteCee The nationalite cee.
+     * @param bool|null $nationaliteCee The nationalite cee.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNationaliteCee($nationaliteCee) {
+    public function setNationaliteCee(?bool $nationaliteCee): AttestationAt {
         $this->nationaliteCee = $nationaliteCee;
         return $this;
     }
@@ -1612,32 +1624,21 @@ class AttestationAt {
     /**
      * Set the nationalite fr.
      *
-     * @param bool $nationaliteFr The nationalite fr.
+     * @param bool|null $nationaliteFr The nationalite fr.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNationaliteFr($nationaliteFr) {
+    public function setNationaliteFr(?bool $nationaliteFr): AttestationAt {
         $this->nationaliteFr = $nationaliteFr;
-        return $this;
-    }
-
-    /**
-     * Set the nir.
-     *
-     * @param string $nir The nir.
-     * @return AttestationAt Returns this Attestation at.
-     */
-    public function setNir($nir) {
-        $this->nir = $nir;
         return $this;
     }
 
     /**
      * Set the nom employe.
      *
-     * @param string $nomEmploye The nom employe.
+     * @param string|null $nomEmploye The nom employe.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNomEmploye($nomEmploye) {
+    public function setNomEmploye(?string $nomEmploye): AttestationAt {
         $this->nomEmploye = $nomEmploye;
         return $this;
     }
@@ -1645,10 +1646,10 @@ class AttestationAt {
     /**
      * Set the nom marital.
      *
-     * @param string $nomMarital The nom marital.
+     * @param string|null $nomMarital The nom marital.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNomMarital($nomMarital) {
+    public function setNomMarital(?string $nomMarital): AttestationAt {
         $this->nomMarital = $nomMarital;
         return $this;
     }
@@ -1656,10 +1657,10 @@ class AttestationAt {
     /**
      * Set the non repris.
      *
-     * @param bool $nonRepris The non repris.
+     * @param bool|null $nonRepris The non repris.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNonRepris($nonRepris) {
+    public function setNonRepris(?bool $nonRepris): AttestationAt {
         $this->nonRepris = $nonRepris;
         return $this;
     }
@@ -1667,10 +1668,10 @@ class AttestationAt {
     /**
      * Set the num contrat.
      *
-     * @param string $numContrat The num contrat.
+     * @param string|null $numContrat The num contrat.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNumContrat($numContrat) {
+    public function setNumContrat(?string $numContrat): AttestationAt {
         $this->numContrat = $numContrat;
         return $this;
     }
@@ -1678,10 +1679,10 @@ class AttestationAt {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): AttestationAt {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -1689,10 +1690,10 @@ class AttestationAt {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): AttestationAt {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -1700,10 +1701,10 @@ class AttestationAt {
     /**
      * Set the partiel.
      *
-     * @param bool $partiel The partiel.
+     * @param bool|null $partiel The partiel.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPartiel($partiel) {
+    public function setPartiel(?bool $partiel): AttestationAt {
         $this->partiel = $partiel;
         return $this;
     }
@@ -1714,7 +1715,7 @@ class AttestationAt {
      * @param DateTime|null $perReferenceAu The per reference au.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPerReferenceAu(DateTime $perReferenceAu = null) {
+    public function setPerReferenceAu(?DateTime $perReferenceAu): AttestationAt {
         $this->perReferenceAu = $perReferenceAu;
         return $this;
     }
@@ -1722,10 +1723,10 @@ class AttestationAt {
     /**
      * Set the per reference cotisations.
      *
-     * @param float $perReferenceCotisations The per reference cotisations.
+     * @param float|null $perReferenceCotisations The per reference cotisations.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPerReferenceCotisations($perReferenceCotisations) {
+    public function setPerReferenceCotisations(?float $perReferenceCotisations): AttestationAt {
         $this->perReferenceCotisations = $perReferenceCotisations;
         return $this;
     }
@@ -1736,7 +1737,7 @@ class AttestationAt {
      * @param DateTime|null $perReferenceDu The per reference du.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPerReferenceDu(DateTime $perReferenceDu = null) {
+    public function setPerReferenceDu(?DateTime $perReferenceDu): AttestationAt {
         $this->perReferenceDu = $perReferenceDu;
         return $this;
     }
@@ -1744,10 +1745,10 @@ class AttestationAt {
     /**
      * Set the per reference montant.
      *
-     * @param float $perReferenceMontant The per reference montant.
+     * @param float|null $perReferenceMontant The per reference montant.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPerReferenceMontant($perReferenceMontant) {
+    public function setPerReferenceMontant(?float $perReferenceMontant): AttestationAt {
         $this->perReferenceMontant = $perReferenceMontant;
         return $this;
     }
@@ -1755,10 +1756,10 @@ class AttestationAt {
     /**
      * Set the per reference nb heures.
      *
-     * @param float $perReferenceNbHeures The per reference nb heures.
+     * @param float|null $perReferenceNbHeures The per reference nb heures.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPerReferenceNbHeures($perReferenceNbHeures) {
+    public function setPerReferenceNbHeures(?float $perReferenceNbHeures): AttestationAt {
         $this->perReferenceNbHeures = $perReferenceNbHeures;
         return $this;
     }
@@ -1766,10 +1767,10 @@ class AttestationAt {
     /**
      * Set the per reference salaires.
      *
-     * @param float $perReferenceSalaires The per reference salaires.
+     * @param float|null $perReferenceSalaires The per reference salaires.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPerReferenceSalaires($perReferenceSalaires) {
+    public function setPerReferenceSalaires(?float $perReferenceSalaires): AttestationAt {
         $this->perReferenceSalaires = $perReferenceSalaires;
         return $this;
     }
@@ -1780,7 +1781,7 @@ class AttestationAt {
      * @param DateTime|null $periodeSubrAu The periode subr au.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPeriodeSubrAu(DateTime $periodeSubrAu = null) {
+    public function setPeriodeSubrAu(?DateTime $periodeSubrAu): AttestationAt {
         $this->periodeSubrAu = $periodeSubrAu;
         return $this;
     }
@@ -1791,7 +1792,7 @@ class AttestationAt {
      * @param DateTime|null $periodeSubrDu The periode subr du.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPeriodeSubrDu(DateTime $periodeSubrDu = null) {
+    public function setPeriodeSubrDu(?DateTime $periodeSubrDu): AttestationAt {
         $this->periodeSubrDu = $periodeSubrDu;
         return $this;
     }
@@ -1799,10 +1800,10 @@ class AttestationAt {
     /**
      * Set the prenom employe.
      *
-     * @param string $prenomEmploye The prenom employe.
+     * @param string|null $prenomEmploye The prenom employe.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setPrenomEmploye($prenomEmploye) {
+    public function setPrenomEmploye(?string $prenomEmploye): AttestationAt {
         $this->prenomEmploye = $prenomEmploye;
         return $this;
     }
@@ -1810,10 +1811,10 @@ class AttestationAt {
     /**
      * Set the qualification.
      *
-     * @param string $qualification The qualification.
+     * @param string|null $qualification The qualification.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setQualification($qualification) {
+    public function setQualification(?string $qualification): AttestationAt {
         $this->qualification = $qualification;
         return $this;
     }
@@ -1824,7 +1825,7 @@ class AttestationAt {
      * @param DateTime|null $reprise The reprise.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setReprise(DateTime $reprise = null) {
+    public function setReprise(?DateTime $reprise): AttestationAt {
         $this->reprise = $reprise;
         return $this;
     }
@@ -1832,21 +1833,32 @@ class AttestationAt {
     /**
      * Set the risque at.
      *
-     * @param string $risqueAt The risque at.
+     * @param string|null $risqueAt The risque at.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setRisqueAt($risqueAt) {
+    public function setRisqueAt(?string $risqueAt): AttestationAt {
         $this->risqueAt = $risqueAt;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string|null $siret The siret.
+     * @return AttestationAt Returns this Attestation at.
+     */
+    public function setSiret(?string $siret): AttestationAt {
+        $this->siret = $siret;
         return $this;
     }
 
     /**
      * Set the salaire mini.
      *
-     * @param float $salaireMini The salaire mini.
+     * @param float|null $salaireMini The salaire mini.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSalaireMini($salaireMini) {
+    public function setSalaireMini(?float $salaireMini): AttestationAt {
         $this->salaireMini = $salaireMini;
         return $this;
     }
@@ -1854,10 +1866,10 @@ class AttestationAt {
     /**
      * Set the sexe.
      *
-     * @param string $sexe The sexe.
+     * @param string|null $sexe The sexe.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSexe($sexe) {
+    public function setSexe(?string $sexe): AttestationAt {
         $this->sexe = $sexe;
         return $this;
     }
@@ -1868,7 +1880,7 @@ class AttestationAt {
      * @param DateTime|null $signatureDate The signature date.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSignatureDate(DateTime $signatureDate = null) {
+    public function setSignatureDate(?DateTime $signatureDate): AttestationAt {
         $this->signatureDate = $signatureDate;
         return $this;
     }
@@ -1876,10 +1888,10 @@ class AttestationAt {
     /**
      * Set the signature nom.
      *
-     * @param string $signatureNom The signature nom.
+     * @param string|null $signatureNom The signature nom.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSignatureNom($signatureNom) {
+    public function setSignatureNom(?string $signatureNom): AttestationAt {
         $this->signatureNom = $signatureNom;
         return $this;
     }
@@ -1887,10 +1899,10 @@ class AttestationAt {
     /**
      * Set the signature qualite.
      *
-     * @param string $signatureQualite The signature qualite.
+     * @param string|null $signatureQualite The signature qualite.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSignatureQualite($signatureQualite) {
+    public function setSignatureQualite(?string $signatureQualite): AttestationAt {
         $this->signatureQualite = $signatureQualite;
         return $this;
     }
@@ -1898,32 +1910,21 @@ class AttestationAt {
     /**
      * Set the signature ville.
      *
-     * @param string $signatureVille The signature ville.
+     * @param string|null $signatureVille The signature ville.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSignatureVille($signatureVille) {
+    public function setSignatureVille(?string $signatureVille): AttestationAt {
         $this->signatureVille = $signatureVille;
-        return $this;
-    }
-
-    /**
-     * Set the siret.
-     *
-     * @param string $siret The siret.
-     * @return AttestationAt Returns this Attestation at.
-     */
-    public function setSiret($siret) {
-        $this->siret = $siret;
         return $this;
     }
 
     /**
      * Set the sub integral.
      *
-     * @param bool $subIntegral The sub integral.
+     * @param bool|null $subIntegral The sub integral.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSubIntegral($subIntegral) {
+    public function setSubIntegral(?bool $subIntegral): AttestationAt {
         $this->subIntegral = $subIntegral;
         return $this;
     }
@@ -1931,10 +1932,10 @@ class AttestationAt {
     /**
      * Set the sub partiel.
      *
-     * @param bool $subPartiel The sub partiel.
+     * @param bool|null $subPartiel The sub partiel.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSubPartiel($subPartiel) {
+    public function setSubPartiel(?bool $subPartiel): AttestationAt {
         $this->subPartiel = $subPartiel;
         return $this;
     }
@@ -1942,10 +1943,10 @@ class AttestationAt {
     /**
      * Set the subrogation duree max.
      *
-     * @param string $subrogationDureeMax The subrogation duree max.
+     * @param string|null $subrogationDureeMax The subrogation duree max.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSubrogationDureeMax($subrogationDureeMax) {
+    public function setSubrogationDureeMax(?string $subrogationDureeMax): AttestationAt {
         $this->subrogationDureeMax = $subrogationDureeMax;
         return $this;
     }
@@ -1953,10 +1954,10 @@ class AttestationAt {
     /**
      * Set the subrogation montant.
      *
-     * @param float $subrogationMontant The subrogation montant.
+     * @param float|null $subrogationMontant The subrogation montant.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setSubrogationMontant($subrogationMontant) {
+    public function setSubrogationMontant(?float $subrogationMontant): AttestationAt {
         $this->subrogationMontant = $subrogationMontant;
         return $this;
     }
@@ -1964,10 +1965,10 @@ class AttestationAt {
     /**
      * Set the type attestation.
      *
-     * @param string $typeAttestation The type attestation.
+     * @param string|null $typeAttestation The type attestation.
      * @return AttestationAt Returns this Attestation at.
      */
-    public function setTypeAttestation($typeAttestation) {
+    public function setTypeAttestation(?string $typeAttestation): AttestationAt {
         $this->typeAttestation = $typeAttestation;
         return $this;
     }

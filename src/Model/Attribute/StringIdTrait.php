@@ -22,25 +22,25 @@ trait StringIdTrait {
     /**
      * Id.
      *
-     * @var string
+     * @var string|null
      */
     protected $id;
 
     /**
      * Get the id.
      *
-     * @return string Returns the id.
+     * @return string|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?string {
         return $this->id;
     }
 
     /**
      * Set the id.
      *
-     * @param string $id The id.
+     * @param string|null $id The id.
      */
-    public function setId($id) {
+    public function setId(?string $id) {
         $this->id = $id;
         return $this;
     }

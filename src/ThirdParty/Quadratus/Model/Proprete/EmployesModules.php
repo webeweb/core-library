@@ -24,7 +24,7 @@ class EmployesModules {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
@@ -38,7 +38,7 @@ class EmployesModules {
     /**
      * Ecart cumule init.
      *
-     * @var float
+     * @var float|null
      */
     private $ecartCumuleInit;
 
@@ -56,19 +56,20 @@ class EmployesModules {
      */
     private $periodeEcartCumule;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
@@ -77,16 +78,16 @@ class EmployesModules {
      *
      * @return DateTime|null Returns the debut modulation.
      */
-    public function getDebutModulation() {
+    public function getDebutModulation(): ?DateTime{
         return $this->debutModulation;
     }
 
     /**
      * Get the ecart cumule init.
      *
-     * @return float Returns the ecart cumule init.
+     * @return float|null Returns the ecart cumule init.
      */
-    public function getEcartCumuleInit() {
+    public function getEcartCumuleInit(): ?float{
         return $this->ecartCumuleInit;
     }
 
@@ -95,7 +96,7 @@ class EmployesModules {
      *
      * @return DateTime|null Returns the fin modulation.
      */
-    public function getFinModulation() {
+    public function getFinModulation(): ?DateTime{
         return $this->finModulation;
     }
 
@@ -104,17 +105,17 @@ class EmployesModules {
      *
      * @return DateTime|null Returns the periode ecart cumule.
      */
-    public function getPeriodeEcartCumule() {
+    public function getPeriodeEcartCumule(): ?DateTime{
         return $this->periodeEcartCumule;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return EmployesModules Returns this Employes modules.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): EmployesModules {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -125,7 +126,7 @@ class EmployesModules {
      * @param DateTime|null $debutModulation The debut modulation.
      * @return EmployesModules Returns this Employes modules.
      */
-    public function setDebutModulation(DateTime $debutModulation = null) {
+    public function setDebutModulation(?DateTime $debutModulation): EmployesModules {
         $this->debutModulation = $debutModulation;
         return $this;
     }
@@ -133,10 +134,10 @@ class EmployesModules {
     /**
      * Set the ecart cumule init.
      *
-     * @param float $ecartCumuleInit The ecart cumule init.
+     * @param float|null $ecartCumuleInit The ecart cumule init.
      * @return EmployesModules Returns this Employes modules.
      */
-    public function setEcartCumuleInit($ecartCumuleInit) {
+    public function setEcartCumuleInit(?float $ecartCumuleInit): EmployesModules {
         $this->ecartCumuleInit = $ecartCumuleInit;
         return $this;
     }
@@ -147,7 +148,7 @@ class EmployesModules {
      * @param DateTime|null $finModulation The fin modulation.
      * @return EmployesModules Returns this Employes modules.
      */
-    public function setFinModulation(DateTime $finModulation = null) {
+    public function setFinModulation(?DateTime $finModulation): EmployesModules {
         $this->finModulation = $finModulation;
         return $this;
     }
@@ -158,7 +159,7 @@ class EmployesModules {
      * @param DateTime|null $periodeEcartCumule The periode ecart cumule.
      * @return EmployesModules Returns this Employes modules.
      */
-    public function setPeriodeEcartCumule(DateTime $periodeEcartCumule = null) {
+    public function setPeriodeEcartCumule(?DateTime $periodeEcartCumule): EmployesModules {
         $this->periodeEcartCumule = $periodeEcartCumule;
         return $this;
     }

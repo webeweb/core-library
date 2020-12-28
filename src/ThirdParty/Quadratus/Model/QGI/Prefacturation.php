@@ -24,42 +24,42 @@ class Prefacturation {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code mission.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMission;
 
     /**
      * Code phase.
      *
-     * @var string
+     * @var string|null
      */
     private $codePhase;
 
     /**
      * Code regroupement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegroupement;
 
@@ -80,56 +80,56 @@ class Prefacturation {
     /**
      * Facturable.
      *
-     * @var bool
+     * @var bool|null
      */
     private $facturable;
 
     /**
      * Id prefacturation.
      *
-     * @var int
+     * @var int|null
      */
     private $idPrefacturation;
 
     /**
      * Is transf.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isTransf;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Monnaie.
      *
-     * @var string
+     * @var string|null
      */
     private $monnaie;
 
     /**
      * Pu.
      *
-     * @var float
+     * @var float|null
      */
     private $pu;
 
     /**
      * Qte.
      *
-     * @var float
+     * @var float|null
      */
     private $qte;
 
     /**
      * Uniq id facture.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdFacture;
 
@@ -137,60 +137,60 @@ class Prefacturation {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code mission.
      *
-     * @return string Returns the code mission.
+     * @return string|null Returns the code mission.
      */
-    public function getCodeMission() {
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
     /**
      * Get the code phase.
      *
-     * @return string Returns the code phase.
+     * @return string|null Returns the code phase.
      */
-    public function getCodePhase() {
+    public function getCodePhase(): ?string {
         return $this->codePhase;
     }
 
     /**
      * Get the code regroupement.
      *
-     * @return string Returns the code regroupement.
+     * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement() {
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -199,7 +199,7 @@ class Prefacturation {
      *
      * @return DateTime|null Returns the date saisie.
      */
-    public function getDateSaisie() {
+    public function getDateSaisie(): ?DateTime {
         return $this->dateSaisie;
     }
 
@@ -208,89 +208,89 @@ class Prefacturation {
      *
      * @return DateTime|null Returns the date sys saisie.
      */
-    public function getDateSysSaisie() {
+    public function getDateSysSaisie(): ?DateTime {
         return $this->dateSysSaisie;
     }
 
     /**
      * Get the facturable.
      *
-     * @return bool Returns the facturable.
+     * @return bool|null Returns the facturable.
      */
-    public function getFacturable() {
+    public function getFacturable(): ?bool {
         return $this->facturable;
     }
 
     /**
      * Get the id prefacturation.
      *
-     * @return int Returns the id prefacturation.
+     * @return int|null Returns the id prefacturation.
      */
-    public function getIdPrefacturation() {
+    public function getIdPrefacturation(): ?int {
         return $this->idPrefacturation;
     }
 
     /**
      * Get the is transf.
      *
-     * @return bool Returns the is transf.
+     * @return bool|null Returns the is transf.
      */
-    public function getIsTransf() {
+    public function getIsTransf(): ?bool {
         return $this->isTransf;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the monnaie.
      *
-     * @return string Returns the monnaie.
+     * @return string|null Returns the monnaie.
      */
-    public function getMonnaie() {
+    public function getMonnaie(): ?string {
         return $this->monnaie;
     }
 
     /**
      * Get the pu.
      *
-     * @return float Returns the pu.
+     * @return float|null Returns the pu.
      */
-    public function getPu() {
+    public function getPu(): ?float {
         return $this->pu;
     }
 
     /**
      * Get the qte.
      *
-     * @return float Returns the qte.
+     * @return float|null Returns the qte.
      */
-    public function getQte() {
+    public function getQte(): ?float {
         return $this->qte;
     }
 
     /**
      * Get the uniq id facture.
      *
-     * @return string Returns the uniq id facture.
+     * @return string|null Returns the uniq id facture.
      */
-    public function getUniqIdFacture() {
+    public function getUniqIdFacture(): ?string {
         return $this->uniqIdFacture;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): Prefacturation {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -298,10 +298,10 @@ class Prefacturation {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Prefacturation {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -309,10 +309,10 @@ class Prefacturation {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): Prefacturation {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -320,10 +320,10 @@ class Prefacturation {
     /**
      * Set the code mission.
      *
-     * @param string $codeMission The code mission.
+     * @param string|null $codeMission The code mission.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setCodeMission($codeMission) {
+    public function setCodeMission(?string $codeMission): Prefacturation {
         $this->codeMission = $codeMission;
         return $this;
     }
@@ -331,10 +331,10 @@ class Prefacturation {
     /**
      * Set the code phase.
      *
-     * @param string $codePhase The code phase.
+     * @param string|null $codePhase The code phase.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setCodePhase($codePhase) {
+    public function setCodePhase(?string $codePhase): Prefacturation {
         $this->codePhase = $codePhase;
         return $this;
     }
@@ -342,10 +342,10 @@ class Prefacturation {
     /**
      * Set the code regroupement.
      *
-     * @param string $codeRegroupement The code regroupement.
+     * @param string|null $codeRegroupement The code regroupement.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setCodeRegroupement($codeRegroupement) {
+    public function setCodeRegroupement(?string $codeRegroupement): Prefacturation {
         $this->codeRegroupement = $codeRegroupement;
         return $this;
     }
@@ -356,7 +356,7 @@ class Prefacturation {
      * @param DateTime|null $dateSaisie The date saisie.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setDateSaisie(DateTime $dateSaisie = null) {
+    public function setDateSaisie(?DateTime $dateSaisie): Prefacturation {
         $this->dateSaisie = $dateSaisie;
         return $this;
     }
@@ -367,7 +367,7 @@ class Prefacturation {
      * @param DateTime|null $dateSysSaisie The date sys saisie.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setDateSysSaisie(DateTime $dateSysSaisie = null) {
+    public function setDateSysSaisie(?DateTime $dateSysSaisie): Prefacturation {
         $this->dateSysSaisie = $dateSysSaisie;
         return $this;
     }
@@ -375,10 +375,10 @@ class Prefacturation {
     /**
      * Set the facturable.
      *
-     * @param bool $facturable The facturable.
+     * @param bool|null $facturable The facturable.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setFacturable($facturable) {
+    public function setFacturable(?bool $facturable): Prefacturation {
         $this->facturable = $facturable;
         return $this;
     }
@@ -386,10 +386,10 @@ class Prefacturation {
     /**
      * Set the id prefacturation.
      *
-     * @param int $idPrefacturation The id prefacturation.
+     * @param int|null $idPrefacturation The id prefacturation.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setIdPrefacturation($idPrefacturation) {
+    public function setIdPrefacturation(?int $idPrefacturation): Prefacturation {
         $this->idPrefacturation = $idPrefacturation;
         return $this;
     }
@@ -397,10 +397,10 @@ class Prefacturation {
     /**
      * Set the is transf.
      *
-     * @param bool $isTransf The is transf.
+     * @param bool|null $isTransf The is transf.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setIsTransf($isTransf) {
+    public function setIsTransf(?bool $isTransf): Prefacturation {
         $this->isTransf = $isTransf;
         return $this;
     }
@@ -408,10 +408,10 @@ class Prefacturation {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Prefacturation {
         $this->libelle = $libelle;
         return $this;
     }
@@ -419,10 +419,10 @@ class Prefacturation {
     /**
      * Set the monnaie.
      *
-     * @param string $monnaie The monnaie.
+     * @param string|null $monnaie The monnaie.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setMonnaie($monnaie) {
+    public function setMonnaie(?string $monnaie): Prefacturation {
         $this->monnaie = $monnaie;
         return $this;
     }
@@ -430,10 +430,10 @@ class Prefacturation {
     /**
      * Set the pu.
      *
-     * @param float $pu The pu.
+     * @param float|null $pu The pu.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setPu($pu) {
+    public function setPu(?float $pu): Prefacturation {
         $this->pu = $pu;
         return $this;
     }
@@ -441,10 +441,10 @@ class Prefacturation {
     /**
      * Set the qte.
      *
-     * @param float $qte The qte.
+     * @param float|null $qte The qte.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setQte($qte) {
+    public function setQte(?float $qte): Prefacturation {
         $this->qte = $qte;
         return $this;
     }
@@ -452,10 +452,10 @@ class Prefacturation {
     /**
      * Set the uniq id facture.
      *
-     * @param string $uniqIdFacture The uniq id facture.
+     * @param string|null $uniqIdFacture The uniq id facture.
      * @return Prefacturation Returns this Prefacturation.
      */
-    public function setUniqIdFacture($uniqIdFacture) {
+    public function setUniqIdFacture(?string $uniqIdFacture): Prefacturation {
         $this->uniqIdFacture = $uniqIdFacture;
         return $this;
     }

@@ -29,7 +29,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibHs() {
+    public function testSetCodeLibHs(): void {
 
         $obj = new PrepaPaieHSup();
 
@@ -42,7 +42,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup() {
+    public function testSetNbHSup(): void {
 
         $obj = new PrepaPaieHSup();
 
@@ -55,7 +55,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new PrepaPaieHSup();
 
@@ -69,7 +69,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentHSup() {
+    public function testSetPourcentHSup(): void {
 
         $obj = new PrepaPaieHSup();
 
@@ -98,7 +98,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSemaine() {
+    public function testSetSemaine(): void {
 
         $obj = new PrepaPaieHSup();
 
@@ -111,7 +111,7 @@ class PrepaPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PrepaPaieHSup();
 

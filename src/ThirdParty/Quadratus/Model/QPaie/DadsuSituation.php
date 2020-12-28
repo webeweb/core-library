@@ -24,21 +24,21 @@ class DadsuSituation {
     /**
      * Code debut periode.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDebutPeriode;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code temps arret.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTempsArret;
 
@@ -59,14 +59,14 @@ class DadsuSituation {
     /**
      * Depuis calcul.
      *
-     * @var bool
+     * @var bool|null
      */
     private $depuisCalcul;
 
     /**
      * Etat ctrl norme.
      *
-     * @var string
+     * @var string|null
      */
     private $etatCtrlNorme;
 
@@ -80,97 +80,98 @@ class DadsuSituation {
     /**
      * Montant1.
      *
-     * @var float
+     * @var float|null
      */
     private $montant1;
 
     /**
      * Montant2.
      *
-     * @var float
+     * @var float|null
      */
     private $montant2;
 
     /**
      * Montant employeur.
      *
-     * @var float
+     * @var float|null
      */
     private $montantEmployeur;
 
     /**
      * Motif situation.
      *
-     * @var string
+     * @var string|null
      */
     private $motifSituation;
 
     /**
      * Numero.
      *
-     * @var string
+     * @var string|null
      */
     private $numero;
 
     /**
      * Numero ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroOrdre;
 
     /**
      * Qualif unite temps.
      *
-     * @var string
+     * @var string|null
      */
     private $qualifUniteTemps;
 
     /**
      * Temps arret.
      *
-     * @var float
+     * @var float|null
      */
     private $tempsArret;
 
     /**
      * Type base.
      *
-     * @var string
+     * @var string|null
      */
     private $typeBase;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code debut periode.
      *
-     * @return string Returns the code debut periode.
+     * @return string|null Returns the code debut periode.
      */
-    public function getCodeDebutPeriode() {
+    public function getCodeDebutPeriode(): ?string{
         return $this->codeDebutPeriode;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code temps arret.
      *
-     * @return string Returns the code temps arret.
+     * @return string|null Returns the code temps arret.
      */
-    public function getCodeTempsArret() {
+    public function getCodeTempsArret(): ?string{
         return $this->codeTempsArret;
     }
 
@@ -179,7 +180,7 @@ class DadsuSituation {
      *
      * @return DateTime|null Returns the date ctrl norme.
      */
-    public function getDateCtrlNorme() {
+    public function getDateCtrlNorme(): ?DateTime{
         return $this->dateCtrlNorme;
     }
 
@@ -188,25 +189,25 @@ class DadsuSituation {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode() {
+    public function getDebutPeriode(): ?DateTime{
         return $this->debutPeriode;
     }
 
     /**
      * Get the depuis calcul.
      *
-     * @return bool Returns the depuis calcul.
+     * @return bool|null Returns the depuis calcul.
      */
-    public function getDepuisCalcul() {
+    public function getDepuisCalcul(): ?bool{
         return $this->depuisCalcul;
     }
 
     /**
      * Get the etat ctrl norme.
      *
-     * @return string Returns the etat ctrl norme.
+     * @return string|null Returns the etat ctrl norme.
      */
-    public function getEtatCtrlNorme() {
+    public function getEtatCtrlNorme(): ?string{
         return $this->etatCtrlNorme;
     }
 
@@ -215,98 +216,98 @@ class DadsuSituation {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode() {
+    public function getFinPeriode(): ?DateTime{
         return $this->finPeriode;
     }
 
     /**
      * Get the montant1.
      *
-     * @return float Returns the montant1.
+     * @return float|null Returns the montant1.
      */
-    public function getMontant1() {
+    public function getMontant1(): ?float{
         return $this->montant1;
     }
 
     /**
      * Get the montant2.
      *
-     * @return float Returns the montant2.
+     * @return float|null Returns the montant2.
      */
-    public function getMontant2() {
+    public function getMontant2(): ?float{
         return $this->montant2;
     }
 
     /**
      * Get the montant employeur.
      *
-     * @return float Returns the montant employeur.
+     * @return float|null Returns the montant employeur.
      */
-    public function getMontantEmployeur() {
+    public function getMontantEmployeur(): ?float{
         return $this->montantEmployeur;
     }
 
     /**
      * Get the motif situation.
      *
-     * @return string Returns the motif situation.
+     * @return string|null Returns the motif situation.
      */
-    public function getMotifSituation() {
+    public function getMotifSituation(): ?string{
         return $this->motifSituation;
     }
 
     /**
      * Get the numero.
      *
-     * @return string Returns the numero.
+     * @return string|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?string{
         return $this->numero;
     }
 
     /**
      * Get the numero ordre.
      *
-     * @return int Returns the numero ordre.
+     * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre() {
+    public function getNumeroOrdre(): ?int{
         return $this->numeroOrdre;
     }
 
     /**
      * Get the qualif unite temps.
      *
-     * @return string Returns the qualif unite temps.
+     * @return string|null Returns the qualif unite temps.
      */
-    public function getQualifUniteTemps() {
+    public function getQualifUniteTemps(): ?string{
         return $this->qualifUniteTemps;
     }
 
     /**
      * Get the temps arret.
      *
-     * @return float Returns the temps arret.
+     * @return float|null Returns the temps arret.
      */
-    public function getTempsArret() {
+    public function getTempsArret(): ?float{
         return $this->tempsArret;
     }
 
     /**
      * Get the type base.
      *
-     * @return string Returns the type base.
+     * @return string|null Returns the type base.
      */
-    public function getTypeBase() {
+    public function getTypeBase(): ?string{
         return $this->typeBase;
     }
 
     /**
      * Set the code debut periode.
      *
-     * @param string $codeDebutPeriode The code debut periode.
+     * @param string|null $codeDebutPeriode The code debut periode.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setCodeDebutPeriode($codeDebutPeriode) {
+    public function setCodeDebutPeriode(?string $codeDebutPeriode): DadsuSituation {
         $this->codeDebutPeriode = $codeDebutPeriode;
         return $this;
     }
@@ -314,10 +315,10 @@ class DadsuSituation {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuSituation {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -325,10 +326,10 @@ class DadsuSituation {
     /**
      * Set the code temps arret.
      *
-     * @param string $codeTempsArret The code temps arret.
+     * @param string|null $codeTempsArret The code temps arret.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setCodeTempsArret($codeTempsArret) {
+    public function setCodeTempsArret(?string $codeTempsArret): DadsuSituation {
         $this->codeTempsArret = $codeTempsArret;
         return $this;
     }
@@ -339,7 +340,7 @@ class DadsuSituation {
      * @param DateTime|null $dateCtrlNorme The date ctrl norme.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setDateCtrlNorme(DateTime $dateCtrlNorme = null) {
+    public function setDateCtrlNorme(?DateTime $dateCtrlNorme): DadsuSituation {
         $this->dateCtrlNorme = $dateCtrlNorme;
         return $this;
     }
@@ -350,7 +351,7 @@ class DadsuSituation {
      * @param DateTime|null $debutPeriode The debut periode.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setDebutPeriode(DateTime $debutPeriode = null) {
+    public function setDebutPeriode(?DateTime $debutPeriode): DadsuSituation {
         $this->debutPeriode = $debutPeriode;
         return $this;
     }
@@ -358,10 +359,10 @@ class DadsuSituation {
     /**
      * Set the depuis calcul.
      *
-     * @param bool $depuisCalcul The depuis calcul.
+     * @param bool|null $depuisCalcul The depuis calcul.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setDepuisCalcul($depuisCalcul) {
+    public function setDepuisCalcul(?bool $depuisCalcul): DadsuSituation {
         $this->depuisCalcul = $depuisCalcul;
         return $this;
     }
@@ -369,10 +370,10 @@ class DadsuSituation {
     /**
      * Set the etat ctrl norme.
      *
-     * @param string $etatCtrlNorme The etat ctrl norme.
+     * @param string|null $etatCtrlNorme The etat ctrl norme.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setEtatCtrlNorme($etatCtrlNorme) {
+    public function setEtatCtrlNorme(?string $etatCtrlNorme): DadsuSituation {
         $this->etatCtrlNorme = $etatCtrlNorme;
         return $this;
     }
@@ -383,7 +384,7 @@ class DadsuSituation {
      * @param DateTime|null $finPeriode The fin periode.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setFinPeriode(DateTime $finPeriode = null) {
+    public function setFinPeriode(?DateTime $finPeriode): DadsuSituation {
         $this->finPeriode = $finPeriode;
         return $this;
     }
@@ -391,10 +392,10 @@ class DadsuSituation {
     /**
      * Set the montant1.
      *
-     * @param float $montant1 The montant1.
+     * @param float|null $montant1 The montant1.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setMontant1($montant1) {
+    public function setMontant1(?float $montant1): DadsuSituation {
         $this->montant1 = $montant1;
         return $this;
     }
@@ -402,10 +403,10 @@ class DadsuSituation {
     /**
      * Set the montant2.
      *
-     * @param float $montant2 The montant2.
+     * @param float|null $montant2 The montant2.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setMontant2($montant2) {
+    public function setMontant2(?float $montant2): DadsuSituation {
         $this->montant2 = $montant2;
         return $this;
     }
@@ -413,10 +414,10 @@ class DadsuSituation {
     /**
      * Set the montant employeur.
      *
-     * @param float $montantEmployeur The montant employeur.
+     * @param float|null $montantEmployeur The montant employeur.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setMontantEmployeur($montantEmployeur) {
+    public function setMontantEmployeur(?float $montantEmployeur): DadsuSituation {
         $this->montantEmployeur = $montantEmployeur;
         return $this;
     }
@@ -424,10 +425,10 @@ class DadsuSituation {
     /**
      * Set the motif situation.
      *
-     * @param string $motifSituation The motif situation.
+     * @param string|null $motifSituation The motif situation.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setMotifSituation($motifSituation) {
+    public function setMotifSituation(?string $motifSituation): DadsuSituation {
         $this->motifSituation = $motifSituation;
         return $this;
     }
@@ -435,10 +436,10 @@ class DadsuSituation {
     /**
      * Set the numero.
      *
-     * @param string $numero The numero.
+     * @param string|null $numero The numero.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setNumero($numero) {
+    public function setNumero(?string $numero): DadsuSituation {
         $this->numero = $numero;
         return $this;
     }
@@ -446,10 +447,10 @@ class DadsuSituation {
     /**
      * Set the numero ordre.
      *
-     * @param int $numeroOrdre The numero ordre.
+     * @param int|null $numeroOrdre The numero ordre.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setNumeroOrdre($numeroOrdre) {
+    public function setNumeroOrdre(?int $numeroOrdre): DadsuSituation {
         $this->numeroOrdre = $numeroOrdre;
         return $this;
     }
@@ -457,10 +458,10 @@ class DadsuSituation {
     /**
      * Set the qualif unite temps.
      *
-     * @param string $qualifUniteTemps The qualif unite temps.
+     * @param string|null $qualifUniteTemps The qualif unite temps.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setQualifUniteTemps($qualifUniteTemps) {
+    public function setQualifUniteTemps(?string $qualifUniteTemps): DadsuSituation {
         $this->qualifUniteTemps = $qualifUniteTemps;
         return $this;
     }
@@ -468,10 +469,10 @@ class DadsuSituation {
     /**
      * Set the temps arret.
      *
-     * @param float $tempsArret The temps arret.
+     * @param float|null $tempsArret The temps arret.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setTempsArret($tempsArret) {
+    public function setTempsArret(?float $tempsArret): DadsuSituation {
         $this->tempsArret = $tempsArret;
         return $this;
     }
@@ -479,10 +480,10 @@ class DadsuSituation {
     /**
      * Set the type base.
      *
-     * @param string $typeBase The type base.
+     * @param string|null $typeBase The type base.
      * @return DadsuSituation Returns this Dadsu situation.
      */
-    public function setTypeBase($typeBase) {
+    public function setTypeBase(?string $typeBase): DadsuSituation {
         $this->typeBase = $typeBase;
         return $this;
     }

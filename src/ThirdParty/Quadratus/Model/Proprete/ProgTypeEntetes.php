@@ -22,49 +22,50 @@ class ProgTypeEntetes {
     /**
      * Designation.
      *
-     * @var string
+     * @var string|null
      */
     private $designation;
 
     /**
      * Num programme.
      *
-     * @var int
+     * @var int|null
      */
     private $numProgramme;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the designation.
      *
-     * @return string Returns the designation.
+     * @return string|null Returns the designation.
      */
-    public function getDesignation() {
+    public function getDesignation(): ?string{
         return $this->designation;
     }
 
     /**
      * Get the num programme.
      *
-     * @return int Returns the num programme.
+     * @return int|null Returns the num programme.
      */
-    public function getNumProgramme() {
+    public function getNumProgramme(): ?int{
         return $this->numProgramme;
     }
 
     /**
      * Set the designation.
      *
-     * @param string $designation The designation.
+     * @param string|null $designation The designation.
      * @return ProgTypeEntetes Returns this Prog type entetes.
      */
-    public function setDesignation($designation) {
+    public function setDesignation(?string $designation): ProgTypeEntetes {
         $this->designation = $designation;
         return $this;
     }
@@ -72,10 +73,10 @@ class ProgTypeEntetes {
     /**
      * Set the num programme.
      *
-     * @param int $numProgramme The num programme.
+     * @param int|null $numProgramme The num programme.
      * @return ProgTypeEntetes Returns this Prog type entetes.
      */
-    public function setNumProgramme($numProgramme) {
+    public function setNumProgramme(?int $numProgramme): ProgTypeEntetes {
         $this->numProgramme = $numProgramme;
         return $this;
     }

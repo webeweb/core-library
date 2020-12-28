@@ -22,25 +22,25 @@ trait StringHashMd5Trait {
     /**
      * Hash "MD5".
      *
-     * @var string
+     * @var string|null
      */
     protected $hashMd5;
 
     /**
      * Get the hash "MD5".
      *
-     * @return string Returns the hash "MD5".
+     * @return string|null Returns the hash "MD5".
      */
-    public function getHashMd5() {
+    public function getHashMd5(): ?string {
         return $this->hashMd5;
     }
 
     /**
      * Set the hash "MD5".
      *
-     * @param string $hashMd5 The hash "MD5".
+     * @param string|null $hashMd5 The hash "MD5".
      */
-    public function setHashMd5($hashMd5) {
+    public function setHashMd5(?string $hashMd5) {
         $this->hashMd5 = $hashMd5;
         return $this;
     }

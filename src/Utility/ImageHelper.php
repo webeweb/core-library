@@ -27,7 +27,7 @@ class ImageHelper {
      * @param int $maxHeight The maximum height.
      * @return int[] Returns the dimensions.
      */
-    public static function newDimensions(Image $image, $maxWidth, $maxHeight) {
+    public static function newDimensions(Image $image, int $maxWidth, int $maxHeight): array {
 
         $image->init();
 
@@ -89,7 +89,7 @@ class ImageHelper {
      * @param int $height The height.
      * @return resource|null Returns the output stream in case of success, null otherwise.
      */
-    public static function newOutputStream(Image $image, $width, $height) {
+    public static function newOutputStream(Image $image, int $width, int $height) {
 
         $stream = imagecreatetruecolor($width, $height);
 
@@ -114,7 +114,7 @@ class ImageHelper {
      * @param string $pathname The pathname.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function saveOutputStream(Image $image, $outputStream, $pathname) {
+    public static function saveOutputStream(Image $image, $outputStream, string $pathname): bool {
 
         switch ($image->init()->getMimeType()) {
 

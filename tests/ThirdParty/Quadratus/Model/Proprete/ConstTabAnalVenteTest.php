@@ -27,7 +27,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalArticle() {
+    public function testSetCodeAnalArticle(): void {
 
         $obj = new ConstTabAnalVente();
 
@@ -40,7 +40,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalClient() {
+    public function testSetCodeAnalClient(): void {
 
         $obj = new ConstTabAnalVente();
 
@@ -53,7 +53,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new ConstTabAnalVente();
 
@@ -66,7 +66,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new ConstTabAnalVente();
 
@@ -79,7 +79,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new ConstTabAnalVente();
 
@@ -92,7 +92,7 @@ class ConstTabAnalVenteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstTabAnalVente();
 

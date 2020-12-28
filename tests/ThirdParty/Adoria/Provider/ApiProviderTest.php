@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Provider;
+namespace WBW\Library\Core\Tests\ThirdParty\Adoria\Provider;
 
 use Exception;
+use WBW\Library\Core\Exception\ApiException;
 use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\ThirdParty\Adoria\Exception\ApiException;
 use WBW\Library\Core\ThirdParty\Adoria\Model\RequestData;
 use WBW\Library\Core\ThirdParty\Adoria\Model\Result;
 use WBW\Library\Core\ThirdParty\Adoria\Provider\ApiProvider;
@@ -22,7 +22,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Provider\ApiProvider;
  * API provider test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Adoria\Provider
+ * @package WBW\Library\Core\Tests\ThirdParty\Adoria\Provider
  */
 class ApiProviderTest extends AbstractTestCase {
 
@@ -31,7 +31,7 @@ class ApiProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRequestData() {
+    public function testRequestData(): void {
 
         // Set a Request data mock.
         $requestData = new RequestData();
@@ -60,7 +60,7 @@ class ApiProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDebug() {
+    public function testSetDebug(): void {
 
         $obj = new ApiProvider();
 
@@ -73,7 +73,7 @@ class ApiProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ApiProvider();
 

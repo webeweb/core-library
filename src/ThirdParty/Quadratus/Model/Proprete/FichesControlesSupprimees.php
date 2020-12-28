@@ -24,28 +24,28 @@ class FichesControlesSupprimees {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
@@ -59,57 +59,58 @@ class FichesControlesSupprimees {
     /**
      * Numero fiche.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroFiche;
 
     /**
      * Uniq id blocage.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdBlocage;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
@@ -118,35 +119,35 @@ class FichesControlesSupprimees {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert() {
+    public function getDateTransfert(): ?DateTime{
         return $this->dateTransfert;
     }
 
     /**
      * Get the numero fiche.
      *
-     * @return int Returns the numero fiche.
+     * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche() {
+    public function getNumeroFiche(): ?int{
         return $this->numeroFiche;
     }
 
     /**
      * Get the uniq id blocage.
      *
-     * @return string Returns the uniq id blocage.
+     * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage() {
+    public function getUniqIdBlocage(): ?string{
         return $this->uniqIdBlocage;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FichesControlesSupprimees {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -154,10 +155,10 @@ class FichesControlesSupprimees {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FichesControlesSupprimees {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -165,10 +166,10 @@ class FichesControlesSupprimees {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FichesControlesSupprimees {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -176,10 +177,10 @@ class FichesControlesSupprimees {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): FichesControlesSupprimees {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -190,7 +191,7 @@ class FichesControlesSupprimees {
      * @param DateTime|null $dateTransfert The date transfert.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setDateTransfert(DateTime $dateTransfert = null) {
+    public function setDateTransfert(?DateTime $dateTransfert): FichesControlesSupprimees {
         $this->dateTransfert = $dateTransfert;
         return $this;
     }
@@ -198,10 +199,10 @@ class FichesControlesSupprimees {
     /**
      * Set the numero fiche.
      *
-     * @param int $numeroFiche The numero fiche.
+     * @param int|null $numeroFiche The numero fiche.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setNumeroFiche($numeroFiche) {
+    public function setNumeroFiche(?int $numeroFiche): FichesControlesSupprimees {
         $this->numeroFiche = $numeroFiche;
         return $this;
     }
@@ -209,10 +210,10 @@ class FichesControlesSupprimees {
     /**
      * Set the uniq id blocage.
      *
-     * @param string $uniqIdBlocage The uniq id blocage.
+     * @param string|null $uniqIdBlocage The uniq id blocage.
      * @return FichesControlesSupprimees Returns this Fiches controles supprimees.
      */
-    public function setUniqIdBlocage($uniqIdBlocage) {
+    public function setUniqIdBlocage(?string $uniqIdBlocage): FichesControlesSupprimees {
         $this->uniqIdBlocage = $uniqIdBlocage;
         return $this;
     }

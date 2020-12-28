@@ -29,7 +29,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new Subventions();
 
@@ -42,7 +42,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoeffDegressif() {
+    public function testSetCoeffDegressif(): void {
 
         $obj = new Subventions();
 
@@ -56,7 +56,7 @@ class SubventionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class SubventionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCession() {
+    public function testSetDateCession(): void {
 
         // Set a Date/time mock.
         $dateCession = new DateTime("2018-09-10");
@@ -90,7 +90,7 @@ class SubventionsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateMiseEnService() {
+    public function testSetDateMiseEnService(): void {
 
         // Set a Date/time mock.
         $dateMiseEnService = new DateTime("2018-09-10");
@@ -106,7 +106,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new Subventions();
 
@@ -119,7 +119,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoNumero() {
+    public function testSetImmoNumero(): void {
 
         $obj = new Subventions();
 
@@ -132,7 +132,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoNumeroCompte() {
+    public function testSetImmoNumeroCompte(): void {
 
         $obj = new Subventions();
 
@@ -145,7 +145,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmoNumeroDeux() {
+    public function testSetImmoNumeroDeux(): void {
 
         $obj = new Subventions();
 
@@ -158,7 +158,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Subventions();
 
@@ -171,7 +171,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new Subventions();
 
@@ -184,7 +184,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumContrat() {
+    public function testSetNumContrat(): void {
 
         $obj = new Subventions();
 
@@ -197,7 +197,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptSubvention() {
+    public function testSetNumCptSubvention(): void {
 
         $obj = new Subventions();
 
@@ -210,7 +210,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPj() {
+    public function testSetNumeroPj(): void {
 
         $obj = new Subventions();
 
@@ -223,7 +223,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxLineaire() {
+    public function testSetTauxLineaire(): void {
 
         $obj = new Subventions();
 
@@ -236,7 +236,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAmort() {
+    public function testSetTypeAmort(): void {
 
         $obj = new Subventions();
 
@@ -249,7 +249,7 @@ class SubventionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Subventions();
 

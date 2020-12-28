@@ -24,7 +24,7 @@ class EcrituresRapproBancaire {
     /**
      * Code devise.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDevise;
 
@@ -38,63 +38,63 @@ class EcrituresRapproBancaire {
     /**
      * Jour ecriture.
      *
-     * @var string
+     * @var string|null
      */
     private $jourEcriture;
 
     /**
      * Jrn rappro bancaire.
      *
-     * @var string
+     * @var string|null
      */
     private $jrnRapproBancaire;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Montant saisi credit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantSaisiCredit;
 
     /**
      * Montant saisi debit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantSaisiDebit;
 
     /**
      * Montant tenu credit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTenuCredit;
 
     /**
      * Montant tenu debit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTenuDebit;
 
     /**
      * Num uniq.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniq;
 
     /**
      * Numero piece.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroPiece;
 
@@ -108,23 +108,24 @@ class EcrituresRapproBancaire {
     /**
      * Rappro bancaire ok.
      *
-     * @var bool
+     * @var bool|null
      */
     private $rapproBancaireOk;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code devise.
      *
-     * @return string Returns the code devise.
+     * @return string|null Returns the code devise.
      */
-    public function getCodeDevise() {
+    public function getCodeDevise(): ?string{
         return $this->codeDevise;
     }
 
@@ -133,88 +134,88 @@ class EcrituresRapproBancaire {
      *
      * @return DateTime|null Returns the date rappro bancaire.
      */
-    public function getDateRapproBancaire() {
+    public function getDateRapproBancaire(): ?DateTime{
         return $this->dateRapproBancaire;
     }
 
     /**
      * Get the jour ecriture.
      *
-     * @return string Returns the jour ecriture.
+     * @return string|null Returns the jour ecriture.
      */
-    public function getJourEcriture() {
+    public function getJourEcriture(): ?string{
         return $this->jourEcriture;
     }
 
     /**
      * Get the jrn rappro bancaire.
      *
-     * @return string Returns the jrn rappro bancaire.
+     * @return string|null Returns the jrn rappro bancaire.
      */
-    public function getJrnRapproBancaire() {
+    public function getJrnRapproBancaire(): ?string{
         return $this->jrnRapproBancaire;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the montant saisi credit.
      *
-     * @return float Returns the montant saisi credit.
+     * @return float|null Returns the montant saisi credit.
      */
-    public function getMontantSaisiCredit() {
+    public function getMontantSaisiCredit(): ?float{
         return $this->montantSaisiCredit;
     }
 
     /**
      * Get the montant saisi debit.
      *
-     * @return float Returns the montant saisi debit.
+     * @return float|null Returns the montant saisi debit.
      */
-    public function getMontantSaisiDebit() {
+    public function getMontantSaisiDebit(): ?float{
         return $this->montantSaisiDebit;
     }
 
     /**
      * Get the montant tenu credit.
      *
-     * @return float Returns the montant tenu credit.
+     * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit() {
+    public function getMontantTenuCredit(): ?float{
         return $this->montantTenuCredit;
     }
 
     /**
      * Get the montant tenu debit.
      *
-     * @return float Returns the montant tenu debit.
+     * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit() {
+    public function getMontantTenuDebit(): ?float{
         return $this->montantTenuDebit;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return int Returns the num uniq.
+     * @return int|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?int{
         return $this->numUniq;
     }
 
     /**
      * Get the numero piece.
      *
-     * @return string Returns the numero piece.
+     * @return string|null Returns the numero piece.
      */
-    public function getNumeroPiece() {
+    public function getNumeroPiece(): ?string{
         return $this->numeroPiece;
     }
 
@@ -223,26 +224,26 @@ class EcrituresRapproBancaire {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture() {
+    public function getPeriodeEcriture(): ?DateTime{
         return $this->periodeEcriture;
     }
 
     /**
      * Get the rappro bancaire ok.
      *
-     * @return bool Returns the rappro bancaire ok.
+     * @return bool|null Returns the rappro bancaire ok.
      */
-    public function getRapproBancaireOk() {
+    public function getRapproBancaireOk(): ?bool{
         return $this->rapproBancaireOk;
     }
 
     /**
      * Set the code devise.
      *
-     * @param string $codeDevise The code devise.
+     * @param string|null $codeDevise The code devise.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setCodeDevise($codeDevise) {
+    public function setCodeDevise(?string $codeDevise): EcrituresRapproBancaire {
         $this->codeDevise = $codeDevise;
         return $this;
     }
@@ -253,7 +254,7 @@ class EcrituresRapproBancaire {
      * @param DateTime|null $dateRapproBancaire The date rappro bancaire.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setDateRapproBancaire(DateTime $dateRapproBancaire = null) {
+    public function setDateRapproBancaire(?DateTime $dateRapproBancaire): EcrituresRapproBancaire {
         $this->dateRapproBancaire = $dateRapproBancaire;
         return $this;
     }
@@ -261,10 +262,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the jour ecriture.
      *
-     * @param string $jourEcriture The jour ecriture.
+     * @param string|null $jourEcriture The jour ecriture.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setJourEcriture($jourEcriture) {
+    public function setJourEcriture(?string $jourEcriture): EcrituresRapproBancaire {
         $this->jourEcriture = $jourEcriture;
         return $this;
     }
@@ -272,10 +273,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the jrn rappro bancaire.
      *
-     * @param string $jrnRapproBancaire The jrn rappro bancaire.
+     * @param string|null $jrnRapproBancaire The jrn rappro bancaire.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setJrnRapproBancaire($jrnRapproBancaire) {
+    public function setJrnRapproBancaire(?string $jrnRapproBancaire): EcrituresRapproBancaire {
         $this->jrnRapproBancaire = $jrnRapproBancaire;
         return $this;
     }
@@ -283,10 +284,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): EcrituresRapproBancaire {
         $this->libelle = $libelle;
         return $this;
     }
@@ -294,10 +295,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the montant saisi credit.
      *
-     * @param float $montantSaisiCredit The montant saisi credit.
+     * @param float|null $montantSaisiCredit The montant saisi credit.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setMontantSaisiCredit($montantSaisiCredit) {
+    public function setMontantSaisiCredit(?float $montantSaisiCredit): EcrituresRapproBancaire {
         $this->montantSaisiCredit = $montantSaisiCredit;
         return $this;
     }
@@ -305,10 +306,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the montant saisi debit.
      *
-     * @param float $montantSaisiDebit The montant saisi debit.
+     * @param float|null $montantSaisiDebit The montant saisi debit.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setMontantSaisiDebit($montantSaisiDebit) {
+    public function setMontantSaisiDebit(?float $montantSaisiDebit): EcrituresRapproBancaire {
         $this->montantSaisiDebit = $montantSaisiDebit;
         return $this;
     }
@@ -316,10 +317,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the montant tenu credit.
      *
-     * @param float $montantTenuCredit The montant tenu credit.
+     * @param float|null $montantTenuCredit The montant tenu credit.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setMontantTenuCredit($montantTenuCredit) {
+    public function setMontantTenuCredit(?float $montantTenuCredit): EcrituresRapproBancaire {
         $this->montantTenuCredit = $montantTenuCredit;
         return $this;
     }
@@ -327,10 +328,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the montant tenu debit.
      *
-     * @param float $montantTenuDebit The montant tenu debit.
+     * @param float|null $montantTenuDebit The montant tenu debit.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setMontantTenuDebit($montantTenuDebit) {
+    public function setMontantTenuDebit(?float $montantTenuDebit): EcrituresRapproBancaire {
         $this->montantTenuDebit = $montantTenuDebit;
         return $this;
     }
@@ -338,10 +339,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the num uniq.
      *
-     * @param int $numUniq The num uniq.
+     * @param int|null $numUniq The num uniq.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?int $numUniq): EcrituresRapproBancaire {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -349,10 +350,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the numero piece.
      *
-     * @param string $numeroPiece The numero piece.
+     * @param string|null $numeroPiece The numero piece.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setNumeroPiece($numeroPiece) {
+    public function setNumeroPiece(?string $numeroPiece): EcrituresRapproBancaire {
         $this->numeroPiece = $numeroPiece;
         return $this;
     }
@@ -363,7 +364,7 @@ class EcrituresRapproBancaire {
      * @param DateTime|null $periodeEcriture The periode ecriture.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setPeriodeEcriture(DateTime $periodeEcriture = null) {
+    public function setPeriodeEcriture(?DateTime $periodeEcriture): EcrituresRapproBancaire {
         $this->periodeEcriture = $periodeEcriture;
         return $this;
     }
@@ -371,10 +372,10 @@ class EcrituresRapproBancaire {
     /**
      * Set the rappro bancaire ok.
      *
-     * @param bool $rapproBancaireOk The rappro bancaire ok.
+     * @param bool|null $rapproBancaireOk The rappro bancaire ok.
      * @return EcrituresRapproBancaire Returns this Ecritures rappro bancaire.
      */
-    public function setRapproBancaireOk($rapproBancaireOk) {
+    public function setRapproBancaireOk(?bool $rapproBancaireOk): EcrituresRapproBancaire {
         $this->rapproBancaireOk = $rapproBancaireOk;
         return $this;
     }

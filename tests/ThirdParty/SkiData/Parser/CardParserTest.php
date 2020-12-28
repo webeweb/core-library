@@ -31,7 +31,7 @@ class CardParserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseEntity() {
+    public function testParseEntity(): void {
 
         $obj = new Card();
         $obj->setTicketNumber("ticketNumber");
@@ -44,7 +44,7 @@ class CardParserTest extends AbstractTestCase {
         $obj->setProductionState(2);
         $obj->setReasonProduction(0);
         $obj->setProductionCounter(3412);
-        $obj->setNeutral(false);
+        $obj->setIsNeutral(false);
         $obj->setRetainTicketEntry(false);
         $obj->setEntryBarrierClosed(true);
         $obj->setExitBarrierClosed(true);
@@ -52,7 +52,7 @@ class CardParserTest extends AbstractTestCase {
         $obj->setDisplayText(true);
         $obj->setDisplayText1("displayText1");
         $obj->setDisplayText2("displayText2");
-        $obj->setPersonnalNo(9876);
+        $obj->setPersonalNo(9876);
         $obj->setResidualValue(123456789012);
         $obj->setSerialNumberKeyCardSwatch("serialNumberKeyCard");
         $obj->setCurrencyResidualValue("3.0");
@@ -74,7 +74,7 @@ class CardParserTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testParseLine() {
+    public function testParseLine(): void {
 
         $obj = '"ticketNumber";987654321;321;20170920;20170921;1;;2;0;3412;0;0;1;1;0;1;"displayText1";"displayText2";9876;123456789012;"serialNumberKeyCard";"3.0";3;"ticke";"serialNo";;20170922;1;1234567';
 
@@ -89,7 +89,7 @@ class CardParserTest extends AbstractTestCase {
         $this->assertEquals(2, $res->getProductionState());
         $this->assertEquals(0, $res->getReasonProduction());
         $this->assertEquals(3412, $res->getProductionCounter());
-        $this->assertFalse($res->getNeutral());
+        $this->assertFalse($res->getIsNeutral());
         $this->assertFalse($res->getRetainTicketEntry());
         $this->assertTrue($res->getEntryBarrierClosed());
         $this->assertTrue($res->getExitBarrierClosed());
@@ -97,7 +97,7 @@ class CardParserTest extends AbstractTestCase {
         $this->assertTrue($res->getDisplayText());
         $this->assertEquals("displayText1", $res->getDisplayText1());
         $this->assertEquals("displayText2", $res->getDisplayText2());
-        $this->assertEquals(9876, $res->getPersonnalNo());
+        $this->assertEquals(9876, $res->getPersonalNo());
         $this->assertEquals(123456789012, $res->getResidualValue());
         $this->assertEquals("serialNumberKeyCard", $res->getSerialNumberKeyCardSwatch());
         $this->assertEquals("3.0", $res->getCurrencyResidualValue());

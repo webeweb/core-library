@@ -22,177 +22,178 @@ class AdressesLivraison {
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Code livraison.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLivraison;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Nom.
      *
-     * @var string
+     * @var string|null
      */
     private $nom;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the code livraison.
      *
-     * @return string Returns the code livraison.
+     * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison() {
+    public function getCodeLivraison(): ?string{
         return $this->codeLivraison;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the nom.
      *
-     * @return string Returns the nom.
+     * @return string|null Returns the nom.
      */
-    public function getNom() {
+    public function getNom(): ?string{
         return $this->nom;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): AdressesLivraison {
         $this->btq = $btq;
         return $this;
     }
@@ -200,10 +201,10 @@ class AdressesLivraison {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): AdressesLivraison {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -211,10 +212,10 @@ class AdressesLivraison {
     /**
      * Set the code livraison.
      *
-     * @param string $codeLivraison The code livraison.
+     * @param string|null $codeLivraison The code livraison.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setCodeLivraison($codeLivraison) {
+    public function setCodeLivraison(?string $codeLivraison): AdressesLivraison {
         $this->codeLivraison = $codeLivraison;
         return $this;
     }
@@ -222,10 +223,10 @@ class AdressesLivraison {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): AdressesLivraison {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -233,10 +234,10 @@ class AdressesLivraison {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): AdressesLivraison {
         $this->complement = $complement;
         return $this;
     }
@@ -244,10 +245,10 @@ class AdressesLivraison {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): AdressesLivraison {
         $this->libelle = $libelle;
         return $this;
     }
@@ -255,10 +256,10 @@ class AdressesLivraison {
     /**
      * Set the nom.
      *
-     * @param string $nom The nom.
+     * @param string|null $nom The nom.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setNom($nom) {
+    public function setNom(?string $nom): AdressesLivraison {
         $this->nom = $nom;
         return $this;
     }
@@ -266,10 +267,10 @@ class AdressesLivraison {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): AdressesLivraison {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -277,10 +278,10 @@ class AdressesLivraison {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): AdressesLivraison {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -288,10 +289,10 @@ class AdressesLivraison {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return AdressesLivraison Returns this Adresses livraison.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): AdressesLivraison {
         $this->numVoie = $numVoie;
         return $this;
     }

@@ -22,65 +22,66 @@ class DroitsAccesIntervenantsCollab {
     /**
      * Acces libre.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accesLibre;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Type intervenant.
      *
-     * @var string
+     * @var string|null
      */
     private $typeIntervenant;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the acces libre.
      *
-     * @return bool Returns the acces libre.
+     * @return bool|null Returns the acces libre.
      */
-    public function getAccesLibre() {
+    public function getAccesLibre(): ?bool{
         return $this->accesLibre;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the type intervenant.
      *
-     * @return string Returns the type intervenant.
+     * @return string|null Returns the type intervenant.
      */
-    public function getTypeIntervenant() {
+    public function getTypeIntervenant(): ?string{
         return $this->typeIntervenant;
     }
 
     /**
      * Set the acces libre.
      *
-     * @param bool $accesLibre The acces libre.
+     * @param bool|null $accesLibre The acces libre.
      * @return DroitsAccesIntervenantsCollab Returns this Droits acces intervenants collab.
      */
-    public function setAccesLibre($accesLibre) {
+    public function setAccesLibre(?bool $accesLibre): DroitsAccesIntervenantsCollab {
         $this->accesLibre = $accesLibre;
         return $this;
     }
@@ -88,10 +89,10 @@ class DroitsAccesIntervenantsCollab {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return DroitsAccesIntervenantsCollab Returns this Droits acces intervenants collab.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): DroitsAccesIntervenantsCollab {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -99,10 +100,10 @@ class DroitsAccesIntervenantsCollab {
     /**
      * Set the type intervenant.
      *
-     * @param string $typeIntervenant The type intervenant.
+     * @param string|null $typeIntervenant The type intervenant.
      * @return DroitsAccesIntervenantsCollab Returns this Droits acces intervenants collab.
      */
-    public function setTypeIntervenant($typeIntervenant) {
+    public function setTypeIntervenant(?string $typeIntervenant): DroitsAccesIntervenantsCollab {
         $this->typeIntervenant = $typeIntervenant;
         return $this;
     }

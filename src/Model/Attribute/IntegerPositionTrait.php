@@ -22,25 +22,25 @@ trait IntegerPositionTrait {
     /**
      * Position.
      *
-     * @var int
+     * @var int|null
      */
     protected $position;
 
     /**
      * Get the position.
      *
-     * @return int Returns the position.
+     * @return int|null Returns the position.
      */
-    public function getPosition() {
+    public function getPosition(): ?int {
         return $this->position;
     }
 
     /**
      * Set the position.
      *
-     * @param int $position The position.
+     * @param int|null $position The position.
      */
-    public function setPosition($position) {
+    public function setPosition(?int $position) {
         $this->position = $position;
         return $this;
     }

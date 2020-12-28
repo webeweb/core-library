@@ -29,7 +29,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActif() {
+    public function testSetActif(): void {
 
         $obj = new GroupesClient();
 
@@ -42,7 +42,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBloque() {
+    public function testSetBloque(): void {
 
         $obj = new GroupesClient();
 
@@ -55,7 +55,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAlpha() {
+    public function testSetCleAlpha(): void {
 
         $obj = new GroupesClient();
 
@@ -68,7 +68,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClientPerdu() {
+    public function testSetClientPerdu(): void {
 
         $obj = new GroupesClient();
 
@@ -81,7 +81,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalytique() {
+    public function testSetCodeAnalytique(): void {
 
         $obj = new GroupesClient();
 
@@ -94,7 +94,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new GroupesClient();
 
@@ -107,7 +107,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClientFact() {
+    public function testSetCodeClientFact(): void {
 
         $obj = new GroupesClient();
 
@@ -120,7 +120,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new GroupesClient();
 
@@ -133,7 +133,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLangueDesignationArticle() {
+    public function testSetCodeLangueDesignationArticle(): void {
 
         $obj = new GroupesClient();
 
@@ -146,7 +146,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeReglement() {
+    public function testSetCodeReglement(): void {
 
         $obj = new GroupesClient();
 
@@ -159,7 +159,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new GroupesClient();
 
@@ -172,7 +172,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new GroupesClient();
 
@@ -185,7 +185,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif() {
+    public function testSetCollectif(): void {
 
         $obj = new GroupesClient();
 
@@ -199,7 +199,7 @@ class GroupesClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -216,7 +216,7 @@ class GroupesClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSortie() {
+    public function testSetDateSortie(): void {
 
         // Set a Date/time mock.
         $dateSortie = new DateTime("2018-09-10");
@@ -232,7 +232,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire1() {
+    public function testSetDomiciliationBancaire1(): void {
 
         $obj = new GroupesClient();
 
@@ -245,7 +245,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire2() {
+    public function testSetDomiciliationBancaire2(): void {
 
         $obj = new GroupesClient();
 
@@ -258,7 +258,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceFinDecade() {
+    public function testSetEcheanceFinDecade(): void {
 
         $obj = new GroupesClient();
 
@@ -271,7 +271,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureEuros() {
+    public function testSetFactureEuros(): void {
 
         $obj = new GroupesClient();
 
@@ -284,7 +284,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupe() {
+    public function testSetGroupe(): void {
 
         $obj = new GroupesClient();
 
@@ -297,7 +297,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbBl() {
+    public function testSetNbBl(): void {
 
         $obj = new GroupesClient();
 
@@ -310,7 +310,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbFacture() {
+    public function testSetNbFacture(): void {
 
         $obj = new GroupesClient();
 
@@ -323,7 +323,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEcheances() {
+    public function testSetNombreEcheances(): void {
 
         $obj = new GroupesClient();
 
@@ -336,7 +336,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new GroupesClient();
 
@@ -349,7 +349,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementDepartLe() {
+    public function testSetPaiementDepartLe(): void {
 
         $obj = new GroupesClient();
 
@@ -362,7 +362,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementLe() {
+    public function testSetPaiementLe(): void {
 
         $obj = new GroupesClient();
 
@@ -375,7 +375,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementNombreDeJours() {
+    public function testSetPaiementNombreDeJours(): void {
 
         $obj = new GroupesClient();
 
@@ -388,7 +388,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne1() {
+    public function testSetRemiseLigne1(): void {
 
         $obj = new GroupesClient();
 
@@ -401,7 +401,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne2() {
+    public function testSetRemiseLigne2(): void {
 
         $obj = new GroupesClient();
 
@@ -414,7 +414,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne3() {
+    public function testSetRemiseLigne3(): void {
 
         $obj = new GroupesClient();
 
@@ -427,7 +427,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied() {
+    public function testSetRemisePied(): void {
 
         $obj = new GroupesClient();
 
@@ -440,7 +440,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied2() {
+    public function testSetRemisePied2(): void {
 
         $obj = new GroupesClient();
 
@@ -453,7 +453,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied3() {
+    public function testSetRemisePied3(): void {
 
         $obj = new GroupesClient();
 
@@ -466,7 +466,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new GroupesClient();
 
@@ -479,7 +479,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisEscompte() {
+    public function testSetSoumisEscompte(): void {
 
         $obj = new GroupesClient();
 
@@ -492,7 +492,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxEscompte() {
+    public function testSetTauxEscompte(): void {
 
         $obj = new GroupesClient();
 
@@ -505,7 +505,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFacture() {
+    public function testSetTypeFacture(): void {
 
         $obj = new GroupesClient();
 
@@ -518,7 +518,7 @@ class GroupesClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new GroupesClient();
 

@@ -28,7 +28,7 @@ class TimestampHelper {
      * @return void
      * @throws TimestampArgumentException Throws a Timestamp argument exception if the value is not of expected type.
      */
-    public static function isTimestamp($value) {
+    public static function isTimestamp($value): void {
         if (false === strtotime($value)) {
             throw new TimestampArgumentException($value);
         }

@@ -22,28 +22,28 @@ class EnvoiSmsFact {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Msg client.
      *
-     * @var string
+     * @var string|null
      */
     private $msgClient;
 
     /**
      * Msg representant.
      *
-     * @var string
+     * @var string|null
      */
     private $msgRepresentant;
 
@@ -51,52 +51,52 @@ class EnvoiSmsFact {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the msg client.
      *
-     * @return string Returns the msg client.
+     * @return string|null Returns the msg client.
      */
-    public function getMsgClient() {
+    public function getMsgClient(): ?string {
         return $this->msgClient;
     }
 
     /**
      * Get the msg representant.
      *
-     * @return string Returns the msg representant.
+     * @return string|null Returns the msg representant.
      */
-    public function getMsgRepresentant() {
+    public function getMsgRepresentant(): ?string {
         return $this->msgRepresentant;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): EnvoiSmsFact {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -104,10 +104,10 @@ class EnvoiSmsFact {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): EnvoiSmsFact {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -115,10 +115,10 @@ class EnvoiSmsFact {
     /**
      * Set the msg client.
      *
-     * @param string $msgClient The msg client.
+     * @param string|null $msgClient The msg client.
      * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
-    public function setMsgClient($msgClient) {
+    public function setMsgClient(?string $msgClient): EnvoiSmsFact {
         $this->msgClient = $msgClient;
         return $this;
     }
@@ -126,10 +126,10 @@ class EnvoiSmsFact {
     /**
      * Set the msg representant.
      *
-     * @param string $msgRepresentant The msg representant.
+     * @param string|null $msgRepresentant The msg representant.
      * @return EnvoiSmsFact Returns this Envoi sms fact.
      */
-    public function setMsgRepresentant($msgRepresentant) {
+    public function setMsgRepresentant(?string $msgRepresentant): EnvoiSmsFact {
         $this->msgRepresentant = $msgRepresentant;
         return $this;
     }

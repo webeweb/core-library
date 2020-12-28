@@ -29,7 +29,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new HistoTransfertCpta();
 
@@ -42,7 +42,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new HistoTransfertCpta();
 
@@ -56,7 +56,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcriture() {
+    public function testSetDateEcriture(): void {
 
         // Set a Date/time mock.
         $dateEcriture = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLot() {
+    public function testSetNumLot(): void {
 
         $obj = new HistoTransfertCpta();
 
@@ -86,7 +86,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeTransfert() {
+    public function testSetPeriodeTransfert(): void {
 
         // Set a Date/time mock.
         $periodeTransfert = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTransfert() {
+    public function testSetTypeTransfert(): void {
 
         $obj = new HistoTransfertCpta();
 
@@ -115,7 +115,7 @@ class HistoTransfertCptaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoTransfertCpta();
 

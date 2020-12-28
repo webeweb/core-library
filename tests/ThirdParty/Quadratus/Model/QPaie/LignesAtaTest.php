@@ -29,7 +29,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvantagesEuroOuFranc() {
+    public function testSetAvantagesEuroOuFranc(): void {
 
         $obj = new LignesAta();
 
@@ -42,7 +42,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCsEuroOuFranc() {
+    public function testSetCsEuroOuFranc(): void {
 
         $obj = new LignesAta();
 
@@ -56,7 +56,7 @@ class LignesAtaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheance() {
+    public function testSetDateEcheance(): void {
 
         // Set a Date/time mock.
         $dateEcheance = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisProSoumis() {
+    public function testSetFraisProSoumis(): void {
 
         $obj = new LignesAta();
 
@@ -85,7 +85,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisPsEuroOuFranc() {
+    public function testSetFraisPsEuroOuFranc(): void {
 
         $obj = new LignesAta();
 
@@ -98,7 +98,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnitesEuroOuFranc() {
+    public function testSetIndemnitesEuroOuFranc(): void {
 
         $obj = new LignesAta();
 
@@ -111,7 +111,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new LignesAta();
 
@@ -124,7 +124,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantAvantages() {
+    public function testSetMontantAvantages(): void {
 
         $obj = new LignesAta();
 
@@ -137,7 +137,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantCotis() {
+    public function testSetMontantCotis(): void {
 
         $obj = new LignesAta();
 
@@ -150,7 +150,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantEuroOuFranc() {
+    public function testSetMontantEuroOuFranc(): void {
 
         $obj = new LignesAta();
 
@@ -163,7 +163,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantIndemnites() {
+    public function testSetMontantIndemnites(): void {
 
         $obj = new LignesAta();
 
@@ -176,7 +176,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHTrav() {
+    public function testSetNbHTrav(): void {
 
         $obj = new LignesAta();
 
@@ -189,7 +189,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesAta();
 
@@ -202,7 +202,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new LignesAta();
 
@@ -216,7 +216,7 @@ class LignesAtaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -233,7 +233,7 @@ class LignesAtaTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -249,7 +249,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxDedSup() {
+    public function testSetTauxDedSup(): void {
 
         $obj = new LignesAta();
 
@@ -262,7 +262,7 @@ class LignesAtaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesAta();
 

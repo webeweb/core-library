@@ -29,7 +29,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeModele() {
+    public function testSetCodeModele(): void {
 
         $obj = new BordPrepVar();
 
@@ -42,7 +42,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagForce() {
+    public function testSetFlagForce(): void {
 
         $obj = new BordPrepVar();
 
@@ -55,7 +55,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new BordPrepVar();
 
@@ -68,7 +68,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new BordPrepVar();
 
@@ -81,7 +81,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCol() {
+    public function testSetNumCol(): void {
 
         $obj = new BordPrepVar();
 
@@ -94,7 +94,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new BordPrepVar();
 
@@ -108,7 +108,7 @@ class BordPrepVarTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur() {
+    public function testSetValeur(): void {
 
         $obj = new BordPrepVar();
 
@@ -137,7 +137,7 @@ class BordPrepVarTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BordPrepVar();
 

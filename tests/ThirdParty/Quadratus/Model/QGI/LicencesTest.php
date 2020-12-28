@@ -29,7 +29,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Licences();
 
@@ -42,7 +42,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClientDistr() {
+    public function testSetCodeClientDistr(): void {
 
         $obj = new Licences();
 
@@ -55,7 +55,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProduit() {
+    public function testSetCodeProduit(): void {
 
         $obj = new Licences();
 
@@ -68,7 +68,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Licences();
 
@@ -81,7 +81,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCpVille() {
+    public function testSetCpVille(): void {
 
         $obj = new Licences();
 
@@ -95,7 +95,7 @@ class LicencesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDemo() {
+    public function testSetDemo(): void {
 
         $obj = new Licences();
 
@@ -124,7 +124,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLicence() {
+    public function testSetLicence(): void {
 
         $obj = new Licences();
 
@@ -137,7 +137,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomClient() {
+    public function testSetNomClient(): void {
 
         $obj = new Licences();
 
@@ -150,7 +150,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombrePostes() {
+    public function testSetNombrePostes(): void {
 
         $obj = new Licences();
 
@@ -163,7 +163,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOption1() {
+    public function testSetOption1(): void {
 
         $obj = new Licences();
 
@@ -176,7 +176,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOption2() {
+    public function testSetOption2(): void {
 
         $obj = new Licences();
 
@@ -189,7 +189,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOption3() {
+    public function testSetOption3(): void {
 
         $obj = new Licences();
 
@@ -202,7 +202,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOption4() {
+    public function testSetOption4(): void {
 
         $obj = new Licences();
 
@@ -216,7 +216,7 @@ class LicencesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -232,7 +232,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSupport() {
+    public function testSetSupport(): void {
 
         $obj = new Licences();
 
@@ -245,7 +245,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeReseau() {
+    public function testSetTypeReseau(): void {
 
         $obj = new Licences();
 
@@ -258,7 +258,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVersion() {
+    public function testSetVersion(): void {
 
         $obj = new Licences();
 
@@ -271,7 +271,7 @@ class LicencesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Licences();
 

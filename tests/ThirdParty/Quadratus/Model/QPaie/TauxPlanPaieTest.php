@@ -30,7 +30,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetAPartirDe() {
+    public function testSetAPartirDe(): void {
 
         // Set a Date/time mock.
         $aPartirDe = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new TauxPlanPaie();
 
@@ -59,7 +59,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormatNonEtendu() {
+    public function testSetFormatNonEtendu(): void {
 
         $obj = new TauxPlanPaie();
 
@@ -72,7 +72,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroTaux() {
+    public function testSetNumeroTaux(): void {
 
         $obj = new TauxPlanPaie();
 
@@ -85,7 +85,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatronal() {
+    public function testSetTauxPatronal(): void {
 
         $obj = new TauxPlanPaie();
 
@@ -98,7 +98,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalarial() {
+    public function testSetTauxSalarial(): void {
 
         $obj = new TauxPlanPaie();
 
@@ -111,7 +111,7 @@ class TauxPlanPaieTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TauxPlanPaie();
 

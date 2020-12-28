@@ -30,7 +30,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate() {
+    public function testSetDate(): void {
 
         // Set a Date/time mock.
         $date = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new BordPrepAcomptes();
 
@@ -59,7 +59,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new BordPrepAcomptes();
 
@@ -72,7 +72,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new BordPrepAcomptes();
 
@@ -85,7 +85,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new BordPrepAcomptes();
 
@@ -99,7 +99,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePaiement() {
+    public function testSetTypePaiement(): void {
 
         $obj = new BordPrepAcomptes();
 
@@ -128,7 +128,7 @@ class BordPrepAcomptesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BordPrepAcomptes();
 

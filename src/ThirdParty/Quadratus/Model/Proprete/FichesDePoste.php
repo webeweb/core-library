@@ -22,129 +22,130 @@ class FichesDePoste {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Poste.
      *
-     * @var string
+     * @var string|null
      */
     private $poste;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the poste.
      *
-     * @return string Returns the poste.
+     * @return string|null Returns the poste.
      */
-    public function getPoste() {
+    public function getPoste(): ?string{
         return $this->poste;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FichesDePoste {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -152,10 +153,10 @@ class FichesDePoste {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FichesDePoste {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -163,10 +164,10 @@ class FichesDePoste {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FichesDePoste {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -174,10 +175,10 @@ class FichesDePoste {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): FichesDePoste {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -185,10 +186,10 @@ class FichesDePoste {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): FichesDePoste {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -196,10 +197,10 @@ class FichesDePoste {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): FichesDePoste {
         $this->numBt = $numBt;
         return $this;
     }
@@ -207,10 +208,10 @@ class FichesDePoste {
     /**
      * Set the poste.
      *
-     * @param string $poste The poste.
+     * @param string|null $poste The poste.
      * @return FichesDePoste Returns this Fiches de poste.
      */
-    public function setPoste($poste) {
+    public function setPoste(?string $poste): FichesDePoste {
         $this->poste = $poste;
         return $this;
     }

@@ -42,7 +42,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvert() {
+    public function testConvert(): void {
 
         $this->assertTrue(ArgumentHelper::convert("1", ArgumentInterface::ARGUMENT_BOOLEAN));
         $this->assertInstanceOf(DateTime::class, ArgumentHelper::convert("2017-11-27", ArgumentInterface::ARGUMENT_DATE, "Y-m-d"));
@@ -58,7 +58,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithDateArgumentException() {
+    public function testConvertWithDateArgumentException(): void {
 
         try {
 
@@ -75,7 +75,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithInvalidArgumentException() {
+    public function testConvertWithInvalidArgumentException(): void {
 
         try {
 
@@ -92,7 +92,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithInvalidArgumentException104() {
+    public function testConvertWithInvalidArgumentException104(): void {
 
         try {
 
@@ -109,7 +109,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithInvalidArgumentException116() {
+    public function testConvertWithInvalidArgumentException116(): void {
 
         try {
 
@@ -126,7 +126,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithInvalidArgumentException30() {
+    public function testConvertWithInvalidArgumentException30(): void {
 
         try {
 
@@ -143,7 +143,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithInvalidArgumentException55() {
+    public function testConvertWithInvalidArgumentException55(): void {
 
         try {
 
@@ -160,7 +160,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithInvalidArgumentException73() {
+    public function testConvertWithInvalidArgumentException73(): void {
 
         try {
 
@@ -177,7 +177,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testConvertWithTimestampArgumentException() {
+    public function testConvertWithTimestampArgumentException(): void {
 
         try {
 
@@ -194,7 +194,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValid() {
+    public function testIsValid(): void {
 
         $rsc = fopen(getcwd() . "/tests/Argument/ArgumentHelperTest.php", "r");
 
@@ -216,7 +216,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithArrayArgumentException() {
+    public function testIsValidWithArrayArgumentException(): void {
 
         try {
 
@@ -233,7 +233,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithBooleanArgumentException() {
+    public function testIsValidWithBooleanArgumentException(): void {
 
         try {
 
@@ -250,7 +250,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithDateArgumentException() {
+    public function testIsValidWithDateArgumentException(): void {
 
         try {
 
@@ -267,7 +267,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithDoubleArgumentException() {
+    public function testIsValidWithDoubleArgumentException(): void {
 
         try {
 
@@ -284,7 +284,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithFloatArgumentException() {
+    public function testIsValidWithFloatArgumentException(): void {
 
         try {
 
@@ -301,7 +301,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithIntegerArgumentException() {
+    public function testIsValidWithIntegerArgumentException(): void {
 
         try {
 
@@ -318,7 +318,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithInvalidArgumentException() {
+    public function testIsValidWithInvalidArgumentException(): void {
 
         try {
 
@@ -335,7 +335,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithNumberArgumentException() {
+    public function testIsValidWithNumberArgumentException(): void {
 
         try {
 
@@ -352,7 +352,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithObjectArgumentException() {
+    public function testIsValidWithObjectArgumentException(): void {
 
         try {
 
@@ -369,7 +369,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithResourceArgumentException() {
+    public function testIsValidWithResourceArgumentException(): void {
 
         try {
 
@@ -386,7 +386,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithStringArgumentException() {
+    public function testIsValidWithStringArgumentException(): void {
 
         try {
 
@@ -403,7 +403,7 @@ class ArgumentHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testIsValidWithTimestampArgumentException() {
+    public function testIsValidWithTimestampArgumentException(): void {
 
         try {
 

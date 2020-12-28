@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Validation\Rule;
+namespace WBW\Library\Core\Tests\Validator\Rule;
 
 use WBW\Library\Core\Tests\AbstractTestCase;
 use WBW\Library\Core\Tests\Fixtures\Validator\Rule\TestValidationRule;
@@ -27,7 +27,7 @@ class AbstractValidationRuleTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TestValidationRule();
 

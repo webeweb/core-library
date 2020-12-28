@@ -27,7 +27,7 @@ class StringColumnTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetColumn() {
+    public function testSetColumn(): void {
 
         $obj = new TestStringColumnTrait();
 
@@ -40,7 +40,7 @@ class StringColumnTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringColumnTrait();
 

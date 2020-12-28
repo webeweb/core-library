@@ -29,7 +29,7 @@ class PointeuseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new Pointeuse();
 
@@ -43,7 +43,7 @@ class PointeuseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateHeureSysteme() {
+    public function testSetDateHeureSysteme(): void {
 
         // Set a Date/time mock.
         $dateHeureSysteme = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class PointeuseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new Pointeuse();
 
@@ -72,7 +72,7 @@ class PointeuseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdPointeuse() {
+    public function testSetIdPointeuse(): void {
 
         $obj = new Pointeuse();
 
@@ -85,7 +85,7 @@ class PointeuseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Pointeuse();
 

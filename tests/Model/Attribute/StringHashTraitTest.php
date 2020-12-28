@@ -27,7 +27,7 @@ class StringHashTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHash() {
+    public function testSetHash(): void {
 
         $obj = new TestStringHashTrait();
 
@@ -40,7 +40,7 @@ class StringHashTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringHashTrait();
 

@@ -36,8 +36,8 @@ class Line {
     /**
      * Constructor.
      *
-     * @param Point $a The point "A".
-     * @param Point $b The point "B".
+     * @param Point|null $a The point "A".
+     * @param Point|null $b The point "B".
      */
     public function __construct(Point $a = null, Point $b = null) {
         $this->setA($a);
@@ -49,7 +49,7 @@ class Line {
      *
      * @return float Returns the distance.
      */
-    public function d() {
+    public function d(): float {
         return $this->getB()->d($this->getA());
     }
 
@@ -58,7 +58,7 @@ class Line {
      *
      * @return Angle Returns the degree.
      */
-    public function deg() {
+    public function deg(): Angle {
         return $this->getB()->deg($this->getA());
     }
 
@@ -67,7 +67,7 @@ class Line {
      *
      * @return Point Returns the point "A".
      */
-    public function getA() {
+    public function getA(): ?Point {
         return $this->a;
     }
 
@@ -76,7 +76,7 @@ class Line {
      *
      * @return Point Returns the point "B".
      */
-    public function getB() {
+    public function getB(): ?Point {
         return $this->b;
     }
 
@@ -85,7 +85,7 @@ class Line {
      *
      * @return float Returns the slope.
      */
-    public function m() {
+    public function m(): float {
         return $this->getB()->m($this->getA());
     }
 
@@ -94,7 +94,7 @@ class Line {
      *
      * @return Point Returns the originally abscissa.
      */
-    public function originallyAbscissa() {
+    public function originallyAbscissa(): Point {
 
         $m = $this->getB()->m($this->getA());
         $b = $this->originallyOrdered()->getY();
@@ -110,7 +110,7 @@ class Line {
      *
      * @return Point Returns the originally ordered.
      */
-    public function originallyOrdered() {
+    public function originallyOrdered(): Point {
 
         $m  = $this->getB()->m($this->getA());
         $mx = $m * $this->getB()->getX();
@@ -126,7 +126,7 @@ class Line {
      *
      * @return Angle Returns the radian.
      */
-    public function rad() {
+    public function rad(): Angle {
         return $this->getB()->rad($this->getA());
     }
 
@@ -137,7 +137,7 @@ class Line {
      * @param Angle $a The angle.
      * @return Line Returns the rotated line.
      */
-    public function rotate(Point $o, Angle $a) {
+    public function rotate(Point $o, Angle $a): Line {
 
         $a2 = $this->getA()->rotate($o, $a);
         $b2 = $this->getB()->rotate($o, $a);
@@ -151,7 +151,7 @@ class Line {
      * @param Point|null $a The point "A".
      * @return Line Returns this line.
      */
-    public function setA(Point $a = null) {
+    public function setA(Point $a = null): Line {
         $this->a = $a;
         return $this;
     }
@@ -162,7 +162,7 @@ class Line {
      * @param Point|null $b The point "B".
      * @return Line Returns this line.
      */
-    public function setB(Point $b = null) {
+    public function setB(Point $b = null): Line {
         $this->b = $b;
         return $this;
     }

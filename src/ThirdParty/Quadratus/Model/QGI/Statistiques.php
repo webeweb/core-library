@@ -22,28 +22,28 @@ class Statistiques {
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code rubrique.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRubrique;
 
     /**
      * Info cellule.
      *
-     * @var float
+     * @var float|null
      */
     private $infoCellule;
 
     /**
      * Millesime.
      *
-     * @var string
+     * @var string|null
      */
     private $millesime;
 
@@ -51,52 +51,52 @@ class Statistiques {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
     /**
      * Get the code rubrique.
      *
-     * @return string Returns the code rubrique.
+     * @return string|null Returns the code rubrique.
      */
-    public function getCodeRubrique() {
+    public function getCodeRubrique(): ?string {
         return $this->codeRubrique;
     }
 
     /**
      * Get the info cellule.
      *
-     * @return float Returns the info cellule.
+     * @return float|null Returns the info cellule.
      */
-    public function getInfoCellule() {
+    public function getInfoCellule(): ?float {
         return $this->infoCellule;
     }
 
     /**
      * Get the millesime.
      *
-     * @return string Returns the millesime.
+     * @return string|null Returns the millesime.
      */
-    public function getMillesime() {
+    public function getMillesime(): ?string {
         return $this->millesime;
     }
 
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Statistiques Returns this Statistiques.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Statistiques {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -104,10 +104,10 @@ class Statistiques {
     /**
      * Set the code rubrique.
      *
-     * @param string $codeRubrique The code rubrique.
+     * @param string|null $codeRubrique The code rubrique.
      * @return Statistiques Returns this Statistiques.
      */
-    public function setCodeRubrique($codeRubrique) {
+    public function setCodeRubrique(?string $codeRubrique): Statistiques {
         $this->codeRubrique = $codeRubrique;
         return $this;
     }
@@ -115,10 +115,10 @@ class Statistiques {
     /**
      * Set the info cellule.
      *
-     * @param float $infoCellule The info cellule.
+     * @param float|null $infoCellule The info cellule.
      * @return Statistiques Returns this Statistiques.
      */
-    public function setInfoCellule($infoCellule) {
+    public function setInfoCellule(?float $infoCellule): Statistiques {
         $this->infoCellule = $infoCellule;
         return $this;
     }
@@ -126,10 +126,10 @@ class Statistiques {
     /**
      * Set the millesime.
      *
-     * @param string $millesime The millesime.
+     * @param string|null $millesime The millesime.
      * @return Statistiques Returns this Statistiques.
      */
-    public function setMillesime($millesime) {
+    public function setMillesime(?string $millesime): Statistiques {
         $this->millesime = $millesime;
         return $this;
     }

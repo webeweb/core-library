@@ -27,7 +27,7 @@ class StringHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDomNode() {
+    public function testDomNode(): void {
 
         $arg = ["type" => "text/javascript"];
         $res = file_get_contents(__DIR__ . "/StringHelperTest.testDomNode.html.txt");
@@ -39,7 +39,7 @@ class StringHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDomNodeWithShortTag() {
+    public function testDomNodeWithShortTag(): void {
 
         $arg = ["type" => "text/javascript"];
         $res = '<script type="text/javascript"/>';
@@ -51,7 +51,7 @@ class StringHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseArray() {
+    public function testParseArray(): void {
 
         $arg = ["exception" => null, "id" => "id", "class" => ["class1", "class2", "class3   class4"]];
         $res = 'id="id" class="class1 class2 class3 class4"';
@@ -63,7 +63,7 @@ class StringHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testParseBoolean() {
+    public function testParseBoolean(): void {
 
         $this->assertEquals("false", StringHelper::parseBoolean(null));
         $this->assertEquals("false", StringHelper::parseBoolean(false));
@@ -75,7 +75,7 @@ class StringHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testRemoveAccents() {
+    public function testRemoveAccents(): void {
 
         $this->assertEquals("a", StringHelper::removeAccents("à"));
         $this->assertEquals("a", StringHelper::removeAccents("á"));

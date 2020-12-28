@@ -29,7 +29,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AgendaNoteDuJour();
 
@@ -42,7 +42,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new AgendaNoteDuJour();
 
@@ -56,7 +56,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJour() {
+    public function testSetJour(): void {
 
         // Set a Date/time mock.
         $jour = new DateTime("2018-09-10");
@@ -89,7 +89,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaJExterne() {
+    public function testSetMaJExterne(): void {
 
         $obj = new AgendaNoteDuJour();
 
@@ -102,7 +102,7 @@ class AgendaNoteDuJourTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaNoteDuJour();
 

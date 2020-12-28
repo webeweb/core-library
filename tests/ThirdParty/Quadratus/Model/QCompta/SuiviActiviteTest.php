@@ -29,7 +29,7 @@ class SuiviActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeColl() {
+    public function testSetCodeColl(): void {
 
         $obj = new SuiviActivite();
 
@@ -43,7 +43,7 @@ class SuiviActiviteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateHeure() {
+    public function testSetDateHeure(): void {
 
         // Set a Date/time mock.
         $dateHeure = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class SuiviActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new SuiviActivite();
 
@@ -72,7 +72,7 @@ class SuiviActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdAction() {
+    public function testSetIdAction(): void {
 
         $obj = new SuiviActivite();
 
@@ -85,7 +85,7 @@ class SuiviActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResultat() {
+    public function testSetResultat(): void {
 
         $obj = new SuiviActivite();
 
@@ -98,7 +98,7 @@ class SuiviActiviteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SuiviActivite();
 

@@ -12,6 +12,7 @@
 namespace WBW\Library\Core\ThirdParty\Adoria\Provider;
 
 use Exception;
+use Psr\Log\LoggerInterface;
 use WBW\Library\Core\Exception\ApiException;
 use WBW\Library\Core\Network\CURL\Configuration\CurlConfiguration;
 use WBW\Library\Core\Network\CURL\Request\CurlPostRequest;
@@ -32,9 +33,11 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
 
     /**
      * Constructor.
+     *
+     * @param LoggerInterface|null $logger The logger.
      */
-    public function __construct() {
-        $this->setDebug(false);
+    public function __construct(LoggerInterface $logger = null) {
+        parent::__construct($logger);
     }
 
     /**
@@ -45,7 +48,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
      * @return string Returns the response.
      * @throws ApiException Throws an API exception exception if an error occurs.
      */
-    protected function callAPI($resourcePath, array $postData) {
+    protected function callAPI($resourcePath, array $postData): string {
 
         try {
 
@@ -77,7 +80,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
      * @return Result Returns the result.
      * @throws ApiException Throws an API exception exception if an error occurs.
      */
-    public function requestData(RequestData $requestData) {
+    public function requestData(RequestData $requestData): Result {
 
         $parameters = RequestSerializer::serializeRequestData($requestData);
 

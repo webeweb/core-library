@@ -29,7 +29,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAbattementCga() {
+    public function testSetAbattementCga(): void {
 
         $obj = new Fiscal();
 
@@ -42,7 +42,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAssuranceControle() {
+    public function testSetAssuranceControle(): void {
 
         $obj = new Fiscal();
 
@@ -55,7 +55,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCdAssiette() {
+    public function testSetCdAssiette(): void {
 
         $obj = new Fiscal();
 
@@ -68,7 +68,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCdi() {
+    public function testSetCdi(): void {
 
         $obj = new Fiscal();
 
@@ -81,7 +81,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCga() {
+    public function testSetCga(): void {
 
         $obj = new Fiscal();
 
@@ -94,7 +94,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentreImpot() {
+    public function testSetCodeCentreImpot(): void {
 
         $obj = new Fiscal();
 
@@ -107,7 +107,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCga() {
+    public function testSetCodeCga(): void {
 
         $obj = new Fiscal();
 
@@ -120,7 +120,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Fiscal();
 
@@ -133,7 +133,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeImpotDirect() {
+    public function testSetCodeImpotDirect(): void {
 
         $obj = new Fiscal();
 
@@ -146,7 +146,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRecetteImpots() {
+    public function testSetCodeRecetteImpots(): void {
 
         $obj = new Fiscal();
 
@@ -159,7 +159,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegimeTva() {
+    public function testSetCodeRegimeTva(): void {
 
         $obj = new Fiscal();
 
@@ -172,7 +172,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContactCentreImpots() {
+    public function testSetContactCentreImpots(): void {
 
         $obj = new Fiscal();
 
@@ -185,7 +185,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContactCga() {
+    public function testSetContactCga(): void {
 
         $obj = new Fiscal();
 
@@ -198,7 +198,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContactRecetteImpots() {
+    public function testSetContactRecetteImpots(): void {
 
         $obj = new Fiscal();
 
@@ -212,7 +212,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAdhesionCga() {
+    public function testSetDateAdhesionCga(): void {
 
         // Set a Date/time mock.
         $dateAdhesionCga = new DateTime("2018-09-10");
@@ -229,7 +229,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEffetAdhesionCga() {
+    public function testSetDateEffetAdhesionCga(): void {
 
         // Set a Date/time mock.
         $dateEffetAdhesionCga = new DateTime("2018-09-10");
@@ -246,7 +246,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEffetRadiationCga() {
+    public function testSetDateEffetRadiationCga(): void {
 
         // Set a Date/time mock.
         $dateEffetRadiationCga = new DateTime("2018-09-10");
@@ -263,7 +263,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRadiationCga() {
+    public function testSetDateRadiationCga(): void {
 
         // Set a Date/time mock.
         $dateRadiationCga = new DateTime("2018-09-10");
@@ -279,7 +279,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeclarationSur() {
+    public function testSetDeclarationSur(): void {
 
         $obj = new Fiscal();
 
@@ -292,7 +292,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeExercice() {
+    public function testSetDureeExercice(): void {
 
         $obj = new Fiscal();
 
@@ -305,7 +305,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdiTdfcBdF() {
+    public function testSetEdiTdfcBdF(): void {
 
         $obj = new Fiscal();
 
@@ -318,7 +318,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrpCle() {
+    public function testSetFrpCle(): void {
 
         $obj = new Fiscal();
 
@@ -331,7 +331,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrpDossier() {
+    public function testSetFrpDossier(): void {
 
         $obj = new Fiscal();
 
@@ -344,7 +344,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrpRecette() {
+    public function testSetFrpRecette(): void {
 
         $obj = new Fiscal();
 
@@ -357,7 +357,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdImpotsGouvFr() {
+    public function testSetIdImpotsGouvFr(): void {
 
         $obj = new Fiscal();
 
@@ -370,7 +370,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImpot() {
+    public function testSetImpot(): void {
 
         $obj = new Fiscal();
 
@@ -383,7 +383,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInsp() {
+    public function testSetInsp(): void {
 
         $obj = new Fiscal();
 
@@ -396,7 +396,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourDeclaration() {
+    public function testSetJourDeclaration(): void {
 
         $obj = new Fiscal();
 
@@ -410,7 +410,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutDads() {
+    public function testSetMandatDateDebutDads(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutDads = new DateTime("2018-09-10");
@@ -427,7 +427,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutDucsedi() {
+    public function testSetMandatDateDebutDucsedi(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutDucsedi = new DateTime("2018-09-10");
@@ -444,7 +444,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutEditva() {
+    public function testSetMandatDateDebutEditva(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutEditva = new DateTime("2018-09-10");
@@ -461,7 +461,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutEtebac() {
+    public function testSetMandatDateDebutEtebac(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutEtebac = new DateTime("2018-09-10");
@@ -478,7 +478,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutPedi() {
+    public function testSetMandatDateDebutPedi(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutPedi = new DateTime("2018-09-10");
@@ -495,7 +495,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutReq() {
+    public function testSetMandatDateDebutReq(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutReq = new DateTime("2018-09-10");
@@ -512,7 +512,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutTdfc() {
+    public function testSetMandatDateDebutTdfc(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutTdfc = new DateTime("2018-09-10");
@@ -528,7 +528,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeDads() {
+    public function testSetMandatDureeDads(): void {
 
         $obj = new Fiscal();
 
@@ -541,7 +541,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeDucsedi() {
+    public function testSetMandatDureeDucsedi(): void {
 
         $obj = new Fiscal();
 
@@ -554,7 +554,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeEditva() {
+    public function testSetMandatDureeEditva(): void {
 
         $obj = new Fiscal();
 
@@ -567,7 +567,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeEtebac() {
+    public function testSetMandatDureeEtebac(): void {
 
         $obj = new Fiscal();
 
@@ -580,7 +580,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureePedi() {
+    public function testSetMandatDureePedi(): void {
 
         $obj = new Fiscal();
 
@@ -593,7 +593,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeReq() {
+    public function testSetMandatDureeReq(): void {
 
         $obj = new Fiscal();
 
@@ -606,7 +606,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeTdfc() {
+    public function testSetMandatDureeTdfc(): void {
 
         $obj = new Fiscal();
 
@@ -619,7 +619,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeDads() {
+    public function testSetMandatPieceJointeDads(): void {
 
         $obj = new Fiscal();
 
@@ -632,7 +632,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeDucsedi() {
+    public function testSetMandatPieceJointeDucsedi(): void {
 
         $obj = new Fiscal();
 
@@ -645,7 +645,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeEditva() {
+    public function testSetMandatPieceJointeEditva(): void {
 
         $obj = new Fiscal();
 
@@ -658,7 +658,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeEtebac() {
+    public function testSetMandatPieceJointeEtebac(): void {
 
         $obj = new Fiscal();
 
@@ -671,7 +671,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointePedi() {
+    public function testSetMandatPieceJointePedi(): void {
 
         $obj = new Fiscal();
 
@@ -684,7 +684,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeReq() {
+    public function testSetMandatPieceJointeReq(): void {
 
         $obj = new Fiscal();
 
@@ -697,7 +697,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeTdfc() {
+    public function testSetMandatPieceJointeTdfc(): void {
 
         $obj = new Fiscal();
 
@@ -710,7 +710,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviDads() {
+    public function testSetMandatSuiviDads(): void {
 
         $obj = new Fiscal();
 
@@ -723,7 +723,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviDucsedi() {
+    public function testSetMandatSuiviDucsedi(): void {
 
         $obj = new Fiscal();
 
@@ -736,7 +736,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviEditva() {
+    public function testSetMandatSuiviEditva(): void {
 
         $obj = new Fiscal();
 
@@ -749,7 +749,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviEtebac() {
+    public function testSetMandatSuiviEtebac(): void {
 
         $obj = new Fiscal();
 
@@ -762,7 +762,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviPedi() {
+    public function testSetMandatSuiviPedi(): void {
 
         $obj = new Fiscal();
 
@@ -775,7 +775,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviReq() {
+    public function testSetMandatSuiviReq(): void {
 
         $obj = new Fiscal();
 
@@ -788,7 +788,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatSuiviTdfc() {
+    public function testSetMandatSuiviTdfc(): void {
 
         $obj = new Fiscal();
 
@@ -801,7 +801,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMdpImpotsGouvFr() {
+    public function testSetMdpImpotsGouvFr(): void {
 
         $obj = new Fiscal();
 
@@ -814,7 +814,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMethodeCalcul() {
+    public function testSetMethodeCalcul(): void {
 
         $obj = new Fiscal();
 
@@ -827,7 +827,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifRadiationCga() {
+    public function testSetMotifRadiationCga(): void {
 
         $obj = new Fiscal();
 
@@ -840,7 +840,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroRegistre() {
+    public function testSetNumeroRegistre(): void {
 
         $obj = new Fiscal();
 
@@ -853,7 +853,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodiciteTva() {
+    public function testSetPeriodiciteTva(): void {
 
         $obj = new Fiscal();
 
@@ -866,7 +866,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPmeCommunautaire() {
+    public function testSetPmeCommunautaire(): void {
 
         $obj = new Fiscal();
 
@@ -879,7 +879,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPoleEnregistrement() {
+    public function testSetPoleEnregistrement(): void {
 
         $obj = new Fiscal();
 
@@ -892,7 +892,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefObligFisc() {
+    public function testSetRefObligFisc(): void {
 
         $obj = new Fiscal();
 
@@ -905,7 +905,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefPaiementDgi() {
+    public function testSetRefPaiementDgi(): void {
 
         $obj = new Fiscal();
 
@@ -918,7 +918,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegime() {
+    public function testSetRegime(): void {
 
         $obj = new Fiscal();
 
@@ -931,7 +931,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegimeAgricole() {
+    public function testSetRegimeAgricole(): void {
 
         $obj = new Fiscal();
 
@@ -944,7 +944,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegimeGroupe() {
+    public function testSetRegimeGroupe(): void {
 
         $obj = new Fiscal();
 
@@ -957,7 +957,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofCfe() {
+    public function testSetRofCfe(): void {
 
         $obj = new Fiscal();
 
@@ -970,7 +970,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofCvae() {
+    public function testSetRofCvae(): void {
 
         $obj = new Fiscal();
 
@@ -983,7 +983,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofCvaep() {
+    public function testSetRofCvaep(): void {
 
         $obj = new Fiscal();
 
@@ -996,7 +996,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofIs() {
+    public function testSetRofIs(): void {
 
         $obj = new Fiscal();
 
@@ -1009,7 +1009,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofRcm() {
+    public function testSetRofRcm(): void {
 
         $obj = new Fiscal();
 
@@ -1022,7 +1022,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofTdfcGroup() {
+    public function testSetRofTdfcGroup(): void {
 
         $obj = new Fiscal();
 
@@ -1035,7 +1035,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofTs() {
+    public function testSetRofTs(): void {
 
         $obj = new Fiscal();
 
@@ -1048,7 +1048,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRofTva() {
+    public function testSetRofTva(): void {
 
         $obj = new Fiscal();
 
@@ -1061,7 +1061,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSocieteMere() {
+    public function testSetSocieteMere(): void {
 
         $obj = new Fiscal();
 
@@ -1074,7 +1074,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTresorerie() {
+    public function testSetTresorerie(): void {
 
         $obj = new Fiscal();
 
@@ -1087,7 +1087,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTresorerieIs() {
+    public function testSetTresorerieIs(): void {
 
         $obj = new Fiscal();
 
@@ -1100,7 +1100,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaCa12Ae() {
+    public function testSetTvaCa12Ae(): void {
 
         $obj = new Fiscal();
 
@@ -1113,7 +1113,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaDecaissements() {
+    public function testSetTvaDecaissements(): void {
 
         $obj = new Fiscal();
 
@@ -1126,7 +1126,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabBtq() {
+    public function testSetTvaEtabBtq(): void {
 
         $obj = new Fiscal();
 
@@ -1139,7 +1139,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabBureauDistributeur() {
+    public function testSetTvaEtabBureauDistributeur(): void {
 
         $obj = new Fiscal();
 
@@ -1152,7 +1152,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabCodePostal() {
+    public function testSetTvaEtabCodePostal(): void {
 
         $obj = new Fiscal();
 
@@ -1165,7 +1165,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabComplement() {
+    public function testSetTvaEtabComplement(): void {
 
         $obj = new Fiscal();
 
@@ -1178,7 +1178,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabNomRs() {
+    public function testSetTvaEtabNomRs(): void {
 
         $obj = new Fiscal();
 
@@ -1191,7 +1191,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabNomVoie() {
+    public function testSetTvaEtabNomVoie(): void {
 
         $obj = new Fiscal();
 
@@ -1204,7 +1204,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaEtabNumVoie() {
+    public function testSetTvaEtabNumVoie(): void {
 
         $obj = new Fiscal();
 
@@ -1217,7 +1217,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaFaiteParClient() {
+    public function testSetTvaFaiteParClient(): void {
 
         $obj = new Fiscal();
 
@@ -1230,7 +1230,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaNomVir() {
+    public function testSetTvaNomVir(): void {
 
         $obj = new Fiscal();
 
@@ -1243,7 +1243,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaribVir() {
+    public function testSetTvaribVir(): void {
 
         $obj = new Fiscal();
 
@@ -1256,7 +1256,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetViseurConventionne() {
+    public function testSetViseurConventionne(): void {
 
         $obj = new Fiscal();
 
@@ -1270,7 +1270,7 @@ class FiscalTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetViseurDtAttest() {
+    public function testSetViseurDtAttest(): void {
 
         // Set a Date/time mock.
         $viseurDtAttest = new DateTime("2018-09-10");
@@ -1286,7 +1286,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetViseurNumAttest() {
+    public function testSetViseurNumAttest(): void {
 
         $obj = new Fiscal();
 
@@ -1299,7 +1299,7 @@ class FiscalTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Fiscal();
 

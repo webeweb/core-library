@@ -29,7 +29,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutoIncr() {
+    public function testSetAutoIncr(): void {
 
         $obj = new Taches();
 
@@ -42,7 +42,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCadence() {
+    public function testSetCadence(): void {
 
         $obj = new Taches();
 
@@ -55,7 +55,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new Taches();
 
@@ -68,7 +68,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalytique() {
+    public function testSetCodeAnalytique(): void {
 
         $obj = new Taches();
 
@@ -81,7 +81,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new Taches();
 
@@ -94,7 +94,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Taches();
 
@@ -107,7 +107,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDernSemGen() {
+    public function testSetCodeDernSemGen(): void {
 
         $obj = new Taches();
 
@@ -120,7 +120,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrimeDimanche1Type2() {
+    public function testSetCodePrimeDimanche1Type2(): void {
 
         $obj = new Taches();
 
@@ -133,7 +133,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrimeJf1Type2() {
+    public function testSetCodePrimeJf1Type2(): void {
 
         $obj = new Taches();
 
@@ -146,7 +146,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrimeNuit1Type2() {
+    public function testSetCodePrimeNuit1Type2(): void {
 
         $obj = new Taches();
 
@@ -159,7 +159,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new Taches();
 
@@ -172,7 +172,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTacheType() {
+    public function testSetCodeTacheType(): void {
 
         $obj = new Taches();
 
@@ -185,7 +185,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptif() {
+    public function testSetDescriptif(): void {
 
         $obj = new Taches();
 
@@ -199,7 +199,7 @@ class TachesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDernSemGen() {
+    public function testSetDtDernSemGen(): void {
 
         // Set a Date/time mock.
         $dtDernSemGen = new DateTime("2018-09-10");
@@ -215,7 +215,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudget() {
+    public function testSetDureeBudget(): void {
 
         $obj = new Taches();
 
@@ -228,7 +228,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFichePoste() {
+    public function testSetFichePoste(): void {
 
         $obj = new Taches();
 
@@ -241,7 +241,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionHotellerie() {
+    public function testSetGestionHotellerie(): void {
 
         $obj = new Taches();
 
@@ -254,7 +254,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajDimNormalType2() {
+    public function testSetMajDimNormalType2(): void {
 
         $obj = new Taches();
 
@@ -267,7 +267,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajJfNormalType2() {
+    public function testSetMajJfNormalType2(): void {
 
         $obj = new Taches();
 
@@ -280,7 +280,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajNuitNormalType2() {
+    public function testSetMajNuitNormalType2(): void {
 
         $obj = new Taches();
 
@@ -293,7 +293,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauQualif() {
+    public function testSetNiveauQualif(): void {
 
         $obj = new Taches();
 
@@ -306,7 +306,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNonOeuvrant() {
+    public function testSetNonOeuvrant(): void {
 
         $obj = new Taches();
 
@@ -319,7 +319,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new Taches();
 
@@ -332,7 +332,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlanningDernSemPrioritaire() {
+    public function testSetPlanningDernSemPrioritaire(): void {
 
         $obj = new Taches();
 
@@ -345,7 +345,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new Taches();
 
@@ -358,7 +358,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuiviHeures() {
+    public function testSetSuiviHeures(): void {
 
         $obj = new Taches();
 
@@ -371,7 +371,7 @@ class TachesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Taches();
 

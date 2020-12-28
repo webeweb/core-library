@@ -31,29 +31,30 @@ class SeuilReposRecup {
     /**
      * Nb jour repos recup.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJourReposRecup;
 
     /**
      * Numero grille type.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroGrilleType;
 
     /**
      * Seuil declenche.
      *
-     * @var float
+     * @var float|null
      */
     private $seuilDeclenche;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -61,34 +62,34 @@ class SeuilReposRecup {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication() {
+    public function getDateApplication(): ?DateTime{
         return $this->dateApplication;
     }
 
     /**
      * Get the nb jour repos recup.
      *
-     * @return float Returns the nb jour repos recup.
+     * @return float|null Returns the nb jour repos recup.
      */
-    public function getNbJourReposRecup() {
+    public function getNbJourReposRecup(): ?float{
         return $this->nbJourReposRecup;
     }
 
     /**
      * Get the numero grille type.
      *
-     * @return int Returns the numero grille type.
+     * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType() {
+    public function getNumeroGrilleType(): ?int{
         return $this->numeroGrilleType;
     }
 
     /**
      * Get the seuil declenche.
      *
-     * @return float Returns the seuil declenche.
+     * @return float|null Returns the seuil declenche.
      */
-    public function getSeuilDeclenche() {
+    public function getSeuilDeclenche(): ?float{
         return $this->seuilDeclenche;
     }
 
@@ -98,7 +99,7 @@ class SeuilReposRecup {
      * @param DateTime|null $dateApplication The date application.
      * @return SeuilReposRecup Returns this Seuil repos recup.
      */
-    public function setDateApplication(DateTime $dateApplication = null) {
+    public function setDateApplication(?DateTime $dateApplication): SeuilReposRecup {
         $this->dateApplication = $dateApplication;
         return $this;
     }
@@ -106,10 +107,10 @@ class SeuilReposRecup {
     /**
      * Set the nb jour repos recup.
      *
-     * @param float $nbJourReposRecup The nb jour repos recup.
+     * @param float|null $nbJourReposRecup The nb jour repos recup.
      * @return SeuilReposRecup Returns this Seuil repos recup.
      */
-    public function setNbJourReposRecup($nbJourReposRecup) {
+    public function setNbJourReposRecup(?float $nbJourReposRecup): SeuilReposRecup {
         $this->nbJourReposRecup = $nbJourReposRecup;
         return $this;
     }
@@ -117,10 +118,10 @@ class SeuilReposRecup {
     /**
      * Set the numero grille type.
      *
-     * @param int $numeroGrilleType The numero grille type.
+     * @param int|null $numeroGrilleType The numero grille type.
      * @return SeuilReposRecup Returns this Seuil repos recup.
      */
-    public function setNumeroGrilleType($numeroGrilleType) {
+    public function setNumeroGrilleType(?int $numeroGrilleType): SeuilReposRecup {
         $this->numeroGrilleType = $numeroGrilleType;
         return $this;
     }
@@ -128,10 +129,10 @@ class SeuilReposRecup {
     /**
      * Set the seuil declenche.
      *
-     * @param float $seuilDeclenche The seuil declenche.
+     * @param float|null $seuilDeclenche The seuil declenche.
      * @return SeuilReposRecup Returns this Seuil repos recup.
      */
-    public function setSeuilDeclenche($seuilDeclenche) {
+    public function setSeuilDeclenche(?float $seuilDeclenche): SeuilReposRecup {
         $this->seuilDeclenche = $seuilDeclenche;
         return $this;
     }

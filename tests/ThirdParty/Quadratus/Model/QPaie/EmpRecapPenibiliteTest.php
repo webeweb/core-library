@@ -29,7 +29,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new EmpRecapPenibilite();
 
@@ -43,7 +43,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreat() {
+    public function testSetDateCreat(): void {
 
         // Set a Date/time mock.
         $dateCreat = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -77,7 +77,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -94,7 +94,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -110,7 +110,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new EmpRecapPenibilite();
 
@@ -123,7 +123,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdRecap() {
+    public function testSetIdRecap(): void {
 
         $obj = new EmpRecapPenibilite();
 
@@ -136,7 +136,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceBul() {
+    public function testSetIndiceBul(): void {
 
         $obj = new EmpRecapPenibilite();
 
@@ -149,7 +149,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new EmpRecapPenibilite();
 
@@ -162,7 +162,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new EmpRecapPenibilite();
 
@@ -176,7 +176,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetReguleTraitee() {
+    public function testSetReguleTraitee(): void {
 
         // Set a Date/time mock.
         $reguleTraitee = new DateTime("2018-09-10");
@@ -192,7 +192,7 @@ class EmpRecapPenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpRecapPenibilite();
 

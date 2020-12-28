@@ -27,7 +27,7 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeData() {
+    public function testSetTypeData(): void {
 
         $obj = new DataSynchroSupprime();
 
@@ -40,7 +40,7 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdBlocage() {
+    public function testSetUniqIdBlocage(): void {
 
         $obj = new DataSynchroSupprime();
 
@@ -53,7 +53,7 @@ class DataSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DataSynchroSupprime();
 

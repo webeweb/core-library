@@ -22,161 +22,162 @@ class LiaisonsTypesEnvois {
     /**
      * A bloquer.
      *
-     * @var string
+     * @var string|null
      */
     private $aBloquer;
 
     /**
      * A emettre.
      *
-     * @var string
+     * @var string|null
      */
     private $aEmettre;
 
     /**
      * Accepte depuis q bureau.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accepteDepuisQBureau;
 
     /**
      * Accepte depuis qc.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accepteDepuisQc;
 
     /**
      * Accepte depuis qp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $accepteDepuisQp;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Modifiable.
      *
-     * @var bool
+     * @var bool|null
      */
     private $modifiable;
 
     /**
      * Sans images.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sansImages;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a bloquer.
      *
-     * @return string Returns the a bloquer.
+     * @return string|null Returns the a bloquer.
      */
-    public function getABloquer() {
+    public function getABloquer(): ?string{
         return $this->aBloquer;
     }
 
     /**
      * Get the a emettre.
      *
-     * @return string Returns the a emettre.
+     * @return string|null Returns the a emettre.
      */
-    public function getAEmettre() {
+    public function getAEmettre(): ?string{
         return $this->aEmettre;
     }
 
     /**
      * Get the accepte depuis q bureau.
      *
-     * @return bool Returns the accepte depuis q bureau.
+     * @return bool|null Returns the accepte depuis q bureau.
      */
-    public function getAccepteDepuisQBureau() {
+    public function getAccepteDepuisQBureau(): ?bool{
         return $this->accepteDepuisQBureau;
     }
 
     /**
      * Get the accepte depuis qc.
      *
-     * @return bool Returns the accepte depuis qc.
+     * @return bool|null Returns the accepte depuis qc.
      */
-    public function getAccepteDepuisQc() {
+    public function getAccepteDepuisQc(): ?bool{
         return $this->accepteDepuisQc;
     }
 
     /**
      * Get the accepte depuis qp.
      *
-     * @return bool Returns the accepte depuis qp.
+     * @return bool|null Returns the accepte depuis qp.
      */
-    public function getAccepteDepuisQp() {
+    public function getAccepteDepuisQp(): ?bool{
         return $this->accepteDepuisQp;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the modifiable.
      *
-     * @return bool Returns the modifiable.
+     * @return bool|null Returns the modifiable.
      */
-    public function getModifiable() {
+    public function getModifiable(): ?bool{
         return $this->modifiable;
     }
 
     /**
      * Get the sans images.
      *
-     * @return bool Returns the sans images.
+     * @return bool|null Returns the sans images.
      */
-    public function getSansImages() {
+    public function getSansImages(): ?bool{
         return $this->sansImages;
     }
 
     /**
      * Set the a bloquer.
      *
-     * @param string $aBloquer The a bloquer.
+     * @param string|null $aBloquer The a bloquer.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setABloquer($aBloquer) {
+    public function setABloquer(?string $aBloquer): LiaisonsTypesEnvois {
         $this->aBloquer = $aBloquer;
         return $this;
     }
@@ -184,10 +185,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the a emettre.
      *
-     * @param string $aEmettre The a emettre.
+     * @param string|null $aEmettre The a emettre.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setAEmettre($aEmettre) {
+    public function setAEmettre(?string $aEmettre): LiaisonsTypesEnvois {
         $this->aEmettre = $aEmettre;
         return $this;
     }
@@ -195,10 +196,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the accepte depuis q bureau.
      *
-     * @param bool $accepteDepuisQBureau The accepte depuis q bureau.
+     * @param bool|null $accepteDepuisQBureau The accepte depuis q bureau.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setAccepteDepuisQBureau($accepteDepuisQBureau) {
+    public function setAccepteDepuisQBureau(?bool $accepteDepuisQBureau): LiaisonsTypesEnvois {
         $this->accepteDepuisQBureau = $accepteDepuisQBureau;
         return $this;
     }
@@ -206,10 +207,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the accepte depuis qc.
      *
-     * @param bool $accepteDepuisQc The accepte depuis qc.
+     * @param bool|null $accepteDepuisQc The accepte depuis qc.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setAccepteDepuisQc($accepteDepuisQc) {
+    public function setAccepteDepuisQc(?bool $accepteDepuisQc): LiaisonsTypesEnvois {
         $this->accepteDepuisQc = $accepteDepuisQc;
         return $this;
     }
@@ -217,10 +218,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the accepte depuis qp.
      *
-     * @param bool $accepteDepuisQp The accepte depuis qp.
+     * @param bool|null $accepteDepuisQp The accepte depuis qp.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setAccepteDepuisQp($accepteDepuisQp) {
+    public function setAccepteDepuisQp(?bool $accepteDepuisQp): LiaisonsTypesEnvois {
         $this->accepteDepuisQp = $accepteDepuisQp;
         return $this;
     }
@@ -228,10 +229,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): LiaisonsTypesEnvois {
         $this->code = $code;
         return $this;
     }
@@ -239,10 +240,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): LiaisonsTypesEnvois {
         $this->intitule = $intitule;
         return $this;
     }
@@ -250,10 +251,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the modifiable.
      *
-     * @param bool $modifiable The modifiable.
+     * @param bool|null $modifiable The modifiable.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setModifiable($modifiable) {
+    public function setModifiable(?bool $modifiable): LiaisonsTypesEnvois {
         $this->modifiable = $modifiable;
         return $this;
     }
@@ -261,10 +262,10 @@ class LiaisonsTypesEnvois {
     /**
      * Set the sans images.
      *
-     * @param bool $sansImages The sans images.
+     * @param bool|null $sansImages The sans images.
      * @return LiaisonsTypesEnvois Returns this Liaisons types envois.
      */
-    public function setSansImages($sansImages) {
+    public function setSansImages(?bool $sansImages): LiaisonsTypesEnvois {
         $this->sansImages = $sansImages;
         return $this;
     }

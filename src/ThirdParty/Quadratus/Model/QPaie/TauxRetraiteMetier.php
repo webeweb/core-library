@@ -22,273 +22,274 @@ class TauxRetraiteMetier {
     /**
      * Active.
      *
-     * @var bool
+     * @var bool|null
      */
     private $active;
 
     /**
      * Categ salarie.
      *
-     * @var int
+     * @var int|null
      */
     private $categSalarie;
 
     /**
      * Code activite.
      *
-     * @var string
+     * @var string|null
      */
     private $codeActivite;
 
     /**
      * Code ducs.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDucs;
 
     /**
      * Code edition histo.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEditionHisto;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Code metier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMetier;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Compte charge.
      *
-     * @var string
+     * @var string|null
      */
     private $compteCharge;
 
     /**
      * Condition spec.
      *
-     * @var string
+     * @var string|null
      */
     private $conditionSpec;
 
     /**
      * Exclure loi tepa.
      *
-     * @var string
+     * @var string|null
      */
     private $exclureLoiTepa;
 
     /**
      * Indice categ.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceCateg;
 
     /**
      * Libelle bul.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleBul;
 
     /**
      * Num ligne.
      *
-     * @var int
+     * @var int|null
      */
     private $numLigne;
 
     /**
      * Qualifiant cotis.
      *
-     * @var string
+     * @var string|null
      */
     private $qualifiantCotis;
 
     /**
      * Type libelle.
      *
-     * @var int
+     * @var int|null
      */
     private $typeLibelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the active.
      *
-     * @return bool Returns the active.
+     * @return bool|null Returns the active.
      */
-    public function getActive() {
+    public function getActive(): ?bool{
         return $this->active;
     }
 
     /**
      * Get the categ salarie.
      *
-     * @return int Returns the categ salarie.
+     * @return int|null Returns the categ salarie.
      */
-    public function getCategSalarie() {
+    public function getCategSalarie(): ?int{
         return $this->categSalarie;
     }
 
     /**
      * Get the code activite.
      *
-     * @return string Returns the code activite.
+     * @return string|null Returns the code activite.
      */
-    public function getCodeActivite() {
+    public function getCodeActivite(): ?string{
         return $this->codeActivite;
     }
 
     /**
      * Get the code ducs.
      *
-     * @return string Returns the code ducs.
+     * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs() {
+    public function getCodeDucs(): ?string{
         return $this->codeDucs;
     }
 
     /**
      * Get the code edition histo.
      *
-     * @return string Returns the code edition histo.
+     * @return string|null Returns the code edition histo.
      */
-    public function getCodeEditionHisto() {
+    public function getCodeEditionHisto(): ?string{
         return $this->codeEditionHisto;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the code metier.
      *
-     * @return string Returns the code metier.
+     * @return string|null Returns the code metier.
      */
-    public function getCodeMetier() {
+    public function getCodeMetier(): ?string{
         return $this->codeMetier;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the compte charge.
      *
-     * @return string Returns the compte charge.
+     * @return string|null Returns the compte charge.
      */
-    public function getCompteCharge() {
+    public function getCompteCharge(): ?string{
         return $this->compteCharge;
     }
 
     /**
      * Get the condition spec.
      *
-     * @return string Returns the condition spec.
+     * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec() {
+    public function getConditionSpec(): ?string{
         return $this->conditionSpec;
     }
 
     /**
      * Get the exclure loi tepa.
      *
-     * @return string Returns the exclure loi tepa.
+     * @return string|null Returns the exclure loi tepa.
      */
-    public function getExclureLoiTepa() {
+    public function getExclureLoiTepa(): ?string{
         return $this->exclureLoiTepa;
     }
 
     /**
      * Get the indice categ.
      *
-     * @return int Returns the indice categ.
+     * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg() {
+    public function getIndiceCateg(): ?int{
         return $this->indiceCateg;
     }
 
     /**
      * Get the libelle bul.
      *
-     * @return string Returns the libelle bul.
+     * @return string|null Returns the libelle bul.
      */
-    public function getLibelleBul() {
+    public function getLibelleBul(): ?string{
         return $this->libelleBul;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return int Returns the num ligne.
+     * @return int|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?int{
         return $this->numLigne;
     }
 
     /**
      * Get the qualifiant cotis.
      *
-     * @return string Returns the qualifiant cotis.
+     * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis() {
+    public function getQualifiantCotis(): ?string{
         return $this->qualifiantCotis;
     }
 
     /**
      * Get the type libelle.
      *
-     * @return int Returns the type libelle.
+     * @return int|null Returns the type libelle.
      */
-    public function getTypeLibelle() {
+    public function getTypeLibelle(): ?int{
         return $this->typeLibelle;
     }
 
     /**
      * Set the active.
      *
-     * @param bool $active The active.
+     * @param bool|null $active The active.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setActive($active) {
+    public function setActive(?bool $active): TauxRetraiteMetier {
         $this->active = $active;
         return $this;
     }
@@ -296,10 +297,10 @@ class TauxRetraiteMetier {
     /**
      * Set the categ salarie.
      *
-     * @param int $categSalarie The categ salarie.
+     * @param int|null $categSalarie The categ salarie.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCategSalarie($categSalarie) {
+    public function setCategSalarie(?int $categSalarie): TauxRetraiteMetier {
         $this->categSalarie = $categSalarie;
         return $this;
     }
@@ -307,10 +308,10 @@ class TauxRetraiteMetier {
     /**
      * Set the code activite.
      *
-     * @param string $codeActivite The code activite.
+     * @param string|null $codeActivite The code activite.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCodeActivite($codeActivite) {
+    public function setCodeActivite(?string $codeActivite): TauxRetraiteMetier {
         $this->codeActivite = $codeActivite;
         return $this;
     }
@@ -318,10 +319,10 @@ class TauxRetraiteMetier {
     /**
      * Set the code ducs.
      *
-     * @param string $codeDucs The code ducs.
+     * @param string|null $codeDucs The code ducs.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCodeDucs($codeDucs) {
+    public function setCodeDucs(?string $codeDucs): TauxRetraiteMetier {
         $this->codeDucs = $codeDucs;
         return $this;
     }
@@ -329,10 +330,10 @@ class TauxRetraiteMetier {
     /**
      * Set the code edition histo.
      *
-     * @param string $codeEditionHisto The code edition histo.
+     * @param string|null $codeEditionHisto The code edition histo.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCodeEditionHisto($codeEditionHisto) {
+    public function setCodeEditionHisto(?string $codeEditionHisto): TauxRetraiteMetier {
         $this->codeEditionHisto = $codeEditionHisto;
         return $this;
     }
@@ -340,10 +341,10 @@ class TauxRetraiteMetier {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): TauxRetraiteMetier {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -351,10 +352,10 @@ class TauxRetraiteMetier {
     /**
      * Set the code metier.
      *
-     * @param string $codeMetier The code metier.
+     * @param string|null $codeMetier The code metier.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCodeMetier($codeMetier) {
+    public function setCodeMetier(?string $codeMetier): TauxRetraiteMetier {
         $this->codeMetier = $codeMetier;
         return $this;
     }
@@ -362,10 +363,10 @@ class TauxRetraiteMetier {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): TauxRetraiteMetier {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -373,10 +374,10 @@ class TauxRetraiteMetier {
     /**
      * Set the compte charge.
      *
-     * @param string $compteCharge The compte charge.
+     * @param string|null $compteCharge The compte charge.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setCompteCharge($compteCharge) {
+    public function setCompteCharge(?string $compteCharge): TauxRetraiteMetier {
         $this->compteCharge = $compteCharge;
         return $this;
     }
@@ -384,10 +385,10 @@ class TauxRetraiteMetier {
     /**
      * Set the condition spec.
      *
-     * @param string $conditionSpec The condition spec.
+     * @param string|null $conditionSpec The condition spec.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setConditionSpec($conditionSpec) {
+    public function setConditionSpec(?string $conditionSpec): TauxRetraiteMetier {
         $this->conditionSpec = $conditionSpec;
         return $this;
     }
@@ -395,10 +396,10 @@ class TauxRetraiteMetier {
     /**
      * Set the exclure loi tepa.
      *
-     * @param string $exclureLoiTepa The exclure loi tepa.
+     * @param string|null $exclureLoiTepa The exclure loi tepa.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setExclureLoiTepa($exclureLoiTepa) {
+    public function setExclureLoiTepa(?string $exclureLoiTepa): TauxRetraiteMetier {
         $this->exclureLoiTepa = $exclureLoiTepa;
         return $this;
     }
@@ -406,10 +407,10 @@ class TauxRetraiteMetier {
     /**
      * Set the indice categ.
      *
-     * @param int $indiceCateg The indice categ.
+     * @param int|null $indiceCateg The indice categ.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setIndiceCateg($indiceCateg) {
+    public function setIndiceCateg(?int $indiceCateg): TauxRetraiteMetier {
         $this->indiceCateg = $indiceCateg;
         return $this;
     }
@@ -417,10 +418,10 @@ class TauxRetraiteMetier {
     /**
      * Set the libelle bul.
      *
-     * @param string $libelleBul The libelle bul.
+     * @param string|null $libelleBul The libelle bul.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setLibelleBul($libelleBul) {
+    public function setLibelleBul(?string $libelleBul): TauxRetraiteMetier {
         $this->libelleBul = $libelleBul;
         return $this;
     }
@@ -428,10 +429,10 @@ class TauxRetraiteMetier {
     /**
      * Set the num ligne.
      *
-     * @param int $numLigne The num ligne.
+     * @param int|null $numLigne The num ligne.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?int $numLigne): TauxRetraiteMetier {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -439,10 +440,10 @@ class TauxRetraiteMetier {
     /**
      * Set the qualifiant cotis.
      *
-     * @param string $qualifiantCotis The qualifiant cotis.
+     * @param string|null $qualifiantCotis The qualifiant cotis.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setQualifiantCotis($qualifiantCotis) {
+    public function setQualifiantCotis(?string $qualifiantCotis): TauxRetraiteMetier {
         $this->qualifiantCotis = $qualifiantCotis;
         return $this;
     }
@@ -450,10 +451,10 @@ class TauxRetraiteMetier {
     /**
      * Set the type libelle.
      *
-     * @param int $typeLibelle The type libelle.
+     * @param int|null $typeLibelle The type libelle.
      * @return TauxRetraiteMetier Returns this Taux retraite metier.
      */
-    public function setTypeLibelle($typeLibelle) {
+    public function setTypeLibelle(?int $typeLibelle): TauxRetraiteMetier {
         $this->typeLibelle = $typeLibelle;
         return $this;
     }

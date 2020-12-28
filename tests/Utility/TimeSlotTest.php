@@ -48,9 +48,9 @@ class TimeSlotTest extends AbstractTestCase {
     private $startDate;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set Date/times mock.
@@ -69,7 +69,7 @@ class TimeSlotTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetDuration() {
+    public function testGetDuration(): void {
 
         // 08:00-11:00
         $this->assertEquals(10800, (new TimeSlot($this->dates[0], $this->dates[1]))->getDuration());
@@ -87,7 +87,7 @@ class TimeSlotTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testLeftJoinWithout() {
+    public function testLeftJoinWithout(): void {
 
         // ===
         $obj0 = new TimeSlot(new DateTime("2018-08-29 08:00"), new DateTime("2018-08-29 18:00"));
@@ -166,7 +166,7 @@ class TimeSlotTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRemoveTimeSlot() {
+    public function testRemoveTimeSlot(): void {
 
         $obj = new TimeSlot($this->startDate, $this->endDate);
 
@@ -190,7 +190,7 @@ class TimeSlotTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TimeSlot($this->startDate, $this->endDate);
 
@@ -204,7 +204,7 @@ class TimeSlotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructWithException() {
+    public function test__constructWithException(): void {
 
         try {
 

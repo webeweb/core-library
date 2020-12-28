@@ -29,7 +29,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -42,7 +42,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLettrage() {
+    public function testSetCodeLettrage(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -55,7 +55,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelleAuto() {
+    public function testSetCodeLibelleAuto(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -68,7 +68,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOperateur() {
+    public function testSetCodeOperateur(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -82,7 +82,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateOperation() {
+    public function testSetDateOperation(): void {
 
         // Set a Date/time mock.
         $dateOperation = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolio() {
+    public function testSetFolio(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -111,7 +111,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourEcriture() {
+    public function testSetJourEcriture(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -124,7 +124,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -137,7 +137,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLigneFolio() {
+    public function testSetLigneFolio(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -150,7 +150,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuCredit() {
+    public function testSetMontantTenuCredit(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -163,7 +163,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuDebit() {
+    public function testSetMontantTenuDebit(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -176,7 +176,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -189,7 +189,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -202,7 +202,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPiece() {
+    public function testSetNumeroPiece(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -216,7 +216,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcriture() {
+    public function testSetPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $periodeEcriture = new DateTime("2018-09-10");
@@ -232,7 +232,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -245,7 +245,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeOperation() {
+    public function testSetTypeOperation(): void {
 
         $obj = new SuiviCompteParticulier();
 
@@ -258,7 +258,7 @@ class SuiviCompteParticulierTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SuiviCompteParticulier();
 

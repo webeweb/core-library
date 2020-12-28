@@ -29,7 +29,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorie() {
+    public function testSetCategorie(): void {
 
         $obj = new Vehicules();
 
@@ -43,7 +43,7 @@ class VehiculesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCession() {
+    public function testSetDateCession(): void {
 
         // Set a Date/time mock.
         $dateCession = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class VehiculesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateImmat() {
+    public function testSetDateImmat(): void {
 
         // Set a Date/time mock.
         $dateImmat = new DateTime("2018-09-10");
@@ -77,7 +77,7 @@ class VehiculesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePmec() {
+    public function testSetDatePmec(): void {
 
         // Set a Date/time mock.
         $datePmec = new DateTime("2018-09-10");
@@ -93,7 +93,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGuid() {
+    public function testSetGuid(): void {
 
         $obj = new Vehicules();
 
@@ -106,7 +106,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHybride() {
+    public function testSetHybride(): void {
 
         $obj = new Vehicules();
 
@@ -119,7 +119,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImmatriculation() {
+    public function testSetImmatriculation(): void {
 
         $obj = new Vehicules();
 
@@ -132,7 +132,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Vehicules();
 
@@ -145,7 +145,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienCompta() {
+    public function testSetLienCompta(): void {
 
         $obj = new Vehicules();
 
@@ -158,7 +158,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNonPolluant() {
+    public function testSetNonPolluant(): void {
 
         $obj = new Vehicules();
 
@@ -171,7 +171,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPuissanceCv() {
+    public function testSetPuissanceCv(): void {
 
         $obj = new Vehicules();
 
@@ -184,7 +184,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSuperCarbu() {
+    public function testSetSuperCarbu(): void {
 
         $obj = new Vehicules();
 
@@ -197,7 +197,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxEmissionCo2() {
+    public function testSetTauxEmissionCo2(): void {
 
         $obj = new Vehicules();
 
@@ -210,7 +210,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUsageAgricole() {
+    public function testSetUsageAgricole(): void {
 
         $obj = new Vehicules();
 
@@ -223,7 +223,7 @@ class VehiculesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Vehicules();
 

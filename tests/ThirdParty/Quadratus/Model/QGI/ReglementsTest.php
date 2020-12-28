@@ -27,7 +27,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new Reglements();
 
@@ -40,7 +40,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Reglements();
 
@@ -53,7 +53,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBanque() {
+    public function testSetCodeBanque(): void {
 
         $obj = new Reglements();
 
@@ -66,7 +66,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeComptable() {
+    public function testSetCodeComptable(): void {
 
         $obj = new Reglements();
 
@@ -79,7 +79,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteCaisse() {
+    public function testSetCompteCaisse(): void {
 
         $obj = new Reglements();
 
@@ -92,7 +92,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptPortefeuille() {
+    public function testSetCptPortefeuille(): void {
 
         $obj = new Reglements();
 
@@ -105,7 +105,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDateEcheanceCpta() {
+    public function testSetDateEcheanceCpta(): void {
 
         $obj = new Reglements();
 
@@ -118,7 +118,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDefinitionPaiement() {
+    public function testSetDefinitionPaiement(): void {
 
         $obj = new Reglements();
 
@@ -131,7 +131,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDefinitionRemise() {
+    public function testSetDefinitionRemise(): void {
 
         $obj = new Reglements();
 
@@ -144,7 +144,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetailEcheanceCpta() {
+    public function testSetDetailEcheanceCpta(): void {
 
         $obj = new Reglements();
 
@@ -157,7 +157,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetailEffetCpta() {
+    public function testSetDetailEffetCpta(): void {
 
         $obj = new Reglements();
 
@@ -170,7 +170,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeviseCaisse() {
+    public function testSetDeviseCaisse(): void {
 
         $obj = new Reglements();
 
@@ -183,7 +183,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire1() {
+    public function testSetDomiciliationBancaire1(): void {
 
         $obj = new Reglements();
 
@@ -196,7 +196,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire2() {
+    public function testSetDomiciliationBancaire2(): void {
 
         $obj = new Reglements();
 
@@ -209,7 +209,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeEcheances() {
+    public function testSetDureeEcheances(): void {
 
         $obj = new Reglements();
 
@@ -222,7 +222,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceFinDecade() {
+    public function testSetEcheanceFinDecade(): void {
 
         $obj = new Reglements();
 
@@ -235,7 +235,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceFinQuinzaine() {
+    public function testSetEcheanceFinQuinzaine(): void {
 
         $obj = new Reglements();
 
@@ -248,7 +248,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditDateEcheance() {
+    public function testSetEditDateEcheance(): void {
 
         $obj = new Reglements();
 
@@ -261,7 +261,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditerCheque() {
+    public function testSetEditerCheque(): void {
 
         $obj = new Reglements();
 
@@ -274,7 +274,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEspecesCaisse() {
+    public function testSetEspecesCaisse(): void {
 
         $obj = new Reglements();
 
@@ -287,7 +287,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionPaiements() {
+    public function testSetGestionPaiements(): void {
 
         $obj = new Reglements();
 
@@ -300,7 +300,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new Reglements();
 
@@ -313,7 +313,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Reglements();
 
@@ -326,7 +326,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule2() {
+    public function testSetIntitule2(): void {
 
         $obj = new Reglements();
 
@@ -339,7 +339,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule3() {
+    public function testSetIntitule3(): void {
 
         $obj = new Reglements();
 
@@ -352,7 +352,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLcr() {
+    public function testSetLcr(): void {
 
         $obj = new Reglements();
 
@@ -365,7 +365,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibEcrCaisse() {
+    public function testSetLibEcrCaisse(): void {
 
         $obj = new Reglements();
 
@@ -378,7 +378,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEcheances() {
+    public function testSetNombreEcheances(): void {
 
         $obj = new Reglements();
 
@@ -391,7 +391,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementDepartLe() {
+    public function testSetPaiementDepartLe(): void {
 
         $obj = new Reglements();
 
@@ -404,7 +404,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementLe() {
+    public function testSetPaiementLe(): void {
 
         $obj = new Reglements();
 
@@ -417,7 +417,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementNombreDeJours() {
+    public function testSetPaiementNombreDeJours(): void {
 
         $obj = new Reglements();
 
@@ -430,7 +430,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasDeTiroirCaisse() {
+    public function testSetPasDeTiroirCaisse(): void {
 
         $obj = new Reglements();
 
@@ -443,7 +443,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasEffetAvoir() {
+    public function testSetPasEffetAvoir(): void {
 
         $obj = new Reglements();
 
@@ -456,7 +456,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied() {
+    public function testSetRemisePied(): void {
 
         $obj = new Reglements();
 
@@ -469,7 +469,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Reglements();
 
@@ -482,7 +482,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTraiteEditer() {
+    public function testSetTraiteEditer(): void {
 
         $obj = new Reglements();
 
@@ -495,7 +495,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAcceptation() {
+    public function testSetTypeAcceptation(): void {
 
         $obj = new Reglements();
 
@@ -508,7 +508,7 @@ class ReglementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Reglements();
 

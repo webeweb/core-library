@@ -29,7 +29,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollabMessages() {
+    public function testSetCodeCollabMessages(): void {
 
         $obj = new iComptaDroits();
 
@@ -42,7 +42,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUser() {
+    public function testSetCodeUser(): void {
 
         $obj = new iComptaDroits();
 
@@ -56,7 +56,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateLimiteVisu() {
+    public function testSetDateLimiteVisu(): void {
 
         // Set a Date/time mock.
         $dateLimiteVisu = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitClients() {
+    public function testSetDroitClients(): void {
 
         $obj = new iComptaDroits();
 
@@ -85,7 +85,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitFournisseurs() {
+    public function testSetDroitFournisseurs(): void {
 
         $obj = new iComptaDroits();
 
@@ -98,7 +98,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitGeneraux() {
+    public function testSetDroitGeneraux(): void {
 
         $obj = new iComptaDroits();
 
@@ -111,7 +111,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDroitModifCompte() {
+    public function testSetDroitModifCompte(): void {
 
         $obj = new iComptaDroits();
 
@@ -124,7 +124,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEspaceClient() {
+    public function testSetEspaceClient(): void {
 
         $obj = new iComptaDroits();
 
@@ -137,7 +137,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctBalanceClient() {
+    public function testSetFctBalanceClient(): void {
 
         $obj = new iComptaDroits();
 
@@ -150,7 +150,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctBalanceFournisseur() {
+    public function testSetFctBalanceFournisseur(): void {
 
         $obj = new iComptaDroits();
 
@@ -163,7 +163,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctBalanceGenerale() {
+    public function testSetFctBalanceGenerale(): void {
 
         $obj = new iComptaDroits();
 
@@ -176,7 +176,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctConsultDa() {
+    public function testSetFctConsultDa(): void {
 
         $obj = new iComptaDroits();
 
@@ -189,7 +189,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctConsultDc() {
+    public function testSetFctConsultDc(): void {
 
         $obj = new iComptaDroits();
 
@@ -202,7 +202,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDeclareTva() {
+    public function testSetFctDeclareTva(): void {
 
         $obj = new iComptaDroits();
 
@@ -215,7 +215,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctDelettrage() {
+    public function testSetFctDelettrage(): void {
 
         $obj = new iComptaDroits();
 
@@ -228,7 +228,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctEditionJournaux() {
+    public function testSetFctEditionJournaux(): void {
 
         $obj = new iComptaDroits();
 
@@ -241,7 +241,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctInterrogationCpt() {
+    public function testSetFctInterrogationCpt(): void {
 
         $obj = new iComptaDroits();
 
@@ -254,7 +254,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctLettrage() {
+    public function testSetFctLettrage(): void {
 
         $obj = new iComptaDroits();
 
@@ -267,7 +267,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctModifEcriture() {
+    public function testSetFctModifEcriture(): void {
 
         $obj = new iComptaDroits();
 
@@ -280,7 +280,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctRapprochBanq() {
+    public function testSetFctRapprochBanq(): void {
 
         $obj = new iComptaDroits();
 
@@ -293,7 +293,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieAchats() {
+    public function testSetFctSaisieAchats(): void {
 
         $obj = new iComptaDroits();
 
@@ -306,7 +306,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieBanques() {
+    public function testSetFctSaisieBanques(): void {
 
         $obj = new iComptaDroits();
 
@@ -319,7 +319,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieCaisseOrientee() {
+    public function testSetFctSaisieCaisseOrientee(): void {
 
         $obj = new iComptaDroits();
 
@@ -332,7 +332,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieEtebac() {
+    public function testSetFctSaisieEtebac(): void {
 
         $obj = new iComptaDroits();
 
@@ -345,7 +345,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieStandard() {
+    public function testSetFctSaisieStandard(): void {
 
         $obj = new iComptaDroits();
 
@@ -358,7 +358,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieTrame() {
+    public function testSetFctSaisieTrame(): void {
 
         $obj = new iComptaDroits();
 
@@ -371,7 +371,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSaisieVentes() {
+    public function testSetFctSaisieVentes(): void {
 
         $obj = new iComptaDroits();
 
@@ -384,7 +384,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctSupprEcriture() {
+    public function testSetFctSupprEcriture(): void {
 
         $obj = new iComptaDroits();
 
@@ -397,7 +397,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFctTableBord() {
+    public function testSetFctTableBord(): void {
 
         $obj = new iComptaDroits();
 
@@ -410,7 +410,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlag() {
+    public function testSetFlag(): void {
 
         $obj = new iComptaDroits();
 
@@ -423,7 +423,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauDroitClients() {
+    public function testSetNiveauDroitClients(): void {
 
         $obj = new iComptaDroits();
 
@@ -436,7 +436,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauDroitFournisseurs() {
+    public function testSetNiveauDroitFournisseurs(): void {
 
         $obj = new iComptaDroits();
 
@@ -449,7 +449,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauDroitGeneraux() {
+    public function testSetNiveauDroitGeneraux(): void {
 
         $obj = new iComptaDroits();
 
@@ -462,7 +462,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoDossCpta() {
+    public function testSetNoDossCpta(): void {
 
         $obj = new iComptaDroits();
 
@@ -475,7 +475,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomUser() {
+    public function testSetNomUser(): void {
 
         $obj = new iComptaDroits();
 
@@ -488,7 +488,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumiKey() {
+    public function testSetNumiKey(): void {
 
         $obj = new iComptaDroits();
 
@@ -501,7 +501,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassword() {
+    public function testSetPassword(): void {
 
         $obj = new iComptaDroits();
 
@@ -515,7 +515,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeSaisieDeb() {
+    public function testSetPeriodeSaisieDeb(): void {
 
         // Set a Date/time mock.
         $periodeSaisieDeb = new DateTime("2018-09-10");
@@ -532,7 +532,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeSaisieFin() {
+    public function testSetPeriodeSaisieFin(): void {
 
         // Set a Date/time mock.
         $periodeSaisieFin = new DateTime("2018-09-10");
@@ -548,7 +548,7 @@ class iComptaDroitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new iComptaDroits();
 

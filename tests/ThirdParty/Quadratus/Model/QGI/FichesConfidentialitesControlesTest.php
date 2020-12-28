@@ -27,7 +27,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAgence() {
+    public function testSetAgence(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -40,7 +40,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutorise() {
+    public function testSetAutorise(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -53,7 +53,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeColl() {
+    public function testSetCodeColl(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -66,7 +66,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossier() {
+    public function testSetDossier(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -79,7 +79,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotControle() {
+    public function testSetMotControle(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -92,7 +92,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotDePasse() {
+    public function testSetMotDePasse(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -105,7 +105,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new FichesConfidentialitesControles();
 
@@ -118,7 +118,7 @@ class FichesConfidentialitesControlesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesConfidentialitesControles();
 

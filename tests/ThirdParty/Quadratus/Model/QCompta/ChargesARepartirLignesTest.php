@@ -27,7 +27,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new ChargesARepartirLignes();
 
@@ -40,7 +40,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantRestant() {
+    public function testSetMontantRestant(): void {
 
         $obj = new ChargesARepartirLignes();
 
@@ -53,7 +53,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantVir() {
+    public function testSetMontantVir(): void {
 
         $obj = new ChargesARepartirLignes();
 
@@ -66,7 +66,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumContrat() {
+    public function testSetNumContrat(): void {
 
         $obj = new ChargesARepartirLignes();
 
@@ -79,7 +79,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptCar() {
+    public function testSetNumCptCar(): void {
 
         $obj = new ChargesARepartirLignes();
 
@@ -92,7 +92,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new ChargesARepartirLignes();
 
@@ -105,7 +105,7 @@ class ChargesARepartirLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChargesARepartirLignes();
 

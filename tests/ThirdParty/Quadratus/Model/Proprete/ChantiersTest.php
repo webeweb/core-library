@@ -29,7 +29,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFBureauDistributeur() {
+    public function testSetAdFBureauDistributeur(): void {
 
         $obj = new Chantiers();
 
@@ -42,7 +42,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCivilite() {
+    public function testSetAdFCivilite(): void {
 
         $obj = new Chantiers();
 
@@ -55,7 +55,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCodePays() {
+    public function testSetAdFCodePays(): void {
 
         $obj = new Chantiers();
 
@@ -68,7 +68,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFCodePostal() {
+    public function testSetAdFCodePostal(): void {
 
         $obj = new Chantiers();
 
@@ -81,7 +81,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFComplement() {
+    public function testSetAdFComplement(): void {
 
         $obj = new Chantiers();
 
@@ -94,7 +94,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomClient() {
+    public function testSetAdFNomClient(): void {
 
         $obj = new Chantiers();
 
@@ -107,7 +107,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite() {
+    public function testSetAdFNomSuite(): void {
 
         $obj = new Chantiers();
 
@@ -120,7 +120,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite2() {
+    public function testSetAdFNomSuite2(): void {
 
         $obj = new Chantiers();
 
@@ -133,7 +133,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomSuite3() {
+    public function testSetAdFNomSuite3(): void {
 
         $obj = new Chantiers();
 
@@ -146,7 +146,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNomVoie() {
+    public function testSetAdFNomVoie(): void {
 
         $obj = new Chantiers();
 
@@ -159,7 +159,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFNumVoie() {
+    public function testSetAdFNumVoie(): void {
 
         $obj = new Chantiers();
 
@@ -172,7 +172,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFTypeAdresse() {
+    public function testSetAdFTypeAdresse(): void {
 
         $obj = new Chantiers();
 
@@ -185,7 +185,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdFbtq() {
+    public function testSetAdFbtq(): void {
 
         $obj = new Chantiers();
 
@@ -198,7 +198,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresse() {
+    public function testSetAdresse(): void {
 
         $obj = new Chantiers();
 
@@ -211,7 +211,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtq() {
+    public function testSetBtq(): void {
 
         $obj = new Chantiers();
 
@@ -224,7 +224,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBtqLivraison() {
+    public function testSetBtqLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -237,7 +237,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetCommande() {
+    public function testSetBudgetCommande(): void {
 
         $obj = new Chantiers();
 
@@ -250,7 +250,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeur() {
+    public function testSetBureauDistributeur(): void {
 
         $obj = new Chantiers();
 
@@ -263,7 +263,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBureauDistributeurLivraison() {
+    public function testSetBureauDistributeurLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -276,7 +276,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChantierPonctuel() {
+    public function testSetChantierPonctuel(): void {
 
         $obj = new Chantiers();
 
@@ -289,7 +289,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChefEquipe() {
+    public function testSetChefEquipe(): void {
 
         $obj = new Chantiers();
 
@@ -302,7 +302,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAlpha() {
+    public function testSetCleAlpha(): void {
 
         $obj = new Chantiers();
 
@@ -315,7 +315,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new Chantiers();
 
@@ -328,7 +328,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAgence() {
+    public function testSetCodeAgence(): void {
 
         $obj = new Chantiers();
 
@@ -341,7 +341,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalytique() {
+    public function testSetCodeAnalytique(): void {
 
         $obj = new Chantiers();
 
@@ -354,7 +354,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new Chantiers();
 
@@ -367,7 +367,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Chantiers();
 
@@ -380,7 +380,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCommercial() {
+    public function testSetCodeCommercial(): void {
 
         $obj = new Chantiers();
 
@@ -393,7 +393,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmpInspecteur() {
+    public function testSetCodeEmpInspecteur(): void {
 
         $obj = new Chantiers();
 
@@ -406,7 +406,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFormule() {
+    public function testSetCodeFormule(): void {
 
         $obj = new Chantiers();
 
@@ -419,7 +419,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLivraison() {
+    public function testSetCodeLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -432,7 +432,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePays() {
+    public function testSetCodePays(): void {
 
         $obj = new Chantiers();
 
@@ -445,7 +445,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new Chantiers();
 
@@ -458,7 +458,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostalLivraison() {
+    public function testSetCodePostalLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -471,7 +471,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegMarge() {
+    public function testSetCodeRegMarge(): void {
 
         $obj = new Chantiers();
 
@@ -484,7 +484,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRevision() {
+    public function testSetCodeRevision(): void {
 
         $obj = new Chantiers();
 
@@ -497,7 +497,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new Chantiers();
 
@@ -510,7 +510,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new Chantiers();
 
@@ -523,7 +523,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif() {
+    public function testSetCollectif(): void {
 
         $obj = new Chantiers();
 
@@ -536,7 +536,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommandeIsolee() {
+    public function testSetCommandeIsolee(): void {
 
         $obj = new Chantiers();
 
@@ -549,7 +549,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplement() {
+    public function testSetComplement(): void {
 
         $obj = new Chantiers();
 
@@ -562,7 +562,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComplementLivraison() {
+    public function testSetComplementLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -576,7 +576,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreat() {
+    public function testSetDateCreat(): void {
 
         // Set a Date/time mock.
         $dateCreat = new DateTime("2018-09-10");
@@ -593,7 +593,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -610,7 +610,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEcheanceContrat() {
+    public function testSetDateEcheanceContrat(): void {
 
         // Set a Date/time mock.
         $dateEcheanceContrat = new DateTime("2018-09-10");
@@ -627,7 +627,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFin() {
+    public function testSetDateFin(): void {
 
         // Set a Date/time mock.
         $dateFin = new DateTime("2018-09-10");
@@ -644,7 +644,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -661,7 +661,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRevision() {
+    public function testSetDateRevision(): void {
 
         // Set a Date/time mock.
         $dateRevision = new DateTime("2018-09-10");
@@ -677,7 +677,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescriptif() {
+    public function testSetDescriptif(): void {
 
         $obj = new Chantiers();
 
@@ -691,7 +691,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtAvantDernPrepa() {
+    public function testSetDtAvantDernPrepa(): void {
 
         // Set a Date/time mock.
         $dtAvantDernPrepa = new DateTime("2018-09-10");
@@ -708,7 +708,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDernPrepa() {
+    public function testSetDtDernPrepa(): void {
 
         // Set a Date/time mock.
         $dtDernPrepa = new DateTime("2018-09-10");
@@ -725,7 +725,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactDeb() {
+    public function testSetDtValiditeFactDeb(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactDeb = new DateTime("2018-09-10");
@@ -742,7 +742,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactDebDebMois() {
+    public function testSetDtValiditeFactDebDebMois(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactDebDebMois = new DateTime("2018-09-10");
@@ -759,7 +759,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactFin() {
+    public function testSetDtValiditeFactFin(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactFin = new DateTime("2018-09-10");
@@ -776,7 +776,7 @@ class ChantiersTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtValiditeFactFinFinMois() {
+    public function testSetDtValiditeFactFinFinMois(): void {
 
         // Set a Date/time mock.
         $dtValiditeFactFinFinMois = new DateTime("2018-09-10");
@@ -792,7 +792,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcheanceAnnuelle() {
+    public function testSetEcheanceAnnuelle(): void {
 
         $obj = new Chantiers();
 
@@ -805,7 +805,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactNegoceIsolee() {
+    public function testSetFactNegoceIsolee(): void {
 
         $obj = new Chantiers();
 
@@ -818,7 +818,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureIsolee() {
+    public function testSetFactureIsolee(): void {
 
         $obj = new Chantiers();
 
@@ -831,7 +831,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourFact() {
+    public function testSetJourFact(): void {
 
         $obj = new Chantiers();
 
@@ -844,7 +844,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLatitude() {
+    public function testSetLatitude(): void {
 
         $obj = new Chantiers();
 
@@ -857,7 +857,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLoiChatelSurFacture() {
+    public function testSetLoiChatelSurFacture(): void {
 
         $obj = new Chantiers();
 
@@ -870,7 +870,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLongitude() {
+    public function testSetLongitude(): void {
 
         $obj = new Chantiers();
 
@@ -883,7 +883,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMajStockByDa() {
+    public function testSetMajStockByDa(): void {
 
         $obj = new Chantiers();
 
@@ -896,7 +896,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbControlesPrevus() {
+    public function testSetNbControlesPrevus(): void {
 
         $obj = new Chantiers();
 
@@ -909,7 +909,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbMoisPreavis() {
+    public function testSetNbMoisPreavis(): void {
 
         $obj = new Chantiers();
 
@@ -922,7 +922,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomAdresse() {
+    public function testSetNomAdresse(): void {
 
         $obj = new Chantiers();
 
@@ -935,7 +935,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomChantier() {
+    public function testSetNomChantier(): void {
 
         $obj = new Chantiers();
 
@@ -948,7 +948,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomLivraison() {
+    public function testSetNomLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -961,7 +961,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomResponsable() {
+    public function testSetNomResponsable(): void {
 
         $obj = new Chantiers();
 
@@ -974,7 +974,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuite() {
+    public function testSetNomSuite(): void {
 
         $obj = new Chantiers();
 
@@ -987,7 +987,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomSuiteLivraison() {
+    public function testSetNomSuiteLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -1000,7 +1000,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoie() {
+    public function testSetNomVoie(): void {
 
         $obj = new Chantiers();
 
@@ -1013,7 +1013,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomVoieLivraison() {
+    public function testSetNomVoieLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -1026,7 +1026,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoie() {
+    public function testSetNumVoie(): void {
 
         $obj = new Chantiers();
 
@@ -1039,7 +1039,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumVoieLivraison() {
+    public function testSetNumVoieLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -1052,7 +1052,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new Chantiers();
 
@@ -1065,7 +1065,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlanFact() {
+    public function testSetPlanFact(): void {
 
         $obj = new Chantiers();
 
@@ -1078,7 +1078,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcConsoProduit() {
+    public function testSetPourcConsoProduit(): void {
 
         $obj = new Chantiers();
 
@@ -1091,7 +1091,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcMargePrevis() {
+    public function testSetPourcMargePrevis(): void {
 
         $obj = new Chantiers();
 
@@ -1104,7 +1104,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFacture() {
+    public function testSetReferenceFacture(): void {
 
         $obj = new Chantiers();
 
@@ -1117,7 +1117,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceFacture2() {
+    public function testSetReferenceFacture2(): void {
 
         $obj = new Chantiers();
 
@@ -1130,7 +1130,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRuptDateLivraison() {
+    public function testSetRuptDateLivraison(): void {
 
         $obj = new Chantiers();
 
@@ -1143,7 +1143,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTelephone() {
+    public function testSetTelephone(): void {
 
         $obj = new Chantiers();
 
@@ -1156,7 +1156,7 @@ class ChantiersTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Chantiers();
 

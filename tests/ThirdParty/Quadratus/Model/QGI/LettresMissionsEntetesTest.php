@@ -29,7 +29,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCa() {
+    public function testSetCa(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -42,7 +42,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -55,7 +55,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -68,7 +68,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment1() {
+    public function testSetComment1(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -81,7 +81,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment2() {
+    public function testSetComment2(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -94,7 +94,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment3() {
+    public function testSetComment3(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -107,7 +107,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment4() {
+    public function testSetComment4(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -120,7 +120,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment5() {
+    public function testSetComment5(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -133,7 +133,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment6() {
+    public function testSetComment6(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -146,7 +146,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComment7() {
+    public function testSetComment7(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -160,7 +160,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntretien() {
+    public function testSetDateEntretien(): void {
 
         // Set a Date/time mock.
         $dateEntretien = new DateTime("2018-09-10");
@@ -177,7 +177,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSignature() {
+    public function testSetDateSignature(): void {
 
         // Set a Date/time mock.
         $dateSignature = new DateTime("2018-09-10");
@@ -194,7 +194,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutMission() {
+    public function testSetDebutMission(): void {
 
         // Set a Date/time mock.
         $debutMission = new DateTime("2018-09-10");
@@ -210,7 +210,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -223,7 +223,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExerciceCourant() {
+    public function testSetExerciceCourant(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -237,7 +237,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinMission() {
+    public function testSetFinMission(): void {
 
         // Set a Date/time mock.
         $finMission = new DateTime("2018-09-10");
@@ -253,7 +253,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHonoPrev() {
+    public function testSetHonoPrev(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -266,7 +266,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle1() {
+    public function testSetLibelle1(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -279,7 +279,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle2() {
+    public function testSetLibelle2(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -292,7 +292,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle3() {
+    public function testSetLibelle3(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -305,7 +305,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle4() {
+    public function testSetLibelle4(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -318,7 +318,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle5() {
+    public function testSetLibelle5(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -331,7 +331,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle6() {
+    public function testSetLibelle6(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -344,7 +344,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle7() {
+    public function testSetLibelle7(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -357,7 +357,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbDeplacements() {
+    public function testSetNbDeplacements(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -370,7 +370,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrActes() {
+    public function testSetNbrActes(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -383,7 +383,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrBulletins() {
+    public function testSetNbrBulletins(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -396,7 +396,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrEcrituresBq() {
+    public function testSetNbrEcrituresBq(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -409,7 +409,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrEcrituresDepenses() {
+    public function testSetNbrEcrituresDepenses(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -422,7 +422,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrEcrituresOd() {
+    public function testSetNbrEcrituresOd(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -435,7 +435,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrEcrituresRecettes() {
+    public function testSetNbrEcrituresRecettes(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -448,7 +448,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrEmployes() {
+    public function testSetNbrEmployes(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -461,7 +461,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLettre() {
+    public function testSetNumeroLettre(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -474,7 +474,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice1() {
+    public function testSetPolice1(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -487,7 +487,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice2() {
+    public function testSetPolice2(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -500,7 +500,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPolice3() {
+    public function testSetPolice3(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -513,7 +513,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPremierExercice() {
+    public function testSetPremierExercice(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -526,7 +526,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix1() {
+    public function testSetPrix1(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -539,7 +539,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix2() {
+    public function testSetPrix2(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -552,7 +552,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix3() {
+    public function testSetPrix3(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -565,7 +565,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix4() {
+    public function testSetPrix4(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -578,7 +578,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix5() {
+    public function testSetPrix5(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -591,7 +591,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix6() {
+    public function testSetPrix6(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -604,7 +604,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrix7() {
+    public function testSetPrix7(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -617,7 +617,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeActionnairesAssocies() {
+    public function testSetTypeActionnairesAssocies(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -630,7 +630,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCa() {
+    public function testSetTypeCa(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -643,7 +643,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMission() {
+    public function testSetTypeMission(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -656,7 +656,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSystemeInfo() {
+    public function testSetTypeSystemeInfo(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -669,7 +669,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVolume() {
+    public function testSetTypeVolume(): void {
 
         $obj = new LettresMissionsEntetes();
 
@@ -682,7 +682,7 @@ class LettresMissionsEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LettresMissionsEntetes();
 

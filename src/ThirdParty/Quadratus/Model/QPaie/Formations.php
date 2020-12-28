@@ -24,70 +24,70 @@ class Formations {
     /**
      * Active.
      *
-     * @var bool
+     * @var bool|null
      */
     private $active;
 
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     private $description;
 
     /**
      * Id.
      *
-     * @var string
+     * @var string|null
      */
     private $id;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Lieu.
      *
-     * @var string
+     * @var string|null
      */
     private $lieu;
 
     /**
      * Nb h formation.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHFormation;
 
     /**
-     * Nbh di f pris w.
-     *
-     * @var float
-     */
-    private $nbhDiFPrisW;
-
-    /**
      * Nbh dif pris hors w.
      *
-     * @var float
+     * @var float|null
      */
     private $nbhDifPrisHorsW;
 
     /**
+     * Nbh di f pris w.
+     *
+     * @var float|null
+     */
+    private $nbhDiFPrisW;
+
+    /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $organisme;
 
@@ -108,104 +108,105 @@ class Formations {
     /**
      * Type formation.
      *
-     * @var int
+     * @var int|null
      */
     private $typeFormation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the active.
      *
-     * @return bool Returns the active.
+     * @return bool|null Returns the active.
      */
-    public function getActive() {
+    public function getActive(): ?bool{
         return $this->active;
     }
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string{
         return $this->description;
     }
 
     /**
      * Get the id.
      *
-     * @return string Returns the id.
+     * @return string|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?string{
         return $this->id;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the lieu.
      *
-     * @return string Returns the lieu.
+     * @return string|null Returns the lieu.
      */
-    public function getLieu() {
+    public function getLieu(): ?string{
         return $this->lieu;
     }
 
     /**
      * Get the nb h formation.
      *
-     * @return float Returns the nb h formation.
+     * @return float|null Returns the nb h formation.
      */
-    public function getNbHFormation() {
+    public function getNbHFormation(): ?float{
         return $this->nbHFormation;
-    }
-
-    /**
-     * Get the nbh di f pris w.
-     *
-     * @return float Returns the nbh di f pris w.
-     */
-    public function getNbhDiFPrisW() {
-        return $this->nbhDiFPrisW;
     }
 
     /**
      * Get the nbh dif pris hors w.
      *
-     * @return float Returns the nbh dif pris hors w.
+     * @return float|null Returns the nbh dif pris hors w.
      */
-    public function getNbhDifPrisHorsW() {
+    public function getNbhDifPrisHorsW(): ?float{
         return $this->nbhDifPrisHorsW;
+    }
+
+    /**
+     * Get the nbh di f pris w.
+     *
+     * @return float|null Returns the nbh di f pris w.
+     */
+    public function getNbhDiFPrisW(): ?float{
+        return $this->nbhDiFPrisW;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the organisme.
      *
-     * @return string Returns the organisme.
+     * @return string|null Returns the organisme.
      */
-    public function getOrganisme() {
+    public function getOrganisme(): ?string{
         return $this->organisme;
     }
 
@@ -214,7 +215,7 @@ class Formations {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -223,26 +224,26 @@ class Formations {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the type formation.
      *
-     * @return int Returns the type formation.
+     * @return int|null Returns the type formation.
      */
-    public function getTypeFormation() {
+    public function getTypeFormation(): ?int{
         return $this->typeFormation;
     }
 
     /**
      * Set the active.
      *
-     * @param bool $active The active.
+     * @param bool|null $active The active.
      * @return Formations Returns this Formations.
      */
-    public function setActive($active) {
+    public function setActive(?bool $active): Formations {
         $this->active = $active;
         return $this;
     }
@@ -250,10 +251,10 @@ class Formations {
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      * @return Formations Returns this Formations.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description): Formations {
         $this->description = $description;
         return $this;
     }
@@ -261,10 +262,10 @@ class Formations {
     /**
      * Set the id.
      *
-     * @param string $id The id.
+     * @param string|null $id The id.
      * @return Formations Returns this Formations.
      */
-    public function setId($id) {
+    public function setId(?string $id): Formations {
         $this->id = $id;
         return $this;
     }
@@ -272,10 +273,10 @@ class Formations {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return Formations Returns this Formations.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): Formations {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -283,10 +284,10 @@ class Formations {
     /**
      * Set the lieu.
      *
-     * @param string $lieu The lieu.
+     * @param string|null $lieu The lieu.
      * @return Formations Returns this Formations.
      */
-    public function setLieu($lieu) {
+    public function setLieu(?string $lieu): Formations {
         $this->lieu = $lieu;
         return $this;
     }
@@ -294,43 +295,43 @@ class Formations {
     /**
      * Set the nb h formation.
      *
-     * @param float $nbHFormation The nb h formation.
+     * @param float|null $nbHFormation The nb h formation.
      * @return Formations Returns this Formations.
      */
-    public function setNbHFormation($nbHFormation) {
+    public function setNbHFormation(?float $nbHFormation): Formations {
         $this->nbHFormation = $nbHFormation;
-        return $this;
-    }
-
-    /**
-     * Set the nbh di f pris w.
-     *
-     * @param float $nbhDiFPrisW The nbh di f pris w.
-     * @return Formations Returns this Formations.
-     */
-    public function setNbhDiFPrisW($nbhDiFPrisW) {
-        $this->nbhDiFPrisW = $nbhDiFPrisW;
         return $this;
     }
 
     /**
      * Set the nbh dif pris hors w.
      *
-     * @param float $nbhDifPrisHorsW The nbh dif pris hors w.
+     * @param float|null $nbhDifPrisHorsW The nbh dif pris hors w.
      * @return Formations Returns this Formations.
      */
-    public function setNbhDifPrisHorsW($nbhDifPrisHorsW) {
+    public function setNbhDifPrisHorsW(?float $nbhDifPrisHorsW): Formations {
         $this->nbhDifPrisHorsW = $nbhDifPrisHorsW;
+        return $this;
+    }
+
+    /**
+     * Set the nbh di f pris w.
+     *
+     * @param float|null $nbhDiFPrisW The nbh di f pris w.
+     * @return Formations Returns this Formations.
+     */
+    public function setNbhDiFPrisW(?float $nbhDiFPrisW): Formations {
+        $this->nbhDiFPrisW = $nbhDiFPrisW;
         return $this;
     }
 
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return Formations Returns this Formations.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): Formations {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -338,10 +339,10 @@ class Formations {
     /**
      * Set the organisme.
      *
-     * @param string $organisme The organisme.
+     * @param string|null $organisme The organisme.
      * @return Formations Returns this Formations.
      */
-    public function setOrganisme($organisme) {
+    public function setOrganisme(?string $organisme): Formations {
         $this->organisme = $organisme;
         return $this;
     }
@@ -352,7 +353,7 @@ class Formations {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return Formations Returns this Formations.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): Formations {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -363,7 +364,7 @@ class Formations {
      * @param DateTime|null $periodeFin The periode fin.
      * @return Formations Returns this Formations.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): Formations {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -371,10 +372,10 @@ class Formations {
     /**
      * Set the type formation.
      *
-     * @param int $typeFormation The type formation.
+     * @param int|null $typeFormation The type formation.
      * @return Formations Returns this Formations.
      */
-    public function setTypeFormation($typeFormation) {
+    public function setTypeFormation(?int $typeFormation): Formations {
         $this->typeFormation = $typeFormation;
         return $this;
     }

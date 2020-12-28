@@ -24,28 +24,28 @@ class AffaireSuivi {
     /**
      * Avancement.
      *
-     * @var float
+     * @var float|null
      */
     private $avancement;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code phase.
      *
-     * @var string
+     * @var string|null
      */
     private $codePhase;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -59,14 +59,14 @@ class AffaireSuivi {
     /**
      * Liste collab.
      *
-     * @var string
+     * @var string|null
      */
     private $listeCollab;
 
     /**
      * Nb heures previsionnel.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeuresPrevisionnel;
 
@@ -74,42 +74,42 @@ class AffaireSuivi {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the avancement.
      *
-     * @return float Returns the avancement.
+     * @return float|null Returns the avancement.
      */
-    public function getAvancement() {
+    public function getAvancement(): ?float {
         return $this->avancement;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
     /**
      * Get the code phase.
      *
-     * @return string Returns the code phase.
+     * @return string|null Returns the code phase.
      */
-    public function getCodePhase() {
+    public function getCodePhase(): ?string {
         return $this->codePhase;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -118,35 +118,35 @@ class AffaireSuivi {
      *
      * @return DateTime|null Returns the date bilan.
      */
-    public function getDateBilan() {
+    public function getDateBilan(): ?DateTime {
         return $this->dateBilan;
     }
 
     /**
      * Get the liste collab.
      *
-     * @return string Returns the liste collab.
+     * @return string|null Returns the liste collab.
      */
-    public function getListeCollab() {
+    public function getListeCollab(): ?string {
         return $this->listeCollab;
     }
 
     /**
      * Get the nb heures previsionnel.
      *
-     * @return float Returns the nb heures previsionnel.
+     * @return float|null Returns the nb heures previsionnel.
      */
-    public function getNbHeuresPrevisionnel() {
+    public function getNbHeuresPrevisionnel(): ?float {
         return $this->nbHeuresPrevisionnel;
     }
 
     /**
      * Set the avancement.
      *
-     * @param float $avancement The avancement.
+     * @param float|null $avancement The avancement.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setAvancement($avancement) {
+    public function setAvancement(?float $avancement): AffaireSuivi {
         $this->avancement = $avancement;
         return $this;
     }
@@ -154,10 +154,10 @@ class AffaireSuivi {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): AffaireSuivi {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -165,10 +165,10 @@ class AffaireSuivi {
     /**
      * Set the code phase.
      *
-     * @param string $codePhase The code phase.
+     * @param string|null $codePhase The code phase.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setCodePhase($codePhase) {
+    public function setCodePhase(?string $codePhase): AffaireSuivi {
         $this->codePhase = $codePhase;
         return $this;
     }
@@ -176,10 +176,10 @@ class AffaireSuivi {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): AffaireSuivi {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -190,7 +190,7 @@ class AffaireSuivi {
      * @param DateTime|null $dateBilan The date bilan.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setDateBilan(DateTime $dateBilan = null) {
+    public function setDateBilan(?DateTime $dateBilan): AffaireSuivi {
         $this->dateBilan = $dateBilan;
         return $this;
     }
@@ -198,10 +198,10 @@ class AffaireSuivi {
     /**
      * Set the liste collab.
      *
-     * @param string $listeCollab The liste collab.
+     * @param string|null $listeCollab The liste collab.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setListeCollab($listeCollab) {
+    public function setListeCollab(?string $listeCollab): AffaireSuivi {
         $this->listeCollab = $listeCollab;
         return $this;
     }
@@ -209,10 +209,10 @@ class AffaireSuivi {
     /**
      * Set the nb heures previsionnel.
      *
-     * @param float $nbHeuresPrevisionnel The nb heures previsionnel.
+     * @param float|null $nbHeuresPrevisionnel The nb heures previsionnel.
      * @return AffaireSuivi Returns this Affaire suivi.
      */
-    public function setNbHeuresPrevisionnel($nbHeuresPrevisionnel) {
+    public function setNbHeuresPrevisionnel(?float $nbHeuresPrevisionnel): AffaireSuivi {
         $this->nbHeuresPrevisionnel = $nbHeuresPrevisionnel;
         return $this;
     }

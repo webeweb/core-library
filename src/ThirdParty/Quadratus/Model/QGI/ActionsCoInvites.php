@@ -24,21 +24,21 @@ class ActionsCoInvites {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code coll.
      *
-     * @var string
+     * @var string|null
      */
     private $codeColl;
 
@@ -52,69 +52,70 @@ class ActionsCoInvites {
     /**
      * Nom interlocuteur.
      *
-     * @var string
+     * @var string|null
      */
     private $nomInterlocuteur;
 
     /**
      * Num interlocuteur.
      *
-     * @var int
+     * @var int|null
      */
     private $numInterlocuteur;
 
     /**
      * Retour neg.
      *
-     * @var bool
+     * @var bool|null
      */
     private $retourNeg;
 
     /**
      * Type invitation.
      *
-     * @var int
+     * @var int|null
      */
     private $typeInvitation;
 
     /**
      * Type invite.
      *
-     * @var string
+     * @var string|null
      */
     private $typeInvite;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string{
         return $this->codeAction;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code coll.
      *
-     * @return string Returns the code coll.
+     * @return string|null Returns the code coll.
      */
-    public function getCodeColl() {
+    public function getCodeColl(): ?string{
         return $this->codeColl;
     }
 
@@ -123,62 +124,62 @@ class ActionsCoInvites {
      *
      * @return DateTime|null Returns the date ajout.
      */
-    public function getDateAjout() {
+    public function getDateAjout(): ?DateTime{
         return $this->dateAjout;
     }
 
     /**
      * Get the nom interlocuteur.
      *
-     * @return string Returns the nom interlocuteur.
+     * @return string|null Returns the nom interlocuteur.
      */
-    public function getNomInterlocuteur() {
+    public function getNomInterlocuteur(): ?string{
         return $this->nomInterlocuteur;
     }
 
     /**
      * Get the num interlocuteur.
      *
-     * @return int Returns the num interlocuteur.
+     * @return int|null Returns the num interlocuteur.
      */
-    public function getNumInterlocuteur() {
+    public function getNumInterlocuteur(): ?int{
         return $this->numInterlocuteur;
     }
 
     /**
      * Get the retour neg.
      *
-     * @return bool Returns the retour neg.
+     * @return bool|null Returns the retour neg.
      */
-    public function getRetourNeg() {
+    public function getRetourNeg(): ?bool{
         return $this->retourNeg;
     }
 
     /**
      * Get the type invitation.
      *
-     * @return int Returns the type invitation.
+     * @return int|null Returns the type invitation.
      */
-    public function getTypeInvitation() {
+    public function getTypeInvitation(): ?int{
         return $this->typeInvitation;
     }
 
     /**
      * Get the type invite.
      *
-     * @return string Returns the type invite.
+     * @return string|null Returns the type invite.
      */
-    public function getTypeInvite() {
+    public function getTypeInvite(): ?string{
         return $this->typeInvite;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ActionsCoInvites {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -186,10 +187,10 @@ class ActionsCoInvites {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): ActionsCoInvites {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -197,10 +198,10 @@ class ActionsCoInvites {
     /**
      * Set the code coll.
      *
-     * @param string $codeColl The code coll.
+     * @param string|null $codeColl The code coll.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setCodeColl($codeColl) {
+    public function setCodeColl(?string $codeColl): ActionsCoInvites {
         $this->codeColl = $codeColl;
         return $this;
     }
@@ -211,7 +212,7 @@ class ActionsCoInvites {
      * @param DateTime|null $dateAjout The date ajout.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setDateAjout(DateTime $dateAjout = null) {
+    public function setDateAjout(?DateTime $dateAjout): ActionsCoInvites {
         $this->dateAjout = $dateAjout;
         return $this;
     }
@@ -219,10 +220,10 @@ class ActionsCoInvites {
     /**
      * Set the nom interlocuteur.
      *
-     * @param string $nomInterlocuteur The nom interlocuteur.
+     * @param string|null $nomInterlocuteur The nom interlocuteur.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setNomInterlocuteur($nomInterlocuteur) {
+    public function setNomInterlocuteur(?string $nomInterlocuteur): ActionsCoInvites {
         $this->nomInterlocuteur = $nomInterlocuteur;
         return $this;
     }
@@ -230,10 +231,10 @@ class ActionsCoInvites {
     /**
      * Set the num interlocuteur.
      *
-     * @param int $numInterlocuteur The num interlocuteur.
+     * @param int|null $numInterlocuteur The num interlocuteur.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setNumInterlocuteur($numInterlocuteur) {
+    public function setNumInterlocuteur(?int $numInterlocuteur): ActionsCoInvites {
         $this->numInterlocuteur = $numInterlocuteur;
         return $this;
     }
@@ -241,10 +242,10 @@ class ActionsCoInvites {
     /**
      * Set the retour neg.
      *
-     * @param bool $retourNeg The retour neg.
+     * @param bool|null $retourNeg The retour neg.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setRetourNeg($retourNeg) {
+    public function setRetourNeg(?bool $retourNeg): ActionsCoInvites {
         $this->retourNeg = $retourNeg;
         return $this;
     }
@@ -252,10 +253,10 @@ class ActionsCoInvites {
     /**
      * Set the type invitation.
      *
-     * @param int $typeInvitation The type invitation.
+     * @param int|null $typeInvitation The type invitation.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setTypeInvitation($typeInvitation) {
+    public function setTypeInvitation(?int $typeInvitation): ActionsCoInvites {
         $this->typeInvitation = $typeInvitation;
         return $this;
     }
@@ -263,10 +264,10 @@ class ActionsCoInvites {
     /**
      * Set the type invite.
      *
-     * @param string $typeInvite The type invite.
+     * @param string|null $typeInvite The type invite.
      * @return ActionsCoInvites Returns this Actions co invites.
      */
-    public function setTypeInvite($typeInvite) {
+    public function setTypeInvite(?string $typeInvite): ActionsCoInvites {
         $this->typeInvite = $typeInvite;
         return $this;
     }

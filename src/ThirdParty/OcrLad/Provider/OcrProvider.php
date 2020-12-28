@@ -45,21 +45,21 @@ class OcrProvider extends AbstractProvider {
     /**
      * Local directory "after".
      *
-     * @var string
+     * @var string|null
      */
     private $localDirectoryAfter;
 
     /**
      * Local directory "before".
      *
-     * @var string
+     * @var string|null
      */
     private $localDirectoryBefore;
 
     /**
      * Local directory "error".
      *
-     * @var string
+     * @var string|null
      */
     private $localDirectoryError;
 
@@ -117,7 +117,7 @@ class OcrProvider extends AbstractProvider {
      * @param IOFile $file The file.
      * @return array Returns the file paths.
      */
-    protected function buildFilePaths(IOFile $file) {
+    protected function buildFilePaths(IOFile $file): array {
         return [
             "upload" => implode("/", [$this->getRemoteDirectoryBefore(), $file->getUniqFilenamePdf()]),
             "remote" => [
@@ -142,7 +142,7 @@ class OcrProvider extends AbstractProvider {
      * @return void
      * @throws FtpException Throws an FTP exception if an error occurs.
      */
-    public function deleteFiles(IOFile $file) {
+    public function deleteFiles(IOFile $file): void {
 
         $provider = $this;
 
@@ -153,7 +153,7 @@ class OcrProvider extends AbstractProvider {
          * @return void
          * @var Closure
          */
-        $deleteClosure = function($directory) use ($provider, $file) {
+        $deleteClosure = function(string $directory) use ($provider, $file): void {
 
             $paths = $provider->buildFilePaths($file);
 
@@ -182,7 +182,7 @@ class OcrProvider extends AbstractProvider {
      * @return bool Returns true in case of success, false otherwise.
      * @throws FtpException Throws an FTP exception if an error occurs.
      */
-    public function downloadFiles(IOFile $file) {
+    public function downloadFiles(IOFile $file): bool {
 
         $paths = $this->buildFilePaths($file);
 
@@ -220,7 +220,7 @@ class OcrProvider extends AbstractProvider {
      * @return FtpClient Returns the FTP client.
      * @throws FtpException Throws an FTP exception if an error occurs.
      */
-    public function getFtpClient() {
+    public function getFtpClient(): FtpClient {
 
         if (null === $this->ftpClient) {
 
@@ -245,27 +245,27 @@ class OcrProvider extends AbstractProvider {
     /**
      * Get the local directory "after".
      *
-     * @return string Returns the local directory "after".
+     * @return string|null Returns the local directory "after".
      */
-    public function getLocalDirectoryAfter() {
+    public function getLocalDirectoryAfter(): ?string {
         return $this->localDirectoryAfter;
     }
 
     /**
      * Get the local directory "before".
      *
-     * @return string Returns the local directory "before"
+     * @return string|null Returns the local directory "before"
      */
-    public function getLocalDirectoryBefore() {
+    public function getLocalDirectoryBefore(): ?string {
         return $this->localDirectoryBefore;
     }
 
     /**
      * Get the local directory "error".
      *
-     * @return string Returns the local directory "error".
+     * @return string|null Returns the local directory "error".
      */
-    public function getLocalDirectoryError() {
+    public function getLocalDirectoryError(): ?string {
         return $this->localDirectoryError;
     }
 
@@ -274,7 +274,7 @@ class OcrProvider extends AbstractProvider {
      *
      * @return string Returns the remote directory "after".
      */
-    public function getRemoteDirectoryAfter() {
+    public function getRemoteDirectoryAfter(): string {
         return $this->remoteDirectoryAfter;
     }
 
@@ -283,7 +283,7 @@ class OcrProvider extends AbstractProvider {
      *
      * @return string Returns the remote directory "before".
      */
-    public function getRemoteDirectoryBefore() {
+    public function getRemoteDirectoryBefore(): string {
         return $this->remoteDirectoryBefore;
     }
 
@@ -292,7 +292,7 @@ class OcrProvider extends AbstractProvider {
      *
      * @return string Returns the remote directory "error".
      */
-    public function getRemoteDirectoryError() {
+    public function getRemoteDirectoryError(): string {
         return $this->remoteDirectoryError;
     }
 
@@ -305,7 +305,7 @@ class OcrProvider extends AbstractProvider {
      * @return bool Returns true in case of success, false otherwise.
      * @throws FtpException Throws an FTP exception in case of success, false otherwise.
      */
-    public function scanFile(IOFile $file, $retry = 30, $wait = 5) {
+    public function scanFile(IOFile $file, int $retry = 30, int $wait = 5): bool {
 
         $paths = $this->buildFilePaths($file);
 
@@ -336,10 +336,10 @@ class OcrProvider extends AbstractProvider {
     /**
      * Set the local directory "after".
      *
-     * @param string $localDirectoryAfter The local directory "after".
+     * @param string|null $localDirectoryAfter The local directory "after".
      * @return OcrProvider Returns this OCR provider.
      */
-    public function setLocalDirectoryAfter($localDirectoryAfter) {
+    public function setLocalDirectoryAfter(?string $localDirectoryAfter): OcrProvider {
         $this->localDirectoryAfter = $localDirectoryAfter;
         return $this;
     }
@@ -358,10 +358,10 @@ class OcrProvider extends AbstractProvider {
     /**
      * Set the local directory "error".
      *
-     * @param string $localDirectoryError The local directory "error".
+     * @param string|null $localDirectoryError The local directory "error".
      * @return OcrProvider Returns this OCR provider.
      */
-    public function setLocalDirectoryError($localDirectoryError) {
+    public function setLocalDirectoryError(?string $localDirectoryError): OcrProvider {
         $this->localDirectoryError = $localDirectoryError;
         return $this;
     }
@@ -372,7 +372,7 @@ class OcrProvider extends AbstractProvider {
      * @param string $remoteDirectoryAfter The remote directory "after".
      * @return OcrProvider Returns this OCR provider.
      */
-    public function setRemoteDirectoryAfter($remoteDirectoryAfter) {
+    public function setRemoteDirectoryAfter(string $remoteDirectoryAfter): OcrProvider {
         $this->remoteDirectoryAfter = $remoteDirectoryAfter;
         return $this;
     }
@@ -383,7 +383,7 @@ class OcrProvider extends AbstractProvider {
      * @param string $remoteDirectoryBefore The remote directory "before".
      * @return OcrProvider Returns this OCR provider.
      */
-    public function setRemoteDirectoryBefore($remoteDirectoryBefore) {
+    public function setRemoteDirectoryBefore(string $remoteDirectoryBefore): OcrProvider {
         $this->remoteDirectoryBefore = $remoteDirectoryBefore;
         return $this;
     }
@@ -394,7 +394,7 @@ class OcrProvider extends AbstractProvider {
      * @param string $remoteDirectoryError The remote directory "error".
      * @return OcrProvider Returns this OCR provider.
      */
-    public function setRemoteDirectoryError($remoteDirectoryError) {
+    public function setRemoteDirectoryError(string $remoteDirectoryError): OcrProvider {
         $this->remoteDirectoryError = $remoteDirectoryError;
         return $this;
     }
@@ -406,7 +406,7 @@ class OcrProvider extends AbstractProvider {
      * @return void
      * @throws FtpException Throws an FTP exception if an error occurs.
      */
-    public function uploadFile(IOFile $file) {
+    public function uploadFile(IOFile $file): void {
 
         $paths = $this->buildFilePaths($file);
 

@@ -24,7 +24,7 @@ class JoursFeries {
     /**
      * Code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $codePays;
 
@@ -39,15 +39,15 @@ class JoursFeries {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code pays.
      *
-     * @return string Returns the code pays.
+     * @return string|null Returns the code pays.
      */
-    public function getCodePays() {
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -56,17 +56,17 @@ class JoursFeries {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour() {
+    public function getJour(): ?DateTime {
         return $this->jour;
     }
 
     /**
      * Set the code pays.
      *
-     * @param string $codePays The code pays.
+     * @param string|null $codePays The code pays.
      * @return JoursFeries Returns this Jours feries.
      */
-    public function setCodePays($codePays) {
+    public function setCodePays(?string $codePays): JoursFeries {
         $this->codePays = $codePays;
         return $this;
     }
@@ -77,7 +77,7 @@ class JoursFeries {
      * @param DateTime|null $jour The jour.
      * @return JoursFeries Returns this Jours feries.
      */
-    public function setJour(DateTime $jour = null) {
+    public function setJour(?DateTime $jour): JoursFeries {
         $this->jour = $jour;
         return $this;
     }

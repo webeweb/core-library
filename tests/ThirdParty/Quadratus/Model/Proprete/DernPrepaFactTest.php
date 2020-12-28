@@ -29,7 +29,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DernPrepaFact();
 
@@ -42,7 +42,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DernPrepaFact();
 
@@ -55,7 +55,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DernPrepaFact();
 
@@ -68,7 +68,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new DernPrepaFact();
 
@@ -82,7 +82,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtPrepa() {
+    public function testSetDtPrepa(): void {
 
         // Set a Date/time mock.
         $dtPrepa = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoChronoPreparation() {
+    public function testSetNoChronoPreparation(): void {
 
         $obj = new DernPrepaFact();
 
@@ -112,7 +112,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class DernPrepaFactTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DernPrepaFact();
 

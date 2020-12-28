@@ -27,7 +27,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChapitre() {
+    public function testSetChapitre(): void {
 
         $obj = new ClientsLstPersoIndiceCollab();
 
@@ -40,7 +40,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new ClientsLstPersoIndiceCollab();
 
@@ -53,7 +53,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new ClientsLstPersoIndiceCollab();
 
@@ -66,7 +66,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigine() {
+    public function testSetOrigine(): void {
 
         $obj = new ClientsLstPersoIndiceCollab();
 
@@ -79,7 +79,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefGuid() {
+    public function testSetRefGuid(): void {
 
         $obj = new ClientsLstPersoIndiceCollab();
 
@@ -92,7 +92,7 @@ class ClientsLstPersoIndiceCollabTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsLstPersoIndiceCollab();
 

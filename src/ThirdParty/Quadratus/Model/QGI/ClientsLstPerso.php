@@ -24,21 +24,21 @@ class ClientsLstPerso {
     /**
      * Chapitre.
      *
-     * @var string
+     * @var string|null
      */
     private $chapitre;
 
     /**
      * Coll creat.
      *
-     * @var string
+     * @var string|null
      */
     private $collCreat;
 
     /**
      * Coll modif.
      *
-     * @var string
+     * @var string|null
      */
     private $collModif;
 
@@ -59,42 +59,42 @@ class ClientsLstPerso {
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     private $description;
 
     /**
      * G uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $gUniqId;
 
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Lst collab.
      *
-     * @var string
+     * @var string|null
      */
     private $lstCollab;
 
     /**
      * Option visu.
      *
-     * @var string
+     * @var string|null
      */
     private $optionVisu;
 
     /**
      * Origine.
      *
-     * @var int
+     * @var int|null
      */
     private $origine;
 
@@ -115,48 +115,49 @@ class ClientsLstPerso {
     /**
      * Type saisie.
      *
-     * @var bool
+     * @var bool|null
      */
     private $typeSaisie;
 
     /**
      * Type sel.
      *
-     * @var string
+     * @var string|null
      */
     private $typeSel;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chapitre.
      *
-     * @return string Returns the chapitre.
+     * @return string|null Returns the chapitre.
      */
-    public function getChapitre() {
+    public function getChapitre(): ?string{
         return $this->chapitre;
     }
 
     /**
      * Get the coll creat.
      *
-     * @return string Returns the coll creat.
+     * @return string|null Returns the coll creat.
      */
-    public function getCollCreat() {
+    public function getCollCreat(): ?string{
         return $this->collCreat;
     }
 
     /**
      * Get the coll modif.
      *
-     * @return string Returns the coll modif.
+     * @return string|null Returns the coll modif.
      */
-    public function getCollModif() {
+    public function getCollModif(): ?string{
         return $this->collModif;
     }
 
@@ -165,7 +166,7 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat() {
+    public function getDateCreat(): ?DateTime{
         return $this->dateCreat;
     }
 
@@ -174,61 +175,61 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string{
         return $this->description;
     }
 
     /**
      * Get the g uniq id.
      *
-     * @return string Returns the g uniq id.
+     * @return string|null Returns the g uniq id.
      */
-    public function getGUniqId() {
+    public function getGUniqId(): ?string{
         return $this->gUniqId;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the lst collab.
      *
-     * @return string Returns the lst collab.
+     * @return string|null Returns the lst collab.
      */
-    public function getLstCollab() {
+    public function getLstCollab(): ?string{
         return $this->lstCollab;
     }
 
     /**
      * Get the option visu.
      *
-     * @return string Returns the option visu.
+     * @return string|null Returns the option visu.
      */
-    public function getOptionVisu() {
+    public function getOptionVisu(): ?string{
         return $this->optionVisu;
     }
 
     /**
      * Get the origine.
      *
-     * @return int Returns the origine.
+     * @return int|null Returns the origine.
      */
-    public function getOrigine() {
+    public function getOrigine(): ?int{
         return $this->origine;
     }
 
@@ -237,7 +238,7 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -246,35 +247,35 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the type saisie.
      *
-     * @return bool Returns the type saisie.
+     * @return bool|null Returns the type saisie.
      */
-    public function getTypeSaisie() {
+    public function getTypeSaisie(): ?bool{
         return $this->typeSaisie;
     }
 
     /**
      * Get the type sel.
      *
-     * @return string Returns the type sel.
+     * @return string|null Returns the type sel.
      */
-    public function getTypeSel() {
+    public function getTypeSel(): ?string{
         return $this->typeSel;
     }
 
     /**
      * Set the chapitre.
      *
-     * @param string $chapitre The chapitre.
+     * @param string|null $chapitre The chapitre.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setChapitre($chapitre) {
+    public function setChapitre(?string $chapitre): ClientsLstPerso {
         $this->chapitre = $chapitre;
         return $this;
     }
@@ -282,10 +283,10 @@ class ClientsLstPerso {
     /**
      * Set the coll creat.
      *
-     * @param string $collCreat The coll creat.
+     * @param string|null $collCreat The coll creat.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setCollCreat($collCreat) {
+    public function setCollCreat(?string $collCreat): ClientsLstPerso {
         $this->collCreat = $collCreat;
         return $this;
     }
@@ -293,10 +294,10 @@ class ClientsLstPerso {
     /**
      * Set the coll modif.
      *
-     * @param string $collModif The coll modif.
+     * @param string|null $collModif The coll modif.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setCollModif($collModif) {
+    public function setCollModif(?string $collModif): ClientsLstPerso {
         $this->collModif = $collModif;
         return $this;
     }
@@ -307,7 +308,7 @@ class ClientsLstPerso {
      * @param DateTime|null $dateCreat The date creat.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setDateCreat(DateTime $dateCreat = null) {
+    public function setDateCreat(?DateTime $dateCreat): ClientsLstPerso {
         $this->dateCreat = $dateCreat;
         return $this;
     }
@@ -318,7 +319,7 @@ class ClientsLstPerso {
      * @param DateTime|null $dateModif The date modif.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): ClientsLstPerso {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -326,10 +327,10 @@ class ClientsLstPerso {
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description): ClientsLstPerso {
         $this->description = $description;
         return $this;
     }
@@ -337,10 +338,10 @@ class ClientsLstPerso {
     /**
      * Set the g uniq id.
      *
-     * @param string $gUniqId The g uniq id.
+     * @param string|null $gUniqId The g uniq id.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setGUniqId($gUniqId) {
+    public function setGUniqId(?string $gUniqId): ClientsLstPerso {
         $this->gUniqId = $gUniqId;
         return $this;
     }
@@ -348,10 +349,10 @@ class ClientsLstPerso {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): ClientsLstPerso {
         $this->indice = $indice;
         return $this;
     }
@@ -359,10 +360,10 @@ class ClientsLstPerso {
     /**
      * Set the lst collab.
      *
-     * @param string $lstCollab The lst collab.
+     * @param string|null $lstCollab The lst collab.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setLstCollab($lstCollab) {
+    public function setLstCollab(?string $lstCollab): ClientsLstPerso {
         $this->lstCollab = $lstCollab;
         return $this;
     }
@@ -370,10 +371,10 @@ class ClientsLstPerso {
     /**
      * Set the option visu.
      *
-     * @param string $optionVisu The option visu.
+     * @param string|null $optionVisu The option visu.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setOptionVisu($optionVisu) {
+    public function setOptionVisu(?string $optionVisu): ClientsLstPerso {
         $this->optionVisu = $optionVisu;
         return $this;
     }
@@ -381,10 +382,10 @@ class ClientsLstPerso {
     /**
      * Set the origine.
      *
-     * @param int $origine The origine.
+     * @param int|null $origine The origine.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setOrigine($origine) {
+    public function setOrigine(?int $origine): ClientsLstPerso {
         $this->origine = $origine;
         return $this;
     }
@@ -395,7 +396,7 @@ class ClientsLstPerso {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): ClientsLstPerso {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -406,7 +407,7 @@ class ClientsLstPerso {
      * @param DateTime|null $periodeFin The periode fin.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): ClientsLstPerso {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -414,10 +415,10 @@ class ClientsLstPerso {
     /**
      * Set the type saisie.
      *
-     * @param bool $typeSaisie The type saisie.
+     * @param bool|null $typeSaisie The type saisie.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setTypeSaisie($typeSaisie) {
+    public function setTypeSaisie(?bool $typeSaisie): ClientsLstPerso {
         $this->typeSaisie = $typeSaisie;
         return $this;
     }
@@ -425,10 +426,10 @@ class ClientsLstPerso {
     /**
      * Set the type sel.
      *
-     * @param string $typeSel The type sel.
+     * @param string|null $typeSel The type sel.
      * @return ClientsLstPerso Returns this Clients lst perso.
      */
-    public function setTypeSel($typeSel) {
+    public function setTypeSel(?string $typeSel): ClientsLstPerso {
         $this->typeSel = $typeSel;
         return $this;
     }

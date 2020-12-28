@@ -22,225 +22,226 @@ class StatsPersoSuiviClientCols {
     /**
      * An n.
      *
-     * @var string
+     * @var string|null
      */
     private $anN;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Regle autres.
      *
-     * @var string
+     * @var string|null
      */
     private $regleAutres;
 
     /**
      * Regle barn.
      *
-     * @var string
+     * @var string|null
      */
     private $regleBarn;
 
     /**
      * Regle bars.
      *
-     * @var string
+     * @var string|null
      */
     private $regleBars;
 
     /**
      * Regle bicrn.
      *
-     * @var string
+     * @var string|null
      */
     private $regleBicrn;
 
     /**
      * Regle bicrs.
      *
-     * @var string
+     * @var string|null
      */
     private $regleBicrs;
 
     /**
      * Regle bnc.
      *
-     * @var string
+     * @var string|null
      */
     private $regleBnc;
 
     /**
      * Regle sci.
      *
-     * @var string
+     * @var string|null
      */
     private $regleSci;
 
     /**
      * Regle scm.
      *
-     * @var string
+     * @var string|null
      */
     private $regleScm;
 
     /**
      * Regle tous.
      *
-     * @var string
+     * @var string|null
      */
     private $regleTous;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the an n.
      *
-     * @return string Returns the an n.
+     * @return string|null Returns the an n.
      */
-    public function getAnN() {
+    public function getAnN(): ?string{
         return $this->anN;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the regle autres.
      *
-     * @return string Returns the regle autres.
+     * @return string|null Returns the regle autres.
      */
-    public function getRegleAutres() {
+    public function getRegleAutres(): ?string{
         return $this->regleAutres;
     }
 
     /**
      * Get the regle barn.
      *
-     * @return string Returns the regle barn.
+     * @return string|null Returns the regle barn.
      */
-    public function getRegleBarn() {
+    public function getRegleBarn(): ?string{
         return $this->regleBarn;
     }
 
     /**
      * Get the regle bars.
      *
-     * @return string Returns the regle bars.
+     * @return string|null Returns the regle bars.
      */
-    public function getRegleBars() {
+    public function getRegleBars(): ?string{
         return $this->regleBars;
     }
 
     /**
      * Get the regle bicrn.
      *
-     * @return string Returns the regle bicrn.
+     * @return string|null Returns the regle bicrn.
      */
-    public function getRegleBicrn() {
+    public function getRegleBicrn(): ?string{
         return $this->regleBicrn;
     }
 
     /**
      * Get the regle bicrs.
      *
-     * @return string Returns the regle bicrs.
+     * @return string|null Returns the regle bicrs.
      */
-    public function getRegleBicrs() {
+    public function getRegleBicrs(): ?string{
         return $this->regleBicrs;
     }
 
     /**
      * Get the regle bnc.
      *
-     * @return string Returns the regle bnc.
+     * @return string|null Returns the regle bnc.
      */
-    public function getRegleBnc() {
+    public function getRegleBnc(): ?string{
         return $this->regleBnc;
     }
 
     /**
      * Get the regle sci.
      *
-     * @return string Returns the regle sci.
+     * @return string|null Returns the regle sci.
      */
-    public function getRegleSci() {
+    public function getRegleSci(): ?string{
         return $this->regleSci;
     }
 
     /**
      * Get the regle scm.
      *
-     * @return string Returns the regle scm.
+     * @return string|null Returns the regle scm.
      */
-    public function getRegleScm() {
+    public function getRegleScm(): ?string{
         return $this->regleScm;
     }
 
     /**
      * Get the regle tous.
      *
-     * @return string Returns the regle tous.
+     * @return string|null Returns the regle tous.
      */
-    public function getRegleTous() {
+    public function getRegleTous(): ?string{
         return $this->regleTous;
     }
 
     /**
      * Set the an n.
      *
-     * @param string $anN The an n.
+     * @param string|null $anN The an n.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setAnN($anN) {
+    public function setAnN(?string $anN): StatsPersoSuiviClientCols {
         $this->anN = $anN;
         return $this;
     }
@@ -248,10 +249,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): StatsPersoSuiviClientCols {
         $this->code = $code;
         return $this;
     }
@@ -259,10 +260,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): StatsPersoSuiviClientCols {
         $this->indice = $indice;
         return $this;
     }
@@ -270,10 +271,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): StatsPersoSuiviClientCols {
         $this->intitule = $intitule;
         return $this;
     }
@@ -281,10 +282,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle autres.
      *
-     * @param string $regleAutres The regle autres.
+     * @param string|null $regleAutres The regle autres.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleAutres($regleAutres) {
+    public function setRegleAutres(?string $regleAutres): StatsPersoSuiviClientCols {
         $this->regleAutres = $regleAutres;
         return $this;
     }
@@ -292,10 +293,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle barn.
      *
-     * @param string $regleBarn The regle barn.
+     * @param string|null $regleBarn The regle barn.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleBarn($regleBarn) {
+    public function setRegleBarn(?string $regleBarn): StatsPersoSuiviClientCols {
         $this->regleBarn = $regleBarn;
         return $this;
     }
@@ -303,10 +304,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle bars.
      *
-     * @param string $regleBars The regle bars.
+     * @param string|null $regleBars The regle bars.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleBars($regleBars) {
+    public function setRegleBars(?string $regleBars): StatsPersoSuiviClientCols {
         $this->regleBars = $regleBars;
         return $this;
     }
@@ -314,10 +315,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle bicrn.
      *
-     * @param string $regleBicrn The regle bicrn.
+     * @param string|null $regleBicrn The regle bicrn.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleBicrn($regleBicrn) {
+    public function setRegleBicrn(?string $regleBicrn): StatsPersoSuiviClientCols {
         $this->regleBicrn = $regleBicrn;
         return $this;
     }
@@ -325,10 +326,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle bicrs.
      *
-     * @param string $regleBicrs The regle bicrs.
+     * @param string|null $regleBicrs The regle bicrs.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleBicrs($regleBicrs) {
+    public function setRegleBicrs(?string $regleBicrs): StatsPersoSuiviClientCols {
         $this->regleBicrs = $regleBicrs;
         return $this;
     }
@@ -336,10 +337,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle bnc.
      *
-     * @param string $regleBnc The regle bnc.
+     * @param string|null $regleBnc The regle bnc.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleBnc($regleBnc) {
+    public function setRegleBnc(?string $regleBnc): StatsPersoSuiviClientCols {
         $this->regleBnc = $regleBnc;
         return $this;
     }
@@ -347,10 +348,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle sci.
      *
-     * @param string $regleSci The regle sci.
+     * @param string|null $regleSci The regle sci.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleSci($regleSci) {
+    public function setRegleSci(?string $regleSci): StatsPersoSuiviClientCols {
         $this->regleSci = $regleSci;
         return $this;
     }
@@ -358,10 +359,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle scm.
      *
-     * @param string $regleScm The regle scm.
+     * @param string|null $regleScm The regle scm.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleScm($regleScm) {
+    public function setRegleScm(?string $regleScm): StatsPersoSuiviClientCols {
         $this->regleScm = $regleScm;
         return $this;
     }
@@ -369,10 +370,10 @@ class StatsPersoSuiviClientCols {
     /**
      * Set the regle tous.
      *
-     * @param string $regleTous The regle tous.
+     * @param string|null $regleTous The regle tous.
      * @return StatsPersoSuiviClientCols Returns this Stats perso suivi client cols.
      */
-    public function setRegleTous($regleTous) {
+    public function setRegleTous(?string $regleTous): StatsPersoSuiviClientCols {
         $this->regleTous = $regleTous;
         return $this;
     }

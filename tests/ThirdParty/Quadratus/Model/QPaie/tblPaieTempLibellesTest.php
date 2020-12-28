@@ -27,7 +27,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new tblPaieTempLibelles();
 
@@ -40,7 +40,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCalcul() {
+    public function testSetCodeCalcul(): void {
 
         $obj = new tblPaieTempLibelles();
 
@@ -53,7 +53,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new tblPaieTempLibelles();
 
@@ -66,7 +66,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new tblPaieTempLibelles();
 
@@ -79,7 +79,7 @@ class tblPaieTempLibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new tblPaieTempLibelles();
 

@@ -29,7 +29,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAou() {
+    public function testSetAou(): void {
 
         $obj = new HorairesEmp();
 
@@ -42,7 +42,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvr() {
+    public function testSetAvr(): void {
 
         $obj = new HorairesEmp();
 
@@ -55,7 +55,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new HorairesEmp();
 
@@ -68,7 +68,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new HorairesEmp();
 
@@ -81,7 +81,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new HorairesEmp();
 
@@ -95,7 +95,7 @@ class HorairesEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutAffectation() {
+    public function testSetDateDebutAffectation(): void {
 
         // Set a Date/time mock.
         $dateDebutAffectation = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class HorairesEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinAffectation() {
+    public function testSetDateFinAffectation(): void {
 
         // Set a Date/time mock.
         $dateFinAffectation = new DateTime("2018-09-10");
@@ -129,7 +129,7 @@ class HorairesEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -145,7 +145,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDec() {
+    public function testSetDec(): void {
 
         $obj = new HorairesEmp();
 
@@ -158,7 +158,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDimType2() {
+    public function testSetDimType2(): void {
 
         $obj = new HorairesEmp();
 
@@ -171,7 +171,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiscrSem() {
+    public function testSetDiscrSem(): void {
 
         $obj = new HorairesEmp();
 
@@ -185,7 +185,7 @@ class HorairesEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         // Set a Date/time mock.
         $duree = new DateTime("2018-09-10");
@@ -201,7 +201,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new HorairesEmp();
 
@@ -214,7 +214,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFev() {
+    public function testSetFev(): void {
 
         $obj = new HorairesEmp();
 
@@ -227,7 +227,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHNuitType2() {
+    public function testSetHNuitType2(): void {
 
         $obj = new HorairesEmp();
 
@@ -241,7 +241,7 @@ class HorairesEmpTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDeb() {
+    public function testSetHeureDeb(): void {
 
         // Set a Date/time mock.
         $heureDeb = new DateTime("2018-09-10");
@@ -257,7 +257,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJan() {
+    public function testSetJan(): void {
 
         $obj = new HorairesEmp();
 
@@ -270,7 +270,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJfType2() {
+    public function testSetJfType2(): void {
 
         $obj = new HorairesEmp();
 
@@ -283,7 +283,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuil() {
+    public function testSetJuil(): void {
 
         $obj = new HorairesEmp();
 
@@ -296,7 +296,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJuin() {
+    public function testSetJuin(): void {
 
         $obj = new HorairesEmp();
 
@@ -309,7 +309,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new HorairesEmp();
 
@@ -322,7 +322,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMar() {
+    public function testSetMar(): void {
 
         $obj = new HorairesEmp();
 
@@ -335,7 +335,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoteMemo() {
+    public function testSetNoteMemo(): void {
 
         $obj = new HorairesEmp();
 
@@ -348,7 +348,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNov() {
+    public function testSetNov(): void {
 
         $obj = new HorairesEmp();
 
@@ -361,7 +361,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumChrono() {
+    public function testSetNumChrono(): void {
 
         $obj = new HorairesEmp();
 
@@ -374,7 +374,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumJour() {
+    public function testSetNumJour(): void {
 
         $obj = new HorairesEmp();
 
@@ -387,7 +387,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAvenant() {
+    public function testSetNumeroAvenant(): void {
 
         $obj = new HorairesEmp();
 
@@ -400,7 +400,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroSemaine() {
+    public function testSetNumeroSemaine(): void {
 
         $obj = new HorairesEmp();
 
@@ -413,7 +413,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOct() {
+    public function testSetOct(): void {
 
         $obj = new HorairesEmp();
 
@@ -426,7 +426,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaufSemaineComplete() {
+    public function testSetSaufSemaineComplete(): void {
 
         $obj = new HorairesEmp();
 
@@ -439,7 +439,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSemaineComplete() {
+    public function testSetSemaineComplete(): void {
 
         $obj = new HorairesEmp();
 
@@ -452,7 +452,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSep() {
+    public function testSetSep(): void {
 
         $obj = new HorairesEmp();
 
@@ -465,7 +465,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTravailleJf() {
+    public function testSetTravailleJf(): void {
 
         $obj = new HorairesEmp();
 
@@ -478,7 +478,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeContrat() {
+    public function testSetTypeContrat(): void {
 
         $obj = new HorairesEmp();
 
@@ -491,7 +491,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFreq() {
+    public function testSetTypeFreq(): void {
 
         $obj = new HorairesEmp();
 
@@ -504,7 +504,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new HorairesEmp();
 
@@ -517,7 +517,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new HorairesEmp();
 
@@ -530,7 +530,7 @@ class HorairesEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HorairesEmp();
 

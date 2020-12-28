@@ -31,43 +31,44 @@ class ReintegrationFf {
     /**
      * Id tableau.
      *
-     * @var int
+     * @var int|null
      */
     private $idTableau;
 
     /**
      * Mtt apports.
      *
-     * @var float
+     * @var float|null
      */
     private $mttApports;
 
     /**
      * Mtt emprunts.
      *
-     * @var float
+     * @var float|null
      */
     private $mttEmprunts;
 
     /**
      * Mtt prelev.
      *
-     * @var float
+     * @var float|null
      */
     private $mttPrelev;
 
     /**
      * Mtt treso.
      *
-     * @var float
+     * @var float|null
      */
     private $mttTreso;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -75,52 +76,52 @@ class ReintegrationFf {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the id tableau.
      *
-     * @return int Returns the id tableau.
+     * @return int|null Returns the id tableau.
      */
-    public function getIdTableau() {
+    public function getIdTableau(): ?int{
         return $this->idTableau;
     }
 
     /**
      * Get the mtt apports.
      *
-     * @return float Returns the mtt apports.
+     * @return float|null Returns the mtt apports.
      */
-    public function getMttApports() {
+    public function getMttApports(): ?float{
         return $this->mttApports;
     }
 
     /**
      * Get the mtt emprunts.
      *
-     * @return float Returns the mtt emprunts.
+     * @return float|null Returns the mtt emprunts.
      */
-    public function getMttEmprunts() {
+    public function getMttEmprunts(): ?float{
         return $this->mttEmprunts;
     }
 
     /**
      * Get the mtt prelev.
      *
-     * @return float Returns the mtt prelev.
+     * @return float|null Returns the mtt prelev.
      */
-    public function getMttPrelev() {
+    public function getMttPrelev(): ?float{
         return $this->mttPrelev;
     }
 
     /**
      * Get the mtt treso.
      *
-     * @return float Returns the mtt treso.
+     * @return float|null Returns the mtt treso.
      */
-    public function getMttTreso() {
+    public function getMttTreso(): ?float{
         return $this->mttTreso;
     }
 
@@ -130,7 +131,7 @@ class ReintegrationFf {
      * @param DateTime|null $date The date.
      * @return ReintegrationFf Returns this Reintegration ff.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): ReintegrationFf {
         $this->date = $date;
         return $this;
     }
@@ -138,10 +139,10 @@ class ReintegrationFf {
     /**
      * Set the id tableau.
      *
-     * @param int $idTableau The id tableau.
+     * @param int|null $idTableau The id tableau.
      * @return ReintegrationFf Returns this Reintegration ff.
      */
-    public function setIdTableau($idTableau) {
+    public function setIdTableau(?int $idTableau): ReintegrationFf {
         $this->idTableau = $idTableau;
         return $this;
     }
@@ -149,10 +150,10 @@ class ReintegrationFf {
     /**
      * Set the mtt apports.
      *
-     * @param float $mttApports The mtt apports.
+     * @param float|null $mttApports The mtt apports.
      * @return ReintegrationFf Returns this Reintegration ff.
      */
-    public function setMttApports($mttApports) {
+    public function setMttApports(?float $mttApports): ReintegrationFf {
         $this->mttApports = $mttApports;
         return $this;
     }
@@ -160,10 +161,10 @@ class ReintegrationFf {
     /**
      * Set the mtt emprunts.
      *
-     * @param float $mttEmprunts The mtt emprunts.
+     * @param float|null $mttEmprunts The mtt emprunts.
      * @return ReintegrationFf Returns this Reintegration ff.
      */
-    public function setMttEmprunts($mttEmprunts) {
+    public function setMttEmprunts(?float $mttEmprunts): ReintegrationFf {
         $this->mttEmprunts = $mttEmprunts;
         return $this;
     }
@@ -171,10 +172,10 @@ class ReintegrationFf {
     /**
      * Set the mtt prelev.
      *
-     * @param float $mttPrelev The mtt prelev.
+     * @param float|null $mttPrelev The mtt prelev.
      * @return ReintegrationFf Returns this Reintegration ff.
      */
-    public function setMttPrelev($mttPrelev) {
+    public function setMttPrelev(?float $mttPrelev): ReintegrationFf {
         $this->mttPrelev = $mttPrelev;
         return $this;
     }
@@ -182,10 +183,10 @@ class ReintegrationFf {
     /**
      * Set the mtt treso.
      *
-     * @param float $mttTreso The mtt treso.
+     * @param float|null $mttTreso The mtt treso.
      * @return ReintegrationFf Returns this Reintegration ff.
      */
-    public function setMttTreso($mttTreso) {
+    public function setMttTreso(?float $mttTreso): ReintegrationFf {
         $this->mttTreso = $mttTreso;
         return $this;
     }

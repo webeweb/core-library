@@ -27,7 +27,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExcept() {
+    public function testSetExcept(): void {
 
         $obj = new ConstantesMajorations();
 
@@ -40,7 +40,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMai() {
+    public function testSetMai(): void {
 
         $obj = new ConstantesMajorations();
 
@@ -53,7 +53,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNormal() {
+    public function testSetNormal(): void {
 
         $obj = new ConstantesMajorations();
 
@@ -66,7 +66,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new ConstantesMajorations();
 
@@ -79,7 +79,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType2() {
+    public function testSetType2(): void {
 
         $obj = new ConstantesMajorations();
 
@@ -92,7 +92,7 @@ class ConstantesMajorationsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstantesMajorations();
 

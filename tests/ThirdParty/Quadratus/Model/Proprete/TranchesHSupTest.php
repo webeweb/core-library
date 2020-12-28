@@ -27,7 +27,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures() {
+    public function testSetNbHeures(): void {
 
         $obj = new TranchesHSup();
 
@@ -40,7 +40,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaux() {
+    public function testSetTaux(): void {
 
         $obj = new TranchesHSup();
 
@@ -53,7 +53,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new TranchesHSup();
 
@@ -66,7 +66,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TranchesHSup();
 

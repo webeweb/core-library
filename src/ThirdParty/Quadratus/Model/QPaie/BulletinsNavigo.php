@@ -24,21 +24,21 @@ class BulletinsNavigo {
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Nb semaine.
      *
-     * @var string
+     * @var string|null
      */
     private $nbSemaine;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -52,55 +52,56 @@ class BulletinsNavigo {
     /**
      * Rbt non proratise.
      *
-     * @var bool
+     * @var bool|null
      */
     private $rbtNonProratise;
 
     /**
      * Type abonnement.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAbonnement;
 
     /**
      * Zone.
      *
-     * @var string
+     * @var string|null
      */
     private $zone;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the nb semaine.
      *
-     * @return string Returns the nb semaine.
+     * @return string|null Returns the nb semaine.
      */
-    public function getNbSemaine() {
+    public function getNbSemaine(): ?string{
         return $this->nbSemaine;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -109,44 +110,44 @@ class BulletinsNavigo {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the rbt non proratise.
      *
-     * @return bool Returns the rbt non proratise.
+     * @return bool|null Returns the rbt non proratise.
      */
-    public function getRbtNonProratise() {
+    public function getRbtNonProratise(): ?bool{
         return $this->rbtNonProratise;
     }
 
     /**
      * Get the type abonnement.
      *
-     * @return string Returns the type abonnement.
+     * @return string|null Returns the type abonnement.
      */
-    public function getTypeAbonnement() {
+    public function getTypeAbonnement(): ?string{
         return $this->typeAbonnement;
     }
 
     /**
      * Get the zone.
      *
-     * @return string Returns the zone.
+     * @return string|null Returns the zone.
      */
-    public function getZone() {
+    public function getZone(): ?string{
         return $this->zone;
     }
 
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): BulletinsNavigo {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -154,10 +155,10 @@ class BulletinsNavigo {
     /**
      * Set the nb semaine.
      *
-     * @param string $nbSemaine The nb semaine.
+     * @param string|null $nbSemaine The nb semaine.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setNbSemaine($nbSemaine) {
+    public function setNbSemaine(?string $nbSemaine): BulletinsNavigo {
         $this->nbSemaine = $nbSemaine;
         return $this;
     }
@@ -165,10 +166,10 @@ class BulletinsNavigo {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): BulletinsNavigo {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -179,7 +180,7 @@ class BulletinsNavigo {
      * @param DateTime|null $periode The periode.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): BulletinsNavigo {
         $this->periode = $periode;
         return $this;
     }
@@ -187,10 +188,10 @@ class BulletinsNavigo {
     /**
      * Set the rbt non proratise.
      *
-     * @param bool $rbtNonProratise The rbt non proratise.
+     * @param bool|null $rbtNonProratise The rbt non proratise.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setRbtNonProratise($rbtNonProratise) {
+    public function setRbtNonProratise(?bool $rbtNonProratise): BulletinsNavigo {
         $this->rbtNonProratise = $rbtNonProratise;
         return $this;
     }
@@ -198,10 +199,10 @@ class BulletinsNavigo {
     /**
      * Set the type abonnement.
      *
-     * @param string $typeAbonnement The type abonnement.
+     * @param string|null $typeAbonnement The type abonnement.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setTypeAbonnement($typeAbonnement) {
+    public function setTypeAbonnement(?string $typeAbonnement): BulletinsNavigo {
         $this->typeAbonnement = $typeAbonnement;
         return $this;
     }
@@ -209,10 +210,10 @@ class BulletinsNavigo {
     /**
      * Set the zone.
      *
-     * @param string $zone The zone.
+     * @param string|null $zone The zone.
      * @return BulletinsNavigo Returns this Bulletins navigo.
      */
-    public function setZone($zone) {
+    public function setZone(?string $zone): BulletinsNavigo {
         $this->zone = $zone;
         return $this;
     }

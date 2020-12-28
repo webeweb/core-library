@@ -29,7 +29,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new FichesExposition();
 
@@ -42,7 +42,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrestation() {
+    public function testSetCodePrestation(): void {
 
         $obj = new FichesExposition();
 
@@ -55,7 +55,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeProduit() {
+    public function testSetCodeProduit(): void {
 
         $obj = new FichesExposition();
 
@@ -69,7 +69,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCtrl() {
+    public function testSetDateCtrl(): void {
 
         // Set a Date/time mock.
         $dateCtrl = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebExpo() {
+    public function testSetDateDebExpo(): void {
 
         // Set a Date/time mock.
         $dateDebExpo = new DateTime("2018-09-10");
@@ -103,7 +103,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFiche() {
+    public function testSetDateFiche(): void {
 
         // Set a Date/time mock.
         $dateFiche = new DateTime("2018-09-10");
@@ -120,7 +120,7 @@ class FichesExpositionTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinExpo() {
+    public function testSetDateFinExpo(): void {
 
         // Set a Date/time mock.
         $dateFinExpo = new DateTime("2018-09-10");
@@ -136,7 +136,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLstCodePhase() {
+    public function testSetLstCodePhase(): void {
 
         $obj = new FichesExposition();
 
@@ -149,7 +149,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLstCodePrev() {
+    public function testSetLstCodePrev(): void {
 
         $obj = new FichesExposition();
 
@@ -162,7 +162,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResuCtrl() {
+    public function testSetResuCtrl(): void {
 
         $obj = new FichesExposition();
 
@@ -175,7 +175,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTempsExposition() {
+    public function testSetTempsExposition(): void {
 
         $obj = new FichesExposition();
 
@@ -188,7 +188,7 @@ class FichesExpositionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesExposition();
 

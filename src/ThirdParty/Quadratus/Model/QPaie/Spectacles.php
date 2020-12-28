@@ -38,22 +38,23 @@ class Spectacles {
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Num objet.
      *
-     * @var string
+     * @var string|null
      */
     private $numObjet;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -61,7 +62,7 @@ class Spectacles {
      *
      * @return DateTime|null Returns the dt debut.
      */
-    public function getDtDebut() {
+    public function getDtDebut(): ?DateTime{
         return $this->dtDebut;
     }
 
@@ -70,25 +71,25 @@ class Spectacles {
      *
      * @return DateTime|null Returns the dt fin.
      */
-    public function getDtFin() {
+    public function getDtFin(): ?DateTime{
         return $this->dtFin;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the num objet.
      *
-     * @return string Returns the num objet.
+     * @return string|null Returns the num objet.
      */
-    public function getNumObjet() {
+    public function getNumObjet(): ?string{
         return $this->numObjet;
     }
 
@@ -98,7 +99,7 @@ class Spectacles {
      * @param DateTime|null $dtDebut The dt debut.
      * @return Spectacles Returns this Spectacles.
      */
-    public function setDtDebut(DateTime $dtDebut = null) {
+    public function setDtDebut(?DateTime $dtDebut): Spectacles {
         $this->dtDebut = $dtDebut;
         return $this;
     }
@@ -109,7 +110,7 @@ class Spectacles {
      * @param DateTime|null $dtFin The dt fin.
      * @return Spectacles Returns this Spectacles.
      */
-    public function setDtFin(DateTime $dtFin = null) {
+    public function setDtFin(?DateTime $dtFin): Spectacles {
         $this->dtFin = $dtFin;
         return $this;
     }
@@ -117,10 +118,10 @@ class Spectacles {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return Spectacles Returns this Spectacles.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): Spectacles {
         $this->intitule = $intitule;
         return $this;
     }
@@ -128,10 +129,10 @@ class Spectacles {
     /**
      * Set the num objet.
      *
-     * @param string $numObjet The num objet.
+     * @param string|null $numObjet The num objet.
      * @return Spectacles Returns this Spectacles.
      */
-    public function setNumObjet($numObjet) {
+    public function setNumObjet(?string $numObjet): Spectacles {
         $this->numObjet = $numObjet;
         return $this;
     }

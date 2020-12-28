@@ -22,16 +22,16 @@ trait FloatYTrait {
     /**
      * Y.
      *
-     * @var float
+     * @var float|null
      */
     protected $y;
 
     /**
      * Get the y.
      *
-     * @return float Returns the y.
+     * @return float|null Returns the y.
      */
-    public function getY() {
+    public function getY(): ?float {
         return $this->y;
     }
 
@@ -40,16 +40,16 @@ trait FloatYTrait {
      *
      * @return int Returns the y.
      */
-    public function getYInt() {
+    public function getYInt(): int {
         return intval($this->y);
     }
 
     /**
      * Set the y.
      *
-     * @param float $y The y.
+     * @param float|null $y The y.
      */
-    public function setY($y) {
+    public function setY(?float $y) {
         $this->y = $y;
         return $this;
     }

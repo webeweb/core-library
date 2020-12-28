@@ -29,7 +29,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAction() {
+    public function testSetCodeAction(): void {
 
         $obj = new ActionsCoSeances();
 
@@ -42,7 +42,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeManif() {
+    public function testSetCodeManif(): void {
 
         $obj = new ActionsCoSeances();
 
@@ -56,7 +56,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSeance() {
+    public function testSetDateSeance(): void {
 
         // Set a Date/time mock.
         $dateSeance = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDeb() {
+    public function testSetHeureDeb(): void {
 
         // Set a Date/time mock.
         $heureDeb = new DateTime("2018-09-10");
@@ -90,7 +90,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureFin() {
+    public function testSetHeureFin(): void {
 
         // Set a Date/time mock.
         $heureFin = new DateTime("2018-09-10");
@@ -106,7 +106,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleSeance() {
+    public function testSetLibelleSeance(): void {
 
         $obj = new ActionsCoSeances();
 
@@ -119,7 +119,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumSeance() {
+    public function testSetNumSeance(): void {
 
         $obj = new ActionsCoSeances();
 
@@ -132,7 +132,7 @@ class ActionsCoSeancesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCoSeances();
 

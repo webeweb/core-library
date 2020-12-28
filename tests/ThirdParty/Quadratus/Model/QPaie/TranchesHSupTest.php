@@ -29,7 +29,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAComptabiliserRc() {
+    public function testSetAComptabiliserRc(): void {
 
         $obj = new TranchesHSup();
 
@@ -42,7 +42,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAComptabiliserRcit() {
+    public function testSetAComptabiliserRcit(): void {
 
         $obj = new TranchesHSup();
 
@@ -55,7 +55,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAppliquerHSup() {
+    public function testSetAppliquerHSup(): void {
 
         $obj = new TranchesHSup();
 
@@ -68,7 +68,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAppliquerReposRemplace() {
+    public function testSetAppliquerReposRemplace(): void {
 
         $obj = new TranchesHSup();
 
@@ -81,7 +81,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibHs() {
+    public function testSetCodeLibHs(): void {
 
         $obj = new TranchesHSup();
 
@@ -95,7 +95,7 @@ class TranchesHSupTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateApplication() {
+    public function testSetDateApplication(): void {
 
         // Set a Date/time mock.
         $dateApplication = new DateTime("2018-09-10");
@@ -111,7 +111,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeclencheRcSemaine() {
+    public function testSetDeclencheRcSemaine(): void {
 
         $obj = new TranchesHSup();
 
@@ -124,7 +124,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHoraireDepassement() {
+    public function testSetHoraireDepassement(): void {
 
         $obj = new TranchesHSup();
 
@@ -137,7 +137,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroGrilleType() {
+    public function testSetNumeroGrilleType(): void {
 
         $obj = new TranchesHSup();
 
@@ -150,7 +150,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentHSup() {
+    public function testSetPourcentHSup(): void {
 
         $obj = new TranchesHSup();
 
@@ -163,7 +163,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentRc() {
+    public function testSetPourcentRc(): void {
 
         $obj = new TranchesHSup();
 
@@ -176,7 +176,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentReposRemplace() {
+    public function testSetPourcentReposRemplace(): void {
 
         $obj = new TranchesHSup();
 
@@ -189,7 +189,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePaiement() {
+    public function testSetTypePaiement(): void {
 
         $obj = new TranchesHSup();
 
@@ -202,7 +202,7 @@ class TranchesHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TranchesHSup();
 

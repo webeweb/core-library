@@ -24,42 +24,42 @@ class ReglementsAux {
     /**
      * Actif.
      *
-     * @var bool
+     * @var bool|null
      */
     private $actif;
 
     /**
      * Autre dom banque.
      *
-     * @var string
+     * @var string|null
      */
     private $autreDomBanque;
 
     /**
      * Autre rib.
      *
-     * @var string
+     * @var string|null
      */
     private $autreRib;
 
     /**
      * Code journal banque.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournalBanque;
 
     /**
      * Code mode paiement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeModePaiement;
 
     /**
      * Dans1 groupe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $dans1Groupe;
 
@@ -73,166 +73,167 @@ class ReglementsAux {
     /**
      * Montant groupe.
      *
-     * @var float
+     * @var float|null
      */
     private $montantGroupe;
 
     /**
      * Montant saisi credit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantSaisiCredit;
 
     /**
      * Montant saisi debit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantSaisiDebit;
 
     /**
      * Montant tenu credit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTenuCredit;
 
     /**
      * Montant tenu debit.
      *
-     * @var float
+     * @var float|null
      */
     private $montantTenuDebit;
 
     /**
      * No rib.
      *
-     * @var string
+     * @var string|null
      */
     private $noRib;
 
     /**
      * Num groupe.
      *
-     * @var int
+     * @var int|null
      */
     private $numGroupe;
 
     /**
      * Num lot lcr.
      *
-     * @var int
+     * @var int|null
      */
     private $numLotLcr;
 
     /**
      * Num lot lettre p.
      *
-     * @var int
+     * @var int|null
      */
     private $numLotLettreP;
 
     /**
      * Num lot traite.
      *
-     * @var int
+     * @var int|null
      */
     private $numLotTraite;
 
     /**
      * Num uniq.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniq;
 
     /**
      * Num uniq ecriture.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniqEcriture;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Reference tire.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceTire;
 
     /**
      * Type reglement.
      *
-     * @var string
+     * @var string|null
      */
     private $typeReglement;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the actif.
      *
-     * @return bool Returns the actif.
+     * @return bool|null Returns the actif.
      */
-    public function getActif() {
+    public function getActif(): ?bool{
         return $this->actif;
     }
 
     /**
      * Get the autre dom banque.
      *
-     * @return string Returns the autre dom banque.
+     * @return string|null Returns the autre dom banque.
      */
-    public function getAutreDomBanque() {
+    public function getAutreDomBanque(): ?string{
         return $this->autreDomBanque;
     }
 
     /**
      * Get the autre rib.
      *
-     * @return string Returns the autre rib.
+     * @return string|null Returns the autre rib.
      */
-    public function getAutreRib() {
+    public function getAutreRib(): ?string{
         return $this->autreRib;
     }
 
     /**
      * Get the code journal banque.
      *
-     * @return string Returns the code journal banque.
+     * @return string|null Returns the code journal banque.
      */
-    public function getCodeJournalBanque() {
+    public function getCodeJournalBanque(): ?string{
         return $this->codeJournalBanque;
     }
 
     /**
      * Get the code mode paiement.
      *
-     * @return string Returns the code mode paiement.
+     * @return string|null Returns the code mode paiement.
      */
-    public function getCodeModePaiement() {
+    public function getCodeModePaiement(): ?string{
         return $this->codeModePaiement;
     }
 
     /**
      * Get the dans1 groupe.
      *
-     * @return bool Returns the dans1 groupe.
+     * @return bool|null Returns the dans1 groupe.
      */
-    public function getDans1Groupe() {
+    public function getDans1Groupe(): ?bool{
         return $this->dans1Groupe;
     }
 
@@ -241,152 +242,152 @@ class ReglementsAux {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance() {
+    public function getDateEcheance(): ?DateTime{
         return $this->dateEcheance;
     }
 
     /**
      * Get the montant groupe.
      *
-     * @return float Returns the montant groupe.
+     * @return float|null Returns the montant groupe.
      */
-    public function getMontantGroupe() {
+    public function getMontantGroupe(): ?float{
         return $this->montantGroupe;
     }
 
     /**
      * Get the montant saisi credit.
      *
-     * @return float Returns the montant saisi credit.
+     * @return float|null Returns the montant saisi credit.
      */
-    public function getMontantSaisiCredit() {
+    public function getMontantSaisiCredit(): ?float{
         return $this->montantSaisiCredit;
     }
 
     /**
      * Get the montant saisi debit.
      *
-     * @return float Returns the montant saisi debit.
+     * @return float|null Returns the montant saisi debit.
      */
-    public function getMontantSaisiDebit() {
+    public function getMontantSaisiDebit(): ?float{
         return $this->montantSaisiDebit;
     }
 
     /**
      * Get the montant tenu credit.
      *
-     * @return float Returns the montant tenu credit.
+     * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit() {
+    public function getMontantTenuCredit(): ?float{
         return $this->montantTenuCredit;
     }
 
     /**
      * Get the montant tenu debit.
      *
-     * @return float Returns the montant tenu debit.
+     * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit() {
+    public function getMontantTenuDebit(): ?float{
         return $this->montantTenuDebit;
     }
 
     /**
      * Get the no rib.
      *
-     * @return string Returns the no rib.
+     * @return string|null Returns the no rib.
      */
-    public function getNoRib() {
+    public function getNoRib(): ?string{
         return $this->noRib;
     }
 
     /**
      * Get the num groupe.
      *
-     * @return int Returns the num groupe.
+     * @return int|null Returns the num groupe.
      */
-    public function getNumGroupe() {
+    public function getNumGroupe(): ?int{
         return $this->numGroupe;
     }
 
     /**
      * Get the num lot lcr.
      *
-     * @return int Returns the num lot lcr.
+     * @return int|null Returns the num lot lcr.
      */
-    public function getNumLotLcr() {
+    public function getNumLotLcr(): ?int{
         return $this->numLotLcr;
     }
 
     /**
      * Get the num lot lettre p.
      *
-     * @return int Returns the num lot lettre p.
+     * @return int|null Returns the num lot lettre p.
      */
-    public function getNumLotLettreP() {
+    public function getNumLotLettreP(): ?int{
         return $this->numLotLettreP;
     }
 
     /**
      * Get the num lot traite.
      *
-     * @return int Returns the num lot traite.
+     * @return int|null Returns the num lot traite.
      */
-    public function getNumLotTraite() {
+    public function getNumLotTraite(): ?int{
         return $this->numLotTraite;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return int Returns the num uniq.
+     * @return int|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?int{
         return $this->numUniq;
     }
 
     /**
      * Get the num uniq ecriture.
      *
-     * @return int Returns the num uniq ecriture.
+     * @return int|null Returns the num uniq ecriture.
      */
-    public function getNumUniqEcriture() {
+    public function getNumUniqEcriture(): ?int{
         return $this->numUniqEcriture;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the reference tire.
      *
-     * @return string Returns the reference tire.
+     * @return string|null Returns the reference tire.
      */
-    public function getReferenceTire() {
+    public function getReferenceTire(): ?string{
         return $this->referenceTire;
     }
 
     /**
      * Get the type reglement.
      *
-     * @return string Returns the type reglement.
+     * @return string|null Returns the type reglement.
      */
-    public function getTypeReglement() {
+    public function getTypeReglement(): ?string{
         return $this->typeReglement;
     }
 
     /**
      * Set the actif.
      *
-     * @param bool $actif The actif.
+     * @param bool|null $actif The actif.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setActif($actif) {
+    public function setActif(?bool $actif): ReglementsAux {
         $this->actif = $actif;
         return $this;
     }
@@ -394,10 +395,10 @@ class ReglementsAux {
     /**
      * Set the autre dom banque.
      *
-     * @param string $autreDomBanque The autre dom banque.
+     * @param string|null $autreDomBanque The autre dom banque.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setAutreDomBanque($autreDomBanque) {
+    public function setAutreDomBanque(?string $autreDomBanque): ReglementsAux {
         $this->autreDomBanque = $autreDomBanque;
         return $this;
     }
@@ -405,10 +406,10 @@ class ReglementsAux {
     /**
      * Set the autre rib.
      *
-     * @param string $autreRib The autre rib.
+     * @param string|null $autreRib The autre rib.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setAutreRib($autreRib) {
+    public function setAutreRib(?string $autreRib): ReglementsAux {
         $this->autreRib = $autreRib;
         return $this;
     }
@@ -416,10 +417,10 @@ class ReglementsAux {
     /**
      * Set the code journal banque.
      *
-     * @param string $codeJournalBanque The code journal banque.
+     * @param string|null $codeJournalBanque The code journal banque.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setCodeJournalBanque($codeJournalBanque) {
+    public function setCodeJournalBanque(?string $codeJournalBanque): ReglementsAux {
         $this->codeJournalBanque = $codeJournalBanque;
         return $this;
     }
@@ -427,10 +428,10 @@ class ReglementsAux {
     /**
      * Set the code mode paiement.
      *
-     * @param string $codeModePaiement The code mode paiement.
+     * @param string|null $codeModePaiement The code mode paiement.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setCodeModePaiement($codeModePaiement) {
+    public function setCodeModePaiement(?string $codeModePaiement): ReglementsAux {
         $this->codeModePaiement = $codeModePaiement;
         return $this;
     }
@@ -438,10 +439,10 @@ class ReglementsAux {
     /**
      * Set the dans1 groupe.
      *
-     * @param bool $dans1Groupe The dans1 groupe.
+     * @param bool|null $dans1Groupe The dans1 groupe.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setDans1Groupe($dans1Groupe) {
+    public function setDans1Groupe(?bool $dans1Groupe): ReglementsAux {
         $this->dans1Groupe = $dans1Groupe;
         return $this;
     }
@@ -452,7 +453,7 @@ class ReglementsAux {
      * @param DateTime|null $dateEcheance The date echeance.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setDateEcheance(DateTime $dateEcheance = null) {
+    public function setDateEcheance(?DateTime $dateEcheance): ReglementsAux {
         $this->dateEcheance = $dateEcheance;
         return $this;
     }
@@ -460,10 +461,10 @@ class ReglementsAux {
     /**
      * Set the montant groupe.
      *
-     * @param float $montantGroupe The montant groupe.
+     * @param float|null $montantGroupe The montant groupe.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setMontantGroupe($montantGroupe) {
+    public function setMontantGroupe(?float $montantGroupe): ReglementsAux {
         $this->montantGroupe = $montantGroupe;
         return $this;
     }
@@ -471,10 +472,10 @@ class ReglementsAux {
     /**
      * Set the montant saisi credit.
      *
-     * @param float $montantSaisiCredit The montant saisi credit.
+     * @param float|null $montantSaisiCredit The montant saisi credit.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setMontantSaisiCredit($montantSaisiCredit) {
+    public function setMontantSaisiCredit(?float $montantSaisiCredit): ReglementsAux {
         $this->montantSaisiCredit = $montantSaisiCredit;
         return $this;
     }
@@ -482,10 +483,10 @@ class ReglementsAux {
     /**
      * Set the montant saisi debit.
      *
-     * @param float $montantSaisiDebit The montant saisi debit.
+     * @param float|null $montantSaisiDebit The montant saisi debit.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setMontantSaisiDebit($montantSaisiDebit) {
+    public function setMontantSaisiDebit(?float $montantSaisiDebit): ReglementsAux {
         $this->montantSaisiDebit = $montantSaisiDebit;
         return $this;
     }
@@ -493,10 +494,10 @@ class ReglementsAux {
     /**
      * Set the montant tenu credit.
      *
-     * @param float $montantTenuCredit The montant tenu credit.
+     * @param float|null $montantTenuCredit The montant tenu credit.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setMontantTenuCredit($montantTenuCredit) {
+    public function setMontantTenuCredit(?float $montantTenuCredit): ReglementsAux {
         $this->montantTenuCredit = $montantTenuCredit;
         return $this;
     }
@@ -504,10 +505,10 @@ class ReglementsAux {
     /**
      * Set the montant tenu debit.
      *
-     * @param float $montantTenuDebit The montant tenu debit.
+     * @param float|null $montantTenuDebit The montant tenu debit.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setMontantTenuDebit($montantTenuDebit) {
+    public function setMontantTenuDebit(?float $montantTenuDebit): ReglementsAux {
         $this->montantTenuDebit = $montantTenuDebit;
         return $this;
     }
@@ -515,10 +516,10 @@ class ReglementsAux {
     /**
      * Set the no rib.
      *
-     * @param string $noRib The no rib.
+     * @param string|null $noRib The no rib.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNoRib($noRib) {
+    public function setNoRib(?string $noRib): ReglementsAux {
         $this->noRib = $noRib;
         return $this;
     }
@@ -526,10 +527,10 @@ class ReglementsAux {
     /**
      * Set the num groupe.
      *
-     * @param int $numGroupe The num groupe.
+     * @param int|null $numGroupe The num groupe.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumGroupe($numGroupe) {
+    public function setNumGroupe(?int $numGroupe): ReglementsAux {
         $this->numGroupe = $numGroupe;
         return $this;
     }
@@ -537,10 +538,10 @@ class ReglementsAux {
     /**
      * Set the num lot lcr.
      *
-     * @param int $numLotLcr The num lot lcr.
+     * @param int|null $numLotLcr The num lot lcr.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumLotLcr($numLotLcr) {
+    public function setNumLotLcr(?int $numLotLcr): ReglementsAux {
         $this->numLotLcr = $numLotLcr;
         return $this;
     }
@@ -548,10 +549,10 @@ class ReglementsAux {
     /**
      * Set the num lot lettre p.
      *
-     * @param int $numLotLettreP The num lot lettre p.
+     * @param int|null $numLotLettreP The num lot lettre p.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumLotLettreP($numLotLettreP) {
+    public function setNumLotLettreP(?int $numLotLettreP): ReglementsAux {
         $this->numLotLettreP = $numLotLettreP;
         return $this;
     }
@@ -559,10 +560,10 @@ class ReglementsAux {
     /**
      * Set the num lot traite.
      *
-     * @param int $numLotTraite The num lot traite.
+     * @param int|null $numLotTraite The num lot traite.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumLotTraite($numLotTraite) {
+    public function setNumLotTraite(?int $numLotTraite): ReglementsAux {
         $this->numLotTraite = $numLotTraite;
         return $this;
     }
@@ -570,10 +571,10 @@ class ReglementsAux {
     /**
      * Set the num uniq.
      *
-     * @param int $numUniq The num uniq.
+     * @param int|null $numUniq The num uniq.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?int $numUniq): ReglementsAux {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -581,10 +582,10 @@ class ReglementsAux {
     /**
      * Set the num uniq ecriture.
      *
-     * @param int $numUniqEcriture The num uniq ecriture.
+     * @param int|null $numUniqEcriture The num uniq ecriture.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumUniqEcriture($numUniqEcriture) {
+    public function setNumUniqEcriture(?int $numUniqEcriture): ReglementsAux {
         $this->numUniqEcriture = $numUniqEcriture;
         return $this;
     }
@@ -592,10 +593,10 @@ class ReglementsAux {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): ReglementsAux {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -603,10 +604,10 @@ class ReglementsAux {
     /**
      * Set the reference tire.
      *
-     * @param string $referenceTire The reference tire.
+     * @param string|null $referenceTire The reference tire.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setReferenceTire($referenceTire) {
+    public function setReferenceTire(?string $referenceTire): ReglementsAux {
         $this->referenceTire = $referenceTire;
         return $this;
     }
@@ -614,10 +615,10 @@ class ReglementsAux {
     /**
      * Set the type reglement.
      *
-     * @param string $typeReglement The type reglement.
+     * @param string|null $typeReglement The type reglement.
      * @return ReglementsAux Returns this Reglements aux.
      */
-    public function setTypeReglement($typeReglement) {
+    public function setTypeReglement(?string $typeReglement): ReglementsAux {
         $this->typeReglement = $typeReglement;
         return $this;
     }

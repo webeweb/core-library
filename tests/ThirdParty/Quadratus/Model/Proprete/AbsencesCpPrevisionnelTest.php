@@ -29,7 +29,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 
@@ -42,7 +42,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollaborateur() {
+    public function testSetCollaborateur(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 
@@ -55,7 +55,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 
@@ -69,7 +69,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebutCp() {
+    public function testSetDateDebutCp(): void {
 
         // Set a Date/time mock.
         $dateDebutCp = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDemande() {
+    public function testSetDateDemande(): void {
 
         // Set a Date/time mock.
         $dateDemande = new DateTime("2018-09-10");
@@ -103,7 +103,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEtatCp() {
+    public function testSetDateEtatCp(): void {
 
         // Set a Date/time mock.
         $dateEtatCp = new DateTime("2018-09-10");
@@ -120,7 +120,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinCp() {
+    public function testSetDateFinCp(): void {
 
         // Set a Date/time mock.
         $dateFinCp = new DateTime("2018-09-10");
@@ -136,7 +136,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDepuisWeb() {
+    public function testSetDepuisWeb(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 
@@ -149,7 +149,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCp() {
+    public function testSetEtatCp(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 
@@ -162,7 +162,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 
@@ -175,7 +175,7 @@ class AbsencesCpPrevisionnelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AbsencesCpPrevisionnel();
 

@@ -22,113 +22,114 @@ class RetraitesEmp {
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Id institution.
      *
-     * @var string
+     * @var string|null
      */
     private $idInstitution;
 
     /**
      * Indice contrat.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceContrat;
 
     /**
      * Non gere.
      *
-     * @var bool
+     * @var bool|null
      */
     private $nonGere;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Type orga.
      *
-     * @var string
+     * @var string|null
      */
     private $typeOrga;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the id institution.
      *
-     * @return string Returns the id institution.
+     * @return string|null Returns the id institution.
      */
-    public function getIdInstitution() {
+    public function getIdInstitution(): ?string{
         return $this->idInstitution;
     }
 
     /**
      * Get the indice contrat.
      *
-     * @return int Returns the indice contrat.
+     * @return int|null Returns the indice contrat.
      */
-    public function getIndiceContrat() {
+    public function getIndiceContrat(): ?int{
         return $this->indiceContrat;
     }
 
     /**
      * Get the non gere.
      *
-     * @return bool Returns the non gere.
+     * @return bool|null Returns the non gere.
      */
-    public function getNonGere() {
+    public function getNonGere(): ?bool{
         return $this->nonGere;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the type orga.
      *
-     * @return string Returns the type orga.
+     * @return string|null Returns the type orga.
      */
-    public function getTypeOrga() {
+    public function getTypeOrga(): ?string{
         return $this->typeOrga;
     }
 
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return RetraitesEmp Returns this Retraites emp.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): RetraitesEmp {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -136,10 +137,10 @@ class RetraitesEmp {
     /**
      * Set the id institution.
      *
-     * @param string $idInstitution The id institution.
+     * @param string|null $idInstitution The id institution.
      * @return RetraitesEmp Returns this Retraites emp.
      */
-    public function setIdInstitution($idInstitution) {
+    public function setIdInstitution(?string $idInstitution): RetraitesEmp {
         $this->idInstitution = $idInstitution;
         return $this;
     }
@@ -147,10 +148,10 @@ class RetraitesEmp {
     /**
      * Set the indice contrat.
      *
-     * @param int $indiceContrat The indice contrat.
+     * @param int|null $indiceContrat The indice contrat.
      * @return RetraitesEmp Returns this Retraites emp.
      */
-    public function setIndiceContrat($indiceContrat) {
+    public function setIndiceContrat(?int $indiceContrat): RetraitesEmp {
         $this->indiceContrat = $indiceContrat;
         return $this;
     }
@@ -158,10 +159,10 @@ class RetraitesEmp {
     /**
      * Set the non gere.
      *
-     * @param bool $nonGere The non gere.
+     * @param bool|null $nonGere The non gere.
      * @return RetraitesEmp Returns this Retraites emp.
      */
-    public function setNonGere($nonGere) {
+    public function setNonGere(?bool $nonGere): RetraitesEmp {
         $this->nonGere = $nonGere;
         return $this;
     }
@@ -169,10 +170,10 @@ class RetraitesEmp {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return RetraitesEmp Returns this Retraites emp.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): RetraitesEmp {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -180,10 +181,10 @@ class RetraitesEmp {
     /**
      * Set the type orga.
      *
-     * @param string $typeOrga The type orga.
+     * @param string|null $typeOrga The type orga.
      * @return RetraitesEmp Returns this Retraites emp.
      */
-    public function setTypeOrga($typeOrga) {
+    public function setTypeOrga(?string $typeOrga): RetraitesEmp {
         $this->typeOrga = $typeOrga;
         return $this;
     }

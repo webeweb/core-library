@@ -29,7 +29,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new ActionsCo();
 
@@ -43,7 +43,7 @@ class ActionsCoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -60,7 +60,7 @@ class ActionsCoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinVie() {
+    public function testSetDateFinVie(): void {
 
         // Set a Date/time mock.
         $dateFinVie = new DateTime("2018-09-10");
@@ -77,7 +77,7 @@ class ActionsCoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModification() {
+    public function testSetDateModification(): void {
 
         // Set a Date/time mock.
         $dateModification = new DateTime("2018-09-10");
@@ -93,7 +93,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ActionsCo();
 
@@ -106,7 +106,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleMemo() {
+    public function testSetLibelleMemo(): void {
 
         $obj = new ActionsCo();
 
@@ -119,7 +119,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpConfirmation() {
+    public function testSetOpConfirmation(): void {
 
         $obj = new ActionsCo();
 
@@ -132,7 +132,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpContratSigne() {
+    public function testSetOpContratSigne(): void {
 
         $obj = new ActionsCo();
 
@@ -145,7 +145,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpExplication() {
+    public function testSetOpExplication(): void {
 
         $obj = new ActionsCo();
 
@@ -158,7 +158,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpInvitationIndiv() {
+    public function testSetOpInvitationIndiv(): void {
 
         $obj = new ActionsCo();
 
@@ -171,7 +171,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpInvitationMasse() {
+    public function testSetOpInvitationMasse(): void {
 
         $obj = new ActionsCo();
 
@@ -184,7 +184,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpPresence() {
+    public function testSetOpPresence(): void {
 
         $obj = new ActionsCo();
 
@@ -197,7 +197,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpPriseRdv() {
+    public function testSetOpPriseRdv(): void {
 
         $obj = new ActionsCo();
 
@@ -210,7 +210,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpRelance() {
+    public function testSetOpRelance(): void {
 
         $obj = new ActionsCo();
 
@@ -223,7 +223,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpReponseInscrip() {
+    public function testSetOpReponseInscrip(): void {
 
         $obj = new ActionsCo();
 
@@ -236,7 +236,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpReponseNegative() {
+    public function testSetOpReponseNegative(): void {
 
         $obj = new ActionsCo();
 
@@ -249,7 +249,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOpReservation() {
+    public function testSetOpReservation(): void {
 
         $obj = new ActionsCo();
 
@@ -262,7 +262,7 @@ class ActionsCoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ActionsCo();
 

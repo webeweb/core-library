@@ -22,81 +22,82 @@ class ArticleVariantes {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code barre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeBarre;
 
     /**
      * Code variante.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVariante;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code barre.
      *
-     * @return string Returns the code barre.
+     * @return string|null Returns the code barre.
      */
-    public function getCodeBarre() {
+    public function getCodeBarre(): ?string{
         return $this->codeBarre;
     }
 
     /**
      * Get the code variante.
      *
-     * @return string Returns the code variante.
+     * @return string|null Returns the code variante.
      */
-    public function getCodeVariante() {
+    public function getCodeVariante(): ?string{
         return $this->codeVariante;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return ArticleVariantes Returns this Article variantes.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): ArticleVariantes {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -104,10 +105,10 @@ class ArticleVariantes {
     /**
      * Set the code barre.
      *
-     * @param string $codeBarre The code barre.
+     * @param string|null $codeBarre The code barre.
      * @return ArticleVariantes Returns this Article variantes.
      */
-    public function setCodeBarre($codeBarre) {
+    public function setCodeBarre(?string $codeBarre): ArticleVariantes {
         $this->codeBarre = $codeBarre;
         return $this;
     }
@@ -115,10 +116,10 @@ class ArticleVariantes {
     /**
      * Set the code variante.
      *
-     * @param string $codeVariante The code variante.
+     * @param string|null $codeVariante The code variante.
      * @return ArticleVariantes Returns this Article variantes.
      */
-    public function setCodeVariante($codeVariante) {
+    public function setCodeVariante(?string $codeVariante): ArticleVariantes {
         $this->codeVariante = $codeVariante;
         return $this;
     }
@@ -126,10 +127,10 @@ class ArticleVariantes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ArticleVariantes Returns this Article variantes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ArticleVariantes {
         $this->libelle = $libelle;
         return $this;
     }

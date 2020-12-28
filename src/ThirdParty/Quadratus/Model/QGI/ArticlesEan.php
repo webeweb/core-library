@@ -22,28 +22,28 @@ class ArticlesEan {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Ean.
      *
-     * @var string
+     * @var string|null
      */
     private $ean;
 
     /**
      * Gamme.
      *
-     * @var int
+     * @var int|null
      */
     private $gamme;
 
     /**
      * Variante.
      *
-     * @var string
+     * @var string|null
      */
     private $variante;
 
@@ -51,52 +51,52 @@ class ArticlesEan {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
     /**
      * Get the ean.
      *
-     * @return string Returns the ean.
+     * @return string|null Returns the ean.
      */
-    public function getEan() {
+    public function getEan(): ?string {
         return $this->ean;
     }
 
     /**
      * Get the gamme.
      *
-     * @return int Returns the gamme.
+     * @return int|null Returns the gamme.
      */
-    public function getGamme() {
+    public function getGamme(): ?int {
         return $this->gamme;
     }
 
     /**
      * Get the variante.
      *
-     * @return string Returns the variante.
+     * @return string|null Returns the variante.
      */
-    public function getVariante() {
+    public function getVariante(): ?string {
         return $this->variante;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return ArticlesEan Returns this Articles ean.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): ArticlesEan {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -104,10 +104,10 @@ class ArticlesEan {
     /**
      * Set the ean.
      *
-     * @param string $ean The ean.
+     * @param string|null $ean The ean.
      * @return ArticlesEan Returns this Articles ean.
      */
-    public function setEan($ean) {
+    public function setEan(?string $ean): ArticlesEan {
         $this->ean = $ean;
         return $this;
     }
@@ -115,10 +115,10 @@ class ArticlesEan {
     /**
      * Set the gamme.
      *
-     * @param int $gamme The gamme.
+     * @param int|null $gamme The gamme.
      * @return ArticlesEan Returns this Articles ean.
      */
-    public function setGamme($gamme) {
+    public function setGamme(?int $gamme): ArticlesEan {
         $this->gamme = $gamme;
         return $this;
     }
@@ -126,10 +126,10 @@ class ArticlesEan {
     /**
      * Set the variante.
      *
-     * @param string $variante The variante.
+     * @param string|null $variante The variante.
      * @return ArticlesEan Returns this Articles ean.
      */
-    public function setVariante($variante) {
+    public function setVariante(?string $variante): ArticlesEan {
         $this->variante = $variante;
         return $this;
     }

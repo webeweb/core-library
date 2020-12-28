@@ -27,7 +27,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCalc() {
+    public function testSetCodeCalc(): void {
 
         $obj = new ControleTva();
 
@@ -40,7 +40,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new ControleTva();
 
@@ -53,7 +53,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetColonneTaux() {
+    public function testSetColonneTaux(): void {
 
         $obj = new ControleTva();
 
@@ -66,7 +66,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new ControleTva();
 
@@ -79,7 +79,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMttTaux() {
+    public function testSetMttTaux(): void {
 
         $obj = new ControleTva();
 
@@ -92,7 +92,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new ControleTva();
 
@@ -105,7 +105,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRacineCpt() {
+    public function testSetRacineCpt(): void {
 
         $obj = new ControleTva();
 
@@ -118,7 +118,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieManuelle() {
+    public function testSetSaisieManuelle(): void {
 
         $obj = new ControleTva();
 
@@ -131,7 +131,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeControle() {
+    public function testSetTypeControle(): void {
 
         $obj = new ControleTva();
 
@@ -144,7 +144,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeLigne() {
+    public function testSetTypeLigne(): void {
 
         $obj = new ControleTva();
 
@@ -157,7 +157,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeurTaux() {
+    public function testSetValeurTaux(): void {
 
         $obj = new ControleTva();
 
@@ -170,7 +170,7 @@ class ControleTvaTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ControleTva();
 

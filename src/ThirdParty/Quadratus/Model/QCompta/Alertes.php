@@ -24,14 +24,14 @@ class Alertes {
     /**
      * Cloturee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $cloturee;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -45,32 +45,33 @@ class Alertes {
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the cloturee.
      *
-     * @return bool Returns the cloturee.
+     * @return bool|null Returns the cloturee.
      */
-    public function getCloturee() {
+    public function getCloturee(): ?bool{
         return $this->cloturee;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
@@ -79,26 +80,26 @@ class Alertes {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut() {
+    public function getDateDebut(): ?DateTime{
         return $this->dateDebut;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the cloturee.
      *
-     * @param bool $cloturee The cloturee.
+     * @param bool|null $cloturee The cloturee.
      * @return Alertes Returns this Alertes.
      */
-    public function setCloturee($cloturee) {
+    public function setCloturee(?bool $cloturee): Alertes {
         $this->cloturee = $cloturee;
         return $this;
     }
@@ -106,10 +107,10 @@ class Alertes {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return Alertes Returns this Alertes.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): Alertes {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -120,7 +121,7 @@ class Alertes {
      * @param DateTime|null $dateDebut The date debut.
      * @return Alertes Returns this Alertes.
      */
-    public function setDateDebut(DateTime $dateDebut = null) {
+    public function setDateDebut(?DateTime $dateDebut): Alertes {
         $this->dateDebut = $dateDebut;
         return $this;
     }
@@ -128,10 +129,10 @@ class Alertes {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return Alertes Returns this Alertes.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): Alertes {
         $this->uniqId = $uniqId;
         return $this;
     }

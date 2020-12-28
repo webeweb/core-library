@@ -24,7 +24,7 @@ class SuiviActivite {
     /**
      * Code coll.
      *
-     * @var string
+     * @var string|null
      */
     private $codeColl;
 
@@ -38,37 +38,38 @@ class SuiviActivite {
     /**
      * Description.
      *
-     * @var string
+     * @var string|null
      */
     private $description;
 
     /**
      * Id action.
      *
-     * @var int
+     * @var int|null
      */
     private $idAction;
 
     /**
      * Resultat.
      *
-     * @var string
+     * @var string|null
      */
     private $resultat;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code coll.
      *
-     * @return string Returns the code coll.
+     * @return string|null Returns the code coll.
      */
-    public function getCodeColl() {
+    public function getCodeColl(): ?string{
         return $this->codeColl;
     }
 
@@ -77,44 +78,44 @@ class SuiviActivite {
      *
      * @return DateTime|null Returns the date heure.
      */
-    public function getDateHeure() {
+    public function getDateHeure(): ?DateTime{
         return $this->dateHeure;
     }
 
     /**
      * Get the description.
      *
-     * @return string Returns the description.
+     * @return string|null Returns the description.
      */
-    public function getDescription() {
+    public function getDescription(): ?string{
         return $this->description;
     }
 
     /**
      * Get the id action.
      *
-     * @return int Returns the id action.
+     * @return int|null Returns the id action.
      */
-    public function getIdAction() {
+    public function getIdAction(): ?int{
         return $this->idAction;
     }
 
     /**
      * Get the resultat.
      *
-     * @return string Returns the resultat.
+     * @return string|null Returns the resultat.
      */
-    public function getResultat() {
+    public function getResultat(): ?string{
         return $this->resultat;
     }
 
     /**
      * Set the code coll.
      *
-     * @param string $codeColl The code coll.
+     * @param string|null $codeColl The code coll.
      * @return SuiviActivite Returns this Suivi activite.
      */
-    public function setCodeColl($codeColl) {
+    public function setCodeColl(?string $codeColl): SuiviActivite {
         $this->codeColl = $codeColl;
         return $this;
     }
@@ -125,7 +126,7 @@ class SuiviActivite {
      * @param DateTime|null $dateHeure The date heure.
      * @return SuiviActivite Returns this Suivi activite.
      */
-    public function setDateHeure(DateTime $dateHeure = null) {
+    public function setDateHeure(?DateTime $dateHeure): SuiviActivite {
         $this->dateHeure = $dateHeure;
         return $this;
     }
@@ -133,10 +134,10 @@ class SuiviActivite {
     /**
      * Set the description.
      *
-     * @param string $description The description.
+     * @param string|null $description The description.
      * @return SuiviActivite Returns this Suivi activite.
      */
-    public function setDescription($description) {
+    public function setDescription(?string $description): SuiviActivite {
         $this->description = $description;
         return $this;
     }
@@ -144,10 +145,10 @@ class SuiviActivite {
     /**
      * Set the id action.
      *
-     * @param int $idAction The id action.
+     * @param int|null $idAction The id action.
      * @return SuiviActivite Returns this Suivi activite.
      */
-    public function setIdAction($idAction) {
+    public function setIdAction(?int $idAction): SuiviActivite {
         $this->idAction = $idAction;
         return $this;
     }
@@ -155,10 +156,10 @@ class SuiviActivite {
     /**
      * Set the resultat.
      *
-     * @param string $resultat The resultat.
+     * @param string|null $resultat The resultat.
      * @return SuiviActivite Returns this Suivi activite.
      */
-    public function setResultat($resultat) {
+    public function setResultat(?string $resultat): SuiviActivite {
         $this->resultat = $resultat;
         return $this;
     }

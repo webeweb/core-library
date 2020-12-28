@@ -22,129 +22,130 @@ class SaisiePrepaColonne {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Intit col.
      *
-     * @var string
+     * @var string|null
      */
     private $intitCol;
 
     /**
      * Ligne abondement.
      *
-     * @var string
+     * @var string|null
      */
     private $ligneAbondement;
 
     /**
      * Num col.
      *
-     * @var string
+     * @var string|null
      */
     private $numCol;
 
     /**
      * Width.
      *
-     * @var int
+     * @var int|null
      */
     private $width;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
     /**
      * Get the intit col.
      *
-     * @return string Returns the intit col.
+     * @return string|null Returns the intit col.
      */
-    public function getIntitCol() {
+    public function getIntitCol(): ?string{
         return $this->intitCol;
     }
 
     /**
      * Get the ligne abondement.
      *
-     * @return string Returns the ligne abondement.
+     * @return string|null Returns the ligne abondement.
      */
-    public function getLigneAbondement() {
+    public function getLigneAbondement(): ?string{
         return $this->ligneAbondement;
     }
 
     /**
      * Get the num col.
      *
-     * @return string Returns the num col.
+     * @return string|null Returns the num col.
      */
-    public function getNumCol() {
+    public function getNumCol(): ?string{
         return $this->numCol;
     }
 
     /**
      * Get the width.
      *
-     * @return int Returns the width.
+     * @return int|null Returns the width.
      */
-    public function getWidth() {
+    public function getWidth(): ?int{
         return $this->width;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): SaisiePrepaColonne {
         $this->code = $code;
         return $this;
     }
@@ -152,10 +153,10 @@ class SaisiePrepaColonne {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): SaisiePrepaColonne {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -163,10 +164,10 @@ class SaisiePrepaColonne {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): SaisiePrepaColonne {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -174,10 +175,10 @@ class SaisiePrepaColonne {
     /**
      * Set the intit col.
      *
-     * @param string $intitCol The intit col.
+     * @param string|null $intitCol The intit col.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setIntitCol($intitCol) {
+    public function setIntitCol(?string $intitCol): SaisiePrepaColonne {
         $this->intitCol = $intitCol;
         return $this;
     }
@@ -185,10 +186,10 @@ class SaisiePrepaColonne {
     /**
      * Set the ligne abondement.
      *
-     * @param string $ligneAbondement The ligne abondement.
+     * @param string|null $ligneAbondement The ligne abondement.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setLigneAbondement($ligneAbondement) {
+    public function setLigneAbondement(?string $ligneAbondement): SaisiePrepaColonne {
         $this->ligneAbondement = $ligneAbondement;
         return $this;
     }
@@ -196,10 +197,10 @@ class SaisiePrepaColonne {
     /**
      * Set the num col.
      *
-     * @param string $numCol The num col.
+     * @param string|null $numCol The num col.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setNumCol($numCol) {
+    public function setNumCol(?string $numCol): SaisiePrepaColonne {
         $this->numCol = $numCol;
         return $this;
     }
@@ -207,10 +208,10 @@ class SaisiePrepaColonne {
     /**
      * Set the width.
      *
-     * @param int $width The width.
+     * @param int|null $width The width.
      * @return SaisiePrepaColonne Returns this Saisie prepa colonne.
      */
-    public function setWidth($width) {
+    public function setWidth(?int $width): SaisiePrepaColonne {
         $this->width = $width;
         return $this;
     }

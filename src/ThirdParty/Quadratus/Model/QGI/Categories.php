@@ -22,28 +22,28 @@ class Categories {
     /**
      * Car tec.
      *
-     * @var string
+     * @var string|null
      */
     private $carTec;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Parent.
      *
-     * @var string
+     * @var string|null
      */
     private $parent;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
@@ -51,52 +51,52 @@ class Categories {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the car tec.
      *
-     * @return string Returns the car tec.
+     * @return string|null Returns the car tec.
      */
-    public function getCarTec() {
+    public function getCarTec(): ?string {
         return $this->carTec;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the parent.
      *
-     * @return string Returns the parent.
+     * @return string|null Returns the parent.
      */
-    public function getParent() {
+    public function getParent(): ?string {
         return $this->parent;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Set the car tec.
      *
-     * @param string $carTec The car tec.
+     * @param string|null $carTec The car tec.
      * @return Categories Returns this Categories.
      */
-    public function setCarTec($carTec) {
+    public function setCarTec(?string $carTec): Categories {
         $this->carTec = $carTec;
         return $this;
     }
@@ -104,10 +104,10 @@ class Categories {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Categories Returns this Categories.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Categories {
         $this->libelle = $libelle;
         return $this;
     }
@@ -115,10 +115,10 @@ class Categories {
     /**
      * Set the parent.
      *
-     * @param string $parent The parent.
+     * @param string|null $parent The parent.
      * @return Categories Returns this Categories.
      */
-    public function setParent($parent) {
+    public function setParent(?string $parent): Categories {
         $this->parent = $parent;
         return $this;
     }
@@ -126,10 +126,10 @@ class Categories {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Categories Returns this Categories.
      */
-    public function setType($type) {
+    public function setType(?string $type): Categories {
         $this->type = $type;
         return $this;
     }

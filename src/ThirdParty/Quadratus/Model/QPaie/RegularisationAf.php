@@ -24,42 +24,42 @@ class RegularisationAf {
     /**
      * Base af.
      *
-     * @var float
+     * @var float|null
      */
     private $baseAf;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Indice bul deb.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceBulDeb;
 
     /**
      * Indice bul fin.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceBulFin;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -84,64 +84,65 @@ class RegularisationAf {
      */
     private $periode;
 
+
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the base af.
      *
-     * @return float Returns the base af.
+     * @return float|null Returns the base af.
      */
-    public function getBaseAf() {
+    public function getBaseAf(): ?float{
         return $this->baseAf;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the indice bul deb.
      *
-     * @return int Returns the indice bul deb.
+     * @return int|null Returns the indice bul deb.
      */
-    public function getIndiceBulDeb() {
+    public function getIndiceBulDeb(): ?int{
         return $this->indiceBulDeb;
     }
 
     /**
      * Get the indice bul fin.
      *
-     * @return int Returns the indice bul fin.
+     * @return int|null Returns the indice bul fin.
      */
-    public function getIndiceBulFin() {
+    public function getIndiceBulFin(): ?int{
         return $this->indiceBulFin;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -150,7 +151,7 @@ class RegularisationAf {
      *
      * @return DateTime|null Returns the per bul deb.
      */
-    public function getPerBulDeb() {
+    public function getPerBulDeb(): ?DateTime{
         return $this->perBulDeb;
     }
 
@@ -159,7 +160,7 @@ class RegularisationAf {
      *
      * @return DateTime|null Returns the per bul fin.
      */
-    public function getPerBulFin() {
+    public function getPerBulFin(): ?DateTime{
         return $this->perBulFin;
     }
 
@@ -168,17 +169,17 @@ class RegularisationAf {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Set the base af.
      *
-     * @param float $baseAf The base af.
+     * @param float|null $baseAf The base af.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setBaseAf($baseAf) {
+    public function setBaseAf(?float $baseAf): RegularisationAf {
         $this->baseAf = $baseAf;
         return $this;
     }
@@ -186,10 +187,10 @@ class RegularisationAf {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): RegularisationAf {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -197,10 +198,10 @@ class RegularisationAf {
     /**
      * Set the indice bul deb.
      *
-     * @param int $indiceBulDeb The indice bul deb.
+     * @param int|null $indiceBulDeb The indice bul deb.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setIndiceBulDeb($indiceBulDeb) {
+    public function setIndiceBulDeb(?int $indiceBulDeb): RegularisationAf {
         $this->indiceBulDeb = $indiceBulDeb;
         return $this;
     }
@@ -208,10 +209,10 @@ class RegularisationAf {
     /**
      * Set the indice bul fin.
      *
-     * @param int $indiceBulFin The indice bul fin.
+     * @param int|null $indiceBulFin The indice bul fin.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setIndiceBulFin($indiceBulFin) {
+    public function setIndiceBulFin(?int $indiceBulFin): RegularisationAf {
         $this->indiceBulFin = $indiceBulFin;
         return $this;
     }
@@ -219,10 +220,10 @@ class RegularisationAf {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): RegularisationAf {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -230,10 +231,10 @@ class RegularisationAf {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): RegularisationAf {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -244,7 +245,7 @@ class RegularisationAf {
      * @param DateTime|null $perBulDeb The per bul deb.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setPerBulDeb(DateTime $perBulDeb = null) {
+    public function setPerBulDeb(?DateTime $perBulDeb): RegularisationAf {
         $this->perBulDeb = $perBulDeb;
         return $this;
     }
@@ -255,7 +256,7 @@ class RegularisationAf {
      * @param DateTime|null $perBulFin The per bul fin.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setPerBulFin(DateTime $perBulFin = null) {
+    public function setPerBulFin(?DateTime $perBulFin): RegularisationAf {
         $this->perBulFin = $perBulFin;
         return $this;
     }
@@ -266,7 +267,7 @@ class RegularisationAf {
      * @param DateTime|null $periode The periode.
      * @return RegularisationAf Returns this Regularisation af.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): RegularisationAf {
         $this->periode = $periode;
         return $this;
     }

@@ -27,7 +27,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new ChargesProduits();
 
@@ -40,7 +40,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFeuille() {
+    public function testSetCodeFeuille(): void {
 
         $obj = new ChargesProduits();
 
@@ -53,7 +53,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaires() {
+    public function testSetCommentaires(): void {
 
         $obj = new ChargesProduits();
 
@@ -66,7 +66,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContrePartie() {
+    public function testSetContrePartie(): void {
 
         $obj = new ChargesProduits();
 
@@ -79,7 +79,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatLigne() {
+    public function testSetEtatLigne(): void {
 
         $obj = new ChargesProduits();
 
@@ -92,7 +92,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibEcriture() {
+    public function testSetLibEcriture(): void {
 
         $obj = new ChargesProduits();
 
@@ -105,7 +105,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisRevision() {
+    public function testSetMoisRevision(): void {
 
         $obj = new ChargesProduits();
 
@@ -118,7 +118,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtHt() {
+    public function testSetMtHt(): void {
 
         $obj = new ChargesProduits();
 
@@ -131,7 +131,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtN1() {
+    public function testSetMtN1(): void {
 
         $obj = new ChargesProduits();
 
@@ -144,7 +144,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new ChargesProduits();
 
@@ -157,7 +157,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new ChargesProduits();
 
@@ -170,7 +170,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotEcriture() {
+    public function testSetNumLotEcriture(): void {
 
         $obj = new ChargesProduits();
 
@@ -183,7 +183,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLotPeriodicite() {
+    public function testSetNumLotPeriodicite(): void {
 
         $obj = new ChargesProduits();
 
@@ -196,7 +196,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new ChargesProduits();
 
@@ -209,7 +209,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new ChargesProduits();
 
@@ -222,7 +222,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSens() {
+    public function testSetSens(): void {
 
         $obj = new ChargesProduits();
 
@@ -235,7 +235,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxTva() {
+    public function testSetTxTva(): void {
 
         $obj = new ChargesProduits();
 
@@ -248,7 +248,7 @@ class ChargesProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChargesProduits();
 

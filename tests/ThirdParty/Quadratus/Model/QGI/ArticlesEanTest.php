@@ -27,7 +27,7 @@ class ArticlesEanTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticlesEan();
 
@@ -40,7 +40,7 @@ class ArticlesEanTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEan() {
+    public function testSetEan(): void {
 
         $obj = new ArticlesEan();
 
@@ -53,7 +53,7 @@ class ArticlesEanTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGamme() {
+    public function testSetGamme(): void {
 
         $obj = new ArticlesEan();
 
@@ -66,7 +66,7 @@ class ArticlesEanTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVariante() {
+    public function testSetVariante(): void {
 
         $obj = new ArticlesEan();
 
@@ -79,7 +79,7 @@ class ArticlesEanTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticlesEan();
 

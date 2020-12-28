@@ -29,7 +29,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCategorie() {
+    public function testSetCodeCategorie(): void {
 
         $obj = new HistoriqueNotes();
 
@@ -42,7 +42,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new HistoriqueNotes();
 
@@ -56,7 +56,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCloture() {
+    public function testSetDateCloture(): void {
 
         // Set a Date/time mock.
         $dateCloture = new DateTime("2018-09-10");
@@ -73,7 +73,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -89,7 +89,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new HistoriqueNotes();
 
@@ -102,7 +102,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new HistoriqueNotes();
 
@@ -115,7 +115,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new HistoriqueNotes();
 
@@ -128,7 +128,7 @@ class HistoriqueNotesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoriqueNotes();
 

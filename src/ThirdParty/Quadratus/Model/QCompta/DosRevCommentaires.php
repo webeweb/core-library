@@ -24,42 +24,42 @@ class DosRevCommentaires {
     /**
      * Bloquant.
      *
-     * @var bool
+     * @var bool|null
      */
     private $bloquant;
 
     /**
      * Code coll modif question.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollModifQuestion;
 
     /**
      * Code coll modif reponse.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollModifReponse;
 
     /**
      * Code coll question.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollQuestion;
 
     /**
      * Code coll reponse.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollReponse;
 
     /**
      * Cpt comment.
      *
-     * @var int
+     * @var int|null
      */
     private $cptComment;
 
@@ -101,21 +101,21 @@ class DosRevCommentaires {
     /**
      * En attente reponse.
      *
-     * @var bool
+     * @var bool|null
      */
     private $enAttenteReponse;
 
     /**
      * Need answer.
      *
-     * @var bool
+     * @var bool|null
      */
     private $needAnswer;
 
     /**
      * Niveau.
      *
-     * @var string
+     * @var string|null
      */
     private $niveau;
 
@@ -129,89 +129,90 @@ class DosRevCommentaires {
     /**
      * Permanent.
      *
-     * @var bool
+     * @var bool|null
      */
     private $permanent;
 
     /**
      * Txt question.
      *
-     * @var string
+     * @var string|null
      */
     private $txtQuestion;
 
     /**
      * Txt reponse.
      *
-     * @var string
+     * @var string|null
      */
     private $txtReponse;
 
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the bloquant.
      *
-     * @return bool Returns the bloquant.
+     * @return bool|null Returns the bloquant.
      */
-    public function getBloquant() {
+    public function getBloquant(): ?bool{
         return $this->bloquant;
     }
 
     /**
      * Get the code coll modif question.
      *
-     * @return string Returns the code coll modif question.
+     * @return string|null Returns the code coll modif question.
      */
-    public function getCodeCollModifQuestion() {
+    public function getCodeCollModifQuestion(): ?string{
         return $this->codeCollModifQuestion;
     }
 
     /**
      * Get the code coll modif reponse.
      *
-     * @return string Returns the code coll modif reponse.
+     * @return string|null Returns the code coll modif reponse.
      */
-    public function getCodeCollModifReponse() {
+    public function getCodeCollModifReponse(): ?string{
         return $this->codeCollModifReponse;
     }
 
     /**
      * Get the code coll question.
      *
-     * @return string Returns the code coll question.
+     * @return string|null Returns the code coll question.
      */
-    public function getCodeCollQuestion() {
+    public function getCodeCollQuestion(): ?string{
         return $this->codeCollQuestion;
     }
 
     /**
      * Get the code coll reponse.
      *
-     * @return string Returns the code coll reponse.
+     * @return string|null Returns the code coll reponse.
      */
-    public function getCodeCollReponse() {
+    public function getCodeCollReponse(): ?string{
         return $this->codeCollReponse;
     }
 
     /**
      * Get the cpt comment.
      *
-     * @return int Returns the cpt comment.
+     * @return int|null Returns the cpt comment.
      */
-    public function getCptComment() {
+    public function getCptComment(): ?int{
         return $this->cptComment;
     }
 
@@ -220,7 +221,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt creation question.
      */
-    public function getDtCreationQuestion() {
+    public function getDtCreationQuestion(): ?DateTime{
         return $this->dtCreationQuestion;
     }
 
@@ -229,7 +230,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt creation reponse.
      */
-    public function getDtCreationReponse() {
+    public function getDtCreationReponse(): ?DateTime{
         return $this->dtCreationReponse;
     }
 
@@ -238,7 +239,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt modif question.
      */
-    public function getDtModifQuestion() {
+    public function getDtModifQuestion(): ?DateTime{
         return $this->dtModifQuestion;
     }
 
@@ -247,7 +248,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt modif reponse.
      */
-    public function getDtModifReponse() {
+    public function getDtModifReponse(): ?DateTime{
         return $this->dtModifReponse;
     }
 
@@ -256,34 +257,34 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt transfert da.
      */
-    public function getDtTransfertDa() {
+    public function getDtTransfertDa(): ?DateTime{
         return $this->dtTransfertDa;
     }
 
     /**
      * Get the en attente reponse.
      *
-     * @return bool Returns the en attente reponse.
+     * @return bool|null Returns the en attente reponse.
      */
-    public function getEnAttenteReponse() {
+    public function getEnAttenteReponse(): ?bool{
         return $this->enAttenteReponse;
     }
 
     /**
      * Get the need answer.
      *
-     * @return bool Returns the need answer.
+     * @return bool|null Returns the need answer.
      */
-    public function getNeedAnswer() {
+    public function getNeedAnswer(): ?bool{
         return $this->needAnswer;
     }
 
     /**
      * Get the niveau.
      *
-     * @return string Returns the niveau.
+     * @return string|null Returns the niveau.
      */
-    public function getNiveau() {
+    public function getNiveau(): ?string{
         return $this->niveau;
     }
 
@@ -292,53 +293,53 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the periode rev.
      */
-    public function getPeriodeRev() {
+    public function getPeriodeRev(): ?DateTime{
         return $this->periodeRev;
     }
 
     /**
      * Get the permanent.
      *
-     * @return bool Returns the permanent.
+     * @return bool|null Returns the permanent.
      */
-    public function getPermanent() {
+    public function getPermanent(): ?bool{
         return $this->permanent;
     }
 
     /**
      * Get the txt question.
      *
-     * @return string Returns the txt question.
+     * @return string|null Returns the txt question.
      */
-    public function getTxtQuestion() {
+    public function getTxtQuestion(): ?string{
         return $this->txtQuestion;
     }
 
     /**
      * Get the txt reponse.
      *
-     * @return string Returns the txt reponse.
+     * @return string|null Returns the txt reponse.
      */
-    public function getTxtReponse() {
+    public function getTxtReponse(): ?string{
         return $this->txtReponse;
     }
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int{
         return $this->type;
     }
 
     /**
      * Set the bloquant.
      *
-     * @param bool $bloquant The bloquant.
+     * @param bool|null $bloquant The bloquant.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setBloquant($bloquant) {
+    public function setBloquant(?bool $bloquant): DosRevCommentaires {
         $this->bloquant = $bloquant;
         return $this;
     }
@@ -346,10 +347,10 @@ class DosRevCommentaires {
     /**
      * Set the code coll modif question.
      *
-     * @param string $codeCollModifQuestion The code coll modif question.
+     * @param string|null $codeCollModifQuestion The code coll modif question.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setCodeCollModifQuestion($codeCollModifQuestion) {
+    public function setCodeCollModifQuestion(?string $codeCollModifQuestion): DosRevCommentaires {
         $this->codeCollModifQuestion = $codeCollModifQuestion;
         return $this;
     }
@@ -357,10 +358,10 @@ class DosRevCommentaires {
     /**
      * Set the code coll modif reponse.
      *
-     * @param string $codeCollModifReponse The code coll modif reponse.
+     * @param string|null $codeCollModifReponse The code coll modif reponse.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setCodeCollModifReponse($codeCollModifReponse) {
+    public function setCodeCollModifReponse(?string $codeCollModifReponse): DosRevCommentaires {
         $this->codeCollModifReponse = $codeCollModifReponse;
         return $this;
     }
@@ -368,10 +369,10 @@ class DosRevCommentaires {
     /**
      * Set the code coll question.
      *
-     * @param string $codeCollQuestion The code coll question.
+     * @param string|null $codeCollQuestion The code coll question.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setCodeCollQuestion($codeCollQuestion) {
+    public function setCodeCollQuestion(?string $codeCollQuestion): DosRevCommentaires {
         $this->codeCollQuestion = $codeCollQuestion;
         return $this;
     }
@@ -379,10 +380,10 @@ class DosRevCommentaires {
     /**
      * Set the code coll reponse.
      *
-     * @param string $codeCollReponse The code coll reponse.
+     * @param string|null $codeCollReponse The code coll reponse.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setCodeCollReponse($codeCollReponse) {
+    public function setCodeCollReponse(?string $codeCollReponse): DosRevCommentaires {
         $this->codeCollReponse = $codeCollReponse;
         return $this;
     }
@@ -390,10 +391,10 @@ class DosRevCommentaires {
     /**
      * Set the cpt comment.
      *
-     * @param int $cptComment The cpt comment.
+     * @param int|null $cptComment The cpt comment.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setCptComment($cptComment) {
+    public function setCptComment(?int $cptComment): DosRevCommentaires {
         $this->cptComment = $cptComment;
         return $this;
     }
@@ -404,7 +405,7 @@ class DosRevCommentaires {
      * @param DateTime|null $dtCreationQuestion The dt creation question.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setDtCreationQuestion(DateTime $dtCreationQuestion = null) {
+    public function setDtCreationQuestion(?DateTime $dtCreationQuestion): DosRevCommentaires {
         $this->dtCreationQuestion = $dtCreationQuestion;
         return $this;
     }
@@ -415,7 +416,7 @@ class DosRevCommentaires {
      * @param DateTime|null $dtCreationReponse The dt creation reponse.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setDtCreationReponse(DateTime $dtCreationReponse = null) {
+    public function setDtCreationReponse(?DateTime $dtCreationReponse): DosRevCommentaires {
         $this->dtCreationReponse = $dtCreationReponse;
         return $this;
     }
@@ -426,7 +427,7 @@ class DosRevCommentaires {
      * @param DateTime|null $dtModifQuestion The dt modif question.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setDtModifQuestion(DateTime $dtModifQuestion = null) {
+    public function setDtModifQuestion(?DateTime $dtModifQuestion): DosRevCommentaires {
         $this->dtModifQuestion = $dtModifQuestion;
         return $this;
     }
@@ -437,7 +438,7 @@ class DosRevCommentaires {
      * @param DateTime|null $dtModifReponse The dt modif reponse.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setDtModifReponse(DateTime $dtModifReponse = null) {
+    public function setDtModifReponse(?DateTime $dtModifReponse): DosRevCommentaires {
         $this->dtModifReponse = $dtModifReponse;
         return $this;
     }
@@ -448,7 +449,7 @@ class DosRevCommentaires {
      * @param DateTime|null $dtTransfertDa The dt transfert da.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setDtTransfertDa(DateTime $dtTransfertDa = null) {
+    public function setDtTransfertDa(?DateTime $dtTransfertDa): DosRevCommentaires {
         $this->dtTransfertDa = $dtTransfertDa;
         return $this;
     }
@@ -456,10 +457,10 @@ class DosRevCommentaires {
     /**
      * Set the en attente reponse.
      *
-     * @param bool $enAttenteReponse The en attente reponse.
+     * @param bool|null $enAttenteReponse The en attente reponse.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setEnAttenteReponse($enAttenteReponse) {
+    public function setEnAttenteReponse(?bool $enAttenteReponse): DosRevCommentaires {
         $this->enAttenteReponse = $enAttenteReponse;
         return $this;
     }
@@ -467,10 +468,10 @@ class DosRevCommentaires {
     /**
      * Set the need answer.
      *
-     * @param bool $needAnswer The need answer.
+     * @param bool|null $needAnswer The need answer.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setNeedAnswer($needAnswer) {
+    public function setNeedAnswer(?bool $needAnswer): DosRevCommentaires {
         $this->needAnswer = $needAnswer;
         return $this;
     }
@@ -478,10 +479,10 @@ class DosRevCommentaires {
     /**
      * Set the niveau.
      *
-     * @param string $niveau The niveau.
+     * @param string|null $niveau The niveau.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setNiveau($niveau) {
+    public function setNiveau(?string $niveau): DosRevCommentaires {
         $this->niveau = $niveau;
         return $this;
     }
@@ -492,7 +493,7 @@ class DosRevCommentaires {
      * @param DateTime|null $periodeRev The periode rev.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setPeriodeRev(DateTime $periodeRev = null) {
+    public function setPeriodeRev(?DateTime $periodeRev): DosRevCommentaires {
         $this->periodeRev = $periodeRev;
         return $this;
     }
@@ -500,10 +501,10 @@ class DosRevCommentaires {
     /**
      * Set the permanent.
      *
-     * @param bool $permanent The permanent.
+     * @param bool|null $permanent The permanent.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setPermanent($permanent) {
+    public function setPermanent(?bool $permanent): DosRevCommentaires {
         $this->permanent = $permanent;
         return $this;
     }
@@ -511,10 +512,10 @@ class DosRevCommentaires {
     /**
      * Set the txt question.
      *
-     * @param string $txtQuestion The txt question.
+     * @param string|null $txtQuestion The txt question.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setTxtQuestion($txtQuestion) {
+    public function setTxtQuestion(?string $txtQuestion): DosRevCommentaires {
         $this->txtQuestion = $txtQuestion;
         return $this;
     }
@@ -522,10 +523,10 @@ class DosRevCommentaires {
     /**
      * Set the txt reponse.
      *
-     * @param string $txtReponse The txt reponse.
+     * @param string|null $txtReponse The txt reponse.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setTxtReponse($txtReponse) {
+    public function setTxtReponse(?string $txtReponse): DosRevCommentaires {
         $this->txtReponse = $txtReponse;
         return $this;
     }
@@ -533,10 +534,10 @@ class DosRevCommentaires {
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      * @return DosRevCommentaires Returns this Dos rev commentaires.
      */
-    public function setType($type) {
+    public function setType(?int $type): DosRevCommentaires {
         $this->type = $type;
         return $this;
     }

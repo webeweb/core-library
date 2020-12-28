@@ -27,7 +27,7 @@ class StringAccountingCodeTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAccountingCode() {
+    public function testSetAccountingCode(): void {
 
         $obj = new TestStringAccountingCodeTrait();
 
@@ -40,7 +40,7 @@ class StringAccountingCodeTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringAccountingCodeTrait();
 

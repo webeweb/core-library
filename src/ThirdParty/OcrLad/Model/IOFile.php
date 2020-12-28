@@ -26,7 +26,7 @@ class IOFile extends SplFileInfo {
      *
      * @return string Returns the uniq filename.
      */
-    protected function getUniqFilename() {
+    protected function getUniqFilename(): string {
         return md5($this->getPathname());
     }
 
@@ -35,7 +35,7 @@ class IOFile extends SplFileInfo {
      *
      * @return string Returns the uniq filename "der".
      */
-    public function getUniqFilenameDer() {
+    public function getUniqFilenameDer(): string {
         return $this->getUniqFilenameWithExtension("der");
     }
 
@@ -44,7 +44,7 @@ class IOFile extends SplFileInfo {
      *
      * @return string Returns the uniq filename "pdf".
      */
-    public function getUniqFilenamePdf() {
+    public function getUniqFilenamePdf(): string {
         return $this->getUniqFilenameWithExtension("pdf");
     }
 
@@ -53,7 +53,7 @@ class IOFile extends SplFileInfo {
      *
      * @return string Returns the uniq filename "tif".
      */
-    public function getUniqFilenameTif() {
+    public function getUniqFilenameTif(): string {
         return "~" . $this->getUniqFilenameWithExtension("tif");
     }
 
@@ -63,7 +63,7 @@ class IOFile extends SplFileInfo {
      * @param string $extension The extension.
      * @return string Returns the uniq filename.
      */
-    protected function getUniqFilenameWithExtension($extension) {
+    protected function getUniqFilenameWithExtension(string $extension): string {
         return $this->getUniqFilename() . ".{$extension}";
     }
 
@@ -72,7 +72,7 @@ class IOFile extends SplFileInfo {
      *
      * @return string Returns the uniq filename "xml".
      */
-    public function getUniqFilenameXml() {
+    public function getUniqFilenameXml(): string {
         return $this->getUniqFilenameWithExtension("xml");
     }
 }

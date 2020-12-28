@@ -27,7 +27,7 @@ class IntegerHeightTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeight() {
+    public function testSetHeight(): void {
 
         $obj = new TestIntegerHeightTrait();
 
@@ -40,7 +40,7 @@ class IntegerHeightTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerHeightTrait();
 

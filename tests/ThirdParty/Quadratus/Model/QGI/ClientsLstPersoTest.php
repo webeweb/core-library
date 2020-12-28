@@ -29,7 +29,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChapitre() {
+    public function testSetChapitre(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -42,7 +42,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollCreat() {
+    public function testSetCollCreat(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -55,7 +55,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollModif() {
+    public function testSetCollModif(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -69,7 +69,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreat() {
+    public function testSetDateCreat(): void {
 
         // Set a Date/time mock.
         $dateCreat = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDescription() {
+    public function testSetDescription(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -115,7 +115,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGUniqId() {
+    public function testSetGUniqId(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -128,7 +128,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -141,7 +141,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLstCollab() {
+    public function testSetLstCollab(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -154,7 +154,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOptionVisu() {
+    public function testSetOptionVisu(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -167,7 +167,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrigine() {
+    public function testSetOrigine(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -181,7 +181,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -198,7 +198,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -214,7 +214,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisie() {
+    public function testSetTypeSaisie(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -227,7 +227,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSel() {
+    public function testSetTypeSel(): void {
 
         $obj = new ClientsLstPerso();
 
@@ -240,7 +240,7 @@ class ClientsLstPersoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsLstPerso();
 

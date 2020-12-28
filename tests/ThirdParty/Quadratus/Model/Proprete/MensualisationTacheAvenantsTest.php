@@ -29,7 +29,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -42,7 +42,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -55,7 +55,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -68,7 +68,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -81,7 +81,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -94,7 +94,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHistoMensSaisi() {
+    public function testSetHistoMensSaisi(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -107,7 +107,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensualisationCalculee() {
+    public function testSetMensualisationCalculee(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -120,7 +120,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensualisationSaisie() {
+    public function testSetMensualisationSaisie(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -133,7 +133,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -146,7 +146,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAvenant() {
+    public function testSetNumeroAvenant(): void {
 
         $obj = new MensualisationTacheAvenants();
 
@@ -160,7 +160,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDebutValidite() {
+    public function testSetPeriodeDebutValidite(): void {
 
         // Set a Date/time mock.
         $periodeDebutValidite = new DateTime("2018-09-10");
@@ -176,7 +176,7 @@ class MensualisationTacheAvenantsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MensualisationTacheAvenants();
 

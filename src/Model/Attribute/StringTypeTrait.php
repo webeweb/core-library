@@ -22,25 +22,25 @@ trait StringTypeTrait {
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     protected $type;
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      */
-    public function setType($type) {
+    public function setType(?string $type) {
         $this->type = $type;
         return $this;
     }

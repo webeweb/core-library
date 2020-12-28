@@ -27,7 +27,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -40,7 +40,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProBase() {
+    public function testSetFormaProBase(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -53,7 +53,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProBaseCdd() {
+    public function testSetFormaProBaseCdd(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -66,7 +66,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormaProCodeAssuj() {
+    public function testSetFormaProCodeAssuj(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -79,7 +79,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrudTypeDadsuDerogatoire() {
+    public function testSetPrudTypeDadsuDerogatoire(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -92,7 +92,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeApprentissageBase() {
+    public function testSetTaxeApprentissageBase(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -105,7 +105,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaxeApprentissageCodeAssuj() {
+    public function testSetTaxeApprentissageCodeAssuj(): void {
 
         $obj = new DadsuEtablissements();
 
@@ -118,7 +118,7 @@ class DadsuEtablissementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DadsuEtablissements();
 

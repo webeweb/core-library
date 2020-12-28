@@ -29,7 +29,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseCalcTds142() {
+    public function testSetBaseCalcTds142(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -42,7 +42,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAtPer() {
+    public function testSetCodeAtPer(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -55,7 +55,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -68,7 +68,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCumNetImpos() {
+    public function testSetCumNetImpos(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -82,7 +82,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriodeDecl() {
+    public function testSetDebutPeriodeDecl(): void {
 
         // Set a Date/time mock.
         $debutPeriodeDecl = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernierePeriodeAnnee() {
+    public function testSetDernierePeriodeAnnee(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -112,7 +112,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriodeDecl() {
+    public function testSetFinPeriodeDecl(): void {
 
         // Set a Date/time mock.
         $finPeriodeDecl = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnImpat() {
+    public function testSetIndemnImpat(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -141,7 +141,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantHSupComplExo() {
+    public function testSetMontantHSupComplExo(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -154,7 +154,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureSal() {
+    public function testSetNbHeureSal(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -167,7 +167,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureTrav() {
+    public function testSetNbHeureTrav(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -180,7 +180,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPerPaie() {
+    public function testSetNbPerPaie(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -193,7 +193,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -206,7 +206,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -219,7 +219,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetParticipServPers() {
+    public function testSetParticipServPers(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -232,7 +232,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPremierePeriodeAnnee() {
+    public function testSetPremierePeriodeAnnee(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -245,7 +245,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds100() {
+    public function testSetTds100(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -258,7 +258,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds102() {
+    public function testSetTds102(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -271,7 +271,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds103() {
+    public function testSetTds103(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -284,7 +284,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds105() {
+    public function testSetTds105(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -297,7 +297,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds107() {
+    public function testSetTds107(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -310,7 +310,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds108() {
+    public function testSetTds108(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -323,7 +323,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds109() {
+    public function testSetTds109(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -336,7 +336,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds110() {
+    public function testSetTds110(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -349,7 +349,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds111() {
+    public function testSetTds111(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -362,7 +362,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds112() {
+    public function testSetTds112(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -375,7 +375,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds113() {
+    public function testSetTds113(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -388,7 +388,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds117() {
+    public function testSetTds117(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -401,7 +401,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds119() {
+    public function testSetTds119(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -414,7 +414,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds120() {
+    public function testSetTds120(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -427,7 +427,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds121() {
+    public function testSetTds121(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -440,7 +440,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds122() {
+    public function testSetTds122(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -453,7 +453,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds125() {
+    public function testSetTds125(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -466,7 +466,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds127() {
+    public function testSetTds127(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -479,7 +479,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds128() {
+    public function testSetTds128(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -492,7 +492,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds132() {
+    public function testSetTds132(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -505,7 +505,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds133() {
+    public function testSetTds133(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -518,7 +518,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds134() {
+    public function testSetTds134(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -531,7 +531,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds135() {
+    public function testSetTds135(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -544,7 +544,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds136() {
+    public function testSetTds136(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -557,7 +557,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds137() {
+    public function testSetTds137(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -570,7 +570,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds139() {
+    public function testSetTds139(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -583,7 +583,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds141() {
+    public function testSetTds141(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -596,7 +596,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds142() {
+    public function testSetTds142(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -609,7 +609,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds142DejaCalcule() {
+    public function testSetTds142DejaCalcule(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -622,7 +622,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds75() {
+    public function testSetTds75(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -635,7 +635,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds77() {
+    public function testSetTds77(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -648,7 +648,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds78() {
+    public function testSetTds78(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -661,7 +661,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds81() {
+    public function testSetTds81(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -674,7 +674,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds82() {
+    public function testSetTds82(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -687,7 +687,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds84() {
+    public function testSetTds84(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -700,7 +700,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds85() {
+    public function testSetTds85(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -713,7 +713,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds86() {
+    public function testSetTds86(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -726,7 +726,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds87() {
+    public function testSetTds87(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -739,7 +739,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds88() {
+    public function testSetTds88(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -752,7 +752,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds89() {
+    public function testSetTds89(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -765,7 +765,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds90() {
+    public function testSetTds90(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -778,7 +778,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds91() {
+    public function testSetTds91(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -791,7 +791,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds92() {
+    public function testSetTds92(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -804,7 +804,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds93() {
+    public function testSetTds93(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -817,7 +817,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds94() {
+    public function testSetTds94(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -830,7 +830,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTds95() {
+    public function testSetTds95(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -843,7 +843,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsAbattFraisPro() {
+    public function testSetTdsAbattFraisPro(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -856,7 +856,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsAllocChom() {
+    public function testSetTdsAllocChom(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -869,7 +869,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsAllocComplIjss() {
+    public function testSetTdsAllocComplIjss(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -882,7 +882,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsAllocRetraite() {
+    public function testSetTdsAllocRetraite(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -895,7 +895,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsContribCeChequesVac() {
+    public function testSetTdsContribCeChequesVac(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -908,7 +908,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsCumulN() {
+    public function testSetTdsCumulN(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -921,7 +921,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsFlagRaz() {
+    public function testSetTdsFlagRaz(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -934,7 +934,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsIndemnDepartRetraite() {
+    public function testSetTdsIndemnDepartRetraite(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -947,7 +947,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsIndemnImposables() {
+    public function testSetTdsIndemnImposables(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -960,7 +960,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsRembFraisPro() {
+    public function testSetTdsRembFraisPro(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -973,7 +973,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsSommeExoTaxeSal() {
+    public function testSetTdsSommeExoTaxeSal(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -986,7 +986,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsSup120() {
+    public function testSetTdsSup120(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -999,7 +999,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsSup1200() {
+    public function testSetTdsSup1200(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -1012,7 +1012,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalPlaf() {
+    public function testSetTotalPlaf(): void {
 
         $obj = new EmpTdsCalcul();
 
@@ -1025,7 +1025,7 @@ class EmpTdsCalculTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpTdsCalcul();
 

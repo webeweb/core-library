@@ -22,49 +22,50 @@ class ArticlesRisques {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code risque.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRisque;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code risque.
      *
-     * @return string Returns the code risque.
+     * @return string|null Returns the code risque.
      */
-    public function getCodeRisque() {
+    public function getCodeRisque(): ?string{
         return $this->codeRisque;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return ArticlesRisques Returns this Articles risques.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): ArticlesRisques {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -72,10 +73,10 @@ class ArticlesRisques {
     /**
      * Set the code risque.
      *
-     * @param string $codeRisque The code risque.
+     * @param string|null $codeRisque The code risque.
      * @return ArticlesRisques Returns this Articles risques.
      */
-    public function setCodeRisque($codeRisque) {
+    public function setCodeRisque(?string $codeRisque): ArticlesRisques {
         $this->codeRisque = $codeRisque;
         return $this;
     }

@@ -22,25 +22,25 @@ trait StringHostnameTrait {
     /**
      * Hostname.
      *
-     * @var string
+     * @var string|null
      */
     protected $hostname;
 
     /**
      * Get the hostname.
      *
-     * @return string Returns the hostname.
+     * @return string|null Returns the hostname.
      */
-    public function getHostname() {
+    public function getHostname(): ?string {
         return $this->hostname;
     }
 
     /**
      * Set the hostname.
      *
-     * @param string $hostname The hostname.
+     * @param string|null $hostname The hostname.
      */
-    public function setHostname($hostname) {
+    public function setHostname(?string $hostname) {
         $this->hostname = $hostname;
         return $this;
     }

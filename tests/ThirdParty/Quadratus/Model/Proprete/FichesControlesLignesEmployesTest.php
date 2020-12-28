@@ -27,7 +27,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -40,7 +40,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -53,7 +53,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -66,7 +66,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -79,7 +79,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRemplacant() {
+    public function testSetCodeRemplacant(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -92,7 +92,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroFiche() {
+    public function testSetNumeroFiche(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -105,7 +105,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPoste() {
+    public function testSetPoste(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -118,7 +118,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemarque() {
+    public function testSetRemarque(): void {
 
         $obj = new FichesControlesLignesEmployes();
 
@@ -131,7 +131,7 @@ class FichesControlesLignesEmployesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new FichesControlesLignesEmployes();
 

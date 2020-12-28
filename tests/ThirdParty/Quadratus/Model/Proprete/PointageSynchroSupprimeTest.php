@@ -29,7 +29,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleEnreg() {
+    public function testSetCleEnreg(): void {
 
         $obj = new PointageSynchroSupprime();
 
@@ -42,7 +42,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCreeParGenPrev() {
+    public function testSetCreeParGenPrev(): void {
 
         $obj = new PointageSynchroSupprime();
 
@@ -55,7 +55,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomTable() {
+    public function testSetNomTable(): void {
 
         $obj = new PointageSynchroSupprime();
 
@@ -69,7 +69,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTimeSuppression() {
+    public function testSetTimeSuppression(): void {
 
         // Set a Date/time mock.
         $timeSuppression = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new PointageSynchroSupprime();
 
@@ -98,7 +98,7 @@ class PointageSynchroSupprimeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointageSynchroSupprime();
 

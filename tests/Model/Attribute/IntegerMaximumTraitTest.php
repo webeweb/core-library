@@ -27,7 +27,7 @@ class IntegerMaximumTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaximum() {
+    public function testSetMaximum(): void {
 
         $obj = new TestIntegerMaximumTrait();
 
@@ -40,7 +40,7 @@ class IntegerMaximumTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestIntegerMaximumTrait();
 

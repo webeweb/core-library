@@ -21,7 +21,7 @@ use WBW\Library\Core\Validator\API\ValidationStatusInterface;
  * @package WBW\Library\Core\Validator\Status
  * @abstract
  */
-abstract class AbstractValidationStatus implements JsonSerializable, ValidationStatusInterface {
+abstract class AbstractValidationStatus implements ValidationStatusInterface, JsonSerializable {
 
     /**
      * Get the code.
@@ -47,37 +47,37 @@ abstract class AbstractValidationStatus implements JsonSerializable, ValidationS
     /**
      * Constructor.
      *
-     * @param int $code The code.
-     * @param string $message The message.
+     * @param int|null $code The code.
+     * @param string|null $message The message.
      */
-    protected function __construct($code, $message) {
+    protected function __construct(?int $code, ?string $message) {
         $this->setCode($code);
         $this->setMessage($message);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getCode() {
+    public function getCode(): ?int {
         return $this->code;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getMessage() {
+    public function getMessage(): ?string {
         return $this->message;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function getRuleName() {
+    public function getRuleName(): ?string {
         return $this->ruleName;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     public function jsonSerialize() {
         return [
@@ -90,10 +90,10 @@ abstract class AbstractValidationStatus implements JsonSerializable, ValidationS
     /**
      * Set the code.
      *
-     * @param int $code The code.
+     * @param int|null $code The code.
      * @return ValidationStatusInterface Returns this validation status.
      */
-    public function setCode($code) {
+    public function setCode(?int $code): ValidationStatusInterface {
         $this->code = $code;
         return $this;
     }
@@ -101,18 +101,18 @@ abstract class AbstractValidationStatus implements JsonSerializable, ValidationS
     /**
      * Set the message.
      *
-     * @param string $message The message.
+     * @param string|null $message The message.
      * @return ValidationStatusInterface Returns this validation status.
      */
-    public function setMessage($message) {
+    public function setMessage(?string $message): ValidationStatusInterface {
         $this->message = $message;
         return $this;
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    public function setRuleName($ruleName) {
+    public function setRuleName(?string $ruleName): ValidationStatusInterface {
         $this->ruleName = $ruleName;
         return $this;
     }

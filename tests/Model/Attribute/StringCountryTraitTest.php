@@ -27,7 +27,7 @@ class StringCountryTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCountry() {
+    public function testSetCountry(): void {
 
         $obj = new TestStringCountryTrait();
 
@@ -40,7 +40,7 @@ class StringCountryTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringCountryTrait();
 

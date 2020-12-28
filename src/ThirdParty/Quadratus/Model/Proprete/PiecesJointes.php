@@ -24,28 +24,28 @@ class PiecesJointes {
     /**
      * A publier espace client.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aPublierEspaceClient;
 
     /**
      * A publier web.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aPublierWeb;
 
     /**
      * Archive.
      *
-     * @var bool
+     * @var bool|null
      */
     private $archive;
 
     /**
      * Auteur.
      *
-     * @var string
+     * @var string|null
      */
     private $auteur;
 
@@ -59,78 +59,79 @@ class PiecesJointes {
     /**
      * Indice.
      *
-     * @var int
+     * @var int|null
      */
     private $indice;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Nb doc attache.
      *
-     * @var int
+     * @var int|null
      */
     private $nbDocAttache;
 
     /**
      * Nom piece.
      *
-     * @var string
+     * @var string|null
      */
     private $nomPiece;
 
     /**
      * Num piece.
      *
-     * @var int
+     * @var int|null
      */
     private $numPiece;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a publier espace client.
      *
-     * @return bool Returns the a publier espace client.
+     * @return bool|null Returns the a publier espace client.
      */
-    public function getAPublierEspaceClient() {
+    public function getAPublierEspaceClient(): ?bool{
         return $this->aPublierEspaceClient;
     }
 
     /**
      * Get the a publier web.
      *
-     * @return bool Returns the a publier web.
+     * @return bool|null Returns the a publier web.
      */
-    public function getAPublierWeb() {
+    public function getAPublierWeb(): ?bool{
         return $this->aPublierWeb;
     }
 
     /**
      * Get the archive.
      *
-     * @return bool Returns the archive.
+     * @return bool|null Returns the archive.
      */
-    public function getArchive() {
+    public function getArchive(): ?bool{
         return $this->archive;
     }
 
     /**
      * Get the auteur.
      *
-     * @return string Returns the auteur.
+     * @return string|null Returns the auteur.
      */
-    public function getAuteur() {
+    public function getAuteur(): ?string{
         return $this->auteur;
     }
 
@@ -139,62 +140,62 @@ class PiecesJointes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
     /**
      * Get the indice.
      *
-     * @return int Returns the indice.
+     * @return int|null Returns the indice.
      */
-    public function getIndice() {
+    public function getIndice(): ?int{
         return $this->indice;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the nb doc attache.
      *
-     * @return int Returns the nb doc attache.
+     * @return int|null Returns the nb doc attache.
      */
-    public function getNbDocAttache() {
+    public function getNbDocAttache(): ?int{
         return $this->nbDocAttache;
     }
 
     /**
      * Get the nom piece.
      *
-     * @return string Returns the nom piece.
+     * @return string|null Returns the nom piece.
      */
-    public function getNomPiece() {
+    public function getNomPiece(): ?string{
         return $this->nomPiece;
     }
 
     /**
      * Get the num piece.
      *
-     * @return int Returns the num piece.
+     * @return int|null Returns the num piece.
      */
-    public function getNumPiece() {
+    public function getNumPiece(): ?int{
         return $this->numPiece;
     }
 
     /**
      * Set the a publier espace client.
      *
-     * @param bool $aPublierEspaceClient The a publier espace client.
+     * @param bool|null $aPublierEspaceClient The a publier espace client.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setAPublierEspaceClient($aPublierEspaceClient) {
+    public function setAPublierEspaceClient(?bool $aPublierEspaceClient): PiecesJointes {
         $this->aPublierEspaceClient = $aPublierEspaceClient;
         return $this;
     }
@@ -202,10 +203,10 @@ class PiecesJointes {
     /**
      * Set the a publier web.
      *
-     * @param bool $aPublierWeb The a publier web.
+     * @param bool|null $aPublierWeb The a publier web.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setAPublierWeb($aPublierWeb) {
+    public function setAPublierWeb(?bool $aPublierWeb): PiecesJointes {
         $this->aPublierWeb = $aPublierWeb;
         return $this;
     }
@@ -213,10 +214,10 @@ class PiecesJointes {
     /**
      * Set the archive.
      *
-     * @param bool $archive The archive.
+     * @param bool|null $archive The archive.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setArchive($archive) {
+    public function setArchive(?bool $archive): PiecesJointes {
         $this->archive = $archive;
         return $this;
     }
@@ -224,10 +225,10 @@ class PiecesJointes {
     /**
      * Set the auteur.
      *
-     * @param string $auteur The auteur.
+     * @param string|null $auteur The auteur.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setAuteur($auteur) {
+    public function setAuteur(?string $auteur): PiecesJointes {
         $this->auteur = $auteur;
         return $this;
     }
@@ -238,7 +239,7 @@ class PiecesJointes {
      * @param DateTime|null $dateCreation The date creation.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): PiecesJointes {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -246,10 +247,10 @@ class PiecesJointes {
     /**
      * Set the indice.
      *
-     * @param int $indice The indice.
+     * @param int|null $indice The indice.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setIndice($indice) {
+    public function setIndice(?int $indice): PiecesJointes {
         $this->indice = $indice;
         return $this;
     }
@@ -257,10 +258,10 @@ class PiecesJointes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): PiecesJointes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -268,10 +269,10 @@ class PiecesJointes {
     /**
      * Set the nb doc attache.
      *
-     * @param int $nbDocAttache The nb doc attache.
+     * @param int|null $nbDocAttache The nb doc attache.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setNbDocAttache($nbDocAttache) {
+    public function setNbDocAttache(?int $nbDocAttache): PiecesJointes {
         $this->nbDocAttache = $nbDocAttache;
         return $this;
     }
@@ -279,10 +280,10 @@ class PiecesJointes {
     /**
      * Set the nom piece.
      *
-     * @param string $nomPiece The nom piece.
+     * @param string|null $nomPiece The nom piece.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setNomPiece($nomPiece) {
+    public function setNomPiece(?string $nomPiece): PiecesJointes {
         $this->nomPiece = $nomPiece;
         return $this;
     }
@@ -290,10 +291,10 @@ class PiecesJointes {
     /**
      * Set the num piece.
      *
-     * @param int $numPiece The num piece.
+     * @param int|null $numPiece The num piece.
      * @return PiecesJointes Returns this Pieces jointes.
      */
-    public function setNumPiece($numPiece) {
+    public function setNumPiece(?int $numPiece): PiecesJointes {
         $this->numPiece = $numPiece;
         return $this;
     }

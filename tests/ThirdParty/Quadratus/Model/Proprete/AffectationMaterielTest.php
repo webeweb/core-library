@@ -29,7 +29,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetDepenseEuro() {
+    public function testSetBudgetDepenseEuro(): void {
 
         $obj = new AffectationMateriel();
 
@@ -42,7 +42,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetDepenseFrf() {
+    public function testSetBudgetDepenseFrf(): void {
 
         $obj = new AffectationMateriel();
 
@@ -55,7 +55,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AffectationMateriel();
 
@@ -68,7 +68,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new AffectationMateriel();
 
@@ -81,7 +81,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AffectationMateriel();
 
@@ -94,7 +94,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMateriel() {
+    public function testSetCodeMateriel(): void {
 
         $obj = new AffectationMateriel();
 
@@ -107,7 +107,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new AffectationMateriel();
 
@@ -121,7 +121,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutAffect() {
+    public function testSetDebutAffect(): void {
 
         // Set a Date/time mock.
         $debutAffect = new DateTime("2018-09-10");
@@ -138,7 +138,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinAffect() {
+    public function testSetFinAffect(): void {
 
         // Set a Date/time mock.
         $finAffect = new DateTime("2018-09-10");
@@ -154,7 +154,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentUtilise() {
+    public function testSetPourcentUtilise(): void {
 
         $obj = new AffectationMateriel();
 
@@ -167,7 +167,7 @@ class AffectationMaterielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffectationMateriel();
 

@@ -24,63 +24,63 @@ class PointEmpPrimes {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collabo valid.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaboValid;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code prime.
      *
-     * @var string
+     * @var string|null
      */
     private $codePrime;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Code tache type bt.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTacheTypeBt;
 
@@ -101,42 +101,42 @@ class PointEmpPrimes {
     /**
      * Defaut.
      *
-     * @var bool
+     * @var bool|null
      */
     private $defaut;
 
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Nb heure majoration.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHeureMajoration;
 
     /**
      * Nombre prime.
      *
-     * @var float
+     * @var float|null
      */
     private $nombrePrime;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Numero prime.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroPrime;
 
@@ -150,116 +150,117 @@ class PointEmpPrimes {
     /**
      * Taux prime.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxPrime;
 
     /**
      * Type majo.
      *
-     * @var string
+     * @var string|null
      */
     private $typeMajo;
 
     /**
      * Type prime.
      *
-     * @var string
+     * @var string|null
      */
     private $typePrime;
 
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collabo valid.
      *
-     * @return string Returns the code collabo valid.
+     * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid() {
+    public function getCodeCollaboValid(): ?string{
         return $this->codeCollaboValid;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code prime.
      *
-     * @return string Returns the code prime.
+     * @return string|null Returns the code prime.
      */
-    public function getCodePrime() {
+    public function getCodePrime(): ?string{
         return $this->codePrime;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the code tache type bt.
      *
-     * @return string Returns the code tache type bt.
+     * @return string|null Returns the code tache type bt.
      */
-    public function getCodeTacheTypeBt() {
+    public function getCodeTacheTypeBt(): ?string{
         return $this->codeTacheTypeBt;
     }
 
@@ -268,7 +269,7 @@ class PointEmpPrimes {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication() {
+    public function getDateApplication(): ?DateTime{
         return $this->dateApplication;
     }
 
@@ -277,61 +278,61 @@ class PointEmpPrimes {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro() {
+    public function getDateValidationSynchro(): ?DateTime{
         return $this->dateValidationSynchro;
     }
 
     /**
      * Get the defaut.
      *
-     * @return bool Returns the defaut.
+     * @return bool|null Returns the defaut.
      */
-    public function getDefaut() {
+    public function getDefaut(): ?bool{
         return $this->defaut;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the nb heure majoration.
      *
-     * @return float Returns the nb heure majoration.
+     * @return float|null Returns the nb heure majoration.
      */
-    public function getNbHeureMajoration() {
+    public function getNbHeureMajoration(): ?float{
         return $this->nbHeureMajoration;
     }
 
     /**
      * Get the nombre prime.
      *
-     * @return float Returns the nombre prime.
+     * @return float|null Returns the nombre prime.
      */
-    public function getNombrePrime() {
+    public function getNombrePrime(): ?float{
         return $this->nombrePrime;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the numero prime.
      *
-     * @return int Returns the numero prime.
+     * @return int|null Returns the numero prime.
      */
-    public function getNumeroPrime() {
+    public function getNumeroPrime(): ?int{
         return $this->numeroPrime;
     }
 
@@ -340,53 +341,53 @@ class PointEmpPrimes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the taux prime.
      *
-     * @return float Returns the taux prime.
+     * @return float|null Returns the taux prime.
      */
-    public function getTauxPrime() {
+    public function getTauxPrime(): ?float{
         return $this->tauxPrime;
     }
 
     /**
      * Get the type majo.
      *
-     * @return string Returns the type majo.
+     * @return string|null Returns the type majo.
      */
-    public function getTypeMajo() {
+    public function getTypeMajo(): ?string{
         return $this->typeMajo;
     }
 
     /**
      * Get the type prime.
      *
-     * @return string Returns the type prime.
+     * @return string|null Returns the type prime.
      */
-    public function getTypePrime() {
+    public function getTypePrime(): ?string{
         return $this->typePrime;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): PointEmpPrimes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -394,10 +395,10 @@ class PointEmpPrimes {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): PointEmpPrimes {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -405,10 +406,10 @@ class PointEmpPrimes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): PointEmpPrimes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -416,10 +417,10 @@ class PointEmpPrimes {
     /**
      * Set the code collabo valid.
      *
-     * @param string $codeCollaboValid The code collabo valid.
+     * @param string|null $codeCollaboValid The code collabo valid.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeCollaboValid($codeCollaboValid) {
+    public function setCodeCollaboValid(?string $codeCollaboValid): PointEmpPrimes {
         $this->codeCollaboValid = $codeCollaboValid;
         return $this;
     }
@@ -427,10 +428,10 @@ class PointEmpPrimes {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): PointEmpPrimes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -438,10 +439,10 @@ class PointEmpPrimes {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): PointEmpPrimes {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -449,10 +450,10 @@ class PointEmpPrimes {
     /**
      * Set the code prime.
      *
-     * @param string $codePrime The code prime.
+     * @param string|null $codePrime The code prime.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodePrime($codePrime) {
+    public function setCodePrime(?string $codePrime): PointEmpPrimes {
         $this->codePrime = $codePrime;
         return $this;
     }
@@ -460,10 +461,10 @@ class PointEmpPrimes {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): PointEmpPrimes {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -471,10 +472,10 @@ class PointEmpPrimes {
     /**
      * Set the code tache type bt.
      *
-     * @param string $codeTacheTypeBt The code tache type bt.
+     * @param string|null $codeTacheTypeBt The code tache type bt.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setCodeTacheTypeBt($codeTacheTypeBt) {
+    public function setCodeTacheTypeBt(?string $codeTacheTypeBt): PointEmpPrimes {
         $this->codeTacheTypeBt = $codeTacheTypeBt;
         return $this;
     }
@@ -485,7 +486,7 @@ class PointEmpPrimes {
      * @param DateTime|null $dateApplication The date application.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setDateApplication(DateTime $dateApplication = null) {
+    public function setDateApplication(?DateTime $dateApplication): PointEmpPrimes {
         $this->dateApplication = $dateApplication;
         return $this;
     }
@@ -496,7 +497,7 @@ class PointEmpPrimes {
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+    public function setDateValidationSynchro(?DateTime $dateValidationSynchro): PointEmpPrimes {
         $this->dateValidationSynchro = $dateValidationSynchro;
         return $this;
     }
@@ -504,10 +505,10 @@ class PointEmpPrimes {
     /**
      * Set the defaut.
      *
-     * @param bool $defaut The defaut.
+     * @param bool|null $defaut The defaut.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setDefaut($defaut) {
+    public function setDefaut(?bool $defaut): PointEmpPrimes {
         $this->defaut = $defaut;
         return $this;
     }
@@ -515,10 +516,10 @@ class PointEmpPrimes {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): PointEmpPrimes {
         $this->etat = $etat;
         return $this;
     }
@@ -526,10 +527,10 @@ class PointEmpPrimes {
     /**
      * Set the nb heure majoration.
      *
-     * @param float $nbHeureMajoration The nb heure majoration.
+     * @param float|null $nbHeureMajoration The nb heure majoration.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setNbHeureMajoration($nbHeureMajoration) {
+    public function setNbHeureMajoration(?float $nbHeureMajoration): PointEmpPrimes {
         $this->nbHeureMajoration = $nbHeureMajoration;
         return $this;
     }
@@ -537,10 +538,10 @@ class PointEmpPrimes {
     /**
      * Set the nombre prime.
      *
-     * @param float $nombrePrime The nombre prime.
+     * @param float|null $nombrePrime The nombre prime.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setNombrePrime($nombrePrime) {
+    public function setNombrePrime(?float $nombrePrime): PointEmpPrimes {
         $this->nombrePrime = $nombrePrime;
         return $this;
     }
@@ -548,10 +549,10 @@ class PointEmpPrimes {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): PointEmpPrimes {
         $this->numBt = $numBt;
         return $this;
     }
@@ -559,10 +560,10 @@ class PointEmpPrimes {
     /**
      * Set the numero prime.
      *
-     * @param int $numeroPrime The numero prime.
+     * @param int|null $numeroPrime The numero prime.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setNumeroPrime($numeroPrime) {
+    public function setNumeroPrime(?int $numeroPrime): PointEmpPrimes {
         $this->numeroPrime = $numeroPrime;
         return $this;
     }
@@ -573,7 +574,7 @@ class PointEmpPrimes {
      * @param DateTime|null $periode The periode.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): PointEmpPrimes {
         $this->periode = $periode;
         return $this;
     }
@@ -581,10 +582,10 @@ class PointEmpPrimes {
     /**
      * Set the taux prime.
      *
-     * @param float $tauxPrime The taux prime.
+     * @param float|null $tauxPrime The taux prime.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setTauxPrime($tauxPrime) {
+    public function setTauxPrime(?float $tauxPrime): PointEmpPrimes {
         $this->tauxPrime = $tauxPrime;
         return $this;
     }
@@ -592,10 +593,10 @@ class PointEmpPrimes {
     /**
      * Set the type majo.
      *
-     * @param string $typeMajo The type majo.
+     * @param string|null $typeMajo The type majo.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setTypeMajo($typeMajo) {
+    public function setTypeMajo(?string $typeMajo): PointEmpPrimes {
         $this->typeMajo = $typeMajo;
         return $this;
     }
@@ -603,10 +604,10 @@ class PointEmpPrimes {
     /**
      * Set the type prime.
      *
-     * @param string $typePrime The type prime.
+     * @param string|null $typePrime The type prime.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setTypePrime($typePrime) {
+    public function setTypePrime(?string $typePrime): PointEmpPrimes {
         $this->typePrime = $typePrime;
         return $this;
     }
@@ -614,10 +615,10 @@ class PointEmpPrimes {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return PointEmpPrimes Returns this Point emp primes.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): PointEmpPrimes {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

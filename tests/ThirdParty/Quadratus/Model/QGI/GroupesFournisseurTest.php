@@ -29,7 +29,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -42,7 +42,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeImputationAnalytique() {
+    public function testSetCodeImputationAnalytique(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -55,7 +55,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeReglement() {
+    public function testSetCodeReglement(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -68,7 +68,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -81,7 +81,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilCompta() {
+    public function testSetCodeVentilCompta(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -94,7 +94,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollectif() {
+    public function testSetCollectif(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -108,7 +108,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEntree() {
+    public function testSetDateEntree(): void {
 
         // Set a Date/time mock.
         $dateEntree = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateSortie() {
+    public function testSetDateSortie(): void {
 
         // Set a Date/time mock.
         $dateSortie = new DateTime("2018-09-10");
@@ -141,7 +141,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiLe() {
+    public function testSetDelaiLe(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -154,7 +154,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiNombre() {
+    public function testSetDelaiNombre(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -167,7 +167,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDelaiType() {
+    public function testSetDelaiType(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -180,7 +180,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire1() {
+    public function testSetDomiciliationBancaire1(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -193,7 +193,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomiciliationBancaire2() {
+    public function testSetDomiciliationBancaire2(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -206,7 +206,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFactureEuros() {
+    public function testSetFactureEuros(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -219,7 +219,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFournisseurPerdu() {
+    public function testSetFournisseurPerdu(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -232,7 +232,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupe() {
+    public function testSetGroupe(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -245,7 +245,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNombreEcheances() {
+    public function testSetNombreEcheances(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -258,7 +258,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -271,7 +271,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementDepartLe() {
+    public function testSetPaiementDepartLe(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -284,7 +284,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementLe() {
+    public function testSetPaiementLe(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -297,7 +297,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaiementNombreDeJours() {
+    public function testSetPaiementNombreDeJours(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -310,7 +310,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferencePiece() {
+    public function testSetReferencePiece(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -323,7 +323,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne1() {
+    public function testSetRemiseLigne1(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -336,7 +336,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne2() {
+    public function testSetRemiseLigne2(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -349,7 +349,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne3() {
+    public function testSetRemiseLigne3(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -362,7 +362,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied() {
+    public function testSetRemisePied(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -375,7 +375,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied2() {
+    public function testSetRemisePied2(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -388,7 +388,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemisePied3() {
+    public function testSetRemisePied3(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -401,7 +401,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -414,7 +414,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisEscompte() {
+    public function testSetSoumisEscompte(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -427,7 +427,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxEscompte() {
+    public function testSetTauxEscompte(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -440,7 +440,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransporteur() {
+    public function testSetTransporteur(): void {
 
         $obj = new GroupesFournisseur();
 
@@ -453,7 +453,7 @@ class GroupesFournisseurTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new GroupesFournisseur();
 

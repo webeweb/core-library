@@ -22,14 +22,14 @@ class TypeSocietes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
@@ -37,34 +37,34 @@ class TypeSocietes {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return TypeSocietes Returns this Type societes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): TypeSocietes {
         $this->code = $code;
         return $this;
     }
@@ -72,10 +72,10 @@ class TypeSocietes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TypeSocietes Returns this Type societes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TypeSocietes {
         $this->libelle = $libelle;
         return $this;
     }

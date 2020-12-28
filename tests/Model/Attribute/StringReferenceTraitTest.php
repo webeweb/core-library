@@ -27,7 +27,7 @@ class StringReferenceTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReference() {
+    public function testSetReference(): void {
 
         $obj = new TestStringReferenceTrait();
 
@@ -40,7 +40,7 @@ class StringReferenceTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringReferenceTrait();
 

@@ -24,28 +24,28 @@ class AbsencesExcel {
     /**
      * Id.
      *
-     * @var int
+     * @var int|null
      */
     private $id;
 
     /**
      * Nbh sais.
      *
-     * @var float
+     * @var float|null
      */
     private $nbhSais;
 
     /**
      * Nbj sais.
      *
-     * @var float
+     * @var float|null
      */
     private $nbjSais;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -66,57 +66,58 @@ class AbsencesExcel {
     /**
      * Type abs cp.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAbsCp;
 
     /**
      * Type import.
      *
-     * @var int
+     * @var int|null
      */
     private $typeImport;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the id.
      *
-     * @return int Returns the id.
+     * @return int|null Returns the id.
      */
-    public function getId() {
+    public function getId(): ?int{
         return $this->id;
     }
 
     /**
      * Get the nbh sais.
      *
-     * @return float Returns the nbh sais.
+     * @return float|null Returns the nbh sais.
      */
-    public function getNbhSais() {
+    public function getNbhSais(): ?float{
         return $this->nbhSais;
     }
 
     /**
      * Get the nbj sais.
      *
-     * @return float Returns the nbj sais.
+     * @return float|null Returns the nbj sais.
      */
-    public function getNbjSais() {
+    public function getNbjSais(): ?float{
         return $this->nbjSais;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -125,7 +126,7 @@ class AbsencesExcel {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -134,35 +135,35 @@ class AbsencesExcel {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the type abs cp.
      *
-     * @return string Returns the type abs cp.
+     * @return string|null Returns the type abs cp.
      */
-    public function getTypeAbsCp() {
+    public function getTypeAbsCp(): ?string{
         return $this->typeAbsCp;
     }
 
     /**
      * Get the type import.
      *
-     * @return int Returns the type import.
+     * @return int|null Returns the type import.
      */
-    public function getTypeImport() {
+    public function getTypeImport(): ?int{
         return $this->typeImport;
     }
 
     /**
      * Set the id.
      *
-     * @param int $id The id.
+     * @param int|null $id The id.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setId($id) {
+    public function setId(?int $id): AbsencesExcel {
         $this->id = $id;
         return $this;
     }
@@ -170,10 +171,10 @@ class AbsencesExcel {
     /**
      * Set the nbh sais.
      *
-     * @param float $nbhSais The nbh sais.
+     * @param float|null $nbhSais The nbh sais.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setNbhSais($nbhSais) {
+    public function setNbhSais(?float $nbhSais): AbsencesExcel {
         $this->nbhSais = $nbhSais;
         return $this;
     }
@@ -181,10 +182,10 @@ class AbsencesExcel {
     /**
      * Set the nbj sais.
      *
-     * @param float $nbjSais The nbj sais.
+     * @param float|null $nbjSais The nbj sais.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setNbjSais($nbjSais) {
+    public function setNbjSais(?float $nbjSais): AbsencesExcel {
         $this->nbjSais = $nbjSais;
         return $this;
     }
@@ -192,10 +193,10 @@ class AbsencesExcel {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): AbsencesExcel {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -206,7 +207,7 @@ class AbsencesExcel {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): AbsencesExcel {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -217,7 +218,7 @@ class AbsencesExcel {
      * @param DateTime|null $periodeFin The periode fin.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): AbsencesExcel {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -225,10 +226,10 @@ class AbsencesExcel {
     /**
      * Set the type abs cp.
      *
-     * @param string $typeAbsCp The type abs cp.
+     * @param string|null $typeAbsCp The type abs cp.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setTypeAbsCp($typeAbsCp) {
+    public function setTypeAbsCp(?string $typeAbsCp): AbsencesExcel {
         $this->typeAbsCp = $typeAbsCp;
         return $this;
     }
@@ -236,10 +237,10 @@ class AbsencesExcel {
     /**
      * Set the type import.
      *
-     * @param int $typeImport The type import.
+     * @param int|null $typeImport The type import.
      * @return AbsencesExcel Returns this Absences excel.
      */
-    public function setTypeImport($typeImport) {
+    public function setTypeImport(?int $typeImport): AbsencesExcel {
         $this->typeImport = $typeImport;
         return $this;
     }

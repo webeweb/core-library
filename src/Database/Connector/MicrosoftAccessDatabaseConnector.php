@@ -34,18 +34,18 @@ class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
      * Constructor.
      *
      * @param Authenticator $authenticator The authenticator.
-     * @param string $database The database.
+     * @param string|null $database The database.
      */
-    public function __construct(Authenticator $authenticator, $database) {
+    public function __construct(Authenticator $authenticator, ?string $database) {
         parent::__construct($authenticator);
 
         $this->setDatabase($database);
     }
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function connect() {
+    protected function connect(): PDO {
 
         if (false === file_exists($this->getDatabase())) {
             throw new InvalidArgumentException(sprintf('The database "%s" was not found', $this->getDatabase()));

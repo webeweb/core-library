@@ -22,25 +22,25 @@ trait StringPathnameTrait {
     /**
      * Pathname.
      *
-     * @var string
+     * @var string|null
      */
     protected $pathname;
 
     /**
      * Get the pathname.
      *
-     * @return string Returns the pathname.
+     * @return string|null Returns the pathname.
      */
-    public function getPathname() {
+    public function getPathname(): ?string {
         return $this->pathname;
     }
 
     /**
      * Set the pathname.
      *
-     * @param string $pathname The pathname.
+     * @param string|null $pathname The pathname.
      */
-    public function setPathname($pathname) {
+    public function setPathname(?string $pathname) {
         $this->pathname = $pathname;
         return $this;
     }

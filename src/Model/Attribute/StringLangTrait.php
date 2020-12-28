@@ -22,25 +22,25 @@ trait StringLangTrait {
     /**
      * Lang.
      *
-     * @var string
+     * @var string|null
      */
     protected $lang;
 
     /**
      * Get the lang.
      *
-     * @return string Returns the lang.
+     * @return string|null Returns the lang.
      */
-    public function getLang() {
+    public function getLang(): ?string {
         return $this->lang;
     }
 
     /**
      * Set the lang.
      *
-     * @param string $lang The lang.
+     * @param string|null $lang The lang.
      */
-    public function setLang($lang) {
+    public function setLang(?string $lang) {
         $this->lang = $lang;
         return $this;
     }

@@ -27,7 +27,7 @@ class AgendaGroupes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new AgendaGroupes2();
 
@@ -40,7 +40,7 @@ class AgendaGroupes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new AgendaGroupes2();
 
@@ -53,7 +53,7 @@ class AgendaGroupes2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaGroupes2();
 

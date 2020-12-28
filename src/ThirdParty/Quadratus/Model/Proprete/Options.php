@@ -24,7 +24,7 @@ class Options {
     /**
      * Booleen.
      *
-     * @var bool
+     * @var bool|null
      */
     private $booleen;
 
@@ -38,37 +38,38 @@ class Options {
     /**
      * Descriptif.
      *
-     * @var string
+     * @var string|null
      */
     private $descriptif;
 
     /**
      * Numerique.
      *
-     * @var float
+     * @var float|null
      */
     private $numerique;
 
     /**
      * String.
      *
-     * @var string
+     * @var string|null
      */
     private $string;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the booleen.
      *
-     * @return bool Returns the booleen.
+     * @return bool|null Returns the booleen.
      */
-    public function getBooleen() {
+    public function getBooleen(): ?bool{
         return $this->booleen;
     }
 
@@ -77,44 +78,44 @@ class Options {
      *
      * @return DateTime|null Returns the date heure.
      */
-    public function getDateHeure() {
+    public function getDateHeure(): ?DateTime{
         return $this->dateHeure;
     }
 
     /**
      * Get the descriptif.
      *
-     * @return string Returns the descriptif.
+     * @return string|null Returns the descriptif.
      */
-    public function getDescriptif() {
+    public function getDescriptif(): ?string{
         return $this->descriptif;
     }
 
     /**
      * Get the numerique.
      *
-     * @return float Returns the numerique.
+     * @return float|null Returns the numerique.
      */
-    public function getNumerique() {
+    public function getNumerique(): ?float{
         return $this->numerique;
     }
 
     /**
      * Get the string.
      *
-     * @return string Returns the string.
+     * @return string|null Returns the string.
      */
-    public function getString() {
+    public function getString(): ?string{
         return $this->string;
     }
 
     /**
      * Set the booleen.
      *
-     * @param bool $booleen The booleen.
+     * @param bool|null $booleen The booleen.
      * @return Options Returns this Options.
      */
-    public function setBooleen($booleen) {
+    public function setBooleen(?bool $booleen): Options {
         $this->booleen = $booleen;
         return $this;
     }
@@ -125,7 +126,7 @@ class Options {
      * @param DateTime|null $dateHeure The date heure.
      * @return Options Returns this Options.
      */
-    public function setDateHeure(DateTime $dateHeure = null) {
+    public function setDateHeure(?DateTime $dateHeure): Options {
         $this->dateHeure = $dateHeure;
         return $this;
     }
@@ -133,10 +134,10 @@ class Options {
     /**
      * Set the descriptif.
      *
-     * @param string $descriptif The descriptif.
+     * @param string|null $descriptif The descriptif.
      * @return Options Returns this Options.
      */
-    public function setDescriptif($descriptif) {
+    public function setDescriptif(?string $descriptif): Options {
         $this->descriptif = $descriptif;
         return $this;
     }
@@ -144,10 +145,10 @@ class Options {
     /**
      * Set the numerique.
      *
-     * @param float $numerique The numerique.
+     * @param float|null $numerique The numerique.
      * @return Options Returns this Options.
      */
-    public function setNumerique($numerique) {
+    public function setNumerique(?float $numerique): Options {
         $this->numerique = $numerique;
         return $this;
     }
@@ -155,10 +156,10 @@ class Options {
     /**
      * Set the string.
      *
-     * @param string $string The string.
+     * @param string|null $string The string.
      * @return Options Returns this Options.
      */
-    public function setString($string) {
+    public function setString(?string $string): Options {
         $this->string = $string;
         return $this;
     }

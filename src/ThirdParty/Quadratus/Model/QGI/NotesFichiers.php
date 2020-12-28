@@ -31,28 +31,28 @@ class NotesFichiers {
     /**
      * Nom fichier.
      *
-     * @var string
+     * @var string|null
      */
     private $nomFichier;
 
     /**
      * Num note.
      *
-     * @var string
+     * @var string|null
      */
     private $numNote;
 
     /**
      * Origine fichier.
      *
-     * @var string
+     * @var string|null
      */
     private $origineFichier;
 
     /**
      * Titre.
      *
-     * @var string
+     * @var string|null
      */
     private $titre;
 
@@ -60,7 +60,7 @@ class NotesFichiers {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -68,43 +68,43 @@ class NotesFichiers {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
     /**
      * Get the nom fichier.
      *
-     * @return string Returns the nom fichier.
+     * @return string|null Returns the nom fichier.
      */
-    public function getNomFichier() {
+    public function getNomFichier(): ?string {
         return $this->nomFichier;
     }
 
     /**
      * Get the num note.
      *
-     * @return string Returns the num note.
+     * @return string|null Returns the num note.
      */
-    public function getNumNote() {
+    public function getNumNote(): ?string {
         return $this->numNote;
     }
 
     /**
      * Get the origine fichier.
      *
-     * @return string Returns the origine fichier.
+     * @return string|null Returns the origine fichier.
      */
-    public function getOrigineFichier() {
+    public function getOrigineFichier(): ?string {
         return $this->origineFichier;
     }
 
     /**
      * Get the titre.
      *
-     * @return string Returns the titre.
+     * @return string|null Returns the titre.
      */
-    public function getTitre() {
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -114,7 +114,7 @@ class NotesFichiers {
      * @param DateTime|null $dateCreation The date creation.
      * @return NotesFichiers Returns this Notes fichiers.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): NotesFichiers {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -122,10 +122,10 @@ class NotesFichiers {
     /**
      * Set the nom fichier.
      *
-     * @param string $nomFichier The nom fichier.
+     * @param string|null $nomFichier The nom fichier.
      * @return NotesFichiers Returns this Notes fichiers.
      */
-    public function setNomFichier($nomFichier) {
+    public function setNomFichier(?string $nomFichier): NotesFichiers {
         $this->nomFichier = $nomFichier;
         return $this;
     }
@@ -133,10 +133,10 @@ class NotesFichiers {
     /**
      * Set the num note.
      *
-     * @param string $numNote The num note.
+     * @param string|null $numNote The num note.
      * @return NotesFichiers Returns this Notes fichiers.
      */
-    public function setNumNote($numNote) {
+    public function setNumNote(?string $numNote): NotesFichiers {
         $this->numNote = $numNote;
         return $this;
     }
@@ -144,10 +144,10 @@ class NotesFichiers {
     /**
      * Set the origine fichier.
      *
-     * @param string $origineFichier The origine fichier.
+     * @param string|null $origineFichier The origine fichier.
      * @return NotesFichiers Returns this Notes fichiers.
      */
-    public function setOrigineFichier($origineFichier) {
+    public function setOrigineFichier(?string $origineFichier): NotesFichiers {
         $this->origineFichier = $origineFichier;
         return $this;
     }
@@ -155,10 +155,10 @@ class NotesFichiers {
     /**
      * Set the titre.
      *
-     * @param string $titre The titre.
+     * @param string|null $titre The titre.
      * @return NotesFichiers Returns this Notes fichiers.
      */
-    public function setTitre($titre) {
+    public function setTitre(?string $titre): NotesFichiers {
         $this->titre = $titre;
         return $this;
     }

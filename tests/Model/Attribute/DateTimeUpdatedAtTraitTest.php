@@ -30,7 +30,7 @@ class DateTimeUpdatedAtTraitTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetUpdatedAt() {
+    public function testSetUpdatedAt(): void {
 
         // Set a date/time mock.
         $updatedAt = new DateTime();
@@ -46,7 +46,7 @@ class DateTimeUpdatedAtTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestDateTimeUpdatedAtTrait();
 

@@ -29,7 +29,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -42,7 +42,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -55,7 +55,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -68,7 +68,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -81,7 +81,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee1() {
+    public function testSetDureeBudgetee1(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -94,7 +94,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee10() {
+    public function testSetDureeBudgetee10(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -107,7 +107,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee11() {
+    public function testSetDureeBudgetee11(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -120,7 +120,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee12() {
+    public function testSetDureeBudgetee12(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -133,7 +133,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee2() {
+    public function testSetDureeBudgetee2(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -146,7 +146,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee3() {
+    public function testSetDureeBudgetee3(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -159,7 +159,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee4() {
+    public function testSetDureeBudgetee4(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -172,7 +172,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee5() {
+    public function testSetDureeBudgetee5(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -185,7 +185,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee6() {
+    public function testSetDureeBudgetee6(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -198,7 +198,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee7() {
+    public function testSetDureeBudgetee7(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -211,7 +211,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee8() {
+    public function testSetDureeBudgetee8(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -224,7 +224,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDureeBudgetee9() {
+    public function testSetDureeBudgetee9(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -237,7 +237,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new TachesDureeBudgetee();
 
@@ -251,7 +251,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -267,7 +267,7 @@ class TachesDureeBudgeteeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TachesDureeBudgetee();
 

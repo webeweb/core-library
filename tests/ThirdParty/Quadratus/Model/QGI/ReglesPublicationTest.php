@@ -27,7 +27,7 @@ class ReglesPublicationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChainePublication() {
+    public function testSetChainePublication(): void {
 
         $obj = new ReglesPublication();
 
@@ -40,7 +40,7 @@ class ReglesPublicationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new ReglesPublication();
 
@@ -53,7 +53,7 @@ class ReglesPublicationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEwsPublication() {
+    public function testSetEwsPublication(): void {
 
         $obj = new ReglesPublication();
 
@@ -66,7 +66,7 @@ class ReglesPublicationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePublication() {
+    public function testSetTypePublication(): void {
 
         $obj = new ReglesPublication();
 
@@ -79,7 +79,7 @@ class ReglesPublicationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetWebPublication() {
+    public function testSetWebPublication(): void {
 
         $obj = new ReglesPublication();
 
@@ -92,7 +92,7 @@ class ReglesPublicationTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ReglesPublication();
 

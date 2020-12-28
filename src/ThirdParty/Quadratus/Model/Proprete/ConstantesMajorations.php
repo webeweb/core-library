@@ -22,97 +22,98 @@ class ConstantesMajorations {
     /**
      * Except.
      *
-     * @var float
+     * @var float|null
      */
     private $except;
 
     /**
      * Mai.
      *
-     * @var float
+     * @var float|null
      */
     private $mai;
 
     /**
      * Normal.
      *
-     * @var float
+     * @var float|null
      */
     private $normal;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
     /**
      * Type2.
      *
-     * @var float
+     * @var float|null
      */
     private $type2;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the except.
      *
-     * @return float Returns the except.
+     * @return float|null Returns the except.
      */
-    public function getExcept() {
+    public function getExcept(): ?float{
         return $this->except;
     }
 
     /**
      * Get the mai.
      *
-     * @return float Returns the mai.
+     * @return float|null Returns the mai.
      */
-    public function getMai() {
+    public function getMai(): ?float{
         return $this->mai;
     }
 
     /**
      * Get the normal.
      *
-     * @return float Returns the normal.
+     * @return float|null Returns the normal.
      */
-    public function getNormal() {
+    public function getNormal(): ?float{
         return $this->normal;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Get the type2.
      *
-     * @return float Returns the type2.
+     * @return float|null Returns the type2.
      */
-    public function getType2() {
+    public function getType2(): ?float{
         return $this->type2;
     }
 
     /**
      * Set the except.
      *
-     * @param float $except The except.
+     * @param float|null $except The except.
      * @return ConstantesMajorations Returns this Constantes majorations.
      */
-    public function setExcept($except) {
+    public function setExcept(?float $except): ConstantesMajorations {
         $this->except = $except;
         return $this;
     }
@@ -120,10 +121,10 @@ class ConstantesMajorations {
     /**
      * Set the mai.
      *
-     * @param float $mai The mai.
+     * @param float|null $mai The mai.
      * @return ConstantesMajorations Returns this Constantes majorations.
      */
-    public function setMai($mai) {
+    public function setMai(?float $mai): ConstantesMajorations {
         $this->mai = $mai;
         return $this;
     }
@@ -131,10 +132,10 @@ class ConstantesMajorations {
     /**
      * Set the normal.
      *
-     * @param float $normal The normal.
+     * @param float|null $normal The normal.
      * @return ConstantesMajorations Returns this Constantes majorations.
      */
-    public function setNormal($normal) {
+    public function setNormal(?float $normal): ConstantesMajorations {
         $this->normal = $normal;
         return $this;
     }
@@ -142,10 +143,10 @@ class ConstantesMajorations {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return ConstantesMajorations Returns this Constantes majorations.
      */
-    public function setType($type) {
+    public function setType(?string $type): ConstantesMajorations {
         $this->type = $type;
         return $this;
     }
@@ -153,10 +154,10 @@ class ConstantesMajorations {
     /**
      * Set the type2.
      *
-     * @param float $type2 The type2.
+     * @param float|null $type2 The type2.
      * @return ConstantesMajorations Returns this Constantes majorations.
      */
-    public function setType2($type2) {
+    public function setType2(?float $type2): ConstantesMajorations {
         $this->type2 = $type2;
         return $this;
     }

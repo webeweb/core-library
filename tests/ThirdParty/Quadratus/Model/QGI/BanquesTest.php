@@ -29,7 +29,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new Banques();
 
@@ -42,7 +42,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBanque() {
+    public function testSetCodeBanque(): void {
 
         $obj = new Banques();
 
@@ -55,7 +55,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Banques();
 
@@ -68,7 +68,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Banques();
 
@@ -81,7 +81,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdiTdfc() {
+    public function testSetEdiTdfc(): void {
 
         $obj = new Banques();
 
@@ -94,7 +94,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new Banques();
 
@@ -107,7 +107,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdCarteAppelEnv() {
+    public function testSetIdCarteAppelEnv(): void {
 
         $obj = new Banques();
 
@@ -120,7 +120,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdCarteAppelEnv2() {
+    public function testSetIdCarteAppelEnv2(): void {
 
         $obj = new Banques();
 
@@ -133,7 +133,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdCarteAppelEnv3() {
+    public function testSetIdCarteAppelEnv3(): void {
 
         $obj = new Banques();
 
@@ -146,7 +146,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdCarteAppelRec() {
+    public function testSetIdCarteAppelRec(): void {
 
         $obj = new Banques();
 
@@ -159,7 +159,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsBanqueFact() {
+    public function testSetIsBanqueFact(): void {
 
         $obj = new Banques();
 
@@ -173,7 +173,7 @@ class BanquesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetMandatDateDebutEtebac() {
+    public function testSetMandatDateDebutEtebac(): void {
 
         // Set a Date/time mock.
         $mandatDateDebutEtebac = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatDureeEtebac() {
+    public function testSetMandatDureeEtebac(): void {
 
         $obj = new Banques();
 
@@ -202,7 +202,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMandatPieceJointeEtebac() {
+    public function testSetMandatPieceJointeEtebac(): void {
 
         $obj = new Banques();
 
@@ -215,7 +215,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbPrelevements() {
+    public function testSetNbPrelevements(): void {
 
         $obj = new Banques();
 
@@ -228,7 +228,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomInt() {
+    public function testSetNomInt(): void {
 
         $obj = new Banques();
 
@@ -241,7 +241,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Banques();
 
@@ -254,7 +254,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new Banques();
 
@@ -267,7 +267,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSepa() {
+    public function testSetSepa(): void {
 
         $obj = new Banques();
 
@@ -280,7 +280,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new Banques();
 
@@ -293,7 +293,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new Banques();
 
@@ -306,7 +306,7 @@ class BanquesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Banques();
 

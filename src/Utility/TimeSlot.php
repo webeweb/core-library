@@ -66,7 +66,7 @@ class TimeSlot {
      * @param TimeSlot $timeSlot The time slot.
      * @return TimeSlot Returns this time slot.
      */
-    public function addTimeSlot(TimeSlot $timeSlot) {
+    public function addTimeSlot(TimeSlot $timeSlot): TimeSlot {
         $this->timeSlots[] = $timeSlot;
         return $this;
     }
@@ -76,7 +76,7 @@ class TimeSlot {
      *
      * @return int Returns the duration.
      */
-    public function getDuration() {
+    public function getDuration(): int {
         return DateTimeHelper::getDuration($this->getStartDate(), $this->getEndDate());
     }
 
@@ -85,7 +85,7 @@ class TimeSlot {
      *
      * @return DateTime Returns the end date.
      */
-    public function getEndDate() {
+    public function getEndDate(): DateTime {
         return $this->endDate;
     }
 
@@ -94,7 +94,7 @@ class TimeSlot {
      *
      * @return DateTime Returns the start date.
      */
-    public function getStartDate() {
+    public function getStartDate(): DateTime {
         return $this->startDate;
     }
 
@@ -103,7 +103,7 @@ class TimeSlot {
      *
      * @return TimeSlot[] Returns the time slots.
      */
-    public function getTimeSlots() {
+    public function getTimeSlots(): array {
         return $this->timeSlots;
     }
 
@@ -112,7 +112,7 @@ class TimeSlot {
      *
      * @return TimeSlot[] Returns the time slots.
      */
-    public function leftJoinWithout() {
+    public function leftJoinWithout(): array {
 
         // Sort and count the time slots.
         $buffer = TimeSlotHelper::merge($this->getTimeSlots());
@@ -158,7 +158,7 @@ class TimeSlot {
      * @param TimeSlot $timeSlot The time slot.
      * @return TimeSlot Returns this time slot.
      */
-    public function removeTimeSlot(TimeSlot $timeSlot) {
+    public function removeTimeSlot(TimeSlot $timeSlot): TimeSlot {
         for ($i = count($this->timeSlots) - 1; 0 <= $i; --$i) {
             if (true !== TimeSlotHelper::equals($timeSlot, $this->timeSlots[$i])) {
                 continue;
@@ -174,7 +174,7 @@ class TimeSlot {
      * @param DateTime $endDate The end date.
      * @return TimeSlot Returns this time slot.
      */
-    protected function setEndDate(DateTime $endDate) {
+    protected function setEndDate(DateTime $endDate): TimeSlot {
         $this->endDate = $endDate;
         return $this;
     }
@@ -185,7 +185,7 @@ class TimeSlot {
      * @param DateTime $startDate The start date.
      * @return TimeSlot Returns this time slot.
      */
-    protected function setStartDate(DateTime $startDate) {
+    protected function setStartDate(DateTime $startDate): TimeSlot {
         $this->startDate = $startDate;
         return $this;
     }
@@ -196,7 +196,7 @@ class TimeSlot {
      * @param TimeSlot[] $timeSlots The time slots.
      * @return TimeSlot Returns this time slot.
      */
-    protected function setTimeSlots(array $timeSlots) {
+    protected function setTimeSlots(array $timeSlots): TimeSlot {
         $this->timeSlots = $timeSlots;
         return $this;
     }

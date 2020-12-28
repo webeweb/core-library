@@ -39,7 +39,7 @@ class CustomerParser extends AbstractParser {
      * @return string Returns the parsed customer.
      * @throws TooLongDataException Throws a too long data exception if a data is too long.
      */
-    public function parseEntity(Customer $entity) {
+    public function parseEntity(Customer $entity): string {
 
         $output = [
             $this->encodeInteger($entity->getCustomerNumber(), 9),
@@ -86,7 +86,7 @@ class CustomerParser extends AbstractParser {
      * @return Customer Returns a customer.
      * @throws IntegerArgumentException Throws an integer argument exception.
      */
-    public function parseLine($line) {
+    public function parseLine(string $line): Customer {
 
         $data = explode(";", $line);
 

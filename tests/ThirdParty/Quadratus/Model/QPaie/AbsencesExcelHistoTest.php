@@ -30,7 +30,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAdded() {
+    public function testSetDateAdded(): void {
 
         // Set a Date/time mock.
         $dateAdded = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetId() {
+    public function testSetId(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -59,7 +59,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhSais() {
+    public function testSetNbhSais(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -72,7 +72,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbhSaisCorr() {
+    public function testSetNbhSaisCorr(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -85,7 +85,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbjSais() {
+    public function testSetNbjSais(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -98,7 +98,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbjSaisCorr() {
+    public function testSetNbjSaisCorr(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -111,7 +111,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEvenement() {
+    public function testSetNumEvenement(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -124,7 +124,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -138,7 +138,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPerPaie() {
+    public function testSetPerPaie(): void {
 
         // Set a Date/time mock.
         $perPaie = new DateTime("2018-09-10");
@@ -155,7 +155,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -172,7 +172,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDebCorr() {
+    public function testSetPeriodeDebCorr(): void {
 
         // Set a Date/time mock.
         $periodeDebCorr = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -206,7 +206,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFinCorr() {
+    public function testSetPeriodeFinCorr(): void {
 
         // Set a Date/time mock.
         $periodeFinCorr = new DateTime("2018-09-10");
@@ -222,7 +222,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertAbs() {
+    public function testSetTransfertAbs(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -235,7 +235,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsCp() {
+    public function testSetTypeAbsCp(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -248,7 +248,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsCpCorr() {
+    public function testSetTypeAbsCpCorr(): void {
 
         $obj = new AbsencesExcelHisto();
 
@@ -261,7 +261,7 @@ class AbsencesExcelHistoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AbsencesExcelHisto();
 

@@ -24,28 +24,28 @@ class ControleSalaires {
     /**
      * Brut.
      *
-     * @var float
+     * @var float|null
      */
     private $brut;
 
     /**
      * Cotis patronales.
      *
-     * @var float
+     * @var float|null
      */
     private $cotisPatronales;
 
     /**
      * Cotis salariales.
      *
-     * @var float
+     * @var float|null
      */
     private $cotisSalariales;
 
     /**
      * Heures.
      *
-     * @var float
+     * @var float|null
      */
     private $heures;
 
@@ -59,50 +59,51 @@ class ControleSalaires {
     /**
      * Plafond.
      *
-     * @var float
+     * @var float|null
      */
     private $plafond;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the brut.
      *
-     * @return float Returns the brut.
+     * @return float|null Returns the brut.
      */
-    public function getBrut() {
+    public function getBrut(): ?float{
         return $this->brut;
     }
 
     /**
      * Get the cotis patronales.
      *
-     * @return float Returns the cotis patronales.
+     * @return float|null Returns the cotis patronales.
      */
-    public function getCotisPatronales() {
+    public function getCotisPatronales(): ?float{
         return $this->cotisPatronales;
     }
 
     /**
      * Get the cotis salariales.
      *
-     * @return float Returns the cotis salariales.
+     * @return float|null Returns the cotis salariales.
      */
-    public function getCotisSalariales() {
+    public function getCotisSalariales(): ?float{
         return $this->cotisSalariales;
     }
 
     /**
      * Get the heures.
      *
-     * @return float Returns the heures.
+     * @return float|null Returns the heures.
      */
-    public function getHeures() {
+    public function getHeures(): ?float{
         return $this->heures;
     }
 
@@ -111,26 +112,26 @@ class ControleSalaires {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the plafond.
      *
-     * @return float Returns the plafond.
+     * @return float|null Returns the plafond.
      */
-    public function getPlafond() {
+    public function getPlafond(): ?float{
         return $this->plafond;
     }
 
     /**
      * Set the brut.
      *
-     * @param float $brut The brut.
+     * @param float|null $brut The brut.
      * @return ControleSalaires Returns this Controle salaires.
      */
-    public function setBrut($brut) {
+    public function setBrut(?float $brut): ControleSalaires {
         $this->brut = $brut;
         return $this;
     }
@@ -138,10 +139,10 @@ class ControleSalaires {
     /**
      * Set the cotis patronales.
      *
-     * @param float $cotisPatronales The cotis patronales.
+     * @param float|null $cotisPatronales The cotis patronales.
      * @return ControleSalaires Returns this Controle salaires.
      */
-    public function setCotisPatronales($cotisPatronales) {
+    public function setCotisPatronales(?float $cotisPatronales): ControleSalaires {
         $this->cotisPatronales = $cotisPatronales;
         return $this;
     }
@@ -149,10 +150,10 @@ class ControleSalaires {
     /**
      * Set the cotis salariales.
      *
-     * @param float $cotisSalariales The cotis salariales.
+     * @param float|null $cotisSalariales The cotis salariales.
      * @return ControleSalaires Returns this Controle salaires.
      */
-    public function setCotisSalariales($cotisSalariales) {
+    public function setCotisSalariales(?float $cotisSalariales): ControleSalaires {
         $this->cotisSalariales = $cotisSalariales;
         return $this;
     }
@@ -160,10 +161,10 @@ class ControleSalaires {
     /**
      * Set the heures.
      *
-     * @param float $heures The heures.
+     * @param float|null $heures The heures.
      * @return ControleSalaires Returns this Controle salaires.
      */
-    public function setHeures($heures) {
+    public function setHeures(?float $heures): ControleSalaires {
         $this->heures = $heures;
         return $this;
     }
@@ -174,7 +175,7 @@ class ControleSalaires {
      * @param DateTime|null $periode The periode.
      * @return ControleSalaires Returns this Controle salaires.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): ControleSalaires {
         $this->periode = $periode;
         return $this;
     }
@@ -182,10 +183,10 @@ class ControleSalaires {
     /**
      * Set the plafond.
      *
-     * @param float $plafond The plafond.
+     * @param float|null $plafond The plafond.
      * @return ControleSalaires Returns this Controle salaires.
      */
-    public function setPlafond($plafond) {
+    public function setPlafond(?float $plafond): ControleSalaires {
         $this->plafond = $plafond;
         return $this;
     }

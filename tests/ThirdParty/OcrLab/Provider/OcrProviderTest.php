@@ -29,7 +29,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testBuildFilePaths() {
+    public function testBuildFilePaths(): void {
 
         // Set an I/O file mock.
         $file = new IOFile(getcwd() . "/tests/ThirdParty/OcrLad/Model/OcrFileTest.php");
@@ -64,7 +64,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLocalDirectoryAfter() {
+    public function testSetLocalDirectoryAfter(): void {
 
         $obj = new OcrProvider($this->logger);
 
@@ -77,7 +77,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLocalDirectoryBefore() {
+    public function testSetLocalDirectoryBefore(): void {
 
         $obj = new OcrProvider($this->logger);
 
@@ -90,7 +90,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLocalDirectoryError() {
+    public function testSetLocalDirectoryError(): void {
 
         $obj = new OcrProvider($this->logger);
 
@@ -103,7 +103,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemoteDirectoryAfter() {
+    public function testSetRemoteDirectoryAfter(): void {
 
         $obj = new OcrProvider($this->logger);
 
@@ -116,7 +116,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemoteDirectoryBefore() {
+    public function testSetRemoteDirectoryBefore(): void {
 
         $obj = new OcrProvider($this->logger);
 
@@ -129,7 +129,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemoteDirectoryError() {
+    public function testSetRemoteDirectoryError(): void {
 
         $obj = new OcrProvider($this->logger);
 
@@ -142,7 +142,7 @@ class OcrProviderTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new OcrProvider($this->logger);
 

@@ -21,7 +21,7 @@ class AddressTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAddresseeDescription() {
+    public function testSetAddresseeDescription(): void {
 
         $obj = new TestAddressTrait();
 
@@ -34,7 +34,7 @@ class AddressTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TestAddressTrait();
 

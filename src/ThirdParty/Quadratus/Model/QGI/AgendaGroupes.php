@@ -22,21 +22,21 @@ class AgendaGroupes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code coll.
      *
-     * @var string
+     * @var string|null
      */
     private $codeColl;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
@@ -44,43 +44,43 @@ class AgendaGroupes {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the code coll.
      *
-     * @return string Returns the code coll.
+     * @return string|null Returns the code coll.
      */
-    public function getCodeColl() {
+    public function getCodeColl(): ?string {
         return $this->codeColl;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return AgendaGroupes Returns this Agenda groupes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): AgendaGroupes {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +88,10 @@ class AgendaGroupes {
     /**
      * Set the code coll.
      *
-     * @param string $codeColl The code coll.
+     * @param string|null $codeColl The code coll.
      * @return AgendaGroupes Returns this Agenda groupes.
      */
-    public function setCodeColl($codeColl) {
+    public function setCodeColl(?string $codeColl): AgendaGroupes {
         $this->codeColl = $codeColl;
         return $this;
     }
@@ -99,10 +99,10 @@ class AgendaGroupes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return AgendaGroupes Returns this Agenda groupes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): AgendaGroupes {
         $this->libelle = $libelle;
         return $this;
     }

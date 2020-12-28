@@ -22,9 +22,9 @@ class HttpHelper implements HttpInterface {
     /**
      * Get the HTTP methods.
      *
-     * @return array Returns the HTTP methods.
+     * @return string[] Returns the HTTP methods.
      */
-    public static function getHttpMethods() {
+    public static function getHttpMethods(): array {
         return [
             self::HTTP_METHOD_DELETE,
             self::HTTP_METHOD_GET,
@@ -39,9 +39,9 @@ class HttpHelper implements HttpInterface {
     /**
      * Get the HTTP status.
      *
-     * @return array Returns the HTTP status.
+     * @return int[] Returns the HTTP status.
      */
-    public static function getHttpStatus() {
+    public static function getHttpStatus(): array {
         return [
             self::HTTP_STATUS_CONTINUE,
             self::HTTP_STATUS_SWITCHING_PROTOCOLS,

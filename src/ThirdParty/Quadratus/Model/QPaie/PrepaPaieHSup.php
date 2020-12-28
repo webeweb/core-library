@@ -24,21 +24,21 @@ class PrepaPaieHSup {
     /**
      * Code lib hs.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibHs;
 
     /**
      * Nb h sup.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHSup;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -52,48 +52,49 @@ class PrepaPaieHSup {
     /**
      * Pourcent h sup.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcentHSup;
 
     /**
      * Semaine.
      *
-     * @var string
+     * @var string|null
      */
     private $semaine;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code lib hs.
      *
-     * @return string Returns the code lib hs.
+     * @return string|null Returns the code lib hs.
      */
-    public function getCodeLibHs() {
+    public function getCodeLibHs(): ?string{
         return $this->codeLibHs;
     }
 
     /**
      * Get the nb h sup.
      *
-     * @return float Returns the nb h sup.
+     * @return float|null Returns the nb h sup.
      */
-    public function getNbHSup() {
+    public function getNbHSup(): ?float{
         return $this->nbHSup;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -102,35 +103,35 @@ class PrepaPaieHSup {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the pourcent h sup.
      *
-     * @return float Returns the pourcent h sup.
+     * @return float|null Returns the pourcent h sup.
      */
-    public function getPourcentHSup() {
+    public function getPourcentHSup(): ?float{
         return $this->pourcentHSup;
     }
 
     /**
      * Get the semaine.
      *
-     * @return string Returns the semaine.
+     * @return string|null Returns the semaine.
      */
-    public function getSemaine() {
+    public function getSemaine(): ?string{
         return $this->semaine;
     }
 
     /**
      * Set the code lib hs.
      *
-     * @param string $codeLibHs The code lib hs.
+     * @param string|null $codeLibHs The code lib hs.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setCodeLibHs($codeLibHs) {
+    public function setCodeLibHs(?string $codeLibHs): PrepaPaieHSup {
         $this->codeLibHs = $codeLibHs;
         return $this;
     }
@@ -138,10 +139,10 @@ class PrepaPaieHSup {
     /**
      * Set the nb h sup.
      *
-     * @param float $nbHSup The nb h sup.
+     * @param float|null $nbHSup The nb h sup.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setNbHSup($nbHSup) {
+    public function setNbHSup(?float $nbHSup): PrepaPaieHSup {
         $this->nbHSup = $nbHSup;
         return $this;
     }
@@ -149,10 +150,10 @@ class PrepaPaieHSup {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): PrepaPaieHSup {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -163,7 +164,7 @@ class PrepaPaieHSup {
      * @param DateTime|null $periode The periode.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): PrepaPaieHSup {
         $this->periode = $periode;
         return $this;
     }
@@ -171,10 +172,10 @@ class PrepaPaieHSup {
     /**
      * Set the pourcent h sup.
      *
-     * @param float $pourcentHSup The pourcent h sup.
+     * @param float|null $pourcentHSup The pourcent h sup.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setPourcentHSup($pourcentHSup) {
+    public function setPourcentHSup(?float $pourcentHSup): PrepaPaieHSup {
         $this->pourcentHSup = $pourcentHSup;
         return $this;
     }
@@ -182,10 +183,10 @@ class PrepaPaieHSup {
     /**
      * Set the semaine.
      *
-     * @param string $semaine The semaine.
+     * @param string|null $semaine The semaine.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setSemaine($semaine) {
+    public function setSemaine(?string $semaine): PrepaPaieHSup {
         $this->semaine = $semaine;
         return $this;
     }

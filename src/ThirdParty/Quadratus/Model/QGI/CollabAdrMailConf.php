@@ -22,65 +22,66 @@ class CollabAdrMailConf {
     /**
      * Adresse email.
      *
-     * @var string
+     * @var string|null
      */
     private $adresseEmail;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the adresse email.
      *
-     * @return string Returns the adresse email.
+     * @return string|null Returns the adresse email.
      */
-    public function getAdresseEmail() {
+    public function getAdresseEmail(): ?string{
         return $this->adresseEmail;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Set the adresse email.
      *
-     * @param string $adresseEmail The adresse email.
+     * @param string|null $adresseEmail The adresse email.
      * @return CollabAdrMailConf Returns this Collab adr mail conf.
      */
-    public function setAdresseEmail($adresseEmail) {
+    public function setAdresseEmail(?string $adresseEmail): CollabAdrMailConf {
         $this->adresseEmail = $adresseEmail;
         return $this;
     }
@@ -88,10 +89,10 @@ class CollabAdrMailConf {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return CollabAdrMailConf Returns this Collab adr mail conf.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): CollabAdrMailConf {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -99,10 +100,10 @@ class CollabAdrMailConf {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return CollabAdrMailConf Returns this Collab adr mail conf.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): CollabAdrMailConf {
         $this->intitule = $intitule;
         return $this;
     }

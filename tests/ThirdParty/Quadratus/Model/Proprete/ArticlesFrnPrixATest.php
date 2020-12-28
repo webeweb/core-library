@@ -29,7 +29,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -42,7 +42,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeFournisseur() {
+    public function testSetCodeFournisseur(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -56,7 +56,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDebut() {
+    public function testSetDateDebut(): void {
 
         // Set a Date/time mock.
         $dateDebut = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixCond() {
+    public function testSetPrixCond(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -85,7 +85,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPxAchat() {
+    public function testSetPxAchat(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -98,7 +98,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteAchat() {
+    public function testSetQteAchat(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -111,7 +111,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteCond() {
+    public function testSetQteCond(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -124,7 +124,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemise1() {
+    public function testSetRemise1(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -137,7 +137,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemise2() {
+    public function testSetRemise2(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -150,7 +150,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemise3() {
+    public function testSetRemise3(): void {
 
         $obj = new ArticlesFrnPrixA();
 
@@ -163,7 +163,7 @@ class ArticlesFrnPrixATest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArticlesFrnPrixA();
 

@@ -29,7 +29,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACompterHeuresAssedic() {
+    public function testSetACompterHeuresAssedic(): void {
 
         $obj = new Libelles();
 
@@ -42,7 +42,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAConserverSetp() {
+    public function testSetAConserverSetp(): void {
 
         $obj = new Libelles();
 
@@ -55,7 +55,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACumulerBaseCaisse1() {
+    public function testSetACumulerBaseCaisse1(): void {
 
         $obj = new Libelles();
 
@@ -68,7 +68,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACumulerBaseCaisse2() {
+    public function testSetACumulerBaseCaisse2(): void {
 
         $obj = new Libelles();
 
@@ -81,7 +81,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACumulerBaseCaisse3() {
+    public function testSetACumulerBaseCaisse3(): void {
 
         $obj = new Libelles();
 
@@ -94,7 +94,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACumulerBaseCp() {
+    public function testSetACumulerBaseCp(): void {
 
         $obj = new Libelles();
 
@@ -107,7 +107,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetACumulerBaseSecu() {
+    public function testSetACumulerBaseSecu(): void {
 
         $obj = new Libelles();
 
@@ -120,7 +120,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAReintegrerSetp() {
+    public function testSetAReintegrerSetp(): void {
 
         $obj = new Libelles();
 
@@ -133,7 +133,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiveVariablesEmp() {
+    public function testSetActiveVariablesEmp(): void {
 
         $obj = new Libelles();
 
@@ -146,7 +146,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAenLienPresenceEffective() {
+    public function testSetAenLienPresenceEffective(): void {
 
         $obj = new Libelles();
 
@@ -159,7 +159,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAgff() {
+    public function testSetAgff(): void {
 
         $obj = new Libelles();
 
@@ -172,7 +172,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvantageNaturePrime() {
+    public function testSetAvantageNaturePrime(): void {
 
         $obj = new Libelles();
 
@@ -185,7 +185,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvantageNatureTds() {
+    public function testSetAvantageNatureTds(): void {
 
         $obj = new Libelles();
 
@@ -198,7 +198,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvecRetroAct() {
+    public function testSetAvecRetroAct(): void {
 
         $obj = new Libelles();
 
@@ -211,7 +211,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseExoneree() {
+    public function testSetBaseExoneree(): void {
 
         $obj = new Libelles();
 
@@ -224,7 +224,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBaseNonExoneree() {
+    public function testSetBaseNonExoneree(): void {
 
         $obj = new Libelles();
 
@@ -237,7 +237,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategSalarie() {
+    public function testSetCategSalarie(): void {
 
         $obj = new Libelles();
 
@@ -250,7 +250,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChequeVacance() {
+    public function testSetChequeVacance(): void {
 
         $obj = new Libelles();
 
@@ -263,7 +263,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Libelles();
 
@@ -276,7 +276,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCalcul() {
+    public function testSetCodeCalcul(): void {
 
         $obj = new Libelles();
 
@@ -289,7 +289,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCsgTaux() {
+    public function testSetCodeCsgTaux(): void {
 
         $obj = new Libelles();
 
@@ -302,7 +302,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDucs() {
+    public function testSetCodeDucs(): void {
 
         $obj = new Libelles();
 
@@ -315,7 +315,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEditionHisto() {
+    public function testSetCodeEditionHisto(): void {
 
         $obj = new Libelles();
 
@@ -328,7 +328,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeInsee() {
+    public function testSetCodeInsee(): void {
 
         $obj = new Libelles();
 
@@ -341,7 +341,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new Libelles();
 
@@ -354,7 +354,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRds() {
+    public function testSetCodeRds(): void {
 
         $obj = new Libelles();
 
@@ -367,7 +367,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeAssurance() {
+    public function testSetCodeTypeAssurance(): void {
 
         $obj = new Libelles();
 
@@ -380,7 +380,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBPlaf() {
+    public function testSetCodeTypeBPlaf(): void {
 
         $obj = new Libelles();
 
@@ -393,7 +393,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBSpecPrev() {
+    public function testSetCodeTypeBSpecPrev(): void {
 
         $obj = new Libelles();
 
@@ -406,7 +406,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeBrut() {
+    public function testSetCodeTypeBrut(): void {
 
         $obj = new Libelles();
 
@@ -419,7 +419,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypePrev() {
+    public function testSetCodeTypePrev(): void {
 
         $obj = new Libelles();
 
@@ -432,7 +432,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTypeSomme() {
+    public function testSetCodeTypeSomme(): void {
 
         $obj = new Libelles();
 
@@ -445,7 +445,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteCharge() {
+    public function testSetCompteCharge(): void {
 
         $obj = new Libelles();
 
@@ -458,7 +458,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCondition() {
+    public function testSetCondition(): void {
 
         $obj = new Libelles();
 
@@ -471,7 +471,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConditionSpec() {
+    public function testSetConditionSpec(): void {
 
         $obj = new Libelles();
 
@@ -484,7 +484,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCongePaye() {
+    public function testSetCongePaye(): void {
 
         $obj = new Libelles();
 
@@ -497,7 +497,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotisNormalDues() {
+    public function testSetCotisNormalDues(): void {
 
         $obj = new Libelles();
 
@@ -510,7 +510,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotisNormalDuesAccre() {
+    public function testSetCotisNormalDuesAccre(): void {
 
         $obj = new Libelles();
 
@@ -523,7 +523,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotisNormalDuesZfu() {
+    public function testSetCotisNormalDuesZfu(): void {
 
         $obj = new Libelles();
 
@@ -536,7 +536,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotisNormalDuesZrd() {
+    public function testSetCotisNormalDuesZrd(): void {
 
         $obj = new Libelles();
 
@@ -549,7 +549,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotisNormalDuesZrrzru() {
+    public function testSetCotisNormalDuesZrrzru(): void {
 
         $obj = new Libelles();
 
@@ -562,7 +562,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCotisationCsg() {
+    public function testSetCotisationCsg(): void {
 
         $obj = new Libelles();
 
@@ -575,7 +575,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoutGlobal() {
+    public function testSetCoutGlobal(): void {
 
         $obj = new Libelles();
 
@@ -589,7 +589,7 @@ class LibellesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebPerApplication() {
+    public function testSetDebPerApplication(): void {
 
         // Set a Date/time mock.
         $debPerApplication = new DateTime("2018-09-10");
@@ -605,7 +605,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetermineAllegement() {
+    public function testSetDetermineAllegement(): void {
 
         $obj = new Libelles();
 
@@ -618,7 +618,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDetermineBaseSecu() {
+    public function testSetDetermineBaseSecu(): void {
 
         $obj = new Libelles();
 
@@ -631,7 +631,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiminueNet() {
+    public function testSetDiminueNet(): void {
 
         $obj = new Libelles();
 
@@ -644,7 +644,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionBase() {
+    public function testSetEditionBase(): void {
 
         $obj = new Libelles();
 
@@ -657,7 +657,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionBulletin() {
+    public function testSetEditionBulletin(): void {
 
         $obj = new Libelles();
 
@@ -670,7 +670,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionCotPatronale() {
+    public function testSetEditionCotPatronale(): void {
 
         $obj = new Libelles();
 
@@ -683,7 +683,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionForceeDs() {
+    public function testSetEditionForceeDs(): void {
 
         $obj = new Libelles();
 
@@ -696,7 +696,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionResultat() {
+    public function testSetEditionResultat(): void {
 
         $obj = new Libelles();
 
@@ -709,7 +709,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionTaux() {
+    public function testSetEditionTaux(): void {
 
         $obj = new Libelles();
 
@@ -722,7 +722,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExclureLoiTepa() {
+    public function testSetExclureLoiTepa(): void {
 
         $obj = new Libelles();
 
@@ -735,7 +735,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoOccasionnelMsa() {
+    public function testSetExoOccasionnelMsa(): void {
 
         $obj = new Libelles();
 
@@ -748,7 +748,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExoTauxPatronal() {
+    public function testSetExoTauxPatronal(): void {
 
         $obj = new Libelles();
 
@@ -761,7 +761,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetExpatriation() {
+    public function testSetExpatriation(): void {
 
         $obj = new Libelles();
 
@@ -774,7 +774,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFillonAdom() {
+    public function testSetFillonAdom(): void {
 
         $obj = new Libelles();
 
@@ -787,7 +787,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFillonSap() {
+    public function testSetFillonSap(): void {
 
         $obj = new Libelles();
 
@@ -801,7 +801,7 @@ class LibellesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPerApplication() {
+    public function testSetFinPerApplication(): void {
 
         // Set a Date/time mock.
         $finPerApplication = new DateTime("2018-09-10");
@@ -817,7 +817,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisProfessionnel() {
+    public function testSetFraisProfessionnel(): void {
 
         $obj = new Libelles();
 
@@ -830,7 +830,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFraisSante() {
+    public function testSetFraisSante(): void {
 
         $obj = new Libelles();
 
@@ -843,7 +843,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq1() {
+    public function testSetFreq1(): void {
 
         $obj = new Libelles();
 
@@ -856,7 +856,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq10() {
+    public function testSetFreq10(): void {
 
         $obj = new Libelles();
 
@@ -869,7 +869,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq11() {
+    public function testSetFreq11(): void {
 
         $obj = new Libelles();
 
@@ -882,7 +882,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq12() {
+    public function testSetFreq12(): void {
 
         $obj = new Libelles();
 
@@ -895,7 +895,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq2() {
+    public function testSetFreq2(): void {
 
         $obj = new Libelles();
 
@@ -908,7 +908,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq3() {
+    public function testSetFreq3(): void {
 
         $obj = new Libelles();
 
@@ -921,7 +921,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq4() {
+    public function testSetFreq4(): void {
 
         $obj = new Libelles();
 
@@ -934,7 +934,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq5() {
+    public function testSetFreq5(): void {
 
         $obj = new Libelles();
 
@@ -947,7 +947,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq6() {
+    public function testSetFreq6(): void {
 
         $obj = new Libelles();
 
@@ -960,7 +960,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq7() {
+    public function testSetFreq7(): void {
 
         $obj = new Libelles();
 
@@ -973,7 +973,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq8() {
+    public function testSetFreq8(): void {
 
         $obj = new Libelles();
 
@@ -986,7 +986,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFreq9() {
+    public function testSetFreq9(): void {
 
         $obj = new Libelles();
 
@@ -999,7 +999,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSupLoiTepa() {
+    public function testSetHSupLoiTepa(): void {
 
         $obj = new Libelles();
 
@@ -1012,7 +1012,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSupStructurelle() {
+    public function testSetHSupStructurelle(): void {
 
         $obj = new Libelles();
 
@@ -1025,7 +1025,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdInstitution() {
+    public function testSetIdInstitution(): void {
 
         $obj = new Libelles();
 
@@ -1038,7 +1038,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIjss() {
+    public function testSetIjss(): void {
 
         $obj = new Libelles();
 
@@ -1051,7 +1051,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImputEpargneRet() {
+    public function testSetImputEpargneRet(): void {
 
         $obj = new Libelles();
 
@@ -1064,7 +1064,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemniteNonImposable() {
+    public function testSetIndemniteNonImposable(): void {
 
         $obj = new Libelles();
 
@@ -1077,7 +1077,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntervientBrutAl() {
+    public function testSetIntervientBrutAl(): void {
 
         $obj = new Libelles();
 
@@ -1090,7 +1090,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntervientIndemPreca() {
+    public function testSetIntervientIndemPreca(): void {
 
         $obj = new Libelles();
 
@@ -1103,7 +1103,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntervientTauxHAbCp() {
+    public function testSetIntervientTauxHAbCp(): void {
 
         $obj = new Libelles();
 
@@ -1116,7 +1116,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Libelles();
 
@@ -1129,7 +1129,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntituleDucs() {
+    public function testSetIntituleDucs(): void {
 
         $obj = new Libelles();
 
@@ -1142,7 +1142,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaintienSalaire() {
+    public function testSetMaintienSalaire(): void {
 
         $obj = new Libelles();
 
@@ -1155,7 +1155,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisDebFixe() {
+    public function testSetMoisDebFixe(): void {
 
         $obj = new Libelles();
 
@@ -1168,7 +1168,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisEchu() {
+    public function testSetMoisEchu(): void {
 
         $obj = new Libelles();
 
@@ -1181,7 +1181,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisFinFixe() {
+    public function testSetMoisFinFixe(): void {
 
         $obj = new Libelles();
 
@@ -1194,7 +1194,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantGlobal() {
+    public function testSetMontantGlobal(): void {
 
         $obj = new Libelles();
 
@@ -1207,7 +1207,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSalarial() {
+    public function testSetMontantSalarial(): void {
 
         $obj = new Libelles();
 
@@ -1220,7 +1220,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHContract() {
+    public function testSetNbHContract(): void {
 
         $obj = new Libelles();
 
@@ -1233,7 +1233,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbMoisApplic() {
+    public function testSetNbMoisApplic(): void {
 
         $obj = new Libelles();
 
@@ -1246,7 +1246,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNeutre() {
+    public function testSetNeutre(): void {
 
         $obj = new Libelles();
 
@@ -1259,7 +1259,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumColAcbs() {
+    public function testSetNumColAcbs(): void {
 
         $obj = new Libelles();
 
@@ -1272,7 +1272,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumColAllege35h() {
+    public function testSetNumColAllege35h(): void {
 
         $obj = new Libelles();
 
@@ -1285,7 +1285,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumColChargesCafe() {
+    public function testSetNumColChargesCafe(): void {
 
         $obj = new Libelles();
 
@@ -1298,7 +1298,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCumulBulletin() {
+    public function testSetNumCumulBulletin(): void {
 
         $obj = new Libelles();
 
@@ -1311,7 +1311,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCumulPatron() {
+    public function testSetNumCumulPatron(): void {
 
         $obj = new Libelles();
 
@@ -1324,7 +1324,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumTauxConstNat() {
+    public function testSetNumTauxConstNat(): void {
 
         $obj = new Libelles();
 
@@ -1337,7 +1337,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPartPatronPrevoyance() {
+    public function testSetPartPatronPrevoyance(): void {
 
         $obj = new Libelles();
 
@@ -1350,7 +1350,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPeriodicite() {
+    public function testSetPeriodicite(): void {
 
         $obj = new Libelles();
 
@@ -1363,7 +1363,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourboire() {
+    public function testSetPourboire(): void {
 
         $obj = new Libelles();
 
@@ -1376,7 +1376,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrevoyance() {
+    public function testSetPrevoyance(): void {
 
         $obj = new Libelles();
 
@@ -1389,7 +1389,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrevoyanceComp() {
+    public function testSetPrevoyanceComp(): void {
 
         $obj = new Libelles();
 
@@ -1402,7 +1402,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrimeNonProratisee() {
+    public function testSetPrimeNonProratisee(): void {
 
         $obj = new Libelles();
 
@@ -1415,7 +1415,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrimeServitudeTravail() {
+    public function testSetPrimeServitudeTravail(): void {
 
         $obj = new Libelles();
 
@@ -1428,7 +1428,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiantCotis() {
+    public function testSetQualifiantCotis(): void {
 
         $obj = new Libelles();
 
@@ -1441,7 +1441,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleCalcul() {
+    public function testSetRegleCalcul(): void {
 
         $obj = new Libelles();
 
@@ -1454,7 +1454,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegleTaux() {
+    public function testSetRegleTaux(): void {
 
         $obj = new Libelles();
 
@@ -1467,7 +1467,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseAZero() {
+    public function testSetRemiseAZero(): void {
 
         $obj = new Libelles();
 
@@ -1480,7 +1480,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResultMt() {
+    public function testSetResultMt(): void {
 
         $obj = new Libelles();
 
@@ -1493,7 +1493,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResultatDucs() {
+    public function testSetResultatDucs(): void {
 
         $obj = new Libelles();
 
@@ -1506,7 +1506,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetenueSalaire() {
+    public function testSetRetenueSalaire(): void {
 
         $obj = new Libelles();
 
@@ -1519,7 +1519,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetenueSource() {
+    public function testSetRetenueSource(): void {
 
         $obj = new Libelles();
 
@@ -1532,7 +1532,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetraiteObligatoire() {
+    public function testSetRetraiteObligatoire(): void {
 
         $obj = new Libelles();
 
@@ -1545,7 +1545,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetraiteSupp() {
+    public function testSetRetraiteSupp(): void {
 
         $obj = new Libelles();
 
@@ -1558,7 +1558,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSalaireCp() {
+    public function testSetSalaireCp(): void {
 
         $obj = new Libelles();
 
@@ -1571,7 +1571,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSansReintegrationSociale() {
+    public function testSetSansReintegrationSociale(): void {
 
         $obj = new Libelles();
 
@@ -1584,7 +1584,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisAbattement() {
+    public function testSetSoumisAbattement(): void {
 
         $obj = new Libelles();
 
@@ -1597,7 +1597,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCrds100() {
+    public function testSetSoumisCrds100(): void {
 
         $obj = new Libelles();
 
@@ -1610,7 +1610,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCsg() {
+    public function testSetSoumisCsg(): void {
 
         $obj = new Libelles();
 
@@ -1623,7 +1623,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisCsg100() {
+    public function testSetSoumisCsg100(): void {
 
         $obj = new Libelles();
 
@@ -1636,7 +1636,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisForfaitSocial() {
+    public function testSetSoumisForfaitSocial(): void {
 
         $obj = new Libelles();
 
@@ -1649,7 +1649,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSoumisRds() {
+    public function testSetSoumisRds(): void {
 
         $obj = new Libelles();
 
@@ -1662,7 +1662,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxDuLibelle() {
+    public function testSetTauxDuLibelle(): void {
 
         $obj = new Libelles();
 
@@ -1675,7 +1675,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxForfaitSocial() {
+    public function testSetTauxForfaitSocial(): void {
 
         $obj = new Libelles();
 
@@ -1688,7 +1688,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxPatronalDadsu() {
+    public function testSetTauxPatronalDadsu(): void {
 
         $obj = new Libelles();
 
@@ -1701,7 +1701,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxSalarialDadsu() {
+    public function testSetTauxSalarialDadsu(): void {
 
         $obj = new Libelles();
 
@@ -1714,7 +1714,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsenceHSup() {
+    public function testSetTypeAbsenceHSup(): void {
 
         $obj = new Libelles();
 
@@ -1727,7 +1727,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAvantage() {
+    public function testSetTypeAvantage(): void {
 
         $obj = new Libelles();
 
@@ -1740,7 +1740,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBaseCotisation() {
+    public function testSetTypeBaseCotisation(): void {
 
         $obj = new Libelles();
 
@@ -1753,7 +1753,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeCotis() {
+    public function testSetTypeCotis(): void {
 
         $obj = new Libelles();
 
@@ -1766,7 +1766,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDateAnc() {
+    public function testSetTypeDateAnc(): void {
 
         $obj = new Libelles();
 
@@ -1779,7 +1779,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDonneeDadsu() {
+    public function testSetTypeDonneeDadsu(): void {
 
         $obj = new Libelles();
 
@@ -1792,7 +1792,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFrais() {
+    public function testSetTypeFrais(): void {
 
         $obj = new Libelles();
 
@@ -1805,7 +1805,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHSupLoiTepa() {
+    public function testSetTypeHSupLoiTepa(): void {
 
         $obj = new Libelles();
 
@@ -1818,7 +1818,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHeFillon() {
+    public function testSetTypeHeFillon(): void {
 
         $obj = new Libelles();
 
@@ -1831,7 +1831,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHeure() {
+    public function testSetTypeHeure(): void {
 
         $obj = new Libelles();
 
@@ -1844,7 +1844,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHeureSup() {
+    public function testSetTypeHeureSup(): void {
 
         $obj = new Libelles();
 
@@ -1857,7 +1857,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeOrga() {
+    public function testSetTypeOrga(): void {
 
         $obj = new Libelles();
 
@@ -1870,7 +1870,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeProratisationPrime() {
+    public function testSetTypeProratisationPrime(): void {
 
         $obj = new Libelles();
 
@@ -1883,7 +1883,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTranche() {
+    public function testSetTypeTranche(): void {
 
         $obj = new Libelles();
 
@@ -1896,7 +1896,7 @@ class LibellesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Libelles();
 

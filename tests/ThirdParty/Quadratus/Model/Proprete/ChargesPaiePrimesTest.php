@@ -29,7 +29,7 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new ChargesPaiePrimes();
 
@@ -42,7 +42,7 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePrime() {
+    public function testSetCodePrime(): void {
 
         $obj = new ChargesPaiePrimes();
 
@@ -55,7 +55,7 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new ChargesPaiePrimes();
 
@@ -69,7 +69,7 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class ChargesPaiePrimesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ChargesPaiePrimes();
 

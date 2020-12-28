@@ -39,9 +39,9 @@ class QuickSortTest extends AbstractTestCase {
     private $values;
 
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set the functor mock.
@@ -56,7 +56,7 @@ class QuickSortTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSort() {
+    public function testSort(): void {
 
         $obj = new QuickSort($this->values, $this->functor);
 
@@ -71,7 +71,7 @@ class QuickSortTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new QuickSort($this->values, $this->functor);
 

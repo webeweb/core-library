@@ -27,7 +27,7 @@ class ProgTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new ProgTypeEntetes();
 
@@ -40,7 +40,7 @@ class ProgTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumProgramme() {
+    public function testSetNumProgramme(): void {
 
         $obj = new ProgTypeEntetes();
 
@@ -53,7 +53,7 @@ class ProgTypeEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ProgTypeEntetes();
 

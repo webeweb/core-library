@@ -29,7 +29,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -42,7 +42,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -55,7 +55,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -68,7 +68,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -81,7 +81,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -94,7 +94,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCoefficient() {
+    public function testSetCoefficient(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -108,7 +108,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateBt() {
+    public function testSetDateBt(): void {
 
         // Set a Date/time mock.
         $dateBt = new DateTime("2018-09-10");
@@ -124,7 +124,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -137,7 +137,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation2() {
+    public function testSetDesignation2(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -150,7 +150,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation3() {
+    public function testSetDesignation3(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -163,7 +163,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDuree() {
+    public function testSetDuree(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -176,7 +176,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndice() {
+    public function testSetIndice(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -189,7 +189,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -202,7 +202,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -215,7 +215,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixAchat() {
+    public function testSetPrixAchat(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -228,7 +228,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPxFacture() {
+    public function testSetPxFacture(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -241,7 +241,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTaux() {
+    public function testSetTaux(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -254,7 +254,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVentilMarge() {
+    public function testSetVentilMarge(): void {
 
         $obj = new PlansFactBonTrav();
 
@@ -267,7 +267,7 @@ class PlansFactBonTravTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PlansFactBonTrav();
 

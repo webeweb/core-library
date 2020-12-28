@@ -24,28 +24,28 @@ class FichesControles {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
@@ -66,78 +66,79 @@ class FichesControles {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Numero reclamation.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroReclamation;
 
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
@@ -146,7 +147,7 @@ class FichesControles {
      *
      * @return DateTime|null Returns the date controle.
      */
-    public function getDateControle() {
+    public function getDateControle(): ?DateTime{
         return $this->dateControle;
     }
 
@@ -155,62 +156,62 @@ class FichesControles {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert() {
+    public function getDateTransfert(): ?DateTime{
         return $this->dateTransfert;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the numero reclamation.
      *
-     * @return int Returns the numero reclamation.
+     * @return int|null Returns the numero reclamation.
      */
-    public function getNumeroReclamation() {
+    public function getNumeroReclamation(): ?int{
         return $this->numeroReclamation;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FichesControles {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -218,10 +219,10 @@ class FichesControles {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FichesControles {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -229,10 +230,10 @@ class FichesControles {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FichesControles {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -240,10 +241,10 @@ class FichesControles {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): FichesControles {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -254,7 +255,7 @@ class FichesControles {
      * @param DateTime|null $dateControle The date controle.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setDateControle(DateTime $dateControle = null) {
+    public function setDateControle(?DateTime $dateControle): FichesControles {
         $this->dateControle = $dateControle;
         return $this;
     }
@@ -265,7 +266,7 @@ class FichesControles {
      * @param DateTime|null $dateTransfert The date transfert.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setDateTransfert(DateTime $dateTransfert = null) {
+    public function setDateTransfert(?DateTime $dateTransfert): FichesControles {
         $this->dateTransfert = $dateTransfert;
         return $this;
     }
@@ -273,10 +274,10 @@ class FichesControles {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): FichesControles {
         $this->etat = $etat;
         return $this;
     }
@@ -284,10 +285,10 @@ class FichesControles {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): FichesControles {
         $this->libelle = $libelle;
         return $this;
     }
@@ -295,10 +296,10 @@ class FichesControles {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): FichesControles {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -306,10 +307,10 @@ class FichesControles {
     /**
      * Set the numero reclamation.
      *
-     * @param int $numeroReclamation The numero reclamation.
+     * @param int|null $numeroReclamation The numero reclamation.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setNumeroReclamation($numeroReclamation) {
+    public function setNumeroReclamation(?int $numeroReclamation): FichesControles {
         $this->numeroReclamation = $numeroReclamation;
         return $this;
     }
@@ -317,10 +318,10 @@ class FichesControles {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return FichesControles Returns this Fiches controles.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): FichesControles {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

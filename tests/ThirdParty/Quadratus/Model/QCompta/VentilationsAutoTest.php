@@ -27,7 +27,7 @@ class VentilationsAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new VentilationsAuto();
 
@@ -40,7 +40,7 @@ class VentilationsAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilation() {
+    public function testSetCodeVentilation(): void {
 
         $obj = new VentilationsAuto();
 
@@ -53,7 +53,7 @@ class VentilationsAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteVentilation() {
+    public function testSetCompteVentilation(): void {
 
         $obj = new VentilationsAuto();
 
@@ -66,7 +66,7 @@ class VentilationsAutoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new VentilationsAuto();
 

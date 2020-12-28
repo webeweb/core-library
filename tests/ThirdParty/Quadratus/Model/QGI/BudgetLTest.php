@@ -29,7 +29,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new BudgetL();
 
@@ -42,7 +42,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new BudgetL();
 
@@ -55,7 +55,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new BudgetL();
 
@@ -68,7 +68,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTravail() {
+    public function testSetCodeTravail(): void {
 
         $obj = new BudgetL();
 
@@ -81,7 +81,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTva() {
+    public function testSetCodeTva(): void {
 
         $obj = new BudgetL();
 
@@ -94,7 +94,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSoldees() {
+    public function testSetHSoldees(): void {
 
         $obj = new BudgetL();
 
@@ -107,7 +107,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbrHeures() {
+    public function testSetNbrHeures(): void {
 
         $obj = new BudgetL();
 
@@ -120,7 +120,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new BudgetL();
 
@@ -133,7 +133,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomTravail() {
+    public function testSetNomTravail(): void {
 
         $obj = new BudgetL();
 
@@ -146,7 +146,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new BudgetL();
 
@@ -159,7 +159,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new BudgetL();
 
@@ -173,7 +173,7 @@ class BudgetLTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -189,7 +189,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixHeure() {
+    public function testSetPrixHeure(): void {
 
         $obj = new BudgetL();
 
@@ -202,7 +202,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new BudgetL();
 
@@ -215,7 +215,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAffectation() {
+    public function testSetTypeAffectation(): void {
 
         $obj = new BudgetL();
 
@@ -228,7 +228,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdLm() {
+    public function testSetUniqIdLm(): void {
 
         $obj = new BudgetL();
 
@@ -241,7 +241,7 @@ class BudgetLTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BudgetL();
 

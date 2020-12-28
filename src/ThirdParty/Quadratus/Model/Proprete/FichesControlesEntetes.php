@@ -24,42 +24,42 @@ class FichesControlesEntetes {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
     /**
      * Controleur.
      *
-     * @var string
+     * @var string|null
      */
     private $controleur;
 
@@ -87,14 +87,14 @@ class FichesControlesEntetes {
     /**
      * Fiche contradictoire.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ficheContradictoire;
 
     /**
      * Fiche signee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $ficheSignee;
 
@@ -115,145 +115,146 @@ class FichesControlesEntetes {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Local.
      *
-     * @var string
+     * @var string|null
      */
     private $local;
 
     /**
      * Local pere.
      *
-     * @var string
+     * @var string|null
      */
     private $localPere;
 
     /**
      * Note globale.
      *
-     * @var float
+     * @var float|null
      */
     private $noteGlobale;
 
     /**
      * Note objectif.
      *
-     * @var float
+     * @var float|null
      */
     private $noteObjectif;
 
     /**
      * Numero fiche.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroFiche;
 
     /**
      * Numero noeud local.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroNoeudLocal;
 
     /**
      * Satisfaction generale.
      *
-     * @var string
+     * @var string|null
      */
     private $satisfactionGenerale;
 
     /**
      * Type controle.
      *
-     * @var string
+     * @var string|null
      */
     private $typeControle;
 
     /**
      * Uniq id blocage.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdBlocage;
 
     /**
      * Uniq id noeud.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdNoeud;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
     /**
      * Get the controleur.
      *
-     * @return string Returns the controleur.
+     * @return string|null Returns the controleur.
      */
-    public function getControleur() {
+    public function getControleur(): ?string{
         return $this->controleur;
     }
 
@@ -262,7 +263,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the date controle.
      */
-    public function getDateControle() {
+    public function getDateControle(): ?DateTime{
         return $this->dateControle;
     }
 
@@ -271,7 +272,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the date ctrl prevue.
      */
-    public function getDateCtrlPrevue() {
+    public function getDateCtrlPrevue(): ?DateTime{
         return $this->dateCtrlPrevue;
     }
 
@@ -280,25 +281,25 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert() {
+    public function getDateTransfert(): ?DateTime{
         return $this->dateTransfert;
     }
 
     /**
      * Get the fiche contradictoire.
      *
-     * @return bool Returns the fiche contradictoire.
+     * @return bool|null Returns the fiche contradictoire.
      */
-    public function getFicheContradictoire() {
+    public function getFicheContradictoire(): ?bool{
         return $this->ficheContradictoire;
     }
 
     /**
      * Get the fiche signee.
      *
-     * @return bool Returns the fiche signee.
+     * @return bool|null Returns the fiche signee.
      */
-    public function getFicheSignee() {
+    public function getFicheSignee(): ?bool{
         return $this->ficheSignee;
     }
 
@@ -307,7 +308,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the heure debut.
      */
-    public function getHeureDebut() {
+    public function getHeureDebut(): ?DateTime{
         return $this->heureDebut;
     }
 
@@ -316,125 +317,125 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the heure fin.
      */
-    public function getHeureFin() {
+    public function getHeureFin(): ?DateTime{
         return $this->heureFin;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the local.
      *
-     * @return string Returns the local.
+     * @return string|null Returns the local.
      */
-    public function getLocal() {
+    public function getLocal(): ?string{
         return $this->local;
     }
 
     /**
      * Get the local pere.
      *
-     * @return string Returns the local pere.
+     * @return string|null Returns the local pere.
      */
-    public function getLocalPere() {
+    public function getLocalPere(): ?string{
         return $this->localPere;
     }
 
     /**
      * Get the note globale.
      *
-     * @return float Returns the note globale.
+     * @return float|null Returns the note globale.
      */
-    public function getNoteGlobale() {
+    public function getNoteGlobale(): ?float{
         return $this->noteGlobale;
     }
 
     /**
      * Get the note objectif.
      *
-     * @return float Returns the note objectif.
+     * @return float|null Returns the note objectif.
      */
-    public function getNoteObjectif() {
+    public function getNoteObjectif(): ?float{
         return $this->noteObjectif;
     }
 
     /**
      * Get the numero fiche.
      *
-     * @return int Returns the numero fiche.
+     * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche() {
+    public function getNumeroFiche(): ?int{
         return $this->numeroFiche;
     }
 
     /**
      * Get the numero noeud local.
      *
-     * @return int Returns the numero noeud local.
+     * @return int|null Returns the numero noeud local.
      */
-    public function getNumeroNoeudLocal() {
+    public function getNumeroNoeudLocal(): ?int{
         return $this->numeroNoeudLocal;
     }
 
     /**
      * Get the satisfaction generale.
      *
-     * @return string Returns the satisfaction generale.
+     * @return string|null Returns the satisfaction generale.
      */
-    public function getSatisfactionGenerale() {
+    public function getSatisfactionGenerale(): ?string{
         return $this->satisfactionGenerale;
     }
 
     /**
      * Get the type controle.
      *
-     * @return string Returns the type controle.
+     * @return string|null Returns the type controle.
      */
-    public function getTypeControle() {
+    public function getTypeControle(): ?string{
         return $this->typeControle;
     }
 
     /**
      * Get the uniq id blocage.
      *
-     * @return string Returns the uniq id blocage.
+     * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage() {
+    public function getUniqIdBlocage(): ?string{
         return $this->uniqIdBlocage;
     }
 
     /**
      * Get the uniq id noeud.
      *
-     * @return string Returns the uniq id noeud.
+     * @return string|null Returns the uniq id noeud.
      */
-    public function getUniqIdNoeud() {
+    public function getUniqIdNoeud(): ?string{
         return $this->uniqIdNoeud;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FichesControlesEntetes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -442,10 +443,10 @@ class FichesControlesEntetes {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FichesControlesEntetes {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -453,10 +454,10 @@ class FichesControlesEntetes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FichesControlesEntetes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -464,10 +465,10 @@ class FichesControlesEntetes {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): FichesControlesEntetes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -475,10 +476,10 @@ class FichesControlesEntetes {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): FichesControlesEntetes {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -486,10 +487,10 @@ class FichesControlesEntetes {
     /**
      * Set the controleur.
      *
-     * @param string $controleur The controleur.
+     * @param string|null $controleur The controleur.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setControleur($controleur) {
+    public function setControleur(?string $controleur): FichesControlesEntetes {
         $this->controleur = $controleur;
         return $this;
     }
@@ -500,7 +501,7 @@ class FichesControlesEntetes {
      * @param DateTime|null $dateControle The date controle.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setDateControle(DateTime $dateControle = null) {
+    public function setDateControle(?DateTime $dateControle): FichesControlesEntetes {
         $this->dateControle = $dateControle;
         return $this;
     }
@@ -511,7 +512,7 @@ class FichesControlesEntetes {
      * @param DateTime|null $dateCtrlPrevue The date ctrl prevue.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setDateCtrlPrevue(DateTime $dateCtrlPrevue = null) {
+    public function setDateCtrlPrevue(?DateTime $dateCtrlPrevue): FichesControlesEntetes {
         $this->dateCtrlPrevue = $dateCtrlPrevue;
         return $this;
     }
@@ -522,7 +523,7 @@ class FichesControlesEntetes {
      * @param DateTime|null $dateTransfert The date transfert.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setDateTransfert(DateTime $dateTransfert = null) {
+    public function setDateTransfert(?DateTime $dateTransfert): FichesControlesEntetes {
         $this->dateTransfert = $dateTransfert;
         return $this;
     }
@@ -530,10 +531,10 @@ class FichesControlesEntetes {
     /**
      * Set the fiche contradictoire.
      *
-     * @param bool $ficheContradictoire The fiche contradictoire.
+     * @param bool|null $ficheContradictoire The fiche contradictoire.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setFicheContradictoire($ficheContradictoire) {
+    public function setFicheContradictoire(?bool $ficheContradictoire): FichesControlesEntetes {
         $this->ficheContradictoire = $ficheContradictoire;
         return $this;
     }
@@ -541,10 +542,10 @@ class FichesControlesEntetes {
     /**
      * Set the fiche signee.
      *
-     * @param bool $ficheSignee The fiche signee.
+     * @param bool|null $ficheSignee The fiche signee.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setFicheSignee($ficheSignee) {
+    public function setFicheSignee(?bool $ficheSignee): FichesControlesEntetes {
         $this->ficheSignee = $ficheSignee;
         return $this;
     }
@@ -555,7 +556,7 @@ class FichesControlesEntetes {
      * @param DateTime|null $heureDebut The heure debut.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setHeureDebut(DateTime $heureDebut = null) {
+    public function setHeureDebut(?DateTime $heureDebut): FichesControlesEntetes {
         $this->heureDebut = $heureDebut;
         return $this;
     }
@@ -566,7 +567,7 @@ class FichesControlesEntetes {
      * @param DateTime|null $heureFin The heure fin.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setHeureFin(DateTime $heureFin = null) {
+    public function setHeureFin(?DateTime $heureFin): FichesControlesEntetes {
         $this->heureFin = $heureFin;
         return $this;
     }
@@ -574,10 +575,10 @@ class FichesControlesEntetes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): FichesControlesEntetes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -585,10 +586,10 @@ class FichesControlesEntetes {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): FichesControlesEntetes {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -596,10 +597,10 @@ class FichesControlesEntetes {
     /**
      * Set the local.
      *
-     * @param string $local The local.
+     * @param string|null $local The local.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setLocal($local) {
+    public function setLocal(?string $local): FichesControlesEntetes {
         $this->local = $local;
         return $this;
     }
@@ -607,10 +608,10 @@ class FichesControlesEntetes {
     /**
      * Set the local pere.
      *
-     * @param string $localPere The local pere.
+     * @param string|null $localPere The local pere.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setLocalPere($localPere) {
+    public function setLocalPere(?string $localPere): FichesControlesEntetes {
         $this->localPere = $localPere;
         return $this;
     }
@@ -618,10 +619,10 @@ class FichesControlesEntetes {
     /**
      * Set the note globale.
      *
-     * @param float $noteGlobale The note globale.
+     * @param float|null $noteGlobale The note globale.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setNoteGlobale($noteGlobale) {
+    public function setNoteGlobale(?float $noteGlobale): FichesControlesEntetes {
         $this->noteGlobale = $noteGlobale;
         return $this;
     }
@@ -629,10 +630,10 @@ class FichesControlesEntetes {
     /**
      * Set the note objectif.
      *
-     * @param float $noteObjectif The note objectif.
+     * @param float|null $noteObjectif The note objectif.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setNoteObjectif($noteObjectif) {
+    public function setNoteObjectif(?float $noteObjectif): FichesControlesEntetes {
         $this->noteObjectif = $noteObjectif;
         return $this;
     }
@@ -640,10 +641,10 @@ class FichesControlesEntetes {
     /**
      * Set the numero fiche.
      *
-     * @param int $numeroFiche The numero fiche.
+     * @param int|null $numeroFiche The numero fiche.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setNumeroFiche($numeroFiche) {
+    public function setNumeroFiche(?int $numeroFiche): FichesControlesEntetes {
         $this->numeroFiche = $numeroFiche;
         return $this;
     }
@@ -651,10 +652,10 @@ class FichesControlesEntetes {
     /**
      * Set the numero noeud local.
      *
-     * @param int $numeroNoeudLocal The numero noeud local.
+     * @param int|null $numeroNoeudLocal The numero noeud local.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setNumeroNoeudLocal($numeroNoeudLocal) {
+    public function setNumeroNoeudLocal(?int $numeroNoeudLocal): FichesControlesEntetes {
         $this->numeroNoeudLocal = $numeroNoeudLocal;
         return $this;
     }
@@ -662,10 +663,10 @@ class FichesControlesEntetes {
     /**
      * Set the satisfaction generale.
      *
-     * @param string $satisfactionGenerale The satisfaction generale.
+     * @param string|null $satisfactionGenerale The satisfaction generale.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setSatisfactionGenerale($satisfactionGenerale) {
+    public function setSatisfactionGenerale(?string $satisfactionGenerale): FichesControlesEntetes {
         $this->satisfactionGenerale = $satisfactionGenerale;
         return $this;
     }
@@ -673,10 +674,10 @@ class FichesControlesEntetes {
     /**
      * Set the type controle.
      *
-     * @param string $typeControle The type controle.
+     * @param string|null $typeControle The type controle.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setTypeControle($typeControle) {
+    public function setTypeControle(?string $typeControle): FichesControlesEntetes {
         $this->typeControle = $typeControle;
         return $this;
     }
@@ -684,10 +685,10 @@ class FichesControlesEntetes {
     /**
      * Set the uniq id blocage.
      *
-     * @param string $uniqIdBlocage The uniq id blocage.
+     * @param string|null $uniqIdBlocage The uniq id blocage.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setUniqIdBlocage($uniqIdBlocage) {
+    public function setUniqIdBlocage(?string $uniqIdBlocage): FichesControlesEntetes {
         $this->uniqIdBlocage = $uniqIdBlocage;
         return $this;
     }
@@ -695,10 +696,10 @@ class FichesControlesEntetes {
     /**
      * Set the uniq id noeud.
      *
-     * @param string $uniqIdNoeud The uniq id noeud.
+     * @param string|null $uniqIdNoeud The uniq id noeud.
      * @return FichesControlesEntetes Returns this Fiches controles entetes.
      */
-    public function setUniqIdNoeud($uniqIdNoeud) {
+    public function setUniqIdNoeud(?string $uniqIdNoeud): FichesControlesEntetes {
         $this->uniqIdNoeud = $uniqIdNoeud;
         return $this;
     }

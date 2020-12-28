@@ -32,7 +32,7 @@ class ArchiveHelper {
      * @return bool Returns true in case of success, false otherwise.
      * @throws InvalidArgumentException Throws a file not found exception if the source filename is not found.
      */
-    public static function zip($src, $dst) {
+    public static function zip(string $src, string $dst): bool {
 
         if (false === file_exists($src)) {
             throw new InvalidArgumentException(sprintf('The file "%s" was not found', $src));
@@ -62,5 +62,7 @@ class ArchiveHelper {
 
             $zipArch->addEmptyDir($zipPath);
         }
+
+        return $zipArch->close();
     }
 }

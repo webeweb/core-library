@@ -27,7 +27,7 @@ class AffectationAna2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new AffectationAna2();
 
@@ -40,7 +40,7 @@ class AffectationAna2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new AffectationAna2();
 
@@ -53,7 +53,7 @@ class AffectationAna2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCompte() {
+    public function testSetNumCompte(): void {
 
         $obj = new AffectationAna2();
 
@@ -66,7 +66,7 @@ class AffectationAna2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new AffectationAna2();
 
@@ -79,7 +79,7 @@ class AffectationAna2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentage() {
+    public function testSetPourcentage(): void {
 
         $obj = new AffectationAna2();
 
@@ -92,7 +92,7 @@ class AffectationAna2Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffectationAna2();
 

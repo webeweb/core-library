@@ -27,7 +27,7 @@ class StringHashSha256TraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHashSha256() {
+    public function testSetHashSha256(): void {
 
         $obj = new TestStringHashSha256Trait();
 
@@ -40,7 +40,7 @@ class StringHashSha256TraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringHashSha256Trait();
 

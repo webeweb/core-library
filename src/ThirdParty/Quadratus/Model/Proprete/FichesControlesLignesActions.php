@@ -24,28 +24,28 @@ class FichesControlesLignesActions {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
@@ -59,57 +59,58 @@ class FichesControlesLignesActions {
     /**
      * Libelle action.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleAction;
 
     /**
      * Numero fiche.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroFiche;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string{
         return $this->codeAction;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
@@ -118,35 +119,35 @@ class FichesControlesLignesActions {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the libelle action.
      *
-     * @return string Returns the libelle action.
+     * @return string|null Returns the libelle action.
      */
-    public function getLibelleAction() {
+    public function getLibelleAction(): ?string{
         return $this->libelleAction;
     }
 
     /**
      * Get the numero fiche.
      *
-     * @return int Returns the numero fiche.
+     * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche() {
+    public function getNumeroFiche(): ?int{
         return $this->numeroFiche;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): FichesControlesLignesActions {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -154,10 +155,10 @@ class FichesControlesLignesActions {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): FichesControlesLignesActions {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -165,10 +166,10 @@ class FichesControlesLignesActions {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): FichesControlesLignesActions {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -176,10 +177,10 @@ class FichesControlesLignesActions {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): FichesControlesLignesActions {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -190,7 +191,7 @@ class FichesControlesLignesActions {
      * @param DateTime|null $date The date.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): FichesControlesLignesActions {
         $this->date = $date;
         return $this;
     }
@@ -198,10 +199,10 @@ class FichesControlesLignesActions {
     /**
      * Set the libelle action.
      *
-     * @param string $libelleAction The libelle action.
+     * @param string|null $libelleAction The libelle action.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setLibelleAction($libelleAction) {
+    public function setLibelleAction(?string $libelleAction): FichesControlesLignesActions {
         $this->libelleAction = $libelleAction;
         return $this;
     }
@@ -209,10 +210,10 @@ class FichesControlesLignesActions {
     /**
      * Set the numero fiche.
      *
-     * @param int $numeroFiche The numero fiche.
+     * @param int|null $numeroFiche The numero fiche.
      * @return FichesControlesLignesActions Returns this Fiches controles lignes actions.
      */
-    public function setNumeroFiche($numeroFiche) {
+    public function setNumeroFiche(?int $numeroFiche): FichesControlesLignesActions {
         $this->numeroFiche = $numeroFiche;
         return $this;
     }

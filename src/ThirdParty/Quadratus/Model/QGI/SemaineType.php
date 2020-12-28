@@ -22,231 +22,231 @@ class SemaineType {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Nbre h.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreH;
 
     /**
      * Nbre h dimanche.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHDimanche;
 
     /**
      * Nbre h jeudi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHJeudi;
 
     /**
      * Nbre h lundi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHLundi;
 
     /**
      * Nbre h mardi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMardi;
 
     /**
      * Nbre h max.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMax;
 
     /**
      * Nbre h maxi dimanche.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiDimanche;
 
     /**
      * Nbre h maxi jeudi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiJeudi;
 
     /**
      * Nbre h maxi lundi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiLundi;
 
     /**
      * Nbre h maxi mardi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiMardi;
 
     /**
      * Nbre h maxi mercredi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiMercredi;
 
     /**
      * Nbre h maxi samedi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiSamedi;
 
     /**
      * Nbre h maxi vendredi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMaxiVendredi;
 
     /**
      * Nbre h mercredi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMercredi;
 
     /**
      * Nbre h mini.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMini;
 
     /**
      * Nbre h mini dimanche.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniDimanche;
 
     /**
      * Nbre h mini jeudi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniJeudi;
 
     /**
      * Nbre h mini lundi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniLundi;
 
     /**
      * Nbre h mini mardi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniMardi;
 
     /**
      * Nbre h mini mercredi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniMercredi;
 
     /**
      * Nbre h mini samedi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniSamedi;
 
     /**
      * Nbre h mini vendredi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHMiniVendredi;
 
     /**
      * Nbre h samedi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHSamedi;
 
     /**
      * Nbre h vendredi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbreHVendredi;
 
     /**
      * T dimanche.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tDimanche;
 
     /**
      * T jeudi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tJeudi;
 
     /**
      * T lundi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tLundi;
 
     /**
      * T mardi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tMardi;
 
     /**
      * T mercredi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tMercredi;
 
     /**
      * T samedi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tSamedi;
 
     /**
      * T vendredi.
      *
-     * @var bool
+     * @var bool|null
      */
     private $tVendredi;
 
@@ -254,313 +254,313 @@ class SemaineType {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
     /**
      * Get the nbre h.
      *
-     * @return float Returns the nbre h.
+     * @return float|null Returns the nbre h.
      */
-    public function getNbreH() {
+    public function getNbreH(): ?float {
         return $this->nbreH;
     }
 
     /**
      * Get the nbre h dimanche.
      *
-     * @return float Returns the nbre h dimanche.
+     * @return float|null Returns the nbre h dimanche.
      */
-    public function getNbreHDimanche() {
+    public function getNbreHDimanche(): ?float {
         return $this->nbreHDimanche;
     }
 
     /**
      * Get the nbre h jeudi.
      *
-     * @return float Returns the nbre h jeudi.
+     * @return float|null Returns the nbre h jeudi.
      */
-    public function getNbreHJeudi() {
+    public function getNbreHJeudi(): ?float {
         return $this->nbreHJeudi;
     }
 
     /**
      * Get the nbre h lundi.
      *
-     * @return float Returns the nbre h lundi.
+     * @return float|null Returns the nbre h lundi.
      */
-    public function getNbreHLundi() {
+    public function getNbreHLundi(): ?float {
         return $this->nbreHLundi;
     }
 
     /**
      * Get the nbre h mardi.
      *
-     * @return float Returns the nbre h mardi.
+     * @return float|null Returns the nbre h mardi.
      */
-    public function getNbreHMardi() {
+    public function getNbreHMardi(): ?float {
         return $this->nbreHMardi;
     }
 
     /**
      * Get the nbre h max.
      *
-     * @return float Returns the nbre h max.
+     * @return float|null Returns the nbre h max.
      */
-    public function getNbreHMax() {
+    public function getNbreHMax(): ?float {
         return $this->nbreHMax;
     }
 
     /**
      * Get the nbre h maxi dimanche.
      *
-     * @return float Returns the nbre h maxi dimanche.
+     * @return float|null Returns the nbre h maxi dimanche.
      */
-    public function getNbreHMaxiDimanche() {
+    public function getNbreHMaxiDimanche(): ?float {
         return $this->nbreHMaxiDimanche;
     }
 
     /**
      * Get the nbre h maxi jeudi.
      *
-     * @return float Returns the nbre h maxi jeudi.
+     * @return float|null Returns the nbre h maxi jeudi.
      */
-    public function getNbreHMaxiJeudi() {
+    public function getNbreHMaxiJeudi(): ?float {
         return $this->nbreHMaxiJeudi;
     }
 
     /**
      * Get the nbre h maxi lundi.
      *
-     * @return float Returns the nbre h maxi lundi.
+     * @return float|null Returns the nbre h maxi lundi.
      */
-    public function getNbreHMaxiLundi() {
+    public function getNbreHMaxiLundi(): ?float {
         return $this->nbreHMaxiLundi;
     }
 
     /**
      * Get the nbre h maxi mardi.
      *
-     * @return float Returns the nbre h maxi mardi.
+     * @return float|null Returns the nbre h maxi mardi.
      */
-    public function getNbreHMaxiMardi() {
+    public function getNbreHMaxiMardi(): ?float {
         return $this->nbreHMaxiMardi;
     }
 
     /**
      * Get the nbre h maxi mercredi.
      *
-     * @return float Returns the nbre h maxi mercredi.
+     * @return float|null Returns the nbre h maxi mercredi.
      */
-    public function getNbreHMaxiMercredi() {
+    public function getNbreHMaxiMercredi(): ?float {
         return $this->nbreHMaxiMercredi;
     }
 
     /**
      * Get the nbre h maxi samedi.
      *
-     * @return float Returns the nbre h maxi samedi.
+     * @return float|null Returns the nbre h maxi samedi.
      */
-    public function getNbreHMaxiSamedi() {
+    public function getNbreHMaxiSamedi(): ?float {
         return $this->nbreHMaxiSamedi;
     }
 
     /**
      * Get the nbre h maxi vendredi.
      *
-     * @return float Returns the nbre h maxi vendredi.
+     * @return float|null Returns the nbre h maxi vendredi.
      */
-    public function getNbreHMaxiVendredi() {
+    public function getNbreHMaxiVendredi(): ?float {
         return $this->nbreHMaxiVendredi;
     }
 
     /**
      * Get the nbre h mercredi.
      *
-     * @return float Returns the nbre h mercredi.
+     * @return float|null Returns the nbre h mercredi.
      */
-    public function getNbreHMercredi() {
+    public function getNbreHMercredi(): ?float {
         return $this->nbreHMercredi;
     }
 
     /**
      * Get the nbre h mini.
      *
-     * @return float Returns the nbre h mini.
+     * @return float|null Returns the nbre h mini.
      */
-    public function getNbreHMini() {
+    public function getNbreHMini(): ?float {
         return $this->nbreHMini;
     }
 
     /**
      * Get the nbre h mini dimanche.
      *
-     * @return float Returns the nbre h mini dimanche.
+     * @return float|null Returns the nbre h mini dimanche.
      */
-    public function getNbreHMiniDimanche() {
+    public function getNbreHMiniDimanche(): ?float {
         return $this->nbreHMiniDimanche;
     }
 
     /**
      * Get the nbre h mini jeudi.
      *
-     * @return float Returns the nbre h mini jeudi.
+     * @return float|null Returns the nbre h mini jeudi.
      */
-    public function getNbreHMiniJeudi() {
+    public function getNbreHMiniJeudi(): ?float {
         return $this->nbreHMiniJeudi;
     }
 
     /**
      * Get the nbre h mini lundi.
      *
-     * @return float Returns the nbre h mini lundi.
+     * @return float|null Returns the nbre h mini lundi.
      */
-    public function getNbreHMiniLundi() {
+    public function getNbreHMiniLundi(): ?float {
         return $this->nbreHMiniLundi;
     }
 
     /**
      * Get the nbre h mini mardi.
      *
-     * @return float Returns the nbre h mini mardi.
+     * @return float|null Returns the nbre h mini mardi.
      */
-    public function getNbreHMiniMardi() {
+    public function getNbreHMiniMardi(): ?float {
         return $this->nbreHMiniMardi;
     }
 
     /**
      * Get the nbre h mini mercredi.
      *
-     * @return float Returns the nbre h mini mercredi.
+     * @return float|null Returns the nbre h mini mercredi.
      */
-    public function getNbreHMiniMercredi() {
+    public function getNbreHMiniMercredi(): ?float {
         return $this->nbreHMiniMercredi;
     }
 
     /**
      * Get the nbre h mini samedi.
      *
-     * @return float Returns the nbre h mini samedi.
+     * @return float|null Returns the nbre h mini samedi.
      */
-    public function getNbreHMiniSamedi() {
+    public function getNbreHMiniSamedi(): ?float {
         return $this->nbreHMiniSamedi;
     }
 
     /**
      * Get the nbre h mini vendredi.
      *
-     * @return float Returns the nbre h mini vendredi.
+     * @return float|null Returns the nbre h mini vendredi.
      */
-    public function getNbreHMiniVendredi() {
+    public function getNbreHMiniVendredi(): ?float {
         return $this->nbreHMiniVendredi;
     }
 
     /**
      * Get the nbre h samedi.
      *
-     * @return float Returns the nbre h samedi.
+     * @return float|null Returns the nbre h samedi.
      */
-    public function getNbreHSamedi() {
+    public function getNbreHSamedi(): ?float {
         return $this->nbreHSamedi;
     }
 
     /**
      * Get the nbre h vendredi.
      *
-     * @return float Returns the nbre h vendredi.
+     * @return float|null Returns the nbre h vendredi.
      */
-    public function getNbreHVendredi() {
+    public function getNbreHVendredi(): ?float {
         return $this->nbreHVendredi;
     }
 
     /**
      * Get the t dimanche.
      *
-     * @return bool Returns the t dimanche.
+     * @return bool|null Returns the t dimanche.
      */
-    public function getTDimanche() {
+    public function getTDimanche(): ?bool {
         return $this->tDimanche;
     }
 
     /**
      * Get the t jeudi.
      *
-     * @return bool Returns the t jeudi.
+     * @return bool|null Returns the t jeudi.
      */
-    public function getTJeudi() {
+    public function getTJeudi(): ?bool {
         return $this->tJeudi;
     }
 
     /**
      * Get the t lundi.
      *
-     * @return bool Returns the t lundi.
+     * @return bool|null Returns the t lundi.
      */
-    public function getTLundi() {
+    public function getTLundi(): ?bool {
         return $this->tLundi;
     }
 
     /**
      * Get the t mardi.
      *
-     * @return bool Returns the t mardi.
+     * @return bool|null Returns the t mardi.
      */
-    public function getTMardi() {
+    public function getTMardi(): ?bool {
         return $this->tMardi;
     }
 
     /**
      * Get the t mercredi.
      *
-     * @return bool Returns the t mercredi.
+     * @return bool|null Returns the t mercredi.
      */
-    public function getTMercredi() {
+    public function getTMercredi(): ?bool {
         return $this->tMercredi;
     }
 
     /**
      * Get the t samedi.
      *
-     * @return bool Returns the t samedi.
+     * @return bool|null Returns the t samedi.
      */
-    public function getTSamedi() {
+    public function getTSamedi(): ?bool {
         return $this->tSamedi;
     }
 
     /**
      * Get the t vendredi.
      *
-     * @return bool Returns the t vendredi.
+     * @return bool|null Returns the t vendredi.
      */
-    public function getTVendredi() {
+    public function getTVendredi(): ?bool {
         return $this->tVendredi;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): SemaineType {
         $this->code = $code;
         return $this;
     }
@@ -568,10 +568,10 @@ class SemaineType {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): SemaineType {
         $this->intitule = $intitule;
         return $this;
     }
@@ -579,10 +579,10 @@ class SemaineType {
     /**
      * Set the nbre h.
      *
-     * @param float $nbreH The nbre h.
+     * @param float|null $nbreH The nbre h.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreH($nbreH) {
+    public function setNbreH(?float $nbreH): SemaineType {
         $this->nbreH = $nbreH;
         return $this;
     }
@@ -590,10 +590,10 @@ class SemaineType {
     /**
      * Set the nbre h dimanche.
      *
-     * @param float $nbreHDimanche The nbre h dimanche.
+     * @param float|null $nbreHDimanche The nbre h dimanche.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHDimanche($nbreHDimanche) {
+    public function setNbreHDimanche(?float $nbreHDimanche): SemaineType {
         $this->nbreHDimanche = $nbreHDimanche;
         return $this;
     }
@@ -601,10 +601,10 @@ class SemaineType {
     /**
      * Set the nbre h jeudi.
      *
-     * @param float $nbreHJeudi The nbre h jeudi.
+     * @param float|null $nbreHJeudi The nbre h jeudi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHJeudi($nbreHJeudi) {
+    public function setNbreHJeudi(?float $nbreHJeudi): SemaineType {
         $this->nbreHJeudi = $nbreHJeudi;
         return $this;
     }
@@ -612,10 +612,10 @@ class SemaineType {
     /**
      * Set the nbre h lundi.
      *
-     * @param float $nbreHLundi The nbre h lundi.
+     * @param float|null $nbreHLundi The nbre h lundi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHLundi($nbreHLundi) {
+    public function setNbreHLundi(?float $nbreHLundi): SemaineType {
         $this->nbreHLundi = $nbreHLundi;
         return $this;
     }
@@ -623,10 +623,10 @@ class SemaineType {
     /**
      * Set the nbre h mardi.
      *
-     * @param float $nbreHMardi The nbre h mardi.
+     * @param float|null $nbreHMardi The nbre h mardi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMardi($nbreHMardi) {
+    public function setNbreHMardi(?float $nbreHMardi): SemaineType {
         $this->nbreHMardi = $nbreHMardi;
         return $this;
     }
@@ -634,10 +634,10 @@ class SemaineType {
     /**
      * Set the nbre h max.
      *
-     * @param float $nbreHMax The nbre h max.
+     * @param float|null $nbreHMax The nbre h max.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMax($nbreHMax) {
+    public function setNbreHMax(?float $nbreHMax): SemaineType {
         $this->nbreHMax = $nbreHMax;
         return $this;
     }
@@ -645,10 +645,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi dimanche.
      *
-     * @param float $nbreHMaxiDimanche The nbre h maxi dimanche.
+     * @param float|null $nbreHMaxiDimanche The nbre h maxi dimanche.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiDimanche($nbreHMaxiDimanche) {
+    public function setNbreHMaxiDimanche(?float $nbreHMaxiDimanche): SemaineType {
         $this->nbreHMaxiDimanche = $nbreHMaxiDimanche;
         return $this;
     }
@@ -656,10 +656,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi jeudi.
      *
-     * @param float $nbreHMaxiJeudi The nbre h maxi jeudi.
+     * @param float|null $nbreHMaxiJeudi The nbre h maxi jeudi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiJeudi($nbreHMaxiJeudi) {
+    public function setNbreHMaxiJeudi(?float $nbreHMaxiJeudi): SemaineType {
         $this->nbreHMaxiJeudi = $nbreHMaxiJeudi;
         return $this;
     }
@@ -667,10 +667,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi lundi.
      *
-     * @param float $nbreHMaxiLundi The nbre h maxi lundi.
+     * @param float|null $nbreHMaxiLundi The nbre h maxi lundi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiLundi($nbreHMaxiLundi) {
+    public function setNbreHMaxiLundi(?float $nbreHMaxiLundi): SemaineType {
         $this->nbreHMaxiLundi = $nbreHMaxiLundi;
         return $this;
     }
@@ -678,10 +678,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi mardi.
      *
-     * @param float $nbreHMaxiMardi The nbre h maxi mardi.
+     * @param float|null $nbreHMaxiMardi The nbre h maxi mardi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiMardi($nbreHMaxiMardi) {
+    public function setNbreHMaxiMardi(?float $nbreHMaxiMardi): SemaineType {
         $this->nbreHMaxiMardi = $nbreHMaxiMardi;
         return $this;
     }
@@ -689,10 +689,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi mercredi.
      *
-     * @param float $nbreHMaxiMercredi The nbre h maxi mercredi.
+     * @param float|null $nbreHMaxiMercredi The nbre h maxi mercredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiMercredi($nbreHMaxiMercredi) {
+    public function setNbreHMaxiMercredi(?float $nbreHMaxiMercredi): SemaineType {
         $this->nbreHMaxiMercredi = $nbreHMaxiMercredi;
         return $this;
     }
@@ -700,10 +700,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi samedi.
      *
-     * @param float $nbreHMaxiSamedi The nbre h maxi samedi.
+     * @param float|null $nbreHMaxiSamedi The nbre h maxi samedi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiSamedi($nbreHMaxiSamedi) {
+    public function setNbreHMaxiSamedi(?float $nbreHMaxiSamedi): SemaineType {
         $this->nbreHMaxiSamedi = $nbreHMaxiSamedi;
         return $this;
     }
@@ -711,10 +711,10 @@ class SemaineType {
     /**
      * Set the nbre h maxi vendredi.
      *
-     * @param float $nbreHMaxiVendredi The nbre h maxi vendredi.
+     * @param float|null $nbreHMaxiVendredi The nbre h maxi vendredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMaxiVendredi($nbreHMaxiVendredi) {
+    public function setNbreHMaxiVendredi(?float $nbreHMaxiVendredi): SemaineType {
         $this->nbreHMaxiVendredi = $nbreHMaxiVendredi;
         return $this;
     }
@@ -722,10 +722,10 @@ class SemaineType {
     /**
      * Set the nbre h mercredi.
      *
-     * @param float $nbreHMercredi The nbre h mercredi.
+     * @param float|null $nbreHMercredi The nbre h mercredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMercredi($nbreHMercredi) {
+    public function setNbreHMercredi(?float $nbreHMercredi): SemaineType {
         $this->nbreHMercredi = $nbreHMercredi;
         return $this;
     }
@@ -733,10 +733,10 @@ class SemaineType {
     /**
      * Set the nbre h mini.
      *
-     * @param float $nbreHMini The nbre h mini.
+     * @param float|null $nbreHMini The nbre h mini.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMini($nbreHMini) {
+    public function setNbreHMini(?float $nbreHMini): SemaineType {
         $this->nbreHMini = $nbreHMini;
         return $this;
     }
@@ -744,10 +744,10 @@ class SemaineType {
     /**
      * Set the nbre h mini dimanche.
      *
-     * @param float $nbreHMiniDimanche The nbre h mini dimanche.
+     * @param float|null $nbreHMiniDimanche The nbre h mini dimanche.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniDimanche($nbreHMiniDimanche) {
+    public function setNbreHMiniDimanche(?float $nbreHMiniDimanche): SemaineType {
         $this->nbreHMiniDimanche = $nbreHMiniDimanche;
         return $this;
     }
@@ -755,10 +755,10 @@ class SemaineType {
     /**
      * Set the nbre h mini jeudi.
      *
-     * @param float $nbreHMiniJeudi The nbre h mini jeudi.
+     * @param float|null $nbreHMiniJeudi The nbre h mini jeudi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniJeudi($nbreHMiniJeudi) {
+    public function setNbreHMiniJeudi(?float $nbreHMiniJeudi): SemaineType {
         $this->nbreHMiniJeudi = $nbreHMiniJeudi;
         return $this;
     }
@@ -766,10 +766,10 @@ class SemaineType {
     /**
      * Set the nbre h mini lundi.
      *
-     * @param float $nbreHMiniLundi The nbre h mini lundi.
+     * @param float|null $nbreHMiniLundi The nbre h mini lundi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniLundi($nbreHMiniLundi) {
+    public function setNbreHMiniLundi(?float $nbreHMiniLundi): SemaineType {
         $this->nbreHMiniLundi = $nbreHMiniLundi;
         return $this;
     }
@@ -777,10 +777,10 @@ class SemaineType {
     /**
      * Set the nbre h mini mardi.
      *
-     * @param float $nbreHMiniMardi The nbre h mini mardi.
+     * @param float|null $nbreHMiniMardi The nbre h mini mardi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniMardi($nbreHMiniMardi) {
+    public function setNbreHMiniMardi(?float $nbreHMiniMardi): SemaineType {
         $this->nbreHMiniMardi = $nbreHMiniMardi;
         return $this;
     }
@@ -788,10 +788,10 @@ class SemaineType {
     /**
      * Set the nbre h mini mercredi.
      *
-     * @param float $nbreHMiniMercredi The nbre h mini mercredi.
+     * @param float|null $nbreHMiniMercredi The nbre h mini mercredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniMercredi($nbreHMiniMercredi) {
+    public function setNbreHMiniMercredi(?float $nbreHMiniMercredi): SemaineType {
         $this->nbreHMiniMercredi = $nbreHMiniMercredi;
         return $this;
     }
@@ -799,10 +799,10 @@ class SemaineType {
     /**
      * Set the nbre h mini samedi.
      *
-     * @param float $nbreHMiniSamedi The nbre h mini samedi.
+     * @param float|null $nbreHMiniSamedi The nbre h mini samedi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniSamedi($nbreHMiniSamedi) {
+    public function setNbreHMiniSamedi(?float $nbreHMiniSamedi): SemaineType {
         $this->nbreHMiniSamedi = $nbreHMiniSamedi;
         return $this;
     }
@@ -810,10 +810,10 @@ class SemaineType {
     /**
      * Set the nbre h mini vendredi.
      *
-     * @param float $nbreHMiniVendredi The nbre h mini vendredi.
+     * @param float|null $nbreHMiniVendredi The nbre h mini vendredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHMiniVendredi($nbreHMiniVendredi) {
+    public function setNbreHMiniVendredi(?float $nbreHMiniVendredi): SemaineType {
         $this->nbreHMiniVendredi = $nbreHMiniVendredi;
         return $this;
     }
@@ -821,10 +821,10 @@ class SemaineType {
     /**
      * Set the nbre h samedi.
      *
-     * @param float $nbreHSamedi The nbre h samedi.
+     * @param float|null $nbreHSamedi The nbre h samedi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHSamedi($nbreHSamedi) {
+    public function setNbreHSamedi(?float $nbreHSamedi): SemaineType {
         $this->nbreHSamedi = $nbreHSamedi;
         return $this;
     }
@@ -832,10 +832,10 @@ class SemaineType {
     /**
      * Set the nbre h vendredi.
      *
-     * @param float $nbreHVendredi The nbre h vendredi.
+     * @param float|null $nbreHVendredi The nbre h vendredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setNbreHVendredi($nbreHVendredi) {
+    public function setNbreHVendredi(?float $nbreHVendredi): SemaineType {
         $this->nbreHVendredi = $nbreHVendredi;
         return $this;
     }
@@ -843,10 +843,10 @@ class SemaineType {
     /**
      * Set the t dimanche.
      *
-     * @param bool $tDimanche The t dimanche.
+     * @param bool|null $tDimanche The t dimanche.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTDimanche($tDimanche) {
+    public function setTDimanche(?bool $tDimanche): SemaineType {
         $this->tDimanche = $tDimanche;
         return $this;
     }
@@ -854,10 +854,10 @@ class SemaineType {
     /**
      * Set the t jeudi.
      *
-     * @param bool $tJeudi The t jeudi.
+     * @param bool|null $tJeudi The t jeudi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTJeudi($tJeudi) {
+    public function setTJeudi(?bool $tJeudi): SemaineType {
         $this->tJeudi = $tJeudi;
         return $this;
     }
@@ -865,10 +865,10 @@ class SemaineType {
     /**
      * Set the t lundi.
      *
-     * @param bool $tLundi The t lundi.
+     * @param bool|null $tLundi The t lundi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTLundi($tLundi) {
+    public function setTLundi(?bool $tLundi): SemaineType {
         $this->tLundi = $tLundi;
         return $this;
     }
@@ -876,10 +876,10 @@ class SemaineType {
     /**
      * Set the t mardi.
      *
-     * @param bool $tMardi The t mardi.
+     * @param bool|null $tMardi The t mardi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTMardi($tMardi) {
+    public function setTMardi(?bool $tMardi): SemaineType {
         $this->tMardi = $tMardi;
         return $this;
     }
@@ -887,10 +887,10 @@ class SemaineType {
     /**
      * Set the t mercredi.
      *
-     * @param bool $tMercredi The t mercredi.
+     * @param bool|null $tMercredi The t mercredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTMercredi($tMercredi) {
+    public function setTMercredi(?bool $tMercredi): SemaineType {
         $this->tMercredi = $tMercredi;
         return $this;
     }
@@ -898,10 +898,10 @@ class SemaineType {
     /**
      * Set the t samedi.
      *
-     * @param bool $tSamedi The t samedi.
+     * @param bool|null $tSamedi The t samedi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTSamedi($tSamedi) {
+    public function setTSamedi(?bool $tSamedi): SemaineType {
         $this->tSamedi = $tSamedi;
         return $this;
     }
@@ -909,10 +909,10 @@ class SemaineType {
     /**
      * Set the t vendredi.
      *
-     * @param bool $tVendredi The t vendredi.
+     * @param bool|null $tVendredi The t vendredi.
      * @return SemaineType Returns this Semaine type.
      */
-    public function setTVendredi($tVendredi) {
+    public function setTVendredi(?bool $tVendredi): SemaineType {
         $this->tVendredi = $tVendredi;
         return $this;
     }

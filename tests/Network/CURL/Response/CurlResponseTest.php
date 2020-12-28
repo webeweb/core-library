@@ -27,7 +27,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequestBody() {
+    public function testSetRequestBody(): void {
 
         $obj = new CurlResponse();
 
@@ -40,7 +40,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequestHeader() {
+    public function testSetRequestHeader(): void {
 
         $obj = new CurlResponse();
 
@@ -53,7 +53,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRequestUrl() {
+    public function testSetRequestUrl(): void {
 
         $obj = new CurlResponse();
 
@@ -66,7 +66,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResponseBody() {
+    public function testSetResponseBody(): void {
 
         $obj = new CurlResponse();
 
@@ -79,7 +79,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResponseHeader() {
+    public function testSetResponseHeader(): void {
 
         $obj = new CurlResponse();
 
@@ -92,7 +92,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetResponseInfo() {
+    public function testSetResponseInfo(): void {
 
         $obj = new CurlResponse();
 
@@ -105,7 +105,7 @@ class CurlResponseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CurlResponse();
 

@@ -29,7 +29,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new HistoPaieHSup();
 
@@ -42,7 +42,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHSup() {
+    public function testSetNbHSup(): void {
 
         $obj = new HistoPaieHSup();
 
@@ -56,7 +56,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentHSup() {
+    public function testSetPourcentHSup(): void {
 
         $obj = new HistoPaieHSup();
 
@@ -85,7 +85,7 @@ class HistoPaieHSupTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new HistoPaieHSup();
 

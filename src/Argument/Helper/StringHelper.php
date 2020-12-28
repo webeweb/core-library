@@ -26,12 +26,12 @@ class StringHelper {
      * Create a DOM node.
      *
      * @param string $name The name.
-     * @param string $value The value.
+     * @param string|null $value The value.
      * @param array $attributes The attributes.
      * @param bool $shortTag Short tag ?
      * @return string Returns the DOM node.
      */
-    public static function domNode($name, $value, array $attributes = [], $shortTag = false) {
+    public static function domNode(string $name, ?string $value, array $attributes = [], bool $shortTag = false): string {
 
         $template = "<%name%%attributes%>%text%</%name%>";
 
@@ -52,14 +52,13 @@ class StringHelper {
      * Determines if a value is a string.
      *
      * @param mixed $value The value.
-     * @return bool Returns true.
+     * @return void
      * @throws StringArgumentException Throws a String argument exception if the value is not of expected type.
      */
-    public static function isString($value) {
+    public static function isString($value): void {
         if (false === is_string($value)) {
             throw new StringArgumentException($value);
         }
-        return true;
     }
 
     /**
@@ -68,7 +67,7 @@ class StringHelper {
      * @param array $values The array.
      * @return string Returns the array converted into key="value".
      */
-    public static function parseArray(array $values) {
+    public static function parseArray(array $values): string {
 
         $output = [];
 
@@ -95,10 +94,10 @@ class StringHelper {
     /**
      * Parse a boolean.
      *
-     * @param bool $value The boolean value.
+     * @param bool|null $value The boolean value.
      * @return string Returns "true" in case of success, "false" otherwise.
      */
-    public static function parseBoolean($value) {
+    public static function parseBoolean(?bool $value): string {
         return true === $value ? "true" : "false";
     }
 
@@ -108,7 +107,7 @@ class StringHelper {
      * @param string $str The string.
      * @return string Returns the string without accents.
      */
-    public static function removeAccents($str) {
+    public static function removeAccents(string $str): string {
         return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($str);
     }
 }

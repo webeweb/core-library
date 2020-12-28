@@ -22,65 +22,66 @@ class AgendaCollabGroup {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code groupe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeGroupe;
 
     /**
      * Num lig.
      *
-     * @var int
+     * @var int|null
      */
     private $numLig;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code groupe.
      *
-     * @return string Returns the code groupe.
+     * @return string|null Returns the code groupe.
      */
-    public function getCodeGroupe() {
+    public function getCodeGroupe(): ?string{
         return $this->codeGroupe;
     }
 
     /**
      * Get the num lig.
      *
-     * @return int Returns the num lig.
+     * @return int|null Returns the num lig.
      */
-    public function getNumLig() {
+    public function getNumLig(): ?int{
         return $this->numLig;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return AgendaCollabGroup Returns this Agenda collab group.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): AgendaCollabGroup {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -88,10 +89,10 @@ class AgendaCollabGroup {
     /**
      * Set the code groupe.
      *
-     * @param string $codeGroupe The code groupe.
+     * @param string|null $codeGroupe The code groupe.
      * @return AgendaCollabGroup Returns this Agenda collab group.
      */
-    public function setCodeGroupe($codeGroupe) {
+    public function setCodeGroupe(?string $codeGroupe): AgendaCollabGroup {
         $this->codeGroupe = $codeGroupe;
         return $this;
     }
@@ -99,10 +100,10 @@ class AgendaCollabGroup {
     /**
      * Set the num lig.
      *
-     * @param int $numLig The num lig.
+     * @param int|null $numLig The num lig.
      * @return AgendaCollabGroup Returns this Agenda collab group.
      */
-    public function setNumLig($numLig) {
+    public function setNumLig(?int $numLig): AgendaCollabGroup {
         $this->numLig = $numLig;
         return $this;
     }

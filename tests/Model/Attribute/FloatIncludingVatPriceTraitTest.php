@@ -27,7 +27,7 @@ class FloatIncludingVatPriceTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIncludingVatPrice() {
+    public function testSetIncludingVatPrice(): void {
 
         $obj = new TestFloatIncludingVatPriceTrait();
 
@@ -40,7 +40,7 @@ class FloatIncludingVatPriceTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatIncludingVatPriceTrait();
 

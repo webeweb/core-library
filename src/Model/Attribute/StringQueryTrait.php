@@ -22,25 +22,25 @@ trait StringQueryTrait {
     /**
      * Query.
      *
-     * @var string
+     * @var string|null
      */
     protected $query;
 
     /**
      * Get the query.
      *
-     * @return string Returns the query.
+     * @return string|null Returns the query.
      */
-    public function getQuery() {
+    public function getQuery(): ?string {
         return $this->query;
     }
 
     /**
      * Set the query.
      *
-     * @param string $query The query.
+     * @param string|null $query The query.
      */
-    public function setQuery($query) {
+    public function setQuery(?string $query) {
         $this->query = $query;
         return $this;
     }

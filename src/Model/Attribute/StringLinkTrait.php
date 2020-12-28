@@ -22,25 +22,25 @@ trait StringLinkTrait {
     /**
      * Link.
      *
-     * @var string
+     * @var string|null
      */
     protected $link;
 
     /**
      * Get the link.
      *
-     * @return string Returns the link.
+     * @return string|null Returns the link.
      */
-    public function getLink() {
+    public function getLink(): ?string {
         return $this->link;
     }
 
     /**
      * Set the link.
      *
-     * @param string $link The link.
+     * @param string|null $link The link.
      */
-    public function setLink($link) {
+    public function setLink(?string $link) {
         $this->link = $link;
         return $this;
     }

@@ -27,7 +27,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelle() {
+    public function testSetCodeLibelle(): void {
 
         $obj = new VariablesPaieEmp();
 
@@ -40,7 +40,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new VariablesPaieEmp();
 
@@ -53,7 +53,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new VariablesPaieEmp();
 
@@ -66,7 +66,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur1() {
+    public function testSetValeur1(): void {
 
         $obj = new VariablesPaieEmp();
 
@@ -79,7 +79,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur2() {
+    public function testSetValeur2(): void {
 
         $obj = new VariablesPaieEmp();
 
@@ -92,7 +92,7 @@ class VariablesPaieEmpTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new VariablesPaieEmp();
 

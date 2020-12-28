@@ -24,42 +24,42 @@ class DadsuPrev {
     /**
      * Base prev.
      *
-     * @var float
+     * @var float|null
      */
     private $basePrev;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code organisme gestionnaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganismeGestionnaire;
 
     /**
      * Code popul.
      *
-     * @var string
+     * @var string|null
      */
     private $codePopul;
 
     /**
      * Code type prev.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTypePrev;
 
@@ -73,7 +73,7 @@ class DadsuPrev {
     /**
      * Even contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $evenContrat;
 
@@ -87,96 +87,97 @@ class DadsuPrev {
     /**
      * Id institution.
      *
-     * @var string
+     * @var string|null
      */
     private $idInstitution;
 
     /**
      * Indice dadsu.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceDadsu;
 
     /**
      * No affiliation.
      *
-     * @var string
+     * @var string|null
      */
     private $noAffiliation;
 
     /**
      * Numero.
      *
-     * @var string
+     * @var string|null
      */
     private $numero;
 
     /**
      * Numero ordre.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroOrdre;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the base prev.
      *
-     * @return float Returns the base prev.
+     * @return float|null Returns the base prev.
      */
-    public function getBasePrev() {
+    public function getBasePrev(): ?float{
         return $this->basePrev;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code organisme gestionnaire.
      *
-     * @return string Returns the code organisme gestionnaire.
+     * @return string|null Returns the code organisme gestionnaire.
      */
-    public function getCodeOrganismeGestionnaire() {
+    public function getCodeOrganismeGestionnaire(): ?string{
         return $this->codeOrganismeGestionnaire;
     }
 
     /**
      * Get the code popul.
      *
-     * @return string Returns the code popul.
+     * @return string|null Returns the code popul.
      */
-    public function getCodePopul() {
+    public function getCodePopul(): ?string{
         return $this->codePopul;
     }
 
     /**
      * Get the code type prev.
      *
-     * @return string Returns the code type prev.
+     * @return string|null Returns the code type prev.
      */
-    public function getCodeTypePrev() {
+    public function getCodeTypePrev(): ?string{
         return $this->codeTypePrev;
     }
 
@@ -185,16 +186,16 @@ class DadsuPrev {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode() {
+    public function getDebutPeriode(): ?DateTime{
         return $this->debutPeriode;
     }
 
     /**
      * Get the even contrat.
      *
-     * @return string Returns the even contrat.
+     * @return string|null Returns the even contrat.
      */
-    public function getEvenContrat() {
+    public function getEvenContrat(): ?string{
         return $this->evenContrat;
     }
 
@@ -203,62 +204,62 @@ class DadsuPrev {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode() {
+    public function getFinPeriode(): ?DateTime{
         return $this->finPeriode;
     }
 
     /**
      * Get the id institution.
      *
-     * @return string Returns the id institution.
+     * @return string|null Returns the id institution.
      */
-    public function getIdInstitution() {
+    public function getIdInstitution(): ?string{
         return $this->idInstitution;
     }
 
     /**
      * Get the indice dadsu.
      *
-     * @return int Returns the indice dadsu.
+     * @return int|null Returns the indice dadsu.
      */
-    public function getIndiceDadsu() {
+    public function getIndiceDadsu(): ?int{
         return $this->indiceDadsu;
     }
 
     /**
      * Get the no affiliation.
      *
-     * @return string Returns the no affiliation.
+     * @return string|null Returns the no affiliation.
      */
-    public function getNoAffiliation() {
+    public function getNoAffiliation(): ?string{
         return $this->noAffiliation;
     }
 
     /**
      * Get the numero.
      *
-     * @return string Returns the numero.
+     * @return string|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?string{
         return $this->numero;
     }
 
     /**
      * Get the numero ordre.
      *
-     * @return int Returns the numero ordre.
+     * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre() {
+    public function getNumeroOrdre(): ?int{
         return $this->numeroOrdre;
     }
 
     /**
      * Set the base prev.
      *
-     * @param float $basePrev The base prev.
+     * @param float|null $basePrev The base prev.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setBasePrev($basePrev) {
+    public function setBasePrev(?float $basePrev): DadsuPrev {
         $this->basePrev = $basePrev;
         return $this;
     }
@@ -266,10 +267,10 @@ class DadsuPrev {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): DadsuPrev {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -277,10 +278,10 @@ class DadsuPrev {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): DadsuPrev {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -288,10 +289,10 @@ class DadsuPrev {
     /**
      * Set the code organisme gestionnaire.
      *
-     * @param string $codeOrganismeGestionnaire The code organisme gestionnaire.
+     * @param string|null $codeOrganismeGestionnaire The code organisme gestionnaire.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setCodeOrganismeGestionnaire($codeOrganismeGestionnaire) {
+    public function setCodeOrganismeGestionnaire(?string $codeOrganismeGestionnaire): DadsuPrev {
         $this->codeOrganismeGestionnaire = $codeOrganismeGestionnaire;
         return $this;
     }
@@ -299,10 +300,10 @@ class DadsuPrev {
     /**
      * Set the code popul.
      *
-     * @param string $codePopul The code popul.
+     * @param string|null $codePopul The code popul.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setCodePopul($codePopul) {
+    public function setCodePopul(?string $codePopul): DadsuPrev {
         $this->codePopul = $codePopul;
         return $this;
     }
@@ -310,10 +311,10 @@ class DadsuPrev {
     /**
      * Set the code type prev.
      *
-     * @param string $codeTypePrev The code type prev.
+     * @param string|null $codeTypePrev The code type prev.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setCodeTypePrev($codeTypePrev) {
+    public function setCodeTypePrev(?string $codeTypePrev): DadsuPrev {
         $this->codeTypePrev = $codeTypePrev;
         return $this;
     }
@@ -324,7 +325,7 @@ class DadsuPrev {
      * @param DateTime|null $debutPeriode The debut periode.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setDebutPeriode(DateTime $debutPeriode = null) {
+    public function setDebutPeriode(?DateTime $debutPeriode): DadsuPrev {
         $this->debutPeriode = $debutPeriode;
         return $this;
     }
@@ -332,10 +333,10 @@ class DadsuPrev {
     /**
      * Set the even contrat.
      *
-     * @param string $evenContrat The even contrat.
+     * @param string|null $evenContrat The even contrat.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setEvenContrat($evenContrat) {
+    public function setEvenContrat(?string $evenContrat): DadsuPrev {
         $this->evenContrat = $evenContrat;
         return $this;
     }
@@ -346,7 +347,7 @@ class DadsuPrev {
      * @param DateTime|null $finPeriode The fin periode.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setFinPeriode(DateTime $finPeriode = null) {
+    public function setFinPeriode(?DateTime $finPeriode): DadsuPrev {
         $this->finPeriode = $finPeriode;
         return $this;
     }
@@ -354,10 +355,10 @@ class DadsuPrev {
     /**
      * Set the id institution.
      *
-     * @param string $idInstitution The id institution.
+     * @param string|null $idInstitution The id institution.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setIdInstitution($idInstitution) {
+    public function setIdInstitution(?string $idInstitution): DadsuPrev {
         $this->idInstitution = $idInstitution;
         return $this;
     }
@@ -365,10 +366,10 @@ class DadsuPrev {
     /**
      * Set the indice dadsu.
      *
-     * @param int $indiceDadsu The indice dadsu.
+     * @param int|null $indiceDadsu The indice dadsu.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setIndiceDadsu($indiceDadsu) {
+    public function setIndiceDadsu(?int $indiceDadsu): DadsuPrev {
         $this->indiceDadsu = $indiceDadsu;
         return $this;
     }
@@ -376,10 +377,10 @@ class DadsuPrev {
     /**
      * Set the no affiliation.
      *
-     * @param string $noAffiliation The no affiliation.
+     * @param string|null $noAffiliation The no affiliation.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setNoAffiliation($noAffiliation) {
+    public function setNoAffiliation(?string $noAffiliation): DadsuPrev {
         $this->noAffiliation = $noAffiliation;
         return $this;
     }
@@ -387,10 +388,10 @@ class DadsuPrev {
     /**
      * Set the numero.
      *
-     * @param string $numero The numero.
+     * @param string|null $numero The numero.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setNumero($numero) {
+    public function setNumero(?string $numero): DadsuPrev {
         $this->numero = $numero;
         return $this;
     }
@@ -398,10 +399,10 @@ class DadsuPrev {
     /**
      * Set the numero ordre.
      *
-     * @param int $numeroOrdre The numero ordre.
+     * @param int|null $numeroOrdre The numero ordre.
      * @return DadsuPrev Returns this Dadsu prev.
      */
-    public function setNumeroOrdre($numeroOrdre) {
+    public function setNumeroOrdre(?int $numeroOrdre): DadsuPrev {
         $this->numeroOrdre = $numeroOrdre;
         return $this;
     }

@@ -29,7 +29,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -42,7 +42,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -55,7 +55,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -68,7 +68,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaboValid() {
+    public function testSetCodeCollaboValid(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -81,7 +81,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -94,7 +94,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -107,7 +107,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRemplacant() {
+    public function testSetCodeRemplacant(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -120,7 +120,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -134,7 +134,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateValidationSynchro() {
+    public function testSetDateValidationSynchro(): void {
 
         // Set a Date/time mock.
         $dateValidationSynchro = new DateTime("2018-09-10");
@@ -150,7 +150,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtat() {
+    public function testSetEtat(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -163,7 +163,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMensualisation() {
+    public function testSetMensualisation(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -176,7 +176,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeures() {
+    public function testSetNbHeures(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -189,7 +189,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumBt() {
+    public function testSetNumBt(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -203,7 +203,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -219,7 +219,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqIdSynchro() {
+    public function testSetUniqIdSynchro(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 
@@ -232,7 +232,7 @@ class PointEmpNbHRemplContratTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PointEmpNbHRemplContrat();
 

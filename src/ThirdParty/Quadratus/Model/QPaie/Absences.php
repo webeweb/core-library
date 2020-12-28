@@ -24,28 +24,28 @@ class Absences {
     /**
      * Abs jour.
      *
-     * @var bool
+     * @var bool|null
      */
     private $absJour;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code user.
      *
-     * @var string
+     * @var string|null
      */
     private $codeUser;
 
     /**
      * Conges payes.
      *
-     * @var bool
+     * @var bool|null
      */
     private $congesPayes;
 
@@ -66,70 +66,70 @@ class Absences {
     /**
      * In bul.
      *
-     * @var bool
+     * @var bool|null
      */
     private $inBul;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Nb30.
      *
-     * @var float
+     * @var float|null
      */
     private $nb30;
 
     /**
      * Nb h ab cp calcule.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHAbCpCalcule;
 
     /**
      * Nb h ab cp saisi.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHAbCpSaisi;
 
     /**
      * Nb jh.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJh;
 
     /**
      * Nb jh calcule.
      *
-     * @var float
+     * @var float|null
      */
     private $nbJhCalcule;
 
     /**
      * Num evenement.
      *
-     * @var int
+     * @var int|null
      */
     private $numEvenement;
 
     /**
      * Num uniq.
      *
-     * @var int
+     * @var int|null
      */
     private $numUniq;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -157,64 +157,65 @@ class Absences {
     /**
      * Prolongation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $prolongation;
 
     /**
      * Reprise.
      *
-     * @var bool
+     * @var bool|null
      */
     private $reprise;
 
     /**
      * Type abs.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAbs;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the abs jour.
      *
-     * @return bool Returns the abs jour.
+     * @return bool|null Returns the abs jour.
      */
-    public function getAbsJour() {
+    public function getAbsJour(): ?bool{
         return $this->absJour;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code user.
      *
-     * @return string Returns the code user.
+     * @return string|null Returns the code user.
      */
-    public function getCodeUser() {
+    public function getCodeUser(): ?string{
         return $this->codeUser;
     }
 
     /**
      * Get the conges payes.
      *
-     * @return bool Returns the conges payes.
+     * @return bool|null Returns the conges payes.
      */
-    public function getCongesPayes() {
+    public function getCongesPayes(): ?bool{
         return $this->congesPayes;
     }
 
@@ -223,7 +224,7 @@ class Absences {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded() {
+    public function getDateAdded(): ?DateTime{
         return $this->dateAdded;
     }
 
@@ -232,97 +233,97 @@ class Absences {
      *
      * @return DateTime|null Returns the date added coll.
      */
-    public function getDateAddedColl() {
+    public function getDateAddedColl(): ?DateTime{
         return $this->dateAddedColl;
     }
 
     /**
      * Get the in bul.
      *
-     * @return bool Returns the in bul.
+     * @return bool|null Returns the in bul.
      */
-    public function getInBul() {
+    public function getInBul(): ?bool{
         return $this->inBul;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the nb30.
      *
-     * @return float Returns the nb30.
+     * @return float|null Returns the nb30.
      */
-    public function getNb30() {
+    public function getNb30(): ?float{
         return $this->nb30;
     }
 
     /**
      * Get the nb h ab cp calcule.
      *
-     * @return float Returns the nb h ab cp calcule.
+     * @return float|null Returns the nb h ab cp calcule.
      */
-    public function getNbHAbCpCalcule() {
+    public function getNbHAbCpCalcule(): ?float{
         return $this->nbHAbCpCalcule;
     }
 
     /**
      * Get the nb h ab cp saisi.
      *
-     * @return float Returns the nb h ab cp saisi.
+     * @return float|null Returns the nb h ab cp saisi.
      */
-    public function getNbHAbCpSaisi() {
+    public function getNbHAbCpSaisi(): ?float{
         return $this->nbHAbCpSaisi;
     }
 
     /**
      * Get the nb jh.
      *
-     * @return float Returns the nb jh.
+     * @return float|null Returns the nb jh.
      */
-    public function getNbJh() {
+    public function getNbJh(): ?float{
         return $this->nbJh;
     }
 
     /**
      * Get the nb jh calcule.
      *
-     * @return float Returns the nb jh calcule.
+     * @return float|null Returns the nb jh calcule.
      */
-    public function getNbJhCalcule() {
+    public function getNbJhCalcule(): ?float{
         return $this->nbJhCalcule;
     }
 
     /**
      * Get the num evenement.
      *
-     * @return int Returns the num evenement.
+     * @return int|null Returns the num evenement.
      */
-    public function getNumEvenement() {
+    public function getNumEvenement(): ?int{
         return $this->numEvenement;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return int Returns the num uniq.
+     * @return int|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?int{
         return $this->numUniq;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -331,7 +332,7 @@ class Absences {
      *
      * @return DateTime|null Returns the periode bul.
      */
-    public function getPeriodeBul() {
+    public function getPeriodeBul(): ?DateTime{
         return $this->periodeBul;
     }
 
@@ -340,7 +341,7 @@ class Absences {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -349,44 +350,44 @@ class Absences {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the prolongation.
      *
-     * @return bool Returns the prolongation.
+     * @return bool|null Returns the prolongation.
      */
-    public function getProlongation() {
+    public function getProlongation(): ?bool{
         return $this->prolongation;
     }
 
     /**
      * Get the reprise.
      *
-     * @return bool Returns the reprise.
+     * @return bool|null Returns the reprise.
      */
-    public function getReprise() {
+    public function getReprise(): ?bool{
         return $this->reprise;
     }
 
     /**
      * Get the type abs.
      *
-     * @return string Returns the type abs.
+     * @return string|null Returns the type abs.
      */
-    public function getTypeAbs() {
+    public function getTypeAbs(): ?string{
         return $this->typeAbs;
     }
 
     /**
      * Set the abs jour.
      *
-     * @param bool $absJour The abs jour.
+     * @param bool|null $absJour The abs jour.
      * @return Absences Returns this Absences.
      */
-    public function setAbsJour($absJour) {
+    public function setAbsJour(?bool $absJour): Absences {
         $this->absJour = $absJour;
         return $this;
     }
@@ -394,10 +395,10 @@ class Absences {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return Absences Returns this Absences.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): Absences {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -405,10 +406,10 @@ class Absences {
     /**
      * Set the code user.
      *
-     * @param string $codeUser The code user.
+     * @param string|null $codeUser The code user.
      * @return Absences Returns this Absences.
      */
-    public function setCodeUser($codeUser) {
+    public function setCodeUser(?string $codeUser): Absences {
         $this->codeUser = $codeUser;
         return $this;
     }
@@ -416,10 +417,10 @@ class Absences {
     /**
      * Set the conges payes.
      *
-     * @param bool $congesPayes The conges payes.
+     * @param bool|null $congesPayes The conges payes.
      * @return Absences Returns this Absences.
      */
-    public function setCongesPayes($congesPayes) {
+    public function setCongesPayes(?bool $congesPayes): Absences {
         $this->congesPayes = $congesPayes;
         return $this;
     }
@@ -430,7 +431,7 @@ class Absences {
      * @param DateTime|null $dateAdded The date added.
      * @return Absences Returns this Absences.
      */
-    public function setDateAdded(DateTime $dateAdded = null) {
+    public function setDateAdded(?DateTime $dateAdded): Absences {
         $this->dateAdded = $dateAdded;
         return $this;
     }
@@ -441,7 +442,7 @@ class Absences {
      * @param DateTime|null $dateAddedColl The date added coll.
      * @return Absences Returns this Absences.
      */
-    public function setDateAddedColl(DateTime $dateAddedColl = null) {
+    public function setDateAddedColl(?DateTime $dateAddedColl): Absences {
         $this->dateAddedColl = $dateAddedColl;
         return $this;
     }
@@ -449,10 +450,10 @@ class Absences {
     /**
      * Set the in bul.
      *
-     * @param bool $inBul The in bul.
+     * @param bool|null $inBul The in bul.
      * @return Absences Returns this Absences.
      */
-    public function setInBul($inBul) {
+    public function setInBul(?bool $inBul): Absences {
         $this->inBul = $inBul;
         return $this;
     }
@@ -460,10 +461,10 @@ class Absences {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return Absences Returns this Absences.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): Absences {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -471,10 +472,10 @@ class Absences {
     /**
      * Set the nb30.
      *
-     * @param float $nb30 The nb30.
+     * @param float|null $nb30 The nb30.
      * @return Absences Returns this Absences.
      */
-    public function setNb30($nb30) {
+    public function setNb30(?float $nb30): Absences {
         $this->nb30 = $nb30;
         return $this;
     }
@@ -482,10 +483,10 @@ class Absences {
     /**
      * Set the nb h ab cp calcule.
      *
-     * @param float $nbHAbCpCalcule The nb h ab cp calcule.
+     * @param float|null $nbHAbCpCalcule The nb h ab cp calcule.
      * @return Absences Returns this Absences.
      */
-    public function setNbHAbCpCalcule($nbHAbCpCalcule) {
+    public function setNbHAbCpCalcule(?float $nbHAbCpCalcule): Absences {
         $this->nbHAbCpCalcule = $nbHAbCpCalcule;
         return $this;
     }
@@ -493,10 +494,10 @@ class Absences {
     /**
      * Set the nb h ab cp saisi.
      *
-     * @param float $nbHAbCpSaisi The nb h ab cp saisi.
+     * @param float|null $nbHAbCpSaisi The nb h ab cp saisi.
      * @return Absences Returns this Absences.
      */
-    public function setNbHAbCpSaisi($nbHAbCpSaisi) {
+    public function setNbHAbCpSaisi(?float $nbHAbCpSaisi): Absences {
         $this->nbHAbCpSaisi = $nbHAbCpSaisi;
         return $this;
     }
@@ -504,10 +505,10 @@ class Absences {
     /**
      * Set the nb jh.
      *
-     * @param float $nbJh The nb jh.
+     * @param float|null $nbJh The nb jh.
      * @return Absences Returns this Absences.
      */
-    public function setNbJh($nbJh) {
+    public function setNbJh(?float $nbJh): Absences {
         $this->nbJh = $nbJh;
         return $this;
     }
@@ -515,10 +516,10 @@ class Absences {
     /**
      * Set the nb jh calcule.
      *
-     * @param float $nbJhCalcule The nb jh calcule.
+     * @param float|null $nbJhCalcule The nb jh calcule.
      * @return Absences Returns this Absences.
      */
-    public function setNbJhCalcule($nbJhCalcule) {
+    public function setNbJhCalcule(?float $nbJhCalcule): Absences {
         $this->nbJhCalcule = $nbJhCalcule;
         return $this;
     }
@@ -526,10 +527,10 @@ class Absences {
     /**
      * Set the num evenement.
      *
-     * @param int $numEvenement The num evenement.
+     * @param int|null $numEvenement The num evenement.
      * @return Absences Returns this Absences.
      */
-    public function setNumEvenement($numEvenement) {
+    public function setNumEvenement(?int $numEvenement): Absences {
         $this->numEvenement = $numEvenement;
         return $this;
     }
@@ -537,10 +538,10 @@ class Absences {
     /**
      * Set the num uniq.
      *
-     * @param int $numUniq The num uniq.
+     * @param int|null $numUniq The num uniq.
      * @return Absences Returns this Absences.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?int $numUniq): Absences {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -548,10 +549,10 @@ class Absences {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return Absences Returns this Absences.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): Absences {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -562,7 +563,7 @@ class Absences {
      * @param DateTime|null $periodeBul The periode bul.
      * @return Absences Returns this Absences.
      */
-    public function setPeriodeBul(DateTime $periodeBul = null) {
+    public function setPeriodeBul(?DateTime $periodeBul): Absences {
         $this->periodeBul = $periodeBul;
         return $this;
     }
@@ -573,7 +574,7 @@ class Absences {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return Absences Returns this Absences.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): Absences {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -584,7 +585,7 @@ class Absences {
      * @param DateTime|null $periodeFin The periode fin.
      * @return Absences Returns this Absences.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): Absences {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -592,10 +593,10 @@ class Absences {
     /**
      * Set the prolongation.
      *
-     * @param bool $prolongation The prolongation.
+     * @param bool|null $prolongation The prolongation.
      * @return Absences Returns this Absences.
      */
-    public function setProlongation($prolongation) {
+    public function setProlongation(?bool $prolongation): Absences {
         $this->prolongation = $prolongation;
         return $this;
     }
@@ -603,10 +604,10 @@ class Absences {
     /**
      * Set the reprise.
      *
-     * @param bool $reprise The reprise.
+     * @param bool|null $reprise The reprise.
      * @return Absences Returns this Absences.
      */
-    public function setReprise($reprise) {
+    public function setReprise(?bool $reprise): Absences {
         $this->reprise = $reprise;
         return $this;
     }
@@ -614,10 +615,10 @@ class Absences {
     /**
      * Set the type abs.
      *
-     * @param string $typeAbs The type abs.
+     * @param string|null $typeAbs The type abs.
      * @return Absences Returns this Absences.
      */
-    public function setTypeAbs($typeAbs) {
+    public function setTypeAbs(?string $typeAbs): Absences {
         $this->typeAbs = $typeAbs;
         return $this;
     }

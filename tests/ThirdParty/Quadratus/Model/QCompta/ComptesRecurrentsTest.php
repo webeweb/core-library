@@ -29,7 +29,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompte() {
+    public function testSetCompte(): void {
 
         $obj = new ComptesRecurrents();
 
@@ -42,7 +42,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteRecurrent() {
+    public function testSetCompteRecurrent(): void {
 
         $obj = new ComptesRecurrents();
 
@@ -56,7 +56,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDernierAcces() {
+    public function testSetDateDernierAcces(): void {
 
         // Set a Date/time mock.
         $dateDernierAcces = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbAcces() {
+    public function testSetNbAcces(): void {
 
         $obj = new ComptesRecurrents();
 
@@ -85,7 +85,7 @@ class ComptesRecurrentsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ComptesRecurrents();
 

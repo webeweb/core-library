@@ -46,7 +46,7 @@ class DocumentHelper {
      * @param int|null $page The page.
      * @return Word Returns the word in case of success, null otherwise.
      */
-    public function findWordAt(Point $position, $page = null) {
+    public function findWordAt(Point $position, int $page = null): ?Word {
 
         foreach ($this->getWords($page) as $current) {
 
@@ -69,7 +69,7 @@ class DocumentHelper {
      * @param int|null $page The page.
      * @return Word[] Returns the words.
      */
-    public function findWordsIn(Point $start, Point $end, $page = null) {
+    public function findWordsIn(Point $start, Point $end, int $page = null): array {
 
         $matches = [];
 
@@ -96,7 +96,7 @@ class DocumentHelper {
      * @param int|null $page The page.
      * @return Word[] Returns the words.
      */
-    public function findWordsStartAt(Point $start, $page = null) {
+    public function findWordsStartAt(Point $start, int $page = null): array {
 
         $matches = [];
 
@@ -118,7 +118,7 @@ class DocumentHelper {
      *
      * @return Document Returns the document.
      */
-    public function getDocument() {
+    public function getDocument(): Document {
         return $this->document;
     }
 
@@ -128,7 +128,7 @@ class DocumentHelper {
      * @param int|null $p The page.
      * @return Word[] Returns the words.
      */
-    protected function getWords($p = null) {
+    protected function getWords(?int $p): array {
 
         $page = $this->getDocument()->getPage($p);
         if (null !== $page) {
@@ -144,7 +144,7 @@ class DocumentHelper {
      * @param Document $document The document.
      * @return DocumentHelper Returns this document helper.
      */
-    protected function setDocument($document) {
+    protected function setDocument(Document $document): DocumentHelper {
         $this->document = $document;
         return $this;
     }

@@ -29,7 +29,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCarTec() {
+    public function testSetCarTec(): void {
 
         $obj = new Materiels();
 
@@ -42,7 +42,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorie() {
+    public function testSetCategorie(): void {
 
         $obj = new Materiels();
 
@@ -55,7 +55,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Materiels();
 
@@ -68,7 +68,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeIntervenant() {
+    public function testSetCodeIntervenant(): void {
 
         $obj = new Materiels();
 
@@ -81,7 +81,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Materiels();
 
@@ -95,7 +95,7 @@ class MaterielsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAchat() {
+    public function testSetDateAchat(): void {
 
         // Set a Date/time mock.
         $dateAchat = new DateTime("2018-09-10");
@@ -112,7 +112,7 @@ class MaterielsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinUtil() {
+    public function testSetDateFinUtil(): void {
 
         // Set a Date/time mock.
         $dateFinUtil = new DateTime("2018-09-10");
@@ -128,7 +128,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceAff() {
+    public function testSetIndiceAff(): void {
 
         $obj = new Materiels();
 
@@ -141,7 +141,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Materiels();
 
@@ -154,7 +154,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new Materiels();
 
@@ -167,7 +167,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousCategorie() {
+    public function testSetSousCategorie(): void {
 
         $obj = new Materiels();
 
@@ -180,7 +180,7 @@ class MaterielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Materiels();
 

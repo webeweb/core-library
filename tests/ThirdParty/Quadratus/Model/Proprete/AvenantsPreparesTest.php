@@ -29,7 +29,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChrono() {
+    public function testSetChrono(): void {
 
         $obj = new AvenantsPrepares();
 
@@ -42,7 +42,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEmploye() {
+    public function testSetCodeEmploye(): void {
 
         $obj = new AvenantsPrepares();
 
@@ -55,7 +55,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContinuerVerif() {
+    public function testSetContinuerVerif(): void {
 
         $obj = new AvenantsPrepares();
 
@@ -68,7 +68,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new AvenantsPrepares();
 
@@ -82,7 +82,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new AvenantsPrepares();
 
@@ -111,7 +111,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDocument() {
+    public function testSetTypeDocument(): void {
 
         $obj = new AvenantsPrepares();
 
@@ -124,7 +124,7 @@ class AvenantsPreparesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AvenantsPrepares();
 

@@ -27,7 +27,7 @@ class FloatYTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetY() {
+    public function testSetY(): void {
 
         $obj = new TestFloatYTrait();
 
@@ -41,7 +41,7 @@ class FloatYTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatYTrait();
 

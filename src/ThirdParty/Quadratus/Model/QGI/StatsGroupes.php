@@ -22,21 +22,21 @@ class StatsGroupes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Groupe stat.
      *
-     * @var string
+     * @var string|null
      */
     private $groupeStat;
 
     /**
      * Type champ.
      *
-     * @var string
+     * @var string|null
      */
     private $typeChamp;
 
@@ -44,43 +44,43 @@ class StatsGroupes {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the groupe stat.
      *
-     * @return string Returns the groupe stat.
+     * @return string|null Returns the groupe stat.
      */
-    public function getGroupeStat() {
+    public function getGroupeStat(): ?string {
         return $this->groupeStat;
     }
 
     /**
      * Get the type champ.
      *
-     * @return string Returns the type champ.
+     * @return string|null Returns the type champ.
      */
-    public function getTypeChamp() {
+    public function getTypeChamp(): ?string {
         return $this->typeChamp;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return StatsGroupes Returns this Stats groupes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): StatsGroupes {
         $this->code = $code;
         return $this;
     }
@@ -88,10 +88,10 @@ class StatsGroupes {
     /**
      * Set the groupe stat.
      *
-     * @param string $groupeStat The groupe stat.
+     * @param string|null $groupeStat The groupe stat.
      * @return StatsGroupes Returns this Stats groupes.
      */
-    public function setGroupeStat($groupeStat) {
+    public function setGroupeStat(?string $groupeStat): StatsGroupes {
         $this->groupeStat = $groupeStat;
         return $this;
     }
@@ -99,10 +99,10 @@ class StatsGroupes {
     /**
      * Set the type champ.
      *
-     * @param string $typeChamp The type champ.
+     * @param string|null $typeChamp The type champ.
      * @return StatsGroupes Returns this Stats groupes.
      */
-    public function setTypeChamp($typeChamp) {
+    public function setTypeChamp(?string $typeChamp): StatsGroupes {
         $this->typeChamp = $typeChamp;
         return $this;
     }

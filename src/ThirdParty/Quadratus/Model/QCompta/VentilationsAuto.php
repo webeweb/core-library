@@ -22,65 +22,66 @@ class VentilationsAuto {
     /**
      * Code journal.
      *
-     * @var string
+     * @var string|null
      */
     private $codeJournal;
 
     /**
      * Code ventilation.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilation;
 
     /**
      * Compte ventilation.
      *
-     * @var string
+     * @var string|null
      */
     private $compteVentilation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code journal.
      *
-     * @return string Returns the code journal.
+     * @return string|null Returns the code journal.
      */
-    public function getCodeJournal() {
+    public function getCodeJournal(): ?string{
         return $this->codeJournal;
     }
 
     /**
      * Get the code ventilation.
      *
-     * @return string Returns the code ventilation.
+     * @return string|null Returns the code ventilation.
      */
-    public function getCodeVentilation() {
+    public function getCodeVentilation(): ?string{
         return $this->codeVentilation;
     }
 
     /**
      * Get the compte ventilation.
      *
-     * @return string Returns the compte ventilation.
+     * @return string|null Returns the compte ventilation.
      */
-    public function getCompteVentilation() {
+    public function getCompteVentilation(): ?string{
         return $this->compteVentilation;
     }
 
     /**
      * Set the code journal.
      *
-     * @param string $codeJournal The code journal.
+     * @param string|null $codeJournal The code journal.
      * @return VentilationsAuto Returns this Ventilations auto.
      */
-    public function setCodeJournal($codeJournal) {
+    public function setCodeJournal(?string $codeJournal): VentilationsAuto {
         $this->codeJournal = $codeJournal;
         return $this;
     }
@@ -88,10 +89,10 @@ class VentilationsAuto {
     /**
      * Set the code ventilation.
      *
-     * @param string $codeVentilation The code ventilation.
+     * @param string|null $codeVentilation The code ventilation.
      * @return VentilationsAuto Returns this Ventilations auto.
      */
-    public function setCodeVentilation($codeVentilation) {
+    public function setCodeVentilation(?string $codeVentilation): VentilationsAuto {
         $this->codeVentilation = $codeVentilation;
         return $this;
     }
@@ -99,10 +100,10 @@ class VentilationsAuto {
     /**
      * Set the compte ventilation.
      *
-     * @param string $compteVentilation The compte ventilation.
+     * @param string|null $compteVentilation The compte ventilation.
      * @return VentilationsAuto Returns this Ventilations auto.
      */
-    public function setCompteVentilation($compteVentilation) {
+    public function setCompteVentilation(?string $compteVentilation): VentilationsAuto {
         $this->compteVentilation = $compteVentilation;
         return $this;
     }

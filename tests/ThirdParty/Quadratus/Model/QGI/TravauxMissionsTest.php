@@ -27,7 +27,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new TravauxMissions();
 
@@ -40,7 +40,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new TravauxMissions();
 
@@ -53,7 +53,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new TravauxMissions();
 
@@ -66,7 +66,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTravail() {
+    public function testSetCodeTravail(): void {
 
         $obj = new TravauxMissions();
 
@@ -79,7 +79,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeclarationARediger() {
+    public function testSetDeclarationARediger(): void {
 
         $obj = new TravauxMissions();
 
@@ -92,7 +92,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFrequence() {
+    public function testSetFrequence(): void {
 
         $obj = new TravauxMissions();
 
@@ -105,7 +105,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJour() {
+    public function testSetJour(): void {
 
         $obj = new TravauxMissions();
 
@@ -118,7 +118,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new TravauxMissions();
 
@@ -131,7 +131,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMissions() {
+    public function testSetMissions(): void {
 
         $obj = new TravauxMissions();
 
@@ -144,7 +144,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbUo() {
+    public function testSetNbUo(): void {
 
         $obj = new TravauxMissions();
 
@@ -157,7 +157,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNePasEditer() {
+    public function testSetNePasEditer(): void {
 
         $obj = new TravauxMissions();
 
@@ -170,7 +170,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new TravauxMissions();
 
@@ -183,7 +183,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRealisePar() {
+    public function testSetRealisePar(): void {
 
         $obj = new TravauxMissions();
 
@@ -196,7 +196,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAffectation() {
+    public function testSetTypeAffectation(): void {
 
         $obj = new TravauxMissions();
 
@@ -209,7 +209,7 @@ class TravauxMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TravauxMissions();
 

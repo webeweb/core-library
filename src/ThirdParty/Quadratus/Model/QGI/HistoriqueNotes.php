@@ -24,14 +24,14 @@ class HistoriqueNotes {
     /**
      * Code categorie.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCategorie;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
@@ -52,46 +52,47 @@ class HistoriqueNotes {
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Num uniq.
      *
-     * @var string
+     * @var string|null
      */
     private $numUniq;
 
     /**
      * Titre.
      *
-     * @var string
+     * @var string|null
      */
     private $titre;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code categorie.
      *
-     * @return string Returns the code categorie.
+     * @return string|null Returns the code categorie.
      */
-    public function getCodeCategorie() {
+    public function getCodeCategorie(): ?string{
         return $this->codeCategorie;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
@@ -100,7 +101,7 @@ class HistoriqueNotes {
      *
      * @return DateTime|null Returns the date cloture.
      */
-    public function getDateCloture() {
+    public function getDateCloture(): ?DateTime{
         return $this->dateCloture;
     }
 
@@ -109,44 +110,44 @@ class HistoriqueNotes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation() {
+    public function getDateCreation(): ?DateTime{
         return $this->dateCreation;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the num uniq.
      *
-     * @return string Returns the num uniq.
+     * @return string|null Returns the num uniq.
      */
-    public function getNumUniq() {
+    public function getNumUniq(): ?string{
         return $this->numUniq;
     }
 
     /**
      * Get the titre.
      *
-     * @return string Returns the titre.
+     * @return string|null Returns the titre.
      */
-    public function getTitre() {
+    public function getTitre(): ?string{
         return $this->titre;
     }
 
     /**
      * Set the code categorie.
      *
-     * @param string $codeCategorie The code categorie.
+     * @param string|null $codeCategorie The code categorie.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setCodeCategorie($codeCategorie) {
+    public function setCodeCategorie(?string $codeCategorie): HistoriqueNotes {
         $this->codeCategorie = $codeCategorie;
         return $this;
     }
@@ -154,10 +155,10 @@ class HistoriqueNotes {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): HistoriqueNotes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -168,7 +169,7 @@ class HistoriqueNotes {
      * @param DateTime|null $dateCloture The date cloture.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setDateCloture(DateTime $dateCloture = null) {
+    public function setDateCloture(?DateTime $dateCloture): HistoriqueNotes {
         $this->dateCloture = $dateCloture;
         return $this;
     }
@@ -179,7 +180,7 @@ class HistoriqueNotes {
      * @param DateTime|null $dateCreation The date creation.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setDateCreation(DateTime $dateCreation = null) {
+    public function setDateCreation(?DateTime $dateCreation): HistoriqueNotes {
         $this->dateCreation = $dateCreation;
         return $this;
     }
@@ -187,10 +188,10 @@ class HistoriqueNotes {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): HistoriqueNotes {
         $this->intitule = $intitule;
         return $this;
     }
@@ -198,10 +199,10 @@ class HistoriqueNotes {
     /**
      * Set the num uniq.
      *
-     * @param string $numUniq The num uniq.
+     * @param string|null $numUniq The num uniq.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setNumUniq($numUniq) {
+    public function setNumUniq(?string $numUniq): HistoriqueNotes {
         $this->numUniq = $numUniq;
         return $this;
     }
@@ -209,10 +210,10 @@ class HistoriqueNotes {
     /**
      * Set the titre.
      *
-     * @param string $titre The titre.
+     * @param string|null $titre The titre.
      * @return HistoriqueNotes Returns this Historique notes.
      */
-    public function setTitre($titre) {
+    public function setTitre(?string $titre): HistoriqueNotes {
         $this->titre = $titre;
         return $this;
     }

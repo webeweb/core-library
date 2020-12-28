@@ -24,7 +24,7 @@ interface ValidationRuleInterface {
      *
      * @return string Returns the name.
      */
-    public function getName();
+    public function getName(): string;
 
     /**
      * Validate.
@@ -32,5 +32,5 @@ interface ValidationRuleInterface {
      * @param mixed $object The object.
      * @return ValidationStatusInterface Returns the validation status.
      */
-    public function validate($object);
+    public function validate($object): ValidationStatusInterface;
 }

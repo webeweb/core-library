@@ -29,7 +29,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new BonInterneEntete();
 
@@ -42,7 +42,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLivreur() {
+    public function testSetCodeLivreur(): void {
 
         $obj = new BonInterneEntete();
 
@@ -56,7 +56,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateLivraison() {
+    public function testSetDateLivraison(): void {
 
         // Set a Date/time mock.
         $dateLivraison = new DateTime("2018-09-10");
@@ -72,7 +72,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new BonInterneEntete();
 
@@ -85,7 +85,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoBonInt() {
+    public function testSetNoBonInt(): void {
 
         $obj = new BonInterneEntete();
 
@@ -98,7 +98,7 @@ class BonInterneEnteteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BonInterneEntete();
 

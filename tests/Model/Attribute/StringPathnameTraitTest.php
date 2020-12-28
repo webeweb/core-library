@@ -27,7 +27,7 @@ class StringPathnameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPathname() {
+    public function testSetPathname(): void {
 
         $obj = new TestStringPathnameTrait();
 
@@ -40,7 +40,7 @@ class StringPathnameTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestStringPathnameTrait();
 

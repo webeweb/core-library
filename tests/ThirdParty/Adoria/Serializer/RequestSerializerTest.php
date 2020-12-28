@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Adoria\Serializer;
+namespace WBW\Library\Core\Tests\ThirdParty\Adoria\Serializer;
 
 use DateTime;
 use Exception;
@@ -21,7 +21,7 @@ use WBW\Library\Core\ThirdParty\Adoria\Serializer\RequestSerializer;
  * Request serializer test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Adoria\Serializer
+ * @package WBW\Library\Core\Tests\ThirdParty\Adoria\Serializer
  */
 class RequestSerializerTest extends AbstractTestCase {
 
@@ -31,7 +31,7 @@ class RequestSerializerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSerializeRequestData() {
+    public function testSerializeRequestData(): void {
 
         // Set a Request data mock.
         $requestData = new RequestData();
@@ -54,7 +54,7 @@ class RequestSerializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $this->assertEquals("Y-m-d", RequestSerializer::REQUEST_DATE_FORMAT);
     }

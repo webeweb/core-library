@@ -24,14 +24,14 @@ class EntreeSortieEmp {
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code motif rupture.
      *
-     * @var string
+     * @var string|null
      */
     private $codeMotifRupture;
 
@@ -80,60 +80,61 @@ class EntreeSortieEmp {
     /**
      * Entreprise travail temp.
      *
-     * @var string
+     * @var string|null
      */
     private $entrepriseTravailTemp;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Transfert es.
      *
-     * @var bool
+     * @var bool|null
      */
     private $transfertEs;
 
     /**
      * Travail temp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $travailTemp;
 
     /**
      * Type es.
      *
-     * @var string
+     * @var string|null
      */
     private $typeEs;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code motif rupture.
      *
-     * @return string Returns the code motif rupture.
+     * @return string|null Returns the code motif rupture.
      */
-    public function getCodeMotifRupture() {
+    public function getCodeMotifRupture(): ?string{
         return $this->codeMotifRupture;
     }
 
@@ -142,7 +143,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date es.
      */
-    public function getDateEs() {
+    public function getDateEs(): ?DateTime{
         return $this->dateEs;
     }
 
@@ -151,7 +152,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date fin periode essai.
      */
-    public function getDateFinPeriodeEssai() {
+    public function getDateFinPeriodeEssai(): ?DateTime{
         return $this->dateFinPeriodeEssai;
     }
 
@@ -160,7 +161,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification() {
+    public function getDateModification(): ?DateTime{
         return $this->dateModification;
     }
 
@@ -169,7 +170,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date notification.
      */
-    public function getDateNotification() {
+    public function getDateNotification(): ?DateTime{
         return $this->dateNotification;
     }
 
@@ -178,7 +179,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date renouv cdd1.
      */
-    public function getDateRenouvCdd1() {
+    public function getDateRenouvCdd1(): ?DateTime{
         return $this->dateRenouvCdd1;
     }
 
@@ -187,62 +188,62 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date renouv cdd2.
      */
-    public function getDateRenouvCdd2() {
+    public function getDateRenouvCdd2(): ?DateTime{
         return $this->dateRenouvCdd2;
     }
 
     /**
      * Get the entreprise travail temp.
      *
-     * @return string Returns the entreprise travail temp.
+     * @return string|null Returns the entreprise travail temp.
      */
-    public function getEntrepriseTravailTemp() {
+    public function getEntrepriseTravailTemp(): ?string{
         return $this->entrepriseTravailTemp;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the transfert es.
      *
-     * @return bool Returns the transfert es.
+     * @return bool|null Returns the transfert es.
      */
-    public function getTransfertEs() {
+    public function getTransfertEs(): ?bool{
         return $this->transfertEs;
     }
 
     /**
      * Get the travail temp.
      *
-     * @return bool Returns the travail temp.
+     * @return bool|null Returns the travail temp.
      */
-    public function getTravailTemp() {
+    public function getTravailTemp(): ?bool{
         return $this->travailTemp;
     }
 
     /**
      * Get the type es.
      *
-     * @return string Returns the type es.
+     * @return string|null Returns the type es.
      */
-    public function getTypeEs() {
+    public function getTypeEs(): ?string{
         return $this->typeEs;
     }
 
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): EntreeSortieEmp {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -250,10 +251,10 @@ class EntreeSortieEmp {
     /**
      * Set the code motif rupture.
      *
-     * @param string $codeMotifRupture The code motif rupture.
+     * @param string|null $codeMotifRupture The code motif rupture.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setCodeMotifRupture($codeMotifRupture) {
+    public function setCodeMotifRupture(?string $codeMotifRupture): EntreeSortieEmp {
         $this->codeMotifRupture = $codeMotifRupture;
         return $this;
     }
@@ -264,7 +265,7 @@ class EntreeSortieEmp {
      * @param DateTime|null $dateEs The date es.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setDateEs(DateTime $dateEs = null) {
+    public function setDateEs(?DateTime $dateEs): EntreeSortieEmp {
         $this->dateEs = $dateEs;
         return $this;
     }
@@ -275,7 +276,7 @@ class EntreeSortieEmp {
      * @param DateTime|null $dateFinPeriodeEssai The date fin periode essai.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setDateFinPeriodeEssai(DateTime $dateFinPeriodeEssai = null) {
+    public function setDateFinPeriodeEssai(?DateTime $dateFinPeriodeEssai): EntreeSortieEmp {
         $this->dateFinPeriodeEssai = $dateFinPeriodeEssai;
         return $this;
     }
@@ -286,7 +287,7 @@ class EntreeSortieEmp {
      * @param DateTime|null $dateModification The date modification.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setDateModification(DateTime $dateModification = null) {
+    public function setDateModification(?DateTime $dateModification): EntreeSortieEmp {
         $this->dateModification = $dateModification;
         return $this;
     }
@@ -297,7 +298,7 @@ class EntreeSortieEmp {
      * @param DateTime|null $dateNotification The date notification.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setDateNotification(DateTime $dateNotification = null) {
+    public function setDateNotification(?DateTime $dateNotification): EntreeSortieEmp {
         $this->dateNotification = $dateNotification;
         return $this;
     }
@@ -308,7 +309,7 @@ class EntreeSortieEmp {
      * @param DateTime|null $dateRenouvCdd1 The date renouv cdd1.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setDateRenouvCdd1(DateTime $dateRenouvCdd1 = null) {
+    public function setDateRenouvCdd1(?DateTime $dateRenouvCdd1): EntreeSortieEmp {
         $this->dateRenouvCdd1 = $dateRenouvCdd1;
         return $this;
     }
@@ -319,7 +320,7 @@ class EntreeSortieEmp {
      * @param DateTime|null $dateRenouvCdd2 The date renouv cdd2.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setDateRenouvCdd2(DateTime $dateRenouvCdd2 = null) {
+    public function setDateRenouvCdd2(?DateTime $dateRenouvCdd2): EntreeSortieEmp {
         $this->dateRenouvCdd2 = $dateRenouvCdd2;
         return $this;
     }
@@ -327,10 +328,10 @@ class EntreeSortieEmp {
     /**
      * Set the entreprise travail temp.
      *
-     * @param string $entrepriseTravailTemp The entreprise travail temp.
+     * @param string|null $entrepriseTravailTemp The entreprise travail temp.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setEntrepriseTravailTemp($entrepriseTravailTemp) {
+    public function setEntrepriseTravailTemp(?string $entrepriseTravailTemp): EntreeSortieEmp {
         $this->entrepriseTravailTemp = $entrepriseTravailTemp;
         return $this;
     }
@@ -338,10 +339,10 @@ class EntreeSortieEmp {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EntreeSortieEmp {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -349,10 +350,10 @@ class EntreeSortieEmp {
     /**
      * Set the transfert es.
      *
-     * @param bool $transfertEs The transfert es.
+     * @param bool|null $transfertEs The transfert es.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setTransfertEs($transfertEs) {
+    public function setTransfertEs(?bool $transfertEs): EntreeSortieEmp {
         $this->transfertEs = $transfertEs;
         return $this;
     }
@@ -360,10 +361,10 @@ class EntreeSortieEmp {
     /**
      * Set the travail temp.
      *
-     * @param bool $travailTemp The travail temp.
+     * @param bool|null $travailTemp The travail temp.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setTravailTemp($travailTemp) {
+    public function setTravailTemp(?bool $travailTemp): EntreeSortieEmp {
         $this->travailTemp = $travailTemp;
         return $this;
     }
@@ -371,10 +372,10 @@ class EntreeSortieEmp {
     /**
      * Set the type es.
      *
-     * @param string $typeEs The type es.
+     * @param string|null $typeEs The type es.
      * @return EntreeSortieEmp Returns this Entree sortie emp.
      */
-    public function setTypeEs($typeEs) {
+    public function setTypeEs(?string $typeEs): EntreeSortieEmp {
         $this->typeEs = $typeEs;
         return $this;
     }

@@ -24,56 +24,56 @@ class EmpRecapCice {
     /**
      * Caisse cp.
      *
-     * @var bool
+     * @var bool|null
      */
     private $caisseCp;
 
     /**
      * Code centre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCentre;
 
     /**
      * Code etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $codeEtablissement;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Fraction etab.
      *
-     * @var string
+     * @var string|null
      */
     private $fractionEtab;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Nom employe.
      *
-     * @var string
+     * @var string|null
      */
     private $nomEmploye;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -87,107 +87,108 @@ class EmpRecapCice {
     /**
      * Remun assiette cice.
      *
-     * @var float
+     * @var float|null
      */
     private $remunAssietteCice;
 
     /**
      * Remun brut cice.
      *
-     * @var float
+     * @var float|null
      */
     private $remunBrutCice;
 
     /**
      * Smic mcice.
      *
-     * @var float
+     * @var float|null
      */
     private $smicMcice;
 
     /**
      * Sortie mois.
      *
-     * @var bool
+     * @var bool|null
      */
     private $sortieMois;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the caisse cp.
      *
-     * @return bool Returns the caisse cp.
+     * @return bool|null Returns the caisse cp.
      */
-    public function getCaisseCp() {
+    public function getCaisseCp(): ?bool{
         return $this->caisseCp;
     }
 
     /**
      * Get the code centre.
      *
-     * @return string Returns the code centre.
+     * @return string|null Returns the code centre.
      */
-    public function getCodeCentre() {
+    public function getCodeCentre(): ?string{
         return $this->codeCentre;
     }
 
     /**
      * Get the code etablissement.
      *
-     * @return int Returns the code etablissement.
+     * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement() {
+    public function getCodeEtablissement(): ?int{
         return $this->codeEtablissement;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the fraction etab.
      *
-     * @return string Returns the fraction etab.
+     * @return string|null Returns the fraction etab.
      */
-    public function getFractionEtab() {
+    public function getFractionEtab(): ?string{
         return $this->fractionEtab;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the nom employe.
      *
-     * @return string Returns the nom employe.
+     * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye() {
+    public function getNomEmploye(): ?string{
         return $this->nomEmploye;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -196,53 +197,53 @@ class EmpRecapCice {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the remun assiette cice.
      *
-     * @return float Returns the remun assiette cice.
+     * @return float|null Returns the remun assiette cice.
      */
-    public function getRemunAssietteCice() {
+    public function getRemunAssietteCice(): ?float{
         return $this->remunAssietteCice;
     }
 
     /**
      * Get the remun brut cice.
      *
-     * @return float Returns the remun brut cice.
+     * @return float|null Returns the remun brut cice.
      */
-    public function getRemunBrutCice() {
+    public function getRemunBrutCice(): ?float{
         return $this->remunBrutCice;
     }
 
     /**
      * Get the smic mcice.
      *
-     * @return float Returns the smic mcice.
+     * @return float|null Returns the smic mcice.
      */
-    public function getSmicMcice() {
+    public function getSmicMcice(): ?float{
         return $this->smicMcice;
     }
 
     /**
      * Get the sortie mois.
      *
-     * @return bool Returns the sortie mois.
+     * @return bool|null Returns the sortie mois.
      */
-    public function getSortieMois() {
+    public function getSortieMois(): ?bool{
         return $this->sortieMois;
     }
 
     /**
      * Set the caisse cp.
      *
-     * @param bool $caisseCp The caisse cp.
+     * @param bool|null $caisseCp The caisse cp.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setCaisseCp($caisseCp) {
+    public function setCaisseCp(?bool $caisseCp): EmpRecapCice {
         $this->caisseCp = $caisseCp;
         return $this;
     }
@@ -250,10 +251,10 @@ class EmpRecapCice {
     /**
      * Set the code centre.
      *
-     * @param string $codeCentre The code centre.
+     * @param string|null $codeCentre The code centre.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setCodeCentre($codeCentre) {
+    public function setCodeCentre(?string $codeCentre): EmpRecapCice {
         $this->codeCentre = $codeCentre;
         return $this;
     }
@@ -261,10 +262,10 @@ class EmpRecapCice {
     /**
      * Set the code etablissement.
      *
-     * @param int $codeEtablissement The code etablissement.
+     * @param int|null $codeEtablissement The code etablissement.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setCodeEtablissement($codeEtablissement) {
+    public function setCodeEtablissement(?int $codeEtablissement): EmpRecapCice {
         $this->codeEtablissement = $codeEtablissement;
         return $this;
     }
@@ -272,10 +273,10 @@ class EmpRecapCice {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): EmpRecapCice {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -283,10 +284,10 @@ class EmpRecapCice {
     /**
      * Set the fraction etab.
      *
-     * @param string $fractionEtab The fraction etab.
+     * @param string|null $fractionEtab The fraction etab.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setFractionEtab($fractionEtab) {
+    public function setFractionEtab(?string $fractionEtab): EmpRecapCice {
         $this->fractionEtab = $fractionEtab;
         return $this;
     }
@@ -294,10 +295,10 @@ class EmpRecapCice {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): EmpRecapCice {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -305,10 +306,10 @@ class EmpRecapCice {
     /**
      * Set the nom employe.
      *
-     * @param string $nomEmploye The nom employe.
+     * @param string|null $nomEmploye The nom employe.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setNomEmploye($nomEmploye) {
+    public function setNomEmploye(?string $nomEmploye): EmpRecapCice {
         $this->nomEmploye = $nomEmploye;
         return $this;
     }
@@ -316,10 +317,10 @@ class EmpRecapCice {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpRecapCice {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -330,7 +331,7 @@ class EmpRecapCice {
      * @param DateTime|null $periode The periode.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): EmpRecapCice {
         $this->periode = $periode;
         return $this;
     }
@@ -338,10 +339,10 @@ class EmpRecapCice {
     /**
      * Set the remun assiette cice.
      *
-     * @param float $remunAssietteCice The remun assiette cice.
+     * @param float|null $remunAssietteCice The remun assiette cice.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setRemunAssietteCice($remunAssietteCice) {
+    public function setRemunAssietteCice(?float $remunAssietteCice): EmpRecapCice {
         $this->remunAssietteCice = $remunAssietteCice;
         return $this;
     }
@@ -349,10 +350,10 @@ class EmpRecapCice {
     /**
      * Set the remun brut cice.
      *
-     * @param float $remunBrutCice The remun brut cice.
+     * @param float|null $remunBrutCice The remun brut cice.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setRemunBrutCice($remunBrutCice) {
+    public function setRemunBrutCice(?float $remunBrutCice): EmpRecapCice {
         $this->remunBrutCice = $remunBrutCice;
         return $this;
     }
@@ -360,10 +361,10 @@ class EmpRecapCice {
     /**
      * Set the smic mcice.
      *
-     * @param float $smicMcice The smic mcice.
+     * @param float|null $smicMcice The smic mcice.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setSmicMcice($smicMcice) {
+    public function setSmicMcice(?float $smicMcice): EmpRecapCice {
         $this->smicMcice = $smicMcice;
         return $this;
     }
@@ -371,10 +372,10 @@ class EmpRecapCice {
     /**
      * Set the sortie mois.
      *
-     * @param bool $sortieMois The sortie mois.
+     * @param bool|null $sortieMois The sortie mois.
      * @return EmpRecapCice Returns this Emp recap cice.
      */
-    public function setSortieMois($sortieMois) {
+    public function setSortieMois(?bool $sortieMois): EmpRecapCice {
         $this->sortieMois = $sortieMois;
         return $this;
     }

@@ -27,7 +27,7 @@ class ClientsSelectionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChamp() {
+    public function testSetChamp(): void {
 
         $obj = new ClientsSelection();
 
@@ -40,7 +40,7 @@ class ClientsSelectionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCol() {
+    public function testSetCodeCol(): void {
 
         $obj = new ClientsSelection();
 
@@ -53,7 +53,7 @@ class ClientsSelectionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new ClientsSelection();
 
@@ -66,7 +66,7 @@ class ClientsSelectionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new ClientsSelection();
 
@@ -79,7 +79,7 @@ class ClientsSelectionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValeur() {
+    public function testSetValeur(): void {
 
         $obj = new ClientsSelection();
 
@@ -92,7 +92,7 @@ class ClientsSelectionTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsSelection();
 

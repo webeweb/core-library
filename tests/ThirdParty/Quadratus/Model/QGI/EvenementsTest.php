@@ -29,7 +29,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArchive() {
+    public function testSetArchive(): void {
 
         $obj = new Evenements();
 
@@ -42,7 +42,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Evenements();
 
@@ -55,7 +55,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollab() {
+    public function testSetCodeCollab(): void {
 
         $obj = new Evenements();
 
@@ -68,7 +68,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContenu1() {
+    public function testSetContenu1(): void {
 
         $obj = new Evenements();
 
@@ -81,7 +81,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContenu2() {
+    public function testSetContenu2(): void {
 
         $obj = new Evenements();
 
@@ -94,7 +94,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContenu3() {
+    public function testSetContenu3(): void {
 
         $obj = new Evenements();
 
@@ -107,7 +107,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetContenu4() {
+    public function testSetContenu4(): void {
 
         $obj = new Evenements();
 
@@ -121,7 +121,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateEvt() {
+    public function testSetDateEvt(): void {
 
         // Set a Date/time mock.
         $dateEvt = new DateTime("2018-09-10");
@@ -137,7 +137,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmplacementFichier() {
+    public function testSetEmplacementFichier(): void {
 
         $obj = new Evenements();
 
@@ -150,7 +150,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatIsActif() {
+    public function testSetEtatIsActif(): void {
 
         $obj = new Evenements();
 
@@ -163,7 +163,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsCompta() {
+    public function testSetFsCompta(): void {
 
         $obj = new Evenements();
 
@@ -176,7 +176,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsComptaCollArch() {
+    public function testSetFsComptaCollArch(): void {
 
         $obj = new Evenements();
 
@@ -190,7 +190,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsComptaDateAlerte() {
+    public function testSetFsComptaDateAlerte(): void {
 
         // Set a Date/time mock.
         $fsComptaDateAlerte = new DateTime("2018-09-10");
@@ -207,7 +207,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsComptaDateArch() {
+    public function testSetFsComptaDateArch(): void {
 
         // Set a Date/time mock.
         $fsComptaDateArch = new DateTime("2018-09-10");
@@ -223,7 +223,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsComptaYaAlerte() {
+    public function testSetFsComptaYaAlerte(): void {
 
         $obj = new Evenements();
 
@@ -236,7 +236,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsFiscal() {
+    public function testSetFsFiscal(): void {
 
         $obj = new Evenements();
 
@@ -249,7 +249,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsFiscalCollArch() {
+    public function testSetFsFiscalCollArch(): void {
 
         $obj = new Evenements();
 
@@ -263,7 +263,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsFiscalDateArch() {
+    public function testSetFsFiscalDateArch(): void {
 
         // Set a Date/time mock.
         $fsFiscalDateArch = new DateTime("2018-09-10");
@@ -279,7 +279,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsJuridique() {
+    public function testSetFsJuridique(): void {
 
         $obj = new Evenements();
 
@@ -292,7 +292,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsJuridiqueCollArch() {
+    public function testSetFsJuridiqueCollArch(): void {
 
         $obj = new Evenements();
 
@@ -306,7 +306,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsJuridiqueDateArch() {
+    public function testSetFsJuridiqueDateArch(): void {
 
         // Set a Date/time mock.
         $fsJuridiqueDateArch = new DateTime("2018-09-10");
@@ -322,7 +322,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsSocial() {
+    public function testSetFsSocial(): void {
 
         $obj = new Evenements();
 
@@ -335,7 +335,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsSocialCollArch() {
+    public function testSetFsSocialCollArch(): void {
 
         $obj = new Evenements();
 
@@ -349,7 +349,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsSocialDateAlerte() {
+    public function testSetFsSocialDateAlerte(): void {
 
         // Set a Date/time mock.
         $fsSocialDateAlerte = new DateTime("2018-09-10");
@@ -366,7 +366,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsSocialDateArch() {
+    public function testSetFsSocialDateArch(): void {
 
         // Set a Date/time mock.
         $fsSocialDateArch = new DateTime("2018-09-10");
@@ -382,7 +382,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsSocialYaAlerte() {
+    public function testSetFsSocialYaAlerte(): void {
 
         $obj = new Evenements();
 
@@ -395,7 +395,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsgi() {
+    public function testSetFsgi(): void {
 
         $obj = new Evenements();
 
@@ -408,7 +408,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFsgiCollArch() {
+    public function testSetFsgiCollArch(): void {
 
         $obj = new Evenements();
 
@@ -422,7 +422,7 @@ class EvenementsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFsgiDateArch() {
+    public function testSetFsgiDateArch(): void {
 
         // Set a Date/time mock.
         $fsgiDateArch = new DateTime("2018-09-10");
@@ -438,7 +438,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new Evenements();
 
@@ -451,7 +451,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new Evenements();
 
@@ -464,7 +464,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiant1() {
+    public function testSetQualifiant1(): void {
 
         $obj = new Evenements();
 
@@ -477,7 +477,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiant2() {
+    public function testSetQualifiant2(): void {
 
         $obj = new Evenements();
 
@@ -490,7 +490,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQualifiant3() {
+    public function testSetQualifiant3(): void {
 
         $obj = new Evenements();
 
@@ -503,7 +503,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRacineCpt() {
+    public function testSetRacineCpt(): void {
 
         $obj = new Evenements();
 
@@ -516,7 +516,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegle() {
+    public function testSetRegle(): void {
 
         $obj = new Evenements();
 
@@ -529,7 +529,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new Evenements();
 
@@ -542,7 +542,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeEvt() {
+    public function testSetTypeEvt(): void {
 
         $obj = new Evenements();
 
@@ -555,7 +555,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUniqId() {
+    public function testSetUniqId(): void {
 
         $obj = new Evenements();
 
@@ -568,7 +568,7 @@ class EvenementsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Evenements();
 

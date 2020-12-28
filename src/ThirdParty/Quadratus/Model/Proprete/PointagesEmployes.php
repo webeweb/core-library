@@ -24,28 +24,28 @@ class PointagesEmployes {
     /**
      * Code collabo valid.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaboValid;
 
     /**
      * Code collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCollaborateur;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Compteur heures.
      *
-     * @var float
+     * @var float|null
      */
     private $compteurHeures;
 
@@ -59,14 +59,14 @@ class PointagesEmployes {
     /**
      * Etat.
      *
-     * @var string
+     * @var string|null
      */
     private $etat;
 
     /**
      * Hp theo non affectees.
      *
-     * @var float
+     * @var float|null
      */
     private $hpTheoNonAffectees;
 
@@ -80,50 +80,51 @@ class PointagesEmployes {
     /**
      * Uniq id synchro.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqIdSynchro;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code collabo valid.
      *
-     * @return string Returns the code collabo valid.
+     * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid() {
+    public function getCodeCollaboValid(): ?string{
         return $this->codeCollaboValid;
     }
 
     /**
      * Get the code collaborateur.
      *
-     * @return string Returns the code collaborateur.
+     * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur() {
+    public function getCodeCollaborateur(): ?string{
         return $this->codeCollaborateur;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the compteur heures.
      *
-     * @return float Returns the compteur heures.
+     * @return float|null Returns the compteur heures.
      */
-    public function getCompteurHeures() {
+    public function getCompteurHeures(): ?float{
         return $this->compteurHeures;
     }
 
@@ -132,25 +133,25 @@ class PointagesEmployes {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro() {
+    public function getDateValidationSynchro(): ?DateTime{
         return $this->dateValidationSynchro;
     }
 
     /**
      * Get the etat.
      *
-     * @return string Returns the etat.
+     * @return string|null Returns the etat.
      */
-    public function getEtat() {
+    public function getEtat(): ?string{
         return $this->etat;
     }
 
     /**
      * Get the hp theo non affectees.
      *
-     * @return float Returns the hp theo non affectees.
+     * @return float|null Returns the hp theo non affectees.
      */
-    public function getHpTheoNonAffectees() {
+    public function getHpTheoNonAffectees(): ?float{
         return $this->hpTheoNonAffectees;
     }
 
@@ -159,26 +160,26 @@ class PointagesEmployes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the uniq id synchro.
      *
-     * @return string Returns the uniq id synchro.
+     * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro() {
+    public function getUniqIdSynchro(): ?string{
         return $this->uniqIdSynchro;
     }
 
     /**
      * Set the code collabo valid.
      *
-     * @param string $codeCollaboValid The code collabo valid.
+     * @param string|null $codeCollaboValid The code collabo valid.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setCodeCollaboValid($codeCollaboValid) {
+    public function setCodeCollaboValid(?string $codeCollaboValid): PointagesEmployes {
         $this->codeCollaboValid = $codeCollaboValid;
         return $this;
     }
@@ -186,10 +187,10 @@ class PointagesEmployes {
     /**
      * Set the code collaborateur.
      *
-     * @param string $codeCollaborateur The code collaborateur.
+     * @param string|null $codeCollaborateur The code collaborateur.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setCodeCollaborateur($codeCollaborateur) {
+    public function setCodeCollaborateur(?string $codeCollaborateur): PointagesEmployes {
         $this->codeCollaborateur = $codeCollaborateur;
         return $this;
     }
@@ -197,10 +198,10 @@ class PointagesEmployes {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): PointagesEmployes {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -208,10 +209,10 @@ class PointagesEmployes {
     /**
      * Set the compteur heures.
      *
-     * @param float $compteurHeures The compteur heures.
+     * @param float|null $compteurHeures The compteur heures.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setCompteurHeures($compteurHeures) {
+    public function setCompteurHeures(?float $compteurHeures): PointagesEmployes {
         $this->compteurHeures = $compteurHeures;
         return $this;
     }
@@ -222,7 +223,7 @@ class PointagesEmployes {
      * @param DateTime|null $dateValidationSynchro The date validation synchro.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setDateValidationSynchro(DateTime $dateValidationSynchro = null) {
+    public function setDateValidationSynchro(?DateTime $dateValidationSynchro): PointagesEmployes {
         $this->dateValidationSynchro = $dateValidationSynchro;
         return $this;
     }
@@ -230,10 +231,10 @@ class PointagesEmployes {
     /**
      * Set the etat.
      *
-     * @param string $etat The etat.
+     * @param string|null $etat The etat.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setEtat($etat) {
+    public function setEtat(?string $etat): PointagesEmployes {
         $this->etat = $etat;
         return $this;
     }
@@ -241,10 +242,10 @@ class PointagesEmployes {
     /**
      * Set the hp theo non affectees.
      *
-     * @param float $hpTheoNonAffectees The hp theo non affectees.
+     * @param float|null $hpTheoNonAffectees The hp theo non affectees.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setHpTheoNonAffectees($hpTheoNonAffectees) {
+    public function setHpTheoNonAffectees(?float $hpTheoNonAffectees): PointagesEmployes {
         $this->hpTheoNonAffectees = $hpTheoNonAffectees;
         return $this;
     }
@@ -255,7 +256,7 @@ class PointagesEmployes {
      * @param DateTime|null $periode The periode.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): PointagesEmployes {
         $this->periode = $periode;
         return $this;
     }
@@ -263,10 +264,10 @@ class PointagesEmployes {
     /**
      * Set the uniq id synchro.
      *
-     * @param string $uniqIdSynchro The uniq id synchro.
+     * @param string|null $uniqIdSynchro The uniq id synchro.
      * @return PointagesEmployes Returns this Pointages employes.
      */
-    public function setUniqIdSynchro($uniqIdSynchro) {
+    public function setUniqIdSynchro(?string $uniqIdSynchro): PointagesEmployes {
         $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }

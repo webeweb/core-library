@@ -29,7 +29,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDevise() {
+    public function testSetCodeDevise(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -43,7 +43,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateRapproBancaire() {
+    public function testSetDateRapproBancaire(): void {
 
         // Set a Date/time mock.
         $dateRapproBancaire = new DateTime("2018-09-10");
@@ -59,7 +59,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourEcriture() {
+    public function testSetJourEcriture(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -72,7 +72,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnRapproBancaire() {
+    public function testSetJrnRapproBancaire(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -85,7 +85,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -98,7 +98,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisiCredit() {
+    public function testSetMontantSaisiCredit(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -111,7 +111,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantSaisiDebit() {
+    public function testSetMontantSaisiDebit(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -124,7 +124,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuCredit() {
+    public function testSetMontantTenuCredit(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -137,7 +137,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuDebit() {
+    public function testSetMontantTenuDebit(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -150,7 +150,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -163,7 +163,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroPiece() {
+    public function testSetNumeroPiece(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -177,7 +177,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcriture() {
+    public function testSetPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $periodeEcriture = new DateTime("2018-09-10");
@@ -193,7 +193,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRapproBancaireOk() {
+    public function testSetRapproBancaireOk(): void {
 
         $obj = new EcrituresRapproBancaire();
 
@@ -206,7 +206,7 @@ class EcrituresRapproBancaireTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EcrituresRapproBancaire();
 

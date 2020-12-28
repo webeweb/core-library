@@ -24,14 +24,14 @@ class AvenantsContrats {
     /**
      * Chrono.
      *
-     * @var string
+     * @var string|null
      */
     private $chrono;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
@@ -45,28 +45,28 @@ class AvenantsContrats {
     /**
      * Lien document.
      *
-     * @var string
+     * @var string|null
      */
     private $lienDocument;
 
     /**
      * Num avenant saisi.
      *
-     * @var int
+     * @var int|null
      */
     private $numAvenantSaisi;
 
     /**
      * Numero avenant.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroAvenant;
 
     /**
      * Observation.
      *
-     * @var string
+     * @var string|null
      */
     private $observation;
 
@@ -80,46 +80,47 @@ class AvenantsContrats {
     /**
      * Signature employe.
      *
-     * @var bool
+     * @var bool|null
      */
     private $signatureEmploye;
 
     /**
      * Type avenant.
      *
-     * @var string
+     * @var string|null
      */
     private $typeAvenant;
 
     /**
      * Type document.
      *
-     * @var string
+     * @var string|null
      */
     private $typeDocument;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the chrono.
      *
-     * @return string Returns the chrono.
+     * @return string|null Returns the chrono.
      */
-    public function getChrono() {
+    public function getChrono(): ?string{
         return $this->chrono;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
@@ -128,43 +129,43 @@ class AvenantsContrats {
      *
      * @return DateTime|null Returns the date avenant.
      */
-    public function getDateAvenant() {
+    public function getDateAvenant(): ?DateTime{
         return $this->dateAvenant;
     }
 
     /**
      * Get the lien document.
      *
-     * @return string Returns the lien document.
+     * @return string|null Returns the lien document.
      */
-    public function getLienDocument() {
+    public function getLienDocument(): ?string{
         return $this->lienDocument;
     }
 
     /**
      * Get the num avenant saisi.
      *
-     * @return int Returns the num avenant saisi.
+     * @return int|null Returns the num avenant saisi.
      */
-    public function getNumAvenantSaisi() {
+    public function getNumAvenantSaisi(): ?int{
         return $this->numAvenantSaisi;
     }
 
     /**
      * Get the numero avenant.
      *
-     * @return int Returns the numero avenant.
+     * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant() {
+    public function getNumeroAvenant(): ?int{
         return $this->numeroAvenant;
     }
 
     /**
      * Get the observation.
      *
-     * @return string Returns the observation.
+     * @return string|null Returns the observation.
      */
-    public function getObservation() {
+    public function getObservation(): ?string{
         return $this->observation;
     }
 
@@ -173,44 +174,44 @@ class AvenantsContrats {
      *
      * @return DateTime|null Returns the periode avenant.
      */
-    public function getPeriodeAvenant() {
+    public function getPeriodeAvenant(): ?DateTime{
         return $this->periodeAvenant;
     }
 
     /**
      * Get the signature employe.
      *
-     * @return bool Returns the signature employe.
+     * @return bool|null Returns the signature employe.
      */
-    public function getSignatureEmploye() {
+    public function getSignatureEmploye(): ?bool{
         return $this->signatureEmploye;
     }
 
     /**
      * Get the type avenant.
      *
-     * @return string Returns the type avenant.
+     * @return string|null Returns the type avenant.
      */
-    public function getTypeAvenant() {
+    public function getTypeAvenant(): ?string{
         return $this->typeAvenant;
     }
 
     /**
      * Get the type document.
      *
-     * @return string Returns the type document.
+     * @return string|null Returns the type document.
      */
-    public function getTypeDocument() {
+    public function getTypeDocument(): ?string{
         return $this->typeDocument;
     }
 
     /**
      * Set the chrono.
      *
-     * @param string $chrono The chrono.
+     * @param string|null $chrono The chrono.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setChrono($chrono) {
+    public function setChrono(?string $chrono): AvenantsContrats {
         $this->chrono = $chrono;
         return $this;
     }
@@ -218,10 +219,10 @@ class AvenantsContrats {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): AvenantsContrats {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -232,7 +233,7 @@ class AvenantsContrats {
      * @param DateTime|null $dateAvenant The date avenant.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setDateAvenant(DateTime $dateAvenant = null) {
+    public function setDateAvenant(?DateTime $dateAvenant): AvenantsContrats {
         $this->dateAvenant = $dateAvenant;
         return $this;
     }
@@ -240,10 +241,10 @@ class AvenantsContrats {
     /**
      * Set the lien document.
      *
-     * @param string $lienDocument The lien document.
+     * @param string|null $lienDocument The lien document.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setLienDocument($lienDocument) {
+    public function setLienDocument(?string $lienDocument): AvenantsContrats {
         $this->lienDocument = $lienDocument;
         return $this;
     }
@@ -251,10 +252,10 @@ class AvenantsContrats {
     /**
      * Set the num avenant saisi.
      *
-     * @param int $numAvenantSaisi The num avenant saisi.
+     * @param int|null $numAvenantSaisi The num avenant saisi.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setNumAvenantSaisi($numAvenantSaisi) {
+    public function setNumAvenantSaisi(?int $numAvenantSaisi): AvenantsContrats {
         $this->numAvenantSaisi = $numAvenantSaisi;
         return $this;
     }
@@ -262,10 +263,10 @@ class AvenantsContrats {
     /**
      * Set the numero avenant.
      *
-     * @param int $numeroAvenant The numero avenant.
+     * @param int|null $numeroAvenant The numero avenant.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setNumeroAvenant($numeroAvenant) {
+    public function setNumeroAvenant(?int $numeroAvenant): AvenantsContrats {
         $this->numeroAvenant = $numeroAvenant;
         return $this;
     }
@@ -273,10 +274,10 @@ class AvenantsContrats {
     /**
      * Set the observation.
      *
-     * @param string $observation The observation.
+     * @param string|null $observation The observation.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setObservation($observation) {
+    public function setObservation(?string $observation): AvenantsContrats {
         $this->observation = $observation;
         return $this;
     }
@@ -287,7 +288,7 @@ class AvenantsContrats {
      * @param DateTime|null $periodeAvenant The periode avenant.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setPeriodeAvenant(DateTime $periodeAvenant = null) {
+    public function setPeriodeAvenant(?DateTime $periodeAvenant): AvenantsContrats {
         $this->periodeAvenant = $periodeAvenant;
         return $this;
     }
@@ -295,10 +296,10 @@ class AvenantsContrats {
     /**
      * Set the signature employe.
      *
-     * @param bool $signatureEmploye The signature employe.
+     * @param bool|null $signatureEmploye The signature employe.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setSignatureEmploye($signatureEmploye) {
+    public function setSignatureEmploye(?bool $signatureEmploye): AvenantsContrats {
         $this->signatureEmploye = $signatureEmploye;
         return $this;
     }
@@ -306,10 +307,10 @@ class AvenantsContrats {
     /**
      * Set the type avenant.
      *
-     * @param string $typeAvenant The type avenant.
+     * @param string|null $typeAvenant The type avenant.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setTypeAvenant($typeAvenant) {
+    public function setTypeAvenant(?string $typeAvenant): AvenantsContrats {
         $this->typeAvenant = $typeAvenant;
         return $this;
     }
@@ -317,10 +318,10 @@ class AvenantsContrats {
     /**
      * Set the type document.
      *
-     * @param string $typeDocument The type document.
+     * @param string|null $typeDocument The type document.
      * @return AvenantsContrats Returns this Avenants contrats.
      */
-    public function setTypeDocument($typeDocument) {
+    public function setTypeDocument(?string $typeDocument): AvenantsContrats {
         $this->typeDocument = $typeDocument;
         return $this;
     }

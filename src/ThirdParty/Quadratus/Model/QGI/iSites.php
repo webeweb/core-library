@@ -22,14 +22,14 @@ class iSites {
     /**
      * Adresse ip.
      *
-     * @var string
+     * @var string|null
      */
     private $adresseIp;
 
     /**
      * Nom site.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSite;
 
@@ -37,34 +37,34 @@ class iSites {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the adresse ip.
      *
-     * @return string Returns the adresse ip.
+     * @return string|null Returns the adresse ip.
      */
-    public function getAdresseIp() {
+    public function getAdresseIp(): ?string {
         return $this->adresseIp;
     }
 
     /**
      * Get the nom site.
      *
-     * @return string Returns the nom site.
+     * @return string|null Returns the nom site.
      */
-    public function getNomSite() {
+    public function getNomSite(): ?string {
         return $this->nomSite;
     }
 
     /**
      * Set the adresse ip.
      *
-     * @param string $adresseIp The adresse ip.
+     * @param string|null $adresseIp The adresse ip.
      * @return iSites Returns this i sites.
      */
-    public function setAdresseIp($adresseIp) {
+    public function setAdresseIp(?string $adresseIp): iSites {
         $this->adresseIp = $adresseIp;
         return $this;
     }
@@ -72,10 +72,10 @@ class iSites {
     /**
      * Set the nom site.
      *
-     * @param string $nomSite The nom site.
+     * @param string|null $nomSite The nom site.
      * @return iSites Returns this i sites.
      */
-    public function setNomSite($nomSite) {
+    public function setNomSite(?string $nomSite): iSites {
         $this->nomSite = $nomSite;
         return $this;
     }

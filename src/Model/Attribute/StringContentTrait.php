@@ -22,25 +22,25 @@ trait StringContentTrait {
     /**
      * Content.
      *
-     * @var string
+     * @var string|null
      */
     protected $content;
 
     /**
      * Get the content.
      *
-     * @return string Returns the content.
+     * @return string|null Returns the content.
      */
-    public function getContent() {
+    public function getContent(): ?string {
         return $this->content;
     }
 
     /**
      * Set the content.
      *
-     * @param string $content The content.
+     * @param string|null $content The content.
      */
-    public function setContent($content) {
+    public function setContent(?string $content) {
         $this->content = $content;
         return $this;
     }

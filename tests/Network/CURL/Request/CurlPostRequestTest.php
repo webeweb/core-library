@@ -12,7 +12,6 @@
 namespace WBW\Library\Core\Tests\Network\CURL\Request;
 
 use Exception;
-use WBW\Library\Core\Argument\Exception\StringArgumentException;
 use WBW\Library\Core\Network\CURL\Request\CurlPostRequest;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
@@ -30,7 +29,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testAddPostData() {
+    public function testAddPostData(): void {
 
         $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -40,32 +39,12 @@ class CurlPostRequestTest extends AbstractTestCase {
     }
 
     /**
-     * Tests addPostData() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testAddPostDataWithStringArgumentException() {
-
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
-
-        try {
-
-            $obj->addPostData(1, "value");
-        } catch (Exception $ex) {
-
-            $this->assertInstanceOf(StringArgumentException::class, $ex);
-            $this->assertEquals('The argument "1" is not a string', $ex->getMessage());
-        }
-    }
-
-    /**
      * Tests call() method.
      *
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCall() {
+    public function testCall(): void {
 
         $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("header", "header");
@@ -84,7 +63,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testClearPostData() {
+    public function testClearPostData(): void {
 
         $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -101,7 +80,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testRemovePostData() {
+    public function testRemovePostData(): void {
 
         $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
 
@@ -121,7 +100,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
 

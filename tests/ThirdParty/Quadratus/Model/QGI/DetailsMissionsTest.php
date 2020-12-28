@@ -27,7 +27,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new DetailsMissions();
 
@@ -40,7 +40,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new DetailsMissions();
 
@@ -53,7 +53,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTravail() {
+    public function testSetCodeTravail(): void {
 
         $obj = new DetailsMissions();
 
@@ -66,7 +66,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveau() {
+    public function testSetNiveau(): void {
 
         $obj = new DetailsMissions();
 
@@ -79,7 +79,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new DetailsMissions();
 
@@ -92,7 +92,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAffectation() {
+    public function testSetTypeAffectation(): void {
 
         $obj = new DetailsMissions();
 
@@ -105,7 +105,7 @@ class DetailsMissionsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DetailsMissions();
 

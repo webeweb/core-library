@@ -27,7 +27,7 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new EnteteGrillesType();
 
@@ -40,7 +40,7 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroGrilleType() {
+    public function testSetNumeroGrilleType(): void {
 
         $obj = new EnteteGrillesType();
 
@@ -53,7 +53,7 @@ class EnteteGrillesTypeTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EnteteGrillesType();
 

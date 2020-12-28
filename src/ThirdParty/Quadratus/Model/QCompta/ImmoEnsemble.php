@@ -22,65 +22,66 @@ class ImmoEnsemble {
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Numero compte.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroCompte;
 
     /**
      * Numero ensemble.
      *
-     * @var int
+     * @var int|null
      */
     private $numeroEnsemble;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the numero compte.
      *
-     * @return string Returns the numero compte.
+     * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte() {
+    public function getNumeroCompte(): ?string{
         return $this->numeroCompte;
     }
 
     /**
      * Get the numero ensemble.
      *
-     * @return int Returns the numero ensemble.
+     * @return int|null Returns the numero ensemble.
      */
-    public function getNumeroEnsemble() {
+    public function getNumeroEnsemble(): ?int{
         return $this->numeroEnsemble;
     }
 
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ImmoEnsemble Returns this Immo ensemble.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ImmoEnsemble {
         $this->libelle = $libelle;
         return $this;
     }
@@ -88,10 +89,10 @@ class ImmoEnsemble {
     /**
      * Set the numero compte.
      *
-     * @param string $numeroCompte The numero compte.
+     * @param string|null $numeroCompte The numero compte.
      * @return ImmoEnsemble Returns this Immo ensemble.
      */
-    public function setNumeroCompte($numeroCompte) {
+    public function setNumeroCompte(?string $numeroCompte): ImmoEnsemble {
         $this->numeroCompte = $numeroCompte;
         return $this;
     }
@@ -99,10 +100,10 @@ class ImmoEnsemble {
     /**
      * Set the numero ensemble.
      *
-     * @param int $numeroEnsemble The numero ensemble.
+     * @param int|null $numeroEnsemble The numero ensemble.
      * @return ImmoEnsemble Returns this Immo ensemble.
      */
-    public function setNumeroEnsemble($numeroEnsemble) {
+    public function setNumeroEnsemble(?int $numeroEnsemble): ImmoEnsemble {
         $this->numeroEnsemble = $numeroEnsemble;
         return $this;
     }

@@ -27,7 +27,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new SousRepertoiresCol();
 
@@ -40,7 +40,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new SousRepertoiresCol();
 
@@ -53,7 +53,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumSousRep() {
+    public function testSetNumSousRep(): void {
 
         $obj = new SousRepertoiresCol();
 
@@ -66,7 +66,7 @@ class SousRepertoiresColTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SousRepertoiresCol();
 

@@ -27,7 +27,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnee() {
+    public function testSetAnnee(): void {
 
         $obj = new SubventionsLignes();
 
@@ -40,7 +40,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantRestant() {
+    public function testSetMontantRestant(): void {
 
         $obj = new SubventionsLignes();
 
@@ -53,7 +53,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantVir() {
+    public function testSetMontantVir(): void {
 
         $obj = new SubventionsLignes();
 
@@ -66,7 +66,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumContrat() {
+    public function testSetNumContrat(): void {
 
         $obj = new SubventionsLignes();
 
@@ -79,7 +79,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCptSubvention() {
+    public function testSetNumCptSubvention(): void {
 
         $obj = new SubventionsLignes();
 
@@ -92,7 +92,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new SubventionsLignes();
 
@@ -105,7 +105,7 @@ class SubventionsLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SubventionsLignes();
 

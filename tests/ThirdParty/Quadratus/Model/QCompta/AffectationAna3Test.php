@@ -27,7 +27,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneeRecolte() {
+    public function testSetAnneeRecolte(): void {
 
         $obj = new AffectationAna3();
 
@@ -40,7 +40,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCentre() {
+    public function testSetCodeCentre(): void {
 
         $obj = new AffectationAna3();
 
@@ -53,7 +53,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeNature() {
+    public function testSetCodeNature(): void {
 
         $obj = new AffectationAna3();
 
@@ -66,7 +66,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new AffectationAna3();
 
@@ -79,7 +79,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumCompte() {
+    public function testSetNumCompte(): void {
 
         $obj = new AffectationAna3();
 
@@ -92,7 +92,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPourcentage() {
+    public function testSetPourcentage(): void {
 
         $obj = new AffectationAna3();
 
@@ -105,7 +105,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite1() {
+    public function testSetQuantite1(): void {
 
         $obj = new AffectationAna3();
 
@@ -118,7 +118,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite2() {
+    public function testSetQuantite2(): void {
 
         $obj = new AffectationAna3();
 
@@ -131,7 +131,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSens() {
+    public function testSetSens(): void {
 
         $obj = new AffectationAna3();
 
@@ -144,7 +144,7 @@ class AffectationAna3Test extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffectationAna3();
 

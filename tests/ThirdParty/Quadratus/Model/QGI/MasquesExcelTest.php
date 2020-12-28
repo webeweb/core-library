@@ -27,7 +27,7 @@ class MasquesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModele() {
+    public function testSetModele(): void {
 
         $obj = new MasquesExcel();
 
@@ -40,7 +40,7 @@ class MasquesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new MasquesExcel();
 
@@ -53,7 +53,7 @@ class MasquesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeMasque() {
+    public function testSetTypeMasque(): void {
 
         $obj = new MasquesExcel();
 
@@ -66,7 +66,7 @@ class MasquesExcelTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new MasquesExcel();
 

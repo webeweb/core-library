@@ -29,7 +29,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAvancement() {
+    public function testSetAvancement(): void {
 
         $obj = new AffaireSuivi();
 
@@ -42,7 +42,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new AffaireSuivi();
 
@@ -55,7 +55,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePhase() {
+    public function testSetCodePhase(): void {
 
         $obj = new AffaireSuivi();
 
@@ -68,7 +68,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new AffaireSuivi();
 
@@ -82,7 +82,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateBilan() {
+    public function testSetDateBilan(): void {
 
         // Set a Date/time mock.
         $dateBilan = new DateTime("2018-09-10");
@@ -98,7 +98,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetListeCollab() {
+    public function testSetListeCollab(): void {
 
         $obj = new AffaireSuivi();
 
@@ -111,7 +111,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeuresPrevisionnel() {
+    public function testSetNbHeuresPrevisionnel(): void {
 
         $obj = new AffaireSuivi();
 
@@ -124,7 +124,7 @@ class AffaireSuiviTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AffaireSuivi();
 

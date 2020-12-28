@@ -22,161 +22,162 @@ class ArticlesFrn {
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFournisseur;
 
     /**
      * Commentaires.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaires;
 
     /**
      * Conditionnement.
      *
-     * @var string
+     * @var string|null
      */
     private $conditionnement;
 
     /**
      * Delai le.
      *
-     * @var int
+     * @var int|null
      */
     private $delaiLe;
 
     /**
      * Delai local.
      *
-     * @var bool
+     * @var bool|null
      */
     private $delaiLocal;
 
     /**
      * Delai nombre.
      *
-     * @var int
+     * @var int|null
      */
     private $delaiNombre;
 
     /**
      * Delai type.
      *
-     * @var int
+     * @var int|null
      */
     private $delaiType;
 
     /**
      * Ref article fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $refArticleFournisseur;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code fournisseur.
      *
-     * @return string Returns the code fournisseur.
+     * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur() {
+    public function getCodeFournisseur(): ?string{
         return $this->codeFournisseur;
     }
 
     /**
      * Get the commentaires.
      *
-     * @return string Returns the commentaires.
+     * @return string|null Returns the commentaires.
      */
-    public function getCommentaires() {
+    public function getCommentaires(): ?string{
         return $this->commentaires;
     }
 
     /**
      * Get the conditionnement.
      *
-     * @return string Returns the conditionnement.
+     * @return string|null Returns the conditionnement.
      */
-    public function getConditionnement() {
+    public function getConditionnement(): ?string{
         return $this->conditionnement;
     }
 
     /**
      * Get the delai le.
      *
-     * @return int Returns the delai le.
+     * @return int|null Returns the delai le.
      */
-    public function getDelaiLe() {
+    public function getDelaiLe(): ?int{
         return $this->delaiLe;
     }
 
     /**
      * Get the delai local.
      *
-     * @return bool Returns the delai local.
+     * @return bool|null Returns the delai local.
      */
-    public function getDelaiLocal() {
+    public function getDelaiLocal(): ?bool{
         return $this->delaiLocal;
     }
 
     /**
      * Get the delai nombre.
      *
-     * @return int Returns the delai nombre.
+     * @return int|null Returns the delai nombre.
      */
-    public function getDelaiNombre() {
+    public function getDelaiNombre(): ?int{
         return $this->delaiNombre;
     }
 
     /**
      * Get the delai type.
      *
-     * @return int Returns the delai type.
+     * @return int|null Returns the delai type.
      */
-    public function getDelaiType() {
+    public function getDelaiType(): ?int{
         return $this->delaiType;
     }
 
     /**
      * Get the ref article fournisseur.
      *
-     * @return string Returns the ref article fournisseur.
+     * @return string|null Returns the ref article fournisseur.
      */
-    public function getRefArticleFournisseur() {
+    public function getRefArticleFournisseur(): ?string{
         return $this->refArticleFournisseur;
     }
 
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): ArticlesFrn {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -184,10 +185,10 @@ class ArticlesFrn {
     /**
      * Set the code fournisseur.
      *
-     * @param string $codeFournisseur The code fournisseur.
+     * @param string|null $codeFournisseur The code fournisseur.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setCodeFournisseur($codeFournisseur) {
+    public function setCodeFournisseur(?string $codeFournisseur): ArticlesFrn {
         $this->codeFournisseur = $codeFournisseur;
         return $this;
     }
@@ -195,10 +196,10 @@ class ArticlesFrn {
     /**
      * Set the commentaires.
      *
-     * @param string $commentaires The commentaires.
+     * @param string|null $commentaires The commentaires.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setCommentaires($commentaires) {
+    public function setCommentaires(?string $commentaires): ArticlesFrn {
         $this->commentaires = $commentaires;
         return $this;
     }
@@ -206,10 +207,10 @@ class ArticlesFrn {
     /**
      * Set the conditionnement.
      *
-     * @param string $conditionnement The conditionnement.
+     * @param string|null $conditionnement The conditionnement.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setConditionnement($conditionnement) {
+    public function setConditionnement(?string $conditionnement): ArticlesFrn {
         $this->conditionnement = $conditionnement;
         return $this;
     }
@@ -217,10 +218,10 @@ class ArticlesFrn {
     /**
      * Set the delai le.
      *
-     * @param int $delaiLe The delai le.
+     * @param int|null $delaiLe The delai le.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setDelaiLe($delaiLe) {
+    public function setDelaiLe(?int $delaiLe): ArticlesFrn {
         $this->delaiLe = $delaiLe;
         return $this;
     }
@@ -228,10 +229,10 @@ class ArticlesFrn {
     /**
      * Set the delai local.
      *
-     * @param bool $delaiLocal The delai local.
+     * @param bool|null $delaiLocal The delai local.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setDelaiLocal($delaiLocal) {
+    public function setDelaiLocal(?bool $delaiLocal): ArticlesFrn {
         $this->delaiLocal = $delaiLocal;
         return $this;
     }
@@ -239,10 +240,10 @@ class ArticlesFrn {
     /**
      * Set the delai nombre.
      *
-     * @param int $delaiNombre The delai nombre.
+     * @param int|null $delaiNombre The delai nombre.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setDelaiNombre($delaiNombre) {
+    public function setDelaiNombre(?int $delaiNombre): ArticlesFrn {
         $this->delaiNombre = $delaiNombre;
         return $this;
     }
@@ -250,10 +251,10 @@ class ArticlesFrn {
     /**
      * Set the delai type.
      *
-     * @param int $delaiType The delai type.
+     * @param int|null $delaiType The delai type.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setDelaiType($delaiType) {
+    public function setDelaiType(?int $delaiType): ArticlesFrn {
         $this->delaiType = $delaiType;
         return $this;
     }
@@ -261,10 +262,10 @@ class ArticlesFrn {
     /**
      * Set the ref article fournisseur.
      *
-     * @param string $refArticleFournisseur The ref article fournisseur.
+     * @param string|null $refArticleFournisseur The ref article fournisseur.
      * @return ArticlesFrn Returns this Articles frn.
      */
-    public function setRefArticleFournisseur($refArticleFournisseur) {
+    public function setRefArticleFournisseur(?string $refArticleFournisseur): ArticlesFrn {
         $this->refArticleFournisseur = $refArticleFournisseur;
         return $this;
     }

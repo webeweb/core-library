@@ -22,49 +22,50 @@ class CorrespondanceFamArtQFactChargesQProp {
     /**
      * Code charge.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCharge;
 
     /**
      * Code fam art.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFamArt;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code charge.
      *
-     * @return string Returns the code charge.
+     * @return string|null Returns the code charge.
      */
-    public function getCodeCharge() {
+    public function getCodeCharge(): ?string{
         return $this->codeCharge;
     }
 
     /**
      * Get the code fam art.
      *
-     * @return string Returns the code fam art.
+     * @return string|null Returns the code fam art.
      */
-    public function getCodeFamArt() {
+    public function getCodeFamArt(): ?string{
         return $this->codeFamArt;
     }
 
     /**
      * Set the code charge.
      *
-     * @param string $codeCharge The code charge.
+     * @param string|null $codeCharge The code charge.
      * @return CorrespondanceFamArtQFactChargesQProp Returns this Correspondance fam art q fact charges q prop.
      */
-    public function setCodeCharge($codeCharge) {
+    public function setCodeCharge(?string $codeCharge): CorrespondanceFamArtQFactChargesQProp {
         $this->codeCharge = $codeCharge;
         return $this;
     }
@@ -72,10 +73,10 @@ class CorrespondanceFamArtQFactChargesQProp {
     /**
      * Set the code fam art.
      *
-     * @param string $codeFamArt The code fam art.
+     * @param string|null $codeFamArt The code fam art.
      * @return CorrespondanceFamArtQFactChargesQProp Returns this Correspondance fam art q fact charges q prop.
      */
-    public function setCodeFamArt($codeFamArt) {
+    public function setCodeFamArt(?string $codeFamArt): CorrespondanceFamArtQFactChargesQProp {
         $this->codeFamArt = $codeFamArt;
         return $this;
     }

@@ -24,35 +24,35 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * A declarer dsn.
      *
-     * @var bool
+     * @var bool|null
      */
     private $aDeclarerDsn;
 
     /**
      * Code evenement.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEvenement;
 
     /**
      * Code option.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOption;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Code population.
      *
-     * @var string
+     * @var string|null
      */
     private $codePopulation;
 
@@ -66,66 +66,67 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
     /**
      * Ref contrat.
      *
-     * @var string
+     * @var string|null
      */
     private $refContrat;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the a declarer dsn.
      *
-     * @return bool Returns the a declarer dsn.
+     * @return bool|null Returns the a declarer dsn.
      */
-    public function getADeclarerDsn() {
+    public function getADeclarerDsn(): ?bool{
         return $this->aDeclarerDsn;
     }
 
     /**
      * Get the code evenement.
      *
-     * @return string Returns the code evenement.
+     * @return string|null Returns the code evenement.
      */
-    public function getCodeEvenement() {
+    public function getCodeEvenement(): ?string{
         return $this->codeEvenement;
     }
 
     /**
      * Get the code option.
      *
-     * @return string Returns the code option.
+     * @return string|null Returns the code option.
      */
-    public function getCodeOption() {
+    public function getCodeOption(): ?string{
         return $this->codeOption;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the code population.
      *
-     * @return string Returns the code population.
+     * @return string|null Returns the code population.
      */
-    public function getCodePopulation() {
+    public function getCodePopulation(): ?string{
         return $this->codePopulation;
     }
 
@@ -134,35 +135,35 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return DateTime|null Returns the date evenement.
      */
-    public function getDateEvenement() {
+    public function getDateEvenement(): ?DateTime{
         return $this->dateEvenement;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
     /**
      * Get the ref contrat.
      *
-     * @return string Returns the ref contrat.
+     * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat() {
+    public function getRefContrat(): ?string{
         return $this->refContrat;
     }
 
     /**
      * Set the a declarer dsn.
      *
-     * @param bool $aDeclarerDsn The a declarer dsn.
+     * @param bool|null $aDeclarerDsn The a declarer dsn.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setADeclarerDsn($aDeclarerDsn) {
+    public function setADeclarerDsn(?bool $aDeclarerDsn): EmpDadsuPrevoyanceEvenements {
         $this->aDeclarerDsn = $aDeclarerDsn;
         return $this;
     }
@@ -170,10 +171,10 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Set the code evenement.
      *
-     * @param string $codeEvenement The code evenement.
+     * @param string|null $codeEvenement The code evenement.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setCodeEvenement($codeEvenement) {
+    public function setCodeEvenement(?string $codeEvenement): EmpDadsuPrevoyanceEvenements {
         $this->codeEvenement = $codeEvenement;
         return $this;
     }
@@ -181,10 +182,10 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Set the code option.
      *
-     * @param string $codeOption The code option.
+     * @param string|null $codeOption The code option.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setCodeOption($codeOption) {
+    public function setCodeOption(?string $codeOption): EmpDadsuPrevoyanceEvenements {
         $this->codeOption = $codeOption;
         return $this;
     }
@@ -192,10 +193,10 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): EmpDadsuPrevoyanceEvenements {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -203,10 +204,10 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Set the code population.
      *
-     * @param string $codePopulation The code population.
+     * @param string|null $codePopulation The code population.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setCodePopulation($codePopulation) {
+    public function setCodePopulation(?string $codePopulation): EmpDadsuPrevoyanceEvenements {
         $this->codePopulation = $codePopulation;
         return $this;
     }
@@ -217,7 +218,7 @@ class EmpDadsuPrevoyanceEvenements {
      * @param DateTime|null $dateEvenement The date evenement.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setDateEvenement(DateTime $dateEvenement = null) {
+    public function setDateEvenement(?DateTime $dateEvenement): EmpDadsuPrevoyanceEvenements {
         $this->dateEvenement = $dateEvenement;
         return $this;
     }
@@ -225,10 +226,10 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): EmpDadsuPrevoyanceEvenements {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -236,10 +237,10 @@ class EmpDadsuPrevoyanceEvenements {
     /**
      * Set the ref contrat.
      *
-     * @param string $refContrat The ref contrat.
+     * @param string|null $refContrat The ref contrat.
      * @return EmpDadsuPrevoyanceEvenements Returns this Emp dadsu prevoyance evenements.
      */
-    public function setRefContrat($refContrat) {
+    public function setRefContrat(?string $refContrat): EmpDadsuPrevoyanceEvenements {
         $this->refContrat = $refContrat;
         return $this;
     }

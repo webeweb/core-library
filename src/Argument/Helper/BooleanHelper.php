@@ -28,7 +28,7 @@ class BooleanHelper {
      * @return void
      * @throws BooleanArgumentException Throws a Boolean argument exception if the value is not of expected type.
      */
-    public static function isBoolean($value) {
+    public static function isBoolean($value): void {
         if (false === is_bool($value)) {
             throw new BooleanArgumentException($value);
         }
@@ -37,10 +37,10 @@ class BooleanHelper {
     /**
      * Parse a string.
      *
-     * @param string $value The string value.
+     * @param string|null $value The string value.
      * @return bool Returns true in case of success, false otherwise.
      */
-    public static function parseString($value) {
+    public static function parseString(?string $value): bool {
 
         if (null === $value) {
             return false;

@@ -30,7 +30,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDoute() {
+    public function testSetDateDoute(): void {
 
         // Set a Date/time mock.
         $dateDoute = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMention() {
+    public function testSetMention(): void {
 
         $obj = new ClientsDouteux();
 
@@ -59,7 +59,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCreanceBaseHt() {
+    public function testSetMtCreanceBaseHt(): void {
 
         $obj = new ClientsDouteux();
 
@@ -72,7 +72,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCreanceTtcDebExo() {
+    public function testSetMtCreanceTtcDebExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -85,7 +85,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCreanceTtcDevDoutExo() {
+    public function testSetMtCreanceTtcDevDoutExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -98,7 +98,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCreanceTtcIrrecExo() {
+    public function testSetMtCreanceTtcIrrecExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -111,7 +111,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtCreanceTtcReglExo() {
+    public function testSetMtCreanceTtcReglExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -124,7 +124,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtProvisionDebExo() {
+    public function testSetMtProvisionDebExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -137,7 +137,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtProvisionDotExo() {
+    public function testSetMtProvisionDotExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -150,7 +150,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtRepProvisionIrrec() {
+    public function testSetMtRepProvisionIrrec(): void {
 
         $obj = new ClientsDouteux();
 
@@ -163,7 +163,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtRepProvisionRegl() {
+    public function testSetMtRepProvisionRegl(): void {
 
         $obj = new ClientsDouteux();
 
@@ -176,7 +176,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new ClientsDouteux();
 
@@ -189,7 +189,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetObservations() {
+    public function testSetObservations(): void {
 
         $obj = new ClientsDouteux();
 
@@ -202,7 +202,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new ClientsDouteux();
 
@@ -215,7 +215,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxDouteDebExo() {
+    public function testSetTauxDouteDebExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -228,7 +228,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxDouteExo() {
+    public function testSetTauxDouteExo(): void {
 
         $obj = new ClientsDouteux();
 
@@ -241,7 +241,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxTvaCreance() {
+    public function testSetTxTvaCreance(): void {
 
         $obj = new ClientsDouteux();
 
@@ -254,7 +254,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxTvaCreanceForce() {
+    public function testSetTxTvaCreanceForce(): void {
 
         $obj = new ClientsDouteux();
 
@@ -267,7 +267,7 @@ class ClientsDouteuxTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ClientsDouteux();
 

@@ -35,7 +35,7 @@ class ImageTest extends AbstractTestCase {
     /**
      * {@inheritDoc}
      */
-    protected function setUp() {
+    protected function setUp(): void {
         parent::setUp();
 
         // Set the images mock.
@@ -47,7 +47,7 @@ class ImageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testInit() {
+    public function testInit(): void {
 
         $obj = new Image($this->images[1]);
 
@@ -68,7 +68,7 @@ class ImageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testResize() {
+    public function testResize(): void {
 
         // Set a pathname mock.
         $pathname = str_replace(".jpg", "_thumb.jpg", $this->images[0]);
@@ -87,7 +87,7 @@ class ImageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Image($this->images[0]);
 
@@ -109,7 +109,7 @@ class ImageTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructWithInvalidArgumentException() {
+    public function test__constructWithInvalidArgumentException(): void {
 
         // Set a pathname mock.
         $pathname = getcwd() . "/exception.txt";

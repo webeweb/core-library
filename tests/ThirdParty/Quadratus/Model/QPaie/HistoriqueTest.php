@@ -29,7 +29,7 @@ class HistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnnees() {
+    public function testSetAnnees(): void {
 
         $obj = new Historique();
 
@@ -42,7 +42,7 @@ class HistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnneesPlus() {
+    public function testSetAnneesPlus(): void {
 
         $obj = new Historique();
 
@@ -55,7 +55,7 @@ class HistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new Historique();
 
@@ -69,7 +69,7 @@ class HistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetCsValide() {
+    public function testSetCsValide(): void {
 
         // Set a Date/time mock.
         $csValide = new DateTime("2018-09-10");
@@ -86,7 +86,7 @@ class HistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetCtValide() {
+    public function testSetCtValide(): void {
 
         // Set a Date/time mock.
         $ctValide = new DateTime("2018-09-10");
@@ -102,7 +102,7 @@ class HistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRub() {
+    public function testSetRub(): void {
 
         $obj = new Historique();
 
@@ -115,7 +115,7 @@ class HistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetService() {
+    public function testSetService(): void {
 
         $obj = new Historique();
 
@@ -129,7 +129,7 @@ class HistoriqueTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetVisiteMedicale() {
+    public function testSetVisiteMedicale(): void {
 
         // Set a Date/time mock.
         $visiteMedicale = new DateTime("2018-09-10");
@@ -145,7 +145,7 @@ class HistoriqueTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Historique();
 

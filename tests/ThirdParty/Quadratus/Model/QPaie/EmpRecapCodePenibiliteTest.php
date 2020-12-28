@@ -27,7 +27,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePenibilite() {
+    public function testSetCodePenibilite(): void {
 
         $obj = new EmpRecapCodePenibilite();
 
@@ -40,7 +40,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIdRecap() {
+    public function testSetIdRecap(): void {
 
         $obj = new EmpRecapCodePenibilite();
 
@@ -53,7 +53,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroOrdre() {
+    public function testSetNumeroOrdre(): void {
 
         $obj = new EmpRecapCodePenibilite();
 
@@ -66,7 +66,7 @@ class EmpRecapCodePenibiliteTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EmpRecapCodePenibilite();
 

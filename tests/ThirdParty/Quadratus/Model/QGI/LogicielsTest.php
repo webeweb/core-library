@@ -29,7 +29,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCategorie() {
+    public function testSetCategorie(): void {
 
         $obj = new Logiciels();
 
@@ -42,7 +42,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new Logiciels();
 
@@ -55,7 +55,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeIntervenant() {
+    public function testSetCodeIntervenant(): void {
 
         $obj = new Logiciels();
 
@@ -68,7 +68,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire() {
+    public function testSetCommentaire(): void {
 
         $obj = new Logiciels();
 
@@ -82,7 +82,7 @@ class LogicielsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateAchat() {
+    public function testSetDateAchat(): void {
 
         // Set a Date/time mock.
         $dateAchat = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class LogicielsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateFinMaint() {
+    public function testSetDateFinMaint(): void {
 
         // Set a Date/time mock.
         $dateFinMaint = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndiceAff() {
+    public function testSetIndiceAff(): void {
 
         $obj = new Logiciels();
 
@@ -128,7 +128,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMaintenance() {
+    public function testSetMaintenance(): void {
 
         $obj = new Logiciels();
 
@@ -141,7 +141,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantMaint() {
+    public function testSetMontantMaint(): void {
 
         $obj = new Logiciels();
 
@@ -154,7 +154,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomLogiciel() {
+    public function testSetNomLogiciel(): void {
 
         $obj = new Logiciels();
 
@@ -167,7 +167,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLicence() {
+    public function testSetNumLicence(): void {
 
         $obj = new Logiciels();
 
@@ -180,7 +180,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new Logiciels();
 
@@ -193,7 +193,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSousCategorie() {
+    public function testSetSousCategorie(): void {
 
         $obj = new Logiciels();
 
@@ -206,7 +206,7 @@ class LogicielsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Logiciels();
 

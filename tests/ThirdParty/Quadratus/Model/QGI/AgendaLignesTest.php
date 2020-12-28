@@ -29,7 +29,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBudgetNumUniq() {
+    public function testSetBudgetNumUniq(): void {
 
         $obj = new AgendaLignes();
 
@@ -42,7 +42,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new AgendaLignes();
 
@@ -55,7 +55,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeCollaborateur() {
+    public function testSetCodeCollaborateur(): void {
 
         $obj = new AgendaLignes();
 
@@ -68,7 +68,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMission() {
+    public function testSetCodeMission(): void {
 
         $obj = new AgendaLignes();
 
@@ -81,7 +81,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTache() {
+    public function testSetCodeTache(): void {
 
         $obj = new AgendaLignes();
 
@@ -94,7 +94,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollCreation() {
+    public function testSetCollCreation(): void {
 
         $obj = new AgendaLignes();
 
@@ -107,7 +107,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollModif() {
+    public function testSetCollModif(): void {
 
         $obj = new AgendaLignes();
 
@@ -120,7 +120,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetConfirme() {
+    public function testSetConfirme(): void {
 
         $obj = new AgendaLignes();
 
@@ -133,7 +133,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCritereLibre() {
+    public function testSetCritereLibre(): void {
 
         $obj = new AgendaLignes();
 
@@ -147,7 +147,7 @@ class AgendaLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateCreation() {
+    public function testSetDateCreation(): void {
 
         // Set a Date/time mock.
         $dateCreation = new DateTime("2018-09-10");
@@ -164,7 +164,7 @@ class AgendaLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -181,7 +181,7 @@ class AgendaLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureDebut() {
+    public function testSetHeureDebut(): void {
 
         // Set a Date/time mock.
         $heureDebut = new DateTime("2018-09-10");
@@ -198,7 +198,7 @@ class AgendaLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetHeureFin() {
+    public function testSetHeureFin(): void {
 
         // Set a Date/time mock.
         $heureFin = new DateTime("2018-09-10");
@@ -214,7 +214,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetInterlocuteur() {
+    public function testSetInterlocuteur(): void {
 
         $obj = new AgendaLignes();
 
@@ -227,7 +227,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsTacheTp() {
+    public function testSetIsTacheTp(): void {
 
         $obj = new AgendaLignes();
 
@@ -240,7 +240,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsTransf() {
+    public function testSetIsTransf(): void {
 
         $obj = new AgendaLignes();
 
@@ -254,7 +254,7 @@ class AgendaLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetJour() {
+    public function testSetJour(): void {
 
         // Set a Date/time mock.
         $jour = new DateTime("2018-09-10");
@@ -270,7 +270,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemoPlus() {
+    public function testSetMemoPlus(): void {
 
         $obj = new AgendaLignes();
 
@@ -283,7 +283,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessage() {
+    public function testSetMessage(): void {
 
         $obj = new AgendaLignes();
 
@@ -296,7 +296,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumOrdreMission() {
+    public function testSetNumOrdreMission(): void {
 
         $obj = new AgendaLignes();
 
@@ -309,7 +309,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq() {
+    public function testSetNumUniq(): void {
 
         $obj = new AgendaLignes();
 
@@ -322,7 +322,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumUniq2() {
+    public function testSetNumUniq2(): void {
 
         $obj = new AgendaLignes();
 
@@ -335,7 +335,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPieceJointe() {
+    public function testSetPieceJointe(): void {
 
         $obj = new AgendaLignes();
 
@@ -348,7 +348,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrive() {
+    public function testSetPrive(): void {
 
         $obj = new AgendaLignes();
 
@@ -361,7 +361,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRecurrence() {
+    public function testSetRecurrence(): void {
 
         $obj = new AgendaLignes();
 
@@ -374,7 +374,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeActivite() {
+    public function testSetTypeActivite(): void {
 
         $obj = new AgendaLignes();
 
@@ -387,7 +387,7 @@ class AgendaLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AgendaLignes();
 

@@ -22,129 +22,130 @@ class BonsTravauxEmployes {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Code equipe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEquipe;
 
     /**
      * Num bt.
      *
-     * @var int
+     * @var int|null
      */
     private $numBt;
 
     /**
      * Transfert paie.
      *
-     * @var string
+     * @var string|null
      */
     private $transfertPaie;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the code equipe.
      *
-     * @return string Returns the code equipe.
+     * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe() {
+    public function getCodeEquipe(): ?string{
         return $this->codeEquipe;
     }
 
     /**
      * Get the num bt.
      *
-     * @return int Returns the num bt.
+     * @return int|null Returns the num bt.
      */
-    public function getNumBt() {
+    public function getNumBt(): ?int{
         return $this->numBt;
     }
 
     /**
      * Get the transfert paie.
      *
-     * @return string Returns the transfert paie.
+     * @return string|null Returns the transfert paie.
      */
-    public function getTransfertPaie() {
+    public function getTransfertPaie(): ?string{
         return $this->transfertPaie;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): BonsTravauxEmployes {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -152,10 +153,10 @@ class BonsTravauxEmployes {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): BonsTravauxEmployes {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -163,10 +164,10 @@ class BonsTravauxEmployes {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): BonsTravauxEmployes {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -174,10 +175,10 @@ class BonsTravauxEmployes {
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): BonsTravauxEmployes {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -185,10 +186,10 @@ class BonsTravauxEmployes {
     /**
      * Set the code equipe.
      *
-     * @param string $codeEquipe The code equipe.
+     * @param string|null $codeEquipe The code equipe.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setCodeEquipe($codeEquipe) {
+    public function setCodeEquipe(?string $codeEquipe): BonsTravauxEmployes {
         $this->codeEquipe = $codeEquipe;
         return $this;
     }
@@ -196,10 +197,10 @@ class BonsTravauxEmployes {
     /**
      * Set the num bt.
      *
-     * @param int $numBt The num bt.
+     * @param int|null $numBt The num bt.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setNumBt($numBt) {
+    public function setNumBt(?int $numBt): BonsTravauxEmployes {
         $this->numBt = $numBt;
         return $this;
     }
@@ -207,10 +208,10 @@ class BonsTravauxEmployes {
     /**
      * Set the transfert paie.
      *
-     * @param string $transfertPaie The transfert paie.
+     * @param string|null $transfertPaie The transfert paie.
      * @return BonsTravauxEmployes Returns this Bons travaux employes.
      */
-    public function setTransfertPaie($transfertPaie) {
+    public function setTransfertPaie(?string $transfertPaie): BonsTravauxEmployes {
         $this->transfertPaie = $transfertPaie;
         return $this;
     }

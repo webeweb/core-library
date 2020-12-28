@@ -24,28 +24,28 @@ class RepartitionActiviteAnaBul {
     /**
      * Centre.
      *
-     * @var string
+     * @var string|null
      */
     private $centre;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Numero employe.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmploye;
 
@@ -59,50 +59,51 @@ class RepartitionActiviteAnaBul {
     /**
      * Taux ventilation.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxVentilation;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the centre.
      *
-     * @return string Returns the centre.
+     * @return string|null Returns the centre.
      */
-    public function getCentre() {
+    public function getCentre(): ?string{
         return $this->centre;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the numero employe.
      *
-     * @return string Returns the numero employe.
+     * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye() {
+    public function getNumeroEmploye(): ?string{
         return $this->numeroEmploye;
     }
 
@@ -111,26 +112,26 @@ class RepartitionActiviteAnaBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the taux ventilation.
      *
-     * @return float Returns the taux ventilation.
+     * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation() {
+    public function getTauxVentilation(): ?float{
         return $this->tauxVentilation;
     }
 
     /**
      * Set the centre.
      *
-     * @param string $centre The centre.
+     * @param string|null $centre The centre.
      * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
-    public function setCentre($centre) {
+    public function setCentre(?string $centre): RepartitionActiviteAnaBul {
         $this->centre = $centre;
         return $this;
     }
@@ -138,10 +139,10 @@ class RepartitionActiviteAnaBul {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): RepartitionActiviteAnaBul {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -149,10 +150,10 @@ class RepartitionActiviteAnaBul {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): RepartitionActiviteAnaBul {
         $this->nature = $nature;
         return $this;
     }
@@ -160,10 +161,10 @@ class RepartitionActiviteAnaBul {
     /**
      * Set the numero employe.
      *
-     * @param string $numeroEmploye The numero employe.
+     * @param string|null $numeroEmploye The numero employe.
      * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
-    public function setNumeroEmploye($numeroEmploye) {
+    public function setNumeroEmploye(?string $numeroEmploye): RepartitionActiviteAnaBul {
         $this->numeroEmploye = $numeroEmploye;
         return $this;
     }
@@ -174,7 +175,7 @@ class RepartitionActiviteAnaBul {
      * @param DateTime|null $periode The periode.
      * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): RepartitionActiviteAnaBul {
         $this->periode = $periode;
         return $this;
     }
@@ -182,10 +183,10 @@ class RepartitionActiviteAnaBul {
     /**
      * Set the taux ventilation.
      *
-     * @param float $tauxVentilation The taux ventilation.
+     * @param float|null $tauxVentilation The taux ventilation.
      * @return RepartitionActiviteAnaBul Returns this Repartition activite ana bul.
      */
-    public function setTauxVentilation($tauxVentilation) {
+    public function setTauxVentilation(?float $tauxVentilation): RepartitionActiviteAnaBul {
         $this->tauxVentilation = $tauxVentilation;
         return $this;
     }

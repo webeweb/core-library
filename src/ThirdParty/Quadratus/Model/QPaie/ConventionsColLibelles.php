@@ -22,145 +22,146 @@ class ConventionsColLibelles {
     /**
      * Active.
      *
-     * @var bool
+     * @var bool|null
      */
     private $active;
 
     /**
      * Categ salarie.
      *
-     * @var int
+     * @var int|null
      */
     private $categSalarie;
 
     /**
      * Code convention.
      *
-     * @var string
+     * @var string|null
      */
     private $codeConvention;
 
     /**
      * Code libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $codeLibelle;
 
     /**
      * Frais sante am.
      *
-     * @var bool
+     * @var bool|null
      */
     private $fraisSanteAm;
 
     /**
      * Indice categ.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceCateg;
 
     /**
      * Intitule.
      *
-     * @var string
+     * @var string|null
      */
     private $intitule;
 
     /**
      * Position.
      *
-     * @var int
+     * @var int|null
      */
     private $position;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the active.
      *
-     * @return bool Returns the active.
+     * @return bool|null Returns the active.
      */
-    public function getActive() {
+    public function getActive(): ?bool{
         return $this->active;
     }
 
     /**
      * Get the categ salarie.
      *
-     * @return int Returns the categ salarie.
+     * @return int|null Returns the categ salarie.
      */
-    public function getCategSalarie() {
+    public function getCategSalarie(): ?int{
         return $this->categSalarie;
     }
 
     /**
      * Get the code convention.
      *
-     * @return string Returns the code convention.
+     * @return string|null Returns the code convention.
      */
-    public function getCodeConvention() {
+    public function getCodeConvention(): ?string{
         return $this->codeConvention;
     }
 
     /**
      * Get the code libelle.
      *
-     * @return string Returns the code libelle.
+     * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle() {
+    public function getCodeLibelle(): ?string{
         return $this->codeLibelle;
     }
 
     /**
      * Get the frais sante am.
      *
-     * @return bool Returns the frais sante am.
+     * @return bool|null Returns the frais sante am.
      */
-    public function getFraisSanteAm() {
+    public function getFraisSanteAm(): ?bool{
         return $this->fraisSanteAm;
     }
 
     /**
      * Get the indice categ.
      *
-     * @return int Returns the indice categ.
+     * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg() {
+    public function getIndiceCateg(): ?int{
         return $this->indiceCateg;
     }
 
     /**
      * Get the intitule.
      *
-     * @return string Returns the intitule.
+     * @return string|null Returns the intitule.
      */
-    public function getIntitule() {
+    public function getIntitule(): ?string{
         return $this->intitule;
     }
 
     /**
      * Get the position.
      *
-     * @return int Returns the position.
+     * @return int|null Returns the position.
      */
-    public function getPosition() {
+    public function getPosition(): ?int{
         return $this->position;
     }
 
     /**
      * Set the active.
      *
-     * @param bool $active The active.
+     * @param bool|null $active The active.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setActive($active) {
+    public function setActive(?bool $active): ConventionsColLibelles {
         $this->active = $active;
         return $this;
     }
@@ -168,10 +169,10 @@ class ConventionsColLibelles {
     /**
      * Set the categ salarie.
      *
-     * @param int $categSalarie The categ salarie.
+     * @param int|null $categSalarie The categ salarie.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setCategSalarie($categSalarie) {
+    public function setCategSalarie(?int $categSalarie): ConventionsColLibelles {
         $this->categSalarie = $categSalarie;
         return $this;
     }
@@ -179,10 +180,10 @@ class ConventionsColLibelles {
     /**
      * Set the code convention.
      *
-     * @param string $codeConvention The code convention.
+     * @param string|null $codeConvention The code convention.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setCodeConvention($codeConvention) {
+    public function setCodeConvention(?string $codeConvention): ConventionsColLibelles {
         $this->codeConvention = $codeConvention;
         return $this;
     }
@@ -190,10 +191,10 @@ class ConventionsColLibelles {
     /**
      * Set the code libelle.
      *
-     * @param string $codeLibelle The code libelle.
+     * @param string|null $codeLibelle The code libelle.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setCodeLibelle($codeLibelle) {
+    public function setCodeLibelle(?string $codeLibelle): ConventionsColLibelles {
         $this->codeLibelle = $codeLibelle;
         return $this;
     }
@@ -201,10 +202,10 @@ class ConventionsColLibelles {
     /**
      * Set the frais sante am.
      *
-     * @param bool $fraisSanteAm The frais sante am.
+     * @param bool|null $fraisSanteAm The frais sante am.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setFraisSanteAm($fraisSanteAm) {
+    public function setFraisSanteAm(?bool $fraisSanteAm): ConventionsColLibelles {
         $this->fraisSanteAm = $fraisSanteAm;
         return $this;
     }
@@ -212,10 +213,10 @@ class ConventionsColLibelles {
     /**
      * Set the indice categ.
      *
-     * @param int $indiceCateg The indice categ.
+     * @param int|null $indiceCateg The indice categ.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setIndiceCateg($indiceCateg) {
+    public function setIndiceCateg(?int $indiceCateg): ConventionsColLibelles {
         $this->indiceCateg = $indiceCateg;
         return $this;
     }
@@ -223,10 +224,10 @@ class ConventionsColLibelles {
     /**
      * Set the intitule.
      *
-     * @param string $intitule The intitule.
+     * @param string|null $intitule The intitule.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setIntitule($intitule) {
+    public function setIntitule(?string $intitule): ConventionsColLibelles {
         $this->intitule = $intitule;
         return $this;
     }
@@ -234,10 +235,10 @@ class ConventionsColLibelles {
     /**
      * Set the position.
      *
-     * @param int $position The position.
+     * @param int|null $position The position.
      * @return ConventionsColLibelles Returns this Conventions col libelles.
      */
-    public function setPosition($position) {
+    public function setPosition(?int $position): ConventionsColLibelles {
         $this->position = $position;
         return $this;
     }

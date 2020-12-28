@@ -31,42 +31,42 @@ class SalairesAttestation {
     /**
      * Euro ou franc.
      *
-     * @var string
+     * @var string|null
      */
     private $euroOuFranc;
 
     /**
      * Heures trav.
      *
-     * @var float
+     * @var float|null
      */
     private $heuresTrav;
 
     /**
      * Jours non payes.
      *
-     * @var float
+     * @var float|null
      */
     private $joursNonPayes;
 
     /**
      * Num ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $numLigne;
 
     /**
      * Numero attestation.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroAttestation;
 
     /**
      * Observation.
      *
-     * @var string
+     * @var string|null
      */
     private $observation;
 
@@ -87,22 +87,23 @@ class SalairesAttestation {
     /**
      * Precompte.
      *
-     * @var float
+     * @var float|null
      */
     private $precompte;
 
     /**
      * Salaire brut.
      *
-     * @var float
+     * @var float|null
      */
     private $salaireBrut;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
@@ -110,61 +111,61 @@ class SalairesAttestation {
      *
      * @return DateTime|null Returns the date paie.
      */
-    public function getDatePaie() {
+    public function getDatePaie(): ?DateTime{
         return $this->datePaie;
     }
 
     /**
      * Get the euro ou franc.
      *
-     * @return string Returns the euro ou franc.
+     * @return string|null Returns the euro ou franc.
      */
-    public function getEuroOuFranc() {
+    public function getEuroOuFranc(): ?string{
         return $this->euroOuFranc;
     }
 
     /**
      * Get the heures trav.
      *
-     * @return float Returns the heures trav.
+     * @return float|null Returns the heures trav.
      */
-    public function getHeuresTrav() {
+    public function getHeuresTrav(): ?float{
         return $this->heuresTrav;
     }
 
     /**
      * Get the jours non payes.
      *
-     * @return float Returns the jours non payes.
+     * @return float|null Returns the jours non payes.
      */
-    public function getJoursNonPayes() {
+    public function getJoursNonPayes(): ?float{
         return $this->joursNonPayes;
     }
 
     /**
      * Get the num ligne.
      *
-     * @return string Returns the num ligne.
+     * @return string|null Returns the num ligne.
      */
-    public function getNumLigne() {
+    public function getNumLigne(): ?string{
         return $this->numLigne;
     }
 
     /**
      * Get the numero attestation.
      *
-     * @return string Returns the numero attestation.
+     * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation() {
+    public function getNumeroAttestation(): ?string{
         return $this->numeroAttestation;
     }
 
     /**
      * Get the observation.
      *
-     * @return string Returns the observation.
+     * @return string|null Returns the observation.
      */
-    public function getObservation() {
+    public function getObservation(): ?string{
         return $this->observation;
     }
 
@@ -173,7 +174,7 @@ class SalairesAttestation {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb() {
+    public function getPeriodeDeb(): ?DateTime{
         return $this->periodeDeb;
     }
 
@@ -182,25 +183,25 @@ class SalairesAttestation {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin() {
+    public function getPeriodeFin(): ?DateTime{
         return $this->periodeFin;
     }
 
     /**
      * Get the precompte.
      *
-     * @return float Returns the precompte.
+     * @return float|null Returns the precompte.
      */
-    public function getPrecompte() {
+    public function getPrecompte(): ?float{
         return $this->precompte;
     }
 
     /**
      * Get the salaire brut.
      *
-     * @return float Returns the salaire brut.
+     * @return float|null Returns the salaire brut.
      */
-    public function getSalaireBrut() {
+    public function getSalaireBrut(): ?float{
         return $this->salaireBrut;
     }
 
@@ -210,7 +211,7 @@ class SalairesAttestation {
      * @param DateTime|null $datePaie The date paie.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setDatePaie(DateTime $datePaie = null) {
+    public function setDatePaie(?DateTime $datePaie): SalairesAttestation {
         $this->datePaie = $datePaie;
         return $this;
     }
@@ -218,10 +219,10 @@ class SalairesAttestation {
     /**
      * Set the euro ou franc.
      *
-     * @param string $euroOuFranc The euro ou franc.
+     * @param string|null $euroOuFranc The euro ou franc.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setEuroOuFranc($euroOuFranc) {
+    public function setEuroOuFranc(?string $euroOuFranc): SalairesAttestation {
         $this->euroOuFranc = $euroOuFranc;
         return $this;
     }
@@ -229,10 +230,10 @@ class SalairesAttestation {
     /**
      * Set the heures trav.
      *
-     * @param float $heuresTrav The heures trav.
+     * @param float|null $heuresTrav The heures trav.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setHeuresTrav($heuresTrav) {
+    public function setHeuresTrav(?float $heuresTrav): SalairesAttestation {
         $this->heuresTrav = $heuresTrav;
         return $this;
     }
@@ -240,10 +241,10 @@ class SalairesAttestation {
     /**
      * Set the jours non payes.
      *
-     * @param float $joursNonPayes The jours non payes.
+     * @param float|null $joursNonPayes The jours non payes.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setJoursNonPayes($joursNonPayes) {
+    public function setJoursNonPayes(?float $joursNonPayes): SalairesAttestation {
         $this->joursNonPayes = $joursNonPayes;
         return $this;
     }
@@ -251,10 +252,10 @@ class SalairesAttestation {
     /**
      * Set the num ligne.
      *
-     * @param string $numLigne The num ligne.
+     * @param string|null $numLigne The num ligne.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setNumLigne($numLigne) {
+    public function setNumLigne(?string $numLigne): SalairesAttestation {
         $this->numLigne = $numLigne;
         return $this;
     }
@@ -262,10 +263,10 @@ class SalairesAttestation {
     /**
      * Set the numero attestation.
      *
-     * @param string $numeroAttestation The numero attestation.
+     * @param string|null $numeroAttestation The numero attestation.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setNumeroAttestation($numeroAttestation) {
+    public function setNumeroAttestation(?string $numeroAttestation): SalairesAttestation {
         $this->numeroAttestation = $numeroAttestation;
         return $this;
     }
@@ -273,10 +274,10 @@ class SalairesAttestation {
     /**
      * Set the observation.
      *
-     * @param string $observation The observation.
+     * @param string|null $observation The observation.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setObservation($observation) {
+    public function setObservation(?string $observation): SalairesAttestation {
         $this->observation = $observation;
         return $this;
     }
@@ -287,7 +288,7 @@ class SalairesAttestation {
      * @param DateTime|null $periodeDeb The periode deb.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setPeriodeDeb(DateTime $periodeDeb = null) {
+    public function setPeriodeDeb(?DateTime $periodeDeb): SalairesAttestation {
         $this->periodeDeb = $periodeDeb;
         return $this;
     }
@@ -298,7 +299,7 @@ class SalairesAttestation {
      * @param DateTime|null $periodeFin The periode fin.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setPeriodeFin(DateTime $periodeFin = null) {
+    public function setPeriodeFin(?DateTime $periodeFin): SalairesAttestation {
         $this->periodeFin = $periodeFin;
         return $this;
     }
@@ -306,10 +307,10 @@ class SalairesAttestation {
     /**
      * Set the precompte.
      *
-     * @param float $precompte The precompte.
+     * @param float|null $precompte The precompte.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setPrecompte($precompte) {
+    public function setPrecompte(?float $precompte): SalairesAttestation {
         $this->precompte = $precompte;
         return $this;
     }
@@ -317,10 +318,10 @@ class SalairesAttestation {
     /**
      * Set the salaire brut.
      *
-     * @param float $salaireBrut The salaire brut.
+     * @param float|null $salaireBrut The salaire brut.
      * @return SalairesAttestation Returns this Salaires attestation.
      */
-    public function setSalaireBrut($salaireBrut) {
+    public function setSalaireBrut(?float $salaireBrut): SalairesAttestation {
         $this->salaireBrut = $salaireBrut;
         return $this;
     }

@@ -22,129 +22,130 @@ class FiltreEntetes {
     /**
      * Code filtre.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFiltre;
 
     /**
      * Collaborateur.
      *
-     * @var string
+     * @var string|null
      */
     private $collaborateur;
 
     /**
      * Commercial facture.
      *
-     * @var bool
+     * @var bool|null
      */
     private $commercialFacture;
 
     /**
      * Fonctionnalite.
      *
-     * @var string
+     * @var string|null
      */
     private $fonctionnalite;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Type filtre.
      *
-     * @var string
+     * @var string|null
      */
     private $typeFiltre;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code filtre.
      *
-     * @return string Returns the code filtre.
+     * @return string|null Returns the code filtre.
      */
-    public function getCodeFiltre() {
+    public function getCodeFiltre(): ?string{
         return $this->codeFiltre;
     }
 
     /**
      * Get the collaborateur.
      *
-     * @return string Returns the collaborateur.
+     * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur() {
+    public function getCollaborateur(): ?string{
         return $this->collaborateur;
     }
 
     /**
      * Get the commercial facture.
      *
-     * @return bool Returns the commercial facture.
+     * @return bool|null Returns the commercial facture.
      */
-    public function getCommercialFacture() {
+    public function getCommercialFacture(): ?bool{
         return $this->commercialFacture;
     }
 
     /**
      * Get the fonctionnalite.
      *
-     * @return string Returns the fonctionnalite.
+     * @return string|null Returns the fonctionnalite.
      */
-    public function getFonctionnalite() {
+    public function getFonctionnalite(): ?string{
         return $this->fonctionnalite;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the type filtre.
      *
-     * @return string Returns the type filtre.
+     * @return string|null Returns the type filtre.
      */
-    public function getTypeFiltre() {
+    public function getTypeFiltre(): ?string{
         return $this->typeFiltre;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the code filtre.
      *
-     * @param string $codeFiltre The code filtre.
+     * @param string|null $codeFiltre The code filtre.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setCodeFiltre($codeFiltre) {
+    public function setCodeFiltre(?string $codeFiltre): FiltreEntetes {
         $this->codeFiltre = $codeFiltre;
         return $this;
     }
@@ -152,10 +153,10 @@ class FiltreEntetes {
     /**
      * Set the collaborateur.
      *
-     * @param string $collaborateur The collaborateur.
+     * @param string|null $collaborateur The collaborateur.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setCollaborateur($collaborateur) {
+    public function setCollaborateur(?string $collaborateur): FiltreEntetes {
         $this->collaborateur = $collaborateur;
         return $this;
     }
@@ -163,10 +164,10 @@ class FiltreEntetes {
     /**
      * Set the commercial facture.
      *
-     * @param bool $commercialFacture The commercial facture.
+     * @param bool|null $commercialFacture The commercial facture.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setCommercialFacture($commercialFacture) {
+    public function setCommercialFacture(?bool $commercialFacture): FiltreEntetes {
         $this->commercialFacture = $commercialFacture;
         return $this;
     }
@@ -174,10 +175,10 @@ class FiltreEntetes {
     /**
      * Set the fonctionnalite.
      *
-     * @param string $fonctionnalite The fonctionnalite.
+     * @param string|null $fonctionnalite The fonctionnalite.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setFonctionnalite($fonctionnalite) {
+    public function setFonctionnalite(?string $fonctionnalite): FiltreEntetes {
         $this->fonctionnalite = $fonctionnalite;
         return $this;
     }
@@ -185,10 +186,10 @@ class FiltreEntetes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): FiltreEntetes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -196,10 +197,10 @@ class FiltreEntetes {
     /**
      * Set the type filtre.
      *
-     * @param string $typeFiltre The type filtre.
+     * @param string|null $typeFiltre The type filtre.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setTypeFiltre($typeFiltre) {
+    public function setTypeFiltre(?string $typeFiltre): FiltreEntetes {
         $this->typeFiltre = $typeFiltre;
         return $this;
     }
@@ -207,10 +208,10 @@ class FiltreEntetes {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return FiltreEntetes Returns this Filtre entetes.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): FiltreEntetes {
         $this->uniqId = $uniqId;
         return $this;
     }

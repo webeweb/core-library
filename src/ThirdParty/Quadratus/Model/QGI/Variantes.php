@@ -22,35 +22,35 @@ class Variantes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code variante.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVariante;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Numero.
      *
-     * @var int
+     * @var int|null
      */
     private $numero;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
@@ -58,61 +58,61 @@ class Variantes {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string {
         return $this->code;
     }
 
     /**
      * Get the code variante.
      *
-     * @return string Returns the code variante.
+     * @return string|null Returns the code variante.
      */
-    public function getCodeVariante() {
+    public function getCodeVariante(): ?string {
         return $this->codeVariante;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the numero.
      *
-     * @return int Returns the numero.
+     * @return int|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string {
         return $this->type;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return Variantes Returns this Variantes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): Variantes {
         $this->code = $code;
         return $this;
     }
@@ -120,10 +120,10 @@ class Variantes {
     /**
      * Set the code variante.
      *
-     * @param string $codeVariante The code variante.
+     * @param string|null $codeVariante The code variante.
      * @return Variantes Returns this Variantes.
      */
-    public function setCodeVariante($codeVariante) {
+    public function setCodeVariante(?string $codeVariante): Variantes {
         $this->codeVariante = $codeVariante;
         return $this;
     }
@@ -131,10 +131,10 @@ class Variantes {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return Variantes Returns this Variantes.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): Variantes {
         $this->libelle = $libelle;
         return $this;
     }
@@ -142,10 +142,10 @@ class Variantes {
     /**
      * Set the numero.
      *
-     * @param int $numero The numero.
+     * @param int|null $numero The numero.
      * @return Variantes Returns this Variantes.
      */
-    public function setNumero($numero) {
+    public function setNumero(?int $numero): Variantes {
         $this->numero = $numero;
         return $this;
     }
@@ -153,10 +153,10 @@ class Variantes {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return Variantes Returns this Variantes.
      */
-    public function setType($type) {
+    public function setType(?string $type): Variantes {
         $this->type = $type;
         return $this;
     }

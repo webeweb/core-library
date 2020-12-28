@@ -22,209 +22,210 @@ class ProvisionsCp {
     /**
      * Centre.
      *
-     * @var string
+     * @var string|null
      */
     private $centre;
 
     /**
      * Col pour sal ref.
      *
-     * @var string
+     * @var string|null
      */
     private $colPourSalRef;
 
     /**
      * Dernier salaire.
      *
-     * @var float
+     * @var float|null
      */
     private $dernierSalaire;
 
     /**
      * Moyenne salaires.
      *
-     * @var float
+     * @var float|null
      */
     private $moyenneSalaires;
 
     /**
      * Nature.
      *
-     * @var string
+     * @var string|null
      */
     private $nature;
 
     /**
      * Nom complet emp.
      *
-     * @var string
+     * @var string|null
      */
     private $nomCompletEmp;
 
     /**
      * Numero emp.
      *
-     * @var string
+     * @var string|null
      */
     private $numeroEmp;
 
     /**
      * Provision totale.
      *
-     * @var float
+     * @var float|null
      */
     private $provisionTotale;
 
     /**
      * Salaire ref.
      *
-     * @var float
+     * @var float|null
      */
     private $salaireRef;
 
     /**
      * Solde jours n.
      *
-     * @var float
+     * @var float|null
      */
     private $soldeJoursN;
 
     /**
      * Solde jours n1.
      *
-     * @var float
+     * @var float|null
      */
     private $soldeJoursN1;
 
     /**
      * Tx charges soc.
      *
-     * @var float
+     * @var float|null
      */
     private $txChargesSoc;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the centre.
      *
-     * @return string Returns the centre.
+     * @return string|null Returns the centre.
      */
-    public function getCentre() {
+    public function getCentre(): ?string{
         return $this->centre;
     }
 
     /**
      * Get the col pour sal ref.
      *
-     * @return string Returns the col pour sal ref.
+     * @return string|null Returns the col pour sal ref.
      */
-    public function getColPourSalRef() {
+    public function getColPourSalRef(): ?string{
         return $this->colPourSalRef;
     }
 
     /**
      * Get the dernier salaire.
      *
-     * @return float Returns the dernier salaire.
+     * @return float|null Returns the dernier salaire.
      */
-    public function getDernierSalaire() {
+    public function getDernierSalaire(): ?float{
         return $this->dernierSalaire;
     }
 
     /**
      * Get the moyenne salaires.
      *
-     * @return float Returns the moyenne salaires.
+     * @return float|null Returns the moyenne salaires.
      */
-    public function getMoyenneSalaires() {
+    public function getMoyenneSalaires(): ?float{
         return $this->moyenneSalaires;
     }
 
     /**
      * Get the nature.
      *
-     * @return string Returns the nature.
+     * @return string|null Returns the nature.
      */
-    public function getNature() {
+    public function getNature(): ?string{
         return $this->nature;
     }
 
     /**
      * Get the nom complet emp.
      *
-     * @return string Returns the nom complet emp.
+     * @return string|null Returns the nom complet emp.
      */
-    public function getNomCompletEmp() {
+    public function getNomCompletEmp(): ?string{
         return $this->nomCompletEmp;
     }
 
     /**
      * Get the numero emp.
      *
-     * @return string Returns the numero emp.
+     * @return string|null Returns the numero emp.
      */
-    public function getNumeroEmp() {
+    public function getNumeroEmp(): ?string{
         return $this->numeroEmp;
     }
 
     /**
      * Get the provision totale.
      *
-     * @return float Returns the provision totale.
+     * @return float|null Returns the provision totale.
      */
-    public function getProvisionTotale() {
+    public function getProvisionTotale(): ?float{
         return $this->provisionTotale;
     }
 
     /**
      * Get the salaire ref.
      *
-     * @return float Returns the salaire ref.
+     * @return float|null Returns the salaire ref.
      */
-    public function getSalaireRef() {
+    public function getSalaireRef(): ?float{
         return $this->salaireRef;
     }
 
     /**
      * Get the solde jours n.
      *
-     * @return float Returns the solde jours n.
+     * @return float|null Returns the solde jours n.
      */
-    public function getSoldeJoursN() {
+    public function getSoldeJoursN(): ?float{
         return $this->soldeJoursN;
     }
 
     /**
      * Get the solde jours n1.
      *
-     * @return float Returns the solde jours n1.
+     * @return float|null Returns the solde jours n1.
      */
-    public function getSoldeJoursN1() {
+    public function getSoldeJoursN1(): ?float{
         return $this->soldeJoursN1;
     }
 
     /**
      * Get the tx charges soc.
      *
-     * @return float Returns the tx charges soc.
+     * @return float|null Returns the tx charges soc.
      */
-    public function getTxChargesSoc() {
+    public function getTxChargesSoc(): ?float{
         return $this->txChargesSoc;
     }
 
     /**
      * Set the centre.
      *
-     * @param string $centre The centre.
+     * @param string|null $centre The centre.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setCentre($centre) {
+    public function setCentre(?string $centre): ProvisionsCp {
         $this->centre = $centre;
         return $this;
     }
@@ -232,10 +233,10 @@ class ProvisionsCp {
     /**
      * Set the col pour sal ref.
      *
-     * @param string $colPourSalRef The col pour sal ref.
+     * @param string|null $colPourSalRef The col pour sal ref.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setColPourSalRef($colPourSalRef) {
+    public function setColPourSalRef(?string $colPourSalRef): ProvisionsCp {
         $this->colPourSalRef = $colPourSalRef;
         return $this;
     }
@@ -243,10 +244,10 @@ class ProvisionsCp {
     /**
      * Set the dernier salaire.
      *
-     * @param float $dernierSalaire The dernier salaire.
+     * @param float|null $dernierSalaire The dernier salaire.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setDernierSalaire($dernierSalaire) {
+    public function setDernierSalaire(?float $dernierSalaire): ProvisionsCp {
         $this->dernierSalaire = $dernierSalaire;
         return $this;
     }
@@ -254,10 +255,10 @@ class ProvisionsCp {
     /**
      * Set the moyenne salaires.
      *
-     * @param float $moyenneSalaires The moyenne salaires.
+     * @param float|null $moyenneSalaires The moyenne salaires.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setMoyenneSalaires($moyenneSalaires) {
+    public function setMoyenneSalaires(?float $moyenneSalaires): ProvisionsCp {
         $this->moyenneSalaires = $moyenneSalaires;
         return $this;
     }
@@ -265,10 +266,10 @@ class ProvisionsCp {
     /**
      * Set the nature.
      *
-     * @param string $nature The nature.
+     * @param string|null $nature The nature.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setNature($nature) {
+    public function setNature(?string $nature): ProvisionsCp {
         $this->nature = $nature;
         return $this;
     }
@@ -276,10 +277,10 @@ class ProvisionsCp {
     /**
      * Set the nom complet emp.
      *
-     * @param string $nomCompletEmp The nom complet emp.
+     * @param string|null $nomCompletEmp The nom complet emp.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setNomCompletEmp($nomCompletEmp) {
+    public function setNomCompletEmp(?string $nomCompletEmp): ProvisionsCp {
         $this->nomCompletEmp = $nomCompletEmp;
         return $this;
     }
@@ -287,10 +288,10 @@ class ProvisionsCp {
     /**
      * Set the numero emp.
      *
-     * @param string $numeroEmp The numero emp.
+     * @param string|null $numeroEmp The numero emp.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setNumeroEmp($numeroEmp) {
+    public function setNumeroEmp(?string $numeroEmp): ProvisionsCp {
         $this->numeroEmp = $numeroEmp;
         return $this;
     }
@@ -298,10 +299,10 @@ class ProvisionsCp {
     /**
      * Set the provision totale.
      *
-     * @param float $provisionTotale The provision totale.
+     * @param float|null $provisionTotale The provision totale.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setProvisionTotale($provisionTotale) {
+    public function setProvisionTotale(?float $provisionTotale): ProvisionsCp {
         $this->provisionTotale = $provisionTotale;
         return $this;
     }
@@ -309,10 +310,10 @@ class ProvisionsCp {
     /**
      * Set the salaire ref.
      *
-     * @param float $salaireRef The salaire ref.
+     * @param float|null $salaireRef The salaire ref.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setSalaireRef($salaireRef) {
+    public function setSalaireRef(?float $salaireRef): ProvisionsCp {
         $this->salaireRef = $salaireRef;
         return $this;
     }
@@ -320,10 +321,10 @@ class ProvisionsCp {
     /**
      * Set the solde jours n.
      *
-     * @param float $soldeJoursN The solde jours n.
+     * @param float|null $soldeJoursN The solde jours n.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setSoldeJoursN($soldeJoursN) {
+    public function setSoldeJoursN(?float $soldeJoursN): ProvisionsCp {
         $this->soldeJoursN = $soldeJoursN;
         return $this;
     }
@@ -331,10 +332,10 @@ class ProvisionsCp {
     /**
      * Set the solde jours n1.
      *
-     * @param float $soldeJoursN1 The solde jours n1.
+     * @param float|null $soldeJoursN1 The solde jours n1.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setSoldeJoursN1($soldeJoursN1) {
+    public function setSoldeJoursN1(?float $soldeJoursN1): ProvisionsCp {
         $this->soldeJoursN1 = $soldeJoursN1;
         return $this;
     }
@@ -342,10 +343,10 @@ class ProvisionsCp {
     /**
      * Set the tx charges soc.
      *
-     * @param float $txChargesSoc The tx charges soc.
+     * @param float|null $txChargesSoc The tx charges soc.
      * @return ProvisionsCp Returns this Provisions cp.
      */
-    public function setTxChargesSoc($txChargesSoc) {
+    public function setTxChargesSoc(?float $txChargesSoc): ProvisionsCp {
         $this->txChargesSoc = $txChargesSoc;
         return $this;
     }

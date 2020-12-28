@@ -28,7 +28,7 @@ class OcrProviderTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOcrProvider() {
+    public function testSetOcrProvider(): void {
 
         // Set an OCR provider mock.
         $ocrProvider = new OcrProvider($this->logger);
@@ -44,7 +44,7 @@ class OcrProviderTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TestOcrProviderTrait();
 

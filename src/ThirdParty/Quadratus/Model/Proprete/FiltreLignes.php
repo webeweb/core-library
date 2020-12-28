@@ -22,49 +22,50 @@ class FiltreLignes {
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Uniq id.
      *
-     * @var string
+     * @var string|null
      */
     private $uniqId;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the uniq id.
      *
-     * @return string Returns the uniq id.
+     * @return string|null Returns the uniq id.
      */
-    public function getUniqId() {
+    public function getUniqId(): ?string{
         return $this->uniqId;
     }
 
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return FiltreLignes Returns this Filtre lignes.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): FiltreLignes {
         $this->code = $code;
         return $this;
     }
@@ -72,10 +73,10 @@ class FiltreLignes {
     /**
      * Set the uniq id.
      *
-     * @param string $uniqId The uniq id.
+     * @param string|null $uniqId The uniq id.
      * @return FiltreLignes Returns this Filtre lignes.
      */
-    public function setUniqId($uniqId) {
+    public function setUniqId(?string $uniqId): FiltreLignes {
         $this->uniqId = $uniqId;
         return $this;
     }

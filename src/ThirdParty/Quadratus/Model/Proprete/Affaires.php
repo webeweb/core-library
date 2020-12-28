@@ -24,98 +24,98 @@ class Affaires {
     /**
      * Btq.
      *
-     * @var string
+     * @var string|null
      */
     private $btq;
 
     /**
      * Bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $bureauDistributeur;
 
     /**
      * Ca stat annuel.
      *
-     * @var float
+     * @var float|null
      */
     private $caStatAnnuel;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code analytique.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAnalytique;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code commercial.
      *
-     * @var string
+     * @var string|null
      */
     private $codeCommercial;
 
     /**
      * Code factor.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFactor;
 
     /**
      * Code pays.
      *
-     * @var string
+     * @var string|null
      */
     private $codePays;
 
     /**
      * Code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $codePostal;
 
     /**
      * Code reg marge.
      *
-     * @var string
+     * @var string|null
      */
     private $codeRegMarge;
 
     /**
      * Code tva.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTva;
 
     /**
      * Code ventil compta.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilCompta;
 
     /**
      * Complement.
      *
-     * @var string
+     * @var string|null
      */
     private $complement;
 
@@ -171,196 +171,197 @@ class Affaires {
     /**
      * Facture isolee.
      *
-     * @var bool
+     * @var bool|null
      */
     private $factureIsolee;
 
     /**
      * Groupe sous traite.
      *
-     * @var string
+     * @var string|null
      */
     private $groupeSousTraite;
 
     /**
      * Nom adresse.
      *
-     * @var string
+     * @var string|null
      */
     private $nomAdresse;
 
     /**
      * Nom affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $nomAffaire;
 
     /**
      * Nom suite.
      *
-     * @var string
+     * @var string|null
      */
     private $nomSuite;
 
     /**
      * Nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $nomVoie;
 
     /**
      * Num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $numVoie;
 
     /**
      * Reference facture.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceFacture;
 
     /**
      * Reference facture2.
      *
-     * @var string
+     * @var string|null
      */
     private $referenceFacture2;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the btq.
      *
-     * @return string Returns the btq.
+     * @return string|null Returns the btq.
      */
-    public function getBtq() {
+    public function getBtq(): ?string{
         return $this->btq;
     }
 
     /**
      * Get the bureau distributeur.
      *
-     * @return string Returns the bureau distributeur.
+     * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur() {
+    public function getBureauDistributeur(): ?string{
         return $this->bureauDistributeur;
     }
 
     /**
      * Get the ca stat annuel.
      *
-     * @return float Returns the ca stat annuel.
+     * @return float|null Returns the ca stat annuel.
      */
-    public function getCaStatAnnuel() {
+    public function getCaStatAnnuel(): ?float{
         return $this->caStatAnnuel;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code analytique.
      *
-     * @return string Returns the code analytique.
+     * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique() {
+    public function getCodeAnalytique(): ?string{
         return $this->codeAnalytique;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code commercial.
      *
-     * @return string Returns the code commercial.
+     * @return string|null Returns the code commercial.
      */
-    public function getCodeCommercial() {
+    public function getCodeCommercial(): ?string{
         return $this->codeCommercial;
     }
 
     /**
      * Get the code factor.
      *
-     * @return string Returns the code factor.
+     * @return string|null Returns the code factor.
      */
-    public function getCodeFactor() {
+    public function getCodeFactor(): ?string{
         return $this->codeFactor;
     }
 
     /**
      * Get the code pays.
      *
-     * @return string Returns the code pays.
+     * @return string|null Returns the code pays.
      */
-    public function getCodePays() {
+    public function getCodePays(): ?string{
         return $this->codePays;
     }
 
     /**
      * Get the code postal.
      *
-     * @return string Returns the code postal.
+     * @return string|null Returns the code postal.
      */
-    public function getCodePostal() {
+    public function getCodePostal(): ?string{
         return $this->codePostal;
     }
 
     /**
      * Get the code reg marge.
      *
-     * @return string Returns the code reg marge.
+     * @return string|null Returns the code reg marge.
      */
-    public function getCodeRegMarge() {
+    public function getCodeRegMarge(): ?string{
         return $this->codeRegMarge;
     }
 
     /**
      * Get the code tva.
      *
-     * @return string Returns the code tva.
+     * @return string|null Returns the code tva.
      */
-    public function getCodeTva() {
+    public function getCodeTva(): ?string{
         return $this->codeTva;
     }
 
     /**
      * Get the code ventil compta.
      *
-     * @return string Returns the code ventil compta.
+     * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta() {
+    public function getCodeVentilCompta(): ?string{
         return $this->codeVentilCompta;
     }
 
     /**
      * Get the complement.
      *
-     * @return string Returns the complement.
+     * @return string|null Returns the complement.
      */
-    public function getComplement() {
+    public function getComplement(): ?string{
         return $this->complement;
     }
 
@@ -369,7 +370,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat() {
+    public function getDateCreat(): ?DateTime{
         return $this->dateCreat;
     }
 
@@ -378,7 +379,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date deb affaire.
      */
-    public function getDateDebAffaire() {
+    public function getDateDebAffaire(): ?DateTime{
         return $this->dateDebAffaire;
     }
 
@@ -387,7 +388,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date deb affaire deb mois.
      */
-    public function getDateDebAffaireDebMois() {
+    public function getDateDebAffaireDebMois(): ?DateTime{
         return $this->dateDebAffaireDebMois;
     }
 
@@ -396,7 +397,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date fin affaire.
      */
-    public function getDateFinAffaire() {
+    public function getDateFinAffaire(): ?DateTime{
         return $this->dateFinAffaire;
     }
 
@@ -405,7 +406,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date fin affaire fin mois.
      */
-    public function getDateFinAffaireFinMois() {
+    public function getDateFinAffaireFinMois(): ?DateTime{
         return $this->dateFinAffaireFinMois;
     }
 
@@ -414,7 +415,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif() {
+    public function getDateModif(): ?DateTime{
         return $this->dateModif;
     }
 
@@ -423,98 +424,98 @@ class Affaires {
      *
      * @return DateTime|null Returns the date vente.
      */
-    public function getDateVente() {
+    public function getDateVente(): ?DateTime{
         return $this->dateVente;
     }
 
     /**
      * Get the facture isolee.
      *
-     * @return bool Returns the facture isolee.
+     * @return bool|null Returns the facture isolee.
      */
-    public function getFactureIsolee() {
+    public function getFactureIsolee(): ?bool{
         return $this->factureIsolee;
     }
 
     /**
      * Get the groupe sous traite.
      *
-     * @return string Returns the groupe sous traite.
+     * @return string|null Returns the groupe sous traite.
      */
-    public function getGroupeSousTraite() {
+    public function getGroupeSousTraite(): ?string{
         return $this->groupeSousTraite;
     }
 
     /**
      * Get the nom adresse.
      *
-     * @return string Returns the nom adresse.
+     * @return string|null Returns the nom adresse.
      */
-    public function getNomAdresse() {
+    public function getNomAdresse(): ?string{
         return $this->nomAdresse;
     }
 
     /**
      * Get the nom affaire.
      *
-     * @return string Returns the nom affaire.
+     * @return string|null Returns the nom affaire.
      */
-    public function getNomAffaire() {
+    public function getNomAffaire(): ?string{
         return $this->nomAffaire;
     }
 
     /**
      * Get the nom suite.
      *
-     * @return string Returns the nom suite.
+     * @return string|null Returns the nom suite.
      */
-    public function getNomSuite() {
+    public function getNomSuite(): ?string{
         return $this->nomSuite;
     }
 
     /**
      * Get the nom voie.
      *
-     * @return string Returns the nom voie.
+     * @return string|null Returns the nom voie.
      */
-    public function getNomVoie() {
+    public function getNomVoie(): ?string{
         return $this->nomVoie;
     }
 
     /**
      * Get the num voie.
      *
-     * @return string Returns the num voie.
+     * @return string|null Returns the num voie.
      */
-    public function getNumVoie() {
+    public function getNumVoie(): ?string{
         return $this->numVoie;
     }
 
     /**
      * Get the reference facture.
      *
-     * @return string Returns the reference facture.
+     * @return string|null Returns the reference facture.
      */
-    public function getReferenceFacture() {
+    public function getReferenceFacture(): ?string{
         return $this->referenceFacture;
     }
 
     /**
      * Get the reference facture2.
      *
-     * @return string Returns the reference facture2.
+     * @return string|null Returns the reference facture2.
      */
-    public function getReferenceFacture2() {
+    public function getReferenceFacture2(): ?string{
         return $this->referenceFacture2;
     }
 
     /**
      * Set the btq.
      *
-     * @param string $btq The btq.
+     * @param string|null $btq The btq.
      * @return Affaires Returns this Affaires.
      */
-    public function setBtq($btq) {
+    public function setBtq(?string $btq): Affaires {
         $this->btq = $btq;
         return $this;
     }
@@ -522,10 +523,10 @@ class Affaires {
     /**
      * Set the bureau distributeur.
      *
-     * @param string $bureauDistributeur The bureau distributeur.
+     * @param string|null $bureauDistributeur The bureau distributeur.
      * @return Affaires Returns this Affaires.
      */
-    public function setBureauDistributeur($bureauDistributeur) {
+    public function setBureauDistributeur(?string $bureauDistributeur): Affaires {
         $this->bureauDistributeur = $bureauDistributeur;
         return $this;
     }
@@ -533,10 +534,10 @@ class Affaires {
     /**
      * Set the ca stat annuel.
      *
-     * @param float $caStatAnnuel The ca stat annuel.
+     * @param float|null $caStatAnnuel The ca stat annuel.
      * @return Affaires Returns this Affaires.
      */
-    public function setCaStatAnnuel($caStatAnnuel) {
+    public function setCaStatAnnuel(?float $caStatAnnuel): Affaires {
         $this->caStatAnnuel = $caStatAnnuel;
         return $this;
     }
@@ -544,10 +545,10 @@ class Affaires {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): Affaires {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -555,10 +556,10 @@ class Affaires {
     /**
      * Set the code analytique.
      *
-     * @param string $codeAnalytique The code analytique.
+     * @param string|null $codeAnalytique The code analytique.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeAnalytique($codeAnalytique) {
+    public function setCodeAnalytique(?string $codeAnalytique): Affaires {
         $this->codeAnalytique = $codeAnalytique;
         return $this;
     }
@@ -566,10 +567,10 @@ class Affaires {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): Affaires {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -577,10 +578,10 @@ class Affaires {
     /**
      * Set the code commercial.
      *
-     * @param string $codeCommercial The code commercial.
+     * @param string|null $codeCommercial The code commercial.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeCommercial($codeCommercial) {
+    public function setCodeCommercial(?string $codeCommercial): Affaires {
         $this->codeCommercial = $codeCommercial;
         return $this;
     }
@@ -588,10 +589,10 @@ class Affaires {
     /**
      * Set the code factor.
      *
-     * @param string $codeFactor The code factor.
+     * @param string|null $codeFactor The code factor.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeFactor($codeFactor) {
+    public function setCodeFactor(?string $codeFactor): Affaires {
         $this->codeFactor = $codeFactor;
         return $this;
     }
@@ -599,10 +600,10 @@ class Affaires {
     /**
      * Set the code pays.
      *
-     * @param string $codePays The code pays.
+     * @param string|null $codePays The code pays.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodePays($codePays) {
+    public function setCodePays(?string $codePays): Affaires {
         $this->codePays = $codePays;
         return $this;
     }
@@ -610,10 +611,10 @@ class Affaires {
     /**
      * Set the code postal.
      *
-     * @param string $codePostal The code postal.
+     * @param string|null $codePostal The code postal.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodePostal($codePostal) {
+    public function setCodePostal(?string $codePostal): Affaires {
         $this->codePostal = $codePostal;
         return $this;
     }
@@ -621,10 +622,10 @@ class Affaires {
     /**
      * Set the code reg marge.
      *
-     * @param string $codeRegMarge The code reg marge.
+     * @param string|null $codeRegMarge The code reg marge.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeRegMarge($codeRegMarge) {
+    public function setCodeRegMarge(?string $codeRegMarge): Affaires {
         $this->codeRegMarge = $codeRegMarge;
         return $this;
     }
@@ -632,10 +633,10 @@ class Affaires {
     /**
      * Set the code tva.
      *
-     * @param string $codeTva The code tva.
+     * @param string|null $codeTva The code tva.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeTva($codeTva) {
+    public function setCodeTva(?string $codeTva): Affaires {
         $this->codeTva = $codeTva;
         return $this;
     }
@@ -643,10 +644,10 @@ class Affaires {
     /**
      * Set the code ventil compta.
      *
-     * @param string $codeVentilCompta The code ventil compta.
+     * @param string|null $codeVentilCompta The code ventil compta.
      * @return Affaires Returns this Affaires.
      */
-    public function setCodeVentilCompta($codeVentilCompta) {
+    public function setCodeVentilCompta(?string $codeVentilCompta): Affaires {
         $this->codeVentilCompta = $codeVentilCompta;
         return $this;
     }
@@ -654,10 +655,10 @@ class Affaires {
     /**
      * Set the complement.
      *
-     * @param string $complement The complement.
+     * @param string|null $complement The complement.
      * @return Affaires Returns this Affaires.
      */
-    public function setComplement($complement) {
+    public function setComplement(?string $complement): Affaires {
         $this->complement = $complement;
         return $this;
     }
@@ -668,7 +669,7 @@ class Affaires {
      * @param DateTime|null $dateCreat The date creat.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateCreat(DateTime $dateCreat = null) {
+    public function setDateCreat(?DateTime $dateCreat): Affaires {
         $this->dateCreat = $dateCreat;
         return $this;
     }
@@ -679,7 +680,7 @@ class Affaires {
      * @param DateTime|null $dateDebAffaire The date deb affaire.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateDebAffaire(DateTime $dateDebAffaire = null) {
+    public function setDateDebAffaire(?DateTime $dateDebAffaire): Affaires {
         $this->dateDebAffaire = $dateDebAffaire;
         return $this;
     }
@@ -690,7 +691,7 @@ class Affaires {
      * @param DateTime|null $dateDebAffaireDebMois The date deb affaire deb mois.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateDebAffaireDebMois(DateTime $dateDebAffaireDebMois = null) {
+    public function setDateDebAffaireDebMois(?DateTime $dateDebAffaireDebMois): Affaires {
         $this->dateDebAffaireDebMois = $dateDebAffaireDebMois;
         return $this;
     }
@@ -701,7 +702,7 @@ class Affaires {
      * @param DateTime|null $dateFinAffaire The date fin affaire.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateFinAffaire(DateTime $dateFinAffaire = null) {
+    public function setDateFinAffaire(?DateTime $dateFinAffaire): Affaires {
         $this->dateFinAffaire = $dateFinAffaire;
         return $this;
     }
@@ -712,7 +713,7 @@ class Affaires {
      * @param DateTime|null $dateFinAffaireFinMois The date fin affaire fin mois.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateFinAffaireFinMois(DateTime $dateFinAffaireFinMois = null) {
+    public function setDateFinAffaireFinMois(?DateTime $dateFinAffaireFinMois): Affaires {
         $this->dateFinAffaireFinMois = $dateFinAffaireFinMois;
         return $this;
     }
@@ -723,7 +724,7 @@ class Affaires {
      * @param DateTime|null $dateModif The date modif.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateModif(DateTime $dateModif = null) {
+    public function setDateModif(?DateTime $dateModif): Affaires {
         $this->dateModif = $dateModif;
         return $this;
     }
@@ -734,7 +735,7 @@ class Affaires {
      * @param DateTime|null $dateVente The date vente.
      * @return Affaires Returns this Affaires.
      */
-    public function setDateVente(DateTime $dateVente = null) {
+    public function setDateVente(?DateTime $dateVente): Affaires {
         $this->dateVente = $dateVente;
         return $this;
     }
@@ -742,10 +743,10 @@ class Affaires {
     /**
      * Set the facture isolee.
      *
-     * @param bool $factureIsolee The facture isolee.
+     * @param bool|null $factureIsolee The facture isolee.
      * @return Affaires Returns this Affaires.
      */
-    public function setFactureIsolee($factureIsolee) {
+    public function setFactureIsolee(?bool $factureIsolee): Affaires {
         $this->factureIsolee = $factureIsolee;
         return $this;
     }
@@ -753,10 +754,10 @@ class Affaires {
     /**
      * Set the groupe sous traite.
      *
-     * @param string $groupeSousTraite The groupe sous traite.
+     * @param string|null $groupeSousTraite The groupe sous traite.
      * @return Affaires Returns this Affaires.
      */
-    public function setGroupeSousTraite($groupeSousTraite) {
+    public function setGroupeSousTraite(?string $groupeSousTraite): Affaires {
         $this->groupeSousTraite = $groupeSousTraite;
         return $this;
     }
@@ -764,10 +765,10 @@ class Affaires {
     /**
      * Set the nom adresse.
      *
-     * @param string $nomAdresse The nom adresse.
+     * @param string|null $nomAdresse The nom adresse.
      * @return Affaires Returns this Affaires.
      */
-    public function setNomAdresse($nomAdresse) {
+    public function setNomAdresse(?string $nomAdresse): Affaires {
         $this->nomAdresse = $nomAdresse;
         return $this;
     }
@@ -775,10 +776,10 @@ class Affaires {
     /**
      * Set the nom affaire.
      *
-     * @param string $nomAffaire The nom affaire.
+     * @param string|null $nomAffaire The nom affaire.
      * @return Affaires Returns this Affaires.
      */
-    public function setNomAffaire($nomAffaire) {
+    public function setNomAffaire(?string $nomAffaire): Affaires {
         $this->nomAffaire = $nomAffaire;
         return $this;
     }
@@ -786,10 +787,10 @@ class Affaires {
     /**
      * Set the nom suite.
      *
-     * @param string $nomSuite The nom suite.
+     * @param string|null $nomSuite The nom suite.
      * @return Affaires Returns this Affaires.
      */
-    public function setNomSuite($nomSuite) {
+    public function setNomSuite(?string $nomSuite): Affaires {
         $this->nomSuite = $nomSuite;
         return $this;
     }
@@ -797,10 +798,10 @@ class Affaires {
     /**
      * Set the nom voie.
      *
-     * @param string $nomVoie The nom voie.
+     * @param string|null $nomVoie The nom voie.
      * @return Affaires Returns this Affaires.
      */
-    public function setNomVoie($nomVoie) {
+    public function setNomVoie(?string $nomVoie): Affaires {
         $this->nomVoie = $nomVoie;
         return $this;
     }
@@ -808,10 +809,10 @@ class Affaires {
     /**
      * Set the num voie.
      *
-     * @param string $numVoie The num voie.
+     * @param string|null $numVoie The num voie.
      * @return Affaires Returns this Affaires.
      */
-    public function setNumVoie($numVoie) {
+    public function setNumVoie(?string $numVoie): Affaires {
         $this->numVoie = $numVoie;
         return $this;
     }
@@ -819,10 +820,10 @@ class Affaires {
     /**
      * Set the reference facture.
      *
-     * @param string $referenceFacture The reference facture.
+     * @param string|null $referenceFacture The reference facture.
      * @return Affaires Returns this Affaires.
      */
-    public function setReferenceFacture($referenceFacture) {
+    public function setReferenceFacture(?string $referenceFacture): Affaires {
         $this->referenceFacture = $referenceFacture;
         return $this;
     }
@@ -830,10 +831,10 @@ class Affaires {
     /**
      * Set the reference facture2.
      *
-     * @param string $referenceFacture2 The reference facture2.
+     * @param string|null $referenceFacture2 The reference facture2.
      * @return Affaires Returns this Affaires.
      */
-    public function setReferenceFacture2($referenceFacture2) {
+    public function setReferenceFacture2(?string $referenceFacture2): Affaires {
         $this->referenceFacture2 = $referenceFacture2;
         return $this;
     }

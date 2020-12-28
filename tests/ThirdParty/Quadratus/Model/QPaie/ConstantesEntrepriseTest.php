@@ -29,7 +29,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAbsenceExtra() {
+    public function testSetAbsenceExtra(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -42,7 +42,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetActiverPointageQws() {
+    public function testSetActiverPointageQws(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -55,7 +55,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdhesionTdsNorme() {
+    public function testSetAdhesionTdsNorme(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -68,7 +68,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAffaire() {
+    public function testSetAffaire(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -81,7 +81,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAffectationTaux27() {
+    public function testSetAffectationTaux27(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -94,7 +94,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAnalytiqueEmploye() {
+    public function testSetAnalytiqueEmploye(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -107,7 +107,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArbitrageAuto() {
+    public function testSetArbitrageAuto(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -120,7 +120,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArchivageActif() {
+    public function testSetArchivageActif(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -133,7 +133,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAttestAuto() {
+    public function testSetAttestAuto(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -146,7 +146,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBeneficieCice() {
+    public function testSetBeneficieCice(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -159,7 +159,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBrutAlSalMinConv() {
+    public function testSetBrutAlSalMinConv(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -172,7 +172,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCalculAutoHTheorique() {
+    public function testSetCalculAutoHTheorique(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -185,7 +185,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCertifAuto() {
+    public function testSetCertifAuto(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -198,7 +198,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChequesEuro() {
+    public function testSetChequesEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -211,7 +211,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetChoixEditionChequeTc() {
+    public function testSetChoixEditionChequeTc(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -224,7 +224,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCicePjMailCliDucsEdi() {
+    public function testSetCicePjMailCliDucsEdi(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -237,7 +237,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCleAcces1() {
+    public function testSetCleAcces1(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -250,7 +250,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetClePortable() {
+    public function testSetClePortable(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -263,7 +263,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrgBtpdadsu() {
+    public function testSetCodeOrgBtpdadsu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -276,7 +276,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCollaborateuriPaie() {
+    public function testSetCollaborateuriPaie(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -289,7 +289,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompression() {
+    public function testSetCompression(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -302,7 +302,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteGainEuro() {
+    public function testSetCompteGainEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -315,7 +315,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetComptePerteEuro() {
+    public function testSetComptePerteEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -328,7 +328,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptaElitEuros() {
+    public function testSetCptaElitEuros(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -341,7 +341,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCtrlAutoCp() {
+    public function testSetCtrlAutoCp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -354,7 +354,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCtrlAutoCpAnticip() {
+    public function testSetCtrlAutoCpAnticip(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -367,7 +367,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCtrlTauxBase() {
+    public function testSetCtrlTauxBase(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -380,7 +380,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDadsDernierChoixGestionAen() {
+    public function testSetDadsDernierChoixGestionAen(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -393,7 +393,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDadsTypeGestionAen() {
+    public function testSetDadsTypeGestionAen(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -406,7 +406,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDadsuNumAgrAnsp() {
+    public function testSetDadsuNumAgrAnsp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -419,7 +419,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDadsuRefDec() {
+    public function testSetDadsuRefDec(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -432,7 +432,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDasTypeDecl() {
+    public function testSetDasTypeDecl(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -445,7 +445,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDasTypeDeclDetail() {
+    public function testSetDasTypeDeclDetail(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -459,7 +459,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateDp() {
+    public function testSetDateDp(): void {
 
         // Set a Date/time mock.
         $dateDp = new DateTime("2018-09-10");
@@ -476,7 +476,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriodeDas() {
+    public function testSetDebutPeriodeDas(): void {
 
         // Set a Date/time mock.
         $debutPeriodeDas = new DateTime("2018-09-10");
@@ -493,7 +493,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDebutPeriodeHistoDas() {
+    public function testSetDebutPeriodeHistoDas(): void {
 
         // Set a Date/time mock.
         $debutPeriodeHistoDas = new DateTime("2018-09-10");
@@ -509,7 +509,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeductionHSupFillon() {
+    public function testSetDeductionHSupFillon(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -522,7 +522,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDeduireHSupNonStructurelle() {
+    public function testSetDeduireHSupNonStructurelle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -535,7 +535,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernierIndiceBul() {
+    public function testSetDernierIndiceBul(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -548,7 +548,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDestPointIrc() {
+    public function testSetDestPointIrc(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -561,7 +561,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDestTriPoint() {
+    public function testSetDestTriPoint(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -574,7 +574,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossierProprete() {
+    public function testSetDossierProprete(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -587,7 +587,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDossierSurWeb() {
+    public function testSetDossierSurWeb(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -600,7 +600,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDsCodeCollab() {
+    public function testSetDsCodeCollab(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -614,7 +614,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDsDateRetour() {
+    public function testSetDsDateRetour(): void {
 
         // Set a Date/time mock.
         $dsDateRetour = new DateTime("2018-09-10");
@@ -631,7 +631,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDsDateSortie() {
+    public function testSetDsDateSortie(): void {
 
         // Set a Date/time mock.
         $dsDateSortie = new DateTime("2018-09-10");
@@ -647,7 +647,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDsFusion() {
+    public function testSetDsFusion(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -660,7 +660,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDsTypeEdition() {
+    public function testSetDsTypeEdition(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -674,7 +674,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebutPeriode() {
+    public function testSetDtDebutPeriode(): void {
 
         // Set a Date/time mock.
         $dtDebutPeriode = new DateTime("2018-09-10");
@@ -691,7 +691,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPeriode() {
+    public function testSetDtFinPeriode(): void {
 
         // Set a Date/time mock.
         $dtFinPeriode = new DateTime("2018-09-10");
@@ -707,7 +707,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDucsFrancEuro() {
+    public function testSetDucsFrancEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -720,7 +720,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEcrType() {
+    public function testSetEcrType(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -733,7 +733,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBordChoixModele() {
+    public function testSetEdBordChoixModele(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -746,7 +746,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBordRuptureEmp() {
+    public function testSetEdBordRuptureEmp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -759,7 +759,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBordTypeImp() {
+    public function testSetEdBordTypeImp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -772,7 +772,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBordereau() {
+    public function testSetEdBordereau(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -785,7 +785,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBordereauPrep() {
+    public function testSetEdBordereauPrep(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -798,7 +798,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBordereauPrepa() {
+    public function testSetEdBordereauPrepa(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -811,7 +811,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBulLastFax() {
+    public function testSetEdBulLastFax(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -824,7 +824,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBulLastMail() {
+    public function testSetEdBulLastMail(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -837,7 +837,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdBulTypeSortie() {
+    public function testSetEdBulTypeSortie(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -850,7 +850,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdCorrespondance() {
+    public function testSetEdCorrespondance(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -863,7 +863,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdDucsAuto() {
+    public function testSetEdDucsAuto(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -876,7 +876,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdDucsNbEx() {
+    public function testSetEdDucsNbEx(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -889,7 +889,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdDucsOptBtp() {
+    public function testSetEdDucsOptBtp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -902,7 +902,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdDucsTypeSortie() {
+    public function testSetEdDucsTypeSortie(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -915,7 +915,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdHSupBonifQueMajo() {
+    public function testSetEdHSupBonifQueMajo(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -928,7 +928,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdHistoTriEmp() {
+    public function testSetEdHistoTriEmp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -941,7 +941,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdHistoTriEtablissement() {
+    public function testSetEdHistoTriEtablissement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -954,7 +954,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdHistoTriService() {
+    public function testSetEdHistoTriService(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -967,7 +967,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdHistoType() {
+    public function testSetEdHistoType(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -980,7 +980,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdImputComptable() {
+    public function testSetEdImputComptable(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -993,7 +993,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdTexte1() {
+    public function testSetEdTexte1(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1006,7 +1006,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdTexte2() {
+    public function testSetEdTexte2(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1019,7 +1019,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdTrtCptaLastFax() {
+    public function testSetEdTrtCptaLastFax(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1032,7 +1032,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdTrtCptaLastMail() {
+    public function testSetEdTrtCptaLastMail(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1045,7 +1045,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEdTrtCptaSortie() {
+    public function testSetEdTrtCptaSortie(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1058,7 +1058,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditQpxlAbsences() {
+    public function testSetEditQpxlAbsences(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1071,7 +1071,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditQpxlAcomptes() {
+    public function testSetEditQpxlAcomptes(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1084,7 +1084,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditQpxlTriEmp() {
+    public function testSetEditQpxlTriEmp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1097,7 +1097,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditQpxlViderLib() {
+    public function testSetEditQpxlViderLib(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1110,7 +1110,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditerBulletinStc() {
+    public function testSetEditerBulletinStc(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1123,7 +1123,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionChequeTc() {
+    public function testSetEditionChequeTc(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1136,7 +1136,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionDate() {
+    public function testSetEditionDate(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1149,7 +1149,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEditionHeure() {
+    public function testSetEditionHeure(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1162,7 +1162,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEmail() {
+    public function testSetEmail(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1175,7 +1175,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnteteSoldeTc() {
+    public function testSetEnteteSoldeTc(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1188,7 +1188,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatControleDadsu() {
+    public function testSetEtatControleDadsu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1201,7 +1201,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatCtrlNorme() {
+    public function testSetEtatCtrlNorme(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1214,7 +1214,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatDas() {
+    public function testSetEtatDas(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1227,7 +1227,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtatDasRect() {
+    public function testSetEtatDasRect(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1240,7 +1240,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFichierUnique() {
+    public function testSetFichierUnique(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1253,7 +1253,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFiltrerListeEmp() {
+    public function testSetFiltrerListeEmp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1267,7 +1267,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriodeDas() {
+    public function testSetFinPeriodeDas(): void {
 
         // Set a Date/time mock.
         $finPeriodeDas = new DateTime("2018-09-10");
@@ -1284,7 +1284,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFinPeriodeHistoDas() {
+    public function testSetFinPeriodeHistoDas(): void {
 
         // Set a Date/time mock.
         $finPeriodeHistoDas = new DateTime("2018-09-10");
@@ -1300,7 +1300,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTraite() {
+    public function testSetFlagTraite(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1313,7 +1313,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTraite2() {
+    public function testSetFlagTraite2(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1326,7 +1326,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFlagTraite3() {
+    public function testSetFlagTraite3(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1339,7 +1339,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFormatFicVirement() {
+    public function testSetFormatFicVirement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1352,7 +1352,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestNumBulletin() {
+    public function testSetGestNumBulletin(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1365,7 +1365,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestRepoCompens() {
+    public function testSetGestRepoCompens(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1378,7 +1378,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestTexte() {
+    public function testSetGestTexte(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1391,7 +1391,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionCoeff() {
+    public function testSetGestionCoeff(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1404,7 +1404,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionCoeffGrille() {
+    public function testSetGestionCoeffGrille(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1417,7 +1417,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionExemplaire() {
+    public function testSetGestionExemplaire(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1430,7 +1430,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionIntemperie() {
+    public function testSetGestionIntemperie(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1443,7 +1443,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionNumeroEmployeAuto() {
+    public function testSetGestionNumeroEmployeAuto(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1456,7 +1456,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionQpxl() {
+    public function testSetGestionQpxl(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1469,7 +1469,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionTdBilaterale() {
+    public function testSetGestionTdBilaterale(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1482,7 +1482,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGestionTdSouDadsu() {
+    public function testSetGestionTdSouDadsu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1495,7 +1495,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGroupeGi() {
+    public function testSetGroupeGi(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1508,7 +1508,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHBonifInfluCassation() {
+    public function testSetHBonifInfluCassation(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1521,7 +1521,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSup1Structurelle() {
+    public function testSetHSup1Structurelle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1534,7 +1534,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSup2Structurelle() {
+    public function testSetHSup2Structurelle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1547,7 +1547,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSup3Structurelle() {
+    public function testSetHSup3Structurelle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1560,7 +1560,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSup4Structurelle() {
+    public function testSetHSup4Structurelle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1573,7 +1573,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHSup5Structurelle() {
+    public function testSetHSup5Structurelle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1586,7 +1586,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureSup2InfluCassation() {
+    public function testSetHeureSup2InfluCassation(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1599,7 +1599,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureSup3InfluCassation() {
+    public function testSetHeureSup3InfluCassation(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1612,7 +1612,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureSup4InfluCassation() {
+    public function testSetHeureSup4InfluCassation(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1625,7 +1625,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureSup5InfluCassation() {
+    public function testSetHeureSup5InfluCassation(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1638,7 +1638,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureSupInfluCassation() {
+    public function testSetHeureSupInfluCassation(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1651,7 +1651,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetHeureTheoBaseTrav() {
+    public function testSetHeureTheoBaseTrav(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1664,7 +1664,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemCpIntervientBrutAl() {
+    public function testSetIndemCpIntervientBrutAl(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1677,7 +1677,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourDebutTransfert() {
+    public function testSetJourDebutTransfert(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1690,7 +1690,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourFinTransfert() {
+    public function testSetJourFinTransfert(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1703,7 +1703,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnFormat() {
+    public function testSetJrnFormat(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1716,7 +1716,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnRegroupeAbs() {
+    public function testSetJrnRegroupeAbs(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1729,7 +1729,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnTri() {
+    public function testSetJrnTri(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1742,7 +1742,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnTriEtablissement() {
+    public function testSetJrnTriEtablissement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1755,7 +1755,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnTriService() {
+    public function testSetJrnTriService(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1768,7 +1768,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJrnType() {
+    public function testSetJrnType(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1781,7 +1781,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLiaisonProprete() {
+    public function testSetLiaisonProprete(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1794,7 +1794,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibArbitrage() {
+    public function testSetLibArbitrage(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1807,7 +1807,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibBaseConge() {
+    public function testSetLibBaseConge(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1820,7 +1820,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibBqcp() {
+    public function testSetLibBqcp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1833,7 +1833,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCachetAem() {
+    public function testSetLibCachetAem(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1846,7 +1846,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibCotisCne() {
+    public function testSetLibCotisCne(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1859,7 +1859,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibFinContrat() {
+    public function testSetLibFinContrat(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1872,7 +1872,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibFinContratCne() {
+    public function testSetLibFinContratCne(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1885,7 +1885,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibIndemCp() {
+    public function testSetLibIndemCp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1898,7 +1898,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelleLibreVirement() {
+    public function testSetLibelleLibreVirement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1911,7 +1911,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLigneBulEuro() {
+    public function testSetLigneBulEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1924,7 +1924,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLignesTransport() {
+    public function testSetLignesTransport(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1937,7 +1937,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMailBulletin() {
+    public function testSetMailBulletin(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1950,7 +1950,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMailBulletinCle() {
+    public function testSetMailBulletinCle(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1963,7 +1963,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMailBulletinPj() {
+    public function testSetMailBulletinPj(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1976,7 +1976,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMailCLiDucsEdi() {
+    public function testSetMailCLiDucsEdi(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -1989,7 +1989,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMentionCp() {
+    public function testSetMentionCp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2002,7 +2002,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMessageVu() {
+    public function testSetMessageVu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2015,7 +2015,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMillesime1() {
+    public function testSetMillesime1(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2028,7 +2028,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModePlanning() {
+    public function testSetModePlanning(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2041,7 +2041,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeleApercu() {
+    public function testSetModeleApercu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2054,7 +2054,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeleBonBleu() {
+    public function testSetModeleBonBleu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2067,7 +2067,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeleBulletin() {
+    public function testSetModeleBulletin(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2080,7 +2080,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeleCertif() {
+    public function testSetModeleCertif(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2093,7 +2093,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeleCertifTrav() {
+    public function testSetModeleCertifTrav(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2106,7 +2106,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetModeleCheque() {
+    public function testSetModeleCheque(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2119,7 +2119,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoisClotureAn() {
+    public function testSetMoisClotureAn(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2132,7 +2132,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestAem() {
+    public function testSetNAttestAem(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2145,7 +2145,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestAemedi() {
+    public function testSetNAttestAemedi(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2158,7 +2158,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestAemx() {
+    public function testSetNAttestAemx(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2171,7 +2171,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestAssedic() {
+    public function testSetNAttestAssedic(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2184,7 +2184,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestExtras() {
+    public function testSetNAttestExtras(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2197,7 +2197,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestIjss() {
+    public function testSetNAttestIjss(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2210,7 +2210,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNAttestIjssAt() {
+    public function testSetNAttestIjssAt(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2223,7 +2223,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNDerDocument() {
+    public function testSetNDerDocument(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2236,7 +2236,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNapEuro() {
+    public function testSetNapEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2249,7 +2249,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbExemplaire() {
+    public function testSetNbExemplaire(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2262,7 +2262,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNceCongesSpectacles() {
+    public function testSetNceCongesSpectacles(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2275,7 +2275,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNouvParamRetraiteType() {
+    public function testSetNouvParamRetraiteType(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2288,7 +2288,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOptionsCalcAbs() {
+    public function testSetOptionsCalcAbs(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2301,7 +2301,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrdreLibelleHSup() {
+    public function testSetOrdreLibelleHSup(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2314,7 +2314,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPaieEuro() {
+    public function testSetPaieEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2327,7 +2327,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPartSalSeule() {
+    public function testSetPartSalSeule(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2340,7 +2340,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasGestionIndiceBul() {
+    public function testSetPasGestionIndiceBul(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2353,7 +2353,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasPrendreIccpFillon() {
+    public function testSetPasPrendreIccpFillon(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2366,7 +2366,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPasSousTotSBase() {
+    public function testSetPasSousTotSBase(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2379,7 +2379,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPassage35HFait() {
+    public function testSetPassage35HFait(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2392,7 +2392,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPathVirement() {
+    public function testSetPathVirement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2406,7 +2406,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeIPaie() {
+    public function testSetPeriodeIPaie(): void {
 
         // Set a Date/time mock.
         $periodeIPaie = new DateTime("2018-09-10");
@@ -2423,7 +2423,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodePaie() {
+    public function testSetPeriodePaie(): void {
 
         // Set a Date/time mock.
         $periodePaie = new DateTime("2018-09-10");
@@ -2439,7 +2439,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPjMailCLiDucsEdi() {
+    public function testSetPjMailCLiDucsEdi(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2452,7 +2452,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPjMailCliCouponPaiement() {
+    public function testSetPjMailCliCouponPaiement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2465,7 +2465,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafond() {
+    public function testSetPlafond(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2478,7 +2478,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortaFraisSanteCertifTrav() {
+    public function testSetPortaFraisSanteCertifTrav(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2491,7 +2491,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPortaPrevoyanceOblig() {
+    public function testSetPortaPrevoyanceOblig(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2504,7 +2504,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPreparationTdp() {
+    public function testSetPreparationTdp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2517,7 +2517,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPresenceMin() {
+    public function testSetPresenceMin(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2530,7 +2530,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetProrataDifCertifTrav() {
+    public function testSetProrataDifCertifTrav(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2543,7 +2543,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRazCommentaire() {
+    public function testSetRazCommentaire(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2556,7 +2556,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRazHSup() {
+    public function testSetRazHSup(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2569,7 +2569,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdlpascii() {
+    public function testSetRdlpascii(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2582,7 +2582,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRdlpemployes() {
+    public function testSetRdlpemployes(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2595,7 +2595,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefRemise() {
+    public function testSetRefRemise(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2608,7 +2608,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefTrans() {
+    public function testSetRefTrans(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2621,7 +2621,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReferenceInterneVirement() {
+    public function testSetReferenceInterneVirement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2634,7 +2634,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRegroupLibEdBul() {
+    public function testSetRegroupLibEdBul(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2647,7 +2647,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetReportMinimum() {
+    public function testSetReportMinimum(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2660,7 +2660,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRetraite97() {
+    public function testSetRetraite97(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2673,7 +2673,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisPlanEmpSem() {
+    public function testSetSaisPlanEmpSem(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2686,7 +2686,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSaisieIndiceBul() {
+    public function testSetSaisieIndiceBul(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2699,7 +2699,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSautPage() {
+    public function testSetSautPage(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2712,7 +2712,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSeuil() {
+    public function testSetSeuil(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2725,7 +2725,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSeuilConting() {
+    public function testSetSeuilConting(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2738,7 +2738,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStcAuto() {
+    public function testSetStcAuto(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2751,7 +2751,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTabBordTriEtablissement() {
+    public function testSetTabBordTriEtablissement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2764,7 +2764,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTabBordTriService() {
+    public function testSetTabBordTriService(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2777,7 +2777,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTableauCharge() {
+    public function testSetTableauCharge(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2790,7 +2790,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsAnnee() {
+    public function testSetTdsAnnee(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2803,7 +2803,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTdsEuro() {
+    public function testSetTdsEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2816,7 +2816,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotGeneIsole() {
+    public function testSetTotGeneIsole(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2829,7 +2829,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotServiceIsole() {
+    public function testSetTotServiceIsole(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2842,7 +2842,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTotalEtabIsole() {
+    public function testSetTotalEtabIsole(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2855,7 +2855,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransRupture() {
+    public function testSetTransRupture(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2868,7 +2868,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransTriEtablissement() {
+    public function testSetTransTriEtablissement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2881,7 +2881,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTransfertTdsEmp() {
+    public function testSetTransfertTdsEmp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2894,7 +2894,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTriEmploye() {
+    public function testSetTriEmploye(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2907,7 +2907,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxSalDecote() {
+    public function testSetTxSalDecote(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2920,7 +2920,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbsSansSolde() {
+    public function testSetTypeAbsSansSolde(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2933,7 +2933,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAgrementAem() {
+    public function testSetTypeAgrementAem(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2946,7 +2946,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBordereauPrepa() {
+    public function testSetTypeBordereauPrepa(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2959,7 +2959,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeBulletin() {
+    public function testSetTypeBulletin(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2972,7 +2972,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDossier() {
+    public function testSetTypeDossier(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2985,7 +2985,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeDue() {
+    public function testSetTypeDue(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -2998,7 +2998,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeEffectif() {
+    public function testSetTypeEffectif(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3011,7 +3011,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeFichBilat() {
+    public function testSetTypeFichBilat(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3024,7 +3024,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeGestionBal() {
+    public function testSetTypeGestionBal(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3037,7 +3037,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeModele() {
+    public function testSetTypeModele(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3050,7 +3050,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypePrepDadsu() {
+    public function testSetTypePrepDadsu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3063,7 +3063,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieAbs() {
+    public function testSetTypeSaisieAbs(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3076,7 +3076,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeSaisieAbsence() {
+    public function testSetTypeSaisieAbsence(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3089,7 +3089,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeStc() {
+    public function testSetTypeStc(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3102,7 +3102,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTauxIntemperie() {
+    public function testSetTypeTauxIntemperie(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3115,7 +3115,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeTri() {
+    public function testSetTypeTri(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3128,7 +3128,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVirement() {
+    public function testSetTypeVirement(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3141,7 +3141,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeVisuColSaisieBul() {
+    public function testSetTypeVisuColSaisieBul(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3154,7 +3154,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUtilisePdpQuadra() {
+    public function testSetUtilisePdpQuadra(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3167,7 +3167,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetUtilisePdpQuadra2() {
+    public function testSetUtilisePdpQuadra2(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3180,7 +3180,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValCpBulletin() {
+    public function testSetValCpBulletin(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3193,7 +3193,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetValFiltreListeEmp() {
+    public function testSetValFiltreListeEmp(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3206,7 +3206,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVersionControleDadsu() {
+    public function testSetVersionControleDadsu(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3219,7 +3219,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirCodeEtab() {
+    public function testSetVirCodeEtab(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3232,7 +3232,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirCollectivite() {
+    public function testSetVirCollectivite(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3245,7 +3245,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirComptableCentre() {
+    public function testSetVirComptableCentre(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3258,7 +3258,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirComptableSub() {
+    public function testSetVirComptableSub(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3271,7 +3271,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirFonctionPublique() {
+    public function testSetVirFonctionPublique(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3284,7 +3284,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirSeuil() {
+    public function testSetVirSeuil(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3297,7 +3297,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirTypeEtab() {
+    public function testSetVirTypeEtab(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3310,7 +3310,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirementCrLf() {
+    public function testSetVirementCrLf(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3323,7 +3323,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVirementsEuro() {
+    public function testSetVirementsEuro(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3336,7 +3336,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetWebPrioritaire() {
+    public function testSetWebPrioritaire(): void {
 
         $obj = new ConstantesEntreprise();
 
@@ -3349,7 +3349,7 @@ class ConstantesEntrepriseTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ConstantesEntreprise();
 

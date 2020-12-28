@@ -27,7 +27,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode() {
+    public function testSetCode(): void {
 
         $obj = new Produits();
 
@@ -40,7 +40,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCompteur() {
+    public function testSetCompteur(): void {
 
         $obj = new Produits();
 
@@ -53,7 +53,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCptMaj() {
+    public function testSetCptMaj(): void {
 
         $obj = new Produits();
 
@@ -66,7 +66,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernierNumero() {
+    public function testSetDernierNumero(): void {
 
         $obj = new Produits();
 
@@ -79,7 +79,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFichierLicence() {
+    public function testSetFichierLicence(): void {
 
         $obj = new Produits();
 
@@ -92,7 +92,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGammeWindows() {
+    public function testSetGammeWindows(): void {
 
         $obj = new Produits();
 
@@ -105,7 +105,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIntitule() {
+    public function testSetIntitule(): void {
 
         $obj = new Produits();
 
@@ -118,7 +118,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLettreLicence() {
+    public function testSetLettreLicence(): void {
 
         $obj = new Produits();
 
@@ -131,7 +131,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNom() {
+    public function testSetNom(): void {
 
         $obj = new Produits();
 
@@ -144,7 +144,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomProdLicence() {
+    public function testSetNomProdLicence(): void {
 
         $obj = new Produits();
 
@@ -157,7 +157,7 @@ class ProduitsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new Produits();
 

@@ -29,7 +29,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAdresseEmploye() {
+    public function testSetAdresseEmploye(): void {
 
         $obj = new AttestationCacm();
 
@@ -42,7 +42,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutreContrat() {
+    public function testSetAutreContrat(): void {
 
         $obj = new AttestationCacm();
 
@@ -55,7 +55,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutreStatut() {
+    public function testSetAutreStatut(): void {
 
         $obj = new AttestationCacm();
 
@@ -68,7 +68,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new AttestationCacm();
 
@@ -81,7 +81,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeMotifRupture() {
+    public function testSetCodeMotifRupture(): void {
 
         $obj = new AttestationCacm();
 
@@ -94,7 +94,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodePostal() {
+    public function testSetCodePostal(): void {
 
         $obj = new AttestationCacm();
 
@@ -108,7 +108,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNaissance() {
+    public function testSetDateNaissance(): void {
 
         // Set a Date/time mock.
         $dateNaissance = new DateTime("2018-09-10");
@@ -125,7 +125,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateNotification() {
+    public function testSetDateNotification(): void {
 
         // Set a Date/time mock.
         $dateNotification = new DateTime("2018-09-10");
@@ -142,7 +142,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDatePaiement() {
+    public function testSetDatePaiement(): void {
 
         // Set a Date/time mock.
         $datePaiement = new DateTime("2018-09-10");
@@ -158,7 +158,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernLieuTravail() {
+    public function testSetDernLieuTravail(): void {
 
         $obj = new AttestationCacm();
 
@@ -171,7 +171,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDernierEmploi() {
+    public function testSetDernierEmploi(): void {
 
         $obj = new AttestationCacm();
 
@@ -185,7 +185,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebPreavisEffectue() {
+    public function testSetDtDebPreavisEffectue(): void {
 
         // Set a Date/time mock.
         $dtDebPreavisEffectue = new DateTime("2018-09-10");
@@ -202,7 +202,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebPreavisNonEffectue() {
+    public function testSetDtDebPreavisNonEffectue(): void {
 
         // Set a Date/time mock.
         $dtDebPreavisNonEffectue = new DateTime("2018-09-10");
@@ -219,7 +219,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDebutEmploi() {
+    public function testSetDtDebutEmploi(): void {
 
         // Set a Date/time mock.
         $dtDebutEmploi = new DateTime("2018-09-10");
@@ -236,7 +236,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtDernJourTrav() {
+    public function testSetDtDernJourTrav(): void {
 
         // Set a Date/time mock.
         $dtDernJourTrav = new DateTime("2018-09-10");
@@ -253,7 +253,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinEmploi() {
+    public function testSetDtFinEmploi(): void {
 
         // Set a Date/time mock.
         $dtFinEmploi = new DateTime("2018-09-10");
@@ -270,7 +270,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPreavisEffectue() {
+    public function testSetDtFinPreavisEffectue(): void {
 
         // Set a Date/time mock.
         $dtFinPreavisEffectue = new DateTime("2018-09-10");
@@ -287,7 +287,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDtFinPreavisNonEffectue() {
+    public function testSetDtFinPreavisNonEffectue(): void {
 
         // Set a Date/time mock.
         $dtFinPreavisNonEffectue = new DateTime("2018-09-10");
@@ -303,7 +303,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblAdr() {
+    public function testSetEtblAdr(): void {
 
         $obj = new AttestationCacm();
 
@@ -316,7 +316,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblCacm() {
+    public function testSetEtblCacm(): void {
 
         $obj = new AttestationCacm();
 
@@ -329,7 +329,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblEffectif() {
+    public function testSetEtblEffectif(): void {
 
         $obj = new AttestationCacm();
 
@@ -342,7 +342,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblFax() {
+    public function testSetEtblFax(): void {
 
         $obj = new AttestationCacm();
 
@@ -355,7 +355,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblMail() {
+    public function testSetEtblMail(): void {
 
         $obj = new AttestationCacm();
 
@@ -368,7 +368,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblNaf() {
+    public function testSetEtblNaf(): void {
 
         $obj = new AttestationCacm();
 
@@ -381,7 +381,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblSiret() {
+    public function testSetEtblSiret(): void {
 
         $obj = new AttestationCacm();
 
@@ -394,7 +394,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEtblTel() {
+    public function testSetEtblTel(): void {
 
         $obj = new AttestationCacm();
 
@@ -407,7 +407,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnAutre() {
+    public function testSetIndemnAutre(): void {
 
         $obj = new AttestationCacm();
 
@@ -420,7 +420,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnLegale() {
+    public function testSetIndemnLegale(): void {
 
         $obj = new AttestationCacm();
 
@@ -433,7 +433,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnLic() {
+    public function testSetIndemnLic(): void {
 
         $obj = new AttestationCacm();
 
@@ -446,7 +446,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndemnSupp() {
+    public function testSetIndemnSupp(): void {
 
         $obj = new AttestationCacm();
 
@@ -459,7 +459,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienDocument() {
+    public function testSetLienDocument(): void {
 
         $obj = new AttestationCacm();
 
@@ -472,7 +472,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLienParente() {
+    public function testSetLienParente(): void {
 
         $obj = new AttestationCacm();
 
@@ -485,7 +485,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifPreavisNonPaye() {
+    public function testSetMotifPreavisNonPaye(): void {
 
         $obj = new AttestationCacm();
 
@@ -498,7 +498,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotifRupture() {
+    public function testSetMotifRupture(): void {
 
         $obj = new AttestationCacm();
 
@@ -511,7 +511,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtIndemnAutre() {
+    public function testSetMtIndemnAutre(): void {
 
         $obj = new AttestationCacm();
 
@@ -524,7 +524,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtIndemnLegale() {
+    public function testSetMtIndemnLegale(): void {
 
         $obj = new AttestationCacm();
 
@@ -537,7 +537,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtIndemnLic() {
+    public function testSetMtIndemnLic(): void {
 
         $obj = new AttestationCacm();
 
@@ -550,7 +550,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtIndemnSupp() {
+    public function testSetMtIndemnSupp(): void {
 
         $obj = new AttestationCacm();
 
@@ -563,7 +563,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMtSalaireBrut() {
+    public function testSetMtSalaireBrut(): void {
 
         $obj = new AttestationCacm();
 
@@ -576,7 +576,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbHeureMens() {
+    public function testSetNbHeureMens(): void {
 
         $obj = new AttestationCacm();
 
@@ -589,7 +589,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNiveauQualif() {
+    public function testSetNiveauQualif(): void {
 
         $obj = new AttestationCacm();
 
@@ -602,7 +602,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoCacm() {
+    public function testSetNoCacm(): void {
 
         $obj = new AttestationCacm();
 
@@ -615,7 +615,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoCssm() {
+    public function testSetNoCssm(): void {
 
         $obj = new AttestationCacm();
 
@@ -628,7 +628,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomMarital() {
+    public function testSetNomMarital(): void {
 
         $obj = new AttestationCacm();
 
@@ -641,7 +641,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNomNaissance() {
+    public function testSetNomNaissance(): void {
 
         $obj = new AttestationCacm();
 
@@ -654,7 +654,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new AttestationCacm();
 
@@ -667,7 +667,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new AttestationCacm();
 
@@ -680,7 +680,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetOrganismeCacm() {
+    public function testSetOrganismeCacm(): void {
 
         $obj = new AttestationCacm();
 
@@ -694,7 +694,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEmploiDeb() {
+    public function testSetPeriodeEmploiDeb(): void {
 
         // Set a Date/time mock.
         $periodeEmploiDeb = new DateTime("2018-09-10");
@@ -711,7 +711,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEmploiFin() {
+    public function testSetPeriodeEmploiFin(): void {
 
         // Set a Date/time mock.
         $periodeEmploiFin = new DateTime("2018-09-10");
@@ -727,7 +727,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPreavisNonEffectuePaye() {
+    public function testSetPreavisNonEffectuePaye(): void {
 
         $obj = new AttestationCacm();
 
@@ -740,7 +740,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrenom() {
+    public function testSetPrenom(): void {
 
         $obj = new AttestationCacm();
 
@@ -753,7 +753,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignAutre() {
+    public function testSetSignAutre(): void {
 
         $obj = new AttestationCacm();
 
@@ -767,7 +767,7 @@ class AttestationCacmTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSignDate() {
+    public function testSetSignDate(): void {
 
         // Set a Date/time mock.
         $signDate = new DateTime("2018-09-10");
@@ -783,7 +783,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignFormJuridique() {
+    public function testSetSignFormJuridique(): void {
 
         $obj = new AttestationCacm();
 
@@ -796,7 +796,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignMotifRupture() {
+    public function testSetSignMotifRupture(): void {
 
         $obj = new AttestationCacm();
 
@@ -809,7 +809,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignNom() {
+    public function testSetSignNom(): void {
 
         $obj = new AttestationCacm();
 
@@ -822,7 +822,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignPrenom() {
+    public function testSetSignPrenom(): void {
 
         $obj = new AttestationCacm();
 
@@ -835,7 +835,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignQualite() {
+    public function testSetSignQualite(): void {
 
         $obj = new AttestationCacm();
 
@@ -848,7 +848,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSignRaisonSociale() {
+    public function testSetSignRaisonSociale(): void {
 
         $obj = new AttestationCacm();
 
@@ -861,7 +861,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStatutCadre() {
+    public function testSetStatutCadre(): void {
 
         $obj = new AttestationCacm();
 
@@ -874,7 +874,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStatutJuridique() {
+    public function testSetStatutJuridique(): void {
 
         $obj = new AttestationCacm();
 
@@ -887,7 +887,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetStatutParticulier() {
+    public function testSetStatutParticulier(): void {
 
         $obj = new AttestationCacm();
 
@@ -900,7 +900,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitre() {
+    public function testSetTitre(): void {
 
         $obj = new AttestationCacm();
 
@@ -913,7 +913,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTitreLienParente() {
+    public function testSetTitreLienParente(): void {
 
         $obj = new AttestationCacm();
 
@@ -926,7 +926,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeContrat() {
+    public function testSetTypeContrat(): void {
 
         $obj = new AttestationCacm();
 
@@ -939,7 +939,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeHoraire() {
+    public function testSetTypeHoraire(): void {
 
         $obj = new AttestationCacm();
 
@@ -952,7 +952,7 @@ class AttestationCacmTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AttestationCacm();
 

@@ -29,7 +29,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetArrondi() {
+    public function testSetArrondi(): void {
 
         $obj = new BudgetEntetes();
 
@@ -42,7 +42,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeBudget() {
+    public function testSetCodeBudget(): void {
 
         $obj = new BudgetEntetes();
 
@@ -55,7 +55,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new BudgetEntetes();
 
@@ -68,7 +68,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumColRef() {
+    public function testSetNumColRef(): void {
 
         $obj = new BudgetEntetes();
 
@@ -82,7 +82,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDebut() {
+    public function testSetPeriodeDebut(): void {
 
         // Set a Date/time mock.
         $periodeDebut = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRefImage() {
+    public function testSetRefImage(): void {
 
         $obj = new BudgetEntetes();
 
@@ -128,7 +128,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeColRef() {
+    public function testSetTypeColRef(): void {
 
         $obj = new BudgetEntetes();
 
@@ -141,7 +141,7 @@ class BudgetEntetesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BudgetEntetes();
 

@@ -22,25 +22,25 @@ trait StringCommentTrait {
     /**
      * Comment.
      *
-     * @var string
+     * @var string|null
      */
     protected $comment;
 
     /**
      * Get the comment.
      *
-     * @return string Returns the comment.
+     * @return string|null Returns the comment.
      */
-    public function getComment() {
+    public function getComment(): ?string {
         return $this->comment;
     }
 
     /**
      * Set the comment.
      *
-     * @param string $comment The comment.
+     * @param string|null $comment The comment.
      */
-    public function setComment($comment) {
+    public function setComment(?string $comment) {
         $this->comment = $comment;
         return $this;
     }

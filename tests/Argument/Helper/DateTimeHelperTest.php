@@ -32,7 +32,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testCompare() {
+    public function testCompare(): void {
 
         $this->assertEquals(-1, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:01")));
         $this->assertEquals(0, DateTimeHelper::compare(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:00")));
@@ -44,7 +44,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testCompareWithInvalidArgumentException() {
+    public function testCompareWithInvalidArgumentException(): void {
 
         try {
 
@@ -62,7 +62,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testEquals() {
+    public function testEquals(): void {
 
         $this->assertTrue(DateTimeHelper::equals(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:00")));
         $this->assertFalse(DateTimeHelper::equals(new DateTime("2018-08-06 15:20:00"), new DateTime("2018-08-06 15:20:01")));
@@ -75,7 +75,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetDayNumber() {
+    public function testGetDayNumber(): void {
 
         $this->assertEquals(1, DateTimeHelper::getDayNumber(new DateTime("2018-05-21")));
         $this->assertEquals(2, DateTimeHelper::getDayNumber(new DateTime("2018-05-22")));
@@ -92,7 +92,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetDuration() {
+    public function testGetDuration(): void {
 
         $this->assertEquals(-3600, DateTimeHelper::getDuration(new DateTime("2018-08-20 16:00:00"), new DateTime("2018-08-20 15:00:00")));
         $this->assertEquals(3600, DateTimeHelper::getDuration(new DateTime("2018-08-20 15:00:00"), new DateTime("2018-08-20 16:00:00")));
@@ -104,7 +104,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetGreater() {
+    public function testGetGreater(): void {
 
         $dt = new DateTime("2018-08-22");
 
@@ -119,7 +119,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetMonthNumber() {
+    public function testGetMonthNumber(): void {
 
         $this->assertEquals(1, DateTimeHelper::getMonthNumber(new DateTime("2018-01-01")));
         $this->assertEquals(2, DateTimeHelper::getMonthNumber(new DateTime("2018-02-01")));
@@ -141,7 +141,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetSmaller() {
+    public function testGetSmaller(): void {
 
         $dt = new DateTime("2018-08-22");
 
@@ -156,7 +156,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetWeekNumber() {
+    public function testGetWeekNumber(): void {
 
         $this->assertEquals(1, DateTimeHelper::getWeekNumber(new DateTime("2018-01-01")));
         $this->assertEquals(52, DateTimeHelper::getWeekNumber(new DateTime("2018-12-30")));
@@ -175,7 +175,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetWeekNumberToApply() {
+    public function testGetWeekNumberToApply(): void {
 
         // Test with bad week arguments.
         $this->assertEquals(-1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 0, 1));
@@ -250,7 +250,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testGetYearNumber() {
+    public function testGetYearNumber(): void {
 
         $this->assertEquals(1900, DateTimeHelper::getYearNumber(new DateTime("1900-05-21")));
         $this->assertEquals(1970, DateTimeHelper::getYearNumber(new DateTime("1970-05-22")));
@@ -264,7 +264,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testIsBetween() {
+    public function testIsBetween(): void {
 
         $this->assertTrue(DateTimeHelper::isBetween(new DateTime("2018-08-22 10:00"), new DateTime("2018-08-22 08:00"), new DateTime("2018-08-22 12:00")));
         $this->assertFalse(DateTimeHelper::isBetween(new DateTime("2018-08-22 08:00"), new DateTime("2018-08-22 10:00"), new DateTime("2018-08-22 12:00")));
@@ -276,7 +276,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testIsGreaterThan() {
+    public function testIsGreaterThan(): void {
 
         $this->assertTrue(DateTimeHelper::isGreaterThan(new DateTime("2018-08-22"), new DateTime("2018-08-21")));
         $this->assertFalse(DateTimeHelper::isGreaterThan(new DateTime("2018-08-22"), new DateTime("2018-08-23")));
@@ -288,7 +288,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testIsLessThan() {
+    public function testIsLessThan(): void {
 
         $this->assertTrue(DateTimeHelper::isLessThan(new DateTime("2018-08-22"), new DateTime("2018-08-23")));
         $this->assertFalse(DateTimeHelper::isLessThan(new DateTime("2018-08-22"), new DateTime("2018-08-21")));
@@ -300,7 +300,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testTranslateWeekday() {
+    public function testTranslateWeekday(): void {
 
         $arg = [];
         for ($i = 0; $i < 7; ++$i) {

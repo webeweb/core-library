@@ -24,21 +24,21 @@ class PrepaPaieHSup {
     /**
      * Code employe.
      *
-     * @var string
+     * @var string|null
      */
     private $codeEmploye;
 
     /**
      * Nb h sup.
      *
-     * @var float
+     * @var float|null
      */
     private $nbHSup;
 
     /**
      * Num sem.
      *
-     * @var string
+     * @var string|null
      */
     private $numSem;
 
@@ -52,41 +52,42 @@ class PrepaPaieHSup {
     /**
      * Pourcent h sup.
      *
-     * @var float
+     * @var float|null
      */
     private $pourcentHSup;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code employe.
      *
-     * @return string Returns the code employe.
+     * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye() {
+    public function getCodeEmploye(): ?string{
         return $this->codeEmploye;
     }
 
     /**
      * Get the nb h sup.
      *
-     * @return float Returns the nb h sup.
+     * @return float|null Returns the nb h sup.
      */
-    public function getNbHSup() {
+    public function getNbHSup(): ?float{
         return $this->nbHSup;
     }
 
     /**
      * Get the num sem.
      *
-     * @return string Returns the num sem.
+     * @return string|null Returns the num sem.
      */
-    public function getNumSem() {
+    public function getNumSem(): ?string{
         return $this->numSem;
     }
 
@@ -95,26 +96,26 @@ class PrepaPaieHSup {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the pourcent h sup.
      *
-     * @return float Returns the pourcent h sup.
+     * @return float|null Returns the pourcent h sup.
      */
-    public function getPourcentHSup() {
+    public function getPourcentHSup(): ?float{
         return $this->pourcentHSup;
     }
 
     /**
      * Set the code employe.
      *
-     * @param string $codeEmploye The code employe.
+     * @param string|null $codeEmploye The code employe.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setCodeEmploye($codeEmploye) {
+    public function setCodeEmploye(?string $codeEmploye): PrepaPaieHSup {
         $this->codeEmploye = $codeEmploye;
         return $this;
     }
@@ -122,10 +123,10 @@ class PrepaPaieHSup {
     /**
      * Set the nb h sup.
      *
-     * @param float $nbHSup The nb h sup.
+     * @param float|null $nbHSup The nb h sup.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setNbHSup($nbHSup) {
+    public function setNbHSup(?float $nbHSup): PrepaPaieHSup {
         $this->nbHSup = $nbHSup;
         return $this;
     }
@@ -133,10 +134,10 @@ class PrepaPaieHSup {
     /**
      * Set the num sem.
      *
-     * @param string $numSem The num sem.
+     * @param string|null $numSem The num sem.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setNumSem($numSem) {
+    public function setNumSem(?string $numSem): PrepaPaieHSup {
         $this->numSem = $numSem;
         return $this;
     }
@@ -147,7 +148,7 @@ class PrepaPaieHSup {
      * @param DateTime|null $periode The periode.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): PrepaPaieHSup {
         $this->periode = $periode;
         return $this;
     }
@@ -155,10 +156,10 @@ class PrepaPaieHSup {
     /**
      * Set the pourcent h sup.
      *
-     * @param float $pourcentHSup The pourcent h sup.
+     * @param float|null $pourcentHSup The pourcent h sup.
      * @return PrepaPaieHSup Returns this Prepa paie h sup.
      */
-    public function setPourcentHSup($pourcentHSup) {
+    public function setPourcentHSup(?float $pourcentHSup): PrepaPaieHSup {
         $this->pourcentHSup = $pourcentHSup;
         return $this;
     }

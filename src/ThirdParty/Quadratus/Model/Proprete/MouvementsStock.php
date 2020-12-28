@@ -24,77 +24,77 @@ class MouvementsStock {
     /**
      * Bon sortie.
      *
-     * @var string
+     * @var string|null
      */
     private $bonSortie;
 
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeArticle;
 
     /**
      * Code chantier.
      *
-     * @var string
+     * @var string|null
      */
     private $codeChantier;
 
     /**
      * Code client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeClient;
 
     /**
      * Code depot.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDepot;
 
     /**
      * Code devise.
      *
-     * @var string
+     * @var string|null
      */
     private $codeDevise;
 
     /**
      * Code fournisseur.
      *
-     * @var string
+     * @var string|null
      */
     private $codeFournisseur;
 
     /**
      * Code tache.
      *
-     * @var string
+     * @var string|null
      */
     private $codeTache;
 
     /**
      * Code variante.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVariante;
 
     /**
      * Commentaire.
      *
-     * @var string
+     * @var string|null
      */
     private $commentaire;
 
@@ -108,197 +108,198 @@ class MouvementsStock {
     /**
      * Euro.
      *
-     * @var bool
+     * @var bool|null
      */
     private $euro;
 
     /**
      * Index.
      *
-     * @var int
+     * @var int|null
      */
     private $index;
 
     /**
      * Mouvement genere.
      *
-     * @var bool
+     * @var bool|null
      */
     private $mouvementGenere;
 
     /**
      * Poste rent.
      *
-     * @var string
+     * @var string|null
      */
     private $posteRent;
 
     /**
      * Prix u.
      *
-     * @var float
+     * @var float|null
      */
     private $prixU;
 
     /**
      * Quantite.
      *
-     * @var float
+     * @var float|null
      */
     private $quantite;
 
     /**
      * Quantite voulue.
      *
-     * @var float
+     * @var float|null
      */
     private $quantiteVoulue;
 
     /**
      * Remise ligne1.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseLigne1;
 
     /**
      * Remise ligne2.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseLigne2;
 
     /**
      * Remise ligne3.
      *
-     * @var float
+     * @var float|null
      */
     private $remiseLigne3;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
 
     /**
      * Type gestion.
      *
-     * @var string
+     * @var string|null
      */
     private $typeGestion;
 
     /**
      * Type ligne.
      *
-     * @var string
+     * @var string|null
      */
     private $typeLigne;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the bon sortie.
      *
-     * @return string Returns the bon sortie.
+     * @return string|null Returns the bon sortie.
      */
-    public function getBonSortie() {
+    public function getBonSortie(): ?string{
         return $this->bonSortie;
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code article.
      *
-     * @return string Returns the code article.
+     * @return string|null Returns the code article.
      */
-    public function getCodeArticle() {
+    public function getCodeArticle(): ?string{
         return $this->codeArticle;
     }
 
     /**
      * Get the code chantier.
      *
-     * @return string Returns the code chantier.
+     * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier() {
+    public function getCodeChantier(): ?string{
         return $this->codeChantier;
     }
 
     /**
      * Get the code client.
      *
-     * @return string Returns the code client.
+     * @return string|null Returns the code client.
      */
-    public function getCodeClient() {
+    public function getCodeClient(): ?string{
         return $this->codeClient;
     }
 
     /**
      * Get the code depot.
      *
-     * @return string Returns the code depot.
+     * @return string|null Returns the code depot.
      */
-    public function getCodeDepot() {
+    public function getCodeDepot(): ?string{
         return $this->codeDepot;
     }
 
     /**
      * Get the code devise.
      *
-     * @return string Returns the code devise.
+     * @return string|null Returns the code devise.
      */
-    public function getCodeDevise() {
+    public function getCodeDevise(): ?string{
         return $this->codeDevise;
     }
 
     /**
      * Get the code fournisseur.
      *
-     * @return string Returns the code fournisseur.
+     * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur() {
+    public function getCodeFournisseur(): ?string{
         return $this->codeFournisseur;
     }
 
     /**
      * Get the code tache.
      *
-     * @return string Returns the code tache.
+     * @return string|null Returns the code tache.
      */
-    public function getCodeTache() {
+    public function getCodeTache(): ?string{
         return $this->codeTache;
     }
 
     /**
      * Get the code variante.
      *
-     * @return string Returns the code variante.
+     * @return string|null Returns the code variante.
      */
-    public function getCodeVariante() {
+    public function getCodeVariante(): ?string{
         return $this->codeVariante;
     }
 
     /**
      * Get the commentaire.
      *
-     * @return string Returns the commentaire.
+     * @return string|null Returns the commentaire.
      */
-    public function getCommentaire() {
+    public function getCommentaire(): ?string{
         return $this->commentaire;
     }
 
@@ -307,134 +308,134 @@ class MouvementsStock {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate() {
+    public function getDate(): ?DateTime{
         return $this->date;
     }
 
     /**
      * Get the euro.
      *
-     * @return bool Returns the euro.
+     * @return bool|null Returns the euro.
      */
-    public function getEuro() {
+    public function getEuro(): ?bool{
         return $this->euro;
     }
 
     /**
      * Get the index.
      *
-     * @return int Returns the index.
+     * @return int|null Returns the index.
      */
-    public function getIndex() {
+    public function getIndex(): ?int{
         return $this->index;
     }
 
     /**
      * Get the mouvement genere.
      *
-     * @return bool Returns the mouvement genere.
+     * @return bool|null Returns the mouvement genere.
      */
-    public function getMouvementGenere() {
+    public function getMouvementGenere(): ?bool{
         return $this->mouvementGenere;
     }
 
     /**
      * Get the poste rent.
      *
-     * @return string Returns the poste rent.
+     * @return string|null Returns the poste rent.
      */
-    public function getPosteRent() {
+    public function getPosteRent(): ?string{
         return $this->posteRent;
     }
 
     /**
      * Get the prix u.
      *
-     * @return float Returns the prix u.
+     * @return float|null Returns the prix u.
      */
-    public function getPrixU() {
+    public function getPrixU(): ?float{
         return $this->prixU;
     }
 
     /**
      * Get the quantite.
      *
-     * @return float Returns the quantite.
+     * @return float|null Returns the quantite.
      */
-    public function getQuantite() {
+    public function getQuantite(): ?float{
         return $this->quantite;
     }
 
     /**
      * Get the quantite voulue.
      *
-     * @return float Returns the quantite voulue.
+     * @return float|null Returns the quantite voulue.
      */
-    public function getQuantiteVoulue() {
+    public function getQuantiteVoulue(): ?float{
         return $this->quantiteVoulue;
     }
 
     /**
      * Get the remise ligne1.
      *
-     * @return float Returns the remise ligne1.
+     * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1() {
+    public function getRemiseLigne1(): ?float{
         return $this->remiseLigne1;
     }
 
     /**
      * Get the remise ligne2.
      *
-     * @return float Returns the remise ligne2.
+     * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2() {
+    public function getRemiseLigne2(): ?float{
         return $this->remiseLigne2;
     }
 
     /**
      * Get the remise ligne3.
      *
-     * @return float Returns the remise ligne3.
+     * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3() {
+    public function getRemiseLigne3(): ?float{
         return $this->remiseLigne3;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Get the type gestion.
      *
-     * @return string Returns the type gestion.
+     * @return string|null Returns the type gestion.
      */
-    public function getTypeGestion() {
+    public function getTypeGestion(): ?string{
         return $this->typeGestion;
     }
 
     /**
      * Get the type ligne.
      *
-     * @return string Returns the type ligne.
+     * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne() {
+    public function getTypeLigne(): ?string{
         return $this->typeLigne;
     }
 
     /**
      * Set the bon sortie.
      *
-     * @param string $bonSortie The bon sortie.
+     * @param string|null $bonSortie The bon sortie.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setBonSortie($bonSortie) {
+    public function setBonSortie(?string $bonSortie): MouvementsStock {
         $this->bonSortie = $bonSortie;
         return $this;
     }
@@ -442,10 +443,10 @@ class MouvementsStock {
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): MouvementsStock {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -453,10 +454,10 @@ class MouvementsStock {
     /**
      * Set the code article.
      *
-     * @param string $codeArticle The code article.
+     * @param string|null $codeArticle The code article.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeArticle($codeArticle) {
+    public function setCodeArticle(?string $codeArticle): MouvementsStock {
         $this->codeArticle = $codeArticle;
         return $this;
     }
@@ -464,10 +465,10 @@ class MouvementsStock {
     /**
      * Set the code chantier.
      *
-     * @param string $codeChantier The code chantier.
+     * @param string|null $codeChantier The code chantier.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeChantier($codeChantier) {
+    public function setCodeChantier(?string $codeChantier): MouvementsStock {
         $this->codeChantier = $codeChantier;
         return $this;
     }
@@ -475,10 +476,10 @@ class MouvementsStock {
     /**
      * Set the code client.
      *
-     * @param string $codeClient The code client.
+     * @param string|null $codeClient The code client.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeClient($codeClient) {
+    public function setCodeClient(?string $codeClient): MouvementsStock {
         $this->codeClient = $codeClient;
         return $this;
     }
@@ -486,10 +487,10 @@ class MouvementsStock {
     /**
      * Set the code depot.
      *
-     * @param string $codeDepot The code depot.
+     * @param string|null $codeDepot The code depot.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeDepot($codeDepot) {
+    public function setCodeDepot(?string $codeDepot): MouvementsStock {
         $this->codeDepot = $codeDepot;
         return $this;
     }
@@ -497,10 +498,10 @@ class MouvementsStock {
     /**
      * Set the code devise.
      *
-     * @param string $codeDevise The code devise.
+     * @param string|null $codeDevise The code devise.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeDevise($codeDevise) {
+    public function setCodeDevise(?string $codeDevise): MouvementsStock {
         $this->codeDevise = $codeDevise;
         return $this;
     }
@@ -508,10 +509,10 @@ class MouvementsStock {
     /**
      * Set the code fournisseur.
      *
-     * @param string $codeFournisseur The code fournisseur.
+     * @param string|null $codeFournisseur The code fournisseur.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeFournisseur($codeFournisseur) {
+    public function setCodeFournisseur(?string $codeFournisseur): MouvementsStock {
         $this->codeFournisseur = $codeFournisseur;
         return $this;
     }
@@ -519,10 +520,10 @@ class MouvementsStock {
     /**
      * Set the code tache.
      *
-     * @param string $codeTache The code tache.
+     * @param string|null $codeTache The code tache.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeTache($codeTache) {
+    public function setCodeTache(?string $codeTache): MouvementsStock {
         $this->codeTache = $codeTache;
         return $this;
     }
@@ -530,10 +531,10 @@ class MouvementsStock {
     /**
      * Set the code variante.
      *
-     * @param string $codeVariante The code variante.
+     * @param string|null $codeVariante The code variante.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCodeVariante($codeVariante) {
+    public function setCodeVariante(?string $codeVariante): MouvementsStock {
         $this->codeVariante = $codeVariante;
         return $this;
     }
@@ -541,10 +542,10 @@ class MouvementsStock {
     /**
      * Set the commentaire.
      *
-     * @param string $commentaire The commentaire.
+     * @param string|null $commentaire The commentaire.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setCommentaire($commentaire) {
+    public function setCommentaire(?string $commentaire): MouvementsStock {
         $this->commentaire = $commentaire;
         return $this;
     }
@@ -555,7 +556,7 @@ class MouvementsStock {
      * @param DateTime|null $date The date.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setDate(DateTime $date = null) {
+    public function setDate(?DateTime $date): MouvementsStock {
         $this->date = $date;
         return $this;
     }
@@ -563,10 +564,10 @@ class MouvementsStock {
     /**
      * Set the euro.
      *
-     * @param bool $euro The euro.
+     * @param bool|null $euro The euro.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setEuro($euro) {
+    public function setEuro(?bool $euro): MouvementsStock {
         $this->euro = $euro;
         return $this;
     }
@@ -574,10 +575,10 @@ class MouvementsStock {
     /**
      * Set the index.
      *
-     * @param int $index The index.
+     * @param int|null $index The index.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setIndex($index) {
+    public function setIndex(?int $index): MouvementsStock {
         $this->index = $index;
         return $this;
     }
@@ -585,10 +586,10 @@ class MouvementsStock {
     /**
      * Set the mouvement genere.
      *
-     * @param bool $mouvementGenere The mouvement genere.
+     * @param bool|null $mouvementGenere The mouvement genere.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setMouvementGenere($mouvementGenere) {
+    public function setMouvementGenere(?bool $mouvementGenere): MouvementsStock {
         $this->mouvementGenere = $mouvementGenere;
         return $this;
     }
@@ -596,10 +597,10 @@ class MouvementsStock {
     /**
      * Set the poste rent.
      *
-     * @param string $posteRent The poste rent.
+     * @param string|null $posteRent The poste rent.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setPosteRent($posteRent) {
+    public function setPosteRent(?string $posteRent): MouvementsStock {
         $this->posteRent = $posteRent;
         return $this;
     }
@@ -607,10 +608,10 @@ class MouvementsStock {
     /**
      * Set the prix u.
      *
-     * @param float $prixU The prix u.
+     * @param float|null $prixU The prix u.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setPrixU($prixU) {
+    public function setPrixU(?float $prixU): MouvementsStock {
         $this->prixU = $prixU;
         return $this;
     }
@@ -618,10 +619,10 @@ class MouvementsStock {
     /**
      * Set the quantite.
      *
-     * @param float $quantite The quantite.
+     * @param float|null $quantite The quantite.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setQuantite($quantite) {
+    public function setQuantite(?float $quantite): MouvementsStock {
         $this->quantite = $quantite;
         return $this;
     }
@@ -629,10 +630,10 @@ class MouvementsStock {
     /**
      * Set the quantite voulue.
      *
-     * @param float $quantiteVoulue The quantite voulue.
+     * @param float|null $quantiteVoulue The quantite voulue.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setQuantiteVoulue($quantiteVoulue) {
+    public function setQuantiteVoulue(?float $quantiteVoulue): MouvementsStock {
         $this->quantiteVoulue = $quantiteVoulue;
         return $this;
     }
@@ -640,10 +641,10 @@ class MouvementsStock {
     /**
      * Set the remise ligne1.
      *
-     * @param float $remiseLigne1 The remise ligne1.
+     * @param float|null $remiseLigne1 The remise ligne1.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setRemiseLigne1($remiseLigne1) {
+    public function setRemiseLigne1(?float $remiseLigne1): MouvementsStock {
         $this->remiseLigne1 = $remiseLigne1;
         return $this;
     }
@@ -651,10 +652,10 @@ class MouvementsStock {
     /**
      * Set the remise ligne2.
      *
-     * @param float $remiseLigne2 The remise ligne2.
+     * @param float|null $remiseLigne2 The remise ligne2.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setRemiseLigne2($remiseLigne2) {
+    public function setRemiseLigne2(?float $remiseLigne2): MouvementsStock {
         $this->remiseLigne2 = $remiseLigne2;
         return $this;
     }
@@ -662,10 +663,10 @@ class MouvementsStock {
     /**
      * Set the remise ligne3.
      *
-     * @param float $remiseLigne3 The remise ligne3.
+     * @param float|null $remiseLigne3 The remise ligne3.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setRemiseLigne3($remiseLigne3) {
+    public function setRemiseLigne3(?float $remiseLigne3): MouvementsStock {
         $this->remiseLigne3 = $remiseLigne3;
         return $this;
     }
@@ -673,10 +674,10 @@ class MouvementsStock {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setType($type) {
+    public function setType(?string $type): MouvementsStock {
         $this->type = $type;
         return $this;
     }
@@ -684,10 +685,10 @@ class MouvementsStock {
     /**
      * Set the type gestion.
      *
-     * @param string $typeGestion The type gestion.
+     * @param string|null $typeGestion The type gestion.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setTypeGestion($typeGestion) {
+    public function setTypeGestion(?string $typeGestion): MouvementsStock {
         $this->typeGestion = $typeGestion;
         return $this;
     }
@@ -695,10 +696,10 @@ class MouvementsStock {
     /**
      * Set the type ligne.
      *
-     * @param string $typeLigne The type ligne.
+     * @param string|null $typeLigne The type ligne.
      * @return MouvementsStock Returns this Mouvements stock.
      */
-    public function setTypeLigne($typeLigne) {
+    public function setTypeLigne(?string $typeLigne): MouvementsStock {
         $this->typeLigne = $typeLigne;
         return $this;
     }

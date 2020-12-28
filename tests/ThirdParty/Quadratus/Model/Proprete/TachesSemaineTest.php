@@ -27,7 +27,7 @@ class TachesSemaineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAutoIncr() {
+    public function testSetAutoIncr(): void {
 
         $obj = new TachesSemaine();
 
@@ -40,7 +40,7 @@ class TachesSemaineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeSemaineTache() {
+    public function testSetCodeSemaineTache(): void {
 
         $obj = new TachesSemaine();
 
@@ -53,7 +53,7 @@ class TachesSemaineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDiscrTache() {
+    public function testSetDiscrTache(): void {
 
         $obj = new TachesSemaine();
 
@@ -66,7 +66,7 @@ class TachesSemaineTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new TachesSemaine();
 

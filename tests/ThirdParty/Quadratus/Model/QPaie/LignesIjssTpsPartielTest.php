@@ -29,7 +29,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new LignesIjssTpsPartiel();
 
@@ -42,7 +42,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantPlein() {
+    public function testSetMontantPlein(): void {
 
         $obj = new LignesIjssTpsPartiel();
 
@@ -55,7 +55,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumLigne() {
+    public function testSetNumLigne(): void {
 
         $obj = new LignesIjssTpsPartiel();
 
@@ -68,7 +68,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroAttestation() {
+    public function testSetNumeroAttestation(): void {
 
         $obj = new LignesIjssTpsPartiel();
 
@@ -82,7 +82,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeDeb() {
+    public function testSetPeriodeDeb(): void {
 
         // Set a Date/time mock.
         $periodeDeb = new DateTime("2018-09-10");
@@ -99,7 +99,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeFin() {
+    public function testSetPeriodeFin(): void {
 
         // Set a Date/time mock.
         $periodeFin = new DateTime("2018-09-10");
@@ -115,7 +115,7 @@ class LignesIjssTpsPartielTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new LignesIjssTpsPartiel();
 

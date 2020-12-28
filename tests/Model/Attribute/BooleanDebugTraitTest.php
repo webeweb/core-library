@@ -27,7 +27,7 @@ class BooleanDebugTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnaled() {
+    public function testSetEnaled(): void {
 
         $obj = new TestBooleanDebugTrait();
 
@@ -40,7 +40,7 @@ class BooleanDebugTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestBooleanDebugTrait();
 

@@ -29,7 +29,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCentre() {
+    public function testSetCentre(): void {
 
         $obj = new EcrituresEco();
 
@@ -42,7 +42,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeJournal() {
+    public function testSetCodeJournal(): void {
 
         $obj = new EcrituresEco();
 
@@ -55,7 +55,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeLibelleAuto() {
+    public function testSetCodeLibelleAuto(): void {
 
         $obj = new EcrituresEco();
 
@@ -68,7 +68,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFolio() {
+    public function testSetFolio(): void {
 
         $obj = new EcrituresEco();
 
@@ -81,7 +81,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetJourEcriture() {
+    public function testSetJourEcriture(): void {
 
         $obj = new EcrituresEco();
 
@@ -94,7 +94,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLiaisonEcriture() {
+    public function testSetLiaisonEcriture(): void {
 
         $obj = new EcrituresEco();
 
@@ -107,7 +107,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLibelle() {
+    public function testSetLibelle(): void {
 
         $obj = new EcrituresEco();
 
@@ -120,7 +120,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuCredit() {
+    public function testSetMontantTenuCredit(): void {
 
         $obj = new EcrituresEco();
 
@@ -133,7 +133,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantTenuDebit() {
+    public function testSetMontantTenuDebit(): void {
 
         $obj = new EcrituresEco();
 
@@ -146,7 +146,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNature() {
+    public function testSetNature(): void {
 
         $obj = new EcrituresEco();
 
@@ -159,7 +159,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNoLotTrace() {
+    public function testSetNoLotTrace(): void {
 
         $obj = new EcrituresEco();
 
@@ -172,7 +172,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumEcrEco() {
+    public function testSetNumEcrEco(): void {
 
         $obj = new EcrituresEco();
 
@@ -185,7 +185,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroCompte() {
+    public function testSetNumeroCompte(): void {
 
         $obj = new EcrituresEco();
 
@@ -199,7 +199,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeEcriture() {
+    public function testSetPeriodeEcriture(): void {
 
         // Set a Date/time mock.
         $periodeEcriture = new DateTime("2018-09-10");
@@ -215,7 +215,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new EcrituresEco();
 
@@ -228,7 +228,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite2() {
+    public function testSetQuantite2(): void {
 
         $obj = new EcrituresEco();
 
@@ -241,7 +241,7 @@ class EcrituresEcoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new EcrituresEco();
 

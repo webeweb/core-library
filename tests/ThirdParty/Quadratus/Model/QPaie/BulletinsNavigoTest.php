@@ -29,7 +29,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new BulletinsNavigo();
 
@@ -42,7 +42,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNbSemaine() {
+    public function testSetNbSemaine(): void {
 
         $obj = new BulletinsNavigo();
 
@@ -55,7 +55,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new BulletinsNavigo();
 
@@ -69,7 +69,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -85,7 +85,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRbtNonProratise() {
+    public function testSetRbtNonProratise(): void {
 
         $obj = new BulletinsNavigo();
 
@@ -98,7 +98,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTypeAbonnement() {
+    public function testSetTypeAbonnement(): void {
 
         $obj = new BulletinsNavigo();
 
@@ -111,7 +111,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetZone() {
+    public function testSetZone(): void {
 
         $obj = new BulletinsNavigo();
 
@@ -124,7 +124,7 @@ class BulletinsNavigoTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new BulletinsNavigo();
 

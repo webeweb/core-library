@@ -30,7 +30,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetBilanCommentaireDate() {
+    public function testSetBilanCommentaireDate(): void {
 
         // Set a Date/time mock.
         $bilanCommentaireDate = new DateTime("2018-09-10");
@@ -46,7 +46,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBilanCommentaireLib() {
+    public function testSetBilanCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -60,7 +60,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetBullCommentaireDate() {
+    public function testSetBullCommentaireDate(): void {
 
         // Set a Date/time mock.
         $bullCommentaireDate = new DateTime("2018-09-10");
@@ -76,7 +76,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBullCommentaireLib() {
+    public function testSetBullCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -89,7 +89,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new SuiviClient();
 
@@ -103,7 +103,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDadsUCommentaireDate() {
+    public function testSetDadsUCommentaireDate(): void {
 
         // Set a Date/time mock.
         $dadsUCommentaireDate = new DateTime("2018-09-10");
@@ -119,7 +119,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDadsUCommentaireLib() {
+    public function testSetDadsUCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -133,7 +133,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDas2CommentaireDate() {
+    public function testSetDas2CommentaireDate(): void {
 
         // Set a Date/time mock.
         $das2CommentaireDate = new DateTime("2018-09-10");
@@ -149,7 +149,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDas2CommentaireLib() {
+    public function testSetDas2CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -163,7 +163,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDateModif() {
+    public function testSetDateModif(): void {
 
         // Set a Date/time mock.
         $dateModif = new DateTime("2018-09-10");
@@ -180,7 +180,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDcrCommentaireDate() {
+    public function testSetDcrCommentaireDate(): void {
 
         // Set a Date/time mock.
         $dcrCommentaireDate = new DateTime("2018-09-10");
@@ -196,7 +196,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDcrCommentaireLib() {
+    public function testSetDcrCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -210,7 +210,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDcrDateLimite() {
+    public function testSetDcrDateLimite(): void {
 
         // Set a Date/time mock.
         $dcrDateLimite = new DateTime("2018-09-10");
@@ -227,7 +227,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDsiCommentaireDate() {
+    public function testSetDsiCommentaireDate(): void {
 
         // Set a Date/time mock.
         $dsiCommentaireDate = new DateTime("2018-09-10");
@@ -243,7 +243,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDsiCommentaireLib() {
+    public function testSetDsiCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -257,7 +257,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDucsAssedicCommentaireDate() {
+    public function testSetDucsAssedicCommentaireDate(): void {
 
         // Set a Date/time mock.
         $ducsAssedicCommentaireDate = new DateTime("2018-09-10");
@@ -273,7 +273,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDucsAssedicCommentaireLib() {
+    public function testSetDucsAssedicCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -287,7 +287,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDucsUrssafCommentaireDate() {
+    public function testSetDucsUrssafCommentaireDate(): void {
 
         // Set a Date/time mock.
         $ducsUrssafCommentaireDate = new DateTime("2018-09-10");
@@ -303,7 +303,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDucsUrssafCommentaireLib() {
+    public function testSetDucsUrssafCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -317,7 +317,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetFacturationCommentaireDate() {
+    public function testSetFacturationCommentaireDate(): void {
 
         // Set a Date/time mock.
         $facturationCommentaireDate = new DateTime("2018-09-10");
@@ -333,7 +333,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFacturationCommentaireLib() {
+    public function testSetFacturationCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -346,7 +346,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitBilan() {
+    public function testSetFaitBilan(): void {
 
         $obj = new SuiviClient();
 
@@ -359,7 +359,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitCvae() {
+    public function testSetFaitCvae(): void {
 
         $obj = new SuiviClient();
 
@@ -372,7 +372,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitDas2() {
+    public function testSetFaitDas2(): void {
 
         $obj = new SuiviClient();
 
@@ -385,7 +385,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitDcr() {
+    public function testSetFaitDcr(): void {
 
         $obj = new SuiviClient();
 
@@ -398,7 +398,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric1() {
+    public function testSetFaitGeneric1(): void {
 
         $obj = new SuiviClient();
 
@@ -411,7 +411,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric10() {
+    public function testSetFaitGeneric10(): void {
 
         $obj = new SuiviClient();
 
@@ -424,7 +424,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric2() {
+    public function testSetFaitGeneric2(): void {
 
         $obj = new SuiviClient();
 
@@ -437,7 +437,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric3() {
+    public function testSetFaitGeneric3(): void {
 
         $obj = new SuiviClient();
 
@@ -450,7 +450,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric4() {
+    public function testSetFaitGeneric4(): void {
 
         $obj = new SuiviClient();
 
@@ -463,7 +463,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric5() {
+    public function testSetFaitGeneric5(): void {
 
         $obj = new SuiviClient();
 
@@ -476,7 +476,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric6() {
+    public function testSetFaitGeneric6(): void {
 
         $obj = new SuiviClient();
 
@@ -489,7 +489,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric7() {
+    public function testSetFaitGeneric7(): void {
 
         $obj = new SuiviClient();
 
@@ -502,7 +502,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric8() {
+    public function testSetFaitGeneric8(): void {
 
         $obj = new SuiviClient();
 
@@ -515,7 +515,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitGeneric9() {
+    public function testSetFaitGeneric9(): void {
 
         $obj = new SuiviClient();
 
@@ -528,7 +528,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitIfu() {
+    public function testSetFaitIfu(): void {
 
         $obj = new SuiviClient();
 
@@ -541,7 +541,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitImpotRevenu() {
+    public function testSetFaitImpotRevenu(): void {
 
         $obj = new SuiviClient();
 
@@ -554,7 +554,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitIsa() {
+    public function testSetFaitIsa(): void {
 
         $obj = new SuiviClient();
 
@@ -567,7 +567,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitIsf() {
+    public function testSetFaitIsf(): void {
 
         $obj = new SuiviClient();
 
@@ -580,7 +580,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitIsr() {
+    public function testSetFaitIsr(): void {
 
         $obj = new SuiviClient();
 
@@ -593,7 +593,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitIss() {
+    public function testSetFaitIss(): void {
 
         $obj = new SuiviClient();
 
@@ -606,7 +606,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitPlafTp() {
+    public function testSetFaitPlafTp(): void {
 
         $obj = new SuiviClient();
 
@@ -619,7 +619,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitPreLib() {
+    public function testSetFaitPreLib(): void {
 
         $obj = new SuiviClient();
 
@@ -632,7 +632,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitSituation() {
+    public function testSetFaitSituation(): void {
 
         $obj = new SuiviClient();
 
@@ -645,7 +645,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitTabBord() {
+    public function testSetFaitTabBord(): void {
 
         $obj = new SuiviClient();
 
@@ -658,7 +658,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitTp() {
+    public function testSetFaitTp(): void {
 
         $obj = new SuiviClient();
 
@@ -671,7 +671,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitTva() {
+    public function testSetFaitTva(): void {
 
         $obj = new SuiviClient();
 
@@ -684,7 +684,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetFaitTvs() {
+    public function testSetFaitTvs(): void {
 
         $obj = new SuiviClient();
 
@@ -698,7 +698,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric10CommentaireDate() {
+    public function testSetGeneric10CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic10CommentaireDate = new DateTime("2018-09-10");
@@ -714,7 +714,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric10CommentaireLib() {
+    public function testSetGeneric10CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -728,7 +728,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric10DateLimite() {
+    public function testSetGeneric10DateLimite(): void {
 
         // Set a Date/time mock.
         $generic10DateLimite = new DateTime("2018-09-10");
@@ -745,7 +745,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric1CommentaireDate() {
+    public function testSetGeneric1CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic1CommentaireDate = new DateTime("2018-09-10");
@@ -761,7 +761,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric1CommentaireLib() {
+    public function testSetGeneric1CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -775,7 +775,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric1DateLimite() {
+    public function testSetGeneric1DateLimite(): void {
 
         // Set a Date/time mock.
         $generic1DateLimite = new DateTime("2018-09-10");
@@ -792,7 +792,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric2CommentaireDate() {
+    public function testSetGeneric2CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic2CommentaireDate = new DateTime("2018-09-10");
@@ -808,7 +808,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric2CommentaireLib() {
+    public function testSetGeneric2CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -822,7 +822,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric2DateLimite() {
+    public function testSetGeneric2DateLimite(): void {
 
         // Set a Date/time mock.
         $generic2DateLimite = new DateTime("2018-09-10");
@@ -839,7 +839,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric3CommentaireDate() {
+    public function testSetGeneric3CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic3CommentaireDate = new DateTime("2018-09-10");
@@ -855,7 +855,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric3CommentaireLib() {
+    public function testSetGeneric3CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -869,7 +869,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric3DateLimite() {
+    public function testSetGeneric3DateLimite(): void {
 
         // Set a Date/time mock.
         $generic3DateLimite = new DateTime("2018-09-10");
@@ -886,7 +886,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric4CommentaireDate() {
+    public function testSetGeneric4CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic4CommentaireDate = new DateTime("2018-09-10");
@@ -902,7 +902,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric4CommentaireLib() {
+    public function testSetGeneric4CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -916,7 +916,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric4DateLimite() {
+    public function testSetGeneric4DateLimite(): void {
 
         // Set a Date/time mock.
         $generic4DateLimite = new DateTime("2018-09-10");
@@ -933,7 +933,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric5CommentaireDate() {
+    public function testSetGeneric5CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic5CommentaireDate = new DateTime("2018-09-10");
@@ -949,7 +949,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric5CommentaireLib() {
+    public function testSetGeneric5CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -963,7 +963,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric5DateLimite() {
+    public function testSetGeneric5DateLimite(): void {
 
         // Set a Date/time mock.
         $generic5DateLimite = new DateTime("2018-09-10");
@@ -980,7 +980,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric6CommentaireDate() {
+    public function testSetGeneric6CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic6CommentaireDate = new DateTime("2018-09-10");
@@ -996,7 +996,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric6CommentaireLib() {
+    public function testSetGeneric6CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1010,7 +1010,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric6DateLimite() {
+    public function testSetGeneric6DateLimite(): void {
 
         // Set a Date/time mock.
         $generic6DateLimite = new DateTime("2018-09-10");
@@ -1027,7 +1027,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric7CommentaireDate() {
+    public function testSetGeneric7CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic7CommentaireDate = new DateTime("2018-09-10");
@@ -1043,7 +1043,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric7CommentaireLib() {
+    public function testSetGeneric7CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1057,7 +1057,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric7DateLimite() {
+    public function testSetGeneric7DateLimite(): void {
 
         // Set a Date/time mock.
         $generic7DateLimite = new DateTime("2018-09-10");
@@ -1074,7 +1074,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric8CommentaireDate() {
+    public function testSetGeneric8CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic8CommentaireDate = new DateTime("2018-09-10");
@@ -1090,7 +1090,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric8CommentaireLib() {
+    public function testSetGeneric8CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1104,7 +1104,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric8DateLimite() {
+    public function testSetGeneric8DateLimite(): void {
 
         // Set a Date/time mock.
         $generic8DateLimite = new DateTime("2018-09-10");
@@ -1121,7 +1121,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric9CommentaireDate() {
+    public function testSetGeneric9CommentaireDate(): void {
 
         // Set a Date/time mock.
         $generic9CommentaireDate = new DateTime("2018-09-10");
@@ -1137,7 +1137,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGeneric9CommentaireLib() {
+    public function testSetGeneric9CommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1151,7 +1151,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetGeneric9DateLimite() {
+    public function testSetGeneric9DateLimite(): void {
 
         // Set a Date/time mock.
         $generic9DateLimite = new DateTime("2018-09-10");
@@ -1168,7 +1168,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetIfuCommentaireDate() {
+    public function testSetIfuCommentaireDate(): void {
 
         // Set a Date/time mock.
         $ifuCommentaireDate = new DateTime("2018-09-10");
@@ -1184,7 +1184,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIfuCommentaireLib() {
+    public function testSetIfuCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1198,7 +1198,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetImpotRevenuCommentaireDate() {
+    public function testSetImpotRevenuCommentaireDate(): void {
 
         // Set a Date/time mock.
         $impotRevenuCommentaireDate = new DateTime("2018-09-10");
@@ -1214,7 +1214,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImpotRevenuCommentaireLib() {
+    public function testSetImpotRevenuCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1228,7 +1228,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetImpotRevenuDateLimite() {
+    public function testSetImpotRevenuDateLimite(): void {
 
         // Set a Date/time mock.
         $impotRevenuDateLimite = new DateTime("2018-09-10");
@@ -1245,7 +1245,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetIsaCommentaireDate() {
+    public function testSetIsaCommentaireDate(): void {
 
         // Set a Date/time mock.
         $isaCommentaireDate = new DateTime("2018-09-10");
@@ -1261,7 +1261,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsaCommentaireLib() {
+    public function testSetIsaCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1275,7 +1275,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetIsfCommentaireDate() {
+    public function testSetIsfCommentaireDate(): void {
 
         // Set a Date/time mock.
         $isfCommentaireDate = new DateTime("2018-09-10");
@@ -1291,7 +1291,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsfCommentaireLib() {
+    public function testSetIsfCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1305,7 +1305,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetIsfDateLimite() {
+    public function testSetIsfDateLimite(): void {
 
         // Set a Date/time mock.
         $isfDateLimite = new DateTime("2018-09-10");
@@ -1322,7 +1322,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetIsrCommentaireDate() {
+    public function testSetIsrCommentaireDate(): void {
 
         // Set a Date/time mock.
         $isrCommentaireDate = new DateTime("2018-09-10");
@@ -1338,7 +1338,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIsrCommentaireLib() {
+    public function testSetIsrCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1352,7 +1352,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetIssCommentaireDate() {
+    public function testSetIssCommentaireDate(): void {
 
         // Set a Date/time mock.
         $issCommentaireDate = new DateTime("2018-09-10");
@@ -1368,7 +1368,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIssCommentaireLib() {
+    public function testSetIssCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1382,7 +1382,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -1399,7 +1399,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPlafTpCommentaireDate() {
+    public function testSetPlafTpCommentaireDate(): void {
 
         // Set a Date/time mock.
         $plafTpCommentaireDate = new DateTime("2018-09-10");
@@ -1415,7 +1415,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPlafTpCommentaireLib() {
+    public function testSetPlafTpCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1429,7 +1429,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPreLibCommentaireDate() {
+    public function testSetPreLibCommentaireDate(): void {
 
         // Set a Date/time mock.
         $preLibCommentaireDate = new DateTime("2018-09-10");
@@ -1445,7 +1445,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPreLibCommentaireLib() {
+    public function testSetPreLibCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1459,7 +1459,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPreLibDateLimite() {
+    public function testSetPreLibDateLimite(): void {
 
         // Set a Date/time mock.
         $preLibDateLimite = new DateTime("2018-09-10");
@@ -1476,7 +1476,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSituationCommentaireDate() {
+    public function testSetSituationCommentaireDate(): void {
 
         // Set a Date/time mock.
         $situationCommentaireDate = new DateTime("2018-09-10");
@@ -1492,7 +1492,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetSituationCommentaireLib() {
+    public function testSetSituationCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1506,7 +1506,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetSituationDateLimite() {
+    public function testSetSituationDateLimite(): void {
 
         // Set a Date/time mock.
         $situationDateLimite = new DateTime("2018-09-10");
@@ -1523,7 +1523,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTabBordCommentaireDate() {
+    public function testSetTabBordCommentaireDate(): void {
 
         // Set a Date/time mock.
         $tabBordCommentaireDate = new DateTime("2018-09-10");
@@ -1539,7 +1539,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTabBordCommentaireLib() {
+    public function testSetTabBordCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1553,7 +1553,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTabBordDateLimite() {
+    public function testSetTabBordDateLimite(): void {
 
         // Set a Date/time mock.
         $tabBordDateLimite = new DateTime("2018-09-10");
@@ -1570,7 +1570,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTpCommentaireDate() {
+    public function testSetTpCommentaireDate(): void {
 
         // Set a Date/time mock.
         $tpCommentaireDate = new DateTime("2018-09-10");
@@ -1586,7 +1586,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTpCommentaireLib() {
+    public function testSetTpCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1600,7 +1600,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTsaCommentaireDate() {
+    public function testSetTsaCommentaireDate(): void {
 
         // Set a Date/time mock.
         $tsaCommentaireDate = new DateTime("2018-09-10");
@@ -1616,7 +1616,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTsaCommentaireLib() {
+    public function testSetTsaCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1630,7 +1630,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTssCommentaireDate() {
+    public function testSetTssCommentaireDate(): void {
 
         // Set a Date/time mock.
         $tssCommentaireDate = new DateTime("2018-09-10");
@@ -1646,7 +1646,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTssCommentaireLib() {
+    public function testSetTssCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1660,7 +1660,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTvaCommentaireDate() {
+    public function testSetTvaCommentaireDate(): void {
 
         // Set a Date/time mock.
         $tvaCommentaireDate = new DateTime("2018-09-10");
@@ -1676,7 +1676,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvaCommentaireLib() {
+    public function testSetTvaCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1690,7 +1690,7 @@ class SuiviClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetTvsCommentaireDate() {
+    public function testSetTvsCommentaireDate(): void {
 
         // Set a Date/time mock.
         $tvsCommentaireDate = new DateTime("2018-09-10");
@@ -1706,7 +1706,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTvsCommentaireLib() {
+    public function testSetTvsCommentaireLib(): void {
 
         $obj = new SuiviClient();
 
@@ -1719,7 +1719,7 @@ class SuiviClientTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new SuiviClient();
 

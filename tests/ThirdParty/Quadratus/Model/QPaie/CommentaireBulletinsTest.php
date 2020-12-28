@@ -29,7 +29,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire1() {
+    public function testSetCommentaire1(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -42,7 +42,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire2() {
+    public function testSetCommentaire2(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -55,7 +55,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire3() {
+    public function testSetCommentaire3(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -68,7 +68,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire4() {
+    public function testSetCommentaire4(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -81,7 +81,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCommentaire5() {
+    public function testSetCommentaire5(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -94,7 +94,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIndicePeriode() {
+    public function testSetIndicePeriode(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -107,7 +107,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroEmploye() {
+    public function testSetNumeroEmploye(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -121,7 +121,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriode() {
+    public function testSetPeriode(): void {
 
         // Set a Date/time mock.
         $periode = new DateTime("2018-09-10");
@@ -137,7 +137,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxtCommentaireRtf() {
+    public function testSetTxtCommentaireRtf(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -150,7 +150,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTxtCommentaireSaisi() {
+    public function testSetTxtCommentaireSaisi(): void {
 
         $obj = new CommentaireBulletins();
 
@@ -163,7 +163,7 @@ class CommentaireBulletinsTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new CommentaireBulletins();
 

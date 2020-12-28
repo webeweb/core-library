@@ -22,25 +22,25 @@ trait StringFirstNameTrait {
     /**
      * First name.
      *
-     * @var string
+     * @var string|null
      */
     protected $firstName;
 
     /**
      * Get the first name.
      *
-     * @return string Returns the first name.
+     * @return string|null Returns the first name.
      */
-    public function getFirstName() {
+    public function getFirstName(): ?string {
         return $this->firstName;
     }
 
     /**
      * Set the first name.
      *
-     * @param string $firstName The first name.
+     * @param string|null $firstName The first name.
      */
-    public function setFirstName($firstName) {
+    public function setFirstName(?string $firstName) {
         $this->firstName = $firstName;
         return $this;
     }

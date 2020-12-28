@@ -22,81 +22,82 @@ class ConstTabVentilVente {
     /**
      * Code ventil article.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilArticle;
 
     /**
      * Code ventil client.
      *
-     * @var string
+     * @var string|null
      */
     private $codeVentilClient;
 
     /**
      * Compte ventil.
      *
-     * @var string
+     * @var string|null
      */
     private $compteVentil;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code ventil article.
      *
-     * @return string Returns the code ventil article.
+     * @return string|null Returns the code ventil article.
      */
-    public function getCodeVentilArticle() {
+    public function getCodeVentilArticle(): ?string{
         return $this->codeVentilArticle;
     }
 
     /**
      * Get the code ventil client.
      *
-     * @return string Returns the code ventil client.
+     * @return string|null Returns the code ventil client.
      */
-    public function getCodeVentilClient() {
+    public function getCodeVentilClient(): ?string{
         return $this->codeVentilClient;
     }
 
     /**
      * Get the compte ventil.
      *
-     * @return string Returns the compte ventil.
+     * @return string|null Returns the compte ventil.
      */
-    public function getCompteVentil() {
+    public function getCompteVentil(): ?string{
         return $this->compteVentil;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Set the code ventil article.
      *
-     * @param string $codeVentilArticle The code ventil article.
+     * @param string|null $codeVentilArticle The code ventil article.
      * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
-    public function setCodeVentilArticle($codeVentilArticle) {
+    public function setCodeVentilArticle(?string $codeVentilArticle): ConstTabVentilVente {
         $this->codeVentilArticle = $codeVentilArticle;
         return $this;
     }
@@ -104,10 +105,10 @@ class ConstTabVentilVente {
     /**
      * Set the code ventil client.
      *
-     * @param string $codeVentilClient The code ventil client.
+     * @param string|null $codeVentilClient The code ventil client.
      * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
-    public function setCodeVentilClient($codeVentilClient) {
+    public function setCodeVentilClient(?string $codeVentilClient): ConstTabVentilVente {
         $this->codeVentilClient = $codeVentilClient;
         return $this;
     }
@@ -115,10 +116,10 @@ class ConstTabVentilVente {
     /**
      * Set the compte ventil.
      *
-     * @param string $compteVentil The compte ventil.
+     * @param string|null $compteVentil The compte ventil.
      * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
-    public function setCompteVentil($compteVentil) {
+    public function setCompteVentil(?string $compteVentil): ConstTabVentilVente {
         $this->compteVentil = $compteVentil;
         return $this;
     }
@@ -126,10 +127,10 @@ class ConstTabVentilVente {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ConstTabVentilVente Returns this Const tab ventil vente.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ConstTabVentilVente {
         $this->libelle = $libelle;
         return $this;
     }

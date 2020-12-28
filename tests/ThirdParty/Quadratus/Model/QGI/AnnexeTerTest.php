@@ -29,7 +29,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean1() {
+    public function testSetBoolean1(): void {
 
         $obj = new AnnexeTer();
 
@@ -42,7 +42,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean2() {
+    public function testSetBoolean2(): void {
 
         $obj = new AnnexeTer();
 
@@ -55,7 +55,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean3() {
+    public function testSetBoolean3(): void {
 
         $obj = new AnnexeTer();
 
@@ -68,7 +68,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean4() {
+    public function testSetBoolean4(): void {
 
         $obj = new AnnexeTer();
 
@@ -81,7 +81,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean5() {
+    public function testSetBoolean5(): void {
 
         $obj = new AnnexeTer();
 
@@ -94,7 +94,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean6() {
+    public function testSetBoolean6(): void {
 
         $obj = new AnnexeTer();
 
@@ -107,7 +107,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBoolean7() {
+    public function testSetBoolean7(): void {
 
         $obj = new AnnexeTer();
 
@@ -120,7 +120,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode1() {
+    public function testSetCode1(): void {
 
         $obj = new AnnexeTer();
 
@@ -133,7 +133,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCode2() {
+    public function testSetCode2(): void {
 
         $obj = new AnnexeTer();
 
@@ -147,7 +147,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate1() {
+    public function testSetDate1(): void {
 
         // Set a Date/time mock.
         $date1 = new DateTime("2018-09-10");
@@ -164,7 +164,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate2() {
+    public function testSetDate2(): void {
 
         // Set a Date/time mock.
         $date2 = new DateTime("2018-09-10");
@@ -181,7 +181,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate3() {
+    public function testSetDate3(): void {
 
         // Set a Date/time mock.
         $date3 = new DateTime("2018-09-10");
@@ -198,7 +198,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate4() {
+    public function testSetDate4(): void {
 
         // Set a Date/time mock.
         $date4 = new DateTime("2018-09-10");
@@ -215,7 +215,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate5() {
+    public function testSetDate5(): void {
 
         // Set a Date/time mock.
         $date5 = new DateTime("2018-09-10");
@@ -232,7 +232,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate6() {
+    public function testSetDate6(): void {
 
         // Set a Date/time mock.
         $date6 = new DateTime("2018-09-10");
@@ -249,7 +249,7 @@ class AnnexeTerTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetDate7() {
+    public function testSetDate7(): void {
 
         // Set a Date/time mock.
         $date7 = new DateTime("2018-09-10");
@@ -265,7 +265,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble1() {
+    public function testSetDouble1(): void {
 
         $obj = new AnnexeTer();
 
@@ -278,7 +278,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble2() {
+    public function testSetDouble2(): void {
 
         $obj = new AnnexeTer();
 
@@ -291,7 +291,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble3() {
+    public function testSetDouble3(): void {
 
         $obj = new AnnexeTer();
 
@@ -304,7 +304,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble4() {
+    public function testSetDouble4(): void {
 
         $obj = new AnnexeTer();
 
@@ -317,7 +317,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble5() {
+    public function testSetDouble5(): void {
 
         $obj = new AnnexeTer();
 
@@ -330,7 +330,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble6() {
+    public function testSetDouble6(): void {
 
         $obj = new AnnexeTer();
 
@@ -343,7 +343,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDouble7() {
+    public function testSetDouble7(): void {
 
         $obj = new AnnexeTer();
 
@@ -356,7 +356,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong1() {
+    public function testSetLong1(): void {
 
         $obj = new AnnexeTer();
 
@@ -369,7 +369,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong2() {
+    public function testSetLong2(): void {
 
         $obj = new AnnexeTer();
 
@@ -382,7 +382,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong3() {
+    public function testSetLong3(): void {
 
         $obj = new AnnexeTer();
 
@@ -395,7 +395,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong4() {
+    public function testSetLong4(): void {
 
         $obj = new AnnexeTer();
 
@@ -408,7 +408,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong5() {
+    public function testSetLong5(): void {
 
         $obj = new AnnexeTer();
 
@@ -421,7 +421,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong6() {
+    public function testSetLong6(): void {
 
         $obj = new AnnexeTer();
 
@@ -434,7 +434,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetLong7() {
+    public function testSetLong7(): void {
 
         $obj = new AnnexeTer();
 
@@ -447,7 +447,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemo1() {
+    public function testSetMemo1(): void {
 
         $obj = new AnnexeTer();
 
@@ -460,7 +460,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMemo2() {
+    public function testSetMemo2(): void {
 
         $obj = new AnnexeTer();
 
@@ -473,7 +473,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumero() {
+    public function testSetNumero(): void {
 
         $obj = new AnnexeTer();
 
@@ -486,7 +486,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText1() {
+    public function testSetText1(): void {
 
         $obj = new AnnexeTer();
 
@@ -499,7 +499,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText2() {
+    public function testSetText2(): void {
 
         $obj = new AnnexeTer();
 
@@ -512,7 +512,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText3() {
+    public function testSetText3(): void {
 
         $obj = new AnnexeTer();
 
@@ -525,7 +525,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText4() {
+    public function testSetText4(): void {
 
         $obj = new AnnexeTer();
 
@@ -538,7 +538,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText5() {
+    public function testSetText5(): void {
 
         $obj = new AnnexeTer();
 
@@ -551,7 +551,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText6() {
+    public function testSetText6(): void {
 
         $obj = new AnnexeTer();
 
@@ -564,7 +564,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetText7() {
+    public function testSetText7(): void {
 
         $obj = new AnnexeTer();
 
@@ -577,7 +577,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetType() {
+    public function testSetType(): void {
 
         $obj = new AnnexeTer();
 
@@ -590,7 +590,7 @@ class AnnexeTerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new AnnexeTer();
 

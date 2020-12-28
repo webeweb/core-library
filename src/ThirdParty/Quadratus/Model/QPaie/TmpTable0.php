@@ -24,105 +24,105 @@ class TmpTable0 {
     /**
      * Base.
      *
-     * @var float
+     * @var float|null
      */
     private $base;
 
     /**
      * Base tot.
      *
-     * @var float
+     * @var float|null
      */
     private $baseTot;
 
     /**
      * Charge pat.
      *
-     * @var float
+     * @var float|null
      */
     private $chargePat;
 
     /**
      * Charge pat tot.
      *
-     * @var float
+     * @var float|null
      */
     private $chargePatTot;
 
     /**
      * Charge sal.
      *
-     * @var float
+     * @var float|null
      */
     private $chargeSal;
 
     /**
      * Charge sal tot.
      *
-     * @var float
+     * @var float|null
      */
     private $chargeSalTot;
 
     /**
      * Classe.
      *
-     * @var string
+     * @var string|null
      */
     private $classe;
 
     /**
      * Code.
      *
-     * @var string
+     * @var string|null
      */
     private $code;
 
     /**
      * Code organisme.
      *
-     * @var string
+     * @var string|null
      */
     private $codeOrganisme;
 
     /**
      * Etablissement.
      *
-     * @var int
+     * @var int|null
      */
     private $etablissement;
 
     /**
      * Imputation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $imputation;
 
     /**
      * Indice periode.
      *
-     * @var int
+     * @var int|null
      */
     private $indicePeriode;
 
     /**
      * Inverse.
      *
-     * @var bool
+     * @var bool|null
      */
     private $inverse;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Numero.
      *
-     * @var string
+     * @var string|null
      */
     private $numero;
 
@@ -136,177 +136,178 @@ class TmpTable0 {
     /**
      * Qui.
      *
-     * @var int
+     * @var int|null
      */
     private $qui;
 
     /**
      * Service.
      *
-     * @var string
+     * @var string|null
      */
     private $service;
 
     /**
      * Taux pat.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxPat;
 
     /**
      * Taux sal.
      *
-     * @var float
+     * @var float|null
      */
     private $tauxSal;
 
     /**
      * Type.
      *
-     * @var int
+     * @var int|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the base.
      *
-     * @return float Returns the base.
+     * @return float|null Returns the base.
      */
-    public function getBase() {
+    public function getBase(): ?float{
         return $this->base;
     }
 
     /**
      * Get the base tot.
      *
-     * @return float Returns the base tot.
+     * @return float|null Returns the base tot.
      */
-    public function getBaseTot() {
+    public function getBaseTot(): ?float{
         return $this->baseTot;
     }
 
     /**
      * Get the charge pat.
      *
-     * @return float Returns the charge pat.
+     * @return float|null Returns the charge pat.
      */
-    public function getChargePat() {
+    public function getChargePat(): ?float{
         return $this->chargePat;
     }
 
     /**
      * Get the charge pat tot.
      *
-     * @return float Returns the charge pat tot.
+     * @return float|null Returns the charge pat tot.
      */
-    public function getChargePatTot() {
+    public function getChargePatTot(): ?float{
         return $this->chargePatTot;
     }
 
     /**
      * Get the charge sal.
      *
-     * @return float Returns the charge sal.
+     * @return float|null Returns the charge sal.
      */
-    public function getChargeSal() {
+    public function getChargeSal(): ?float{
         return $this->chargeSal;
     }
 
     /**
      * Get the charge sal tot.
      *
-     * @return float Returns the charge sal tot.
+     * @return float|null Returns the charge sal tot.
      */
-    public function getChargeSalTot() {
+    public function getChargeSalTot(): ?float{
         return $this->chargeSalTot;
     }
 
     /**
      * Get the classe.
      *
-     * @return string Returns the classe.
+     * @return string|null Returns the classe.
      */
-    public function getClasse() {
+    public function getClasse(): ?string{
         return $this->classe;
     }
 
     /**
      * Get the code.
      *
-     * @return string Returns the code.
+     * @return string|null Returns the code.
      */
-    public function getCode() {
+    public function getCode(): ?string{
         return $this->code;
     }
 
     /**
      * Get the code organisme.
      *
-     * @return string Returns the code organisme.
+     * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme() {
+    public function getCodeOrganisme(): ?string{
         return $this->codeOrganisme;
     }
 
     /**
      * Get the etablissement.
      *
-     * @return int Returns the etablissement.
+     * @return int|null Returns the etablissement.
      */
-    public function getEtablissement() {
+    public function getEtablissement(): ?int{
         return $this->etablissement;
     }
 
     /**
      * Get the imputation.
      *
-     * @return bool Returns the imputation.
+     * @return bool|null Returns the imputation.
      */
-    public function getImputation() {
+    public function getImputation(): ?bool{
         return $this->imputation;
     }
 
     /**
      * Get the indice periode.
      *
-     * @return int Returns the indice periode.
+     * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode() {
+    public function getIndicePeriode(): ?int{
         return $this->indicePeriode;
     }
 
     /**
      * Get the inverse.
      *
-     * @return bool Returns the inverse.
+     * @return bool|null Returns the inverse.
      */
-    public function getInverse() {
+    public function getInverse(): ?bool{
         return $this->inverse;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string{
         return $this->libelle;
     }
 
     /**
      * Get the numero.
      *
-     * @return string Returns the numero.
+     * @return string|null Returns the numero.
      */
-    public function getNumero() {
+    public function getNumero(): ?string{
         return $this->numero;
     }
 
@@ -315,62 +316,62 @@ class TmpTable0 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode() {
+    public function getPeriode(): ?DateTime{
         return $this->periode;
     }
 
     /**
      * Get the qui.
      *
-     * @return int Returns the qui.
+     * @return int|null Returns the qui.
      */
-    public function getQui() {
+    public function getQui(): ?int{
         return $this->qui;
     }
 
     /**
      * Get the service.
      *
-     * @return string Returns the service.
+     * @return string|null Returns the service.
      */
-    public function getService() {
+    public function getService(): ?string{
         return $this->service;
     }
 
     /**
      * Get the taux pat.
      *
-     * @return float Returns the taux pat.
+     * @return float|null Returns the taux pat.
      */
-    public function getTauxPat() {
+    public function getTauxPat(): ?float{
         return $this->tauxPat;
     }
 
     /**
      * Get the taux sal.
      *
-     * @return float Returns the taux sal.
+     * @return float|null Returns the taux sal.
      */
-    public function getTauxSal() {
+    public function getTauxSal(): ?float{
         return $this->tauxSal;
     }
 
     /**
      * Get the type.
      *
-     * @return int Returns the type.
+     * @return int|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?int{
         return $this->type;
     }
 
     /**
      * Set the base.
      *
-     * @param float $base The base.
+     * @param float|null $base The base.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setBase($base) {
+    public function setBase(?float $base): TmpTable0 {
         $this->base = $base;
         return $this;
     }
@@ -378,10 +379,10 @@ class TmpTable0 {
     /**
      * Set the base tot.
      *
-     * @param float $baseTot The base tot.
+     * @param float|null $baseTot The base tot.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setBaseTot($baseTot) {
+    public function setBaseTot(?float $baseTot): TmpTable0 {
         $this->baseTot = $baseTot;
         return $this;
     }
@@ -389,10 +390,10 @@ class TmpTable0 {
     /**
      * Set the charge pat.
      *
-     * @param float $chargePat The charge pat.
+     * @param float|null $chargePat The charge pat.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setChargePat($chargePat) {
+    public function setChargePat(?float $chargePat): TmpTable0 {
         $this->chargePat = $chargePat;
         return $this;
     }
@@ -400,10 +401,10 @@ class TmpTable0 {
     /**
      * Set the charge pat tot.
      *
-     * @param float $chargePatTot The charge pat tot.
+     * @param float|null $chargePatTot The charge pat tot.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setChargePatTot($chargePatTot) {
+    public function setChargePatTot(?float $chargePatTot): TmpTable0 {
         $this->chargePatTot = $chargePatTot;
         return $this;
     }
@@ -411,10 +412,10 @@ class TmpTable0 {
     /**
      * Set the charge sal.
      *
-     * @param float $chargeSal The charge sal.
+     * @param float|null $chargeSal The charge sal.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setChargeSal($chargeSal) {
+    public function setChargeSal(?float $chargeSal): TmpTable0 {
         $this->chargeSal = $chargeSal;
         return $this;
     }
@@ -422,10 +423,10 @@ class TmpTable0 {
     /**
      * Set the charge sal tot.
      *
-     * @param float $chargeSalTot The charge sal tot.
+     * @param float|null $chargeSalTot The charge sal tot.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setChargeSalTot($chargeSalTot) {
+    public function setChargeSalTot(?float $chargeSalTot): TmpTable0 {
         $this->chargeSalTot = $chargeSalTot;
         return $this;
     }
@@ -433,10 +434,10 @@ class TmpTable0 {
     /**
      * Set the classe.
      *
-     * @param string $classe The classe.
+     * @param string|null $classe The classe.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setClasse($classe) {
+    public function setClasse(?string $classe): TmpTable0 {
         $this->classe = $classe;
         return $this;
     }
@@ -444,10 +445,10 @@ class TmpTable0 {
     /**
      * Set the code.
      *
-     * @param string $code The code.
+     * @param string|null $code The code.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setCode($code) {
+    public function setCode(?string $code): TmpTable0 {
         $this->code = $code;
         return $this;
     }
@@ -455,10 +456,10 @@ class TmpTable0 {
     /**
      * Set the code organisme.
      *
-     * @param string $codeOrganisme The code organisme.
+     * @param string|null $codeOrganisme The code organisme.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setCodeOrganisme($codeOrganisme) {
+    public function setCodeOrganisme(?string $codeOrganisme): TmpTable0 {
         $this->codeOrganisme = $codeOrganisme;
         return $this;
     }
@@ -466,10 +467,10 @@ class TmpTable0 {
     /**
      * Set the etablissement.
      *
-     * @param int $etablissement The etablissement.
+     * @param int|null $etablissement The etablissement.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setEtablissement($etablissement) {
+    public function setEtablissement(?int $etablissement): TmpTable0 {
         $this->etablissement = $etablissement;
         return $this;
     }
@@ -477,10 +478,10 @@ class TmpTable0 {
     /**
      * Set the imputation.
      *
-     * @param bool $imputation The imputation.
+     * @param bool|null $imputation The imputation.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setImputation($imputation) {
+    public function setImputation(?bool $imputation): TmpTable0 {
         $this->imputation = $imputation;
         return $this;
     }
@@ -488,10 +489,10 @@ class TmpTable0 {
     /**
      * Set the indice periode.
      *
-     * @param int $indicePeriode The indice periode.
+     * @param int|null $indicePeriode The indice periode.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setIndicePeriode($indicePeriode) {
+    public function setIndicePeriode(?int $indicePeriode): TmpTable0 {
         $this->indicePeriode = $indicePeriode;
         return $this;
     }
@@ -499,10 +500,10 @@ class TmpTable0 {
     /**
      * Set the inverse.
      *
-     * @param bool $inverse The inverse.
+     * @param bool|null $inverse The inverse.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setInverse($inverse) {
+    public function setInverse(?bool $inverse): TmpTable0 {
         $this->inverse = $inverse;
         return $this;
     }
@@ -510,10 +511,10 @@ class TmpTable0 {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): TmpTable0 {
         $this->libelle = $libelle;
         return $this;
     }
@@ -521,10 +522,10 @@ class TmpTable0 {
     /**
      * Set the numero.
      *
-     * @param string $numero The numero.
+     * @param string|null $numero The numero.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setNumero($numero) {
+    public function setNumero(?string $numero): TmpTable0 {
         $this->numero = $numero;
         return $this;
     }
@@ -535,7 +536,7 @@ class TmpTable0 {
      * @param DateTime|null $periode The periode.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setPeriode(DateTime $periode = null) {
+    public function setPeriode(?DateTime $periode): TmpTable0 {
         $this->periode = $periode;
         return $this;
     }
@@ -543,10 +544,10 @@ class TmpTable0 {
     /**
      * Set the qui.
      *
-     * @param int $qui The qui.
+     * @param int|null $qui The qui.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setQui($qui) {
+    public function setQui(?int $qui): TmpTable0 {
         $this->qui = $qui;
         return $this;
     }
@@ -554,10 +555,10 @@ class TmpTable0 {
     /**
      * Set the service.
      *
-     * @param string $service The service.
+     * @param string|null $service The service.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setService($service) {
+    public function setService(?string $service): TmpTable0 {
         $this->service = $service;
         return $this;
     }
@@ -565,10 +566,10 @@ class TmpTable0 {
     /**
      * Set the taux pat.
      *
-     * @param float $tauxPat The taux pat.
+     * @param float|null $tauxPat The taux pat.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setTauxPat($tauxPat) {
+    public function setTauxPat(?float $tauxPat): TmpTable0 {
         $this->tauxPat = $tauxPat;
         return $this;
     }
@@ -576,10 +577,10 @@ class TmpTable0 {
     /**
      * Set the taux sal.
      *
-     * @param float $tauxSal The taux sal.
+     * @param float|null $tauxSal The taux sal.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setTauxSal($tauxSal) {
+    public function setTauxSal(?float $tauxSal): TmpTable0 {
         $this->tauxSal = $tauxSal;
         return $this;
     }
@@ -587,10 +588,10 @@ class TmpTable0 {
     /**
      * Set the type.
      *
-     * @param int $type The type.
+     * @param int|null $type The type.
      * @return TmpTable0 Returns this Tmp table0.
      */
-    public function setType($type) {
+    public function setType(?int $type): TmpTable0 {
         $this->type = $type;
         return $this;
     }

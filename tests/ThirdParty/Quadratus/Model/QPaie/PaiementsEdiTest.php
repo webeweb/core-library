@@ -27,7 +27,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetBic() {
+    public function testSetBic(): void {
 
         $obj = new PaiementsEdi();
 
@@ -40,7 +40,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeEtablissement() {
+    public function testSetCodeEtablissement(): void {
 
         $obj = new PaiementsEdi();
 
@@ -53,7 +53,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeOrganisme() {
+    public function testSetCodeOrganisme(): void {
 
         $obj = new PaiementsEdi();
 
@@ -66,7 +66,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDomBanque() {
+    public function testSetDomBanque(): void {
 
         $obj = new PaiementsEdi();
 
@@ -79,7 +79,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetGenererCouponPaiement() {
+    public function testSetGenererCouponPaiement(): void {
 
         $obj = new PaiementsEdi();
 
@@ -92,7 +92,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetIban() {
+    public function testSetIban(): void {
 
         $obj = new PaiementsEdi();
 
@@ -105,7 +105,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontant() {
+    public function testSetMontant(): void {
 
         $obj = new PaiementsEdi();
 
@@ -118,7 +118,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantDucsAnnuelle() {
+    public function testSetMontantDucsAnnuelle(): void {
 
         $obj = new PaiementsEdi();
 
@@ -131,7 +131,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMoyenPaiement() {
+    public function testSetMoyenPaiement(): void {
 
         $obj = new PaiementsEdi();
 
@@ -144,7 +144,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRib() {
+    public function testSetRib(): void {
 
         $obj = new PaiementsEdi();
 
@@ -157,7 +157,7 @@ class PaiementsEdiTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new PaiementsEdi();
 

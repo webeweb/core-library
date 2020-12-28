@@ -24,21 +24,21 @@ class ActionsCoManif {
     /**
      * Code action.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAction;
 
     /**
      * Code manif.
      *
-     * @var string
+     * @var string|null
      */
     private $codeManif;
 
     /**
      * Contact.
      *
-     * @var string
+     * @var string|null
      */
     private $contact;
 
@@ -59,154 +59,154 @@ class ActionsCoManif {
     /**
      * Duree.
      *
-     * @var int
+     * @var int|null
      */
     private $duree;
 
     /**
      * Duree dbl.
      *
-     * @var float
+     * @var float|null
      */
     private $dureeDbl;
 
     /**
      * Indice aff.
      *
-     * @var int
+     * @var int|null
      */
     private $indiceAff;
 
     /**
      * Is montant ht.
      *
-     * @var bool
+     * @var bool|null
      */
     private $isMontantHt;
 
     /**
      * Libelle.
      *
-     * @var string
+     * @var string|null
      */
     private $libelle;
 
     /**
      * Libelle memo.
      *
-     * @var string
+     * @var string|null
      */
     private $libelleMemo;
 
     /**
      * Lieu btq.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuBtq;
 
     /**
      * Lieu bureau distributeur.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuBureauDistributeur;
 
     /**
      * Lieu code postal.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuCodePostal;
 
     /**
      * Lieu complement.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuComplement;
 
     /**
      * Lieu email.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuEmail;
 
     /**
      * Lieu fax.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuFax;
 
     /**
      * Lieu nom.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuNom;
 
     /**
      * Lieu nom voie.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuNomVoie;
 
     /**
      * Lieu num voie.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuNumVoie;
 
     /**
      * Lieu pj.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuPj;
 
     /**
      * Lieu tel.
      *
-     * @var string
+     * @var string|null
      */
     private $lieuTel;
 
     /**
      * Montant cheque.
      *
-     * @var float
+     * @var float|null
      */
     private $montantCheque;
 
     /**
      * Nb seances.
      *
-     * @var int
+     * @var int|null
      */
     private $nbSeances;
 
     /**
      * Nom formateur.
      *
-     * @var string
+     * @var string|null
      */
     private $nomFormateur;
 
     /**
      * Type formation.
      *
-     * @var bool
+     * @var bool|null
      */
     private $typeFormation;
 
     /**
      * Ya feuille presence.
      *
-     * @var bool
+     * @var bool|null
      */
     private $yaFeuillePresence;
 
@@ -214,33 +214,33 @@ class ActionsCoManif {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code action.
      *
-     * @return string Returns the code action.
+     * @return string|null Returns the code action.
      */
-    public function getCodeAction() {
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
     /**
      * Get the code manif.
      *
-     * @return string Returns the code manif.
+     * @return string|null Returns the code manif.
      */
-    public function getCodeManif() {
+    public function getCodeManif(): ?string {
         return $this->codeManif;
     }
 
     /**
      * Get the contact.
      *
-     * @return string Returns the contact.
+     * @return string|null Returns the contact.
      */
-    public function getContact() {
+    public function getContact(): ?string {
         return $this->contact;
     }
 
@@ -249,7 +249,7 @@ class ActionsCoManif {
      *
      * @return DateTime|null Returns the date deb.
      */
-    public function getDateDeb() {
+    public function getDateDeb(): ?DateTime {
         return $this->dateDeb;
     }
 
@@ -258,215 +258,215 @@ class ActionsCoManif {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin() {
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
     /**
      * Get the duree.
      *
-     * @return int Returns the duree.
+     * @return int|null Returns the duree.
      */
-    public function getDuree() {
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
     /**
      * Get the duree dbl.
      *
-     * @return float Returns the duree dbl.
+     * @return float|null Returns the duree dbl.
      */
-    public function getDureeDbl() {
+    public function getDureeDbl(): ?float {
         return $this->dureeDbl;
     }
 
     /**
      * Get the indice aff.
      *
-     * @return int Returns the indice aff.
+     * @return int|null Returns the indice aff.
      */
-    public function getIndiceAff() {
+    public function getIndiceAff(): ?int {
         return $this->indiceAff;
     }
 
     /**
      * Get the is montant ht.
      *
-     * @return bool Returns the is montant ht.
+     * @return bool|null Returns the is montant ht.
      */
-    public function getIsMontantHt() {
+    public function getIsMontantHt(): ?bool {
         return $this->isMontantHt;
     }
 
     /**
      * Get the libelle.
      *
-     * @return string Returns the libelle.
+     * @return string|null Returns the libelle.
      */
-    public function getLibelle() {
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
     /**
      * Get the libelle memo.
      *
-     * @return string Returns the libelle memo.
+     * @return string|null Returns the libelle memo.
      */
-    public function getLibelleMemo() {
+    public function getLibelleMemo(): ?string {
         return $this->libelleMemo;
     }
 
     /**
      * Get the lieu btq.
      *
-     * @return string Returns the lieu btq.
+     * @return string|null Returns the lieu btq.
      */
-    public function getLieuBtq() {
+    public function getLieuBtq(): ?string {
         return $this->lieuBtq;
     }
 
     /**
      * Get the lieu bureau distributeur.
      *
-     * @return string Returns the lieu bureau distributeur.
+     * @return string|null Returns the lieu bureau distributeur.
      */
-    public function getLieuBureauDistributeur() {
+    public function getLieuBureauDistributeur(): ?string {
         return $this->lieuBureauDistributeur;
     }
 
     /**
      * Get the lieu code postal.
      *
-     * @return string Returns the lieu code postal.
+     * @return string|null Returns the lieu code postal.
      */
-    public function getLieuCodePostal() {
+    public function getLieuCodePostal(): ?string {
         return $this->lieuCodePostal;
     }
 
     /**
      * Get the lieu complement.
      *
-     * @return string Returns the lieu complement.
+     * @return string|null Returns the lieu complement.
      */
-    public function getLieuComplement() {
+    public function getLieuComplement(): ?string {
         return $this->lieuComplement;
     }
 
     /**
      * Get the lieu email.
      *
-     * @return string Returns the lieu email.
+     * @return string|null Returns the lieu email.
      */
-    public function getLieuEmail() {
+    public function getLieuEmail(): ?string {
         return $this->lieuEmail;
     }
 
     /**
      * Get the lieu fax.
      *
-     * @return string Returns the lieu fax.
+     * @return string|null Returns the lieu fax.
      */
-    public function getLieuFax() {
+    public function getLieuFax(): ?string {
         return $this->lieuFax;
     }
 
     /**
      * Get the lieu nom.
      *
-     * @return string Returns the lieu nom.
+     * @return string|null Returns the lieu nom.
      */
-    public function getLieuNom() {
+    public function getLieuNom(): ?string {
         return $this->lieuNom;
     }
 
     /**
      * Get the lieu nom voie.
      *
-     * @return string Returns the lieu nom voie.
+     * @return string|null Returns the lieu nom voie.
      */
-    public function getLieuNomVoie() {
+    public function getLieuNomVoie(): ?string {
         return $this->lieuNomVoie;
     }
 
     /**
      * Get the lieu num voie.
      *
-     * @return string Returns the lieu num voie.
+     * @return string|null Returns the lieu num voie.
      */
-    public function getLieuNumVoie() {
+    public function getLieuNumVoie(): ?string {
         return $this->lieuNumVoie;
     }
 
     /**
      * Get the lieu pj.
      *
-     * @return string Returns the lieu pj.
+     * @return string|null Returns the lieu pj.
      */
-    public function getLieuPj() {
+    public function getLieuPj(): ?string {
         return $this->lieuPj;
     }
 
     /**
      * Get the lieu tel.
      *
-     * @return string Returns the lieu tel.
+     * @return string|null Returns the lieu tel.
      */
-    public function getLieuTel() {
+    public function getLieuTel(): ?string {
         return $this->lieuTel;
     }
 
     /**
      * Get the montant cheque.
      *
-     * @return float Returns the montant cheque.
+     * @return float|null Returns the montant cheque.
      */
-    public function getMontantCheque() {
+    public function getMontantCheque(): ?float {
         return $this->montantCheque;
     }
 
     /**
      * Get the nb seances.
      *
-     * @return int Returns the nb seances.
+     * @return int|null Returns the nb seances.
      */
-    public function getNbSeances() {
+    public function getNbSeances(): ?int {
         return $this->nbSeances;
     }
 
     /**
      * Get the nom formateur.
      *
-     * @return string Returns the nom formateur.
+     * @return string|null Returns the nom formateur.
      */
-    public function getNomFormateur() {
+    public function getNomFormateur(): ?string {
         return $this->nomFormateur;
     }
 
     /**
      * Get the type formation.
      *
-     * @return bool Returns the type formation.
+     * @return bool|null Returns the type formation.
      */
-    public function getTypeFormation() {
+    public function getTypeFormation(): ?bool {
         return $this->typeFormation;
     }
 
     /**
      * Get the ya feuille presence.
      *
-     * @return bool Returns the ya feuille presence.
+     * @return bool|null Returns the ya feuille presence.
      */
-    public function getYaFeuillePresence() {
+    public function getYaFeuillePresence(): ?bool {
         return $this->yaFeuillePresence;
     }
 
     /**
      * Set the code action.
      *
-     * @param string $codeAction The code action.
+     * @param string|null $codeAction The code action.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setCodeAction($codeAction) {
+    public function setCodeAction(?string $codeAction): ActionsCoManif {
         $this->codeAction = $codeAction;
         return $this;
     }
@@ -474,10 +474,10 @@ class ActionsCoManif {
     /**
      * Set the code manif.
      *
-     * @param string $codeManif The code manif.
+     * @param string|null $codeManif The code manif.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setCodeManif($codeManif) {
+    public function setCodeManif(?string $codeManif): ActionsCoManif {
         $this->codeManif = $codeManif;
         return $this;
     }
@@ -485,10 +485,10 @@ class ActionsCoManif {
     /**
      * Set the contact.
      *
-     * @param string $contact The contact.
+     * @param string|null $contact The contact.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setContact($contact) {
+    public function setContact(?string $contact): ActionsCoManif {
         $this->contact = $contact;
         return $this;
     }
@@ -499,7 +499,7 @@ class ActionsCoManif {
      * @param DateTime|null $dateDeb The date deb.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setDateDeb(DateTime $dateDeb = null) {
+    public function setDateDeb(?DateTime $dateDeb): ActionsCoManif {
         $this->dateDeb = $dateDeb;
         return $this;
     }
@@ -510,7 +510,7 @@ class ActionsCoManif {
      * @param DateTime|null $dateFin The date fin.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setDateFin(DateTime $dateFin = null) {
+    public function setDateFin(?DateTime $dateFin): ActionsCoManif {
         $this->dateFin = $dateFin;
         return $this;
     }
@@ -518,10 +518,10 @@ class ActionsCoManif {
     /**
      * Set the duree.
      *
-     * @param int $duree The duree.
+     * @param int|null $duree The duree.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setDuree($duree) {
+    public function setDuree(?int $duree): ActionsCoManif {
         $this->duree = $duree;
         return $this;
     }
@@ -529,10 +529,10 @@ class ActionsCoManif {
     /**
      * Set the duree dbl.
      *
-     * @param float $dureeDbl The duree dbl.
+     * @param float|null $dureeDbl The duree dbl.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setDureeDbl($dureeDbl) {
+    public function setDureeDbl(?float $dureeDbl): ActionsCoManif {
         $this->dureeDbl = $dureeDbl;
         return $this;
     }
@@ -540,10 +540,10 @@ class ActionsCoManif {
     /**
      * Set the indice aff.
      *
-     * @param int $indiceAff The indice aff.
+     * @param int|null $indiceAff The indice aff.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setIndiceAff($indiceAff) {
+    public function setIndiceAff(?int $indiceAff): ActionsCoManif {
         $this->indiceAff = $indiceAff;
         return $this;
     }
@@ -551,10 +551,10 @@ class ActionsCoManif {
     /**
      * Set the is montant ht.
      *
-     * @param bool $isMontantHt The is montant ht.
+     * @param bool|null $isMontantHt The is montant ht.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setIsMontantHt($isMontantHt) {
+    public function setIsMontantHt(?bool $isMontantHt): ActionsCoManif {
         $this->isMontantHt = $isMontantHt;
         return $this;
     }
@@ -562,10 +562,10 @@ class ActionsCoManif {
     /**
      * Set the libelle.
      *
-     * @param string $libelle The libelle.
+     * @param string|null $libelle The libelle.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLibelle($libelle) {
+    public function setLibelle(?string $libelle): ActionsCoManif {
         $this->libelle = $libelle;
         return $this;
     }
@@ -573,10 +573,10 @@ class ActionsCoManif {
     /**
      * Set the libelle memo.
      *
-     * @param string $libelleMemo The libelle memo.
+     * @param string|null $libelleMemo The libelle memo.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLibelleMemo($libelleMemo) {
+    public function setLibelleMemo(?string $libelleMemo): ActionsCoManif {
         $this->libelleMemo = $libelleMemo;
         return $this;
     }
@@ -584,10 +584,10 @@ class ActionsCoManif {
     /**
      * Set the lieu btq.
      *
-     * @param string $lieuBtq The lieu btq.
+     * @param string|null $lieuBtq The lieu btq.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuBtq($lieuBtq) {
+    public function setLieuBtq(?string $lieuBtq): ActionsCoManif {
         $this->lieuBtq = $lieuBtq;
         return $this;
     }
@@ -595,10 +595,10 @@ class ActionsCoManif {
     /**
      * Set the lieu bureau distributeur.
      *
-     * @param string $lieuBureauDistributeur The lieu bureau distributeur.
+     * @param string|null $lieuBureauDistributeur The lieu bureau distributeur.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuBureauDistributeur($lieuBureauDistributeur) {
+    public function setLieuBureauDistributeur(?string $lieuBureauDistributeur): ActionsCoManif {
         $this->lieuBureauDistributeur = $lieuBureauDistributeur;
         return $this;
     }
@@ -606,10 +606,10 @@ class ActionsCoManif {
     /**
      * Set the lieu code postal.
      *
-     * @param string $lieuCodePostal The lieu code postal.
+     * @param string|null $lieuCodePostal The lieu code postal.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuCodePostal($lieuCodePostal) {
+    public function setLieuCodePostal(?string $lieuCodePostal): ActionsCoManif {
         $this->lieuCodePostal = $lieuCodePostal;
         return $this;
     }
@@ -617,10 +617,10 @@ class ActionsCoManif {
     /**
      * Set the lieu complement.
      *
-     * @param string $lieuComplement The lieu complement.
+     * @param string|null $lieuComplement The lieu complement.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuComplement($lieuComplement) {
+    public function setLieuComplement(?string $lieuComplement): ActionsCoManif {
         $this->lieuComplement = $lieuComplement;
         return $this;
     }
@@ -628,10 +628,10 @@ class ActionsCoManif {
     /**
      * Set the lieu email.
      *
-     * @param string $lieuEmail The lieu email.
+     * @param string|null $lieuEmail The lieu email.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuEmail($lieuEmail) {
+    public function setLieuEmail(?string $lieuEmail): ActionsCoManif {
         $this->lieuEmail = $lieuEmail;
         return $this;
     }
@@ -639,10 +639,10 @@ class ActionsCoManif {
     /**
      * Set the lieu fax.
      *
-     * @param string $lieuFax The lieu fax.
+     * @param string|null $lieuFax The lieu fax.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuFax($lieuFax) {
+    public function setLieuFax(?string $lieuFax): ActionsCoManif {
         $this->lieuFax = $lieuFax;
         return $this;
     }
@@ -650,10 +650,10 @@ class ActionsCoManif {
     /**
      * Set the lieu nom.
      *
-     * @param string $lieuNom The lieu nom.
+     * @param string|null $lieuNom The lieu nom.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuNom($lieuNom) {
+    public function setLieuNom(?string $lieuNom): ActionsCoManif {
         $this->lieuNom = $lieuNom;
         return $this;
     }
@@ -661,10 +661,10 @@ class ActionsCoManif {
     /**
      * Set the lieu nom voie.
      *
-     * @param string $lieuNomVoie The lieu nom voie.
+     * @param string|null $lieuNomVoie The lieu nom voie.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuNomVoie($lieuNomVoie) {
+    public function setLieuNomVoie(?string $lieuNomVoie): ActionsCoManif {
         $this->lieuNomVoie = $lieuNomVoie;
         return $this;
     }
@@ -672,10 +672,10 @@ class ActionsCoManif {
     /**
      * Set the lieu num voie.
      *
-     * @param string $lieuNumVoie The lieu num voie.
+     * @param string|null $lieuNumVoie The lieu num voie.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuNumVoie($lieuNumVoie) {
+    public function setLieuNumVoie(?string $lieuNumVoie): ActionsCoManif {
         $this->lieuNumVoie = $lieuNumVoie;
         return $this;
     }
@@ -683,10 +683,10 @@ class ActionsCoManif {
     /**
      * Set the lieu pj.
      *
-     * @param string $lieuPj The lieu pj.
+     * @param string|null $lieuPj The lieu pj.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuPj($lieuPj) {
+    public function setLieuPj(?string $lieuPj): ActionsCoManif {
         $this->lieuPj = $lieuPj;
         return $this;
     }
@@ -694,10 +694,10 @@ class ActionsCoManif {
     /**
      * Set the lieu tel.
      *
-     * @param string $lieuTel The lieu tel.
+     * @param string|null $lieuTel The lieu tel.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setLieuTel($lieuTel) {
+    public function setLieuTel(?string $lieuTel): ActionsCoManif {
         $this->lieuTel = $lieuTel;
         return $this;
     }
@@ -705,10 +705,10 @@ class ActionsCoManif {
     /**
      * Set the montant cheque.
      *
-     * @param float $montantCheque The montant cheque.
+     * @param float|null $montantCheque The montant cheque.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setMontantCheque($montantCheque) {
+    public function setMontantCheque(?float $montantCheque): ActionsCoManif {
         $this->montantCheque = $montantCheque;
         return $this;
     }
@@ -716,10 +716,10 @@ class ActionsCoManif {
     /**
      * Set the nb seances.
      *
-     * @param int $nbSeances The nb seances.
+     * @param int|null $nbSeances The nb seances.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setNbSeances($nbSeances) {
+    public function setNbSeances(?int $nbSeances): ActionsCoManif {
         $this->nbSeances = $nbSeances;
         return $this;
     }
@@ -727,10 +727,10 @@ class ActionsCoManif {
     /**
      * Set the nom formateur.
      *
-     * @param string $nomFormateur The nom formateur.
+     * @param string|null $nomFormateur The nom formateur.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setNomFormateur($nomFormateur) {
+    public function setNomFormateur(?string $nomFormateur): ActionsCoManif {
         $this->nomFormateur = $nomFormateur;
         return $this;
     }
@@ -738,10 +738,10 @@ class ActionsCoManif {
     /**
      * Set the type formation.
      *
-     * @param bool $typeFormation The type formation.
+     * @param bool|null $typeFormation The type formation.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setTypeFormation($typeFormation) {
+    public function setTypeFormation(?bool $typeFormation): ActionsCoManif {
         $this->typeFormation = $typeFormation;
         return $this;
     }
@@ -749,10 +749,10 @@ class ActionsCoManif {
     /**
      * Set the ya feuille presence.
      *
-     * @param bool $yaFeuillePresence The ya feuille presence.
+     * @param bool|null $yaFeuillePresence The ya feuille presence.
      * @return ActionsCoManif Returns this Actions co manif.
      */
-    public function setYaFeuillePresence($yaFeuillePresence) {
+    public function setYaFeuillePresence(?bool $yaFeuillePresence): ActionsCoManif {
         $this->yaFeuillePresence = $yaFeuillePresence;
         return $this;
     }

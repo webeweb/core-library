@@ -24,21 +24,21 @@ class AffaireMtPrevisionnel {
     /**
      * Code affaire.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAffaire;
 
     /**
      * Code avenant.
      *
-     * @var string
+     * @var string|null
      */
     private $codeAvenant;
 
     /**
      * Code phase.
      *
-     * @var string
+     * @var string|null
      */
     private $codePhase;
 
@@ -52,62 +52,63 @@ class AffaireMtPrevisionnel {
     /**
      * Mt phase.
      *
-     * @var float
+     * @var float|null
      */
     private $mtPhase;
 
     /**
      * Mt prev.
      *
-     * @var float
+     * @var float|null
      */
     private $mtPrev;
 
     /**
      * Prct phase.
      *
-     * @var float
+     * @var float|null
      */
     private $prctPhase;
 
     /**
      * Type.
      *
-     * @var string
+     * @var string|null
      */
     private $type;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the code affaire.
      *
-     * @return string Returns the code affaire.
+     * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire() {
+    public function getCodeAffaire(): ?string{
         return $this->codeAffaire;
     }
 
     /**
      * Get the code avenant.
      *
-     * @return string Returns the code avenant.
+     * @return string|null Returns the code avenant.
      */
-    public function getCodeAvenant() {
+    public function getCodeAvenant(): ?string{
         return $this->codeAvenant;
     }
 
     /**
      * Get the code phase.
      *
-     * @return string Returns the code phase.
+     * @return string|null Returns the code phase.
      */
-    public function getCodePhase() {
+    public function getCodePhase(): ?string{
         return $this->codePhase;
     }
 
@@ -116,53 +117,53 @@ class AffaireMtPrevisionnel {
      *
      * @return DateTime|null Returns the date prev.
      */
-    public function getDatePrev() {
+    public function getDatePrev(): ?DateTime{
         return $this->datePrev;
     }
 
     /**
      * Get the mt phase.
      *
-     * @return float Returns the mt phase.
+     * @return float|null Returns the mt phase.
      */
-    public function getMtPhase() {
+    public function getMtPhase(): ?float{
         return $this->mtPhase;
     }
 
     /**
      * Get the mt prev.
      *
-     * @return float Returns the mt prev.
+     * @return float|null Returns the mt prev.
      */
-    public function getMtPrev() {
+    public function getMtPrev(): ?float{
         return $this->mtPrev;
     }
 
     /**
      * Get the prct phase.
      *
-     * @return float Returns the prct phase.
+     * @return float|null Returns the prct phase.
      */
-    public function getPrctPhase() {
+    public function getPrctPhase(): ?float{
         return $this->prctPhase;
     }
 
     /**
      * Get the type.
      *
-     * @return string Returns the type.
+     * @return string|null Returns the type.
      */
-    public function getType() {
+    public function getType(): ?string{
         return $this->type;
     }
 
     /**
      * Set the code affaire.
      *
-     * @param string $codeAffaire The code affaire.
+     * @param string|null $codeAffaire The code affaire.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setCodeAffaire($codeAffaire) {
+    public function setCodeAffaire(?string $codeAffaire): AffaireMtPrevisionnel {
         $this->codeAffaire = $codeAffaire;
         return $this;
     }
@@ -170,10 +171,10 @@ class AffaireMtPrevisionnel {
     /**
      * Set the code avenant.
      *
-     * @param string $codeAvenant The code avenant.
+     * @param string|null $codeAvenant The code avenant.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setCodeAvenant($codeAvenant) {
+    public function setCodeAvenant(?string $codeAvenant): AffaireMtPrevisionnel {
         $this->codeAvenant = $codeAvenant;
         return $this;
     }
@@ -181,10 +182,10 @@ class AffaireMtPrevisionnel {
     /**
      * Set the code phase.
      *
-     * @param string $codePhase The code phase.
+     * @param string|null $codePhase The code phase.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setCodePhase($codePhase) {
+    public function setCodePhase(?string $codePhase): AffaireMtPrevisionnel {
         $this->codePhase = $codePhase;
         return $this;
     }
@@ -195,7 +196,7 @@ class AffaireMtPrevisionnel {
      * @param DateTime|null $datePrev The date prev.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setDatePrev(DateTime $datePrev = null) {
+    public function setDatePrev(?DateTime $datePrev): AffaireMtPrevisionnel {
         $this->datePrev = $datePrev;
         return $this;
     }
@@ -203,10 +204,10 @@ class AffaireMtPrevisionnel {
     /**
      * Set the mt phase.
      *
-     * @param float $mtPhase The mt phase.
+     * @param float|null $mtPhase The mt phase.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setMtPhase($mtPhase) {
+    public function setMtPhase(?float $mtPhase): AffaireMtPrevisionnel {
         $this->mtPhase = $mtPhase;
         return $this;
     }
@@ -214,10 +215,10 @@ class AffaireMtPrevisionnel {
     /**
      * Set the mt prev.
      *
-     * @param float $mtPrev The mt prev.
+     * @param float|null $mtPrev The mt prev.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setMtPrev($mtPrev) {
+    public function setMtPrev(?float $mtPrev): AffaireMtPrevisionnel {
         $this->mtPrev = $mtPrev;
         return $this;
     }
@@ -225,10 +226,10 @@ class AffaireMtPrevisionnel {
     /**
      * Set the prct phase.
      *
-     * @param float $prctPhase The prct phase.
+     * @param float|null $prctPhase The prct phase.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setPrctPhase($prctPhase) {
+    public function setPrctPhase(?float $prctPhase): AffaireMtPrevisionnel {
         $this->prctPhase = $prctPhase;
         return $this;
     }
@@ -236,10 +237,10 @@ class AffaireMtPrevisionnel {
     /**
      * Set the type.
      *
-     * @param string $type The type.
+     * @param string|null $type The type.
      * @return AffaireMtPrevisionnel Returns this Affaire mt previsionnel.
      */
-    public function setType($type) {
+    public function setType(?string $type): AffaireMtPrevisionnel {
         $this->type = $type;
         return $this;
     }

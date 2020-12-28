@@ -26,7 +26,7 @@ class TestNode extends AbstractNode {
      *
      * @param string $id The id.
      */
-    public function __construct($id) {
+    public function __construct(string $id) {
         parent::__construct($id);
     }
 }

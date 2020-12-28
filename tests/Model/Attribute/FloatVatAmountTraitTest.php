@@ -27,7 +27,7 @@ class FloatVatAmountTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVatAmount() {
+    public function testSetVatAmount(): void {
 
         $obj = new TestFloatVatAmountTrait();
 
@@ -40,7 +40,7 @@ class FloatVatAmountTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__constructor() {
+    public function test__constructor(): void {
 
         $obj = new TestFloatVatAmountTrait();
 

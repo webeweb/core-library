@@ -24,14 +24,14 @@ class ComptesRecurrents {
     /**
      * Compte.
      *
-     * @var string
+     * @var string|null
      */
     private $compte;
 
     /**
      * Compte recurrent.
      *
-     * @var string
+     * @var string|null
      */
     private $compteRecurrent;
 
@@ -45,32 +45,33 @@ class ComptesRecurrents {
     /**
      * Nb acces.
      *
-     * @var int
+     * @var int|null
      */
     private $nbAcces;
+
 
     /**
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO;
+        // NOTHING TO DO
     }
 
     /**
      * Get the compte.
      *
-     * @return string Returns the compte.
+     * @return string|null Returns the compte.
      */
-    public function getCompte() {
+    public function getCompte(): ?string{
         return $this->compte;
     }
 
     /**
      * Get the compte recurrent.
      *
-     * @return string Returns the compte recurrent.
+     * @return string|null Returns the compte recurrent.
      */
-    public function getCompteRecurrent() {
+    public function getCompteRecurrent(): ?string{
         return $this->compteRecurrent;
     }
 
@@ -79,26 +80,26 @@ class ComptesRecurrents {
      *
      * @return DateTime|null Returns the date dernier acces.
      */
-    public function getDateDernierAcces() {
+    public function getDateDernierAcces(): ?DateTime{
         return $this->dateDernierAcces;
     }
 
     /**
      * Get the nb acces.
      *
-     * @return int Returns the nb acces.
+     * @return int|null Returns the nb acces.
      */
-    public function getNbAcces() {
+    public function getNbAcces(): ?int{
         return $this->nbAcces;
     }
 
     /**
      * Set the compte.
      *
-     * @param string $compte The compte.
+     * @param string|null $compte The compte.
      * @return ComptesRecurrents Returns this Comptes recurrents.
      */
-    public function setCompte($compte) {
+    public function setCompte(?string $compte): ComptesRecurrents {
         $this->compte = $compte;
         return $this;
     }
@@ -106,10 +107,10 @@ class ComptesRecurrents {
     /**
      * Set the compte recurrent.
      *
-     * @param string $compteRecurrent The compte recurrent.
+     * @param string|null $compteRecurrent The compte recurrent.
      * @return ComptesRecurrents Returns this Comptes recurrents.
      */
-    public function setCompteRecurrent($compteRecurrent) {
+    public function setCompteRecurrent(?string $compteRecurrent): ComptesRecurrents {
         $this->compteRecurrent = $compteRecurrent;
         return $this;
     }
@@ -120,7 +121,7 @@ class ComptesRecurrents {
      * @param DateTime|null $dateDernierAcces The date dernier acces.
      * @return ComptesRecurrents Returns this Comptes recurrents.
      */
-    public function setDateDernierAcces(DateTime $dateDernierAcces = null) {
+    public function setDateDernierAcces(?DateTime $dateDernierAcces): ComptesRecurrents {
         $this->dateDernierAcces = $dateDernierAcces;
         return $this;
     }
@@ -128,10 +129,10 @@ class ComptesRecurrents {
     /**
      * Set the nb acces.
      *
-     * @param int $nbAcces The nb acces.
+     * @param int|null $nbAcces The nb acces.
      * @return ComptesRecurrents Returns this Comptes recurrents.
      */
-    public function setNbAcces($nbAcces) {
+    public function setNbAcces(?int $nbAcces): ComptesRecurrents {
         $this->nbAcces = $nbAcces;
         return $this;
     }

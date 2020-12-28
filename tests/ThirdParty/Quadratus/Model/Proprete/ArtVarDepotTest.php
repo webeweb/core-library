@@ -27,7 +27,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetAlleeCasier() {
+    public function testSetAlleeCasier(): void {
 
         $obj = new ArtVarDepot();
 
@@ -40,7 +40,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new ArtVarDepot();
 
@@ -53,7 +53,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeDepot() {
+    public function testSetCodeDepot(): void {
 
         $obj = new ArtVarDepot();
 
@@ -66,7 +66,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVariante() {
+    public function testSetCodeVariante(): void {
 
         $obj = new ArtVarDepot();
 
@@ -79,7 +79,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteStockAttente() {
+    public function testSetQteStockAttente(): void {
 
         $obj = new ArtVarDepot();
 
@@ -92,7 +92,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteStockMaxi() {
+    public function testSetQteStockMaxi(): void {
 
         $obj = new ArtVarDepot();
 
@@ -105,7 +105,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteStockMini() {
+    public function testSetQteStockMini(): void {
 
         $obj = new ArtVarDepot();
 
@@ -118,7 +118,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteStockReel() {
+    public function testSetQteStockReel(): void {
 
         $obj = new ArtVarDepot();
 
@@ -131,7 +131,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQteStockReserve() {
+    public function testSetQteStockReserve(): void {
 
         $obj = new ArtVarDepot();
 
@@ -144,7 +144,7 @@ class ArtVarDepotTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new ArtVarDepot();
 

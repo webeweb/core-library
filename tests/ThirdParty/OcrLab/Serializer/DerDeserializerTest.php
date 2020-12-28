@@ -28,7 +28,7 @@ class DerDeserializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeserializeDocument() {
+    public function testDeserializeDocument(): void {
 
         // Set a filename mock.
         $filename = getcwd() . "/tests/Fixtures/ThirdParty/OcrLad/OcrLad.der";
@@ -52,7 +52,7 @@ class DerDeserializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeserializePage() {
+    public function testDeserializePage(): void {
 
         // Set a raw data mock.
         $rawData = "300;3507;2480;270;0;";
@@ -70,7 +70,7 @@ class DerDeserializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeserializePageWithoutRawData() {
+    public function testDeserializePageWithoutRawData(): void {
 
         $res = TestDerDeserializer::deserializePage("");
         $this->assertNull($res);
@@ -81,7 +81,7 @@ class DerDeserializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeserializeWord() {
+    public function testDeserializeWord(): void {
 
         // Set a raw data mock.
         $rawData = "Hello;NLB\e1;0,965782880783081;1594;158;1659;201";
@@ -102,7 +102,7 @@ class DerDeserializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testDeserializeWordWithoutRawData() {
+    public function testDeserializeWordWithoutRawData(): void {
 
         $res = TestDerDeserializer::deserializeWord("");
         $this->assertNull($res);
@@ -113,7 +113,7 @@ class DerDeserializerTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSplitHeader() {
+    public function testSplitHeader(): void {
 
         // Set a raw data.
         $rawData = "300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;;300;2479;3508;0;0;";
@@ -133,7 +133,7 @@ class DerDeserializerTest extends AbstractTestCase {
     /**
      * Tests the __construct() method.
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $this->assertEquals(";", DerDeserializer::DER_DELIMITER);
     }

@@ -29,7 +29,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaire() {
+    public function testSetCodeAffaire(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -42,7 +42,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAffaireLigne() {
+    public function testSetCodeAffaireLigne(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -55,7 +55,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeAnalArticle() {
+    public function testSetCodeAnalArticle(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -68,7 +68,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeArticle() {
+    public function testSetCodeArticle(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -81,7 +81,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantier() {
+    public function testSetCodeChantier(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -94,7 +94,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeChantierLigne() {
+    public function testSetCodeChantierLigne(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -107,7 +107,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeClient() {
+    public function testSetCodeClient(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -120,7 +120,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeRegroupement() {
+    public function testSetCodeRegroupement(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -133,7 +133,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeTvaArticle() {
+    public function testSetCodeTvaArticle(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -146,7 +146,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeUnite() {
+    public function testSetCodeUnite(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -159,7 +159,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetCodeVentilArticle() {
+    public function testSetCodeVentilArticle(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -172,7 +172,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDepuisDebFac() {
+    public function testSetDepuisDebFac(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -185,7 +185,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation() {
+    public function testSetDesignation(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -198,7 +198,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation2() {
+    public function testSetDesignation2(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -211,7 +211,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignation3() {
+    public function testSetDesignation3(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -224,7 +224,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationBis() {
+    public function testSetDesignationBis(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -237,7 +237,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationBis2() {
+    public function testSetDesignationBis2(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -250,7 +250,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationBis3() {
+    public function testSetDesignationBis3(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -263,7 +263,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetDesignationRtf() {
+    public function testSetDesignationRtf(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -276,7 +276,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetImprimerDansPied() {
+    public function testSetImprimerDansPied(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -289,7 +289,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMontantUnitaireTaxe() {
+    public function testSetMontantUnitaireTaxe(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -302,7 +302,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetMotCleDansPied() {
+    public function testSetMotCleDansPied(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -315,7 +315,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroDevis() {
+    public function testSetNumeroDevis(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -328,7 +328,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetNumeroLigne() {
+    public function testSetNumeroLigne(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -342,7 +342,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function testSetPeriodeVentilMarge() {
+    public function testSetPeriodeVentilMarge(): void {
 
         // Set a Date/time mock.
         $periodeVentilMarge = new DateTime("2018-09-10");
@@ -358,7 +358,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPosteRent() {
+    public function testSetPosteRent(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -371,7 +371,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixAchat() {
+    public function testSetPrixAchat(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -384,7 +384,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPrixUnitaire() {
+    public function testSetPrixUnitaire(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -397,7 +397,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetPxDevis() {
+    public function testSetPxDevis(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -410,7 +410,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetQuantite() {
+    public function testSetQuantite(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -423,7 +423,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne1() {
+    public function testSetRemiseLigne1(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -436,7 +436,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne2() {
+    public function testSetRemiseLigne2(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -449,7 +449,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetRemiseLigne3() {
+    public function testSetRemiseLigne3(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -462,7 +462,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTvaArticle() {
+    public function testSetTauxTvaArticle(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -475,7 +475,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetTauxTvaTaxe() {
+    public function testSetTauxTvaTaxe(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -488,7 +488,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetVentilMarge() {
+    public function testSetVentilMarge(): void {
 
         $obj = new DevisCommercialLignes();
 
@@ -501,7 +501,7 @@ class DevisCommercialLignesTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function test__construct() {
+    public function test__construct(): void {
 
         $obj = new DevisCommercialLignes();
 
