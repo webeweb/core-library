@@ -1,6 +1,15 @@
 CHANGELOG
 =========
 
+### master
+
+> IMPORTANT NOTICE: The following PHP versions are now not supported
+> - PHP 5.6
+> - PHP 7.0
+
+- Add string Tooltip trait
+- Improve unit tests
+
 ### [6.7.0](https://github.com/webeweb/core-library/tree/v6.7.0) (2020-06-25)
 
 - Add string Data trait
