@@ -115,10 +115,10 @@ class CurlGetRequestTest extends AbstractTestCase {
         $obj = new CurlGetRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("h", "v");
 
-        $resH = $obj->call();
-        $this->assertContains("h: v", $resH->getRequestHeader());
-        $this->assertEquals(CurlGetRequest::HTTP_METHOD_GET, json_decode($resH->getResponseBody(), true)["method"]);
-        $this->assertEquals(200, $resH->getResponseInfo()["http_code"]);
+        $res = $obj->call();
+        $this->assertEquals("h: v", $res->getRequestHeader()[0]);
+        $this->assertEquals(CurlGetRequest::HTTP_METHOD_GET, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
     /**
@@ -134,8 +134,8 @@ class CurlGetRequestTest extends AbstractTestCase {
         $obj->addPostData("name", "value");
 
         $res = $obj->call();
-        $this->assertContains("Content-Type: application/json", $res->getRequestHeader());
-        $this->assertContains('{"name":"value"}', $res->getRequestBody());
+        $this->assertEquals("Content-Type: application/json", $res->getRequestHeader()[0]);
+        $this->assertStringContainsString('{"name":"value"}', $res->getRequestBody());
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -175,7 +175,7 @@ class CurlGetRequestTest extends AbstractTestCase {
             $this->assertInstanceOf(CurlRequestCallException::class, $ex);
 
             /** @var CurlRequestCallException $ex */
-            $this->assertContains("Call to ", $ex->getMessage());
+            $this->assertStringContainsString("Call to ", $ex->getMessage());
             $this->assertEquals(0, $ex->getResponse()->getResponseInfo()["http_code"]);
         }
     }

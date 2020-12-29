@@ -36,8 +36,8 @@ class CurlDeleteRequestTest extends AbstractTestCase {
         $obj->addQueryData("queryData", "queryData");
 
         $res = $obj->call();
-        $this->assertContains("header: header", $res->getRequestHeader());
-        $this->assertContains("queryData=queryData", $res->getRequestUrl());
+        $this->assertEquals("header: header", $res->getRequestHeader()[0]);
+        $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
         $this->assertEquals(CurlDeleteRequest::HTTP_METHOD_DELETE, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
