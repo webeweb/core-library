@@ -12,10 +12,11 @@ jobs:
     allow_failures:
         -   php: "nightly"
 
-os: linux
+os:       linux
 
 before_install:
     #- echo "memory_limit=4096M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
+    - echo "xdebug.mode=coverage" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
 
 install:
     - COMPOSER_MEMORY_LIMIT=-1 composer update
@@ -24,7 +25,6 @@ install:
     - php coveralls.phar --version
 
 before_script:
-    - echo "xdebug.mode=coverage" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini
     - mkdir -p build/logs
 
 script:
