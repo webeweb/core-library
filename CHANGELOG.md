@@ -1,14 +1,17 @@
 CHANGELOG
 =========
 
-### master
+### [6.8.0](https://github.com/webeweb/core-library/tree/v6.8.0) (2020-12-29)
 
 > IMPORTANT NOTICE: The following PHP versions are now not supported
 > - PHP 5.6
 > - PHP 7.0
 
 - Add string Tooltip trait
+- Add PHP 8.0 support
+- Improve PHP doc
 - Improve unit tests
+- Migrating from PHP 5.6 to PHP 7.1
 
 ### [6.7.0](https://github.com/webeweb/core-library/tree/v6.7.0) (2020-06-25)
 
