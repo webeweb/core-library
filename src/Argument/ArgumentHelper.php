@@ -44,7 +44,7 @@ class ArgumentHelper implements ArgumentInterface {
      * @return mixed Returns the value.
      * @throws InvalidArgumentException Throws an invalid argument exception.
      */
-    public static function convert(?string $value, int $type, ?string $dateFormat) {
+    public static function convert(?string $value, int $type, string $dateFormat = null) {
 
         switch ($type) {
 
