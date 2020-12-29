@@ -1,6 +1,7 @@
 # Composer
-/composer.lock
 /vendor/*
+/.phpunit.result.cache
+/composer.lock
 
 # Fixtures
 /tests/Fixtures/Utility/*thumb*
