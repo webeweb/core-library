@@ -40,11 +40,11 @@ class ArgumentHelper implements ArgumentInterface {
      *
      * @param string|null $value The string value.
      * @param int $type The type.
-     * @param string $dateFormat The date format.
+     * @param string|null $dateFormat The date format.
      * @return mixed Returns the value.
      * @throws InvalidArgumentException Throws an invalid argument exception.
      */
-    public static function convert(?string $value, int $type, $dateFormat = null) {
+    public static function convert(?string $value, int $type, ?string $dateFormat) {
 
         switch ($type) {
 

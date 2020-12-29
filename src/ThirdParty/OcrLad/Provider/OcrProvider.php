@@ -201,7 +201,7 @@ class OcrProvider extends AbstractProvider {
          * @return void
          * @var Closure
          */
-        $downloadClosure = function($local, $remote) use ($provider) {
+        $downloadClosure = function(string $local, string $remote) use ($provider) {
             $provider->getLogger()->info("OCR provider downloads a file  from the FTP server", ["_local" => $local, "_remote" => $remote]);
             $provider->getFtpClient()->get($local, $remote);
         };
