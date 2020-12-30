@@ -27,7 +27,7 @@ class BooleanEnabledTraitTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function testSetEnaled(): void {
+    public function testSetEnabled(): void {
 
         $obj = new TestBooleanEnabledTrait();
 
