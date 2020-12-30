@@ -40,7 +40,7 @@ trait StringPathnameTrait {
      *
      * @param string|null $pathname The pathname.
      */
-    public function setPathname(?string $pathname) {
+    public function setPathname(?string $pathname): self {
         $this->pathname = $pathname;
         return $this;
     }

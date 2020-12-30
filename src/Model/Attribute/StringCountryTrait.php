@@ -40,7 +40,7 @@ trait StringCountryTrait {
      *
      * @param string|null $country The country.
      */
-    public function setCountry(?string $country) {
+    public function setCountry(?string $country): self {
         $this->country = $country;
         return $this;
     }

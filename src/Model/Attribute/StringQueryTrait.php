@@ -40,7 +40,7 @@ trait StringQueryTrait {
      *
      * @param string|null $query The query.
      */
-    public function setQuery(?string $query) {
+    public function setQuery(?string $query): self {
         $this->query = $query;
         return $this;
     }

@@ -40,7 +40,7 @@ trait FloatValueTrait {
      *
      * @param float|null $value The value.
      */
-    public function setValue(?float $value) {
+    public function setValue(?float $value): self {
         $this->value = $value;
         return $this;
     }

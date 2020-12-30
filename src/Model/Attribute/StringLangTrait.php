@@ -40,7 +40,7 @@ trait StringLangTrait {
      *
      * @param string|null $lang The lang.
      */
-    public function setLang(?string $lang) {
+    public function setLang(?string $lang): self {
         $this->lang = $lang;
         return $this;
     }

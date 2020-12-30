@@ -42,7 +42,7 @@ trait DateTimeDateTrait {
      *
      * @param DateTime|null $date The date.
      */
-    public function setDate(?DateTime $date) {
+    public function setDate(?DateTime $date): self {
         $this->date = $date;
         return $this;
     }

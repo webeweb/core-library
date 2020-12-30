@@ -40,7 +40,7 @@ trait StringTooltipTrait {
      *
      * @param string|null $tooltip The tooltip.
      */
-    public function setTooltip(?string $tooltip) {
+    public function setTooltip(?string $tooltip): self {
         $this->tooltip = $tooltip;
         return $this;
     }

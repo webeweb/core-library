@@ -40,7 +40,7 @@ trait FloatAverageTrait {
      *
      * @param float|null $average The average.
      */
-    public function setAverage(?float $average) {
+    public function setAverage(?float $average): self {
         $this->average = $average;
         return $this;
     }

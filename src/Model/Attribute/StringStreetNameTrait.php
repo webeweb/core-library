@@ -40,7 +40,7 @@ trait StringStreetNameTrait {
      *
      * @param string|null $streetName The street name.
      */
-    public function setStreetName(?string $streetName) {
+    public function setStreetName(?string $streetName): self {
         $this->streetName = $streetName;
         return $this;
     }

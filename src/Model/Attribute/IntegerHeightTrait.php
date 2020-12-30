@@ -40,7 +40,7 @@ trait IntegerHeightTrait {
      *
      * @param int|null $height The height.
      */
-    public function setHeight(?int $height) {
+    public function setHeight(?int $height): self {
         $this->height = $height;
         return $this;
     }

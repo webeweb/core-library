@@ -42,7 +42,7 @@ trait DateTimeUpdatedAtTrait {
      *
      * @param DateTime|null $updatedAt The updated at.
      */
-    public function setUpdatedAt(?DateTime $updatedAt) {
+    public function setUpdatedAt(?DateTime $updatedAt): self {
         $this->updatedAt = $updatedAt;
         return $this;
     }

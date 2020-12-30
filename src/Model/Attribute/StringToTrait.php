@@ -40,7 +40,7 @@ trait StringToTrait {
      *
      * @param string|null $to The to.
      */
-    public function setTo(?string $to) {
+    public function setTo(?string $to): self {
         $this->to = $to;
         return $this;
     }

@@ -40,7 +40,7 @@ trait StringDirectoryTrait {
      *
      * @param string|null $directory The directory.
      */
-    public function setDirectory(?string $directory) {
+    public function setDirectory(?string $directory): self {
         $this->directory = $directory;
         return $this;
     }

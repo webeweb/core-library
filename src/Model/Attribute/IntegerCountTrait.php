@@ -40,7 +40,7 @@ trait IntegerCountTrait {
      *
      * @param int|null $count The count.
      */
-    public function setCount(?int $count) {
+    public function setCount(?int $count): self {
         $this->count = $count;
         return $this;
     }

@@ -40,7 +40,7 @@ trait StringReferenceTrait {
      *
      * @param string|null $reference The reference.
      */
-    public function setReference(?string $reference) {
+    public function setReference(?string $reference): self {
         $this->reference = $reference;
         return $this;
     }

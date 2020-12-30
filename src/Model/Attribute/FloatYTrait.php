@@ -49,7 +49,7 @@ trait FloatYTrait {
      *
      * @param float|null $y The y.
      */
-    public function setY(?float $y) {
+    public function setY(?float $y): self {
         $this->y = $y;
         return $this;
     }

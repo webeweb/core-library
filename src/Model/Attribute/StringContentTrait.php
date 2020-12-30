@@ -40,7 +40,7 @@ trait StringContentTrait {
      *
      * @param string|null $content The content.
      */
-    public function setContent(?string $content) {
+    public function setContent(?string $content): self {
         $this->content = $content;
         return $this;
     }

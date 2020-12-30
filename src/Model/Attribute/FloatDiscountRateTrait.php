@@ -40,7 +40,7 @@ trait FloatDiscountRateTrait {
      *
      * @param float|null $discountRate The discount rate.
      */
-    public function setDiscountRate(?float $discountRate) {
+    public function setDiscountRate(?float $discountRate): self {
         $this->discountRate = $discountRate;
         return $this;
     }

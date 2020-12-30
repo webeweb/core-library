@@ -40,7 +40,7 @@ trait FloatIncludingVatPriceTrait {
      *
      * @param float|null $includingVatPrice The including VAT price.
      */
-    public function setIncludingVatPrice(?float $includingVatPrice) {
+    public function setIncludingVatPrice(?float $includingVatPrice): self {
         $this->includingVatPrice = $includingVatPrice;
         return $this;
     }

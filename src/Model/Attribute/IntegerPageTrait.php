@@ -40,7 +40,7 @@ trait IntegerPageTrait {
      *
      * @param int|null $page The page.
      */
-    public function setPage(?int $page) {
+    public function setPage(?int $page): self {
         $this->page = $page;
         return $this;
     }

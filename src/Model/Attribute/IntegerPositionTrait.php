@@ -40,7 +40,7 @@ trait IntegerPositionTrait {
      *
      * @param int|null $position The position.
      */
-    public function setPosition(?int $position) {
+    public function setPosition(?int $position): self {
         $this->position = $position;
         return $this;
     }

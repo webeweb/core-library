@@ -40,7 +40,7 @@ trait StringAddresseeTrait {
      *
      * @param string|null $addressee The addressee.
      */
-    public function setAddressee(?string $addressee) {
+    public function setAddressee(?string $addressee): self {
         $this->addressee = $addressee;
         return $this;
     }

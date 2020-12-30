@@ -40,7 +40,7 @@ trait IntegerCivilityTrait {
      *
      * @param int|null $civility The civility.
      */
-    public function setCivility(?int $civility) {
+    public function setCivility(?int $civility): self {
         $this->civility = $civility;
         return $this;
     }

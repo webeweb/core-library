@@ -40,7 +40,7 @@ trait StringMessageTrait {
      *
      * @param string|null $message The message.
      */
-    public function setMessage(?string $message) {
+    public function setMessage(?string $message): self {
         $this->message = $message;
         return $this;
     }

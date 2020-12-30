@@ -40,7 +40,7 @@ trait StringIdTrait {
      *
      * @param string|null $id The id.
      */
-    public function setId(?string $id) {
+    public function setId(?string $id): self {
         $this->id = $id;
         return $this;
     }

@@ -42,7 +42,7 @@ trait DateTimeBirthDateTrait {
      *
      * @param DateTime|null $birthDate The birth date.
      */
-    public function setBirthDate(?DateTime $birthDate) {
+    public function setBirthDate(?DateTime $birthDate): self {
         $this->birthDate = $birthDate;
         return $this;
     }

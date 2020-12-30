@@ -40,7 +40,7 @@ trait StringNumberTrait {
      *
      * @param string|null $number The number.
      */
-    public function setNumber(?string $number) {
+    public function setNumber(?string $number): self {
         $this->number = $number;
         return $this;
     }

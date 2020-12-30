@@ -40,7 +40,7 @@ trait StringLabelTrait {
      *
      * @param string|null $label The label.
      */
-    public function setLabel(?string $label) {
+    public function setLabel(?string $label): self {
         $this->label = $label;
         return $this;
     }

@@ -79,7 +79,7 @@ abstract class AbstractValidationStatus implements ValidationStatusInterface, Js
     /**
      * {@inheritDoc}
      */
-    public function jsonSerialize() {
+    public function jsonSerialize(): array {
         return [
             "code"     => $this->getCode(),
             "message"  => $this->getMessage(),

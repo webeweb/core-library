@@ -40,7 +40,7 @@ trait IntegerMaritalStatusTrait {
      *
      * @param int|null $maritalStatus The marital status.
      */
-    public function setMaritalStatus(?int $maritalStatus) {
+    public function setMaritalStatus(?int $maritalStatus): self {
         $this->maritalStatus = $maritalStatus;
         return $this;
     }

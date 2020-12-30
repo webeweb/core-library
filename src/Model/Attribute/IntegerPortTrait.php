@@ -43,7 +43,7 @@ trait IntegerPortTrait {
      * @param int|null $port The port.
      * @throws InvalidArgumentException Throws an invalid argument exception if the port is not between 1 and 65536.
      */
-    public function setPort(?int $port) {
+    public function setPort(?int $port): self {
         if ($port < 0 || 65536 < $port) {
             throw new InvalidArgumentException("The port must be between 1 and 65536");
         }

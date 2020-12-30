@@ -40,7 +40,7 @@ trait BooleanDebugTrait {
      *
      * @param bool|null $debug The debug.
      */
-    public function setDebug(?bool $debug) {
+    public function setDebug(?bool $debug): self {
         $this->debug = $debug;
         return $this;
     }

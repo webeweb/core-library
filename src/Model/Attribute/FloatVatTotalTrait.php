@@ -40,7 +40,7 @@ trait FloatVatTotalTrait {
      *
      * @param float|null $vatTotal The VAT total.
      */
-    public function setVatTotal(?float $vatTotal) {
+    public function setVatTotal(?float $vatTotal): self {
         $this->vatTotal = $vatTotal;
         return $this;
     }

@@ -40,7 +40,7 @@ trait StringUsernameTrait {
      *
      * @param string|null $username The username.
      */
-    public function setUsername(?string $username) {
+    public function setUsername(?string $username): self {
         $this->username = $username;
         return $this;
     }

@@ -40,7 +40,7 @@ trait StringTextTrait {
      *
      * @param string|null $text The text.
      */
-    public function setText(?string $text) {
+    public function setText(?string $text): self {
         $this->text = $text;
         return $this;
     }

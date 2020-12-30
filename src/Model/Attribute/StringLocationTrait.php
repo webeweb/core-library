@@ -40,7 +40,7 @@ trait StringLocationTrait {
      *
      * @param string|null $location The location.
      */
-    public function setLocation(?string $location) {
+    public function setLocation(?string $location): self {
         $this->location = $location;
         return $this;
     }

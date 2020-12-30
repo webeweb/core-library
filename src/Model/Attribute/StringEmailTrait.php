@@ -40,7 +40,7 @@ trait StringEmailTrait {
      *
      * @param string|null $email The email.
      */
-    public function setEmail(?string $email) {
+    public function setEmail(?string $email): self {
         $this->email = $email;
         return $this;
     }

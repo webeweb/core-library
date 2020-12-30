@@ -40,7 +40,7 @@ trait StringRawResponseTrait {
      *
      * @param string|null $rawResponse The raw response.
      */
-    public function setRawResponse(?string $rawResponse) {
+    public function setRawResponse(?string $rawResponse): self {
         $this->rawResponse = $rawResponse;
         return $this;
     }

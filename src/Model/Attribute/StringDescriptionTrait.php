@@ -40,7 +40,7 @@ trait StringDescriptionTrait {
      *
      * @param string|null $description The description.
      */
-    public function setDescription(?string $description) {
+    public function setDescription(?string $description): self {
         $this->description = $description;
         return $this;
     }

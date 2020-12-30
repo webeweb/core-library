@@ -40,7 +40,7 @@ trait StringHashMd5Trait {
      *
      * @param string|null $hashMd5 The hash "MD5".
      */
-    public function setHashMd5(?string $hashMd5) {
+    public function setHashMd5(?string $hashMd5): self {
         $this->hashMd5 = $hashMd5;
         return $this;
     }

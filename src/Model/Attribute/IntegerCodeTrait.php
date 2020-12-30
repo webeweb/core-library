@@ -40,7 +40,7 @@ trait IntegerCodeTrait {
      *
      * @param int|null $code The code.
      */
-    public function setCode(?int $code) {
+    public function setCode(?int $code): self {
         $this->code = $code;
         return $this;
     }

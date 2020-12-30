@@ -40,7 +40,7 @@ trait StringFromTrait {
      *
      * @param string|null $from The from.
      */
-    public function setFrom(?string $from) {
+    public function setFrom(?string $from): self {
         $this->from = $from;
         return $this;
     }

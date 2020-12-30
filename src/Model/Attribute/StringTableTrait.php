@@ -40,7 +40,7 @@ trait StringTableTrait {
      *
      * @param string|null $table The table.
      */
-    public function setTable(?string $table) {
+    public function setTable(?string $table): self {
         $this->table = $table;
         return $this;
     }

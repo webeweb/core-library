@@ -40,7 +40,7 @@ trait StringMimeTypeTrait {
      *
      * @param string|null $mimeType The mime type.
      */
-    public function setMimeType(?string $mimeType) {
+    public function setMimeType(?string $mimeType): self {
         $this->mimeType = $mimeType;
         return $this;
     }

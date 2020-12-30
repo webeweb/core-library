@@ -40,7 +40,7 @@ trait IntegerSizeTrait {
      *
      * @param int|null $size The size.
      */
-    public function setSize(?int $size) {
+    public function setSize(?int $size): self {
         $this->size = $size;
         return $this;
     }

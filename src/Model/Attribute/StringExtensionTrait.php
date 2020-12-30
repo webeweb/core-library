@@ -40,7 +40,7 @@ trait StringExtensionTrait {
      *
      * @param string|null $extension The extension.
      */
-    public function setExtension(?string $extension) {
+    public function setExtension(?string $extension): self {
         $this->extension = $extension;
         return $this;
     }

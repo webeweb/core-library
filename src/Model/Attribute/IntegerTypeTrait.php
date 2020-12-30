@@ -40,7 +40,7 @@ trait IntegerTypeTrait {
      *
      * @param int|null $type The type.
      */
-    public function setType(?int $type) {
+    public function setType(?int $type): self {
         $this->type = $type;
         return $this;
     }

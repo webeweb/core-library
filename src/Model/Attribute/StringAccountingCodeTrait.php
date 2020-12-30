@@ -40,7 +40,7 @@ trait StringAccountingCodeTrait {
      *
      * @param string|null $accountingCode The accounting code.
      */
-    public function setAccountingCode(?string $accountingCode) {
+    public function setAccountingCode(?string $accountingCode): self {
         $this->accountingCode = $accountingCode;
         return $this;
     }

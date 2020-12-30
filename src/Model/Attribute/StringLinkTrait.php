@@ -40,7 +40,7 @@ trait StringLinkTrait {
      *
      * @param string|null $link The link.
      */
-    public function setLink(?string $link) {
+    public function setLink(?string $link): self {
         $this->link = $link;
         return $this;
     }
