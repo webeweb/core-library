@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [6.8.1](https://github.com/webeweb/core-library/tree/v6.8.1) (2020-12-30)
+
+- Update return types into traits
+
 ### [6.8.0](https://github.com/webeweb/core-library/tree/v6.8.0) (2020-12-29)
 
 > IMPORTANT NOTICE: The following PHP versions are now not supported
