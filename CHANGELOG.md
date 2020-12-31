@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [6.8.2](https://github.com/webeweb/core-library/tree/v6.8.2) (2020-12-31)
+
+- Fix compatibility
+
 ### [6.8.1](https://github.com/webeweb/core-library/tree/v6.8.1) (2020-12-30)
 
 - Update return types into traits
