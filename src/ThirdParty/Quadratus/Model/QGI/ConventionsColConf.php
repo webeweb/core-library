@@ -40,7 +40,6 @@ class ConventionsColConf {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class ConventionsColConf {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -62,7 +61,7 @@ class ConventionsColConf {
      *
      * @return string|null Returns the droit.
      */
-    public function getDroit(): ?string{
+    public function getDroit(): ?string {
         return $this->droit;
     }
 
@@ -71,7 +70,7 @@ class ConventionsColConf {
      *
      * @return int|null Returns the type.
      */
-    public function getType(): ?int{
+    public function getType(): ?int {
         return $this->type;
     }
 

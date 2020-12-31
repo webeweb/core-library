@@ -40,7 +40,6 @@ class AgendaCollabGroup {
      */
     private $numLig;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class AgendaCollabGroup {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -62,7 +61,7 @@ class AgendaCollabGroup {
      *
      * @return string|null Returns the code groupe.
      */
-    public function getCodeGroupe(): ?string{
+    public function getCodeGroupe(): ?string {
         return $this->codeGroupe;
     }
 
@@ -71,7 +70,7 @@ class AgendaCollabGroup {
      *
      * @return int|null Returns the num lig.
      */
-    public function getNumLig(): ?int{
+    public function getNumLig(): ?int {
         return $this->numLig;
     }
 

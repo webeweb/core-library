@@ -49,7 +49,6 @@ class AgendaJoursFeries {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class AgendaJoursFeries {
      *
      * @return bool|null Returns the calculee.
      */
-    public function getCalculee(): ?bool{
+    public function getCalculee(): ?bool {
         return $this->calculee;
     }
 
@@ -71,7 +70,7 @@ class AgendaJoursFeries {
      *
      * @return DateTime|null Returns the date feriee.
      */
-    public function getDateFeriee(): ?DateTime{
+    public function getDateFeriee(): ?DateTime {
         return $this->dateFeriee;
     }
 
@@ -80,7 +79,7 @@ class AgendaJoursFeries {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -89,7 +88,7 @@ class AgendaJoursFeries {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

@@ -61,7 +61,6 @@ class DetailsMissions {
      */
     private $typeAffectation;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class DetailsMissions {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -83,7 +82,7 @@ class DetailsMissions {
      *
      * @return string|null Returns the code mission.
      */
-    public function getCodeMission(): ?string{
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -92,7 +91,7 @@ class DetailsMissions {
      *
      * @return string|null Returns the code travail.
      */
-    public function getCodeTravail(): ?string{
+    public function getCodeTravail(): ?string {
         return $this->codeTravail;
     }
 
@@ -101,7 +100,7 @@ class DetailsMissions {
      *
      * @return int|null Returns the niveau.
      */
-    public function getNiveau(): ?int{
+    public function getNiveau(): ?int {
         return $this->niveau;
     }
 
@@ -110,7 +109,7 @@ class DetailsMissions {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -119,7 +118,7 @@ class DetailsMissions {
      *
      * @return string|null Returns the type affectation.
      */
-    public function getTypeAffectation(): ?string{
+    public function getTypeAffectation(): ?string {
         return $this->typeAffectation;
     }
 

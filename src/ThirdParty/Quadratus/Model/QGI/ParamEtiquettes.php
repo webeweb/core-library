@@ -131,7 +131,6 @@ class ParamEtiquettes {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -144,7 +143,7 @@ class ParamEtiquettes {
      *
      * @return bool|null Returns the avec code barre.
      */
-    public function getAvecCodeBarre(): ?bool{
+    public function getAvecCodeBarre(): ?bool {
         return $this->avecCodeBarre;
     }
 
@@ -153,7 +152,7 @@ class ParamEtiquettes {
      *
      * @return bool|null Returns the avec prix vente.
      */
-    public function getAvecPrixVente(): ?bool{
+    public function getAvecPrixVente(): ?bool {
         return $this->avecPrixVente;
     }
 
@@ -162,7 +161,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the code modele.
      */
-    public function getCodeModele(): ?string{
+    public function getCodeModele(): ?string {
         return $this->codeModele;
     }
 
@@ -171,7 +170,7 @@ class ParamEtiquettes {
      *
      * @return int|null Returns the etiq de front.
      */
-    public function getEtiqDeFront(): ?int{
+    public function getEtiqDeFront(): ?int {
         return $this->etiqDeFront;
     }
 
@@ -180,7 +179,7 @@ class ParamEtiquettes {
      *
      * @return bool|null Returns the etiq masque.
      */
-    public function getEtiqMasque(): ?bool{
+    public function getEtiqMasque(): ?bool {
         return $this->etiqMasque;
     }
 
@@ -189,7 +188,7 @@ class ParamEtiquettes {
      *
      * @return bool|null Returns the etiq plus.
      */
-    public function getEtiqPlus(): ?bool{
+    public function getEtiqPlus(): ?bool {
         return $this->etiqPlus;
     }
 
@@ -198,7 +197,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the imprimante.
      */
-    public function getImprimante(): ?string{
+    public function getImprimante(): ?string {
         return $this->imprimante;
     }
 
@@ -207,7 +206,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the init champ.
      */
-    public function getInitChamp(): ?string{
+    public function getInitChamp(): ?string {
         return $this->initChamp;
     }
 
@@ -216,7 +215,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the init table.
      */
-    public function getInitTable(): ?string{
+    public function getInitTable(): ?string {
         return $this->initTable;
     }
 
@@ -225,7 +224,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the init valeur.
      */
-    public function getInitValeur(): ?string{
+    public function getInitValeur(): ?string {
         return $this->initValeur;
     }
 
@@ -234,7 +233,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the lg zone.
      */
-    public function getLgZone(): ?string{
+    public function getLgZone(): ?string {
         return $this->lgZone;
     }
 
@@ -243,7 +242,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the lib zone.
      */
-    public function getLibZone(): ?string{
+    public function getLibZone(): ?string {
         return $this->libZone;
     }
 
@@ -252,7 +251,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -261,7 +260,7 @@ class ParamEtiquettes {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -270,7 +269,7 @@ class ParamEtiquettes {
      *
      * @return bool|null Returns the qte ent.
      */
-    public function getQteEnt(): ?bool{
+    public function getQteEnt(): ?bool {
         return $this->qteEnt;
     }
 
@@ -279,7 +278,7 @@ class ParamEtiquettes {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

@@ -33,7 +33,6 @@ class ObligationsLiees {
      */
     private $codeObligation;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class ObligationsLiees {
      *
      * @return string|null Returns the code action.
      */
-    public function getCodeAction(): ?string{
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
@@ -55,7 +54,7 @@ class ObligationsLiees {
      *
      * @return string|null Returns the code obligation.
      */
-    public function getCodeObligation(): ?string{
+    public function getCodeObligation(): ?string {
         return $this->codeObligation;
     }
 

@@ -47,7 +47,6 @@ class NotesCategories {
      */
     private $position;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class NotesCategories {
      *
      * @return string|null Returns the code categorie.
      */
-    public function getCodeCategorie(): ?string{
+    public function getCodeCategorie(): ?string {
         return $this->codeCategorie;
     }
 
@@ -69,7 +68,7 @@ class NotesCategories {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -78,7 +77,7 @@ class NotesCategories {
      *
      * @return string|null Returns the nom categorie.
      */
-    public function getNomCategorie(): ?string{
+    public function getNomCategorie(): ?string {
         return $this->nomCategorie;
     }
 
@@ -87,7 +86,7 @@ class NotesCategories {
      *
      * @return int|null Returns the position.
      */
-    public function getPosition(): ?int{
+    public function getPosition(): ?int {
         return $this->position;
     }
 

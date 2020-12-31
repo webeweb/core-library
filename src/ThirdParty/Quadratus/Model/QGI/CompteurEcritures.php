@@ -84,7 +84,6 @@ class CompteurEcritures {
      */
     private $uniqIdPdf;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class CompteurEcritures {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -106,7 +105,7 @@ class CompteurEcritures {
      *
      * @return DateTime|null Returns the date comptage.
      */
-    public function getDateComptage(): ?DateTime{
+    public function getDateComptage(): ?DateTime {
         return $this->dateComptage;
     }
 
@@ -115,7 +114,7 @@ class CompteurEcritures {
      *
      * @return string|null Returns the millesime.
      */
-    public function getMillesime(): ?string{
+    public function getMillesime(): ?string {
         return $this->millesime;
     }
 
@@ -124,7 +123,7 @@ class CompteurEcritures {
      *
      * @return int|null Returns the nb ecritures.
      */
-    public function getNbEcritures(): ?int{
+    public function getNbEcritures(): ?int {
         return $this->nbEcritures;
     }
 
@@ -133,7 +132,7 @@ class CompteurEcritures {
      *
      * @return float|null Returns the nb ecritures a deduire.
      */
-    public function getNbEcrituresADeduire(): ?float{
+    public function getNbEcrituresADeduire(): ?float {
         return $this->nbEcrituresADeduire;
     }
 
@@ -142,7 +141,7 @@ class CompteurEcritures {
      *
      * @return int|null Returns the no chrono preparation.
      */
-    public function getNoChronoPreparation(): ?int{
+    public function getNoChronoPreparation(): ?int {
         return $this->noChronoPreparation;
     }
 
@@ -151,7 +150,7 @@ class CompteurEcritures {
      *
      * @return DateTime|null Returns the periode preparation.
      */
-    public function getPeriodePreparation(): ?DateTime{
+    public function getPeriodePreparation(): ?DateTime {
         return $this->periodePreparation;
     }
 
@@ -160,7 +159,7 @@ class CompteurEcritures {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 
@@ -169,7 +168,7 @@ class CompteurEcritures {
      *
      * @return string|null Returns the uniq id pdf.
      */
-    public function getUniqIdPdf(): ?string{
+    public function getUniqIdPdf(): ?string {
         return $this->uniqIdPdf;
     }
 

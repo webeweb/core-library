@@ -33,7 +33,6 @@ class MissionPrincipale {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class MissionPrincipale {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -55,7 +54,7 @@ class MissionPrincipale {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

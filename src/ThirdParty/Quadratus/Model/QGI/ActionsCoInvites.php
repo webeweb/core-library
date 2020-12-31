@@ -84,7 +84,6 @@ class ActionsCoInvites {
      */
     private $typeInvite;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class ActionsCoInvites {
      *
      * @return string|null Returns the code action.
      */
-    public function getCodeAction(): ?string{
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
@@ -106,7 +105,7 @@ class ActionsCoInvites {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -115,7 +114,7 @@ class ActionsCoInvites {
      *
      * @return string|null Returns the code coll.
      */
-    public function getCodeColl(): ?string{
+    public function getCodeColl(): ?string {
         return $this->codeColl;
     }
 
@@ -124,7 +123,7 @@ class ActionsCoInvites {
      *
      * @return DateTime|null Returns the date ajout.
      */
-    public function getDateAjout(): ?DateTime{
+    public function getDateAjout(): ?DateTime {
         return $this->dateAjout;
     }
 
@@ -133,7 +132,7 @@ class ActionsCoInvites {
      *
      * @return string|null Returns the nom interlocuteur.
      */
-    public function getNomInterlocuteur(): ?string{
+    public function getNomInterlocuteur(): ?string {
         return $this->nomInterlocuteur;
     }
 
@@ -142,7 +141,7 @@ class ActionsCoInvites {
      *
      * @return int|null Returns the num interlocuteur.
      */
-    public function getNumInterlocuteur(): ?int{
+    public function getNumInterlocuteur(): ?int {
         return $this->numInterlocuteur;
     }
 
@@ -151,7 +150,7 @@ class ActionsCoInvites {
      *
      * @return bool|null Returns the retour neg.
      */
-    public function getRetourNeg(): ?bool{
+    public function getRetourNeg(): ?bool {
         return $this->retourNeg;
     }
 
@@ -160,7 +159,7 @@ class ActionsCoInvites {
      *
      * @return int|null Returns the type invitation.
      */
-    public function getTypeInvitation(): ?int{
+    public function getTypeInvitation(): ?int {
         return $this->typeInvitation;
     }
 
@@ -169,7 +168,7 @@ class ActionsCoInvites {
      *
      * @return string|null Returns the type invite.
      */
-    public function getTypeInvite(): ?string{
+    public function getTypeInvite(): ?string {
         return $this->typeInvite;
     }
 

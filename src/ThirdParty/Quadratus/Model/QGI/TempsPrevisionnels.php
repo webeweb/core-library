@@ -61,7 +61,6 @@ class TempsPrevisionnels {
      */
     private $nbHeures;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class TempsPrevisionnels {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -83,7 +82,7 @@ class TempsPrevisionnels {
      *
      * @return string|null Returns the code avenant.
      */
-    public function getCodeAvenant(): ?string{
+    public function getCodeAvenant(): ?string {
         return $this->codeAvenant;
     }
 
@@ -92,7 +91,7 @@ class TempsPrevisionnels {
      *
      * @return string|null Returns the code phase.
      */
-    public function getCodePhase(): ?string{
+    public function getCodePhase(): ?string {
         return $this->codePhase;
     }
 
@@ -101,7 +100,7 @@ class TempsPrevisionnels {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -110,7 +109,7 @@ class TempsPrevisionnels {
      *
      * @return float|null Returns the cout horaire.
      */
-    public function getCoutHoraire(): ?float{
+    public function getCoutHoraire(): ?float {
         return $this->coutHoraire;
     }
 
@@ -119,7 +118,7 @@ class TempsPrevisionnels {
      *
      * @return float|null Returns the nb heures.
      */
-    public function getNbHeures(): ?float{
+    public function getNbHeures(): ?float {
         return $this->nbHeures;
     }
 

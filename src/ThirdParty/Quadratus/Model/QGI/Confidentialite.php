@@ -124,7 +124,6 @@ class Confidentialite {
      */
     private $selLstRestriFrnDef;
 
-
     /**
      * Constructor.
      */
@@ -137,7 +136,7 @@ class Confidentialite {
      *
      * @return int|null Returns the activation lst restri art.
      */
-    public function getActivationLstRestriArt(): ?int{
+    public function getActivationLstRestriArt(): ?int {
         return $this->activationLstRestriArt;
     }
 
@@ -146,7 +145,7 @@ class Confidentialite {
      *
      * @return int|null Returns the activation lst restri cli.
      */
-    public function getActivationLstRestriCli(): ?int{
+    public function getActivationLstRestriCli(): ?int {
         return $this->activationLstRestriCli;
     }
 
@@ -155,7 +154,7 @@ class Confidentialite {
      *
      * @return int|null Returns the activation lst restri frn.
      */
-    public function getActivationLstRestriFrn(): ?int{
+    public function getActivationLstRestriFrn(): ?int {
         return $this->activationLstRestriFrn;
     }
 
@@ -164,7 +163,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qb.
      */
-    public function getActiveConfMenusQb(): ?bool{
+    public function getActiveConfMenusQb(): ?bool {
         return $this->activeConfMenusQb;
     }
 
@@ -173,7 +172,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qb2.
      */
-    public function getActiveConfMenusQb2(): ?bool{
+    public function getActiveConfMenusQb2(): ?bool {
         return $this->activeConfMenusQb2;
     }
 
@@ -182,7 +181,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qc.
      */
-    public function getActiveConfMenusQc(): ?bool{
+    public function getActiveConfMenusQc(): ?bool {
         return $this->activeConfMenusQc;
     }
 
@@ -191,7 +190,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qfact.
      */
-    public function getActiveConfMenusQfact(): ?bool{
+    public function getActiveConfMenusQfact(): ?bool {
         return $this->activeConfMenusQfact;
     }
 
@@ -200,7 +199,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qgi.
      */
-    public function getActiveConfMenusQgi(): ?bool{
+    public function getActiveConfMenusQgi(): ?bool {
         return $this->activeConfMenusQgi;
     }
 
@@ -209,7 +208,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qp.
      */
-    public function getActiveConfMenusQp(): ?bool{
+    public function getActiveConfMenusQp(): ?bool {
         return $this->activeConfMenusQp;
     }
 
@@ -218,7 +217,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qprop.
      */
-    public function getActiveConfMenusQprop(): ?bool{
+    public function getActiveConfMenusQprop(): ?bool {
         return $this->activeConfMenusQprop;
     }
 
@@ -227,7 +226,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the active conf menus qtrs.
      */
-    public function getActiveConfMenusQtrs(): ?bool{
+    public function getActiveConfMenusQtrs(): ?bool {
         return $this->activeConfMenusQtrs;
     }
 
@@ -236,7 +235,7 @@ class Confidentialite {
      *
      * @return bool|null Returns the masquer base access.
      */
-    public function getMasquerBaseAccess(): ?bool{
+    public function getMasquerBaseAccess(): ?bool {
         return $this->masquerBaseAccess;
     }
 
@@ -245,7 +244,7 @@ class Confidentialite {
      *
      * @return string|null Returns the sel lst restri art def.
      */
-    public function getSelLstRestriArtDef(): ?string{
+    public function getSelLstRestriArtDef(): ?string {
         return $this->selLstRestriArtDef;
     }
 
@@ -254,7 +253,7 @@ class Confidentialite {
      *
      * @return string|null Returns the sel lst restri cli def.
      */
-    public function getSelLstRestriCliDef(): ?string{
+    public function getSelLstRestriCliDef(): ?string {
         return $this->selLstRestriCliDef;
     }
 
@@ -263,7 +262,7 @@ class Confidentialite {
      *
      * @return string|null Returns the sel lst restri frn def.
      */
-    public function getSelLstRestriFrnDef(): ?string{
+    public function getSelLstRestriFrnDef(): ?string {
         return $this->selLstRestriFrnDef;
     }
 

@@ -40,7 +40,6 @@ class MissionVisuTaches {
      */
     private $isRegroupement;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class MissionVisuTaches {
      *
      * @return string|null Returns the code mission.
      */
-    public function getCodeMission(): ?string{
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -62,7 +61,7 @@ class MissionVisuTaches {
      *
      * @return string|null Returns the code tache visu.
      */
-    public function getCodeTacheVisu(): ?string{
+    public function getCodeTacheVisu(): ?string {
         return $this->codeTacheVisu;
     }
 
@@ -71,7 +70,7 @@ class MissionVisuTaches {
      *
      * @return bool|null Returns the is regroupement.
      */
-    public function getIsRegroupement(): ?bool{
+    public function getIsRegroupement(): ?bool {
         return $this->isRegroupement;
     }
 

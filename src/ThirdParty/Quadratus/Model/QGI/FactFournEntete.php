@@ -126,7 +126,6 @@ class FactFournEntete {
      */
     private $refImage;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class FactFournEntete {
      *
      * @return bool|null Returns the boni mali.
      */
-    public function getBoniMali(): ?bool{
+    public function getBoniMali(): ?bool {
         return $this->boniMali;
     }
 
@@ -148,7 +147,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -157,7 +156,7 @@ class FactFournEntete {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -166,7 +165,7 @@ class FactFournEntete {
      *
      * @return int|null Returns the folio.
      */
-    public function getFolio(): ?int{
+    public function getFolio(): ?int {
         return $this->folio;
     }
 
@@ -175,7 +174,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the lib auto.
      */
-    public function getLibAuto(): ?string{
+    public function getLibAuto(): ?string {
         return $this->libAuto;
     }
 
@@ -184,7 +183,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -193,7 +192,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the monnaie.
      */
-    public function getMonnaie(): ?string{
+    public function getMonnaie(): ?string {
         return $this->monnaie;
     }
 
@@ -202,7 +201,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the montant tt ccredit.
      */
-    public function getMontantTtCcredit(): ?string{
+    public function getMontantTtCcredit(): ?string {
         return $this->montantTtCcredit;
     }
 
@@ -211,7 +210,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the montant tt cdebit.
      */
-    public function getMontantTtCdebit(): ?string{
+    public function getMontantTtCdebit(): ?string {
         return $this->montantTtCdebit;
     }
 
@@ -220,7 +219,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the num doss cpta.
      */
-    public function getNumDossCpta(): ?string{
+    public function getNumDossCpta(): ?string {
         return $this->numDossCpta;
     }
 
@@ -229,7 +228,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the num facture.
      */
-    public function getNumFacture(): ?string{
+    public function getNumFacture(): ?string {
         return $this->numFacture;
     }
 
@@ -238,7 +237,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the num fournisseur.
      */
-    public function getNumFournisseur(): ?string{
+    public function getNumFournisseur(): ?string {
         return $this->numFournisseur;
     }
 
@@ -247,7 +246,7 @@ class FactFournEntete {
      *
      * @return int|null Returns the num lot.
      */
-    public function getNumLot(): ?int{
+    public function getNumLot(): ?int {
         return $this->numLot;
     }
 
@@ -256,7 +255,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the num uniq.
      */
-    public function getNumUniq(): ?string{
+    public function getNumUniq(): ?string {
         return $this->numUniq;
     }
 
@@ -265,7 +264,7 @@ class FactFournEntete {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 

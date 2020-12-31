@@ -77,7 +77,6 @@ class TarifsPeriodes {
      */
     private $typeCodeClient;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class TarifsPeriodes {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -99,7 +98,7 @@ class TarifsPeriodes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -108,7 +107,7 @@ class TarifsPeriodes {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -117,7 +116,7 @@ class TarifsPeriodes {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -126,7 +125,7 @@ class TarifsPeriodes {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -135,7 +134,7 @@ class TarifsPeriodes {
      *
      * @return float|null Returns the remise base.
      */
-    public function getRemiseBase(): ?float{
+    public function getRemiseBase(): ?float {
         return $this->remiseBase;
     }
 
@@ -144,7 +143,7 @@ class TarifsPeriodes {
      *
      * @return string|null Returns the type code article.
      */
-    public function getTypeCodeArticle(): ?string{
+    public function getTypeCodeArticle(): ?string {
         return $this->typeCodeArticle;
     }
 
@@ -153,7 +152,7 @@ class TarifsPeriodes {
      *
      * @return string|null Returns the type code client.
      */
-    public function getTypeCodeClient(): ?string{
+    public function getTypeCodeClient(): ?string {
         return $this->typeCodeClient;
     }
 

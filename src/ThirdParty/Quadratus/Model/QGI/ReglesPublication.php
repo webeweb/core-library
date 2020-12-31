@@ -54,7 +54,6 @@ class ReglesPublication {
      */
     private $webPublication;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ReglesPublication {
      *
      * @return string|null Returns the chaine publication.
      */
-    public function getChainePublication(): ?string{
+    public function getChainePublication(): ?string {
         return $this->chainePublication;
     }
 
@@ -76,7 +75,7 @@ class ReglesPublication {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -85,7 +84,7 @@ class ReglesPublication {
      *
      * @return bool|null Returns the ews publication.
      */
-    public function getEwsPublication(): ?bool{
+    public function getEwsPublication(): ?bool {
         return $this->ewsPublication;
     }
 
@@ -94,7 +93,7 @@ class ReglesPublication {
      *
      * @return string|null Returns the type publication.
      */
-    public function getTypePublication(): ?string{
+    public function getTypePublication(): ?string {
         return $this->typePublication;
     }
 
@@ -103,7 +102,7 @@ class ReglesPublication {
      *
      * @return bool|null Returns the web publication.
      */
-    public function getWebPublication(): ?bool{
+    public function getWebPublication(): ?bool {
         return $this->webPublication;
     }
 

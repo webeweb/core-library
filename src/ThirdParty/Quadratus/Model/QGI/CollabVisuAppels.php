@@ -40,7 +40,6 @@ class CollabVisuAppels {
      */
     private $typeCode;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class CollabVisuAppels {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -62,7 +61,7 @@ class CollabVisuAppels {
      *
      * @return string|null Returns the code collab visu.
      */
-    public function getCodeCollabVisu(): ?string{
+    public function getCodeCollabVisu(): ?string {
         return $this->codeCollabVisu;
     }
 
@@ -71,7 +70,7 @@ class CollabVisuAppels {
      *
      * @return string|null Returns the type code.
      */
-    public function getTypeCode(): ?string{
+    public function getTypeCode(): ?string {
         return $this->typeCode;
     }
 

@@ -40,7 +40,6 @@ class InventaireTrame {
      */
     private $numeroLigne;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class InventaireTrame {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -62,7 +61,7 @@ class InventaireTrame {
      *
      * @return string|null Returns the code trame.
      */
-    public function getCodeTrame(): ?string{
+    public function getCodeTrame(): ?string {
         return $this->codeTrame;
     }
 
@@ -71,7 +70,7 @@ class InventaireTrame {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 

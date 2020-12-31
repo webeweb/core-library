@@ -75,7 +75,6 @@ class ArticlesLangues {
      */
     private $intitule4;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -97,7 +96,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the code langue.
      */
-    public function getCodeLangue(): ?string{
+    public function getCodeLangue(): ?string {
         return $this->codeLangue;
     }
 
@@ -106,7 +105,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the designation apres.
      */
-    public function getDesignationApres(): ?string{
+    public function getDesignationApres(): ?string {
         return $this->designationApres;
     }
 
@@ -115,7 +114,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the designation avant.
      */
-    public function getDesignationAvant(): ?string{
+    public function getDesignationAvant(): ?string {
         return $this->designationAvant;
     }
 
@@ -124,7 +123,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the intitule1.
      */
-    public function getIntitule1(): ?string{
+    public function getIntitule1(): ?string {
         return $this->intitule1;
     }
 
@@ -133,7 +132,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the intitule2.
      */
-    public function getIntitule2(): ?string{
+    public function getIntitule2(): ?string {
         return $this->intitule2;
     }
 
@@ -142,7 +141,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the intitule3.
      */
-    public function getIntitule3(): ?string{
+    public function getIntitule3(): ?string {
         return $this->intitule3;
     }
 
@@ -151,7 +150,7 @@ class ArticlesLangues {
      *
      * @return string|null Returns the intitule4.
      */
-    public function getIntitule4(): ?string{
+    public function getIntitule4(): ?string {
         return $this->intitule4;
     }
 

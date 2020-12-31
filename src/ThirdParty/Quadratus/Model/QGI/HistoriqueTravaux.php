@@ -140,7 +140,6 @@ class HistoriqueTravaux {
      */
     private $travailFait;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class HistoriqueTravaux {
      *
      * @return bool|null Returns the cataloguee.
      */
-    public function getCataloguee(): ?bool{
+    public function getCataloguee(): ?bool {
         return $this->cataloguee;
     }
 
@@ -162,7 +161,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -171,7 +170,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the code collaborateur clot.
      */
-    public function getCodeCollaborateurClot(): ?string{
+    public function getCodeCollaborateurClot(): ?string {
         return $this->codeCollaborateurClot;
     }
 
@@ -180,7 +179,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the code collaborateur dest.
      */
-    public function getCodeCollaborateurDest(): ?string{
+    public function getCodeCollaborateurDest(): ?string {
         return $this->codeCollaborateurDest;
     }
 
@@ -189,7 +188,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the code collaborateur entrant.
      */
-    public function getCodeCollaborateurEntrant(): ?string{
+    public function getCodeCollaborateurEntrant(): ?string {
         return $this->codeCollaborateurEntrant;
     }
 
@@ -198,7 +197,7 @@ class HistoriqueTravaux {
      *
      * @return DateTime|null Returns the date alerte.
      */
-    public function getDateAlerte(): ?DateTime{
+    public function getDateAlerte(): ?DateTime {
         return $this->dateAlerte;
     }
 
@@ -207,7 +206,7 @@ class HistoriqueTravaux {
      *
      * @return DateTime|null Returns the date butoir.
      */
-    public function getDateButoir(): ?DateTime{
+    public function getDateButoir(): ?DateTime {
         return $this->dateButoir;
     }
 
@@ -216,7 +215,7 @@ class HistoriqueTravaux {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -225,7 +224,7 @@ class HistoriqueTravaux {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -234,7 +233,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the demandeur.
      */
-    public function getDemandeur(): ?string{
+    public function getDemandeur(): ?string {
         return $this->demandeur;
     }
 
@@ -243,7 +242,7 @@ class HistoriqueTravaux {
      *
      * @return int|null Returns the duree.
      */
-    public function getDuree(): ?int{
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
@@ -252,7 +251,7 @@ class HistoriqueTravaux {
      *
      * @return int|null Returns the id travail.
      */
-    public function getIdTravail(): ?int{
+    public function getIdTravail(): ?int {
         return $this->idTravail;
     }
 
@@ -261,7 +260,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -270,7 +269,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the nom client.
      */
-    public function getNomClient(): ?string{
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
@@ -279,7 +278,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe(): ?string{
+    public function getPieceJointe(): ?string {
         return $this->pieceJointe;
     }
 
@@ -288,7 +287,7 @@ class HistoriqueTravaux {
      *
      * @return string|null Returns the reponse.
      */
-    public function getReponse(): ?string{
+    public function getReponse(): ?string {
         return $this->reponse;
     }
 
@@ -297,7 +296,7 @@ class HistoriqueTravaux {
      *
      * @return bool|null Returns the travail fait.
      */
-    public function getTravailFait(): ?bool{
+    public function getTravailFait(): ?bool {
         return $this->travailFait;
     }
 

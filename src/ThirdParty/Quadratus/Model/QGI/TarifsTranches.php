@@ -112,7 +112,6 @@ class TarifsTranches {
      */
     private $typeCodeClient;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -134,7 +133,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -143,7 +142,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -152,7 +151,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -161,7 +160,7 @@ class TarifsTranches {
      *
      * @return float|null Returns the coeff.
      */
-    public function getCoeff(): ?float{
+    public function getCoeff(): ?float {
         return $this->coeff;
     }
 
@@ -170,7 +169,7 @@ class TarifsTranches {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -179,7 +178,7 @@ class TarifsTranches {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -188,7 +187,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the num tranche.
      */
-    public function getNumTranche(): ?string{
+    public function getNumTranche(): ?string {
         return $this->numTranche;
     }
 
@@ -197,7 +196,7 @@ class TarifsTranches {
      *
      * @return bool|null Returns the prix net.
      */
-    public function getPrixNet(): ?bool{
+    public function getPrixNet(): ?bool {
         return $this->prixNet;
     }
 
@@ -206,7 +205,7 @@ class TarifsTranches {
      *
      * @return float|null Returns the prix unit.
      */
-    public function getPrixUnit(): ?float{
+    public function getPrixUnit(): ?float {
         return $this->prixUnit;
     }
 
@@ -215,7 +214,7 @@ class TarifsTranches {
      *
      * @return float|null Returns the qte mini.
      */
-    public function getQteMini(): ?float{
+    public function getQteMini(): ?float {
         return $this->qteMini;
     }
 
@@ -224,7 +223,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the type code article.
      */
-    public function getTypeCodeArticle(): ?string{
+    public function getTypeCodeArticle(): ?string {
         return $this->typeCodeArticle;
     }
 
@@ -233,7 +232,7 @@ class TarifsTranches {
      *
      * @return string|null Returns the type code client.
      */
-    public function getTypeCodeClient(): ?string{
+    public function getTypeCodeClient(): ?string {
         return $this->typeCodeClient;
     }
 

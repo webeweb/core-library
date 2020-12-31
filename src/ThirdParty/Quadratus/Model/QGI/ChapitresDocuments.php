@@ -40,7 +40,6 @@ class ChapitresDocuments {
      */
     private $position;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class ChapitresDocuments {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -62,7 +61,7 @@ class ChapitresDocuments {
      *
      * @return string|null Returns the nom repertoire.
      */
-    public function getNomRepertoire(): ?string{
+    public function getNomRepertoire(): ?string {
         return $this->nomRepertoire;
     }
 
@@ -71,7 +70,7 @@ class ChapitresDocuments {
      *
      * @return int|null Returns the position.
      */
-    public function getPosition(): ?int{
+    public function getPosition(): ?int {
         return $this->position;
     }
 

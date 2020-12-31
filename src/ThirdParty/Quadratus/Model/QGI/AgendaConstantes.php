@@ -292,7 +292,6 @@ class AgendaConstantes {
      */
     private $weekMode;
 
-
     /**
      * Constructor.
      */
@@ -305,7 +304,7 @@ class AgendaConstantes {
      *
      * @return bool|null Returns the archivage permanent.
      */
-    public function getArchivagePermanent(): ?bool{
+    public function getArchivagePermanent(): ?bool {
         return $this->archivagePermanent;
     }
 
@@ -314,7 +313,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the code activite7.
      */
-    public function getCodeActivite7(): ?string{
+    public function getCodeActivite7(): ?string {
         return $this->codeActivite7;
     }
 
@@ -323,7 +322,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the code activite8.
      */
-    public function getCodeActivite8(): ?string{
+    public function getCodeActivite8(): ?string {
         return $this->codeActivite8;
     }
 
@@ -332,7 +331,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the code activite9.
      */
-    public function getCodeActivite9(): ?string{
+    public function getCodeActivite9(): ?string {
         return $this->codeActivite9;
     }
 
@@ -341,7 +340,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite1.
      */
-    public function getCouleurActivite1(): ?int{
+    public function getCouleurActivite1(): ?int {
         return $this->couleurActivite1;
     }
 
@@ -350,7 +349,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite10.
      */
-    public function getCouleurActivite10(): ?int{
+    public function getCouleurActivite10(): ?int {
         return $this->couleurActivite10;
     }
 
@@ -359,7 +358,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite11.
      */
-    public function getCouleurActivite11(): ?int{
+    public function getCouleurActivite11(): ?int {
         return $this->couleurActivite11;
     }
 
@@ -368,7 +367,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite2.
      */
-    public function getCouleurActivite2(): ?int{
+    public function getCouleurActivite2(): ?int {
         return $this->couleurActivite2;
     }
 
@@ -377,7 +376,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite3.
      */
-    public function getCouleurActivite3(): ?int{
+    public function getCouleurActivite3(): ?int {
         return $this->couleurActivite3;
     }
 
@@ -386,7 +385,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite4.
      */
-    public function getCouleurActivite4(): ?int{
+    public function getCouleurActivite4(): ?int {
         return $this->couleurActivite4;
     }
 
@@ -395,7 +394,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite5.
      */
-    public function getCouleurActivite5(): ?int{
+    public function getCouleurActivite5(): ?int {
         return $this->couleurActivite5;
     }
 
@@ -404,7 +403,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite6.
      */
-    public function getCouleurActivite6(): ?int{
+    public function getCouleurActivite6(): ?int {
         return $this->couleurActivite6;
     }
 
@@ -413,7 +412,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite7.
      */
-    public function getCouleurActivite7(): ?int{
+    public function getCouleurActivite7(): ?int {
         return $this->couleurActivite7;
     }
 
@@ -422,7 +421,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite8.
      */
-    public function getCouleurActivite8(): ?int{
+    public function getCouleurActivite8(): ?int {
         return $this->couleurActivite8;
     }
 
@@ -431,7 +430,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur activite9.
      */
-    public function getCouleurActivite9(): ?int{
+    public function getCouleurActivite9(): ?int {
         return $this->couleurActivite9;
     }
 
@@ -440,7 +439,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur calendrier.
      */
-    public function getCouleurCalendrier(): ?int{
+    public function getCouleurCalendrier(): ?int {
         return $this->couleurCalendrier;
     }
 
@@ -449,7 +448,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the couleur dim j feries.
      */
-    public function getCouleurDimJFeries(): ?int{
+    public function getCouleurDimJFeries(): ?int {
         return $this->couleurDimJFeries;
     }
 
@@ -458,7 +457,7 @@ class AgendaConstantes {
      *
      * @return bool|null Returns the disabled activity label on first row.
      */
-    public function getDisabledActivityLabelOnFirstRow(): ?bool{
+    public function getDisabledActivityLabelOnFirstRow(): ?bool {
         return $this->disabledActivityLabelOnFirstRow;
     }
 
@@ -467,7 +466,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the dossier fact pme.
      */
-    public function getDossierFactPme(): ?string{
+    public function getDossierFactPme(): ?string {
         return $this->dossierFactPme;
     }
 
@@ -476,7 +475,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the heure debut.
      */
-    public function getHeureDebut(): ?string{
+    public function getHeureDebut(): ?string {
         return $this->heureDebut;
     }
 
@@ -485,7 +484,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the heure fin.
      */
-    public function getHeureFin(): ?string{
+    public function getHeureFin(): ?string {
         return $this->heureFin;
     }
 
@@ -494,7 +493,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the libelle activite7.
      */
-    public function getLibelleActivite7(): ?string{
+    public function getLibelleActivite7(): ?string {
         return $this->libelleActivite7;
     }
 
@@ -503,7 +502,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the libelle activite8.
      */
-    public function getLibelleActivite8(): ?string{
+    public function getLibelleActivite8(): ?string {
         return $this->libelleActivite8;
     }
 
@@ -512,7 +511,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the libelle activite9.
      */
-    public function getLibelleActivite9(): ?string{
+    public function getLibelleActivite9(): ?string {
         return $this->libelleActivite9;
     }
 
@@ -521,7 +520,7 @@ class AgendaConstantes {
      *
      * @return bool|null Returns the multi dossiers.
      */
-    public function getMultiDossiers(): ?bool{
+    public function getMultiDossiers(): ?bool {
         return $this->multiDossiers;
     }
 
@@ -530,7 +529,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite1.
      */
-    public function getTextColorActivite1(): ?int{
+    public function getTextColorActivite1(): ?int {
         return $this->textColorActivite1;
     }
 
@@ -539,7 +538,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite10.
      */
-    public function getTextColorActivite10(): ?int{
+    public function getTextColorActivite10(): ?int {
         return $this->textColorActivite10;
     }
 
@@ -548,7 +547,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite11.
      */
-    public function getTextColorActivite11(): ?int{
+    public function getTextColorActivite11(): ?int {
         return $this->textColorActivite11;
     }
 
@@ -557,7 +556,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite2.
      */
-    public function getTextColorActivite2(): ?int{
+    public function getTextColorActivite2(): ?int {
         return $this->textColorActivite2;
     }
 
@@ -566,7 +565,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite3.
      */
-    public function getTextColorActivite3(): ?int{
+    public function getTextColorActivite3(): ?int {
         return $this->textColorActivite3;
     }
 
@@ -575,7 +574,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite4.
      */
-    public function getTextColorActivite4(): ?int{
+    public function getTextColorActivite4(): ?int {
         return $this->textColorActivite4;
     }
 
@@ -584,7 +583,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite5.
      */
-    public function getTextColorActivite5(): ?int{
+    public function getTextColorActivite5(): ?int {
         return $this->textColorActivite5;
     }
 
@@ -593,7 +592,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite6.
      */
-    public function getTextColorActivite6(): ?int{
+    public function getTextColorActivite6(): ?int {
         return $this->textColorActivite6;
     }
 
@@ -602,7 +601,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite7.
      */
-    public function getTextColorActivite7(): ?int{
+    public function getTextColorActivite7(): ?int {
         return $this->textColorActivite7;
     }
 
@@ -611,7 +610,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite8.
      */
-    public function getTextColorActivite8(): ?int{
+    public function getTextColorActivite8(): ?int {
         return $this->textColorActivite8;
     }
 
@@ -620,7 +619,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color activite9.
      */
-    public function getTextColorActivite9(): ?int{
+    public function getTextColorActivite9(): ?int {
         return $this->textColorActivite9;
     }
 
@@ -629,7 +628,7 @@ class AgendaConstantes {
      *
      * @return int|null Returns the text color dim j feries.
      */
-    public function getTextColorDimJFeries(): ?int{
+    public function getTextColorDimJFeries(): ?int {
         return $this->textColorDimJFeries;
     }
 
@@ -638,7 +637,7 @@ class AgendaConstantes {
      *
      * @return bool|null Returns the use new gpe param.
      */
-    public function getUseNewGpeParam(): ?bool{
+    public function getUseNewGpeParam(): ?bool {
         return $this->useNewGpeParam;
     }
 
@@ -647,7 +646,7 @@ class AgendaConstantes {
      *
      * @return string|null Returns the week mode.
      */
-    public function getWeekMode(): ?string{
+    public function getWeekMode(): ?string {
         return $this->weekMode;
     }
 

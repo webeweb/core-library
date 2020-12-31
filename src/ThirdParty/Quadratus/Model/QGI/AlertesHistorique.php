@@ -91,7 +91,6 @@ class AlertesHistorique {
      */
     private $texteReponse;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class AlertesHistorique {
      *
      * @return bool|null Returns the ar envoye.
      */
-    public function getArEnvoye(): ?bool{
+    public function getArEnvoye(): ?bool {
         return $this->arEnvoye;
     }
 
@@ -113,7 +112,7 @@ class AlertesHistorique {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -122,7 +121,7 @@ class AlertesHistorique {
      *
      * @return string|null Returns the code collab dst.
      */
-    public function getCodeCollabDst(): ?string{
+    public function getCodeCollabDst(): ?string {
         return $this->codeCollabDst;
     }
 
@@ -131,7 +130,7 @@ class AlertesHistorique {
      *
      * @return string|null Returns the code collab org.
      */
-    public function getCodeCollabOrg(): ?string{
+    public function getCodeCollabOrg(): ?string {
         return $this->codeCollabOrg;
     }
 
@@ -140,7 +139,7 @@ class AlertesHistorique {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -149,7 +148,7 @@ class AlertesHistorique {
      *
      * @return DateTime|null Returns the date declenchement.
      */
-    public function getDateDeclenchement(): ?DateTime{
+    public function getDateDeclenchement(): ?DateTime {
         return $this->dateDeclenchement;
     }
 
@@ -158,7 +157,7 @@ class AlertesHistorique {
      *
      * @return DateTime|null Returns the date reponse.
      */
-    public function getDateReponse(): ?DateTime{
+    public function getDateReponse(): ?DateTime {
         return $this->dateReponse;
     }
 
@@ -167,7 +166,7 @@ class AlertesHistorique {
      *
      * @return int|null Returns the id alerte histo.
      */
-    public function getIdAlerteHisto(): ?int{
+    public function getIdAlerteHisto(): ?int {
         return $this->idAlerteHisto;
     }
 
@@ -176,7 +175,7 @@ class AlertesHistorique {
      *
      * @return string|null Returns the texte alerte.
      */
-    public function getTexteAlerte(): ?string{
+    public function getTexteAlerte(): ?string {
         return $this->texteAlerte;
     }
 
@@ -185,7 +184,7 @@ class AlertesHistorique {
      *
      * @return string|null Returns the texte reponse.
      */
-    public function getTexteReponse(): ?string{
+    public function getTexteReponse(): ?string {
         return $this->texteReponse;
     }
 

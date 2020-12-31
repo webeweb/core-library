@@ -40,7 +40,6 @@ class AgendaDroitsAcces {
      */
     private $niveauDroit;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class AgendaDroitsAcces {
      *
      * @return string|null Returns the code coll droit.
      */
-    public function getCodeCollDroit(): ?string{
+    public function getCodeCollDroit(): ?string {
         return $this->codeCollDroit;
     }
 
@@ -62,7 +61,7 @@ class AgendaDroitsAcces {
      *
      * @return string|null Returns the code coll suivi.
      */
-    public function getCodeCollSuivi(): ?string{
+    public function getCodeCollSuivi(): ?string {
         return $this->codeCollSuivi;
     }
 
@@ -71,7 +70,7 @@ class AgendaDroitsAcces {
      *
      * @return string|null Returns the niveau droit.
      */
-    public function getNiveauDroit(): ?string{
+    public function getNiveauDroit(): ?string {
         return $this->niveauDroit;
     }
 

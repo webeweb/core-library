@@ -168,7 +168,6 @@ class HistoriqueAppels {
      */
     private $typeMessage;
 
-
     /**
      * Constructor.
      */
@@ -181,7 +180,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -190,7 +189,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the code collaborateur clot.
      */
-    public function getCodeCollaborateurClot(): ?string{
+    public function getCodeCollaborateurClot(): ?string {
         return $this->codeCollaborateurClot;
     }
 
@@ -199,7 +198,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the code collaborateur dest.
      */
-    public function getCodeCollaborateurDest(): ?string{
+    public function getCodeCollaborateurDest(): ?string {
         return $this->codeCollaborateurDest;
     }
 
@@ -208,7 +207,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the code collaborateur entrant.
      */
-    public function getCodeCollaborateurEntrant(): ?string{
+    public function getCodeCollaborateurEntrant(): ?string {
         return $this->codeCollaborateurEntrant;
     }
 
@@ -217,7 +216,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the code produit.
      */
-    public function getCodeProduit(): ?string{
+    public function getCodeProduit(): ?string {
         return $this->codeProduit;
     }
 
@@ -226,7 +225,7 @@ class HistoriqueAppels {
      *
      * @return bool|null Returns the confidentiel.
      */
-    public function getConfidentiel(): ?bool{
+    public function getConfidentiel(): ?bool {
         return $this->confidentiel;
     }
 
@@ -235,7 +234,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the consequence.
      */
-    public function getConsequence(): ?string{
+    public function getConsequence(): ?string {
         return $this->consequence;
     }
 
@@ -244,7 +243,7 @@ class HistoriqueAppels {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -253,7 +252,7 @@ class HistoriqueAppels {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -262,7 +261,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the email auteur.
      */
-    public function getEmailAuteur(): ?string{
+    public function getEmailAuteur(): ?string {
         return $this->emailAuteur;
     }
 
@@ -271,7 +270,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the groupe qualifiant.
      */
-    public function getGroupeQualifiant(): ?string{
+    public function getGroupeQualifiant(): ?string {
         return $this->groupeQualifiant;
     }
 
@@ -280,7 +279,7 @@ class HistoriqueAppels {
      *
      * @return int|null Returns the id historique.
      */
-    public function getIdHistorique(): ?int{
+    public function getIdHistorique(): ?int {
         return $this->idHistorique;
     }
 
@@ -289,7 +288,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -298,7 +297,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -307,7 +306,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the nom client.
      */
-    public function getNomClient(): ?string{
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
@@ -316,7 +315,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the origine.
      */
-    public function getOrigine(): ?string{
+    public function getOrigine(): ?string {
         return $this->origine;
     }
 
@@ -325,7 +324,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe(): ?string{
+    public function getPieceJointe(): ?string {
         return $this->pieceJointe;
     }
 
@@ -334,7 +333,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the reponse.
      */
-    public function getReponse(): ?string{
+    public function getReponse(): ?string {
         return $this->reponse;
     }
 
@@ -343,7 +342,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the special.
      */
-    public function getSpecial(): ?string{
+    public function getSpecial(): ?string {
         return $this->special;
     }
 
@@ -352,7 +351,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the tel.
      */
-    public function getTel(): ?string{
+    public function getTel(): ?string {
         return $this->tel;
     }
 
@@ -361,7 +360,7 @@ class HistoriqueAppels {
      *
      * @return string|null Returns the type message.
      */
-    public function getTypeMessage(): ?string{
+    public function getTypeMessage(): ?string {
         return $this->typeMessage;
     }
 

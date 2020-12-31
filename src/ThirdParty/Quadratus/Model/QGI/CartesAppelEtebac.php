@@ -61,7 +61,6 @@ class CartesAppelEtebac {
      */
     private $typeCarte;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class CartesAppelEtebac {
      *
      * @return string|null Returns the carte appel.
      */
-    public function getCarteAppel(): ?string{
+    public function getCarteAppel(): ?string {
         return $this->carteAppel;
     }
 
@@ -83,7 +82,7 @@ class CartesAppelEtebac {
      *
      * @return string|null Returns the code banque.
      */
-    public function getCodeBanque(): ?string{
+    public function getCodeBanque(): ?string {
         return $this->codeBanque;
     }
 
@@ -92,7 +91,7 @@ class CartesAppelEtebac {
      *
      * @return string|null Returns the id carte.
      */
-    public function getIdCarte(): ?string{
+    public function getIdCarte(): ?string {
         return $this->idCarte;
     }
 
@@ -101,7 +100,7 @@ class CartesAppelEtebac {
      *
      * @return string|null Returns the lg carte appel.
      */
-    public function getLgCarteAppel(): ?string{
+    public function getLgCarteAppel(): ?string {
         return $this->lgCarteAppel;
     }
 
@@ -110,7 +109,7 @@ class CartesAppelEtebac {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -119,7 +118,7 @@ class CartesAppelEtebac {
      *
      * @return string|null Returns the type carte.
      */
-    public function getTypeCarte(): ?string{
+    public function getTypeCarte(): ?string {
         return $this->typeCarte;
     }
 

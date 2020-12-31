@@ -280,7 +280,6 @@ class AgendaCollabConst {
      */
     private $vendrediPMfin;
 
-
     /**
      * Constructor.
      */
@@ -293,7 +292,7 @@ class AgendaCollabConst {
      *
      * @return bool|null Returns the artt.
      */
-    public function getArtt(): ?bool{
+    public function getArtt(): ?bool {
         return $this->artt;
     }
 
@@ -302,7 +301,7 @@ class AgendaCollabConst {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -311,7 +310,7 @@ class AgendaCollabConst {
      *
      * @return string|null Returns the code site tenue.
      */
-    public function getCodeSiteTenue(): ?string{
+    public function getCodeSiteTenue(): ?string {
         return $this->codeSiteTenue;
     }
 
@@ -320,7 +319,7 @@ class AgendaCollabConst {
      *
      * @return bool|null Returns the confidentiel.
      */
-    public function getConfidentiel(): ?bool{
+    public function getConfidentiel(): ?bool {
         return $this->confidentiel;
     }
 
@@ -329,7 +328,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the date derniere modif agenda.
      */
-    public function getDateDerniereModifAgenda(): ?DateTime{
+    public function getDateDerniereModifAgenda(): ?DateTime {
         return $this->dateDerniereModifAgenda;
     }
 
@@ -338,7 +337,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the dimanche a mdeb.
      */
-    public function getDimancheAMdeb(): ?DateTime{
+    public function getDimancheAMdeb(): ?DateTime {
         return $this->dimancheAMdeb;
     }
 
@@ -347,7 +346,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the dimanche a mfin.
      */
-    public function getDimancheAMfin(): ?DateTime{
+    public function getDimancheAMfin(): ?DateTime {
         return $this->dimancheAMfin;
     }
 
@@ -356,7 +355,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the dimanche p mdeb.
      */
-    public function getDimanchePMdeb(): ?DateTime{
+    public function getDimanchePMdeb(): ?DateTime {
         return $this->dimanchePMdeb;
     }
 
@@ -365,7 +364,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the dimanche p mfin.
      */
-    public function getDimanchePMfin(): ?DateTime{
+    public function getDimanchePMfin(): ?DateTime {
         return $this->dimanchePMfin;
     }
 
@@ -374,7 +373,7 @@ class AgendaCollabConst {
      *
      * @return bool|null Returns the interdire rd v hors travail.
      */
-    public function getInterdireRdVHorsTravail(): ?bool{
+    public function getInterdireRdVHorsTravail(): ?bool {
         return $this->interdireRdVHorsTravail;
     }
 
@@ -383,7 +382,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the jeudi a mdeb.
      */
-    public function getJeudiAMdeb(): ?DateTime{
+    public function getJeudiAMdeb(): ?DateTime {
         return $this->jeudiAMdeb;
     }
 
@@ -392,7 +391,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the jeudi a mfin.
      */
-    public function getJeudiAMfin(): ?DateTime{
+    public function getJeudiAMfin(): ?DateTime {
         return $this->jeudiAMfin;
     }
 
@@ -401,7 +400,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the jeudi p mdeb.
      */
-    public function getJeudiPMdeb(): ?DateTime{
+    public function getJeudiPMdeb(): ?DateTime {
         return $this->jeudiPMdeb;
     }
 
@@ -410,7 +409,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the jeudi p mfin.
      */
-    public function getJeudiPMfin(): ?DateTime{
+    public function getJeudiPMfin(): ?DateTime {
         return $this->jeudiPMfin;
     }
 
@@ -419,7 +418,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the lundi a mdeb.
      */
-    public function getLundiAMdeb(): ?DateTime{
+    public function getLundiAMdeb(): ?DateTime {
         return $this->lundiAMdeb;
     }
 
@@ -428,7 +427,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the lundi a mfin.
      */
-    public function getLundiAMfin(): ?DateTime{
+    public function getLundiAMfin(): ?DateTime {
         return $this->lundiAMfin;
     }
 
@@ -437,7 +436,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the lundi p mdeb.
      */
-    public function getLundiPMdeb(): ?DateTime{
+    public function getLundiPMdeb(): ?DateTime {
         return $this->lundiPMdeb;
     }
 
@@ -446,7 +445,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the lundi p mfin.
      */
-    public function getLundiPMfin(): ?DateTime{
+    public function getLundiPMfin(): ?DateTime {
         return $this->lundiPMfin;
     }
 
@@ -455,7 +454,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mardi a mdeb.
      */
-    public function getMardiAMdeb(): ?DateTime{
+    public function getMardiAMdeb(): ?DateTime {
         return $this->mardiAMdeb;
     }
 
@@ -464,7 +463,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mardi a mfin.
      */
-    public function getMardiAMfin(): ?DateTime{
+    public function getMardiAMfin(): ?DateTime {
         return $this->mardiAMfin;
     }
 
@@ -473,7 +472,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mardi p mdeb.
      */
-    public function getMardiPMdeb(): ?DateTime{
+    public function getMardiPMdeb(): ?DateTime {
         return $this->mardiPMdeb;
     }
 
@@ -482,7 +481,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mardi p mfin.
      */
-    public function getMardiPMfin(): ?DateTime{
+    public function getMardiPMfin(): ?DateTime {
         return $this->mardiPMfin;
     }
 
@@ -491,7 +490,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mercredi a mdeb.
      */
-    public function getMercrediAMdeb(): ?DateTime{
+    public function getMercrediAMdeb(): ?DateTime {
         return $this->mercrediAMdeb;
     }
 
@@ -500,7 +499,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mercredi a mfin.
      */
-    public function getMercrediAMfin(): ?DateTime{
+    public function getMercrediAMfin(): ?DateTime {
         return $this->mercrediAMfin;
     }
 
@@ -509,7 +508,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mercredi p mdeb.
      */
-    public function getMercrediPMdeb(): ?DateTime{
+    public function getMercrediPMdeb(): ?DateTime {
         return $this->mercrediPMdeb;
     }
 
@@ -518,7 +517,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the mercredi p mfin.
      */
-    public function getMercrediPMfin(): ?DateTime{
+    public function getMercrediPMfin(): ?DateTime {
         return $this->mercrediPMfin;
     }
 
@@ -527,7 +526,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the plus petite date activite modifiee.
      */
-    public function getPlusPetiteDateActiviteModifiee(): ?DateTime{
+    public function getPlusPetiteDateActiviteModifiee(): ?DateTime {
         return $this->plusPetiteDateActiviteModifiee;
     }
 
@@ -536,7 +535,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the samedi a mdeb.
      */
-    public function getSamediAMdeb(): ?DateTime{
+    public function getSamediAMdeb(): ?DateTime {
         return $this->samediAMdeb;
     }
 
@@ -545,7 +544,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the samedi a mfin.
      */
-    public function getSamediAMfin(): ?DateTime{
+    public function getSamediAMfin(): ?DateTime {
         return $this->samediAMfin;
     }
 
@@ -554,7 +553,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the samedi p mdeb.
      */
-    public function getSamediPMdeb(): ?DateTime{
+    public function getSamediPMdeb(): ?DateTime {
         return $this->samediPMdeb;
     }
 
@@ -563,7 +562,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the samedi p mfin.
      */
-    public function getSamediPMfin(): ?DateTime{
+    public function getSamediPMfin(): ?DateTime {
         return $this->samediPMfin;
     }
 
@@ -572,7 +571,7 @@ class AgendaCollabConst {
      *
      * @return bool|null Returns the suivi ordre mission.
      */
-    public function getSuiviOrdreMission(): ?bool{
+    public function getSuiviOrdreMission(): ?bool {
         return $this->suiviOrdreMission;
     }
 
@@ -581,7 +580,7 @@ class AgendaCollabConst {
      *
      * @return string|null Returns the unite rdv.
      */
-    public function getUniteRdv(): ?string{
+    public function getUniteRdv(): ?string {
         return $this->uniteRdv;
     }
 
@@ -590,7 +589,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the vendredi a mdeb.
      */
-    public function getVendrediAMdeb(): ?DateTime{
+    public function getVendrediAMdeb(): ?DateTime {
         return $this->vendrediAMdeb;
     }
 
@@ -599,7 +598,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the vendredi a mfin.
      */
-    public function getVendrediAMfin(): ?DateTime{
+    public function getVendrediAMfin(): ?DateTime {
         return $this->vendrediAMfin;
     }
 
@@ -608,7 +607,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the vendredi p mdeb.
      */
-    public function getVendrediPMdeb(): ?DateTime{
+    public function getVendrediPMdeb(): ?DateTime {
         return $this->vendrediPMdeb;
     }
 
@@ -617,7 +616,7 @@ class AgendaCollabConst {
      *
      * @return DateTime|null Returns the vendredi p mfin.
      */
-    public function getVendrediPMfin(): ?DateTime{
+    public function getVendrediPMfin(): ?DateTime {
         return $this->vendrediPMfin;
     }
 

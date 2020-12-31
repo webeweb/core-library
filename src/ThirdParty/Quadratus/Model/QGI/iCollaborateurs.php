@@ -56,7 +56,6 @@ class iCollaborateurs {
      */
     private $valideDe;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class iCollaborateurs {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -78,7 +77,7 @@ class iCollaborateurs {
      *
      * @return string|null Returns the numi key.
      */
-    public function getNumiKey(): ?string{
+    public function getNumiKey(): ?string {
         return $this->numiKey;
     }
 
@@ -87,7 +86,7 @@ class iCollaborateurs {
      *
      * @return string|null Returns the password.
      */
-    public function getPassword(): ?string{
+    public function getPassword(): ?string {
         return $this->password;
     }
 
@@ -96,7 +95,7 @@ class iCollaborateurs {
      *
      * @return DateTime|null Returns the valide a.
      */
-    public function getValideA(): ?DateTime{
+    public function getValideA(): ?DateTime {
         return $this->valideA;
     }
 
@@ -105,7 +104,7 @@ class iCollaborateurs {
      *
      * @return DateTime|null Returns the valide de.
      */
-    public function getValideDe(): ?DateTime{
+    public function getValideDe(): ?DateTime {
         return $this->valideDe;
     }
 

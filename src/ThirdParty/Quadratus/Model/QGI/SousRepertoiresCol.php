@@ -40,7 +40,6 @@ class SousRepertoiresCol {
      */
     private $numSousRep;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class SousRepertoiresCol {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -62,7 +61,7 @@ class SousRepertoiresCol {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -71,7 +70,7 @@ class SousRepertoiresCol {
      *
      * @return int|null Returns the num sous rep.
      */
-    public function getNumSousRep(): ?int{
+    public function getNumSousRep(): ?int {
         return $this->numSousRep;
     }
 

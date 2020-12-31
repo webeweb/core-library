@@ -47,7 +47,6 @@ class OptionsEnvoiMails {
      */
     private $codeModule;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class OptionsEnvoiMails {
      *
      * @return bool|null Returns the avec entete.
      */
-    public function getAvecEntete(): ?bool{
+    public function getAvecEntete(): ?bool {
         return $this->avecEntete;
     }
 
@@ -69,7 +68,7 @@ class OptionsEnvoiMails {
      *
      * @return bool|null Returns the avec pied.
      */
-    public function getAvecPied(): ?bool{
+    public function getAvecPied(): ?bool {
         return $this->avecPied;
     }
 
@@ -78,7 +77,7 @@ class OptionsEnvoiMails {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -87,7 +86,7 @@ class OptionsEnvoiMails {
      *
      * @return string|null Returns the code module.
      */
-    public function getCodeModule(): ?string{
+    public function getCodeModule(): ?string {
         return $this->codeModule;
     }
 

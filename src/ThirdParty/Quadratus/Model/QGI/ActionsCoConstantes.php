@@ -33,7 +33,6 @@ class ActionsCoConstantes {
      */
     private $numDeclaration;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class ActionsCoConstantes {
      *
      * @return string|null Returns the lieu edition.
      */
-    public function getLieuEdition(): ?string{
+    public function getLieuEdition(): ?string {
         return $this->lieuEdition;
     }
 
@@ -55,7 +54,7 @@ class ActionsCoConstantes {
      *
      * @return string|null Returns the num declaration.
      */
-    public function getNumDeclaration(): ?string{
+    public function getNumDeclaration(): ?string {
         return $this->numDeclaration;
     }
 

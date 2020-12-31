@@ -169,13 +169,6 @@ class GroupesFournisseur {
     private $paiementNombreDeJours;
 
     /**
-     * Rib.
-     *
-     * @var string|null
-     */
-    private $rib;
-
-    /**
      * Reference piece.
      *
      * @var string|null
@@ -225,6 +218,13 @@ class GroupesFournisseur {
     private $remisePied3;
 
     /**
+     * Rib.
+     *
+     * @var string|null
+     */
+    private $rib;
+
+    /**
      * Soumis escompte.
      *
      * @var bool|null
@@ -245,7 +245,6 @@ class GroupesFournisseur {
      */
     private $transporteur;
 
-
     /**
      * Constructor.
      */
@@ -258,7 +257,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -267,7 +266,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the code imputation analytique.
      */
-    public function getCodeImputationAnalytique(): ?string{
+    public function getCodeImputationAnalytique(): ?string {
         return $this->codeImputationAnalytique;
     }
 
@@ -276,7 +275,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the code reglement.
      */
-    public function getCodeReglement(): ?string{
+    public function getCodeReglement(): ?string {
         return $this->codeReglement;
     }
 
@@ -285,7 +284,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -294,7 +293,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -303,7 +302,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the collectif.
      */
-    public function getCollectif(): ?string{
+    public function getCollectif(): ?string {
         return $this->collectif;
     }
 
@@ -312,7 +311,7 @@ class GroupesFournisseur {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -321,7 +320,7 @@ class GroupesFournisseur {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -330,7 +329,7 @@ class GroupesFournisseur {
      *
      * @return int|null Returns the delai le.
      */
-    public function getDelaiLe(): ?int{
+    public function getDelaiLe(): ?int {
         return $this->delaiLe;
     }
 
@@ -339,7 +338,7 @@ class GroupesFournisseur {
      *
      * @return int|null Returns the delai nombre.
      */
-    public function getDelaiNombre(): ?int{
+    public function getDelaiNombre(): ?int {
         return $this->delaiNombre;
     }
 
@@ -348,7 +347,7 @@ class GroupesFournisseur {
      *
      * @return int|null Returns the delai type.
      */
-    public function getDelaiType(): ?int{
+    public function getDelaiType(): ?int {
         return $this->delaiType;
     }
 
@@ -357,7 +356,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the domiciliation bancaire1.
      */
-    public function getDomiciliationBancaire1(): ?string{
+    public function getDomiciliationBancaire1(): ?string {
         return $this->domiciliationBancaire1;
     }
 
@@ -366,7 +365,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the domiciliation bancaire2.
      */
-    public function getDomiciliationBancaire2(): ?string{
+    public function getDomiciliationBancaire2(): ?string {
         return $this->domiciliationBancaire2;
     }
 
@@ -375,7 +374,7 @@ class GroupesFournisseur {
      *
      * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros(): ?bool{
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
@@ -384,7 +383,7 @@ class GroupesFournisseur {
      *
      * @return bool|null Returns the fournisseur perdu.
      */
-    public function getFournisseurPerdu(): ?bool{
+    public function getFournisseurPerdu(): ?bool {
         return $this->fournisseurPerdu;
     }
 
@@ -393,7 +392,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the groupe.
      */
-    public function getGroupe(): ?string{
+    public function getGroupe(): ?string {
         return $this->groupe;
     }
 
@@ -402,7 +401,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?string{
+    public function getNombreEcheances(): ?string {
         return $this->nombreEcheances;
     }
 
@@ -411,7 +410,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -420,7 +419,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the paiement depart le.
      */
-    public function getPaiementDepartLe(): ?string{
+    public function getPaiementDepartLe(): ?string {
         return $this->paiementDepartLe;
     }
 
@@ -429,7 +428,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the paiement le.
      */
-    public function getPaiementLe(): ?string{
+    public function getPaiementLe(): ?string {
         return $this->paiementLe;
     }
 
@@ -438,17 +437,8 @@ class GroupesFournisseur {
      *
      * @return int|null Returns the paiement nombre de jours.
      */
-    public function getPaiementNombreDeJours(): ?int{
+    public function getPaiementNombreDeJours(): ?int {
         return $this->paiementNombreDeJours;
-    }
-
-    /**
-     * Get the rib.
-     *
-     * @return string|null Returns the rib.
-     */
-    public function getRib(): ?string{
-        return $this->rib;
     }
 
     /**
@@ -456,7 +446,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the reference piece.
      */
-    public function getReferencePiece(): ?string{
+    public function getReferencePiece(): ?string {
         return $this->referencePiece;
     }
 
@@ -465,7 +455,7 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -474,7 +464,7 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -483,7 +473,7 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -492,7 +482,7 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the remise pied.
      */
-    public function getRemisePied(): ?float{
+    public function getRemisePied(): ?float {
         return $this->remisePied;
     }
 
@@ -501,7 +491,7 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the remise pied2.
      */
-    public function getRemisePied2(): ?float{
+    public function getRemisePied2(): ?float {
         return $this->remisePied2;
     }
 
@@ -510,8 +500,17 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the remise pied3.
      */
-    public function getRemisePied3(): ?float{
+    public function getRemisePied3(): ?float {
         return $this->remisePied3;
+    }
+
+    /**
+     * Get the rib.
+     *
+     * @return string|null Returns the rib.
+     */
+    public function getRib(): ?string {
+        return $this->rib;
     }
 
     /**
@@ -519,7 +518,7 @@ class GroupesFournisseur {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -528,7 +527,7 @@ class GroupesFournisseur {
      *
      * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte(): ?float{
+    public function getTauxEscompte(): ?float {
         return $this->tauxEscompte;
     }
 
@@ -537,7 +536,7 @@ class GroupesFournisseur {
      *
      * @return string|null Returns the transporteur.
      */
-    public function getTransporteur(): ?string{
+    public function getTransporteur(): ?string {
         return $this->transporteur;
     }
 
@@ -773,17 +772,6 @@ class GroupesFournisseur {
     }
 
     /**
-     * Set the rib.
-     *
-     * @param string|null $rib The rib.
-     * @return GroupesFournisseur Returns this Groupes fournisseur.
-     */
-    public function setRib(?string $rib): GroupesFournisseur {
-        $this->rib = $rib;
-        return $this;
-    }
-
-    /**
      * Set the reference piece.
      *
      * @param string|null $referencePiece The reference piece.
@@ -857,6 +845,17 @@ class GroupesFournisseur {
      */
     public function setRemisePied3(?float $remisePied3): GroupesFournisseur {
         $this->remisePied3 = $remisePied3;
+        return $this;
+    }
+
+    /**
+     * Set the rib.
+     *
+     * @param string|null $rib The rib.
+     * @return GroupesFournisseur Returns this Groupes fournisseur.
+     */
+    public function setRib(?string $rib): GroupesFournisseur {
+        $this->rib = $rib;
         return $this;
     }
 

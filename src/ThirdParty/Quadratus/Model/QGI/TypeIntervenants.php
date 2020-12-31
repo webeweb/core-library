@@ -61,7 +61,6 @@ class TypeIntervenants {
      */
     private $prochainNumero;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class TypeIntervenants {
      *
      * @return bool|null Returns the acces libre.
      */
-    public function getAccesLibre(): ?bool{
+    public function getAccesLibre(): ?bool {
         return $this->accesLibre;
     }
 
@@ -83,7 +82,7 @@ class TypeIntervenants {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -92,7 +91,7 @@ class TypeIntervenants {
      *
      * @return bool|null Returns the increment auto.
      */
-    public function getIncrementAuto(): ?bool{
+    public function getIncrementAuto(): ?bool {
         return $this->incrementAuto;
     }
 
@@ -101,7 +100,7 @@ class TypeIntervenants {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -110,7 +109,7 @@ class TypeIntervenants {
      *
      * @return string|null Returns the prefixe.
      */
-    public function getPrefixe(): ?string{
+    public function getPrefixe(): ?string {
         return $this->prefixe;
     }
 
@@ -119,7 +118,7 @@ class TypeIntervenants {
      *
      * @return int|null Returns the prochain numero.
      */
-    public function getProchainNumero(): ?int{
+    public function getProchainNumero(): ?int {
         return $this->prochainNumero;
     }
 

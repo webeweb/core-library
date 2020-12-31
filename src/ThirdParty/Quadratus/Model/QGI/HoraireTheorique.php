@@ -257,7 +257,6 @@ class HoraireTheorique {
      */
     private $tVendredi;
 
-
     /**
      * Constructor.
      */
@@ -270,7 +269,7 @@ class HoraireTheorique {
      *
      * @return int|null Returns the annee.
      */
-    public function getAnnee(): ?int{
+    public function getAnnee(): ?int {
         return $this->annee;
     }
 
@@ -279,7 +278,7 @@ class HoraireTheorique {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -288,7 +287,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h.
      */
-    public function getNbreH(): ?float{
+    public function getNbreH(): ?float {
         return $this->nbreH;
     }
 
@@ -297,7 +296,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h dimanche.
      */
-    public function getNbreHDimanche(): ?float{
+    public function getNbreHDimanche(): ?float {
         return $this->nbreHDimanche;
     }
 
@@ -306,7 +305,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h jeudi.
      */
-    public function getNbreHJeudi(): ?float{
+    public function getNbreHJeudi(): ?float {
         return $this->nbreHJeudi;
     }
 
@@ -315,7 +314,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h lundi.
      */
-    public function getNbreHLundi(): ?float{
+    public function getNbreHLundi(): ?float {
         return $this->nbreHLundi;
     }
 
@@ -324,7 +323,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mardi.
      */
-    public function getNbreHMardi(): ?float{
+    public function getNbreHMardi(): ?float {
         return $this->nbreHMardi;
     }
 
@@ -333,7 +332,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h max.
      */
-    public function getNbreHMax(): ?float{
+    public function getNbreHMax(): ?float {
         return $this->nbreHMax;
     }
 
@@ -342,7 +341,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi dimanche.
      */
-    public function getNbreHMaxiDimanche(): ?float{
+    public function getNbreHMaxiDimanche(): ?float {
         return $this->nbreHMaxiDimanche;
     }
 
@@ -351,7 +350,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi jeudi.
      */
-    public function getNbreHMaxiJeudi(): ?float{
+    public function getNbreHMaxiJeudi(): ?float {
         return $this->nbreHMaxiJeudi;
     }
 
@@ -360,7 +359,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi lundi.
      */
-    public function getNbreHMaxiLundi(): ?float{
+    public function getNbreHMaxiLundi(): ?float {
         return $this->nbreHMaxiLundi;
     }
 
@@ -369,7 +368,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi mardi.
      */
-    public function getNbreHMaxiMardi(): ?float{
+    public function getNbreHMaxiMardi(): ?float {
         return $this->nbreHMaxiMardi;
     }
 
@@ -378,7 +377,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi mercredi.
      */
-    public function getNbreHMaxiMercredi(): ?float{
+    public function getNbreHMaxiMercredi(): ?float {
         return $this->nbreHMaxiMercredi;
     }
 
@@ -387,7 +386,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi samedi.
      */
-    public function getNbreHMaxiSamedi(): ?float{
+    public function getNbreHMaxiSamedi(): ?float {
         return $this->nbreHMaxiSamedi;
     }
 
@@ -396,7 +395,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h maxi vendredi.
      */
-    public function getNbreHMaxiVendredi(): ?float{
+    public function getNbreHMaxiVendredi(): ?float {
         return $this->nbreHMaxiVendredi;
     }
 
@@ -405,7 +404,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mercredi.
      */
-    public function getNbreHMercredi(): ?float{
+    public function getNbreHMercredi(): ?float {
         return $this->nbreHMercredi;
     }
 
@@ -414,7 +413,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini.
      */
-    public function getNbreHMini(): ?float{
+    public function getNbreHMini(): ?float {
         return $this->nbreHMini;
     }
 
@@ -423,7 +422,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini dimanche.
      */
-    public function getNbreHMiniDimanche(): ?float{
+    public function getNbreHMiniDimanche(): ?float {
         return $this->nbreHMiniDimanche;
     }
 
@@ -432,7 +431,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini jeudi.
      */
-    public function getNbreHMiniJeudi(): ?float{
+    public function getNbreHMiniJeudi(): ?float {
         return $this->nbreHMiniJeudi;
     }
 
@@ -441,7 +440,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini lundi.
      */
-    public function getNbreHMiniLundi(): ?float{
+    public function getNbreHMiniLundi(): ?float {
         return $this->nbreHMiniLundi;
     }
 
@@ -450,7 +449,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini mardi.
      */
-    public function getNbreHMiniMardi(): ?float{
+    public function getNbreHMiniMardi(): ?float {
         return $this->nbreHMiniMardi;
     }
 
@@ -459,7 +458,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini mercredi.
      */
-    public function getNbreHMiniMercredi(): ?float{
+    public function getNbreHMiniMercredi(): ?float {
         return $this->nbreHMiniMercredi;
     }
 
@@ -468,7 +467,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini samedi.
      */
-    public function getNbreHMiniSamedi(): ?float{
+    public function getNbreHMiniSamedi(): ?float {
         return $this->nbreHMiniSamedi;
     }
 
@@ -477,7 +476,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h mini vendredi.
      */
-    public function getNbreHMiniVendredi(): ?float{
+    public function getNbreHMiniVendredi(): ?float {
         return $this->nbreHMiniVendredi;
     }
 
@@ -486,7 +485,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h samedi.
      */
-    public function getNbreHSamedi(): ?float{
+    public function getNbreHSamedi(): ?float {
         return $this->nbreHSamedi;
     }
 
@@ -495,7 +494,7 @@ class HoraireTheorique {
      *
      * @return float|null Returns the nbre h vendredi.
      */
-    public function getNbreHVendredi(): ?float{
+    public function getNbreHVendredi(): ?float {
         return $this->nbreHVendredi;
     }
 
@@ -504,7 +503,7 @@ class HoraireTheorique {
      *
      * @return int|null Returns the numero sem.
      */
-    public function getNumeroSem(): ?int{
+    public function getNumeroSem(): ?int {
         return $this->numeroSem;
     }
 
@@ -513,7 +512,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t dimanche.
      */
-    public function getTDimanche(): ?bool{
+    public function getTDimanche(): ?bool {
         return $this->tDimanche;
     }
 
@@ -522,7 +521,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t jeudi.
      */
-    public function getTJeudi(): ?bool{
+    public function getTJeudi(): ?bool {
         return $this->tJeudi;
     }
 
@@ -531,7 +530,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t lundi.
      */
-    public function getTLundi(): ?bool{
+    public function getTLundi(): ?bool {
         return $this->tLundi;
     }
 
@@ -540,7 +539,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t mardi.
      */
-    public function getTMardi(): ?bool{
+    public function getTMardi(): ?bool {
         return $this->tMardi;
     }
 
@@ -549,7 +548,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t mercredi.
      */
-    public function getTMercredi(): ?bool{
+    public function getTMercredi(): ?bool {
         return $this->tMercredi;
     }
 
@@ -558,7 +557,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t samedi.
      */
-    public function getTSamedi(): ?bool{
+    public function getTSamedi(): ?bool {
         return $this->tSamedi;
     }
 
@@ -567,7 +566,7 @@ class HoraireTheorique {
      *
      * @return bool|null Returns the t vendredi.
      */
-    public function getTVendredi(): ?bool{
+    public function getTVendredi(): ?bool {
         return $this->tVendredi;
     }
 

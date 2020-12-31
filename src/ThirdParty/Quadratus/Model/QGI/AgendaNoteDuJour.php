@@ -56,7 +56,6 @@ class AgendaNoteDuJour {
      */
     private $maJExterne;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class AgendaNoteDuJour {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -78,7 +77,7 @@ class AgendaNoteDuJour {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -87,7 +86,7 @@ class AgendaNoteDuJour {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -96,7 +95,7 @@ class AgendaNoteDuJour {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour(): ?DateTime{
+    public function getJour(): ?DateTime {
         return $this->jour;
     }
 
@@ -105,7 +104,7 @@ class AgendaNoteDuJour {
      *
      * @return bool|null Returns the ma j externe.
      */
-    public function getMaJExterne(): ?bool{
+    public function getMaJExterne(): ?bool {
         return $this->maJExterne;
     }
 

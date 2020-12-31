@@ -68,7 +68,6 @@ class TravauxTypeLignes {
      */
     private $police;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class TravauxTypeLignes {
      *
      * @return string|null Returns the code repartition.
      */
-    public function getCodeRepartition(): ?string{
+    public function getCodeRepartition(): ?string {
         return $this->codeRepartition;
     }
 
@@ -90,7 +89,7 @@ class TravauxTypeLignes {
      *
      * @return string|null Returns the code travail.
      */
-    public function getCodeTravail(): ?string{
+    public function getCodeTravail(): ?string {
         return $this->codeTravail;
     }
 
@@ -99,7 +98,7 @@ class TravauxTypeLignes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -108,7 +107,7 @@ class TravauxTypeLignes {
      *
      * @return float|null Returns the nb uo.
      */
-    public function getNbUo(): ?float{
+    public function getNbUo(): ?float {
         return $this->nbUo;
     }
 
@@ -117,7 +116,7 @@ class TravauxTypeLignes {
      *
      * @return string|null Returns the niveau ligne.
      */
-    public function getNiveauLigne(): ?string{
+    public function getNiveauLigne(): ?string {
         return $this->niveauLigne;
     }
 
@@ -126,7 +125,7 @@ class TravauxTypeLignes {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -135,7 +134,7 @@ class TravauxTypeLignes {
      *
      * @return string|null Returns the police.
      */
-    public function getPolice(): ?string{
+    public function getPolice(): ?string {
         return $this->police;
     }
 

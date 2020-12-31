@@ -82,7 +82,6 @@ class FactFournLignes {
      */
     private $numLigne;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class FactFournLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -104,7 +103,7 @@ class FactFournLignes {
      *
      * @return string|null Returns the code mission.
      */
-    public function getCodeMission(): ?string{
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -113,7 +112,7 @@ class FactFournLignes {
      *
      * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur(): ?string{
+    public function getCollaborateur(): ?string {
         return $this->collaborateur;
     }
 
@@ -122,7 +121,7 @@ class FactFournLignes {
      *
      * @return string|null Returns the compte.
      */
-    public function getCompte(): ?string{
+    public function getCompte(): ?string {
         return $this->compte;
     }
 
@@ -131,7 +130,7 @@ class FactFournLignes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -140,7 +139,7 @@ class FactFournLignes {
      *
      * @return float|null Returns the montant credit.
      */
-    public function getMontantCredit(): ?float{
+    public function getMontantCredit(): ?float {
         return $this->montantCredit;
     }
 
@@ -149,7 +148,7 @@ class FactFournLignes {
      *
      * @return float|null Returns the montant debit.
      */
-    public function getMontantDebit(): ?float{
+    public function getMontantDebit(): ?float {
         return $this->montantDebit;
     }
 
@@ -158,7 +157,7 @@ class FactFournLignes {
      *
      * @return string|null Returns the num entete.
      */
-    public function getNumEntete(): ?string{
+    public function getNumEntete(): ?string {
         return $this->numEntete;
     }
 
@@ -167,7 +166,7 @@ class FactFournLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 

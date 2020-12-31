@@ -40,7 +40,6 @@ class CollabAdrMailConf {
      */
     private $intitule;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class CollabAdrMailConf {
      *
      * @return string|null Returns the adresse email.
      */
-    public function getAdresseEmail(): ?string{
+    public function getAdresseEmail(): ?string {
         return $this->adresseEmail;
     }
 
@@ -62,7 +61,7 @@ class CollabAdrMailConf {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -71,7 +70,7 @@ class CollabAdrMailConf {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 

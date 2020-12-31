@@ -117,7 +117,6 @@ class ActionsCoInscrits {
      */
     private $typeInvite;
 
-
     /**
      * Constructor.
      */
@@ -130,7 +129,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the code action.
      */
-    public function getCodeAction(): ?string{
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
@@ -139,7 +138,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -148,7 +147,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the code manif.
      */
-    public function getCodeManif(): ?string{
+    public function getCodeManif(): ?string {
         return $this->codeManif;
     }
 
@@ -157,7 +156,7 @@ class ActionsCoInscrits {
      *
      * @return bool|null Returns the confirme.
      */
-    public function getConfirme(): ?bool{
+    public function getConfirme(): ?bool {
         return $this->confirme;
     }
 
@@ -166,7 +165,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the email.
      */
-    public function getEmail(): ?string{
+    public function getEmail(): ?string {
         return $this->email;
     }
 
@@ -175,7 +174,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the fax.
      */
-    public function getFax(): ?string{
+    public function getFax(): ?string {
         return $this->fax;
     }
 
@@ -184,7 +183,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -193,7 +192,7 @@ class ActionsCoInscrits {
      *
      * @return int|null Returns the num interlocuteur.
      */
-    public function getNumInterlocuteur(): ?int{
+    public function getNumInterlocuteur(): ?int {
         return $this->numInterlocuteur;
     }
 
@@ -202,7 +201,7 @@ class ActionsCoInscrits {
      *
      * @return int|null Returns the num seance.
      */
-    public function getNumSeance(): ?int{
+    public function getNumSeance(): ?int {
         return $this->numSeance;
     }
 
@@ -211,7 +210,7 @@ class ActionsCoInscrits {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -220,7 +219,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -229,7 +228,7 @@ class ActionsCoInscrits {
      *
      * @return bool|null Returns the present.
      */
-    public function getPresent(): ?bool{
+    public function getPresent(): ?bool {
         return $this->present;
     }
 
@@ -238,7 +237,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the telephone.
      */
-    public function getTelephone(): ?string{
+    public function getTelephone(): ?string {
         return $this->telephone;
     }
 
@@ -247,7 +246,7 @@ class ActionsCoInscrits {
      *
      * @return string|null Returns the type invite.
      */
-    public function getTypeInvite(): ?string{
+    public function getTypeInvite(): ?string {
         return $this->typeInvite;
     }
 

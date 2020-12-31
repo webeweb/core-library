@@ -40,7 +40,6 @@ class SousFamilleArticle {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class SousFamilleArticle {
      *
      * @return string|null Returns the activite principale.
      */
-    public function getActivitePrincipale(): ?string{
+    public function getActivitePrincipale(): ?string {
         return $this->activitePrincipale;
     }
 
@@ -62,7 +61,7 @@ class SousFamilleArticle {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -71,7 +70,7 @@ class SousFamilleArticle {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

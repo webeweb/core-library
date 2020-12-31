@@ -126,7 +126,6 @@ class ClientsLstPerso {
      */
     private $typeSel;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the chapitre.
      */
-    public function getChapitre(): ?string{
+    public function getChapitre(): ?string {
         return $this->chapitre;
     }
 
@@ -148,7 +147,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the coll creat.
      */
-    public function getCollCreat(): ?string{
+    public function getCollCreat(): ?string {
         return $this->collCreat;
     }
 
@@ -157,7 +156,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the coll modif.
      */
-    public function getCollModif(): ?string{
+    public function getCollModif(): ?string {
         return $this->collModif;
     }
 
@@ -166,7 +165,7 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -175,7 +174,7 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -184,7 +183,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -193,7 +192,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the g uniq id.
      */
-    public function getGUniqId(): ?string{
+    public function getGUniqId(): ?string {
         return $this->gUniqId;
     }
 
@@ -202,7 +201,7 @@ class ClientsLstPerso {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -211,7 +210,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the lst collab.
      */
-    public function getLstCollab(): ?string{
+    public function getLstCollab(): ?string {
         return $this->lstCollab;
     }
 
@@ -220,7 +219,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the option visu.
      */
-    public function getOptionVisu(): ?string{
+    public function getOptionVisu(): ?string {
         return $this->optionVisu;
     }
 
@@ -229,7 +228,7 @@ class ClientsLstPerso {
      *
      * @return int|null Returns the origine.
      */
-    public function getOrigine(): ?int{
+    public function getOrigine(): ?int {
         return $this->origine;
     }
 
@@ -238,7 +237,7 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -247,7 +246,7 @@ class ClientsLstPerso {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -256,7 +255,7 @@ class ClientsLstPerso {
      *
      * @return bool|null Returns the type saisie.
      */
-    public function getTypeSaisie(): ?bool{
+    public function getTypeSaisie(): ?bool {
         return $this->typeSaisie;
     }
 
@@ -265,7 +264,7 @@ class ClientsLstPerso {
      *
      * @return string|null Returns the type sel.
      */
-    public function getTypeSel(): ?string{
+    public function getTypeSel(): ?string {
         return $this->typeSel;
     }
 

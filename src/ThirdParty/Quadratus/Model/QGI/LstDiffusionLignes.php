@@ -47,7 +47,6 @@ class LstDiffusionLignes {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class LstDiffusionLignes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -69,7 +68,7 @@ class LstDiffusionLignes {
      *
      * @return string|null Returns the code groupe.
      */
-    public function getCodeGroupe(): ?string{
+    public function getCodeGroupe(): ?string {
         return $this->codeGroupe;
     }
 
@@ -78,7 +77,7 @@ class LstDiffusionLignes {
      *
      * @return int|null Returns the num lig.
      */
-    public function getNumLig(): ?int{
+    public function getNumLig(): ?int {
         return $this->numLig;
     }
 
@@ -87,7 +86,7 @@ class LstDiffusionLignes {
      *
      * @return int|null Returns the type.
      */
-    public function getType(): ?int{
+    public function getType(): ?int {
         return $this->type;
     }
 

@@ -126,7 +126,6 @@ class TravauxEnCours {
      */
     private $travailFait;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class TravauxEnCours {
      *
      * @return bool|null Returns the cataloguee.
      */
-    public function getCataloguee(): ?bool{
+    public function getCataloguee(): ?bool {
         return $this->cataloguee;
     }
 
@@ -148,7 +147,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -157,7 +156,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the code collaborateur dest.
      */
-    public function getCodeCollaborateurDest(): ?string{
+    public function getCodeCollaborateurDest(): ?string {
         return $this->codeCollaborateurDest;
     }
 
@@ -166,7 +165,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the code collaborateur entrant.
      */
-    public function getCodeCollaborateurEntrant(): ?string{
+    public function getCodeCollaborateurEntrant(): ?string {
         return $this->codeCollaborateurEntrant;
     }
 
@@ -175,7 +174,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date alerte.
      */
-    public function getDateAlerte(): ?DateTime{
+    public function getDateAlerte(): ?DateTime {
         return $this->dateAlerte;
     }
 
@@ -184,7 +183,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date butoir.
      */
-    public function getDateButoir(): ?DateTime{
+    public function getDateButoir(): ?DateTime {
         return $this->dateButoir;
     }
 
@@ -193,7 +192,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -202,7 +201,7 @@ class TravauxEnCours {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -211,7 +210,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the demandeur.
      */
-    public function getDemandeur(): ?string{
+    public function getDemandeur(): ?string {
         return $this->demandeur;
     }
 
@@ -220,7 +219,7 @@ class TravauxEnCours {
      *
      * @return bool|null Returns the envoi post it.
      */
-    public function getEnvoiPostIt(): ?bool{
+    public function getEnvoiPostIt(): ?bool {
         return $this->envoiPostIt;
     }
 
@@ -229,7 +228,7 @@ class TravauxEnCours {
      *
      * @return int|null Returns the id travail.
      */
-    public function getIdTravail(): ?int{
+    public function getIdTravail(): ?int {
         return $this->idTravail;
     }
 
@@ -238,7 +237,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -247,7 +246,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the nom client.
      */
-    public function getNomClient(): ?string{
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
@@ -256,7 +255,7 @@ class TravauxEnCours {
      *
      * @return string|null Returns the piece jointe.
      */
-    public function getPieceJointe(): ?string{
+    public function getPieceJointe(): ?string {
         return $this->pieceJointe;
     }
 
@@ -265,7 +264,7 @@ class TravauxEnCours {
      *
      * @return bool|null Returns the travail fait.
      */
-    public function getTravailFait(): ?bool{
+    public function getTravailFait(): ?bool {
         return $this->travailFait;
     }
 

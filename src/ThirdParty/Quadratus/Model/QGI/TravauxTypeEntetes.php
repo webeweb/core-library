@@ -61,7 +61,6 @@ class TravauxTypeEntetes {
      */
     private $police3;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class TravauxTypeEntetes {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -83,7 +82,7 @@ class TravauxTypeEntetes {
      *
      * @return string|null Returns the code mission.
      */
-    public function getCodeMission(): ?string{
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -92,7 +91,7 @@ class TravauxTypeEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -101,7 +100,7 @@ class TravauxTypeEntetes {
      *
      * @return string|null Returns the police.
      */
-    public function getPolice(): ?string{
+    public function getPolice(): ?string {
         return $this->police;
     }
 
@@ -110,7 +109,7 @@ class TravauxTypeEntetes {
      *
      * @return string|null Returns the police2.
      */
-    public function getPolice2(): ?string{
+    public function getPolice2(): ?string {
         return $this->police2;
     }
 
@@ -119,7 +118,7 @@ class TravauxTypeEntetes {
      *
      * @return string|null Returns the police3.
      */
-    public function getPolice3(): ?string{
+    public function getPolice3(): ?string {
         return $this->police3;
     }
 

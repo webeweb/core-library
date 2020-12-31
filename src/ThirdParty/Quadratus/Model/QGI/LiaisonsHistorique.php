@@ -91,7 +91,6 @@ class LiaisonsHistorique {
      */
     private $typeLiaison;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -113,7 +112,7 @@ class LiaisonsHistorique {
      *
      * @return DateTime|null Returns the date liaison.
      */
-    public function getDateLiaison(): ?DateTime{
+    public function getDateLiaison(): ?DateTime {
         return $this->dateLiaison;
     }
 
@@ -122,7 +121,7 @@ class LiaisonsHistorique {
      *
      * @return DateTime|null Returns the date retour prevue.
      */
-    public function getDateRetourPrevue(): ?DateTime{
+    public function getDateRetourPrevue(): ?DateTime {
         return $this->dateRetourPrevue;
     }
 
@@ -131,7 +130,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the destinataire.
      */
-    public function getDestinataire(): ?string{
+    public function getDestinataire(): ?string {
         return $this->destinataire;
     }
 
@@ -140,7 +139,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the modules.
      */
-    public function getModules(): ?string{
+    public function getModules(): ?string {
         return $this->modules;
     }
 
@@ -149,7 +148,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the modules bloques.
      */
-    public function getModulesBloques(): ?string{
+    public function getModulesBloques(): ?string {
         return $this->modulesBloques;
     }
 
@@ -158,7 +157,7 @@ class LiaisonsHistorique {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -167,7 +166,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the numero dossier.
      */
-    public function getNumeroDossier(): ?string{
+    public function getNumeroDossier(): ?string {
         return $this->numeroDossier;
     }
 
@@ -176,7 +175,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the sens.
      */
-    public function getSens(): ?string{
+    public function getSens(): ?string {
         return $this->sens;
     }
 
@@ -185,7 +184,7 @@ class LiaisonsHistorique {
      *
      * @return string|null Returns the type liaison.
      */
-    public function getTypeLiaison(): ?string{
+    public function getTypeLiaison(): ?string {
         return $this->typeLiaison;
     }
 

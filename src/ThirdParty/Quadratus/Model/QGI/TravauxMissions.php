@@ -117,7 +117,6 @@ class TravauxMissions {
      */
     private $typeAffectation;
 
-
     /**
      * Constructor.
      */
@@ -130,7 +129,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -139,7 +138,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -148,7 +147,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -157,7 +156,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the code travail.
      */
-    public function getCodeTravail(): ?string{
+    public function getCodeTravail(): ?string {
         return $this->codeTravail;
     }
 
@@ -166,7 +165,7 @@ class TravauxMissions {
      *
      * @return bool|null Returns the declaration a rediger.
      */
-    public function getDeclarationARediger(): ?bool{
+    public function getDeclarationARediger(): ?bool {
         return $this->declarationARediger;
     }
 
@@ -175,7 +174,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the frequence.
      */
-    public function getFrequence(): ?string{
+    public function getFrequence(): ?string {
         return $this->frequence;
     }
 
@@ -184,7 +183,7 @@ class TravauxMissions {
      *
      * @return int|null Returns the jour.
      */
-    public function getJour(): ?int{
+    public function getJour(): ?int {
         return $this->jour;
     }
 
@@ -193,7 +192,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -202,7 +201,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the missions.
      */
-    public function getMissions(): ?string{
+    public function getMissions(): ?string {
         return $this->missions;
     }
 
@@ -211,7 +210,7 @@ class TravauxMissions {
      *
      * @return float|null Returns the nb uo.
      */
-    public function getNbUo(): ?float{
+    public function getNbUo(): ?float {
         return $this->nbUo;
     }
 
@@ -220,7 +219,7 @@ class TravauxMissions {
      *
      * @return bool|null Returns the ne pas editer.
      */
-    public function getNePasEditer(): ?bool{
+    public function getNePasEditer(): ?bool {
         return $this->nePasEditer;
     }
 
@@ -229,7 +228,7 @@ class TravauxMissions {
      *
      * @return int|null Returns the niveau.
      */
-    public function getNiveau(): ?int{
+    public function getNiveau(): ?int {
         return $this->niveau;
     }
 
@@ -238,7 +237,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the realise par.
      */
-    public function getRealisePar(): ?string{
+    public function getRealisePar(): ?string {
         return $this->realisePar;
     }
 
@@ -247,7 +246,7 @@ class TravauxMissions {
      *
      * @return string|null Returns the type affectation.
      */
-    public function getTypeAffectation(): ?string{
+    public function getTypeAffectation(): ?string {
         return $this->typeAffectation;
     }
 

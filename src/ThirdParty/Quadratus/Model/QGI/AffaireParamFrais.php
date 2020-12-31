@@ -126,7 +126,6 @@ class AffaireParamFrais {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -148,7 +147,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -157,7 +156,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the code avenant.
      */
-    public function getCodeAvenant(): ?string{
+    public function getCodeAvenant(): ?string {
         return $this->codeAvenant;
     }
 
@@ -166,7 +165,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the code frais fixe.
      */
-    public function getCodeFraisFixe(): ?string{
+    public function getCodeFraisFixe(): ?string {
         return $this->codeFraisFixe;
     }
 
@@ -175,7 +174,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the code phase.
      */
-    public function getCodePhase(): ?string{
+    public function getCodePhase(): ?string {
         return $this->codePhase;
     }
 
@@ -184,7 +183,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the comptes comptables.
      */
-    public function getComptesComptables(): ?string{
+    public function getComptesComptables(): ?string {
         return $this->comptesComptables;
     }
 
@@ -193,7 +192,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -202,7 +201,7 @@ class AffaireParamFrais {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -211,7 +210,7 @@ class AffaireParamFrais {
      *
      * @return float|null Returns the mt fg1.
      */
-    public function getMtFg1(): ?float{
+    public function getMtFg1(): ?float {
         return $this->mtFg1;
     }
 
@@ -220,7 +219,7 @@ class AffaireParamFrais {
      *
      * @return float|null Returns the mt fg2.
      */
-    public function getMtFg2(): ?float{
+    public function getMtFg2(): ?float {
         return $this->mtFg2;
     }
 
@@ -229,7 +228,7 @@ class AffaireParamFrais {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -238,7 +237,7 @@ class AffaireParamFrais {
      *
      * @return bool|null Returns the pourcentage.
      */
-    public function getPourcentage(): ?bool{
+    public function getPourcentage(): ?bool {
         return $this->pourcentage;
     }
 
@@ -247,7 +246,7 @@ class AffaireParamFrais {
      *
      * @return float|null Returns the prct fg1.
      */
-    public function getPrctFg1(): ?float{
+    public function getPrctFg1(): ?float {
         return $this->prctFg1;
     }
 
@@ -256,7 +255,7 @@ class AffaireParamFrais {
      *
      * @return float|null Returns the prct fg2.
      */
-    public function getPrctFg2(): ?float{
+    public function getPrctFg2(): ?float {
         return $this->prctFg2;
     }
 
@@ -265,7 +264,7 @@ class AffaireParamFrais {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

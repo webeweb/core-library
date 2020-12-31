@@ -309,18 +309,18 @@ class LiaisonsOpTrans {
     private $xFerDosPaie;
 
     /**
-     * X fer etebac.
-     *
-     * @var bool|null
-     */
-    private $xFerEtebac;
-
-    /**
      * X fer ed grp.
      *
      * @var bool|null
      */
     private $xFerEdGrp;
+
+    /**
+     * X fer etebac.
+     *
+     * @var bool|null
+     */
+    private $xFerEtebac;
 
     /**
      * X fer fact edit.
@@ -581,7 +581,6 @@ class LiaisonsOpTrans {
      */
     private $xFerTypeSocietes;
 
-
     /**
      * Constructor.
      */
@@ -594,7 +593,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the batch apres.
      */
-    public function getBatchApres(): ?string{
+    public function getBatchApres(): ?string {
         return $this->batchApres;
     }
 
@@ -603,7 +602,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the batch avant.
      */
-    public function getBatchAvant(): ?string{
+    public function getBatchAvant(): ?string {
         return $this->batchAvant;
     }
 
@@ -612,7 +611,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -621,7 +620,7 @@ class LiaisonsOpTrans {
      *
      * @return DateTime|null Returns the dt dern x fer.
      */
-    public function getDtDernXFer(): ?DateTime{
+    public function getDtDernXFer(): ?DateTime {
         return $this->dtDernXFer;
     }
 
@@ -630,7 +629,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -639,7 +638,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the liste destinataires.
      */
-    public function getListeDestinataires(): ?string{
+    public function getListeDestinataires(): ?string {
         return $this->listeDestinataires;
     }
 
@@ -648,7 +647,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the use dt dern x fer.
      */
-    public function getUseDtDernXFer(): ?bool{
+    public function getUseDtDernXFer(): ?bool {
         return $this->useDtDernXFer;
     }
 
@@ -657,7 +656,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer activites.
      */
-    public function getXFerActivites(): ?bool{
+    public function getXFerActivites(): ?bool {
         return $this->xFerActivites;
     }
 
@@ -666,7 +665,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer articles.
      */
-    public function getXFerArticles(): ?bool{
+    public function getXFerArticles(): ?bool {
         return $this->xFerArticles;
     }
 
@@ -675,7 +674,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer boni mali.
      */
-    public function getXFerBoniMali(): ?bool{
+    public function getXFerBoniMali(): ?bool {
         return $this->xFerBoniMali;
     }
 
@@ -684,7 +683,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer budgets temps.
      */
-    public function getXFerBudgetsTemps(): ?bool{
+    public function getXFerBudgetsTemps(): ?bool {
         return $this->xFerBudgetsTemps;
     }
 
@@ -693,7 +692,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer civilites.
      */
-    public function getXFerCivilites(): ?bool{
+    public function getXFerCivilites(): ?bool {
         return $this->xFerCivilites;
     }
 
@@ -702,7 +701,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cli.
      */
-    public function getXFerCli(): ?bool{
+    public function getXFerCli(): ?bool {
         return $this->xFerCli;
     }
 
@@ -711,7 +710,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli a1.
      */
-    public function getXFerCliA1(): ?string{
+    public function getXFerCliA1(): ?string {
         return $this->xFerCliA1;
     }
 
@@ -720,7 +719,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli a2.
      */
-    public function getXFerCliA2(): ?string{
+    public function getXFerCliA2(): ?string {
         return $this->xFerCliA2;
     }
 
@@ -729,7 +728,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli c.
      */
-    public function getXFerCliC(): ?string{
+    public function getXFerCliC(): ?string {
         return $this->xFerCliC;
     }
 
@@ -738,7 +737,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli deb.
      */
-    public function getXFerCliDeb(): ?string{
+    public function getXFerCliDeb(): ?string {
         return $this->xFerCliDeb;
     }
 
@@ -747,7 +746,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cli docs.
      */
-    public function getXFerCliDocs(): ?bool{
+    public function getXFerCliDocs(): ?bool {
         return $this->xFerCliDocs;
     }
 
@@ -756,7 +755,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli e.
      */
-    public function getXFerCliE(): ?string{
+    public function getXFerCliE(): ?string {
         return $this->xFerCliE;
     }
 
@@ -765,7 +764,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli fin.
      */
-    public function getXFerCliFin(): ?string{
+    public function getXFerCliFin(): ?string {
         return $this->xFerCliFin;
     }
 
@@ -774,7 +773,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cli p.
      */
-    public function getXFerCliP(): ?string{
+    public function getXFerCliP(): ?string {
         return $this->xFerCliP;
     }
 
@@ -783,7 +782,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer col.
      */
-    public function getXFerCol(): ?bool{
+    public function getXFerCol(): ?bool {
         return $this->xFerCol;
     }
 
@@ -792,7 +791,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer collab tache.
      */
-    public function getXFerCollabTache(): ?bool{
+    public function getXFerCollabTache(): ?bool {
         return $this->xFerCollabTache;
     }
 
@@ -801,7 +800,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer contenu.
      */
-    public function getXFerContenu(): ?bool{
+    public function getXFerContenu(): ?bool {
         return $this->xFerContenu;
     }
 
@@ -810,7 +809,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cpta.
      */
-    public function getXFerCpta(): ?bool{
+    public function getXFerCpta(): ?bool {
         return $this->xFerCpta;
     }
 
@@ -819,7 +818,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cpta all.
      */
-    public function getXFerCptaAll(): ?bool{
+    public function getXFerCptaAll(): ?bool {
         return $this->xFerCptaAll;
     }
 
@@ -828,7 +827,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cpta cli.
      */
-    public function getXFerCptaCli(): ?bool{
+    public function getXFerCptaCli(): ?bool {
         return $this->xFerCptaCli;
     }
 
@@ -837,7 +836,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cpta dest.
      */
-    public function getXFerCptaDest(): ?string{
+    public function getXFerCptaDest(): ?string {
         return $this->xFerCptaDest;
     }
 
@@ -846,7 +845,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cpta frn.
      */
-    public function getXFerCptaFrn(): ?bool{
+    public function getXFerCptaFrn(): ?bool {
         return $this->xFerCptaFrn;
     }
 
@@ -855,7 +854,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cpta img.
      */
-    public function getXFerCptaImg(): ?bool{
+    public function getXFerCptaImg(): ?bool {
         return $this->xFerCptaImg;
     }
 
@@ -864,7 +863,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cpta lst dc.
      */
-    public function getXFerCptaLstDc(): ?string{
+    public function getXFerCptaLstDc(): ?string {
         return $this->xFerCptaLstDc;
     }
 
@@ -873,7 +872,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer cpta src.
      */
-    public function getXFerCptaSrc(): ?string{
+    public function getXFerCptaSrc(): ?string {
         return $this->xFerCptaSrc;
     }
 
@@ -882,7 +881,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cr dsi.
      */
-    public function getXFerCrDsi(): ?bool{
+    public function getXFerCrDsi(): ?bool {
         return $this->xFerCrDsi;
     }
 
@@ -891,7 +890,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cr ducs.
      */
-    public function getXFerCrDucs(): ?bool{
+    public function getXFerCrDucs(): ?bool {
         return $this->xFerCrDucs;
     }
 
@@ -900,7 +899,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cr pedi.
      */
-    public function getXFerCrPedi(): ?bool{
+    public function getXFerCrPedi(): ?bool {
         return $this->xFerCrPedi;
     }
 
@@ -909,7 +908,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cr req.
      */
-    public function getXFerCrReq(): ?bool{
+    public function getXFerCrReq(): ?bool {
         return $this->xFerCrReq;
     }
 
@@ -918,7 +917,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cr tdfc.
      */
-    public function getXFerCrTdfc(): ?bool{
+    public function getXFerCrTdfc(): ?bool {
         return $this->xFerCrTdfc;
     }
 
@@ -927,7 +926,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cr tva.
      */
-    public function getXFerCrTva(): ?bool{
+    public function getXFerCrTva(): ?bool {
         return $this->xFerCrTva;
     }
 
@@ -936,7 +935,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer cst px km.
      */
-    public function getXFerCstPxKm(): ?bool{
+    public function getXFerCstPxKm(): ?bool {
         return $this->xFerCstPxKm;
     }
 
@@ -945,7 +944,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer dos cpta.
      */
-    public function getXFerDosCpta(): ?bool{
+    public function getXFerDosCpta(): ?bool {
         return $this->xFerDosCpta;
     }
 
@@ -954,17 +953,8 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer dos paie.
      */
-    public function getXFerDosPaie(): ?bool{
+    public function getXFerDosPaie(): ?bool {
         return $this->xFerDosPaie;
-    }
-
-    /**
-     * Get the x fer etebac.
-     *
-     * @return bool|null Returns the x fer etebac.
-     */
-    public function getXFerEtebac(): ?bool{
-        return $this->xFerEtebac;
     }
 
     /**
@@ -972,8 +962,17 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer ed grp.
      */
-    public function getXFerEdGrp(): ?bool{
+    public function getXFerEdGrp(): ?bool {
         return $this->xFerEdGrp;
+    }
+
+    /**
+     * Get the x fer etebac.
+     *
+     * @return bool|null Returns the x fer etebac.
+     */
+    public function getXFerEtebac(): ?bool {
+        return $this->xFerEtebac;
     }
 
     /**
@@ -981,7 +980,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer fact edit.
      */
-    public function getXFerFactEdit(): ?bool{
+    public function getXFerFactEdit(): ?bool {
         return $this->xFerFactEdit;
     }
 
@@ -990,7 +989,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer fact edit del src.
      */
-    public function getXFerFactEditDelSrc(): ?bool{
+    public function getXFerFactEditDelSrc(): ?bool {
         return $this->xFerFactEditDelSrc;
     }
 
@@ -999,7 +998,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer fact non edit.
      */
-    public function getXFerFactNonEdit(): ?bool{
+    public function getXFerFactNonEdit(): ?bool {
         return $this->xFerFactNonEdit;
     }
 
@@ -1008,7 +1007,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer fact non edit del src.
      */
-    public function getXFerFactNonEditDelSrc(): ?bool{
+    public function getXFerFactNonEditDelSrc(): ?bool {
         return $this->xFerFactNonEditDelSrc;
     }
 
@@ -1017,7 +1016,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer fonctions.
      */
-    public function getXFerFonctions(): ?bool{
+    public function getXFerFonctions(): ?bool {
         return $this->xFerFonctions;
     }
 
@@ -1026,7 +1025,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer impots directs.
      */
-    public function getXFerImpotsDirects(): ?bool{
+    public function getXFerImpotsDirects(): ?bool {
         return $this->xFerImpotsDirects;
     }
 
@@ -1035,7 +1034,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer int.
      */
-    public function getXFerInt(): ?bool{
+    public function getXFerInt(): ?bool {
         return $this->xFerInt;
     }
 
@@ -1044,7 +1043,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer int no cli only.
      */
-    public function getXFerIntNoCliOnly(): ?bool{
+    public function getXFerIntNoCliOnly(): ?bool {
         return $this->xFerIntNoCliOnly;
     }
 
@@ -1053,7 +1052,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer lst cabs.
      */
-    public function getXFerLstCabs(): ?string{
+    public function getXFerLstCabs(): ?string {
         return $this->xFerLstCabs;
     }
 
@@ -1062,7 +1061,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer mis.
      */
-    public function getXFerMis(): ?bool{
+    public function getXFerMis(): ?bool {
         return $this->xFerMis;
     }
 
@@ -1071,7 +1070,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer mis cli.
      */
-    public function getXFerMisCli(): ?bool{
+    public function getXFerMisCli(): ?bool {
         return $this->xFerMisCli;
     }
 
@@ -1080,7 +1079,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer mission principale.
      */
-    public function getXFerMissionPrincipale(): ?bool{
+    public function getXFerMissionPrincipale(): ?bool {
         return $this->xFerMissionPrincipale;
     }
 
@@ -1089,7 +1088,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg.
      */
-    public function getXFerMsg(): ?bool{
+    public function getXFerMsg(): ?bool {
         return $this->xFerMsg;
     }
 
@@ -1098,7 +1097,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg cli.
      */
-    public function getXFerMsgCli(): ?bool{
+    public function getXFerMsgCli(): ?bool {
         return $this->xFerMsgCli;
     }
 
@@ -1107,7 +1106,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg col.
      */
-    public function getXFerMsgCol(): ?bool{
+    public function getXFerMsgCol(): ?bool {
         return $this->xFerMsgCol;
     }
 
@@ -1116,7 +1115,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg del src.
      */
-    public function getXFerMsgDelSrc(): ?bool{
+    public function getXFerMsgDelSrc(): ?bool {
         return $this->xFerMsgDelSrc;
     }
 
@@ -1125,7 +1124,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg hist.
      */
-    public function getXFerMsgHist(): ?bool{
+    public function getXFerMsgHist(): ?bool {
         return $this->xFerMsgHist;
     }
 
@@ -1134,7 +1133,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg hist cli.
      */
-    public function getXFerMsgHistCli(): ?bool{
+    public function getXFerMsgHistCli(): ?bool {
         return $this->xFerMsgHistCli;
     }
 
@@ -1143,7 +1142,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer msg hist del src.
      */
-    public function getXFerMsgHistDelSrc(): ?bool{
+    public function getXFerMsgHistDelSrc(): ?bool {
         return $this->xFerMsgHistDelSrc;
     }
 
@@ -1152,7 +1151,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer obligations.
      */
-    public function getXFerObligations(): ?bool{
+    public function getXFerObligations(): ?bool {
         return $this->xFerObligations;
     }
 
@@ -1161,7 +1160,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer pdf.
      */
-    public function getXFerPdf(): ?bool{
+    public function getXFerPdf(): ?bool {
         return $this->xFerPdf;
     }
 
@@ -1170,7 +1169,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer planning.
      */
-    public function getXFerPlanning(): ?bool{
+    public function getXFerPlanning(): ?bool {
         return $this->xFerPlanning;
     }
 
@@ -1179,7 +1178,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer pre fact.
      */
-    public function getXFerPreFact(): ?bool{
+    public function getXFerPreFact(): ?bool {
         return $this->xFerPreFact;
     }
 
@@ -1188,7 +1187,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer pre fact cli.
      */
-    public function getXFerPreFactCli(): ?bool{
+    public function getXFerPreFactCli(): ?bool {
         return $this->xFerPreFactCli;
     }
 
@@ -1197,7 +1196,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer pre fact col.
      */
-    public function getXFerPreFactCol(): ?bool{
+    public function getXFerPreFactCol(): ?bool {
         return $this->xFerPreFactCol;
     }
 
@@ -1206,7 +1205,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer pre fact fact.
      */
-    public function getXFerPreFactFact(): ?bool{
+    public function getXFerPreFactFact(): ?bool {
         return $this->xFerPreFactFact;
     }
 
@@ -1215,7 +1214,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer q infos.
      */
-    public function getXFerQInfos(): ?bool{
+    public function getXFerQInfos(): ?bool {
         return $this->xFerQInfos;
     }
 
@@ -1224,7 +1223,7 @@ class LiaisonsOpTrans {
      *
      * @return string|null Returns the x fer q infos det.
      */
-    public function getXFerQInfosDet(): ?string{
+    public function getXFerQInfosDet(): ?string {
         return $this->xFerQInfosDet;
     }
 
@@ -1233,7 +1232,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer qualifiants.
      */
-    public function getXFerQualifiants(): ?bool{
+    public function getXFerQualifiants(): ?bool {
         return $this->xFerQualifiants;
     }
 
@@ -1242,7 +1241,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer reglements.
      */
-    public function getXFerReglements(): ?bool{
+    public function getXFerReglements(): ?bool {
         return $this->xFerReglements;
     }
 
@@ -1251,7 +1250,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer sui cli.
      */
-    public function getXFerSuiCli(): ?bool{
+    public function getXFerSuiCli(): ?bool {
         return $this->xFerSuiCli;
     }
 
@@ -1260,7 +1259,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer taches.
      */
-    public function getXFerTaches(): ?bool{
+    public function getXFerTaches(): ?bool {
         return $this->xFerTaches;
     }
 
@@ -1269,7 +1268,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer tps.
      */
-    public function getXFerTps(): ?bool{
+    public function getXFerTps(): ?bool {
         return $this->xFerTps;
     }
 
@@ -1278,7 +1277,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer tps cli.
      */
-    public function getXFerTpsCli(): ?bool{
+    public function getXFerTpsCli(): ?bool {
         return $this->xFerTpsCli;
     }
 
@@ -1287,7 +1286,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer tps col.
      */
-    public function getXFerTpsCol(): ?bool{
+    public function getXFerTpsCol(): ?bool {
         return $this->xFerTpsCol;
     }
 
@@ -1296,7 +1295,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer type evenements.
      */
-    public function getXFerTypeEvenements(): ?bool{
+    public function getXFerTypeEvenements(): ?bool {
         return $this->xFerTypeEvenements;
     }
 
@@ -1305,7 +1304,7 @@ class LiaisonsOpTrans {
      *
      * @return bool|null Returns the x fer type societes.
      */
-    public function getXFerTypeSocietes(): ?bool{
+    public function getXFerTypeSocietes(): ?bool {
         return $this->xFerTypeSocietes;
     }
 
@@ -1761,17 +1760,6 @@ class LiaisonsOpTrans {
     }
 
     /**
-     * Set the x fer etebac.
-     *
-     * @param bool|null $xFerEtebac The x fer etebac.
-     * @return LiaisonsOpTrans Returns this Liaisons op trans.
-     */
-    public function setXFerEtebac(?bool $xFerEtebac): LiaisonsOpTrans {
-        $this->xFerEtebac = $xFerEtebac;
-        return $this;
-    }
-
-    /**
      * Set the x fer ed grp.
      *
      * @param bool|null $xFerEdGrp The x fer ed grp.
@@ -1779,6 +1767,17 @@ class LiaisonsOpTrans {
      */
     public function setXFerEdGrp(?bool $xFerEdGrp): LiaisonsOpTrans {
         $this->xFerEdGrp = $xFerEdGrp;
+        return $this;
+    }
+
+    /**
+     * Set the x fer etebac.
+     *
+     * @param bool|null $xFerEtebac The x fer etebac.
+     * @return LiaisonsOpTrans Returns this Liaisons op trans.
+     */
+    public function setXFerEtebac(?bool $xFerEtebac): LiaisonsOpTrans {
+        $this->xFerEtebac = $xFerEtebac;
         return $this;
     }
 

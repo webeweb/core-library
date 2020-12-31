@@ -68,7 +68,6 @@ class RgCorrespondances {
      */
     private $valeurOrigine;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class RgCorrespondances {
      *
      * @return string|null Returns the fichiers publier web.
      */
-    public function getFichiersPublierWeb(): ?string{
+    public function getFichiersPublierWeb(): ?string {
         return $this->fichiersPublierWeb;
     }
 
@@ -90,7 +89,7 @@ class RgCorrespondances {
      *
      * @return string|null Returns the ignorer.
      */
-    public function getIgnorer(): ?string{
+    public function getIgnorer(): ?string {
         return $this->ignorer;
     }
 
@@ -99,7 +98,7 @@ class RgCorrespondances {
      *
      * @return int|null Returns the niveau.
      */
-    public function getNiveau(): ?int{
+    public function getNiveau(): ?int {
         return $this->niveau;
     }
 
@@ -108,7 +107,7 @@ class RgCorrespondances {
      *
      * @return string|null Returns the type donnees.
      */
-    public function getTypeDonnees(): ?string{
+    public function getTypeDonnees(): ?string {
         return $this->typeDonnees;
     }
 
@@ -117,7 +116,7 @@ class RgCorrespondances {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -126,7 +125,7 @@ class RgCorrespondances {
      *
      * @return string|null Returns the valeur.
      */
-    public function getValeur(): ?string{
+    public function getValeur(): ?string {
         return $this->valeur;
     }
 
@@ -135,7 +134,7 @@ class RgCorrespondances {
      *
      * @return string|null Returns the valeur origine.
      */
-    public function getValeurOrigine(): ?string{
+    public function getValeurOrigine(): ?string {
         return $this->valeurOrigine;
     }
 

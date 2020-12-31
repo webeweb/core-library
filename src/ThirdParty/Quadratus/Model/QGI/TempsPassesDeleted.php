@@ -49,7 +49,6 @@ class TempsPassesDeleted {
      */
     private $user;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class TempsPassesDeleted {
      *
      * @return string|null Returns the contexte.
      */
-    public function getContexte(): ?string{
+    public function getContexte(): ?string {
         return $this->contexte;
     }
 
@@ -71,7 +70,7 @@ class TempsPassesDeleted {
      *
      * @return DateTime|null Returns the date suppression.
      */
-    public function getDateSuppression(): ?DateTime{
+    public function getDateSuppression(): ?DateTime {
         return $this->dateSuppression;
     }
 
@@ -80,7 +79,7 @@ class TempsPassesDeleted {
      *
      * @return string|null Returns the g uniq id.
      */
-    public function getGUniqId(): ?string{
+    public function getGUniqId(): ?string {
         return $this->gUniqId;
     }
 
@@ -89,7 +88,7 @@ class TempsPassesDeleted {
      *
      * @return string|null Returns the user.
      */
-    public function getUser(): ?string{
+    public function getUser(): ?string {
         return $this->user;
     }
 

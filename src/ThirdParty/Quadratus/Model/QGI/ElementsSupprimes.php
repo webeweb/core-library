@@ -63,7 +63,6 @@ class ElementsSupprimes {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class ElementsSupprimes {
      *
      * @return DateTime|null Returns the date1.
      */
-    public function getDate1(): ?DateTime{
+    public function getDate1(): ?DateTime {
         return $this->date1;
     }
 
@@ -85,7 +84,7 @@ class ElementsSupprimes {
      *
      * @return DateTime|null Returns the date elem.
      */
-    public function getDateElem(): ?DateTime{
+    public function getDateElem(): ?DateTime {
         return $this->dateElem;
     }
 
@@ -94,7 +93,7 @@ class ElementsSupprimes {
      *
      * @return string|null Returns the memo1.
      */
-    public function getMemo1(): ?string{
+    public function getMemo1(): ?string {
         return $this->memo1;
     }
 
@@ -103,7 +102,7 @@ class ElementsSupprimes {
      *
      * @return string|null Returns the texte1.
      */
-    public function getTexte1(): ?string{
+    public function getTexte1(): ?string {
         return $this->texte1;
     }
 
@@ -112,7 +111,7 @@ class ElementsSupprimes {
      *
      * @return string|null Returns the type elem.
      */
-    public function getTypeElem(): ?string{
+    public function getTypeElem(): ?string {
         return $this->typeElem;
     }
 
@@ -121,7 +120,7 @@ class ElementsSupprimes {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

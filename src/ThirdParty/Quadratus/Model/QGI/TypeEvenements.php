@@ -117,7 +117,6 @@ class TypeEvenements {
      */
     private $posFlag;
 
-
     /**
      * Constructor.
      */
@@ -130,7 +129,7 @@ class TypeEvenements {
      *
      * @return bool|null Returns the avec etat.
      */
-    public function getAvecEtat(): ?bool{
+    public function getAvecEtat(): ?bool {
         return $this->avecEtat;
     }
 
@@ -139,7 +138,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -148,7 +147,7 @@ class TypeEvenements {
      *
      * @return int|null Returns the etat couleur1.
      */
-    public function getEtatCouleur1(): ?int{
+    public function getEtatCouleur1(): ?int {
         return $this->etatCouleur1;
     }
 
@@ -157,7 +156,7 @@ class TypeEvenements {
      *
      * @return int|null Returns the etat couleur2.
      */
-    public function getEtatCouleur2(): ?int{
+    public function getEtatCouleur2(): ?int {
         return $this->etatCouleur2;
     }
 
@@ -166,7 +165,7 @@ class TypeEvenements {
      *
      * @return int|null Returns the etat couleur3.
      */
-    public function getEtatCouleur3(): ?int{
+    public function getEtatCouleur3(): ?int {
         return $this->etatCouleur3;
     }
 
@@ -175,7 +174,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the etat priorite1.
      */
-    public function getEtatPriorite1(): ?string{
+    public function getEtatPriorite1(): ?string {
         return $this->etatPriorite1;
     }
 
@@ -184,7 +183,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the etat priorite2.
      */
-    public function getEtatPriorite2(): ?string{
+    public function getEtatPriorite2(): ?string {
         return $this->etatPriorite2;
     }
 
@@ -193,7 +192,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the etat priorite3.
      */
-    public function getEtatPriorite3(): ?string{
+    public function getEtatPriorite3(): ?string {
         return $this->etatPriorite3;
     }
 
@@ -202,7 +201,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -211,7 +210,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the libelle1.
      */
-    public function getLibelle1(): ?string{
+    public function getLibelle1(): ?string {
         return $this->libelle1;
     }
 
@@ -220,7 +219,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the libelle2.
      */
-    public function getLibelle2(): ?string{
+    public function getLibelle2(): ?string {
         return $this->libelle2;
     }
 
@@ -229,7 +228,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the libelle3.
      */
-    public function getLibelle3(): ?string{
+    public function getLibelle3(): ?string {
         return $this->libelle3;
     }
 
@@ -238,7 +237,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the libelle etat.
      */
-    public function getLibelleEtat(): ?string{
+    public function getLibelleEtat(): ?string {
         return $this->libelleEtat;
     }
 
@@ -247,7 +246,7 @@ class TypeEvenements {
      *
      * @return string|null Returns the pos flag.
      */
-    public function getPosFlag(): ?string{
+    public function getPosFlag(): ?string {
         return $this->posFlag;
     }
 

@@ -208,7 +208,6 @@ class ClientsSelAvance {
      */
     private $requete9;
 
-
     /**
      * Constructor.
      */
@@ -221,7 +220,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -230,7 +229,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the code col.
      */
-    public function getCodeCol(): ?string{
+    public function getCodeCol(): ?string {
         return $this->codeCol;
     }
 
@@ -239,7 +238,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -248,7 +247,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req1.
      */
-    public function getNomReq1(): ?string{
+    public function getNomReq1(): ?string {
         return $this->nomReq1;
     }
 
@@ -257,7 +256,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req10.
      */
-    public function getNomReq10(): ?string{
+    public function getNomReq10(): ?string {
         return $this->nomReq10;
     }
 
@@ -266,7 +265,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req11.
      */
-    public function getNomReq11(): ?string{
+    public function getNomReq11(): ?string {
         return $this->nomReq11;
     }
 
@@ -275,7 +274,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req12.
      */
-    public function getNomReq12(): ?string{
+    public function getNomReq12(): ?string {
         return $this->nomReq12;
     }
 
@@ -284,7 +283,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req2.
      */
-    public function getNomReq2(): ?string{
+    public function getNomReq2(): ?string {
         return $this->nomReq2;
     }
 
@@ -293,7 +292,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req3.
      */
-    public function getNomReq3(): ?string{
+    public function getNomReq3(): ?string {
         return $this->nomReq3;
     }
 
@@ -302,7 +301,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req4.
      */
-    public function getNomReq4(): ?string{
+    public function getNomReq4(): ?string {
         return $this->nomReq4;
     }
 
@@ -311,7 +310,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req5.
      */
-    public function getNomReq5(): ?string{
+    public function getNomReq5(): ?string {
         return $this->nomReq5;
     }
 
@@ -320,7 +319,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req6.
      */
-    public function getNomReq6(): ?string{
+    public function getNomReq6(): ?string {
         return $this->nomReq6;
     }
 
@@ -329,7 +328,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req7.
      */
-    public function getNomReq7(): ?string{
+    public function getNomReq7(): ?string {
         return $this->nomReq7;
     }
 
@@ -338,7 +337,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req8.
      */
-    public function getNomReq8(): ?string{
+    public function getNomReq8(): ?string {
         return $this->nomReq8;
     }
 
@@ -347,7 +346,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the nom req9.
      */
-    public function getNomReq9(): ?string{
+    public function getNomReq9(): ?string {
         return $this->nomReq9;
     }
 
@@ -356,7 +355,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete1.
      */
-    public function getRequete1(): ?string{
+    public function getRequete1(): ?string {
         return $this->requete1;
     }
 
@@ -365,7 +364,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete10.
      */
-    public function getRequete10(): ?string{
+    public function getRequete10(): ?string {
         return $this->requete10;
     }
 
@@ -374,7 +373,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete11.
      */
-    public function getRequete11(): ?string{
+    public function getRequete11(): ?string {
         return $this->requete11;
     }
 
@@ -383,7 +382,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete12.
      */
-    public function getRequete12(): ?string{
+    public function getRequete12(): ?string {
         return $this->requete12;
     }
 
@@ -392,7 +391,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete2.
      */
-    public function getRequete2(): ?string{
+    public function getRequete2(): ?string {
         return $this->requete2;
     }
 
@@ -401,7 +400,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete3.
      */
-    public function getRequete3(): ?string{
+    public function getRequete3(): ?string {
         return $this->requete3;
     }
 
@@ -410,7 +409,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete4.
      */
-    public function getRequete4(): ?string{
+    public function getRequete4(): ?string {
         return $this->requete4;
     }
 
@@ -419,7 +418,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete5.
      */
-    public function getRequete5(): ?string{
+    public function getRequete5(): ?string {
         return $this->requete5;
     }
 
@@ -428,7 +427,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete6.
      */
-    public function getRequete6(): ?string{
+    public function getRequete6(): ?string {
         return $this->requete6;
     }
 
@@ -437,7 +436,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete7.
      */
-    public function getRequete7(): ?string{
+    public function getRequete7(): ?string {
         return $this->requete7;
     }
 
@@ -446,7 +445,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete8.
      */
-    public function getRequete8(): ?string{
+    public function getRequete8(): ?string {
         return $this->requete8;
     }
 
@@ -455,7 +454,7 @@ class ClientsSelAvance {
      *
      * @return string|null Returns the requete9.
      */
-    public function getRequete9(): ?string{
+    public function getRequete9(): ?string {
         return $this->requete9;
     }
 

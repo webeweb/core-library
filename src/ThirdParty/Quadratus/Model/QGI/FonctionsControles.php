@@ -40,7 +40,6 @@ class FonctionsControles {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class FonctionsControles {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -62,7 +61,7 @@ class FonctionsControles {
      *
      * @return string|null Returns the mot controle.
      */
-    public function getMotControle(): ?string{
+    public function getMotControle(): ?string {
         return $this->motControle;
     }
 
@@ -71,7 +70,7 @@ class FonctionsControles {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

@@ -70,7 +70,6 @@ class HistoriqueNotes {
      */
     private $titre;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class HistoriqueNotes {
      *
      * @return string|null Returns the code categorie.
      */
-    public function getCodeCategorie(): ?string{
+    public function getCodeCategorie(): ?string {
         return $this->codeCategorie;
     }
 
@@ -92,7 +91,7 @@ class HistoriqueNotes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -101,7 +100,7 @@ class HistoriqueNotes {
      *
      * @return DateTime|null Returns the date cloture.
      */
-    public function getDateCloture(): ?DateTime{
+    public function getDateCloture(): ?DateTime {
         return $this->dateCloture;
     }
 
@@ -110,7 +109,7 @@ class HistoriqueNotes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -119,7 +118,7 @@ class HistoriqueNotes {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -128,7 +127,7 @@ class HistoriqueNotes {
      *
      * @return string|null Returns the num uniq.
      */
-    public function getNumUniq(): ?string{
+    public function getNumUniq(): ?string {
         return $this->numUniq;
     }
 
@@ -137,7 +136,7 @@ class HistoriqueNotes {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 

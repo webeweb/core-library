@@ -70,7 +70,6 @@ class ActionsCoSeances {
      */
     private $numSeance;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class ActionsCoSeances {
      *
      * @return string|null Returns the code action.
      */
-    public function getCodeAction(): ?string{
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
@@ -92,7 +91,7 @@ class ActionsCoSeances {
      *
      * @return string|null Returns the code manif.
      */
-    public function getCodeManif(): ?string{
+    public function getCodeManif(): ?string {
         return $this->codeManif;
     }
 
@@ -101,7 +100,7 @@ class ActionsCoSeances {
      *
      * @return DateTime|null Returns the date seance.
      */
-    public function getDateSeance(): ?DateTime{
+    public function getDateSeance(): ?DateTime {
         return $this->dateSeance;
     }
 
@@ -110,7 +109,7 @@ class ActionsCoSeances {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
     }
 
@@ -119,7 +118,7 @@ class ActionsCoSeances {
      *
      * @return DateTime|null Returns the heure fin.
      */
-    public function getHeureFin(): ?DateTime{
+    public function getHeureFin(): ?DateTime {
         return $this->heureFin;
     }
 
@@ -128,7 +127,7 @@ class ActionsCoSeances {
      *
      * @return string|null Returns the libelle seance.
      */
-    public function getLibelleSeance(): ?string{
+    public function getLibelleSeance(): ?string {
         return $this->libelleSeance;
     }
 
@@ -137,7 +136,7 @@ class ActionsCoSeances {
      *
      * @return int|null Returns the num seance.
      */
-    public function getNumSeance(): ?int{
+    public function getNumSeance(): ?int {
         return $this->numSeance;
     }
 

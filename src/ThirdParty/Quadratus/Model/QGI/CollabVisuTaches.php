@@ -33,7 +33,6 @@ class CollabVisuTaches {
      */
     private $codeTacheVisu;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class CollabVisuTaches {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -55,7 +54,7 @@ class CollabVisuTaches {
      *
      * @return string|null Returns the code tache visu.
      */
-    public function getCodeTacheVisu(): ?string{
+    public function getCodeTacheVisu(): ?string {
         return $this->codeTacheVisu;
     }
 

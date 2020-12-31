@@ -518,7 +518,6 @@ class CriteresArticle2 {
      */
     private $texte9;
 
-
     /**
      * Constructor.
      */
@@ -531,7 +530,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen1.
      */
-    public function getBooleen1(): ?bool{
+    public function getBooleen1(): ?bool {
         return $this->booleen1;
     }
 
@@ -540,7 +539,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen10.
      */
-    public function getBooleen10(): ?bool{
+    public function getBooleen10(): ?bool {
         return $this->booleen10;
     }
 
@@ -549,7 +548,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen2.
      */
-    public function getBooleen2(): ?bool{
+    public function getBooleen2(): ?bool {
         return $this->booleen2;
     }
 
@@ -558,7 +557,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen3.
      */
-    public function getBooleen3(): ?bool{
+    public function getBooleen3(): ?bool {
         return $this->booleen3;
     }
 
@@ -567,7 +566,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen4.
      */
-    public function getBooleen4(): ?bool{
+    public function getBooleen4(): ?bool {
         return $this->booleen4;
     }
 
@@ -576,7 +575,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen5.
      */
-    public function getBooleen5(): ?bool{
+    public function getBooleen5(): ?bool {
         return $this->booleen5;
     }
 
@@ -585,7 +584,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen6.
      */
-    public function getBooleen6(): ?bool{
+    public function getBooleen6(): ?bool {
         return $this->booleen6;
     }
 
@@ -594,7 +593,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen7.
      */
-    public function getBooleen7(): ?bool{
+    public function getBooleen7(): ?bool {
         return $this->booleen7;
     }
 
@@ -603,7 +602,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen8.
      */
-    public function getBooleen8(): ?bool{
+    public function getBooleen8(): ?bool {
         return $this->booleen8;
     }
 
@@ -612,7 +611,7 @@ class CriteresArticle2 {
      *
      * @return bool|null Returns the booleen9.
      */
-    public function getBooleen9(): ?bool{
+    public function getBooleen9(): ?bool {
         return $this->booleen9;
     }
 
@@ -621,7 +620,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -630,7 +629,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref1.
      */
-    public function getCodeRef1(): ?string{
+    public function getCodeRef1(): ?string {
         return $this->codeRef1;
     }
 
@@ -639,7 +638,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref10.
      */
-    public function getCodeRef10(): ?string{
+    public function getCodeRef10(): ?string {
         return $this->codeRef10;
     }
 
@@ -648,7 +647,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref2.
      */
-    public function getCodeRef2(): ?string{
+    public function getCodeRef2(): ?string {
         return $this->codeRef2;
     }
 
@@ -657,7 +656,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref3.
      */
-    public function getCodeRef3(): ?string{
+    public function getCodeRef3(): ?string {
         return $this->codeRef3;
     }
 
@@ -666,7 +665,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref4.
      */
-    public function getCodeRef4(): ?string{
+    public function getCodeRef4(): ?string {
         return $this->codeRef4;
     }
 
@@ -675,7 +674,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref5.
      */
-    public function getCodeRef5(): ?string{
+    public function getCodeRef5(): ?string {
         return $this->codeRef5;
     }
 
@@ -684,7 +683,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref6.
      */
-    public function getCodeRef6(): ?string{
+    public function getCodeRef6(): ?string {
         return $this->codeRef6;
     }
 
@@ -693,7 +692,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref7.
      */
-    public function getCodeRef7(): ?string{
+    public function getCodeRef7(): ?string {
         return $this->codeRef7;
     }
 
@@ -702,7 +701,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref8.
      */
-    public function getCodeRef8(): ?string{
+    public function getCodeRef8(): ?string {
         return $this->codeRef8;
     }
 
@@ -711,7 +710,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the code ref9.
      */
-    public function getCodeRef9(): ?string{
+    public function getCodeRef9(): ?string {
         return $this->codeRef9;
     }
 
@@ -720,7 +719,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date1.
      */
-    public function getDate1(): ?DateTime{
+    public function getDate1(): ?DateTime {
         return $this->date1;
     }
 
@@ -729,7 +728,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date10.
      */
-    public function getDate10(): ?DateTime{
+    public function getDate10(): ?DateTime {
         return $this->date10;
     }
 
@@ -738,7 +737,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date2.
      */
-    public function getDate2(): ?DateTime{
+    public function getDate2(): ?DateTime {
         return $this->date2;
     }
 
@@ -747,7 +746,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date3.
      */
-    public function getDate3(): ?DateTime{
+    public function getDate3(): ?DateTime {
         return $this->date3;
     }
 
@@ -756,7 +755,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date4.
      */
-    public function getDate4(): ?DateTime{
+    public function getDate4(): ?DateTime {
         return $this->date4;
     }
 
@@ -765,7 +764,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date5.
      */
-    public function getDate5(): ?DateTime{
+    public function getDate5(): ?DateTime {
         return $this->date5;
     }
 
@@ -774,7 +773,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date6.
      */
-    public function getDate6(): ?DateTime{
+    public function getDate6(): ?DateTime {
         return $this->date6;
     }
 
@@ -783,7 +782,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date7.
      */
-    public function getDate7(): ?DateTime{
+    public function getDate7(): ?DateTime {
         return $this->date7;
     }
 
@@ -792,7 +791,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date8.
      */
-    public function getDate8(): ?DateTime{
+    public function getDate8(): ?DateTime {
         return $this->date8;
     }
 
@@ -801,7 +800,7 @@ class CriteresArticle2 {
      *
      * @return DateTime|null Returns the date9.
      */
-    public function getDate9(): ?DateTime{
+    public function getDate9(): ?DateTime {
         return $this->date9;
     }
 
@@ -810,7 +809,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double1.
      */
-    public function getDouble1(): ?float{
+    public function getDouble1(): ?float {
         return $this->double1;
     }
 
@@ -819,7 +818,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double10.
      */
-    public function getDouble10(): ?float{
+    public function getDouble10(): ?float {
         return $this->double10;
     }
 
@@ -828,7 +827,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double2.
      */
-    public function getDouble2(): ?float{
+    public function getDouble2(): ?float {
         return $this->double2;
     }
 
@@ -837,7 +836,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double3.
      */
-    public function getDouble3(): ?float{
+    public function getDouble3(): ?float {
         return $this->double3;
     }
 
@@ -846,7 +845,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double4.
      */
-    public function getDouble4(): ?float{
+    public function getDouble4(): ?float {
         return $this->double4;
     }
 
@@ -855,7 +854,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double5.
      */
-    public function getDouble5(): ?float{
+    public function getDouble5(): ?float {
         return $this->double5;
     }
 
@@ -864,7 +863,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double6.
      */
-    public function getDouble6(): ?float{
+    public function getDouble6(): ?float {
         return $this->double6;
     }
 
@@ -873,7 +872,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double7.
      */
-    public function getDouble7(): ?float{
+    public function getDouble7(): ?float {
         return $this->double7;
     }
 
@@ -882,7 +881,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double8.
      */
-    public function getDouble8(): ?float{
+    public function getDouble8(): ?float {
         return $this->double8;
     }
 
@@ -891,7 +890,7 @@ class CriteresArticle2 {
      *
      * @return float|null Returns the double9.
      */
-    public function getDouble9(): ?float{
+    public function getDouble9(): ?float {
         return $this->double9;
     }
 
@@ -900,7 +899,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long1.
      */
-    public function getLong1(): ?int{
+    public function getLong1(): ?int {
         return $this->long1;
     }
 
@@ -909,7 +908,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long10.
      */
-    public function getLong10(): ?int{
+    public function getLong10(): ?int {
         return $this->long10;
     }
 
@@ -918,7 +917,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long2.
      */
-    public function getLong2(): ?int{
+    public function getLong2(): ?int {
         return $this->long2;
     }
 
@@ -927,7 +926,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long3.
      */
-    public function getLong3(): ?int{
+    public function getLong3(): ?int {
         return $this->long3;
     }
 
@@ -936,7 +935,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long4.
      */
-    public function getLong4(): ?int{
+    public function getLong4(): ?int {
         return $this->long4;
     }
 
@@ -945,7 +944,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long5.
      */
-    public function getLong5(): ?int{
+    public function getLong5(): ?int {
         return $this->long5;
     }
 
@@ -954,7 +953,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long6.
      */
-    public function getLong6(): ?int{
+    public function getLong6(): ?int {
         return $this->long6;
     }
 
@@ -963,7 +962,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long7.
      */
-    public function getLong7(): ?int{
+    public function getLong7(): ?int {
         return $this->long7;
     }
 
@@ -972,7 +971,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long8.
      */
-    public function getLong8(): ?int{
+    public function getLong8(): ?int {
         return $this->long8;
     }
 
@@ -981,7 +980,7 @@ class CriteresArticle2 {
      *
      * @return int|null Returns the long9.
      */
-    public function getLong9(): ?int{
+    public function getLong9(): ?int {
         return $this->long9;
     }
 
@@ -990,7 +989,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo1.
      */
-    public function getMemo1(): ?string{
+    public function getMemo1(): ?string {
         return $this->memo1;
     }
 
@@ -999,7 +998,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo10.
      */
-    public function getMemo10(): ?string{
+    public function getMemo10(): ?string {
         return $this->memo10;
     }
 
@@ -1008,7 +1007,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo2.
      */
-    public function getMemo2(): ?string{
+    public function getMemo2(): ?string {
         return $this->memo2;
     }
 
@@ -1017,7 +1016,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo3.
      */
-    public function getMemo3(): ?string{
+    public function getMemo3(): ?string {
         return $this->memo3;
     }
 
@@ -1026,7 +1025,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo4.
      */
-    public function getMemo4(): ?string{
+    public function getMemo4(): ?string {
         return $this->memo4;
     }
 
@@ -1035,7 +1034,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo5.
      */
-    public function getMemo5(): ?string{
+    public function getMemo5(): ?string {
         return $this->memo5;
     }
 
@@ -1044,7 +1043,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo6.
      */
-    public function getMemo6(): ?string{
+    public function getMemo6(): ?string {
         return $this->memo6;
     }
 
@@ -1053,7 +1052,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo7.
      */
-    public function getMemo7(): ?string{
+    public function getMemo7(): ?string {
         return $this->memo7;
     }
 
@@ -1062,7 +1061,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo8.
      */
-    public function getMemo8(): ?string{
+    public function getMemo8(): ?string {
         return $this->memo8;
     }
 
@@ -1071,7 +1070,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the memo9.
      */
-    public function getMemo9(): ?string{
+    public function getMemo9(): ?string {
         return $this->memo9;
     }
 
@@ -1080,7 +1079,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte1.
      */
-    public function getTexte1(): ?string{
+    public function getTexte1(): ?string {
         return $this->texte1;
     }
 
@@ -1089,7 +1088,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte10.
      */
-    public function getTexte10(): ?string{
+    public function getTexte10(): ?string {
         return $this->texte10;
     }
 
@@ -1098,7 +1097,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte2.
      */
-    public function getTexte2(): ?string{
+    public function getTexte2(): ?string {
         return $this->texte2;
     }
 
@@ -1107,7 +1106,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte3.
      */
-    public function getTexte3(): ?string{
+    public function getTexte3(): ?string {
         return $this->texte3;
     }
 
@@ -1116,7 +1115,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte4.
      */
-    public function getTexte4(): ?string{
+    public function getTexte4(): ?string {
         return $this->texte4;
     }
 
@@ -1125,7 +1124,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte5.
      */
-    public function getTexte5(): ?string{
+    public function getTexte5(): ?string {
         return $this->texte5;
     }
 
@@ -1134,7 +1133,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte6.
      */
-    public function getTexte6(): ?string{
+    public function getTexte6(): ?string {
         return $this->texte6;
     }
 
@@ -1143,7 +1142,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte7.
      */
-    public function getTexte7(): ?string{
+    public function getTexte7(): ?string {
         return $this->texte7;
     }
 
@@ -1152,7 +1151,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte8.
      */
-    public function getTexte8(): ?string{
+    public function getTexte8(): ?string {
         return $this->texte8;
     }
 
@@ -1161,7 +1160,7 @@ class CriteresArticle2 {
      *
      * @return string|null Returns the texte9.
      */
-    public function getTexte9(): ?string{
+    public function getTexte9(): ?string {
         return $this->texte9;
     }
 
