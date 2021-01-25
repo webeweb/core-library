@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### [6.8.3](https://github.com/webeweb/core-library/tree/v6.8.3) (2021-01-25)
+### master
 
 - Improve code quality
 - Improve PHPDoc
