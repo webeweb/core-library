@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [6.8.3](https://github.com/webeweb/core-library/tree/v6.8.3) (2021-01-25)
+
+- Improve code quality
+- Improve PHPDoc
+
 ### [6.8.2](https://github.com/webeweb/core-library/tree/v6.8.2) (2020-12-31)
 
 - Fix compatibility
