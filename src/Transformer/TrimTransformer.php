@@ -31,10 +31,12 @@ class TrimTransformer implements TransformerInterface {
     /**
      * {@inheritDoc}
      */
-    public function transform($value) {
+    public function transform($value): ?string {
+
         if (null === $value || false === is_string($value)) {
             return null;
         }
+
         return trim($value);
     }
 }

@@ -39,6 +39,7 @@ trait StringHashSha256Trait {
      * Set the hash "SHA256".
      *
      * @param string|null $hashSha256 The hash "SHA256".
+     * @return self Returns this instance.
      */
     public function setHashSha256(?string $hashSha256): self {
         $this->hashSha256 = $hashSha256;

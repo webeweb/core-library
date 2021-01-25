@@ -39,6 +39,7 @@ trait StringStreetNameTrait {
      * Set the street name.
      *
      * @param string|null $streetName The street name.
+     * @return self Returns this instance.
      */
     public function setStreetName(?string $streetName): self {
         $this->streetName = $streetName;

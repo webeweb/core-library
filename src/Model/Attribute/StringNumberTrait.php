@@ -39,6 +39,7 @@ trait StringNumberTrait {
      * Set the number.
      *
      * @param string|null $number The number.
+     * @return self Returns this instance.
      */
     public function setNumber(?string $number): self {
         $this->number = $number;

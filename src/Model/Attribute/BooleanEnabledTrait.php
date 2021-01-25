@@ -39,6 +39,7 @@ trait BooleanEnabledTrait {
      * Set the enabled.
      *
      * @param bool|null $enabled The enabled.
+     * @return self Returns this instance.
      */
     public function setEnabled(?bool $enabled): self {
         $this->enabled = $enabled;

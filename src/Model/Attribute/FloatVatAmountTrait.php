@@ -39,6 +39,7 @@ trait FloatVatAmountTrait {
      * Set the VAT amount.
      *
      * @param float|null $vatAmount The VAT amount.
+     * @return self Returns this instance.
      */
     public function setVatAmount(?float $vatAmount): self {
         $this->vatAmount = $vatAmount;

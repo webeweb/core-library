@@ -39,6 +39,7 @@ trait StringColumnTrait {
      * Set the column.
      *
      * @param string|null $column The column.
+     * @return self Returns this instance.
      */
     public function setColumn(?string $column): self {
         $this->column = $column;

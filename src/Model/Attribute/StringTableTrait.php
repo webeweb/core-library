@@ -39,6 +39,7 @@ trait StringTableTrait {
      * Set the table.
      *
      * @param string|null $table The table.
+     * @return self Returns this instance.
      */
     public function setTable(?string $table): self {
         $this->table = $table;

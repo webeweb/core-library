@@ -39,6 +39,7 @@ trait FloatRateTrait {
      * Set the rate.
      *
      * @param float|null $rate The rate.
+     * @return self Returns this instance.
      */
     public function setRate(?float $rate): self {
         $this->rate = $rate;

@@ -39,6 +39,7 @@ trait StringHashSha1Trait {
      * Set the hash "SHA1".
      *
      * @param string|null $hashSha1 The hash "SHA1".
+     * @return self Returns this instance.
      */
     public function setHashSha1(?string $hashSha1): self {
         $this->hashSha1 = $hashSha1;

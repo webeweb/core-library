@@ -217,8 +217,9 @@ trait CustomerTrait {
      * Set the customer number.
      *
      * @param int|null $customerNumber The customer number.
+     * @return self Returns this instance.
      */
-    public function setCustomerNumber(?int $customerNumber) {
+    public function setCustomerNumber(?int $customerNumber): self {
         $this->customerNumber = $customerNumber;
         return $this;
     }
@@ -227,8 +228,9 @@ trait CustomerTrait {
      * Set the date/time of last modification.
      *
      * @param DateTime|null $datetimeLastModification The date/time of last modification.
+     * @return self Returns this instance.
      */
-    public function setDatetimeLastModification(?DateTime $datetimeLastModification) {
+    public function setDatetimeLastModification(?DateTime $datetimeLastModification): self {
         $this->datetimeLastModification = $datetimeLastModification;
         return $this;
     }
@@ -237,8 +239,9 @@ trait CustomerTrait {
      * Set the deleted record.
      *
      * @param bool|null $deletedRecord The deleted record.
+     * @return self Returns this instance.
      */
-    public function setDeletedRecord(?bool $deletedRecord) {
+    public function setDeletedRecord(?bool $deletedRecord): self {
         $this->deletedRecord = $deletedRecord;
         return $this;
     }
@@ -247,8 +250,9 @@ trait CustomerTrait {
      * Set the division.
      *
      * @param string|null $division The division.
+     * @return self Returns this instance.
      */
-    public function setDivision(?string $division) {
+    public function setDivision(?string $division): self {
         $this->division = $division;
         return $this;
     }
@@ -257,8 +261,9 @@ trait CustomerTrait {
      * Set the email.
      *
      * @param string|null $email The email.
+     * @return self Returns this instance.
      */
-    public function setEmail(?string $email) {
+    public function setEmail(?string $email): self {
         $this->email = $email;
         return $this;
     }
@@ -267,8 +272,9 @@ trait CustomerTrait {
      * Set the firstname.
      *
      * @param string|null $firstname The firstname.
+     * @return self Returns this instance.
      */
-    public function setFirstname(?string $firstname) {
+    public function setFirstname(?string $firstname): self {
         $this->firstname = $firstname;
         return $this;
     }
@@ -277,8 +283,9 @@ trait CustomerTrait {
      * Set the group counting.
      *
      * @param bool|null $groupCounting The group counting.
+     * @return self Returns this instance.
      */
-    public function setGroupCounting(?bool $groupCounting) {
+    public function setGroupCounting(?bool $groupCounting): self {
         $this->groupCounting = $groupCounting;
         return $this;
     }
@@ -287,8 +294,9 @@ trait CustomerTrait {
      * Set the remarks.
      *
      * @param string|null $remarks The remarks .
+     * @return self Returns this instance.
      */
-    public function setRemarks(?string $remarks) {
+    public function setRemarks(?string $remarks): self {
         $this->remarks = $remarks;
         return $this;
     }
@@ -297,8 +305,9 @@ trait CustomerTrait {
      * Set the remarks 2.
      *
      * @param string|null $remarks2 The remarks 2.
+     * @return self Returns this instance.
      */
-    public function setRemarks2(?string $remarks2) {
+    public function setRemarks2(?string $remarks2): self {
         $this->remarks2 = $remarks2;
         return $this;
     }
@@ -307,8 +316,9 @@ trait CustomerTrait {
      * Set the remarks 3.
      *
      * @param string|null $remarks3 The remarks 3.
+     * @return self Returns this instance.
      */
-    public function setRemarks3(?string $remarks3) {
+    public function setRemarks3(?string $remarks3): self {
         $this->remarks3 = $remarks3;
         return $this;
     }
@@ -317,8 +327,9 @@ trait CustomerTrait {
      * Set the surname.
      *
      * @param string|null $surname The surname.
+     * @return self Returns this instance.
      */
-    public function setSurname(?string $surname) {
+    public function setSurname(?string $surname): self {
         $this->surname = $surname;
         return $this;
     }
@@ -327,8 +338,9 @@ trait CustomerTrait {
      * Set the title.
      *
      * @param string|null $title The title.
+     * @return self Returns this instance.
      */
-    public function setTitle(?string $title) {
+    public function setTitle(?string $title): self {
         $this->title = $title;
         return $this;
     }

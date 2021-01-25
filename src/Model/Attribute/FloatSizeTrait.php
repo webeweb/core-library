@@ -39,6 +39,7 @@ trait FloatSizeTrait {
      * Set the size.
      *
      * @param float|null $size The size.
+     * @return self Returns this instance.
      */
     public function setSize(?float $size): self {
         $this->size = $size;

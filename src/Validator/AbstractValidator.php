@@ -52,7 +52,7 @@ abstract class AbstractValidator implements ValidatorInterface {
      * @param ValidationRuleSetInterface $ruleSet The rule set.
      * @return ValidatorInterface Returns this validator.
      */
-    protected function setRuleSet(ValidationRuleSetInterface $ruleSet) {
+    protected function setRuleSet(ValidationRuleSetInterface $ruleSet): ValidatorInterface {
         $this->ruleSet = $ruleSet;
         return $this;
     }

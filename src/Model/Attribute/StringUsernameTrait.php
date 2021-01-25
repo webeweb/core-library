@@ -39,6 +39,7 @@ trait StringUsernameTrait {
      * Set the username.
      *
      * @param string|null $username The username.
+     * @return self Returns this instance.
      */
     public function setUsername(?string $username): self {
         $this->username = $username;

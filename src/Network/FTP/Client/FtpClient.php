@@ -164,7 +164,7 @@ class FtpClient extends AbstractFtpClient {
      * @return FtpClient Returns this FTP client.
      * @throws FtpException Throws a FTP exception if an error occurs.
      */
-    public function fput(string $remoteFile, string $localStream, int $mode = FTP_BINARY, int $startPos = 0): FtpClient {
+    public function fput(string $remoteFile, $localStream, int $mode = FTP_BINARY, int $startPos = 0): FtpClient {
 
         if (false === @ftp_fput($this->getConnection(), $remoteFile, $localStream, $mode, $startPos)) {
             throw $this->newFtpException("ftp_fput failed: [{$remoteFile}, {$localStream}, {$mode}, {$startPos}]");

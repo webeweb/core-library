@@ -39,6 +39,7 @@ trait StringLinkTrait {
      * Set the link.
      *
      * @param string|null $link The link.
+     * @return self Returns this instance.
      */
     public function setLink(?string $link): self {
         $this->link = $link;

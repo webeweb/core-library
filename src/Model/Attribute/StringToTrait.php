@@ -39,6 +39,7 @@ trait StringToTrait {
      * Set the to.
      *
      * @param string|null $to The to.
+     * @return self Returns this instance.
      */
     public function setTo(?string $to): self {
         $this->to = $to;

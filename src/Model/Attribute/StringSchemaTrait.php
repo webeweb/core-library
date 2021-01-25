@@ -39,6 +39,7 @@ trait StringSchemaTrait {
      * Set the schema.
      *
      * @param string|null $schema The schema.
+     * @return self Returns this instance.
      */
     public function setSchema(?string $schema): self {
         $this->schema = $schema;

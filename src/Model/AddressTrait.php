@@ -53,8 +53,9 @@ trait AddressTrait {
      * Set the addressee description.
      *
      * @param string|null $addresseeDescription The addressee description.
+     * @return self Returns this instance.
      */
-    public function setAddresseeDescription(?string $addresseeDescription) {
+    public function setAddresseeDescription(?string $addresseeDescription): self {
         $this->addresseeDescription = $addresseeDescription;
         return $this;
     }

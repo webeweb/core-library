@@ -39,6 +39,7 @@ trait StringLocationTrait {
      * Set the location.
      *
      * @param string|null $location The location.
+     * @return self Returns this instance.
      */
     public function setLocation(?string $location): self {
         $this->location = $location;

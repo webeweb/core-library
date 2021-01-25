@@ -82,7 +82,7 @@ class RequestData {
      * @param string|null $analyticCode The analytic code.
      * @return RequestData Returns this request data.
      */
-    public function setAnalyticCode(?string $analyticCode) {
+    public function setAnalyticCode(?string $analyticCode): RequestData {
         $this->analyticCode = $analyticCode;
         return $this;
     }
@@ -93,7 +93,7 @@ class RequestData {
      * @param DateTime|null $buyDateMax The buy date max.
      * @return RequestData Returns this request data.
      */
-    public function setBuyDateMax(?DateTime $buyDateMax) {
+    public function setBuyDateMax(?DateTime $buyDateMax): RequestData {
         $this->buyDateMax = $buyDateMax;
         return $this;
     }
@@ -104,7 +104,7 @@ class RequestData {
      * @param string|null $identificationKey The identification key.
      * @return RequestData Returns this request data.
      */
-    public function setIdentificationKey(?string $identificationKey) {
+    public function setIdentificationKey(?string $identificationKey): RequestData {
         $this->identificationKey = $identificationKey;
         return $this;
     }

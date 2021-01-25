@@ -39,6 +39,7 @@ trait StringTitleTrait {
      * Set the title.
      *
      * @param string|null $title The title.
+     * @return self Returns this instance.
      */
     public function setTitle(?string $title): self {
         $this->title = $title;

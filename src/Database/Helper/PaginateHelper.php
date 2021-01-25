@@ -27,7 +27,7 @@ class PaginateHelper {
      * @param int $total The total.
      * @return int[] Returns the page offset and limit in case of success, -1 otherwise.
      */
-    public static function getPageOffsetAndLimit($pageNumber, $divider, $total = -1): array {
+    public static function getPageOffsetAndLimit(int $pageNumber, int $divider, int $total = -1): array {
 
         if ($pageNumber < 0 || $divider < 0) {
             return [-1, -1];
@@ -51,7 +51,7 @@ class PaginateHelper {
      * @param int $divider The divider.
      * @return int Returns the pages count in case of success, -1 otherwise.
      */
-    public static function getPagesCount($linesNumber, $divider): int {
+    public static function getPagesCount(int $linesNumber, int $divider): int {
 
         if ($linesNumber < 0 || $divider < 0) {
             return -1;

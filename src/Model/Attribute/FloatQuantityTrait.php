@@ -39,6 +39,7 @@ trait FloatQuantityTrait {
      * Set the quantity.
      *
      * @param float|null $quantity The quantity.
+     * @return self Returns this instance.
      */
     public function setQuantity(?float $quantity): self {
         $this->quantity = $quantity;

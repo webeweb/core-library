@@ -39,6 +39,7 @@ trait StringIdTrait {
      * Set the id.
      *
      * @param string|null $id The id.
+     * @return self Returns this instance.
      */
     public function setId(?string $id): self {
         $this->id = $id;

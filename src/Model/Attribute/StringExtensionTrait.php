@@ -39,6 +39,7 @@ trait StringExtensionTrait {
      * Set the extension.
      *
      * @param string|null $extension The extension.
+     * @return self Returns this instance.
      */
     public function setExtension(?string $extension): self {
         $this->extension = $extension;

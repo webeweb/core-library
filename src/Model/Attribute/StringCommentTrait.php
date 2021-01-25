@@ -39,6 +39,7 @@ trait StringCommentTrait {
      * Set the comment.
      *
      * @param string|null $comment The comment.
+     * @return self Returns this instance.
      */
     public function setComment(?string $comment): self {
         $this->comment = $comment;

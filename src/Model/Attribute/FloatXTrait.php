@@ -48,6 +48,7 @@ trait FloatXTrait {
      * Set the x.
      *
      * @param float|null $x The x.
+     * @return self Returns this instance.
      */
     public function setX(?float $x): self {
         $this->x = $x;

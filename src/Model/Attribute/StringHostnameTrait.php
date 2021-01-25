@@ -39,6 +39,7 @@ trait StringHostnameTrait {
      * Set the hostname.
      *
      * @param string|null $hostname The hostname.
+     * @return self Returns this instance.
      */
     public function setHostname(?string $hostname): self {
         $this->hostname = $hostname;

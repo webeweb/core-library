@@ -39,6 +39,7 @@ trait IntegerCodeTrait {
      * Set the code.
      *
      * @param int|null $code The code.
+     * @return self Returns this instance.
      */
     public function setCode(?int $code): self {
         $this->code = $code;

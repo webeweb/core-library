@@ -48,6 +48,7 @@ trait FloatYTrait {
      * Set the y.
      *
      * @param float|null $y The y.
+     * @return self Returns this instance.
      */
     public function setY(?float $y): self {
         $this->y = $y;

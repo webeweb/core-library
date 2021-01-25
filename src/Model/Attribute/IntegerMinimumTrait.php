@@ -39,6 +39,7 @@ trait IntegerMinimumTrait {
      * Set the minimum.
      *
      * @param int|null $minimum The minimum.
+     * @return self Returns this instance.
      */
     public function setMinimum(?int $minimum): self {
         $this->minimum = $minimum;

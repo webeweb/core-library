@@ -39,6 +39,7 @@ trait FloatIncludingVatTotalTrait {
      * Set the including VAT total.
      *
      * @param float|null $includingVatTotal The including VAT total.
+     * @return self Returns this instance.
      */
     public function setIncludingVatTotal(?float $includingVatTotal): self {
         $this->includingVatTotal = $includingVatTotal;

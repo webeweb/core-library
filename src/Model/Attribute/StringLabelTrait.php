@@ -39,6 +39,7 @@ trait StringLabelTrait {
      * Set the label.
      *
      * @param string|null $label The label.
+     * @return self Returns this instance.
      */
     public function setLabel(?string $label): self {
         $this->label = $label;

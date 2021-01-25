@@ -39,6 +39,7 @@ trait StringPostalCodeTrait {
      * Set the postal code.
      *
      * @param string|null $postalCode The postal code.
+     * @return self Returns this instance.
      */
     public function setPostalCode(?string $postalCode): self {
         $this->postalCode = $postalCode;

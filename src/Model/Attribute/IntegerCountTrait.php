@@ -39,6 +39,7 @@ trait IntegerCountTrait {
      * Set the count.
      *
      * @param int|null $count The count.
+     * @return self Returns this instance.
      */
     public function setCount(?int $count): self {
         $this->count = $count;

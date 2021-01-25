@@ -39,6 +39,7 @@ trait StringSourceTrait {
      * Set the source.
      *
      * @param string|null $source The source.
+     * @return self Returns this instance.
      */
     public function setSource(?string $source): self {
         $this->source = $source;

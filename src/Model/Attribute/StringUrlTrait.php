@@ -39,6 +39,7 @@ trait StringUrlTrait {
      * Set the URL.
      *
      * @param string|null $url The URL.
+     * @return self Returns this instance.
      */
     public function setUrl(?string $url): self {
         $this->url = $url;

@@ -57,8 +57,9 @@ trait CardTrait {
      * Set the blocked.
      *
      * @param bool|null $blocked The blocked.
+     * @return self Returns this instance.
      */
-    public function setBlocked(?bool $blocked) {
+    public function setBlocked(?bool $blocked): self {
         $this->blocked = $blocked;
         return $this;
     }
@@ -67,8 +68,9 @@ trait CardTrait {
      * Set the blocked as of date.
      *
      * @param DateTime|null $blockedDate The blocked as of date.
+     * @return self Returns this instance.
      */
-    public function setBlockedDate(?DateTime $blockedDate) {
+    public function setBlockedDate(?DateTime $blockedDate): self {
         $this->blockedDate = $blockedDate;
         return $this;
     }

@@ -39,6 +39,7 @@ trait IntegerIdTrait {
      * Set the id.
      *
      * @param int|null $id The id.
+     * @return self Returns this instance.
      */
     protected function setId(?int $id): self {
         $this->id = $id;

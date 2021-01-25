@@ -39,6 +39,7 @@ trait StringFromTrait {
      * Set the from.
      *
      * @param string|null $from The from.
+     * @return self Returns this instance.
      */
     public function setFrom(?string $from): self {
         $this->from = $from;

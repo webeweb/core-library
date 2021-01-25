@@ -39,6 +39,7 @@ trait StringLastNameTrait {
      * Set the last name.
      *
      * @param string|null $lastName The last name.
+     * @return self Returns this instance.
      */
     public function setLastName(?string $lastName): self {
         $this->lastName = $lastName;

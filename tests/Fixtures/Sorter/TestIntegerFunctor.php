@@ -24,7 +24,7 @@ class TestIntegerFunctor implements FunctorInterface {
     /**
      * {@inheritDoc}
      */
-    public function compare($a, $b) {
+    public function compare($a, $b): bool {
         return $a < $b;
     }
 }

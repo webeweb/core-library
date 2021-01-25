@@ -41,6 +41,7 @@ trait DateTimeBirthDateTrait {
      * Set the birth date.
      *
      * @param DateTime|null $birthDate The birth date.
+     * @return self Returns this instance.
      */
     public function setBirthDate(?DateTime $birthDate): self {
         $this->birthDate = $birthDate;

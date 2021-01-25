@@ -41,6 +41,7 @@ trait DateTimeCreatedAtTrait {
      * Set the created at.
      *
      * @param DateTime|null $createdAt The created at.
+     * @return self Returns this instance.
      */
     public function setCreatedAt(?DateTime $createdAt): self {
         $this->createdAt = $createdAt;

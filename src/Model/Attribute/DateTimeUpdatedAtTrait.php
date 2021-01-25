@@ -41,6 +41,7 @@ trait DateTimeUpdatedAtTrait {
      * Set the updated at.
      *
      * @param DateTime|null $updatedAt The updated at.
+     * @return self Returns this instance.
      */
     public function setUpdatedAt(?DateTime $updatedAt): self {
         $this->updatedAt = $updatedAt;

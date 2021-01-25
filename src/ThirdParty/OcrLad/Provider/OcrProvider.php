@@ -347,10 +347,10 @@ class OcrProvider extends AbstractProvider {
     /**
      * Set the local directory "before".
      *
-     * @param string $localDirectoryBefore The local directory "before"
+     * @param string|null $localDirectoryBefore The local directory "before"
      * @return OcrProvider Returns this OCR provider.
      */
-    public function setLocalDirectoryBefore($localDirectoryBefore) {
+    public function setLocalDirectoryBefore(?string $localDirectoryBefore): OcrProvider {
         $this->localDirectoryBefore = $localDirectoryBefore;
         return $this;
     }

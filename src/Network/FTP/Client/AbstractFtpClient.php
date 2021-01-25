@@ -70,7 +70,7 @@ abstract class AbstractFtpClient {
      * @param string $message The message.
      * @return FtpException Returns a new FTP exception.
      */
-    protected function newFtpException($message) {
+    protected function newFtpException(string $message): FtpException {
 
         $format = "%s://%s:%s@%s:%d {$message}";
         $args   = [
@@ -90,7 +90,7 @@ abstract class AbstractFtpClient {
      * @param Authenticator $authenticator The authenticator.
      * @return AbstractFtpClient Returns this FTP client.
      */
-    protected function setAuthenticator(Authenticator $authenticator) {
+    protected function setAuthenticator(Authenticator $authenticator): AbstractFtpClient {
         $this->authenticator = $authenticator;
         return $this;
     }
@@ -101,7 +101,7 @@ abstract class AbstractFtpClient {
      * @param mixed $connection The connection.
      * @return AbstractFtpClient Returns this FTP client.
      */
-    protected function setConnection($connection) {
+    protected function setConnection($connection): AbstractFtpClient {
         $this->connection = $connection;
         return $this;
     }

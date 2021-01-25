@@ -39,6 +39,7 @@ trait BooleanDebugTrait {
      * Set the debug.
      *
      * @param bool|null $debug The debug.
+     * @return self Returns this instance.
      */
     public function setDebug(?bool $debug): self {
         $this->debug = $debug;

@@ -39,6 +39,7 @@ trait StringFilenameTrait {
      * Set the filename.
      *
      * @param string|null $filename The filename.
+     * @return self Returns this instance.
      */
     public function setFilename(?string $filename): self {
         $this->filename = $filename;

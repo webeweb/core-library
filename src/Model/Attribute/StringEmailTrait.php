@@ -39,6 +39,7 @@ trait StringEmailTrait {
      * Set the email.
      *
      * @param string|null $email The email.
+     * @return self Returns this instance.
      */
     public function setEmail(?string $email): self {
         $this->email = $email;

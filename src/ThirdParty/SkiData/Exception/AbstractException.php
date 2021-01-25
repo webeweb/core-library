@@ -28,6 +28,6 @@ abstract class AbstractException extends BaseException {
      * @param string $message The message.
      */
     public function __construct(string $message) {
-        parent::__construct($message, 500);
+        parent::__construct($message);
     }
 }

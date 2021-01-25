@@ -39,6 +39,7 @@ trait IntegerMaximumTrait {
      * Set the maximum.
      *
      * @param int|null $maximum The maximum.
+     * @return self Returns this instance.
      */
     public function setMaximum(?int $maximum): self {
         $this->maximum = $maximum;

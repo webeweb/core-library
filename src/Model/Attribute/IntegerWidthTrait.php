@@ -39,6 +39,7 @@ trait IntegerWidthTrait {
      * Set the width.
      *
      * @param int|null $width The width.
+     * @return self Returns this instance.
      */
     public function setWidth(?int $width): self {
         $this->width = $width;

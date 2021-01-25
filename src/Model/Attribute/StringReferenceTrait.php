@@ -39,6 +39,7 @@ trait StringReferenceTrait {
      * Set the reference.
      *
      * @param string|null $reference The reference.
+     * @return self Returns this instance.
      */
     public function setReference(?string $reference): self {
         $this->reference = $reference;

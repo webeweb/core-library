@@ -39,6 +39,7 @@ trait StringUidTrait {
      * Set the uid.
      *
      * @param string|null $uid The uid.
+     * @return self Returns this instance.
      */
     public function setUid(?string $uid): self {
         $this->uid = $uid;

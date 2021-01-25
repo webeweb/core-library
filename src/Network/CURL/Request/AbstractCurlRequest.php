@@ -31,13 +31,6 @@ use WBW\Library\Core\Network\HTTP\HttpInterface;
 abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterface {
 
     /**
-     * Content-Type "application/x-www-form-urlencoded".
-     *
-     * @var string
-     */
-    const CONTENT_TYPE_X_WWW_FORM_URLENCODED = "Content-Type: application/x-www-form-urlencoded";
-
-    /**
      * Configuration.
      *
      * @var CurlConfiguration
@@ -281,7 +274,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      * @param string $rawHeader The raw header.
      * @return array Returns the headers.
      */
-    private function parseHeader($rawHeader): array {
+    private function parseHeader(string $rawHeader): array {
 
         $headers = [];
         $key     = "";
@@ -321,7 +314,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      * @param array $responseInfo The response info.
      * @return CurlResponseInterface Returns the response.
      */
-    private function prepareResponse($requestBody, array $requestHeader, $requestUri, $responseBody, array $responseHeader, array $responseInfo) {
+    private function prepareResponse(string $requestBody, array $requestHeader, string $requestUri, string $responseBody, array $responseHeader, array $responseInfo): CurlResponseInterface {
 
         $response = CurlFactory::newCURLResponse();
         $response->setRequestBody($requestBody);
@@ -393,7 +386,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
      * @return CurlRequestInterface Returns this cURL request.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is invalid.
      */
-    protected function setMethod($method): CurlRequestInterface {
+    protected function setMethod(string $method): CurlRequestInterface {
 
         switch ($method) {
             case self::HTTP_METHOD_DELETE:

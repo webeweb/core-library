@@ -39,6 +39,7 @@ trait StringPasswordTrait {
      * Set the password.
      *
      * @param string|null $password The password.
+     * @return self Returns this instance.
      */
     public function setPassword(?string $password): self {
         $this->password = $password;

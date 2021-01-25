@@ -142,7 +142,7 @@ class CurlResponse implements CurlResponseInterface {
      * @param string $requestUrl The request URL.
      * @return CurlResponse Returns this CURL response.
      */
-    public function setRequestUrl($requestUrl): CurlResponse {
+    public function setRequestUrl(string $requestUrl): CurlResponse {
         $this->requestUrl = $requestUrl;
         return $this;
     }

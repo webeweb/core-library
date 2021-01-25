@@ -32,8 +32,9 @@ trait ArrayWordsTrait {
      * Add a word.
      *
      * @param Word $word The word.
+     * @return self Returns this instance.
      */
-    public function addWord(Word $word) {
+    public function addWord(Word $word): self {
         $this->words[] = $word;
         return $this;
     }
@@ -69,8 +70,9 @@ trait ArrayWordsTrait {
      * Set the words.
      *
      * @param Word[] $words The words.
+     * @return self Returns this instance.
      */
-    protected function setWords(array $words) {
+    protected function setWords(array $words): self {
         $this->words = $words;
         return $this;
     }

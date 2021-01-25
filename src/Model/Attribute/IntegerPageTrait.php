@@ -39,6 +39,7 @@ trait IntegerPageTrait {
      * Set the page.
      *
      * @param int|null $page The page.
+     * @return self Returns this instance.
      */
     public function setPage(?int $page): self {
         $this->page = $page;

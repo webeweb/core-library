@@ -39,6 +39,7 @@ trait FloatIncludingVatPriceTrait {
      * Set the including VAT price.
      *
      * @param float|null $includingVatPrice The including VAT price.
+     * @return self Returns this instance.
      */
     public function setIncludingVatPrice(?float $includingVatPrice): self {
         $this->includingVatPrice = $includingVatPrice;

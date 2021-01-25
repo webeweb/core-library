@@ -39,6 +39,7 @@ trait StringMessageTrait {
      * Set the message.
      *
      * @param string|null $message The message.
+     * @return self Returns this instance.
      */
     public function setMessage(?string $message): self {
         $this->message = $message;

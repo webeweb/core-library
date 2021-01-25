@@ -39,6 +39,7 @@ trait StringTextTrait {
      * Set the text.
      *
      * @param string|null $text The text.
+     * @return self Returns this instance.
      */
     public function setText(?string $text): self {
         $this->text = $text;

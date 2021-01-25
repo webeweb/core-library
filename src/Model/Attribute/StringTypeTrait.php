@@ -39,6 +39,7 @@ trait StringTypeTrait {
      * Set the type.
      *
      * @param string|null $type The type.
+     * @return self Returns this instance.
      */
     public function setType(?string $type): self {
         $this->type = $type;

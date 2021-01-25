@@ -34,7 +34,7 @@ abstract class AbstractValidationRule implements ValidationRuleInterface {
      *
      * @param string $name The name.
      */
-    protected function __construct($name) {
+    protected function __construct(string $name) {
         $this->setName($name);
     }
 

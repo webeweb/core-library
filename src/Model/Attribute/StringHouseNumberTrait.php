@@ -39,6 +39,7 @@ trait StringHouseNumberTrait {
      * Set the house number.
      *
      * @param string|null $houseNumber The house number.
+     * @return self Returns this instance.
      */
     public function setHouseNumber(?string $houseNumber): self {
         $this->houseNumber = $houseNumber;

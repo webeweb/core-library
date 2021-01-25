@@ -276,7 +276,7 @@ class TimeSlotHelper {
      * @param TimeSlot[] $timeSlots The time slots.
      * @return TimeSlot[] Returns the sorted time slots.
      */
-    public static function sort(array $timeSlots) {
+    public static function sort(array $timeSlots): array {
 
         $sorter = new QuickSort($timeSlots, new TimeSlotFunctor());
         $sorter->sort();

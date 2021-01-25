@@ -39,6 +39,7 @@ trait StringContentTrait {
      * Set the content.
      *
      * @param string|null $content The content.
+     * @return self Returns this instance.
      */
     public function setContent(?string $content): self {
         $this->content = $content;
