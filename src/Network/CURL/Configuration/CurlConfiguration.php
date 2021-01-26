@@ -11,6 +11,9 @@
 
 namespace WBW\Library\Core\Network\CURL\Configuration;
 
+use WBW\Library\Core\Model\Attribute\BooleanDebugTrait;
+use WBW\Library\Core\Model\Attribute\BooleanVerboseTrait;
+
 /**
  * cURL configuration.
  *
@@ -18,6 +21,9 @@ namespace WBW\Library\Core\Network\CURL\Configuration;
  * @package WBW\Library\Core\Network\CURL\Configuration
  */
 class CurlConfiguration {
+
+    use BooleanDebugTrait;
+    use BooleanVerboseTrait;
 
     /**
      * Allow encoding.
@@ -32,13 +38,6 @@ class CurlConfiguration {
      * @var int
      */
     private $connectTimeout;
-
-    /**
-     * Debug.
-     *
-     * @var bool
-     */
-    private $debug;
 
     /**
      * Debug file.
@@ -132,13 +131,6 @@ class CurlConfiguration {
     private $userAgent;
 
     /**
-     * Verbose.
-     *
-     * @var bool
-     */
-    private $verbose;
-
-    /**
      * Constructor.
      */
     public function __construct() {
@@ -190,15 +182,6 @@ class CurlConfiguration {
      */
     public function getConnectTimeout(): int {
         return $this->connectTimeout;
-    }
-
-    /**
-     * Ge the debug.
-     *
-     * @return bool Returns the debug.
-     */
-    public function getDebug(): bool {
-        return $this->debug;
     }
 
     /**
@@ -319,15 +302,6 @@ class CurlConfiguration {
     }
 
     /**
-     * Get the verbose.
-     *
-     * @return bool Returns the verbose.
-     */
-    public function getVerbose(): bool {
-        return $this->verbose;
-    }
-
-    /**
      * Remove an header.
      *
      * @param string $name The header name.
@@ -358,17 +332,6 @@ class CurlConfiguration {
      */
     public function setConnectTimeout(int $connectTimeout): CurlConfiguration {
         $this->connectTimeout = $connectTimeout;
-        return $this;
-    }
-
-    /**
-     * Set the debug.
-     *
-     * @param bool $debug The debug.
-     * @return CurlConfiguration Returns this cURL configuration.
-     */
-    public function setDebug(bool $debug): CurlConfiguration {
-        $this->debug = $debug;
         return $this;
     }
 
@@ -512,17 +475,6 @@ class CurlConfiguration {
      */
     public function setUserAgent(string $userAgent): CurlConfiguration {
         $this->userAgent = $userAgent;
-        return $this;
-    }
-
-    /**
-     * Set the verbose.
-     *
-     * @param bool $verbose The verbose.
-     * @return CurlConfiguration Returns this cURL configuration.
-     */
-    public function setVerbose(bool $verbose): CurlConfiguration {
-        $this->verbose = $verbose;
         return $this;
     }
 }

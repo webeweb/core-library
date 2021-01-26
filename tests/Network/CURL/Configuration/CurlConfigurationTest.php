@@ -85,19 +85,6 @@ class CurlConfigurationTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setDebug() method.
-     *
-     * @return void
-     */
-    public function testSetDebug(): void {
-
-        $obj = new CurlConfiguration();
-
-        $obj->setDebug(true);
-        $this->assertTrue($obj->getDebug());
-    }
-
-    /**
      * Tests the setDebugFile() method.
      *
      * @return void
@@ -251,19 +238,6 @@ class CurlConfigurationTest extends AbstractTestCase {
 
         $obj->setUserAgent("userAgent");
         $this->assertEquals("userAgent", $obj->getUserAgent());
-    }
-
-    /**
-     * Tests the setVerbose() method.
-     *
-     * @return void
-     */
-    public function testSetVerbose(): void {
-
-        $obj = new CurlConfiguration();
-
-        $obj->setVerbose(true);
-        $this->assertTrue($obj->getVerbose());
     }
 
     /**
