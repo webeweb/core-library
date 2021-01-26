@@ -3,6 +3,7 @@ CHANGELOG
 
 ### master
 
+- Add boolean Verbose trait
 - Improve code quality
 - Improve PHPDoc
 
