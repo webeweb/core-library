@@ -75,10 +75,10 @@ abstract class AbstractParser implements ParserInterface {
     /**
      * Encode a boolean value.
      *
-     * @param bool $value The value.
+     * @param bool|null $value The value.
      * @return string Returns the encoded boolean value.
      */
-    protected function encodeBoolean(bool $value): string {
+    protected function encodeBoolean(?bool $value): string {
         return "" . IntegerHelper::parseBoolean($value);
     }
 
@@ -105,12 +105,12 @@ abstract class AbstractParser implements ParserInterface {
     /**
      * Encode an integer value.
      *
-     * @param int $value The value.
+     * @param int|null $value The value.
      * @param int $length The length.
      * @return string Returns the encoded integer.
      * @throws TooLongDataException Throws a too long data exception if the value exceeds the length.
      */
-    protected function encodeInteger(int $value, int $length): string {
+    protected function encodeInteger(?int $value, int $length): string {
         $format = "%'.0{$length}d";
         $output = null === $value ? "" : sprintf($format, $value);
         if ($length < strlen($output)) {
