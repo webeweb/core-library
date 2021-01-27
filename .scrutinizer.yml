@@ -18,7 +18,6 @@ build:
                 php: 8.0.0
     environment:
         php:
-            compile-options: "--enable-gd"
             ini:
                 'xdebug.mode': "coverage"
     dependencies:
