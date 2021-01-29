@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [6.9.0](https://github.com/webeweb/core-library/tree/v6.9.0) (2020-01-29)
 
 - Add boolean Verbose trait
 - Improve code quality
