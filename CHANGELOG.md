@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [6.9.1](https://github.com/webeweb/core-library/tree/v6.9.1) (2020-02-03)
+
+- Fix PHP compatibility
+
 ### [6.9.0](https://github.com/webeweb/core-library/tree/v6.9.0) (2020-01-29)
 
 - Add boolean Verbose trait
