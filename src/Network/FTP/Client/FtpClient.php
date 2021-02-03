@@ -244,23 +244,6 @@ class FtpClient extends AbstractFtpClient {
     }
 
     /**
-     * Returns a list of files in the given directory.
-     *
-     * @param string $directory The directory.
-     * @return array Returns a list of files in the given directory.
-     * @throws FtpException Throws a FTP exception if an error occurs.
-     */
-    public function mlsd(string $directory): array {
-
-        $result = @ftp_mlsd($this->getConnection(), $directory);
-        if (false === $result) {
-            throw $this->newFtpException("ftp_mlsd failed: [{$directory}]");
-        }
-
-        return $result;
-    }
-
-    /**
      * Retrieves a file from the FTP server and writes it to an open file (non-blocking).
      *
      * @param resource $localStream The local stream.
