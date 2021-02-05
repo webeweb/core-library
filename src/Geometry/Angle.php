@@ -84,7 +84,7 @@ class Angle {
      * @return bool Returns true in case of success, false otherwise.
      */
     public function isDegree(): bool {
-        return Angle::UNIT_DEGREE === $this->getUnits();
+        return static::UNIT_DEGREE === $this->getUnits();
     }
 
     /**
@@ -93,7 +93,7 @@ class Angle {
      * @return bool Returns true in case of success, false otherwise.
      */
     public function isRadian(): bool {
-        return Angle::UNIT_RADIAN === $this->getUnits();
+        return static::UNIT_RADIAN === $this->getUnits();
     }
 
     /**

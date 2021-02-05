@@ -48,10 +48,10 @@ class ArgumentHelper implements ArgumentInterface {
 
         switch ($type) {
 
-            case self::ARGUMENT_BOOLEAN:
+            case static::ARGUMENT_BOOLEAN:
                 return BooleanHelper::parseString($value);
 
-            case self::ARGUMENT_DATE:
+            case static::ARGUMENT_DATE:
                 if (null === $dateFormat) {
                     throw new InvalidArgumentException("The date format is null");
                 }
@@ -61,19 +61,19 @@ class ArgumentHelper implements ArgumentInterface {
                 }
                 return $datetime;
 
-            case self::ARGUMENT_DOUBLE:
+            case static::ARGUMENT_DOUBLE:
                 return DoubleHelper::parseString($value);
 
-            case self::ARGUMENT_FLOAT:
+            case static::ARGUMENT_FLOAT:
                 return FloatHelper::parseString($value);
 
-            case self::ARGUMENT_INTEGER:
+            case static::ARGUMENT_INTEGER:
                 return IntegerHelper::parseString($value);
 
-            case self::ARGUMENT_STRING:
+            case static::ARGUMENT_STRING:
                 return $value;
 
-            case self::ARGUMENT_TIMESTAMP:
+            case static::ARGUMENT_TIMESTAMP:
                 if (null === $dateFormat) {
                     throw new InvalidArgumentException("The datetime format is null");
                 }
@@ -99,47 +99,47 @@ class ArgumentHelper implements ArgumentInterface {
 
         switch ($type) {
 
-            case self::ARGUMENT_ARRAY:
+            case static::ARGUMENT_ARRAY:
                 ArrayHelper::isArray($value);
                 return true;
 
-            case self::ARGUMENT_BOOLEAN:
+            case static::ARGUMENT_BOOLEAN:
                 BooleanHelper::isBoolean($value);
                 return true;
 
-            case self::ARGUMENT_DATE:
+            case static::ARGUMENT_DATE:
                 DateTimeHelper::isDate($value);
                 return true;
 
-            case self::ARGUMENT_DOUBLE:
+            case static::ARGUMENT_DOUBLE:
                 DoubleHelper::isDouble($value);
                 return true;
 
-            case self::ARGUMENT_FLOAT:
+            case static::ARGUMENT_FLOAT:
                 FloatHelper::isFloat($value);
                 return true;
 
-            case self::ARGUMENT_INTEGER:
+            case static::ARGUMENT_INTEGER:
                 IntegerHelper::isInteger($value);
                 return true;
 
-            case self::ARGUMENT_NUMBER:
+            case static::ARGUMENT_NUMBER:
                 NumberHelper::isNumber($value);
                 return true;
 
-            case self::ARGUMENT_OBJECT:
+            case static::ARGUMENT_OBJECT:
                 ObjectHelper::isObject($value);
                 return true;
 
-            case self::ARGUMENT_RESOURCE:
+            case static::ARGUMENT_RESOURCE:
                 ResourceHelper::isResource($value);
                 return true;
 
-            case self::ARGUMENT_STRING:
+            case static::ARGUMENT_STRING:
                 StringHelper::isString($value);
                 return true;
 
-            case self::ARGUMENT_TIMESTAMP:
+            case static::ARGUMENT_TIMESTAMP:
                 TimestampHelper::isTimestamp($value);
                 return true;
         }

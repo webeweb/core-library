@@ -35,7 +35,7 @@ class StringHelper {
 
         $template = "<%name%%attributes%>%text%</%name%>";
 
-        $attr = trim(StringHelper::parseArray($attributes));
+        $attr = trim(static::parseArray($attributes));
         if (0 < strlen($attr)) {
             $attr = " " . $attr;
         }

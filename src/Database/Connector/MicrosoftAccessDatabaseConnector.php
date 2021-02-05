@@ -54,7 +54,7 @@ class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
         $searches = ["%DBQ%", "%UID%", "%PWD%"];
         $replaces = [$this->getDatabase(), $this->getAuthenticator()->getPasswordAuthentication()->getUsername(), $this->getAuthenticator()->getPasswordAuthentication()->getPassword()];
 
-        $dsn = str_replace($searches, $replaces, self::DEFAULT_DSN);
+        $dsn = str_replace($searches, $replaces, static::DEFAULT_DSN);
 
         return new PDO($dsn);
     }

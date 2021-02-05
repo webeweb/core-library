@@ -56,7 +56,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
             $cURLRequest->getConfiguration()->addHeader("Accept", "application/json");
             $cURLRequest->getConfiguration()->addHeader("Content-Type", "application/json");
             $cURLRequest->getConfiguration()->setDebug($this->getDebug());
-            $cURLRequest->getConfiguration()->setHost(self::ENDPOINT_PATH);
+            $cURLRequest->getConfiguration()->setHost(static::ENDPOINT_PATH);
             $cURLRequest->getConfiguration()->setUserAgent("webeweb/adoria-library");
 
             // Handle each parameter.
@@ -84,7 +84,7 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
 
         $parameters = RequestSerializer::serializeRequestData($requestData);
 
-        $rawResponse = $this->callAPI(self::REQUEST_DATA_RESOURCE_PATH, $parameters);
+        $rawResponse = $this->callAPI(static::REQUEST_DATA_RESOURCE_PATH, $parameters);
 
         return ResponseDeserializer::deserializeResult($rawResponse);
     }

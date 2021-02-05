@@ -43,10 +43,10 @@ class DerDeserializer {
 
         $stream = fopen($filename, "r");
 
-        $headers = DerDeserializer::processHeaders(fgets($stream));
+        $headers = static::processHeaders(fgets($stream));
         foreach ($headers as $current) {
 
-            $page = DerDeserializer::deserializePage($current);
+            $page = static::deserializePage($current);
             if (null !== $page) {
                 $model->addPage($page->setParent($model));
             }
@@ -54,7 +54,7 @@ class DerDeserializer {
 
         while (true !== feof($stream)) {
 
-            $word = DerDeserializer::deserializeWord(fgets($stream));
+            $word = static::deserializeWord(fgets($stream));
             if (null !== $word) {
                 $model->addWord($word);
             }
@@ -62,7 +62,7 @@ class DerDeserializer {
 
         fclose($stream);
 
-        return DerDeserializer::processDocument($model);
+        return static::processDocument($model);
     }
 
     /**
@@ -73,7 +73,7 @@ class DerDeserializer {
      */
     protected static function deserializePage(string $rawData): ?Page {
 
-        $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
+        $data = explode(static::DER_DELIMITER, $rawData);
         if (6 !== count($data)) {
             return null;
         }
@@ -96,7 +96,7 @@ class DerDeserializer {
      */
     protected static function deserializeWord(string $rawData): ?Word {
 
-        $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
+        $data = explode(static::DER_DELIMITER, $rawData);
         if (7 !== count($data)) {
             return null;
         }
@@ -143,7 +143,7 @@ class DerDeserializer {
      */
     protected static function processHeaders(string $rawData): array {
 
-        $data = explode(DerDeserializer::DER_DELIMITER, $rawData);
+        $data = explode(static::DER_DELIMITER, $rawData);
         if (6 === count($data)) {
             return [$rawData];
         }
@@ -156,7 +156,7 @@ class DerDeserializer {
             $buffer[] = $current;
             if (6 === count($buffer)) {
 
-                $rows[] = implode(DerDeserializer::DER_DELIMITER, $buffer);
+                $rows[] = implode(static::DER_DELIMITER, $buffer);
                 $buffer = [];
             }
         }

@@ -49,25 +49,25 @@ class CurlFactory implements HttpInterface {
 
         switch ($method) {
 
-            case self::HTTP_METHOD_DELETE:
+            case static::HTTP_METHOD_DELETE:
                 return new CurlDeleteRequest($configuration, $resourcePath);
 
-            case self::HTTP_METHOD_GET:
+            case static::HTTP_METHOD_GET:
                 return new CurlGetRequest($configuration, $resourcePath);
 
-            case self::HTTP_METHOD_HEAD:
+            case static::HTTP_METHOD_HEAD:
                 return new CurlHeadRequest($configuration, $resourcePath);
 
-            case self::HTTP_METHOD_OPTIONS:
+            case static::HTTP_METHOD_OPTIONS:
                 return new CurlOptionsRequest($configuration, $resourcePath);
 
-            case self::HTTP_METHOD_PATCH:
+            case static::HTTP_METHOD_PATCH:
                 return new CurlPatchRequest($configuration, $resourcePath);
 
-            case self::HTTP_METHOD_POST:
+            case static::HTTP_METHOD_POST:
                 return new CurlPostRequest($configuration, $resourcePath);
 
-            case self::HTTP_METHOD_PUT:
+            case static::HTTP_METHOD_PUT:
                 return new CurlPutRequest($configuration, $resourcePath);
         }
 

@@ -30,6 +30,6 @@ class CurlPostRequest extends AbstractCurlRequest {
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is invalid.
      */
     public function __construct(CurlConfiguration $configuration, ?string $resourcePath) {
-        parent::__construct(self::HTTP_METHOD_POST, $configuration, $resourcePath);
+        parent::__construct(static::HTTP_METHOD_POST, $configuration, $resourcePath);
     }
 }

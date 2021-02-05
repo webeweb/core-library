@@ -55,14 +55,14 @@ class FileSizeRenderer {
 
         $format = "%.{$decimals}f";
 
-        if (self::SIZE_DIVIDER_GIO <= $size) {
-            return sprintf("{$format} Gio", $size / self::SIZE_DIVIDER_GIO);
+        if (static::SIZE_DIVIDER_GIO <= $size) {
+            return sprintf("{$format} Gio", $size / static::SIZE_DIVIDER_GIO);
         }
 
-        if (self::SIZE_DIVIDER_MIO <= $size) {
-            return sprintf("{$format} Mio", $size / self::SIZE_DIVIDER_MIO);
+        if (static::SIZE_DIVIDER_MIO <= $size) {
+            return sprintf("{$format} Mio", $size / static::SIZE_DIVIDER_MIO);
         }
 
-        return sprintf("{$format} Kio", $size / self::SIZE_DIVIDER_KIO);
+        return sprintf("{$format} Kio", $size / static::SIZE_DIVIDER_KIO);
     }
 }

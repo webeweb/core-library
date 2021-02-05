@@ -41,8 +41,8 @@ class ResponseDeserializer {
 
         $decodedResponse = json_decode($rawResponse, true);
 
-        $invoiceDate    = DateTime::createFromFormat(self::RESPONSE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDate"));
-        $invoiceDueDate = DateTime::createFromFormat(self::RESPONSE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDueDate"));
+        $invoiceDate    = DateTime::createFromFormat(static::RESPONSE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDate"));
+        $invoiceDueDate = DateTime::createFromFormat(static::RESPONSE_DATE_FORMAT, ArrayHelper::get($decodedResponse, "InvoiceDueDate"));
 
         $model = new Line();
 

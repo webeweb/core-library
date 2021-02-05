@@ -389,13 +389,13 @@ abstract class AbstractCurlRequest implements CurlRequestInterface, HttpInterfac
     protected function setMethod(string $method): CurlRequestInterface {
 
         switch ($method) {
-            case self::HTTP_METHOD_DELETE:
-            case self::HTTP_METHOD_GET:
-            case self::HTTP_METHOD_HEAD:
-            case self::HTTP_METHOD_OPTIONS:
-            case self::HTTP_METHOD_PATCH:
-            case self::HTTP_METHOD_POST:
-            case self::HTTP_METHOD_PUT:
+            case static::HTTP_METHOD_DELETE:
+            case static::HTTP_METHOD_GET:
+            case static::HTTP_METHOD_HEAD:
+            case static::HTTP_METHOD_OPTIONS:
+            case static::HTTP_METHOD_PATCH:
+            case static::HTTP_METHOD_POST:
+            case static::HTTP_METHOD_PUT:
                 $this->method = $method;
                 break;
             default:

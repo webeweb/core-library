@@ -47,7 +47,7 @@ abstract class AbstractParser implements ParserInterface {
      * @return DateTime|null Returns the decoded string in case of success, null otherwise.
      */
     protected function decodeDate(string $str): ?DateTime {
-        $date = DateTime::createFromFormat("!" . self::DATE_FORMAT, $str);
+        $date = DateTime::createFromFormat("!" . static::DATE_FORMAT, $str);
         return false === $date ? null : $date;
     }
 
@@ -58,7 +58,7 @@ abstract class AbstractParser implements ParserInterface {
      * @return DateTime|null Returns the decoded string in case of success, null otherwise.
      */
     protected function decodeDateTime(string $str): ?DateTime {
-        $date = DateTime::createFromFormat(self::DATETIME_FORMAT, $str);
+        $date = DateTime::createFromFormat(static::DATETIME_FORMAT, $str);
         return false === $date ? null : $date;
     }
 
@@ -89,7 +89,7 @@ abstract class AbstractParser implements ParserInterface {
      * @return string Returns the encoded datetime value.
      */
     protected function encodeDate(?DateTime $value): string {
-        return null === $value ? "" : $value->format(self::DATE_FORMAT);
+        return null === $value ? "" : $value->format(static::DATE_FORMAT);
     }
 
     /**
@@ -99,7 +99,7 @@ abstract class AbstractParser implements ParserInterface {
      * @return string Returns the encoded datetime value.
      */
     protected function encodeDateTime(?DateTime $value): string {
-        return null === $value ? "" : $value->format(self::DATETIME_FORMAT);
+        return null === $value ? "" : $value->format(static::DATETIME_FORMAT);
     }
 
     /**
