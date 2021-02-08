@@ -22,9 +22,9 @@ interface AlphabeticalTreeNodeInterface {
     /**
      * Get the label.
      *
-     * @return string Returns the label.
+     * @return string|null Returns the label.
      */
-    public function getAlphabeticalTreeNodeLabel(): string;
+    public function getAlphabeticalTreeNodeLabel(): ?string;
 
     /**
      * Get the parent.

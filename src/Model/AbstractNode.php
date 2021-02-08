@@ -89,7 +89,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
     /**
      * {@inheritDoc}
      */
-    public function getAlphabeticalTreeNodeLabel(): string {
+    public function getAlphabeticalTreeNodeLabel(): ?string {
         return $this->id;
     }
 
