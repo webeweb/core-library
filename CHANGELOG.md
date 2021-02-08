@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [6.9.4](https://github.com/webeweb/core-library/tree/v6.9.4) (2020-02-08)
+
+- Fix Alphabetical tree node inheritance
+
 ### [6.9.3](https://github.com/webeweb/core-library/tree/v6.9.3) (2020-02-05)
 
 - Replace Class:: by static::
