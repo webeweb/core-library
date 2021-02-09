@@ -34,16 +34,4 @@ class StringHashMd5TraitTest extends AbstractTestCase {
         $obj->setHashMd5("hashMd5");
         $this->assertEquals("hashMd5", $obj->getHashMd5());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringHashMd5Trait();
-
-        $this->assertNull($obj->getHashMd5());
-    }
 }

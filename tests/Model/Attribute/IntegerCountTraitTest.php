@@ -34,16 +34,4 @@ class IntegerCountTraitTest extends AbstractTestCase {
         $obj->setCount(1);
         $this->assertEquals(1, $obj->getCount());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerCountTrait();
-
-        $this->assertNull($obj->getCount());
-    }
 }

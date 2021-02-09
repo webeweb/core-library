@@ -34,16 +34,4 @@ class IntegerTypeTraitTest extends AbstractTestCase {
         $obj->setType(1);
         $this->assertEquals(1, $obj->getType());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerTypeTrait();
-
-        $this->assertNull($obj->getType());
-    }
 }

@@ -34,16 +34,4 @@ class StringFilenameTraitTest extends AbstractTestCase {
         $obj->setFilename("filename");
         $this->assertEquals("filename", $obj->getFilename());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringFilenameTrait();
-
-        $this->assertNull($obj->getFilename());
-    }
 }

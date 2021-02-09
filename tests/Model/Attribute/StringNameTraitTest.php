@@ -34,16 +34,4 @@ class StringNameTraitTest extends AbstractTestCase {
         $obj->setName("name");
         $this->assertEquals("name", $obj->getName());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringNameTrait();
-
-        $this->assertNull($obj->getName());
-    }
 }

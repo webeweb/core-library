@@ -34,16 +34,4 @@ class StringPostalCodeTraitTest extends AbstractTestCase {
         $obj->setPostalCode("postalCode");
         $this->assertEquals("postalCode", $obj->getPostalCode());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringPostalCodeTrait();
-
-        $this->assertNull($obj->getPostalCode());
-    }
 }

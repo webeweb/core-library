@@ -34,16 +34,4 @@ class StringLocationTraitTest extends AbstractTestCase {
         $obj->setLocation("location");
         $this->assertEquals("location", $obj->getLocation());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringLocationTrait();
-
-        $this->assertNull($obj->getLocation());
-    }
 }

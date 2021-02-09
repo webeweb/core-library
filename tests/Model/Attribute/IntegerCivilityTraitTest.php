@@ -34,16 +34,4 @@ class IntegerCivilityTraitTest extends AbstractTestCase {
         $obj->setCivility(1);
         $this->assertEquals(1, $obj->getCivility());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerCivilityTrait();
-
-        $this->assertNull($obj->getCivility());
-    }
 }

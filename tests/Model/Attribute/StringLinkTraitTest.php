@@ -34,16 +34,4 @@ class StringLinkTraitTest extends AbstractTestCase {
         $obj->setLink("link");
         $this->assertEquals("link", $obj->getLink());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringLinkTrait();
-
-        $this->assertNull($obj->getLink());
-    }
 }

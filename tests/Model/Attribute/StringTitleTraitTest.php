@@ -34,16 +34,4 @@ class StringTitleTraitTest extends AbstractTestCase {
         $obj->setTitle("title");
         $this->assertEquals("title", $obj->getTitle());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringTitleTrait();
-
-        $this->assertNull($obj->getTitle());
-    }
 }

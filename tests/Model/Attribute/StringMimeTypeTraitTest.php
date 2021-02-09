@@ -34,16 +34,4 @@ class StringMimeTypeTraitTest extends AbstractTestCase {
         $obj->setMimeType("mimeType");
         $this->assertEquals("mimeType", $obj->getMimeType());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringMimeTypeTrait();
-
-        $this->assertNull($obj->getMimeType());
-    }
 }

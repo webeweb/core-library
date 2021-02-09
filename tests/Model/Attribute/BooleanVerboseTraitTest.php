@@ -34,16 +34,4 @@ class BooleanVerboseTraitTest extends AbstractTestCase {
         $obj->setVerbose(true);
         $this->assertTrue($obj->getVerbose());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestBooleanVerboseTrait();
-
-        $this->assertNull($obj->getVerbose());
-    }
 }

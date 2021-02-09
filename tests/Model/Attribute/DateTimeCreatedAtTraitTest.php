@@ -40,16 +40,4 @@ class DateTimeCreatedAtTraitTest extends AbstractTestCase {
         $obj->setCreatedAt($createdAt);
         $this->assertSame($createdAt, $obj->getCreatedAt());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestDateTimeCreatedAtTrait();
-
-        $this->assertNull($obj->getCreatedAt());
-    }
 }

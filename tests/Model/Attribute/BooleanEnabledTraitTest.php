@@ -34,16 +34,4 @@ class BooleanEnabledTraitTest extends AbstractTestCase {
         $obj->setEnabled(true);
         $this->assertTrue($obj->getEnabled());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestBooleanEnabledTrait();
-
-        $this->assertNull($obj->getEnabled());
-    }
 }

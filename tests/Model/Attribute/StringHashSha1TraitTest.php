@@ -34,16 +34,4 @@ class StringHashSha1TraitTest extends AbstractTestCase {
         $obj->setHashSha1("hashSha1");
         $this->assertEquals("hashSha1", $obj->getHashSha1());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringHashSha1Trait();
-
-        $this->assertNull($obj->getHashSha1());
-    }
 }

@@ -34,16 +34,4 @@ class StringDescriptionTraitTest extends AbstractTestCase {
         $obj->setDescription("description");
         $this->assertEquals("description", $obj->getDescription());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringDescriptionTrait();
-
-        $this->assertNull($obj->getDescription());
-    }
 }

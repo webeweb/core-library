@@ -34,16 +34,4 @@ class StringAccountingCodeTraitTest extends AbstractTestCase {
         $obj->setAccountingCode("accountingCode");
         $this->assertEquals("accountingCode", $obj->getAccountingCode());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringAccountingCodeTrait();
-
-        $this->assertNull($obj->getAccountingCode());
-    }
 }

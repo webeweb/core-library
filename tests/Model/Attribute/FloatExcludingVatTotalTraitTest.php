@@ -34,16 +34,4 @@ class FloatExcludingVatTotalTraitTest extends AbstractTestCase {
         $obj->setExcludingVatTotal(1.01);
         $this->assertEquals(1.01, $obj->getExcludingVatTotal());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatExcludingVatTotalTrait();
-
-        $this->assertNull($obj->getExcludingVatTotal());
-    }
 }

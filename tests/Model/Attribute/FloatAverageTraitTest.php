@@ -34,16 +34,4 @@ class FloatAverageTraitTest extends AbstractTestCase {
         $obj->setAverage(1.01);
         $this->assertEquals(1.01, $obj->getAverage());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatAverageTrait();
-
-        $this->assertNull($obj->getAverage());
-    }
 }

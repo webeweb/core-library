@@ -34,16 +34,4 @@ class StringUrlTraitTest extends AbstractTestCase {
         $obj->setUrl("Url");
         $this->assertEquals("Url", $obj->getUrl());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringUrlTrait();
-
-        $this->assertNull($obj->getUrl());
-    }
 }

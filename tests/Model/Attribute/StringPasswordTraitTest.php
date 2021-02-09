@@ -34,16 +34,4 @@ class StringPasswordTraitTest extends AbstractTestCase {
         $obj->setPassword("password");
         $this->assertEquals("password", $obj->getPassword());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringPasswordTrait();
-
-        $this->assertNull($obj->getPassword());
-    }
 }

@@ -34,16 +34,4 @@ class StringExtensionTraitTest extends AbstractTestCase {
         $obj->setExtension("extension");
         $this->assertEquals("extension", $obj->getExtension());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringExtensionTrait();
-
-        $this->assertNull($obj->getExtension());
-    }
 }

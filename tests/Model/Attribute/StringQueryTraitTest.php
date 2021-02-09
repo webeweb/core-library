@@ -34,16 +34,4 @@ class StringQueryTraitTest extends AbstractTestCase {
         $obj->setQuery("query");
         $this->assertEquals("query", $obj->getQuery());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringQueryTrait();
-
-        $this->assertNull($obj->getQuery());
-    }
 }

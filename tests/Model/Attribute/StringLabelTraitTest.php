@@ -34,16 +34,4 @@ class StringLabelTraitTest extends AbstractTestCase {
         $obj->setLabel("label");
         $this->assertEquals("label", $obj->getLabel());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringLabelTrait();
-
-        $this->assertNull($obj->getLabel());
-    }
 }

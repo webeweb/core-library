@@ -34,16 +34,4 @@ class StringCommentTraitTest extends AbstractTestCase {
         $obj->setComment("comment");
         $this->assertEquals("comment", $obj->getComment());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringCommentTrait();
-
-        $this->assertNull($obj->getComment());
-    }
 }

@@ -34,16 +34,4 @@ class StringFromTraitTest extends AbstractTestCase {
         $obj->setFrom("from");
         $this->assertEquals("from", $obj->getFrom());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringFromTrait();
-
-        $this->assertNull($obj->getFrom());
-    }
 }

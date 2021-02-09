@@ -34,16 +34,4 @@ class StringIdTraitTest extends AbstractTestCase {
         $obj->setId("id");
         $this->assertEquals("id", $obj->getId());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringIdTrait();
-
-        $this->assertNull($obj->getId());
-    }
 }

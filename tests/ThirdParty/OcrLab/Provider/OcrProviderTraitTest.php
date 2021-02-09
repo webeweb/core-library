@@ -38,16 +38,4 @@ class OcrProviderTraitTest extends AbstractTestCase {
         $obj->setOcrProvider($ocrProvider);
         $this->assertSame($ocrProvider, $obj->getOcrProvider());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct(): void {
-
-        $obj = new TestOcrProviderTrait();
-
-        $this->assertNull($obj->getOcrProvider());
-    }
 }

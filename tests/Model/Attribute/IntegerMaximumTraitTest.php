@@ -34,16 +34,4 @@ class IntegerMaximumTraitTest extends AbstractTestCase {
         $obj->setMaximum(1);
         $this->assertEquals(1, $obj->getMaximum());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerMaximumTrait();
-
-        $this->assertNull($obj->getMaximum());
-    }
 }

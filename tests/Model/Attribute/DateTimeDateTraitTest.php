@@ -40,16 +40,4 @@ class DateTimeDateTraitTest extends AbstractTestCase {
         $obj->setDate($date);
         $this->assertSame($date, $obj->getDate());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestDateTimeDateTrait();
-
-        $this->assertNull($obj->getDate());
-    }
 }

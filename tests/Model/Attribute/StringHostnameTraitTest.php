@@ -34,16 +34,4 @@ class StringHostnameTraitTest extends AbstractTestCase {
         $obj->setHostname("hostname");
         $this->assertEquals("hostname", $obj->getHostname());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringHostnameTrait();
-
-        $this->assertNull($obj->getHostname());
-    }
 }

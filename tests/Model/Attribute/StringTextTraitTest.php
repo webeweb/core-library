@@ -34,16 +34,4 @@ class StringTextTraitTest extends AbstractTestCase {
         $obj->setText("text");
         $this->assertEquals("text", $obj->getText());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringTextTrait();
-
-        $this->assertNull($obj->getText());
-    }
 }

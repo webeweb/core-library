@@ -34,16 +34,4 @@ class StringMessageTraitTest extends AbstractTestCase {
         $obj->setMessage("message");
         $this->assertEquals("message", $obj->getMessage());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringMessageTrait();
-
-        $this->assertNull($obj->getMessage());
-    }
 }

@@ -34,16 +34,4 @@ class StringDataTraitTest extends AbstractTestCase {
         $obj->setData("data");
         $this->assertEquals("data", $obj->getData());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringDataTrait();
-
-        $this->assertNull($obj->getData());
-    }
 }

@@ -34,16 +34,4 @@ class FloatValueTraitTest extends AbstractTestCase {
         $obj->setValue(1.01);
         $this->assertEquals(1.01, $obj->getValue());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatValueTrait();
-
-        $this->assertNull($obj->getValue());
-    }
 }

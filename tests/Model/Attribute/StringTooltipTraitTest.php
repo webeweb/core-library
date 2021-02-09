@@ -34,16 +34,4 @@ class StringTooltipTraitTest extends AbstractTestCase {
         $obj->setTooltip("tooltip");
         $this->assertEquals("tooltip", $obj->getTooltip());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringTooltipTrait();
-
-        $this->assertNull($obj->getTooltip());
-    }
 }

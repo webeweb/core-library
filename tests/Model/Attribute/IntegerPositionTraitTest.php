@@ -34,16 +34,4 @@ class IntegerPositionTraitTest extends AbstractTestCase {
         $obj->setPosition(1);
         $this->assertEquals(1, $obj->getPosition());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerPositionTrait();
-
-        $this->assertNull($obj->getPosition());
-    }
 }

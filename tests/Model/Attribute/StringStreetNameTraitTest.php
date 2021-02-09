@@ -34,16 +34,4 @@ class StringStreetNameTraitTest extends AbstractTestCase {
         $obj->setStreetName("streetName");
         $this->assertEquals("streetName", $obj->getStreetName());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringStreetNameTrait();
-
-        $this->assertNull($obj->getStreetName());
-    }
 }

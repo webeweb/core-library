@@ -34,16 +34,4 @@ class StringTypeTraitTest extends AbstractTestCase {
         $obj->setType("Type");
         $this->assertEquals("Type", $obj->getType());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringTypeTrait();
-
-        $this->assertNull($obj->getType());
-    }
 }

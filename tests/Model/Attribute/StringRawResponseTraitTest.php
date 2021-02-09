@@ -34,16 +34,4 @@ class StringRawResponseTraitTest extends AbstractTestCase {
         $obj->setRawResponse("rawResponse");
         $this->assertEquals("rawResponse", $obj->getRawResponse());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringRawResponseTrait();
-
-        $this->assertNull($obj->getRawResponse());
-    }
 }

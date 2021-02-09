@@ -34,16 +34,4 @@ class StringDirectoryTraitTest extends AbstractTestCase {
         $obj->setDirectory("directory");
         $this->assertEquals("directory", $obj->getDirectory());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringDirectoryTrait();
-
-        $this->assertNull($obj->getDirectory());
-    }
 }

@@ -34,16 +34,4 @@ class FloatVatTotalTraitTest extends AbstractTestCase {
         $obj->setVatTotal(1.01);
         $this->assertEquals(1.01, $obj->getVatTotal());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatVatTotalTrait();
-
-        $this->assertNull($obj->getVatTotal());
-    }
 }

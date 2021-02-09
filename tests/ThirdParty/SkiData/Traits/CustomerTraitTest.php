@@ -180,27 +180,4 @@ class CustomerTraitTest extends AbstractTestCase {
         $obj->setTitle("title");
         $this->assertEquals("title", $obj->getTitle());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestCustomerTrait();
-
-        $this->assertNull($obj->getCustomerNumber());
-        $this->assertNull($obj->getDatetimeLastModification());
-        $this->assertNull($obj->getDeletedRecord());
-        $this->assertNull($obj->getDivision());
-        $this->assertNull($obj->getEmail());
-        $this->assertNull($obj->getFirstname());
-        $this->assertNull($obj->getGroupCounting());
-        $this->assertNull($obj->getRemarks());
-        $this->assertNull($obj->getRemarks2());
-        $this->assertNull($obj->getRemarks3());
-        $this->assertNull($obj->getSurname());
-        $this->assertNull($obj->getTitle());
-    }
 }

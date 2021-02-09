@@ -40,16 +40,4 @@ class DateTimeBirthDateTraitTest extends AbstractTestCase {
         $obj->setBirthDate($birthDate);
         $this->assertSame($birthDate, $obj->getBirthDate());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestDateTimeBirthDateTrait();
-
-        $this->assertNull($obj->getBirthDate());
-    }
 }

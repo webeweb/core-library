@@ -34,16 +34,4 @@ class FloatQuantityTraitTest extends AbstractTestCase {
         $obj->setQuantity(1.01);
         $this->assertEquals(1.01, $obj->getQuantity());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatQuantityTrait();
-
-        $this->assertNull($obj->getQuantity());
-    }
 }

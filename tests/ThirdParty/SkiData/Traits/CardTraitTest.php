@@ -50,17 +50,4 @@ class CardTraitTest extends AbstractTestCase {
         $obj->setBlockedDate(new DateTime("2018-08-30"));
         $this->assertEquals("2018-08-30", $obj->getBlockedDate()->format("2018-08-30"));
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestCardTrait();
-
-        $this->assertNull($obj->getBlocked());
-        $this->assertNull($obj->getBlockedDate());
-    }
 }

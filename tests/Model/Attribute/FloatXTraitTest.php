@@ -35,16 +35,4 @@ class FloatXTraitTest extends AbstractTestCase {
         $this->assertEquals(1.01, $obj->getX());
         $this->assertEquals(1, $obj->getXInt());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatXTrait();
-
-        $this->assertNull($obj->getX());
-    }
 }

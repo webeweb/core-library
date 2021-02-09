@@ -34,16 +34,4 @@ class FloatDiscountRateTraitTest extends AbstractTestCase {
         $obj->setDiscountRate(1.01);
         $this->assertEquals(1.01, $obj->getDiscountRate());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatDiscountRateTrait();
-
-        $this->assertNull($obj->getDiscountRate());
-    }
 }

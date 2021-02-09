@@ -34,16 +34,4 @@ class BooleanDebugTraitTest extends AbstractTestCase {
         $obj->setDebug(true);
         $this->assertTrue($obj->getDebug());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestBooleanDebugTrait();
-
-        $this->assertNull($obj->getDebug());
-    }
 }

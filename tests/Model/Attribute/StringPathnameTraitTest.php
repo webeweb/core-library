@@ -34,16 +34,4 @@ class StringPathnameTraitTest extends AbstractTestCase {
         $obj->setPathname("pathname");
         $this->assertEquals("pathname", $obj->getPathname());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringPathnameTrait();
-
-        $this->assertNull($obj->getPathname());
-    }
 }

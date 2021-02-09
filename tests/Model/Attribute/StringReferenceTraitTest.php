@@ -34,16 +34,4 @@ class StringReferenceTraitTest extends AbstractTestCase {
         $obj->setReference("reference");
         $this->assertEquals("reference", $obj->getReference());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringReferenceTrait();
-
-        $this->assertNull($obj->getReference());
-    }
 }

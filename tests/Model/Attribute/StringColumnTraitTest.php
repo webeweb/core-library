@@ -34,16 +34,4 @@ class StringColumnTraitTest extends AbstractTestCase {
         $obj->setColumn("column");
         $this->assertEquals("column", $obj->getColumn());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringColumnTrait();
-
-        $this->assertNull($obj->getColumn());
-    }
 }

@@ -75,16 +75,4 @@ class IntegerPortTraitTest extends AbstractTestCase {
             $this->assertEquals("The port must be between 1 and 65536", $ex->getMessage());
         }
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerPortTrait();
-
-        $this->assertNull($obj->getPort());
-    }
 }

@@ -34,16 +34,4 @@ class IntegerPageTraitTest extends AbstractTestCase {
         $obj->setPage(1);
         $this->assertEquals(1, $obj->getPage());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestIntegerPageTrait();
-
-        $this->assertNull($obj->getPage());
-    }
 }

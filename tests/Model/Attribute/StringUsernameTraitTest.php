@@ -34,16 +34,4 @@ class StringUsernameTraitTest extends AbstractTestCase {
         $obj->setUsername("username");
         $this->assertEquals("username", $obj->getUsername());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringUsernameTrait();
-
-        $this->assertNull($obj->getUsername());
-    }
 }

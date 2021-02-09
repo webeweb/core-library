@@ -40,18 +40,4 @@ class ArrayWordsTraitTest extends AbstractTestCase {
         $this->assertEquals(1, $obj->getNumberWords());
         $this->assertTrue($obj->hasWords());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__construct(): void {
-
-        $obj = new TestArrayWordsTrait();
-
-        $this->assertEquals([], $obj->getWords());
-        $this->assertEquals(0, $obj->getNumberWords());
-        $this->assertFalse($obj->hasWords());
-    }
 }

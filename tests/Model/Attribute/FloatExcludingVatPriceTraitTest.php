@@ -34,16 +34,4 @@ class FloatExcludingVatPriceTraitTest extends AbstractTestCase {
         $obj->setExcludingVatPrice(1.01);
         $this->assertEquals(1.01, $obj->getExcludingVatPrice());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatExcludingVatPriceTrait();
-
-        $this->assertNull($obj->getExcludingVatPrice());
-    }
 }

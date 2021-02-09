@@ -34,16 +34,4 @@ class StringSchemaTraitTest extends AbstractTestCase {
         $obj->setSchema("schema");
         $this->assertEquals("schema", $obj->getSchema());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringSchemaTrait();
-
-        $this->assertNull($obj->getSchema());
-    }
 }

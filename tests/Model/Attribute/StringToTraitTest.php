@@ -34,16 +34,4 @@ class StringToTraitTest extends AbstractTestCase {
         $obj->setTo("to");
         $this->assertEquals("to", $obj->getTo());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringToTrait();
-
-        $this->assertNull($obj->getTo());
-    }
 }

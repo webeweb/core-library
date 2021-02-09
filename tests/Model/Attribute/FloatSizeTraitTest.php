@@ -34,16 +34,4 @@ class FloatSizeTraitTest extends AbstractTestCase {
         $obj->setSize(1.01);
         $this->assertEquals(1.01, $obj->getSize());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestFloatSizeTrait();
-
-        $this->assertNull($obj->getSize());
-    }
 }

@@ -34,16 +34,4 @@ class StringNumberTraitTest extends AbstractTestCase {
         $obj->setNumber("number");
         $this->assertEquals("number", $obj->getNumber());
     }
-
-    /**
-     * Tests the __construct() method.
-     *
-     * @return void
-     */
-    public function test__constructor(): void {
-
-        $obj = new TestStringNumberTrait();
-
-        $this->assertNull($obj->getNumber());
-    }
 }
