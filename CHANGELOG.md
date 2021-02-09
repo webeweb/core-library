@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [6.9.5](https://github.com/webeweb/core-library/tree/v6.9.5) (2020-02-09)
+
+- Improve unit tests
+
 ### [6.9.4](https://github.com/webeweb/core-library/tree/v6.9.4) (2020-02-08)
 
 - Fix Alphabetical tree node inheritance
