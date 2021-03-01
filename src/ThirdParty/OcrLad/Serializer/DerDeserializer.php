@@ -73,7 +73,7 @@ class DerDeserializer {
      */
     protected static function deserializePage(string $rawData): ?Page {
 
-        $data = explode(static::DER_DELIMITER, $rawData);
+        $data = explode(self::DER_DELIMITER, $rawData);
         if (6 !== count($data)) {
             return null;
         }
@@ -96,7 +96,7 @@ class DerDeserializer {
      */
     protected static function deserializeWord(string $rawData): ?Word {
 
-        $data = explode(static::DER_DELIMITER, $rawData);
+        $data = explode(self::DER_DELIMITER, $rawData);
         if (7 !== count($data)) {
             return null;
         }
@@ -143,7 +143,7 @@ class DerDeserializer {
      */
     protected static function processHeaders(string $rawData): array {
 
-        $data = explode(static::DER_DELIMITER, $rawData);
+        $data = explode(self::DER_DELIMITER, $rawData);
         if (6 === count($data)) {
             return [$rawData];
         }
@@ -156,7 +156,7 @@ class DerDeserializer {
             $buffer[] = $current;
             if (6 === count($buffer)) {
 
-                $rows[] = implode(static::DER_DELIMITER, $buffer);
+                $rows[] = implode(self::DER_DELIMITER, $buffer);
                 $buffer = [];
             }
         }

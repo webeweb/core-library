@@ -41,7 +41,7 @@ class RequestSerializer {
 
         ArrayHelper::set($result, "IdentificationKey", $request->getIdentificationKey(), [null]);
         if (null !== $request->getBuyDateMax()) {
-            $result["BuyDateMax"] = $request->getBuyDateMax()->format(static::REQUEST_DATE_FORMAT);
+            $result["BuyDateMax"] = $request->getBuyDateMax()->format(self::REQUEST_DATE_FORMAT);
         }
         ArrayHelper::set($result, "AnalyticCode", $request->getAnalyticCode(), [null]);
 

@@ -65,11 +65,11 @@ class Image implements ImageInterface {
     public function getOrientation(): ?string {
 
         if ($this->getHeight() < $this->getWidth()) {
-            return static::ORIENTATION_HORIZONTAL;
+            return self::ORIENTATION_HORIZONTAL;
         }
 
         if ($this->getWidth() < $this->getHeight()) {
-            return static::ORIENTATION_VERTICAL;
+            return self::ORIENTATION_VERTICAL;
         }
 
         return null;
