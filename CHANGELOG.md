@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Add CSV serializable interface
+- Add XML serializable interface
+
 ### [6.9.6](https://github.com/webeweb/core-library/tree/v6.9.6) (2020-03-01)
 
 - Improve Code quality
