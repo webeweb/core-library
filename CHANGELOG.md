@@ -1,10 +1,11 @@
 CHANGELOG
 =========
 
-### master
+### [6.10.0](https://github.com/webeweb/core-library/tree/v6.10.0) (2020-04-08)
 
 - Add CSV serializable interface
 - Add XML serializable interface
+- Add string Class trait
 
 ### [6.9.6](https://github.com/webeweb/core-library/tree/v6.9.6) (2020-03-01)
 
