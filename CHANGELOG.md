@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add string Token trait
+
 ### [6.10.0](https://github.com/webeweb/core-library/tree/v6.10.0) (2020-04-08)
 
 - Add CSV serializable interface
