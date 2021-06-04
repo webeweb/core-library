@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Model\Attribute;
 
 /**
- * String Token trait.
+ * String token trait.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Core\Model\Attribute
