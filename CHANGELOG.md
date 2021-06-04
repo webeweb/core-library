@@ -3,6 +3,7 @@ CHANGELOG
 
 ### master
 
+- Add Rate limit trait
 - Add string Token trait
 
 ### [6.10.0](https://github.com/webeweb/core-library/tree/v6.10.0) (2020-04-08)
