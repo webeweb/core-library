@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Model;
 
-use WBW\Library\Core\Model\Attribute\DateTimeCreatedAtTrait;
-use WBW\Library\Core\Model\Attribute\DateTimeUpdatedAtTrait;
+use WBW\Library\Traits\DateTimes\DateTimeCreatedAtTrait;
+use WBW\Library\Traits\DateTimes\DateTimeUpdatedAtTrait;
 
 /**
  * Timestampable trait.

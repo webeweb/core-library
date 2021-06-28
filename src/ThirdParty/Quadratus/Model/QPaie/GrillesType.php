@@ -169,6 +169,13 @@ class GrillesType {
     private $modulation;
 
     /**
+     * Nb heures dans jour.
+     *
+     * @var float|null
+     */
+    private $nbHeuresDansJour;
+
+    /**
      * Nb hjf1.
      *
      * @var float|null
@@ -218,13 +225,6 @@ class GrillesType {
     private $nbHjf7;
 
     /**
-     * Nb heures dans jour.
-     *
-     * @var float|null
-     */
-    private $nbHeuresDansJour;
-
-    /**
      * Numero grille type.
      *
      * @var int|null
@@ -245,7 +245,6 @@ class GrillesType {
      */
     private $tauxReposComp;
 
-
     /**
      * Constructor.
      */
@@ -258,7 +257,7 @@ class GrillesType {
      *
      * @return string|null Returns the code lib h nuit.
      */
-    public function getCodeLibHNuit(): ?string{
+    public function getCodeLibHNuit(): ?string {
         return $this->codeLibHNuit;
     }
 
@@ -267,7 +266,7 @@ class GrillesType {
      *
      * @return float|null Returns the contingent h sup rc.
      */
-    public function getContingentHSupRc(): ?float{
+    public function getContingentHSupRc(): ?float {
         return $this->contingentHSupRc;
     }
 
@@ -276,7 +275,7 @@ class GrillesType {
      *
      * @return float|null Returns the contingent h sup rcit.
      */
-    public function getContingentHSupRcit(): ?float{
+    public function getContingentHSupRcit(): ?float {
         return $this->contingentHSupRcit;
     }
 
@@ -285,7 +284,7 @@ class GrillesType {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -294,7 +293,7 @@ class GrillesType {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -303,7 +302,7 @@ class GrillesType {
      *
      * @return float|null Returns the duree hebdo.
      */
-    public function getDureeHebdo(): ?float{
+    public function getDureeHebdo(): ?float {
         return $this->dureeHebdo;
     }
 
@@ -312,7 +311,7 @@ class GrillesType {
      *
      * @return float|null Returns the duree max hebdo.
      */
-    public function getDureeMaxHebdo(): ?float{
+    public function getDureeMaxHebdo(): ?float {
         return $this->dureeMaxHebdo;
     }
 
@@ -321,7 +320,7 @@ class GrillesType {
      *
      * @return float|null Returns the duree max hebdo modul.
      */
-    public function getDureeMaxHebdoModul(): ?float{
+    public function getDureeMaxHebdoModul(): ?float {
         return $this->dureeMaxHebdoModul;
     }
 
@@ -330,7 +329,7 @@ class GrillesType {
      *
      * @return float|null Returns the duree max mens.
      */
-    public function getDureeMaxMens(): ?float{
+    public function getDureeMaxMens(): ?float {
         return $this->dureeMaxMens;
     }
 
@@ -339,7 +338,7 @@ class GrillesType {
      *
      * @return float|null Returns the duree moy hebdo1.
      */
-    public function getDureeMoyHebdo1(): ?float{
+    public function getDureeMoyHebdo1(): ?float {
         return $this->dureeMoyHebdo1;
     }
 
@@ -348,7 +347,7 @@ class GrillesType {
      *
      * @return float|null Returns the duree moy hebdo2.
      */
-    public function getDureeMoyHebdo2(): ?float{
+    public function getDureeMoyHebdo2(): ?float {
         return $this->dureeMoyHebdo2;
     }
 
@@ -357,7 +356,7 @@ class GrillesType {
      *
      * @return int|null Returns the duree moy periode1.
      */
-    public function getDureeMoyPeriode1(): ?int{
+    public function getDureeMoyPeriode1(): ?int {
         return $this->dureeMoyPeriode1;
     }
 
@@ -366,7 +365,7 @@ class GrillesType {
      *
      * @return int|null Returns the duree moy periode2.
      */
-    public function getDureeMoyPeriode2(): ?int{
+    public function getDureeMoyPeriode2(): ?int {
         return $this->dureeMoyPeriode2;
     }
 
@@ -375,7 +374,7 @@ class GrillesType {
      *
      * @return bool|null Returns the gestion h nuit.
      */
-    public function getGestionHNuit(): ?bool{
+    public function getGestionHNuit(): ?bool {
         return $this->gestionHNuit;
     }
 
@@ -384,7 +383,7 @@ class GrillesType {
      *
      * @return bool|null Returns the gestion jfnt.
      */
-    public function getGestionJfnt(): ?bool{
+    public function getGestionJfnt(): ?bool {
         return $this->gestionJfnt;
     }
 
@@ -393,7 +392,7 @@ class GrillesType {
      *
      * @return bool|null Returns the gestion plages horaires.
      */
-    public function getGestionPlagesHoraires(): ?bool{
+    public function getGestionPlagesHoraires(): ?bool {
         return $this->gestionPlagesHoraires;
     }
 
@@ -402,7 +401,7 @@ class GrillesType {
      *
      * @return string|null Returns the h nuit deb.
      */
-    public function getHNuitDeb(): ?string{
+    public function getHNuitDeb(): ?string {
         return $this->hNuitDeb;
     }
 
@@ -411,7 +410,7 @@ class GrillesType {
      *
      * @return string|null Returns the h nuit fin.
      */
-    public function getHNuitFin(): ?string{
+    public function getHNuitFin(): ?string {
         return $this->hNuitFin;
     }
 
@@ -420,7 +419,7 @@ class GrillesType {
      *
      * @return float|null Returns the h nuit tx majo.
      */
-    public function getHNuitTxMajo(): ?float{
+    public function getHNuitTxMajo(): ?float {
         return $this->hNuitTxMajo;
     }
 
@@ -429,7 +428,7 @@ class GrillesType {
      *
      * @return string|null Returns the hebdo mens.
      */
-    public function getHebdoMens(): ?string{
+    public function getHebdoMens(): ?string {
         return $this->hebdoMens;
     }
 
@@ -438,8 +437,17 @@ class GrillesType {
      *
      * @return bool|null Returns the modulation.
      */
-    public function getModulation(): ?bool{
+    public function getModulation(): ?bool {
         return $this->modulation;
+    }
+
+    /**
+     * Get the nb heures dans jour.
+     *
+     * @return float|null Returns the nb heures dans jour.
+     */
+    public function getNbHeuresDansJour(): ?float {
+        return $this->nbHeuresDansJour;
     }
 
     /**
@@ -447,7 +455,7 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf1.
      */
-    public function getNbHjf1(): ?float{
+    public function getNbHjf1(): ?float {
         return $this->nbHjf1;
     }
 
@@ -456,7 +464,7 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf2.
      */
-    public function getNbHjf2(): ?float{
+    public function getNbHjf2(): ?float {
         return $this->nbHjf2;
     }
 
@@ -465,7 +473,7 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf3.
      */
-    public function getNbHjf3(): ?float{
+    public function getNbHjf3(): ?float {
         return $this->nbHjf3;
     }
 
@@ -474,7 +482,7 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf4.
      */
-    public function getNbHjf4(): ?float{
+    public function getNbHjf4(): ?float {
         return $this->nbHjf4;
     }
 
@@ -483,7 +491,7 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf5.
      */
-    public function getNbHjf5(): ?float{
+    public function getNbHjf5(): ?float {
         return $this->nbHjf5;
     }
 
@@ -492,7 +500,7 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf6.
      */
-    public function getNbHjf6(): ?float{
+    public function getNbHjf6(): ?float {
         return $this->nbHjf6;
     }
 
@@ -501,17 +509,8 @@ class GrillesType {
      *
      * @return float|null Returns the nb hjf7.
      */
-    public function getNbHjf7(): ?float{
+    public function getNbHjf7(): ?float {
         return $this->nbHjf7;
-    }
-
-    /**
-     * Get the nb heures dans jour.
-     *
-     * @return float|null Returns the nb heures dans jour.
-     */
-    public function getNbHeuresDansJour(): ?float{
-        return $this->nbHeuresDansJour;
     }
 
     /**
@@ -519,7 +518,7 @@ class GrillesType {
      *
      * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType(): ?int{
+    public function getNumeroGrilleType(): ?int {
         return $this->numeroGrilleType;
     }
 
@@ -528,7 +527,7 @@ class GrillesType {
      *
      * @return bool|null Returns the repos recup.
      */
-    public function getReposRecup(): ?bool{
+    public function getReposRecup(): ?bool {
         return $this->reposRecup;
     }
 
@@ -537,7 +536,7 @@ class GrillesType {
      *
      * @return float|null Returns the taux repos comp.
      */
-    public function getTauxReposComp(): ?float{
+    public function getTauxReposComp(): ?float {
         return $this->tauxReposComp;
     }
 
@@ -773,6 +772,17 @@ class GrillesType {
     }
 
     /**
+     * Set the nb heures dans jour.
+     *
+     * @param float|null $nbHeuresDansJour The nb heures dans jour.
+     * @return GrillesType Returns this Grilles type.
+     */
+    public function setNbHeuresDansJour(?float $nbHeuresDansJour): GrillesType {
+        $this->nbHeuresDansJour = $nbHeuresDansJour;
+        return $this;
+    }
+
+    /**
      * Set the nb hjf1.
      *
      * @param float|null $nbHjf1 The nb hjf1.
@@ -846,17 +856,6 @@ class GrillesType {
      */
     public function setNbHjf7(?float $nbHjf7): GrillesType {
         $this->nbHjf7 = $nbHjf7;
-        return $this;
-    }
-
-    /**
-     * Set the nb heures dans jour.
-     *
-     * @param float|null $nbHeuresDansJour The nb heures dans jour.
-     * @return GrillesType Returns this Grilles type.
-     */
-    public function setNbHeuresDansJour(?float $nbHeuresDansJour): GrillesType {
-        $this->nbHeuresDansJour = $nbHeuresDansJour;
         return $this;
     }
 

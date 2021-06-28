@@ -33,7 +33,6 @@ class EtebacLibAuto {
      */
     private $codeLibAuto;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class EtebacLibAuto {
      *
      * @return string|null Returns the code etebac.
      */
-    public function getCodeEtebac(): ?string{
+    public function getCodeEtebac(): ?string {
         return $this->codeEtebac;
     }
 
@@ -55,7 +54,7 @@ class EtebacLibAuto {
      *
      * @return string|null Returns the code lib auto.
      */
-    public function getCodeLibAuto(): ?string{
+    public function getCodeLibAuto(): ?string {
         return $this->codeLibAuto;
     }
 

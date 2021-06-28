@@ -42,7 +42,6 @@ class QuadraDb {
      */
     private $version;
 
-
     /**
      * Constructor.
      */
@@ -55,7 +54,7 @@ class QuadraDb {
      *
      * @return DateTime|null Returns the date envoi message.
      */
-    public function getDateEnvoiMessage(): ?DateTime{
+    public function getDateEnvoiMessage(): ?DateTime {
         return $this->dateEnvoiMessage;
     }
 
@@ -64,7 +63,7 @@ class QuadraDb {
      *
      * @return float|null Returns the taille base.
      */
-    public function getTailleBase(): ?float{
+    public function getTailleBase(): ?float {
         return $this->tailleBase;
     }
 
@@ -73,7 +72,7 @@ class QuadraDb {
      *
      * @return int|null Returns the version.
      */
-    public function getVersion(): ?int{
+    public function getVersion(): ?int {
         return $this->version;
     }
 

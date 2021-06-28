@@ -13,15 +13,15 @@ namespace WBW\Library\Core\ThirdParty\OcrLad\Provider;
 
 use Closure;
 use Psr\Log\LoggerInterface;
-use WBW\Library\Core\Model\Attribute\StringHostnameTrait;
-use WBW\Library\Core\Model\Attribute\StringPasswordTrait;
-use WBW\Library\Core\Model\Attribute\StringUsernameTrait;
 use WBW\Library\Core\Network\FTP\Client\FtpClient;
 use WBW\Library\Core\Network\FTP\Exception\FtpException;
 use WBW\Library\Core\Provider\AbstractProvider;
 use WBW\Library\Core\Security\Authenticator;
 use WBW\Library\Core\Security\PasswordAuthentication;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\IOFile;
+use WBW\Library\Traits\Strings\StringHostnameTrait;
+use WBW\Library\Traits\Strings\StringPasswordTrait;
+use WBW\Library\Traits\Strings\StringUsernameTrait;
 
 /**
  * OCR provider.

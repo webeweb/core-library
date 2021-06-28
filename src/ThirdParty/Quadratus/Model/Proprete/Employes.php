@@ -406,7 +406,6 @@ class Employes {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -419,7 +418,7 @@ class Employes {
      *
      * @return bool|null Returns the a transferer en p.
      */
-    public function getATransfererEnP(): ?bool{
+    public function getATransfererEnP(): ?bool {
         return $this->aTransfererEnP;
     }
 
@@ -428,7 +427,7 @@ class Employes {
      *
      * @return bool|null Returns the administratif.
      */
-    public function getAdministratif(): ?bool{
+    public function getAdministratif(): ?bool {
         return $this->administratif;
     }
 
@@ -437,7 +436,7 @@ class Employes {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -446,7 +445,7 @@ class Employes {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -455,7 +454,7 @@ class Employes {
      *
      * @return bool|null Returns the chef equipe.
      */
-    public function getChefEquipe(): ?bool{
+    public function getChefEquipe(): ?bool {
         return $this->chefEquipe;
     }
 
@@ -464,7 +463,7 @@ class Employes {
      *
      * @return string|null Returns the cle deux.
      */
-    public function getCleDeux(): ?string{
+    public function getCleDeux(): ?string {
         return $this->cleDeux;
     }
 
@@ -473,7 +472,7 @@ class Employes {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -482,7 +481,7 @@ class Employes {
      *
      * @return string|null Returns the code pays naissance.
      */
-    public function getCodePaysNaissance(): ?string{
+    public function getCodePaysNaissance(): ?string {
         return $this->codePaysNaissance;
     }
 
@@ -491,7 +490,7 @@ class Employes {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -500,7 +499,7 @@ class Employes {
      *
      * @return bool|null Returns the commercial.
      */
-    public function getCommercial(): ?bool{
+    public function getCommercial(): ?bool {
         return $this->commercial;
     }
 
@@ -509,7 +508,7 @@ class Employes {
      *
      * @return string|null Returns the commune naissance.
      */
-    public function getCommuneNaissance(): ?string{
+    public function getCommuneNaissance(): ?string {
         return $this->communeNaissance;
     }
 
@@ -518,7 +517,7 @@ class Employes {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -527,7 +526,7 @@ class Employes {
      *
      * @return bool|null Returns the controleur.
      */
-    public function getControleur(): ?bool{
+    public function getControleur(): ?bool {
         return $this->controleur;
     }
 
@@ -536,7 +535,7 @@ class Employes {
      *
      * @return DateTime|null Returns the date ancien.
      */
-    public function getDateAncien(): ?DateTime{
+    public function getDateAncien(): ?DateTime {
         return $this->dateAncien;
     }
 
@@ -545,7 +544,7 @@ class Employes {
      *
      * @return DateTime|null Returns the date entree1.
      */
-    public function getDateEntree1(): ?DateTime{
+    public function getDateEntree1(): ?DateTime {
         return $this->dateEntree1;
     }
 
@@ -554,7 +553,7 @@ class Employes {
      *
      * @return DateTime|null Returns the date entree2.
      */
-    public function getDateEntree2(): ?DateTime{
+    public function getDateEntree2(): ?DateTime {
         return $this->dateEntree2;
     }
 
@@ -563,7 +562,7 @@ class Employes {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance(): ?DateTime{
+    public function getDateNaissance(): ?DateTime {
         return $this->dateNaissance;
     }
 
@@ -572,7 +571,7 @@ class Employes {
      *
      * @return DateTime|null Returns the date sortie1.
      */
-    public function getDateSortie1(): ?DateTime{
+    public function getDateSortie1(): ?DateTime {
         return $this->dateSortie1;
     }
 
@@ -581,7 +580,7 @@ class Employes {
      *
      * @return DateTime|null Returns the date sortie2.
      */
-    public function getDateSortie2(): ?DateTime{
+    public function getDateSortie2(): ?DateTime {
         return $this->dateSortie2;
     }
 
@@ -590,7 +589,7 @@ class Employes {
      *
      * @return string|null Returns the dept naissance.
      */
-    public function getDeptNaissance(): ?string{
+    public function getDeptNaissance(): ?string {
         return $this->deptNaissance;
     }
 
@@ -599,7 +598,7 @@ class Employes {
      *
      * @return int|null Returns the dern num prime.
      */
-    public function getDernNumPrime(): ?int{
+    public function getDernNumPrime(): ?int {
         return $this->dernNumPrime;
     }
 
@@ -608,7 +607,7 @@ class Employes {
      *
      * @return bool|null Returns the dim type2.
      */
-    public function getDimType2(): ?bool{
+    public function getDimType2(): ?bool {
         return $this->dimType2;
     }
 
@@ -617,7 +616,7 @@ class Employes {
      *
      * @return bool|null Returns the fictif.
      */
-    public function getFictif(): ?bool{
+    public function getFictif(): ?bool {
         return $this->fictif;
     }
 
@@ -626,7 +625,7 @@ class Employes {
      *
      * @return string|null Returns the gestion maj dim.
      */
-    public function getGestionMajDim(): ?string{
+    public function getGestionMajDim(): ?string {
         return $this->gestionMajDim;
     }
 
@@ -635,7 +634,7 @@ class Employes {
      *
      * @return string|null Returns the gestion maj jf.
      */
-    public function getGestionMajJf(): ?string{
+    public function getGestionMajJf(): ?string {
         return $this->gestionMajJf;
     }
 
@@ -644,7 +643,7 @@ class Employes {
      *
      * @return string|null Returns the gestion maj nuit.
      */
-    public function getGestionMajNuit(): ?string{
+    public function getGestionMajNuit(): ?string {
         return $this->gestionMajNuit;
     }
 
@@ -653,7 +652,7 @@ class Employes {
      *
      * @return bool|null Returns the h nuit type2.
      */
-    public function getHNuitType2(): ?bool{
+    public function getHNuitType2(): ?bool {
         return $this->hNuitType2;
     }
 
@@ -662,7 +661,7 @@ class Employes {
      *
      * @return bool|null Returns the handicape.
      */
-    public function getHandicape(): ?bool{
+    public function getHandicape(): ?bool {
         return $this->handicape;
     }
 
@@ -671,7 +670,7 @@ class Employes {
      *
      * @return bool|null Returns the hotellerie.
      */
-    public function getHotellerie(): ?bool{
+    public function getHotellerie(): ?bool {
         return $this->hotellerie;
     }
 
@@ -680,7 +679,7 @@ class Employes {
      *
      * @return bool|null Returns the inspecteur.
      */
-    public function getInspecteur(): ?bool{
+    public function getInspecteur(): ?bool {
         return $this->inspecteur;
     }
 
@@ -689,7 +688,7 @@ class Employes {
      *
      * @return bool|null Returns the livreur.
      */
-    public function getLivreur(): ?bool{
+    public function getLivreur(): ?bool {
         return $this->livreur;
     }
 
@@ -698,7 +697,7 @@ class Employes {
      *
      * @return string|null Returns the mensualisation tache.
      */
-    public function getMensualisationTache(): ?string{
+    public function getMensualisationTache(): ?string {
         return $this->mensualisationTache;
     }
 
@@ -707,7 +706,7 @@ class Employes {
      *
      * @return string|null Returns the nationalite.
      */
-    public function getNationalite(): ?string{
+    public function getNationalite(): ?string {
         return $this->nationalite;
     }
 
@@ -716,7 +715,7 @@ class Employes {
      *
      * @return float|null Returns the nb heure mois.
      */
-    public function getNbHeureMois(): ?float{
+    public function getNbHeureMois(): ?float {
         return $this->nbHeureMois;
     }
 
@@ -725,7 +724,7 @@ class Employes {
      *
      * @return string|null Returns the nom marital.
      */
-    public function getNomMarital(): ?string{
+    public function getNomMarital(): ?string {
         return $this->nomMarital;
     }
 
@@ -734,7 +733,7 @@ class Employes {
      *
      * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance(): ?string{
+    public function getNomNaissance(): ?string {
         return $this->nomNaissance;
     }
 
@@ -743,7 +742,7 @@ class Employes {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -752,7 +751,7 @@ class Employes {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -761,7 +760,7 @@ class Employes {
      *
      * @return string|null Returns the nombre enfants.
      */
-    public function getNombreEnfants(): ?string{
+    public function getNombreEnfants(): ?string {
         return $this->nombreEnfants;
     }
 
@@ -770,7 +769,7 @@ class Employes {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -779,7 +778,7 @@ class Employes {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -788,7 +787,7 @@ class Employes {
      *
      * @return string|null Returns the numero insee.
      */
-    public function getNumeroInsee(): ?string{
+    public function getNumeroInsee(): ?string {
         return $this->numeroInsee;
     }
 
@@ -797,7 +796,7 @@ class Employes {
      *
      * @return int|null Returns the numero pj pass.
      */
-    public function getNumeroPjPass(): ?int{
+    public function getNumeroPjPass(): ?int {
         return $this->numeroPjPass;
     }
 
@@ -806,7 +805,7 @@ class Employes {
      *
      * @return DateTime|null Returns the periode pointage cloturee.
      */
-    public function getPeriodePointageCloturee(): ?DateTime{
+    public function getPeriodePointageCloturee(): ?DateTime {
         return $this->periodePointageCloturee;
     }
 
@@ -815,7 +814,7 @@ class Employes {
      *
      * @return bool|null Returns the polyvalent.
      */
-    public function getPolyvalent(): ?bool{
+    public function getPolyvalent(): ?bool {
         return $this->polyvalent;
     }
 
@@ -824,7 +823,7 @@ class Employes {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -833,7 +832,7 @@ class Employes {
      *
      * @return bool|null Returns the prime.
      */
-    public function getPrime(): ?bool{
+    public function getPrime(): ?bool {
         return $this->prime;
     }
 
@@ -842,7 +841,7 @@ class Employes {
      *
      * @return string|null Returns the qualification.
      */
-    public function getQualification(): ?string{
+    public function getQualification(): ?string {
         return $this->qualification;
     }
 
@@ -851,7 +850,7 @@ class Employes {
      *
      * @return string|null Returns the situation fam.
      */
-    public function getSituationFam(): ?string{
+    public function getSituationFam(): ?string {
         return $this->situationFam;
     }
 
@@ -860,7 +859,7 @@ class Employes {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -869,7 +868,7 @@ class Employes {
      *
      * @return string|null Returns the tel2.
      */
-    public function getTel2(): ?string{
+    public function getTel2(): ?string {
         return $this->tel2;
     }
 
@@ -878,7 +877,7 @@ class Employes {
      *
      * @return bool|null Returns the temps passe.
      */
-    public function getTempsPasse(): ?bool{
+    public function getTempsPasse(): ?bool {
         return $this->tempsPasse;
     }
 
@@ -887,7 +886,7 @@ class Employes {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -896,7 +895,7 @@ class Employes {
      *
      * @return bool|null Returns the travaille jf.
      */
-    public function getTravailleJf(): ?bool{
+    public function getTravailleJf(): ?bool {
         return $this->travailleJf;
     }
 
@@ -905,7 +904,7 @@ class Employes {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

@@ -40,7 +40,6 @@ class LignesGrillesAnc {
      */
     private $valeur;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class LignesGrillesAnc {
      *
      * @return string|null Returns the code grille.
      */
-    public function getCodeGrille(): ?string{
+    public function getCodeGrille(): ?string {
         return $this->codeGrille;
     }
 
@@ -62,7 +61,7 @@ class LignesGrillesAnc {
      *
      * @return int|null Returns the nb mois ecoules.
      */
-    public function getNbMoisEcoules(): ?int{
+    public function getNbMoisEcoules(): ?int {
         return $this->nbMoisEcoules;
     }
 
@@ -71,7 +70,7 @@ class LignesGrillesAnc {
      *
      * @return float|null Returns the valeur.
      */
-    public function getValeur(): ?float{
+    public function getValeur(): ?float {
         return $this->valeur;
     }
 

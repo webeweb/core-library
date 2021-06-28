@@ -70,7 +70,6 @@ class TauxAt {
      */
     private $taux;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class TauxAt {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe(): ?DateTime{
+    public function getAPartirDe(): ?DateTime {
         return $this->aPartirDe;
     }
 
@@ -92,7 +91,7 @@ class TauxAt {
      *
      * @return string|null Returns the bureau.
      */
-    public function getBureau(): ?string{
+    public function getBureau(): ?string {
         return $this->bureau;
     }
 
@@ -101,7 +100,7 @@ class TauxAt {
      *
      * @return int|null Returns the code at.
      */
-    public function getCodeAt(): ?int{
+    public function getCodeAt(): ?int {
         return $this->codeAt;
     }
 
@@ -110,7 +109,7 @@ class TauxAt {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -119,7 +118,7 @@ class TauxAt {
      *
      * @return string|null Returns the risque.
      */
-    public function getRisque(): ?string{
+    public function getRisque(): ?string {
         return $this->risque;
     }
 
@@ -128,7 +127,7 @@ class TauxAt {
      *
      * @return string|null Returns the section.
      */
-    public function getSection(): ?string{
+    public function getSection(): ?string {
         return $this->section;
     }
 
@@ -137,7 +136,7 @@ class TauxAt {
      *
      * @return float|null Returns the taux.
      */
-    public function getTaux(): ?float{
+    public function getTaux(): ?float {
         return $this->taux;
     }
 

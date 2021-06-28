@@ -273,7 +273,6 @@ class DevisCommercialLignes {
      */
     private $ventilMarge;
 
-
     /**
      * Constructor.
      */
@@ -286,7 +285,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -295,7 +294,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code affaire ligne.
      */
-    public function getCodeAffaireLigne(): ?string{
+    public function getCodeAffaireLigne(): ?string {
         return $this->codeAffaireLigne;
     }
 
@@ -304,7 +303,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code anal article.
      */
-    public function getCodeAnalArticle(): ?string{
+    public function getCodeAnalArticle(): ?string {
         return $this->codeAnalArticle;
     }
 
@@ -313,7 +312,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -322,7 +321,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -331,7 +330,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code chantier ligne.
      */
-    public function getCodeChantierLigne(): ?string{
+    public function getCodeChantierLigne(): ?string {
         return $this->codeChantierLigne;
     }
 
@@ -340,7 +339,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -349,7 +348,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -358,7 +357,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code tva article.
      */
-    public function getCodeTvaArticle(): ?string{
+    public function getCodeTvaArticle(): ?string {
         return $this->codeTvaArticle;
     }
 
@@ -367,7 +366,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code unite.
      */
-    public function getCodeUnite(): ?string{
+    public function getCodeUnite(): ?string {
         return $this->codeUnite;
     }
 
@@ -376,7 +375,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the code ventil article.
      */
-    public function getCodeVentilArticle(): ?string{
+    public function getCodeVentilArticle(): ?string {
         return $this->codeVentilArticle;
     }
 
@@ -385,7 +384,7 @@ class DevisCommercialLignes {
      *
      * @return bool|null Returns the depuis deb fac.
      */
-    public function getDepuisDebFac(): ?bool{
+    public function getDepuisDebFac(): ?bool {
         return $this->depuisDebFac;
     }
 
@@ -394,7 +393,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -403,7 +402,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -412,7 +411,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -421,7 +420,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation bis.
      */
-    public function getDesignationBis(): ?string{
+    public function getDesignationBis(): ?string {
         return $this->designationBis;
     }
 
@@ -430,7 +429,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation bis2.
      */
-    public function getDesignationBis2(): ?string{
+    public function getDesignationBis2(): ?string {
         return $this->designationBis2;
     }
 
@@ -439,7 +438,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation bis3.
      */
-    public function getDesignationBis3(): ?string{
+    public function getDesignationBis3(): ?string {
         return $this->designationBis3;
     }
 
@@ -448,7 +447,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the designation rtf.
      */
-    public function getDesignationRtf(): ?string{
+    public function getDesignationRtf(): ?string {
         return $this->designationRtf;
     }
 
@@ -457,7 +456,7 @@ class DevisCommercialLignes {
      *
      * @return bool|null Returns the imprimer dans pied.
      */
-    public function getImprimerDansPied(): ?bool{
+    public function getImprimerDansPied(): ?bool {
         return $this->imprimerDansPied;
     }
 
@@ -466,7 +465,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the montant unitaire taxe.
      */
-    public function getMontantUnitaireTaxe(): ?float{
+    public function getMontantUnitaireTaxe(): ?float {
         return $this->montantUnitaireTaxe;
     }
 
@@ -475,7 +474,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the mot cle dans pied.
      */
-    public function getMotCleDansPied(): ?string{
+    public function getMotCleDansPied(): ?string {
         return $this->motCleDansPied;
     }
 
@@ -484,7 +483,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis(): ?string{
+    public function getNumeroDevis(): ?string {
         return $this->numeroDevis;
     }
 
@@ -493,7 +492,7 @@ class DevisCommercialLignes {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -502,7 +501,7 @@ class DevisCommercialLignes {
      *
      * @return DateTime|null Returns the periode ventil marge.
      */
-    public function getPeriodeVentilMarge(): ?DateTime{
+    public function getPeriodeVentilMarge(): ?DateTime {
         return $this->periodeVentilMarge;
     }
 
@@ -511,7 +510,7 @@ class DevisCommercialLignes {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -520,7 +519,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the prix achat.
      */
-    public function getPrixAchat(): ?float{
+    public function getPrixAchat(): ?float {
         return $this->prixAchat;
     }
 
@@ -529,7 +528,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the prix unitaire.
      */
-    public function getPrixUnitaire(): ?float{
+    public function getPrixUnitaire(): ?float {
         return $this->prixUnitaire;
     }
 
@@ -538,7 +537,7 @@ class DevisCommercialLignes {
      *
      * @return bool|null Returns the px devis.
      */
-    public function getPxDevis(): ?bool{
+    public function getPxDevis(): ?bool {
         return $this->pxDevis;
     }
 
@@ -547,7 +546,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -556,7 +555,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -565,7 +564,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -574,7 +573,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -583,7 +582,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the taux tva article.
      */
-    public function getTauxTvaArticle(): ?float{
+    public function getTauxTvaArticle(): ?float {
         return $this->tauxTvaArticle;
     }
 
@@ -592,7 +591,7 @@ class DevisCommercialLignes {
      *
      * @return float|null Returns the taux tva taxe.
      */
-    public function getTauxTvaTaxe(): ?float{
+    public function getTauxTvaTaxe(): ?float {
         return $this->tauxTvaTaxe;
     }
 
@@ -601,7 +600,7 @@ class DevisCommercialLignes {
      *
      * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge(): ?bool{
+    public function getVentilMarge(): ?bool {
         return $this->ventilMarge;
     }
 

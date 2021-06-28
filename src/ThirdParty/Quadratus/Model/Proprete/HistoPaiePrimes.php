@@ -77,7 +77,6 @@ class HistoPaiePrimes {
      */
     private $typePrime;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class HistoPaiePrimes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -99,7 +98,7 @@ class HistoPaiePrimes {
      *
      * @return string|null Returns the code prime.
      */
-    public function getCodePrime(): ?string{
+    public function getCodePrime(): ?string {
         return $this->codePrime;
     }
 
@@ -108,7 +107,7 @@ class HistoPaiePrimes {
      *
      * @return float|null Returns the nombre prime.
      */
-    public function getNombrePrime(): ?float{
+    public function getNombrePrime(): ?float {
         return $this->nombrePrime;
     }
 
@@ -117,7 +116,7 @@ class HistoPaiePrimes {
      *
      * @return int|null Returns the numero prime.
      */
-    public function getNumeroPrime(): ?int{
+    public function getNumeroPrime(): ?int {
         return $this->numeroPrime;
     }
 
@@ -126,7 +125,7 @@ class HistoPaiePrimes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -135,7 +134,7 @@ class HistoPaiePrimes {
      *
      * @return DateTime|null Returns the periode rappel.
      */
-    public function getPeriodeRappel(): ?DateTime{
+    public function getPeriodeRappel(): ?DateTime {
         return $this->periodeRappel;
     }
 
@@ -144,7 +143,7 @@ class HistoPaiePrimes {
      *
      * @return float|null Returns the taux prime.
      */
-    public function getTauxPrime(): ?float{
+    public function getTauxPrime(): ?float {
         return $this->tauxPrime;
     }
 
@@ -153,7 +152,7 @@ class HistoPaiePrimes {
      *
      * @return string|null Returns the type prime.
      */
-    public function getTypePrime(): ?string{
+    public function getTypePrime(): ?string {
         return $this->typePrime;
     }
 

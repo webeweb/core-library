@@ -168,7 +168,6 @@ class LettresMissionsLignes {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -181,7 +180,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -190,7 +189,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -199,7 +198,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the code mission.
      */
-    public function getCodeMission(): ?string{
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -208,7 +207,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -217,7 +216,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the code travail.
      */
-    public function getCodeTravail(): ?string{
+    public function getCodeTravail(): ?string {
         return $this->codeTravail;
     }
 
@@ -226,7 +225,7 @@ class LettresMissionsLignes {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -235,7 +234,7 @@ class LettresMissionsLignes {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -244,7 +243,7 @@ class LettresMissionsLignes {
      *
      * @return bool|null Returns the declaration a rediger.
      */
-    public function getDeclarationARediger(): ?bool{
+    public function getDeclarationARediger(): ?bool {
         return $this->declarationARediger;
     }
 
@@ -253,7 +252,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the frequence.
      */
-    public function getFrequence(): ?string{
+    public function getFrequence(): ?string {
         return $this->frequence;
     }
 
@@ -262,7 +261,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -271,7 +270,7 @@ class LettresMissionsLignes {
      *
      * @return float|null Returns the nbr heures.
      */
-    public function getNbrHeures(): ?float{
+    public function getNbrHeures(): ?float {
         return $this->nbrHeures;
     }
 
@@ -280,7 +279,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the nbr operations.
      */
-    public function getNbrOperations(): ?string{
+    public function getNbrOperations(): ?string {
         return $this->nbrOperations;
     }
 
@@ -289,7 +288,7 @@ class LettresMissionsLignes {
      *
      * @return int|null Returns the niveau.
      */
-    public function getNiveau(): ?int{
+    public function getNiveau(): ?int {
         return $this->niveau;
     }
 
@@ -298,7 +297,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the niveau ligne.
      */
-    public function getNiveauLigne(): ?string{
+    public function getNiveauLigne(): ?string {
         return $this->niveauLigne;
     }
 
@@ -307,7 +306,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the numero lettre.
      */
-    public function getNumeroLettre(): ?string{
+    public function getNumeroLettre(): ?string {
         return $this->numeroLettre;
     }
 
@@ -316,7 +315,7 @@ class LettresMissionsLignes {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -325,7 +324,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the observations.
      */
-    public function getObservations(): ?string{
+    public function getObservations(): ?string {
         return $this->observations;
     }
 
@@ -334,7 +333,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the police.
      */
-    public function getPolice(): ?string{
+    public function getPolice(): ?string {
         return $this->police;
     }
 
@@ -343,7 +342,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the realise par.
      */
-    public function getRealisePar(): ?string{
+    public function getRealisePar(): ?string {
         return $this->realisePar;
     }
 
@@ -352,7 +351,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the type affectation.
      */
-    public function getTypeAffectation(): ?string{
+    public function getTypeAffectation(): ?string {
         return $this->typeAffectation;
     }
 
@@ -361,7 +360,7 @@ class LettresMissionsLignes {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

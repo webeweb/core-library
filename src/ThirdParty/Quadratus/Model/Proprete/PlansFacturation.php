@@ -315,7 +315,6 @@ class PlansFacturation {
      */
     private $ventilMarge;
 
-
     /**
      * Constructor.
      */
@@ -328,7 +327,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the aou.
      */
-    public function getAou(): ?bool{
+    public function getAou(): ?bool {
         return $this->aou;
     }
 
@@ -337,7 +336,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the avr.
      */
-    public function getAvr(): ?bool{
+    public function getAvr(): ?bool {
         return $this->avr;
     }
 
@@ -346,7 +345,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -355,7 +354,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -364,7 +363,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -373,7 +372,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -382,7 +381,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -391,7 +390,7 @@ class PlansFacturation {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -400,7 +399,7 @@ class PlansFacturation {
      *
      * @return DateTime|null Returns the date fin validite.
      */
-    public function getDateFinValidite(): ?DateTime{
+    public function getDateFinValidite(): ?DateTime {
         return $this->dateFinValidite;
     }
 
@@ -409,7 +408,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the dec.
      */
-    public function getDec(): ?bool{
+    public function getDec(): ?bool {
         return $this->dec;
     }
 
@@ -418,7 +417,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -427,7 +426,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -436,7 +435,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -445,7 +444,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation bis.
      */
-    public function getDesignationBis(): ?string{
+    public function getDesignationBis(): ?string {
         return $this->designationBis;
     }
 
@@ -454,7 +453,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation bis2.
      */
-    public function getDesignationBis2(): ?string{
+    public function getDesignationBis2(): ?string {
         return $this->designationBis2;
     }
 
@@ -463,7 +462,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation bis3.
      */
-    public function getDesignationBis3(): ?string{
+    public function getDesignationBis3(): ?string {
         return $this->designationBis3;
     }
 
@@ -472,7 +471,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the designation rtf.
      */
-    public function getDesignationRtf(): ?string{
+    public function getDesignationRtf(): ?string {
         return $this->designationRtf;
     }
 
@@ -481,7 +480,7 @@ class PlansFacturation {
      *
      * @return float|null Returns the duree.
      */
-    public function getDuree(): ?float{
+    public function getDuree(): ?float {
         return $this->duree;
     }
 
@@ -490,7 +489,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the fev.
      */
-    public function getFev(): ?bool{
+    public function getFev(): ?bool {
         return $this->fev;
     }
 
@@ -499,7 +498,7 @@ class PlansFacturation {
      *
      * @return DateTime|null Returns the fin periode tarif.
      */
-    public function getFinPeriodeTarif(): ?DateTime{
+    public function getFinPeriodeTarif(): ?DateTime {
         return $this->finPeriodeTarif;
     }
 
@@ -508,7 +507,7 @@ class PlansFacturation {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -517,7 +516,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the jan.
      */
-    public function getJan(): ?bool{
+    public function getJan(): ?bool {
         return $this->jan;
     }
 
@@ -526,7 +525,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the jui.
      */
-    public function getJui(): ?bool{
+    public function getJui(): ?bool {
         return $this->jui;
     }
 
@@ -535,7 +534,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the juin.
      */
-    public function getJuin(): ?bool{
+    public function getJuin(): ?bool {
         return $this->juin;
     }
 
@@ -544,7 +543,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the mai.
      */
-    public function getMai(): ?bool{
+    public function getMai(): ?bool {
         return $this->mai;
     }
 
@@ -553,7 +552,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the mar.
      */
-    public function getMar(): ?bool{
+    public function getMar(): ?bool {
         return $this->mar;
     }
 
@@ -562,7 +561,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the nov.
      */
-    public function getNov(): ?bool{
+    public function getNov(): ?bool {
         return $this->nov;
     }
 
@@ -571,7 +570,7 @@ class PlansFacturation {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -580,7 +579,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis(): ?string{
+    public function getNumeroDevis(): ?string {
         return $this->numeroDevis;
     }
 
@@ -589,7 +588,7 @@ class PlansFacturation {
      *
      * @return int|null Returns the numero historique.
      */
-    public function getNumeroHistorique(): ?int{
+    public function getNumeroHistorique(): ?int {
         return $this->numeroHistorique;
     }
 
@@ -598,7 +597,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the oct.
      */
-    public function getOct(): ?bool{
+    public function getOct(): ?bool {
         return $this->oct;
     }
 
@@ -607,7 +606,7 @@ class PlansFacturation {
      *
      * @return DateTime|null Returns the periode tarif.
      */
-    public function getPeriodeTarif(): ?DateTime{
+    public function getPeriodeTarif(): ?DateTime {
         return $this->periodeTarif;
     }
 
@@ -616,7 +615,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -625,7 +624,7 @@ class PlansFacturation {
      *
      * @return float|null Returns the prix achat.
      */
-    public function getPrixAchat(): ?float{
+    public function getPrixAchat(): ?float {
         return $this->prixAchat;
     }
 
@@ -634,7 +633,7 @@ class PlansFacturation {
      *
      * @return float|null Returns the prix vente.
      */
-    public function getPrixVente(): ?float{
+    public function getPrixVente(): ?float {
         return $this->prixVente;
     }
 
@@ -643,7 +642,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the px facture.
      */
-    public function getPxFacture(): ?bool{
+    public function getPxFacture(): ?bool {
         return $this->pxFacture;
     }
 
@@ -652,7 +651,7 @@ class PlansFacturation {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -661,7 +660,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the ref article.
      */
-    public function getRefArticle(): ?bool{
+    public function getRefArticle(): ?bool {
         return $this->refArticle;
     }
 
@@ -670,7 +669,7 @@ class PlansFacturation {
      *
      * @return string|null Returns the ref poste cde web ft.
      */
-    public function getRefPosteCdeWebFt(): ?string{
+    public function getRefPosteCdeWebFt(): ?string {
         return $this->refPosteCdeWebFt;
     }
 
@@ -679,7 +678,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the sep.
      */
-    public function getSep(): ?bool{
+    public function getSep(): ?bool {
         return $this->sep;
     }
 
@@ -688,7 +687,7 @@ class PlansFacturation {
      *
      * @return float|null Returns the taux.
      */
-    public function getTaux(): ?float{
+    public function getTaux(): ?float {
         return $this->taux;
     }
 
@@ -697,7 +696,7 @@ class PlansFacturation {
      *
      * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge(): ?bool{
+    public function getVentilMarge(): ?bool {
         return $this->ventilMarge;
     }
 

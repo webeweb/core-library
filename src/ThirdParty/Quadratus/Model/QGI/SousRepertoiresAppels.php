@@ -61,7 +61,6 @@ class SousRepertoiresAppels {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class SousRepertoiresAppels {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -83,7 +82,7 @@ class SousRepertoiresAppels {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -92,7 +91,7 @@ class SousRepertoiresAppels {
      *
      * @return int|null Returns the niveau ligne.
      */
-    public function getNiveauLigne(): ?int{
+    public function getNiveauLigne(): ?int {
         return $this->niveauLigne;
     }
 
@@ -101,7 +100,7 @@ class SousRepertoiresAppels {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -110,7 +109,7 @@ class SousRepertoiresAppels {
      *
      * @return string|null Returns the proprietes.
      */
-    public function getProprietes(): ?string{
+    public function getProprietes(): ?string {
         return $this->proprietes;
     }
 
@@ -119,7 +118,7 @@ class SousRepertoiresAppels {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

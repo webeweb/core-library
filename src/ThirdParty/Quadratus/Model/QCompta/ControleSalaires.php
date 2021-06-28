@@ -63,7 +63,6 @@ class ControleSalaires {
      */
     private $plafond;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class ControleSalaires {
      *
      * @return float|null Returns the brut.
      */
-    public function getBrut(): ?float{
+    public function getBrut(): ?float {
         return $this->brut;
     }
 
@@ -85,7 +84,7 @@ class ControleSalaires {
      *
      * @return float|null Returns the cotis patronales.
      */
-    public function getCotisPatronales(): ?float{
+    public function getCotisPatronales(): ?float {
         return $this->cotisPatronales;
     }
 
@@ -94,7 +93,7 @@ class ControleSalaires {
      *
      * @return float|null Returns the cotis salariales.
      */
-    public function getCotisSalariales(): ?float{
+    public function getCotisSalariales(): ?float {
         return $this->cotisSalariales;
     }
 
@@ -103,7 +102,7 @@ class ControleSalaires {
      *
      * @return float|null Returns the heures.
      */
-    public function getHeures(): ?float{
+    public function getHeures(): ?float {
         return $this->heures;
     }
 
@@ -112,7 +111,7 @@ class ControleSalaires {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -121,7 +120,7 @@ class ControleSalaires {
      *
      * @return float|null Returns the plafond.
      */
-    public function getPlafond(): ?float{
+    public function getPlafond(): ?float {
         return $this->plafond;
     }
 

@@ -84,7 +84,6 @@ class HSupTepaBul {
      */
     private $typeExo;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class HSupTepaBul {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -106,7 +105,7 @@ class HSupTepaBul {
      *
      * @return float|null Returns the mt brut exo.
      */
-    public function getMtBrutExo(): ?float{
+    public function getMtBrutExo(): ?float {
         return $this->mtBrutExo;
     }
 
@@ -115,7 +114,7 @@ class HSupTepaBul {
      *
      * @return float|null Returns the mt brut exo abat.
      */
-    public function getMtBrutExoAbat(): ?float{
+    public function getMtBrutExoAbat(): ?float {
         return $this->mtBrutExoAbat;
     }
 
@@ -124,7 +123,7 @@ class HSupTepaBul {
      *
      * @return float|null Returns the nb jh exo.
      */
-    public function getNbJhExo(): ?float{
+    public function getNbJhExo(): ?float {
         return $this->nbJhExo;
     }
 
@@ -133,7 +132,7 @@ class HSupTepaBul {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -142,7 +141,7 @@ class HSupTepaBul {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -151,7 +150,7 @@ class HSupTepaBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -160,7 +159,7 @@ class HSupTepaBul {
      *
      * @return float|null Returns the pourcent majo.
      */
-    public function getPourcentMajo(): ?float{
+    public function getPourcentMajo(): ?float {
         return $this->pourcentMajo;
     }
 
@@ -169,7 +168,7 @@ class HSupTepaBul {
      *
      * @return string|null Returns the type exo.
      */
-    public function getTypeExo(): ?string{
+    public function getTypeExo(): ?string {
         return $this->typeExo;
     }
 

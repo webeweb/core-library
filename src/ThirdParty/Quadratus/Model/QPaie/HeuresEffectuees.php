@@ -64,13 +64,6 @@ class HeuresEffectuees {
     private $nbHAbsenceCp;
 
     /**
-     * Nb hjfnt.
-     *
-     * @var float|null
-     */
-    private $nbHjfnt;
-
-    /**
      * Nb h majo.
      *
      * @var float|null
@@ -106,6 +99,13 @@ class HeuresEffectuees {
     private $nbHTravailReel;
 
     /**
+     * Nb hjfnt.
+     *
+     * @var float|null
+     */
+    private $nbHjfnt;
+
+    /**
      * Nb j repos recup pris.
      *
      * @var float|null
@@ -126,7 +126,6 @@ class HeuresEffectuees {
      */
     private $numeroEmploye;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class HeuresEffectuees {
      *
      * @return DateTime|null Returns the date jour.
      */
-    public function getDateJour(): ?DateTime{
+    public function getDateJour(): ?DateTime {
         return $this->dateJour;
     }
 
@@ -148,7 +147,7 @@ class HeuresEffectuees {
      *
      * @return string|null Returns the h deb am.
      */
-    public function getHDebAm(): ?string{
+    public function getHDebAm(): ?string {
         return $this->hDebAm;
     }
 
@@ -157,7 +156,7 @@ class HeuresEffectuees {
      *
      * @return string|null Returns the h deb pm.
      */
-    public function getHDebPm(): ?string{
+    public function getHDebPm(): ?string {
         return $this->hDebPm;
     }
 
@@ -166,7 +165,7 @@ class HeuresEffectuees {
      *
      * @return string|null Returns the h fin am.
      */
-    public function getHFinAm(): ?string{
+    public function getHFinAm(): ?string {
         return $this->hFinAm;
     }
 
@@ -175,7 +174,7 @@ class HeuresEffectuees {
      *
      * @return string|null Returns the h fin pm.
      */
-    public function getHFinPm(): ?string{
+    public function getHFinPm(): ?string {
         return $this->hFinPm;
     }
 
@@ -184,17 +183,8 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb h absence cp.
      */
-    public function getNbHAbsenceCp(): ?float{
+    public function getNbHAbsenceCp(): ?float {
         return $this->nbHAbsenceCp;
-    }
-
-    /**
-     * Get the nb hjfnt.
-     *
-     * @return float|null Returns the nb hjfnt.
-     */
-    public function getNbHjfnt(): ?float{
-        return $this->nbHjfnt;
     }
 
     /**
@@ -202,7 +192,7 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb h majo.
      */
-    public function getNbHMajo(): ?float{
+    public function getNbHMajo(): ?float {
         return $this->nbHMajo;
     }
 
@@ -211,7 +201,7 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb h nuit.
      */
-    public function getNbHNuit(): ?float{
+    public function getNbHNuit(): ?float {
         return $this->nbHNuit;
     }
 
@@ -220,7 +210,7 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb h repos comp pris.
      */
-    public function getNbHReposCompPris(): ?float{
+    public function getNbHReposCompPris(): ?float {
         return $this->nbHReposCompPris;
     }
 
@@ -229,7 +219,7 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb h repos remplace pris.
      */
-    public function getNbHReposRemplacePris(): ?float{
+    public function getNbHReposRemplacePris(): ?float {
         return $this->nbHReposRemplacePris;
     }
 
@@ -238,8 +228,17 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb h travail reel.
      */
-    public function getNbHTravailReel(): ?float{
+    public function getNbHTravailReel(): ?float {
         return $this->nbHTravailReel;
+    }
+
+    /**
+     * Get the nb hjfnt.
+     *
+     * @return float|null Returns the nb hjfnt.
+     */
+    public function getNbHjfnt(): ?float {
+        return $this->nbHjfnt;
     }
 
     /**
@@ -247,7 +246,7 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb j repos recup pris.
      */
-    public function getNbJReposRecupPris(): ?float{
+    public function getNbJReposRecupPris(): ?float {
         return $this->nbJReposRecupPris;
     }
 
@@ -256,7 +255,7 @@ class HeuresEffectuees {
      *
      * @return float|null Returns the nb jour cp pris.
      */
-    public function getNbJourCpPris(): ?float{
+    public function getNbJourCpPris(): ?float {
         return $this->nbJourCpPris;
     }
 
@@ -265,7 +264,7 @@ class HeuresEffectuees {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -336,17 +335,6 @@ class HeuresEffectuees {
     }
 
     /**
-     * Set the nb hjfnt.
-     *
-     * @param float|null $nbHjfnt The nb hjfnt.
-     * @return HeuresEffectuees Returns this Heures effectuees.
-     */
-    public function setNbHjfnt(?float $nbHjfnt): HeuresEffectuees {
-        $this->nbHjfnt = $nbHjfnt;
-        return $this;
-    }
-
-    /**
      * Set the nb h majo.
      *
      * @param float|null $nbHMajo The nb h majo.
@@ -398,6 +386,17 @@ class HeuresEffectuees {
      */
     public function setNbHTravailReel(?float $nbHTravailReel): HeuresEffectuees {
         $this->nbHTravailReel = $nbHTravailReel;
+        return $this;
+    }
+
+    /**
+     * Set the nb hjfnt.
+     *
+     * @param float|null $nbHjfnt The nb hjfnt.
+     * @return HeuresEffectuees Returns this Heures effectuees.
+     */
+    public function setNbHjfnt(?float $nbHjfnt): HeuresEffectuees {
+        $this->nbHjfnt = $nbHjfnt;
         return $this;
     }
 

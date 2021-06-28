@@ -91,7 +91,6 @@ class LignesAttestationExtras {
      */
     private $salaireBrut;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class LignesAttestationExtras {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -113,7 +112,7 @@ class LignesAttestationExtras {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -122,7 +121,7 @@ class LignesAttestationExtras {
      *
      * @return float|null Returns the montant iccp.
      */
-    public function getMontantIccp(): ?float{
+    public function getMontantIccp(): ?float {
         return $this->montantIccp;
     }
 
@@ -131,7 +130,7 @@ class LignesAttestationExtras {
      *
      * @return float|null Returns the montant ipe.
      */
-    public function getMontantIpe(): ?float{
+    public function getMontantIpe(): ?float {
         return $this->montantIpe;
     }
 
@@ -140,7 +139,7 @@ class LignesAttestationExtras {
      *
      * @return float|null Returns the montant precompte.
      */
-    public function getMontantPrecompte(): ?float{
+    public function getMontantPrecompte(): ?float {
         return $this->montantPrecompte;
     }
 
@@ -149,7 +148,7 @@ class LignesAttestationExtras {
      *
      * @return float|null Returns the nb heure trav.
      */
-    public function getNbHeureTrav(): ?float{
+    public function getNbHeureTrav(): ?float {
         return $this->nbHeureTrav;
     }
 
@@ -158,7 +157,7 @@ class LignesAttestationExtras {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -167,7 +166,7 @@ class LignesAttestationExtras {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -176,7 +175,7 @@ class LignesAttestationExtras {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -185,7 +184,7 @@ class LignesAttestationExtras {
      *
      * @return float|null Returns the salaire brut.
      */
-    public function getSalaireBrut(): ?float{
+    public function getSalaireBrut(): ?float {
         return $this->salaireBrut;
     }
 

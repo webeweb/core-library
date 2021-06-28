@@ -47,7 +47,6 @@ class DetailCharges {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class DetailCharges {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -69,7 +68,7 @@ class DetailCharges {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -78,7 +77,7 @@ class DetailCharges {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -87,7 +86,7 @@ class DetailCharges {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

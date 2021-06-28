@@ -96,7 +96,6 @@ class Prospects {
      */
     private $numVoie;
 
-
     /**
      * Constructor.
      */
@@ -109,7 +108,7 @@ class Prospects {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -118,7 +117,7 @@ class Prospects {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -127,7 +126,7 @@ class Prospects {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -136,7 +135,7 @@ class Prospects {
      *
      * @return string|null Returns the code prospect.
      */
-    public function getCodeProspect(): ?string{
+    public function getCodeProspect(): ?string {
         return $this->codeProspect;
     }
 
@@ -145,7 +144,7 @@ class Prospects {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -154,7 +153,7 @@ class Prospects {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -163,7 +162,7 @@ class Prospects {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -172,7 +171,7 @@ class Prospects {
      *
      * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2(): ?string{
+    public function getNomSuite2(): ?string {
         return $this->nomSuite2;
     }
 
@@ -181,7 +180,7 @@ class Prospects {
      *
      * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3(): ?string{
+    public function getNomSuite3(): ?string {
         return $this->nomSuite3;
     }
 
@@ -190,7 +189,7 @@ class Prospects {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -199,7 +198,7 @@ class Prospects {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 

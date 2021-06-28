@@ -75,7 +75,6 @@ class SousLignesAnalAchats {
      */
     private $numeroLigneAnal;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class SousLignesAnalAchats {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -97,7 +96,7 @@ class SousLignesAnalAchats {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -106,7 +105,7 @@ class SousLignesAnalAchats {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -115,7 +114,7 @@ class SousLignesAnalAchats {
      *
      * @return int|null Returns the indice ligne.
      */
-    public function getIndiceLigne(): ?int{
+    public function getIndiceLigne(): ?int {
         return $this->indiceLigne;
     }
 
@@ -124,7 +123,7 @@ class SousLignesAnalAchats {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -133,7 +132,7 @@ class SousLignesAnalAchats {
      *
      * @return string|null Returns the no piece.
      */
-    public function getNoPiece(): ?string{
+    public function getNoPiece(): ?string {
         return $this->noPiece;
     }
 
@@ -142,7 +141,7 @@ class SousLignesAnalAchats {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -151,7 +150,7 @@ class SousLignesAnalAchats {
      *
      * @return int|null Returns the numero ligne anal.
      */
-    public function getNumeroLigneAnal(): ?int{
+    public function getNumeroLigneAnal(): ?int {
         return $this->numeroLigneAnal;
     }
 

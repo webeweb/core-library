@@ -77,7 +77,6 @@ class LignesBulletinCompl {
      */
     private $typeRegul;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class LignesBulletinCompl {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -99,7 +98,7 @@ class LignesBulletinCompl {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -108,7 +107,7 @@ class LignesBulletinCompl {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -117,7 +116,7 @@ class LignesBulletinCompl {
      *
      * @return int|null Returns the num ligne bulletin.
      */
-    public function getNumLigneBulletin(): ?int{
+    public function getNumLigneBulletin(): ?int {
         return $this->numLigneBulletin;
     }
 
@@ -126,7 +125,7 @@ class LignesBulletinCompl {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -135,7 +134,7 @@ class LignesBulletinCompl {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -144,7 +143,7 @@ class LignesBulletinCompl {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -153,7 +152,7 @@ class LignesBulletinCompl {
      *
      * @return string|null Returns the type regul.
      */
-    public function getTypeRegul(): ?string{
+    public function getTypeRegul(): ?string {
         return $this->typeRegul;
     }
 

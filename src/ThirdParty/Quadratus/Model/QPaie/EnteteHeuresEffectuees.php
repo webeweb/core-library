@@ -49,7 +49,6 @@ class EnteteHeuresEffectuees {
      */
     private $typeSaisie;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class EnteteHeuresEffectuees {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -71,7 +70,7 @@ class EnteteHeuresEffectuees {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -80,7 +79,7 @@ class EnteteHeuresEffectuees {
      *
      * @return string|null Returns the transfere.
      */
-    public function getTransfere(): ?string{
+    public function getTransfere(): ?string {
         return $this->transfere;
     }
 
@@ -89,7 +88,7 @@ class EnteteHeuresEffectuees {
      *
      * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie(): ?string{
+    public function getTypeSaisie(): ?string {
         return $this->typeSaisie;
     }
 

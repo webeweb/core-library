@@ -236,7 +236,6 @@ class OrgaGeneriques {
      */
     private $utilise;
 
-
     /**
      * Constructor.
      */
@@ -249,7 +248,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the a declarer dsn neant.
      */
-    public function getADeclarerDsnNeant(): ?bool{
+    public function getADeclarerDsnNeant(): ?bool {
         return $this->aDeclarerDsnNeant;
     }
 
@@ -258,7 +257,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the agrement ministeriel.
      */
-    public function getAgrementMinisteriel(): ?string{
+    public function getAgrementMinisteriel(): ?string {
         return $this->agrementMinisteriel;
     }
 
@@ -267,7 +266,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the appliquer cpn220.
      */
-    public function getAppliquerCpn220(): ?bool{
+    public function getAppliquerCpn220(): ?bool {
         return $this->appliquerCpn220;
     }
 
@@ -276,7 +275,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the arrondir base.
      */
-    public function getArrondirBase(): ?string{
+    public function getArrondirBase(): ?string {
         return $this->arrondirBase;
     }
 
@@ -285,7 +284,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the arrondir cotis.
      */
-    public function getArrondirCotis(): ?string{
+    public function getArrondirCotis(): ?string {
         return $this->arrondirCotis;
     }
 
@@ -294,7 +293,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the assiette specif agff.
      */
-    public function getAssietteSpecifAgff(): ?bool{
+    public function getAssietteSpecifAgff(): ?bool {
         return $this->assietteSpecifAgff;
     }
 
@@ -303,7 +302,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -312,7 +311,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code assiette sit2.
      */
-    public function getCodeAssietteSit2(): ?string{
+    public function getCodeAssietteSit2(): ?string {
         return $this->codeAssietteSit2;
     }
 
@@ -321,7 +320,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code assiette sit2 agff.
      */
-    public function getCodeAssietteSit2Agff(): ?string{
+    public function getCodeAssietteSit2Agff(): ?string {
         return $this->codeAssietteSit2Agff;
     }
 
@@ -330,7 +329,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code assiette sitb.
      */
-    public function getCodeAssietteSitb(): ?string{
+    public function getCodeAssietteSitb(): ?string {
         return $this->codeAssietteSitb;
     }
 
@@ -339,7 +338,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code assiette sitbagff.
      */
-    public function getCodeAssietteSitbagff(): ?string{
+    public function getCodeAssietteSitbagff(): ?string {
         return $this->codeAssietteSitbagff;
     }
 
@@ -348,7 +347,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code assiette sitc.
      */
-    public function getCodeAssietteSitc(): ?string{
+    public function getCodeAssietteSitc(): ?string {
         return $this->codeAssietteSitc;
     }
 
@@ -357,7 +356,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code caisse msa.
      */
-    public function getCodeCaisseMsa(): ?string{
+    public function getCodeCaisseMsa(): ?string {
         return $this->codeCaisseMsa;
     }
 
@@ -366,7 +365,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code organisme assurance dadsu.
      */
-    public function getCodeOrganismeAssuranceDadsu(): ?string{
+    public function getCodeOrganismeAssuranceDadsu(): ?string {
         return $this->codeOrganismeAssuranceDadsu;
     }
 
@@ -375,7 +374,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the code organisme mutuelle dadsu.
      */
-    public function getCodeOrganismeMutuelleDadsu(): ?string{
+    public function getCodeOrganismeMutuelleDadsu(): ?string {
         return $this->codeOrganismeMutuelleDadsu;
     }
 
@@ -384,7 +383,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the detail arrco.
      */
-    public function getDetailArrco(): ?bool{
+    public function getDetailArrco(): ?bool {
         return $this->detailArrco;
     }
 
@@ -393,7 +392,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the groupe crc.
      */
-    public function getGroupeCrc(): ?string{
+    public function getGroupeCrc(): ?string {
         return $this->groupeCrc;
     }
 
@@ -402,7 +401,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the id institution.
      */
-    public function getIdInstitution(): ?string{
+    public function getIdInstitution(): ?string {
         return $this->idInstitution;
     }
 
@@ -411,7 +410,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the intit sous total agff agirc.
      */
-    public function getIntitSousTotalAgffAgirc(): ?string{
+    public function getIntitSousTotalAgffAgirc(): ?string {
         return $this->intitSousTotalAgffAgirc;
     }
 
@@ -420,7 +419,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the intit sous total agff arrco.
      */
-    public function getIntitSousTotalAgffArrco(): ?string{
+    public function getIntitSousTotalAgffArrco(): ?string {
         return $this->intitSousTotalAgffArrco;
     }
 
@@ -429,7 +428,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the intit sous total apec.
      */
-    public function getIntitSousTotalApec(): ?string{
+    public function getIntitSousTotalApec(): ?string {
         return $this->intitSousTotalApec;
     }
 
@@ -438,7 +437,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -447,7 +446,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the lien fic param dsn.
      */
-    public function getLienFicParamDsn(): ?string{
+    public function getLienFicParamDsn(): ?string {
         return $this->lienFicParamDsn;
     }
 
@@ -456,7 +455,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the regroupement si.
      */
-    public function getRegroupementSi(): ?bool{
+    public function getRegroupementSi(): ?bool {
         return $this->regroupementSi;
     }
 
@@ -465,7 +464,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the sous total agff.
      */
-    public function getSousTotalAgff(): ?bool{
+    public function getSousTotalAgff(): ?bool {
         return $this->sousTotalAgff;
     }
 
@@ -474,7 +473,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the sous total apec.
      */
-    public function getSousTotalApec(): ?bool{
+    public function getSousTotalApec(): ?bool {
         return $this->sousTotalApec;
     }
 
@@ -483,7 +482,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the sous total caisse.
      */
-    public function getSousTotalCaisse(): ?bool{
+    public function getSousTotalCaisse(): ?bool {
         return $this->sousTotalCaisse;
     }
 
@@ -492,7 +491,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the traitement dadsu.
      */
-    public function getTraitementDadsu(): ?bool{
+    public function getTraitementDadsu(): ?bool {
         return $this->traitementDadsu;
     }
 
@@ -501,7 +500,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the type declaration.
      */
-    public function getTypeDeclaration(): ?string{
+    public function getTypeDeclaration(): ?string {
         return $this->typeDeclaration;
     }
 
@@ -510,7 +509,7 @@ class OrgaGeneriques {
      *
      * @return string|null Returns the type organisme.
      */
-    public function getTypeOrganisme(): ?string{
+    public function getTypeOrganisme(): ?string {
         return $this->typeOrganisme;
     }
 
@@ -519,7 +518,7 @@ class OrgaGeneriques {
      *
      * @return bool|null Returns the utilise.
      */
-    public function getUtilise(): ?bool{
+    public function getUtilise(): ?bool {
         return $this->utilise;
     }
 

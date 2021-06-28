@@ -70,7 +70,6 @@ class Enfants {
      */
     private $sexe;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class Enfants {
      *
      * @return bool|null Returns the a charge.
      */
-    public function getACharge(): ?bool{
+    public function getACharge(): ?bool {
         return $this->aCharge;
     }
 
@@ -92,7 +91,7 @@ class Enfants {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance(): ?DateTime{
+    public function getDateNaissance(): ?DateTime {
         return $this->dateNaissance;
     }
 
@@ -101,7 +100,7 @@ class Enfants {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -110,7 +109,7 @@ class Enfants {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -119,7 +118,7 @@ class Enfants {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -128,7 +127,7 @@ class Enfants {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -137,7 +136,7 @@ class Enfants {
      *
      * @return string|null Returns the sexe.
      */
-    public function getSexe(): ?string{
+    public function getSexe(): ?string {
         return $this->sexe;
     }
 

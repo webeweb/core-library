@@ -140,7 +140,6 @@ class tblSaisiePaie {
      */
     private $valeur2;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -162,7 +161,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the code user.
      */
-    public function getCodeUser(): ?string{
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
@@ -171,7 +170,7 @@ class tblSaisiePaie {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded(): ?DateTime{
+    public function getDateAdded(): ?DateTime {
         return $this->dateAdded;
     }
 
@@ -180,7 +179,7 @@ class tblSaisiePaie {
      *
      * @return int|null Returns the flag.
      */
-    public function getFlag(): ?int{
+    public function getFlag(): ?int {
         return $this->flag;
     }
 
@@ -189,7 +188,7 @@ class tblSaisiePaie {
      *
      * @return int|null Returns the id.
      */
-    public function getId(): ?int{
+    public function getId(): ?int {
         return $this->id;
     }
 
@@ -198,7 +197,7 @@ class tblSaisiePaie {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -207,7 +206,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -216,7 +215,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the intitule2.
      */
-    public function getIntitule2(): ?string{
+    public function getIntitule2(): ?string {
         return $this->intitule2;
     }
 
@@ -225,7 +224,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the mois deb fixe.
      */
-    public function getMoisDebFixe(): ?string{
+    public function getMoisDebFixe(): ?string {
         return $this->moisDebFixe;
     }
 
@@ -234,7 +233,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the mois fin fixe.
      */
-    public function getMoisFinFixe(): ?string{
+    public function getMoisFinFixe(): ?string {
         return $this->moisFinFixe;
     }
 
@@ -243,7 +242,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -252,7 +251,7 @@ class tblSaisiePaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -261,7 +260,7 @@ class tblSaisiePaie {
      *
      * @return DateTime|null Returns the periode rappel.
      */
-    public function getPeriodeRappel(): ?DateTime{
+    public function getPeriodeRappel(): ?DateTime {
         return $this->periodeRappel;
     }
 
@@ -270,7 +269,7 @@ class tblSaisiePaie {
      *
      * @return int|null Returns the posit.
      */
-    public function getPosit(): ?int{
+    public function getPosit(): ?int {
         return $this->posit;
     }
 
@@ -279,7 +278,7 @@ class tblSaisiePaie {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 
@@ -288,7 +287,7 @@ class tblSaisiePaie {
      *
      * @return float|null Returns the valeur1.
      */
-    public function getValeur1(): ?float{
+    public function getValeur1(): ?float {
         return $this->valeur1;
     }
 
@@ -297,7 +296,7 @@ class tblSaisiePaie {
      *
      * @return float|null Returns the valeur2.
      */
-    public function getValeur2(): ?float{
+    public function getValeur2(): ?float {
         return $this->valeur2;
     }
 

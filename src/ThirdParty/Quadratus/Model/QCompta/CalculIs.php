@@ -61,7 +61,6 @@ class CalculIs {
      */
     private $typeLigne;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class CalculIs {
      *
      * @return string|null Returns the correspondance.
      */
-    public function getCorrespondance(): ?string{
+    public function getCorrespondance(): ?string {
         return $this->correspondance;
     }
 
@@ -83,7 +82,7 @@ class CalculIs {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -92,7 +91,7 @@ class CalculIs {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -101,7 +100,7 @@ class CalculIs {
      *
      * @return float|null Returns the montant n1.
      */
-    public function getMontantN1(): ?float{
+    public function getMontantN1(): ?float {
         return $this->montantN1;
     }
 
@@ -110,7 +109,7 @@ class CalculIs {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -119,7 +118,7 @@ class CalculIs {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 

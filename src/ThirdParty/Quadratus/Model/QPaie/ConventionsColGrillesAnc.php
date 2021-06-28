@@ -47,7 +47,6 @@ class ConventionsColGrillesAnc {
      */
     private $typeGrille;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class ConventionsColGrillesAnc {
      *
      * @return string|null Returns the code convention.
      */
-    public function getCodeConvention(): ?string{
+    public function getCodeConvention(): ?string {
         return $this->codeConvention;
     }
 
@@ -69,7 +68,7 @@ class ConventionsColGrillesAnc {
      *
      * @return string|null Returns the code grille.
      */
-    public function getCodeGrille(): ?string{
+    public function getCodeGrille(): ?string {
         return $this->codeGrille;
     }
 
@@ -78,7 +77,7 @@ class ConventionsColGrillesAnc {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -87,7 +86,7 @@ class ConventionsColGrillesAnc {
      *
      * @return int|null Returns the type grille.
      */
-    public function getTypeGrille(): ?int{
+    public function getTypeGrille(): ?int {
         return $this->typeGrille;
     }
 

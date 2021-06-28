@@ -126,7 +126,6 @@ class VmpMouvements {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class VmpMouvements {
      *
      * @return string|null Returns the code vmp.
      */
-    public function getCodeVmp(): ?string{
+    public function getCodeVmp(): ?string {
         return $this->codeVmp;
     }
 
@@ -148,7 +147,7 @@ class VmpMouvements {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -157,7 +156,7 @@ class VmpMouvements {
      *
      * @return int|null Returns the francs euros.
      */
-    public function getFrancsEuros(): ?int{
+    public function getFrancsEuros(): ?int {
         return $this->francsEuros;
     }
 
@@ -166,7 +165,7 @@ class VmpMouvements {
      *
      * @return bool|null Returns the gratuit.
      */
-    public function getGratuit(): ?bool{
+    public function getGratuit(): ?bool {
         return $this->gratuit;
     }
 
@@ -175,7 +174,7 @@ class VmpMouvements {
      *
      * @return float|null Returns the montant comm.
      */
-    public function getMontantComm(): ?float{
+    public function getMontantComm(): ?float {
         return $this->montantComm;
     }
 
@@ -184,7 +183,7 @@ class VmpMouvements {
      *
      * @return float|null Returns the montant coupon.
      */
-    public function getMontantCoupon(): ?float{
+    public function getMontantCoupon(): ?float {
         return $this->montantCoupon;
     }
 
@@ -193,7 +192,7 @@ class VmpMouvements {
      *
      * @return float|null Returns the montant frais.
      */
-    public function getMontantFrais(): ?float{
+    public function getMontantFrais(): ?float {
         return $this->montantFrais;
     }
 
@@ -202,7 +201,7 @@ class VmpMouvements {
      *
      * @return int|null Returns the no lot ecr.
      */
-    public function getNoLotEcr(): ?int{
+    public function getNoLotEcr(): ?int {
         return $this->noLotEcr;
     }
 
@@ -211,7 +210,7 @@ class VmpMouvements {
      *
      * @return string|null Returns the no lot trace.
      */
-    public function getNoLotTrace(): ?string{
+    public function getNoLotTrace(): ?string {
         return $this->noLotTrace;
     }
 
@@ -220,7 +219,7 @@ class VmpMouvements {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -229,7 +228,7 @@ class VmpMouvements {
      *
      * @return int|null Returns the num uniq ecr.
      */
-    public function getNumUniqEcr(): ?int{
+    public function getNumUniqEcr(): ?int {
         return $this->numUniqEcr;
     }
 
@@ -238,7 +237,7 @@ class VmpMouvements {
      *
      * @return float|null Returns the prix unitaire.
      */
-    public function getPrixUnitaire(): ?float{
+    public function getPrixUnitaire(): ?float {
         return $this->prixUnitaire;
     }
 
@@ -247,7 +246,7 @@ class VmpMouvements {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -256,7 +255,7 @@ class VmpMouvements {
      *
      * @return float|null Returns the solde quantite.
      */
-    public function getSoldeQuantite(): ?float{
+    public function getSoldeQuantite(): ?float {
         return $this->soldeQuantite;
     }
 
@@ -265,7 +264,7 @@ class VmpMouvements {
      *
      * @return int|null Returns the type.
      */
-    public function getType(): ?int{
+    public function getType(): ?int {
         return $this->type;
     }
 

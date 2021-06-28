@@ -40,7 +40,6 @@ class Trames {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class Trames {
      *
      * @return int|null Returns the code.
      */
-    public function getCode(): ?int{
+    public function getCode(): ?int {
         return $this->code;
     }
 
@@ -62,7 +61,7 @@ class Trames {
      *
      * @return bool|null Returns the garde montants.
      */
-    public function getGardeMontants(): ?bool{
+    public function getGardeMontants(): ?bool {
         return $this->gardeMontants;
     }
 
@@ -71,7 +70,7 @@ class Trames {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

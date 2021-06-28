@@ -47,7 +47,6 @@ class Libelles {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class Libelles {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -69,7 +68,7 @@ class Libelles {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -78,7 +77,7 @@ class Libelles {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -87,7 +86,7 @@ class Libelles {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

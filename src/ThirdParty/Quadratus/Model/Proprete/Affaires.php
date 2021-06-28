@@ -231,7 +231,6 @@ class Affaires {
      */
     private $referenceFacture2;
 
-
     /**
      * Constructor.
      */
@@ -244,7 +243,7 @@ class Affaires {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -253,7 +252,7 @@ class Affaires {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -262,7 +261,7 @@ class Affaires {
      *
      * @return float|null Returns the ca stat annuel.
      */
-    public function getCaStatAnnuel(): ?float{
+    public function getCaStatAnnuel(): ?float {
         return $this->caStatAnnuel;
     }
 
@@ -271,7 +270,7 @@ class Affaires {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -280,7 +279,7 @@ class Affaires {
      *
      * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique(): ?string{
+    public function getCodeAnalytique(): ?string {
         return $this->codeAnalytique;
     }
 
@@ -289,7 +288,7 @@ class Affaires {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -298,7 +297,7 @@ class Affaires {
      *
      * @return string|null Returns the code commercial.
      */
-    public function getCodeCommercial(): ?string{
+    public function getCodeCommercial(): ?string {
         return $this->codeCommercial;
     }
 
@@ -307,7 +306,7 @@ class Affaires {
      *
      * @return string|null Returns the code factor.
      */
-    public function getCodeFactor(): ?string{
+    public function getCodeFactor(): ?string {
         return $this->codeFactor;
     }
 
@@ -316,7 +315,7 @@ class Affaires {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -325,7 +324,7 @@ class Affaires {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -334,7 +333,7 @@ class Affaires {
      *
      * @return string|null Returns the code reg marge.
      */
-    public function getCodeRegMarge(): ?string{
+    public function getCodeRegMarge(): ?string {
         return $this->codeRegMarge;
     }
 
@@ -343,7 +342,7 @@ class Affaires {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -352,7 +351,7 @@ class Affaires {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -361,7 +360,7 @@ class Affaires {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -370,7 +369,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -379,7 +378,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date deb affaire.
      */
-    public function getDateDebAffaire(): ?DateTime{
+    public function getDateDebAffaire(): ?DateTime {
         return $this->dateDebAffaire;
     }
 
@@ -388,7 +387,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date deb affaire deb mois.
      */
-    public function getDateDebAffaireDebMois(): ?DateTime{
+    public function getDateDebAffaireDebMois(): ?DateTime {
         return $this->dateDebAffaireDebMois;
     }
 
@@ -397,7 +396,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date fin affaire.
      */
-    public function getDateFinAffaire(): ?DateTime{
+    public function getDateFinAffaire(): ?DateTime {
         return $this->dateFinAffaire;
     }
 
@@ -406,7 +405,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date fin affaire fin mois.
      */
-    public function getDateFinAffaireFinMois(): ?DateTime{
+    public function getDateFinAffaireFinMois(): ?DateTime {
         return $this->dateFinAffaireFinMois;
     }
 
@@ -415,7 +414,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -424,7 +423,7 @@ class Affaires {
      *
      * @return DateTime|null Returns the date vente.
      */
-    public function getDateVente(): ?DateTime{
+    public function getDateVente(): ?DateTime {
         return $this->dateVente;
     }
 
@@ -433,7 +432,7 @@ class Affaires {
      *
      * @return bool|null Returns the facture isolee.
      */
-    public function getFactureIsolee(): ?bool{
+    public function getFactureIsolee(): ?bool {
         return $this->factureIsolee;
     }
 
@@ -442,7 +441,7 @@ class Affaires {
      *
      * @return string|null Returns the groupe sous traite.
      */
-    public function getGroupeSousTraite(): ?string{
+    public function getGroupeSousTraite(): ?string {
         return $this->groupeSousTraite;
     }
 
@@ -451,7 +450,7 @@ class Affaires {
      *
      * @return string|null Returns the nom adresse.
      */
-    public function getNomAdresse(): ?string{
+    public function getNomAdresse(): ?string {
         return $this->nomAdresse;
     }
 
@@ -460,7 +459,7 @@ class Affaires {
      *
      * @return string|null Returns the nom affaire.
      */
-    public function getNomAffaire(): ?string{
+    public function getNomAffaire(): ?string {
         return $this->nomAffaire;
     }
 
@@ -469,7 +468,7 @@ class Affaires {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -478,7 +477,7 @@ class Affaires {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -487,7 +486,7 @@ class Affaires {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -496,7 +495,7 @@ class Affaires {
      *
      * @return string|null Returns the reference facture.
      */
-    public function getReferenceFacture(): ?string{
+    public function getReferenceFacture(): ?string {
         return $this->referenceFacture;
     }
 
@@ -505,7 +504,7 @@ class Affaires {
      *
      * @return string|null Returns the reference facture2.
      */
-    public function getReferenceFacture2(): ?string{
+    public function getReferenceFacture2(): ?string {
         return $this->referenceFacture2;
     }
 

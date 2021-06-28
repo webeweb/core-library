@@ -63,7 +63,6 @@ class Alertes {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class Alertes {
      *
      * @return bool|null Returns the cloturee.
      */
-    public function getCloturee(): ?bool{
+    public function getCloturee(): ?bool {
         return $this->cloturee;
     }
 
@@ -85,7 +84,7 @@ class Alertes {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -94,7 +93,7 @@ class Alertes {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -103,7 +102,7 @@ class Alertes {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -112,7 +111,7 @@ class Alertes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -121,7 +120,7 @@ class Alertes {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

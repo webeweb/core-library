@@ -33,7 +33,6 @@ class ValorisationHoraire {
      */
     private $qualification;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class ValorisationHoraire {
      *
      * @return float|null Returns the cout horaire.
      */
-    public function getCoutHoraire(): ?float{
+    public function getCoutHoraire(): ?float {
         return $this->coutHoraire;
     }
 
@@ -55,7 +54,7 @@ class ValorisationHoraire {
      *
      * @return string|null Returns the qualification.
      */
-    public function getQualification(): ?string{
+    public function getQualification(): ?string {
         return $this->qualification;
     }
 

@@ -22,13 +22,6 @@ use DateTime;
 class BonsTravaux {
 
     /**
-     * Ad btbtq.
-     *
-     * @var string|null
-     */
-    private $adBtbtq;
-
-    /**
      * Ad bt bureau distributeur.
      *
      * @var string|null
@@ -92,11 +85,11 @@ class BonsTravaux {
     private $adBtNumVoie;
 
     /**
-     * Ad fbtq.
+     * Ad btbtq.
      *
      * @var string|null
      */
-    private $adFbtq;
+    private $adBtbtq;
 
     /**
      * Ad f bureau distributeur.
@@ -174,6 +167,13 @@ class BonsTravaux {
      * @var string|null
      */
     private $adFNumVoie;
+
+    /**
+     * Ad fbtq.
+     *
+     * @var string|null
+     */
+    private $adFbtq;
 
     /**
      * Adresse bt saisie.
@@ -434,7 +434,6 @@ class BonsTravaux {
      */
     private $unBonParMois;
 
-
     /**
      * Constructor.
      */
@@ -443,20 +442,11 @@ class BonsTravaux {
     }
 
     /**
-     * Get the ad btbtq.
-     *
-     * @return string|null Returns the ad btbtq.
-     */
-    public function getAdBtbtq(): ?string{
-        return $this->adBtbtq;
-    }
-
-    /**
      * Get the ad bt bureau distributeur.
      *
      * @return string|null Returns the ad bt bureau distributeur.
      */
-    public function getAdBtBureauDistributeur(): ?string{
+    public function getAdBtBureauDistributeur(): ?string {
         return $this->adBtBureauDistributeur;
     }
 
@@ -465,7 +455,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt civilite.
      */
-    public function getAdBtCivilite(): ?string{
+    public function getAdBtCivilite(): ?string {
         return $this->adBtCivilite;
     }
 
@@ -474,7 +464,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt code pays.
      */
-    public function getAdBtCodePays(): ?string{
+    public function getAdBtCodePays(): ?string {
         return $this->adBtCodePays;
     }
 
@@ -483,7 +473,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt code postal.
      */
-    public function getAdBtCodePostal(): ?string{
+    public function getAdBtCodePostal(): ?string {
         return $this->adBtCodePostal;
     }
 
@@ -492,7 +482,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt complement.
      */
-    public function getAdBtComplement(): ?string{
+    public function getAdBtComplement(): ?string {
         return $this->adBtComplement;
     }
 
@@ -501,7 +491,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt nom.
      */
-    public function getAdBtNom(): ?string{
+    public function getAdBtNom(): ?string {
         return $this->adBtNom;
     }
 
@@ -510,7 +500,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt nom suite.
      */
-    public function getAdBtNomSuite(): ?string{
+    public function getAdBtNomSuite(): ?string {
         return $this->adBtNomSuite;
     }
 
@@ -519,7 +509,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt nom voie.
      */
-    public function getAdBtNomVoie(): ?string{
+    public function getAdBtNomVoie(): ?string {
         return $this->adBtNomVoie;
     }
 
@@ -528,17 +518,17 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad bt num voie.
      */
-    public function getAdBtNumVoie(): ?string{
+    public function getAdBtNumVoie(): ?string {
         return $this->adBtNumVoie;
     }
 
     /**
-     * Get the ad fbtq.
+     * Get the ad btbtq.
      *
-     * @return string|null Returns the ad fbtq.
+     * @return string|null Returns the ad btbtq.
      */
-    public function getAdFbtq(): ?string{
-        return $this->adFbtq;
+    public function getAdBtbtq(): ?string {
+        return $this->adBtbtq;
     }
 
     /**
@@ -546,7 +536,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f bureau distributeur.
      */
-    public function getAdFBureauDistributeur(): ?string{
+    public function getAdFBureauDistributeur(): ?string {
         return $this->adFBureauDistributeur;
     }
 
@@ -555,7 +545,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f civilite.
      */
-    public function getAdFCivilite(): ?string{
+    public function getAdFCivilite(): ?string {
         return $this->adFCivilite;
     }
 
@@ -564,7 +554,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f code pays.
      */
-    public function getAdFCodePays(): ?string{
+    public function getAdFCodePays(): ?string {
         return $this->adFCodePays;
     }
 
@@ -573,7 +563,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f code postal.
      */
-    public function getAdFCodePostal(): ?string{
+    public function getAdFCodePostal(): ?string {
         return $this->adFCodePostal;
     }
 
@@ -582,7 +572,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f complement.
      */
-    public function getAdFComplement(): ?string{
+    public function getAdFComplement(): ?string {
         return $this->adFComplement;
     }
 
@@ -591,7 +581,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f nom.
      */
-    public function getAdFNom(): ?string{
+    public function getAdFNom(): ?string {
         return $this->adFNom;
     }
 
@@ -600,7 +590,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f nom suite.
      */
-    public function getAdFNomSuite(): ?string{
+    public function getAdFNomSuite(): ?string {
         return $this->adFNomSuite;
     }
 
@@ -609,7 +599,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f nom suite2.
      */
-    public function getAdFNomSuite2(): ?string{
+    public function getAdFNomSuite2(): ?string {
         return $this->adFNomSuite2;
     }
 
@@ -618,7 +608,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f nom suite3.
      */
-    public function getAdFNomSuite3(): ?string{
+    public function getAdFNomSuite3(): ?string {
         return $this->adFNomSuite3;
     }
 
@@ -627,7 +617,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f nom voie.
      */
-    public function getAdFNomVoie(): ?string{
+    public function getAdFNomVoie(): ?string {
         return $this->adFNomVoie;
     }
 
@@ -636,8 +626,17 @@ class BonsTravaux {
      *
      * @return string|null Returns the ad f num voie.
      */
-    public function getAdFNumVoie(): ?string{
+    public function getAdFNumVoie(): ?string {
         return $this->adFNumVoie;
+    }
+
+    /**
+     * Get the ad fbtq.
+     *
+     * @return string|null Returns the ad fbtq.
+     */
+    public function getAdFbtq(): ?string {
+        return $this->adFbtq;
     }
 
     /**
@@ -645,7 +644,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the adresse bt saisie.
      */
-    public function getAdresseBtSaisie(): ?bool{
+    public function getAdresseBtSaisie(): ?bool {
         return $this->adresseBtSaisie;
     }
 
@@ -654,7 +653,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the adresse facturation saisie.
      */
-    public function getAdresseFacturationSaisie(): ?bool{
+    public function getAdresseFacturationSaisie(): ?bool {
         return $this->adresseFacturationSaisie;
     }
 
@@ -663,7 +662,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -672,7 +671,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -681,7 +680,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -690,7 +689,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the code frequence.
      */
-    public function getCodeFrequence(): ?string{
+    public function getCodeFrequence(): ?string {
         return $this->codeFrequence;
     }
 
@@ -699,7 +698,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the code tache bt.
      */
-    public function getCodeTacheBt(): ?string{
+    public function getCodeTacheBt(): ?string {
         return $this->codeTacheBt;
     }
 
@@ -708,7 +707,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the code tournee.
      */
-    public function getCodeTournee(): ?string{
+    public function getCodeTournee(): ?string {
         return $this->codeTournee;
     }
 
@@ -717,7 +716,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the critere liste1.
      */
-    public function getCritereListe1(): ?string{
+    public function getCritereListe1(): ?string {
         return $this->critereListe1;
     }
 
@@ -726,7 +725,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the critere liste2.
      */
-    public function getCritereListe2(): ?string{
+    public function getCritereListe2(): ?string {
         return $this->critereListe2;
     }
 
@@ -735,7 +734,7 @@ class BonsTravaux {
      *
      * @return float|null Returns the critere numerique1.
      */
-    public function getCritereNumerique1(): ?float{
+    public function getCritereNumerique1(): ?float {
         return $this->critereNumerique1;
     }
 
@@ -744,7 +743,7 @@ class BonsTravaux {
      *
      * @return float|null Returns the critere numerique2.
      */
-    public function getCritereNumerique2(): ?float{
+    public function getCritereNumerique2(): ?float {
         return $this->critereNumerique2;
     }
 
@@ -753,7 +752,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the critere texte1.
      */
-    public function getCritereTexte1(): ?string{
+    public function getCritereTexte1(): ?string {
         return $this->critereTexte1;
     }
 
@@ -762,7 +761,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the critere texte2.
      */
-    public function getCritereTexte2(): ?string{
+    public function getCritereTexte2(): ?string {
         return $this->critereTexte2;
     }
 
@@ -771,7 +770,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date dernier passage.
      */
-    public function getDateDernierPassage(): ?DateTime{
+    public function getDateDernierPassage(): ?DateTime {
         return $this->dateDernierPassage;
     }
 
@@ -780,7 +779,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date fin validite.
      */
-    public function getDateFinValidite(): ?DateTime{
+    public function getDateFinValidite(): ?DateTime {
         return $this->dateFinValidite;
     }
 
@@ -789,7 +788,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date premier passage.
      */
-    public function getDatePremierPassage(): ?DateTime{
+    public function getDatePremierPassage(): ?DateTime {
         return $this->datePremierPassage;
     }
 
@@ -798,7 +797,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the date validite.
      */
-    public function getDateValidite(): ?DateTime{
+    public function getDateValidite(): ?DateTime {
         return $this->dateValidite;
     }
 
@@ -807,7 +806,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -816,7 +815,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the equipe.
      */
-    public function getEquipe(): ?string{
+    public function getEquipe(): ?string {
         return $this->equipe;
     }
 
@@ -825,7 +824,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the frequence.
      */
-    public function getFrequence(): ?string{
+    public function getFrequence(): ?string {
         return $this->frequence;
     }
 
@@ -834,7 +833,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the frequence suite.
      */
-    public function getFrequenceSuite(): ?string{
+    public function getFrequenceSuite(): ?string {
         return $this->frequenceSuite;
     }
 
@@ -843,7 +842,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the gestion planning.
      */
-    public function getGestionPlanning(): ?bool{
+    public function getGestionPlanning(): ?bool {
         return $this->gestionPlanning;
     }
 
@@ -852,7 +851,7 @@ class BonsTravaux {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
     }
 
@@ -861,7 +860,7 @@ class BonsTravaux {
      *
      * @return float|null Returns the latitude.
      */
-    public function getLatitude(): ?float{
+    public function getLatitude(): ?float {
         return $this->latitude;
     }
 
@@ -870,7 +869,7 @@ class BonsTravaux {
      *
      * @return float|null Returns the longitude.
      */
-    public function getLongitude(): ?float{
+    public function getLongitude(): ?float {
         return $this->longitude;
     }
 
@@ -879,7 +878,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the mention speciale.
      */
-    public function getMentionSpeciale(): ?string{
+    public function getMentionSpeciale(): ?string {
         return $this->mentionSpeciale;
     }
 
@@ -888,7 +887,7 @@ class BonsTravaux {
      *
      * @return float|null Returns the nb heures.
      */
-    public function getNbHeures(): ?float{
+    public function getNbHeures(): ?float {
         return $this->nbHeures;
     }
 
@@ -897,7 +896,7 @@ class BonsTravaux {
      *
      * @return float|null Returns the nb jours.
      */
-    public function getNbJours(): ?float{
+    public function getNbJours(): ?float {
         return $this->nbJours;
     }
 
@@ -906,7 +905,7 @@ class BonsTravaux {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -915,7 +914,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -924,7 +923,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the saisie inter jour.
      */
-    public function getSaisieInterJour(): ?bool{
+    public function getSaisieInterJour(): ?bool {
         return $this->saisieInterJour;
     }
 
@@ -933,7 +932,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the travaille dimanche.
      */
-    public function getTravailleDimanche(): ?bool{
+    public function getTravailleDimanche(): ?bool {
         return $this->travailleDimanche;
     }
 
@@ -942,7 +941,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the travaille jours feries.
      */
-    public function getTravailleJoursFeries(): ?bool{
+    public function getTravailleJoursFeries(): ?bool {
         return $this->travailleJoursFeries;
     }
 
@@ -951,7 +950,7 @@ class BonsTravaux {
      *
      * @return bool|null Returns the travaille samedi.
      */
-    public function getTravailleSamedi(): ?bool{
+    public function getTravailleSamedi(): ?bool {
         return $this->travailleSamedi;
     }
 
@@ -960,7 +959,7 @@ class BonsTravaux {
      *
      * @return string|null Returns the type frequence.
      */
-    public function getTypeFrequence(): ?string{
+    public function getTypeFrequence(): ?string {
         return $this->typeFrequence;
     }
 
@@ -969,19 +968,8 @@ class BonsTravaux {
      *
      * @return bool|null Returns the un bon par mois.
      */
-    public function getUnBonParMois(): ?bool{
+    public function getUnBonParMois(): ?bool {
         return $this->unBonParMois;
-    }
-
-    /**
-     * Set the ad btbtq.
-     *
-     * @param string|null $adBtbtq The ad btbtq.
-     * @return BonsTravaux Returns this Bons travaux.
-     */
-    public function setAdBtbtq(?string $adBtbtq): BonsTravaux {
-        $this->adBtbtq = $adBtbtq;
-        return $this;
     }
 
     /**
@@ -1084,13 +1072,13 @@ class BonsTravaux {
     }
 
     /**
-     * Set the ad fbtq.
+     * Set the ad btbtq.
      *
-     * @param string|null $adFbtq The ad fbtq.
+     * @param string|null $adBtbtq The ad btbtq.
      * @return BonsTravaux Returns this Bons travaux.
      */
-    public function setAdFbtq(?string $adFbtq): BonsTravaux {
-        $this->adFbtq = $adFbtq;
+    public function setAdBtbtq(?string $adBtbtq): BonsTravaux {
+        $this->adBtbtq = $adBtbtq;
         return $this;
     }
 
@@ -1212,6 +1200,17 @@ class BonsTravaux {
      */
     public function setAdFNumVoie(?string $adFNumVoie): BonsTravaux {
         $this->adFNumVoie = $adFNumVoie;
+        return $this;
+    }
+
+    /**
+     * Set the ad fbtq.
+     *
+     * @param string|null $adFbtq The ad fbtq.
+     * @return BonsTravaux Returns this Bons travaux.
+     */
+    public function setAdFbtq(?string $adFbtq): BonsTravaux {
+        $this->adFbtq = $adFbtq;
         return $this;
     }
 

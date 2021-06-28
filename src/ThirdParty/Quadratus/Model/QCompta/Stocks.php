@@ -140,7 +140,6 @@ class Stocks {
      */
     private $refEcrPeriodeEcriture;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class Stocks {
      *
      * @return string|null Returns the annee.
      */
-    public function getAnnee(): ?string{
+    public function getAnnee(): ?string {
         return $this->annee;
     }
 
@@ -162,7 +161,7 @@ class Stocks {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -171,7 +170,7 @@ class Stocks {
      *
      * @return string|null Returns the libelle ecriture.
      */
-    public function getLibelleEcriture(): ?string{
+    public function getLibelleEcriture(): ?string {
         return $this->libelleEcriture;
     }
 
@@ -180,7 +179,7 @@ class Stocks {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -189,7 +188,7 @@ class Stocks {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -198,7 +197,7 @@ class Stocks {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -207,7 +206,7 @@ class Stocks {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -216,7 +215,7 @@ class Stocks {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -225,7 +224,7 @@ class Stocks {
      *
      * @return float|null Returns the prix u.
      */
-    public function getPrixU(): ?float{
+    public function getPrixU(): ?float {
         return $this->prixU;
     }
 
@@ -234,7 +233,7 @@ class Stocks {
      *
      * @return float|null Returns the prix u2.
      */
-    public function getPrixU2(): ?float{
+    public function getPrixU2(): ?float {
         return $this->prixU2;
     }
 
@@ -243,7 +242,7 @@ class Stocks {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -252,7 +251,7 @@ class Stocks {
      *
      * @return float|null Returns the quantite2.
      */
-    public function getQuantite2(): ?float{
+    public function getQuantite2(): ?float {
         return $this->quantite2;
     }
 
@@ -261,7 +260,7 @@ class Stocks {
      *
      * @return string|null Returns the ref ecr code journal.
      */
-    public function getRefEcrCodeJournal(): ?string{
+    public function getRefEcrCodeJournal(): ?string {
         return $this->refEcrCodeJournal;
     }
 
@@ -270,7 +269,7 @@ class Stocks {
      *
      * @return int|null Returns the ref ecr folio.
      */
-    public function getRefEcrFolio(): ?int{
+    public function getRefEcrFolio(): ?int {
         return $this->refEcrFolio;
     }
 
@@ -279,7 +278,7 @@ class Stocks {
      *
      * @return int|null Returns the ref ecr ligne folio.
      */
-    public function getRefEcrLigneFolio(): ?int{
+    public function getRefEcrLigneFolio(): ?int {
         return $this->refEcrLigneFolio;
     }
 
@@ -288,7 +287,7 @@ class Stocks {
      *
      * @return int|null Returns the ref ecr num ligne.
      */
-    public function getRefEcrNumLigne(): ?int{
+    public function getRefEcrNumLigne(): ?int {
         return $this->refEcrNumLigne;
     }
 
@@ -297,7 +296,7 @@ class Stocks {
      *
      * @return DateTime|null Returns the ref ecr periode ecriture.
      */
-    public function getRefEcrPeriodeEcriture(): ?DateTime{
+    public function getRefEcrPeriodeEcriture(): ?DateTime {
         return $this->refEcrPeriodeEcriture;
     }
 

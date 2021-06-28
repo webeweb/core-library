@@ -56,7 +56,6 @@ class HAbsPrepaPaie {
      */
     private $typeAbsence;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class HAbsPrepaPaie {
      *
      * @return float|null Returns the nb h non effectue.
      */
-    public function getNbHNonEffectue(): ?float{
+    public function getNbHNonEffectue(): ?float {
         return $this->nbHNonEffectue;
     }
 
@@ -78,7 +77,7 @@ class HAbsPrepaPaie {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -87,7 +86,7 @@ class HAbsPrepaPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -96,7 +95,7 @@ class HAbsPrepaPaie {
      *
      * @return string|null Returns the semaine.
      */
-    public function getSemaine(): ?string{
+    public function getSemaine(): ?string {
         return $this->semaine;
     }
 
@@ -105,7 +104,7 @@ class HAbsPrepaPaie {
      *
      * @return string|null Returns the type absence.
      */
-    public function getTypeAbsence(): ?string{
+    public function getTypeAbsence(): ?string {
         return $this->typeAbsence;
     }
 

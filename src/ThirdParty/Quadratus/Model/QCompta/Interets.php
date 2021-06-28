@@ -49,7 +49,6 @@ class Interets {
      */
     private $typeCpt;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class Interets {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -71,7 +70,7 @@ class Interets {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -80,7 +79,7 @@ class Interets {
      *
      * @return float|null Returns the taux.
      */
-    public function getTaux(): ?float{
+    public function getTaux(): ?float {
         return $this->taux;
     }
 
@@ -89,7 +88,7 @@ class Interets {
      *
      * @return string|null Returns the type cpt.
      */
-    public function getTypeCpt(): ?string{
+    public function getTypeCpt(): ?string {
         return $this->typeCpt;
     }
 

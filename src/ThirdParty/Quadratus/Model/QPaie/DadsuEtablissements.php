@@ -68,7 +68,6 @@ class DadsuEtablissements {
      */
     private $taxeApprentissageCodeAssuj;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class DadsuEtablissements {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -90,7 +89,7 @@ class DadsuEtablissements {
      *
      * @return float|null Returns the forma pro base.
      */
-    public function getFormaProBase(): ?float{
+    public function getFormaProBase(): ?float {
         return $this->formaProBase;
     }
 
@@ -99,7 +98,7 @@ class DadsuEtablissements {
      *
      * @return float|null Returns the forma pro base cdd.
      */
-    public function getFormaProBaseCdd(): ?float{
+    public function getFormaProBaseCdd(): ?float {
         return $this->formaProBaseCdd;
     }
 
@@ -108,7 +107,7 @@ class DadsuEtablissements {
      *
      * @return string|null Returns the forma pro code assuj.
      */
-    public function getFormaProCodeAssuj(): ?string{
+    public function getFormaProCodeAssuj(): ?string {
         return $this->formaProCodeAssuj;
     }
 
@@ -117,7 +116,7 @@ class DadsuEtablissements {
      *
      * @return string|null Returns the prud type dadsu derogatoire.
      */
-    public function getPrudTypeDadsuDerogatoire(): ?string{
+    public function getPrudTypeDadsuDerogatoire(): ?string {
         return $this->prudTypeDadsuDerogatoire;
     }
 
@@ -126,7 +125,7 @@ class DadsuEtablissements {
      *
      * @return float|null Returns the taxe apprentissage base.
      */
-    public function getTaxeApprentissageBase(): ?float{
+    public function getTaxeApprentissageBase(): ?float {
         return $this->taxeApprentissageBase;
     }
 
@@ -135,7 +134,7 @@ class DadsuEtablissements {
      *
      * @return string|null Returns the taxe apprentissage code assuj.
      */
-    public function getTaxeApprentissageCodeAssuj(): ?string{
+    public function getTaxeApprentissageCodeAssuj(): ?string {
         return $this->taxeApprentissageCodeAssuj;
     }
 

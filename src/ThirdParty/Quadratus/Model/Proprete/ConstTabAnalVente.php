@@ -54,7 +54,6 @@ class ConstTabAnalVente {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ConstTabAnalVente {
      *
      * @return string|null Returns the code anal article.
      */
-    public function getCodeAnalArticle(): ?string{
+    public function getCodeAnalArticle(): ?string {
         return $this->codeAnalArticle;
     }
 
@@ -76,7 +75,7 @@ class ConstTabAnalVente {
      *
      * @return string|null Returns the code anal client.
      */
-    public function getCodeAnalClient(): ?string{
+    public function getCodeAnalClient(): ?string {
         return $this->codeAnalClient;
     }
 
@@ -85,7 +84,7 @@ class ConstTabAnalVente {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -94,7 +93,7 @@ class ConstTabAnalVente {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -103,7 +102,7 @@ class ConstTabAnalVente {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

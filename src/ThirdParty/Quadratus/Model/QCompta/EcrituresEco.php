@@ -133,7 +133,6 @@ class EcrituresEco {
      */
     private $quantite2;
 
-
     /**
      * Constructor.
      */
@@ -146,7 +145,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -155,7 +154,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -164,7 +163,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the code libelle auto.
      */
-    public function getCodeLibelleAuto(): ?string{
+    public function getCodeLibelleAuto(): ?string {
         return $this->codeLibelleAuto;
     }
 
@@ -173,7 +172,7 @@ class EcrituresEco {
      *
      * @return int|null Returns the folio.
      */
-    public function getFolio(): ?int{
+    public function getFolio(): ?int {
         return $this->folio;
     }
 
@@ -182,7 +181,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the jour ecriture.
      */
-    public function getJourEcriture(): ?string{
+    public function getJourEcriture(): ?string {
         return $this->jourEcriture;
     }
 
@@ -191,7 +190,7 @@ class EcrituresEco {
      *
      * @return bool|null Returns the liaison ecriture.
      */
-    public function getLiaisonEcriture(): ?bool{
+    public function getLiaisonEcriture(): ?bool {
         return $this->liaisonEcriture;
     }
 
@@ -200,7 +199,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -209,7 +208,7 @@ class EcrituresEco {
      *
      * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit(): ?float{
+    public function getMontantTenuCredit(): ?float {
         return $this->montantTenuCredit;
     }
 
@@ -218,7 +217,7 @@ class EcrituresEco {
      *
      * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit(): ?float{
+    public function getMontantTenuDebit(): ?float {
         return $this->montantTenuDebit;
     }
 
@@ -227,7 +226,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -236,7 +235,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the no lot trace.
      */
-    public function getNoLotTrace(): ?string{
+    public function getNoLotTrace(): ?string {
         return $this->noLotTrace;
     }
 
@@ -245,7 +244,7 @@ class EcrituresEco {
      *
      * @return int|null Returns the num ecr eco.
      */
-    public function getNumEcrEco(): ?int{
+    public function getNumEcrEco(): ?int {
         return $this->numEcrEco;
     }
 
@@ -254,7 +253,7 @@ class EcrituresEco {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -263,7 +262,7 @@ class EcrituresEco {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture(): ?DateTime{
+    public function getPeriodeEcriture(): ?DateTime {
         return $this->periodeEcriture;
     }
 
@@ -272,7 +271,7 @@ class EcrituresEco {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -281,7 +280,7 @@ class EcrituresEco {
      *
      * @return float|null Returns the quantite2.
      */
-    public function getQuantite2(): ?float{
+    public function getQuantite2(): ?float {
         return $this->quantite2;
     }
 

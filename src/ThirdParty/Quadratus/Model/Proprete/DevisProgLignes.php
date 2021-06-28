@@ -229,7 +229,6 @@ class DevisProgLignes {
      */
     private $vitesseTheorique;
 
-
     /**
      * Constructor.
      */
@@ -242,7 +241,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the aou.
      */
-    public function getAou(): ?bool{
+    public function getAou(): ?bool {
         return $this->aou;
     }
 
@@ -251,7 +250,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the avr.
      */
-    public function getAvr(): ?bool{
+    public function getAvr(): ?bool {
         return $this->avr;
     }
 
@@ -260,7 +259,7 @@ class DevisProgLignes {
      *
      * @return string|null Returns the code echelle.
      */
-    public function getCodeEchelle(): ?string{
+    public function getCodeEchelle(): ?string {
         return $this->codeEchelle;
     }
 
@@ -269,7 +268,7 @@ class DevisProgLignes {
      *
      * @return string|null Returns the code operation.
      */
-    public function getCodeOperation(): ?string{
+    public function getCodeOperation(): ?string {
         return $this->codeOperation;
     }
 
@@ -278,7 +277,7 @@ class DevisProgLignes {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -287,7 +286,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the dec.
      */
-    public function getDec(): ?bool{
+    public function getDec(): ?bool {
         return $this->dec;
     }
 
@@ -296,7 +295,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the dimanche.
      */
-    public function getDimanche(): ?bool{
+    public function getDimanche(): ?bool {
         return $this->dimanche;
     }
 
@@ -305,7 +304,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the fev.
      */
-    public function getFev(): ?bool{
+    public function getFev(): ?bool {
         return $this->fev;
     }
 
@@ -314,7 +313,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the jan.
      */
-    public function getJan(): ?bool{
+    public function getJan(): ?bool {
         return $this->jan;
     }
 
@@ -323,7 +322,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the jeudi.
      */
-    public function getJeudi(): ?bool{
+    public function getJeudi(): ?bool {
         return $this->jeudi;
     }
 
@@ -332,7 +331,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the juil.
      */
-    public function getJuil(): ?bool{
+    public function getJuil(): ?bool {
         return $this->juil;
     }
 
@@ -341,7 +340,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the juin.
      */
-    public function getJuin(): ?bool{
+    public function getJuin(): ?bool {
         return $this->juin;
     }
 
@@ -350,7 +349,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the lundi.
      */
-    public function getLundi(): ?bool{
+    public function getLundi(): ?bool {
         return $this->lundi;
     }
 
@@ -359,7 +358,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the mai.
      */
-    public function getMai(): ?bool{
+    public function getMai(): ?bool {
         return $this->mai;
     }
 
@@ -368,7 +367,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the mar.
      */
-    public function getMar(): ?bool{
+    public function getMar(): ?bool {
         return $this->mar;
     }
 
@@ -377,7 +376,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the mardi.
      */
-    public function getMardi(): ?bool{
+    public function getMardi(): ?bool {
         return $this->mardi;
     }
 
@@ -386,7 +385,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the mercredi.
      */
-    public function getMercredi(): ?bool{
+    public function getMercredi(): ?bool {
         return $this->mercredi;
     }
 
@@ -395,7 +394,7 @@ class DevisProgLignes {
      *
      * @return float|null Returns the note resultat.
      */
-    public function getNoteResultat(): ?float{
+    public function getNoteResultat(): ?float {
         return $this->noteResultat;
     }
 
@@ -404,7 +403,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the nov.
      */
-    public function getNov(): ?bool{
+    public function getNov(): ?bool {
         return $this->nov;
     }
 
@@ -413,7 +412,7 @@ class DevisProgLignes {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -422,7 +421,7 @@ class DevisProgLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -431,7 +430,7 @@ class DevisProgLignes {
      *
      * @return int|null Returns the num programme.
      */
-    public function getNumProgramme(): ?int{
+    public function getNumProgramme(): ?int {
         return $this->numProgramme;
     }
 
@@ -440,7 +439,7 @@ class DevisProgLignes {
      *
      * @return string|null Returns the occurrence.
      */
-    public function getOccurrence(): ?string{
+    public function getOccurrence(): ?string {
         return $this->occurrence;
     }
 
@@ -449,7 +448,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the oct.
      */
-    public function getOct(): ?bool{
+    public function getOct(): ?bool {
         return $this->oct;
     }
 
@@ -458,7 +457,7 @@ class DevisProgLignes {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -467,7 +466,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the samedi.
      */
-    public function getSamedi(): ?bool{
+    public function getSamedi(): ?bool {
         return $this->samedi;
     }
 
@@ -476,7 +475,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the sep.
      */
-    public function getSep(): ?bool{
+    public function getSep(): ?bool {
         return $this->sep;
     }
 
@@ -485,7 +484,7 @@ class DevisProgLignes {
      *
      * @return bool|null Returns the vendredi.
      */
-    public function getVendredi(): ?bool{
+    public function getVendredi(): ?bool {
         return $this->vendredi;
     }
 
@@ -494,7 +493,7 @@ class DevisProgLignes {
      *
      * @return float|null Returns the vitesse reelle.
      */
-    public function getVitesseReelle(): ?float{
+    public function getVitesseReelle(): ?float {
         return $this->vitesseReelle;
     }
 
@@ -503,7 +502,7 @@ class DevisProgLignes {
      *
      * @return float|null Returns the vitesse theorique.
      */
-    public function getVitesseTheorique(): ?float{
+    public function getVitesseTheorique(): ?float {
         return $this->vitesseTheorique;
     }
 

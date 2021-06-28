@@ -36,13 +36,6 @@ class Libelles {
     private $aConserverSetp;
 
     /**
-     * A cumuler base cp.
-     *
-     * @var bool|null
-     */
-    private $aCumulerBaseCp;
-
-    /**
      * A cumuler base caisse1.
      *
      * @var bool|null
@@ -64,18 +57,18 @@ class Libelles {
     private $aCumulerBaseCaisse3;
 
     /**
+     * A cumuler base cp.
+     *
+     * @var bool|null
+     */
+    private $aCumulerBaseCp;
+
+    /**
      * A cumuler base secu.
      *
      * @var bool|null
      */
     private $aCumulerBaseSecu;
-
-    /**
-     * Aen lien presence effective.
-     *
-     * @var bool|null
-     */
-    private $aenLienPresenceEffective;
 
     /**
      * A reintegrer setp.
@@ -90,6 +83,13 @@ class Libelles {
      * @var bool|null
      */
     private $activeVariablesEmp;
+
+    /**
+     * Aen lien presence effective.
+     *
+     * @var bool|null
+     */
+    private $aenLienPresenceEffective;
 
     /**
      * Agff.
@@ -155,18 +155,18 @@ class Libelles {
     private $code;
 
     /**
-     * Code csg taux.
-     *
-     * @var string|null
-     */
-    private $codeCsgTaux;
-
-    /**
      * Code calcul.
      *
      * @var string|null
      */
     private $codeCalcul;
+
+    /**
+     * Code csg taux.
+     *
+     * @var string|null
+     */
+    private $codeCsgTaux;
 
     /**
      * Code ducs.
@@ -974,18 +974,18 @@ class Libelles {
     private $typeFrais;
 
     /**
-     * Type he fillon.
-     *
-     * @var string|null
-     */
-    private $typeHeFillon;
-
-    /**
      * Type h sup loi tepa.
      *
      * @var string|null
      */
     private $typeHSupLoiTepa;
+
+    /**
+     * Type he fillon.
+     *
+     * @var string|null
+     */
+    private $typeHeFillon;
 
     /**
      * Type heure.
@@ -1022,7 +1022,6 @@ class Libelles {
      */
     private $typeTranche;
 
-
     /**
      * Constructor.
      */
@@ -1035,7 +1034,7 @@ class Libelles {
      *
      * @return bool|null Returns the a compter heures assedic.
      */
-    public function getACompterHeuresAssedic(): ?bool{
+    public function getACompterHeuresAssedic(): ?bool {
         return $this->aCompterHeuresAssedic;
     }
 
@@ -1044,17 +1043,8 @@ class Libelles {
      *
      * @return bool|null Returns the a conserver setp.
      */
-    public function getAConserverSetp(): ?bool{
+    public function getAConserverSetp(): ?bool {
         return $this->aConserverSetp;
-    }
-
-    /**
-     * Get the a cumuler base cp.
-     *
-     * @return bool|null Returns the a cumuler base cp.
-     */
-    public function getACumulerBaseCp(): ?bool{
-        return $this->aCumulerBaseCp;
     }
 
     /**
@@ -1062,7 +1052,7 @@ class Libelles {
      *
      * @return bool|null Returns the a cumuler base caisse1.
      */
-    public function getACumulerBaseCaisse1(): ?bool{
+    public function getACumulerBaseCaisse1(): ?bool {
         return $this->aCumulerBaseCaisse1;
     }
 
@@ -1071,7 +1061,7 @@ class Libelles {
      *
      * @return bool|null Returns the a cumuler base caisse2.
      */
-    public function getACumulerBaseCaisse2(): ?bool{
+    public function getACumulerBaseCaisse2(): ?bool {
         return $this->aCumulerBaseCaisse2;
     }
 
@@ -1080,8 +1070,17 @@ class Libelles {
      *
      * @return bool|null Returns the a cumuler base caisse3.
      */
-    public function getACumulerBaseCaisse3(): ?bool{
+    public function getACumulerBaseCaisse3(): ?bool {
         return $this->aCumulerBaseCaisse3;
+    }
+
+    /**
+     * Get the a cumuler base cp.
+     *
+     * @return bool|null Returns the a cumuler base cp.
+     */
+    public function getACumulerBaseCp(): ?bool {
+        return $this->aCumulerBaseCp;
     }
 
     /**
@@ -1089,17 +1088,8 @@ class Libelles {
      *
      * @return bool|null Returns the a cumuler base secu.
      */
-    public function getACumulerBaseSecu(): ?bool{
+    public function getACumulerBaseSecu(): ?bool {
         return $this->aCumulerBaseSecu;
-    }
-
-    /**
-     * Get the aen lien presence effective.
-     *
-     * @return bool|null Returns the aen lien presence effective.
-     */
-    public function getAenLienPresenceEffective(): ?bool{
-        return $this->aenLienPresenceEffective;
     }
 
     /**
@@ -1107,7 +1097,7 @@ class Libelles {
      *
      * @return bool|null Returns the a reintegrer setp.
      */
-    public function getAReintegrerSetp(): ?bool{
+    public function getAReintegrerSetp(): ?bool {
         return $this->aReintegrerSetp;
     }
 
@@ -1116,8 +1106,17 @@ class Libelles {
      *
      * @return bool|null Returns the active variables emp.
      */
-    public function getActiveVariablesEmp(): ?bool{
+    public function getActiveVariablesEmp(): ?bool {
         return $this->activeVariablesEmp;
+    }
+
+    /**
+     * Get the aen lien presence effective.
+     *
+     * @return bool|null Returns the aen lien presence effective.
+     */
+    public function getAenLienPresenceEffective(): ?bool {
+        return $this->aenLienPresenceEffective;
     }
 
     /**
@@ -1125,7 +1124,7 @@ class Libelles {
      *
      * @return bool|null Returns the agff.
      */
-    public function getAgff(): ?bool{
+    public function getAgff(): ?bool {
         return $this->agff;
     }
 
@@ -1134,7 +1133,7 @@ class Libelles {
      *
      * @return bool|null Returns the avantage nature prime.
      */
-    public function getAvantageNaturePrime(): ?bool{
+    public function getAvantageNaturePrime(): ?bool {
         return $this->avantageNaturePrime;
     }
 
@@ -1143,7 +1142,7 @@ class Libelles {
      *
      * @return bool|null Returns the avantage nature tds.
      */
-    public function getAvantageNatureTds(): ?bool{
+    public function getAvantageNatureTds(): ?bool {
         return $this->avantageNatureTds;
     }
 
@@ -1152,7 +1151,7 @@ class Libelles {
      *
      * @return bool|null Returns the avec retro act.
      */
-    public function getAvecRetroAct(): ?bool{
+    public function getAvecRetroAct(): ?bool {
         return $this->avecRetroAct;
     }
 
@@ -1161,7 +1160,7 @@ class Libelles {
      *
      * @return bool|null Returns the base exoneree.
      */
-    public function getBaseExoneree(): ?bool{
+    public function getBaseExoneree(): ?bool {
         return $this->baseExoneree;
     }
 
@@ -1170,7 +1169,7 @@ class Libelles {
      *
      * @return bool|null Returns the base non exoneree.
      */
-    public function getBaseNonExoneree(): ?bool{
+    public function getBaseNonExoneree(): ?bool {
         return $this->baseNonExoneree;
     }
 
@@ -1179,7 +1178,7 @@ class Libelles {
      *
      * @return string|null Returns the categ salarie.
      */
-    public function getCategSalarie(): ?string{
+    public function getCategSalarie(): ?string {
         return $this->categSalarie;
     }
 
@@ -1188,7 +1187,7 @@ class Libelles {
      *
      * @return bool|null Returns the cheque vacance.
      */
-    public function getChequeVacance(): ?bool{
+    public function getChequeVacance(): ?bool {
         return $this->chequeVacance;
     }
 
@@ -1197,17 +1196,8 @@ class Libelles {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
-    }
-
-    /**
-     * Get the code csg taux.
-     *
-     * @return string|null Returns the code csg taux.
-     */
-    public function getCodeCsgTaux(): ?string{
-        return $this->codeCsgTaux;
     }
 
     /**
@@ -1215,8 +1205,17 @@ class Libelles {
      *
      * @return string|null Returns the code calcul.
      */
-    public function getCodeCalcul(): ?string{
+    public function getCodeCalcul(): ?string {
         return $this->codeCalcul;
+    }
+
+    /**
+     * Get the code csg taux.
+     *
+     * @return string|null Returns the code csg taux.
+     */
+    public function getCodeCsgTaux(): ?string {
+        return $this->codeCsgTaux;
     }
 
     /**
@@ -1224,7 +1223,7 @@ class Libelles {
      *
      * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs(): ?string{
+    public function getCodeDucs(): ?string {
         return $this->codeDucs;
     }
 
@@ -1233,7 +1232,7 @@ class Libelles {
      *
      * @return string|null Returns the code edition histo.
      */
-    public function getCodeEditionHisto(): ?string{
+    public function getCodeEditionHisto(): ?string {
         return $this->codeEditionHisto;
     }
 
@@ -1242,7 +1241,7 @@ class Libelles {
      *
      * @return string|null Returns the code insee.
      */
-    public function getCodeInsee(): ?string{
+    public function getCodeInsee(): ?string {
         return $this->codeInsee;
     }
 
@@ -1251,7 +1250,7 @@ class Libelles {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -1260,7 +1259,7 @@ class Libelles {
      *
      * @return string|null Returns the code rds.
      */
-    public function getCodeRds(): ?string{
+    public function getCodeRds(): ?string {
         return $this->codeRds;
     }
 
@@ -1269,7 +1268,7 @@ class Libelles {
      *
      * @return string|null Returns the code type assurance.
      */
-    public function getCodeTypeAssurance(): ?string{
+    public function getCodeTypeAssurance(): ?string {
         return $this->codeTypeAssurance;
     }
 
@@ -1278,7 +1277,7 @@ class Libelles {
      *
      * @return string|null Returns the code type b plaf.
      */
-    public function getCodeTypeBPlaf(): ?string{
+    public function getCodeTypeBPlaf(): ?string {
         return $this->codeTypeBPlaf;
     }
 
@@ -1287,7 +1286,7 @@ class Libelles {
      *
      * @return string|null Returns the code type b spec prev.
      */
-    public function getCodeTypeBSpecPrev(): ?string{
+    public function getCodeTypeBSpecPrev(): ?string {
         return $this->codeTypeBSpecPrev;
     }
 
@@ -1296,7 +1295,7 @@ class Libelles {
      *
      * @return string|null Returns the code type brut.
      */
-    public function getCodeTypeBrut(): ?string{
+    public function getCodeTypeBrut(): ?string {
         return $this->codeTypeBrut;
     }
 
@@ -1305,7 +1304,7 @@ class Libelles {
      *
      * @return string|null Returns the code type prev.
      */
-    public function getCodeTypePrev(): ?string{
+    public function getCodeTypePrev(): ?string {
         return $this->codeTypePrev;
     }
 
@@ -1314,7 +1313,7 @@ class Libelles {
      *
      * @return string|null Returns the code type somme.
      */
-    public function getCodeTypeSomme(): ?string{
+    public function getCodeTypeSomme(): ?string {
         return $this->codeTypeSomme;
     }
 
@@ -1323,7 +1322,7 @@ class Libelles {
      *
      * @return string|null Returns the compte charge.
      */
-    public function getCompteCharge(): ?string{
+    public function getCompteCharge(): ?string {
         return $this->compteCharge;
     }
 
@@ -1332,7 +1331,7 @@ class Libelles {
      *
      * @return string|null Returns the condition.
      */
-    public function getCondition(): ?string{
+    public function getCondition(): ?string {
         return $this->condition;
     }
 
@@ -1341,7 +1340,7 @@ class Libelles {
      *
      * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec(): ?string{
+    public function getConditionSpec(): ?string {
         return $this->conditionSpec;
     }
 
@@ -1350,7 +1349,7 @@ class Libelles {
      *
      * @return bool|null Returns the conge paye.
      */
-    public function getCongePaye(): ?bool{
+    public function getCongePaye(): ?bool {
         return $this->congePaye;
     }
 
@@ -1359,7 +1358,7 @@ class Libelles {
      *
      * @return bool|null Returns the cotis normal dues.
      */
-    public function getCotisNormalDues(): ?bool{
+    public function getCotisNormalDues(): ?bool {
         return $this->cotisNormalDues;
     }
 
@@ -1368,7 +1367,7 @@ class Libelles {
      *
      * @return bool|null Returns the cotis normal dues accre.
      */
-    public function getCotisNormalDuesAccre(): ?bool{
+    public function getCotisNormalDuesAccre(): ?bool {
         return $this->cotisNormalDuesAccre;
     }
 
@@ -1377,7 +1376,7 @@ class Libelles {
      *
      * @return bool|null Returns the cotis normal dues zfu.
      */
-    public function getCotisNormalDuesZfu(): ?bool{
+    public function getCotisNormalDuesZfu(): ?bool {
         return $this->cotisNormalDuesZfu;
     }
 
@@ -1386,7 +1385,7 @@ class Libelles {
      *
      * @return bool|null Returns the cotis normal dues zrd.
      */
-    public function getCotisNormalDuesZrd(): ?bool{
+    public function getCotisNormalDuesZrd(): ?bool {
         return $this->cotisNormalDuesZrd;
     }
 
@@ -1395,7 +1394,7 @@ class Libelles {
      *
      * @return bool|null Returns the cotis normal dues zrrzru.
      */
-    public function getCotisNormalDuesZrrzru(): ?bool{
+    public function getCotisNormalDuesZrrzru(): ?bool {
         return $this->cotisNormalDuesZrrzru;
     }
 
@@ -1404,7 +1403,7 @@ class Libelles {
      *
      * @return bool|null Returns the cotisation csg.
      */
-    public function getCotisationCsg(): ?bool{
+    public function getCotisationCsg(): ?bool {
         return $this->cotisationCsg;
     }
 
@@ -1413,7 +1412,7 @@ class Libelles {
      *
      * @return bool|null Returns the cout global.
      */
-    public function getCoutGlobal(): ?bool{
+    public function getCoutGlobal(): ?bool {
         return $this->coutGlobal;
     }
 
@@ -1422,7 +1421,7 @@ class Libelles {
      *
      * @return DateTime|null Returns the deb per application.
      */
-    public function getDebPerApplication(): ?DateTime{
+    public function getDebPerApplication(): ?DateTime {
         return $this->debPerApplication;
     }
 
@@ -1431,7 +1430,7 @@ class Libelles {
      *
      * @return bool|null Returns the determine allegement.
      */
-    public function getDetermineAllegement(): ?bool{
+    public function getDetermineAllegement(): ?bool {
         return $this->determineAllegement;
     }
 
@@ -1440,7 +1439,7 @@ class Libelles {
      *
      * @return bool|null Returns the determine base secu.
      */
-    public function getDetermineBaseSecu(): ?bool{
+    public function getDetermineBaseSecu(): ?bool {
         return $this->determineBaseSecu;
     }
 
@@ -1449,7 +1448,7 @@ class Libelles {
      *
      * @return bool|null Returns the diminue net.
      */
-    public function getDiminueNet(): ?bool{
+    public function getDiminueNet(): ?bool {
         return $this->diminueNet;
     }
 
@@ -1458,7 +1457,7 @@ class Libelles {
      *
      * @return bool|null Returns the edition base.
      */
-    public function getEditionBase(): ?bool{
+    public function getEditionBase(): ?bool {
         return $this->editionBase;
     }
 
@@ -1467,7 +1466,7 @@ class Libelles {
      *
      * @return bool|null Returns the edition bulletin.
      */
-    public function getEditionBulletin(): ?bool{
+    public function getEditionBulletin(): ?bool {
         return $this->editionBulletin;
     }
 
@@ -1476,7 +1475,7 @@ class Libelles {
      *
      * @return bool|null Returns the edition cot patronale.
      */
-    public function getEditionCotPatronale(): ?bool{
+    public function getEditionCotPatronale(): ?bool {
         return $this->editionCotPatronale;
     }
 
@@ -1485,7 +1484,7 @@ class Libelles {
      *
      * @return bool|null Returns the edition forcee ds.
      */
-    public function getEditionForceeDs(): ?bool{
+    public function getEditionForceeDs(): ?bool {
         return $this->editionForceeDs;
     }
 
@@ -1494,7 +1493,7 @@ class Libelles {
      *
      * @return bool|null Returns the edition resultat.
      */
-    public function getEditionResultat(): ?bool{
+    public function getEditionResultat(): ?bool {
         return $this->editionResultat;
     }
 
@@ -1503,7 +1502,7 @@ class Libelles {
      *
      * @return bool|null Returns the edition taux.
      */
-    public function getEditionTaux(): ?bool{
+    public function getEditionTaux(): ?bool {
         return $this->editionTaux;
     }
 
@@ -1512,7 +1511,7 @@ class Libelles {
      *
      * @return bool|null Returns the exclure loi tepa.
      */
-    public function getExclureLoiTepa(): ?bool{
+    public function getExclureLoiTepa(): ?bool {
         return $this->exclureLoiTepa;
     }
 
@@ -1521,7 +1520,7 @@ class Libelles {
      *
      * @return bool|null Returns the exo occasionnel msa.
      */
-    public function getExoOccasionnelMsa(): ?bool{
+    public function getExoOccasionnelMsa(): ?bool {
         return $this->exoOccasionnelMsa;
     }
 
@@ -1530,7 +1529,7 @@ class Libelles {
      *
      * @return bool|null Returns the exo taux patronal.
      */
-    public function getExoTauxPatronal(): ?bool{
+    public function getExoTauxPatronal(): ?bool {
         return $this->exoTauxPatronal;
     }
 
@@ -1539,7 +1538,7 @@ class Libelles {
      *
      * @return bool|null Returns the expatriation.
      */
-    public function getExpatriation(): ?bool{
+    public function getExpatriation(): ?bool {
         return $this->expatriation;
     }
 
@@ -1548,7 +1547,7 @@ class Libelles {
      *
      * @return bool|null Returns the fillon adom.
      */
-    public function getFillonAdom(): ?bool{
+    public function getFillonAdom(): ?bool {
         return $this->fillonAdom;
     }
 
@@ -1557,7 +1556,7 @@ class Libelles {
      *
      * @return bool|null Returns the fillon sap.
      */
-    public function getFillonSap(): ?bool{
+    public function getFillonSap(): ?bool {
         return $this->fillonSap;
     }
 
@@ -1566,7 +1565,7 @@ class Libelles {
      *
      * @return DateTime|null Returns the fin per application.
      */
-    public function getFinPerApplication(): ?DateTime{
+    public function getFinPerApplication(): ?DateTime {
         return $this->finPerApplication;
     }
 
@@ -1575,7 +1574,7 @@ class Libelles {
      *
      * @return bool|null Returns the frais professionnel.
      */
-    public function getFraisProfessionnel(): ?bool{
+    public function getFraisProfessionnel(): ?bool {
         return $this->fraisProfessionnel;
     }
 
@@ -1584,7 +1583,7 @@ class Libelles {
      *
      * @return bool|null Returns the frais sante.
      */
-    public function getFraisSante(): ?bool{
+    public function getFraisSante(): ?bool {
         return $this->fraisSante;
     }
 
@@ -1593,7 +1592,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq1.
      */
-    public function getFreq1(): ?bool{
+    public function getFreq1(): ?bool {
         return $this->freq1;
     }
 
@@ -1602,7 +1601,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq10.
      */
-    public function getFreq10(): ?bool{
+    public function getFreq10(): ?bool {
         return $this->freq10;
     }
 
@@ -1611,7 +1610,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq11.
      */
-    public function getFreq11(): ?bool{
+    public function getFreq11(): ?bool {
         return $this->freq11;
     }
 
@@ -1620,7 +1619,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq12.
      */
-    public function getFreq12(): ?bool{
+    public function getFreq12(): ?bool {
         return $this->freq12;
     }
 
@@ -1629,7 +1628,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq2.
      */
-    public function getFreq2(): ?bool{
+    public function getFreq2(): ?bool {
         return $this->freq2;
     }
 
@@ -1638,7 +1637,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq3.
      */
-    public function getFreq3(): ?bool{
+    public function getFreq3(): ?bool {
         return $this->freq3;
     }
 
@@ -1647,7 +1646,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq4.
      */
-    public function getFreq4(): ?bool{
+    public function getFreq4(): ?bool {
         return $this->freq4;
     }
 
@@ -1656,7 +1655,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq5.
      */
-    public function getFreq5(): ?bool{
+    public function getFreq5(): ?bool {
         return $this->freq5;
     }
 
@@ -1665,7 +1664,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq6.
      */
-    public function getFreq6(): ?bool{
+    public function getFreq6(): ?bool {
         return $this->freq6;
     }
 
@@ -1674,7 +1673,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq7.
      */
-    public function getFreq7(): ?bool{
+    public function getFreq7(): ?bool {
         return $this->freq7;
     }
 
@@ -1683,7 +1682,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq8.
      */
-    public function getFreq8(): ?bool{
+    public function getFreq8(): ?bool {
         return $this->freq8;
     }
 
@@ -1692,7 +1691,7 @@ class Libelles {
      *
      * @return bool|null Returns the freq9.
      */
-    public function getFreq9(): ?bool{
+    public function getFreq9(): ?bool {
         return $this->freq9;
     }
 
@@ -1701,7 +1700,7 @@ class Libelles {
      *
      * @return bool|null Returns the h sup loi tepa.
      */
-    public function getHSupLoiTepa(): ?bool{
+    public function getHSupLoiTepa(): ?bool {
         return $this->hSupLoiTepa;
     }
 
@@ -1710,7 +1709,7 @@ class Libelles {
      *
      * @return bool|null Returns the h sup structurelle.
      */
-    public function getHSupStructurelle(): ?bool{
+    public function getHSupStructurelle(): ?bool {
         return $this->hSupStructurelle;
     }
 
@@ -1719,7 +1718,7 @@ class Libelles {
      *
      * @return string|null Returns the id institution.
      */
-    public function getIdInstitution(): ?string{
+    public function getIdInstitution(): ?string {
         return $this->idInstitution;
     }
 
@@ -1728,7 +1727,7 @@ class Libelles {
      *
      * @return bool|null Returns the ijss.
      */
-    public function getIjss(): ?bool{
+    public function getIjss(): ?bool {
         return $this->ijss;
     }
 
@@ -1737,7 +1736,7 @@ class Libelles {
      *
      * @return bool|null Returns the imput epargne ret.
      */
-    public function getImputEpargneRet(): ?bool{
+    public function getImputEpargneRet(): ?bool {
         return $this->imputEpargneRet;
     }
 
@@ -1746,7 +1745,7 @@ class Libelles {
      *
      * @return bool|null Returns the indemnite non imposable.
      */
-    public function getIndemniteNonImposable(): ?bool{
+    public function getIndemniteNonImposable(): ?bool {
         return $this->indemniteNonImposable;
     }
 
@@ -1755,7 +1754,7 @@ class Libelles {
      *
      * @return bool|null Returns the intervient brut al.
      */
-    public function getIntervientBrutAl(): ?bool{
+    public function getIntervientBrutAl(): ?bool {
         return $this->intervientBrutAl;
     }
 
@@ -1764,7 +1763,7 @@ class Libelles {
      *
      * @return bool|null Returns the intervient indem preca.
      */
-    public function getIntervientIndemPreca(): ?bool{
+    public function getIntervientIndemPreca(): ?bool {
         return $this->intervientIndemPreca;
     }
 
@@ -1773,7 +1772,7 @@ class Libelles {
      *
      * @return string|null Returns the intervient taux h ab cp.
      */
-    public function getIntervientTauxHAbCp(): ?string{
+    public function getIntervientTauxHAbCp(): ?string {
         return $this->intervientTauxHAbCp;
     }
 
@@ -1782,7 +1781,7 @@ class Libelles {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -1791,7 +1790,7 @@ class Libelles {
      *
      * @return string|null Returns the intitule ducs.
      */
-    public function getIntituleDucs(): ?string{
+    public function getIntituleDucs(): ?string {
         return $this->intituleDucs;
     }
 
@@ -1800,7 +1799,7 @@ class Libelles {
      *
      * @return bool|null Returns the maintien salaire.
      */
-    public function getMaintienSalaire(): ?bool{
+    public function getMaintienSalaire(): ?bool {
         return $this->maintienSalaire;
     }
 
@@ -1809,7 +1808,7 @@ class Libelles {
      *
      * @return string|null Returns the mois deb fixe.
      */
-    public function getMoisDebFixe(): ?string{
+    public function getMoisDebFixe(): ?string {
         return $this->moisDebFixe;
     }
 
@@ -1818,7 +1817,7 @@ class Libelles {
      *
      * @return bool|null Returns the mois echu.
      */
-    public function getMoisEchu(): ?bool{
+    public function getMoisEchu(): ?bool {
         return $this->moisEchu;
     }
 
@@ -1827,7 +1826,7 @@ class Libelles {
      *
      * @return string|null Returns the mois fin fixe.
      */
-    public function getMoisFinFixe(): ?string{
+    public function getMoisFinFixe(): ?string {
         return $this->moisFinFixe;
     }
 
@@ -1836,7 +1835,7 @@ class Libelles {
      *
      * @return float|null Returns the montant global.
      */
-    public function getMontantGlobal(): ?float{
+    public function getMontantGlobal(): ?float {
         return $this->montantGlobal;
     }
 
@@ -1845,7 +1844,7 @@ class Libelles {
      *
      * @return float|null Returns the montant salarial.
      */
-    public function getMontantSalarial(): ?float{
+    public function getMontantSalarial(): ?float {
         return $this->montantSalarial;
     }
 
@@ -1854,7 +1853,7 @@ class Libelles {
      *
      * @return float|null Returns the nb h contract.
      */
-    public function getNbHContract(): ?float{
+    public function getNbHContract(): ?float {
         return $this->nbHContract;
     }
 
@@ -1863,7 +1862,7 @@ class Libelles {
      *
      * @return int|null Returns the nb mois applic.
      */
-    public function getNbMoisApplic(): ?int{
+    public function getNbMoisApplic(): ?int {
         return $this->nbMoisApplic;
     }
 
@@ -1872,7 +1871,7 @@ class Libelles {
      *
      * @return bool|null Returns the neutre.
      */
-    public function getNeutre(): ?bool{
+    public function getNeutre(): ?bool {
         return $this->neutre;
     }
 
@@ -1881,7 +1880,7 @@ class Libelles {
      *
      * @return string|null Returns the num col acbs.
      */
-    public function getNumColAcbs(): ?string{
+    public function getNumColAcbs(): ?string {
         return $this->numColAcbs;
     }
 
@@ -1890,7 +1889,7 @@ class Libelles {
      *
      * @return string|null Returns the num col allege35h.
      */
-    public function getNumColAllege35h(): ?string{
+    public function getNumColAllege35h(): ?string {
         return $this->numColAllege35h;
     }
 
@@ -1899,7 +1898,7 @@ class Libelles {
      *
      * @return string|null Returns the num col charges cafe.
      */
-    public function getNumColChargesCafe(): ?string{
+    public function getNumColChargesCafe(): ?string {
         return $this->numColChargesCafe;
     }
 
@@ -1908,7 +1907,7 @@ class Libelles {
      *
      * @return int|null Returns the num cumul bulletin.
      */
-    public function getNumCumulBulletin(): ?int{
+    public function getNumCumulBulletin(): ?int {
         return $this->numCumulBulletin;
     }
 
@@ -1917,7 +1916,7 @@ class Libelles {
      *
      * @return int|null Returns the num cumul patron.
      */
-    public function getNumCumulPatron(): ?int{
+    public function getNumCumulPatron(): ?int {
         return $this->numCumulPatron;
     }
 
@@ -1926,7 +1925,7 @@ class Libelles {
      *
      * @return int|null Returns the num taux const nat.
      */
-    public function getNumTauxConstNat(): ?int{
+    public function getNumTauxConstNat(): ?int {
         return $this->numTauxConstNat;
     }
 
@@ -1935,7 +1934,7 @@ class Libelles {
      *
      * @return bool|null Returns the part patron prevoyance.
      */
-    public function getPartPatronPrevoyance(): ?bool{
+    public function getPartPatronPrevoyance(): ?bool {
         return $this->partPatronPrevoyance;
     }
 
@@ -1944,7 +1943,7 @@ class Libelles {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -1953,7 +1952,7 @@ class Libelles {
      *
      * @return bool|null Returns the pourboire.
      */
-    public function getPourboire(): ?bool{
+    public function getPourboire(): ?bool {
         return $this->pourboire;
     }
 
@@ -1962,7 +1961,7 @@ class Libelles {
      *
      * @return bool|null Returns the prevoyance.
      */
-    public function getPrevoyance(): ?bool{
+    public function getPrevoyance(): ?bool {
         return $this->prevoyance;
     }
 
@@ -1971,7 +1970,7 @@ class Libelles {
      *
      * @return bool|null Returns the prevoyance comp.
      */
-    public function getPrevoyanceComp(): ?bool{
+    public function getPrevoyanceComp(): ?bool {
         return $this->prevoyanceComp;
     }
 
@@ -1980,7 +1979,7 @@ class Libelles {
      *
      * @return bool|null Returns the prime non proratisee.
      */
-    public function getPrimeNonProratisee(): ?bool{
+    public function getPrimeNonProratisee(): ?bool {
         return $this->primeNonProratisee;
     }
 
@@ -1989,7 +1988,7 @@ class Libelles {
      *
      * @return bool|null Returns the prime servitude travail.
      */
-    public function getPrimeServitudeTravail(): ?bool{
+    public function getPrimeServitudeTravail(): ?bool {
         return $this->primeServitudeTravail;
     }
 
@@ -1998,7 +1997,7 @@ class Libelles {
      *
      * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis(): ?string{
+    public function getQualifiantCotis(): ?string {
         return $this->qualifiantCotis;
     }
 
@@ -2007,7 +2006,7 @@ class Libelles {
      *
      * @return string|null Returns the regle calcul.
      */
-    public function getRegleCalcul(): ?string{
+    public function getRegleCalcul(): ?string {
         return $this->regleCalcul;
     }
 
@@ -2016,7 +2015,7 @@ class Libelles {
      *
      * @return string|null Returns the regle taux.
      */
-    public function getRegleTaux(): ?string{
+    public function getRegleTaux(): ?string {
         return $this->regleTaux;
     }
 
@@ -2025,7 +2024,7 @@ class Libelles {
      *
      * @return bool|null Returns the remise a zero.
      */
-    public function getRemiseAZero(): ?bool{
+    public function getRemiseAZero(): ?bool {
         return $this->remiseAZero;
     }
 
@@ -2034,7 +2033,7 @@ class Libelles {
      *
      * @return bool|null Returns the result mt.
      */
-    public function getResultMt(): ?bool{
+    public function getResultMt(): ?bool {
         return $this->resultMt;
     }
 
@@ -2043,7 +2042,7 @@ class Libelles {
      *
      * @return bool|null Returns the resultat ducs.
      */
-    public function getResultatDucs(): ?bool{
+    public function getResultatDucs(): ?bool {
         return $this->resultatDucs;
     }
 
@@ -2052,7 +2051,7 @@ class Libelles {
      *
      * @return bool|null Returns the retenue salaire.
      */
-    public function getRetenueSalaire(): ?bool{
+    public function getRetenueSalaire(): ?bool {
         return $this->retenueSalaire;
     }
 
@@ -2061,7 +2060,7 @@ class Libelles {
      *
      * @return bool|null Returns the retenue source.
      */
-    public function getRetenueSource(): ?bool{
+    public function getRetenueSource(): ?bool {
         return $this->retenueSource;
     }
 
@@ -2070,7 +2069,7 @@ class Libelles {
      *
      * @return bool|null Returns the retraite obligatoire.
      */
-    public function getRetraiteObligatoire(): ?bool{
+    public function getRetraiteObligatoire(): ?bool {
         return $this->retraiteObligatoire;
     }
 
@@ -2079,7 +2078,7 @@ class Libelles {
      *
      * @return bool|null Returns the retraite supp.
      */
-    public function getRetraiteSupp(): ?bool{
+    public function getRetraiteSupp(): ?bool {
         return $this->retraiteSupp;
     }
 
@@ -2088,7 +2087,7 @@ class Libelles {
      *
      * @return bool|null Returns the salaire cp.
      */
-    public function getSalaireCp(): ?bool{
+    public function getSalaireCp(): ?bool {
         return $this->salaireCp;
     }
 
@@ -2097,7 +2096,7 @@ class Libelles {
      *
      * @return bool|null Returns the sans reintegration sociale.
      */
-    public function getSansReintegrationSociale(): ?bool{
+    public function getSansReintegrationSociale(): ?bool {
         return $this->sansReintegrationSociale;
     }
 
@@ -2106,7 +2105,7 @@ class Libelles {
      *
      * @return bool|null Returns the soumis abattement.
      */
-    public function getSoumisAbattement(): ?bool{
+    public function getSoumisAbattement(): ?bool {
         return $this->soumisAbattement;
     }
 
@@ -2115,7 +2114,7 @@ class Libelles {
      *
      * @return bool|null Returns the soumis crds100.
      */
-    public function getSoumisCrds100(): ?bool{
+    public function getSoumisCrds100(): ?bool {
         return $this->soumisCrds100;
     }
 
@@ -2124,7 +2123,7 @@ class Libelles {
      *
      * @return bool|null Returns the soumis csg.
      */
-    public function getSoumisCsg(): ?bool{
+    public function getSoumisCsg(): ?bool {
         return $this->soumisCsg;
     }
 
@@ -2133,7 +2132,7 @@ class Libelles {
      *
      * @return bool|null Returns the soumis csg100.
      */
-    public function getSoumisCsg100(): ?bool{
+    public function getSoumisCsg100(): ?bool {
         return $this->soumisCsg100;
     }
 
@@ -2142,7 +2141,7 @@ class Libelles {
      *
      * @return bool|null Returns the soumis forfait social.
      */
-    public function getSoumisForfaitSocial(): ?bool{
+    public function getSoumisForfaitSocial(): ?bool {
         return $this->soumisForfaitSocial;
     }
 
@@ -2151,7 +2150,7 @@ class Libelles {
      *
      * @return bool|null Returns the soumis rds.
      */
-    public function getSoumisRds(): ?bool{
+    public function getSoumisRds(): ?bool {
         return $this->soumisRds;
     }
 
@@ -2160,7 +2159,7 @@ class Libelles {
      *
      * @return bool|null Returns the taux du libelle.
      */
-    public function getTauxDuLibelle(): ?bool{
+    public function getTauxDuLibelle(): ?bool {
         return $this->tauxDuLibelle;
     }
 
@@ -2169,7 +2168,7 @@ class Libelles {
      *
      * @return string|null Returns the taux forfait social.
      */
-    public function getTauxForfaitSocial(): ?string{
+    public function getTauxForfaitSocial(): ?string {
         return $this->tauxForfaitSocial;
     }
 
@@ -2178,7 +2177,7 @@ class Libelles {
      *
      * @return float|null Returns the taux patronal dadsu.
      */
-    public function getTauxPatronalDadsu(): ?float{
+    public function getTauxPatronalDadsu(): ?float {
         return $this->tauxPatronalDadsu;
     }
 
@@ -2187,7 +2186,7 @@ class Libelles {
      *
      * @return float|null Returns the taux salarial dadsu.
      */
-    public function getTauxSalarialDadsu(): ?float{
+    public function getTauxSalarialDadsu(): ?float {
         return $this->tauxSalarialDadsu;
     }
 
@@ -2196,7 +2195,7 @@ class Libelles {
      *
      * @return string|null Returns the type absence h sup.
      */
-    public function getTypeAbsenceHSup(): ?string{
+    public function getTypeAbsenceHSup(): ?string {
         return $this->typeAbsenceHSup;
     }
 
@@ -2205,7 +2204,7 @@ class Libelles {
      *
      * @return string|null Returns the type avantage.
      */
-    public function getTypeAvantage(): ?string{
+    public function getTypeAvantage(): ?string {
         return $this->typeAvantage;
     }
 
@@ -2214,7 +2213,7 @@ class Libelles {
      *
      * @return string|null Returns the type base cotisation.
      */
-    public function getTypeBaseCotisation(): ?string{
+    public function getTypeBaseCotisation(): ?string {
         return $this->typeBaseCotisation;
     }
 
@@ -2223,7 +2222,7 @@ class Libelles {
      *
      * @return string|null Returns the type cotis.
      */
-    public function getTypeCotis(): ?string{
+    public function getTypeCotis(): ?string {
         return $this->typeCotis;
     }
 
@@ -2232,7 +2231,7 @@ class Libelles {
      *
      * @return int|null Returns the type date anc.
      */
-    public function getTypeDateAnc(): ?int{
+    public function getTypeDateAnc(): ?int {
         return $this->typeDateAnc;
     }
 
@@ -2241,7 +2240,7 @@ class Libelles {
      *
      * @return string|null Returns the type donnee dadsu.
      */
-    public function getTypeDonneeDadsu(): ?string{
+    public function getTypeDonneeDadsu(): ?string {
         return $this->typeDonneeDadsu;
     }
 
@@ -2250,17 +2249,8 @@ class Libelles {
      *
      * @return string|null Returns the type frais.
      */
-    public function getTypeFrais(): ?string{
+    public function getTypeFrais(): ?string {
         return $this->typeFrais;
-    }
-
-    /**
-     * Get the type he fillon.
-     *
-     * @return string|null Returns the type he fillon.
-     */
-    public function getTypeHeFillon(): ?string{
-        return $this->typeHeFillon;
     }
 
     /**
@@ -2268,8 +2258,17 @@ class Libelles {
      *
      * @return string|null Returns the type h sup loi tepa.
      */
-    public function getTypeHSupLoiTepa(): ?string{
+    public function getTypeHSupLoiTepa(): ?string {
         return $this->typeHSupLoiTepa;
+    }
+
+    /**
+     * Get the type he fillon.
+     *
+     * @return string|null Returns the type he fillon.
+     */
+    public function getTypeHeFillon(): ?string {
+        return $this->typeHeFillon;
     }
 
     /**
@@ -2277,7 +2276,7 @@ class Libelles {
      *
      * @return string|null Returns the type heure.
      */
-    public function getTypeHeure(): ?string{
+    public function getTypeHeure(): ?string {
         return $this->typeHeure;
     }
 
@@ -2286,7 +2285,7 @@ class Libelles {
      *
      * @return string|null Returns the type heure sup.
      */
-    public function getTypeHeureSup(): ?string{
+    public function getTypeHeureSup(): ?string {
         return $this->typeHeureSup;
     }
 
@@ -2295,7 +2294,7 @@ class Libelles {
      *
      * @return string|null Returns the type orga.
      */
-    public function getTypeOrga(): ?string{
+    public function getTypeOrga(): ?string {
         return $this->typeOrga;
     }
 
@@ -2304,7 +2303,7 @@ class Libelles {
      *
      * @return string|null Returns the type proratisation prime.
      */
-    public function getTypeProratisationPrime(): ?string{
+    public function getTypeProratisationPrime(): ?string {
         return $this->typeProratisationPrime;
     }
 
@@ -2313,7 +2312,7 @@ class Libelles {
      *
      * @return string|null Returns the type tranche.
      */
-    public function getTypeTranche(): ?string{
+    public function getTypeTranche(): ?string {
         return $this->typeTranche;
     }
 
@@ -2336,17 +2335,6 @@ class Libelles {
      */
     public function setAConserverSetp(?bool $aConserverSetp): Libelles {
         $this->aConserverSetp = $aConserverSetp;
-        return $this;
-    }
-
-    /**
-     * Set the a cumuler base cp.
-     *
-     * @param bool|null $aCumulerBaseCp The a cumuler base cp.
-     * @return Libelles Returns this Libelles.
-     */
-    public function setACumulerBaseCp(?bool $aCumulerBaseCp): Libelles {
-        $this->aCumulerBaseCp = $aCumulerBaseCp;
         return $this;
     }
 
@@ -2384,6 +2372,17 @@ class Libelles {
     }
 
     /**
+     * Set the a cumuler base cp.
+     *
+     * @param bool|null $aCumulerBaseCp The a cumuler base cp.
+     * @return Libelles Returns this Libelles.
+     */
+    public function setACumulerBaseCp(?bool $aCumulerBaseCp): Libelles {
+        $this->aCumulerBaseCp = $aCumulerBaseCp;
+        return $this;
+    }
+
+    /**
      * Set the a cumuler base secu.
      *
      * @param bool|null $aCumulerBaseSecu The a cumuler base secu.
@@ -2391,17 +2390,6 @@ class Libelles {
      */
     public function setACumulerBaseSecu(?bool $aCumulerBaseSecu): Libelles {
         $this->aCumulerBaseSecu = $aCumulerBaseSecu;
-        return $this;
-    }
-
-    /**
-     * Set the aen lien presence effective.
-     *
-     * @param bool|null $aenLienPresenceEffective The aen lien presence effective.
-     * @return Libelles Returns this Libelles.
-     */
-    public function setAenLienPresenceEffective(?bool $aenLienPresenceEffective): Libelles {
-        $this->aenLienPresenceEffective = $aenLienPresenceEffective;
         return $this;
     }
 
@@ -2424,6 +2412,17 @@ class Libelles {
      */
     public function setActiveVariablesEmp(?bool $activeVariablesEmp): Libelles {
         $this->activeVariablesEmp = $activeVariablesEmp;
+        return $this;
+    }
+
+    /**
+     * Set the aen lien presence effective.
+     *
+     * @param bool|null $aenLienPresenceEffective The aen lien presence effective.
+     * @return Libelles Returns this Libelles.
+     */
+    public function setAenLienPresenceEffective(?bool $aenLienPresenceEffective): Libelles {
+        $this->aenLienPresenceEffective = $aenLienPresenceEffective;
         return $this;
     }
 
@@ -2527,17 +2526,6 @@ class Libelles {
     }
 
     /**
-     * Set the code csg taux.
-     *
-     * @param string|null $codeCsgTaux The code csg taux.
-     * @return Libelles Returns this Libelles.
-     */
-    public function setCodeCsgTaux(?string $codeCsgTaux): Libelles {
-        $this->codeCsgTaux = $codeCsgTaux;
-        return $this;
-    }
-
-    /**
      * Set the code calcul.
      *
      * @param string|null $codeCalcul The code calcul.
@@ -2545,6 +2533,17 @@ class Libelles {
      */
     public function setCodeCalcul(?string $codeCalcul): Libelles {
         $this->codeCalcul = $codeCalcul;
+        return $this;
+    }
+
+    /**
+     * Set the code csg taux.
+     *
+     * @param string|null $codeCsgTaux The code csg taux.
+     * @return Libelles Returns this Libelles.
+     */
+    public function setCodeCsgTaux(?string $codeCsgTaux): Libelles {
+        $this->codeCsgTaux = $codeCsgTaux;
         return $this;
     }
 
@@ -3814,17 +3813,6 @@ class Libelles {
     }
 
     /**
-     * Set the type he fillon.
-     *
-     * @param string|null $typeHeFillon The type he fillon.
-     * @return Libelles Returns this Libelles.
-     */
-    public function setTypeHeFillon(?string $typeHeFillon): Libelles {
-        $this->typeHeFillon = $typeHeFillon;
-        return $this;
-    }
-
-    /**
      * Set the type h sup loi tepa.
      *
      * @param string|null $typeHSupLoiTepa The type h sup loi tepa.
@@ -3832,6 +3820,17 @@ class Libelles {
      */
     public function setTypeHSupLoiTepa(?string $typeHSupLoiTepa): Libelles {
         $this->typeHSupLoiTepa = $typeHSupLoiTepa;
+        return $this;
+    }
+
+    /**
+     * Set the type he fillon.
+     *
+     * @param string|null $typeHeFillon The type he fillon.
+     * @return Libelles Returns this Libelles.
+     */
+    public function setTypeHeFillon(?string $typeHeFillon): Libelles {
+        $this->typeHeFillon = $typeHeFillon;
         return $this;
     }
 

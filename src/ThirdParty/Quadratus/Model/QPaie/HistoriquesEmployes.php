@@ -77,7 +77,6 @@ class HistoriquesEmployes {
      */
     private $indice;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class HistoriquesEmployes {
      *
      * @return string|null Returns the chapitre.
      */
-    public function getChapitre(): ?string{
+    public function getChapitre(): ?string {
         return $this->chapitre;
     }
 
@@ -99,7 +98,7 @@ class HistoriquesEmployes {
      *
      * @return string|null Returns the coll creat.
      */
-    public function getCollCreat(): ?string{
+    public function getCollCreat(): ?string {
         return $this->collCreat;
     }
 
@@ -108,7 +107,7 @@ class HistoriquesEmployes {
      *
      * @return string|null Returns the coll modif.
      */
-    public function getCollModif(): ?string{
+    public function getCollModif(): ?string {
         return $this->collModif;
     }
 
@@ -117,7 +116,7 @@ class HistoriquesEmployes {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -126,7 +125,7 @@ class HistoriquesEmployes {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -135,7 +134,7 @@ class HistoriquesEmployes {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -144,7 +143,7 @@ class HistoriquesEmployes {
      *
      * @return string|null Returns the g uniq id.
      */
-    public function getGUniqId(): ?string{
+    public function getGUniqId(): ?string {
         return $this->gUniqId;
     }
 
@@ -153,7 +152,7 @@ class HistoriquesEmployes {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 

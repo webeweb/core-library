@@ -131,7 +131,6 @@ class TauxRetraiteMetier {
      */
     private $typeLibelle;
 
-
     /**
      * Constructor.
      */
@@ -144,7 +143,7 @@ class TauxRetraiteMetier {
      *
      * @return bool|null Returns the active.
      */
-    public function getActive(): ?bool{
+    public function getActive(): ?bool {
         return $this->active;
     }
 
@@ -153,7 +152,7 @@ class TauxRetraiteMetier {
      *
      * @return int|null Returns the categ salarie.
      */
-    public function getCategSalarie(): ?int{
+    public function getCategSalarie(): ?int {
         return $this->categSalarie;
     }
 
@@ -162,7 +161,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the code activite.
      */
-    public function getCodeActivite(): ?string{
+    public function getCodeActivite(): ?string {
         return $this->codeActivite;
     }
 
@@ -171,7 +170,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs(): ?string{
+    public function getCodeDucs(): ?string {
         return $this->codeDucs;
     }
 
@@ -180,7 +179,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the code edition histo.
      */
-    public function getCodeEditionHisto(): ?string{
+    public function getCodeEditionHisto(): ?string {
         return $this->codeEditionHisto;
     }
 
@@ -189,7 +188,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -198,7 +197,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the code metier.
      */
-    public function getCodeMetier(): ?string{
+    public function getCodeMetier(): ?string {
         return $this->codeMetier;
     }
 
@@ -207,7 +206,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -216,7 +215,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the compte charge.
      */
-    public function getCompteCharge(): ?string{
+    public function getCompteCharge(): ?string {
         return $this->compteCharge;
     }
 
@@ -225,7 +224,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec(): ?string{
+    public function getConditionSpec(): ?string {
         return $this->conditionSpec;
     }
 
@@ -234,7 +233,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the exclure loi tepa.
      */
-    public function getExclureLoiTepa(): ?string{
+    public function getExclureLoiTepa(): ?string {
         return $this->exclureLoiTepa;
     }
 
@@ -243,7 +242,7 @@ class TauxRetraiteMetier {
      *
      * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg(): ?int{
+    public function getIndiceCateg(): ?int {
         return $this->indiceCateg;
     }
 
@@ -252,7 +251,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the libelle bul.
      */
-    public function getLibelleBul(): ?string{
+    public function getLibelleBul(): ?string {
         return $this->libelleBul;
     }
 
@@ -261,7 +260,7 @@ class TauxRetraiteMetier {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -270,7 +269,7 @@ class TauxRetraiteMetier {
      *
      * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis(): ?string{
+    public function getQualifiantCotis(): ?string {
         return $this->qualifiantCotis;
     }
 
@@ -279,7 +278,7 @@ class TauxRetraiteMetier {
      *
      * @return int|null Returns the type libelle.
      */
-    public function getTypeLibelle(): ?int{
+    public function getTypeLibelle(): ?int {
         return $this->typeLibelle;
     }
 

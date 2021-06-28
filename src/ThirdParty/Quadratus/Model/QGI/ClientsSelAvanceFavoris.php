@@ -54,7 +54,6 @@ class ClientsSelAvanceFavoris {
      */
     private $origine;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ClientsSelAvanceFavoris {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -76,7 +75,7 @@ class ClientsSelAvanceFavoris {
      *
      * @return string|null Returns the code liste.
      */
-    public function getCodeListe(): ?string{
+    public function getCodeListe(): ?string {
         return $this->codeListe;
     }
 
@@ -85,7 +84,7 @@ class ClientsSelAvanceFavoris {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -94,7 +93,7 @@ class ClientsSelAvanceFavoris {
      *
      * @return int|null Returns the ordre.
      */
-    public function getOrdre(): ?int{
+    public function getOrdre(): ?int {
         return $this->ordre;
     }
 
@@ -103,7 +102,7 @@ class ClientsSelAvanceFavoris {
      *
      * @return string|null Returns the origine.
      */
-    public function getOrigine(): ?string{
+    public function getOrigine(): ?string {
         return $this->origine;
     }
 

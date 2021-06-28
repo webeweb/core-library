@@ -64,20 +64,6 @@ class EmpDadsuCalcul {
     private $anneeSommeIsol5;
 
     /**
-     * Btp sal moyen.
-     *
-     * @var float|null
-     */
-    private $btpSalMoyen;
-
-    /**
-     * Base brute cpbtp.
-     *
-     * @var float|null
-     */
-    private $baseBruteCpbtp;
-
-    /**
      * Base brute cot ccpbtp.
      *
      * @var float|null
@@ -92,6 +78,13 @@ class EmpDadsuCalcul {
     private $baseBruteCotOppbtp;
 
     /**
+     * Base brute cpbtp.
+     *
+     * @var float|null
+     */
+    private $baseBruteCpbtp;
+
+    /**
      * Benef assedic.
      *
      * @var string|null
@@ -104,6 +97,13 @@ class EmpDadsuCalcul {
      * @var float|null
      */
     private $brutIrcantec;
+
+    /**
+     * Btp sal moyen.
+     *
+     * @var float|null
+     */
+    private $btpSalMoyen;
 
     /**
      * Code class btp.
@@ -840,7 +840,6 @@ class EmpDadsuCalcul {
      */
     private $trBIrcantec;
 
-
     /**
      * Constructor.
      */
@@ -853,7 +852,7 @@ class EmpDadsuCalcul {
      *
      * @return DateTime|null Returns the ancienn btp.
      */
-    public function getAnciennBtp(): ?DateTime{
+    public function getAnciennBtp(): ?DateTime {
         return $this->anciennBtp;
     }
 
@@ -862,7 +861,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the annee somme isol.
      */
-    public function getAnneeSommeIsol(): ?string{
+    public function getAnneeSommeIsol(): ?string {
         return $this->anneeSommeIsol;
     }
 
@@ -871,7 +870,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the annee somme isol2.
      */
-    public function getAnneeSommeIsol2(): ?string{
+    public function getAnneeSommeIsol2(): ?string {
         return $this->anneeSommeIsol2;
     }
 
@@ -880,7 +879,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the annee somme isol3.
      */
-    public function getAnneeSommeIsol3(): ?string{
+    public function getAnneeSommeIsol3(): ?string {
         return $this->anneeSommeIsol3;
     }
 
@@ -889,7 +888,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the annee somme isol4.
      */
-    public function getAnneeSommeIsol4(): ?string{
+    public function getAnneeSommeIsol4(): ?string {
         return $this->anneeSommeIsol4;
     }
 
@@ -898,26 +897,8 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the annee somme isol5.
      */
-    public function getAnneeSommeIsol5(): ?string{
+    public function getAnneeSommeIsol5(): ?string {
         return $this->anneeSommeIsol5;
-    }
-
-    /**
-     * Get the btp sal moyen.
-     *
-     * @return float|null Returns the btp sal moyen.
-     */
-    public function getBtpSalMoyen(): ?float{
-        return $this->btpSalMoyen;
-    }
-
-    /**
-     * Get the base brute cpbtp.
-     *
-     * @return float|null Returns the base brute cpbtp.
-     */
-    public function getBaseBruteCpbtp(): ?float{
-        return $this->baseBruteCpbtp;
     }
 
     /**
@@ -925,7 +906,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the base brute cot ccpbtp.
      */
-    public function getBaseBruteCotCcpbtp(): ?float{
+    public function getBaseBruteCotCcpbtp(): ?float {
         return $this->baseBruteCotCcpbtp;
     }
 
@@ -934,8 +915,17 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the base brute cot oppbtp.
      */
-    public function getBaseBruteCotOppbtp(): ?float{
+    public function getBaseBruteCotOppbtp(): ?float {
         return $this->baseBruteCotOppbtp;
+    }
+
+    /**
+     * Get the base brute cpbtp.
+     *
+     * @return float|null Returns the base brute cpbtp.
+     */
+    public function getBaseBruteCpbtp(): ?float {
+        return $this->baseBruteCpbtp;
     }
 
     /**
@@ -943,7 +933,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the benef assedic.
      */
-    public function getBenefAssedic(): ?string{
+    public function getBenefAssedic(): ?string {
         return $this->benefAssedic;
     }
 
@@ -952,8 +942,17 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the brut ircantec.
      */
-    public function getBrutIrcantec(): ?float{
+    public function getBrutIrcantec(): ?float {
         return $this->brutIrcantec;
+    }
+
+    /**
+     * Get the btp sal moyen.
+     *
+     * @return float|null Returns the btp sal moyen.
+     */
+    public function getBtpSalMoyen(): ?float {
+        return $this->btpSalMoyen;
     }
 
     /**
@@ -961,7 +960,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code class btp.
      */
-    public function getCodeClassBtp(): ?string{
+    public function getCodeClassBtp(): ?string {
         return $this->codeClassBtp;
     }
 
@@ -970,7 +969,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code duree trav.
      */
-    public function getCodeDureeTrav(): ?string{
+    public function getCodeDureeTrav(): ?string {
         return $this->codeDureeTrav;
     }
 
@@ -979,7 +978,7 @@ class EmpDadsuCalcul {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -988,7 +987,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib b plaf.
      */
-    public function getCodeLibBPlaf(): ?string{
+    public function getCodeLibBPlaf(): ?string {
         return $this->codeLibBPlaf;
     }
 
@@ -997,7 +996,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib b plaf2.
      */
-    public function getCodeLibBPlaf2(): ?string{
+    public function getCodeLibBPlaf2(): ?string {
         return $this->codeLibBPlaf2;
     }
 
@@ -1006,7 +1005,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib b plaf3.
      */
-    public function getCodeLibBPlaf3(): ?string{
+    public function getCodeLibBPlaf3(): ?string {
         return $this->codeLibBPlaf3;
     }
 
@@ -1015,7 +1014,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib b plaf4.
      */
-    public function getCodeLibBPlaf4(): ?string{
+    public function getCodeLibBPlaf4(): ?string {
         return $this->codeLibBPlaf4;
     }
 
@@ -1024,7 +1023,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib b plaf5.
      */
-    public function getCodeLibBPlaf5(): ?string{
+    public function getCodeLibBPlaf5(): ?string {
         return $this->codeLibBPlaf5;
     }
 
@@ -1033,7 +1032,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib brut.
      */
-    public function getCodeLibBrut(): ?string{
+    public function getCodeLibBrut(): ?string {
         return $this->codeLibBrut;
     }
 
@@ -1042,7 +1041,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib brut2.
      */
-    public function getCodeLibBrut2(): ?string{
+    public function getCodeLibBrut2(): ?string {
         return $this->codeLibBrut2;
     }
 
@@ -1051,7 +1050,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib brut3.
      */
-    public function getCodeLibBrut3(): ?string{
+    public function getCodeLibBrut3(): ?string {
         return $this->codeLibBrut3;
     }
 
@@ -1060,7 +1059,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib brut4.
      */
-    public function getCodeLibBrut4(): ?string{
+    public function getCodeLibBrut4(): ?string {
         return $this->codeLibBrut4;
     }
 
@@ -1069,7 +1068,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib brut5.
      */
-    public function getCodeLibBrut5(): ?string{
+    public function getCodeLibBrut5(): ?string {
         return $this->codeLibBrut5;
     }
 
@@ -1078,7 +1077,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib csg.
      */
-    public function getCodeLibCsg(): ?string{
+    public function getCodeLibCsg(): ?string {
         return $this->codeLibCsg;
     }
 
@@ -1087,7 +1086,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib irc1.
      */
-    public function getCodeLibIrc1(): ?string{
+    public function getCodeLibIrc1(): ?string {
         return $this->codeLibIrc1;
     }
 
@@ -1096,7 +1095,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib irc2.
      */
-    public function getCodeLibIrc2(): ?string{
+    public function getCodeLibIrc2(): ?string {
         return $this->codeLibIrc2;
     }
 
@@ -1105,7 +1104,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib irc3.
      */
-    public function getCodeLibIrc3(): ?string{
+    public function getCodeLibIrc3(): ?string {
         return $this->codeLibIrc3;
     }
 
@@ -1114,7 +1113,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib somme.
      */
-    public function getCodeLibSomme(): ?string{
+    public function getCodeLibSomme(): ?string {
         return $this->codeLibSomme;
     }
 
@@ -1123,7 +1122,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib somme2.
      */
-    public function getCodeLibSomme2(): ?string{
+    public function getCodeLibSomme2(): ?string {
         return $this->codeLibSomme2;
     }
 
@@ -1132,7 +1131,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib somme3.
      */
-    public function getCodeLibSomme3(): ?string{
+    public function getCodeLibSomme3(): ?string {
         return $this->codeLibSomme3;
     }
 
@@ -1141,7 +1140,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib somme4.
      */
-    public function getCodeLibSomme4(): ?string{
+    public function getCodeLibSomme4(): ?string {
         return $this->codeLibSomme4;
     }
 
@@ -1150,7 +1149,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code lib somme5.
      */
-    public function getCodeLibSomme5(): ?string{
+    public function getCodeLibSomme5(): ?string {
         return $this->codeLibSomme5;
     }
 
@@ -1159,7 +1158,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code metier btp.
      */
-    public function getCodeMetierBtp(): ?string{
+    public function getCodeMetierBtp(): ?string {
         return $this->codeMetierBtp;
     }
 
@@ -1168,7 +1167,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type b plaf.
      */
-    public function getCodeTypeBPlaf(): ?string{
+    public function getCodeTypeBPlaf(): ?string {
         return $this->codeTypeBPlaf;
     }
 
@@ -1177,7 +1176,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type b plaf2.
      */
-    public function getCodeTypeBPlaf2(): ?string{
+    public function getCodeTypeBPlaf2(): ?string {
         return $this->codeTypeBPlaf2;
     }
 
@@ -1186,7 +1185,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type b plaf3.
      */
-    public function getCodeTypeBPlaf3(): ?string{
+    public function getCodeTypeBPlaf3(): ?string {
         return $this->codeTypeBPlaf3;
     }
 
@@ -1195,7 +1194,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type b plaf4.
      */
-    public function getCodeTypeBPlaf4(): ?string{
+    public function getCodeTypeBPlaf4(): ?string {
         return $this->codeTypeBPlaf4;
     }
 
@@ -1204,7 +1203,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type b plaf5.
      */
-    public function getCodeTypeBPlaf5(): ?string{
+    public function getCodeTypeBPlaf5(): ?string {
         return $this->codeTypeBPlaf5;
     }
 
@@ -1213,7 +1212,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type brut.
      */
-    public function getCodeTypeBrut(): ?string{
+    public function getCodeTypeBrut(): ?string {
         return $this->codeTypeBrut;
     }
 
@@ -1222,7 +1221,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type brut2.
      */
-    public function getCodeTypeBrut2(): ?string{
+    public function getCodeTypeBrut2(): ?string {
         return $this->codeTypeBrut2;
     }
 
@@ -1231,7 +1230,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type brut3.
      */
-    public function getCodeTypeBrut3(): ?string{
+    public function getCodeTypeBrut3(): ?string {
         return $this->codeTypeBrut3;
     }
 
@@ -1240,7 +1239,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type brut4.
      */
-    public function getCodeTypeBrut4(): ?string{
+    public function getCodeTypeBrut4(): ?string {
         return $this->codeTypeBrut4;
     }
 
@@ -1249,7 +1248,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type brut5.
      */
-    public function getCodeTypeBrut5(): ?string{
+    public function getCodeTypeBrut5(): ?string {
         return $this->codeTypeBrut5;
     }
 
@@ -1258,7 +1257,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type somme.
      */
-    public function getCodeTypeSomme(): ?string{
+    public function getCodeTypeSomme(): ?string {
         return $this->codeTypeSomme;
     }
 
@@ -1267,7 +1266,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type somme2.
      */
-    public function getCodeTypeSomme2(): ?string{
+    public function getCodeTypeSomme2(): ?string {
         return $this->codeTypeSomme2;
     }
 
@@ -1276,7 +1275,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type somme3.
      */
-    public function getCodeTypeSomme3(): ?string{
+    public function getCodeTypeSomme3(): ?string {
         return $this->codeTypeSomme3;
     }
 
@@ -1285,7 +1284,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type somme4.
      */
-    public function getCodeTypeSomme4(): ?string{
+    public function getCodeTypeSomme4(): ?string {
         return $this->codeTypeSomme4;
     }
 
@@ -1294,7 +1293,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the code type somme5.
      */
-    public function getCodeTypeSomme5(): ?string{
+    public function getCodeTypeSomme5(): ?string {
         return $this->codeTypeSomme5;
     }
 
@@ -1303,7 +1302,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the csg specif.
      */
-    public function getCsgSpecif(): ?float{
+    public function getCsgSpecif(): ?float {
         return $this->csgSpecif;
     }
 
@@ -1312,7 +1311,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the duree trav.
      */
-    public function getDureeTrav(): ?float{
+    public function getDureeTrav(): ?float {
         return $this->dureeTrav;
     }
 
@@ -1321,7 +1320,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the exo h code1.
      */
-    public function getExoHCode1(): ?string{
+    public function getExoHCode1(): ?string {
         return $this->exoHCode1;
     }
 
@@ -1330,7 +1329,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the exo h code2.
      */
-    public function getExoHCode2(): ?string{
+    public function getExoHCode2(): ?string {
         return $this->exoHCode2;
     }
 
@@ -1339,7 +1338,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the exo h code3.
      */
-    public function getExoHCode3(): ?string{
+    public function getExoHCode3(): ?string {
         return $this->exoHCode3;
     }
 
@@ -1348,7 +1347,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the exo h code4.
      */
-    public function getExoHCode4(): ?string{
+    public function getExoHCode4(): ?string {
         return $this->exoHCode4;
     }
 
@@ -1357,7 +1356,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the exo h code5.
      */
-    public function getExoHCode5(): ?string{
+    public function getExoHCode5(): ?string {
         return $this->exoHCode5;
     }
 
@@ -1366,7 +1365,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt1.
      */
-    public function getExoHMnt1(): ?float{
+    public function getExoHMnt1(): ?float {
         return $this->exoHMnt1;
     }
 
@@ -1375,7 +1374,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt2.
      */
-    public function getExoHMnt2(): ?float{
+    public function getExoHMnt2(): ?float {
         return $this->exoHMnt2;
     }
 
@@ -1384,7 +1383,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt3.
      */
-    public function getExoHMnt3(): ?float{
+    public function getExoHMnt3(): ?float {
         return $this->exoHMnt3;
     }
 
@@ -1393,7 +1392,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt4.
      */
-    public function getExoHMnt4(): ?float{
+    public function getExoHMnt4(): ?float {
         return $this->exoHMnt4;
     }
 
@@ -1402,7 +1401,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt5.
      */
-    public function getExoHMnt5(): ?float{
+    public function getExoHMnt5(): ?float {
         return $this->exoHMnt5;
     }
 
@@ -1411,7 +1410,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt deduc cot pat1.
      */
-    public function getExoHMntDeducCotPat1(): ?float{
+    public function getExoHMntDeducCotPat1(): ?float {
         return $this->exoHMntDeducCotPat1;
     }
 
@@ -1420,7 +1419,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt deduc cot pat2.
      */
-    public function getExoHMntDeducCotPat2(): ?float{
+    public function getExoHMntDeducCotPat2(): ?float {
         return $this->exoHMntDeducCotPat2;
     }
 
@@ -1429,7 +1428,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt deduc cot pat3.
      */
-    public function getExoHMntDeducCotPat3(): ?float{
+    public function getExoHMntDeducCotPat3(): ?float {
         return $this->exoHMntDeducCotPat3;
     }
 
@@ -1438,7 +1437,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt deduc cot pat4.
      */
-    public function getExoHMntDeducCotPat4(): ?float{
+    public function getExoHMntDeducCotPat4(): ?float {
         return $this->exoHMntDeducCotPat4;
     }
 
@@ -1447,7 +1446,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt deduc cot pat5.
      */
-    public function getExoHMntDeducCotPat5(): ?float{
+    public function getExoHMntDeducCotPat5(): ?float {
         return $this->exoHMntDeducCotPat5;
     }
 
@@ -1456,7 +1455,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt deduc cot pat tot.
      */
-    public function getExoHMntDeducCotPatTot(): ?float{
+    public function getExoHMntDeducCotPatTot(): ?float {
         return $this->exoHMntDeducCotPatTot;
     }
 
@@ -1465,7 +1464,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt reduc cot sal1.
      */
-    public function getExoHMntReducCotSal1(): ?float{
+    public function getExoHMntReducCotSal1(): ?float {
         return $this->exoHMntReducCotSal1;
     }
 
@@ -1474,7 +1473,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt reduc cot sal2.
      */
-    public function getExoHMntReducCotSal2(): ?float{
+    public function getExoHMntReducCotSal2(): ?float {
         return $this->exoHMntReducCotSal2;
     }
 
@@ -1483,7 +1482,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt reduc cot sal3.
      */
-    public function getExoHMntReducCotSal3(): ?float{
+    public function getExoHMntReducCotSal3(): ?float {
         return $this->exoHMntReducCotSal3;
     }
 
@@ -1492,7 +1491,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt reduc cot sal4.
      */
-    public function getExoHMntReducCotSal4(): ?float{
+    public function getExoHMntReducCotSal4(): ?float {
         return $this->exoHMntReducCotSal4;
     }
 
@@ -1501,7 +1500,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt reduc cot sal5.
      */
-    public function getExoHMntReducCotSal5(): ?float{
+    public function getExoHMntReducCotSal5(): ?float {
         return $this->exoHMntReducCotSal5;
     }
 
@@ -1510,7 +1509,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h mnt reduc cot sal tot.
      */
-    public function getExoHMntReducCotSalTot(): ?float{
+    public function getExoHMntReducCotSalTot(): ?float {
         return $this->exoHMntReducCotSalTot;
     }
 
@@ -1519,7 +1518,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h nb hj1.
      */
-    public function getExoHNbHj1(): ?float{
+    public function getExoHNbHj1(): ?float {
         return $this->exoHNbHj1;
     }
 
@@ -1528,7 +1527,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h nb hj2.
      */
-    public function getExoHNbHj2(): ?float{
+    public function getExoHNbHj2(): ?float {
         return $this->exoHNbHj2;
     }
 
@@ -1537,7 +1536,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h nb hj3.
      */
-    public function getExoHNbHj3(): ?float{
+    public function getExoHNbHj3(): ?float {
         return $this->exoHNbHj3;
     }
 
@@ -1546,7 +1545,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h nb hj4.
      */
-    public function getExoHNbHj4(): ?float{
+    public function getExoHNbHj4(): ?float {
         return $this->exoHNbHj4;
     }
 
@@ -1555,7 +1554,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the exo h nb hj5.
      */
-    public function getExoHNbHj5(): ?float{
+    public function getExoHNbHj5(): ?float {
         return $this->exoHNbHj5;
     }
 
@@ -1564,7 +1563,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the forma pro base.
      */
-    public function getFormaProBase(): ?float{
+    public function getFormaProBase(): ?float {
         return $this->formaProBase;
     }
 
@@ -1573,7 +1572,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the forma pro base cdd.
      */
-    public function getFormaProBaseCdd(): ?float{
+    public function getFormaProBaseCdd(): ?float {
         return $this->formaProBaseCdd;
     }
 
@@ -1582,7 +1581,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the ind cp.
      */
-    public function getIndCp(): ?float{
+    public function getIndCp(): ?float {
         return $this->indCp;
     }
 
@@ -1591,7 +1590,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the ind intemp.
      */
-    public function getIndIntemp(): ?float{
+    public function getIndIntemp(): ?float {
         return $this->indIntemp;
     }
 
@@ -1600,7 +1599,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant b plaf.
      */
-    public function getMontantBPlaf(): ?float{
+    public function getMontantBPlaf(): ?float {
         return $this->montantBPlaf;
     }
 
@@ -1609,7 +1608,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant b plaf2.
      */
-    public function getMontantBPlaf2(): ?float{
+    public function getMontantBPlaf2(): ?float {
         return $this->montantBPlaf2;
     }
 
@@ -1618,7 +1617,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant b plaf3.
      */
-    public function getMontantBPlaf3(): ?float{
+    public function getMontantBPlaf3(): ?float {
         return $this->montantBPlaf3;
     }
 
@@ -1627,7 +1626,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant b plaf4.
      */
-    public function getMontantBPlaf4(): ?float{
+    public function getMontantBPlaf4(): ?float {
         return $this->montantBPlaf4;
     }
 
@@ -1636,7 +1635,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant b plaf5.
      */
-    public function getMontantBPlaf5(): ?float{
+    public function getMontantBPlaf5(): ?float {
         return $this->montantBPlaf5;
     }
 
@@ -1645,7 +1644,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant brut.
      */
-    public function getMontantBrut(): ?float{
+    public function getMontantBrut(): ?float {
         return $this->montantBrut;
     }
 
@@ -1654,7 +1653,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant brut2.
      */
-    public function getMontantBrut2(): ?float{
+    public function getMontantBrut2(): ?float {
         return $this->montantBrut2;
     }
 
@@ -1663,7 +1662,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant brut3.
      */
-    public function getMontantBrut3(): ?float{
+    public function getMontantBrut3(): ?float {
         return $this->montantBrut3;
     }
 
@@ -1672,7 +1671,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant brut4.
      */
-    public function getMontantBrut4(): ?float{
+    public function getMontantBrut4(): ?float {
         return $this->montantBrut4;
     }
 
@@ -1681,7 +1680,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant brut5.
      */
-    public function getMontantBrut5(): ?float{
+    public function getMontantBrut5(): ?float {
         return $this->montantBrut5;
     }
 
@@ -1690,7 +1689,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol brut.
      */
-    public function getMontantSommeIsolBrut(): ?float{
+    public function getMontantSommeIsolBrut(): ?float {
         return $this->montantSommeIsolBrut;
     }
 
@@ -1699,7 +1698,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol brut2.
      */
-    public function getMontantSommeIsolBrut2(): ?float{
+    public function getMontantSommeIsolBrut2(): ?float {
         return $this->montantSommeIsolBrut2;
     }
 
@@ -1708,7 +1707,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol brut3.
      */
-    public function getMontantSommeIsolBrut3(): ?float{
+    public function getMontantSommeIsolBrut3(): ?float {
         return $this->montantSommeIsolBrut3;
     }
 
@@ -1717,7 +1716,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol brut4.
      */
-    public function getMontantSommeIsolBrut4(): ?float{
+    public function getMontantSommeIsolBrut4(): ?float {
         return $this->montantSommeIsolBrut4;
     }
 
@@ -1726,7 +1725,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol brut5.
      */
-    public function getMontantSommeIsolBrut5(): ?float{
+    public function getMontantSommeIsolBrut5(): ?float {
         return $this->montantSommeIsolBrut5;
     }
 
@@ -1735,7 +1734,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol plaf.
      */
-    public function getMontantSommeIsolPlaf(): ?float{
+    public function getMontantSommeIsolPlaf(): ?float {
         return $this->montantSommeIsolPlaf;
     }
 
@@ -1744,7 +1743,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol plaf2.
      */
-    public function getMontantSommeIsolPlaf2(): ?float{
+    public function getMontantSommeIsolPlaf2(): ?float {
         return $this->montantSommeIsolPlaf2;
     }
 
@@ -1753,7 +1752,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol plaf3.
      */
-    public function getMontantSommeIsolPlaf3(): ?float{
+    public function getMontantSommeIsolPlaf3(): ?float {
         return $this->montantSommeIsolPlaf3;
     }
 
@@ -1762,7 +1761,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol plaf4.
      */
-    public function getMontantSommeIsolPlaf4(): ?float{
+    public function getMontantSommeIsolPlaf4(): ?float {
         return $this->montantSommeIsolPlaf4;
     }
 
@@ -1771,7 +1770,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the montant somme isol plaf5.
      */
-    public function getMontantSommeIsolPlaf5(): ?float{
+    public function getMontantSommeIsolPlaf5(): ?float {
         return $this->montantSommeIsolPlaf5;
     }
 
@@ -1780,7 +1779,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the mt j rtt2007.
      */
-    public function getMtJRtt2007(): ?float{
+    public function getMtJRtt2007(): ?float {
         return $this->mtJRtt2007;
     }
 
@@ -1789,7 +1788,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the nb j rtt2007.
      */
-    public function getNbJRtt2007(): ?float{
+    public function getNbJRtt2007(): ?float {
         return $this->nbJRtt2007;
     }
 
@@ -1798,7 +1797,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the nb periode.
      */
-    public function getNbPeriode(): ?float{
+    public function getNbPeriode(): ?float {
         return $this->nbPeriode;
     }
 
@@ -1807,7 +1806,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the nbh chom partiel.
      */
-    public function getNbhChomPartiel(): ?float{
+    public function getNbhChomPartiel(): ?float {
         return $this->nbhChomPartiel;
     }
 
@@ -1816,7 +1815,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the nbh sem ircantec.
      */
-    public function getNbhSemIrcantec(): ?float{
+    public function getNbhSemIrcantec(): ?float {
         return $this->nbhSemIrcantec;
     }
 
@@ -1825,7 +1824,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -1834,7 +1833,7 @@ class EmpDadsuCalcul {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -1843,7 +1842,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the plaf ircantec.
      */
-    public function getPlafIrcantec(): ?float{
+    public function getPlafIrcantec(): ?float {
         return $this->plafIrcantec;
     }
 
@@ -1852,7 +1851,7 @@ class EmpDadsuCalcul {
      *
      * @return string|null Returns the qualif unite temps.
      */
-    public function getQualifUniteTemps(): ?string{
+    public function getQualifUniteTemps(): ?string {
         return $this->qualifUniteTemps;
     }
 
@@ -1861,7 +1860,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the suppl fam.
      */
-    public function getSupplFam(): ?float{
+    public function getSupplFam(): ?float {
         return $this->supplFam;
     }
 
@@ -1870,7 +1869,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the taxe apprentissage base.
      */
-    public function getTaxeApprentissageBase(): ?float{
+    public function getTaxeApprentissageBase(): ?float {
         return $this->taxeApprentissageBase;
     }
 
@@ -1879,7 +1878,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the taxe salaire.
      */
-    public function getTaxeSalaire(): ?float{
+    public function getTaxeSalaire(): ?float {
         return $this->taxeSalaire;
     }
 
@@ -1888,7 +1887,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the tr a ircantec.
      */
-    public function getTrAIrcantec(): ?float{
+    public function getTrAIrcantec(): ?float {
         return $this->trAIrcantec;
     }
 
@@ -1897,7 +1896,7 @@ class EmpDadsuCalcul {
      *
      * @return float|null Returns the tr b ircantec.
      */
-    public function getTrBIrcantec(): ?float{
+    public function getTrBIrcantec(): ?float {
         return $this->trBIrcantec;
     }
 
@@ -1968,28 +1967,6 @@ class EmpDadsuCalcul {
     }
 
     /**
-     * Set the btp sal moyen.
-     *
-     * @param float|null $btpSalMoyen The btp sal moyen.
-     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
-     */
-    public function setBtpSalMoyen(?float $btpSalMoyen): EmpDadsuCalcul {
-        $this->btpSalMoyen = $btpSalMoyen;
-        return $this;
-    }
-
-    /**
-     * Set the base brute cpbtp.
-     *
-     * @param float|null $baseBruteCpbtp The base brute cpbtp.
-     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
-     */
-    public function setBaseBruteCpbtp(?float $baseBruteCpbtp): EmpDadsuCalcul {
-        $this->baseBruteCpbtp = $baseBruteCpbtp;
-        return $this;
-    }
-
-    /**
      * Set the base brute cot ccpbtp.
      *
      * @param float|null $baseBruteCotCcpbtp The base brute cot ccpbtp.
@@ -2012,6 +1989,17 @@ class EmpDadsuCalcul {
     }
 
     /**
+     * Set the base brute cpbtp.
+     *
+     * @param float|null $baseBruteCpbtp The base brute cpbtp.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
+     */
+    public function setBaseBruteCpbtp(?float $baseBruteCpbtp): EmpDadsuCalcul {
+        $this->baseBruteCpbtp = $baseBruteCpbtp;
+        return $this;
+    }
+
+    /**
      * Set the benef assedic.
      *
      * @param string|null $benefAssedic The benef assedic.
@@ -2030,6 +2018,17 @@ class EmpDadsuCalcul {
      */
     public function setBrutIrcantec(?float $brutIrcantec): EmpDadsuCalcul {
         $this->brutIrcantec = $brutIrcantec;
+        return $this;
+    }
+
+    /**
+     * Set the btp sal moyen.
+     *
+     * @param float|null $btpSalMoyen The btp sal moyen.
+     * @return EmpDadsuCalcul Returns this Emp dadsu calcul.
+     */
+    public function setBtpSalMoyen(?float $btpSalMoyen): EmpDadsuCalcul {
+        $this->btpSalMoyen = $btpSalMoyen;
         return $this;
     }
 

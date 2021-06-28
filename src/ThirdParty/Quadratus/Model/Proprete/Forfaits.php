@@ -182,7 +182,6 @@ class Forfaits {
      */
     private $typeCodePrime;
 
-
     /**
      * Constructor.
      */
@@ -195,7 +194,7 @@ class Forfaits {
      *
      * @return bool|null Returns the aou.
      */
-    public function getAou(): ?bool{
+    public function getAou(): ?bool {
         return $this->aou;
     }
 
@@ -204,7 +203,7 @@ class Forfaits {
      *
      * @return bool|null Returns the avr.
      */
-    public function getAvr(): ?bool{
+    public function getAvr(): ?bool {
         return $this->avr;
     }
 
@@ -213,7 +212,7 @@ class Forfaits {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -222,7 +221,7 @@ class Forfaits {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -231,7 +230,7 @@ class Forfaits {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -240,7 +239,7 @@ class Forfaits {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -249,7 +248,7 @@ class Forfaits {
      *
      * @return string|null Returns the code prime.
      */
-    public function getCodePrime(): ?string{
+    public function getCodePrime(): ?string {
         return $this->codePrime;
     }
 
@@ -258,7 +257,7 @@ class Forfaits {
      *
      * @return string|null Returns the code tache type.
      */
-    public function getCodeTacheType(): ?string{
+    public function getCodeTacheType(): ?string {
         return $this->codeTacheType;
     }
 
@@ -267,7 +266,7 @@ class Forfaits {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -276,7 +275,7 @@ class Forfaits {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -285,7 +284,7 @@ class Forfaits {
      *
      * @return bool|null Returns the dec.
      */
-    public function getDec(): ?bool{
+    public function getDec(): ?bool {
         return $this->dec;
     }
 
@@ -294,7 +293,7 @@ class Forfaits {
      *
      * @return bool|null Returns the fev.
      */
-    public function getFev(): ?bool{
+    public function getFev(): ?bool {
         return $this->fev;
     }
 
@@ -303,7 +302,7 @@ class Forfaits {
      *
      * @return bool|null Returns the jan.
      */
-    public function getJan(): ?bool{
+    public function getJan(): ?bool {
         return $this->jan;
     }
 
@@ -312,7 +311,7 @@ class Forfaits {
      *
      * @return bool|null Returns the juil.
      */
-    public function getJuil(): ?bool{
+    public function getJuil(): ?bool {
         return $this->juil;
     }
 
@@ -321,7 +320,7 @@ class Forfaits {
      *
      * @return bool|null Returns the juin.
      */
-    public function getJuin(): ?bool{
+    public function getJuin(): ?bool {
         return $this->juin;
     }
 
@@ -330,7 +329,7 @@ class Forfaits {
      *
      * @return bool|null Returns the mai.
      */
-    public function getMai(): ?bool{
+    public function getMai(): ?bool {
         return $this->mai;
     }
 
@@ -339,7 +338,7 @@ class Forfaits {
      *
      * @return bool|null Returns the mar.
      */
-    public function getMar(): ?bool{
+    public function getMar(): ?bool {
         return $this->mar;
     }
 
@@ -348,7 +347,7 @@ class Forfaits {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -357,7 +356,7 @@ class Forfaits {
      *
      * @return bool|null Returns the nov.
      */
-    public function getNov(): ?bool{
+    public function getNov(): ?bool {
         return $this->nov;
     }
 
@@ -366,7 +365,7 @@ class Forfaits {
      *
      * @return int|null Returns the num forfait.
      */
-    public function getNumForfait(): ?int{
+    public function getNumForfait(): ?int {
         return $this->numForfait;
     }
 
@@ -375,7 +374,7 @@ class Forfaits {
      *
      * @return bool|null Returns the oct.
      */
-    public function getOct(): ?bool{
+    public function getOct(): ?bool {
         return $this->oct;
     }
 
@@ -384,7 +383,7 @@ class Forfaits {
      *
      * @return bool|null Returns the sep.
      */
-    public function getSep(): ?bool{
+    public function getSep(): ?bool {
         return $this->sep;
     }
 
@@ -393,7 +392,7 @@ class Forfaits {
      *
      * @return string|null Returns the type code prime.
      */
-    public function getTypeCodePrime(): ?string{
+    public function getTypeCodePrime(): ?string {
         return $this->typeCodePrime;
     }
 

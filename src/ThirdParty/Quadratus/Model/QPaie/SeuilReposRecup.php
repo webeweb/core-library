@@ -49,7 +49,6 @@ class SeuilReposRecup {
      */
     private $seuilDeclenche;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class SeuilReposRecup {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -71,7 +70,7 @@ class SeuilReposRecup {
      *
      * @return float|null Returns the nb jour repos recup.
      */
-    public function getNbJourReposRecup(): ?float{
+    public function getNbJourReposRecup(): ?float {
         return $this->nbJourReposRecup;
     }
 
@@ -80,7 +79,7 @@ class SeuilReposRecup {
      *
      * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType(): ?int{
+    public function getNumeroGrilleType(): ?int {
         return $this->numeroGrilleType;
     }
 
@@ -89,7 +88,7 @@ class SeuilReposRecup {
      *
      * @return float|null Returns the seuil declenche.
      */
-    public function getSeuilDeclenche(): ?float{
+    public function getSeuilDeclenche(): ?float {
         return $this->seuilDeclenche;
     }
 

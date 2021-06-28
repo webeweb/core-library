@@ -470,13 +470,6 @@ class FacturesEntetes {
     private $prestation;
 
     /**
-     * Rum.
-     *
-     * @var string|null
-     */
-    private $rum;
-
-    /**
      * Reference1.
      *
      * @var string|null
@@ -503,6 +496,13 @@ class FacturesEntetes {
      * @var string|null
      */
     private $reference4;
+
+    /**
+     * Rum.
+     *
+     * @var string|null
+     */
+    private $rum;
 
     /**
      * Saisir adresse.
@@ -560,7 +560,6 @@ class FacturesEntetes {
      */
     private $valeurIcs;
 
-
     /**
      * Constructor.
      */
@@ -573,7 +572,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int btq.
      */
-    public function getAdIntBtq(): ?string{
+    public function getAdIntBtq(): ?string {
         return $this->adIntBtq;
     }
 
@@ -582,7 +581,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int bureau distributeur.
      */
-    public function getAdIntBureauDistributeur(): ?string{
+    public function getAdIntBureauDistributeur(): ?string {
         return $this->adIntBureauDistributeur;
     }
 
@@ -591,7 +590,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int code pays.
      */
-    public function getAdIntCodePays(): ?string{
+    public function getAdIntCodePays(): ?string {
         return $this->adIntCodePays;
     }
 
@@ -600,7 +599,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int code postal.
      */
-    public function getAdIntCodePostal(): ?string{
+    public function getAdIntCodePostal(): ?string {
         return $this->adIntCodePostal;
     }
 
@@ -609,7 +608,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int complement.
      */
-    public function getAdIntComplement(): ?string{
+    public function getAdIntComplement(): ?string {
         return $this->adIntComplement;
     }
 
@@ -618,7 +617,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int nom.
      */
-    public function getAdIntNom(): ?string{
+    public function getAdIntNom(): ?string {
         return $this->adIntNom;
     }
 
@@ -627,7 +626,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int nom voie.
      */
-    public function getAdIntNomVoie(): ?string{
+    public function getAdIntNomVoie(): ?string {
         return $this->adIntNomVoie;
     }
 
@@ -636,7 +635,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the ad int num voie.
      */
-    public function getAdIntNumVoie(): ?string{
+    public function getAdIntNumVoie(): ?string {
         return $this->adIntNumVoie;
     }
 
@@ -645,7 +644,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -654,7 +653,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -663,7 +662,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -672,7 +671,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -681,7 +680,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code anal client.
      */
-    public function getCodeAnalClient(): ?string{
+    public function getCodeAnalClient(): ?string {
         return $this->codeAnalClient;
     }
 
@@ -690,7 +689,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -699,7 +698,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -708,7 +707,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code client fact.
      */
-    public function getCodeClientFact(): ?string{
+    public function getCodeClientFact(): ?string {
         return $this->codeClientFact;
     }
 
@@ -717,7 +716,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -726,7 +725,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code factor.
      */
-    public function getCodeFactor(): ?string{
+    public function getCodeFactor(): ?string {
         return $this->codeFactor;
     }
 
@@ -735,7 +734,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code langue designation article.
      */
-    public function getCodeLangueDesignationArticle(): ?string{
+    public function getCodeLangueDesignationArticle(): ?string {
         return $this->codeLangueDesignationArticle;
     }
 
@@ -744,7 +743,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code mode reglement.
      */
-    public function getCodeModeReglement(): ?string{
+    public function getCodeModeReglement(): ?string {
         return $this->codeModeReglement;
     }
 
@@ -753,7 +752,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -762,7 +761,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -771,7 +770,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -780,7 +779,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code representant.
      */
-    public function getCodeRepresentant(): ?string{
+    public function getCodeRepresentant(): ?string {
         return $this->codeRepresentant;
     }
 
@@ -789,7 +788,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code tva client.
      */
-    public function getCodeTvaClient(): ?string{
+    public function getCodeTvaClient(): ?string {
         return $this->codeTvaClient;
     }
 
@@ -798,7 +797,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the code ventil client.
      */
-    public function getCodeVentilClient(): ?string{
+    public function getCodeVentilClient(): ?string {
         return $this->codeVentilClient;
     }
 
@@ -807,7 +806,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -816,7 +815,7 @@ class FacturesEntetes {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -825,7 +824,7 @@ class FacturesEntetes {
      *
      * @return DateTime|null Returns the date facture.
      */
-    public function getDateFacture(): ?DateTime{
+    public function getDateFacture(): ?DateTime {
         return $this->dateFacture;
     }
 
@@ -834,7 +833,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the date limite forcee.
      */
-    public function getDateLimiteForcee(): ?bool{
+    public function getDateLimiteForcee(): ?bool {
         return $this->dateLimiteForcee;
     }
 
@@ -843,7 +842,7 @@ class FacturesEntetes {
      *
      * @return DateTime|null Returns the date limite resiliation.
      */
-    public function getDateLimiteResiliation(): ?DateTime{
+    public function getDateLimiteResiliation(): ?DateTime {
         return $this->dateLimiteResiliation;
     }
 
@@ -852,7 +851,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the echeance depart.
      */
-    public function getEcheanceDepart(): ?string{
+    public function getEcheanceDepart(): ?string {
         return $this->echeanceDepart;
     }
 
@@ -861,7 +860,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the echeance forcee.
      */
-    public function getEcheanceForcee(): ?bool{
+    public function getEcheanceForcee(): ?bool {
         return $this->echeanceForcee;
     }
 
@@ -870,7 +869,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the echeance le.
      */
-    public function getEcheanceLe(): ?string{
+    public function getEcheanceLe(): ?string {
         return $this->echeanceLe;
     }
 
@@ -879,7 +878,7 @@ class FacturesEntetes {
      *
      * @return int|null Returns the echeance nb jours.
      */
-    public function getEcheanceNbJours(): ?int{
+    public function getEcheanceNbJours(): ?int {
         return $this->echeanceNbJours;
     }
 
@@ -888,7 +887,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -897,7 +896,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros(): ?bool{
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
@@ -906,7 +905,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the facture vm.
      */
-    public function getFactureVm(): ?bool{
+    public function getFactureVm(): ?bool {
         return $this->factureVm;
     }
 
@@ -915,7 +914,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the fonction commercial.
      */
-    public function getFonctionCommercial(): ?string{
+    public function getFonctionCommercial(): ?string {
         return $this->fonctionCommercial;
     }
 
@@ -924,7 +923,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the interlocuteur.
      */
-    public function getInterlocuteur(): ?string{
+    public function getInterlocuteur(): ?string {
         return $this->interlocuteur;
     }
 
@@ -933,7 +932,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the lib transf cpta.
      */
-    public function getLibTransfCpta(): ?string{
+    public function getLibTransfCpta(): ?string {
         return $this->libTransfCpta;
     }
 
@@ -942,7 +941,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -951,7 +950,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the libelle transf cpta.
      */
-    public function getLibelleTransfCpta(): ?string{
+    public function getLibelleTransfCpta(): ?string {
         return $this->libelleTransfCpta;
     }
 
@@ -960,7 +959,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the lien doc doss cpta.
      */
-    public function getLienDocDossCpta(): ?string{
+    public function getLienDocDossCpta(): ?string {
         return $this->lienDocDossCpta;
     }
 
@@ -969,7 +968,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -978,7 +977,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the mention libre.
      */
-    public function getMentionLibre(): ?string{
+    public function getMentionLibre(): ?string {
         return $this->mentionLibre;
     }
 
@@ -987,7 +986,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the montant acompte.
      */
-    public function getMontantAcompte(): ?float{
+    public function getMontantAcompte(): ?float {
         return $this->montantAcompte;
     }
 
@@ -996,7 +995,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the montant htpx.
      */
-    public function getMontantHtpx(): ?float{
+    public function getMontantHtpx(): ?float {
         return $this->montantHtpx;
     }
 
@@ -1005,7 +1004,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the montant htvm.
      */
-    public function getMontantHtvm(): ?float{
+    public function getMontantHtvm(): ?float {
         return $this->montantHtvm;
     }
 
@@ -1014,7 +1013,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the montant ttc.
      */
-    public function getMontantTtc(): ?float{
+    public function getMontantTtc(): ?float {
         return $this->montantTtc;
     }
 
@@ -1023,7 +1022,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the nom client.
      */
-    public function getNomClient(): ?string{
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
@@ -1032,7 +1031,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -1041,7 +1040,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2(): ?string{
+    public function getNomSuite2(): ?string {
         return $this->nomSuite2;
     }
 
@@ -1050,7 +1049,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3(): ?string{
+    public function getNomSuite3(): ?string {
         return $this->nomSuite3;
     }
 
@@ -1059,7 +1058,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -1068,7 +1067,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?string{
+    public function getNombreEcheances(): ?string {
         return $this->nombreEcheances;
     }
 
@@ -1077,7 +1076,7 @@ class FacturesEntetes {
      *
      * @return int|null Returns the num mandat.
      */
-    public function getNumMandat(): ?int{
+    public function getNumMandat(): ?int {
         return $this->numMandat;
     }
 
@@ -1086,7 +1085,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -1095,7 +1094,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the numero commande web ft.
      */
-    public function getNumeroCommandeWebFt(): ?string{
+    public function getNumeroCommandeWebFt(): ?string {
         return $this->numeroCommandeWebFt;
     }
 
@@ -1104,7 +1103,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -1113,7 +1112,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis(): ?string{
+    public function getNumeroDevis(): ?string {
         return $this->numeroDevis;
     }
 
@@ -1122,7 +1121,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the numero facture.
      */
-    public function getNumeroFacture(): ?string{
+    public function getNumeroFacture(): ?string {
         return $this->numeroFacture;
     }
 
@@ -1131,7 +1130,7 @@ class FacturesEntetes {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -1140,17 +1139,8 @@ class FacturesEntetes {
      *
      * @return string|null Returns the prestation.
      */
-    public function getPrestation(): ?string{
+    public function getPrestation(): ?string {
         return $this->prestation;
-    }
-
-    /**
-     * Get the rum.
-     *
-     * @return string|null Returns the rum.
-     */
-    public function getRum(): ?string{
-        return $this->rum;
     }
 
     /**
@@ -1158,7 +1148,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the reference1.
      */
-    public function getReference1(): ?string{
+    public function getReference1(): ?string {
         return $this->reference1;
     }
 
@@ -1167,7 +1157,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the reference2.
      */
-    public function getReference2(): ?string{
+    public function getReference2(): ?string {
         return $this->reference2;
     }
 
@@ -1176,7 +1166,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the reference3.
      */
-    public function getReference3(): ?string{
+    public function getReference3(): ?string {
         return $this->reference3;
     }
 
@@ -1185,8 +1175,17 @@ class FacturesEntetes {
      *
      * @return string|null Returns the reference4.
      */
-    public function getReference4(): ?string{
+    public function getReference4(): ?string {
         return $this->reference4;
+    }
+
+    /**
+     * Get the rum.
+     *
+     * @return string|null Returns the rum.
+     */
+    public function getRum(): ?string {
+        return $this->rum;
     }
 
     /**
@@ -1194,7 +1193,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the saisir adresse.
      */
-    public function getSaisirAdresse(): ?bool{
+    public function getSaisirAdresse(): ?bool {
         return $this->saisirAdresse;
     }
 
@@ -1203,7 +1202,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -1212,7 +1211,7 @@ class FacturesEntetes {
      *
      * @return bool|null Returns the soumis taxe deee.
      */
-    public function getSoumisTaxeDeee(): ?bool{
+    public function getSoumisTaxeDeee(): ?bool {
         return $this->soumisTaxeDeee;
     }
 
@@ -1221,7 +1220,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the taux devise.
      */
-    public function getTauxDevise(): ?float{
+    public function getTauxDevise(): ?float {
         return $this->tauxDevise;
     }
 
@@ -1230,7 +1229,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte(): ?float{
+    public function getTauxEscompte(): ?float {
         return $this->tauxEscompte;
     }
 
@@ -1239,7 +1238,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the taux remise1.
      */
-    public function getTauxRemise1(): ?float{
+    public function getTauxRemise1(): ?float {
         return $this->tauxRemise1;
     }
 
@@ -1248,7 +1247,7 @@ class FacturesEntetes {
      *
      * @return float|null Returns the taux remise2.
      */
-    public function getTauxRemise2(): ?float{
+    public function getTauxRemise2(): ?float {
         return $this->tauxRemise2;
     }
 
@@ -1257,7 +1256,7 @@ class FacturesEntetes {
      *
      * @return string|null Returns the valeur ics.
      */
-    public function getValeurIcs(): ?string{
+    public function getValeurIcs(): ?string {
         return $this->valeurIcs;
     }
 
@@ -1966,17 +1965,6 @@ class FacturesEntetes {
     }
 
     /**
-     * Set the rum.
-     *
-     * @param string|null $rum The rum.
-     * @return FacturesEntetes Returns this Factures entetes.
-     */
-    public function setRum(?string $rum): FacturesEntetes {
-        $this->rum = $rum;
-        return $this;
-    }
-
-    /**
      * Set the reference1.
      *
      * @param string|null $reference1 The reference1.
@@ -2017,6 +2005,17 @@ class FacturesEntetes {
      */
     public function setReference4(?string $reference4): FacturesEntetes {
         $this->reference4 = $reference4;
+        return $this;
+    }
+
+    /**
+     * Set the rum.
+     *
+     * @param string|null $rum The rum.
+     * @return FacturesEntetes Returns this Factures entetes.
+     */
+    public function setRum(?string $rum): FacturesEntetes {
+        $this->rum = $rum;
         return $this;
     }
 

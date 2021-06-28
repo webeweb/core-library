@@ -22,11 +22,11 @@ use DateTime;
 class InfosComplBul {
 
     /**
-     * Aen logement.
+     * Active sal min conv.
      *
      * @var bool|null
      */
-    private $aenLogement;
+    private $activeSalMinConv;
 
     /**
      * Active smic.
@@ -36,11 +36,11 @@ class InfosComplBul {
     private $activeSmic;
 
     /**
-     * Active sal min conv.
+     * Aen logement.
      *
      * @var bool|null
      */
-    private $activeSalMinConv;
+    private $aenLogement;
 
     /**
      * Alleg particulier emp.
@@ -78,13 +78,6 @@ class InfosComplBul {
     private $autreAllegEmp;
 
     /**
-     * Btq.
-     *
-     * @var string|null
-     */
-    private $btq;
-
-    /**
      * Brut al sans h sup.
      *
      * @var float|null
@@ -99,18 +92,18 @@ class InfosComplBul {
     private $brutAlSansHSupMajoHe;
 
     /**
+     * Btq.
+     *
+     * @var string|null
+     */
+    private $btq;
+
+    /**
      * Bureau distributeur.
      *
      * @var string|null
      */
     private $bureauDistributeur;
-
-    /**
-     * Cddcdi.
-     *
-     * @var bool|null
-     */
-    private $cddcdi;
 
     /**
      * Caisse cp.
@@ -132,6 +125,13 @@ class InfosComplBul {
      * @var string|null
      */
     private $categSalarie;
+
+    /**
+     * Cddcdi.
+     *
+     * @var bool|null
+     */
+    private $cddcdi;
 
     /**
      * Centre analytique.
@@ -596,18 +596,18 @@ class InfosComplBul {
     private $etabLieuTravail;
 
     /**
-     * Exclure cice.
-     *
-     * @var bool|null
-     */
-    private $exclureCice;
-
-    /**
      * Exclure chom cdd.
      *
      * @var bool|null
      */
     private $exclureChomCdd;
+
+    /**
+     * Exclure cice.
+     *
+     * @var bool|null
+     */
+    private $exclureCice;
 
     /**
      * Exclure cospar.
@@ -841,20 +841,6 @@ class InfosComplBul {
     private $mtAbsActPart;
 
     /**
-     * Mt crds100.
-     *
-     * @var float|null
-     */
-    private $mtCrds100;
-
-    /**
-     * Mt csg100.
-     *
-     * @var float|null
-     */
-    private $mtCsg100;
-
-    /**
      * Mt cotisation prev.
      *
      * @var float|null
@@ -867,6 +853,20 @@ class InfosComplBul {
      * @var float|null
      */
     private $mtCotisationRetraite;
+
+    /**
+     * Mt crds100.
+     *
+     * @var float|null
+     */
+    private $mtCrds100;
+
+    /**
+     * Mt csg100.
+     *
+     * @var float|null
+     */
+    private $mtCsg100;
 
     /**
      * Mt fisc frais sante.
@@ -1121,13 +1121,6 @@ class InfosComplBul {
     private $numeroGrilleType;
 
     /**
-     * Pss1 force.
-     *
-     * @var bool|null
-     */
-    private $pss1Force;
-
-    /**
      * Part patron prev forfait social8.
      *
      * @var float|null
@@ -1191,11 +1184,39 @@ class InfosComplBul {
     private $prenom;
 
     /**
+     * Pss1 force.
+     *
+     * @var bool|null
+     */
+    private $pss1Force;
+
+    /**
      * Qualification.
      *
      * @var string|null
      */
     private $qualification;
+
+    /**
+     * Reduction fillon.
+     *
+     * @var bool|null
+     */
+    private $reductionFillon;
+
+    /**
+     * Regle calcul.
+     *
+     * @var string|null
+     */
+    private $regleCalcul;
+
+    /**
+     * Remun part fillon.
+     *
+     * @var bool|null
+     */
+    private $remunPartFillon;
 
     /**
      * Rtt1.
@@ -1282,48 +1303,6 @@ class InfosComplBul {
     private $rtt9;
 
     /**
-     * Reduction fillon.
-     *
-     * @var bool|null
-     */
-    private $reductionFillon;
-
-    /**
-     * Regle calcul.
-     *
-     * @var string|null
-     */
-    private $regleCalcul;
-
-    /**
-     * Remun part fillon.
-     *
-     * @var bool|null
-     */
-    private $remunPartFillon;
-
-    /**
-     * Setp fillon.
-     *
-     * @var float|null
-     */
-    private $setpFillon;
-
-    /**
-     * Smic maf.
-     *
-     * @var float|null
-     */
-    private $smicMaf;
-
-    /**
-     * Smic mcice.
-     *
-     * @var float|null
-     */
-    private $smicMcice;
-
-    /**
      * Salaire base.
      *
      * @var float|null
@@ -1366,6 +1345,13 @@ class InfosComplBul {
     private $service;
 
     /**
+     * Setp fillon.
+     *
+     * @var float|null
+     */
+    private $setpFillon;
+
+    /**
      * Signe af.
      *
      * @var string|null
@@ -1385,6 +1371,20 @@ class InfosComplBul {
      * @var float|null
      */
     private $smicMFillonSansHs;
+
+    /**
+     * Smic maf.
+     *
+     * @var float|null
+     */
+    private $smicMaf;
+
+    /**
+     * Smic mcice.
+     *
+     * @var float|null
+     */
+    private $smicMcice;
 
     /**
      * Subrogation.
@@ -1408,13 +1408,6 @@ class InfosComplBul {
     private $tds76;
 
     /**
-     * Tepa moins20.
-     *
-     * @var bool|null
-     */
-    private $tepaMoins20;
-
-    /**
      * Tel1.
      *
      * @var string|null
@@ -1427,6 +1420,13 @@ class InfosComplBul {
      * @var string|null
      */
     private $tel2;
+
+    /**
+     * Tepa moins20.
+     *
+     * @var bool|null
+     */
+    private $tepaMoins20;
 
     /**
      * Titre.
@@ -1568,7 +1568,6 @@ class InfosComplBul {
      */
     private $vrpMulticarte;
 
-
     /**
      * Constructor.
      */
@@ -1577,12 +1576,12 @@ class InfosComplBul {
     }
 
     /**
-     * Get the aen logement.
+     * Get the active sal min conv.
      *
-     * @return bool|null Returns the aen logement.
+     * @return bool|null Returns the active sal min conv.
      */
-    public function getAenLogement(): ?bool{
-        return $this->aenLogement;
+    public function getActiveSalMinConv(): ?bool {
+        return $this->activeSalMinConv;
     }
 
     /**
@@ -1590,17 +1589,17 @@ class InfosComplBul {
      *
      * @return bool|null Returns the active smic.
      */
-    public function getActiveSmic(): ?bool{
+    public function getActiveSmic(): ?bool {
         return $this->activeSmic;
     }
 
     /**
-     * Get the active sal min conv.
+     * Get the aen logement.
      *
-     * @return bool|null Returns the active sal min conv.
+     * @return bool|null Returns the aen logement.
      */
-    public function getActiveSalMinConv(): ?bool{
-        return $this->activeSalMinConv;
+    public function getAenLogement(): ?bool {
+        return $this->aenLogement;
     }
 
     /**
@@ -1608,7 +1607,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the alleg particulier emp.
      */
-    public function getAllegParticulierEmp(): ?string{
+    public function getAllegParticulierEmp(): ?string {
         return $this->allegParticulierEmp;
     }
 
@@ -1617,7 +1616,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the annexe7 mutation.
      */
-    public function getAnnexe7Mutation(): ?bool{
+    public function getAnnexe7Mutation(): ?bool {
         return $this->annexe7Mutation;
     }
 
@@ -1626,7 +1625,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the arbitrage auto.
      */
-    public function getArbitrageAuto(): ?string{
+    public function getArbitrageAuto(): ?string {
         return $this->arbitrageAuto;
     }
 
@@ -1635,7 +1634,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the assiette af.
      */
-    public function getAssietteAf(): ?float{
+    public function getAssietteAf(): ?float {
         return $this->assietteAf;
     }
 
@@ -1644,17 +1643,8 @@ class InfosComplBul {
      *
      * @return string|null Returns the autre alleg emp.
      */
-    public function getAutreAllegEmp(): ?string{
+    public function getAutreAllegEmp(): ?string {
         return $this->autreAllegEmp;
-    }
-
-    /**
-     * Get the btq.
-     *
-     * @return string|null Returns the btq.
-     */
-    public function getBtq(): ?string{
-        return $this->btq;
     }
 
     /**
@@ -1662,7 +1652,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the brut al sans h sup.
      */
-    public function getBrutAlSansHSup(): ?float{
+    public function getBrutAlSansHSup(): ?float {
         return $this->brutAlSansHSup;
     }
 
@@ -1671,8 +1661,17 @@ class InfosComplBul {
      *
      * @return float|null Returns the brut al sans h sup majo he.
      */
-    public function getBrutAlSansHSupMajoHe(): ?float{
+    public function getBrutAlSansHSupMajoHe(): ?float {
         return $this->brutAlSansHSupMajoHe;
+    }
+
+    /**
+     * Get the btq.
+     *
+     * @return string|null Returns the btq.
+     */
+    public function getBtq(): ?string {
+        return $this->btq;
     }
 
     /**
@@ -1680,17 +1679,8 @@ class InfosComplBul {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
-    }
-
-    /**
-     * Get the cddcdi.
-     *
-     * @return bool|null Returns the cddcdi.
-     */
-    public function getCddcdi(): ?bool{
-        return $this->cddcdi;
     }
 
     /**
@@ -1698,7 +1688,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the caisse cp.
      */
-    public function getCaisseCp(): ?bool{
+    public function getCaisseCp(): ?bool {
         return $this->caisseCp;
     }
 
@@ -1707,7 +1697,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the categ population.
      */
-    public function getCategPopulation(): ?string{
+    public function getCategPopulation(): ?string {
         return $this->categPopulation;
     }
 
@@ -1716,8 +1706,17 @@ class InfosComplBul {
      *
      * @return string|null Returns the categ salarie.
      */
-    public function getCategSalarie(): ?string{
+    public function getCategSalarie(): ?string {
         return $this->categSalarie;
+    }
+
+    /**
+     * Get the cddcdi.
+     *
+     * @return bool|null Returns the cddcdi.
+     */
+    public function getCddcdi(): ?bool {
+        return $this->cddcdi;
     }
 
     /**
@@ -1725,7 +1724,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique(): ?string{
+    public function getCentreAnalytique(): ?string {
         return $this->centreAnalytique;
     }
 
@@ -1734,7 +1733,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the classification.
      */
-    public function getClassification(): ?string{
+    public function getClassification(): ?string {
         return $this->classification;
     }
 
@@ -1743,7 +1742,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code caisse cp.
      */
-    public function getCodeCaisseCp(): ?string{
+    public function getCodeCaisseCp(): ?string {
         return $this->codeCaisseCp;
     }
 
@@ -1752,7 +1751,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code caract.
      */
-    public function getCodeCaract(): ?string{
+    public function getCodeCaract(): ?string {
         return $this->codeCaract;
     }
 
@@ -1761,7 +1760,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code categ sal pourcent abat.
      */
-    public function getCodeCategSalPourcentAbat(): ?string{
+    public function getCodeCategSalPourcentAbat(): ?string {
         return $this->codeCategSalPourcentAbat;
     }
 
@@ -1770,7 +1769,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code class btp.
      */
-    public function getCodeClassBtp(): ?string{
+    public function getCodeClassBtp(): ?string {
         return $this->codeClassBtp;
     }
 
@@ -1779,7 +1778,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code contrat trav.
      */
-    public function getCodeContratTrav(): ?string{
+    public function getCodeContratTrav(): ?string {
         return $this->codeContratTrav;
     }
 
@@ -1788,7 +1787,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code convention.
      */
-    public function getCodeConvention(): ?string{
+    public function getCodeConvention(): ?string {
         return $this->codeConvention;
     }
 
@@ -1797,7 +1796,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code convention col.
      */
-    public function getCodeConventionCol(): ?string{
+    public function getCodeConventionCol(): ?string {
         return $this->codeConventionCol;
     }
 
@@ -1806,7 +1805,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code emp remplace.
      */
-    public function getCodeEmpRemplace(): ?string{
+    public function getCodeEmpRemplace(): ?string {
         return $this->codeEmpRemplace;
     }
 
@@ -1815,7 +1814,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code exo trav.
      */
-    public function getCodeExoTrav(): ?string{
+    public function getCodeExoTrav(): ?string {
         return $this->codeExoTrav;
     }
 
@@ -1824,7 +1823,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code intit contrat trav.
      */
-    public function getCodeIntitContratTrav(): ?string{
+    public function getCodeIntitContratTrav(): ?string {
         return $this->codeIntitContratTrav;
     }
 
@@ -1833,7 +1832,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code metier btp.
      */
-    public function getCodeMetierBtp(): ?string{
+    public function getCodeMetierBtp(): ?string {
         return $this->codeMetierBtp;
     }
 
@@ -1842,7 +1841,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -1851,7 +1850,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -1860,7 +1859,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code regime at.
      */
-    public function getCodeRegimeAt(): ?string{
+    public function getCodeRegimeAt(): ?string {
         return $this->codeRegimeAt;
     }
 
@@ -1869,7 +1868,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code regime base obl.
      */
-    public function getCodeRegimeBaseObl(): ?string{
+    public function getCodeRegimeBaseObl(): ?string {
         return $this->codeRegimeBaseObl;
     }
 
@@ -1878,7 +1877,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code regime vieillesse.
      */
-    public function getCodeRegimeVieillesse(): ?string{
+    public function getCodeRegimeVieillesse(): ?string {
         return $this->codeRegimeVieillesse;
     }
 
@@ -1887,7 +1886,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code retraite complementaire.
      */
-    public function getCodeRetraiteComplementaire(): ?string{
+    public function getCodeRetraiteComplementaire(): ?string {
         return $this->codeRetraiteComplementaire;
     }
 
@@ -1896,7 +1895,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code situ admin.
      */
-    public function getCodeSituAdmin(): ?string{
+    public function getCodeSituAdmin(): ?string {
         return $this->codeSituAdmin;
     }
 
@@ -1905,7 +1904,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code statut categ.
      */
-    public function getCodeStatutCateg(): ?string{
+    public function getCodeStatutCateg(): ?string {
         return $this->codeStatutCateg;
     }
 
@@ -1914,7 +1913,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code statut categ retraite.
      */
-    public function getCodeStatutCategRetraite(): ?string{
+    public function getCodeStatutCategRetraite(): ?string {
         return $this->codeStatutCategRetraite;
     }
 
@@ -1923,7 +1922,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code statut pro.
      */
-    public function getCodeStatutPro(): ?string{
+    public function getCodeStatutPro(): ?string {
         return $this->codeStatutPro;
     }
 
@@ -1932,7 +1931,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code tuteur.
      */
-    public function getCodeTuteur(): ?string{
+    public function getCodeTuteur(): ?string {
         return $this->codeTuteur;
     }
 
@@ -1941,7 +1940,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the code unite temps travail.
      */
-    public function getCodeUniteTempsTravail(): ?string{
+    public function getCodeUniteTempsTravail(): ?string {
         return $this->codeUniteTempsTravail;
     }
 
@@ -1950,7 +1949,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the coeff convention.
      */
-    public function getCoeffConvention(): ?string{
+    public function getCoeffConvention(): ?string {
         return $this->coeffConvention;
     }
 
@@ -1959,7 +1958,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the coeff fillon moins20.
      */
-    public function getCoeffFillonMoins20(): ?bool{
+    public function getCoeffFillonMoins20(): ?bool {
         return $this->coeffFillonMoins20;
     }
 
@@ -1968,7 +1967,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -1977,7 +1976,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the complement pcs.
      */
-    public function getComplementPcs(): ?string{
+    public function getComplementPcs(): ?string {
         return $this->complementPcs;
     }
 
@@ -1986,7 +1985,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the contrat cne.
      */
-    public function getContratCne(): ?bool{
+    public function getContratCne(): ?bool {
         return $this->contratCne;
     }
 
@@ -1995,7 +1994,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum base prevoyance comp.
      */
-    public function getCumBasePrevoyanceComp(): ?float{
+    public function getCumBasePrevoyanceComp(): ?float {
         return $this->cumBasePrevoyanceComp;
     }
 
@@ -2004,7 +2003,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum base retraite obli.
      */
-    public function getCumBaseRetraiteObli(): ?float{
+    public function getCumBaseRetraiteObli(): ?float {
         return $this->cumBaseRetraiteObli;
     }
 
@@ -2013,7 +2012,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum base retraite supp.
      */
-    public function getCumBaseRetraiteSupp(): ?float{
+    public function getCumBaseRetraiteSupp(): ?float {
         return $this->cumBaseRetraiteSupp;
     }
 
@@ -2022,7 +2021,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum mt forfait social20.
      */
-    public function getCumMtForfaitSocial20(): ?float{
+    public function getCumMtForfaitSocial20(): ?float {
         return $this->cumMtForfaitSocial20;
     }
 
@@ -2031,7 +2030,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum mt forfait social8.
      */
-    public function getCumMtForfaitSocial8(): ?float{
+    public function getCumMtForfaitSocial8(): ?float {
         return $this->cumMtForfaitSocial8;
     }
 
@@ -2040,7 +2039,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum pp fisc prev.
      */
-    public function getCumPpFiscPrev(): ?float{
+    public function getCumPpFiscPrev(): ?float {
         return $this->cumPpFiscPrev;
     }
 
@@ -2049,7 +2048,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum pp fisc ret.
      */
-    public function getCumPpFiscRet(): ?float{
+    public function getCumPpFiscRet(): ?float {
         return $this->cumPpFiscRet;
     }
 
@@ -2058,7 +2057,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum ps fisc prev.
      */
-    public function getCumPsFiscPrev(): ?float{
+    public function getCumPsFiscPrev(): ?float {
         return $this->cumPsFiscPrev;
     }
 
@@ -2067,7 +2066,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum ps fisc ret.
      */
-    public function getCumPsFiscRet(): ?float{
+    public function getCumPsFiscRet(): ?float {
         return $this->cumPsFiscRet;
     }
 
@@ -2076,7 +2075,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum smic m.
      */
-    public function getCumSmicM(): ?float{
+    public function getCumSmicM(): ?float {
         return $this->cumSmicM;
     }
 
@@ -2085,7 +2084,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tr d1 caisse1.
      */
-    public function getCumTrD1Caisse1(): ?float{
+    public function getCumTrD1Caisse1(): ?float {
         return $this->cumTrD1Caisse1;
     }
 
@@ -2094,7 +2093,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tr d1caisse2.
      */
-    public function getCumTrD1caisse2(): ?float{
+    public function getCumTrD1caisse2(): ?float {
         return $this->cumTrD1caisse2;
     }
 
@@ -2103,7 +2102,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tr d1caisse3.
      */
-    public function getCumTrD1caisse3(): ?float{
+    public function getCumTrD1caisse3(): ?float {
         return $this->cumTrD1caisse3;
     }
 
@@ -2112,7 +2111,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tr d caisse1.
      */
-    public function getCumTrDCaisse1(): ?float{
+    public function getCumTrDCaisse1(): ?float {
         return $this->cumTrDCaisse1;
     }
 
@@ -2121,7 +2120,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tr dcaisse2.
      */
-    public function getCumTrDcaisse2(): ?float{
+    public function getCumTrDcaisse2(): ?float {
         return $this->cumTrDcaisse2;
     }
 
@@ -2130,7 +2129,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tr dcaisse3.
      */
-    public function getCumTrDcaisse3(): ?float{
+    public function getCumTrDcaisse3(): ?float {
         return $this->cumTrDcaisse3;
     }
 
@@ -2139,7 +2138,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tranche d.
      */
-    public function getCumTrancheD(): ?float{
+    public function getCumTrancheD(): ?float {
         return $this->cumTrancheD;
     }
 
@@ -2148,7 +2147,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the cum tranche d1.
      */
-    public function getCumTrancheD1(): ?float{
+    public function getCumTrancheD1(): ?float {
         return $this->cumTrancheD1;
     }
 
@@ -2157,7 +2156,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date ancien branche.
      */
-    public function getDateAncienBranche(): ?DateTime{
+    public function getDateAncienBranche(): ?DateTime {
         return $this->dateAncienBranche;
     }
 
@@ -2166,7 +2165,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date ancien college.
      */
-    public function getDateAncienCollege(): ?DateTime{
+    public function getDateAncienCollege(): ?DateTime {
         return $this->dateAncienCollege;
     }
 
@@ -2175,7 +2174,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date ancien poste.
      */
-    public function getDateAncienPoste(): ?DateTime{
+    public function getDateAncienPoste(): ?DateTime {
         return $this->dateAncienPoste;
     }
 
@@ -2184,7 +2183,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date debut chom cdd.
      */
-    public function getDateDebutChomCdd(): ?DateTime{
+    public function getDateDebutChomCdd(): ?DateTime {
         return $this->dateDebutChomCdd;
     }
 
@@ -2193,7 +2192,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date debut contrat.
      */
-    public function getDateDebutContrat(): ?DateTime{
+    public function getDateDebutContrat(): ?DateTime {
         return $this->dateDebutContrat;
     }
 
@@ -2202,7 +2201,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date envoi mail.
      */
-    public function getDateEnvoiMail(): ?DateTime{
+    public function getDateEnvoiMail(): ?DateTime {
         return $this->dateEnvoiMail;
     }
 
@@ -2211,7 +2210,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date fin chom cdd.
      */
-    public function getDateFinChomCdd(): ?DateTime{
+    public function getDateFinChomCdd(): ?DateTime {
         return $this->dateFinChomCdd;
     }
 
@@ -2220,7 +2219,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date fin contrat.
      */
-    public function getDateFinContrat(): ?DateTime{
+    public function getDateFinContrat(): ?DateTime {
         return $this->dateFinContrat;
     }
 
@@ -2229,7 +2228,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date fin prev.
      */
-    public function getDateFinPrev(): ?DateTime{
+    public function getDateFinPrev(): ?DateTime {
         return $this->dateFinPrev;
     }
 
@@ -2238,7 +2237,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date rachat.
      */
-    public function getDateRachat(): ?DateTime{
+    public function getDateRachat(): ?DateTime {
         return $this->dateRachat;
     }
 
@@ -2247,7 +2246,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date renouv cdd.
      */
-    public function getDateRenouvCdd(): ?DateTime{
+    public function getDateRenouvCdd(): ?DateTime {
         return $this->dateRenouvCdd;
     }
 
@@ -2256,7 +2255,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the date renouv cdd2.
      */
-    public function getDateRenouvCdd2(): ?DateTime{
+    public function getDateRenouvCdd2(): ?DateTime {
         return $this->dateRenouvCdd2;
     }
 
@@ -2265,7 +2264,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the detache expatrie.
      */
-    public function getDetacheExpatrie(): ?string{
+    public function getDetacheExpatrie(): ?string {
         return $this->detacheExpatrie;
     }
 
@@ -2274,7 +2273,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the echelon.
      */
-    public function getEchelon(): ?string{
+    public function getEchelon(): ?string {
         return $this->echelon;
     }
 
@@ -2283,7 +2282,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the echelon convention col.
      */
-    public function getEchelonConventionCol(): ?string{
+    public function getEchelonConventionCol(): ?string {
         return $this->echelonConventionCol;
     }
 
@@ -2292,7 +2291,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the email.
      */
-    public function getEmail(): ?string{
+    public function getEmail(): ?string {
         return $this->email;
     }
 
@@ -2301,7 +2300,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the emploi.
      */
-    public function getEmploi(): ?string{
+    public function getEmploi(): ?string {
         return $this->emploi;
     }
 
@@ -2310,17 +2309,8 @@ class InfosComplBul {
      *
      * @return string|null Returns the etab lieu travail.
      */
-    public function getEtabLieuTravail(): ?string{
+    public function getEtabLieuTravail(): ?string {
         return $this->etabLieuTravail;
-    }
-
-    /**
-     * Get the exclure cice.
-     *
-     * @return bool|null Returns the exclure cice.
-     */
-    public function getExclureCice(): ?bool{
-        return $this->exclureCice;
     }
 
     /**
@@ -2328,8 +2318,17 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure chom cdd.
      */
-    public function getExclureChomCdd(): ?bool{
+    public function getExclureChomCdd(): ?bool {
         return $this->exclureChomCdd;
+    }
+
+    /**
+     * Get the exclure cice.
+     *
+     * @return bool|null Returns the exclure cice.
+     */
+    public function getExclureCice(): ?bool {
+        return $this->exclureCice;
     }
 
     /**
@@ -2337,7 +2336,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure cospar.
      */
-    public function getExclureCospar(): ?bool{
+    public function getExclureCospar(): ?bool {
         return $this->exclureCospar;
     }
 
@@ -2346,7 +2345,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure dsn.
      */
-    public function getExclureDsn(): ?bool{
+    public function getExclureDsn(): ?bool {
         return $this->exclureDsn;
     }
 
@@ -2355,7 +2354,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure loi tepa.
      */
-    public function getExclureLoiTepa(): ?bool{
+    public function getExclureLoiTepa(): ?bool {
         return $this->exclureLoiTepa;
     }
 
@@ -2364,7 +2363,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure loi tepa part p.
      */
-    public function getExclureLoiTepaPartP(): ?bool{
+    public function getExclureLoiTepaPartP(): ?bool {
         return $this->exclureLoiTepaPartP;
     }
 
@@ -2373,7 +2372,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure loi tepa part s.
      */
-    public function getExclureLoiTepaPartS(): ?bool{
+    public function getExclureLoiTepaPartS(): ?bool {
         return $this->exclureLoiTepaPartS;
     }
 
@@ -2382,7 +2381,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exclure qgc.
      */
-    public function getExclureQgc(): ?bool{
+    public function getExclureQgc(): ?bool {
         return $this->exclureQgc;
     }
 
@@ -2391,7 +2390,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exo accre17.
      */
-    public function getExoAccre17(): ?bool{
+    public function getExoAccre17(): ?bool {
         return $this->exoAccre17;
     }
 
@@ -2400,7 +2399,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exo occasionnel msa.
      */
-    public function getExoOccasionnelMsa(): ?bool{
+    public function getExoOccasionnelMsa(): ?bool {
         return $this->exoOccasionnelMsa;
     }
 
@@ -2409,7 +2408,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exo professionnalisation.
      */
-    public function getExoProfessionnalisation(): ?bool{
+    public function getExoProfessionnalisation(): ?bool {
         return $this->exoProfessionnalisation;
     }
 
@@ -2418,7 +2417,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the exo specif.
      */
-    public function getExoSpecif(): ?bool{
+    public function getExoSpecif(): ?bool {
         return $this->exoSpecif;
     }
 
@@ -2427,7 +2426,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the forfait heure.
      */
-    public function getForfaitHeure(): ?bool{
+    public function getForfaitHeure(): ?bool {
         return $this->forfaitHeure;
     }
 
@@ -2436,7 +2435,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the fraction etab.
      */
-    public function getFractionEtab(): ?string{
+    public function getFractionEtab(): ?string {
         return $this->fractionEtab;
     }
 
@@ -2445,7 +2444,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the gestion cp.
      */
-    public function getGestionCp(): ?bool{
+    public function getGestionCp(): ?bool {
         return $this->gestionCp;
     }
 
@@ -2454,7 +2453,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the gestion hstepa.
      */
-    public function getGestionHstepa(): ?string{
+    public function getGestionHstepa(): ?string {
         return $this->gestionHstepa;
     }
 
@@ -2463,7 +2462,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the gestion mail bulletin.
      */
-    public function getGestionMailBulletin(): ?bool{
+    public function getGestionMailBulletin(): ?bool {
         return $this->gestionMailBulletin;
     }
 
@@ -2472,7 +2471,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the gestion rtt.
      */
-    public function getGestionRtt(): ?bool{
+    public function getGestionRtt(): ?bool {
         return $this->gestionRtt;
     }
 
@@ -2481,7 +2480,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the grille anc1.
      */
-    public function getGrilleAnc1(): ?string{
+    public function getGrilleAnc1(): ?string {
         return $this->grilleAnc1;
     }
 
@@ -2490,7 +2489,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the grille anc2.
      */
-    public function getGrilleAnc2(): ?string{
+    public function getGrilleAnc2(): ?string {
         return $this->grilleAnc2;
     }
 
@@ -2499,7 +2498,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the grille anc3.
      */
-    public function getGrilleAnc3(): ?string{
+    public function getGrilleAnc3(): ?string {
         return $this->grilleAnc3;
     }
 
@@ -2508,7 +2507,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the id lieu travail.
      */
-    public function getIdLieuTravail(): ?string{
+    public function getIdLieuTravail(): ?string {
         return $this->idLieuTravail;
     }
 
@@ -2517,7 +2516,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the indem cp msa.
      */
-    public function getIndemCpMsa(): ?bool{
+    public function getIndemCpMsa(): ?bool {
         return $this->indemCpMsa;
     }
 
@@ -2526,7 +2525,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the indice.
      */
-    public function getIndice(): ?string{
+    public function getIndice(): ?string {
         return $this->indice;
     }
 
@@ -2535,7 +2534,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg(): ?int{
+    public function getIndiceCateg(): ?int {
         return $this->indiceCateg;
     }
 
@@ -2544,7 +2543,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -2553,7 +2552,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the interim indem cp fillon.
      */
-    public function getInterimIndemCpFillon(): ?bool{
+    public function getInterimIndemCpFillon(): ?bool {
         return $this->interimIndemCpFillon;
     }
 
@@ -2562,7 +2561,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the libelle reintegration.
      */
-    public function getLibelleReintegration(): ?string{
+    public function getLibelleReintegration(): ?string {
         return $this->libelleReintegration;
     }
 
@@ -2571,7 +2570,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the lien reintegration.
      */
-    public function getLienReintegration(): ?string{
+    public function getLienReintegration(): ?string {
         return $this->lienReintegration;
     }
 
@@ -2580,7 +2579,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the maintien intervient cp.
      */
-    public function getMaintienIntervientCp(): ?bool{
+    public function getMaintienIntervientCp(): ?bool {
         return $this->maintienIntervientCp;
     }
 
@@ -2589,7 +2588,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the maintien salaire.
      */
-    public function getMaintienSalaire(): ?bool{
+    public function getMaintienSalaire(): ?bool {
         return $this->maintienSalaire;
     }
 
@@ -2598,7 +2597,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the montant avantage.
      */
-    public function getMontantAvantage(): ?float{
+    public function getMontantAvantage(): ?float {
         return $this->montantAvantage;
     }
 
@@ -2607,7 +2606,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the motif cdd.
      */
-    public function getMotifCdd(): ?string{
+    public function getMotifCdd(): ?string {
         return $this->motifCdd;
     }
 
@@ -2616,7 +2615,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the motif exclusion dsn.
      */
-    public function getMotifExclusionDsn(): ?string{
+    public function getMotifExclusionDsn(): ?string {
         return $this->motifExclusionDsn;
     }
 
@@ -2625,26 +2624,8 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt abs act part.
      */
-    public function getMtAbsActPart(): ?float{
+    public function getMtAbsActPart(): ?float {
         return $this->mtAbsActPart;
-    }
-
-    /**
-     * Get the mt crds100.
-     *
-     * @return float|null Returns the mt crds100.
-     */
-    public function getMtCrds100(): ?float{
-        return $this->mtCrds100;
-    }
-
-    /**
-     * Get the mt csg100.
-     *
-     * @return float|null Returns the mt csg100.
-     */
-    public function getMtCsg100(): ?float{
-        return $this->mtCsg100;
     }
 
     /**
@@ -2652,7 +2633,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt cotisation prev.
      */
-    public function getMtCotisationPrev(): ?float{
+    public function getMtCotisationPrev(): ?float {
         return $this->mtCotisationPrev;
     }
 
@@ -2661,8 +2642,26 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt cotisation retraite.
      */
-    public function getMtCotisationRetraite(): ?float{
+    public function getMtCotisationRetraite(): ?float {
         return $this->mtCotisationRetraite;
+    }
+
+    /**
+     * Get the mt crds100.
+     *
+     * @return float|null Returns the mt crds100.
+     */
+    public function getMtCrds100(): ?float {
+        return $this->mtCrds100;
+    }
+
+    /**
+     * Get the mt csg100.
+     *
+     * @return float|null Returns the mt csg100.
+     */
+    public function getMtCsg100(): ?float {
+        return $this->mtCsg100;
     }
 
     /**
@@ -2670,7 +2669,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt fisc frais sante.
      */
-    public function getMtFiscFraisSante(): ?float{
+    public function getMtFiscFraisSante(): ?float {
         return $this->mtFiscFraisSante;
     }
 
@@ -2679,7 +2678,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt fisc prev.
      */
-    public function getMtFiscPrev(): ?float{
+    public function getMtFiscPrev(): ?float {
         return $this->mtFiscPrev;
     }
 
@@ -2688,7 +2687,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt fisc retraite.
      */
-    public function getMtFiscRetraite(): ?float{
+    public function getMtFiscRetraite(): ?float {
         return $this->mtFiscRetraite;
     }
 
@@ -2697,7 +2696,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt forfait social20.
      */
-    public function getMtForfaitSocial20(): ?float{
+    public function getMtForfaitSocial20(): ?float {
         return $this->mtForfaitSocial20;
     }
 
@@ -2706,7 +2705,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt forfait social8.
      */
-    public function getMtForfaitSocial8(): ?float{
+    public function getMtForfaitSocial8(): ?float {
         return $this->mtForfaitSocial8;
     }
 
@@ -2715,7 +2714,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt iap.
      */
-    public function getMtIap(): ?float{
+    public function getMtIap(): ?float {
         return $this->mtIap;
     }
 
@@ -2724,7 +2723,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt journee cpn.
      */
-    public function getMtJourneeCpn(): ?float{
+    public function getMtJourneeCpn(): ?float {
         return $this->mtJourneeCpn;
     }
 
@@ -2733,7 +2732,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the mt journee cpn1.
      */
-    public function getMtJourneeCpn1(): ?float{
+    public function getMtJourneeCpn1(): ?float {
         return $this->mtJourneeCpn1;
     }
 
@@ -2742,7 +2741,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the multi employeur.
      */
-    public function getMultiEmployeur(): ?bool{
+    public function getMultiEmployeur(): ?bool {
         return $this->multiEmployeur;
     }
 
@@ -2751,7 +2750,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique(): ?string{
+    public function getNatureAnalytique(): ?string {
         return $this->natureAnalytique;
     }
 
@@ -2760,7 +2759,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the nb30 renouv cdd.
      */
-    public function getNb30RenouvCdd(): ?int{
+    public function getNb30RenouvCdd(): ?int {
         return $this->nb30RenouvCdd;
     }
 
@@ -2769,7 +2768,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb h act part.
      */
-    public function getNbHActPart(): ?float{
+    public function getNbHActPart(): ?float {
         return $this->nbHActPart;
     }
 
@@ -2778,7 +2777,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb h act part indem.
      */
-    public function getNbHActPartIndem(): ?float{
+    public function getNbHActPartIndem(): ?float {
         return $this->nbHActPartIndem;
     }
 
@@ -2787,7 +2786,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb h bonifie.
      */
-    public function getNbHBonifie(): ?float{
+    public function getNbHBonifie(): ?float {
         return $this->nbHBonifie;
     }
 
@@ -2796,7 +2795,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb h contingent.
      */
-    public function getNbHContingent(): ?float{
+    public function getNbHContingent(): ?float {
         return $this->nbHContingent;
     }
 
@@ -2805,7 +2804,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb h contract.
      */
-    public function getNbHContract(): ?float{
+    public function getNbHContract(): ?float {
         return $this->nbHContract;
     }
 
@@ -2814,7 +2813,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb heure mois.
      */
-    public function getNbHeureMois(): ?float{
+    public function getNbHeureMois(): ?float {
         return $this->nbHeureMois;
     }
 
@@ -2823,7 +2822,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb jour annee.
      */
-    public function getNbJourAnnee(): ?float{
+    public function getNbJourAnnee(): ?float {
         return $this->nbJourAnnee;
     }
 
@@ -2832,7 +2831,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb jour cp acquis.
      */
-    public function getNbJourCpAcquis(): ?float{
+    public function getNbJourCpAcquis(): ?float {
         return $this->nbJourCpAcquis;
     }
 
@@ -2841,7 +2840,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the nb jour cp sup.
      */
-    public function getNbJourCpSup(): ?float{
+    public function getNbJourCpSup(): ?float {
         return $this->nbJourCpSup;
     }
 
@@ -2850,7 +2849,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the nb piece logement.
      */
-    public function getNbPieceLogement(): ?string{
+    public function getNbPieceLogement(): ?string {
         return $this->nbPieceLogement;
     }
 
@@ -2859,7 +2858,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the ne pas activer prime annuelle proprete.
      */
-    public function getNePasActiverPrimeAnnuelleProprete(): ?bool{
+    public function getNePasActiverPrimeAnnuelleProprete(): ?bool {
         return $this->nePasActiverPrimeAnnuelleProprete;
     }
 
@@ -2868,7 +2867,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the ne pas publier web.
      */
-    public function getNePasPublierWeb(): ?bool{
+    public function getNePasPublierWeb(): ?bool {
         return $this->nePasPublierWeb;
     }
 
@@ -2877,7 +2876,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the niveau.
      */
-    public function getNiveau(): ?string{
+    public function getNiveau(): ?string {
         return $this->niveau;
     }
 
@@ -2886,7 +2885,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the niveau convention col.
      */
-    public function getNiveauConventionCol(): ?string{
+    public function getNiveauConventionCol(): ?string {
         return $this->niveauConventionCol;
     }
 
@@ -2895,7 +2894,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the nom marital.
      */
-    public function getNomMarital(): ?string{
+    public function getNomMarital(): ?string {
         return $this->nomMarital;
     }
 
@@ -2904,7 +2903,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance(): ?string{
+    public function getNomNaissance(): ?string {
         return $this->nomNaissance;
     }
 
@@ -2913,7 +2912,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -2922,7 +2921,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -2931,7 +2930,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the num evenement.
      */
-    public function getNumEvenement(): ?int{
+    public function getNumEvenement(): ?int {
         return $this->numEvenement;
     }
 
@@ -2940,7 +2939,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the num objet.
      */
-    public function getNumObjet(): ?string{
+    public function getNumObjet(): ?string {
         return $this->numObjet;
     }
 
@@ -2949,7 +2948,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -2958,7 +2957,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -2967,7 +2966,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the numero abattement contrat msa.
      */
-    public function getNumeroAbattementContratMsa(): ?int{
+    public function getNumeroAbattementContratMsa(): ?int {
         return $this->numeroAbattementContratMsa;
     }
 
@@ -2976,7 +2975,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the numero contrat.
      */
-    public function getNumeroContrat(): ?int{
+    public function getNumeroContrat(): ?int {
         return $this->numeroContrat;
     }
 
@@ -2985,17 +2984,8 @@ class InfosComplBul {
      *
      * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType(): ?int{
+    public function getNumeroGrilleType(): ?int {
         return $this->numeroGrilleType;
-    }
-
-    /**
-     * Get the pss1 force.
-     *
-     * @return bool|null Returns the pss1 force.
-     */
-    public function getPss1Force(): ?bool{
-        return $this->pss1Force;
     }
 
     /**
@@ -3003,7 +2993,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the part patron prev forfait social8.
      */
-    public function getPartPatronPrevForfaitSocial8(): ?float{
+    public function getPartPatronPrevForfaitSocial8(): ?float {
         return $this->partPatronPrevForfaitSocial8;
     }
 
@@ -3012,7 +3002,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the pas de reintegration.
      */
-    public function getPasDeReintegration(): ?bool{
+    public function getPasDeReintegration(): ?bool {
         return $this->pasDeReintegration;
     }
 
@@ -3021,7 +3011,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the pas gestion dif.
      */
-    public function getPasGestionDif(): ?bool{
+    public function getPasGestionDif(): ?bool {
         return $this->pasGestionDif;
     }
 
@@ -3030,7 +3020,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -3039,7 +3029,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the position.
      */
-    public function getPosition(): ?string{
+    public function getPosition(): ?string {
         return $this->position;
     }
 
@@ -3048,7 +3038,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the position convention col.
      */
-    public function getPositionConventionCol(): ?string{
+    public function getPositionConventionCol(): ?string {
         return $this->positionConventionCol;
     }
 
@@ -3057,7 +3047,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the pourcent exo.
      */
-    public function getPourcentExo(): ?float{
+    public function getPourcentExo(): ?float {
         return $this->pourcentExo;
     }
 
@@ -3066,7 +3056,7 @@ class InfosComplBul {
      *
      * @return DateTime|null Returns the prem date entree.
      */
-    public function getPremDateEntree(): ?DateTime{
+    public function getPremDateEntree(): ?DateTime {
         return $this->premDateEntree;
     }
 
@@ -3075,8 +3065,17 @@ class InfosComplBul {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
+    }
+
+    /**
+     * Get the pss1 force.
+     *
+     * @return bool|null Returns the pss1 force.
+     */
+    public function getPss1Force(): ?bool {
+        return $this->pss1Force;
     }
 
     /**
@@ -3084,116 +3083,8 @@ class InfosComplBul {
      *
      * @return string|null Returns the qualification.
      */
-    public function getQualification(): ?string{
+    public function getQualification(): ?string {
         return $this->qualification;
-    }
-
-    /**
-     * Get the rtt1.
-     *
-     * @return float|null Returns the rtt1.
-     */
-    public function getRtt1(): ?float{
-        return $this->rtt1;
-    }
-
-    /**
-     * Get the rtt10.
-     *
-     * @return float|null Returns the rtt10.
-     */
-    public function getRtt10(): ?float{
-        return $this->rtt10;
-    }
-
-    /**
-     * Get the rtt11.
-     *
-     * @return float|null Returns the rtt11.
-     */
-    public function getRtt11(): ?float{
-        return $this->rtt11;
-    }
-
-    /**
-     * Get the rtt12.
-     *
-     * @return float|null Returns the rtt12.
-     */
-    public function getRtt12(): ?float{
-        return $this->rtt12;
-    }
-
-    /**
-     * Get the rtt2.
-     *
-     * @return float|null Returns the rtt2.
-     */
-    public function getRtt2(): ?float{
-        return $this->rtt2;
-    }
-
-    /**
-     * Get the rtt3.
-     *
-     * @return float|null Returns the rtt3.
-     */
-    public function getRtt3(): ?float{
-        return $this->rtt3;
-    }
-
-    /**
-     * Get the rtt4.
-     *
-     * @return float|null Returns the rtt4.
-     */
-    public function getRtt4(): ?float{
-        return $this->rtt4;
-    }
-
-    /**
-     * Get the rtt5.
-     *
-     * @return float|null Returns the rtt5.
-     */
-    public function getRtt5(): ?float{
-        return $this->rtt5;
-    }
-
-    /**
-     * Get the rtt6.
-     *
-     * @return float|null Returns the rtt6.
-     */
-    public function getRtt6(): ?float{
-        return $this->rtt6;
-    }
-
-    /**
-     * Get the rtt7.
-     *
-     * @return float|null Returns the rtt7.
-     */
-    public function getRtt7(): ?float{
-        return $this->rtt7;
-    }
-
-    /**
-     * Get the rtt8.
-     *
-     * @return float|null Returns the rtt8.
-     */
-    public function getRtt8(): ?float{
-        return $this->rtt8;
-    }
-
-    /**
-     * Get the rtt9.
-     *
-     * @return float|null Returns the rtt9.
-     */
-    public function getRtt9(): ?float{
-        return $this->rtt9;
     }
 
     /**
@@ -3201,7 +3092,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the reduction fillon.
      */
-    public function getReductionFillon(): ?bool{
+    public function getReductionFillon(): ?bool {
         return $this->reductionFillon;
     }
 
@@ -3210,7 +3101,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the regle calcul.
      */
-    public function getRegleCalcul(): ?string{
+    public function getRegleCalcul(): ?string {
         return $this->regleCalcul;
     }
 
@@ -3219,35 +3110,116 @@ class InfosComplBul {
      *
      * @return bool|null Returns the remun part fillon.
      */
-    public function getRemunPartFillon(): ?bool{
+    public function getRemunPartFillon(): ?bool {
         return $this->remunPartFillon;
     }
 
     /**
-     * Get the setp fillon.
+     * Get the rtt1.
      *
-     * @return float|null Returns the setp fillon.
+     * @return float|null Returns the rtt1.
      */
-    public function getSetpFillon(): ?float{
-        return $this->setpFillon;
+    public function getRtt1(): ?float {
+        return $this->rtt1;
     }
 
     /**
-     * Get the smic maf.
+     * Get the rtt10.
      *
-     * @return float|null Returns the smic maf.
+     * @return float|null Returns the rtt10.
      */
-    public function getSmicMaf(): ?float{
-        return $this->smicMaf;
+    public function getRtt10(): ?float {
+        return $this->rtt10;
     }
 
     /**
-     * Get the smic mcice.
+     * Get the rtt11.
      *
-     * @return float|null Returns the smic mcice.
+     * @return float|null Returns the rtt11.
      */
-    public function getSmicMcice(): ?float{
-        return $this->smicMcice;
+    public function getRtt11(): ?float {
+        return $this->rtt11;
+    }
+
+    /**
+     * Get the rtt12.
+     *
+     * @return float|null Returns the rtt12.
+     */
+    public function getRtt12(): ?float {
+        return $this->rtt12;
+    }
+
+    /**
+     * Get the rtt2.
+     *
+     * @return float|null Returns the rtt2.
+     */
+    public function getRtt2(): ?float {
+        return $this->rtt2;
+    }
+
+    /**
+     * Get the rtt3.
+     *
+     * @return float|null Returns the rtt3.
+     */
+    public function getRtt3(): ?float {
+        return $this->rtt3;
+    }
+
+    /**
+     * Get the rtt4.
+     *
+     * @return float|null Returns the rtt4.
+     */
+    public function getRtt4(): ?float {
+        return $this->rtt4;
+    }
+
+    /**
+     * Get the rtt5.
+     *
+     * @return float|null Returns the rtt5.
+     */
+    public function getRtt5(): ?float {
+        return $this->rtt5;
+    }
+
+    /**
+     * Get the rtt6.
+     *
+     * @return float|null Returns the rtt6.
+     */
+    public function getRtt6(): ?float {
+        return $this->rtt6;
+    }
+
+    /**
+     * Get the rtt7.
+     *
+     * @return float|null Returns the rtt7.
+     */
+    public function getRtt7(): ?float {
+        return $this->rtt7;
+    }
+
+    /**
+     * Get the rtt8.
+     *
+     * @return float|null Returns the rtt8.
+     */
+    public function getRtt8(): ?float {
+        return $this->rtt8;
+    }
+
+    /**
+     * Get the rtt9.
+     *
+     * @return float|null Returns the rtt9.
+     */
+    public function getRtt9(): ?float {
+        return $this->rtt9;
     }
 
     /**
@@ -3255,7 +3227,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the salaire base.
      */
-    public function getSalaireBase(): ?float{
+    public function getSalaireBase(): ?float {
         return $this->salaireBase;
     }
 
@@ -3264,7 +3236,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the salaire reference.
      */
-    public function getSalaireReference(): ?float{
+    public function getSalaireReference(): ?float {
         return $this->salaireReference;
     }
 
@@ -3273,7 +3245,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the salaire retabli dsn.
      */
-    public function getSalaireRetabliDsn(): ?float{
+    public function getSalaireRetabliDsn(): ?float {
         return $this->salaireRetabliDsn;
     }
 
@@ -3282,7 +3254,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the salaire retabli dsn force.
      */
-    public function getSalaireRetabliDsnForce(): ?bool{
+    public function getSalaireRetabliDsnForce(): ?bool {
         return $this->salaireRetabliDsnForce;
     }
 
@@ -3291,7 +3263,7 @@ class InfosComplBul {
      *
      * @return int|null Returns the sans contrat.
      */
-    public function getSansContrat(): ?int{
+    public function getSansContrat(): ?int {
         return $this->sansContrat;
     }
 
@@ -3300,8 +3272,17 @@ class InfosComplBul {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
+    }
+
+    /**
+     * Get the setp fillon.
+     *
+     * @return float|null Returns the setp fillon.
+     */
+    public function getSetpFillon(): ?float {
+        return $this->setpFillon;
     }
 
     /**
@@ -3309,7 +3290,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the signe af.
      */
-    public function getSigneAf(): ?string{
+    public function getSigneAf(): ?string {
         return $this->signeAf;
     }
 
@@ -3318,7 +3299,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the siret lieu trav.
      */
-    public function getSiretLieuTrav(): ?string{
+    public function getSiretLieuTrav(): ?string {
         return $this->siretLieuTrav;
     }
 
@@ -3327,8 +3308,26 @@ class InfosComplBul {
      *
      * @return float|null Returns the smic m fillon sans hs.
      */
-    public function getSmicMFillonSansHs(): ?float{
+    public function getSmicMFillonSansHs(): ?float {
         return $this->smicMFillonSansHs;
+    }
+
+    /**
+     * Get the smic maf.
+     *
+     * @return float|null Returns the smic maf.
+     */
+    public function getSmicMaf(): ?float {
+        return $this->smicMaf;
+    }
+
+    /**
+     * Get the smic mcice.
+     *
+     * @return float|null Returns the smic mcice.
+     */
+    public function getSmicMcice(): ?float {
+        return $this->smicMcice;
     }
 
     /**
@@ -3336,7 +3335,7 @@ class InfosComplBul {
      *
      * @return bool|null Returns the subrogation.
      */
-    public function getSubrogation(): ?bool{
+    public function getSubrogation(): ?bool {
         return $this->subrogation;
     }
 
@@ -3345,7 +3344,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the tds59.
      */
-    public function getTds59(): ?string{
+    public function getTds59(): ?string {
         return $this->tds59;
     }
 
@@ -3354,17 +3353,8 @@ class InfosComplBul {
      *
      * @return string|null Returns the tds76.
      */
-    public function getTds76(): ?string{
+    public function getTds76(): ?string {
         return $this->tds76;
-    }
-
-    /**
-     * Get the tepa moins20.
-     *
-     * @return bool|null Returns the tepa moins20.
-     */
-    public function getTepaMoins20(): ?bool{
-        return $this->tepaMoins20;
     }
 
     /**
@@ -3372,7 +3362,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -3381,8 +3371,17 @@ class InfosComplBul {
      *
      * @return string|null Returns the tel2.
      */
-    public function getTel2(): ?string{
+    public function getTel2(): ?string {
         return $this->tel2;
+    }
+
+    /**
+     * Get the tepa moins20.
+     *
+     * @return bool|null Returns the tepa moins20.
+     */
+    public function getTepaMoins20(): ?bool {
+        return $this->tepaMoins20;
     }
 
     /**
@@ -3390,7 +3389,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -3399,7 +3398,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tot cot urssaf.
      */
-    public function getTotCotUrssaf(): ?float{
+    public function getTotCotUrssaf(): ?float {
         return $this->totCotUrssaf;
     }
 
@@ -3408,7 +3407,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tr d1 caisse1.
      */
-    public function getTrD1Caisse1(): ?float{
+    public function getTrD1Caisse1(): ?float {
         return $this->trD1Caisse1;
     }
 
@@ -3417,7 +3416,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tr d1caisse2.
      */
-    public function getTrD1caisse2(): ?float{
+    public function getTrD1caisse2(): ?float {
         return $this->trD1caisse2;
     }
 
@@ -3426,7 +3425,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tr d1caisse3.
      */
-    public function getTrD1caisse3(): ?float{
+    public function getTrD1caisse3(): ?float {
         return $this->trD1caisse3;
     }
 
@@ -3435,7 +3434,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tr d caisse1.
      */
-    public function getTrDCaisse1(): ?float{
+    public function getTrDCaisse1(): ?float {
         return $this->trDCaisse1;
     }
 
@@ -3444,7 +3443,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tr dcaisse2.
      */
-    public function getTrDcaisse2(): ?float{
+    public function getTrDcaisse2(): ?float {
         return $this->trDcaisse2;
     }
 
@@ -3453,7 +3452,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tr dcaisse3.
      */
-    public function getTrDcaisse3(): ?float{
+    public function getTrDcaisse3(): ?float {
         return $this->trDcaisse3;
     }
 
@@ -3462,7 +3461,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tranche d.
      */
-    public function getTrancheD(): ?float{
+    public function getTrancheD(): ?float {
         return $this->trancheD;
     }
 
@@ -3471,7 +3470,7 @@ class InfosComplBul {
      *
      * @return float|null Returns the tranche d1.
      */
-    public function getTrancheD1(): ?float{
+    public function getTrancheD1(): ?float {
         return $this->trancheD1;
     }
 
@@ -3480,7 +3479,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type chom cdd.
      */
-    public function getTypeChomCdd(): ?string{
+    public function getTypeChomCdd(): ?string {
         return $this->typeChomCdd;
     }
 
@@ -3489,7 +3488,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type contrat.
      */
-    public function getTypeContrat(): ?string{
+    public function getTypeContrat(): ?string {
         return $this->typeContrat;
     }
 
@@ -3498,7 +3497,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type exo lodeom.
      */
-    public function getTypeExoLodeom(): ?string{
+    public function getTypeExoLodeom(): ?string {
         return $this->typeExoLodeom;
     }
 
@@ -3507,7 +3506,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type he fillon.
      */
-    public function getTypeHeFillon(): ?string{
+    public function getTypeHeFillon(): ?string {
         return $this->typeHeFillon;
     }
 
@@ -3516,7 +3515,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type maintien salaire.
      */
-    public function getTypeMaintienSalaire(): ?string{
+    public function getTypeMaintienSalaire(): ?string {
         return $this->typeMaintienSalaire;
     }
 
@@ -3525,7 +3524,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type reduction fillon.
      */
-    public function getTypeReductionFillon(): ?string{
+    public function getTypeReductionFillon(): ?string {
         return $this->typeReductionFillon;
     }
 
@@ -3534,7 +3533,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type reduction mayotte.
      */
-    public function getTypeReductionMayotte(): ?string{
+    public function getTypeReductionMayotte(): ?string {
         return $this->typeReductionMayotte;
     }
 
@@ -3543,7 +3542,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type saisie ab cp.
      */
-    public function getTypeSaisieAbCp(): ?string{
+    public function getTypeSaisieAbCp(): ?string {
         return $this->typeSaisieAbCp;
     }
 
@@ -3552,7 +3551,7 @@ class InfosComplBul {
      *
      * @return string|null Returns the type saisie chom intemp.
      */
-    public function getTypeSaisieChomIntemp(): ?string{
+    public function getTypeSaisieChomIntemp(): ?string {
         return $this->typeSaisieChomIntemp;
     }
 
@@ -3561,18 +3560,18 @@ class InfosComplBul {
      *
      * @return bool|null Returns the vrp multicarte.
      */
-    public function getVrpMulticarte(): ?bool{
+    public function getVrpMulticarte(): ?bool {
         return $this->vrpMulticarte;
     }
 
     /**
-     * Set the aen logement.
+     * Set the active sal min conv.
      *
-     * @param bool|null $aenLogement The aen logement.
+     * @param bool|null $activeSalMinConv The active sal min conv.
      * @return InfosComplBul Returns this Infos compl bul.
      */
-    public function setAenLogement(?bool $aenLogement): InfosComplBul {
-        $this->aenLogement = $aenLogement;
+    public function setActiveSalMinConv(?bool $activeSalMinConv): InfosComplBul {
+        $this->activeSalMinConv = $activeSalMinConv;
         return $this;
     }
 
@@ -3588,13 +3587,13 @@ class InfosComplBul {
     }
 
     /**
-     * Set the active sal min conv.
+     * Set the aen logement.
      *
-     * @param bool|null $activeSalMinConv The active sal min conv.
+     * @param bool|null $aenLogement The aen logement.
      * @return InfosComplBul Returns this Infos compl bul.
      */
-    public function setActiveSalMinConv(?bool $activeSalMinConv): InfosComplBul {
-        $this->activeSalMinConv = $activeSalMinConv;
+    public function setAenLogement(?bool $aenLogement): InfosComplBul {
+        $this->aenLogement = $aenLogement;
         return $this;
     }
 
@@ -3654,17 +3653,6 @@ class InfosComplBul {
     }
 
     /**
-     * Set the btq.
-     *
-     * @param string|null $btq The btq.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setBtq(?string $btq): InfosComplBul {
-        $this->btq = $btq;
-        return $this;
-    }
-
-    /**
      * Set the brut al sans h sup.
      *
      * @param float|null $brutAlSansHSup The brut al sans h sup.
@@ -3687,6 +3675,17 @@ class InfosComplBul {
     }
 
     /**
+     * Set the btq.
+     *
+     * @param string|null $btq The btq.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setBtq(?string $btq): InfosComplBul {
+        $this->btq = $btq;
+        return $this;
+    }
+
+    /**
      * Set the bureau distributeur.
      *
      * @param string|null $bureauDistributeur The bureau distributeur.
@@ -3694,17 +3693,6 @@ class InfosComplBul {
      */
     public function setBureauDistributeur(?string $bureauDistributeur): InfosComplBul {
         $this->bureauDistributeur = $bureauDistributeur;
-        return $this;
-    }
-
-    /**
-     * Set the cddcdi.
-     *
-     * @param bool|null $cddcdi The cddcdi.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setCddcdi(?bool $cddcdi): InfosComplBul {
-        $this->cddcdi = $cddcdi;
         return $this;
     }
 
@@ -3738,6 +3726,17 @@ class InfosComplBul {
      */
     public function setCategSalarie(?string $categSalarie): InfosComplBul {
         $this->categSalarie = $categSalarie;
+        return $this;
+    }
+
+    /**
+     * Set the cddcdi.
+     *
+     * @param bool|null $cddcdi The cddcdi.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setCddcdi(?bool $cddcdi): InfosComplBul {
+        $this->cddcdi = $cddcdi;
         return $this;
     }
 
@@ -4468,17 +4467,6 @@ class InfosComplBul {
     }
 
     /**
-     * Set the exclure cice.
-     *
-     * @param bool|null $exclureCice The exclure cice.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setExclureCice(?bool $exclureCice): InfosComplBul {
-        $this->exclureCice = $exclureCice;
-        return $this;
-    }
-
-    /**
      * Set the exclure chom cdd.
      *
      * @param bool|null $exclureChomCdd The exclure chom cdd.
@@ -4486,6 +4474,17 @@ class InfosComplBul {
      */
     public function setExclureChomCdd(?bool $exclureChomCdd): InfosComplBul {
         $this->exclureChomCdd = $exclureChomCdd;
+        return $this;
+    }
+
+    /**
+     * Set the exclure cice.
+     *
+     * @param bool|null $exclureCice The exclure cice.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setExclureCice(?bool $exclureCice): InfosComplBul {
+        $this->exclureCice = $exclureCice;
         return $this;
     }
 
@@ -4853,28 +4852,6 @@ class InfosComplBul {
     }
 
     /**
-     * Set the mt crds100.
-     *
-     * @param float|null $mtCrds100 The mt crds100.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setMtCrds100(?float $mtCrds100): InfosComplBul {
-        $this->mtCrds100 = $mtCrds100;
-        return $this;
-    }
-
-    /**
-     * Set the mt csg100.
-     *
-     * @param float|null $mtCsg100 The mt csg100.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setMtCsg100(?float $mtCsg100): InfosComplBul {
-        $this->mtCsg100 = $mtCsg100;
-        return $this;
-    }
-
-    /**
      * Set the mt cotisation prev.
      *
      * @param float|null $mtCotisationPrev The mt cotisation prev.
@@ -4893,6 +4870,28 @@ class InfosComplBul {
      */
     public function setMtCotisationRetraite(?float $mtCotisationRetraite): InfosComplBul {
         $this->mtCotisationRetraite = $mtCotisationRetraite;
+        return $this;
+    }
+
+    /**
+     * Set the mt crds100.
+     *
+     * @param float|null $mtCrds100 The mt crds100.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setMtCrds100(?float $mtCrds100): InfosComplBul {
+        $this->mtCrds100 = $mtCrds100;
+        return $this;
+    }
+
+    /**
+     * Set the mt csg100.
+     *
+     * @param float|null $mtCsg100 The mt csg100.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setMtCsg100(?float $mtCsg100): InfosComplBul {
+        $this->mtCsg100 = $mtCsg100;
         return $this;
     }
 
@@ -5293,17 +5292,6 @@ class InfosComplBul {
     }
 
     /**
-     * Set the pss1 force.
-     *
-     * @param bool|null $pss1Force The pss1 force.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setPss1Force(?bool $pss1Force): InfosComplBul {
-        $this->pss1Force = $pss1Force;
-        return $this;
-    }
-
-    /**
      * Set the part patron prev forfait social8.
      *
      * @param float|null $partPatronPrevForfaitSocial8 The part patron prev forfait social8.
@@ -5403,6 +5391,17 @@ class InfosComplBul {
     }
 
     /**
+     * Set the pss1 force.
+     *
+     * @param bool|null $pss1Force The pss1 force.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setPss1Force(?bool $pss1Force): InfosComplBul {
+        $this->pss1Force = $pss1Force;
+        return $this;
+    }
+
+    /**
      * Set the qualification.
      *
      * @param string|null $qualification The qualification.
@@ -5410,6 +5409,39 @@ class InfosComplBul {
      */
     public function setQualification(?string $qualification): InfosComplBul {
         $this->qualification = $qualification;
+        return $this;
+    }
+
+    /**
+     * Set the reduction fillon.
+     *
+     * @param bool|null $reductionFillon The reduction fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setReductionFillon(?bool $reductionFillon): InfosComplBul {
+        $this->reductionFillon = $reductionFillon;
+        return $this;
+    }
+
+    /**
+     * Set the regle calcul.
+     *
+     * @param string|null $regleCalcul The regle calcul.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setRegleCalcul(?string $regleCalcul): InfosComplBul {
+        $this->regleCalcul = $regleCalcul;
+        return $this;
+    }
+
+    /**
+     * Set the remun part fillon.
+     *
+     * @param bool|null $remunPartFillon The remun part fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setRemunPartFillon(?bool $remunPartFillon): InfosComplBul {
+        $this->remunPartFillon = $remunPartFillon;
         return $this;
     }
 
@@ -5546,72 +5578,6 @@ class InfosComplBul {
     }
 
     /**
-     * Set the reduction fillon.
-     *
-     * @param bool|null $reductionFillon The reduction fillon.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setReductionFillon(?bool $reductionFillon): InfosComplBul {
-        $this->reductionFillon = $reductionFillon;
-        return $this;
-    }
-
-    /**
-     * Set the regle calcul.
-     *
-     * @param string|null $regleCalcul The regle calcul.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setRegleCalcul(?string $regleCalcul): InfosComplBul {
-        $this->regleCalcul = $regleCalcul;
-        return $this;
-    }
-
-    /**
-     * Set the remun part fillon.
-     *
-     * @param bool|null $remunPartFillon The remun part fillon.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setRemunPartFillon(?bool $remunPartFillon): InfosComplBul {
-        $this->remunPartFillon = $remunPartFillon;
-        return $this;
-    }
-
-    /**
-     * Set the setp fillon.
-     *
-     * @param float|null $setpFillon The setp fillon.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setSetpFillon(?float $setpFillon): InfosComplBul {
-        $this->setpFillon = $setpFillon;
-        return $this;
-    }
-
-    /**
-     * Set the smic maf.
-     *
-     * @param float|null $smicMaf The smic maf.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setSmicMaf(?float $smicMaf): InfosComplBul {
-        $this->smicMaf = $smicMaf;
-        return $this;
-    }
-
-    /**
-     * Set the smic mcice.
-     *
-     * @param float|null $smicMcice The smic mcice.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setSmicMcice(?float $smicMcice): InfosComplBul {
-        $this->smicMcice = $smicMcice;
-        return $this;
-    }
-
-    /**
      * Set the salaire base.
      *
      * @param float|null $salaireBase The salaire base.
@@ -5678,6 +5644,17 @@ class InfosComplBul {
     }
 
     /**
+     * Set the setp fillon.
+     *
+     * @param float|null $setpFillon The setp fillon.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setSetpFillon(?float $setpFillon): InfosComplBul {
+        $this->setpFillon = $setpFillon;
+        return $this;
+    }
+
+    /**
      * Set the signe af.
      *
      * @param string|null $signeAf The signe af.
@@ -5707,6 +5684,28 @@ class InfosComplBul {
      */
     public function setSmicMFillonSansHs(?float $smicMFillonSansHs): InfosComplBul {
         $this->smicMFillonSansHs = $smicMFillonSansHs;
+        return $this;
+    }
+
+    /**
+     * Set the smic maf.
+     *
+     * @param float|null $smicMaf The smic maf.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setSmicMaf(?float $smicMaf): InfosComplBul {
+        $this->smicMaf = $smicMaf;
+        return $this;
+    }
+
+    /**
+     * Set the smic mcice.
+     *
+     * @param float|null $smicMcice The smic mcice.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setSmicMcice(?float $smicMcice): InfosComplBul {
+        $this->smicMcice = $smicMcice;
         return $this;
     }
 
@@ -5744,17 +5743,6 @@ class InfosComplBul {
     }
 
     /**
-     * Set the tepa moins20.
-     *
-     * @param bool|null $tepaMoins20 The tepa moins20.
-     * @return InfosComplBul Returns this Infos compl bul.
-     */
-    public function setTepaMoins20(?bool $tepaMoins20): InfosComplBul {
-        $this->tepaMoins20 = $tepaMoins20;
-        return $this;
-    }
-
-    /**
      * Set the tel1.
      *
      * @param string|null $tel1 The tel1.
@@ -5773,6 +5761,17 @@ class InfosComplBul {
      */
     public function setTel2(?string $tel2): InfosComplBul {
         $this->tel2 = $tel2;
+        return $this;
+    }
+
+    /**
+     * Set the tepa moins20.
+     *
+     * @param bool|null $tepaMoins20 The tepa moins20.
+     * @return InfosComplBul Returns this Infos compl bul.
+     */
+    public function setTepaMoins20(?bool $tepaMoins20): InfosComplBul {
+        $this->tepaMoins20 = $tepaMoins20;
         return $this;
     }
 

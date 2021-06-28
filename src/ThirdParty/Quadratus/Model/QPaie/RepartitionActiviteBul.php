@@ -56,7 +56,6 @@ class RepartitionActiviteBul {
      */
     private $tauxVentilation;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class RepartitionActiviteBul {
      *
      * @return string|null Returns the code service.
      */
-    public function getCodeService(): ?string{
+    public function getCodeService(): ?string {
         return $this->codeService;
     }
 
@@ -78,7 +77,7 @@ class RepartitionActiviteBul {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -87,7 +86,7 @@ class RepartitionActiviteBul {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -96,7 +95,7 @@ class RepartitionActiviteBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -105,7 +104,7 @@ class RepartitionActiviteBul {
      *
      * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation(): ?float{
+    public function getTauxVentilation(): ?float {
         return $this->tauxVentilation;
     }
 

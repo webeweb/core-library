@@ -117,7 +117,6 @@ class ClientsLstPersoColonnes {
      */
     private $titre;
 
-
     /**
      * Constructor.
      */
@@ -130,7 +129,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the clause where.
      */
-    public function getClauseWhere(): ?string{
+    public function getClauseWhere(): ?string {
         return $this->clauseWhere;
     }
 
@@ -139,7 +138,7 @@ class ClientsLstPersoColonnes {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -148,7 +147,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the indice tri.
      */
-    public function getIndiceTri(): ?string{
+    public function getIndiceTri(): ?string {
         return $this->indiceTri;
     }
 
@@ -157,7 +156,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -166,7 +165,7 @@ class ClientsLstPersoColonnes {
      *
      * @return bool|null Returns the is formule.
      */
-    public function getIsFormule(): ?bool{
+    public function getIsFormule(): ?bool {
         return $this->isFormule;
     }
 
@@ -175,7 +174,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the jointure.
      */
-    public function getJointure(): ?string{
+    public function getJointure(): ?string {
         return $this->jointure;
     }
 
@@ -184,7 +183,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the nb decimales.
      */
-    public function getNbDecimales(): ?string{
+    public function getNbDecimales(): ?string {
         return $this->nbDecimales;
     }
 
@@ -193,7 +192,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the nom champ.
      */
-    public function getNomChamp(): ?string{
+    public function getNomChamp(): ?string {
         return $this->nomChamp;
     }
 
@@ -202,7 +201,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the nom table.
      */
-    public function getNomTable(): ?string{
+    public function getNomTable(): ?string {
         return $this->nomTable;
     }
 
@@ -211,7 +210,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the ref guid.
      */
-    public function getRefGuid(): ?string{
+    public function getRefGuid(): ?string {
         return $this->refGuid;
     }
 
@@ -220,7 +219,7 @@ class ClientsLstPersoColonnes {
      *
      * @return bool|null Returns the saisie.
      */
-    public function getSaisie(): ?bool{
+    public function getSaisie(): ?bool {
         return $this->saisie;
     }
 
@@ -229,7 +228,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the selection.
      */
-    public function getSelection(): ?string{
+    public function getSelection(): ?string {
         return $this->selection;
     }
 
@@ -238,7 +237,7 @@ class ClientsLstPersoColonnes {
      *
      * @return int|null Returns the taille.
      */
-    public function getTaille(): ?int{
+    public function getTaille(): ?int {
         return $this->taille;
     }
 
@@ -247,7 +246,7 @@ class ClientsLstPersoColonnes {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 

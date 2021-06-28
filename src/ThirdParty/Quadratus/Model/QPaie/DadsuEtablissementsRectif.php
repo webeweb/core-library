@@ -61,7 +61,6 @@ class DadsuEtablissementsRectif {
      */
     private $taxeApprentissageBase;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class DadsuEtablissementsRectif {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -83,7 +82,7 @@ class DadsuEtablissementsRectif {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -92,7 +91,7 @@ class DadsuEtablissementsRectif {
      *
      * @return float|null Returns the forma pro base.
      */
-    public function getFormaProBase(): ?float{
+    public function getFormaProBase(): ?float {
         return $this->formaProBase;
     }
 
@@ -101,7 +100,7 @@ class DadsuEtablissementsRectif {
      *
      * @return float|null Returns the forma pro base cdd.
      */
-    public function getFormaProBaseCdd(): ?float{
+    public function getFormaProBaseCdd(): ?float {
         return $this->formaProBaseCdd;
     }
 
@@ -110,7 +109,7 @@ class DadsuEtablissementsRectif {
      *
      * @return int|null Returns the indice rectif.
      */
-    public function getIndiceRectif(): ?int{
+    public function getIndiceRectif(): ?int {
         return $this->indiceRectif;
     }
 
@@ -119,7 +118,7 @@ class DadsuEtablissementsRectif {
      *
      * @return float|null Returns the taxe apprentissage base.
      */
-    public function getTaxeApprentissageBase(): ?float{
+    public function getTaxeApprentissageBase(): ?float {
         return $this->taxeApprentissageBase;
     }
 

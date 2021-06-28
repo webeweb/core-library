@@ -189,7 +189,6 @@ class VisiteMedicaleEntete {
      */
     private $villeMt;
 
-
     /**
      * Constructor.
      */
@@ -202,7 +201,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the adresse mt.
      */
-    public function getAdresseMt(): ?string{
+    public function getAdresseMt(): ?string {
         return $this->adresseMt;
     }
 
@@ -211,7 +210,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -220,7 +219,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the code medecine travail.
      */
-    public function getCodeMedecineTravail(): ?string{
+    public function getCodeMedecineTravail(): ?string {
         return $this->codeMedecineTravail;
     }
 
@@ -229,7 +228,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the code postal mt.
      */
-    public function getCodePostalMt(): ?string{
+    public function getCodePostalMt(): ?string {
         return $this->codePostalMt;
     }
 
@@ -238,7 +237,7 @@ class VisiteMedicaleEntete {
      *
      * @return DateTime|null Returns the debut1.
      */
-    public function getDebut1(): ?DateTime{
+    public function getDebut1(): ?DateTime {
         return $this->debut1;
     }
 
@@ -247,7 +246,7 @@ class VisiteMedicaleEntete {
      *
      * @return DateTime|null Returns the debut2.
      */
-    public function getDebut2(): ?DateTime{
+    public function getDebut2(): ?DateTime {
         return $this->debut2;
     }
 
@@ -256,7 +255,7 @@ class VisiteMedicaleEntete {
      *
      * @return DateTime|null Returns the debut session.
      */
-    public function getDebutSession(): ?DateTime{
+    public function getDebutSession(): ?DateTime {
         return $this->debutSession;
     }
 
@@ -265,7 +264,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -274,7 +273,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the duree visite.
      */
-    public function getDureeVisite(): ?string{
+    public function getDureeVisite(): ?string {
         return $this->dureeVisite;
     }
 
@@ -283,7 +282,7 @@ class VisiteMedicaleEntete {
      *
      * @return DateTime|null Returns the fin1.
      */
-    public function getFin1(): ?DateTime{
+    public function getFin1(): ?DateTime {
         return $this->fin1;
     }
 
@@ -292,7 +291,7 @@ class VisiteMedicaleEntete {
      *
      * @return DateTime|null Returns the fin2.
      */
-    public function getFin2(): ?DateTime{
+    public function getFin2(): ?DateTime {
         return $this->fin2;
     }
 
@@ -301,7 +300,7 @@ class VisiteMedicaleEntete {
      *
      * @return DateTime|null Returns the fin session.
      */
-    public function getFinSession(): ?DateTime{
+    public function getFinSession(): ?DateTime {
         return $this->finSession;
     }
 
@@ -310,7 +309,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the lient document.
      */
-    public function getLientDocument(): ?string{
+    public function getLientDocument(): ?string {
         return $this->lientDocument;
     }
 
@@ -319,7 +318,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the medecin responsable.
      */
-    public function getMedecinResponsable(): ?string{
+    public function getMedecinResponsable(): ?string {
         return $this->medecinResponsable;
     }
 
@@ -328,7 +327,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the nom mt.
      */
-    public function getNomMt(): ?string{
+    public function getNomMt(): ?string {
         return $this->nomMt;
     }
 
@@ -337,7 +336,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour1.
      */
-    public function getRdvJour1(): ?bool{
+    public function getRdvJour1(): ?bool {
         return $this->rdvJour1;
     }
 
@@ -346,7 +345,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour2.
      */
-    public function getRdvJour2(): ?bool{
+    public function getRdvJour2(): ?bool {
         return $this->rdvJour2;
     }
 
@@ -355,7 +354,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour3.
      */
-    public function getRdvJour3(): ?bool{
+    public function getRdvJour3(): ?bool {
         return $this->rdvJour3;
     }
 
@@ -364,7 +363,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour4.
      */
-    public function getRdvJour4(): ?bool{
+    public function getRdvJour4(): ?bool {
         return $this->rdvJour4;
     }
 
@@ -373,7 +372,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour5.
      */
-    public function getRdvJour5(): ?bool{
+    public function getRdvJour5(): ?bool {
         return $this->rdvJour5;
     }
 
@@ -382,7 +381,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour6.
      */
-    public function getRdvJour6(): ?bool{
+    public function getRdvJour6(): ?bool {
         return $this->rdvJour6;
     }
 
@@ -391,7 +390,7 @@ class VisiteMedicaleEntete {
      *
      * @return bool|null Returns the rdv jour7.
      */
-    public function getRdvJour7(): ?bool{
+    public function getRdvJour7(): ?bool {
         return $this->rdvJour7;
     }
 
@@ -400,7 +399,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -409,7 +408,7 @@ class VisiteMedicaleEntete {
      *
      * @return string|null Returns the ville mt.
      */
-    public function getVilleMt(): ?string{
+    public function getVilleMt(): ?string {
         return $this->villeMt;
     }
 

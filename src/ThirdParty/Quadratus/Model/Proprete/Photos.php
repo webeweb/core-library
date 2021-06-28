@@ -63,7 +63,6 @@ class Photos {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class Photos {
      *
      * @return bool|null Returns the a publier espace client.
      */
-    public function getAPublierEspaceClient(): ?bool{
+    public function getAPublierEspaceClient(): ?bool {
         return $this->aPublierEspaceClient;
     }
 
@@ -85,7 +84,7 @@ class Photos {
      *
      * @return string|null Returns the auteur.
      */
-    public function getAuteur(): ?string{
+    public function getAuteur(): ?string {
         return $this->auteur;
     }
 
@@ -94,7 +93,7 @@ class Photos {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -103,7 +102,7 @@ class Photos {
      *
      * @return string|null Returns the nom fichier id.
      */
-    public function getNomFichierId(): ?string{
+    public function getNomFichierId(): ?string {
         return $this->nomFichierId;
     }
 
@@ -112,7 +111,7 @@ class Photos {
      *
      * @return string|null Returns the type id.
      */
-    public function getTypeId(): ?string{
+    public function getTypeId(): ?string {
         return $this->typeId;
     }
 
@@ -121,7 +120,7 @@ class Photos {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

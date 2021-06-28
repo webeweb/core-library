@@ -68,7 +68,6 @@ class RecapDfi {
      */
     private $stocks;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class RecapDfi {
      *
      * @return int|null Returns the annee ded.
      */
-    public function getAnneeDed(): ?int{
+    public function getAnneeDed(): ?int {
         return $this->anneeDed;
     }
 
@@ -90,7 +89,7 @@ class RecapDfi {
      *
      * @return int|null Returns the annee utilisation.
      */
-    public function getAnneeUtilisation(): ?int{
+    public function getAnneeUtilisation(): ?int {
         return $this->anneeUtilisation;
     }
 
@@ -99,7 +98,7 @@ class RecapDfi {
      *
      * @return float|null Returns the immobilisations.
      */
-    public function getImmobilisations(): ?float{
+    public function getImmobilisations(): ?float {
         return $this->immobilisations;
     }
 
@@ -108,7 +107,7 @@ class RecapDfi {
      *
      * @return float|null Returns the mtt annee.
      */
-    public function getMttAnnee(): ?float{
+    public function getMttAnnee(): ?float {
         return $this->mttAnnee;
     }
 
@@ -117,7 +116,7 @@ class RecapDfi {
      *
      * @return float|null Returns the parts sociales.
      */
-    public function getPartsSociales(): ?float{
+    public function getPartsSociales(): ?float {
         return $this->partsSociales;
     }
 
@@ -126,7 +125,7 @@ class RecapDfi {
      *
      * @return float|null Returns the reint anticipee.
      */
-    public function getReintAnticipee(): ?float{
+    public function getReintAnticipee(): ?float {
         return $this->reintAnticipee;
     }
 
@@ -135,7 +134,7 @@ class RecapDfi {
      *
      * @return float|null Returns the stocks.
      */
-    public function getStocks(): ?float{
+    public function getStocks(): ?float {
         return $this->stocks;
     }
 

@@ -196,7 +196,6 @@ class MouvementsStock {
      */
     private $typeLigne;
 
-
     /**
      * Constructor.
      */
@@ -209,7 +208,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the bon sortie.
      */
-    public function getBonSortie(): ?string{
+    public function getBonSortie(): ?string {
         return $this->bonSortie;
     }
 
@@ -218,7 +217,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -227,7 +226,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -236,7 +235,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -245,7 +244,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -254,7 +253,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code depot.
      */
-    public function getCodeDepot(): ?string{
+    public function getCodeDepot(): ?string {
         return $this->codeDepot;
     }
 
@@ -263,7 +262,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -272,7 +271,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -281,7 +280,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -290,7 +289,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the code variante.
      */
-    public function getCodeVariante(): ?string{
+    public function getCodeVariante(): ?string {
         return $this->codeVariante;
     }
 
@@ -299,7 +298,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -308,7 +307,7 @@ class MouvementsStock {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -317,7 +316,7 @@ class MouvementsStock {
      *
      * @return bool|null Returns the euro.
      */
-    public function getEuro(): ?bool{
+    public function getEuro(): ?bool {
         return $this->euro;
     }
 
@@ -326,7 +325,7 @@ class MouvementsStock {
      *
      * @return int|null Returns the index.
      */
-    public function getIndex(): ?int{
+    public function getIndex(): ?int {
         return $this->index;
     }
 
@@ -335,7 +334,7 @@ class MouvementsStock {
      *
      * @return bool|null Returns the mouvement genere.
      */
-    public function getMouvementGenere(): ?bool{
+    public function getMouvementGenere(): ?bool {
         return $this->mouvementGenere;
     }
 
@@ -344,7 +343,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -353,7 +352,7 @@ class MouvementsStock {
      *
      * @return float|null Returns the prix u.
      */
-    public function getPrixU(): ?float{
+    public function getPrixU(): ?float {
         return $this->prixU;
     }
 
@@ -362,7 +361,7 @@ class MouvementsStock {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -371,7 +370,7 @@ class MouvementsStock {
      *
      * @return float|null Returns the quantite voulue.
      */
-    public function getQuantiteVoulue(): ?float{
+    public function getQuantiteVoulue(): ?float {
         return $this->quantiteVoulue;
     }
 
@@ -380,7 +379,7 @@ class MouvementsStock {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -389,7 +388,7 @@ class MouvementsStock {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -398,7 +397,7 @@ class MouvementsStock {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -407,7 +406,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 
@@ -416,7 +415,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the type gestion.
      */
-    public function getTypeGestion(): ?string{
+    public function getTypeGestion(): ?string {
         return $this->typeGestion;
     }
 
@@ -425,7 +424,7 @@ class MouvementsStock {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 

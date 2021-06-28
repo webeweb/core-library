@@ -22,18 +22,18 @@ use DateTime;
 class ConstantesEntreprise2 {
 
     /**
-     * Date application fs lisse.
-     *
-     * @var DateTime|null
-     */
-    private $dateApplicationFsLisse;
-
-    /**
      * Date application forfait social8.
      *
      * @var DateTime|null
      */
     private $dateApplicationForfaitSocial8;
+
+    /**
+     * Date application fs lisse.
+     *
+     * @var DateTime|null
+     */
+    private $dateApplicationFsLisse;
 
     /**
      * Gere evt fin contrat lot.
@@ -91,7 +91,6 @@ class ConstantesEntreprise2 {
      */
     private $tauxPrimeAnnuellePropretePlus20Ans;
 
-
     /**
      * Constructor.
      */
@@ -100,21 +99,21 @@ class ConstantesEntreprise2 {
     }
 
     /**
-     * Get the date application fs lisse.
-     *
-     * @return DateTime|null Returns the date application fs lisse.
-     */
-    public function getDateApplicationFsLisse(): ?DateTime{
-        return $this->dateApplicationFsLisse;
-    }
-
-    /**
      * Get the date application forfait social8.
      *
      * @return DateTime|null Returns the date application forfait social8.
      */
-    public function getDateApplicationForfaitSocial8(): ?DateTime{
+    public function getDateApplicationForfaitSocial8(): ?DateTime {
         return $this->dateApplicationForfaitSocial8;
+    }
+
+    /**
+     * Get the date application fs lisse.
+     *
+     * @return DateTime|null Returns the date application fs lisse.
+     */
+    public function getDateApplicationFsLisse(): ?DateTime {
+        return $this->dateApplicationFsLisse;
     }
 
     /**
@@ -122,7 +121,7 @@ class ConstantesEntreprise2 {
      *
      * @return bool|null Returns the gere evt fin contrat lot.
      */
-    public function getGereEvtFinContratLot(): ?bool{
+    public function getGereEvtFinContratLot(): ?bool {
         return $this->gereEvtFinContratLot;
     }
 
@@ -131,7 +130,7 @@ class ConstantesEntreprise2 {
      *
      * @return bool|null Returns the gere prev norme dsn.
      */
-    public function getGerePrevNormeDsn(): ?bool{
+    public function getGerePrevNormeDsn(): ?bool {
         return $this->gerePrevNormeDsn;
     }
 
@@ -140,7 +139,7 @@ class ConstantesEntreprise2 {
      *
      * @return bool|null Returns the gestion dsn.
      */
-    public function getGestionDsn(): ?bool{
+    public function getGestionDsn(): ?bool {
         return $this->gestionDsn;
     }
 
@@ -149,7 +148,7 @@ class ConstantesEntreprise2 {
      *
      * @return int|null Returns the n evenement dsn.
      */
-    public function getNEvenementDsn(): ?int{
+    public function getNEvenementDsn(): ?int {
         return $this->nEvenementDsn;
     }
 
@@ -158,7 +157,7 @@ class ConstantesEntreprise2 {
      *
      * @return bool|null Returns the ne pas activer prime annuelle proprete.
      */
-    public function getNePasActiverPrimeAnnuelleProprete(): ?bool{
+    public function getNePasActiverPrimeAnnuelleProprete(): ?bool {
         return $this->nePasActiverPrimeAnnuelleProprete;
     }
 
@@ -167,7 +166,7 @@ class ConstantesEntreprise2 {
      *
      * @return bool|null Returns the regime mixte msa.
      */
-    public function getRegimeMixteMsa(): ?bool{
+    public function getRegimeMixteMsa(): ?bool {
         return $this->regimeMixteMsa;
     }
 
@@ -176,7 +175,7 @@ class ConstantesEntreprise2 {
      *
      * @return float|null Returns the taux prime annuelle proprete moins20 ans.
      */
-    public function getTauxPrimeAnnuellePropreteMoins20Ans(): ?float{
+    public function getTauxPrimeAnnuellePropreteMoins20Ans(): ?float {
         return $this->tauxPrimeAnnuellePropreteMoins20Ans;
     }
 
@@ -185,19 +184,8 @@ class ConstantesEntreprise2 {
      *
      * @return float|null Returns the taux prime annuelle proprete plus20 ans.
      */
-    public function getTauxPrimeAnnuellePropretePlus20Ans(): ?float{
+    public function getTauxPrimeAnnuellePropretePlus20Ans(): ?float {
         return $this->tauxPrimeAnnuellePropretePlus20Ans;
-    }
-
-    /**
-     * Set the date application fs lisse.
-     *
-     * @param DateTime|null $dateApplicationFsLisse The date application fs lisse.
-     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
-     */
-    public function setDateApplicationFsLisse(?DateTime $dateApplicationFsLisse): ConstantesEntreprise2 {
-        $this->dateApplicationFsLisse = $dateApplicationFsLisse;
-        return $this;
     }
 
     /**
@@ -208,6 +196,17 @@ class ConstantesEntreprise2 {
      */
     public function setDateApplicationForfaitSocial8(?DateTime $dateApplicationForfaitSocial8): ConstantesEntreprise2 {
         $this->dateApplicationForfaitSocial8 = $dateApplicationForfaitSocial8;
+        return $this;
+    }
+
+    /**
+     * Set the date application fs lisse.
+     *
+     * @param DateTime|null $dateApplicationFsLisse The date application fs lisse.
+     * @return ConstantesEntreprise2 Returns this Constantes entreprise2.
+     */
+    public function setDateApplicationFsLisse(?DateTime $dateApplicationFsLisse): ConstantesEntreprise2 {
+        $this->dateApplicationFsLisse = $dateApplicationFsLisse;
         return $this;
     }
 

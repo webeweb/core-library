@@ -40,7 +40,6 @@ class DevisProgEntetes {
      */
     private $numProgramme;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class DevisProgEntetes {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -62,7 +61,7 @@ class DevisProgEntetes {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -71,7 +70,7 @@ class DevisProgEntetes {
      *
      * @return int|null Returns the num programme.
      */
-    public function getNumProgramme(): ?int{
+    public function getNumProgramme(): ?int {
         return $this->numProgramme;
     }
 

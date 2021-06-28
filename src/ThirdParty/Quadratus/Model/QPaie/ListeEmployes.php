@@ -36,13 +36,6 @@ class ListeEmployes {
     private $bureauDistributeur;
 
     /**
-     * Cddcdi.
-     *
-     * @var bool|null
-     */
-    private $cddcdi;
-
-    /**
      * Carte sejour delivree le.
      *
      * @var DateTime|null
@@ -76,6 +69,13 @@ class ListeEmployes {
      * @var string|null
      */
     private $categoriePermis;
+
+    /**
+     * Cddcdi.
+     *
+     * @var bool|null
+     */
+    private $cddcdi;
 
     /**
      * Cle deux.
@@ -183,18 +183,18 @@ class ListeEmployes {
     private $cumBrutAbatNonLim;
 
     /**
-     * Cum brut non abattu.
-     *
-     * @var float|null
-     */
-    private $cumBrutNonAbattu;
-
-    /**
      * Cum brut al.
      *
      * @var float|null
      */
     private $cumBrutAl;
+
+    /**
+     * Cum brut non abattu.
+     *
+     * @var float|null
+     */
+    private $cumBrutNonAbattu;
 
     /**
      * Cum cp dus.
@@ -666,6 +666,20 @@ class ListeEmployes {
     private $situationFam;
 
     /**
+     * Taux pension civile.
+     *
+     * @var float|null
+     */
+    private $tauxPensionCivile;
+
+    /**
+     * Taux pension militaire.
+     *
+     * @var float|null
+     */
+    private $tauxPensionMilitaire;
+
+    /**
      * Tds138.
      *
      * @var string|null
@@ -692,20 +706,6 @@ class ListeEmployes {
      * @var string|null
      */
     private $tds76;
-
-    /**
-     * Taux pension civile.
-     *
-     * @var float|null
-     */
-    private $tauxPensionCivile;
-
-    /**
-     * Taux pension militaire.
-     *
-     * @var float|null
-     */
-    private $tauxPensionMilitaire;
 
     /**
      * Tel1.
@@ -770,7 +770,6 @@ class ListeEmployes {
      */
     private $typePaiement;
 
-
     /**
      * Constructor.
      */
@@ -783,7 +782,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -792,17 +791,8 @@ class ListeEmployes {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
-    }
-
-    /**
-     * Get the cddcdi.
-     *
-     * @return bool|null Returns the cddcdi.
-     */
-    public function getCddcdi(): ?bool{
-        return $this->cddcdi;
     }
 
     /**
@@ -810,7 +800,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the carte sejour delivree le.
      */
-    public function getCarteSejourDelivreeLe(): ?DateTime{
+    public function getCarteSejourDelivreeLe(): ?DateTime {
         return $this->carteSejourDelivreeLe;
     }
 
@@ -819,7 +809,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the carte sejour expire le.
      */
-    public function getCarteSejourExpireLe(): ?DateTime{
+    public function getCarteSejourExpireLe(): ?DateTime {
         return $this->carteSejourExpireLe;
     }
 
@@ -828,7 +818,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the carte travail delivree le.
      */
-    public function getCarteTravailDelivreeLe(): ?DateTime{
+    public function getCarteTravailDelivreeLe(): ?DateTime {
         return $this->carteTravailDelivreeLe;
     }
 
@@ -837,7 +827,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the carte travail expire le.
      */
-    public function getCarteTravailExpireLe(): ?DateTime{
+    public function getCarteTravailExpireLe(): ?DateTime {
         return $this->carteTravailExpireLe;
     }
 
@@ -846,8 +836,17 @@ class ListeEmployes {
      *
      * @return string|null Returns the categorie permis.
      */
-    public function getCategoriePermis(): ?string{
+    public function getCategoriePermis(): ?string {
         return $this->categoriePermis;
+    }
+
+    /**
+     * Get the cddcdi.
+     *
+     * @return bool|null Returns the cddcdi.
+     */
+    public function getCddcdi(): ?bool {
+        return $this->cddcdi;
     }
 
     /**
@@ -855,7 +854,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the cle deux.
      */
-    public function getCleDeux(): ?string{
+    public function getCleDeux(): ?string {
         return $this->cleDeux;
     }
 
@@ -864,7 +863,7 @@ class ListeEmployes {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -873,7 +872,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the code motif rupture.
      */
-    public function getCodeMotifRupture(): ?string{
+    public function getCodeMotifRupture(): ?string {
         return $this->codeMotifRupture;
     }
 
@@ -882,7 +881,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -891,7 +890,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -900,7 +899,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the code type sal.
      */
-    public function getCodeTypeSal(): ?string{
+    public function getCodeTypeSal(): ?string {
         return $this->codeTypeSal;
     }
 
@@ -909,7 +908,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the commune naissance.
      */
-    public function getCommuneNaissance(): ?string{
+    public function getCommuneNaissance(): ?string {
         return $this->communeNaissance;
     }
 
@@ -918,7 +917,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -927,7 +926,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum30 ss.
      */
-    public function getCum30Ss(): ?float{
+    public function getCum30Ss(): ?float {
         return $this->cum30Ss;
     }
 
@@ -936,7 +935,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum base gmp.
      */
-    public function getCumBaseGmp(): ?float{
+    public function getCumBaseGmp(): ?float {
         return $this->cumBaseGmp;
     }
 
@@ -945,7 +944,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum base ss.
      */
-    public function getCumBaseSs(): ?float{
+    public function getCumBaseSs(): ?float {
         return $this->cumBaseSs;
     }
 
@@ -954,7 +953,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum base tr a.
      */
-    public function getCumBaseTrA(): ?float{
+    public function getCumBaseTrA(): ?float {
         return $this->cumBaseTrA;
     }
 
@@ -963,7 +962,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum base tr b.
      */
-    public function getCumBaseTrB(): ?float{
+    public function getCumBaseTrB(): ?float {
         return $this->cumBaseTrB;
     }
 
@@ -972,7 +971,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum base tr c.
      */
-    public function getCumBaseTrC(): ?float{
+    public function getCumBaseTrC(): ?float {
         return $this->cumBaseTrC;
     }
 
@@ -981,17 +980,8 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum brut abat non lim.
      */
-    public function getCumBrutAbatNonLim(): ?float{
+    public function getCumBrutAbatNonLim(): ?float {
         return $this->cumBrutAbatNonLim;
-    }
-
-    /**
-     * Get the cum brut non abattu.
-     *
-     * @return float|null Returns the cum brut non abattu.
-     */
-    public function getCumBrutNonAbattu(): ?float{
-        return $this->cumBrutNonAbattu;
     }
 
     /**
@@ -999,8 +989,17 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum brut al.
      */
-    public function getCumBrutAl(): ?float{
+    public function getCumBrutAl(): ?float {
         return $this->cumBrutAl;
+    }
+
+    /**
+     * Get the cum brut non abattu.
+     *
+     * @return float|null Returns the cum brut non abattu.
+     */
+    public function getCumBrutNonAbattu(): ?float {
+        return $this->cumBrutNonAbattu;
     }
 
     /**
@@ -1008,7 +1007,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum cp dus.
      */
-    public function getCumCpDus(): ?float{
+    public function getCumCpDus(): ?float {
         return $this->cumCpDus;
     }
 
@@ -1017,7 +1016,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum cp dus1.
      */
-    public function getCumCpDus1(): ?float{
+    public function getCumCpDus1(): ?float {
         return $this->cumCpDus1;
     }
 
@@ -1026,7 +1025,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum cp pris.
      */
-    public function getCumCpPris(): ?float{
+    public function getCumCpPris(): ?float {
         return $this->cumCpPris;
     }
 
@@ -1035,7 +1034,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum cp pris1.
      */
-    public function getCumCpPris1(): ?float{
+    public function getCumCpPris1(): ?float {
         return $this->cumCpPris1;
     }
 
@@ -1044,7 +1043,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum h sup.
      */
-    public function getCumHSup(): ?float{
+    public function getCumHSup(): ?float {
         return $this->cumHSup;
     }
 
@@ -1053,7 +1052,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum heure paye.
      */
-    public function getCumHeurePaye(): ?float{
+    public function getCumHeurePaye(): ?float {
         return $this->cumHeurePaye;
     }
 
@@ -1062,7 +1061,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum heure trav.
      */
-    public function getCumHeureTrav(): ?float{
+    public function getCumHeureTrav(): ?float {
         return $this->cumHeureTrav;
     }
 
@@ -1071,7 +1070,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum jour paye.
      */
-    public function getCumJourPaye(): ?float{
+    public function getCumJourPaye(): ?float {
         return $this->cumJourPaye;
     }
 
@@ -1080,7 +1079,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum jour trav.
      */
-    public function getCumJourTrav(): ?float{
+    public function getCumJourTrav(): ?float {
         return $this->cumJourTrav;
     }
 
@@ -1089,7 +1088,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum mt cp pris.
      */
-    public function getCumMtCpPris(): ?float{
+    public function getCumMtCpPris(): ?float {
         return $this->cumMtCpPris;
     }
 
@@ -1098,7 +1097,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum mt cp pris1.
      */
-    public function getCumMtCpPris1(): ?float{
+    public function getCumMtCpPris1(): ?float {
         return $this->cumMtCpPris1;
     }
 
@@ -1107,7 +1106,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum net a payer.
      */
-    public function getCumNetAPayer(): ?float{
+    public function getCumNetAPayer(): ?float {
         return $this->cumNetAPayer;
     }
 
@@ -1116,7 +1115,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum net imposable.
      */
-    public function getCumNetImposable(): ?float{
+    public function getCumNetImposable(): ?float {
         return $this->cumNetImposable;
     }
 
@@ -1125,7 +1124,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum plafond gmp.
      */
-    public function getCumPlafondGmp(): ?float{
+    public function getCumPlafondGmp(): ?float {
         return $this->cumPlafondGmp;
     }
 
@@ -1134,7 +1133,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum plafond ss1.
      */
-    public function getCumPlafondSs1(): ?float{
+    public function getCumPlafondSs1(): ?float {
         return $this->cumPlafondSs1;
     }
 
@@ -1143,7 +1142,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum plafond ss2.
      */
-    public function getCumPlafondSs2(): ?float{
+    public function getCumPlafondSs2(): ?float {
         return $this->cumPlafondSs2;
     }
 
@@ -1152,7 +1151,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum prov cp.
      */
-    public function getCumProvCp(): ?float{
+    public function getCumProvCp(): ?float {
         return $this->cumProvCp;
     }
 
@@ -1161,7 +1160,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum prov cp1.
      */
-    public function getCumProvCp1(): ?float{
+    public function getCumProvCp1(): ?float {
         return $this->cumProvCp1;
     }
 
@@ -1170,7 +1169,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the cum repos comp.
      */
-    public function getCumReposComp(): ?float{
+    public function getCumReposComp(): ?float {
         return $this->cumReposComp;
     }
 
@@ -1179,7 +1178,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -1188,7 +1187,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -1197,7 +1196,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date naiss conjoint.
      */
-    public function getDateNaissConjoint(): ?DateTime{
+    public function getDateNaissConjoint(): ?DateTime {
         return $this->dateNaissConjoint;
     }
 
@@ -1206,7 +1205,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance(): ?DateTime{
+    public function getDateNaissance(): ?DateTime {
         return $this->dateNaissance;
     }
 
@@ -1215,7 +1214,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -1224,7 +1223,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date visite medicale.
      */
-    public function getDateVisiteMedicale(): ?DateTime{
+    public function getDateVisiteMedicale(): ?DateTime {
         return $this->dateVisiteMedicale;
     }
 
@@ -1233,7 +1232,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the date visite reprise.
      */
-    public function getDateVisiteReprise(): ?DateTime{
+    public function getDateVisiteReprise(): ?DateTime {
         return $this->dateVisiteReprise;
     }
 
@@ -1242,7 +1241,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the dept naissance.
      */
-    public function getDeptNaissance(): ?string{
+    public function getDeptNaissance(): ?string {
         return $this->deptNaissance;
     }
 
@@ -1251,7 +1250,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the derniere visite medicale.
      */
-    public function getDerniereVisiteMedicale(): ?DateTime{
+    public function getDerniereVisiteMedicale(): ?DateTime {
         return $this->derniereVisiteMedicale;
     }
 
@@ -1260,7 +1259,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the email.
      */
-    public function getEmail(): ?string{
+    public function getEmail(): ?string {
         return $this->email;
     }
 
@@ -1269,7 +1268,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the fictif.
      */
-    public function getFictif(): ?bool{
+    public function getFictif(): ?bool {
         return $this->fictif;
     }
 
@@ -1278,7 +1277,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the gestion mail bulletin.
      */
-    public function getGestionMailBulletin(): ?bool{
+    public function getGestionMailBulletin(): ?bool {
         return $this->gestionMailBulletin;
     }
 
@@ -1287,7 +1286,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the handicape.
      */
-    public function getHandicape(): ?bool{
+    public function getHandicape(): ?bool {
         return $this->handicape;
     }
 
@@ -1296,7 +1295,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the lieu travail conjoint.
      */
-    public function getLieuTravailConjoint(): ?string{
+    public function getLieuTravailConjoint(): ?string {
         return $this->lieuTravailConjoint;
     }
 
@@ -1305,7 +1304,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the matricule.
      */
-    public function getMatricule(): ?string{
+    public function getMatricule(): ?string {
         return $this->matricule;
     }
 
@@ -1314,7 +1313,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nationalite.
      */
-    public function getNationalite(): ?string{
+    public function getNationalite(): ?string {
         return $this->nationalite;
     }
 
@@ -1323,7 +1322,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the nb heure mois.
      */
-    public function getNbHeureMois(): ?float{
+    public function getNbHeureMois(): ?float {
         return $this->nbHeureMois;
     }
 
@@ -1332,7 +1331,7 @@ class ListeEmployes {
      *
      * @return int|null Returns the nb jours anc.
      */
-    public function getNbJoursAnc(): ?int{
+    public function getNbJoursAnc(): ?int {
         return $this->nbJoursAnc;
     }
 
@@ -1341,7 +1340,7 @@ class ListeEmployes {
      *
      * @return int|null Returns the nb jours visite med.
      */
-    public function getNbJoursVisiteMed(): ?int{
+    public function getNbJoursVisiteMed(): ?int {
         return $this->nbJoursVisiteMed;
     }
 
@@ -1350,7 +1349,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the niveau confidentialite.
      */
-    public function getNiveauConfidentialite(): ?string{
+    public function getNiveauConfidentialite(): ?string {
         return $this->niveauConfidentialite;
     }
 
@@ -1359,7 +1358,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nom conjoint.
      */
-    public function getNomConjoint(): ?string{
+    public function getNomConjoint(): ?string {
         return $this->nomConjoint;
     }
 
@@ -1368,7 +1367,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nom marital.
      */
-    public function getNomMarital(): ?string{
+    public function getNomMarital(): ?string {
         return $this->nomMarital;
     }
 
@@ -1377,7 +1376,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance(): ?string{
+    public function getNomNaissance(): ?string {
         return $this->nomNaissance;
     }
 
@@ -1386,7 +1385,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -1395,7 +1394,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -1404,7 +1403,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the nombre enfants.
      */
-    public function getNombreEnfants(): ?string{
+    public function getNombreEnfants(): ?string {
         return $this->nombreEnfants;
     }
 
@@ -1413,7 +1412,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -1422,7 +1421,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -1431,7 +1430,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the numero carte sejour.
      */
-    public function getNumeroCarteSejour(): ?string{
+    public function getNumeroCarteSejour(): ?string {
         return $this->numeroCarteSejour;
     }
 
@@ -1440,7 +1439,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the numero carte travail.
      */
-    public function getNumeroCarteTravail(): ?string{
+    public function getNumeroCarteTravail(): ?string {
         return $this->numeroCarteTravail;
     }
 
@@ -1449,7 +1448,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the numero insee.
      */
-    public function getNumeroInsee(): ?string{
+    public function getNumeroInsee(): ?string {
         return $this->numeroInsee;
     }
 
@@ -1458,7 +1457,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the numero permis.
      */
-    public function getNumeroPermis(): ?string{
+    public function getNumeroPermis(): ?string {
         return $this->numeroPermis;
     }
 
@@ -1467,7 +1466,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the orphelin.
      */
-    public function getOrphelin(): ?bool{
+    public function getOrphelin(): ?bool {
         return $this->orphelin;
     }
 
@@ -1476,7 +1475,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the pas gestion pdp.
      */
-    public function getPasGestionPdp(): ?bool{
+    public function getPasGestionPdp(): ?bool {
         return $this->pasGestionPdp;
     }
 
@@ -1485,7 +1484,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the pension.
      */
-    public function getPension(): ?bool{
+    public function getPension(): ?bool {
         return $this->pension;
     }
 
@@ -1494,7 +1493,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -1503,7 +1502,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the permis delivre le.
      */
-    public function getPermisDelivreLe(): ?DateTime{
+    public function getPermisDelivreLe(): ?DateTime {
         return $this->permisDelivreLe;
     }
 
@@ -1512,7 +1511,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the permis delivre par.
      */
-    public function getPermisDelivrePar(): ?string{
+    public function getPermisDelivrePar(): ?string {
         return $this->permisDelivrePar;
     }
 
@@ -1521,7 +1520,7 @@ class ListeEmployes {
      *
      * @return DateTime|null Returns the permis expire le.
      */
-    public function getPermisExpireLe(): ?DateTime{
+    public function getPermisExpireLe(): ?DateTime {
         return $this->permisExpireLe;
     }
 
@@ -1530,7 +1529,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the personne a prevenir.
      */
-    public function getPersonneAPrevenir(): ?string{
+    public function getPersonneAPrevenir(): ?string {
         return $this->personneAPrevenir;
     }
 
@@ -1539,7 +1538,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the pourcent act.
      */
-    public function getPourcentAct(): ?float{
+    public function getPourcentAct(): ?float {
         return $this->pourcentAct;
     }
 
@@ -1548,7 +1547,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -1557,7 +1556,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the prenom conjoint.
      */
-    public function getPrenomConjoint(): ?string{
+    public function getPrenomConjoint(): ?string {
         return $this->prenomConjoint;
     }
 
@@ -1566,7 +1565,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 
@@ -1575,7 +1574,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the salaire base.
      */
-    public function getSalaireBase(): ?float{
+    public function getSalaireBase(): ?float {
         return $this->salaireBase;
     }
 
@@ -1584,7 +1583,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
     }
 
@@ -1593,7 +1592,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the sexe.
      */
-    public function getSexe(): ?string{
+    public function getSexe(): ?string {
         return $this->sexe;
     }
 
@@ -1602,44 +1601,8 @@ class ListeEmployes {
      *
      * @return string|null Returns the situation fam.
      */
-    public function getSituationFam(): ?string{
+    public function getSituationFam(): ?string {
         return $this->situationFam;
-    }
-
-    /**
-     * Get the tds138.
-     *
-     * @return string|null Returns the tds138.
-     */
-    public function getTds138(): ?string{
-        return $this->tds138;
-    }
-
-    /**
-     * Get the tds60.
-     *
-     * @return bool|null Returns the tds60.
-     */
-    public function getTds60(): ?bool{
-        return $this->tds60;
-    }
-
-    /**
-     * Get the tds61.
-     *
-     * @return string|null Returns the tds61.
-     */
-    public function getTds61(): ?string{
-        return $this->tds61;
-    }
-
-    /**
-     * Get the tds76.
-     *
-     * @return string|null Returns the tds76.
-     */
-    public function getTds76(): ?string{
-        return $this->tds76;
     }
 
     /**
@@ -1647,7 +1610,7 @@ class ListeEmployes {
      *
      * @return float|null Returns the taux pension civile.
      */
-    public function getTauxPensionCivile(): ?float{
+    public function getTauxPensionCivile(): ?float {
         return $this->tauxPensionCivile;
     }
 
@@ -1656,8 +1619,44 @@ class ListeEmployes {
      *
      * @return float|null Returns the taux pension militaire.
      */
-    public function getTauxPensionMilitaire(): ?float{
+    public function getTauxPensionMilitaire(): ?float {
         return $this->tauxPensionMilitaire;
+    }
+
+    /**
+     * Get the tds138.
+     *
+     * @return string|null Returns the tds138.
+     */
+    public function getTds138(): ?string {
+        return $this->tds138;
+    }
+
+    /**
+     * Get the tds60.
+     *
+     * @return bool|null Returns the tds60.
+     */
+    public function getTds60(): ?bool {
+        return $this->tds60;
+    }
+
+    /**
+     * Get the tds61.
+     *
+     * @return string|null Returns the tds61.
+     */
+    public function getTds61(): ?string {
+        return $this->tds61;
+    }
+
+    /**
+     * Get the tds76.
+     *
+     * @return string|null Returns the tds76.
+     */
+    public function getTds76(): ?string {
+        return $this->tds76;
     }
 
     /**
@@ -1665,7 +1664,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -1674,7 +1673,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the tel2.
      */
-    public function getTel2(): ?string{
+    public function getTel2(): ?string {
         return $this->tel2;
     }
 
@@ -1683,7 +1682,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the tel conjoint.
      */
-    public function getTelConjoint(): ?string{
+    public function getTelConjoint(): ?string {
         return $this->telConjoint;
     }
 
@@ -1692,7 +1691,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the tel pers a prevenir.
      */
-    public function getTelPersAPrevenir(): ?string{
+    public function getTelPersAPrevenir(): ?string {
         return $this->telPersAPrevenir;
     }
 
@@ -1701,7 +1700,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -1710,7 +1709,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the transfert entree.
      */
-    public function getTransfertEntree(): ?bool{
+    public function getTransfertEntree(): ?bool {
         return $this->transfertEntree;
     }
 
@@ -1719,7 +1718,7 @@ class ListeEmployes {
      *
      * @return bool|null Returns the transfert sortie.
      */
-    public function getTransfertSortie(): ?bool{
+    public function getTransfertSortie(): ?bool {
         return $this->transfertSortie;
     }
 
@@ -1728,7 +1727,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the type nationalite.
      */
-    public function getTypeNationalite(): ?string{
+    public function getTypeNationalite(): ?string {
         return $this->typeNationalite;
     }
 
@@ -1737,7 +1736,7 @@ class ListeEmployes {
      *
      * @return string|null Returns the type paiement.
      */
-    public function getTypePaiement(): ?string{
+    public function getTypePaiement(): ?string {
         return $this->typePaiement;
     }
 
@@ -1760,17 +1759,6 @@ class ListeEmployes {
      */
     public function setBureauDistributeur(?string $bureauDistributeur): ListeEmployes {
         $this->bureauDistributeur = $bureauDistributeur;
-        return $this;
-    }
-
-    /**
-     * Set the cddcdi.
-     *
-     * @param bool|null $cddcdi The cddcdi.
-     * @return ListeEmployes Returns this Liste employes.
-     */
-    public function setCddcdi(?bool $cddcdi): ListeEmployes {
-        $this->cddcdi = $cddcdi;
         return $this;
     }
 
@@ -1826,6 +1814,17 @@ class ListeEmployes {
      */
     public function setCategoriePermis(?string $categoriePermis): ListeEmployes {
         $this->categoriePermis = $categoriePermis;
+        return $this;
+    }
+
+    /**
+     * Set the cddcdi.
+     *
+     * @param bool|null $cddcdi The cddcdi.
+     * @return ListeEmployes Returns this Liste employes.
+     */
+    public function setCddcdi(?bool $cddcdi): ListeEmployes {
+        $this->cddcdi = $cddcdi;
         return $this;
     }
 
@@ -1995,17 +1994,6 @@ class ListeEmployes {
     }
 
     /**
-     * Set the cum brut non abattu.
-     *
-     * @param float|null $cumBrutNonAbattu The cum brut non abattu.
-     * @return ListeEmployes Returns this Liste employes.
-     */
-    public function setCumBrutNonAbattu(?float $cumBrutNonAbattu): ListeEmployes {
-        $this->cumBrutNonAbattu = $cumBrutNonAbattu;
-        return $this;
-    }
-
-    /**
      * Set the cum brut al.
      *
      * @param float|null $cumBrutAl The cum brut al.
@@ -2013,6 +2001,17 @@ class ListeEmployes {
      */
     public function setCumBrutAl(?float $cumBrutAl): ListeEmployes {
         $this->cumBrutAl = $cumBrutAl;
+        return $this;
+    }
+
+    /**
+     * Set the cum brut non abattu.
+     *
+     * @param float|null $cumBrutNonAbattu The cum brut non abattu.
+     * @return ListeEmployes Returns this Liste employes.
+     */
+    public function setCumBrutNonAbattu(?float $cumBrutNonAbattu): ListeEmployes {
+        $this->cumBrutNonAbattu = $cumBrutNonAbattu;
         return $this;
     }
 
@@ -2754,6 +2753,28 @@ class ListeEmployes {
     }
 
     /**
+     * Set the taux pension civile.
+     *
+     * @param float|null $tauxPensionCivile The taux pension civile.
+     * @return ListeEmployes Returns this Liste employes.
+     */
+    public function setTauxPensionCivile(?float $tauxPensionCivile): ListeEmployes {
+        $this->tauxPensionCivile = $tauxPensionCivile;
+        return $this;
+    }
+
+    /**
+     * Set the taux pension militaire.
+     *
+     * @param float|null $tauxPensionMilitaire The taux pension militaire.
+     * @return ListeEmployes Returns this Liste employes.
+     */
+    public function setTauxPensionMilitaire(?float $tauxPensionMilitaire): ListeEmployes {
+        $this->tauxPensionMilitaire = $tauxPensionMilitaire;
+        return $this;
+    }
+
+    /**
      * Set the tds138.
      *
      * @param string|null $tds138 The tds138.
@@ -2794,28 +2815,6 @@ class ListeEmployes {
      */
     public function setTds76(?string $tds76): ListeEmployes {
         $this->tds76 = $tds76;
-        return $this;
-    }
-
-    /**
-     * Set the taux pension civile.
-     *
-     * @param float|null $tauxPensionCivile The taux pension civile.
-     * @return ListeEmployes Returns this Liste employes.
-     */
-    public function setTauxPensionCivile(?float $tauxPensionCivile): ListeEmployes {
-        $this->tauxPensionCivile = $tauxPensionCivile;
-        return $this;
-    }
-
-    /**
-     * Set the taux pension militaire.
-     *
-     * @param float|null $tauxPensionMilitaire The taux pension militaire.
-     * @return ListeEmployes Returns this Liste employes.
-     */
-    public function setTauxPensionMilitaire(?float $tauxPensionMilitaire): ListeEmployes {
-        $this->tauxPensionMilitaire = $tauxPensionMilitaire;
         return $this;
     }
 

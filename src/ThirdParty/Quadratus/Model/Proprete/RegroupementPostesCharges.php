@@ -33,7 +33,6 @@ class RegroupementPostesCharges {
      */
     private $codeRegCharge;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class RegroupementPostesCharges {
      *
      * @return string|null Returns the code charge.
      */
-    public function getCodeCharge(): ?string{
+    public function getCodeCharge(): ?string {
         return $this->codeCharge;
     }
 
@@ -55,7 +54,7 @@ class RegroupementPostesCharges {
      *
      * @return string|null Returns the code reg charge.
      */
-    public function getCodeRegCharge(): ?string{
+    public function getCodeRegCharge(): ?string {
         return $this->codeRegCharge;
     }
 

@@ -61,7 +61,6 @@ class DevisChantiers {
      */
     private $numDevis;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class DevisChantiers {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -83,7 +82,7 @@ class DevisChantiers {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -92,7 +91,7 @@ class DevisChantiers {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -101,7 +100,7 @@ class DevisChantiers {
      *
      * @return bool|null Returns the maj descriptif.
      */
-    public function getMajDescriptif(): ?bool{
+    public function getMajDescriptif(): ?bool {
         return $this->majDescriptif;
     }
 
@@ -110,7 +109,7 @@ class DevisChantiers {
      *
      * @return float|null Returns the montant ht.
      */
-    public function getMontantHt(): ?float{
+    public function getMontantHt(): ?float {
         return $this->montantHt;
     }
 
@@ -119,7 +118,7 @@ class DevisChantiers {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 

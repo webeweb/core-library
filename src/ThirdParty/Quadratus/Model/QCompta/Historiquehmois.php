@@ -154,7 +154,6 @@ class Historiquehmois {
      */
     private $typeZone;
 
-
     /**
      * Constructor.
      */
@@ -167,7 +166,7 @@ class Historiquehmois {
      *
      * @return string|null Returns the alpha.
      */
-    public function getAlpha(): ?string{
+    public function getAlpha(): ?string {
         return $this->alpha;
     }
 
@@ -176,7 +175,7 @@ class Historiquehmois {
      *
      * @return float|null Returns the an n.
      */
-    public function getAnN(): ?float{
+    public function getAnN(): ?float {
         return $this->anN;
     }
 
@@ -185,7 +184,7 @@ class Historiquehmois {
      *
      * @return float|null Returns the an n1.
      */
-    public function getAnN1(): ?float{
+    public function getAnN1(): ?float {
         return $this->anN1;
     }
 
@@ -194,7 +193,7 @@ class Historiquehmois {
      *
      * @return float|null Returns the an n2.
      */
-    public function getAnN2(): ?float{
+    public function getAnN2(): ?float {
         return $this->anN2;
     }
 
@@ -203,7 +202,7 @@ class Historiquehmois {
      *
      * @return float|null Returns the budget1.
      */
-    public function getBudget1(): ?float{
+    public function getBudget1(): ?float {
         return $this->budget1;
     }
 
@@ -212,7 +211,7 @@ class Historiquehmois {
      *
      * @return float|null Returns the budget2.
      */
-    public function getBudget2(): ?float{
+    public function getBudget2(): ?float {
         return $this->budget2;
     }
 
@@ -221,7 +220,7 @@ class Historiquehmois {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -230,7 +229,7 @@ class Historiquehmois {
      *
      * @return bool|null Returns the flg an n.
      */
-    public function getFlgAnN(): ?bool{
+    public function getFlgAnN(): ?bool {
         return $this->flgAnN;
     }
 
@@ -239,7 +238,7 @@ class Historiquehmois {
      *
      * @return bool|null Returns the flg an n1.
      */
-    public function getFlgAnN1(): ?bool{
+    public function getFlgAnN1(): ?bool {
         return $this->flgAnN1;
     }
 
@@ -248,7 +247,7 @@ class Historiquehmois {
      *
      * @return bool|null Returns the flg an n2.
      */
-    public function getFlgAnN2(): ?bool{
+    public function getFlgAnN2(): ?bool {
         return $this->flgAnN2;
     }
 
@@ -257,7 +256,7 @@ class Historiquehmois {
      *
      * @return bool|null Returns the flg budget1.
      */
-    public function getFlgBudget1(): ?bool{
+    public function getFlgBudget1(): ?bool {
         return $this->flgBudget1;
     }
 
@@ -266,7 +265,7 @@ class Historiquehmois {
      *
      * @return bool|null Returns the flg budget2.
      */
-    public function getFlgBudget2(): ?bool{
+    public function getFlgBudget2(): ?bool {
         return $this->flgBudget2;
     }
 
@@ -275,7 +274,7 @@ class Historiquehmois {
      *
      * @return int|null Returns the fmt dec.
      */
-    public function getFmtDec(): ?int{
+    public function getFmtDec(): ?int {
         return $this->fmtDec;
     }
 
@@ -284,7 +283,7 @@ class Historiquehmois {
      *
      * @return int|null Returns the fmt int.
      */
-    public function getFmtInt(): ?int{
+    public function getFmtInt(): ?int {
         return $this->fmtInt;
     }
 
@@ -293,7 +292,7 @@ class Historiquehmois {
      *
      * @return string|null Returns the memo.
      */
-    public function getMemo(): ?string{
+    public function getMemo(): ?string {
         return $this->memo;
     }
 
@@ -302,7 +301,7 @@ class Historiquehmois {
      *
      * @return bool|null Returns the no conv euro.
      */
-    public function getNoConvEuro(): ?bool{
+    public function getNoConvEuro(): ?bool {
         return $this->noConvEuro;
     }
 
@@ -311,7 +310,7 @@ class Historiquehmois {
      *
      * @return string|null Returns the regle.
      */
-    public function getRegle(): ?string{
+    public function getRegle(): ?string {
         return $this->regle;
     }
 
@@ -320,7 +319,7 @@ class Historiquehmois {
      *
      * @return string|null Returns the rub.
      */
-    public function getRub(): ?string{
+    public function getRub(): ?string {
         return $this->rub;
     }
 
@@ -329,7 +328,7 @@ class Historiquehmois {
      *
      * @return string|null Returns the type zone.
      */
-    public function getTypeZone(): ?string{
+    public function getTypeZone(): ?string {
         return $this->typeZone;
     }
 

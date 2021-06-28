@@ -40,7 +40,6 @@ class VentilationsAuto {
      */
     private $compteVentilation;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class VentilationsAuto {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -62,7 +61,7 @@ class VentilationsAuto {
      *
      * @return string|null Returns the code ventilation.
      */
-    public function getCodeVentilation(): ?string{
+    public function getCodeVentilation(): ?string {
         return $this->codeVentilation;
     }
 
@@ -71,7 +70,7 @@ class VentilationsAuto {
      *
      * @return string|null Returns the compte ventilation.
      */
-    public function getCompteVentilation(): ?string{
+    public function getCompteVentilation(): ?string {
         return $this->compteVentilation;
     }
 

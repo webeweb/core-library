@@ -63,7 +63,6 @@ class ReintegrationFf {
      */
     private $mttTreso;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class ReintegrationFf {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -85,7 +84,7 @@ class ReintegrationFf {
      *
      * @return int|null Returns the id tableau.
      */
-    public function getIdTableau(): ?int{
+    public function getIdTableau(): ?int {
         return $this->idTableau;
     }
 
@@ -94,7 +93,7 @@ class ReintegrationFf {
      *
      * @return float|null Returns the mtt apports.
      */
-    public function getMttApports(): ?float{
+    public function getMttApports(): ?float {
         return $this->mttApports;
     }
 
@@ -103,7 +102,7 @@ class ReintegrationFf {
      *
      * @return float|null Returns the mtt emprunts.
      */
-    public function getMttEmprunts(): ?float{
+    public function getMttEmprunts(): ?float {
         return $this->mttEmprunts;
     }
 
@@ -112,7 +111,7 @@ class ReintegrationFf {
      *
      * @return float|null Returns the mtt prelev.
      */
-    public function getMttPrelev(): ?float{
+    public function getMttPrelev(): ?float {
         return $this->mttPrelev;
     }
 
@@ -121,7 +120,7 @@ class ReintegrationFf {
      *
      * @return float|null Returns the mtt treso.
      */
-    public function getMttTreso(): ?float{
+    public function getMttTreso(): ?float {
         return $this->mttTreso;
     }
 

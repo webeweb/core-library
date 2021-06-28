@@ -75,7 +75,6 @@ class RecapDpa {
      */
     private $primesFranch;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class RecapDpa {
      *
      * @return float|null Returns the aleas climat.
      */
-    public function getAleasClimat(): ?float{
+    public function getAleasClimat(): ?float {
         return $this->aleasClimat;
     }
 
@@ -97,7 +96,7 @@ class RecapDpa {
      *
      * @return float|null Returns the aleas eco.
      */
-    public function getAleasEco(): ?float{
+    public function getAleasEco(): ?float {
         return $this->aleasEco;
     }
 
@@ -106,7 +105,7 @@ class RecapDpa {
      *
      * @return int|null Returns the annee ded.
      */
-    public function getAnneeDed(): ?int{
+    public function getAnneeDed(): ?int {
         return $this->anneeDed;
     }
 
@@ -115,7 +114,7 @@ class RecapDpa {
      *
      * @return int|null Returns the annee utilisation.
      */
-    public function getAnneeUtilisation(): ?int{
+    public function getAnneeUtilisation(): ?int {
         return $this->anneeUtilisation;
     }
 
@@ -124,7 +123,7 @@ class RecapDpa {
      *
      * @return float|null Returns the autres.
      */
-    public function getAutres(): ?float{
+    public function getAutres(): ?float {
         return $this->autres;
     }
 
@@ -133,7 +132,7 @@ class RecapDpa {
      *
      * @return float|null Returns the franch dommages.
      */
-    public function getFranchDommages(): ?float{
+    public function getFranchDommages(): ?float {
         return $this->franchDommages;
     }
 
@@ -142,7 +141,7 @@ class RecapDpa {
      *
      * @return float|null Returns the mtt annee.
      */
-    public function getMttAnnee(): ?float{
+    public function getMttAnnee(): ?float {
         return $this->mttAnnee;
     }
 
@@ -151,7 +150,7 @@ class RecapDpa {
      *
      * @return float|null Returns the primes franch.
      */
-    public function getPrimesFranch(): ?float{
+    public function getPrimesFranch(): ?float {
         return $this->primesFranch;
     }
 

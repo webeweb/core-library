@@ -131,7 +131,6 @@ class Constantes2 {
      */
     private $typeCritereCouleurBt;
 
-
     /**
      * Constructor.
      */
@@ -144,7 +143,7 @@ class Constantes2 {
      *
      * @return bool|null Returns the format duree.
      */
-    public function getFormatDuree(): ?bool{
+    public function getFormatDuree(): ?bool {
         return $this->formatDuree;
     }
 
@@ -153,7 +152,7 @@ class Constantes2 {
      *
      * @return bool|null Returns the jours cpa deduire.
      */
-    public function getJoursCpaDeduire(): ?bool{
+    public function getJoursCpaDeduire(): ?bool {
         return $this->joursCpaDeduire;
     }
 
@@ -162,7 +161,7 @@ class Constantes2 {
      *
      * @return string|null Returns the nb decimales duree.
      */
-    public function getNbDecimalesDuree(): ?string{
+    public function getNbDecimalesDuree(): ?string {
         return $this->nbDecimalesDuree;
     }
 
@@ -171,7 +170,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt bool1.
      */
-    public function getNumCritereBtBool1(): ?string{
+    public function getNumCritereBtBool1(): ?string {
         return $this->numCritereBtBool1;
     }
 
@@ -180,7 +179,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt bool2.
      */
-    public function getNumCritereBtBool2(): ?string{
+    public function getNumCritereBtBool2(): ?string {
         return $this->numCritereBtBool2;
     }
 
@@ -189,7 +188,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt byte1.
      */
-    public function getNumCritereBtByte1(): ?string{
+    public function getNumCritereBtByte1(): ?string {
         return $this->numCritereBtByte1;
     }
 
@@ -198,7 +197,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt lst1.
      */
-    public function getNumCritereBtLst1(): ?string{
+    public function getNumCritereBtLst1(): ?string {
         return $this->numCritereBtLst1;
     }
 
@@ -207,7 +206,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt lst2.
      */
-    public function getNumCritereBtLst2(): ?string{
+    public function getNumCritereBtLst2(): ?string {
         return $this->numCritereBtLst2;
     }
 
@@ -216,7 +215,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt txt1.
      */
-    public function getNumCritereBtTxt1(): ?string{
+    public function getNumCritereBtTxt1(): ?string {
         return $this->numCritereBtTxt1;
     }
 
@@ -225,7 +224,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere bt txt2.
      */
-    public function getNumCritereBtTxt2(): ?string{
+    public function getNumCritereBtTxt2(): ?string {
         return $this->numCritereBtTxt2;
     }
 
@@ -234,7 +233,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere couleur bt.
      */
-    public function getNumCritereCouleurBt(): ?string{
+    public function getNumCritereCouleurBt(): ?string {
         return $this->numCritereCouleurBt;
     }
 
@@ -243,7 +242,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere da txt1.
      */
-    public function getNumCritereDaTxt1(): ?string{
+    public function getNumCritereDaTxt1(): ?string {
         return $this->numCritereDaTxt1;
     }
 
@@ -252,7 +251,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere recla lst1.
      */
-    public function getNumCritereReclaLst1(): ?string{
+    public function getNumCritereReclaLst1(): ?string {
         return $this->numCritereReclaLst1;
     }
 
@@ -261,7 +260,7 @@ class Constantes2 {
      *
      * @return string|null Returns the num critere recla lst2.
      */
-    public function getNumCritereReclaLst2(): ?string{
+    public function getNumCritereReclaLst2(): ?string {
         return $this->numCritereReclaLst2;
     }
 
@@ -270,7 +269,7 @@ class Constantes2 {
      *
      * @return bool|null Returns the publier photo web.
      */
-    public function getPublierPhotoWeb(): ?bool{
+    public function getPublierPhotoWeb(): ?bool {
         return $this->publierPhotoWeb;
     }
 
@@ -279,7 +278,7 @@ class Constantes2 {
      *
      * @return string|null Returns the type critere couleur bt.
      */
-    public function getTypeCritereCouleurBt(): ?string{
+    public function getTypeCritereCouleurBt(): ?string {
         return $this->typeCritereCouleurBt;
     }
 

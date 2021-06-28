@@ -168,7 +168,6 @@ class EmpPrev {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -181,7 +180,7 @@ class EmpPrev {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -190,7 +189,7 @@ class EmpPrev {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -199,7 +198,7 @@ class EmpPrev {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -208,7 +207,7 @@ class EmpPrev {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -217,7 +216,7 @@ class EmpPrev {
      *
      * @return DateTime|null Returns the date abs decalee.
      */
-    public function getDateAbsDecalee(): ?DateTime{
+    public function getDateAbsDecalee(): ?DateTime {
         return $this->dateAbsDecalee;
     }
 
@@ -226,7 +225,7 @@ class EmpPrev {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -235,7 +234,7 @@ class EmpPrev {
      *
      * @return string|null Returns the dim type2.
      */
-    public function getDimType2(): ?string{
+    public function getDimType2(): ?string {
         return $this->dimType2;
     }
 
@@ -244,7 +243,7 @@ class EmpPrev {
      *
      * @return int|null Returns the discr tache.
      */
-    public function getDiscrTache(): ?int{
+    public function getDiscrTache(): ?int {
         return $this->discrTache;
     }
 
@@ -253,7 +252,7 @@ class EmpPrev {
      *
      * @return DateTime|null Returns the duree.
      */
-    public function getDuree(): ?DateTime{
+    public function getDuree(): ?DateTime {
         return $this->duree;
     }
 
@@ -262,7 +261,7 @@ class EmpPrev {
      *
      * @return string|null Returns the employe remplace.
      */
-    public function getEmployeRemplace(): ?string{
+    public function getEmployeRemplace(): ?string {
         return $this->employeRemplace;
     }
 
@@ -271,7 +270,7 @@ class EmpPrev {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -280,7 +279,7 @@ class EmpPrev {
      *
      * @return string|null Returns the h nuit type2.
      */
-    public function getHNuitType2(): ?string{
+    public function getHNuitType2(): ?string {
         return $this->hNuitType2;
     }
 
@@ -289,7 +288,7 @@ class EmpPrev {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
     }
 
@@ -298,7 +297,7 @@ class EmpPrev {
      *
      * @return string|null Returns the jf type2.
      */
-    public function getJfType2(): ?string{
+    public function getJfType2(): ?string {
         return $this->jfType2;
     }
 
@@ -307,7 +306,7 @@ class EmpPrev {
      *
      * @return float|null Returns the nb chambres.
      */
-    public function getNbChambres(): ?float{
+    public function getNbChambres(): ?float {
         return $this->nbChambres;
     }
 
@@ -316,7 +315,7 @@ class EmpPrev {
      *
      * @return string|null Returns the note memo.
      */
-    public function getNoteMemo(): ?string{
+    public function getNoteMemo(): ?string {
         return $this->noteMemo;
     }
 
@@ -325,7 +324,7 @@ class EmpPrev {
      *
      * @return int|null Returns the num chrono.
      */
-    public function getNumChrono(): ?int{
+    public function getNumChrono(): ?int {
         return $this->numChrono;
     }
 
@@ -334,7 +333,7 @@ class EmpPrev {
      *
      * @return bool|null Returns the pointage.
      */
-    public function getPointage(): ?bool{
+    public function getPointage(): ?bool {
         return $this->pointage;
     }
 
@@ -343,7 +342,7 @@ class EmpPrev {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -352,7 +351,7 @@ class EmpPrev {
      *
      * @return string|null Returns the uniq id planning.
      */
-    public function getUniqIdPlanning(): ?string{
+    public function getUniqIdPlanning(): ?string {
         return $this->uniqIdPlanning;
     }
 
@@ -361,7 +360,7 @@ class EmpPrev {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

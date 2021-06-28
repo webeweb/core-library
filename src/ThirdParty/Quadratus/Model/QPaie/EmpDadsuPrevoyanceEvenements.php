@@ -77,7 +77,6 @@ class EmpDadsuPrevoyanceEvenements {
      */
     private $refContrat;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return bool|null Returns the a declarer dsn.
      */
-    public function getADeclarerDsn(): ?bool{
+    public function getADeclarerDsn(): ?bool {
         return $this->aDeclarerDsn;
     }
 
@@ -99,7 +98,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return string|null Returns the code evenement.
      */
-    public function getCodeEvenement(): ?string{
+    public function getCodeEvenement(): ?string {
         return $this->codeEvenement;
     }
 
@@ -108,7 +107,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return string|null Returns the code option.
      */
-    public function getCodeOption(): ?string{
+    public function getCodeOption(): ?string {
         return $this->codeOption;
     }
 
@@ -117,7 +116,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -126,7 +125,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return string|null Returns the code population.
      */
-    public function getCodePopulation(): ?string{
+    public function getCodePopulation(): ?string {
         return $this->codePopulation;
     }
 
@@ -135,7 +134,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return DateTime|null Returns the date evenement.
      */
-    public function getDateEvenement(): ?DateTime{
+    public function getDateEvenement(): ?DateTime {
         return $this->dateEvenement;
     }
 
@@ -144,7 +143,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -153,7 +152,7 @@ class EmpDadsuPrevoyanceEvenements {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 

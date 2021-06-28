@@ -47,7 +47,6 @@ class ConstTabVentilVente {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class ConstTabVentilVente {
      *
      * @return string|null Returns the code ventil article.
      */
-    public function getCodeVentilArticle(): ?string{
+    public function getCodeVentilArticle(): ?string {
         return $this->codeVentilArticle;
     }
 
@@ -69,7 +68,7 @@ class ConstTabVentilVente {
      *
      * @return string|null Returns the code ventil client.
      */
-    public function getCodeVentilClient(): ?string{
+    public function getCodeVentilClient(): ?string {
         return $this->codeVentilClient;
     }
 
@@ -78,7 +77,7 @@ class ConstTabVentilVente {
      *
      * @return string|null Returns the compte ventil.
      */
-    public function getCompteVentil(): ?string{
+    public function getCompteVentil(): ?string {
         return $this->compteVentil;
     }
 
@@ -87,7 +86,7 @@ class ConstTabVentilVente {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

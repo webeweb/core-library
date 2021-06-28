@@ -82,7 +82,6 @@ class ArticlesFrn {
      */
     private $refArticleFournisseur;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class ArticlesFrn {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -104,7 +103,7 @@ class ArticlesFrn {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -113,7 +112,7 @@ class ArticlesFrn {
      *
      * @return string|null Returns the commentaires.
      */
-    public function getCommentaires(): ?string{
+    public function getCommentaires(): ?string {
         return $this->commentaires;
     }
 
@@ -122,7 +121,7 @@ class ArticlesFrn {
      *
      * @return string|null Returns the conditionnement.
      */
-    public function getConditionnement(): ?string{
+    public function getConditionnement(): ?string {
         return $this->conditionnement;
     }
 
@@ -131,7 +130,7 @@ class ArticlesFrn {
      *
      * @return int|null Returns the delai le.
      */
-    public function getDelaiLe(): ?int{
+    public function getDelaiLe(): ?int {
         return $this->delaiLe;
     }
 
@@ -140,7 +139,7 @@ class ArticlesFrn {
      *
      * @return bool|null Returns the delai local.
      */
-    public function getDelaiLocal(): ?bool{
+    public function getDelaiLocal(): ?bool {
         return $this->delaiLocal;
     }
 
@@ -149,7 +148,7 @@ class ArticlesFrn {
      *
      * @return int|null Returns the delai nombre.
      */
-    public function getDelaiNombre(): ?int{
+    public function getDelaiNombre(): ?int {
         return $this->delaiNombre;
     }
 
@@ -158,7 +157,7 @@ class ArticlesFrn {
      *
      * @return int|null Returns the delai type.
      */
-    public function getDelaiType(): ?int{
+    public function getDelaiType(): ?int {
         return $this->delaiType;
     }
 
@@ -167,7 +166,7 @@ class ArticlesFrn {
      *
      * @return string|null Returns the ref article fournisseur.
      */
-    public function getRefArticleFournisseur(): ?string{
+    public function getRefArticleFournisseur(): ?string {
         return $this->refArticleFournisseur;
     }
 

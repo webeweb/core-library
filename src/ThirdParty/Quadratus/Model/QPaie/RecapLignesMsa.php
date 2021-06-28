@@ -337,20 +337,6 @@ class RecapLignesMsa {
     private $premMois;
 
     /**
-     * Siren.
-     *
-     * @var string|null
-     */
-    private $siren;
-
-    /**
-     * Siret.
-     *
-     * @var string|null
-     */
-    private $siret;
-
-    /**
      * Salaries de.
      *
      * @var string|null
@@ -363,6 +349,20 @@ class RecapLignesMsa {
      * @var string|null
      */
     private $selectionService;
+
+    /**
+     * Siren.
+     *
+     * @var string|null
+     */
+    private $siren;
+
+    /**
+     * Siret.
+     *
+     * @var string|null
+     */
+    private $siret;
 
     /**
      * Suivi par.
@@ -385,7 +385,6 @@ class RecapLignesMsa {
      */
     private $triDeclMsa;
 
-
     /**
      * Constructor.
      */
@@ -398,7 +397,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the adresse msa.
      */
-    public function getAdresseMsa(): ?string{
+    public function getAdresseMsa(): ?string {
         return $this->adresseMsa;
     }
 
@@ -407,7 +406,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the c collect.
      */
-    public function getCCollect(): ?string{
+    public function getCCollect(): ?string {
         return $this->cCollect;
     }
 
@@ -416,7 +415,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the code activite.
      */
-    public function getCodeActivite(): ?string{
+    public function getCodeActivite(): ?string {
         return $this->codeActivite;
     }
 
@@ -425,7 +424,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -434,7 +433,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the code unite.
      */
-    public function getCodeUnite(): ?string{
+    public function getCodeUnite(): ?string {
         return $this->codeUnite;
     }
 
@@ -443,7 +442,7 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the date reglement.
      */
-    public function getDateReglement(): ?DateTime{
+    public function getDateReglement(): ?DateTime {
         return $this->dateReglement;
     }
 
@@ -452,7 +451,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the effectif cice.
      */
-    public function getEffectifCice(): ?int{
+    public function getEffectifCice(): ?int {
         return $this->effectifCice;
     }
 
@@ -461,7 +460,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the fait a.
      */
-    public function getFaitA(): ?string{
+    public function getFaitA(): ?string {
         return $this->faitA;
     }
 
@@ -470,7 +469,7 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the fait le.
      */
-    public function getFaitLe(): ?DateTime{
+    public function getFaitLe(): ?DateTime {
         return $this->faitLe;
     }
 
@@ -479,7 +478,7 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the fin per.
      */
-    public function getFinPer(): ?DateTime{
+    public function getFinPer(): ?DateTime {
         return $this->finPer;
     }
 
@@ -488,7 +487,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the intitule code unite.
      */
-    public function getIntituleCodeUnite(): ?string{
+    public function getIntituleCodeUnite(): ?string {
         return $this->intituleCodeUnite;
     }
 
@@ -497,7 +496,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the liste services.
      */
-    public function getListeServices(): ?string{
+    public function getListeServices(): ?string {
         return $this->listeServices;
     }
 
@@ -506,7 +505,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt csg.
      */
-    public function getMtCsg(): ?int{
+    public function getMtCsg(): ?int {
         return $this->mtCsg;
     }
 
@@ -515,7 +514,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt csgrdsrr imp.
      */
-    public function getMtCsgrdsrrImp(): ?int{
+    public function getMtCsgrdsrrImp(): ?int {
         return $this->mtCsgrdsrrImp;
     }
 
@@ -524,7 +523,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt csgrdsrr non imp.
      */
-    public function getMtCsgrdsrrNonImp(): ?int{
+    public function getMtCsgrdsrrNonImp(): ?int {
         return $this->mtCsgrdsrrNonImp;
     }
 
@@ -533,7 +532,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul57.
      */
-    public function getMtElemCalcul57(): ?int{
+    public function getMtElemCalcul57(): ?int {
         return $this->mtElemCalcul57;
     }
 
@@ -542,7 +541,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul58.
      */
-    public function getMtElemCalcul58(): ?int{
+    public function getMtElemCalcul58(): ?int {
         return $this->mtElemCalcul58;
     }
 
@@ -551,7 +550,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul59.
      */
-    public function getMtElemCalcul59(): ?int{
+    public function getMtElemCalcul59(): ?int {
         return $this->mtElemCalcul59;
     }
 
@@ -560,7 +559,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul60.
      */
-    public function getMtElemCalcul60(): ?int{
+    public function getMtElemCalcul60(): ?int {
         return $this->mtElemCalcul60;
     }
 
@@ -569,7 +568,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul61.
      */
-    public function getMtElemCalcul61(): ?int{
+    public function getMtElemCalcul61(): ?int {
         return $this->mtElemCalcul61;
     }
 
@@ -578,7 +577,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul62.
      */
-    public function getMtElemCalcul62(): ?int{
+    public function getMtElemCalcul62(): ?int {
         return $this->mtElemCalcul62;
     }
 
@@ -587,7 +586,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul63.
      */
-    public function getMtElemCalcul63(): ?int{
+    public function getMtElemCalcul63(): ?int {
         return $this->mtElemCalcul63;
     }
 
@@ -596,7 +595,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul65.
      */
-    public function getMtElemCalcul65(): ?int{
+    public function getMtElemCalcul65(): ?int {
         return $this->mtElemCalcul65;
     }
 
@@ -605,7 +604,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul66.
      */
-    public function getMtElemCalcul66(): ?int{
+    public function getMtElemCalcul66(): ?int {
         return $this->mtElemCalcul66;
     }
 
@@ -614,7 +613,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul67.
      */
-    public function getMtElemCalcul67(): ?int{
+    public function getMtElemCalcul67(): ?int {
         return $this->mtElemCalcul67;
     }
 
@@ -623,7 +622,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul68.
      */
-    public function getMtElemCalcul68(): ?int{
+    public function getMtElemCalcul68(): ?int {
         return $this->mtElemCalcul68;
     }
 
@@ -632,7 +631,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul69.
      */
-    public function getMtElemCalcul69(): ?int{
+    public function getMtElemCalcul69(): ?int {
         return $this->mtElemCalcul69;
     }
 
@@ -641,7 +640,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul70.
      */
-    public function getMtElemCalcul70(): ?int{
+    public function getMtElemCalcul70(): ?int {
         return $this->mtElemCalcul70;
     }
 
@@ -650,7 +649,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul71.
      */
-    public function getMtElemCalcul71(): ?int{
+    public function getMtElemCalcul71(): ?int {
         return $this->mtElemCalcul71;
     }
 
@@ -659,7 +658,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul72.
      */
-    public function getMtElemCalcul72(): ?int{
+    public function getMtElemCalcul72(): ?int {
         return $this->mtElemCalcul72;
     }
 
@@ -668,7 +667,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul73.
      */
-    public function getMtElemCalcul73(): ?int{
+    public function getMtElemCalcul73(): ?int {
         return $this->mtElemCalcul73;
     }
 
@@ -677,7 +676,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul74.
      */
-    public function getMtElemCalcul74(): ?int{
+    public function getMtElemCalcul74(): ?int {
         return $this->mtElemCalcul74;
     }
 
@@ -686,7 +685,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul75.
      */
-    public function getMtElemCalcul75(): ?int{
+    public function getMtElemCalcul75(): ?int {
         return $this->mtElemCalcul75;
     }
 
@@ -695,7 +694,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul76.
      */
-    public function getMtElemCalcul76(): ?int{
+    public function getMtElemCalcul76(): ?int {
         return $this->mtElemCalcul76;
     }
 
@@ -704,7 +703,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul77.
      */
-    public function getMtElemCalcul77(): ?int{
+    public function getMtElemCalcul77(): ?int {
         return $this->mtElemCalcul77;
     }
 
@@ -713,7 +712,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul78.
      */
-    public function getMtElemCalcul78(): ?int{
+    public function getMtElemCalcul78(): ?int {
         return $this->mtElemCalcul78;
     }
 
@@ -722,7 +721,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul79.
      */
-    public function getMtElemCalcul79(): ?int{
+    public function getMtElemCalcul79(): ?int {
         return $this->mtElemCalcul79;
     }
 
@@ -731,7 +730,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul97.
      */
-    public function getMtElemCalcul97(): ?int{
+    public function getMtElemCalcul97(): ?int {
         return $this->mtElemCalcul97;
     }
 
@@ -740,7 +739,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt elem calcul98.
      */
-    public function getMtElemCalcul98(): ?int{
+    public function getMtElemCalcul98(): ?int {
         return $this->mtElemCalcul98;
     }
 
@@ -749,7 +748,7 @@ class RecapLignesMsa {
      *
      * @return int|null Returns the mt tcp.
      */
-    public function getMtTcp(): ?int{
+    public function getMtTcp(): ?int {
         return $this->mtTcp;
     }
 
@@ -758,7 +757,7 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the per deb cice.
      */
-    public function getPerDebCice(): ?DateTime{
+    public function getPerDebCice(): ?DateTime {
         return $this->perDebCice;
     }
 
@@ -767,7 +766,7 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the per fin cice.
      */
-    public function getPerFinCice(): ?DateTime{
+    public function getPerFinCice(): ?DateTime {
         return $this->perFinCice;
     }
 
@@ -776,7 +775,7 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla(): ?DateTime{
+    public function getPeriodeDecla(): ?DateTime {
         return $this->periodeDecla;
     }
 
@@ -785,7 +784,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the personne contact.
      */
-    public function getPersonneContact(): ?string{
+    public function getPersonneContact(): ?string {
         return $this->personneContact;
     }
 
@@ -794,26 +793,8 @@ class RecapLignesMsa {
      *
      * @return DateTime|null Returns the prem mois.
      */
-    public function getPremMois(): ?DateTime{
+    public function getPremMois(): ?DateTime {
         return $this->premMois;
-    }
-
-    /**
-     * Get the siren.
-     *
-     * @return string|null Returns the siren.
-     */
-    public function getSiren(): ?string{
-        return $this->siren;
-    }
-
-    /**
-     * Get the siret.
-     *
-     * @return string|null Returns the siret.
-     */
-    public function getSiret(): ?string{
-        return $this->siret;
     }
 
     /**
@@ -821,7 +802,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the salaries de.
      */
-    public function getSalariesDe(): ?string{
+    public function getSalariesDe(): ?string {
         return $this->salariesDe;
     }
 
@@ -830,8 +811,26 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the selection service.
      */
-    public function getSelectionService(): ?string{
+    public function getSelectionService(): ?string {
         return $this->selectionService;
+    }
+
+    /**
+     * Get the siren.
+     *
+     * @return string|null Returns the siren.
+     */
+    public function getSiren(): ?string {
+        return $this->siren;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string|null Returns the siret.
+     */
+    public function getSiret(): ?string {
+        return $this->siret;
     }
 
     /**
@@ -839,7 +838,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the suivi par.
      */
-    public function getSuiviPar(): ?string{
+    public function getSuiviPar(): ?string {
         return $this->suiviPar;
     }
 
@@ -848,7 +847,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the tel personne.
      */
-    public function getTelPersonne(): ?string{
+    public function getTelPersonne(): ?string {
         return $this->telPersonne;
     }
 
@@ -857,7 +856,7 @@ class RecapLignesMsa {
      *
      * @return string|null Returns the tri decl msa.
      */
-    public function getTriDeclMsa(): ?string{
+    public function getTriDeclMsa(): ?string {
         return $this->triDeclMsa;
     }
 
@@ -1357,28 +1356,6 @@ class RecapLignesMsa {
     }
 
     /**
-     * Set the siren.
-     *
-     * @param string|null $siren The siren.
-     * @return RecapLignesMsa Returns this Recap lignes msa.
-     */
-    public function setSiren(?string $siren): RecapLignesMsa {
-        $this->siren = $siren;
-        return $this;
-    }
-
-    /**
-     * Set the siret.
-     *
-     * @param string|null $siret The siret.
-     * @return RecapLignesMsa Returns this Recap lignes msa.
-     */
-    public function setSiret(?string $siret): RecapLignesMsa {
-        $this->siret = $siret;
-        return $this;
-    }
-
-    /**
      * Set the salaries de.
      *
      * @param string|null $salariesDe The salaries de.
@@ -1397,6 +1374,28 @@ class RecapLignesMsa {
      */
     public function setSelectionService(?string $selectionService): RecapLignesMsa {
         $this->selectionService = $selectionService;
+        return $this;
+    }
+
+    /**
+     * Set the siren.
+     *
+     * @param string|null $siren The siren.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
+     */
+    public function setSiren(?string $siren): RecapLignesMsa {
+        $this->siren = $siren;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string|null $siret The siret.
+     * @return RecapLignesMsa Returns this Recap lignes msa.
+     */
+    public function setSiret(?string $siret): RecapLignesMsa {
+        $this->siret = $siret;
         return $this;
     }
 

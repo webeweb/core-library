@@ -98,7 +98,6 @@ class AvenantsContratsChantiers {
      */
     private $typeDocument;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the code absence.
      */
-    public function getCodeAbsence(): ?string{
+    public function getCodeAbsence(): ?string {
         return $this->codeAbsence;
     }
 
@@ -120,7 +119,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -129,7 +128,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -138,7 +137,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -147,7 +146,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -156,7 +155,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the code titulaire.
      */
-    public function getCodeTitulaire(): ?string{
+    public function getCodeTitulaire(): ?string {
         return $this->codeTitulaire;
     }
 
@@ -165,7 +164,7 @@ class AvenantsContratsChantiers {
      *
      * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant(): ?int{
+    public function getNumeroAvenant(): ?int {
         return $this->numeroAvenant;
     }
 
@@ -174,7 +173,7 @@ class AvenantsContratsChantiers {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -183,7 +182,7 @@ class AvenantsContratsChantiers {
      *
      * @return DateTime|null Returns the remplace au.
      */
-    public function getRemplaceAu(): ?DateTime{
+    public function getRemplaceAu(): ?DateTime {
         return $this->remplaceAu;
     }
 
@@ -192,7 +191,7 @@ class AvenantsContratsChantiers {
      *
      * @return DateTime|null Returns the remplace du.
      */
-    public function getRemplaceDu(): ?DateTime{
+    public function getRemplaceDu(): ?DateTime {
         return $this->remplaceDu;
     }
 
@@ -201,7 +200,7 @@ class AvenantsContratsChantiers {
      *
      * @return string|null Returns the type document.
      */
-    public function getTypeDocument(): ?string{
+    public function getTypeDocument(): ?string {
         return $this->typeDocument;
     }
 

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Network\CURL\Configuration;
 
-use WBW\Library\Core\Model\Attribute\BooleanDebugTrait;
-use WBW\Library\Core\Model\Attribute\BooleanVerboseTrait;
+use WBW\Library\Traits\Booleans\BooleanDebugTrait;
+use WBW\Library\Traits\Booleans\BooleanVerboseTrait;
 
 /**
  * cURL configuration.

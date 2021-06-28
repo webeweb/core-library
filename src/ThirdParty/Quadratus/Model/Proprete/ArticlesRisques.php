@@ -33,7 +33,6 @@ class ArticlesRisques {
      */
     private $codeRisque;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class ArticlesRisques {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -55,7 +54,7 @@ class ArticlesRisques {
      *
      * @return string|null Returns the code risque.
      */
-    public function getCodeRisque(): ?string{
+    public function getCodeRisque(): ?string {
         return $this->codeRisque;
     }
 

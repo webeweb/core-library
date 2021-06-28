@@ -112,7 +112,6 @@ class Documents {
      */
     private $publierWeb;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class Documents {
      *
      * @return string|null Returns the annee.
      */
-    public function getAnnee(): ?string{
+    public function getAnnee(): ?string {
         return $this->annee;
     }
 
@@ -134,7 +133,7 @@ class Documents {
      *
      * @return string|null Returns the auteur.
      */
-    public function getAuteur(): ?string{
+    public function getAuteur(): ?string {
         return $this->auteur;
     }
 
@@ -143,7 +142,7 @@ class Documents {
      *
      * @return string|null Returns the chapitre.
      */
-    public function getChapitre(): ?string{
+    public function getChapitre(): ?string {
         return $this->chapitre;
     }
 
@@ -152,7 +151,7 @@ class Documents {
      *
      * @return string|null Returns the chrono.
      */
-    public function getChrono(): ?string{
+    public function getChrono(): ?string {
         return $this->chrono;
     }
 
@@ -161,7 +160,7 @@ class Documents {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -170,7 +169,7 @@ class Documents {
      *
      * @return DateTime|null Returns the date heure sys.
      */
-    public function getDateHeureSys(): ?DateTime{
+    public function getDateHeureSys(): ?DateTime {
         return $this->dateHeureSys;
     }
 
@@ -179,7 +178,7 @@ class Documents {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -188,7 +187,7 @@ class Documents {
      *
      * @return int|null Returns the indice bulletin.
      */
-    public function getIndiceBulletin(): ?int{
+    public function getIndiceBulletin(): ?int {
         return $this->indiceBulletin;
     }
 
@@ -197,7 +196,7 @@ class Documents {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -206,7 +205,7 @@ class Documents {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -215,7 +214,7 @@ class Documents {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -224,7 +223,7 @@ class Documents {
      *
      * @return DateTime|null Returns the periode archivage.
      */
-    public function getPeriodeArchivage(): ?DateTime{
+    public function getPeriodeArchivage(): ?DateTime {
         return $this->periodeArchivage;
     }
 
@@ -233,7 +232,7 @@ class Documents {
      *
      * @return bool|null Returns the publier web.
      */
-    public function getPublierWeb(): ?bool{
+    public function getPublierWeb(): ?bool {
         return $this->publierWeb;
     }
 

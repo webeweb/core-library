@@ -13,14 +13,14 @@ namespace WBW\Library\Core\Utility;
 
 use InvalidArgumentException;
 use RuntimeException;
-use WBW\Library\Core\Model\Attribute\IntegerHeightTrait;
-use WBW\Library\Core\Model\Attribute\IntegerSizeTrait;
-use WBW\Library\Core\Model\Attribute\IntegerWidthTrait;
-use WBW\Library\Core\Model\Attribute\StringDirectoryTrait;
-use WBW\Library\Core\Model\Attribute\StringExtensionTrait;
-use WBW\Library\Core\Model\Attribute\StringFilenameTrait;
-use WBW\Library\Core\Model\Attribute\StringMimeTypeTrait;
-use WBW\Library\Core\Model\Attribute\StringPathnameTrait;
+use WBW\Library\Traits\Integers\IntegerHeightTrait;
+use WBW\Library\Traits\Integers\IntegerSizeTrait;
+use WBW\Library\Traits\Integers\IntegerWidthTrait;
+use WBW\Library\Traits\Strings\StringDirectoryTrait;
+use WBW\Library\Traits\Strings\StringExtensionTrait;
+use WBW\Library\Traits\Strings\StringFilenameTrait;
+use WBW\Library\Traits\Strings\StringMimeTypeTrait;
+use WBW\Library\Traits\Strings\StringPathnameTrait;
 
 /**
  * Image.

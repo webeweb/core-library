@@ -61,7 +61,6 @@ class RegroupementEdBul {
      */
     private $quadra;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class RegroupementEdBul {
      *
      * @return bool|null Returns the afficher.
      */
-    public function getAfficher(): ?bool{
+    public function getAfficher(): ?bool {
         return $this->afficher;
     }
 
@@ -83,7 +82,7 @@ class RegroupementEdBul {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -92,7 +91,7 @@ class RegroupementEdBul {
      *
      * @return string|null Returns the code regroup ed bul.
      */
-    public function getCodeRegroupEdBul(): ?string{
+    public function getCodeRegroupEdBul(): ?string {
         return $this->codeRegroupEdBul;
     }
 
@@ -101,7 +100,7 @@ class RegroupementEdBul {
      *
      * @return string|null Returns the code titre.
      */
-    public function getCodeTitre(): ?string{
+    public function getCodeTitre(): ?string {
         return $this->codeTitre;
     }
 
@@ -110,7 +109,7 @@ class RegroupementEdBul {
      *
      * @return bool|null Returns the exo.
      */
-    public function getExo(): ?bool{
+    public function getExo(): ?bool {
         return $this->exo;
     }
 
@@ -119,7 +118,7 @@ class RegroupementEdBul {
      *
      * @return bool|null Returns the quadra.
      */
-    public function getQuadra(): ?bool{
+    public function getQuadra(): ?bool {
         return $this->quadra;
     }
 

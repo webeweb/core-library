@@ -112,7 +112,6 @@ class EmpRecapCice {
      */
     private $sortieMois;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class EmpRecapCice {
      *
      * @return bool|null Returns the caisse cp.
      */
-    public function getCaisseCp(): ?bool{
+    public function getCaisseCp(): ?bool {
         return $this->caisseCp;
     }
 
@@ -134,7 +133,7 @@ class EmpRecapCice {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -143,7 +142,7 @@ class EmpRecapCice {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -152,7 +151,7 @@ class EmpRecapCice {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -161,7 +160,7 @@ class EmpRecapCice {
      *
      * @return string|null Returns the fraction etab.
      */
-    public function getFractionEtab(): ?string{
+    public function getFractionEtab(): ?string {
         return $this->fractionEtab;
     }
 
@@ -170,7 +169,7 @@ class EmpRecapCice {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -179,7 +178,7 @@ class EmpRecapCice {
      *
      * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye(): ?string{
+    public function getNomEmploye(): ?string {
         return $this->nomEmploye;
     }
 
@@ -188,7 +187,7 @@ class EmpRecapCice {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -197,7 +196,7 @@ class EmpRecapCice {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -206,7 +205,7 @@ class EmpRecapCice {
      *
      * @return float|null Returns the remun assiette cice.
      */
-    public function getRemunAssietteCice(): ?float{
+    public function getRemunAssietteCice(): ?float {
         return $this->remunAssietteCice;
     }
 
@@ -215,7 +214,7 @@ class EmpRecapCice {
      *
      * @return float|null Returns the remun brut cice.
      */
-    public function getRemunBrutCice(): ?float{
+    public function getRemunBrutCice(): ?float {
         return $this->remunBrutCice;
     }
 
@@ -224,7 +223,7 @@ class EmpRecapCice {
      *
      * @return float|null Returns the smic mcice.
      */
-    public function getSmicMcice(): ?float{
+    public function getSmicMcice(): ?float {
         return $this->smicMcice;
     }
 
@@ -233,7 +232,7 @@ class EmpRecapCice {
      *
      * @return bool|null Returns the sortie mois.
      */
-    public function getSortieMois(): ?bool{
+    public function getSortieMois(): ?bool {
         return $this->sortieMois;
     }
 

@@ -224,7 +224,6 @@ class AbsEmpRemplacants {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -237,7 +236,7 @@ class AbsEmpRemplacants {
      *
      * @return bool|null Returns the ajouter en h compl.
      */
-    public function getAjouterEnHCompl(): ?bool{
+    public function getAjouterEnHCompl(): ?bool {
         return $this->ajouterEnHCompl;
     }
 
@@ -246,7 +245,7 @@ class AbsEmpRemplacants {
      *
      * @return bool|null Returns the avenant h rempl.
      */
-    public function getAvenantHRempl(): ?bool{
+    public function getAvenantHRempl(): ?bool {
         return $this->avenantHRempl;
     }
 
@@ -255,7 +254,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -264,7 +263,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code affaire rempl.
      */
-    public function getCodeAffaireRempl(): ?string{
+    public function getCodeAffaireRempl(): ?string {
         return $this->codeAffaireRempl;
     }
 
@@ -273,7 +272,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -282,7 +281,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code chantier rempl.
      */
-    public function getCodeChantierRempl(): ?string{
+    public function getCodeChantierRempl(): ?string {
         return $this->codeChantierRempl;
     }
 
@@ -291,7 +290,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -300,7 +299,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code client rempl.
      */
-    public function getCodeClientRempl(): ?string{
+    public function getCodeClientRempl(): ?string {
         return $this->codeClientRempl;
     }
 
@@ -309,7 +308,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -318,7 +317,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -327,7 +326,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -336,7 +335,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code remplacant.
      */
-    public function getCodeRemplacant(): ?string{
+    public function getCodeRemplacant(): ?string {
         return $this->codeRemplacant;
     }
 
@@ -345,7 +344,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -354,7 +353,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the code tache rempl.
      */
-    public function getCodeTacheRempl(): ?string{
+    public function getCodeTacheRempl(): ?string {
         return $this->codeTacheRempl;
     }
 
@@ -363,7 +362,7 @@ class AbsEmpRemplacants {
      *
      * @return DateTime|null Returns the date abs decalee.
      */
-    public function getDateAbsDecalee(): ?DateTime{
+    public function getDateAbsDecalee(): ?DateTime {
         return $this->dateAbsDecalee;
     }
 
@@ -372,7 +371,7 @@ class AbsEmpRemplacants {
      *
      * @return DateTime|null Returns the date debut abs.
      */
-    public function getDateDebutAbs(): ?DateTime{
+    public function getDateDebutAbs(): ?DateTime {
         return $this->dateDebutAbs;
     }
 
@@ -381,7 +380,7 @@ class AbsEmpRemplacants {
      *
      * @return DateTime|null Returns the date debut rempl.
      */
-    public function getDateDebutRempl(): ?DateTime{
+    public function getDateDebutRempl(): ?DateTime {
         return $this->dateDebutRempl;
     }
 
@@ -390,7 +389,7 @@ class AbsEmpRemplacants {
      *
      * @return DateTime|null Returns the date fin rempl.
      */
-    public function getDateFinRempl(): ?DateTime{
+    public function getDateFinRempl(): ?DateTime {
         return $this->dateFinRempl;
     }
 
@@ -399,7 +398,7 @@ class AbsEmpRemplacants {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -408,7 +407,7 @@ class AbsEmpRemplacants {
      *
      * @return float|null Returns the duree remplacement.
      */
-    public function getDureeRemplacement(): ?float{
+    public function getDureeRemplacement(): ?float {
         return $this->dureeRemplacement;
     }
 
@@ -417,7 +416,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -426,7 +425,7 @@ class AbsEmpRemplacants {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -435,7 +434,7 @@ class AbsEmpRemplacants {
      *
      * @return int|null Returns the num bt rempl.
      */
-    public function getNumBtRempl(): ?int{
+    public function getNumBtRempl(): ?int {
         return $this->numBtRempl;
     }
 
@@ -444,7 +443,7 @@ class AbsEmpRemplacants {
      *
      * @return int|null Returns the num rempl.
      */
-    public function getNumRempl(): ?int{
+    public function getNumRempl(): ?int {
         return $this->numRempl;
     }
 
@@ -453,7 +452,7 @@ class AbsEmpRemplacants {
      *
      * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant(): ?int{
+    public function getNumeroAvenant(): ?int {
         return $this->numeroAvenant;
     }
 
@@ -462,7 +461,7 @@ class AbsEmpRemplacants {
      *
      * @return bool|null Returns the remplacant travaille jf.
      */
-    public function getRemplacantTravailleJf(): ?bool{
+    public function getRemplacantTravailleJf(): ?bool {
         return $this->remplacantTravailleJf;
     }
 
@@ -471,7 +470,7 @@ class AbsEmpRemplacants {
      *
      * @return bool|null Returns the remplacement complet.
      */
-    public function getRemplacementComplet(): ?bool{
+    public function getRemplacementComplet(): ?bool {
         return $this->remplacementComplet;
     }
 
@@ -480,7 +479,7 @@ class AbsEmpRemplacants {
      *
      * @return bool|null Returns the remplacement modifie.
      */
-    public function getRemplacementModifie(): ?bool{
+    public function getRemplacementModifie(): ?bool {
         return $this->remplacementModifie;
     }
 
@@ -489,7 +488,7 @@ class AbsEmpRemplacants {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

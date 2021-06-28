@@ -77,7 +77,6 @@ class PrimesAttestation {
      */
     private $periodeFin;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class PrimesAttestation {
      *
      * @return string|null Returns the euro ou franc.
      */
-    public function getEuroOuFranc(): ?string{
+    public function getEuroOuFranc(): ?string {
         return $this->euroOuFranc;
     }
 
@@ -99,7 +98,7 @@ class PrimesAttestation {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -108,7 +107,7 @@ class PrimesAttestation {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -117,7 +116,7 @@ class PrimesAttestation {
      *
      * @return string|null Returns the num ligne.
      */
-    public function getNumLigne(): ?string{
+    public function getNumLigne(): ?string {
         return $this->numLigne;
     }
 
@@ -126,7 +125,7 @@ class PrimesAttestation {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -135,7 +134,7 @@ class PrimesAttestation {
      *
      * @return DateTime|null Returns the paye le.
      */
-    public function getPayeLe(): ?DateTime{
+    public function getPayeLe(): ?DateTime {
         return $this->payeLe;
     }
 
@@ -144,7 +143,7 @@ class PrimesAttestation {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -153,7 +152,7 @@ class PrimesAttestation {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 

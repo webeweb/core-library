@@ -147,7 +147,6 @@ class TachesDureeBudgetee {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -160,7 +159,7 @@ class TachesDureeBudgetee {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -169,7 +168,7 @@ class TachesDureeBudgetee {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -178,7 +177,7 @@ class TachesDureeBudgetee {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -187,7 +186,7 @@ class TachesDureeBudgetee {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -196,7 +195,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee1.
      */
-    public function getDureeBudgetee1(): ?float{
+    public function getDureeBudgetee1(): ?float {
         return $this->dureeBudgetee1;
     }
 
@@ -205,7 +204,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee10.
      */
-    public function getDureeBudgetee10(): ?float{
+    public function getDureeBudgetee10(): ?float {
         return $this->dureeBudgetee10;
     }
 
@@ -214,7 +213,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee11.
      */
-    public function getDureeBudgetee11(): ?float{
+    public function getDureeBudgetee11(): ?float {
         return $this->dureeBudgetee11;
     }
 
@@ -223,7 +222,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee12.
      */
-    public function getDureeBudgetee12(): ?float{
+    public function getDureeBudgetee12(): ?float {
         return $this->dureeBudgetee12;
     }
 
@@ -232,7 +231,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee2.
      */
-    public function getDureeBudgetee2(): ?float{
+    public function getDureeBudgetee2(): ?float {
         return $this->dureeBudgetee2;
     }
 
@@ -241,7 +240,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee3.
      */
-    public function getDureeBudgetee3(): ?float{
+    public function getDureeBudgetee3(): ?float {
         return $this->dureeBudgetee3;
     }
 
@@ -250,7 +249,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee4.
      */
-    public function getDureeBudgetee4(): ?float{
+    public function getDureeBudgetee4(): ?float {
         return $this->dureeBudgetee4;
     }
 
@@ -259,7 +258,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee5.
      */
-    public function getDureeBudgetee5(): ?float{
+    public function getDureeBudgetee5(): ?float {
         return $this->dureeBudgetee5;
     }
 
@@ -268,7 +267,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee6.
      */
-    public function getDureeBudgetee6(): ?float{
+    public function getDureeBudgetee6(): ?float {
         return $this->dureeBudgetee6;
     }
 
@@ -277,7 +276,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee7.
      */
-    public function getDureeBudgetee7(): ?float{
+    public function getDureeBudgetee7(): ?float {
         return $this->dureeBudgetee7;
     }
 
@@ -286,7 +285,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee8.
      */
-    public function getDureeBudgetee8(): ?float{
+    public function getDureeBudgetee8(): ?float {
         return $this->dureeBudgetee8;
     }
 
@@ -295,7 +294,7 @@ class TachesDureeBudgetee {
      *
      * @return float|null Returns the duree budgetee9.
      */
-    public function getDureeBudgetee9(): ?float{
+    public function getDureeBudgetee9(): ?float {
         return $this->dureeBudgetee9;
     }
 
@@ -304,7 +303,7 @@ class TachesDureeBudgetee {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -313,7 +312,7 @@ class TachesDureeBudgetee {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

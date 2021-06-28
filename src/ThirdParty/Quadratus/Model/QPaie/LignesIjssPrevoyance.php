@@ -63,7 +63,6 @@ class LignesIjssPrevoyance {
      */
     private $periodeFin;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class LignesIjssPrevoyance {
      *
      * @return DateTime|null Returns the date versement.
      */
-    public function getDateVersement(): ?DateTime{
+    public function getDateVersement(): ?DateTime {
         return $this->dateVersement;
     }
 
@@ -85,7 +84,7 @@ class LignesIjssPrevoyance {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -94,7 +93,7 @@ class LignesIjssPrevoyance {
      *
      * @return string|null Returns the num ligne.
      */
-    public function getNumLigne(): ?string{
+    public function getNumLigne(): ?string {
         return $this->numLigne;
     }
 
@@ -103,7 +102,7 @@ class LignesIjssPrevoyance {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -112,7 +111,7 @@ class LignesIjssPrevoyance {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -121,7 +120,7 @@ class LignesIjssPrevoyance {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 

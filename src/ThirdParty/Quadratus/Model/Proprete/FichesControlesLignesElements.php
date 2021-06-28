@@ -98,7 +98,6 @@ class FichesControlesLignesElements {
      */
     private $typeElement;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class FichesControlesLignesElements {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -120,7 +119,7 @@ class FichesControlesLignesElements {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -129,7 +128,7 @@ class FichesControlesLignesElements {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -138,7 +137,7 @@ class FichesControlesLignesElements {
      *
      * @return string|null Returns the code element.
      */
-    public function getCodeElement(): ?string{
+    public function getCodeElement(): ?string {
         return $this->codeElement;
     }
 
@@ -147,7 +146,7 @@ class FichesControlesLignesElements {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -156,7 +155,7 @@ class FichesControlesLignesElements {
      *
      * @return DateTime|null Returns the mise en conformite.
      */
-    public function getMiseEnConformite(): ?DateTime{
+    public function getMiseEnConformite(): ?DateTime {
         return $this->miseEnConformite;
     }
 
@@ -165,7 +164,7 @@ class FichesControlesLignesElements {
      *
      * @return int|null Returns the niveau noeud.
      */
-    public function getNiveauNoeud(): ?int{
+    public function getNiveauNoeud(): ?int {
         return $this->niveauNoeud;
     }
 
@@ -174,7 +173,7 @@ class FichesControlesLignesElements {
      *
      * @return int|null Returns the note.
      */
-    public function getNote(): ?int{
+    public function getNote(): ?int {
         return $this->note;
     }
 
@@ -183,7 +182,7 @@ class FichesControlesLignesElements {
      *
      * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche(): ?int{
+    public function getNumeroFiche(): ?int {
         return $this->numeroFiche;
     }
 
@@ -192,7 +191,7 @@ class FichesControlesLignesElements {
      *
      * @return int|null Returns the numero noeud.
      */
-    public function getNumeroNoeud(): ?int{
+    public function getNumeroNoeud(): ?int {
         return $this->numeroNoeud;
     }
 
@@ -201,7 +200,7 @@ class FichesControlesLignesElements {
      *
      * @return string|null Returns the type element.
      */
-    public function getTypeElement(): ?string{
+    public function getTypeElement(): ?string {
         return $this->typeElement;
     }
 

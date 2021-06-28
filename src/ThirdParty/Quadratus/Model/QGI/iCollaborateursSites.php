@@ -89,7 +89,6 @@ class iCollaborateursSites {
      */
     private $restrCliPortef;
 
-
     /**
      * Constructor.
      */
@@ -102,7 +101,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the adresse ip.
      */
-    public function getAdresseIp(): ?string{
+    public function getAdresseIp(): ?string {
         return $this->adresseIp;
     }
 
@@ -111,7 +110,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -120,7 +119,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the dossier.
      */
-    public function getDossier(): ?string{
+    public function getDossier(): ?string {
         return $this->dossier;
     }
 
@@ -129,7 +128,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli assist1.
      */
-    public function getRestrCliAssist1(): ?string{
+    public function getRestrCliAssist1(): ?string {
         return $this->restrCliAssist1;
     }
 
@@ -138,7 +137,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli assist2.
      */
-    public function getRestrCliAssist2(): ?string{
+    public function getRestrCliAssist2(): ?string {
         return $this->restrCliAssist2;
     }
 
@@ -147,7 +146,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli autre1.
      */
-    public function getRestrCliAutre1(): ?string{
+    public function getRestrCliAutre1(): ?string {
         return $this->restrCliAutre1;
     }
 
@@ -156,7 +155,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli autre2.
      */
-    public function getRestrCliAutre2(): ?string{
+    public function getRestrCliAutre2(): ?string {
         return $this->restrCliAutre2;
     }
 
@@ -165,7 +164,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli collab.
      */
-    public function getRestrCliCollab(): ?string{
+    public function getRestrCliCollab(): ?string {
         return $this->restrCliCollab;
     }
 
@@ -174,7 +173,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli expert.
      */
-    public function getRestrCliExpert(): ?string{
+    public function getRestrCliExpert(): ?string {
         return $this->restrCliExpert;
     }
 
@@ -183,7 +182,7 @@ class iCollaborateursSites {
      *
      * @return string|null Returns the restr cli portef.
      */
-    public function getRestrCliPortef(): ?string{
+    public function getRestrCliPortef(): ?string {
         return $this->restrCliPortef;
     }
 

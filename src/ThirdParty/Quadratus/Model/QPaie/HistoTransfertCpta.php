@@ -63,7 +63,6 @@ class HistoTransfertCpta {
      */
     private $typeTransfert;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class HistoTransfertCpta {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -85,7 +84,7 @@ class HistoTransfertCpta {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -94,7 +93,7 @@ class HistoTransfertCpta {
      *
      * @return DateTime|null Returns the date ecriture.
      */
-    public function getDateEcriture(): ?DateTime{
+    public function getDateEcriture(): ?DateTime {
         return $this->dateEcriture;
     }
 
@@ -103,7 +102,7 @@ class HistoTransfertCpta {
      *
      * @return int|null Returns the num lot.
      */
-    public function getNumLot(): ?int{
+    public function getNumLot(): ?int {
         return $this->numLot;
     }
 
@@ -112,7 +111,7 @@ class HistoTransfertCpta {
      *
      * @return DateTime|null Returns the periode transfert.
      */
-    public function getPeriodeTransfert(): ?DateTime{
+    public function getPeriodeTransfert(): ?DateTime {
         return $this->periodeTransfert;
     }
 
@@ -121,7 +120,7 @@ class HistoTransfertCpta {
      *
      * @return string|null Returns the type transfert.
      */
-    public function getTypeTransfert(): ?string{
+    public function getTypeTransfert(): ?string {
         return $this->typeTransfert;
     }
 

@@ -47,7 +47,6 @@ class RepartitionActiviteAna {
      */
     private $tauxVentilation;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class RepartitionActiviteAna {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -69,7 +68,7 @@ class RepartitionActiviteAna {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -78,7 +77,7 @@ class RepartitionActiviteAna {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -87,7 +86,7 @@ class RepartitionActiviteAna {
      *
      * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation(): ?float{
+    public function getTauxVentilation(): ?float {
         return $this->tauxVentilation;
     }
 

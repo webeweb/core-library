@@ -147,7 +147,6 @@ class LignesMsaPenibilite {
      */
     private $periodeDecla;
 
-
     /**
      * Constructor.
      */
@@ -160,7 +159,7 @@ class LignesMsaPenibilite {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -169,7 +168,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque1.
      */
-    public function getCodeRisque1(): ?string{
+    public function getCodeRisque1(): ?string {
         return $this->codeRisque1;
     }
 
@@ -178,7 +177,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque10.
      */
-    public function getCodeRisque10(): ?string{
+    public function getCodeRisque10(): ?string {
         return $this->codeRisque10;
     }
 
@@ -187,7 +186,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque2.
      */
-    public function getCodeRisque2(): ?string{
+    public function getCodeRisque2(): ?string {
         return $this->codeRisque2;
     }
 
@@ -196,7 +195,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque3.
      */
-    public function getCodeRisque3(): ?string{
+    public function getCodeRisque3(): ?string {
         return $this->codeRisque3;
     }
 
@@ -205,7 +204,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque4.
      */
-    public function getCodeRisque4(): ?string{
+    public function getCodeRisque4(): ?string {
         return $this->codeRisque4;
     }
 
@@ -214,7 +213,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque5.
      */
-    public function getCodeRisque5(): ?string{
+    public function getCodeRisque5(): ?string {
         return $this->codeRisque5;
     }
 
@@ -223,7 +222,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque6.
      */
-    public function getCodeRisque6(): ?string{
+    public function getCodeRisque6(): ?string {
         return $this->codeRisque6;
     }
 
@@ -232,7 +231,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque7.
      */
-    public function getCodeRisque7(): ?string{
+    public function getCodeRisque7(): ?string {
         return $this->codeRisque7;
     }
 
@@ -241,7 +240,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque8.
      */
-    public function getCodeRisque8(): ?string{
+    public function getCodeRisque8(): ?string {
         return $this->codeRisque8;
     }
 
@@ -250,7 +249,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code risque9.
      */
-    public function getCodeRisque9(): ?string{
+    public function getCodeRisque9(): ?string {
         return $this->codeRisque9;
     }
 
@@ -259,7 +258,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the code unite.
      */
-    public function getCodeUnite(): ?string{
+    public function getCodeUnite(): ?string {
         return $this->codeUnite;
     }
 
@@ -268,7 +267,7 @@ class LignesMsaPenibilite {
      *
      * @return DateTime|null Returns the dt deb penibilite.
      */
-    public function getDtDebPenibilite(): ?DateTime{
+    public function getDtDebPenibilite(): ?DateTime {
         return $this->dtDebPenibilite;
     }
 
@@ -277,7 +276,7 @@ class LignesMsaPenibilite {
      *
      * @return DateTime|null Returns the dt deb per.
      */
-    public function getDtDebPer(): ?DateTime{
+    public function getDtDebPer(): ?DateTime {
         return $this->dtDebPer;
     }
 
@@ -286,7 +285,7 @@ class LignesMsaPenibilite {
      *
      * @return DateTime|null Returns the dt fin penibilite.
      */
-    public function getDtFinPenibilite(): ?DateTime{
+    public function getDtFinPenibilite(): ?DateTime {
         return $this->dtFinPenibilite;
     }
 
@@ -295,7 +294,7 @@ class LignesMsaPenibilite {
      *
      * @return DateTime|null Returns the dt fin per.
      */
-    public function getDtFinPer(): ?DateTime{
+    public function getDtFinPer(): ?DateTime {
         return $this->dtFinPer;
     }
 
@@ -304,7 +303,7 @@ class LignesMsaPenibilite {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -313,7 +312,7 @@ class LignesMsaPenibilite {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla(): ?DateTime{
+    public function getPeriodeDecla(): ?DateTime {
         return $this->periodeDecla;
     }
 

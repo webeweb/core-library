@@ -56,7 +56,6 @@ class SaisieApproChantier {
      */
     private $pret;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class SaisieApproChantier {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -78,7 +77,7 @@ class SaisieApproChantier {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -87,7 +86,7 @@ class SaisieApproChantier {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -96,7 +95,7 @@ class SaisieApproChantier {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -105,7 +104,7 @@ class SaisieApproChantier {
      *
      * @return bool|null Returns the pret.
      */
-    public function getPret(): ?bool{
+    public function getPret(): ?bool {
         return $this->pret;
     }
 

@@ -40,7 +40,6 @@ class DroitsAccesIntervenantsCollab {
      */
     private $typeIntervenant;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class DroitsAccesIntervenantsCollab {
      *
      * @return bool|null Returns the acces libre.
      */
-    public function getAccesLibre(): ?bool{
+    public function getAccesLibre(): ?bool {
         return $this->accesLibre;
     }
 
@@ -62,7 +61,7 @@ class DroitsAccesIntervenantsCollab {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -71,7 +70,7 @@ class DroitsAccesIntervenantsCollab {
      *
      * @return string|null Returns the type intervenant.
      */
-    public function getTypeIntervenant(): ?string{
+    public function getTypeIntervenant(): ?string {
         return $this->typeIntervenant;
     }
 

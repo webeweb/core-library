@@ -68,7 +68,6 @@ class FiltreEntetes {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class FiltreEntetes {
      *
      * @return string|null Returns the code filtre.
      */
-    public function getCodeFiltre(): ?string{
+    public function getCodeFiltre(): ?string {
         return $this->codeFiltre;
     }
 
@@ -90,7 +89,7 @@ class FiltreEntetes {
      *
      * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur(): ?string{
+    public function getCollaborateur(): ?string {
         return $this->collaborateur;
     }
 
@@ -99,7 +98,7 @@ class FiltreEntetes {
      *
      * @return bool|null Returns the commercial facture.
      */
-    public function getCommercialFacture(): ?bool{
+    public function getCommercialFacture(): ?bool {
         return $this->commercialFacture;
     }
 
@@ -108,7 +107,7 @@ class FiltreEntetes {
      *
      * @return string|null Returns the fonctionnalite.
      */
-    public function getFonctionnalite(): ?string{
+    public function getFonctionnalite(): ?string {
         return $this->fonctionnalite;
     }
 
@@ -117,7 +116,7 @@ class FiltreEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -126,7 +125,7 @@ class FiltreEntetes {
      *
      * @return string|null Returns the type filtre.
      */
-    public function getTypeFiltre(): ?string{
+    public function getTypeFiltre(): ?string {
         return $this->typeFiltre;
     }
 
@@ -135,7 +134,7 @@ class FiltreEntetes {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

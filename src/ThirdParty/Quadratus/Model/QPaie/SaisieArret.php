@@ -91,7 +91,6 @@ class SaisieArret {
      */
     private $typeSaisie;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class SaisieArret {
      *
      * @return DateTime|null Returns the dt courrier.
      */
-    public function getDtCourrier(): ?DateTime{
+    public function getDtCourrier(): ?DateTime {
         return $this->dtCourrier;
     }
 
@@ -113,7 +112,7 @@ class SaisieArret {
      *
      * @return DateTime|null Returns the dt debut saisie.
      */
-    public function getDtDebutSaisie(): ?DateTime{
+    public function getDtDebutSaisie(): ?DateTime {
         return $this->dtDebutSaisie;
     }
 
@@ -122,7 +121,7 @@ class SaisieArret {
      *
      * @return DateTime|null Returns the dt fin saisie.
      */
-    public function getDtFinSaisie(): ?DateTime{
+    public function getDtFinSaisie(): ?DateTime {
         return $this->dtFinSaisie;
     }
 
@@ -131,7 +130,7 @@ class SaisieArret {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -140,7 +139,7 @@ class SaisieArret {
      *
      * @return float|null Returns the mt creance.
      */
-    public function getMtCreance(): ?float{
+    public function getMtCreance(): ?float {
         return $this->mtCreance;
     }
 
@@ -149,7 +148,7 @@ class SaisieArret {
      *
      * @return float|null Returns the mt deja paye.
      */
-    public function getMtDejaPaye(): ?float{
+    public function getMtDejaPaye(): ?float {
         return $this->mtDejaPaye;
     }
 
@@ -158,7 +157,7 @@ class SaisieArret {
      *
      * @return string|null Returns the nb a charge.
      */
-    public function getNbACharge(): ?string{
+    public function getNbACharge(): ?string {
         return $this->nbACharge;
     }
 
@@ -167,7 +166,7 @@ class SaisieArret {
      *
      * @return string|null Returns the nom tribunal.
      */
-    public function getNomTribunal(): ?string{
+    public function getNomTribunal(): ?string {
         return $this->nomTribunal;
     }
 
@@ -176,7 +175,7 @@ class SaisieArret {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -185,7 +184,7 @@ class SaisieArret {
      *
      * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie(): ?string{
+    public function getTypeSaisie(): ?string {
         return $this->typeSaisie;
     }
 

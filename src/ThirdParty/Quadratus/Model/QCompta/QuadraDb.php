@@ -26,7 +26,6 @@ class QuadraDb {
      */
     private $version;
 
-
     /**
      * Constructor.
      */
@@ -39,7 +38,7 @@ class QuadraDb {
      *
      * @return int|null Returns the version.
      */
-    public function getVersion(): ?int{
+    public function getVersion(): ?int {
         return $this->version;
     }
 

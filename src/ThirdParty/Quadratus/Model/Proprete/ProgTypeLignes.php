@@ -61,7 +61,6 @@ class ProgTypeLignes {
      */
     private $vitesseTheorique;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class ProgTypeLignes {
      *
      * @return string|null Returns the code operation.
      */
-    public function getCodeOperation(): ?string{
+    public function getCodeOperation(): ?string {
         return $this->codeOperation;
     }
 
@@ -83,7 +82,7 @@ class ProgTypeLignes {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -92,7 +91,7 @@ class ProgTypeLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -101,7 +100,7 @@ class ProgTypeLignes {
      *
      * @return int|null Returns the num programme.
      */
-    public function getNumProgramme(): ?int{
+    public function getNumProgramme(): ?int {
         return $this->numProgramme;
     }
 
@@ -110,7 +109,7 @@ class ProgTypeLignes {
      *
      * @return float|null Returns the vitesse reelle.
      */
-    public function getVitesseReelle(): ?float{
+    public function getVitesseReelle(): ?float {
         return $this->vitesseReelle;
     }
 
@@ -119,7 +118,7 @@ class ProgTypeLignes {
      *
      * @return float|null Returns the vitesse theorique.
      */
-    public function getVitesseTheorique(): ?float{
+    public function getVitesseTheorique(): ?float {
         return $this->vitesseTheorique;
     }
 

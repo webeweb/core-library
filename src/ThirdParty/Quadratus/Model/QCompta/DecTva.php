@@ -1030,6 +1030,13 @@ class DecTva {
     private $azLigne5Mtt;
 
     /**
+     * b groupe.
+     *
+     * @var bool|null
+     */
+    private $bGroupe;
+
+    /**
      * Ca12 mois cloture.
      *
      * @var int|null
@@ -1226,6 +1233,13 @@ class DecTva {
     private $periode;
 
     /**
+     * Report acp.
+     *
+     * @var float|null
+     */
+    private $reportAcp;
+
+    /**
      * Rib titulaire1.
      *
      * @var string|null
@@ -1238,13 +1252,6 @@ class DecTva {
      * @var string|null
      */
     private $ribTitulaire2;
-
-    /**
-     * Report acp.
-     *
-     * @var float|null
-     */
-    private $reportAcp;
 
     /**
      * Sel adresse dest.
@@ -1273,6 +1280,20 @@ class DecTva {
      * @var string|null
      */
     private $ville;
+
+    /**
+     * z0029.
+     *
+     * @var float|null
+     */
+    private $z0029;
+
+    /**
+     * z0030.
+     *
+     * @var float|null
+     */
+    private $z0030;
 
     /**
      * Z0031.
@@ -1317,6 +1338,13 @@ class DecTva {
     private $z0035;
 
     /**
+     * z0036.
+     *
+     * @var float|null
+     */
+    private $z0036;
+
+    /**
      * Z0037.
      *
      * @var float|null
@@ -1329,6 +1357,13 @@ class DecTva {
      * @var float|null
      */
     private $z0038;
+
+    /**
+     * z0039.
+     *
+     * @var float|null
+     */
+    private $z0039;
 
     /**
      * Z0040.
@@ -1352,6 +1387,41 @@ class DecTva {
     private $z0041;
 
     /**
+     * z0044.
+     *
+     * @var float|null
+     */
+    private $z0044;
+
+    /**
+     * z0044b.
+     *
+     * @var float|null
+     */
+    private $z0044b;
+
+    /**
+     * z0045.
+     *
+     * @var float|null
+     */
+    private $z0045;
+
+    /**
+     * z0046.
+     *
+     * @var float|null
+     */
+    private $z0046;
+
+    /**
+     * z0059b.
+     *
+     * @var float|null
+     */
+    private $z0059b;
+
+    /**
      * Z01.
      *
      * @var float|null
@@ -1371,6 +1441,34 @@ class DecTva {
      * @var float|null
      */
     private $z0100b;
+
+    /**
+     * z0121.
+     *
+     * @var float|null
+     */
+    private $z0121;
+
+    /**
+     * Z0121b.
+     *
+     * @var float|null
+     */
+    private $z0121b;
+
+    /**
+     * z0151.
+     *
+     * @var float|null
+     */
+    private $z0151;
+
+    /**
+     * z0151b.
+     *
+     * @var float|null
+     */
+    private $z0151b;
 
     /**
      * Z02.
@@ -1406,6 +1504,20 @@ class DecTva {
      * @var float|null
      */
     private $z0205b;
+
+    /**
+     * z0207.
+     *
+     * @var float|null
+     */
+    private $z0207;
+
+    /**
+     * z0207b.
+     *
+     * @var float|null
+     */
+    private $z0207b;
 
     /**
      * Z0600.
@@ -1457,6 +1569,13 @@ class DecTva {
     private $z0705;
 
     /**
+     * z0709.
+     *
+     * @var float|null
+     */
+    private $z0709;
+
+    /**
      * Z0900.
      *
      * @var float|null
@@ -1499,6 +1618,34 @@ class DecTva {
     private $z0950b;
 
     /**
+     * Z12 code.
+     *
+     * @var string|null
+     */
+    private $z12Code;
+
+    /**
+     * z12 ht.
+     *
+     * @var float|null
+     */
+    private $z12Ht;
+
+    /**
+     * Z12 lib.
+     *
+     * @var string|null
+     */
+    private $z12Lib;
+
+    /**
+     * Z12 taxe.
+     *
+     * @var float|null
+     */
+    private $z12Taxe;
+
+    /**
      * Z14.
      *
      * @var float|null
@@ -1539,6 +1686,13 @@ class DecTva {
      * @var float|null
      */
     private $z25;
+
+    /**
+     * Z4227.
+     *
+     * @var float|null
+     */
+    private $z4227;
 
     /**
      * Z8001.
@@ -1604,158 +1758,11 @@ class DecTva {
     private $z9999;
 
     /**
-     * b groupe.
-     *
-     * @var bool|null
-     */
-    private $bGroupe;
-
-    /**
-     * z0029.
+     * Z9 b taxe.
      *
      * @var float|null
      */
-    private $z0029;
-
-    /**
-     * z0030.
-     *
-     * @var float|null
-     */
-    private $z0030;
-
-    /**
-     * z0036.
-     *
-     * @var float|null
-     */
-    private $z0036;
-
-    /**
-     * z0039.
-     *
-     * @var float|null
-     */
-    private $z0039;
-
-    /**
-     * z0044.
-     *
-     * @var float|null
-     */
-    private $z0044;
-
-    /**
-     * z0044b.
-     *
-     * @var float|null
-     */
-    private $z0044b;
-
-    /**
-     * z0045.
-     *
-     * @var float|null
-     */
-    private $z0045;
-
-    /**
-     * z0046.
-     *
-     * @var float|null
-     */
-    private $z0046;
-
-    /**
-     * z0059b.
-     *
-     * @var float|null
-     */
-    private $z0059b;
-
-    /**
-     * z0121.
-     *
-     * @var float|null
-     */
-    private $z0121;
-
-    /**
-     * Z0121b.
-     *
-     * @var float|null
-     */
-    private $z0121b;
-
-    /**
-     * z0151.
-     *
-     * @var float|null
-     */
-    private $z0151;
-
-    /**
-     * z0151b.
-     *
-     * @var float|null
-     */
-    private $z0151b;
-
-    /**
-     * z0207.
-     *
-     * @var float|null
-     */
-    private $z0207;
-
-    /**
-     * z0207b.
-     *
-     * @var float|null
-     */
-    private $z0207b;
-
-    /**
-     * z0709.
-     *
-     * @var float|null
-     */
-    private $z0709;
-
-    /**
-     * Z12 code.
-     *
-     * @var string|null
-     */
-    private $z12Code;
-
-    /**
-     * z12 ht.
-     *
-     * @var float|null
-     */
-    private $z12Ht;
-
-    /**
-     * Z12 lib.
-     *
-     * @var string|null
-     */
-    private $z12Lib;
-
-    /**
-     * Z12 taxe.
-     *
-     * @var float|null
-     */
-    private $z12Taxe;
-
-    /**
-     * Z4227.
-     *
-     * @var float|null
-     */
-    private $z4227;
+    private $z9BTaxe;
 
     /**
      * z9b code.
@@ -1779,14 +1786,6 @@ class DecTva {
     private $z9bLib;
 
     /**
-     * Z9 b taxe.
-     *
-     * @var float|null
-     */
-    private $z9BTaxe;
-
-
-    /**
      * Constructor.
      */
     public function __construct() {
@@ -1798,7 +1797,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres1.
      */
-    public function getACorres1(): ?string{
+    public function getACorres1(): ?string {
         return $this->aCorres1;
     }
 
@@ -1807,7 +1806,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres2.
      */
-    public function getACorres2(): ?string{
+    public function getACorres2(): ?string {
         return $this->aCorres2;
     }
 
@@ -1816,7 +1815,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres3.
      */
-    public function getACorres3(): ?string{
+    public function getACorres3(): ?string {
         return $this->aCorres3;
     }
 
@@ -1825,7 +1824,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres4.
      */
-    public function getACorres4(): ?string{
+    public function getACorres4(): ?string {
         return $this->aCorres4;
     }
 
@@ -1834,7 +1833,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres5.
      */
-    public function getACorres5(): ?string{
+    public function getACorres5(): ?string {
         return $this->aCorres5;
     }
 
@@ -1843,7 +1842,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres6.
      */
-    public function getACorres6(): ?string{
+    public function getACorres6(): ?string {
         return $this->aCorres6;
     }
 
@@ -1852,7 +1851,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres7.
      */
-    public function getACorres7(): ?string{
+    public function getACorres7(): ?string {
         return $this->aCorres7;
     }
 
@@ -1861,7 +1860,7 @@ class DecTva {
      *
      * @return string|null Returns the a corres8.
      */
-    public function getACorres8(): ?string{
+    public function getACorres8(): ?string {
         return $this->aCorres8;
     }
 
@@ -1870,7 +1869,7 @@ class DecTva {
      *
      * @return float|null Returns the az0990.
      */
-    public function getAz0990(): ?float{
+    public function getAz0990(): ?float {
         return $this->az0990;
     }
 
@@ -1879,7 +1878,7 @@ class DecTva {
      *
      * @return float|null Returns the az0990b.
      */
-    public function getAz0990b(): ?float{
+    public function getAz0990b(): ?float {
         return $this->az0990b;
     }
 
@@ -1888,7 +1887,7 @@ class DecTva {
      *
      * @return float|null Returns the az1010.
      */
-    public function getAz1010(): ?float{
+    public function getAz1010(): ?float {
         return $this->az1010;
     }
 
@@ -1897,7 +1896,7 @@ class DecTva {
      *
      * @return float|null Returns the az1010b.
      */
-    public function getAz1010b(): ?float{
+    public function getAz1010b(): ?float {
         return $this->az1010b;
     }
 
@@ -1906,7 +1905,7 @@ class DecTva {
      *
      * @return float|null Returns the az1020.
      */
-    public function getAz1020(): ?float{
+    public function getAz1020(): ?float {
         return $this->az1020;
     }
 
@@ -1915,7 +1914,7 @@ class DecTva {
      *
      * @return float|null Returns the az1020b.
      */
-    public function getAz1020b(): ?float{
+    public function getAz1020b(): ?float {
         return $this->az1020b;
     }
 
@@ -1924,7 +1923,7 @@ class DecTva {
      *
      * @return float|null Returns the az1030.
      */
-    public function getAz1030(): ?float{
+    public function getAz1030(): ?float {
         return $this->az1030;
     }
 
@@ -1933,7 +1932,7 @@ class DecTva {
      *
      * @return float|null Returns the az1030b.
      */
-    public function getAz1030b(): ?float{
+    public function getAz1030b(): ?float {
         return $this->az1030b;
     }
 
@@ -1942,7 +1941,7 @@ class DecTva {
      *
      * @return float|null Returns the az1040.
      */
-    public function getAz1040(): ?float{
+    public function getAz1040(): ?float {
         return $this->az1040;
     }
 
@@ -1951,7 +1950,7 @@ class DecTva {
      *
      * @return float|null Returns the az1040b.
      */
-    public function getAz1040b(): ?float{
+    public function getAz1040b(): ?float {
         return $this->az1040b;
     }
 
@@ -1960,7 +1959,7 @@ class DecTva {
      *
      * @return float|null Returns the az1050.
      */
-    public function getAz1050(): ?float{
+    public function getAz1050(): ?float {
         return $this->az1050;
     }
 
@@ -1969,7 +1968,7 @@ class DecTva {
      *
      * @return float|null Returns the az1050b.
      */
-    public function getAz1050b(): ?float{
+    public function getAz1050b(): ?float {
         return $this->az1050b;
     }
 
@@ -1978,7 +1977,7 @@ class DecTva {
      *
      * @return float|null Returns the az1080.
      */
-    public function getAz1080(): ?float{
+    public function getAz1080(): ?float {
         return $this->az1080;
     }
 
@@ -1987,7 +1986,7 @@ class DecTva {
      *
      * @return float|null Returns the az1080b.
      */
-    public function getAz1080b(): ?float{
+    public function getAz1080b(): ?float {
         return $this->az1080b;
     }
 
@@ -1996,7 +1995,7 @@ class DecTva {
      *
      * @return float|null Returns the az1081.
      */
-    public function getAz1081(): ?float{
+    public function getAz1081(): ?float {
         return $this->az1081;
     }
 
@@ -2005,7 +2004,7 @@ class DecTva {
      *
      * @return float|null Returns the az1081b.
      */
-    public function getAz1081b(): ?float{
+    public function getAz1081b(): ?float {
         return $this->az1081b;
     }
 
@@ -2014,7 +2013,7 @@ class DecTva {
      *
      * @return float|null Returns the az1090.
      */
-    public function getAz1090(): ?float{
+    public function getAz1090(): ?float {
         return $this->az1090;
     }
 
@@ -2023,7 +2022,7 @@ class DecTva {
      *
      * @return float|null Returns the az1090b.
      */
-    public function getAz1090b(): ?float{
+    public function getAz1090b(): ?float {
         return $this->az1090b;
     }
 
@@ -2032,7 +2031,7 @@ class DecTva {
      *
      * @return float|null Returns the az1100.
      */
-    public function getAz1100(): ?float{
+    public function getAz1100(): ?float {
         return $this->az1100;
     }
 
@@ -2041,7 +2040,7 @@ class DecTva {
      *
      * @return float|null Returns the az1100b.
      */
-    public function getAz1100b(): ?float{
+    public function getAz1100b(): ?float {
         return $this->az1100b;
     }
 
@@ -2050,7 +2049,7 @@ class DecTva {
      *
      * @return float|null Returns the az1110.
      */
-    public function getAz1110(): ?float{
+    public function getAz1110(): ?float {
         return $this->az1110;
     }
 
@@ -2059,7 +2058,7 @@ class DecTva {
      *
      * @return float|null Returns the az1110b.
      */
-    public function getAz1110b(): ?float{
+    public function getAz1110b(): ?float {
         return $this->az1110b;
     }
 
@@ -2068,7 +2067,7 @@ class DecTva {
      *
      * @return float|null Returns the az1120.
      */
-    public function getAz1120(): ?float{
+    public function getAz1120(): ?float {
         return $this->az1120;
     }
 
@@ -2077,7 +2076,7 @@ class DecTva {
      *
      * @return float|null Returns the az1120b.
      */
-    public function getAz1120b(): ?float{
+    public function getAz1120b(): ?float {
         return $this->az1120b;
     }
 
@@ -2086,7 +2085,7 @@ class DecTva {
      *
      * @return float|null Returns the az3240.
      */
-    public function getAz3240(): ?float{
+    public function getAz3240(): ?float {
         return $this->az3240;
     }
 
@@ -2095,7 +2094,7 @@ class DecTva {
      *
      * @return float|null Returns the az3260.
      */
-    public function getAz3260(): ?float{
+    public function getAz3260(): ?float {
         return $this->az3260;
     }
 
@@ -2104,7 +2103,7 @@ class DecTva {
      *
      * @return float|null Returns the az3510.
      */
-    public function getAz3510(): ?float{
+    public function getAz3510(): ?float {
         return $this->az3510;
     }
 
@@ -2113,7 +2112,7 @@ class DecTva {
      *
      * @return float|null Returns the az3520.
      */
-    public function getAz3520(): ?float{
+    public function getAz3520(): ?float {
         return $this->az3520;
     }
 
@@ -2122,7 +2121,7 @@ class DecTva {
      *
      * @return string|null Returns the az38 code.
      */
-    public function getAz38Code(): ?string{
+    public function getAz38Code(): ?string {
         return $this->az38Code;
     }
 
@@ -2131,7 +2130,7 @@ class DecTva {
      *
      * @return string|null Returns the az38 lib.
      */
-    public function getAz38Lib(): ?string{
+    public function getAz38Lib(): ?string {
         return $this->az38Lib;
     }
 
@@ -2140,7 +2139,7 @@ class DecTva {
      *
      * @return float|null Returns the az38b.
      */
-    public function getAz38b(): ?float{
+    public function getAz38b(): ?float {
         return $this->az38b;
     }
 
@@ -2149,7 +2148,7 @@ class DecTva {
      *
      * @return float|null Returns the az38ht.
      */
-    public function getAz38ht(): ?float{
+    public function getAz38ht(): ?float {
         return $this->az38ht;
     }
 
@@ -2158,7 +2157,7 @@ class DecTva {
      *
      * @return float|null Returns the az3910.
      */
-    public function getAz3910(): ?float{
+    public function getAz3910(): ?float {
         return $this->az3910;
     }
 
@@ -2167,7 +2166,7 @@ class DecTva {
      *
      * @return float|null Returns the az4200.
      */
-    public function getAz4200(): ?float{
+    public function getAz4200(): ?float {
         return $this->az4200;
     }
 
@@ -2176,7 +2175,7 @@ class DecTva {
      *
      * @return float|null Returns the az4201.
      */
-    public function getAz4201(): ?float{
+    public function getAz4201(): ?float {
         return $this->az4201;
     }
 
@@ -2185,7 +2184,7 @@ class DecTva {
      *
      * @return float|null Returns the az4204.
      */
-    public function getAz4204(): ?float{
+    public function getAz4204(): ?float {
         return $this->az4204;
     }
 
@@ -2194,7 +2193,7 @@ class DecTva {
      *
      * @return float|null Returns the az4206.
      */
-    public function getAz4206(): ?float{
+    public function getAz4206(): ?float {
         return $this->az4206;
     }
 
@@ -2203,7 +2202,7 @@ class DecTva {
      *
      * @return float|null Returns the az4207.
      */
-    public function getAz4207(): ?float{
+    public function getAz4207(): ?float {
         return $this->az4207;
     }
 
@@ -2212,7 +2211,7 @@ class DecTva {
      *
      * @return float|null Returns the az4208.
      */
-    public function getAz4208(): ?float{
+    public function getAz4208(): ?float {
         return $this->az4208;
     }
 
@@ -2221,7 +2220,7 @@ class DecTva {
      *
      * @return float|null Returns the az4209.
      */
-    public function getAz4209(): ?float{
+    public function getAz4209(): ?float {
         return $this->az4209;
     }
 
@@ -2230,7 +2229,7 @@ class DecTva {
      *
      * @return float|null Returns the az4210.
      */
-    public function getAz4210(): ?float{
+    public function getAz4210(): ?float {
         return $this->az4210;
     }
 
@@ -2239,7 +2238,7 @@ class DecTva {
      *
      * @return float|null Returns the az4211.
      */
-    public function getAz4211(): ?float{
+    public function getAz4211(): ?float {
         return $this->az4211;
     }
 
@@ -2248,7 +2247,7 @@ class DecTva {
      *
      * @return float|null Returns the az4212.
      */
-    public function getAz4212(): ?float{
+    public function getAz4212(): ?float {
         return $this->az4212;
     }
 
@@ -2257,7 +2256,7 @@ class DecTva {
      *
      * @return float|null Returns the az4213.
      */
-    public function getAz4213(): ?float{
+    public function getAz4213(): ?float {
         return $this->az4213;
     }
 
@@ -2266,7 +2265,7 @@ class DecTva {
      *
      * @return float|null Returns the az4215.
      */
-    public function getAz4215(): ?float{
+    public function getAz4215(): ?float {
         return $this->az4215;
     }
 
@@ -2275,7 +2274,7 @@ class DecTva {
      *
      * @return float|null Returns the az4220.
      */
-    public function getAz4220(): ?float{
+    public function getAz4220(): ?float {
         return $this->az4220;
     }
 
@@ -2284,7 +2283,7 @@ class DecTva {
      *
      * @return float|null Returns the az4222.
      */
-    public function getAz4222(): ?float{
+    public function getAz4222(): ?float {
         return $this->az4222;
     }
 
@@ -2293,7 +2292,7 @@ class DecTva {
      *
      * @return float|null Returns the az4223.
      */
-    public function getAz4223(): ?float{
+    public function getAz4223(): ?float {
         return $this->az4223;
     }
 
@@ -2302,7 +2301,7 @@ class DecTva {
      *
      * @return float|null Returns the az4224.
      */
-    public function getAz4224(): ?float{
+    public function getAz4224(): ?float {
         return $this->az4224;
     }
 
@@ -2311,7 +2310,7 @@ class DecTva {
      *
      * @return float|null Returns the az4228 mtt.
      */
-    public function getAz4228Mtt(): ?float{
+    public function getAz4228Mtt(): ?float {
         return $this->az4228Mtt;
     }
 
@@ -2320,7 +2319,7 @@ class DecTva {
      *
      * @return float|null Returns the az4230.
      */
-    public function getAz4230(): ?float{
+    public function getAz4230(): ?float {
         return $this->az4230;
     }
 
@@ -2329,7 +2328,7 @@ class DecTva {
      *
      * @return float|null Returns the az4231.
      */
-    public function getAz4231(): ?float{
+    public function getAz4231(): ?float {
         return $this->az4231;
     }
 
@@ -2338,7 +2337,7 @@ class DecTva {
      *
      * @return float|null Returns the az4232.
      */
-    public function getAz4232(): ?float{
+    public function getAz4232(): ?float {
         return $this->az4232;
     }
 
@@ -2347,7 +2346,7 @@ class DecTva {
      *
      * @return float|null Returns the az4233.
      */
-    public function getAz4233(): ?float{
+    public function getAz4233(): ?float {
         return $this->az4233;
     }
 
@@ -2356,7 +2355,7 @@ class DecTva {
      *
      * @return float|null Returns the az4234.
      */
-    public function getAz4234(): ?float{
+    public function getAz4234(): ?float {
         return $this->az4234;
     }
 
@@ -2365,7 +2364,7 @@ class DecTva {
      *
      * @return float|null Returns the az4235.
      */
-    public function getAz4235(): ?float{
+    public function getAz4235(): ?float {
         return $this->az4235;
     }
 
@@ -2374,7 +2373,7 @@ class DecTva {
      *
      * @return float|null Returns the az4236.
      */
-    public function getAz4236(): ?float{
+    public function getAz4236(): ?float {
         return $this->az4236;
     }
 
@@ -2383,7 +2382,7 @@ class DecTva {
      *
      * @return float|null Returns the az4237.
      */
-    public function getAz4237(): ?float{
+    public function getAz4237(): ?float {
         return $this->az4237;
     }
 
@@ -2392,7 +2391,7 @@ class DecTva {
      *
      * @return float|null Returns the az4238.
      */
-    public function getAz4238(): ?float{
+    public function getAz4238(): ?float {
         return $this->az4238;
     }
 
@@ -2401,7 +2400,7 @@ class DecTva {
      *
      * @return float|null Returns the az4239.
      */
-    public function getAz4239(): ?float{
+    public function getAz4239(): ?float {
         return $this->az4239;
     }
 
@@ -2410,7 +2409,7 @@ class DecTva {
      *
      * @return float|null Returns the az4240.
      */
-    public function getAz4240(): ?float{
+    public function getAz4240(): ?float {
         return $this->az4240;
     }
 
@@ -2419,7 +2418,7 @@ class DecTva {
      *
      * @return float|null Returns the az4241.
      */
-    public function getAz4241(): ?float{
+    public function getAz4241(): ?float {
         return $this->az4241;
     }
 
@@ -2428,7 +2427,7 @@ class DecTva {
      *
      * @return float|null Returns the az4242.
      */
-    public function getAz4242(): ?float{
+    public function getAz4242(): ?float {
         return $this->az4242;
     }
 
@@ -2437,7 +2436,7 @@ class DecTva {
      *
      * @return float|null Returns the az4243.
      */
-    public function getAz4243(): ?float{
+    public function getAz4243(): ?float {
         return $this->az4243;
     }
 
@@ -2446,7 +2445,7 @@ class DecTva {
      *
      * @return float|null Returns the az4244.
      */
-    public function getAz4244(): ?float{
+    public function getAz4244(): ?float {
         return $this->az4244;
     }
 
@@ -2455,7 +2454,7 @@ class DecTva {
      *
      * @return float|null Returns the az4245.
      */
-    public function getAz4245(): ?float{
+    public function getAz4245(): ?float {
         return $this->az4245;
     }
 
@@ -2464,7 +2463,7 @@ class DecTva {
      *
      * @return float|null Returns the az4246.
      */
-    public function getAz4246(): ?float{
+    public function getAz4246(): ?float {
         return $this->az4246;
     }
 
@@ -2473,7 +2472,7 @@ class DecTva {
      *
      * @return float|null Returns the az4247.
      */
-    public function getAz4247(): ?float{
+    public function getAz4247(): ?float {
         return $this->az4247;
     }
 
@@ -2482,7 +2481,7 @@ class DecTva {
      *
      * @return float|null Returns the az4248.
      */
-    public function getAz4248(): ?float{
+    public function getAz4248(): ?float {
         return $this->az4248;
     }
 
@@ -2491,7 +2490,7 @@ class DecTva {
      *
      * @return float|null Returns the az4249.
      */
-    public function getAz4249(): ?float{
+    public function getAz4249(): ?float {
         return $this->az4249;
     }
 
@@ -2500,7 +2499,7 @@ class DecTva {
      *
      * @return float|null Returns the az4250.
      */
-    public function getAz4250(): ?float{
+    public function getAz4250(): ?float {
         return $this->az4250;
     }
 
@@ -2509,7 +2508,7 @@ class DecTva {
      *
      * @return float|null Returns the az4251.
      */
-    public function getAz4251(): ?float{
+    public function getAz4251(): ?float {
         return $this->az4251;
     }
 
@@ -2518,7 +2517,7 @@ class DecTva {
      *
      * @return float|null Returns the az4252.
      */
-    public function getAz4252(): ?float{
+    public function getAz4252(): ?float {
         return $this->az4252;
     }
 
@@ -2527,7 +2526,7 @@ class DecTva {
      *
      * @return float|null Returns the az4254.
      */
-    public function getAz4254(): ?float{
+    public function getAz4254(): ?float {
         return $this->az4254;
     }
 
@@ -2536,7 +2535,7 @@ class DecTva {
      *
      * @return float|null Returns the az4255.
      */
-    public function getAz4255(): ?float{
+    public function getAz4255(): ?float {
         return $this->az4255;
     }
 
@@ -2545,7 +2544,7 @@ class DecTva {
      *
      * @return float|null Returns the az4256.
      */
-    public function getAz4256(): ?float{
+    public function getAz4256(): ?float {
         return $this->az4256;
     }
 
@@ -2554,7 +2553,7 @@ class DecTva {
      *
      * @return float|null Returns the az4257.
      */
-    public function getAz4257(): ?float{
+    public function getAz4257(): ?float {
         return $this->az4257;
     }
 
@@ -2563,7 +2562,7 @@ class DecTva {
      *
      * @return float|null Returns the az4258.
      */
-    public function getAz4258(): ?float{
+    public function getAz4258(): ?float {
         return $this->az4258;
     }
 
@@ -2572,7 +2571,7 @@ class DecTva {
      *
      * @return float|null Returns the az4259.
      */
-    public function getAz4259(): ?float{
+    public function getAz4259(): ?float {
         return $this->az4259;
     }
 
@@ -2581,7 +2580,7 @@ class DecTva {
      *
      * @return float|null Returns the az4260.
      */
-    public function getAz4260(): ?float{
+    public function getAz4260(): ?float {
         return $this->az4260;
     }
 
@@ -2590,7 +2589,7 @@ class DecTva {
      *
      * @return float|null Returns the az4261.
      */
-    public function getAz4261(): ?float{
+    public function getAz4261(): ?float {
         return $this->az4261;
     }
 
@@ -2599,7 +2598,7 @@ class DecTva {
      *
      * @return float|null Returns the az4262.
      */
-    public function getAz4262(): ?float{
+    public function getAz4262(): ?float {
         return $this->az4262;
     }
 
@@ -2608,7 +2607,7 @@ class DecTva {
      *
      * @return float|null Returns the az4263.
      */
-    public function getAz4263(): ?float{
+    public function getAz4263(): ?float {
         return $this->az4263;
     }
 
@@ -2617,7 +2616,7 @@ class DecTva {
      *
      * @return float|null Returns the az4264.
      */
-    public function getAz4264(): ?float{
+    public function getAz4264(): ?float {
         return $this->az4264;
     }
 
@@ -2626,7 +2625,7 @@ class DecTva {
      *
      * @return float|null Returns the az4265.
      */
-    public function getAz4265(): ?float{
+    public function getAz4265(): ?float {
         return $this->az4265;
     }
 
@@ -2635,7 +2634,7 @@ class DecTva {
      *
      * @return float|null Returns the az4266.
      */
-    public function getAz4266(): ?float{
+    public function getAz4266(): ?float {
         return $this->az4266;
     }
 
@@ -2644,7 +2643,7 @@ class DecTva {
      *
      * @return float|null Returns the az4267.
      */
-    public function getAz4267(): ?float{
+    public function getAz4267(): ?float {
         return $this->az4267;
     }
 
@@ -2653,7 +2652,7 @@ class DecTva {
      *
      * @return float|null Returns the az4268.
      */
-    public function getAz4268(): ?float{
+    public function getAz4268(): ?float {
         return $this->az4268;
     }
 
@@ -2662,7 +2661,7 @@ class DecTva {
      *
      * @return float|null Returns the az4268 base.
      */
-    public function getAz4268Base(): ?float{
+    public function getAz4268Base(): ?float {
         return $this->az4268Base;
     }
 
@@ -2671,7 +2670,7 @@ class DecTva {
      *
      * @return float|null Returns the az4269.
      */
-    public function getAz4269(): ?float{
+    public function getAz4269(): ?float {
         return $this->az4269;
     }
 
@@ -2680,7 +2679,7 @@ class DecTva {
      *
      * @return float|null Returns the az4269 base.
      */
-    public function getAz4269Base(): ?float{
+    public function getAz4269Base(): ?float {
         return $this->az4269Base;
     }
 
@@ -2689,7 +2688,7 @@ class DecTva {
      *
      * @return float|null Returns the az4270.
      */
-    public function getAz4270(): ?float{
+    public function getAz4270(): ?float {
         return $this->az4270;
     }
 
@@ -2698,7 +2697,7 @@ class DecTva {
      *
      * @return float|null Returns the az4270 base.
      */
-    public function getAz4270Base(): ?float{
+    public function getAz4270Base(): ?float {
         return $this->az4270Base;
     }
 
@@ -2707,7 +2706,7 @@ class DecTva {
      *
      * @return float|null Returns the az4271.
      */
-    public function getAz4271(): ?float{
+    public function getAz4271(): ?float {
         return $this->az4271;
     }
 
@@ -2716,7 +2715,7 @@ class DecTva {
      *
      * @return float|null Returns the az4271 base.
      */
-    public function getAz4271Base(): ?float{
+    public function getAz4271Base(): ?float {
         return $this->az4271Base;
     }
 
@@ -2725,7 +2724,7 @@ class DecTva {
      *
      * @return float|null Returns the az4272.
      */
-    public function getAz4272(): ?float{
+    public function getAz4272(): ?float {
         return $this->az4272;
     }
 
@@ -2734,7 +2733,7 @@ class DecTva {
      *
      * @return float|null Returns the az4274.
      */
-    public function getAz4274(): ?float{
+    public function getAz4274(): ?float {
         return $this->az4274;
     }
 
@@ -2743,7 +2742,7 @@ class DecTva {
      *
      * @return float|null Returns the az4276.
      */
-    public function getAz4276(): ?float{
+    public function getAz4276(): ?float {
         return $this->az4276;
     }
 
@@ -2752,7 +2751,7 @@ class DecTva {
      *
      * @return float|null Returns the az4276 base.
      */
-    public function getAz4276Base(): ?float{
+    public function getAz4276Base(): ?float {
         return $this->az4276Base;
     }
 
@@ -2761,7 +2760,7 @@ class DecTva {
      *
      * @return float|null Returns the az4277.
      */
-    public function getAz4277(): ?float{
+    public function getAz4277(): ?float {
         return $this->az4277;
     }
 
@@ -2770,7 +2769,7 @@ class DecTva {
      *
      * @return float|null Returns the az4277 base.
      */
-    public function getAz4277Base(): ?float{
+    public function getAz4277Base(): ?float {
         return $this->az4277Base;
     }
 
@@ -2779,7 +2778,7 @@ class DecTva {
      *
      * @return string|null Returns the az50 code.
      */
-    public function getAz50Code(): ?string{
+    public function getAz50Code(): ?string {
         return $this->az50Code;
     }
 
@@ -2788,7 +2787,7 @@ class DecTva {
      *
      * @return string|null Returns the az50 lib.
      */
-    public function getAz50Lib(): ?string{
+    public function getAz50Lib(): ?string {
         return $this->az50Lib;
     }
 
@@ -2797,7 +2796,7 @@ class DecTva {
      *
      * @return float|null Returns the az50 mtt.
      */
-    public function getAz50Mtt(): ?float{
+    public function getAz50Mtt(): ?float {
         return $this->az50Mtt;
     }
 
@@ -2806,7 +2805,7 @@ class DecTva {
      *
      * @return string|null Returns the az59 code.
      */
-    public function getAz59Code(): ?string{
+    public function getAz59Code(): ?string {
         return $this->az59Code;
     }
 
@@ -2815,7 +2814,7 @@ class DecTva {
      *
      * @return string|null Returns the az59 lib.
      */
-    public function getAz59Lib(): ?string{
+    public function getAz59Lib(): ?string {
         return $this->az59Lib;
     }
 
@@ -2824,7 +2823,7 @@ class DecTva {
      *
      * @return float|null Returns the az59 mtt.
      */
-    public function getAz59Mtt(): ?float{
+    public function getAz59Mtt(): ?float {
         return $this->az59Mtt;
     }
 
@@ -2833,7 +2832,7 @@ class DecTva {
      *
      * @return string|null Returns the az en code.
      */
-    public function getAzEnCode(): ?string{
+    public function getAzEnCode(): ?string {
         return $this->azEnCode;
     }
 
@@ -2842,7 +2841,7 @@ class DecTva {
      *
      * @return string|null Returns the az en lib.
      */
-    public function getAzEnLib(): ?string{
+    public function getAzEnLib(): ?string {
         return $this->azEnLib;
     }
 
@@ -2851,7 +2850,7 @@ class DecTva {
      *
      * @return string|null Returns the az es code.
      */
-    public function getAzEsCode(): ?string{
+    public function getAzEsCode(): ?string {
         return $this->azEsCode;
     }
 
@@ -2860,7 +2859,7 @@ class DecTva {
      *
      * @return string|null Returns the az es lib.
      */
-    public function getAzEsLib(): ?string{
+    public function getAzEsLib(): ?string {
         return $this->azEsLib;
     }
 
@@ -2869,7 +2868,7 @@ class DecTva {
      *
      * @return float|null Returns the az es mtt.
      */
-    public function getAzEsMtt(): ?float{
+    public function getAzEsMtt(): ?float {
         return $this->azEsMtt;
     }
 
@@ -2878,7 +2877,7 @@ class DecTva {
      *
      * @return string|null Returns the az eu code.
      */
-    public function getAzEuCode(): ?string{
+    public function getAzEuCode(): ?string {
         return $this->azEuCode;
     }
 
@@ -2887,7 +2886,7 @@ class DecTva {
      *
      * @return string|null Returns the az eu lib.
      */
-    public function getAzEuLib(): ?string{
+    public function getAzEuLib(): ?string {
         return $this->azEuLib;
     }
 
@@ -2896,7 +2895,7 @@ class DecTva {
      *
      * @return float|null Returns the az eu mtt.
      */
-    public function getAzEuMtt(): ?float{
+    public function getAzEuMtt(): ?float {
         return $this->azEuMtt;
     }
 
@@ -2905,7 +2904,7 @@ class DecTva {
      *
      * @return string|null Returns the az ex code.
      */
-    public function getAzExCode(): ?string{
+    public function getAzExCode(): ?string {
         return $this->azExCode;
     }
 
@@ -2914,7 +2913,7 @@ class DecTva {
      *
      * @return string|null Returns the az ex lib.
      */
-    public function getAzExLib(): ?string{
+    public function getAzExLib(): ?string {
         return $this->azExLib;
     }
 
@@ -2923,7 +2922,7 @@ class DecTva {
      *
      * @return float|null Returns the az ex mtt.
      */
-    public function getAzExMtt(): ?float{
+    public function getAzExMtt(): ?float {
         return $this->azExMtt;
     }
 
@@ -2932,7 +2931,7 @@ class DecTva {
      *
      * @return string|null Returns the az ey code.
      */
-    public function getAzEyCode(): ?string{
+    public function getAzEyCode(): ?string {
         return $this->azEyCode;
     }
 
@@ -2941,7 +2940,7 @@ class DecTva {
      *
      * @return string|null Returns the az ey lib.
      */
-    public function getAzEyLib(): ?string{
+    public function getAzEyLib(): ?string {
         return $this->azEyLib;
     }
 
@@ -2950,7 +2949,7 @@ class DecTva {
      *
      * @return float|null Returns the az ey mtt.
      */
-    public function getAzEyMtt(): ?float{
+    public function getAzEyMtt(): ?float {
         return $this->azEyMtt;
     }
 
@@ -2959,7 +2958,7 @@ class DecTva {
      *
      * @return string|null Returns the az ez code.
      */
-    public function getAzEzCode(): ?string{
+    public function getAzEzCode(): ?string {
         return $this->azEzCode;
     }
 
@@ -2968,7 +2967,7 @@ class DecTva {
      *
      * @return string|null Returns the az ez lib.
      */
-    public function getAzEzLib(): ?string{
+    public function getAzEzLib(): ?string {
         return $this->azEzLib;
     }
 
@@ -2977,7 +2976,7 @@ class DecTva {
      *
      * @return float|null Returns the az ez mtt.
      */
-    public function getAzEzMtt(): ?float{
+    public function getAzEzMtt(): ?float {
         return $this->azEzMtt;
     }
 
@@ -2986,7 +2985,7 @@ class DecTva {
      *
      * @return string|null Returns the az ga code.
      */
-    public function getAzGaCode(): ?string{
+    public function getAzGaCode(): ?string {
         return $this->azGaCode;
     }
 
@@ -2995,7 +2994,7 @@ class DecTva {
      *
      * @return string|null Returns the az ga lib.
      */
-    public function getAzGaLib(): ?string{
+    public function getAzGaLib(): ?string {
         return $this->azGaLib;
     }
 
@@ -3004,7 +3003,7 @@ class DecTva {
      *
      * @return float|null Returns the az ga mtt.
      */
-    public function getAzGaMtt(): ?float{
+    public function getAzGaMtt(): ?float {
         return $this->azGaMtt;
     }
 
@@ -3013,7 +3012,7 @@ class DecTva {
      *
      * @return string|null Returns the az gc code.
      */
-    public function getAzGcCode(): ?string{
+    public function getAzGcCode(): ?string {
         return $this->azGcCode;
     }
 
@@ -3022,7 +3021,7 @@ class DecTva {
      *
      * @return string|null Returns the az gc lib.
      */
-    public function getAzGcLib(): ?string{
+    public function getAzGcLib(): ?string {
         return $this->azGcLib;
     }
 
@@ -3031,7 +3030,7 @@ class DecTva {
      *
      * @return float|null Returns the az gc mtt.
      */
-    public function getAzGcMtt(): ?float{
+    public function getAzGcMtt(): ?float {
         return $this->azGcMtt;
     }
 
@@ -3040,7 +3039,7 @@ class DecTva {
      *
      * @return float|null Returns the az hi.
      */
-    public function getAzHi(): ?float{
+    public function getAzHi(): ?float {
         return $this->azHi;
     }
 
@@ -3049,7 +3048,7 @@ class DecTva {
      *
      * @return float|null Returns the az hl.
      */
-    public function getAzHl(): ?float{
+    public function getAzHl(): ?float {
         return $this->azHl;
     }
 
@@ -3058,7 +3057,7 @@ class DecTva {
      *
      * @return float|null Returns the az jb.
      */
-    public function getAzJb(): ?float{
+    public function getAzJb(): ?float {
         return $this->azJb;
     }
 
@@ -3067,7 +3066,7 @@ class DecTva {
      *
      * @return float|null Returns the az jc.
      */
-    public function getAzJc(): ?float{
+    public function getAzJc(): ?float {
         return $this->azJc;
     }
 
@@ -3076,7 +3075,7 @@ class DecTva {
      *
      * @return float|null Returns the az ligne4 mtt.
      */
-    public function getAzLigne4Mtt(): ?float{
+    public function getAzLigne4Mtt(): ?float {
         return $this->azLigne4Mtt;
     }
 
@@ -3085,7 +3084,7 @@ class DecTva {
      *
      * @return float|null Returns the az ligne5 mtt.
      */
-    public function getAzLigne5Mtt(): ?float{
+    public function getAzLigne5Mtt(): ?float {
         return $this->azLigne5Mtt;
     }
 
@@ -3094,7 +3093,7 @@ class DecTva {
      *
      * @return int|null Returns the ca12 mois cloture.
      */
-    public function getCa12MoisCloture(): ?int{
+    public function getCa12MoisCloture(): ?int {
         return $this->ca12MoisCloture;
     }
 
@@ -3103,7 +3102,7 @@ class DecTva {
      *
      * @return string|null Returns the corres1.
      */
-    public function getCorres1(): ?string{
+    public function getCorres1(): ?string {
         return $this->corres1;
     }
 
@@ -3112,7 +3111,7 @@ class DecTva {
      *
      * @return string|null Returns the corres2.
      */
-    public function getCorres2(): ?string{
+    public function getCorres2(): ?string {
         return $this->corres2;
     }
 
@@ -3121,7 +3120,7 @@ class DecTva {
      *
      * @return string|null Returns the corres3.
      */
-    public function getCorres3(): ?string{
+    public function getCorres3(): ?string {
         return $this->corres3;
     }
 
@@ -3130,7 +3129,7 @@ class DecTva {
      *
      * @return string|null Returns the corres4.
      */
-    public function getCorres4(): ?string{
+    public function getCorres4(): ?string {
         return $this->corres4;
     }
 
@@ -3139,7 +3138,7 @@ class DecTva {
      *
      * @return string|null Returns the corres5.
      */
-    public function getCorres5(): ?string{
+    public function getCorres5(): ?string {
         return $this->corres5;
     }
 
@@ -3148,7 +3147,7 @@ class DecTva {
      *
      * @return string|null Returns the corres6.
      */
-    public function getCorres6(): ?string{
+    public function getCorres6(): ?string {
         return $this->corres6;
     }
 
@@ -3157,7 +3156,7 @@ class DecTva {
      *
      * @return string|null Returns the corres7.
      */
-    public function getCorres7(): ?string{
+    public function getCorres7(): ?string {
         return $this->corres7;
     }
 
@@ -3166,7 +3165,7 @@ class DecTva {
      *
      * @return string|null Returns the corres8.
      */
-    public function getCorres8(): ?string{
+    public function getCorres8(): ?string {
         return $this->corres8;
     }
 
@@ -3175,7 +3174,7 @@ class DecTva {
      *
      * @return bool|null Returns the credit compte.
      */
-    public function getCreditCompte(): ?bool{
+    public function getCreditCompte(): ?bool {
         return $this->creditCompte;
     }
 
@@ -3184,7 +3183,7 @@ class DecTva {
      *
      * @return bool|null Returns the credit imputer.
      */
-    public function getCreditImputer(): ?bool{
+    public function getCreditImputer(): ?bool {
         return $this->creditImputer;
     }
 
@@ -3193,7 +3192,7 @@ class DecTva {
      *
      * @return string|null Returns the date dec.
      */
-    public function getDateDec(): ?string{
+    public function getDateDec(): ?string {
         return $this->dateDec;
     }
 
@@ -3202,7 +3201,7 @@ class DecTva {
      *
      * @return bool|null Returns the flg ac.
      */
-    public function getFlgAc(): ?bool{
+    public function getFlgAc(): ?bool {
         return $this->flgAc;
     }
 
@@ -3211,7 +3210,7 @@ class DecTva {
      *
      * @return bool|null Returns the gen auto.
      */
-    public function getGenAuto(): ?bool{
+    public function getGenAuto(): ?bool {
         return $this->genAuto;
     }
 
@@ -3220,7 +3219,7 @@ class DecTva {
      *
      * @return float|null Returns the ht taux196.
      */
-    public function getHtTaux196(): ?float{
+    public function getHtTaux196(): ?float {
         return $this->htTaux196;
     }
 
@@ -3229,7 +3228,7 @@ class DecTva {
      *
      * @return float|null Returns the ht taux7.
      */
-    public function getHtTaux7(): ?float{
+    public function getHtTaux7(): ?float {
         return $this->htTaux7;
     }
 
@@ -3238,7 +3237,7 @@ class DecTva {
      *
      * @return string|null Returns the liqui taxes1.
      */
-    public function getLiquiTaxes1(): ?string{
+    public function getLiquiTaxes1(): ?string {
         return $this->liquiTaxes1;
     }
 
@@ -3247,7 +3246,7 @@ class DecTva {
      *
      * @return string|null Returns the liqui taxes2.
      */
-    public function getLiquiTaxes2(): ?string{
+    public function getLiquiTaxes2(): ?string {
         return $this->liquiTaxes2;
     }
 
@@ -3256,7 +3255,7 @@ class DecTva {
      *
      * @return string|null Returns the liqui taxes3.
      */
-    public function getLiquiTaxes3(): ?string{
+    public function getLiquiTaxes3(): ?string {
         return $this->liquiTaxes3;
     }
 
@@ -3265,7 +3264,7 @@ class DecTva {
      *
      * @return string|null Returns the liqui taxes4.
      */
-    public function getLiquiTaxes4(): ?string{
+    public function getLiquiTaxes4(): ?string {
         return $this->liquiTaxes4;
     }
 
@@ -3274,7 +3273,7 @@ class DecTva {
      *
      * @return string|null Returns the liqui taxes5.
      */
-    public function getLiquiTaxes5(): ?string{
+    public function getLiquiTaxes5(): ?string {
         return $this->liquiTaxes5;
     }
 
@@ -3283,7 +3282,7 @@ class DecTva {
      *
      * @return bool|null Returns the mention expresse.
      */
-    public function getMentionExpresse(): ?bool{
+    public function getMentionExpresse(): ?bool {
         return $this->mentionExpresse;
     }
 
@@ -3292,7 +3291,7 @@ class DecTva {
      *
      * @return string|null Returns the monnaie.
      */
-    public function getMonnaie(): ?string{
+    public function getMonnaie(): ?string {
         return $this->monnaie;
     }
 
@@ -3301,7 +3300,7 @@ class DecTva {
      *
      * @return string|null Returns the monnaie tenue.
      */
-    public function getMonnaieTenue(): ?string{
+    public function getMonnaieTenue(): ?string {
         return $this->monnaieTenue;
     }
 
@@ -3310,7 +3309,7 @@ class DecTva {
      *
      * @return int|null Returns the no lot ecritures.
      */
-    public function getNoLotEcritures(): ?int{
+    public function getNoLotEcritures(): ?int {
         return $this->noLotEcritures;
     }
 
@@ -3319,7 +3318,7 @@ class DecTva {
      *
      * @return float|null Returns the p cent.
      */
-    public function getPCent(): ?float{
+    public function getPCent(): ?float {
         return $this->pCent;
     }
 
@@ -3328,7 +3327,7 @@ class DecTva {
      *
      * @return bool|null Returns the paiement imputation.
      */
-    public function getPaiementImputation(): ?bool{
+    public function getPaiementImputation(): ?bool {
         return $this->paiementImputation;
     }
 
@@ -3337,8 +3336,17 @@ class DecTva {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
+    }
+
+    /**
+     * Get the report acp.
+     *
+     * @return float|null Returns the report acp.
+     */
+    public function getReportAcp(): ?float {
+        return $this->reportAcp;
     }
 
     /**
@@ -3346,7 +3354,7 @@ class DecTva {
      *
      * @return string|null Returns the rib titulaire1.
      */
-    public function getRibTitulaire1(): ?string{
+    public function getRibTitulaire1(): ?string {
         return $this->ribTitulaire1;
     }
 
@@ -3355,17 +3363,8 @@ class DecTva {
      *
      * @return string|null Returns the rib titulaire2.
      */
-    public function getRibTitulaire2(): ?string{
+    public function getRibTitulaire2(): ?string {
         return $this->ribTitulaire2;
-    }
-
-    /**
-     * Get the report acp.
-     *
-     * @return float|null Returns the report acp.
-     */
-    public function getReportAcp(): ?float{
-        return $this->reportAcp;
     }
 
     /**
@@ -3373,7 +3372,7 @@ class DecTva {
      *
      * @return string|null Returns the sel adresse dest.
      */
-    public function getSelAdresseDest(): ?string{
+    public function getSelAdresseDest(): ?string {
         return $this->selAdresseDest;
     }
 
@@ -3382,7 +3381,7 @@ class DecTva {
      *
      * @return float|null Returns the total.
      */
-    public function getTotal(): ?float{
+    public function getTotal(): ?float {
         return $this->total;
     }
 
@@ -3391,7 +3390,7 @@ class DecTva {
      *
      * @return int|null Returns the type reglement.
      */
-    public function getTypeReglement(): ?int{
+    public function getTypeReglement(): ?int {
         return $this->typeReglement;
     }
 
@@ -3400,7 +3399,7 @@ class DecTva {
      *
      * @return string|null Returns the ville.
      */
-    public function getVille(): ?string{
+    public function getVille(): ?string {
         return $this->ville;
     }
 
@@ -3409,7 +3408,7 @@ class DecTva {
      *
      * @return float|null Returns the z0031.
      */
-    public function getZ0031(): ?float{
+    public function getZ0031(): ?float {
         return $this->z0031;
     }
 
@@ -3418,7 +3417,7 @@ class DecTva {
      *
      * @return float|null Returns the z0031b.
      */
-    public function getZ0031b(): ?float{
+    public function getZ0031b(): ?float {
         return $this->z0031b;
     }
 
@@ -3427,7 +3426,7 @@ class DecTva {
      *
      * @return float|null Returns the z0032.
      */
-    public function getZ0032(): ?float{
+    public function getZ0032(): ?float {
         return $this->z0032;
     }
 
@@ -3436,7 +3435,7 @@ class DecTva {
      *
      * @return float|null Returns the z0033.
      */
-    public function getZ0033(): ?float{
+    public function getZ0033(): ?float {
         return $this->z0033;
     }
 
@@ -3445,7 +3444,7 @@ class DecTva {
      *
      * @return float|null Returns the z0034.
      */
-    public function getZ0034(): ?float{
+    public function getZ0034(): ?float {
         return $this->z0034;
     }
 
@@ -3454,7 +3453,7 @@ class DecTva {
      *
      * @return float|null Returns the z0035.
      */
-    public function getZ0035(): ?float{
+    public function getZ0035(): ?float {
         return $this->z0035;
     }
 
@@ -3463,7 +3462,7 @@ class DecTva {
      *
      * @return float|null Returns the z0037.
      */
-    public function getZ0037(): ?float{
+    public function getZ0037(): ?float {
         return $this->z0037;
     }
 
@@ -3472,7 +3471,7 @@ class DecTva {
      *
      * @return float|null Returns the z0038.
      */
-    public function getZ0038(): ?float{
+    public function getZ0038(): ?float {
         return $this->z0038;
     }
 
@@ -3481,7 +3480,7 @@ class DecTva {
      *
      * @return float|null Returns the z0040.
      */
-    public function getZ0040(): ?float{
+    public function getZ0040(): ?float {
         return $this->z0040;
     }
 
@@ -3490,7 +3489,7 @@ class DecTva {
      *
      * @return float|null Returns the z0040b.
      */
-    public function getZ0040b(): ?float{
+    public function getZ0040b(): ?float {
         return $this->z0040b;
     }
 
@@ -3499,7 +3498,7 @@ class DecTva {
      *
      * @return float|null Returns the z0041.
      */
-    public function getZ0041(): ?float{
+    public function getZ0041(): ?float {
         return $this->z0041;
     }
 
@@ -3508,7 +3507,7 @@ class DecTva {
      *
      * @return float|null Returns the z01.
      */
-    public function getZ01(): ?float{
+    public function getZ01(): ?float {
         return $this->z01;
     }
 
@@ -3517,7 +3516,7 @@ class DecTva {
      *
      * @return float|null Returns the z0100.
      */
-    public function getZ0100(): ?float{
+    public function getZ0100(): ?float {
         return $this->z0100;
     }
 
@@ -3526,8 +3525,17 @@ class DecTva {
      *
      * @return float|null Returns the z0100b.
      */
-    public function getZ0100b(): ?float{
+    public function getZ0100b(): ?float {
         return $this->z0100b;
+    }
+
+    /**
+     * Get the z0121b.
+     *
+     * @return float|null Returns the z0121b.
+     */
+    public function getZ0121b(): ?float {
+        return $this->z0121b;
     }
 
     /**
@@ -3535,7 +3543,7 @@ class DecTva {
      *
      * @return float|null Returns the z02.
      */
-    public function getZ02(): ?float{
+    public function getZ02(): ?float {
         return $this->z02;
     }
 
@@ -3544,7 +3552,7 @@ class DecTva {
      *
      * @return float|null Returns the z0200.
      */
-    public function getZ0200(): ?float{
+    public function getZ0200(): ?float {
         return $this->z0200;
     }
 
@@ -3553,7 +3561,7 @@ class DecTva {
      *
      * @return float|null Returns the z0200b.
      */
-    public function getZ0200b(): ?float{
+    public function getZ0200b(): ?float {
         return $this->z0200b;
     }
 
@@ -3562,7 +3570,7 @@ class DecTva {
      *
      * @return float|null Returns the z0205.
      */
-    public function getZ0205(): ?float{
+    public function getZ0205(): ?float {
         return $this->z0205;
     }
 
@@ -3571,7 +3579,7 @@ class DecTva {
      *
      * @return float|null Returns the z0205b.
      */
-    public function getZ0205b(): ?float{
+    public function getZ0205b(): ?float {
         return $this->z0205b;
     }
 
@@ -3580,7 +3588,7 @@ class DecTva {
      *
      * @return float|null Returns the z0600.
      */
-    public function getZ0600(): ?float{
+    public function getZ0600(): ?float {
         return $this->z0600;
     }
 
@@ -3589,7 +3597,7 @@ class DecTva {
      *
      * @return float|null Returns the z0701.
      */
-    public function getZ0701(): ?float{
+    public function getZ0701(): ?float {
         return $this->z0701;
     }
 
@@ -3598,7 +3606,7 @@ class DecTva {
      *
      * @return float|null Returns the z0702.
      */
-    public function getZ0702(): ?float{
+    public function getZ0702(): ?float {
         return $this->z0702;
     }
 
@@ -3607,7 +3615,7 @@ class DecTva {
      *
      * @return float|null Returns the z0702b.
      */
-    public function getZ0702b(): ?float{
+    public function getZ0702b(): ?float {
         return $this->z0702b;
     }
 
@@ -3616,7 +3624,7 @@ class DecTva {
      *
      * @return float|null Returns the z0703.
      */
-    public function getZ0703(): ?float{
+    public function getZ0703(): ?float {
         return $this->z0703;
     }
 
@@ -3625,7 +3633,7 @@ class DecTva {
      *
      * @return float|null Returns the z0703b.
      */
-    public function getZ0703b(): ?float{
+    public function getZ0703b(): ?float {
         return $this->z0703b;
     }
 
@@ -3634,7 +3642,7 @@ class DecTva {
      *
      * @return float|null Returns the z0705.
      */
-    public function getZ0705(): ?float{
+    public function getZ0705(): ?float {
         return $this->z0705;
     }
 
@@ -3643,7 +3651,7 @@ class DecTva {
      *
      * @return float|null Returns the z0900.
      */
-    public function getZ0900(): ?float{
+    public function getZ0900(): ?float {
         return $this->z0900;
     }
 
@@ -3652,7 +3660,7 @@ class DecTva {
      *
      * @return float|null Returns the z0900b.
      */
-    public function getZ0900b(): ?float{
+    public function getZ0900b(): ?float {
         return $this->z0900b;
     }
 
@@ -3661,7 +3669,7 @@ class DecTva {
      *
      * @return float|null Returns the z0920.
      */
-    public function getZ0920(): ?float{
+    public function getZ0920(): ?float {
         return $this->z0920;
     }
 
@@ -3670,7 +3678,7 @@ class DecTva {
      *
      * @return float|null Returns the z0920b.
      */
-    public function getZ0920b(): ?float{
+    public function getZ0920b(): ?float {
         return $this->z0920b;
     }
 
@@ -3679,7 +3687,7 @@ class DecTva {
      *
      * @return float|null Returns the z0950.
      */
-    public function getZ0950(): ?float{
+    public function getZ0950(): ?float {
         return $this->z0950;
     }
 
@@ -3688,296 +3696,8 @@ class DecTva {
      *
      * @return float|null Returns the z0950b.
      */
-    public function getZ0950b(): ?float{
+    public function getZ0950b(): ?float {
         return $this->z0950b;
-    }
-
-    /**
-     * Get the z14.
-     *
-     * @return float|null Returns the z14.
-     */
-    public function getZ14(): ?float{
-        return $this->z14;
-    }
-
-    /**
-     * Get the z18.
-     *
-     * @return float|null Returns the z18.
-     */
-    public function getZ18(): ?float{
-        return $this->z18;
-    }
-
-    /**
-     * Get the z196.
-     *
-     * @return float|null Returns the z196.
-     */
-    public function getZ196(): ?float{
-        return $this->z196;
-    }
-
-    /**
-     * Get the z196b.
-     *
-     * @return float|null Returns the z196b.
-     */
-    public function getZ196b(): ?float{
-        return $this->z196b;
-    }
-
-    /**
-     * Get the z21.
-     *
-     * @return float|null Returns the z21.
-     */
-    public function getZ21(): ?float{
-        return $this->z21;
-    }
-
-    /**
-     * Get the z25.
-     *
-     * @return float|null Returns the z25.
-     */
-    public function getZ25(): ?float{
-        return $this->z25;
-    }
-
-    /**
-     * Get the z8001.
-     *
-     * @return float|null Returns the z8001.
-     */
-    public function getZ8001(): ?float{
-        return $this->z8001;
-    }
-
-    /**
-     * Get the z8002.
-     *
-     * @return float|null Returns the z8002.
-     */
-    public function getZ8002(): ?float{
-        return $this->z8002;
-    }
-
-    /**
-     * Get the z8003.
-     *
-     * @return float|null Returns the z8003.
-     */
-    public function getZ8003(): ?float{
-        return $this->z8003;
-    }
-
-    /**
-     * Get the z8003c.
-     *
-     * @return float|null Returns the z8003c.
-     */
-    public function getZ8003c(): ?float{
-        return $this->z8003c;
-    }
-
-    /**
-     * Get the z8005.
-     *
-     * @return float|null Returns the z8005.
-     */
-    public function getZ8005(): ?float{
-        return $this->z8005;
-    }
-
-    /**
-     * Get the z9979.
-     *
-     * @return float|null Returns the z9979.
-     */
-    public function getZ9979(): ?float{
-        return $this->z9979;
-    }
-
-    /**
-     * Get the z9989.
-     *
-     * @return float|null Returns the z9989.
-     */
-    public function getZ9989(): ?float{
-        return $this->z9989;
-    }
-
-    /**
-     * Get the z9991.
-     *
-     * @return float|null Returns the z9991.
-     */
-    public function getZ9991(): ?float{
-        return $this->z9991;
-    }
-
-    /**
-     * Get the z9999.
-     *
-     * @return float|null Returns the z9999.
-     */
-    public function getZ9999(): ?float{
-        return $this->z9999;
-    }
-
-    /**
-     * Get the b groupe.
-     *
-     * @return bool|null Returns the b groupe.
-     */
-    public function getbGroupe(): ?bool{
-        return $this->bGroupe;
-    }
-
-    /**
-     * Get the z0029.
-     *
-     * @return float|null Returns the z0029.
-     */
-    public function getz0029(): ?float{
-        return $this->z0029;
-    }
-
-    /**
-     * Get the z0030.
-     *
-     * @return float|null Returns the z0030.
-     */
-    public function getz0030(): ?float{
-        return $this->z0030;
-    }
-
-    /**
-     * Get the z0036.
-     *
-     * @return float|null Returns the z0036.
-     */
-    public function getz0036(): ?float{
-        return $this->z0036;
-    }
-
-    /**
-     * Get the z0039.
-     *
-     * @return float|null Returns the z0039.
-     */
-    public function getz0039(): ?float{
-        return $this->z0039;
-    }
-
-    /**
-     * Get the z0044.
-     *
-     * @return float|null Returns the z0044.
-     */
-    public function getz0044(): ?float{
-        return $this->z0044;
-    }
-
-    /**
-     * Get the z0044b.
-     *
-     * @return float|null Returns the z0044b.
-     */
-    public function getz0044b(): ?float{
-        return $this->z0044b;
-    }
-
-    /**
-     * Get the z0045.
-     *
-     * @return float|null Returns the z0045.
-     */
-    public function getz0045(): ?float{
-        return $this->z0045;
-    }
-
-    /**
-     * Get the z0046.
-     *
-     * @return float|null Returns the z0046.
-     */
-    public function getz0046(): ?float{
-        return $this->z0046;
-    }
-
-    /**
-     * Get the z0059b.
-     *
-     * @return float|null Returns the z0059b.
-     */
-    public function getz0059b(): ?float{
-        return $this->z0059b;
-    }
-
-    /**
-     * Get the z0121.
-     *
-     * @return float|null Returns the z0121.
-     */
-    public function getz0121(): ?float{
-        return $this->z0121;
-    }
-
-    /**
-     * Get the z0121b.
-     *
-     * @return float|null Returns the z0121b.
-     */
-    public function getZ0121b(): ?float{
-        return $this->z0121b;
-    }
-
-    /**
-     * Get the z0151.
-     *
-     * @return float|null Returns the z0151.
-     */
-    public function getz0151(): ?float{
-        return $this->z0151;
-    }
-
-    /**
-     * Get the z0151b.
-     *
-     * @return float|null Returns the z0151b.
-     */
-    public function getz0151b(): ?float{
-        return $this->z0151b;
-    }
-
-    /**
-     * Get the z0207.
-     *
-     * @return float|null Returns the z0207.
-     */
-    public function getz0207(): ?float{
-        return $this->z0207;
-    }
-
-    /**
-     * Get the z0207b.
-     *
-     * @return float|null Returns the z0207b.
-     */
-    public function getz0207b(): ?float{
-        return $this->z0207b;
-    }
-
-    /**
-     * Get the z0709.
-     *
-     * @return float|null Returns the z0709.
-     */
-    public function getz0709(): ?float{
-        return $this->z0709;
     }
 
     /**
@@ -3985,17 +3705,8 @@ class DecTva {
      *
      * @return string|null Returns the z12 code.
      */
-    public function getZ12Code(): ?string{
+    public function getZ12Code(): ?string {
         return $this->z12Code;
-    }
-
-    /**
-     * Get the z12 ht.
-     *
-     * @return float|null Returns the z12 ht.
-     */
-    public function getz12Ht(): ?float{
-        return $this->z12Ht;
     }
 
     /**
@@ -4003,7 +3714,7 @@ class DecTva {
      *
      * @return string|null Returns the z12 lib.
      */
-    public function getZ12Lib(): ?string{
+    public function getZ12Lib(): ?string {
         return $this->z12Lib;
     }
 
@@ -4012,8 +3723,62 @@ class DecTva {
      *
      * @return float|null Returns the z12 taxe.
      */
-    public function getZ12Taxe(): ?float{
+    public function getZ12Taxe(): ?float {
         return $this->z12Taxe;
+    }
+
+    /**
+     * Get the z14.
+     *
+     * @return float|null Returns the z14.
+     */
+    public function getZ14(): ?float {
+        return $this->z14;
+    }
+
+    /**
+     * Get the z18.
+     *
+     * @return float|null Returns the z18.
+     */
+    public function getZ18(): ?float {
+        return $this->z18;
+    }
+
+    /**
+     * Get the z196.
+     *
+     * @return float|null Returns the z196.
+     */
+    public function getZ196(): ?float {
+        return $this->z196;
+    }
+
+    /**
+     * Get the z196b.
+     *
+     * @return float|null Returns the z196b.
+     */
+    public function getZ196b(): ?float {
+        return $this->z196b;
+    }
+
+    /**
+     * Get the z21.
+     *
+     * @return float|null Returns the z21.
+     */
+    public function getZ21(): ?float {
+        return $this->z21;
+    }
+
+    /**
+     * Get the z25.
+     *
+     * @return float|null Returns the z25.
+     */
+    public function getZ25(): ?float {
+        return $this->z25;
     }
 
     /**
@@ -4021,8 +3786,251 @@ class DecTva {
      *
      * @return float|null Returns the z4227.
      */
-    public function getZ4227(): ?float{
+    public function getZ4227(): ?float {
         return $this->z4227;
+    }
+
+    /**
+     * Get the z8001.
+     *
+     * @return float|null Returns the z8001.
+     */
+    public function getZ8001(): ?float {
+        return $this->z8001;
+    }
+
+    /**
+     * Get the z8002.
+     *
+     * @return float|null Returns the z8002.
+     */
+    public function getZ8002(): ?float {
+        return $this->z8002;
+    }
+
+    /**
+     * Get the z8003.
+     *
+     * @return float|null Returns the z8003.
+     */
+    public function getZ8003(): ?float {
+        return $this->z8003;
+    }
+
+    /**
+     * Get the z8003c.
+     *
+     * @return float|null Returns the z8003c.
+     */
+    public function getZ8003c(): ?float {
+        return $this->z8003c;
+    }
+
+    /**
+     * Get the z8005.
+     *
+     * @return float|null Returns the z8005.
+     */
+    public function getZ8005(): ?float {
+        return $this->z8005;
+    }
+
+    /**
+     * Get the z9979.
+     *
+     * @return float|null Returns the z9979.
+     */
+    public function getZ9979(): ?float {
+        return $this->z9979;
+    }
+
+    /**
+     * Get the z9989.
+     *
+     * @return float|null Returns the z9989.
+     */
+    public function getZ9989(): ?float {
+        return $this->z9989;
+    }
+
+    /**
+     * Get the z9991.
+     *
+     * @return float|null Returns the z9991.
+     */
+    public function getZ9991(): ?float {
+        return $this->z9991;
+    }
+
+    /**
+     * Get the z9999.
+     *
+     * @return float|null Returns the z9999.
+     */
+    public function getZ9999(): ?float {
+        return $this->z9999;
+    }
+
+    /**
+     * Get the z9 b taxe.
+     *
+     * @return float|null Returns the z9 b taxe.
+     */
+    public function getZ9BTaxe(): ?float {
+        return $this->z9BTaxe;
+    }
+
+    /**
+     * Get the b groupe.
+     *
+     * @return bool|null Returns the b groupe.
+     */
+    public function getbGroupe(): ?bool {
+        return $this->bGroupe;
+    }
+
+    /**
+     * Get the z0029.
+     *
+     * @return float|null Returns the z0029.
+     */
+    public function getz0029(): ?float {
+        return $this->z0029;
+    }
+
+    /**
+     * Get the z0030.
+     *
+     * @return float|null Returns the z0030.
+     */
+    public function getz0030(): ?float {
+        return $this->z0030;
+    }
+
+    /**
+     * Get the z0036.
+     *
+     * @return float|null Returns the z0036.
+     */
+    public function getz0036(): ?float {
+        return $this->z0036;
+    }
+
+    /**
+     * Get the z0039.
+     *
+     * @return float|null Returns the z0039.
+     */
+    public function getz0039(): ?float {
+        return $this->z0039;
+    }
+
+    /**
+     * Get the z0044.
+     *
+     * @return float|null Returns the z0044.
+     */
+    public function getz0044(): ?float {
+        return $this->z0044;
+    }
+
+    /**
+     * Get the z0044b.
+     *
+     * @return float|null Returns the z0044b.
+     */
+    public function getz0044b(): ?float {
+        return $this->z0044b;
+    }
+
+    /**
+     * Get the z0045.
+     *
+     * @return float|null Returns the z0045.
+     */
+    public function getz0045(): ?float {
+        return $this->z0045;
+    }
+
+    /**
+     * Get the z0046.
+     *
+     * @return float|null Returns the z0046.
+     */
+    public function getz0046(): ?float {
+        return $this->z0046;
+    }
+
+    /**
+     * Get the z0059b.
+     *
+     * @return float|null Returns the z0059b.
+     */
+    public function getz0059b(): ?float {
+        return $this->z0059b;
+    }
+
+    /**
+     * Get the z0121.
+     *
+     * @return float|null Returns the z0121.
+     */
+    public function getz0121(): ?float {
+        return $this->z0121;
+    }
+
+    /**
+     * Get the z0151.
+     *
+     * @return float|null Returns the z0151.
+     */
+    public function getz0151(): ?float {
+        return $this->z0151;
+    }
+
+    /**
+     * Get the z0151b.
+     *
+     * @return float|null Returns the z0151b.
+     */
+    public function getz0151b(): ?float {
+        return $this->z0151b;
+    }
+
+    /**
+     * Get the z0207.
+     *
+     * @return float|null Returns the z0207.
+     */
+    public function getz0207(): ?float {
+        return $this->z0207;
+    }
+
+    /**
+     * Get the z0207b.
+     *
+     * @return float|null Returns the z0207b.
+     */
+    public function getz0207b(): ?float {
+        return $this->z0207b;
+    }
+
+    /**
+     * Get the z0709.
+     *
+     * @return float|null Returns the z0709.
+     */
+    public function getz0709(): ?float {
+        return $this->z0709;
+    }
+
+    /**
+     * Get the z12 ht.
+     *
+     * @return float|null Returns the z12 ht.
+     */
+    public function getz12Ht(): ?float {
+        return $this->z12Ht;
     }
 
     /**
@@ -4030,7 +4038,7 @@ class DecTva {
      *
      * @return string|null Returns the z9b code.
      */
-    public function getz9bCode(): ?string{
+    public function getz9bCode(): ?string {
         return $this->z9bCode;
     }
 
@@ -4039,7 +4047,7 @@ class DecTva {
      *
      * @return float|null Returns the z9b ht.
      */
-    public function getz9bHt(): ?float{
+    public function getz9bHt(): ?float {
         return $this->z9bHt;
     }
 
@@ -4048,17 +4056,8 @@ class DecTva {
      *
      * @return string|null Returns the z9b lib.
      */
-    public function getz9bLib(): ?string{
+    public function getz9bLib(): ?string {
         return $this->z9bLib;
-    }
-
-    /**
-     * Get the z9 b taxe.
-     *
-     * @return float|null Returns the z9 b taxe.
-     */
-    public function getZ9BTaxe(): ?float{
-        return $this->z9BTaxe;
     }
 
     /**
@@ -5954,6 +5953,17 @@ class DecTva {
     }
 
     /**
+     * Set the report acp.
+     *
+     * @param float|null $reportAcp The report acp.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setReportAcp(?float $reportAcp): DecTva {
+        $this->reportAcp = $reportAcp;
+        return $this;
+    }
+
+    /**
      * Set the rib titulaire1.
      *
      * @param string|null $ribTitulaire1 The rib titulaire1.
@@ -5972,17 +5982,6 @@ class DecTva {
      */
     public function setRibTitulaire2(?string $ribTitulaire2): DecTva {
         $this->ribTitulaire2 = $ribTitulaire2;
-        return $this;
-    }
-
-    /**
-     * Set the report acp.
-     *
-     * @param float|null $reportAcp The report acp.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setReportAcp(?float $reportAcp): DecTva {
-        $this->reportAcp = $reportAcp;
         return $this;
     }
 
@@ -6185,6 +6184,17 @@ class DecTva {
     }
 
     /**
+     * Set the z0121b.
+     *
+     * @param float|null $z0121b The z0121b.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setZ0121b(?float $z0121b): DecTva {
+        $this->z0121b = $z0121b;
+        return $this;
+    }
+
+    /**
      * Set the z02.
      *
      * @param float|null $z02 The z02.
@@ -6383,6 +6393,39 @@ class DecTva {
     }
 
     /**
+     * Set the z12 code.
+     *
+     * @param string|null $z12Code The z12 code.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setZ12Code(?string $z12Code): DecTva {
+        $this->z12Code = $z12Code;
+        return $this;
+    }
+
+    /**
+     * Set the z12 lib.
+     *
+     * @param string|null $z12Lib The z12 lib.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setZ12Lib(?string $z12Lib): DecTva {
+        $this->z12Lib = $z12Lib;
+        return $this;
+    }
+
+    /**
+     * Set the z12 taxe.
+     *
+     * @param float|null $z12Taxe The z12 taxe.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setZ12Taxe(?float $z12Taxe): DecTva {
+        $this->z12Taxe = $z12Taxe;
+        return $this;
+    }
+
+    /**
      * Set the z14.
      *
      * @param float|null $z14 The z14.
@@ -6445,6 +6488,17 @@ class DecTva {
      */
     public function setZ25(?float $z25): DecTva {
         $this->z25 = $z25;
+        return $this;
+    }
+
+    /**
+     * Set the z4227.
+     *
+     * @param float|null $z4227 The z4227.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setZ4227(?float $z4227): DecTva {
+        $this->z4227 = $z4227;
         return $this;
     }
 
@@ -6544,6 +6598,17 @@ class DecTva {
      */
     public function setZ9999(?float $z9999): DecTva {
         $this->z9999 = $z9999;
+        return $this;
+    }
+
+    /**
+     * Set the z9 b taxe.
+     *
+     * @param float|null $z9BTaxe The z9 b taxe.
+     * @return DecTva Returns this Dec tva.
+     */
+    public function setZ9BTaxe(?float $z9BTaxe): DecTva {
+        $this->z9BTaxe = $z9BTaxe;
         return $this;
     }
 
@@ -6669,17 +6734,6 @@ class DecTva {
     }
 
     /**
-     * Set the z0121b.
-     *
-     * @param float|null $z0121b The z0121b.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setZ0121b(?float $z0121b): DecTva {
-        $this->z0121b = $z0121b;
-        return $this;
-    }
-
-    /**
      * Set the z0151.
      *
      * @param float|null $z0151 The z0151.
@@ -6735,17 +6789,6 @@ class DecTva {
     }
 
     /**
-     * Set the z12 code.
-     *
-     * @param string|null $z12Code The z12 code.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setZ12Code(?string $z12Code): DecTva {
-        $this->z12Code = $z12Code;
-        return $this;
-    }
-
-    /**
      * Set the z12 ht.
      *
      * @param float|null $z12Ht The z12 ht.
@@ -6753,39 +6796,6 @@ class DecTva {
      */
     public function setz12Ht(?float $z12Ht): DecTva {
         $this->z12Ht = $z12Ht;
-        return $this;
-    }
-
-    /**
-     * Set the z12 lib.
-     *
-     * @param string|null $z12Lib The z12 lib.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setZ12Lib(?string $z12Lib): DecTva {
-        $this->z12Lib = $z12Lib;
-        return $this;
-    }
-
-    /**
-     * Set the z12 taxe.
-     *
-     * @param float|null $z12Taxe The z12 taxe.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setZ12Taxe(?float $z12Taxe): DecTva {
-        $this->z12Taxe = $z12Taxe;
-        return $this;
-    }
-
-    /**
-     * Set the z4227.
-     *
-     * @param float|null $z4227 The z4227.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setZ4227(?float $z4227): DecTva {
-        $this->z4227 = $z4227;
         return $this;
     }
 
@@ -6819,17 +6829,6 @@ class DecTva {
      */
     public function setz9bLib(?string $z9bLib): DecTva {
         $this->z9bLib = $z9bLib;
-        return $this;
-    }
-
-    /**
-     * Set the z9 b taxe.
-     *
-     * @param float|null $z9BTaxe The z9 b taxe.
-     * @return DecTva Returns this Dec tva.
-     */
-    public function setZ9BTaxe(?float $z9BTaxe): DecTva {
-        $this->z9BTaxe = $z9BTaxe;
         return $this;
     }
 }

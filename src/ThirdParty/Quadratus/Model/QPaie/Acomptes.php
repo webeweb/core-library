@@ -119,7 +119,6 @@ class Acomptes {
      */
     private $typePaiement;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class Acomptes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -141,7 +140,7 @@ class Acomptes {
      *
      * @return string|null Returns the code user.
      */
-    public function getCodeUser(): ?string{
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
@@ -150,7 +149,7 @@ class Acomptes {
      *
      * @return bool|null Returns the conges payes.
      */
-    public function getCongesPayes(): ?bool{
+    public function getCongesPayes(): ?bool {
         return $this->congesPayes;
     }
 
@@ -159,7 +158,7 @@ class Acomptes {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -168,7 +167,7 @@ class Acomptes {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded(): ?DateTime{
+    public function getDateAdded(): ?DateTime {
         return $this->dateAdded;
     }
 
@@ -177,7 +176,7 @@ class Acomptes {
      *
      * @return DateTime|null Returns the date added coll.
      */
-    public function getDateAddedColl(): ?DateTime{
+    public function getDateAddedColl(): ?DateTime {
         return $this->dateAddedColl;
     }
 
@@ -186,7 +185,7 @@ class Acomptes {
      *
      * @return bool|null Returns the en euro.
      */
-    public function getEnEuro(): ?bool{
+    public function getEnEuro(): ?bool {
         return $this->enEuro;
     }
 
@@ -195,7 +194,7 @@ class Acomptes {
      *
      * @return bool|null Returns the in bul.
      */
-    public function getInBul(): ?bool{
+    public function getInBul(): ?bool {
         return $this->inBul;
     }
 
@@ -204,7 +203,7 @@ class Acomptes {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -213,7 +212,7 @@ class Acomptes {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -222,7 +221,7 @@ class Acomptes {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -231,7 +230,7 @@ class Acomptes {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -240,7 +239,7 @@ class Acomptes {
      *
      * @return bool|null Returns the paye.
      */
-    public function getPaye(): ?bool{
+    public function getPaye(): ?bool {
         return $this->paye;
     }
 
@@ -249,7 +248,7 @@ class Acomptes {
      *
      * @return string|null Returns the type paiement.
      */
-    public function getTypePaiement(): ?string{
+    public function getTypePaiement(): ?string {
         return $this->typePaiement;
     }
 

@@ -77,7 +77,6 @@ class PlanObligationClient {
      */
     private $quiLeFait;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class PlanObligationClient {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -99,7 +98,7 @@ class PlanObligationClient {
      *
      * @return string|null Returns the code collab specif.
      */
-    public function getCodeCollabSpecif(): ?string{
+    public function getCodeCollabSpecif(): ?string {
         return $this->codeCollabSpecif;
     }
 
@@ -108,7 +107,7 @@ class PlanObligationClient {
      *
      * @return string|null Returns the code obligation.
      */
-    public function getCodeObligation(): ?string{
+    public function getCodeObligation(): ?string {
         return $this->codeObligation;
     }
 
@@ -117,7 +116,7 @@ class PlanObligationClient {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -126,7 +125,7 @@ class PlanObligationClient {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -135,7 +134,7 @@ class PlanObligationClient {
      *
      * @return string|null Returns the frequence.
      */
-    public function getFrequence(): ?string{
+    public function getFrequence(): ?string {
         return $this->frequence;
     }
 
@@ -144,7 +143,7 @@ class PlanObligationClient {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -153,7 +152,7 @@ class PlanObligationClient {
      *
      * @return int|null Returns the qui le fait.
      */
-    public function getQuiLeFait(): ?int{
+    public function getQuiLeFait(): ?int {
         return $this->quiLeFait;
     }
 

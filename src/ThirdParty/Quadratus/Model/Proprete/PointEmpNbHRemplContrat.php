@@ -126,7 +126,6 @@ class PointEmpNbHRemplContrat {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -148,7 +147,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -157,7 +156,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -166,7 +165,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -175,7 +174,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -184,7 +183,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -193,7 +192,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code remplacant.
      */
-    public function getCodeRemplacant(): ?string{
+    public function getCodeRemplacant(): ?string {
         return $this->codeRemplacant;
     }
 
@@ -202,7 +201,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -211,7 +210,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -220,7 +219,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -229,7 +228,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return float|null Returns the mensualisation.
      */
-    public function getMensualisation(): ?float{
+    public function getMensualisation(): ?float {
         return $this->mensualisation;
     }
 
@@ -238,7 +237,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return float|null Returns the nb heures.
      */
-    public function getNbHeures(): ?float{
+    public function getNbHeures(): ?float {
         return $this->nbHeures;
     }
 
@@ -247,7 +246,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -256,7 +255,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -265,7 +264,7 @@ class PointEmpNbHRemplContrat {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

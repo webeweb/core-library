@@ -250,7 +250,6 @@ class BudgetLignes {
      */
     private $typeSaisie;
 
-
     /**
      * Constructor.
      */
@@ -263,7 +262,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -272,7 +271,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the code budget.
      */
-    public function getCodeBudget(): ?string{
+    public function getCodeBudget(): ?string {
         return $this->codeBudget;
     }
 
@@ -281,7 +280,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the coef.
      */
-    public function getCoef(): ?float{
+    public function getCoef(): ?float {
         return $this->coef;
     }
 
@@ -290,7 +289,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the col saisie.
      */
-    public function getColSaisie(): ?string{
+    public function getColSaisie(): ?string {
         return $this->colSaisie;
     }
 
@@ -299,7 +298,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the commentaires.
      */
-    public function getCommentaires(): ?string{
+    public function getCommentaires(): ?string {
         return $this->commentaires;
     }
 
@@ -308,7 +307,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the compte.
      */
-    public function getCompte(): ?string{
+    public function getCompte(): ?string {
         return $this->compte;
     }
 
@@ -317,7 +316,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt1.
      */
-    public function getMt1(): ?float{
+    public function getMt1(): ?float {
         return $this->mt1;
     }
 
@@ -326,7 +325,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt10.
      */
-    public function getMt10(): ?float{
+    public function getMt10(): ?float {
         return $this->mt10;
     }
 
@@ -335,7 +334,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt11.
      */
-    public function getMt11(): ?float{
+    public function getMt11(): ?float {
         return $this->mt11;
     }
 
@@ -344,7 +343,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt12.
      */
-    public function getMt12(): ?float{
+    public function getMt12(): ?float {
         return $this->mt12;
     }
 
@@ -353,7 +352,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt13.
      */
-    public function getMt13(): ?float{
+    public function getMt13(): ?float {
         return $this->mt13;
     }
 
@@ -362,7 +361,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt14.
      */
-    public function getMt14(): ?float{
+    public function getMt14(): ?float {
         return $this->mt14;
     }
 
@@ -371,7 +370,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt15.
      */
-    public function getMt15(): ?float{
+    public function getMt15(): ?float {
         return $this->mt15;
     }
 
@@ -380,7 +379,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt16.
      */
-    public function getMt16(): ?float{
+    public function getMt16(): ?float {
         return $this->mt16;
     }
 
@@ -389,7 +388,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt17.
      */
-    public function getMt17(): ?float{
+    public function getMt17(): ?float {
         return $this->mt17;
     }
 
@@ -398,7 +397,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt18.
      */
-    public function getMt18(): ?float{
+    public function getMt18(): ?float {
         return $this->mt18;
     }
 
@@ -407,7 +406,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt19.
      */
-    public function getMt19(): ?float{
+    public function getMt19(): ?float {
         return $this->mt19;
     }
 
@@ -416,7 +415,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt2.
      */
-    public function getMt2(): ?float{
+    public function getMt2(): ?float {
         return $this->mt2;
     }
 
@@ -425,7 +424,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt20.
      */
-    public function getMt20(): ?float{
+    public function getMt20(): ?float {
         return $this->mt20;
     }
 
@@ -434,7 +433,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt21.
      */
-    public function getMt21(): ?float{
+    public function getMt21(): ?float {
         return $this->mt21;
     }
 
@@ -443,7 +442,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt22.
      */
-    public function getMt22(): ?float{
+    public function getMt22(): ?float {
         return $this->mt22;
     }
 
@@ -452,7 +451,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt23.
      */
-    public function getMt23(): ?float{
+    public function getMt23(): ?float {
         return $this->mt23;
     }
 
@@ -461,7 +460,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt24.
      */
-    public function getMt24(): ?float{
+    public function getMt24(): ?float {
         return $this->mt24;
     }
 
@@ -470,7 +469,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt3.
      */
-    public function getMt3(): ?float{
+    public function getMt3(): ?float {
         return $this->mt3;
     }
 
@@ -479,7 +478,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt4.
      */
-    public function getMt4(): ?float{
+    public function getMt4(): ?float {
         return $this->mt4;
     }
 
@@ -488,7 +487,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt5.
      */
-    public function getMt5(): ?float{
+    public function getMt5(): ?float {
         return $this->mt5;
     }
 
@@ -497,7 +496,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt6.
      */
-    public function getMt6(): ?float{
+    public function getMt6(): ?float {
         return $this->mt6;
     }
 
@@ -506,7 +505,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt7.
      */
-    public function getMt7(): ?float{
+    public function getMt7(): ?float {
         return $this->mt7;
     }
 
@@ -515,7 +514,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt8.
      */
-    public function getMt8(): ?float{
+    public function getMt8(): ?float {
         return $this->mt8;
     }
 
@@ -524,7 +523,7 @@ class BudgetLignes {
      *
      * @return float|null Returns the mt9.
      */
-    public function getMt9(): ?float{
+    public function getMt9(): ?float {
         return $this->mt9;
     }
 
@@ -533,7 +532,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -542,7 +541,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -551,7 +550,7 @@ class BudgetLignes {
      *
      * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie(): ?string{
+    public function getTypeSaisie(): ?string {
         return $this->typeSaisie;
     }
 

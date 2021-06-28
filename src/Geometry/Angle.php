@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Core\Geometry;
 
-use WBW\Library\Core\Model\Attribute\FloatValueTrait;
+use WBW\Library\Traits\Floats\FloatValueTrait;
 
 /**
  * Angle.

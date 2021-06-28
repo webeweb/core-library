@@ -49,7 +49,6 @@ class ChargesPaiePrimes {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class ChargesPaiePrimes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -71,7 +70,7 @@ class ChargesPaiePrimes {
      *
      * @return string|null Returns the code prime.
      */
-    public function getCodePrime(): ?string{
+    public function getCodePrime(): ?string {
         return $this->codePrime;
     }
 
@@ -80,7 +79,7 @@ class ChargesPaiePrimes {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -89,7 +88,7 @@ class ChargesPaiePrimes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

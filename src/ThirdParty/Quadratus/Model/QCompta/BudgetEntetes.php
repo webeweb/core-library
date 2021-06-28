@@ -77,7 +77,6 @@ class BudgetEntetes {
      */
     private $typeColRef;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class BudgetEntetes {
      *
      * @return string|null Returns the arrondi.
      */
-    public function getArrondi(): ?string{
+    public function getArrondi(): ?string {
         return $this->arrondi;
     }
 
@@ -99,7 +98,7 @@ class BudgetEntetes {
      *
      * @return string|null Returns the code budget.
      */
-    public function getCodeBudget(): ?string{
+    public function getCodeBudget(): ?string {
         return $this->codeBudget;
     }
 
@@ -108,7 +107,7 @@ class BudgetEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -117,7 +116,7 @@ class BudgetEntetes {
      *
      * @return int|null Returns the num col ref.
      */
-    public function getNumColRef(): ?int{
+    public function getNumColRef(): ?int {
         return $this->numColRef;
     }
 
@@ -126,7 +125,7 @@ class BudgetEntetes {
      *
      * @return DateTime|null Returns the periode debut.
      */
-    public function getPeriodeDebut(): ?DateTime{
+    public function getPeriodeDebut(): ?DateTime {
         return $this->periodeDebut;
     }
 
@@ -135,7 +134,7 @@ class BudgetEntetes {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -144,7 +143,7 @@ class BudgetEntetes {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -153,7 +152,7 @@ class BudgetEntetes {
      *
      * @return string|null Returns the type col ref.
      */
-    public function getTypeColRef(): ?string{
+    public function getTypeColRef(): ?string {
         return $this->typeColRef;
     }
 

@@ -54,7 +54,6 @@ class Reglements {
      */
     private $typeAcceptation;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class Reglements {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -76,7 +75,7 @@ class Reglements {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -85,7 +84,7 @@ class Reglements {
      *
      * @return string|null Returns the intitule2.
      */
-    public function getIntitule2(): ?string{
+    public function getIntitule2(): ?string {
         return $this->intitule2;
     }
 
@@ -94,7 +93,7 @@ class Reglements {
      *
      * @return string|null Returns the intitule3.
      */
-    public function getIntitule3(): ?string{
+    public function getIntitule3(): ?string {
         return $this->intitule3;
     }
 
@@ -103,7 +102,7 @@ class Reglements {
      *
      * @return string|null Returns the type acceptation.
      */
-    public function getTypeAcceptation(): ?string{
+    public function getTypeAcceptation(): ?string {
         return $this->typeAcceptation;
     }
 

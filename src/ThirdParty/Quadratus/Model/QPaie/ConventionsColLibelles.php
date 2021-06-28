@@ -75,7 +75,6 @@ class ConventionsColLibelles {
      */
     private $position;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class ConventionsColLibelles {
      *
      * @return bool|null Returns the active.
      */
-    public function getActive(): ?bool{
+    public function getActive(): ?bool {
         return $this->active;
     }
 
@@ -97,7 +96,7 @@ class ConventionsColLibelles {
      *
      * @return int|null Returns the categ salarie.
      */
-    public function getCategSalarie(): ?int{
+    public function getCategSalarie(): ?int {
         return $this->categSalarie;
     }
 
@@ -106,7 +105,7 @@ class ConventionsColLibelles {
      *
      * @return string|null Returns the code convention.
      */
-    public function getCodeConvention(): ?string{
+    public function getCodeConvention(): ?string {
         return $this->codeConvention;
     }
 
@@ -115,7 +114,7 @@ class ConventionsColLibelles {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -124,7 +123,7 @@ class ConventionsColLibelles {
      *
      * @return bool|null Returns the frais sante am.
      */
-    public function getFraisSanteAm(): ?bool{
+    public function getFraisSanteAm(): ?bool {
         return $this->fraisSanteAm;
     }
 
@@ -133,7 +132,7 @@ class ConventionsColLibelles {
      *
      * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg(): ?int{
+    public function getIndiceCateg(): ?int {
         return $this->indiceCateg;
     }
 
@@ -142,7 +141,7 @@ class ConventionsColLibelles {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -151,7 +150,7 @@ class ConventionsColLibelles {
      *
      * @return int|null Returns the position.
      */
-    public function getPosition(): ?int{
+    public function getPosition(): ?int {
         return $this->position;
     }
 

@@ -99,13 +99,6 @@ class LocationsFi {
     private $cptTvaAssu;
 
     /**
-     * Din.
-     *
-     * @var bool|null
-     */
-    private $din;
-
-    /**
      * Date acquisition.
      *
      * @var DateTime|null
@@ -125,6 +118,13 @@ class LocationsFi {
      * @var DateTime|null
      */
     private $dateMiseService;
+
+    /**
+     * Din.
+     *
+     * @var bool|null
+     */
+    private $din;
 
     /**
      * Guid vehicule.
@@ -197,6 +197,13 @@ class LocationsFi {
     private $service;
 
     /**
+     * Taxe pro.
+     *
+     * @var bool|null
+     */
+    private $taxePro;
+
+    /**
      * Tp duree.
      *
      * @var int|null
@@ -239,13 +246,6 @@ class LocationsFi {
     private $tpPremierPaiement;
 
     /**
-     * Taxe pro.
-     *
-     * @var bool|null
-     */
-    private $taxePro;
-
-    /**
      * Valeur ht.
      *
      * @var float|null
@@ -259,7 +259,6 @@ class LocationsFi {
      */
     private $valeurLocative;
 
-
     /**
      * Constructor.
      */
@@ -272,7 +271,7 @@ class LocationsFi {
      *
      * @return string|null Returns the bureau.
      */
-    public function getBureau(): ?string{
+    public function getBureau(): ?string {
         return $this->bureau;
     }
 
@@ -281,7 +280,7 @@ class LocationsFi {
      *
      * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique(): ?string{
+    public function getCentreAnalytique(): ?string {
         return $this->centreAnalytique;
     }
 
@@ -290,7 +289,7 @@ class LocationsFi {
      *
      * @return string|null Returns the code journal echeance.
      */
-    public function getCodeJournalEcheance(): ?string{
+    public function getCodeJournalEcheance(): ?string {
         return $this->codeJournalEcheance;
     }
 
@@ -299,7 +298,7 @@ class LocationsFi {
      *
      * @return string|null Returns the code journal paiement.
      */
-    public function getCodeJournalPaiement(): ?string{
+    public function getCodeJournalPaiement(): ?string {
         return $this->codeJournalPaiement;
     }
 
@@ -308,7 +307,7 @@ class LocationsFi {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -317,7 +316,7 @@ class LocationsFi {
      *
      * @return string|null Returns the compte frn.
      */
-    public function getCompteFrn(): ?string{
+    public function getCompteFrn(): ?string {
         return $this->compteFrn;
     }
 
@@ -326,7 +325,7 @@ class LocationsFi {
      *
      * @return string|null Returns the cpt assurance.
      */
-    public function getCptAssurance(): ?string{
+    public function getCptAssurance(): ?string {
         return $this->cptAssurance;
     }
 
@@ -335,7 +334,7 @@ class LocationsFi {
      *
      * @return string|null Returns the cpt charge.
      */
-    public function getCptCharge(): ?string{
+    public function getCptCharge(): ?string {
         return $this->cptCharge;
     }
 
@@ -344,7 +343,7 @@ class LocationsFi {
      *
      * @return string|null Returns the cpt entretien.
      */
-    public function getCptEntretien(): ?string{
+    public function getCptEntretien(): ?string {
         return $this->cptEntretien;
     }
 
@@ -353,7 +352,7 @@ class LocationsFi {
      *
      * @return string|null Returns the cpt tva.
      */
-    public function getCptTva(): ?string{
+    public function getCptTva(): ?string {
         return $this->cptTva;
     }
 
@@ -362,17 +361,8 @@ class LocationsFi {
      *
      * @return string|null Returns the cpt tva assu.
      */
-    public function getCptTvaAssu(): ?string{
+    public function getCptTvaAssu(): ?string {
         return $this->cptTvaAssu;
-    }
-
-    /**
-     * Get the din.
-     *
-     * @return bool|null Returns the din.
-     */
-    public function getDin(): ?bool{
-        return $this->din;
     }
 
     /**
@@ -380,7 +370,7 @@ class LocationsFi {
      *
      * @return DateTime|null Returns the date acquisition.
      */
-    public function getDateAcquisition(): ?DateTime{
+    public function getDateAcquisition(): ?DateTime {
         return $this->dateAcquisition;
     }
 
@@ -389,7 +379,7 @@ class LocationsFi {
      *
      * @return DateTime|null Returns the date fin contrat.
      */
-    public function getDateFinContrat(): ?DateTime{
+    public function getDateFinContrat(): ?DateTime {
         return $this->dateFinContrat;
     }
 
@@ -398,8 +388,17 @@ class LocationsFi {
      *
      * @return DateTime|null Returns the date mise service.
      */
-    public function getDateMiseService(): ?DateTime{
+    public function getDateMiseService(): ?DateTime {
         return $this->dateMiseService;
+    }
+
+    /**
+     * Get the din.
+     *
+     * @return bool|null Returns the din.
+     */
+    public function getDin(): ?bool {
+        return $this->din;
     }
 
     /**
@@ -407,7 +406,7 @@ class LocationsFi {
      *
      * @return string|null Returns the guid vehicule.
      */
-    public function getGuidVehicule(): ?string{
+    public function getGuidVehicule(): ?string {
         return $this->guidVehicule;
     }
 
@@ -416,7 +415,7 @@ class LocationsFi {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -425,7 +424,7 @@ class LocationsFi {
      *
      * @return string|null Returns the libelle frn.
      */
-    public function getLibelleFrn(): ?string{
+    public function getLibelleFrn(): ?string {
         return $this->libelleFrn;
     }
 
@@ -434,7 +433,7 @@ class LocationsFi {
      *
      * @return bool|null Returns the materiaux agricole.
      */
-    public function getMateriauxAgricole(): ?bool{
+    public function getMateriauxAgricole(): ?bool {
         return $this->materiauxAgricole;
     }
 
@@ -443,7 +442,7 @@ class LocationsFi {
      *
      * @return float|null Returns the montant tva.
      */
-    public function getMontantTva(): ?float{
+    public function getMontantTva(): ?float {
         return $this->montantTva;
     }
 
@@ -452,7 +451,7 @@ class LocationsFi {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -461,7 +460,7 @@ class LocationsFi {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -470,7 +469,7 @@ class LocationsFi {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -479,7 +478,7 @@ class LocationsFi {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -488,8 +487,17 @@ class LocationsFi {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
+    }
+
+    /**
+     * Get the taxe pro.
+     *
+     * @return bool|null Returns the taxe pro.
+     */
+    public function getTaxePro(): ?bool {
+        return $this->taxePro;
     }
 
     /**
@@ -497,7 +505,7 @@ class LocationsFi {
      *
      * @return int|null Returns the tp duree.
      */
-    public function getTpDuree(): ?int{
+    public function getTpDuree(): ?int {
         return $this->tpDuree;
     }
 
@@ -506,7 +514,7 @@ class LocationsFi {
      *
      * @return string|null Returns the tp echoir echu.
      */
-    public function getTpEchoirEchu(): ?string{
+    public function getTpEchoirEchu(): ?string {
         return $this->tpEchoirEchu;
     }
 
@@ -515,7 +523,7 @@ class LocationsFi {
      *
      * @return string|null Returns the tp mois annee.
      */
-    public function getTpMoisAnnee(): ?string{
+    public function getTpMoisAnnee(): ?string {
         return $this->tpMoisAnnee;
     }
 
@@ -524,7 +532,7 @@ class LocationsFi {
      *
      * @return float|null Returns the tp montt depot.
      */
-    public function getTpMonttDepot(): ?float{
+    public function getTpMonttDepot(): ?float {
         return $this->tpMonttDepot;
     }
 
@@ -533,7 +541,7 @@ class LocationsFi {
      *
      * @return string|null Returns the tp periodicite.
      */
-    public function getTpPeriodicite(): ?string{
+    public function getTpPeriodicite(): ?string {
         return $this->tpPeriodicite;
     }
 
@@ -542,17 +550,8 @@ class LocationsFi {
      *
      * @return DateTime|null Returns the tp premier paiement.
      */
-    public function getTpPremierPaiement(): ?DateTime{
+    public function getTpPremierPaiement(): ?DateTime {
         return $this->tpPremierPaiement;
-    }
-
-    /**
-     * Get the taxe pro.
-     *
-     * @return bool|null Returns the taxe pro.
-     */
-    public function getTaxePro(): ?bool{
-        return $this->taxePro;
     }
 
     /**
@@ -560,7 +559,7 @@ class LocationsFi {
      *
      * @return float|null Returns the valeur ht.
      */
-    public function getValeurHt(): ?float{
+    public function getValeurHt(): ?float {
         return $this->valeurHt;
     }
 
@@ -569,7 +568,7 @@ class LocationsFi {
      *
      * @return float|null Returns the valeur locative.
      */
-    public function getValeurLocative(): ?float{
+    public function getValeurLocative(): ?float {
         return $this->valeurLocative;
     }
 
@@ -695,17 +694,6 @@ class LocationsFi {
     }
 
     /**
-     * Set the din.
-     *
-     * @param bool|null $din The din.
-     * @return LocationsFi Returns this Locations fi.
-     */
-    public function setDin(?bool $din): LocationsFi {
-        $this->din = $din;
-        return $this;
-    }
-
-    /**
      * Set the date acquisition.
      *
      * @param DateTime|null $dateAcquisition The date acquisition.
@@ -735,6 +723,17 @@ class LocationsFi {
      */
     public function setDateMiseService(?DateTime $dateMiseService): LocationsFi {
         $this->dateMiseService = $dateMiseService;
+        return $this;
+    }
+
+    /**
+     * Set the din.
+     *
+     * @param bool|null $din The din.
+     * @return LocationsFi Returns this Locations fi.
+     */
+    public function setDin(?bool $din): LocationsFi {
+        $this->din = $din;
         return $this;
     }
 
@@ -849,6 +848,17 @@ class LocationsFi {
     }
 
     /**
+     * Set the taxe pro.
+     *
+     * @param bool|null $taxePro The taxe pro.
+     * @return LocationsFi Returns this Locations fi.
+     */
+    public function setTaxePro(?bool $taxePro): LocationsFi {
+        $this->taxePro = $taxePro;
+        return $this;
+    }
+
+    /**
      * Set the tp duree.
      *
      * @param int|null $tpDuree The tp duree.
@@ -911,17 +921,6 @@ class LocationsFi {
      */
     public function setTpPremierPaiement(?DateTime $tpPremierPaiement): LocationsFi {
         $this->tpPremierPaiement = $tpPremierPaiement;
-        return $this;
-    }
-
-    /**
-     * Set the taxe pro.
-     *
-     * @param bool|null $taxePro The taxe pro.
-     * @return LocationsFi Returns this Locations fi.
-     */
-    public function setTaxePro(?bool $taxePro): LocationsFi {
-        $this->taxePro = $taxePro;
         return $this;
     }
 

@@ -33,7 +33,6 @@ class EnteteGrillesType {
      */
     private $numeroGrilleType;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class EnteteGrillesType {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -55,7 +54,7 @@ class EnteteGrillesType {
      *
      * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType(): ?int{
+    public function getNumeroGrilleType(): ?int {
         return $this->numeroGrilleType;
     }
 

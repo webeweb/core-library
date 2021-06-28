@@ -75,7 +75,6 @@ class ChantiersFrequencesControlesQualite {
      */
     private $typeControle;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -97,7 +96,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -106,7 +105,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -115,7 +114,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return string|null Returns the jour.
      */
-    public function getJour(): ?string{
+    public function getJour(): ?string {
         return $this->jour;
     }
 
@@ -124,7 +123,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return string|null Returns the mois.
      */
-    public function getMois(): ?string{
+    public function getMois(): ?string {
         return $this->mois;
     }
 
@@ -133,7 +132,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return int|null Returns the numero freq.
      */
-    public function getNumeroFreq(): ?int{
+    public function getNumeroFreq(): ?int {
         return $this->numeroFreq;
     }
 
@@ -142,7 +141,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return bool|null Returns the que premiere annee.
      */
-    public function getQuePremiereAnnee(): ?bool{
+    public function getQuePremiereAnnee(): ?bool {
         return $this->quePremiereAnnee;
     }
 
@@ -151,7 +150,7 @@ class ChantiersFrequencesControlesQualite {
      *
      * @return string|null Returns the type controle.
      */
-    public function getTypeControle(): ?string{
+    public function getTypeControle(): ?string {
         return $this->typeControle;
     }
 

@@ -40,7 +40,6 @@ class ImmoEnsemble {
      */
     private $numeroEnsemble;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class ImmoEnsemble {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -62,7 +61,7 @@ class ImmoEnsemble {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -71,7 +70,7 @@ class ImmoEnsemble {
      *
      * @return int|null Returns the numero ensemble.
      */
-    public function getNumeroEnsemble(): ?int{
+    public function getNumeroEnsemble(): ?int {
         return $this->numeroEnsemble;
     }
 

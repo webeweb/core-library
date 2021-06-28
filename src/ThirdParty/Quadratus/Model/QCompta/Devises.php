@@ -42,7 +42,6 @@ class Devises {
      */
     private $taux;
 
-
     /**
      * Constructor.
      */
@@ -55,7 +54,7 @@ class Devises {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -64,7 +63,7 @@ class Devises {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -73,7 +72,7 @@ class Devises {
      *
      * @return float|null Returns the taux.
      */
-    public function getTaux(): ?float{
+    public function getTaux(): ?float {
         return $this->taux;
     }
 

@@ -110,7 +110,6 @@ class DevisLignes {
      */
     private $zoneGeographique;
 
-
     /**
      * Constructor.
      */
@@ -123,7 +122,7 @@ class DevisLignes {
      *
      * @return string|null Returns the batiment.
      */
-    public function getBatiment(): ?string{
+    public function getBatiment(): ?string {
         return $this->batiment;
     }
 
@@ -132,7 +131,7 @@ class DevisLignes {
      *
      * @return string|null Returns the code local.
      */
-    public function getCodeLocal(): ?string{
+    public function getCodeLocal(): ?string {
         return $this->codeLocal;
     }
 
@@ -141,7 +140,7 @@ class DevisLignes {
      *
      * @return string|null Returns the code revetement.
      */
-    public function getCodeRevetement(): ?string{
+    public function getCodeRevetement(): ?string {
         return $this->codeRevetement;
     }
 
@@ -150,7 +149,7 @@ class DevisLignes {
      *
      * @return string|null Returns the etage.
      */
-    public function getEtage(): ?string{
+    public function getEtage(): ?string {
         return $this->etage;
     }
 
@@ -159,7 +158,7 @@ class DevisLignes {
      *
      * @return string|null Returns the identification.
      */
-    public function getIdentification(): ?string{
+    public function getIdentification(): ?string {
         return $this->identification;
     }
 
@@ -168,7 +167,7 @@ class DevisLignes {
      *
      * @return string|null Returns the libelle local.
      */
-    public function getLibelleLocal(): ?string{
+    public function getLibelleLocal(): ?string {
         return $this->libelleLocal;
     }
 
@@ -177,7 +176,7 @@ class DevisLignes {
      *
      * @return string|null Returns the libelle revetement.
      */
-    public function getLibelleRevetement(): ?string{
+    public function getLibelleRevetement(): ?string {
         return $this->libelleRevetement;
     }
 
@@ -186,7 +185,7 @@ class DevisLignes {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -195,7 +194,7 @@ class DevisLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -204,7 +203,7 @@ class DevisLignes {
      *
      * @return int|null Returns the num programme.
      */
-    public function getNumProgramme(): ?int{
+    public function getNumProgramme(): ?int {
         return $this->numProgramme;
     }
 
@@ -213,7 +212,7 @@ class DevisLignes {
      *
      * @return string|null Returns the sol mur.
      */
-    public function getSolMur(): ?string{
+    public function getSolMur(): ?string {
         return $this->solMur;
     }
 
@@ -222,7 +221,7 @@ class DevisLignes {
      *
      * @return float|null Returns the surface.
      */
-    public function getSurface(): ?float{
+    public function getSurface(): ?float {
         return $this->surface;
     }
 
@@ -231,7 +230,7 @@ class DevisLignes {
      *
      * @return string|null Returns the zone geographique.
      */
-    public function getZoneGeographique(): ?string{
+    public function getZoneGeographique(): ?string {
         return $this->zoneGeographique;
     }
 

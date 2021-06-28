@@ -33,7 +33,6 @@ class AgendaGroupesCompos {
      */
     private $codeGroupe;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class AgendaGroupesCompos {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -55,7 +54,7 @@ class AgendaGroupesCompos {
      *
      * @return string|null Returns the code groupe.
      */
-    public function getCodeGroupe(): ?string{
+    public function getCodeGroupe(): ?string {
         return $this->codeGroupe;
     }
 

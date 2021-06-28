@@ -40,7 +40,6 @@ class CriteresListeEntPiece {
      */
     private $numLibelle;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class CriteresListeEntPiece {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -62,7 +61,7 @@ class CriteresListeEntPiece {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -71,7 +70,7 @@ class CriteresListeEntPiece {
      *
      * @return string|null Returns the num libelle.
      */
-    public function getNumLibelle(): ?string{
+    public function getNumLibelle(): ?string {
         return $this->numLibelle;
     }
 

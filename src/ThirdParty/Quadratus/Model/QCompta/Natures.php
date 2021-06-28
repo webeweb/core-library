@@ -82,7 +82,6 @@ class Natures {
      */
     private $typeNature;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class Natures {
      *
      * @return string|null Returns the chapitre affect.
      */
-    public function getChapitreAffect(): ?string{
+    public function getChapitreAffect(): ?string {
         return $this->chapitreAffect;
     }
 
@@ -104,7 +103,7 @@ class Natures {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -113,7 +112,7 @@ class Natures {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -122,7 +121,7 @@ class Natures {
      *
      * @return string|null Returns the mode calcul repart.
      */
-    public function getModeCalculRepart(): ?string{
+    public function getModeCalculRepart(): ?string {
         return $this->modeCalculRepart;
     }
 
@@ -131,7 +130,7 @@ class Natures {
      *
      * @return bool|null Returns the nature inactive.
      */
-    public function getNatureInactive(): ?bool{
+    public function getNatureInactive(): ?bool {
         return $this->natureInactive;
     }
 
@@ -140,7 +139,7 @@ class Natures {
      *
      * @return int|null Returns the ordre edition.
      */
-    public function getOrdreEdition(): ?int{
+    public function getOrdreEdition(): ?int {
         return $this->ordreEdition;
     }
 
@@ -149,7 +148,7 @@ class Natures {
      *
      * @return bool|null Returns the suivi annee recolte.
      */
-    public function getSuiviAnneeRecolte(): ?bool{
+    public function getSuiviAnneeRecolte(): ?bool {
         return $this->suiviAnneeRecolte;
     }
 
@@ -158,7 +157,7 @@ class Natures {
      *
      * @return string|null Returns the suivi quantite.
      */
-    public function getSuiviQuantite(): ?string{
+    public function getSuiviQuantite(): ?string {
         return $this->suiviQuantite;
     }
 
@@ -167,7 +166,7 @@ class Natures {
      *
      * @return string|null Returns the type nature.
      */
-    public function getTypeNature(): ?string{
+    public function getTypeNature(): ?string {
         return $this->typeNature;
     }
 

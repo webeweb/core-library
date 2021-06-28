@@ -194,7 +194,6 @@ class FichesConfidentialitesMenus {
      */
     private $typeSelection;
 
-
     /**
      * Constructor.
      */
@@ -207,7 +206,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -216,7 +215,7 @@ class FichesConfidentialitesMenus {
      *
      * @return bool|null Returns the droit ajout.
      */
-    public function getDroitAjout(): ?bool{
+    public function getDroitAjout(): ?bool {
         return $this->droitAjout;
     }
 
@@ -225,7 +224,7 @@ class FichesConfidentialitesMenus {
      *
      * @return bool|null Returns the droit modification.
      */
-    public function getDroitModification(): ?bool{
+    public function getDroitModification(): ?bool {
         return $this->droitModification;
     }
 
@@ -234,7 +233,7 @@ class FichesConfidentialitesMenus {
      *
      * @return bool|null Returns the droit suppression.
      */
-    public function getDroitSuppression(): ?bool{
+    public function getDroitSuppression(): ?bool {
         return $this->droitSuppression;
     }
 
@@ -243,7 +242,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index.
      */
-    public function getIndex(): ?int{
+    public function getIndex(): ?int {
         return $this->index;
     }
 
@@ -252,7 +251,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no1.
      */
-    public function getIndexDuPereNo1(): ?int{
+    public function getIndexDuPereNo1(): ?int {
         return $this->indexDuPereNo1;
     }
 
@@ -261,7 +260,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no2.
      */
-    public function getIndexDuPereNo2(): ?int{
+    public function getIndexDuPereNo2(): ?int {
         return $this->indexDuPereNo2;
     }
 
@@ -270,7 +269,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no3.
      */
-    public function getIndexDuPereNo3(): ?int{
+    public function getIndexDuPereNo3(): ?int {
         return $this->indexDuPereNo3;
     }
 
@@ -279,7 +278,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no4.
      */
-    public function getIndexDuPereNo4(): ?int{
+    public function getIndexDuPereNo4(): ?int {
         return $this->indexDuPereNo4;
     }
 
@@ -288,7 +287,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no5.
      */
-    public function getIndexDuPereNo5(): ?int{
+    public function getIndexDuPereNo5(): ?int {
         return $this->indexDuPereNo5;
     }
 
@@ -297,7 +296,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no6.
      */
-    public function getIndexDuPereNo6(): ?int{
+    public function getIndexDuPereNo6(): ?int {
         return $this->indexDuPereNo6;
     }
 
@@ -306,7 +305,7 @@ class FichesConfidentialitesMenus {
      *
      * @return int|null Returns the index du pere no7.
      */
-    public function getIndexDuPereNo7(): ?int{
+    public function getIndexDuPereNo7(): ?int {
         return $this->indexDuPereNo7;
     }
 
@@ -315,7 +314,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the libelle menu.
      */
-    public function getLibelleMenu(): ?string{
+    public function getLibelleMenu(): ?string {
         return $this->libelleMenu;
     }
 
@@ -324,7 +323,7 @@ class FichesConfidentialitesMenus {
      *
      * @return bool|null Returns the menu visible.
      */
-    public function getMenuVisible(): ?bool{
+    public function getMenuVisible(): ?bool {
         return $this->menuVisible;
     }
 
@@ -333,7 +332,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the mot de passe.
      */
-    public function getMotDePasse(): ?string{
+    public function getMotDePasse(): ?string {
         return $this->motDePasse;
     }
 
@@ -342,7 +341,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the niveau ligne.
      */
-    public function getNiveauLigne(): ?string{
+    public function getNiveauLigne(): ?string {
         return $this->niveauLigne;
     }
 
@@ -351,7 +350,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no1.
      */
-    public function getNomDuPereNo1(): ?string{
+    public function getNomDuPereNo1(): ?string {
         return $this->nomDuPereNo1;
     }
 
@@ -360,7 +359,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no2.
      */
-    public function getNomDuPereNo2(): ?string{
+    public function getNomDuPereNo2(): ?string {
         return $this->nomDuPereNo2;
     }
 
@@ -369,7 +368,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no3.
      */
-    public function getNomDuPereNo3(): ?string{
+    public function getNomDuPereNo3(): ?string {
         return $this->nomDuPereNo3;
     }
 
@@ -378,7 +377,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no4.
      */
-    public function getNomDuPereNo4(): ?string{
+    public function getNomDuPereNo4(): ?string {
         return $this->nomDuPereNo4;
     }
 
@@ -387,7 +386,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no5.
      */
-    public function getNomDuPereNo5(): ?string{
+    public function getNomDuPereNo5(): ?string {
         return $this->nomDuPereNo5;
     }
 
@@ -396,7 +395,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no6.
      */
-    public function getNomDuPereNo6(): ?string{
+    public function getNomDuPereNo6(): ?string {
         return $this->nomDuPereNo6;
     }
 
@@ -405,7 +404,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom du pere no7.
      */
-    public function getNomDuPereNo7(): ?string{
+    public function getNomDuPereNo7(): ?string {
         return $this->nomDuPereNo7;
     }
 
@@ -414,7 +413,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the nom menu.
      */
-    public function getNomMenu(): ?string{
+    public function getNomMenu(): ?string {
         return $this->nomMenu;
     }
 
@@ -423,7 +422,7 @@ class FichesConfidentialitesMenus {
      *
      * @return string|null Returns the type selection.
      */
-    public function getTypeSelection(): ?string{
+    public function getTypeSelection(): ?string {
         return $this->typeSelection;
     }
 

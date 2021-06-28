@@ -77,7 +77,6 @@ class AbsencesExcel {
      */
     private $typeImport;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class AbsencesExcel {
      *
      * @return int|null Returns the id.
      */
-    public function getId(): ?int{
+    public function getId(): ?int {
         return $this->id;
     }
 
@@ -99,7 +98,7 @@ class AbsencesExcel {
      *
      * @return float|null Returns the nbh sais.
      */
-    public function getNbhSais(): ?float{
+    public function getNbhSais(): ?float {
         return $this->nbhSais;
     }
 
@@ -108,7 +107,7 @@ class AbsencesExcel {
      *
      * @return float|null Returns the nbj sais.
      */
-    public function getNbjSais(): ?float{
+    public function getNbjSais(): ?float {
         return $this->nbjSais;
     }
 
@@ -117,7 +116,7 @@ class AbsencesExcel {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -126,7 +125,7 @@ class AbsencesExcel {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -135,7 +134,7 @@ class AbsencesExcel {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -144,7 +143,7 @@ class AbsencesExcel {
      *
      * @return string|null Returns the type abs cp.
      */
-    public function getTypeAbsCp(): ?string{
+    public function getTypeAbsCp(): ?string {
         return $this->typeAbsCp;
     }
 
@@ -153,7 +152,7 @@ class AbsencesExcel {
      *
      * @return int|null Returns the type import.
      */
-    public function getTypeImport(): ?int{
+    public function getTypeImport(): ?int {
         return $this->typeImport;
     }
 

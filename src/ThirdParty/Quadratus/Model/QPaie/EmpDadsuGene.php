@@ -43,18 +43,18 @@ class EmpDadsuGene {
     private $apprentiEtam;
 
     /**
-     * Btq lieu trav.
-     *
-     * @var string|null
-     */
-    private $btqLieuTrav;
-
-    /**
      * Benef assedic.
      *
      * @var string|null
      */
     private $benefAssedic;
+
+    /**
+     * Btq lieu trav.
+     *
+     * @var string|null
+     */
+    private $btqLieuTrav;
 
     /**
      * Bureau distributeur lieu trav.
@@ -364,7 +364,6 @@ class EmpDadsuGene {
      */
     private $siretLieuTrav;
 
-
     /**
      * Constructor.
      */
@@ -377,7 +376,7 @@ class EmpDadsuGene {
      *
      * @return DateTime|null Returns the ancienn btp.
      */
-    public function getAnciennBtp(): ?DateTime{
+    public function getAnciennBtp(): ?DateTime {
         return $this->anciennBtp;
     }
 
@@ -386,7 +385,7 @@ class EmpDadsuGene {
      *
      * @return bool|null Returns the annexe7 mutation.
      */
-    public function getAnnexe7Mutation(): ?bool{
+    public function getAnnexe7Mutation(): ?bool {
         return $this->annexe7Mutation;
     }
 
@@ -395,17 +394,8 @@ class EmpDadsuGene {
      *
      * @return bool|null Returns the apprenti etam.
      */
-    public function getApprentiEtam(): ?bool{
+    public function getApprentiEtam(): ?bool {
         return $this->apprentiEtam;
-    }
-
-    /**
-     * Get the btq lieu trav.
-     *
-     * @return string|null Returns the btq lieu trav.
-     */
-    public function getBtqLieuTrav(): ?string{
-        return $this->btqLieuTrav;
     }
 
     /**
@@ -413,8 +403,17 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the benef assedic.
      */
-    public function getBenefAssedic(): ?string{
+    public function getBenefAssedic(): ?string {
         return $this->benefAssedic;
+    }
+
+    /**
+     * Get the btq lieu trav.
+     *
+     * @return string|null Returns the btq lieu trav.
+     */
+    public function getBtqLieuTrav(): ?string {
+        return $this->btqLieuTrav;
     }
 
     /**
@@ -422,7 +421,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the bureau distributeur lieu trav.
      */
-    public function getBureauDistributeurLieuTrav(): ?string{
+    public function getBureauDistributeurLieuTrav(): ?string {
         return $this->bureauDistributeurLieuTrav;
     }
 
@@ -431,7 +430,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code caisse cp.
      */
-    public function getCodeCaisseCp(): ?string{
+    public function getCodeCaisseCp(): ?string {
         return $this->codeCaisseCp;
     }
 
@@ -440,7 +439,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code caract.
      */
-    public function getCodeCaract(): ?string{
+    public function getCodeCaract(): ?string {
         return $this->codeCaract;
     }
 
@@ -449,7 +448,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code categ sal pourcent abat.
      */
-    public function getCodeCategSalPourcentAbat(): ?string{
+    public function getCodeCategSalPourcentAbat(): ?string {
         return $this->codeCategSalPourcentAbat;
     }
 
@@ -458,7 +457,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code class btp.
      */
-    public function getCodeClassBtp(): ?string{
+    public function getCodeClassBtp(): ?string {
         return $this->codeClassBtp;
     }
 
@@ -467,7 +466,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code contrat trav.
      */
-    public function getCodeContratTrav(): ?string{
+    public function getCodeContratTrav(): ?string {
         return $this->codeContratTrav;
     }
 
@@ -476,7 +475,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code convention col.
      */
-    public function getCodeConventionCol(): ?string{
+    public function getCodeConventionCol(): ?string {
         return $this->codeConventionCol;
     }
 
@@ -485,7 +484,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code distri etranger.
      */
-    public function getCodeDistriEtranger(): ?string{
+    public function getCodeDistriEtranger(): ?string {
         return $this->codeDistriEtranger;
     }
 
@@ -494,7 +493,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code exo trav.
      */
-    public function getCodeExoTrav(): ?string{
+    public function getCodeExoTrav(): ?string {
         return $this->codeExoTrav;
     }
 
@@ -503,7 +502,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code insee lieu trav.
      */
-    public function getCodeInseeLieuTrav(): ?string{
+    public function getCodeInseeLieuTrav(): ?string {
         return $this->codeInseeLieuTrav;
     }
 
@@ -512,7 +511,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code intit contrat trav.
      */
-    public function getCodeIntitContratTrav(): ?string{
+    public function getCodeIntitContratTrav(): ?string {
         return $this->codeIntitContratTrav;
     }
 
@@ -521,7 +520,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code metier btp.
      */
-    public function getCodeMetierBtp(): ?string{
+    public function getCodeMetierBtp(): ?string {
         return $this->codeMetierBtp;
     }
 
@@ -530,7 +529,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code officiel commune lieu trav.
      */
-    public function getCodeOfficielCommuneLieuTrav(): ?string{
+    public function getCodeOfficielCommuneLieuTrav(): ?string {
         return $this->codeOfficielCommuneLieuTrav;
     }
 
@@ -539,7 +538,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code pays lieu trav.
      */
-    public function getCodePaysLieuTrav(): ?string{
+    public function getCodePaysLieuTrav(): ?string {
         return $this->codePaysLieuTrav;
     }
 
@@ -548,7 +547,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code postal lieu trav.
      */
-    public function getCodePostalLieuTrav(): ?string{
+    public function getCodePostalLieuTrav(): ?string {
         return $this->codePostalLieuTrav;
     }
 
@@ -557,7 +556,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code regime at.
      */
-    public function getCodeRegimeAt(): ?string{
+    public function getCodeRegimeAt(): ?string {
         return $this->codeRegimeAt;
     }
 
@@ -566,7 +565,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code regime base obl.
      */
-    public function getCodeRegimeBaseObl(): ?string{
+    public function getCodeRegimeBaseObl(): ?string {
         return $this->codeRegimeBaseObl;
     }
 
@@ -575,7 +574,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code regime vieillesse.
      */
-    public function getCodeRegimeVieillesse(): ?string{
+    public function getCodeRegimeVieillesse(): ?string {
         return $this->codeRegimeVieillesse;
     }
 
@@ -584,7 +583,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code retraite complementaire.
      */
-    public function getCodeRetraiteComplementaire(): ?string{
+    public function getCodeRetraiteComplementaire(): ?string {
         return $this->codeRetraiteComplementaire;
     }
 
@@ -593,7 +592,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code situ admin.
      */
-    public function getCodeSituAdmin(): ?string{
+    public function getCodeSituAdmin(): ?string {
         return $this->codeSituAdmin;
     }
 
@@ -602,7 +601,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code statut categ.
      */
-    public function getCodeStatutCateg(): ?string{
+    public function getCodeStatutCateg(): ?string {
         return $this->codeStatutCateg;
     }
 
@@ -611,7 +610,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code statut categ retraite.
      */
-    public function getCodeStatutCategRetraite(): ?string{
+    public function getCodeStatutCategRetraite(): ?string {
         return $this->codeStatutCategRetraite;
     }
 
@@ -620,7 +619,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code statut pro.
      */
-    public function getCodeStatutPro(): ?string{
+    public function getCodeStatutPro(): ?string {
         return $this->codeStatutPro;
     }
 
@@ -629,7 +628,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code type exo1.
      */
-    public function getCodeTypeExo1(): ?string{
+    public function getCodeTypeExo1(): ?string {
         return $this->codeTypeExo1;
     }
 
@@ -638,7 +637,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code type exo2.
      */
-    public function getCodeTypeExo2(): ?string{
+    public function getCodeTypeExo2(): ?string {
         return $this->codeTypeExo2;
     }
 
@@ -647,7 +646,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code type exo3.
      */
-    public function getCodeTypeExo3(): ?string{
+    public function getCodeTypeExo3(): ?string {
         return $this->codeTypeExo3;
     }
 
@@ -656,7 +655,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code unite temps travail.
      */
-    public function getCodeUniteTempsTravail(): ?string{
+    public function getCodeUniteTempsTravail(): ?string {
         return $this->codeUniteTempsTravail;
     }
 
@@ -665,7 +664,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the code zone geo.
      */
-    public function getCodeZoneGeo(): ?string{
+    public function getCodeZoneGeo(): ?string {
         return $this->codeZoneGeo;
     }
 
@@ -674,7 +673,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the complement lieu trav.
      */
-    public function getComplementLieuTrav(): ?string{
+    public function getComplementLieuTrav(): ?string {
         return $this->complementLieuTrav;
     }
 
@@ -683,7 +682,7 @@ class EmpDadsuGene {
      *
      * @return DateTime|null Returns the date rachat.
      */
-    public function getDateRachat(): ?DateTime{
+    public function getDateRachat(): ?DateTime {
         return $this->dateRachat;
     }
 
@@ -692,7 +691,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the detache expatrie.
      */
-    public function getDetacheExpatrie(): ?string{
+    public function getDetacheExpatrie(): ?string {
         return $this->detacheExpatrie;
     }
 
@@ -701,7 +700,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the echelon.
      */
-    public function getEchelon(): ?string{
+    public function getEchelon(): ?string {
         return $this->echelon;
     }
 
@@ -710,7 +709,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the etab lieu travail.
      */
-    public function getEtabLieuTravail(): ?string{
+    public function getEtabLieuTravail(): ?string {
         return $this->etabLieuTravail;
     }
 
@@ -719,7 +718,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the id lieu travail.
      */
-    public function getIdLieuTravail(): ?string{
+    public function getIdLieuTravail(): ?string {
         return $this->idLieuTravail;
     }
 
@@ -728,7 +727,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the indice.
      */
-    public function getIndice(): ?string{
+    public function getIndice(): ?string {
         return $this->indice;
     }
 
@@ -737,7 +736,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the niveau.
      */
-    public function getNiveau(): ?string{
+    public function getNiveau(): ?string {
         return $this->niveau;
     }
 
@@ -746,7 +745,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the nom ville insee lieu trav.
      */
-    public function getNomVilleInseeLieuTrav(): ?string{
+    public function getNomVilleInseeLieuTrav(): ?string {
         return $this->nomVilleInseeLieuTrav;
     }
 
@@ -755,7 +754,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the nom ville lieu trav.
      */
-    public function getNomVilleLieuTrav(): ?string{
+    public function getNomVilleLieuTrav(): ?string {
         return $this->nomVilleLieuTrav;
     }
 
@@ -764,7 +763,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the nom voie lieu trav.
      */
-    public function getNomVoieLieuTrav(): ?string{
+    public function getNomVoieLieuTrav(): ?string {
         return $this->nomVoieLieuTrav;
     }
 
@@ -773,7 +772,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the num voie lieu trav.
      */
-    public function getNumVoieLieuTrav(): ?string{
+    public function getNumVoieLieuTrav(): ?string {
         return $this->numVoieLieuTrav;
     }
 
@@ -782,7 +781,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -791,7 +790,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the position.
      */
-    public function getPosition(): ?string{
+    public function getPosition(): ?string {
         return $this->position;
     }
 
@@ -800,7 +799,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the raison soc lieu trav.
      */
-    public function getRaisonSocLieuTrav(): ?string{
+    public function getRaisonSocLieuTrav(): ?string {
         return $this->raisonSocLieuTrav;
     }
 
@@ -809,7 +808,7 @@ class EmpDadsuGene {
      *
      * @return string|null Returns the siret lieu trav.
      */
-    public function getSiretLieuTrav(): ?string{
+    public function getSiretLieuTrav(): ?string {
         return $this->siretLieuTrav;
     }
 
@@ -847,17 +846,6 @@ class EmpDadsuGene {
     }
 
     /**
-     * Set the btq lieu trav.
-     *
-     * @param string|null $btqLieuTrav The btq lieu trav.
-     * @return EmpDadsuGene Returns this Emp dadsu gene.
-     */
-    public function setBtqLieuTrav(?string $btqLieuTrav): EmpDadsuGene {
-        $this->btqLieuTrav = $btqLieuTrav;
-        return $this;
-    }
-
-    /**
      * Set the benef assedic.
      *
      * @param string|null $benefAssedic The benef assedic.
@@ -865,6 +853,17 @@ class EmpDadsuGene {
      */
     public function setBenefAssedic(?string $benefAssedic): EmpDadsuGene {
         $this->benefAssedic = $benefAssedic;
+        return $this;
+    }
+
+    /**
+     * Set the btq lieu trav.
+     *
+     * @param string|null $btqLieuTrav The btq lieu trav.
+     * @return EmpDadsuGene Returns this Emp dadsu gene.
+     */
+    public function setBtqLieuTrav(?string $btqLieuTrav): EmpDadsuGene {
+        $this->btqLieuTrav = $btqLieuTrav;
         return $this;
     }
 

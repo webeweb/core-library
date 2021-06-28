@@ -224,7 +224,6 @@ class Intervenants {
      */
     private $telex;
 
-
     /**
      * Constructor.
      */
@@ -237,7 +236,7 @@ class Intervenants {
      *
      * @return string|null Returns the ape.
      */
-    public function getApe(): ?string{
+    public function getApe(): ?string {
         return $this->ape;
     }
 
@@ -246,7 +245,7 @@ class Intervenants {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -255,7 +254,7 @@ class Intervenants {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -264,7 +263,7 @@ class Intervenants {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -273,7 +272,7 @@ class Intervenants {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -282,7 +281,7 @@ class Intervenants {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -291,7 +290,7 @@ class Intervenants {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -300,7 +299,7 @@ class Intervenants {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -309,7 +308,7 @@ class Intervenants {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -318,7 +317,7 @@ class Intervenants {
      *
      * @return string|null Returns the fax.
      */
-    public function getFax(): ?string{
+    public function getFax(): ?string {
         return $this->fax;
     }
 
@@ -327,7 +326,7 @@ class Intervenants {
      *
      * @return string|null Returns the id.
      */
-    public function getId(): ?string{
+    public function getId(): ?string {
         return $this->id;
     }
 
@@ -336,7 +335,7 @@ class Intervenants {
      *
      * @return string|null Returns the ident tva.
      */
-    public function getIdentTva(): ?string{
+    public function getIdentTva(): ?string {
         return $this->identTva;
     }
 
@@ -345,7 +344,7 @@ class Intervenants {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -354,7 +353,7 @@ class Intervenants {
      *
      * @return string|null Returns the nom marital.
      */
-    public function getNomMarital(): ?string{
+    public function getNomMarital(): ?string {
         return $this->nomMarital;
     }
 
@@ -363,7 +362,7 @@ class Intervenants {
      *
      * @return string|null Returns the nom responsable.
      */
-    public function getNomResponsable(): ?string{
+    public function getNomResponsable(): ?string {
         return $this->nomResponsable;
     }
 
@@ -372,7 +371,7 @@ class Intervenants {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -381,7 +380,7 @@ class Intervenants {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -390,7 +389,7 @@ class Intervenants {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -399,7 +398,7 @@ class Intervenants {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -408,7 +407,7 @@ class Intervenants {
      *
      * @return string|null Returns the portable1.
      */
-    public function getPortable1(): ?string{
+    public function getPortable1(): ?string {
         return $this->portable1;
     }
 
@@ -417,7 +416,7 @@ class Intervenants {
      *
      * @return string|null Returns the portable2.
      */
-    public function getPortable2(): ?string{
+    public function getPortable2(): ?string {
         return $this->portable2;
     }
 
@@ -426,7 +425,7 @@ class Intervenants {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -435,7 +434,7 @@ class Intervenants {
      *
      * @return string|null Returns the qualite.
      */
-    public function getQualite(): ?string{
+    public function getQualite(): ?string {
         return $this->qualite;
     }
 
@@ -444,7 +443,7 @@ class Intervenants {
      *
      * @return string|null Returns the rc.
      */
-    public function getRc(): ?string{
+    public function getRc(): ?string {
         return $this->rc;
     }
 
@@ -453,7 +452,7 @@ class Intervenants {
      *
      * @return string|null Returns the siret.
      */
-    public function getSiret(): ?string{
+    public function getSiret(): ?string {
         return $this->siret;
     }
 
@@ -462,7 +461,7 @@ class Intervenants {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -471,7 +470,7 @@ class Intervenants {
      *
      * @return string|null Returns the tel2.
      */
-    public function getTel2(): ?string{
+    public function getTel2(): ?string {
         return $this->tel2;
     }
 
@@ -480,7 +479,7 @@ class Intervenants {
      *
      * @return string|null Returns the tel voiture.
      */
-    public function getTelVoiture(): ?string{
+    public function getTelVoiture(): ?string {
         return $this->telVoiture;
     }
 
@@ -489,7 +488,7 @@ class Intervenants {
      *
      * @return string|null Returns the telex.
      */
-    public function getTelex(): ?string{
+    public function getTelex(): ?string {
         return $this->telex;
     }
 

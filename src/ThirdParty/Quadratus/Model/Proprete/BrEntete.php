@@ -448,7 +448,6 @@ class BrEntete {
      */
     private $txEscompteAchat;
 
-
     /**
      * Constructor.
      */
@@ -461,7 +460,7 @@ class BrEntete {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -470,7 +469,7 @@ class BrEntete {
      *
      * @return string|null Returns the btq2.
      */
-    public function getBtq2(): ?string{
+    public function getBtq2(): ?string {
         return $this->btq2;
     }
 
@@ -479,7 +478,7 @@ class BrEntete {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -488,7 +487,7 @@ class BrEntete {
      *
      * @return string|null Returns the bureau distributeur2.
      */
-    public function getBureauDistributeur2(): ?string{
+    public function getBureauDistributeur2(): ?string {
         return $this->bureauDistributeur2;
     }
 
@@ -497,7 +496,7 @@ class BrEntete {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -506,7 +505,7 @@ class BrEntete {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -515,7 +514,7 @@ class BrEntete {
      *
      * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison(): ?string{
+    public function getCodeLivraison(): ?string {
         return $this->codeLivraison;
     }
 
@@ -524,7 +523,7 @@ class BrEntete {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -533,7 +532,7 @@ class BrEntete {
      *
      * @return string|null Returns the code officiel commune2.
      */
-    public function getCodeOfficielCommune2(): ?string{
+    public function getCodeOfficielCommune2(): ?string {
         return $this->codeOfficielCommune2;
     }
 
@@ -542,7 +541,7 @@ class BrEntete {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -551,7 +550,7 @@ class BrEntete {
      *
      * @return string|null Returns the code postal2.
      */
-    public function getCodePostal2(): ?string{
+    public function getCodePostal2(): ?string {
         return $this->codePostal2;
     }
 
@@ -560,7 +559,7 @@ class BrEntete {
      *
      * @return string|null Returns the code reglement.
      */
-    public function getCodeReglement(): ?string{
+    public function getCodeReglement(): ?string {
         return $this->codeReglement;
     }
 
@@ -569,7 +568,7 @@ class BrEntete {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -578,7 +577,7 @@ class BrEntete {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -587,7 +586,7 @@ class BrEntete {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -596,7 +595,7 @@ class BrEntete {
      *
      * @return string|null Returns the complement2.
      */
-    public function getComplement2(): ?string{
+    public function getComplement2(): ?string {
         return $this->complement2;
     }
 
@@ -605,7 +604,7 @@ class BrEntete {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -614,7 +613,7 @@ class BrEntete {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -623,7 +622,7 @@ class BrEntete {
      *
      * @return DateTime|null Returns the date facture fournisseur.
      */
-    public function getDateFactureFournisseur(): ?DateTime{
+    public function getDateFactureFournisseur(): ?DateTime {
         return $this->dateFactureFournisseur;
     }
 
@@ -632,7 +631,7 @@ class BrEntete {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -641,7 +640,7 @@ class BrEntete {
      *
      * @return DateTime|null Returns the date piece.
      */
-    public function getDatePiece(): ?DateTime{
+    public function getDatePiece(): ?DateTime {
         return $this->datePiece;
     }
 
@@ -650,7 +649,7 @@ class BrEntete {
      *
      * @return DateTime|null Returns the date reception prevue.
      */
-    public function getDateReceptionPrevue(): ?DateTime{
+    public function getDateReceptionPrevue(): ?DateTime {
         return $this->dateReceptionPrevue;
     }
 
@@ -659,7 +658,7 @@ class BrEntete {
      *
      * @return bool|null Returns the echeance forcee.
      */
-    public function getEcheanceForcee(): ?bool{
+    public function getEcheanceForcee(): ?bool {
         return $this->echeanceForcee;
     }
 
@@ -668,7 +667,7 @@ class BrEntete {
      *
      * @return int|null Returns the edition.
      */
-    public function getEdition(): ?int{
+    public function getEdition(): ?int {
         return $this->edition;
     }
 
@@ -677,7 +676,7 @@ class BrEntete {
      *
      * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros(): ?bool{
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
@@ -686,7 +685,7 @@ class BrEntete {
      *
      * @return float|null Returns the montant acompte.
      */
-    public function getMontantAcompte(): ?float{
+    public function getMontantAcompte(): ?float {
         return $this->montantAcompte;
     }
 
@@ -695,7 +694,7 @@ class BrEntete {
      *
      * @return int|null Returns the nb colis.
      */
-    public function getNbColis(): ?int{
+    public function getNbColis(): ?int {
         return $this->nbColis;
     }
 
@@ -704,7 +703,7 @@ class BrEntete {
      *
      * @return string|null Returns the no piece.
      */
-    public function getNoPiece(): ?string{
+    public function getNoPiece(): ?string {
         return $this->noPiece;
     }
 
@@ -713,7 +712,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -722,7 +721,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom2.
      */
-    public function getNom2(): ?string{
+    public function getNom2(): ?string {
         return $this->nom2;
     }
 
@@ -731,7 +730,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -740,7 +739,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2(): ?string{
+    public function getNomSuite2(): ?string {
         return $this->nomSuite2;
     }
 
@@ -749,7 +748,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -758,7 +757,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom ville2.
      */
-    public function getNomVille2(): ?string{
+    public function getNomVille2(): ?string {
         return $this->nomVille2;
     }
 
@@ -767,7 +766,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -776,7 +775,7 @@ class BrEntete {
      *
      * @return string|null Returns the nom voie2.
      */
-    public function getNomVoie2(): ?string{
+    public function getNomVoie2(): ?string {
         return $this->nomVoie2;
     }
 
@@ -785,7 +784,7 @@ class BrEntete {
      *
      * @return int|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?int{
+    public function getNombreEcheances(): ?int {
         return $this->nombreEcheances;
     }
 
@@ -794,7 +793,7 @@ class BrEntete {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -803,7 +802,7 @@ class BrEntete {
      *
      * @return string|null Returns the num voie2.
      */
-    public function getNumVoie2(): ?string{
+    public function getNumVoie2(): ?string {
         return $this->numVoie2;
     }
 
@@ -812,7 +811,7 @@ class BrEntete {
      *
      * @return string|null Returns the numero facture fournisseur.
      */
-    public function getNumeroFactureFournisseur(): ?string{
+    public function getNumeroFactureFournisseur(): ?string {
         return $this->numeroFactureFournisseur;
     }
 
@@ -821,7 +820,7 @@ class BrEntete {
      *
      * @return int|null Returns the paiement depart le.
      */
-    public function getPaiementDepartLe(): ?int{
+    public function getPaiementDepartLe(): ?int {
         return $this->paiementDepartLe;
     }
 
@@ -830,7 +829,7 @@ class BrEntete {
      *
      * @return int|null Returns the paiement le.
      */
-    public function getPaiementLe(): ?int{
+    public function getPaiementLe(): ?int {
         return $this->paiementLe;
     }
 
@@ -839,7 +838,7 @@ class BrEntete {
      *
      * @return int|null Returns the paiement nombre de jours.
      */
-    public function getPaiementNombreDeJours(): ?int{
+    public function getPaiementNombreDeJours(): ?int {
         return $this->paiementNombreDeJours;
     }
 
@@ -848,7 +847,7 @@ class BrEntete {
      *
      * @return float|null Returns the poids.
      */
-    public function getPoids(): ?float{
+    public function getPoids(): ?float {
         return $this->poids;
     }
 
@@ -857,7 +856,7 @@ class BrEntete {
      *
      * @return string|null Returns the reference1.
      */
-    public function getReference1(): ?string{
+    public function getReference1(): ?string {
         return $this->reference1;
     }
 
@@ -866,7 +865,7 @@ class BrEntete {
      *
      * @return string|null Returns the reference2.
      */
-    public function getReference2(): ?string{
+    public function getReference2(): ?string {
         return $this->reference2;
     }
 
@@ -875,7 +874,7 @@ class BrEntete {
      *
      * @return string|null Returns the reference3.
      */
-    public function getReference3(): ?string{
+    public function getReference3(): ?string {
         return $this->reference3;
     }
 
@@ -884,7 +883,7 @@ class BrEntete {
      *
      * @return string|null Returns the reference4.
      */
-    public function getReference4(): ?string{
+    public function getReference4(): ?string {
         return $this->reference4;
     }
 
@@ -893,7 +892,7 @@ class BrEntete {
      *
      * @return float|null Returns the remise pied.
      */
-    public function getRemisePied(): ?float{
+    public function getRemisePied(): ?float {
         return $this->remisePied;
     }
 
@@ -902,7 +901,7 @@ class BrEntete {
      *
      * @return float|null Returns the remise pied2.
      */
-    public function getRemisePied2(): ?float{
+    public function getRemisePied2(): ?float {
         return $this->remisePied2;
     }
 
@@ -911,7 +910,7 @@ class BrEntete {
      *
      * @return float|null Returns the remise pied3.
      */
-    public function getRemisePied3(): ?float{
+    public function getRemisePied3(): ?float {
         return $this->remisePied3;
     }
 
@@ -920,7 +919,7 @@ class BrEntete {
      *
      * @return bool|null Returns the saisir adresse.
      */
-    public function getSaisirAdresse(): ?bool{
+    public function getSaisirAdresse(): ?bool {
         return $this->saisirAdresse;
     }
 
@@ -929,7 +928,7 @@ class BrEntete {
      *
      * @return bool|null Returns the saisir adresse livraison.
      */
-    public function getSaisirAdresseLivraison(): ?bool{
+    public function getSaisirAdresseLivraison(): ?bool {
         return $this->saisirAdresseLivraison;
     }
 
@@ -938,7 +937,7 @@ class BrEntete {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -947,7 +946,7 @@ class BrEntete {
      *
      * @return bool|null Returns the soumis taxe1.
      */
-    public function getSoumisTaxe1(): ?bool{
+    public function getSoumisTaxe1(): ?bool {
         return $this->soumisTaxe1;
     }
 
@@ -956,7 +955,7 @@ class BrEntete {
      *
      * @return bool|null Returns the soumis taxe2.
      */
-    public function getSoumisTaxe2(): ?bool{
+    public function getSoumisTaxe2(): ?bool {
         return $this->soumisTaxe2;
     }
 
@@ -965,7 +964,7 @@ class BrEntete {
      *
      * @return bool|null Returns the soumis taxe3.
      */
-    public function getSoumisTaxe3(): ?bool{
+    public function getSoumisTaxe3(): ?bool {
         return $this->soumisTaxe3;
     }
 
@@ -974,7 +973,7 @@ class BrEntete {
      *
      * @return float|null Returns the taux devise.
      */
-    public function getTauxDevise(): ?float{
+    public function getTauxDevise(): ?float {
         return $this->tauxDevise;
     }
 
@@ -983,7 +982,7 @@ class BrEntete {
      *
      * @return int|null Returns the transfert.
      */
-    public function getTransfert(): ?int{
+    public function getTransfert(): ?int {
         return $this->transfert;
     }
 
@@ -992,7 +991,7 @@ class BrEntete {
      *
      * @return string|null Returns the transporteur.
      */
-    public function getTransporteur(): ?string{
+    public function getTransporteur(): ?string {
         return $this->transporteur;
     }
 
@@ -1001,7 +1000,7 @@ class BrEntete {
      *
      * @return float|null Returns the tx escompte achat.
      */
-    public function getTxEscompteAchat(): ?float{
+    public function getTxEscompteAchat(): ?float {
         return $this->txEscompteAchat;
     }
 

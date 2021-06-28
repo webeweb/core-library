@@ -84,7 +84,6 @@ class DosRevEtatCpt {
      */
     private $solde;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class DosRevEtatCpt {
      *
      * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur(): ?string{
+    public function getCollaborateur(): ?string {
         return $this->collaborateur;
     }
 
@@ -106,7 +105,7 @@ class DosRevEtatCpt {
      *
      * @return float|null Returns the credit.
      */
-    public function getCredit(): ?float{
+    public function getCredit(): ?float {
         return $this->credit;
     }
 
@@ -115,7 +114,7 @@ class DosRevEtatCpt {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -124,7 +123,7 @@ class DosRevEtatCpt {
      *
      * @return float|null Returns the debit.
      */
-    public function getDebit(): ?float{
+    public function getDebit(): ?float {
         return $this->debit;
     }
 
@@ -133,7 +132,7 @@ class DosRevEtatCpt {
      *
      * @return string|null Returns the etat cpt.
      */
-    public function getEtatCpt(): ?string{
+    public function getEtatCpt(): ?string {
         return $this->etatCpt;
     }
 
@@ -142,7 +141,7 @@ class DosRevEtatCpt {
      *
      * @return bool|null Returns the modifie.
      */
-    public function getModifie(): ?bool{
+    public function getModifie(): ?bool {
         return $this->modifie;
     }
 
@@ -151,7 +150,7 @@ class DosRevEtatCpt {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -160,7 +159,7 @@ class DosRevEtatCpt {
      *
      * @return DateTime|null Returns the periode rev.
      */
-    public function getPeriodeRev(): ?DateTime{
+    public function getPeriodeRev(): ?DateTime {
         return $this->periodeRev;
     }
 
@@ -169,7 +168,7 @@ class DosRevEtatCpt {
      *
      * @return float|null Returns the solde.
      */
-    public function getSolde(): ?float{
+    public function getSolde(): ?float {
         return $this->solde;
     }
 

@@ -33,7 +33,6 @@ class DataSynchroSupprime {
      */
     private $uniqIdBlocage;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class DataSynchroSupprime {
      *
      * @return string|null Returns the type data.
      */
-    public function getTypeData(): ?string{
+    public function getTypeData(): ?string {
         return $this->typeData;
     }
 
@@ -55,7 +54,7 @@ class DataSynchroSupprime {
      *
      * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage(): ?string{
+    public function getUniqIdBlocage(): ?string {
         return $this->uniqIdBlocage;
     }
 

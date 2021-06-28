@@ -357,7 +357,6 @@ class DecTva2 {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -370,7 +369,7 @@ class DecTva2 {
      *
      * @return float|null Returns the as4284 base.
      */
-    public function getAs4284Base(): ?float{
+    public function getAs4284Base(): ?float {
         return $this->as4284Base;
     }
 
@@ -379,7 +378,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az3510 base.
      */
-    public function getAz3510Base(): ?float{
+    public function getAz3510Base(): ?float {
         return $this->az3510Base;
     }
 
@@ -388,7 +387,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az3520 base.
      */
-    public function getAz3520Base(): ?float{
+    public function getAz3520Base(): ?float {
         return $this->az3520Base;
     }
 
@@ -397,7 +396,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4204 nb.
      */
-    public function getAz4204Nb(): ?int{
+    public function getAz4204Nb(): ?int {
         return $this->az4204Nb;
     }
 
@@ -406,7 +405,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4206 nb.
      */
-    public function getAz4206Nb(): ?int{
+    public function getAz4206Nb(): ?int {
         return $this->az4206Nb;
     }
 
@@ -415,7 +414,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4207 nb k.
      */
-    public function getAz4207NbK(): ?int{
+    public function getAz4207NbK(): ?int {
         return $this->az4207NbK;
     }
 
@@ -424,7 +423,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4213 base.
      */
-    public function getAz4213Base(): ?float{
+    public function getAz4213Base(): ?float {
         return $this->az4213Base;
     }
 
@@ -433,7 +432,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4215 base.
      */
-    public function getAz4215Base(): ?float{
+    public function getAz4215Base(): ?float {
         return $this->az4215Base;
     }
 
@@ -442,7 +441,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4217 base.
      */
-    public function getAz4217Base(): ?float{
+    public function getAz4217Base(): ?float {
         return $this->az4217Base;
     }
 
@@ -451,7 +450,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4223 base.
      */
-    public function getAz4223Base(): ?float{
+    public function getAz4223Base(): ?float {
         return $this->az4223Base;
     }
 
@@ -460,7 +459,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4226 base.
      */
-    public function getAz4226Base(): ?float{
+    public function getAz4226Base(): ?float {
         return $this->az4226Base;
     }
 
@@ -469,7 +468,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4228 base.
      */
-    public function getAz4228Base(): ?float{
+    public function getAz4228Base(): ?float {
         return $this->az4228Base;
     }
 
@@ -478,7 +477,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4229 base.
      */
-    public function getAz4229Base(): ?float{
+    public function getAz4229Base(): ?float {
         return $this->az4229Base;
     }
 
@@ -487,7 +486,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4237 base.
      */
-    public function getAz4237Base(): ?float{
+    public function getAz4237Base(): ?float {
         return $this->az4237Base;
     }
 
@@ -496,7 +495,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4240 base.
      */
-    public function getAz4240Base(): ?float{
+    public function getAz4240Base(): ?float {
         return $this->az4240Base;
     }
 
@@ -505,7 +504,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4245 base.
      */
-    public function getAz4245Base(): ?float{
+    public function getAz4245Base(): ?float {
         return $this->az4245Base;
     }
 
@@ -514,7 +513,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4249 nb t.
      */
-    public function getAz4249NbT(): ?int{
+    public function getAz4249NbT(): ?int {
         return $this->az4249NbT;
     }
 
@@ -523,7 +522,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4250 nb e.
      */
-    public function getAz4250NbE(): ?int{
+    public function getAz4250NbE(): ?int {
         return $this->az4250NbE;
     }
 
@@ -532,7 +531,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4252 base.
      */
-    public function getAz4252Base(): ?float{
+    public function getAz4252Base(): ?float {
         return $this->az4252Base;
     }
 
@@ -541,7 +540,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4255 base.
      */
-    public function getAz4255Base(): ?float{
+    public function getAz4255Base(): ?float {
         return $this->az4255Base;
     }
 
@@ -550,7 +549,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4257 base.
      */
-    public function getAz4257Base(): ?float{
+    public function getAz4257Base(): ?float {
         return $this->az4257Base;
     }
 
@@ -559,7 +558,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4258 base.
      */
-    public function getAz4258Base(): ?float{
+    public function getAz4258Base(): ?float {
         return $this->az4258Base;
     }
 
@@ -568,7 +567,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4268 base2.
      */
-    public function getAz4268Base2(): ?float{
+    public function getAz4268Base2(): ?float {
         return $this->az4268Base2;
     }
 
@@ -577,7 +576,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4270 base2.
      */
-    public function getAz4270Base2(): ?float{
+    public function getAz4270Base2(): ?float {
         return $this->az4270Base2;
     }
 
@@ -586,7 +585,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4278.
      */
-    public function getAz4278(): ?float{
+    public function getAz4278(): ?float {
         return $this->az4278;
     }
 
@@ -595,7 +594,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4278 base.
      */
-    public function getAz4278Base(): ?float{
+    public function getAz4278Base(): ?float {
         return $this->az4278Base;
     }
 
@@ -604,7 +603,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4279.
      */
-    public function getAz4279(): ?float{
+    public function getAz4279(): ?float {
         return $this->az4279;
     }
 
@@ -613,7 +612,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4279 nb k.
      */
-    public function getAz4279NbK(): ?int{
+    public function getAz4279NbK(): ?int {
         return $this->az4279NbK;
     }
 
@@ -622,7 +621,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4279 nb v.
      */
-    public function getAz4279NbV(): ?int{
+    public function getAz4279NbV(): ?int {
         return $this->az4279NbV;
     }
 
@@ -631,7 +630,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4280.
      */
-    public function getAz4280(): ?float{
+    public function getAz4280(): ?float {
         return $this->az4280;
     }
 
@@ -640,7 +639,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4280 nb k.
      */
-    public function getAz4280NbK(): ?int{
+    public function getAz4280NbK(): ?int {
         return $this->az4280NbK;
     }
 
@@ -649,7 +648,7 @@ class DecTva2 {
      *
      * @return int|null Returns the az4280 nb v.
      */
-    public function getAz4280NbV(): ?int{
+    public function getAz4280NbV(): ?int {
         return $this->az4280NbV;
     }
 
@@ -658,7 +657,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4281.
      */
-    public function getAz4281(): ?float{
+    public function getAz4281(): ?float {
         return $this->az4281;
     }
 
@@ -667,7 +666,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4281 base.
      */
-    public function getAz4281Base(): ?float{
+    public function getAz4281Base(): ?float {
         return $this->az4281Base;
     }
 
@@ -676,7 +675,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4282.
      */
-    public function getAz4282(): ?float{
+    public function getAz4282(): ?float {
         return $this->az4282;
     }
 
@@ -685,7 +684,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4282 base.
      */
-    public function getAz4282Base(): ?float{
+    public function getAz4282Base(): ?float {
         return $this->az4282Base;
     }
 
@@ -694,7 +693,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4283.
      */
-    public function getAz4283(): ?float{
+    public function getAz4283(): ?float {
         return $this->az4283;
     }
 
@@ -703,7 +702,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4283 base.
      */
-    public function getAz4283Base(): ?float{
+    public function getAz4283Base(): ?float {
         return $this->az4283Base;
     }
 
@@ -712,7 +711,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4284.
      */
-    public function getAz4284(): ?float{
+    public function getAz4284(): ?float {
         return $this->az4284;
     }
 
@@ -721,7 +720,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4285.
      */
-    public function getAz4285(): ?float{
+    public function getAz4285(): ?float {
         return $this->az4285;
     }
 
@@ -730,7 +729,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4285 base.
      */
-    public function getAz4285Base(): ?float{
+    public function getAz4285Base(): ?float {
         return $this->az4285Base;
     }
 
@@ -739,7 +738,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4288.
      */
-    public function getAz4288(): ?float{
+    public function getAz4288(): ?float {
         return $this->az4288;
     }
 
@@ -748,7 +747,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4288 base.
      */
-    public function getAz4288Base(): ?float{
+    public function getAz4288Base(): ?float {
         return $this->az4288Base;
     }
 
@@ -757,7 +756,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4289.
      */
-    public function getAz4289(): ?float{
+    public function getAz4289(): ?float {
         return $this->az4289;
     }
 
@@ -766,7 +765,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4289 base.
      */
-    public function getAz4289Base(): ?float{
+    public function getAz4289Base(): ?float {
         return $this->az4289Base;
     }
 
@@ -775,7 +774,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4290.
      */
-    public function getAz4290(): ?float{
+    public function getAz4290(): ?float {
         return $this->az4290;
     }
 
@@ -784,7 +783,7 @@ class DecTva2 {
      *
      * @return float|null Returns the az4290 base.
      */
-    public function getAz4290Base(): ?float{
+    public function getAz4290Base(): ?float {
         return $this->az4290Base;
     }
 
@@ -793,7 +792,7 @@ class DecTva2 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

@@ -392,7 +392,6 @@ class FacturesLignes {
      */
     private $ventilMarge;
 
-
     /**
      * Constructor.
      */
@@ -405,7 +404,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -414,7 +413,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code affaire ligne.
      */
-    public function getCodeAffaireLigne(): ?string{
+    public function getCodeAffaireLigne(): ?string {
         return $this->codeAffaireLigne;
     }
 
@@ -423,7 +422,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code anal article.
      */
-    public function getCodeAnalArticle(): ?string{
+    public function getCodeAnalArticle(): ?string {
         return $this->codeAnalArticle;
     }
 
@@ -432,7 +431,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -441,7 +440,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -450,7 +449,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code chantier ligne.
      */
-    public function getCodeChantierLigne(): ?string{
+    public function getCodeChantierLigne(): ?string {
         return $this->codeChantierLigne;
     }
 
@@ -459,7 +458,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -468,7 +467,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -477,7 +476,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code tva article.
      */
-    public function getCodeTvaArticle(): ?string{
+    public function getCodeTvaArticle(): ?string {
         return $this->codeTvaArticle;
     }
 
@@ -486,7 +485,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code unite.
      */
-    public function getCodeUnite(): ?string{
+    public function getCodeUnite(): ?string {
         return $this->codeUnite;
     }
 
@@ -495,7 +494,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the code ventil article.
      */
-    public function getCodeVentilArticle(): ?string{
+    public function getCodeVentilArticle(): ?string {
         return $this->codeVentilArticle;
     }
 
@@ -504,7 +503,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the coefficient bt.
      */
-    public function getCoefficientBt(): ?float{
+    public function getCoefficientBt(): ?float {
         return $this->coefficientBt;
     }
 
@@ -513,7 +512,7 @@ class FacturesLignes {
      *
      * @return DateTime|null Returns the date bt.
      */
-    public function getDateBt(): ?DateTime{
+    public function getDateBt(): ?DateTime {
         return $this->dateBt;
     }
 
@@ -522,7 +521,7 @@ class FacturesLignes {
      *
      * @return DateTime|null Returns the date preparation.
      */
-    public function getDatePreparation(): ?DateTime{
+    public function getDatePreparation(): ?DateTime {
         return $this->datePreparation;
     }
 
@@ -531,7 +530,7 @@ class FacturesLignes {
      *
      * @return bool|null Returns the depuis deb fac.
      */
-    public function getDepuisDebFac(): ?bool{
+    public function getDepuisDebFac(): ?bool {
         return $this->depuisDebFac;
     }
 
@@ -540,7 +539,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -549,7 +548,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -558,7 +557,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -567,7 +566,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation bis.
      */
-    public function getDesignationBis(): ?string{
+    public function getDesignationBis(): ?string {
         return $this->designationBis;
     }
 
@@ -576,7 +575,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation bis2.
      */
-    public function getDesignationBis2(): ?string{
+    public function getDesignationBis2(): ?string {
         return $this->designationBis2;
     }
 
@@ -585,7 +584,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation bis3.
      */
-    public function getDesignationBis3(): ?string{
+    public function getDesignationBis3(): ?string {
         return $this->designationBis3;
     }
 
@@ -594,7 +593,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the designation rtf.
      */
-    public function getDesignationRtf(): ?string{
+    public function getDesignationRtf(): ?string {
         return $this->designationRtf;
     }
 
@@ -603,7 +602,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the duree bt.
      */
-    public function getDureeBt(): ?float{
+    public function getDureeBt(): ?float {
         return $this->dureeBt;
     }
 
@@ -612,7 +611,7 @@ class FacturesLignes {
      *
      * @return bool|null Returns the from pointage bt.
      */
-    public function getFromPointageBt(): ?bool{
+    public function getFromPointageBt(): ?bool {
         return $this->fromPointageBt;
     }
 
@@ -621,7 +620,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the heures prev.
      */
-    public function getHeuresPrev(): ?float{
+    public function getHeuresPrev(): ?float {
         return $this->heuresPrev;
     }
 
@@ -630,7 +629,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the heures reel.
      */
-    public function getHeuresReel(): ?float{
+    public function getHeuresReel(): ?float {
         return $this->heuresReel;
     }
 
@@ -639,7 +638,7 @@ class FacturesLignes {
      *
      * @return bool|null Returns the imprimer dans pied.
      */
-    public function getImprimerDansPied(): ?bool{
+    public function getImprimerDansPied(): ?bool {
         return $this->imprimerDansPied;
     }
 
@@ -648,7 +647,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the montant unitaire taxe.
      */
-    public function getMontantUnitaireTaxe(): ?float{
+    public function getMontantUnitaireTaxe(): ?float {
         return $this->montantUnitaireTaxe;
     }
 
@@ -657,7 +656,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the mot cle dans pied.
      */
-    public function getMotCleDansPied(): ?string{
+    public function getMotCleDansPied(): ?string {
         return $this->motCleDansPied;
     }
 
@@ -666,7 +665,7 @@ class FacturesLignes {
      *
      * @return int|null Returns the no chrono preparation.
      */
-    public function getNoChronoPreparation(): ?int{
+    public function getNoChronoPreparation(): ?int {
         return $this->noChronoPreparation;
     }
 
@@ -675,7 +674,7 @@ class FacturesLignes {
      *
      * @return int|null Returns the no ligne ori.
      */
-    public function getNoLigneOri(): ?int{
+    public function getNoLigneOri(): ?int {
         return $this->noLigneOri;
     }
 
@@ -684,7 +683,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the no piece origine.
      */
-    public function getNoPieceOrigine(): ?string{
+    public function getNoPieceOrigine(): ?string {
         return $this->noPieceOrigine;
     }
 
@@ -693,7 +692,7 @@ class FacturesLignes {
      *
      * @return int|null Returns the numero bt.
      */
-    public function getNumeroBt(): ?int{
+    public function getNumeroBt(): ?int {
         return $this->numeroBt;
     }
 
@@ -702,7 +701,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the numero facture.
      */
-    public function getNumeroFacture(): ?string{
+    public function getNumeroFacture(): ?string {
         return $this->numeroFacture;
     }
 
@@ -711,7 +710,7 @@ class FacturesLignes {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -720,7 +719,7 @@ class FacturesLignes {
      *
      * @return DateTime|null Returns the periode preparation.
      */
-    public function getPeriodePreparation(): ?DateTime{
+    public function getPeriodePreparation(): ?DateTime {
         return $this->periodePreparation;
     }
 
@@ -729,7 +728,7 @@ class FacturesLignes {
      *
      * @return DateTime|null Returns the periode ventil marge.
      */
-    public function getPeriodeVentilMarge(): ?DateTime{
+    public function getPeriodeVentilMarge(): ?DateTime {
         return $this->periodeVentilMarge;
     }
 
@@ -738,7 +737,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -747,7 +746,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the prix achat.
      */
-    public function getPrixAchat(): ?float{
+    public function getPrixAchat(): ?float {
         return $this->prixAchat;
     }
 
@@ -756,7 +755,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the prix achat bt.
      */
-    public function getPrixAchatBt(): ?float{
+    public function getPrixAchatBt(): ?float {
         return $this->prixAchatBt;
     }
 
@@ -765,7 +764,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the prix unitaire.
      */
-    public function getPrixUnitaire(): ?float{
+    public function getPrixUnitaire(): ?float {
         return $this->prixUnitaire;
     }
 
@@ -774,7 +773,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the prix unitaire pdf.
      */
-    public function getPrixUnitairePdf(): ?float{
+    public function getPrixUnitairePdf(): ?float {
         return $this->prixUnitairePdf;
     }
 
@@ -783,7 +782,7 @@ class FacturesLignes {
      *
      * @return bool|null Returns the px facture.
      */
-    public function getPxFacture(): ?bool{
+    public function getPxFacture(): ?bool {
         return $this->pxFacture;
     }
 
@@ -792,7 +791,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -801,7 +800,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the ref poste cde web ft.
      */
-    public function getRefPosteCdeWebFt(): ?string{
+    public function getRefPosteCdeWebFt(): ?string {
         return $this->refPosteCdeWebFt;
     }
 
@@ -810,7 +809,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -819,7 +818,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -828,7 +827,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -837,7 +836,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the taux horaire bt.
      */
-    public function getTauxHoraireBt(): ?float{
+    public function getTauxHoraireBt(): ?float {
         return $this->tauxHoraireBt;
     }
 
@@ -846,7 +845,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the taux tva article.
      */
-    public function getTauxTvaArticle(): ?float{
+    public function getTauxTvaArticle(): ?float {
         return $this->tauxTvaArticle;
     }
 
@@ -855,7 +854,7 @@ class FacturesLignes {
      *
      * @return float|null Returns the taux tva taxe.
      */
-    public function getTauxTvaTaxe(): ?float{
+    public function getTauxTvaTaxe(): ?float {
         return $this->tauxTvaTaxe;
     }
 
@@ -864,7 +863,7 @@ class FacturesLignes {
      *
      * @return string|null Returns the type piece.
      */
-    public function getTypePiece(): ?string{
+    public function getTypePiece(): ?string {
         return $this->typePiece;
     }
 
@@ -873,7 +872,7 @@ class FacturesLignes {
      *
      * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge(): ?bool{
+    public function getVentilMarge(): ?bool {
         return $this->ventilMarge;
     }
 

@@ -140,7 +140,6 @@ class DadsuSituation {
      */
     private $typeBase;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the code debut periode.
      */
-    public function getCodeDebutPeriode(): ?string{
+    public function getCodeDebutPeriode(): ?string {
         return $this->codeDebutPeriode;
     }
 
@@ -162,7 +161,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -171,7 +170,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the code temps arret.
      */
-    public function getCodeTempsArret(): ?string{
+    public function getCodeTempsArret(): ?string {
         return $this->codeTempsArret;
     }
 
@@ -180,7 +179,7 @@ class DadsuSituation {
      *
      * @return DateTime|null Returns the date ctrl norme.
      */
-    public function getDateCtrlNorme(): ?DateTime{
+    public function getDateCtrlNorme(): ?DateTime {
         return $this->dateCtrlNorme;
     }
 
@@ -189,7 +188,7 @@ class DadsuSituation {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode(): ?DateTime{
+    public function getDebutPeriode(): ?DateTime {
         return $this->debutPeriode;
     }
 
@@ -198,7 +197,7 @@ class DadsuSituation {
      *
      * @return bool|null Returns the depuis calcul.
      */
-    public function getDepuisCalcul(): ?bool{
+    public function getDepuisCalcul(): ?bool {
         return $this->depuisCalcul;
     }
 
@@ -207,7 +206,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the etat ctrl norme.
      */
-    public function getEtatCtrlNorme(): ?string{
+    public function getEtatCtrlNorme(): ?string {
         return $this->etatCtrlNorme;
     }
 
@@ -216,7 +215,7 @@ class DadsuSituation {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode(): ?DateTime{
+    public function getFinPeriode(): ?DateTime {
         return $this->finPeriode;
     }
 
@@ -225,7 +224,7 @@ class DadsuSituation {
      *
      * @return float|null Returns the montant1.
      */
-    public function getMontant1(): ?float{
+    public function getMontant1(): ?float {
         return $this->montant1;
     }
 
@@ -234,7 +233,7 @@ class DadsuSituation {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -243,7 +242,7 @@ class DadsuSituation {
      *
      * @return float|null Returns the montant employeur.
      */
-    public function getMontantEmployeur(): ?float{
+    public function getMontantEmployeur(): ?float {
         return $this->montantEmployeur;
     }
 
@@ -252,7 +251,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the motif situation.
      */
-    public function getMotifSituation(): ?string{
+    public function getMotifSituation(): ?string {
         return $this->motifSituation;
     }
 
@@ -261,7 +260,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -270,7 +269,7 @@ class DadsuSituation {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -279,7 +278,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the qualif unite temps.
      */
-    public function getQualifUniteTemps(): ?string{
+    public function getQualifUniteTemps(): ?string {
         return $this->qualifUniteTemps;
     }
 
@@ -288,7 +287,7 @@ class DadsuSituation {
      *
      * @return float|null Returns the temps arret.
      */
-    public function getTempsArret(): ?float{
+    public function getTempsArret(): ?float {
         return $this->tempsArret;
     }
 
@@ -297,7 +296,7 @@ class DadsuSituation {
      *
      * @return string|null Returns the type base.
      */
-    public function getTypeBase(): ?string{
+    public function getTypeBase(): ?string {
         return $this->typeBase;
     }
 

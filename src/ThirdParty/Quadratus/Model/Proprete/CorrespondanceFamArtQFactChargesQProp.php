@@ -33,7 +33,6 @@ class CorrespondanceFamArtQFactChargesQProp {
      */
     private $codeFamArt;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class CorrespondanceFamArtQFactChargesQProp {
      *
      * @return string|null Returns the code charge.
      */
-    public function getCodeCharge(): ?string{
+    public function getCodeCharge(): ?string {
         return $this->codeCharge;
     }
 
@@ -55,7 +54,7 @@ class CorrespondanceFamArtQFactChargesQProp {
      *
      * @return string|null Returns the code fam art.
      */
-    public function getCodeFamArt(): ?string{
+    public function getCodeFamArt(): ?string {
         return $this->codeFamArt;
     }
 

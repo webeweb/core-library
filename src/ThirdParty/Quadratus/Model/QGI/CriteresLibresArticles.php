@@ -1428,7 +1428,6 @@ class CriteresLibresArticles {
      */
     private $valeur9;
 
-
     /**
      * Constructor.
      */
@@ -1441,7 +1440,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case1.
      */
-    public function getCase1(): ?bool{
+    public function getCase1(): ?bool {
         return $this->case1;
     }
 
@@ -1450,7 +1449,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case10.
      */
-    public function getCase10(): ?bool{
+    public function getCase10(): ?bool {
         return $this->case10;
     }
 
@@ -1459,7 +1458,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case11.
      */
-    public function getCase11(): ?bool{
+    public function getCase11(): ?bool {
         return $this->case11;
     }
 
@@ -1468,7 +1467,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case12.
      */
-    public function getCase12(): ?bool{
+    public function getCase12(): ?bool {
         return $this->case12;
     }
 
@@ -1477,7 +1476,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case13.
      */
-    public function getCase13(): ?bool{
+    public function getCase13(): ?bool {
         return $this->case13;
     }
 
@@ -1486,7 +1485,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case14.
      */
-    public function getCase14(): ?bool{
+    public function getCase14(): ?bool {
         return $this->case14;
     }
 
@@ -1495,7 +1494,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case15.
      */
-    public function getCase15(): ?bool{
+    public function getCase15(): ?bool {
         return $this->case15;
     }
 
@@ -1504,7 +1503,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case16.
      */
-    public function getCase16(): ?bool{
+    public function getCase16(): ?bool {
         return $this->case16;
     }
 
@@ -1513,7 +1512,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case17.
      */
-    public function getCase17(): ?bool{
+    public function getCase17(): ?bool {
         return $this->case17;
     }
 
@@ -1522,7 +1521,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case18.
      */
-    public function getCase18(): ?bool{
+    public function getCase18(): ?bool {
         return $this->case18;
     }
 
@@ -1531,7 +1530,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case19.
      */
-    public function getCase19(): ?bool{
+    public function getCase19(): ?bool {
         return $this->case19;
     }
 
@@ -1540,7 +1539,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case2.
      */
-    public function getCase2(): ?bool{
+    public function getCase2(): ?bool {
         return $this->case2;
     }
 
@@ -1549,7 +1548,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case20.
      */
-    public function getCase20(): ?bool{
+    public function getCase20(): ?bool {
         return $this->case20;
     }
 
@@ -1558,7 +1557,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case21.
      */
-    public function getCase21(): ?bool{
+    public function getCase21(): ?bool {
         return $this->case21;
     }
 
@@ -1567,7 +1566,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case22.
      */
-    public function getCase22(): ?bool{
+    public function getCase22(): ?bool {
         return $this->case22;
     }
 
@@ -1576,7 +1575,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case23.
      */
-    public function getCase23(): ?bool{
+    public function getCase23(): ?bool {
         return $this->case23;
     }
 
@@ -1585,7 +1584,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case24.
      */
-    public function getCase24(): ?bool{
+    public function getCase24(): ?bool {
         return $this->case24;
     }
 
@@ -1594,7 +1593,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case25.
      */
-    public function getCase25(): ?bool{
+    public function getCase25(): ?bool {
         return $this->case25;
     }
 
@@ -1603,7 +1602,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case26.
      */
-    public function getCase26(): ?bool{
+    public function getCase26(): ?bool {
         return $this->case26;
     }
 
@@ -1612,7 +1611,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case27.
      */
-    public function getCase27(): ?bool{
+    public function getCase27(): ?bool {
         return $this->case27;
     }
 
@@ -1621,7 +1620,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case28.
      */
-    public function getCase28(): ?bool{
+    public function getCase28(): ?bool {
         return $this->case28;
     }
 
@@ -1630,7 +1629,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case29.
      */
-    public function getCase29(): ?bool{
+    public function getCase29(): ?bool {
         return $this->case29;
     }
 
@@ -1639,7 +1638,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case3.
      */
-    public function getCase3(): ?bool{
+    public function getCase3(): ?bool {
         return $this->case3;
     }
 
@@ -1648,7 +1647,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case30.
      */
-    public function getCase30(): ?bool{
+    public function getCase30(): ?bool {
         return $this->case30;
     }
 
@@ -1657,7 +1656,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case31.
      */
-    public function getCase31(): ?bool{
+    public function getCase31(): ?bool {
         return $this->case31;
     }
 
@@ -1666,7 +1665,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case32.
      */
-    public function getCase32(): ?bool{
+    public function getCase32(): ?bool {
         return $this->case32;
     }
 
@@ -1675,7 +1674,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case33.
      */
-    public function getCase33(): ?bool{
+    public function getCase33(): ?bool {
         return $this->case33;
     }
 
@@ -1684,7 +1683,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case34.
      */
-    public function getCase34(): ?bool{
+    public function getCase34(): ?bool {
         return $this->case34;
     }
 
@@ -1693,7 +1692,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case35.
      */
-    public function getCase35(): ?bool{
+    public function getCase35(): ?bool {
         return $this->case35;
     }
 
@@ -1702,7 +1701,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case36.
      */
-    public function getCase36(): ?bool{
+    public function getCase36(): ?bool {
         return $this->case36;
     }
 
@@ -1711,7 +1710,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case37.
      */
-    public function getCase37(): ?bool{
+    public function getCase37(): ?bool {
         return $this->case37;
     }
 
@@ -1720,7 +1719,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case38.
      */
-    public function getCase38(): ?bool{
+    public function getCase38(): ?bool {
         return $this->case38;
     }
 
@@ -1729,7 +1728,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case39.
      */
-    public function getCase39(): ?bool{
+    public function getCase39(): ?bool {
         return $this->case39;
     }
 
@@ -1738,7 +1737,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case4.
      */
-    public function getCase4(): ?bool{
+    public function getCase4(): ?bool {
         return $this->case4;
     }
 
@@ -1747,7 +1746,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case40.
      */
-    public function getCase40(): ?bool{
+    public function getCase40(): ?bool {
         return $this->case40;
     }
 
@@ -1756,7 +1755,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case41.
      */
-    public function getCase41(): ?bool{
+    public function getCase41(): ?bool {
         return $this->case41;
     }
 
@@ -1765,7 +1764,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case42.
      */
-    public function getCase42(): ?bool{
+    public function getCase42(): ?bool {
         return $this->case42;
     }
 
@@ -1774,7 +1773,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case43.
      */
-    public function getCase43(): ?bool{
+    public function getCase43(): ?bool {
         return $this->case43;
     }
 
@@ -1783,7 +1782,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case44.
      */
-    public function getCase44(): ?bool{
+    public function getCase44(): ?bool {
         return $this->case44;
     }
 
@@ -1792,7 +1791,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case45.
      */
-    public function getCase45(): ?bool{
+    public function getCase45(): ?bool {
         return $this->case45;
     }
 
@@ -1801,7 +1800,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case46.
      */
-    public function getCase46(): ?bool{
+    public function getCase46(): ?bool {
         return $this->case46;
     }
 
@@ -1810,7 +1809,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case47.
      */
-    public function getCase47(): ?bool{
+    public function getCase47(): ?bool {
         return $this->case47;
     }
 
@@ -1819,7 +1818,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case48.
      */
-    public function getCase48(): ?bool{
+    public function getCase48(): ?bool {
         return $this->case48;
     }
 
@@ -1828,7 +1827,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case49.
      */
-    public function getCase49(): ?bool{
+    public function getCase49(): ?bool {
         return $this->case49;
     }
 
@@ -1837,7 +1836,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case5.
      */
-    public function getCase5(): ?bool{
+    public function getCase5(): ?bool {
         return $this->case5;
     }
 
@@ -1846,7 +1845,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case50.
      */
-    public function getCase50(): ?bool{
+    public function getCase50(): ?bool {
         return $this->case50;
     }
 
@@ -1855,7 +1854,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case6.
      */
-    public function getCase6(): ?bool{
+    public function getCase6(): ?bool {
         return $this->case6;
     }
 
@@ -1864,7 +1863,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case7.
      */
-    public function getCase7(): ?bool{
+    public function getCase7(): ?bool {
         return $this->case7;
     }
 
@@ -1873,7 +1872,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case8.
      */
-    public function getCase8(): ?bool{
+    public function getCase8(): ?bool {
         return $this->case8;
     }
 
@@ -1882,7 +1881,7 @@ class CriteresLibresArticles {
      *
      * @return bool|null Returns the case9.
      */
-    public function getCase9(): ?bool{
+    public function getCase9(): ?bool {
         return $this->case9;
     }
 
@@ -1891,7 +1890,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -1900,7 +1899,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date1.
      */
-    public function getDate1(): ?DateTime{
+    public function getDate1(): ?DateTime {
         return $this->date1;
     }
 
@@ -1909,7 +1908,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date10.
      */
-    public function getDate10(): ?DateTime{
+    public function getDate10(): ?DateTime {
         return $this->date10;
     }
 
@@ -1918,7 +1917,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date11.
      */
-    public function getDate11(): ?DateTime{
+    public function getDate11(): ?DateTime {
         return $this->date11;
     }
 
@@ -1927,7 +1926,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date12.
      */
-    public function getDate12(): ?DateTime{
+    public function getDate12(): ?DateTime {
         return $this->date12;
     }
 
@@ -1936,7 +1935,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date13.
      */
-    public function getDate13(): ?DateTime{
+    public function getDate13(): ?DateTime {
         return $this->date13;
     }
 
@@ -1945,7 +1944,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date14.
      */
-    public function getDate14(): ?DateTime{
+    public function getDate14(): ?DateTime {
         return $this->date14;
     }
 
@@ -1954,7 +1953,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date15.
      */
-    public function getDate15(): ?DateTime{
+    public function getDate15(): ?DateTime {
         return $this->date15;
     }
 
@@ -1963,7 +1962,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date16.
      */
-    public function getDate16(): ?DateTime{
+    public function getDate16(): ?DateTime {
         return $this->date16;
     }
 
@@ -1972,7 +1971,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date17.
      */
-    public function getDate17(): ?DateTime{
+    public function getDate17(): ?DateTime {
         return $this->date17;
     }
 
@@ -1981,7 +1980,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date18.
      */
-    public function getDate18(): ?DateTime{
+    public function getDate18(): ?DateTime {
         return $this->date18;
     }
 
@@ -1990,7 +1989,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date19.
      */
-    public function getDate19(): ?DateTime{
+    public function getDate19(): ?DateTime {
         return $this->date19;
     }
 
@@ -1999,7 +1998,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date2.
      */
-    public function getDate2(): ?DateTime{
+    public function getDate2(): ?DateTime {
         return $this->date2;
     }
 
@@ -2008,7 +2007,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date20.
      */
-    public function getDate20(): ?DateTime{
+    public function getDate20(): ?DateTime {
         return $this->date20;
     }
 
@@ -2017,7 +2016,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date21.
      */
-    public function getDate21(): ?DateTime{
+    public function getDate21(): ?DateTime {
         return $this->date21;
     }
 
@@ -2026,7 +2025,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date22.
      */
-    public function getDate22(): ?DateTime{
+    public function getDate22(): ?DateTime {
         return $this->date22;
     }
 
@@ -2035,7 +2034,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date23.
      */
-    public function getDate23(): ?DateTime{
+    public function getDate23(): ?DateTime {
         return $this->date23;
     }
 
@@ -2044,7 +2043,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date24.
      */
-    public function getDate24(): ?DateTime{
+    public function getDate24(): ?DateTime {
         return $this->date24;
     }
 
@@ -2053,7 +2052,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date25.
      */
-    public function getDate25(): ?DateTime{
+    public function getDate25(): ?DateTime {
         return $this->date25;
     }
 
@@ -2062,7 +2061,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date26.
      */
-    public function getDate26(): ?DateTime{
+    public function getDate26(): ?DateTime {
         return $this->date26;
     }
 
@@ -2071,7 +2070,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date27.
      */
-    public function getDate27(): ?DateTime{
+    public function getDate27(): ?DateTime {
         return $this->date27;
     }
 
@@ -2080,7 +2079,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date28.
      */
-    public function getDate28(): ?DateTime{
+    public function getDate28(): ?DateTime {
         return $this->date28;
     }
 
@@ -2089,7 +2088,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date29.
      */
-    public function getDate29(): ?DateTime{
+    public function getDate29(): ?DateTime {
         return $this->date29;
     }
 
@@ -2098,7 +2097,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date3.
      */
-    public function getDate3(): ?DateTime{
+    public function getDate3(): ?DateTime {
         return $this->date3;
     }
 
@@ -2107,7 +2106,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date30.
      */
-    public function getDate30(): ?DateTime{
+    public function getDate30(): ?DateTime {
         return $this->date30;
     }
 
@@ -2116,7 +2115,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date31.
      */
-    public function getDate31(): ?DateTime{
+    public function getDate31(): ?DateTime {
         return $this->date31;
     }
 
@@ -2125,7 +2124,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date32.
      */
-    public function getDate32(): ?DateTime{
+    public function getDate32(): ?DateTime {
         return $this->date32;
     }
 
@@ -2134,7 +2133,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date33.
      */
-    public function getDate33(): ?DateTime{
+    public function getDate33(): ?DateTime {
         return $this->date33;
     }
 
@@ -2143,7 +2142,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date34.
      */
-    public function getDate34(): ?DateTime{
+    public function getDate34(): ?DateTime {
         return $this->date34;
     }
 
@@ -2152,7 +2151,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date35.
      */
-    public function getDate35(): ?DateTime{
+    public function getDate35(): ?DateTime {
         return $this->date35;
     }
 
@@ -2161,7 +2160,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date36.
      */
-    public function getDate36(): ?DateTime{
+    public function getDate36(): ?DateTime {
         return $this->date36;
     }
 
@@ -2170,7 +2169,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date37.
      */
-    public function getDate37(): ?DateTime{
+    public function getDate37(): ?DateTime {
         return $this->date37;
     }
 
@@ -2179,7 +2178,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date38.
      */
-    public function getDate38(): ?DateTime{
+    public function getDate38(): ?DateTime {
         return $this->date38;
     }
 
@@ -2188,7 +2187,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date39.
      */
-    public function getDate39(): ?DateTime{
+    public function getDate39(): ?DateTime {
         return $this->date39;
     }
 
@@ -2197,7 +2196,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date4.
      */
-    public function getDate4(): ?DateTime{
+    public function getDate4(): ?DateTime {
         return $this->date4;
     }
 
@@ -2206,7 +2205,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date40.
      */
-    public function getDate40(): ?DateTime{
+    public function getDate40(): ?DateTime {
         return $this->date40;
     }
 
@@ -2215,7 +2214,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date41.
      */
-    public function getDate41(): ?DateTime{
+    public function getDate41(): ?DateTime {
         return $this->date41;
     }
 
@@ -2224,7 +2223,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date42.
      */
-    public function getDate42(): ?DateTime{
+    public function getDate42(): ?DateTime {
         return $this->date42;
     }
 
@@ -2233,7 +2232,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date43.
      */
-    public function getDate43(): ?DateTime{
+    public function getDate43(): ?DateTime {
         return $this->date43;
     }
 
@@ -2242,7 +2241,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date44.
      */
-    public function getDate44(): ?DateTime{
+    public function getDate44(): ?DateTime {
         return $this->date44;
     }
 
@@ -2251,7 +2250,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date45.
      */
-    public function getDate45(): ?DateTime{
+    public function getDate45(): ?DateTime {
         return $this->date45;
     }
 
@@ -2260,7 +2259,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date46.
      */
-    public function getDate46(): ?DateTime{
+    public function getDate46(): ?DateTime {
         return $this->date46;
     }
 
@@ -2269,7 +2268,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date47.
      */
-    public function getDate47(): ?DateTime{
+    public function getDate47(): ?DateTime {
         return $this->date47;
     }
 
@@ -2278,7 +2277,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date48.
      */
-    public function getDate48(): ?DateTime{
+    public function getDate48(): ?DateTime {
         return $this->date48;
     }
 
@@ -2287,7 +2286,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date49.
      */
-    public function getDate49(): ?DateTime{
+    public function getDate49(): ?DateTime {
         return $this->date49;
     }
 
@@ -2296,7 +2295,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date5.
      */
-    public function getDate5(): ?DateTime{
+    public function getDate5(): ?DateTime {
         return $this->date5;
     }
 
@@ -2305,7 +2304,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date50.
      */
-    public function getDate50(): ?DateTime{
+    public function getDate50(): ?DateTime {
         return $this->date50;
     }
 
@@ -2314,7 +2313,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date6.
      */
-    public function getDate6(): ?DateTime{
+    public function getDate6(): ?DateTime {
         return $this->date6;
     }
 
@@ -2323,7 +2322,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date7.
      */
-    public function getDate7(): ?DateTime{
+    public function getDate7(): ?DateTime {
         return $this->date7;
     }
 
@@ -2332,7 +2331,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date8.
      */
-    public function getDate8(): ?DateTime{
+    public function getDate8(): ?DateTime {
         return $this->date8;
     }
 
@@ -2341,7 +2340,7 @@ class CriteresLibresArticles {
      *
      * @return DateTime|null Returns the date9.
      */
-    public function getDate9(): ?DateTime{
+    public function getDate9(): ?DateTime {
         return $this->date9;
     }
 
@@ -2350,7 +2349,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte1.
      */
-    public function getTexte1(): ?string{
+    public function getTexte1(): ?string {
         return $this->texte1;
     }
 
@@ -2359,7 +2358,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte10.
      */
-    public function getTexte10(): ?string{
+    public function getTexte10(): ?string {
         return $this->texte10;
     }
 
@@ -2368,7 +2367,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte11.
      */
-    public function getTexte11(): ?string{
+    public function getTexte11(): ?string {
         return $this->texte11;
     }
 
@@ -2377,7 +2376,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte12.
      */
-    public function getTexte12(): ?string{
+    public function getTexte12(): ?string {
         return $this->texte12;
     }
 
@@ -2386,7 +2385,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte13.
      */
-    public function getTexte13(): ?string{
+    public function getTexte13(): ?string {
         return $this->texte13;
     }
 
@@ -2395,7 +2394,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte14.
      */
-    public function getTexte14(): ?string{
+    public function getTexte14(): ?string {
         return $this->texte14;
     }
 
@@ -2404,7 +2403,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte15.
      */
-    public function getTexte15(): ?string{
+    public function getTexte15(): ?string {
         return $this->texte15;
     }
 
@@ -2413,7 +2412,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte16.
      */
-    public function getTexte16(): ?string{
+    public function getTexte16(): ?string {
         return $this->texte16;
     }
 
@@ -2422,7 +2421,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte17.
      */
-    public function getTexte17(): ?string{
+    public function getTexte17(): ?string {
         return $this->texte17;
     }
 
@@ -2431,7 +2430,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte18.
      */
-    public function getTexte18(): ?string{
+    public function getTexte18(): ?string {
         return $this->texte18;
     }
 
@@ -2440,7 +2439,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte19.
      */
-    public function getTexte19(): ?string{
+    public function getTexte19(): ?string {
         return $this->texte19;
     }
 
@@ -2449,7 +2448,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte2.
      */
-    public function getTexte2(): ?string{
+    public function getTexte2(): ?string {
         return $this->texte2;
     }
 
@@ -2458,7 +2457,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte20.
      */
-    public function getTexte20(): ?string{
+    public function getTexte20(): ?string {
         return $this->texte20;
     }
 
@@ -2467,7 +2466,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte21.
      */
-    public function getTexte21(): ?string{
+    public function getTexte21(): ?string {
         return $this->texte21;
     }
 
@@ -2476,7 +2475,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte22.
      */
-    public function getTexte22(): ?string{
+    public function getTexte22(): ?string {
         return $this->texte22;
     }
 
@@ -2485,7 +2484,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte23.
      */
-    public function getTexte23(): ?string{
+    public function getTexte23(): ?string {
         return $this->texte23;
     }
 
@@ -2494,7 +2493,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte24.
      */
-    public function getTexte24(): ?string{
+    public function getTexte24(): ?string {
         return $this->texte24;
     }
 
@@ -2503,7 +2502,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte25.
      */
-    public function getTexte25(): ?string{
+    public function getTexte25(): ?string {
         return $this->texte25;
     }
 
@@ -2512,7 +2511,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte26.
      */
-    public function getTexte26(): ?string{
+    public function getTexte26(): ?string {
         return $this->texte26;
     }
 
@@ -2521,7 +2520,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte27.
      */
-    public function getTexte27(): ?string{
+    public function getTexte27(): ?string {
         return $this->texte27;
     }
 
@@ -2530,7 +2529,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte28.
      */
-    public function getTexte28(): ?string{
+    public function getTexte28(): ?string {
         return $this->texte28;
     }
 
@@ -2539,7 +2538,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte29.
      */
-    public function getTexte29(): ?string{
+    public function getTexte29(): ?string {
         return $this->texte29;
     }
 
@@ -2548,7 +2547,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte3.
      */
-    public function getTexte3(): ?string{
+    public function getTexte3(): ?string {
         return $this->texte3;
     }
 
@@ -2557,7 +2556,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte30.
      */
-    public function getTexte30(): ?string{
+    public function getTexte30(): ?string {
         return $this->texte30;
     }
 
@@ -2566,7 +2565,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte31.
      */
-    public function getTexte31(): ?string{
+    public function getTexte31(): ?string {
         return $this->texte31;
     }
 
@@ -2575,7 +2574,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte32.
      */
-    public function getTexte32(): ?string{
+    public function getTexte32(): ?string {
         return $this->texte32;
     }
 
@@ -2584,7 +2583,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte33.
      */
-    public function getTexte33(): ?string{
+    public function getTexte33(): ?string {
         return $this->texte33;
     }
 
@@ -2593,7 +2592,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte34.
      */
-    public function getTexte34(): ?string{
+    public function getTexte34(): ?string {
         return $this->texte34;
     }
 
@@ -2602,7 +2601,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte35.
      */
-    public function getTexte35(): ?string{
+    public function getTexte35(): ?string {
         return $this->texte35;
     }
 
@@ -2611,7 +2610,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte36.
      */
-    public function getTexte36(): ?string{
+    public function getTexte36(): ?string {
         return $this->texte36;
     }
 
@@ -2620,7 +2619,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte37.
      */
-    public function getTexte37(): ?string{
+    public function getTexte37(): ?string {
         return $this->texte37;
     }
 
@@ -2629,7 +2628,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte38.
      */
-    public function getTexte38(): ?string{
+    public function getTexte38(): ?string {
         return $this->texte38;
     }
 
@@ -2638,7 +2637,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte39.
      */
-    public function getTexte39(): ?string{
+    public function getTexte39(): ?string {
         return $this->texte39;
     }
 
@@ -2647,7 +2646,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte4.
      */
-    public function getTexte4(): ?string{
+    public function getTexte4(): ?string {
         return $this->texte4;
     }
 
@@ -2656,7 +2655,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte40.
      */
-    public function getTexte40(): ?string{
+    public function getTexte40(): ?string {
         return $this->texte40;
     }
 
@@ -2665,7 +2664,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte41.
      */
-    public function getTexte41(): ?string{
+    public function getTexte41(): ?string {
         return $this->texte41;
     }
 
@@ -2674,7 +2673,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte42.
      */
-    public function getTexte42(): ?string{
+    public function getTexte42(): ?string {
         return $this->texte42;
     }
 
@@ -2683,7 +2682,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte43.
      */
-    public function getTexte43(): ?string{
+    public function getTexte43(): ?string {
         return $this->texte43;
     }
 
@@ -2692,7 +2691,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte44.
      */
-    public function getTexte44(): ?string{
+    public function getTexte44(): ?string {
         return $this->texte44;
     }
 
@@ -2701,7 +2700,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte45.
      */
-    public function getTexte45(): ?string{
+    public function getTexte45(): ?string {
         return $this->texte45;
     }
 
@@ -2710,7 +2709,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte46.
      */
-    public function getTexte46(): ?string{
+    public function getTexte46(): ?string {
         return $this->texte46;
     }
 
@@ -2719,7 +2718,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte47.
      */
-    public function getTexte47(): ?string{
+    public function getTexte47(): ?string {
         return $this->texte47;
     }
 
@@ -2728,7 +2727,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte48.
      */
-    public function getTexte48(): ?string{
+    public function getTexte48(): ?string {
         return $this->texte48;
     }
 
@@ -2737,7 +2736,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte49.
      */
-    public function getTexte49(): ?string{
+    public function getTexte49(): ?string {
         return $this->texte49;
     }
 
@@ -2746,7 +2745,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte5.
      */
-    public function getTexte5(): ?string{
+    public function getTexte5(): ?string {
         return $this->texte5;
     }
 
@@ -2755,7 +2754,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte50.
      */
-    public function getTexte50(): ?string{
+    public function getTexte50(): ?string {
         return $this->texte50;
     }
 
@@ -2764,7 +2763,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte6.
      */
-    public function getTexte6(): ?string{
+    public function getTexte6(): ?string {
         return $this->texte6;
     }
 
@@ -2773,7 +2772,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte7.
      */
-    public function getTexte7(): ?string{
+    public function getTexte7(): ?string {
         return $this->texte7;
     }
 
@@ -2782,7 +2781,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte8.
      */
-    public function getTexte8(): ?string{
+    public function getTexte8(): ?string {
         return $this->texte8;
     }
 
@@ -2791,7 +2790,7 @@ class CriteresLibresArticles {
      *
      * @return string|null Returns the texte9.
      */
-    public function getTexte9(): ?string{
+    public function getTexte9(): ?string {
         return $this->texte9;
     }
 
@@ -2800,7 +2799,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur1.
      */
-    public function getValeur1(): ?float{
+    public function getValeur1(): ?float {
         return $this->valeur1;
     }
 
@@ -2809,7 +2808,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur10.
      */
-    public function getValeur10(): ?float{
+    public function getValeur10(): ?float {
         return $this->valeur10;
     }
 
@@ -2818,7 +2817,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur11.
      */
-    public function getValeur11(): ?float{
+    public function getValeur11(): ?float {
         return $this->valeur11;
     }
 
@@ -2827,7 +2826,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur12.
      */
-    public function getValeur12(): ?float{
+    public function getValeur12(): ?float {
         return $this->valeur12;
     }
 
@@ -2836,7 +2835,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur13.
      */
-    public function getValeur13(): ?float{
+    public function getValeur13(): ?float {
         return $this->valeur13;
     }
 
@@ -2845,7 +2844,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur14.
      */
-    public function getValeur14(): ?float{
+    public function getValeur14(): ?float {
         return $this->valeur14;
     }
 
@@ -2854,7 +2853,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur15.
      */
-    public function getValeur15(): ?float{
+    public function getValeur15(): ?float {
         return $this->valeur15;
     }
 
@@ -2863,7 +2862,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur16.
      */
-    public function getValeur16(): ?float{
+    public function getValeur16(): ?float {
         return $this->valeur16;
     }
 
@@ -2872,7 +2871,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur17.
      */
-    public function getValeur17(): ?float{
+    public function getValeur17(): ?float {
         return $this->valeur17;
     }
 
@@ -2881,7 +2880,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur18.
      */
-    public function getValeur18(): ?float{
+    public function getValeur18(): ?float {
         return $this->valeur18;
     }
 
@@ -2890,7 +2889,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur19.
      */
-    public function getValeur19(): ?float{
+    public function getValeur19(): ?float {
         return $this->valeur19;
     }
 
@@ -2899,7 +2898,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur2.
      */
-    public function getValeur2(): ?float{
+    public function getValeur2(): ?float {
         return $this->valeur2;
     }
 
@@ -2908,7 +2907,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur20.
      */
-    public function getValeur20(): ?float{
+    public function getValeur20(): ?float {
         return $this->valeur20;
     }
 
@@ -2917,7 +2916,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur21.
      */
-    public function getValeur21(): ?float{
+    public function getValeur21(): ?float {
         return $this->valeur21;
     }
 
@@ -2926,7 +2925,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur22.
      */
-    public function getValeur22(): ?float{
+    public function getValeur22(): ?float {
         return $this->valeur22;
     }
 
@@ -2935,7 +2934,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur23.
      */
-    public function getValeur23(): ?float{
+    public function getValeur23(): ?float {
         return $this->valeur23;
     }
 
@@ -2944,7 +2943,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur24.
      */
-    public function getValeur24(): ?float{
+    public function getValeur24(): ?float {
         return $this->valeur24;
     }
 
@@ -2953,7 +2952,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur25.
      */
-    public function getValeur25(): ?float{
+    public function getValeur25(): ?float {
         return $this->valeur25;
     }
 
@@ -2962,7 +2961,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur26.
      */
-    public function getValeur26(): ?float{
+    public function getValeur26(): ?float {
         return $this->valeur26;
     }
 
@@ -2971,7 +2970,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur27.
      */
-    public function getValeur27(): ?float{
+    public function getValeur27(): ?float {
         return $this->valeur27;
     }
 
@@ -2980,7 +2979,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur28.
      */
-    public function getValeur28(): ?float{
+    public function getValeur28(): ?float {
         return $this->valeur28;
     }
 
@@ -2989,7 +2988,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur29.
      */
-    public function getValeur29(): ?float{
+    public function getValeur29(): ?float {
         return $this->valeur29;
     }
 
@@ -2998,7 +2997,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur3.
      */
-    public function getValeur3(): ?float{
+    public function getValeur3(): ?float {
         return $this->valeur3;
     }
 
@@ -3007,7 +3006,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur30.
      */
-    public function getValeur30(): ?float{
+    public function getValeur30(): ?float {
         return $this->valeur30;
     }
 
@@ -3016,7 +3015,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur31.
      */
-    public function getValeur31(): ?float{
+    public function getValeur31(): ?float {
         return $this->valeur31;
     }
 
@@ -3025,7 +3024,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur32.
      */
-    public function getValeur32(): ?float{
+    public function getValeur32(): ?float {
         return $this->valeur32;
     }
 
@@ -3034,7 +3033,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur33.
      */
-    public function getValeur33(): ?float{
+    public function getValeur33(): ?float {
         return $this->valeur33;
     }
 
@@ -3043,7 +3042,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur34.
      */
-    public function getValeur34(): ?float{
+    public function getValeur34(): ?float {
         return $this->valeur34;
     }
 
@@ -3052,7 +3051,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur35.
      */
-    public function getValeur35(): ?float{
+    public function getValeur35(): ?float {
         return $this->valeur35;
     }
 
@@ -3061,7 +3060,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur36.
      */
-    public function getValeur36(): ?float{
+    public function getValeur36(): ?float {
         return $this->valeur36;
     }
 
@@ -3070,7 +3069,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur37.
      */
-    public function getValeur37(): ?float{
+    public function getValeur37(): ?float {
         return $this->valeur37;
     }
 
@@ -3079,7 +3078,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur38.
      */
-    public function getValeur38(): ?float{
+    public function getValeur38(): ?float {
         return $this->valeur38;
     }
 
@@ -3088,7 +3087,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur39.
      */
-    public function getValeur39(): ?float{
+    public function getValeur39(): ?float {
         return $this->valeur39;
     }
 
@@ -3097,7 +3096,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur4.
      */
-    public function getValeur4(): ?float{
+    public function getValeur4(): ?float {
         return $this->valeur4;
     }
 
@@ -3106,7 +3105,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur40.
      */
-    public function getValeur40(): ?float{
+    public function getValeur40(): ?float {
         return $this->valeur40;
     }
 
@@ -3115,7 +3114,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur41.
      */
-    public function getValeur41(): ?float{
+    public function getValeur41(): ?float {
         return $this->valeur41;
     }
 
@@ -3124,7 +3123,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur42.
      */
-    public function getValeur42(): ?float{
+    public function getValeur42(): ?float {
         return $this->valeur42;
     }
 
@@ -3133,7 +3132,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur43.
      */
-    public function getValeur43(): ?float{
+    public function getValeur43(): ?float {
         return $this->valeur43;
     }
 
@@ -3142,7 +3141,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur44.
      */
-    public function getValeur44(): ?float{
+    public function getValeur44(): ?float {
         return $this->valeur44;
     }
 
@@ -3151,7 +3150,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur45.
      */
-    public function getValeur45(): ?float{
+    public function getValeur45(): ?float {
         return $this->valeur45;
     }
 
@@ -3160,7 +3159,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur46.
      */
-    public function getValeur46(): ?float{
+    public function getValeur46(): ?float {
         return $this->valeur46;
     }
 
@@ -3169,7 +3168,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur47.
      */
-    public function getValeur47(): ?float{
+    public function getValeur47(): ?float {
         return $this->valeur47;
     }
 
@@ -3178,7 +3177,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur48.
      */
-    public function getValeur48(): ?float{
+    public function getValeur48(): ?float {
         return $this->valeur48;
     }
 
@@ -3187,7 +3186,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur49.
      */
-    public function getValeur49(): ?float{
+    public function getValeur49(): ?float {
         return $this->valeur49;
     }
 
@@ -3196,7 +3195,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur5.
      */
-    public function getValeur5(): ?float{
+    public function getValeur5(): ?float {
         return $this->valeur5;
     }
 
@@ -3205,7 +3204,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur50.
      */
-    public function getValeur50(): ?float{
+    public function getValeur50(): ?float {
         return $this->valeur50;
     }
 
@@ -3214,7 +3213,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur6.
      */
-    public function getValeur6(): ?float{
+    public function getValeur6(): ?float {
         return $this->valeur6;
     }
 
@@ -3223,7 +3222,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur7.
      */
-    public function getValeur7(): ?float{
+    public function getValeur7(): ?float {
         return $this->valeur7;
     }
 
@@ -3232,7 +3231,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur8.
      */
-    public function getValeur8(): ?float{
+    public function getValeur8(): ?float {
         return $this->valeur8;
     }
 
@@ -3241,7 +3240,7 @@ class CriteresLibresArticles {
      *
      * @return float|null Returns the valeur9.
      */
-    public function getValeur9(): ?float{
+    public function getValeur9(): ?float {
         return $this->valeur9;
     }
 

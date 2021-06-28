@@ -84,7 +84,6 @@ class PointagesEmployes {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class PointagesEmployes {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -106,7 +105,7 @@ class PointagesEmployes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -115,7 +114,7 @@ class PointagesEmployes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -124,7 +123,7 @@ class PointagesEmployes {
      *
      * @return float|null Returns the compteur heures.
      */
-    public function getCompteurHeures(): ?float{
+    public function getCompteurHeures(): ?float {
         return $this->compteurHeures;
     }
 
@@ -133,7 +132,7 @@ class PointagesEmployes {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -142,7 +141,7 @@ class PointagesEmployes {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -151,7 +150,7 @@ class PointagesEmployes {
      *
      * @return float|null Returns the hp theo non affectees.
      */
-    public function getHpTheoNonAffectees(): ?float{
+    public function getHpTheoNonAffectees(): ?float {
         return $this->hpTheoNonAffectees;
     }
 
@@ -160,7 +159,7 @@ class PointagesEmployes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -169,7 +168,7 @@ class PointagesEmployes {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

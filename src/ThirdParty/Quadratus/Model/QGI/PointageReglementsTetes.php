@@ -98,7 +98,6 @@ class PointageReglementsTetes {
      */
     private $numDoss;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -120,7 +119,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the code coll creation.
      */
-    public function getCodeCollCreation(): ?string{
+    public function getCodeCollCreation(): ?string {
         return $this->codeCollCreation;
     }
 
@@ -129,7 +128,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the code coll genere.
      */
-    public function getCodeCollGenere(): ?string{
+    public function getCodeCollGenere(): ?string {
         return $this->codeCollGenere;
     }
 
@@ -138,7 +137,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the code coll modif.
      */
-    public function getCodeCollModif(): ?string{
+    public function getCodeCollModif(): ?string {
         return $this->codeCollModif;
     }
 
@@ -147,7 +146,7 @@ class PointageReglementsTetes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -156,7 +155,7 @@ class PointageReglementsTetes {
      *
      * @return DateTime|null Returns the date genere.
      */
-    public function getDateGenere(): ?DateTime{
+    public function getDateGenere(): ?DateTime {
         return $this->dateGenere;
     }
 
@@ -165,7 +164,7 @@ class PointageReglementsTetes {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -174,7 +173,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -183,7 +182,7 @@ class PointageReglementsTetes {
      *
      * @return float|null Returns the montant saisi.
      */
-    public function getMontantSaisi(): ?float{
+    public function getMontantSaisi(): ?float {
         return $this->montantSaisi;
     }
 
@@ -192,7 +191,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the num cpt payeur.
      */
-    public function getNumCptPayeur(): ?string{
+    public function getNumCptPayeur(): ?string {
         return $this->numCptPayeur;
     }
 
@@ -201,7 +200,7 @@ class PointageReglementsTetes {
      *
      * @return string|null Returns the num doss.
      */
-    public function getNumDoss(): ?string{
+    public function getNumDoss(): ?string {
         return $this->numDoss;
     }
 

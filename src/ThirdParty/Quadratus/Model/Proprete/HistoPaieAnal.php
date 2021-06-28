@@ -63,7 +63,6 @@ class HistoPaieAnal {
      */
     private $pourcent;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class HistoPaieAnal {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -85,7 +84,7 @@ class HistoPaieAnal {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -94,7 +93,7 @@ class HistoPaieAnal {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -103,7 +102,7 @@ class HistoPaieAnal {
      *
      * @return int|null Returns the numero ligne anal.
      */
-    public function getNumeroLigneAnal(): ?int{
+    public function getNumeroLigneAnal(): ?int {
         return $this->numeroLigneAnal;
     }
 
@@ -112,7 +111,7 @@ class HistoPaieAnal {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -121,7 +120,7 @@ class HistoPaieAnal {
      *
      * @return float|null Returns the pourcent.
      */
-    public function getPourcent(): ?float{
+    public function getPourcent(): ?float {
         return $this->pourcent;
     }
 

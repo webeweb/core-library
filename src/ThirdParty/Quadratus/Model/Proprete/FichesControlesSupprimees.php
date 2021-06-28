@@ -70,7 +70,6 @@ class FichesControlesSupprimees {
      */
     private $uniqIdBlocage;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class FichesControlesSupprimees {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -92,7 +91,7 @@ class FichesControlesSupprimees {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -101,7 +100,7 @@ class FichesControlesSupprimees {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -110,7 +109,7 @@ class FichesControlesSupprimees {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -119,7 +118,7 @@ class FichesControlesSupprimees {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert(): ?DateTime{
+    public function getDateTransfert(): ?DateTime {
         return $this->dateTransfert;
     }
 
@@ -128,7 +127,7 @@ class FichesControlesSupprimees {
      *
      * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche(): ?int{
+    public function getNumeroFiche(): ?int {
         return $this->numeroFiche;
     }
 
@@ -137,7 +136,7 @@ class FichesControlesSupprimees {
      *
      * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage(): ?string{
+    public function getUniqIdBlocage(): ?string {
         return $this->uniqIdBlocage;
     }
 

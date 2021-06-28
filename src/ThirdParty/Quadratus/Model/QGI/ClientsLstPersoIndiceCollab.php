@@ -54,7 +54,6 @@ class ClientsLstPersoIndiceCollab {
      */
     private $refGuid;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ClientsLstPersoIndiceCollab {
      *
      * @return string|null Returns the chapitre.
      */
-    public function getChapitre(): ?string{
+    public function getChapitre(): ?string {
         return $this->chapitre;
     }
 
@@ -76,7 +75,7 @@ class ClientsLstPersoIndiceCollab {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -85,7 +84,7 @@ class ClientsLstPersoIndiceCollab {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -94,7 +93,7 @@ class ClientsLstPersoIndiceCollab {
      *
      * @return int|null Returns the origine.
      */
-    public function getOrigine(): ?int{
+    public function getOrigine(): ?int {
         return $this->origine;
     }
 
@@ -103,7 +102,7 @@ class ClientsLstPersoIndiceCollab {
      *
      * @return string|null Returns the ref guid.
      */
-    public function getRefGuid(): ?string{
+    public function getRefGuid(): ?string {
         return $this->refGuid;
     }
 

@@ -196,7 +196,6 @@ class FichesControlesEntetes {
      */
     private $uniqIdNoeud;
 
-
     /**
      * Constructor.
      */
@@ -209,7 +208,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -218,7 +217,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -227,7 +226,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -236,7 +235,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -245,7 +244,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -254,7 +253,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the controleur.
      */
-    public function getControleur(): ?string{
+    public function getControleur(): ?string {
         return $this->controleur;
     }
 
@@ -263,7 +262,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the date controle.
      */
-    public function getDateControle(): ?DateTime{
+    public function getDateControle(): ?DateTime {
         return $this->dateControle;
     }
 
@@ -272,7 +271,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the date ctrl prevue.
      */
-    public function getDateCtrlPrevue(): ?DateTime{
+    public function getDateCtrlPrevue(): ?DateTime {
         return $this->dateCtrlPrevue;
     }
 
@@ -281,7 +280,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert(): ?DateTime{
+    public function getDateTransfert(): ?DateTime {
         return $this->dateTransfert;
     }
 
@@ -290,7 +289,7 @@ class FichesControlesEntetes {
      *
      * @return bool|null Returns the fiche contradictoire.
      */
-    public function getFicheContradictoire(): ?bool{
+    public function getFicheContradictoire(): ?bool {
         return $this->ficheContradictoire;
     }
 
@@ -299,7 +298,7 @@ class FichesControlesEntetes {
      *
      * @return bool|null Returns the fiche signee.
      */
-    public function getFicheSignee(): ?bool{
+    public function getFicheSignee(): ?bool {
         return $this->ficheSignee;
     }
 
@@ -308,7 +307,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the heure debut.
      */
-    public function getHeureDebut(): ?DateTime{
+    public function getHeureDebut(): ?DateTime {
         return $this->heureDebut;
     }
 
@@ -317,7 +316,7 @@ class FichesControlesEntetes {
      *
      * @return DateTime|null Returns the heure fin.
      */
-    public function getHeureFin(): ?DateTime{
+    public function getHeureFin(): ?DateTime {
         return $this->heureFin;
     }
 
@@ -326,7 +325,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -335,7 +334,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -344,7 +343,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the local.
      */
-    public function getLocal(): ?string{
+    public function getLocal(): ?string {
         return $this->local;
     }
 
@@ -353,7 +352,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the local pere.
      */
-    public function getLocalPere(): ?string{
+    public function getLocalPere(): ?string {
         return $this->localPere;
     }
 
@@ -362,7 +361,7 @@ class FichesControlesEntetes {
      *
      * @return float|null Returns the note globale.
      */
-    public function getNoteGlobale(): ?float{
+    public function getNoteGlobale(): ?float {
         return $this->noteGlobale;
     }
 
@@ -371,7 +370,7 @@ class FichesControlesEntetes {
      *
      * @return float|null Returns the note objectif.
      */
-    public function getNoteObjectif(): ?float{
+    public function getNoteObjectif(): ?float {
         return $this->noteObjectif;
     }
 
@@ -380,7 +379,7 @@ class FichesControlesEntetes {
      *
      * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche(): ?int{
+    public function getNumeroFiche(): ?int {
         return $this->numeroFiche;
     }
 
@@ -389,7 +388,7 @@ class FichesControlesEntetes {
      *
      * @return int|null Returns the numero noeud local.
      */
-    public function getNumeroNoeudLocal(): ?int{
+    public function getNumeroNoeudLocal(): ?int {
         return $this->numeroNoeudLocal;
     }
 
@@ -398,7 +397,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the satisfaction generale.
      */
-    public function getSatisfactionGenerale(): ?string{
+    public function getSatisfactionGenerale(): ?string {
         return $this->satisfactionGenerale;
     }
 
@@ -407,7 +406,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the type controle.
      */
-    public function getTypeControle(): ?string{
+    public function getTypeControle(): ?string {
         return $this->typeControle;
     }
 
@@ -416,7 +415,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage(): ?string{
+    public function getUniqIdBlocage(): ?string {
         return $this->uniqIdBlocage;
     }
 
@@ -425,7 +424,7 @@ class FichesControlesEntetes {
      *
      * @return string|null Returns the uniq id noeud.
      */
-    public function getUniqIdNoeud(): ?string{
+    public function getUniqIdNoeud(): ?string {
         return $this->uniqIdNoeud;
     }
 

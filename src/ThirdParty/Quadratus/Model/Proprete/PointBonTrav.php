@@ -203,7 +203,6 @@ class PointBonTrav {
      */
     private $valideMob;
 
-
     /**
      * Constructor.
      */
@@ -216,7 +215,7 @@ class PointBonTrav {
      *
      * @return bool|null Returns the avenant signe.
      */
-    public function getAvenantSigne(): ?bool{
+    public function getAvenantSigne(): ?bool {
         return $this->avenantSigne;
     }
 
@@ -225,7 +224,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -234,7 +233,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe(): ?string{
+    public function getCodeEquipe(): ?string {
         return $this->codeEquipe;
     }
 
@@ -243,7 +242,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the code tache type.
      */
-    public function getCodeTacheType(): ?string{
+    public function getCodeTacheType(): ?string {
         return $this->codeTacheType;
     }
 
@@ -252,7 +251,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the date passage.
      */
-    public function getDatePassage(): ?DateTime{
+    public function getDatePassage(): ?DateTime {
         return $this->datePassage;
     }
 
@@ -261,7 +260,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the date ref bt.
      */
-    public function getDateRefBt(): ?DateTime{
+    public function getDateRefBt(): ?DateTime {
         return $this->dateRefBt;
     }
 
@@ -270,7 +269,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -279,7 +278,7 @@ class PointBonTrav {
      *
      * @return bool|null Returns the from gen bt.
      */
-    public function getFromGenBt(): ?bool{
+    public function getFromGenBt(): ?bool {
         return $this->fromGenBt;
     }
 
@@ -288,7 +287,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
     }
 
@@ -297,7 +296,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heure deb mob.
      */
-    public function getHeureDebMob(): ?DateTime{
+    public function getHeureDebMob(): ?DateTime {
         return $this->heureDebMob;
     }
 
@@ -306,7 +305,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heure fin mob.
      */
-    public function getHeureFinMob(): ?DateTime{
+    public function getHeureFinMob(): ?DateTime {
         return $this->heureFinMob;
     }
 
@@ -315,7 +314,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heures jour.
      */
-    public function getHeuresJour(): ?DateTime{
+    public function getHeuresJour(): ?DateTime {
         return $this->heuresJour;
     }
 
@@ -324,7 +323,7 @@ class PointBonTrav {
      *
      * @return DateTime|null Returns the heures nuit.
      */
-    public function getHeuresNuit(): ?DateTime{
+    public function getHeuresNuit(): ?DateTime {
         return $this->heuresNuit;
     }
 
@@ -333,7 +332,7 @@ class PointBonTrav {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -342,7 +341,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the nom prenom.
      */
-    public function getNomPrenom(): ?string{
+    public function getNomPrenom(): ?string {
         return $this->nomPrenom;
     }
 
@@ -351,7 +350,7 @@ class PointBonTrav {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -360,7 +359,7 @@ class PointBonTrav {
      *
      * @return int|null Returns the num chrono.
      */
-    public function getNumChrono(): ?int{
+    public function getNumChrono(): ?int {
         return $this->numChrono;
     }
 
@@ -369,7 +368,7 @@ class PointBonTrav {
      *
      * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant(): ?int{
+    public function getNumeroAvenant(): ?int {
         return $this->numeroAvenant;
     }
 
@@ -378,7 +377,7 @@ class PointBonTrav {
      *
      * @return float|null Returns the paniers.
      */
-    public function getPaniers(): ?float{
+    public function getPaniers(): ?float {
         return $this->paniers;
     }
 
@@ -387,7 +386,7 @@ class PointBonTrav {
      *
      * @return float|null Returns the prime1.
      */
-    public function getPrime1(): ?float{
+    public function getPrime1(): ?float {
         return $this->prime1;
     }
 
@@ -396,7 +395,7 @@ class PointBonTrav {
      *
      * @return float|null Returns the prime2.
      */
-    public function getPrime2(): ?float{
+    public function getPrime2(): ?float {
         return $this->prime2;
     }
 
@@ -405,7 +404,7 @@ class PointBonTrav {
      *
      * @return float|null Returns the prime3.
      */
-    public function getPrime3(): ?float{
+    public function getPrime3(): ?float {
         return $this->prime3;
     }
 
@@ -414,7 +413,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the qualification.
      */
-    public function getQualification(): ?string{
+    public function getQualification(): ?string {
         return $this->qualification;
     }
 
@@ -423,7 +422,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the transfert paie.
      */
-    public function getTransfertPaie(): ?string{
+    public function getTransfertPaie(): ?string {
         return $this->transfertPaie;
     }
 
@@ -432,7 +431,7 @@ class PointBonTrav {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -441,7 +440,7 @@ class PointBonTrav {
      *
      * @return bool|null Returns the valide mob.
      */
-    public function getValideMob(): ?bool{
+    public function getValideMob(): ?bool {
         return $this->valideMob;
     }
 

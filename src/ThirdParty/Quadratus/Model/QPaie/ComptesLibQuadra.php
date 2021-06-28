@@ -152,7 +152,6 @@ class ComptesLibQuadra {
      */
     private $tauxForfaitSocial8;
 
-
     /**
      * Constructor.
      */
@@ -165,7 +164,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs(): ?string{
+    public function getCodeDucs(): ?string {
         return $this->codeDucs;
     }
 
@@ -174,7 +173,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the code edition histo.
      */
-    public function getCodeEditionHisto(): ?string{
+    public function getCodeEditionHisto(): ?string {
         return $this->codeEditionHisto;
     }
 
@@ -183,7 +182,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -192,7 +191,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -201,7 +200,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the code type b spec prev.
      */
-    public function getCodeTypeBSpecPrev(): ?string{
+    public function getCodeTypeBSpecPrev(): ?string {
         return $this->codeTypeBSpecPrev;
     }
 
@@ -210,7 +209,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the compte charge.
      */
-    public function getCompteCharge(): ?string{
+    public function getCompteCharge(): ?string {
         return $this->compteCharge;
     }
 
@@ -219,7 +218,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec(): ?string{
+    public function getConditionSpec(): ?string {
         return $this->conditionSpec;
     }
 
@@ -228,7 +227,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the edition forcee ds.
      */
-    public function getEditionForceeDs(): ?string{
+    public function getEditionForceeDs(): ?string {
         return $this->editionForceeDs;
     }
 
@@ -237,7 +236,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the exclure loi tepa.
      */
-    public function getExclureLoiTepa(): ?string{
+    public function getExclureLoiTepa(): ?string {
         return $this->exclureLoiTepa;
     }
 
@@ -246,7 +245,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the frais sante.
      */
-    public function getFraisSante(): ?string{
+    public function getFraisSante(): ?string {
         return $this->fraisSante;
     }
 
@@ -255,7 +254,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the prevoyance comp.
      */
-    public function getPrevoyanceComp(): ?string{
+    public function getPrevoyanceComp(): ?string {
         return $this->prevoyanceComp;
     }
 
@@ -264,7 +263,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis(): ?string{
+    public function getQualifiantCotis(): ?string {
         return $this->qualifiantCotis;
     }
 
@@ -273,7 +272,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the retraite obligatoire.
      */
-    public function getRetraiteObligatoire(): ?string{
+    public function getRetraiteObligatoire(): ?string {
         return $this->retraiteObligatoire;
     }
 
@@ -282,7 +281,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the retraite supp.
      */
-    public function getRetraiteSupp(): ?string{
+    public function getRetraiteSupp(): ?string {
         return $this->retraiteSupp;
     }
 
@@ -291,7 +290,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the sans reintegration sociale.
      */
-    public function getSansReintegrationSociale(): ?string{
+    public function getSansReintegrationSociale(): ?string {
         return $this->sansReintegrationSociale;
     }
 
@@ -300,7 +299,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the soumis crds100.
      */
-    public function getSoumisCrds100(): ?string{
+    public function getSoumisCrds100(): ?string {
         return $this->soumisCrds100;
     }
 
@@ -309,7 +308,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the soumis csg100.
      */
-    public function getSoumisCsg100(): ?string{
+    public function getSoumisCsg100(): ?string {
         return $this->soumisCsg100;
     }
 
@@ -318,7 +317,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the taux forfait social20.
      */
-    public function getTauxForfaitSocial20(): ?string{
+    public function getTauxForfaitSocial20(): ?string {
         return $this->tauxForfaitSocial20;
     }
 
@@ -327,7 +326,7 @@ class ComptesLibQuadra {
      *
      * @return string|null Returns the taux forfait social8.
      */
-    public function getTauxForfaitSocial8(): ?string{
+    public function getTauxForfaitSocial8(): ?string {
         return $this->tauxForfaitSocial8;
     }
 

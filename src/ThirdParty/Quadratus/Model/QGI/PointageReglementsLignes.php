@@ -61,7 +61,6 @@ class PointageReglementsLignes {
      */
     private $numeroCompte;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class PointageReglementsLignes {
      *
      * @return float|null Returns the montant pointe.
      */
-    public function getMontantPointe(): ?float{
+    public function getMontantPointe(): ?float {
         return $this->montantPointe;
     }
 
@@ -83,7 +82,7 @@ class PointageReglementsLignes {
      *
      * @return string|null Returns the num cpt payeur.
      */
-    public function getNumCptPayeur(): ?string{
+    public function getNumCptPayeur(): ?string {
         return $this->numCptPayeur;
     }
 
@@ -92,7 +91,7 @@ class PointageReglementsLignes {
      *
      * @return string|null Returns the num doss.
      */
-    public function getNumDoss(): ?string{
+    public function getNumDoss(): ?string {
         return $this->numDoss;
     }
 
@@ -101,7 +100,7 @@ class PointageReglementsLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -110,7 +109,7 @@ class PointageReglementsLignes {
      *
      * @return int|null Returns the num uniq ecr.
      */
-    public function getNumUniqEcr(): ?int{
+    public function getNumUniqEcr(): ?int {
         return $this->numUniqEcr;
     }
 
@@ -119,7 +118,7 @@ class PointageReglementsLignes {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 

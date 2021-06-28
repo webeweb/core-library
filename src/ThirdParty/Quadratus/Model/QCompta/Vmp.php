@@ -89,7 +89,6 @@ class Vmp {
      */
     private $numCompte;
 
-
     /**
      * Constructor.
      */
@@ -102,7 +101,7 @@ class Vmp {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -111,7 +110,7 @@ class Vmp {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -120,7 +119,7 @@ class Vmp {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -129,7 +128,7 @@ class Vmp {
      *
      * @return string|null Returns the compte comm.
      */
-    public function getCompteComm(): ?string{
+    public function getCompteComm(): ?string {
         return $this->compteComm;
     }
 
@@ -138,7 +137,7 @@ class Vmp {
      *
      * @return string|null Returns the compte coupons.
      */
-    public function getCompteCoupons(): ?string{
+    public function getCompteCoupons(): ?string {
         return $this->compteCoupons;
     }
 
@@ -147,7 +146,7 @@ class Vmp {
      *
      * @return string|null Returns the compte frais.
      */
-    public function getCompteFrais(): ?string{
+    public function getCompteFrais(): ?string {
         return $this->compteFrais;
     }
 
@@ -156,7 +155,7 @@ class Vmp {
      *
      * @return string|null Returns the identifiant.
      */
-    public function getIdentifiant(): ?string{
+    public function getIdentifiant(): ?string {
         return $this->identifiant;
     }
 
@@ -165,7 +164,7 @@ class Vmp {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -174,7 +173,7 @@ class Vmp {
      *
      * @return int|null Returns the nb lignes mvt.
      */
-    public function getNbLignesMvt(): ?int{
+    public function getNbLignesMvt(): ?int {
         return $this->nbLignesMvt;
     }
 
@@ -183,7 +182,7 @@ class Vmp {
      *
      * @return string|null Returns the num compte.
      */
-    public function getNumCompte(): ?string{
+    public function getNumCompte(): ?string {
         return $this->numCompte;
     }
 

@@ -119,7 +119,6 @@ class EmpDadsuPrevoyanceAyantDroit {
      */
     private $rangNaissance;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the code a charge.
      */
-    public function getCodeACharge(): ?string{
+    public function getCodeACharge(): ?string {
         return $this->codeACharge;
     }
 
@@ -141,7 +140,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the code affil secu.
      */
-    public function getCodeAffilSecu(): ?string{
+    public function getCodeAffilSecu(): ?string {
         return $this->codeAffilSecu;
     }
 
@@ -150,7 +149,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the code autre couverture.
      */
-    public function getCodeAutreCouverture(): ?string{
+    public function getCodeAutreCouverture(): ?string {
         return $this->codeAutreCouverture;
     }
 
@@ -159,7 +158,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the code extension secu.
      */
-    public function getCodeExtensionSecu(): ?string{
+    public function getCodeExtensionSecu(): ?string {
         return $this->codeExtensionSecu;
     }
 
@@ -168,7 +167,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the code scolarise.
      */
-    public function getCodeScolarise(): ?string{
+    public function getCodeScolarise(): ?string {
         return $this->codeScolarise;
     }
 
@@ -177,7 +176,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the code type.
      */
-    public function getCodeType(): ?string{
+    public function getCodeType(): ?string {
         return $this->codeType;
     }
 
@@ -186,7 +185,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance(): ?DateTime{
+    public function getDateNaissance(): ?DateTime {
         return $this->dateNaissance;
     }
 
@@ -195,7 +194,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the nir.
      */
-    public function getNir(): ?string{
+    public function getNir(): ?string {
         return $this->nir;
     }
 
@@ -204,7 +203,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the nir rattachement.
      */
-    public function getNirRattachement(): ?string{
+    public function getNirRattachement(): ?string {
         return $this->nirRattachement;
     }
 
@@ -213,7 +212,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -222,7 +221,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return int|null Returns the numero ayant droit.
      */
-    public function getNumeroAyantDroit(): ?int{
+    public function getNumeroAyantDroit(): ?int {
         return $this->numeroAyantDroit;
     }
 
@@ -231,7 +230,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -240,7 +239,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -249,7 +248,7 @@ class EmpDadsuPrevoyanceAyantDroit {
      *
      * @return string|null Returns the rang naissance.
      */
-    public function getRangNaissance(): ?string{
+    public function getRangNaissance(): ?string {
         return $this->rangNaissance;
     }
 

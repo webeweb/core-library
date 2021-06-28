@@ -64,13 +64,6 @@ class LignesAtb {
     private $numeroAttestation;
 
     /**
-     * Ps euro ou franc.
-     *
-     * @var string|null
-     */
-    private $psEuroOuFranc;
-
-    /**
      * Periode deb.
      *
      * @var DateTime|null
@@ -84,6 +77,12 @@ class LignesAtb {
      */
     private $periodeFin;
 
+    /**
+     * Ps euro ou franc.
+     *
+     * @var string|null
+     */
+    private $psEuroOuFranc;
 
     /**
      * Constructor.
@@ -97,7 +96,7 @@ class LignesAtb {
      *
      * @return DateTime|null Returns the date versement.
      */
-    public function getDateVersement(): ?DateTime{
+    public function getDateVersement(): ?DateTime {
         return $this->dateVersement;
     }
 
@@ -106,7 +105,7 @@ class LignesAtb {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -115,7 +114,7 @@ class LignesAtb {
      *
      * @return float|null Returns the montant cotis.
      */
-    public function getMontantCotis(): ?float{
+    public function getMontantCotis(): ?float {
         return $this->montantCotis;
     }
 
@@ -124,7 +123,7 @@ class LignesAtb {
      *
      * @return string|null Returns the montant euro ou franc.
      */
-    public function getMontantEuroOuFranc(): ?string{
+    public function getMontantEuroOuFranc(): ?string {
         return $this->montantEuroOuFranc;
     }
 
@@ -133,7 +132,7 @@ class LignesAtb {
      *
      * @return string|null Returns the num ligne.
      */
-    public function getNumLigne(): ?string{
+    public function getNumLigne(): ?string {
         return $this->numLigne;
     }
 
@@ -142,17 +141,8 @@ class LignesAtb {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
-    }
-
-    /**
-     * Get the ps euro ou franc.
-     *
-     * @return string|null Returns the ps euro ou franc.
-     */
-    public function getPsEuroOuFranc(): ?string{
-        return $this->psEuroOuFranc;
     }
 
     /**
@@ -160,7 +150,7 @@ class LignesAtb {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -169,8 +159,17 @@ class LignesAtb {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
+    }
+
+    /**
+     * Get the ps euro ou franc.
+     *
+     * @return string|null Returns the ps euro ou franc.
+     */
+    public function getPsEuroOuFranc(): ?string {
+        return $this->psEuroOuFranc;
     }
 
     /**
@@ -240,17 +239,6 @@ class LignesAtb {
     }
 
     /**
-     * Set the ps euro ou franc.
-     *
-     * @param string|null $psEuroOuFranc The ps euro ou franc.
-     * @return LignesAtb Returns this Lignes atb.
-     */
-    public function setPsEuroOuFranc(?string $psEuroOuFranc): LignesAtb {
-        $this->psEuroOuFranc = $psEuroOuFranc;
-        return $this;
-    }
-
-    /**
      * Set the periode deb.
      *
      * @param DateTime|null $periodeDeb The periode deb.
@@ -269,6 +257,17 @@ class LignesAtb {
      */
     public function setPeriodeFin(?DateTime $periodeFin): LignesAtb {
         $this->periodeFin = $periodeFin;
+        return $this;
+    }
+
+    /**
+     * Set the ps euro ou franc.
+     *
+     * @param string|null $psEuroOuFranc The ps euro ou franc.
+     * @return LignesAtb Returns this Lignes atb.
+     */
+    public function setPsEuroOuFranc(?string $psEuroOuFranc): LignesAtb {
+        $this->psEuroOuFranc = $psEuroOuFranc;
         return $this;
     }
 }

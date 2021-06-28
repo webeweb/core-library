@@ -91,7 +91,6 @@ class ArticlesFrnPrixA {
      */
     private $remise3;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class ArticlesFrnPrixA {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -113,7 +112,7 @@ class ArticlesFrnPrixA {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -122,7 +121,7 @@ class ArticlesFrnPrixA {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -131,7 +130,7 @@ class ArticlesFrnPrixA {
      *
      * @return bool|null Returns the prix cond.
      */
-    public function getPrixCond(): ?bool{
+    public function getPrixCond(): ?bool {
         return $this->prixCond;
     }
 
@@ -140,7 +139,7 @@ class ArticlesFrnPrixA {
      *
      * @return float|null Returns the px achat.
      */
-    public function getPxAchat(): ?float{
+    public function getPxAchat(): ?float {
         return $this->pxAchat;
     }
 
@@ -149,7 +148,7 @@ class ArticlesFrnPrixA {
      *
      * @return float|null Returns the qte achat.
      */
-    public function getQteAchat(): ?float{
+    public function getQteAchat(): ?float {
         return $this->qteAchat;
     }
 
@@ -158,7 +157,7 @@ class ArticlesFrnPrixA {
      *
      * @return int|null Returns the qte cond.
      */
-    public function getQteCond(): ?int{
+    public function getQteCond(): ?int {
         return $this->qteCond;
     }
 
@@ -167,7 +166,7 @@ class ArticlesFrnPrixA {
      *
      * @return float|null Returns the remise1.
      */
-    public function getRemise1(): ?float{
+    public function getRemise1(): ?float {
         return $this->remise1;
     }
 
@@ -176,7 +175,7 @@ class ArticlesFrnPrixA {
      *
      * @return float|null Returns the remise2.
      */
-    public function getRemise2(): ?float{
+    public function getRemise2(): ?float {
         return $this->remise2;
     }
 
@@ -185,7 +184,7 @@ class ArticlesFrnPrixA {
      *
      * @return float|null Returns the remise3.
      */
-    public function getRemise3(): ?float{
+    public function getRemise3(): ?float {
         return $this->remise3;
     }
 

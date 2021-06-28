@@ -182,7 +182,6 @@ class Centres {
      */
     private $typeSuiviAutreValeur;
 
-
     /**
      * Constructor.
      */
@@ -195,7 +194,7 @@ class Centres {
      *
      * @return string|null Returns the adresse rue1.
      */
-    public function getAdresseRue1(): ?string{
+    public function getAdresseRue1(): ?string {
         return $this->adresseRue1;
     }
 
@@ -204,7 +203,7 @@ class Centres {
      *
      * @return string|null Returns the adresse rue2.
      */
-    public function getAdresseRue2(): ?string{
+    public function getAdresseRue2(): ?string {
         return $this->adresseRue2;
     }
 
@@ -213,7 +212,7 @@ class Centres {
      *
      * @return string|null Returns the adresse ville.
      */
-    public function getAdresseVille(): ?string{
+    public function getAdresseVille(): ?string {
         return $this->adresseVille;
     }
 
@@ -222,7 +221,7 @@ class Centres {
      *
      * @return bool|null Returns the centre inactif.
      */
-    public function getCentreInactif(): ?bool{
+    public function getCentreInactif(): ?bool {
         return $this->centreInactif;
     }
 
@@ -231,7 +230,7 @@ class Centres {
      *
      * @return string|null Returns the cle repartition.
      */
-    public function getCleRepartition(): ?string{
+    public function getCleRepartition(): ?string {
         return $this->cleRepartition;
     }
 
@@ -240,7 +239,7 @@ class Centres {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -249,7 +248,7 @@ class Centres {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -258,7 +257,7 @@ class Centres {
      *
      * @return DateTime|null Returns the date devis.
      */
-    public function getDateDevis(): ?DateTime{
+    public function getDateDevis(): ?DateTime {
         return $this->dateDevis;
     }
 
@@ -267,7 +266,7 @@ class Centres {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -276,7 +275,7 @@ class Centres {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -285,7 +284,7 @@ class Centres {
      *
      * @return bool|null Returns the marge directe.
      */
-    public function getMargeDirecte(): ?bool{
+    public function getMargeDirecte(): ?bool {
         return $this->margeDirecte;
     }
 
@@ -294,7 +293,7 @@ class Centres {
      *
      * @return string|null Returns the niveau repartition.
      */
-    public function getNiveauRepartition(): ?string{
+    public function getNiveauRepartition(): ?string {
         return $this->niveauRepartition;
     }
 
@@ -303,7 +302,7 @@ class Centres {
      *
      * @return int|null Returns the ordre edition.
      */
-    public function getOrdreEdition(): ?int{
+    public function getOrdreEdition(): ?int {
         return $this->ordreEdition;
     }
 
@@ -312,7 +311,7 @@ class Centres {
      *
      * @return string|null Returns the repartition ana.
      */
-    public function getRepartitionAna(): ?string{
+    public function getRepartitionAna(): ?string {
         return $this->repartitionAna;
     }
 
@@ -321,7 +320,7 @@ class Centres {
      *
      * @return bool|null Returns the repartition auto.
      */
-    public function getRepartitionAuto(): ?bool{
+    public function getRepartitionAuto(): ?bool {
         return $this->repartitionAuto;
     }
 
@@ -330,7 +329,7 @@ class Centres {
      *
      * @return string|null Returns the responsable.
      */
-    public function getResponsable(): ?string{
+    public function getResponsable(): ?string {
         return $this->responsable;
     }
 
@@ -339,7 +338,7 @@ class Centres {
      *
      * @return string|null Returns the restrictions.
      */
-    public function getRestrictions(): ?string{
+    public function getRestrictions(): ?string {
         return $this->restrictions;
     }
 
@@ -348,7 +347,7 @@ class Centres {
      *
      * @return bool|null Returns the suivi annee recolte.
      */
-    public function getSuiviAnneeRecolte(): ?bool{
+    public function getSuiviAnneeRecolte(): ?bool {
         return $this->suiviAnneeRecolte;
     }
 
@@ -357,7 +356,7 @@ class Centres {
      *
      * @return float|null Returns the superficie.
      */
-    public function getSuperficie(): ?float{
+    public function getSuperficie(): ?float {
         return $this->superficie;
     }
 
@@ -366,7 +365,7 @@ class Centres {
      *
      * @return string|null Returns the type centre.
      */
-    public function getTypeCentre(): ?string{
+    public function getTypeCentre(): ?string {
         return $this->typeCentre;
     }
 
@@ -375,7 +374,7 @@ class Centres {
      *
      * @return string|null Returns the type suivi.
      */
-    public function getTypeSuivi(): ?string{
+    public function getTypeSuivi(): ?string {
         return $this->typeSuivi;
     }
 
@@ -384,7 +383,7 @@ class Centres {
      *
      * @return string|null Returns the type suivi autre texte.
      */
-    public function getTypeSuiviAutreTexte(): ?string{
+    public function getTypeSuiviAutreTexte(): ?string {
         return $this->typeSuiviAutreTexte;
     }
 
@@ -393,7 +392,7 @@ class Centres {
      *
      * @return float|null Returns the type suivi autre valeur.
      */
-    public function getTypeSuiviAutreValeur(): ?float{
+    public function getTypeSuiviAutreValeur(): ?float {
         return $this->typeSuiviAutreValeur;
     }
 

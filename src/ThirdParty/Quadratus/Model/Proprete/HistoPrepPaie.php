@@ -50,6 +50,27 @@ class HistoPrepPaie {
     private $etat;
 
     /**
+     * H prev.
+     *
+     * @var float|null
+     */
+    private $hPrev;
+
+    /**
+     * H rempl.
+     *
+     * @var float|null
+     */
+    private $hRempl;
+
+    /**
+     * H surcroit.
+     *
+     * @var float|null
+     */
+    private $hSurcroit;
+
+    /**
      * Habs0.
      *
      * @var float|null
@@ -134,18 +155,18 @@ class HistoPrepPaie {
     private $hc;
 
     /**
-     * H prev.
+     * Heures rc acquises.
      *
      * @var float|null
      */
-    private $hPrev;
+    private $heuresRcAcquises;
 
     /**
-     * H rempl.
+     * Heures rr acquises.
      *
      * @var float|null
      */
-    private $hRempl;
+    private $heuresRrAcquises;
 
     /**
      * Hs1.
@@ -174,27 +195,6 @@ class HistoPrepPaie {
      * @var float|null
      */
     private $hs35Heures;
-
-    /**
-     * H surcroit.
-     *
-     * @var float|null
-     */
-    private $hSurcroit;
-
-    /**
-     * Heures rc acquises.
-     *
-     * @var float|null
-     */
-    private $heuresRcAcquises;
-
-    /**
-     * Heures rr acquises.
-     *
-     * @var float|null
-     */
-    private $heuresRrAcquises;
 
     /**
      * Jacp.
@@ -455,7 +455,6 @@ class HistoPrepPaie {
      */
     private $yaEuSaisieManuelle;
 
-
     /**
      * Constructor.
      */
@@ -468,7 +467,7 @@ class HistoPrepPaie {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -477,7 +476,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the contingent h sup repos comp.
      */
-    public function getContingentHSupReposComp(): ?float{
+    public function getContingentHSupReposComp(): ?float {
         return $this->contingentHSupReposComp;
     }
 
@@ -486,7 +485,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the droit cp.
      */
-    public function getDroitCp(): ?float{
+    public function getDroitCp(): ?float {
         return $this->droitCp;
     }
 
@@ -495,116 +494,8 @@ class HistoPrepPaie {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
-    }
-
-    /**
-     * Get the habs0.
-     *
-     * @return float|null Returns the habs0.
-     */
-    public function getHabs0(): ?float{
-        return $this->habs0;
-    }
-
-    /**
-     * Get the habs1.
-     *
-     * @return float|null Returns the habs1.
-     */
-    public function getHabs1(): ?float{
-        return $this->habs1;
-    }
-
-    /**
-     * Get the habs2.
-     *
-     * @return float|null Returns the habs2.
-     */
-    public function getHabs2(): ?float{
-        return $this->habs2;
-    }
-
-    /**
-     * Get the habs3.
-     *
-     * @return float|null Returns the habs3.
-     */
-    public function getHabs3(): ?float{
-        return $this->habs3;
-    }
-
-    /**
-     * Get the habs4.
-     *
-     * @return float|null Returns the habs4.
-     */
-    public function getHabs4(): ?float{
-        return $this->habs4;
-    }
-
-    /**
-     * Get the habs5.
-     *
-     * @return float|null Returns the habs5.
-     */
-    public function getHabs5(): ?float{
-        return $this->habs5;
-    }
-
-    /**
-     * Get the habs6.
-     *
-     * @return float|null Returns the habs6.
-     */
-    public function getHabs6(): ?float{
-        return $this->habs6;
-    }
-
-    /**
-     * Get the habs7.
-     *
-     * @return float|null Returns the habs7.
-     */
-    public function getHabs7(): ?float{
-        return $this->habs7;
-    }
-
-    /**
-     * Get the habs8.
-     *
-     * @return float|null Returns the habs8.
-     */
-    public function getHabs8(): ?float{
-        return $this->habs8;
-    }
-
-    /**
-     * Get the habs9.
-     *
-     * @return float|null Returns the habs9.
-     */
-    public function getHabs9(): ?float{
-        return $this->habs9;
-    }
-
-    /**
-     * Get the hacp.
-     *
-     * @return float|null Returns the hacp.
-     */
-    public function getHacp(): ?float{
-        return $this->hacp;
-    }
-
-    /**
-     * Get the hc.
-     *
-     * @return float|null Returns the hc.
-     */
-    public function getHc(): ?float{
-        return $this->hc;
     }
 
     /**
@@ -612,7 +503,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the h prev.
      */
-    public function getHPrev(): ?float{
+    public function getHPrev(): ?float {
         return $this->hPrev;
     }
 
@@ -621,44 +512,8 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the h rempl.
      */
-    public function getHRempl(): ?float{
+    public function getHRempl(): ?float {
         return $this->hRempl;
-    }
-
-    /**
-     * Get the hs1.
-     *
-     * @return float|null Returns the hs1.
-     */
-    public function getHs1(): ?float{
-        return $this->hs1;
-    }
-
-    /**
-     * Get the hs2.
-     *
-     * @return float|null Returns the hs2.
-     */
-    public function getHs2(): ?float{
-        return $this->hs2;
-    }
-
-    /**
-     * Get the hs3.
-     *
-     * @return float|null Returns the hs3.
-     */
-    public function getHs3(): ?float{
-        return $this->hs3;
-    }
-
-    /**
-     * Get the hs35 heures.
-     *
-     * @return float|null Returns the hs35 heures.
-     */
-    public function getHs35Heures(): ?float{
-        return $this->hs35Heures;
     }
 
     /**
@@ -666,8 +521,116 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the h surcroit.
      */
-    public function getHSurcroit(): ?float{
+    public function getHSurcroit(): ?float {
         return $this->hSurcroit;
+    }
+
+    /**
+     * Get the habs0.
+     *
+     * @return float|null Returns the habs0.
+     */
+    public function getHabs0(): ?float {
+        return $this->habs0;
+    }
+
+    /**
+     * Get the habs1.
+     *
+     * @return float|null Returns the habs1.
+     */
+    public function getHabs1(): ?float {
+        return $this->habs1;
+    }
+
+    /**
+     * Get the habs2.
+     *
+     * @return float|null Returns the habs2.
+     */
+    public function getHabs2(): ?float {
+        return $this->habs2;
+    }
+
+    /**
+     * Get the habs3.
+     *
+     * @return float|null Returns the habs3.
+     */
+    public function getHabs3(): ?float {
+        return $this->habs3;
+    }
+
+    /**
+     * Get the habs4.
+     *
+     * @return float|null Returns the habs4.
+     */
+    public function getHabs4(): ?float {
+        return $this->habs4;
+    }
+
+    /**
+     * Get the habs5.
+     *
+     * @return float|null Returns the habs5.
+     */
+    public function getHabs5(): ?float {
+        return $this->habs5;
+    }
+
+    /**
+     * Get the habs6.
+     *
+     * @return float|null Returns the habs6.
+     */
+    public function getHabs6(): ?float {
+        return $this->habs6;
+    }
+
+    /**
+     * Get the habs7.
+     *
+     * @return float|null Returns the habs7.
+     */
+    public function getHabs7(): ?float {
+        return $this->habs7;
+    }
+
+    /**
+     * Get the habs8.
+     *
+     * @return float|null Returns the habs8.
+     */
+    public function getHabs8(): ?float {
+        return $this->habs8;
+    }
+
+    /**
+     * Get the habs9.
+     *
+     * @return float|null Returns the habs9.
+     */
+    public function getHabs9(): ?float {
+        return $this->habs9;
+    }
+
+    /**
+     * Get the hacp.
+     *
+     * @return float|null Returns the hacp.
+     */
+    public function getHacp(): ?float {
+        return $this->hacp;
+    }
+
+    /**
+     * Get the hc.
+     *
+     * @return float|null Returns the hc.
+     */
+    public function getHc(): ?float {
+        return $this->hc;
     }
 
     /**
@@ -675,7 +638,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the heures rc acquises.
      */
-    public function getHeuresRcAcquises(): ?float{
+    public function getHeuresRcAcquises(): ?float {
         return $this->heuresRcAcquises;
     }
 
@@ -684,8 +647,44 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the heures rr acquises.
      */
-    public function getHeuresRrAcquises(): ?float{
+    public function getHeuresRrAcquises(): ?float {
         return $this->heuresRrAcquises;
+    }
+
+    /**
+     * Get the hs1.
+     *
+     * @return float|null Returns the hs1.
+     */
+    public function getHs1(): ?float {
+        return $this->hs1;
+    }
+
+    /**
+     * Get the hs2.
+     *
+     * @return float|null Returns the hs2.
+     */
+    public function getHs2(): ?float {
+        return $this->hs2;
+    }
+
+    /**
+     * Get the hs3.
+     *
+     * @return float|null Returns the hs3.
+     */
+    public function getHs3(): ?float {
+        return $this->hs3;
+    }
+
+    /**
+     * Get the hs35 heures.
+     *
+     * @return float|null Returns the hs35 heures.
+     */
+    public function getHs35Heures(): ?float {
+        return $this->hs35Heures;
     }
 
     /**
@@ -693,7 +692,7 @@ class HistoPrepPaie {
      *
      * @return int|null Returns the jacp.
      */
-    public function getJacp(): ?int{
+    public function getJacp(): ?int {
         return $this->jacp;
     }
 
@@ -702,7 +701,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the jours rtt acquis.
      */
-    public function getJoursRttAcquis(): ?float{
+    public function getJoursRttAcquis(): ?float {
         return $this->joursRttAcquis;
     }
 
@@ -711,7 +710,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the mensualisation.
      */
-    public function getMensualisation(): ?float{
+    public function getMensualisation(): ?float {
         return $this->mensualisation;
     }
 
@@ -720,7 +719,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the mt prime1 chantier.
      */
-    public function getMtPrime1Chantier(): ?float{
+    public function getMtPrime1Chantier(): ?float {
         return $this->mtPrime1Chantier;
     }
 
@@ -729,7 +728,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the mt prime2 chantier.
      */
-    public function getMtPrime2Chantier(): ?float{
+    public function getMtPrime2Chantier(): ?float {
         return $this->mtPrime2Chantier;
     }
 
@@ -738,7 +737,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the mt prime3 chantier.
      */
-    public function getMtPrime3Chantier(): ?float{
+    public function getMtPrime3Chantier(): ?float {
         return $this->mtPrime3Chantier;
     }
 
@@ -747,7 +746,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the mt prime forfait.
      */
-    public function getMtPrimeForfait(): ?float{
+    public function getMtPrimeForfait(): ?float {
         return $this->mtPrimeForfait;
     }
 
@@ -756,7 +755,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the nb heures rs.
      */
-    public function getNbHeuresRs(): ?float{
+    public function getNbHeuresRs(): ?float {
         return $this->nbHeuresRs;
     }
 
@@ -765,7 +764,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the nb heures tp.
      */
-    public function getNbHeuresTp(): ?float{
+    public function getNbHeuresTp(): ?float {
         return $this->nbHeuresTp;
     }
 
@@ -774,7 +773,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the nb paniers.
      */
-    public function getNbPaniers(): ?float{
+    public function getNbPaniers(): ?float {
         return $this->nbPaniers;
     }
 
@@ -783,7 +782,7 @@ class HistoPrepPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -792,7 +791,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime1.
      */
-    public function getPrime1(): ?float{
+    public function getPrime1(): ?float {
         return $this->prime1;
     }
 
@@ -801,7 +800,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime10.
      */
-    public function getPrime10(): ?float{
+    public function getPrime10(): ?float {
         return $this->prime10;
     }
 
@@ -810,7 +809,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime1 mai.
      */
-    public function getPrime1Mai(): ?float{
+    public function getPrime1Mai(): ?float {
         return $this->prime1Mai;
     }
 
@@ -819,7 +818,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime2.
      */
-    public function getPrime2(): ?float{
+    public function getPrime2(): ?float {
         return $this->prime2;
     }
 
@@ -828,7 +827,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime3.
      */
-    public function getPrime3(): ?float{
+    public function getPrime3(): ?float {
         return $this->prime3;
     }
 
@@ -837,7 +836,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime4.
      */
-    public function getPrime4(): ?float{
+    public function getPrime4(): ?float {
         return $this->prime4;
     }
 
@@ -846,7 +845,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime5.
      */
-    public function getPrime5(): ?float{
+    public function getPrime5(): ?float {
         return $this->prime5;
     }
 
@@ -855,7 +854,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime6.
      */
-    public function getPrime6(): ?float{
+    public function getPrime6(): ?float {
         return $this->prime6;
     }
 
@@ -864,7 +863,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime7.
      */
-    public function getPrime7(): ?float{
+    public function getPrime7(): ?float {
         return $this->prime7;
     }
 
@@ -873,7 +872,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime8.
      */
-    public function getPrime8(): ?float{
+    public function getPrime8(): ?float {
         return $this->prime8;
     }
 
@@ -882,7 +881,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime9.
      */
-    public function getPrime9(): ?float{
+    public function getPrime9(): ?float {
         return $this->prime9;
     }
 
@@ -891,7 +890,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h compl maj.
      */
-    public function getPrimeHComplMaj(): ?float{
+    public function getPrimeHComplMaj(): ?float {
         return $this->primeHComplMaj;
     }
 
@@ -900,7 +899,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h dim2 normal.
      */
-    public function getPrimeHDim2Normal(): ?float{
+    public function getPrimeHDim2Normal(): ?float {
         return $this->primeHDim2Normal;
     }
 
@@ -909,7 +908,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h dim except.
      */
-    public function getPrimeHDimExcept(): ?float{
+    public function getPrimeHDimExcept(): ?float {
         return $this->primeHDimExcept;
     }
 
@@ -918,7 +917,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h dim normal.
      */
-    public function getPrimeHDimNormal(): ?float{
+    public function getPrimeHDimNormal(): ?float {
         return $this->primeHDimNormal;
     }
 
@@ -927,7 +926,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h nuit2 normal.
      */
-    public function getPrimeHNuit2Normal(): ?float{
+    public function getPrimeHNuit2Normal(): ?float {
         return $this->primeHNuit2Normal;
     }
 
@@ -936,7 +935,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h nuit except.
      */
-    public function getPrimeHNuitExcept(): ?float{
+    public function getPrimeHNuitExcept(): ?float {
         return $this->primeHNuitExcept;
     }
 
@@ -945,7 +944,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime h nuit normal.
      */
-    public function getPrimeHNuitNormal(): ?float{
+    public function getPrimeHNuitNormal(): ?float {
         return $this->primeHNuitNormal;
     }
 
@@ -954,7 +953,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime jf2 normal.
      */
-    public function getPrimeJf2Normal(): ?float{
+    public function getPrimeJf2Normal(): ?float {
         return $this->primeJf2Normal;
     }
 
@@ -963,7 +962,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime jf except.
      */
-    public function getPrimeJfExcept(): ?float{
+    public function getPrimeJfExcept(): ?float {
         return $this->primeJfExcept;
     }
 
@@ -972,7 +971,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the prime jf normal.
      */
-    public function getPrimeJfNormal(): ?float{
+    public function getPrimeJfNormal(): ?float {
         return $this->primeJfNormal;
     }
 
@@ -981,7 +980,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the temps passe.
      */
-    public function getTempsPasse(): ?float{
+    public function getTempsPasse(): ?float {
         return $this->tempsPasse;
     }
 
@@ -990,7 +989,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the total h anal.
      */
-    public function getTotalHAnal(): ?float{
+    public function getTotalHAnal(): ?float {
         return $this->totalHAnal;
     }
 
@@ -999,7 +998,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the tx horaire rs.
      */
-    public function getTxHoraireRs(): ?float{
+    public function getTxHoraireRs(): ?float {
         return $this->txHoraireRs;
     }
 
@@ -1008,7 +1007,7 @@ class HistoPrepPaie {
      *
      * @return float|null Returns the tx horaire tp.
      */
-    public function getTxHoraireTp(): ?float{
+    public function getTxHoraireTp(): ?float {
         return $this->txHoraireTp;
     }
 
@@ -1017,7 +1016,7 @@ class HistoPrepPaie {
      *
      * @return bool|null Returns the ya eu saisie manuelle.
      */
-    public function getYaEuSaisieManuelle(): ?bool{
+    public function getYaEuSaisieManuelle(): ?bool {
         return $this->yaEuSaisieManuelle;
     }
 
@@ -1062,6 +1061,39 @@ class HistoPrepPaie {
      */
     public function setEtat(?string $etat): HistoPrepPaie {
         $this->etat = $etat;
+        return $this;
+    }
+
+    /**
+     * Set the h prev.
+     *
+     * @param float|null $hPrev The h prev.
+     * @return HistoPrepPaie Returns this Histo prep paie.
+     */
+    public function setHPrev(?float $hPrev): HistoPrepPaie {
+        $this->hPrev = $hPrev;
+        return $this;
+    }
+
+    /**
+     * Set the h rempl.
+     *
+     * @param float|null $hRempl The h rempl.
+     * @return HistoPrepPaie Returns this Histo prep paie.
+     */
+    public function setHRempl(?float $hRempl): HistoPrepPaie {
+        $this->hRempl = $hRempl;
+        return $this;
+    }
+
+    /**
+     * Set the h surcroit.
+     *
+     * @param float|null $hSurcroit The h surcroit.
+     * @return HistoPrepPaie Returns this Histo prep paie.
+     */
+    public function setHSurcroit(?float $hSurcroit): HistoPrepPaie {
+        $this->hSurcroit = $hSurcroit;
         return $this;
     }
 
@@ -1198,24 +1230,24 @@ class HistoPrepPaie {
     }
 
     /**
-     * Set the h prev.
+     * Set the heures rc acquises.
      *
-     * @param float|null $hPrev The h prev.
+     * @param float|null $heuresRcAcquises The heures rc acquises.
      * @return HistoPrepPaie Returns this Histo prep paie.
      */
-    public function setHPrev(?float $hPrev): HistoPrepPaie {
-        $this->hPrev = $hPrev;
+    public function setHeuresRcAcquises(?float $heuresRcAcquises): HistoPrepPaie {
+        $this->heuresRcAcquises = $heuresRcAcquises;
         return $this;
     }
 
     /**
-     * Set the h rempl.
+     * Set the heures rr acquises.
      *
-     * @param float|null $hRempl The h rempl.
+     * @param float|null $heuresRrAcquises The heures rr acquises.
      * @return HistoPrepPaie Returns this Histo prep paie.
      */
-    public function setHRempl(?float $hRempl): HistoPrepPaie {
-        $this->hRempl = $hRempl;
+    public function setHeuresRrAcquises(?float $heuresRrAcquises): HistoPrepPaie {
+        $this->heuresRrAcquises = $heuresRrAcquises;
         return $this;
     }
 
@@ -1260,39 +1292,6 @@ class HistoPrepPaie {
      */
     public function setHs35Heures(?float $hs35Heures): HistoPrepPaie {
         $this->hs35Heures = $hs35Heures;
-        return $this;
-    }
-
-    /**
-     * Set the h surcroit.
-     *
-     * @param float|null $hSurcroit The h surcroit.
-     * @return HistoPrepPaie Returns this Histo prep paie.
-     */
-    public function setHSurcroit(?float $hSurcroit): HistoPrepPaie {
-        $this->hSurcroit = $hSurcroit;
-        return $this;
-    }
-
-    /**
-     * Set the heures rc acquises.
-     *
-     * @param float|null $heuresRcAcquises The heures rc acquises.
-     * @return HistoPrepPaie Returns this Histo prep paie.
-     */
-    public function setHeuresRcAcquises(?float $heuresRcAcquises): HistoPrepPaie {
-        $this->heuresRcAcquises = $heuresRcAcquises;
-        return $this;
-    }
-
-    /**
-     * Set the heures rr acquises.
-     *
-     * @param float|null $heuresRrAcquises The heures rr acquises.
-     * @return HistoPrepPaie Returns this Histo prep paie.
-     */
-    public function setHeuresRrAcquises(?float $heuresRrAcquises): HistoPrepPaie {
-        $this->heuresRrAcquises = $heuresRrAcquises;
         return $this;
     }
 

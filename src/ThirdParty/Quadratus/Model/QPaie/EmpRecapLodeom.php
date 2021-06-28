@@ -112,7 +112,6 @@ class EmpRecapLodeom {
      */
     private $shb;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class EmpRecapLodeom {
      *
      * @return float|null Returns the brut.
      */
-    public function getBrut(): ?float{
+    public function getBrut(): ?float {
         return $this->brut;
     }
 
@@ -134,7 +133,7 @@ class EmpRecapLodeom {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -143,7 +142,7 @@ class EmpRecapLodeom {
      *
      * @return string|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?string{
+    public function getCodeEtablissement(): ?string {
         return $this->codeEtablissement;
     }
 
@@ -152,7 +151,7 @@ class EmpRecapLodeom {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -161,7 +160,7 @@ class EmpRecapLodeom {
      *
      * @return float|null Returns the difference.
      */
-    public function getDifference(): ?float{
+    public function getDifference(): ?float {
         return $this->difference;
     }
 
@@ -170,7 +169,7 @@ class EmpRecapLodeom {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -179,7 +178,7 @@ class EmpRecapLodeom {
      *
      * @return float|null Returns the nbhr.
      */
-    public function getNbhr(): ?float{
+    public function getNbhr(): ?float {
         return $this->nbhr;
     }
 
@@ -188,7 +187,7 @@ class EmpRecapLodeom {
      *
      * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye(): ?string{
+    public function getNomEmploye(): ?string {
         return $this->nomEmploye;
     }
 
@@ -197,7 +196,7 @@ class EmpRecapLodeom {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -206,7 +205,7 @@ class EmpRecapLodeom {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -215,7 +214,7 @@ class EmpRecapLodeom {
      *
      * @return float|null Returns the reduc bul.
      */
-    public function getReducBul(): ?float{
+    public function getReducBul(): ?float {
         return $this->reducBul;
     }
 
@@ -224,7 +223,7 @@ class EmpRecapLodeom {
      *
      * @return float|null Returns the reduc recalc.
      */
-    public function getReducRecalc(): ?float{
+    public function getReducRecalc(): ?float {
         return $this->reducRecalc;
     }
 
@@ -233,7 +232,7 @@ class EmpRecapLodeom {
      *
      * @return float|null Returns the shb.
      */
-    public function getShb(): ?float{
+    public function getShb(): ?float {
         return $this->shb;
     }
 

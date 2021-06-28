@@ -309,13 +309,6 @@ class DecTva3519 {
     private $qualite;
 
     /**
-     * Rib.
-     *
-     * @var string|null
-     */
-    private $rib;
-
-    /**
      * Rbt demande.
      *
      * @var float|null
@@ -330,53 +323,11 @@ class DecTva3519 {
     private $reportCredit;
 
     /**
-     * Tva fictive1.
+     * Rib.
      *
-     * @var float|null
+     * @var string|null
      */
-    private $tvaFictive1;
-
-    /**
-     * Tva fictive2.
-     *
-     * @var float|null
-     */
-    private $tvaFictive2;
-
-    /**
-     * Tva fictive3.
-     *
-     * @var float|null
-     */
-    private $tvaFictive3;
-
-    /**
-     * Tva fictive4.
-     *
-     * @var float|null
-     */
-    private $tvaFictive4;
-
-    /**
-     * Tva fictive5.
-     *
-     * @var float|null
-     */
-    private $tvaFictive5;
-
-    /**
-     * Tva fictive prec.
-     *
-     * @var float|null
-     */
-    private $tvaFictivePrec;
-
-    /**
-     * Tva fictive pres.
-     *
-     * @var float|null
-     */
-    private $tvaFictivePres;
+    private $rib;
 
     /**
      * Taux tva1.
@@ -442,6 +393,55 @@ class DecTva3519 {
     private $totalColonne5;
 
     /**
+     * Tva fictive1.
+     *
+     * @var float|null
+     */
+    private $tvaFictive1;
+
+    /**
+     * Tva fictive2.
+     *
+     * @var float|null
+     */
+    private $tvaFictive2;
+
+    /**
+     * Tva fictive3.
+     *
+     * @var float|null
+     */
+    private $tvaFictive3;
+
+    /**
+     * Tva fictive4.
+     *
+     * @var float|null
+     */
+    private $tvaFictive4;
+
+    /**
+     * Tva fictive5.
+     *
+     * @var float|null
+     */
+    private $tvaFictive5;
+
+    /**
+     * Tva fictive prec.
+     *
+     * @var float|null
+     */
+    private $tvaFictivePrec;
+
+    /**
+     * Tva fictive pres.
+     *
+     * @var float|null
+     */
+    private $tvaFictivePres;
+
+    /**
      * Type demande.
      *
      * @var int|null
@@ -455,7 +455,6 @@ class DecTva3519 {
      */
     private $ville;
 
-
     /**
      * Constructor.
      */
@@ -468,7 +467,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the autres ope1.
      */
-    public function getAutresOpe1(): ?float{
+    public function getAutresOpe1(): ?float {
         return $this->autresOpe1;
     }
 
@@ -477,7 +476,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the autres ope2.
      */
-    public function getAutresOpe2(): ?float{
+    public function getAutresOpe2(): ?float {
         return $this->autresOpe2;
     }
 
@@ -486,7 +485,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the autres ope3.
      */
-    public function getAutresOpe3(): ?float{
+    public function getAutresOpe3(): ?float {
         return $this->autresOpe3;
     }
 
@@ -495,7 +494,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the autres ope4.
      */
-    public function getAutresOpe4(): ?float{
+    public function getAutresOpe4(): ?float {
         return $this->autresOpe4;
     }
 
@@ -504,7 +503,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the autres ope total.
      */
-    public function getAutresOpeTotal(): ?float{
+    public function getAutresOpeTotal(): ?float {
         return $this->autresOpeTotal;
     }
 
@@ -513,7 +512,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the bic.
      */
-    public function getBic(): ?string{
+    public function getBic(): ?string {
         return $this->bic;
     }
 
@@ -522,7 +521,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the commentaires1.
      */
-    public function getCommentaires1(): ?string{
+    public function getCommentaires1(): ?string {
         return $this->commentaires1;
     }
 
@@ -531,7 +530,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the commentaires2.
      */
-    public function getCommentaires2(): ?string{
+    public function getCommentaires2(): ?string {
         return $this->commentaires2;
     }
 
@@ -540,7 +539,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the commentaires3.
      */
-    public function getCommentaires3(): ?string{
+    public function getCommentaires3(): ?string {
         return $this->commentaires3;
     }
 
@@ -549,7 +548,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the commentaires4.
      */
-    public function getCommentaires4(): ?string{
+    public function getCommentaires4(): ?string {
         return $this->commentaires4;
     }
 
@@ -558,7 +557,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the commentaires5.
      */
-    public function getCommentaires5(): ?string{
+    public function getCommentaires5(): ?string {
         return $this->commentaires5;
     }
 
@@ -567,7 +566,7 @@ class DecTva3519 {
      *
      * @return bool|null Returns the credit compte.
      */
-    public function getCreditCompte(): ?bool{
+    public function getCreditCompte(): ?bool {
         return $this->creditCompte;
     }
 
@@ -576,7 +575,7 @@ class DecTva3519 {
      *
      * @return bool|null Returns the credit imputer.
      */
-    public function getCreditImputer(): ?bool{
+    public function getCreditImputer(): ?bool {
         return $this->creditImputer;
     }
 
@@ -585,7 +584,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the credit non remb.
      */
-    public function getCreditNonRemb(): ?float{
+    public function getCreditNonRemb(): ?float {
         return $this->creditNonRemb;
     }
 
@@ -594,7 +593,7 @@ class DecTva3519 {
      *
      * @return DateTime|null Returns the date cession.
      */
-    public function getDateCession(): ?DateTime{
+    public function getDateCession(): ?DateTime {
         return $this->dateCession;
     }
 
@@ -603,7 +602,7 @@ class DecTva3519 {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -612,7 +611,7 @@ class DecTva3519 {
      *
      * @return DateTime|null Returns the date demande.
      */
-    public function getDateDemande(): ?DateTime{
+    public function getDateDemande(): ?DateTime {
         return $this->dateDemande;
     }
 
@@ -621,7 +620,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the exp biens1.
      */
-    public function getExpBiens1(): ?float{
+    public function getExpBiens1(): ?float {
         return $this->expBiens1;
     }
 
@@ -630,7 +629,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the exp biens2.
      */
-    public function getExpBiens2(): ?float{
+    public function getExpBiens2(): ?float {
         return $this->expBiens2;
     }
 
@@ -639,7 +638,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the exp biens3.
      */
-    public function getExpBiens3(): ?float{
+    public function getExpBiens3(): ?float {
         return $this->expBiens3;
     }
 
@@ -648,7 +647,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the exp biens4.
      */
-    public function getExpBiens4(): ?float{
+    public function getExpBiens4(): ?float {
         return $this->expBiens4;
     }
 
@@ -657,7 +656,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the exp biens total.
      */
-    public function getExpBiensTotal(): ?float{
+    public function getExpBiensTotal(): ?float {
         return $this->expBiensTotal;
     }
 
@@ -666,7 +665,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the exp periodes.
      */
-    public function getExpPeriodes(): ?string{
+    public function getExpPeriodes(): ?string {
         return $this->expPeriodes;
     }
 
@@ -675,7 +674,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the iban.
      */
-    public function getIban(): ?string{
+    public function getIban(): ?string {
         return $this->iban;
     }
 
@@ -684,7 +683,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the intracom1.
      */
-    public function getIntracom1(): ?float{
+    public function getIntracom1(): ?float {
         return $this->intracom1;
     }
 
@@ -693,7 +692,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the intracom2.
      */
-    public function getIntracom2(): ?float{
+    public function getIntracom2(): ?float {
         return $this->intracom2;
     }
 
@@ -702,7 +701,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the intracom3.
      */
-    public function getIntracom3(): ?float{
+    public function getIntracom3(): ?float {
         return $this->intracom3;
     }
 
@@ -711,7 +710,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the intracom4.
      */
-    public function getIntracom4(): ?float{
+    public function getIntracom4(): ?float {
         return $this->intracom4;
     }
 
@@ -720,7 +719,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the intracom total.
      */
-    public function getIntracomTotal(): ?float{
+    public function getIntracomTotal(): ?float {
         return $this->intracomTotal;
     }
 
@@ -729,7 +728,7 @@ class DecTva3519 {
      *
      * @return int|null Returns the mois1.
      */
-    public function getMois1(): ?int{
+    public function getMois1(): ?int {
         return $this->mois1;
     }
 
@@ -738,7 +737,7 @@ class DecTva3519 {
      *
      * @return int|null Returns the mois2.
      */
-    public function getMois2(): ?int{
+    public function getMois2(): ?int {
         return $this->mois2;
     }
 
@@ -747,7 +746,7 @@ class DecTva3519 {
      *
      * @return int|null Returns the mois3.
      */
-    public function getMois3(): ?int{
+    public function getMois3(): ?int {
         return $this->mois3;
     }
 
@@ -756,7 +755,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the montant1.
      */
-    public function getMontant1(): ?float{
+    public function getMontant1(): ?float {
         return $this->montant1;
     }
 
@@ -765,7 +764,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -774,7 +773,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the montant3.
      */
-    public function getMontant3(): ?float{
+    public function getMontant3(): ?float {
         return $this->montant3;
     }
 
@@ -783,7 +782,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the montant rbt.
      */
-    public function getMontantRbt(): ?float{
+    public function getMontantRbt(): ?float {
         return $this->montantRbt;
     }
 
@@ -792,7 +791,7 @@ class DecTva3519 {
      *
      * @return int|null Returns the nationalite.
      */
-    public function getNationalite(): ?int{
+    public function getNationalite(): ?int {
         return $this->nationalite;
     }
 
@@ -801,7 +800,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the nom prenom.
      */
-    public function getNomPrenom(): ?string{
+    public function getNomPrenom(): ?string {
         return $this->nomPrenom;
     }
 
@@ -810,7 +809,7 @@ class DecTva3519 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -819,7 +818,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the plafond rbt.
      */
-    public function getPlafondRbt(): ?float{
+    public function getPlafondRbt(): ?float {
         return $this->plafondRbt;
     }
 
@@ -828,17 +827,8 @@ class DecTva3519 {
      *
      * @return string|null Returns the qualite.
      */
-    public function getQualite(): ?string{
+    public function getQualite(): ?string {
         return $this->qualite;
-    }
-
-    /**
-     * Get the rib.
-     *
-     * @return string|null Returns the rib.
-     */
-    public function getRib(): ?string{
-        return $this->rib;
     }
 
     /**
@@ -846,7 +836,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the rbt demande.
      */
-    public function getRbtDemande(): ?float{
+    public function getRbtDemande(): ?float {
         return $this->rbtDemande;
     }
 
@@ -855,71 +845,17 @@ class DecTva3519 {
      *
      * @return float|null Returns the report credit.
      */
-    public function getReportCredit(): ?float{
+    public function getReportCredit(): ?float {
         return $this->reportCredit;
     }
 
     /**
-     * Get the tva fictive1.
+     * Get the rib.
      *
-     * @return float|null Returns the tva fictive1.
+     * @return string|null Returns the rib.
      */
-    public function getTvaFictive1(): ?float{
-        return $this->tvaFictive1;
-    }
-
-    /**
-     * Get the tva fictive2.
-     *
-     * @return float|null Returns the tva fictive2.
-     */
-    public function getTvaFictive2(): ?float{
-        return $this->tvaFictive2;
-    }
-
-    /**
-     * Get the tva fictive3.
-     *
-     * @return float|null Returns the tva fictive3.
-     */
-    public function getTvaFictive3(): ?float{
-        return $this->tvaFictive3;
-    }
-
-    /**
-     * Get the tva fictive4.
-     *
-     * @return float|null Returns the tva fictive4.
-     */
-    public function getTvaFictive4(): ?float{
-        return $this->tvaFictive4;
-    }
-
-    /**
-     * Get the tva fictive5.
-     *
-     * @return float|null Returns the tva fictive5.
-     */
-    public function getTvaFictive5(): ?float{
-        return $this->tvaFictive5;
-    }
-
-    /**
-     * Get the tva fictive prec.
-     *
-     * @return float|null Returns the tva fictive prec.
-     */
-    public function getTvaFictivePrec(): ?float{
-        return $this->tvaFictivePrec;
-    }
-
-    /**
-     * Get the tva fictive pres.
-     *
-     * @return float|null Returns the tva fictive pres.
-     */
-    public function getTvaFictivePres(): ?float{
-        return $this->tvaFictivePres;
+    public function getRib(): ?string {
+        return $this->rib;
     }
 
     /**
@@ -927,7 +863,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the taux tva1.
      */
-    public function getTauxTva1(): ?float{
+    public function getTauxTva1(): ?float {
         return $this->tauxTva1;
     }
 
@@ -936,7 +872,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the taux tva2.
      */
-    public function getTauxTva2(): ?float{
+    public function getTauxTva2(): ?float {
         return $this->tauxTva2;
     }
 
@@ -945,7 +881,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the taux tva3.
      */
-    public function getTauxTva3(): ?float{
+    public function getTauxTva3(): ?float {
         return $this->tauxTva3;
     }
 
@@ -954,7 +890,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the taux tva4.
      */
-    public function getTauxTva4(): ?float{
+    public function getTauxTva4(): ?float {
         return $this->tauxTva4;
     }
 
@@ -963,7 +899,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the total colonne1.
      */
-    public function getTotalColonne1(): ?float{
+    public function getTotalColonne1(): ?float {
         return $this->totalColonne1;
     }
 
@@ -972,7 +908,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the total colonne2.
      */
-    public function getTotalColonne2(): ?float{
+    public function getTotalColonne2(): ?float {
         return $this->totalColonne2;
     }
 
@@ -981,7 +917,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the total colonne3.
      */
-    public function getTotalColonne3(): ?float{
+    public function getTotalColonne3(): ?float {
         return $this->totalColonne3;
     }
 
@@ -990,7 +926,7 @@ class DecTva3519 {
      *
      * @return float|null Returns the total colonne4.
      */
-    public function getTotalColonne4(): ?float{
+    public function getTotalColonne4(): ?float {
         return $this->totalColonne4;
     }
 
@@ -999,8 +935,71 @@ class DecTva3519 {
      *
      * @return float|null Returns the total colonne5.
      */
-    public function getTotalColonne5(): ?float{
+    public function getTotalColonne5(): ?float {
         return $this->totalColonne5;
+    }
+
+    /**
+     * Get the tva fictive1.
+     *
+     * @return float|null Returns the tva fictive1.
+     */
+    public function getTvaFictive1(): ?float {
+        return $this->tvaFictive1;
+    }
+
+    /**
+     * Get the tva fictive2.
+     *
+     * @return float|null Returns the tva fictive2.
+     */
+    public function getTvaFictive2(): ?float {
+        return $this->tvaFictive2;
+    }
+
+    /**
+     * Get the tva fictive3.
+     *
+     * @return float|null Returns the tva fictive3.
+     */
+    public function getTvaFictive3(): ?float {
+        return $this->tvaFictive3;
+    }
+
+    /**
+     * Get the tva fictive4.
+     *
+     * @return float|null Returns the tva fictive4.
+     */
+    public function getTvaFictive4(): ?float {
+        return $this->tvaFictive4;
+    }
+
+    /**
+     * Get the tva fictive5.
+     *
+     * @return float|null Returns the tva fictive5.
+     */
+    public function getTvaFictive5(): ?float {
+        return $this->tvaFictive5;
+    }
+
+    /**
+     * Get the tva fictive prec.
+     *
+     * @return float|null Returns the tva fictive prec.
+     */
+    public function getTvaFictivePrec(): ?float {
+        return $this->tvaFictivePrec;
+    }
+
+    /**
+     * Get the tva fictive pres.
+     *
+     * @return float|null Returns the tva fictive pres.
+     */
+    public function getTvaFictivePres(): ?float {
+        return $this->tvaFictivePres;
     }
 
     /**
@@ -1008,7 +1007,7 @@ class DecTva3519 {
      *
      * @return int|null Returns the type demande.
      */
-    public function getTypeDemande(): ?int{
+    public function getTypeDemande(): ?int {
         return $this->typeDemande;
     }
 
@@ -1017,7 +1016,7 @@ class DecTva3519 {
      *
      * @return string|null Returns the ville.
      */
-    public function getVille(): ?string{
+    public function getVille(): ?string {
         return $this->ville;
     }
 
@@ -1473,17 +1472,6 @@ class DecTva3519 {
     }
 
     /**
-     * Set the rib.
-     *
-     * @param string|null $rib The rib.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setRib(?string $rib): DecTva3519 {
-        $this->rib = $rib;
-        return $this;
-    }
-
-    /**
      * Set the rbt demande.
      *
      * @param float|null $rbtDemande The rbt demande.
@@ -1506,79 +1494,13 @@ class DecTva3519 {
     }
 
     /**
-     * Set the tva fictive1.
+     * Set the rib.
      *
-     * @param float|null $tvaFictive1 The tva fictive1.
+     * @param string|null $rib The rib.
      * @return DecTva3519 Returns this Dec tva3519.
      */
-    public function setTvaFictive1(?float $tvaFictive1): DecTva3519 {
-        $this->tvaFictive1 = $tvaFictive1;
-        return $this;
-    }
-
-    /**
-     * Set the tva fictive2.
-     *
-     * @param float|null $tvaFictive2 The tva fictive2.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setTvaFictive2(?float $tvaFictive2): DecTva3519 {
-        $this->tvaFictive2 = $tvaFictive2;
-        return $this;
-    }
-
-    /**
-     * Set the tva fictive3.
-     *
-     * @param float|null $tvaFictive3 The tva fictive3.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setTvaFictive3(?float $tvaFictive3): DecTva3519 {
-        $this->tvaFictive3 = $tvaFictive3;
-        return $this;
-    }
-
-    /**
-     * Set the tva fictive4.
-     *
-     * @param float|null $tvaFictive4 The tva fictive4.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setTvaFictive4(?float $tvaFictive4): DecTva3519 {
-        $this->tvaFictive4 = $tvaFictive4;
-        return $this;
-    }
-
-    /**
-     * Set the tva fictive5.
-     *
-     * @param float|null $tvaFictive5 The tva fictive5.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setTvaFictive5(?float $tvaFictive5): DecTva3519 {
-        $this->tvaFictive5 = $tvaFictive5;
-        return $this;
-    }
-
-    /**
-     * Set the tva fictive prec.
-     *
-     * @param float|null $tvaFictivePrec The tva fictive prec.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setTvaFictivePrec(?float $tvaFictivePrec): DecTva3519 {
-        $this->tvaFictivePrec = $tvaFictivePrec;
-        return $this;
-    }
-
-    /**
-     * Set the tva fictive pres.
-     *
-     * @param float|null $tvaFictivePres The tva fictive pres.
-     * @return DecTva3519 Returns this Dec tva3519.
-     */
-    public function setTvaFictivePres(?float $tvaFictivePres): DecTva3519 {
-        $this->tvaFictivePres = $tvaFictivePres;
+    public function setRib(?string $rib): DecTva3519 {
+        $this->rib = $rib;
         return $this;
     }
 
@@ -1678,6 +1600,83 @@ class DecTva3519 {
      */
     public function setTotalColonne5(?float $totalColonne5): DecTva3519 {
         $this->totalColonne5 = $totalColonne5;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive1.
+     *
+     * @param float|null $tvaFictive1 The tva fictive1.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictive1(?float $tvaFictive1): DecTva3519 {
+        $this->tvaFictive1 = $tvaFictive1;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive2.
+     *
+     * @param float|null $tvaFictive2 The tva fictive2.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictive2(?float $tvaFictive2): DecTva3519 {
+        $this->tvaFictive2 = $tvaFictive2;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive3.
+     *
+     * @param float|null $tvaFictive3 The tva fictive3.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictive3(?float $tvaFictive3): DecTva3519 {
+        $this->tvaFictive3 = $tvaFictive3;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive4.
+     *
+     * @param float|null $tvaFictive4 The tva fictive4.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictive4(?float $tvaFictive4): DecTva3519 {
+        $this->tvaFictive4 = $tvaFictive4;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive5.
+     *
+     * @param float|null $tvaFictive5 The tva fictive5.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictive5(?float $tvaFictive5): DecTva3519 {
+        $this->tvaFictive5 = $tvaFictive5;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive prec.
+     *
+     * @param float|null $tvaFictivePrec The tva fictive prec.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictivePrec(?float $tvaFictivePrec): DecTva3519 {
+        $this->tvaFictivePrec = $tvaFictivePrec;
+        return $this;
+    }
+
+    /**
+     * Set the tva fictive pres.
+     *
+     * @param float|null $tvaFictivePres The tva fictive pres.
+     * @return DecTva3519 Returns this Dec tva3519.
+     */
+    public function setTvaFictivePres(?float $tvaFictivePres): DecTva3519 {
+        $this->tvaFictivePres = $tvaFictivePres;
         return $this;
     }
 

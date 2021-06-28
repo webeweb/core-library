@@ -11,9 +11,9 @@
 
 namespace WBW\Library\Core\ThirdParty\OcrLad\Model;
 
-use WBW\Library\Core\Model\Attribute\IntegerHeightTrait;
-use WBW\Library\Core\Model\Attribute\IntegerWidthTrait;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\Attribute\ArrayWordsTrait;
+use WBW\Library\Traits\Integers\IntegerHeightTrait;
+use WBW\Library\Traits\Integers\IntegerWidthTrait;
 
 /**
  * Page.

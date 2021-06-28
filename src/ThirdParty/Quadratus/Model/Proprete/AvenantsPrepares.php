@@ -70,7 +70,6 @@ class AvenantsPrepares {
      */
     private $typeDocument;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class AvenantsPrepares {
      *
      * @return string|null Returns the chrono.
      */
-    public function getChrono(): ?string{
+    public function getChrono(): ?string {
         return $this->chrono;
     }
 
@@ -92,7 +91,7 @@ class AvenantsPrepares {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -101,7 +100,7 @@ class AvenantsPrepares {
      *
      * @return bool|null Returns the continuer verif.
      */
-    public function getContinuerVerif(): ?bool{
+    public function getContinuerVerif(): ?bool {
         return $this->continuerVerif;
     }
 
@@ -110,7 +109,7 @@ class AvenantsPrepares {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -119,7 +118,7 @@ class AvenantsPrepares {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -128,7 +127,7 @@ class AvenantsPrepares {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -137,7 +136,7 @@ class AvenantsPrepares {
      *
      * @return string|null Returns the type document.
      */
-    public function getTypeDocument(): ?string{
+    public function getTypeDocument(): ?string {
         return $this->typeDocument;
     }
 

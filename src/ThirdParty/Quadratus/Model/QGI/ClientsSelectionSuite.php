@@ -68,7 +68,6 @@ class ClientsSelectionSuite {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class ClientsSelectionSuite {
      *
      * @return bool|null Returns the coche client.
      */
-    public function getCocheClient(): ?bool{
+    public function getCocheClient(): ?bool {
         return $this->cocheClient;
     }
 
@@ -90,7 +89,7 @@ class ClientsSelectionSuite {
      *
      * @return bool|null Returns the coche fournisseur.
      */
-    public function getCocheFournisseur(): ?bool{
+    public function getCocheFournisseur(): ?bool {
         return $this->cocheFournisseur;
     }
 
@@ -99,7 +98,7 @@ class ClientsSelectionSuite {
      *
      * @return bool|null Returns the coche intervenant.
      */
-    public function getCocheIntervenant(): ?bool{
+    public function getCocheIntervenant(): ?bool {
         return $this->cocheIntervenant;
     }
 
@@ -108,7 +107,7 @@ class ClientsSelectionSuite {
      *
      * @return bool|null Returns the coche prospect.
      */
-    public function getCocheProspect(): ?bool{
+    public function getCocheProspect(): ?bool {
         return $this->cocheProspect;
     }
 
@@ -117,7 +116,7 @@ class ClientsSelectionSuite {
      *
      * @return bool|null Returns the coche sorti.
      */
-    public function getCocheSorti(): ?bool{
+    public function getCocheSorti(): ?bool {
         return $this->cocheSorti;
     }
 
@@ -126,7 +125,7 @@ class ClientsSelectionSuite {
      *
      * @return string|null Returns the code col.
      */
-    public function getCodeCol(): ?string{
+    public function getCodeCol(): ?string {
         return $this->codeCol;
     }
 
@@ -135,7 +134,7 @@ class ClientsSelectionSuite {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

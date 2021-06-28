@@ -120,19 +120,18 @@ class ChantiersPlanCtrlQualite {
     private $typeControle;
 
     /**
-     * Uniq id synchro.
-     *
-     * @var string|null
-     */
-    private $uniqIdSynchro;
-
-    /**
      * Uniq id noeud.
      *
      * @var string|null
      */
     private $uniqIdNoeud;
 
+    /**
+     * Uniq id synchro.
+     *
+     * @var string|null
+     */
+    private $uniqIdSynchro;
 
     /**
      * Constructor.
@@ -146,7 +145,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -155,7 +154,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -164,7 +163,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -173,7 +172,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -182,7 +181,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -191,7 +190,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -200,7 +199,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return DateTime|null Returns the date prevue.
      */
-    public function getDatePrevue(): ?DateTime{
+    public function getDatePrevue(): ?DateTime {
         return $this->datePrevue;
     }
 
@@ -209,7 +208,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return DateTime|null Returns the date reelle.
      */
-    public function getDateReelle(): ?DateTime{
+    public function getDateReelle(): ?DateTime {
         return $this->dateReelle;
     }
 
@@ -218,7 +217,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -227,7 +226,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -236,7 +235,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return float|null Returns the note globale.
      */
-    public function getNoteGlobale(): ?float{
+    public function getNoteGlobale(): ?float {
         return $this->noteGlobale;
     }
 
@@ -245,7 +244,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return int|null Returns the numero reclam.
      */
-    public function getNumeroReclam(): ?int{
+    public function getNumeroReclam(): ?int {
         return $this->numeroReclam;
     }
 
@@ -254,7 +253,7 @@ class ChantiersPlanCtrlQualite {
      *
      * @return bool|null Returns the realise par fcq.
      */
-    public function getRealiseParFcq(): ?bool{
+    public function getRealiseParFcq(): ?bool {
         return $this->realiseParFcq;
     }
 
@@ -263,17 +262,8 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the type controle.
      */
-    public function getTypeControle(): ?string{
+    public function getTypeControle(): ?string {
         return $this->typeControle;
-    }
-
-    /**
-     * Get the uniq id synchro.
-     *
-     * @return string|null Returns the uniq id synchro.
-     */
-    public function getUniqIdSynchro(): ?string{
-        return $this->uniqIdSynchro;
     }
 
     /**
@@ -281,8 +271,17 @@ class ChantiersPlanCtrlQualite {
      *
      * @return string|null Returns the uniq id noeud.
      */
-    public function getUniqIdNoeud(): ?string{
+    public function getUniqIdNoeud(): ?string {
         return $this->uniqIdNoeud;
+    }
+
+    /**
+     * Get the uniq id synchro.
+     *
+     * @return string|null Returns the uniq id synchro.
+     */
+    public function getUniqIdSynchro(): ?string {
+        return $this->uniqIdSynchro;
     }
 
     /**
@@ -440,17 +439,6 @@ class ChantiersPlanCtrlQualite {
     }
 
     /**
-     * Set the uniq id synchro.
-     *
-     * @param string|null $uniqIdSynchro The uniq id synchro.
-     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
-     */
-    public function setUniqIdSynchro(?string $uniqIdSynchro): ChantiersPlanCtrlQualite {
-        $this->uniqIdSynchro = $uniqIdSynchro;
-        return $this;
-    }
-
-    /**
      * Set the uniq id noeud.
      *
      * @param string|null $uniqIdNoeud The uniq id noeud.
@@ -458,6 +446,17 @@ class ChantiersPlanCtrlQualite {
      */
     public function setUniqIdNoeud(?string $uniqIdNoeud): ChantiersPlanCtrlQualite {
         $this->uniqIdNoeud = $uniqIdNoeud;
+        return $this;
+    }
+
+    /**
+     * Set the uniq id synchro.
+     *
+     * @param string|null $uniqIdSynchro The uniq id synchro.
+     * @return ChantiersPlanCtrlQualite Returns this Chantiers plan ctrl qualite.
+     */
+    public function setUniqIdSynchro(?string $uniqIdSynchro): ChantiersPlanCtrlQualite {
+        $this->uniqIdSynchro = $uniqIdSynchro;
         return $this;
     }
 }

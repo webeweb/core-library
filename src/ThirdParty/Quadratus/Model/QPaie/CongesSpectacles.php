@@ -239,18 +239,18 @@ class CongesSpectacles {
     private $lieuNaissance;
 
     /**
-     * Nir.
-     *
-     * @var string|null
-     */
-    private $nir;
-
-    /**
      * Nb jour trav.
      *
      * @var float|null
      */
     private $nbJourTrav;
+
+    /**
+     * Nir.
+     *
+     * @var string|null
+     */
+    private $nir;
 
     /**
      * Nom employe.
@@ -344,13 +344,6 @@ class CongesSpectacles {
     private $pseudonyme;
 
     /**
-     * Siret.
-     *
-     * @var string|null
-     */
-    private $siret;
-
-    /**
      * Sexe.
      *
      * @var string|null
@@ -363,6 +356,13 @@ class CongesSpectacles {
      * @var string|null
      */
     private $signataireCertificatEmploi;
+
+    /**
+     * Siret.
+     *
+     * @var string|null
+     */
+    private $siret;
 
     /**
      * Statut cadre.
@@ -392,7 +392,6 @@ class CongesSpectacles {
      */
     private $typeCe;
 
-
     /**
      * Constructor.
      */
@@ -405,7 +404,7 @@ class CongesSpectacles {
      *
      * @return float|null Returns the base conges.
      */
-    public function getBaseConges(): ?float{
+    public function getBaseConges(): ?float {
         return $this->baseConges;
     }
 
@@ -414,7 +413,7 @@ class CongesSpectacles {
      *
      * @return float|null Returns the brut.
      */
-    public function getBrut(): ?float{
+    public function getBrut(): ?float {
         return $this->brut;
     }
 
@@ -423,7 +422,7 @@ class CongesSpectacles {
      *
      * @return bool|null Returns the ce initial.
      */
-    public function getCeInitial(): ?bool{
+    public function getCeInitial(): ?bool {
         return $this->ceInitial;
     }
 
@@ -432,7 +431,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the code emploi.
      */
-    public function getCodeEmploi(): ?string{
+    public function getCodeEmploi(): ?string {
         return $this->codeEmploi;
     }
 
@@ -441,7 +440,7 @@ class CongesSpectacles {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -450,7 +449,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the contact.
      */
-    public function getContact(): ?string{
+    public function getContact(): ?string {
         return $this->contact;
     }
 
@@ -459,7 +458,7 @@ class CongesSpectacles {
      *
      * @return bool|null Returns the contrat en cours.
      */
-    public function getContratEnCours(): ?bool{
+    public function getContratEnCours(): ?bool {
         return $this->contratEnCours;
     }
 
@@ -468,7 +467,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the date certificat emploi.
      */
-    public function getDateCertificatEmploi(): ?DateTime{
+    public function getDateCertificatEmploi(): ?DateTime {
         return $this->dateCertificatEmploi;
     }
 
@@ -477,7 +476,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the date embauche.
      */
-    public function getDateEmbauche(): ?DateTime{
+    public function getDateEmbauche(): ?DateTime {
         return $this->dateEmbauche;
     }
 
@@ -486,7 +485,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the date fin contrat.
      */
-    public function getDateFinContrat(): ?DateTime{
+    public function getDateFinContrat(): ?DateTime {
         return $this->dateFinContrat;
     }
 
@@ -495,7 +494,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance(): ?DateTime{
+    public function getDateNaissance(): ?DateTime {
         return $this->dateNaissance;
     }
 
@@ -504,7 +503,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the date paiement.
      */
-    public function getDatePaiement(): ?DateTime{
+    public function getDatePaiement(): ?DateTime {
         return $this->datePaiement;
     }
 
@@ -513,7 +512,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the debut periode attest.
      */
-    public function getDebutPeriodeAttest(): ?DateTime{
+    public function getDebutPeriodeAttest(): ?DateTime {
         return $this->debutPeriodeAttest;
     }
 
@@ -522,7 +521,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the dept naissance.
      */
-    public function getDeptNaissance(): ?string{
+    public function getDeptNaissance(): ?string {
         return $this->deptNaissance;
     }
 
@@ -531,7 +530,7 @@ class CongesSpectacles {
      *
      * @return bool|null Returns the disquette.
      */
-    public function getDisquette(): ?bool{
+    public function getDisquette(): ?bool {
         return $this->disquette;
     }
 
@@ -540,7 +539,7 @@ class CongesSpectacles {
      *
      * @return bool|null Returns the edite.
      */
-    public function getEdite(): ?bool{
+    public function getEdite(): ?bool {
         return $this->edite;
     }
 
@@ -549,7 +548,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the emp adresse1.
      */
-    public function getEmpAdresse1(): ?string{
+    public function getEmpAdresse1(): ?string {
         return $this->empAdresse1;
     }
 
@@ -558,7 +557,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the emp adresse2.
      */
-    public function getEmpAdresse2(): ?string{
+    public function getEmpAdresse2(): ?string {
         return $this->empAdresse2;
     }
 
@@ -567,7 +566,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the emp code postal.
      */
-    public function getEmpCodePostal(): ?string{
+    public function getEmpCodePostal(): ?string {
         return $this->empCodePostal;
     }
 
@@ -576,7 +575,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the emp commune.
      */
-    public function getEmpCommune(): ?string{
+    public function getEmpCommune(): ?string {
         return $this->empCommune;
     }
 
@@ -585,7 +584,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the emploi.
      */
-    public function getEmploi(): ?string{
+    public function getEmploi(): ?string {
         return $this->emploi;
     }
 
@@ -594,7 +593,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the etbl adresse1.
      */
-    public function getEtblAdresse1(): ?string{
+    public function getEtblAdresse1(): ?string {
         return $this->etblAdresse1;
     }
 
@@ -603,7 +602,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the etbl adresse2.
      */
-    public function getEtblAdresse2(): ?string{
+    public function getEtblAdresse2(): ?string {
         return $this->etblAdresse2;
     }
 
@@ -612,7 +611,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the etbl code postal.
      */
-    public function getEtblCodePostal(): ?string{
+    public function getEtblCodePostal(): ?string {
         return $this->etblCodePostal;
     }
 
@@ -621,7 +620,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the etbl commune.
      */
-    public function getEtblCommune(): ?string{
+    public function getEtblCommune(): ?string {
         return $this->etblCommune;
     }
 
@@ -630,7 +629,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the etbl raison sociale.
      */
-    public function getEtblRaisonSociale(): ?string{
+    public function getEtblRaisonSociale(): ?string {
         return $this->etblRaisonSociale;
     }
 
@@ -639,7 +638,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel(): ?string{
+    public function getEtblTel(): ?string {
         return $this->etblTel;
     }
 
@@ -648,7 +647,7 @@ class CongesSpectacles {
      *
      * @return int|null Returns the indice ce.
      */
-    public function getIndiceCe(): ?int{
+    public function getIndiceCe(): ?int {
         return $this->indiceCe;
     }
 
@@ -657,7 +656,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -666,7 +665,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the lieu certificat emploi.
      */
-    public function getLieuCertificatEmploi(): ?string{
+    public function getLieuCertificatEmploi(): ?string {
         return $this->lieuCertificatEmploi;
     }
 
@@ -675,17 +674,8 @@ class CongesSpectacles {
      *
      * @return string|null Returns the lieu naissance.
      */
-    public function getLieuNaissance(): ?string{
+    public function getLieuNaissance(): ?string {
         return $this->lieuNaissance;
-    }
-
-    /**
-     * Get the nir.
-     *
-     * @return string|null Returns the nir.
-     */
-    public function getNir(): ?string{
-        return $this->nir;
     }
 
     /**
@@ -693,8 +683,17 @@ class CongesSpectacles {
      *
      * @return float|null Returns the nb jour trav.
      */
-    public function getNbJourTrav(): ?float{
+    public function getNbJourTrav(): ?float {
         return $this->nbJourTrav;
+    }
+
+    /**
+     * Get the nir.
+     *
+     * @return string|null Returns the nir.
+     */
+    public function getNir(): ?string {
+        return $this->nir;
     }
 
     /**
@@ -702,7 +701,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye(): ?string{
+    public function getNomEmploye(): ?string {
         return $this->nomEmploye;
     }
 
@@ -711,7 +710,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance(): ?string{
+    public function getNomNaissance(): ?string {
         return $this->nomNaissance;
     }
 
@@ -720,7 +719,7 @@ class CongesSpectacles {
      *
      * @return float|null Returns the nombre cachets.
      */
-    public function getNombreCachets(): ?float{
+    public function getNombreCachets(): ?float {
         return $this->nombreCachets;
     }
 
@@ -729,7 +728,7 @@ class CongesSpectacles {
      *
      * @return bool|null Returns the nouvelle attest.
      */
-    public function getNouvelleAttest(): ?bool{
+    public function getNouvelleAttest(): ?bool {
         return $this->nouvelleAttest;
     }
 
@@ -738,7 +737,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the num caisse spectacle.
      */
-    public function getNumCaisseSpectacle(): ?string{
+    public function getNumCaisseSpectacle(): ?string {
         return $this->numCaisseSpectacle;
     }
 
@@ -747,7 +746,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -756,7 +755,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the numero ce initial.
      */
-    public function getNumeroCeInitial(): ?string{
+    public function getNumeroCeInitial(): ?string {
         return $this->numeroCeInitial;
     }
 
@@ -765,7 +764,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the numero conges spectacle.
      */
-    public function getNumeroCongesSpectacle(): ?string{
+    public function getNumeroCongesSpectacle(): ?string {
         return $this->numeroCongesSpectacle;
     }
 
@@ -774,7 +773,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -783,7 +782,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the observations.
      */
-    public function getObservations(): ?string{
+    public function getObservations(): ?string {
         return $this->observations;
     }
 
@@ -792,7 +791,7 @@ class CongesSpectacles {
      *
      * @return DateTime|null Returns the periode attest.
      */
-    public function getPeriodeAttest(): ?DateTime{
+    public function getPeriodeAttest(): ?DateTime {
         return $this->periodeAttest;
     }
 
@@ -801,7 +800,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -810,17 +809,8 @@ class CongesSpectacles {
      *
      * @return string|null Returns the pseudonyme.
      */
-    public function getPseudonyme(): ?string{
+    public function getPseudonyme(): ?string {
         return $this->pseudonyme;
-    }
-
-    /**
-     * Get the siret.
-     *
-     * @return string|null Returns the siret.
-     */
-    public function getSiret(): ?string{
-        return $this->siret;
     }
 
     /**
@@ -828,7 +818,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the sexe.
      */
-    public function getSexe(): ?string{
+    public function getSexe(): ?string {
         return $this->sexe;
     }
 
@@ -837,8 +827,17 @@ class CongesSpectacles {
      *
      * @return string|null Returns the signataire certificat emploi.
      */
-    public function getSignataireCertificatEmploi(): ?string{
+    public function getSignataireCertificatEmploi(): ?string {
         return $this->signataireCertificatEmploi;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string|null Returns the siret.
+     */
+    public function getSiret(): ?string {
+        return $this->siret;
     }
 
     /**
@@ -846,7 +845,7 @@ class CongesSpectacles {
      *
      * @return bool|null Returns the statut cadre.
      */
-    public function getStatutCadre(): ?bool{
+    public function getStatutCadre(): ?bool {
         return $this->statutCadre;
     }
 
@@ -855,7 +854,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the tel contact.
      */
-    public function getTelContact(): ?string{
+    public function getTelContact(): ?string {
         return $this->telContact;
     }
 
@@ -864,7 +863,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -873,7 +872,7 @@ class CongesSpectacles {
      *
      * @return string|null Returns the type ce.
      */
-    public function getTypeCe(): ?string{
+    public function getTypeCe(): ?string {
         return $this->typeCe;
     }
 
@@ -1219,17 +1218,6 @@ class CongesSpectacles {
     }
 
     /**
-     * Set the nir.
-     *
-     * @param string|null $nir The nir.
-     * @return CongesSpectacles Returns this Conges spectacles.
-     */
-    public function setNir(?string $nir): CongesSpectacles {
-        $this->nir = $nir;
-        return $this;
-    }
-
-    /**
      * Set the nb jour trav.
      *
      * @param float|null $nbJourTrav The nb jour trav.
@@ -1237,6 +1225,17 @@ class CongesSpectacles {
      */
     public function setNbJourTrav(?float $nbJourTrav): CongesSpectacles {
         $this->nbJourTrav = $nbJourTrav;
+        return $this;
+    }
+
+    /**
+     * Set the nir.
+     *
+     * @param string|null $nir The nir.
+     * @return CongesSpectacles Returns this Conges spectacles.
+     */
+    public function setNir(?string $nir): CongesSpectacles {
+        $this->nir = $nir;
         return $this;
     }
 
@@ -1384,17 +1383,6 @@ class CongesSpectacles {
     }
 
     /**
-     * Set the siret.
-     *
-     * @param string|null $siret The siret.
-     * @return CongesSpectacles Returns this Conges spectacles.
-     */
-    public function setSiret(?string $siret): CongesSpectacles {
-        $this->siret = $siret;
-        return $this;
-    }
-
-    /**
      * Set the sexe.
      *
      * @param string|null $sexe The sexe.
@@ -1413,6 +1401,17 @@ class CongesSpectacles {
      */
     public function setSignataireCertificatEmploi(?string $signataireCertificatEmploi): CongesSpectacles {
         $this->signataireCertificatEmploi = $signataireCertificatEmploi;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string|null $siret The siret.
+     * @return CongesSpectacles Returns this Conges spectacles.
+     */
+    public function setSiret(?string $siret): CongesSpectacles {
+        $this->siret = $siret;
         return $this;
     }
 

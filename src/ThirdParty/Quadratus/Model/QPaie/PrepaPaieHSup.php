@@ -63,7 +63,6 @@ class PrepaPaieHSup {
      */
     private $semaine;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class PrepaPaieHSup {
      *
      * @return string|null Returns the code lib hs.
      */
-    public function getCodeLibHs(): ?string{
+    public function getCodeLibHs(): ?string {
         return $this->codeLibHs;
     }
 
@@ -85,7 +84,7 @@ class PrepaPaieHSup {
      *
      * @return float|null Returns the nb h sup.
      */
-    public function getNbHSup(): ?float{
+    public function getNbHSup(): ?float {
         return $this->nbHSup;
     }
 
@@ -94,7 +93,7 @@ class PrepaPaieHSup {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -103,7 +102,7 @@ class PrepaPaieHSup {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -112,7 +111,7 @@ class PrepaPaieHSup {
      *
      * @return float|null Returns the pourcent h sup.
      */
-    public function getPourcentHSup(): ?float{
+    public function getPourcentHSup(): ?float {
         return $this->pourcentHSup;
     }
 
@@ -121,7 +120,7 @@ class PrepaPaieHSup {
      *
      * @return string|null Returns the semaine.
      */
-    public function getSemaine(): ?string{
+    public function getSemaine(): ?string {
         return $this->semaine;
     }
 

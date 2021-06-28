@@ -133,7 +133,6 @@ class AbsencesExcelHisto {
      */
     private $typeAbsCpCorr;
 
-
     /**
      * Constructor.
      */
@@ -146,7 +145,7 @@ class AbsencesExcelHisto {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded(): ?DateTime{
+    public function getDateAdded(): ?DateTime {
         return $this->dateAdded;
     }
 
@@ -155,7 +154,7 @@ class AbsencesExcelHisto {
      *
      * @return string|null Returns the id.
      */
-    public function getId(): ?string{
+    public function getId(): ?string {
         return $this->id;
     }
 
@@ -164,7 +163,7 @@ class AbsencesExcelHisto {
      *
      * @return float|null Returns the nbh sais.
      */
-    public function getNbhSais(): ?float{
+    public function getNbhSais(): ?float {
         return $this->nbhSais;
     }
 
@@ -173,7 +172,7 @@ class AbsencesExcelHisto {
      *
      * @return float|null Returns the nbh sais corr.
      */
-    public function getNbhSaisCorr(): ?float{
+    public function getNbhSaisCorr(): ?float {
         return $this->nbhSaisCorr;
     }
 
@@ -182,7 +181,7 @@ class AbsencesExcelHisto {
      *
      * @return float|null Returns the nbj sais.
      */
-    public function getNbjSais(): ?float{
+    public function getNbjSais(): ?float {
         return $this->nbjSais;
     }
 
@@ -191,7 +190,7 @@ class AbsencesExcelHisto {
      *
      * @return float|null Returns the nbj sais corr.
      */
-    public function getNbjSaisCorr(): ?float{
+    public function getNbjSaisCorr(): ?float {
         return $this->nbjSaisCorr;
     }
 
@@ -200,7 +199,7 @@ class AbsencesExcelHisto {
      *
      * @return int|null Returns the num evenement.
      */
-    public function getNumEvenement(): ?int{
+    public function getNumEvenement(): ?int {
         return $this->numEvenement;
     }
 
@@ -209,7 +208,7 @@ class AbsencesExcelHisto {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -218,7 +217,7 @@ class AbsencesExcelHisto {
      *
      * @return DateTime|null Returns the per paie.
      */
-    public function getPerPaie(): ?DateTime{
+    public function getPerPaie(): ?DateTime {
         return $this->perPaie;
     }
 
@@ -227,7 +226,7 @@ class AbsencesExcelHisto {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -236,7 +235,7 @@ class AbsencesExcelHisto {
      *
      * @return DateTime|null Returns the periode deb corr.
      */
-    public function getPeriodeDebCorr(): ?DateTime{
+    public function getPeriodeDebCorr(): ?DateTime {
         return $this->periodeDebCorr;
     }
 
@@ -245,7 +244,7 @@ class AbsencesExcelHisto {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -254,7 +253,7 @@ class AbsencesExcelHisto {
      *
      * @return DateTime|null Returns the periode fin corr.
      */
-    public function getPeriodeFinCorr(): ?DateTime{
+    public function getPeriodeFinCorr(): ?DateTime {
         return $this->periodeFinCorr;
     }
 
@@ -263,7 +262,7 @@ class AbsencesExcelHisto {
      *
      * @return bool|null Returns the transfert abs.
      */
-    public function getTransfertAbs(): ?bool{
+    public function getTransfertAbs(): ?bool {
         return $this->transfertAbs;
     }
 
@@ -272,7 +271,7 @@ class AbsencesExcelHisto {
      *
      * @return string|null Returns the type abs cp.
      */
-    public function getTypeAbsCp(): ?string{
+    public function getTypeAbsCp(): ?string {
         return $this->typeAbsCp;
     }
 
@@ -281,7 +280,7 @@ class AbsencesExcelHisto {
      *
      * @return string|null Returns the type abs cp corr.
      */
-    public function getTypeAbsCpCorr(): ?string{
+    public function getTypeAbsCpCorr(): ?string {
         return $this->typeAbsCpCorr;
     }
 

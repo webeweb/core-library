@@ -35,7 +35,6 @@ class JoursFeries {
      */
     private $jour;
 
-
     /**
      * Constructor.
      */
@@ -48,7 +47,7 @@ class JoursFeries {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -57,7 +56,7 @@ class JoursFeries {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour(): ?DateTime{
+    public function getJour(): ?DateTime {
         return $this->jour;
     }
 

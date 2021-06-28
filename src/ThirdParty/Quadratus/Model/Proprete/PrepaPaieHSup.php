@@ -56,7 +56,6 @@ class PrepaPaieHSup {
      */
     private $pourcentHSup;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class PrepaPaieHSup {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -78,7 +77,7 @@ class PrepaPaieHSup {
      *
      * @return float|null Returns the nb h sup.
      */
-    public function getNbHSup(): ?float{
+    public function getNbHSup(): ?float {
         return $this->nbHSup;
     }
 
@@ -87,7 +86,7 @@ class PrepaPaieHSup {
      *
      * @return string|null Returns the num sem.
      */
-    public function getNumSem(): ?string{
+    public function getNumSem(): ?string {
         return $this->numSem;
     }
 
@@ -96,7 +95,7 @@ class PrepaPaieHSup {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -105,7 +104,7 @@ class PrepaPaieHSup {
      *
      * @return float|null Returns the pourcent h sup.
      */
-    public function getPourcentHSup(): ?float{
+    public function getPourcentHSup(): ?float {
         return $this->pourcentHSup;
     }
 

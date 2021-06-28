@@ -103,7 +103,6 @@ class TransfertImmos {
      */
     private $cptValInc;
 
-
     /**
      * Constructor.
      */
@@ -116,7 +115,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt der cap.
      */
-    public function getCptDerCap(): ?string{
+    public function getCptDerCap(): ?string {
         return $this->cptDerCap;
     }
 
@@ -125,7 +124,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt der dot.
      */
-    public function getCptDerDot(): ?string{
+    public function getCptDerDot(): ?string {
         return $this->cptDerDot;
     }
 
@@ -134,7 +133,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt der maj.
      */
-    public function getCptDerMaj(): ?string{
+    public function getCptDerMaj(): ?string {
         return $this->cptDerMaj;
     }
 
@@ -143,7 +142,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt der rep.
      */
-    public function getCptDerRep(): ?string{
+    public function getCptDerRep(): ?string {
         return $this->cptDerRep;
     }
 
@@ -152,7 +151,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt dot cor.
      */
-    public function getCptDotCor(): ?string{
+    public function getCptDotCor(): ?string {
         return $this->cptDotCor;
     }
 
@@ -161,7 +160,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt dot exc.
      */
-    public function getCptDotExc(): ?string{
+    public function getCptDotExc(): ?string {
         return $this->cptDotExc;
     }
 
@@ -170,7 +169,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt dot fin.
      */
-    public function getCptDotFin(): ?string{
+    public function getCptDotFin(): ?string {
         return $this->cptDotFin;
     }
 
@@ -179,7 +178,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt dot inc.
      */
-    public function getCptDotInc(): ?string{
+    public function getCptDotInc(): ?string {
         return $this->cptDotInc;
     }
 
@@ -188,7 +187,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt val cor.
      */
-    public function getCptValCor(): ?string{
+    public function getCptValCor(): ?string {
         return $this->cptValCor;
     }
 
@@ -197,7 +196,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt val exc.
      */
-    public function getCptValExc(): ?string{
+    public function getCptValExc(): ?string {
         return $this->cptValExc;
     }
 
@@ -206,7 +205,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt val fin.
      */
-    public function getCptValFin(): ?string{
+    public function getCptValFin(): ?string {
         return $this->cptValFin;
     }
 
@@ -215,7 +214,7 @@ class TransfertImmos {
      *
      * @return string|null Returns the cpt val inc.
      */
-    public function getCptValInc(): ?string{
+    public function getCptValInc(): ?string {
         return $this->cptValInc;
     }
 

@@ -68,7 +68,6 @@ class DetailImmos {
      */
     private $valeur;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class DetailImmos {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -90,7 +89,7 @@ class DetailImmos {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -99,7 +98,7 @@ class DetailImmos {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -108,7 +107,7 @@ class DetailImmos {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -117,7 +116,7 @@ class DetailImmos {
      *
      * @return int|null Returns the numero deux.
      */
-    public function getNumeroDeux(): ?int{
+    public function getNumeroDeux(): ?int {
         return $this->numeroDeux;
     }
 
@@ -126,7 +125,7 @@ class DetailImmos {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -135,7 +134,7 @@ class DetailImmos {
      *
      * @return float|null Returns the valeur.
      */
-    public function getValeur(): ?float{
+    public function getValeur(): ?float {
         return $this->valeur;
     }
 

@@ -70,7 +70,6 @@ class CommissairesComptes {
      */
     private $titulaire;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class CommissairesComptes {
      *
      * @return string|null Returns the code cac.
      */
-    public function getCodeCac(): ?string{
+    public function getCodeCac(): ?string {
         return $this->codeCac;
     }
 
@@ -92,7 +91,7 @@ class CommissairesComptes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -101,7 +100,7 @@ class CommissairesComptes {
      *
      * @return DateTime|null Returns the date nomination.
      */
-    public function getDateNomination(): ?DateTime{
+    public function getDateNomination(): ?DateTime {
         return $this->dateNomination;
     }
 
@@ -110,7 +109,7 @@ class CommissairesComptes {
      *
      * @return int|null Returns the duree mandat.
      */
-    public function getDureeMandat(): ?int{
+    public function getDureeMandat(): ?int {
         return $this->dureeMandat;
     }
 
@@ -119,7 +118,7 @@ class CommissairesComptes {
      *
      * @return string|null Returns the observations.
      */
-    public function getObservations(): ?string{
+    public function getObservations(): ?string {
         return $this->observations;
     }
 
@@ -128,7 +127,7 @@ class CommissairesComptes {
      *
      * @return int|null Returns the position.
      */
-    public function getPosition(): ?int{
+    public function getPosition(): ?int {
         return $this->position;
     }
 
@@ -137,7 +136,7 @@ class CommissairesComptes {
      *
      * @return bool|null Returns the titulaire.
      */
-    public function getTitulaire(): ?bool{
+    public function getTitulaire(): ?bool {
         return $this->titulaire;
     }
 

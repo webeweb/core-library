@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Security;
 
-use WBW\Library\Core\Model\Attribute\StringPasswordTrait;
-use WBW\Library\Core\Model\Attribute\StringUsernameTrait;
+use WBW\Library\Traits\Strings\StringPasswordTrait;
+use WBW\Library\Traits\Strings\StringUsernameTrait;
 
 /**
  * Password authentication.

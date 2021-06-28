@@ -82,7 +82,6 @@ class LiaisonsTypesEnvois {
      */
     private $sansImages;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class LiaisonsTypesEnvois {
      *
      * @return string|null Returns the a bloquer.
      */
-    public function getABloquer(): ?string{
+    public function getABloquer(): ?string {
         return $this->aBloquer;
     }
 
@@ -104,7 +103,7 @@ class LiaisonsTypesEnvois {
      *
      * @return string|null Returns the a emettre.
      */
-    public function getAEmettre(): ?string{
+    public function getAEmettre(): ?string {
         return $this->aEmettre;
     }
 
@@ -113,7 +112,7 @@ class LiaisonsTypesEnvois {
      *
      * @return bool|null Returns the accepte depuis q bureau.
      */
-    public function getAccepteDepuisQBureau(): ?bool{
+    public function getAccepteDepuisQBureau(): ?bool {
         return $this->accepteDepuisQBureau;
     }
 
@@ -122,7 +121,7 @@ class LiaisonsTypesEnvois {
      *
      * @return bool|null Returns the accepte depuis qc.
      */
-    public function getAccepteDepuisQc(): ?bool{
+    public function getAccepteDepuisQc(): ?bool {
         return $this->accepteDepuisQc;
     }
 
@@ -131,7 +130,7 @@ class LiaisonsTypesEnvois {
      *
      * @return bool|null Returns the accepte depuis qp.
      */
-    public function getAccepteDepuisQp(): ?bool{
+    public function getAccepteDepuisQp(): ?bool {
         return $this->accepteDepuisQp;
     }
 
@@ -140,7 +139,7 @@ class LiaisonsTypesEnvois {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -149,7 +148,7 @@ class LiaisonsTypesEnvois {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -158,7 +157,7 @@ class LiaisonsTypesEnvois {
      *
      * @return bool|null Returns the modifiable.
      */
-    public function getModifiable(): ?bool{
+    public function getModifiable(): ?bool {
         return $this->modifiable;
     }
 
@@ -167,7 +166,7 @@ class LiaisonsTypesEnvois {
      *
      * @return bool|null Returns the sans images.
      */
-    public function getSansImages(): ?bool{
+    public function getSansImages(): ?bool {
         return $this->sansImages;
     }
 

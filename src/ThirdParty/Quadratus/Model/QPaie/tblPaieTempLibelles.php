@@ -47,7 +47,6 @@ class tblPaieTempLibelles {
      */
     private $numeroEmploye;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class tblPaieTempLibelles {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -69,7 +68,7 @@ class tblPaieTempLibelles {
      *
      * @return string|null Returns the code calcul.
      */
-    public function getCodeCalcul(): ?string{
+    public function getCodeCalcul(): ?string {
         return $this->codeCalcul;
     }
 
@@ -78,7 +77,7 @@ class tblPaieTempLibelles {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -87,7 +86,7 @@ class tblPaieTempLibelles {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 

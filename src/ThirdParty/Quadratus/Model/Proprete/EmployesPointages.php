@@ -77,7 +77,6 @@ class EmployesPointages {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class EmployesPointages {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -99,7 +98,7 @@ class EmployesPointages {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -108,7 +107,7 @@ class EmployesPointages {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -117,7 +116,7 @@ class EmployesPointages {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -126,7 +125,7 @@ class EmployesPointages {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -135,7 +134,7 @@ class EmployesPointages {
      *
      * @return DateTime|null Returns the periode pointage cloturee.
      */
-    public function getPeriodePointageCloturee(): ?DateTime{
+    public function getPeriodePointageCloturee(): ?DateTime {
         return $this->periodePointageCloturee;
     }
 
@@ -144,7 +143,7 @@ class EmployesPointages {
      *
      * @return DateTime|null Returns the periode previsionnel generee.
      */
-    public function getPeriodePrevisionnelGeneree(): ?DateTime{
+    public function getPeriodePrevisionnelGeneree(): ?DateTime {
         return $this->periodePrevisionnelGeneree;
     }
 
@@ -153,7 +152,7 @@ class EmployesPointages {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

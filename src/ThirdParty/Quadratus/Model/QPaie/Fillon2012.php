@@ -64,20 +64,6 @@ class Fillon2012 {
     private $periode;
 
     /**
-     * Rmb.
-     *
-     * @var float|null
-     */
-    private $rmb;
-
-    /**
-     * Rmb majo he.
-     *
-     * @var float|null
-     */
-    private $rmbMajoHe;
-
-    /**
      * Reduc fillon.
      *
      * @var float|null
@@ -92,12 +78,25 @@ class Fillon2012 {
     private $reducFillonMajoHe;
 
     /**
+     * Rmb.
+     *
+     * @var float|null
+     */
+    private $rmb;
+
+    /**
+     * Rmb majo he.
+     *
+     * @var float|null
+     */
+    private $rmbMajoHe;
+
+    /**
      * Smic m.
      *
      * @var float|null
      */
     private $smicM;
-
 
     /**
      * Constructor.
@@ -111,7 +110,7 @@ class Fillon2012 {
      *
      * @return float|null Returns the coeff.
      */
-    public function getCoeff(): ?float{
+    public function getCoeff(): ?float {
         return $this->coeff;
     }
 
@@ -120,7 +119,7 @@ class Fillon2012 {
      *
      * @return bool|null Returns the force.
      */
-    public function getForce(): ?bool{
+    public function getForce(): ?bool {
         return $this->force;
     }
 
@@ -129,7 +128,7 @@ class Fillon2012 {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -138,7 +137,7 @@ class Fillon2012 {
      *
      * @return float|null Returns the nb h sup fillon.
      */
-    public function getNbHSupFillon(): ?float{
+    public function getNbHSupFillon(): ?float {
         return $this->nbHSupFillon;
     }
 
@@ -147,7 +146,7 @@ class Fillon2012 {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -156,26 +155,8 @@ class Fillon2012 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
-    }
-
-    /**
-     * Get the rmb.
-     *
-     * @return float|null Returns the rmb.
-     */
-    public function getRmb(): ?float{
-        return $this->rmb;
-    }
-
-    /**
-     * Get the rmb majo he.
-     *
-     * @return float|null Returns the rmb majo he.
-     */
-    public function getRmbMajoHe(): ?float{
-        return $this->rmbMajoHe;
     }
 
     /**
@@ -183,7 +164,7 @@ class Fillon2012 {
      *
      * @return float|null Returns the reduc fillon.
      */
-    public function getReducFillon(): ?float{
+    public function getReducFillon(): ?float {
         return $this->reducFillon;
     }
 
@@ -192,8 +173,26 @@ class Fillon2012 {
      *
      * @return float|null Returns the reduc fillon majo he.
      */
-    public function getReducFillonMajoHe(): ?float{
+    public function getReducFillonMajoHe(): ?float {
         return $this->reducFillonMajoHe;
+    }
+
+    /**
+     * Get the rmb.
+     *
+     * @return float|null Returns the rmb.
+     */
+    public function getRmb(): ?float {
+        return $this->rmb;
+    }
+
+    /**
+     * Get the rmb majo he.
+     *
+     * @return float|null Returns the rmb majo he.
+     */
+    public function getRmbMajoHe(): ?float {
+        return $this->rmbMajoHe;
     }
 
     /**
@@ -201,7 +200,7 @@ class Fillon2012 {
      *
      * @return float|null Returns the smic m.
      */
-    public function getSmicM(): ?float{
+    public function getSmicM(): ?float {
         return $this->smicM;
     }
 
@@ -272,28 +271,6 @@ class Fillon2012 {
     }
 
     /**
-     * Set the rmb.
-     *
-     * @param float|null $rmb The rmb.
-     * @return Fillon2012 Returns this Fillon2012.
-     */
-    public function setRmb(?float $rmb): Fillon2012 {
-        $this->rmb = $rmb;
-        return $this;
-    }
-
-    /**
-     * Set the rmb majo he.
-     *
-     * @param float|null $rmbMajoHe The rmb majo he.
-     * @return Fillon2012 Returns this Fillon2012.
-     */
-    public function setRmbMajoHe(?float $rmbMajoHe): Fillon2012 {
-        $this->rmbMajoHe = $rmbMajoHe;
-        return $this;
-    }
-
-    /**
      * Set the reduc fillon.
      *
      * @param float|null $reducFillon The reduc fillon.
@@ -312,6 +289,28 @@ class Fillon2012 {
      */
     public function setReducFillonMajoHe(?float $reducFillonMajoHe): Fillon2012 {
         $this->reducFillonMajoHe = $reducFillonMajoHe;
+        return $this;
+    }
+
+    /**
+     * Set the rmb.
+     *
+     * @param float|null $rmb The rmb.
+     * @return Fillon2012 Returns this Fillon2012.
+     */
+    public function setRmb(?float $rmb): Fillon2012 {
+        $this->rmb = $rmb;
+        return $this;
+    }
+
+    /**
+     * Set the rmb majo he.
+     *
+     * @param float|null $rmbMajoHe The rmb majo he.
+     * @return Fillon2012 Returns this Fillon2012.
+     */
+    public function setRmbMajoHe(?float $rmbMajoHe): Fillon2012 {
+        $this->rmbMajoHe = $rmbMajoHe;
         return $this;
     }
 

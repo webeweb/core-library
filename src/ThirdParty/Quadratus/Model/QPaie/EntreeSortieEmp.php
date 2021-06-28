@@ -112,7 +112,6 @@ class EntreeSortieEmp {
      */
     private $typeEs;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class EntreeSortieEmp {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -134,7 +133,7 @@ class EntreeSortieEmp {
      *
      * @return string|null Returns the code motif rupture.
      */
-    public function getCodeMotifRupture(): ?string{
+    public function getCodeMotifRupture(): ?string {
         return $this->codeMotifRupture;
     }
 
@@ -143,7 +142,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date es.
      */
-    public function getDateEs(): ?DateTime{
+    public function getDateEs(): ?DateTime {
         return $this->dateEs;
     }
 
@@ -152,7 +151,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date fin periode essai.
      */
-    public function getDateFinPeriodeEssai(): ?DateTime{
+    public function getDateFinPeriodeEssai(): ?DateTime {
         return $this->dateFinPeriodeEssai;
     }
 
@@ -161,7 +160,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -170,7 +169,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date notification.
      */
-    public function getDateNotification(): ?DateTime{
+    public function getDateNotification(): ?DateTime {
         return $this->dateNotification;
     }
 
@@ -179,7 +178,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date renouv cdd1.
      */
-    public function getDateRenouvCdd1(): ?DateTime{
+    public function getDateRenouvCdd1(): ?DateTime {
         return $this->dateRenouvCdd1;
     }
 
@@ -188,7 +187,7 @@ class EntreeSortieEmp {
      *
      * @return DateTime|null Returns the date renouv cdd2.
      */
-    public function getDateRenouvCdd2(): ?DateTime{
+    public function getDateRenouvCdd2(): ?DateTime {
         return $this->dateRenouvCdd2;
     }
 
@@ -197,7 +196,7 @@ class EntreeSortieEmp {
      *
      * @return string|null Returns the entreprise travail temp.
      */
-    public function getEntrepriseTravailTemp(): ?string{
+    public function getEntrepriseTravailTemp(): ?string {
         return $this->entrepriseTravailTemp;
     }
 
@@ -206,7 +205,7 @@ class EntreeSortieEmp {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -215,7 +214,7 @@ class EntreeSortieEmp {
      *
      * @return bool|null Returns the transfert es.
      */
-    public function getTransfertEs(): ?bool{
+    public function getTransfertEs(): ?bool {
         return $this->transfertEs;
     }
 
@@ -224,7 +223,7 @@ class EntreeSortieEmp {
      *
      * @return bool|null Returns the travail temp.
      */
-    public function getTravailTemp(): ?bool{
+    public function getTravailTemp(): ?bool {
         return $this->travailTemp;
     }
 
@@ -233,7 +232,7 @@ class EntreeSortieEmp {
      *
      * @return string|null Returns the type es.
      */
-    public function getTypeEs(): ?string{
+    public function getTypeEs(): ?string {
         return $this->typeEs;
     }
 

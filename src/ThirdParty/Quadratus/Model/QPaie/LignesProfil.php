@@ -140,7 +140,6 @@ class LignesProfil {
      */
     private $numLigneProfil;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class LignesProfil {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -162,7 +161,7 @@ class LignesProfil {
      *
      * @return string|null Returns the code profil.
      */
-    public function getCodeProfil(): ?string{
+    public function getCodeProfil(): ?string {
         return $this->codeProfil;
     }
 
@@ -171,7 +170,7 @@ class LignesProfil {
      *
      * @return DateTime|null Returns the deb per application.
      */
-    public function getDebPerApplication(): ?DateTime{
+    public function getDebPerApplication(): ?DateTime {
         return $this->debPerApplication;
     }
 
@@ -180,7 +179,7 @@ class LignesProfil {
      *
      * @return DateTime|null Returns the fin per application.
      */
-    public function getFinPerApplication(): ?DateTime{
+    public function getFinPerApplication(): ?DateTime {
         return $this->finPerApplication;
     }
 
@@ -189,7 +188,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq1.
      */
-    public function getFreq1(): ?string{
+    public function getFreq1(): ?string {
         return $this->freq1;
     }
 
@@ -198,7 +197,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq10.
      */
-    public function getFreq10(): ?string{
+    public function getFreq10(): ?string {
         return $this->freq10;
     }
 
@@ -207,7 +206,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq11.
      */
-    public function getFreq11(): ?string{
+    public function getFreq11(): ?string {
         return $this->freq11;
     }
 
@@ -216,7 +215,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq12.
      */
-    public function getFreq12(): ?string{
+    public function getFreq12(): ?string {
         return $this->freq12;
     }
 
@@ -225,7 +224,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq2.
      */
-    public function getFreq2(): ?string{
+    public function getFreq2(): ?string {
         return $this->freq2;
     }
 
@@ -234,7 +233,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq3.
      */
-    public function getFreq3(): ?string{
+    public function getFreq3(): ?string {
         return $this->freq3;
     }
 
@@ -243,7 +242,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq4.
      */
-    public function getFreq4(): ?string{
+    public function getFreq4(): ?string {
         return $this->freq4;
     }
 
@@ -252,7 +251,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq5.
      */
-    public function getFreq5(): ?string{
+    public function getFreq5(): ?string {
         return $this->freq5;
     }
 
@@ -261,7 +260,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq6.
      */
-    public function getFreq6(): ?string{
+    public function getFreq6(): ?string {
         return $this->freq6;
     }
 
@@ -270,7 +269,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq7.
      */
-    public function getFreq7(): ?string{
+    public function getFreq7(): ?string {
         return $this->freq7;
     }
 
@@ -279,7 +278,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq8.
      */
-    public function getFreq8(): ?string{
+    public function getFreq8(): ?string {
         return $this->freq8;
     }
 
@@ -288,7 +287,7 @@ class LignesProfil {
      *
      * @return string|null Returns the freq9.
      */
-    public function getFreq9(): ?string{
+    public function getFreq9(): ?string {
         return $this->freq9;
     }
 
@@ -297,7 +296,7 @@ class LignesProfil {
      *
      * @return int|null Returns the num ligne profil.
      */
-    public function getNumLigneProfil(): ?int{
+    public function getNumLigneProfil(): ?int {
         return $this->numLigneProfil;
     }
 

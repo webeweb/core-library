@@ -54,7 +54,6 @@ class MissionRepartitionTaches {
      */
     private $repartition;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class MissionRepartitionTaches {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -76,7 +75,7 @@ class MissionRepartitionTaches {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -85,7 +84,7 @@ class MissionRepartitionTaches {
      *
      * @return string|null Returns the code mission.
      */
-    public function getCodeMission(): ?string{
+    public function getCodeMission(): ?string {
         return $this->codeMission;
     }
 
@@ -94,7 +93,7 @@ class MissionRepartitionTaches {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -103,7 +102,7 @@ class MissionRepartitionTaches {
      *
      * @return float|null Returns the repartition.
      */
-    public function getRepartition(): ?float{
+    public function getRepartition(): ?float {
         return $this->repartition;
     }
 

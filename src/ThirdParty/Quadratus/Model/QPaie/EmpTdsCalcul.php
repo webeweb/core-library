@@ -323,6 +323,20 @@ class EmpTdsCalcul {
     private $tds141;
 
     /**
+     * Tds142.
+     *
+     * @var float|null
+     */
+    private $tds142;
+
+    /**
+     * Tds142 deja calcule.
+     *
+     * @var bool|null
+     */
+    private $tds142DejaCalcule;
+
+    /**
      * Tds75.
      *
      * @var int|null
@@ -442,34 +456,6 @@ class EmpTdsCalcul {
     private $tds95;
 
     /**
-     * Tds sup120.
-     *
-     * @var string|null
-     */
-    private $tdsSup120;
-
-    /**
-     * Tds sup1200.
-     *
-     * @var string|null
-     */
-    private $tdsSup1200;
-
-    /**
-     * Tds142.
-     *
-     * @var float|null
-     */
-    private $tds142;
-
-    /**
-     * Tds142 deja calcule.
-     *
-     * @var bool|null
-     */
-    private $tds142DejaCalcule;
-
-    /**
      * Tds abatt frais pro.
      *
      * @var float|null
@@ -547,12 +533,25 @@ class EmpTdsCalcul {
     private $tdsSommeExoTaxeSal;
 
     /**
+     * Tds sup120.
+     *
+     * @var string|null
+     */
+    private $tdsSup120;
+
+    /**
+     * Tds sup1200.
+     *
+     * @var string|null
+     */
+    private $tdsSup1200;
+
+    /**
      * Total plaf.
      *
      * @var float|null
      */
     private $totalPlaf;
-
 
     /**
      * Constructor.
@@ -566,7 +565,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the base calc tds142.
      */
-    public function getBaseCalcTds142(): ?float{
+    public function getBaseCalcTds142(): ?float {
         return $this->baseCalcTds142;
     }
 
@@ -575,7 +574,7 @@ class EmpTdsCalcul {
      *
      * @return int|null Returns the code at per.
      */
-    public function getCodeAtPer(): ?int{
+    public function getCodeAtPer(): ?int {
         return $this->codeAtPer;
     }
 
@@ -584,7 +583,7 @@ class EmpTdsCalcul {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -593,7 +592,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the cum net impos.
      */
-    public function getCumNetImpos(): ?float{
+    public function getCumNetImpos(): ?float {
         return $this->cumNetImpos;
     }
 
@@ -602,7 +601,7 @@ class EmpTdsCalcul {
      *
      * @return DateTime|null Returns the debut periode decl.
      */
-    public function getDebutPeriodeDecl(): ?DateTime{
+    public function getDebutPeriodeDecl(): ?DateTime {
         return $this->debutPeriodeDecl;
     }
 
@@ -611,7 +610,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the derniere periode annee.
      */
-    public function getDernierePeriodeAnnee(): ?bool{
+    public function getDernierePeriodeAnnee(): ?bool {
         return $this->dernierePeriodeAnnee;
     }
 
@@ -620,7 +619,7 @@ class EmpTdsCalcul {
      *
      * @return DateTime|null Returns the fin periode decl.
      */
-    public function getFinPeriodeDecl(): ?DateTime{
+    public function getFinPeriodeDecl(): ?DateTime {
         return $this->finPeriodeDecl;
     }
 
@@ -629,7 +628,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the indemn impat.
      */
-    public function getIndemnImpat(): ?float{
+    public function getIndemnImpat(): ?float {
         return $this->indemnImpat;
     }
 
@@ -638,7 +637,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the montant h sup compl exo.
      */
-    public function getMontantHSupComplExo(): ?float{
+    public function getMontantHSupComplExo(): ?float {
         return $this->montantHSupComplExo;
     }
 
@@ -647,7 +646,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the nb heure sal.
      */
-    public function getNbHeureSal(): ?float{
+    public function getNbHeureSal(): ?float {
         return $this->nbHeureSal;
     }
 
@@ -656,7 +655,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the nb heure trav.
      */
-    public function getNbHeureTrav(): ?float{
+    public function getNbHeureTrav(): ?float {
         return $this->nbHeureTrav;
     }
 
@@ -665,7 +664,7 @@ class EmpTdsCalcul {
      *
      * @return int|null Returns the nb per paie.
      */
-    public function getNbPerPaie(): ?int{
+    public function getNbPerPaie(): ?int {
         return $this->nbPerPaie;
     }
 
@@ -674,7 +673,7 @@ class EmpTdsCalcul {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -683,7 +682,7 @@ class EmpTdsCalcul {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -692,7 +691,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the particip serv pers.
      */
-    public function getParticipServPers(): ?float{
+    public function getParticipServPers(): ?float {
         return $this->participServPers;
     }
 
@@ -701,7 +700,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the premiere periode annee.
      */
-    public function getPremierePeriodeAnnee(): ?bool{
+    public function getPremierePeriodeAnnee(): ?bool {
         return $this->premierePeriodeAnnee;
     }
 
@@ -710,7 +709,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds100.
      */
-    public function getTds100(): ?float{
+    public function getTds100(): ?float {
         return $this->tds100;
     }
 
@@ -719,7 +718,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds102.
      */
-    public function getTds102(): ?float{
+    public function getTds102(): ?float {
         return $this->tds102;
     }
 
@@ -728,7 +727,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds103.
      */
-    public function getTds103(): ?float{
+    public function getTds103(): ?float {
         return $this->tds103;
     }
 
@@ -737,7 +736,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds105.
      */
-    public function getTds105(): ?float{
+    public function getTds105(): ?float {
         return $this->tds105;
     }
 
@@ -746,7 +745,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds107.
      */
-    public function getTds107(): ?bool{
+    public function getTds107(): ?bool {
         return $this->tds107;
     }
 
@@ -755,7 +754,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds108.
      */
-    public function getTds108(): ?bool{
+    public function getTds108(): ?bool {
         return $this->tds108;
     }
 
@@ -764,7 +763,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds109.
      */
-    public function getTds109(): ?bool{
+    public function getTds109(): ?bool {
         return $this->tds109;
     }
 
@@ -773,7 +772,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds110.
      */
-    public function getTds110(): ?bool{
+    public function getTds110(): ?bool {
         return $this->tds110;
     }
 
@@ -782,7 +781,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds111.
      */
-    public function getTds111(): ?bool{
+    public function getTds111(): ?bool {
         return $this->tds111;
     }
 
@@ -791,7 +790,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds112.
      */
-    public function getTds112(): ?float{
+    public function getTds112(): ?float {
         return $this->tds112;
     }
 
@@ -800,7 +799,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds113.
      */
-    public function getTds113(): ?bool{
+    public function getTds113(): ?bool {
         return $this->tds113;
     }
 
@@ -809,7 +808,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds117.
      */
-    public function getTds117(): ?float{
+    public function getTds117(): ?float {
         return $this->tds117;
     }
 
@@ -818,7 +817,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds119.
      */
-    public function getTds119(): ?bool{
+    public function getTds119(): ?bool {
         return $this->tds119;
     }
 
@@ -827,7 +826,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds120.
      */
-    public function getTds120(): ?bool{
+    public function getTds120(): ?bool {
         return $this->tds120;
     }
 
@@ -836,7 +835,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds121.
      */
-    public function getTds121(): ?bool{
+    public function getTds121(): ?bool {
         return $this->tds121;
     }
 
@@ -845,7 +844,7 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds122.
      */
-    public function getTds122(): ?bool{
+    public function getTds122(): ?bool {
         return $this->tds122;
     }
 
@@ -854,7 +853,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds125.
      */
-    public function getTds125(): ?float{
+    public function getTds125(): ?float {
         return $this->tds125;
     }
 
@@ -863,7 +862,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds127.
      */
-    public function getTds127(): ?float{
+    public function getTds127(): ?float {
         return $this->tds127;
     }
 
@@ -872,7 +871,7 @@ class EmpTdsCalcul {
      *
      * @return string|null Returns the tds128.
      */
-    public function getTds128(): ?string{
+    public function getTds128(): ?string {
         return $this->tds128;
     }
 
@@ -881,7 +880,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds132.
      */
-    public function getTds132(): ?float{
+    public function getTds132(): ?float {
         return $this->tds132;
     }
 
@@ -890,7 +889,7 @@ class EmpTdsCalcul {
      *
      * @return string|null Returns the tds133.
      */
-    public function getTds133(): ?string{
+    public function getTds133(): ?string {
         return $this->tds133;
     }
 
@@ -899,7 +898,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds134.
      */
-    public function getTds134(): ?float{
+    public function getTds134(): ?float {
         return $this->tds134;
     }
 
@@ -908,7 +907,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds135.
      */
-    public function getTds135(): ?float{
+    public function getTds135(): ?float {
         return $this->tds135;
     }
 
@@ -917,7 +916,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds136.
      */
-    public function getTds136(): ?float{
+    public function getTds136(): ?float {
         return $this->tds136;
     }
 
@@ -926,7 +925,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds137.
      */
-    public function getTds137(): ?float{
+    public function getTds137(): ?float {
         return $this->tds137;
     }
 
@@ -935,7 +934,7 @@ class EmpTdsCalcul {
      *
      * @return string|null Returns the tds139.
      */
-    public function getTds139(): ?string{
+    public function getTds139(): ?string {
         return $this->tds139;
     }
 
@@ -944,179 +943,8 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds141.
      */
-    public function getTds141(): ?float{
+    public function getTds141(): ?float {
         return $this->tds141;
-    }
-
-    /**
-     * Get the tds75.
-     *
-     * @return int|null Returns the tds75.
-     */
-    public function getTds75(): ?int{
-        return $this->tds75;
-    }
-
-    /**
-     * Get the tds77.
-     *
-     * @return string|null Returns the tds77.
-     */
-    public function getTds77(): ?string{
-        return $this->tds77;
-    }
-
-    /**
-     * Get the tds78.
-     *
-     * @return bool|null Returns the tds78.
-     */
-    public function getTds78(): ?bool{
-        return $this->tds78;
-    }
-
-    /**
-     * Get the tds81.
-     *
-     * @return float|null Returns the tds81.
-     */
-    public function getTds81(): ?float{
-        return $this->tds81;
-    }
-
-    /**
-     * Get the tds82.
-     *
-     * @return float|null Returns the tds82.
-     */
-    public function getTds82(): ?float{
-        return $this->tds82;
-    }
-
-    /**
-     * Get the tds84.
-     *
-     * @return float|null Returns the tds84.
-     */
-    public function getTds84(): ?float{
-        return $this->tds84;
-    }
-
-    /**
-     * Get the tds85.
-     *
-     * @return float|null Returns the tds85.
-     */
-    public function getTds85(): ?float{
-        return $this->tds85;
-    }
-
-    /**
-     * Get the tds86.
-     *
-     * @return float|null Returns the tds86.
-     */
-    public function getTds86(): ?float{
-        return $this->tds86;
-    }
-
-    /**
-     * Get the tds87.
-     *
-     * @return float|null Returns the tds87.
-     */
-    public function getTds87(): ?float{
-        return $this->tds87;
-    }
-
-    /**
-     * Get the tds88.
-     *
-     * @return float|null Returns the tds88.
-     */
-    public function getTds88(): ?float{
-        return $this->tds88;
-    }
-
-    /**
-     * Get the tds89.
-     *
-     * @return float|null Returns the tds89.
-     */
-    public function getTds89(): ?float{
-        return $this->tds89;
-    }
-
-    /**
-     * Get the tds90.
-     *
-     * @return float|null Returns the tds90.
-     */
-    public function getTds90(): ?float{
-        return $this->tds90;
-    }
-
-    /**
-     * Get the tds91.
-     *
-     * @return float|null Returns the tds91.
-     */
-    public function getTds91(): ?float{
-        return $this->tds91;
-    }
-
-    /**
-     * Get the tds92.
-     *
-     * @return float|null Returns the tds92.
-     */
-    public function getTds92(): ?float{
-        return $this->tds92;
-    }
-
-    /**
-     * Get the tds93.
-     *
-     * @return float|null Returns the tds93.
-     */
-    public function getTds93(): ?float{
-        return $this->tds93;
-    }
-
-    /**
-     * Get the tds94.
-     *
-     * @return float|null Returns the tds94.
-     */
-    public function getTds94(): ?float{
-        return $this->tds94;
-    }
-
-    /**
-     * Get the tds95.
-     *
-     * @return float|null Returns the tds95.
-     */
-    public function getTds95(): ?float{
-        return $this->tds95;
-    }
-
-    /**
-     * Get the tds sup120.
-     *
-     * @return string|null Returns the tds sup120.
-     */
-    public function getTdsSup120(): ?string{
-        return $this->tdsSup120;
-    }
-
-    /**
-     * Get the tds sup1200.
-     *
-     * @return string|null Returns the tds sup1200.
-     */
-    public function getTdsSup1200(): ?string{
-        return $this->tdsSup1200;
     }
 
     /**
@@ -1124,7 +952,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds142.
      */
-    public function getTds142(): ?float{
+    public function getTds142(): ?float {
         return $this->tds142;
     }
 
@@ -1133,8 +961,161 @@ class EmpTdsCalcul {
      *
      * @return bool|null Returns the tds142 deja calcule.
      */
-    public function getTds142DejaCalcule(): ?bool{
+    public function getTds142DejaCalcule(): ?bool {
         return $this->tds142DejaCalcule;
+    }
+
+    /**
+     * Get the tds75.
+     *
+     * @return int|null Returns the tds75.
+     */
+    public function getTds75(): ?int {
+        return $this->tds75;
+    }
+
+    /**
+     * Get the tds77.
+     *
+     * @return string|null Returns the tds77.
+     */
+    public function getTds77(): ?string {
+        return $this->tds77;
+    }
+
+    /**
+     * Get the tds78.
+     *
+     * @return bool|null Returns the tds78.
+     */
+    public function getTds78(): ?bool {
+        return $this->tds78;
+    }
+
+    /**
+     * Get the tds81.
+     *
+     * @return float|null Returns the tds81.
+     */
+    public function getTds81(): ?float {
+        return $this->tds81;
+    }
+
+    /**
+     * Get the tds82.
+     *
+     * @return float|null Returns the tds82.
+     */
+    public function getTds82(): ?float {
+        return $this->tds82;
+    }
+
+    /**
+     * Get the tds84.
+     *
+     * @return float|null Returns the tds84.
+     */
+    public function getTds84(): ?float {
+        return $this->tds84;
+    }
+
+    /**
+     * Get the tds85.
+     *
+     * @return float|null Returns the tds85.
+     */
+    public function getTds85(): ?float {
+        return $this->tds85;
+    }
+
+    /**
+     * Get the tds86.
+     *
+     * @return float|null Returns the tds86.
+     */
+    public function getTds86(): ?float {
+        return $this->tds86;
+    }
+
+    /**
+     * Get the tds87.
+     *
+     * @return float|null Returns the tds87.
+     */
+    public function getTds87(): ?float {
+        return $this->tds87;
+    }
+
+    /**
+     * Get the tds88.
+     *
+     * @return float|null Returns the tds88.
+     */
+    public function getTds88(): ?float {
+        return $this->tds88;
+    }
+
+    /**
+     * Get the tds89.
+     *
+     * @return float|null Returns the tds89.
+     */
+    public function getTds89(): ?float {
+        return $this->tds89;
+    }
+
+    /**
+     * Get the tds90.
+     *
+     * @return float|null Returns the tds90.
+     */
+    public function getTds90(): ?float {
+        return $this->tds90;
+    }
+
+    /**
+     * Get the tds91.
+     *
+     * @return float|null Returns the tds91.
+     */
+    public function getTds91(): ?float {
+        return $this->tds91;
+    }
+
+    /**
+     * Get the tds92.
+     *
+     * @return float|null Returns the tds92.
+     */
+    public function getTds92(): ?float {
+        return $this->tds92;
+    }
+
+    /**
+     * Get the tds93.
+     *
+     * @return float|null Returns the tds93.
+     */
+    public function getTds93(): ?float {
+        return $this->tds93;
+    }
+
+    /**
+     * Get the tds94.
+     *
+     * @return float|null Returns the tds94.
+     */
+    public function getTds94(): ?float {
+        return $this->tds94;
+    }
+
+    /**
+     * Get the tds95.
+     *
+     * @return float|null Returns the tds95.
+     */
+    public function getTds95(): ?float {
+        return $this->tds95;
     }
 
     /**
@@ -1142,7 +1123,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds abatt frais pro.
      */
-    public function getTdsAbattFraisPro(): ?float{
+    public function getTdsAbattFraisPro(): ?float {
         return $this->tdsAbattFraisPro;
     }
 
@@ -1151,7 +1132,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds alloc chom.
      */
-    public function getTdsAllocChom(): ?float{
+    public function getTdsAllocChom(): ?float {
         return $this->tdsAllocChom;
     }
 
@@ -1160,7 +1141,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds alloc compl ijss.
      */
-    public function getTdsAllocComplIjss(): ?float{
+    public function getTdsAllocComplIjss(): ?float {
         return $this->tdsAllocComplIjss;
     }
 
@@ -1169,7 +1150,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds alloc retraite.
      */
-    public function getTdsAllocRetraite(): ?float{
+    public function getTdsAllocRetraite(): ?float {
         return $this->tdsAllocRetraite;
     }
 
@@ -1178,7 +1159,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds contrib ce cheques vac.
      */
-    public function getTdsContribCeChequesVac(): ?float{
+    public function getTdsContribCeChequesVac(): ?float {
         return $this->tdsContribCeChequesVac;
     }
 
@@ -1187,7 +1168,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds cumul n.
      */
-    public function getTdsCumulN(): ?float{
+    public function getTdsCumulN(): ?float {
         return $this->tdsCumulN;
     }
 
@@ -1196,7 +1177,7 @@ class EmpTdsCalcul {
      *
      * @return int|null Returns the tds flag raz.
      */
-    public function getTdsFlagRaz(): ?int{
+    public function getTdsFlagRaz(): ?int {
         return $this->tdsFlagRaz;
     }
 
@@ -1205,7 +1186,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds indemn depart retraite.
      */
-    public function getTdsIndemnDepartRetraite(): ?float{
+    public function getTdsIndemnDepartRetraite(): ?float {
         return $this->tdsIndemnDepartRetraite;
     }
 
@@ -1214,7 +1195,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds indemn imposables.
      */
-    public function getTdsIndemnImposables(): ?float{
+    public function getTdsIndemnImposables(): ?float {
         return $this->tdsIndemnImposables;
     }
 
@@ -1223,7 +1204,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds remb frais pro.
      */
-    public function getTdsRembFraisPro(): ?float{
+    public function getTdsRembFraisPro(): ?float {
         return $this->tdsRembFraisPro;
     }
 
@@ -1232,8 +1213,26 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the tds somme exo taxe sal.
      */
-    public function getTdsSommeExoTaxeSal(): ?float{
+    public function getTdsSommeExoTaxeSal(): ?float {
         return $this->tdsSommeExoTaxeSal;
+    }
+
+    /**
+     * Get the tds sup120.
+     *
+     * @return string|null Returns the tds sup120.
+     */
+    public function getTdsSup120(): ?string {
+        return $this->tdsSup120;
+    }
+
+    /**
+     * Get the tds sup1200.
+     *
+     * @return string|null Returns the tds sup1200.
+     */
+    public function getTdsSup1200(): ?string {
+        return $this->tdsSup1200;
     }
 
     /**
@@ -1241,7 +1240,7 @@ class EmpTdsCalcul {
      *
      * @return float|null Returns the total plaf.
      */
-    public function getTotalPlaf(): ?float{
+    public function getTotalPlaf(): ?float {
         return $this->totalPlaf;
     }
 
@@ -1719,6 +1718,28 @@ class EmpTdsCalcul {
     }
 
     /**
+     * Set the tds142.
+     *
+     * @param float|null $tds142 The tds142.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
+     */
+    public function setTds142(?float $tds142): EmpTdsCalcul {
+        $this->tds142 = $tds142;
+        return $this;
+    }
+
+    /**
+     * Set the tds142 deja calcule.
+     *
+     * @param bool|null $tds142DejaCalcule The tds142 deja calcule.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
+     */
+    public function setTds142DejaCalcule(?bool $tds142DejaCalcule): EmpTdsCalcul {
+        $this->tds142DejaCalcule = $tds142DejaCalcule;
+        return $this;
+    }
+
+    /**
      * Set the tds75.
      *
      * @param int|null $tds75 The tds75.
@@ -1906,50 +1927,6 @@ class EmpTdsCalcul {
     }
 
     /**
-     * Set the tds sup120.
-     *
-     * @param string|null $tdsSup120 The tds sup120.
-     * @return EmpTdsCalcul Returns this Emp tds calcul.
-     */
-    public function setTdsSup120(?string $tdsSup120): EmpTdsCalcul {
-        $this->tdsSup120 = $tdsSup120;
-        return $this;
-    }
-
-    /**
-     * Set the tds sup1200.
-     *
-     * @param string|null $tdsSup1200 The tds sup1200.
-     * @return EmpTdsCalcul Returns this Emp tds calcul.
-     */
-    public function setTdsSup1200(?string $tdsSup1200): EmpTdsCalcul {
-        $this->tdsSup1200 = $tdsSup1200;
-        return $this;
-    }
-
-    /**
-     * Set the tds142.
-     *
-     * @param float|null $tds142 The tds142.
-     * @return EmpTdsCalcul Returns this Emp tds calcul.
-     */
-    public function setTds142(?float $tds142): EmpTdsCalcul {
-        $this->tds142 = $tds142;
-        return $this;
-    }
-
-    /**
-     * Set the tds142 deja calcule.
-     *
-     * @param bool|null $tds142DejaCalcule The tds142 deja calcule.
-     * @return EmpTdsCalcul Returns this Emp tds calcul.
-     */
-    public function setTds142DejaCalcule(?bool $tds142DejaCalcule): EmpTdsCalcul {
-        $this->tds142DejaCalcule = $tds142DejaCalcule;
-        return $this;
-    }
-
-    /**
      * Set the tds abatt frais pro.
      *
      * @param float|null $tdsAbattFraisPro The tds abatt frais pro.
@@ -2067,6 +2044,28 @@ class EmpTdsCalcul {
      */
     public function setTdsSommeExoTaxeSal(?float $tdsSommeExoTaxeSal): EmpTdsCalcul {
         $this->tdsSommeExoTaxeSal = $tdsSommeExoTaxeSal;
+        return $this;
+    }
+
+    /**
+     * Set the tds sup120.
+     *
+     * @param string|null $tdsSup120 The tds sup120.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
+     */
+    public function setTdsSup120(?string $tdsSup120): EmpTdsCalcul {
+        $this->tdsSup120 = $tdsSup120;
+        return $this;
+    }
+
+    /**
+     * Set the tds sup1200.
+     *
+     * @param string|null $tdsSup1200 The tds sup1200.
+     * @return EmpTdsCalcul Returns this Emp tds calcul.
+     */
+    public function setTdsSup1200(?string $tdsSup1200): EmpTdsCalcul {
+        $this->tdsSup1200 = $tdsSup1200;
         return $this;
     }
 

@@ -84,7 +84,6 @@ class ChantiersReclamationsEmployes {
      */
     private $numeroReclam;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return bool|null Returns the alerte.
      */
-    public function getAlerte(): ?bool{
+    public function getAlerte(): ?bool {
         return $this->alerte;
     }
 
@@ -106,7 +105,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -115,7 +114,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -124,7 +123,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -133,7 +132,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -142,7 +141,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return DateTime|null Returns the date alerte paie.
      */
-    public function getDateAlertePaie(): ?DateTime{
+    public function getDateAlertePaie(): ?DateTime {
         return $this->dateAlertePaie;
     }
 
@@ -151,7 +150,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -160,7 +159,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return string|null Returns the niveau.
      */
-    public function getNiveau(): ?string{
+    public function getNiveau(): ?string {
         return $this->niveau;
     }
 
@@ -169,7 +168,7 @@ class ChantiersReclamationsEmployes {
      *
      * @return int|null Returns the numero reclam.
      */
-    public function getNumeroReclam(): ?int{
+    public function getNumeroReclam(): ?int {
         return $this->numeroReclam;
     }
 

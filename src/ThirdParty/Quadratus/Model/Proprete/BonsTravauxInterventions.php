@@ -103,7 +103,6 @@ class BonsTravauxInterventions {
      */
     private $vendredi;
 
-
     /**
      * Constructor.
      */
@@ -116,7 +115,7 @@ class BonsTravauxInterventions {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -125,7 +124,7 @@ class BonsTravauxInterventions {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -134,7 +133,7 @@ class BonsTravauxInterventions {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -143,7 +142,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the dimanche.
      */
-    public function getDimanche(): ?bool{
+    public function getDimanche(): ?bool {
         return $this->dimanche;
     }
 
@@ -152,7 +151,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the jeudi.
      */
-    public function getJeudi(): ?bool{
+    public function getJeudi(): ?bool {
         return $this->jeudi;
     }
 
@@ -161,7 +160,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the lundi.
      */
-    public function getLundi(): ?bool{
+    public function getLundi(): ?bool {
         return $this->lundi;
     }
 
@@ -170,7 +169,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the mardi.
      */
-    public function getMardi(): ?bool{
+    public function getMardi(): ?bool {
         return $this->mardi;
     }
 
@@ -179,7 +178,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the mercredi.
      */
-    public function getMercredi(): ?bool{
+    public function getMercredi(): ?bool {
         return $this->mercredi;
     }
 
@@ -188,7 +187,7 @@ class BonsTravauxInterventions {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -197,7 +196,7 @@ class BonsTravauxInterventions {
      *
      * @return string|null Returns the num sem.
      */
-    public function getNumSem(): ?string{
+    public function getNumSem(): ?string {
         return $this->numSem;
     }
 
@@ -206,7 +205,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the samedi.
      */
-    public function getSamedi(): ?bool{
+    public function getSamedi(): ?bool {
         return $this->samedi;
     }
 
@@ -215,7 +214,7 @@ class BonsTravauxInterventions {
      *
      * @return bool|null Returns the vendredi.
      */
-    public function getVendredi(): ?bool{
+    public function getVendredi(): ?bool {
         return $this->vendredi;
     }
 

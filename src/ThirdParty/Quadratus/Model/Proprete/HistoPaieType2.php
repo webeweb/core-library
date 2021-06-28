@@ -63,7 +63,6 @@ class HistoPaieType2 {
      */
     private $typeDnjf;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class HistoPaieType2 {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -85,7 +84,7 @@ class HistoPaieType2 {
      *
      * @return string|null Returns the code prime.
      */
-    public function getCodePrime(): ?string{
+    public function getCodePrime(): ?string {
         return $this->codePrime;
     }
 
@@ -94,7 +93,7 @@ class HistoPaieType2 {
      *
      * @return float|null Returns the nb heures.
      */
-    public function getNbHeures(): ?float{
+    public function getNbHeures(): ?float {
         return $this->nbHeures;
     }
 
@@ -103,7 +102,7 @@ class HistoPaieType2 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -112,7 +111,7 @@ class HistoPaieType2 {
      *
      * @return float|null Returns the taux majoration.
      */
-    public function getTauxMajoration(): ?float{
+    public function getTauxMajoration(): ?float {
         return $this->tauxMajoration;
     }
 
@@ -121,7 +120,7 @@ class HistoPaieType2 {
      *
      * @return string|null Returns the type dnjf.
      */
-    public function getTypeDnjf(): ?string{
+    public function getTypeDnjf(): ?string {
         return $this->typeDnjf;
     }
 

@@ -153,18 +153,18 @@ class EmpDadsuRectif {
     private $epargneSalMnt4;
 
     /**
-     * Gpec mnt exo csgcrds.
-     *
-     * @var float|null
-     */
-    private $gpecMntExoCsgcrds;
-
-    /**
      * Gpec mnt exo cot secu.
      *
      * @var float|null
      */
     private $gpecMntExoCotSecu;
+
+    /**
+     * Gpec mnt exo csgcrds.
+     *
+     * @var float|null
+     */
+    private $gpecMntExoCsgcrds;
 
     /**
      * Ind cp.
@@ -384,6 +384,13 @@ class EmpDadsuRectif {
     private $participServPers;
 
     /**
+     * Taxe salaire.
+     *
+     * @var float|null
+     */
+    private $taxeSalaire;
+
+    /**
      * Tds100.
      *
      * @var float|null
@@ -524,11 +531,25 @@ class EmpDadsuRectif {
     private $tds136;
 
     /**
+     * Tds137.
+     *
+     * @var float|null
+     */
+    private $tds137;
+
+    /**
      * Tds141.
      *
      * @var float|null
      */
     private $tds141;
+
+    /**
+     * Tds142.
+     *
+     * @var float|null
+     */
+    private $tds142;
 
     /**
      * Tds81.
@@ -545,27 +566,6 @@ class EmpDadsuRectif {
     private $tds82;
 
     /**
-     * Taxe salaire.
-     *
-     * @var float|null
-     */
-    private $taxeSalaire;
-
-    /**
-     * Tds137.
-     *
-     * @var float|null
-     */
-    private $tds137;
-
-    /**
-     * Tds142.
-     *
-     * @var float|null
-     */
-    private $tds142;
-
-    /**
      * Tds alloc retraite.
      *
      * @var float|null
@@ -579,7 +579,6 @@ class EmpDadsuRectif {
      */
     private $totalPlaf;
 
-
     /**
      * Constructor.
      */
@@ -592,7 +591,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -601,7 +600,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the actions gratuites nbre.
      */
-    public function getActionsGratuitesNbre(): ?float{
+    public function getActionsGratuitesNbre(): ?float {
         return $this->actionsGratuitesNbre;
     }
 
@@ -610,7 +609,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the actions gratuites valeur u.
      */
-    public function getActionsGratuitesValeurU(): ?float{
+    public function getActionsGratuitesValeurU(): ?float {
         return $this->actionsGratuitesValeurU;
     }
 
@@ -619,7 +618,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the autres sommes exo mnt1.
      */
-    public function getAutresSommesExoMnt1(): ?float{
+    public function getAutresSommesExoMnt1(): ?float {
         return $this->autresSommesExoMnt1;
     }
 
@@ -628,7 +627,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the autres sommes exo mnt2.
      */
-    public function getAutresSommesExoMnt2(): ?float{
+    public function getAutresSommesExoMnt2(): ?float {
         return $this->autresSommesExoMnt2;
     }
 
@@ -637,7 +636,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the autres sommes exo mnt3.
      */
-    public function getAutresSommesExoMnt3(): ?float{
+    public function getAutresSommesExoMnt3(): ?float {
         return $this->autresSommesExoMnt3;
     }
 
@@ -646,7 +645,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the autres sommes exo mnt4.
      */
-    public function getAutresSommesExoMnt4(): ?float{
+    public function getAutresSommesExoMnt4(): ?float {
         return $this->autresSommesExoMnt4;
     }
 
@@ -655,7 +654,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the base exo brut1.
      */
-    public function getBaseExoBrut1(): ?float{
+    public function getBaseExoBrut1(): ?float {
         return $this->baseExoBrut1;
     }
 
@@ -664,7 +663,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the base exo brut2.
      */
-    public function getBaseExoBrut2(): ?float{
+    public function getBaseExoBrut2(): ?float {
         return $this->baseExoBrut2;
     }
 
@@ -673,7 +672,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the base exo brut3.
      */
-    public function getBaseExoBrut3(): ?float{
+    public function getBaseExoBrut3(): ?float {
         return $this->baseExoBrut3;
     }
 
@@ -682,7 +681,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the base exo plaf1.
      */
-    public function getBaseExoPlaf1(): ?float{
+    public function getBaseExoPlaf1(): ?float {
         return $this->baseExoPlaf1;
     }
 
@@ -691,7 +690,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the base exo plaf2.
      */
-    public function getBaseExoPlaf2(): ?float{
+    public function getBaseExoPlaf2(): ?float {
         return $this->baseExoPlaf2;
     }
 
@@ -700,7 +699,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the base exo plaf3.
      */
-    public function getBaseExoPlaf3(): ?float{
+    public function getBaseExoPlaf3(): ?float {
         return $this->baseExoPlaf3;
     }
 
@@ -709,7 +708,7 @@ class EmpDadsuRectif {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -718,7 +717,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the csg specif.
      */
-    public function getCsgSpecif(): ?float{
+    public function getCsgSpecif(): ?float {
         return $this->csgSpecif;
     }
 
@@ -727,7 +726,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the epargne sal mnt1.
      */
-    public function getEpargneSalMnt1(): ?float{
+    public function getEpargneSalMnt1(): ?float {
         return $this->epargneSalMnt1;
     }
 
@@ -736,7 +735,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the epargne sal mnt2.
      */
-    public function getEpargneSalMnt2(): ?float{
+    public function getEpargneSalMnt2(): ?float {
         return $this->epargneSalMnt2;
     }
 
@@ -745,7 +744,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the epargne sal mnt3.
      */
-    public function getEpargneSalMnt3(): ?float{
+    public function getEpargneSalMnt3(): ?float {
         return $this->epargneSalMnt3;
     }
 
@@ -754,17 +753,8 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the epargne sal mnt4.
      */
-    public function getEpargneSalMnt4(): ?float{
+    public function getEpargneSalMnt4(): ?float {
         return $this->epargneSalMnt4;
-    }
-
-    /**
-     * Get the gpec mnt exo csgcrds.
-     *
-     * @return float|null Returns the gpec mnt exo csgcrds.
-     */
-    public function getGpecMntExoCsgcrds(): ?float{
-        return $this->gpecMntExoCsgcrds;
     }
 
     /**
@@ -772,8 +762,17 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the gpec mnt exo cot secu.
      */
-    public function getGpecMntExoCotSecu(): ?float{
+    public function getGpecMntExoCotSecu(): ?float {
         return $this->gpecMntExoCotSecu;
+    }
+
+    /**
+     * Get the gpec mnt exo csgcrds.
+     *
+     * @return float|null Returns the gpec mnt exo csgcrds.
+     */
+    public function getGpecMntExoCsgcrds(): ?float {
+        return $this->gpecMntExoCsgcrds;
     }
 
     /**
@@ -781,7 +780,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the ind cp.
      */
-    public function getIndCp(): ?float{
+    public function getIndCp(): ?float {
         return $this->indCp;
     }
 
@@ -790,7 +789,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the indemn cp plaf.
      */
-    public function getIndemnCpPlaf(): ?float{
+    public function getIndemnCpPlaf(): ?float {
         return $this->indemnCpPlaf;
     }
 
@@ -799,7 +798,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the indemn impat.
      */
-    public function getIndemnImpat(): ?float{
+    public function getIndemnImpat(): ?float {
         return $this->indemnImpat;
     }
 
@@ -808,7 +807,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the indemn rupture mnt1.
      */
-    public function getIndemnRuptureMnt1(): ?float{
+    public function getIndemnRuptureMnt1(): ?float {
         return $this->indemnRuptureMnt1;
     }
 
@@ -817,7 +816,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the indemn rupture mnt2.
      */
-    public function getIndemnRuptureMnt2(): ?float{
+    public function getIndemnRuptureMnt2(): ?float {
         return $this->indemnRuptureMnt2;
     }
 
@@ -826,7 +825,7 @@ class EmpDadsuRectif {
      *
      * @return int|null Returns the indice rectif.
      */
-    public function getIndiceRectif(): ?int{
+    public function getIndiceRectif(): ?int {
         return $this->indiceRectif;
     }
 
@@ -835,7 +834,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant b plaf.
      */
-    public function getMontantBPlaf(): ?float{
+    public function getMontantBPlaf(): ?float {
         return $this->montantBPlaf;
     }
 
@@ -844,7 +843,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant b plaf2.
      */
-    public function getMontantBPlaf2(): ?float{
+    public function getMontantBPlaf2(): ?float {
         return $this->montantBPlaf2;
     }
 
@@ -853,7 +852,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant b plaf3.
      */
-    public function getMontantBPlaf3(): ?float{
+    public function getMontantBPlaf3(): ?float {
         return $this->montantBPlaf3;
     }
 
@@ -862,7 +861,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant b plaf4.
      */
-    public function getMontantBPlaf4(): ?float{
+    public function getMontantBPlaf4(): ?float {
         return $this->montantBPlaf4;
     }
 
@@ -871,7 +870,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant b plaf5.
      */
-    public function getMontantBPlaf5(): ?float{
+    public function getMontantBPlaf5(): ?float {
         return $this->montantBPlaf5;
     }
 
@@ -880,7 +879,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant brut.
      */
-    public function getMontantBrut(): ?float{
+    public function getMontantBrut(): ?float {
         return $this->montantBrut;
     }
 
@@ -889,7 +888,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant brut2.
      */
-    public function getMontantBrut2(): ?float{
+    public function getMontantBrut2(): ?float {
         return $this->montantBrut2;
     }
 
@@ -898,7 +897,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant brut3.
      */
-    public function getMontantBrut3(): ?float{
+    public function getMontantBrut3(): ?float {
         return $this->montantBrut3;
     }
 
@@ -907,7 +906,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant brut4.
      */
-    public function getMontantBrut4(): ?float{
+    public function getMontantBrut4(): ?float {
         return $this->montantBrut4;
     }
 
@@ -916,7 +915,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant brut5.
      */
-    public function getMontantBrut5(): ?float{
+    public function getMontantBrut5(): ?float {
         return $this->montantBrut5;
     }
 
@@ -925,7 +924,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol brut.
      */
-    public function getMontantSommeIsolBrut(): ?float{
+    public function getMontantSommeIsolBrut(): ?float {
         return $this->montantSommeIsolBrut;
     }
 
@@ -934,7 +933,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol brut2.
      */
-    public function getMontantSommeIsolBrut2(): ?float{
+    public function getMontantSommeIsolBrut2(): ?float {
         return $this->montantSommeIsolBrut2;
     }
 
@@ -943,7 +942,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol brut3.
      */
-    public function getMontantSommeIsolBrut3(): ?float{
+    public function getMontantSommeIsolBrut3(): ?float {
         return $this->montantSommeIsolBrut3;
     }
 
@@ -952,7 +951,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol brut4.
      */
-    public function getMontantSommeIsolBrut4(): ?float{
+    public function getMontantSommeIsolBrut4(): ?float {
         return $this->montantSommeIsolBrut4;
     }
 
@@ -961,7 +960,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol brut5.
      */
-    public function getMontantSommeIsolBrut5(): ?float{
+    public function getMontantSommeIsolBrut5(): ?float {
         return $this->montantSommeIsolBrut5;
     }
 
@@ -970,7 +969,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol plaf.
      */
-    public function getMontantSommeIsolPlaf(): ?float{
+    public function getMontantSommeIsolPlaf(): ?float {
         return $this->montantSommeIsolPlaf;
     }
 
@@ -979,7 +978,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol plaf2.
      */
-    public function getMontantSommeIsolPlaf2(): ?float{
+    public function getMontantSommeIsolPlaf2(): ?float {
         return $this->montantSommeIsolPlaf2;
     }
 
@@ -988,7 +987,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol plaf3.
      */
-    public function getMontantSommeIsolPlaf3(): ?float{
+    public function getMontantSommeIsolPlaf3(): ?float {
         return $this->montantSommeIsolPlaf3;
     }
 
@@ -997,7 +996,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol plaf4.
      */
-    public function getMontantSommeIsolPlaf4(): ?float{
+    public function getMontantSommeIsolPlaf4(): ?float {
         return $this->montantSommeIsolPlaf4;
     }
 
@@ -1006,7 +1005,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the montant somme isol plaf5.
      */
-    public function getMontantSommeIsolPlaf5(): ?float{
+    public function getMontantSommeIsolPlaf5(): ?float {
         return $this->montantSommeIsolPlaf5;
     }
 
@@ -1015,7 +1014,7 @@ class EmpDadsuRectif {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -1024,7 +1023,7 @@ class EmpDadsuRectif {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -1033,7 +1032,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the particip patron avtge mnt1.
      */
-    public function getParticipPatronAvtgeMnt1(): ?float{
+    public function getParticipPatronAvtgeMnt1(): ?float {
         return $this->participPatronAvtgeMnt1;
     }
 
@@ -1042,7 +1041,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the particip patron avtge mnt2.
      */
-    public function getParticipPatronAvtgeMnt2(): ?float{
+    public function getParticipPatronAvtgeMnt2(): ?float {
         return $this->participPatronAvtgeMnt2;
     }
 
@@ -1051,8 +1050,17 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the particip serv pers.
      */
-    public function getParticipServPers(): ?float{
+    public function getParticipServPers(): ?float {
         return $this->participServPers;
+    }
+
+    /**
+     * Get the taxe salaire.
+     *
+     * @return float|null Returns the taxe salaire.
+     */
+    public function getTaxeSalaire(): ?float {
+        return $this->taxeSalaire;
     }
 
     /**
@@ -1060,7 +1068,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds100.
      */
-    public function getTds100(): ?float{
+    public function getTds100(): ?float {
         return $this->tds100;
     }
 
@@ -1069,7 +1077,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds103.
      */
-    public function getTds103(): ?float{
+    public function getTds103(): ?float {
         return $this->tds103;
     }
 
@@ -1078,7 +1086,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds105.
      */
-    public function getTds105(): ?float{
+    public function getTds105(): ?float {
         return $this->tds105;
     }
 
@@ -1087,7 +1095,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds107.
      */
-    public function getTds107(): ?bool{
+    public function getTds107(): ?bool {
         return $this->tds107;
     }
 
@@ -1096,7 +1104,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds108.
      */
-    public function getTds108(): ?bool{
+    public function getTds108(): ?bool {
         return $this->tds108;
     }
 
@@ -1105,7 +1113,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds109.
      */
-    public function getTds109(): ?bool{
+    public function getTds109(): ?bool {
         return $this->tds109;
     }
 
@@ -1114,7 +1122,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds110.
      */
-    public function getTds110(): ?bool{
+    public function getTds110(): ?bool {
         return $this->tds110;
     }
 
@@ -1123,7 +1131,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds111.
      */
-    public function getTds111(): ?bool{
+    public function getTds111(): ?bool {
         return $this->tds111;
     }
 
@@ -1132,7 +1140,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds112.
      */
-    public function getTds112(): ?float{
+    public function getTds112(): ?float {
         return $this->tds112;
     }
 
@@ -1141,7 +1149,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds113.
      */
-    public function getTds113(): ?bool{
+    public function getTds113(): ?bool {
         return $this->tds113;
     }
 
@@ -1150,7 +1158,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds117.
      */
-    public function getTds117(): ?float{
+    public function getTds117(): ?float {
         return $this->tds117;
     }
 
@@ -1159,7 +1167,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds119.
      */
-    public function getTds119(): ?bool{
+    public function getTds119(): ?bool {
         return $this->tds119;
     }
 
@@ -1168,7 +1176,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds120.
      */
-    public function getTds120(): ?bool{
+    public function getTds120(): ?bool {
         return $this->tds120;
     }
 
@@ -1177,7 +1185,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds121.
      */
-    public function getTds121(): ?bool{
+    public function getTds121(): ?bool {
         return $this->tds121;
     }
 
@@ -1186,7 +1194,7 @@ class EmpDadsuRectif {
      *
      * @return bool|null Returns the tds122.
      */
-    public function getTds122(): ?bool{
+    public function getTds122(): ?bool {
         return $this->tds122;
     }
 
@@ -1195,7 +1203,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds125.
      */
-    public function getTds125(): ?float{
+    public function getTds125(): ?float {
         return $this->tds125;
     }
 
@@ -1204,7 +1212,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds132.
      */
-    public function getTds132(): ?float{
+    public function getTds132(): ?float {
         return $this->tds132;
     }
 
@@ -1213,7 +1221,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds134.
      */
-    public function getTds134(): ?float{
+    public function getTds134(): ?float {
         return $this->tds134;
     }
 
@@ -1222,7 +1230,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds135.
      */
-    public function getTds135(): ?float{
+    public function getTds135(): ?float {
         return $this->tds135;
     }
 
@@ -1231,8 +1239,17 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds136.
      */
-    public function getTds136(): ?float{
+    public function getTds136(): ?float {
         return $this->tds136;
+    }
+
+    /**
+     * Get the tds137.
+     *
+     * @return float|null Returns the tds137.
+     */
+    public function getTds137(): ?float {
+        return $this->tds137;
     }
 
     /**
@@ -1240,8 +1257,17 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds141.
      */
-    public function getTds141(): ?float{
+    public function getTds141(): ?float {
         return $this->tds141;
+    }
+
+    /**
+     * Get the tds142.
+     *
+     * @return float|null Returns the tds142.
+     */
+    public function getTds142(): ?float {
+        return $this->tds142;
     }
 
     /**
@@ -1249,7 +1275,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds81.
      */
-    public function getTds81(): ?float{
+    public function getTds81(): ?float {
         return $this->tds81;
     }
 
@@ -1258,35 +1284,8 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds82.
      */
-    public function getTds82(): ?float{
+    public function getTds82(): ?float {
         return $this->tds82;
-    }
-
-    /**
-     * Get the taxe salaire.
-     *
-     * @return float|null Returns the taxe salaire.
-     */
-    public function getTaxeSalaire(): ?float{
-        return $this->taxeSalaire;
-    }
-
-    /**
-     * Get the tds137.
-     *
-     * @return float|null Returns the tds137.
-     */
-    public function getTds137(): ?float{
-        return $this->tds137;
-    }
-
-    /**
-     * Get the tds142.
-     *
-     * @return float|null Returns the tds142.
-     */
-    public function getTds142(): ?float{
-        return $this->tds142;
     }
 
     /**
@@ -1294,7 +1293,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the tds alloc retraite.
      */
-    public function getTdsAllocRetraite(): ?float{
+    public function getTdsAllocRetraite(): ?float {
         return $this->tdsAllocRetraite;
     }
 
@@ -1303,7 +1302,7 @@ class EmpDadsuRectif {
      *
      * @return float|null Returns the total plaf.
      */
-    public function getTotalPlaf(): ?float{
+    public function getTotalPlaf(): ?float {
         return $this->totalPlaf;
     }
 
@@ -1517,17 +1516,6 @@ class EmpDadsuRectif {
     }
 
     /**
-     * Set the gpec mnt exo csgcrds.
-     *
-     * @param float|null $gpecMntExoCsgcrds The gpec mnt exo csgcrds.
-     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
-     */
-    public function setGpecMntExoCsgcrds(?float $gpecMntExoCsgcrds): EmpDadsuRectif {
-        $this->gpecMntExoCsgcrds = $gpecMntExoCsgcrds;
-        return $this;
-    }
-
-    /**
      * Set the gpec mnt exo cot secu.
      *
      * @param float|null $gpecMntExoCotSecu The gpec mnt exo cot secu.
@@ -1535,6 +1523,17 @@ class EmpDadsuRectif {
      */
     public function setGpecMntExoCotSecu(?float $gpecMntExoCotSecu): EmpDadsuRectif {
         $this->gpecMntExoCotSecu = $gpecMntExoCotSecu;
+        return $this;
+    }
+
+    /**
+     * Set the gpec mnt exo csgcrds.
+     *
+     * @param float|null $gpecMntExoCsgcrds The gpec mnt exo csgcrds.
+     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
+     */
+    public function setGpecMntExoCsgcrds(?float $gpecMntExoCsgcrds): EmpDadsuRectif {
+        $this->gpecMntExoCsgcrds = $gpecMntExoCsgcrds;
         return $this;
     }
 
@@ -1880,6 +1879,17 @@ class EmpDadsuRectif {
     }
 
     /**
+     * Set the taxe salaire.
+     *
+     * @param float|null $taxeSalaire The taxe salaire.
+     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
+     */
+    public function setTaxeSalaire(?float $taxeSalaire): EmpDadsuRectif {
+        $this->taxeSalaire = $taxeSalaire;
+        return $this;
+    }
+
+    /**
      * Set the tds100.
      *
      * @param float|null $tds100 The tds100.
@@ -2100,6 +2110,17 @@ class EmpDadsuRectif {
     }
 
     /**
+     * Set the tds137.
+     *
+     * @param float|null $tds137 The tds137.
+     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
+     */
+    public function setTds137(?float $tds137): EmpDadsuRectif {
+        $this->tds137 = $tds137;
+        return $this;
+    }
+
+    /**
      * Set the tds141.
      *
      * @param float|null $tds141 The tds141.
@@ -2107,6 +2128,17 @@ class EmpDadsuRectif {
      */
     public function setTds141(?float $tds141): EmpDadsuRectif {
         $this->tds141 = $tds141;
+        return $this;
+    }
+
+    /**
+     * Set the tds142.
+     *
+     * @param float|null $tds142 The tds142.
+     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
+     */
+    public function setTds142(?float $tds142): EmpDadsuRectif {
+        $this->tds142 = $tds142;
         return $this;
     }
 
@@ -2129,39 +2161,6 @@ class EmpDadsuRectif {
      */
     public function setTds82(?float $tds82): EmpDadsuRectif {
         $this->tds82 = $tds82;
-        return $this;
-    }
-
-    /**
-     * Set the taxe salaire.
-     *
-     * @param float|null $taxeSalaire The taxe salaire.
-     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
-     */
-    public function setTaxeSalaire(?float $taxeSalaire): EmpDadsuRectif {
-        $this->taxeSalaire = $taxeSalaire;
-        return $this;
-    }
-
-    /**
-     * Set the tds137.
-     *
-     * @param float|null $tds137 The tds137.
-     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
-     */
-    public function setTds137(?float $tds137): EmpDadsuRectif {
-        $this->tds137 = $tds137;
-        return $this;
-    }
-
-    /**
-     * Set the tds142.
-     *
-     * @param float|null $tds142 The tds142.
-     * @return EmpDadsuRectif Returns this Emp dadsu rectif.
-     */
-    public function setTds142(?float $tds142): EmpDadsuRectif {
-        $this->tds142 = $tds142;
         return $this;
     }
 

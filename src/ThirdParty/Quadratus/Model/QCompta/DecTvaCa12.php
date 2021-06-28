@@ -582,6 +582,27 @@ class DecTvaCa12 {
     private $zNumMsa;
 
     /**
+     * z rbt demande.
+     *
+     * @var float|null
+     */
+    private $zRbtDemande;
+
+    /**
+     * z rbt qualite.
+     *
+     * @var string|null
+     */
+    private $zRbtQualite;
+
+    /**
+     * z rbt ville.
+     *
+     * @var string|null
+     */
+    private $zRbtVille;
+
+    /**
      * z rbtbic.
      *
      * @var string|null
@@ -596,32 +617,11 @@ class DecTvaCa12 {
     private $zRbtiban;
 
     /**
-     * z rbt qualite.
-     *
-     * @var string|null
-     */
-    private $zRbtQualite;
-
-    /**
      * z rbtrib.
      *
      * @var string|null
      */
     private $zRbtrib;
-
-    /**
-     * z rbt ville.
-     *
-     * @var string|null
-     */
-    private $zRbtVille;
-
-    /**
-     * z rbt demande.
-     *
-     * @var float|null
-     */
-    private $zRbtDemande;
 
     /**
      * z solde a payer.
@@ -651,7 +651,6 @@ class DecTvaCa12 {
      */
     private $zYaDemandeRbt;
 
-
     /**
      * Constructor.
      */
@@ -664,7 +663,7 @@ class DecTvaCa12 {
      *
      * @return DateTime|null Returns the date cession.
      */
-    public function getDateCession(): ?DateTime{
+    public function getDateCession(): ?DateTime {
         return $this->dateCession;
     }
 
@@ -673,7 +672,7 @@ class DecTvaCa12 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -682,7 +681,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the tx imposition.
      */
-    public function getTxImposition(): ?float{
+    public function getTxImposition(): ?float {
         return $this->txImposition;
     }
 
@@ -691,7 +690,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the type ca12.
      */
-    public function getTypeCa12(): ?string{
+    public function getTypeCa12(): ?string {
         return $this->typeCa12;
     }
 
@@ -700,7 +699,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0008.
      */
-    public function getz0008(): ?float{
+    public function getz0008(): ?float {
         return $this->z0008;
     }
 
@@ -709,7 +708,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0018.
      */
-    public function getz0018(): ?float{
+    public function getz0018(): ?float {
         return $this->z0018;
     }
 
@@ -718,7 +717,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0019.
      */
-    public function getz0019(): ?float{
+    public function getz0019(): ?float {
         return $this->z0019;
     }
 
@@ -727,7 +726,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0020.
      */
-    public function getz0020(): ?float{
+    public function getz0020(): ?float {
         return $this->z0020;
     }
 
@@ -736,7 +735,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0028.
      */
-    public function getz0028(): ?float{
+    public function getz0028(): ?float {
         return $this->z0028;
     }
 
@@ -745,7 +744,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0030b.
      */
-    public function getz0030b(): ?float{
+    public function getz0030b(): ?float {
         return $this->z0030b;
     }
 
@@ -754,7 +753,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0058.
      */
-    public function getz0058(): ?float{
+    public function getz0058(): ?float {
         return $this->z0058;
     }
 
@@ -763,7 +762,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0704.
      */
-    public function getz0704(): ?float{
+    public function getz0704(): ?float {
         return $this->z0704;
     }
 
@@ -772,7 +771,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0709.
      */
-    public function getz0709(): ?float{
+    public function getz0709(): ?float {
         return $this->z0709;
     }
 
@@ -781,7 +780,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0970.
      */
-    public function getz0970(): ?float{
+    public function getz0970(): ?float {
         return $this->z0970;
     }
 
@@ -790,7 +789,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0970b.
      */
-    public function getz0970b(): ?float{
+    public function getz0970b(): ?float {
         return $this->z0970b;
     }
 
@@ -799,7 +798,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0980.
      */
-    public function getz0980(): ?float{
+    public function getz0980(): ?float {
         return $this->z0980;
     }
 
@@ -808,7 +807,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0980b.
      */
-    public function getz0980b(): ?float{
+    public function getz0980b(): ?float {
         return $this->z0980b;
     }
 
@@ -817,7 +816,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0981.
      */
-    public function getz0981(): ?float{
+    public function getz0981(): ?float {
         return $this->z0981;
     }
 
@@ -826,7 +825,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0981b.
      */
-    public function getz0981b(): ?float{
+    public function getz0981b(): ?float {
         return $this->z0981b;
     }
 
@@ -835,7 +834,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0982.
      */
-    public function getz0982(): ?float{
+    public function getz0982(): ?float {
         return $this->z0982;
     }
 
@@ -844,7 +843,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z0983.
      */
-    public function getz0983(): ?float{
+    public function getz0983(): ?float {
         return $this->z0983;
     }
 
@@ -853,7 +852,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z3240.
      */
-    public function getz3240(): ?float{
+    public function getz3240(): ?float {
         return $this->z3240;
     }
 
@@ -862,7 +861,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z32 code.
      */
-    public function getz32Code(): ?string{
+    public function getz32Code(): ?string {
         return $this->z32Code;
     }
 
@@ -871,7 +870,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z32 libelle.
      */
-    public function getz32Libelle(): ?string{
+    public function getz32Libelle(): ?string {
         return $this->z32Libelle;
     }
 
@@ -880,7 +879,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z32 taxe.
      */
-    public function getz32Taxe(): ?float{
+    public function getz32Taxe(): ?float {
         return $this->z32Taxe;
     }
 
@@ -889,7 +888,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z35 b code.
      */
-    public function getz35BCode(): ?string{
+    public function getz35BCode(): ?string {
         return $this->z35BCode;
     }
 
@@ -898,7 +897,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z35 b libelle.
      */
-    public function getz35BLibelle(): ?string{
+    public function getz35BLibelle(): ?string {
         return $this->z35BLibelle;
     }
 
@@ -907,7 +906,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z35 b taxe.
      */
-    public function getz35BTaxe(): ?float{
+    public function getz35BTaxe(): ?float {
         return $this->z35BTaxe;
     }
 
@@ -916,7 +915,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z35 code.
      */
-    public function getz35Code(): ?string{
+    public function getz35Code(): ?string {
         return $this->z35Code;
     }
 
@@ -925,7 +924,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z35 libelle.
      */
-    public function getz35Libelle(): ?string{
+    public function getz35Libelle(): ?string {
         return $this->z35Libelle;
     }
 
@@ -934,7 +933,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z35 taxe.
      */
-    public function getz35Taxe(): ?float{
+    public function getz35Taxe(): ?float {
         return $this->z35Taxe;
     }
 
@@ -943,7 +942,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4202.
      */
-    public function getz4202(): ?float{
+    public function getz4202(): ?float {
         return $this->z4202;
     }
 
@@ -952,7 +951,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4213.
      */
-    public function getz4213(): ?float{
+    public function getz4213(): ?float {
         return $this->z4213;
     }
 
@@ -961,7 +960,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4216.
      */
-    public function getz4216(): ?float{
+    public function getz4216(): ?float {
         return $this->z4216;
     }
 
@@ -970,7 +969,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4217.
      */
-    public function getz4217(): ?float{
+    public function getz4217(): ?float {
         return $this->z4217;
     }
 
@@ -979,7 +978,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4218.
      */
-    public function getz4218(): ?float{
+    public function getz4218(): ?float {
         return $this->z4218;
     }
 
@@ -988,7 +987,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4220.
      */
-    public function getz4220(): ?float{
+    public function getz4220(): ?float {
         return $this->z4220;
     }
 
@@ -997,7 +996,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z45 ca12.
      */
-    public function getz45Ca12(): ?float{
+    public function getz45Ca12(): ?float {
         return $this->z45Ca12;
     }
 
@@ -1006,7 +1005,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z45 ca12 code.
      */
-    public function getz45Ca12Code(): ?string{
+    public function getz45Ca12Code(): ?string {
         return $this->z45Ca12Code;
     }
 
@@ -1015,7 +1014,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z45 ca12 libelle.
      */
-    public function getz45Ca12Libelle(): ?string{
+    public function getz45Ca12Libelle(): ?string {
         return $this->z45Ca12Libelle;
     }
 
@@ -1024,7 +1023,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z47 ca12.
      */
-    public function getz47Ca12(): ?float{
+    public function getz47Ca12(): ?float {
         return $this->z47Ca12;
     }
 
@@ -1033,7 +1032,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z47 ca12 code.
      */
-    public function getz47Ca12Code(): ?string{
+    public function getz47Ca12Code(): ?string {
         return $this->z47Ca12Code;
     }
 
@@ -1042,7 +1041,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z47 ca12 libelle.
      */
-    public function getz47Ca12Libelle(): ?string{
+    public function getz47Ca12Libelle(): ?string {
         return $this->z47Ca12Libelle;
     }
 
@@ -1051,7 +1050,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4 aca12.
      */
-    public function getz4Aca12(): ?float{
+    public function getz4Aca12(): ?float {
         return $this->z4Aca12;
     }
 
@@ -1060,7 +1059,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z4 aca12 code.
      */
-    public function getz4Aca12Code(): ?string{
+    public function getz4Aca12Code(): ?string {
         return $this->z4Aca12Code;
     }
 
@@ -1069,7 +1068,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z4 aca12 libelle.
      */
-    public function getz4Aca12Libelle(): ?string{
+    public function getz4Aca12Libelle(): ?string {
         return $this->z4Aca12Libelle;
     }
 
@@ -1078,7 +1077,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4 bca12.
      */
-    public function getz4Bca12(): ?float{
+    public function getz4Bca12(): ?float {
         return $this->z4Bca12;
     }
 
@@ -1087,7 +1086,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z4 bca12 code.
      */
-    public function getz4Bca12Code(): ?string{
+    public function getz4Bca12Code(): ?string {
         return $this->z4Bca12Code;
     }
 
@@ -1096,7 +1095,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z4 bca12 libelle.
      */
-    public function getz4Bca12Libelle(): ?string{
+    public function getz4Bca12Libelle(): ?string {
         return $this->z4Bca12Libelle;
     }
 
@@ -1105,7 +1104,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z4 cca12.
      */
-    public function getz4Cca12(): ?float{
+    public function getz4Cca12(): ?float {
         return $this->z4Cca12;
     }
 
@@ -1114,7 +1113,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z4 cca12 code.
      */
-    public function getz4Cca12Code(): ?string{
+    public function getz4Cca12Code(): ?string {
         return $this->z4Cca12Code;
     }
 
@@ -1123,7 +1122,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z4 cca12 libelle.
      */
-    public function getz4Cca12Libelle(): ?string{
+    public function getz4Cca12Libelle(): ?string {
         return $this->z4Cca12Libelle;
     }
 
@@ -1132,7 +1131,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z5b code.
      */
-    public function getz5bCode(): ?string{
+    public function getz5bCode(): ?string {
         return $this->z5bCode;
     }
 
@@ -1141,7 +1140,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z5b ht.
      */
-    public function getz5bHt(): ?float{
+    public function getz5bHt(): ?float {
         return $this->z5bHt;
     }
 
@@ -1150,7 +1149,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z5b libelle.
      */
-    public function getz5bLibelle(): ?string{
+    public function getz5bLibelle(): ?string {
         return $this->z5bLibelle;
     }
 
@@ -1159,7 +1158,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z5b taxe.
      */
-    public function getz5bTaxe(): ?float{
+    public function getz5bTaxe(): ?float {
         return $this->z5bTaxe;
     }
 
@@ -1168,7 +1167,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z7b code.
      */
-    public function getz7bCode(): ?string{
+    public function getz7bCode(): ?string {
         return $this->z7bCode;
     }
 
@@ -1177,7 +1176,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z7b ht.
      */
-    public function getz7bHt(): ?float{
+    public function getz7bHt(): ?float {
         return $this->z7bHt;
     }
 
@@ -1186,7 +1185,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z7b libelle.
      */
-    public function getz7bLibelle(): ?string{
+    public function getz7bLibelle(): ?string {
         return $this->z7bLibelle;
     }
 
@@ -1195,7 +1194,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z7b taxe.
      */
-    public function getz7bTaxe(): ?float{
+    public function getz7bTaxe(): ?float {
         return $this->z7bTaxe;
     }
 
@@ -1204,7 +1203,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z8004.
      */
-    public function getz8004(): ?float{
+    public function getz8004(): ?float {
         return $this->z8004;
     }
 
@@ -1213,7 +1212,7 @@ class DecTvaCa12 {
      *
      * @return bool|null Returns the z acompte deduit1.
      */
-    public function getzAcompteDeduit1(): ?bool{
+    public function getzAcompteDeduit1(): ?bool {
         return $this->zAcompteDeduit1;
     }
 
@@ -1222,7 +1221,7 @@ class DecTvaCa12 {
      *
      * @return bool|null Returns the z acompte deduit2.
      */
-    public function getzAcompteDeduit2(): ?bool{
+    public function getzAcompteDeduit2(): ?bool {
         return $this->zAcompteDeduit2;
     }
 
@@ -1231,7 +1230,7 @@ class DecTvaCa12 {
      *
      * @return bool|null Returns the z acompte deduit3.
      */
-    public function getzAcompteDeduit3(): ?bool{
+    public function getzAcompteDeduit3(): ?bool {
         return $this->zAcompteDeduit3;
     }
 
@@ -1240,7 +1239,7 @@ class DecTvaCa12 {
      *
      * @return bool|null Returns the z acompte deduit4.
      */
-    public function getzAcompteDeduit4(): ?bool{
+    public function getzAcompteDeduit4(): ?bool {
         return $this->zAcompteDeduit4;
     }
 
@@ -1249,7 +1248,7 @@ class DecTvaCa12 {
      *
      * @return int|null Returns the z annee acompte1.
      */
-    public function getzAnneeAcompte1(): ?int{
+    public function getzAnneeAcompte1(): ?int {
         return $this->zAnneeAcompte1;
     }
 
@@ -1258,7 +1257,7 @@ class DecTvaCa12 {
      *
      * @return int|null Returns the z annee acompte2.
      */
-    public function getzAnneeAcompte2(): ?int{
+    public function getzAnneeAcompte2(): ?int {
         return $this->zAnneeAcompte2;
     }
 
@@ -1267,7 +1266,7 @@ class DecTvaCa12 {
      *
      * @return int|null Returns the z annee acompte3.
      */
-    public function getzAnneeAcompte3(): ?int{
+    public function getzAnneeAcompte3(): ?int {
         return $this->zAnneeAcompte3;
     }
 
@@ -1276,7 +1275,7 @@ class DecTvaCa12 {
      *
      * @return int|null Returns the z annee acompte4.
      */
-    public function getzAnneeAcompte4(): ?int{
+    public function getzAnneeAcompte4(): ?int {
         return $this->zAnneeAcompte4;
     }
 
@@ -1285,7 +1284,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col1 acompte1.
      */
-    public function getzCol1Acompte1(): ?float{
+    public function getzCol1Acompte1(): ?float {
         return $this->zCol1Acompte1;
     }
 
@@ -1294,7 +1293,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col1 acompte2.
      */
-    public function getzCol1Acompte2(): ?float{
+    public function getzCol1Acompte2(): ?float {
         return $this->zCol1Acompte2;
     }
 
@@ -1303,7 +1302,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col1 acompte3.
      */
-    public function getzCol1Acompte3(): ?float{
+    public function getzCol1Acompte3(): ?float {
         return $this->zCol1Acompte3;
     }
 
@@ -1312,7 +1311,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col1 acompte4.
      */
-    public function getzCol1Acompte4(): ?float{
+    public function getzCol1Acompte4(): ?float {
         return $this->zCol1Acompte4;
     }
 
@@ -1321,7 +1320,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col2 acompte1.
      */
-    public function getzCol2Acompte1(): ?float{
+    public function getzCol2Acompte1(): ?float {
         return $this->zCol2Acompte1;
     }
 
@@ -1330,7 +1329,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col2 acompte2.
      */
-    public function getzCol2Acompte2(): ?float{
+    public function getzCol2Acompte2(): ?float {
         return $this->zCol2Acompte2;
     }
 
@@ -1339,7 +1338,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col2 acompte3.
      */
-    public function getzCol2Acompte3(): ?float{
+    public function getzCol2Acompte3(): ?float {
         return $this->zCol2Acompte3;
     }
 
@@ -1348,7 +1347,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z col2 acompte4.
      */
-    public function getzCol2Acompte4(): ?float{
+    public function getzCol2Acompte4(): ?float {
         return $this->zCol2Acompte4;
     }
 
@@ -1357,7 +1356,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z excedent versement.
      */
-    public function getzExcedentVersement(): ?float{
+    public function getzExcedentVersement(): ?float {
         return $this->zExcedentVersement;
     }
 
@@ -1366,7 +1365,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z nom demandeur rbt.
      */
-    public function getzNomDemandeurRbt(): ?string{
+    public function getzNomDemandeurRbt(): ?string {
         return $this->zNomDemandeurRbt;
     }
 
@@ -1375,8 +1374,35 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z num msa.
      */
-    public function getzNumMsa(): ?string{
+    public function getzNumMsa(): ?string {
         return $this->zNumMsa;
+    }
+
+    /**
+     * Get the z rbt demande.
+     *
+     * @return float|null Returns the z rbt demande.
+     */
+    public function getzRbtDemande(): ?float {
+        return $this->zRbtDemande;
+    }
+
+    /**
+     * Get the z rbt qualite.
+     *
+     * @return string|null Returns the z rbt qualite.
+     */
+    public function getzRbtQualite(): ?string {
+        return $this->zRbtQualite;
+    }
+
+    /**
+     * Get the z rbt ville.
+     *
+     * @return string|null Returns the z rbt ville.
+     */
+    public function getzRbtVille(): ?string {
+        return $this->zRbtVille;
     }
 
     /**
@@ -1384,7 +1410,7 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z rbtbic.
      */
-    public function getzRbtbic(): ?string{
+    public function getzRbtbic(): ?string {
         return $this->zRbtbic;
     }
 
@@ -1393,17 +1419,8 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z rbtiban.
      */
-    public function getzRbtiban(): ?string{
+    public function getzRbtiban(): ?string {
         return $this->zRbtiban;
-    }
-
-    /**
-     * Get the z rbt qualite.
-     *
-     * @return string|null Returns the z rbt qualite.
-     */
-    public function getzRbtQualite(): ?string{
-        return $this->zRbtQualite;
     }
 
     /**
@@ -1411,26 +1428,8 @@ class DecTvaCa12 {
      *
      * @return string|null Returns the z rbtrib.
      */
-    public function getzRbtrib(): ?string{
+    public function getzRbtrib(): ?string {
         return $this->zRbtrib;
-    }
-
-    /**
-     * Get the z rbt ville.
-     *
-     * @return string|null Returns the z rbt ville.
-     */
-    public function getzRbtVille(): ?string{
-        return $this->zRbtVille;
-    }
-
-    /**
-     * Get the z rbt demande.
-     *
-     * @return float|null Returns the z rbt demande.
-     */
-    public function getzRbtDemande(): ?float{
-        return $this->zRbtDemande;
     }
 
     /**
@@ -1438,7 +1437,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z solde a payer.
      */
-    public function getzSoldeAPayer(): ?float{
+    public function getzSoldeAPayer(): ?float {
         return $this->zSoldeAPayer;
     }
 
@@ -1447,7 +1446,7 @@ class DecTvaCa12 {
      *
      * @return int|null Returns the z surface agr.
      */
-    public function getzSurfaceAgr(): ?int{
+    public function getzSurfaceAgr(): ?int {
         return $this->zSurfaceAgr;
     }
 
@@ -1456,7 +1455,7 @@ class DecTvaCa12 {
      *
      * @return float|null Returns the z taxes fiscales.
      */
-    public function getzTaxesFiscales(): ?float{
+    public function getzTaxesFiscales(): ?float {
         return $this->zTaxesFiscales;
     }
 
@@ -1465,7 +1464,7 @@ class DecTvaCa12 {
      *
      * @return bool|null Returns the z ya demande rbt.
      */
-    public function getzYaDemandeRbt(): ?bool{
+    public function getzYaDemandeRbt(): ?bool {
         return $this->zYaDemandeRbt;
     }
 
@@ -2350,6 +2349,39 @@ class DecTvaCa12 {
     }
 
     /**
+     * Set the z rbt demande.
+     *
+     * @param float|null $zRbtDemande The z rbt demande.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
+     */
+    public function setzRbtDemande(?float $zRbtDemande): DecTvaCa12 {
+        $this->zRbtDemande = $zRbtDemande;
+        return $this;
+    }
+
+    /**
+     * Set the z rbt qualite.
+     *
+     * @param string|null $zRbtQualite The z rbt qualite.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
+     */
+    public function setzRbtQualite(?string $zRbtQualite): DecTvaCa12 {
+        $this->zRbtQualite = $zRbtQualite;
+        return $this;
+    }
+
+    /**
+     * Set the z rbt ville.
+     *
+     * @param string|null $zRbtVille The z rbt ville.
+     * @return DecTvaCa12 Returns this Dec tva ca12.
+     */
+    public function setzRbtVille(?string $zRbtVille): DecTvaCa12 {
+        $this->zRbtVille = $zRbtVille;
+        return $this;
+    }
+
+    /**
      * Set the z rbtbic.
      *
      * @param string|null $zRbtbic The z rbtbic.
@@ -2372,17 +2404,6 @@ class DecTvaCa12 {
     }
 
     /**
-     * Set the z rbt qualite.
-     *
-     * @param string|null $zRbtQualite The z rbt qualite.
-     * @return DecTvaCa12 Returns this Dec tva ca12.
-     */
-    public function setzRbtQualite(?string $zRbtQualite): DecTvaCa12 {
-        $this->zRbtQualite = $zRbtQualite;
-        return $this;
-    }
-
-    /**
      * Set the z rbtrib.
      *
      * @param string|null $zRbtrib The z rbtrib.
@@ -2390,28 +2411,6 @@ class DecTvaCa12 {
      */
     public function setzRbtrib(?string $zRbtrib): DecTvaCa12 {
         $this->zRbtrib = $zRbtrib;
-        return $this;
-    }
-
-    /**
-     * Set the z rbt ville.
-     *
-     * @param string|null $zRbtVille The z rbt ville.
-     * @return DecTvaCa12 Returns this Dec tva ca12.
-     */
-    public function setzRbtVille(?string $zRbtVille): DecTvaCa12 {
-        $this->zRbtVille = $zRbtVille;
-        return $this;
-    }
-
-    /**
-     * Set the z rbt demande.
-     *
-     * @param float|null $zRbtDemande The z rbt demande.
-     * @return DecTvaCa12 Returns this Dec tva ca12.
-     */
-    public function setzRbtDemande(?float $zRbtDemande): DecTvaCa12 {
-        $this->zRbtDemande = $zRbtDemande;
         return $this;
     }
 

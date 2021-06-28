@@ -98,7 +98,6 @@ class TramesLignes {
      */
     private $numLigne;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class TramesLignes {
      *
      * @return int|null Returns the code.
      */
-    public function getCode(): ?int{
+    public function getCode(): ?int {
         return $this->code;
     }
 
@@ -120,7 +119,7 @@ class TramesLignes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -129,7 +128,7 @@ class TramesLignes {
      *
      * @return string|null Returns the code lib auto.
      */
-    public function getCodeLibAuto(): ?string{
+    public function getCodeLibAuto(): ?string {
         return $this->codeLibAuto;
     }
 
@@ -138,7 +137,7 @@ class TramesLignes {
      *
      * @return string|null Returns the compte.
      */
-    public function getCompte(): ?string{
+    public function getCompte(): ?string {
         return $this->compte;
     }
 
@@ -147,7 +146,7 @@ class TramesLignes {
      *
      * @return string|null Returns the compte contrepartie.
      */
-    public function getCompteContrepartie(): ?string{
+    public function getCompteContrepartie(): ?string {
         return $this->compteContrepartie;
     }
 
@@ -156,7 +155,7 @@ class TramesLignes {
      *
      * @return float|null Returns the credit.
      */
-    public function getCredit(): ?float{
+    public function getCredit(): ?float {
         return $this->credit;
     }
 
@@ -165,7 +164,7 @@ class TramesLignes {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -174,7 +173,7 @@ class TramesLignes {
      *
      * @return float|null Returns the debit.
      */
-    public function getDebit(): ?float{
+    public function getDebit(): ?float {
         return $this->debit;
     }
 
@@ -183,7 +182,7 @@ class TramesLignes {
      *
      * @return bool|null Returns the is debit.
      */
-    public function getIsDebit(): ?bool{
+    public function getIsDebit(): ?bool {
         return $this->isDebit;
     }
 
@@ -192,7 +191,7 @@ class TramesLignes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -201,7 +200,7 @@ class TramesLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 

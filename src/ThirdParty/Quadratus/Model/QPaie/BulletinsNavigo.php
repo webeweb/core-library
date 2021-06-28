@@ -70,7 +70,6 @@ class BulletinsNavigo {
      */
     private $zone;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class BulletinsNavigo {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -92,7 +91,7 @@ class BulletinsNavigo {
      *
      * @return string|null Returns the nb semaine.
      */
-    public function getNbSemaine(): ?string{
+    public function getNbSemaine(): ?string {
         return $this->nbSemaine;
     }
 
@@ -101,7 +100,7 @@ class BulletinsNavigo {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -110,7 +109,7 @@ class BulletinsNavigo {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -119,7 +118,7 @@ class BulletinsNavigo {
      *
      * @return bool|null Returns the rbt non proratise.
      */
-    public function getRbtNonProratise(): ?bool{
+    public function getRbtNonProratise(): ?bool {
         return $this->rbtNonProratise;
     }
 
@@ -128,7 +127,7 @@ class BulletinsNavigo {
      *
      * @return string|null Returns the type abonnement.
      */
-    public function getTypeAbonnement(): ?string{
+    public function getTypeAbonnement(): ?string {
         return $this->typeAbonnement;
     }
 
@@ -137,7 +136,7 @@ class BulletinsNavigo {
      *
      * @return string|null Returns the zone.
      */
-    public function getZone(): ?string{
+    public function getZone(): ?string {
         return $this->zone;
     }
 

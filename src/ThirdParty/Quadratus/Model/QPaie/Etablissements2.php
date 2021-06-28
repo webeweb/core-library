@@ -288,13 +288,6 @@ class Etablissements2 {
     private $remunerationExpatries;
 
     /**
-     * Smic m courant.
-     *
-     * @var bool|null
-     */
-    private $smicMCourant;
-
-    /**
      * Siret centralisateur.
      *
      * @var bool|null
@@ -302,25 +295,18 @@ class Etablissements2 {
     private $siretCentralisateur;
 
     /**
+     * Smic m courant.
+     *
+     * @var bool|null
+     */
+    private $smicMCourant;
+
+    /**
      * Societe interim.
      *
      * @var bool|null
      */
     private $societeInterim;
-
-    /**
-     * Tds19.
-     *
-     * @var string|null
-     */
-    private $tds19;
-
-    /**
-     * Tepa moins20.
-     *
-     * @var bool|null
-     */
-    private $tepaMoins20;
 
     /**
      * Taux compl heure.
@@ -344,11 +330,25 @@ class Etablissements2 {
     private $tauxHComp;
 
     /**
+     * Tds19.
+     *
+     * @var string|null
+     */
+    private $tds19;
+
+    /**
      * Tel signature dnae.
      *
      * @var string|null
      */
     private $telSignatureDnae;
+
+    /**
+     * Tepa moins20.
+     *
+     * @var bool|null
+     */
+    private $tepaMoins20;
 
     /**
      * Type effectif ct.
@@ -364,7 +364,6 @@ class Etablissements2 {
      */
     private $typeMaintienBrutNet;
 
-
     /**
      * Constructor.
      */
@@ -377,7 +376,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the adherent syndicat.
      */
-    public function getAdherentSyndicat(): ?bool{
+    public function getAdherentSyndicat(): ?bool {
         return $this->adherentSyndicat;
     }
 
@@ -386,7 +385,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the annee chgt effectif.
      */
-    public function getAnneeChgtEffectif(): ?string{
+    public function getAnneeChgtEffectif(): ?string {
         return $this->anneeChgtEffectif;
     }
 
@@ -395,7 +394,7 @@ class Etablissements2 {
      *
      * @return int|null Returns the annee jei.
      */
-    public function getAnneeJei(): ?int{
+    public function getAnneeJei(): ?int {
         return $this->anneeJei;
     }
 
@@ -404,7 +403,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the assujetti cvae.
      */
-    public function getAssujettiCvae(): ?bool{
+    public function getAssujettiCvae(): ?bool {
         return $this->assujettiCvae;
     }
 
@@ -413,7 +412,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the autre signature dnae.
      */
-    public function getAutreSignatureDnae(): ?string{
+    public function getAutreSignatureDnae(): ?string {
         return $this->autreSignatureDnae;
     }
 
@@ -422,7 +421,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the bic2.
      */
-    public function getBic2(): ?string{
+    public function getBic2(): ?string {
         return $this->bic2;
     }
 
@@ -431,7 +430,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the bic3.
      */
-    public function getBic3(): ?string{
+    public function getBic3(): ?string {
         return $this->bic3;
     }
 
@@ -440,7 +439,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the caisse cp transport.
      */
-    public function getCaisseCpTransport(): ?bool{
+    public function getCaisseCpTransport(): ?bool {
         return $this->caisseCpTransport;
     }
 
@@ -449,7 +448,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the categorie juridique.
      */
-    public function getCategorieJuridique(): ?string{
+    public function getCategorieJuridique(): ?string {
         return $this->categorieJuridique;
     }
 
@@ -458,7 +457,7 @@ class Etablissements2 {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -467,7 +466,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the code med trav due.
      */
-    public function getCodeMedTravDue(): ?string{
+    public function getCodeMedTravDue(): ?string {
         return $this->codeMedTravDue;
     }
 
@@ -476,7 +475,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the code orga due.
      */
-    public function getCodeOrgaDue(): ?string{
+    public function getCodeOrgaDue(): ?string {
         return $this->codeOrgaDue;
     }
 
@@ -485,7 +484,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the coeff fillon moins20.
      */
-    public function getCoeffFillonMoins20(): ?bool{
+    public function getCoeffFillonMoins20(): ?bool {
         return $this->coeffFillonMoins20;
     }
 
@@ -494,7 +493,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the compte charge heures act part.
      */
-    public function getCompteChargeHeuresActPart(): ?string{
+    public function getCompteChargeHeuresActPart(): ?string {
         return $this->compteChargeHeuresActPart;
     }
 
@@ -503,7 +502,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the compte charge indem abs intemp.
      */
-    public function getCompteChargeIndemAbsIntemp(): ?string{
+    public function getCompteChargeIndemAbsIntemp(): ?string {
         return $this->compteChargeIndemAbsIntemp;
     }
 
@@ -512,7 +511,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the compte charge indem act part.
      */
-    public function getCompteChargeIndemActPart(): ?string{
+    public function getCompteChargeIndemActPart(): ?string {
         return $this->compteChargeIndemActPart;
     }
 
@@ -521,7 +520,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the compte charge int vers.
      */
-    public function getCompteChargeIntVers(): ?string{
+    public function getCompteChargeIntVers(): ?string {
         return $this->compteChargeIntVers;
     }
 
@@ -530,7 +529,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the compte charge part vers.
      */
-    public function getCompteChargePartVers(): ?string{
+    public function getCompteChargePartVers(): ?string {
         return $this->compteChargePartVers;
     }
 
@@ -539,7 +538,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the contact signature dnae.
      */
-    public function getContactSignatureDnae(): ?string{
+    public function getContactSignatureDnae(): ?string {
         return $this->contactSignatureDnae;
     }
 
@@ -548,7 +547,7 @@ class Etablissements2 {
      *
      * @return DateTime|null Returns the date fin exclure lfr2012.
      */
-    public function getDateFinExclureLfr2012(): ?DateTime{
+    public function getDateFinExclureLfr2012(): ?DateTime {
         return $this->dateFinExclureLfr2012;
     }
 
@@ -557,7 +556,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the exclure lfr2012.
      */
-    public function getExclureLfr2012(): ?bool{
+    public function getExclureLfr2012(): ?bool {
         return $this->exclureLfr2012;
     }
 
@@ -566,7 +565,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the gestion hstepa.
      */
-    public function getGestionHstepa(): ?string{
+    public function getGestionHstepa(): ?string {
         return $this->gestionHstepa;
     }
 
@@ -575,7 +574,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the gestion maintien sal auto.
      */
-    public function getGestionMaintienSalAuto(): ?bool{
+    public function getGestionMaintienSalAuto(): ?bool {
         return $this->gestionMaintienSalAuto;
     }
 
@@ -584,7 +583,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the iban2.
      */
-    public function getIban2(): ?string{
+    public function getIban2(): ?string {
         return $this->iban2;
     }
 
@@ -593,7 +592,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the iban3.
      */
-    public function getIban3(): ?string{
+    public function getIban3(): ?string {
         return $this->iban3;
     }
 
@@ -602,7 +601,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the iban id client2.
      */
-    public function getIbanIdClient2(): ?string{
+    public function getIbanIdClient2(): ?string {
         return $this->ibanIdClient2;
     }
 
@@ -611,7 +610,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the iban id client3.
      */
-    public function getIbanIdClient3(): ?string{
+    public function getIbanIdClient3(): ?string {
         return $this->ibanIdClient3;
     }
 
@@ -620,7 +619,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the implantation entreprise.
      */
-    public function getImplantationEntreprise(): ?string{
+    public function getImplantationEntreprise(): ?string {
         return $this->implantationEntreprise;
     }
 
@@ -629,7 +628,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the jf charge emp.
      */
-    public function getJfChargeEmp(): ?bool{
+    public function getJfChargeEmp(): ?bool {
         return $this->jfChargeEmp;
     }
 
@@ -638,7 +637,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the lieu signature dnae.
      */
-    public function getLieuSignatureDnae(): ?string{
+    public function getLieuSignatureDnae(): ?string {
         return $this->lieuSignatureDnae;
     }
 
@@ -647,7 +646,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the maintien net deduc csgijss.
      */
-    public function getMaintienNetDeducCsgijss(): ?bool{
+    public function getMaintienNetDeducCsgijss(): ?bool {
         return $this->maintienNetDeducCsgijss;
     }
 
@@ -656,7 +655,7 @@ class Etablissements2 {
      *
      * @return int|null Returns the nb fraction etab.
      */
-    public function getNbFractionEtab(): ?int{
+    public function getNbFractionEtab(): ?int {
         return $this->nbFractionEtab;
     }
 
@@ -665,7 +664,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the nom signataire dnae.
      */
-    public function getNomSignataireDnae(): ?string{
+    public function getNomSignataireDnae(): ?string {
         return $this->nomSignataireDnae;
     }
 
@@ -674,7 +673,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the prenom signataire dnae.
      */
-    public function getPrenomSignataireDnae(): ?string{
+    public function getPrenomSignataireDnae(): ?string {
         return $this->prenomSignataireDnae;
     }
 
@@ -683,7 +682,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the pseudo siret.
      */
-    public function getPseudoSiret(): ?string{
+    public function getPseudoSiret(): ?string {
         return $this->pseudoSiret;
     }
 
@@ -692,7 +691,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the qualite signataire dnae.
      */
-    public function getQualiteSignataireDnae(): ?string{
+    public function getQualiteSignataireDnae(): ?string {
         return $this->qualiteSignataireDnae;
     }
 
@@ -701,7 +700,7 @@ class Etablissements2 {
      *
      * @return bool|null Returns the reduction mayotte.
      */
-    public function getReductionMayotte(): ?bool{
+    public function getReductionMayotte(): ?bool {
         return $this->reductionMayotte;
     }
 
@@ -710,17 +709,8 @@ class Etablissements2 {
      *
      * @return string|null Returns the remuneration expatries.
      */
-    public function getRemunerationExpatries(): ?string{
+    public function getRemunerationExpatries(): ?string {
         return $this->remunerationExpatries;
-    }
-
-    /**
-     * Get the smic m courant.
-     *
-     * @return bool|null Returns the smic m courant.
-     */
-    public function getSmicMCourant(): ?bool{
-        return $this->smicMCourant;
     }
 
     /**
@@ -728,8 +718,17 @@ class Etablissements2 {
      *
      * @return bool|null Returns the siret centralisateur.
      */
-    public function getSiretCentralisateur(): ?bool{
+    public function getSiretCentralisateur(): ?bool {
         return $this->siretCentralisateur;
+    }
+
+    /**
+     * Get the smic m courant.
+     *
+     * @return bool|null Returns the smic m courant.
+     */
+    public function getSmicMCourant(): ?bool {
+        return $this->smicMCourant;
     }
 
     /**
@@ -737,26 +736,8 @@ class Etablissements2 {
      *
      * @return bool|null Returns the societe interim.
      */
-    public function getSocieteInterim(): ?bool{
+    public function getSocieteInterim(): ?bool {
         return $this->societeInterim;
-    }
-
-    /**
-     * Get the tds19.
-     *
-     * @return string|null Returns the tds19.
-     */
-    public function getTds19(): ?string{
-        return $this->tds19;
-    }
-
-    /**
-     * Get the tepa moins20.
-     *
-     * @return bool|null Returns the tepa moins20.
-     */
-    public function getTepaMoins20(): ?bool{
-        return $this->tepaMoins20;
     }
 
     /**
@@ -764,7 +745,7 @@ class Etablissements2 {
      *
      * @return float|null Returns the taux compl heure.
      */
-    public function getTauxComplHeure(): ?float{
+    public function getTauxComplHeure(): ?float {
         return $this->tauxComplHeure;
     }
 
@@ -773,7 +754,7 @@ class Etablissements2 {
      *
      * @return float|null Returns the taux cotis oss et ope.
      */
-    public function getTauxCotisOssEtOpe(): ?float{
+    public function getTauxCotisOssEtOpe(): ?float {
         return $this->tauxCotisOssEtOpe;
     }
 
@@ -782,8 +763,17 @@ class Etablissements2 {
      *
      * @return float|null Returns the taux h comp.
      */
-    public function getTauxHComp(): ?float{
+    public function getTauxHComp(): ?float {
         return $this->tauxHComp;
+    }
+
+    /**
+     * Get the tds19.
+     *
+     * @return string|null Returns the tds19.
+     */
+    public function getTds19(): ?string {
+        return $this->tds19;
     }
 
     /**
@@ -791,8 +781,17 @@ class Etablissements2 {
      *
      * @return string|null Returns the tel signature dnae.
      */
-    public function getTelSignatureDnae(): ?string{
+    public function getTelSignatureDnae(): ?string {
         return $this->telSignatureDnae;
+    }
+
+    /**
+     * Get the tepa moins20.
+     *
+     * @return bool|null Returns the tepa moins20.
+     */
+    public function getTepaMoins20(): ?bool {
+        return $this->tepaMoins20;
     }
 
     /**
@@ -800,7 +799,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the type effectif ct.
      */
-    public function getTypeEffectifCt(): ?string{
+    public function getTypeEffectifCt(): ?string {
         return $this->typeEffectifCt;
     }
 
@@ -809,7 +808,7 @@ class Etablissements2 {
      *
      * @return string|null Returns the type maintien brut net.
      */
-    public function getTypeMaintienBrutNet(): ?string{
+    public function getTypeMaintienBrutNet(): ?string {
         return $this->typeMaintienBrutNet;
     }
 
@@ -1232,17 +1231,6 @@ class Etablissements2 {
     }
 
     /**
-     * Set the smic m courant.
-     *
-     * @param bool|null $smicMCourant The smic m courant.
-     * @return Etablissements2 Returns this Etablissements2.
-     */
-    public function setSmicMCourant(?bool $smicMCourant): Etablissements2 {
-        $this->smicMCourant = $smicMCourant;
-        return $this;
-    }
-
-    /**
      * Set the siret centralisateur.
      *
      * @param bool|null $siretCentralisateur The siret centralisateur.
@@ -1254,6 +1242,17 @@ class Etablissements2 {
     }
 
     /**
+     * Set the smic m courant.
+     *
+     * @param bool|null $smicMCourant The smic m courant.
+     * @return Etablissements2 Returns this Etablissements2.
+     */
+    public function setSmicMCourant(?bool $smicMCourant): Etablissements2 {
+        $this->smicMCourant = $smicMCourant;
+        return $this;
+    }
+
+    /**
      * Set the societe interim.
      *
      * @param bool|null $societeInterim The societe interim.
@@ -1261,28 +1260,6 @@ class Etablissements2 {
      */
     public function setSocieteInterim(?bool $societeInterim): Etablissements2 {
         $this->societeInterim = $societeInterim;
-        return $this;
-    }
-
-    /**
-     * Set the tds19.
-     *
-     * @param string|null $tds19 The tds19.
-     * @return Etablissements2 Returns this Etablissements2.
-     */
-    public function setTds19(?string $tds19): Etablissements2 {
-        $this->tds19 = $tds19;
-        return $this;
-    }
-
-    /**
-     * Set the tepa moins20.
-     *
-     * @param bool|null $tepaMoins20 The tepa moins20.
-     * @return Etablissements2 Returns this Etablissements2.
-     */
-    public function setTepaMoins20(?bool $tepaMoins20): Etablissements2 {
-        $this->tepaMoins20 = $tepaMoins20;
         return $this;
     }
 
@@ -1320,6 +1297,17 @@ class Etablissements2 {
     }
 
     /**
+     * Set the tds19.
+     *
+     * @param string|null $tds19 The tds19.
+     * @return Etablissements2 Returns this Etablissements2.
+     */
+    public function setTds19(?string $tds19): Etablissements2 {
+        $this->tds19 = $tds19;
+        return $this;
+    }
+
+    /**
      * Set the tel signature dnae.
      *
      * @param string|null $telSignatureDnae The tel signature dnae.
@@ -1327,6 +1315,17 @@ class Etablissements2 {
      */
     public function setTelSignatureDnae(?string $telSignatureDnae): Etablissements2 {
         $this->telSignatureDnae = $telSignatureDnae;
+        return $this;
+    }
+
+    /**
+     * Set the tepa moins20.
+     *
+     * @param bool|null $tepaMoins20 The tepa moins20.
+     * @return Etablissements2 Returns this Etablissements2.
+     */
+    public function setTepaMoins20(?bool $tepaMoins20): Etablissements2 {
+        $this->tepaMoins20 = $tepaMoins20;
         return $this;
     }
 

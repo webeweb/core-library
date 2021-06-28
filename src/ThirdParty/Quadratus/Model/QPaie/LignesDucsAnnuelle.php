@@ -210,7 +210,6 @@ class LignesDucsAnnuelle {
      */
     private $typeBaseUnique;
 
-
     /**
      * Constructor.
      */
@@ -223,7 +222,7 @@ class LignesDucsAnnuelle {
      *
      * @return int|null Returns the code at.
      */
-    public function getCodeAt(): ?int{
+    public function getCodeAt(): ?int {
         return $this->codeAt;
     }
 
@@ -232,7 +231,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -241,7 +240,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the code ducs.
      */
-    public function getCodeDucs(): ?string{
+    public function getCodeDucs(): ?string {
         return $this->codeDucs;
     }
 
@@ -250,7 +249,7 @@ class LignesDucsAnnuelle {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -259,7 +258,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the code insee.
      */
-    public function getCodeInsee(): ?string{
+    public function getCodeInsee(): ?string {
         return $this->codeInsee;
     }
 
@@ -268,7 +267,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -277,7 +276,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec(): ?string{
+    public function getConditionSpec(): ?string {
         return $this->conditionSpec;
     }
 
@@ -286,7 +285,7 @@ class LignesDucsAnnuelle {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -295,7 +294,7 @@ class LignesDucsAnnuelle {
      *
      * @return bool|null Returns the exclure fusion.
      */
-    public function getExclureFusion(): ?bool{
+    public function getExclureFusion(): ?bool {
         return $this->exclureFusion;
     }
 
@@ -304,7 +303,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the id institution.
      */
-    public function getIdInstitution(): ?string{
+    public function getIdInstitution(): ?string {
         return $this->idInstitution;
     }
 
@@ -313,7 +312,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -322,7 +321,7 @@ class LignesDucsAnnuelle {
      *
      * @return bool|null Returns the is taux.
      */
-    public function getIsTaux(): ?bool{
+    public function getIsTaux(): ?bool {
         return $this->isTaux;
     }
 
@@ -331,7 +330,7 @@ class LignesDucsAnnuelle {
      *
      * @return bool|null Returns the marque.
      */
-    public function getMarque(): ?bool{
+    public function getMarque(): ?bool {
         return $this->marque;
     }
 
@@ -340,7 +339,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -349,7 +348,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the mt patronal.
      */
-    public function getMtPatronal(): ?float{
+    public function getMtPatronal(): ?float {
         return $this->mtPatronal;
     }
 
@@ -358,7 +357,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the mt salarial.
      */
-    public function getMtSalarial(): ?float{
+    public function getMtSalarial(): ?float {
         return $this->mtSalarial;
     }
 
@@ -367,7 +366,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the nb cot.
      */
-    public function getNbCot(): ?float{
+    public function getNbCot(): ?float {
         return $this->nbCot;
     }
 
@@ -376,7 +375,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the nb patronal.
      */
-    public function getNbPatronal(): ?float{
+    public function getNbPatronal(): ?float {
         return $this->nbPatronal;
     }
 
@@ -385,7 +384,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the nb salarial.
      */
-    public function getNbSalarial(): ?float{
+    public function getNbSalarial(): ?float {
         return $this->nbSalarial;
     }
 
@@ -394,7 +393,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the organisme.
      */
-    public function getOrganisme(): ?string{
+    public function getOrganisme(): ?string {
         return $this->organisme;
     }
 
@@ -403,7 +402,7 @@ class LignesDucsAnnuelle {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla(): ?DateTime{
+    public function getPeriodeDecla(): ?DateTime {
         return $this->periodeDecla;
     }
 
@@ -412,7 +411,7 @@ class LignesDucsAnnuelle {
      *
      * @return string|null Returns the qualifiant cotis.
      */
-    public function getQualifiantCotis(): ?string{
+    public function getQualifiantCotis(): ?string {
         return $this->qualifiantCotis;
     }
 
@@ -421,7 +420,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the somme base.
      */
-    public function getSommeBase(): ?float{
+    public function getSommeBase(): ?float {
         return $this->sommeBase;
     }
 
@@ -430,7 +429,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the taux at.
      */
-    public function getTauxAt(): ?float{
+    public function getTauxAt(): ?float {
         return $this->tauxAt;
     }
 
@@ -439,7 +438,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the taux patronal.
      */
-    public function getTauxPatronal(): ?float{
+    public function getTauxPatronal(): ?float {
         return $this->tauxPatronal;
     }
 
@@ -448,7 +447,7 @@ class LignesDucsAnnuelle {
      *
      * @return float|null Returns the taux salarial.
      */
-    public function getTauxSalarial(): ?float{
+    public function getTauxSalarial(): ?float {
         return $this->tauxSalarial;
     }
 
@@ -457,7 +456,7 @@ class LignesDucsAnnuelle {
      *
      * @return bool|null Returns the type base unique.
      */
-    public function getTypeBaseUnique(): ?bool{
+    public function getTypeBaseUnique(): ?bool {
         return $this->typeBaseUnique;
     }
 

@@ -40,7 +40,6 @@ class ConstPrimes {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class ConstPrimes {
      *
      * @return string|null Returns the code prime q paie.
      */
-    public function getCodePrimeQPaie(): ?string{
+    public function getCodePrimeQPaie(): ?string {
         return $this->codePrimeQPaie;
     }
 
@@ -62,7 +61,7 @@ class ConstPrimes {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -71,7 +70,7 @@ class ConstPrimes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

@@ -40,7 +40,6 @@ class Comptes3 {
      */
     private $pourcentRepart;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class Comptes3 {
      *
      * @return string|null Returns the code section.
      */
-    public function getCodeSection(): ?string{
+    public function getCodeSection(): ?string {
         return $this->codeSection;
     }
 
@@ -62,7 +61,7 @@ class Comptes3 {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -71,7 +70,7 @@ class Comptes3 {
      *
      * @return float|null Returns the pourcent repart.
      */
-    public function getPourcentRepart(): ?float{
+    public function getPourcentRepart(): ?float {
         return $this->pourcentRepart;
     }
 

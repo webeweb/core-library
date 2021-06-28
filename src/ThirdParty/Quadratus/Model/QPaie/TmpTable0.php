@@ -168,7 +168,6 @@ class TmpTable0 {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -181,7 +180,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the base.
      */
-    public function getBase(): ?float{
+    public function getBase(): ?float {
         return $this->base;
     }
 
@@ -190,7 +189,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the base tot.
      */
-    public function getBaseTot(): ?float{
+    public function getBaseTot(): ?float {
         return $this->baseTot;
     }
 
@@ -199,7 +198,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the charge pat.
      */
-    public function getChargePat(): ?float{
+    public function getChargePat(): ?float {
         return $this->chargePat;
     }
 
@@ -208,7 +207,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the charge pat tot.
      */
-    public function getChargePatTot(): ?float{
+    public function getChargePatTot(): ?float {
         return $this->chargePatTot;
     }
 
@@ -217,7 +216,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the charge sal.
      */
-    public function getChargeSal(): ?float{
+    public function getChargeSal(): ?float {
         return $this->chargeSal;
     }
 
@@ -226,7 +225,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the charge sal tot.
      */
-    public function getChargeSalTot(): ?float{
+    public function getChargeSalTot(): ?float {
         return $this->chargeSalTot;
     }
 
@@ -235,7 +234,7 @@ class TmpTable0 {
      *
      * @return string|null Returns the classe.
      */
-    public function getClasse(): ?string{
+    public function getClasse(): ?string {
         return $this->classe;
     }
 
@@ -244,7 +243,7 @@ class TmpTable0 {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -253,7 +252,7 @@ class TmpTable0 {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -262,7 +261,7 @@ class TmpTable0 {
      *
      * @return int|null Returns the etablissement.
      */
-    public function getEtablissement(): ?int{
+    public function getEtablissement(): ?int {
         return $this->etablissement;
     }
 
@@ -271,7 +270,7 @@ class TmpTable0 {
      *
      * @return bool|null Returns the imputation.
      */
-    public function getImputation(): ?bool{
+    public function getImputation(): ?bool {
         return $this->imputation;
     }
 
@@ -280,7 +279,7 @@ class TmpTable0 {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -289,7 +288,7 @@ class TmpTable0 {
      *
      * @return bool|null Returns the inverse.
      */
-    public function getInverse(): ?bool{
+    public function getInverse(): ?bool {
         return $this->inverse;
     }
 
@@ -298,7 +297,7 @@ class TmpTable0 {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -307,7 +306,7 @@ class TmpTable0 {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -316,7 +315,7 @@ class TmpTable0 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -325,7 +324,7 @@ class TmpTable0 {
      *
      * @return int|null Returns the qui.
      */
-    public function getQui(): ?int{
+    public function getQui(): ?int {
         return $this->qui;
     }
 
@@ -334,7 +333,7 @@ class TmpTable0 {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
     }
 
@@ -343,7 +342,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the taux pat.
      */
-    public function getTauxPat(): ?float{
+    public function getTauxPat(): ?float {
         return $this->tauxPat;
     }
 
@@ -352,7 +351,7 @@ class TmpTable0 {
      *
      * @return float|null Returns the taux sal.
      */
-    public function getTauxSal(): ?float{
+    public function getTauxSal(): ?float {
         return $this->tauxSal;
     }
 
@@ -361,7 +360,7 @@ class TmpTable0 {
      *
      * @return int|null Returns the type.
      */
-    public function getType(): ?int{
+    public function getType(): ?int {
         return $this->type;
     }
 

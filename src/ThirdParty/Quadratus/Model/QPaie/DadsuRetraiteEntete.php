@@ -61,7 +61,6 @@ class DadsuRetraiteEntete {
      */
     private $telContact;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class DadsuRetraiteEntete {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -83,7 +82,7 @@ class DadsuRetraiteEntete {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -92,7 +91,7 @@ class DadsuRetraiteEntete {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -101,7 +100,7 @@ class DadsuRetraiteEntete {
      *
      * @return string|null Returns the mail contact.
      */
-    public function getMailContact(): ?string{
+    public function getMailContact(): ?string {
         return $this->mailContact;
     }
 
@@ -110,7 +109,7 @@ class DadsuRetraiteEntete {
      *
      * @return string|null Returns the nom contact.
      */
-    public function getNomContact(): ?string{
+    public function getNomContact(): ?string {
         return $this->nomContact;
     }
 
@@ -119,7 +118,7 @@ class DadsuRetraiteEntete {
      *
      * @return string|null Returns the tel contact.
      */
-    public function getTelContact(): ?string{
+    public function getTelContact(): ?string {
         return $this->telContact;
     }
 

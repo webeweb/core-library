@@ -841,18 +841,18 @@ class Dossier3 {
     private $repDosRev;
 
     /**
-     * Rep es.
-     *
-     * @var bool|null
-     */
-    private $repEs;
-
-    /**
      * Rep emprunts.
      *
      * @var bool|null
      */
     private $repEmprunts;
+
+    /**
+     * Rep es.
+     *
+     * @var bool|null
+     */
+    private $repEs;
 
     /**
      * Rep immo.
@@ -980,7 +980,6 @@ class Dossier3 {
      */
     private $typeTransfertTiersF;
 
-
     /**
      * Constructor.
      */
@@ -993,7 +992,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the achat vente automate.
      */
-    public function getAchatVenteAutomate(): ?bool{
+    public function getAchatVenteAutomate(): ?bool {
         return $this->achatVenteAutomate;
     }
 
@@ -1002,7 +1001,7 @@ class Dossier3 {
      *
      * @return string|null Returns the achat vente local tva.
      */
-    public function getAchatVenteLocalTva(): ?string{
+    public function getAchatVenteLocalTva(): ?string {
         return $this->achatVenteLocalTva;
     }
 
@@ -1011,7 +1010,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the achat vente stop tva.
      */
-    public function getAchatVenteStopTva(): ?bool{
+    public function getAchatVenteStopTva(): ?bool {
         return $this->achatVenteStopTva;
     }
 
@@ -1020,7 +1019,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the bons a payer.
      */
-    public function getBonsAPayer(): ?bool{
+    public function getBonsAPayer(): ?bool {
         return $this->bonsAPayer;
     }
 
@@ -1029,7 +1028,7 @@ class Dossier3 {
      *
      * @return string|null Returns the code ics.
      */
-    public function getCodeIcs(): ?string{
+    public function getCodeIcs(): ?string {
         return $this->codeIcs;
     }
 
@@ -1038,7 +1037,7 @@ class Dossier3 {
      *
      * @return string|null Returns the code journal revision.
      */
-    public function getCodeJournalRevision(): ?string{
+    public function getCodeJournalRevision(): ?string {
         return $this->codeJournalRevision;
     }
 
@@ -1047,7 +1046,7 @@ class Dossier3 {
      *
      * @return string|null Returns the code journal transf immo.
      */
-    public function getCodeJournalTransfImmo(): ?string{
+    public function getCodeJournalTransfImmo(): ?string {
         return $this->codeJournalTransfImmo;
     }
 
@@ -1056,7 +1055,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the comp cli frs.
      */
-    public function getCompCliFrs(): ?bool{
+    public function getCompCliFrs(): ?bool {
         return $this->compCliFrs;
     }
 
@@ -1065,7 +1064,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte debut assurance.
      */
-    public function getCompteDebutAssurance(): ?string{
+    public function getCompteDebutAssurance(): ?string {
         return $this->compteDebutAssurance;
     }
 
@@ -1074,7 +1073,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte debut bail.
      */
-    public function getCompteDebutBail(): ?string{
+    public function getCompteDebutBail(): ?string {
         return $this->compteDebutBail;
     }
 
@@ -1083,7 +1082,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte debut car.
      */
-    public function getCompteDebutCar(): ?string{
+    public function getCompteDebutCar(): ?string {
         return $this->compteDebutCar;
     }
 
@@ -1092,7 +1091,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte debut subventions.
      */
-    public function getCompteDebutSubventions(): ?string{
+    public function getCompteDebutSubventions(): ?string {
         return $this->compteDebutSubventions;
     }
 
@@ -1101,7 +1100,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte fin assurance.
      */
-    public function getCompteFinAssurance(): ?string{
+    public function getCompteFinAssurance(): ?string {
         return $this->compteFinAssurance;
     }
 
@@ -1110,7 +1109,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte fin bail.
      */
-    public function getCompteFinBail(): ?string{
+    public function getCompteFinBail(): ?string {
         return $this->compteFinBail;
     }
 
@@ -1119,7 +1118,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte fin car.
      */
-    public function getCompteFinCar(): ?string{
+    public function getCompteFinCar(): ?string {
         return $this->compteFinCar;
     }
 
@@ -1128,7 +1127,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte fin subventions.
      */
-    public function getCompteFinSubventions(): ?string{
+    public function getCompteFinSubventions(): ?string {
         return $this->compteFinSubventions;
     }
 
@@ -1137,7 +1136,7 @@ class Dossier3 {
      *
      * @return string|null Returns the compte tvacar.
      */
-    public function getCompteTvacar(): ?string{
+    public function getCompteTvacar(): ?string {
         return $this->compteTvacar;
     }
 
@@ -1146,7 +1145,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the conserve mois rb.
      */
-    public function getConserveMoisRb(): ?bool{
+    public function getConserveMoisRb(): ?bool {
         return $this->conserveMoisRb;
     }
 
@@ -1155,7 +1154,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the controle edition.
      */
-    public function getControleEdition(): ?bool{
+    public function getControleEdition(): ?bool {
         return $this->controleEdition;
     }
 
@@ -1164,7 +1163,7 @@ class Dossier3 {
      *
      * @return string|null Returns the controle exist ecr.
      */
-    public function getControleExistEcr(): ?string{
+    public function getControleExistEcr(): ?string {
         return $this->controleExistEcr;
     }
 
@@ -1173,7 +1172,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the controle ref tire.
      */
-    public function getControleRefTire(): ?bool{
+    public function getControleRefTire(): ?bool {
         return $this->controleRefTire;
     }
 
@@ -1182,7 +1181,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the cpt transf immo communs.
      */
-    public function getCptTransfImmoCommuns(): ?bool{
+    public function getCptTransfImmoCommuns(): ?bool {
         return $this->cptTransfImmoCommuns;
     }
 
@@ -1191,7 +1190,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision(): ?DateTime{
+    public function getDateRevision(): ?DateTime {
         return $this->dateRevision;
     }
 
@@ -1200,7 +1199,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transf cb.
      */
-    public function getDateTransfCb(): ?DateTime{
+    public function getDateTransfCb(): ?DateTime {
         return $this->dateTransfCb;
     }
 
@@ -1209,7 +1208,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transf cli douteux.
      */
-    public function getDateTransfCliDouteux(): ?DateTime{
+    public function getDateTransfCliDouteux(): ?DateTime {
         return $this->dateTransfCliDouteux;
     }
 
@@ -1218,7 +1217,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transf int courus.
      */
-    public function getDateTransfIntCourus(): ?DateTime{
+    public function getDateTransfIntCourus(): ?DateTime {
         return $this->dateTransfIntCourus;
     }
 
@@ -1227,7 +1226,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transf int extournes.
      */
-    public function getDateTransfIntExtournes(): ?DateTime{
+    public function getDateTransfIntExtournes(): ?DateTime {
         return $this->dateTransfIntExtournes;
     }
 
@@ -1236,7 +1235,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transf lf.
      */
-    public function getDateTransfLf(): ?DateTime{
+    public function getDateTransfLf(): ?DateTime {
         return $this->dateTransfLf;
     }
 
@@ -1245,7 +1244,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transf prov cp.
      */
-    public function getDateTransfProvCp(): ?DateTime{
+    public function getDateTransfProvCp(): ?DateTime {
         return $this->dateTransfProvCp;
     }
 
@@ -1254,7 +1253,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transfert ech cb.
      */
-    public function getDateTransfertEchCb(): ?DateTime{
+    public function getDateTransfertEchCb(): ?DateTime {
         return $this->dateTransfertEchCb;
     }
 
@@ -1263,7 +1262,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transfert ech lf.
      */
-    public function getDateTransfertEchLf(): ?DateTime{
+    public function getDateTransfertEchLf(): ?DateTime {
         return $this->dateTransfertEchLf;
     }
 
@@ -1272,7 +1271,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the date transfert echeance.
      */
-    public function getDateTransfertEcheance(): ?DateTime{
+    public function getDateTransfertEcheance(): ?DateTime {
         return $this->dateTransfertEcheance;
     }
 
@@ -1281,7 +1280,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the debut calcul immo.
      */
-    public function getDebutCalculImmo(): ?DateTime{
+    public function getDebutCalculImmo(): ?DateTime {
         return $this->debutCalculImmo;
     }
 
@@ -1290,7 +1289,7 @@ class Dossier3 {
      *
      * @return string|null Returns the delai rejet effet.
      */
-    public function getDelaiRejetEffet(): ?string{
+    public function getDelaiRejetEffet(): ?string {
         return $this->delaiRejetEffet;
     }
 
@@ -1299,7 +1298,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the detail cb.
      */
-    public function getDetailCb(): ?bool{
+    public function getDetailCb(): ?bool {
         return $this->detailCb;
     }
 
@@ -1308,7 +1307,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the detail immo.
      */
-    public function getDetailImmo(): ?bool{
+    public function getDetailImmo(): ?bool {
         return $this->detailImmo;
     }
 
@@ -1317,7 +1316,7 @@ class Dossier3 {
      *
      * @return string|null Returns the dot franc centime.
      */
-    public function getDotFrancCentime(): ?string{
+    public function getDotFrancCentime(): ?string {
         return $this->dotFrancCentime;
     }
 
@@ -1326,7 +1325,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the edi400.
      */
-    public function getEdi400(): ?bool{
+    public function getEdi400(): ?bool {
         return $this->edi400;
     }
 
@@ -1335,7 +1334,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the edit ana contrepasse.
      */
-    public function getEditAnaContrepasse(): ?bool{
+    public function getEditAnaContrepasse(): ?bool {
         return $this->editAnaContrepasse;
     }
 
@@ -1344,7 +1343,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the fin calcul immo.
      */
-    public function getFinCalculImmo(): ?DateTime{
+    public function getFinCalculImmo(): ?DateTime {
         return $this->finCalculImmo;
     }
 
@@ -1353,7 +1352,7 @@ class Dossier3 {
      *
      * @return int|null Returns the folio revision.
      */
-    public function getFolioRevision(): ?int{
+    public function getFolioRevision(): ?int {
         return $this->folioRevision;
     }
 
@@ -1362,7 +1361,7 @@ class Dossier3 {
      *
      * @return int|null Returns the folio transf immo.
      */
-    public function getFolioTransfImmo(): ?int{
+    public function getFolioTransfImmo(): ?int {
         return $this->folioTransfImmo;
     }
 
@@ -1371,7 +1370,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the gestion pmag client.
      */
-    public function getGestionPmagClient(): ?bool{
+    public function getGestionPmagClient(): ?bool {
         return $this->gestionPmagClient;
     }
 
@@ -1380,7 +1379,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the gestion traite papier.
      */
-    public function getGestionTraitePapier(): ?bool{
+    public function getGestionTraitePapier(): ?bool {
         return $this->gestionTraitePapier;
     }
 
@@ -1389,7 +1388,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the gestion virement frn.
      */
-    public function getGestionVirementFrn(): ?bool{
+    public function getGestionVirementFrn(): ?bool {
         return $this->gestionVirementFrn;
     }
 
@@ -1398,7 +1397,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo detail lignes.
      */
-    public function getImmoDetailLignes(): ?bool{
+    public function getImmoDetailLignes(): ?bool {
         return $this->immoDetailLignes;
     }
 
@@ -1407,7 +1406,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo detail par cpt.
      */
-    public function getImmoDetailParCpt(): ?bool{
+    public function getImmoDetailParCpt(): ?bool {
         return $this->immoDetailParCpt;
     }
 
@@ -1416,7 +1415,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo edit ensemble.
      */
-    public function getImmoEditEnsemble(): ?bool{
+    public function getImmoEditEnsemble(): ?bool {
         return $this->immoEditEnsemble;
     }
 
@@ -1425,7 +1424,7 @@ class Dossier3 {
      *
      * @return int|null Returns the immo jours par an.
      */
-    public function getImmoJoursParAn(): ?int{
+    public function getImmoJoursParAn(): ?int {
         return $this->immoJoursParAn;
     }
 
@@ -1434,7 +1433,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo ss tot immo.
      */
-    public function getImmoSsTotImmo(): ?bool{
+    public function getImmoSsTotImmo(): ?bool {
         return $this->immoSsTotImmo;
     }
 
@@ -1443,7 +1442,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo tot par compte.
      */
-    public function getImmoTotParCompte(): ?bool{
+    public function getImmoTotParCompte(): ?bool {
         return $this->immoTotParCompte;
     }
 
@@ -1452,7 +1451,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo transfert forfait vers reel.
      */
-    public function getImmoTransfertForfaitVersReel(): ?bool{
+    public function getImmoTransfertForfaitVersReel(): ?bool {
         return $this->immoTransfertForfaitVersReel;
     }
 
@@ -1461,7 +1460,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo tri analytique.
      */
-    public function getImmoTriAnalytique(): ?bool{
+    public function getImmoTriAnalytique(): ?bool {
         return $this->immoTriAnalytique;
     }
 
@@ -1470,7 +1469,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo tri par date.
      */
-    public function getImmoTriParDate(): ?bool{
+    public function getImmoTriParDate(): ?bool {
         return $this->immoTriParDate;
     }
 
@@ -1479,7 +1478,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the immo tri par service.
      */
-    public function getImmoTriParService(): ?bool{
+    public function getImmoTriParService(): ?bool {
         return $this->immoTriParService;
     }
 
@@ -1488,7 +1487,7 @@ class Dossier3 {
      *
      * @return string|null Returns the immo type liasse.
      */
-    public function getImmoTypeLiasse(): ?string{
+    public function getImmoTypeLiasse(): ?string {
         return $this->immoTypeLiasse;
     }
 
@@ -1497,7 +1496,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the is client exp.
      */
-    public function getIsClientExp(): ?bool{
+    public function getIsClientExp(): ?bool {
         return $this->isClientExp;
     }
 
@@ -1506,7 +1505,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the lettre pvaut bo.
      */
-    public function getLettrePvautBo(): ?bool{
+    public function getLettrePvautBo(): ?bool {
         return $this->lettrePvautBo;
     }
 
@@ -1515,7 +1514,7 @@ class Dossier3 {
      *
      * @return string|null Returns the lib variable1.
      */
-    public function getLibVariable1(): ?string{
+    public function getLibVariable1(): ?string {
         return $this->libVariable1;
     }
 
@@ -1524,7 +1523,7 @@ class Dossier3 {
      *
      * @return string|null Returns the lib variable2.
      */
-    public function getLibVariable2(): ?string{
+    public function getLibVariable2(): ?string {
         return $this->libVariable2;
     }
 
@@ -1533,7 +1532,7 @@ class Dossier3 {
      *
      * @return string|null Returns the lib variable3.
      */
-    public function getLibVariable3(): ?string{
+    public function getLibVariable3(): ?string {
         return $this->libVariable3;
     }
 
@@ -1542,7 +1541,7 @@ class Dossier3 {
      *
      * @return string|null Returns the mise en portefeuille bic f.
      */
-    public function getMiseEnPortefeuilleBicF(): ?string{
+    public function getMiseEnPortefeuilleBicF(): ?string {
         return $this->miseEnPortefeuilleBicF;
     }
 
@@ -1551,7 +1550,7 @@ class Dossier3 {
      *
      * @return string|null Returns the mise en portefeuille dom f.
      */
-    public function getMiseEnPortefeuilleDomF(): ?string{
+    public function getMiseEnPortefeuilleDomF(): ?string {
         return $this->miseEnPortefeuilleDomF;
     }
 
@@ -1560,7 +1559,7 @@ class Dossier3 {
      *
      * @return string|null Returns the mise en portefeuille iban f.
      */
-    public function getMiseEnPortefeuilleIbanF(): ?string{
+    public function getMiseEnPortefeuilleIbanF(): ?string {
         return $this->miseEnPortefeuilleIbanF;
     }
 
@@ -1569,7 +1568,7 @@ class Dossier3 {
      *
      * @return string|null Returns the mise en portefeuille rib f.
      */
-    public function getMiseEnPortefeuilleRibF(): ?string{
+    public function getMiseEnPortefeuilleRibF(): ?string {
         return $this->miseEnPortefeuilleRibF;
     }
 
@@ -1578,7 +1577,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the multi ech client.
      */
-    public function getMultiEchClient(): ?bool{
+    public function getMultiEchClient(): ?bool {
         return $this->multiEchClient;
     }
 
@@ -1587,7 +1586,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the multi ech frn.
      */
-    public function getMultiEchFrn(): ?bool{
+    public function getMultiEchFrn(): ?bool {
         return $this->multiEchFrn;
     }
 
@@ -1596,7 +1595,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the multi ech par code lib auto.
      */
-    public function getMultiEchParCodeLibAuto(): ?bool{
+    public function getMultiEchParCodeLibAuto(): ?bool {
         return $this->multiEchParCodeLibAuto;
     }
 
@@ -1605,7 +1604,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the ne plus afficher.
      */
-    public function getNePlusAfficher(): ?bool{
+    public function getNePlusAfficher(): ?bool {
         return $this->nePlusAfficher;
     }
 
@@ -1614,7 +1613,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri analytique.
      */
-    public function getNivTriAnalytique(): ?string{
+    public function getNivTriAnalytique(): ?string {
         return $this->nivTriAnalytique;
     }
 
@@ -1623,7 +1622,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri bureau.
      */
-    public function getNivTriBureau(): ?string{
+    public function getNivTriBureau(): ?string {
         return $this->nivTriBureau;
     }
 
@@ -1632,7 +1631,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri famille.
      */
-    public function getNivTriFamille(): ?string{
+    public function getNivTriFamille(): ?string {
         return $this->nivTriFamille;
     }
 
@@ -1641,7 +1640,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri nat.
      */
-    public function getNivTriNat(): ?string{
+    public function getNivTriNat(): ?string {
         return $this->nivTriNat;
     }
 
@@ -1650,7 +1649,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri service.
      */
-    public function getNivTriService(): ?string{
+    public function getNivTriService(): ?string {
         return $this->nivTriService;
     }
 
@@ -1659,7 +1658,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri site.
      */
-    public function getNivTriSite(): ?string{
+    public function getNivTriSite(): ?string {
         return $this->nivTriSite;
     }
 
@@ -1668,7 +1667,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri zl1.
      */
-    public function getNivTriZl1(): ?string{
+    public function getNivTriZl1(): ?string {
         return $this->nivTriZl1;
     }
 
@@ -1677,7 +1676,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri zl2.
      */
-    public function getNivTriZl2(): ?string{
+    public function getNivTriZl2(): ?string {
         return $this->nivTriZl2;
     }
 
@@ -1686,7 +1685,7 @@ class Dossier3 {
      *
      * @return string|null Returns the niv tri zl3.
      */
-    public function getNivTriZl3(): ?string{
+    public function getNivTriZl3(): ?string {
         return $this->nivTriZl3;
     }
 
@@ -1695,7 +1694,7 @@ class Dossier3 {
      *
      * @return string|null Returns the nom lettre p.
      */
-    public function getNomLettreP(): ?string{
+    public function getNomLettreP(): ?string {
         return $this->nomLettreP;
     }
 
@@ -1704,7 +1703,7 @@ class Dossier3 {
      *
      * @return string|null Returns the nom lettre pc.
      */
-    public function getNomLettrePc(): ?string{
+    public function getNomLettrePc(): ?string {
         return $this->nomLettrePc;
     }
 
@@ -1713,7 +1712,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num chrono bo.
      */
-    public function getNumChronoBo(): ?int{
+    public function getNumChronoBo(): ?int {
         return $this->numChronoBo;
     }
 
@@ -1722,7 +1721,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot cli douteux.
      */
-    public function getNumLotCliDouteux(): ?int{
+    public function getNumLotCliDouteux(): ?int {
         return $this->numLotCliDouteux;
     }
 
@@ -1731,7 +1730,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit trans assurance.
      */
-    public function getNumLotEcritTransAssurance(): ?int{
+    public function getNumLotEcritTransAssurance(): ?int {
         return $this->numLotEcritTransAssurance;
     }
 
@@ -1740,7 +1739,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit trans baux.
      */
-    public function getNumLotEcritTransBaux(): ?int{
+    public function getNumLotEcritTransBaux(): ?int {
         return $this->numLotEcritTransBaux;
     }
 
@@ -1749,7 +1748,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit trans car.
      */
-    public function getNumLotEcritTransCar(): ?int{
+    public function getNumLotEcritTransCar(): ?int {
         return $this->numLotEcritTransCar;
     }
 
@@ -1758,7 +1757,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit trans periodicite.
      */
-    public function getNumLotEcritTransPeriodicite(): ?int{
+    public function getNumLotEcritTransPeriodicite(): ?int {
         return $this->numLotEcritTransPeriodicite;
     }
 
@@ -1767,7 +1766,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit trans subventions.
      */
-    public function getNumLotEcritTransSubventions(): ?int{
+    public function getNumLotEcritTransSubventions(): ?int {
         return $this->numLotEcritTransSubventions;
     }
 
@@ -1776,7 +1775,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit transf cb.
      */
-    public function getNumLotEcritTransfCb(): ?int{
+    public function getNumLotEcritTransfCb(): ?int {
         return $this->numLotEcritTransfCb;
     }
 
@@ -1785,7 +1784,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit transf immo.
      */
-    public function getNumLotEcritTransfImmo(): ?int{
+    public function getNumLotEcritTransfImmo(): ?int {
         return $this->numLotEcritTransfImmo;
     }
 
@@ -1794,7 +1793,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot ecrit transf lf.
      */
-    public function getNumLotEcritTransfLf(): ?int{
+    public function getNumLotEcritTransfLf(): ?int {
         return $this->numLotEcritTransfLf;
     }
 
@@ -1803,7 +1802,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot int courus.
      */
-    public function getNumLotIntCourus(): ?int{
+    public function getNumLotIntCourus(): ?int {
         return $this->numLotIntCourus;
     }
 
@@ -1812,7 +1811,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot int extournes.
      */
-    public function getNumLotIntExtournes(): ?int{
+    public function getNumLotIntExtournes(): ?int {
         return $this->numLotIntExtournes;
     }
 
@@ -1821,7 +1820,7 @@ class Dossier3 {
      *
      * @return int|null Returns the num lot prov cp.
      */
-    public function getNumLotProvCp(): ?int{
+    public function getNumLotProvCp(): ?int {
         return $this->numLotProvCp;
     }
 
@@ -1830,7 +1829,7 @@ class Dossier3 {
      *
      * @return string|null Returns the option import mvt rb.
      */
-    public function getOptionImportMvtRb(): ?string{
+    public function getOptionImportMvtRb(): ?string {
         return $this->optionImportMvtRb;
     }
 
@@ -1839,7 +1838,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the periode revision.
      */
-    public function getPeriodeRevision(): ?DateTime{
+    public function getPeriodeRevision(): ?DateTime {
         return $this->periodeRevision;
     }
 
@@ -1848,7 +1847,7 @@ class Dossier3 {
      *
      * @return DateTime|null Returns the periode transf immo.
      */
-    public function getPeriodeTransfImmo(): ?DateTime{
+    public function getPeriodeTransfImmo(): ?DateTime {
         return $this->periodeTransfImmo;
     }
 
@@ -1857,7 +1856,7 @@ class Dossier3 {
      *
      * @return int|null Returns the periodicite utiliser libelle.
      */
-    public function getPeriodiciteUtiliserLibelle(): ?int{
+    public function getPeriodiciteUtiliserLibelle(): ?int {
         return $this->periodiciteUtiliserLibelle;
     }
 
@@ -1866,7 +1865,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain lot lcr.
      */
-    public function getProchainLotLcr(): ?int{
+    public function getProchainLotLcr(): ?int {
         return $this->prochainLotLcr;
     }
 
@@ -1875,7 +1874,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain lot lettre p.
      */
-    public function getProchainLotLettreP(): ?int{
+    public function getProchainLotLettreP(): ?int {
         return $this->prochainLotLettreP;
     }
 
@@ -1884,7 +1883,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain lot traite.
      */
-    public function getProchainLotTraite(): ?int{
+    public function getProchainLotTraite(): ?int {
         return $this->prochainLotTraite;
     }
 
@@ -1893,7 +1892,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain num cb.
      */
-    public function getProchainNumCb(): ?int{
+    public function getProchainNumCb(): ?int {
         return $this->prochainNumCb;
     }
 
@@ -1902,7 +1901,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain num immo.
      */
-    public function getProchainNumImmo(): ?int{
+    public function getProchainNumImmo(): ?int {
         return $this->prochainNumImmo;
     }
 
@@ -1911,7 +1910,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain num lf.
      */
-    public function getProchainNumLf(): ?int{
+    public function getProchainNumLf(): ?int {
         return $this->prochainNumLf;
     }
 
@@ -1920,7 +1919,7 @@ class Dossier3 {
      *
      * @return int|null Returns the prochain num pj.
      */
-    public function getProchainNumPj(): ?int{
+    public function getProchainNumPj(): ?int {
         return $this->prochainNumPj;
     }
 
@@ -1929,7 +1928,7 @@ class Dossier3 {
      *
      * @return string|null Returns the racine import mvt rb.
      */
-    public function getRacineImportMvtRb(): ?string{
+    public function getRacineImportMvtRb(): ?string {
         return $this->racineImportMvtRb;
     }
 
@@ -1938,7 +1937,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rebut vaut cession.
      */
-    public function getRebutVautCession(): ?bool{
+    public function getRebutVautCession(): ?bool {
         return $this->rebutVautCession;
     }
 
@@ -1947,7 +1946,7 @@ class Dossier3 {
      *
      * @return int|null Returns the ref remise lcr.
      */
-    public function getRefRemiseLcr(): ?int{
+    public function getRefRemiseLcr(): ?int {
         return $this->refRemiseLcr;
     }
 
@@ -1956,7 +1955,7 @@ class Dossier3 {
      *
      * @return int|null Returns the ref virement frn.
      */
-    public function getRefVirementFrn(): ?int{
+    public function getRefVirementFrn(): ?int {
         return $this->refVirementFrn;
     }
 
@@ -1965,7 +1964,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the regroup four cpt ech.
      */
-    public function getRegroupFourCptEch(): ?bool{
+    public function getRegroupFourCptEch(): ?bool {
         return $this->regroupFourCptEch;
     }
 
@@ -1974,7 +1973,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep ass.
      */
-    public function getRepAss(): ?bool{
+    public function getRepAss(): ?bool {
         return $this->repAss;
     }
 
@@ -1983,7 +1982,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep budget.
      */
-    public function getRepBudget(): ?bool{
+    public function getRepBudget(): ?bool {
         return $this->repBudget;
     }
 
@@ -1992,7 +1991,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep car.
      */
-    public function getRepCar(): ?bool{
+    public function getRepCar(): ?bool {
         return $this->repCar;
     }
 
@@ -2001,7 +2000,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep cb.
      */
-    public function getRepCb(): ?bool{
+    public function getRepCb(): ?bool {
         return $this->repCb;
     }
 
@@ -2010,7 +2009,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep cl.
      */
-    public function getRepCl(): ?bool{
+    public function getRepCl(): ?bool {
         return $this->repCl;
     }
 
@@ -2019,7 +2018,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep compta gen.
      */
-    public function getRepComptaGen(): ?bool{
+    public function getRepComptaGen(): ?bool {
         return $this->repComptaGen;
     }
 
@@ -2028,7 +2027,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep dec tva.
      */
-    public function getRepDecTva(): ?bool{
+    public function getRepDecTva(): ?bool {
         return $this->repDecTva;
     }
 
@@ -2037,17 +2036,8 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep dos rev.
      */
-    public function getRepDosRev(): ?bool{
+    public function getRepDosRev(): ?bool {
         return $this->repDosRev;
-    }
-
-    /**
-     * Get the rep es.
-     *
-     * @return bool|null Returns the rep es.
-     */
-    public function getRepEs(): ?bool{
-        return $this->repEs;
     }
 
     /**
@@ -2055,8 +2045,17 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep emprunts.
      */
-    public function getRepEmprunts(): ?bool{
+    public function getRepEmprunts(): ?bool {
         return $this->repEmprunts;
+    }
+
+    /**
+     * Get the rep es.
+     *
+     * @return bool|null Returns the rep es.
+     */
+    public function getRepEs(): ?bool {
+        return $this->repEs;
     }
 
     /**
@@ -2064,7 +2063,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep immo.
      */
-    public function getRepImmo(): ?bool{
+    public function getRepImmo(): ?bool {
         return $this->repImmo;
     }
 
@@ -2073,7 +2072,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep loc fi.
      */
-    public function getRepLocFi(): ?bool{
+    public function getRepLocFi(): ?bool {
         return $this->repLocFi;
     }
 
@@ -2082,7 +2081,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep partielle.
      */
-    public function getRepPartielle(): ?bool{
+    public function getRepPartielle(): ?bool {
         return $this->repPartielle;
     }
 
@@ -2091,7 +2090,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep subv.
      */
-    public function getRepSubv(): ?bool{
+    public function getRepSubv(): ?bool {
         return $this->repSubv;
     }
 
@@ -2100,7 +2099,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the rep vmp.
      */
-    public function getRepVmp(): ?bool{
+    public function getRepVmp(): ?bool {
         return $this->repVmp;
     }
 
@@ -2109,7 +2108,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the revis solde en euro.
      */
-    public function getRevisSoldeEnEuro(): ?bool{
+    public function getRevisSoldeEnEuro(): ?bool {
         return $this->revisSoldeEnEuro;
     }
 
@@ -2118,7 +2117,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the revis voir solde ex.
      */
-    public function getRevisVoirSoldeEx(): ?bool{
+    public function getRevisVoirSoldeEx(): ?bool {
         return $this->revisVoirSoldeEx;
     }
 
@@ -2127,7 +2126,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the saisie caisse.
      */
-    public function getSaisieCaisse(): ?bool{
+    public function getSaisieCaisse(): ?bool {
         return $this->saisieCaisse;
     }
 
@@ -2136,7 +2135,7 @@ class Dossier3 {
      *
      * @return string|null Returns the saisie num piece.
      */
-    public function getSaisieNumPiece(): ?string{
+    public function getSaisieNumPiece(): ?string {
         return $this->saisieNumPiece;
     }
 
@@ -2145,7 +2144,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the sauver periodicite.
      */
-    public function getSauverPeriodicite(): ?bool{
+    public function getSauverPeriodicite(): ?bool {
         return $this->sauverPeriodicite;
     }
 
@@ -2154,7 +2153,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the suivi aux client.
      */
-    public function getSuiviAuxClient(): ?bool{
+    public function getSuiviAuxClient(): ?bool {
         return $this->suiviAuxClient;
     }
 
@@ -2163,7 +2162,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the suivi aux frn.
      */
-    public function getSuiviAuxFrn(): ?bool{
+    public function getSuiviAuxFrn(): ?bool {
         return $this->suiviAuxFrn;
     }
 
@@ -2172,7 +2171,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the suivi devises.
      */
-    public function getSuiviDevises(): ?bool{
+    public function getSuiviDevises(): ?bool {
         return $this->suiviDevises;
     }
 
@@ -2181,7 +2180,7 @@ class Dossier3 {
      *
      * @return bool|null Returns the transfert immo ok.
      */
-    public function getTransfertImmoOk(): ?bool{
+    public function getTransfertImmoOk(): ?bool {
         return $this->transfertImmoOk;
     }
 
@@ -2190,7 +2189,7 @@ class Dossier3 {
      *
      * @return int|null Returns the type pmag client.
      */
-    public function getTypePmagClient(): ?int{
+    public function getTypePmagClient(): ?int {
         return $this->typePmagClient;
     }
 
@@ -2199,7 +2198,7 @@ class Dossier3 {
      *
      * @return string|null Returns the type transfert immo.
      */
-    public function getTypeTransfertImmo(): ?string{
+    public function getTypeTransfertImmo(): ?string {
         return $this->typeTransfertImmo;
     }
 
@@ -2208,7 +2207,7 @@ class Dossier3 {
      *
      * @return string|null Returns the type transfert tiers.
      */
-    public function getTypeTransfertTiers(): ?string{
+    public function getTypeTransfertTiers(): ?string {
         return $this->typeTransfertTiers;
     }
 
@@ -2217,7 +2216,7 @@ class Dossier3 {
      *
      * @return string|null Returns the type transfert tiers f.
      */
-    public function getTypeTransfertTiersF(): ?string{
+    public function getTypeTransfertTiersF(): ?string {
         return $this->typeTransfertTiersF;
     }
 
@@ -3509,17 +3508,6 @@ class Dossier3 {
     }
 
     /**
-     * Set the rep es.
-     *
-     * @param bool|null $repEs The rep es.
-     * @return Dossier3 Returns this Dossier3.
-     */
-    public function setRepEs(?bool $repEs): Dossier3 {
-        $this->repEs = $repEs;
-        return $this;
-    }
-
-    /**
      * Set the rep emprunts.
      *
      * @param bool|null $repEmprunts The rep emprunts.
@@ -3527,6 +3515,17 @@ class Dossier3 {
      */
     public function setRepEmprunts(?bool $repEmprunts): Dossier3 {
         $this->repEmprunts = $repEmprunts;
+        return $this;
+    }
+
+    /**
+     * Set the rep es.
+     *
+     * @param bool|null $repEs The rep es.
+     * @return Dossier3 Returns this Dossier3.
+     */
+    public function setRepEs(?bool $repEs): Dossier3 {
+        $this->repEs = $repEs;
         return $this;
     }
 

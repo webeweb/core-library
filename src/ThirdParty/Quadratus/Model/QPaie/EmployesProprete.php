@@ -61,7 +61,6 @@ class EmployesProprete {
      */
     private $polyvalent;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class EmployesProprete {
      *
      * @return bool|null Returns the controleur.
      */
-    public function getControleur(): ?bool{
+    public function getControleur(): ?bool {
         return $this->controleur;
     }
 
@@ -83,7 +82,7 @@ class EmployesProprete {
      *
      * @return bool|null Returns the hotellerie.
      */
-    public function getHotellerie(): ?bool{
+    public function getHotellerie(): ?bool {
         return $this->hotellerie;
     }
 
@@ -92,7 +91,7 @@ class EmployesProprete {
      *
      * @return bool|null Returns the livreur.
      */
-    public function getLivreur(): ?bool{
+    public function getLivreur(): ?bool {
         return $this->livreur;
     }
 
@@ -101,7 +100,7 @@ class EmployesProprete {
      *
      * @return bool|null Returns the modulation.
      */
-    public function getModulation(): ?bool{
+    public function getModulation(): ?bool {
         return $this->modulation;
     }
 
@@ -110,7 +109,7 @@ class EmployesProprete {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -119,7 +118,7 @@ class EmployesProprete {
      *
      * @return bool|null Returns the polyvalent.
      */
-    public function getPolyvalent(): ?bool{
+    public function getPolyvalent(): ?bool {
         return $this->polyvalent;
     }
 

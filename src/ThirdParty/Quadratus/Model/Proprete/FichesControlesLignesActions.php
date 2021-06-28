@@ -70,7 +70,6 @@ class FichesControlesLignesActions {
      */
     private $numeroFiche;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class FichesControlesLignesActions {
      *
      * @return string|null Returns the code action.
      */
-    public function getCodeAction(): ?string{
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
@@ -92,7 +91,7 @@ class FichesControlesLignesActions {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -101,7 +100,7 @@ class FichesControlesLignesActions {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -110,7 +109,7 @@ class FichesControlesLignesActions {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -119,7 +118,7 @@ class FichesControlesLignesActions {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -128,7 +127,7 @@ class FichesControlesLignesActions {
      *
      * @return string|null Returns the libelle action.
      */
-    public function getLibelleAction(): ?string{
+    public function getLibelleAction(): ?string {
         return $this->libelleAction;
     }
 
@@ -137,7 +136,7 @@ class FichesControlesLignesActions {
      *
      * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche(): ?int{
+    public function getNumeroFiche(): ?int {
         return $this->numeroFiche;
     }
 

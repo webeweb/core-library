@@ -68,7 +68,6 @@ class FichesDePoste {
      */
     private $poste;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class FichesDePoste {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -90,7 +89,7 @@ class FichesDePoste {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -99,7 +98,7 @@ class FichesDePoste {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -108,7 +107,7 @@ class FichesDePoste {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -117,7 +116,7 @@ class FichesDePoste {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -126,7 +125,7 @@ class FichesDePoste {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -135,7 +134,7 @@ class FichesDePoste {
      *
      * @return string|null Returns the poste.
      */
-    public function getPoste(): ?string{
+    public function getPoste(): ?string {
         return $this->poste;
     }
 

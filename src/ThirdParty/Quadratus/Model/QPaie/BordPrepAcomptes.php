@@ -70,7 +70,6 @@ class BordPrepAcomptes {
      */
     private $typePaiement;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class BordPrepAcomptes {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -92,7 +91,7 @@ class BordPrepAcomptes {
      *
      * @return int|null Returns the id.
      */
-    public function getId(): ?int{
+    public function getId(): ?int {
         return $this->id;
     }
 
@@ -101,7 +100,7 @@ class BordPrepAcomptes {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -110,7 +109,7 @@ class BordPrepAcomptes {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -119,7 +118,7 @@ class BordPrepAcomptes {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -128,7 +127,7 @@ class BordPrepAcomptes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -137,7 +136,7 @@ class BordPrepAcomptes {
      *
      * @return string|null Returns the type paiement.
      */
-    public function getTypePaiement(): ?string{
+    public function getTypePaiement(): ?string {
         return $this->typePaiement;
     }
 

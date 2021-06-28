@@ -61,7 +61,6 @@ class PostesCharge {
      */
     private $typeProrata;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class PostesCharge {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -83,7 +82,7 @@ class PostesCharge {
      *
      * @return string|null Returns the code charge.
      */
-    public function getCodeCharge(): ?string{
+    public function getCodeCharge(): ?string {
         return $this->codeCharge;
     }
 
@@ -92,7 +91,7 @@ class PostesCharge {
      *
      * @return string|null Returns the dern poste affecte.
      */
-    public function getDernPosteAffecte(): ?string{
+    public function getDernPosteAffecte(): ?string {
         return $this->dernPosteAffecte;
     }
 
@@ -101,7 +100,7 @@ class PostesCharge {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -110,7 +109,7 @@ class PostesCharge {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -119,7 +118,7 @@ class PostesCharge {
      *
      * @return string|null Returns the type prorata.
      */
-    public function getTypeProrata(): ?string{
+    public function getTypeProrata(): ?string {
         return $this->typeProrata;
     }
 

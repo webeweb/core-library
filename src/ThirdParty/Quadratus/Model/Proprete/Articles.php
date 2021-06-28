@@ -357,7 +357,6 @@ class Articles {
      */
     private $visuDansAttFisc;
 
-
     /**
      * Constructor.
      */
@@ -370,7 +369,7 @@ class Articles {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -379,7 +378,7 @@ class Articles {
      *
      * @return string|null Returns the article remplacement.
      */
-    public function getArticleRemplacement(): ?string{
+    public function getArticleRemplacement(): ?string {
         return $this->articleRemplacement;
     }
 
@@ -388,7 +387,7 @@ class Articles {
      *
      * @return string|null Returns the classification four.
      */
-    public function getClassificationFour(): ?string{
+    public function getClassificationFour(): ?string {
         return $this->classificationFour;
     }
 
@@ -397,7 +396,7 @@ class Articles {
      *
      * @return string|null Returns the classification util.
      */
-    public function getClassificationUtil(): ?string{
+    public function getClassificationUtil(): ?string {
         return $this->classificationUtil;
     }
 
@@ -406,7 +405,7 @@ class Articles {
      *
      * @return string|null Returns the code affect rent.
      */
-    public function getCodeAffectRent(): ?string{
+    public function getCodeAffectRent(): ?string {
         return $this->codeAffectRent;
     }
 
@@ -415,7 +414,7 @@ class Articles {
      *
      * @return string|null Returns the code anal achat.
      */
-    public function getCodeAnalAchat(): ?string{
+    public function getCodeAnalAchat(): ?string {
         return $this->codeAnalAchat;
     }
 
@@ -424,7 +423,7 @@ class Articles {
      *
      * @return string|null Returns the code anal vente.
      */
-    public function getCodeAnalVente(): ?string{
+    public function getCodeAnalVente(): ?string {
         return $this->codeAnalVente;
     }
 
@@ -433,7 +432,7 @@ class Articles {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -442,7 +441,7 @@ class Articles {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -451,7 +450,7 @@ class Articles {
      *
      * @return string|null Returns the code tva achat.
      */
-    public function getCodeTvaAchat(): ?string{
+    public function getCodeTvaAchat(): ?string {
         return $this->codeTvaAchat;
     }
 
@@ -460,7 +459,7 @@ class Articles {
      *
      * @return string|null Returns the code tva vente.
      */
-    public function getCodeTvaVente(): ?string{
+    public function getCodeTvaVente(): ?string {
         return $this->codeTvaVente;
     }
 
@@ -469,7 +468,7 @@ class Articles {
      *
      * @return string|null Returns the code unite.
      */
-    public function getCodeUnite(): ?string{
+    public function getCodeUnite(): ?string {
         return $this->codeUnite;
     }
 
@@ -478,7 +477,7 @@ class Articles {
      *
      * @return string|null Returns the code ventil achat.
      */
-    public function getCodeVentilAchat(): ?string{
+    public function getCodeVentilAchat(): ?string {
         return $this->codeVentilAchat;
     }
 
@@ -487,7 +486,7 @@ class Articles {
      *
      * @return string|null Returns the code ventil vente.
      */
-    public function getCodeVentilVente(): ?string{
+    public function getCodeVentilVente(): ?string {
         return $this->codeVentilVente;
     }
 
@@ -496,7 +495,7 @@ class Articles {
      *
      * @return float|null Returns the coef.
      */
-    public function getCoef(): ?float{
+    public function getCoef(): ?float {
         return $this->coef;
     }
 
@@ -505,7 +504,7 @@ class Articles {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -514,7 +513,7 @@ class Articles {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -523,7 +522,7 @@ class Articles {
      *
      * @return bool|null Returns the depuis deb fac.
      */
-    public function getDepuisDebFac(): ?bool{
+    public function getDepuisDebFac(): ?bool {
         return $this->depuisDebFac;
     }
 
@@ -532,7 +531,7 @@ class Articles {
      *
      * @return float|null Returns the dernier prix achat.
      */
-    public function getDernierPrixAchat(): ?float{
+    public function getDernierPrixAchat(): ?float {
         return $this->dernierPrixAchat;
     }
 
@@ -541,7 +540,7 @@ class Articles {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -550,7 +549,7 @@ class Articles {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -559,7 +558,7 @@ class Articles {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -568,7 +567,7 @@ class Articles {
      *
      * @return string|null Returns the designation rtf.
      */
-    public function getDesignationRtf(): ?string{
+    public function getDesignationRtf(): ?string {
         return $this->designationRtf;
     }
 
@@ -577,7 +576,7 @@ class Articles {
      *
      * @return string|null Returns the famille article.
      */
-    public function getFamilleArticle(): ?string{
+    public function getFamilleArticle(): ?string {
         return $this->familleArticle;
     }
 
@@ -586,7 +585,7 @@ class Articles {
      *
      * @return bool|null Returns the imprimer dans pied.
      */
-    public function getImprimerDansPied(): ?bool{
+    public function getImprimerDansPied(): ?bool {
         return $this->imprimerDansPied;
     }
 
@@ -595,7 +594,7 @@ class Articles {
      *
      * @return float|null Returns the montant unitaire taxe.
      */
-    public function getMontantUnitaireTaxe(): ?float{
+    public function getMontantUnitaireTaxe(): ?float {
         return $this->montantUnitaireTaxe;
     }
 
@@ -604,7 +603,7 @@ class Articles {
      *
      * @return string|null Returns the mot cle dans pied.
      */
-    public function getMotCleDansPied(): ?string{
+    public function getMotCleDansPied(): ?string {
         return $this->motCleDansPied;
     }
 
@@ -613,7 +612,7 @@ class Articles {
      *
      * @return bool|null Returns the ne pas reviser.
      */
-    public function getNePasReviser(): ?bool{
+    public function getNePasReviser(): ?bool {
         return $this->nePasReviser;
     }
 
@@ -622,7 +621,7 @@ class Articles {
      *
      * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?string{
+    public function getNombreEcheances(): ?string {
         return $this->nombreEcheances;
     }
 
@@ -631,7 +630,7 @@ class Articles {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -640,7 +639,7 @@ class Articles {
      *
      * @return float|null Returns the pamp.
      */
-    public function getPamp(): ?float{
+    public function getPamp(): ?float {
         return $this->pamp;
     }
 
@@ -649,7 +648,7 @@ class Articles {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -658,7 +657,7 @@ class Articles {
      *
      * @return bool|null Returns the prix net.
      */
-    public function getPrixNet(): ?bool{
+    public function getPrixNet(): ?bool {
         return $this->prixNet;
     }
 
@@ -667,7 +666,7 @@ class Articles {
      *
      * @return float|null Returns the prix revient.
      */
-    public function getPrixRevient(): ?float{
+    public function getPrixRevient(): ?float {
         return $this->prixRevient;
     }
 
@@ -676,7 +675,7 @@ class Articles {
      *
      * @return float|null Returns the prix vente.
      */
-    public function getPrixVente(): ?float{
+    public function getPrixVente(): ?float {
         return $this->prixVente;
     }
 
@@ -685,7 +684,7 @@ class Articles {
      *
      * @return float|null Returns the prix vente euros.
      */
-    public function getPrixVenteEuros(): ?float{
+    public function getPrixVenteEuros(): ?float {
         return $this->prixVenteEuros;
     }
 
@@ -694,7 +693,7 @@ class Articles {
      *
      * @return bool|null Returns the produit.
      */
-    public function getProduit(): ?bool{
+    public function getProduit(): ?bool {
         return $this->produit;
     }
 
@@ -703,7 +702,7 @@ class Articles {
      *
      * @return bool|null Returns the produit chimique.
      */
-    public function getProduitChimique(): ?bool{
+    public function getProduitChimique(): ?bool {
         return $this->produitChimique;
     }
 
@@ -712,7 +711,7 @@ class Articles {
      *
      * @return bool|null Returns the px facture.
      */
-    public function getPxFacture(): ?bool{
+    public function getPxFacture(): ?bool {
         return $this->pxFacture;
     }
 
@@ -721,7 +720,7 @@ class Articles {
      *
      * @return float|null Returns the qte stock mini.
      */
-    public function getQteStockMini(): ?float{
+    public function getQteStockMini(): ?float {
         return $this->qteStockMini;
     }
 
@@ -730,7 +729,7 @@ class Articles {
      *
      * @return float|null Returns the qte stock reel.
      */
-    public function getQteStockReel(): ?float{
+    public function getQteStockReel(): ?float {
         return $this->qteStockReel;
     }
 
@@ -739,7 +738,7 @@ class Articles {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -748,7 +747,7 @@ class Articles {
      *
      * @return bool|null Returns the suivi stock.
      */
-    public function getSuiviStock(): ?bool{
+    public function getSuiviStock(): ?bool {
         return $this->suiviStock;
     }
 
@@ -757,7 +756,7 @@ class Articles {
      *
      * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte(): ?float{
+    public function getTauxEscompte(): ?float {
         return $this->tauxEscompte;
     }
 
@@ -766,7 +765,7 @@ class Articles {
      *
      * @return string|null Returns the type article.
      */
-    public function getTypeArticle(): ?string{
+    public function getTypeArticle(): ?string {
         return $this->typeArticle;
     }
 
@@ -775,7 +774,7 @@ class Articles {
      *
      * @return bool|null Returns the variante.
      */
-    public function getVariante(): ?bool{
+    public function getVariante(): ?bool {
         return $this->variante;
     }
 
@@ -784,7 +783,7 @@ class Articles {
      *
      * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge(): ?bool{
+    public function getVentilMarge(): ?bool {
         return $this->ventilMarge;
     }
 
@@ -793,7 +792,7 @@ class Articles {
      *
      * @return bool|null Returns the visu dans att fisc.
      */
-    public function getVisuDansAttFisc(): ?bool{
+    public function getVisuDansAttFisc(): ?bool {
         return $this->visuDansAttFisc;
     }
 

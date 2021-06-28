@@ -33,7 +33,6 @@ class Services {
      */
     private $intitule;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class Services {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -55,7 +54,7 @@ class Services {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 

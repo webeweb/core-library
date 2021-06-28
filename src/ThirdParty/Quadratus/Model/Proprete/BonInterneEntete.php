@@ -56,7 +56,6 @@ class BonInterneEntete {
      */
     private $noBonInt;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class BonInterneEntete {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -78,7 +77,7 @@ class BonInterneEntete {
      *
      * @return string|null Returns the code livreur.
      */
-    public function getCodeLivreur(): ?string{
+    public function getCodeLivreur(): ?string {
         return $this->codeLivreur;
     }
 
@@ -87,7 +86,7 @@ class BonInterneEntete {
      *
      * @return DateTime|null Returns the date livraison.
      */
-    public function getDateLivraison(): ?DateTime{
+    public function getDateLivraison(): ?DateTime {
         return $this->dateLivraison;
     }
 
@@ -96,7 +95,7 @@ class BonInterneEntete {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -105,7 +104,7 @@ class BonInterneEntete {
      *
      * @return string|null Returns the no bon int.
      */
-    public function getNoBonInt(): ?string{
+    public function getNoBonInt(): ?string {
         return $this->noBonInt;
     }
 

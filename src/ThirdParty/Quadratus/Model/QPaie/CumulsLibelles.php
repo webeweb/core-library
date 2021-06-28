@@ -40,7 +40,6 @@ class CumulsLibelles {
      */
     private $numeroEmploye;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class CumulsLibelles {
      *
      * @return float|null Returns the montant cumul.
      */
-    public function getMontantCumul(): ?float{
+    public function getMontantCumul(): ?float {
         return $this->montantCumul;
     }
 
@@ -62,7 +61,7 @@ class CumulsLibelles {
      *
      * @return int|null Returns the num cumul bulletin.
      */
-    public function getNumCumulBulletin(): ?int{
+    public function getNumCumulBulletin(): ?int {
         return $this->numCumulBulletin;
     }
 
@@ -71,7 +70,7 @@ class CumulsLibelles {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 

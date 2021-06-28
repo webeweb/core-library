@@ -40,7 +40,6 @@ class TachesSemaine {
      */
     private $discrTache;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class TachesSemaine {
      *
      * @return int|null Returns the auto incr.
      */
-    public function getAutoIncr(): ?int{
+    public function getAutoIncr(): ?int {
         return $this->autoIncr;
     }
 
@@ -62,7 +61,7 @@ class TachesSemaine {
      *
      * @return string|null Returns the code semaine tache.
      */
-    public function getCodeSemaineTache(): ?string{
+    public function getCodeSemaineTache(): ?string {
         return $this->codeSemaineTache;
     }
 
@@ -71,7 +70,7 @@ class TachesSemaine {
      *
      * @return int|null Returns the discr tache.
      */
-    public function getDiscrTache(): ?int{
+    public function getDiscrTache(): ?int {
         return $this->discrTache;
     }
 

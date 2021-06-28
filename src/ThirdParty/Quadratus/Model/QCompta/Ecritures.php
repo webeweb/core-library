@@ -463,13 +463,6 @@ class Ecritures {
     private $quantite2;
 
     /**
-     * Rib.
-     *
-     * @var string|null
-     */
-    private $rib;
-
-    /**
      * Rappro bancaire ok.
      *
      * @var bool|null
@@ -489,6 +482,13 @@ class Ecritures {
      * @var string|null
      */
     private $referenceTire;
+
+    /**
+     * Rib.
+     *
+     * @var string|null
+     */
+    private $rib;
 
     /**
      * Tva e4 bi.
@@ -532,7 +532,6 @@ class Ecritures {
      */
     private $validee;
 
-
     /**
      * Constructor.
      */
@@ -545,7 +544,7 @@ class Ecritures {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -554,7 +553,7 @@ class Ecritures {
      *
      * @return string|null Returns the bic.
      */
-    public function getBic(): ?string{
+    public function getBic(): ?string {
         return $this->bic;
     }
 
@@ -563,7 +562,7 @@ class Ecritures {
      *
      * @return bool|null Returns the bons a payer.
      */
-    public function getBonsAPayer(): ?bool{
+    public function getBonsAPayer(): ?bool {
         return $this->bonsAPayer;
     }
 
@@ -572,7 +571,7 @@ class Ecritures {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -581,7 +580,7 @@ class Ecritures {
      *
      * @return string|null Returns the centre simple.
      */
-    public function getCentreSimple(): ?string{
+    public function getCentreSimple(): ?string {
         return $this->centreSimple;
     }
 
@@ -590,7 +589,7 @@ class Ecritures {
      *
      * @return string|null Returns the client ou frn.
      */
-    public function getClientOuFrn(): ?string{
+    public function getClientOuFrn(): ?string {
         return $this->clientOuFrn;
     }
 
@@ -599,7 +598,7 @@ class Ecritures {
      *
      * @return string|null Returns the code banque.
      */
-    public function getCodeBanque(): ?string{
+    public function getCodeBanque(): ?string {
         return $this->codeBanque;
     }
 
@@ -608,7 +607,7 @@ class Ecritures {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -617,7 +616,7 @@ class Ecritures {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -626,7 +625,7 @@ class Ecritures {
      *
      * @return string|null Returns the code lettrage.
      */
-    public function getCodeLettrage(): ?string{
+    public function getCodeLettrage(): ?string {
         return $this->codeLettrage;
     }
 
@@ -635,7 +634,7 @@ class Ecritures {
      *
      * @return string|null Returns the code lettrage tiers.
      */
-    public function getCodeLettrageTiers(): ?string{
+    public function getCodeLettrageTiers(): ?string {
         return $this->codeLettrageTiers;
     }
 
@@ -644,7 +643,7 @@ class Ecritures {
      *
      * @return string|null Returns the code libelle auto.
      */
-    public function getCodeLibelleAuto(): ?string{
+    public function getCodeLibelleAuto(): ?string {
         return $this->codeLibelleAuto;
     }
 
@@ -653,7 +652,7 @@ class Ecritures {
      *
      * @return string|null Returns the code operateur.
      */
-    public function getCodeOperateur(): ?string{
+    public function getCodeOperateur(): ?string {
         return $this->codeOperateur;
     }
 
@@ -662,7 +661,7 @@ class Ecritures {
      *
      * @return int|null Returns the code tva.
      */
-    public function getCodeTva(): ?int{
+    public function getCodeTva(): ?int {
         return $this->codeTva;
     }
 
@@ -671,7 +670,7 @@ class Ecritures {
      *
      * @return string|null Returns the compte contrepartie.
      */
-    public function getCompteContrepartie(): ?string{
+    public function getCompteContrepartie(): ?string {
         return $this->compteContrepartie;
     }
 
@@ -680,7 +679,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the date dec tva.
      */
-    public function getDateDecTva(): ?DateTime{
+    public function getDateDecTva(): ?DateTime {
         return $this->dateDecTva;
     }
 
@@ -689,7 +688,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -698,7 +697,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the date pointage aux.
      */
-    public function getDatePointageAux(): ?DateTime{
+    public function getDatePointageAux(): ?DateTime {
         return $this->datePointageAux;
     }
 
@@ -707,7 +706,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the date rappro bancaire.
      */
-    public function getDateRapproBancaire(): ?DateTime{
+    public function getDateRapproBancaire(): ?DateTime {
         return $this->dateRapproBancaire;
     }
 
@@ -716,7 +715,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the date sys saisie.
      */
-    public function getDateSysSaisie(): ?DateTime{
+    public function getDateSysSaisie(): ?DateTime {
         return $this->dateSysSaisie;
     }
 
@@ -725,7 +724,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the date sys validation.
      */
-    public function getDateSysValidation(): ?DateTime{
+    public function getDateSysValidation(): ?DateTime {
         return $this->dateSysValidation;
     }
 
@@ -734,7 +733,7 @@ class Ecritures {
      *
      * @return string|null Returns the dom banque.
      */
-    public function getDomBanque(): ?string{
+    public function getDomBanque(): ?string {
         return $this->domBanque;
     }
 
@@ -743,7 +742,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the echeance simple.
      */
-    public function getEcheanceSimple(): ?DateTime{
+    public function getEcheanceSimple(): ?DateTime {
         return $this->echeanceSimple;
     }
 
@@ -752,7 +751,7 @@ class Ecritures {
      *
      * @return string|null Returns the ecriture num.
      */
-    public function getEcritureNum(): ?string{
+    public function getEcritureNum(): ?string {
         return $this->ecritureNum;
     }
 
@@ -761,7 +760,7 @@ class Ecritures {
      *
      * @return bool|null Returns the en litige.
      */
-    public function getEnLitige(): ?bool{
+    public function getEnLitige(): ?bool {
         return $this->enLitige;
     }
 
@@ -770,7 +769,7 @@ class Ecritures {
      *
      * @return int|null Returns the etat.
      */
-    public function getEtat(): ?int{
+    public function getEtat(): ?int {
         return $this->etat;
     }
 
@@ -779,7 +778,7 @@ class Ecritures {
      *
      * @return int|null Returns the folio.
      */
-    public function getFolio(): ?int{
+    public function getFolio(): ?int {
         return $this->folio;
     }
 
@@ -788,7 +787,7 @@ class Ecritures {
      *
      * @return string|null Returns the iban.
      */
-    public function getIban(): ?string{
+    public function getIban(): ?string {
         return $this->iban;
     }
 
@@ -797,7 +796,7 @@ class Ecritures {
      *
      * @return string|null Returns the jour ecriture.
      */
-    public function getJourEcriture(): ?string{
+    public function getJourEcriture(): ?string {
         return $this->jourEcriture;
     }
 
@@ -806,7 +805,7 @@ class Ecritures {
      *
      * @return string|null Returns the jrn rappro bancaire.
      */
-    public function getJrnRapproBancaire(): ?string{
+    public function getJrnRapproBancaire(): ?string {
         return $this->jrnRapproBancaire;
     }
 
@@ -815,7 +814,7 @@ class Ecritures {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -824,7 +823,7 @@ class Ecritures {
      *
      * @return string|null Returns the libelle memo.
      */
-    public function getLibelleMemo(): ?string{
+    public function getLibelleMemo(): ?string {
         return $this->libelleMemo;
     }
 
@@ -833,7 +832,7 @@ class Ecritures {
      *
      * @return int|null Returns the ligne folio.
      */
-    public function getLigneFolio(): ?int{
+    public function getLigneFolio(): ?int {
         return $this->ligneFolio;
     }
 
@@ -842,7 +841,7 @@ class Ecritures {
      *
      * @return string|null Returns the methode tva.
      */
-    public function getMethodeTva(): ?string{
+    public function getMethodeTva(): ?string {
         return $this->methodeTva;
     }
 
@@ -851,7 +850,7 @@ class Ecritures {
      *
      * @return float|null Returns the milliemes ana.
      */
-    public function getMilliemesAna(): ?float{
+    public function getMilliemesAna(): ?float {
         return $this->milliemesAna;
     }
 
@@ -860,7 +859,7 @@ class Ecritures {
      *
      * @return string|null Returns the mode paiement.
      */
-    public function getModePaiement(): ?string{
+    public function getModePaiement(): ?string {
         return $this->modePaiement;
     }
 
@@ -869,7 +868,7 @@ class Ecritures {
      *
      * @return float|null Returns the montant ana.
      */
-    public function getMontantAna(): ?float{
+    public function getMontantAna(): ?float {
         return $this->montantAna;
     }
 
@@ -878,7 +877,7 @@ class Ecritures {
      *
      * @return float|null Returns the montant saisi credit.
      */
-    public function getMontantSaisiCredit(): ?float{
+    public function getMontantSaisiCredit(): ?float {
         return $this->montantSaisiCredit;
     }
 
@@ -887,7 +886,7 @@ class Ecritures {
      *
      * @return float|null Returns the montant saisi debit.
      */
-    public function getMontantSaisiDebit(): ?float{
+    public function getMontantSaisiDebit(): ?float {
         return $this->montantSaisiDebit;
     }
 
@@ -896,7 +895,7 @@ class Ecritures {
      *
      * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit(): ?float{
+    public function getMontantTenuCredit(): ?float {
         return $this->montantTenuCredit;
     }
 
@@ -905,7 +904,7 @@ class Ecritures {
      *
      * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit(): ?float{
+    public function getMontantTenuDebit(): ?float {
         return $this->montantTenuDebit;
     }
 
@@ -914,7 +913,7 @@ class Ecritures {
      *
      * @return bool|null Returns the mt dev force.
      */
-    public function getMtDevForce(): ?bool{
+    public function getMtDevForce(): ?bool {
         return $this->mtDevForce;
     }
 
@@ -923,7 +922,7 @@ class Ecritures {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -932,7 +931,7 @@ class Ecritures {
      *
      * @return int|null Returns the no lot ecritures.
      */
-    public function getNoLotEcritures(): ?int{
+    public function getNoLotEcritures(): ?int {
         return $this->noLotEcritures;
     }
 
@@ -941,7 +940,7 @@ class Ecritures {
      *
      * @return int|null Returns the no lot factor.
      */
-    public function getNoLotFactor(): ?int{
+    public function getNoLotFactor(): ?int {
         return $this->noLotFactor;
     }
 
@@ -950,7 +949,7 @@ class Ecritures {
      *
      * @return int|null Returns the no lot is.
      */
-    public function getNoLotIs(): ?int{
+    public function getNoLotIs(): ?int {
         return $this->noLotIs;
     }
 
@@ -959,7 +958,7 @@ class Ecritures {
      *
      * @return string|null Returns the no lot trace.
      */
-    public function getNoLotTrace(): ?string{
+    public function getNoLotTrace(): ?string {
         return $this->noLotTrace;
     }
 
@@ -968,7 +967,7 @@ class Ecritures {
      *
      * @return string|null Returns the num cpt origine.
      */
-    public function getNumCptOrigine(): ?string{
+    public function getNumCptOrigine(): ?string {
         return $this->numCptOrigine;
     }
 
@@ -977,7 +976,7 @@ class Ecritures {
      *
      * @return int|null Returns the num ecr eco.
      */
-    public function getNumEcrEco(): ?int{
+    public function getNumEcrEco(): ?int {
         return $this->numEcrEco;
     }
 
@@ -986,7 +985,7 @@ class Ecritures {
      *
      * @return int|null Returns the num edit lettre paiement.
      */
-    public function getNumEditLettrePaiement(): ?int{
+    public function getNumEditLettrePaiement(): ?int {
         return $this->numEditLettrePaiement;
     }
 
@@ -995,7 +994,7 @@ class Ecritures {
      *
      * @return int|null Returns the num lettrage.
      */
-    public function getNumLettrage(): ?int{
+    public function getNumLettrage(): ?int {
         return $this->numLettrage;
     }
 
@@ -1004,7 +1003,7 @@ class Ecritures {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -1013,7 +1012,7 @@ class Ecritures {
      *
      * @return int|null Returns the num mandat.
      */
-    public function getNumMandat(): ?int{
+    public function getNumMandat(): ?int {
         return $this->numMandat;
     }
 
@@ -1022,7 +1021,7 @@ class Ecritures {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -1031,7 +1030,7 @@ class Ecritures {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -1040,7 +1039,7 @@ class Ecritures {
      *
      * @return string|null Returns the numero piece.
      */
-    public function getNumeroPiece(): ?string{
+    public function getNumeroPiece(): ?string {
         return $this->numeroPiece;
     }
 
@@ -1049,7 +1048,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture(): ?DateTime{
+    public function getPeriodeEcriture(): ?DateTime {
         return $this->periodeEcriture;
     }
 
@@ -1058,7 +1057,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the periodicite debut.
      */
-    public function getPeriodiciteDebut(): ?DateTime{
+    public function getPeriodiciteDebut(): ?DateTime {
         return $this->periodiciteDebut;
     }
 
@@ -1067,7 +1066,7 @@ class Ecritures {
      *
      * @return DateTime|null Returns the periodicite fin.
      */
-    public function getPeriodiciteFin(): ?DateTime{
+    public function getPeriodiciteFin(): ?DateTime {
         return $this->periodiciteFin;
     }
 
@@ -1076,7 +1075,7 @@ class Ecritures {
      *
      * @return int|null Returns the piece interne.
      */
-    public function getPieceInterne(): ?int{
+    public function getPieceInterne(): ?int {
         return $this->pieceInterne;
     }
 
@@ -1085,7 +1084,7 @@ class Ecritures {
      *
      * @return float|null Returns the prct repartition.
      */
-    public function getPrctRepartition(): ?float{
+    public function getPrctRepartition(): ?float {
         return $this->prctRepartition;
     }
 
@@ -1094,7 +1093,7 @@ class Ecritures {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -1103,17 +1102,8 @@ class Ecritures {
      *
      * @return float|null Returns the quantite2.
      */
-    public function getQuantite2(): ?float{
+    public function getQuantite2(): ?float {
         return $this->quantite2;
-    }
-
-    /**
-     * Get the rib.
-     *
-     * @return string|null Returns the rib.
-     */
-    public function getRib(): ?string{
-        return $this->rib;
     }
 
     /**
@@ -1121,7 +1111,7 @@ class Ecritures {
      *
      * @return bool|null Returns the rappro bancaire ok.
      */
-    public function getRapproBancaireOk(): ?bool{
+    public function getRapproBancaireOk(): ?bool {
         return $this->rapproBancaireOk;
     }
 
@@ -1130,7 +1120,7 @@ class Ecritures {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -1139,8 +1129,17 @@ class Ecritures {
      *
      * @return string|null Returns the reference tire.
      */
-    public function getReferenceTire(): ?string{
+    public function getReferenceTire(): ?string {
         return $this->referenceTire;
+    }
+
+    /**
+     * Get the rib.
+     *
+     * @return string|null Returns the rib.
+     */
+    public function getRib(): ?string {
+        return $this->rib;
     }
 
     /**
@@ -1148,7 +1147,7 @@ class Ecritures {
      *
      * @return string|null Returns the tva e4 bi.
      */
-    public function getTvaE4Bi(): ?string{
+    public function getTvaE4Bi(): ?string {
         return $this->tvaE4Bi;
     }
 
@@ -1157,7 +1156,7 @@ class Ecritures {
      *
      * @return string|null Returns the tva e4 dr.
      */
-    public function getTvaE4Dr(): ?string{
+    public function getTvaE4Dr(): ?string {
         return $this->tvaE4Dr;
     }
 
@@ -1166,7 +1165,7 @@ class Ecritures {
      *
      * @return float|null Returns the tva e4 mt.
      */
-    public function getTvaE4Mt(): ?float{
+    public function getTvaE4Mt(): ?float {
         return $this->tvaE4Mt;
     }
 
@@ -1175,7 +1174,7 @@ class Ecritures {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 
@@ -1184,7 +1183,7 @@ class Ecritures {
      *
      * @return string|null Returns the type saisie.
      */
-    public function getTypeSaisie(): ?string{
+    public function getTypeSaisie(): ?string {
         return $this->typeSaisie;
     }
 
@@ -1193,7 +1192,7 @@ class Ecritures {
      *
      * @return bool|null Returns the validee.
      */
-    public function getValidee(): ?bool{
+    public function getValidee(): ?bool {
         return $this->validee;
     }
 
@@ -1891,17 +1890,6 @@ class Ecritures {
     }
 
     /**
-     * Set the rib.
-     *
-     * @param string|null $rib The rib.
-     * @return Ecritures Returns this Ecritures.
-     */
-    public function setRib(?string $rib): Ecritures {
-        $this->rib = $rib;
-        return $this;
-    }
-
-    /**
      * Set the rappro bancaire ok.
      *
      * @param bool|null $rapproBancaireOk The rappro bancaire ok.
@@ -1931,6 +1919,17 @@ class Ecritures {
      */
     public function setReferenceTire(?string $referenceTire): Ecritures {
         $this->referenceTire = $referenceTire;
+        return $this;
+    }
+
+    /**
+     * Set the rib.
+     *
+     * @param string|null $rib The rib.
+     * @return Ecritures Returns this Ecritures.
+     */
+    public function setRib(?string $rib): Ecritures {
+        $this->rib = $rib;
         return $this;
     }
 

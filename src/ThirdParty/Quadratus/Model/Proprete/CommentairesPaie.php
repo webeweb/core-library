@@ -98,7 +98,6 @@ class CommentairesPaie {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -120,7 +119,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -129,7 +128,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -138,7 +137,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -147,7 +146,7 @@ class CommentairesPaie {
      *
      * @return DateTime|null Returns the date comm.
      */
-    public function getDateComm(): ?DateTime{
+    public function getDateComm(): ?DateTime {
         return $this->dateComm;
     }
 
@@ -156,7 +155,7 @@ class CommentairesPaie {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -165,7 +164,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -174,7 +173,7 @@ class CommentairesPaie {
      *
      * @return int|null Returns the id comm.
      */
-    public function getIdComm(): ?int{
+    public function getIdComm(): ?int {
         return $this->idComm;
     }
 
@@ -183,7 +182,7 @@ class CommentairesPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -192,7 +191,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the type comm.
      */
-    public function getTypeComm(): ?string{
+    public function getTypeComm(): ?string {
         return $this->typeComm;
     }
 
@@ -201,7 +200,7 @@ class CommentairesPaie {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

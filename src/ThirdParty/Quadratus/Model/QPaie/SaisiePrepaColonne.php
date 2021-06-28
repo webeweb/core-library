@@ -68,7 +68,6 @@ class SaisiePrepaColonne {
      */
     private $width;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class SaisiePrepaColonne {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -90,7 +89,7 @@ class SaisiePrepaColonne {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -99,7 +98,7 @@ class SaisiePrepaColonne {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -108,7 +107,7 @@ class SaisiePrepaColonne {
      *
      * @return string|null Returns the intit col.
      */
-    public function getIntitCol(): ?string{
+    public function getIntitCol(): ?string {
         return $this->intitCol;
     }
 
@@ -117,7 +116,7 @@ class SaisiePrepaColonne {
      *
      * @return string|null Returns the ligne abondement.
      */
-    public function getLigneAbondement(): ?string{
+    public function getLigneAbondement(): ?string {
         return $this->ligneAbondement;
     }
 
@@ -126,7 +125,7 @@ class SaisiePrepaColonne {
      *
      * @return string|null Returns the num col.
      */
-    public function getNumCol(): ?string{
+    public function getNumCol(): ?string {
         return $this->numCol;
     }
 
@@ -135,7 +134,7 @@ class SaisiePrepaColonne {
      *
      * @return int|null Returns the width.
      */
-    public function getWidth(): ?int{
+    public function getWidth(): ?int {
         return $this->width;
     }
 

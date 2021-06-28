@@ -133,7 +133,6 @@ class Subventions {
      */
     private $typeAmort;
 
-
     /**
      * Constructor.
      */
@@ -146,7 +145,7 @@ class Subventions {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -155,7 +154,7 @@ class Subventions {
      *
      * @return float|null Returns the coeff degressif.
      */
-    public function getCoeffDegressif(): ?float{
+    public function getCoeffDegressif(): ?float {
         return $this->coeffDegressif;
     }
 
@@ -164,7 +163,7 @@ class Subventions {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -173,7 +172,7 @@ class Subventions {
      *
      * @return DateTime|null Returns the date cession.
      */
-    public function getDateCession(): ?DateTime{
+    public function getDateCession(): ?DateTime {
         return $this->dateCession;
     }
 
@@ -182,7 +181,7 @@ class Subventions {
      *
      * @return DateTime|null Returns the date mise en service.
      */
-    public function getDateMiseEnService(): ?DateTime{
+    public function getDateMiseEnService(): ?DateTime {
         return $this->dateMiseEnService;
     }
 
@@ -191,7 +190,7 @@ class Subventions {
      *
      * @return int|null Returns the duree.
      */
-    public function getDuree(): ?int{
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
@@ -200,7 +199,7 @@ class Subventions {
      *
      * @return int|null Returns the immo numero.
      */
-    public function getImmoNumero(): ?int{
+    public function getImmoNumero(): ?int {
         return $this->immoNumero;
     }
 
@@ -209,7 +208,7 @@ class Subventions {
      *
      * @return string|null Returns the immo numero compte.
      */
-    public function getImmoNumeroCompte(): ?string{
+    public function getImmoNumeroCompte(): ?string {
         return $this->immoNumeroCompte;
     }
 
@@ -218,7 +217,7 @@ class Subventions {
      *
      * @return int|null Returns the immo numero deux.
      */
-    public function getImmoNumeroDeux(): ?int{
+    public function getImmoNumeroDeux(): ?int {
         return $this->immoNumeroDeux;
     }
 
@@ -227,7 +226,7 @@ class Subventions {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -236,7 +235,7 @@ class Subventions {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -245,7 +244,7 @@ class Subventions {
      *
      * @return string|null Returns the num contrat.
      */
-    public function getNumContrat(): ?string{
+    public function getNumContrat(): ?string {
         return $this->numContrat;
     }
 
@@ -254,7 +253,7 @@ class Subventions {
      *
      * @return string|null Returns the num cpt subvention.
      */
-    public function getNumCptSubvention(): ?string{
+    public function getNumCptSubvention(): ?string {
         return $this->numCptSubvention;
     }
 
@@ -263,7 +262,7 @@ class Subventions {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -272,7 +271,7 @@ class Subventions {
      *
      * @return float|null Returns the taux lineaire.
      */
-    public function getTauxLineaire(): ?float{
+    public function getTauxLineaire(): ?float {
         return $this->tauxLineaire;
     }
 
@@ -281,7 +280,7 @@ class Subventions {
      *
      * @return string|null Returns the type amort.
      */
-    public function getTypeAmort(): ?string{
+    public function getTypeAmort(): ?string {
         return $this->typeAmort;
     }
 

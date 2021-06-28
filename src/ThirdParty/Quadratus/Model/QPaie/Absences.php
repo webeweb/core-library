@@ -175,7 +175,6 @@ class Absences {
      */
     private $typeAbs;
 
-
     /**
      * Constructor.
      */
@@ -188,7 +187,7 @@ class Absences {
      *
      * @return bool|null Returns the abs jour.
      */
-    public function getAbsJour(): ?bool{
+    public function getAbsJour(): ?bool {
         return $this->absJour;
     }
 
@@ -197,7 +196,7 @@ class Absences {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -206,7 +205,7 @@ class Absences {
      *
      * @return string|null Returns the code user.
      */
-    public function getCodeUser(): ?string{
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
@@ -215,7 +214,7 @@ class Absences {
      *
      * @return bool|null Returns the conges payes.
      */
-    public function getCongesPayes(): ?bool{
+    public function getCongesPayes(): ?bool {
         return $this->congesPayes;
     }
 
@@ -224,7 +223,7 @@ class Absences {
      *
      * @return DateTime|null Returns the date added.
      */
-    public function getDateAdded(): ?DateTime{
+    public function getDateAdded(): ?DateTime {
         return $this->dateAdded;
     }
 
@@ -233,7 +232,7 @@ class Absences {
      *
      * @return DateTime|null Returns the date added coll.
      */
-    public function getDateAddedColl(): ?DateTime{
+    public function getDateAddedColl(): ?DateTime {
         return $this->dateAddedColl;
     }
 
@@ -242,7 +241,7 @@ class Absences {
      *
      * @return bool|null Returns the in bul.
      */
-    public function getInBul(): ?bool{
+    public function getInBul(): ?bool {
         return $this->inBul;
     }
 
@@ -251,7 +250,7 @@ class Absences {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -260,7 +259,7 @@ class Absences {
      *
      * @return float|null Returns the nb30.
      */
-    public function getNb30(): ?float{
+    public function getNb30(): ?float {
         return $this->nb30;
     }
 
@@ -269,7 +268,7 @@ class Absences {
      *
      * @return float|null Returns the nb h ab cp calcule.
      */
-    public function getNbHAbCpCalcule(): ?float{
+    public function getNbHAbCpCalcule(): ?float {
         return $this->nbHAbCpCalcule;
     }
 
@@ -278,7 +277,7 @@ class Absences {
      *
      * @return float|null Returns the nb h ab cp saisi.
      */
-    public function getNbHAbCpSaisi(): ?float{
+    public function getNbHAbCpSaisi(): ?float {
         return $this->nbHAbCpSaisi;
     }
 
@@ -287,7 +286,7 @@ class Absences {
      *
      * @return float|null Returns the nb jh.
      */
-    public function getNbJh(): ?float{
+    public function getNbJh(): ?float {
         return $this->nbJh;
     }
 
@@ -296,7 +295,7 @@ class Absences {
      *
      * @return float|null Returns the nb jh calcule.
      */
-    public function getNbJhCalcule(): ?float{
+    public function getNbJhCalcule(): ?float {
         return $this->nbJhCalcule;
     }
 
@@ -305,7 +304,7 @@ class Absences {
      *
      * @return int|null Returns the num evenement.
      */
-    public function getNumEvenement(): ?int{
+    public function getNumEvenement(): ?int {
         return $this->numEvenement;
     }
 
@@ -314,7 +313,7 @@ class Absences {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -323,7 +322,7 @@ class Absences {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -332,7 +331,7 @@ class Absences {
      *
      * @return DateTime|null Returns the periode bul.
      */
-    public function getPeriodeBul(): ?DateTime{
+    public function getPeriodeBul(): ?DateTime {
         return $this->periodeBul;
     }
 
@@ -341,7 +340,7 @@ class Absences {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -350,7 +349,7 @@ class Absences {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -359,7 +358,7 @@ class Absences {
      *
      * @return bool|null Returns the prolongation.
      */
-    public function getProlongation(): ?bool{
+    public function getProlongation(): ?bool {
         return $this->prolongation;
     }
 
@@ -368,7 +367,7 @@ class Absences {
      *
      * @return bool|null Returns the reprise.
      */
-    public function getReprise(): ?bool{
+    public function getReprise(): ?bool {
         return $this->reprise;
     }
 
@@ -377,7 +376,7 @@ class Absences {
      *
      * @return string|null Returns the type abs.
      */
-    public function getTypeAbs(): ?string{
+    public function getTypeAbs(): ?string {
         return $this->typeAbs;
     }
 

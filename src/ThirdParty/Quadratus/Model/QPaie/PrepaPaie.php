@@ -106,6 +106,20 @@ class PrepaPaie {
     private $pourcentHBonif;
 
     /**
+     * R recup acquis.
+     *
+     * @var float|null
+     */
+    private $rRecupAcquis;
+
+    /**
+     * R recup pris.
+     *
+     * @var float|null
+     */
+    private $rRecupPris;
+
+    /**
      * Rc acquis.
      *
      * @var float|null
@@ -134,20 +148,6 @@ class PrepaPaie {
     private $rrPris;
 
     /**
-     * R recup acquis.
-     *
-     * @var float|null
-     */
-    private $rRecupAcquis;
-
-    /**
-     * R recup pris.
-     *
-     * @var float|null
-     */
-    private $rRecupPris;
-
-    /**
      * Semaine.
      *
      * @var string|null
@@ -168,7 +168,6 @@ class PrepaPaie {
      */
     private $travailEffectif;
 
-
     /**
      * Constructor.
      */
@@ -181,7 +180,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the cp pris.
      */
-    public function getCpPris(): ?float{
+    public function getCpPris(): ?float {
         return $this->cpPris;
     }
 
@@ -190,7 +189,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the h majo acquis.
      */
-    public function getHMajoAcquis(): ?float{
+    public function getHMajoAcquis(): ?float {
         return $this->hMajoAcquis;
     }
 
@@ -199,7 +198,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the h majo pris.
      */
-    public function getHMajoPris(): ?float{
+    public function getHMajoPris(): ?float {
         return $this->hMajoPris;
     }
 
@@ -208,7 +207,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the h sup a comptabiliser rc.
      */
-    public function getHSupAComptabiliserRc(): ?float{
+    public function getHSupAComptabiliserRc(): ?float {
         return $this->hSupAComptabiliserRc;
     }
 
@@ -217,7 +216,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the h sup a comptabiliser rcit.
      */
-    public function getHSupAComptabiliserRcit(): ?float{
+    public function getHSupAComptabiliserRcit(): ?float {
         return $this->hSupAComptabiliserRcit;
     }
 
@@ -226,7 +225,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the h sup bonif.
      */
-    public function getHSupBonif(): ?float{
+    public function getHSupBonif(): ?float {
         return $this->hSupBonif;
     }
 
@@ -235,7 +234,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the horaire prevu.
      */
-    public function getHorairePrevu(): ?float{
+    public function getHorairePrevu(): ?float {
         return $this->horairePrevu;
     }
 
@@ -244,7 +243,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the nb h comp.
      */
-    public function getNbHComp(): ?float{
+    public function getNbHComp(): ?float {
         return $this->nbHComp;
     }
 
@@ -253,7 +252,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the nb h nuit.
      */
-    public function getNbHNuit(): ?float{
+    public function getNbHNuit(): ?float {
         return $this->nbHNuit;
     }
 
@@ -262,7 +261,7 @@ class PrepaPaie {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -271,7 +270,7 @@ class PrepaPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -280,44 +279,8 @@ class PrepaPaie {
      *
      * @return float|null Returns the pourcent h bonif.
      */
-    public function getPourcentHBonif(): ?float{
+    public function getPourcentHBonif(): ?float {
         return $this->pourcentHBonif;
-    }
-
-    /**
-     * Get the rc acquis.
-     *
-     * @return float|null Returns the rc acquis.
-     */
-    public function getRcAcquis(): ?float{
-        return $this->rcAcquis;
-    }
-
-    /**
-     * Get the rc pris.
-     *
-     * @return float|null Returns the rc pris.
-     */
-    public function getRcPris(): ?float{
-        return $this->rcPris;
-    }
-
-    /**
-     * Get the rr acquis.
-     *
-     * @return float|null Returns the rr acquis.
-     */
-    public function getRrAcquis(): ?float{
-        return $this->rrAcquis;
-    }
-
-    /**
-     * Get the rr pris.
-     *
-     * @return float|null Returns the rr pris.
-     */
-    public function getRrPris(): ?float{
-        return $this->rrPris;
     }
 
     /**
@@ -325,7 +288,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the r recup acquis.
      */
-    public function getRRecupAcquis(): ?float{
+    public function getRRecupAcquis(): ?float {
         return $this->rRecupAcquis;
     }
 
@@ -334,8 +297,44 @@ class PrepaPaie {
      *
      * @return float|null Returns the r recup pris.
      */
-    public function getRRecupPris(): ?float{
+    public function getRRecupPris(): ?float {
         return $this->rRecupPris;
+    }
+
+    /**
+     * Get the rc acquis.
+     *
+     * @return float|null Returns the rc acquis.
+     */
+    public function getRcAcquis(): ?float {
+        return $this->rcAcquis;
+    }
+
+    /**
+     * Get the rc pris.
+     *
+     * @return float|null Returns the rc pris.
+     */
+    public function getRcPris(): ?float {
+        return $this->rcPris;
+    }
+
+    /**
+     * Get the rr acquis.
+     *
+     * @return float|null Returns the rr acquis.
+     */
+    public function getRrAcquis(): ?float {
+        return $this->rrAcquis;
+    }
+
+    /**
+     * Get the rr pris.
+     *
+     * @return float|null Returns the rr pris.
+     */
+    public function getRrPris(): ?float {
+        return $this->rrPris;
     }
 
     /**
@@ -343,7 +342,7 @@ class PrepaPaie {
      *
      * @return string|null Returns the semaine.
      */
-    public function getSemaine(): ?string{
+    public function getSemaine(): ?string {
         return $this->semaine;
     }
 
@@ -352,7 +351,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the tot realise.
      */
-    public function getTotRealise(): ?float{
+    public function getTotRealise(): ?float {
         return $this->totRealise;
     }
 
@@ -361,7 +360,7 @@ class PrepaPaie {
      *
      * @return float|null Returns the travail effectif.
      */
-    public function getTravailEffectif(): ?float{
+    public function getTravailEffectif(): ?float {
         return $this->travailEffectif;
     }
 
@@ -498,6 +497,28 @@ class PrepaPaie {
     }
 
     /**
+     * Set the r recup acquis.
+     *
+     * @param float|null $rRecupAcquis The r recup acquis.
+     * @return PrepaPaie Returns this Prepa paie.
+     */
+    public function setRRecupAcquis(?float $rRecupAcquis): PrepaPaie {
+        $this->rRecupAcquis = $rRecupAcquis;
+        return $this;
+    }
+
+    /**
+     * Set the r recup pris.
+     *
+     * @param float|null $rRecupPris The r recup pris.
+     * @return PrepaPaie Returns this Prepa paie.
+     */
+    public function setRRecupPris(?float $rRecupPris): PrepaPaie {
+        $this->rRecupPris = $rRecupPris;
+        return $this;
+    }
+
+    /**
      * Set the rc acquis.
      *
      * @param float|null $rcAcquis The rc acquis.
@@ -538,28 +559,6 @@ class PrepaPaie {
      */
     public function setRrPris(?float $rrPris): PrepaPaie {
         $this->rrPris = $rrPris;
-        return $this;
-    }
-
-    /**
-     * Set the r recup acquis.
-     *
-     * @param float|null $rRecupAcquis The r recup acquis.
-     * @return PrepaPaie Returns this Prepa paie.
-     */
-    public function setRRecupAcquis(?float $rRecupAcquis): PrepaPaie {
-        $this->rRecupAcquis = $rRecupAcquis;
-        return $this;
-    }
-
-    /**
-     * Set the r recup pris.
-     *
-     * @param float|null $rRecupPris The r recup pris.
-     * @return PrepaPaie Returns this Prepa paie.
-     */
-    public function setRRecupPris(?float $rRecupPris): PrepaPaie {
-        $this->rRecupPris = $rRecupPris;
         return $this;
     }
 

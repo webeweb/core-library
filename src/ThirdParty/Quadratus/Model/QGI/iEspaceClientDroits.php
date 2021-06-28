@@ -103,7 +103,6 @@ class iEspaceClientDroits {
      */
     private $password;
 
-
     /**
      * Constructor.
      */
@@ -116,7 +115,7 @@ class iEspaceClientDroits {
      *
      * @return string|null Returns the code collab messages.
      */
-    public function getCodeCollabMessages(): ?string{
+    public function getCodeCollabMessages(): ?string {
         return $this->codeCollabMessages;
     }
 
@@ -125,7 +124,7 @@ class iEspaceClientDroits {
      *
      * @return string|null Returns the code user.
      */
-    public function getCodeUser(): ?string{
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
@@ -134,7 +133,7 @@ class iEspaceClientDroits {
      *
      * @return string|null Returns the dossier client.
      */
-    public function getDossierClient(): ?string{
+    public function getDossierClient(): ?string {
         return $this->dossierClient;
     }
 
@@ -143,7 +142,7 @@ class iEspaceClientDroits {
      *
      * @return bool|null Returns the fct documents.
      */
-    public function getFctDocuments(): ?bool{
+    public function getFctDocuments(): ?bool {
         return $this->fctDocuments;
     }
 
@@ -152,7 +151,7 @@ class iEspaceClientDroits {
      *
      * @return int|null Returns the fct documents autre.
      */
-    public function getFctDocumentsAutre(): ?int{
+    public function getFctDocumentsAutre(): ?int {
         return $this->fctDocumentsAutre;
     }
 
@@ -161,7 +160,7 @@ class iEspaceClientDroits {
      *
      * @return int|null Returns the fct documents compta.
      */
-    public function getFctDocumentsCompta(): ?int{
+    public function getFctDocumentsCompta(): ?int {
         return $this->fctDocumentsCompta;
     }
 
@@ -170,7 +169,7 @@ class iEspaceClientDroits {
      *
      * @return int|null Returns the fct documents juridique.
      */
-    public function getFctDocumentsJuridique(): ?int{
+    public function getFctDocumentsJuridique(): ?int {
         return $this->fctDocumentsJuridique;
     }
 
@@ -179,7 +178,7 @@ class iEspaceClientDroits {
      *
      * @return int|null Returns the fct documents paie.
      */
-    public function getFctDocumentsPaie(): ?int{
+    public function getFctDocumentsPaie(): ?int {
         return $this->fctDocumentsPaie;
     }
 
@@ -188,7 +187,7 @@ class iEspaceClientDroits {
      *
      * @return bool|null Returns the fct infos.
      */
-    public function getFctInfos(): ?bool{
+    public function getFctInfos(): ?bool {
         return $this->fctInfos;
     }
 
@@ -197,7 +196,7 @@ class iEspaceClientDroits {
      *
      * @return int|null Returns the fct messagerie.
      */
-    public function getFctMessagerie(): ?int{
+    public function getFctMessagerie(): ?int {
         return $this->fctMessagerie;
     }
 
@@ -206,7 +205,7 @@ class iEspaceClientDroits {
      *
      * @return string|null Returns the nom user.
      */
-    public function getNomUser(): ?string{
+    public function getNomUser(): ?string {
         return $this->nomUser;
     }
 
@@ -215,7 +214,7 @@ class iEspaceClientDroits {
      *
      * @return string|null Returns the password.
      */
-    public function getPassword(): ?string{
+    public function getPassword(): ?string {
         return $this->password;
     }
 

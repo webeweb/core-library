@@ -61,7 +61,6 @@ class SaisiePrepaEntete {
      */
     private $widthBord;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class SaisiePrepaEntete {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -83,7 +82,7 @@ class SaisiePrepaEntete {
      *
      * @return bool|null Returns the desactive.
      */
-    public function getDesactive(): ?bool{
+    public function getDesactive(): ?bool {
         return $this->desactive;
     }
 
@@ -92,7 +91,7 @@ class SaisiePrepaEntete {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -101,7 +100,7 @@ class SaisiePrepaEntete {
      *
      * @return bool|null Returns the saisie abs cp.
      */
-    public function getSaisieAbsCp(): ?bool{
+    public function getSaisieAbsCp(): ?bool {
         return $this->saisieAbsCp;
     }
 
@@ -110,7 +109,7 @@ class SaisiePrepaEntete {
      *
      * @return bool|null Returns the saisie acompte.
      */
-    public function getSaisieAcompte(): ?bool{
+    public function getSaisieAcompte(): ?bool {
         return $this->saisieAcompte;
     }
 
@@ -119,7 +118,7 @@ class SaisiePrepaEntete {
      *
      * @return int|null Returns the width bord.
      */
-    public function getWidthBord(): ?int{
+    public function getWidthBord(): ?int {
         return $this->widthBord;
     }
 

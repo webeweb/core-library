@@ -33,7 +33,6 @@ class IntitCumulsLibelles {
      */
     private $numCumulBulletin;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class IntitCumulsLibelles {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -55,7 +54,7 @@ class IntitCumulsLibelles {
      *
      * @return int|null Returns the num cumul bulletin.
      */
-    public function getNumCumulBulletin(): ?int{
+    public function getNumCumulBulletin(): ?int {
         return $this->numCumulBulletin;
     }
 

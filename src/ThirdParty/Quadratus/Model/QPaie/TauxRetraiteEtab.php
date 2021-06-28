@@ -105,7 +105,6 @@ class TauxRetraiteEtab {
      */
     private $tauxRetTrDps;
 
-
     /**
      * Constructor.
      */
@@ -118,7 +117,7 @@ class TauxRetraiteEtab {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe(): ?DateTime{
+    public function getAPartirDe(): ?DateTime {
         return $this->aPartirDe;
     }
 
@@ -127,7 +126,7 @@ class TauxRetraiteEtab {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -136,7 +135,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr2 pp.
      */
-    public function getTauxRetTr2Pp(): ?float{
+    public function getTauxRetTr2Pp(): ?float {
         return $this->tauxRetTr2Pp;
     }
 
@@ -145,7 +144,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr2 ps.
      */
-    public function getTauxRetTr2Ps(): ?float{
+    public function getTauxRetTr2Ps(): ?float {
         return $this->tauxRetTr2Ps;
     }
 
@@ -154,7 +153,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr app.
      */
-    public function getTauxRetTrApp(): ?float{
+    public function getTauxRetTrApp(): ?float {
         return $this->tauxRetTrApp;
     }
 
@@ -163,7 +162,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr aps.
      */
-    public function getTauxRetTrAps(): ?float{
+    public function getTauxRetTrAps(): ?float {
         return $this->tauxRetTrAps;
     }
 
@@ -172,7 +171,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr bpp.
      */
-    public function getTauxRetTrBpp(): ?float{
+    public function getTauxRetTrBpp(): ?float {
         return $this->tauxRetTrBpp;
     }
 
@@ -181,7 +180,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr bps.
      */
-    public function getTauxRetTrBps(): ?float{
+    public function getTauxRetTrBps(): ?float {
         return $this->tauxRetTrBps;
     }
 
@@ -190,7 +189,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr cpp.
      */
-    public function getTauxRetTrCpp(): ?float{
+    public function getTauxRetTrCpp(): ?float {
         return $this->tauxRetTrCpp;
     }
 
@@ -199,7 +198,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr cps.
      */
-    public function getTauxRetTrCps(): ?float{
+    public function getTauxRetTrCps(): ?float {
         return $this->tauxRetTrCps;
     }
 
@@ -208,7 +207,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr dpp.
      */
-    public function getTauxRetTrDpp(): ?float{
+    public function getTauxRetTrDpp(): ?float {
         return $this->tauxRetTrDpp;
     }
 
@@ -217,7 +216,7 @@ class TauxRetraiteEtab {
      *
      * @return float|null Returns the taux ret tr dps.
      */
-    public function getTauxRetTrDps(): ?float{
+    public function getTauxRetTrDps(): ?float {
         return $this->tauxRetTrDps;
     }
 

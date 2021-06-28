@@ -211,27 +211,6 @@ class Dossier2 {
     private $dads1RemuPlus;
 
     /**
-     * Ds code collab.
-     *
-     * @var string|null
-     */
-    private $dsCodeCollab;
-
-    /**
-     * Ds date retour.
-     *
-     * @var DateTime|null
-     */
-    private $dsDateRetour;
-
-    /**
-     * Ds date sortie.
-     *
-     * @var DateTime|null
-     */
-    private $dsDateSortie;
-
-    /**
      * Date calcul prov cp.
      *
      * @var DateTime|null
@@ -307,6 +286,27 @@ class Dossier2 {
      * @var string|null
      */
     private $diffLettragePertes;
+
+    /**
+     * Ds code collab.
+     *
+     * @var string|null
+     */
+    private $dsCodeCollab;
+
+    /**
+     * Ds date retour.
+     *
+     * @var DateTime|null
+     */
+    private $dsDateRetour;
+
+    /**
+     * Ds date sortie.
+     *
+     * @var DateTime|null
+     */
+    private $dsDateSortie;
 
     /**
      * Ecart maxi lettrage auto.
@@ -519,18 +519,18 @@ class Dossier2 {
     private $provCpCptBrut;
 
     /**
-     * Prov cp cpt capcp.
-     *
-     * @var string|null
-     */
-    private $provCpCptCapcp;
-
-    /**
      * Prov cp cpt cap ch.
      *
      * @var string|null
      */
     private $provCpCptCapCh;
+
+    /**
+     * Prov cp cpt capcp.
+     *
+     * @var string|null
+     */
+    private $provCpCptCapcp;
 
     /**
      * Prov cp cpt charges.
@@ -566,6 +566,20 @@ class Dossier2 {
      * @var int|null
      */
     private $qimg2CptEnvoi;
+
+    /**
+     * Rapp dads1 obs.
+     *
+     * @var string|null
+     */
+    private $rappDads1Obs;
+
+    /**
+     * Relance adresse cpt.
+     *
+     * @var bool|null
+     */
+    private $relanceAdresseCpt;
 
     /**
      * Rff cpt exploitant.
@@ -617,18 +631,18 @@ class Dossier2 {
     private $rffLimite;
 
     /**
-     * Rff mtt rff.
-     *
-     * @var float|null
-     */
-    private $rffMttRff;
-
-    /**
      * Rff mtt regul.
      *
      * @var float|null
      */
     private $rffMttRegul;
+
+    /**
+     * Rff mtt rff.
+     *
+     * @var float|null
+     */
+    private $rffMttRff;
 
     /**
      * Rff num lot ecr.
@@ -643,20 +657,6 @@ class Dossier2 {
      * @var int|null
      */
     private $rffType;
-
-    /**
-     * Rapp dads1 obs.
-     *
-     * @var string|null
-     */
-    private $rappDads1Obs;
-
-    /**
-     * Relance adresse cpt.
-     *
-     * @var bool|null
-     */
-    private $relanceAdresseCpt;
 
     /**
      * Texte relance0.
@@ -707,7 +707,6 @@ class Dossier2 {
      */
     private $utiliseQuantite2;
 
-
     /**
      * Constructor.
      */
@@ -720,7 +719,7 @@ class Dossier2 {
      *
      * @return string|null Returns the annee recolte.
      */
-    public function getAnneeRecolte(): ?string{
+    public function getAnneeRecolte(): ?string {
         return $this->anneeRecolte;
     }
 
@@ -729,7 +728,7 @@ class Dossier2 {
      *
      * @return bool|null Returns the appliquer regroupement.
      */
-    public function getAppliquerRegroupement(): ?bool{
+    public function getAppliquerRegroupement(): ?bool {
         return $this->appliquerRegroupement;
     }
 
@@ -738,7 +737,7 @@ class Dossier2 {
      *
      * @return string|null Returns the cca memo.
      */
-    public function getCcaMemo(): ?string{
+    public function getCcaMemo(): ?string {
         return $this->ccaMemo;
     }
 
@@ -747,7 +746,7 @@ class Dossier2 {
      *
      * @return string|null Returns the classe4 client debut.
      */
-    public function getClasse4ClientDebut(): ?string{
+    public function getClasse4ClientDebut(): ?string {
         return $this->classe4ClientDebut;
     }
 
@@ -756,7 +755,7 @@ class Dossier2 {
      *
      * @return string|null Returns the classe4 client fin.
      */
-    public function getClasse4ClientFin(): ?string{
+    public function getClasse4ClientFin(): ?string {
         return $this->classe4ClientFin;
     }
 
@@ -765,7 +764,7 @@ class Dossier2 {
      *
      * @return string|null Returns the classe4 frn debut.
      */
-    public function getClasse4FrnDebut(): ?string{
+    public function getClasse4FrnDebut(): ?string {
         return $this->classe4FrnDebut;
     }
 
@@ -774,7 +773,7 @@ class Dossier2 {
      *
      * @return string|null Returns the classe4 frn fin.
      */
-    public function getClasse4FrnFin(): ?string{
+    public function getClasse4FrnFin(): ?string {
         return $this->classe4FrnFin;
     }
 
@@ -783,7 +782,7 @@ class Dossier2 {
      *
      * @return string|null Returns the codif classe0.
      */
-    public function getCodifClasse0(): ?string{
+    public function getCodifClasse0(): ?string {
         return $this->codifClasse0;
     }
 
@@ -792,7 +791,7 @@ class Dossier2 {
      *
      * @return string|null Returns the codif classe0 seule.
      */
-    public function getCodifClasse0Seule(): ?string{
+    public function getCodifClasse0Seule(): ?string {
         return $this->codifClasse0Seule;
     }
 
@@ -801,7 +800,7 @@ class Dossier2 {
      *
      * @return string|null Returns the codif classe9.
      */
-    public function getCodifClasse9(): ?string{
+    public function getCodifClasse9(): ?string {
         return $this->codifClasse9;
     }
 
@@ -810,7 +809,7 @@ class Dossier2 {
      *
      * @return string|null Returns the codif classe9 seule.
      */
-    public function getCodifClasse9Seule(): ?string{
+    public function getCodifClasse9Seule(): ?string {
         return $this->codifClasse9Seule;
     }
 
@@ -819,7 +818,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif client debut.
      */
-    public function getCollectifClientDebut(): ?string{
+    public function getCollectifClientDebut(): ?string {
         return $this->collectifClientDebut;
     }
 
@@ -828,7 +827,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif client defaut.
      */
-    public function getCollectifClientDefaut(): ?string{
+    public function getCollectifClientDefaut(): ?string {
         return $this->collectifClientDefaut;
     }
 
@@ -837,7 +836,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif client fin.
      */
-    public function getCollectifClientFin(): ?string{
+    public function getCollectifClientFin(): ?string {
         return $this->collectifClientFin;
     }
 
@@ -846,7 +845,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif frn debut.
      */
-    public function getCollectifFrnDebut(): ?string{
+    public function getCollectifFrnDebut(): ?string {
         return $this->collectifFrnDebut;
     }
 
@@ -855,7 +854,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif frn defaut.
      */
-    public function getCollectifFrnDefaut(): ?string{
+    public function getCollectifFrnDefaut(): ?string {
         return $this->collectifFrnDefaut;
     }
 
@@ -864,7 +863,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif frn fin.
      */
-    public function getCollectifFrnFin(): ?string{
+    public function getCollectifFrnFin(): ?string {
         return $this->collectifFrnFin;
     }
 
@@ -873,7 +872,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif soc debut.
      */
-    public function getCollectifSocDebut(): ?string{
+    public function getCollectifSocDebut(): ?string {
         return $this->collectifSocDebut;
     }
 
@@ -882,7 +881,7 @@ class Dossier2 {
      *
      * @return string|null Returns the collectif soc fin.
      */
-    public function getCollectifSocFin(): ?string{
+    public function getCollectifSocFin(): ?string {
         return $this->collectifSocFin;
     }
 
@@ -891,7 +890,7 @@ class Dossier2 {
      *
      * @return int|null Returns the combi lettrage auto.
      */
-    public function getCombiLettrageAuto(): ?int{
+    public function getCombiLettrageAuto(): ?int {
         return $this->combiLettrageAuto;
     }
 
@@ -900,7 +899,7 @@ class Dossier2 {
      *
      * @return string|null Returns the commentaire dossier.
      */
-    public function getCommentaireDossier(): ?string{
+    public function getCommentaireDossier(): ?string {
         return $this->commentaireDossier;
     }
 
@@ -909,7 +908,7 @@ class Dossier2 {
      *
      * @return string|null Returns the control salaire cpt ex.
      */
-    public function getControlSalaireCptEx(): ?string{
+    public function getControlSalaireCptEx(): ?string {
         return $this->controlSalaireCptEx;
     }
 
@@ -918,7 +917,7 @@ class Dossier2 {
      *
      * @return string|null Returns the control salaire obs.
      */
-    public function getControlSalaireObs(): ?string{
+    public function getControlSalaireObs(): ?string {
         return $this->controlSalaireObs;
     }
 
@@ -927,7 +926,7 @@ class Dossier2 {
      *
      * @return float|null Returns the dads1 livre paie.
      */
-    public function getDads1LivrePaie(): ?float{
+    public function getDads1LivrePaie(): ?float {
         return $this->dads1LivrePaie;
     }
 
@@ -936,7 +935,7 @@ class Dossier2 {
      *
      * @return float|null Returns the dads1 paie.
      */
-    public function getDads1Paie(): ?float{
+    public function getDads1Paie(): ?float {
         return $this->dads1Paie;
     }
 
@@ -945,7 +944,7 @@ class Dossier2 {
      *
      * @return float|null Returns the dads1 remu moins.
      */
-    public function getDads1RemuMoins(): ?float{
+    public function getDads1RemuMoins(): ?float {
         return $this->dads1RemuMoins;
     }
 
@@ -954,35 +953,8 @@ class Dossier2 {
      *
      * @return float|null Returns the dads1 remu plus.
      */
-    public function getDads1RemuPlus(): ?float{
+    public function getDads1RemuPlus(): ?float {
         return $this->dads1RemuPlus;
-    }
-
-    /**
-     * Get the ds code collab.
-     *
-     * @return string|null Returns the ds code collab.
-     */
-    public function getDsCodeCollab(): ?string{
-        return $this->dsCodeCollab;
-    }
-
-    /**
-     * Get the ds date retour.
-     *
-     * @return DateTime|null Returns the ds date retour.
-     */
-    public function getDsDateRetour(): ?DateTime{
-        return $this->dsDateRetour;
-    }
-
-    /**
-     * Get the ds date sortie.
-     *
-     * @return DateTime|null Returns the ds date sortie.
-     */
-    public function getDsDateSortie(): ?DateTime{
-        return $this->dsDateSortie;
     }
 
     /**
@@ -990,7 +962,7 @@ class Dossier2 {
      *
      * @return DateTime|null Returns the date calcul prov cp.
      */
-    public function getDateCalculProvCp(): ?DateTime{
+    public function getDateCalculProvCp(): ?DateTime {
         return $this->dateCalculProvCp;
     }
 
@@ -999,7 +971,7 @@ class Dossier2 {
      *
      * @return DateTime|null Returns the date publication.
      */
-    public function getDatePublication(): ?DateTime{
+    public function getDatePublication(): ?DateTime {
         return $this->datePublication;
     }
 
@@ -1008,7 +980,7 @@ class Dossier2 {
      *
      * @return DateTime|null Returns the date raz ecritures.
      */
-    public function getDateRazEcritures(): ?DateTime{
+    public function getDateRazEcritures(): ?DateTime {
         return $this->dateRazEcritures;
     }
 
@@ -1017,7 +989,7 @@ class Dossier2 {
      *
      * @return string|null Returns the dernier compte client.
      */
-    public function getDernierCompteClient(): ?string{
+    public function getDernierCompteClient(): ?string {
         return $this->dernierCompteClient;
     }
 
@@ -1026,7 +998,7 @@ class Dossier2 {
      *
      * @return string|null Returns the dernier compte frn.
      */
-    public function getDernierCompteFrn(): ?string{
+    public function getDernierCompteFrn(): ?string {
         return $this->dernierCompteFrn;
     }
 
@@ -1035,7 +1007,7 @@ class Dossier2 {
      *
      * @return string|null Returns the diff lettrage code journal.
      */
-    public function getDiffLettrageCodeJournal(): ?string{
+    public function getDiffLettrageCodeJournal(): ?string {
         return $this->diffLettrageCodeJournal;
     }
 
@@ -1044,7 +1016,7 @@ class Dossier2 {
      *
      * @return string|null Returns the diff lettrage code libelle.
      */
-    public function getDiffLettrageCodeLibelle(): ?string{
+    public function getDiffLettrageCodeLibelle(): ?string {
         return $this->diffLettrageCodeLibelle;
     }
 
@@ -1053,7 +1025,7 @@ class Dossier2 {
      *
      * @return int|null Returns the diff lettrage folio.
      */
-    public function getDiffLettrageFolio(): ?int{
+    public function getDiffLettrageFolio(): ?int {
         return $this->diffLettrageFolio;
     }
 
@@ -1062,7 +1034,7 @@ class Dossier2 {
      *
      * @return string|null Returns the diff lettrage gains.
      */
-    public function getDiffLettrageGains(): ?string{
+    public function getDiffLettrageGains(): ?string {
         return $this->diffLettrageGains;
     }
 
@@ -1071,7 +1043,7 @@ class Dossier2 {
      *
      * @return string|null Returns the diff lettrage libelle.
      */
-    public function getDiffLettrageLibelle(): ?string{
+    public function getDiffLettrageLibelle(): ?string {
         return $this->diffLettrageLibelle;
     }
 
@@ -1080,8 +1052,35 @@ class Dossier2 {
      *
      * @return string|null Returns the diff lettrage pertes.
      */
-    public function getDiffLettragePertes(): ?string{
+    public function getDiffLettragePertes(): ?string {
         return $this->diffLettragePertes;
+    }
+
+    /**
+     * Get the ds code collab.
+     *
+     * @return string|null Returns the ds code collab.
+     */
+    public function getDsCodeCollab(): ?string {
+        return $this->dsCodeCollab;
+    }
+
+    /**
+     * Get the ds date retour.
+     *
+     * @return DateTime|null Returns the ds date retour.
+     */
+    public function getDsDateRetour(): ?DateTime {
+        return $this->dsDateRetour;
+    }
+
+    /**
+     * Get the ds date sortie.
+     *
+     * @return DateTime|null Returns the ds date sortie.
+     */
+    public function getDsDateSortie(): ?DateTime {
+        return $this->dsDateSortie;
     }
 
     /**
@@ -1089,7 +1088,7 @@ class Dossier2 {
      *
      * @return float|null Returns the ecart maxi lettrage auto.
      */
-    public function getEcartMaxiLettrageAuto(): ?float{
+    public function getEcartMaxiLettrageAuto(): ?float {
         return $this->ecartMaxiLettrageAuto;
     }
 
@@ -1098,7 +1097,7 @@ class Dossier2 {
      *
      * @return float|null Returns the ecart mini ctrl tva.
      */
-    public function getEcartMiniCtrlTva(): ?float{
+    public function getEcartMiniCtrlTva(): ?float {
         return $this->ecartMiniCtrlTva;
     }
 
@@ -1107,7 +1106,7 @@ class Dossier2 {
      *
      * @return bool|null Returns the editer en cfa.
      */
-    public function getEditerEnCfa(): ?bool{
+    public function getEditerEnCfa(): ?bool {
         return $this->editerEnCfa;
     }
 
@@ -1116,7 +1115,7 @@ class Dossier2 {
      *
      * @return string|null Returns the etat prov cp obs.
      */
-    public function getEtatProvCpObs(): ?string{
+    public function getEtatProvCpObs(): ?string {
         return $this->etatProvCpObs;
     }
 
@@ -1125,7 +1124,7 @@ class Dossier2 {
      *
      * @return string|null Returns the faire controle lettrage.
      */
-    public function getFaireControleLettrage(): ?string{
+    public function getFaireControleLettrage(): ?string {
         return $this->faireControleLettrage;
     }
 
@@ -1134,7 +1133,7 @@ class Dossier2 {
      *
      * @return int|null Returns the increment compte auto.
      */
-    public function getIncrementCompteAuto(): ?int{
+    public function getIncrementCompteAuto(): ?int {
         return $this->incrementCompteAuto;
     }
 
@@ -1143,7 +1142,7 @@ class Dossier2 {
      *
      * @return bool|null Returns the libelle plus de30 carac.
      */
-    public function getLibellePlusDe30Carac(): ?bool{
+    public function getLibellePlusDe30Carac(): ?bool {
         return $this->libellePlusDe30Carac;
     }
 
@@ -1152,7 +1151,7 @@ class Dossier2 {
      *
      * @return bool|null Returns the lien sai immos.
      */
-    public function getLienSaiImmos(): ?bool{
+    public function getLienSaiImmos(): ?bool {
         return $this->lienSaiImmos;
     }
 
@@ -1161,7 +1160,7 @@ class Dossier2 {
      *
      * @return int|null Returns the longueur piece lettrage.
      */
-    public function getLongueurPieceLettrage(): ?int{
+    public function getLongueurPieceLettrage(): ?int {
         return $this->longueurPieceLettrage;
     }
 
@@ -1170,7 +1169,7 @@ class Dossier2 {
      *
      * @return int|null Returns the nb comptes raz.
      */
-    public function getNbComptesRaz(): ?int{
+    public function getNbComptesRaz(): ?int {
         return $this->nbComptesRaz;
     }
 
@@ -1179,7 +1178,7 @@ class Dossier2 {
      *
      * @return string|null Returns the nb decimales mt.
      */
-    public function getNbDecimalesMt(): ?string{
+    public function getNbDecimalesMt(): ?string {
         return $this->nbDecimalesMt;
     }
 
@@ -1188,7 +1187,7 @@ class Dossier2 {
      *
      * @return int|null Returns the nb ecr a facturer cloture.
      */
-    public function getNbEcrAFacturerCloture(): ?int{
+    public function getNbEcrAFacturerCloture(): ?int {
         return $this->nbEcrAFacturerCloture;
     }
 
@@ -1197,7 +1196,7 @@ class Dossier2 {
      *
      * @return int|null Returns the nb ecritures raz.
      */
-    public function getNbEcrituresRaz(): ?int{
+    public function getNbEcrituresRaz(): ?int {
         return $this->nbEcrituresRaz;
     }
 
@@ -1206,7 +1205,7 @@ class Dossier2 {
      *
      * @return float|null Returns the nb jour base cp.
      */
-    public function getNbJourBaseCp(): ?float{
+    public function getNbJourBaseCp(): ?float {
         return $this->nbJourBaseCp;
     }
 
@@ -1215,7 +1214,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe0.
      */
-    public function getNivRuptClasse0(): ?string{
+    public function getNivRuptClasse0(): ?string {
         return $this->nivRuptClasse0;
     }
 
@@ -1224,7 +1223,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe1.
      */
-    public function getNivRuptClasse1(): ?string{
+    public function getNivRuptClasse1(): ?string {
         return $this->nivRuptClasse1;
     }
 
@@ -1233,7 +1232,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe2.
      */
-    public function getNivRuptClasse2(): ?string{
+    public function getNivRuptClasse2(): ?string {
         return $this->nivRuptClasse2;
     }
 
@@ -1242,7 +1241,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe3.
      */
-    public function getNivRuptClasse3(): ?string{
+    public function getNivRuptClasse3(): ?string {
         return $this->nivRuptClasse3;
     }
 
@@ -1251,7 +1250,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe4.
      */
-    public function getNivRuptClasse4(): ?string{
+    public function getNivRuptClasse4(): ?string {
         return $this->nivRuptClasse4;
     }
 
@@ -1260,7 +1259,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe5.
      */
-    public function getNivRuptClasse5(): ?string{
+    public function getNivRuptClasse5(): ?string {
         return $this->nivRuptClasse5;
     }
 
@@ -1269,7 +1268,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe6.
      */
-    public function getNivRuptClasse6(): ?string{
+    public function getNivRuptClasse6(): ?string {
         return $this->nivRuptClasse6;
     }
 
@@ -1278,7 +1277,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe7.
      */
-    public function getNivRuptClasse7(): ?string{
+    public function getNivRuptClasse7(): ?string {
         return $this->nivRuptClasse7;
     }
 
@@ -1287,7 +1286,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe8.
      */
-    public function getNivRuptClasse8(): ?string{
+    public function getNivRuptClasse8(): ?string {
         return $this->nivRuptClasse8;
     }
 
@@ -1296,7 +1295,7 @@ class Dossier2 {
      *
      * @return string|null Returns the niv rupt classe9.
      */
-    public function getNivRuptClasse9(): ?string{
+    public function getNivRuptClasse9(): ?string {
         return $this->nivRuptClasse9;
     }
 
@@ -1305,7 +1304,7 @@ class Dossier2 {
      *
      * @return int|null Returns the position piece lettrage.
      */
-    public function getPositionPieceLettrage(): ?int{
+    public function getPositionPieceLettrage(): ?int {
         return $this->positionPieceLettrage;
     }
 
@@ -1314,7 +1313,7 @@ class Dossier2 {
      *
      * @return int|null Returns the prochain lot ecrit.
      */
-    public function getProchainLotEcrit(): ?int{
+    public function getProchainLotEcrit(): ?int {
         return $this->prochainLotEcrit;
     }
 
@@ -1323,7 +1322,7 @@ class Dossier2 {
      *
      * @return int|null Returns the prochain lot factor.
      */
-    public function getProchainLotFactor(): ?int{
+    public function getProchainLotFactor(): ?int {
         return $this->prochainLotFactor;
     }
 
@@ -1332,7 +1331,7 @@ class Dossier2 {
      *
      * @return int|null Returns the prochain num ecr eco.
      */
-    public function getProchainNumEcrEco(): ?int{
+    public function getProchainNumEcrEco(): ?int {
         return $this->prochainNumEcrEco;
     }
 
@@ -1341,7 +1340,7 @@ class Dossier2 {
      *
      * @return int|null Returns the prochain num lot vmp.
      */
-    public function getProchainNumLotVmp(): ?int{
+    public function getProchainNumLotVmp(): ?int {
         return $this->prochainNumLotVmp;
     }
 
@@ -1350,17 +1349,8 @@ class Dossier2 {
      *
      * @return string|null Returns the prov cp cpt brut.
      */
-    public function getProvCpCptBrut(): ?string{
+    public function getProvCpCptBrut(): ?string {
         return $this->provCpCptBrut;
-    }
-
-    /**
-     * Get the prov cp cpt capcp.
-     *
-     * @return string|null Returns the prov cp cpt capcp.
-     */
-    public function getProvCpCptCapcp(): ?string{
-        return $this->provCpCptCapcp;
     }
 
     /**
@@ -1368,8 +1358,17 @@ class Dossier2 {
      *
      * @return string|null Returns the prov cp cpt cap ch.
      */
-    public function getProvCpCptCapCh(): ?string{
+    public function getProvCpCptCapCh(): ?string {
         return $this->provCpCptCapCh;
+    }
+
+    /**
+     * Get the prov cp cpt capcp.
+     *
+     * @return string|null Returns the prov cp cpt capcp.
+     */
+    public function getProvCpCptCapcp(): ?string {
+        return $this->provCpCptCapcp;
     }
 
     /**
@@ -1377,7 +1376,7 @@ class Dossier2 {
      *
      * @return string|null Returns the prov cp cpt charges.
      */
-    public function getProvCpCptCharges(): ?string{
+    public function getProvCpCptCharges(): ?string {
         return $this->provCpCptCharges;
     }
 
@@ -1386,7 +1385,7 @@ class Dossier2 {
      *
      * @return float|null Returns the prov mini.
      */
-    public function getProvMini(): ?float{
+    public function getProvMini(): ?float {
         return $this->provMini;
     }
 
@@ -1395,7 +1394,7 @@ class Dossier2 {
      *
      * @return bool|null Returns the publication.
      */
-    public function getPublication(): ?bool{
+    public function getPublication(): ?bool {
         return $this->publication;
     }
 
@@ -1404,7 +1403,7 @@ class Dossier2 {
      *
      * @return int|null Returns the qimg2 cpt encours.
      */
-    public function getQimg2CptEncours(): ?int{
+    public function getQimg2CptEncours(): ?int {
         return $this->qimg2CptEncours;
     }
 
@@ -1413,107 +1412,8 @@ class Dossier2 {
      *
      * @return int|null Returns the qimg2 cpt envoi.
      */
-    public function getQimg2CptEnvoi(): ?int{
+    public function getQimg2CptEnvoi(): ?int {
         return $this->qimg2CptEnvoi;
-    }
-
-    /**
-     * Get the rff cpt exploitant.
-     *
-     * @return string|null Returns the rff cpt exploitant.
-     */
-    public function getRffCptExploitant(): ?string{
-        return $this->rffCptExploitant;
-    }
-
-    /**
-     * Get the rff cpt interets.
-     *
-     * @return string|null Returns the rff cpt interets.
-     */
-    public function getRffCptInterets(): ?string{
-        return $this->rffCptInterets;
-    }
-
-    /**
-     * Get the rff cpt regul.
-     *
-     * @return string|null Returns the rff cpt regul.
-     */
-    public function getRffCptRegul(): ?string{
-        return $this->rffCptRegul;
-    }
-
-    /**
-     * Get the rff date lot ecr.
-     *
-     * @return DateTime|null Returns the rff date lot ecr.
-     */
-    public function getRffDateLotEcr(): ?DateTime{
-        return $this->rffDateLotEcr;
-    }
-
-    /**
-     * Get the rff decouverts avances.
-     *
-     * @return float|null Returns the rff decouverts avances.
-     */
-    public function getRffDecouvertsAvances(): ?float{
-        return $this->rffDecouvertsAvances;
-    }
-
-    /**
-     * Get the rff interets emprunts.
-     *
-     * @return float|null Returns the rff interets emprunts.
-     */
-    public function getRffInteretsEmprunts(): ?float{
-        return $this->rffInteretsEmprunts;
-    }
-
-    /**
-     * Get the rff limite.
-     *
-     * @return float|null Returns the rff limite.
-     */
-    public function getRffLimite(): ?float{
-        return $this->rffLimite;
-    }
-
-    /**
-     * Get the rff mtt rff.
-     *
-     * @return float|null Returns the rff mtt rff.
-     */
-    public function getRffMttRff(): ?float{
-        return $this->rffMttRff;
-    }
-
-    /**
-     * Get the rff mtt regul.
-     *
-     * @return float|null Returns the rff mtt regul.
-     */
-    public function getRffMttRegul(): ?float{
-        return $this->rffMttRegul;
-    }
-
-    /**
-     * Get the rff num lot ecr.
-     *
-     * @return int|null Returns the rff num lot ecr.
-     */
-    public function getRffNumLotEcr(): ?int{
-        return $this->rffNumLotEcr;
-    }
-
-    /**
-     * Get the rff type.
-     *
-     * @return int|null Returns the rff type.
-     */
-    public function getRffType(): ?int{
-        return $this->rffType;
     }
 
     /**
@@ -1521,7 +1421,7 @@ class Dossier2 {
      *
      * @return string|null Returns the rapp dads1 obs.
      */
-    public function getRappDads1Obs(): ?string{
+    public function getRappDads1Obs(): ?string {
         return $this->rappDads1Obs;
     }
 
@@ -1530,8 +1430,107 @@ class Dossier2 {
      *
      * @return bool|null Returns the relance adresse cpt.
      */
-    public function getRelanceAdresseCpt(): ?bool{
+    public function getRelanceAdresseCpt(): ?bool {
         return $this->relanceAdresseCpt;
+    }
+
+    /**
+     * Get the rff cpt exploitant.
+     *
+     * @return string|null Returns the rff cpt exploitant.
+     */
+    public function getRffCptExploitant(): ?string {
+        return $this->rffCptExploitant;
+    }
+
+    /**
+     * Get the rff cpt interets.
+     *
+     * @return string|null Returns the rff cpt interets.
+     */
+    public function getRffCptInterets(): ?string {
+        return $this->rffCptInterets;
+    }
+
+    /**
+     * Get the rff cpt regul.
+     *
+     * @return string|null Returns the rff cpt regul.
+     */
+    public function getRffCptRegul(): ?string {
+        return $this->rffCptRegul;
+    }
+
+    /**
+     * Get the rff date lot ecr.
+     *
+     * @return DateTime|null Returns the rff date lot ecr.
+     */
+    public function getRffDateLotEcr(): ?DateTime {
+        return $this->rffDateLotEcr;
+    }
+
+    /**
+     * Get the rff decouverts avances.
+     *
+     * @return float|null Returns the rff decouverts avances.
+     */
+    public function getRffDecouvertsAvances(): ?float {
+        return $this->rffDecouvertsAvances;
+    }
+
+    /**
+     * Get the rff interets emprunts.
+     *
+     * @return float|null Returns the rff interets emprunts.
+     */
+    public function getRffInteretsEmprunts(): ?float {
+        return $this->rffInteretsEmprunts;
+    }
+
+    /**
+     * Get the rff limite.
+     *
+     * @return float|null Returns the rff limite.
+     */
+    public function getRffLimite(): ?float {
+        return $this->rffLimite;
+    }
+
+    /**
+     * Get the rff mtt regul.
+     *
+     * @return float|null Returns the rff mtt regul.
+     */
+    public function getRffMttRegul(): ?float {
+        return $this->rffMttRegul;
+    }
+
+    /**
+     * Get the rff mtt rff.
+     *
+     * @return float|null Returns the rff mtt rff.
+     */
+    public function getRffMttRff(): ?float {
+        return $this->rffMttRff;
+    }
+
+    /**
+     * Get the rff num lot ecr.
+     *
+     * @return int|null Returns the rff num lot ecr.
+     */
+    public function getRffNumLotEcr(): ?int {
+        return $this->rffNumLotEcr;
+    }
+
+    /**
+     * Get the rff type.
+     *
+     * @return int|null Returns the rff type.
+     */
+    public function getRffType(): ?int {
+        return $this->rffType;
     }
 
     /**
@@ -1539,7 +1538,7 @@ class Dossier2 {
      *
      * @return string|null Returns the texte relance0.
      */
-    public function getTexteRelance0(): ?string{
+    public function getTexteRelance0(): ?string {
         return $this->texteRelance0;
     }
 
@@ -1548,7 +1547,7 @@ class Dossier2 {
      *
      * @return string|null Returns the texte relance1.
      */
-    public function getTexteRelance1(): ?string{
+    public function getTexteRelance1(): ?string {
         return $this->texteRelance1;
     }
 
@@ -1557,7 +1556,7 @@ class Dossier2 {
      *
      * @return string|null Returns the texte relance2.
      */
-    public function getTexteRelance2(): ?string{
+    public function getTexteRelance2(): ?string {
         return $this->texteRelance2;
     }
 
@@ -1566,7 +1565,7 @@ class Dossier2 {
      *
      * @return string|null Returns the texte relance3.
      */
-    public function getTexteRelance3(): ?string{
+    public function getTexteRelance3(): ?string {
         return $this->texteRelance3;
     }
 
@@ -1575,7 +1574,7 @@ class Dossier2 {
      *
      * @return string|null Returns the texte relance4.
      */
-    public function getTexteRelance4(): ?string{
+    public function getTexteRelance4(): ?string {
         return $this->texteRelance4;
     }
 
@@ -1584,7 +1583,7 @@ class Dossier2 {
      *
      * @return string|null Returns the treso comptes a exclure.
      */
-    public function getTresoComptesAExclure(): ?string{
+    public function getTresoComptesAExclure(): ?string {
         return $this->tresoComptesAExclure;
     }
 
@@ -1593,7 +1592,7 @@ class Dossier2 {
      *
      * @return bool|null Returns the utilise quantite2.
      */
-    public function getUtiliseQuantite2(): ?bool{
+    public function getUtiliseQuantite2(): ?bool {
         return $this->utiliseQuantite2;
     }
 
@@ -1895,39 +1894,6 @@ class Dossier2 {
     }
 
     /**
-     * Set the ds code collab.
-     *
-     * @param string|null $dsCodeCollab The ds code collab.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setDsCodeCollab(?string $dsCodeCollab): Dossier2 {
-        $this->dsCodeCollab = $dsCodeCollab;
-        return $this;
-    }
-
-    /**
-     * Set the ds date retour.
-     *
-     * @param DateTime|null $dsDateRetour The ds date retour.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setDsDateRetour(?DateTime $dsDateRetour): Dossier2 {
-        $this->dsDateRetour = $dsDateRetour;
-        return $this;
-    }
-
-    /**
-     * Set the ds date sortie.
-     *
-     * @param DateTime|null $dsDateSortie The ds date sortie.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setDsDateSortie(?DateTime $dsDateSortie): Dossier2 {
-        $this->dsDateSortie = $dsDateSortie;
-        return $this;
-    }
-
-    /**
      * Set the date calcul prov cp.
      *
      * @param DateTime|null $dateCalculProvCp The date calcul prov cp.
@@ -2045,6 +2011,39 @@ class Dossier2 {
      */
     public function setDiffLettragePertes(?string $diffLettragePertes): Dossier2 {
         $this->diffLettragePertes = $diffLettragePertes;
+        return $this;
+    }
+
+    /**
+     * Set the ds code collab.
+     *
+     * @param string|null $dsCodeCollab The ds code collab.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setDsCodeCollab(?string $dsCodeCollab): Dossier2 {
+        $this->dsCodeCollab = $dsCodeCollab;
+        return $this;
+    }
+
+    /**
+     * Set the ds date retour.
+     *
+     * @param DateTime|null $dsDateRetour The ds date retour.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setDsDateRetour(?DateTime $dsDateRetour): Dossier2 {
+        $this->dsDateRetour = $dsDateRetour;
+        return $this;
+    }
+
+    /**
+     * Set the ds date sortie.
+     *
+     * @param DateTime|null $dsDateSortie The ds date sortie.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setDsDateSortie(?DateTime $dsDateSortie): Dossier2 {
+        $this->dsDateSortie = $dsDateSortie;
         return $this;
     }
 
@@ -2379,17 +2378,6 @@ class Dossier2 {
     }
 
     /**
-     * Set the prov cp cpt capcp.
-     *
-     * @param string|null $provCpCptCapcp The prov cp cpt capcp.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setProvCpCptCapcp(?string $provCpCptCapcp): Dossier2 {
-        $this->provCpCptCapcp = $provCpCptCapcp;
-        return $this;
-    }
-
-    /**
      * Set the prov cp cpt cap ch.
      *
      * @param string|null $provCpCptCapCh The prov cp cpt cap ch.
@@ -2397,6 +2385,17 @@ class Dossier2 {
      */
     public function setProvCpCptCapCh(?string $provCpCptCapCh): Dossier2 {
         $this->provCpCptCapCh = $provCpCptCapCh;
+        return $this;
+    }
+
+    /**
+     * Set the prov cp cpt capcp.
+     *
+     * @param string|null $provCpCptCapcp The prov cp cpt capcp.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setProvCpCptCapcp(?string $provCpCptCapcp): Dossier2 {
+        $this->provCpCptCapcp = $provCpCptCapcp;
         return $this;
     }
 
@@ -2452,6 +2451,28 @@ class Dossier2 {
      */
     public function setQimg2CptEnvoi(?int $qimg2CptEnvoi): Dossier2 {
         $this->qimg2CptEnvoi = $qimg2CptEnvoi;
+        return $this;
+    }
+
+    /**
+     * Set the rapp dads1 obs.
+     *
+     * @param string|null $rappDads1Obs The rapp dads1 obs.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setRappDads1Obs(?string $rappDads1Obs): Dossier2 {
+        $this->rappDads1Obs = $rappDads1Obs;
+        return $this;
+    }
+
+    /**
+     * Set the relance adresse cpt.
+     *
+     * @param bool|null $relanceAdresseCpt The relance adresse cpt.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setRelanceAdresseCpt(?bool $relanceAdresseCpt): Dossier2 {
+        $this->relanceAdresseCpt = $relanceAdresseCpt;
         return $this;
     }
 
@@ -2533,17 +2554,6 @@ class Dossier2 {
     }
 
     /**
-     * Set the rff mtt rff.
-     *
-     * @param float|null $rffMttRff The rff mtt rff.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setRffMttRff(?float $rffMttRff): Dossier2 {
-        $this->rffMttRff = $rffMttRff;
-        return $this;
-    }
-
-    /**
      * Set the rff mtt regul.
      *
      * @param float|null $rffMttRegul The rff mtt regul.
@@ -2551,6 +2561,17 @@ class Dossier2 {
      */
     public function setRffMttRegul(?float $rffMttRegul): Dossier2 {
         $this->rffMttRegul = $rffMttRegul;
+        return $this;
+    }
+
+    /**
+     * Set the rff mtt rff.
+     *
+     * @param float|null $rffMttRff The rff mtt rff.
+     * @return Dossier2 Returns this Dossier2.
+     */
+    public function setRffMttRff(?float $rffMttRff): Dossier2 {
+        $this->rffMttRff = $rffMttRff;
         return $this;
     }
 
@@ -2573,28 +2594,6 @@ class Dossier2 {
      */
     public function setRffType(?int $rffType): Dossier2 {
         $this->rffType = $rffType;
-        return $this;
-    }
-
-    /**
-     * Set the rapp dads1 obs.
-     *
-     * @param string|null $rappDads1Obs The rapp dads1 obs.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setRappDads1Obs(?string $rappDads1Obs): Dossier2 {
-        $this->rappDads1Obs = $rappDads1Obs;
-        return $this;
-    }
-
-    /**
-     * Set the relance adresse cpt.
-     *
-     * @param bool|null $relanceAdresseCpt The relance adresse cpt.
-     * @return Dossier2 Returns this Dossier2.
-     */
-    public function setRelanceAdresseCpt(?bool $relanceAdresseCpt): Dossier2 {
-        $this->relanceAdresseCpt = $relanceAdresseCpt;
         return $this;
     }
 

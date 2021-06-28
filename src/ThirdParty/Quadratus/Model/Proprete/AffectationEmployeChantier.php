@@ -63,7 +63,6 @@ class AffectationEmployeChantier {
      */
     private $dateFinAffectation;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class AffectationEmployeChantier {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -85,7 +84,7 @@ class AffectationEmployeChantier {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -94,7 +93,7 @@ class AffectationEmployeChantier {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -103,7 +102,7 @@ class AffectationEmployeChantier {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -112,7 +111,7 @@ class AffectationEmployeChantier {
      *
      * @return DateTime|null Returns the date affectation.
      */
-    public function getDateAffectation(): ?DateTime{
+    public function getDateAffectation(): ?DateTime {
         return $this->dateAffectation;
     }
 
@@ -121,7 +120,7 @@ class AffectationEmployeChantier {
      *
      * @return DateTime|null Returns the date fin affectation.
      */
-    public function getDateFinAffectation(): ?DateTime{
+    public function getDateFinAffectation(): ?DateTime {
         return $this->dateFinAffectation;
     }
 

@@ -33,7 +33,6 @@ class RegroupementLibelles {
      */
     private $numRegroupement;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class RegroupementLibelles {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -55,7 +54,7 @@ class RegroupementLibelles {
      *
      * @return int|null Returns the num regroupement.
      */
-    public function getNumRegroupement(): ?int{
+    public function getNumRegroupement(): ?int {
         return $this->numRegroupement;
     }
 

@@ -63,7 +63,6 @@ class Previsionnel {
      */
     private $numeroSemaine;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class Previsionnel {
      *
      * @return int|null Returns the annee.
      */
-    public function getAnnee(): ?int{
+    public function getAnnee(): ?int {
         return $this->annee;
     }
 
@@ -85,7 +84,7 @@ class Previsionnel {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -94,7 +93,7 @@ class Previsionnel {
      *
      * @return DateTime|null Returns the debut semaine.
      */
-    public function getDebutSemaine(): ?DateTime{
+    public function getDebutSemaine(): ?DateTime {
         return $this->debutSemaine;
     }
 
@@ -103,7 +102,7 @@ class Previsionnel {
      *
      * @return float|null Returns the horaire prevu.
      */
-    public function getHorairePrevu(): ?float{
+    public function getHorairePrevu(): ?float {
         return $this->horairePrevu;
     }
 
@@ -112,7 +111,7 @@ class Previsionnel {
      *
      * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType(): ?int{
+    public function getNumeroGrilleType(): ?int {
         return $this->numeroGrilleType;
     }
 
@@ -121,7 +120,7 @@ class Previsionnel {
      *
      * @return string|null Returns the numero semaine.
      */
-    public function getNumeroSemaine(): ?string{
+    public function getNumeroSemaine(): ?string {
         return $this->numeroSemaine;
     }
 

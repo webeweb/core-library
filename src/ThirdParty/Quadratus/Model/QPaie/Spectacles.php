@@ -49,7 +49,6 @@ class Spectacles {
      */
     private $numObjet;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class Spectacles {
      *
      * @return DateTime|null Returns the dt debut.
      */
-    public function getDtDebut(): ?DateTime{
+    public function getDtDebut(): ?DateTime {
         return $this->dtDebut;
     }
 
@@ -71,7 +70,7 @@ class Spectacles {
      *
      * @return DateTime|null Returns the dt fin.
      */
-    public function getDtFin(): ?DateTime{
+    public function getDtFin(): ?DateTime {
         return $this->dtFin;
     }
 
@@ -80,7 +79,7 @@ class Spectacles {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -89,7 +88,7 @@ class Spectacles {
      *
      * @return string|null Returns the num objet.
      */
-    public function getNumObjet(): ?string{
+    public function getNumObjet(): ?string {
         return $this->numObjet;
     }
 

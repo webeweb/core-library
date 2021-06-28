@@ -201,7 +201,6 @@ class Organismes {
      */
     private $telepaiement;
 
-
     /**
      * Constructor.
      */
@@ -214,7 +213,7 @@ class Organismes {
      *
      * @return string|null Returns the centre payeur.
      */
-    public function getCentrePayeur(): ?string{
+    public function getCentrePayeur(): ?string {
         return $this->centrePayeur;
     }
 
@@ -223,7 +222,7 @@ class Organismes {
      *
      * @return string|null Returns the code cat cadre.
      */
-    public function getCodeCatCadre(): ?string{
+    public function getCodeCatCadre(): ?string {
         return $this->codeCatCadre;
     }
 
@@ -232,7 +231,7 @@ class Organismes {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -241,7 +240,7 @@ class Organismes {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -250,7 +249,7 @@ class Organismes {
      *
      * @return string|null Returns the code non cadre.
      */
-    public function getCodeNonCadre(): ?string{
+    public function getCodeNonCadre(): ?string {
         return $this->codeNonCadre;
     }
 
@@ -259,7 +258,7 @@ class Organismes {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -268,7 +267,7 @@ class Organismes {
      *
      * @return string|null Returns the compte charge.
      */
-    public function getCompteCharge(): ?string{
+    public function getCompteCharge(): ?string {
         return $this->compteCharge;
     }
 
@@ -277,7 +276,7 @@ class Organismes {
      *
      * @return string|null Returns the compte tiers.
      */
-    public function getCompteTiers(): ?string{
+    public function getCompteTiers(): ?string {
         return $this->compteTiers;
     }
 
@@ -286,7 +285,7 @@ class Organismes {
      *
      * @return bool|null Returns the cot assedic par urssaf.
      */
-    public function getCotAssedicParUrssaf(): ?bool{
+    public function getCotAssedicParUrssaf(): ?bool {
         return $this->cotAssedicParUrssaf;
     }
 
@@ -295,7 +294,7 @@ class Organismes {
      *
      * @return bool|null Returns the cotitel.
      */
-    public function getCotitel(): ?bool{
+    public function getCotitel(): ?bool {
         return $this->cotitel;
     }
 
@@ -304,7 +303,7 @@ class Organismes {
      *
      * @return string|null Returns the doss cadre.
      */
-    public function getDossCadre(): ?string{
+    public function getDossCadre(): ?string {
         return $this->dossCadre;
     }
 
@@ -313,7 +312,7 @@ class Organismes {
      *
      * @return string|null Returns the doss non cadre.
      */
-    public function getDossNonCadre(): ?string{
+    public function getDossNonCadre(): ?string {
         return $this->dossNonCadre;
     }
 
@@ -322,7 +321,7 @@ class Organismes {
      *
      * @return bool|null Returns the edition ducs.
      */
-    public function getEditionDucs(): ?bool{
+    public function getEditionDucs(): ?bool {
         return $this->editionDucs;
     }
 
@@ -331,7 +330,7 @@ class Organismes {
      *
      * @return bool|null Returns the gestion paie decalee oc.
      */
-    public function getGestionPaieDecaleeOc(): ?bool{
+    public function getGestionPaieDecaleeOc(): ?bool {
         return $this->gestionPaieDecaleeOc;
     }
 
@@ -340,7 +339,7 @@ class Organismes {
      *
      * @return string|null Returns the groupe interne.
      */
-    public function getGroupeInterne(): ?string{
+    public function getGroupeInterne(): ?string {
         return $this->groupeInterne;
     }
 
@@ -349,7 +348,7 @@ class Organismes {
      *
      * @return string|null Returns the id intervenant.
      */
-    public function getIdIntervenant(): ?string{
+    public function getIdIntervenant(): ?string {
         return $this->idIntervenant;
     }
 
@@ -358,7 +357,7 @@ class Organismes {
      *
      * @return string|null Returns the jour exigible.
      */
-    public function getJourExigible(): ?string{
+    public function getJourExigible(): ?string {
         return $this->jourExigible;
     }
 
@@ -367,7 +366,7 @@ class Organismes {
      *
      * @return string|null Returns the jour limite depot.
      */
-    public function getJourLimiteDepot(): ?string{
+    public function getJourLimiteDepot(): ?string {
         return $this->jourLimiteDepot;
     }
 
@@ -376,7 +375,7 @@ class Organismes {
      *
      * @return string|null Returns the jour reglement.
      */
-    public function getJourReglement(): ?string{
+    public function getJourReglement(): ?string {
         return $this->jourReglement;
     }
 
@@ -385,7 +384,7 @@ class Organismes {
      *
      * @return string|null Returns the mens trim.
      */
-    public function getMensTrim(): ?string{
+    public function getMensTrim(): ?string {
         return $this->mensTrim;
     }
 
@@ -394,7 +393,7 @@ class Organismes {
      *
      * @return string|null Returns the no affiliation.
      */
-    public function getNoAffiliation(): ?string{
+    public function getNoAffiliation(): ?string {
         return $this->noAffiliation;
     }
 
@@ -403,7 +402,7 @@ class Organismes {
      *
      * @return string|null Returns the optique ducs.
      */
-    public function getOptiqueDucs(): ?string{
+    public function getOptiqueDucs(): ?string {
         return $this->optiqueDucs;
     }
 
@@ -412,7 +411,7 @@ class Organismes {
      *
      * @return bool|null Returns the paiement edi vlu.
      */
-    public function getPaiementEdiVlu(): ?bool{
+    public function getPaiementEdiVlu(): ?bool {
         return $this->paiementEdiVlu;
     }
 
@@ -421,7 +420,7 @@ class Organismes {
      *
      * @return bool|null Returns the pas traiter edi.
      */
-    public function getPasTraiterEdi(): ?bool{
+    public function getPasTraiterEdi(): ?bool {
         return $this->pasTraiterEdi;
     }
 
@@ -430,7 +429,7 @@ class Organismes {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 
@@ -439,7 +438,7 @@ class Organismes {
      *
      * @return bool|null Returns the telepaiement.
      */
-    public function getTelepaiement(): ?bool{
+    public function getTelepaiement(): ?bool {
         return $this->telepaiement;
     }
 

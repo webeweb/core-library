@@ -75,7 +75,6 @@ class AffectationAnaDiv {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class AffectationAnaDiv {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -97,7 +96,7 @@ class AffectationAnaDiv {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -106,7 +105,7 @@ class AffectationAnaDiv {
      *
      * @return string|null Returns the num compte.
      */
-    public function getNumCompte(): ?string{
+    public function getNumCompte(): ?string {
         return $this->numCompte;
     }
 
@@ -115,7 +114,7 @@ class AffectationAnaDiv {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -124,7 +123,7 @@ class AffectationAnaDiv {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -133,7 +132,7 @@ class AffectationAnaDiv {
      *
      * @return int|null Returns the numero deux.
      */
-    public function getNumeroDeux(): ?int{
+    public function getNumeroDeux(): ?int {
         return $this->numeroDeux;
     }
 
@@ -142,7 +141,7 @@ class AffectationAnaDiv {
      *
      * @return float|null Returns the pourcentage.
      */
-    public function getPourcentage(): ?float{
+    public function getPourcentage(): ?float {
         return $this->pourcentage;
     }
 
@@ -151,7 +150,7 @@ class AffectationAnaDiv {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

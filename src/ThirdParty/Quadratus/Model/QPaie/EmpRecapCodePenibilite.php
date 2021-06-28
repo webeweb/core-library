@@ -40,7 +40,6 @@ class EmpRecapCodePenibilite {
      */
     private $numeroOrdre;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class EmpRecapCodePenibilite {
      *
      * @return string|null Returns the code penibilite.
      */
-    public function getCodePenibilite(): ?string{
+    public function getCodePenibilite(): ?string {
         return $this->codePenibilite;
     }
 
@@ -62,7 +61,7 @@ class EmpRecapCodePenibilite {
      *
      * @return int|null Returns the id recap.
      */
-    public function getIdRecap(): ?int{
+    public function getIdRecap(): ?int {
         return $this->idRecap;
     }
 
@@ -71,7 +70,7 @@ class EmpRecapCodePenibilite {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 

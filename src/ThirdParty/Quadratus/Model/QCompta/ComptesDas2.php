@@ -103,7 +103,6 @@ class ComptesDas2 {
      */
     private $typeRs;
 
-
     /**
      * Constructor.
      */
@@ -116,7 +115,7 @@ class ComptesDas2 {
      *
      * @return float|null Returns the avantage nature.
      */
-    public function getAvantageNature(): ?float{
+    public function getAvantageNature(): ?float {
         return $this->avantageNature;
     }
 
@@ -125,7 +124,7 @@ class ComptesDas2 {
      *
      * @return float|null Returns the indemnite rbt.
      */
-    public function getIndemniteRbt(): ?float{
+    public function getIndemniteRbt(): ?float {
         return $this->indemniteRbt;
     }
 
@@ -134,7 +133,7 @@ class ComptesDas2 {
      *
      * @return float|null Returns the montant1.
      */
-    public function getMontant1(): ?float{
+    public function getMontant1(): ?float {
         return $this->montant1;
     }
 
@@ -143,7 +142,7 @@ class ComptesDas2 {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -152,7 +151,7 @@ class ComptesDas2 {
      *
      * @return string|null Returns the nature1.
      */
-    public function getNature1(): ?string{
+    public function getNature1(): ?string {
         return $this->nature1;
     }
 
@@ -161,7 +160,7 @@ class ComptesDas2 {
      *
      * @return string|null Returns the nature2.
      */
-    public function getNature2(): ?string{
+    public function getNature2(): ?string {
         return $this->nature2;
     }
 
@@ -170,7 +169,7 @@ class ComptesDas2 {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -179,7 +178,7 @@ class ComptesDas2 {
      *
      * @return float|null Returns the retenue source.
      */
-    public function getRetenueSource(): ?float{
+    public function getRetenueSource(): ?float {
         return $this->retenueSource;
     }
 
@@ -188,7 +187,7 @@ class ComptesDas2 {
      *
      * @return float|null Returns the tvada.
      */
-    public function getTvada(): ?float{
+    public function getTvada(): ?float {
         return $this->tvada;
     }
 
@@ -197,7 +196,7 @@ class ComptesDas2 {
      *
      * @return string|null Returns the type an.
      */
-    public function getTypeAn(): ?string{
+    public function getTypeAn(): ?string {
         return $this->typeAn;
     }
 
@@ -206,7 +205,7 @@ class ComptesDas2 {
      *
      * @return string|null Returns the type ir.
      */
-    public function getTypeIr(): ?string{
+    public function getTypeIr(): ?string {
         return $this->typeIr;
     }
 
@@ -215,7 +214,7 @@ class ComptesDas2 {
      *
      * @return string|null Returns the type rs.
      */
-    public function getTypeRs(): ?string{
+    public function getTypeRs(): ?string {
         return $this->typeRs;
     }
 

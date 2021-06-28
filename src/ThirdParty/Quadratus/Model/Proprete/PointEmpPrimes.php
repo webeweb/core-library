@@ -175,7 +175,6 @@ class PointEmpPrimes {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -188,7 +187,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -197,7 +196,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -206,7 +205,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -215,7 +214,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -224,7 +223,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -233,7 +232,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -242,7 +241,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code prime.
      */
-    public function getCodePrime(): ?string{
+    public function getCodePrime(): ?string {
         return $this->codePrime;
     }
 
@@ -251,7 +250,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -260,7 +259,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the code tache type bt.
      */
-    public function getCodeTacheTypeBt(): ?string{
+    public function getCodeTacheTypeBt(): ?string {
         return $this->codeTacheTypeBt;
     }
 
@@ -269,7 +268,7 @@ class PointEmpPrimes {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -278,7 +277,7 @@ class PointEmpPrimes {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -287,7 +286,7 @@ class PointEmpPrimes {
      *
      * @return bool|null Returns the defaut.
      */
-    public function getDefaut(): ?bool{
+    public function getDefaut(): ?bool {
         return $this->defaut;
     }
 
@@ -296,7 +295,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -305,7 +304,7 @@ class PointEmpPrimes {
      *
      * @return float|null Returns the nb heure majoration.
      */
-    public function getNbHeureMajoration(): ?float{
+    public function getNbHeureMajoration(): ?float {
         return $this->nbHeureMajoration;
     }
 
@@ -314,7 +313,7 @@ class PointEmpPrimes {
      *
      * @return float|null Returns the nombre prime.
      */
-    public function getNombrePrime(): ?float{
+    public function getNombrePrime(): ?float {
         return $this->nombrePrime;
     }
 
@@ -323,7 +322,7 @@ class PointEmpPrimes {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -332,7 +331,7 @@ class PointEmpPrimes {
      *
      * @return int|null Returns the numero prime.
      */
-    public function getNumeroPrime(): ?int{
+    public function getNumeroPrime(): ?int {
         return $this->numeroPrime;
     }
 
@@ -341,7 +340,7 @@ class PointEmpPrimes {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -350,7 +349,7 @@ class PointEmpPrimes {
      *
      * @return float|null Returns the taux prime.
      */
-    public function getTauxPrime(): ?float{
+    public function getTauxPrime(): ?float {
         return $this->tauxPrime;
     }
 
@@ -359,7 +358,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the type majo.
      */
-    public function getTypeMajo(): ?string{
+    public function getTypeMajo(): ?string {
         return $this->typeMajo;
     }
 
@@ -368,7 +367,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the type prime.
      */
-    public function getTypePrime(): ?string{
+    public function getTypePrime(): ?string {
         return $this->typePrime;
     }
 
@@ -377,7 +376,7 @@ class PointEmpPrimes {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

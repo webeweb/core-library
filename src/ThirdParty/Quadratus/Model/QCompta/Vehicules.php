@@ -119,7 +119,6 @@ class Vehicules {
      */
     private $usageAgricole;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class Vehicules {
      *
      * @return string|null Returns the categorie.
      */
-    public function getCategorie(): ?string{
+    public function getCategorie(): ?string {
         return $this->categorie;
     }
 
@@ -141,7 +140,7 @@ class Vehicules {
      *
      * @return DateTime|null Returns the date cession.
      */
-    public function getDateCession(): ?DateTime{
+    public function getDateCession(): ?DateTime {
         return $this->dateCession;
     }
 
@@ -150,7 +149,7 @@ class Vehicules {
      *
      * @return DateTime|null Returns the date immat.
      */
-    public function getDateImmat(): ?DateTime{
+    public function getDateImmat(): ?DateTime {
         return $this->dateImmat;
     }
 
@@ -159,7 +158,7 @@ class Vehicules {
      *
      * @return DateTime|null Returns the date pmec.
      */
-    public function getDatePmec(): ?DateTime{
+    public function getDatePmec(): ?DateTime {
         return $this->datePmec;
     }
 
@@ -168,7 +167,7 @@ class Vehicules {
      *
      * @return string|null Returns the guid.
      */
-    public function getGuid(): ?string{
+    public function getGuid(): ?string {
         return $this->guid;
     }
 
@@ -177,7 +176,7 @@ class Vehicules {
      *
      * @return bool|null Returns the hybride.
      */
-    public function getHybride(): ?bool{
+    public function getHybride(): ?bool {
         return $this->hybride;
     }
 
@@ -186,7 +185,7 @@ class Vehicules {
      *
      * @return string|null Returns the immatriculation.
      */
-    public function getImmatriculation(): ?string{
+    public function getImmatriculation(): ?string {
         return $this->immatriculation;
     }
 
@@ -195,7 +194,7 @@ class Vehicules {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -204,7 +203,7 @@ class Vehicules {
      *
      * @return bool|null Returns the lien compta.
      */
-    public function getLienCompta(): ?bool{
+    public function getLienCompta(): ?bool {
         return $this->lienCompta;
     }
 
@@ -213,7 +212,7 @@ class Vehicules {
      *
      * @return bool|null Returns the non polluant.
      */
-    public function getNonPolluant(): ?bool{
+    public function getNonPolluant(): ?bool {
         return $this->nonPolluant;
     }
 
@@ -222,7 +221,7 @@ class Vehicules {
      *
      * @return int|null Returns the puissance cv.
      */
-    public function getPuissanceCv(): ?int{
+    public function getPuissanceCv(): ?int {
         return $this->puissanceCv;
     }
 
@@ -231,7 +230,7 @@ class Vehicules {
      *
      * @return bool|null Returns the super carbu.
      */
-    public function getSuperCarbu(): ?bool{
+    public function getSuperCarbu(): ?bool {
         return $this->superCarbu;
     }
 
@@ -240,7 +239,7 @@ class Vehicules {
      *
      * @return float|null Returns the taux emission co2.
      */
-    public function getTauxEmissionCo2(): ?float{
+    public function getTauxEmissionCo2(): ?float {
         return $this->tauxEmissionCo2;
     }
 
@@ -249,7 +248,7 @@ class Vehicules {
      *
      * @return bool|null Returns the usage agricole.
      */
-    public function getUsageAgricole(): ?bool{
+    public function getUsageAgricole(): ?bool {
         return $this->usageAgricole;
     }
 

@@ -112,7 +112,6 @@ class Centralisateur {
      */
     private $prochaineLigne;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class Centralisateur {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -134,7 +133,7 @@ class Centralisateur {
      *
      * @return float|null Returns the credit classe15.
      */
-    public function getCreditClasse15(): ?float{
+    public function getCreditClasse15(): ?float {
         return $this->creditClasse15;
     }
 
@@ -143,7 +142,7 @@ class Centralisateur {
      *
      * @return float|null Returns the credit classe67.
      */
-    public function getCreditClasse67(): ?float{
+    public function getCreditClasse67(): ?float {
         return $this->creditClasse67;
     }
 
@@ -152,7 +151,7 @@ class Centralisateur {
      *
      * @return float|null Returns the credit client.
      */
-    public function getCreditClient(): ?float{
+    public function getCreditClient(): ?float {
         return $this->creditClient;
     }
 
@@ -161,7 +160,7 @@ class Centralisateur {
      *
      * @return float|null Returns the credit fournisseur.
      */
-    public function getCreditFournisseur(): ?float{
+    public function getCreditFournisseur(): ?float {
         return $this->creditFournisseur;
     }
 
@@ -170,7 +169,7 @@ class Centralisateur {
      *
      * @return float|null Returns the debit classe15.
      */
-    public function getDebitClasse15(): ?float{
+    public function getDebitClasse15(): ?float {
         return $this->debitClasse15;
     }
 
@@ -179,7 +178,7 @@ class Centralisateur {
      *
      * @return float|null Returns the debit classe67.
      */
-    public function getDebitClasse67(): ?float{
+    public function getDebitClasse67(): ?float {
         return $this->debitClasse67;
     }
 
@@ -188,7 +187,7 @@ class Centralisateur {
      *
      * @return float|null Returns the debit client.
      */
-    public function getDebitClient(): ?float{
+    public function getDebitClient(): ?float {
         return $this->debitClient;
     }
 
@@ -197,7 +196,7 @@ class Centralisateur {
      *
      * @return float|null Returns the debit fournisseur.
      */
-    public function getDebitFournisseur(): ?float{
+    public function getDebitFournisseur(): ?float {
         return $this->debitFournisseur;
     }
 
@@ -206,7 +205,7 @@ class Centralisateur {
      *
      * @return int|null Returns the folio.
      */
-    public function getFolio(): ?int{
+    public function getFolio(): ?int {
         return $this->folio;
     }
 
@@ -215,7 +214,7 @@ class Centralisateur {
      *
      * @return int|null Returns the nb ligne folio.
      */
-    public function getNbLigneFolio(): ?int{
+    public function getNbLigneFolio(): ?int {
         return $this->nbLigneFolio;
     }
 
@@ -224,7 +223,7 @@ class Centralisateur {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -233,7 +232,7 @@ class Centralisateur {
      *
      * @return int|null Returns the prochaine ligne.
      */
-    public function getProchaineLigne(): ?int{
+    public function getProchaineLigne(): ?int {
         return $this->prochaineLigne;
     }
 

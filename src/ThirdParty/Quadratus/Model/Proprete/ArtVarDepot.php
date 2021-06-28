@@ -82,7 +82,6 @@ class ArtVarDepot {
      */
     private $qteStockReserve;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class ArtVarDepot {
      *
      * @return string|null Returns the allee casier.
      */
-    public function getAlleeCasier(): ?string{
+    public function getAlleeCasier(): ?string {
         return $this->alleeCasier;
     }
 
@@ -104,7 +103,7 @@ class ArtVarDepot {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -113,7 +112,7 @@ class ArtVarDepot {
      *
      * @return string|null Returns the code depot.
      */
-    public function getCodeDepot(): ?string{
+    public function getCodeDepot(): ?string {
         return $this->codeDepot;
     }
 
@@ -122,7 +121,7 @@ class ArtVarDepot {
      *
      * @return string|null Returns the code variante.
      */
-    public function getCodeVariante(): ?string{
+    public function getCodeVariante(): ?string {
         return $this->codeVariante;
     }
 
@@ -131,7 +130,7 @@ class ArtVarDepot {
      *
      * @return float|null Returns the qte stock attente.
      */
-    public function getQteStockAttente(): ?float{
+    public function getQteStockAttente(): ?float {
         return $this->qteStockAttente;
     }
 
@@ -140,7 +139,7 @@ class ArtVarDepot {
      *
      * @return float|null Returns the qte stock maxi.
      */
-    public function getQteStockMaxi(): ?float{
+    public function getQteStockMaxi(): ?float {
         return $this->qteStockMaxi;
     }
 
@@ -149,7 +148,7 @@ class ArtVarDepot {
      *
      * @return float|null Returns the qte stock mini.
      */
-    public function getQteStockMini(): ?float{
+    public function getQteStockMini(): ?float {
         return $this->qteStockMini;
     }
 
@@ -158,7 +157,7 @@ class ArtVarDepot {
      *
      * @return float|null Returns the qte stock reel.
      */
-    public function getQteStockReel(): ?float{
+    public function getQteStockReel(): ?float {
         return $this->qteStockReel;
     }
 
@@ -167,7 +166,7 @@ class ArtVarDepot {
      *
      * @return float|null Returns the qte stock reserve.
      */
-    public function getQteStockReserve(): ?float{
+    public function getQteStockReserve(): ?float {
         return $this->qteStockReserve;
     }
 

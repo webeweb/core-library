@@ -89,7 +89,6 @@ class AdressesLivraison {
      */
     private $numVoie;
 
-
     /**
      * Constructor.
      */
@@ -102,7 +101,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -111,7 +110,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -120,7 +119,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison(): ?string{
+    public function getCodeLivraison(): ?string {
         return $this->codeLivraison;
     }
 
@@ -129,7 +128,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -138,7 +137,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -147,7 +146,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -156,7 +155,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -165,7 +164,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -174,7 +173,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -183,7 +182,7 @@ class AdressesLivraison {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 

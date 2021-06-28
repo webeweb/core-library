@@ -77,7 +77,6 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      */
     private $refContrat;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return string|null Returns the code option.
      */
-    public function getCodeOption(): ?string{
+    public function getCodeOption(): ?string {
         return $this->codeOption;
     }
 
@@ -99,7 +98,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -108,7 +107,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return string|null Returns the code population.
      */
-    public function getCodePopulation(): ?string{
+    public function getCodePopulation(): ?string {
         return $this->codePopulation;
     }
 
@@ -117,7 +116,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode(): ?DateTime{
+    public function getDebutPeriode(): ?DateTime {
         return $this->debutPeriode;
     }
 
@@ -126,7 +125,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode(): ?DateTime{
+    public function getFinPeriode(): ?DateTime {
         return $this->finPeriode;
     }
 
@@ -135,7 +134,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return int|null Returns the numero ayant droit.
      */
-    public function getNumeroAyantDroit(): ?int{
+    public function getNumeroAyantDroit(): ?int {
         return $this->numeroAyantDroit;
     }
 
@@ -144,7 +143,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -153,7 +152,7 @@ class EmpDadsuPrevoyanceAyantDroitLignesContrat {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 

@@ -147,7 +147,6 @@ class ClientsDouteux {
      */
     private $txTvaCreanceForce;
 
-
     /**
      * Constructor.
      */
@@ -160,7 +159,7 @@ class ClientsDouteux {
      *
      * @return DateTime|null Returns the date doute.
      */
-    public function getDateDoute(): ?DateTime{
+    public function getDateDoute(): ?DateTime {
         return $this->dateDoute;
     }
 
@@ -169,7 +168,7 @@ class ClientsDouteux {
      *
      * @return string|null Returns the mention.
      */
-    public function getMention(): ?string{
+    public function getMention(): ?string {
         return $this->mention;
     }
 
@@ -178,7 +177,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt creance base ht.
      */
-    public function getMtCreanceBaseHt(): ?float{
+    public function getMtCreanceBaseHt(): ?float {
         return $this->mtCreanceBaseHt;
     }
 
@@ -187,7 +186,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt creance ttc deb exo.
      */
-    public function getMtCreanceTtcDebExo(): ?float{
+    public function getMtCreanceTtcDebExo(): ?float {
         return $this->mtCreanceTtcDebExo;
     }
 
@@ -196,7 +195,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt creance ttc dev dout exo.
      */
-    public function getMtCreanceTtcDevDoutExo(): ?float{
+    public function getMtCreanceTtcDevDoutExo(): ?float {
         return $this->mtCreanceTtcDevDoutExo;
     }
 
@@ -205,7 +204,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt creance ttc irrec exo.
      */
-    public function getMtCreanceTtcIrrecExo(): ?float{
+    public function getMtCreanceTtcIrrecExo(): ?float {
         return $this->mtCreanceTtcIrrecExo;
     }
 
@@ -214,7 +213,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt creance ttc regl exo.
      */
-    public function getMtCreanceTtcReglExo(): ?float{
+    public function getMtCreanceTtcReglExo(): ?float {
         return $this->mtCreanceTtcReglExo;
     }
 
@@ -223,7 +222,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt provision deb exo.
      */
-    public function getMtProvisionDebExo(): ?float{
+    public function getMtProvisionDebExo(): ?float {
         return $this->mtProvisionDebExo;
     }
 
@@ -232,7 +231,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt provision dot exo.
      */
-    public function getMtProvisionDotExo(): ?float{
+    public function getMtProvisionDotExo(): ?float {
         return $this->mtProvisionDotExo;
     }
 
@@ -241,7 +240,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt rep provision irrec.
      */
-    public function getMtRepProvisionIrrec(): ?float{
+    public function getMtRepProvisionIrrec(): ?float {
         return $this->mtRepProvisionIrrec;
     }
 
@@ -250,7 +249,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the mt rep provision regl.
      */
-    public function getMtRepProvisionRegl(): ?float{
+    public function getMtRepProvisionRegl(): ?float {
         return $this->mtRepProvisionRegl;
     }
 
@@ -259,7 +258,7 @@ class ClientsDouteux {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -268,7 +267,7 @@ class ClientsDouteux {
      *
      * @return string|null Returns the observations.
      */
-    public function getObservations(): ?string{
+    public function getObservations(): ?string {
         return $this->observations;
     }
 
@@ -277,7 +276,7 @@ class ClientsDouteux {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -286,7 +285,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the taux doute deb exo.
      */
-    public function getTauxDouteDebExo(): ?float{
+    public function getTauxDouteDebExo(): ?float {
         return $this->tauxDouteDebExo;
     }
 
@@ -295,7 +294,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the taux doute exo.
      */
-    public function getTauxDouteExo(): ?float{
+    public function getTauxDouteExo(): ?float {
         return $this->tauxDouteExo;
     }
 
@@ -304,7 +303,7 @@ class ClientsDouteux {
      *
      * @return float|null Returns the tx tva creance.
      */
-    public function getTxTvaCreance(): ?float{
+    public function getTxTvaCreance(): ?float {
         return $this->txTvaCreance;
     }
 
@@ -313,7 +312,7 @@ class ClientsDouteux {
      *
      * @return bool|null Returns the tx tva creance force.
      */
-    public function getTxTvaCreanceForce(): ?bool{
+    public function getTxTvaCreanceForce(): ?bool {
         return $this->txTvaCreanceForce;
     }
 

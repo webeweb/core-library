@@ -56,7 +56,6 @@ class DernPrepaPaie {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class DernPrepaPaie {
      *
      * @return bool|null Returns the alerte rouge.
      */
-    public function getAlerteRouge(): ?bool{
+    public function getAlerteRouge(): ?bool {
         return $this->alerteRouge;
     }
 
@@ -78,7 +77,7 @@ class DernPrepaPaie {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -87,7 +86,7 @@ class DernPrepaPaie {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -96,7 +95,7 @@ class DernPrepaPaie {
      *
      * @return DateTime|null Returns the dt prepa.
      */
-    public function getDtPrepa(): ?DateTime{
+    public function getDtPrepa(): ?DateTime {
         return $this->dtPrepa;
     }
 
@@ -105,7 +104,7 @@ class DernPrepaPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

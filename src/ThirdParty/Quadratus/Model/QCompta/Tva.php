@@ -68,7 +68,6 @@ class Tva {
      */
     private $typeAutoliquidation;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class Tva {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -90,7 +89,7 @@ class Tva {
      *
      * @return string|null Returns the compte tva achat.
      */
-    public function getCompteTvaAchat(): ?string{
+    public function getCompteTvaAchat(): ?string {
         return $this->compteTvaAchat;
     }
 
@@ -99,7 +98,7 @@ class Tva {
      *
      * @return string|null Returns the compte tva immo.
      */
-    public function getCompteTvaImmo(): ?string{
+    public function getCompteTvaImmo(): ?string {
         return $this->compteTvaImmo;
     }
 
@@ -108,7 +107,7 @@ class Tva {
      *
      * @return string|null Returns the compte tva vente.
      */
-    public function getCompteTvaVente(): ?string{
+    public function getCompteTvaVente(): ?string {
         return $this->compteTvaVente;
     }
 
@@ -117,7 +116,7 @@ class Tva {
      *
      * @return string|null Returns the compte ventilation.
      */
-    public function getCompteVentilation(): ?string{
+    public function getCompteVentilation(): ?string {
         return $this->compteVentilation;
     }
 
@@ -126,7 +125,7 @@ class Tva {
      *
      * @return float|null Returns the taux tva.
      */
-    public function getTauxTva(): ?float{
+    public function getTauxTva(): ?float {
         return $this->tauxTva;
     }
 
@@ -135,7 +134,7 @@ class Tva {
      *
      * @return string|null Returns the type autoliquidation.
      */
-    public function getTypeAutoliquidation(): ?string{
+    public function getTypeAutoliquidation(): ?string {
         return $this->typeAutoliquidation;
     }
 

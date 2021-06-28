@@ -117,7 +117,6 @@ class DsnLieuTravail {
      */
     private $raisonSociale;
 
-
     /**
      * Constructor.
      */
@@ -130,7 +129,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -139,7 +138,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -148,7 +147,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the code distribution.
      */
-    public function getCodeDistribution(): ?string{
+    public function getCodeDistribution(): ?string {
         return $this->codeDistribution;
     }
 
@@ -157,7 +156,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the code insee.
      */
-    public function getCodeInsee(): ?string{
+    public function getCodeInsee(): ?string {
         return $this->codeInsee;
     }
 
@@ -166,7 +165,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the code naf.
      */
-    public function getCodeNaf(): ?string{
+    public function getCodeNaf(): ?string {
         return $this->codeNaf;
     }
 
@@ -175,7 +174,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -184,7 +183,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -193,7 +192,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -202,7 +201,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the complement voie.
      */
-    public function getComplementVoie(): ?string{
+    public function getComplementVoie(): ?string {
         return $this->complementVoie;
     }
 
@@ -211,7 +210,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the id.
      */
-    public function getId(): ?string{
+    public function getId(): ?string {
         return $this->id;
     }
 
@@ -220,7 +219,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the nature juridique.
      */
-    public function getNatureJuridique(): ?string{
+    public function getNatureJuridique(): ?string {
         return $this->natureJuridique;
     }
 
@@ -229,7 +228,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -238,7 +237,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -247,7 +246,7 @@ class DsnLieuTravail {
      *
      * @return string|null Returns the raison sociale.
      */
-    public function getRaisonSociale(): ?string{
+    public function getRaisonSociale(): ?string {
         return $this->raisonSociale;
     }
 

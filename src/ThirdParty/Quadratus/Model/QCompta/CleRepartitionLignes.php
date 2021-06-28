@@ -47,7 +47,6 @@ class CleRepartitionLignes {
      */
     private $valeur;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class CleRepartitionLignes {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -69,7 +68,7 @@ class CleRepartitionLignes {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -78,7 +77,7 @@ class CleRepartitionLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -87,7 +86,7 @@ class CleRepartitionLignes {
      *
      * @return float|null Returns the valeur.
      */
-    public function getValeur(): ?float{
+    public function getValeur(): ?float {
         return $this->valeur;
     }
 

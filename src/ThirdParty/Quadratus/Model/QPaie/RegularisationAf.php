@@ -84,7 +84,6 @@ class RegularisationAf {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class RegularisationAf {
      *
      * @return float|null Returns the base af.
      */
-    public function getBaseAf(): ?float{
+    public function getBaseAf(): ?float {
         return $this->baseAf;
     }
 
@@ -106,7 +105,7 @@ class RegularisationAf {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -115,7 +114,7 @@ class RegularisationAf {
      *
      * @return int|null Returns the indice bul deb.
      */
-    public function getIndiceBulDeb(): ?int{
+    public function getIndiceBulDeb(): ?int {
         return $this->indiceBulDeb;
     }
 
@@ -124,7 +123,7 @@ class RegularisationAf {
      *
      * @return int|null Returns the indice bul fin.
      */
-    public function getIndiceBulFin(): ?int{
+    public function getIndiceBulFin(): ?int {
         return $this->indiceBulFin;
     }
 
@@ -133,7 +132,7 @@ class RegularisationAf {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -142,7 +141,7 @@ class RegularisationAf {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -151,7 +150,7 @@ class RegularisationAf {
      *
      * @return DateTime|null Returns the per bul deb.
      */
-    public function getPerBulDeb(): ?DateTime{
+    public function getPerBulDeb(): ?DateTime {
         return $this->perBulDeb;
     }
 
@@ -160,7 +159,7 @@ class RegularisationAf {
      *
      * @return DateTime|null Returns the per bul fin.
      */
-    public function getPerBulFin(): ?DateTime{
+    public function getPerBulFin(): ?DateTime {
         return $this->perBulFin;
     }
 
@@ -169,7 +168,7 @@ class RegularisationAf {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

@@ -63,7 +63,6 @@ class RepartitionActiviteAnaBul {
      */
     private $tauxVentilation;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class RepartitionActiviteAnaBul {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -85,7 +84,7 @@ class RepartitionActiviteAnaBul {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -94,7 +93,7 @@ class RepartitionActiviteAnaBul {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -103,7 +102,7 @@ class RepartitionActiviteAnaBul {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -112,7 +111,7 @@ class RepartitionActiviteAnaBul {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -121,7 +120,7 @@ class RepartitionActiviteAnaBul {
      *
      * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation(): ?float{
+    public function getTauxVentilation(): ?float {
         return $this->tauxVentilation;
     }
 

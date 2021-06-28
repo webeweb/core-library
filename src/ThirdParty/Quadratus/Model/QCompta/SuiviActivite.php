@@ -56,7 +56,6 @@ class SuiviActivite {
      */
     private $resultat;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class SuiviActivite {
      *
      * @return string|null Returns the code coll.
      */
-    public function getCodeColl(): ?string{
+    public function getCodeColl(): ?string {
         return $this->codeColl;
     }
 
@@ -78,7 +77,7 @@ class SuiviActivite {
      *
      * @return DateTime|null Returns the date heure.
      */
-    public function getDateHeure(): ?DateTime{
+    public function getDateHeure(): ?DateTime {
         return $this->dateHeure;
     }
 
@@ -87,7 +86,7 @@ class SuiviActivite {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -96,7 +95,7 @@ class SuiviActivite {
      *
      * @return int|null Returns the id action.
      */
-    public function getIdAction(): ?int{
+    public function getIdAction(): ?int {
         return $this->idAction;
     }
 
@@ -105,7 +104,7 @@ class SuiviActivite {
      *
      * @return string|null Returns the resultat.
      */
-    public function getResultat(): ?string{
+    public function getResultat(): ?string {
         return $this->resultat;
     }
 

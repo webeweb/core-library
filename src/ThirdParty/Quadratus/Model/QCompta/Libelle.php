@@ -40,7 +40,6 @@ class Libelle {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class Libelle {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -62,7 +61,7 @@ class Libelle {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -71,7 +70,7 @@ class Libelle {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

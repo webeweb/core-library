@@ -33,7 +33,6 @@ class EnchainementSemaines {
      */
     private $numOrdre;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class EnchainementSemaines {
      *
      * @return int|null Returns the discr sem.
      */
-    public function getDiscrSem(): ?int{
+    public function getDiscrSem(): ?int {
         return $this->discrSem;
     }
 
@@ -55,7 +54,7 @@ class EnchainementSemaines {
      *
      * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre(): ?int{
+    public function getNumOrdre(): ?int {
         return $this->numOrdre;
     }
 

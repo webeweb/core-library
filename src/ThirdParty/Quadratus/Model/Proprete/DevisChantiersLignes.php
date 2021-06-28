@@ -96,7 +96,6 @@ class DevisChantiersLignes {
      */
     private $uniqIdNoeud;
 
-
     /**
      * Constructor.
      */
@@ -109,7 +108,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -118,7 +117,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -127,7 +126,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -136,7 +135,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the code local type.
      */
-    public function getCodeLocalType(): ?string{
+    public function getCodeLocalType(): ?string {
         return $this->codeLocalType;
     }
 
@@ -145,7 +144,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the code revetement.
      */
-    public function getCodeRevetement(): ?string{
+    public function getCodeRevetement(): ?string {
         return $this->codeRevetement;
     }
 
@@ -154,7 +153,7 @@ class DevisChantiersLignes {
      *
      * @return float|null Returns the montant ht.
      */
-    public function getMontantHt(): ?float{
+    public function getMontantHt(): ?float {
         return $this->montantHt;
     }
 
@@ -163,7 +162,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -172,7 +171,7 @@ class DevisChantiersLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -181,7 +180,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the sol mur.
      */
-    public function getSolMur(): ?string{
+    public function getSolMur(): ?string {
         return $this->solMur;
     }
 
@@ -190,7 +189,7 @@ class DevisChantiersLignes {
      *
      * @return float|null Returns the surface.
      */
-    public function getSurface(): ?float{
+    public function getSurface(): ?float {
         return $this->surface;
     }
 
@@ -199,7 +198,7 @@ class DevisChantiersLignes {
      *
      * @return string|null Returns the uniq id noeud.
      */
-    public function getUniqIdNoeud(): ?string{
+    public function getUniqIdNoeud(): ?string {
         return $this->uniqIdNoeud;
     }
 

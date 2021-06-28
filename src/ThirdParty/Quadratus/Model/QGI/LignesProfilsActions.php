@@ -40,7 +40,6 @@ class LignesProfilsActions {
      */
     private $numLigne;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class LignesProfilsActions {
      *
      * @return string|null Returns the code action.
      */
-    public function getCodeAction(): ?string{
+    public function getCodeAction(): ?string {
         return $this->codeAction;
     }
 
@@ -62,7 +61,7 @@ class LignesProfilsActions {
      *
      * @return string|null Returns the code profil.
      */
-    public function getCodeProfil(): ?string{
+    public function getCodeProfil(): ?string {
         return $this->codeProfil;
     }
 
@@ -71,7 +70,7 @@ class LignesProfilsActions {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 

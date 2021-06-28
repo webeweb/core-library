@@ -133,7 +133,6 @@ class ChantiersBudgetCommande {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -146,7 +145,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande1.
      */
-    public function getBudgetCommande1(): ?float{
+    public function getBudgetCommande1(): ?float {
         return $this->budgetCommande1;
     }
 
@@ -155,7 +154,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande10.
      */
-    public function getBudgetCommande10(): ?float{
+    public function getBudgetCommande10(): ?float {
         return $this->budgetCommande10;
     }
 
@@ -164,7 +163,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande11.
      */
-    public function getBudgetCommande11(): ?float{
+    public function getBudgetCommande11(): ?float {
         return $this->budgetCommande11;
     }
 
@@ -173,7 +172,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande12.
      */
-    public function getBudgetCommande12(): ?float{
+    public function getBudgetCommande12(): ?float {
         return $this->budgetCommande12;
     }
 
@@ -182,7 +181,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande2.
      */
-    public function getBudgetCommande2(): ?float{
+    public function getBudgetCommande2(): ?float {
         return $this->budgetCommande2;
     }
 
@@ -191,7 +190,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande3.
      */
-    public function getBudgetCommande3(): ?float{
+    public function getBudgetCommande3(): ?float {
         return $this->budgetCommande3;
     }
 
@@ -200,7 +199,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande4.
      */
-    public function getBudgetCommande4(): ?float{
+    public function getBudgetCommande4(): ?float {
         return $this->budgetCommande4;
     }
 
@@ -209,7 +208,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande5.
      */
-    public function getBudgetCommande5(): ?float{
+    public function getBudgetCommande5(): ?float {
         return $this->budgetCommande5;
     }
 
@@ -218,7 +217,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande6.
      */
-    public function getBudgetCommande6(): ?float{
+    public function getBudgetCommande6(): ?float {
         return $this->budgetCommande6;
     }
 
@@ -227,7 +226,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande7.
      */
-    public function getBudgetCommande7(): ?float{
+    public function getBudgetCommande7(): ?float {
         return $this->budgetCommande7;
     }
 
@@ -236,7 +235,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande8.
      */
-    public function getBudgetCommande8(): ?float{
+    public function getBudgetCommande8(): ?float {
         return $this->budgetCommande8;
     }
 
@@ -245,7 +244,7 @@ class ChantiersBudgetCommande {
      *
      * @return float|null Returns the budget commande9.
      */
-    public function getBudgetCommande9(): ?float{
+    public function getBudgetCommande9(): ?float {
         return $this->budgetCommande9;
     }
 
@@ -254,7 +253,7 @@ class ChantiersBudgetCommande {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -263,7 +262,7 @@ class ChantiersBudgetCommande {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -272,7 +271,7 @@ class ChantiersBudgetCommande {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -281,7 +280,7 @@ class ChantiersBudgetCommande {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

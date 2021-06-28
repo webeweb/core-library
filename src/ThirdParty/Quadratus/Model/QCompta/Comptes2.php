@@ -320,7 +320,6 @@ class Comptes2 {
      */
     private $zipCode;
 
-
     /**
      * Constructor.
      */
@@ -333,7 +332,7 @@ class Comptes2 {
      *
      * @return bool|null Returns the affacturage.
      */
-    public function getAffacturage(): ?bool{
+    public function getAffacturage(): ?bool {
         return $this->affacturage;
     }
 
@@ -342,7 +341,7 @@ class Comptes2 {
      *
      * @return string|null Returns the bic.
      */
-    public function getBic(): ?string{
+    public function getBic(): ?string {
         return $this->bic;
     }
 
@@ -351,7 +350,7 @@ class Comptes2 {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -360,7 +359,7 @@ class Comptes2 {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -369,7 +368,7 @@ class Comptes2 {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -378,7 +377,7 @@ class Comptes2 {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -387,7 +386,7 @@ class Comptes2 {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -396,7 +395,7 @@ class Comptes2 {
      *
      * @return string|null Returns the complement suite.
      */
-    public function getComplementSuite(): ?string{
+    public function getComplementSuite(): ?string {
         return $this->complementSuite;
     }
 
@@ -405,7 +404,7 @@ class Comptes2 {
      *
      * @return string|null Returns the contrepartie auto.
      */
-    public function getContrepartieAuto(): ?string{
+    public function getContrepartieAuto(): ?string {
         return $this->contrepartieAuto;
     }
 
@@ -414,7 +413,7 @@ class Comptes2 {
      *
      * @return string|null Returns the cpt four affacturage.
      */
-    public function getCptFourAffacturage(): ?string{
+    public function getCptFourAffacturage(): ?string {
         return $this->cptFourAffacturage;
     }
 
@@ -423,7 +422,7 @@ class Comptes2 {
      *
      * @return string|null Returns the cpt origine.
      */
-    public function getCptOrigine(): ?string{
+    public function getCptOrigine(): ?string {
         return $this->cptOrigine;
     }
 
@@ -432,7 +431,7 @@ class Comptes2 {
      *
      * @return string|null Returns the dom banque.
      */
-    public function getDomBanque(): ?string{
+    public function getDomBanque(): ?string {
         return $this->domBanque;
     }
 
@@ -441,7 +440,7 @@ class Comptes2 {
      *
      * @return string|null Returns the dom banque2.
      */
-    public function getDomBanque2(): ?string{
+    public function getDomBanque2(): ?string {
         return $this->domBanque2;
     }
 
@@ -450,7 +449,7 @@ class Comptes2 {
      *
      * @return string|null Returns the dom banque3.
      */
-    public function getDomBanque3(): ?string{
+    public function getDomBanque3(): ?string {
         return $this->domBanque3;
     }
 
@@ -459,7 +458,7 @@ class Comptes2 {
      *
      * @return bool|null Returns the echeance fin decade.
      */
-    public function getEcheanceFinDecade(): ?bool{
+    public function getEcheanceFinDecade(): ?bool {
         return $this->echeanceFinDecade;
     }
 
@@ -468,7 +467,7 @@ class Comptes2 {
      *
      * @return bool|null Returns the echeance fin quinzaine.
      */
-    public function getEcheanceFinQuinzaine(): ?bool{
+    public function getEcheanceFinQuinzaine(): ?bool {
         return $this->echeanceFinQuinzaine;
     }
 
@@ -477,7 +476,7 @@ class Comptes2 {
      *
      * @return string|null Returns the email.
      */
-    public function getEmail(): ?string{
+    public function getEmail(): ?string {
         return $this->email;
     }
 
@@ -486,7 +485,7 @@ class Comptes2 {
      *
      * @return string|null Returns the fax.
      */
-    public function getFax(): ?string{
+    public function getFax(): ?string {
         return $this->fax;
     }
 
@@ -495,7 +494,7 @@ class Comptes2 {
      *
      * @return string|null Returns the iban.
      */
-    public function getIban(): ?string{
+    public function getIban(): ?string {
         return $this->iban;
     }
 
@@ -504,7 +503,7 @@ class Comptes2 {
      *
      * @return string|null Returns the iban code imput frais.
      */
-    public function getIbanCodeImputFrais(): ?string{
+    public function getIbanCodeImputFrais(): ?string {
         return $this->ibanCodeImputFrais;
     }
 
@@ -513,7 +512,7 @@ class Comptes2 {
      *
      * @return string|null Returns the ident tva.
      */
-    public function getIdentTva(): ?string{
+    public function getIdentTva(): ?string {
         return $this->identTva;
     }
 
@@ -522,7 +521,7 @@ class Comptes2 {
      *
      * @return int|null Returns the jour depart echeance.
      */
-    public function getJourDepartEcheance(): ?int{
+    public function getJourDepartEcheance(): ?int {
         return $this->jourDepartEcheance;
     }
 
@@ -531,7 +530,7 @@ class Comptes2 {
      *
      * @return string|null Returns the mode paiement.
      */
-    public function getModePaiement(): ?string{
+    public function getModePaiement(): ?string {
         return $this->modePaiement;
     }
 
@@ -540,7 +539,7 @@ class Comptes2 {
      *
      * @return string|null Returns the nb jours echeance.
      */
-    public function getNbJoursEcheance(): ?string{
+    public function getNbJoursEcheance(): ?string {
         return $this->nbJoursEcheance;
     }
 
@@ -549,7 +548,7 @@ class Comptes2 {
      *
      * @return string|null Returns the niveau relance.
      */
-    public function getNiveauRelance(): ?string{
+    public function getNiveauRelance(): ?string {
         return $this->niveauRelance;
     }
 
@@ -558,7 +557,7 @@ class Comptes2 {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -567,7 +566,7 @@ class Comptes2 {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -576,7 +575,7 @@ class Comptes2 {
      *
      * @return string|null Returns the num cpt stock.
      */
-    public function getNumCptStock(): ?string{
+    public function getNumCptStock(): ?string {
         return $this->numCptStock;
     }
 
@@ -585,7 +584,7 @@ class Comptes2 {
      *
      * @return int|null Returns the num mandat.
      */
-    public function getNumMandat(): ?int{
+    public function getNumMandat(): ?int {
         return $this->numMandat;
     }
 
@@ -594,7 +593,7 @@ class Comptes2 {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -603,7 +602,7 @@ class Comptes2 {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -612,7 +611,7 @@ class Comptes2 {
      *
      * @return string|null Returns the pays.
      */
-    public function getPays(): ?string{
+    public function getPays(): ?string {
         return $this->pays;
     }
 
@@ -621,7 +620,7 @@ class Comptes2 {
      *
      * @return string|null Returns the profession.
      */
-    public function getProfession(): ?string{
+    public function getProfession(): ?string {
         return $this->profession;
     }
 
@@ -630,7 +629,7 @@ class Comptes2 {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 
@@ -639,7 +638,7 @@ class Comptes2 {
      *
      * @return string|null Returns the rib2.
      */
-    public function getRib2(): ?string{
+    public function getRib2(): ?string {
         return $this->rib2;
     }
 
@@ -648,7 +647,7 @@ class Comptes2 {
      *
      * @return string|null Returns the rib3.
      */
-    public function getRib3(): ?string{
+    public function getRib3(): ?string {
         return $this->rib3;
     }
 
@@ -657,7 +656,7 @@ class Comptes2 {
      *
      * @return string|null Returns the siret.
      */
-    public function getSiret(): ?string{
+    public function getSiret(): ?string {
         return $this->siret;
     }
 
@@ -666,7 +665,7 @@ class Comptes2 {
      *
      * @return bool|null Returns the suivi stock.
      */
-    public function getSuiviStock(): ?bool{
+    public function getSuiviStock(): ?bool {
         return $this->suiviStock;
     }
 
@@ -675,7 +674,7 @@ class Comptes2 {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -684,7 +683,7 @@ class Comptes2 {
      *
      * @return string|null Returns the tel2.
      */
-    public function getTel2(): ?string{
+    public function getTel2(): ?string {
         return $this->tel2;
     }
 
@@ -693,7 +692,7 @@ class Comptes2 {
      *
      * @return string|null Returns the terme echeance le.
      */
-    public function getTermeEcheanceLe(): ?string{
+    public function getTermeEcheanceLe(): ?string {
         return $this->termeEcheanceLe;
     }
 
@@ -702,7 +701,7 @@ class Comptes2 {
      *
      * @return string|null Returns the type suivi.
      */
-    public function getTypeSuivi(): ?string{
+    public function getTypeSuivi(): ?string {
         return $this->typeSuivi;
     }
 
@@ -711,7 +710,7 @@ class Comptes2 {
      *
      * @return string|null Returns the zip code.
      */
-    public function getZipCode(): ?string{
+    public function getZipCode(): ?string {
         return $this->zipCode;
     }
 

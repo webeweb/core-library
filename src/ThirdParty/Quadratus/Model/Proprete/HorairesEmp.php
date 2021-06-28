@@ -134,18 +134,18 @@ class HorairesEmp {
     private $heureDeb;
 
     /**
-     * Jf type2.
-     *
-     * @var string|null
-     */
-    private $jfType2;
-
-    /**
      * Jan.
      *
      * @var bool|null
      */
     private $jan;
+
+    /**
+     * Jf type2.
+     *
+     * @var string|null
+     */
+    private $jfType2;
 
     /**
      * Juil.
@@ -280,7 +280,6 @@ class HorairesEmp {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -293,7 +292,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the aou.
      */
-    public function getAou(): ?bool{
+    public function getAou(): ?bool {
         return $this->aou;
     }
 
@@ -302,7 +301,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the avr.
      */
-    public function getAvr(): ?bool{
+    public function getAvr(): ?bool {
         return $this->avr;
     }
 
@@ -311,7 +310,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -320,7 +319,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -329,7 +328,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -338,7 +337,7 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the date debut affectation.
      */
-    public function getDateDebutAffectation(): ?DateTime{
+    public function getDateDebutAffectation(): ?DateTime {
         return $this->dateDebutAffectation;
     }
 
@@ -347,7 +346,7 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the date fin affectation.
      */
-    public function getDateFinAffectation(): ?DateTime{
+    public function getDateFinAffectation(): ?DateTime {
         return $this->dateFinAffectation;
     }
 
@@ -356,7 +355,7 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -365,7 +364,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the dec.
      */
-    public function getDec(): ?bool{
+    public function getDec(): ?bool {
         return $this->dec;
     }
 
@@ -374,7 +373,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the dim type2.
      */
-    public function getDimType2(): ?string{
+    public function getDimType2(): ?string {
         return $this->dimType2;
     }
 
@@ -383,7 +382,7 @@ class HorairesEmp {
      *
      * @return int|null Returns the discr sem.
      */
-    public function getDiscrSem(): ?int{
+    public function getDiscrSem(): ?int {
         return $this->discrSem;
     }
 
@@ -392,7 +391,7 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the duree.
      */
-    public function getDuree(): ?DateTime{
+    public function getDuree(): ?DateTime {
         return $this->duree;
     }
 
@@ -401,7 +400,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -410,7 +409,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the fev.
      */
-    public function getFev(): ?bool{
+    public function getFev(): ?bool {
         return $this->fev;
     }
 
@@ -419,7 +418,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the h nuit type2.
      */
-    public function getHNuitType2(): ?string{
+    public function getHNuitType2(): ?string {
         return $this->hNuitType2;
     }
 
@@ -428,17 +427,8 @@ class HorairesEmp {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
-    }
-
-    /**
-     * Get the jf type2.
-     *
-     * @return string|null Returns the jf type2.
-     */
-    public function getJfType2(): ?string{
-        return $this->jfType2;
     }
 
     /**
@@ -446,8 +436,17 @@ class HorairesEmp {
      *
      * @return bool|null Returns the jan.
      */
-    public function getJan(): ?bool{
+    public function getJan(): ?bool {
         return $this->jan;
+    }
+
+    /**
+     * Get the jf type2.
+     *
+     * @return string|null Returns the jf type2.
+     */
+    public function getJfType2(): ?string {
+        return $this->jfType2;
     }
 
     /**
@@ -455,7 +454,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the juil.
      */
-    public function getJuil(): ?bool{
+    public function getJuil(): ?bool {
         return $this->juil;
     }
 
@@ -464,7 +463,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the juin.
      */
-    public function getJuin(): ?bool{
+    public function getJuin(): ?bool {
         return $this->juin;
     }
 
@@ -473,7 +472,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the mai.
      */
-    public function getMai(): ?bool{
+    public function getMai(): ?bool {
         return $this->mai;
     }
 
@@ -482,7 +481,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the mar.
      */
-    public function getMar(): ?bool{
+    public function getMar(): ?bool {
         return $this->mar;
     }
 
@@ -491,7 +490,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the note memo.
      */
-    public function getNoteMemo(): ?string{
+    public function getNoteMemo(): ?string {
         return $this->noteMemo;
     }
 
@@ -500,7 +499,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the nov.
      */
-    public function getNov(): ?bool{
+    public function getNov(): ?bool {
         return $this->nov;
     }
 
@@ -509,7 +508,7 @@ class HorairesEmp {
      *
      * @return int|null Returns the num chrono.
      */
-    public function getNumChrono(): ?int{
+    public function getNumChrono(): ?int {
         return $this->numChrono;
     }
 
@@ -518,7 +517,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the num jour.
      */
-    public function getNumJour(): ?string{
+    public function getNumJour(): ?string {
         return $this->numJour;
     }
 
@@ -527,7 +526,7 @@ class HorairesEmp {
      *
      * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant(): ?int{
+    public function getNumeroAvenant(): ?int {
         return $this->numeroAvenant;
     }
 
@@ -536,7 +535,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the numero semaine.
      */
-    public function getNumeroSemaine(): ?string{
+    public function getNumeroSemaine(): ?string {
         return $this->numeroSemaine;
     }
 
@@ -545,7 +544,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the oct.
      */
-    public function getOct(): ?bool{
+    public function getOct(): ?bool {
         return $this->oct;
     }
 
@@ -554,7 +553,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the sauf semaine complete.
      */
-    public function getSaufSemaineComplete(): ?string{
+    public function getSaufSemaineComplete(): ?string {
         return $this->saufSemaineComplete;
     }
 
@@ -563,7 +562,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the semaine complete.
      */
-    public function getSemaineComplete(): ?bool{
+    public function getSemaineComplete(): ?bool {
         return $this->semaineComplete;
     }
 
@@ -572,7 +571,7 @@ class HorairesEmp {
      *
      * @return bool|null Returns the sep.
      */
-    public function getSep(): ?bool{
+    public function getSep(): ?bool {
         return $this->sep;
     }
 
@@ -581,7 +580,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the travaille jf.
      */
-    public function getTravailleJf(): ?string{
+    public function getTravailleJf(): ?string {
         return $this->travailleJf;
     }
 
@@ -590,7 +589,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the type contrat.
      */
-    public function getTypeContrat(): ?string{
+    public function getTypeContrat(): ?string {
         return $this->typeContrat;
     }
 
@@ -599,7 +598,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the type freq.
      */
-    public function getTypeFreq(): ?string{
+    public function getTypeFreq(): ?string {
         return $this->typeFreq;
     }
 
@@ -608,7 +607,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -617,7 +616,7 @@ class HorairesEmp {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 
@@ -798,17 +797,6 @@ class HorairesEmp {
     }
 
     /**
-     * Set the jf type2.
-     *
-     * @param string|null $jfType2 The jf type2.
-     * @return HorairesEmp Returns this Horaires emp.
-     */
-    public function setJfType2(?string $jfType2): HorairesEmp {
-        $this->jfType2 = $jfType2;
-        return $this;
-    }
-
-    /**
      * Set the jan.
      *
      * @param bool|null $jan The jan.
@@ -816,6 +804,17 @@ class HorairesEmp {
      */
     public function setJan(?bool $jan): HorairesEmp {
         $this->jan = $jan;
+        return $this;
+    }
+
+    /**
+     * Set the jf type2.
+     *
+     * @param string|null $jfType2 The jf type2.
+     * @return HorairesEmp Returns this Horaires emp.
+     */
+    public function setJfType2(?string $jfType2): HorairesEmp {
+        $this->jfType2 = $jfType2;
         return $this;
     }
 

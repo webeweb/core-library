@@ -103,7 +103,6 @@ class ProvisionsCp {
      */
     private $txChargesSoc;
 
-
     /**
      * Constructor.
      */
@@ -116,7 +115,7 @@ class ProvisionsCp {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -125,7 +124,7 @@ class ProvisionsCp {
      *
      * @return string|null Returns the col pour sal ref.
      */
-    public function getColPourSalRef(): ?string{
+    public function getColPourSalRef(): ?string {
         return $this->colPourSalRef;
     }
 
@@ -134,7 +133,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the dernier salaire.
      */
-    public function getDernierSalaire(): ?float{
+    public function getDernierSalaire(): ?float {
         return $this->dernierSalaire;
     }
 
@@ -143,7 +142,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the moyenne salaires.
      */
-    public function getMoyenneSalaires(): ?float{
+    public function getMoyenneSalaires(): ?float {
         return $this->moyenneSalaires;
     }
 
@@ -152,7 +151,7 @@ class ProvisionsCp {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -161,7 +160,7 @@ class ProvisionsCp {
      *
      * @return string|null Returns the nom complet emp.
      */
-    public function getNomCompletEmp(): ?string{
+    public function getNomCompletEmp(): ?string {
         return $this->nomCompletEmp;
     }
 
@@ -170,7 +169,7 @@ class ProvisionsCp {
      *
      * @return string|null Returns the numero emp.
      */
-    public function getNumeroEmp(): ?string{
+    public function getNumeroEmp(): ?string {
         return $this->numeroEmp;
     }
 
@@ -179,7 +178,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the provision totale.
      */
-    public function getProvisionTotale(): ?float{
+    public function getProvisionTotale(): ?float {
         return $this->provisionTotale;
     }
 
@@ -188,7 +187,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the salaire ref.
      */
-    public function getSalaireRef(): ?float{
+    public function getSalaireRef(): ?float {
         return $this->salaireRef;
     }
 
@@ -197,7 +196,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the solde jours n.
      */
-    public function getSoldeJoursN(): ?float{
+    public function getSoldeJoursN(): ?float {
         return $this->soldeJoursN;
     }
 
@@ -206,7 +205,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the solde jours n1.
      */
-    public function getSoldeJoursN1(): ?float{
+    public function getSoldeJoursN1(): ?float {
         return $this->soldeJoursN1;
     }
 
@@ -215,7 +214,7 @@ class ProvisionsCp {
      *
      * @return float|null Returns the tx charges soc.
      */
-    public function getTxChargesSoc(): ?float{
+    public function getTxChargesSoc(): ?float {
         return $this->txChargesSoc;
     }
 

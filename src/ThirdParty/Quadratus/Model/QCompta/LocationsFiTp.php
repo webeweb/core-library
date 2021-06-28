@@ -77,7 +77,6 @@ class LocationsFiTp {
      */
     private $numeroCompte;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class LocationsFiTp {
      *
      * @return float|null Returns the assurance.
      */
-    public function getAssurance(): ?float{
+    public function getAssurance(): ?float {
         return $this->assurance;
     }
 
@@ -99,7 +98,7 @@ class LocationsFiTp {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -108,7 +107,7 @@ class LocationsFiTp {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -117,7 +116,7 @@ class LocationsFiTp {
      *
      * @return float|null Returns the entretien.
      */
-    public function getEntretien(): ?float{
+    public function getEntretien(): ?float {
         return $this->entretien;
     }
 
@@ -126,7 +125,7 @@ class LocationsFiTp {
      *
      * @return float|null Returns the loyer ht.
      */
-    public function getLoyerHt(): ?float{
+    public function getLoyerHt(): ?float {
         return $this->loyerHt;
     }
 
@@ -135,7 +134,7 @@ class LocationsFiTp {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -144,7 +143,7 @@ class LocationsFiTp {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -153,7 +152,7 @@ class LocationsFiTp {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 

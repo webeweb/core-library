@@ -82,7 +82,6 @@ class ChantiersDescriptifLocauxElements {
      */
     private $uniqIdLocal;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -104,7 +103,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -113,7 +112,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -122,7 +121,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return string|null Returns the code element.
      */
-    public function getCodeElement(): ?string{
+    public function getCodeElement(): ?string {
         return $this->codeElement;
     }
 
@@ -131,7 +130,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -140,7 +139,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return int|null Returns the niveau noeud.
      */
-    public function getNiveauNoeud(): ?int{
+    public function getNiveauNoeud(): ?int {
         return $this->niveauNoeud;
     }
 
@@ -149,7 +148,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return int|null Returns the numero noeud.
      */
-    public function getNumeroNoeud(): ?int{
+    public function getNumeroNoeud(): ?int {
         return $this->numeroNoeud;
     }
 
@@ -158,7 +157,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return string|null Returns the type element.
      */
-    public function getTypeElement(): ?string{
+    public function getTypeElement(): ?string {
         return $this->typeElement;
     }
 
@@ -167,7 +166,7 @@ class ChantiersDescriptifLocauxElements {
      *
      * @return string|null Returns the uniq id local.
      */
-    public function getUniqIdLocal(): ?string{
+    public function getUniqIdLocal(): ?string {
         return $this->uniqIdLocal;
     }
 

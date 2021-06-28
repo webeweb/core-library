@@ -12,7 +12,7 @@
 namespace WBW\Library\Core\Provider;
 
 use Psr\Log\LoggerInterface;
-use WBW\Library\Core\Model\Attribute\BooleanDebugTrait;
+use WBW\Library\Traits\Booleans\BooleanDebugTrait;
 
 /**
  * Abstract provider.

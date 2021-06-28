@@ -56,7 +56,6 @@ class JournauxRapproch {
      */
     private $soldeFin;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class JournauxRapproch {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -78,7 +77,7 @@ class JournauxRapproch {
      *
      * @return string|null Returns the methode.
      */
-    public function getMethode(): ?string{
+    public function getMethode(): ?string {
         return $this->methode;
     }
 
@@ -87,7 +86,7 @@ class JournauxRapproch {
      *
      * @return bool|null Returns the ne pas saisir solde fin.
      */
-    public function getNePasSaisirSoldeFin(): ?bool{
+    public function getNePasSaisirSoldeFin(): ?bool {
         return $this->nePasSaisirSoldeFin;
     }
 
@@ -96,7 +95,7 @@ class JournauxRapproch {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -105,7 +104,7 @@ class JournauxRapproch {
      *
      * @return float|null Returns the solde fin.
      */
-    public function getSoldeFin(): ?float{
+    public function getSoldeFin(): ?float {
         return $this->soldeFin;
     }
 

@@ -119,7 +119,6 @@ class HistoPaieAbsences {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the code abs paie.
      */
-    public function getCodeAbsPaie(): ?string{
+    public function getCodeAbsPaie(): ?string {
         return $this->codeAbsPaie;
     }
 
@@ -141,7 +140,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the code absence.
      */
-    public function getCodeAbsence(): ?string{
+    public function getCodeAbsence(): ?string {
         return $this->codeAbsence;
     }
 
@@ -150,7 +149,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -159,7 +158,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -168,7 +167,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -177,7 +176,7 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the date debut abs.
      */
-    public function getDateDebutAbs(): ?DateTime{
+    public function getDateDebutAbs(): ?DateTime {
         return $this->dateDebutAbs;
     }
 
@@ -186,7 +185,7 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the date fin abs.
      */
-    public function getDateFinAbs(): ?DateTime{
+    public function getDateFinAbs(): ?DateTime {
         return $this->dateFinAbs;
     }
 
@@ -195,7 +194,7 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -204,7 +203,7 @@ class HistoPaieAbsences {
      *
      * @return float|null Returns the duree absence.
      */
-    public function getDureeAbsence(): ?float{
+    public function getDureeAbsence(): ?float {
         return $this->dureeAbsence;
     }
 
@@ -213,7 +212,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -222,7 +221,7 @@ class HistoPaieAbsences {
      *
      * @return float|null Returns the nb jours abs.
      */
-    public function getNbJoursAbs(): ?float{
+    public function getNbJoursAbs(): ?float {
         return $this->nbJoursAbs;
     }
 
@@ -231,7 +230,7 @@ class HistoPaieAbsences {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -240,7 +239,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -249,7 +248,7 @@ class HistoPaieAbsences {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

@@ -49,7 +49,6 @@ class Alertes {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class Alertes {
      *
      * @return bool|null Returns the cloturee.
      */
-    public function getCloturee(): ?bool{
+    public function getCloturee(): ?bool {
         return $this->cloturee;
     }
 
@@ -71,7 +70,7 @@ class Alertes {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -80,7 +79,7 @@ class Alertes {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -89,7 +88,7 @@ class Alertes {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

@@ -64,18 +64,18 @@ class Bulletins {
     private $baseGmp;
 
     /**
-     * Base ss plaf modif.
-     *
-     * @var bool|null
-     */
-    private $baseSsPlafModif;
-
-    /**
      * Base secu.
      *
      * @var float|null
      */
     private $baseSecu;
+
+    /**
+     * Base ss plaf modif.
+     *
+     * @var bool|null
+     */
+    private $baseSsPlafModif;
 
     /**
      * Borne per modifie.
@@ -99,18 +99,25 @@ class Bulletins {
     private $brutAl;
 
     /**
+     * Brut al limite smic.
+     *
+     * @var float|null
+     */
+    private $brutAlLimiteSmic;
+
+    /**
+     * Brut al modifie.
+     *
+     * @var bool|null
+     */
+    private $brutAlModifie;
+
+    /**
      * Brut anl.
      *
      * @var float|null
      */
     private $brutAnl;
-
-    /**
-     * Brut cp.
-     *
-     * @var float|null
-     */
-    private $brutCp;
 
     /**
      * Brut caisse1.
@@ -141,6 +148,13 @@ class Bulletins {
     private $brutCaisseCp;
 
     /**
+     * Brut cp.
+     *
+     * @var float|null
+     */
+    private $brutCp;
+
+    /**
      * Brut csg.
      *
      * @var float|null
@@ -160,20 +174,6 @@ class Bulletins {
      * @var float|null
      */
     private $brutSoumisCrds;
-
-    /**
-     * Brut al limite smic.
-     *
-     * @var float|null
-     */
-    private $brutAlLimiteSmic;
-
-    /**
-     * Brut al modifie.
-     *
-     * @var bool|null
-     */
-    private $brutAlModifie;
 
     /**
      * Bulletin publie.
@@ -197,18 +197,18 @@ class Bulletins {
     private $chequeEdite;
 
     /**
-     * Chom partiel cp.
-     *
-     * @var float|null
-     */
-    private $chomPartielCp;
-
-    /**
      * Chom partiel coeff indem.
      *
      * @var float|null
      */
     private $chomPartielCoeffIndem;
+
+    /**
+     * Chom partiel cp.
+     *
+     * @var float|null
+     */
+    private $chomPartielCp;
 
     /**
      * Chom partiel min indem.
@@ -414,20 +414,6 @@ class Bulletins {
     private $cumNetAPayer;
 
     /**
-     * Cum pss1.
-     *
-     * @var float|null
-     */
-    private $cumPss1;
-
-    /**
-     * Cum pss2.
-     *
-     * @var float|null
-     */
-    private $cumPss2;
-
-    /**
      * Cum plaf1 caisse1.
      *
      * @var float|null
@@ -475,6 +461,20 @@ class Bulletins {
      * @var float|null
      */
     private $cumPlafondGmp;
+
+    /**
+     * Cum pss1.
+     *
+     * @var float|null
+     */
+    private $cumPss1;
+
+    /**
+     * Cum pss2.
+     *
+     * @var float|null
+     */
+    private $cumPss2;
 
     /**
      * Cum rtt dus.
@@ -701,13 +701,6 @@ class Bulletins {
     private $lienJustificatif;
 
     /**
-     * Mig.
-     *
-     * @var float|null
-     */
-    private $mig;
-
-    /**
      * Max abat.
      *
      * @var float|null
@@ -727,6 +720,13 @@ class Bulletins {
      * @var string|null
      */
     private $methodeIndemCp;
+
+    /**
+     * Mig.
+     *
+     * @var float|null
+     */
+    private $mig;
 
     /**
      * Montant1.
@@ -1100,20 +1100,6 @@ class Bulletins {
     private $nbJPris1;
 
     /**
-     * Nb jrtt dus.
-     *
-     * @var float|null
-     */
-    private $nbJrttDus;
-
-    /**
-     * Nb jrtt pris.
-     *
-     * @var float|null
-     */
-    private $nbJrttPris;
-
-    /**
      * Nb j repo recup dus.
      *
      * @var float|null
@@ -1184,6 +1170,20 @@ class Bulletins {
     private $nbJourTrav;
 
     /**
+     * Nb jrtt dus.
+     *
+     * @var float|null
+     */
+    private $nbJrttDus;
+
+    /**
+     * Nb jrtt pris.
+     *
+     * @var float|null
+     */
+    private $nbJrttPris;
+
+    /**
      * Net a payer.
      *
      * @var float|null
@@ -1224,41 +1224,6 @@ class Bulletins {
      * @var string|null
      */
     private $numeroEmploye;
-
-    /**
-     * Pp soumis taxe.
-     *
-     * @var float|null
-     */
-    private $ppSoumisTaxe;
-
-    /**
-     * Pss1.
-     *
-     * @var float|null
-     */
-    private $pss1;
-
-    /**
-     * Pss2.
-     *
-     * @var float|null
-     */
-    private $pss2;
-
-    /**
-     * Pss30.
-     *
-     * @var bool|null
-     */
-    private $pss30;
-
-    /**
-     * Pss mod.
-     *
-     * @var bool|null
-     */
-    private $pssMod;
 
     /**
      * Paie euro.
@@ -1401,11 +1366,11 @@ class Bulletins {
     private $pourcentRemuHor;
 
     /**
-     * Prov cp1.
+     * Pp soumis taxe.
      *
      * @var float|null
      */
-    private $provCp1;
+    private $ppSoumisTaxe;
 
     /**
      * Prov cp.
@@ -1413,6 +1378,41 @@ class Bulletins {
      * @var float|null
      */
     private $provCp;
+
+    /**
+     * Prov cp1.
+     *
+     * @var float|null
+     */
+    private $provCp1;
+
+    /**
+     * Pss1.
+     *
+     * @var float|null
+     */
+    private $pss1;
+
+    /**
+     * Pss2.
+     *
+     * @var float|null
+     */
+    private $pss2;
+
+    /**
+     * Pss30.
+     *
+     * @var bool|null
+     */
+    private $pss30;
+
+    /**
+     * Pss mod.
+     *
+     * @var bool|null
+     */
+    private $pssMod;
 
     /**
      * Remun mens.
@@ -1688,6 +1688,13 @@ class Bulletins {
     private $trancheC;
 
     /**
+     * Tranche c plaf.
+     *
+     * @var float|null
+     */
+    private $trancheCPlaf;
+
+    /**
      * Tranche cbal.
      *
      * @var float|null
@@ -1707,13 +1714,6 @@ class Bulletins {
      * @var float|null
      */
     private $trancheCbna;
-
-    /**
-     * Tranche c plaf.
-     *
-     * @var float|null
-     */
-    private $trancheCPlaf;
 
     /**
      * Txt note rtf.
@@ -1785,7 +1785,6 @@ class Bulletins {
      */
     private $valoriseCp;
 
-
     /**
      * Constructor.
      */
@@ -1798,7 +1797,7 @@ class Bulletins {
      *
      * @return float|null Returns the abat theo.
      */
-    public function getAbatTheo(): ?float{
+    public function getAbatTheo(): ?float {
         return $this->abatTheo;
     }
 
@@ -1807,7 +1806,7 @@ class Bulletins {
      *
      * @return float|null Returns the abattement max.
      */
-    public function getAbattementMax(): ?float{
+    public function getAbattementMax(): ?float {
         return $this->abattementMax;
     }
 
@@ -1816,7 +1815,7 @@ class Bulletins {
      *
      * @return float|null Returns the allegement.
      */
-    public function getAllegement(): ?float{
+    public function getAllegement(): ?float {
         return $this->allegement;
     }
 
@@ -1825,7 +1824,7 @@ class Bulletins {
      *
      * @return float|null Returns the allegement non proratise.
      */
-    public function getAllegementNonProratise(): ?float{
+    public function getAllegementNonProratise(): ?float {
         return $this->allegementNonProratise;
     }
 
@@ -1834,7 +1833,7 @@ class Bulletins {
      *
      * @return float|null Returns the avantage nature.
      */
-    public function getAvantageNature(): ?float{
+    public function getAvantageNature(): ?float {
         return $this->avantageNature;
     }
 
@@ -1843,17 +1842,8 @@ class Bulletins {
      *
      * @return float|null Returns the base gmp.
      */
-    public function getBaseGmp(): ?float{
+    public function getBaseGmp(): ?float {
         return $this->baseGmp;
-    }
-
-    /**
-     * Get the base ss plaf modif.
-     *
-     * @return bool|null Returns the base ss plaf modif.
-     */
-    public function getBaseSsPlafModif(): ?bool{
-        return $this->baseSsPlafModif;
     }
 
     /**
@@ -1861,8 +1851,17 @@ class Bulletins {
      *
      * @return float|null Returns the base secu.
      */
-    public function getBaseSecu(): ?float{
+    public function getBaseSecu(): ?float {
         return $this->baseSecu;
+    }
+
+    /**
+     * Get the base ss plaf modif.
+     *
+     * @return bool|null Returns the base ss plaf modif.
+     */
+    public function getBaseSsPlafModif(): ?bool {
+        return $this->baseSsPlafModif;
     }
 
     /**
@@ -1870,7 +1869,7 @@ class Bulletins {
      *
      * @return bool|null Returns the borne per modifie.
      */
-    public function getBornePerModifie(): ?bool{
+    public function getBornePerModifie(): ?bool {
         return $this->bornePerModifie;
     }
 
@@ -1879,7 +1878,7 @@ class Bulletins {
      *
      * @return float|null Returns the brut.
      */
-    public function getBrut(): ?float{
+    public function getBrut(): ?float {
         return $this->brut;
     }
 
@@ -1888,89 +1887,8 @@ class Bulletins {
      *
      * @return float|null Returns the brut al.
      */
-    public function getBrutAl(): ?float{
+    public function getBrutAl(): ?float {
         return $this->brutAl;
-    }
-
-    /**
-     * Get the brut anl.
-     *
-     * @return float|null Returns the brut anl.
-     */
-    public function getBrutAnl(): ?float{
-        return $this->brutAnl;
-    }
-
-    /**
-     * Get the brut cp.
-     *
-     * @return float|null Returns the brut cp.
-     */
-    public function getBrutCp(): ?float{
-        return $this->brutCp;
-    }
-
-    /**
-     * Get the brut caisse1.
-     *
-     * @return float|null Returns the brut caisse1.
-     */
-    public function getBrutCaisse1(): ?float{
-        return $this->brutCaisse1;
-    }
-
-    /**
-     * Get the brut caisse2.
-     *
-     * @return float|null Returns the brut caisse2.
-     */
-    public function getBrutCaisse2(): ?float{
-        return $this->brutCaisse2;
-    }
-
-    /**
-     * Get the brut caisse3.
-     *
-     * @return float|null Returns the brut caisse3.
-     */
-    public function getBrutCaisse3(): ?float{
-        return $this->brutCaisse3;
-    }
-
-    /**
-     * Get the brut caisse cp.
-     *
-     * @return float|null Returns the brut caisse cp.
-     */
-    public function getBrutCaisseCp(): ?float{
-        return $this->brutCaisseCp;
-    }
-
-    /**
-     * Get the brut csg.
-     *
-     * @return float|null Returns the brut csg.
-     */
-    public function getBrutCsg(): ?float{
-        return $this->brutCsg;
-    }
-
-    /**
-     * Get the brut soumis abat.
-     *
-     * @return float|null Returns the brut soumis abat.
-     */
-    public function getBrutSoumisAbat(): ?float{
-        return $this->brutSoumisAbat;
-    }
-
-    /**
-     * Get the brut soumis crds.
-     *
-     * @return float|null Returns the brut soumis crds.
-     */
-    public function getBrutSoumisCrds(): ?float{
-        return $this->brutSoumisCrds;
     }
 
     /**
@@ -1978,7 +1896,7 @@ class Bulletins {
      *
      * @return float|null Returns the brut al limite smic.
      */
-    public function getBrutAlLimiteSmic(): ?float{
+    public function getBrutAlLimiteSmic(): ?float {
         return $this->brutAlLimiteSmic;
     }
 
@@ -1987,8 +1905,89 @@ class Bulletins {
      *
      * @return bool|null Returns the brut al modifie.
      */
-    public function getBrutAlModifie(): ?bool{
+    public function getBrutAlModifie(): ?bool {
         return $this->brutAlModifie;
+    }
+
+    /**
+     * Get the brut anl.
+     *
+     * @return float|null Returns the brut anl.
+     */
+    public function getBrutAnl(): ?float {
+        return $this->brutAnl;
+    }
+
+    /**
+     * Get the brut caisse1.
+     *
+     * @return float|null Returns the brut caisse1.
+     */
+    public function getBrutCaisse1(): ?float {
+        return $this->brutCaisse1;
+    }
+
+    /**
+     * Get the brut caisse2.
+     *
+     * @return float|null Returns the brut caisse2.
+     */
+    public function getBrutCaisse2(): ?float {
+        return $this->brutCaisse2;
+    }
+
+    /**
+     * Get the brut caisse3.
+     *
+     * @return float|null Returns the brut caisse3.
+     */
+    public function getBrutCaisse3(): ?float {
+        return $this->brutCaisse3;
+    }
+
+    /**
+     * Get the brut caisse cp.
+     *
+     * @return float|null Returns the brut caisse cp.
+     */
+    public function getBrutCaisseCp(): ?float {
+        return $this->brutCaisseCp;
+    }
+
+    /**
+     * Get the brut cp.
+     *
+     * @return float|null Returns the brut cp.
+     */
+    public function getBrutCp(): ?float {
+        return $this->brutCp;
+    }
+
+    /**
+     * Get the brut csg.
+     *
+     * @return float|null Returns the brut csg.
+     */
+    public function getBrutCsg(): ?float {
+        return $this->brutCsg;
+    }
+
+    /**
+     * Get the brut soumis abat.
+     *
+     * @return float|null Returns the brut soumis abat.
+     */
+    public function getBrutSoumisAbat(): ?float {
+        return $this->brutSoumisAbat;
+    }
+
+    /**
+     * Get the brut soumis crds.
+     *
+     * @return float|null Returns the brut soumis crds.
+     */
+    public function getBrutSoumisCrds(): ?float {
+        return $this->brutSoumisCrds;
     }
 
     /**
@@ -1996,7 +1995,7 @@ class Bulletins {
      *
      * @return bool|null Returns the bulletin publie.
      */
-    public function getBulletinPublie(): ?bool{
+    public function getBulletinPublie(): ?bool {
         return $this->bulletinPublie;
     }
 
@@ -2005,7 +2004,7 @@ class Bulletins {
      *
      * @return string|null Returns the categ tds.
      */
-    public function getCategTds(): ?string{
+    public function getCategTds(): ?string {
         return $this->categTds;
     }
 
@@ -2014,17 +2013,8 @@ class Bulletins {
      *
      * @return bool|null Returns the cheque edite.
      */
-    public function getChequeEdite(): ?bool{
+    public function getChequeEdite(): ?bool {
         return $this->chequeEdite;
-    }
-
-    /**
-     * Get the chom partiel cp.
-     *
-     * @return float|null Returns the chom partiel cp.
-     */
-    public function getChomPartielCp(): ?float{
-        return $this->chomPartielCp;
     }
 
     /**
@@ -2032,8 +2022,17 @@ class Bulletins {
      *
      * @return float|null Returns the chom partiel coeff indem.
      */
-    public function getChomPartielCoeffIndem(): ?float{
+    public function getChomPartielCoeffIndem(): ?float {
         return $this->chomPartielCoeffIndem;
+    }
+
+    /**
+     * Get the chom partiel cp.
+     *
+     * @return float|null Returns the chom partiel cp.
+     */
+    public function getChomPartielCp(): ?float {
+        return $this->chomPartielCp;
     }
 
     /**
@@ -2041,7 +2040,7 @@ class Bulletins {
      *
      * @return float|null Returns the chom partiel min indem.
      */
-    public function getChomPartielMinIndem(): ?float{
+    public function getChomPartielMinIndem(): ?float {
         return $this->chomPartielMinIndem;
     }
 
@@ -2050,7 +2049,7 @@ class Bulletins {
      *
      * @return int|null Returns the code at per.
      */
-    public function getCodeAtPer(): ?int{
+    public function getCodeAtPer(): ?int {
         return $this->codeAtPer;
     }
 
@@ -2059,7 +2058,7 @@ class Bulletins {
      *
      * @return string|null Returns the code centre urssaf.
      */
-    public function getCodeCentreUrssaf(): ?string{
+    public function getCodeCentreUrssaf(): ?string {
         return $this->codeCentreUrssaf;
     }
 
@@ -2068,7 +2067,7 @@ class Bulletins {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -2077,7 +2076,7 @@ class Bulletins {
      *
      * @return string|null Returns the code type sal.
      */
-    public function getCodeTypeSal(): ?string{
+    public function getCodeTypeSal(): ?string {
         return $this->codeTypeSal;
     }
 
@@ -2086,7 +2085,7 @@ class Bulletins {
      *
      * @return float|null Returns the coeff intemperie.
      */
-    public function getCoeffIntemperie(): ?float{
+    public function getCoeffIntemperie(): ?float {
         return $this->coeffIntemperie;
     }
 
@@ -2095,7 +2094,7 @@ class Bulletins {
      *
      * @return float|null Returns the cont h sup repos comp.
      */
-    public function getContHSupReposComp(): ?float{
+    public function getContHSupReposComp(): ?float {
         return $this->contHSupReposComp;
     }
 
@@ -2104,7 +2103,7 @@ class Bulletins {
      *
      * @return float|null Returns the cout global mois.
      */
-    public function getCoutGlobalMois(): ?float{
+    public function getCoutGlobalMois(): ?float {
         return $this->coutGlobalMois;
     }
 
@@ -2113,7 +2112,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum30 ss.
      */
-    public function getCum30Ss(): ?float{
+    public function getCum30Ss(): ?float {
         return $this->cum30Ss;
     }
 
@@ -2122,7 +2121,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum ant h sup.
      */
-    public function getCumAntHSup(): ?float{
+    public function getCumAntHSup(): ?float {
         return $this->cumAntHSup;
     }
 
@@ -2131,7 +2130,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum base gmp.
      */
-    public function getCumBaseGmp(): ?float{
+    public function getCumBaseGmp(): ?float {
         return $this->cumBaseGmp;
     }
 
@@ -2140,7 +2139,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum base ss.
      */
-    public function getCumBaseSs(): ?float{
+    public function getCumBaseSs(): ?float {
         return $this->cumBaseSs;
     }
 
@@ -2149,7 +2148,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum brut.
      */
-    public function getCumBrut(): ?float{
+    public function getCumBrut(): ?float {
         return $this->cumBrut;
     }
 
@@ -2158,7 +2157,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum brut al.
      */
-    public function getCumBrutAl(): ?float{
+    public function getCumBrutAl(): ?float {
         return $this->cumBrutAl;
     }
 
@@ -2167,7 +2166,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum brut anl.
      */
-    public function getCumBrutAnl(): ?float{
+    public function getCumBrutAnl(): ?float {
         return $this->cumBrutAnl;
     }
 
@@ -2176,7 +2175,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum brut caisse1.
      */
-    public function getCumBrutCaisse1(): ?float{
+    public function getCumBrutCaisse1(): ?float {
         return $this->cumBrutCaisse1;
     }
 
@@ -2185,7 +2184,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum brut caisse2.
      */
-    public function getCumBrutCaisse2(): ?float{
+    public function getCumBrutCaisse2(): ?float {
         return $this->cumBrutCaisse2;
     }
 
@@ -2194,7 +2193,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum brut caisse3.
      */
-    public function getCumBrutCaisse3(): ?float{
+    public function getCumBrutCaisse3(): ?float {
         return $this->cumBrutCaisse3;
     }
 
@@ -2203,7 +2202,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum dif dus.
      */
-    public function getCumDifDus(): ?float{
+    public function getCumDifDus(): ?float {
         return $this->cumDifDus;
     }
 
@@ -2212,7 +2211,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum dif dus1.
      */
-    public function getCumDifDus1(): ?float{
+    public function getCumDifDus1(): ?float {
         return $this->cumDifDus1;
     }
 
@@ -2221,7 +2220,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum h bonifie.
      */
-    public function getCumHBonifie(): ?float{
+    public function getCumHBonifie(): ?float {
         return $this->cumHBonifie;
     }
 
@@ -2230,7 +2229,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum h repos comp.
      */
-    public function getCumHReposComp(): ?float{
+    public function getCumHReposComp(): ?float {
         return $this->cumHReposComp;
     }
 
@@ -2239,7 +2238,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum h repos remplace.
      */
-    public function getCumHReposRemplace(): ?float{
+    public function getCumHReposRemplace(): ?float {
         return $this->cumHReposRemplace;
     }
 
@@ -2248,7 +2247,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum h service.
      */
-    public function getCumHService(): ?float{
+    public function getCumHService(): ?float {
         return $this->cumHService;
     }
 
@@ -2257,7 +2256,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum impos.
      */
-    public function getCumImpos(): ?float{
+    public function getCumImpos(): ?float {
         return $this->cumImpos;
     }
 
@@ -2266,7 +2265,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum j repos recup.
      */
-    public function getCumJReposRecup(): ?float{
+    public function getCumJReposRecup(): ?float {
         return $this->cumJReposRecup;
     }
 
@@ -2275,7 +2274,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum mt cp pris.
      */
-    public function getCumMtCpPris(): ?float{
+    public function getCumMtCpPris(): ?float {
         return $this->cumMtCpPris;
     }
 
@@ -2284,7 +2283,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum mt cp pris1.
      */
-    public function getCumMtCpPris1(): ?float{
+    public function getCumMtCpPris1(): ?float {
         return $this->cumMtCpPris1;
     }
 
@@ -2293,26 +2292,8 @@ class Bulletins {
      *
      * @return float|null Returns the cum net a payer.
      */
-    public function getCumNetAPayer(): ?float{
+    public function getCumNetAPayer(): ?float {
         return $this->cumNetAPayer;
-    }
-
-    /**
-     * Get the cum pss1.
-     *
-     * @return float|null Returns the cum pss1.
-     */
-    public function getCumPss1(): ?float{
-        return $this->cumPss1;
-    }
-
-    /**
-     * Get the cum pss2.
-     *
-     * @return float|null Returns the cum pss2.
-     */
-    public function getCumPss2(): ?float{
-        return $this->cumPss2;
     }
 
     /**
@@ -2320,7 +2301,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum plaf1 caisse1.
      */
-    public function getCumPlaf1Caisse1(): ?float{
+    public function getCumPlaf1Caisse1(): ?float {
         return $this->cumPlaf1Caisse1;
     }
 
@@ -2329,7 +2310,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum plaf1 caisse2.
      */
-    public function getCumPlaf1Caisse2(): ?float{
+    public function getCumPlaf1Caisse2(): ?float {
         return $this->cumPlaf1Caisse2;
     }
 
@@ -2338,7 +2319,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum plaf1 caisse3.
      */
-    public function getCumPlaf1Caisse3(): ?float{
+    public function getCumPlaf1Caisse3(): ?float {
         return $this->cumPlaf1Caisse3;
     }
 
@@ -2347,7 +2328,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum plaf2 caisse1.
      */
-    public function getCumPlaf2Caisse1(): ?float{
+    public function getCumPlaf2Caisse1(): ?float {
         return $this->cumPlaf2Caisse1;
     }
 
@@ -2356,7 +2337,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum plaf2 caisse2.
      */
-    public function getCumPlaf2Caisse2(): ?float{
+    public function getCumPlaf2Caisse2(): ?float {
         return $this->cumPlaf2Caisse2;
     }
 
@@ -2365,7 +2346,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum plaf2 caisse3.
      */
-    public function getCumPlaf2Caisse3(): ?float{
+    public function getCumPlaf2Caisse3(): ?float {
         return $this->cumPlaf2Caisse3;
     }
 
@@ -2374,8 +2355,26 @@ class Bulletins {
      *
      * @return float|null Returns the cum plafond gmp.
      */
-    public function getCumPlafondGmp(): ?float{
+    public function getCumPlafondGmp(): ?float {
         return $this->cumPlafondGmp;
+    }
+
+    /**
+     * Get the cum pss1.
+     *
+     * @return float|null Returns the cum pss1.
+     */
+    public function getCumPss1(): ?float {
+        return $this->cumPss1;
+    }
+
+    /**
+     * Get the cum pss2.
+     *
+     * @return float|null Returns the cum pss2.
+     */
+    public function getCumPss2(): ?float {
+        return $this->cumPss2;
     }
 
     /**
@@ -2383,7 +2382,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum rtt dus.
      */
-    public function getCumRttDus(): ?float{
+    public function getCumRttDus(): ?float {
         return $this->cumRttDus;
     }
 
@@ -2392,7 +2391,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum rtt pris.
      */
-    public function getCumRttPris(): ?float{
+    public function getCumRttPris(): ?float {
         return $this->cumRttPris;
     }
 
@@ -2401,7 +2400,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr a caisse1.
      */
-    public function getCumTrACaisse1(): ?float{
+    public function getCumTrACaisse1(): ?float {
         return $this->cumTrACaisse1;
     }
 
@@ -2410,7 +2409,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr a caisse2.
      */
-    public function getCumTrACaisse2(): ?float{
+    public function getCumTrACaisse2(): ?float {
         return $this->cumTrACaisse2;
     }
 
@@ -2419,7 +2418,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr a caisse3.
      */
-    public function getCumTrACaisse3(): ?float{
+    public function getCumTrACaisse3(): ?float {
         return $this->cumTrACaisse3;
     }
 
@@ -2428,7 +2427,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr b caisse1.
      */
-    public function getCumTrBCaisse1(): ?float{
+    public function getCumTrBCaisse1(): ?float {
         return $this->cumTrBCaisse1;
     }
 
@@ -2437,7 +2436,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr b caisse2.
      */
-    public function getCumTrBCaisse2(): ?float{
+    public function getCumTrBCaisse2(): ?float {
         return $this->cumTrBCaisse2;
     }
 
@@ -2446,7 +2445,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr b caisse3.
      */
-    public function getCumTrBCaisse3(): ?float{
+    public function getCumTrBCaisse3(): ?float {
         return $this->cumTrBCaisse3;
     }
 
@@ -2455,7 +2454,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr c caisse1.
      */
-    public function getCumTrCCaisse1(): ?float{
+    public function getCumTrCCaisse1(): ?float {
         return $this->cumTrCCaisse1;
     }
 
@@ -2464,7 +2463,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr c caisse2.
      */
-    public function getCumTrCCaisse2(): ?float{
+    public function getCumTrCCaisse2(): ?float {
         return $this->cumTrCCaisse2;
     }
 
@@ -2473,7 +2472,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tr c caisse3.
      */
-    public function getCumTrCCaisse3(): ?float{
+    public function getCumTrCCaisse3(): ?float {
         return $this->cumTrCCaisse3;
     }
 
@@ -2482,7 +2481,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tranche2.
      */
-    public function getCumTranche2(): ?float{
+    public function getCumTranche2(): ?float {
         return $this->cumTranche2;
     }
 
@@ -2491,7 +2490,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tranche a.
      */
-    public function getCumTrancheA(): ?float{
+    public function getCumTrancheA(): ?float {
         return $this->cumTrancheA;
     }
 
@@ -2500,7 +2499,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tranche b.
      */
-    public function getCumTrancheB(): ?float{
+    public function getCumTrancheB(): ?float {
         return $this->cumTrancheB;
     }
 
@@ -2509,7 +2508,7 @@ class Bulletins {
      *
      * @return float|null Returns the cum tranche c.
      */
-    public function getCumTrancheC(): ?float{
+    public function getCumTrancheC(): ?float {
         return $this->cumTrancheC;
     }
 
@@ -2518,7 +2517,7 @@ class Bulletins {
      *
      * @return float|null Returns the delta.
      */
-    public function getDelta(): ?float{
+    public function getDelta(): ?float {
         return $this->delta;
     }
 
@@ -2527,7 +2526,7 @@ class Bulletins {
      *
      * @return float|null Returns the droit cp.
      */
-    public function getDroitCp(): ?float{
+    public function getDroitCp(): ?float {
         return $this->droitCp;
     }
 
@@ -2536,7 +2535,7 @@ class Bulletins {
      *
      * @return DateTime|null Returns the dt debut periode.
      */
-    public function getDtDebutPeriode(): ?DateTime{
+    public function getDtDebutPeriode(): ?DateTime {
         return $this->dtDebutPeriode;
     }
 
@@ -2545,7 +2544,7 @@ class Bulletins {
      *
      * @return DateTime|null Returns the dt fin periode.
      */
-    public function getDtFinPeriode(): ?DateTime{
+    public function getDtFinPeriode(): ?DateTime {
         return $this->dtFinPeriode;
     }
 
@@ -2554,7 +2553,7 @@ class Bulletins {
      *
      * @return float|null Returns the ecart cumule.
      */
-    public function getEcartCumule(): ?float{
+    public function getEcartCumule(): ?float {
         return $this->ecartCumule;
     }
 
@@ -2563,7 +2562,7 @@ class Bulletins {
      *
      * @return string|null Returns the etat bul.
      */
-    public function getEtatBul(): ?string{
+    public function getEtatBul(): ?string {
         return $this->etatBul;
     }
 
@@ -2572,7 +2571,7 @@ class Bulletins {
      *
      * @return string|null Returns the etat edition.
      */
-    public function getEtatEdition(): ?string{
+    public function getEtatEdition(): ?string {
         return $this->etatEdition;
     }
 
@@ -2581,7 +2580,7 @@ class Bulletins {
      *
      * @return bool|null Returns the forfait jour.
      */
-    public function getForfaitJour(): ?bool{
+    public function getForfaitJour(): ?bool {
         return $this->forfaitJour;
     }
 
@@ -2590,7 +2589,7 @@ class Bulletins {
      *
      * @return bool|null Returns the gest calc net paye.
      */
-    public function getGestCalcNetPaye(): ?bool{
+    public function getGestCalcNetPaye(): ?bool {
         return $this->gestCalcNetPaye;
     }
 
@@ -2599,7 +2598,7 @@ class Bulletins {
      *
      * @return bool|null Returns the gestion coeff.
      */
-    public function getGestionCoeff(): ?bool{
+    public function getGestionCoeff(): ?bool {
         return $this->gestionCoeff;
     }
 
@@ -2608,7 +2607,7 @@ class Bulletins {
      *
      * @return float|null Returns the h reel trav.
      */
-    public function getHReelTrav(): ?float{
+    public function getHReelTrav(): ?float {
         return $this->hReelTrav;
     }
 
@@ -2617,7 +2616,7 @@ class Bulletins {
      *
      * @return float|null Returns the h theo trav.
      */
-    public function getHTheoTrav(): ?float{
+    public function getHTheoTrav(): ?float {
         return $this->hTheoTrav;
     }
 
@@ -2626,7 +2625,7 @@ class Bulletins {
      *
      * @return float|null Returns the heure absence.
      */
-    public function getHeureAbsence(): ?float{
+    public function getHeureAbsence(): ?float {
         return $this->heureAbsence;
     }
 
@@ -2635,7 +2634,7 @@ class Bulletins {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -2644,7 +2643,7 @@ class Bulletins {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -2653,7 +2652,7 @@ class Bulletins {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -2662,17 +2661,8 @@ class Bulletins {
      *
      * @return string|null Returns the lien justificatif.
      */
-    public function getLienJustificatif(): ?string{
+    public function getLienJustificatif(): ?string {
         return $this->lienJustificatif;
-    }
-
-    /**
-     * Get the mig.
-     *
-     * @return float|null Returns the mig.
-     */
-    public function getMig(): ?float{
-        return $this->mig;
     }
 
     /**
@@ -2680,7 +2670,7 @@ class Bulletins {
      *
      * @return float|null Returns the max abat.
      */
-    public function getMaxAbat(): ?float{
+    public function getMaxAbat(): ?float {
         return $this->maxAbat;
     }
 
@@ -2689,7 +2679,7 @@ class Bulletins {
      *
      * @return bool|null Returns the mensuel journalier.
      */
-    public function getMensuelJournalier(): ?bool{
+    public function getMensuelJournalier(): ?bool {
         return $this->mensuelJournalier;
     }
 
@@ -2698,8 +2688,17 @@ class Bulletins {
      *
      * @return string|null Returns the methode indem cp.
      */
-    public function getMethodeIndemCp(): ?string{
+    public function getMethodeIndemCp(): ?string {
         return $this->methodeIndemCp;
+    }
+
+    /**
+     * Get the mig.
+     *
+     * @return float|null Returns the mig.
+     */
+    public function getMig(): ?float {
+        return $this->mig;
     }
 
     /**
@@ -2707,7 +2706,7 @@ class Bulletins {
      *
      * @return float|null Returns the montant1.
      */
-    public function getMontant1(): ?float{
+    public function getMontant1(): ?float {
         return $this->montant1;
     }
 
@@ -2716,7 +2715,7 @@ class Bulletins {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -2725,7 +2724,7 @@ class Bulletins {
      *
      * @return float|null Returns the montant3.
      */
-    public function getMontant3(): ?float{
+    public function getMontant3(): ?float {
         return $this->montant3;
     }
 
@@ -2734,7 +2733,7 @@ class Bulletins {
      *
      * @return float|null Returns the montant4.
      */
-    public function getMontant4(): ?float{
+    public function getMontant4(): ?float {
         return $this->montant4;
     }
 
@@ -2743,7 +2742,7 @@ class Bulletins {
      *
      * @return float|null Returns the montant5.
      */
-    public function getMontant5(): ?float{
+    public function getMontant5(): ?float {
         return $this->montant5;
     }
 
@@ -2752,7 +2751,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt h sup bonif.
      */
-    public function getMtHSupBonif(): ?float{
+    public function getMtHSupBonif(): ?float {
         return $this->mtHSupBonif;
     }
 
@@ -2761,7 +2760,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt i cp cp.
      */
-    public function getMtICpCp(): ?float{
+    public function getMtICpCp(): ?float {
         return $this->mtICpCp;
     }
 
@@ -2770,7 +2769,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt i cpt.
      */
-    public function getMtICpt(): ?float{
+    public function getMtICpt(): ?float {
         return $this->mtICpt;
     }
 
@@ -2779,7 +2778,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt i int.
      */
-    public function getMtIInt(): ?float{
+    public function getMtIInt(): ?float {
         return $this->mtIInt;
     }
 
@@ -2788,7 +2787,7 @@ class Bulletins {
      *
      * @return bool|null Returns the mt jcp arbitrage.
      */
-    public function getMtJcpArbitrage(): ?bool{
+    public function getMtJcpArbitrage(): ?bool {
         return $this->mtJcpArbitrage;
     }
 
@@ -2797,7 +2796,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt journee cp.
      */
-    public function getMtJourneeCp(): ?float{
+    public function getMtJourneeCp(): ?float {
         return $this->mtJourneeCp;
     }
 
@@ -2806,7 +2805,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt net paye theo.
      */
-    public function getMtNetPayeTheo(): ?float{
+    public function getMtNetPayeTheo(): ?float {
         return $this->mtNetPayeTheo;
     }
 
@@ -2815,7 +2814,7 @@ class Bulletins {
      *
      * @return float|null Returns the mt taux lig sal base.
      */
-    public function getMtTauxLigSalBase(): ?float{
+    public function getMtTauxLigSalBase(): ?float {
         return $this->mtTauxLigSalBase;
     }
 
@@ -2824,7 +2823,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb30.
      */
-    public function getNb30(): ?float{
+    public function getNb30(): ?float {
         return $this->nb30;
     }
 
@@ -2833,7 +2832,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h ab cp.
      */
-    public function getNbHAbCp(): ?float{
+    public function getNbHAbCp(): ?float {
         return $this->nbHAbCp;
     }
 
@@ -2842,7 +2841,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h absence intemp.
      */
-    public function getNbHAbsenceIntemp(): ?float{
+    public function getNbHAbsenceIntemp(): ?float {
         return $this->nbHAbsenceIntemp;
     }
 
@@ -2851,7 +2850,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h attente.
      */
-    public function getNbHAttente(): ?float{
+    public function getNbHAttente(): ?float {
         return $this->nbHAttente;
     }
 
@@ -2860,7 +2859,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h bonifie dues.
      */
-    public function getNbHBonifieDues(): ?float{
+    public function getNbHBonifieDues(): ?float {
         return $this->nbHBonifieDues;
     }
 
@@ -2869,7 +2868,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h bonifie prises.
      */
-    public function getNbHBonifiePrises(): ?float{
+    public function getNbHBonifiePrises(): ?float {
         return $this->nbHBonifiePrises;
     }
 
@@ -2878,7 +2877,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h carence intemp.
      */
-    public function getNbHCarenceIntemp(): ?float{
+    public function getNbHCarenceIntemp(): ?float {
         return $this->nbHCarenceIntemp;
     }
 
@@ -2887,7 +2886,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h chom part cp.
      */
-    public function getNbHChomPartCp(): ?float{
+    public function getNbHChomPartCp(): ?float {
         return $this->nbHChomPartCp;
     }
 
@@ -2896,7 +2895,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h chom part tech.
      */
-    public function getNbHChomPartTech(): ?float{
+    public function getNbHChomPartTech(): ?float {
         return $this->nbHChomPartTech;
     }
 
@@ -2905,7 +2904,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h conduite.
      */
-    public function getNbHConduite(): ?float{
+    public function getNbHConduite(): ?float {
         return $this->nbHConduite;
     }
 
@@ -2914,7 +2913,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h conting.
      */
-    public function getNbHConting(): ?float{
+    public function getNbHConting(): ?float {
         return $this->nbHConting;
     }
 
@@ -2923,7 +2922,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h dble.
      */
-    public function getNbHDble(): ?float{
+    public function getNbHDble(): ?float {
         return $this->nbHDble;
     }
 
@@ -2932,7 +2931,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h dif dus.
      */
-    public function getNbHDifDus(): ?float{
+    public function getNbHDifDus(): ?float {
         return $this->nbHDifDus;
     }
 
@@ -2941,7 +2940,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h intemp indem.
      */
-    public function getNbHIntempIndem(): ?float{
+    public function getNbHIntempIndem(): ?float {
         return $this->nbHIntempIndem;
     }
 
@@ -2950,7 +2949,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h lig sal base.
      */
-    public function getNbHLigSalBase(): ?float{
+    public function getNbHLigSalBase(): ?float {
         return $this->nbHLigSalBase;
     }
 
@@ -2959,7 +2958,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h normal.
      */
-    public function getNbHNormal(): ?float{
+    public function getNbHNormal(): ?float {
         return $this->nbHNormal;
     }
 
@@ -2968,7 +2967,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h pas droit fillon.
      */
-    public function getNbHPasDroitFillon(): ?float{
+    public function getNbHPasDroitFillon(): ?float {
         return $this->nbHPasDroitFillon;
     }
 
@@ -2977,7 +2976,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h remplace.
      */
-    public function getNbHRemplace(): ?float{
+    public function getNbHRemplace(): ?float {
         return $this->nbHRemplace;
     }
 
@@ -2986,7 +2985,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h repo comp dues.
      */
-    public function getNbHRepoCompDues(): ?float{
+    public function getNbHRepoCompDues(): ?float {
         return $this->nbHRepoCompDues;
     }
 
@@ -2995,7 +2994,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h repo comp prises.
      */
-    public function getNbHRepoCompPrises(): ?float{
+    public function getNbHRepoCompPrises(): ?float {
         return $this->nbHRepoCompPrises;
     }
 
@@ -3004,7 +3003,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h repo r dues.
      */
-    public function getNbHRepoRDues(): ?float{
+    public function getNbHRepoRDues(): ?float {
         return $this->nbHRepoRDues;
     }
 
@@ -3013,7 +3012,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h repo r prises.
      */
-    public function getNbHRepoRPrises(): ?float{
+    public function getNbHRepoRPrises(): ?float {
         return $this->nbHRepoRPrises;
     }
 
@@ -3022,7 +3021,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup1.
      */
-    public function getNbHSup1(): ?float{
+    public function getNbHSup1(): ?float {
         return $this->nbHSup1;
     }
 
@@ -3031,7 +3030,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup2.
      */
-    public function getNbHSup2(): ?float{
+    public function getNbHSup2(): ?float {
         return $this->nbHSup2;
     }
 
@@ -3040,7 +3039,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup3.
      */
-    public function getNbHSup3(): ?float{
+    public function getNbHSup3(): ?float {
         return $this->nbHSup3;
     }
 
@@ -3049,7 +3048,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup4.
      */
-    public function getNbHSup4(): ?float{
+    public function getNbHSup4(): ?float {
         return $this->nbHSup4;
     }
 
@@ -3058,7 +3057,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup5.
      */
-    public function getNbHSup5(): ?float{
+    public function getNbHSup5(): ?float {
         return $this->nbHSup5;
     }
 
@@ -3067,7 +3066,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup bonif.
      */
-    public function getNbHSupBonif(): ?float{
+    public function getNbHSupBonif(): ?float {
         return $this->nbHSupBonif;
     }
 
@@ -3076,7 +3075,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h sup bonif abs.
      */
-    public function getNbHSupBonifAbs(): ?float{
+    public function getNbHSupBonifAbs(): ?float {
         return $this->nbHSupBonifAbs;
     }
 
@@ -3085,7 +3084,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h trav.
      */
-    public function getNbHTrav(): ?float{
+    public function getNbHTrav(): ?float {
         return $this->nbHTrav;
     }
 
@@ -3094,7 +3093,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb h travail.
      */
-    public function getNbHTravail(): ?float{
+    public function getNbHTravail(): ?float {
         return $this->nbHTravail;
     }
 
@@ -3103,7 +3102,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb heure paye.
      */
-    public function getNbHeurePaye(): ?float{
+    public function getNbHeurePaye(): ?float {
         return $this->nbHeurePaye;
     }
 
@@ -3112,7 +3111,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb heure sup.
      */
-    public function getNbHeureSup(): ?float{
+    public function getNbHeureSup(): ?float {
         return $this->nbHeureSup;
     }
 
@@ -3121,7 +3120,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb heure trav.
      */
-    public function getNbHeureTrav(): ?float{
+    public function getNbHeureTrav(): ?float {
         return $this->nbHeureTrav;
     }
 
@@ -3130,7 +3129,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb heure trav mois.
      */
-    public function getNbHeureTravMois(): ?float{
+    public function getNbHeureTravMois(): ?float {
         return $this->nbHeureTravMois;
     }
 
@@ -3139,7 +3138,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb j chom part cp.
      */
-    public function getNbJChomPartCp(): ?float{
+    public function getNbJChomPartCp(): ?float {
         return $this->nbJChomPartCp;
     }
 
@@ -3148,7 +3147,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb j dus.
      */
-    public function getNbJDus(): ?float{
+    public function getNbJDus(): ?float {
         return $this->nbJDus;
     }
 
@@ -3157,7 +3156,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb j dus1.
      */
-    public function getNbJDus1(): ?float{
+    public function getNbJDus1(): ?float {
         return $this->nbJDus1;
     }
 
@@ -3166,7 +3165,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb j pris.
      */
-    public function getNbJPris(): ?float{
+    public function getNbJPris(): ?float {
         return $this->nbJPris;
     }
 
@@ -3175,26 +3174,8 @@ class Bulletins {
      *
      * @return float|null Returns the nb j pris1.
      */
-    public function getNbJPris1(): ?float{
+    public function getNbJPris1(): ?float {
         return $this->nbJPris1;
-    }
-
-    /**
-     * Get the nb jrtt dus.
-     *
-     * @return float|null Returns the nb jrtt dus.
-     */
-    public function getNbJrttDus(): ?float{
-        return $this->nbJrttDus;
-    }
-
-    /**
-     * Get the nb jrtt pris.
-     *
-     * @return float|null Returns the nb jrtt pris.
-     */
-    public function getNbJrttPris(): ?float{
-        return $this->nbJrttPris;
     }
 
     /**
@@ -3202,7 +3183,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb j repo recup dus.
      */
-    public function getNbJRepoRecupDus(): ?float{
+    public function getNbJRepoRecupDus(): ?float {
         return $this->nbJRepoRecupDus;
     }
 
@@ -3211,7 +3192,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb j repo recup pris.
      */
-    public function getNbJRepoRecupPris(): ?float{
+    public function getNbJRepoRecupPris(): ?float {
         return $this->nbJRepoRecupPris;
     }
 
@@ -3220,7 +3201,7 @@ class Bulletins {
      *
      * @return bool|null Returns the nb j trav force.
      */
-    public function getNbJTravForce(): ?bool{
+    public function getNbJTravForce(): ?bool {
         return $this->nbJTravForce;
     }
 
@@ -3229,7 +3210,7 @@ class Bulletins {
      *
      * @return int|null Returns the nb j trav mois es.
      */
-    public function getNbJTravMoisEs(): ?int{
+    public function getNbJTravMoisEs(): ?int {
         return $this->nbJTravMoisEs;
     }
 
@@ -3238,7 +3219,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb jour base.
      */
-    public function getNbJourBase(): ?float{
+    public function getNbJourBase(): ?float {
         return $this->nbJourBase;
     }
 
@@ -3247,7 +3228,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb jour base cp.
      */
-    public function getNbJourBaseCp(): ?float{
+    public function getNbJourBaseCp(): ?float {
         return $this->nbJourBaseCp;
     }
 
@@ -3256,7 +3237,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb jour cp acquis.
      */
-    public function getNbJourCpAcquis(): ?float{
+    public function getNbJourCpAcquis(): ?float {
         return $this->nbJourCpAcquis;
     }
 
@@ -3265,7 +3246,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb jour cp pris.
      */
-    public function getNbJourCpPris(): ?float{
+    public function getNbJourCpPris(): ?float {
         return $this->nbJourCpPris;
     }
 
@@ -3274,7 +3255,7 @@ class Bulletins {
      *
      * @return float|null Returns the nb jour normaux.
      */
-    public function getNbJourNormaux(): ?float{
+    public function getNbJourNormaux(): ?float {
         return $this->nbJourNormaux;
     }
 
@@ -3283,8 +3264,26 @@ class Bulletins {
      *
      * @return float|null Returns the nb jour trav.
      */
-    public function getNbJourTrav(): ?float{
+    public function getNbJourTrav(): ?float {
         return $this->nbJourTrav;
+    }
+
+    /**
+     * Get the nb jrtt dus.
+     *
+     * @return float|null Returns the nb jrtt dus.
+     */
+    public function getNbJrttDus(): ?float {
+        return $this->nbJrttDus;
+    }
+
+    /**
+     * Get the nb jrtt pris.
+     *
+     * @return float|null Returns the nb jrtt pris.
+     */
+    public function getNbJrttPris(): ?float {
+        return $this->nbJrttPris;
     }
 
     /**
@@ -3292,7 +3291,7 @@ class Bulletins {
      *
      * @return float|null Returns the net a payer.
      */
-    public function getNetAPayer(): ?float{
+    public function getNetAPayer(): ?float {
         return $this->netAPayer;
     }
 
@@ -3301,7 +3300,7 @@ class Bulletins {
      *
      * @return float|null Returns the net impos.
      */
-    public function getNetImpos(): ?float{
+    public function getNetImpos(): ?float {
         return $this->netImpos;
     }
 
@@ -3310,7 +3309,7 @@ class Bulletins {
      *
      * @return string|null Returns the note1.
      */
-    public function getNote1(): ?string{
+    public function getNote1(): ?string {
         return $this->note1;
     }
 
@@ -3319,7 +3318,7 @@ class Bulletins {
      *
      * @return string|null Returns the note2.
      */
-    public function getNote2(): ?string{
+    public function getNote2(): ?string {
         return $this->note2;
     }
 
@@ -3328,7 +3327,7 @@ class Bulletins {
      *
      * @return string|null Returns the note3.
      */
-    public function getNote3(): ?string{
+    public function getNote3(): ?string {
         return $this->note3;
     }
 
@@ -3337,53 +3336,8 @@ class Bulletins {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
-    }
-
-    /**
-     * Get the pp soumis taxe.
-     *
-     * @return float|null Returns the pp soumis taxe.
-     */
-    public function getPpSoumisTaxe(): ?float{
-        return $this->ppSoumisTaxe;
-    }
-
-    /**
-     * Get the pss1.
-     *
-     * @return float|null Returns the pss1.
-     */
-    public function getPss1(): ?float{
-        return $this->pss1;
-    }
-
-    /**
-     * Get the pss2.
-     *
-     * @return float|null Returns the pss2.
-     */
-    public function getPss2(): ?float{
-        return $this->pss2;
-    }
-
-    /**
-     * Get the pss30.
-     *
-     * @return bool|null Returns the pss30.
-     */
-    public function getPss30(): ?bool{
-        return $this->pss30;
-    }
-
-    /**
-     * Get the pss mod.
-     *
-     * @return bool|null Returns the pss mod.
-     */
-    public function getPssMod(): ?bool{
-        return $this->pssMod;
     }
 
     /**
@@ -3391,7 +3345,7 @@ class Bulletins {
      *
      * @return bool|null Returns the paie euro.
      */
-    public function getPaieEuro(): ?bool{
+    public function getPaieEuro(): ?bool {
         return $this->paieEuro;
     }
 
@@ -3400,7 +3354,7 @@ class Bulletins {
      *
      * @return bool|null Returns the paiement cp non pris.
      */
-    public function getPaiementCpNonPris(): ?bool{
+    public function getPaiementCpNonPris(): ?bool {
         return $this->paiementCpNonPris;
     }
 
@@ -3409,7 +3363,7 @@ class Bulletins {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -3418,7 +3372,7 @@ class Bulletins {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -3427,7 +3381,7 @@ class Bulletins {
      *
      * @return bool|null Returns the periodicite modifie.
      */
-    public function getPeriodiciteModifie(): ?bool{
+    public function getPeriodiciteModifie(): ?bool {
         return $this->periodiciteModifie;
     }
 
@@ -3436,7 +3390,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond1 caisse1.
      */
-    public function getPlafond1Caisse1(): ?float{
+    public function getPlafond1Caisse1(): ?float {
         return $this->plafond1Caisse1;
     }
 
@@ -3445,7 +3399,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond1 caisse2.
      */
-    public function getPlafond1Caisse2(): ?float{
+    public function getPlafond1Caisse2(): ?float {
         return $this->plafond1Caisse2;
     }
 
@@ -3454,7 +3408,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond1 caisse3.
      */
-    public function getPlafond1Caisse3(): ?float{
+    public function getPlafond1Caisse3(): ?float {
         return $this->plafond1Caisse3;
     }
 
@@ -3463,7 +3417,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond2 caisse1.
      */
-    public function getPlafond2Caisse1(): ?float{
+    public function getPlafond2Caisse1(): ?float {
         return $this->plafond2Caisse1;
     }
 
@@ -3472,7 +3426,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond2 caisse2.
      */
-    public function getPlafond2Caisse2(): ?float{
+    public function getPlafond2Caisse2(): ?float {
         return $this->plafond2Caisse2;
     }
 
@@ -3481,7 +3435,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond2 caisse3.
      */
-    public function getPlafond2Caisse3(): ?float{
+    public function getPlafond2Caisse3(): ?float {
         return $this->plafond2Caisse3;
     }
 
@@ -3490,7 +3444,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond gmp.
      */
-    public function getPlafondGmp(): ?float{
+    public function getPlafondGmp(): ?float {
         return $this->plafondGmp;
     }
 
@@ -3499,7 +3453,7 @@ class Bulletins {
      *
      * @return bool|null Returns the plafond gmp modifie.
      */
-    public function getPlafondGmpModifie(): ?bool{
+    public function getPlafondGmpModifie(): ?bool {
         return $this->plafondGmpModifie;
     }
 
@@ -3508,7 +3462,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond heure.
      */
-    public function getPlafondHeure(): ?float{
+    public function getPlafondHeure(): ?float {
         return $this->plafondHeure;
     }
 
@@ -3517,7 +3471,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond jour.
      */
-    public function getPlafondJour(): ?float{
+    public function getPlafondJour(): ?float {
         return $this->plafondJour;
     }
 
@@ -3526,7 +3480,7 @@ class Bulletins {
      *
      * @return float|null Returns the plafond semaine.
      */
-    public function getPlafondSemaine(): ?float{
+    public function getPlafondSemaine(): ?float {
         return $this->plafondSemaine;
     }
 
@@ -3535,7 +3489,7 @@ class Bulletins {
      *
      * @return float|null Returns the pourcent abat.
      */
-    public function getPourcentAbat(): ?float{
+    public function getPourcentAbat(): ?float {
         return $this->pourcentAbat;
     }
 
@@ -3544,7 +3498,7 @@ class Bulletins {
      *
      * @return int|null Returns the pourcent act force.
      */
-    public function getPourcentActForce(): ?int{
+    public function getPourcentActForce(): ?int {
         return $this->pourcentActForce;
     }
 
@@ -3553,7 +3507,7 @@ class Bulletins {
      *
      * @return float|null Returns the pourcent activite.
      */
-    public function getPourcentActivite(): ?float{
+    public function getPourcentActivite(): ?float {
         return $this->pourcentActivite;
     }
 
@@ -3562,17 +3516,17 @@ class Bulletins {
      *
      * @return float|null Returns the pourcent remu hor.
      */
-    public function getPourcentRemuHor(): ?float{
+    public function getPourcentRemuHor(): ?float {
         return $this->pourcentRemuHor;
     }
 
     /**
-     * Get the prov cp1.
+     * Get the pp soumis taxe.
      *
-     * @return float|null Returns the prov cp1.
+     * @return float|null Returns the pp soumis taxe.
      */
-    public function getProvCp1(): ?float{
-        return $this->provCp1;
+    public function getPpSoumisTaxe(): ?float {
+        return $this->ppSoumisTaxe;
     }
 
     /**
@@ -3580,8 +3534,53 @@ class Bulletins {
      *
      * @return float|null Returns the prov cp.
      */
-    public function getProvCp(): ?float{
+    public function getProvCp(): ?float {
         return $this->provCp;
+    }
+
+    /**
+     * Get the prov cp1.
+     *
+     * @return float|null Returns the prov cp1.
+     */
+    public function getProvCp1(): ?float {
+        return $this->provCp1;
+    }
+
+    /**
+     * Get the pss1.
+     *
+     * @return float|null Returns the pss1.
+     */
+    public function getPss1(): ?float {
+        return $this->pss1;
+    }
+
+    /**
+     * Get the pss2.
+     *
+     * @return float|null Returns the pss2.
+     */
+    public function getPss2(): ?float {
+        return $this->pss2;
+    }
+
+    /**
+     * Get the pss30.
+     *
+     * @return bool|null Returns the pss30.
+     */
+    public function getPss30(): ?bool {
+        return $this->pss30;
+    }
+
+    /**
+     * Get the pss mod.
+     *
+     * @return bool|null Returns the pss mod.
+     */
+    public function getPssMod(): ?bool {
+        return $this->pssMod;
     }
 
     /**
@@ -3589,7 +3588,7 @@ class Bulletins {
      *
      * @return float|null Returns the remun mens.
      */
-    public function getRemunMens(): ?float{
+    public function getRemunMens(): ?float {
         return $this->remunMens;
     }
 
@@ -3598,7 +3597,7 @@ class Bulletins {
      *
      * @return float|null Returns the s base.
      */
-    public function getSBase(): ?float{
+    public function getSBase(): ?float {
         return $this->sBase;
     }
 
@@ -3607,7 +3606,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic1.
      */
-    public function getSmic1(): ?float{
+    public function getSmic1(): ?float {
         return $this->smic1;
     }
 
@@ -3616,7 +3615,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic h.
      */
-    public function getSmicH(): ?float{
+    public function getSmicH(): ?float {
         return $this->smicH;
     }
 
@@ -3625,7 +3624,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic h35.
      */
-    public function getSmicH35(): ?float{
+    public function getSmicH35(): ?float {
         return $this->smicH35;
     }
 
@@ -3634,7 +3633,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic h39.
      */
-    public function getSmicH39(): ?float{
+    public function getSmicH39(): ?float {
         return $this->smicH39;
     }
 
@@ -3643,7 +3642,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic m.
      */
-    public function getSmicM(): ?float{
+    public function getSmicM(): ?float {
         return $this->smicM;
     }
 
@@ -3652,7 +3651,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic m35.
      */
-    public function getSmicM35(): ?float{
+    public function getSmicM35(): ?float {
         return $this->smicM35;
     }
 
@@ -3661,7 +3660,7 @@ class Bulletins {
      *
      * @return float|null Returns the smic m39.
      */
-    public function getSmicM39(): ?float{
+    public function getSmicM39(): ?float {
         return $this->smicM39;
     }
 
@@ -3670,7 +3669,7 @@ class Bulletins {
      *
      * @return bool|null Returns the sortie mois.
      */
-    public function getSortieMois(): ?bool{
+    public function getSortieMois(): ?bool {
         return $this->sortieMois;
     }
 
@@ -3679,7 +3678,7 @@ class Bulletins {
      *
      * @return float|null Returns the taux h ab cp.
      */
-    public function getTauxHAbCp(): ?float{
+    public function getTauxHAbCp(): ?float {
         return $this->tauxHAbCp;
     }
 
@@ -3688,7 +3687,7 @@ class Bulletins {
      *
      * @return float|null Returns the taux h absence.
      */
-    public function getTauxHAbsence(): ?float{
+    public function getTauxHAbsence(): ?float {
         return $this->tauxHAbsence;
     }
 
@@ -3697,7 +3696,7 @@ class Bulletins {
      *
      * @return float|null Returns the taux h normal.
      */
-    public function getTauxHNormal(): ?float{
+    public function getTauxHNormal(): ?float {
         return $this->tauxHNormal;
     }
 
@@ -3706,7 +3705,7 @@ class Bulletins {
      *
      * @return float|null Returns the taux journalier.
      */
-    public function getTauxJournalier(): ?float{
+    public function getTauxJournalier(): ?float {
         return $this->tauxJournalier;
     }
 
@@ -3715,7 +3714,7 @@ class Bulletins {
      *
      * @return float|null Returns the tot acompte.
      */
-    public function getTotAcompte(): ?float{
+    public function getTotAcompte(): ?float {
         return $this->totAcompte;
     }
 
@@ -3724,7 +3723,7 @@ class Bulletins {
      *
      * @return float|null Returns the tot acompte cp.
      */
-    public function getTotAcompteCp(): ?float{
+    public function getTotAcompteCp(): ?float {
         return $this->totAcompteCp;
     }
 
@@ -3733,7 +3732,7 @@ class Bulletins {
      *
      * @return float|null Returns the tot cotis patron.
      */
-    public function getTotCotisPatron(): ?float{
+    public function getTotCotisPatron(): ?float {
         return $this->totCotisPatron;
     }
 
@@ -3742,7 +3741,7 @@ class Bulletins {
      *
      * @return float|null Returns the tot prime ni.
      */
-    public function getTotPrimeNi(): ?float{
+    public function getTotPrimeNi(): ?float {
         return $this->totPrimeNi;
     }
 
@@ -3751,7 +3750,7 @@ class Bulletins {
      *
      * @return float|null Returns the tot prime ns.
      */
-    public function getTotPrimeNs(): ?float{
+    public function getTotPrimeNs(): ?float {
         return $this->totPrimeNs;
     }
 
@@ -3760,7 +3759,7 @@ class Bulletins {
      *
      * @return float|null Returns the tot retenue.
      */
-    public function getTotRetenue(): ?float{
+    public function getTotRetenue(): ?float {
         return $this->totRetenue;
     }
 
@@ -3769,7 +3768,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr a caisse1.
      */
-    public function getTrACaisse1(): ?float{
+    public function getTrACaisse1(): ?float {
         return $this->trACaisse1;
     }
 
@@ -3778,7 +3777,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr a caisse2.
      */
-    public function getTrACaisse2(): ?float{
+    public function getTrACaisse2(): ?float {
         return $this->trACaisse2;
     }
 
@@ -3787,7 +3786,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr a caisse3.
      */
-    public function getTrACaisse3(): ?float{
+    public function getTrACaisse3(): ?float {
         return $this->trACaisse3;
     }
 
@@ -3796,7 +3795,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr b caisse1.
      */
-    public function getTrBCaisse1(): ?float{
+    public function getTrBCaisse1(): ?float {
         return $this->trBCaisse1;
     }
 
@@ -3805,7 +3804,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr b caisse2.
      */
-    public function getTrBCaisse2(): ?float{
+    public function getTrBCaisse2(): ?float {
         return $this->trBCaisse2;
     }
 
@@ -3814,7 +3813,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr b caisse3.
      */
-    public function getTrBCaisse3(): ?float{
+    public function getTrBCaisse3(): ?float {
         return $this->trBCaisse3;
     }
 
@@ -3823,7 +3822,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr c caisse1.
      */
-    public function getTrCCaisse1(): ?float{
+    public function getTrCCaisse1(): ?float {
         return $this->trCCaisse1;
     }
 
@@ -3832,7 +3831,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr c caisse2.
      */
-    public function getTrCCaisse2(): ?float{
+    public function getTrCCaisse2(): ?float {
         return $this->trCCaisse2;
     }
 
@@ -3841,7 +3840,7 @@ class Bulletins {
      *
      * @return float|null Returns the tr c caisse3.
      */
-    public function getTrCCaisse3(): ?float{
+    public function getTrCCaisse3(): ?float {
         return $this->trCCaisse3;
     }
 
@@ -3850,7 +3849,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche2.
      */
-    public function getTranche2(): ?float{
+    public function getTranche2(): ?float {
         return $this->tranche2;
     }
 
@@ -3859,7 +3858,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche a.
      */
-    public function getTrancheA(): ?float{
+    public function getTrancheA(): ?float {
         return $this->trancheA;
     }
 
@@ -3868,7 +3867,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche abal.
      */
-    public function getTrancheAbal(): ?float{
+    public function getTrancheAbal(): ?float {
         return $this->trancheAbal;
     }
 
@@ -3877,7 +3876,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche abanl.
      */
-    public function getTrancheAbanl(): ?float{
+    public function getTrancheAbanl(): ?float {
         return $this->trancheAbanl;
     }
 
@@ -3886,7 +3885,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche abna.
      */
-    public function getTrancheAbna(): ?float{
+    public function getTrancheAbna(): ?float {
         return $this->trancheAbna;
     }
 
@@ -3895,7 +3894,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche b.
      */
-    public function getTrancheB(): ?float{
+    public function getTrancheB(): ?float {
         return $this->trancheB;
     }
 
@@ -3904,7 +3903,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche bbal.
      */
-    public function getTrancheBbal(): ?float{
+    public function getTrancheBbal(): ?float {
         return $this->trancheBbal;
     }
 
@@ -3913,7 +3912,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche bbanl.
      */
-    public function getTrancheBbanl(): ?float{
+    public function getTrancheBbanl(): ?float {
         return $this->trancheBbanl;
     }
 
@@ -3922,7 +3921,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche bbna.
      */
-    public function getTrancheBbna(): ?float{
+    public function getTrancheBbna(): ?float {
         return $this->trancheBbna;
     }
 
@@ -3931,8 +3930,17 @@ class Bulletins {
      *
      * @return float|null Returns the tranche c.
      */
-    public function getTrancheC(): ?float{
+    public function getTrancheC(): ?float {
         return $this->trancheC;
+    }
+
+    /**
+     * Get the tranche c plaf.
+     *
+     * @return float|null Returns the tranche c plaf.
+     */
+    public function getTrancheCPlaf(): ?float {
+        return $this->trancheCPlaf;
     }
 
     /**
@@ -3940,7 +3948,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche cbal.
      */
-    public function getTrancheCbal(): ?float{
+    public function getTrancheCbal(): ?float {
         return $this->trancheCbal;
     }
 
@@ -3949,7 +3957,7 @@ class Bulletins {
      *
      * @return float|null Returns the tranche cbanl.
      */
-    public function getTrancheCbanl(): ?float{
+    public function getTrancheCbanl(): ?float {
         return $this->trancheCbanl;
     }
 
@@ -3958,17 +3966,8 @@ class Bulletins {
      *
      * @return float|null Returns the tranche cbna.
      */
-    public function getTrancheCbna(): ?float{
+    public function getTrancheCbna(): ?float {
         return $this->trancheCbna;
-    }
-
-    /**
-     * Get the tranche c plaf.
-     *
-     * @return float|null Returns the tranche c plaf.
-     */
-    public function getTrancheCPlaf(): ?float{
-        return $this->trancheCPlaf;
     }
 
     /**
@@ -3976,7 +3975,7 @@ class Bulletins {
      *
      * @return string|null Returns the txt note rtf.
      */
-    public function getTxtNoteRtf(): ?string{
+    public function getTxtNoteRtf(): ?string {
         return $this->txtNoteRtf;
     }
 
@@ -3985,7 +3984,7 @@ class Bulletins {
      *
      * @return string|null Returns the type base caisse1.
      */
-    public function getTypeBaseCaisse1(): ?string{
+    public function getTypeBaseCaisse1(): ?string {
         return $this->typeBaseCaisse1;
     }
 
@@ -3994,7 +3993,7 @@ class Bulletins {
      *
      * @return string|null Returns the type base caisse2.
      */
-    public function getTypeBaseCaisse2(): ?string{
+    public function getTypeBaseCaisse2(): ?string {
         return $this->typeBaseCaisse2;
     }
 
@@ -4003,7 +4002,7 @@ class Bulletins {
      *
      * @return string|null Returns the type base caisse3.
      */
-    public function getTypeBaseCaisse3(): ?string{
+    public function getTypeBaseCaisse3(): ?string {
         return $this->typeBaseCaisse3;
     }
 
@@ -4012,7 +4011,7 @@ class Bulletins {
      *
      * @return string|null Returns the type gestion bal.
      */
-    public function getTypeGestionBal(): ?string{
+    public function getTypeGestionBal(): ?string {
         return $this->typeGestionBal;
     }
 
@@ -4021,7 +4020,7 @@ class Bulletins {
      *
      * @return string|null Returns the type paiement bul.
      */
-    public function getTypePaiementBul(): ?string{
+    public function getTypePaiementBul(): ?string {
         return $this->typePaiementBul;
     }
 
@@ -4030,7 +4029,7 @@ class Bulletins {
      *
      * @return bool|null Returns the type paiment modifie.
      */
-    public function getTypePaimentModifie(): ?bool{
+    public function getTypePaimentModifie(): ?bool {
         return $this->typePaimentModifie;
     }
 
@@ -4039,7 +4038,7 @@ class Bulletins {
      *
      * @return string|null Returns the type saisie abs.
      */
-    public function getTypeSaisieAbs(): ?string{
+    public function getTypeSaisieAbs(): ?string {
         return $this->typeSaisieAbs;
     }
 
@@ -4048,7 +4047,7 @@ class Bulletins {
      *
      * @return string|null Returns the type saisie absence.
      */
-    public function getTypeSaisieAbsence(): ?string{
+    public function getTypeSaisieAbsence(): ?string {
         return $this->typeSaisieAbsence;
     }
 
@@ -4057,7 +4056,7 @@ class Bulletins {
      *
      * @return float|null Returns the valorise cp.
      */
-    public function getValoriseCp(): ?float{
+    public function getValoriseCp(): ?float {
         return $this->valoriseCp;
     }
 
@@ -4128,17 +4127,6 @@ class Bulletins {
     }
 
     /**
-     * Set the base ss plaf modif.
-     *
-     * @param bool|null $baseSsPlafModif The base ss plaf modif.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setBaseSsPlafModif(?bool $baseSsPlafModif): Bulletins {
-        $this->baseSsPlafModif = $baseSsPlafModif;
-        return $this;
-    }
-
-    /**
      * Set the base secu.
      *
      * @param float|null $baseSecu The base secu.
@@ -4146,6 +4134,17 @@ class Bulletins {
      */
     public function setBaseSecu(?float $baseSecu): Bulletins {
         $this->baseSecu = $baseSecu;
+        return $this;
+    }
+
+    /**
+     * Set the base ss plaf modif.
+     *
+     * @param bool|null $baseSsPlafModif The base ss plaf modif.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setBaseSsPlafModif(?bool $baseSsPlafModif): Bulletins {
+        $this->baseSsPlafModif = $baseSsPlafModif;
         return $this;
     }
 
@@ -4183,6 +4182,28 @@ class Bulletins {
     }
 
     /**
+     * Set the brut al limite smic.
+     *
+     * @param float|null $brutAlLimiteSmic The brut al limite smic.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setBrutAlLimiteSmic(?float $brutAlLimiteSmic): Bulletins {
+        $this->brutAlLimiteSmic = $brutAlLimiteSmic;
+        return $this;
+    }
+
+    /**
+     * Set the brut al modifie.
+     *
+     * @param bool|null $brutAlModifie The brut al modifie.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setBrutAlModifie(?bool $brutAlModifie): Bulletins {
+        $this->brutAlModifie = $brutAlModifie;
+        return $this;
+    }
+
+    /**
      * Set the brut anl.
      *
      * @param float|null $brutAnl The brut anl.
@@ -4190,17 +4211,6 @@ class Bulletins {
      */
     public function setBrutAnl(?float $brutAnl): Bulletins {
         $this->brutAnl = $brutAnl;
-        return $this;
-    }
-
-    /**
-     * Set the brut cp.
-     *
-     * @param float|null $brutCp The brut cp.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setBrutCp(?float $brutCp): Bulletins {
-        $this->brutCp = $brutCp;
         return $this;
     }
 
@@ -4249,6 +4259,17 @@ class Bulletins {
     }
 
     /**
+     * Set the brut cp.
+     *
+     * @param float|null $brutCp The brut cp.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setBrutCp(?float $brutCp): Bulletins {
+        $this->brutCp = $brutCp;
+        return $this;
+    }
+
+    /**
      * Set the brut csg.
      *
      * @param float|null $brutCsg The brut csg.
@@ -4278,28 +4299,6 @@ class Bulletins {
      */
     public function setBrutSoumisCrds(?float $brutSoumisCrds): Bulletins {
         $this->brutSoumisCrds = $brutSoumisCrds;
-        return $this;
-    }
-
-    /**
-     * Set the brut al limite smic.
-     *
-     * @param float|null $brutAlLimiteSmic The brut al limite smic.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setBrutAlLimiteSmic(?float $brutAlLimiteSmic): Bulletins {
-        $this->brutAlLimiteSmic = $brutAlLimiteSmic;
-        return $this;
-    }
-
-    /**
-     * Set the brut al modifie.
-     *
-     * @param bool|null $brutAlModifie The brut al modifie.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setBrutAlModifie(?bool $brutAlModifie): Bulletins {
-        $this->brutAlModifie = $brutAlModifie;
         return $this;
     }
 
@@ -4337,17 +4336,6 @@ class Bulletins {
     }
 
     /**
-     * Set the chom partiel cp.
-     *
-     * @param float|null $chomPartielCp The chom partiel cp.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setChomPartielCp(?float $chomPartielCp): Bulletins {
-        $this->chomPartielCp = $chomPartielCp;
-        return $this;
-    }
-
-    /**
      * Set the chom partiel coeff indem.
      *
      * @param float|null $chomPartielCoeffIndem The chom partiel coeff indem.
@@ -4355,6 +4343,17 @@ class Bulletins {
      */
     public function setChomPartielCoeffIndem(?float $chomPartielCoeffIndem): Bulletins {
         $this->chomPartielCoeffIndem = $chomPartielCoeffIndem;
+        return $this;
+    }
+
+    /**
+     * Set the chom partiel cp.
+     *
+     * @param float|null $chomPartielCp The chom partiel cp.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setChomPartielCp(?float $chomPartielCp): Bulletins {
+        $this->chomPartielCp = $chomPartielCp;
         return $this;
     }
 
@@ -4678,28 +4677,6 @@ class Bulletins {
     }
 
     /**
-     * Set the cum pss1.
-     *
-     * @param float|null $cumPss1 The cum pss1.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setCumPss1(?float $cumPss1): Bulletins {
-        $this->cumPss1 = $cumPss1;
-        return $this;
-    }
-
-    /**
-     * Set the cum pss2.
-     *
-     * @param float|null $cumPss2 The cum pss2.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setCumPss2(?float $cumPss2): Bulletins {
-        $this->cumPss2 = $cumPss2;
-        return $this;
-    }
-
-    /**
      * Set the cum plaf1 caisse1.
      *
      * @param float|null $cumPlaf1Caisse1 The cum plaf1 caisse1.
@@ -4773,6 +4750,28 @@ class Bulletins {
      */
     public function setCumPlafondGmp(?float $cumPlafondGmp): Bulletins {
         $this->cumPlafondGmp = $cumPlafondGmp;
+        return $this;
+    }
+
+    /**
+     * Set the cum pss1.
+     *
+     * @param float|null $cumPss1 The cum pss1.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setCumPss1(?float $cumPss1): Bulletins {
+        $this->cumPss1 = $cumPss1;
+        return $this;
+    }
+
+    /**
+     * Set the cum pss2.
+     *
+     * @param float|null $cumPss2 The cum pss2.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setCumPss2(?float $cumPss2): Bulletins {
+        $this->cumPss2 = $cumPss2;
         return $this;
     }
 
@@ -5129,17 +5128,6 @@ class Bulletins {
     }
 
     /**
-     * Set the mig.
-     *
-     * @param float|null $mig The mig.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setMig(?float $mig): Bulletins {
-        $this->mig = $mig;
-        return $this;
-    }
-
-    /**
      * Set the max abat.
      *
      * @param float|null $maxAbat The max abat.
@@ -5169,6 +5157,17 @@ class Bulletins {
      */
     public function setMethodeIndemCp(?string $methodeIndemCp): Bulletins {
         $this->methodeIndemCp = $methodeIndemCp;
+        return $this;
+    }
+
+    /**
+     * Set the mig.
+     *
+     * @param float|null $mig The mig.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setMig(?float $mig): Bulletins {
+        $this->mig = $mig;
         return $this;
     }
 
@@ -5756,28 +5755,6 @@ class Bulletins {
     }
 
     /**
-     * Set the nb jrtt dus.
-     *
-     * @param float|null $nbJrttDus The nb jrtt dus.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setNbJrttDus(?float $nbJrttDus): Bulletins {
-        $this->nbJrttDus = $nbJrttDus;
-        return $this;
-    }
-
-    /**
-     * Set the nb jrtt pris.
-     *
-     * @param float|null $nbJrttPris The nb jrtt pris.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setNbJrttPris(?float $nbJrttPris): Bulletins {
-        $this->nbJrttPris = $nbJrttPris;
-        return $this;
-    }
-
-    /**
      * Set the nb j repo recup dus.
      *
      * @param float|null $nbJRepoRecupDus The nb j repo recup dus.
@@ -5888,6 +5865,28 @@ class Bulletins {
     }
 
     /**
+     * Set the nb jrtt dus.
+     *
+     * @param float|null $nbJrttDus The nb jrtt dus.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setNbJrttDus(?float $nbJrttDus): Bulletins {
+        $this->nbJrttDus = $nbJrttDus;
+        return $this;
+    }
+
+    /**
+     * Set the nb jrtt pris.
+     *
+     * @param float|null $nbJrttPris The nb jrtt pris.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setNbJrttPris(?float $nbJrttPris): Bulletins {
+        $this->nbJrttPris = $nbJrttPris;
+        return $this;
+    }
+
+    /**
      * Set the net a payer.
      *
      * @param float|null $netAPayer The net a payer.
@@ -5950,61 +5949,6 @@ class Bulletins {
      */
     public function setNumeroEmploye(?string $numeroEmploye): Bulletins {
         $this->numeroEmploye = $numeroEmploye;
-        return $this;
-    }
-
-    /**
-     * Set the pp soumis taxe.
-     *
-     * @param float|null $ppSoumisTaxe The pp soumis taxe.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setPpSoumisTaxe(?float $ppSoumisTaxe): Bulletins {
-        $this->ppSoumisTaxe = $ppSoumisTaxe;
-        return $this;
-    }
-
-    /**
-     * Set the pss1.
-     *
-     * @param float|null $pss1 The pss1.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setPss1(?float $pss1): Bulletins {
-        $this->pss1 = $pss1;
-        return $this;
-    }
-
-    /**
-     * Set the pss2.
-     *
-     * @param float|null $pss2 The pss2.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setPss2(?float $pss2): Bulletins {
-        $this->pss2 = $pss2;
-        return $this;
-    }
-
-    /**
-     * Set the pss30.
-     *
-     * @param bool|null $pss30 The pss30.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setPss30(?bool $pss30): Bulletins {
-        $this->pss30 = $pss30;
-        return $this;
-    }
-
-    /**
-     * Set the pss mod.
-     *
-     * @param bool|null $pssMod The pss mod.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setPssMod(?bool $pssMod): Bulletins {
-        $this->pssMod = $pssMod;
         return $this;
     }
 
@@ -6229,13 +6173,13 @@ class Bulletins {
     }
 
     /**
-     * Set the prov cp1.
+     * Set the pp soumis taxe.
      *
-     * @param float|null $provCp1 The prov cp1.
+     * @param float|null $ppSoumisTaxe The pp soumis taxe.
      * @return Bulletins Returns this Bulletins.
      */
-    public function setProvCp1(?float $provCp1): Bulletins {
-        $this->provCp1 = $provCp1;
+    public function setPpSoumisTaxe(?float $ppSoumisTaxe): Bulletins {
+        $this->ppSoumisTaxe = $ppSoumisTaxe;
         return $this;
     }
 
@@ -6247,6 +6191,61 @@ class Bulletins {
      */
     public function setProvCp(?float $provCp): Bulletins {
         $this->provCp = $provCp;
+        return $this;
+    }
+
+    /**
+     * Set the prov cp1.
+     *
+     * @param float|null $provCp1 The prov cp1.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setProvCp1(?float $provCp1): Bulletins {
+        $this->provCp1 = $provCp1;
+        return $this;
+    }
+
+    /**
+     * Set the pss1.
+     *
+     * @param float|null $pss1 The pss1.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setPss1(?float $pss1): Bulletins {
+        $this->pss1 = $pss1;
+        return $this;
+    }
+
+    /**
+     * Set the pss2.
+     *
+     * @param float|null $pss2 The pss2.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setPss2(?float $pss2): Bulletins {
+        $this->pss2 = $pss2;
+        return $this;
+    }
+
+    /**
+     * Set the pss30.
+     *
+     * @param bool|null $pss30 The pss30.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setPss30(?bool $pss30): Bulletins {
+        $this->pss30 = $pss30;
+        return $this;
+    }
+
+    /**
+     * Set the pss mod.
+     *
+     * @param bool|null $pssMod The pss mod.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setPssMod(?bool $pssMod): Bulletins {
+        $this->pssMod = $pssMod;
         return $this;
     }
 
@@ -6680,6 +6679,17 @@ class Bulletins {
     }
 
     /**
+     * Set the tranche c plaf.
+     *
+     * @param float|null $trancheCPlaf The tranche c plaf.
+     * @return Bulletins Returns this Bulletins.
+     */
+    public function setTrancheCPlaf(?float $trancheCPlaf): Bulletins {
+        $this->trancheCPlaf = $trancheCPlaf;
+        return $this;
+    }
+
+    /**
      * Set the tranche cbal.
      *
      * @param float|null $trancheCbal The tranche cbal.
@@ -6709,17 +6719,6 @@ class Bulletins {
      */
     public function setTrancheCbna(?float $trancheCbna): Bulletins {
         $this->trancheCbna = $trancheCbna;
-        return $this;
-    }
-
-    /**
-     * Set the tranche c plaf.
-     *
-     * @param float|null $trancheCPlaf The tranche c plaf.
-     * @return Bulletins Returns this Bulletins.
-     */
-    public function setTrancheCPlaf(?float $trancheCPlaf): Bulletins {
-        $this->trancheCPlaf = $trancheCPlaf;
         return $this;
     }
 

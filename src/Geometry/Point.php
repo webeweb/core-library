@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Geometry;
 
-use WBW\Library\Core\Model\Attribute\FloatXTrait;
-use WBW\Library\Core\Model\Attribute\FloatYTrait;
+use WBW\Library\Traits\Floats\FloatXTrait;
+use WBW\Library\Traits\Floats\FloatYTrait;
 
 /**
  * Point.
@@ -28,8 +28,8 @@ class Point {
     /**
      * Constructor.
      *
-     * @param float $x The x.
-     * @param float $y The y.
+     * @param float|null $x The x.
+     * @param float|null $y The y.
      */
     public function __construct($x = null, $y = null) {
         $this->setX($x);

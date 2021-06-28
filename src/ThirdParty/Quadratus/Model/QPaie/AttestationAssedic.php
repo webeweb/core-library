@@ -351,20 +351,6 @@ class AttestationAssedic {
     private $etblTel;
 
     /**
-     * Fngsa percevoir.
-     *
-     * @var bool|null
-     */
-    private $fngsaPercevoir;
-
-    /**
-     * Fngsa percevoir creance.
-     *
-     * @var string|null
-     */
-    private $fngsaPercevoirCreance;
-
-    /**
      * Fngs non a percevoir motif.
      *
      * @var string|null
@@ -391,6 +377,20 @@ class AttestationAssedic {
      * @var string|null
      */
     private $fngsPercueCreance;
+
+    /**
+     * Fngsa percevoir.
+     *
+     * @var bool|null
+     */
+    private $fngsaPercevoir;
+
+    /**
+     * Fngsa percevoir creance.
+     *
+     * @var string|null
+     */
+    private $fngsaPercevoirCreance;
 
     /**
      * Heures trav.
@@ -631,13 +631,6 @@ class AttestationAssedic {
     private $naf;
 
     /**
-     * Nir.
-     *
-     * @var string|null
-     */
-    private $nir;
-
-    /**
      * Nature contrat.
      *
      * @var string|null
@@ -650,6 +643,13 @@ class AttestationAssedic {
      * @var float|null
      */
     private $nbJoursOuvrables;
+
+    /**
+     * Nir.
+     *
+     * @var string|null
+     */
+    private $nir;
 
     /**
      * Niveau qualif.
@@ -876,13 +876,6 @@ class AttestationAssedic {
     private $retraiteAutreCompl;
 
     /**
-     * Siret.
-     *
-     * @var string|null
-     */
-    private $siret;
-
-    /**
      * Salaire brut.
      *
      * @var float|null
@@ -944,6 +937,13 @@ class AttestationAssedic {
      * @var string|null
      */
     private $signatureVille;
+
+    /**
+     * Siret.
+     *
+     * @var string|null
+     */
+    private $siret;
 
     /**
      * Solde tout compte.
@@ -1064,7 +1064,6 @@ class AttestationAssedic {
      */
     private $validiteConventionFne;
 
-
     /**
      * Constructor.
      */
@@ -1077,7 +1076,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the adhesion aides.
      */
-    public function getAdhesionAides(): ?bool{
+    public function getAdhesionAides(): ?bool {
         return $this->adhesionAides;
     }
 
@@ -1086,7 +1085,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the adhesion revocable.
      */
-    public function getAdhesionRevocable(): ?bool{
+    public function getAdhesionRevocable(): ?bool {
         return $this->adhesionRevocable;
     }
 
@@ -1095,7 +1094,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the adresse1.
      */
-    public function getAdresse1(): ?string{
+    public function getAdresse1(): ?string {
         return $this->adresse1;
     }
 
@@ -1104,7 +1103,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the adresse2.
      */
-    public function getAdresse2(): ?string{
+    public function getAdresse2(): ?string {
         return $this->adresse2;
     }
 
@@ -1113,7 +1112,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the adresse3.
      */
-    public function getAdresse3(): ?string{
+    public function getAdresse3(): ?string {
         return $this->adresse3;
     }
 
@@ -1122,7 +1121,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the alsace moselle.
      */
-    public function getAlsaceMoselle(): ?bool{
+    public function getAlsaceMoselle(): ?bool {
         return $this->alsaceMoselle;
     }
 
@@ -1131,7 +1130,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the auto assurance.
      */
-    public function getAutoAssurance(): ?bool{
+    public function getAutoAssurance(): ?bool {
         return $this->autoAssurance;
     }
 
@@ -1140,7 +1139,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the caisse indemcp.
      */
-    public function getCaisseIndemcp(): ?string{
+    public function getCaisseIndemcp(): ?string {
         return $this->caisseIndemcp;
     }
 
@@ -1149,7 +1148,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the categ emploi autre.
      */
-    public function getCategEmploiAutre(): ?string{
+    public function getCategEmploiAutre(): ?string {
         return $this->categEmploiAutre;
     }
 
@@ -1158,7 +1157,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the chomage total.
      */
-    public function getChomageTotal(): ?bool{
+    public function getChomageTotal(): ?bool {
         return $this->chomageTotal;
     }
 
@@ -1167,7 +1166,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code ana.
      */
-    public function getCodeAna(): ?string{
+    public function getCodeAna(): ?string {
         return $this->codeAna;
     }
 
@@ -1176,7 +1175,7 @@ class AttestationAssedic {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -1185,7 +1184,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code motif rupture.
      */
-    public function getCodeMotifRupture(): ?string{
+    public function getCodeMotifRupture(): ?string {
         return $this->codeMotifRupture;
     }
 
@@ -1194,7 +1193,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code naf2008.
      */
-    public function getCodeNaf2008(): ?string{
+    public function getCodeNaf2008(): ?string {
         return $this->codeNaf2008;
     }
 
@@ -1203,7 +1202,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code p.
      */
-    public function getCodeP(): ?string{
+    public function getCodeP(): ?string {
         return $this->codeP;
     }
 
@@ -1212,7 +1211,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code retraite agirc.
      */
-    public function getCodeRetraiteAgirc(): ?string{
+    public function getCodeRetraiteAgirc(): ?string {
         return $this->codeRetraiteAgirc;
     }
 
@@ -1221,7 +1220,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code retraite arrco.
      */
-    public function getCodeRetraiteArrco(): ?string{
+    public function getCodeRetraiteArrco(): ?string {
         return $this->codeRetraiteArrco;
     }
 
@@ -1230,7 +1229,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the code retraite autre.
      */
-    public function getCodeRetraiteAutre(): ?string{
+    public function getCodeRetraiteAutre(): ?string {
         return $this->codeRetraiteAutre;
     }
 
@@ -1239,7 +1238,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the contrat part autre.
      */
-    public function getContratPartAutre(): ?string{
+    public function getContratPartAutre(): ?string {
         return $this->contratPartAutre;
     }
 
@@ -1248,7 +1247,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the contrat particulier.
      */
-    public function getContratParticulier(): ?string{
+    public function getContratParticulier(): ?string {
         return $this->contratParticulier;
     }
 
@@ -1257,7 +1256,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the convention fne.
      */
-    public function getConventionFne(): ?bool{
+    public function getConventionFne(): ?bool {
         return $this->conventionFne;
     }
 
@@ -1266,7 +1265,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date adhesion.
      */
-    public function getDateAdhesion(): ?DateTime{
+    public function getDateAdhesion(): ?DateTime {
         return $this->dateAdhesion;
     }
 
@@ -1275,7 +1274,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date convention fne.
      */
-    public function getDateConventionFne(): ?DateTime{
+    public function getDateConventionFne(): ?DateTime {
         return $this->dateConventionFne;
     }
 
@@ -1284,7 +1283,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date naiss.
      */
-    public function getDateNaiss(): ?DateTime{
+    public function getDateNaiss(): ?DateTime {
         return $this->dateNaiss;
     }
 
@@ -1293,7 +1292,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date notification.
      */
-    public function getDateNotification(): ?DateTime{
+    public function getDateNotification(): ?DateTime {
         return $this->dateNotification;
     }
 
@@ -1302,7 +1301,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date paie.
      */
-    public function getDatePaie(): ?DateTime{
+    public function getDatePaie(): ?DateTime {
         return $this->datePaie;
     }
 
@@ -1311,7 +1310,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date paie2.
      */
-    public function getDatePaie2(): ?DateTime{
+    public function getDatePaie2(): ?DateTime {
         return $this->datePaie2;
     }
 
@@ -1320,7 +1319,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the date plan.
      */
-    public function getDatePlan(): ?DateTime{
+    public function getDatePlan(): ?DateTime {
         return $this->datePlan;
     }
 
@@ -1329,7 +1328,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the demande ddte deb.
      */
-    public function getDemandeDdteDeb(): ?DateTime{
+    public function getDemandeDdteDeb(): ?DateTime {
         return $this->demandeDdteDeb;
     }
 
@@ -1338,7 +1337,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the demande ddte fin.
      */
-    public function getDemandeDdteFin(): ?DateTime{
+    public function getDemandeDdteFin(): ?DateTime {
         return $this->demandeDdteFin;
     }
 
@@ -1347,7 +1346,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the demande ddte reprise.
      */
-    public function getDemandeDdteReprise(): ?DateTime{
+    public function getDemandeDdteReprise(): ?DateTime {
         return $this->demandeDdteReprise;
     }
 
@@ -1356,7 +1355,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the dept.
      */
-    public function getDept(): ?string{
+    public function getDept(): ?string {
         return $this->dept;
     }
 
@@ -1365,7 +1364,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the dern jour trav.
      */
-    public function getDernJourTrav(): ?DateTime{
+    public function getDernJourTrav(): ?DateTime {
         return $this->dernJourTrav;
     }
 
@@ -1374,7 +1373,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the dern lieu travail.
      */
-    public function getDernLieuTravail(): ?string{
+    public function getDernLieuTravail(): ?string {
         return $this->dernLieuTravail;
     }
 
@@ -1383,7 +1382,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the dernier emploi.
      */
-    public function getDernierEmploi(): ?string{
+    public function getDernierEmploi(): ?string {
         return $this->dernierEmploi;
     }
 
@@ -1392,7 +1391,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the duree emploi1 deb.
      */
-    public function getDureeEmploi1Deb(): ?DateTime{
+    public function getDureeEmploi1Deb(): ?DateTime {
         return $this->dureeEmploi1Deb;
     }
 
@@ -1401,7 +1400,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the duree emploi1 fin.
      */
-    public function getDureeEmploi1Fin(): ?DateTime{
+    public function getDureeEmploi1Fin(): ?DateTime {
         return $this->dureeEmploi1Fin;
     }
 
@@ -1410,7 +1409,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the duree emploi2 deb.
      */
-    public function getDureeEmploi2Deb(): ?DateTime{
+    public function getDureeEmploi2Deb(): ?DateTime {
         return $this->dureeEmploi2Deb;
     }
 
@@ -1419,7 +1418,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the duree emploi2 fin.
      */
-    public function getDureeEmploi2Fin(): ?DateTime{
+    public function getDureeEmploi2Fin(): ?DateTime {
         return $this->dureeEmploi2Fin;
     }
 
@@ -1428,7 +1427,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the effectif.
      */
-    public function getEffectif(): ?string{
+    public function getEffectif(): ?string {
         return $this->effectif;
     }
 
@@ -1437,7 +1436,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the effectif val.
      */
-    public function getEffectifVal(): ?float{
+    public function getEffectifVal(): ?float {
         return $this->effectifVal;
     }
 
@@ -1446,7 +1445,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the emploi collectivite.
      */
-    public function getEmploiCollectivite(): ?string{
+    public function getEmploiCollectivite(): ?string {
         return $this->emploiCollectivite;
     }
 
@@ -1455,7 +1454,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the etbl adresse1.
      */
-    public function getEtblAdresse1(): ?string{
+    public function getEtblAdresse1(): ?string {
         return $this->etblAdresse1;
     }
 
@@ -1464,7 +1463,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the etbl adresse2.
      */
-    public function getEtblAdresse2(): ?string{
+    public function getEtblAdresse2(): ?string {
         return $this->etblAdresse2;
     }
 
@@ -1473,7 +1472,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the etbl adresse3.
      */
-    public function getEtblAdresse3(): ?string{
+    public function getEtblAdresse3(): ?string {
         return $this->etblAdresse3;
     }
 
@@ -1482,7 +1481,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the etbl raison sociale.
      */
-    public function getEtblRaisonSociale(): ?string{
+    public function getEtblRaisonSociale(): ?string {
         return $this->etblRaisonSociale;
     }
 
@@ -1491,26 +1490,8 @@ class AttestationAssedic {
      *
      * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel(): ?string{
+    public function getEtblTel(): ?string {
         return $this->etblTel;
-    }
-
-    /**
-     * Get the fngsa percevoir.
-     *
-     * @return bool|null Returns the fngsa percevoir.
-     */
-    public function getFngsaPercevoir(): ?bool{
-        return $this->fngsaPercevoir;
-    }
-
-    /**
-     * Get the fngsa percevoir creance.
-     *
-     * @return string|null Returns the fngsa percevoir creance.
-     */
-    public function getFngsaPercevoirCreance(): ?string{
-        return $this->fngsaPercevoirCreance;
     }
 
     /**
@@ -1518,7 +1499,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the fngs non a percevoir motif.
      */
-    public function getFngsNonAPercevoirMotif(): ?string{
+    public function getFngsNonAPercevoirMotif(): ?string {
         return $this->fngsNonAPercevoirMotif;
     }
 
@@ -1527,7 +1508,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the fngs non percue motif.
      */
-    public function getFngsNonPercueMotif(): ?string{
+    public function getFngsNonPercueMotif(): ?string {
         return $this->fngsNonPercueMotif;
     }
 
@@ -1536,7 +1517,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the fngs percue.
      */
-    public function getFngsPercue(): ?bool{
+    public function getFngsPercue(): ?bool {
         return $this->fngsPercue;
     }
 
@@ -1545,8 +1526,26 @@ class AttestationAssedic {
      *
      * @return string|null Returns the fngs percue creance.
      */
-    public function getFngsPercueCreance(): ?string{
+    public function getFngsPercueCreance(): ?string {
         return $this->fngsPercueCreance;
+    }
+
+    /**
+     * Get the fngsa percevoir.
+     *
+     * @return bool|null Returns the fngsa percevoir.
+     */
+    public function getFngsaPercevoir(): ?bool {
+        return $this->fngsaPercevoir;
+    }
+
+    /**
+     * Get the fngsa percevoir creance.
+     *
+     * @return string|null Returns the fngsa percevoir creance.
+     */
+    public function getFngsaPercevoirCreance(): ?string {
+        return $this->fngsaPercevoirCreance;
     }
 
     /**
@@ -1554,7 +1553,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the heures trav.
      */
-    public function getHeuresTrav(): ?float{
+    public function getHeuresTrav(): ?float {
         return $this->heuresTrav;
     }
 
@@ -1563,7 +1562,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the heures trav2.
      */
-    public function getHeuresTrav2(): ?float{
+    public function getHeuresTrav2(): ?float {
         return $this->heuresTrav2;
     }
 
@@ -1572,7 +1571,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the horaire annuel etbl.
      */
-    public function getHoraireAnnuelEtbl(): ?float{
+    public function getHoraireAnnuelEtbl(): ?float {
         return $this->horaireAnnuelEtbl;
     }
 
@@ -1581,7 +1580,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the horaire annuel sal.
      */
-    public function getHoraireAnnuelSal(): ?float{
+    public function getHoraireAnnuelSal(): ?float {
         return $this->horaireAnnuelSal;
     }
 
@@ -1590,7 +1589,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the horaire hebdo etbl.
      */
-    public function getHoraireHebdoEtbl(): ?float{
+    public function getHoraireHebdoEtbl(): ?float {
         return $this->horaireHebdoEtbl;
     }
 
@@ -1599,7 +1598,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the horaire hebdo sal.
      */
-    public function getHoraireHebdoSal(): ?float{
+    public function getHoraireHebdoSal(): ?float {
         return $this->horaireHebdoSal;
     }
 
@@ -1608,7 +1607,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn autres.
      */
-    public function getIndemnAutres(): ?float{
+    public function getIndemnAutres(): ?float {
         return $this->indemnAutres;
     }
 
@@ -1617,7 +1616,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn clientele.
      */
-    public function getIndemnClientele(): ?float{
+    public function getIndemnClientele(): ?float {
         return $this->indemnClientele;
     }
 
@@ -1626,7 +1625,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn compens cp.
      */
-    public function getIndemnCompensCp(): ?float{
+    public function getIndemnCompensCp(): ?float {
         return $this->indemnCompensCp;
     }
 
@@ -1635,7 +1634,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn compens preavis.
      */
-    public function getIndemnCompensPreavis(): ?float{
+    public function getIndemnCompensPreavis(): ?float {
         return $this->indemnCompensPreavis;
     }
 
@@ -1644,7 +1643,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn depart retraite.
      */
-    public function getIndemnDepartRetraite(): ?float{
+    public function getIndemnDepartRetraite(): ?float {
         return $this->indemnDepartRetraite;
     }
 
@@ -1653,7 +1652,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn due sinistre.
      */
-    public function getIndemnDueSinistre(): ?float{
+    public function getIndemnDueSinistre(): ?float {
         return $this->indemnDueSinistre;
     }
 
@@ -1662,7 +1661,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn fin cdd.
      */
-    public function getIndemnFinCdd(): ?float{
+    public function getIndemnFinCdd(): ?float {
         return $this->indemnFinCdd;
     }
 
@@ -1671,7 +1670,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn fin cne.
      */
-    public function getIndemnFinCne(): ?float{
+    public function getIndemnFinCne(): ?float {
         return $this->indemnFinCne;
     }
 
@@ -1680,7 +1679,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn fin mission.
      */
-    public function getIndemnFinMission(): ?float{
+    public function getIndemnFinMission(): ?float {
         return $this->indemnFinMission;
     }
 
@@ -1689,7 +1688,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn journalistes.
      */
-    public function getIndemnJournalistes(): ?float{
+    public function getIndemnJournalistes(): ?float {
         return $this->indemnJournalistes;
     }
 
@@ -1698,7 +1697,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn licens.
      */
-    public function getIndemnLicens(): ?float{
+    public function getIndemnLicens(): ?float {
         return $this->indemnLicens;
     }
 
@@ -1707,7 +1706,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn navig.
      */
-    public function getIndemnNavig(): ?float{
+    public function getIndemnNavig(): ?float {
         return $this->indemnNavig;
     }
 
@@ -1716,7 +1715,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn rupt conv.
      */
-    public function getIndemnRuptConv(): ?float{
+    public function getIndemnRuptConv(): ?float {
         return $this->indemnRuptConv;
     }
 
@@ -1725,7 +1724,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn speci licens.
      */
-    public function getIndemnSpeciLicens(): ?float{
+    public function getIndemnSpeciLicens(): ?float {
         return $this->indemnSpeciLicens;
     }
 
@@ -1734,7 +1733,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn specif licens.
      */
-    public function getIndemnSpecifLicens(): ?float{
+    public function getIndemnSpecifLicens(): ?float {
         return $this->indemnSpecifLicens;
     }
 
@@ -1743,7 +1742,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn suppl licens.
      */
-    public function getIndemnSupplLicens(): ?float{
+    public function getIndemnSupplLicens(): ?float {
         return $this->indemnSupplLicens;
     }
 
@@ -1752,7 +1751,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the indemn versee apprenti.
      */
-    public function getIndemnVerseeApprenti(): ?float{
+    public function getIndemnVerseeApprenti(): ?float {
         return $this->indemnVerseeApprenti;
     }
 
@@ -1761,7 +1760,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the licencie55ans.
      */
-    public function getLicencie55ans(): ?bool{
+    public function getLicencie55ans(): ?bool {
         return $this->licencie55ans;
     }
 
@@ -1770,7 +1769,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the licencie plan social.
      */
-    public function getLicenciePlanSocial(): ?bool{
+    public function getLicenciePlanSocial(): ?bool {
         return $this->licenciePlanSocial;
     }
 
@@ -1779,7 +1778,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -1788,7 +1787,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the lien parente.
      */
-    public function getLienParente(): ?string{
+    public function getLienParente(): ?string {
         return $this->lienParente;
     }
 
@@ -1797,7 +1796,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the motif difference.
      */
-    public function getMotifDifference(): ?string{
+    public function getMotifDifference(): ?string {
         return $this->motifDifference;
     }
 
@@ -1806,7 +1805,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the motif non paie iccp.
      */
-    public function getMotifNonPaieIccp(): ?string{
+    public function getMotifNonPaieIccp(): ?string {
         return $this->motifNonPaieIccp;
     }
 
@@ -1815,7 +1814,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the motif non paiement.
      */
-    public function getMotifNonPaiement(): ?string{
+    public function getMotifNonPaiement(): ?string {
         return $this->motifNonPaiement;
     }
 
@@ -1824,7 +1823,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the motif rupture.
      */
-    public function getMotifRupture(): ?string{
+    public function getMotifRupture(): ?string {
         return $this->motifRupture;
     }
 
@@ -1833,7 +1832,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the mt idemn conv col.
      */
-    public function getMtIdemnConvCol(): ?float{
+    public function getMtIdemnConvCol(): ?float {
         return $this->mtIdemnConvCol;
     }
 
@@ -1842,7 +1841,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the mt idemn transac.
      */
-    public function getMtIdemnTransac(): ?float{
+    public function getMtIdemnTransac(): ?float {
         return $this->mtIdemnTransac;
     }
 
@@ -1851,17 +1850,8 @@ class AttestationAssedic {
      *
      * @return string|null Returns the naf.
      */
-    public function getNaf(): ?string{
+    public function getNaf(): ?string {
         return $this->naf;
-    }
-
-    /**
-     * Get the nir.
-     *
-     * @return string|null Returns the nir.
-     */
-    public function getNir(): ?string{
-        return $this->nir;
     }
 
     /**
@@ -1869,7 +1859,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the nature contrat.
      */
-    public function getNatureContrat(): ?string{
+    public function getNatureContrat(): ?string {
         return $this->natureContrat;
     }
 
@@ -1878,8 +1868,17 @@ class AttestationAssedic {
      *
      * @return float|null Returns the nb jours ouvrables.
      */
-    public function getNbJoursOuvrables(): ?float{
+    public function getNbJoursOuvrables(): ?float {
         return $this->nbJoursOuvrables;
+    }
+
+    /**
+     * Get the nir.
+     *
+     * @return string|null Returns the nir.
+     */
+    public function getNir(): ?string {
+        return $this->nir;
     }
 
     /**
@@ -1887,7 +1886,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the niveau qualif.
      */
-    public function getNiveauQualif(): ?string{
+    public function getNiveauQualif(): ?string {
         return $this->niveauQualif;
     }
 
@@ -1896,7 +1895,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the nom ass chom.
      */
-    public function getNomAssChom(): ?string{
+    public function getNomAssChom(): ?string {
         return $this->nomAssChom;
     }
 
@@ -1905,7 +1904,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye(): ?string{
+    public function getNomEmploye(): ?string {
         return $this->nomEmploye;
     }
 
@@ -1914,7 +1913,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance(): ?string{
+    public function getNomNaissance(): ?string {
         return $this->nomNaissance;
     }
 
@@ -1923,7 +1922,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the nom special secu.
      */
-    public function getNomSpecialSecu(): ?string{
+    public function getNomSpecialSecu(): ?string {
         return $this->nomSpecialSecu;
     }
 
@@ -1932,7 +1931,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the nouvelle attest.
      */
-    public function getNouvelleAttest(): ?bool{
+    public function getNouvelleAttest(): ?bool {
         return $this->nouvelleAttest;
     }
 
@@ -1941,7 +1940,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the num ass chom.
      */
-    public function getNumAssChom(): ?string{
+    public function getNumAssChom(): ?string {
         return $this->numAssChom;
     }
 
@@ -1950,7 +1949,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the num convention fne.
      */
-    public function getNumConventionFne(): ?string{
+    public function getNumConventionFne(): ?string {
         return $this->numConventionFne;
     }
 
@@ -1959,7 +1958,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the num convention gestion.
      */
-    public function getNumConventionGestion(): ?string{
+    public function getNumConventionGestion(): ?string {
         return $this->numConventionGestion;
     }
 
@@ -1968,7 +1967,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the num special secu.
      */
-    public function getNumSpecialSecu(): ?string{
+    public function getNumSpecialSecu(): ?string {
         return $this->numSpecialSecu;
     }
 
@@ -1977,7 +1976,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -1986,7 +1985,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -1995,7 +1994,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the organisme ass chom.
      */
-    public function getOrganismeAssChom(): ?string{
+    public function getOrganismeAssChom(): ?string {
         return $this->organismeAssChom;
     }
 
@@ -2004,7 +2003,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the preavis effectue.
      */
-    public function getPreavisEffectue(): ?bool{
+    public function getPreavisEffectue(): ?bool {
         return $this->preavisEffectue;
     }
 
@@ -2013,7 +2012,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the preavis effectue deb.
      */
-    public function getPreavisEffectueDeb(): ?DateTime{
+    public function getPreavisEffectueDeb(): ?DateTime {
         return $this->preavisEffectueDeb;
     }
 
@@ -2022,7 +2021,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the preavis effectue fin.
      */
-    public function getPreavisEffectueFin(): ?DateTime{
+    public function getPreavisEffectueFin(): ?DateTime {
         return $this->preavisEffectueFin;
     }
 
@@ -2031,7 +2030,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the preavis effectue paye.
      */
-    public function getPreavisEffectuePaye(): ?bool{
+    public function getPreavisEffectuePaye(): ?bool {
         return $this->preavisEffectuePaye;
     }
 
@@ -2040,7 +2039,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the preavis non effectue.
      */
-    public function getPreavisNonEffectue(): ?bool{
+    public function getPreavisNonEffectue(): ?bool {
         return $this->preavisNonEffectue;
     }
 
@@ -2049,7 +2048,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the preavis non effectue deb.
      */
-    public function getPreavisNonEffectueDeb(): ?DateTime{
+    public function getPreavisNonEffectueDeb(): ?DateTime {
         return $this->preavisNonEffectueDeb;
     }
 
@@ -2058,7 +2057,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the preavis non effectue fin.
      */
-    public function getPreavisNonEffectueFin(): ?DateTime{
+    public function getPreavisNonEffectueFin(): ?DateTime {
         return $this->preavisNonEffectueFin;
     }
 
@@ -2067,7 +2066,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the preavis non effectue paye.
      */
-    public function getPreavisNonEffectuePaye(): ?bool{
+    public function getPreavisNonEffectuePaye(): ?bool {
         return $this->preavisNonEffectuePaye;
     }
 
@@ -2076,7 +2075,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the precompte stc.
      */
-    public function getPrecompteStc(): ?float{
+    public function getPrecompteStc(): ?float {
         return $this->precompteStc;
     }
 
@@ -2085,7 +2084,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -2094,7 +2093,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the qualite emploi.
      */
-    public function getQualiteEmploi(): ?string{
+    public function getQualiteEmploi(): ?string {
         return $this->qualiteEmploi;
     }
 
@@ -2103,7 +2102,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the reclassement.
      */
-    public function getReclassement(): ?bool{
+    public function getReclassement(): ?bool {
         return $this->reclassement;
     }
 
@@ -2112,7 +2111,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the refus salarie.
      */
-    public function getRefusSalarie(): ?bool{
+    public function getRefusSalarie(): ?bool {
         return $this->refusSalarie;
     }
 
@@ -2121,7 +2120,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the retraite agirc.
      */
-    public function getRetraiteAgirc(): ?string{
+    public function getRetraiteAgirc(): ?string {
         return $this->retraiteAgirc;
     }
 
@@ -2130,7 +2129,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the retraite agirc compl.
      */
-    public function getRetraiteAgircCompl(): ?string{
+    public function getRetraiteAgircCompl(): ?string {
         return $this->retraiteAgircCompl;
     }
 
@@ -2139,7 +2138,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the retraite arrco.
      */
-    public function getRetraiteArrco(): ?string{
+    public function getRetraiteArrco(): ?string {
         return $this->retraiteArrco;
     }
 
@@ -2148,7 +2147,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the retraite arrco compl.
      */
-    public function getRetraiteArrcoCompl(): ?string{
+    public function getRetraiteArrcoCompl(): ?string {
         return $this->retraiteArrcoCompl;
     }
 
@@ -2157,7 +2156,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the retraite autre.
      */
-    public function getRetraiteAutre(): ?string{
+    public function getRetraiteAutre(): ?string {
         return $this->retraiteAutre;
     }
 
@@ -2166,17 +2165,8 @@ class AttestationAssedic {
      *
      * @return string|null Returns the retraite autre compl.
      */
-    public function getRetraiteAutreCompl(): ?string{
+    public function getRetraiteAutreCompl(): ?string {
         return $this->retraiteAutreCompl;
-    }
-
-    /**
-     * Get the siret.
-     *
-     * @return string|null Returns the siret.
-     */
-    public function getSiret(): ?string{
-        return $this->siret;
     }
 
     /**
@@ -2184,7 +2174,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the salaire brut.
      */
-    public function getSalaireBrut(): ?float{
+    public function getSalaireBrut(): ?float {
         return $this->salaireBrut;
     }
 
@@ -2193,7 +2183,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature code qualite.
      */
-    public function getSignatureCodeQualite(): ?string{
+    public function getSignatureCodeQualite(): ?string {
         return $this->signatureCodeQualite;
     }
 
@@ -2202,7 +2192,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature contact.
      */
-    public function getSignatureContact(): ?string{
+    public function getSignatureContact(): ?string {
         return $this->signatureContact;
     }
 
@@ -2211,7 +2201,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the signature date.
      */
-    public function getSignatureDate(): ?DateTime{
+    public function getSignatureDate(): ?DateTime {
         return $this->signatureDate;
     }
 
@@ -2220,7 +2210,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature nom.
      */
-    public function getSignatureNom(): ?string{
+    public function getSignatureNom(): ?string {
         return $this->signatureNom;
     }
 
@@ -2229,7 +2219,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature prenom.
      */
-    public function getSignaturePrenom(): ?string{
+    public function getSignaturePrenom(): ?string {
         return $this->signaturePrenom;
     }
 
@@ -2238,7 +2228,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature qualite.
      */
-    public function getSignatureQualite(): ?string{
+    public function getSignatureQualite(): ?string {
         return $this->signatureQualite;
     }
 
@@ -2247,7 +2237,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature tel.
      */
-    public function getSignatureTel(): ?string{
+    public function getSignatureTel(): ?string {
         return $this->signatureTel;
     }
 
@@ -2256,8 +2246,17 @@ class AttestationAssedic {
      *
      * @return string|null Returns the signature ville.
      */
-    public function getSignatureVille(): ?string{
+    public function getSignatureVille(): ?string {
         return $this->signatureVille;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string|null Returns the siret.
+     */
+    public function getSiret(): ?string {
+        return $this->siret;
     }
 
     /**
@@ -2265,7 +2264,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the solde tout compte.
      */
-    public function getSoldeToutCompte(): ?string{
+    public function getSoldeToutCompte(): ?string {
         return $this->soldeToutCompte;
     }
 
@@ -2274,7 +2273,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the sommes periode deb.
      */
-    public function getSommesPeriodeDeb(): ?DateTime{
+    public function getSommesPeriodeDeb(): ?DateTime {
         return $this->sommesPeriodeDeb;
     }
 
@@ -2283,7 +2282,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the sommes periode deb2.
      */
-    public function getSommesPeriodeDeb2(): ?DateTime{
+    public function getSommesPeriodeDeb2(): ?DateTime {
         return $this->sommesPeriodeDeb2;
     }
 
@@ -2292,7 +2291,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the sommes periode fin.
      */
-    public function getSommesPeriodeFin(): ?DateTime{
+    public function getSommesPeriodeFin(): ?DateTime {
         return $this->sommesPeriodeFin;
     }
 
@@ -2301,7 +2300,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the sommes periode fin2.
      */
-    public function getSommesPeriodeFin2(): ?DateTime{
+    public function getSommesPeriodeFin2(): ?DateTime {
         return $this->sommesPeriodeFin2;
     }
 
@@ -2310,7 +2309,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the special secu.
      */
-    public function getSpecialSecu(): ?string{
+    public function getSpecialSecu(): ?string {
         return $this->specialSecu;
     }
 
@@ -2319,7 +2318,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the statut.
      */
-    public function getStatut(): ?string{
+    public function getStatut(): ?string {
         return $this->statut;
     }
 
@@ -2328,7 +2327,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the statut cadre.
      */
-    public function getStatutCadre(): ?bool{
+    public function getStatutCadre(): ?bool {
         return $this->statutCadre;
     }
 
@@ -2337,7 +2336,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the statut part autre.
      */
-    public function getStatutPartAutre(): ?string{
+    public function getStatutPartAutre(): ?string {
         return $this->statutPartAutre;
     }
 
@@ -2346,7 +2345,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -2355,7 +2354,7 @@ class AttestationAssedic {
      *
      * @return float|null Returns the total sommes.
      */
-    public function getTotalSommes(): ?float{
+    public function getTotalSommes(): ?float {
         return $this->totalSommes;
     }
 
@@ -2364,7 +2363,7 @@ class AttestationAssedic {
      *
      * @return bool|null Returns the transaction en cours.
      */
-    public function getTransactionEnCours(): ?bool{
+    public function getTransactionEnCours(): ?bool {
         return $this->transactionEnCours;
     }
 
@@ -2373,7 +2372,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the type assedic.
      */
-    public function getTypeAssedic(): ?string{
+    public function getTypeAssedic(): ?string {
         return $this->typeAssedic;
     }
 
@@ -2382,7 +2381,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the type diff horaire.
      */
-    public function getTypeDiffHoraire(): ?string{
+    public function getTypeDiffHoraire(): ?string {
         return $this->typeDiffHoraire;
     }
 
@@ -2391,7 +2390,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the type societe.
      */
-    public function getTypeSociete(): ?string{
+    public function getTypeSociete(): ?string {
         return $this->typeSociete;
     }
 
@@ -2400,7 +2399,7 @@ class AttestationAssedic {
      *
      * @return string|null Returns the urssaf.
      */
-    public function getUrssaf(): ?string{
+    public function getUrssaf(): ?string {
         return $this->urssaf;
     }
 
@@ -2409,7 +2408,7 @@ class AttestationAssedic {
      *
      * @return DateTime|null Returns the validite convention fne.
      */
-    public function getValiditeConventionFne(): ?DateTime{
+    public function getValiditeConventionFne(): ?DateTime {
         return $this->validiteConventionFne;
     }
 
@@ -2931,28 +2930,6 @@ class AttestationAssedic {
     }
 
     /**
-     * Set the fngsa percevoir.
-     *
-     * @param bool|null $fngsaPercevoir The fngsa percevoir.
-     * @return AttestationAssedic Returns this Attestation assedic.
-     */
-    public function setFngsaPercevoir(?bool $fngsaPercevoir): AttestationAssedic {
-        $this->fngsaPercevoir = $fngsaPercevoir;
-        return $this;
-    }
-
-    /**
-     * Set the fngsa percevoir creance.
-     *
-     * @param string|null $fngsaPercevoirCreance The fngsa percevoir creance.
-     * @return AttestationAssedic Returns this Attestation assedic.
-     */
-    public function setFngsaPercevoirCreance(?string $fngsaPercevoirCreance): AttestationAssedic {
-        $this->fngsaPercevoirCreance = $fngsaPercevoirCreance;
-        return $this;
-    }
-
-    /**
      * Set the fngs non a percevoir motif.
      *
      * @param string|null $fngsNonAPercevoirMotif The fngs non a percevoir motif.
@@ -2993,6 +2970,28 @@ class AttestationAssedic {
      */
     public function setFngsPercueCreance(?string $fngsPercueCreance): AttestationAssedic {
         $this->fngsPercueCreance = $fngsPercueCreance;
+        return $this;
+    }
+
+    /**
+     * Set the fngsa percevoir.
+     *
+     * @param bool|null $fngsaPercevoir The fngsa percevoir.
+     * @return AttestationAssedic Returns this Attestation assedic.
+     */
+    public function setFngsaPercevoir(?bool $fngsaPercevoir): AttestationAssedic {
+        $this->fngsaPercevoir = $fngsaPercevoir;
+        return $this;
+    }
+
+    /**
+     * Set the fngsa percevoir creance.
+     *
+     * @param string|null $fngsaPercevoirCreance The fngsa percevoir creance.
+     * @return AttestationAssedic Returns this Attestation assedic.
+     */
+    public function setFngsaPercevoirCreance(?string $fngsaPercevoirCreance): AttestationAssedic {
+        $this->fngsaPercevoirCreance = $fngsaPercevoirCreance;
         return $this;
     }
 
@@ -3371,17 +3370,6 @@ class AttestationAssedic {
     }
 
     /**
-     * Set the nir.
-     *
-     * @param string|null $nir The nir.
-     * @return AttestationAssedic Returns this Attestation assedic.
-     */
-    public function setNir(?string $nir): AttestationAssedic {
-        $this->nir = $nir;
-        return $this;
-    }
-
-    /**
      * Set the nature contrat.
      *
      * @param string|null $natureContrat The nature contrat.
@@ -3400,6 +3388,17 @@ class AttestationAssedic {
      */
     public function setNbJoursOuvrables(?float $nbJoursOuvrables): AttestationAssedic {
         $this->nbJoursOuvrables = $nbJoursOuvrables;
+        return $this;
+    }
+
+    /**
+     * Set the nir.
+     *
+     * @param string|null $nir The nir.
+     * @return AttestationAssedic Returns this Attestation assedic.
+     */
+    public function setNir(?string $nir): AttestationAssedic {
+        $this->nir = $nir;
         return $this;
     }
 
@@ -3756,17 +3755,6 @@ class AttestationAssedic {
     }
 
     /**
-     * Set the siret.
-     *
-     * @param string|null $siret The siret.
-     * @return AttestationAssedic Returns this Attestation assedic.
-     */
-    public function setSiret(?string $siret): AttestationAssedic {
-        $this->siret = $siret;
-        return $this;
-    }
-
-    /**
      * Set the salaire brut.
      *
      * @param float|null $salaireBrut The salaire brut.
@@ -3862,6 +3850,17 @@ class AttestationAssedic {
      */
     public function setSignatureVille(?string $signatureVille): AttestationAssedic {
         $this->signatureVille = $signatureVille;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string|null $siret The siret.
+     * @return AttestationAssedic Returns this Attestation assedic.
+     */
+    public function setSiret(?string $siret): AttestationAssedic {
+        $this->siret = $siret;
         return $this;
     }
 

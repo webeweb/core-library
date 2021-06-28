@@ -152,7 +152,6 @@ class CaissesRetraiteMetier {
      */
     private $pasActive;
 
-
     /**
      * Constructor.
      */
@@ -165,7 +164,7 @@ class CaissesRetraiteMetier {
      *
      * @return int|null Returns the categ salarie.
      */
-    public function getCategSalarie(): ?int{
+    public function getCategSalarie(): ?int {
         return $this->categSalarie;
     }
 
@@ -174,7 +173,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the categ salarie equiv.
      */
-    public function getCategSalarieEquiv(): ?string{
+    public function getCategSalarieEquiv(): ?string {
         return $this->categSalarieEquiv;
     }
 
@@ -183,7 +182,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code activite.
      */
-    public function getCodeActivite(): ?string{
+    public function getCodeActivite(): ?string {
         return $this->codeActivite;
     }
 
@@ -192,7 +191,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code metier.
      */
-    public function getCodeMetier(): ?string{
+    public function getCodeMetier(): ?string {
         return $this->codeMetier;
     }
 
@@ -201,7 +200,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code organisme agirc.
      */
-    public function getCodeOrganismeAgirc(): ?string{
+    public function getCodeOrganismeAgirc(): ?string {
         return $this->codeOrganismeAgirc;
     }
 
@@ -210,7 +209,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code organisme arrco.
      */
-    public function getCodeOrganismeArrco(): ?string{
+    public function getCodeOrganismeArrco(): ?string {
         return $this->codeOrganismeArrco;
     }
 
@@ -219,7 +218,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code organisme ccca.
      */
-    public function getCodeOrganismeCcca(): ?string{
+    public function getCodeOrganismeCcca(): ?string {
         return $this->codeOrganismeCcca;
     }
 
@@ -228,7 +227,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code organisme frais sante.
      */
-    public function getCodeOrganismeFraisSante(): ?string{
+    public function getCodeOrganismeFraisSante(): ?string {
         return $this->codeOrganismeFraisSante;
     }
 
@@ -237,7 +236,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code organisme prev.
      */
-    public function getCodeOrganismePrev(): ?string{
+    public function getCodeOrganismePrev(): ?string {
         return $this->codeOrganismePrev;
     }
 
@@ -246,7 +245,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the code organisme prev comp.
      */
-    public function getCodeOrganismePrevComp(): ?string{
+    public function getCodeOrganismePrevComp(): ?string {
         return $this->codeOrganismePrevComp;
     }
 
@@ -255,7 +254,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the id institution agirc.
      */
-    public function getIdInstitutionAgirc(): ?string{
+    public function getIdInstitutionAgirc(): ?string {
         return $this->idInstitutionAgirc;
     }
 
@@ -264,7 +263,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the id institution arrco.
      */
-    public function getIdInstitutionArrco(): ?string{
+    public function getIdInstitutionArrco(): ?string {
         return $this->idInstitutionArrco;
     }
 
@@ -273,7 +272,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the id institution ccca.
      */
-    public function getIdInstitutionCcca(): ?string{
+    public function getIdInstitutionCcca(): ?string {
         return $this->idInstitutionCcca;
     }
 
@@ -282,7 +281,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the id institution frais sante.
      */
-    public function getIdInstitutionFraisSante(): ?string{
+    public function getIdInstitutionFraisSante(): ?string {
         return $this->idInstitutionFraisSante;
     }
 
@@ -291,7 +290,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the id institution prev.
      */
-    public function getIdInstitutionPrev(): ?string{
+    public function getIdInstitutionPrev(): ?string {
         return $this->idInstitutionPrev;
     }
 
@@ -300,7 +299,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the id institution prev comp.
      */
-    public function getIdInstitutionPrevComp(): ?string{
+    public function getIdInstitutionPrevComp(): ?string {
         return $this->idInstitutionPrevComp;
     }
 
@@ -309,7 +308,7 @@ class CaissesRetraiteMetier {
      *
      * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg(): ?int{
+    public function getIndiceCateg(): ?int {
         return $this->indiceCateg;
     }
 
@@ -318,7 +317,7 @@ class CaissesRetraiteMetier {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -327,7 +326,7 @@ class CaissesRetraiteMetier {
      *
      * @return bool|null Returns the pas active.
      */
-    public function getPasActive(): ?bool{
+    public function getPasActive(): ?bool {
         return $this->pasActive;
     }
 

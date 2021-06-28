@@ -40,7 +40,6 @@ class TresoParametrage {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class TresoParametrage {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -62,7 +61,7 @@ class TresoParametrage {
      *
      * @return string|null Returns the regle.
      */
-    public function getRegle(): ?string{
+    public function getRegle(): ?string {
         return $this->regle;
     }
 
@@ -71,7 +70,7 @@ class TresoParametrage {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

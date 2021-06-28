@@ -91,7 +91,6 @@ class AbsencesCpPrevisionnel {
      */
     private $indice;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -113,7 +112,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return string|null Returns the collaborateur.
      */
-    public function getCollaborateur(): ?string{
+    public function getCollaborateur(): ?string {
         return $this->collaborateur;
     }
 
@@ -122,7 +121,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -131,7 +130,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date debut cp.
      */
-    public function getDateDebutCp(): ?DateTime{
+    public function getDateDebutCp(): ?DateTime {
         return $this->dateDebutCp;
     }
 
@@ -140,7 +139,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date demande.
      */
-    public function getDateDemande(): ?DateTime{
+    public function getDateDemande(): ?DateTime {
         return $this->dateDemande;
     }
 
@@ -149,7 +148,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date etat cp.
      */
-    public function getDateEtatCp(): ?DateTime{
+    public function getDateEtatCp(): ?DateTime {
         return $this->dateEtatCp;
     }
 
@@ -158,7 +157,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return DateTime|null Returns the date fin cp.
      */
-    public function getDateFinCp(): ?DateTime{
+    public function getDateFinCp(): ?DateTime {
         return $this->dateFinCp;
     }
 
@@ -167,7 +166,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return bool|null Returns the depuis web.
      */
-    public function getDepuisWeb(): ?bool{
+    public function getDepuisWeb(): ?bool {
         return $this->depuisWeb;
     }
 
@@ -176,7 +175,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return string|null Returns the etat cp.
      */
-    public function getEtatCp(): ?string{
+    public function getEtatCp(): ?string {
         return $this->etatCp;
     }
 
@@ -185,7 +184,7 @@ class AbsencesCpPrevisionnel {
      *
      * @return string|null Returns the indice.
      */
-    public function getIndice(): ?string{
+    public function getIndice(): ?string {
         return $this->indice;
     }
 

@@ -141,18 +141,18 @@ class DeclarationsAt {
     private $etblResponsable;
 
     /**
-     * Etbl siret.
-     *
-     * @var string|null
-     */
-    private $etblSiret;
-
-    /**
      * Etbl signature.
      *
      * @var string|null
      */
     private $etblSignature;
+
+    /**
+     * Etbl siret.
+     *
+     * @var string|null
+     */
+    private $etblSiret;
 
     /**
      * Etbl tel.
@@ -245,7 +245,6 @@ class DeclarationsAt {
      */
     private $typeDat;
 
-
     /**
      * Constructor.
      */
@@ -258,7 +257,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the adresse.
      */
-    public function getAdresse(): ?string{
+    public function getAdresse(): ?string {
         return $this->adresse;
     }
 
@@ -267,7 +266,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the categorie.
      */
-    public function getCategorie(): ?string{
+    public function getCategorie(): ?string {
         return $this->categorie;
     }
 
@@ -276,7 +275,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?string{
+    public function getCodeEtablissement(): ?string {
         return $this->codeEtablissement;
     }
 
@@ -285,7 +284,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -294,7 +293,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the commune.
      */
-    public function getCommune(): ?string{
+    public function getCommune(): ?string {
         return $this->commune;
     }
 
@@ -303,7 +302,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -312,7 +311,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the date naissance.
      */
-    public function getDateNaissance(): ?DateTime{
+    public function getDateNaissance(): ?DateTime {
         return $this->dateNaissance;
     }
 
@@ -321,7 +320,7 @@ class DeclarationsAt {
      *
      * @return int|null Returns the deduct forfait.
      */
-    public function getDeductForfait(): ?int{
+    public function getDeductForfait(): ?int {
         return $this->deductForfait;
     }
 
@@ -330,7 +329,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt accouchement.
      */
-    public function getDtAccouchement(): ?DateTime{
+    public function getDtAccouchement(): ?DateTime {
         return $this->dtAccouchement;
     }
 
@@ -339,7 +338,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt deb at.
      */
-    public function getDtDebAt(): ?DateTime{
+    public function getDtDebAt(): ?DateTime {
         return $this->dtDebAt;
     }
 
@@ -348,7 +347,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt deb conges.
      */
-    public function getDtDebConges(): ?DateTime{
+    public function getDtDebConges(): ?DateTime {
         return $this->dtDebConges;
     }
 
@@ -357,7 +356,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt embauche.
      */
-    public function getDtEmbauche(): ?DateTime{
+    public function getDtEmbauche(): ?DateTime {
         return $this->dtEmbauche;
     }
 
@@ -366,7 +365,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt fin conges.
      */
-    public function getDtFinConges(): ?DateTime{
+    public function getDtFinConges(): ?DateTime {
         return $this->dtFinConges;
     }
 
@@ -375,7 +374,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt fin contrat.
      */
-    public function getDtFinContrat(): ?DateTime{
+    public function getDtFinContrat(): ?DateTime {
         return $this->dtFinContrat;
     }
 
@@ -384,7 +383,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the dt fin preavis.
      */
-    public function getDtFinPreavis(): ?DateTime{
+    public function getDtFinPreavis(): ?DateTime {
         return $this->dtFinPreavis;
     }
 
@@ -393,7 +392,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the etbl nom.
      */
-    public function getEtblNom(): ?string{
+    public function getEtblNom(): ?string {
         return $this->etblNom;
     }
 
@@ -402,17 +401,8 @@ class DeclarationsAt {
      *
      * @return string|null Returns the etbl responsable.
      */
-    public function getEtblResponsable(): ?string{
+    public function getEtblResponsable(): ?string {
         return $this->etblResponsable;
-    }
-
-    /**
-     * Get the etbl siret.
-     *
-     * @return string|null Returns the etbl siret.
-     */
-    public function getEtblSiret(): ?string{
-        return $this->etblSiret;
     }
 
     /**
@@ -420,8 +410,17 @@ class DeclarationsAt {
      *
      * @return string|null Returns the etbl signature.
      */
-    public function getEtblSignature(): ?string{
+    public function getEtblSignature(): ?string {
         return $this->etblSignature;
+    }
+
+    /**
+     * Get the etbl siret.
+     *
+     * @return string|null Returns the etbl siret.
+     */
+    public function getEtblSiret(): ?string {
+        return $this->etblSiret;
     }
 
     /**
@@ -429,7 +428,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel(): ?string{
+    public function getEtblTel(): ?string {
         return $this->etblTel;
     }
 
@@ -438,7 +437,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -447,7 +446,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the memo accident.
      */
-    public function getMemoAccident(): ?string{
+    public function getMemoAccident(): ?string {
         return $this->memoAccident;
     }
 
@@ -456,7 +455,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the memo correspondance.
      */
-    public function getMemoCorrespondance(): ?string{
+    public function getMemoCorrespondance(): ?string {
         return $this->memoCorrespondance;
     }
 
@@ -465,7 +464,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the motif at.
      */
-    public function getMotifAt(): ?string{
+    public function getMotifAt(): ?string {
         return $this->motifAt;
     }
 
@@ -474,7 +473,7 @@ class DeclarationsAt {
      *
      * @return int|null Returns the mt salaire brut.
      */
-    public function getMtSalaireBrut(): ?int{
+    public function getMtSalaireBrut(): ?int {
         return $this->mtSalaireBrut;
     }
 
@@ -483,7 +482,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the nir.
      */
-    public function getNir(): ?string{
+    public function getNir(): ?string {
         return $this->nir;
     }
 
@@ -492,7 +491,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -501,7 +500,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the num dat.
      */
-    public function getNumDat(): ?string{
+    public function getNumDat(): ?string {
         return $this->numDat;
     }
 
@@ -510,7 +509,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -519,7 +518,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
     }
 
@@ -528,7 +527,7 @@ class DeclarationsAt {
      *
      * @return DateTime|null Returns the sign date.
      */
-    public function getSignDate(): ?DateTime{
+    public function getSignDate(): ?DateTime {
         return $this->signDate;
     }
 
@@ -537,7 +536,7 @@ class DeclarationsAt {
      *
      * @return string|null Returns the type dat.
      */
-    public function getTypeDat(): ?string{
+    public function getTypeDat(): ?string {
         return $this->typeDat;
     }
 
@@ -729,17 +728,6 @@ class DeclarationsAt {
     }
 
     /**
-     * Set the etbl siret.
-     *
-     * @param string|null $etblSiret The etbl siret.
-     * @return DeclarationsAt Returns this Declarations at.
-     */
-    public function setEtblSiret(?string $etblSiret): DeclarationsAt {
-        $this->etblSiret = $etblSiret;
-        return $this;
-    }
-
-    /**
      * Set the etbl signature.
      *
      * @param string|null $etblSignature The etbl signature.
@@ -747,6 +735,17 @@ class DeclarationsAt {
      */
     public function setEtblSignature(?string $etblSignature): DeclarationsAt {
         $this->etblSignature = $etblSignature;
+        return $this;
+    }
+
+    /**
+     * Set the etbl siret.
+     *
+     * @param string|null $etblSiret The etbl siret.
+     * @return DeclarationsAt Returns this Declarations at.
+     */
+    public function setEtblSiret(?string $etblSiret): DeclarationsAt {
+        $this->etblSiret = $etblSiret;
         return $this;
     }
 

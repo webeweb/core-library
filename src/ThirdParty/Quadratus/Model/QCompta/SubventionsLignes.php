@@ -61,7 +61,6 @@ class SubventionsLignes {
      */
     private $numLigne;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class SubventionsLignes {
      *
      * @return string|null Returns the annee.
      */
-    public function getAnnee(): ?string{
+    public function getAnnee(): ?string {
         return $this->annee;
     }
 
@@ -83,7 +82,7 @@ class SubventionsLignes {
      *
      * @return float|null Returns the montant restant.
      */
-    public function getMontantRestant(): ?float{
+    public function getMontantRestant(): ?float {
         return $this->montantRestant;
     }
 
@@ -92,7 +91,7 @@ class SubventionsLignes {
      *
      * @return float|null Returns the montant vir.
      */
-    public function getMontantVir(): ?float{
+    public function getMontantVir(): ?float {
         return $this->montantVir;
     }
 
@@ -101,7 +100,7 @@ class SubventionsLignes {
      *
      * @return string|null Returns the num contrat.
      */
-    public function getNumContrat(): ?string{
+    public function getNumContrat(): ?string {
         return $this->numContrat;
     }
 
@@ -110,7 +109,7 @@ class SubventionsLignes {
      *
      * @return string|null Returns the num cpt subvention.
      */
-    public function getNumCptSubvention(): ?string{
+    public function getNumCptSubvention(): ?string {
         return $this->numCptSubvention;
     }
 
@@ -119,7 +118,7 @@ class SubventionsLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 

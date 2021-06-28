@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\ThirdParty\OcrLad\Model;
 
-use WBW\Library\Core\Model\Attribute\StringFilenameTrait;
 use WBW\Library\Core\ThirdParty\OcrLad\Model\Attribute\ArrayWordsTrait;
+use WBW\Library\Traits\Strings\StringFilenameTrait;
 
 /**
  * Document.

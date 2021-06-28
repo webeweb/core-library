@@ -64,18 +64,18 @@ class Compteur {
     private $nbAttesIjssAt;
 
     /**
-     * Nb attes ijss ata deduire.
-     *
-     * @var int|null
-     */
-    private $nbAttesIjssAtaDeduire;
-
-    /**
      * Nb attes ijss at fact.
      *
      * @var int|null
      */
     private $nbAttesIjssAtFact;
+
+    /**
+     * Nb attes ijss ata deduire.
+     *
+     * @var int|null
+     */
+    private $nbAttesIjssAtaDeduire;
 
     /**
      * Nb attes ijss fact.
@@ -190,6 +190,27 @@ class Compteur {
     private $nbDadsEditeesFact;
 
     /**
+     * Nb disquettes virements.
+     *
+     * @var int|null
+     */
+    private $nbDisquettesVirements;
+
+    /**
+     * Nb disquettes virements a deduire.
+     *
+     * @var int|null
+     */
+    private $nbDisquettesVirementsADeduire;
+
+    /**
+     * Nb disquettes virements fact.
+     *
+     * @var int|null
+     */
+    private $nbDisquettesVirementsFact;
+
+    /**
      * Nb dsn evt arret.
      *
      * @var int|null
@@ -260,13 +281,6 @@ class Compteur {
     private $nbDue;
 
     /**
-     * Nb duea deduire.
-     *
-     * @var int|null
-     */
-    private $nbDueaDeduire;
-
-    /**
      * Nb due fact.
      *
      * @var int|null
@@ -274,25 +288,11 @@ class Compteur {
     private $nbDueFact;
 
     /**
-     * Nb disquettes virements.
+     * Nb duea deduire.
      *
      * @var int|null
      */
-    private $nbDisquettesVirements;
-
-    /**
-     * Nb disquettes virements a deduire.
-     *
-     * @var int|null
-     */
-    private $nbDisquettesVirementsADeduire;
-
-    /**
-     * Nb disquettes virements fact.
-     *
-     * @var int|null
-     */
-    private $nbDisquettesVirementsFact;
+    private $nbDueaDeduire;
 
     /**
      * Nb solde tout compte.
@@ -343,7 +343,6 @@ class Compteur {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -356,7 +355,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attes assedic.
      */
-    public function getNbAttesAssedic(): ?int{
+    public function getNbAttesAssedic(): ?int {
         return $this->nbAttesAssedic;
     }
 
@@ -365,7 +364,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attes assedic a deduire.
      */
-    public function getNbAttesAssedicADeduire(): ?int{
+    public function getNbAttesAssedicADeduire(): ?int {
         return $this->nbAttesAssedicADeduire;
     }
 
@@ -374,7 +373,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attes assedic fact.
      */
-    public function getNbAttesAssedicFact(): ?int{
+    public function getNbAttesAssedicFact(): ?int {
         return $this->nbAttesAssedicFact;
     }
 
@@ -383,7 +382,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attes ijss.
      */
-    public function getNbAttesIjss(): ?int{
+    public function getNbAttesIjss(): ?int {
         return $this->nbAttesIjss;
     }
 
@@ -392,7 +391,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attes ijss a deduire.
      */
-    public function getNbAttesIjssADeduire(): ?int{
+    public function getNbAttesIjssADeduire(): ?int {
         return $this->nbAttesIjssADeduire;
     }
 
@@ -401,17 +400,8 @@ class Compteur {
      *
      * @return int|null Returns the nb attes ijss at.
      */
-    public function getNbAttesIjssAt(): ?int{
+    public function getNbAttesIjssAt(): ?int {
         return $this->nbAttesIjssAt;
-    }
-
-    /**
-     * Get the nb attes ijss ata deduire.
-     *
-     * @return int|null Returns the nb attes ijss ata deduire.
-     */
-    public function getNbAttesIjssAtaDeduire(): ?int{
-        return $this->nbAttesIjssAtaDeduire;
     }
 
     /**
@@ -419,8 +409,17 @@ class Compteur {
      *
      * @return int|null Returns the nb attes ijss at fact.
      */
-    public function getNbAttesIjssAtFact(): ?int{
+    public function getNbAttesIjssAtFact(): ?int {
         return $this->nbAttesIjssAtFact;
+    }
+
+    /**
+     * Get the nb attes ijss ata deduire.
+     *
+     * @return int|null Returns the nb attes ijss ata deduire.
+     */
+    public function getNbAttesIjssAtaDeduire(): ?int {
+        return $this->nbAttesIjssAtaDeduire;
     }
 
     /**
@@ -428,7 +427,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attes ijss fact.
      */
-    public function getNbAttesIjssFact(): ?int{
+    public function getNbAttesIjssFact(): ?int {
         return $this->nbAttesIjssFact;
     }
 
@@ -437,7 +436,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attest emploi.
      */
-    public function getNbAttestEmploi(): ?int{
+    public function getNbAttestEmploi(): ?int {
         return $this->nbAttestEmploi;
     }
 
@@ -446,7 +445,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attest emploi a deduire.
      */
-    public function getNbAttestEmploiADeduire(): ?int{
+    public function getNbAttestEmploiADeduire(): ?int {
         return $this->nbAttestEmploiADeduire;
     }
 
@@ -455,7 +454,7 @@ class Compteur {
      *
      * @return int|null Returns the nb attest emploi fact.
      */
-    public function getNbAttestEmploiFact(): ?int{
+    public function getNbAttestEmploiFact(): ?int {
         return $this->nbAttestEmploiFact;
     }
 
@@ -464,7 +463,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bul edites.
      */
-    public function getNbBulEdites(): ?int{
+    public function getNbBulEdites(): ?int {
         return $this->nbBulEdites;
     }
 
@@ -473,7 +472,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bul edites a deduire.
      */
-    public function getNbBulEditesADeduire(): ?int{
+    public function getNbBulEditesADeduire(): ?int {
         return $this->nbBulEditesADeduire;
     }
 
@@ -482,7 +481,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bul edites fact.
      */
-    public function getNbBulEditesFact(): ?int{
+    public function getNbBulEditesFact(): ?int {
         return $this->nbBulEditesFact;
     }
 
@@ -491,7 +490,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bul valides.
      */
-    public function getNbBulValides(): ?int{
+    public function getNbBulValides(): ?int {
         return $this->nbBulValides;
     }
 
@@ -500,7 +499,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bul valides a deduire.
      */
-    public function getNbBulValidesADeduire(): ?int{
+    public function getNbBulValidesADeduire(): ?int {
         return $this->nbBulValidesADeduire;
     }
 
@@ -509,7 +508,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bul valides fact.
      */
-    public function getNbBulValidesFact(): ?int{
+    public function getNbBulValidesFact(): ?int {
         return $this->nbBulValidesFact;
     }
 
@@ -518,7 +517,7 @@ class Compteur {
      *
      * @return int|null Returns the nb certif travail.
      */
-    public function getNbCertifTravail(): ?int{
+    public function getNbCertifTravail(): ?int {
         return $this->nbCertifTravail;
     }
 
@@ -527,7 +526,7 @@ class Compteur {
      *
      * @return int|null Returns the nb certif travail a deduire.
      */
-    public function getNbCertifTravailADeduire(): ?int{
+    public function getNbCertifTravailADeduire(): ?int {
         return $this->nbCertifTravailADeduire;
     }
 
@@ -536,7 +535,7 @@ class Compteur {
      *
      * @return int|null Returns the nb certif travail fact.
      */
-    public function getNbCertifTravailFact(): ?int{
+    public function getNbCertifTravailFact(): ?int {
         return $this->nbCertifTravailFact;
     }
 
@@ -545,7 +544,7 @@ class Compteur {
      *
      * @return int|null Returns the nb dads editees.
      */
-    public function getNbDadsEditees(): ?int{
+    public function getNbDadsEditees(): ?int {
         return $this->nbDadsEditees;
     }
 
@@ -554,7 +553,7 @@ class Compteur {
      *
      * @return int|null Returns the nb dads editees a deduire.
      */
-    public function getNbDadsEditeesADeduire(): ?int{
+    public function getNbDadsEditeesADeduire(): ?int {
         return $this->nbDadsEditeesADeduire;
     }
 
@@ -563,116 +562,8 @@ class Compteur {
      *
      * @return int|null Returns the nb dads editees fact.
      */
-    public function getNbDadsEditeesFact(): ?int{
+    public function getNbDadsEditeesFact(): ?int {
         return $this->nbDadsEditeesFact;
-    }
-
-    /**
-     * Get the nb dsn evt arret.
-     *
-     * @return int|null Returns the nb dsn evt arret.
-     */
-    public function getNbDsnEvtArret(): ?int{
-        return $this->nbDsnEvtArret;
-    }
-
-    /**
-     * Get the nb dsn evt arret a deduire.
-     *
-     * @return int|null Returns the nb dsn evt arret a deduire.
-     */
-    public function getNbDsnEvtArretADeduire(): ?int{
-        return $this->nbDsnEvtArretADeduire;
-    }
-
-    /**
-     * Get the nb dsn evt arret fact.
-     *
-     * @return int|null Returns the nb dsn evt arret fact.
-     */
-    public function getNbDsnEvtArretFact(): ?int{
-        return $this->nbDsnEvtArretFact;
-    }
-
-    /**
-     * Get the nb dsn evt fin contrat.
-     *
-     * @return int|null Returns the nb dsn evt fin contrat.
-     */
-    public function getNbDsnEvtFinContrat(): ?int{
-        return $this->nbDsnEvtFinContrat;
-    }
-
-    /**
-     * Get the nb dsn evt fin contrat a deduire.
-     *
-     * @return int|null Returns the nb dsn evt fin contrat a deduire.
-     */
-    public function getNbDsnEvtFinContratADeduire(): ?int{
-        return $this->nbDsnEvtFinContratADeduire;
-    }
-
-    /**
-     * Get the nb dsn evt fin contrat fact.
-     *
-     * @return int|null Returns the nb dsn evt fin contrat fact.
-     */
-    public function getNbDsnEvtFinContratFact(): ?int{
-        return $this->nbDsnEvtFinContratFact;
-    }
-
-    /**
-     * Get the nb dsn mensuelle.
-     *
-     * @return int|null Returns the nb dsn mensuelle.
-     */
-    public function getNbDsnMensuelle(): ?int{
-        return $this->nbDsnMensuelle;
-    }
-
-    /**
-     * Get the nb dsn mensuelle a deduire.
-     *
-     * @return int|null Returns the nb dsn mensuelle a deduire.
-     */
-    public function getNbDsnMensuelleADeduire(): ?int{
-        return $this->nbDsnMensuelleADeduire;
-    }
-
-    /**
-     * Get the nb dsn mensuelle fact.
-     *
-     * @return int|null Returns the nb dsn mensuelle fact.
-     */
-    public function getNbDsnMensuelleFact(): ?int{
-        return $this->nbDsnMensuelleFact;
-    }
-
-    /**
-     * Get the nb due.
-     *
-     * @return int|null Returns the nb due.
-     */
-    public function getNbDue(): ?int{
-        return $this->nbDue;
-    }
-
-    /**
-     * Get the nb duea deduire.
-     *
-     * @return int|null Returns the nb duea deduire.
-     */
-    public function getNbDueaDeduire(): ?int{
-        return $this->nbDueaDeduire;
-    }
-
-    /**
-     * Get the nb due fact.
-     *
-     * @return int|null Returns the nb due fact.
-     */
-    public function getNbDueFact(): ?int{
-        return $this->nbDueFact;
     }
 
     /**
@@ -680,7 +571,7 @@ class Compteur {
      *
      * @return int|null Returns the nb disquettes virements.
      */
-    public function getNbDisquettesVirements(): ?int{
+    public function getNbDisquettesVirements(): ?int {
         return $this->nbDisquettesVirements;
     }
 
@@ -689,7 +580,7 @@ class Compteur {
      *
      * @return int|null Returns the nb disquettes virements a deduire.
      */
-    public function getNbDisquettesVirementsADeduire(): ?int{
+    public function getNbDisquettesVirementsADeduire(): ?int {
         return $this->nbDisquettesVirementsADeduire;
     }
 
@@ -698,8 +589,116 @@ class Compteur {
      *
      * @return int|null Returns the nb disquettes virements fact.
      */
-    public function getNbDisquettesVirementsFact(): ?int{
+    public function getNbDisquettesVirementsFact(): ?int {
         return $this->nbDisquettesVirementsFact;
+    }
+
+    /**
+     * Get the nb dsn evt arret.
+     *
+     * @return int|null Returns the nb dsn evt arret.
+     */
+    public function getNbDsnEvtArret(): ?int {
+        return $this->nbDsnEvtArret;
+    }
+
+    /**
+     * Get the nb dsn evt arret a deduire.
+     *
+     * @return int|null Returns the nb dsn evt arret a deduire.
+     */
+    public function getNbDsnEvtArretADeduire(): ?int {
+        return $this->nbDsnEvtArretADeduire;
+    }
+
+    /**
+     * Get the nb dsn evt arret fact.
+     *
+     * @return int|null Returns the nb dsn evt arret fact.
+     */
+    public function getNbDsnEvtArretFact(): ?int {
+        return $this->nbDsnEvtArretFact;
+    }
+
+    /**
+     * Get the nb dsn evt fin contrat.
+     *
+     * @return int|null Returns the nb dsn evt fin contrat.
+     */
+    public function getNbDsnEvtFinContrat(): ?int {
+        return $this->nbDsnEvtFinContrat;
+    }
+
+    /**
+     * Get the nb dsn evt fin contrat a deduire.
+     *
+     * @return int|null Returns the nb dsn evt fin contrat a deduire.
+     */
+    public function getNbDsnEvtFinContratADeduire(): ?int {
+        return $this->nbDsnEvtFinContratADeduire;
+    }
+
+    /**
+     * Get the nb dsn evt fin contrat fact.
+     *
+     * @return int|null Returns the nb dsn evt fin contrat fact.
+     */
+    public function getNbDsnEvtFinContratFact(): ?int {
+        return $this->nbDsnEvtFinContratFact;
+    }
+
+    /**
+     * Get the nb dsn mensuelle.
+     *
+     * @return int|null Returns the nb dsn mensuelle.
+     */
+    public function getNbDsnMensuelle(): ?int {
+        return $this->nbDsnMensuelle;
+    }
+
+    /**
+     * Get the nb dsn mensuelle a deduire.
+     *
+     * @return int|null Returns the nb dsn mensuelle a deduire.
+     */
+    public function getNbDsnMensuelleADeduire(): ?int {
+        return $this->nbDsnMensuelleADeduire;
+    }
+
+    /**
+     * Get the nb dsn mensuelle fact.
+     *
+     * @return int|null Returns the nb dsn mensuelle fact.
+     */
+    public function getNbDsnMensuelleFact(): ?int {
+        return $this->nbDsnMensuelleFact;
+    }
+
+    /**
+     * Get the nb due.
+     *
+     * @return int|null Returns the nb due.
+     */
+    public function getNbDue(): ?int {
+        return $this->nbDue;
+    }
+
+    /**
+     * Get the nb due fact.
+     *
+     * @return int|null Returns the nb due fact.
+     */
+    public function getNbDueFact(): ?int {
+        return $this->nbDueFact;
+    }
+
+    /**
+     * Get the nb duea deduire.
+     *
+     * @return int|null Returns the nb duea deduire.
+     */
+    public function getNbDueaDeduire(): ?int {
+        return $this->nbDueaDeduire;
     }
 
     /**
@@ -707,7 +706,7 @@ class Compteur {
      *
      * @return int|null Returns the nb solde tout compte.
      */
-    public function getNbSoldeToutCompte(): ?int{
+    public function getNbSoldeToutCompte(): ?int {
         return $this->nbSoldeToutCompte;
     }
 
@@ -716,7 +715,7 @@ class Compteur {
      *
      * @return int|null Returns the nb solde tout compte a deduire.
      */
-    public function getNbSoldeToutCompteADeduire(): ?int{
+    public function getNbSoldeToutCompteADeduire(): ?int {
         return $this->nbSoldeToutCompteADeduire;
     }
 
@@ -725,7 +724,7 @@ class Compteur {
      *
      * @return int|null Returns the nb solde tout compte fact.
      */
-    public function getNbSoldeToutCompteFact(): ?int{
+    public function getNbSoldeToutCompteFact(): ?int {
         return $this->nbSoldeToutCompteFact;
     }
 
@@ -734,7 +733,7 @@ class Compteur {
      *
      * @return int|null Returns the nb tds realisees.
      */
-    public function getNbTdsRealisees(): ?int{
+    public function getNbTdsRealisees(): ?int {
         return $this->nbTdsRealisees;
     }
 
@@ -743,7 +742,7 @@ class Compteur {
      *
      * @return int|null Returns the nb tds realisees a deduire.
      */
-    public function getNbTdsRealiseesADeduire(): ?int{
+    public function getNbTdsRealiseesADeduire(): ?int {
         return $this->nbTdsRealiseesADeduire;
     }
 
@@ -752,7 +751,7 @@ class Compteur {
      *
      * @return int|null Returns the nb tds realisees fact.
      */
-    public function getNbTdsRealiseesFact(): ?int{
+    public function getNbTdsRealiseesFact(): ?int {
         return $this->nbTdsRealiseesFact;
     }
 
@@ -761,7 +760,7 @@ class Compteur {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -832,17 +831,6 @@ class Compteur {
     }
 
     /**
-     * Set the nb attes ijss ata deduire.
-     *
-     * @param int|null $nbAttesIjssAtaDeduire The nb attes ijss ata deduire.
-     * @return Compteur Returns this Compteur.
-     */
-    public function setNbAttesIjssAtaDeduire(?int $nbAttesIjssAtaDeduire): Compteur {
-        $this->nbAttesIjssAtaDeduire = $nbAttesIjssAtaDeduire;
-        return $this;
-    }
-
-    /**
      * Set the nb attes ijss at fact.
      *
      * @param int|null $nbAttesIjssAtFact The nb attes ijss at fact.
@@ -850,6 +838,17 @@ class Compteur {
      */
     public function setNbAttesIjssAtFact(?int $nbAttesIjssAtFact): Compteur {
         $this->nbAttesIjssAtFact = $nbAttesIjssAtFact;
+        return $this;
+    }
+
+    /**
+     * Set the nb attes ijss ata deduire.
+     *
+     * @param int|null $nbAttesIjssAtaDeduire The nb attes ijss ata deduire.
+     * @return Compteur Returns this Compteur.
+     */
+    public function setNbAttesIjssAtaDeduire(?int $nbAttesIjssAtaDeduire): Compteur {
+        $this->nbAttesIjssAtaDeduire = $nbAttesIjssAtaDeduire;
         return $this;
     }
 
@@ -1030,6 +1029,39 @@ class Compteur {
     }
 
     /**
+     * Set the nb disquettes virements.
+     *
+     * @param int|null $nbDisquettesVirements The nb disquettes virements.
+     * @return Compteur Returns this Compteur.
+     */
+    public function setNbDisquettesVirements(?int $nbDisquettesVirements): Compteur {
+        $this->nbDisquettesVirements = $nbDisquettesVirements;
+        return $this;
+    }
+
+    /**
+     * Set the nb disquettes virements a deduire.
+     *
+     * @param int|null $nbDisquettesVirementsADeduire The nb disquettes virements a deduire.
+     * @return Compteur Returns this Compteur.
+     */
+    public function setNbDisquettesVirementsADeduire(?int $nbDisquettesVirementsADeduire): Compteur {
+        $this->nbDisquettesVirementsADeduire = $nbDisquettesVirementsADeduire;
+        return $this;
+    }
+
+    /**
+     * Set the nb disquettes virements fact.
+     *
+     * @param int|null $nbDisquettesVirementsFact The nb disquettes virements fact.
+     * @return Compteur Returns this Compteur.
+     */
+    public function setNbDisquettesVirementsFact(?int $nbDisquettesVirementsFact): Compteur {
+        $this->nbDisquettesVirementsFact = $nbDisquettesVirementsFact;
+        return $this;
+    }
+
+    /**
      * Set the nb dsn evt arret.
      *
      * @param int|null $nbDsnEvtArret The nb dsn evt arret.
@@ -1140,17 +1172,6 @@ class Compteur {
     }
 
     /**
-     * Set the nb duea deduire.
-     *
-     * @param int|null $nbDueaDeduire The nb duea deduire.
-     * @return Compteur Returns this Compteur.
-     */
-    public function setNbDueaDeduire(?int $nbDueaDeduire): Compteur {
-        $this->nbDueaDeduire = $nbDueaDeduire;
-        return $this;
-    }
-
-    /**
      * Set the nb due fact.
      *
      * @param int|null $nbDueFact The nb due fact.
@@ -1162,35 +1183,13 @@ class Compteur {
     }
 
     /**
-     * Set the nb disquettes virements.
+     * Set the nb duea deduire.
      *
-     * @param int|null $nbDisquettesVirements The nb disquettes virements.
+     * @param int|null $nbDueaDeduire The nb duea deduire.
      * @return Compteur Returns this Compteur.
      */
-    public function setNbDisquettesVirements(?int $nbDisquettesVirements): Compteur {
-        $this->nbDisquettesVirements = $nbDisquettesVirements;
-        return $this;
-    }
-
-    /**
-     * Set the nb disquettes virements a deduire.
-     *
-     * @param int|null $nbDisquettesVirementsADeduire The nb disquettes virements a deduire.
-     * @return Compteur Returns this Compteur.
-     */
-    public function setNbDisquettesVirementsADeduire(?int $nbDisquettesVirementsADeduire): Compteur {
-        $this->nbDisquettesVirementsADeduire = $nbDisquettesVirementsADeduire;
-        return $this;
-    }
-
-    /**
-     * Set the nb disquettes virements fact.
-     *
-     * @param int|null $nbDisquettesVirementsFact The nb disquettes virements fact.
-     * @return Compteur Returns this Compteur.
-     */
-    public function setNbDisquettesVirementsFact(?int $nbDisquettesVirementsFact): Compteur {
-        $this->nbDisquettesVirementsFact = $nbDisquettesVirementsFact;
+    public function setNbDueaDeduire(?int $nbDueaDeduire): Compteur {
+        $this->nbDueaDeduire = $nbDueaDeduire;
         return $this;
     }
 

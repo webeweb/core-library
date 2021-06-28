@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Model;
 
-use WBW\Library\Core\Model\Attribute\FloatXTrait;
-use WBW\Library\Core\Model\Attribute\FloatYTrait;
+use WBW\Library\Traits\Floats\FloatXTrait;
+use WBW\Library\Traits\Floats\FloatYTrait;
 
 /**
  * Point trait.

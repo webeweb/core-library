@@ -40,7 +40,6 @@ class Langues {
      */
     private $numeroCompte;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class Langues {
      *
      * @return string|null Returns the code langue.
      */
-    public function getCodeLangue(): ?string{
+    public function getCodeLangue(): ?string {
         return $this->codeLangue;
     }
 
@@ -62,7 +61,7 @@ class Langues {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -71,7 +70,7 @@ class Langues {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 

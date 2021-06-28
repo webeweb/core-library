@@ -154,7 +154,6 @@ class ChantiersReclamations {
      */
     private $typeReclam;
 
-
     /**
      * Constructor.
      */
@@ -167,7 +166,7 @@ class ChantiersReclamations {
      *
      * @return bool|null Returns the alerte.
      */
-    public function getAlerte(): ?bool{
+    public function getAlerte(): ?bool {
         return $this->alerte;
     }
 
@@ -176,7 +175,7 @@ class ChantiersReclamations {
      *
      * @return bool|null Returns the archivee.
      */
-    public function getArchivee(): ?bool{
+    public function getArchivee(): ?bool {
         return $this->archivee;
     }
 
@@ -185,7 +184,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -194,7 +193,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -203,7 +202,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -212,7 +211,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -221,7 +220,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the critere liste1.
      */
-    public function getCritereListe1(): ?string{
+    public function getCritereListe1(): ?string {
         return $this->critereListe1;
     }
 
@@ -230,7 +229,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the critere liste2.
      */
-    public function getCritereListe2(): ?string{
+    public function getCritereListe2(): ?string {
         return $this->critereListe2;
     }
 
@@ -239,7 +238,7 @@ class ChantiersReclamations {
      *
      * @return DateTime|null Returns the date debut doc.
      */
-    public function getDateDebutDoc(): ?DateTime{
+    public function getDateDebutDoc(): ?DateTime {
         return $this->dateDebutDoc;
     }
 
@@ -248,7 +247,7 @@ class ChantiersReclamations {
      *
      * @return DateTime|null Returns the date fin doc.
      */
-    public function getDateFinDoc(): ?DateTime{
+    public function getDateFinDoc(): ?DateTime {
         return $this->dateFinDoc;
     }
 
@@ -257,7 +256,7 @@ class ChantiersReclamations {
      *
      * @return DateTime|null Returns the date reclam.
      */
-    public function getDateReclam(): ?DateTime{
+    public function getDateReclam(): ?DateTime {
         return $this->dateReclam;
     }
 
@@ -266,7 +265,7 @@ class ChantiersReclamations {
      *
      * @return DateTime|null Returns the date traitement.
      */
-    public function getDateTraitement(): ?DateTime{
+    public function getDateTraitement(): ?DateTime {
         return $this->dateTraitement;
     }
 
@@ -275,7 +274,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the niveau.
      */
-    public function getNiveau(): ?string{
+    public function getNiveau(): ?string {
         return $this->niveau;
     }
 
@@ -284,7 +283,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the niveau reclam.
      */
-    public function getNiveauReclam(): ?string{
+    public function getNiveauReclam(): ?string {
         return $this->niveauReclam;
     }
 
@@ -293,7 +292,7 @@ class ChantiersReclamations {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -302,7 +301,7 @@ class ChantiersReclamations {
      *
      * @return int|null Returns the numero reclam.
      */
-    public function getNumeroReclam(): ?int{
+    public function getNumeroReclam(): ?int {
         return $this->numeroReclam;
     }
 
@@ -311,7 +310,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the reclamation.
      */
-    public function getReclamation(): ?string{
+    public function getReclamation(): ?string {
         return $this->reclamation;
     }
 
@@ -320,7 +319,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the resultat.
      */
-    public function getResultat(): ?string{
+    public function getResultat(): ?string {
         return $this->resultat;
     }
 
@@ -329,7 +328,7 @@ class ChantiersReclamations {
      *
      * @return string|null Returns the type reclam.
      */
-    public function getTypeReclam(): ?string{
+    public function getTypeReclam(): ?string {
         return $this->typeReclam;
     }
 

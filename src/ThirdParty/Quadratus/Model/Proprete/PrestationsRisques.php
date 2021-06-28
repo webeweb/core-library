@@ -40,7 +40,6 @@ class PrestationsRisques {
      */
     private $tauxExposition;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class PrestationsRisques {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -62,7 +61,7 @@ class PrestationsRisques {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -71,7 +70,7 @@ class PrestationsRisques {
      *
      * @return float|null Returns the taux exposition.
      */
-    public function getTauxExposition(): ?float{
+    public function getTauxExposition(): ?float {
         return $this->tauxExposition;
     }
 

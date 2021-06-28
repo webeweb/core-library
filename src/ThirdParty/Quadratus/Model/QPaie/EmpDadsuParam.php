@@ -141,13 +141,6 @@ class EmpDadsuParam {
     private $autresSommesExoMnt4;
 
     /**
-     * Btq lieu trav.
-     *
-     * @var string|null
-     */
-    private $btqLieuTrav;
-
-    /**
      * Base exo brut1.
      *
      * @var float|null
@@ -188,6 +181,13 @@ class EmpDadsuParam {
      * @var float|null
      */
     private $baseExoPlaf3;
+
+    /**
+     * Btq lieu trav.
+     *
+     * @var string|null
+     */
+    private $btqLieuTrav;
 
     /**
      * Bureau distributeur lieu trav.
@@ -407,13 +407,6 @@ class EmpDadsuParam {
     private $codeRegime3;
 
     /**
-     * Code regime btp.
-     *
-     * @var string|null
-     */
-    private $codeRegimeBtp;
-
-    /**
      * Code regime base obl.
      *
      * @var string|null
@@ -447,6 +440,13 @@ class EmpDadsuParam {
      * @var string|null
      */
     private $codeRegimeBaseOblVieilSal;
+
+    /**
+     * Code regime btp.
+     *
+     * @var string|null
+     */
+    private $codeRegimeBtp;
 
     /**
      * Code statut categ.
@@ -687,18 +687,18 @@ class EmpDadsuParam {
     private $finPeriodeDecl;
 
     /**
-     * Gpec mnt exo csgcrds.
-     *
-     * @var float|null
-     */
-    private $gpecMntExoCsgcrds;
-
-    /**
      * Gpec mnt exo cot secu.
      *
      * @var float|null
      */
     private $gpecMntExoCotSecu;
+
+    /**
+     * Gpec mnt exo csgcrds.
+     *
+     * @var float|null
+     */
+    private $gpecMntExoCsgcrds;
 
     /**
      * Indemn cp plaf.
@@ -952,7 +952,6 @@ class EmpDadsuParam {
      */
     private $typeAffilBtp;
 
-
     /**
      * Constructor.
      */
@@ -965,7 +964,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the actions gratuites nbre.
      */
-    public function getActionsGratuitesNbre(): ?float{
+    public function getActionsGratuitesNbre(): ?float {
         return $this->actionsGratuitesNbre;
     }
 
@@ -974,7 +973,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the actions gratuites valeur u.
      */
-    public function getActionsGratuitesValeurU(): ?float{
+    public function getActionsGratuitesValeurU(): ?float {
         return $this->actionsGratuitesValeurU;
     }
 
@@ -983,7 +982,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the anciennete.
      */
-    public function getAnciennete(): ?float{
+    public function getAnciennete(): ?float {
         return $this->anciennete;
     }
 
@@ -992,7 +991,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the anciennete btp.
      */
-    public function getAncienneteBtp(): ?float{
+    public function getAncienneteBtp(): ?float {
         return $this->ancienneteBtp;
     }
 
@@ -1001,7 +1000,7 @@ class EmpDadsuParam {
      *
      * @return int|null Returns the annee prepa.
      */
-    public function getAnneePrepa(): ?int{
+    public function getAnneePrepa(): ?int {
         return $this->anneePrepa;
     }
 
@@ -1010,7 +1009,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the at bureau.
      */
-    public function getAtBureau(): ?string{
+    public function getAtBureau(): ?string {
         return $this->atBureau;
     }
 
@@ -1019,7 +1018,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the at etab.
      */
-    public function getAtEtab(): ?string{
+    public function getAtEtab(): ?string {
         return $this->atEtab;
     }
 
@@ -1028,7 +1027,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the at risque.
      */
-    public function getAtRisque(): ?string{
+    public function getAtRisque(): ?string {
         return $this->atRisque;
     }
 
@@ -1037,7 +1036,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the at taux.
      */
-    public function getAtTaux(): ?float{
+    public function getAtTaux(): ?float {
         return $this->atTaux;
     }
 
@@ -1046,7 +1045,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the autres sommes exo code1.
      */
-    public function getAutresSommesExoCode1(): ?string{
+    public function getAutresSommesExoCode1(): ?string {
         return $this->autresSommesExoCode1;
     }
 
@@ -1055,7 +1054,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the autres sommes exo code2.
      */
-    public function getAutresSommesExoCode2(): ?string{
+    public function getAutresSommesExoCode2(): ?string {
         return $this->autresSommesExoCode2;
     }
 
@@ -1064,7 +1063,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the autres sommes exo code3.
      */
-    public function getAutresSommesExoCode3(): ?string{
+    public function getAutresSommesExoCode3(): ?string {
         return $this->autresSommesExoCode3;
     }
 
@@ -1073,7 +1072,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the autres sommes exo code4.
      */
-    public function getAutresSommesExoCode4(): ?string{
+    public function getAutresSommesExoCode4(): ?string {
         return $this->autresSommesExoCode4;
     }
 
@@ -1082,7 +1081,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the autres sommes exo mnt1.
      */
-    public function getAutresSommesExoMnt1(): ?float{
+    public function getAutresSommesExoMnt1(): ?float {
         return $this->autresSommesExoMnt1;
     }
 
@@ -1091,7 +1090,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the autres sommes exo mnt2.
      */
-    public function getAutresSommesExoMnt2(): ?float{
+    public function getAutresSommesExoMnt2(): ?float {
         return $this->autresSommesExoMnt2;
     }
 
@@ -1100,7 +1099,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the autres sommes exo mnt3.
      */
-    public function getAutresSommesExoMnt3(): ?float{
+    public function getAutresSommesExoMnt3(): ?float {
         return $this->autresSommesExoMnt3;
     }
 
@@ -1109,17 +1108,8 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the autres sommes exo mnt4.
      */
-    public function getAutresSommesExoMnt4(): ?float{
+    public function getAutresSommesExoMnt4(): ?float {
         return $this->autresSommesExoMnt4;
-    }
-
-    /**
-     * Get the btq lieu trav.
-     *
-     * @return string|null Returns the btq lieu trav.
-     */
-    public function getBtqLieuTrav(): ?string{
-        return $this->btqLieuTrav;
     }
 
     /**
@@ -1127,7 +1117,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the base exo brut1.
      */
-    public function getBaseExoBrut1(): ?float{
+    public function getBaseExoBrut1(): ?float {
         return $this->baseExoBrut1;
     }
 
@@ -1136,7 +1126,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the base exo brut2.
      */
-    public function getBaseExoBrut2(): ?float{
+    public function getBaseExoBrut2(): ?float {
         return $this->baseExoBrut2;
     }
 
@@ -1145,7 +1135,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the base exo brut3.
      */
-    public function getBaseExoBrut3(): ?float{
+    public function getBaseExoBrut3(): ?float {
         return $this->baseExoBrut3;
     }
 
@@ -1154,7 +1144,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the base exo plaf1.
      */
-    public function getBaseExoPlaf1(): ?float{
+    public function getBaseExoPlaf1(): ?float {
         return $this->baseExoPlaf1;
     }
 
@@ -1163,7 +1153,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the base exo plaf2.
      */
-    public function getBaseExoPlaf2(): ?float{
+    public function getBaseExoPlaf2(): ?float {
         return $this->baseExoPlaf2;
     }
 
@@ -1172,8 +1162,17 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the base exo plaf3.
      */
-    public function getBaseExoPlaf3(): ?float{
+    public function getBaseExoPlaf3(): ?float {
         return $this->baseExoPlaf3;
+    }
+
+    /**
+     * Get the btq lieu trav.
+     *
+     * @return string|null Returns the btq lieu trav.
+     */
+    public function getBtqLieuTrav(): ?string {
+        return $this->btqLieuTrav;
     }
 
     /**
@@ -1181,7 +1180,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the bureau distributeur lieu trav.
      */
-    public function getBureauDistributeurLieuTrav(): ?string{
+    public function getBureauDistributeurLieuTrav(): ?string {
         return $this->bureauDistributeurLieuTrav;
     }
 
@@ -1190,7 +1189,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the categorie btp.
      */
-    public function getCategorieBtp(): ?string{
+    public function getCategorieBtp(): ?string {
         return $this->categorieBtp;
     }
 
@@ -1199,7 +1198,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code caract.
      */
-    public function getCodeCaract(): ?string{
+    public function getCodeCaract(): ?string {
         return $this->codeCaract;
     }
 
@@ -1208,7 +1207,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code classe cnbf.
      */
-    public function getCodeClasseCnbf(): ?string{
+    public function getCodeClasseCnbf(): ?string {
         return $this->codeClasseCnbf;
     }
 
@@ -1217,7 +1216,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code contrat trav.
      */
-    public function getCodeContratTrav(): ?string{
+    public function getCodeContratTrav(): ?string {
         return $this->codeContratTrav;
     }
 
@@ -1226,7 +1225,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code convention col.
      */
-    public function getCodeConventionCol(): ?string{
+    public function getCodeConventionCol(): ?string {
         return $this->codeConventionCol;
     }
 
@@ -1235,7 +1234,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code decalage paie.
      */
-    public function getCodeDecalagePaie(): ?string{
+    public function getCodeDecalagePaie(): ?string {
         return $this->codeDecalagePaie;
     }
 
@@ -1244,7 +1243,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code deleg gest risque maladie.
      */
-    public function getCodeDelegGestRisqueMaladie(): ?string{
+    public function getCodeDelegGestRisqueMaladie(): ?string {
         return $this->codeDelegGestRisqueMaladie;
     }
 
@@ -1253,7 +1252,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code droit contrat.
      */
-    public function getCodeDroitContrat(): ?string{
+    public function getCodeDroitContrat(): ?string {
         return $this->codeDroitContrat;
     }
 
@@ -1262,7 +1261,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code empl mult.
      */
-    public function getCodeEmplMult(): ?string{
+    public function getCodeEmplMult(): ?string {
         return $this->codeEmplMult;
     }
 
@@ -1271,7 +1270,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code emplois mult.
      */
-    public function getCodeEmploisMult(): ?string{
+    public function getCodeEmploisMult(): ?string {
         return $this->codeEmploisMult;
     }
 
@@ -1280,7 +1279,7 @@ class EmpDadsuParam {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -1289,7 +1288,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code etat contrat prud.
      */
-    public function getCodeEtatContratPrud(): ?string{
+    public function getCodeEtatContratPrud(): ?string {
         return $this->codeEtatContratPrud;
     }
 
@@ -1298,7 +1297,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code extension alsace moselle.
      */
-    public function getCodeExtensionAlsaceMoselle(): ?string{
+    public function getCodeExtensionAlsaceMoselle(): ?string {
         return $this->codeExtensionAlsaceMoselle;
     }
 
@@ -1307,7 +1306,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code insee lieu trav.
      */
-    public function getCodeInseeLieuTrav(): ?string{
+    public function getCodeInseeLieuTrav(): ?string {
         return $this->codeInseeLieuTrav;
     }
 
@@ -1316,7 +1315,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif deb per.
      */
-    public function getCodeMotifDebPer(): ?string{
+    public function getCodeMotifDebPer(): ?string {
         return $this->codeMotifDebPer;
     }
 
@@ -1325,7 +1324,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif deb per2.
      */
-    public function getCodeMotifDebPer2(): ?string{
+    public function getCodeMotifDebPer2(): ?string {
         return $this->codeMotifDebPer2;
     }
 
@@ -1334,7 +1333,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif deb per3.
      */
-    public function getCodeMotifDebPer3(): ?string{
+    public function getCodeMotifDebPer3(): ?string {
         return $this->codeMotifDebPer3;
     }
 
@@ -1343,7 +1342,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif deb per4.
      */
-    public function getCodeMotifDebPer4(): ?string{
+    public function getCodeMotifDebPer4(): ?string {
         return $this->codeMotifDebPer4;
     }
 
@@ -1352,7 +1351,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif deb per5.
      */
-    public function getCodeMotifDebPer5(): ?string{
+    public function getCodeMotifDebPer5(): ?string {
         return $this->codeMotifDebPer5;
     }
 
@@ -1361,7 +1360,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif fin per.
      */
-    public function getCodeMotifFinPer(): ?string{
+    public function getCodeMotifFinPer(): ?string {
         return $this->codeMotifFinPer;
     }
 
@@ -1370,7 +1369,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif fin per2.
      */
-    public function getCodeMotifFinPer2(): ?string{
+    public function getCodeMotifFinPer2(): ?string {
         return $this->codeMotifFinPer2;
     }
 
@@ -1379,7 +1378,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif fin per3.
      */
-    public function getCodeMotifFinPer3(): ?string{
+    public function getCodeMotifFinPer3(): ?string {
         return $this->codeMotifFinPer3;
     }
 
@@ -1388,7 +1387,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif fin per4.
      */
-    public function getCodeMotifFinPer4(): ?string{
+    public function getCodeMotifFinPer4(): ?string {
         return $this->codeMotifFinPer4;
     }
 
@@ -1397,7 +1396,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code motif fin per5.
      */
-    public function getCodeMotifFinPer5(): ?string{
+    public function getCodeMotifFinPer5(): ?string {
         return $this->codeMotifFinPer5;
     }
 
@@ -1406,7 +1405,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code nature base cotisations.
      */
-    public function getCodeNatureBaseCotisations(): ?string{
+    public function getCodeNatureBaseCotisations(): ?string {
         return $this->codeNatureBaseCotisations;
     }
 
@@ -1415,7 +1414,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code officiel commune lieu trav.
      */
-    public function getCodeOfficielCommuneLieuTrav(): ?string{
+    public function getCodeOfficielCommuneLieuTrav(): ?string {
         return $this->codeOfficielCommuneLieuTrav;
     }
 
@@ -1424,7 +1423,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code postal lieu trav.
      */
-    public function getCodePostalLieuTrav(): ?string{
+    public function getCodePostalLieuTrav(): ?string {
         return $this->codePostalLieuTrav;
     }
 
@@ -1433,7 +1432,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime1.
      */
-    public function getCodeRegime1(): ?string{
+    public function getCodeRegime1(): ?string {
         return $this->codeRegime1;
     }
 
@@ -1442,7 +1441,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime2.
      */
-    public function getCodeRegime2(): ?string{
+    public function getCodeRegime2(): ?string {
         return $this->codeRegime2;
     }
 
@@ -1451,17 +1450,8 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime3.
      */
-    public function getCodeRegime3(): ?string{
+    public function getCodeRegime3(): ?string {
         return $this->codeRegime3;
-    }
-
-    /**
-     * Get the code regime btp.
-     *
-     * @return string|null Returns the code regime btp.
-     */
-    public function getCodeRegimeBtp(): ?string{
-        return $this->codeRegimeBtp;
     }
 
     /**
@@ -1469,7 +1459,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime base obl.
      */
-    public function getCodeRegimeBaseObl(): ?string{
+    public function getCodeRegimeBaseObl(): ?string {
         return $this->codeRegimeBaseObl;
     }
 
@@ -1478,7 +1468,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime base obl at.
      */
-    public function getCodeRegimeBaseOblAt(): ?string{
+    public function getCodeRegimeBaseOblAt(): ?string {
         return $this->codeRegimeBaseOblAt;
     }
 
@@ -1487,7 +1477,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime base obl maladie.
      */
-    public function getCodeRegimeBaseOblMaladie(): ?string{
+    public function getCodeRegimeBaseOblMaladie(): ?string {
         return $this->codeRegimeBaseOblMaladie;
     }
 
@@ -1496,7 +1486,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime base obl vieil pat.
      */
-    public function getCodeRegimeBaseOblVieilPat(): ?string{
+    public function getCodeRegimeBaseOblVieilPat(): ?string {
         return $this->codeRegimeBaseOblVieilPat;
     }
 
@@ -1505,8 +1495,17 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code regime base obl vieil sal.
      */
-    public function getCodeRegimeBaseOblVieilSal(): ?string{
+    public function getCodeRegimeBaseOblVieilSal(): ?string {
         return $this->codeRegimeBaseOblVieilSal;
+    }
+
+    /**
+     * Get the code regime btp.
+     *
+     * @return string|null Returns the code regime btp.
+     */
+    public function getCodeRegimeBtp(): ?string {
+        return $this->codeRegimeBtp;
     }
 
     /**
@@ -1514,7 +1513,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code statut categ.
      */
-    public function getCodeStatutCateg(): ?string{
+    public function getCodeStatutCateg(): ?string {
         return $this->codeStatutCateg;
     }
 
@@ -1523,7 +1522,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code statut categ conv.
      */
-    public function getCodeStatutCategConv(): ?string{
+    public function getCodeStatutCategConv(): ?string {
         return $this->codeStatutCategConv;
     }
 
@@ -1532,7 +1531,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code statut categ irc.
      */
-    public function getCodeStatutCategIrc(): ?string{
+    public function getCodeStatutCategIrc(): ?string {
         return $this->codeStatutCategIrc;
     }
 
@@ -1541,7 +1540,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code statut pro.
      */
-    public function getCodeStatutPro(): ?string{
+    public function getCodeStatutPro(): ?string {
         return $this->codeStatutPro;
     }
 
@@ -1550,7 +1549,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code type exo1.
      */
-    public function getCodeTypeExo1(): ?string{
+    public function getCodeTypeExo1(): ?string {
         return $this->codeTypeExo1;
     }
 
@@ -1559,7 +1558,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code type exo2.
      */
-    public function getCodeTypeExo2(): ?string{
+    public function getCodeTypeExo2(): ?string {
         return $this->codeTypeExo2;
     }
 
@@ -1568,7 +1567,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the code type exo3.
      */
-    public function getCodeTypeExo3(): ?string{
+    public function getCodeTypeExo3(): ?string {
         return $this->codeTypeExo3;
     }
 
@@ -1577,7 +1576,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -1586,7 +1585,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the complement lieu trav.
      */
-    public function getComplementLieuTrav(): ?string{
+    public function getComplementLieuTrav(): ?string {
         return $this->complementLieuTrav;
     }
 
@@ -1595,7 +1594,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the dadsu conjoint salarie.
      */
-    public function getDadsuConjointSalarie(): ?string{
+    public function getDadsuConjointSalarie(): ?string {
         return $this->dadsuConjointSalarie;
     }
 
@@ -1604,7 +1603,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the dadsu nb options.
      */
-    public function getDadsuNbOptions(): ?float{
+    public function getDadsuNbOptions(): ?float {
         return $this->dadsuNbOptions;
     }
 
@@ -1613,7 +1612,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the dadsu prix souscript opt.
      */
-    public function getDadsuPrixSouscriptOpt(): ?float{
+    public function getDadsuPrixSouscriptOpt(): ?float {
         return $this->dadsuPrixSouscriptOpt;
     }
 
@@ -1622,7 +1621,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the dadsu valeur action.
      */
-    public function getDadsuValeurAction(): ?float{
+    public function getDadsuValeurAction(): ?float {
         return $this->dadsuValeurAction;
     }
 
@@ -1631,7 +1630,7 @@ class EmpDadsuParam {
      *
      * @return DateTime|null Returns the date ctrl norme.
      */
-    public function getDateCtrlNorme(): ?DateTime{
+    public function getDateCtrlNorme(): ?DateTime {
         return $this->dateCtrlNorme;
     }
 
@@ -1640,7 +1639,7 @@ class EmpDadsuParam {
      *
      * @return DateTime|null Returns the date ctrl norme btp.
      */
-    public function getDateCtrlNormeBtp(): ?DateTime{
+    public function getDateCtrlNormeBtp(): ?DateTime {
         return $this->dateCtrlNormeBtp;
     }
 
@@ -1649,7 +1648,7 @@ class EmpDadsuParam {
      *
      * @return DateTime|null Returns the date ctrl norme prev.
      */
-    public function getDateCtrlNormePrev(): ?DateTime{
+    public function getDateCtrlNormePrev(): ?DateTime {
         return $this->dateCtrlNormePrev;
     }
 
@@ -1658,7 +1657,7 @@ class EmpDadsuParam {
      *
      * @return DateTime|null Returns the date ctrl norme ret.
      */
-    public function getDateCtrlNormeRet(): ?DateTime{
+    public function getDateCtrlNormeRet(): ?DateTime {
         return $this->dateCtrlNormeRet;
     }
 
@@ -1667,7 +1666,7 @@ class EmpDadsuParam {
      *
      * @return DateTime|null Returns the debut periode decl.
      */
-    public function getDebutPeriodeDecl(): ?DateTime{
+    public function getDebutPeriodeDecl(): ?DateTime {
         return $this->debutPeriodeDecl;
     }
 
@@ -1676,7 +1675,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the echelon.
      */
-    public function getEchelon(): ?string{
+    public function getEchelon(): ?string {
         return $this->echelon;
     }
 
@@ -1685,7 +1684,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the emploi.
      */
-    public function getEmploi(): ?string{
+    public function getEmploi(): ?string {
         return $this->emploi;
     }
 
@@ -1694,7 +1693,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the epargne sal code1.
      */
-    public function getEpargneSalCode1(): ?string{
+    public function getEpargneSalCode1(): ?string {
         return $this->epargneSalCode1;
     }
 
@@ -1703,7 +1702,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the epargne sal code2.
      */
-    public function getEpargneSalCode2(): ?string{
+    public function getEpargneSalCode2(): ?string {
         return $this->epargneSalCode2;
     }
 
@@ -1712,7 +1711,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the epargne sal code3.
      */
-    public function getEpargneSalCode3(): ?string{
+    public function getEpargneSalCode3(): ?string {
         return $this->epargneSalCode3;
     }
 
@@ -1721,7 +1720,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the epargne sal code4.
      */
-    public function getEpargneSalCode4(): ?string{
+    public function getEpargneSalCode4(): ?string {
         return $this->epargneSalCode4;
     }
 
@@ -1730,7 +1729,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the epargne sal mnt1.
      */
-    public function getEpargneSalMnt1(): ?float{
+    public function getEpargneSalMnt1(): ?float {
         return $this->epargneSalMnt1;
     }
 
@@ -1739,7 +1738,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the epargne sal mnt2.
      */
-    public function getEpargneSalMnt2(): ?float{
+    public function getEpargneSalMnt2(): ?float {
         return $this->epargneSalMnt2;
     }
 
@@ -1748,7 +1747,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the epargne sal mnt3.
      */
-    public function getEpargneSalMnt3(): ?float{
+    public function getEpargneSalMnt3(): ?float {
         return $this->epargneSalMnt3;
     }
 
@@ -1757,7 +1756,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the epargne sal mnt4.
      */
-    public function getEpargneSalMnt4(): ?float{
+    public function getEpargneSalMnt4(): ?float {
         return $this->epargneSalMnt4;
     }
 
@@ -1766,7 +1765,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the etat ctrl norme.
      */
-    public function getEtatCtrlNorme(): ?string{
+    public function getEtatCtrlNorme(): ?string {
         return $this->etatCtrlNorme;
     }
 
@@ -1775,7 +1774,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the etat ctrl norme btp.
      */
-    public function getEtatCtrlNormeBtp(): ?string{
+    public function getEtatCtrlNormeBtp(): ?string {
         return $this->etatCtrlNormeBtp;
     }
 
@@ -1784,7 +1783,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the etat ctrl norme prev.
      */
-    public function getEtatCtrlNormePrev(): ?string{
+    public function getEtatCtrlNormePrev(): ?string {
         return $this->etatCtrlNormePrev;
     }
 
@@ -1793,7 +1792,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the etat ctrl norme ret.
      */
-    public function getEtatCtrlNormeRet(): ?string{
+    public function getEtatCtrlNormeRet(): ?string {
         return $this->etatCtrlNormeRet;
     }
 
@@ -1802,7 +1801,7 @@ class EmpDadsuParam {
      *
      * @return bool|null Returns the exo agff.
      */
-    public function getExoAgff(): ?bool{
+    public function getExoAgff(): ?bool {
         return $this->exoAgff;
     }
 
@@ -1811,17 +1810,8 @@ class EmpDadsuParam {
      *
      * @return DateTime|null Returns the fin periode decl.
      */
-    public function getFinPeriodeDecl(): ?DateTime{
+    public function getFinPeriodeDecl(): ?DateTime {
         return $this->finPeriodeDecl;
-    }
-
-    /**
-     * Get the gpec mnt exo csgcrds.
-     *
-     * @return float|null Returns the gpec mnt exo csgcrds.
-     */
-    public function getGpecMntExoCsgcrds(): ?float{
-        return $this->gpecMntExoCsgcrds;
     }
 
     /**
@@ -1829,8 +1819,17 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the gpec mnt exo cot secu.
      */
-    public function getGpecMntExoCotSecu(): ?float{
+    public function getGpecMntExoCotSecu(): ?float {
         return $this->gpecMntExoCotSecu;
+    }
+
+    /**
+     * Get the gpec mnt exo csgcrds.
+     *
+     * @return float|null Returns the gpec mnt exo csgcrds.
+     */
+    public function getGpecMntExoCsgcrds(): ?float {
+        return $this->gpecMntExoCsgcrds;
     }
 
     /**
@@ -1838,7 +1837,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the indemn cp plaf.
      */
-    public function getIndemnCpPlaf(): ?float{
+    public function getIndemnCpPlaf(): ?float {
         return $this->indemnCpPlaf;
     }
 
@@ -1847,7 +1846,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the indemn rupture code1.
      */
-    public function getIndemnRuptureCode1(): ?string{
+    public function getIndemnRuptureCode1(): ?string {
         return $this->indemnRuptureCode1;
     }
 
@@ -1856,7 +1855,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the indemn rupture code2.
      */
-    public function getIndemnRuptureCode2(): ?string{
+    public function getIndemnRuptureCode2(): ?string {
         return $this->indemnRuptureCode2;
     }
 
@@ -1865,7 +1864,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the indemn rupture mnt1.
      */
-    public function getIndemnRuptureMnt1(): ?float{
+    public function getIndemnRuptureMnt1(): ?float {
         return $this->indemnRuptureMnt1;
     }
 
@@ -1874,7 +1873,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the indemn rupture mnt2.
      */
-    public function getIndemnRuptureMnt2(): ?float{
+    public function getIndemnRuptureMnt2(): ?float {
         return $this->indemnRuptureMnt2;
     }
 
@@ -1883,7 +1882,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the indice.
      */
-    public function getIndice(): ?string{
+    public function getIndice(): ?string {
         return $this->indice;
     }
 
@@ -1892,7 +1891,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the nb periodicite ircantec.
      */
-    public function getNbPeriodiciteIrcantec(): ?float{
+    public function getNbPeriodiciteIrcantec(): ?float {
         return $this->nbPeriodiciteIrcantec;
     }
 
@@ -1901,7 +1900,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the nbh etab btp.
      */
-    public function getNbhEtabBtp(): ?float{
+    public function getNbhEtabBtp(): ?float {
         return $this->nbhEtabBtp;
     }
 
@@ -1910,7 +1909,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the nbh sal btp.
      */
-    public function getNbhSalBtp(): ?float{
+    public function getNbhSalBtp(): ?float {
         return $this->nbhSalBtp;
     }
 
@@ -1919,7 +1918,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the nic etab affectation.
      */
-    public function getNicEtabAffectation(): ?string{
+    public function getNicEtabAffectation(): ?string {
         return $this->nicEtabAffectation;
     }
 
@@ -1928,7 +1927,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the niveau.
      */
-    public function getNiveau(): ?string{
+    public function getNiveau(): ?string {
         return $this->niveau;
     }
 
@@ -1937,7 +1936,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the nom ville insee lieu trav.
      */
-    public function getNomVilleInseeLieuTrav(): ?string{
+    public function getNomVilleInseeLieuTrav(): ?string {
         return $this->nomVilleInseeLieuTrav;
     }
 
@@ -1946,7 +1945,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the nom ville lieu trav.
      */
-    public function getNomVilleLieuTrav(): ?string{
+    public function getNomVilleLieuTrav(): ?string {
         return $this->nomVilleLieuTrav;
     }
 
@@ -1955,7 +1954,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the nom voie lieu trav.
      */
-    public function getNomVoieLieuTrav(): ?string{
+    public function getNomVoieLieuTrav(): ?string {
         return $this->nomVoieLieuTrav;
     }
 
@@ -1964,7 +1963,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the num voie lieu trav.
      */
-    public function getNumVoieLieuTrav(): ?string{
+    public function getNumVoieLieuTrav(): ?string {
         return $this->numVoieLieuTrav;
     }
 
@@ -1973,7 +1972,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -1982,7 +1981,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero adhesion btp.
      */
-    public function getNumeroAdhesionBtp(): ?string{
+    public function getNumeroAdhesionBtp(): ?string {
         return $this->numeroAdhesionBtp;
     }
 
@@ -1991,7 +1990,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero affil fnc.
      */
-    public function getNumeroAffilFnc(): ?string{
+    public function getNumeroAffilFnc(): ?string {
         return $this->numeroAffilFnc;
     }
 
@@ -2000,7 +1999,7 @@ class EmpDadsuParam {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -2009,7 +2008,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero rattach1.
      */
-    public function getNumeroRattach1(): ?string{
+    public function getNumeroRattach1(): ?string {
         return $this->numeroRattach1;
     }
 
@@ -2018,7 +2017,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero rattach2.
      */
-    public function getNumeroRattach2(): ?string{
+    public function getNumeroRattach2(): ?string {
         return $this->numeroRattach2;
     }
 
@@ -2027,7 +2026,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero rattach3.
      */
-    public function getNumeroRattach3(): ?string{
+    public function getNumeroRattach3(): ?string {
         return $this->numeroRattach3;
     }
 
@@ -2036,7 +2035,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the numero rattach btp.
      */
-    public function getNumeroRattachBtp(): ?string{
+    public function getNumeroRattachBtp(): ?string {
         return $this->numeroRattachBtp;
     }
 
@@ -2045,7 +2044,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the particip patron avtge code1.
      */
-    public function getParticipPatronAvtgeCode1(): ?string{
+    public function getParticipPatronAvtgeCode1(): ?string {
         return $this->participPatronAvtgeCode1;
     }
 
@@ -2054,7 +2053,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the particip patron avtge code2.
      */
-    public function getParticipPatronAvtgeCode2(): ?string{
+    public function getParticipPatronAvtgeCode2(): ?string {
         return $this->participPatronAvtgeCode2;
     }
 
@@ -2063,7 +2062,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the particip patron avtge mnt1.
      */
-    public function getParticipPatronAvtgeMnt1(): ?float{
+    public function getParticipPatronAvtgeMnt1(): ?float {
         return $this->participPatronAvtgeMnt1;
     }
 
@@ -2072,7 +2071,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the particip patron avtge mnt2.
      */
-    public function getParticipPatronAvtgeMnt2(): ?float{
+    public function getParticipPatronAvtgeMnt2(): ?float {
         return $this->participPatronAvtgeMnt2;
     }
 
@@ -2081,7 +2080,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the periodicite ircantec.
      */
-    public function getPeriodiciteIrcantec(): ?string{
+    public function getPeriodiciteIrcantec(): ?string {
         return $this->periodiciteIrcantec;
     }
 
@@ -2090,7 +2089,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the position.
      */
-    public function getPosition(): ?string{
+    public function getPosition(): ?string {
         return $this->position;
     }
 
@@ -2099,7 +2098,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the pourcent act.
      */
-    public function getPourcentAct(): ?float{
+    public function getPourcentAct(): ?float {
         return $this->pourcentAct;
     }
 
@@ -2108,7 +2107,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the remun medecins.
      */
-    public function getRemunMedecins(): ?float{
+    public function getRemunMedecins(): ?float {
         return $this->remunMedecins;
     }
 
@@ -2117,7 +2116,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the siret lieu trav.
      */
-    public function getSiretLieuTrav(): ?string{
+    public function getSiretLieuTrav(): ?string {
         return $this->siretLieuTrav;
     }
 
@@ -2126,7 +2125,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the statut cotisant btp.
      */
-    public function getStatutCotisantBtp(): ?string{
+    public function getStatutCotisantBtp(): ?string {
         return $this->statutCotisantBtp;
     }
 
@@ -2135,7 +2134,7 @@ class EmpDadsuParam {
      *
      * @return float|null Returns the suppl fam.
      */
-    public function getSupplFam(): ?float{
+    public function getSupplFam(): ?float {
         return $this->supplFam;
     }
 
@@ -2144,7 +2143,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the tds59.
      */
-    public function getTds59(): ?string{
+    public function getTds59(): ?string {
         return $this->tds59;
     }
 
@@ -2153,7 +2152,7 @@ class EmpDadsuParam {
      *
      * @return string|null Returns the type affil btp.
      */
-    public function getTypeAffilBtp(): ?string{
+    public function getTypeAffilBtp(): ?string {
         return $this->typeAffilBtp;
     }
 
@@ -2345,17 +2344,6 @@ class EmpDadsuParam {
     }
 
     /**
-     * Set the btq lieu trav.
-     *
-     * @param string|null $btqLieuTrav The btq lieu trav.
-     * @return EmpDadsuParam Returns this Emp dadsu param.
-     */
-    public function setBtqLieuTrav(?string $btqLieuTrav): EmpDadsuParam {
-        $this->btqLieuTrav = $btqLieuTrav;
-        return $this;
-    }
-
-    /**
      * Set the base exo brut1.
      *
      * @param float|null $baseExoBrut1 The base exo brut1.
@@ -2418,6 +2406,17 @@ class EmpDadsuParam {
      */
     public function setBaseExoPlaf3(?float $baseExoPlaf3): EmpDadsuParam {
         $this->baseExoPlaf3 = $baseExoPlaf3;
+        return $this;
+    }
+
+    /**
+     * Set the btq lieu trav.
+     *
+     * @param string|null $btqLieuTrav The btq lieu trav.
+     * @return EmpDadsuParam Returns this Emp dadsu param.
+     */
+    public function setBtqLieuTrav(?string $btqLieuTrav): EmpDadsuParam {
+        $this->btqLieuTrav = $btqLieuTrav;
         return $this;
     }
 
@@ -2763,17 +2762,6 @@ class EmpDadsuParam {
     }
 
     /**
-     * Set the code regime btp.
-     *
-     * @param string|null $codeRegimeBtp The code regime btp.
-     * @return EmpDadsuParam Returns this Emp dadsu param.
-     */
-    public function setCodeRegimeBtp(?string $codeRegimeBtp): EmpDadsuParam {
-        $this->codeRegimeBtp = $codeRegimeBtp;
-        return $this;
-    }
-
-    /**
      * Set the code regime base obl.
      *
      * @param string|null $codeRegimeBaseObl The code regime base obl.
@@ -2825,6 +2813,17 @@ class EmpDadsuParam {
      */
     public function setCodeRegimeBaseOblVieilSal(?string $codeRegimeBaseOblVieilSal): EmpDadsuParam {
         $this->codeRegimeBaseOblVieilSal = $codeRegimeBaseOblVieilSal;
+        return $this;
+    }
+
+    /**
+     * Set the code regime btp.
+     *
+     * @param string|null $codeRegimeBtp The code regime btp.
+     * @return EmpDadsuParam Returns this Emp dadsu param.
+     */
+    public function setCodeRegimeBtp(?string $codeRegimeBtp): EmpDadsuParam {
+        $this->codeRegimeBtp = $codeRegimeBtp;
         return $this;
     }
 
@@ -3203,17 +3202,6 @@ class EmpDadsuParam {
     }
 
     /**
-     * Set the gpec mnt exo csgcrds.
-     *
-     * @param float|null $gpecMntExoCsgcrds The gpec mnt exo csgcrds.
-     * @return EmpDadsuParam Returns this Emp dadsu param.
-     */
-    public function setGpecMntExoCsgcrds(?float $gpecMntExoCsgcrds): EmpDadsuParam {
-        $this->gpecMntExoCsgcrds = $gpecMntExoCsgcrds;
-        return $this;
-    }
-
-    /**
      * Set the gpec mnt exo cot secu.
      *
      * @param float|null $gpecMntExoCotSecu The gpec mnt exo cot secu.
@@ -3221,6 +3209,17 @@ class EmpDadsuParam {
      */
     public function setGpecMntExoCotSecu(?float $gpecMntExoCotSecu): EmpDadsuParam {
         $this->gpecMntExoCotSecu = $gpecMntExoCotSecu;
+        return $this;
+    }
+
+    /**
+     * Set the gpec mnt exo csgcrds.
+     *
+     * @param float|null $gpecMntExoCsgcrds The gpec mnt exo csgcrds.
+     * @return EmpDadsuParam Returns this Emp dadsu param.
+     */
+    public function setGpecMntExoCsgcrds(?float $gpecMntExoCsgcrds): EmpDadsuParam {
+        $this->gpecMntExoCsgcrds = $gpecMntExoCsgcrds;
         return $this;
     }
 

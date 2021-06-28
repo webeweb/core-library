@@ -33,7 +33,6 @@ class ProgTypeEntetes {
      */
     private $numProgramme;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class ProgTypeEntetes {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -55,7 +54,7 @@ class ProgTypeEntetes {
      *
      * @return int|null Returns the num programme.
      */
-    public function getNumProgramme(): ?int{
+    public function getNumProgramme(): ?int {
         return $this->numProgramme;
     }
 

@@ -82,7 +82,6 @@ class DevisDescriptifLocaux {
      */
     private $uniqIdNoeud;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class DevisDescriptifLocaux {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -104,7 +103,7 @@ class DevisDescriptifLocaux {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -113,7 +112,7 @@ class DevisDescriptifLocaux {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -122,7 +121,7 @@ class DevisDescriptifLocaux {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -131,7 +130,7 @@ class DevisDescriptifLocaux {
      *
      * @return int|null Returns the niveau noeud.
      */
-    public function getNiveauNoeud(): ?int{
+    public function getNiveauNoeud(): ?int {
         return $this->niveauNoeud;
     }
 
@@ -140,7 +139,7 @@ class DevisDescriptifLocaux {
      *
      * @return bool|null Returns the noeud local.
      */
-    public function getNoeudLocal(): ?bool{
+    public function getNoeudLocal(): ?bool {
         return $this->noeudLocal;
     }
 
@@ -149,7 +148,7 @@ class DevisDescriptifLocaux {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -158,7 +157,7 @@ class DevisDescriptifLocaux {
      *
      * @return int|null Returns the numero noeud.
      */
-    public function getNumeroNoeud(): ?int{
+    public function getNumeroNoeud(): ?int {
         return $this->numeroNoeud;
     }
 
@@ -167,7 +166,7 @@ class DevisDescriptifLocaux {
      *
      * @return string|null Returns the uniq id noeud.
      */
-    public function getUniqIdNoeud(): ?string{
+    public function getUniqIdNoeud(): ?string {
         return $this->uniqIdNoeud;
     }
 

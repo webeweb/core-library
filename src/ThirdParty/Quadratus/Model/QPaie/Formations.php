@@ -64,18 +64,18 @@ class Formations {
     private $nbHFormation;
 
     /**
-     * Nbh dif pris hors w.
-     *
-     * @var float|null
-     */
-    private $nbhDifPrisHorsW;
-
-    /**
      * Nbh di f pris w.
      *
      * @var float|null
      */
     private $nbhDiFPrisW;
+
+    /**
+     * Nbh dif pris hors w.
+     *
+     * @var float|null
+     */
+    private $nbhDifPrisHorsW;
 
     /**
      * Numero employe.
@@ -112,7 +112,6 @@ class Formations {
      */
     private $typeFormation;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class Formations {
      *
      * @return bool|null Returns the active.
      */
-    public function getActive(): ?bool{
+    public function getActive(): ?bool {
         return $this->active;
     }
 
@@ -134,7 +133,7 @@ class Formations {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -143,7 +142,7 @@ class Formations {
      *
      * @return string|null Returns the id.
      */
-    public function getId(): ?string{
+    public function getId(): ?string {
         return $this->id;
     }
 
@@ -152,7 +151,7 @@ class Formations {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -161,7 +160,7 @@ class Formations {
      *
      * @return string|null Returns the lieu.
      */
-    public function getLieu(): ?string{
+    public function getLieu(): ?string {
         return $this->lieu;
     }
 
@@ -170,17 +169,8 @@ class Formations {
      *
      * @return float|null Returns the nb h formation.
      */
-    public function getNbHFormation(): ?float{
+    public function getNbHFormation(): ?float {
         return $this->nbHFormation;
-    }
-
-    /**
-     * Get the nbh dif pris hors w.
-     *
-     * @return float|null Returns the nbh dif pris hors w.
-     */
-    public function getNbhDifPrisHorsW(): ?float{
-        return $this->nbhDifPrisHorsW;
     }
 
     /**
@@ -188,8 +178,17 @@ class Formations {
      *
      * @return float|null Returns the nbh di f pris w.
      */
-    public function getNbhDiFPrisW(): ?float{
+    public function getNbhDiFPrisW(): ?float {
         return $this->nbhDiFPrisW;
+    }
+
+    /**
+     * Get the nbh dif pris hors w.
+     *
+     * @return float|null Returns the nbh dif pris hors w.
+     */
+    public function getNbhDifPrisHorsW(): ?float {
+        return $this->nbhDifPrisHorsW;
     }
 
     /**
@@ -197,7 +196,7 @@ class Formations {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -206,7 +205,7 @@ class Formations {
      *
      * @return string|null Returns the organisme.
      */
-    public function getOrganisme(): ?string{
+    public function getOrganisme(): ?string {
         return $this->organisme;
     }
 
@@ -215,7 +214,7 @@ class Formations {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -224,7 +223,7 @@ class Formations {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -233,7 +232,7 @@ class Formations {
      *
      * @return int|null Returns the type formation.
      */
-    public function getTypeFormation(): ?int{
+    public function getTypeFormation(): ?int {
         return $this->typeFormation;
     }
 
@@ -304,17 +303,6 @@ class Formations {
     }
 
     /**
-     * Set the nbh dif pris hors w.
-     *
-     * @param float|null $nbhDifPrisHorsW The nbh dif pris hors w.
-     * @return Formations Returns this Formations.
-     */
-    public function setNbhDifPrisHorsW(?float $nbhDifPrisHorsW): Formations {
-        $this->nbhDifPrisHorsW = $nbhDifPrisHorsW;
-        return $this;
-    }
-
-    /**
      * Set the nbh di f pris w.
      *
      * @param float|null $nbhDiFPrisW The nbh di f pris w.
@@ -322,6 +310,17 @@ class Formations {
      */
     public function setNbhDiFPrisW(?float $nbhDiFPrisW): Formations {
         $this->nbhDiFPrisW = $nbhDiFPrisW;
+        return $this;
+    }
+
+    /**
+     * Set the nbh dif pris hors w.
+     *
+     * @param float|null $nbhDifPrisHorsW The nbh dif pris hors w.
+     * @return Formations Returns this Formations.
+     */
+    public function setNbhDifPrisHorsW(?float $nbhDifPrisHorsW): Formations {
+        $this->nbhDifPrisHorsW = $nbhDifPrisHorsW;
         return $this;
     }
 

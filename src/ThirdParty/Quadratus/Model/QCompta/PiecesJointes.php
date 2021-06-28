@@ -63,7 +63,6 @@ class PiecesJointes {
      */
     private $numPiece;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class PiecesJointes {
      *
      * @return string|null Returns the auteur.
      */
-    public function getAuteur(): ?string{
+    public function getAuteur(): ?string {
         return $this->auteur;
     }
 
@@ -85,7 +84,7 @@ class PiecesJointes {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -94,7 +93,7 @@ class PiecesJointes {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -103,7 +102,7 @@ class PiecesJointes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -112,7 +111,7 @@ class PiecesJointes {
      *
      * @return string|null Returns the nom piece.
      */
-    public function getNomPiece(): ?string{
+    public function getNomPiece(): ?string {
         return $this->nomPiece;
     }
 
@@ -121,7 +120,7 @@ class PiecesJointes {
      *
      * @return int|null Returns the num piece.
      */
-    public function getNumPiece(): ?int{
+    public function getNumPiece(): ?int {
         return $this->numPiece;
     }
 

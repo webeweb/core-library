@@ -117,7 +117,6 @@ class TauxRetraite {
      */
     private $tauxSalTrC;
 
-
     /**
      * Constructor.
      */
@@ -130,7 +129,7 @@ class TauxRetraite {
      *
      * @return bool|null Returns the categ cadre.
      */
-    public function getCategCadre(): ?bool{
+    public function getCategCadre(): ?bool {
         return $this->categCadre;
     }
 
@@ -139,7 +138,7 @@ class TauxRetraite {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -148,7 +147,7 @@ class TauxRetraite {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -157,7 +156,7 @@ class TauxRetraite {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -166,7 +165,7 @@ class TauxRetraite {
      *
      * @return int|null Returns the indice contrat.
      */
-    public function getIndiceContrat(): ?int{
+    public function getIndiceContrat(): ?int {
         return $this->indiceContrat;
     }
 
@@ -175,7 +174,7 @@ class TauxRetraite {
      *
      * @return string|null Returns the libelle bul.
      */
-    public function getLibelleBul(): ?string{
+    public function getLibelleBul(): ?string {
         return $this->libelleBul;
     }
 
@@ -184,7 +183,7 @@ class TauxRetraite {
      *
      * @return string|null Returns the num dossier.
      */
-    public function getNumDossier(): ?string{
+    public function getNumDossier(): ?string {
         return $this->numDossier;
     }
 
@@ -193,7 +192,7 @@ class TauxRetraite {
      *
      * @return string|null Returns the sous dossier.
      */
-    public function getSousDossier(): ?string{
+    public function getSousDossier(): ?string {
         return $this->sousDossier;
     }
 
@@ -202,7 +201,7 @@ class TauxRetraite {
      *
      * @return float|null Returns the taux pat tr a.
      */
-    public function getTauxPatTrA(): ?float{
+    public function getTauxPatTrA(): ?float {
         return $this->tauxPatTrA;
     }
 
@@ -211,7 +210,7 @@ class TauxRetraite {
      *
      * @return float|null Returns the taux pat tr b.
      */
-    public function getTauxPatTrB(): ?float{
+    public function getTauxPatTrB(): ?float {
         return $this->tauxPatTrB;
     }
 
@@ -220,7 +219,7 @@ class TauxRetraite {
      *
      * @return float|null Returns the taux pat tr c.
      */
-    public function getTauxPatTrC(): ?float{
+    public function getTauxPatTrC(): ?float {
         return $this->tauxPatTrC;
     }
 
@@ -229,7 +228,7 @@ class TauxRetraite {
      *
      * @return float|null Returns the taux sal tr a.
      */
-    public function getTauxSalTrA(): ?float{
+    public function getTauxSalTrA(): ?float {
         return $this->tauxSalTrA;
     }
 
@@ -238,7 +237,7 @@ class TauxRetraite {
      *
      * @return float|null Returns the taux sal tr b.
      */
-    public function getTauxSalTrB(): ?float{
+    public function getTauxSalTrB(): ?float {
         return $this->tauxSalTrB;
     }
 
@@ -247,7 +246,7 @@ class TauxRetraite {
      *
      * @return float|null Returns the taux sal tr c.
      */
-    public function getTauxSalTrC(): ?float{
+    public function getTauxSalTrC(): ?float {
         return $this->tauxSalTrC;
     }
 

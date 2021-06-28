@@ -364,7 +364,6 @@ class LettresMissionsEntetes {
      */
     private $typeVolume;
 
-
     /**
      * Constructor.
      */
@@ -377,7 +376,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the ca.
      */
-    public function getCa(): ?float{
+    public function getCa(): ?float {
         return $this->ca;
     }
 
@@ -386,7 +385,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -395,7 +394,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -404,7 +403,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment1.
      */
-    public function getComment1(): ?string{
+    public function getComment1(): ?string {
         return $this->comment1;
     }
 
@@ -413,7 +412,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment2.
      */
-    public function getComment2(): ?string{
+    public function getComment2(): ?string {
         return $this->comment2;
     }
 
@@ -422,7 +421,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment3.
      */
-    public function getComment3(): ?string{
+    public function getComment3(): ?string {
         return $this->comment3;
     }
 
@@ -431,7 +430,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment4.
      */
-    public function getComment4(): ?string{
+    public function getComment4(): ?string {
         return $this->comment4;
     }
 
@@ -440,7 +439,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment5.
      */
-    public function getComment5(): ?string{
+    public function getComment5(): ?string {
         return $this->comment5;
     }
 
@@ -449,7 +448,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment6.
      */
-    public function getComment6(): ?string{
+    public function getComment6(): ?string {
         return $this->comment6;
     }
 
@@ -458,7 +457,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the comment7.
      */
-    public function getComment7(): ?string{
+    public function getComment7(): ?string {
         return $this->comment7;
     }
 
@@ -467,7 +466,7 @@ class LettresMissionsEntetes {
      *
      * @return DateTime|null Returns the date entretien.
      */
-    public function getDateEntretien(): ?DateTime{
+    public function getDateEntretien(): ?DateTime {
         return $this->dateEntretien;
     }
 
@@ -476,7 +475,7 @@ class LettresMissionsEntetes {
      *
      * @return DateTime|null Returns the date signature.
      */
-    public function getDateSignature(): ?DateTime{
+    public function getDateSignature(): ?DateTime {
         return $this->dateSignature;
     }
 
@@ -485,7 +484,7 @@ class LettresMissionsEntetes {
      *
      * @return DateTime|null Returns the debut mission.
      */
-    public function getDebutMission(): ?DateTime{
+    public function getDebutMission(): ?DateTime {
         return $this->debutMission;
     }
 
@@ -494,7 +493,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -503,7 +502,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the exercice courant.
      */
-    public function getExerciceCourant(): ?string{
+    public function getExerciceCourant(): ?string {
         return $this->exerciceCourant;
     }
 
@@ -512,7 +511,7 @@ class LettresMissionsEntetes {
      *
      * @return DateTime|null Returns the fin mission.
      */
-    public function getFinMission(): ?DateTime{
+    public function getFinMission(): ?DateTime {
         return $this->finMission;
     }
 
@@ -521,7 +520,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the hono prev.
      */
-    public function getHonoPrev(): ?float{
+    public function getHonoPrev(): ?float {
         return $this->honoPrev;
     }
 
@@ -530,7 +529,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle1.
      */
-    public function getLibelle1(): ?string{
+    public function getLibelle1(): ?string {
         return $this->libelle1;
     }
 
@@ -539,7 +538,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle2.
      */
-    public function getLibelle2(): ?string{
+    public function getLibelle2(): ?string {
         return $this->libelle2;
     }
 
@@ -548,7 +547,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle3.
      */
-    public function getLibelle3(): ?string{
+    public function getLibelle3(): ?string {
         return $this->libelle3;
     }
 
@@ -557,7 +556,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle4.
      */
-    public function getLibelle4(): ?string{
+    public function getLibelle4(): ?string {
         return $this->libelle4;
     }
 
@@ -566,7 +565,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle5.
      */
-    public function getLibelle5(): ?string{
+    public function getLibelle5(): ?string {
         return $this->libelle5;
     }
 
@@ -575,7 +574,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle6.
      */
-    public function getLibelle6(): ?string{
+    public function getLibelle6(): ?string {
         return $this->libelle6;
     }
 
@@ -584,7 +583,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the libelle7.
      */
-    public function getLibelle7(): ?string{
+    public function getLibelle7(): ?string {
         return $this->libelle7;
     }
 
@@ -593,7 +592,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the nb deplacements.
      */
-    public function getNbDeplacements(): ?string{
+    public function getNbDeplacements(): ?string {
         return $this->nbDeplacements;
     }
 
@@ -602,7 +601,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr actes.
      */
-    public function getNbrActes(): ?float{
+    public function getNbrActes(): ?float {
         return $this->nbrActes;
     }
 
@@ -611,7 +610,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr bulletins.
      */
-    public function getNbrBulletins(): ?float{
+    public function getNbrBulletins(): ?float {
         return $this->nbrBulletins;
     }
 
@@ -620,7 +619,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr ecritures bq.
      */
-    public function getNbrEcrituresBq(): ?float{
+    public function getNbrEcrituresBq(): ?float {
         return $this->nbrEcrituresBq;
     }
 
@@ -629,7 +628,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr ecritures depenses.
      */
-    public function getNbrEcrituresDepenses(): ?float{
+    public function getNbrEcrituresDepenses(): ?float {
         return $this->nbrEcrituresDepenses;
     }
 
@@ -638,7 +637,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr ecritures od.
      */
-    public function getNbrEcrituresOd(): ?float{
+    public function getNbrEcrituresOd(): ?float {
         return $this->nbrEcrituresOd;
     }
 
@@ -647,7 +646,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr ecritures recettes.
      */
-    public function getNbrEcrituresRecettes(): ?float{
+    public function getNbrEcrituresRecettes(): ?float {
         return $this->nbrEcrituresRecettes;
     }
 
@@ -656,7 +655,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the nbr employes.
      */
-    public function getNbrEmployes(): ?float{
+    public function getNbrEmployes(): ?float {
         return $this->nbrEmployes;
     }
 
@@ -665,7 +664,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the numero lettre.
      */
-    public function getNumeroLettre(): ?string{
+    public function getNumeroLettre(): ?string {
         return $this->numeroLettre;
     }
 
@@ -674,7 +673,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the police1.
      */
-    public function getPolice1(): ?string{
+    public function getPolice1(): ?string {
         return $this->police1;
     }
 
@@ -683,7 +682,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the police2.
      */
-    public function getPolice2(): ?string{
+    public function getPolice2(): ?string {
         return $this->police2;
     }
 
@@ -692,7 +691,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the police3.
      */
-    public function getPolice3(): ?string{
+    public function getPolice3(): ?string {
         return $this->police3;
     }
 
@@ -701,7 +700,7 @@ class LettresMissionsEntetes {
      *
      * @return int|null Returns the premier exercice.
      */
-    public function getPremierExercice(): ?int{
+    public function getPremierExercice(): ?int {
         return $this->premierExercice;
     }
 
@@ -710,7 +709,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix1.
      */
-    public function getPrix1(): ?float{
+    public function getPrix1(): ?float {
         return $this->prix1;
     }
 
@@ -719,7 +718,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix2.
      */
-    public function getPrix2(): ?float{
+    public function getPrix2(): ?float {
         return $this->prix2;
     }
 
@@ -728,7 +727,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix3.
      */
-    public function getPrix3(): ?float{
+    public function getPrix3(): ?float {
         return $this->prix3;
     }
 
@@ -737,7 +736,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix4.
      */
-    public function getPrix4(): ?float{
+    public function getPrix4(): ?float {
         return $this->prix4;
     }
 
@@ -746,7 +745,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix5.
      */
-    public function getPrix5(): ?float{
+    public function getPrix5(): ?float {
         return $this->prix5;
     }
 
@@ -755,7 +754,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix6.
      */
-    public function getPrix6(): ?float{
+    public function getPrix6(): ?float {
         return $this->prix6;
     }
 
@@ -764,7 +763,7 @@ class LettresMissionsEntetes {
      *
      * @return float|null Returns the prix7.
      */
-    public function getPrix7(): ?float{
+    public function getPrix7(): ?float {
         return $this->prix7;
     }
 
@@ -773,7 +772,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the type actionnaires associes.
      */
-    public function getTypeActionnairesAssocies(): ?string{
+    public function getTypeActionnairesAssocies(): ?string {
         return $this->typeActionnairesAssocies;
     }
 
@@ -782,7 +781,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the type ca.
      */
-    public function getTypeCa(): ?string{
+    public function getTypeCa(): ?string {
         return $this->typeCa;
     }
 
@@ -791,7 +790,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the type mission.
      */
-    public function getTypeMission(): ?string{
+    public function getTypeMission(): ?string {
         return $this->typeMission;
     }
 
@@ -800,7 +799,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the type systeme info.
      */
-    public function getTypeSystemeInfo(): ?string{
+    public function getTypeSystemeInfo(): ?string {
         return $this->typeSystemeInfo;
     }
 
@@ -809,7 +808,7 @@ class LettresMissionsEntetes {
      *
      * @return string|null Returns the type volume.
      */
-    public function getTypeVolume(): ?string{
+    public function getTypeVolume(): ?string {
         return $this->typeVolume;
     }
 

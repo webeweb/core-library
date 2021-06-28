@@ -84,7 +84,6 @@ class EmpruntsLignes {
      */
     private $tauxLigne;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class EmpruntsLignes {
      *
      * @return DateTime|null Returns the date remboursement.
      */
-    public function getDateRemboursement(): ?DateTime{
+    public function getDateRemboursement(): ?DateTime {
         return $this->dateRemboursement;
     }
 
@@ -106,7 +105,7 @@ class EmpruntsLignes {
      *
      * @return float|null Returns the dont assurance.
      */
-    public function getDontAssurance(): ?float{
+    public function getDontAssurance(): ?float {
         return $this->dontAssurance;
     }
 
@@ -115,7 +114,7 @@ class EmpruntsLignes {
      *
      * @return float|null Returns the dont capital.
      */
-    public function getDontCapital(): ?float{
+    public function getDontCapital(): ?float {
         return $this->dontCapital;
     }
 
@@ -124,7 +123,7 @@ class EmpruntsLignes {
      *
      * @return float|null Returns the dont interet.
      */
-    public function getDontInteret(): ?float{
+    public function getDontInteret(): ?float {
         return $this->dontInteret;
     }
 
@@ -133,7 +132,7 @@ class EmpruntsLignes {
      *
      * @return float|null Returns the montant rembour.
      */
-    public function getMontantRembour(): ?float{
+    public function getMontantRembour(): ?float {
         return $this->montantRembour;
     }
 
@@ -142,7 +141,7 @@ class EmpruntsLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -151,7 +150,7 @@ class EmpruntsLignes {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -160,7 +159,7 @@ class EmpruntsLignes {
      *
      * @return float|null Returns the restant du avant.
      */
-    public function getRestantDuAvant(): ?float{
+    public function getRestantDuAvant(): ?float {
         return $this->restantDuAvant;
     }
 
@@ -169,7 +168,7 @@ class EmpruntsLignes {
      *
      * @return float|null Returns the taux ligne.
      */
-    public function getTauxLigne(): ?float{
+    public function getTauxLigne(): ?float {
         return $this->tauxLigne;
     }
 

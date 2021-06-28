@@ -91,7 +91,6 @@ class HistoTauxRetraiteMetier {
      */
     private $tauxSalarial;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe(): ?DateTime{
+    public function getAPartirDe(): ?DateTime {
         return $this->aPartirDe;
     }
 
@@ -113,7 +112,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return int|null Returns the categ salarie.
      */
-    public function getCategSalarie(): ?int{
+    public function getCategSalarie(): ?int {
         return $this->categSalarie;
     }
 
@@ -122,7 +121,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return string|null Returns the code activite.
      */
-    public function getCodeActivite(): ?string{
+    public function getCodeActivite(): ?string {
         return $this->codeActivite;
     }
 
@@ -131,7 +130,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -140,7 +139,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return string|null Returns the code metier.
      */
-    public function getCodeMetier(): ?string{
+    public function getCodeMetier(): ?string {
         return $this->codeMetier;
     }
 
@@ -149,7 +148,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return bool|null Returns the format non etendu.
      */
-    public function getFormatNonEtendu(): ?bool{
+    public function getFormatNonEtendu(): ?bool {
         return $this->formatNonEtendu;
     }
 
@@ -158,7 +157,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return int|null Returns the indice categ.
      */
-    public function getIndiceCateg(): ?int{
+    public function getIndiceCateg(): ?int {
         return $this->indiceCateg;
     }
 
@@ -167,7 +166,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -176,7 +175,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return float|null Returns the taux patronal.
      */
-    public function getTauxPatronal(): ?float{
+    public function getTauxPatronal(): ?float {
         return $this->tauxPatronal;
     }
 
@@ -185,7 +184,7 @@ class HistoTauxRetraiteMetier {
      *
      * @return float|null Returns the taux salarial.
      */
-    public function getTauxSalarial(): ?float{
+    public function getTauxSalarial(): ?float {
         return $this->tauxSalarial;
     }
 

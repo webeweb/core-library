@@ -112,7 +112,6 @@ class TranchesHSup {
      */
     private $typePaiement;
 
-
     /**
      * Constructor.
      */
@@ -125,7 +124,7 @@ class TranchesHSup {
      *
      * @return bool|null Returns the a comptabiliser rc.
      */
-    public function getAComptabiliserRc(): ?bool{
+    public function getAComptabiliserRc(): ?bool {
         return $this->aComptabiliserRc;
     }
 
@@ -134,7 +133,7 @@ class TranchesHSup {
      *
      * @return bool|null Returns the a comptabiliser rcit.
      */
-    public function getAComptabiliserRcit(): ?bool{
+    public function getAComptabiliserRcit(): ?bool {
         return $this->aComptabiliserRcit;
     }
 
@@ -143,7 +142,7 @@ class TranchesHSup {
      *
      * @return bool|null Returns the appliquer h sup.
      */
-    public function getAppliquerHSup(): ?bool{
+    public function getAppliquerHSup(): ?bool {
         return $this->appliquerHSup;
     }
 
@@ -152,7 +151,7 @@ class TranchesHSup {
      *
      * @return bool|null Returns the appliquer repos remplace.
      */
-    public function getAppliquerReposRemplace(): ?bool{
+    public function getAppliquerReposRemplace(): ?bool {
         return $this->appliquerReposRemplace;
     }
 
@@ -161,7 +160,7 @@ class TranchesHSup {
      *
      * @return string|null Returns the code lib hs.
      */
-    public function getCodeLibHs(): ?string{
+    public function getCodeLibHs(): ?string {
         return $this->codeLibHs;
     }
 
@@ -170,7 +169,7 @@ class TranchesHSup {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -179,7 +178,7 @@ class TranchesHSup {
      *
      * @return bool|null Returns the declenche rc semaine.
      */
-    public function getDeclencheRcSemaine(): ?bool{
+    public function getDeclencheRcSemaine(): ?bool {
         return $this->declencheRcSemaine;
     }
 
@@ -188,7 +187,7 @@ class TranchesHSup {
      *
      * @return float|null Returns the horaire depassement.
      */
-    public function getHoraireDepassement(): ?float{
+    public function getHoraireDepassement(): ?float {
         return $this->horaireDepassement;
     }
 
@@ -197,7 +196,7 @@ class TranchesHSup {
      *
      * @return int|null Returns the numero grille type.
      */
-    public function getNumeroGrilleType(): ?int{
+    public function getNumeroGrilleType(): ?int {
         return $this->numeroGrilleType;
     }
 
@@ -206,7 +205,7 @@ class TranchesHSup {
      *
      * @return float|null Returns the pourcent h sup.
      */
-    public function getPourcentHSup(): ?float{
+    public function getPourcentHSup(): ?float {
         return $this->pourcentHSup;
     }
 
@@ -215,7 +214,7 @@ class TranchesHSup {
      *
      * @return float|null Returns the pourcent rc.
      */
-    public function getPourcentRc(): ?float{
+    public function getPourcentRc(): ?float {
         return $this->pourcentRc;
     }
 
@@ -224,7 +223,7 @@ class TranchesHSup {
      *
      * @return float|null Returns the pourcent repos remplace.
      */
-    public function getPourcentReposRemplace(): ?float{
+    public function getPourcentReposRemplace(): ?float {
         return $this->pourcentReposRemplace;
     }
 
@@ -233,7 +232,7 @@ class TranchesHSup {
      *
      * @return string|null Returns the type paiement.
      */
-    public function getTypePaiement(): ?string{
+    public function getTypePaiement(): ?string {
         return $this->typePaiement;
     }
 

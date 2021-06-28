@@ -140,7 +140,6 @@ class AbsencesEmploye {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the absence modifiee.
      */
-    public function getAbsenceModifiee(): ?string{
+    public function getAbsenceModifiee(): ?string {
         return $this->absenceModifiee;
     }
 
@@ -162,7 +161,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code absence.
      */
-    public function getCodeAbsence(): ?string{
+    public function getCodeAbsence(): ?string {
         return $this->codeAbsence;
     }
 
@@ -171,7 +170,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -180,7 +179,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -189,7 +188,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -198,7 +197,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -207,7 +206,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -216,7 +215,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -225,7 +224,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -234,7 +233,7 @@ class AbsencesEmploye {
      *
      * @return DateTime|null Returns the date debut abs.
      */
-    public function getDateDebutAbs(): ?DateTime{
+    public function getDateDebutAbs(): ?DateTime {
         return $this->dateDebutAbs;
     }
 
@@ -243,7 +242,7 @@ class AbsencesEmploye {
      *
      * @return DateTime|null Returns the date fin abs.
      */
-    public function getDateFinAbs(): ?DateTime{
+    public function getDateFinAbs(): ?DateTime {
         return $this->dateFinAbs;
     }
 
@@ -252,7 +251,7 @@ class AbsencesEmploye {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -261,7 +260,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -270,7 +269,7 @@ class AbsencesEmploye {
      *
      * @return bool|null Returns the from fermeture chantier.
      */
-    public function getFromFermetureChantier(): ?bool{
+    public function getFromFermetureChantier(): ?bool {
         return $this->fromFermetureChantier;
     }
 
@@ -279,7 +278,7 @@ class AbsencesEmploye {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -288,7 +287,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -297,7 +296,7 @@ class AbsencesEmploye {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

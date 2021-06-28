@@ -243,7 +243,6 @@ class Journaux {
      */
     private $typePieceGlobal;
 
-
     /**
      * Constructor.
      */
@@ -256,7 +255,7 @@ class Journaux {
      *
      * @return string|null Returns the bic.
      */
-    public function getBic(): ?string{
+    public function getBic(): ?string {
         return $this->bic;
     }
 
@@ -265,7 +264,7 @@ class Journaux {
      *
      * @return bool|null Returns the centralise gd livre.
      */
-    public function getCentraliseGdLivre(): ?bool{
+    public function getCentraliseGdLivre(): ?bool {
         return $this->centraliseGdLivre;
     }
 
@@ -274,7 +273,7 @@ class Journaux {
      *
      * @return string|null Returns the cle acces.
      */
-    public function getCleAcces(): ?string{
+    public function getCleAcces(): ?string {
         return $this->cleAcces;
     }
 
@@ -283,7 +282,7 @@ class Journaux {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -292,7 +291,7 @@ class Journaux {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -301,7 +300,7 @@ class Journaux {
      *
      * @return string|null Returns the code entree.
      */
-    public function getCodeEntree(): ?string{
+    public function getCodeEntree(): ?string {
         return $this->codeEntree;
     }
 
@@ -310,7 +309,7 @@ class Journaux {
      *
      * @return string|null Returns the compte contrepartie.
      */
-    public function getCompteContrepartie(): ?string{
+    public function getCompteContrepartie(): ?string {
         return $this->compteContrepartie;
     }
 
@@ -319,7 +318,7 @@ class Journaux {
      *
      * @return string|null Returns the compte contrepartie aamm.
      */
-    public function getCompteContrepartieAamm(): ?string{
+    public function getCompteContrepartieAamm(): ?string {
         return $this->compteContrepartieAamm;
     }
 
@@ -328,7 +327,7 @@ class Journaux {
      *
      * @return bool|null Returns the contrepartie.
      */
-    public function getContrepartie(): ?bool{
+    public function getContrepartie(): ?bool {
         return $this->contrepartie;
     }
 
@@ -337,7 +336,7 @@ class Journaux {
      *
      * @return string|null Returns the dom banque.
      */
-    public function getDomBanque(): ?string{
+    public function getDomBanque(): ?string {
         return $this->domBanque;
     }
 
@@ -346,7 +345,7 @@ class Journaux {
      *
      * @return string|null Returns the equilibre auto.
      */
-    public function getEquilibreAuto(): ?string{
+    public function getEquilibreAuto(): ?string {
         return $this->equilibreAuto;
     }
 
@@ -355,7 +354,7 @@ class Journaux {
      *
      * @return bool|null Returns the etebac skip tva.
      */
-    public function getEtebacSkipTva(): ?bool{
+    public function getEtebacSkipTva(): ?bool {
         return $this->etebacSkipTva;
     }
 
@@ -364,7 +363,7 @@ class Journaux {
      *
      * @return bool|null Returns the etebac x fer detailler bq.
      */
-    public function getEtebacXFerDetaillerBq(): ?bool{
+    public function getEtebacXFerDetaillerBq(): ?bool {
         return $this->etebacXFerDetaillerBq;
     }
 
@@ -373,7 +372,7 @@ class Journaux {
      *
      * @return bool|null Returns the etebac x fer do prefix code op.
      */
-    public function getEtebacXFerDoPrefixCodeOp(): ?bool{
+    public function getEtebacXFerDoPrefixCodeOp(): ?bool {
         return $this->etebacXFerDoPrefixCodeOp;
     }
 
@@ -382,7 +381,7 @@ class Journaux {
      *
      * @return string|null Returns the etebac x fer ind libelle.
      */
-    public function getEtebacXFerIndLibelle(): ?string{
+    public function getEtebacXFerIndLibelle(): ?string {
         return $this->etebacXFerIndLibelle;
     }
 
@@ -391,7 +390,7 @@ class Journaux {
      *
      * @return bool|null Returns the etebac x fer lignes comp.
      */
-    public function getEtebacXFerLignesComp(): ?bool{
+    public function getEtebacXFerLignesComp(): ?bool {
         return $this->etebacXFerLignesComp;
     }
 
@@ -400,7 +399,7 @@ class Journaux {
      *
      * @return string|null Returns the famille.
      */
-    public function getFamille(): ?string{
+    public function getFamille(): ?string {
         return $this->famille;
     }
 
@@ -409,7 +408,7 @@ class Journaux {
      *
      * @return bool|null Returns the gest num piece jrn.
      */
-    public function getGestNumPieceJrn(): ?bool{
+    public function getGestNumPieceJrn(): ?bool {
         return $this->gestNumPieceJrn;
     }
 
@@ -418,7 +417,7 @@ class Journaux {
      *
      * @return bool|null Returns the gestion folio.
      */
-    public function getGestionFolio(): ?bool{
+    public function getGestionFolio(): ?bool {
         return $this->gestionFolio;
     }
 
@@ -427,7 +426,7 @@ class Journaux {
      *
      * @return string|null Returns the gestion num piece.
      */
-    public function getGestionNumPiece(): ?string{
+    public function getGestionNumPiece(): ?string {
         return $this->gestionNumPiece;
     }
 
@@ -436,7 +435,7 @@ class Journaux {
      *
      * @return string|null Returns the iban.
      */
-    public function getIban(): ?string{
+    public function getIban(): ?string {
         return $this->iban;
     }
 
@@ -445,7 +444,7 @@ class Journaux {
      *
      * @return string|null Returns the iban id client.
      */
-    public function getIbanIdClient(): ?string{
+    public function getIbanIdClient(): ?string {
         return $this->ibanIdClient;
     }
 
@@ -454,7 +453,7 @@ class Journaux {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -463,7 +462,7 @@ class Journaux {
      *
      * @return bool|null Returns the montant negatif.
      */
-    public function getMontantNegatif(): ?bool{
+    public function getMontantNegatif(): ?bool {
         return $this->montantNegatif;
     }
 
@@ -472,7 +471,7 @@ class Journaux {
      *
      * @return string|null Returns the niveau droit.
      */
-    public function getNiveauDroit(): ?string{
+    public function getNiveauDroit(): ?string {
         return $this->niveauDroit;
     }
 
@@ -481,7 +480,7 @@ class Journaux {
      *
      * @return string|null Returns the num emetteur.
      */
-    public function getNumEmetteur(): ?string{
+    public function getNumEmetteur(): ?string {
         return $this->numEmetteur;
     }
 
@@ -490,7 +489,7 @@ class Journaux {
      *
      * @return int|null Returns the prochain num piece.
      */
-    public function getProchainNumPiece(): ?int{
+    public function getProchainNumPiece(): ?int {
         return $this->prochainNumPiece;
     }
 
@@ -499,7 +498,7 @@ class Journaux {
      *
      * @return string|null Returns the propo libelle.
      */
-    public function getPropoLibelle(): ?string{
+    public function getPropoLibelle(): ?string {
         return $this->propoLibelle;
     }
 
@@ -508,7 +507,7 @@ class Journaux {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 
@@ -517,7 +516,7 @@ class Journaux {
      *
      * @return bool|null Returns the saisie bordereau.
      */
-    public function getSaisieBordereau(): ?bool{
+    public function getSaisieBordereau(): ?bool {
         return $this->saisieBordereau;
     }
 
@@ -526,7 +525,7 @@ class Journaux {
      *
      * @return string|null Returns the type journal.
      */
-    public function getTypeJournal(): ?string{
+    public function getTypeJournal(): ?string {
         return $this->typeJournal;
     }
 
@@ -535,7 +534,7 @@ class Journaux {
      *
      * @return bool|null Returns the type piece global.
      */
-    public function getTypePieceGlobal(): ?bool{
+    public function getTypePieceGlobal(): ?bool {
         return $this->typePieceGlobal;
     }
 

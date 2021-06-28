@@ -35,7 +35,6 @@ class JournauxBloques {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -48,7 +47,7 @@ class JournauxBloques {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -57,7 +56,7 @@ class JournauxBloques {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

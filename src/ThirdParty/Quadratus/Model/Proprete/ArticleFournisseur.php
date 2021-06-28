@@ -259,7 +259,6 @@ class ArticleFournisseur {
      */
     private $refArticleFournisseur;
 
-
     /**
      * Constructor.
      */
@@ -272,7 +271,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the avt der code devise.
      */
-    public function getAvtDerCodeDevise(): ?string{
+    public function getAvtDerCodeDevise(): ?string {
         return $this->avtDerCodeDevise;
     }
 
@@ -281,7 +280,7 @@ class ArticleFournisseur {
      *
      * @return DateTime|null Returns the avt der date achat.
      */
-    public function getAvtDerDateAchat(): ?DateTime{
+    public function getAvtDerDateAchat(): ?DateTime {
         return $this->avtDerDateAchat;
     }
 
@@ -290,7 +289,7 @@ class ArticleFournisseur {
      *
      * @return bool|null Returns the avt der euros.
      */
-    public function getAvtDerEuros(): ?bool{
+    public function getAvtDerEuros(): ?bool {
         return $this->avtDerEuros;
     }
 
@@ -299,7 +298,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the avt der px achat.
      */
-    public function getAvtDerPxAchat(): ?float{
+    public function getAvtDerPxAchat(): ?float {
         return $this->avtDerPxAchat;
     }
 
@@ -308,7 +307,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the avt der qte achat.
      */
-    public function getAvtDerQteAchat(): ?float{
+    public function getAvtDerQteAchat(): ?float {
         return $this->avtDerQteAchat;
     }
 
@@ -317,7 +316,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the avt der remise1.
      */
-    public function getAvtDerRemise1(): ?float{
+    public function getAvtDerRemise1(): ?float {
         return $this->avtDerRemise1;
     }
 
@@ -326,7 +325,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the avt der remise2.
      */
-    public function getAvtDerRemise2(): ?float{
+    public function getAvtDerRemise2(): ?float {
         return $this->avtDerRemise2;
     }
 
@@ -335,7 +334,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the avt der remise3.
      */
-    public function getAvtDerRemise3(): ?float{
+    public function getAvtDerRemise3(): ?float {
         return $this->avtDerRemise3;
     }
 
@@ -344,7 +343,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -353,7 +352,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -362,7 +361,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the commentaires.
      */
-    public function getCommentaires(): ?string{
+    public function getCommentaires(): ?string {
         return $this->commentaires;
     }
 
@@ -371,7 +370,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the conditionnement.
      */
-    public function getConditionnement(): ?string{
+    public function getConditionnement(): ?string {
         return $this->conditionnement;
     }
 
@@ -380,7 +379,7 @@ class ArticleFournisseur {
      *
      * @return int|null Returns the delai le.
      */
-    public function getDelaiLe(): ?int{
+    public function getDelaiLe(): ?int {
         return $this->delaiLe;
     }
 
@@ -389,7 +388,7 @@ class ArticleFournisseur {
      *
      * @return int|null Returns the delai nombre.
      */
-    public function getDelaiNombre(): ?int{
+    public function getDelaiNombre(): ?int {
         return $this->delaiNombre;
     }
 
@@ -398,7 +397,7 @@ class ArticleFournisseur {
      *
      * @return int|null Returns the delai type.
      */
-    public function getDelaiType(): ?int{
+    public function getDelaiType(): ?int {
         return $this->delaiType;
     }
 
@@ -407,7 +406,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the der code devise.
      */
-    public function getDerCodeDevise(): ?string{
+    public function getDerCodeDevise(): ?string {
         return $this->derCodeDevise;
     }
 
@@ -416,7 +415,7 @@ class ArticleFournisseur {
      *
      * @return DateTime|null Returns the der date achat.
      */
-    public function getDerDateAchat(): ?DateTime{
+    public function getDerDateAchat(): ?DateTime {
         return $this->derDateAchat;
     }
 
@@ -425,7 +424,7 @@ class ArticleFournisseur {
      *
      * @return bool|null Returns the der euros.
      */
-    public function getDerEuros(): ?bool{
+    public function getDerEuros(): ?bool {
         return $this->derEuros;
     }
 
@@ -434,7 +433,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the der px achat.
      */
-    public function getDerPxAchat(): ?float{
+    public function getDerPxAchat(): ?float {
         return $this->derPxAchat;
     }
 
@@ -443,7 +442,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the der qte achat.
      */
-    public function getDerQteAchat(): ?float{
+    public function getDerQteAchat(): ?float {
         return $this->derQteAchat;
     }
 
@@ -452,7 +451,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the der remise1.
      */
-    public function getDerRemise1(): ?float{
+    public function getDerRemise1(): ?float {
         return $this->derRemise1;
     }
 
@@ -461,7 +460,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the der remise2.
      */
-    public function getDerRemise2(): ?float{
+    public function getDerRemise2(): ?float {
         return $this->derRemise2;
     }
 
@@ -470,7 +469,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the der remise3.
      */
-    public function getDerRemise3(): ?float{
+    public function getDerRemise3(): ?float {
         return $this->derRemise3;
     }
 
@@ -479,7 +478,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the mini code devise.
      */
-    public function getMiniCodeDevise(): ?string{
+    public function getMiniCodeDevise(): ?string {
         return $this->miniCodeDevise;
     }
 
@@ -488,7 +487,7 @@ class ArticleFournisseur {
      *
      * @return DateTime|null Returns the mini date achat.
      */
-    public function getMiniDateAchat(): ?DateTime{
+    public function getMiniDateAchat(): ?DateTime {
         return $this->miniDateAchat;
     }
 
@@ -497,7 +496,7 @@ class ArticleFournisseur {
      *
      * @return bool|null Returns the mini euros.
      */
-    public function getMiniEuros(): ?bool{
+    public function getMiniEuros(): ?bool {
         return $this->miniEuros;
     }
 
@@ -506,7 +505,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the mini px achat.
      */
-    public function getMiniPxAchat(): ?float{
+    public function getMiniPxAchat(): ?float {
         return $this->miniPxAchat;
     }
 
@@ -515,7 +514,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the mini qte achat.
      */
-    public function getMiniQteAchat(): ?float{
+    public function getMiniQteAchat(): ?float {
         return $this->miniQteAchat;
     }
 
@@ -524,7 +523,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the mini remise1.
      */
-    public function getMiniRemise1(): ?float{
+    public function getMiniRemise1(): ?float {
         return $this->miniRemise1;
     }
 
@@ -533,7 +532,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the mini remise2.
      */
-    public function getMiniRemise2(): ?float{
+    public function getMiniRemise2(): ?float {
         return $this->miniRemise2;
     }
 
@@ -542,7 +541,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the mini remise3.
      */
-    public function getMiniRemise3(): ?float{
+    public function getMiniRemise3(): ?float {
         return $this->miniRemise3;
     }
 
@@ -551,7 +550,7 @@ class ArticleFournisseur {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -560,7 +559,7 @@ class ArticleFournisseur {
      *
      * @return float|null Returns the qte economique.
      */
-    public function getQteEconomique(): ?float{
+    public function getQteEconomique(): ?float {
         return $this->qteEconomique;
     }
 
@@ -569,7 +568,7 @@ class ArticleFournisseur {
      *
      * @return string|null Returns the ref article fournisseur.
      */
-    public function getRefArticleFournisseur(): ?string{
+    public function getRefArticleFournisseur(): ?string {
         return $this->refArticleFournisseur;
     }
 

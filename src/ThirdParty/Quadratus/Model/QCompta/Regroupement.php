@@ -33,7 +33,6 @@ class Regroupement {
      */
     private $intitule;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class Regroupement {
      *
      * @return string|null Returns the classe.
      */
-    public function getClasse(): ?string{
+    public function getClasse(): ?string {
         return $this->classe;
     }
 
@@ -55,7 +54,7 @@ class Regroupement {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 

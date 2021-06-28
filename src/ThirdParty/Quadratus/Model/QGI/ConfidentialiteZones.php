@@ -47,7 +47,6 @@ class ConfidentialiteZones {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class ConfidentialiteZones {
      *
      * @return string|null Returns the champ.
      */
-    public function getChamp(): ?string{
+    public function getChamp(): ?string {
         return $this->champ;
     }
 
@@ -69,7 +68,7 @@ class ConfidentialiteZones {
      *
      * @return string|null Returns the chapitre.
      */
-    public function getChapitre(): ?string{
+    public function getChapitre(): ?string {
         return $this->chapitre;
     }
 
@@ -78,7 +77,7 @@ class ConfidentialiteZones {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -87,7 +86,7 @@ class ConfidentialiteZones {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

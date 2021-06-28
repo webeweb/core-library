@@ -119,7 +119,6 @@ class HistoTransfPaie {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class HistoTransfPaie {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -141,7 +140,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the ecart cumule.
      */
-    public function getEcartCumule(): ?float{
+    public function getEcartCumule(): ?float {
         return $this->ecartCumule;
     }
 
@@ -150,7 +149,7 @@ class HistoTransfPaie {
      *
      * @return bool|null Returns the hcr payees.
      */
-    public function getHcrPayees(): ?bool{
+    public function getHcrPayees(): ?bool {
         return $this->hcrPayees;
     }
 
@@ -159,7 +158,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the hnp compl h.
      */
-    public function getHnpComplH(): ?float{
+    public function getHnpComplH(): ?float {
         return $this->hnpComplH;
     }
 
@@ -168,7 +167,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the hnphc11.
      */
-    public function getHnphc11(): ?float{
+    public function getHnphc11(): ?float {
         return $this->hnphc11;
     }
 
@@ -177,7 +176,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the hnphc25.
      */
-    public function getHnphc25(): ?float{
+    public function getHnphc25(): ?float {
         return $this->hnphc25;
     }
 
@@ -186,7 +185,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the hnphc33.
      */
-    public function getHnphc33(): ?float{
+    public function getHnphc33(): ?float {
         return $this->hnphc33;
     }
 
@@ -195,7 +194,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the nb compl h.
      */
-    public function getNbComplH(): ?float{
+    public function getNbComplH(): ?float {
         return $this->nbComplH;
     }
 
@@ -204,7 +203,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the nb h abs.
      */
-    public function getNbHAbs(): ?float{
+    public function getNbHAbs(): ?float {
         return $this->nbHAbs;
     }
 
@@ -213,7 +212,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the nb h abs jf.
      */
-    public function getNbHAbsJf(): ?float{
+    public function getNbHAbsJf(): ?float {
         return $this->nbHAbsJf;
     }
 
@@ -222,7 +221,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the nb h compl.
      */
-    public function getNbHCompl(): ?float{
+    public function getNbHCompl(): ?float {
         return $this->nbHCompl;
     }
 
@@ -231,7 +230,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the nb h rempl.
      */
-    public function getNbHRempl(): ?float{
+    public function getNbHRempl(): ?float {
         return $this->nbHRempl;
     }
 
@@ -240,7 +239,7 @@ class HistoTransfPaie {
      *
      * @return float|null Returns the nb hprevues.
      */
-    public function getNbHprevues(): ?float{
+    public function getNbHprevues(): ?float {
         return $this->nbHprevues;
     }
 
@@ -249,7 +248,7 @@ class HistoTransfPaie {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

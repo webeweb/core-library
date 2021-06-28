@@ -56,7 +56,6 @@ class PointageSynchroSupprime {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class PointageSynchroSupprime {
      *
      * @return string|null Returns the cle enreg.
      */
-    public function getCleEnreg(): ?string{
+    public function getCleEnreg(): ?string {
         return $this->cleEnreg;
     }
 
@@ -78,7 +77,7 @@ class PointageSynchroSupprime {
      *
      * @return bool|null Returns the cree par gen prev.
      */
-    public function getCreeParGenPrev(): ?bool{
+    public function getCreeParGenPrev(): ?bool {
         return $this->creeParGenPrev;
     }
 
@@ -87,7 +86,7 @@ class PointageSynchroSupprime {
      *
      * @return string|null Returns the nom table.
      */
-    public function getNomTable(): ?string{
+    public function getNomTable(): ?string {
         return $this->nomTable;
     }
 
@@ -96,7 +95,7 @@ class PointageSynchroSupprime {
      *
      * @return DateTime|null Returns the time suppression.
      */
-    public function getTimeSuppression(): ?DateTime{
+    public function getTimeSuppression(): ?DateTime {
         return $this->timeSuppression;
     }
 
@@ -105,7 +104,7 @@ class PointageSynchroSupprime {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

@@ -77,7 +77,6 @@ class RegulTva {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class RegulTva {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -99,7 +98,7 @@ class RegulTva {
      *
      * @return float|null Returns the ht.
      */
-    public function getHt(): ?float{
+    public function getHt(): ?float {
         return $this->ht;
     }
 
@@ -108,7 +107,7 @@ class RegulTva {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -117,7 +116,7 @@ class RegulTva {
      *
      * @return int|null Returns the ligne.
      */
-    public function getLigne(): ?int{
+    public function getLigne(): ?int {
         return $this->ligne;
     }
 
@@ -126,7 +125,7 @@ class RegulTva {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -135,7 +134,7 @@ class RegulTva {
      *
      * @return float|null Returns the ttc.
      */
-    public function getTtc(): ?float{
+    public function getTtc(): ?float {
         return $this->ttc;
     }
 
@@ -144,7 +143,7 @@ class RegulTva {
      *
      * @return float|null Returns the tva.
      */
-    public function getTva(): ?float{
+    public function getTva(): ?float {
         return $this->tva;
     }
 
@@ -153,7 +152,7 @@ class RegulTva {
      *
      * @return int|null Returns the type.
      */
-    public function getType(): ?int{
+    public function getType(): ?int {
         return $this->type;
     }
 

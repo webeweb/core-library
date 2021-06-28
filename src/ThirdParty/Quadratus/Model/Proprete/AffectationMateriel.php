@@ -91,7 +91,6 @@ class AffectationMateriel {
      */
     private $pourcentUtilise;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class AffectationMateriel {
      *
      * @return float|null Returns the budget depense euro.
      */
-    public function getBudgetDepenseEuro(): ?float{
+    public function getBudgetDepenseEuro(): ?float {
         return $this->budgetDepenseEuro;
     }
 
@@ -113,7 +112,7 @@ class AffectationMateriel {
      *
      * @return float|null Returns the budget depense frf.
      */
-    public function getBudgetDepenseFrf(): ?float{
+    public function getBudgetDepenseFrf(): ?float {
         return $this->budgetDepenseFrf;
     }
 
@@ -122,7 +121,7 @@ class AffectationMateriel {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -131,7 +130,7 @@ class AffectationMateriel {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -140,7 +139,7 @@ class AffectationMateriel {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -149,7 +148,7 @@ class AffectationMateriel {
      *
      * @return string|null Returns the code materiel.
      */
-    public function getCodeMateriel(): ?string{
+    public function getCodeMateriel(): ?string {
         return $this->codeMateriel;
     }
 
@@ -158,7 +157,7 @@ class AffectationMateriel {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -167,7 +166,7 @@ class AffectationMateriel {
      *
      * @return DateTime|null Returns the debut affect.
      */
-    public function getDebutAffect(): ?DateTime{
+    public function getDebutAffect(): ?DateTime {
         return $this->debutAffect;
     }
 
@@ -176,7 +175,7 @@ class AffectationMateriel {
      *
      * @return DateTime|null Returns the fin affect.
      */
-    public function getFinAffect(): ?DateTime{
+    public function getFinAffect(): ?DateTime {
         return $this->finAffect;
     }
 
@@ -185,7 +184,7 @@ class AffectationMateriel {
      *
      * @return float|null Returns the pourcent utilise.
      */
-    public function getPourcentUtilise(): ?float{
+    public function getPourcentUtilise(): ?float {
         return $this->pourcentUtilise;
     }
 

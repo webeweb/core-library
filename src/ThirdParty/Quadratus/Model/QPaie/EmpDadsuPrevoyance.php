@@ -77,7 +77,6 @@ class EmpDadsuPrevoyance {
      */
     private $rangNaissance;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class EmpDadsuPrevoyance {
      *
      * @return string|null Returns the code affil secu.
      */
-    public function getCodeAffilSecu(): ?string{
+    public function getCodeAffilSecu(): ?string {
         return $this->codeAffilSecu;
     }
 
@@ -99,7 +98,7 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the date ancien branche.
      */
-    public function getDateAncienBranche(): ?DateTime{
+    public function getDateAncienBranche(): ?DateTime {
         return $this->dateAncienBranche;
     }
 
@@ -108,7 +107,7 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the date ancien college.
      */
-    public function getDateAncienCollege(): ?DateTime{
+    public function getDateAncienCollege(): ?DateTime {
         return $this->dateAncienCollege;
     }
 
@@ -117,7 +116,7 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the date ancien poste.
      */
-    public function getDateAncienPoste(): ?DateTime{
+    public function getDateAncienPoste(): ?DateTime {
         return $this->dateAncienPoste;
     }
 
@@ -126,7 +125,7 @@ class EmpDadsuPrevoyance {
      *
      * @return string|null Returns the nb enfants.
      */
-    public function getNbEnfants(): ?string{
+    public function getNbEnfants(): ?string {
         return $this->nbEnfants;
     }
 
@@ -135,7 +134,7 @@ class EmpDadsuPrevoyance {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -144,7 +143,7 @@ class EmpDadsuPrevoyance {
      *
      * @return DateTime|null Returns the prem date entree.
      */
-    public function getPremDateEntree(): ?DateTime{
+    public function getPremDateEntree(): ?DateTime {
         return $this->premDateEntree;
     }
 
@@ -153,7 +152,7 @@ class EmpDadsuPrevoyance {
      *
      * @return string|null Returns the rang naissance.
      */
-    public function getRangNaissance(): ?string{
+    public function getRangNaissance(): ?string {
         return $this->rangNaissance;
     }
 

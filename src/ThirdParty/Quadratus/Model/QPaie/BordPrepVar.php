@@ -77,7 +77,6 @@ class BordPrepVar {
      */
     private $valeur;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class BordPrepVar {
      *
      * @return string|null Returns the code modele.
      */
-    public function getCodeModele(): ?string{
+    public function getCodeModele(): ?string {
         return $this->codeModele;
     }
 
@@ -99,7 +98,7 @@ class BordPrepVar {
      *
      * @return bool|null Returns the flag force.
      */
-    public function getFlagForce(): ?bool{
+    public function getFlagForce(): ?bool {
         return $this->flagForce;
     }
 
@@ -108,7 +107,7 @@ class BordPrepVar {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -117,7 +116,7 @@ class BordPrepVar {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -126,7 +125,7 @@ class BordPrepVar {
      *
      * @return string|null Returns the num col.
      */
-    public function getNumCol(): ?string{
+    public function getNumCol(): ?string {
         return $this->numCol;
     }
 
@@ -135,7 +134,7 @@ class BordPrepVar {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -144,7 +143,7 @@ class BordPrepVar {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -153,7 +152,7 @@ class BordPrepVar {
      *
      * @return float|null Returns the valeur.
      */
-    public function getValeur(): ?float{
+    public function getValeur(): ?float {
         return $this->valeur;
     }
 

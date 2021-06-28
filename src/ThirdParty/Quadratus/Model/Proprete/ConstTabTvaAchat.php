@@ -54,7 +54,6 @@ class ConstTabTvaAchat {
      */
     private $tauxTva;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ConstTabTvaAchat {
      *
      * @return string|null Returns the code tva article.
      */
-    public function getCodeTvaArticle(): ?string{
+    public function getCodeTvaArticle(): ?string {
         return $this->codeTvaArticle;
     }
 
@@ -76,7 +75,7 @@ class ConstTabTvaAchat {
      *
      * @return string|null Returns the code tva fourn.
      */
-    public function getCodeTvaFourn(): ?string{
+    public function getCodeTvaFourn(): ?string {
         return $this->codeTvaFourn;
     }
 
@@ -85,7 +84,7 @@ class ConstTabTvaAchat {
      *
      * @return string|null Returns the compte tva.
      */
-    public function getCompteTva(): ?string{
+    public function getCompteTva(): ?string {
         return $this->compteTva;
     }
 
@@ -94,7 +93,7 @@ class ConstTabTvaAchat {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -103,7 +102,7 @@ class ConstTabTvaAchat {
      *
      * @return float|null Returns the taux tva.
      */
-    public function getTauxTva(): ?float{
+    public function getTauxTva(): ?float {
         return $this->tauxTva;
     }
 

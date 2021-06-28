@@ -103,7 +103,6 @@ class DevisProgramLignes {
      */
     private $vitesseTheorique;
 
-
     /**
      * Constructor.
      */
@@ -116,7 +115,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -125,7 +124,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -134,7 +133,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -143,7 +142,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the code echelle.
      */
-    public function getCodeEchelle(): ?string{
+    public function getCodeEchelle(): ?string {
         return $this->codeEchelle;
     }
 
@@ -152,7 +151,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the code operation.
      */
-    public function getCodeOperation(): ?string{
+    public function getCodeOperation(): ?string {
         return $this->codeOperation;
     }
 
@@ -161,7 +160,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the code programme.
      */
-    public function getCodeProgramme(): ?string{
+    public function getCodeProgramme(): ?string {
         return $this->codeProgramme;
     }
 
@@ -170,7 +169,7 @@ class DevisProgramLignes {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -179,7 +178,7 @@ class DevisProgramLignes {
      *
      * @return float|null Returns the note resultat.
      */
-    public function getNoteResultat(): ?float{
+    public function getNoteResultat(): ?float {
         return $this->noteResultat;
     }
 
@@ -188,7 +187,7 @@ class DevisProgramLignes {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -197,7 +196,7 @@ class DevisProgramLignes {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -206,7 +205,7 @@ class DevisProgramLignes {
      *
      * @return int|null Returns the num ligne prog.
      */
-    public function getNumLigneProg(): ?int{
+    public function getNumLigneProg(): ?int {
         return $this->numLigneProg;
     }
 
@@ -215,7 +214,7 @@ class DevisProgramLignes {
      *
      * @return float|null Returns the vitesse theorique.
      */
-    public function getVitesseTheorique(): ?float{
+    public function getVitesseTheorique(): ?float {
         return $this->vitesseTheorique;
     }
 

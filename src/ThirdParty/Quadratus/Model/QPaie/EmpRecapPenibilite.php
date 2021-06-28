@@ -98,7 +98,6 @@ class EmpRecapPenibilite {
      */
     private $reguleTraitee;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class EmpRecapPenibilite {
      *
      * @return string|null Returns the code collab.
      */
-    public function getCodeCollab(): ?string{
+    public function getCodeCollab(): ?string {
         return $this->codeCollab;
     }
 
@@ -120,7 +119,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -129,7 +128,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -138,7 +137,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -147,7 +146,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -156,7 +155,7 @@ class EmpRecapPenibilite {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -165,7 +164,7 @@ class EmpRecapPenibilite {
      *
      * @return int|null Returns the id recap.
      */
-    public function getIdRecap(): ?int{
+    public function getIdRecap(): ?int {
         return $this->idRecap;
     }
 
@@ -174,7 +173,7 @@ class EmpRecapPenibilite {
      *
      * @return string|null Returns the indice bul.
      */
-    public function getIndiceBul(): ?string{
+    public function getIndiceBul(): ?string {
         return $this->indiceBul;
     }
 
@@ -183,7 +182,7 @@ class EmpRecapPenibilite {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -192,7 +191,7 @@ class EmpRecapPenibilite {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -201,7 +200,7 @@ class EmpRecapPenibilite {
      *
      * @return DateTime|null Returns the regule traitee.
      */
-    public function getReguleTraitee(): ?DateTime{
+    public function getReguleTraitee(): ?DateTime {
         return $this->reguleTraitee;
     }
 

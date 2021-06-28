@@ -84,7 +84,6 @@ class DadsuPrevoyanceEntete {
      */
     private $telContact;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -106,7 +105,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the code periodicite.
      */
-    public function getCodePeriodicite(): ?string{
+    public function getCodePeriodicite(): ?string {
         return $this->codePeriodicite;
     }
 
@@ -115,7 +114,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -124,7 +123,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return DateTime|null Returns the date emission.
      */
-    public function getDateEmission(): ?DateTime{
+    public function getDateEmission(): ?DateTime {
         return $this->dateEmission;
     }
 
@@ -133,7 +132,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -142,7 +141,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the mail contact.
      */
-    public function getMailContact(): ?string{
+    public function getMailContact(): ?string {
         return $this->mailContact;
     }
 
@@ -151,7 +150,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the mois anniv.
      */
-    public function getMoisAnniv(): ?string{
+    public function getMoisAnniv(): ?string {
         return $this->moisAnniv;
     }
 
@@ -160,7 +159,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the nom contact.
      */
-    public function getNomContact(): ?string{
+    public function getNomContact(): ?string {
         return $this->nomContact;
     }
 
@@ -169,7 +168,7 @@ class DadsuPrevoyanceEntete {
      *
      * @return string|null Returns the tel contact.
      */
-    public function getTelContact(): ?string{
+    public function getTelContact(): ?string {
         return $this->telContact;
     }
 

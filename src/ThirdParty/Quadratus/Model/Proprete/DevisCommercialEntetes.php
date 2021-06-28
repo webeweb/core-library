@@ -504,7 +504,6 @@ class DevisCommercialEntetes {
      */
     private $tauxRemise2;
 
-
     /**
      * Constructor.
      */
@@ -517,7 +516,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int btq.
      */
-    public function getAdIntBtq(): ?string{
+    public function getAdIntBtq(): ?string {
         return $this->adIntBtq;
     }
 
@@ -526,7 +525,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int bureau distributeur.
      */
-    public function getAdIntBureauDistributeur(): ?string{
+    public function getAdIntBureauDistributeur(): ?string {
         return $this->adIntBureauDistributeur;
     }
 
@@ -535,7 +534,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int code pays.
      */
-    public function getAdIntCodePays(): ?string{
+    public function getAdIntCodePays(): ?string {
         return $this->adIntCodePays;
     }
 
@@ -544,7 +543,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int code postal.
      */
-    public function getAdIntCodePostal(): ?string{
+    public function getAdIntCodePostal(): ?string {
         return $this->adIntCodePostal;
     }
 
@@ -553,7 +552,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int complement.
      */
-    public function getAdIntComplement(): ?string{
+    public function getAdIntComplement(): ?string {
         return $this->adIntComplement;
     }
 
@@ -562,7 +561,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int nom.
      */
-    public function getAdIntNom(): ?string{
+    public function getAdIntNom(): ?string {
         return $this->adIntNom;
     }
 
@@ -571,7 +570,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int nom voie.
      */
-    public function getAdIntNomVoie(): ?string{
+    public function getAdIntNomVoie(): ?string {
         return $this->adIntNomVoie;
     }
 
@@ -580,7 +579,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the ad int num voie.
      */
-    public function getAdIntNumVoie(): ?string{
+    public function getAdIntNumVoie(): ?string {
         return $this->adIntNumVoie;
     }
 
@@ -589,7 +588,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -598,7 +597,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -607,7 +606,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -616,7 +615,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -625,7 +624,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code anal client.
      */
-    public function getCodeAnalClient(): ?string{
+    public function getCodeAnalClient(): ?string {
         return $this->codeAnalClient;
     }
 
@@ -634,7 +633,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -643,7 +642,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -652,7 +651,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code client fact.
      */
-    public function getCodeClientFact(): ?string{
+    public function getCodeClientFact(): ?string {
         return $this->codeClientFact;
     }
 
@@ -661,7 +660,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -670,7 +669,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code factor.
      */
-    public function getCodeFactor(): ?string{
+    public function getCodeFactor(): ?string {
         return $this->codeFactor;
     }
 
@@ -679,7 +678,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code langue designation article.
      */
-    public function getCodeLangueDesignationArticle(): ?string{
+    public function getCodeLangueDesignationArticle(): ?string {
         return $this->codeLangueDesignationArticle;
     }
 
@@ -688,7 +687,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code mode reglement.
      */
-    public function getCodeModeReglement(): ?string{
+    public function getCodeModeReglement(): ?string {
         return $this->codeModeReglement;
     }
 
@@ -697,7 +696,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -706,7 +705,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -715,7 +714,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -724,7 +723,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code representant.
      */
-    public function getCodeRepresentant(): ?string{
+    public function getCodeRepresentant(): ?string {
         return $this->codeRepresentant;
     }
 
@@ -733,7 +732,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code tva client.
      */
-    public function getCodeTvaClient(): ?string{
+    public function getCodeTvaClient(): ?string {
         return $this->codeTvaClient;
     }
 
@@ -742,7 +741,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the code ventil client.
      */
-    public function getCodeVentilClient(): ?string{
+    public function getCodeVentilClient(): ?string {
         return $this->codeVentilClient;
     }
 
@@ -751,7 +750,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -760,7 +759,7 @@ class DevisCommercialEntetes {
      *
      * @return DateTime|null Returns the date acceptation.
      */
-    public function getDateAcceptation(): ?DateTime{
+    public function getDateAcceptation(): ?DateTime {
         return $this->dateAcceptation;
     }
 
@@ -769,7 +768,7 @@ class DevisCommercialEntetes {
      *
      * @return DateTime|null Returns the date devis.
      */
-    public function getDateDevis(): ?DateTime{
+    public function getDateDevis(): ?DateTime {
         return $this->dateDevis;
     }
 
@@ -778,7 +777,7 @@ class DevisCommercialEntetes {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -787,7 +786,7 @@ class DevisCommercialEntetes {
      *
      * @return DateTime|null Returns the date validation.
      */
-    public function getDateValidation(): ?DateTime{
+    public function getDateValidation(): ?DateTime {
         return $this->dateValidation;
     }
 
@@ -796,7 +795,7 @@ class DevisCommercialEntetes {
      *
      * @return bool|null Returns the devis euros.
      */
-    public function getDevisEuros(): ?bool{
+    public function getDevisEuros(): ?bool {
         return $this->devisEuros;
     }
 
@@ -805,7 +804,7 @@ class DevisCommercialEntetes {
      *
      * @return bool|null Returns the devis vm.
      */
-    public function getDevisVm(): ?bool{
+    public function getDevisVm(): ?bool {
         return $this->devisVm;
     }
 
@@ -814,7 +813,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the echeance depart.
      */
-    public function getEcheanceDepart(): ?string{
+    public function getEcheanceDepart(): ?string {
         return $this->echeanceDepart;
     }
 
@@ -823,7 +822,7 @@ class DevisCommercialEntetes {
      *
      * @return bool|null Returns the echeance forcee.
      */
-    public function getEcheanceForcee(): ?bool{
+    public function getEcheanceForcee(): ?bool {
         return $this->echeanceForcee;
     }
 
@@ -832,7 +831,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the echeance le.
      */
-    public function getEcheanceLe(): ?string{
+    public function getEcheanceLe(): ?string {
         return $this->echeanceLe;
     }
 
@@ -841,7 +840,7 @@ class DevisCommercialEntetes {
      *
      * @return int|null Returns the echeance nb jours.
      */
-    public function getEcheanceNbJours(): ?int{
+    public function getEcheanceNbJours(): ?int {
         return $this->echeanceNbJours;
     }
 
@@ -850,7 +849,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -859,7 +858,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the fonction commercial.
      */
-    public function getFonctionCommercial(): ?string{
+    public function getFonctionCommercial(): ?string {
         return $this->fonctionCommercial;
     }
 
@@ -868,7 +867,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the interlocuteur.
      */
-    public function getInterlocuteur(): ?string{
+    public function getInterlocuteur(): ?string {
         return $this->interlocuteur;
     }
 
@@ -877,7 +876,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -886,7 +885,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the libelle transf cpta.
      */
-    public function getLibelleTransfCpta(): ?string{
+    public function getLibelleTransfCpta(): ?string {
         return $this->libelleTransfCpta;
     }
 
@@ -895,7 +894,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -904,7 +903,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the mention libre.
      */
-    public function getMentionLibre(): ?string{
+    public function getMentionLibre(): ?string {
         return $this->mentionLibre;
     }
 
@@ -913,7 +912,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the montant acompte.
      */
-    public function getMontantAcompte(): ?float{
+    public function getMontantAcompte(): ?float {
         return $this->montantAcompte;
     }
 
@@ -922,7 +921,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the montant htpx.
      */
-    public function getMontantHtpx(): ?float{
+    public function getMontantHtpx(): ?float {
         return $this->montantHtpx;
     }
 
@@ -931,7 +930,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the montant htvm.
      */
-    public function getMontantHtvm(): ?float{
+    public function getMontantHtvm(): ?float {
         return $this->montantHtvm;
     }
 
@@ -940,7 +939,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the montant ttc.
      */
-    public function getMontantTtc(): ?float{
+    public function getMontantTtc(): ?float {
         return $this->montantTtc;
     }
 
@@ -949,7 +948,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the nom client.
      */
-    public function getNomClient(): ?string{
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
@@ -958,7 +957,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -967,7 +966,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2(): ?string{
+    public function getNomSuite2(): ?string {
         return $this->nomSuite2;
     }
 
@@ -976,7 +975,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3(): ?string{
+    public function getNomSuite3(): ?string {
         return $this->nomSuite3;
     }
 
@@ -985,7 +984,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -994,7 +993,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?string{
+    public function getNombreEcheances(): ?string {
         return $this->nombreEcheances;
     }
 
@@ -1003,7 +1002,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -1012,7 +1011,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis(): ?string{
+    public function getNumeroDevis(): ?string {
         return $this->numeroDevis;
     }
 
@@ -1021,7 +1020,7 @@ class DevisCommercialEntetes {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -1030,7 +1029,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the prestation.
      */
-    public function getPrestation(): ?string{
+    public function getPrestation(): ?string {
         return $this->prestation;
     }
 
@@ -1039,7 +1038,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the reference1.
      */
-    public function getReference1(): ?string{
+    public function getReference1(): ?string {
         return $this->reference1;
     }
 
@@ -1048,7 +1047,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the reference2.
      */
-    public function getReference2(): ?string{
+    public function getReference2(): ?string {
         return $this->reference2;
     }
 
@@ -1057,7 +1056,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the reference3.
      */
-    public function getReference3(): ?string{
+    public function getReference3(): ?string {
         return $this->reference3;
     }
 
@@ -1066,7 +1065,7 @@ class DevisCommercialEntetes {
      *
      * @return string|null Returns the reference4.
      */
-    public function getReference4(): ?string{
+    public function getReference4(): ?string {
         return $this->reference4;
     }
 
@@ -1075,7 +1074,7 @@ class DevisCommercialEntetes {
      *
      * @return bool|null Returns the saisir adresse.
      */
-    public function getSaisirAdresse(): ?bool{
+    public function getSaisirAdresse(): ?bool {
         return $this->saisirAdresse;
     }
 
@@ -1084,7 +1083,7 @@ class DevisCommercialEntetes {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -1093,7 +1092,7 @@ class DevisCommercialEntetes {
      *
      * @return bool|null Returns the soumis taxe deee.
      */
-    public function getSoumisTaxeDeee(): ?bool{
+    public function getSoumisTaxeDeee(): ?bool {
         return $this->soumisTaxeDeee;
     }
 
@@ -1102,7 +1101,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the taux devise.
      */
-    public function getTauxDevise(): ?float{
+    public function getTauxDevise(): ?float {
         return $this->tauxDevise;
     }
 
@@ -1111,7 +1110,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte(): ?float{
+    public function getTauxEscompte(): ?float {
         return $this->tauxEscompte;
     }
 
@@ -1120,7 +1119,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the taux remise1.
      */
-    public function getTauxRemise1(): ?float{
+    public function getTauxRemise1(): ?float {
         return $this->tauxRemise1;
     }
 
@@ -1129,7 +1128,7 @@ class DevisCommercialEntetes {
      *
      * @return float|null Returns the taux remise2.
      */
-    public function getTauxRemise2(): ?float{
+    public function getTauxRemise2(): ?float {
         return $this->tauxRemise2;
     }
 

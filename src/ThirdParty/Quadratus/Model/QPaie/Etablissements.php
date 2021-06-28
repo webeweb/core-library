@@ -22,41 +22,6 @@ use DateTime;
 class Etablissements {
 
     /**
-     * At taux bul1.
-     *
-     * @var float|null
-     */
-    private $atTauxBul1;
-
-    /**
-     * At taux bul2.
-     *
-     * @var float|null
-     */
-    private $atTauxBul2;
-
-    /**
-     * At taux bul3.
-     *
-     * @var float|null
-     */
-    private $atTauxBul3;
-
-    /**
-     * At taux bul4.
-     *
-     * @var float|null
-     */
-    private $atTauxBul4;
-
-    /**
-     * At taux bul5.
-     *
-     * @var float|null
-     */
-    private $atTauxBul5;
-
-    /**
      * Abattement max.
      *
      * @var float|null
@@ -211,6 +176,41 @@ class Etablissements {
     private $atTaux5;
 
     /**
+     * At taux bul1.
+     *
+     * @var float|null
+     */
+    private $atTauxBul1;
+
+    /**
+     * At taux bul2.
+     *
+     * @var float|null
+     */
+    private $atTauxBul2;
+
+    /**
+     * At taux bul3.
+     *
+     * @var float|null
+     */
+    private $atTauxBul3;
+
+    /**
+     * At taux bul4.
+     *
+     * @var float|null
+     */
+    private $atTauxBul4;
+
+    /**
+     * At taux bul5.
+     *
+     * @var float|null
+     */
+    private $atTauxBul5;
+
+    /**
      * Aubry1 modifie.
      *
      * @var bool|null
@@ -223,20 +223,6 @@ class Etablissements {
      * @var string|null
      */
     private $autreAlleg;
-
-    /**
-     * Bic1.
-     *
-     * @var string|null
-     */
-    private $bic1;
-
-    /**
-     * Btq.
-     *
-     * @var string|null
-     */
-    private $btq;
 
     /**
      * Banque1.
@@ -260,11 +246,25 @@ class Etablissements {
     private $banque3;
 
     /**
+     * Bic1.
+     *
+     * @var string|null
+     */
+    private $bic1;
+
+    /**
      * Bonus cospar.
      *
      * @var bool|null
      */
     private $bonusCospar;
+
+    /**
+     * Btq.
+     *
+     * @var string|null
+     */
+    private $btq;
 
     /**
      * Bureau distributeur.
@@ -477,27 +477,6 @@ class Etablissements {
     private $codeMetierRetraite;
 
     /**
-     * Code naf2008.
-     *
-     * @var string|null
-     */
-    private $codeNaf2008;
-
-    /**
-     * Code naf22008.
-     *
-     * @var string|null
-     */
-    private $codeNaf22008;
-
-    /**
-     * Code naf32008.
-     *
-     * @var string|null
-     */
-    private $codeNaf32008;
-
-    /**
      * Code naf.
      *
      * @var string|null
@@ -512,11 +491,32 @@ class Etablissements {
     private $codeNaf2;
 
     /**
+     * Code naf2008.
+     *
+     * @var string|null
+     */
+    private $codeNaf2008;
+
+    /**
+     * Code naf22008.
+     *
+     * @var string|null
+     */
+    private $codeNaf22008;
+
+    /**
      * Code naf3.
      *
      * @var string|null
      */
     private $codeNaf3;
+
+    /**
+     * Code naf32008.
+     *
+     * @var string|null
+     */
+    private $codeNaf32008;
 
     /**
      * Code officiel commune.
@@ -918,13 +918,6 @@ class Etablissements {
     private $gestionJourFerieEtab;
 
     /**
-     * Gestion rtt.
-     *
-     * @var bool|null
-     */
-    private $gestionRtt;
-
-    /**
      * Gestion repos comp.
      *
      * @var bool|null
@@ -944,6 +937,13 @@ class Etablissements {
      * @var bool|null
      */
     private $gestionReposRemplace;
+
+    /**
+     * Gestion rtt.
+     *
+     * @var bool|null
+     */
+    private $gestionRtt;
 
     /**
      * Gestion sem type.
@@ -1086,13 +1086,6 @@ class Etablissements {
     private $natureAnalytique;
 
     /**
-     * Nb hdif an.
-     *
-     * @var float|null
-     */
-    private $nbHdifAn;
-
-    /**
      * Nb h jour1.
      *
      * @var float|null
@@ -1140,6 +1133,13 @@ class Etablissements {
      * @var float|null
      */
     private $nbHJour7;
+
+    /**
+     * Nb hdif an.
+     *
+     * @var float|null
+     */
+    private $nbHdifAn;
 
     /**
      * Nb heure trav mois.
@@ -1359,6 +1359,48 @@ class Etablissements {
     private $qualite;
 
     /**
+     * Raison sociale.
+     *
+     * @var string|null
+     */
+    private $raisonSociale;
+
+    /**
+     * Reduction fillon.
+     *
+     * @var bool|null
+     */
+    private $reductionFillon;
+
+    /**
+     * Responsable.
+     *
+     * @var string|null
+     */
+    private $responsable;
+
+    /**
+     * Rib1.
+     *
+     * @var string|null
+     */
+    private $rib1;
+
+    /**
+     * Rib2.
+     *
+     * @var string|null
+     */
+    private $rib2;
+
+    /**
+     * Rib3.
+     *
+     * @var string|null
+     */
+    private $rib3;
+
+    /**
      * Rtt1.
      *
      * @var float|null
@@ -1443,48 +1485,6 @@ class Etablissements {
     private $rtt9;
 
     /**
-     * Raison sociale.
-     *
-     * @var string|null
-     */
-    private $raisonSociale;
-
-    /**
-     * Reduction fillon.
-     *
-     * @var bool|null
-     */
-    private $reductionFillon;
-
-    /**
-     * Responsable.
-     *
-     * @var string|null
-     */
-    private $responsable;
-
-    /**
-     * Rib1.
-     *
-     * @var string|null
-     */
-    private $rib1;
-
-    /**
-     * Rib2.
-     *
-     * @var string|null
-     */
-    private $rib2;
-
-    /**
-     * Rib3.
-     *
-     * @var string|null
-     */
-    private $rib3;
-
-    /**
      * Siege dadsu.
      *
      * @var bool|null
@@ -1518,27 +1518,6 @@ class Etablissements {
      * @var bool|null
      */
     private $suiviAnalytique;
-
-    /**
-     * Tds128.
-     *
-     * @var string|null
-     */
-    private $tds128;
-
-    /**
-     * Tds19.
-     *
-     * @var string|null
-     */
-    private $tds19;
-
-    /**
-     * Tds47.
-     *
-     * @var string|null
-     */
-    private $tds47;
 
     /**
      * Taux actionsociale.
@@ -1688,6 +1667,27 @@ class Etablissements {
     private $tauxTransport;
 
     /**
+     * Tds128.
+     *
+     * @var string|null
+     */
+    private $tds128;
+
+    /**
+     * Tds19.
+     *
+     * @var string|null
+     */
+    private $tds19;
+
+    /**
+     * Tds47.
+     *
+     * @var string|null
+     */
+    private $tds47;
+
+    /**
      * Tel.
      *
      * @var string|null
@@ -1772,18 +1772,18 @@ class Etablissements {
     private $typePublication;
 
     /**
-     * Type smic.
-     *
-     * @var string|null
-     */
-    private $typeSmic;
-
-    /**
      * Type saisie ab cp.
      *
      * @var string|null
      */
     private $typeSaisieAbCp;
+
+    /**
+     * Type smic.
+     *
+     * @var string|null
+     */
+    private $typeSmic;
 
     /**
      * Urssaf alsace.
@@ -1799,7 +1799,6 @@ class Etablissements {
      */
     private $zoneSpecif;
 
-
     /**
      * Constructor.
      */
@@ -1808,56 +1807,11 @@ class Etablissements {
     }
 
     /**
-     * Get the at taux bul1.
-     *
-     * @return float|null Returns the at taux bul1.
-     */
-    public function getAtTauxBul1(): ?float{
-        return $this->atTauxBul1;
-    }
-
-    /**
-     * Get the at taux bul2.
-     *
-     * @return float|null Returns the at taux bul2.
-     */
-    public function getAtTauxBul2(): ?float{
-        return $this->atTauxBul2;
-    }
-
-    /**
-     * Get the at taux bul3.
-     *
-     * @return float|null Returns the at taux bul3.
-     */
-    public function getAtTauxBul3(): ?float{
-        return $this->atTauxBul3;
-    }
-
-    /**
-     * Get the at taux bul4.
-     *
-     * @return float|null Returns the at taux bul4.
-     */
-    public function getAtTauxBul4(): ?float{
-        return $this->atTauxBul4;
-    }
-
-    /**
-     * Get the at taux bul5.
-     *
-     * @return float|null Returns the at taux bul5.
-     */
-    public function getAtTauxBul5(): ?float{
-        return $this->atTauxBul5;
-    }
-
-    /**
      * Get the abattement max.
      *
      * @return float|null Returns the abattement max.
      */
-    public function getAbattementMax(): ?float{
+    public function getAbattementMax(): ?float {
         return $this->abattementMax;
     }
 
@@ -1866,7 +1820,7 @@ class Etablissements {
      *
      * @return string|null Returns the alleg particulier.
      */
-    public function getAllegParticulier(): ?string{
+    public function getAllegParticulier(): ?string {
         return $this->allegParticulier;
     }
 
@@ -1875,7 +1829,7 @@ class Etablissements {
      *
      * @return string|null Returns the at bureau1.
      */
-    public function getAtBureau1(): ?string{
+    public function getAtBureau1(): ?string {
         return $this->atBureau1;
     }
 
@@ -1884,7 +1838,7 @@ class Etablissements {
      *
      * @return string|null Returns the at bureau2.
      */
-    public function getAtBureau2(): ?string{
+    public function getAtBureau2(): ?string {
         return $this->atBureau2;
     }
 
@@ -1893,7 +1847,7 @@ class Etablissements {
      *
      * @return string|null Returns the at bureau3.
      */
-    public function getAtBureau3(): ?string{
+    public function getAtBureau3(): ?string {
         return $this->atBureau3;
     }
 
@@ -1902,7 +1856,7 @@ class Etablissements {
      *
      * @return string|null Returns the at bureau4.
      */
-    public function getAtBureau4(): ?string{
+    public function getAtBureau4(): ?string {
         return $this->atBureau4;
     }
 
@@ -1911,7 +1865,7 @@ class Etablissements {
      *
      * @return string|null Returns the at bureau5.
      */
-    public function getAtBureau5(): ?string{
+    public function getAtBureau5(): ?string {
         return $this->atBureau5;
     }
 
@@ -1920,7 +1874,7 @@ class Etablissements {
      *
      * @return string|null Returns the at etab1.
      */
-    public function getAtEtab1(): ?string{
+    public function getAtEtab1(): ?string {
         return $this->atEtab1;
     }
 
@@ -1929,7 +1883,7 @@ class Etablissements {
      *
      * @return string|null Returns the at etab2.
      */
-    public function getAtEtab2(): ?string{
+    public function getAtEtab2(): ?string {
         return $this->atEtab2;
     }
 
@@ -1938,7 +1892,7 @@ class Etablissements {
      *
      * @return string|null Returns the at etab3.
      */
-    public function getAtEtab3(): ?string{
+    public function getAtEtab3(): ?string {
         return $this->atEtab3;
     }
 
@@ -1947,7 +1901,7 @@ class Etablissements {
      *
      * @return string|null Returns the at etab4.
      */
-    public function getAtEtab4(): ?string{
+    public function getAtEtab4(): ?string {
         return $this->atEtab4;
     }
 
@@ -1956,7 +1910,7 @@ class Etablissements {
      *
      * @return string|null Returns the at etab5.
      */
-    public function getAtEtab5(): ?string{
+    public function getAtEtab5(): ?string {
         return $this->atEtab5;
     }
 
@@ -1965,7 +1919,7 @@ class Etablissements {
      *
      * @return string|null Returns the at risque1.
      */
-    public function getAtRisque1(): ?string{
+    public function getAtRisque1(): ?string {
         return $this->atRisque1;
     }
 
@@ -1974,7 +1928,7 @@ class Etablissements {
      *
      * @return string|null Returns the at risque2.
      */
-    public function getAtRisque2(): ?string{
+    public function getAtRisque2(): ?string {
         return $this->atRisque2;
     }
 
@@ -1983,7 +1937,7 @@ class Etablissements {
      *
      * @return string|null Returns the at risque3.
      */
-    public function getAtRisque3(): ?string{
+    public function getAtRisque3(): ?string {
         return $this->atRisque3;
     }
 
@@ -1992,7 +1946,7 @@ class Etablissements {
      *
      * @return string|null Returns the at risque4.
      */
-    public function getAtRisque4(): ?string{
+    public function getAtRisque4(): ?string {
         return $this->atRisque4;
     }
 
@@ -2001,7 +1955,7 @@ class Etablissements {
      *
      * @return string|null Returns the at risque5.
      */
-    public function getAtRisque5(): ?string{
+    public function getAtRisque5(): ?string {
         return $this->atRisque5;
     }
 
@@ -2010,7 +1964,7 @@ class Etablissements {
      *
      * @return float|null Returns the at taux1.
      */
-    public function getAtTaux1(): ?float{
+    public function getAtTaux1(): ?float {
         return $this->atTaux1;
     }
 
@@ -2019,7 +1973,7 @@ class Etablissements {
      *
      * @return float|null Returns the at taux2.
      */
-    public function getAtTaux2(): ?float{
+    public function getAtTaux2(): ?float {
         return $this->atTaux2;
     }
 
@@ -2028,7 +1982,7 @@ class Etablissements {
      *
      * @return float|null Returns the at taux3.
      */
-    public function getAtTaux3(): ?float{
+    public function getAtTaux3(): ?float {
         return $this->atTaux3;
     }
 
@@ -2037,7 +1991,7 @@ class Etablissements {
      *
      * @return float|null Returns the at taux4.
      */
-    public function getAtTaux4(): ?float{
+    public function getAtTaux4(): ?float {
         return $this->atTaux4;
     }
 
@@ -2046,8 +2000,53 @@ class Etablissements {
      *
      * @return float|null Returns the at taux5.
      */
-    public function getAtTaux5(): ?float{
+    public function getAtTaux5(): ?float {
         return $this->atTaux5;
+    }
+
+    /**
+     * Get the at taux bul1.
+     *
+     * @return float|null Returns the at taux bul1.
+     */
+    public function getAtTauxBul1(): ?float {
+        return $this->atTauxBul1;
+    }
+
+    /**
+     * Get the at taux bul2.
+     *
+     * @return float|null Returns the at taux bul2.
+     */
+    public function getAtTauxBul2(): ?float {
+        return $this->atTauxBul2;
+    }
+
+    /**
+     * Get the at taux bul3.
+     *
+     * @return float|null Returns the at taux bul3.
+     */
+    public function getAtTauxBul3(): ?float {
+        return $this->atTauxBul3;
+    }
+
+    /**
+     * Get the at taux bul4.
+     *
+     * @return float|null Returns the at taux bul4.
+     */
+    public function getAtTauxBul4(): ?float {
+        return $this->atTauxBul4;
+    }
+
+    /**
+     * Get the at taux bul5.
+     *
+     * @return float|null Returns the at taux bul5.
+     */
+    public function getAtTauxBul5(): ?float {
+        return $this->atTauxBul5;
     }
 
     /**
@@ -2055,7 +2054,7 @@ class Etablissements {
      *
      * @return bool|null Returns the aubry1 modifie.
      */
-    public function getAubry1Modifie(): ?bool{
+    public function getAubry1Modifie(): ?bool {
         return $this->aubry1Modifie;
     }
 
@@ -2064,26 +2063,8 @@ class Etablissements {
      *
      * @return string|null Returns the autre alleg.
      */
-    public function getAutreAlleg(): ?string{
+    public function getAutreAlleg(): ?string {
         return $this->autreAlleg;
-    }
-
-    /**
-     * Get the bic1.
-     *
-     * @return string|null Returns the bic1.
-     */
-    public function getBic1(): ?string{
-        return $this->bic1;
-    }
-
-    /**
-     * Get the btq.
-     *
-     * @return string|null Returns the btq.
-     */
-    public function getBtq(): ?string{
-        return $this->btq;
     }
 
     /**
@@ -2091,7 +2072,7 @@ class Etablissements {
      *
      * @return string|null Returns the banque1.
      */
-    public function getBanque1(): ?string{
+    public function getBanque1(): ?string {
         return $this->banque1;
     }
 
@@ -2100,7 +2081,7 @@ class Etablissements {
      *
      * @return string|null Returns the banque2.
      */
-    public function getBanque2(): ?string{
+    public function getBanque2(): ?string {
         return $this->banque2;
     }
 
@@ -2109,8 +2090,17 @@ class Etablissements {
      *
      * @return string|null Returns the banque3.
      */
-    public function getBanque3(): ?string{
+    public function getBanque3(): ?string {
         return $this->banque3;
+    }
+
+    /**
+     * Get the bic1.
+     *
+     * @return string|null Returns the bic1.
+     */
+    public function getBic1(): ?string {
+        return $this->bic1;
     }
 
     /**
@@ -2118,8 +2108,17 @@ class Etablissements {
      *
      * @return bool|null Returns the bonus cospar.
      */
-    public function getBonusCospar(): ?bool{
+    public function getBonusCospar(): ?bool {
         return $this->bonusCospar;
+    }
+
+    /**
+     * Get the btq.
+     *
+     * @return string|null Returns the btq.
+     */
+    public function getBtq(): ?string {
+        return $this->btq;
     }
 
     /**
@@ -2127,7 +2126,7 @@ class Etablissements {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -2136,7 +2135,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect11.
      */
-    public function getCColect11(): ?string{
+    public function getCColect11(): ?string {
         return $this->cColect11;
     }
 
@@ -2145,7 +2144,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect12.
      */
-    public function getCColect12(): ?string{
+    public function getCColect12(): ?string {
         return $this->cColect12;
     }
 
@@ -2154,7 +2153,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect21.
      */
-    public function getCColect21(): ?string{
+    public function getCColect21(): ?string {
         return $this->cColect21;
     }
 
@@ -2163,7 +2162,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect22.
      */
-    public function getCColect22(): ?string{
+    public function getCColect22(): ?string {
         return $this->cColect22;
     }
 
@@ -2172,7 +2171,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect31.
      */
-    public function getCColect31(): ?string{
+    public function getCColect31(): ?string {
         return $this->cColect31;
     }
 
@@ -2181,7 +2180,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect32.
      */
-    public function getCColect32(): ?string{
+    public function getCColect32(): ?string {
         return $this->cColect32;
     }
 
@@ -2190,7 +2189,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect41.
      */
-    public function getCColect41(): ?string{
+    public function getCColect41(): ?string {
         return $this->cColect41;
     }
 
@@ -2199,7 +2198,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect42.
      */
-    public function getCColect42(): ?string{
+    public function getCColect42(): ?string {
         return $this->cColect42;
     }
 
@@ -2208,7 +2207,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect51.
      */
-    public function getCColect51(): ?string{
+    public function getCColect51(): ?string {
         return $this->cColect51;
     }
 
@@ -2217,7 +2216,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect52.
      */
-    public function getCColect52(): ?string{
+    public function getCColect52(): ?string {
         return $this->cColect52;
     }
 
@@ -2226,7 +2225,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect61.
      */
-    public function getCColect61(): ?string{
+    public function getCColect61(): ?string {
         return $this->cColect61;
     }
 
@@ -2235,7 +2234,7 @@ class Etablissements {
      *
      * @return string|null Returns the c colect62.
      */
-    public function getCColect62(): ?string{
+    public function getCColect62(): ?string {
         return $this->cColect62;
     }
 
@@ -2244,7 +2243,7 @@ class Etablissements {
      *
      * @return bool|null Returns the caisse cp.
      */
-    public function getCaisseCp(): ?bool{
+    public function getCaisseCp(): ?bool {
         return $this->caisseCp;
     }
 
@@ -2253,7 +2252,7 @@ class Etablissements {
      *
      * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique(): ?string{
+    public function getCentreAnalytique(): ?string {
         return $this->centreAnalytique;
     }
 
@@ -2262,7 +2261,7 @@ class Etablissements {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -2271,7 +2270,7 @@ class Etablissements {
      *
      * @return string|null Returns the code adherent.
      */
-    public function getCodeAdherent(): ?string{
+    public function getCodeAdherent(): ?string {
         return $this->codeAdherent;
     }
 
@@ -2280,7 +2279,7 @@ class Etablissements {
      *
      * @return string|null Returns the code c colect1.
      */
-    public function getCodeCColect1(): ?string{
+    public function getCodeCColect1(): ?string {
         return $this->codeCColect1;
     }
 
@@ -2289,7 +2288,7 @@ class Etablissements {
      *
      * @return string|null Returns the code c colect2.
      */
-    public function getCodeCColect2(): ?string{
+    public function getCodeCColect2(): ?string {
         return $this->codeCColect2;
     }
 
@@ -2298,7 +2297,7 @@ class Etablissements {
      *
      * @return string|null Returns the code c colect3.
      */
-    public function getCodeCColect3(): ?string{
+    public function getCodeCColect3(): ?string {
         return $this->codeCColect3;
     }
 
@@ -2307,7 +2306,7 @@ class Etablissements {
      *
      * @return string|null Returns the code c colect4.
      */
-    public function getCodeCColect4(): ?string{
+    public function getCodeCColect4(): ?string {
         return $this->codeCColect4;
     }
 
@@ -2316,7 +2315,7 @@ class Etablissements {
      *
      * @return string|null Returns the code c colect5.
      */
-    public function getCodeCColect5(): ?string{
+    public function getCodeCColect5(): ?string {
         return $this->codeCColect5;
     }
 
@@ -2325,7 +2324,7 @@ class Etablissements {
      *
      * @return string|null Returns the code c colect6.
      */
-    public function getCodeCColect6(): ?string{
+    public function getCodeCColect6(): ?string {
         return $this->codeCColect6;
     }
 
@@ -2334,7 +2333,7 @@ class Etablissements {
      *
      * @return string|null Returns the code centre impot.
      */
-    public function getCodeCentreImpot(): ?string{
+    public function getCodeCentreImpot(): ?string {
         return $this->codeCentreImpot;
     }
 
@@ -2343,7 +2342,7 @@ class Etablissements {
      *
      * @return string|null Returns the code ducs specif.
      */
-    public function getCodeDucsSpecif(): ?string{
+    public function getCodeDucsSpecif(): ?string {
         return $this->codeDucsSpecif;
     }
 
@@ -2352,7 +2351,7 @@ class Etablissements {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -2361,7 +2360,7 @@ class Etablissements {
      *
      * @return string|null Returns the code insee.
      */
-    public function getCodeInsee(): ?string{
+    public function getCodeInsee(): ?string {
         return $this->codeInsee;
     }
 
@@ -2370,7 +2369,7 @@ class Etablissements {
      *
      * @return string|null Returns the code journal banque.
      */
-    public function getCodeJournalBanque(): ?string{
+    public function getCodeJournalBanque(): ?string {
         return $this->codeJournalBanque;
     }
 
@@ -2379,7 +2378,7 @@ class Etablissements {
      *
      * @return string|null Returns the code journal paie.
      */
-    public function getCodeJournalPaie(): ?string{
+    public function getCodeJournalPaie(): ?string {
         return $this->codeJournalPaie;
     }
 
@@ -2388,35 +2387,8 @@ class Etablissements {
      *
      * @return string|null Returns the code metier retraite.
      */
-    public function getCodeMetierRetraite(): ?string{
+    public function getCodeMetierRetraite(): ?string {
         return $this->codeMetierRetraite;
-    }
-
-    /**
-     * Get the code naf2008.
-     *
-     * @return string|null Returns the code naf2008.
-     */
-    public function getCodeNaf2008(): ?string{
-        return $this->codeNaf2008;
-    }
-
-    /**
-     * Get the code naf22008.
-     *
-     * @return string|null Returns the code naf22008.
-     */
-    public function getCodeNaf22008(): ?string{
-        return $this->codeNaf22008;
-    }
-
-    /**
-     * Get the code naf32008.
-     *
-     * @return string|null Returns the code naf32008.
-     */
-    public function getCodeNaf32008(): ?string{
-        return $this->codeNaf32008;
     }
 
     /**
@@ -2424,7 +2396,7 @@ class Etablissements {
      *
      * @return string|null Returns the code naf.
      */
-    public function getCodeNaf(): ?string{
+    public function getCodeNaf(): ?string {
         return $this->codeNaf;
     }
 
@@ -2433,8 +2405,26 @@ class Etablissements {
      *
      * @return string|null Returns the code naf2.
      */
-    public function getCodeNaf2(): ?string{
+    public function getCodeNaf2(): ?string {
         return $this->codeNaf2;
+    }
+
+    /**
+     * Get the code naf2008.
+     *
+     * @return string|null Returns the code naf2008.
+     */
+    public function getCodeNaf2008(): ?string {
+        return $this->codeNaf2008;
+    }
+
+    /**
+     * Get the code naf22008.
+     *
+     * @return string|null Returns the code naf22008.
+     */
+    public function getCodeNaf22008(): ?string {
+        return $this->codeNaf22008;
     }
 
     /**
@@ -2442,8 +2432,17 @@ class Etablissements {
      *
      * @return string|null Returns the code naf3.
      */
-    public function getCodeNaf3(): ?string{
+    public function getCodeNaf3(): ?string {
         return $this->codeNaf3;
+    }
+
+    /**
+     * Get the code naf32008.
+     *
+     * @return string|null Returns the code naf32008.
+     */
+    public function getCodeNaf32008(): ?string {
+        return $this->codeNaf32008;
     }
 
     /**
@@ -2451,7 +2450,7 @@ class Etablissements {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -2460,7 +2459,7 @@ class Etablissements {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -2469,7 +2468,7 @@ class Etablissements {
      *
      * @return string|null Returns the code pays residence.
      */
-    public function getCodePaysResidence(): ?string{
+    public function getCodePaysResidence(): ?string {
         return $this->codePaysResidence;
     }
 
@@ -2478,7 +2477,7 @@ class Etablissements {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -2487,7 +2486,7 @@ class Etablissements {
      *
      * @return float|null Returns the coeff aubry2.
      */
-    public function getCoeffAubry2(): ?float{
+    public function getCoeffAubry2(): ?float {
         return $this->coeffAubry2;
     }
 
@@ -2496,7 +2495,7 @@ class Etablissements {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -2505,7 +2504,7 @@ class Etablissements {
      *
      * @return bool|null Returns the compte acompte employe.
      */
-    public function getCompteAcompteEmploye(): ?bool{
+    public function getCompteAcompteEmploye(): ?bool {
         return $this->compteAcompteEmploye;
     }
 
@@ -2514,7 +2513,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge1.
      */
-    public function getCompteCharge1(): ?string{
+    public function getCompteCharge1(): ?string {
         return $this->compteCharge1;
     }
 
@@ -2523,7 +2522,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge10.
      */
-    public function getCompteCharge10(): ?string{
+    public function getCompteCharge10(): ?string {
         return $this->compteCharge10;
     }
 
@@ -2532,7 +2531,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge11.
      */
-    public function getCompteCharge11(): ?string{
+    public function getCompteCharge11(): ?string {
         return $this->compteCharge11;
     }
 
@@ -2541,7 +2540,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge2.
      */
-    public function getCompteCharge2(): ?string{
+    public function getCompteCharge2(): ?string {
         return $this->compteCharge2;
     }
 
@@ -2550,7 +2549,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge3.
      */
-    public function getCompteCharge3(): ?string{
+    public function getCompteCharge3(): ?string {
         return $this->compteCharge3;
     }
 
@@ -2559,7 +2558,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge4.
      */
-    public function getCompteCharge4(): ?string{
+    public function getCompteCharge4(): ?string {
         return $this->compteCharge4;
     }
 
@@ -2568,7 +2567,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge5.
      */
-    public function getCompteCharge5(): ?string{
+    public function getCompteCharge5(): ?string {
         return $this->compteCharge5;
     }
 
@@ -2577,7 +2576,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge6.
      */
-    public function getCompteCharge6(): ?string{
+    public function getCompteCharge6(): ?string {
         return $this->compteCharge6;
     }
 
@@ -2586,7 +2585,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge7.
      */
-    public function getCompteCharge7(): ?string{
+    public function getCompteCharge7(): ?string {
         return $this->compteCharge7;
     }
 
@@ -2595,7 +2594,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge8.
      */
-    public function getCompteCharge8(): ?string{
+    public function getCompteCharge8(): ?string {
         return $this->compteCharge8;
     }
 
@@ -2604,7 +2603,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge9.
      */
-    public function getCompteCharge9(): ?string{
+    public function getCompteCharge9(): ?string {
         return $this->compteCharge9;
     }
 
@@ -2613,7 +2612,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge aen.
      */
-    public function getCompteChargeAen(): ?string{
+    public function getCompteChargeAen(): ?string {
         return $this->compteChargeAen;
     }
 
@@ -2622,7 +2621,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge fc.
      */
-    public function getCompteChargeFc(): ?string{
+    public function getCompteChargeFc(): ?string {
         return $this->compteChargeFc;
     }
 
@@ -2631,7 +2630,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge ijss.
      */
-    public function getCompteChargeIjss(): ?string{
+    public function getCompteChargeIjss(): ?string {
         return $this->compteChargeIjss;
     }
 
@@ -2640,7 +2639,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte charge indem cp.
      */
-    public function getCompteChargeIndemCp(): ?string{
+    public function getCompteChargeIndemCp(): ?string {
         return $this->compteChargeIndemCp;
     }
 
@@ -2649,7 +2648,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte saisie arret.
      */
-    public function getCompteSaisieArret(): ?string{
+    public function getCompteSaisieArret(): ?string {
         return $this->compteSaisieArret;
     }
 
@@ -2658,7 +2657,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte tiers1.
      */
-    public function getCompteTiers1(): ?string{
+    public function getCompteTiers1(): ?string {
         return $this->compteTiers1;
     }
 
@@ -2667,7 +2666,7 @@ class Etablissements {
      *
      * @return string|null Returns the compte tiers2.
      */
-    public function getCompteTiers2(): ?string{
+    public function getCompteTiers2(): ?string {
         return $this->compteTiers2;
     }
 
@@ -2676,7 +2675,7 @@ class Etablissements {
      *
      * @return string|null Returns the dadsu code c colect1.
      */
-    public function getDadsuCodeCColect1(): ?string{
+    public function getDadsuCodeCColect1(): ?string {
         return $this->dadsuCodeCColect1;
     }
 
@@ -2685,7 +2684,7 @@ class Etablissements {
      *
      * @return string|null Returns the dadsu code c colect2.
      */
-    public function getDadsuCodeCColect2(): ?string{
+    public function getDadsuCodeCColect2(): ?string {
         return $this->dadsuCodeCColect2;
     }
 
@@ -2694,7 +2693,7 @@ class Etablissements {
      *
      * @return string|null Returns the dadsu code c colect3.
      */
-    public function getDadsuCodeCColect3(): ?string{
+    public function getDadsuCodeCColect3(): ?string {
         return $this->dadsuCodeCColect3;
     }
 
@@ -2703,7 +2702,7 @@ class Etablissements {
      *
      * @return string|null Returns the dadsu code c colect4.
      */
-    public function getDadsuCodeCColect4(): ?string{
+    public function getDadsuCodeCColect4(): ?string {
         return $this->dadsuCodeCColect4;
     }
 
@@ -2712,7 +2711,7 @@ class Etablissements {
      *
      * @return string|null Returns the dadsu code c colect5.
      */
-    public function getDadsuCodeCColect5(): ?string{
+    public function getDadsuCodeCColect5(): ?string {
         return $this->dadsuCodeCColect5;
     }
 
@@ -2721,7 +2720,7 @@ class Etablissements {
      *
      * @return string|null Returns the dadsu code c colect6.
      */
-    public function getDadsuCodeCColect6(): ?string{
+    public function getDadsuCodeCColect6(): ?string {
         return $this->dadsuCodeCColect6;
     }
 
@@ -2730,7 +2729,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the date allegement.
      */
-    public function getDateAllegement(): ?DateTime{
+    public function getDateAllegement(): ?DateTime {
         return $this->dateAllegement;
     }
 
@@ -2739,7 +2738,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the date ducs.
      */
-    public function getDateDucs(): ?DateTime{
+    public function getDateDucs(): ?DateTime {
         return $this->dateDucs;
     }
 
@@ -2748,7 +2747,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the date fin cospar.
      */
-    public function getDateFinCospar(): ?DateTime{
+    public function getDateFinCospar(): ?DateTime {
         return $this->dateFinCospar;
     }
 
@@ -2757,7 +2756,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the date fin cp.
      */
-    public function getDateFinCp(): ?DateTime{
+    public function getDateFinCp(): ?DateTime {
         return $this->dateFinCp;
     }
 
@@ -2766,7 +2765,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -2775,7 +2774,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the date publication.
      */
-    public function getDatePublication(): ?DateTime{
+    public function getDatePublication(): ?DateTime {
         return $this->datePublication;
     }
 
@@ -2784,7 +2783,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the debut envoi.
      */
-    public function getDebutEnvoi(): ?DateTime{
+    public function getDebutEnvoi(): ?DateTime {
         return $this->debutEnvoi;
     }
 
@@ -2793,7 +2792,7 @@ class Etablissements {
      *
      * @return bool|null Returns the detail salarie.
      */
-    public function getDetailSalarie(): ?bool{
+    public function getDetailSalarie(): ?bool {
         return $this->detailSalarie;
     }
 
@@ -2802,7 +2801,7 @@ class Etablissements {
      *
      * @return string|null Returns the domaine activite.
      */
-    public function getDomaineActivite(): ?string{
+    public function getDomaineActivite(): ?string {
         return $this->domaineActivite;
     }
 
@@ -2811,7 +2810,7 @@ class Etablissements {
      *
      * @return string|null Returns the dossier comptable.
      */
-    public function getDossierComptable(): ?string{
+    public function getDossierComptable(): ?string {
         return $this->dossierComptable;
     }
 
@@ -2820,7 +2819,7 @@ class Etablissements {
      *
      * @return bool|null Returns the edition dif.
      */
-    public function getEditionDif(): ?bool{
+    public function getEditionDif(): ?bool {
         return $this->editionDif;
     }
 
@@ -2829,7 +2828,7 @@ class Etablissements {
      *
      * @return string|null Returns the edition dif bul.
      */
-    public function getEditionDifBul(): ?string{
+    public function getEditionDifBul(): ?string {
         return $this->editionDifBul;
     }
 
@@ -2838,7 +2837,7 @@ class Etablissements {
      *
      * @return int|null Returns the emetteur1.
      */
-    public function getEmetteur1(): ?int{
+    public function getEmetteur1(): ?int {
         return $this->emetteur1;
     }
 
@@ -2847,7 +2846,7 @@ class Etablissements {
      *
      * @return int|null Returns the emetteur2.
      */
-    public function getEmetteur2(): ?int{
+    public function getEmetteur2(): ?int {
         return $this->emetteur2;
     }
 
@@ -2856,7 +2855,7 @@ class Etablissements {
      *
      * @return int|null Returns the emetteur3.
      */
-    public function getEmetteur3(): ?int{
+    public function getEmetteur3(): ?int {
         return $this->emetteur3;
     }
 
@@ -2865,7 +2864,7 @@ class Etablissements {
      *
      * @return string|null Returns the enseigne.
      */
-    public function getEnseigne(): ?string{
+    public function getEnseigne(): ?string {
         return $this->enseigne;
     }
 
@@ -2874,7 +2873,7 @@ class Etablissements {
      *
      * @return bool|null Returns the etab decl dadsu.
      */
-    public function getEtabDeclDadsu(): ?bool{
+    public function getEtabDeclDadsu(): ?bool {
         return $this->etabDeclDadsu;
     }
 
@@ -2883,7 +2882,7 @@ class Etablissements {
      *
      * @return bool|null Returns the exclure dadsu.
      */
-    public function getExclureDadsu(): ?bool{
+    public function getExclureDadsu(): ?bool {
         return $this->exclureDadsu;
     }
 
@@ -2892,7 +2891,7 @@ class Etablissements {
      *
      * @return bool|null Returns the exo lodeom renforcee.
      */
-    public function getExoLodeomRenforcee(): ?bool{
+    public function getExoLodeomRenforcee(): ?bool {
         return $this->exoLodeomRenforcee;
     }
 
@@ -2901,7 +2900,7 @@ class Etablissements {
      *
      * @return string|null Returns the fax.
      */
-    public function getFax(): ?string{
+    public function getFax(): ?string {
         return $this->fax;
     }
 
@@ -2910,7 +2909,7 @@ class Etablissements {
      *
      * @return DateTime|null Returns the fin envoi.
      */
-    public function getFinEnvoi(): ?DateTime{
+    public function getFinEnvoi(): ?DateTime {
         return $this->finEnvoi;
     }
 
@@ -2919,7 +2918,7 @@ class Etablissements {
      *
      * @return bool|null Returns the gere fraction etab.
      */
-    public function getGereFractionEtab(): ?bool{
+    public function getGereFractionEtab(): ?bool {
         return $this->gereFractionEtab;
     }
 
@@ -2928,7 +2927,7 @@ class Etablissements {
      *
      * @return bool|null Returns the gestion contingent.
      */
-    public function getGestionContingent(): ?bool{
+    public function getGestionContingent(): ?bool {
         return $this->gestionContingent;
     }
 
@@ -2937,7 +2936,7 @@ class Etablissements {
      *
      * @return string|null Returns the gestion ducs1.
      */
-    public function getGestionDucs1(): ?string{
+    public function getGestionDucs1(): ?string {
         return $this->gestionDucs1;
     }
 
@@ -2946,7 +2945,7 @@ class Etablissements {
      *
      * @return string|null Returns the gestion ducs2.
      */
-    public function getGestionDucs2(): ?string{
+    public function getGestionDucs2(): ?string {
         return $this->gestionDucs2;
     }
 
@@ -2955,17 +2954,8 @@ class Etablissements {
      *
      * @return bool|null Returns the gestion jour ferie etab.
      */
-    public function getGestionJourFerieEtab(): ?bool{
+    public function getGestionJourFerieEtab(): ?bool {
         return $this->gestionJourFerieEtab;
-    }
-
-    /**
-     * Get the gestion rtt.
-     *
-     * @return bool|null Returns the gestion rtt.
-     */
-    public function getGestionRtt(): ?bool{
-        return $this->gestionRtt;
     }
 
     /**
@@ -2973,7 +2963,7 @@ class Etablissements {
      *
      * @return bool|null Returns the gestion repos comp.
      */
-    public function getGestionReposComp(): ?bool{
+    public function getGestionReposComp(): ?bool {
         return $this->gestionReposComp;
     }
 
@@ -2982,7 +2972,7 @@ class Etablissements {
      *
      * @return bool|null Returns the gestion repos recup.
      */
-    public function getGestionReposRecup(): ?bool{
+    public function getGestionReposRecup(): ?bool {
         return $this->gestionReposRecup;
     }
 
@@ -2991,8 +2981,17 @@ class Etablissements {
      *
      * @return bool|null Returns the gestion repos remplace.
      */
-    public function getGestionReposRemplace(): ?bool{
+    public function getGestionReposRemplace(): ?bool {
         return $this->gestionReposRemplace;
+    }
+
+    /**
+     * Get the gestion rtt.
+     *
+     * @return bool|null Returns the gestion rtt.
+     */
+    public function getGestionRtt(): ?bool {
+        return $this->gestionRtt;
     }
 
     /**
@@ -3000,7 +2999,7 @@ class Etablissements {
      *
      * @return bool|null Returns the gestion sem type.
      */
-    public function getGestionSemType(): ?bool{
+    public function getGestionSemType(): ?bool {
         return $this->gestionSemType;
     }
 
@@ -3009,7 +3008,7 @@ class Etablissements {
      *
      * @return string|null Returns the iban1.
      */
-    public function getIban1(): ?string{
+    public function getIban1(): ?string {
         return $this->iban1;
     }
 
@@ -3018,7 +3017,7 @@ class Etablissements {
      *
      * @return string|null Returns the iban id client1.
      */
-    public function getIbanIdClient1(): ?string{
+    public function getIbanIdClient1(): ?string {
         return $this->ibanIdClient1;
     }
 
@@ -3027,7 +3026,7 @@ class Etablissements {
      *
      * @return bool|null Returns the inscrit rep metier.
      */
-    public function getInscritRepMetier(): ?bool{
+    public function getInscritRepMetier(): ?bool {
         return $this->inscritRepMetier;
     }
 
@@ -3036,7 +3035,7 @@ class Etablissements {
      *
      * @return string|null Returns the jour verse salaire.
      */
-    public function getJourVerseSalaire(): ?string{
+    public function getJourVerseSalaire(): ?string {
         return $this->jourVerseSalaire;
     }
 
@@ -3045,7 +3044,7 @@ class Etablissements {
      *
      * @return bool|null Returns the maintien intervient cp.
      */
-    public function getMaintienIntervientCp(): ?bool{
+    public function getMaintienIntervientCp(): ?bool {
         return $this->maintienIntervientCp;
     }
 
@@ -3054,7 +3053,7 @@ class Etablissements {
      *
      * @return bool|null Returns the maintien salaire.
      */
-    public function getMaintienSalaire(): ?bool{
+    public function getMaintienSalaire(): ?bool {
         return $this->maintienSalaire;
     }
 
@@ -3063,7 +3062,7 @@ class Etablissements {
      *
      * @return bool|null Returns the maintien specifique.
      */
-    public function getMaintienSpecifique(): ?bool{
+    public function getMaintienSpecifique(): ?bool {
         return $this->maintienSpecifique;
     }
 
@@ -3072,7 +3071,7 @@ class Etablissements {
      *
      * @return bool|null Returns the masque service employe.
      */
-    public function getMasqueServiceEmploye(): ?bool{
+    public function getMasqueServiceEmploye(): ?bool {
         return $this->masqueServiceEmploye;
     }
 
@@ -3081,7 +3080,7 @@ class Etablissements {
      *
      * @return string|null Returns the methode cp.
      */
-    public function getMethodeCp(): ?string{
+    public function getMethodeCp(): ?string {
         return $this->methodeCp;
     }
 
@@ -3090,7 +3089,7 @@ class Etablissements {
      *
      * @return string|null Returns the mois cloture cp.
      */
-    public function getMoisClotureCp(): ?string{
+    public function getMoisClotureCp(): ?string {
         return $this->moisClotureCp;
     }
 
@@ -3099,7 +3098,7 @@ class Etablissements {
      *
      * @return string|null Returns the mois cloture dif.
      */
-    public function getMoisClotureDif(): ?string{
+    public function getMoisClotureDif(): ?string {
         return $this->moisClotureDif;
     }
 
@@ -3108,7 +3107,7 @@ class Etablissements {
      *
      * @return string|null Returns the mois cloture rtt.
      */
-    public function getMoisClotureRtt(): ?string{
+    public function getMoisClotureRtt(): ?string {
         return $this->moisClotureRtt;
     }
 
@@ -3117,7 +3116,7 @@ class Etablissements {
      *
      * @return float|null Returns the montant1.
      */
-    public function getMontant1(): ?float{
+    public function getMontant1(): ?float {
         return $this->montant1;
     }
 
@@ -3126,7 +3125,7 @@ class Etablissements {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -3135,7 +3134,7 @@ class Etablissements {
      *
      * @return float|null Returns the montant3.
      */
-    public function getMontant3(): ?float{
+    public function getMontant3(): ?float {
         return $this->montant3;
     }
 
@@ -3144,7 +3143,7 @@ class Etablissements {
      *
      * @return float|null Returns the montant4.
      */
-    public function getMontant4(): ?float{
+    public function getMontant4(): ?float {
         return $this->montant4;
     }
 
@@ -3153,7 +3152,7 @@ class Etablissements {
      *
      * @return float|null Returns the montant5.
      */
-    public function getMontant5(): ?float{
+    public function getMontant5(): ?float {
         return $this->montant5;
     }
 
@@ -3162,7 +3161,7 @@ class Etablissements {
      *
      * @return float|null Returns the montant allegement.
      */
-    public function getMontantAllegement(): ?float{
+    public function getMontantAllegement(): ?float {
         return $this->montantAllegement;
     }
 
@@ -3171,17 +3170,8 @@ class Etablissements {
      *
      * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique(): ?string{
+    public function getNatureAnalytique(): ?string {
         return $this->natureAnalytique;
-    }
-
-    /**
-     * Get the nb hdif an.
-     *
-     * @return float|null Returns the nb hdif an.
-     */
-    public function getNbHdifAn(): ?float{
-        return $this->nbHdifAn;
     }
 
     /**
@@ -3189,7 +3179,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour1.
      */
-    public function getNbHJour1(): ?float{
+    public function getNbHJour1(): ?float {
         return $this->nbHJour1;
     }
 
@@ -3198,7 +3188,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour2.
      */
-    public function getNbHJour2(): ?float{
+    public function getNbHJour2(): ?float {
         return $this->nbHJour2;
     }
 
@@ -3207,7 +3197,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour3.
      */
-    public function getNbHJour3(): ?float{
+    public function getNbHJour3(): ?float {
         return $this->nbHJour3;
     }
 
@@ -3216,7 +3206,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour4.
      */
-    public function getNbHJour4(): ?float{
+    public function getNbHJour4(): ?float {
         return $this->nbHJour4;
     }
 
@@ -3225,7 +3215,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour5.
      */
-    public function getNbHJour5(): ?float{
+    public function getNbHJour5(): ?float {
         return $this->nbHJour5;
     }
 
@@ -3234,7 +3224,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour6.
      */
-    public function getNbHJour6(): ?float{
+    public function getNbHJour6(): ?float {
         return $this->nbHJour6;
     }
 
@@ -3243,8 +3233,17 @@ class Etablissements {
      *
      * @return float|null Returns the nb h jour7.
      */
-    public function getNbHJour7(): ?float{
+    public function getNbHJour7(): ?float {
         return $this->nbHJour7;
+    }
+
+    /**
+     * Get the nb hdif an.
+     *
+     * @return float|null Returns the nb hdif an.
+     */
+    public function getNbHdifAn(): ?float {
+        return $this->nbHdifAn;
     }
 
     /**
@@ -3252,7 +3251,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb heure trav mois.
      */
-    public function getNbHeureTravMois(): ?float{
+    public function getNbHeureTravMois(): ?float {
         return $this->nbHeureTravMois;
     }
 
@@ -3261,7 +3260,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb jour base.
      */
-    public function getNbJourBase(): ?float{
+    public function getNbJourBase(): ?float {
         return $this->nbJourBase;
     }
 
@@ -3270,7 +3269,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb jour base cp.
      */
-    public function getNbJourBaseCp(): ?float{
+    public function getNbJourBaseCp(): ?float {
         return $this->nbJourBaseCp;
     }
 
@@ -3279,7 +3278,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb jour cp acquis.
      */
-    public function getNbJourCpAcquis(): ?float{
+    public function getNbJourCpAcquis(): ?float {
         return $this->nbJourCpAcquis;
     }
 
@@ -3288,7 +3287,7 @@ class Etablissements {
      *
      * @return string|null Returns the nb m ajout per.
      */
-    public function getNbMAjoutPer(): ?string{
+    public function getNbMAjoutPer(): ?string {
         return $this->nbMAjoutPer;
     }
 
@@ -3297,7 +3296,7 @@ class Etablissements {
      *
      * @return float|null Returns the nb mois aubry1.
      */
-    public function getNbMoisAubry1(): ?float{
+    public function getNbMoisAubry1(): ?float {
         return $this->nbMoisAubry1;
     }
 
@@ -3306,7 +3305,7 @@ class Etablissements {
      *
      * @return float|null Returns the nbh jour rtt.
      */
-    public function getNbhJourRtt(): ?float{
+    public function getNbhJourRtt(): ?float {
         return $this->nbhJourRtt;
     }
 
@@ -3315,7 +3314,7 @@ class Etablissements {
      *
      * @return bool|null Returns the ne pas activer loi fillon2003.
      */
-    public function getNePasActiverLoiFillon2003(): ?bool{
+    public function getNePasActiverLoiFillon2003(): ?bool {
         return $this->nePasActiverLoiFillon2003;
     }
 
@@ -3324,7 +3323,7 @@ class Etablissements {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -3333,7 +3332,7 @@ class Etablissements {
      *
      * @return string|null Returns the nom ville insee.
      */
-    public function getNomVilleInsee(): ?string{
+    public function getNomVilleInsee(): ?string {
         return $this->nomVilleInsee;
     }
 
@@ -3342,7 +3341,7 @@ class Etablissements {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -3351,7 +3350,7 @@ class Etablissements {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -3360,7 +3359,7 @@ class Etablissements {
      *
      * @return string|null Returns the opca dif.
      */
-    public function getOpcaDif(): ?string{
+    public function getOpcaDif(): ?string {
         return $this->opcaDif;
     }
 
@@ -3369,7 +3368,7 @@ class Etablissements {
      *
      * @return float|null Returns the p lafond exo.
      */
-    public function getPLafondExo(): ?float{
+    public function getPLafondExo(): ?float {
         return $this->pLafondExo;
     }
 
@@ -3378,7 +3377,7 @@ class Etablissements {
      *
      * @return bool|null Returns the paie decalee.
      */
-    public function getPaieDecalee(): ?bool{
+    public function getPaieDecalee(): ?bool {
         return $this->paieDecalee;
     }
 
@@ -3387,7 +3386,7 @@ class Etablissements {
      *
      * @return float|null Returns the plafond1 caisse1.
      */
-    public function getPlafond1Caisse1(): ?float{
+    public function getPlafond1Caisse1(): ?float {
         return $this->plafond1Caisse1;
     }
 
@@ -3396,7 +3395,7 @@ class Etablissements {
      *
      * @return float|null Returns the plafond1 caisse2.
      */
-    public function getPlafond1Caisse2(): ?float{
+    public function getPlafond1Caisse2(): ?float {
         return $this->plafond1Caisse2;
     }
 
@@ -3405,7 +3404,7 @@ class Etablissements {
      *
      * @return float|null Returns the plafond1 caisse3.
      */
-    public function getPlafond1Caisse3(): ?float{
+    public function getPlafond1Caisse3(): ?float {
         return $this->plafond1Caisse3;
     }
 
@@ -3414,7 +3413,7 @@ class Etablissements {
      *
      * @return float|null Returns the plafond2 caisse1.
      */
-    public function getPlafond2Caisse1(): ?float{
+    public function getPlafond2Caisse1(): ?float {
         return $this->plafond2Caisse1;
     }
 
@@ -3423,7 +3422,7 @@ class Etablissements {
      *
      * @return float|null Returns the plafond2 caisse2.
      */
-    public function getPlafond2Caisse2(): ?float{
+    public function getPlafond2Caisse2(): ?float {
         return $this->plafond2Caisse2;
     }
 
@@ -3432,7 +3431,7 @@ class Etablissements {
      *
      * @return float|null Returns the plafond2 caisse3.
      */
-    public function getPlafond2Caisse3(): ?float{
+    public function getPlafond2Caisse3(): ?float {
         return $this->plafond2Caisse3;
     }
 
@@ -3441,7 +3440,7 @@ class Etablissements {
      *
      * @return float|null Returns the pourcent bonif.
      */
-    public function getPourcentBonif(): ?float{
+    public function getPourcentBonif(): ?float {
         return $this->pourcentBonif;
     }
 
@@ -3450,7 +3449,7 @@ class Etablissements {
      *
      * @return float|null Returns the pourcent exo.
      */
-    public function getPourcentExo(): ?float{
+    public function getPourcentExo(): ?float {
         return $this->pourcentExo;
     }
 
@@ -3459,7 +3458,7 @@ class Etablissements {
      *
      * @return float|null Returns the pourcent transport.
      */
-    public function getPourcentTransport(): ?float{
+    public function getPourcentTransport(): ?float {
         return $this->pourcentTransport;
     }
 
@@ -3468,7 +3467,7 @@ class Etablissements {
      *
      * @return float|null Returns the pourcentage imp.
      */
-    public function getPourcentageImp(): ?float{
+    public function getPourcentageImp(): ?float {
         return $this->pourcentageImp;
     }
 
@@ -3477,7 +3476,7 @@ class Etablissements {
      *
      * @return bool|null Returns the prof spectacle.
      */
-    public function getProfSpectacle(): ?bool{
+    public function getProfSpectacle(): ?bool {
         return $this->profSpectacle;
     }
 
@@ -3486,7 +3485,7 @@ class Etablissements {
      *
      * @return string|null Returns the profession.
      */
-    public function getProfession(): ?string{
+    public function getProfession(): ?string {
         return $this->profession;
     }
 
@@ -3495,7 +3494,7 @@ class Etablissements {
      *
      * @return string|null Returns the prud type.
      */
-    public function getPrudType(): ?string{
+    public function getPrudType(): ?string {
         return $this->prudType;
     }
 
@@ -3504,7 +3503,7 @@ class Etablissements {
      *
      * @return string|null Returns the prud type dadsu.
      */
-    public function getPrudTypeDadsu(): ?string{
+    public function getPrudTypeDadsu(): ?string {
         return $this->prudTypeDadsu;
     }
 
@@ -3513,7 +3512,7 @@ class Etablissements {
      *
      * @return bool|null Returns the publication.
      */
-    public function getPublication(): ?bool{
+    public function getPublication(): ?bool {
         return $this->publication;
     }
 
@@ -3522,116 +3521,8 @@ class Etablissements {
      *
      * @return string|null Returns the qualite.
      */
-    public function getQualite(): ?string{
+    public function getQualite(): ?string {
         return $this->qualite;
-    }
-
-    /**
-     * Get the rtt1.
-     *
-     * @return float|null Returns the rtt1.
-     */
-    public function getRtt1(): ?float{
-        return $this->rtt1;
-    }
-
-    /**
-     * Get the rtt10.
-     *
-     * @return float|null Returns the rtt10.
-     */
-    public function getRtt10(): ?float{
-        return $this->rtt10;
-    }
-
-    /**
-     * Get the rtt11.
-     *
-     * @return float|null Returns the rtt11.
-     */
-    public function getRtt11(): ?float{
-        return $this->rtt11;
-    }
-
-    /**
-     * Get the rtt12.
-     *
-     * @return float|null Returns the rtt12.
-     */
-    public function getRtt12(): ?float{
-        return $this->rtt12;
-    }
-
-    /**
-     * Get the rtt2.
-     *
-     * @return float|null Returns the rtt2.
-     */
-    public function getRtt2(): ?float{
-        return $this->rtt2;
-    }
-
-    /**
-     * Get the rtt3.
-     *
-     * @return float|null Returns the rtt3.
-     */
-    public function getRtt3(): ?float{
-        return $this->rtt3;
-    }
-
-    /**
-     * Get the rtt4.
-     *
-     * @return float|null Returns the rtt4.
-     */
-    public function getRtt4(): ?float{
-        return $this->rtt4;
-    }
-
-    /**
-     * Get the rtt5.
-     *
-     * @return float|null Returns the rtt5.
-     */
-    public function getRtt5(): ?float{
-        return $this->rtt5;
-    }
-
-    /**
-     * Get the rtt6.
-     *
-     * @return float|null Returns the rtt6.
-     */
-    public function getRtt6(): ?float{
-        return $this->rtt6;
-    }
-
-    /**
-     * Get the rtt7.
-     *
-     * @return float|null Returns the rtt7.
-     */
-    public function getRtt7(): ?float{
-        return $this->rtt7;
-    }
-
-    /**
-     * Get the rtt8.
-     *
-     * @return float|null Returns the rtt8.
-     */
-    public function getRtt8(): ?float{
-        return $this->rtt8;
-    }
-
-    /**
-     * Get the rtt9.
-     *
-     * @return float|null Returns the rtt9.
-     */
-    public function getRtt9(): ?float{
-        return $this->rtt9;
     }
 
     /**
@@ -3639,7 +3530,7 @@ class Etablissements {
      *
      * @return string|null Returns the raison sociale.
      */
-    public function getRaisonSociale(): ?string{
+    public function getRaisonSociale(): ?string {
         return $this->raisonSociale;
     }
 
@@ -3648,7 +3539,7 @@ class Etablissements {
      *
      * @return bool|null Returns the reduction fillon.
      */
-    public function getReductionFillon(): ?bool{
+    public function getReductionFillon(): ?bool {
         return $this->reductionFillon;
     }
 
@@ -3657,7 +3548,7 @@ class Etablissements {
      *
      * @return string|null Returns the responsable.
      */
-    public function getResponsable(): ?string{
+    public function getResponsable(): ?string {
         return $this->responsable;
     }
 
@@ -3666,7 +3557,7 @@ class Etablissements {
      *
      * @return string|null Returns the rib1.
      */
-    public function getRib1(): ?string{
+    public function getRib1(): ?string {
         return $this->rib1;
     }
 
@@ -3675,7 +3566,7 @@ class Etablissements {
      *
      * @return string|null Returns the rib2.
      */
-    public function getRib2(): ?string{
+    public function getRib2(): ?string {
         return $this->rib2;
     }
 
@@ -3684,8 +3575,116 @@ class Etablissements {
      *
      * @return string|null Returns the rib3.
      */
-    public function getRib3(): ?string{
+    public function getRib3(): ?string {
         return $this->rib3;
+    }
+
+    /**
+     * Get the rtt1.
+     *
+     * @return float|null Returns the rtt1.
+     */
+    public function getRtt1(): ?float {
+        return $this->rtt1;
+    }
+
+    /**
+     * Get the rtt10.
+     *
+     * @return float|null Returns the rtt10.
+     */
+    public function getRtt10(): ?float {
+        return $this->rtt10;
+    }
+
+    /**
+     * Get the rtt11.
+     *
+     * @return float|null Returns the rtt11.
+     */
+    public function getRtt11(): ?float {
+        return $this->rtt11;
+    }
+
+    /**
+     * Get the rtt12.
+     *
+     * @return float|null Returns the rtt12.
+     */
+    public function getRtt12(): ?float {
+        return $this->rtt12;
+    }
+
+    /**
+     * Get the rtt2.
+     *
+     * @return float|null Returns the rtt2.
+     */
+    public function getRtt2(): ?float {
+        return $this->rtt2;
+    }
+
+    /**
+     * Get the rtt3.
+     *
+     * @return float|null Returns the rtt3.
+     */
+    public function getRtt3(): ?float {
+        return $this->rtt3;
+    }
+
+    /**
+     * Get the rtt4.
+     *
+     * @return float|null Returns the rtt4.
+     */
+    public function getRtt4(): ?float {
+        return $this->rtt4;
+    }
+
+    /**
+     * Get the rtt5.
+     *
+     * @return float|null Returns the rtt5.
+     */
+    public function getRtt5(): ?float {
+        return $this->rtt5;
+    }
+
+    /**
+     * Get the rtt6.
+     *
+     * @return float|null Returns the rtt6.
+     */
+    public function getRtt6(): ?float {
+        return $this->rtt6;
+    }
+
+    /**
+     * Get the rtt7.
+     *
+     * @return float|null Returns the rtt7.
+     */
+    public function getRtt7(): ?float {
+        return $this->rtt7;
+    }
+
+    /**
+     * Get the rtt8.
+     *
+     * @return float|null Returns the rtt8.
+     */
+    public function getRtt8(): ?float {
+        return $this->rtt8;
+    }
+
+    /**
+     * Get the rtt9.
+     *
+     * @return float|null Returns the rtt9.
+     */
+    public function getRtt9(): ?float {
+        return $this->rtt9;
     }
 
     /**
@@ -3693,7 +3692,7 @@ class Etablissements {
      *
      * @return bool|null Returns the siege dadsu.
      */
-    public function getSiegeDadsu(): ?bool{
+    public function getSiegeDadsu(): ?bool {
         return $this->siegeDadsu;
     }
 
@@ -3702,7 +3701,7 @@ class Etablissements {
      *
      * @return string|null Returns the siret.
      */
-    public function getSiret(): ?string{
+    public function getSiret(): ?string {
         return $this->siret;
     }
 
@@ -3711,7 +3710,7 @@ class Etablissements {
      *
      * @return string|null Returns the situation geo.
      */
-    public function getSituationGeo(): ?string{
+    public function getSituationGeo(): ?string {
         return $this->situationGeo;
     }
 
@@ -3720,7 +3719,7 @@ class Etablissements {
      *
      * @return bool|null Returns the subrogation.
      */
-    public function getSubrogation(): ?bool{
+    public function getSubrogation(): ?bool {
         return $this->subrogation;
     }
 
@@ -3729,35 +3728,8 @@ class Etablissements {
      *
      * @return bool|null Returns the suivi analytique.
      */
-    public function getSuiviAnalytique(): ?bool{
+    public function getSuiviAnalytique(): ?bool {
         return $this->suiviAnalytique;
-    }
-
-    /**
-     * Get the tds128.
-     *
-     * @return string|null Returns the tds128.
-     */
-    public function getTds128(): ?string{
-        return $this->tds128;
-    }
-
-    /**
-     * Get the tds19.
-     *
-     * @return string|null Returns the tds19.
-     */
-    public function getTds19(): ?string{
-        return $this->tds19;
-    }
-
-    /**
-     * Get the tds47.
-     *
-     * @return string|null Returns the tds47.
-     */
-    public function getTds47(): ?string{
-        return $this->tds47;
     }
 
     /**
@@ -3765,7 +3737,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux actionsociale.
      */
-    public function getTauxActionsociale(): ?float{
+    public function getTauxActionsociale(): ?float {
         return $this->tauxActionsociale;
     }
 
@@ -3774,7 +3746,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux construction.
      */
-    public function getTauxConstruction(): ?float{
+    public function getTauxConstruction(): ?float {
         return $this->tauxConstruction;
     }
 
@@ -3783,7 +3755,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux formation.
      */
-    public function getTauxFormation(): ?float{
+    public function getTauxFormation(): ?float {
         return $this->tauxFormation;
     }
 
@@ -3792,7 +3764,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux h sup1.
      */
-    public function getTauxHSup1(): ?float{
+    public function getTauxHSup1(): ?float {
         return $this->tauxHSup1;
     }
 
@@ -3801,7 +3773,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux h sup2.
      */
-    public function getTauxHSup2(): ?float{
+    public function getTauxHSup2(): ?float {
         return $this->tauxHSup2;
     }
 
@@ -3810,7 +3782,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux h sup3.
      */
-    public function getTauxHSup3(): ?float{
+    public function getTauxHSup3(): ?float {
         return $this->tauxHSup3;
     }
 
@@ -3819,7 +3791,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux h sup4.
      */
-    public function getTauxHSup4(): ?float{
+    public function getTauxHSup4(): ?float {
         return $this->tauxHSup4;
     }
 
@@ -3828,7 +3800,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux h sup5.
      */
-    public function getTauxHSup5(): ?float{
+    public function getTauxHSup5(): ?float {
         return $this->tauxHSup5;
     }
 
@@ -3837,7 +3809,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr2 pp.
      */
-    public function getTauxRetTr2Pp(): ?float{
+    public function getTauxRetTr2Pp(): ?float {
         return $this->tauxRetTr2Pp;
     }
 
@@ -3846,7 +3818,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr2 ps.
      */
-    public function getTauxRetTr2Ps(): ?float{
+    public function getTauxRetTr2Ps(): ?float {
         return $this->tauxRetTr2Ps;
     }
 
@@ -3855,7 +3827,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr app.
      */
-    public function getTauxRetTrApp(): ?float{
+    public function getTauxRetTrApp(): ?float {
         return $this->tauxRetTrApp;
     }
 
@@ -3864,7 +3836,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr aps.
      */
-    public function getTauxRetTrAps(): ?float{
+    public function getTauxRetTrAps(): ?float {
         return $this->tauxRetTrAps;
     }
 
@@ -3873,7 +3845,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr bpp.
      */
-    public function getTauxRetTrBpp(): ?float{
+    public function getTauxRetTrBpp(): ?float {
         return $this->tauxRetTrBpp;
     }
 
@@ -3882,7 +3854,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr bps.
      */
-    public function getTauxRetTrBps(): ?float{
+    public function getTauxRetTrBps(): ?float {
         return $this->tauxRetTrBps;
     }
 
@@ -3891,7 +3863,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr cpp.
      */
-    public function getTauxRetTrCpp(): ?float{
+    public function getTauxRetTrCpp(): ?float {
         return $this->tauxRetTrCpp;
     }
 
@@ -3900,7 +3872,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr cps.
      */
-    public function getTauxRetTrCps(): ?float{
+    public function getTauxRetTrCps(): ?float {
         return $this->tauxRetTrCps;
     }
 
@@ -3909,7 +3881,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr dpp.
      */
-    public function getTauxRetTrDpp(): ?float{
+    public function getTauxRetTrDpp(): ?float {
         return $this->tauxRetTrDpp;
     }
 
@@ -3918,7 +3890,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux ret tr dps.
      */
-    public function getTauxRetTrDps(): ?float{
+    public function getTauxRetTrDps(): ?float {
         return $this->tauxRetTrDps;
     }
 
@@ -3927,7 +3899,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux sup formation.
      */
-    public function getTauxSupFormation(): ?float{
+    public function getTauxSupFormation(): ?float {
         return $this->tauxSupFormation;
     }
 
@@ -3936,7 +3908,7 @@ class Etablissements {
      *
      * @return float|null Returns the taux taxe apprenti.
      */
-    public function getTauxTaxeApprenti(): ?float{
+    public function getTauxTaxeApprenti(): ?float {
         return $this->tauxTaxeApprenti;
     }
 
@@ -3945,8 +3917,35 @@ class Etablissements {
      *
      * @return float|null Returns the taux transport.
      */
-    public function getTauxTransport(): ?float{
+    public function getTauxTransport(): ?float {
         return $this->tauxTransport;
+    }
+
+    /**
+     * Get the tds128.
+     *
+     * @return string|null Returns the tds128.
+     */
+    public function getTds128(): ?string {
+        return $this->tds128;
+    }
+
+    /**
+     * Get the tds19.
+     *
+     * @return string|null Returns the tds19.
+     */
+    public function getTds19(): ?string {
+        return $this->tds19;
+    }
+
+    /**
+     * Get the tds47.
+     *
+     * @return string|null Returns the tds47.
+     */
+    public function getTds47(): ?string {
+        return $this->tds47;
     }
 
     /**
@@ -3954,7 +3953,7 @@ class Etablissements {
      *
      * @return string|null Returns the tel.
      */
-    public function getTel(): ?string{
+    public function getTel(): ?string {
         return $this->tel;
     }
 
@@ -3963,7 +3962,7 @@ class Etablissements {
      *
      * @return float|null Returns the tx sal decote.
      */
-    public function getTxSalDecote(): ?float{
+    public function getTxSalDecote(): ?float {
         return $this->txSalDecote;
     }
 
@@ -3972,7 +3971,7 @@ class Etablissements {
      *
      * @return string|null Returns the type base caisse1.
      */
-    public function getTypeBaseCaisse1(): ?string{
+    public function getTypeBaseCaisse1(): ?string {
         return $this->typeBaseCaisse1;
     }
 
@@ -3981,7 +3980,7 @@ class Etablissements {
      *
      * @return string|null Returns the type base caisse2.
      */
-    public function getTypeBaseCaisse2(): ?string{
+    public function getTypeBaseCaisse2(): ?string {
         return $this->typeBaseCaisse2;
     }
 
@@ -3990,7 +3989,7 @@ class Etablissements {
      *
      * @return string|null Returns the type base caisse3.
      */
-    public function getTypeBaseCaisse3(): ?string{
+    public function getTypeBaseCaisse3(): ?string {
         return $this->typeBaseCaisse3;
     }
 
@@ -3999,7 +3998,7 @@ class Etablissements {
      *
      * @return string|null Returns the type bonif.
      */
-    public function getTypeBonif(): ?string{
+    public function getTypeBonif(): ?string {
         return $this->typeBonif;
     }
 
@@ -4008,7 +4007,7 @@ class Etablissements {
      *
      * @return string|null Returns the type domiciliation banque1.
      */
-    public function getTypeDomiciliationBanque1(): ?string{
+    public function getTypeDomiciliationBanque1(): ?string {
         return $this->typeDomiciliationBanque1;
     }
 
@@ -4017,7 +4016,7 @@ class Etablissements {
      *
      * @return string|null Returns the type domiciliation banque2.
      */
-    public function getTypeDomiciliationBanque2(): ?string{
+    public function getTypeDomiciliationBanque2(): ?string {
         return $this->typeDomiciliationBanque2;
     }
 
@@ -4026,7 +4025,7 @@ class Etablissements {
      *
      * @return string|null Returns the type domiciliation banque3.
      */
-    public function getTypeDomiciliationBanque3(): ?string{
+    public function getTypeDomiciliationBanque3(): ?string {
         return $this->typeDomiciliationBanque3;
     }
 
@@ -4035,7 +4034,7 @@ class Etablissements {
      *
      * @return string|null Returns the type effectif.
      */
-    public function getTypeEffectif(): ?string{
+    public function getTypeEffectif(): ?string {
         return $this->typeEffectif;
     }
 
@@ -4044,7 +4043,7 @@ class Etablissements {
      *
      * @return string|null Returns the type maintien salaire.
      */
-    public function getTypeMaintienSalaire(): ?string{
+    public function getTypeMaintienSalaire(): ?string {
         return $this->typeMaintienSalaire;
     }
 
@@ -4053,17 +4052,8 @@ class Etablissements {
      *
      * @return string|null Returns the type publication.
      */
-    public function getTypePublication(): ?string{
+    public function getTypePublication(): ?string {
         return $this->typePublication;
-    }
-
-    /**
-     * Get the type smic.
-     *
-     * @return string|null Returns the type smic.
-     */
-    public function getTypeSmic(): ?string{
-        return $this->typeSmic;
     }
 
     /**
@@ -4071,8 +4061,17 @@ class Etablissements {
      *
      * @return string|null Returns the type saisie ab cp.
      */
-    public function getTypeSaisieAbCp(): ?string{
+    public function getTypeSaisieAbCp(): ?string {
         return $this->typeSaisieAbCp;
+    }
+
+    /**
+     * Get the type smic.
+     *
+     * @return string|null Returns the type smic.
+     */
+    public function getTypeSmic(): ?string {
+        return $this->typeSmic;
     }
 
     /**
@@ -4080,7 +4079,7 @@ class Etablissements {
      *
      * @return bool|null Returns the urssaf alsace.
      */
-    public function getUrssafAlsace(): ?bool{
+    public function getUrssafAlsace(): ?bool {
         return $this->urssafAlsace;
     }
 
@@ -4089,63 +4088,8 @@ class Etablissements {
      *
      * @return string|null Returns the zone specif.
      */
-    public function getZoneSpecif(): ?string{
+    public function getZoneSpecif(): ?string {
         return $this->zoneSpecif;
-    }
-
-    /**
-     * Set the at taux bul1.
-     *
-     * @param float|null $atTauxBul1 The at taux bul1.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setAtTauxBul1(?float $atTauxBul1): Etablissements {
-        $this->atTauxBul1 = $atTauxBul1;
-        return $this;
-    }
-
-    /**
-     * Set the at taux bul2.
-     *
-     * @param float|null $atTauxBul2 The at taux bul2.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setAtTauxBul2(?float $atTauxBul2): Etablissements {
-        $this->atTauxBul2 = $atTauxBul2;
-        return $this;
-    }
-
-    /**
-     * Set the at taux bul3.
-     *
-     * @param float|null $atTauxBul3 The at taux bul3.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setAtTauxBul3(?float $atTauxBul3): Etablissements {
-        $this->atTauxBul3 = $atTauxBul3;
-        return $this;
-    }
-
-    /**
-     * Set the at taux bul4.
-     *
-     * @param float|null $atTauxBul4 The at taux bul4.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setAtTauxBul4(?float $atTauxBul4): Etablissements {
-        $this->atTauxBul4 = $atTauxBul4;
-        return $this;
-    }
-
-    /**
-     * Set the at taux bul5.
-     *
-     * @param float|null $atTauxBul5 The at taux bul5.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setAtTauxBul5(?float $atTauxBul5): Etablissements {
-        $this->atTauxBul5 = $atTauxBul5;
-        return $this;
     }
 
     /**
@@ -4391,6 +4335,61 @@ class Etablissements {
     }
 
     /**
+     * Set the at taux bul1.
+     *
+     * @param float|null $atTauxBul1 The at taux bul1.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setAtTauxBul1(?float $atTauxBul1): Etablissements {
+        $this->atTauxBul1 = $atTauxBul1;
+        return $this;
+    }
+
+    /**
+     * Set the at taux bul2.
+     *
+     * @param float|null $atTauxBul2 The at taux bul2.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setAtTauxBul2(?float $atTauxBul2): Etablissements {
+        $this->atTauxBul2 = $atTauxBul2;
+        return $this;
+    }
+
+    /**
+     * Set the at taux bul3.
+     *
+     * @param float|null $atTauxBul3 The at taux bul3.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setAtTauxBul3(?float $atTauxBul3): Etablissements {
+        $this->atTauxBul3 = $atTauxBul3;
+        return $this;
+    }
+
+    /**
+     * Set the at taux bul4.
+     *
+     * @param float|null $atTauxBul4 The at taux bul4.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setAtTauxBul4(?float $atTauxBul4): Etablissements {
+        $this->atTauxBul4 = $atTauxBul4;
+        return $this;
+    }
+
+    /**
+     * Set the at taux bul5.
+     *
+     * @param float|null $atTauxBul5 The at taux bul5.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setAtTauxBul5(?float $atTauxBul5): Etablissements {
+        $this->atTauxBul5 = $atTauxBul5;
+        return $this;
+    }
+
+    /**
      * Set the aubry1 modifie.
      *
      * @param bool|null $aubry1Modifie The aubry1 modifie.
@@ -4409,28 +4408,6 @@ class Etablissements {
      */
     public function setAutreAlleg(?string $autreAlleg): Etablissements {
         $this->autreAlleg = $autreAlleg;
-        return $this;
-    }
-
-    /**
-     * Set the bic1.
-     *
-     * @param string|null $bic1 The bic1.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setBic1(?string $bic1): Etablissements {
-        $this->bic1 = $bic1;
-        return $this;
-    }
-
-    /**
-     * Set the btq.
-     *
-     * @param string|null $btq The btq.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setBtq(?string $btq): Etablissements {
-        $this->btq = $btq;
         return $this;
     }
 
@@ -4468,6 +4445,17 @@ class Etablissements {
     }
 
     /**
+     * Set the bic1.
+     *
+     * @param string|null $bic1 The bic1.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setBic1(?string $bic1): Etablissements {
+        $this->bic1 = $bic1;
+        return $this;
+    }
+
+    /**
      * Set the bonus cospar.
      *
      * @param bool|null $bonusCospar The bonus cospar.
@@ -4475,6 +4463,17 @@ class Etablissements {
      */
     public function setBonusCospar(?bool $bonusCospar): Etablissements {
         $this->bonusCospar = $bonusCospar;
+        return $this;
+    }
+
+    /**
+     * Set the btq.
+     *
+     * @param string|null $btq The btq.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setBtq(?string $btq): Etablissements {
+        $this->btq = $btq;
         return $this;
     }
 
@@ -4809,39 +4808,6 @@ class Etablissements {
     }
 
     /**
-     * Set the code naf2008.
-     *
-     * @param string|null $codeNaf2008 The code naf2008.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setCodeNaf2008(?string $codeNaf2008): Etablissements {
-        $this->codeNaf2008 = $codeNaf2008;
-        return $this;
-    }
-
-    /**
-     * Set the code naf22008.
-     *
-     * @param string|null $codeNaf22008 The code naf22008.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setCodeNaf22008(?string $codeNaf22008): Etablissements {
-        $this->codeNaf22008 = $codeNaf22008;
-        return $this;
-    }
-
-    /**
-     * Set the code naf32008.
-     *
-     * @param string|null $codeNaf32008 The code naf32008.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setCodeNaf32008(?string $codeNaf32008): Etablissements {
-        $this->codeNaf32008 = $codeNaf32008;
-        return $this;
-    }
-
-    /**
      * Set the code naf.
      *
      * @param string|null $codeNaf The code naf.
@@ -4864,6 +4830,28 @@ class Etablissements {
     }
 
     /**
+     * Set the code naf2008.
+     *
+     * @param string|null $codeNaf2008 The code naf2008.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setCodeNaf2008(?string $codeNaf2008): Etablissements {
+        $this->codeNaf2008 = $codeNaf2008;
+        return $this;
+    }
+
+    /**
+     * Set the code naf22008.
+     *
+     * @param string|null $codeNaf22008 The code naf22008.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setCodeNaf22008(?string $codeNaf22008): Etablissements {
+        $this->codeNaf22008 = $codeNaf22008;
+        return $this;
+    }
+
+    /**
      * Set the code naf3.
      *
      * @param string|null $codeNaf3 The code naf3.
@@ -4871,6 +4859,17 @@ class Etablissements {
      */
     public function setCodeNaf3(?string $codeNaf3): Etablissements {
         $this->codeNaf3 = $codeNaf3;
+        return $this;
+    }
+
+    /**
+     * Set the code naf32008.
+     *
+     * @param string|null $codeNaf32008 The code naf32008.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setCodeNaf32008(?string $codeNaf32008): Etablissements {
+        $this->codeNaf32008 = $codeNaf32008;
         return $this;
     }
 
@@ -5502,17 +5501,6 @@ class Etablissements {
     }
 
     /**
-     * Set the gestion rtt.
-     *
-     * @param bool|null $gestionRtt The gestion rtt.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setGestionRtt(?bool $gestionRtt): Etablissements {
-        $this->gestionRtt = $gestionRtt;
-        return $this;
-    }
-
-    /**
      * Set the gestion repos comp.
      *
      * @param bool|null $gestionReposComp The gestion repos comp.
@@ -5542,6 +5530,17 @@ class Etablissements {
      */
     public function setGestionReposRemplace(?bool $gestionReposRemplace): Etablissements {
         $this->gestionReposRemplace = $gestionReposRemplace;
+        return $this;
+    }
+
+    /**
+     * Set the gestion rtt.
+     *
+     * @param bool|null $gestionRtt The gestion rtt.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setGestionRtt(?bool $gestionRtt): Etablissements {
+        $this->gestionRtt = $gestionRtt;
         return $this;
     }
 
@@ -5766,17 +5765,6 @@ class Etablissements {
     }
 
     /**
-     * Set the nb hdif an.
-     *
-     * @param float|null $nbHdifAn The nb hdif an.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setNbHdifAn(?float $nbHdifAn): Etablissements {
-        $this->nbHdifAn = $nbHdifAn;
-        return $this;
-    }
-
-    /**
      * Set the nb h jour1.
      *
      * @param float|null $nbHJour1 The nb h jour1.
@@ -5850,6 +5838,17 @@ class Etablissements {
      */
     public function setNbHJour7(?float $nbHJour7): Etablissements {
         $this->nbHJour7 = $nbHJour7;
+        return $this;
+    }
+
+    /**
+     * Set the nb hdif an.
+     *
+     * @param float|null $nbHdifAn The nb hdif an.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setNbHdifAn(?float $nbHdifAn): Etablissements {
+        $this->nbHdifAn = $nbHdifAn;
         return $this;
     }
 
@@ -6195,6 +6194,72 @@ class Etablissements {
     }
 
     /**
+     * Set the raison sociale.
+     *
+     * @param string|null $raisonSociale The raison sociale.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setRaisonSociale(?string $raisonSociale): Etablissements {
+        $this->raisonSociale = $raisonSociale;
+        return $this;
+    }
+
+    /**
+     * Set the reduction fillon.
+     *
+     * @param bool|null $reductionFillon The reduction fillon.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setReductionFillon(?bool $reductionFillon): Etablissements {
+        $this->reductionFillon = $reductionFillon;
+        return $this;
+    }
+
+    /**
+     * Set the responsable.
+     *
+     * @param string|null $responsable The responsable.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setResponsable(?string $responsable): Etablissements {
+        $this->responsable = $responsable;
+        return $this;
+    }
+
+    /**
+     * Set the rib1.
+     *
+     * @param string|null $rib1 The rib1.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setRib1(?string $rib1): Etablissements {
+        $this->rib1 = $rib1;
+        return $this;
+    }
+
+    /**
+     * Set the rib2.
+     *
+     * @param string|null $rib2 The rib2.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setRib2(?string $rib2): Etablissements {
+        $this->rib2 = $rib2;
+        return $this;
+    }
+
+    /**
+     * Set the rib3.
+     *
+     * @param string|null $rib3 The rib3.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setRib3(?string $rib3): Etablissements {
+        $this->rib3 = $rib3;
+        return $this;
+    }
+
+    /**
      * Set the rtt1.
      *
      * @param float|null $rtt1 The rtt1.
@@ -6327,72 +6392,6 @@ class Etablissements {
     }
 
     /**
-     * Set the raison sociale.
-     *
-     * @param string|null $raisonSociale The raison sociale.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setRaisonSociale(?string $raisonSociale): Etablissements {
-        $this->raisonSociale = $raisonSociale;
-        return $this;
-    }
-
-    /**
-     * Set the reduction fillon.
-     *
-     * @param bool|null $reductionFillon The reduction fillon.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setReductionFillon(?bool $reductionFillon): Etablissements {
-        $this->reductionFillon = $reductionFillon;
-        return $this;
-    }
-
-    /**
-     * Set the responsable.
-     *
-     * @param string|null $responsable The responsable.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setResponsable(?string $responsable): Etablissements {
-        $this->responsable = $responsable;
-        return $this;
-    }
-
-    /**
-     * Set the rib1.
-     *
-     * @param string|null $rib1 The rib1.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setRib1(?string $rib1): Etablissements {
-        $this->rib1 = $rib1;
-        return $this;
-    }
-
-    /**
-     * Set the rib2.
-     *
-     * @param string|null $rib2 The rib2.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setRib2(?string $rib2): Etablissements {
-        $this->rib2 = $rib2;
-        return $this;
-    }
-
-    /**
-     * Set the rib3.
-     *
-     * @param string|null $rib3 The rib3.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setRib3(?string $rib3): Etablissements {
-        $this->rib3 = $rib3;
-        return $this;
-    }
-
-    /**
      * Set the siege dadsu.
      *
      * @param bool|null $siegeDadsu The siege dadsu.
@@ -6444,39 +6443,6 @@ class Etablissements {
      */
     public function setSuiviAnalytique(?bool $suiviAnalytique): Etablissements {
         $this->suiviAnalytique = $suiviAnalytique;
-        return $this;
-    }
-
-    /**
-     * Set the tds128.
-     *
-     * @param string|null $tds128 The tds128.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setTds128(?string $tds128): Etablissements {
-        $this->tds128 = $tds128;
-        return $this;
-    }
-
-    /**
-     * Set the tds19.
-     *
-     * @param string|null $tds19 The tds19.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setTds19(?string $tds19): Etablissements {
-        $this->tds19 = $tds19;
-        return $this;
-    }
-
-    /**
-     * Set the tds47.
-     *
-     * @param string|null $tds47 The tds47.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setTds47(?string $tds47): Etablissements {
-        $this->tds47 = $tds47;
         return $this;
     }
 
@@ -6712,6 +6678,39 @@ class Etablissements {
     }
 
     /**
+     * Set the tds128.
+     *
+     * @param string|null $tds128 The tds128.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setTds128(?string $tds128): Etablissements {
+        $this->tds128 = $tds128;
+        return $this;
+    }
+
+    /**
+     * Set the tds19.
+     *
+     * @param string|null $tds19 The tds19.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setTds19(?string $tds19): Etablissements {
+        $this->tds19 = $tds19;
+        return $this;
+    }
+
+    /**
+     * Set the tds47.
+     *
+     * @param string|null $tds47 The tds47.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setTds47(?string $tds47): Etablissements {
+        $this->tds47 = $tds47;
+        return $this;
+    }
+
+    /**
      * Set the tel.
      *
      * @param string|null $tel The tel.
@@ -6844,17 +6843,6 @@ class Etablissements {
     }
 
     /**
-     * Set the type smic.
-     *
-     * @param string|null $typeSmic The type smic.
-     * @return Etablissements Returns this Etablissements.
-     */
-    public function setTypeSmic(?string $typeSmic): Etablissements {
-        $this->typeSmic = $typeSmic;
-        return $this;
-    }
-
-    /**
      * Set the type saisie ab cp.
      *
      * @param string|null $typeSaisieAbCp The type saisie ab cp.
@@ -6862,6 +6850,17 @@ class Etablissements {
      */
     public function setTypeSaisieAbCp(?string $typeSaisieAbCp): Etablissements {
         $this->typeSaisieAbCp = $typeSaisieAbCp;
+        return $this;
+    }
+
+    /**
+     * Set the type smic.
+     *
+     * @param string|null $typeSmic The type smic.
+     * @return Etablissements Returns this Etablissements.
+     */
+    public function setTypeSmic(?string $typeSmic): Etablissements {
+        $this->typeSmic = $typeSmic;
         return $this;
     }
 

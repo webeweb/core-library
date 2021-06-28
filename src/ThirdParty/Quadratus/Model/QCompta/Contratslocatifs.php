@@ -308,7 +308,6 @@ class Contratslocatifs {
      */
     private $uniteDuree;
 
-
     /**
      * Constructor.
      */
@@ -321,7 +320,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the caution.
      */
-    public function getCaution(): ?float{
+    public function getCaution(): ?float {
         return $this->caution;
     }
 
@@ -330,7 +329,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the caution2.
      */
-    public function getCaution2(): ?float{
+    public function getCaution2(): ?float {
         return $this->caution2;
     }
 
@@ -339,7 +338,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the caution3.
      */
-    public function getCaution3(): ?float{
+    public function getCaution3(): ?float {
         return $this->caution3;
     }
 
@@ -348,7 +347,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the caution4.
      */
-    public function getCaution4(): ?float{
+    public function getCaution4(): ?float {
         return $this->caution4;
     }
 
@@ -357,7 +356,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the caution5.
      */
-    public function getCaution5(): ?float{
+    public function getCaution5(): ?float {
         return $this->caution5;
     }
 
@@ -366,7 +365,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the clausespeciale.
      */
-    public function getClausespeciale(): ?string{
+    public function getClausespeciale(): ?string {
         return $this->clausespeciale;
     }
 
@@ -375,7 +374,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -384,7 +383,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the date anniversaire.
      */
-    public function getDateAnniversaire(): ?string{
+    public function getDateAnniversaire(): ?string {
         return $this->dateAnniversaire;
     }
 
@@ -393,7 +392,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date caution.
      */
-    public function getDateCaution(): ?DateTime{
+    public function getDateCaution(): ?DateTime {
         return $this->dateCaution;
     }
 
@@ -402,7 +401,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date caution2.
      */
-    public function getDateCaution2(): ?DateTime{
+    public function getDateCaution2(): ?DateTime {
         return $this->dateCaution2;
     }
 
@@ -411,7 +410,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date caution3.
      */
-    public function getDateCaution3(): ?DateTime{
+    public function getDateCaution3(): ?DateTime {
         return $this->dateCaution3;
     }
 
@@ -420,7 +419,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date caution4.
      */
-    public function getDateCaution4(): ?DateTime{
+    public function getDateCaution4(): ?DateTime {
         return $this->dateCaution4;
     }
 
@@ -429,7 +428,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date caution5.
      */
-    public function getDateCaution5(): ?DateTime{
+    public function getDateCaution5(): ?DateTime {
         return $this->dateCaution5;
     }
 
@@ -438,7 +437,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date signature.
      */
-    public function getDateSignature(): ?DateTime{
+    public function getDateSignature(): ?DateTime {
         return $this->dateSignature;
     }
 
@@ -447,7 +446,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date signature2.
      */
-    public function getDateSignature2(): ?DateTime{
+    public function getDateSignature2(): ?DateTime {
         return $this->dateSignature2;
     }
 
@@ -456,7 +455,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date signature3.
      */
-    public function getDateSignature3(): ?DateTime{
+    public function getDateSignature3(): ?DateTime {
         return $this->dateSignature3;
     }
 
@@ -465,7 +464,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date signature4.
      */
-    public function getDateSignature4(): ?DateTime{
+    public function getDateSignature4(): ?DateTime {
         return $this->dateSignature4;
     }
 
@@ -474,7 +473,7 @@ class Contratslocatifs {
      *
      * @return DateTime|null Returns the date signature5.
      */
-    public function getDateSignature5(): ?DateTime{
+    public function getDateSignature5(): ?DateTime {
         return $this->dateSignature5;
     }
 
@@ -483,7 +482,7 @@ class Contratslocatifs {
      *
      * @return int|null Returns the duree.
      */
-    public function getDuree(): ?int{
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
@@ -492,7 +491,7 @@ class Contratslocatifs {
      *
      * @return int|null Returns the duree preavis.
      */
-    public function getDureePreavis(): ?int{
+    public function getDureePreavis(): ?int {
         return $this->dureePreavis;
     }
 
@@ -501,7 +500,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -510,7 +509,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the monnaie caution.
      */
-    public function getMonnaieCaution(): ?string{
+    public function getMonnaieCaution(): ?string {
         return $this->monnaieCaution;
     }
 
@@ -519,7 +518,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the monnaie loyer.
      */
-    public function getMonnaieLoyer(): ?string{
+    public function getMonnaieLoyer(): ?string {
         return $this->monnaieLoyer;
     }
 
@@ -528,7 +527,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant annuel.
      */
-    public function getMontantAnnuel(): ?float{
+    public function getMontantAnnuel(): ?float {
         return $this->montantAnnuel;
     }
 
@@ -537,7 +536,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant annuel2.
      */
-    public function getMontantAnnuel2(): ?float{
+    public function getMontantAnnuel2(): ?float {
         return $this->montantAnnuel2;
     }
 
@@ -546,7 +545,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant annuel3.
      */
-    public function getMontantAnnuel3(): ?float{
+    public function getMontantAnnuel3(): ?float {
         return $this->montantAnnuel3;
     }
 
@@ -555,7 +554,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant annuel4.
      */
-    public function getMontantAnnuel4(): ?float{
+    public function getMontantAnnuel4(): ?float {
         return $this->montantAnnuel4;
     }
 
@@ -564,7 +563,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant annuel5.
      */
-    public function getMontantAnnuel5(): ?float{
+    public function getMontantAnnuel5(): ?float {
         return $this->montantAnnuel5;
     }
 
@@ -573,7 +572,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant charges.
      */
-    public function getMontantCharges(): ?float{
+    public function getMontantCharges(): ?float {
         return $this->montantCharges;
     }
 
@@ -582,7 +581,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant charges2.
      */
-    public function getMontantCharges2(): ?float{
+    public function getMontantCharges2(): ?float {
         return $this->montantCharges2;
     }
 
@@ -591,7 +590,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant charges3.
      */
-    public function getMontantCharges3(): ?float{
+    public function getMontantCharges3(): ?float {
         return $this->montantCharges3;
     }
 
@@ -600,7 +599,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant charges4.
      */
-    public function getMontantCharges4(): ?float{
+    public function getMontantCharges4(): ?float {
         return $this->montantCharges4;
     }
 
@@ -609,7 +608,7 @@ class Contratslocatifs {
      *
      * @return float|null Returns the montant charges5.
      */
-    public function getMontantCharges5(): ?float{
+    public function getMontantCharges5(): ?float {
         return $this->montantCharges5;
     }
 
@@ -618,7 +617,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the num cpt caution.
      */
-    public function getNumCptCaution(): ?string{
+    public function getNumCptCaution(): ?string {
         return $this->numCptCaution;
     }
 
@@ -627,7 +626,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the num cpt charges.
      */
-    public function getNumCptCharges(): ?string{
+    public function getNumCptCharges(): ?string {
         return $this->numCptCharges;
     }
 
@@ -636,7 +635,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the num cpt loyer.
      */
-    public function getNumCptLoyer(): ?string{
+    public function getNumCptLoyer(): ?string {
         return $this->numCptLoyer;
     }
 
@@ -645,7 +644,7 @@ class Contratslocatifs {
      *
      * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre(): ?int{
+    public function getNumOrdre(): ?int {
         return $this->numOrdre;
     }
 
@@ -654,7 +653,7 @@ class Contratslocatifs {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -663,7 +662,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -672,7 +671,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
     }
 
@@ -681,7 +680,7 @@ class Contratslocatifs {
      *
      * @return string|null Returns the unite duree.
      */
-    public function getUniteDuree(): ?string{
+    public function getUniteDuree(): ?string {
         return $this->uniteDuree;
     }
 

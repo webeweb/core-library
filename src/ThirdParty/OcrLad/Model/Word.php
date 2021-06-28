@@ -12,9 +12,9 @@
 namespace WBW\Library\Core\ThirdParty\OcrLad\Model;
 
 use WBW\Library\Core\Geometry\Point;
-use WBW\Library\Core\Model\Attribute\IntegerPageTrait;
-use WBW\Library\Core\Model\Attribute\StringContentTrait;
-use WBW\Library\Core\Model\Attribute\StringTypeTrait;
+use WBW\Library\Traits\Integers\IntegerPageTrait;
+use WBW\Library\Traits\Strings\StringContentTrait;
+use WBW\Library\Traits\Strings\StringTypeTrait;
 
 /**
  * Word.

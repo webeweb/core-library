@@ -98,7 +98,6 @@ class FichesControles {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class FichesControles {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -120,7 +119,7 @@ class FichesControles {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -129,7 +128,7 @@ class FichesControles {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -138,7 +137,7 @@ class FichesControles {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -147,7 +146,7 @@ class FichesControles {
      *
      * @return DateTime|null Returns the date controle.
      */
-    public function getDateControle(): ?DateTime{
+    public function getDateControle(): ?DateTime {
         return $this->dateControle;
     }
 
@@ -156,7 +155,7 @@ class FichesControles {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert(): ?DateTime{
+    public function getDateTransfert(): ?DateTime {
         return $this->dateTransfert;
     }
 
@@ -165,7 +164,7 @@ class FichesControles {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -174,7 +173,7 @@ class FichesControles {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -183,7 +182,7 @@ class FichesControles {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -192,7 +191,7 @@ class FichesControles {
      *
      * @return int|null Returns the numero reclamation.
      */
-    public function getNumeroReclamation(): ?int{
+    public function getNumeroReclamation(): ?int {
         return $this->numeroReclamation;
     }
 
@@ -201,7 +200,7 @@ class FichesControles {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

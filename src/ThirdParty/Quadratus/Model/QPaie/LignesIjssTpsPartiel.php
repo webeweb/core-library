@@ -63,7 +63,6 @@ class LignesIjssTpsPartiel {
      */
     private $periodeFin;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class LignesIjssTpsPartiel {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -85,7 +84,7 @@ class LignesIjssTpsPartiel {
      *
      * @return float|null Returns the montant plein.
      */
-    public function getMontantPlein(): ?float{
+    public function getMontantPlein(): ?float {
         return $this->montantPlein;
     }
 
@@ -94,7 +93,7 @@ class LignesIjssTpsPartiel {
      *
      * @return string|null Returns the num ligne.
      */
-    public function getNumLigne(): ?string{
+    public function getNumLigne(): ?string {
         return $this->numLigne;
     }
 
@@ -103,7 +102,7 @@ class LignesIjssTpsPartiel {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -112,7 +111,7 @@ class LignesIjssTpsPartiel {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -121,7 +120,7 @@ class LignesIjssTpsPartiel {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 

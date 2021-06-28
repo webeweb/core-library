@@ -169,13 +169,6 @@ class CdeClientLigne {
     private $numeroLigne;
 
     /**
-     * Pu brut.
-     *
-     * @var float|null
-     */
-    private $puBrut;
-
-    /**
      * Prix achat.
      *
      * @var float|null
@@ -188,6 +181,13 @@ class CdeClientLigne {
      * @var bool|null
      */
     private $prixbloque;
+
+    /**
+     * Pu brut.
+     *
+     * @var float|null
+     */
+    private $puBrut;
 
     /**
      * Qte origine.
@@ -245,7 +245,6 @@ class CdeClientLigne {
      */
     private $typeLigne;
 
-
     /**
      * Constructor.
      */
@@ -258,7 +257,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -267,7 +266,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -276,7 +275,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -285,7 +284,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -294,7 +293,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code depot.
      */
-    public function getCodeDepot(): ?string{
+    public function getCodeDepot(): ?string {
         return $this->codeDepot;
     }
 
@@ -303,7 +302,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -312,7 +311,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -321,7 +320,7 @@ class CdeClientLigne {
      *
      * @return int|null Returns the code unite.
      */
-    public function getCodeUnite(): ?int{
+    public function getCodeUnite(): ?int {
         return $this->codeUnite;
     }
 
@@ -330,7 +329,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code variante.
      */
-    public function getCodeVariante(): ?string{
+    public function getCodeVariante(): ?string {
         return $this->codeVariante;
     }
 
@@ -339,7 +338,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the code ventil vente.
      */
-    public function getCodeVentilVente(): ?string{
+    public function getCodeVentilVente(): ?string {
         return $this->codeVentilVente;
     }
 
@@ -348,7 +347,7 @@ class CdeClientLigne {
      *
      * @return bool|null Returns the commande recue.
      */
-    public function getCommandeRecue(): ?bool{
+    public function getCommandeRecue(): ?bool {
         return $this->commandeRecue;
     }
 
@@ -357,7 +356,7 @@ class CdeClientLigne {
      *
      * @return DateTime|null Returns the date reception prevue.
      */
-    public function getDateReceptionPrevue(): ?DateTime{
+    public function getDateReceptionPrevue(): ?DateTime {
         return $this->dateReceptionPrevue;
     }
 
@@ -366,7 +365,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -375,7 +374,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -384,7 +383,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -393,7 +392,7 @@ class CdeClientLigne {
      *
      * @return int|null Returns the indice ligne.
      */
-    public function getIndiceLigne(): ?int{
+    public function getIndiceLigne(): ?int {
         return $this->indiceLigne;
     }
 
@@ -402,7 +401,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the no bl.
      */
-    public function getNoBl(): ?string{
+    public function getNoBl(): ?string {
         return $this->noBl;
     }
 
@@ -411,7 +410,7 @@ class CdeClientLigne {
      *
      * @return int|null Returns the no ligne bl.
      */
-    public function getNoLigneBl(): ?int{
+    public function getNoLigneBl(): ?int {
         return $this->noLigneBl;
     }
 
@@ -420,7 +419,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the no piece.
      */
-    public function getNoPiece(): ?string{
+    public function getNoPiece(): ?string {
         return $this->noPiece;
     }
 
@@ -429,7 +428,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the numero facture.
      */
-    public function getNumeroFacture(): ?string{
+    public function getNumeroFacture(): ?string {
         return $this->numeroFacture;
     }
 
@@ -438,17 +437,8 @@ class CdeClientLigne {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
-    }
-
-    /**
-     * Get the pu brut.
-     *
-     * @return float|null Returns the pu brut.
-     */
-    public function getPuBrut(): ?float{
-        return $this->puBrut;
     }
 
     /**
@@ -456,7 +446,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the prix achat.
      */
-    public function getPrixAchat(): ?float{
+    public function getPrixAchat(): ?float {
         return $this->prixAchat;
     }
 
@@ -465,8 +455,17 @@ class CdeClientLigne {
      *
      * @return bool|null Returns the prixbloque.
      */
-    public function getPrixbloque(): ?bool{
+    public function getPrixbloque(): ?bool {
         return $this->prixbloque;
+    }
+
+    /**
+     * Get the pu brut.
+     *
+     * @return float|null Returns the pu brut.
+     */
+    public function getPuBrut(): ?float {
+        return $this->puBrut;
     }
 
     /**
@@ -474,7 +473,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the qte origine.
      */
-    public function getQteOrigine(): ?float{
+    public function getQteOrigine(): ?float {
         return $this->qteOrigine;
     }
 
@@ -483,7 +482,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -492,7 +491,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -501,7 +500,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -510,7 +509,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -519,7 +518,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the taux commission.
      */
-    public function getTauxCommission(): ?float{
+    public function getTauxCommission(): ?float {
         return $this->tauxCommission;
     }
 
@@ -528,7 +527,7 @@ class CdeClientLigne {
      *
      * @return float|null Returns the taux tva.
      */
-    public function getTauxTva(): ?float{
+    public function getTauxTva(): ?float {
         return $this->tauxTva;
     }
 
@@ -537,7 +536,7 @@ class CdeClientLigne {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 
@@ -773,17 +772,6 @@ class CdeClientLigne {
     }
 
     /**
-     * Set the pu brut.
-     *
-     * @param float|null $puBrut The pu brut.
-     * @return CdeClientLigne Returns this Cde client ligne.
-     */
-    public function setPuBrut(?float $puBrut): CdeClientLigne {
-        $this->puBrut = $puBrut;
-        return $this;
-    }
-
-    /**
      * Set the prix achat.
      *
      * @param float|null $prixAchat The prix achat.
@@ -802,6 +790,17 @@ class CdeClientLigne {
      */
     public function setPrixbloque(?bool $prixbloque): CdeClientLigne {
         $this->prixbloque = $prixbloque;
+        return $this;
+    }
+
+    /**
+     * Set the pu brut.
+     *
+     * @param float|null $puBrut The pu brut.
+     * @return CdeClientLigne Returns this Cde client ligne.
+     */
+    public function setPuBrut(?float $puBrut): CdeClientLigne {
+        $this->puBrut = $puBrut;
         return $this;
     }
 

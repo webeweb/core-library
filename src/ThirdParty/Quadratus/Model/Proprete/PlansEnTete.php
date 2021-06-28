@@ -252,7 +252,6 @@ class PlansEnTete {
      */
     private $typeAdresse;
 
-
     /**
      * Constructor.
      */
@@ -265,7 +264,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -274,7 +273,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -283,7 +282,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -292,7 +291,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -301,7 +300,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -310,7 +309,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -319,7 +318,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -328,7 +327,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -337,7 +336,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -346,7 +345,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -355,7 +354,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision(): ?DateTime{
+    public function getDateRevision(): ?DateTime {
         return $this->dateRevision;
     }
 
@@ -364,7 +363,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt avant dern prepa.
      */
-    public function getDtAvantDernPrepa(): ?DateTime{
+    public function getDtAvantDernPrepa(): ?DateTime {
         return $this->dtAvantDernPrepa;
     }
 
@@ -373,7 +372,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt dern prepa.
      */
-    public function getDtDernPrepa(): ?DateTime{
+    public function getDtDernPrepa(): ?DateTime {
         return $this->dtDernPrepa;
     }
 
@@ -382,7 +381,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact deb.
      */
-    public function getDtValiditeFactDeb(): ?DateTime{
+    public function getDtValiditeFactDeb(): ?DateTime {
         return $this->dtValiditeFactDeb;
     }
 
@@ -391,7 +390,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact deb deb mois.
      */
-    public function getDtValiditeFactDebDebMois(): ?DateTime{
+    public function getDtValiditeFactDebDebMois(): ?DateTime {
         return $this->dtValiditeFactDebDebMois;
     }
 
@@ -400,7 +399,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact fin.
      */
-    public function getDtValiditeFactFin(): ?DateTime{
+    public function getDtValiditeFactFin(): ?DateTime {
         return $this->dtValiditeFactFin;
     }
 
@@ -409,7 +408,7 @@ class PlansEnTete {
      *
      * @return DateTime|null Returns the dt validite fact fin fin mois.
      */
-    public function getDtValiditeFactFinFinMois(): ?DateTime{
+    public function getDtValiditeFactFinFinMois(): ?DateTime {
         return $this->dtValiditeFactFinFinMois;
     }
 
@@ -418,7 +417,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the jour fact.
      */
-    public function getJourFact(): ?string{
+    public function getJourFact(): ?string {
         return $this->jourFact;
     }
 
@@ -427,7 +426,7 @@ class PlansEnTete {
      *
      * @return float|null Returns the montant htpx.
      */
-    public function getMontantHtpx(): ?float{
+    public function getMontantHtpx(): ?float {
         return $this->montantHtpx;
     }
 
@@ -436,7 +435,7 @@ class PlansEnTete {
      *
      * @return float|null Returns the montant htvm.
      */
-    public function getMontantHtvm(): ?float{
+    public function getMontantHtvm(): ?float {
         return $this->montantHtvm;
     }
 
@@ -445,7 +444,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the nom client.
      */
-    public function getNomClient(): ?string{
+    public function getNomClient(): ?string {
         return $this->nomClient;
     }
 
@@ -454,7 +453,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -463,7 +462,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2(): ?string{
+    public function getNomSuite2(): ?string {
         return $this->nomSuite2;
     }
 
@@ -472,7 +471,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the nom suite3.
      */
-    public function getNomSuite3(): ?string{
+    public function getNomSuite3(): ?string {
         return $this->nomSuite3;
     }
 
@@ -481,7 +480,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -490,7 +489,7 @@ class PlansEnTete {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -499,7 +498,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -508,7 +507,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the numero commande web ft.
      */
-    public function getNumeroCommandeWebFt(): ?string{
+    public function getNumeroCommandeWebFt(): ?string {
         return $this->numeroCommandeWebFt;
     }
 
@@ -517,7 +516,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis(): ?string{
+    public function getNumeroDevis(): ?string {
         return $this->numeroDevis;
     }
 
@@ -526,7 +525,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the reference facture.
      */
-    public function getReferenceFacture(): ?string{
+    public function getReferenceFacture(): ?string {
         return $this->referenceFacture;
     }
 
@@ -535,7 +534,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the reference facture2.
      */
-    public function getReferenceFacture2(): ?string{
+    public function getReferenceFacture2(): ?string {
         return $this->referenceFacture2;
     }
 
@@ -544,7 +543,7 @@ class PlansEnTete {
      *
      * @return bool|null Returns the revision annuelle.
      */
-    public function getRevisionAnnuelle(): ?bool{
+    public function getRevisionAnnuelle(): ?bool {
         return $this->revisionAnnuelle;
     }
 
@@ -553,7 +552,7 @@ class PlansEnTete {
      *
      * @return string|null Returns the type adresse.
      */
-    public function getTypeAdresse(): ?string{
+    public function getTypeAdresse(): ?string {
         return $this->typeAdresse;
     }
 

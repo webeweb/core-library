@@ -392,7 +392,6 @@ class RecapDucsAnnuelle {
      */
     private $typeOrganisme;
 
-
     /**
      * Constructor.
      */
@@ -405,7 +404,7 @@ class RecapDucsAnnuelle {
      *
      * @return bool|null Returns the a editer ducs.
      */
-    public function getAEditerDucs(): ?bool{
+    public function getAEditerDucs(): ?bool {
         return $this->aEditerDucs;
     }
 
@@ -414,7 +413,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the acompte.
      */
-    public function getAcompte(): ?float{
+    public function getAcompte(): ?float {
         return $this->acompte;
     }
 
@@ -423,7 +422,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the arrondi base.
      */
-    public function getArrondiBase(): ?string{
+    public function getArrondiBase(): ?string {
         return $this->arrondiBase;
     }
 
@@ -432,7 +431,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the arrondi cotis.
      */
-    public function getArrondiCotis(): ?string{
+    public function getArrondiCotis(): ?string {
         return $this->arrondiCotis;
     }
 
@@ -441,7 +440,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -450,7 +449,7 @@ class RecapDucsAnnuelle {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -459,7 +458,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the date reglement.
      */
-    public function getDateReglement(): ?DateTime{
+    public function getDateReglement(): ?DateTime {
         return $this->dateReglement;
     }
 
@@ -468,7 +467,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the date verse salaire.
      */
-    public function getDateVerseSalaire(): ?DateTime{
+    public function getDateVerseSalaire(): ?DateTime {
         return $this->dateVerseSalaire;
     }
 
@@ -477,7 +476,7 @@ class RecapDucsAnnuelle {
      *
      * @return bool|null Returns the ducs euro.
      */
-    public function getDucsEuro(): ?bool{
+    public function getDucsEuro(): ?bool {
         return $this->ducsEuro;
     }
 
@@ -486,7 +485,7 @@ class RecapDucsAnnuelle {
      *
      * @return int|null Returns the effectif inscrit.
      */
-    public function getEffectifInscrit(): ?int{
+    public function getEffectifInscrit(): ?int {
         return $this->effectifInscrit;
     }
 
@@ -495,7 +494,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the effectif moyen.
      */
-    public function getEffectifMoyen(): ?float{
+    public function getEffectifMoyen(): ?float {
         return $this->effectifMoyen;
     }
 
@@ -504,7 +503,7 @@ class RecapDucsAnnuelle {
      *
      * @return int|null Returns the effectif paye.
      */
-    public function getEffectifPaye(): ?int{
+    public function getEffectifPaye(): ?int {
         return $this->effectifPaye;
     }
 
@@ -513,7 +512,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the fin per.
      */
-    public function getFinPer(): ?DateTime{
+    public function getFinPer(): ?DateTime {
         return $this->finPer;
     }
 
@@ -522,7 +521,7 @@ class RecapDucsAnnuelle {
      *
      * @return bool|null Returns the grand decalage.
      */
-    public function getGrandDecalage(): ?bool{
+    public function getGrandDecalage(): ?bool {
         return $this->grandDecalage;
     }
 
@@ -531,7 +530,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -540,7 +539,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the methode calcul cicehe.
      */
-    public function getMethodeCalculCicehe(): ?string{
+    public function getMethodeCalculCicehe(): ?string {
         return $this->methodeCalculCicehe;
     }
 
@@ -549,7 +548,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the montant total.
      */
-    public function getMontantTotal(): ?float{
+    public function getMontantTotal(): ?float {
         return $this->montantTotal;
     }
 
@@ -558,7 +557,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the motif ecart eff.
      */
-    public function getMotifEcartEff(): ?string{
+    public function getMotifEcartEff(): ?string {
         return $this->motifEcartEff;
     }
 
@@ -567,7 +566,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the mt aide ct aides.
      */
-    public function getMtAideCtAides(): ?float{
+    public function getMtAideCtAides(): ?float {
         return $this->mtAideCtAides;
     }
 
@@ -576,7 +575,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the mt brut dads.
      */
-    public function getMtBrutDads(): ?float{
+    public function getMtBrutDads(): ?float {
         return $this->mtBrutDads;
     }
 
@@ -585,7 +584,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the mt regul lodeom.
      */
-    public function getMtRegulLodeom(): ?float{
+    public function getMtRegulLodeom(): ?float {
         return $this->mtRegulLodeom;
     }
 
@@ -594,7 +593,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the nb autres.
      */
-    public function getNbAutres(): ?float{
+    public function getNbAutres(): ?float {
         return $this->nbAutres;
     }
 
@@ -603,7 +602,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the nb femmes.
      */
-    public function getNbFemmes(): ?float{
+    public function getNbFemmes(): ?float {
         return $this->nbFemmes;
     }
 
@@ -612,7 +611,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the nb fin contrat.
      */
-    public function getNbFinContrat(): ?float{
+    public function getNbFinContrat(): ?float {
         return $this->nbFinContrat;
     }
 
@@ -621,7 +620,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the nb hommes.
      */
-    public function getNbHommes(): ?float{
+    public function getNbHommes(): ?float {
         return $this->nbHommes;
     }
 
@@ -630,7 +629,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the no affiliation.
      */
-    public function getNoAffiliation(): ?string{
+    public function getNoAffiliation(): ?string {
         return $this->noAffiliation;
     }
 
@@ -639,7 +638,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the organisme.
      */
-    public function getOrganisme(): ?string{
+    public function getOrganisme(): ?string {
         return $this->organisme;
     }
 
@@ -648,7 +647,7 @@ class RecapDucsAnnuelle {
      *
      * @return bool|null Returns the paie decalee.
      */
-    public function getPaieDecalee(): ?bool{
+    public function getPaieDecalee(): ?bool {
         return $this->paieDecalee;
     }
 
@@ -657,7 +656,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the per deb cice.
      */
-    public function getPerDebCice(): ?DateTime{
+    public function getPerDebCice(): ?DateTime {
         return $this->perDebCice;
     }
 
@@ -666,7 +665,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the per fin cice.
      */
-    public function getPerFinCice(): ?DateTime{
+    public function getPerFinCice(): ?DateTime {
         return $this->perFinCice;
     }
 
@@ -675,7 +674,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the periode.
      */
-    public function getPeriode(): ?string{
+    public function getPeriode(): ?string {
         return $this->periode;
     }
 
@@ -684,7 +683,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla(): ?DateTime{
+    public function getPeriodeDecla(): ?DateTime {
         return $this->periodeDecla;
     }
 
@@ -693,7 +692,7 @@ class RecapDucsAnnuelle {
      *
      * @return bool|null Returns the petit decalage.
      */
-    public function getPetitDecalage(): ?bool{
+    public function getPetitDecalage(): ?bool {
         return $this->petitDecalage;
     }
 
@@ -702,7 +701,7 @@ class RecapDucsAnnuelle {
      *
      * @return DateTime|null Returns the prem mois.
      */
-    public function getPremMois(): ?DateTime{
+    public function getPremMois(): ?DateTime {
         return $this->premMois;
     }
 
@@ -711,7 +710,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the raison sociale.
      */
-    public function getRaisonSociale(): ?string{
+    public function getRaisonSociale(): ?string {
         return $this->raisonSociale;
     }
 
@@ -720,7 +719,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs1.
      */
-    public function getRecapDucs1(): ?float{
+    public function getRecapDucs1(): ?float {
         return $this->recapDucs1;
     }
 
@@ -729,7 +728,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs10.
      */
-    public function getRecapDucs10(): ?float{
+    public function getRecapDucs10(): ?float {
         return $this->recapDucs10;
     }
 
@@ -738,7 +737,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs11.
      */
-    public function getRecapDucs11(): ?float{
+    public function getRecapDucs11(): ?float {
         return $this->recapDucs11;
     }
 
@@ -747,7 +746,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs12.
      */
-    public function getRecapDucs12(): ?float{
+    public function getRecapDucs12(): ?float {
         return $this->recapDucs12;
     }
 
@@ -756,7 +755,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs13.
      */
-    public function getRecapDucs13(): ?float{
+    public function getRecapDucs13(): ?float {
         return $this->recapDucs13;
     }
 
@@ -765,7 +764,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs2.
      */
-    public function getRecapDucs2(): ?float{
+    public function getRecapDucs2(): ?float {
         return $this->recapDucs2;
     }
 
@@ -774,7 +773,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs3.
      */
-    public function getRecapDucs3(): ?float{
+    public function getRecapDucs3(): ?float {
         return $this->recapDucs3;
     }
 
@@ -783,7 +782,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs4.
      */
-    public function getRecapDucs4(): ?float{
+    public function getRecapDucs4(): ?float {
         return $this->recapDucs4;
     }
 
@@ -792,7 +791,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs5.
      */
-    public function getRecapDucs5(): ?float{
+    public function getRecapDucs5(): ?float {
         return $this->recapDucs5;
     }
 
@@ -801,7 +800,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs6.
      */
-    public function getRecapDucs6(): ?float{
+    public function getRecapDucs6(): ?float {
         return $this->recapDucs6;
     }
 
@@ -810,7 +809,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs7.
      */
-    public function getRecapDucs7(): ?float{
+    public function getRecapDucs7(): ?float {
         return $this->recapDucs7;
     }
 
@@ -819,7 +818,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs8.
      */
-    public function getRecapDucs8(): ?float{
+    public function getRecapDucs8(): ?float {
         return $this->recapDucs8;
     }
 
@@ -828,7 +827,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the recap ducs9.
      */
-    public function getRecapDucs9(): ?float{
+    public function getRecapDucs9(): ?float {
         return $this->recapDucs9;
     }
 
@@ -837,7 +836,7 @@ class RecapDucsAnnuelle {
      *
      * @return float|null Returns the regul ducs.
      */
-    public function getRegulDucs(): ?float{
+    public function getRegulDucs(): ?float {
         return $this->regulDucs;
     }
 
@@ -846,7 +845,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 
@@ -855,7 +854,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the sous type organisme.
      */
-    public function getSousTypeOrganisme(): ?string{
+    public function getSousTypeOrganisme(): ?string {
         return $this->sousTypeOrganisme;
     }
 
@@ -864,7 +863,7 @@ class RecapDucsAnnuelle {
      *
      * @return bool|null Returns the traiter edi.
      */
-    public function getTraiterEdi(): ?bool{
+    public function getTraiterEdi(): ?bool {
         return $this->traiterEdi;
     }
 
@@ -873,7 +872,7 @@ class RecapDucsAnnuelle {
      *
      * @return string|null Returns the type organisme.
      */
-    public function getTypeOrganisme(): ?string{
+    public function getTypeOrganisme(): ?string {
         return $this->typeOrganisme;
     }
 

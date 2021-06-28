@@ -77,7 +77,6 @@ class DernErrPrepaFact {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class DernErrPrepaFact {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -99,7 +98,7 @@ class DernErrPrepaFact {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -108,7 +107,7 @@ class DernErrPrepaFact {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -117,7 +116,7 @@ class DernErrPrepaFact {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -126,7 +125,7 @@ class DernErrPrepaFact {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -135,7 +134,7 @@ class DernErrPrepaFact {
      *
      * @return DateTime|null Returns the dt prepa.
      */
-    public function getDtPrepa(): ?DateTime{
+    public function getDtPrepa(): ?DateTime {
         return $this->dtPrepa;
     }
 
@@ -144,7 +143,7 @@ class DernErrPrepaFact {
      *
      * @return int|null Returns the no chrono preparation.
      */
-    public function getNoChronoPreparation(): ?int{
+    public function getNoChronoPreparation(): ?int {
         return $this->noChronoPreparation;
     }
 
@@ -153,7 +152,7 @@ class DernErrPrepaFact {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

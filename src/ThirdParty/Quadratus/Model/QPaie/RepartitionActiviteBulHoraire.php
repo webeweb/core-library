@@ -63,7 +63,6 @@ class RepartitionActiviteBulHoraire {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class RepartitionActiviteBulHoraire {
      *
      * @return string|null Returns the code service.
      */
-    public function getCodeService(): ?string{
+    public function getCodeService(): ?string {
         return $this->codeService;
     }
 
@@ -85,7 +84,7 @@ class RepartitionActiviteBulHoraire {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -94,7 +93,7 @@ class RepartitionActiviteBulHoraire {
      *
      * @return bool|null Returns the interimaire.
      */
-    public function getInterimaire(): ?bool{
+    public function getInterimaire(): ?bool {
         return $this->interimaire;
     }
 
@@ -103,7 +102,7 @@ class RepartitionActiviteBulHoraire {
      *
      * @return float|null Returns the nb heures.
      */
-    public function getNbHeures(): ?float{
+    public function getNbHeures(): ?float {
         return $this->nbHeures;
     }
 
@@ -112,7 +111,7 @@ class RepartitionActiviteBulHoraire {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -121,7 +120,7 @@ class RepartitionActiviteBulHoraire {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

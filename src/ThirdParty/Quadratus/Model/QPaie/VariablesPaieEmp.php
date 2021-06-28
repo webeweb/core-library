@@ -54,7 +54,6 @@ class VariablesPaieEmp {
      */
     private $valeur2;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class VariablesPaieEmp {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -76,7 +75,7 @@ class VariablesPaieEmp {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -85,7 +84,7 @@ class VariablesPaieEmp {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -94,7 +93,7 @@ class VariablesPaieEmp {
      *
      * @return float|null Returns the valeur1.
      */
-    public function getValeur1(): ?float{
+    public function getValeur1(): ?float {
         return $this->valeur1;
     }
 
@@ -103,7 +102,7 @@ class VariablesPaieEmp {
      *
      * @return float|null Returns the valeur2.
      */
-    public function getValeur2(): ?float{
+    public function getValeur2(): ?float {
         return $this->valeur2;
     }
 

@@ -56,7 +56,6 @@ class EmployesModules {
      */
     private $periodeEcartCumule;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class EmployesModules {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -78,7 +77,7 @@ class EmployesModules {
      *
      * @return DateTime|null Returns the debut modulation.
      */
-    public function getDebutModulation(): ?DateTime{
+    public function getDebutModulation(): ?DateTime {
         return $this->debutModulation;
     }
 
@@ -87,7 +86,7 @@ class EmployesModules {
      *
      * @return float|null Returns the ecart cumule init.
      */
-    public function getEcartCumuleInit(): ?float{
+    public function getEcartCumuleInit(): ?float {
         return $this->ecartCumuleInit;
     }
 
@@ -96,7 +95,7 @@ class EmployesModules {
      *
      * @return DateTime|null Returns the fin modulation.
      */
-    public function getFinModulation(): ?DateTime{
+    public function getFinModulation(): ?DateTime {
         return $this->finModulation;
     }
 
@@ -105,7 +104,7 @@ class EmployesModules {
      *
      * @return DateTime|null Returns the periode ecart cumule.
      */
-    public function getPeriodeEcartCumule(): ?DateTime{
+    public function getPeriodeEcartCumule(): ?DateTime {
         return $this->periodeEcartCumule;
     }
 

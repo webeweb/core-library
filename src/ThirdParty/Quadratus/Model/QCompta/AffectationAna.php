@@ -54,7 +54,6 @@ class AffectationAna {
      */
     private $pourcentage;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class AffectationAna {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -76,7 +75,7 @@ class AffectationAna {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -85,7 +84,7 @@ class AffectationAna {
      *
      * @return string|null Returns the num compte.
      */
-    public function getNumCompte(): ?string{
+    public function getNumCompte(): ?string {
         return $this->numCompte;
     }
 
@@ -94,7 +93,7 @@ class AffectationAna {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -103,7 +102,7 @@ class AffectationAna {
      *
      * @return float|null Returns the pourcentage.
      */
-    public function getPourcentage(): ?float{
+    public function getPourcentage(): ?float {
         return $this->pourcentage;
     }
 

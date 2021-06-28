@@ -68,7 +68,6 @@ class MotsClefEtebac {
      */
     private $regle;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -90,7 +89,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -99,7 +98,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the liste comptes.
      */
-    public function getListeComptes(): ?string{
+    public function getListeComptes(): ?string {
         return $this->listeComptes;
     }
 
@@ -108,7 +107,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the mot.
      */
-    public function getMot(): ?string{
+    public function getMot(): ?string {
         return $this->mot;
     }
 
@@ -117,7 +116,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the numero compte depense.
      */
-    public function getNumeroCompteDepense(): ?string{
+    public function getNumeroCompteDepense(): ?string {
         return $this->numeroCompteDepense;
     }
 
@@ -126,7 +125,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the numero compte recette.
      */
-    public function getNumeroCompteRecette(): ?string{
+    public function getNumeroCompteRecette(): ?string {
         return $this->numeroCompteRecette;
     }
 
@@ -135,7 +134,7 @@ class MotsClefEtebac {
      *
      * @return string|null Returns the regle.
      */
-    public function getRegle(): ?string{
+    public function getRegle(): ?string {
         return $this->regle;
     }
 

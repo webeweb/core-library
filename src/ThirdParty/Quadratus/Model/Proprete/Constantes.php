@@ -148,13 +148,6 @@ class Constantes {
     private $cddMensuTotalHeures;
 
     /**
-     * Cp sans provisions.
-     *
-     * @var bool|null
-     */
-    private $cpSansProvisions;
-
-    /**
      * Cde client num fact.
      *
      * @var int|null
@@ -587,6 +580,13 @@ class Constantes {
      * @var bool|null
      */
     private $controlerDepHcPlusMois;
+
+    /**
+     * Cp sans provisions.
+     *
+     * @var bool|null
+     */
+    private $cpSansProvisions;
 
     /**
      * Creer alerte paie def en paie.
@@ -1044,13 +1044,6 @@ class Constantes {
     private $livCdeFrnDepotUnique;
 
     /**
-     * Maj dernier passage bt.
-     *
-     * @var bool|null
-     */
-    private $majDernierPassageBt;
-
-    /**
      * Mail attestations.
      *
      * @var string|null
@@ -1063,6 +1056,13 @@ class Constantes {
      * @var string|null
      */
     private $mailFactures;
+
+    /**
+     * Maj dernier passage bt.
+     *
+     * @var bool|null
+     */
+    private $majDernierPassageBt;
 
     /**
      * Maj dernier prix achat.
@@ -1310,20 +1310,6 @@ class Constantes {
     private $paParFournisseur;
 
     /**
-     * Pj envoi mail.
-     *
-     * @var string|null
-     */
-    private $pjEnvoiMail;
-
-    /**
-     * Pj envoi mail attestation.
-     *
-     * @var string|null
-     */
-    private $pjEnvoiMailAttestation;
-
-    /**
      * Pas num cpt par dossier.
      *
      * @var bool|null
@@ -1420,6 +1406,20 @@ class Constantes {
      * @var float|null
      */
     private $pdfBtTauxHoraire;
+
+    /**
+     * Pj envoi mail.
+     *
+     * @var string|null
+     */
+    private $pjEnvoiMail;
+
+    /**
+     * Pj envoi mail attestation.
+     *
+     * @var string|null
+     */
+    private $pjEnvoiMailAttestation;
 
     /**
      * Point bt employes sortis.
@@ -1625,13 +1625,6 @@ class Constantes {
     private $qualiteSatisfactionGenerale;
 
     /**
-     * Rt fdans fact dev.
-     *
-     * @var bool|null
-     */
-    private $rtFdansFactDev;
-
-    /**
      * Reference mensu contrat proprete.
      *
      * @var bool|null
@@ -1665,6 +1658,13 @@ class Constantes {
      * @var bool|null
      */
     private $reposCompensateurPourTravailleurNuit;
+
+    /**
+     * Rt fdans fact dev.
+     *
+     * @var bool|null
+     */
+    private $rtFdansFactDev;
 
     /**
      * Saisir absences sur hc.
@@ -1778,7 +1778,6 @@ class Constantes {
      */
     private $visualiserPointageBtValides;
 
-
     /**
      * Constructor.
      */
@@ -1791,7 +1790,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the 35 heures.
      */
-    public function get35Heures(): ?DateTime{
+    public function get35Heures(): ?DateTime {
         return $this->_35Heures;
     }
 
@@ -1800,7 +1799,7 @@ class Constantes {
      *
      * @return bool|null Returns the alertes paie dans pointage.
      */
-    public function getAlertesPaieDansPointage(): ?bool{
+    public function getAlertesPaieDansPointage(): ?bool {
         return $this->alertesPaieDansPointage;
     }
 
@@ -1809,7 +1808,7 @@ class Constantes {
      *
      * @return bool|null Returns the alertes paie dans reclam.
      */
-    public function getAlertesPaieDansReclam(): ?bool{
+    public function getAlertesPaieDansReclam(): ?bool {
         return $this->alertesPaieDansReclam;
     }
 
@@ -1818,7 +1817,7 @@ class Constantes {
      *
      * @return bool|null Returns the analytique nature agence.
      */
-    public function getAnalytiqueNatureAgence(): ?bool{
+    public function getAnalytiqueNatureAgence(): ?bool {
         return $this->analytiqueNatureAgence;
     }
 
@@ -1827,7 +1826,7 @@ class Constantes {
      *
      * @return bool|null Returns the analytique par chantier.
      */
-    public function getAnalytiqueParChantier(): ?bool{
+    public function getAnalytiqueParChantier(): ?bool {
         return $this->analytiqueParChantier;
     }
 
@@ -1836,7 +1835,7 @@ class Constantes {
      *
      * @return bool|null Returns the archiver devis.
      */
-    public function getArchiverDevis(): ?bool{
+    public function getArchiverDevis(): ?bool {
         return $this->archiverDevis;
     }
 
@@ -1845,7 +1844,7 @@ class Constantes {
      *
      * @return bool|null Returns the archiver facture.
      */
-    public function getArchiverFacture(): ?bool{
+    public function getArchiverFacture(): ?bool {
         return $this->archiverFacture;
     }
 
@@ -1854,7 +1853,7 @@ class Constantes {
      *
      * @return bool|null Returns the arrondi sur pu.
      */
-    public function getArrondiSurPu(): ?bool{
+    public function getArrondiSurPu(): ?bool {
         return $this->arrondiSurPu;
     }
 
@@ -1863,7 +1862,7 @@ class Constantes {
      *
      * @return bool|null Returns the autoriser da sans maj stock.
      */
-    public function getAutoriserDaSansMajStock(): ?bool{
+    public function getAutoriserDaSansMajStock(): ?bool {
         return $this->autoriserDaSansMajStock;
     }
 
@@ -1872,7 +1871,7 @@ class Constantes {
      *
      * @return bool|null Returns the autoriser dep bud cha cde type.
      */
-    public function getAutoriserDepBudChaCdeType(): ?bool{
+    public function getAutoriserDepBudChaCdeType(): ?bool {
         return $this->autoriserDepBudChaCdeType;
     }
 
@@ -1881,7 +1880,7 @@ class Constantes {
      *
      * @return bool|null Returns the autoriser mensu tache vide.
      */
-    public function getAutoriserMensuTacheVide(): ?bool{
+    public function getAutoriserMensuTacheVide(): ?bool {
         return $this->autoriserMensuTacheVide;
     }
 
@@ -1890,7 +1889,7 @@ class Constantes {
      *
      * @return int|null Returns the bl num fact.
      */
-    public function getBlNumFact(): ?int{
+    public function getBlNumFact(): ?int {
         return $this->blNumFact;
     }
 
@@ -1899,7 +1898,7 @@ class Constantes {
      *
      * @return string|null Returns the bl prefixe.
      */
-    public function getBlPrefixe(): ?string{
+    public function getBlPrefixe(): ?string {
         return $this->blPrefixe;
     }
 
@@ -1908,7 +1907,7 @@ class Constantes {
      *
      * @return int|null Returns the br num fact.
      */
-    public function getBrNumFact(): ?int{
+    public function getBrNumFact(): ?int {
         return $this->brNumFact;
     }
 
@@ -1917,7 +1916,7 @@ class Constantes {
      *
      * @return string|null Returns the br prefixe.
      */
-    public function getBrPrefixe(): ?string{
+    public function getBrPrefixe(): ?string {
         return $this->brPrefixe;
     }
 
@@ -1926,7 +1925,7 @@ class Constantes {
      *
      * @return int|null Returns the bs num fact.
      */
-    public function getBsNumFact(): ?int{
+    public function getBsNumFact(): ?int {
         return $this->bsNumFact;
     }
 
@@ -1935,7 +1934,7 @@ class Constantes {
      *
      * @return string|null Returns the bs prefixe.
      */
-    public function getBsPrefixe(): ?string{
+    public function getBsPrefixe(): ?string {
         return $this->bsPrefixe;
     }
 
@@ -1944,17 +1943,8 @@ class Constantes {
      *
      * @return bool|null Returns the cdd mensu total heures.
      */
-    public function getCddMensuTotalHeures(): ?bool{
+    public function getCddMensuTotalHeures(): ?bool {
         return $this->cddMensuTotalHeures;
-    }
-
-    /**
-     * Get the cp sans provisions.
-     *
-     * @return bool|null Returns the cp sans provisions.
-     */
-    public function getCpSansProvisions(): ?bool{
-        return $this->cpSansProvisions;
     }
 
     /**
@@ -1962,7 +1952,7 @@ class Constantes {
      *
      * @return int|null Returns the cde client num fact.
      */
-    public function getCdeClientNumFact(): ?int{
+    public function getCdeClientNumFact(): ?int {
         return $this->cdeClientNumFact;
     }
 
@@ -1971,7 +1961,7 @@ class Constantes {
      *
      * @return string|null Returns the cde client prefixe.
      */
-    public function getCdeClientPrefixe(): ?string{
+    public function getCdeClientPrefixe(): ?string {
         return $this->cdeClientPrefixe;
     }
 
@@ -1980,7 +1970,7 @@ class Constantes {
      *
      * @return int|null Returns the cde frn num fact.
      */
-    public function getCdeFrnNumFact(): ?int{
+    public function getCdeFrnNumFact(): ?int {
         return $this->cdeFrnNumFact;
     }
 
@@ -1989,7 +1979,7 @@ class Constantes {
      *
      * @return string|null Returns the cde frn prefixe.
      */
-    public function getCdeFrnPrefixe(): ?string{
+    public function getCdeFrnPrefixe(): ?string {
         return $this->cdeFrnPrefixe;
     }
 
@@ -1998,7 +1988,7 @@ class Constantes {
      *
      * @return bool|null Returns the centralisation vente.
      */
-    public function getCentralisationVente(): ?bool{
+    public function getCentralisationVente(): ?bool {
         return $this->centralisationVente;
     }
 
@@ -2007,7 +1997,7 @@ class Constantes {
      *
      * @return bool|null Returns the charge mensuelle sans tache.
      */
-    public function getChargeMensuelleSansTache(): ?bool{
+    public function getChargeMensuelleSansTache(): ?bool {
         return $this->chargeMensuelleSansTache;
     }
 
@@ -2016,7 +2006,7 @@ class Constantes {
      *
      * @return string|null Returns the chemin doss compta.
      */
-    public function getCheminDossCompta(): ?string{
+    public function getCheminDossCompta(): ?string {
         return $this->cheminDossCompta;
     }
 
@@ -2025,7 +2015,7 @@ class Constantes {
      *
      * @return string|null Returns the cle debloquer periode cloturee.
      */
-    public function getCleDebloquerPeriodeCloturee(): ?string{
+    public function getCleDebloquerPeriodeCloturee(): ?string {
         return $this->cleDebloquerPeriodeCloturee;
     }
 
@@ -2034,7 +2024,7 @@ class Constantes {
      *
      * @return string|null Returns the code abs cp sans solde.
      */
-    public function getCodeAbsCpSansSolde(): ?string{
+    public function getCodeAbsCpSansSolde(): ?string {
         return $this->codeAbsCpSansSolde;
     }
 
@@ -2043,7 +2033,7 @@ class Constantes {
      *
      * @return string|null Returns the code abs def jf.
      */
-    public function getCodeAbsDefJf(): ?string{
+    public function getCodeAbsDefJf(): ?string {
         return $this->codeAbsDefJf;
     }
 
@@ -2052,7 +2042,7 @@ class Constantes {
      *
      * @return string|null Returns the code abs def jf moins3.
      */
-    public function getCodeAbsDefJfMoins3(): ?string{
+    public function getCodeAbsDefJfMoins3(): ?string {
         return $this->codeAbsDefJfMoins3;
     }
 
@@ -2061,7 +2051,7 @@ class Constantes {
      *
      * @return string|null Returns the code abs fermeture chantier.
      */
-    public function getCodeAbsFermetureChantier(): ?string{
+    public function getCodeAbsFermetureChantier(): ?string {
         return $this->codeAbsFermetureChantier;
     }
 
@@ -2070,7 +2060,7 @@ class Constantes {
      *
      * @return string|null Returns the code abs pointage defaut.
      */
-    public function getCodeAbsPointageDefaut(): ?string{
+    public function getCodeAbsPointageDefaut(): ?string {
         return $this->codeAbsPointageDefaut;
     }
 
@@ -2079,7 +2069,7 @@ class Constantes {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -2088,7 +2078,7 @@ class Constantes {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -2097,7 +2087,7 @@ class Constantes {
      *
      * @return string|null Returns the code depot par defaut.
      */
-    public function getCodeDepotParDefaut(): ?string{
+    public function getCodeDepotParDefaut(): ?string {
         return $this->codeDepotParDefaut;
     }
 
@@ -2106,7 +2096,7 @@ class Constantes {
      *
      * @return string|null Returns the code ics.
      */
-    public function getCodeIcs(): ?string{
+    public function getCodeIcs(): ?string {
         return $this->codeIcs;
     }
 
@@ -2115,7 +2105,7 @@ class Constantes {
      *
      * @return string|null Returns the code ja.
      */
-    public function getCodeJa(): ?string{
+    public function getCodeJa(): ?string {
         return $this->codeJa;
     }
 
@@ -2124,7 +2114,7 @@ class Constantes {
      *
      * @return string|null Returns the code jv negoce.
      */
-    public function getCodeJvNegoce(): ?string{
+    public function getCodeJvNegoce(): ?string {
         return $this->codeJvNegoce;
     }
 
@@ -2133,7 +2123,7 @@ class Constantes {
      *
      * @return string|null Returns the code jv prestation.
      */
-    public function getCodeJvPrestation(): ?string{
+    public function getCodeJvPrestation(): ?string {
         return $this->codeJvPrestation;
     }
 
@@ -2142,7 +2132,7 @@ class Constantes {
      *
      * @return string|null Returns the code liv par defaut.
      */
-    public function getCodeLivParDefaut(): ?string{
+    public function getCodeLivParDefaut(): ?string {
         return $this->codeLivParDefaut;
     }
 
@@ -2151,7 +2141,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime chantier1.
      */
-    public function getCodePrimeChantier1(): ?string{
+    public function getCodePrimeChantier1(): ?string {
         return $this->codePrimeChantier1;
     }
 
@@ -2160,7 +2150,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime chantier2.
      */
-    public function getCodePrimeChantier2(): ?string{
+    public function getCodePrimeChantier2(): ?string {
         return $this->codePrimeChantier2;
     }
 
@@ -2169,7 +2159,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime chantier3.
      */
-    public function getCodePrimeChantier3(): ?string{
+    public function getCodePrimeChantier3(): ?string {
         return $this->codePrimeChantier3;
     }
 
@@ -2178,7 +2168,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime dimanche1.
      */
-    public function getCodePrimeDimanche1(): ?string{
+    public function getCodePrimeDimanche1(): ?string {
         return $this->codePrimeDimanche1;
     }
 
@@ -2187,7 +2177,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime dimanche1 type2.
      */
-    public function getCodePrimeDimanche1Type2(): ?string{
+    public function getCodePrimeDimanche1Type2(): ?string {
         return $this->codePrimeDimanche1Type2;
     }
 
@@ -2196,7 +2186,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime dimanche2.
      */
-    public function getCodePrimeDimanche2(): ?string{
+    public function getCodePrimeDimanche2(): ?string {
         return $this->codePrimeDimanche2;
     }
 
@@ -2205,7 +2195,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime forfait.
      */
-    public function getCodePrimeForfait(): ?string{
+    public function getCodePrimeForfait(): ?string {
         return $this->codePrimeForfait;
     }
 
@@ -2214,7 +2204,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime h compl.
      */
-    public function getCodePrimeHCompl(): ?string{
+    public function getCodePrimeHCompl(): ?string {
         return $this->codePrimeHCompl;
     }
 
@@ -2223,7 +2213,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime h compl2.
      */
-    public function getCodePrimeHCompl2(): ?string{
+    public function getCodePrimeHCompl2(): ?string {
         return $this->codePrimeHCompl2;
     }
 
@@ -2232,7 +2222,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime jf1.
      */
-    public function getCodePrimeJf1(): ?string{
+    public function getCodePrimeJf1(): ?string {
         return $this->codePrimeJf1;
     }
 
@@ -2241,7 +2231,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime jf1 type2.
      */
-    public function getCodePrimeJf1Type2(): ?string{
+    public function getCodePrimeJf1Type2(): ?string {
         return $this->codePrimeJf1Type2;
     }
 
@@ -2250,7 +2240,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime jf2.
      */
-    public function getCodePrimeJf2(): ?string{
+    public function getCodePrimeJf2(): ?string {
         return $this->codePrimeJf2;
     }
 
@@ -2259,7 +2249,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime jf mai.
      */
-    public function getCodePrimeJfMai(): ?string{
+    public function getCodePrimeJfMai(): ?string {
         return $this->codePrimeJfMai;
     }
 
@@ -2268,7 +2258,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime nuit1.
      */
-    public function getCodePrimeNuit1(): ?string{
+    public function getCodePrimeNuit1(): ?string {
         return $this->codePrimeNuit1;
     }
 
@@ -2277,7 +2267,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime nuit1 type2.
      */
-    public function getCodePrimeNuit1Type2(): ?string{
+    public function getCodePrimeNuit1Type2(): ?string {
         return $this->codePrimeNuit1Type2;
     }
 
@@ -2286,7 +2276,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime nuit2.
      */
-    public function getCodePrimeNuit2(): ?string{
+    public function getCodePrimeNuit2(): ?string {
         return $this->codePrimeNuit2;
     }
 
@@ -2295,7 +2285,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime paniers.
      */
-    public function getCodePrimePaniers(): ?string{
+    public function getCodePrimePaniers(): ?string {
         return $this->codePrimePaniers;
     }
 
@@ -2304,7 +2294,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime rs.
      */
-    public function getCodePrimeRs(): ?string{
+    public function getCodePrimeRs(): ?string {
         return $this->codePrimeRs;
     }
 
@@ -2313,7 +2303,7 @@ class Constantes {
      *
      * @return string|null Returns the code prime tp.
      */
-    public function getCodePrimeTp(): ?string{
+    public function getCodePrimeTp(): ?string {
         return $this->codePrimeTp;
     }
 
@@ -2322,7 +2312,7 @@ class Constantes {
      *
      * @return string|null Returns the code reg jv neg debut.
      */
-    public function getCodeRegJvNegDebut(): ?string{
+    public function getCodeRegJvNegDebut(): ?string {
         return $this->codeRegJvNegDebut;
     }
 
@@ -2331,7 +2321,7 @@ class Constantes {
      *
      * @return string|null Returns the code reg jv neg fin.
      */
-    public function getCodeRegJvNegFin(): ?string{
+    public function getCodeRegJvNegFin(): ?string {
         return $this->codeRegJvNegFin;
     }
 
@@ -2340,7 +2330,7 @@ class Constantes {
      *
      * @return string|null Returns the code reg jv prest debut.
      */
-    public function getCodeRegJvPrestDebut(): ?string{
+    public function getCodeRegJvPrestDebut(): ?string {
         return $this->codeRegJvPrestDebut;
     }
 
@@ -2349,7 +2339,7 @@ class Constantes {
      *
      * @return string|null Returns the code reg jv prest fin.
      */
-    public function getCodeRegJvPrestFin(): ?string{
+    public function getCodeRegJvPrestFin(): ?string {
         return $this->codeRegJvPrestFin;
     }
 
@@ -2358,7 +2348,7 @@ class Constantes {
      *
      * @return string|null Returns the code tache defaut.
      */
-    public function getCodeTacheDefaut(): ?string{
+    public function getCodeTacheDefaut(): ?string {
         return $this->codeTacheDefaut;
     }
 
@@ -2367,7 +2357,7 @@ class Constantes {
      *
      * @return string|null Returns the collectif def.
      */
-    public function getCollectifDef(): ?string{
+    public function getCollectifDef(): ?string {
         return $this->collectifDef;
     }
 
@@ -2376,7 +2366,7 @@ class Constantes {
      *
      * @return string|null Returns the collectif def fournisseur.
      */
-    public function getCollectifDefFournisseur(): ?string{
+    public function getCollectifDefFournisseur(): ?string {
         return $this->collectifDefFournisseur;
     }
 
@@ -2385,7 +2375,7 @@ class Constantes {
      *
      * @return string|null Returns the commentaire journee solidarite.
      */
-    public function getCommentaireJourneeSolidarite(): ?string{
+    public function getCommentaireJourneeSolidarite(): ?string {
         return $this->commentaireJourneeSolidarite;
     }
 
@@ -2394,7 +2384,7 @@ class Constantes {
      *
      * @return string|null Returns the compte collectif achat.
      */
-    public function getCompteCollectifAchat(): ?string{
+    public function getCompteCollectifAchat(): ?string {
         return $this->compteCollectifAchat;
     }
 
@@ -2403,7 +2393,7 @@ class Constantes {
      *
      * @return string|null Returns the compte collectif vente.
      */
-    public function getCompteCollectifVente(): ?string{
+    public function getCompteCollectifVente(): ?string {
         return $this->compteCollectifVente;
     }
 
@@ -2412,7 +2402,7 @@ class Constantes {
      *
      * @return string|null Returns the compte escompte ca exonere.
      */
-    public function getCompteEscompteCaExonere(): ?string{
+    public function getCompteEscompteCaExonere(): ?string {
         return $this->compteEscompteCaExonere;
     }
 
@@ -2421,7 +2411,7 @@ class Constantes {
      *
      * @return string|null Returns the compte escompte soumis tva.
      */
-    public function getCompteEscompteSoumisTva(): ?string{
+    public function getCompteEscompteSoumisTva(): ?string {
         return $this->compteEscompteSoumisTva;
     }
 
@@ -2430,7 +2420,7 @@ class Constantes {
      *
      * @return string|null Returns the compte tva achat.
      */
-    public function getCompteTvaAchat(): ?string{
+    public function getCompteTvaAchat(): ?string {
         return $this->compteTvaAchat;
     }
 
@@ -2439,7 +2429,7 @@ class Constantes {
      *
      * @return string|null Returns the compte tva taxe deee.
      */
-    public function getCompteTvaTaxeDeee(): ?string{
+    public function getCompteTvaTaxeDeee(): ?string {
         return $this->compteTvaTaxeDeee;
     }
 
@@ -2448,7 +2438,7 @@ class Constantes {
      *
      * @return string|null Returns the compte tva vente.
      */
-    public function getCompteTvaVente(): ?string{
+    public function getCompteTvaVente(): ?string {
         return $this->compteTvaVente;
     }
 
@@ -2457,7 +2447,7 @@ class Constantes {
      *
      * @return string|null Returns the compte ventil taxe deee.
      */
-    public function getCompteVentilTaxeDeee(): ?string{
+    public function getCompteVentilTaxeDeee(): ?string {
         return $this->compteVentilTaxeDeee;
     }
 
@@ -2466,7 +2456,7 @@ class Constantes {
      *
      * @return bool|null Returns the compter samedi tf cp paie.
      */
-    public function getCompterSamediTfCpPaie(): ?bool{
+    public function getCompterSamediTfCpPaie(): ?bool {
         return $this->compterSamediTfCpPaie;
     }
 
@@ -2475,7 +2465,7 @@ class Constantes {
      *
      * @return bool|null Returns the controler cde frn.
      */
-    public function getControlerCdeFrn(): ?bool{
+    public function getControlerCdeFrn(): ?bool {
         return $this->controlerCdeFrn;
     }
 
@@ -2484,7 +2474,7 @@ class Constantes {
      *
      * @return bool|null Returns the controler charges mensuelles.
      */
-    public function getControlerChargesMensuelles(): ?bool{
+    public function getControlerChargesMensuelles(): ?bool {
         return $this->controlerChargesMensuelles;
     }
 
@@ -2493,7 +2483,7 @@ class Constantes {
      *
      * @return bool|null Returns the controler code reg.
      */
-    public function getControlerCodeReg(): ?bool{
+    public function getControlerCodeReg(): ?bool {
         return $this->controlerCodeReg;
     }
 
@@ -2502,7 +2492,7 @@ class Constantes {
      *
      * @return bool|null Returns the controler dep hc max.
      */
-    public function getControlerDepHcMax(): ?bool{
+    public function getControlerDepHcMax(): ?bool {
         return $this->controlerDepHcMax;
     }
 
@@ -2511,8 +2501,17 @@ class Constantes {
      *
      * @return bool|null Returns the controler dep hc plus mois.
      */
-    public function getControlerDepHcPlusMois(): ?bool{
+    public function getControlerDepHcPlusMois(): ?bool {
         return $this->controlerDepHcPlusMois;
+    }
+
+    /**
+     * Get the cp sans provisions.
+     *
+     * @return bool|null Returns the cp sans provisions.
+     */
+    public function getCpSansProvisions(): ?bool {
+        return $this->cpSansProvisions;
     }
 
     /**
@@ -2520,7 +2519,7 @@ class Constantes {
      *
      * @return bool|null Returns the creer alerte paie def en paie.
      */
-    public function getCreerAlertePaieDefEnPaie(): ?bool{
+    public function getCreerAlertePaieDefEnPaie(): ?bool {
         return $this->creerAlertePaieDefEnPaie;
     }
 
@@ -2529,7 +2528,7 @@ class Constantes {
      *
      * @return bool|null Returns the ctrl auto cp.
      */
-    public function getCtrlAutoCp(): ?bool{
+    public function getCtrlAutoCp(): ?bool {
         return $this->ctrlAutoCp;
     }
 
@@ -2538,7 +2537,7 @@ class Constantes {
      *
      * @return bool|null Returns the ctrl auto cp avec anticipation.
      */
-    public function getCtrlAutoCpAvecAnticipation(): ?bool{
+    public function getCtrlAutoCpAvecAnticipation(): ?bool {
         return $this->ctrlAutoCpAvecAnticipation;
     }
 
@@ -2547,7 +2546,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the date appli gestion heures en plus.
      */
-    public function getDateAppliGestionHeuresEnPlus(): ?DateTime{
+    public function getDateAppliGestionHeuresEnPlus(): ?DateTime {
         return $this->dateAppliGestionHeuresEnPlus;
     }
 
@@ -2556,7 +2555,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the date journee solidarite.
      */
-    public function getDateJourneeSolidarite(): ?DateTime{
+    public function getDateJourneeSolidarite(): ?DateTime {
         return $this->dateJourneeSolidarite;
     }
 
@@ -2565,7 +2564,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -2574,7 +2573,7 @@ class Constantes {
      *
      * @return int|null Returns the dec mois prep fact.
      */
-    public function getDecMoisPrepFact(): ?int{
+    public function getDecMoisPrepFact(): ?int {
         return $this->decMoisPrepFact;
     }
 
@@ -2583,7 +2582,7 @@ class Constantes {
      *
      * @return string|null Returns the dernier compte client.
      */
-    public function getDernierCompteClient(): ?string{
+    public function getDernierCompteClient(): ?string {
         return $this->dernierCompteClient;
     }
 
@@ -2592,7 +2591,7 @@ class Constantes {
      *
      * @return string|null Returns the dernier compte frn.
      */
-    public function getDernierCompteFrn(): ?string{
+    public function getDernierCompteFrn(): ?string {
         return $this->dernierCompteFrn;
     }
 
@@ -2601,7 +2600,7 @@ class Constantes {
      *
      * @return string|null Returns the discr.
      */
-    public function getDiscr(): ?string{
+    public function getDiscr(): ?string {
         return $this->discr;
     }
 
@@ -2610,7 +2609,7 @@ class Constantes {
      *
      * @return string|null Returns the doss compta.
      */
-    public function getDossCompta(): ?string{
+    public function getDossCompta(): ?string {
         return $this->dossCompta;
     }
 
@@ -2619,7 +2618,7 @@ class Constantes {
      *
      * @return string|null Returns the doss paie.
      */
-    public function getDossPaie(): ?string{
+    public function getDossPaie(): ?string {
         return $this->dossPaie;
     }
 
@@ -2628,7 +2627,7 @@ class Constantes {
      *
      * @return string|null Returns the es code abs entree.
      */
-    public function getEsCodeAbsEntree(): ?string{
+    public function getEsCodeAbsEntree(): ?string {
         return $this->esCodeAbsEntree;
     }
 
@@ -2637,7 +2636,7 @@ class Constantes {
      *
      * @return string|null Returns the es code abs sortie.
      */
-    public function getEsCodeAbsSortie(): ?string{
+    public function getEsCodeAbsSortie(): ?string {
         return $this->esCodeAbsSortie;
     }
 
@@ -2646,7 +2645,7 @@ class Constantes {
      *
      * @return bool|null Returns the es heures reelles.
      */
-    public function getEsHeuresReelles(): ?bool{
+    public function getEsHeuresReelles(): ?bool {
         return $this->esHeuresReelles;
     }
 
@@ -2655,7 +2654,7 @@ class Constantes {
      *
      * @return string|null Returns the etablissements paie.
      */
-    public function getEtablissementsPaie(): ?string{
+    public function getEtablissementsPaie(): ?string {
         return $this->etablissementsPaie;
     }
 
@@ -2664,7 +2663,7 @@ class Constantes {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -2673,7 +2672,7 @@ class Constantes {
      *
      * @return bool|null Returns the euro.
      */
-    public function getEuro(): ?bool{
+    public function getEuro(): ?bool {
         return $this->euro;
     }
 
@@ -2682,7 +2681,7 @@ class Constantes {
      *
      * @return bool|null Returns the facturation prorata heures.
      */
-    public function getFacturationProrataHeures(): ?bool{
+    public function getFacturationProrataHeures(): ?bool {
         return $this->facturationProrataHeures;
     }
 
@@ -2691,7 +2690,7 @@ class Constantes {
      *
      * @return string|null Returns the folio ja.
      */
-    public function getFolioJa(): ?string{
+    public function getFolioJa(): ?string {
         return $this->folioJa;
     }
 
@@ -2700,7 +2699,7 @@ class Constantes {
      *
      * @return string|null Returns the folio jv negoce.
      */
-    public function getFolioJvNegoce(): ?string{
+    public function getFolioJvNegoce(): ?string {
         return $this->folioJvNegoce;
     }
 
@@ -2709,7 +2708,7 @@ class Constantes {
      *
      * @return string|null Returns the folio jv prestation.
      */
-    public function getFolioJvPrestation(): ?string{
+    public function getFolioJvPrestation(): ?string {
         return $this->folioJvPrestation;
     }
 
@@ -2718,7 +2717,7 @@ class Constantes {
      *
      * @return bool|null Returns the gerer num cpt chantier.
      */
-    public function getGererNumCptChantier(): ?bool{
+    public function getGererNumCptChantier(): ?bool {
         return $this->gererNumCptChantier;
     }
 
@@ -2727,7 +2726,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion h compl.
      */
-    public function getGestionHCompl(): ?bool{
+    public function getGestionHCompl(): ?bool {
         return $this->gestionHCompl;
     }
 
@@ -2736,7 +2735,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion h sup mens.
      */
-    public function getGestionHSupMens(): ?bool{
+    public function getGestionHSupMens(): ?bool {
         return $this->gestionHSupMens;
     }
 
@@ -2745,7 +2744,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion h sup mensuelle.
      */
-    public function getGestionHSupMensuelle(): ?bool{
+    public function getGestionHSupMensuelle(): ?bool {
         return $this->gestionHSupMensuelle;
     }
 
@@ -2754,7 +2753,7 @@ class Constantes {
      *
      * @return string|null Returns the gestion maj dim.
      */
-    public function getGestionMajDim(): ?string{
+    public function getGestionMajDim(): ?string {
         return $this->gestionMajDim;
     }
 
@@ -2763,7 +2762,7 @@ class Constantes {
      *
      * @return string|null Returns the gestion maj jf.
      */
-    public function getGestionMajJf(): ?string{
+    public function getGestionMajJf(): ?string {
         return $this->gestionMajJf;
     }
 
@@ -2772,7 +2771,7 @@ class Constantes {
      *
      * @return string|null Returns the gestion maj nuit.
      */
-    public function getGestionMajNuit(): ?string{
+    public function getGestionMajNuit(): ?string {
         return $this->gestionMajNuit;
     }
 
@@ -2781,7 +2780,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion multi depot.
      */
-    public function getGestionMultiDepot(): ?bool{
+    public function getGestionMultiDepot(): ?bool {
         return $this->gestionMultiDepot;
     }
 
@@ -2790,7 +2789,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion quotas.
      */
-    public function getGestionQuotas(): ?bool{
+    public function getGestionQuotas(): ?bool {
         return $this->gestionQuotas;
     }
 
@@ -2799,7 +2798,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion specif jf.
      */
-    public function getGestionSpecifJf(): ?bool{
+    public function getGestionSpecifJf(): ?bool {
         return $this->gestionSpecifJf;
     }
 
@@ -2808,7 +2807,7 @@ class Constantes {
      *
      * @return bool|null Returns the gestion specif majo jf.
      */
-    public function getGestionSpecifMajoJf(): ?bool{
+    public function getGestionSpecifMajoJf(): ?bool {
         return $this->gestionSpecifMajoJf;
     }
 
@@ -2817,7 +2816,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the h deb nuit.
      */
-    public function getHDebNuit(): ?DateTime{
+    public function getHDebNuit(): ?DateTime {
         return $this->hDebNuit;
     }
 
@@ -2826,7 +2825,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the h deb nuit trav nuit.
      */
-    public function getHDebNuitTravNuit(): ?DateTime{
+    public function getHDebNuitTravNuit(): ?DateTime {
         return $this->hDebNuitTravNuit;
     }
 
@@ -2835,7 +2834,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the h fin nuit.
      */
-    public function getHFinNuit(): ?DateTime{
+    public function getHFinNuit(): ?DateTime {
         return $this->hFinNuit;
     }
 
@@ -2844,7 +2843,7 @@ class Constantes {
      *
      * @return DateTime|null Returns the h fin nuit trav nuit.
      */
-    public function getHFinNuitTravNuit(): ?DateTime{
+    public function getHFinNuitTravNuit(): ?DateTime {
         return $this->hFinNuitTravNuit;
     }
 
@@ -2853,7 +2852,7 @@ class Constantes {
      *
      * @return bool|null Returns the heures absence mensualise.
      */
-    public function getHeuresAbsenceMensualise(): ?bool{
+    public function getHeuresAbsenceMensualise(): ?bool {
         return $this->heuresAbsenceMensualise;
     }
 
@@ -2862,7 +2861,7 @@ class Constantes {
      *
      * @return bool|null Returns the heures rempl egales mens titulaire.
      */
-    public function getHeuresRemplEgalesMensTitulaire(): ?bool{
+    public function getHeuresRemplEgalesMensTitulaire(): ?bool {
         return $this->heuresRemplEgalesMensTitulaire;
     }
 
@@ -2871,7 +2870,7 @@ class Constantes {
      *
      * @return int|null Returns the increment compte auto.
      */
-    public function getIncrementCompteAuto(): ?int{
+    public function getIncrementCompteAuto(): ?int {
         return $this->incrementCompteAuto;
     }
 
@@ -2880,7 +2879,7 @@ class Constantes {
      *
      * @return bool|null Returns the liaison compta win.
      */
-    public function getLiaisonComptaWin(): ?bool{
+    public function getLiaisonComptaWin(): ?bool {
         return $this->liaisonComptaWin;
     }
 
@@ -2889,7 +2888,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere bool1.
      */
-    public function getLibCritereBool1(): ?string{
+    public function getLibCritereBool1(): ?string {
         return $this->libCritereBool1;
     }
 
@@ -2898,7 +2897,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere bool2.
      */
-    public function getLibCritereBool2(): ?string{
+    public function getLibCritereBool2(): ?string {
         return $this->libCritereBool2;
     }
 
@@ -2907,7 +2906,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere byte1.
      */
-    public function getLibCritereByte1(): ?string{
+    public function getLibCritereByte1(): ?string {
         return $this->libCritereByte1;
     }
 
@@ -2916,7 +2915,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere num1.
      */
-    public function getLibCritereNum1(): ?string{
+    public function getLibCritereNum1(): ?string {
         return $this->libCritereNum1;
     }
 
@@ -2925,7 +2924,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere num2.
      */
-    public function getLibCritereNum2(): ?string{
+    public function getLibCritereNum2(): ?string {
         return $this->libCritereNum2;
     }
 
@@ -2934,7 +2933,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere num3.
      */
-    public function getLibCritereNum3(): ?string{
+    public function getLibCritereNum3(): ?string {
         return $this->libCritereNum3;
     }
 
@@ -2943,7 +2942,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere num4.
      */
-    public function getLibCritereNum4(): ?string{
+    public function getLibCritereNum4(): ?string {
         return $this->libCritereNum4;
     }
 
@@ -2952,7 +2951,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere num5.
      */
-    public function getLibCritereNum5(): ?string{
+    public function getLibCritereNum5(): ?string {
         return $this->libCritereNum5;
     }
 
@@ -2961,7 +2960,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere tab1.
      */
-    public function getLibCritereTab1(): ?string{
+    public function getLibCritereTab1(): ?string {
         return $this->libCritereTab1;
     }
 
@@ -2970,7 +2969,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere tab2.
      */
-    public function getLibCritereTab2(): ?string{
+    public function getLibCritereTab2(): ?string {
         return $this->libCritereTab2;
     }
 
@@ -2979,7 +2978,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere tab3.
      */
-    public function getLibCritereTab3(): ?string{
+    public function getLibCritereTab3(): ?string {
         return $this->libCritereTab3;
     }
 
@@ -2988,7 +2987,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere tab4.
      */
-    public function getLibCritereTab4(): ?string{
+    public function getLibCritereTab4(): ?string {
         return $this->libCritereTab4;
     }
 
@@ -2997,7 +2996,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere tab5.
      */
-    public function getLibCritereTab5(): ?string{
+    public function getLibCritereTab5(): ?string {
         return $this->libCritereTab5;
     }
 
@@ -3006,7 +3005,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere txt1.
      */
-    public function getLibCritereTxt1(): ?string{
+    public function getLibCritereTxt1(): ?string {
         return $this->libCritereTxt1;
     }
 
@@ -3015,7 +3014,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere txt2.
      */
-    public function getLibCritereTxt2(): ?string{
+    public function getLibCritereTxt2(): ?string {
         return $this->libCritereTxt2;
     }
 
@@ -3024,7 +3023,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere txt3.
      */
-    public function getLibCritereTxt3(): ?string{
+    public function getLibCritereTxt3(): ?string {
         return $this->libCritereTxt3;
     }
 
@@ -3033,7 +3032,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere txt4.
      */
-    public function getLibCritereTxt4(): ?string{
+    public function getLibCritereTxt4(): ?string {
         return $this->libCritereTxt4;
     }
 
@@ -3042,7 +3041,7 @@ class Constantes {
      *
      * @return string|null Returns the lib critere txt5.
      */
-    public function getLibCritereTxt5(): ?string{
+    public function getLibCritereTxt5(): ?string {
         return $this->libCritereTxt5;
     }
 
@@ -3051,7 +3050,7 @@ class Constantes {
      *
      * @return string|null Returns the libelle auto avoir.
      */
-    public function getLibelleAutoAvoir(): ?string{
+    public function getLibelleAutoAvoir(): ?string {
         return $this->libelleAutoAvoir;
     }
 
@@ -3060,7 +3059,7 @@ class Constantes {
      *
      * @return string|null Returns the libelle auto facture.
      */
-    public function getLibelleAutoFacture(): ?string{
+    public function getLibelleAutoFacture(): ?string {
         return $this->libelleAutoFacture;
     }
 
@@ -3069,7 +3068,7 @@ class Constantes {
      *
      * @return string|null Returns the libelle heures surcroit.
      */
-    public function getLibelleHeuresSurcroit(): ?string{
+    public function getLibelleHeuresSurcroit(): ?string {
         return $this->libelleHeuresSurcroit;
     }
 
@@ -3078,7 +3077,7 @@ class Constantes {
      *
      * @return string|null Returns the libelle transfert.
      */
-    public function getLibelleTransfert(): ?string{
+    public function getLibelleTransfert(): ?string {
         return $this->libelleTransfert;
     }
 
@@ -3087,7 +3086,7 @@ class Constantes {
      *
      * @return string|null Returns the libelle transfert achat.
      */
-    public function getLibelleTransfertAchat(): ?string{
+    public function getLibelleTransfertAchat(): ?string {
         return $this->libelleTransfertAchat;
     }
 
@@ -3096,17 +3095,8 @@ class Constantes {
      *
      * @return bool|null Returns the liv cde frn depot unique.
      */
-    public function getLivCdeFrnDepotUnique(): ?bool{
+    public function getLivCdeFrnDepotUnique(): ?bool {
         return $this->livCdeFrnDepotUnique;
-    }
-
-    /**
-     * Get the maj dernier passage bt.
-     *
-     * @return bool|null Returns the maj dernier passage bt.
-     */
-    public function getMajDernierPassageBt(): ?bool{
-        return $this->majDernierPassageBt;
     }
 
     /**
@@ -3114,7 +3104,7 @@ class Constantes {
      *
      * @return string|null Returns the mail attestations.
      */
-    public function getMailAttestations(): ?string{
+    public function getMailAttestations(): ?string {
         return $this->mailAttestations;
     }
 
@@ -3123,8 +3113,17 @@ class Constantes {
      *
      * @return string|null Returns the mail factures.
      */
-    public function getMailFactures(): ?string{
+    public function getMailFactures(): ?string {
         return $this->mailFactures;
+    }
+
+    /**
+     * Get the maj dernier passage bt.
+     *
+     * @return bool|null Returns the maj dernier passage bt.
+     */
+    public function getMajDernierPassageBt(): ?bool {
+        return $this->majDernierPassageBt;
     }
 
     /**
@@ -3132,7 +3131,7 @@ class Constantes {
      *
      * @return bool|null Returns the maj dernier prix achat.
      */
-    public function getMajDernierPrixAchat(): ?bool{
+    public function getMajDernierPrixAchat(): ?bool {
         return $this->majDernierPrixAchat;
     }
 
@@ -3141,7 +3140,7 @@ class Constantes {
      *
      * @return bool|null Returns the maj pamp.
      */
-    public function getMajPamp(): ?bool{
+    public function getMajPamp(): ?bool {
         return $this->majPamp;
     }
 
@@ -3150,7 +3149,7 @@ class Constantes {
      *
      * @return bool|null Returns the majoration cascade.
      */
-    public function getMajorationCascade(): ?bool{
+    public function getMajorationCascade(): ?bool {
         return $this->majorationCascade;
     }
 
@@ -3159,7 +3158,7 @@ class Constantes {
      *
      * @return string|null Returns the majoration h plus.
      */
-    public function getMajorationHPlus(): ?string{
+    public function getMajorationHPlus(): ?string {
         return $this->majorationHPlus;
     }
 
@@ -3168,7 +3167,7 @@ class Constantes {
      *
      * @return string|null Returns the marge niveau edition.
      */
-    public function getMargeNiveauEdition(): ?string{
+    public function getMargeNiveauEdition(): ?string {
         return $this->margeNiveauEdition;
     }
 
@@ -3177,7 +3176,7 @@ class Constantes {
      *
      * @return float|null Returns the marge pourcent charge.
      */
-    public function getMargePourcentCharge(): ?float{
+    public function getMargePourcentCharge(): ?float {
         return $this->margePourcentCharge;
     }
 
@@ -3186,7 +3185,7 @@ class Constantes {
      *
      * @return bool|null Returns the marge sal insp prorata ca.
      */
-    public function getMargeSalInspProrataCa(): ?bool{
+    public function getMargeSalInspProrataCa(): ?bool {
         return $this->margeSalInspProrataCa;
     }
 
@@ -3195,7 +3194,7 @@ class Constantes {
      *
      * @return bool|null Returns the mensualisation tache.
      */
-    public function getMensualisationTache(): ?bool{
+    public function getMensualisationTache(): ?bool {
         return $this->mensualisationTache;
     }
 
@@ -3204,7 +3203,7 @@ class Constantes {
      *
      * @return string|null Returns the mode calcul proposition cde.
      */
-    public function getModeCalculPropositionCde(): ?string{
+    public function getModeCalculPropositionCde(): ?string {
         return $this->modeCalculPropositionCde;
     }
 
@@ -3213,7 +3212,7 @@ class Constantes {
      *
      * @return string|null Returns the modele devis.
      */
-    public function getModeleDevis(): ?string{
+    public function getModeleDevis(): ?string {
         return $this->modeleDevis;
     }
 
@@ -3222,7 +3221,7 @@ class Constantes {
      *
      * @return string|null Returns the modele devis tech.
      */
-    public function getModeleDevisTech(): ?string{
+    public function getModeleDevisTech(): ?string {
         return $this->modeleDevisTech;
     }
 
@@ -3231,7 +3230,7 @@ class Constantes {
      *
      * @return string|null Returns the modele facture.
      */
-    public function getModeleFacture(): ?string{
+    public function getModeleFacture(): ?string {
         return $this->modeleFacture;
     }
 
@@ -3240,7 +3239,7 @@ class Constantes {
      *
      * @return bool|null Returns the mt cpta negatif.
      */
-    public function getMtCptaNegatif(): ?bool{
+    public function getMtCptaNegatif(): ?bool {
         return $this->mtCptaNegatif;
     }
 
@@ -3249,7 +3248,7 @@ class Constantes {
      *
      * @return int|null Returns the n der document.
      */
-    public function getNDerDocument(): ?int{
+    public function getNDerDocument(): ?int {
         return $this->nDerDocument;
     }
 
@@ -3258,7 +3257,7 @@ class Constantes {
      *
      * @return string|null Returns the nb caracteres ligne fact.
      */
-    public function getNbCaracteresLigneFact(): ?string{
+    public function getNbCaracteresLigneFact(): ?string {
         return $this->nbCaracteresLigneFact;
     }
 
@@ -3267,7 +3266,7 @@ class Constantes {
      *
      * @return string|null Returns the nb decimales prix unitaire.
      */
-    public function getNbDecimalesPrixUnitaire(): ?string{
+    public function getNbDecimalesPrixUnitaire(): ?string {
         return $this->nbDecimalesPrixUnitaire;
     }
 
@@ -3276,7 +3275,7 @@ class Constantes {
      *
      * @return string|null Returns the nb decimales quantite.
      */
-    public function getNbDecimalesQuantite(): ?string{
+    public function getNbDecimalesQuantite(): ?string {
         return $this->nbDecimalesQuantite;
     }
 
@@ -3285,7 +3284,7 @@ class Constantes {
      *
      * @return string|null Returns the nb entiers prix unitaire.
      */
-    public function getNbEntiersPrixUnitaire(): ?string{
+    public function getNbEntiersPrixUnitaire(): ?string {
         return $this->nbEntiersPrixUnitaire;
     }
 
@@ -3294,7 +3293,7 @@ class Constantes {
      *
      * @return string|null Returns the nb entiers quantite.
      */
-    public function getNbEntiersQuantite(): ?string{
+    public function getNbEntiersQuantite(): ?string {
         return $this->nbEntiersQuantite;
     }
 
@@ -3303,7 +3302,7 @@ class Constantes {
      *
      * @return float|null Returns the nb jour cp acquis.
      */
-    public function getNbJourCpAcquis(): ?float{
+    public function getNbJourCpAcquis(): ?float {
         return $this->nbJourCpAcquis;
     }
 
@@ -3312,7 +3311,7 @@ class Constantes {
      *
      * @return int|null Returns the nb jours abs proratisation dcp.
      */
-    public function getNbJoursAbsProratisationDcp(): ?int{
+    public function getNbJoursAbsProratisationDcp(): ?int {
         return $this->nbJoursAbsProratisationDcp;
     }
 
@@ -3321,7 +3320,7 @@ class Constantes {
      *
      * @return int|null Returns the nb mois consecutifs.
      */
-    public function getNbMoisConsecutifs(): ?int{
+    public function getNbMoisConsecutifs(): ?int {
         return $this->nbMoisConsecutifs;
     }
 
@@ -3330,7 +3329,7 @@ class Constantes {
      *
      * @return string|null Returns the nom fact nb lignes.
      */
-    public function getNomFactNbLignes(): ?string{
+    public function getNomFactNbLignes(): ?string {
         return $this->nomFactNbLignes;
     }
 
@@ -3339,7 +3338,7 @@ class Constantes {
      *
      * @return string|null Returns the nom fichier ascii achat.
      */
-    public function getNomFichierAsciiAchat(): ?string{
+    public function getNomFichierAsciiAchat(): ?string {
         return $this->nomFichierAsciiAchat;
     }
 
@@ -3348,7 +3347,7 @@ class Constantes {
      *
      * @return string|null Returns the nom fichier ascii vente.
      */
-    public function getNomFichierAsciiVente(): ?string{
+    public function getNomFichierAsciiVente(): ?string {
         return $this->nomFichierAsciiVente;
     }
 
@@ -3357,7 +3356,7 @@ class Constantes {
      *
      * @return bool|null Returns the note0 non conforme.
      */
-    public function getNote0NonConforme(): ?bool{
+    public function getNote0NonConforme(): ?bool {
         return $this->note0NonConforme;
     }
 
@@ -3366,7 +3365,7 @@ class Constantes {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -3375,7 +3374,7 @@ class Constantes {
      *
      * @return string|null Returns the num critere bt num1.
      */
-    public function getNumCritereBtNum1(): ?string{
+    public function getNumCritereBtNum1(): ?string {
         return $this->numCritereBtNum1;
     }
 
@@ -3384,7 +3383,7 @@ class Constantes {
      *
      * @return string|null Returns the num critere bt num2.
      */
-    public function getNumCritereBtNum2(): ?string{
+    public function getNumCritereBtNum2(): ?string {
         return $this->numCritereBtNum2;
     }
 
@@ -3393,7 +3392,7 @@ class Constantes {
      *
      * @return string|null Returns the num critere chantier filtre1.
      */
-    public function getNumCritereChantierFiltre1(): ?string{
+    public function getNumCritereChantierFiltre1(): ?string {
         return $this->numCritereChantierFiltre1;
     }
 
@@ -3402,7 +3401,7 @@ class Constantes {
      *
      * @return int|null Returns the num devis.
      */
-    public function getNumDevis(): ?int{
+    public function getNumDevis(): ?int {
         return $this->numDevis;
     }
 
@@ -3411,7 +3410,7 @@ class Constantes {
      *
      * @return int|null Returns the num fact.
      */
-    public function getNumFact(): ?int{
+    public function getNumFact(): ?int {
         return $this->numFact;
     }
 
@@ -3420,7 +3419,7 @@ class Constantes {
      *
      * @return int|null Returns the num fact vm.
      */
-    public function getNumFactVm(): ?int{
+    public function getNumFactVm(): ?int {
         return $this->numFactVm;
     }
 
@@ -3429,7 +3428,7 @@ class Constantes {
      *
      * @return int|null Returns the numero fiche controle.
      */
-    public function getNumeroFicheControle(): ?int{
+    public function getNumeroFicheControle(): ?int {
         return $this->numeroFicheControle;
     }
 
@@ -3438,26 +3437,8 @@ class Constantes {
      *
      * @return bool|null Returns the pa par fournisseur.
      */
-    public function getPaParFournisseur(): ?bool{
+    public function getPaParFournisseur(): ?bool {
         return $this->paParFournisseur;
-    }
-
-    /**
-     * Get the pj envoi mail.
-     *
-     * @return string|null Returns the pj envoi mail.
-     */
-    public function getPjEnvoiMail(): ?string{
-        return $this->pjEnvoiMail;
-    }
-
-    /**
-     * Get the pj envoi mail attestation.
-     *
-     * @return string|null Returns the pj envoi mail attestation.
-     */
-    public function getPjEnvoiMailAttestation(): ?string{
-        return $this->pjEnvoiMailAttestation;
     }
 
     /**
@@ -3465,7 +3446,7 @@ class Constantes {
      *
      * @return bool|null Returns the pas num cpt par dossier.
      */
-    public function getPasNumCptParDossier(): ?bool{
+    public function getPasNumCptParDossier(): ?bool {
         return $this->pasNumCptParDossier;
     }
 
@@ -3474,7 +3455,7 @@ class Constantes {
      *
      * @return float|null Returns the pdf bt coefficient.
      */
-    public function getPdfBtCoefficient(): ?float{
+    public function getPdfBtCoefficient(): ?float {
         return $this->pdfBtCoefficient;
     }
 
@@ -3483,7 +3464,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt date passage.
      */
-    public function getPdfBtDatePassage(): ?bool{
+    public function getPdfBtDatePassage(): ?bool {
         return $this->pdfBtDatePassage;
     }
 
@@ -3492,7 +3473,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt descriptif.
      */
-    public function getPdfBtDescriptif(): ?bool{
+    public function getPdfBtDescriptif(): ?bool {
         return $this->pdfBtDescriptif;
     }
 
@@ -3501,7 +3482,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt employes corps.
      */
-    public function getPdfBtEmployesCorps(): ?bool{
+    public function getPdfBtEmployesCorps(): ?bool {
         return $this->pdfBtEmployesCorps;
     }
 
@@ -3510,7 +3491,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt employes ref.
      */
-    public function getPdfBtEmployesRef(): ?bool{
+    public function getPdfBtEmployesRef(): ?bool {
         return $this->pdfBtEmployesRef;
     }
 
@@ -3519,7 +3500,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt facturer ala validation.
      */
-    public function getPdfBtFacturerAlaValidation(): ?bool{
+    public function getPdfBtFacturerAlaValidation(): ?bool {
         return $this->pdfBtFacturerAlaValidation;
     }
 
@@ -3528,7 +3509,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt format saisie qte pu.
      */
-    public function getPdfBtFormatSaisieQtePu(): ?bool{
+    public function getPdfBtFormatSaisieQtePu(): ?bool {
         return $this->pdfBtFormatSaisieQtePu;
     }
 
@@ -3537,7 +3518,7 @@ class Constantes {
      *
      * @return string|null Returns the pdf bt libelle date.
      */
-    public function getPdfBtLibelleDate(): ?string{
+    public function getPdfBtLibelleDate(): ?string {
         return $this->pdfBtLibelleDate;
     }
 
@@ -3546,7 +3527,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt nom chantier.
      */
-    public function getPdfBtNomChantier(): ?bool{
+    public function getPdfBtNomChantier(): ?bool {
         return $this->pdfBtNomChantier;
     }
 
@@ -3555,7 +3536,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt periode validite.
      */
-    public function getPdfBtPeriodeValidite(): ?bool{
+    public function getPdfBtPeriodeValidite(): ?bool {
         return $this->pdfBtPeriodeValidite;
     }
 
@@ -3564,7 +3545,7 @@ class Constantes {
      *
      * @return float|null Returns the pdf bt prix achat.
      */
-    public function getPdfBtPrixAchat(): ?float{
+    public function getPdfBtPrixAchat(): ?float {
         return $this->pdfBtPrixAchat;
     }
 
@@ -3573,7 +3554,7 @@ class Constantes {
      *
      * @return bool|null Returns the pdf bt reprendre libelle date.
      */
-    public function getPdfBtReprendreLibelleDate(): ?bool{
+    public function getPdfBtReprendreLibelleDate(): ?bool {
         return $this->pdfBtReprendreLibelleDate;
     }
 
@@ -3582,8 +3563,26 @@ class Constantes {
      *
      * @return float|null Returns the pdf bt taux horaire.
      */
-    public function getPdfBtTauxHoraire(): ?float{
+    public function getPdfBtTauxHoraire(): ?float {
         return $this->pdfBtTauxHoraire;
+    }
+
+    /**
+     * Get the pj envoi mail.
+     *
+     * @return string|null Returns the pj envoi mail.
+     */
+    public function getPjEnvoiMail(): ?string {
+        return $this->pjEnvoiMail;
+    }
+
+    /**
+     * Get the pj envoi mail attestation.
+     *
+     * @return string|null Returns the pj envoi mail attestation.
+     */
+    public function getPjEnvoiMailAttestation(): ?string {
+        return $this->pjEnvoiMailAttestation;
     }
 
     /**
@@ -3591,7 +3590,7 @@ class Constantes {
      *
      * @return bool|null Returns the point bt employes sortis.
      */
-    public function getPointBtEmployesSortis(): ?bool{
+    public function getPointBtEmployesSortis(): ?bool {
         return $this->pointBtEmployesSortis;
     }
 
@@ -3600,7 +3599,7 @@ class Constantes {
      *
      * @return string|null Returns the poste1.
      */
-    public function getPoste1(): ?string{
+    public function getPoste1(): ?string {
         return $this->poste1;
     }
 
@@ -3609,7 +3608,7 @@ class Constantes {
      *
      * @return string|null Returns the poste2.
      */
-    public function getPoste2(): ?string{
+    public function getPoste2(): ?string {
         return $this->poste2;
     }
 
@@ -3618,7 +3617,7 @@ class Constantes {
      *
      * @return string|null Returns the poste3.
      */
-    public function getPoste3(): ?string{
+    public function getPoste3(): ?string {
         return $this->poste3;
     }
 
@@ -3627,7 +3626,7 @@ class Constantes {
      *
      * @return string|null Returns the poste4.
      */
-    public function getPoste4(): ?string{
+    public function getPoste4(): ?string {
         return $this->poste4;
     }
 
@@ -3636,7 +3635,7 @@ class Constantes {
      *
      * @return string|null Returns the poste5.
      */
-    public function getPoste5(): ?string{
+    public function getPoste5(): ?string {
         return $this->poste5;
     }
 
@@ -3645,7 +3644,7 @@ class Constantes {
      *
      * @return float|null Returns the pourc maj h compl.
      */
-    public function getPourcMajHCompl(): ?float{
+    public function getPourcMajHCompl(): ?float {
         return $this->pourcMajHCompl;
     }
 
@@ -3654,7 +3653,7 @@ class Constantes {
      *
      * @return float|null Returns the pourc maj h compl2.
      */
-    public function getPourcMajHCompl2(): ?float{
+    public function getPourcMajHCompl2(): ?float {
         return $this->pourcMajHCompl2;
     }
 
@@ -3663,7 +3662,7 @@ class Constantes {
      *
      * @return float|null Returns the pourcent dep hc max.
      */
-    public function getPourcentDepHcMax(): ?float{
+    public function getPourcentDepHcMax(): ?float {
         return $this->pourcentDepHcMax;
     }
 
@@ -3672,7 +3671,7 @@ class Constantes {
      *
      * @return float|null Returns the pourcent dep hc plus mois.
      */
-    public function getPourcentDepHcPlusMois(): ?float{
+    public function getPourcentDepHcPlusMois(): ?float {
         return $this->pourcentDepHcPlusMois;
     }
 
@@ -3681,7 +3680,7 @@ class Constantes {
      *
      * @return float|null Returns the pourcentage repos remplacement.
      */
-    public function getPourcentageReposRemplacement(): ?float{
+    public function getPourcentageReposRemplacement(): ?float {
         return $this->pourcentageReposRemplacement;
     }
 
@@ -3690,7 +3689,7 @@ class Constantes {
      *
      * @return string|null Returns the prefixe.
      */
-    public function getPrefixe(): ?string{
+    public function getPrefixe(): ?string {
         return $this->prefixe;
     }
 
@@ -3699,7 +3698,7 @@ class Constantes {
      *
      * @return string|null Returns the prefixe devis.
      */
-    public function getPrefixeDevis(): ?string{
+    public function getPrefixeDevis(): ?string {
         return $this->prefixeDevis;
     }
 
@@ -3708,7 +3707,7 @@ class Constantes {
      *
      * @return bool|null Returns the preparer chantier pret only.
      */
-    public function getPreparerChantierPretOnly(): ?bool{
+    public function getPreparerChantierPretOnly(): ?bool {
         return $this->preparerChantierPretOnly;
     }
 
@@ -3717,7 +3716,7 @@ class Constantes {
      *
      * @return int|null Returns the prix defaut achat.
      */
-    public function getPrixDefautAchat(): ?int{
+    public function getPrixDefautAchat(): ?int {
         return $this->prixDefautAchat;
     }
 
@@ -3726,7 +3725,7 @@ class Constantes {
      *
      * @return int|null Returns the prix defaut entree directe.
      */
-    public function getPrixDefautEntreeDirecte(): ?int{
+    public function getPrixDefautEntreeDirecte(): ?int {
         return $this->prixDefautEntreeDirecte;
     }
 
@@ -3735,7 +3734,7 @@ class Constantes {
      *
      * @return int|null Returns the prix defaut inventaire.
      */
-    public function getPrixDefautInventaire(): ?int{
+    public function getPrixDefautInventaire(): ?int {
         return $this->prixDefautInventaire;
     }
 
@@ -3744,7 +3743,7 @@ class Constantes {
      *
      * @return int|null Returns the prix defaut sortie directe.
      */
-    public function getPrixDefautSortieDirecte(): ?int{
+    public function getPrixDefautSortieDirecte(): ?int {
         return $this->prixDefautSortieDirecte;
     }
 
@@ -3753,7 +3752,7 @@ class Constantes {
      *
      * @return int|null Returns the prix defaut vente.
      */
-    public function getPrixDefautVente(): ?int{
+    public function getPrixDefautVente(): ?int {
         return $this->prixDefautVente;
     }
 
@@ -3762,7 +3761,7 @@ class Constantes {
      *
      * @return int|null Returns the prochain numero pj.
      */
-    public function getProchainNumeroPj(): ?int{
+    public function getProchainNumeroPj(): ?int {
         return $this->prochainNumeroPj;
     }
 
@@ -3771,7 +3770,7 @@ class Constantes {
      *
      * @return bool|null Returns the prorata heures creer ligne.
      */
-    public function getProrataHeuresCreerLigne(): ?bool{
+    public function getProrataHeuresCreerLigne(): ?bool {
         return $this->prorataHeuresCreerLigne;
     }
 
@@ -3780,7 +3779,7 @@ class Constantes {
      *
      * @return string|null Returns the prorata heures designation moins.
      */
-    public function getProrataHeuresDesignationMoins(): ?string{
+    public function getProrataHeuresDesignationMoins(): ?string {
         return $this->prorataHeuresDesignationMoins;
     }
 
@@ -3789,7 +3788,7 @@ class Constantes {
      *
      * @return string|null Returns the prorata heures designation plus.
      */
-    public function getProrataHeuresDesignationPlus(): ?string{
+    public function getProrataHeuresDesignationPlus(): ?string {
         return $this->prorataHeuresDesignationPlus;
     }
 
@@ -3798,7 +3797,7 @@ class Constantes {
      *
      * @return string|null Returns the prorata heures option.
      */
-    public function getProrataHeuresOption(): ?string{
+    public function getProrataHeuresOption(): ?string {
         return $this->prorataHeuresOption;
     }
 
@@ -3807,7 +3806,7 @@ class Constantes {
      *
      * @return bool|null Returns the prov cp infos emp.
      */
-    public function getProvCpInfosEmp(): ?bool{
+    public function getProvCpInfosEmp(): ?bool {
         return $this->provCpInfosEmp;
     }
 
@@ -3816,7 +3815,7 @@ class Constantes {
      *
      * @return bool|null Returns the provisions cp.
      */
-    public function getProvisionsCp(): ?bool{
+    public function getProvisionsCp(): ?bool {
         return $this->provisionsCp;
     }
 
@@ -3825,7 +3824,7 @@ class Constantes {
      *
      * @return string|null Returns the qualite nb criteres.
      */
-    public function getQualiteNbCriteres(): ?string{
+    public function getQualiteNbCriteres(): ?string {
         return $this->qualiteNbCriteres;
     }
 
@@ -3834,7 +3833,7 @@ class Constantes {
      *
      * @return string|null Returns the qualite nb notes.
      */
-    public function getQualiteNbNotes(): ?string{
+    public function getQualiteNbNotes(): ?string {
         return $this->qualiteNbNotes;
     }
 
@@ -3843,17 +3842,8 @@ class Constantes {
      *
      * @return bool|null Returns the qualite satisfaction generale.
      */
-    public function getQualiteSatisfactionGenerale(): ?bool{
+    public function getQualiteSatisfactionGenerale(): ?bool {
         return $this->qualiteSatisfactionGenerale;
-    }
-
-    /**
-     * Get the rt fdans fact dev.
-     *
-     * @return bool|null Returns the rt fdans fact dev.
-     */
-    public function getRtFdansFactDev(): ?bool{
-        return $this->rtFdansFactDev;
     }
 
     /**
@@ -3861,7 +3851,7 @@ class Constantes {
      *
      * @return bool|null Returns the reference mensu contrat proprete.
      */
-    public function getReferenceMensuContratProprete(): ?bool{
+    public function getReferenceMensuContratProprete(): ?bool {
         return $this->referenceMensuContratProprete;
     }
 
@@ -3870,7 +3860,7 @@ class Constantes {
      *
      * @return bool|null Returns the remplacant abs jf pas auto.
      */
-    public function getRemplacantAbsJfPasAuto(): ?bool{
+    public function getRemplacantAbsJfPasAuto(): ?bool {
         return $this->remplacantAbsJfPasAuto;
     }
 
@@ -3879,7 +3869,7 @@ class Constantes {
      *
      * @return bool|null Returns the remplacant travaille pas jf.
      */
-    public function getRemplacantTravaillePasJf(): ?bool{
+    public function getRemplacantTravaillePasJf(): ?bool {
         return $this->remplacantTravaillePasJf;
     }
 
@@ -3888,7 +3878,7 @@ class Constantes {
      *
      * @return bool|null Returns the remplacement hcjf.
      */
-    public function getRemplacementHcjf(): ?bool{
+    public function getRemplacementHcjf(): ?bool {
         return $this->remplacementHcjf;
     }
 
@@ -3897,8 +3887,17 @@ class Constantes {
      *
      * @return bool|null Returns the repos compensateur pour travailleur nuit.
      */
-    public function getReposCompensateurPourTravailleurNuit(): ?bool{
+    public function getReposCompensateurPourTravailleurNuit(): ?bool {
         return $this->reposCompensateurPourTravailleurNuit;
+    }
+
+    /**
+     * Get the rt fdans fact dev.
+     *
+     * @return bool|null Returns the rt fdans fact dev.
+     */
+    public function getRtFdansFactDev(): ?bool {
+        return $this->rtFdansFactDev;
     }
 
     /**
@@ -3906,7 +3905,7 @@ class Constantes {
      *
      * @return bool|null Returns the saisir absences sur hc.
      */
-    public function getSaisirAbsencesSurHc(): ?bool{
+    public function getSaisirAbsencesSurHc(): ?bool {
         return $this->saisirAbsencesSurHc;
     }
 
@@ -3915,7 +3914,7 @@ class Constantes {
      *
      * @return bool|null Returns the saisir code chantier achat.
      */
-    public function getSaisirCodeChantierAchat(): ?bool{
+    public function getSaisirCodeChantierAchat(): ?bool {
         return $this->saisirCodeChantierAchat;
     }
 
@@ -3924,7 +3923,7 @@ class Constantes {
      *
      * @return bool|null Returns the saisir num bt.
      */
-    public function getSaisirNumBt(): ?bool{
+    public function getSaisirNumBt(): ?bool {
         return $this->saisirNumBt;
     }
 
@@ -3933,7 +3932,7 @@ class Constantes {
      *
      * @return string|null Returns the services paie.
      */
-    public function getServicesPaie(): ?string{
+    public function getServicesPaie(): ?string {
         return $this->servicesPaie;
     }
 
@@ -3942,7 +3941,7 @@ class Constantes {
      *
      * @return float|null Returns the seuil majo h compl.
      */
-    public function getSeuilMajoHCompl(): ?float{
+    public function getSeuilMajoHCompl(): ?float {
         return $this->seuilMajoHCompl;
     }
 
@@ -3951,7 +3950,7 @@ class Constantes {
      *
      * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte(): ?float{
+    public function getTauxEscompte(): ?float {
         return $this->tauxEscompte;
     }
 
@@ -3960,7 +3959,7 @@ class Constantes {
      *
      * @return float|null Returns the taux majo hc33.
      */
-    public function getTauxMajoHc33(): ?float{
+    public function getTauxMajoHc33(): ?float {
         return $this->tauxMajoHc33;
     }
 
@@ -3969,7 +3968,7 @@ class Constantes {
      *
      * @return float|null Returns the taux majoration h compl.
      */
-    public function getTauxMajorationHCompl(): ?float{
+    public function getTauxMajorationHCompl(): ?float {
         return $this->tauxMajorationHCompl;
     }
 
@@ -3978,7 +3977,7 @@ class Constantes {
      *
      * @return float|null Returns the taux tva achat.
      */
-    public function getTauxTvaAchat(): ?float{
+    public function getTauxTvaAchat(): ?float {
         return $this->tauxTvaAchat;
     }
 
@@ -3987,7 +3986,7 @@ class Constantes {
      *
      * @return float|null Returns the taux tva taxe deee.
      */
-    public function getTauxTvaTaxeDeee(): ?float{
+    public function getTauxTvaTaxeDeee(): ?float {
         return $this->tauxTvaTaxeDeee;
     }
 
@@ -3996,7 +3995,7 @@ class Constantes {
      *
      * @return float|null Returns the taux tva vente.
      */
-    public function getTauxTvaVente(): ?float{
+    public function getTauxTvaVente(): ?float {
         return $this->tauxTvaVente;
     }
 
@@ -4005,7 +4004,7 @@ class Constantes {
      *
      * @return string|null Returns the type rempl defaut.
      */
-    public function getTypeRemplDefaut(): ?string{
+    public function getTypeRemplDefaut(): ?string {
         return $this->typeRemplDefaut;
     }
 
@@ -4014,7 +4013,7 @@ class Constantes {
      *
      * @return string|null Returns the type transfert vente.
      */
-    public function getTypeTransfertVente(): ?string{
+    public function getTypeTransfertVente(): ?string {
         return $this->typeTransfertVente;
     }
 
@@ -4023,7 +4022,7 @@ class Constantes {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 
@@ -4032,7 +4031,7 @@ class Constantes {
      *
      * @return bool|null Returns the utiliser stock mini.
      */
-    public function getUtiliserStockMini(): ?bool{
+    public function getUtiliserStockMini(): ?bool {
         return $this->utiliserStockMini;
     }
 
@@ -4041,7 +4040,7 @@ class Constantes {
      *
      * @return bool|null Returns the visualiser pointage bt valides.
      */
-    public function getVisualiserPointageBtValides(): ?bool{
+    public function getVisualiserPointageBtValides(): ?bool {
         return $this->visualiserPointageBtValides;
     }
 
@@ -4240,17 +4239,6 @@ class Constantes {
      */
     public function setCddMensuTotalHeures(?bool $cddMensuTotalHeures): Constantes {
         $this->cddMensuTotalHeures = $cddMensuTotalHeures;
-        return $this;
-    }
-
-    /**
-     * Set the cp sans provisions.
-     *
-     * @param bool|null $cpSansProvisions The cp sans provisions.
-     * @return Constantes Returns this Constantes.
-     */
-    public function setCpSansProvisions(?bool $cpSansProvisions): Constantes {
-        $this->cpSansProvisions = $cpSansProvisions;
         return $this;
     }
 
@@ -4933,6 +4921,17 @@ class Constantes {
      */
     public function setControlerDepHcPlusMois(?bool $controlerDepHcPlusMois): Constantes {
         $this->controlerDepHcPlusMois = $controlerDepHcPlusMois;
+        return $this;
+    }
+
+    /**
+     * Set the cp sans provisions.
+     *
+     * @param bool|null $cpSansProvisions The cp sans provisions.
+     * @return Constantes Returns this Constantes.
+     */
+    public function setCpSansProvisions(?bool $cpSansProvisions): Constantes {
+        $this->cpSansProvisions = $cpSansProvisions;
         return $this;
     }
 
@@ -5652,17 +5651,6 @@ class Constantes {
     }
 
     /**
-     * Set the maj dernier passage bt.
-     *
-     * @param bool|null $majDernierPassageBt The maj dernier passage bt.
-     * @return Constantes Returns this Constantes.
-     */
-    public function setMajDernierPassageBt(?bool $majDernierPassageBt): Constantes {
-        $this->majDernierPassageBt = $majDernierPassageBt;
-        return $this;
-    }
-
-    /**
      * Set the mail attestations.
      *
      * @param string|null $mailAttestations The mail attestations.
@@ -5681,6 +5669,17 @@ class Constantes {
      */
     public function setMailFactures(?string $mailFactures): Constantes {
         $this->mailFactures = $mailFactures;
+        return $this;
+    }
+
+    /**
+     * Set the maj dernier passage bt.
+     *
+     * @param bool|null $majDernierPassageBt The maj dernier passage bt.
+     * @return Constantes Returns this Constantes.
+     */
+    public function setMajDernierPassageBt(?bool $majDernierPassageBt): Constantes {
+        $this->majDernierPassageBt = $majDernierPassageBt;
         return $this;
     }
 
@@ -6070,28 +6069,6 @@ class Constantes {
     }
 
     /**
-     * Set the pj envoi mail.
-     *
-     * @param string|null $pjEnvoiMail The pj envoi mail.
-     * @return Constantes Returns this Constantes.
-     */
-    public function setPjEnvoiMail(?string $pjEnvoiMail): Constantes {
-        $this->pjEnvoiMail = $pjEnvoiMail;
-        return $this;
-    }
-
-    /**
-     * Set the pj envoi mail attestation.
-     *
-     * @param string|null $pjEnvoiMailAttestation The pj envoi mail attestation.
-     * @return Constantes Returns this Constantes.
-     */
-    public function setPjEnvoiMailAttestation(?string $pjEnvoiMailAttestation): Constantes {
-        $this->pjEnvoiMailAttestation = $pjEnvoiMailAttestation;
-        return $this;
-    }
-
-    /**
      * Set the pas num cpt par dossier.
      *
      * @param bool|null $pasNumCptParDossier The pas num cpt par dossier.
@@ -6242,6 +6219,28 @@ class Constantes {
      */
     public function setPdfBtTauxHoraire(?float $pdfBtTauxHoraire): Constantes {
         $this->pdfBtTauxHoraire = $pdfBtTauxHoraire;
+        return $this;
+    }
+
+    /**
+     * Set the pj envoi mail.
+     *
+     * @param string|null $pjEnvoiMail The pj envoi mail.
+     * @return Constantes Returns this Constantes.
+     */
+    public function setPjEnvoiMail(?string $pjEnvoiMail): Constantes {
+        $this->pjEnvoiMail = $pjEnvoiMail;
+        return $this;
+    }
+
+    /**
+     * Set the pj envoi mail attestation.
+     *
+     * @param string|null $pjEnvoiMailAttestation The pj envoi mail attestation.
+     * @return Constantes Returns this Constantes.
+     */
+    public function setPjEnvoiMailAttestation(?string $pjEnvoiMailAttestation): Constantes {
+        $this->pjEnvoiMailAttestation = $pjEnvoiMailAttestation;
         return $this;
     }
 
@@ -6565,17 +6564,6 @@ class Constantes {
     }
 
     /**
-     * Set the rt fdans fact dev.
-     *
-     * @param bool|null $rtFdansFactDev The rt fdans fact dev.
-     * @return Constantes Returns this Constantes.
-     */
-    public function setRtFdansFactDev(?bool $rtFdansFactDev): Constantes {
-        $this->rtFdansFactDev = $rtFdansFactDev;
-        return $this;
-    }
-
-    /**
      * Set the reference mensu contrat proprete.
      *
      * @param bool|null $referenceMensuContratProprete The reference mensu contrat proprete.
@@ -6627,6 +6615,17 @@ class Constantes {
      */
     public function setReposCompensateurPourTravailleurNuit(?bool $reposCompensateurPourTravailleurNuit): Constantes {
         $this->reposCompensateurPourTravailleurNuit = $reposCompensateurPourTravailleurNuit;
+        return $this;
+    }
+
+    /**
+     * Set the rt fdans fact dev.
+     *
+     * @param bool|null $rtFdansFactDev The rt fdans fact dev.
+     * @return Constantes Returns this Constantes.
+     */
+    public function setRtFdansFactDev(?bool $rtFdansFactDev): Constantes {
+        $this->rtFdansFactDev = $rtFdansFactDev;
         return $this;
     }
 

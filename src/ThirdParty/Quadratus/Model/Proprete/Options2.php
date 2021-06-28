@@ -70,7 +70,6 @@ class Options2 {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class Options2 {
      *
      * @return bool|null Returns the booleen.
      */
-    public function getBooleen(): ?bool{
+    public function getBooleen(): ?bool {
         return $this->booleen;
     }
 
@@ -92,7 +91,7 @@ class Options2 {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -101,7 +100,7 @@ class Options2 {
      *
      * @return DateTime|null Returns the date heure.
      */
-    public function getDateHeure(): ?DateTime{
+    public function getDateHeure(): ?DateTime {
         return $this->dateHeure;
     }
 
@@ -110,7 +109,7 @@ class Options2 {
      *
      * @return string|null Returns the descriptif.
      */
-    public function getDescriptif(): ?string{
+    public function getDescriptif(): ?string {
         return $this->descriptif;
     }
 
@@ -119,7 +118,7 @@ class Options2 {
      *
      * @return float|null Returns the numerique.
      */
-    public function getNumerique(): ?float{
+    public function getNumerique(): ?float {
         return $this->numerique;
     }
 
@@ -128,7 +127,7 @@ class Options2 {
      *
      * @return string|null Returns the string.
      */
-    public function getString(): ?string{
+    public function getString(): ?string {
         return $this->string;
     }
 
@@ -137,7 +136,7 @@ class Options2 {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

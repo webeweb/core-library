@@ -469,7 +469,6 @@ class BlEntete {
      */
     private $txEscompteVente;
 
-
     /**
      * Constructor.
      */
@@ -482,7 +481,7 @@ class BlEntete {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -491,7 +490,7 @@ class BlEntete {
      *
      * @return string|null Returns the btq2.
      */
-    public function getBtq2(): ?string{
+    public function getBtq2(): ?string {
         return $this->btq2;
     }
 
@@ -500,7 +499,7 @@ class BlEntete {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -509,7 +508,7 @@ class BlEntete {
      *
      * @return string|null Returns the bureau distributeur2.
      */
-    public function getBureauDistributeur2(): ?string{
+    public function getBureauDistributeur2(): ?string {
         return $this->bureauDistributeur2;
     }
 
@@ -518,7 +517,7 @@ class BlEntete {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -527,7 +526,7 @@ class BlEntete {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -536,7 +535,7 @@ class BlEntete {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -545,7 +544,7 @@ class BlEntete {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -554,7 +553,7 @@ class BlEntete {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -563,7 +562,7 @@ class BlEntete {
      *
      * @return string|null Returns the code officiel commune2.
      */
-    public function getCodeOfficielCommune2(): ?string{
+    public function getCodeOfficielCommune2(): ?string {
         return $this->codeOfficielCommune2;
     }
 
@@ -572,7 +571,7 @@ class BlEntete {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -581,7 +580,7 @@ class BlEntete {
      *
      * @return string|null Returns the code postal2.
      */
-    public function getCodePostal2(): ?string{
+    public function getCodePostal2(): ?string {
         return $this->codePostal2;
     }
 
@@ -590,7 +589,7 @@ class BlEntete {
      *
      * @return string|null Returns the code reglement.
      */
-    public function getCodeReglement(): ?string{
+    public function getCodeReglement(): ?string {
         return $this->codeReglement;
     }
 
@@ -599,7 +598,7 @@ class BlEntete {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -608,7 +607,7 @@ class BlEntete {
      *
      * @return string|null Returns the code representant.
      */
-    public function getCodeRepresentant(): ?string{
+    public function getCodeRepresentant(): ?string {
         return $this->codeRepresentant;
     }
 
@@ -617,7 +616,7 @@ class BlEntete {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -626,7 +625,7 @@ class BlEntete {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -635,7 +634,7 @@ class BlEntete {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -644,7 +643,7 @@ class BlEntete {
      *
      * @return string|null Returns the complement2.
      */
-    public function getComplement2(): ?string{
+    public function getComplement2(): ?string {
         return $this->complement2;
     }
 
@@ -653,7 +652,7 @@ class BlEntete {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -662,7 +661,7 @@ class BlEntete {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -671,7 +670,7 @@ class BlEntete {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -680,7 +679,7 @@ class BlEntete {
      *
      * @return DateTime|null Returns the date piece.
      */
-    public function getDatePiece(): ?DateTime{
+    public function getDatePiece(): ?DateTime {
         return $this->datePiece;
     }
 
@@ -689,7 +688,7 @@ class BlEntete {
      *
      * @return DateTime|null Returns the date reception prevue.
      */
-    public function getDateReceptionPrevue(): ?DateTime{
+    public function getDateReceptionPrevue(): ?DateTime {
         return $this->dateReceptionPrevue;
     }
 
@@ -698,7 +697,7 @@ class BlEntete {
      *
      * @return bool|null Returns the echeance forcee.
      */
-    public function getEcheanceForcee(): ?bool{
+    public function getEcheanceForcee(): ?bool {
         return $this->echeanceForcee;
     }
 
@@ -707,7 +706,7 @@ class BlEntete {
      *
      * @return int|null Returns the edition.
      */
-    public function getEdition(): ?int{
+    public function getEdition(): ?int {
         return $this->edition;
     }
 
@@ -716,7 +715,7 @@ class BlEntete {
      *
      * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros(): ?bool{
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
@@ -725,7 +724,7 @@ class BlEntete {
      *
      * @return float|null Returns the montant acompte.
      */
-    public function getMontantAcompte(): ?float{
+    public function getMontantAcompte(): ?float {
         return $this->montantAcompte;
     }
 
@@ -734,7 +733,7 @@ class BlEntete {
      *
      * @return int|null Returns the nb colis.
      */
-    public function getNbColis(): ?int{
+    public function getNbColis(): ?int {
         return $this->nbColis;
     }
 
@@ -743,7 +742,7 @@ class BlEntete {
      *
      * @return string|null Returns the no piece.
      */
-    public function getNoPiece(): ?string{
+    public function getNoPiece(): ?string {
         return $this->noPiece;
     }
 
@@ -752,7 +751,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -761,7 +760,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom2.
      */
-    public function getNom2(): ?string{
+    public function getNom2(): ?string {
         return $this->nom2;
     }
 
@@ -770,7 +769,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -779,7 +778,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom suite2.
      */
-    public function getNomSuite2(): ?string{
+    public function getNomSuite2(): ?string {
         return $this->nomSuite2;
     }
 
@@ -788,7 +787,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -797,7 +796,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom ville2.
      */
-    public function getNomVille2(): ?string{
+    public function getNomVille2(): ?string {
         return $this->nomVille2;
     }
 
@@ -806,7 +805,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -815,7 +814,7 @@ class BlEntete {
      *
      * @return string|null Returns the nom voie2.
      */
-    public function getNomVoie2(): ?string{
+    public function getNomVoie2(): ?string {
         return $this->nomVoie2;
     }
 
@@ -824,7 +823,7 @@ class BlEntete {
      *
      * @return int|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?int{
+    public function getNombreEcheances(): ?int {
         return $this->nombreEcheances;
     }
 
@@ -833,7 +832,7 @@ class BlEntete {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -842,7 +841,7 @@ class BlEntete {
      *
      * @return string|null Returns the num voie2.
      */
-    public function getNumVoie2(): ?string{
+    public function getNumVoie2(): ?string {
         return $this->numVoie2;
     }
 
@@ -851,7 +850,7 @@ class BlEntete {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -860,7 +859,7 @@ class BlEntete {
      *
      * @return int|null Returns the paiement depart le.
      */
-    public function getPaiementDepartLe(): ?int{
+    public function getPaiementDepartLe(): ?int {
         return $this->paiementDepartLe;
     }
 
@@ -869,7 +868,7 @@ class BlEntete {
      *
      * @return int|null Returns the paiement le.
      */
-    public function getPaiementLe(): ?int{
+    public function getPaiementLe(): ?int {
         return $this->paiementLe;
     }
 
@@ -878,7 +877,7 @@ class BlEntete {
      *
      * @return int|null Returns the paiement nombre de jours.
      */
-    public function getPaiementNombreDeJours(): ?int{
+    public function getPaiementNombreDeJours(): ?int {
         return $this->paiementNombreDeJours;
     }
 
@@ -887,7 +886,7 @@ class BlEntete {
      *
      * @return float|null Returns the poids.
      */
-    public function getPoids(): ?float{
+    public function getPoids(): ?float {
         return $this->poids;
     }
 
@@ -896,7 +895,7 @@ class BlEntete {
      *
      * @return string|null Returns the reference1.
      */
-    public function getReference1(): ?string{
+    public function getReference1(): ?string {
         return $this->reference1;
     }
 
@@ -905,7 +904,7 @@ class BlEntete {
      *
      * @return string|null Returns the reference2.
      */
-    public function getReference2(): ?string{
+    public function getReference2(): ?string {
         return $this->reference2;
     }
 
@@ -914,7 +913,7 @@ class BlEntete {
      *
      * @return string|null Returns the reference3.
      */
-    public function getReference3(): ?string{
+    public function getReference3(): ?string {
         return $this->reference3;
     }
 
@@ -923,7 +922,7 @@ class BlEntete {
      *
      * @return string|null Returns the reference4.
      */
-    public function getReference4(): ?string{
+    public function getReference4(): ?string {
         return $this->reference4;
     }
 
@@ -932,7 +931,7 @@ class BlEntete {
      *
      * @return float|null Returns the remise pied.
      */
-    public function getRemisePied(): ?float{
+    public function getRemisePied(): ?float {
         return $this->remisePied;
     }
 
@@ -941,7 +940,7 @@ class BlEntete {
      *
      * @return float|null Returns the remise pied2.
      */
-    public function getRemisePied2(): ?float{
+    public function getRemisePied2(): ?float {
         return $this->remisePied2;
     }
 
@@ -950,7 +949,7 @@ class BlEntete {
      *
      * @return float|null Returns the remise pied3.
      */
-    public function getRemisePied3(): ?float{
+    public function getRemisePied3(): ?float {
         return $this->remisePied3;
     }
 
@@ -959,7 +958,7 @@ class BlEntete {
      *
      * @return bool|null Returns the saisir adresse.
      */
-    public function getSaisirAdresse(): ?bool{
+    public function getSaisirAdresse(): ?bool {
         return $this->saisirAdresse;
     }
 
@@ -968,7 +967,7 @@ class BlEntete {
      *
      * @return bool|null Returns the saisir adresse livraison.
      */
-    public function getSaisirAdresseLivraison(): ?bool{
+    public function getSaisirAdresseLivraison(): ?bool {
         return $this->saisirAdresseLivraison;
     }
 
@@ -977,7 +976,7 @@ class BlEntete {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -986,7 +985,7 @@ class BlEntete {
      *
      * @return bool|null Returns the soumis taxe1.
      */
-    public function getSoumisTaxe1(): ?bool{
+    public function getSoumisTaxe1(): ?bool {
         return $this->soumisTaxe1;
     }
 
@@ -995,7 +994,7 @@ class BlEntete {
      *
      * @return bool|null Returns the soumis taxe2.
      */
-    public function getSoumisTaxe2(): ?bool{
+    public function getSoumisTaxe2(): ?bool {
         return $this->soumisTaxe2;
     }
 
@@ -1004,7 +1003,7 @@ class BlEntete {
      *
      * @return bool|null Returns the soumis taxe3.
      */
-    public function getSoumisTaxe3(): ?bool{
+    public function getSoumisTaxe3(): ?bool {
         return $this->soumisTaxe3;
     }
 
@@ -1013,7 +1012,7 @@ class BlEntete {
      *
      * @return float|null Returns the taux commission.
      */
-    public function getTauxCommission(): ?float{
+    public function getTauxCommission(): ?float {
         return $this->tauxCommission;
     }
 
@@ -1022,7 +1021,7 @@ class BlEntete {
      *
      * @return float|null Returns the taux devise.
      */
-    public function getTauxDevise(): ?float{
+    public function getTauxDevise(): ?float {
         return $this->tauxDevise;
     }
 
@@ -1031,7 +1030,7 @@ class BlEntete {
      *
      * @return int|null Returns the transfert.
      */
-    public function getTransfert(): ?int{
+    public function getTransfert(): ?int {
         return $this->transfert;
     }
 
@@ -1040,7 +1039,7 @@ class BlEntete {
      *
      * @return string|null Returns the transporteur.
      */
-    public function getTransporteur(): ?string{
+    public function getTransporteur(): ?string {
         return $this->transporteur;
     }
 
@@ -1049,7 +1048,7 @@ class BlEntete {
      *
      * @return float|null Returns the tx escompte vente.
      */
-    public function getTxEscompteVente(): ?float{
+    public function getTxEscompteVente(): ?float {
         return $this->txEscompteVente;
     }
 

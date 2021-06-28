@@ -49,7 +49,6 @@ class FractionEtabPseudoSiret {
      */
     private $pseudoSiret;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class FractionEtabPseudoSiret {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe(): ?DateTime{
+    public function getAPartirDe(): ?DateTime {
         return $this->aPartirDe;
     }
 
@@ -71,7 +70,7 @@ class FractionEtabPseudoSiret {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -80,7 +79,7 @@ class FractionEtabPseudoSiret {
      *
      * @return string|null Returns the num fraction.
      */
-    public function getNumFraction(): ?string{
+    public function getNumFraction(): ?string {
         return $this->numFraction;
     }
 
@@ -89,7 +88,7 @@ class FractionEtabPseudoSiret {
      *
      * @return string|null Returns the pseudo siret.
      */
-    public function getPseudoSiret(): ?string{
+    public function getPseudoSiret(): ?string {
         return $this->pseudoSiret;
     }
 

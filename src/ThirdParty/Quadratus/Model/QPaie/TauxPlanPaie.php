@@ -63,7 +63,6 @@ class TauxPlanPaie {
      */
     private $tauxSalarial;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class TauxPlanPaie {
      *
      * @return DateTime|null Returns the a partir de.
      */
-    public function getAPartirDe(): ?DateTime{
+    public function getAPartirDe(): ?DateTime {
         return $this->aPartirDe;
     }
 
@@ -85,7 +84,7 @@ class TauxPlanPaie {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -94,7 +93,7 @@ class TauxPlanPaie {
      *
      * @return bool|null Returns the format non etendu.
      */
-    public function getFormatNonEtendu(): ?bool{
+    public function getFormatNonEtendu(): ?bool {
         return $this->formatNonEtendu;
     }
 
@@ -103,7 +102,7 @@ class TauxPlanPaie {
      *
      * @return int|null Returns the numero taux.
      */
-    public function getNumeroTaux(): ?int{
+    public function getNumeroTaux(): ?int {
         return $this->numeroTaux;
     }
 
@@ -112,7 +111,7 @@ class TauxPlanPaie {
      *
      * @return float|null Returns the taux patronal.
      */
-    public function getTauxPatronal(): ?float{
+    public function getTauxPatronal(): ?float {
         return $this->tauxPatronal;
     }
 
@@ -121,7 +120,7 @@ class TauxPlanPaie {
      *
      * @return float|null Returns the taux salarial.
      */
-    public function getTauxSalarial(): ?float{
+    public function getTauxSalarial(): ?float {
         return $this->tauxSalarial;
     }
 

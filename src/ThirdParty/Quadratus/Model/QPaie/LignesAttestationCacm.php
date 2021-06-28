@@ -98,7 +98,6 @@ class LignesAttestationCacm {
      */
     private $typeLigne;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class LignesAttestationCacm {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -120,7 +119,7 @@ class LignesAttestationCacm {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -129,7 +128,7 @@ class LignesAttestationCacm {
      *
      * @return DateTime|null Returns the date paiement.
      */
-    public function getDatePaiement(): ?DateTime{
+    public function getDatePaiement(): ?DateTime {
         return $this->datePaiement;
     }
 
@@ -138,7 +137,7 @@ class LignesAttestationCacm {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -147,7 +146,7 @@ class LignesAttestationCacm {
      *
      * @return float|null Returns the montant precompte.
      */
-    public function getMontantPrecompte(): ?float{
+    public function getMontantPrecompte(): ?float {
         return $this->montantPrecompte;
     }
 
@@ -156,7 +155,7 @@ class LignesAttestationCacm {
      *
      * @return float|null Returns the nb heure trav.
      */
-    public function getNbHeureTrav(): ?float{
+    public function getNbHeureTrav(): ?float {
         return $this->nbHeureTrav;
     }
 
@@ -165,7 +164,7 @@ class LignesAttestationCacm {
      *
      * @return float|null Returns the nb jour trav.
      */
-    public function getNbJourTrav(): ?float{
+    public function getNbJourTrav(): ?float {
         return $this->nbJourTrav;
     }
 
@@ -174,7 +173,7 @@ class LignesAttestationCacm {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -183,7 +182,7 @@ class LignesAttestationCacm {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -192,7 +191,7 @@ class LignesAttestationCacm {
      *
      * @return float|null Returns the salaire brut.
      */
-    public function getSalaireBrut(): ?float{
+    public function getSalaireBrut(): ?float {
         return $this->salaireBrut;
     }
 
@@ -201,7 +200,7 @@ class LignesAttestationCacm {
      *
      * @return int|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?int{
+    public function getTypeLigne(): ?int {
         return $this->typeLigne;
     }
 

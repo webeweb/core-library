@@ -68,7 +68,6 @@ class DadsuAssuranceLignesContrat {
      */
     private $uniteGestion;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -90,7 +89,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -99,7 +98,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -108,7 +107,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the code porteur risque.
      */
-    public function getCodePorteurRisque(): ?string{
+    public function getCodePorteurRisque(): ?string {
         return $this->codePorteurRisque;
     }
 
@@ -117,7 +116,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the designation commerciale.
      */
-    public function getDesignationCommerciale(): ?string{
+    public function getDesignationCommerciale(): ?string {
         return $this->designationCommerciale;
     }
 
@@ -126,7 +125,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 
@@ -135,7 +134,7 @@ class DadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the unite gestion.
      */
-    public function getUniteGestion(): ?string{
+    public function getUniteGestion(): ?string {
         return $this->uniteGestion;
     }
 

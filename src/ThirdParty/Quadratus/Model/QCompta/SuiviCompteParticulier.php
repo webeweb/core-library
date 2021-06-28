@@ -140,7 +140,6 @@ class SuiviCompteParticulier {
      */
     private $typeOperation;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -162,7 +161,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the code lettrage.
      */
-    public function getCodeLettrage(): ?string{
+    public function getCodeLettrage(): ?string {
         return $this->codeLettrage;
     }
 
@@ -171,7 +170,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the code libelle auto.
      */
-    public function getCodeLibelleAuto(): ?string{
+    public function getCodeLibelleAuto(): ?string {
         return $this->codeLibelleAuto;
     }
 
@@ -180,7 +179,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the code operateur.
      */
-    public function getCodeOperateur(): ?string{
+    public function getCodeOperateur(): ?string {
         return $this->codeOperateur;
     }
 
@@ -189,7 +188,7 @@ class SuiviCompteParticulier {
      *
      * @return DateTime|null Returns the date operation.
      */
-    public function getDateOperation(): ?DateTime{
+    public function getDateOperation(): ?DateTime {
         return $this->dateOperation;
     }
 
@@ -198,7 +197,7 @@ class SuiviCompteParticulier {
      *
      * @return int|null Returns the folio.
      */
-    public function getFolio(): ?int{
+    public function getFolio(): ?int {
         return $this->folio;
     }
 
@@ -207,7 +206,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the jour ecriture.
      */
-    public function getJourEcriture(): ?string{
+    public function getJourEcriture(): ?string {
         return $this->jourEcriture;
     }
 
@@ -216,7 +215,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -225,7 +224,7 @@ class SuiviCompteParticulier {
      *
      * @return int|null Returns the ligne folio.
      */
-    public function getLigneFolio(): ?int{
+    public function getLigneFolio(): ?int {
         return $this->ligneFolio;
     }
 
@@ -234,7 +233,7 @@ class SuiviCompteParticulier {
      *
      * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit(): ?float{
+    public function getMontantTenuCredit(): ?float {
         return $this->montantTenuCredit;
     }
 
@@ -243,7 +242,7 @@ class SuiviCompteParticulier {
      *
      * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit(): ?float{
+    public function getMontantTenuDebit(): ?float {
         return $this->montantTenuDebit;
     }
 
@@ -252,7 +251,7 @@ class SuiviCompteParticulier {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -261,7 +260,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -270,7 +269,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the numero piece.
      */
-    public function getNumeroPiece(): ?string{
+    public function getNumeroPiece(): ?string {
         return $this->numeroPiece;
     }
 
@@ -279,7 +278,7 @@ class SuiviCompteParticulier {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture(): ?DateTime{
+    public function getPeriodeEcriture(): ?DateTime {
         return $this->periodeEcriture;
     }
 
@@ -288,7 +287,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 
@@ -297,7 +296,7 @@ class SuiviCompteParticulier {
      *
      * @return string|null Returns the type operation.
      */
-    public function getTypeOperation(): ?string{
+    public function getTypeOperation(): ?string {
         return $this->typeOperation;
     }
 

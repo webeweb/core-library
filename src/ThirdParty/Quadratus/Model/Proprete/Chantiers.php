@@ -22,13 +22,6 @@ use DateTime;
 class Chantiers {
 
     /**
-     * Ad fbtq.
-     *
-     * @var string|null
-     */
-    private $adFbtq;
-
-    /**
      * Ad f bureau distributeur.
      *
      * @var string|null
@@ -111,6 +104,13 @@ class Chantiers {
      * @var string|null
      */
     private $adFTypeAdresse;
+
+    /**
+     * Ad fbtq.
+     *
+     * @var string|null
+     */
+    private $adFbtq;
 
     /**
      * Adresse.
@@ -302,18 +302,18 @@ class Chantiers {
     private $commandeIsolee;
 
     /**
-     * Complement livraison.
-     *
-     * @var string|null
-     */
-    private $complementLivraison;
-
-    /**
      * Complement.
      *
      * @var string|null
      */
     private $complement;
+
+    /**
+     * Complement livraison.
+     *
+     * @var string|null
+     */
+    private $complementLivraison;
 
     /**
      * Date creat.
@@ -602,7 +602,6 @@ class Chantiers {
      */
     private $telephone;
 
-
     /**
      * Constructor.
      */
@@ -611,20 +610,11 @@ class Chantiers {
     }
 
     /**
-     * Get the ad fbtq.
-     *
-     * @return string|null Returns the ad fbtq.
-     */
-    public function getAdFbtq(): ?string{
-        return $this->adFbtq;
-    }
-
-    /**
      * Get the ad f bureau distributeur.
      *
      * @return string|null Returns the ad f bureau distributeur.
      */
-    public function getAdFBureauDistributeur(): ?string{
+    public function getAdFBureauDistributeur(): ?string {
         return $this->adFBureauDistributeur;
     }
 
@@ -633,7 +623,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f civilite.
      */
-    public function getAdFCivilite(): ?string{
+    public function getAdFCivilite(): ?string {
         return $this->adFCivilite;
     }
 
@@ -642,7 +632,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f code pays.
      */
-    public function getAdFCodePays(): ?string{
+    public function getAdFCodePays(): ?string {
         return $this->adFCodePays;
     }
 
@@ -651,7 +641,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f code postal.
      */
-    public function getAdFCodePostal(): ?string{
+    public function getAdFCodePostal(): ?string {
         return $this->adFCodePostal;
     }
 
@@ -660,7 +650,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f complement.
      */
-    public function getAdFComplement(): ?string{
+    public function getAdFComplement(): ?string {
         return $this->adFComplement;
     }
 
@@ -669,7 +659,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f nom client.
      */
-    public function getAdFNomClient(): ?string{
+    public function getAdFNomClient(): ?string {
         return $this->adFNomClient;
     }
 
@@ -678,7 +668,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f nom suite.
      */
-    public function getAdFNomSuite(): ?string{
+    public function getAdFNomSuite(): ?string {
         return $this->adFNomSuite;
     }
 
@@ -687,7 +677,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f nom suite2.
      */
-    public function getAdFNomSuite2(): ?string{
+    public function getAdFNomSuite2(): ?string {
         return $this->adFNomSuite2;
     }
 
@@ -696,7 +686,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f nom suite3.
      */
-    public function getAdFNomSuite3(): ?string{
+    public function getAdFNomSuite3(): ?string {
         return $this->adFNomSuite3;
     }
 
@@ -705,7 +695,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f nom voie.
      */
-    public function getAdFNomVoie(): ?string{
+    public function getAdFNomVoie(): ?string {
         return $this->adFNomVoie;
     }
 
@@ -714,7 +704,7 @@ class Chantiers {
      *
      * @return string|null Returns the ad f num voie.
      */
-    public function getAdFNumVoie(): ?string{
+    public function getAdFNumVoie(): ?string {
         return $this->adFNumVoie;
     }
 
@@ -723,8 +713,17 @@ class Chantiers {
      *
      * @return string|null Returns the ad f type adresse.
      */
-    public function getAdFTypeAdresse(): ?string{
+    public function getAdFTypeAdresse(): ?string {
         return $this->adFTypeAdresse;
+    }
+
+    /**
+     * Get the ad fbtq.
+     *
+     * @return string|null Returns the ad fbtq.
+     */
+    public function getAdFbtq(): ?string {
+        return $this->adFbtq;
     }
 
     /**
@@ -732,7 +731,7 @@ class Chantiers {
      *
      * @return string|null Returns the adresse.
      */
-    public function getAdresse(): ?string{
+    public function getAdresse(): ?string {
         return $this->adresse;
     }
 
@@ -741,7 +740,7 @@ class Chantiers {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -750,7 +749,7 @@ class Chantiers {
      *
      * @return string|null Returns the btq livraison.
      */
-    public function getBtqLivraison(): ?string{
+    public function getBtqLivraison(): ?string {
         return $this->btqLivraison;
     }
 
@@ -759,7 +758,7 @@ class Chantiers {
      *
      * @return float|null Returns the budget commande.
      */
-    public function getBudgetCommande(): ?float{
+    public function getBudgetCommande(): ?float {
         return $this->budgetCommande;
     }
 
@@ -768,7 +767,7 @@ class Chantiers {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -777,7 +776,7 @@ class Chantiers {
      *
      * @return string|null Returns the bureau distributeur livraison.
      */
-    public function getBureauDistributeurLivraison(): ?string{
+    public function getBureauDistributeurLivraison(): ?string {
         return $this->bureauDistributeurLivraison;
     }
 
@@ -786,7 +785,7 @@ class Chantiers {
      *
      * @return bool|null Returns the chantier ponctuel.
      */
-    public function getChantierPonctuel(): ?bool{
+    public function getChantierPonctuel(): ?bool {
         return $this->chantierPonctuel;
     }
 
@@ -795,7 +794,7 @@ class Chantiers {
      *
      * @return string|null Returns the chef equipe.
      */
-    public function getChefEquipe(): ?string{
+    public function getChefEquipe(): ?string {
         return $this->chefEquipe;
     }
 
@@ -804,7 +803,7 @@ class Chantiers {
      *
      * @return string|null Returns the cle alpha.
      */
-    public function getCleAlpha(): ?string{
+    public function getCleAlpha(): ?string {
         return $this->cleAlpha;
     }
 
@@ -813,7 +812,7 @@ class Chantiers {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -822,7 +821,7 @@ class Chantiers {
      *
      * @return string|null Returns the code agence.
      */
-    public function getCodeAgence(): ?string{
+    public function getCodeAgence(): ?string {
         return $this->codeAgence;
     }
 
@@ -831,7 +830,7 @@ class Chantiers {
      *
      * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique(): ?string{
+    public function getCodeAnalytique(): ?string {
         return $this->codeAnalytique;
     }
 
@@ -840,7 +839,7 @@ class Chantiers {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -849,7 +848,7 @@ class Chantiers {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -858,7 +857,7 @@ class Chantiers {
      *
      * @return string|null Returns the code commercial.
      */
-    public function getCodeCommercial(): ?string{
+    public function getCodeCommercial(): ?string {
         return $this->codeCommercial;
     }
 
@@ -867,7 +866,7 @@ class Chantiers {
      *
      * @return string|null Returns the code emp inspecteur.
      */
-    public function getCodeEmpInspecteur(): ?string{
+    public function getCodeEmpInspecteur(): ?string {
         return $this->codeEmpInspecteur;
     }
 
@@ -876,7 +875,7 @@ class Chantiers {
      *
      * @return string|null Returns the code formule.
      */
-    public function getCodeFormule(): ?string{
+    public function getCodeFormule(): ?string {
         return $this->codeFormule;
     }
 
@@ -885,7 +884,7 @@ class Chantiers {
      *
      * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison(): ?string{
+    public function getCodeLivraison(): ?string {
         return $this->codeLivraison;
     }
 
@@ -894,7 +893,7 @@ class Chantiers {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -903,7 +902,7 @@ class Chantiers {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -912,7 +911,7 @@ class Chantiers {
      *
      * @return string|null Returns the code postal livraison.
      */
-    public function getCodePostalLivraison(): ?string{
+    public function getCodePostalLivraison(): ?string {
         return $this->codePostalLivraison;
     }
 
@@ -921,7 +920,7 @@ class Chantiers {
      *
      * @return string|null Returns the code reg marge.
      */
-    public function getCodeRegMarge(): ?string{
+    public function getCodeRegMarge(): ?string {
         return $this->codeRegMarge;
     }
 
@@ -930,7 +929,7 @@ class Chantiers {
      *
      * @return string|null Returns the code revision.
      */
-    public function getCodeRevision(): ?string{
+    public function getCodeRevision(): ?string {
         return $this->codeRevision;
     }
 
@@ -939,7 +938,7 @@ class Chantiers {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -948,7 +947,7 @@ class Chantiers {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -957,7 +956,7 @@ class Chantiers {
      *
      * @return string|null Returns the collectif.
      */
-    public function getCollectif(): ?string{
+    public function getCollectif(): ?string {
         return $this->collectif;
     }
 
@@ -966,17 +965,8 @@ class Chantiers {
      *
      * @return bool|null Returns the commande isolee.
      */
-    public function getCommandeIsolee(): ?bool{
+    public function getCommandeIsolee(): ?bool {
         return $this->commandeIsolee;
-    }
-
-    /**
-     * Get the complement livraison.
-     *
-     * @return string|null Returns the complement livraison.
-     */
-    public function getComplementLivraison(): ?string{
-        return $this->complementLivraison;
     }
 
     /**
@@ -984,8 +974,17 @@ class Chantiers {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
+    }
+
+    /**
+     * Get the complement livraison.
+     *
+     * @return string|null Returns the complement livraison.
+     */
+    public function getComplementLivraison(): ?string {
+        return $this->complementLivraison;
     }
 
     /**
@@ -993,7 +992,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -1002,7 +1001,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -1011,7 +1010,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date echeance contrat.
      */
-    public function getDateEcheanceContrat(): ?DateTime{
+    public function getDateEcheanceContrat(): ?DateTime {
         return $this->dateEcheanceContrat;
     }
 
@@ -1020,7 +1019,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -1029,7 +1028,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -1038,7 +1037,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision(): ?DateTime{
+    public function getDateRevision(): ?DateTime {
         return $this->dateRevision;
     }
 
@@ -1047,7 +1046,7 @@ class Chantiers {
      *
      * @return string|null Returns the descriptif.
      */
-    public function getDescriptif(): ?string{
+    public function getDescriptif(): ?string {
         return $this->descriptif;
     }
 
@@ -1056,7 +1055,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt avant dern prepa.
      */
-    public function getDtAvantDernPrepa(): ?DateTime{
+    public function getDtAvantDernPrepa(): ?DateTime {
         return $this->dtAvantDernPrepa;
     }
 
@@ -1065,7 +1064,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt dern prepa.
      */
-    public function getDtDernPrepa(): ?DateTime{
+    public function getDtDernPrepa(): ?DateTime {
         return $this->dtDernPrepa;
     }
 
@@ -1074,7 +1073,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact deb.
      */
-    public function getDtValiditeFactDeb(): ?DateTime{
+    public function getDtValiditeFactDeb(): ?DateTime {
         return $this->dtValiditeFactDeb;
     }
 
@@ -1083,7 +1082,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact deb deb mois.
      */
-    public function getDtValiditeFactDebDebMois(): ?DateTime{
+    public function getDtValiditeFactDebDebMois(): ?DateTime {
         return $this->dtValiditeFactDebDebMois;
     }
 
@@ -1092,7 +1091,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact fin.
      */
-    public function getDtValiditeFactFin(): ?DateTime{
+    public function getDtValiditeFactFin(): ?DateTime {
         return $this->dtValiditeFactFin;
     }
 
@@ -1101,7 +1100,7 @@ class Chantiers {
      *
      * @return DateTime|null Returns the dt validite fact fin fin mois.
      */
-    public function getDtValiditeFactFinFinMois(): ?DateTime{
+    public function getDtValiditeFactFinFinMois(): ?DateTime {
         return $this->dtValiditeFactFinFinMois;
     }
 
@@ -1110,7 +1109,7 @@ class Chantiers {
      *
      * @return bool|null Returns the echeance annuelle.
      */
-    public function getEcheanceAnnuelle(): ?bool{
+    public function getEcheanceAnnuelle(): ?bool {
         return $this->echeanceAnnuelle;
     }
 
@@ -1119,7 +1118,7 @@ class Chantiers {
      *
      * @return bool|null Returns the fact negoce isolee.
      */
-    public function getFactNegoceIsolee(): ?bool{
+    public function getFactNegoceIsolee(): ?bool {
         return $this->factNegoceIsolee;
     }
 
@@ -1128,7 +1127,7 @@ class Chantiers {
      *
      * @return bool|null Returns the facture isolee.
      */
-    public function getFactureIsolee(): ?bool{
+    public function getFactureIsolee(): ?bool {
         return $this->factureIsolee;
     }
 
@@ -1137,7 +1136,7 @@ class Chantiers {
      *
      * @return string|null Returns the jour fact.
      */
-    public function getJourFact(): ?string{
+    public function getJourFact(): ?string {
         return $this->jourFact;
     }
 
@@ -1146,7 +1145,7 @@ class Chantiers {
      *
      * @return float|null Returns the latitude.
      */
-    public function getLatitude(): ?float{
+    public function getLatitude(): ?float {
         return $this->latitude;
     }
 
@@ -1155,7 +1154,7 @@ class Chantiers {
      *
      * @return bool|null Returns the loi chatel sur facture.
      */
-    public function getLoiChatelSurFacture(): ?bool{
+    public function getLoiChatelSurFacture(): ?bool {
         return $this->loiChatelSurFacture;
     }
 
@@ -1164,7 +1163,7 @@ class Chantiers {
      *
      * @return float|null Returns the longitude.
      */
-    public function getLongitude(): ?float{
+    public function getLongitude(): ?float {
         return $this->longitude;
     }
 
@@ -1173,7 +1172,7 @@ class Chantiers {
      *
      * @return bool|null Returns the maj stock by da.
      */
-    public function getMajStockByDa(): ?bool{
+    public function getMajStockByDa(): ?bool {
         return $this->majStockByDa;
     }
 
@@ -1182,7 +1181,7 @@ class Chantiers {
      *
      * @return int|null Returns the nb controles prevus.
      */
-    public function getNbControlesPrevus(): ?int{
+    public function getNbControlesPrevus(): ?int {
         return $this->nbControlesPrevus;
     }
 
@@ -1191,7 +1190,7 @@ class Chantiers {
      *
      * @return string|null Returns the nb mois preavis.
      */
-    public function getNbMoisPreavis(): ?string{
+    public function getNbMoisPreavis(): ?string {
         return $this->nbMoisPreavis;
     }
 
@@ -1200,7 +1199,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom adresse.
      */
-    public function getNomAdresse(): ?string{
+    public function getNomAdresse(): ?string {
         return $this->nomAdresse;
     }
 
@@ -1209,7 +1208,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom chantier.
      */
-    public function getNomChantier(): ?string{
+    public function getNomChantier(): ?string {
         return $this->nomChantier;
     }
 
@@ -1218,7 +1217,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom livraison.
      */
-    public function getNomLivraison(): ?string{
+    public function getNomLivraison(): ?string {
         return $this->nomLivraison;
     }
 
@@ -1227,7 +1226,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom responsable.
      */
-    public function getNomResponsable(): ?string{
+    public function getNomResponsable(): ?string {
         return $this->nomResponsable;
     }
 
@@ -1236,7 +1235,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -1245,7 +1244,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom suite livraison.
      */
-    public function getNomSuiteLivraison(): ?string{
+    public function getNomSuiteLivraison(): ?string {
         return $this->nomSuiteLivraison;
     }
 
@@ -1254,7 +1253,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -1263,7 +1262,7 @@ class Chantiers {
      *
      * @return string|null Returns the nom voie livraison.
      */
-    public function getNomVoieLivraison(): ?string{
+    public function getNomVoieLivraison(): ?string {
         return $this->nomVoieLivraison;
     }
 
@@ -1272,7 +1271,7 @@ class Chantiers {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -1281,7 +1280,7 @@ class Chantiers {
      *
      * @return string|null Returns the num voie livraison.
      */
-    public function getNumVoieLivraison(): ?string{
+    public function getNumVoieLivraison(): ?string {
         return $this->numVoieLivraison;
     }
 
@@ -1290,7 +1289,7 @@ class Chantiers {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -1299,7 +1298,7 @@ class Chantiers {
      *
      * @return bool|null Returns the plan fact.
      */
-    public function getPlanFact(): ?bool{
+    public function getPlanFact(): ?bool {
         return $this->planFact;
     }
 
@@ -1308,7 +1307,7 @@ class Chantiers {
      *
      * @return float|null Returns the pourc conso produit.
      */
-    public function getPourcConsoProduit(): ?float{
+    public function getPourcConsoProduit(): ?float {
         return $this->pourcConsoProduit;
     }
 
@@ -1317,7 +1316,7 @@ class Chantiers {
      *
      * @return float|null Returns the pourc marge previs.
      */
-    public function getPourcMargePrevis(): ?float{
+    public function getPourcMargePrevis(): ?float {
         return $this->pourcMargePrevis;
     }
 
@@ -1326,7 +1325,7 @@ class Chantiers {
      *
      * @return string|null Returns the reference facture.
      */
-    public function getReferenceFacture(): ?string{
+    public function getReferenceFacture(): ?string {
         return $this->referenceFacture;
     }
 
@@ -1335,7 +1334,7 @@ class Chantiers {
      *
      * @return string|null Returns the reference facture2.
      */
-    public function getReferenceFacture2(): ?string{
+    public function getReferenceFacture2(): ?string {
         return $this->referenceFacture2;
     }
 
@@ -1344,7 +1343,7 @@ class Chantiers {
      *
      * @return bool|null Returns the rupt date livraison.
      */
-    public function getRuptDateLivraison(): ?bool{
+    public function getRuptDateLivraison(): ?bool {
         return $this->ruptDateLivraison;
     }
 
@@ -1353,19 +1352,8 @@ class Chantiers {
      *
      * @return string|null Returns the telephone.
      */
-    public function getTelephone(): ?string{
+    public function getTelephone(): ?string {
         return $this->telephone;
-    }
-
-    /**
-     * Set the ad fbtq.
-     *
-     * @param string|null $adFbtq The ad fbtq.
-     * @return Chantiers Returns this Chantiers.
-     */
-    public function setAdFbtq(?string $adFbtq): Chantiers {
-        $this->adFbtq = $adFbtq;
-        return $this;
     }
 
     /**
@@ -1497,6 +1485,17 @@ class Chantiers {
      */
     public function setAdFTypeAdresse(?string $adFTypeAdresse): Chantiers {
         $this->adFTypeAdresse = $adFTypeAdresse;
+        return $this;
+    }
+
+    /**
+     * Set the ad fbtq.
+     *
+     * @param string|null $adFbtq The ad fbtq.
+     * @return Chantiers Returns this Chantiers.
+     */
+    public function setAdFbtq(?string $adFbtq): Chantiers {
+        $this->adFbtq = $adFbtq;
         return $this;
     }
 
@@ -1798,17 +1797,6 @@ class Chantiers {
     }
 
     /**
-     * Set the complement livraison.
-     *
-     * @param string|null $complementLivraison The complement livraison.
-     * @return Chantiers Returns this Chantiers.
-     */
-    public function setComplementLivraison(?string $complementLivraison): Chantiers {
-        $this->complementLivraison = $complementLivraison;
-        return $this;
-    }
-
-    /**
      * Set the complement.
      *
      * @param string|null $complement The complement.
@@ -1816,6 +1804,17 @@ class Chantiers {
      */
     public function setComplement(?string $complement): Chantiers {
         $this->complement = $complement;
+        return $this;
+    }
+
+    /**
+     * Set the complement livraison.
+     *
+     * @param string|null $complementLivraison The complement livraison.
+     * @return Chantiers Returns this Chantiers.
+     */
+    public function setComplementLivraison(?string $complementLivraison): Chantiers {
+        $this->complementLivraison = $complementLivraison;
         return $this;
     }
 

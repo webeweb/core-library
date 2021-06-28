@@ -148,18 +148,18 @@ class Clients {
     private $codeSousTournee;
 
     /**
-     * Code tva.
-     *
-     * @var string|null
-     */
-    private $codeTva;
-
-    /**
      * Code tournee.
      *
      * @var string|null
      */
     private $codeTournee;
+
+    /**
+     * Code tva.
+     *
+     * @var string|null
+     */
+    private $codeTva;
 
     /**
      * Code ventil compta.
@@ -316,13 +316,6 @@ class Clients {
     private $prospect;
 
     /**
-     * Rib.
-     *
-     * @var string|null
-     */
-    private $rib;
-
-    /**
      * Remise ligne1.
      *
      * @var float|null
@@ -365,6 +358,13 @@ class Clients {
     private $remisePied3;
 
     /**
+     * Rib.
+     *
+     * @var string|null
+     */
+    private $rib;
+
+    /**
      * Soumis escompte.
      *
      * @var bool|null
@@ -392,7 +392,6 @@ class Clients {
      */
     private $typeFacture;
 
-
     /**
      * Constructor.
      */
@@ -405,7 +404,7 @@ class Clients {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -414,7 +413,7 @@ class Clients {
      *
      * @return bool|null Returns the bloque.
      */
-    public function getBloque(): ?bool{
+    public function getBloque(): ?bool {
         return $this->bloque;
     }
 
@@ -423,7 +422,7 @@ class Clients {
      *
      * @return string|null Returns the cle alpha.
      */
-    public function getCleAlpha(): ?string{
+    public function getCleAlpha(): ?string {
         return $this->cleAlpha;
     }
 
@@ -432,7 +431,7 @@ class Clients {
      *
      * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique(): ?string{
+    public function getCodeAnalytique(): ?string {
         return $this->codeAnalytique;
     }
 
@@ -441,7 +440,7 @@ class Clients {
      *
      * @return string|null Returns the code categorie client.
      */
-    public function getCodeCategorieClient(): ?string{
+    public function getCodeCategorieClient(): ?string {
         return $this->codeCategorieClient;
     }
 
@@ -450,7 +449,7 @@ class Clients {
      *
      * @return string|null Returns the code client fact.
      */
-    public function getCodeClientFact(): ?string{
+    public function getCodeClientFact(): ?string {
         return $this->codeClientFact;
     }
 
@@ -459,7 +458,7 @@ class Clients {
      *
      * @return string|null Returns the code depot.
      */
-    public function getCodeDepot(): ?string{
+    public function getCodeDepot(): ?string {
         return $this->codeDepot;
     }
 
@@ -468,7 +467,7 @@ class Clients {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -477,7 +476,7 @@ class Clients {
      *
      * @return string|null Returns the code famille.
      */
-    public function getCodeFamille(): ?string{
+    public function getCodeFamille(): ?string {
         return $this->codeFamille;
     }
 
@@ -486,7 +485,7 @@ class Clients {
      *
      * @return string|null Returns the code geo.
      */
-    public function getCodeGeo(): ?string{
+    public function getCodeGeo(): ?string {
         return $this->codeGeo;
     }
 
@@ -495,7 +494,7 @@ class Clients {
      *
      * @return string|null Returns the code langue designation article.
      */
-    public function getCodeLangueDesignationArticle(): ?string{
+    public function getCodeLangueDesignationArticle(): ?string {
         return $this->codeLangueDesignationArticle;
     }
 
@@ -504,7 +503,7 @@ class Clients {
      *
      * @return string|null Returns the code mode reglement.
      */
-    public function getCodeModeReglement(): ?string{
+    public function getCodeModeReglement(): ?string {
         return $this->codeModeReglement;
     }
 
@@ -513,7 +512,7 @@ class Clients {
      *
      * @return string|null Returns the code origine.
      */
-    public function getCodeOrigine(): ?string{
+    public function getCodeOrigine(): ?string {
         return $this->codeOrigine;
     }
 
@@ -522,7 +521,7 @@ class Clients {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -531,7 +530,7 @@ class Clients {
      *
      * @return string|null Returns the code representant.
      */
-    public function getCodeRepresentant(): ?string{
+    public function getCodeRepresentant(): ?string {
         return $this->codeRepresentant;
     }
 
@@ -540,7 +539,7 @@ class Clients {
      *
      * @return string|null Returns the code revision.
      */
-    public function getCodeRevision(): ?string{
+    public function getCodeRevision(): ?string {
         return $this->codeRevision;
     }
 
@@ -549,7 +548,7 @@ class Clients {
      *
      * @return string|null Returns the code sous famille.
      */
-    public function getCodeSousFamille(): ?string{
+    public function getCodeSousFamille(): ?string {
         return $this->codeSousFamille;
     }
 
@@ -558,17 +557,8 @@ class Clients {
      *
      * @return string|null Returns the code sous tournee.
      */
-    public function getCodeSousTournee(): ?string{
+    public function getCodeSousTournee(): ?string {
         return $this->codeSousTournee;
-    }
-
-    /**
-     * Get the code tva.
-     *
-     * @return string|null Returns the code tva.
-     */
-    public function getCodeTva(): ?string{
-        return $this->codeTva;
     }
 
     /**
@@ -576,8 +566,17 @@ class Clients {
      *
      * @return string|null Returns the code tournee.
      */
-    public function getCodeTournee(): ?string{
+    public function getCodeTournee(): ?string {
         return $this->codeTournee;
+    }
+
+    /**
+     * Get the code tva.
+     *
+     * @return string|null Returns the code tva.
+     */
+    public function getCodeTva(): ?string {
+        return $this->codeTva;
     }
 
     /**
@@ -585,7 +584,7 @@ class Clients {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -594,7 +593,7 @@ class Clients {
      *
      * @return int|null Returns the collectif comptable.
      */
-    public function getCollectifComptable(): ?int{
+    public function getCollectifComptable(): ?int {
         return $this->collectifComptable;
     }
 
@@ -603,7 +602,7 @@ class Clients {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -612,7 +611,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -621,7 +620,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -630,7 +629,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -639,7 +638,7 @@ class Clients {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -648,7 +647,7 @@ class Clients {
      *
      * @return int|null Returns the derniere annee facturee.
      */
-    public function getDerniereAnneeFacturee(): ?int{
+    public function getDerniereAnneeFacturee(): ?int {
         return $this->derniereAnneeFacturee;
     }
 
@@ -657,7 +656,7 @@ class Clients {
      *
      * @return string|null Returns the domiciliation bancaire1.
      */
-    public function getDomiciliationBancaire1(): ?string{
+    public function getDomiciliationBancaire1(): ?string {
         return $this->domiciliationBancaire1;
     }
 
@@ -666,7 +665,7 @@ class Clients {
      *
      * @return string|null Returns the domiciliation bancaire2.
      */
-    public function getDomiciliationBancaire2(): ?string{
+    public function getDomiciliationBancaire2(): ?string {
         return $this->domiciliationBancaire2;
     }
 
@@ -675,7 +674,7 @@ class Clients {
      *
      * @return int|null Returns the echeance depart.
      */
-    public function getEcheanceDepart(): ?int{
+    public function getEcheanceDepart(): ?int {
         return $this->echeanceDepart;
     }
 
@@ -684,7 +683,7 @@ class Clients {
      *
      * @return int|null Returns the echeance le.
      */
-    public function getEcheanceLe(): ?int{
+    public function getEcheanceLe(): ?int {
         return $this->echeanceLe;
     }
 
@@ -693,7 +692,7 @@ class Clients {
      *
      * @return int|null Returns the echeance nb jours.
      */
-    public function getEcheanceNbJours(): ?int{
+    public function getEcheanceNbJours(): ?int {
         return $this->echeanceNbJours;
     }
 
@@ -702,7 +701,7 @@ class Clients {
      *
      * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros(): ?bool{
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
@@ -711,7 +710,7 @@ class Clients {
      *
      * @return string|null Returns the id.
      */
-    public function getId(): ?string{
+    public function getId(): ?string {
         return $this->id;
     }
 
@@ -720,7 +719,7 @@ class Clients {
      *
      * @return int|null Returns the nb bl.
      */
-    public function getNbBl(): ?int{
+    public function getNbBl(): ?int {
         return $this->nbBl;
     }
 
@@ -729,7 +728,7 @@ class Clients {
      *
      * @return int|null Returns the nb facture.
      */
-    public function getNbFacture(): ?int{
+    public function getNbFacture(): ?int {
         return $this->nbFacture;
     }
 
@@ -738,7 +737,7 @@ class Clients {
      *
      * @return int|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?int{
+    public function getNombreEcheances(): ?int {
         return $this->nombreEcheances;
     }
 
@@ -747,7 +746,7 @@ class Clients {
      *
      * @return string|null Returns the num cpt collectif.
      */
-    public function getNumCptCollectif(): ?string{
+    public function getNumCptCollectif(): ?string {
         return $this->numCptCollectif;
     }
 
@@ -756,7 +755,7 @@ class Clients {
      *
      * @return string|null Returns the num cpt comptable.
      */
-    public function getNumCptComptable(): ?string{
+    public function getNumCptComptable(): ?string {
         return $this->numCptComptable;
     }
 
@@ -765,7 +764,7 @@ class Clients {
      *
      * @return int|null Returns the premiere annee facturee.
      */
-    public function getPremiereAnneeFacturee(): ?int{
+    public function getPremiereAnneeFacturee(): ?int {
         return $this->premiereAnneeFacturee;
     }
 
@@ -774,17 +773,8 @@ class Clients {
      *
      * @return bool|null Returns the prospect.
      */
-    public function getProspect(): ?bool{
+    public function getProspect(): ?bool {
         return $this->prospect;
-    }
-
-    /**
-     * Get the rib.
-     *
-     * @return string|null Returns the rib.
-     */
-    public function getRib(): ?string{
-        return $this->rib;
     }
 
     /**
@@ -792,7 +782,7 @@ class Clients {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -801,7 +791,7 @@ class Clients {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -810,7 +800,7 @@ class Clients {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -819,7 +809,7 @@ class Clients {
      *
      * @return float|null Returns the remise pied1.
      */
-    public function getRemisePied1(): ?float{
+    public function getRemisePied1(): ?float {
         return $this->remisePied1;
     }
 
@@ -828,7 +818,7 @@ class Clients {
      *
      * @return float|null Returns the remise pied2.
      */
-    public function getRemisePied2(): ?float{
+    public function getRemisePied2(): ?float {
         return $this->remisePied2;
     }
 
@@ -837,8 +827,17 @@ class Clients {
      *
      * @return float|null Returns the remise pied3.
      */
-    public function getRemisePied3(): ?float{
+    public function getRemisePied3(): ?float {
         return $this->remisePied3;
+    }
+
+    /**
+     * Get the rib.
+     *
+     * @return string|null Returns the rib.
+     */
+    public function getRib(): ?string {
+        return $this->rib;
     }
 
     /**
@@ -846,7 +845,7 @@ class Clients {
      *
      * @return bool|null Returns the soumis escompte.
      */
-    public function getSoumisEscompte(): ?bool{
+    public function getSoumisEscompte(): ?bool {
         return $this->soumisEscompte;
     }
 
@@ -855,7 +854,7 @@ class Clients {
      *
      * @return float|null Returns the taux escompte.
      */
-    public function getTauxEscompte(): ?float{
+    public function getTauxEscompte(): ?float {
         return $this->tauxEscompte;
     }
 
@@ -864,7 +863,7 @@ class Clients {
      *
      * @return string|null Returns the transporteur.
      */
-    public function getTransporteur(): ?string{
+    public function getTransporteur(): ?string {
         return $this->transporteur;
     }
 
@@ -873,7 +872,7 @@ class Clients {
      *
      * @return int|null Returns the type facture.
      */
-    public function getTypeFacture(): ?int{
+    public function getTypeFacture(): ?int {
         return $this->typeFacture;
     }
 
@@ -1076,17 +1075,6 @@ class Clients {
     }
 
     /**
-     * Set the code tva.
-     *
-     * @param string|null $codeTva The code tva.
-     * @return Clients Returns this Clients.
-     */
-    public function setCodeTva(?string $codeTva): Clients {
-        $this->codeTva = $codeTva;
-        return $this;
-    }
-
-    /**
      * Set the code tournee.
      *
      * @param string|null $codeTournee The code tournee.
@@ -1094,6 +1082,17 @@ class Clients {
      */
     public function setCodeTournee(?string $codeTournee): Clients {
         $this->codeTournee = $codeTournee;
+        return $this;
+    }
+
+    /**
+     * Set the code tva.
+     *
+     * @param string|null $codeTva The code tva.
+     * @return Clients Returns this Clients.
+     */
+    public function setCodeTva(?string $codeTva): Clients {
+        $this->codeTva = $codeTva;
         return $this;
     }
 
@@ -1340,17 +1339,6 @@ class Clients {
     }
 
     /**
-     * Set the rib.
-     *
-     * @param string|null $rib The rib.
-     * @return Clients Returns this Clients.
-     */
-    public function setRib(?string $rib): Clients {
-        $this->rib = $rib;
-        return $this;
-    }
-
-    /**
      * Set the remise ligne1.
      *
      * @param float|null $remiseLigne1 The remise ligne1.
@@ -1413,6 +1401,17 @@ class Clients {
      */
     public function setRemisePied3(?float $remisePied3): Clients {
         $this->remisePied3 = $remisePied3;
+        return $this;
+    }
+
+    /**
+     * Set the rib.
+     *
+     * @param string|null $rib The rib.
+     * @return Clients Returns this Clients.
+     */
+    public function setRib(?string $rib): Clients {
+        $this->rib = $rib;
         return $this;
     }
 

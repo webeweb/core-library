@@ -68,7 +68,6 @@ class FichesConfidentialitesControles {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -81,7 +80,7 @@ class FichesConfidentialitesControles {
      *
      * @return string|null Returns the agence.
      */
-    public function getAgence(): ?string{
+    public function getAgence(): ?string {
         return $this->agence;
     }
 
@@ -90,7 +89,7 @@ class FichesConfidentialitesControles {
      *
      * @return bool|null Returns the autorise.
      */
-    public function getAutorise(): ?bool{
+    public function getAutorise(): ?bool {
         return $this->autorise;
     }
 
@@ -99,7 +98,7 @@ class FichesConfidentialitesControles {
      *
      * @return string|null Returns the code coll.
      */
-    public function getCodeColl(): ?string{
+    public function getCodeColl(): ?string {
         return $this->codeColl;
     }
 
@@ -108,7 +107,7 @@ class FichesConfidentialitesControles {
      *
      * @return string|null Returns the dossier.
      */
-    public function getDossier(): ?string{
+    public function getDossier(): ?string {
         return $this->dossier;
     }
 
@@ -117,7 +116,7 @@ class FichesConfidentialitesControles {
      *
      * @return string|null Returns the mot controle.
      */
-    public function getMotControle(): ?string{
+    public function getMotControle(): ?string {
         return $this->motControle;
     }
 
@@ -126,7 +125,7 @@ class FichesConfidentialitesControles {
      *
      * @return string|null Returns the mot de passe.
      */
-    public function getMotDePasse(): ?string{
+    public function getMotDePasse(): ?string {
         return $this->motDePasse;
     }
 
@@ -135,7 +134,7 @@ class FichesConfidentialitesControles {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

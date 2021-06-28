@@ -47,7 +47,6 @@ class SynchroChantiers {
      */
     private $codeSynchro;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class SynchroChantiers {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -69,7 +68,7 @@ class SynchroChantiers {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -78,7 +77,7 @@ class SynchroChantiers {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -87,7 +86,7 @@ class SynchroChantiers {
      *
      * @return string|null Returns the code synchro.
      */
-    public function getCodeSynchro(): ?string{
+    public function getCodeSynchro(): ?string {
         return $this->codeSynchro;
     }
 

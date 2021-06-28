@@ -246,13 +246,6 @@ class LignesBulletin {
     private $numeroEmploye;
 
     /**
-     * Pp soumis taxe.
-     *
-     * @var bool|null
-     */
-    private $ppSoumisTaxe;
-
-    /**
      * Pas editer.
      *
      * @var bool|null
@@ -265,6 +258,13 @@ class LignesBulletin {
      * @var DateTime|null
      */
     private $periode;
+
+    /**
+     * Pp soumis taxe.
+     *
+     * @var bool|null
+     */
+    private $ppSoumisTaxe;
 
     /**
      * Prime non proratisee.
@@ -295,18 +295,18 @@ class LignesBulletin {
     private $soumisAbattement;
 
     /**
-     * Soumis csg.
-     *
-     * @var bool|null
-     */
-    private $soumisCsg;
-
-    /**
      * Soumis crds.
      *
      * @var bool|null
      */
     private $soumisCrds;
+
+    /**
+     * Soumis csg.
+     *
+     * @var bool|null
+     */
+    private $soumisCsg;
 
     /**
      * Type absence.
@@ -322,7 +322,6 @@ class LignesBulletin {
      */
     private $typeAcompte;
 
-
     /**
      * Constructor.
      */
@@ -335,7 +334,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the anal diff.
      */
-    public function getAnalDiff(): ?bool{
+    public function getAnalDiff(): ?bool {
         return $this->analDiff;
     }
 
@@ -344,7 +343,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the avantage nature.
      */
-    public function getAvantageNature(): ?bool{
+    public function getAvantageNature(): ?bool {
         return $this->avantageNature;
     }
 
@@ -353,7 +352,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the base sans reintegration.
      */
-    public function getBaseSansReintegration(): ?float{
+    public function getBaseSansReintegration(): ?float {
         return $this->baseSansReintegration;
     }
 
@@ -362,7 +361,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the cle lig bul.
      */
-    public function getCleLigBul(): ?string{
+    public function getCleLigBul(): ?string {
         return $this->cleLigBul;
     }
 
@@ -371,7 +370,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -380,7 +379,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the code calcul.
      */
-    public function getCodeCalcul(): ?string{
+    public function getCodeCalcul(): ?string {
         return $this->codeCalcul;
     }
 
@@ -389,7 +388,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the condition spec.
      */
-    public function getConditionSpec(): ?string{
+    public function getConditionSpec(): ?string {
         return $this->conditionSpec;
     }
 
@@ -398,7 +397,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the conge paye.
      */
-    public function getCongePaye(): ?bool{
+    public function getCongePaye(): ?bool {
         return $this->congePaye;
     }
 
@@ -407,7 +406,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the cumul cout glob.
      */
-    public function getCumulCoutGlob(): ?bool{
+    public function getCumulCoutGlob(): ?bool {
         return $this->cumulCoutGlob;
     }
 
@@ -416,7 +415,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the edition base.
      */
-    public function getEditionBase(): ?bool{
+    public function getEditionBase(): ?bool {
         return $this->editionBase;
     }
 
@@ -425,7 +424,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the edition cot patronale.
      */
-    public function getEditionCotPatronale(): ?bool{
+    public function getEditionCotPatronale(): ?bool {
         return $this->editionCotPatronale;
     }
 
@@ -434,7 +433,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the edition resultat.
      */
-    public function getEditionResultat(): ?bool{
+    public function getEditionResultat(): ?bool {
         return $this->editionResultat;
     }
 
@@ -443,7 +442,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the edition taux sal.
      */
-    public function getEditionTauxSal(): ?bool{
+    public function getEditionTauxSal(): ?bool {
         return $this->editionTauxSal;
     }
 
@@ -452,7 +451,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the flag force.
      */
-    public function getFlagForce(): ?bool{
+    public function getFlagForce(): ?bool {
         return $this->flagForce;
     }
 
@@ -461,7 +460,7 @@ class LignesBulletin {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -470,7 +469,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the integ net paye.
      */
-    public function getIntegNetPaye(): ?bool{
+    public function getIntegNetPaye(): ?bool {
         return $this->integNetPaye;
     }
 
@@ -479,7 +478,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the intervient brut al.
      */
-    public function getIntervientBrutAl(): ?bool{
+    public function getIntervientBrutAl(): ?bool {
         return $this->intervientBrutAl;
     }
 
@@ -488,7 +487,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the intervient indem preca.
      */
-    public function getIntervientIndemPreca(): ?bool{
+    public function getIntervientIndemPreca(): ?bool {
         return $this->intervientIndemPreca;
     }
 
@@ -497,7 +496,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the intervient taux h ab cp.
      */
-    public function getIntervientTauxHAbCp(): ?string{
+    public function getIntervientTauxHAbCp(): ?string {
         return $this->intervientTauxHAbCp;
     }
 
@@ -506,7 +505,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -515,7 +514,7 @@ class LignesBulletin {
      *
      * @return int|null Returns the lien.
      */
-    public function getLien(): ?int{
+    public function getLien(): ?int {
         return $this->lien;
     }
 
@@ -524,7 +523,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the montant1.
      */
-    public function getMontant1(): ?float{
+    public function getMontant1(): ?float {
         return $this->montant1;
     }
 
@@ -533,7 +532,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -542,7 +541,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the montant3.
      */
-    public function getMontant3(): ?float{
+    public function getMontant3(): ?float {
         return $this->montant3;
     }
 
@@ -551,7 +550,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the montant4.
      */
-    public function getMontant4(): ?float{
+    public function getMontant4(): ?float {
         return $this->montant4;
     }
 
@@ -560,7 +559,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the montant global.
      */
-    public function getMontantGlobal(): ?float{
+    public function getMontantGlobal(): ?float {
         return $this->montantGlobal;
     }
 
@@ -569,7 +568,7 @@ class LignesBulletin {
      *
      * @return float|null Returns the montant salarial.
      */
-    public function getMontantSalarial(): ?float{
+    public function getMontantSalarial(): ?float {
         return $this->montantSalarial;
     }
 
@@ -578,7 +577,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the neutre.
      */
-    public function getNeutre(): ?bool{
+    public function getNeutre(): ?bool {
         return $this->neutre;
     }
 
@@ -587,7 +586,7 @@ class LignesBulletin {
      *
      * @return int|null Returns the num cumul bulletin.
      */
-    public function getNumCumulBulletin(): ?int{
+    public function getNumCumulBulletin(): ?int {
         return $this->numCumulBulletin;
     }
 
@@ -596,7 +595,7 @@ class LignesBulletin {
      *
      * @return int|null Returns the num cumul patron.
      */
-    public function getNumCumulPatron(): ?int{
+    public function getNumCumulPatron(): ?int {
         return $this->numCumulPatron;
     }
 
@@ -605,7 +604,7 @@ class LignesBulletin {
      *
      * @return int|null Returns the num ligne bulletin.
      */
-    public function getNumLigneBulletin(): ?int{
+    public function getNumLigneBulletin(): ?int {
         return $this->numLigneBulletin;
     }
 
@@ -614,17 +613,8 @@ class LignesBulletin {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
-    }
-
-    /**
-     * Get the pp soumis taxe.
-     *
-     * @return bool|null Returns the pp soumis taxe.
-     */
-    public function getPpSoumisTaxe(): ?bool{
-        return $this->ppSoumisTaxe;
     }
 
     /**
@@ -632,7 +622,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the pas editer.
      */
-    public function getPasEditer(): ?bool{
+    public function getPasEditer(): ?bool {
         return $this->pasEditer;
     }
 
@@ -641,8 +631,17 @@ class LignesBulletin {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
+    }
+
+    /**
+     * Get the pp soumis taxe.
+     *
+     * @return bool|null Returns the pp soumis taxe.
+     */
+    public function getPpSoumisTaxe(): ?bool {
+        return $this->ppSoumisTaxe;
     }
 
     /**
@@ -650,7 +649,7 @@ class LignesBulletin {
      *
      * @return bool|null Returns the prime non proratisee.
      */
-    public function getPrimeNonProratisee(): ?bool{
+    public function getPrimeNonProratisee(): ?bool {
         return $this->primeNonProratisee;
     }
 
@@ -659,7 +658,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the regle calcul.
      */
-    public function getRegleCalcul(): ?string{
+    public function getRegleCalcul(): ?string {
         return $this->regleCalcul;
     }
 
@@ -668,7 +667,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the regle taux.
      */
-    public function getRegleTaux(): ?string{
+    public function getRegleTaux(): ?string {
         return $this->regleTaux;
     }
 
@@ -677,17 +676,8 @@ class LignesBulletin {
      *
      * @return bool|null Returns the soumis abattement.
      */
-    public function getSoumisAbattement(): ?bool{
+    public function getSoumisAbattement(): ?bool {
         return $this->soumisAbattement;
-    }
-
-    /**
-     * Get the soumis csg.
-     *
-     * @return bool|null Returns the soumis csg.
-     */
-    public function getSoumisCsg(): ?bool{
-        return $this->soumisCsg;
     }
 
     /**
@@ -695,8 +685,17 @@ class LignesBulletin {
      *
      * @return bool|null Returns the soumis crds.
      */
-    public function getSoumisCrds(): ?bool{
+    public function getSoumisCrds(): ?bool {
         return $this->soumisCrds;
+    }
+
+    /**
+     * Get the soumis csg.
+     *
+     * @return bool|null Returns the soumis csg.
+     */
+    public function getSoumisCsg(): ?bool {
+        return $this->soumisCsg;
     }
 
     /**
@@ -704,7 +703,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the type absence.
      */
-    public function getTypeAbsence(): ?string{
+    public function getTypeAbsence(): ?string {
         return $this->typeAbsence;
     }
 
@@ -713,7 +712,7 @@ class LignesBulletin {
      *
      * @return string|null Returns the type acompte.
      */
-    public function getTypeAcompte(): ?string{
+    public function getTypeAcompte(): ?string {
         return $this->typeAcompte;
     }
 
@@ -1070,17 +1069,6 @@ class LignesBulletin {
     }
 
     /**
-     * Set the pp soumis taxe.
-     *
-     * @param bool|null $ppSoumisTaxe The pp soumis taxe.
-     * @return LignesBulletin Returns this Lignes bulletin.
-     */
-    public function setPpSoumisTaxe(?bool $ppSoumisTaxe): LignesBulletin {
-        $this->ppSoumisTaxe = $ppSoumisTaxe;
-        return $this;
-    }
-
-    /**
      * Set the pas editer.
      *
      * @param bool|null $pasEditer The pas editer.
@@ -1099,6 +1087,17 @@ class LignesBulletin {
      */
     public function setPeriode(?DateTime $periode): LignesBulletin {
         $this->periode = $periode;
+        return $this;
+    }
+
+    /**
+     * Set the pp soumis taxe.
+     *
+     * @param bool|null $ppSoumisTaxe The pp soumis taxe.
+     * @return LignesBulletin Returns this Lignes bulletin.
+     */
+    public function setPpSoumisTaxe(?bool $ppSoumisTaxe): LignesBulletin {
+        $this->ppSoumisTaxe = $ppSoumisTaxe;
         return $this;
     }
 
@@ -1147,17 +1146,6 @@ class LignesBulletin {
     }
 
     /**
-     * Set the soumis csg.
-     *
-     * @param bool|null $soumisCsg The soumis csg.
-     * @return LignesBulletin Returns this Lignes bulletin.
-     */
-    public function setSoumisCsg(?bool $soumisCsg): LignesBulletin {
-        $this->soumisCsg = $soumisCsg;
-        return $this;
-    }
-
-    /**
      * Set the soumis crds.
      *
      * @param bool|null $soumisCrds The soumis crds.
@@ -1165,6 +1153,17 @@ class LignesBulletin {
      */
     public function setSoumisCrds(?bool $soumisCrds): LignesBulletin {
         $this->soumisCrds = $soumisCrds;
+        return $this;
+    }
+
+    /**
+     * Set the soumis csg.
+     *
+     * @param bool|null $soumisCsg The soumis csg.
+     * @return LignesBulletin Returns this Lignes bulletin.
+     */
+    public function setSoumisCsg(?bool $soumisCsg): LignesBulletin {
+        $this->soumisCsg = $soumisCsg;
         return $this;
     }
 

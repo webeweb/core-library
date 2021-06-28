@@ -98,7 +98,6 @@ class PointEmpHeuresComplt {
      */
     private $typeHeure;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class PointEmpHeuresComplt {
      *
      * @return bool|null Returns the a facturer.
      */
-    public function getAFacturer(): ?bool{
+    public function getAFacturer(): ?bool {
         return $this->aFacturer;
     }
 
@@ -120,7 +119,7 @@ class PointEmpHeuresComplt {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -129,7 +128,7 @@ class PointEmpHeuresComplt {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -138,7 +137,7 @@ class PointEmpHeuresComplt {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -147,7 +146,7 @@ class PointEmpHeuresComplt {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -156,7 +155,7 @@ class PointEmpHeuresComplt {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -165,7 +164,7 @@ class PointEmpHeuresComplt {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -174,7 +173,7 @@ class PointEmpHeuresComplt {
      *
      * @return DateTime|null Returns the heure compl.
      */
-    public function getHeureCompl(): ?DateTime{
+    public function getHeureCompl(): ?DateTime {
         return $this->heureCompl;
     }
 
@@ -183,7 +182,7 @@ class PointEmpHeuresComplt {
      *
      * @return DateTime|null Returns the heure compl nuit.
      */
-    public function getHeureComplNuit(): ?DateTime{
+    public function getHeureComplNuit(): ?DateTime {
         return $this->heureComplNuit;
     }
 
@@ -192,7 +191,7 @@ class PointEmpHeuresComplt {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -201,7 +200,7 @@ class PointEmpHeuresComplt {
      *
      * @return string|null Returns the type heure.
      */
-    public function getTypeHeure(): ?string{
+    public function getTypeHeure(): ?string {
         return $this->typeHeure;
     }
 

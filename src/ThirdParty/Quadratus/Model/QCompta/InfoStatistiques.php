@@ -54,7 +54,6 @@ class InfoStatistiques {
      */
     private $compteurSurEx;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class InfoStatistiques {
      *
      * @return int|null Returns the a facturer hors ex.
      */
-    public function getAFacturerHorsEx(): ?int{
+    public function getAFacturerHorsEx(): ?int {
         return $this->aFacturerHorsEx;
     }
 
@@ -76,7 +75,7 @@ class InfoStatistiques {
      *
      * @return int|null Returns the a facturer sur ex.
      */
-    public function getAFacturerSurEx(): ?int{
+    public function getAFacturerSurEx(): ?int {
         return $this->aFacturerSurEx;
     }
 
@@ -85,7 +84,7 @@ class InfoStatistiques {
      *
      * @return int|null Returns the code element.
      */
-    public function getCodeElement(): ?int{
+    public function getCodeElement(): ?int {
         return $this->codeElement;
     }
 
@@ -94,7 +93,7 @@ class InfoStatistiques {
      *
      * @return int|null Returns the compteur hors ex.
      */
-    public function getCompteurHorsEx(): ?int{
+    public function getCompteurHorsEx(): ?int {
         return $this->compteurHorsEx;
     }
 
@@ -103,7 +102,7 @@ class InfoStatistiques {
      *
      * @return int|null Returns the compteur sur ex.
      */
-    public function getCompteurSurEx(): ?int{
+    public function getCompteurSurEx(): ?int {
         return $this->compteurSurEx;
     }
 

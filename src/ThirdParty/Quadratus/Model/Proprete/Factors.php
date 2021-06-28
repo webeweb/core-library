@@ -124,7 +124,6 @@ class Factors {
      */
     private $telephone;
 
-
     /**
      * Constructor.
      */
@@ -137,7 +136,7 @@ class Factors {
      *
      * @return string|null Returns the bic.
      */
-    public function getBic(): ?string{
+    public function getBic(): ?string {
         return $this->bic;
     }
 
@@ -146,7 +145,7 @@ class Factors {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -155,7 +154,7 @@ class Factors {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -164,7 +163,7 @@ class Factors {
      *
      * @return string|null Returns the code factor.
      */
-    public function getCodeFactor(): ?string{
+    public function getCodeFactor(): ?string {
         return $this->codeFactor;
     }
 
@@ -173,7 +172,7 @@ class Factors {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -182,7 +181,7 @@ class Factors {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -191,7 +190,7 @@ class Factors {
      *
      * @return string|null Returns the domiciliation bancaire1.
      */
-    public function getDomiciliationBancaire1(): ?string{
+    public function getDomiciliationBancaire1(): ?string {
         return $this->domiciliationBancaire1;
     }
 
@@ -200,7 +199,7 @@ class Factors {
      *
      * @return string|null Returns the domiciliation bancaire2.
      */
-    public function getDomiciliationBancaire2(): ?string{
+    public function getDomiciliationBancaire2(): ?string {
         return $this->domiciliationBancaire2;
     }
 
@@ -209,7 +208,7 @@ class Factors {
      *
      * @return string|null Returns the iban.
      */
-    public function getIban(): ?string{
+    public function getIban(): ?string {
         return $this->iban;
     }
 
@@ -218,7 +217,7 @@ class Factors {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -227,7 +226,7 @@ class Factors {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -236,7 +235,7 @@ class Factors {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -245,7 +244,7 @@ class Factors {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -254,7 +253,7 @@ class Factors {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 
@@ -263,7 +262,7 @@ class Factors {
      *
      * @return string|null Returns the telephone.
      */
-    public function getTelephone(): ?string{
+    public function getTelephone(): ?string {
         return $this->telephone;
     }
 

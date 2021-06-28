@@ -224,7 +224,6 @@ class AffectationsCharge {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -237,7 +236,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the ajout charge.
      */
-    public function getAjoutCharge(): ?bool{
+    public function getAjoutCharge(): ?bool {
         return $this->ajoutCharge;
     }
 
@@ -246,7 +245,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the aou.
      */
-    public function getAou(): ?bool{
+    public function getAou(): ?bool {
         return $this->aou;
     }
 
@@ -255,7 +254,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the avr.
      */
-    public function getAvr(): ?bool{
+    public function getAvr(): ?bool {
         return $this->avr;
     }
 
@@ -264,7 +263,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the charge mensualisee.
      */
-    public function getChargeMensualisee(): ?bool{
+    public function getChargeMensualisee(): ?bool {
         return $this->chargeMensualisee;
     }
 
@@ -273,7 +272,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the charge q fact.
      */
-    public function getChargeQFact(): ?bool{
+    public function getChargeQFact(): ?bool {
         return $this->chargeQFact;
     }
 
@@ -282,7 +281,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the charge validee.
      */
-    public function getChargeValidee(): ?bool{
+    public function getChargeValidee(): ?bool {
         return $this->chargeValidee;
     }
 
@@ -291,7 +290,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the chef equipe.
      */
-    public function getChefEquipe(): ?string{
+    public function getChefEquipe(): ?string {
         return $this->chefEquipe;
     }
 
@@ -300,7 +299,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -309,7 +308,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -318,7 +317,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the code charge.
      */
-    public function getCodeCharge(): ?string{
+    public function getCodeCharge(): ?string {
         return $this->codeCharge;
     }
 
@@ -327,7 +326,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -336,7 +335,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the code inspecteur.
      */
-    public function getCodeInspecteur(): ?string{
+    public function getCodeInspecteur(): ?string {
         return $this->codeInspecteur;
     }
 
@@ -345,7 +344,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -354,7 +353,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -363,7 +362,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the dec.
      */
-    public function getDec(): ?bool{
+    public function getDec(): ?bool {
         return $this->dec;
     }
 
@@ -372,7 +371,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the fev.
      */
-    public function getFev(): ?bool{
+    public function getFev(): ?bool {
         return $this->fev;
     }
 
@@ -381,7 +380,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the jan.
      */
-    public function getJan(): ?bool{
+    public function getJan(): ?bool {
         return $this->jan;
     }
 
@@ -390,7 +389,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the juil.
      */
-    public function getJuil(): ?bool{
+    public function getJuil(): ?bool {
         return $this->juil;
     }
 
@@ -399,7 +398,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the juin.
      */
-    public function getJuin(): ?bool{
+    public function getJuin(): ?bool {
         return $this->juin;
     }
 
@@ -408,7 +407,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the mai.
      */
-    public function getMai(): ?bool{
+    public function getMai(): ?bool {
         return $this->mai;
     }
 
@@ -417,7 +416,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the mar.
      */
-    public function getMar(): ?bool{
+    public function getMar(): ?bool {
         return $this->mar;
     }
 
@@ -426,7 +425,7 @@ class AffectationsCharge {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -435,7 +434,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the nov.
      */
-    public function getNov(): ?bool{
+    public function getNov(): ?bool {
         return $this->nov;
     }
 
@@ -444,7 +443,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the oct.
      */
-    public function getOct(): ?bool{
+    public function getOct(): ?bool {
         return $this->oct;
     }
 
@@ -453,7 +452,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the origine charge mens.
      */
-    public function getOrigineChargeMens(): ?bool{
+    public function getOrigineChargeMens(): ?bool {
         return $this->origineChargeMens;
     }
 
@@ -462,7 +461,7 @@ class AffectationsCharge {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -471,7 +470,7 @@ class AffectationsCharge {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -480,7 +479,7 @@ class AffectationsCharge {
      *
      * @return bool|null Returns the sep.
      */
-    public function getSep(): ?bool{
+    public function getSep(): ?bool {
         return $this->sep;
     }
 
@@ -489,7 +488,7 @@ class AffectationsCharge {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

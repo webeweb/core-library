@@ -154,7 +154,6 @@ class DosRevCommentaires {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -167,7 +166,7 @@ class DosRevCommentaires {
      *
      * @return bool|null Returns the bloquant.
      */
-    public function getBloquant(): ?bool{
+    public function getBloquant(): ?bool {
         return $this->bloquant;
     }
 
@@ -176,7 +175,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the code coll modif question.
      */
-    public function getCodeCollModifQuestion(): ?string{
+    public function getCodeCollModifQuestion(): ?string {
         return $this->codeCollModifQuestion;
     }
 
@@ -185,7 +184,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the code coll modif reponse.
      */
-    public function getCodeCollModifReponse(): ?string{
+    public function getCodeCollModifReponse(): ?string {
         return $this->codeCollModifReponse;
     }
 
@@ -194,7 +193,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the code coll question.
      */
-    public function getCodeCollQuestion(): ?string{
+    public function getCodeCollQuestion(): ?string {
         return $this->codeCollQuestion;
     }
 
@@ -203,7 +202,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the code coll reponse.
      */
-    public function getCodeCollReponse(): ?string{
+    public function getCodeCollReponse(): ?string {
         return $this->codeCollReponse;
     }
 
@@ -212,7 +211,7 @@ class DosRevCommentaires {
      *
      * @return int|null Returns the cpt comment.
      */
-    public function getCptComment(): ?int{
+    public function getCptComment(): ?int {
         return $this->cptComment;
     }
 
@@ -221,7 +220,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt creation question.
      */
-    public function getDtCreationQuestion(): ?DateTime{
+    public function getDtCreationQuestion(): ?DateTime {
         return $this->dtCreationQuestion;
     }
 
@@ -230,7 +229,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt creation reponse.
      */
-    public function getDtCreationReponse(): ?DateTime{
+    public function getDtCreationReponse(): ?DateTime {
         return $this->dtCreationReponse;
     }
 
@@ -239,7 +238,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt modif question.
      */
-    public function getDtModifQuestion(): ?DateTime{
+    public function getDtModifQuestion(): ?DateTime {
         return $this->dtModifQuestion;
     }
 
@@ -248,7 +247,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt modif reponse.
      */
-    public function getDtModifReponse(): ?DateTime{
+    public function getDtModifReponse(): ?DateTime {
         return $this->dtModifReponse;
     }
 
@@ -257,7 +256,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the dt transfert da.
      */
-    public function getDtTransfertDa(): ?DateTime{
+    public function getDtTransfertDa(): ?DateTime {
         return $this->dtTransfertDa;
     }
 
@@ -266,7 +265,7 @@ class DosRevCommentaires {
      *
      * @return bool|null Returns the en attente reponse.
      */
-    public function getEnAttenteReponse(): ?bool{
+    public function getEnAttenteReponse(): ?bool {
         return $this->enAttenteReponse;
     }
 
@@ -275,7 +274,7 @@ class DosRevCommentaires {
      *
      * @return bool|null Returns the need answer.
      */
-    public function getNeedAnswer(): ?bool{
+    public function getNeedAnswer(): ?bool {
         return $this->needAnswer;
     }
 
@@ -284,7 +283,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the niveau.
      */
-    public function getNiveau(): ?string{
+    public function getNiveau(): ?string {
         return $this->niveau;
     }
 
@@ -293,7 +292,7 @@ class DosRevCommentaires {
      *
      * @return DateTime|null Returns the periode rev.
      */
-    public function getPeriodeRev(): ?DateTime{
+    public function getPeriodeRev(): ?DateTime {
         return $this->periodeRev;
     }
 
@@ -302,7 +301,7 @@ class DosRevCommentaires {
      *
      * @return bool|null Returns the permanent.
      */
-    public function getPermanent(): ?bool{
+    public function getPermanent(): ?bool {
         return $this->permanent;
     }
 
@@ -311,7 +310,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the txt question.
      */
-    public function getTxtQuestion(): ?string{
+    public function getTxtQuestion(): ?string {
         return $this->txtQuestion;
     }
 
@@ -320,7 +319,7 @@ class DosRevCommentaires {
      *
      * @return string|null Returns the txt reponse.
      */
-    public function getTxtReponse(): ?string{
+    public function getTxtReponse(): ?string {
         return $this->txtReponse;
     }
 
@@ -329,7 +328,7 @@ class DosRevCommentaires {
      *
      * @return int|null Returns the type.
      */
-    public function getType(): ?int{
+    public function getType(): ?int {
         return $this->type;
     }
 

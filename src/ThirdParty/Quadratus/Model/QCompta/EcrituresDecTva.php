@@ -84,7 +84,6 @@ class EcrituresDecTva {
      */
     private $typeCdi;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class EcrituresDecTva {
      *
      * @return int|null Returns the code tva.
      */
-    public function getCodeTva(): ?int{
+    public function getCodeTva(): ?int {
         return $this->codeTva;
     }
 
@@ -106,7 +105,7 @@ class EcrituresDecTva {
      *
      * @return DateTime|null Returns the date dec tva.
      */
-    public function getDateDecTva(): ?DateTime{
+    public function getDateDecTva(): ?DateTime {
         return $this->dateDecTva;
     }
 
@@ -115,7 +114,7 @@ class EcrituresDecTva {
      *
      * @return string|null Returns the jour ecriture.
      */
-    public function getJourEcriture(): ?string{
+    public function getJourEcriture(): ?string {
         return $this->jourEcriture;
     }
 
@@ -124,7 +123,7 @@ class EcrituresDecTva {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -133,7 +132,7 @@ class EcrituresDecTva {
      *
      * @return float|null Returns the montant ht.
      */
-    public function getMontantHt(): ?float{
+    public function getMontantHt(): ?float {
         return $this->montantHt;
     }
 
@@ -142,7 +141,7 @@ class EcrituresDecTva {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -151,7 +150,7 @@ class EcrituresDecTva {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -160,7 +159,7 @@ class EcrituresDecTva {
      *
      * @return DateTime|null Returns the periode ecriture.
      */
-    public function getPeriodeEcriture(): ?DateTime{
+    public function getPeriodeEcriture(): ?DateTime {
         return $this->periodeEcriture;
     }
 
@@ -169,7 +168,7 @@ class EcrituresDecTva {
      *
      * @return string|null Returns the type cdi.
      */
-    public function getTypeCdi(): ?string{
+    public function getTypeCdi(): ?string {
         return $this->typeCdi;
     }
 

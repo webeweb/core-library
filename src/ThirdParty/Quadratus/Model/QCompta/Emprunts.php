@@ -203,7 +203,6 @@ class Emprunts {
      */
     private $typeInFine;
 
-
     /**
      * Constructor.
      */
@@ -216,7 +215,7 @@ class Emprunts {
      *
      * @return string|null Returns the a echoir echu.
      */
-    public function getAEchoirEchu(): ?string{
+    public function getAEchoirEchu(): ?string {
         return $this->aEchoirEchu;
     }
 
@@ -225,7 +224,7 @@ class Emprunts {
      *
      * @return string|null Returns the categorie.
      */
-    public function getCategorie(): ?string{
+    public function getCategorie(): ?string {
         return $this->categorie;
     }
 
@@ -234,7 +233,7 @@ class Emprunts {
      *
      * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique(): ?string{
+    public function getCentreAnalytique(): ?string {
         return $this->centreAnalytique;
     }
 
@@ -243,7 +242,7 @@ class Emprunts {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -252,7 +251,7 @@ class Emprunts {
      *
      * @return string|null Returns the cpt assurance emprunt.
      */
-    public function getCptAssuranceEmprunt(): ?string{
+    public function getCptAssuranceEmprunt(): ?string {
         return $this->cptAssuranceEmprunt;
     }
 
@@ -261,7 +260,7 @@ class Emprunts {
      *
      * @return string|null Returns the cpt emprunt.
      */
-    public function getCptEmprunt(): ?string{
+    public function getCptEmprunt(): ?string {
         return $this->cptEmprunt;
     }
 
@@ -270,7 +269,7 @@ class Emprunts {
      *
      * @return string|null Returns the cpt interet emprunt.
      */
-    public function getCptInteretEmprunt(): ?string{
+    public function getCptInteretEmprunt(): ?string {
         return $this->cptInteretEmprunt;
     }
 
@@ -279,7 +278,7 @@ class Emprunts {
      *
      * @return DateTime|null Returns the date ouverture.
      */
-    public function getDateOuverture(): ?DateTime{
+    public function getDateOuverture(): ?DateTime {
         return $this->dateOuverture;
     }
 
@@ -288,7 +287,7 @@ class Emprunts {
      *
      * @return DateTime|null Returns the date premiere echeance.
      */
-    public function getDatePremiereEcheance(): ?DateTime{
+    public function getDatePremiereEcheance(): ?DateTime {
         return $this->datePremiereEcheance;
     }
 
@@ -297,7 +296,7 @@ class Emprunts {
      *
      * @return bool|null Returns the differe.
      */
-    public function getDiffere(): ?bool{
+    public function getDiffere(): ?bool {
         return $this->differe;
     }
 
@@ -306,7 +305,7 @@ class Emprunts {
      *
      * @return int|null Returns the duree.
      */
-    public function getDuree(): ?int{
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
@@ -315,7 +314,7 @@ class Emprunts {
      *
      * @return bool|null Returns the emprunt en francs.
      */
-    public function getEmpruntEnFrancs(): ?bool{
+    public function getEmpruntEnFrancs(): ?bool {
         return $this->empruntEnFrancs;
     }
 
@@ -324,7 +323,7 @@ class Emprunts {
      *
      * @return string|null Returns the identification.
      */
-    public function getIdentification(): ?string{
+    public function getIdentification(): ?string {
         return $this->identification;
     }
 
@@ -333,7 +332,7 @@ class Emprunts {
      *
      * @return string|null Returns the mois annee.
      */
-    public function getMoisAnnee(): ?string{
+    public function getMoisAnnee(): ?string {
         return $this->moisAnnee;
     }
 
@@ -342,7 +341,7 @@ class Emprunts {
      *
      * @return float|null Returns the montant assurance.
      */
-    public function getMontantAssurance(): ?float{
+    public function getMontantAssurance(): ?float {
         return $this->montantAssurance;
     }
 
@@ -351,7 +350,7 @@ class Emprunts {
      *
      * @return float|null Returns the montant emprunte.
      */
-    public function getMontantEmprunte(): ?float{
+    public function getMontantEmprunte(): ?float {
         return $this->montantEmprunte;
     }
 
@@ -360,7 +359,7 @@ class Emprunts {
      *
      * @return float|null Returns the mt capital fixe remb.
      */
-    public function getMtCapitalFixeRemb(): ?float{
+    public function getMtCapitalFixeRemb(): ?float {
         return $this->mtCapitalFixeRemb;
     }
 
@@ -369,7 +368,7 @@ class Emprunts {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -378,7 +377,7 @@ class Emprunts {
      *
      * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique(): ?string{
+    public function getNatureAnalytique(): ?string {
         return $this->natureAnalytique;
     }
 
@@ -387,7 +386,7 @@ class Emprunts {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -396,7 +395,7 @@ class Emprunts {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -405,7 +404,7 @@ class Emprunts {
      *
      * @return string|null Returns the organisme.
      */
-    public function getOrganisme(): ?string{
+    public function getOrganisme(): ?string {
         return $this->organisme;
     }
 
@@ -414,7 +413,7 @@ class Emprunts {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -423,7 +422,7 @@ class Emprunts {
      *
      * @return float|null Returns the taux assurance.
      */
-    public function getTauxAssurance(): ?float{
+    public function getTauxAssurance(): ?float {
         return $this->tauxAssurance;
     }
 
@@ -432,7 +431,7 @@ class Emprunts {
      *
      * @return float|null Returns the taux interet.
      */
-    public function getTauxInteret(): ?float{
+    public function getTauxInteret(): ?float {
         return $this->tauxInteret;
     }
 
@@ -441,7 +440,7 @@ class Emprunts {
      *
      * @return bool|null Returns the type in fine.
      */
-    public function getTypeInFine(): ?bool{
+    public function getTypeInFine(): ?bool {
         return $this->typeInFine;
     }
 

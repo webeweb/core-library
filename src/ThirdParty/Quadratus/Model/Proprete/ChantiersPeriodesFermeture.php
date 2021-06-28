@@ -56,7 +56,6 @@ class ChantiersPeriodesFermeture {
      */
     private $dateDu;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class ChantiersPeriodesFermeture {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -78,7 +77,7 @@ class ChantiersPeriodesFermeture {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -87,7 +86,7 @@ class ChantiersPeriodesFermeture {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -96,7 +95,7 @@ class ChantiersPeriodesFermeture {
      *
      * @return DateTime|null Returns the date au.
      */
-    public function getDateAu(): ?DateTime{
+    public function getDateAu(): ?DateTime {
         return $this->dateAu;
     }
 
@@ -105,7 +104,7 @@ class ChantiersPeriodesFermeture {
      *
      * @return DateTime|null Returns the date du.
      */
-    public function getDateDu(): ?DateTime{
+    public function getDateDu(): ?DateTime {
         return $this->dateDu;
     }
 

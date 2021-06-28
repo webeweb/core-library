@@ -54,7 +54,6 @@ class iComptaDroitsJournaux {
      */
     private $noDossCpta;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class iComptaDroitsJournaux {
      *
      * @return string|null Returns the code journal.
      */
-    public function getCodeJournal(): ?string{
+    public function getCodeJournal(): ?string {
         return $this->codeJournal;
     }
 
@@ -76,7 +75,7 @@ class iComptaDroitsJournaux {
      *
      * @return string|null Returns the code user.
      */
-    public function getCodeUser(): ?string{
+    public function getCodeUser(): ?string {
         return $this->codeUser;
     }
 
@@ -85,7 +84,7 @@ class iComptaDroitsJournaux {
      *
      * @return string|null Returns the flag.
      */
-    public function getFlag(): ?string{
+    public function getFlag(): ?string {
         return $this->flag;
     }
 
@@ -94,7 +93,7 @@ class iComptaDroitsJournaux {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -103,7 +102,7 @@ class iComptaDroitsJournaux {
      *
      * @return string|null Returns the no doss cpta.
      */
-    public function getNoDossCpta(): ?string{
+    public function getNoDossCpta(): ?string {
         return $this->noDossCpta;
     }
 

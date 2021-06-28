@@ -42,7 +42,6 @@ class CoeffAmortissement {
      */
     private $duree;
 
-
     /**
      * Constructor.
      */
@@ -55,7 +54,7 @@ class CoeffAmortissement {
      *
      * @return float|null Returns the coeff.
      */
-    public function getCoeff(): ?float{
+    public function getCoeff(): ?float {
         return $this->coeff;
     }
 
@@ -64,7 +63,7 @@ class CoeffAmortissement {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -73,7 +72,7 @@ class CoeffAmortissement {
      *
      * @return int|null Returns the duree.
      */
-    public function getDuree(): ?int{
+    public function getDuree(): ?int {
         return $this->duree;
     }
 

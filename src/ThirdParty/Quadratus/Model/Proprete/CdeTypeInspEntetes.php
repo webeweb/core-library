@@ -56,7 +56,6 @@ class CdeTypeInspEntetes {
      */
     private $montantHtCde;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class CdeTypeInspEntetes {
      *
      * @return string|null Returns the code inspecteur.
      */
-    public function getCodeInspecteur(): ?string{
+    public function getCodeInspecteur(): ?string {
         return $this->codeInspecteur;
     }
 
@@ -78,7 +77,7 @@ class CdeTypeInspEntetes {
      *
      * @return DateTime|null Returns the dt validite debut.
      */
-    public function getDtValiditeDebut(): ?DateTime{
+    public function getDtValiditeDebut(): ?DateTime {
         return $this->dtValiditeDebut;
     }
 
@@ -87,7 +86,7 @@ class CdeTypeInspEntetes {
      *
      * @return DateTime|null Returns the dt validite fin.
      */
-    public function getDtValiditeFin(): ?DateTime{
+    public function getDtValiditeFin(): ?DateTime {
         return $this->dtValiditeFin;
     }
 
@@ -96,7 +95,7 @@ class CdeTypeInspEntetes {
      *
      * @return float|null Returns the montant budget.
      */
-    public function getMontantBudget(): ?float{
+    public function getMontantBudget(): ?float {
         return $this->montantBudget;
     }
 
@@ -105,7 +104,7 @@ class CdeTypeInspEntetes {
      *
      * @return float|null Returns the montant ht cde.
      */
-    public function getMontantHtCde(): ?float{
+    public function getMontantHtCde(): ?float {
         return $this->montantHtCde;
     }
 

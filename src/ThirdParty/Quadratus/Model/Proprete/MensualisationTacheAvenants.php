@@ -98,7 +98,6 @@ class MensualisationTacheAvenants {
      */
     private $periodeDebutValidite;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class MensualisationTacheAvenants {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -120,7 +119,7 @@ class MensualisationTacheAvenants {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -129,7 +128,7 @@ class MensualisationTacheAvenants {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -138,7 +137,7 @@ class MensualisationTacheAvenants {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -147,7 +146,7 @@ class MensualisationTacheAvenants {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -156,7 +155,7 @@ class MensualisationTacheAvenants {
      *
      * @return bool|null Returns the histo mens saisi.
      */
-    public function getHistoMensSaisi(): ?bool{
+    public function getHistoMensSaisi(): ?bool {
         return $this->histoMensSaisi;
     }
 
@@ -165,7 +164,7 @@ class MensualisationTacheAvenants {
      *
      * @return float|null Returns the mensualisation calculee.
      */
-    public function getMensualisationCalculee(): ?float{
+    public function getMensualisationCalculee(): ?float {
         return $this->mensualisationCalculee;
     }
 
@@ -174,7 +173,7 @@ class MensualisationTacheAvenants {
      *
      * @return float|null Returns the mensualisation saisie.
      */
-    public function getMensualisationSaisie(): ?float{
+    public function getMensualisationSaisie(): ?float {
         return $this->mensualisationSaisie;
     }
 
@@ -183,7 +182,7 @@ class MensualisationTacheAvenants {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -192,7 +191,7 @@ class MensualisationTacheAvenants {
      *
      * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant(): ?int{
+    public function getNumeroAvenant(): ?int {
         return $this->numeroAvenant;
     }
 
@@ -201,7 +200,7 @@ class MensualisationTacheAvenants {
      *
      * @return DateTime|null Returns the periode debut validite.
      */
-    public function getPeriodeDebutValidite(): ?DateTime{
+    public function getPeriodeDebutValidite(): ?DateTime {
         return $this->periodeDebutValidite;
     }
 

@@ -140,7 +140,6 @@ class ChantiersDescriptifLocaux {
      */
     private $uniqIdNoeud;
 
-
     /**
      * Constructor.
      */
@@ -153,7 +152,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -162,7 +161,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -171,7 +170,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -180,7 +179,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -189,7 +188,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the code critere1.
      */
-    public function getCodeCritere1(): ?string{
+    public function getCodeCritere1(): ?string {
         return $this->codeCritere1;
     }
 
@@ -198,7 +197,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -207,7 +206,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert(): ?DateTime{
+    public function getDateTransfert(): ?DateTime {
         return $this->dateTransfert;
     }
 
@@ -216,7 +215,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the famille elements.
      */
-    public function getFamilleElements(): ?string{
+    public function getFamilleElements(): ?string {
         return $this->familleElements;
     }
 
@@ -225,7 +224,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -234,7 +233,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the libelle critere1.
      */
-    public function getLibelleCritere1(): ?string{
+    public function getLibelleCritere1(): ?string {
         return $this->libelleCritere1;
     }
 
@@ -243,7 +242,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return int|null Returns the niveau noeud.
      */
-    public function getNiveauNoeud(): ?int{
+    public function getNiveauNoeud(): ?int {
         return $this->niveauNoeud;
     }
 
@@ -252,7 +251,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return bool|null Returns the noeud local.
      */
-    public function getNoeudLocal(): ?bool{
+    public function getNoeudLocal(): ?bool {
         return $this->noeudLocal;
     }
 
@@ -261,7 +260,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return float|null Returns the note objectif.
      */
-    public function getNoteObjectif(): ?float{
+    public function getNoteObjectif(): ?float {
         return $this->noteObjectif;
     }
 
@@ -270,7 +269,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return int|null Returns the numero noeud.
      */
-    public function getNumeroNoeud(): ?int{
+    public function getNumeroNoeud(): ?int {
         return $this->numeroNoeud;
     }
 
@@ -279,7 +278,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the poste.
      */
-    public function getPoste(): ?string{
+    public function getPoste(): ?string {
         return $this->poste;
     }
 
@@ -288,7 +287,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage(): ?string{
+    public function getUniqIdBlocage(): ?string {
         return $this->uniqIdBlocage;
     }
 
@@ -297,7 +296,7 @@ class ChantiersDescriptifLocaux {
      *
      * @return string|null Returns the uniq id noeud.
      */
-    public function getUniqIdNoeud(): ?string{
+    public function getUniqIdNoeud(): ?string {
         return $this->uniqIdNoeud;
     }
 

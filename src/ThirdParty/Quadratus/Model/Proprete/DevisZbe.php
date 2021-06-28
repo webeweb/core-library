@@ -47,7 +47,6 @@ class DevisZbe {
      */
     private $zoneGeographique;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class DevisZbe {
      *
      * @return string|null Returns the batiment.
      */
-    public function getBatiment(): ?string{
+    public function getBatiment(): ?string {
         return $this->batiment;
     }
 
@@ -69,7 +68,7 @@ class DevisZbe {
      *
      * @return string|null Returns the etage.
      */
-    public function getEtage(): ?string{
+    public function getEtage(): ?string {
         return $this->etage;
     }
 
@@ -78,7 +77,7 @@ class DevisZbe {
      *
      * @return string|null Returns the num devis.
      */
-    public function getNumDevis(): ?string{
+    public function getNumDevis(): ?string {
         return $this->numDevis;
     }
 
@@ -87,7 +86,7 @@ class DevisZbe {
      *
      * @return string|null Returns the zone geographique.
      */
-    public function getZoneGeographique(): ?string{
+    public function getZoneGeographique(): ?string {
         return $this->zoneGeographique;
     }
 

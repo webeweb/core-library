@@ -372,18 +372,18 @@ class DecTva3514 {
     private $mttDetTa4;
 
     /**
-     * Mtt dont tva.
-     *
-     * @var float|null
-     */
-    private $mttDontTva;
-
-    /**
      * Mtt dont taxes assim.
      *
      * @var float|null
      */
     private $mttDontTaxesAssim;
+
+    /**
+     * Mtt dont tva.
+     *
+     * @var float|null
+     */
+    private $mttDontTva;
 
     /**
      * Periode.
@@ -413,7 +413,6 @@ class DecTva3514 {
      */
     private $zHa;
 
-
     /**
      * Constructor.
      */
@@ -426,7 +425,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 02 base ht196.
      */
-    public function get02BaseHt196(): ?float{
+    public function get02BaseHt196(): ?float {
         return $this->_02BaseHt196;
     }
 
@@ -435,7 +434,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 02 taxe due196.
      */
-    public function get02TaxeDue196(): ?float{
+    public function get02TaxeDue196(): ?float {
         return $this->_02TaxeDue196;
     }
 
@@ -444,7 +443,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 03 base ht55.
      */
-    public function get03BaseHt55(): ?float{
+    public function get03BaseHt55(): ?float {
         return $this->_03BaseHt55;
     }
 
@@ -453,7 +452,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 03 taxe due55.
      */
-    public function get03TaxeDue55(): ?float{
+    public function get03TaxeDue55(): ?float {
         return $this->_03TaxeDue55;
     }
 
@@ -462,7 +461,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 04 base ht85.
      */
-    public function get04BaseHt85(): ?float{
+    public function get04BaseHt85(): ?float {
         return $this->_04BaseHt85;
     }
 
@@ -471,7 +470,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 04 taxe due85.
      */
-    public function get04TaxeDue85(): ?float{
+    public function get04TaxeDue85(): ?float {
         return $this->_04TaxeDue85;
     }
 
@@ -480,7 +479,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 05 base ht21.
      */
-    public function get05BaseHt21(): ?float{
+    public function get05BaseHt21(): ?float {
         return $this->_05BaseHt21;
     }
 
@@ -489,7 +488,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 05 taxe due21.
      */
-    public function get05TaxeDue21(): ?float{
+    public function get05TaxeDue21(): ?float {
         return $this->_05TaxeDue21;
     }
 
@@ -498,7 +497,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 06 base ht anc taux.
      */
-    public function get06BaseHtAncTaux(): ?float{
+    public function get06BaseHtAncTaux(): ?float {
         return $this->_06BaseHtAncTaux;
     }
 
@@ -507,7 +506,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 06 taxe due anc taux.
      */
-    public function get06TaxeDueAncTaux(): ?float{
+    public function get06TaxeDueAncTaux(): ?float {
         return $this->_06TaxeDueAncTaux;
     }
 
@@ -516,7 +515,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 07 base ht taux part.
      */
-    public function get07BaseHtTauxPart(): ?float{
+    public function get07BaseHtTauxPart(): ?float {
         return $this->_07BaseHtTauxPart;
     }
 
@@ -525,7 +524,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 07 taxe due taux part.
      */
-    public function get07TaxeDueTauxPart(): ?float{
+    public function get07TaxeDueTauxPart(): ?float {
         return $this->_07TaxeDueTauxPart;
     }
 
@@ -534,7 +533,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 08 base httv aa reverser.
      */
-    public function get08BaseHttvAaReverser(): ?float{
+    public function get08BaseHttvAaReverser(): ?float {
         return $this->_08BaseHttvAaReverser;
     }
 
@@ -543,7 +542,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 08 taxe due tv aa reverser.
      */
-    public function get08TaxeDueTvAaReverser(): ?float{
+    public function get08TaxeDueTvAaReverser(): ?float {
         return $this->_08TaxeDueTvAaReverser;
     }
 
@@ -552,7 +551,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 09 total tva brute.
      */
-    public function get09TotalTvaBrute(): ?float{
+    public function get09TotalTvaBrute(): ?float {
         return $this->_09TotalTvaBrute;
     }
 
@@ -561,7 +560,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 10 biens immos.
      */
-    public function get10BiensImmos(): ?float{
+    public function get10BiensImmos(): ?float {
         return $this->_10BiensImmos;
     }
 
@@ -570,7 +569,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 11 autres biens.
      */
-    public function get11AutresBiens(): ?float{
+    public function get11AutresBiens(): ?float {
         return $this->_11AutresBiens;
     }
 
@@ -579,7 +578,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 12 omission.
      */
-    public function get12Omission(): ?float{
+    public function get12Omission(): ?float {
         return $this->_12Omission;
     }
 
@@ -588,7 +587,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 13 total tva deduc.
      */
-    public function get13TotalTvaDeduc(): ?float{
+    public function get13TotalTvaDeduc(): ?float {
         return $this->_13TotalTvaDeduc;
     }
 
@@ -597,7 +596,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 14 a.
      */
-    public function get14A(): ?float{
+    public function get14A(): ?float {
         return $this->_14A;
     }
 
@@ -606,7 +605,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 15 b.
      */
-    public function get15B(): ?float{
+    public function get15B(): ?float {
         return $this->_15B;
     }
 
@@ -615,7 +614,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 16 rembours tva.
      */
-    public function get16RemboursTva(): ?float{
+    public function get16RemboursTva(): ?float {
         return $this->_16RemboursTva;
     }
 
@@ -624,7 +623,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 18 credit tvaca12.
      */
-    public function get18CreditTvaca12(): ?float{
+    public function get18CreditTvaca12(): ?float {
         return $this->_18CreditTvaca12;
     }
 
@@ -633,7 +632,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 1 mtt augmentation.
      */
-    public function get1MttAugmentation(): ?float{
+    public function get1MttAugmentation(): ?float {
         return $this->_1MttAugmentation;
     }
 
@@ -642,7 +641,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 20 acompte ta1.
      */
-    public function get20AcompteTa1(): ?float{
+    public function get20AcompteTa1(): ?float {
         return $this->_20AcompteTa1;
     }
 
@@ -651,7 +650,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 20 acompte ta2.
      */
-    public function get20AcompteTa2(): ?float{
+    public function get20AcompteTa2(): ?float {
         return $this->_20AcompteTa2;
     }
 
@@ -660,7 +659,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 21 acompte tot1.
      */
-    public function get21AcompteTot1(): ?float{
+    public function get21AcompteTot1(): ?float {
         return $this->_21AcompteTot1;
     }
 
@@ -669,7 +668,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 21 acompte tot2.
      */
-    public function get21AcompteTot2(): ?float{
+    public function get21AcompteTot2(): ?float {
         return $this->_21AcompteTot2;
     }
 
@@ -678,7 +677,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 2 b base ht7.
      */
-    public function get2BBaseHt7(): ?float{
+    public function get2BBaseHt7(): ?float {
         return $this->_2BBaseHt7;
     }
 
@@ -687,7 +686,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 2 b taxe due7.
      */
-    public function get2BTaxeDue7(): ?float{
+    public function get2BTaxeDue7(): ?float {
         return $this->_2BTaxeDue7;
     }
 
@@ -696,7 +695,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 2 mtt credit prec.
      */
-    public function get2MttCreditPrec(): ?float{
+    public function get2MttCreditPrec(): ?float {
         return $this->_2MttCreditPrec;
     }
 
@@ -705,7 +704,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 2 mtt diminution.
      */
-    public function get2MttDiminution(): ?float{
+    public function get2MttDiminution(): ?float {
         return $this->_2MttDiminution;
     }
 
@@ -714,7 +713,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 3 mtt diminution.
      */
-    public function get3MttDiminution(): ?float{
+    public function get3MttDiminution(): ?float {
         return $this->_3MttDiminution;
     }
 
@@ -723,7 +722,7 @@ class DecTva3514 {
      *
      * @return int|null Returns the 3 suspension.
      */
-    public function get3Suspension(): ?int{
+    public function get3Suspension(): ?int {
         return $this->_3Suspension;
     }
 
@@ -732,7 +731,7 @@ class DecTva3514 {
      *
      * @return bool|null Returns the 4 has diminution.
      */
-    public function get4HasDiminution(): ?bool{
+    public function get4HasDiminution(): ?bool {
         return $this->_4HasDiminution;
     }
 
@@ -741,7 +740,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the 4 mtt diminution.
      */
-    public function get4MttDiminution(): ?float{
+    public function get4MttDiminution(): ?float {
         return $this->_4MttDiminution;
     }
 
@@ -750,7 +749,7 @@ class DecTva3514 {
      *
      * @return DateTime|null Returns the acompte du.
      */
-    public function getAcompteDu(): ?DateTime{
+    public function getAcompteDu(): ?DateTime {
         return $this->acompteDu;
     }
 
@@ -759,7 +758,7 @@ class DecTva3514 {
      *
      * @return DateTime|null Returns the date dec.
      */
-    public function getDateDec(): ?DateTime{
+    public function getDateDec(): ?DateTime {
         return $this->dateDec;
     }
 
@@ -768,7 +767,7 @@ class DecTva3514 {
      *
      * @return DateTime|null Returns the date limite dec.
      */
-    public function getDateLimiteDec(): ?DateTime{
+    public function getDateLimiteDec(): ?DateTime {
         return $this->dateLimiteDec;
     }
 
@@ -777,7 +776,7 @@ class DecTva3514 {
      *
      * @return string|null Returns the det code ta.
      */
-    public function getDetCodeTa(): ?string{
+    public function getDetCodeTa(): ?string {
         return $this->detCodeTa;
     }
 
@@ -786,7 +785,7 @@ class DecTva3514 {
      *
      * @return string|null Returns the det ta1.
      */
-    public function getDetTa1(): ?string{
+    public function getDetTa1(): ?string {
         return $this->detTa1;
     }
 
@@ -795,7 +794,7 @@ class DecTva3514 {
      *
      * @return string|null Returns the det ta2.
      */
-    public function getDetTa2(): ?string{
+    public function getDetTa2(): ?string {
         return $this->detTa2;
     }
 
@@ -804,7 +803,7 @@ class DecTva3514 {
      *
      * @return string|null Returns the det ta3.
      */
-    public function getDetTa3(): ?string{
+    public function getDetTa3(): ?string {
         return $this->detTa3;
     }
 
@@ -813,7 +812,7 @@ class DecTva3514 {
      *
      * @return string|null Returns the det ta4.
      */
-    public function getDetTa4(): ?string{
+    public function getDetTa4(): ?string {
         return $this->detTa4;
     }
 
@@ -822,7 +821,7 @@ class DecTva3514 {
      *
      * @return DateTime|null Returns the exigible le.
      */
-    public function getExigibleLe(): ?DateTime{
+    public function getExigibleLe(): ?DateTime {
         return $this->exigibleLe;
     }
 
@@ -831,7 +830,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the mtt a payer.
      */
-    public function getMttAPayer(): ?float{
+    public function getMttAPayer(): ?float {
         return $this->mttAPayer;
     }
 
@@ -840,7 +839,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the mtt det ta1.
      */
-    public function getMttDetTa1(): ?float{
+    public function getMttDetTa1(): ?float {
         return $this->mttDetTa1;
     }
 
@@ -849,7 +848,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the mtt det ta2.
      */
-    public function getMttDetTa2(): ?float{
+    public function getMttDetTa2(): ?float {
         return $this->mttDetTa2;
     }
 
@@ -858,7 +857,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the mtt det ta3.
      */
-    public function getMttDetTa3(): ?float{
+    public function getMttDetTa3(): ?float {
         return $this->mttDetTa3;
     }
 
@@ -867,17 +866,8 @@ class DecTva3514 {
      *
      * @return float|null Returns the mtt det ta4.
      */
-    public function getMttDetTa4(): ?float{
+    public function getMttDetTa4(): ?float {
         return $this->mttDetTa4;
-    }
-
-    /**
-     * Get the mtt dont tva.
-     *
-     * @return float|null Returns the mtt dont tva.
-     */
-    public function getMttDontTva(): ?float{
-        return $this->mttDontTva;
     }
 
     /**
@@ -885,8 +875,17 @@ class DecTva3514 {
      *
      * @return float|null Returns the mtt dont taxes assim.
      */
-    public function getMttDontTaxesAssim(): ?float{
+    public function getMttDontTaxesAssim(): ?float {
         return $this->mttDontTaxesAssim;
+    }
+
+    /**
+     * Get the mtt dont tva.
+     *
+     * @return float|null Returns the mtt dont tva.
+     */
+    public function getMttDontTva(): ?float {
+        return $this->mttDontTva;
     }
 
     /**
@@ -894,7 +893,7 @@ class DecTva3514 {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -903,7 +902,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the z0151.
      */
-    public function getz0151(): ?float{
+    public function getz0151(): ?float {
         return $this->z0151;
     }
 
@@ -912,7 +911,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the z0207.
      */
-    public function getz0207(): ?float{
+    public function getz0207(): ?float {
         return $this->z0207;
     }
 
@@ -921,7 +920,7 @@ class DecTva3514 {
      *
      * @return float|null Returns the z ha.
      */
-    public function getzHa(): ?float{
+    public function getzHa(): ?float {
         return $this->zHa;
     }
 
@@ -1476,17 +1475,6 @@ class DecTva3514 {
     }
 
     /**
-     * Set the mtt dont tva.
-     *
-     * @param float|null $mttDontTva The mtt dont tva.
-     * @return DecTva3514 Returns this Dec tva3514.
-     */
-    public function setMttDontTva(?float $mttDontTva): DecTva3514 {
-        $this->mttDontTva = $mttDontTva;
-        return $this;
-    }
-
-    /**
      * Set the mtt dont taxes assim.
      *
      * @param float|null $mttDontTaxesAssim The mtt dont taxes assim.
@@ -1494,6 +1482,17 @@ class DecTva3514 {
      */
     public function setMttDontTaxesAssim(?float $mttDontTaxesAssim): DecTva3514 {
         $this->mttDontTaxesAssim = $mttDontTaxesAssim;
+        return $this;
+    }
+
+    /**
+     * Set the mtt dont tva.
+     *
+     * @param float|null $mttDontTva The mtt dont tva.
+     * @return DecTva3514 Returns this Dec tva3514.
+     */
+    public function setMttDontTva(?float $mttDontTva): DecTva3514 {
+        $this->mttDontTva = $mttDontTva;
         return $this;
     }
 

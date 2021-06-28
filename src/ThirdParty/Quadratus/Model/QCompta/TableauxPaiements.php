@@ -91,7 +91,6 @@ class TableauxPaiements {
      */
     private $valeurRachat;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class TableauxPaiements {
      *
      * @return float|null Returns the assurance.
      */
-    public function getAssurance(): ?float{
+    public function getAssurance(): ?float {
         return $this->assurance;
     }
 
@@ -113,7 +112,7 @@ class TableauxPaiements {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -122,7 +121,7 @@ class TableauxPaiements {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -131,7 +130,7 @@ class TableauxPaiements {
      *
      * @return float|null Returns the entretien.
      */
-    public function getEntretien(): ?float{
+    public function getEntretien(): ?float {
         return $this->entretien;
     }
 
@@ -140,7 +139,7 @@ class TableauxPaiements {
      *
      * @return float|null Returns the loyer ht.
      */
-    public function getLoyerHt(): ?float{
+    public function getLoyerHt(): ?float {
         return $this->loyerHt;
     }
 
@@ -149,7 +148,7 @@ class TableauxPaiements {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -158,7 +157,7 @@ class TableauxPaiements {
      *
      * @return int|null Returns the numero cb.
      */
-    public function getNumeroCb(): ?int{
+    public function getNumeroCb(): ?int {
         return $this->numeroCb;
     }
 
@@ -167,7 +166,7 @@ class TableauxPaiements {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -176,7 +175,7 @@ class TableauxPaiements {
      *
      * @return int|null Returns the numero deux cb.
      */
-    public function getNumeroDeuxCb(): ?int{
+    public function getNumeroDeuxCb(): ?int {
         return $this->numeroDeuxCb;
     }
 
@@ -185,7 +184,7 @@ class TableauxPaiements {
      *
      * @return float|null Returns the valeur rachat.
      */
-    public function getValeurRachat(): ?float{
+    public function getValeurRachat(): ?float {
         return $this->valeurRachat;
     }
 

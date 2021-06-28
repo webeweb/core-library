@@ -61,7 +61,6 @@ class ChantiersSynchroId {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class ChantiersSynchroId {
      *
      * @return bool|null Returns the bloc da.
      */
-    public function getBlocDa(): ?bool{
+    public function getBlocDa(): ?bool {
         return $this->blocDa;
     }
 
@@ -83,7 +82,7 @@ class ChantiersSynchroId {
      *
      * @return bool|null Returns the bloc fc.
      */
-    public function getBlocFc(): ?bool{
+    public function getBlocFc(): ?bool {
         return $this->blocFc;
     }
 
@@ -92,7 +91,7 @@ class ChantiersSynchroId {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -101,7 +100,7 @@ class ChantiersSynchroId {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -110,7 +109,7 @@ class ChantiersSynchroId {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -119,7 +118,7 @@ class ChantiersSynchroId {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

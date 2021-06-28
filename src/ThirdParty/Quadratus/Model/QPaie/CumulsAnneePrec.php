@@ -209,6 +209,20 @@ class CumulsAnneePrec {
     private $cumBrutAbatNonLim;
 
     /**
+     * Cum brut al.
+     *
+     * @var float|null
+     */
+    private $cumBrutAl;
+
+    /**
+     * Cum brut al sans si.
+     *
+     * @var float|null
+     */
+    private $cumBrutAlSansSi;
+
+    /**
      * Cum brut caisse1.
      *
      * @var float|null
@@ -235,20 +249,6 @@ class CumulsAnneePrec {
      * @var float|null
      */
     private $cumBrutNonAbattu;
-
-    /**
-     * Cum brut al.
-     *
-     * @var float|null
-     */
-    private $cumBrutAl;
-
-    /**
-     * Cum brut al sans si.
-     *
-     * @var float|null
-     */
-    private $cumBrutAlSansSi;
 
     /**
      * Cum cp dus.
@@ -496,13 +496,6 @@ class CumulsAnneePrec {
     private $cumTotSi;
 
     /**
-     * Cum tranche2 si.
-     *
-     * @var float|null
-     */
-    private $cumTranche2Si;
-
-    /**
      * Cum tranche2 sans si.
      *
      * @var float|null
@@ -510,11 +503,11 @@ class CumulsAnneePrec {
     private $cumTranche2SansSi;
 
     /**
-     * Cum tranche asi.
+     * Cum tranche2 si.
      *
      * @var float|null
      */
-    private $cumTrancheAsi;
+    private $cumTranche2Si;
 
     /**
      * Cum tranche a sans si.
@@ -524,11 +517,11 @@ class CumulsAnneePrec {
     private $cumTrancheASansSi;
 
     /**
-     * Cum tranche bsi.
+     * Cum tranche asi.
      *
      * @var float|null
      */
-    private $cumTrancheBsi;
+    private $cumTrancheAsi;
 
     /**
      * Cum tranche b sans si.
@@ -538,11 +531,11 @@ class CumulsAnneePrec {
     private $cumTrancheBSansSi;
 
     /**
-     * Cum tranche csi.
+     * Cum tranche bsi.
      *
      * @var float|null
      */
-    private $cumTrancheCsi;
+    private $cumTrancheBsi;
 
     /**
      * Cum tranche c sans si.
@@ -550,6 +543,13 @@ class CumulsAnneePrec {
      * @var float|null
      */
     private $cumTrancheCSansSi;
+
+    /**
+     * Cum tranche csi.
+     *
+     * @var float|null
+     */
+    private $cumTrancheCsi;
 
     /**
      * Cum tranche d1 sans si.
@@ -572,7 +572,6 @@ class CumulsAnneePrec {
      */
     private $numeroEmploye;
 
-
     /**
      * Constructor.
      */
@@ -585,7 +584,7 @@ class CumulsAnneePrec {
      *
      * @return string|null Returns the annee.
      */
-    public function getAnnee(): ?string{
+    public function getAnnee(): ?string {
         return $this->annee;
     }
 
@@ -594,7 +593,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum30 ss.
      */
-    public function getCum30Ss(): ?float{
+    public function getCum30Ss(): ?float {
         return $this->cum30Ss;
     }
 
@@ -603,7 +602,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base csg.
      */
-    public function getCumBaseCsg(): ?float{
+    public function getCumBaseCsg(): ?float {
         return $this->cumBaseCsg;
     }
 
@@ -612,7 +611,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base gmp.
      */
-    public function getCumBaseGmp(): ?float{
+    public function getCumBaseGmp(): ?float {
         return $this->cumBaseGmp;
     }
 
@@ -621,7 +620,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base ss.
      */
-    public function getCumBaseSs(): ?float{
+    public function getCumBaseSs(): ?float {
         return $this->cumBaseSs;
     }
 
@@ -630,7 +629,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr2.
      */
-    public function getCumBaseTr2(): ?float{
+    public function getCumBaseTr2(): ?float {
         return $this->cumBaseTr2;
     }
 
@@ -639,7 +638,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr a.
      */
-    public function getCumBaseTrA(): ?float{
+    public function getCumBaseTrA(): ?float {
         return $this->cumBaseTrA;
     }
 
@@ -648,7 +647,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr a caisse1.
      */
-    public function getCumBaseTrACaisse1(): ?float{
+    public function getCumBaseTrACaisse1(): ?float {
         return $this->cumBaseTrACaisse1;
     }
 
@@ -657,7 +656,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr a caisse2.
      */
-    public function getCumBaseTrACaisse2(): ?float{
+    public function getCumBaseTrACaisse2(): ?float {
         return $this->cumBaseTrACaisse2;
     }
 
@@ -666,7 +665,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr a caisse3.
      */
-    public function getCumBaseTrACaisse3(): ?float{
+    public function getCumBaseTrACaisse3(): ?float {
         return $this->cumBaseTrACaisse3;
     }
 
@@ -675,7 +674,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr b.
      */
-    public function getCumBaseTrB(): ?float{
+    public function getCumBaseTrB(): ?float {
         return $this->cumBaseTrB;
     }
 
@@ -684,7 +683,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr b caisse1.
      */
-    public function getCumBaseTrBCaisse1(): ?float{
+    public function getCumBaseTrBCaisse1(): ?float {
         return $this->cumBaseTrBCaisse1;
     }
 
@@ -693,7 +692,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr b caisse2.
      */
-    public function getCumBaseTrBCaisse2(): ?float{
+    public function getCumBaseTrBCaisse2(): ?float {
         return $this->cumBaseTrBCaisse2;
     }
 
@@ -702,7 +701,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr b caisse3.
      */
-    public function getCumBaseTrBCaisse3(): ?float{
+    public function getCumBaseTrBCaisse3(): ?float {
         return $this->cumBaseTrBCaisse3;
     }
 
@@ -711,7 +710,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr c.
      */
-    public function getCumBaseTrC(): ?float{
+    public function getCumBaseTrC(): ?float {
         return $this->cumBaseTrC;
     }
 
@@ -720,7 +719,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr c caisse1.
      */
-    public function getCumBaseTrCCaisse1(): ?float{
+    public function getCumBaseTrCCaisse1(): ?float {
         return $this->cumBaseTrCCaisse1;
     }
 
@@ -729,7 +728,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr c caisse2.
      */
-    public function getCumBaseTrCCaisse2(): ?float{
+    public function getCumBaseTrCCaisse2(): ?float {
         return $this->cumBaseTrCCaisse2;
     }
 
@@ -738,7 +737,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr c caisse3.
      */
-    public function getCumBaseTrCCaisse3(): ?float{
+    public function getCumBaseTrCCaisse3(): ?float {
         return $this->cumBaseTrCCaisse3;
     }
 
@@ -747,7 +746,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d.
      */
-    public function getCumBaseTrD(): ?float{
+    public function getCumBaseTrD(): ?float {
         return $this->cumBaseTrD;
     }
 
@@ -756,7 +755,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d1.
      */
-    public function getCumBaseTrD1(): ?float{
+    public function getCumBaseTrD1(): ?float {
         return $this->cumBaseTrD1;
     }
 
@@ -765,7 +764,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d1 caisse1.
      */
-    public function getCumBaseTrD1Caisse1(): ?float{
+    public function getCumBaseTrD1Caisse1(): ?float {
         return $this->cumBaseTrD1Caisse1;
     }
 
@@ -774,7 +773,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d1 caisse2.
      */
-    public function getCumBaseTrD1Caisse2(): ?float{
+    public function getCumBaseTrD1Caisse2(): ?float {
         return $this->cumBaseTrD1Caisse2;
     }
 
@@ -783,7 +782,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d1 caisse3.
      */
-    public function getCumBaseTrD1Caisse3(): ?float{
+    public function getCumBaseTrD1Caisse3(): ?float {
         return $this->cumBaseTrD1Caisse3;
     }
 
@@ -792,7 +791,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d caisse1.
      */
-    public function getCumBaseTrDCaisse1(): ?float{
+    public function getCumBaseTrDCaisse1(): ?float {
         return $this->cumBaseTrDCaisse1;
     }
 
@@ -801,7 +800,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d caisse2.
      */
-    public function getCumBaseTrDCaisse2(): ?float{
+    public function getCumBaseTrDCaisse2(): ?float {
         return $this->cumBaseTrDCaisse2;
     }
 
@@ -810,7 +809,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum base tr d caisse3.
      */
-    public function getCumBaseTrDCaisse3(): ?float{
+    public function getCumBaseTrDCaisse3(): ?float {
         return $this->cumBaseTrDCaisse3;
     }
 
@@ -819,44 +818,8 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum brut abat non lim.
      */
-    public function getCumBrutAbatNonLim(): ?float{
+    public function getCumBrutAbatNonLim(): ?float {
         return $this->cumBrutAbatNonLim;
-    }
-
-    /**
-     * Get the cum brut caisse1.
-     *
-     * @return float|null Returns the cum brut caisse1.
-     */
-    public function getCumBrutCaisse1(): ?float{
-        return $this->cumBrutCaisse1;
-    }
-
-    /**
-     * Get the cum brut caisse2.
-     *
-     * @return float|null Returns the cum brut caisse2.
-     */
-    public function getCumBrutCaisse2(): ?float{
-        return $this->cumBrutCaisse2;
-    }
-
-    /**
-     * Get the cum brut caisse3.
-     *
-     * @return float|null Returns the cum brut caisse3.
-     */
-    public function getCumBrutCaisse3(): ?float{
-        return $this->cumBrutCaisse3;
-    }
-
-    /**
-     * Get the cum brut non abattu.
-     *
-     * @return float|null Returns the cum brut non abattu.
-     */
-    public function getCumBrutNonAbattu(): ?float{
-        return $this->cumBrutNonAbattu;
     }
 
     /**
@@ -864,7 +827,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum brut al.
      */
-    public function getCumBrutAl(): ?float{
+    public function getCumBrutAl(): ?float {
         return $this->cumBrutAl;
     }
 
@@ -873,8 +836,44 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum brut al sans si.
      */
-    public function getCumBrutAlSansSi(): ?float{
+    public function getCumBrutAlSansSi(): ?float {
         return $this->cumBrutAlSansSi;
+    }
+
+    /**
+     * Get the cum brut caisse1.
+     *
+     * @return float|null Returns the cum brut caisse1.
+     */
+    public function getCumBrutCaisse1(): ?float {
+        return $this->cumBrutCaisse1;
+    }
+
+    /**
+     * Get the cum brut caisse2.
+     *
+     * @return float|null Returns the cum brut caisse2.
+     */
+    public function getCumBrutCaisse2(): ?float {
+        return $this->cumBrutCaisse2;
+    }
+
+    /**
+     * Get the cum brut caisse3.
+     *
+     * @return float|null Returns the cum brut caisse3.
+     */
+    public function getCumBrutCaisse3(): ?float {
+        return $this->cumBrutCaisse3;
+    }
+
+    /**
+     * Get the cum brut non abattu.
+     *
+     * @return float|null Returns the cum brut non abattu.
+     */
+    public function getCumBrutNonAbattu(): ?float {
+        return $this->cumBrutNonAbattu;
     }
 
     /**
@@ -882,7 +881,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum cp dus.
      */
-    public function getCumCpDus(): ?float{
+    public function getCumCpDus(): ?float {
         return $this->cumCpDus;
     }
 
@@ -891,7 +890,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum cp dus1.
      */
-    public function getCumCpDus1(): ?float{
+    public function getCumCpDus1(): ?float {
         return $this->cumCpDus1;
     }
 
@@ -900,7 +899,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum cp pris.
      */
-    public function getCumCpPris(): ?float{
+    public function getCumCpPris(): ?float {
         return $this->cumCpPris;
     }
 
@@ -909,7 +908,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum cp pris1.
      */
-    public function getCumCpPris1(): ?float{
+    public function getCumCpPris1(): ?float {
         return $this->cumCpPris1;
     }
 
@@ -918,7 +917,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum dif dus.
      */
-    public function getCumDifDus(): ?float{
+    public function getCumDifDus(): ?float {
         return $this->cumDifDus;
     }
 
@@ -927,7 +926,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum dif dus1.
      */
-    public function getCumDifDus1(): ?float{
+    public function getCumDifDus1(): ?float {
         return $this->cumDifDus1;
     }
 
@@ -936,7 +935,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum h bonifie.
      */
-    public function getCumHBonifie(): ?float{
+    public function getCumHBonifie(): ?float {
         return $this->cumHBonifie;
     }
 
@@ -945,7 +944,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum h repos remplace.
      */
-    public function getCumHReposRemplace(): ?float{
+    public function getCumHReposRemplace(): ?float {
         return $this->cumHReposRemplace;
     }
 
@@ -954,7 +953,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum h service.
      */
-    public function getCumHService(): ?float{
+    public function getCumHService(): ?float {
         return $this->cumHService;
     }
 
@@ -963,7 +962,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum h sup.
      */
-    public function getCumHSup(): ?float{
+    public function getCumHSup(): ?float {
         return $this->cumHSup;
     }
 
@@ -972,7 +971,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum h sup rcit.
      */
-    public function getCumHSupRcit(): ?float{
+    public function getCumHSupRcit(): ?float {
         return $this->cumHSupRcit;
     }
 
@@ -981,7 +980,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum heure paye.
      */
-    public function getCumHeurePaye(): ?float{
+    public function getCumHeurePaye(): ?float {
         return $this->cumHeurePaye;
     }
 
@@ -990,7 +989,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum heure trav.
      */
-    public function getCumHeureTrav(): ?float{
+    public function getCumHeureTrav(): ?float {
         return $this->cumHeureTrav;
     }
 
@@ -999,7 +998,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum j repos recup.
      */
-    public function getCumJReposRecup(): ?float{
+    public function getCumJReposRecup(): ?float {
         return $this->cumJReposRecup;
     }
 
@@ -1008,7 +1007,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum jour paye.
      */
-    public function getCumJourPaye(): ?float{
+    public function getCumJourPaye(): ?float {
         return $this->cumJourPaye;
     }
 
@@ -1017,7 +1016,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum jour trav.
      */
-    public function getCumJourTrav(): ?float{
+    public function getCumJourTrav(): ?float {
         return $this->cumJourTrav;
     }
 
@@ -1026,7 +1025,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum mt cp pris.
      */
-    public function getCumMtCpPris(): ?float{
+    public function getCumMtCpPris(): ?float {
         return $this->cumMtCpPris;
     }
 
@@ -1035,7 +1034,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum mt cp pris1.
      */
-    public function getCumMtCpPris1(): ?float{
+    public function getCumMtCpPris1(): ?float {
         return $this->cumMtCpPris1;
     }
 
@@ -1044,7 +1043,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum net a payer.
      */
-    public function getCumNetAPayer(): ?float{
+    public function getCumNetAPayer(): ?float {
         return $this->cumNetAPayer;
     }
 
@@ -1053,7 +1052,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum net imposable.
      */
-    public function getCumNetImposable(): ?float{
+    public function getCumNetImposable(): ?float {
         return $this->cumNetImposable;
     }
 
@@ -1062,7 +1061,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plaf1 caisse1.
      */
-    public function getCumPlaf1Caisse1(): ?float{
+    public function getCumPlaf1Caisse1(): ?float {
         return $this->cumPlaf1Caisse1;
     }
 
@@ -1071,7 +1070,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plaf1 caisse2.
      */
-    public function getCumPlaf1Caisse2(): ?float{
+    public function getCumPlaf1Caisse2(): ?float {
         return $this->cumPlaf1Caisse2;
     }
 
@@ -1080,7 +1079,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plaf1 caisse3.
      */
-    public function getCumPlaf1Caisse3(): ?float{
+    public function getCumPlaf1Caisse3(): ?float {
         return $this->cumPlaf1Caisse3;
     }
 
@@ -1089,7 +1088,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plaf2 caisse1.
      */
-    public function getCumPlaf2Caisse1(): ?float{
+    public function getCumPlaf2Caisse1(): ?float {
         return $this->cumPlaf2Caisse1;
     }
 
@@ -1098,7 +1097,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plaf2 caisse2.
      */
-    public function getCumPlaf2Caisse2(): ?float{
+    public function getCumPlaf2Caisse2(): ?float {
         return $this->cumPlaf2Caisse2;
     }
 
@@ -1107,7 +1106,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plaf2 caisse3.
      */
-    public function getCumPlaf2Caisse3(): ?float{
+    public function getCumPlaf2Caisse3(): ?float {
         return $this->cumPlaf2Caisse3;
     }
 
@@ -1116,7 +1115,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plafond gmp.
      */
-    public function getCumPlafondGmp(): ?float{
+    public function getCumPlafondGmp(): ?float {
         return $this->cumPlafondGmp;
     }
 
@@ -1125,7 +1124,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plafond ss1.
      */
-    public function getCumPlafondSs1(): ?float{
+    public function getCumPlafondSs1(): ?float {
         return $this->cumPlafondSs1;
     }
 
@@ -1134,7 +1133,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum plafond ss2.
      */
-    public function getCumPlafondSs2(): ?float{
+    public function getCumPlafondSs2(): ?float {
         return $this->cumPlafondSs2;
     }
 
@@ -1143,7 +1142,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum prov cp.
      */
-    public function getCumProvCp(): ?float{
+    public function getCumProvCp(): ?float {
         return $this->cumProvCp;
     }
 
@@ -1152,7 +1151,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum prov cp1.
      */
-    public function getCumProvCp1(): ?float{
+    public function getCumProvCp1(): ?float {
         return $this->cumProvCp1;
     }
 
@@ -1161,7 +1160,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum repos comp.
      */
-    public function getCumReposComp(): ?float{
+    public function getCumReposComp(): ?float {
         return $this->cumReposComp;
     }
 
@@ -1170,7 +1169,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum rtt dus.
      */
-    public function getCumRttDus(): ?float{
+    public function getCumRttDus(): ?float {
         return $this->cumRttDus;
     }
 
@@ -1179,7 +1178,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum rtt pris.
      */
-    public function getCumRttPris(): ?float{
+    public function getCumRttPris(): ?float {
         return $this->cumRttPris;
     }
 
@@ -1188,17 +1187,8 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tot si.
      */
-    public function getCumTotSi(): ?float{
+    public function getCumTotSi(): ?float {
         return $this->cumTotSi;
-    }
-
-    /**
-     * Get the cum tranche2 si.
-     *
-     * @return float|null Returns the cum tranche2 si.
-     */
-    public function getCumTranche2Si(): ?float{
-        return $this->cumTranche2Si;
     }
 
     /**
@@ -1206,17 +1196,17 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tranche2 sans si.
      */
-    public function getCumTranche2SansSi(): ?float{
+    public function getCumTranche2SansSi(): ?float {
         return $this->cumTranche2SansSi;
     }
 
     /**
-     * Get the cum tranche asi.
+     * Get the cum tranche2 si.
      *
-     * @return float|null Returns the cum tranche asi.
+     * @return float|null Returns the cum tranche2 si.
      */
-    public function getCumTrancheAsi(): ?float{
-        return $this->cumTrancheAsi;
+    public function getCumTranche2Si(): ?float {
+        return $this->cumTranche2Si;
     }
 
     /**
@@ -1224,17 +1214,17 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tranche a sans si.
      */
-    public function getCumTrancheASansSi(): ?float{
+    public function getCumTrancheASansSi(): ?float {
         return $this->cumTrancheASansSi;
     }
 
     /**
-     * Get the cum tranche bsi.
+     * Get the cum tranche asi.
      *
-     * @return float|null Returns the cum tranche bsi.
+     * @return float|null Returns the cum tranche asi.
      */
-    public function getCumTrancheBsi(): ?float{
-        return $this->cumTrancheBsi;
+    public function getCumTrancheAsi(): ?float {
+        return $this->cumTrancheAsi;
     }
 
     /**
@@ -1242,17 +1232,17 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tranche b sans si.
      */
-    public function getCumTrancheBSansSi(): ?float{
+    public function getCumTrancheBSansSi(): ?float {
         return $this->cumTrancheBSansSi;
     }
 
     /**
-     * Get the cum tranche csi.
+     * Get the cum tranche bsi.
      *
-     * @return float|null Returns the cum tranche csi.
+     * @return float|null Returns the cum tranche bsi.
      */
-    public function getCumTrancheCsi(): ?float{
-        return $this->cumTrancheCsi;
+    public function getCumTrancheBsi(): ?float {
+        return $this->cumTrancheBsi;
     }
 
     /**
@@ -1260,8 +1250,17 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tranche c sans si.
      */
-    public function getCumTrancheCSansSi(): ?float{
+    public function getCumTrancheCSansSi(): ?float {
         return $this->cumTrancheCSansSi;
+    }
+
+    /**
+     * Get the cum tranche csi.
+     *
+     * @return float|null Returns the cum tranche csi.
+     */
+    public function getCumTrancheCsi(): ?float {
+        return $this->cumTrancheCsi;
     }
 
     /**
@@ -1269,7 +1268,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tranche d1 sans si.
      */
-    public function getCumTrancheD1SansSi(): ?float{
+    public function getCumTrancheD1SansSi(): ?float {
         return $this->cumTrancheD1SansSi;
     }
 
@@ -1278,7 +1277,7 @@ class CumulsAnneePrec {
      *
      * @return float|null Returns the cum tranche d sans si.
      */
-    public function getCumTrancheDSansSi(): ?float{
+    public function getCumTrancheDSansSi(): ?float {
         return $this->cumTrancheDSansSi;
     }
 
@@ -1287,7 +1286,7 @@ class CumulsAnneePrec {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -1589,6 +1588,28 @@ class CumulsAnneePrec {
     }
 
     /**
+     * Set the cum brut al.
+     *
+     * @param float|null $cumBrutAl The cum brut al.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
+     */
+    public function setCumBrutAl(?float $cumBrutAl): CumulsAnneePrec {
+        $this->cumBrutAl = $cumBrutAl;
+        return $this;
+    }
+
+    /**
+     * Set the cum brut al sans si.
+     *
+     * @param float|null $cumBrutAlSansSi The cum brut al sans si.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
+     */
+    public function setCumBrutAlSansSi(?float $cumBrutAlSansSi): CumulsAnneePrec {
+        $this->cumBrutAlSansSi = $cumBrutAlSansSi;
+        return $this;
+    }
+
+    /**
      * Set the cum brut caisse1.
      *
      * @param float|null $cumBrutCaisse1 The cum brut caisse1.
@@ -1629,28 +1650,6 @@ class CumulsAnneePrec {
      */
     public function setCumBrutNonAbattu(?float $cumBrutNonAbattu): CumulsAnneePrec {
         $this->cumBrutNonAbattu = $cumBrutNonAbattu;
-        return $this;
-    }
-
-    /**
-     * Set the cum brut al.
-     *
-     * @param float|null $cumBrutAl The cum brut al.
-     * @return CumulsAnneePrec Returns this Cumuls annee prec.
-     */
-    public function setCumBrutAl(?float $cumBrutAl): CumulsAnneePrec {
-        $this->cumBrutAl = $cumBrutAl;
-        return $this;
-    }
-
-    /**
-     * Set the cum brut al sans si.
-     *
-     * @param float|null $cumBrutAlSansSi The cum brut al sans si.
-     * @return CumulsAnneePrec Returns this Cumuls annee prec.
-     */
-    public function setCumBrutAlSansSi(?float $cumBrutAlSansSi): CumulsAnneePrec {
-        $this->cumBrutAlSansSi = $cumBrutAlSansSi;
         return $this;
     }
 
@@ -2040,17 +2039,6 @@ class CumulsAnneePrec {
     }
 
     /**
-     * Set the cum tranche2 si.
-     *
-     * @param float|null $cumTranche2Si The cum tranche2 si.
-     * @return CumulsAnneePrec Returns this Cumuls annee prec.
-     */
-    public function setCumTranche2Si(?float $cumTranche2Si): CumulsAnneePrec {
-        $this->cumTranche2Si = $cumTranche2Si;
-        return $this;
-    }
-
-    /**
      * Set the cum tranche2 sans si.
      *
      * @param float|null $cumTranche2SansSi The cum tranche2 sans si.
@@ -2062,13 +2050,13 @@ class CumulsAnneePrec {
     }
 
     /**
-     * Set the cum tranche asi.
+     * Set the cum tranche2 si.
      *
-     * @param float|null $cumTrancheAsi The cum tranche asi.
+     * @param float|null $cumTranche2Si The cum tranche2 si.
      * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
-    public function setCumTrancheAsi(?float $cumTrancheAsi): CumulsAnneePrec {
-        $this->cumTrancheAsi = $cumTrancheAsi;
+    public function setCumTranche2Si(?float $cumTranche2Si): CumulsAnneePrec {
+        $this->cumTranche2Si = $cumTranche2Si;
         return $this;
     }
 
@@ -2084,13 +2072,13 @@ class CumulsAnneePrec {
     }
 
     /**
-     * Set the cum tranche bsi.
+     * Set the cum tranche asi.
      *
-     * @param float|null $cumTrancheBsi The cum tranche bsi.
+     * @param float|null $cumTrancheAsi The cum tranche asi.
      * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
-    public function setCumTrancheBsi(?float $cumTrancheBsi): CumulsAnneePrec {
-        $this->cumTrancheBsi = $cumTrancheBsi;
+    public function setCumTrancheAsi(?float $cumTrancheAsi): CumulsAnneePrec {
+        $this->cumTrancheAsi = $cumTrancheAsi;
         return $this;
     }
 
@@ -2106,13 +2094,13 @@ class CumulsAnneePrec {
     }
 
     /**
-     * Set the cum tranche csi.
+     * Set the cum tranche bsi.
      *
-     * @param float|null $cumTrancheCsi The cum tranche csi.
+     * @param float|null $cumTrancheBsi The cum tranche bsi.
      * @return CumulsAnneePrec Returns this Cumuls annee prec.
      */
-    public function setCumTrancheCsi(?float $cumTrancheCsi): CumulsAnneePrec {
-        $this->cumTrancheCsi = $cumTrancheCsi;
+    public function setCumTrancheBsi(?float $cumTrancheBsi): CumulsAnneePrec {
+        $this->cumTrancheBsi = $cumTrancheBsi;
         return $this;
     }
 
@@ -2124,6 +2112,17 @@ class CumulsAnneePrec {
      */
     public function setCumTrancheCSansSi(?float $cumTrancheCSansSi): CumulsAnneePrec {
         $this->cumTrancheCSansSi = $cumTrancheCSansSi;
+        return $this;
+    }
+
+    /**
+     * Set the cum tranche csi.
+     *
+     * @param float|null $cumTrancheCsi The cum tranche csi.
+     * @return CumulsAnneePrec Returns this Cumuls annee prec.
+     */
+    public function setCumTrancheCsi(?float $cumTrancheCsi): CumulsAnneePrec {
+        $this->cumTrancheCsi = $cumTrancheCsi;
         return $this;
     }
 

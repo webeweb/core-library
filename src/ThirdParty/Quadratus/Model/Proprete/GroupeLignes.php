@@ -47,7 +47,6 @@ class GroupeLignes {
      */
     private $typeElement;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class GroupeLignes {
      *
      * @return string|null Returns the code element.
      */
-    public function getCodeElement(): ?string{
+    public function getCodeElement(): ?string {
         return $this->codeElement;
     }
 
@@ -69,7 +68,7 @@ class GroupeLignes {
      *
      * @return string|null Returns the groupe.
      */
-    public function getGroupe(): ?string{
+    public function getGroupe(): ?string {
         return $this->groupe;
     }
 
@@ -78,7 +77,7 @@ class GroupeLignes {
      *
      * @return int|null Returns the ordre.
      */
-    public function getOrdre(): ?int{
+    public function getOrdre(): ?int {
         return $this->ordre;
     }
 
@@ -87,7 +86,7 @@ class GroupeLignes {
      *
      * @return string|null Returns the type element.
      */
-    public function getTypeElement(): ?string{
+    public function getTypeElement(): ?string {
         return $this->typeElement;
     }
 

@@ -70,7 +70,6 @@ class DernPrepaFact {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class DernPrepaFact {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -92,7 +91,7 @@ class DernPrepaFact {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -101,7 +100,7 @@ class DernPrepaFact {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -110,7 +109,7 @@ class DernPrepaFact {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -119,7 +118,7 @@ class DernPrepaFact {
      *
      * @return DateTime|null Returns the dt prepa.
      */
-    public function getDtPrepa(): ?DateTime{
+    public function getDtPrepa(): ?DateTime {
         return $this->dtPrepa;
     }
 
@@ -128,7 +127,7 @@ class DernPrepaFact {
      *
      * @return int|null Returns the no chrono preparation.
      */
-    public function getNoChronoPreparation(): ?int{
+    public function getNoChronoPreparation(): ?int {
         return $this->noChronoPreparation;
     }
 
@@ -137,7 +136,7 @@ class DernPrepaFact {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

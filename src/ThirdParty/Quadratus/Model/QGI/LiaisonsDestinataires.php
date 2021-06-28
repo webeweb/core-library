@@ -110,7 +110,6 @@ class LiaisonsDestinataires {
      */
     private $utilisateur;
 
-
     /**
      * Constructor.
      */
@@ -123,7 +122,7 @@ class LiaisonsDestinataires {
      *
      * @return bool|null Returns the agence.
      */
-    public function getAgence(): ?bool{
+    public function getAgence(): ?bool {
         return $this->agence;
     }
 
@@ -132,7 +131,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the chemin.
      */
-    public function getChemin(): ?string{
+    public function getChemin(): ?string {
         return $this->chemin;
     }
 
@@ -141,7 +140,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -150,7 +149,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the email.
      */
-    public function getEmail(): ?string{
+    public function getEmail(): ?string {
         return $this->email;
     }
 
@@ -159,7 +158,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -168,7 +167,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the machine.
      */
-    public function getMachine(): ?string{
+    public function getMachine(): ?string {
         return $this->machine;
     }
 
@@ -177,7 +176,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the mot de passe.
      */
-    public function getMotDePasse(): ?string{
+    public function getMotDePasse(): ?string {
         return $this->motDePasse;
     }
 
@@ -186,7 +185,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the partage.
      */
-    public function getPartage(): ?string{
+    public function getPartage(): ?string {
         return $this->partage;
     }
 
@@ -195,7 +194,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the selection article.
      */
-    public function getSelectionArticle(): ?string{
+    public function getSelectionArticle(): ?string {
         return $this->selectionArticle;
     }
 
@@ -204,7 +203,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the selection client.
      */
-    public function getSelectionClient(): ?string{
+    public function getSelectionClient(): ?string {
         return $this->selectionClient;
     }
 
@@ -213,7 +212,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the selection fournisseur.
      */
-    public function getSelectionFournisseur(): ?string{
+    public function getSelectionFournisseur(): ?string {
         return $this->selectionFournisseur;
     }
 
@@ -222,7 +221,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the type liaison.
      */
-    public function getTypeLiaison(): ?string{
+    public function getTypeLiaison(): ?string {
         return $this->typeLiaison;
     }
 
@@ -231,7 +230,7 @@ class LiaisonsDestinataires {
      *
      * @return string|null Returns the utilisateur.
      */
-    public function getUtilisateur(): ?string{
+    public function getUtilisateur(): ?string {
         return $this->utilisateur;
     }
 

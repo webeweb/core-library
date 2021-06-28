@@ -309,13 +309,6 @@ class Dossier1 {
     private $createurDossier;
 
     /**
-     * Dlu.
-     *
-     * @var string|null
-     */
-    private $dlu;
-
-    /**
      * Date limite saisie.
      *
      * @var DateTime|null
@@ -370,6 +363,13 @@ class Dossier1 {
      * @var int|null
      */
     private $delaiLimiteSaisie;
+
+    /**
+     * Dlu.
+     *
+     * @var string|null
+     */
+    private $dlu;
 
     /**
      * Droit creation type cpt1.
@@ -890,18 +890,18 @@ class Dossier1 {
     private $prochainNumPiece;
 
     /**
-     * Rc.
-     *
-     * @var string|null
-     */
-    private $rc;
-
-    /**
      * Raison sociale.
      *
      * @var string|null
      */
     private $raisonSociale;
+
+    /**
+     * Rc.
+     *
+     * @var string|null
+     */
+    private $rc;
 
     /**
      * Saisie immo en ecriture.
@@ -1036,7 +1036,6 @@ class Dossier1 {
      */
     private $ventilationsCommunes;
 
-
     /**
      * Constructor.
      */
@@ -1049,7 +1048,7 @@ class Dossier1 {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -1058,7 +1057,7 @@ class Dossier1 {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -1067,7 +1066,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the calcul ana fait.
      */
-    public function getCalculAnaFait(): ?bool{
+    public function getCalculAnaFait(): ?bool {
         return $this->calculAnaFait;
     }
 
@@ -1076,7 +1075,7 @@ class Dossier1 {
      *
      * @return string|null Returns the chemin implantation ascii.
      */
-    public function getCheminImplantationAscii(): ?string{
+    public function getCheminImplantationAscii(): ?string {
         return $this->cheminImplantationAscii;
     }
 
@@ -1085,7 +1084,7 @@ class Dossier1 {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -1094,7 +1093,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces1.
      */
-    public function getCleAcces1(): ?string{
+    public function getCleAcces1(): ?string {
         return $this->cleAcces1;
     }
 
@@ -1103,7 +1102,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces10.
      */
-    public function getCleAcces10(): ?string{
+    public function getCleAcces10(): ?string {
         return $this->cleAcces10;
     }
 
@@ -1112,7 +1111,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces2.
      */
-    public function getCleAcces2(): ?string{
+    public function getCleAcces2(): ?string {
         return $this->cleAcces2;
     }
 
@@ -1121,7 +1120,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces3.
      */
-    public function getCleAcces3(): ?string{
+    public function getCleAcces3(): ?string {
         return $this->cleAcces3;
     }
 
@@ -1130,7 +1129,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces4.
      */
-    public function getCleAcces4(): ?string{
+    public function getCleAcces4(): ?string {
         return $this->cleAcces4;
     }
 
@@ -1139,7 +1138,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces5.
      */
-    public function getCleAcces5(): ?string{
+    public function getCleAcces5(): ?string {
         return $this->cleAcces5;
     }
 
@@ -1148,7 +1147,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces6.
      */
-    public function getCleAcces6(): ?string{
+    public function getCleAcces6(): ?string {
         return $this->cleAcces6;
     }
 
@@ -1157,7 +1156,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces7.
      */
-    public function getCleAcces7(): ?string{
+    public function getCleAcces7(): ?string {
         return $this->cleAcces7;
     }
 
@@ -1166,7 +1165,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces8.
      */
-    public function getCleAcces8(): ?string{
+    public function getCleAcces8(): ?string {
         return $this->cleAcces8;
     }
 
@@ -1175,7 +1174,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle acces9.
      */
-    public function getCleAcces9(): ?string{
+    public function getCleAcces9(): ?string {
         return $this->cleAcces9;
     }
 
@@ -1184,7 +1183,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle deblocage journaux.
      */
-    public function getCleDeblocageJournaux(): ?string{
+    public function getCleDeblocageJournaux(): ?string {
         return $this->cleDeblocageJournaux;
     }
 
@@ -1193,7 +1192,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cle portable.
      */
-    public function getClePortable(): ?string{
+    public function getClePortable(): ?string {
         return $this->clePortable;
     }
 
@@ -1202,7 +1201,7 @@ class Dossier1 {
      *
      * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe(): ?string{
+    public function getCodeEquipe(): ?string {
         return $this->codeEquipe;
     }
 
@@ -1211,7 +1210,7 @@ class Dossier1 {
      *
      * @return string|null Returns the code naf.
      */
-    public function getCodeNaf(): ?string{
+    public function getCodeNaf(): ?string {
         return $this->codeNaf;
     }
 
@@ -1220,7 +1219,7 @@ class Dossier1 {
      *
      * @return string|null Returns the code naf2008.
      */
-    public function getCodeNaf2008(): ?string{
+    public function getCodeNaf2008(): ?string {
         return $this->codeNaf2008;
     }
 
@@ -1229,7 +1228,7 @@ class Dossier1 {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -1238,7 +1237,7 @@ class Dossier1 {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -1247,7 +1246,7 @@ class Dossier1 {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -1256,7 +1255,7 @@ class Dossier1 {
      *
      * @return string|null Returns the copie backup.
      */
-    public function getCopieBackup(): ?string{
+    public function getCopieBackup(): ?string {
         return $this->copieBackup;
     }
 
@@ -1265,7 +1264,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe0.
      */
-    public function getCptDebSuiviClasse0(): ?string{
+    public function getCptDebSuiviClasse0(): ?string {
         return $this->cptDebSuiviClasse0;
     }
 
@@ -1274,7 +1273,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe1.
      */
-    public function getCptDebSuiviClasse1(): ?string{
+    public function getCptDebSuiviClasse1(): ?string {
         return $this->cptDebSuiviClasse1;
     }
 
@@ -1283,7 +1282,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe2.
      */
-    public function getCptDebSuiviClasse2(): ?string{
+    public function getCptDebSuiviClasse2(): ?string {
         return $this->cptDebSuiviClasse2;
     }
 
@@ -1292,7 +1291,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe3.
      */
-    public function getCptDebSuiviClasse3(): ?string{
+    public function getCptDebSuiviClasse3(): ?string {
         return $this->cptDebSuiviClasse3;
     }
 
@@ -1301,7 +1300,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe4.
      */
-    public function getCptDebSuiviClasse4(): ?string{
+    public function getCptDebSuiviClasse4(): ?string {
         return $this->cptDebSuiviClasse4;
     }
 
@@ -1310,7 +1309,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe5.
      */
-    public function getCptDebSuiviClasse5(): ?string{
+    public function getCptDebSuiviClasse5(): ?string {
         return $this->cptDebSuiviClasse5;
     }
 
@@ -1319,7 +1318,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe8.
      */
-    public function getCptDebSuiviClasse8(): ?string{
+    public function getCptDebSuiviClasse8(): ?string {
         return $this->cptDebSuiviClasse8;
     }
 
@@ -1328,7 +1327,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt deb suivi classe9.
      */
-    public function getCptDebSuiviClasse9(): ?string{
+    public function getCptDebSuiviClasse9(): ?string {
         return $this->cptDebSuiviClasse9;
     }
 
@@ -1337,7 +1336,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe0.
      */
-    public function getCptFinSuiviClasse0(): ?string{
+    public function getCptFinSuiviClasse0(): ?string {
         return $this->cptFinSuiviClasse0;
     }
 
@@ -1346,7 +1345,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe1.
      */
-    public function getCptFinSuiviClasse1(): ?string{
+    public function getCptFinSuiviClasse1(): ?string {
         return $this->cptFinSuiviClasse1;
     }
 
@@ -1355,7 +1354,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe2.
      */
-    public function getCptFinSuiviClasse2(): ?string{
+    public function getCptFinSuiviClasse2(): ?string {
         return $this->cptFinSuiviClasse2;
     }
 
@@ -1364,7 +1363,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe3.
      */
-    public function getCptFinSuiviClasse3(): ?string{
+    public function getCptFinSuiviClasse3(): ?string {
         return $this->cptFinSuiviClasse3;
     }
 
@@ -1373,7 +1372,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe4.
      */
-    public function getCptFinSuiviClasse4(): ?string{
+    public function getCptFinSuiviClasse4(): ?string {
         return $this->cptFinSuiviClasse4;
     }
 
@@ -1382,7 +1381,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe5.
      */
-    public function getCptFinSuiviClasse5(): ?string{
+    public function getCptFinSuiviClasse5(): ?string {
         return $this->cptFinSuiviClasse5;
     }
 
@@ -1391,7 +1390,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe8.
      */
-    public function getCptFinSuiviClasse8(): ?string{
+    public function getCptFinSuiviClasse8(): ?string {
         return $this->cptFinSuiviClasse8;
     }
 
@@ -1400,7 +1399,7 @@ class Dossier1 {
      *
      * @return string|null Returns the cpt fin suivi classe9.
      */
-    public function getCptFinSuiviClasse9(): ?string{
+    public function getCptFinSuiviClasse9(): ?string {
         return $this->cptFinSuiviClasse9;
     }
 
@@ -1409,17 +1408,8 @@ class Dossier1 {
      *
      * @return string|null Returns the createur dossier.
      */
-    public function getCreateurDossier(): ?string{
+    public function getCreateurDossier(): ?string {
         return $this->createurDossier;
-    }
-
-    /**
-     * Get the dlu.
-     *
-     * @return string|null Returns the dlu.
-     */
-    public function getDlu(): ?string{
-        return $this->dlu;
     }
 
     /**
@@ -1427,7 +1417,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the date limite saisie.
      */
-    public function getDateLimiteSaisie(): ?DateTime{
+    public function getDateLimiteSaisie(): ?DateTime {
         return $this->dateLimiteSaisie;
     }
 
@@ -1436,7 +1426,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the date sys changt ex.
      */
-    public function getDateSysChangtEx(): ?DateTime{
+    public function getDateSysChangtEx(): ?DateTime {
         return $this->dateSysChangtEx;
     }
 
@@ -1445,7 +1435,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the date sys cloture periode.
      */
-    public function getDateSysCloturePeriode(): ?DateTime{
+    public function getDateSysCloturePeriode(): ?DateTime {
         return $this->dateSysCloturePeriode;
     }
 
@@ -1454,7 +1444,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the date sys creation.
      */
-    public function getDateSysCreation(): ?DateTime{
+    public function getDateSysCreation(): ?DateTime {
         return $this->dateSysCreation;
     }
 
@@ -1463,7 +1453,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the date travail.
      */
-    public function getDateTravail(): ?DateTime{
+    public function getDateTravail(): ?DateTime {
         return $this->dateTravail;
     }
 
@@ -1472,7 +1462,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the debut exercice.
      */
-    public function getDebutExercice(): ?DateTime{
+    public function getDebutExercice(): ?DateTime {
         return $this->debutExercice;
     }
 
@@ -1481,7 +1471,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the debut exercice1.
      */
-    public function getDebutExercice1(): ?DateTime{
+    public function getDebutExercice1(): ?DateTime {
         return $this->debutExercice1;
     }
 
@@ -1490,8 +1480,17 @@ class Dossier1 {
      *
      * @return int|null Returns the delai limite saisie.
      */
-    public function getDelaiLimiteSaisie(): ?int{
+    public function getDelaiLimiteSaisie(): ?int {
         return $this->delaiLimiteSaisie;
+    }
+
+    /**
+     * Get the dlu.
+     *
+     * @return string|null Returns the dlu.
+     */
+    public function getDlu(): ?string {
+        return $this->dlu;
     }
 
     /**
@@ -1499,7 +1498,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt1.
      */
-    public function getDroitCreationTypeCpt1(): ?string{
+    public function getDroitCreationTypeCpt1(): ?string {
         return $this->droitCreationTypeCpt1;
     }
 
@@ -1508,7 +1507,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt10.
      */
-    public function getDroitCreationTypeCpt10(): ?string{
+    public function getDroitCreationTypeCpt10(): ?string {
         return $this->droitCreationTypeCpt10;
     }
 
@@ -1517,7 +1516,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt2.
      */
-    public function getDroitCreationTypeCpt2(): ?string{
+    public function getDroitCreationTypeCpt2(): ?string {
         return $this->droitCreationTypeCpt2;
     }
 
@@ -1526,7 +1525,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt3.
      */
-    public function getDroitCreationTypeCpt3(): ?string{
+    public function getDroitCreationTypeCpt3(): ?string {
         return $this->droitCreationTypeCpt3;
     }
 
@@ -1535,7 +1534,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt4.
      */
-    public function getDroitCreationTypeCpt4(): ?string{
+    public function getDroitCreationTypeCpt4(): ?string {
         return $this->droitCreationTypeCpt4;
     }
 
@@ -1544,7 +1543,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt5.
      */
-    public function getDroitCreationTypeCpt5(): ?string{
+    public function getDroitCreationTypeCpt5(): ?string {
         return $this->droitCreationTypeCpt5;
     }
 
@@ -1553,7 +1552,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt6.
      */
-    public function getDroitCreationTypeCpt6(): ?string{
+    public function getDroitCreationTypeCpt6(): ?string {
         return $this->droitCreationTypeCpt6;
     }
 
@@ -1562,7 +1561,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt7.
      */
-    public function getDroitCreationTypeCpt7(): ?string{
+    public function getDroitCreationTypeCpt7(): ?string {
         return $this->droitCreationTypeCpt7;
     }
 
@@ -1571,7 +1570,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt8.
      */
-    public function getDroitCreationTypeCpt8(): ?string{
+    public function getDroitCreationTypeCpt8(): ?string {
         return $this->droitCreationTypeCpt8;
     }
 
@@ -1580,7 +1579,7 @@ class Dossier1 {
      *
      * @return string|null Returns the droit creation type cpt9.
      */
-    public function getDroitCreationTypeCpt9(): ?string{
+    public function getDroitCreationTypeCpt9(): ?string {
         return $this->droitCreationTypeCpt9;
     }
 
@@ -1589,7 +1588,7 @@ class Dossier1 {
      *
      * @return string|null Returns the duree exercice.
      */
-    public function getDureeExercice(): ?string{
+    public function getDureeExercice(): ?string {
         return $this->dureeExercice;
     }
 
@@ -1598,7 +1597,7 @@ class Dossier1 {
      *
      * @return string|null Returns the duree exercice1.
      */
-    public function getDureeExercice1(): ?string{
+    public function getDureeExercice1(): ?string {
         return $this->dureeExercice1;
     }
 
@@ -1607,7 +1606,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the edit date systeme.
      */
-    public function getEditDateSysteme(): ?bool{
+    public function getEditDateSysteme(): ?bool {
         return $this->editDateSysteme;
     }
 
@@ -1616,7 +1615,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the edit page garde.
      */
-    public function getEditPageGarde(): ?bool{
+    public function getEditPageGarde(): ?bool {
         return $this->editPageGarde;
     }
 
@@ -1625,7 +1624,7 @@ class Dossier1 {
      *
      * @return string|null Returns the enseigne.
      */
-    public function getEnseigne(): ?string{
+    public function getEnseigne(): ?string {
         return $this->enseigne;
     }
 
@@ -1634,7 +1633,7 @@ class Dossier1 {
      *
      * @return string|null Returns the euro ou franc.
      */
-    public function getEuroOuFranc(): ?string{
+    public function getEuroOuFranc(): ?string {
         return $this->euroOuFranc;
     }
 
@@ -1643,7 +1642,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille1.
      */
-    public function getFamille1(): ?string{
+    public function getFamille1(): ?string {
         return $this->famille1;
     }
 
@@ -1652,7 +1651,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille10.
      */
-    public function getFamille10(): ?string{
+    public function getFamille10(): ?string {
         return $this->famille10;
     }
 
@@ -1661,7 +1660,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille2.
      */
-    public function getFamille2(): ?string{
+    public function getFamille2(): ?string {
         return $this->famille2;
     }
 
@@ -1670,7 +1669,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille3.
      */
-    public function getFamille3(): ?string{
+    public function getFamille3(): ?string {
         return $this->famille3;
     }
 
@@ -1679,7 +1678,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille4.
      */
-    public function getFamille4(): ?string{
+    public function getFamille4(): ?string {
         return $this->famille4;
     }
 
@@ -1688,7 +1687,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille5.
      */
-    public function getFamille5(): ?string{
+    public function getFamille5(): ?string {
         return $this->famille5;
     }
 
@@ -1697,7 +1696,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille6.
      */
-    public function getFamille6(): ?string{
+    public function getFamille6(): ?string {
         return $this->famille6;
     }
 
@@ -1706,7 +1705,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille7.
      */
-    public function getFamille7(): ?string{
+    public function getFamille7(): ?string {
         return $this->famille7;
     }
 
@@ -1715,7 +1714,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille8.
      */
-    public function getFamille8(): ?string{
+    public function getFamille8(): ?string {
         return $this->famille8;
     }
 
@@ -1724,7 +1723,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille9.
      */
-    public function getFamille9(): ?string{
+    public function getFamille9(): ?string {
         return $this->famille9;
     }
 
@@ -1733,7 +1732,7 @@ class Dossier1 {
      *
      * @return string|null Returns the famille analytique.
      */
-    public function getFamilleAnalytique(): ?string{
+    public function getFamilleAnalytique(): ?string {
         return $this->familleAnalytique;
     }
 
@@ -1742,7 +1741,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the fin exercice.
      */
-    public function getFinExercice(): ?DateTime{
+    public function getFinExercice(): ?DateTime {
         return $this->finExercice;
     }
 
@@ -1751,7 +1750,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the fin exercice1.
      */
-    public function getFinExercice1(): ?DateTime{
+    public function getFinExercice1(): ?DateTime {
         return $this->finExercice1;
     }
 
@@ -1760,7 +1759,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the gestion compta eco.
      */
-    public function getGestionComptaEco(): ?bool{
+    public function getGestionComptaEco(): ?bool {
         return $this->gestionComptaEco;
     }
 
@@ -1769,7 +1768,7 @@ class Dossier1 {
      *
      * @return string|null Returns the groupe app clients.
      */
-    public function getGroupeAppClients(): ?string{
+    public function getGroupeAppClients(): ?string {
         return $this->groupeAppClients;
     }
 
@@ -1778,7 +1777,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the lr active.
      */
-    public function getLrActive(): ?bool{
+    public function getLrActive(): ?bool {
         return $this->lrActive;
     }
 
@@ -1787,7 +1786,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the lr periode.
      */
-    public function getLrPeriode(): ?DateTime{
+    public function getLrPeriode(): ?DateTime {
         return $this->lrPeriode;
     }
 
@@ -1796,7 +1795,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the module agr actif.
      */
-    public function getModuleAgrActif(): ?bool{
+    public function getModuleAgrActif(): ?bool {
         return $this->moduleAgrActif;
     }
 
@@ -1805,7 +1804,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the multi dossiers.
      */
-    public function getMultiDossiers(): ?bool{
+    public function getMultiDossiers(): ?bool {
         return $this->multiDossiers;
     }
 
@@ -1814,7 +1813,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu1.
      */
-    public function getNatureMenu1(): ?string{
+    public function getNatureMenu1(): ?string {
         return $this->natureMenu1;
     }
 
@@ -1823,7 +1822,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu10.
      */
-    public function getNatureMenu10(): ?string{
+    public function getNatureMenu10(): ?string {
         return $this->natureMenu10;
     }
 
@@ -1832,7 +1831,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu2.
      */
-    public function getNatureMenu2(): ?string{
+    public function getNatureMenu2(): ?string {
         return $this->natureMenu2;
     }
 
@@ -1841,7 +1840,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu3.
      */
-    public function getNatureMenu3(): ?string{
+    public function getNatureMenu3(): ?string {
         return $this->natureMenu3;
     }
 
@@ -1850,7 +1849,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu4.
      */
-    public function getNatureMenu4(): ?string{
+    public function getNatureMenu4(): ?string {
         return $this->natureMenu4;
     }
 
@@ -1859,7 +1858,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu5.
      */
-    public function getNatureMenu5(): ?string{
+    public function getNatureMenu5(): ?string {
         return $this->natureMenu5;
     }
 
@@ -1868,7 +1867,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu6.
      */
-    public function getNatureMenu6(): ?string{
+    public function getNatureMenu6(): ?string {
         return $this->natureMenu6;
     }
 
@@ -1877,7 +1876,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu7.
      */
-    public function getNatureMenu7(): ?string{
+    public function getNatureMenu7(): ?string {
         return $this->natureMenu7;
     }
 
@@ -1886,7 +1885,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu8.
      */
-    public function getNatureMenu8(): ?string{
+    public function getNatureMenu8(): ?string {
         return $this->natureMenu8;
     }
 
@@ -1895,7 +1894,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature menu9.
      */
-    public function getNatureMenu9(): ?string{
+    public function getNatureMenu9(): ?string {
         return $this->natureMenu9;
     }
 
@@ -1904,7 +1903,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle1.
      */
-    public function getNatureRegle1(): ?string{
+    public function getNatureRegle1(): ?string {
         return $this->natureRegle1;
     }
 
@@ -1913,7 +1912,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle10.
      */
-    public function getNatureRegle10(): ?string{
+    public function getNatureRegle10(): ?string {
         return $this->natureRegle10;
     }
 
@@ -1922,7 +1921,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle2.
      */
-    public function getNatureRegle2(): ?string{
+    public function getNatureRegle2(): ?string {
         return $this->natureRegle2;
     }
 
@@ -1931,7 +1930,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle3.
      */
-    public function getNatureRegle3(): ?string{
+    public function getNatureRegle3(): ?string {
         return $this->natureRegle3;
     }
 
@@ -1940,7 +1939,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle4.
      */
-    public function getNatureRegle4(): ?string{
+    public function getNatureRegle4(): ?string {
         return $this->natureRegle4;
     }
 
@@ -1949,7 +1948,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle5.
      */
-    public function getNatureRegle5(): ?string{
+    public function getNatureRegle5(): ?string {
         return $this->natureRegle5;
     }
 
@@ -1958,7 +1957,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle6.
      */
-    public function getNatureRegle6(): ?string{
+    public function getNatureRegle6(): ?string {
         return $this->natureRegle6;
     }
 
@@ -1967,7 +1966,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle7.
      */
-    public function getNatureRegle7(): ?string{
+    public function getNatureRegle7(): ?string {
         return $this->natureRegle7;
     }
 
@@ -1976,7 +1975,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle8.
      */
-    public function getNatureRegle8(): ?string{
+    public function getNatureRegle8(): ?string {
         return $this->natureRegle8;
     }
 
@@ -1985,7 +1984,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nature regle9.
      */
-    public function getNatureRegle9(): ?string{
+    public function getNatureRegle9(): ?string {
         return $this->natureRegle9;
     }
 
@@ -1994,7 +1993,7 @@ class Dossier1 {
      *
      * @return int|null Returns the niveau analytique.
      */
-    public function getNiveauAnalytique(): ?int{
+    public function getNiveauAnalytique(): ?int {
         return $this->niveauAnalytique;
     }
 
@@ -2003,7 +2002,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit1.
      */
-    public function getNiveauDroit1(): ?string{
+    public function getNiveauDroit1(): ?string {
         return $this->niveauDroit1;
     }
 
@@ -2012,7 +2011,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit10.
      */
-    public function getNiveauDroit10(): ?string{
+    public function getNiveauDroit10(): ?string {
         return $this->niveauDroit10;
     }
 
@@ -2021,7 +2020,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit2.
      */
-    public function getNiveauDroit2(): ?string{
+    public function getNiveauDroit2(): ?string {
         return $this->niveauDroit2;
     }
 
@@ -2030,7 +2029,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit3.
      */
-    public function getNiveauDroit3(): ?string{
+    public function getNiveauDroit3(): ?string {
         return $this->niveauDroit3;
     }
 
@@ -2039,7 +2038,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit4.
      */
-    public function getNiveauDroit4(): ?string{
+    public function getNiveauDroit4(): ?string {
         return $this->niveauDroit4;
     }
 
@@ -2048,7 +2047,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit5.
      */
-    public function getNiveauDroit5(): ?string{
+    public function getNiveauDroit5(): ?string {
         return $this->niveauDroit5;
     }
 
@@ -2057,7 +2056,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit6.
      */
-    public function getNiveauDroit6(): ?string{
+    public function getNiveauDroit6(): ?string {
         return $this->niveauDroit6;
     }
 
@@ -2066,7 +2065,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit7.
      */
-    public function getNiveauDroit7(): ?string{
+    public function getNiveauDroit7(): ?string {
         return $this->niveauDroit7;
     }
 
@@ -2075,7 +2074,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit8.
      */
-    public function getNiveauDroit8(): ?string{
+    public function getNiveauDroit8(): ?string {
         return $this->niveauDroit8;
     }
 
@@ -2084,7 +2083,7 @@ class Dossier1 {
      *
      * @return string|null Returns the niveau droit9.
      */
-    public function getNiveauDroit9(): ?string{
+    public function getNiveauDroit9(): ?string {
         return $this->niveauDroit9;
     }
 
@@ -2093,7 +2092,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -2102,7 +2101,7 @@ class Dossier1 {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -2111,7 +2110,7 @@ class Dossier1 {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -2120,7 +2119,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the pas ecriture rb.
      */
-    public function getPasEcritureRb(): ?bool{
+    public function getPasEcritureRb(): ?bool {
         return $this->pasEcritureRb;
     }
 
@@ -2129,7 +2128,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the pas modif rib regl.
      */
-    public function getPasModifRibRegl(): ?bool{
+    public function getPasModifRibRegl(): ?bool {
         return $this->pasModifRibRegl;
     }
 
@@ -2138,7 +2137,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the periode cloturee.
      */
-    public function getPeriodeCloturee(): ?DateTime{
+    public function getPeriodeCloturee(): ?DateTime {
         return $this->periodeCloturee;
     }
 
@@ -2147,7 +2146,7 @@ class Dossier1 {
      *
      * @return DateTime|null Returns the periode validee.
      */
-    public function getPeriodeValidee(): ?DateTime{
+    public function getPeriodeValidee(): ?DateTime {
         return $this->periodeValidee;
     }
 
@@ -2156,17 +2155,8 @@ class Dossier1 {
      *
      * @return int|null Returns the prochain num piece.
      */
-    public function getProchainNumPiece(): ?int{
+    public function getProchainNumPiece(): ?int {
         return $this->prochainNumPiece;
-    }
-
-    /**
-     * Get the rc.
-     *
-     * @return string|null Returns the rc.
-     */
-    public function getRc(): ?string{
-        return $this->rc;
     }
 
     /**
@@ -2174,8 +2164,17 @@ class Dossier1 {
      *
      * @return string|null Returns the raison sociale.
      */
-    public function getRaisonSociale(): ?string{
+    public function getRaisonSociale(): ?string {
         return $this->raisonSociale;
+    }
+
+    /**
+     * Get the rc.
+     *
+     * @return string|null Returns the rc.
+     */
+    public function getRc(): ?string {
+        return $this->rc;
     }
 
     /**
@@ -2183,7 +2182,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the saisie immo en ecriture.
      */
-    public function getSaisieImmoEnEcriture(): ?bool{
+    public function getSaisieImmoEnEcriture(): ?bool {
         return $this->saisieImmoEnEcriture;
     }
 
@@ -2192,7 +2191,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the sauve commun.
      */
-    public function getSauveCommun(): ?bool{
+    public function getSauveCommun(): ?bool {
         return $this->sauveCommun;
     }
 
@@ -2201,7 +2200,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the sauve compresse.
      */
-    public function getSauveCompresse(): ?bool{
+    public function getSauveCompresse(): ?bool {
         return $this->sauveCompresse;
     }
 
@@ -2210,7 +2209,7 @@ class Dossier1 {
      *
      * @return string|null Returns the siret.
      */
-    public function getSiret(): ?string{
+    public function getSiret(): ?string {
         return $this->siret;
     }
 
@@ -2219,7 +2218,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi aff tout.
      */
-    public function getSuiviAffTout(): ?bool{
+    public function getSuiviAffTout(): ?bool {
         return $this->suiviAffTout;
     }
 
@@ -2228,7 +2227,7 @@ class Dossier1 {
      *
      * @return string|null Returns the suivi ana2.
      */
-    public function getSuiviAna2(): ?string{
+    public function getSuiviAna2(): ?string {
         return $this->suiviAna2;
     }
 
@@ -2237,7 +2236,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe0.
      */
-    public function getSuiviAnaClasse0(): ?bool{
+    public function getSuiviAnaClasse0(): ?bool {
         return $this->suiviAnaClasse0;
     }
 
@@ -2246,7 +2245,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe1.
      */
-    public function getSuiviAnaClasse1(): ?bool{
+    public function getSuiviAnaClasse1(): ?bool {
         return $this->suiviAnaClasse1;
     }
 
@@ -2255,7 +2254,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe2.
      */
-    public function getSuiviAnaClasse2(): ?bool{
+    public function getSuiviAnaClasse2(): ?bool {
         return $this->suiviAnaClasse2;
     }
 
@@ -2264,7 +2263,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe3.
      */
-    public function getSuiviAnaClasse3(): ?bool{
+    public function getSuiviAnaClasse3(): ?bool {
         return $this->suiviAnaClasse3;
     }
 
@@ -2273,7 +2272,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe4.
      */
-    public function getSuiviAnaClasse4(): ?bool{
+    public function getSuiviAnaClasse4(): ?bool {
         return $this->suiviAnaClasse4;
     }
 
@@ -2282,7 +2281,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe5.
      */
-    public function getSuiviAnaClasse5(): ?bool{
+    public function getSuiviAnaClasse5(): ?bool {
         return $this->suiviAnaClasse5;
     }
 
@@ -2291,7 +2290,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe8.
      */
-    public function getSuiviAnaClasse8(): ?bool{
+    public function getSuiviAnaClasse8(): ?bool {
         return $this->suiviAnaClasse8;
     }
 
@@ -2300,7 +2299,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana classe9.
      */
-    public function getSuiviAnaClasse9(): ?bool{
+    public function getSuiviAnaClasse9(): ?bool {
         return $this->suiviAnaClasse9;
     }
 
@@ -2309,7 +2308,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the suivi ana facultatif.
      */
-    public function getSuiviAnaFacultatif(): ?bool{
+    public function getSuiviAnaFacultatif(): ?bool {
         return $this->suiviAnaFacultatif;
     }
 
@@ -2318,7 +2317,7 @@ class Dossier1 {
      *
      * @return string|null Returns the tva cle.
      */
-    public function getTvaCle(): ?string{
+    public function getTvaCle(): ?string {
         return $this->tvaCle;
     }
 
@@ -2327,7 +2326,7 @@ class Dossier1 {
      *
      * @return string|null Returns the tva code dossier.
      */
-    public function getTvaCodeDossier(): ?string{
+    public function getTvaCodeDossier(): ?string {
         return $this->tvaCodeDossier;
     }
 
@@ -2336,7 +2335,7 @@ class Dossier1 {
      *
      * @return string|null Returns the tva code recette.
      */
-    public function getTvaCodeRecette(): ?string{
+    public function getTvaCodeRecette(): ?string {
         return $this->tvaCodeRecette;
     }
 
@@ -2345,7 +2344,7 @@ class Dossier1 {
      *
      * @return bool|null Returns the ventilations communes.
      */
-    public function getVentilationsCommunes(): ?bool{
+    public function getVentilationsCommunes(): ?bool {
         return $this->ventilationsCommunes;
     }
 
@@ -2801,17 +2800,6 @@ class Dossier1 {
     }
 
     /**
-     * Set the dlu.
-     *
-     * @param string|null $dlu The dlu.
-     * @return Dossier1 Returns this Dossier1.
-     */
-    public function setDlu(?string $dlu): Dossier1 {
-        $this->dlu = $dlu;
-        return $this;
-    }
-
-    /**
      * Set the date limite saisie.
      *
      * @param DateTime|null $dateLimiteSaisie The date limite saisie.
@@ -2896,6 +2884,17 @@ class Dossier1 {
      */
     public function setDelaiLimiteSaisie(?int $delaiLimiteSaisie): Dossier1 {
         $this->delaiLimiteSaisie = $delaiLimiteSaisie;
+        return $this;
+    }
+
+    /**
+     * Set the dlu.
+     *
+     * @param string|null $dlu The dlu.
+     * @return Dossier1 Returns this Dossier1.
+     */
+    public function setDlu(?string $dlu): Dossier1 {
+        $this->dlu = $dlu;
         return $this;
     }
 
@@ -3714,17 +3713,6 @@ class Dossier1 {
     }
 
     /**
-     * Set the rc.
-     *
-     * @param string|null $rc The rc.
-     * @return Dossier1 Returns this Dossier1.
-     */
-    public function setRc(?string $rc): Dossier1 {
-        $this->rc = $rc;
-        return $this;
-    }
-
-    /**
      * Set the raison sociale.
      *
      * @param string|null $raisonSociale The raison sociale.
@@ -3732,6 +3720,17 @@ class Dossier1 {
      */
     public function setRaisonSociale(?string $raisonSociale): Dossier1 {
         $this->raisonSociale = $raisonSociale;
+        return $this;
+    }
+
+    /**
+     * Set the rc.
+     *
+     * @param string|null $rc The rc.
+     * @return Dossier1 Returns this Dossier1.
+     */
+    public function setRc(?string $rc): Dossier1 {
+        $this->rc = $rc;
         return $this;
     }
 

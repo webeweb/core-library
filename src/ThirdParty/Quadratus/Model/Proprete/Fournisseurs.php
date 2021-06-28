@@ -372,13 +372,6 @@ class Fournisseurs {
     private $portable2;
 
     /**
-     * Rib.
-     *
-     * @var string|null
-     */
-    private $rib;
-
-    /**
      * Rc.
      *
      * @var string|null
@@ -435,6 +428,13 @@ class Fournisseurs {
     private $remisePied3;
 
     /**
+     * Rib.
+     *
+     * @var string|null
+     */
+    private $rib;
+
+    /**
      * Siret.
      *
      * @var string|null
@@ -461,34 +461,6 @@ class Fournisseurs {
      * @var bool|null
      */
     private $soumisTaxe3;
-
-    /**
-     * Tva cle.
-     *
-     * @var string|null
-     */
-    private $tvaCle;
-
-    /**
-     * Tva code dossier.
-     *
-     * @var string|null
-     */
-    private $tvaCodeDossier;
-
-    /**
-     * Tva code recette.
-     *
-     * @var string|null
-     */
-    private $tvaCodeRecette;
-
-    /**
-     * Tva regime.
-     *
-     * @var int|null
-     */
-    private $tvaRegime;
 
     /**
      * Tel1.
@@ -526,12 +498,39 @@ class Fournisseurs {
     private $transporteur;
 
     /**
+     * Tva cle.
+     *
+     * @var string|null
+     */
+    private $tvaCle;
+
+    /**
+     * Tva code dossier.
+     *
+     * @var string|null
+     */
+    private $tvaCodeDossier;
+
+    /**
+     * Tva code recette.
+     *
+     * @var string|null
+     */
+    private $tvaCodeRecette;
+
+    /**
+     * Tva regime.
+     *
+     * @var int|null
+     */
+    private $tvaRegime;
+
+    /**
      * Tx escompte achat.
      *
      * @var float|null
      */
     private $txEscompteAchat;
-
 
     /**
      * Constructor.
@@ -545,7 +544,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the ape.
      */
-    public function getApe(): ?string{
+    public function getApe(): ?string {
         return $this->ape;
     }
 
@@ -554,7 +553,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -563,7 +562,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the bureau distributeur.
      */
-    public function getBureauDistributeur(): ?string{
+    public function getBureauDistributeur(): ?string {
         return $this->bureauDistributeur;
     }
 
@@ -572,7 +571,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -581,7 +580,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -590,7 +589,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code famille.
      */
-    public function getCodeFamille(): ?string{
+    public function getCodeFamille(): ?string {
         return $this->codeFamille;
     }
 
@@ -599,7 +598,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code imputation analytique.
      */
-    public function getCodeImputationAnalytique(): ?string{
+    public function getCodeImputationAnalytique(): ?string {
         return $this->codeImputationAnalytique;
     }
 
@@ -608,7 +607,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code langue designation article.
      */
-    public function getCodeLangueDesignationArticle(): ?string{
+    public function getCodeLangueDesignationArticle(): ?string {
         return $this->codeLangueDesignationArticle;
     }
 
@@ -617,7 +616,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code officiel commune.
      */
-    public function getCodeOfficielCommune(): ?string{
+    public function getCodeOfficielCommune(): ?string {
         return $this->codeOfficielCommune;
     }
 
@@ -626,7 +625,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -635,7 +634,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -644,7 +643,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code reglement.
      */
-    public function getCodeReglement(): ?string{
+    public function getCodeReglement(): ?string {
         return $this->codeReglement;
     }
 
@@ -653,7 +652,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code sous famille.
      */
-    public function getCodeSousFamille(): ?string{
+    public function getCodeSousFamille(): ?string {
         return $this->codeSousFamille;
     }
 
@@ -662,7 +661,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -671,7 +670,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code tva1.
      */
-    public function getCodeTva1(): ?string{
+    public function getCodeTva1(): ?string {
         return $this->codeTva1;
     }
 
@@ -680,7 +679,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code tva2.
      */
-    public function getCodeTva2(): ?string{
+    public function getCodeTva2(): ?string {
         return $this->codeTva2;
     }
 
@@ -689,7 +688,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the code ventil compta.
      */
-    public function getCodeVentilCompta(): ?string{
+    public function getCodeVentilCompta(): ?string {
         return $this->codeVentilCompta;
     }
 
@@ -698,7 +697,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the collectif.
      */
-    public function getCollectif(): ?string{
+    public function getCollectif(): ?string {
         return $this->collectif;
     }
 
@@ -707,7 +706,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the commentaires.
      */
-    public function getCommentaires(): ?string{
+    public function getCommentaires(): ?string {
         return $this->commentaires;
     }
 
@@ -716,7 +715,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -725,7 +724,7 @@ class Fournisseurs {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -734,7 +733,7 @@ class Fournisseurs {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -743,7 +742,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the delai le.
      */
-    public function getDelaiLe(): ?int{
+    public function getDelaiLe(): ?int {
         return $this->delaiLe;
     }
 
@@ -752,7 +751,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the delai nombre.
      */
-    public function getDelaiNombre(): ?int{
+    public function getDelaiNombre(): ?int {
         return $this->delaiNombre;
     }
 
@@ -761,7 +760,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the delai type.
      */
-    public function getDelaiType(): ?int{
+    public function getDelaiType(): ?int {
         return $this->delaiType;
     }
 
@@ -770,7 +769,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the domiciliation bancaire1.
      */
-    public function getDomiciliationBancaire1(): ?string{
+    public function getDomiciliationBancaire1(): ?string {
         return $this->domiciliationBancaire1;
     }
 
@@ -779,7 +778,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the domiciliation bancaire2.
      */
-    public function getDomiciliationBancaire2(): ?string{
+    public function getDomiciliationBancaire2(): ?string {
         return $this->domiciliationBancaire2;
     }
 
@@ -788,7 +787,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the email.
      */
-    public function getEmail(): ?string{
+    public function getEmail(): ?string {
         return $this->email;
     }
 
@@ -797,7 +796,7 @@ class Fournisseurs {
      *
      * @return bool|null Returns the facture euros.
      */
-    public function getFactureEuros(): ?bool{
+    public function getFactureEuros(): ?bool {
         return $this->factureEuros;
     }
 
@@ -806,7 +805,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the fax.
      */
-    public function getFax(): ?string{
+    public function getFax(): ?string {
         return $this->fax;
     }
 
@@ -815,7 +814,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the frais fixes1.
      */
-    public function getFraisFixes1(): ?float{
+    public function getFraisFixes1(): ?float {
         return $this->fraisFixes1;
     }
 
@@ -824,7 +823,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the frais fixes2.
      */
-    public function getFraisFixes2(): ?float{
+    public function getFraisFixes2(): ?float {
         return $this->fraisFixes2;
     }
 
@@ -833,7 +832,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the frais fixes3.
      */
-    public function getFraisFixes3(): ?float{
+    public function getFraisFixes3(): ?float {
         return $this->fraisFixes3;
     }
 
@@ -842,7 +841,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the ident tva.
      */
-    public function getIdentTva(): ?string{
+    public function getIdentTva(): ?string {
         return $this->identTva;
     }
 
@@ -851,7 +850,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the montant acompte.
      */
-    public function getMontantAcompte(): ?float{
+    public function getMontantAcompte(): ?float {
         return $this->montantAcompte;
     }
 
@@ -860,7 +859,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the nb colis.
      */
-    public function getNbColis(): ?int{
+    public function getNbColis(): ?int {
         return $this->nbColis;
     }
 
@@ -869,7 +868,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the nom.
      */
-    public function getNom(): ?string{
+    public function getNom(): ?string {
         return $this->nom;
     }
 
@@ -878,7 +877,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the nom responsable.
      */
-    public function getNomResponsable(): ?string{
+    public function getNomResponsable(): ?string {
         return $this->nomResponsable;
     }
 
@@ -887,7 +886,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the nom suite.
      */
-    public function getNomSuite(): ?string{
+    public function getNomSuite(): ?string {
         return $this->nomSuite;
     }
 
@@ -896,7 +895,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the nom ville.
      */
-    public function getNomVille(): ?string{
+    public function getNomVille(): ?string {
         return $this->nomVille;
     }
 
@@ -905,7 +904,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -914,7 +913,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the nombre echeances.
      */
-    public function getNombreEcheances(): ?int{
+    public function getNombreEcheances(): ?int {
         return $this->nombreEcheances;
     }
 
@@ -923,7 +922,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -932,7 +931,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -941,7 +940,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the paiement depart le.
      */
-    public function getPaiementDepartLe(): ?int{
+    public function getPaiementDepartLe(): ?int {
         return $this->paiementDepartLe;
     }
 
@@ -950,7 +949,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the paiement le.
      */
-    public function getPaiementLe(): ?int{
+    public function getPaiementLe(): ?int {
         return $this->paiementLe;
     }
 
@@ -959,7 +958,7 @@ class Fournisseurs {
      *
      * @return int|null Returns the paiement nombre de jours.
      */
-    public function getPaiementNombreDeJours(): ?int{
+    public function getPaiementNombreDeJours(): ?int {
         return $this->paiementNombreDeJours;
     }
 
@@ -968,7 +967,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the poids.
      */
-    public function getPoids(): ?float{
+    public function getPoids(): ?float {
         return $this->poids;
     }
 
@@ -977,7 +976,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the portable1.
      */
-    public function getPortable1(): ?string{
+    public function getPortable1(): ?string {
         return $this->portable1;
     }
 
@@ -986,17 +985,8 @@ class Fournisseurs {
      *
      * @return string|null Returns the portable2.
      */
-    public function getPortable2(): ?string{
+    public function getPortable2(): ?string {
         return $this->portable2;
-    }
-
-    /**
-     * Get the rib.
-     *
-     * @return string|null Returns the rib.
-     */
-    public function getRib(): ?string{
-        return $this->rib;
     }
 
     /**
@@ -1004,7 +994,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the rc.
      */
-    public function getRc(): ?string{
+    public function getRc(): ?string {
         return $this->rc;
     }
 
@@ -1013,7 +1003,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the reference client.
      */
-    public function getReferenceClient(): ?string{
+    public function getReferenceClient(): ?string {
         return $this->referenceClient;
     }
 
@@ -1022,7 +1012,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the remise ligne1.
      */
-    public function getRemiseLigne1(): ?float{
+    public function getRemiseLigne1(): ?float {
         return $this->remiseLigne1;
     }
 
@@ -1031,7 +1021,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the remise ligne2.
      */
-    public function getRemiseLigne2(): ?float{
+    public function getRemiseLigne2(): ?float {
         return $this->remiseLigne2;
     }
 
@@ -1040,7 +1030,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the remise ligne3.
      */
-    public function getRemiseLigne3(): ?float{
+    public function getRemiseLigne3(): ?float {
         return $this->remiseLigne3;
     }
 
@@ -1049,7 +1039,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the remise pied.
      */
-    public function getRemisePied(): ?float{
+    public function getRemisePied(): ?float {
         return $this->remisePied;
     }
 
@@ -1058,7 +1048,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the remise pied2.
      */
-    public function getRemisePied2(): ?float{
+    public function getRemisePied2(): ?float {
         return $this->remisePied2;
     }
 
@@ -1067,8 +1057,17 @@ class Fournisseurs {
      *
      * @return float|null Returns the remise pied3.
      */
-    public function getRemisePied3(): ?float{
+    public function getRemisePied3(): ?float {
         return $this->remisePied3;
+    }
+
+    /**
+     * Get the rib.
+     *
+     * @return string|null Returns the rib.
+     */
+    public function getRib(): ?string {
+        return $this->rib;
     }
 
     /**
@@ -1076,7 +1075,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the siret.
      */
-    public function getSiret(): ?string{
+    public function getSiret(): ?string {
         return $this->siret;
     }
 
@@ -1085,7 +1084,7 @@ class Fournisseurs {
      *
      * @return bool|null Returns the soumis taxe1.
      */
-    public function getSoumisTaxe1(): ?bool{
+    public function getSoumisTaxe1(): ?bool {
         return $this->soumisTaxe1;
     }
 
@@ -1094,7 +1093,7 @@ class Fournisseurs {
      *
      * @return bool|null Returns the soumis taxe2.
      */
-    public function getSoumisTaxe2(): ?bool{
+    public function getSoumisTaxe2(): ?bool {
         return $this->soumisTaxe2;
     }
 
@@ -1103,44 +1102,8 @@ class Fournisseurs {
      *
      * @return bool|null Returns the soumis taxe3.
      */
-    public function getSoumisTaxe3(): ?bool{
+    public function getSoumisTaxe3(): ?bool {
         return $this->soumisTaxe3;
-    }
-
-    /**
-     * Get the tva cle.
-     *
-     * @return string|null Returns the tva cle.
-     */
-    public function getTvaCle(): ?string{
-        return $this->tvaCle;
-    }
-
-    /**
-     * Get the tva code dossier.
-     *
-     * @return string|null Returns the tva code dossier.
-     */
-    public function getTvaCodeDossier(): ?string{
-        return $this->tvaCodeDossier;
-    }
-
-    /**
-     * Get the tva code recette.
-     *
-     * @return string|null Returns the tva code recette.
-     */
-    public function getTvaCodeRecette(): ?string{
-        return $this->tvaCodeRecette;
-    }
-
-    /**
-     * Get the tva regime.
-     *
-     * @return int|null Returns the tva regime.
-     */
-    public function getTvaRegime(): ?int{
-        return $this->tvaRegime;
     }
 
     /**
@@ -1148,7 +1111,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -1157,7 +1120,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the tel2.
      */
-    public function getTel2(): ?string{
+    public function getTel2(): ?string {
         return $this->tel2;
     }
 
@@ -1166,7 +1129,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the tel voiture.
      */
-    public function getTelVoiture(): ?string{
+    public function getTelVoiture(): ?string {
         return $this->telVoiture;
     }
 
@@ -1175,7 +1138,7 @@ class Fournisseurs {
      *
      * @return string|null Returns the telex.
      */
-    public function getTelex(): ?string{
+    public function getTelex(): ?string {
         return $this->telex;
     }
 
@@ -1184,8 +1147,44 @@ class Fournisseurs {
      *
      * @return string|null Returns the transporteur.
      */
-    public function getTransporteur(): ?string{
+    public function getTransporteur(): ?string {
         return $this->transporteur;
+    }
+
+    /**
+     * Get the tva cle.
+     *
+     * @return string|null Returns the tva cle.
+     */
+    public function getTvaCle(): ?string {
+        return $this->tvaCle;
+    }
+
+    /**
+     * Get the tva code dossier.
+     *
+     * @return string|null Returns the tva code dossier.
+     */
+    public function getTvaCodeDossier(): ?string {
+        return $this->tvaCodeDossier;
+    }
+
+    /**
+     * Get the tva code recette.
+     *
+     * @return string|null Returns the tva code recette.
+     */
+    public function getTvaCodeRecette(): ?string {
+        return $this->tvaCodeRecette;
+    }
+
+    /**
+     * Get the tva regime.
+     *
+     * @return int|null Returns the tva regime.
+     */
+    public function getTvaRegime(): ?int {
+        return $this->tvaRegime;
     }
 
     /**
@@ -1193,7 +1192,7 @@ class Fournisseurs {
      *
      * @return float|null Returns the tx escompte achat.
      */
-    public function getTxEscompteAchat(): ?float{
+    public function getTxEscompteAchat(): ?float {
         return $this->txEscompteAchat;
     }
 
@@ -1748,17 +1747,6 @@ class Fournisseurs {
     }
 
     /**
-     * Set the rib.
-     *
-     * @param string|null $rib The rib.
-     * @return Fournisseurs Returns this Fournisseurs.
-     */
-    public function setRib(?string $rib): Fournisseurs {
-        $this->rib = $rib;
-        return $this;
-    }
-
-    /**
      * Set the rc.
      *
      * @param string|null $rc The rc.
@@ -1847,6 +1835,17 @@ class Fournisseurs {
     }
 
     /**
+     * Set the rib.
+     *
+     * @param string|null $rib The rib.
+     * @return Fournisseurs Returns this Fournisseurs.
+     */
+    public function setRib(?string $rib): Fournisseurs {
+        $this->rib = $rib;
+        return $this;
+    }
+
+    /**
      * Set the siret.
      *
      * @param string|null $siret The siret.
@@ -1887,50 +1886,6 @@ class Fournisseurs {
      */
     public function setSoumisTaxe3(?bool $soumisTaxe3): Fournisseurs {
         $this->soumisTaxe3 = $soumisTaxe3;
-        return $this;
-    }
-
-    /**
-     * Set the tva cle.
-     *
-     * @param string|null $tvaCle The tva cle.
-     * @return Fournisseurs Returns this Fournisseurs.
-     */
-    public function setTvaCle(?string $tvaCle): Fournisseurs {
-        $this->tvaCle = $tvaCle;
-        return $this;
-    }
-
-    /**
-     * Set the tva code dossier.
-     *
-     * @param string|null $tvaCodeDossier The tva code dossier.
-     * @return Fournisseurs Returns this Fournisseurs.
-     */
-    public function setTvaCodeDossier(?string $tvaCodeDossier): Fournisseurs {
-        $this->tvaCodeDossier = $tvaCodeDossier;
-        return $this;
-    }
-
-    /**
-     * Set the tva code recette.
-     *
-     * @param string|null $tvaCodeRecette The tva code recette.
-     * @return Fournisseurs Returns this Fournisseurs.
-     */
-    public function setTvaCodeRecette(?string $tvaCodeRecette): Fournisseurs {
-        $this->tvaCodeRecette = $tvaCodeRecette;
-        return $this;
-    }
-
-    /**
-     * Set the tva regime.
-     *
-     * @param int|null $tvaRegime The tva regime.
-     * @return Fournisseurs Returns this Fournisseurs.
-     */
-    public function setTvaRegime(?int $tvaRegime): Fournisseurs {
-        $this->tvaRegime = $tvaRegime;
         return $this;
     }
 
@@ -1986,6 +1941,50 @@ class Fournisseurs {
      */
     public function setTransporteur(?string $transporteur): Fournisseurs {
         $this->transporteur = $transporteur;
+        return $this;
+    }
+
+    /**
+     * Set the tva cle.
+     *
+     * @param string|null $tvaCle The tva cle.
+     * @return Fournisseurs Returns this Fournisseurs.
+     */
+    public function setTvaCle(?string $tvaCle): Fournisseurs {
+        $this->tvaCle = $tvaCle;
+        return $this;
+    }
+
+    /**
+     * Set the tva code dossier.
+     *
+     * @param string|null $tvaCodeDossier The tva code dossier.
+     * @return Fournisseurs Returns this Fournisseurs.
+     */
+    public function setTvaCodeDossier(?string $tvaCodeDossier): Fournisseurs {
+        $this->tvaCodeDossier = $tvaCodeDossier;
+        return $this;
+    }
+
+    /**
+     * Set the tva code recette.
+     *
+     * @param string|null $tvaCodeRecette The tva code recette.
+     * @return Fournisseurs Returns this Fournisseurs.
+     */
+    public function setTvaCodeRecette(?string $tvaCodeRecette): Fournisseurs {
+        $this->tvaCodeRecette = $tvaCodeRecette;
+        return $this;
+    }
+
+    /**
+     * Set the tva regime.
+     *
+     * @param int|null $tvaRegime The tva regime.
+     * @return Fournisseurs Returns this Fournisseurs.
+     */
+    public function setTvaRegime(?int $tvaRegime): Fournisseurs {
+        $this->tvaRegime = $tvaRegime;
         return $this;
     }
 

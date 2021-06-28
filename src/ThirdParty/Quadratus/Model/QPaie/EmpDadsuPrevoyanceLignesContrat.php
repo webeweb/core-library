@@ -61,7 +61,6 @@ class EmpDadsuPrevoyanceLignesContrat {
      */
     private $refContrat;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code option.
      */
-    public function getCodeOption(): ?string{
+    public function getCodeOption(): ?string {
         return $this->codeOption;
     }
 
@@ -83,7 +82,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -92,7 +91,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code population.
      */
-    public function getCodePopulation(): ?string{
+    public function getCodePopulation(): ?string {
         return $this->codePopulation;
     }
 
@@ -101,7 +100,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the nb enfants.
      */
-    public function getNbEnfants(): ?string{
+    public function getNbEnfants(): ?string {
         return $this->nbEnfants;
     }
 
@@ -110,7 +109,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -119,7 +118,7 @@ class EmpDadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 

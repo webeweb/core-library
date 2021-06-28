@@ -89,7 +89,6 @@ class PaiementsEdi {
      */
     private $rib;
 
-
     /**
      * Constructor.
      */
@@ -102,7 +101,7 @@ class PaiementsEdi {
      *
      * @return string|null Returns the bic.
      */
-    public function getBic(): ?string{
+    public function getBic(): ?string {
         return $this->bic;
     }
 
@@ -111,7 +110,7 @@ class PaiementsEdi {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -120,7 +119,7 @@ class PaiementsEdi {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -129,7 +128,7 @@ class PaiementsEdi {
      *
      * @return string|null Returns the dom banque.
      */
-    public function getDomBanque(): ?string{
+    public function getDomBanque(): ?string {
         return $this->domBanque;
     }
 
@@ -138,7 +137,7 @@ class PaiementsEdi {
      *
      * @return bool|null Returns the generer coupon paiement.
      */
-    public function getGenererCouponPaiement(): ?bool{
+    public function getGenererCouponPaiement(): ?bool {
         return $this->genererCouponPaiement;
     }
 
@@ -147,7 +146,7 @@ class PaiementsEdi {
      *
      * @return string|null Returns the iban.
      */
-    public function getIban(): ?string{
+    public function getIban(): ?string {
         return $this->iban;
     }
 
@@ -156,7 +155,7 @@ class PaiementsEdi {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -165,7 +164,7 @@ class PaiementsEdi {
      *
      * @return float|null Returns the montant ducs annuelle.
      */
-    public function getMontantDucsAnnuelle(): ?float{
+    public function getMontantDucsAnnuelle(): ?float {
         return $this->montantDucsAnnuelle;
     }
 
@@ -174,7 +173,7 @@ class PaiementsEdi {
      *
      * @return string|null Returns the moyen paiement.
      */
-    public function getMoyenPaiement(): ?string{
+    public function getMoyenPaiement(): ?string {
         return $this->moyenPaiement;
     }
 
@@ -183,7 +182,7 @@ class PaiementsEdi {
      *
      * @return string|null Returns the rib.
      */
-    public function getRib(): ?string{
+    public function getRib(): ?string {
         return $this->rib;
     }
 

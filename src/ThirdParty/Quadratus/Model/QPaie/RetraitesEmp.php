@@ -61,7 +61,6 @@ class RetraitesEmp {
      */
     private $typeOrga;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class RetraitesEmp {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -83,7 +82,7 @@ class RetraitesEmp {
      *
      * @return string|null Returns the id institution.
      */
-    public function getIdInstitution(): ?string{
+    public function getIdInstitution(): ?string {
         return $this->idInstitution;
     }
 
@@ -92,7 +91,7 @@ class RetraitesEmp {
      *
      * @return int|null Returns the indice contrat.
      */
-    public function getIndiceContrat(): ?int{
+    public function getIndiceContrat(): ?int {
         return $this->indiceContrat;
     }
 
@@ -101,7 +100,7 @@ class RetraitesEmp {
      *
      * @return bool|null Returns the non gere.
      */
-    public function getNonGere(): ?bool{
+    public function getNonGere(): ?bool {
         return $this->nonGere;
     }
 
@@ -110,7 +109,7 @@ class RetraitesEmp {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -119,7 +118,7 @@ class RetraitesEmp {
      *
      * @return string|null Returns the type orga.
      */
-    public function getTypeOrga(): ?string{
+    public function getTypeOrga(): ?string {
         return $this->typeOrga;
     }
 

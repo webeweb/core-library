@@ -40,7 +40,6 @@ class RepartitionActivite {
      */
     private $tauxVentilation;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class RepartitionActivite {
      *
      * @return string|null Returns the code service.
      */
-    public function getCodeService(): ?string{
+    public function getCodeService(): ?string {
         return $this->codeService;
     }
 
@@ -62,7 +61,7 @@ class RepartitionActivite {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -71,7 +70,7 @@ class RepartitionActivite {
      *
      * @return float|null Returns the taux ventilation.
      */
-    public function getTauxVentilation(): ?float{
+    public function getTauxVentilation(): ?float {
         return $this->tauxVentilation;
     }
 

@@ -215,7 +215,6 @@ class AttestationFiscale {
      */
     private $montantTtc;
 
-
     /**
      * Constructor.
      */
@@ -228,7 +227,7 @@ class AttestationFiscale {
      *
      * @return int|null Returns the annee.
      */
-    public function getAnnee(): ?int{
+    public function getAnnee(): ?int {
         return $this->annee;
     }
 
@@ -237,7 +236,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article1.
      */
-    public function getCodeArticle1(): ?string{
+    public function getCodeArticle1(): ?string {
         return $this->codeArticle1;
     }
 
@@ -246,7 +245,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article10.
      */
-    public function getCodeArticle10(): ?string{
+    public function getCodeArticle10(): ?string {
         return $this->codeArticle10;
     }
 
@@ -255,7 +254,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article2.
      */
-    public function getCodeArticle2(): ?string{
+    public function getCodeArticle2(): ?string {
         return $this->codeArticle2;
     }
 
@@ -264,7 +263,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article3.
      */
-    public function getCodeArticle3(): ?string{
+    public function getCodeArticle3(): ?string {
         return $this->codeArticle3;
     }
 
@@ -273,7 +272,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article4.
      */
-    public function getCodeArticle4(): ?string{
+    public function getCodeArticle4(): ?string {
         return $this->codeArticle4;
     }
 
@@ -282,7 +281,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article5.
      */
-    public function getCodeArticle5(): ?string{
+    public function getCodeArticle5(): ?string {
         return $this->codeArticle5;
     }
 
@@ -291,7 +290,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article6.
      */
-    public function getCodeArticle6(): ?string{
+    public function getCodeArticle6(): ?string {
         return $this->codeArticle6;
     }
 
@@ -300,7 +299,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article7.
      */
-    public function getCodeArticle7(): ?string{
+    public function getCodeArticle7(): ?string {
         return $this->codeArticle7;
     }
 
@@ -309,7 +308,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article8.
      */
-    public function getCodeArticle8(): ?string{
+    public function getCodeArticle8(): ?string {
         return $this->codeArticle8;
     }
 
@@ -318,7 +317,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code article9.
      */
-    public function getCodeArticle9(): ?string{
+    public function getCodeArticle9(): ?string {
         return $this->codeArticle9;
     }
 
@@ -327,7 +326,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -336,7 +335,7 @@ class AttestationFiscale {
      *
      * @return float|null Returns the duree annuelle.
      */
-    public function getDureeAnnuelle(): ?float{
+    public function getDureeAnnuelle(): ?float {
         return $this->dureeAnnuelle;
     }
 
@@ -345,7 +344,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -354,7 +353,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille1.
      */
-    public function getFamille1(): ?string{
+    public function getFamille1(): ?string {
         return $this->famille1;
     }
 
@@ -363,7 +362,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille10.
      */
-    public function getFamille10(): ?string{
+    public function getFamille10(): ?string {
         return $this->famille10;
     }
 
@@ -372,7 +371,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille2.
      */
-    public function getFamille2(): ?string{
+    public function getFamille2(): ?string {
         return $this->famille2;
     }
 
@@ -381,7 +380,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille3.
      */
-    public function getFamille3(): ?string{
+    public function getFamille3(): ?string {
         return $this->famille3;
     }
 
@@ -390,7 +389,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille4.
      */
-    public function getFamille4(): ?string{
+    public function getFamille4(): ?string {
         return $this->famille4;
     }
 
@@ -399,7 +398,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille5.
      */
-    public function getFamille5(): ?string{
+    public function getFamille5(): ?string {
         return $this->famille5;
     }
 
@@ -408,7 +407,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille6.
      */
-    public function getFamille6(): ?string{
+    public function getFamille6(): ?string {
         return $this->famille6;
     }
 
@@ -417,7 +416,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille7.
      */
-    public function getFamille7(): ?string{
+    public function getFamille7(): ?string {
         return $this->famille7;
     }
 
@@ -426,7 +425,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille8.
      */
-    public function getFamille8(): ?string{
+    public function getFamille8(): ?string {
         return $this->famille8;
     }
 
@@ -435,7 +434,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the famille9.
      */
-    public function getFamille9(): ?string{
+    public function getFamille9(): ?string {
         return $this->famille9;
     }
 
@@ -444,7 +443,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -453,7 +452,7 @@ class AttestationFiscale {
      *
      * @return string|null Returns the mode reglement.
      */
-    public function getModeReglement(): ?string{
+    public function getModeReglement(): ?string {
         return $this->modeReglement;
     }
 
@@ -462,7 +461,7 @@ class AttestationFiscale {
      *
      * @return float|null Returns the montant tes.
      */
-    public function getMontantTes(): ?float{
+    public function getMontantTes(): ?float {
         return $this->montantTes;
     }
 
@@ -471,7 +470,7 @@ class AttestationFiscale {
      *
      * @return float|null Returns the montant ttc.
      */
-    public function getMontantTtc(): ?float{
+    public function getMontantTtc(): ?float {
         return $this->montantTtc;
     }
 

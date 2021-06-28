@@ -82,7 +82,6 @@ class AffectationAna3 {
      */
     private $sens;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class AffectationAna3 {
      *
      * @return string|null Returns the annee recolte.
      */
-    public function getAnneeRecolte(): ?string{
+    public function getAnneeRecolte(): ?string {
         return $this->anneeRecolte;
     }
 
@@ -104,7 +103,7 @@ class AffectationAna3 {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -113,7 +112,7 @@ class AffectationAna3 {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -122,7 +121,7 @@ class AffectationAna3 {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -131,7 +130,7 @@ class AffectationAna3 {
      *
      * @return string|null Returns the num compte.
      */
-    public function getNumCompte(): ?string{
+    public function getNumCompte(): ?string {
         return $this->numCompte;
     }
 
@@ -140,7 +139,7 @@ class AffectationAna3 {
      *
      * @return float|null Returns the pourcentage.
      */
-    public function getPourcentage(): ?float{
+    public function getPourcentage(): ?float {
         return $this->pourcentage;
     }
 
@@ -149,7 +148,7 @@ class AffectationAna3 {
      *
      * @return float|null Returns the quantite1.
      */
-    public function getQuantite1(): ?float{
+    public function getQuantite1(): ?float {
         return $this->quantite1;
     }
 
@@ -158,7 +157,7 @@ class AffectationAna3 {
      *
      * @return float|null Returns the quantite2.
      */
-    public function getQuantite2(): ?float{
+    public function getQuantite2(): ?float {
         return $this->quantite2;
     }
 
@@ -167,7 +166,7 @@ class AffectationAna3 {
      *
      * @return string|null Returns the sens.
      */
-    public function getSens(): ?string{
+    public function getSens(): ?string {
         return $this->sens;
     }
 

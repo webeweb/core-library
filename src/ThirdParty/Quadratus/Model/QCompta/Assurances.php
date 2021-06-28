@@ -189,7 +189,6 @@ class Assurances {
      */
     private $uniteDuree;
 
-
     /**
      * Constructor.
      */
@@ -202,7 +201,7 @@ class Assurances {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -211,7 +210,7 @@ class Assurances {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -220,7 +219,7 @@ class Assurances {
      *
      * @return string|null Returns the compagnie.
      */
-    public function getCompagnie(): ?string{
+    public function getCompagnie(): ?string {
         return $this->compagnie;
     }
 
@@ -229,7 +228,7 @@ class Assurances {
      *
      * @return string|null Returns the courtier.
      */
-    public function getCourtier(): ?string{
+    public function getCourtier(): ?string {
         return $this->courtier;
     }
 
@@ -238,7 +237,7 @@ class Assurances {
      *
      * @return string|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?string{
+    public function getDateEcheance(): ?string {
         return $this->dateEcheance;
     }
 
@@ -247,7 +246,7 @@ class Assurances {
      *
      * @return DateTime|null Returns the date initiale.
      */
-    public function getDateInitiale(): ?DateTime{
+    public function getDateInitiale(): ?DateTime {
         return $this->dateInitiale;
     }
 
@@ -256,7 +255,7 @@ class Assurances {
      *
      * @return DateTime|null Returns the date signature1.
      */
-    public function getDateSignature1(): ?DateTime{
+    public function getDateSignature1(): ?DateTime {
         return $this->dateSignature1;
     }
 
@@ -265,7 +264,7 @@ class Assurances {
      *
      * @return DateTime|null Returns the date signature2.
      */
-    public function getDateSignature2(): ?DateTime{
+    public function getDateSignature2(): ?DateTime {
         return $this->dateSignature2;
     }
 
@@ -274,7 +273,7 @@ class Assurances {
      *
      * @return DateTime|null Returns the date signature3.
      */
-    public function getDateSignature3(): ?DateTime{
+    public function getDateSignature3(): ?DateTime {
         return $this->dateSignature3;
     }
 
@@ -283,7 +282,7 @@ class Assurances {
      *
      * @return DateTime|null Returns the date signature4.
      */
-    public function getDateSignature4(): ?DateTime{
+    public function getDateSignature4(): ?DateTime {
         return $this->dateSignature4;
     }
 
@@ -292,7 +291,7 @@ class Assurances {
      *
      * @return DateTime|null Returns the date signature5.
      */
-    public function getDateSignature5(): ?DateTime{
+    public function getDateSignature5(): ?DateTime {
         return $this->dateSignature5;
     }
 
@@ -301,7 +300,7 @@ class Assurances {
      *
      * @return int|null Returns the duree.
      */
-    public function getDuree(): ?int{
+    public function getDuree(): ?int {
         return $this->duree;
     }
 
@@ -310,7 +309,7 @@ class Assurances {
      *
      * @return int|null Returns the duree preavis.
      */
-    public function getDureePreavis(): ?int{
+    public function getDureePreavis(): ?int {
         return $this->dureePreavis;
     }
 
@@ -319,7 +318,7 @@ class Assurances {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -328,7 +327,7 @@ class Assurances {
      *
      * @return float|null Returns the montant annuel1.
      */
-    public function getMontantAnnuel1(): ?float{
+    public function getMontantAnnuel1(): ?float {
         return $this->montantAnnuel1;
     }
 
@@ -337,7 +336,7 @@ class Assurances {
      *
      * @return float|null Returns the montant annuel2.
      */
-    public function getMontantAnnuel2(): ?float{
+    public function getMontantAnnuel2(): ?float {
         return $this->montantAnnuel2;
     }
 
@@ -346,7 +345,7 @@ class Assurances {
      *
      * @return float|null Returns the montant annuel3.
      */
-    public function getMontantAnnuel3(): ?float{
+    public function getMontantAnnuel3(): ?float {
         return $this->montantAnnuel3;
     }
 
@@ -355,7 +354,7 @@ class Assurances {
      *
      * @return float|null Returns the montant annuel4.
      */
-    public function getMontantAnnuel4(): ?float{
+    public function getMontantAnnuel4(): ?float {
         return $this->montantAnnuel4;
     }
 
@@ -364,7 +363,7 @@ class Assurances {
      *
      * @return float|null Returns the montant annuel5.
      */
-    public function getMontantAnnuel5(): ?float{
+    public function getMontantAnnuel5(): ?float {
         return $this->montantAnnuel5;
     }
 
@@ -373,7 +372,7 @@ class Assurances {
      *
      * @return bool|null Returns the montant fixe.
      */
-    public function getMontantFixe(): ?bool{
+    public function getMontantFixe(): ?bool {
         return $this->montantFixe;
     }
 
@@ -382,7 +381,7 @@ class Assurances {
      *
      * @return string|null Returns the num contrat.
      */
-    public function getNumContrat(): ?string{
+    public function getNumContrat(): ?string {
         return $this->numContrat;
     }
 
@@ -391,7 +390,7 @@ class Assurances {
      *
      * @return string|null Returns the num cpt assurance.
      */
-    public function getNumCptAssurance(): ?string{
+    public function getNumCptAssurance(): ?string {
         return $this->numCptAssurance;
     }
 
@@ -400,7 +399,7 @@ class Assurances {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -409,7 +408,7 @@ class Assurances {
      *
      * @return string|null Returns the unite duree.
      */
-    public function getUniteDuree(): ?string{
+    public function getUniteDuree(): ?string {
         return $this->uniteDuree;
     }
 

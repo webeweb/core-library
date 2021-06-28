@@ -77,7 +77,6 @@ class StatsPersoSuiviClientTetes {
      */
     private $lstCollab;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -99,7 +98,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return string|null Returns the coll creat.
      */
-    public function getCollCreat(): ?string{
+    public function getCollCreat(): ?string {
         return $this->collCreat;
     }
 
@@ -108,7 +107,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return string|null Returns the coll modif.
      */
-    public function getCollModif(): ?string{
+    public function getCollModif(): ?string {
         return $this->collModif;
     }
 
@@ -117,7 +116,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return DateTime|null Returns the date creat.
      */
-    public function getDateCreat(): ?DateTime{
+    public function getDateCreat(): ?DateTime {
         return $this->dateCreat;
     }
 
@@ -126,7 +125,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return DateTime|null Returns the date modif.
      */
-    public function getDateModif(): ?DateTime{
+    public function getDateModif(): ?DateTime {
         return $this->dateModif;
     }
 
@@ -135,7 +134,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -144,7 +143,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -153,7 +152,7 @@ class StatsPersoSuiviClientTetes {
      *
      * @return string|null Returns the lst collab.
      */
-    public function getLstCollab(): ?string{
+    public function getLstCollab(): ?string {
         return $this->lstCollab;
     }
 

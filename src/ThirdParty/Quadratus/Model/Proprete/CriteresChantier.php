@@ -110,7 +110,6 @@ class CriteresChantier {
      */
     private $texte5;
 
-
     /**
      * Constructor.
      */
@@ -123,7 +122,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -132,7 +131,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -141,7 +140,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -150,7 +149,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code ref1.
      */
-    public function getCodeRef1(): ?string{
+    public function getCodeRef1(): ?string {
         return $this->codeRef1;
     }
 
@@ -159,7 +158,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code ref2.
      */
-    public function getCodeRef2(): ?string{
+    public function getCodeRef2(): ?string {
         return $this->codeRef2;
     }
 
@@ -168,7 +167,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code ref3.
      */
-    public function getCodeRef3(): ?string{
+    public function getCodeRef3(): ?string {
         return $this->codeRef3;
     }
 
@@ -177,7 +176,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code ref4.
      */
-    public function getCodeRef4(): ?string{
+    public function getCodeRef4(): ?string {
         return $this->codeRef4;
     }
 
@@ -186,7 +185,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the code ref5.
      */
-    public function getCodeRef5(): ?string{
+    public function getCodeRef5(): ?string {
         return $this->codeRef5;
     }
 
@@ -195,7 +194,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the texte1.
      */
-    public function getTexte1(): ?string{
+    public function getTexte1(): ?string {
         return $this->texte1;
     }
 
@@ -204,7 +203,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the texte2.
      */
-    public function getTexte2(): ?string{
+    public function getTexte2(): ?string {
         return $this->texte2;
     }
 
@@ -213,7 +212,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the texte3.
      */
-    public function getTexte3(): ?string{
+    public function getTexte3(): ?string {
         return $this->texte3;
     }
 
@@ -222,7 +221,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the texte4.
      */
-    public function getTexte4(): ?string{
+    public function getTexte4(): ?string {
         return $this->texte4;
     }
 
@@ -231,7 +230,7 @@ class CriteresChantier {
      *
      * @return string|null Returns the texte5.
      */
-    public function getTexte5(): ?string{
+    public function getTexte5(): ?string {
         return $this->texte5;
     }
 

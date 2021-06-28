@@ -133,7 +133,6 @@ class Materiel {
      */
     private $valAchatFrf;
 
-
     /**
      * Constructor.
      */
@@ -146,7 +145,7 @@ class Materiel {
      *
      * @return string|null Returns the code barre.
      */
-    public function getCodeBarre(): ?string{
+    public function getCodeBarre(): ?string {
         return $this->codeBarre;
     }
 
@@ -155,7 +154,7 @@ class Materiel {
      *
      * @return string|null Returns the code materiel.
      */
-    public function getCodeMateriel(): ?string{
+    public function getCodeMateriel(): ?string {
         return $this->codeMateriel;
     }
 
@@ -164,7 +163,7 @@ class Materiel {
      *
      * @return DateTime|null Returns the date achat.
      */
-    public function getDateAchat(): ?DateTime{
+    public function getDateAchat(): ?DateTime {
         return $this->dateAchat;
     }
 
@@ -173,7 +172,7 @@ class Materiel {
      *
      * @return DateTime|null Returns the date debut amortissement.
      */
-    public function getDateDebutAmortissement(): ?DateTime{
+    public function getDateDebutAmortissement(): ?DateTime {
         return $this->dateDebutAmortissement;
     }
 
@@ -182,7 +181,7 @@ class Materiel {
      *
      * @return DateTime|null Returns the date fin amortissement.
      */
-    public function getDateFinAmortissement(): ?DateTime{
+    public function getDateFinAmortissement(): ?DateTime {
         return $this->dateFinAmortissement;
     }
 
@@ -191,7 +190,7 @@ class Materiel {
      *
      * @return DateTime|null Returns the date fin service.
      */
-    public function getDateFinService(): ?DateTime{
+    public function getDateFinService(): ?DateTime {
         return $this->dateFinService;
     }
 
@@ -200,7 +199,7 @@ class Materiel {
      *
      * @return DateTime|null Returns the date mise en service.
      */
-    public function getDateMiseEnService(): ?DateTime{
+    public function getDateMiseEnService(): ?DateTime {
         return $this->dateMiseEnService;
     }
 
@@ -209,7 +208,7 @@ class Materiel {
      *
      * @return string|null Returns the designation1.
      */
-    public function getDesignation1(): ?string{
+    public function getDesignation1(): ?string {
         return $this->designation1;
     }
 
@@ -218,7 +217,7 @@ class Materiel {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -227,7 +226,7 @@ class Materiel {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -236,7 +235,7 @@ class Materiel {
      *
      * @return string|null Returns the designation4.
      */
-    public function getDesignation4(): ?string{
+    public function getDesignation4(): ?string {
         return $this->designation4;
     }
 
@@ -245,7 +244,7 @@ class Materiel {
      *
      * @return string|null Returns the designation5.
      */
-    public function getDesignation5(): ?string{
+    public function getDesignation5(): ?string {
         return $this->designation5;
     }
 
@@ -254,7 +253,7 @@ class Materiel {
      *
      * @return float|null Returns the montant amortissement.
      */
-    public function getMontantAmortissement(): ?float{
+    public function getMontantAmortissement(): ?float {
         return $this->montantAmortissement;
     }
 
@@ -263,7 +262,7 @@ class Materiel {
      *
      * @return string|null Returns the numero serie.
      */
-    public function getNumeroSerie(): ?string{
+    public function getNumeroSerie(): ?string {
         return $this->numeroSerie;
     }
 
@@ -272,7 +271,7 @@ class Materiel {
      *
      * @return float|null Returns the val achat euro.
      */
-    public function getValAchatEuro(): ?float{
+    public function getValAchatEuro(): ?float {
         return $this->valAchatEuro;
     }
 
@@ -281,7 +280,7 @@ class Materiel {
      *
      * @return float|null Returns the val achat frf.
      */
-    public function getValAchatFrf(): ?float{
+    public function getValAchatFrf(): ?float {
         return $this->valAchatFrf;
     }
 

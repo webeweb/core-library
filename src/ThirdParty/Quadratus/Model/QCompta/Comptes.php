@@ -169,13 +169,6 @@ class Comptes {
     private $credit;
 
     /**
-     * Credit hors ex.
-     *
-     * @var float|null
-     */
-    private $creditHorsEx;
-
-    /**
      * Credit1.
      *
      * @var float|null
@@ -188,6 +181,13 @@ class Comptes {
      * @var float|null
      */
     private $credit2;
+
+    /**
+     * Credit hors ex.
+     *
+     * @var float|null
+     */
+    private $creditHorsEx;
 
     /**
      * Cumul pied journal.
@@ -218,13 +218,6 @@ class Comptes {
     private $debit;
 
     /**
-     * Debit hors ex.
-     *
-     * @var float|null
-     */
-    private $debitHorsEx;
-
-    /**
      * Debit1.
      *
      * @var float|null
@@ -237,6 +230,13 @@ class Comptes {
      * @var float|null
      */
     private $debit2;
+
+    /**
+     * Debit hors ex.
+     *
+     * @var float|null
+     */
+    private $debitHorsEx;
 
     /**
      * Detail cloture.
@@ -623,7 +623,6 @@ class Comptes {
      */
     private $typeIntraCom;
 
-
     /**
      * Constructor.
      */
@@ -636,7 +635,7 @@ class Comptes {
      *
      * @return bool|null Returns the a lettrer auto.
      */
-    public function getALettrerAuto(): ?bool{
+    public function getALettrerAuto(): ?bool {
         return $this->aLettrerAuto;
     }
 
@@ -645,7 +644,7 @@ class Comptes {
      *
      * @return bool|null Returns the activer lot trace.
      */
-    public function getActiverLotTrace(): ?bool{
+    public function getActiverLotTrace(): ?bool {
         return $this->activerLotTrace;
     }
 
@@ -654,7 +653,7 @@ class Comptes {
      *
      * @return bool|null Returns the bon a payer.
      */
-    public function getBonAPayer(): ?bool{
+    public function getBonAPayer(): ?bool {
         return $this->bonAPayer;
     }
 
@@ -663,7 +662,7 @@ class Comptes {
      *
      * @return bool|null Returns the centralise gd livre.
      */
-    public function getCentraliseGdLivre(): ?bool{
+    public function getCentraliseGdLivre(): ?bool {
         return $this->centraliseGdLivre;
     }
 
@@ -672,7 +671,7 @@ class Comptes {
      *
      * @return string|null Returns the cle deux.
      */
-    public function getCleDeux(): ?string{
+    public function getCleDeux(): ?string {
         return $this->cleDeux;
     }
 
@@ -681,7 +680,7 @@ class Comptes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -690,7 +689,7 @@ class Comptes {
      *
      * @return string|null Returns the code devise.
      */
-    public function getCodeDevise(): ?string{
+    public function getCodeDevise(): ?string {
         return $this->codeDevise;
     }
 
@@ -699,7 +698,7 @@ class Comptes {
      *
      * @return string|null Returns the code regroup1.
      */
-    public function getCodeRegroup1(): ?string{
+    public function getCodeRegroup1(): ?string {
         return $this->codeRegroup1;
     }
 
@@ -708,7 +707,7 @@ class Comptes {
      *
      * @return string|null Returns the code regroup2.
      */
-    public function getCodeRegroup2(): ?string{
+    public function getCodeRegroup2(): ?string {
         return $this->codeRegroup2;
     }
 
@@ -717,7 +716,7 @@ class Comptes {
      *
      * @return string|null Returns the code regroup3.
      */
-    public function getCodeRegroup3(): ?string{
+    public function getCodeRegroup3(): ?string {
         return $this->codeRegroup3;
     }
 
@@ -726,7 +725,7 @@ class Comptes {
      *
      * @return string|null Returns the code regroup4.
      */
-    public function getCodeRegroup4(): ?string{
+    public function getCodeRegroup4(): ?string {
         return $this->codeRegroup4;
     }
 
@@ -735,7 +734,7 @@ class Comptes {
      *
      * @return string|null Returns the code repartition ana.
      */
-    public function getCodeRepartitionAna(): ?string{
+    public function getCodeRepartitionAna(): ?string {
         return $this->codeRepartitionAna;
     }
 
@@ -744,7 +743,7 @@ class Comptes {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -753,7 +752,7 @@ class Comptes {
      *
      * @return string|null Returns the collectif.
      */
-    public function getCollectif(): ?string{
+    public function getCollectif(): ?string {
         return $this->collectif;
     }
 
@@ -762,7 +761,7 @@ class Comptes {
      *
      * @return string|null Returns the collectif1.
      */
-    public function getCollectif1(): ?string{
+    public function getCollectif1(): ?string {
         return $this->collectif1;
     }
 
@@ -771,7 +770,7 @@ class Comptes {
      *
      * @return string|null Returns the collectif2.
      */
-    public function getCollectif2(): ?string{
+    public function getCollectif2(): ?string {
         return $this->collectif2;
     }
 
@@ -780,7 +779,7 @@ class Comptes {
      *
      * @return bool|null Returns the compte inactif.
      */
-    public function getCompteInactif(): ?bool{
+    public function getCompteInactif(): ?bool {
         return $this->compteInactif;
     }
 
@@ -789,7 +788,7 @@ class Comptes {
      *
      * @return string|null Returns the contrepartie charge prod.
      */
-    public function getContrepartieChargeProd(): ?string{
+    public function getContrepartieChargeProd(): ?string {
         return $this->contrepartieChargeProd;
     }
 
@@ -798,7 +797,7 @@ class Comptes {
      *
      * @return bool|null Returns the cpt particulier.
      */
-    public function getCptParticulier(): ?bool{
+    public function getCptParticulier(): ?bool {
         return $this->cptParticulier;
     }
 
@@ -807,7 +806,7 @@ class Comptes {
      *
      * @return string|null Returns the cpt tva contrep cpr.
      */
-    public function getCptTvaContrepCpr(): ?string{
+    public function getCptTvaContrepCpr(): ?string {
         return $this->cptTvaContrepCpr;
     }
 
@@ -816,17 +815,8 @@ class Comptes {
      *
      * @return float|null Returns the credit.
      */
-    public function getCredit(): ?float{
+    public function getCredit(): ?float {
         return $this->credit;
-    }
-
-    /**
-     * Get the credit hors ex.
-     *
-     * @return float|null Returns the credit hors ex.
-     */
-    public function getCreditHorsEx(): ?float{
-        return $this->creditHorsEx;
     }
 
     /**
@@ -834,7 +824,7 @@ class Comptes {
      *
      * @return float|null Returns the credit1.
      */
-    public function getCredit1(): ?float{
+    public function getCredit1(): ?float {
         return $this->credit1;
     }
 
@@ -843,8 +833,17 @@ class Comptes {
      *
      * @return float|null Returns the credit2.
      */
-    public function getCredit2(): ?float{
+    public function getCredit2(): ?float {
         return $this->credit2;
+    }
+
+    /**
+     * Get the credit hors ex.
+     *
+     * @return float|null Returns the credit hors ex.
+     */
+    public function getCreditHorsEx(): ?float {
+        return $this->creditHorsEx;
     }
 
     /**
@@ -852,7 +851,7 @@ class Comptes {
      *
      * @return bool|null Returns the cumul pied journal.
      */
-    public function getCumulPiedJournal(): ?bool{
+    public function getCumulPiedJournal(): ?bool {
         return $this->cumulPiedJournal;
     }
 
@@ -861,7 +860,7 @@ class Comptes {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision(): ?DateTime{
+    public function getDateRevision(): ?DateTime {
         return $this->dateRevision;
     }
 
@@ -870,7 +869,7 @@ class Comptes {
      *
      * @return DateTime|null Returns the date sys creation.
      */
-    public function getDateSysCreation(): ?DateTime{
+    public function getDateSysCreation(): ?DateTime {
         return $this->dateSysCreation;
     }
 
@@ -879,17 +878,8 @@ class Comptes {
      *
      * @return float|null Returns the debit.
      */
-    public function getDebit(): ?float{
+    public function getDebit(): ?float {
         return $this->debit;
-    }
-
-    /**
-     * Get the debit hors ex.
-     *
-     * @return float|null Returns the debit hors ex.
-     */
-    public function getDebitHorsEx(): ?float{
-        return $this->debitHorsEx;
     }
 
     /**
@@ -897,7 +887,7 @@ class Comptes {
      *
      * @return float|null Returns the debit1.
      */
-    public function getDebit1(): ?float{
+    public function getDebit1(): ?float {
         return $this->debit1;
     }
 
@@ -906,8 +896,17 @@ class Comptes {
      *
      * @return float|null Returns the debit2.
      */
-    public function getDebit2(): ?float{
+    public function getDebit2(): ?float {
         return $this->debit2;
+    }
+
+    /**
+     * Get the debit hors ex.
+     *
+     * @return float|null Returns the debit hors ex.
+     */
+    public function getDebitHorsEx(): ?float {
+        return $this->debitHorsEx;
     }
 
     /**
@@ -915,7 +914,7 @@ class Comptes {
      *
      * @return bool|null Returns the detail cloture.
      */
-    public function getDetailCloture(): ?bool{
+    public function getDetailCloture(): ?bool {
         return $this->detailCloture;
     }
 
@@ -924,7 +923,7 @@ class Comptes {
      *
      * @return bool|null Returns the edit m2.
      */
-    public function getEditM2(): ?bool{
+    public function getEditM2(): ?bool {
         return $this->editM2;
     }
 
@@ -933,7 +932,7 @@ class Comptes {
      *
      * @return string|null Returns the etat revision.
      */
-    public function getEtatRevision(): ?string{
+    public function getEtatRevision(): ?string {
         return $this->etatRevision;
     }
 
@@ -942,7 +941,7 @@ class Comptes {
      *
      * @return string|null Returns the famille.
      */
-    public function getFamille(): ?string{
+    public function getFamille(): ?string {
         return $this->famille;
     }
 
@@ -951,7 +950,7 @@ class Comptes {
      *
      * @return bool|null Returns the franchise.
      */
-    public function getFranchise(): ?bool{
+    public function getFranchise(): ?bool {
         return $this->franchise;
     }
 
@@ -960,7 +959,7 @@ class Comptes {
      *
      * @return bool|null Returns the gerer int cpt cour.
      */
-    public function getGererIntCptCour(): ?bool{
+    public function getGererIntCptCour(): ?bool {
         return $this->gererIntCptCour;
     }
 
@@ -969,7 +968,7 @@ class Comptes {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -978,7 +977,7 @@ class Comptes {
      *
      * @return string|null Returns the intitule all.
      */
-    public function getIntituleAll(): ?string{
+    public function getIntituleAll(): ?string {
         return $this->intituleAll;
     }
 
@@ -987,7 +986,7 @@ class Comptes {
      *
      * @return string|null Returns the intitule ang.
      */
-    public function getIntituleAng(): ?string{
+    public function getIntituleAng(): ?string {
         return $this->intituleAng;
     }
 
@@ -996,7 +995,7 @@ class Comptes {
      *
      * @return string|null Returns the intitule esp.
      */
-    public function getIntituleEsp(): ?string{
+    public function getIntituleEsp(): ?string {
         return $this->intituleEsp;
     }
 
@@ -1005,7 +1004,7 @@ class Comptes {
      *
      * @return string|null Returns the intitule ita.
      */
-    public function getIntituleIta(): ?string{
+    public function getIntituleIta(): ?string {
         return $this->intituleIta;
     }
 
@@ -1014,7 +1013,7 @@ class Comptes {
      *
      * @return string|null Returns the intitule long.
      */
-    public function getIntituleLong(): ?string{
+    public function getIntituleLong(): ?string {
         return $this->intituleLong;
     }
 
@@ -1023,7 +1022,7 @@ class Comptes {
      *
      * @return bool|null Returns the intra com.
      */
-    public function getIntraCom(): ?bool{
+    public function getIntraCom(): ?bool {
         return $this->intraCom;
     }
 
@@ -1032,7 +1031,7 @@ class Comptes {
      *
      * @return string|null Returns the jal tre regl.
      */
-    public function getJalTreRegl(): ?string{
+    public function getJalTreRegl(): ?string {
         return $this->jalTreRegl;
     }
 
@@ -1041,7 +1040,7 @@ class Comptes {
      *
      * @return string|null Returns the libelle lot trace.
      */
-    public function getLibelleLotTrace(): ?string{
+    public function getLibelleLotTrace(): ?string {
         return $this->libelleLotTrace;
     }
 
@@ -1050,7 +1049,7 @@ class Comptes {
      *
      * @return float|null Returns the marge theorique.
      */
-    public function getMargeTheorique(): ?float{
+    public function getMargeTheorique(): ?float {
         return $this->margeTheorique;
     }
 
@@ -1059,7 +1058,7 @@ class Comptes {
      *
      * @return string|null Returns the methode tva.
      */
-    public function getMethodeTva(): ?string{
+    public function getMethodeTva(): ?string {
         return $this->methodeTva;
     }
 
@@ -1068,7 +1067,7 @@ class Comptes {
      *
      * @return int|null Returns the nb ecritures.
      */
-    public function getNbEcritures(): ?int{
+    public function getNbEcritures(): ?int {
         return $this->nbEcritures;
     }
 
@@ -1077,7 +1076,7 @@ class Comptes {
      *
      * @return string|null Returns the niveau droit.
      */
-    public function getNiveauDroit(): ?string{
+    public function getNiveauDroit(): ?string {
         return $this->niveauDroit;
     }
 
@@ -1086,7 +1085,7 @@ class Comptes {
      *
      * @return string|null Returns the no doss reflechi.
      */
-    public function getNoDossReflechi(): ?string{
+    public function getNoDossReflechi(): ?string {
         return $this->noDossReflechi;
     }
 
@@ -1095,7 +1094,7 @@ class Comptes {
      *
      * @return int|null Returns the no prochain lettrage.
      */
-    public function getNoProchainLettrage(): ?int{
+    public function getNoProchainLettrage(): ?int {
         return $this->noProchainLettrage;
     }
 
@@ -1104,7 +1103,7 @@ class Comptes {
      *
      * @return string|null Returns the num cpt reflechi.
      */
-    public function getNumCptReflechi(): ?string{
+    public function getNumCptReflechi(): ?string {
         return $this->numCptReflechi;
     }
 
@@ -1113,7 +1112,7 @@ class Comptes {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -1122,7 +1121,7 @@ class Comptes {
      *
      * @return bool|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?bool{
+    public function getPeriodicite(): ?bool {
         return $this->periodicite;
     }
 
@@ -1131,7 +1130,7 @@ class Comptes {
      *
      * @return bool|null Returns the personne morale.
      */
-    public function getPersonneMorale(): ?bool{
+    public function getPersonneMorale(): ?bool {
         return $this->personneMorale;
     }
 
@@ -1140,7 +1139,7 @@ class Comptes {
      *
      * @return bool|null Returns the presta tel.
      */
-    public function getPrestaTel(): ?bool{
+    public function getPrestaTel(): ?bool {
         return $this->prestaTel;
     }
 
@@ -1149,7 +1148,7 @@ class Comptes {
      *
      * @return int|null Returns the prestataire.
      */
-    public function getPrestataire(): ?int{
+    public function getPrestataire(): ?int {
         return $this->prestataire;
     }
 
@@ -1158,7 +1157,7 @@ class Comptes {
      *
      * @return int|null Returns the prix moyen nb dec.
      */
-    public function getPrixMoyenNbDec(): ?int{
+    public function getPrixMoyenNbDec(): ?int {
         return $this->prixMoyenNbDec;
     }
 
@@ -1167,7 +1166,7 @@ class Comptes {
      *
      * @return int|null Returns the prix moyen nb dec2.
      */
-    public function getPrixMoyenNbDec2(): ?int{
+    public function getPrixMoyenNbDec2(): ?int {
         return $this->prixMoyenNbDec2;
     }
 
@@ -1176,7 +1175,7 @@ class Comptes {
      *
      * @return int|null Returns the prix moyen nb entier.
      */
-    public function getPrixMoyenNbEntier(): ?int{
+    public function getPrixMoyenNbEntier(): ?int {
         return $this->prixMoyenNbEntier;
     }
 
@@ -1185,7 +1184,7 @@ class Comptes {
      *
      * @return int|null Returns the prix moyen nb entier2.
      */
-    public function getPrixMoyenNbEntier2(): ?int{
+    public function getPrixMoyenNbEntier2(): ?int {
         return $this->prixMoyenNbEntier2;
     }
 
@@ -1194,7 +1193,7 @@ class Comptes {
      *
      * @return string|null Returns the prochaine lettre.
      */
-    public function getProchaineLettre(): ?string{
+    public function getProchaineLettre(): ?string {
         return $this->prochaineLettre;
     }
 
@@ -1203,7 +1202,7 @@ class Comptes {
      *
      * @return string|null Returns the prochaine lettre tiers.
      */
-    public function getProchaineLettreTiers(): ?string{
+    public function getProchaineLettreTiers(): ?string {
         return $this->prochaineLettreTiers;
     }
 
@@ -1212,7 +1211,7 @@ class Comptes {
      *
      * @return string|null Returns the quantite libelle.
      */
-    public function getQuantiteLibelle(): ?string{
+    public function getQuantiteLibelle(): ?string {
         return $this->quantiteLibelle;
     }
 
@@ -1221,7 +1220,7 @@ class Comptes {
      *
      * @return string|null Returns the quantite libelle2.
      */
-    public function getQuantiteLibelle2(): ?string{
+    public function getQuantiteLibelle2(): ?string {
         return $this->quantiteLibelle2;
     }
 
@@ -1230,7 +1229,7 @@ class Comptes {
      *
      * @return int|null Returns the quantite nb dec.
      */
-    public function getQuantiteNbDec(): ?int{
+    public function getQuantiteNbDec(): ?int {
         return $this->quantiteNbDec;
     }
 
@@ -1239,7 +1238,7 @@ class Comptes {
      *
      * @return int|null Returns the quantite nb dec2.
      */
-    public function getQuantiteNbDec2(): ?int{
+    public function getQuantiteNbDec2(): ?int {
         return $this->quantiteNbDec2;
     }
 
@@ -1248,7 +1247,7 @@ class Comptes {
      *
      * @return int|null Returns the quantite nb entier.
      */
-    public function getQuantiteNbEntier(): ?int{
+    public function getQuantiteNbEntier(): ?int {
         return $this->quantiteNbEntier;
     }
 
@@ -1257,7 +1256,7 @@ class Comptes {
      *
      * @return int|null Returns the quantite nb entier2.
      */
-    public function getQuantiteNbEntier2(): ?int{
+    public function getQuantiteNbEntier2(): ?int {
         return $this->quantiteNbEntier2;
     }
 
@@ -1266,7 +1265,7 @@ class Comptes {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -1275,7 +1274,7 @@ class Comptes {
      *
      * @return string|null Returns the reference fournisseur.
      */
-    public function getReferenceFournisseur(): ?string{
+    public function getReferenceFournisseur(): ?string {
         return $this->referenceFournisseur;
     }
 
@@ -1284,7 +1283,7 @@ class Comptes {
      *
      * @return string|null Returns the repartition ana.
      */
-    public function getRepartitionAna(): ?string{
+    public function getRepartitionAna(): ?string {
         return $this->repartitionAna;
     }
 
@@ -1293,7 +1292,7 @@ class Comptes {
      *
      * @return bool|null Returns the repartition auto.
      */
-    public function getRepartitionAuto(): ?bool{
+    public function getRepartitionAuto(): ?bool {
         return $this->repartitionAuto;
     }
 
@@ -1302,7 +1301,7 @@ class Comptes {
      *
      * @return string|null Returns the rubrique bilan1.
      */
-    public function getRubriqueBilan1(): ?string{
+    public function getRubriqueBilan1(): ?string {
         return $this->rubriqueBilan1;
     }
 
@@ -1311,7 +1310,7 @@ class Comptes {
      *
      * @return string|null Returns the rubrique bilan2.
      */
-    public function getRubriqueBilan2(): ?string{
+    public function getRubriqueBilan2(): ?string {
         return $this->rubriqueBilan2;
     }
 
@@ -1320,7 +1319,7 @@ class Comptes {
      *
      * @return bool|null Returns the suivi devises.
      */
-    public function getSuiviDevises(): ?bool{
+    public function getSuiviDevises(): ?bool {
         return $this->suiviDevises;
     }
 
@@ -1329,7 +1328,7 @@ class Comptes {
      *
      * @return bool|null Returns the suivi quantite.
      */
-    public function getSuiviQuantite(): ?bool{
+    public function getSuiviQuantite(): ?bool {
         return $this->suiviQuantite;
     }
 
@@ -1338,7 +1337,7 @@ class Comptes {
      *
      * @return bool|null Returns the suivi quantite2.
      */
-    public function getSuiviQuantite2(): ?bool{
+    public function getSuiviQuantite2(): ?bool {
         return $this->suiviQuantite2;
     }
 
@@ -1347,7 +1346,7 @@ class Comptes {
      *
      * @return bool|null Returns the tva autres ope impos.
      */
-    public function getTvaAutresOpeImpos(): ?bool{
+    public function getTvaAutresOpeImpos(): ?bool {
         return $this->tvaAutresOpeImpos;
     }
 
@@ -1356,7 +1355,7 @@ class Comptes {
      *
      * @return bool|null Returns the tva dom.
      */
-    public function getTvaDom(): ?bool{
+    public function getTvaDom(): ?bool {
         return $this->tvaDom;
     }
 
@@ -1365,7 +1364,7 @@ class Comptes {
      *
      * @return bool|null Returns the tva encaissement.
      */
-    public function getTvaEncaissement(): ?bool{
+    public function getTvaEncaissement(): ?bool {
         return $this->tvaEncaissement;
     }
 
@@ -1374,7 +1373,7 @@ class Comptes {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 
@@ -1383,7 +1382,7 @@ class Comptes {
      *
      * @return bool|null Returns the type collectif.
      */
-    public function getTypeCollectif(): ?bool{
+    public function getTypeCollectif(): ?bool {
         return $this->typeCollectif;
     }
 
@@ -1392,7 +1391,7 @@ class Comptes {
      *
      * @return string|null Returns the type cpt tiers.
      */
-    public function getTypeCptTiers(): ?string{
+    public function getTypeCptTiers(): ?string {
         return $this->typeCptTiers;
     }
 
@@ -1401,7 +1400,7 @@ class Comptes {
      *
      * @return int|null Returns the type intra com.
      */
-    public function getTypeIntraCom(): ?int{
+    public function getTypeIntraCom(): ?int {
         return $this->typeIntraCom;
     }
 
@@ -1637,17 +1636,6 @@ class Comptes {
     }
 
     /**
-     * Set the credit hors ex.
-     *
-     * @param float|null $creditHorsEx The credit hors ex.
-     * @return Comptes Returns this Comptes.
-     */
-    public function setCreditHorsEx(?float $creditHorsEx): Comptes {
-        $this->creditHorsEx = $creditHorsEx;
-        return $this;
-    }
-
-    /**
      * Set the credit1.
      *
      * @param float|null $credit1 The credit1.
@@ -1666,6 +1654,17 @@ class Comptes {
      */
     public function setCredit2(?float $credit2): Comptes {
         $this->credit2 = $credit2;
+        return $this;
+    }
+
+    /**
+     * Set the credit hors ex.
+     *
+     * @param float|null $creditHorsEx The credit hors ex.
+     * @return Comptes Returns this Comptes.
+     */
+    public function setCreditHorsEx(?float $creditHorsEx): Comptes {
+        $this->creditHorsEx = $creditHorsEx;
         return $this;
     }
 
@@ -1714,17 +1713,6 @@ class Comptes {
     }
 
     /**
-     * Set the debit hors ex.
-     *
-     * @param float|null $debitHorsEx The debit hors ex.
-     * @return Comptes Returns this Comptes.
-     */
-    public function setDebitHorsEx(?float $debitHorsEx): Comptes {
-        $this->debitHorsEx = $debitHorsEx;
-        return $this;
-    }
-
-    /**
      * Set the debit1.
      *
      * @param float|null $debit1 The debit1.
@@ -1743,6 +1731,17 @@ class Comptes {
      */
     public function setDebit2(?float $debit2): Comptes {
         $this->debit2 = $debit2;
+        return $this;
+    }
+
+    /**
+     * Set the debit hors ex.
+     *
+     * @param float|null $debitHorsEx The debit hors ex.
+     * @return Comptes Returns this Comptes.
+     */
+    public function setDebitHorsEx(?float $debitHorsEx): Comptes {
+        $this->debitHorsEx = $debitHorsEx;
         return $this;
     }
 

@@ -105,7 +105,6 @@ class VisiteMedicaleLigne {
      */
     private $typeVisite;
 
-
     /**
      * Constructor.
      */
@@ -118,7 +117,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the code medecine travail.
      */
-    public function getCodeMedecineTravail(): ?string{
+    public function getCodeMedecineTravail(): ?string {
         return $this->codeMedecineTravail;
     }
 
@@ -127,7 +126,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the code session.
      */
-    public function getCodeSession(): ?string{
+    public function getCodeSession(): ?string {
         return $this->codeSession;
     }
 
@@ -136,7 +135,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -145,7 +144,7 @@ class VisiteMedicaleLigne {
      *
      * @return DateTime|null Returns the date visite.
      */
-    public function getDateVisite(): ?DateTime{
+    public function getDateVisite(): ?DateTime {
         return $this->dateVisite;
     }
 
@@ -154,7 +153,7 @@ class VisiteMedicaleLigne {
      *
      * @return float|null Returns the duree visite.
      */
-    public function getDureeVisite(): ?float{
+    public function getDureeVisite(): ?float {
         return $this->dureeVisite;
     }
 
@@ -163,7 +162,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the etat visite.
      */
-    public function getEtatVisite(): ?string{
+    public function getEtatVisite(): ?string {
         return $this->etatVisite;
     }
 
@@ -172,7 +171,7 @@ class VisiteMedicaleLigne {
      *
      * @return DateTime|null Returns the heure visite.
      */
-    public function getHeureVisite(): ?DateTime{
+    public function getHeureVisite(): ?DateTime {
         return $this->heureVisite;
     }
 
@@ -181,7 +180,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -190,7 +189,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -199,7 +198,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the tel1.
      */
-    public function getTel1(): ?string{
+    public function getTel1(): ?string {
         return $this->tel1;
     }
 
@@ -208,7 +207,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 
@@ -217,7 +216,7 @@ class VisiteMedicaleLigne {
      *
      * @return string|null Returns the type visite.
      */
-    public function getTypeVisite(): ?string{
+    public function getTypeVisite(): ?string {
         return $this->typeVisite;
     }
 

@@ -49,7 +49,6 @@ class ComptesRecurrents {
      */
     private $nbAcces;
 
-
     /**
      * Constructor.
      */
@@ -62,7 +61,7 @@ class ComptesRecurrents {
      *
      * @return string|null Returns the compte.
      */
-    public function getCompte(): ?string{
+    public function getCompte(): ?string {
         return $this->compte;
     }
 
@@ -71,7 +70,7 @@ class ComptesRecurrents {
      *
      * @return string|null Returns the compte recurrent.
      */
-    public function getCompteRecurrent(): ?string{
+    public function getCompteRecurrent(): ?string {
         return $this->compteRecurrent;
     }
 
@@ -80,7 +79,7 @@ class ComptesRecurrents {
      *
      * @return DateTime|null Returns the date dernier acces.
      */
-    public function getDateDernierAcces(): ?DateTime{
+    public function getDateDernierAcces(): ?DateTime {
         return $this->dateDernierAcces;
     }
 
@@ -89,7 +88,7 @@ class ComptesRecurrents {
      *
      * @return int|null Returns the nb acces.
      */
-    public function getNbAcces(): ?int{
+    public function getNbAcces(): ?int {
         return $this->nbAcces;
     }
 

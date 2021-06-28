@@ -147,7 +147,6 @@ class PlansFactBonTrav {
      */
     private $ventilMarge;
 
-
     /**
      * Constructor.
      */
@@ -160,7 +159,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -169,7 +168,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -178,7 +177,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -187,7 +186,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -196,7 +195,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -205,7 +204,7 @@ class PlansFactBonTrav {
      *
      * @return float|null Returns the coefficient.
      */
-    public function getCoefficient(): ?float{
+    public function getCoefficient(): ?float {
         return $this->coefficient;
     }
 
@@ -214,7 +213,7 @@ class PlansFactBonTrav {
      *
      * @return DateTime|null Returns the date bt.
      */
-    public function getDateBt(): ?DateTime{
+    public function getDateBt(): ?DateTime {
         return $this->dateBt;
     }
 
@@ -223,7 +222,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the designation.
      */
-    public function getDesignation(): ?string{
+    public function getDesignation(): ?string {
         return $this->designation;
     }
 
@@ -232,7 +231,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -241,7 +240,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -250,7 +249,7 @@ class PlansFactBonTrav {
      *
      * @return float|null Returns the duree.
      */
-    public function getDuree(): ?float{
+    public function getDuree(): ?float {
         return $this->duree;
     }
 
@@ -259,7 +258,7 @@ class PlansFactBonTrav {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -268,7 +267,7 @@ class PlansFactBonTrav {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -277,7 +276,7 @@ class PlansFactBonTrav {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -286,7 +285,7 @@ class PlansFactBonTrav {
      *
      * @return float|null Returns the prix achat.
      */
-    public function getPrixAchat(): ?float{
+    public function getPrixAchat(): ?float {
         return $this->prixAchat;
     }
 
@@ -295,7 +294,7 @@ class PlansFactBonTrav {
      *
      * @return bool|null Returns the px facture.
      */
-    public function getPxFacture(): ?bool{
+    public function getPxFacture(): ?bool {
         return $this->pxFacture;
     }
 
@@ -304,7 +303,7 @@ class PlansFactBonTrav {
      *
      * @return float|null Returns the taux.
      */
-    public function getTaux(): ?float{
+    public function getTaux(): ?float {
         return $this->taux;
     }
 
@@ -313,7 +312,7 @@ class PlansFactBonTrav {
      *
      * @return bool|null Returns the ventil marge.
      */
-    public function getVentilMarge(): ?bool{
+    public function getVentilMarge(): ?bool {
         return $this->ventilMarge;
     }
 

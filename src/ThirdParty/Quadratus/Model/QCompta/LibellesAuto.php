@@ -40,7 +40,6 @@ class LibellesAuto {
      */
     private $suiviDateEcheance;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class LibellesAuto {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -62,7 +61,7 @@ class LibellesAuto {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -71,7 +70,7 @@ class LibellesAuto {
      *
      * @return bool|null Returns the suivi date echeance.
      */
-    public function getSuiviDateEcheance(): ?bool{
+    public function getSuiviDateEcheance(): ?bool {
         return $this->suiviDateEcheance;
     }
 

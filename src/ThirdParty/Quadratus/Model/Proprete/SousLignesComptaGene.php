@@ -96,7 +96,6 @@ class SousLignesComptaGene {
      */
     private $typeDocument;
 
-
     /**
      * Constructor.
      */
@@ -109,7 +108,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -118,7 +117,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -127,7 +126,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -136,7 +135,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -145,7 +144,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the intitule compte.
      */
-    public function getIntituleCompte(): ?string{
+    public function getIntituleCompte(): ?string {
         return $this->intituleCompte;
     }
 
@@ -154,7 +153,7 @@ class SousLignesComptaGene {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -163,7 +162,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -172,7 +171,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the numero document.
      */
-    public function getNumeroDocument(): ?string{
+    public function getNumeroDocument(): ?string {
         return $this->numeroDocument;
     }
 
@@ -181,7 +180,7 @@ class SousLignesComptaGene {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -190,7 +189,7 @@ class SousLignesComptaGene {
      *
      * @return int|null Returns the numero sous ligne.
      */
-    public function getNumeroSousLigne(): ?int{
+    public function getNumeroSousLigne(): ?int {
         return $this->numeroSousLigne;
     }
 
@@ -199,7 +198,7 @@ class SousLignesComptaGene {
      *
      * @return string|null Returns the type document.
      */
-    public function getTypeDocument(): ?string{
+    public function getTypeDocument(): ?string {
         return $this->typeDocument;
     }
 

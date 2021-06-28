@@ -22,18 +22,18 @@ use DateTime;
 class AttestationAem {
 
     /**
-     * Aem initiale.
-     *
-     * @var bool|null
-     */
-    private $aemInitiale;
-
-    /**
      * Activite.
      *
      * @var string|null
      */
     private $activite;
+
+    /**
+     * Aem initiale.
+     *
+     * @var bool|null
+     */
+    private $aemInitiale;
 
     /**
      * Autres contributions.
@@ -316,18 +316,18 @@ class AttestationAem {
     private $naf;
 
     /**
-     * Nir.
-     *
-     * @var string|null
-     */
-    private $nir;
-
-    /**
      * Nb jour trav.
      *
      * @var float|null
      */
     private $nbJourTrav;
+
+    /**
+     * Nir.
+     *
+     * @var string|null
+     */
+    private $nir;
 
     /**
      * Nom employe.
@@ -484,13 +484,6 @@ class AttestationAem {
     private $prenom;
 
     /**
-     * Siret.
-     *
-     * @var string|null
-     */
-    private $siret;
-
-    /**
      * Signature date.
      *
      * @var DateTime|null
@@ -531,6 +524,13 @@ class AttestationAem {
      * @var string|null
      */
     private $signatureVille;
+
+    /**
+     * Siret.
+     *
+     * @var string|null
+     */
+    private $siret;
 
     /**
      * Statut cadre.
@@ -574,7 +574,6 @@ class AttestationAem {
      */
     private $typeNationalite;
 
-
     /**
      * Constructor.
      */
@@ -583,21 +582,21 @@ class AttestationAem {
     }
 
     /**
-     * Get the aem initiale.
-     *
-     * @return bool|null Returns the aem initiale.
-     */
-    public function getAemInitiale(): ?bool{
-        return $this->aemInitiale;
-    }
-
-    /**
      * Get the activite.
      *
      * @return string|null Returns the activite.
      */
-    public function getActivite(): ?string{
+    public function getActivite(): ?string {
         return $this->activite;
+    }
+
+    /**
+     * Get the aem initiale.
+     *
+     * @return bool|null Returns the aem initiale.
+     */
+    public function getAemInitiale(): ?bool {
+        return $this->aemInitiale;
     }
 
     /**
@@ -605,7 +604,7 @@ class AttestationAem {
      *
      * @return float|null Returns the autres contributions.
      */
-    public function getAutresContributions(): ?float{
+    public function getAutresContributions(): ?float {
         return $this->autresContributions;
     }
 
@@ -614,7 +613,7 @@ class AttestationAem {
      *
      * @return float|null Returns the autres remun brut.
      */
-    public function getAutresRemunBrut(): ?float{
+    public function getAutresRemunBrut(): ?float {
         return $this->autresRemunBrut;
     }
 
@@ -623,7 +622,7 @@ class AttestationAem {
      *
      * @return float|null Returns the autres taux cotis.
      */
-    public function getAutresTauxCotis(): ?float{
+    public function getAutresTauxCotis(): ?float {
         return $this->autresTauxCotis;
     }
 
@@ -632,7 +631,7 @@ class AttestationAem {
      *
      * @return float|null Returns the brut.
      */
-    public function getBrut(): ?float{
+    public function getBrut(): ?float {
         return $this->brut;
     }
 
@@ -641,7 +640,7 @@ class AttestationAem {
      *
      * @return float|null Returns the brut al.
      */
-    public function getBrutAl(): ?float{
+    public function getBrutAl(): ?float {
         return $this->brutAl;
     }
 
@@ -650,7 +649,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the certification sociale.
      */
-    public function getCertificationSociale(): ?bool{
+    public function getCertificationSociale(): ?bool {
         return $this->certificationSociale;
     }
 
@@ -659,7 +658,7 @@ class AttestationAem {
      *
      * @return string|null Returns the civilite.
      */
-    public function getCivilite(): ?string{
+    public function getCivilite(): ?string {
         return $this->civilite;
     }
 
@@ -668,7 +667,7 @@ class AttestationAem {
      *
      * @return string|null Returns the code emploi.
      */
-    public function getCodeEmploi(): ?string{
+    public function getCodeEmploi(): ?string {
         return $this->codeEmploi;
     }
 
@@ -677,7 +676,7 @@ class AttestationAem {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -686,7 +685,7 @@ class AttestationAem {
      *
      * @return string|null Returns the code naf2008.
      */
-    public function getCodeNaf2008(): ?string{
+    public function getCodeNaf2008(): ?string {
         return $this->codeNaf2008;
     }
 
@@ -695,7 +694,7 @@ class AttestationAem {
      *
      * @return string|null Returns the code qualif.
      */
-    public function getCodeQualif(): ?string{
+    public function getCodeQualif(): ?string {
         return $this->codeQualif;
     }
 
@@ -704,7 +703,7 @@ class AttestationAem {
      *
      * @return string|null Returns the contact.
      */
-    public function getContact(): ?string{
+    public function getContact(): ?string {
         return $this->contact;
     }
 
@@ -713,7 +712,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the contrat en cours.
      */
-    public function getContratEnCours(): ?bool{
+    public function getContratEnCours(): ?bool {
         return $this->contratEnCours;
     }
 
@@ -722,7 +721,7 @@ class AttestationAem {
      *
      * @return float|null Returns the contributions.
      */
-    public function getContributions(): ?float{
+    public function getContributions(): ?float {
         return $this->contributions;
     }
 
@@ -731,7 +730,7 @@ class AttestationAem {
      *
      * @return DateTime|null Returns the date embauche.
      */
-    public function getDateEmbauche(): ?DateTime{
+    public function getDateEmbauche(): ?DateTime {
         return $this->dateEmbauche;
     }
 
@@ -740,7 +739,7 @@ class AttestationAem {
      *
      * @return DateTime|null Returns the date fin contrat.
      */
-    public function getDateFinContrat(): ?DateTime{
+    public function getDateFinContrat(): ?DateTime {
         return $this->dateFinContrat;
     }
 
@@ -749,7 +748,7 @@ class AttestationAem {
      *
      * @return DateTime|null Returns the date fin contrat initiale.
      */
-    public function getDateFinContratInitiale(): ?DateTime{
+    public function getDateFinContratInitiale(): ?DateTime {
         return $this->dateFinContratInitiale;
     }
 
@@ -758,7 +757,7 @@ class AttestationAem {
      *
      * @return DateTime|null Returns the date naiss.
      */
-    public function getDateNaiss(): ?DateTime{
+    public function getDateNaiss(): ?DateTime {
         return $this->dateNaiss;
     }
 
@@ -767,7 +766,7 @@ class AttestationAem {
      *
      * @return string|null Returns the emp adresse1.
      */
-    public function getEmpAdresse1(): ?string{
+    public function getEmpAdresse1(): ?string {
         return $this->empAdresse1;
     }
 
@@ -776,7 +775,7 @@ class AttestationAem {
      *
      * @return string|null Returns the emp adresse2.
      */
-    public function getEmpAdresse2(): ?string{
+    public function getEmpAdresse2(): ?string {
         return $this->empAdresse2;
     }
 
@@ -785,7 +784,7 @@ class AttestationAem {
      *
      * @return string|null Returns the emp code postal.
      */
-    public function getEmpCodePostal(): ?string{
+    public function getEmpCodePostal(): ?string {
         return $this->empCodePostal;
     }
 
@@ -794,7 +793,7 @@ class AttestationAem {
      *
      * @return string|null Returns the emp commune.
      */
-    public function getEmpCommune(): ?string{
+    public function getEmpCommune(): ?string {
         return $this->empCommune;
     }
 
@@ -803,7 +802,7 @@ class AttestationAem {
      *
      * @return string|null Returns the emp tel.
      */
-    public function getEmpTel(): ?string{
+    public function getEmpTel(): ?string {
         return $this->empTel;
     }
 
@@ -812,7 +811,7 @@ class AttestationAem {
      *
      * @return string|null Returns the emploi.
      */
-    public function getEmploi(): ?string{
+    public function getEmploi(): ?string {
         return $this->emploi;
     }
 
@@ -821,7 +820,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl adresse1.
      */
-    public function getEtblAdresse1(): ?string{
+    public function getEtblAdresse1(): ?string {
         return $this->etblAdresse1;
     }
 
@@ -830,7 +829,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl adresse2.
      */
-    public function getEtblAdresse2(): ?string{
+    public function getEtblAdresse2(): ?string {
         return $this->etblAdresse2;
     }
 
@@ -839,7 +838,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl code postal.
      */
-    public function getEtblCodePostal(): ?string{
+    public function getEtblCodePostal(): ?string {
         return $this->etblCodePostal;
     }
 
@@ -848,7 +847,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl commune.
      */
-    public function getEtblCommune(): ?string{
+    public function getEtblCommune(): ?string {
         return $this->etblCommune;
     }
 
@@ -857,7 +856,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl fax.
      */
-    public function getEtblFax(): ?string{
+    public function getEtblFax(): ?string {
         return $this->etblFax;
     }
 
@@ -866,7 +865,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl mail.
      */
-    public function getEtblMail(): ?string{
+    public function getEtblMail(): ?string {
         return $this->etblMail;
     }
 
@@ -875,7 +874,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl raison sociale.
      */
-    public function getEtblRaisonSociale(): ?string{
+    public function getEtblRaisonSociale(): ?string {
         return $this->etblRaisonSociale;
     }
 
@@ -884,7 +883,7 @@ class AttestationAem {
      *
      * @return string|null Returns the etbl tel.
      */
-    public function getEtblTel(): ?string{
+    public function getEtblTel(): ?string {
         return $this->etblTel;
     }
 
@@ -893,7 +892,7 @@ class AttestationAem {
      *
      * @return int|null Returns the indice aem.
      */
-    public function getIndiceAem(): ?int{
+    public function getIndiceAem(): ?int {
         return $this->indiceAem;
     }
 
@@ -902,7 +901,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the label prestataire.
      */
-    public function getLabelPrestataire(): ?bool{
+    public function getLabelPrestataire(): ?bool {
         return $this->labelPrestataire;
     }
 
@@ -911,7 +910,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the licence spectacle.
      */
-    public function getLicenceSpectacle(): ?bool{
+    public function getLicenceSpectacle(): ?bool {
         return $this->licenceSpectacle;
     }
 
@@ -920,7 +919,7 @@ class AttestationAem {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -929,7 +928,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the lien parente.
      */
-    public function getLienParente(): ?bool{
+    public function getLienParente(): ?bool {
         return $this->lienParente;
     }
 
@@ -938,7 +937,7 @@ class AttestationAem {
      *
      * @return string|null Returns the motif fin contrat.
      */
-    public function getMotifFinContrat(): ?string{
+    public function getMotifFinContrat(): ?string {
         return $this->motifFinContrat;
     }
 
@@ -947,7 +946,7 @@ class AttestationAem {
      *
      * @return string|null Returns the motif rupture.
      */
-    public function getMotifRupture(): ?string{
+    public function getMotifRupture(): ?string {
         return $this->motifRupture;
     }
 
@@ -956,17 +955,8 @@ class AttestationAem {
      *
      * @return string|null Returns the naf.
      */
-    public function getNaf(): ?string{
+    public function getNaf(): ?string {
         return $this->naf;
-    }
-
-    /**
-     * Get the nir.
-     *
-     * @return string|null Returns the nir.
-     */
-    public function getNir(): ?string{
-        return $this->nir;
     }
 
     /**
@@ -974,8 +964,17 @@ class AttestationAem {
      *
      * @return float|null Returns the nb jour trav.
      */
-    public function getNbJourTrav(): ?float{
+    public function getNbJourTrav(): ?float {
         return $this->nbJourTrav;
+    }
+
+    /**
+     * Get the nir.
+     *
+     * @return string|null Returns the nir.
+     */
+    public function getNir(): ?string {
+        return $this->nir;
     }
 
     /**
@@ -983,7 +982,7 @@ class AttestationAem {
      *
      * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye(): ?string{
+    public function getNomEmploye(): ?string {
         return $this->nomEmploye;
     }
 
@@ -992,7 +991,7 @@ class AttestationAem {
      *
      * @return string|null Returns the nom naissance.
      */
-    public function getNomNaissance(): ?string{
+    public function getNomNaissance(): ?string {
         return $this->nomNaissance;
     }
 
@@ -1001,7 +1000,7 @@ class AttestationAem {
      *
      * @return string|null Returns the nom retraite.
      */
-    public function getNomRetraite(): ?string{
+    public function getNomRetraite(): ?string {
         return $this->nomRetraite;
     }
 
@@ -1010,7 +1009,7 @@ class AttestationAem {
      *
      * @return float|null Returns the nombre cachets.
      */
-    public function getNombreCachets(): ?float{
+    public function getNombreCachets(): ?float {
         return $this->nombreCachets;
     }
 
@@ -1019,7 +1018,7 @@ class AttestationAem {
      *
      * @return float|null Returns the nombre cachets isoles.
      */
-    public function getNombreCachetsIsoles(): ?float{
+    public function getNombreCachetsIsoles(): ?float {
         return $this->nombreCachetsIsoles;
     }
 
@@ -1028,7 +1027,7 @@ class AttestationAem {
      *
      * @return float|null Returns the nombre heures.
      */
-    public function getNombreHeures(): ?float{
+    public function getNombreHeures(): ?float {
         return $this->nombreHeures;
     }
 
@@ -1037,7 +1036,7 @@ class AttestationAem {
      *
      * @return string|null Returns the num assedic.
      */
-    public function getNumAssedic(): ?string{
+    public function getNumAssedic(): ?string {
         return $this->numAssedic;
     }
 
@@ -1046,7 +1045,7 @@ class AttestationAem {
      *
      * @return string|null Returns the num caisse spectacle.
      */
-    public function getNumCaisseSpectacle(): ?string{
+    public function getNumCaisseSpectacle(): ?string {
         return $this->numCaisseSpectacle;
     }
 
@@ -1055,7 +1054,7 @@ class AttestationAem {
      *
      * @return string|null Returns the num certification sociale.
      */
-    public function getNumCertificationSociale(): ?string{
+    public function getNumCertificationSociale(): ?string {
         return $this->numCertificationSociale;
     }
 
@@ -1064,7 +1063,7 @@ class AttestationAem {
      *
      * @return string|null Returns the num idcc employeur.
      */
-    public function getNumIdccEmployeur(): ?string{
+    public function getNumIdccEmployeur(): ?string {
         return $this->numIdccEmployeur;
     }
 
@@ -1073,7 +1072,7 @@ class AttestationAem {
      *
      * @return string|null Returns the num idcc prestation travail.
      */
-    public function getNumIdccPrestationTravail(): ?string{
+    public function getNumIdccPrestationTravail(): ?string {
         return $this->numIdccPrestationTravail;
     }
 
@@ -1082,7 +1081,7 @@ class AttestationAem {
      *
      * @return string|null Returns the num objet.
      */
-    public function getNumObjet(): ?string{
+    public function getNumObjet(): ?string {
         return $this->numObjet;
     }
 
@@ -1091,7 +1090,7 @@ class AttestationAem {
      *
      * @return string|null Returns the numero aem initiale.
      */
-    public function getNumeroAemInitiale(): ?string{
+    public function getNumeroAemInitiale(): ?string {
         return $this->numeroAemInitiale;
     }
 
@@ -1100,7 +1099,7 @@ class AttestationAem {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -1109,7 +1108,7 @@ class AttestationAem {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -1118,7 +1117,7 @@ class AttestationAem {
      *
      * @return string|null Returns the numero label.
      */
-    public function getNumeroLabel(): ?string{
+    public function getNumeroLabel(): ?string {
         return $this->numeroLabel;
     }
 
@@ -1127,7 +1126,7 @@ class AttestationAem {
      *
      * @return string|null Returns the numero licence.
      */
-    public function getNumeroLicence(): ?string{
+    public function getNumeroLicence(): ?string {
         return $this->numeroLicence;
     }
 
@@ -1136,7 +1135,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the organisateur spectacle.
      */
-    public function getOrganisateurSpectacle(): ?bool{
+    public function getOrganisateurSpectacle(): ?bool {
         return $this->organisateurSpectacle;
     }
 
@@ -1145,7 +1144,7 @@ class AttestationAem {
      *
      * @return string|null Returns the organisme assedic.
      */
-    public function getOrganismeAssedic(): ?string{
+    public function getOrganismeAssedic(): ?string {
         return $this->organismeAssedic;
     }
 
@@ -1154,7 +1153,7 @@ class AttestationAem {
      *
      * @return string|null Returns the organisme retraite.
      */
-    public function getOrganismeRetraite(): ?string{
+    public function getOrganismeRetraite(): ?string {
         return $this->organismeRetraite;
     }
 
@@ -1163,7 +1162,7 @@ class AttestationAem {
      *
      * @return DateTime|null Returns the periode attest.
      */
-    public function getPeriodeAttest(): ?DateTime{
+    public function getPeriodeAttest(): ?DateTime {
         return $this->periodeAttest;
     }
 
@@ -1172,17 +1171,8 @@ class AttestationAem {
      *
      * @return string|null Returns the prenom.
      */
-    public function getPrenom(): ?string{
+    public function getPrenom(): ?string {
         return $this->prenom;
-    }
-
-    /**
-     * Get the siret.
-     *
-     * @return string|null Returns the siret.
-     */
-    public function getSiret(): ?string{
-        return $this->siret;
     }
 
     /**
@@ -1190,7 +1180,7 @@ class AttestationAem {
      *
      * @return DateTime|null Returns the signature date.
      */
-    public function getSignatureDate(): ?DateTime{
+    public function getSignatureDate(): ?DateTime {
         return $this->signatureDate;
     }
 
@@ -1199,7 +1189,7 @@ class AttestationAem {
      *
      * @return string|null Returns the signature nom.
      */
-    public function getSignatureNom(): ?string{
+    public function getSignatureNom(): ?string {
         return $this->signatureNom;
     }
 
@@ -1208,7 +1198,7 @@ class AttestationAem {
      *
      * @return string|null Returns the signature prenom.
      */
-    public function getSignaturePrenom(): ?string{
+    public function getSignaturePrenom(): ?string {
         return $this->signaturePrenom;
     }
 
@@ -1217,7 +1207,7 @@ class AttestationAem {
      *
      * @return string|null Returns the signature qualite.
      */
-    public function getSignatureQualite(): ?string{
+    public function getSignatureQualite(): ?string {
         return $this->signatureQualite;
     }
 
@@ -1226,7 +1216,7 @@ class AttestationAem {
      *
      * @return string|null Returns the signature qualite code.
      */
-    public function getSignatureQualiteCode(): ?string{
+    public function getSignatureQualiteCode(): ?string {
         return $this->signatureQualiteCode;
     }
 
@@ -1235,8 +1225,17 @@ class AttestationAem {
      *
      * @return string|null Returns the signature ville.
      */
-    public function getSignatureVille(): ?string{
+    public function getSignatureVille(): ?string {
         return $this->signatureVille;
+    }
+
+    /**
+     * Get the siret.
+     *
+     * @return string|null Returns the siret.
+     */
+    public function getSiret(): ?string {
+        return $this->siret;
     }
 
     /**
@@ -1244,7 +1243,7 @@ class AttestationAem {
      *
      * @return bool|null Returns the statut cadre.
      */
-    public function getStatutCadre(): ?bool{
+    public function getStatutCadre(): ?bool {
         return $this->statutCadre;
     }
 
@@ -1253,7 +1252,7 @@ class AttestationAem {
      *
      * @return float|null Returns the taux cotis.
      */
-    public function getTauxCotis(): ?float{
+    public function getTauxCotis(): ?float {
         return $this->tauxCotis;
     }
 
@@ -1262,7 +1261,7 @@ class AttestationAem {
      *
      * @return string|null Returns the tel contact.
      */
-    public function getTelContact(): ?string{
+    public function getTelContact(): ?string {
         return $this->telContact;
     }
 
@@ -1271,7 +1270,7 @@ class AttestationAem {
      *
      * @return string|null Returns the type aem.
      */
-    public function getTypeAem(): ?string{
+    public function getTypeAem(): ?string {
         return $this->typeAem;
     }
 
@@ -1280,7 +1279,7 @@ class AttestationAem {
      *
      * @return string|null Returns the type lien parente.
      */
-    public function getTypeLienParente(): ?string{
+    public function getTypeLienParente(): ?string {
         return $this->typeLienParente;
     }
 
@@ -1289,19 +1288,8 @@ class AttestationAem {
      *
      * @return string|null Returns the type nationalite.
      */
-    public function getTypeNationalite(): ?string{
+    public function getTypeNationalite(): ?string {
         return $this->typeNationalite;
-    }
-
-    /**
-     * Set the aem initiale.
-     *
-     * @param bool|null $aemInitiale The aem initiale.
-     * @return AttestationAem Returns this Attestation aem.
-     */
-    public function setAemInitiale(?bool $aemInitiale): AttestationAem {
-        $this->aemInitiale = $aemInitiale;
-        return $this;
     }
 
     /**
@@ -1312,6 +1300,17 @@ class AttestationAem {
      */
     public function setActivite(?string $activite): AttestationAem {
         $this->activite = $activite;
+        return $this;
+    }
+
+    /**
+     * Set the aem initiale.
+     *
+     * @param bool|null $aemInitiale The aem initiale.
+     * @return AttestationAem Returns this Attestation aem.
+     */
+    public function setAemInitiale(?bool $aemInitiale): AttestationAem {
+        $this->aemInitiale = $aemInitiale;
         return $this;
     }
 
@@ -1756,17 +1755,6 @@ class AttestationAem {
     }
 
     /**
-     * Set the nir.
-     *
-     * @param string|null $nir The nir.
-     * @return AttestationAem Returns this Attestation aem.
-     */
-    public function setNir(?string $nir): AttestationAem {
-        $this->nir = $nir;
-        return $this;
-    }
-
-    /**
      * Set the nb jour trav.
      *
      * @param float|null $nbJourTrav The nb jour trav.
@@ -1774,6 +1762,17 @@ class AttestationAem {
      */
     public function setNbJourTrav(?float $nbJourTrav): AttestationAem {
         $this->nbJourTrav = $nbJourTrav;
+        return $this;
+    }
+
+    /**
+     * Set the nir.
+     *
+     * @param string|null $nir The nir.
+     * @return AttestationAem Returns this Attestation aem.
+     */
+    public function setNir(?string $nir): AttestationAem {
+        $this->nir = $nir;
         return $this;
     }
 
@@ -2020,17 +2019,6 @@ class AttestationAem {
     }
 
     /**
-     * Set the siret.
-     *
-     * @param string|null $siret The siret.
-     * @return AttestationAem Returns this Attestation aem.
-     */
-    public function setSiret(?string $siret): AttestationAem {
-        $this->siret = $siret;
-        return $this;
-    }
-
-    /**
      * Set the signature date.
      *
      * @param DateTime|null $signatureDate The signature date.
@@ -2093,6 +2081,17 @@ class AttestationAem {
      */
     public function setSignatureVille(?string $signatureVille): AttestationAem {
         $this->signatureVille = $signatureVille;
+        return $this;
+    }
+
+    /**
+     * Set the siret.
+     *
+     * @param string|null $siret The siret.
+     * @return AttestationAem Returns this Attestation aem.
+     */
+    public function setSiret(?string $siret): AttestationAem {
+        $this->siret = $siret;
         return $this;
     }
 

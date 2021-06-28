@@ -61,7 +61,6 @@ class EmpDadsuAssuranceLignesContrat {
      */
     private $uniteGestion;
 
-
     /**
      * Constructor.
      */
@@ -74,7 +73,7 @@ class EmpDadsuAssuranceLignesContrat {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -83,7 +82,7 @@ class EmpDadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -92,7 +91,7 @@ class EmpDadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the nb enfants.
      */
-    public function getNbEnfants(): ?string{
+    public function getNbEnfants(): ?string {
         return $this->nbEnfants;
     }
 
@@ -101,7 +100,7 @@ class EmpDadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -110,7 +109,7 @@ class EmpDadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 
@@ -119,7 +118,7 @@ class EmpDadsuAssuranceLignesContrat {
      *
      * @return string|null Returns the unite gestion.
      */
-    public function getUniteGestion(): ?string{
+    public function getUniteGestion(): ?string {
         return $this->uniteGestion;
     }
 

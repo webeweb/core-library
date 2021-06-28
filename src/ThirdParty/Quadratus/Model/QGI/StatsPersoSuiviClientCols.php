@@ -110,7 +110,6 @@ class StatsPersoSuiviClientCols {
      */
     private $regleTous;
 
-
     /**
      * Constructor.
      */
@@ -123,7 +122,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the an n.
      */
-    public function getAnN(): ?string{
+    public function getAnN(): ?string {
         return $this->anN;
     }
 
@@ -132,7 +131,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -141,7 +140,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -150,7 +149,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -159,7 +158,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle autres.
      */
-    public function getRegleAutres(): ?string{
+    public function getRegleAutres(): ?string {
         return $this->regleAutres;
     }
 
@@ -168,7 +167,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle barn.
      */
-    public function getRegleBarn(): ?string{
+    public function getRegleBarn(): ?string {
         return $this->regleBarn;
     }
 
@@ -177,7 +176,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle bars.
      */
-    public function getRegleBars(): ?string{
+    public function getRegleBars(): ?string {
         return $this->regleBars;
     }
 
@@ -186,7 +185,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle bicrn.
      */
-    public function getRegleBicrn(): ?string{
+    public function getRegleBicrn(): ?string {
         return $this->regleBicrn;
     }
 
@@ -195,7 +194,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle bicrs.
      */
-    public function getRegleBicrs(): ?string{
+    public function getRegleBicrs(): ?string {
         return $this->regleBicrs;
     }
 
@@ -204,7 +203,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle bnc.
      */
-    public function getRegleBnc(): ?string{
+    public function getRegleBnc(): ?string {
         return $this->regleBnc;
     }
 
@@ -213,7 +212,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle sci.
      */
-    public function getRegleSci(): ?string{
+    public function getRegleSci(): ?string {
         return $this->regleSci;
     }
 
@@ -222,7 +221,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle scm.
      */
-    public function getRegleScm(): ?string{
+    public function getRegleScm(): ?string {
         return $this->regleScm;
     }
 
@@ -231,7 +230,7 @@ class StatsPersoSuiviClientCols {
      *
      * @return string|null Returns the regle tous.
      */
-    public function getRegleTous(): ?string{
+    public function getRegleTous(): ?string {
         return $this->regleTous;
     }
 

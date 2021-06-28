@@ -141,6 +141,41 @@ class Tarifs {
     private $famClient;
 
     /**
+     * Prix net tr1.
+     *
+     * @var bool|null
+     */
+    private $prixNetTr1;
+
+    /**
+     * Prix net tr2.
+     *
+     * @var bool|null
+     */
+    private $prixNetTr2;
+
+    /**
+     * Prix net tr3.
+     *
+     * @var bool|null
+     */
+    private $prixNetTr3;
+
+    /**
+     * Prix net tr4.
+     *
+     * @var bool|null
+     */
+    private $prixNetTr4;
+
+    /**
+     * Prix net tr5.
+     *
+     * @var bool|null
+     */
+    private $prixNetTr5;
+
+    /**
      * Pu article.
      *
      * @var bool|null
@@ -188,41 +223,6 @@ class Tarifs {
      * @var float|null
      */
     private $puTr5;
-
-    /**
-     * Prix net tr1.
-     *
-     * @var bool|null
-     */
-    private $prixNetTr1;
-
-    /**
-     * Prix net tr2.
-     *
-     * @var bool|null
-     */
-    private $prixNetTr2;
-
-    /**
-     * Prix net tr3.
-     *
-     * @var bool|null
-     */
-    private $prixNetTr3;
-
-    /**
-     * Prix net tr4.
-     *
-     * @var bool|null
-     */
-    private $prixNetTr4;
-
-    /**
-     * Prix net tr5.
-     *
-     * @var bool|null
-     */
-    private $prixNetTr5;
 
     /**
      * Qte tr1.
@@ -280,7 +280,6 @@ class Tarifs {
      */
     private $typeArticle;
 
-
     /**
      * Constructor.
      */
@@ -293,7 +292,7 @@ class Tarifs {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -302,7 +301,7 @@ class Tarifs {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -311,7 +310,7 @@ class Tarifs {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -320,7 +319,7 @@ class Tarifs {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -329,7 +328,7 @@ class Tarifs {
      *
      * @return string|null Returns the code col creation.
      */
-    public function getCodeColCreation(): ?string{
+    public function getCodeColCreation(): ?string {
         return $this->codeColCreation;
     }
 
@@ -338,7 +337,7 @@ class Tarifs {
      *
      * @return string|null Returns the code col modification.
      */
-    public function getCodeColModification(): ?string{
+    public function getCodeColModification(): ?string {
         return $this->codeColModification;
     }
 
@@ -347,7 +346,7 @@ class Tarifs {
      *
      * @return float|null Returns the coeff tr1.
      */
-    public function getCoeffTr1(): ?float{
+    public function getCoeffTr1(): ?float {
         return $this->coeffTr1;
     }
 
@@ -356,7 +355,7 @@ class Tarifs {
      *
      * @return float|null Returns the coeff tr2.
      */
-    public function getCoeffTr2(): ?float{
+    public function getCoeffTr2(): ?float {
         return $this->coeffTr2;
     }
 
@@ -365,7 +364,7 @@ class Tarifs {
      *
      * @return float|null Returns the coeff tr3.
      */
-    public function getCoeffTr3(): ?float{
+    public function getCoeffTr3(): ?float {
         return $this->coeffTr3;
     }
 
@@ -374,7 +373,7 @@ class Tarifs {
      *
      * @return float|null Returns the coeff tr4.
      */
-    public function getCoeffTr4(): ?float{
+    public function getCoeffTr4(): ?float {
         return $this->coeffTr4;
     }
 
@@ -383,7 +382,7 @@ class Tarifs {
      *
      * @return float|null Returns the coeff tr5.
      */
-    public function getCoeffTr5(): ?float{
+    public function getCoeffTr5(): ?float {
         return $this->coeffTr5;
     }
 
@@ -392,7 +391,7 @@ class Tarifs {
      *
      * @return DateTime|null Returns the date creation.
      */
-    public function getDateCreation(): ?DateTime{
+    public function getDateCreation(): ?DateTime {
         return $this->dateCreation;
     }
 
@@ -401,7 +400,7 @@ class Tarifs {
      *
      * @return DateTime|null Returns the date debut.
      */
-    public function getDateDebut(): ?DateTime{
+    public function getDateDebut(): ?DateTime {
         return $this->dateDebut;
     }
 
@@ -410,7 +409,7 @@ class Tarifs {
      *
      * @return DateTime|null Returns the date fin.
      */
-    public function getDateFin(): ?DateTime{
+    public function getDateFin(): ?DateTime {
         return $this->dateFin;
     }
 
@@ -419,7 +418,7 @@ class Tarifs {
      *
      * @return DateTime|null Returns the date modification.
      */
-    public function getDateModification(): ?DateTime{
+    public function getDateModification(): ?DateTime {
         return $this->dateModification;
     }
 
@@ -428,7 +427,7 @@ class Tarifs {
      *
      * @return string|null Returns the fam article.
      */
-    public function getFamArticle(): ?string{
+    public function getFamArticle(): ?string {
         return $this->famArticle;
     }
 
@@ -437,71 +436,8 @@ class Tarifs {
      *
      * @return string|null Returns the fam client.
      */
-    public function getFamClient(): ?string{
+    public function getFamClient(): ?string {
         return $this->famClient;
-    }
-
-    /**
-     * Get the pu article.
-     *
-     * @return bool|null Returns the pu article.
-     */
-    public function getPuArticle(): ?bool{
-        return $this->puArticle;
-    }
-
-    /**
-     * Get the pu base.
-     *
-     * @return float|null Returns the pu base.
-     */
-    public function getPuBase(): ?float{
-        return $this->puBase;
-    }
-
-    /**
-     * Get the pu tr1.
-     *
-     * @return float|null Returns the pu tr1.
-     */
-    public function getPuTr1(): ?float{
-        return $this->puTr1;
-    }
-
-    /**
-     * Get the pu tr2.
-     *
-     * @return float|null Returns the pu tr2.
-     */
-    public function getPuTr2(): ?float{
-        return $this->puTr2;
-    }
-
-    /**
-     * Get the pu tr3.
-     *
-     * @return float|null Returns the pu tr3.
-     */
-    public function getPuTr3(): ?float{
-        return $this->puTr3;
-    }
-
-    /**
-     * Get the pu tr4.
-     *
-     * @return float|null Returns the pu tr4.
-     */
-    public function getPuTr4(): ?float{
-        return $this->puTr4;
-    }
-
-    /**
-     * Get the pu tr5.
-     *
-     * @return float|null Returns the pu tr5.
-     */
-    public function getPuTr5(): ?float{
-        return $this->puTr5;
     }
 
     /**
@@ -509,7 +445,7 @@ class Tarifs {
      *
      * @return bool|null Returns the prix net tr1.
      */
-    public function getPrixNetTr1(): ?bool{
+    public function getPrixNetTr1(): ?bool {
         return $this->prixNetTr1;
     }
 
@@ -518,7 +454,7 @@ class Tarifs {
      *
      * @return bool|null Returns the prix net tr2.
      */
-    public function getPrixNetTr2(): ?bool{
+    public function getPrixNetTr2(): ?bool {
         return $this->prixNetTr2;
     }
 
@@ -527,7 +463,7 @@ class Tarifs {
      *
      * @return bool|null Returns the prix net tr3.
      */
-    public function getPrixNetTr3(): ?bool{
+    public function getPrixNetTr3(): ?bool {
         return $this->prixNetTr3;
     }
 
@@ -536,7 +472,7 @@ class Tarifs {
      *
      * @return bool|null Returns the prix net tr4.
      */
-    public function getPrixNetTr4(): ?bool{
+    public function getPrixNetTr4(): ?bool {
         return $this->prixNetTr4;
     }
 
@@ -545,8 +481,71 @@ class Tarifs {
      *
      * @return bool|null Returns the prix net tr5.
      */
-    public function getPrixNetTr5(): ?bool{
+    public function getPrixNetTr5(): ?bool {
         return $this->prixNetTr5;
+    }
+
+    /**
+     * Get the pu article.
+     *
+     * @return bool|null Returns the pu article.
+     */
+    public function getPuArticle(): ?bool {
+        return $this->puArticle;
+    }
+
+    /**
+     * Get the pu base.
+     *
+     * @return float|null Returns the pu base.
+     */
+    public function getPuBase(): ?float {
+        return $this->puBase;
+    }
+
+    /**
+     * Get the pu tr1.
+     *
+     * @return float|null Returns the pu tr1.
+     */
+    public function getPuTr1(): ?float {
+        return $this->puTr1;
+    }
+
+    /**
+     * Get the pu tr2.
+     *
+     * @return float|null Returns the pu tr2.
+     */
+    public function getPuTr2(): ?float {
+        return $this->puTr2;
+    }
+
+    /**
+     * Get the pu tr3.
+     *
+     * @return float|null Returns the pu tr3.
+     */
+    public function getPuTr3(): ?float {
+        return $this->puTr3;
+    }
+
+    /**
+     * Get the pu tr4.
+     *
+     * @return float|null Returns the pu tr4.
+     */
+    public function getPuTr4(): ?float {
+        return $this->puTr4;
+    }
+
+    /**
+     * Get the pu tr5.
+     *
+     * @return float|null Returns the pu tr5.
+     */
+    public function getPuTr5(): ?float {
+        return $this->puTr5;
     }
 
     /**
@@ -554,7 +553,7 @@ class Tarifs {
      *
      * @return float|null Returns the qte tr1.
      */
-    public function getQteTr1(): ?float{
+    public function getQteTr1(): ?float {
         return $this->qteTr1;
     }
 
@@ -563,7 +562,7 @@ class Tarifs {
      *
      * @return float|null Returns the qte tr2.
      */
-    public function getQteTr2(): ?float{
+    public function getQteTr2(): ?float {
         return $this->qteTr2;
     }
 
@@ -572,7 +571,7 @@ class Tarifs {
      *
      * @return float|null Returns the qte tr3.
      */
-    public function getQteTr3(): ?float{
+    public function getQteTr3(): ?float {
         return $this->qteTr3;
     }
 
@@ -581,7 +580,7 @@ class Tarifs {
      *
      * @return float|null Returns the qte tr4.
      */
-    public function getQteTr4(): ?float{
+    public function getQteTr4(): ?float {
         return $this->qteTr4;
     }
 
@@ -590,7 +589,7 @@ class Tarifs {
      *
      * @return float|null Returns the qte tr5.
      */
-    public function getQteTr5(): ?float{
+    public function getQteTr5(): ?float {
         return $this->qteTr5;
     }
 
@@ -599,7 +598,7 @@ class Tarifs {
      *
      * @return string|null Returns the sous fam client.
      */
-    public function getSousFamClient(): ?string{
+    public function getSousFamClient(): ?string {
         return $this->sousFamClient;
     }
 
@@ -608,7 +607,7 @@ class Tarifs {
      *
      * @return string|null Returns the type appli coef.
      */
-    public function getTypeAppliCoef(): ?string{
+    public function getTypeAppliCoef(): ?string {
         return $this->typeAppliCoef;
     }
 
@@ -617,7 +616,7 @@ class Tarifs {
      *
      * @return string|null Returns the type article.
      */
-    public function getTypeArticle(): ?string{
+    public function getTypeArticle(): ?string {
         return $this->typeArticle;
     }
 
@@ -809,6 +808,61 @@ class Tarifs {
     }
 
     /**
+     * Set the prix net tr1.
+     *
+     * @param bool|null $prixNetTr1 The prix net tr1.
+     * @return Tarifs Returns this Tarifs.
+     */
+    public function setPrixNetTr1(?bool $prixNetTr1): Tarifs {
+        $this->prixNetTr1 = $prixNetTr1;
+        return $this;
+    }
+
+    /**
+     * Set the prix net tr2.
+     *
+     * @param bool|null $prixNetTr2 The prix net tr2.
+     * @return Tarifs Returns this Tarifs.
+     */
+    public function setPrixNetTr2(?bool $prixNetTr2): Tarifs {
+        $this->prixNetTr2 = $prixNetTr2;
+        return $this;
+    }
+
+    /**
+     * Set the prix net tr3.
+     *
+     * @param bool|null $prixNetTr3 The prix net tr3.
+     * @return Tarifs Returns this Tarifs.
+     */
+    public function setPrixNetTr3(?bool $prixNetTr3): Tarifs {
+        $this->prixNetTr3 = $prixNetTr3;
+        return $this;
+    }
+
+    /**
+     * Set the prix net tr4.
+     *
+     * @param bool|null $prixNetTr4 The prix net tr4.
+     * @return Tarifs Returns this Tarifs.
+     */
+    public function setPrixNetTr4(?bool $prixNetTr4): Tarifs {
+        $this->prixNetTr4 = $prixNetTr4;
+        return $this;
+    }
+
+    /**
+     * Set the prix net tr5.
+     *
+     * @param bool|null $prixNetTr5 The prix net tr5.
+     * @return Tarifs Returns this Tarifs.
+     */
+    public function setPrixNetTr5(?bool $prixNetTr5): Tarifs {
+        $this->prixNetTr5 = $prixNetTr5;
+        return $this;
+    }
+
+    /**
      * Set the pu article.
      *
      * @param bool|null $puArticle The pu article.
@@ -882,61 +936,6 @@ class Tarifs {
      */
     public function setPuTr5(?float $puTr5): Tarifs {
         $this->puTr5 = $puTr5;
-        return $this;
-    }
-
-    /**
-     * Set the prix net tr1.
-     *
-     * @param bool|null $prixNetTr1 The prix net tr1.
-     * @return Tarifs Returns this Tarifs.
-     */
-    public function setPrixNetTr1(?bool $prixNetTr1): Tarifs {
-        $this->prixNetTr1 = $prixNetTr1;
-        return $this;
-    }
-
-    /**
-     * Set the prix net tr2.
-     *
-     * @param bool|null $prixNetTr2 The prix net tr2.
-     * @return Tarifs Returns this Tarifs.
-     */
-    public function setPrixNetTr2(?bool $prixNetTr2): Tarifs {
-        $this->prixNetTr2 = $prixNetTr2;
-        return $this;
-    }
-
-    /**
-     * Set the prix net tr3.
-     *
-     * @param bool|null $prixNetTr3 The prix net tr3.
-     * @return Tarifs Returns this Tarifs.
-     */
-    public function setPrixNetTr3(?bool $prixNetTr3): Tarifs {
-        $this->prixNetTr3 = $prixNetTr3;
-        return $this;
-    }
-
-    /**
-     * Set the prix net tr4.
-     *
-     * @param bool|null $prixNetTr4 The prix net tr4.
-     * @return Tarifs Returns this Tarifs.
-     */
-    public function setPrixNetTr4(?bool $prixNetTr4): Tarifs {
-        $this->prixNetTr4 = $prixNetTr4;
-        return $this;
-    }
-
-    /**
-     * Set the prix net tr5.
-     *
-     * @param bool|null $prixNetTr5 The prix net tr5.
-     * @return Tarifs Returns this Tarifs.
-     */
-    public function setPrixNetTr5(?bool $prixNetTr5): Tarifs {
-        $this->prixNetTr5 = $prixNetTr5;
         return $this;
     }
 

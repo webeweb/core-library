@@ -47,7 +47,6 @@ class ConventionsColLignesGrillesAnc {
      */
     private $valeur;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class ConventionsColLignesGrillesAnc {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -69,7 +68,7 @@ class ConventionsColLignesGrillesAnc {
      *
      * @return string|null Returns the code convention.
      */
-    public function getCodeConvention(): ?string{
+    public function getCodeConvention(): ?string {
         return $this->codeConvention;
     }
 
@@ -78,7 +77,7 @@ class ConventionsColLignesGrillesAnc {
      *
      * @return int|null Returns the nb mois ecoules.
      */
-    public function getNbMoisEcoules(): ?int{
+    public function getNbMoisEcoules(): ?int {
         return $this->nbMoisEcoules;
     }
 
@@ -87,7 +86,7 @@ class ConventionsColLignesGrillesAnc {
      *
      * @return float|null Returns the valeur.
      */
-    public function getValeur(): ?float{
+    public function getValeur(): ?float {
         return $this->valeur;
     }
 

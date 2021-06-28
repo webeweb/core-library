@@ -138,7 +138,6 @@ class DadsuPrevoyanceLignesContrat {
      */
     private $valeurCotisInitiale;
 
-
     /**
      * Constructor.
      */
@@ -151,7 +150,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code deleg gestion.
      */
-    public function getCodeDelegGestion(): ?string{
+    public function getCodeDelegGestion(): ?string {
         return $this->codeDelegGestion;
     }
 
@@ -160,7 +159,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -169,7 +168,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code option.
      */
-    public function getCodeOption(): ?string{
+    public function getCodeOption(): ?string {
         return $this->codeOption;
     }
 
@@ -178,7 +177,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -187,7 +186,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the code population.
      */
-    public function getCodePopulation(): ?string{
+    public function getCodePopulation(): ?string {
         return $this->codePopulation;
     }
 
@@ -196,7 +195,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -205,7 +204,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the periode affectation.
      */
-    public function getPeriodeAffectation(): ?string{
+    public function getPeriodeAffectation(): ?string {
         return $this->periodeAffectation;
     }
 
@@ -214,7 +213,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the qualification frais sante.
      */
-    public function getQualificationFraisSante(): ?string{
+    public function getQualificationFraisSante(): ?string {
         return $this->qualificationFraisSante;
     }
 
@@ -223,7 +222,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 
@@ -232,7 +231,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the type cotis.
      */
-    public function getTypeCotis(): ?string{
+    public function getTypeCotis(): ?string {
         return $this->typeCotis;
     }
 
@@ -241,7 +240,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the type population.
      */
-    public function getTypePopulation(): ?string{
+    public function getTypePopulation(): ?string {
         return $this->typePopulation;
     }
 
@@ -250,7 +249,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the unite date ancien branche.
      */
-    public function getUniteDateAncienBranche(): ?string{
+    public function getUniteDateAncienBranche(): ?string {
         return $this->uniteDateAncienBranche;
     }
 
@@ -259,7 +258,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the unite date ancien college.
      */
-    public function getUniteDateAncienCollege(): ?string{
+    public function getUniteDateAncienCollege(): ?string {
         return $this->uniteDateAncienCollege;
     }
 
@@ -268,7 +267,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the unite date ancien poste.
      */
-    public function getUniteDateAncienPoste(): ?string{
+    public function getUniteDateAncienPoste(): ?string {
         return $this->uniteDateAncienPoste;
     }
 
@@ -277,7 +276,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return string|null Returns the unite prem date entree.
      */
-    public function getUnitePremDateEntree(): ?string{
+    public function getUnitePremDateEntree(): ?string {
         return $this->unitePremDateEntree;
     }
 
@@ -286,7 +285,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return float|null Returns the valeur cotis.
      */
-    public function getValeurCotis(): ?float{
+    public function getValeurCotis(): ?float {
         return $this->valeurCotis;
     }
 
@@ -295,7 +294,7 @@ class DadsuPrevoyanceLignesContrat {
      *
      * @return float|null Returns the valeur cotis initiale.
      */
-    public function getValeurCotisInitiale(): ?float{
+    public function getValeurCotisInitiale(): ?float {
         return $this->valeurCotisInitiale;
     }
 

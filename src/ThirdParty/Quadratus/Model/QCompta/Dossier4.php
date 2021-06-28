@@ -64,6 +64,13 @@ class Dossier4 {
     private $archiveDeclTva;
 
     /**
+     * b ca12 t.
+     *
+     * @var bool|null
+     */
+    private $bCa12T;
+
+    /**
      * Bal agee nb jours int1.
      *
      * @var int|null
@@ -274,13 +281,6 @@ class Dossier4 {
     private $declTvaRegime;
 
     /**
-     * Ftiscice.
-     *
-     * @var float|null
-     */
-    private $ftiscice;
-
-    /**
      * Ftis contrib mtt.
      *
      * @var float|null
@@ -314,6 +314,13 @@ class Dossier4 {
      * @var string|null
      */
     private $ftisNumCpt2;
+
+    /**
+     * Ftiscice.
+     *
+     * @var float|null
+     */
+    private $ftiscice;
 
     /**
      * Immo realloc.
@@ -386,13 +393,6 @@ class Dossier4 {
     private $interetsPca2;
 
     /**
-     * No lot cvae.
-     *
-     * @var int|null
-     */
-    private $noLotCvae;
-
-    /**
      * No lot cpt recip.
      *
      * @var int|null
@@ -407,11 +407,11 @@ class Dossier4 {
     private $noLotCreditIs;
 
     /**
-     * No lot is.
+     * No lot cvae.
      *
      * @var int|null
      */
-    private $noLotIs;
+    private $noLotCvae;
 
     /**
      * No lot interets.
@@ -426,6 +426,13 @@ class Dossier4 {
      * @var int|null
      */
     private $noLotInterets2;
+
+    /**
+     * No lot is.
+     *
+     * @var int|null
+     */
+    private $noLotIs;
 
     /**
      * No lot paiement is.
@@ -470,272 +477,6 @@ class Dossier4 {
     private $rofTva;
 
     /**
-     * Tvabic vir.
-     *
-     * @var string|null
-     */
-    private $tvabicVir;
-
-    /**
-     * Tva cloture faite.
-     *
-     * @var bool|null
-     */
-    private $tvaClotureFaite;
-
-    /**
-     * Tva code cabinet.
-     *
-     * @var string|null
-     */
-    private $tvaCodeCabinet;
-
-    /**
-     * Tva code int emetteur.
-     *
-     * @var string|null
-     */
-    private $tvaCodeIntEmetteur;
-
-    /**
-     * Tva code int recepteur.
-     *
-     * @var string|null
-     */
-    private $tvaCodeIntRecepteur;
-
-    /**
-     * Tva cpt difference.
-     *
-     * @var string|null
-     */
-    private $tvaCptDifference;
-
-    /**
-     * Tva deb3 jrn exclure.
-     *
-     * @var string|null
-     */
-    private $tvaDeb3JrnExclure;
-
-    /**
-     * Tva dest attn.
-     *
-     * @var string|null
-     */
-    private $tvaDestAttn;
-
-    /**
-     * Tva dest fax.
-     *
-     * @var string|null
-     */
-    private $tvaDestFax;
-
-    /**
-     * Tva dest nom.
-     *
-     * @var string|null
-     */
-    private $tvaDestNom;
-
-    /**
-     * Tvaedi edition.
-     *
-     * @var bool|null
-     */
-    private $tvaediEdition;
-
-    /**
-     * Tva emetteur is cab.
-     *
-     * @var bool|null
-     */
-    private $tvaEmetteurIsCab;
-
-    /**
-     * Tva envoyer mail.
-     *
-     * @var bool|null
-     */
-    private $tvaEnvoyerMail;
-
-    /**
-     * Tva etab btq.
-     *
-     * @var string|null
-     */
-    private $tvaEtabBtq;
-
-    /**
-     * Tva etab bureau distributeur.
-     *
-     * @var string|null
-     */
-    private $tvaEtabBureauDistributeur;
-
-    /**
-     * Tva etab code postal.
-     *
-     * @var string|null
-     */
-    private $tvaEtabCodePostal;
-
-    /**
-     * Tva etab complement.
-     *
-     * @var string|null
-     */
-    private $tvaEtabComplement;
-
-    /**
-     * Tva etab nom.
-     *
-     * @var string|null
-     */
-    private $tvaEtabNom;
-
-    /**
-     * Tva etab nom voie.
-     *
-     * @var string|null
-     */
-    private $tvaEtabNomVoie;
-
-    /**
-     * Tva etab num voie.
-     *
-     * @var string|null
-     */
-    private $tvaEtabNumVoie;
-
-    /**
-     * Tva exp nom.
-     *
-     * @var string|null
-     */
-    private $tvaExpNom;
-
-    /**
-     * Tvaiban vir.
-     *
-     * @var string|null
-     */
-    private $tvaibanVir;
-
-    /**
-     * Tva mail pj.
-     *
-     * @var bool|null
-     */
-    private $tvaMailPj;
-
-    /**
-     * Tva moyen paiement.
-     *
-     * @var int|null
-     */
-    private $tvaMoyenPaiement;
-
-    /**
-     * Tva nom vir.
-     *
-     * @var string|null
-     */
-    private $tvaNomVir;
-
-    /**
-     * Tvarib vir.
-     *
-     * @var string|null
-     */
-    private $tvaribVir;
-
-    /**
-     * Tva recepteur je declare.
-     *
-     * @var bool|null
-     */
-    private $tvaRecepteurJeDeclare;
-
-    /**
-     * Tva signataire.
-     *
-     * @var string|null
-     */
-    private $tvaSignataire;
-
-    /**
-     * Tvatlra bic1.
-     *
-     * @var string|null
-     */
-    private $tvatlraBic1;
-
-    /**
-     * Tvatlra bic2.
-     *
-     * @var string|null
-     */
-    private $tvatlraBic2;
-
-    /**
-     * Tvatlra bic3.
-     *
-     * @var string|null
-     */
-    private $tvatlraBic3;
-
-    /**
-     * Tvatlra iban1.
-     *
-     * @var string|null
-     */
-    private $tvatlraIban1;
-
-    /**
-     * Tvatlra iban2.
-     *
-     * @var string|null
-     */
-    private $tvatlraIban2;
-
-    /**
-     * Tvatlra iban3.
-     *
-     * @var string|null
-     */
-    private $tvatlraIban3;
-
-    /**
-     * Tvatlra rib1.
-     *
-     * @var string|null
-     */
-    private $tvatlraRib1;
-
-    /**
-     * Tvatlra rib2.
-     *
-     * @var string|null
-     */
-    private $tvatlraRib2;
-
-    /**
-     * Tvatlra rib3.
-     *
-     * @var string|null
-     */
-    private $tvatlraRib3;
-
-    /**
-     * Tva vire crlf.
-     *
-     * @var bool|null
-     */
-    private $tvaVireCrlf;
-
-    /**
      * Taux plafond interets.
      *
      * @var float|null
@@ -776,6 +517,34 @@ class Dossier4 {
      * @var bool|null
      */
     private $tvaCascade;
+
+    /**
+     * Tva cloture faite.
+     *
+     * @var bool|null
+     */
+    private $tvaClotureFaite;
+
+    /**
+     * Tva code cabinet.
+     *
+     * @var string|null
+     */
+    private $tvaCodeCabinet;
+
+    /**
+     * Tva code int emetteur.
+     *
+     * @var string|null
+     */
+    private $tvaCodeIntEmetteur;
+
+    /**
+     * Tva code int recepteur.
+     *
+     * @var string|null
+     */
+    private $tvaCodeIntRecepteur;
 
     /**
      * Tva code journal bq.
@@ -890,6 +659,13 @@ class Dossier4 {
     private $tvaCptBiensIntraCom;
 
     /**
+     * Tva cpt difference.
+     *
+     * @var string|null
+     */
+    private $tvaCptDifference;
+
+    /**
      * Tva cpt dom.
      *
      * @var string|null
@@ -967,6 +743,34 @@ class Dossier4 {
     private $tvaCptVente;
 
     /**
+     * Tva deb3 jrn exclure.
+     *
+     * @var string|null
+     */
+    private $tvaDeb3JrnExclure;
+
+    /**
+     * Tva dest attn.
+     *
+     * @var string|null
+     */
+    private $tvaDestAttn;
+
+    /**
+     * Tva dest fax.
+     *
+     * @var string|null
+     */
+    private $tvaDestFax;
+
+    /**
+     * Tva dest nom.
+     *
+     * @var string|null
+     */
+    private $tvaDestNom;
+
+    /**
      * Tva e4 dbs.
      *
      * @var string|null
@@ -979,6 +783,13 @@ class Dossier4 {
      * @var string|null
      */
     private $tvaE4Di;
+
+    /**
+     * Tva e4 r jrn od.
+     *
+     * @var string|null
+     */
+    private $tvaE4RJrnOd;
 
     /**
      * Tva e4 rbs.
@@ -995,11 +806,11 @@ class Dossier4 {
     private $tvaE4Ri;
 
     /**
-     * Tva e4 r jrn od.
+     * Tva emetteur is cab.
      *
-     * @var string|null
+     * @var bool|null
      */
-    private $tvaE4RJrnOd;
+    private $tvaEmetteurIsCab;
 
     /**
      * Tva enc3 der per rech da.
@@ -1009,6 +820,69 @@ class Dossier4 {
     private $tvaEnc3DerPerRechDa;
 
     /**
+     * Tva envoyer mail.
+     *
+     * @var bool|null
+     */
+    private $tvaEnvoyerMail;
+
+    /**
+     * Tva etab btq.
+     *
+     * @var string|null
+     */
+    private $tvaEtabBtq;
+
+    /**
+     * Tva etab bureau distributeur.
+     *
+     * @var string|null
+     */
+    private $tvaEtabBureauDistributeur;
+
+    /**
+     * Tva etab code postal.
+     *
+     * @var string|null
+     */
+    private $tvaEtabCodePostal;
+
+    /**
+     * Tva etab complement.
+     *
+     * @var string|null
+     */
+    private $tvaEtabComplement;
+
+    /**
+     * Tva etab nom.
+     *
+     * @var string|null
+     */
+    private $tvaEtabNom;
+
+    /**
+     * Tva etab nom voie.
+     *
+     * @var string|null
+     */
+    private $tvaEtabNomVoie;
+
+    /**
+     * Tva etab num voie.
+     *
+     * @var string|null
+     */
+    private $tvaEtabNumVoie;
+
+    /**
+     * Tva exp nom.
+     *
+     * @var string|null
+     */
+    private $tvaExpNom;
+
+    /**
      * Tva jour decla.
      *
      * @var string|null
@@ -1016,11 +890,32 @@ class Dossier4 {
     private $tvaJourDecla;
 
     /**
+     * Tva mail pj.
+     *
+     * @var bool|null
+     */
+    private $tvaMailPj;
+
+    /**
      * Tva methode.
      *
      * @var string|null
      */
     private $tvaMethode;
+
+    /**
+     * Tva moyen paiement.
+     *
+     * @var int|null
+     */
+    private $tvaMoyenPaiement;
+
+    /**
+     * Tva nom vir.
+     *
+     * @var string|null
+     */
+    private $tvaNomVir;
 
     /**
      * Tva parametrage ok.
@@ -1044,6 +939,13 @@ class Dossier4 {
     private $tvaPrefixeIntracom;
 
     /**
+     * Tva recepteur je declare.
+     *
+     * @var bool|null
+     */
+    private $tvaRecepteurJeDeclare;
+
+    /**
      * Tva regime.
      *
      * @var string|null
@@ -1051,11 +953,116 @@ class Dossier4 {
     private $tvaRegime;
 
     /**
+     * Tva signataire.
+     *
+     * @var string|null
+     */
+    private $tvaSignataire;
+
+    /**
      * Tva type.
      *
      * @var string|null
      */
     private $tvaType;
+
+    /**
+     * Tva vire crlf.
+     *
+     * @var bool|null
+     */
+    private $tvaVireCrlf;
+
+    /**
+     * Tvabic vir.
+     *
+     * @var string|null
+     */
+    private $tvabicVir;
+
+    /**
+     * Tvaedi edition.
+     *
+     * @var bool|null
+     */
+    private $tvaediEdition;
+
+    /**
+     * Tvaiban vir.
+     *
+     * @var string|null
+     */
+    private $tvaibanVir;
+
+    /**
+     * Tvarib vir.
+     *
+     * @var string|null
+     */
+    private $tvaribVir;
+
+    /**
+     * Tvatlra bic1.
+     *
+     * @var string|null
+     */
+    private $tvatlraBic1;
+
+    /**
+     * Tvatlra bic2.
+     *
+     * @var string|null
+     */
+    private $tvatlraBic2;
+
+    /**
+     * Tvatlra bic3.
+     *
+     * @var string|null
+     */
+    private $tvatlraBic3;
+
+    /**
+     * Tvatlra iban1.
+     *
+     * @var string|null
+     */
+    private $tvatlraIban1;
+
+    /**
+     * Tvatlra iban2.
+     *
+     * @var string|null
+     */
+    private $tvatlraIban2;
+
+    /**
+     * Tvatlra iban3.
+     *
+     * @var string|null
+     */
+    private $tvatlraIban3;
+
+    /**
+     * Tvatlra rib1.
+     *
+     * @var string|null
+     */
+    private $tvatlraRib1;
+
+    /**
+     * Tvatlra rib2.
+     *
+     * @var string|null
+     */
+    private $tvatlraRib2;
+
+    /**
+     * Tvatlra rib3.
+     *
+     * @var string|null
+     */
+    private $tvatlraRib3;
 
     /**
      * Vmp code jrn pmv.
@@ -1107,14 +1114,6 @@ class Dossier4 {
     private $yaTauxReduit;
 
     /**
-     * b ca12 t.
-     *
-     * @var bool|null
-     */
-    private $bCa12T;
-
-
-    /**
      * Constructor.
      */
     public function __construct() {
@@ -1126,7 +1125,7 @@ class Dossier4 {
      *
      * @return float|null Returns the acompte1.
      */
-    public function getAcompte1(): ?float{
+    public function getAcompte1(): ?float {
         return $this->acompte1;
     }
 
@@ -1135,7 +1134,7 @@ class Dossier4 {
      *
      * @return float|null Returns the acompte2.
      */
-    public function getAcompte2(): ?float{
+    public function getAcompte2(): ?float {
         return $this->acompte2;
     }
 
@@ -1144,7 +1143,7 @@ class Dossier4 {
      *
      * @return float|null Returns the acompte3.
      */
-    public function getAcompte3(): ?float{
+    public function getAcompte3(): ?float {
         return $this->acompte3;
     }
 
@@ -1153,7 +1152,7 @@ class Dossier4 {
      *
      * @return float|null Returns the acompte4.
      */
-    public function getAcompte4(): ?float{
+    public function getAcompte4(): ?float {
         return $this->acompte4;
     }
 
@@ -1162,7 +1161,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the arch imp3519 tva.
      */
-    public function getArchImp3519Tva(): ?bool{
+    public function getArchImp3519Tva(): ?bool {
         return $this->archImp3519Tva;
     }
 
@@ -1171,7 +1170,7 @@ class Dossier4 {
      *
      * @return int|null Returns the archive decl tva.
      */
-    public function getArchiveDeclTva(): ?int{
+    public function getArchiveDeclTva(): ?int {
         return $this->archiveDeclTva;
     }
 
@@ -1180,7 +1179,7 @@ class Dossier4 {
      *
      * @return int|null Returns the bal agee nb jours int1.
      */
-    public function getBalAgeeNbJoursInt1(): ?int{
+    public function getBalAgeeNbJoursInt1(): ?int {
         return $this->balAgeeNbJoursInt1;
     }
 
@@ -1189,7 +1188,7 @@ class Dossier4 {
      *
      * @return int|null Returns the bal agee nb jours int2.
      */
-    public function getBalAgeeNbJoursInt2(): ?int{
+    public function getBalAgeeNbJoursInt2(): ?int {
         return $this->balAgeeNbJoursInt2;
     }
 
@@ -1198,7 +1197,7 @@ class Dossier4 {
      *
      * @return int|null Returns the bal agee nb jours int3.
      */
-    public function getBalAgeeNbJoursInt3(): ?int{
+    public function getBalAgeeNbJoursInt3(): ?int {
         return $this->balAgeeNbJoursInt3;
     }
 
@@ -1207,7 +1206,7 @@ class Dossier4 {
      *
      * @return int|null Returns the bal agee nb jours int4.
      */
-    public function getBalAgeeNbJoursInt4(): ?int{
+    public function getBalAgeeNbJoursInt4(): ?int {
         return $this->balAgeeNbJoursInt4;
     }
 
@@ -1216,7 +1215,7 @@ class Dossier4 {
      *
      * @return float|null Returns the base15pcent.
      */
-    public function getBase15pcent(): ?float{
+    public function getBase15pcent(): ?float {
         return $this->base15pcent;
     }
 
@@ -1225,7 +1224,7 @@ class Dossier4 {
      *
      * @return float|null Returns the base33pcent.
      */
-    public function getBase33pcent(): ?float{
+    public function getBase33pcent(): ?float {
         return $this->base33pcent;
     }
 
@@ -1234,7 +1233,7 @@ class Dossier4 {
      *
      * @return float|null Returns the base t npcent.
      */
-    public function getBaseTNpcent(): ?float{
+    public function getBaseTNpcent(): ?float {
         return $this->baseTNpcent;
     }
 
@@ -1243,7 +1242,7 @@ class Dossier4 {
      *
      * @return int|null Returns the categorie pme.
      */
-    public function getCategoriePme(): ?int{
+    public function getCategoriePme(): ?int {
         return $this->categoriePme;
     }
 
@@ -1252,7 +1251,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi btq.
      */
-    public function getCdiBtq(): ?string{
+    public function getCdiBtq(): ?string {
         return $this->cdiBtq;
     }
 
@@ -1261,7 +1260,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi bureau distributeur.
      */
-    public function getCdiBureauDistributeur(): ?string{
+    public function getCdiBureauDistributeur(): ?string {
         return $this->cdiBureauDistributeur;
     }
 
@@ -1270,7 +1269,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi code officiel commune.
      */
-    public function getCdiCodeOfficielCommune(): ?string{
+    public function getCdiCodeOfficielCommune(): ?string {
         return $this->cdiCodeOfficielCommune;
     }
 
@@ -1279,7 +1278,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi code postal.
      */
-    public function getCdiCodePostal(): ?string{
+    public function getCdiCodePostal(): ?string {
         return $this->cdiCodePostal;
     }
 
@@ -1288,7 +1287,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi complement.
      */
-    public function getCdiComplement(): ?string{
+    public function getCdiComplement(): ?string {
         return $this->cdiComplement;
     }
 
@@ -1297,7 +1296,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi nom.
      */
-    public function getCdiNom(): ?string{
+    public function getCdiNom(): ?string {
         return $this->cdiNom;
     }
 
@@ -1306,7 +1305,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi nom ville.
      */
-    public function getCdiNomVille(): ?string{
+    public function getCdiNomVille(): ?string {
         return $this->cdiNomVille;
     }
 
@@ -1315,7 +1314,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi nom voie.
      */
-    public function getCdiNomVoie(): ?string{
+    public function getCdiNomVoie(): ?string {
         return $this->cdiNomVoie;
     }
 
@@ -1324,7 +1323,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi num voie.
      */
-    public function getCdiNumVoie(): ?string{
+    public function getCdiNumVoie(): ?string {
         return $this->cdiNumVoie;
     }
 
@@ -1333,7 +1332,7 @@ class Dossier4 {
      *
      * @return string|null Returns the cdi tel1.
      */
-    public function getCdiTel1(): ?string{
+    public function getCdiTel1(): ?string {
         return $this->cdiTel1;
     }
 
@@ -1342,7 +1341,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the date plafond interets.
      */
-    public function getDatePlafondInterets(): ?DateTime{
+    public function getDatePlafondInterets(): ?DateTime {
         return $this->datePlafondInterets;
     }
 
@@ -1351,7 +1350,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the date plafond interets2.
      */
-    public function getDatePlafondInterets2(): ?DateTime{
+    public function getDatePlafondInterets2(): ?DateTime {
         return $this->datePlafondInterets2;
     }
 
@@ -1360,7 +1359,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the date transf lot cvae.
      */
-    public function getDateTransfLotCvae(): ?DateTime{
+    public function getDateTransfLotCvae(): ?DateTime {
         return $this->dateTransfLotCvae;
     }
 
@@ -1369,7 +1368,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the date transf lot is.
      */
-    public function getDateTransfLotIs(): ?DateTime{
+    public function getDateTransfLotIs(): ?DateTime {
         return $this->dateTransfLotIs;
     }
 
@@ -1378,7 +1377,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the date transfert interets.
      */
-    public function getDateTransfertInterets(): ?DateTime{
+    public function getDateTransfertInterets(): ?DateTime {
         return $this->dateTransfertInterets;
     }
 
@@ -1387,7 +1386,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the date transfert interets2.
      */
-    public function getDateTransfertInterets2(): ?DateTime{
+    public function getDateTransfertInterets2(): ?DateTime {
         return $this->dateTransfertInterets2;
     }
 
@@ -1396,7 +1395,7 @@ class Dossier4 {
      *
      * @return int|null Returns the dec tva type reglement.
      */
-    public function getDecTvaTypeReglement(): ?int{
+    public function getDecTvaTypeReglement(): ?int {
         return $this->decTvaTypeReglement;
     }
 
@@ -1405,7 +1404,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the decalage quinzaine.
      */
-    public function getDecalageQuinzaine(): ?bool{
+    public function getDecalageQuinzaine(): ?bool {
         return $this->decalageQuinzaine;
     }
 
@@ -1414,7 +1413,7 @@ class Dossier4 {
      *
      * @return string|null Returns the decl reference paiement.
      */
-    public function getDeclReferencePaiement(): ?string{
+    public function getDeclReferencePaiement(): ?string {
         return $this->declReferencePaiement;
     }
 
@@ -1423,7 +1422,7 @@ class Dossier4 {
      *
      * @return string|null Returns the decl tva cdi.
      */
-    public function getDeclTvaCdi(): ?string{
+    public function getDeclTvaCdi(): ?string {
         return $this->declTvaCdi;
     }
 
@@ -1432,7 +1431,7 @@ class Dossier4 {
      *
      * @return string|null Returns the decl tva insp.
      */
-    public function getDeclTvaInsp(): ?string{
+    public function getDeclTvaInsp(): ?string {
         return $this->declTvaInsp;
     }
 
@@ -1441,17 +1440,8 @@ class Dossier4 {
      *
      * @return string|null Returns the decl tva regime.
      */
-    public function getDeclTvaRegime(): ?string{
+    public function getDeclTvaRegime(): ?string {
         return $this->declTvaRegime;
-    }
-
-    /**
-     * Get the ftiscice.
-     *
-     * @return float|null Returns the ftiscice.
-     */
-    public function getFtiscice(): ?float{
-        return $this->ftiscice;
     }
 
     /**
@@ -1459,7 +1449,7 @@ class Dossier4 {
      *
      * @return float|null Returns the ftis contrib mtt.
      */
-    public function getFtisContribMtt(): ?float{
+    public function getFtisContribMtt(): ?float {
         return $this->ftisContribMtt;
     }
 
@@ -1468,7 +1458,7 @@ class Dossier4 {
      *
      * @return float|null Returns the ftis credit impot.
      */
-    public function getFtisCreditImpot(): ?float{
+    public function getFtisCreditImpot(): ?float {
         return $this->ftisCreditImpot;
     }
 
@@ -1477,7 +1467,7 @@ class Dossier4 {
      *
      * @return float|null Returns the ftis deficits reportables.
      */
-    public function getFtisDeficitsReportables(): ?float{
+    public function getFtisDeficitsReportables(): ?float {
         return $this->ftisDeficitsReportables;
     }
 
@@ -1486,7 +1476,7 @@ class Dossier4 {
      *
      * @return string|null Returns the ftis num cpt1.
      */
-    public function getFtisNumCpt1(): ?string{
+    public function getFtisNumCpt1(): ?string {
         return $this->ftisNumCpt1;
     }
 
@@ -1495,8 +1485,17 @@ class Dossier4 {
      *
      * @return string|null Returns the ftis num cpt2.
      */
-    public function getFtisNumCpt2(): ?string{
+    public function getFtisNumCpt2(): ?string {
         return $this->ftisNumCpt2;
+    }
+
+    /**
+     * Get the ftiscice.
+     *
+     * @return float|null Returns the ftiscice.
+     */
+    public function getFtiscice(): ?float {
+        return $this->ftiscice;
     }
 
     /**
@@ -1504,7 +1503,7 @@ class Dossier4 {
      *
      * @return int|null Returns the immo realloc.
      */
-    public function getImmoRealloc(): ?int{
+    public function getImmoRealloc(): ?int {
         return $this->immoRealloc;
     }
 
@@ -1513,7 +1512,7 @@ class Dossier4 {
      *
      * @return float|null Returns the interet base.
      */
-    public function getInteretBase(): ?float{
+    public function getInteretBase(): ?float {
         return $this->interetBase;
     }
 
@@ -1522,7 +1521,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets cap.
      */
-    public function getInteretsCap(): ?string{
+    public function getInteretsCap(): ?string {
         return $this->interetsCap;
     }
 
@@ -1531,7 +1530,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets cap2.
      */
-    public function getInteretsCap2(): ?string{
+    public function getInteretsCap2(): ?string {
         return $this->interetsCap2;
     }
 
@@ -1540,7 +1539,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets contrepartie.
      */
-    public function getInteretsContrepartie(): ?string{
+    public function getInteretsContrepartie(): ?string {
         return $this->interetsContrepartie;
     }
 
@@ -1549,7 +1548,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets contrepartie2.
      */
-    public function getInteretsContrepartie2(): ?string{
+    public function getInteretsContrepartie2(): ?string {
         return $this->interetsContrepartie2;
     }
 
@@ -1558,7 +1557,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets contrepartie deduc.
      */
-    public function getInteretsContrepartieDeduc(): ?string{
+    public function getInteretsContrepartieDeduc(): ?string {
         return $this->interetsContrepartieDeduc;
     }
 
@@ -1567,7 +1566,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets contrepartie deduc2.
      */
-    public function getInteretsContrepartieDeduc2(): ?string{
+    public function getInteretsContrepartieDeduc2(): ?string {
         return $this->interetsContrepartieDeduc2;
     }
 
@@ -1576,7 +1575,7 @@ class Dossier4 {
      *
      * @return string|null Returns the interets pca.
      */
-    public function getInteretsPca(): ?string{
+    public function getInteretsPca(): ?string {
         return $this->interetsPca;
     }
 
@@ -1585,17 +1584,8 @@ class Dossier4 {
      *
      * @return string|null Returns the interets pca2.
      */
-    public function getInteretsPca2(): ?string{
+    public function getInteretsPca2(): ?string {
         return $this->interetsPca2;
-    }
-
-    /**
-     * Get the no lot cvae.
-     *
-     * @return int|null Returns the no lot cvae.
-     */
-    public function getNoLotCvae(): ?int{
-        return $this->noLotCvae;
     }
 
     /**
@@ -1603,7 +1593,7 @@ class Dossier4 {
      *
      * @return int|null Returns the no lot cpt recip.
      */
-    public function getNoLotCptRecip(): ?int{
+    public function getNoLotCptRecip(): ?int {
         return $this->noLotCptRecip;
     }
 
@@ -1612,17 +1602,17 @@ class Dossier4 {
      *
      * @return int|null Returns the no lot credit is.
      */
-    public function getNoLotCreditIs(): ?int{
+    public function getNoLotCreditIs(): ?int {
         return $this->noLotCreditIs;
     }
 
     /**
-     * Get the no lot is.
+     * Get the no lot cvae.
      *
-     * @return int|null Returns the no lot is.
+     * @return int|null Returns the no lot cvae.
      */
-    public function getNoLotIs(): ?int{
-        return $this->noLotIs;
+    public function getNoLotCvae(): ?int {
+        return $this->noLotCvae;
     }
 
     /**
@@ -1630,7 +1620,7 @@ class Dossier4 {
      *
      * @return int|null Returns the no lot interets.
      */
-    public function getNoLotInterets(): ?int{
+    public function getNoLotInterets(): ?int {
         return $this->noLotInterets;
     }
 
@@ -1639,8 +1629,17 @@ class Dossier4 {
      *
      * @return int|null Returns the no lot interets2.
      */
-    public function getNoLotInterets2(): ?int{
+    public function getNoLotInterets2(): ?int {
         return $this->noLotInterets2;
+    }
+
+    /**
+     * Get the no lot is.
+     *
+     * @return int|null Returns the no lot is.
+     */
+    public function getNoLotIs(): ?int {
+        return $this->noLotIs;
     }
 
     /**
@@ -1648,7 +1647,7 @@ class Dossier4 {
      *
      * @return int|null Returns the no lot paiement is.
      */
-    public function getNoLotPaiementIs(): ?int{
+    public function getNoLotPaiementIs(): ?int {
         return $this->noLotPaiementIs;
     }
 
@@ -1657,7 +1656,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the periode transfert stock.
      */
-    public function getPeriodeTransfertStock(): ?DateTime{
+    public function getPeriodeTransfertStock(): ?DateTime {
         return $this->periodeTransfertStock;
     }
 
@@ -1666,7 +1665,7 @@ class Dossier4 {
      *
      * @return int|null Returns the precedent num lot stock.
      */
-    public function getPrecedentNumLotStock(): ?int{
+    public function getPrecedentNumLotStock(): ?int {
         return $this->precedentNumLotStock;
     }
 
@@ -1675,7 +1674,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the regime agricole.
      */
-    public function getRegimeAgricole(): ?bool{
+    public function getRegimeAgricole(): ?bool {
         return $this->regimeAgricole;
     }
 
@@ -1684,7 +1683,7 @@ class Dossier4 {
      *
      * @return float|null Returns the resultat net cpt.
      */
-    public function getResultatNetCpt(): ?float{
+    public function getResultatNetCpt(): ?float {
         return $this->resultatNetCpt;
     }
 
@@ -1693,350 +1692,8 @@ class Dossier4 {
      *
      * @return string|null Returns the rof tva.
      */
-    public function getRofTva(): ?string{
+    public function getRofTva(): ?string {
         return $this->rofTva;
-    }
-
-    /**
-     * Get the tvabic vir.
-     *
-     * @return string|null Returns the tvabic vir.
-     */
-    public function getTvabicVir(): ?string{
-        return $this->tvabicVir;
-    }
-
-    /**
-     * Get the tva cloture faite.
-     *
-     * @return bool|null Returns the tva cloture faite.
-     */
-    public function getTvaClotureFaite(): ?bool{
-        return $this->tvaClotureFaite;
-    }
-
-    /**
-     * Get the tva code cabinet.
-     *
-     * @return string|null Returns the tva code cabinet.
-     */
-    public function getTvaCodeCabinet(): ?string{
-        return $this->tvaCodeCabinet;
-    }
-
-    /**
-     * Get the tva code int emetteur.
-     *
-     * @return string|null Returns the tva code int emetteur.
-     */
-    public function getTvaCodeIntEmetteur(): ?string{
-        return $this->tvaCodeIntEmetteur;
-    }
-
-    /**
-     * Get the tva code int recepteur.
-     *
-     * @return string|null Returns the tva code int recepteur.
-     */
-    public function getTvaCodeIntRecepteur(): ?string{
-        return $this->tvaCodeIntRecepteur;
-    }
-
-    /**
-     * Get the tva cpt difference.
-     *
-     * @return string|null Returns the tva cpt difference.
-     */
-    public function getTvaCptDifference(): ?string{
-        return $this->tvaCptDifference;
-    }
-
-    /**
-     * Get the tva deb3 jrn exclure.
-     *
-     * @return string|null Returns the tva deb3 jrn exclure.
-     */
-    public function getTvaDeb3JrnExclure(): ?string{
-        return $this->tvaDeb3JrnExclure;
-    }
-
-    /**
-     * Get the tva dest attn.
-     *
-     * @return string|null Returns the tva dest attn.
-     */
-    public function getTvaDestAttn(): ?string{
-        return $this->tvaDestAttn;
-    }
-
-    /**
-     * Get the tva dest fax.
-     *
-     * @return string|null Returns the tva dest fax.
-     */
-    public function getTvaDestFax(): ?string{
-        return $this->tvaDestFax;
-    }
-
-    /**
-     * Get the tva dest nom.
-     *
-     * @return string|null Returns the tva dest nom.
-     */
-    public function getTvaDestNom(): ?string{
-        return $this->tvaDestNom;
-    }
-
-    /**
-     * Get the tvaedi edition.
-     *
-     * @return bool|null Returns the tvaedi edition.
-     */
-    public function getTvaediEdition(): ?bool{
-        return $this->tvaediEdition;
-    }
-
-    /**
-     * Get the tva emetteur is cab.
-     *
-     * @return bool|null Returns the tva emetteur is cab.
-     */
-    public function getTvaEmetteurIsCab(): ?bool{
-        return $this->tvaEmetteurIsCab;
-    }
-
-    /**
-     * Get the tva envoyer mail.
-     *
-     * @return bool|null Returns the tva envoyer mail.
-     */
-    public function getTvaEnvoyerMail(): ?bool{
-        return $this->tvaEnvoyerMail;
-    }
-
-    /**
-     * Get the tva etab btq.
-     *
-     * @return string|null Returns the tva etab btq.
-     */
-    public function getTvaEtabBtq(): ?string{
-        return $this->tvaEtabBtq;
-    }
-
-    /**
-     * Get the tva etab bureau distributeur.
-     *
-     * @return string|null Returns the tva etab bureau distributeur.
-     */
-    public function getTvaEtabBureauDistributeur(): ?string{
-        return $this->tvaEtabBureauDistributeur;
-    }
-
-    /**
-     * Get the tva etab code postal.
-     *
-     * @return string|null Returns the tva etab code postal.
-     */
-    public function getTvaEtabCodePostal(): ?string{
-        return $this->tvaEtabCodePostal;
-    }
-
-    /**
-     * Get the tva etab complement.
-     *
-     * @return string|null Returns the tva etab complement.
-     */
-    public function getTvaEtabComplement(): ?string{
-        return $this->tvaEtabComplement;
-    }
-
-    /**
-     * Get the tva etab nom.
-     *
-     * @return string|null Returns the tva etab nom.
-     */
-    public function getTvaEtabNom(): ?string{
-        return $this->tvaEtabNom;
-    }
-
-    /**
-     * Get the tva etab nom voie.
-     *
-     * @return string|null Returns the tva etab nom voie.
-     */
-    public function getTvaEtabNomVoie(): ?string{
-        return $this->tvaEtabNomVoie;
-    }
-
-    /**
-     * Get the tva etab num voie.
-     *
-     * @return string|null Returns the tva etab num voie.
-     */
-    public function getTvaEtabNumVoie(): ?string{
-        return $this->tvaEtabNumVoie;
-    }
-
-    /**
-     * Get the tva exp nom.
-     *
-     * @return string|null Returns the tva exp nom.
-     */
-    public function getTvaExpNom(): ?string{
-        return $this->tvaExpNom;
-    }
-
-    /**
-     * Get the tvaiban vir.
-     *
-     * @return string|null Returns the tvaiban vir.
-     */
-    public function getTvaibanVir(): ?string{
-        return $this->tvaibanVir;
-    }
-
-    /**
-     * Get the tva mail pj.
-     *
-     * @return bool|null Returns the tva mail pj.
-     */
-    public function getTvaMailPj(): ?bool{
-        return $this->tvaMailPj;
-    }
-
-    /**
-     * Get the tva moyen paiement.
-     *
-     * @return int|null Returns the tva moyen paiement.
-     */
-    public function getTvaMoyenPaiement(): ?int{
-        return $this->tvaMoyenPaiement;
-    }
-
-    /**
-     * Get the tva nom vir.
-     *
-     * @return string|null Returns the tva nom vir.
-     */
-    public function getTvaNomVir(): ?string{
-        return $this->tvaNomVir;
-    }
-
-    /**
-     * Get the tvarib vir.
-     *
-     * @return string|null Returns the tvarib vir.
-     */
-    public function getTvaribVir(): ?string{
-        return $this->tvaribVir;
-    }
-
-    /**
-     * Get the tva recepteur je declare.
-     *
-     * @return bool|null Returns the tva recepteur je declare.
-     */
-    public function getTvaRecepteurJeDeclare(): ?bool{
-        return $this->tvaRecepteurJeDeclare;
-    }
-
-    /**
-     * Get the tva signataire.
-     *
-     * @return string|null Returns the tva signataire.
-     */
-    public function getTvaSignataire(): ?string{
-        return $this->tvaSignataire;
-    }
-
-    /**
-     * Get the tvatlra bic1.
-     *
-     * @return string|null Returns the tvatlra bic1.
-     */
-    public function getTvatlraBic1(): ?string{
-        return $this->tvatlraBic1;
-    }
-
-    /**
-     * Get the tvatlra bic2.
-     *
-     * @return string|null Returns the tvatlra bic2.
-     */
-    public function getTvatlraBic2(): ?string{
-        return $this->tvatlraBic2;
-    }
-
-    /**
-     * Get the tvatlra bic3.
-     *
-     * @return string|null Returns the tvatlra bic3.
-     */
-    public function getTvatlraBic3(): ?string{
-        return $this->tvatlraBic3;
-    }
-
-    /**
-     * Get the tvatlra iban1.
-     *
-     * @return string|null Returns the tvatlra iban1.
-     */
-    public function getTvatlraIban1(): ?string{
-        return $this->tvatlraIban1;
-    }
-
-    /**
-     * Get the tvatlra iban2.
-     *
-     * @return string|null Returns the tvatlra iban2.
-     */
-    public function getTvatlraIban2(): ?string{
-        return $this->tvatlraIban2;
-    }
-
-    /**
-     * Get the tvatlra iban3.
-     *
-     * @return string|null Returns the tvatlra iban3.
-     */
-    public function getTvatlraIban3(): ?string{
-        return $this->tvatlraIban3;
-    }
-
-    /**
-     * Get the tvatlra rib1.
-     *
-     * @return string|null Returns the tvatlra rib1.
-     */
-    public function getTvatlraRib1(): ?string{
-        return $this->tvatlraRib1;
-    }
-
-    /**
-     * Get the tvatlra rib2.
-     *
-     * @return string|null Returns the tvatlra rib2.
-     */
-    public function getTvatlraRib2(): ?string{
-        return $this->tvatlraRib2;
-    }
-
-    /**
-     * Get the tvatlra rib3.
-     *
-     * @return string|null Returns the tvatlra rib3.
-     */
-    public function getTvatlraRib3(): ?string{
-        return $this->tvatlraRib3;
-    }
-
-    /**
-     * Get the tva vire crlf.
-     *
-     * @return bool|null Returns the tva vire crlf.
-     */
-    public function getTvaVireCrlf(): ?bool{
-        return $this->tvaVireCrlf;
     }
 
     /**
@@ -2044,7 +1701,7 @@ class Dossier4 {
      *
      * @return float|null Returns the taux plafond interets.
      */
-    public function getTauxPlafondInterets(): ?float{
+    public function getTauxPlafondInterets(): ?float {
         return $this->tauxPlafondInterets;
     }
 
@@ -2053,7 +1710,7 @@ class Dossier4 {
      *
      * @return float|null Returns the taux plafond interets2.
      */
-    public function getTauxPlafondInterets2(): ?float{
+    public function getTauxPlafondInterets2(): ?float {
         return $this->tauxPlafondInterets2;
     }
 
@@ -2062,7 +1719,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the tva achats enc.
      */
-    public function getTvaAchatsEnc(): ?bool{
+    public function getTvaAchatsEnc(): ?bool {
         return $this->tvaAchatsEnc;
     }
 
@@ -2071,7 +1728,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva ca12 ae.
      */
-    public function getTvaCa12Ae(): ?string{
+    public function getTvaCa12Ae(): ?string {
         return $this->tvaCa12Ae;
     }
 
@@ -2080,7 +1737,7 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the tva cadtm.
      */
-    public function getTvaCadtm(): ?DateTime{
+    public function getTvaCadtm(): ?DateTime {
         return $this->tvaCadtm;
     }
 
@@ -2089,8 +1746,44 @@ class Dossier4 {
      *
      * @return bool|null Returns the tva cascade.
      */
-    public function getTvaCascade(): ?bool{
+    public function getTvaCascade(): ?bool {
         return $this->tvaCascade;
+    }
+
+    /**
+     * Get the tva cloture faite.
+     *
+     * @return bool|null Returns the tva cloture faite.
+     */
+    public function getTvaClotureFaite(): ?bool {
+        return $this->tvaClotureFaite;
+    }
+
+    /**
+     * Get the tva code cabinet.
+     *
+     * @return string|null Returns the tva code cabinet.
+     */
+    public function getTvaCodeCabinet(): ?string {
+        return $this->tvaCodeCabinet;
+    }
+
+    /**
+     * Get the tva code int emetteur.
+     *
+     * @return string|null Returns the tva code int emetteur.
+     */
+    public function getTvaCodeIntEmetteur(): ?string {
+        return $this->tvaCodeIntEmetteur;
+    }
+
+    /**
+     * Get the tva code int recepteur.
+     *
+     * @return string|null Returns the tva code int recepteur.
+     */
+    public function getTvaCodeIntRecepteur(): ?string {
+        return $this->tvaCodeIntRecepteur;
     }
 
     /**
@@ -2098,7 +1791,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva code journal bq.
      */
-    public function getTvaCodeJournalBq(): ?string{
+    public function getTvaCodeJournalBq(): ?string {
         return $this->tvaCodeJournalBq;
     }
 
@@ -2107,7 +1800,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva code journal od.
      */
-    public function getTvaCodeJournalOd(): ?string{
+    public function getTvaCodeJournalOd(): ?string {
         return $this->tvaCodeJournalOd;
     }
 
@@ -2116,7 +1809,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a ajouter.
      */
-    public function getTvaCptAAjouter(): ?string{
+    public function getTvaCptAAjouter(): ?string {
         return $this->tvaCptAAjouter;
     }
 
@@ -2125,7 +1818,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a ajouter g.
      */
-    public function getTvaCptAAjouterG(): ?string{
+    public function getTvaCptAAjouterG(): ?string {
         return $this->tvaCptAAjouterG;
     }
 
@@ -2134,7 +1827,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a deduire.
      */
-    public function getTvaCptADeduire(): ?string{
+    public function getTvaCptADeduire(): ?string {
         return $this->tvaCptADeduire;
     }
 
@@ -2143,7 +1836,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a imputer.
      */
-    public function getTvaCptAImputer(): ?string{
+    public function getTvaCptAImputer(): ?string {
         return $this->tvaCptAImputer;
     }
 
@@ -2152,7 +1845,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a imputer g.
      */
-    public function getTvaCptAImputerG(): ?string{
+    public function getTvaCptAImputerG(): ?string {
         return $this->tvaCptAImputerG;
     }
 
@@ -2161,7 +1854,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a payer.
      */
-    public function getTvaCptAPayer(): ?string{
+    public function getTvaCptAPayer(): ?string {
         return $this->tvaCptAPayer;
     }
 
@@ -2170,7 +1863,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt a payer g.
      */
-    public function getTvaCptAPayerG(): ?string{
+    public function getTvaCptAPayerG(): ?string {
         return $this->tvaCptAPayerG;
     }
 
@@ -2179,7 +1872,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt acq intra com.
      */
-    public function getTvaCptAcqIntraCom(): ?string{
+    public function getTvaCptAcqIntraCom(): ?string {
         return $this->tvaCptAcqIntraCom;
     }
 
@@ -2188,7 +1881,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt anc taux.
      */
-    public function getTvaCptAncTaux(): ?string{
+    public function getTvaCptAncTaux(): ?string {
         return $this->tvaCptAncTaux;
     }
 
@@ -2197,7 +1890,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt ante deduit.
      */
-    public function getTvaCptAnteDeduit(): ?string{
+    public function getTvaCptAnteDeduit(): ?string {
         return $this->tvaCptAnteDeduit;
     }
 
@@ -2206,7 +1899,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt assimil3310.
      */
-    public function getTvaCptAssimil3310(): ?string{
+    public function getTvaCptAssimil3310(): ?string {
         return $this->tvaCptAssimil3310;
     }
 
@@ -2215,7 +1908,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt assimil3310 g.
      */
-    public function getTvaCptAssimil3310G(): ?string{
+    public function getTvaCptAssimil3310G(): ?string {
         return $this->tvaCptAssimil3310G;
     }
 
@@ -2224,7 +1917,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt biens.
      */
-    public function getTvaCptBiens(): ?string{
+    public function getTvaCptBiens(): ?string {
         return $this->tvaCptBiens;
     }
 
@@ -2233,8 +1926,17 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt biens intra com.
      */
-    public function getTvaCptBiensIntraCom(): ?string{
+    public function getTvaCptBiensIntraCom(): ?string {
         return $this->tvaCptBiensIntraCom;
+    }
+
+    /**
+     * Get the tva cpt difference.
+     *
+     * @return string|null Returns the tva cpt difference.
+     */
+    public function getTvaCptDifference(): ?string {
+        return $this->tvaCptDifference;
     }
 
     /**
@@ -2242,7 +1944,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt dom.
      */
-    public function getTvaCptDom(): ?string{
+    public function getTvaCptDom(): ?string {
         return $this->tvaCptDom;
     }
 
@@ -2251,7 +1953,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt groupe.
      */
-    public function getTvaCptGroupe(): ?string{
+    public function getTvaCptGroupe(): ?string {
         return $this->tvaCptGroupe;
     }
 
@@ -2260,7 +1962,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt immos.
      */
-    public function getTvaCptImmos(): ?string{
+    public function getTvaCptImmos(): ?string {
         return $this->tvaCptImmos;
     }
 
@@ -2269,7 +1971,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt immos intra com.
      */
-    public function getTvaCptImmosIntraCom(): ?string{
+    public function getTvaCptImmosIntraCom(): ?string {
         return $this->tvaCptImmosIntraCom;
     }
 
@@ -2278,7 +1980,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt regul.
      */
-    public function getTvaCptRegul(): ?string{
+    public function getTvaCptRegul(): ?string {
         return $this->tvaCptRegul;
     }
 
@@ -2287,7 +1989,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt rembours.
      */
-    public function getTvaCptRembours(): ?string{
+    public function getTvaCptRembours(): ?string {
         return $this->tvaCptRembours;
     }
 
@@ -2296,7 +1998,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt rembours g.
      */
-    public function getTvaCptRemboursG(): ?string{
+    public function getTvaCptRemboursG(): ?string {
         return $this->tvaCptRemboursG;
     }
 
@@ -2305,7 +2007,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt report.
      */
-    public function getTvaCptReport(): ?string{
+    public function getTvaCptReport(): ?string {
         return $this->tvaCptReport;
     }
 
@@ -2314,7 +2016,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt report g.
      */
-    public function getTvaCptReportG(): ?string{
+    public function getTvaCptReportG(): ?string {
         return $this->tvaCptReportG;
     }
 
@@ -2323,7 +2025,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt taux part.
      */
-    public function getTvaCptTauxPart(): ?string{
+    public function getTvaCptTauxPart(): ?string {
         return $this->tvaCptTauxPart;
     }
 
@@ -2332,8 +2034,44 @@ class Dossier4 {
      *
      * @return string|null Returns the tva cpt vente.
      */
-    public function getTvaCptVente(): ?string{
+    public function getTvaCptVente(): ?string {
         return $this->tvaCptVente;
+    }
+
+    /**
+     * Get the tva deb3 jrn exclure.
+     *
+     * @return string|null Returns the tva deb3 jrn exclure.
+     */
+    public function getTvaDeb3JrnExclure(): ?string {
+        return $this->tvaDeb3JrnExclure;
+    }
+
+    /**
+     * Get the tva dest attn.
+     *
+     * @return string|null Returns the tva dest attn.
+     */
+    public function getTvaDestAttn(): ?string {
+        return $this->tvaDestAttn;
+    }
+
+    /**
+     * Get the tva dest fax.
+     *
+     * @return string|null Returns the tva dest fax.
+     */
+    public function getTvaDestFax(): ?string {
+        return $this->tvaDestFax;
+    }
+
+    /**
+     * Get the tva dest nom.
+     *
+     * @return string|null Returns the tva dest nom.
+     */
+    public function getTvaDestNom(): ?string {
+        return $this->tvaDestNom;
     }
 
     /**
@@ -2341,7 +2079,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva e4 dbs.
      */
-    public function getTvaE4Dbs(): ?string{
+    public function getTvaE4Dbs(): ?string {
         return $this->tvaE4Dbs;
     }
 
@@ -2350,8 +2088,17 @@ class Dossier4 {
      *
      * @return string|null Returns the tva e4 di.
      */
-    public function getTvaE4Di(): ?string{
+    public function getTvaE4Di(): ?string {
         return $this->tvaE4Di;
+    }
+
+    /**
+     * Get the tva e4 r jrn od.
+     *
+     * @return string|null Returns the tva e4 r jrn od.
+     */
+    public function getTvaE4RJrnOd(): ?string {
+        return $this->tvaE4RJrnOd;
     }
 
     /**
@@ -2359,7 +2106,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva e4 rbs.
      */
-    public function getTvaE4Rbs(): ?string{
+    public function getTvaE4Rbs(): ?string {
         return $this->tvaE4Rbs;
     }
 
@@ -2368,17 +2115,17 @@ class Dossier4 {
      *
      * @return string|null Returns the tva e4 ri.
      */
-    public function getTvaE4Ri(): ?string{
+    public function getTvaE4Ri(): ?string {
         return $this->tvaE4Ri;
     }
 
     /**
-     * Get the tva e4 r jrn od.
+     * Get the tva emetteur is cab.
      *
-     * @return string|null Returns the tva e4 r jrn od.
+     * @return bool|null Returns the tva emetteur is cab.
      */
-    public function getTvaE4RJrnOd(): ?string{
-        return $this->tvaE4RJrnOd;
+    public function getTvaEmetteurIsCab(): ?bool {
+        return $this->tvaEmetteurIsCab;
     }
 
     /**
@@ -2386,8 +2133,89 @@ class Dossier4 {
      *
      * @return DateTime|null Returns the tva enc3 der per rech da.
      */
-    public function getTvaEnc3DerPerRechDa(): ?DateTime{
+    public function getTvaEnc3DerPerRechDa(): ?DateTime {
         return $this->tvaEnc3DerPerRechDa;
+    }
+
+    /**
+     * Get the tva envoyer mail.
+     *
+     * @return bool|null Returns the tva envoyer mail.
+     */
+    public function getTvaEnvoyerMail(): ?bool {
+        return $this->tvaEnvoyerMail;
+    }
+
+    /**
+     * Get the tva etab btq.
+     *
+     * @return string|null Returns the tva etab btq.
+     */
+    public function getTvaEtabBtq(): ?string {
+        return $this->tvaEtabBtq;
+    }
+
+    /**
+     * Get the tva etab bureau distributeur.
+     *
+     * @return string|null Returns the tva etab bureau distributeur.
+     */
+    public function getTvaEtabBureauDistributeur(): ?string {
+        return $this->tvaEtabBureauDistributeur;
+    }
+
+    /**
+     * Get the tva etab code postal.
+     *
+     * @return string|null Returns the tva etab code postal.
+     */
+    public function getTvaEtabCodePostal(): ?string {
+        return $this->tvaEtabCodePostal;
+    }
+
+    /**
+     * Get the tva etab complement.
+     *
+     * @return string|null Returns the tva etab complement.
+     */
+    public function getTvaEtabComplement(): ?string {
+        return $this->tvaEtabComplement;
+    }
+
+    /**
+     * Get the tva etab nom.
+     *
+     * @return string|null Returns the tva etab nom.
+     */
+    public function getTvaEtabNom(): ?string {
+        return $this->tvaEtabNom;
+    }
+
+    /**
+     * Get the tva etab nom voie.
+     *
+     * @return string|null Returns the tva etab nom voie.
+     */
+    public function getTvaEtabNomVoie(): ?string {
+        return $this->tvaEtabNomVoie;
+    }
+
+    /**
+     * Get the tva etab num voie.
+     *
+     * @return string|null Returns the tva etab num voie.
+     */
+    public function getTvaEtabNumVoie(): ?string {
+        return $this->tvaEtabNumVoie;
+    }
+
+    /**
+     * Get the tva exp nom.
+     *
+     * @return string|null Returns the tva exp nom.
+     */
+    public function getTvaExpNom(): ?string {
+        return $this->tvaExpNom;
     }
 
     /**
@@ -2395,8 +2223,17 @@ class Dossier4 {
      *
      * @return string|null Returns the tva jour decla.
      */
-    public function getTvaJourDecla(): ?string{
+    public function getTvaJourDecla(): ?string {
         return $this->tvaJourDecla;
+    }
+
+    /**
+     * Get the tva mail pj.
+     *
+     * @return bool|null Returns the tva mail pj.
+     */
+    public function getTvaMailPj(): ?bool {
+        return $this->tvaMailPj;
     }
 
     /**
@@ -2404,8 +2241,26 @@ class Dossier4 {
      *
      * @return string|null Returns the tva methode.
      */
-    public function getTvaMethode(): ?string{
+    public function getTvaMethode(): ?string {
         return $this->tvaMethode;
+    }
+
+    /**
+     * Get the tva moyen paiement.
+     *
+     * @return int|null Returns the tva moyen paiement.
+     */
+    public function getTvaMoyenPaiement(): ?int {
+        return $this->tvaMoyenPaiement;
+    }
+
+    /**
+     * Get the tva nom vir.
+     *
+     * @return string|null Returns the tva nom vir.
+     */
+    public function getTvaNomVir(): ?string {
+        return $this->tvaNomVir;
     }
 
     /**
@@ -2413,7 +2268,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the tva parametrage ok.
      */
-    public function getTvaParametrageOk(): ?bool{
+    public function getTvaParametrageOk(): ?bool {
         return $this->tvaParametrageOk;
     }
 
@@ -2422,7 +2277,7 @@ class Dossier4 {
      *
      * @return string|null Returns the tva periodicite.
      */
-    public function getTvaPeriodicite(): ?string{
+    public function getTvaPeriodicite(): ?string {
         return $this->tvaPeriodicite;
     }
 
@@ -2431,8 +2286,17 @@ class Dossier4 {
      *
      * @return string|null Returns the tva prefixe intracom.
      */
-    public function getTvaPrefixeIntracom(): ?string{
+    public function getTvaPrefixeIntracom(): ?string {
         return $this->tvaPrefixeIntracom;
+    }
+
+    /**
+     * Get the tva recepteur je declare.
+     *
+     * @return bool|null Returns the tva recepteur je declare.
+     */
+    public function getTvaRecepteurJeDeclare(): ?bool {
+        return $this->tvaRecepteurJeDeclare;
     }
 
     /**
@@ -2440,8 +2304,17 @@ class Dossier4 {
      *
      * @return string|null Returns the tva regime.
      */
-    public function getTvaRegime(): ?string{
+    public function getTvaRegime(): ?string {
         return $this->tvaRegime;
+    }
+
+    /**
+     * Get the tva signataire.
+     *
+     * @return string|null Returns the tva signataire.
+     */
+    public function getTvaSignataire(): ?string {
+        return $this->tvaSignataire;
     }
 
     /**
@@ -2449,8 +2322,134 @@ class Dossier4 {
      *
      * @return string|null Returns the tva type.
      */
-    public function getTvaType(): ?string{
+    public function getTvaType(): ?string {
         return $this->tvaType;
+    }
+
+    /**
+     * Get the tva vire crlf.
+     *
+     * @return bool|null Returns the tva vire crlf.
+     */
+    public function getTvaVireCrlf(): ?bool {
+        return $this->tvaVireCrlf;
+    }
+
+    /**
+     * Get the tvabic vir.
+     *
+     * @return string|null Returns the tvabic vir.
+     */
+    public function getTvabicVir(): ?string {
+        return $this->tvabicVir;
+    }
+
+    /**
+     * Get the tvaedi edition.
+     *
+     * @return bool|null Returns the tvaedi edition.
+     */
+    public function getTvaediEdition(): ?bool {
+        return $this->tvaediEdition;
+    }
+
+    /**
+     * Get the tvaiban vir.
+     *
+     * @return string|null Returns the tvaiban vir.
+     */
+    public function getTvaibanVir(): ?string {
+        return $this->tvaibanVir;
+    }
+
+    /**
+     * Get the tvarib vir.
+     *
+     * @return string|null Returns the tvarib vir.
+     */
+    public function getTvaribVir(): ?string {
+        return $this->tvaribVir;
+    }
+
+    /**
+     * Get the tvatlra bic1.
+     *
+     * @return string|null Returns the tvatlra bic1.
+     */
+    public function getTvatlraBic1(): ?string {
+        return $this->tvatlraBic1;
+    }
+
+    /**
+     * Get the tvatlra bic2.
+     *
+     * @return string|null Returns the tvatlra bic2.
+     */
+    public function getTvatlraBic2(): ?string {
+        return $this->tvatlraBic2;
+    }
+
+    /**
+     * Get the tvatlra bic3.
+     *
+     * @return string|null Returns the tvatlra bic3.
+     */
+    public function getTvatlraBic3(): ?string {
+        return $this->tvatlraBic3;
+    }
+
+    /**
+     * Get the tvatlra iban1.
+     *
+     * @return string|null Returns the tvatlra iban1.
+     */
+    public function getTvatlraIban1(): ?string {
+        return $this->tvatlraIban1;
+    }
+
+    /**
+     * Get the tvatlra iban2.
+     *
+     * @return string|null Returns the tvatlra iban2.
+     */
+    public function getTvatlraIban2(): ?string {
+        return $this->tvatlraIban2;
+    }
+
+    /**
+     * Get the tvatlra iban3.
+     *
+     * @return string|null Returns the tvatlra iban3.
+     */
+    public function getTvatlraIban3(): ?string {
+        return $this->tvatlraIban3;
+    }
+
+    /**
+     * Get the tvatlra rib1.
+     *
+     * @return string|null Returns the tvatlra rib1.
+     */
+    public function getTvatlraRib1(): ?string {
+        return $this->tvatlraRib1;
+    }
+
+    /**
+     * Get the tvatlra rib2.
+     *
+     * @return string|null Returns the tvatlra rib2.
+     */
+    public function getTvatlraRib2(): ?string {
+        return $this->tvatlraRib2;
+    }
+
+    /**
+     * Get the tvatlra rib3.
+     *
+     * @return string|null Returns the tvatlra rib3.
+     */
+    public function getTvatlraRib3(): ?string {
+        return $this->tvatlraRib3;
     }
 
     /**
@@ -2458,7 +2457,7 @@ class Dossier4 {
      *
      * @return string|null Returns the vmp code jrn pmv.
      */
-    public function getVmpCodeJrnPmv(): ?string{
+    public function getVmpCodeJrnPmv(): ?string {
         return $this->vmpCodeJrnPmv;
     }
 
@@ -2467,7 +2466,7 @@ class Dossier4 {
      *
      * @return string|null Returns the vmp cpt moins value.
      */
-    public function getVmpCptMoinsValue(): ?string{
+    public function getVmpCptMoinsValue(): ?string {
         return $this->vmpCptMoinsValue;
     }
 
@@ -2476,7 +2475,7 @@ class Dossier4 {
      *
      * @return string|null Returns the vmp cpt plus value.
      */
-    public function getVmpCptPlusValue(): ?string{
+    public function getVmpCptPlusValue(): ?string {
         return $this->vmpCptPlusValue;
     }
 
@@ -2485,7 +2484,7 @@ class Dossier4 {
      *
      * @return int|null Returns the vmp gest ecr pmv.
      */
-    public function getVmpGestEcrPmv(): ?int{
+    public function getVmpGestEcrPmv(): ?int {
         return $this->vmpGestEcrPmv;
     }
 
@@ -2494,7 +2493,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the vmp gestion en saisie.
      */
-    public function getVmpGestionEnSaisie(): ?bool{
+    public function getVmpGestionEnSaisie(): ?bool {
         return $this->vmpGestionEnSaisie;
     }
 
@@ -2503,7 +2502,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the ya reprise cice.
      */
-    public function getYaRepriseCice(): ?bool{
+    public function getYaRepriseCice(): ?bool {
         return $this->yaRepriseCice;
     }
 
@@ -2512,7 +2511,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the ya taux reduit.
      */
-    public function getYaTauxReduit(): ?bool{
+    public function getYaTauxReduit(): ?bool {
         return $this->yaTauxReduit;
     }
 
@@ -2521,7 +2520,7 @@ class Dossier4 {
      *
      * @return bool|null Returns the b ca12 t.
      */
-    public function getbCa12T(): ?bool{
+    public function getbCa12T(): ?bool {
         return $this->bCa12T;
     }
 
@@ -2922,17 +2921,6 @@ class Dossier4 {
     }
 
     /**
-     * Set the ftiscice.
-     *
-     * @param float|null $ftiscice The ftiscice.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setFtiscice(?float $ftiscice): Dossier4 {
-        $this->ftiscice = $ftiscice;
-        return $this;
-    }
-
-    /**
      * Set the ftis contrib mtt.
      *
      * @param float|null $ftisContribMtt The ftis contrib mtt.
@@ -2984,6 +2972,17 @@ class Dossier4 {
      */
     public function setFtisNumCpt2(?string $ftisNumCpt2): Dossier4 {
         $this->ftisNumCpt2 = $ftisNumCpt2;
+        return $this;
+    }
+
+    /**
+     * Set the ftiscice.
+     *
+     * @param float|null $ftiscice The ftiscice.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setFtiscice(?float $ftiscice): Dossier4 {
+        $this->ftiscice = $ftiscice;
         return $this;
     }
 
@@ -3098,17 +3097,6 @@ class Dossier4 {
     }
 
     /**
-     * Set the no lot cvae.
-     *
-     * @param int|null $noLotCvae The no lot cvae.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setNoLotCvae(?int $noLotCvae): Dossier4 {
-        $this->noLotCvae = $noLotCvae;
-        return $this;
-    }
-
-    /**
      * Set the no lot cpt recip.
      *
      * @param int|null $noLotCptRecip The no lot cpt recip.
@@ -3131,13 +3119,13 @@ class Dossier4 {
     }
 
     /**
-     * Set the no lot is.
+     * Set the no lot cvae.
      *
-     * @param int|null $noLotIs The no lot is.
+     * @param int|null $noLotCvae The no lot cvae.
      * @return Dossier4 Returns this Dossier4.
      */
-    public function setNoLotIs(?int $noLotIs): Dossier4 {
-        $this->noLotIs = $noLotIs;
+    public function setNoLotCvae(?int $noLotCvae): Dossier4 {
+        $this->noLotCvae = $noLotCvae;
         return $this;
     }
 
@@ -3160,6 +3148,17 @@ class Dossier4 {
      */
     public function setNoLotInterets2(?int $noLotInterets2): Dossier4 {
         $this->noLotInterets2 = $noLotInterets2;
+        return $this;
+    }
+
+    /**
+     * Set the no lot is.
+     *
+     * @param int|null $noLotIs The no lot is.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setNoLotIs(?int $noLotIs): Dossier4 {
+        $this->noLotIs = $noLotIs;
         return $this;
     }
 
@@ -3230,424 +3229,6 @@ class Dossier4 {
     }
 
     /**
-     * Set the tvabic vir.
-     *
-     * @param string|null $tvabicVir The tvabic vir.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvabicVir(?string $tvabicVir): Dossier4 {
-        $this->tvabicVir = $tvabicVir;
-        return $this;
-    }
-
-    /**
-     * Set the tva cloture faite.
-     *
-     * @param bool|null $tvaClotureFaite The tva cloture faite.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaClotureFaite(?bool $tvaClotureFaite): Dossier4 {
-        $this->tvaClotureFaite = $tvaClotureFaite;
-        return $this;
-    }
-
-    /**
-     * Set the tva code cabinet.
-     *
-     * @param string|null $tvaCodeCabinet The tva code cabinet.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaCodeCabinet(?string $tvaCodeCabinet): Dossier4 {
-        $this->tvaCodeCabinet = $tvaCodeCabinet;
-        return $this;
-    }
-
-    /**
-     * Set the tva code int emetteur.
-     *
-     * @param string|null $tvaCodeIntEmetteur The tva code int emetteur.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaCodeIntEmetteur(?string $tvaCodeIntEmetteur): Dossier4 {
-        $this->tvaCodeIntEmetteur = $tvaCodeIntEmetteur;
-        return $this;
-    }
-
-    /**
-     * Set the tva code int recepteur.
-     *
-     * @param string|null $tvaCodeIntRecepteur The tva code int recepteur.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaCodeIntRecepteur(?string $tvaCodeIntRecepteur): Dossier4 {
-        $this->tvaCodeIntRecepteur = $tvaCodeIntRecepteur;
-        return $this;
-    }
-
-    /**
-     * Set the tva cpt difference.
-     *
-     * @param string|null $tvaCptDifference The tva cpt difference.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaCptDifference(?string $tvaCptDifference): Dossier4 {
-        $this->tvaCptDifference = $tvaCptDifference;
-        return $this;
-    }
-
-    /**
-     * Set the tva deb3 jrn exclure.
-     *
-     * @param string|null $tvaDeb3JrnExclure The tva deb3 jrn exclure.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaDeb3JrnExclure(?string $tvaDeb3JrnExclure): Dossier4 {
-        $this->tvaDeb3JrnExclure = $tvaDeb3JrnExclure;
-        return $this;
-    }
-
-    /**
-     * Set the tva dest attn.
-     *
-     * @param string|null $tvaDestAttn The tva dest attn.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaDestAttn(?string $tvaDestAttn): Dossier4 {
-        $this->tvaDestAttn = $tvaDestAttn;
-        return $this;
-    }
-
-    /**
-     * Set the tva dest fax.
-     *
-     * @param string|null $tvaDestFax The tva dest fax.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaDestFax(?string $tvaDestFax): Dossier4 {
-        $this->tvaDestFax = $tvaDestFax;
-        return $this;
-    }
-
-    /**
-     * Set the tva dest nom.
-     *
-     * @param string|null $tvaDestNom The tva dest nom.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaDestNom(?string $tvaDestNom): Dossier4 {
-        $this->tvaDestNom = $tvaDestNom;
-        return $this;
-    }
-
-    /**
-     * Set the tvaedi edition.
-     *
-     * @param bool|null $tvaediEdition The tvaedi edition.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaediEdition(?bool $tvaediEdition): Dossier4 {
-        $this->tvaediEdition = $tvaediEdition;
-        return $this;
-    }
-
-    /**
-     * Set the tva emetteur is cab.
-     *
-     * @param bool|null $tvaEmetteurIsCab The tva emetteur is cab.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEmetteurIsCab(?bool $tvaEmetteurIsCab): Dossier4 {
-        $this->tvaEmetteurIsCab = $tvaEmetteurIsCab;
-        return $this;
-    }
-
-    /**
-     * Set the tva envoyer mail.
-     *
-     * @param bool|null $tvaEnvoyerMail The tva envoyer mail.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEnvoyerMail(?bool $tvaEnvoyerMail): Dossier4 {
-        $this->tvaEnvoyerMail = $tvaEnvoyerMail;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab btq.
-     *
-     * @param string|null $tvaEtabBtq The tva etab btq.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabBtq(?string $tvaEtabBtq): Dossier4 {
-        $this->tvaEtabBtq = $tvaEtabBtq;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab bureau distributeur.
-     *
-     * @param string|null $tvaEtabBureauDistributeur The tva etab bureau distributeur.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabBureauDistributeur(?string $tvaEtabBureauDistributeur): Dossier4 {
-        $this->tvaEtabBureauDistributeur = $tvaEtabBureauDistributeur;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab code postal.
-     *
-     * @param string|null $tvaEtabCodePostal The tva etab code postal.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabCodePostal(?string $tvaEtabCodePostal): Dossier4 {
-        $this->tvaEtabCodePostal = $tvaEtabCodePostal;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab complement.
-     *
-     * @param string|null $tvaEtabComplement The tva etab complement.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabComplement(?string $tvaEtabComplement): Dossier4 {
-        $this->tvaEtabComplement = $tvaEtabComplement;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab nom.
-     *
-     * @param string|null $tvaEtabNom The tva etab nom.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabNom(?string $tvaEtabNom): Dossier4 {
-        $this->tvaEtabNom = $tvaEtabNom;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab nom voie.
-     *
-     * @param string|null $tvaEtabNomVoie The tva etab nom voie.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabNomVoie(?string $tvaEtabNomVoie): Dossier4 {
-        $this->tvaEtabNomVoie = $tvaEtabNomVoie;
-        return $this;
-    }
-
-    /**
-     * Set the tva etab num voie.
-     *
-     * @param string|null $tvaEtabNumVoie The tva etab num voie.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaEtabNumVoie(?string $tvaEtabNumVoie): Dossier4 {
-        $this->tvaEtabNumVoie = $tvaEtabNumVoie;
-        return $this;
-    }
-
-    /**
-     * Set the tva exp nom.
-     *
-     * @param string|null $tvaExpNom The tva exp nom.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaExpNom(?string $tvaExpNom): Dossier4 {
-        $this->tvaExpNom = $tvaExpNom;
-        return $this;
-    }
-
-    /**
-     * Set the tvaiban vir.
-     *
-     * @param string|null $tvaibanVir The tvaiban vir.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaibanVir(?string $tvaibanVir): Dossier4 {
-        $this->tvaibanVir = $tvaibanVir;
-        return $this;
-    }
-
-    /**
-     * Set the tva mail pj.
-     *
-     * @param bool|null $tvaMailPj The tva mail pj.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaMailPj(?bool $tvaMailPj): Dossier4 {
-        $this->tvaMailPj = $tvaMailPj;
-        return $this;
-    }
-
-    /**
-     * Set the tva moyen paiement.
-     *
-     * @param int|null $tvaMoyenPaiement The tva moyen paiement.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaMoyenPaiement(?int $tvaMoyenPaiement): Dossier4 {
-        $this->tvaMoyenPaiement = $tvaMoyenPaiement;
-        return $this;
-    }
-
-    /**
-     * Set the tva nom vir.
-     *
-     * @param string|null $tvaNomVir The tva nom vir.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaNomVir(?string $tvaNomVir): Dossier4 {
-        $this->tvaNomVir = $tvaNomVir;
-        return $this;
-    }
-
-    /**
-     * Set the tvarib vir.
-     *
-     * @param string|null $tvaribVir The tvarib vir.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaribVir(?string $tvaribVir): Dossier4 {
-        $this->tvaribVir = $tvaribVir;
-        return $this;
-    }
-
-    /**
-     * Set the tva recepteur je declare.
-     *
-     * @param bool|null $tvaRecepteurJeDeclare The tva recepteur je declare.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaRecepteurJeDeclare(?bool $tvaRecepteurJeDeclare): Dossier4 {
-        $this->tvaRecepteurJeDeclare = $tvaRecepteurJeDeclare;
-        return $this;
-    }
-
-    /**
-     * Set the tva signataire.
-     *
-     * @param string|null $tvaSignataire The tva signataire.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaSignataire(?string $tvaSignataire): Dossier4 {
-        $this->tvaSignataire = $tvaSignataire;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra bic1.
-     *
-     * @param string|null $tvatlraBic1 The tvatlra bic1.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraBic1(?string $tvatlraBic1): Dossier4 {
-        $this->tvatlraBic1 = $tvatlraBic1;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra bic2.
-     *
-     * @param string|null $tvatlraBic2 The tvatlra bic2.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraBic2(?string $tvatlraBic2): Dossier4 {
-        $this->tvatlraBic2 = $tvatlraBic2;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra bic3.
-     *
-     * @param string|null $tvatlraBic3 The tvatlra bic3.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraBic3(?string $tvatlraBic3): Dossier4 {
-        $this->tvatlraBic3 = $tvatlraBic3;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra iban1.
-     *
-     * @param string|null $tvatlraIban1 The tvatlra iban1.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraIban1(?string $tvatlraIban1): Dossier4 {
-        $this->tvatlraIban1 = $tvatlraIban1;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra iban2.
-     *
-     * @param string|null $tvatlraIban2 The tvatlra iban2.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraIban2(?string $tvatlraIban2): Dossier4 {
-        $this->tvatlraIban2 = $tvatlraIban2;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra iban3.
-     *
-     * @param string|null $tvatlraIban3 The tvatlra iban3.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraIban3(?string $tvatlraIban3): Dossier4 {
-        $this->tvatlraIban3 = $tvatlraIban3;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra rib1.
-     *
-     * @param string|null $tvatlraRib1 The tvatlra rib1.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraRib1(?string $tvatlraRib1): Dossier4 {
-        $this->tvatlraRib1 = $tvatlraRib1;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra rib2.
-     *
-     * @param string|null $tvatlraRib2 The tvatlra rib2.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraRib2(?string $tvatlraRib2): Dossier4 {
-        $this->tvatlraRib2 = $tvatlraRib2;
-        return $this;
-    }
-
-    /**
-     * Set the tvatlra rib3.
-     *
-     * @param string|null $tvatlraRib3 The tvatlra rib3.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvatlraRib3(?string $tvatlraRib3): Dossier4 {
-        $this->tvatlraRib3 = $tvatlraRib3;
-        return $this;
-    }
-
-    /**
-     * Set the tva vire crlf.
-     *
-     * @param bool|null $tvaVireCrlf The tva vire crlf.
-     * @return Dossier4 Returns this Dossier4.
-     */
-    public function setTvaVireCrlf(?bool $tvaVireCrlf): Dossier4 {
-        $this->tvaVireCrlf = $tvaVireCrlf;
-        return $this;
-    }
-
-    /**
      * Set the taux plafond interets.
      *
      * @param float|null $tauxPlafondInterets The taux plafond interets.
@@ -3710,6 +3291,50 @@ class Dossier4 {
      */
     public function setTvaCascade(?bool $tvaCascade): Dossier4 {
         $this->tvaCascade = $tvaCascade;
+        return $this;
+    }
+
+    /**
+     * Set the tva cloture faite.
+     *
+     * @param bool|null $tvaClotureFaite The tva cloture faite.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaClotureFaite(?bool $tvaClotureFaite): Dossier4 {
+        $this->tvaClotureFaite = $tvaClotureFaite;
+        return $this;
+    }
+
+    /**
+     * Set the tva code cabinet.
+     *
+     * @param string|null $tvaCodeCabinet The tva code cabinet.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaCodeCabinet(?string $tvaCodeCabinet): Dossier4 {
+        $this->tvaCodeCabinet = $tvaCodeCabinet;
+        return $this;
+    }
+
+    /**
+     * Set the tva code int emetteur.
+     *
+     * @param string|null $tvaCodeIntEmetteur The tva code int emetteur.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaCodeIntEmetteur(?string $tvaCodeIntEmetteur): Dossier4 {
+        $this->tvaCodeIntEmetteur = $tvaCodeIntEmetteur;
+        return $this;
+    }
+
+    /**
+     * Set the tva code int recepteur.
+     *
+     * @param string|null $tvaCodeIntRecepteur The tva code int recepteur.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaCodeIntRecepteur(?string $tvaCodeIntRecepteur): Dossier4 {
+        $this->tvaCodeIntRecepteur = $tvaCodeIntRecepteur;
         return $this;
     }
 
@@ -3890,6 +3515,17 @@ class Dossier4 {
     }
 
     /**
+     * Set the tva cpt difference.
+     *
+     * @param string|null $tvaCptDifference The tva cpt difference.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaCptDifference(?string $tvaCptDifference): Dossier4 {
+        $this->tvaCptDifference = $tvaCptDifference;
+        return $this;
+    }
+
+    /**
      * Set the tva cpt dom.
      *
      * @param string|null $tvaCptDom The tva cpt dom.
@@ -4011,6 +3647,50 @@ class Dossier4 {
     }
 
     /**
+     * Set the tva deb3 jrn exclure.
+     *
+     * @param string|null $tvaDeb3JrnExclure The tva deb3 jrn exclure.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaDeb3JrnExclure(?string $tvaDeb3JrnExclure): Dossier4 {
+        $this->tvaDeb3JrnExclure = $tvaDeb3JrnExclure;
+        return $this;
+    }
+
+    /**
+     * Set the tva dest attn.
+     *
+     * @param string|null $tvaDestAttn The tva dest attn.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaDestAttn(?string $tvaDestAttn): Dossier4 {
+        $this->tvaDestAttn = $tvaDestAttn;
+        return $this;
+    }
+
+    /**
+     * Set the tva dest fax.
+     *
+     * @param string|null $tvaDestFax The tva dest fax.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaDestFax(?string $tvaDestFax): Dossier4 {
+        $this->tvaDestFax = $tvaDestFax;
+        return $this;
+    }
+
+    /**
+     * Set the tva dest nom.
+     *
+     * @param string|null $tvaDestNom The tva dest nom.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaDestNom(?string $tvaDestNom): Dossier4 {
+        $this->tvaDestNom = $tvaDestNom;
+        return $this;
+    }
+
+    /**
      * Set the tva e4 dbs.
      *
      * @param string|null $tvaE4Dbs The tva e4 dbs.
@@ -4029,6 +3709,17 @@ class Dossier4 {
      */
     public function setTvaE4Di(?string $tvaE4Di): Dossier4 {
         $this->tvaE4Di = $tvaE4Di;
+        return $this;
+    }
+
+    /**
+     * Set the tva e4 r jrn od.
+     *
+     * @param string|null $tvaE4RJrnOd The tva e4 r jrn od.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaE4RJrnOd(?string $tvaE4RJrnOd): Dossier4 {
+        $this->tvaE4RJrnOd = $tvaE4RJrnOd;
         return $this;
     }
 
@@ -4055,13 +3746,13 @@ class Dossier4 {
     }
 
     /**
-     * Set the tva e4 r jrn od.
+     * Set the tva emetteur is cab.
      *
-     * @param string|null $tvaE4RJrnOd The tva e4 r jrn od.
+     * @param bool|null $tvaEmetteurIsCab The tva emetteur is cab.
      * @return Dossier4 Returns this Dossier4.
      */
-    public function setTvaE4RJrnOd(?string $tvaE4RJrnOd): Dossier4 {
-        $this->tvaE4RJrnOd = $tvaE4RJrnOd;
+    public function setTvaEmetteurIsCab(?bool $tvaEmetteurIsCab): Dossier4 {
+        $this->tvaEmetteurIsCab = $tvaEmetteurIsCab;
         return $this;
     }
 
@@ -4077,6 +3768,105 @@ class Dossier4 {
     }
 
     /**
+     * Set the tva envoyer mail.
+     *
+     * @param bool|null $tvaEnvoyerMail The tva envoyer mail.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEnvoyerMail(?bool $tvaEnvoyerMail): Dossier4 {
+        $this->tvaEnvoyerMail = $tvaEnvoyerMail;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab btq.
+     *
+     * @param string|null $tvaEtabBtq The tva etab btq.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabBtq(?string $tvaEtabBtq): Dossier4 {
+        $this->tvaEtabBtq = $tvaEtabBtq;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab bureau distributeur.
+     *
+     * @param string|null $tvaEtabBureauDistributeur The tva etab bureau distributeur.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabBureauDistributeur(?string $tvaEtabBureauDistributeur): Dossier4 {
+        $this->tvaEtabBureauDistributeur = $tvaEtabBureauDistributeur;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab code postal.
+     *
+     * @param string|null $tvaEtabCodePostal The tva etab code postal.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabCodePostal(?string $tvaEtabCodePostal): Dossier4 {
+        $this->tvaEtabCodePostal = $tvaEtabCodePostal;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab complement.
+     *
+     * @param string|null $tvaEtabComplement The tva etab complement.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabComplement(?string $tvaEtabComplement): Dossier4 {
+        $this->tvaEtabComplement = $tvaEtabComplement;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab nom.
+     *
+     * @param string|null $tvaEtabNom The tva etab nom.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabNom(?string $tvaEtabNom): Dossier4 {
+        $this->tvaEtabNom = $tvaEtabNom;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab nom voie.
+     *
+     * @param string|null $tvaEtabNomVoie The tva etab nom voie.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabNomVoie(?string $tvaEtabNomVoie): Dossier4 {
+        $this->tvaEtabNomVoie = $tvaEtabNomVoie;
+        return $this;
+    }
+
+    /**
+     * Set the tva etab num voie.
+     *
+     * @param string|null $tvaEtabNumVoie The tva etab num voie.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaEtabNumVoie(?string $tvaEtabNumVoie): Dossier4 {
+        $this->tvaEtabNumVoie = $tvaEtabNumVoie;
+        return $this;
+    }
+
+    /**
+     * Set the tva exp nom.
+     *
+     * @param string|null $tvaExpNom The tva exp nom.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaExpNom(?string $tvaExpNom): Dossier4 {
+        $this->tvaExpNom = $tvaExpNom;
+        return $this;
+    }
+
+    /**
      * Set the tva jour decla.
      *
      * @param string|null $tvaJourDecla The tva jour decla.
@@ -4088,6 +3878,17 @@ class Dossier4 {
     }
 
     /**
+     * Set the tva mail pj.
+     *
+     * @param bool|null $tvaMailPj The tva mail pj.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaMailPj(?bool $tvaMailPj): Dossier4 {
+        $this->tvaMailPj = $tvaMailPj;
+        return $this;
+    }
+
+    /**
      * Set the tva methode.
      *
      * @param string|null $tvaMethode The tva methode.
@@ -4095,6 +3896,28 @@ class Dossier4 {
      */
     public function setTvaMethode(?string $tvaMethode): Dossier4 {
         $this->tvaMethode = $tvaMethode;
+        return $this;
+    }
+
+    /**
+     * Set the tva moyen paiement.
+     *
+     * @param int|null $tvaMoyenPaiement The tva moyen paiement.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaMoyenPaiement(?int $tvaMoyenPaiement): Dossier4 {
+        $this->tvaMoyenPaiement = $tvaMoyenPaiement;
+        return $this;
+    }
+
+    /**
+     * Set the tva nom vir.
+     *
+     * @param string|null $tvaNomVir The tva nom vir.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaNomVir(?string $tvaNomVir): Dossier4 {
+        $this->tvaNomVir = $tvaNomVir;
         return $this;
     }
 
@@ -4132,6 +3955,17 @@ class Dossier4 {
     }
 
     /**
+     * Set the tva recepteur je declare.
+     *
+     * @param bool|null $tvaRecepteurJeDeclare The tva recepteur je declare.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaRecepteurJeDeclare(?bool $tvaRecepteurJeDeclare): Dossier4 {
+        $this->tvaRecepteurJeDeclare = $tvaRecepteurJeDeclare;
+        return $this;
+    }
+
+    /**
      * Set the tva regime.
      *
      * @param string|null $tvaRegime The tva regime.
@@ -4143,6 +3977,17 @@ class Dossier4 {
     }
 
     /**
+     * Set the tva signataire.
+     *
+     * @param string|null $tvaSignataire The tva signataire.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaSignataire(?string $tvaSignataire): Dossier4 {
+        $this->tvaSignataire = $tvaSignataire;
+        return $this;
+    }
+
+    /**
      * Set the tva type.
      *
      * @param string|null $tvaType The tva type.
@@ -4150,6 +3995,160 @@ class Dossier4 {
      */
     public function setTvaType(?string $tvaType): Dossier4 {
         $this->tvaType = $tvaType;
+        return $this;
+    }
+
+    /**
+     * Set the tva vire crlf.
+     *
+     * @param bool|null $tvaVireCrlf The tva vire crlf.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaVireCrlf(?bool $tvaVireCrlf): Dossier4 {
+        $this->tvaVireCrlf = $tvaVireCrlf;
+        return $this;
+    }
+
+    /**
+     * Set the tvabic vir.
+     *
+     * @param string|null $tvabicVir The tvabic vir.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvabicVir(?string $tvabicVir): Dossier4 {
+        $this->tvabicVir = $tvabicVir;
+        return $this;
+    }
+
+    /**
+     * Set the tvaedi edition.
+     *
+     * @param bool|null $tvaediEdition The tvaedi edition.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaediEdition(?bool $tvaediEdition): Dossier4 {
+        $this->tvaediEdition = $tvaediEdition;
+        return $this;
+    }
+
+    /**
+     * Set the tvaiban vir.
+     *
+     * @param string|null $tvaibanVir The tvaiban vir.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaibanVir(?string $tvaibanVir): Dossier4 {
+        $this->tvaibanVir = $tvaibanVir;
+        return $this;
+    }
+
+    /**
+     * Set the tvarib vir.
+     *
+     * @param string|null $tvaribVir The tvarib vir.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvaribVir(?string $tvaribVir): Dossier4 {
+        $this->tvaribVir = $tvaribVir;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra bic1.
+     *
+     * @param string|null $tvatlraBic1 The tvatlra bic1.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraBic1(?string $tvatlraBic1): Dossier4 {
+        $this->tvatlraBic1 = $tvatlraBic1;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra bic2.
+     *
+     * @param string|null $tvatlraBic2 The tvatlra bic2.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraBic2(?string $tvatlraBic2): Dossier4 {
+        $this->tvatlraBic2 = $tvatlraBic2;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra bic3.
+     *
+     * @param string|null $tvatlraBic3 The tvatlra bic3.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraBic3(?string $tvatlraBic3): Dossier4 {
+        $this->tvatlraBic3 = $tvatlraBic3;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra iban1.
+     *
+     * @param string|null $tvatlraIban1 The tvatlra iban1.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraIban1(?string $tvatlraIban1): Dossier4 {
+        $this->tvatlraIban1 = $tvatlraIban1;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra iban2.
+     *
+     * @param string|null $tvatlraIban2 The tvatlra iban2.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraIban2(?string $tvatlraIban2): Dossier4 {
+        $this->tvatlraIban2 = $tvatlraIban2;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra iban3.
+     *
+     * @param string|null $tvatlraIban3 The tvatlra iban3.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraIban3(?string $tvatlraIban3): Dossier4 {
+        $this->tvatlraIban3 = $tvatlraIban3;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra rib1.
+     *
+     * @param string|null $tvatlraRib1 The tvatlra rib1.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraRib1(?string $tvatlraRib1): Dossier4 {
+        $this->tvatlraRib1 = $tvatlraRib1;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra rib2.
+     *
+     * @param string|null $tvatlraRib2 The tvatlra rib2.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraRib2(?string $tvatlraRib2): Dossier4 {
+        $this->tvatlraRib2 = $tvatlraRib2;
+        return $this;
+    }
+
+    /**
+     * Set the tvatlra rib3.
+     *
+     * @param string|null $tvatlraRib3 The tvatlra rib3.
+     * @return Dossier4 Returns this Dossier4.
+     */
+    public function setTvatlraRib3(?string $tvatlraRib3): Dossier4 {
+        $this->tvatlraRib3 = $tvatlraRib3;
         return $this;
     }
 

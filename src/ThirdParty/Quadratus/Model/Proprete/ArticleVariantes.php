@@ -47,7 +47,6 @@ class ArticleVariantes {
      */
     private $libelle;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class ArticleVariantes {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -69,7 +68,7 @@ class ArticleVariantes {
      *
      * @return string|null Returns the code barre.
      */
-    public function getCodeBarre(): ?string{
+    public function getCodeBarre(): ?string {
         return $this->codeBarre;
     }
 
@@ -78,7 +77,7 @@ class ArticleVariantes {
      *
      * @return string|null Returns the code variante.
      */
-    public function getCodeVariante(): ?string{
+    public function getCodeVariante(): ?string {
         return $this->codeVariante;
     }
 
@@ -87,7 +86,7 @@ class ArticleVariantes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 

@@ -33,7 +33,6 @@ class EquipeEmployes {
      */
     private $codeEquipe;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class EquipeEmployes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -55,7 +54,7 @@ class EquipeEmployes {
      *
      * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe(): ?string{
+    public function getCodeEquipe(): ?string {
         return $this->codeEquipe;
     }
 

@@ -54,7 +54,6 @@ class LibellesiPaie {
      */
     private $visibleiPaie;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class LibellesiPaie {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -76,7 +75,7 @@ class LibellesiPaie {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -85,7 +84,7 @@ class LibellesiPaie {
      *
      * @return bool|null Returns the intitule specifi paie.
      */
-    public function getIntituleSpecifiPaie(): ?bool{
+    public function getIntituleSpecifiPaie(): ?bool {
         return $this->intituleSpecifiPaie;
     }
 
@@ -94,7 +93,7 @@ class LibellesiPaie {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -103,7 +102,7 @@ class LibellesiPaie {
      *
      * @return string|null Returns the visiblei paie.
      */
-    public function getVisibleiPaie(): ?string{
+    public function getVisibleiPaie(): ?string {
         return $this->visibleiPaie;
     }
 

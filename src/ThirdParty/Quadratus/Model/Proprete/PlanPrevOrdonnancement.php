@@ -91,7 +91,6 @@ class PlanPrevOrdonnancement {
      */
     private $numOrdre;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class PlanPrevOrdonnancement {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -113,7 +112,7 @@ class PlanPrevOrdonnancement {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -122,7 +121,7 @@ class PlanPrevOrdonnancement {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -131,7 +130,7 @@ class PlanPrevOrdonnancement {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -140,7 +139,7 @@ class PlanPrevOrdonnancement {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -149,7 +148,7 @@ class PlanPrevOrdonnancement {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -158,7 +157,7 @@ class PlanPrevOrdonnancement {
      *
      * @return string|null Returns the descriptif.
      */
-    public function getDescriptif(): ?string{
+    public function getDescriptif(): ?string {
         return $this->descriptif;
     }
 
@@ -167,7 +166,7 @@ class PlanPrevOrdonnancement {
      *
      * @return int|null Returns the discr tache.
      */
-    public function getDiscrTache(): ?int{
+    public function getDiscrTache(): ?int {
         return $this->discrTache;
     }
 
@@ -176,7 +175,7 @@ class PlanPrevOrdonnancement {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -185,7 +184,7 @@ class PlanPrevOrdonnancement {
      *
      * @return int|null Returns the num ordre.
      */
-    public function getNumOrdre(): ?int{
+    public function getNumOrdre(): ?int {
         return $this->numOrdre;
     }
 

@@ -138,7 +138,6 @@ class ChargesProduits {
      */
     private $txTva;
 
-
     /**
      * Constructor.
      */
@@ -151,7 +150,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the centre.
      */
-    public function getCentre(): ?string{
+    public function getCentre(): ?string {
         return $this->centre;
     }
 
@@ -160,7 +159,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the code feuille.
      */
-    public function getCodeFeuille(): ?string{
+    public function getCodeFeuille(): ?string {
         return $this->codeFeuille;
     }
 
@@ -169,7 +168,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the commentaires.
      */
-    public function getCommentaires(): ?string{
+    public function getCommentaires(): ?string {
         return $this->commentaires;
     }
 
@@ -178,7 +177,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the contre partie.
      */
-    public function getContrePartie(): ?string{
+    public function getContrePartie(): ?string {
         return $this->contrePartie;
     }
 
@@ -187,7 +186,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the etat ligne.
      */
-    public function getEtatLigne(): ?string{
+    public function getEtatLigne(): ?string {
         return $this->etatLigne;
     }
 
@@ -196,7 +195,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the lib ecriture.
      */
-    public function getLibEcriture(): ?string{
+    public function getLibEcriture(): ?string {
         return $this->libEcriture;
     }
 
@@ -205,7 +204,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the mois revision.
      */
-    public function getMoisRevision(): ?string{
+    public function getMoisRevision(): ?string {
         return $this->moisRevision;
     }
 
@@ -214,7 +213,7 @@ class ChargesProduits {
      *
      * @return float|null Returns the mt ht.
      */
-    public function getMtHt(): ?float{
+    public function getMtHt(): ?float {
         return $this->mtHt;
     }
 
@@ -223,7 +222,7 @@ class ChargesProduits {
      *
      * @return float|null Returns the mt n1.
      */
-    public function getMtN1(): ?float{
+    public function getMtN1(): ?float {
         return $this->mtN1;
     }
 
@@ -232,7 +231,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the nature.
      */
-    public function getNature(): ?string{
+    public function getNature(): ?string {
         return $this->nature;
     }
 
@@ -241,7 +240,7 @@ class ChargesProduits {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -250,7 +249,7 @@ class ChargesProduits {
      *
      * @return int|null Returns the num lot ecriture.
      */
-    public function getNumLotEcriture(): ?int{
+    public function getNumLotEcriture(): ?int {
         return $this->numLotEcriture;
     }
 
@@ -259,7 +258,7 @@ class ChargesProduits {
      *
      * @return int|null Returns the num lot periodicite.
      */
-    public function getNumLotPeriodicite(): ?int{
+    public function getNumLotPeriodicite(): ?int {
         return $this->numLotPeriodicite;
     }
 
@@ -268,7 +267,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -277,7 +276,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the ref image.
      */
-    public function getRefImage(): ?string{
+    public function getRefImage(): ?string {
         return $this->refImage;
     }
 
@@ -286,7 +285,7 @@ class ChargesProduits {
      *
      * @return string|null Returns the sens.
      */
-    public function getSens(): ?string{
+    public function getSens(): ?string {
         return $this->sens;
     }
 
@@ -295,7 +294,7 @@ class ChargesProduits {
      *
      * @return float|null Returns the tx tva.
      */
-    public function getTxTva(): ?float{
+    public function getTxTva(): ?float {
         return $this->txTva;
     }
 

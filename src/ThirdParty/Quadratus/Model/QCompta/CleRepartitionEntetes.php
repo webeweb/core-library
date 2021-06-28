@@ -47,7 +47,6 @@ class CleRepartitionEntetes {
      */
     private $typeCle;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class CleRepartitionEntetes {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -69,7 +68,7 @@ class CleRepartitionEntetes {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -78,7 +77,7 @@ class CleRepartitionEntetes {
      *
      * @return float|null Returns the total.
      */
-    public function getTotal(): ?float{
+    public function getTotal(): ?float {
         return $this->total;
     }
 
@@ -87,7 +86,7 @@ class CleRepartitionEntetes {
      *
      * @return string|null Returns the type cle.
      */
-    public function getTypeCle(): ?string{
+    public function getTypeCle(): ?string {
         return $this->typeCle;
     }
 

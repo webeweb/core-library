@@ -42,7 +42,6 @@ class EmpReportModulation {
      */
     private $reportModAnt;
 
-
     /**
      * Constructor.
      */
@@ -55,7 +54,7 @@ class EmpReportModulation {
      *
      * @return DateTime|null Returns the date application.
      */
-    public function getDateApplication(): ?DateTime{
+    public function getDateApplication(): ?DateTime {
         return $this->dateApplication;
     }
 
@@ -64,7 +63,7 @@ class EmpReportModulation {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -73,7 +72,7 @@ class EmpReportModulation {
      *
      * @return float|null Returns the report mod ant.
      */
-    public function getReportModAnt(): ?float{
+    public function getReportModAnt(): ?float {
         return $this->reportModAnt;
     }
 

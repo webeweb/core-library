@@ -98,7 +98,6 @@ class SalairesAttestation {
      */
     private $salaireBrut;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class SalairesAttestation {
      *
      * @return DateTime|null Returns the date paie.
      */
-    public function getDatePaie(): ?DateTime{
+    public function getDatePaie(): ?DateTime {
         return $this->datePaie;
     }
 
@@ -120,7 +119,7 @@ class SalairesAttestation {
      *
      * @return string|null Returns the euro ou franc.
      */
-    public function getEuroOuFranc(): ?string{
+    public function getEuroOuFranc(): ?string {
         return $this->euroOuFranc;
     }
 
@@ -129,7 +128,7 @@ class SalairesAttestation {
      *
      * @return float|null Returns the heures trav.
      */
-    public function getHeuresTrav(): ?float{
+    public function getHeuresTrav(): ?float {
         return $this->heuresTrav;
     }
 
@@ -138,7 +137,7 @@ class SalairesAttestation {
      *
      * @return float|null Returns the jours non payes.
      */
-    public function getJoursNonPayes(): ?float{
+    public function getJoursNonPayes(): ?float {
         return $this->joursNonPayes;
     }
 
@@ -147,7 +146,7 @@ class SalairesAttestation {
      *
      * @return string|null Returns the num ligne.
      */
-    public function getNumLigne(): ?string{
+    public function getNumLigne(): ?string {
         return $this->numLigne;
     }
 
@@ -156,7 +155,7 @@ class SalairesAttestation {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -165,7 +164,7 @@ class SalairesAttestation {
      *
      * @return string|null Returns the observation.
      */
-    public function getObservation(): ?string{
+    public function getObservation(): ?string {
         return $this->observation;
     }
 
@@ -174,7 +173,7 @@ class SalairesAttestation {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -183,7 +182,7 @@ class SalairesAttestation {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -192,7 +191,7 @@ class SalairesAttestation {
      *
      * @return float|null Returns the precompte.
      */
-    public function getPrecompte(): ?float{
+    public function getPrecompte(): ?float {
         return $this->precompte;
     }
 
@@ -201,7 +200,7 @@ class SalairesAttestation {
      *
      * @return float|null Returns the salaire brut.
      */
-    public function getSalaireBrut(): ?float{
+    public function getSalaireBrut(): ?float {
         return $this->salaireBrut;
     }
 

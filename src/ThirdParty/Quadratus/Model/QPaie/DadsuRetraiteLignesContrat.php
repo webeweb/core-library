@@ -47,7 +47,6 @@ class DadsuRetraiteLignesContrat {
      */
     private $refContrat;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class DadsuRetraiteLignesContrat {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -69,7 +68,7 @@ class DadsuRetraiteLignesContrat {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -78,7 +77,7 @@ class DadsuRetraiteLignesContrat {
      *
      * @return string|null Returns the designation commerciale.
      */
-    public function getDesignationCommerciale(): ?string{
+    public function getDesignationCommerciale(): ?string {
         return $this->designationCommerciale;
     }
 
@@ -87,7 +86,7 @@ class DadsuRetraiteLignesContrat {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 

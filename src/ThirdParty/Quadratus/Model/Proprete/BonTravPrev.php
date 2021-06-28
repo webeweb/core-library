@@ -22,13 +22,6 @@ use DateTime;
 class BonTravPrev {
 
     /**
-     * Ad btbtq.
-     *
-     * @var string|null
-     */
-    private $adBtbtq;
-
-    /**
      * Ad bt bureau distributeur.
      *
      * @var string|null
@@ -92,11 +85,11 @@ class BonTravPrev {
     private $adBtNumVoie;
 
     /**
-     * Ad fbtq.
+     * Ad btbtq.
      *
      * @var string|null
      */
-    private $adFbtq;
+    private $adBtbtq;
 
     /**
      * Ad f bureau distributeur.
@@ -174,6 +167,13 @@ class BonTravPrev {
      * @var string|null
      */
     private $adFNumVoie;
+
+    /**
+     * Ad fbtq.
+     *
+     * @var string|null
+     */
+    private $adFbtq;
 
     /**
      * Adresse bt saisie.
@@ -547,6 +547,20 @@ class BonTravPrev {
     private $proratise;
 
     /**
+     * reference1 devis.
+     *
+     * @var string|null
+     */
+    private $reference1Devis;
+
+    /**
+     * reference2 devis.
+     *
+     * @var string|null
+     */
+    private $reference2Devis;
+
+    /**
      * Signataire.
      *
      * @var string|null
@@ -596,21 +610,6 @@ class BonTravPrev {
     private $via;
 
     /**
-     * reference1 devis.
-     *
-     * @var string|null
-     */
-    private $reference1Devis;
-
-    /**
-     * reference2 devis.
-     *
-     * @var string|null
-     */
-    private $reference2Devis;
-
-
-    /**
      * Constructor.
      */
     public function __construct() {
@@ -618,20 +617,11 @@ class BonTravPrev {
     }
 
     /**
-     * Get the ad btbtq.
-     *
-     * @return string|null Returns the ad btbtq.
-     */
-    public function getAdBtbtq(): ?string{
-        return $this->adBtbtq;
-    }
-
-    /**
      * Get the ad bt bureau distributeur.
      *
      * @return string|null Returns the ad bt bureau distributeur.
      */
-    public function getAdBtBureauDistributeur(): ?string{
+    public function getAdBtBureauDistributeur(): ?string {
         return $this->adBtBureauDistributeur;
     }
 
@@ -640,7 +630,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt civilite.
      */
-    public function getAdBtCivilite(): ?string{
+    public function getAdBtCivilite(): ?string {
         return $this->adBtCivilite;
     }
 
@@ -649,7 +639,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt code pays.
      */
-    public function getAdBtCodePays(): ?string{
+    public function getAdBtCodePays(): ?string {
         return $this->adBtCodePays;
     }
 
@@ -658,7 +648,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt code postal.
      */
-    public function getAdBtCodePostal(): ?string{
+    public function getAdBtCodePostal(): ?string {
         return $this->adBtCodePostal;
     }
 
@@ -667,7 +657,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt complement.
      */
-    public function getAdBtComplement(): ?string{
+    public function getAdBtComplement(): ?string {
         return $this->adBtComplement;
     }
 
@@ -676,7 +666,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt nom.
      */
-    public function getAdBtNom(): ?string{
+    public function getAdBtNom(): ?string {
         return $this->adBtNom;
     }
 
@@ -685,7 +675,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt nom suite.
      */
-    public function getAdBtNomSuite(): ?string{
+    public function getAdBtNomSuite(): ?string {
         return $this->adBtNomSuite;
     }
 
@@ -694,7 +684,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt nom voie.
      */
-    public function getAdBtNomVoie(): ?string{
+    public function getAdBtNomVoie(): ?string {
         return $this->adBtNomVoie;
     }
 
@@ -703,17 +693,17 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad bt num voie.
      */
-    public function getAdBtNumVoie(): ?string{
+    public function getAdBtNumVoie(): ?string {
         return $this->adBtNumVoie;
     }
 
     /**
-     * Get the ad fbtq.
+     * Get the ad btbtq.
      *
-     * @return string|null Returns the ad fbtq.
+     * @return string|null Returns the ad btbtq.
      */
-    public function getAdFbtq(): ?string{
-        return $this->adFbtq;
+    public function getAdBtbtq(): ?string {
+        return $this->adBtbtq;
     }
 
     /**
@@ -721,7 +711,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f bureau distributeur.
      */
-    public function getAdFBureauDistributeur(): ?string{
+    public function getAdFBureauDistributeur(): ?string {
         return $this->adFBureauDistributeur;
     }
 
@@ -730,7 +720,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f civilite.
      */
-    public function getAdFCivilite(): ?string{
+    public function getAdFCivilite(): ?string {
         return $this->adFCivilite;
     }
 
@@ -739,7 +729,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f code pays.
      */
-    public function getAdFCodePays(): ?string{
+    public function getAdFCodePays(): ?string {
         return $this->adFCodePays;
     }
 
@@ -748,7 +738,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f code postal.
      */
-    public function getAdFCodePostal(): ?string{
+    public function getAdFCodePostal(): ?string {
         return $this->adFCodePostal;
     }
 
@@ -757,7 +747,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f complement.
      */
-    public function getAdFComplement(): ?string{
+    public function getAdFComplement(): ?string {
         return $this->adFComplement;
     }
 
@@ -766,7 +756,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f nom.
      */
-    public function getAdFNom(): ?string{
+    public function getAdFNom(): ?string {
         return $this->adFNom;
     }
 
@@ -775,7 +765,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f nom suite.
      */
-    public function getAdFNomSuite(): ?string{
+    public function getAdFNomSuite(): ?string {
         return $this->adFNomSuite;
     }
 
@@ -784,7 +774,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f nom suite2.
      */
-    public function getAdFNomSuite2(): ?string{
+    public function getAdFNomSuite2(): ?string {
         return $this->adFNomSuite2;
     }
 
@@ -793,7 +783,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f nom suite3.
      */
-    public function getAdFNomSuite3(): ?string{
+    public function getAdFNomSuite3(): ?string {
         return $this->adFNomSuite3;
     }
 
@@ -802,7 +792,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f nom voie.
      */
-    public function getAdFNomVoie(): ?string{
+    public function getAdFNomVoie(): ?string {
         return $this->adFNomVoie;
     }
 
@@ -811,8 +801,17 @@ class BonTravPrev {
      *
      * @return string|null Returns the ad f num voie.
      */
-    public function getAdFNumVoie(): ?string{
+    public function getAdFNumVoie(): ?string {
         return $this->adFNumVoie;
+    }
+
+    /**
+     * Get the ad fbtq.
+     *
+     * @return string|null Returns the ad fbtq.
+     */
+    public function getAdFbtq(): ?string {
+        return $this->adFbtq;
     }
 
     /**
@@ -820,7 +819,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the adresse bt saisie.
      */
-    public function getAdresseBtSaisie(): ?bool{
+    public function getAdresseBtSaisie(): ?bool {
         return $this->adresseBtSaisie;
     }
 
@@ -829,7 +828,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the adresse facturation saisie.
      */
-    public function getAdresseFacturationSaisie(): ?bool{
+    public function getAdresseFacturationSaisie(): ?bool {
         return $this->adresseFacturationSaisie;
     }
 
@@ -838,7 +837,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the bt copie.
      */
-    public function getBtCopie(): ?bool{
+    public function getBtCopie(): ?bool {
         return $this->btCopie;
     }
 
@@ -847,7 +846,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the bt devis deja facture.
      */
-    public function getBtDevisDejaFacture(): ?bool{
+    public function getBtDevisDejaFacture(): ?bool {
         return $this->btDevisDejaFacture;
     }
 
@@ -856,7 +855,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the bt valide.
      */
-    public function getBtValide(): ?bool{
+    public function getBtValide(): ?bool {
         return $this->btValide;
     }
 
@@ -865,7 +864,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -874,7 +873,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -883,7 +882,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -892,7 +891,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -901,7 +900,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code equipe.
      */
-    public function getCodeEquipe(): ?string{
+    public function getCodeEquipe(): ?string {
         return $this->codeEquipe;
     }
 
@@ -910,7 +909,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code regroupement devis.
      */
-    public function getCodeRegroupementDevis(): ?string{
+    public function getCodeRegroupementDevis(): ?string {
         return $this->codeRegroupementDevis;
     }
 
@@ -919,7 +918,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code tache type.
      */
-    public function getCodeTacheType(): ?string{
+    public function getCodeTacheType(): ?string {
         return $this->codeTacheType;
     }
 
@@ -928,7 +927,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the code tournee.
      */
-    public function getCodeTournee(): ?string{
+    public function getCodeTournee(): ?string {
         return $this->codeTournee;
     }
 
@@ -937,7 +936,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the critere bool1.
      */
-    public function getCritereBool1(): ?bool{
+    public function getCritereBool1(): ?bool {
         return $this->critereBool1;
     }
 
@@ -946,7 +945,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the critere bool2.
      */
-    public function getCritereBool2(): ?bool{
+    public function getCritereBool2(): ?bool {
         return $this->critereBool2;
     }
 
@@ -955,7 +954,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the critere byte1.
      */
-    public function getCritereByte1(): ?string{
+    public function getCritereByte1(): ?string {
         return $this->critereByte1;
     }
 
@@ -964,7 +963,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the critere liste1.
      */
-    public function getCritereListe1(): ?string{
+    public function getCritereListe1(): ?string {
         return $this->critereListe1;
     }
 
@@ -973,7 +972,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the critere liste2.
      */
-    public function getCritereListe2(): ?string{
+    public function getCritereListe2(): ?string {
         return $this->critereListe2;
     }
 
@@ -982,7 +981,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the critere numerique1.
      */
-    public function getCritereNumerique1(): ?float{
+    public function getCritereNumerique1(): ?float {
         return $this->critereNumerique1;
     }
 
@@ -991,7 +990,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the critere numerique2.
      */
-    public function getCritereNumerique2(): ?float{
+    public function getCritereNumerique2(): ?float {
         return $this->critereNumerique2;
     }
 
@@ -1000,7 +999,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the critere texte1.
      */
-    public function getCritereTexte1(): ?string{
+    public function getCritereTexte1(): ?string {
         return $this->critereTexte1;
     }
 
@@ -1009,7 +1008,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the critere texte2.
      */
-    public function getCritereTexte2(): ?string{
+    public function getCritereTexte2(): ?string {
         return $this->critereTexte2;
     }
 
@@ -1018,7 +1017,7 @@ class BonTravPrev {
      *
      * @return DateTime|null Returns the date passage.
      */
-    public function getDatePassage(): ?DateTime{
+    public function getDatePassage(): ?DateTime {
         return $this->datePassage;
     }
 
@@ -1027,7 +1026,7 @@ class BonTravPrev {
      *
      * @return DateTime|null Returns the date premier passage.
      */
-    public function getDatePremierPassage(): ?DateTime{
+    public function getDatePremierPassage(): ?DateTime {
         return $this->datePremierPassage;
     }
 
@@ -1036,7 +1035,7 @@ class BonTravPrev {
      *
      * @return DateTime|null Returns the date transfert.
      */
-    public function getDateTransfert(): ?DateTime{
+    public function getDateTransfert(): ?DateTime {
         return $this->dateTransfert;
     }
 
@@ -1045,7 +1044,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the description.
      */
-    public function getDescription(): ?string{
+    public function getDescription(): ?string {
         return $this->description;
     }
 
@@ -1054,7 +1053,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the duree pointee.
      */
-    public function getDureePointee(): ?float{
+    public function getDureePointee(): ?float {
         return $this->dureePointee;
     }
 
@@ -1063,7 +1062,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the duree prevue.
      */
-    public function getDureePrevue(): ?float{
+    public function getDureePrevue(): ?float {
         return $this->dureePrevue;
     }
 
@@ -1072,7 +1071,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the duree validee.
      */
-    public function getDureeValidee(): ?float{
+    public function getDureeValidee(): ?float {
         return $this->dureeValidee;
     }
 
@@ -1081,7 +1080,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the employe signe mob.
      */
-    public function getEmployeSigneMob(): ?string{
+    public function getEmployeSigneMob(): ?string {
         return $this->employeSigneMob;
     }
 
@@ -1090,7 +1089,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the gestion planning.
      */
-    public function getGestionPlanning(): ?bool{
+    public function getGestionPlanning(): ?bool {
         return $this->gestionPlanning;
     }
 
@@ -1099,7 +1098,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the guid mob.
      */
-    public function getGuidMob(): ?string{
+    public function getGuidMob(): ?string {
         return $this->guidMob;
     }
 
@@ -1108,7 +1107,7 @@ class BonTravPrev {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
     }
 
@@ -1117,7 +1116,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the latitude.
      */
-    public function getLatitude(): ?float{
+    public function getLatitude(): ?float {
         return $this->latitude;
     }
 
@@ -1126,7 +1125,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -1135,7 +1134,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -1144,7 +1143,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the longitude.
      */
-    public function getLongitude(): ?float{
+    public function getLongitude(): ?float {
         return $this->longitude;
     }
 
@@ -1153,7 +1152,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the montant ht devis.
      */
-    public function getMontantHtDevis(): ?float{
+    public function getMontantHtDevis(): ?float {
         return $this->montantHtDevis;
     }
 
@@ -1162,7 +1161,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the nb jours pointes.
      */
-    public function getNbJoursPointes(): ?float{
+    public function getNbJoursPointes(): ?float {
         return $this->nbJoursPointes;
     }
 
@@ -1171,7 +1170,7 @@ class BonTravPrev {
      *
      * @return float|null Returns the nb jours prevus.
      */
-    public function getNbJoursPrevus(): ?float{
+    public function getNbJoursPrevus(): ?float {
         return $this->nbJoursPrevus;
     }
 
@@ -1180,7 +1179,7 @@ class BonTravPrev {
      *
      * @return int|null Returns the nombre employes.
      */
-    public function getNombreEmployes(): ?int{
+    public function getNombreEmployes(): ?int {
         return $this->nombreEmployes;
     }
 
@@ -1189,7 +1188,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the non traite.
      */
-    public function getNonTraite(): ?bool{
+    public function getNonTraite(): ?bool {
         return $this->nonTraite;
     }
 
@@ -1198,7 +1197,7 @@ class BonTravPrev {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -1207,7 +1206,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the numero devis.
      */
-    public function getNumeroDevis(): ?string{
+    public function getNumeroDevis(): ?string {
         return $this->numeroDevis;
     }
 
@@ -1216,7 +1215,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the numero facture.
      */
-    public function getNumeroFacture(): ?string{
+    public function getNumeroFacture(): ?string {
         return $this->numeroFacture;
     }
 
@@ -1225,7 +1224,7 @@ class BonTravPrev {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -1234,7 +1233,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the observation client.
      */
-    public function getObservationClient(): ?string{
+    public function getObservationClient(): ?string {
         return $this->observationClient;
     }
 
@@ -1243,7 +1242,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the observation interne.
      */
-    public function getObservationInterne(): ?string{
+    public function getObservationInterne(): ?string {
         return $this->observationInterne;
     }
 
@@ -1252,7 +1251,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the occasionnel.
      */
-    public function getOccasionnel(): ?bool{
+    public function getOccasionnel(): ?bool {
         return $this->occasionnel;
     }
 
@@ -1261,7 +1260,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the plusieurs jours.
      */
-    public function getPlusieursJours(): ?bool{
+    public function getPlusieursJours(): ?bool {
         return $this->plusieursJours;
     }
 
@@ -1270,7 +1269,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the plusieurs mois.
      */
-    public function getPlusieursMois(): ?bool{
+    public function getPlusieursMois(): ?bool {
         return $this->plusieursMois;
     }
 
@@ -1279,7 +1278,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -1288,7 +1287,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the proratise.
      */
-    public function getProratise(): ?bool{
+    public function getProratise(): ?bool {
         return $this->proratise;
     }
 
@@ -1297,7 +1296,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the signataire.
      */
-    public function getSignataire(): ?string{
+    public function getSignataire(): ?string {
         return $this->signataire;
     }
 
@@ -1306,7 +1305,7 @@ class BonTravPrev {
      *
      * @return bool|null Returns the signe.
      */
-    public function getSigne(): ?bool{
+    public function getSigne(): ?bool {
         return $this->signe;
     }
 
@@ -1315,7 +1314,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the start mob.
      */
-    public function getStartMob(): ?string{
+    public function getStartMob(): ?string {
         return $this->startMob;
     }
 
@@ -1324,7 +1323,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the type bt.
      */
-    public function getTypeBt(): ?string{
+    public function getTypeBt(): ?string {
         return $this->typeBt;
     }
 
@@ -1333,7 +1332,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the type bt saisi.
      */
-    public function getTypeBtSaisi(): ?string{
+    public function getTypeBtSaisi(): ?string {
         return $this->typeBtSaisi;
     }
 
@@ -1342,7 +1341,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the uniq id blocage.
      */
-    public function getUniqIdBlocage(): ?string{
+    public function getUniqIdBlocage(): ?string {
         return $this->uniqIdBlocage;
     }
 
@@ -1351,7 +1350,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the via.
      */
-    public function getVia(): ?string{
+    public function getVia(): ?string {
         return $this->via;
     }
 
@@ -1360,7 +1359,7 @@ class BonTravPrev {
      *
      * @return string|null Returns the reference1 devis.
      */
-    public function getreference1Devis(): ?string{
+    public function getreference1Devis(): ?string {
         return $this->reference1Devis;
     }
 
@@ -1369,19 +1368,8 @@ class BonTravPrev {
      *
      * @return string|null Returns the reference2 devis.
      */
-    public function getreference2Devis(): ?string{
+    public function getreference2Devis(): ?string {
         return $this->reference2Devis;
-    }
-
-    /**
-     * Set the ad btbtq.
-     *
-     * @param string|null $adBtbtq The ad btbtq.
-     * @return BonTravPrev Returns this Bon trav prev.
-     */
-    public function setAdBtbtq(?string $adBtbtq): BonTravPrev {
-        $this->adBtbtq = $adBtbtq;
-        return $this;
     }
 
     /**
@@ -1484,13 +1472,13 @@ class BonTravPrev {
     }
 
     /**
-     * Set the ad fbtq.
+     * Set the ad btbtq.
      *
-     * @param string|null $adFbtq The ad fbtq.
+     * @param string|null $adBtbtq The ad btbtq.
      * @return BonTravPrev Returns this Bon trav prev.
      */
-    public function setAdFbtq(?string $adFbtq): BonTravPrev {
-        $this->adFbtq = $adFbtq;
+    public function setAdBtbtq(?string $adBtbtq): BonTravPrev {
+        $this->adBtbtq = $adBtbtq;
         return $this;
     }
 
@@ -1612,6 +1600,17 @@ class BonTravPrev {
      */
     public function setAdFNumVoie(?string $adFNumVoie): BonTravPrev {
         $this->adFNumVoie = $adFNumVoie;
+        return $this;
+    }
+
+    /**
+     * Set the ad fbtq.
+     *
+     * @param string|null $adFbtq The ad fbtq.
+     * @return BonTravPrev Returns this Bon trav prev.
+     */
+    public function setAdFbtq(?string $adFbtq): BonTravPrev {
+        $this->adFbtq = $adFbtq;
         return $this;
     }
 

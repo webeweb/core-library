@@ -33,7 +33,6 @@ class DadsuAnnuelle {
      */
     private $tdsAnnee;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class DadsuAnnuelle {
      *
      * @return string|null Returns the nom fichier dadsu.
      */
-    public function getNomFichierDadsu(): ?string{
+    public function getNomFichierDadsu(): ?string {
         return $this->nomFichierDadsu;
     }
 
@@ -55,7 +54,7 @@ class DadsuAnnuelle {
      *
      * @return int|null Returns the tds annee.
      */
-    public function getTdsAnnee(): ?int{
+    public function getTdsAnnee(): ?int {
         return $this->tdsAnnee;
     }
 

@@ -47,7 +47,6 @@ class RegroupementEdBulTitres {
      */
     private $titre;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class RegroupementEdBulTitres {
      *
      * @return bool|null Returns the afficher.
      */
-    public function getAfficher(): ?bool{
+    public function getAfficher(): ?bool {
         return $this->afficher;
     }
 
@@ -69,7 +68,7 @@ class RegroupementEdBulTitres {
      *
      * @return string|null Returns the code titre.
      */
-    public function getCodeTitre(): ?string{
+    public function getCodeTitre(): ?string {
         return $this->codeTitre;
     }
 
@@ -78,7 +77,7 @@ class RegroupementEdBulTitres {
      *
      * @return bool|null Returns the quadra.
      */
-    public function getQuadra(): ?bool{
+    public function getQuadra(): ?bool {
         return $this->quadra;
     }
 
@@ -87,7 +86,7 @@ class RegroupementEdBulTitres {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 

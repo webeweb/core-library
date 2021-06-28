@@ -63,7 +63,6 @@ class Documents {
      */
     private $lienDocument;
 
-
     /**
      * Constructor.
      */
@@ -76,7 +75,7 @@ class Documents {
      *
      * @return int|null Returns the chrono.
      */
-    public function getChrono(): ?int{
+    public function getChrono(): ?int {
         return $this->chrono;
     }
 
@@ -85,7 +84,7 @@ class Documents {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -94,7 +93,7 @@ class Documents {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 
@@ -103,7 +102,7 @@ class Documents {
      *
      * @return DateTime|null Returns the date heure sys.
      */
-    public function getDateHeureSys(): ?DateTime{
+    public function getDateHeureSys(): ?DateTime {
         return $this->dateHeureSys;
     }
 
@@ -112,7 +111,7 @@ class Documents {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -121,7 +120,7 @@ class Documents {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 

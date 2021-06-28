@@ -77,7 +77,6 @@ class AffaireMtPrevisionnel {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -90,7 +89,7 @@ class AffaireMtPrevisionnel {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -99,7 +98,7 @@ class AffaireMtPrevisionnel {
      *
      * @return string|null Returns the code avenant.
      */
-    public function getCodeAvenant(): ?string{
+    public function getCodeAvenant(): ?string {
         return $this->codeAvenant;
     }
 
@@ -108,7 +107,7 @@ class AffaireMtPrevisionnel {
      *
      * @return string|null Returns the code phase.
      */
-    public function getCodePhase(): ?string{
+    public function getCodePhase(): ?string {
         return $this->codePhase;
     }
 
@@ -117,7 +116,7 @@ class AffaireMtPrevisionnel {
      *
      * @return DateTime|null Returns the date prev.
      */
-    public function getDatePrev(): ?DateTime{
+    public function getDatePrev(): ?DateTime {
         return $this->datePrev;
     }
 
@@ -126,7 +125,7 @@ class AffaireMtPrevisionnel {
      *
      * @return float|null Returns the mt phase.
      */
-    public function getMtPhase(): ?float{
+    public function getMtPhase(): ?float {
         return $this->mtPhase;
     }
 
@@ -135,7 +134,7 @@ class AffaireMtPrevisionnel {
      *
      * @return float|null Returns the mt prev.
      */
-    public function getMtPrev(): ?float{
+    public function getMtPrev(): ?float {
         return $this->mtPrev;
     }
 
@@ -144,7 +143,7 @@ class AffaireMtPrevisionnel {
      *
      * @return float|null Returns the prct phase.
      */
-    public function getPrctPhase(): ?float{
+    public function getPrctPhase(): ?float {
         return $this->prctPhase;
     }
 
@@ -153,7 +152,7 @@ class AffaireMtPrevisionnel {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

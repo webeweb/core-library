@@ -98,7 +98,6 @@ class ChargesARepartir {
      */
     private $typeAmort;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class ChargesARepartir {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -120,7 +119,7 @@ class ChargesARepartir {
      *
      * @return float|null Returns the coeff degressif.
      */
-    public function getCoeffDegressif(): ?float{
+    public function getCoeffDegressif(): ?float {
         return $this->coeffDegressif;
     }
 
@@ -129,7 +128,7 @@ class ChargesARepartir {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -138,7 +137,7 @@ class ChargesARepartir {
      *
      * @return float|null Returns the duree.
      */
-    public function getDuree(): ?float{
+    public function getDuree(): ?float {
         return $this->duree;
     }
 
@@ -147,7 +146,7 @@ class ChargesARepartir {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -156,7 +155,7 @@ class ChargesARepartir {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -165,7 +164,7 @@ class ChargesARepartir {
      *
      * @return string|null Returns the num contrat.
      */
-    public function getNumContrat(): ?string{
+    public function getNumContrat(): ?string {
         return $this->numContrat;
     }
 
@@ -174,7 +173,7 @@ class ChargesARepartir {
      *
      * @return string|null Returns the num cpt car.
      */
-    public function getNumCptCar(): ?string{
+    public function getNumCptCar(): ?string {
         return $this->numCptCar;
     }
 
@@ -183,7 +182,7 @@ class ChargesARepartir {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -192,7 +191,7 @@ class ChargesARepartir {
      *
      * @return float|null Returns the taux lineaire.
      */
-    public function getTauxLineaire(): ?float{
+    public function getTauxLineaire(): ?float {
         return $this->tauxLineaire;
     }
 
@@ -201,7 +200,7 @@ class ChargesARepartir {
      *
      * @return string|null Returns the type amort.
      */
-    public function getTypeAmort(): ?string{
+    public function getTypeAmort(): ?string {
         return $this->typeAmort;
     }
 

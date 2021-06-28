@@ -40,7 +40,6 @@ class TranchesHSup {
      */
     private $type;
 
-
     /**
      * Constructor.
      */
@@ -53,7 +52,7 @@ class TranchesHSup {
      *
      * @return int|null Returns the nb heures.
      */
-    public function getNbHeures(): ?int{
+    public function getNbHeures(): ?int {
         return $this->nbHeures;
     }
 
@@ -62,7 +61,7 @@ class TranchesHSup {
      *
      * @return float|null Returns the taux.
      */
-    public function getTaux(): ?float{
+    public function getTaux(): ?float {
         return $this->taux;
     }
 
@@ -71,7 +70,7 @@ class TranchesHSup {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 

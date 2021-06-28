@@ -133,7 +133,6 @@ class DecTvaFiliales {
      */
     private $ville;
 
-
     /**
      * Constructor.
      */
@@ -146,7 +145,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the btq.
      */
-    public function getBtq(): ?string{
+    public function getBtq(): ?string {
         return $this->btq;
     }
 
@@ -155,7 +154,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the code postal.
      */
-    public function getCodePostal(): ?string{
+    public function getCodePostal(): ?string {
         return $this->codePostal;
     }
 
@@ -164,7 +163,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the complement.
      */
-    public function getComplement(): ?string{
+    public function getComplement(): ?string {
         return $this->complement;
     }
 
@@ -173,7 +172,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the cpt filiale.
      */
-    public function getCptFiliale(): ?string{
+    public function getCptFiliale(): ?string {
         return $this->cptFiliale;
     }
 
@@ -182,7 +181,7 @@ class DecTvaFiliales {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -191,7 +190,7 @@ class DecTvaFiliales {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -200,7 +199,7 @@ class DecTvaFiliales {
      *
      * @return float|null Returns the detention directe.
      */
-    public function getDetentionDirecte(): ?float{
+    public function getDetentionDirecte(): ?float {
         return $this->detentionDirecte;
     }
 
@@ -209,7 +208,7 @@ class DecTvaFiliales {
      *
      * @return float|null Returns the detention indirecte.
      */
-    public function getDetentionIndirecte(): ?float{
+    public function getDetentionIndirecte(): ?float {
         return $this->detentionIndirecte;
     }
 
@@ -218,7 +217,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the forme juridique.
      */
-    public function getFormeJuridique(): ?string{
+    public function getFormeJuridique(): ?string {
         return $this->formeJuridique;
     }
 
@@ -227,7 +226,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the lib doss.
      */
-    public function getLibDoss(): ?string{
+    public function getLibDoss(): ?string {
         return $this->libDoss;
     }
 
@@ -236,7 +235,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the no doss.
      */
-    public function getNoDoss(): ?string{
+    public function getNoDoss(): ?string {
         return $this->noDoss;
     }
 
@@ -245,7 +244,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the nom voie.
      */
-    public function getNomVoie(): ?string{
+    public function getNomVoie(): ?string {
         return $this->nomVoie;
     }
 
@@ -254,7 +253,7 @@ class DecTvaFiliales {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -263,7 +262,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the num voie.
      */
-    public function getNumVoie(): ?string{
+    public function getNumVoie(): ?string {
         return $this->numVoie;
     }
 
@@ -272,7 +271,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the siren.
      */
-    public function getSiren(): ?string{
+    public function getSiren(): ?string {
         return $this->siren;
     }
 
@@ -281,7 +280,7 @@ class DecTvaFiliales {
      *
      * @return string|null Returns the ville.
      */
-    public function getVille(): ?string{
+    public function getVille(): ?string {
         return $this->ville;
     }
 

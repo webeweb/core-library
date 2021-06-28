@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Core\Security;
 
-use WBW\Library\Core\Model\Attribute\IntegerPortTrait;
-use WBW\Library\Core\Model\Attribute\StringHostnameTrait;
+use WBW\Library\Traits\Integers\IntegerPortTrait;
+use WBW\Library\Traits\Strings\StringHostnameTrait;
 
 /**
  * Authenticator.

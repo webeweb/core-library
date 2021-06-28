@@ -98,7 +98,6 @@ class FichesExposition {
      */
     private $tempsExposition;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class FichesExposition {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -120,7 +119,7 @@ class FichesExposition {
      *
      * @return string|null Returns the code prestation.
      */
-    public function getCodePrestation(): ?string{
+    public function getCodePrestation(): ?string {
         return $this->codePrestation;
     }
 
@@ -129,7 +128,7 @@ class FichesExposition {
      *
      * @return string|null Returns the code produit.
      */
-    public function getCodeProduit(): ?string{
+    public function getCodeProduit(): ?string {
         return $this->codeProduit;
     }
 
@@ -138,7 +137,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date ctrl.
      */
-    public function getDateCtrl(): ?DateTime{
+    public function getDateCtrl(): ?DateTime {
         return $this->dateCtrl;
     }
 
@@ -147,7 +146,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date deb expo.
      */
-    public function getDateDebExpo(): ?DateTime{
+    public function getDateDebExpo(): ?DateTime {
         return $this->dateDebExpo;
     }
 
@@ -156,7 +155,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date fiche.
      */
-    public function getDateFiche(): ?DateTime{
+    public function getDateFiche(): ?DateTime {
         return $this->dateFiche;
     }
 
@@ -165,7 +164,7 @@ class FichesExposition {
      *
      * @return DateTime|null Returns the date fin expo.
      */
-    public function getDateFinExpo(): ?DateTime{
+    public function getDateFinExpo(): ?DateTime {
         return $this->dateFinExpo;
     }
 
@@ -174,7 +173,7 @@ class FichesExposition {
      *
      * @return string|null Returns the lst code phase.
      */
-    public function getLstCodePhase(): ?string{
+    public function getLstCodePhase(): ?string {
         return $this->lstCodePhase;
     }
 
@@ -183,7 +182,7 @@ class FichesExposition {
      *
      * @return string|null Returns the lst code prev.
      */
-    public function getLstCodePrev(): ?string{
+    public function getLstCodePrev(): ?string {
         return $this->lstCodePrev;
     }
 
@@ -192,7 +191,7 @@ class FichesExposition {
      *
      * @return string|null Returns the resu ctrl.
      */
-    public function getResuCtrl(): ?string{
+    public function getResuCtrl(): ?string {
         return $this->resuCtrl;
     }
 
@@ -201,7 +200,7 @@ class FichesExposition {
      *
      * @return float|null Returns the temps exposition.
      */
-    public function getTempsExposition(): ?float{
+    public function getTempsExposition(): ?float {
         return $this->tempsExposition;
     }
 

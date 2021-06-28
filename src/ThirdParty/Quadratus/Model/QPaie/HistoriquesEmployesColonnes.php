@@ -20,6 +20,13 @@ namespace WBW\Library\Core\ThirdParty\Quadratus\Model\QPaie;
 class HistoriquesEmployesColonnes {
 
     /**
+     * b en graph.
+     *
+     * @var bool|null
+     */
+    private $bEnGraph;
+
+    /**
      * Clause where.
      *
      * @var string|null
@@ -104,14 +111,6 @@ class HistoriquesEmployesColonnes {
     private $titre;
 
     /**
-     * b en graph.
-     *
-     * @var bool|null
-     */
-    private $bEnGraph;
-
-
-    /**
      * Constructor.
      */
     public function __construct() {
@@ -123,7 +122,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the clause where.
      */
-    public function getClauseWhere(): ?string{
+    public function getClauseWhere(): ?string {
         return $this->clauseWhere;
     }
 
@@ -132,7 +131,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return int|null Returns the indice.
      */
-    public function getIndice(): ?int{
+    public function getIndice(): ?int {
         return $this->indice;
     }
 
@@ -141,7 +140,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the indice tri.
      */
-    public function getIndiceTri(): ?string{
+    public function getIndiceTri(): ?string {
         return $this->indiceTri;
     }
 
@@ -150,7 +149,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -159,7 +158,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the jointure.
      */
-    public function getJointure(): ?string{
+    public function getJointure(): ?string {
         return $this->jointure;
     }
 
@@ -168,7 +167,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the nom champ.
      */
-    public function getNomChamp(): ?string{
+    public function getNomChamp(): ?string {
         return $this->nomChamp;
     }
 
@@ -177,7 +176,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the nom table.
      */
-    public function getNomTable(): ?string{
+    public function getNomTable(): ?string {
         return $this->nomTable;
     }
 
@@ -186,7 +185,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the ref guid.
      */
-    public function getRefGuid(): ?string{
+    public function getRefGuid(): ?string {
         return $this->refGuid;
     }
 
@@ -195,7 +194,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return bool|null Returns the saisie.
      */
-    public function getSaisie(): ?bool{
+    public function getSaisie(): ?bool {
         return $this->saisie;
     }
 
@@ -204,7 +203,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the selection.
      */
-    public function getSelection(): ?string{
+    public function getSelection(): ?string {
         return $this->selection;
     }
 
@@ -213,7 +212,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return int|null Returns the taille.
      */
-    public function getTaille(): ?int{
+    public function getTaille(): ?int {
         return $this->taille;
     }
 
@@ -222,7 +221,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return string|null Returns the titre.
      */
-    public function getTitre(): ?string{
+    public function getTitre(): ?string {
         return $this->titre;
     }
 
@@ -231,7 +230,7 @@ class HistoriquesEmployesColonnes {
      *
      * @return bool|null Returns the b en graph.
      */
-    public function getbEnGraph(): ?bool{
+    public function getbEnGraph(): ?bool {
         return $this->bEnGraph;
     }
 

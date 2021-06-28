@@ -203,7 +203,6 @@ class Taches {
      */
     private $suiviHeures;
 
-
     /**
      * Constructor.
      */
@@ -216,7 +215,7 @@ class Taches {
      *
      * @return int|null Returns the auto incr.
      */
-    public function getAutoIncr(): ?int{
+    public function getAutoIncr(): ?int {
         return $this->autoIncr;
     }
 
@@ -225,7 +224,7 @@ class Taches {
      *
      * @return float|null Returns the cadence.
      */
-    public function getCadence(): ?float{
+    public function getCadence(): ?float {
         return $this->cadence;
     }
 
@@ -234,7 +233,7 @@ class Taches {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -243,7 +242,7 @@ class Taches {
      *
      * @return string|null Returns the code analytique.
      */
-    public function getCodeAnalytique(): ?string{
+    public function getCodeAnalytique(): ?string {
         return $this->codeAnalytique;
     }
 
@@ -252,7 +251,7 @@ class Taches {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -261,7 +260,7 @@ class Taches {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -270,7 +269,7 @@ class Taches {
      *
      * @return string|null Returns the code dern sem gen.
      */
-    public function getCodeDernSemGen(): ?string{
+    public function getCodeDernSemGen(): ?string {
         return $this->codeDernSemGen;
     }
 
@@ -279,7 +278,7 @@ class Taches {
      *
      * @return string|null Returns the code prime dimanche1 type2.
      */
-    public function getCodePrimeDimanche1Type2(): ?string{
+    public function getCodePrimeDimanche1Type2(): ?string {
         return $this->codePrimeDimanche1Type2;
     }
 
@@ -288,7 +287,7 @@ class Taches {
      *
      * @return string|null Returns the code prime jf1 type2.
      */
-    public function getCodePrimeJf1Type2(): ?string{
+    public function getCodePrimeJf1Type2(): ?string {
         return $this->codePrimeJf1Type2;
     }
 
@@ -297,7 +296,7 @@ class Taches {
      *
      * @return string|null Returns the code prime nuit1 type2.
      */
-    public function getCodePrimeNuit1Type2(): ?string{
+    public function getCodePrimeNuit1Type2(): ?string {
         return $this->codePrimeNuit1Type2;
     }
 
@@ -306,7 +305,7 @@ class Taches {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -315,7 +314,7 @@ class Taches {
      *
      * @return string|null Returns the code tache type.
      */
-    public function getCodeTacheType(): ?string{
+    public function getCodeTacheType(): ?string {
         return $this->codeTacheType;
     }
 
@@ -324,7 +323,7 @@ class Taches {
      *
      * @return string|null Returns the descriptif.
      */
-    public function getDescriptif(): ?string{
+    public function getDescriptif(): ?string {
         return $this->descriptif;
     }
 
@@ -333,7 +332,7 @@ class Taches {
      *
      * @return DateTime|null Returns the dt dern sem gen.
      */
-    public function getDtDernSemGen(): ?DateTime{
+    public function getDtDernSemGen(): ?DateTime {
         return $this->dtDernSemGen;
     }
 
@@ -342,7 +341,7 @@ class Taches {
      *
      * @return float|null Returns the duree budget.
      */
-    public function getDureeBudget(): ?float{
+    public function getDureeBudget(): ?float {
         return $this->dureeBudget;
     }
 
@@ -351,7 +350,7 @@ class Taches {
      *
      * @return string|null Returns the fiche poste.
      */
-    public function getFichePoste(): ?string{
+    public function getFichePoste(): ?string {
         return $this->fichePoste;
     }
 
@@ -360,7 +359,7 @@ class Taches {
      *
      * @return bool|null Returns the gestion hotellerie.
      */
-    public function getGestionHotellerie(): ?bool{
+    public function getGestionHotellerie(): ?bool {
         return $this->gestionHotellerie;
     }
 
@@ -369,7 +368,7 @@ class Taches {
      *
      * @return float|null Returns the maj dim normal type2.
      */
-    public function getMajDimNormalType2(): ?float{
+    public function getMajDimNormalType2(): ?float {
         return $this->majDimNormalType2;
     }
 
@@ -378,7 +377,7 @@ class Taches {
      *
      * @return float|null Returns the maj jf normal type2.
      */
-    public function getMajJfNormalType2(): ?float{
+    public function getMajJfNormalType2(): ?float {
         return $this->majJfNormalType2;
     }
 
@@ -387,7 +386,7 @@ class Taches {
      *
      * @return float|null Returns the maj nuit normal type2.
      */
-    public function getMajNuitNormalType2(): ?float{
+    public function getMajNuitNormalType2(): ?float {
         return $this->majNuitNormalType2;
     }
 
@@ -396,7 +395,7 @@ class Taches {
      *
      * @return int|null Returns the niveau qualif.
      */
-    public function getNiveauQualif(): ?int{
+    public function getNiveauQualif(): ?int {
         return $this->niveauQualif;
     }
 
@@ -405,7 +404,7 @@ class Taches {
      *
      * @return bool|null Returns the non oeuvrant.
      */
-    public function getNonOeuvrant(): ?bool{
+    public function getNonOeuvrant(): ?bool {
         return $this->nonOeuvrant;
     }
 
@@ -414,7 +413,7 @@ class Taches {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -423,7 +422,7 @@ class Taches {
      *
      * @return bool|null Returns the planning dern sem prioritaire.
      */
-    public function getPlanningDernSemPrioritaire(): ?bool{
+    public function getPlanningDernSemPrioritaire(): ?bool {
         return $this->planningDernSemPrioritaire;
     }
 
@@ -432,7 +431,7 @@ class Taches {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -441,7 +440,7 @@ class Taches {
      *
      * @return bool|null Returns the suivi heures.
      */
-    public function getSuiviHeures(): ?bool{
+    public function getSuiviHeures(): ?bool {
         return $this->suiviHeures;
     }
 

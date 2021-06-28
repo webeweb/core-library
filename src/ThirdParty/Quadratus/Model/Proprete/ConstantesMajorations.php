@@ -54,7 +54,6 @@ class ConstantesMajorations {
      */
     private $type2;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ConstantesMajorations {
      *
      * @return float|null Returns the except.
      */
-    public function getExcept(): ?float{
+    public function getExcept(): ?float {
         return $this->except;
     }
 
@@ -76,7 +75,7 @@ class ConstantesMajorations {
      *
      * @return float|null Returns the mai.
      */
-    public function getMai(): ?float{
+    public function getMai(): ?float {
         return $this->mai;
     }
 
@@ -85,7 +84,7 @@ class ConstantesMajorations {
      *
      * @return float|null Returns the normal.
      */
-    public function getNormal(): ?float{
+    public function getNormal(): ?float {
         return $this->normal;
     }
 
@@ -94,7 +93,7 @@ class ConstantesMajorations {
      *
      * @return string|null Returns the type.
      */
-    public function getType(): ?string{
+    public function getType(): ?string {
         return $this->type;
     }
 
@@ -103,7 +102,7 @@ class ConstantesMajorations {
      *
      * @return float|null Returns the type2.
      */
-    public function getType2(): ?float{
+    public function getType2(): ?float {
         return $this->type2;
     }
 

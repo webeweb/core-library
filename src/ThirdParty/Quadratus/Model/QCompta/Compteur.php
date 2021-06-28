@@ -364,7 +364,6 @@ class Compteur {
      */
     private $periode;
 
-
     /**
      * Constructor.
      */
@@ -377,7 +376,7 @@ class Compteur {
      *
      * @return int|null Returns the nb activite imprimees.
      */
-    public function getNbActiviteImprimees(): ?int{
+    public function getNbActiviteImprimees(): ?int {
         return $this->nbActiviteImprimees;
     }
 
@@ -386,7 +385,7 @@ class Compteur {
      *
      * @return int|null Returns the nb activite imprimees a deduire.
      */
-    public function getNbActiviteImprimeesADeduire(): ?int{
+    public function getNbActiviteImprimeesADeduire(): ?int {
         return $this->nbActiviteImprimeesADeduire;
     }
 
@@ -395,7 +394,7 @@ class Compteur {
      *
      * @return int|null Returns the nb activite imprimees fact.
      */
-    public function getNbActiviteImprimeesFact(): ?int{
+    public function getNbActiviteImprimeesFact(): ?int {
         return $this->nbActiviteImprimeesFact;
     }
 
@@ -404,7 +403,7 @@ class Compteur {
      *
      * @return int|null Returns the nb ana imprimees.
      */
-    public function getNbAnaImprimees(): ?int{
+    public function getNbAnaImprimees(): ?int {
         return $this->nbAnaImprimees;
     }
 
@@ -413,7 +412,7 @@ class Compteur {
      *
      * @return int|null Returns the nb ana imprimees a deduire.
      */
-    public function getNbAnaImprimeesADeduire(): ?int{
+    public function getNbAnaImprimeesADeduire(): ?int {
         return $this->nbAnaImprimeesADeduire;
     }
 
@@ -422,7 +421,7 @@ class Compteur {
      *
      * @return int|null Returns the nb ana imprimees fact.
      */
-    public function getNbAnaImprimeesFact(): ?int{
+    public function getNbAnaImprimeesFact(): ?int {
         return $this->nbAnaImprimeesFact;
     }
 
@@ -431,7 +430,7 @@ class Compteur {
      *
      * @return int|null Returns the nb annexes editees.
      */
-    public function getNbAnnexesEditees(): ?int{
+    public function getNbAnnexesEditees(): ?int {
         return $this->nbAnnexesEditees;
     }
 
@@ -440,7 +439,7 @@ class Compteur {
      *
      * @return int|null Returns the nb annexes editees a deduire.
      */
-    public function getNbAnnexesEditeesADeduire(): ?int{
+    public function getNbAnnexesEditeesADeduire(): ?int {
         return $this->nbAnnexesEditeesADeduire;
     }
 
@@ -449,7 +448,7 @@ class Compteur {
      *
      * @return int|null Returns the nb annexes editees fact.
      */
-    public function getNbAnnexesEditeesFact(): ?int{
+    public function getNbAnnexesEditeesFact(): ?int {
         return $this->nbAnnexesEditeesFact;
     }
 
@@ -458,7 +457,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bal agee imprimees.
      */
-    public function getNbBalAgeeImprimees(): ?int{
+    public function getNbBalAgeeImprimees(): ?int {
         return $this->nbBalAgeeImprimees;
     }
 
@@ -467,7 +466,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bal agee imprimees a deduire.
      */
-    public function getNbBalAgeeImprimeesADeduire(): ?int{
+    public function getNbBalAgeeImprimeesADeduire(): ?int {
         return $this->nbBalAgeeImprimeesADeduire;
     }
 
@@ -476,7 +475,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bal agee imprimees fact.
      */
-    public function getNbBalAgeeImprimeesFact(): ?int{
+    public function getNbBalAgeeImprimeesFact(): ?int {
         return $this->nbBalAgeeImprimeesFact;
     }
 
@@ -485,7 +484,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bal imprimees.
      */
-    public function getNbBalImprimees(): ?int{
+    public function getNbBalImprimees(): ?int {
         return $this->nbBalImprimees;
     }
 
@@ -494,7 +493,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bal imprimees a deduire.
      */
-    public function getNbBalImprimeesADeduire(): ?int{
+    public function getNbBalImprimeesADeduire(): ?int {
         return $this->nbBalImprimeesADeduire;
     }
 
@@ -503,7 +502,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bal imprimees fact.
      */
-    public function getNbBalImprimeesFact(): ?int{
+    public function getNbBalImprimeesFact(): ?int {
         return $this->nbBalImprimeesFact;
     }
 
@@ -512,7 +511,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bilans edites.
      */
-    public function getNbBilansEdites(): ?int{
+    public function getNbBilansEdites(): ?int {
         return $this->nbBilansEdites;
     }
 
@@ -521,7 +520,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bilans edites a deduire.
      */
-    public function getNbBilansEditesADeduire(): ?int{
+    public function getNbBilansEditesADeduire(): ?int {
         return $this->nbBilansEditesADeduire;
     }
 
@@ -530,7 +529,7 @@ class Compteur {
      *
      * @return int|null Returns the nb bilans edites fact.
      */
-    public function getNbBilansEditesFact(): ?int{
+    public function getNbBilansEditesFact(): ?int {
         return $this->nbBilansEditesFact;
     }
 
@@ -539,7 +538,7 @@ class Compteur {
      *
      * @return int|null Returns the nb cedage edites.
      */
-    public function getNbCedageEdites(): ?int{
+    public function getNbCedageEdites(): ?int {
         return $this->nbCedageEdites;
     }
 
@@ -548,7 +547,7 @@ class Compteur {
      *
      * @return int|null Returns the nb cedage edites a deduire.
      */
-    public function getNbCedageEditesADeduire(): ?int{
+    public function getNbCedageEditesADeduire(): ?int {
         return $this->nbCedageEditesADeduire;
     }
 
@@ -557,7 +556,7 @@ class Compteur {
      *
      * @return int|null Returns the nb cedage edites fact.
      */
-    public function getNbCedageEditesFact(): ?int{
+    public function getNbCedageEditesFact(): ?int {
         return $this->nbCedageEditesFact;
     }
 
@@ -566,7 +565,7 @@ class Compteur {
      *
      * @return int|null Returns the nb centr imprimees.
      */
-    public function getNbCentrImprimees(): ?int{
+    public function getNbCentrImprimees(): ?int {
         return $this->nbCentrImprimees;
     }
 
@@ -575,7 +574,7 @@ class Compteur {
      *
      * @return int|null Returns the nb centr imprimees a deduire.
      */
-    public function getNbCentrImprimeesADeduire(): ?int{
+    public function getNbCentrImprimeesADeduire(): ?int {
         return $this->nbCentrImprimeesADeduire;
     }
 
@@ -584,7 +583,7 @@ class Compteur {
      *
      * @return int|null Returns the nb centr imprimees fact.
      */
-    public function getNbCentrImprimeesFact(): ?int{
+    public function getNbCentrImprimeesFact(): ?int {
         return $this->nbCentrImprimeesFact;
     }
 
@@ -593,7 +592,7 @@ class Compteur {
      *
      * @return int|null Returns the nb ech imprimees.
      */
-    public function getNbEchImprimees(): ?int{
+    public function getNbEchImprimees(): ?int {
         return $this->nbEchImprimees;
     }
 
@@ -602,7 +601,7 @@ class Compteur {
      *
      * @return int|null Returns the nb ech imprimees a deduire.
      */
-    public function getNbEchImprimeesADeduire(): ?int{
+    public function getNbEchImprimeesADeduire(): ?int {
         return $this->nbEchImprimeesADeduire;
     }
 
@@ -611,7 +610,7 @@ class Compteur {
      *
      * @return int|null Returns the nb ech imprimees fact.
      */
-    public function getNbEchImprimeesFact(): ?int{
+    public function getNbEchImprimeesFact(): ?int {
         return $this->nbEchImprimeesFact;
     }
 
@@ -620,7 +619,7 @@ class Compteur {
      *
      * @return int|null Returns the nb fic ascii emis.
      */
-    public function getNbFicAsciiEmis(): ?int{
+    public function getNbFicAsciiEmis(): ?int {
         return $this->nbFicAsciiEmis;
     }
 
@@ -629,7 +628,7 @@ class Compteur {
      *
      * @return int|null Returns the nb fic ascii emis a deduire.
      */
-    public function getNbFicAsciiEmisADeduire(): ?int{
+    public function getNbFicAsciiEmisADeduire(): ?int {
         return $this->nbFicAsciiEmisADeduire;
     }
 
@@ -638,7 +637,7 @@ class Compteur {
      *
      * @return int|null Returns the nb fic ascii emis fact.
      */
-    public function getNbFicAsciiEmisFact(): ?int{
+    public function getNbFicAsciiEmisFact(): ?int {
         return $this->nbFicAsciiEmisFact;
     }
 
@@ -647,7 +646,7 @@ class Compteur {
      *
      * @return int|null Returns the nb gl imprimees.
      */
-    public function getNbGlImprimees(): ?int{
+    public function getNbGlImprimees(): ?int {
         return $this->nbGlImprimees;
     }
 
@@ -656,7 +655,7 @@ class Compteur {
      *
      * @return int|null Returns the nb gl imprimees a deduire.
      */
-    public function getNbGlImprimeesADeduire(): ?int{
+    public function getNbGlImprimeesADeduire(): ?int {
         return $this->nbGlImprimeesADeduire;
     }
 
@@ -665,7 +664,7 @@ class Compteur {
      *
      * @return int|null Returns the nb gl imprimees fact.
      */
-    public function getNbGlImprimeesFact(): ?int{
+    public function getNbGlImprimeesFact(): ?int {
         return $this->nbGlImprimeesFact;
     }
 
@@ -674,7 +673,7 @@ class Compteur {
      *
      * @return int|null Returns the nb jrn imprimees.
      */
-    public function getNbJrnImprimees(): ?int{
+    public function getNbJrnImprimees(): ?int {
         return $this->nbJrnImprimees;
     }
 
@@ -683,7 +682,7 @@ class Compteur {
      *
      * @return int|null Returns the nb jrn imprimees a deduire.
      */
-    public function getNbJrnImprimeesADeduire(): ?int{
+    public function getNbJrnImprimeesADeduire(): ?int {
         return $this->nbJrnImprimeesADeduire;
     }
 
@@ -692,7 +691,7 @@ class Compteur {
      *
      * @return int|null Returns the nb jrn imprimees fact.
      */
-    public function getNbJrnImprimeesFact(): ?int{
+    public function getNbJrnImprimeesFact(): ?int {
         return $this->nbJrnImprimeesFact;
     }
 
@@ -701,7 +700,7 @@ class Compteur {
      *
      * @return int|null Returns the nb liasses fisc editees.
      */
-    public function getNbLiassesFiscEditees(): ?int{
+    public function getNbLiassesFiscEditees(): ?int {
         return $this->nbLiassesFiscEditees;
     }
 
@@ -710,7 +709,7 @@ class Compteur {
      *
      * @return int|null Returns the nb liasses fisc editees a deduire.
      */
-    public function getNbLiassesFiscEditeesADeduire(): ?int{
+    public function getNbLiassesFiscEditeesADeduire(): ?int {
         return $this->nbLiassesFiscEditeesADeduire;
     }
 
@@ -719,7 +718,7 @@ class Compteur {
      *
      * @return int|null Returns the nb liasses fisc editees fact.
      */
-    public function getNbLiassesFiscEditeesFact(): ?int{
+    public function getNbLiassesFiscEditeesFact(): ?int {
         return $this->nbLiassesFiscEditeesFact;
     }
 
@@ -728,7 +727,7 @@ class Compteur {
      *
      * @return int|null Returns the nb lig etebac traitees.
      */
-    public function getNbLigEtebacTraitees(): ?int{
+    public function getNbLigEtebacTraitees(): ?int {
         return $this->nbLigEtebacTraitees;
     }
 
@@ -737,7 +736,7 @@ class Compteur {
      *
      * @return int|null Returns the nb lig etebac traitees a deduire.
      */
-    public function getNbLigEtebacTraiteesADeduire(): ?int{
+    public function getNbLigEtebacTraiteesADeduire(): ?int {
         return $this->nbLigEtebacTraiteesADeduire;
     }
 
@@ -746,7 +745,7 @@ class Compteur {
      *
      * @return int|null Returns the nb lig etebac traitees fact.
      */
-    public function getNbLigEtebacTraiteesFact(): ?int{
+    public function getNbLigEtebacTraiteesFact(): ?int {
         return $this->nbLigEtebacTraiteesFact;
     }
 
@@ -755,7 +754,7 @@ class Compteur {
      *
      * @return int|null Returns the nb rel cli imprimees.
      */
-    public function getNbRelCliImprimees(): ?int{
+    public function getNbRelCliImprimees(): ?int {
         return $this->nbRelCliImprimees;
     }
 
@@ -764,7 +763,7 @@ class Compteur {
      *
      * @return int|null Returns the nb rel cli imprimees a deduire.
      */
-    public function getNbRelCliImprimeesADeduire(): ?int{
+    public function getNbRelCliImprimeesADeduire(): ?int {
         return $this->nbRelCliImprimeesADeduire;
     }
 
@@ -773,7 +772,7 @@ class Compteur {
      *
      * @return int|null Returns the nb rel cli imprimees fact.
      */
-    public function getNbRelCliImprimeesFact(): ?int{
+    public function getNbRelCliImprimeesFact(): ?int {
         return $this->nbRelCliImprimeesFact;
     }
 
@@ -782,7 +781,7 @@ class Compteur {
      *
      * @return int|null Returns the nb tab amort imprimes.
      */
-    public function getNbTabAmortImprimes(): ?int{
+    public function getNbTabAmortImprimes(): ?int {
         return $this->nbTabAmortImprimes;
     }
 
@@ -791,7 +790,7 @@ class Compteur {
      *
      * @return int|null Returns the nb tab amort imprimes a deduire.
      */
-    public function getNbTabAmortImprimesADeduire(): ?int{
+    public function getNbTabAmortImprimesADeduire(): ?int {
         return $this->nbTabAmortImprimesADeduire;
     }
 
@@ -800,7 +799,7 @@ class Compteur {
      *
      * @return int|null Returns the nb tab amort imprimes fact.
      */
-    public function getNbTabAmortImprimesFact(): ?int{
+    public function getNbTabAmortImprimesFact(): ?int {
         return $this->nbTabAmortImprimesFact;
     }
 
@@ -809,7 +808,7 @@ class Compteur {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 

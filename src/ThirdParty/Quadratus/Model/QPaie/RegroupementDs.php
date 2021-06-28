@@ -47,7 +47,6 @@ class RegroupementDs {
      */
     private $organisme;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class RegroupementDs {
      *
      * @return string|null Returns the code rds.
      */
-    public function getCodeRds(): ?string{
+    public function getCodeRds(): ?string {
         return $this->codeRds;
     }
 
@@ -69,7 +68,7 @@ class RegroupementDs {
      *
      * @return string|null Returns the code rupture.
      */
-    public function getCodeRupture(): ?string{
+    public function getCodeRupture(): ?string {
         return $this->codeRupture;
     }
 
@@ -78,7 +77,7 @@ class RegroupementDs {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -87,7 +86,7 @@ class RegroupementDs {
      *
      * @return string|null Returns the organisme.
      */
-    public function getOrganisme(): ?string{
+    public function getOrganisme(): ?string {
         return $this->organisme;
     }
 

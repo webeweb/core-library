@@ -127,13 +127,6 @@ class CreditsBails {
     private $afDuree;
 
     /**
-     * Afsii.
-     *
-     * @var bool|null
-     */
-    private $afsii;
-
-    /**
      * Af taux except.
      *
      * @var float|null
@@ -155,6 +148,13 @@ class CreditsBails {
     private $afType;
 
     /**
+     * Afsii.
+     *
+     * @var bool|null
+     */
+    private $afsii;
+
+    /**
      * Base taxe pro.
      *
      * @var float|null
@@ -174,69 +174,6 @@ class CreditsBails {
      * @var bool|null
      */
     private $cbEnFrancs;
-
-    /**
-     * Crr date.
-     *
-     * @var DateTime|null
-     */
-    private $crrDate;
-
-    /**
-     * Crrpm value ct.
-     *
-     * @var float|null
-     */
-    private $crrpmValueCt;
-
-    /**
-     * Crrpm value lt.
-     *
-     * @var float|null
-     */
-    private $crrpmValueLt;
-
-    /**
-     * Crr px cession ht.
-     *
-     * @var float|null
-     */
-    private $crrPxCessionHt;
-
-    /**
-     * Crr qte vendue.
-     *
-     * @var float|null
-     */
-    private $crrQteVendue;
-
-    /**
-     * Crr suppl amort.
-     *
-     * @var float|null
-     */
-    private $crrSupplAmort;
-
-    /**
-     * Crr suppl valeur.
-     *
-     * @var float|null
-     */
-    private $crrSupplValeur;
-
-    /**
-     * Crr type.
-     *
-     * @var string|null
-     */
-    private $crrType;
-
-    /**
-     * Cr valeur euros.
-     *
-     * @var float|null
-     */
-    private $crValeurEuros;
 
     /**
      * Centre analytique.
@@ -309,11 +246,67 @@ class CreditsBails {
     private $cptTvaAssu;
 
     /**
-     * Din.
+     * Cr valeur euros.
      *
-     * @var bool|null
+     * @var float|null
      */
-    private $din;
+    private $crValeurEuros;
+
+    /**
+     * Crr date.
+     *
+     * @var DateTime|null
+     */
+    private $crrDate;
+
+    /**
+     * Crr px cession ht.
+     *
+     * @var float|null
+     */
+    private $crrPxCessionHt;
+
+    /**
+     * Crr qte vendue.
+     *
+     * @var float|null
+     */
+    private $crrQteVendue;
+
+    /**
+     * Crr suppl amort.
+     *
+     * @var float|null
+     */
+    private $crrSupplAmort;
+
+    /**
+     * Crr suppl valeur.
+     *
+     * @var float|null
+     */
+    private $crrSupplValeur;
+
+    /**
+     * Crr type.
+     *
+     * @var string|null
+     */
+    private $crrType;
+
+    /**
+     * Crrpm value ct.
+     *
+     * @var float|null
+     */
+    private $crrpmValueCt;
+
+    /**
+     * Crrpm value lt.
+     *
+     * @var float|null
+     */
+    private $crrpmValueLt;
 
     /**
      * Date acquisition.
@@ -328,6 +321,13 @@ class CreditsBails {
      * @var DateTime|null
      */
     private $dateMiseService;
+
+    /**
+     * Din.
+     *
+     * @var bool|null
+     */
+    private $din;
 
     /**
      * Etat.
@@ -442,6 +442,20 @@ class CreditsBails {
     private $service;
 
     /**
+     * Taxe fonciere.
+     *
+     * @var bool|null
+     */
+    private $taxeFonciere;
+
+    /**
+     * Taxe pro.
+     *
+     * @var bool|null
+     */
+    private $taxePro;
+
+    /**
      * Tp duree.
      *
      * @var int|null
@@ -484,20 +498,6 @@ class CreditsBails {
     private $tpPremierPaiement;
 
     /**
-     * Taxe fonciere.
-     *
-     * @var bool|null
-     */
-    private $taxeFonciere;
-
-    /**
-     * Taxe pro.
-     *
-     * @var bool|null
-     */
-    private $taxePro;
-
-    /**
      * Valeur euros.
      *
      * @var float|null
@@ -511,7 +511,6 @@ class CreditsBails {
      */
     private $valeurHt;
 
-
     /**
      * Constructor.
      */
@@ -524,7 +523,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad amort anterieur.
      */
-    public function getAdAmortAnterieur(): ?float{
+    public function getAdAmortAnterieur(): ?float {
         return $this->adAmortAnterieur;
     }
 
@@ -533,7 +532,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad amort anterieur2.
      */
-    public function getAdAmortAnterieur2(): ?float{
+    public function getAdAmortAnterieur2(): ?float {
         return $this->adAmortAnterieur2;
     }
 
@@ -542,7 +541,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad annees amort.
      */
-    public function getAdAnneesAmort(): ?float{
+    public function getAdAnneesAmort(): ?float {
         return $this->adAnneesAmort;
     }
 
@@ -551,7 +550,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad coeff degressif.
      */
-    public function getAdCoeffDegressif(): ?float{
+    public function getAdCoeffDegressif(): ?float {
         return $this->adCoeffDegressif;
     }
 
@@ -560,7 +559,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad dotation.
      */
-    public function getAdDotation(): ?float{
+    public function getAdDotation(): ?float {
         return $this->adDotation;
     }
 
@@ -569,7 +568,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad dotation2.
      */
-    public function getAdDotation2(): ?float{
+    public function getAdDotation2(): ?float {
         return $this->adDotation2;
     }
 
@@ -578,7 +577,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad dotation except.
      */
-    public function getAdDotationExcept(): ?float{
+    public function getAdDotationExcept(): ?float {
         return $this->adDotationExcept;
     }
 
@@ -587,7 +586,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad duree.
      */
-    public function getAdDuree(): ?float{
+    public function getAdDuree(): ?float {
         return $this->adDuree;
     }
 
@@ -596,7 +595,7 @@ class CreditsBails {
      *
      * @return float|null Returns the ad taux lineaire.
      */
-    public function getAdTauxLineaire(): ?float{
+    public function getAdTauxLineaire(): ?float {
         return $this->adTauxLineaire;
     }
 
@@ -605,7 +604,7 @@ class CreditsBails {
      *
      * @return string|null Returns the ad type.
      */
-    public function getAdType(): ?string{
+    public function getAdType(): ?string {
         return $this->adType;
     }
 
@@ -614,7 +613,7 @@ class CreditsBails {
      *
      * @return float|null Returns the af amort anterieur.
      */
-    public function getAfAmortAnterieur(): ?float{
+    public function getAfAmortAnterieur(): ?float {
         return $this->afAmortAnterieur;
     }
 
@@ -623,7 +622,7 @@ class CreditsBails {
      *
      * @return float|null Returns the af annees amort.
      */
-    public function getAfAnneesAmort(): ?float{
+    public function getAfAnneesAmort(): ?float {
         return $this->afAnneesAmort;
     }
 
@@ -632,7 +631,7 @@ class CreditsBails {
      *
      * @return float|null Returns the af coeff degressif.
      */
-    public function getAfCoeffDegressif(): ?float{
+    public function getAfCoeffDegressif(): ?float {
         return $this->afCoeffDegressif;
     }
 
@@ -641,7 +640,7 @@ class CreditsBails {
      *
      * @return float|null Returns the af dotation.
      */
-    public function getAfDotation(): ?float{
+    public function getAfDotation(): ?float {
         return $this->afDotation;
     }
 
@@ -650,17 +649,8 @@ class CreditsBails {
      *
      * @return float|null Returns the af duree.
      */
-    public function getAfDuree(): ?float{
+    public function getAfDuree(): ?float {
         return $this->afDuree;
-    }
-
-    /**
-     * Get the afsii.
-     *
-     * @return bool|null Returns the afsii.
-     */
-    public function getAfsii(): ?bool{
-        return $this->afsii;
     }
 
     /**
@@ -668,7 +658,7 @@ class CreditsBails {
      *
      * @return float|null Returns the af taux except.
      */
-    public function getAfTauxExcept(): ?float{
+    public function getAfTauxExcept(): ?float {
         return $this->afTauxExcept;
     }
 
@@ -677,7 +667,7 @@ class CreditsBails {
      *
      * @return float|null Returns the af taux lineaire.
      */
-    public function getAfTauxLineaire(): ?float{
+    public function getAfTauxLineaire(): ?float {
         return $this->afTauxLineaire;
     }
 
@@ -686,8 +676,17 @@ class CreditsBails {
      *
      * @return string|null Returns the af type.
      */
-    public function getAfType(): ?string{
+    public function getAfType(): ?string {
         return $this->afType;
+    }
+
+    /**
+     * Get the afsii.
+     *
+     * @return bool|null Returns the afsii.
+     */
+    public function getAfsii(): ?bool {
+        return $this->afsii;
     }
 
     /**
@@ -695,7 +694,7 @@ class CreditsBails {
      *
      * @return float|null Returns the base taxe pro.
      */
-    public function getBaseTaxePro(): ?float{
+    public function getBaseTaxePro(): ?float {
         return $this->baseTaxePro;
     }
 
@@ -704,7 +703,7 @@ class CreditsBails {
      *
      * @return string|null Returns the bureau.
      */
-    public function getBureau(): ?string{
+    public function getBureau(): ?string {
         return $this->bureau;
     }
 
@@ -713,89 +712,8 @@ class CreditsBails {
      *
      * @return bool|null Returns the cb en francs.
      */
-    public function getCbEnFrancs(): ?bool{
+    public function getCbEnFrancs(): ?bool {
         return $this->cbEnFrancs;
-    }
-
-    /**
-     * Get the crr date.
-     *
-     * @return DateTime|null Returns the crr date.
-     */
-    public function getCrrDate(): ?DateTime{
-        return $this->crrDate;
-    }
-
-    /**
-     * Get the crrpm value ct.
-     *
-     * @return float|null Returns the crrpm value ct.
-     */
-    public function getCrrpmValueCt(): ?float{
-        return $this->crrpmValueCt;
-    }
-
-    /**
-     * Get the crrpm value lt.
-     *
-     * @return float|null Returns the crrpm value lt.
-     */
-    public function getCrrpmValueLt(): ?float{
-        return $this->crrpmValueLt;
-    }
-
-    /**
-     * Get the crr px cession ht.
-     *
-     * @return float|null Returns the crr px cession ht.
-     */
-    public function getCrrPxCessionHt(): ?float{
-        return $this->crrPxCessionHt;
-    }
-
-    /**
-     * Get the crr qte vendue.
-     *
-     * @return float|null Returns the crr qte vendue.
-     */
-    public function getCrrQteVendue(): ?float{
-        return $this->crrQteVendue;
-    }
-
-    /**
-     * Get the crr suppl amort.
-     *
-     * @return float|null Returns the crr suppl amort.
-     */
-    public function getCrrSupplAmort(): ?float{
-        return $this->crrSupplAmort;
-    }
-
-    /**
-     * Get the crr suppl valeur.
-     *
-     * @return float|null Returns the crr suppl valeur.
-     */
-    public function getCrrSupplValeur(): ?float{
-        return $this->crrSupplValeur;
-    }
-
-    /**
-     * Get the crr type.
-     *
-     * @return string|null Returns the crr type.
-     */
-    public function getCrrType(): ?string{
-        return $this->crrType;
-    }
-
-    /**
-     * Get the cr valeur euros.
-     *
-     * @return float|null Returns the cr valeur euros.
-     */
-    public function getCrValeurEuros(): ?float{
-        return $this->crValeurEuros;
     }
 
     /**
@@ -803,7 +721,7 @@ class CreditsBails {
      *
      * @return string|null Returns the centre analytique.
      */
-    public function getCentreAnalytique(): ?string{
+    public function getCentreAnalytique(): ?string {
         return $this->centreAnalytique;
     }
 
@@ -812,7 +730,7 @@ class CreditsBails {
      *
      * @return string|null Returns the code journal echeance.
      */
-    public function getCodeJournalEcheance(): ?string{
+    public function getCodeJournalEcheance(): ?string {
         return $this->codeJournalEcheance;
     }
 
@@ -821,7 +739,7 @@ class CreditsBails {
      *
      * @return string|null Returns the code journal paiement.
      */
-    public function getCodeJournalPaiement(): ?string{
+    public function getCodeJournalPaiement(): ?string {
         return $this->codeJournalPaiement;
     }
 
@@ -830,7 +748,7 @@ class CreditsBails {
      *
      * @return string|null Returns the code tva.
      */
-    public function getCodeTva(): ?string{
+    public function getCodeTva(): ?string {
         return $this->codeTva;
     }
 
@@ -839,7 +757,7 @@ class CreditsBails {
      *
      * @return string|null Returns the compte frn.
      */
-    public function getCompteFrn(): ?string{
+    public function getCompteFrn(): ?string {
         return $this->compteFrn;
     }
 
@@ -848,7 +766,7 @@ class CreditsBails {
      *
      * @return string|null Returns the cpt assurance.
      */
-    public function getCptAssurance(): ?string{
+    public function getCptAssurance(): ?string {
         return $this->cptAssurance;
     }
 
@@ -857,7 +775,7 @@ class CreditsBails {
      *
      * @return string|null Returns the cpt charge.
      */
-    public function getCptCharge(): ?string{
+    public function getCptCharge(): ?string {
         return $this->cptCharge;
     }
 
@@ -866,7 +784,7 @@ class CreditsBails {
      *
      * @return string|null Returns the cpt entretien.
      */
-    public function getCptEntretien(): ?string{
+    public function getCptEntretien(): ?string {
         return $this->cptEntretien;
     }
 
@@ -875,7 +793,7 @@ class CreditsBails {
      *
      * @return string|null Returns the cpt tva.
      */
-    public function getCptTva(): ?string{
+    public function getCptTva(): ?string {
         return $this->cptTva;
     }
 
@@ -884,17 +802,89 @@ class CreditsBails {
      *
      * @return string|null Returns the cpt tva assu.
      */
-    public function getCptTvaAssu(): ?string{
+    public function getCptTvaAssu(): ?string {
         return $this->cptTvaAssu;
     }
 
     /**
-     * Get the din.
+     * Get the cr valeur euros.
      *
-     * @return bool|null Returns the din.
+     * @return float|null Returns the cr valeur euros.
      */
-    public function getDin(): ?bool{
-        return $this->din;
+    public function getCrValeurEuros(): ?float {
+        return $this->crValeurEuros;
+    }
+
+    /**
+     * Get the crr date.
+     *
+     * @return DateTime|null Returns the crr date.
+     */
+    public function getCrrDate(): ?DateTime {
+        return $this->crrDate;
+    }
+
+    /**
+     * Get the crr px cession ht.
+     *
+     * @return float|null Returns the crr px cession ht.
+     */
+    public function getCrrPxCessionHt(): ?float {
+        return $this->crrPxCessionHt;
+    }
+
+    /**
+     * Get the crr qte vendue.
+     *
+     * @return float|null Returns the crr qte vendue.
+     */
+    public function getCrrQteVendue(): ?float {
+        return $this->crrQteVendue;
+    }
+
+    /**
+     * Get the crr suppl amort.
+     *
+     * @return float|null Returns the crr suppl amort.
+     */
+    public function getCrrSupplAmort(): ?float {
+        return $this->crrSupplAmort;
+    }
+
+    /**
+     * Get the crr suppl valeur.
+     *
+     * @return float|null Returns the crr suppl valeur.
+     */
+    public function getCrrSupplValeur(): ?float {
+        return $this->crrSupplValeur;
+    }
+
+    /**
+     * Get the crr type.
+     *
+     * @return string|null Returns the crr type.
+     */
+    public function getCrrType(): ?string {
+        return $this->crrType;
+    }
+
+    /**
+     * Get the crrpm value ct.
+     *
+     * @return float|null Returns the crrpm value ct.
+     */
+    public function getCrrpmValueCt(): ?float {
+        return $this->crrpmValueCt;
+    }
+
+    /**
+     * Get the crrpm value lt.
+     *
+     * @return float|null Returns the crrpm value lt.
+     */
+    public function getCrrpmValueLt(): ?float {
+        return $this->crrpmValueLt;
     }
 
     /**
@@ -902,7 +892,7 @@ class CreditsBails {
      *
      * @return DateTime|null Returns the date acquisition.
      */
-    public function getDateAcquisition(): ?DateTime{
+    public function getDateAcquisition(): ?DateTime {
         return $this->dateAcquisition;
     }
 
@@ -911,8 +901,17 @@ class CreditsBails {
      *
      * @return DateTime|null Returns the date mise service.
      */
-    public function getDateMiseService(): ?DateTime{
+    public function getDateMiseService(): ?DateTime {
         return $this->dateMiseService;
+    }
+
+    /**
+     * Get the din.
+     *
+     * @return bool|null Returns the din.
+     */
+    public function getDin(): ?bool {
+        return $this->din;
     }
 
     /**
@@ -920,7 +919,7 @@ class CreditsBails {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -929,7 +928,7 @@ class CreditsBails {
      *
      * @return string|null Returns the guid vehicule.
      */
-    public function getGuidVehicule(): ?string{
+    public function getGuidVehicule(): ?string {
         return $this->guidVehicule;
     }
 
@@ -938,7 +937,7 @@ class CreditsBails {
      *
      * @return string|null Returns the libelle.
      */
-    public function getLibelle(): ?string{
+    public function getLibelle(): ?string {
         return $this->libelle;
     }
 
@@ -947,7 +946,7 @@ class CreditsBails {
      *
      * @return string|null Returns the libelle frn.
      */
-    public function getLibelleFrn(): ?string{
+    public function getLibelleFrn(): ?string {
         return $this->libelleFrn;
     }
 
@@ -956,7 +955,7 @@ class CreditsBails {
      *
      * @return float|null Returns the limite amort.
      */
-    public function getLimiteAmort(): ?float{
+    public function getLimiteAmort(): ?float {
         return $this->limiteAmort;
     }
 
@@ -965,7 +964,7 @@ class CreditsBails {
      *
      * @return bool|null Returns the materiaux agricole.
      */
-    public function getMateriauxAgricole(): ?bool{
+    public function getMateriauxAgricole(): ?bool {
         return $this->materiauxAgricole;
     }
 
@@ -974,7 +973,7 @@ class CreditsBails {
      *
      * @return float|null Returns the montant tva.
      */
-    public function getMontantTva(): ?float{
+    public function getMontantTva(): ?float {
         return $this->montantTva;
     }
 
@@ -983,7 +982,7 @@ class CreditsBails {
      *
      * @return string|null Returns the nature analytique.
      */
-    public function getNatureAnalytique(): ?string{
+    public function getNatureAnalytique(): ?string {
         return $this->natureAnalytique;
     }
 
@@ -992,7 +991,7 @@ class CreditsBails {
      *
      * @return int|null Returns the num deux immo rachat.
      */
-    public function getNumDeuxImmoRachat(): ?int{
+    public function getNumDeuxImmoRachat(): ?int {
         return $this->numDeuxImmoRachat;
     }
 
@@ -1001,7 +1000,7 @@ class CreditsBails {
      *
      * @return int|null Returns the num immo rachat.
      */
-    public function getNumImmoRachat(): ?int{
+    public function getNumImmoRachat(): ?int {
         return $this->numImmoRachat;
     }
 
@@ -1010,7 +1009,7 @@ class CreditsBails {
      *
      * @return int|null Returns the numero.
      */
-    public function getNumero(): ?int{
+    public function getNumero(): ?int {
         return $this->numero;
     }
 
@@ -1019,7 +1018,7 @@ class CreditsBails {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -1028,7 +1027,7 @@ class CreditsBails {
      *
      * @return int|null Returns the numero deux.
      */
-    public function getNumeroDeux(): ?int{
+    public function getNumeroDeux(): ?int {
         return $this->numeroDeux;
     }
 
@@ -1037,7 +1036,7 @@ class CreditsBails {
      *
      * @return int|null Returns the numero pj.
      */
-    public function getNumeroPj(): ?int{
+    public function getNumeroPj(): ?int {
         return $this->numeroPj;
     }
 
@@ -1046,7 +1045,7 @@ class CreditsBails {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -1055,62 +1054,8 @@ class CreditsBails {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
-    }
-
-    /**
-     * Get the tp duree.
-     *
-     * @return int|null Returns the tp duree.
-     */
-    public function getTpDuree(): ?int{
-        return $this->tpDuree;
-    }
-
-    /**
-     * Get the tp echoir echu.
-     *
-     * @return string|null Returns the tp echoir echu.
-     */
-    public function getTpEchoirEchu(): ?string{
-        return $this->tpEchoirEchu;
-    }
-
-    /**
-     * Get the tp mois annee.
-     *
-     * @return string|null Returns the tp mois annee.
-     */
-    public function getTpMoisAnnee(): ?string{
-        return $this->tpMoisAnnee;
-    }
-
-    /**
-     * Get the tp montt depot.
-     *
-     * @return float|null Returns the tp montt depot.
-     */
-    public function getTpMonttDepot(): ?float{
-        return $this->tpMonttDepot;
-    }
-
-    /**
-     * Get the tp periodicite.
-     *
-     * @return string|null Returns the tp periodicite.
-     */
-    public function getTpPeriodicite(): ?string{
-        return $this->tpPeriodicite;
-    }
-
-    /**
-     * Get the tp premier paiement.
-     *
-     * @return DateTime|null Returns the tp premier paiement.
-     */
-    public function getTpPremierPaiement(): ?DateTime{
-        return $this->tpPremierPaiement;
     }
 
     /**
@@ -1118,7 +1063,7 @@ class CreditsBails {
      *
      * @return bool|null Returns the taxe fonciere.
      */
-    public function getTaxeFonciere(): ?bool{
+    public function getTaxeFonciere(): ?bool {
         return $this->taxeFonciere;
     }
 
@@ -1127,8 +1072,62 @@ class CreditsBails {
      *
      * @return bool|null Returns the taxe pro.
      */
-    public function getTaxePro(): ?bool{
+    public function getTaxePro(): ?bool {
         return $this->taxePro;
+    }
+
+    /**
+     * Get the tp duree.
+     *
+     * @return int|null Returns the tp duree.
+     */
+    public function getTpDuree(): ?int {
+        return $this->tpDuree;
+    }
+
+    /**
+     * Get the tp echoir echu.
+     *
+     * @return string|null Returns the tp echoir echu.
+     */
+    public function getTpEchoirEchu(): ?string {
+        return $this->tpEchoirEchu;
+    }
+
+    /**
+     * Get the tp mois annee.
+     *
+     * @return string|null Returns the tp mois annee.
+     */
+    public function getTpMoisAnnee(): ?string {
+        return $this->tpMoisAnnee;
+    }
+
+    /**
+     * Get the tp montt depot.
+     *
+     * @return float|null Returns the tp montt depot.
+     */
+    public function getTpMonttDepot(): ?float {
+        return $this->tpMonttDepot;
+    }
+
+    /**
+     * Get the tp periodicite.
+     *
+     * @return string|null Returns the tp periodicite.
+     */
+    public function getTpPeriodicite(): ?string {
+        return $this->tpPeriodicite;
+    }
+
+    /**
+     * Get the tp premier paiement.
+     *
+     * @return DateTime|null Returns the tp premier paiement.
+     */
+    public function getTpPremierPaiement(): ?DateTime {
+        return $this->tpPremierPaiement;
     }
 
     /**
@@ -1136,7 +1135,7 @@ class CreditsBails {
      *
      * @return float|null Returns the valeur euros.
      */
-    public function getValeurEuros(): ?float{
+    public function getValeurEuros(): ?float {
         return $this->valeurEuros;
     }
 
@@ -1145,7 +1144,7 @@ class CreditsBails {
      *
      * @return float|null Returns the valeur ht.
      */
-    public function getValeurHt(): ?float{
+    public function getValeurHt(): ?float {
         return $this->valeurHt;
     }
 
@@ -1315,17 +1314,6 @@ class CreditsBails {
     }
 
     /**
-     * Set the afsii.
-     *
-     * @param bool|null $afsii The afsii.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setAfsii(?bool $afsii): CreditsBails {
-        $this->afsii = $afsii;
-        return $this;
-    }
-
-    /**
      * Set the af taux except.
      *
      * @param float|null $afTauxExcept The af taux except.
@@ -1359,6 +1347,17 @@ class CreditsBails {
     }
 
     /**
+     * Set the afsii.
+     *
+     * @param bool|null $afsii The afsii.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setAfsii(?bool $afsii): CreditsBails {
+        $this->afsii = $afsii;
+        return $this;
+    }
+
+    /**
      * Set the base taxe pro.
      *
      * @param float|null $baseTaxePro The base taxe pro.
@@ -1388,105 +1387,6 @@ class CreditsBails {
      */
     public function setCbEnFrancs(?bool $cbEnFrancs): CreditsBails {
         $this->cbEnFrancs = $cbEnFrancs;
-        return $this;
-    }
-
-    /**
-     * Set the crr date.
-     *
-     * @param DateTime|null $crrDate The crr date.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrDate(?DateTime $crrDate): CreditsBails {
-        $this->crrDate = $crrDate;
-        return $this;
-    }
-
-    /**
-     * Set the crrpm value ct.
-     *
-     * @param float|null $crrpmValueCt The crrpm value ct.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrpmValueCt(?float $crrpmValueCt): CreditsBails {
-        $this->crrpmValueCt = $crrpmValueCt;
-        return $this;
-    }
-
-    /**
-     * Set the crrpm value lt.
-     *
-     * @param float|null $crrpmValueLt The crrpm value lt.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrpmValueLt(?float $crrpmValueLt): CreditsBails {
-        $this->crrpmValueLt = $crrpmValueLt;
-        return $this;
-    }
-
-    /**
-     * Set the crr px cession ht.
-     *
-     * @param float|null $crrPxCessionHt The crr px cession ht.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrPxCessionHt(?float $crrPxCessionHt): CreditsBails {
-        $this->crrPxCessionHt = $crrPxCessionHt;
-        return $this;
-    }
-
-    /**
-     * Set the crr qte vendue.
-     *
-     * @param float|null $crrQteVendue The crr qte vendue.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrQteVendue(?float $crrQteVendue): CreditsBails {
-        $this->crrQteVendue = $crrQteVendue;
-        return $this;
-    }
-
-    /**
-     * Set the crr suppl amort.
-     *
-     * @param float|null $crrSupplAmort The crr suppl amort.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrSupplAmort(?float $crrSupplAmort): CreditsBails {
-        $this->crrSupplAmort = $crrSupplAmort;
-        return $this;
-    }
-
-    /**
-     * Set the crr suppl valeur.
-     *
-     * @param float|null $crrSupplValeur The crr suppl valeur.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrSupplValeur(?float $crrSupplValeur): CreditsBails {
-        $this->crrSupplValeur = $crrSupplValeur;
-        return $this;
-    }
-
-    /**
-     * Set the crr type.
-     *
-     * @param string|null $crrType The crr type.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrrType(?string $crrType): CreditsBails {
-        $this->crrType = $crrType;
-        return $this;
-    }
-
-    /**
-     * Set the cr valeur euros.
-     *
-     * @param float|null $crValeurEuros The cr valeur euros.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setCrValeurEuros(?float $crValeurEuros): CreditsBails {
-        $this->crValeurEuros = $crValeurEuros;
         return $this;
     }
 
@@ -1601,13 +1501,101 @@ class CreditsBails {
     }
 
     /**
-     * Set the din.
+     * Set the cr valeur euros.
      *
-     * @param bool|null $din The din.
+     * @param float|null $crValeurEuros The cr valeur euros.
      * @return CreditsBails Returns this Credits bails.
      */
-    public function setDin(?bool $din): CreditsBails {
-        $this->din = $din;
+    public function setCrValeurEuros(?float $crValeurEuros): CreditsBails {
+        $this->crValeurEuros = $crValeurEuros;
+        return $this;
+    }
+
+    /**
+     * Set the crr date.
+     *
+     * @param DateTime|null $crrDate The crr date.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrDate(?DateTime $crrDate): CreditsBails {
+        $this->crrDate = $crrDate;
+        return $this;
+    }
+
+    /**
+     * Set the crr px cession ht.
+     *
+     * @param float|null $crrPxCessionHt The crr px cession ht.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrPxCessionHt(?float $crrPxCessionHt): CreditsBails {
+        $this->crrPxCessionHt = $crrPxCessionHt;
+        return $this;
+    }
+
+    /**
+     * Set the crr qte vendue.
+     *
+     * @param float|null $crrQteVendue The crr qte vendue.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrQteVendue(?float $crrQteVendue): CreditsBails {
+        $this->crrQteVendue = $crrQteVendue;
+        return $this;
+    }
+
+    /**
+     * Set the crr suppl amort.
+     *
+     * @param float|null $crrSupplAmort The crr suppl amort.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrSupplAmort(?float $crrSupplAmort): CreditsBails {
+        $this->crrSupplAmort = $crrSupplAmort;
+        return $this;
+    }
+
+    /**
+     * Set the crr suppl valeur.
+     *
+     * @param float|null $crrSupplValeur The crr suppl valeur.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrSupplValeur(?float $crrSupplValeur): CreditsBails {
+        $this->crrSupplValeur = $crrSupplValeur;
+        return $this;
+    }
+
+    /**
+     * Set the crr type.
+     *
+     * @param string|null $crrType The crr type.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrType(?string $crrType): CreditsBails {
+        $this->crrType = $crrType;
+        return $this;
+    }
+
+    /**
+     * Set the crrpm value ct.
+     *
+     * @param float|null $crrpmValueCt The crrpm value ct.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrpmValueCt(?float $crrpmValueCt): CreditsBails {
+        $this->crrpmValueCt = $crrpmValueCt;
+        return $this;
+    }
+
+    /**
+     * Set the crrpm value lt.
+     *
+     * @param float|null $crrpmValueLt The crrpm value lt.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setCrrpmValueLt(?float $crrpmValueLt): CreditsBails {
+        $this->crrpmValueLt = $crrpmValueLt;
         return $this;
     }
 
@@ -1630,6 +1618,17 @@ class CreditsBails {
      */
     public function setDateMiseService(?DateTime $dateMiseService): CreditsBails {
         $this->dateMiseService = $dateMiseService;
+        return $this;
+    }
+
+    /**
+     * Set the din.
+     *
+     * @param bool|null $din The din.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setDin(?bool $din): CreditsBails {
+        $this->din = $din;
         return $this;
     }
 
@@ -1810,6 +1809,28 @@ class CreditsBails {
     }
 
     /**
+     * Set the taxe fonciere.
+     *
+     * @param bool|null $taxeFonciere The taxe fonciere.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setTaxeFonciere(?bool $taxeFonciere): CreditsBails {
+        $this->taxeFonciere = $taxeFonciere;
+        return $this;
+    }
+
+    /**
+     * Set the taxe pro.
+     *
+     * @param bool|null $taxePro The taxe pro.
+     * @return CreditsBails Returns this Credits bails.
+     */
+    public function setTaxePro(?bool $taxePro): CreditsBails {
+        $this->taxePro = $taxePro;
+        return $this;
+    }
+
+    /**
      * Set the tp duree.
      *
      * @param int|null $tpDuree The tp duree.
@@ -1872,28 +1893,6 @@ class CreditsBails {
      */
     public function setTpPremierPaiement(?DateTime $tpPremierPaiement): CreditsBails {
         $this->tpPremierPaiement = $tpPremierPaiement;
-        return $this;
-    }
-
-    /**
-     * Set the taxe fonciere.
-     *
-     * @param bool|null $taxeFonciere The taxe fonciere.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setTaxeFonciere(?bool $taxeFonciere): CreditsBails {
-        $this->taxeFonciere = $taxeFonciere;
-        return $this;
-    }
-
-    /**
-     * Set the taxe pro.
-     *
-     * @param bool|null $taxePro The taxe pro.
-     * @return CreditsBails Returns this Credits bails.
-     */
-    public function setTaxePro(?bool $taxePro): CreditsBails {
-        $this->taxePro = $taxePro;
         return $this;
     }
 

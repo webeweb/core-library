@@ -182,7 +182,6 @@ class PointEmpHeuresAbsComplRempl {
      */
     private $uniqIdSynchro;
 
-
     /**
      * Constructor.
      */
@@ -195,7 +194,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return bool|null Returns the avenant signe.
      */
-    public function getAvenantSigne(): ?bool{
+    public function getAvenantSigne(): ?bool {
         return $this->avenantSigne;
     }
 
@@ -204,7 +203,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code absence.
      */
-    public function getCodeAbsence(): ?string{
+    public function getCodeAbsence(): ?string {
         return $this->codeAbsence;
     }
 
@@ -213,7 +212,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -222,7 +221,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -231,7 +230,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -240,7 +239,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code collabo valid.
      */
-    public function getCodeCollaboValid(): ?string{
+    public function getCodeCollaboValid(): ?string {
         return $this->codeCollaboValid;
     }
 
@@ -249,7 +248,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code collaborateur.
      */
-    public function getCodeCollaborateur(): ?string{
+    public function getCodeCollaborateur(): ?string {
         return $this->codeCollaborateur;
     }
 
@@ -258,7 +257,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -267,7 +266,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the code tache.
      */
-    public function getCodeTache(): ?string{
+    public function getCodeTache(): ?string {
         return $this->codeTache;
     }
 
@@ -276,7 +275,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return DateTime|null Returns the date.
      */
-    public function getDate(): ?DateTime{
+    public function getDate(): ?DateTime {
         return $this->date;
     }
 
@@ -285,7 +284,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return DateTime|null Returns the date abs decalee.
      */
-    public function getDateAbsDecalee(): ?DateTime{
+    public function getDateAbsDecalee(): ?DateTime {
         return $this->dateAbsDecalee;
     }
 
@@ -294,7 +293,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return DateTime|null Returns the date validation synchro.
      */
-    public function getDateValidationSynchro(): ?DateTime{
+    public function getDateValidationSynchro(): ?DateTime {
         return $this->dateValidationSynchro;
     }
 
@@ -303,7 +302,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the employe remplace.
      */
-    public function getEmployeRemplace(): ?string{
+    public function getEmployeRemplace(): ?string {
         return $this->employeRemplace;
     }
 
@@ -312,7 +311,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the etat.
      */
-    public function getEtat(): ?string{
+    public function getEtat(): ?string {
         return $this->etat;
     }
 
@@ -321,7 +320,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return DateTime|null Returns the heure deb.
      */
-    public function getHeureDeb(): ?DateTime{
+    public function getHeureDeb(): ?DateTime {
         return $this->heureDeb;
     }
 
@@ -330,7 +329,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return DateTime|null Returns the heures jour.
      */
-    public function getHeuresJour(): ?DateTime{
+    public function getHeuresJour(): ?DateTime {
         return $this->heuresJour;
     }
 
@@ -339,7 +338,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return DateTime|null Returns the heures nuit.
      */
-    public function getHeuresNuit(): ?DateTime{
+    public function getHeuresNuit(): ?DateTime {
         return $this->heuresNuit;
     }
 
@@ -348,7 +347,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -357,7 +356,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return int|null Returns the numero avenant.
      */
-    public function getNumeroAvenant(): ?int{
+    public function getNumeroAvenant(): ?int {
         return $this->numeroAvenant;
     }
 
@@ -366,7 +365,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the type heure.
      */
-    public function getTypeHeure(): ?string{
+    public function getTypeHeure(): ?string {
         return $this->typeHeure;
     }
 
@@ -375,7 +374,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 
@@ -384,7 +383,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the uniq id planning.
      */
-    public function getUniqIdPlanning(): ?string{
+    public function getUniqIdPlanning(): ?string {
         return $this->uniqIdPlanning;
     }
 
@@ -393,7 +392,7 @@ class PointEmpHeuresAbsComplRempl {
      *
      * @return string|null Returns the uniq id synchro.
      */
-    public function getUniqIdSynchro(): ?string{
+    public function getUniqIdSynchro(): ?string {
         return $this->uniqIdSynchro;
     }
 

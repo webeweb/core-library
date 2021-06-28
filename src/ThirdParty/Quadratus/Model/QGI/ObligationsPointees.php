@@ -56,7 +56,6 @@ class ObligationsPointees {
      */
     private $par;
 
-
     /**
      * Constructor.
      */
@@ -69,7 +68,7 @@ class ObligationsPointees {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -78,7 +77,7 @@ class ObligationsPointees {
      *
      * @return string|null Returns the code obligation.
      */
-    public function getCodeObligation(): ?string{
+    public function getCodeObligation(): ?string {
         return $this->codeObligation;
     }
 
@@ -87,7 +86,7 @@ class ObligationsPointees {
      *
      * @return DateTime|null Returns the date effet.
      */
-    public function getDateEffet(): ?DateTime{
+    public function getDateEffet(): ?DateTime {
         return $this->dateEffet;
     }
 
@@ -96,7 +95,7 @@ class ObligationsPointees {
      *
      * @return DateTime|null Returns the le.
      */
-    public function getLe(): ?DateTime{
+    public function getLe(): ?DateTime {
         return $this->le;
     }
 
@@ -105,7 +104,7 @@ class ObligationsPointees {
      *
      * @return string|null Returns the par.
      */
-    public function getPar(): ?string{
+    public function getPar(): ?string {
         return $this->par;
     }
 

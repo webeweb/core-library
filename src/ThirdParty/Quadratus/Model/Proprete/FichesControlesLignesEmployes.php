@@ -75,7 +75,6 @@ class FichesControlesLignesEmployes {
      */
     private $remarque;
 
-
     /**
      * Constructor.
      */
@@ -88,7 +87,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -97,7 +96,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -106,7 +105,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -115,7 +114,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -124,7 +123,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the code remplacant.
      */
-    public function getCodeRemplacant(): ?string{
+    public function getCodeRemplacant(): ?string {
         return $this->codeRemplacant;
     }
 
@@ -133,7 +132,7 @@ class FichesControlesLignesEmployes {
      *
      * @return int|null Returns the numero fiche.
      */
-    public function getNumeroFiche(): ?int{
+    public function getNumeroFiche(): ?int {
         return $this->numeroFiche;
     }
 
@@ -142,7 +141,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the poste.
      */
-    public function getPoste(): ?string{
+    public function getPoste(): ?string {
         return $this->poste;
     }
 
@@ -151,7 +150,7 @@ class FichesControlesLignesEmployes {
      *
      * @return string|null Returns the remarque.
      */
-    public function getRemarque(): ?string{
+    public function getRemarque(): ?string {
         return $this->remarque;
     }
 

@@ -126,7 +126,6 @@ class LignesIjss {
      */
     private $sommeRegul2;
 
-
     /**
      * Constructor.
      */
@@ -139,7 +138,7 @@ class LignesIjss {
      *
      * @return float|null Returns the montant.
      */
-    public function getMontant(): ?float{
+    public function getMontant(): ?float {
         return $this->montant;
     }
 
@@ -148,7 +147,7 @@ class LignesIjss {
      *
      * @return float|null Returns the montant2.
      */
-    public function getMontant2(): ?float{
+    public function getMontant2(): ?float {
         return $this->montant2;
     }
 
@@ -157,7 +156,7 @@ class LignesIjss {
      *
      * @return string|null Returns the montant euro ou franc.
      */
-    public function getMontantEuroOuFranc(): ?string{
+    public function getMontantEuroOuFranc(): ?string {
         return $this->montantEuroOuFranc;
     }
 
@@ -166,7 +165,7 @@ class LignesIjss {
      *
      * @return string|null Returns the motif.
      */
-    public function getMotif(): ?string{
+    public function getMotif(): ?string {
         return $this->motif;
     }
 
@@ -175,7 +174,7 @@ class LignesIjss {
      *
      * @return float|null Returns the mt brut perte salaire.
      */
-    public function getMtBrutPerteSalaire(): ?float{
+    public function getMtBrutPerteSalaire(): ?float {
         return $this->mtBrutPerteSalaire;
     }
 
@@ -184,7 +183,7 @@ class LignesIjss {
      *
      * @return float|null Returns the nb c.
      */
-    public function getNbC(): ?float{
+    public function getNbC(): ?float {
         return $this->nbC;
     }
 
@@ -193,7 +192,7 @@ class LignesIjss {
      *
      * @return float|null Returns the nb e.
      */
-    public function getNbE(): ?float{
+    public function getNbE(): ?float {
         return $this->nbE;
     }
 
@@ -202,7 +201,7 @@ class LignesIjss {
      *
      * @return string|null Returns the num ligne.
      */
-    public function getNumLigne(): ?string{
+    public function getNumLigne(): ?string {
         return $this->numLigne;
     }
 
@@ -211,7 +210,7 @@ class LignesIjss {
      *
      * @return string|null Returns the numero attestation.
      */
-    public function getNumeroAttestation(): ?string{
+    public function getNumeroAttestation(): ?string {
         return $this->numeroAttestation;
     }
 
@@ -220,7 +219,7 @@ class LignesIjss {
      *
      * @return DateTime|null Returns the periode deb.
      */
-    public function getPeriodeDeb(): ?DateTime{
+    public function getPeriodeDeb(): ?DateTime {
         return $this->periodeDeb;
     }
 
@@ -229,7 +228,7 @@ class LignesIjss {
      *
      * @return DateTime|null Returns the periode fin.
      */
-    public function getPeriodeFin(): ?DateTime{
+    public function getPeriodeFin(): ?DateTime {
         return $this->periodeFin;
     }
 
@@ -238,7 +237,7 @@ class LignesIjss {
      *
      * @return string|null Returns the sal ret euro ou franc.
      */
-    public function getSalRetEuroOuFranc(): ?string{
+    public function getSalRetEuroOuFranc(): ?string {
         return $this->salRetEuroOuFranc;
     }
 
@@ -247,7 +246,7 @@ class LignesIjss {
      *
      * @return float|null Returns the salaire ret.
      */
-    public function getSalaireRet(): ?float{
+    public function getSalaireRet(): ?float {
         return $this->salaireRet;
     }
 
@@ -256,7 +255,7 @@ class LignesIjss {
      *
      * @return float|null Returns the somme regul1.
      */
-    public function getSommeRegul1(): ?float{
+    public function getSommeRegul1(): ?float {
         return $this->sommeRegul1;
     }
 
@@ -265,7 +264,7 @@ class LignesIjss {
      *
      * @return float|null Returns the somme regul2.
      */
-    public function getSommeRegul2(): ?float{
+    public function getSommeRegul2(): ?float {
         return $this->sommeRegul2;
     }
 

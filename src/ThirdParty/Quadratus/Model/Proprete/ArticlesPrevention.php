@@ -33,7 +33,6 @@ class ArticlesPrevention {
      */
     private $codePrev;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class ArticlesPrevention {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -55,7 +54,7 @@ class ArticlesPrevention {
      *
      * @return string|null Returns the code prev.
      */
-    public function getCodePrev(): ?string{
+    public function getCodePrev(): ?string {
         return $this->codePrev;
     }
 

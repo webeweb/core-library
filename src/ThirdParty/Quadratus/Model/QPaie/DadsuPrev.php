@@ -119,7 +119,6 @@ class DadsuPrev {
      */
     private $numeroOrdre;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class DadsuPrev {
      *
      * @return float|null Returns the base prev.
      */
-    public function getBasePrev(): ?float{
+    public function getBasePrev(): ?float {
         return $this->basePrev;
     }
 
@@ -141,7 +140,7 @@ class DadsuPrev {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -150,7 +149,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -159,7 +158,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the code organisme gestionnaire.
      */
-    public function getCodeOrganismeGestionnaire(): ?string{
+    public function getCodeOrganismeGestionnaire(): ?string {
         return $this->codeOrganismeGestionnaire;
     }
 
@@ -168,7 +167,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the code popul.
      */
-    public function getCodePopul(): ?string{
+    public function getCodePopul(): ?string {
         return $this->codePopul;
     }
 
@@ -177,7 +176,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the code type prev.
      */
-    public function getCodeTypePrev(): ?string{
+    public function getCodeTypePrev(): ?string {
         return $this->codeTypePrev;
     }
 
@@ -186,7 +185,7 @@ class DadsuPrev {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode(): ?DateTime{
+    public function getDebutPeriode(): ?DateTime {
         return $this->debutPeriode;
     }
 
@@ -195,7 +194,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the even contrat.
      */
-    public function getEvenContrat(): ?string{
+    public function getEvenContrat(): ?string {
         return $this->evenContrat;
     }
 
@@ -204,7 +203,7 @@ class DadsuPrev {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode(): ?DateTime{
+    public function getFinPeriode(): ?DateTime {
         return $this->finPeriode;
     }
 
@@ -213,7 +212,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the id institution.
      */
-    public function getIdInstitution(): ?string{
+    public function getIdInstitution(): ?string {
         return $this->idInstitution;
     }
 
@@ -222,7 +221,7 @@ class DadsuPrev {
      *
      * @return int|null Returns the indice dadsu.
      */
-    public function getIndiceDadsu(): ?int{
+    public function getIndiceDadsu(): ?int {
         return $this->indiceDadsu;
     }
 
@@ -231,7 +230,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the no affiliation.
      */
-    public function getNoAffiliation(): ?string{
+    public function getNoAffiliation(): ?string {
         return $this->noAffiliation;
     }
 
@@ -240,7 +239,7 @@ class DadsuPrev {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -249,7 +248,7 @@ class DadsuPrev {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 

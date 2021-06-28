@@ -119,7 +119,6 @@ class ChantiersHistoRev {
      */
     private $refusClient;
 
-
     /**
      * Constructor.
      */
@@ -132,7 +131,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -141,7 +140,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -150,7 +149,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -159,7 +158,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the code formule.
      */
-    public function getCodeFormule(): ?string{
+    public function getCodeFormule(): ?string {
         return $this->codeFormule;
     }
 
@@ -168,7 +167,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -177,7 +176,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the commentaire.
      */
-    public function getCommentaire(): ?string{
+    public function getCommentaire(): ?string {
         return $this->commentaire;
     }
 
@@ -186,7 +185,7 @@ class ChantiersHistoRev {
      *
      * @return DateTime|null Returns the date revision.
      */
-    public function getDateRevision(): ?DateTime{
+    public function getDateRevision(): ?DateTime {
         return $this->dateRevision;
     }
 
@@ -195,7 +194,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the formule.
      */
-    public function getFormule(): ?string{
+    public function getFormule(): ?string {
         return $this->formule;
     }
 
@@ -204,7 +203,7 @@ class ChantiersHistoRev {
      *
      * @return string|null Returns the lien document.
      */
-    public function getLienDocument(): ?string{
+    public function getLienDocument(): ?string {
         return $this->lienDocument;
     }
 
@@ -213,7 +212,7 @@ class ChantiersHistoRev {
      *
      * @return int|null Returns the num bt.
      */
-    public function getNumBt(): ?int{
+    public function getNumBt(): ?int {
         return $this->numBt;
     }
 
@@ -222,7 +221,7 @@ class ChantiersHistoRev {
      *
      * @return int|null Returns the num ligne rev.
      */
-    public function getNumLigneRev(): ?int{
+    public function getNumLigneRev(): ?int {
         return $this->numLigneRev;
     }
 
@@ -231,7 +230,7 @@ class ChantiersHistoRev {
      *
      * @return DateTime|null Returns the periode revisee.
      */
-    public function getPeriodeRevisee(): ?DateTime{
+    public function getPeriodeRevisee(): ?DateTime {
         return $this->periodeRevisee;
     }
 
@@ -240,7 +239,7 @@ class ChantiersHistoRev {
      *
      * @return float|null Returns the pourcentage.
      */
-    public function getPourcentage(): ?float{
+    public function getPourcentage(): ?float {
         return $this->pourcentage;
     }
 
@@ -249,7 +248,7 @@ class ChantiersHistoRev {
      *
      * @return bool|null Returns the refus client.
      */
-    public function getRefusClient(): ?bool{
+    public function getRefusClient(): ?bool {
         return $this->refusClient;
     }
 

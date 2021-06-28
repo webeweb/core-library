@@ -47,7 +47,6 @@ class ConstTabAnalAchat {
      */
     private $codeNature;
 
-
     /**
      * Constructor.
      */
@@ -60,7 +59,7 @@ class ConstTabAnalAchat {
      *
      * @return string|null Returns the code anal article.
      */
-    public function getCodeAnalArticle(): ?string{
+    public function getCodeAnalArticle(): ?string {
         return $this->codeAnalArticle;
     }
 
@@ -69,7 +68,7 @@ class ConstTabAnalAchat {
      *
      * @return string|null Returns the code anal fourn.
      */
-    public function getCodeAnalFourn(): ?string{
+    public function getCodeAnalFourn(): ?string {
         return $this->codeAnalFourn;
     }
 
@@ -78,7 +77,7 @@ class ConstTabAnalAchat {
      *
      * @return string|null Returns the code centre.
      */
-    public function getCodeCentre(): ?string{
+    public function getCodeCentre(): ?string {
         return $this->codeCentre;
     }
 
@@ -87,7 +86,7 @@ class ConstTabAnalAchat {
      *
      * @return string|null Returns the code nature.
      */
-    public function getCodeNature(): ?string{
+    public function getCodeNature(): ?string {
         return $this->codeNature;
     }
 

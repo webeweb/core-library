@@ -43,13 +43,6 @@ class HeuresAbsence {
     private $dateJour;
 
     /**
-     * Nb ha reintegrer.
-     *
-     * @var float|null
-     */
-    private $nbHaReintegrer;
-
-    /**
      * Nb h non effectue.
      *
      * @var float|null
@@ -62,6 +55,13 @@ class HeuresAbsence {
      * @var float|null
      */
     private $nbHRetenueSalaire;
+
+    /**
+     * Nb ha reintegrer.
+     *
+     * @var float|null
+     */
+    private $nbHaReintegrer;
 
     /**
      * Numero employe.
@@ -84,7 +84,6 @@ class HeuresAbsence {
      */
     private $typeAbsence;
 
-
     /**
      * Constructor.
      */
@@ -97,7 +96,7 @@ class HeuresAbsence {
      *
      * @return DateTime|null Returns the absence au.
      */
-    public function getAbsenceAu(): ?DateTime{
+    public function getAbsenceAu(): ?DateTime {
         return $this->absenceAu;
     }
 
@@ -106,7 +105,7 @@ class HeuresAbsence {
      *
      * @return DateTime|null Returns the absence du.
      */
-    public function getAbsenceDu(): ?DateTime{
+    public function getAbsenceDu(): ?DateTime {
         return $this->absenceDu;
     }
 
@@ -115,17 +114,8 @@ class HeuresAbsence {
      *
      * @return DateTime|null Returns the date jour.
      */
-    public function getDateJour(): ?DateTime{
+    public function getDateJour(): ?DateTime {
         return $this->dateJour;
-    }
-
-    /**
-     * Get the nb ha reintegrer.
-     *
-     * @return float|null Returns the nb ha reintegrer.
-     */
-    public function getNbHaReintegrer(): ?float{
-        return $this->nbHaReintegrer;
     }
 
     /**
@@ -133,7 +123,7 @@ class HeuresAbsence {
      *
      * @return float|null Returns the nb h non effectue.
      */
-    public function getNbHNonEffectue(): ?float{
+    public function getNbHNonEffectue(): ?float {
         return $this->nbHNonEffectue;
     }
 
@@ -142,8 +132,17 @@ class HeuresAbsence {
      *
      * @return float|null Returns the nb h retenue salaire.
      */
-    public function getNbHRetenueSalaire(): ?float{
+    public function getNbHRetenueSalaire(): ?float {
         return $this->nbHRetenueSalaire;
+    }
+
+    /**
+     * Get the nb ha reintegrer.
+     *
+     * @return float|null Returns the nb ha reintegrer.
+     */
+    public function getNbHaReintegrer(): ?float {
+        return $this->nbHaReintegrer;
     }
 
     /**
@@ -151,7 +150,7 @@ class HeuresAbsence {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -160,7 +159,7 @@ class HeuresAbsence {
      *
      * @return string|null Returns the transfere.
      */
-    public function getTransfere(): ?string{
+    public function getTransfere(): ?string {
         return $this->transfere;
     }
 
@@ -169,7 +168,7 @@ class HeuresAbsence {
      *
      * @return string|null Returns the type absence.
      */
-    public function getTypeAbsence(): ?string{
+    public function getTypeAbsence(): ?string {
         return $this->typeAbsence;
     }
 
@@ -207,17 +206,6 @@ class HeuresAbsence {
     }
 
     /**
-     * Set the nb ha reintegrer.
-     *
-     * @param float|null $nbHaReintegrer The nb ha reintegrer.
-     * @return HeuresAbsence Returns this Heures absence.
-     */
-    public function setNbHaReintegrer(?float $nbHaReintegrer): HeuresAbsence {
-        $this->nbHaReintegrer = $nbHaReintegrer;
-        return $this;
-    }
-
-    /**
      * Set the nb h non effectue.
      *
      * @param float|null $nbHNonEffectue The nb h non effectue.
@@ -236,6 +224,17 @@ class HeuresAbsence {
      */
     public function setNbHRetenueSalaire(?float $nbHRetenueSalaire): HeuresAbsence {
         $this->nbHRetenueSalaire = $nbHRetenueSalaire;
+        return $this;
+    }
+
+    /**
+     * Set the nb ha reintegrer.
+     *
+     * @param float|null $nbHaReintegrer The nb ha reintegrer.
+     * @return HeuresAbsence Returns this Heures absence.
+     */
+    public function setNbHaReintegrer(?float $nbHaReintegrer): HeuresAbsence {
+        $this->nbHaReintegrer = $nbHaReintegrer;
         return $this;
     }
 

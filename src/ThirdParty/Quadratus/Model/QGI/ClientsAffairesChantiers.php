@@ -54,7 +54,6 @@ class ClientsAffairesChantiers {
      */
     private $numUniq;
 
-
     /**
      * Constructor.
      */
@@ -67,7 +66,7 @@ class ClientsAffairesChantiers {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -76,7 +75,7 @@ class ClientsAffairesChantiers {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -85,7 +84,7 @@ class ClientsAffairesChantiers {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -94,7 +93,7 @@ class ClientsAffairesChantiers {
      *
      * @return string|null Returns the dossier prop.
      */
-    public function getDossierProp(): ?string{
+    public function getDossierProp(): ?string {
         return $this->dossierProp;
     }
 
@@ -103,7 +102,7 @@ class ClientsAffairesChantiers {
      *
      * @return string|null Returns the num uniq.
      */
-    public function getNumUniq(): ?string{
+    public function getNumUniq(): ?string {
         return $this->numUniq;
     }
 

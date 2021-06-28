@@ -33,7 +33,6 @@ class FiltreLignes {
      */
     private $uniqId;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class FiltreLignes {
      *
      * @return string|null Returns the code.
      */
-    public function getCode(): ?string{
+    public function getCode(): ?string {
         return $this->code;
     }
 
@@ -55,7 +54,7 @@ class FiltreLignes {
      *
      * @return string|null Returns the uniq id.
      */
-    public function getUniqId(): ?string{
+    public function getUniqId(): ?string {
         return $this->uniqId;
     }
 

@@ -96,7 +96,6 @@ class ControleTva {
      */
     private $valeurTaux;
 
-
     /**
      * Constructor.
      */
@@ -109,7 +108,7 @@ class ControleTva {
      *
      * @return string|null Returns the code calc.
      */
-    public function getCodeCalc(): ?string{
+    public function getCodeCalc(): ?string {
         return $this->codeCalc;
     }
 
@@ -118,7 +117,7 @@ class ControleTva {
      *
      * @return float|null Returns the code tva.
      */
-    public function getCodeTva(): ?float{
+    public function getCodeTva(): ?float {
         return $this->codeTva;
     }
 
@@ -127,7 +126,7 @@ class ControleTva {
      *
      * @return int|null Returns the colonne taux.
      */
-    public function getColonneTaux(): ?int{
+    public function getColonneTaux(): ?int {
         return $this->colonneTaux;
     }
 
@@ -136,7 +135,7 @@ class ControleTva {
      *
      * @return string|null Returns the intitule.
      */
-    public function getIntitule(): ?string{
+    public function getIntitule(): ?string {
         return $this->intitule;
     }
 
@@ -145,7 +144,7 @@ class ControleTva {
      *
      * @return float|null Returns the mtt taux.
      */
-    public function getMttTaux(): ?float{
+    public function getMttTaux(): ?float {
         return $this->mttTaux;
     }
 
@@ -154,7 +153,7 @@ class ControleTva {
      *
      * @return int|null Returns the num ligne.
      */
-    public function getNumLigne(): ?int{
+    public function getNumLigne(): ?int {
         return $this->numLigne;
     }
 
@@ -163,7 +162,7 @@ class ControleTva {
      *
      * @return string|null Returns the racine cpt.
      */
-    public function getRacineCpt(): ?string{
+    public function getRacineCpt(): ?string {
         return $this->racineCpt;
     }
 
@@ -172,7 +171,7 @@ class ControleTva {
      *
      * @return bool|null Returns the saisie manuelle.
      */
-    public function getSaisieManuelle(): ?bool{
+    public function getSaisieManuelle(): ?bool {
         return $this->saisieManuelle;
     }
 
@@ -181,7 +180,7 @@ class ControleTva {
      *
      * @return string|null Returns the type controle.
      */
-    public function getTypeControle(): ?string{
+    public function getTypeControle(): ?string {
         return $this->typeControle;
     }
 
@@ -190,7 +189,7 @@ class ControleTva {
      *
      * @return string|null Returns the type ligne.
      */
-    public function getTypeLigne(): ?string{
+    public function getTypeLigne(): ?string {
         return $this->typeLigne;
     }
 
@@ -199,7 +198,7 @@ class ControleTva {
      *
      * @return float|null Returns the valeur taux.
      */
-    public function getValeurTaux(): ?float{
+    public function getValeurTaux(): ?float {
         return $this->valeurTaux;
     }
 

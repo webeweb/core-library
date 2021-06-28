@@ -259,7 +259,6 @@ class CdeTypeInspLignes {
      */
     private $validee;
 
-
     /**
      * Constructor.
      */
@@ -272,7 +271,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the aou.
      */
-    public function getAou(): ?bool{
+    public function getAou(): ?bool {
         return $this->aou;
     }
 
@@ -281,7 +280,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the avr.
      */
-    public function getAvr(): ?bool{
+    public function getAvr(): ?bool {
         return $this->avr;
     }
 
@@ -290,7 +289,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code affaire.
      */
-    public function getCodeAffaire(): ?string{
+    public function getCodeAffaire(): ?string {
         return $this->codeAffaire;
     }
 
@@ -299,7 +298,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code article.
      */
-    public function getCodeArticle(): ?string{
+    public function getCodeArticle(): ?string {
         return $this->codeArticle;
     }
 
@@ -308,7 +307,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code chantier.
      */
-    public function getCodeChantier(): ?string{
+    public function getCodeChantier(): ?string {
         return $this->codeChantier;
     }
 
@@ -317,7 +316,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code client.
      */
-    public function getCodeClient(): ?string{
+    public function getCodeClient(): ?string {
         return $this->codeClient;
     }
 
@@ -326,7 +325,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code fournisseur.
      */
-    public function getCodeFournisseur(): ?string{
+    public function getCodeFournisseur(): ?string {
         return $this->codeFournisseur;
     }
 
@@ -335,7 +334,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code inspecteur.
      */
-    public function getCodeInspecteur(): ?string{
+    public function getCodeInspecteur(): ?string {
         return $this->codeInspecteur;
     }
 
@@ -344,7 +343,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the code livraison.
      */
-    public function getCodeLivraison(): ?string{
+    public function getCodeLivraison(): ?string {
         return $this->codeLivraison;
     }
 
@@ -353,7 +352,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the commande isolee.
      */
-    public function getCommandeIsolee(): ?bool{
+    public function getCommandeIsolee(): ?bool {
         return $this->commandeIsolee;
     }
 
@@ -362,7 +361,7 @@ class CdeTypeInspLignes {
      *
      * @return DateTime|null Returns the date debut validite.
      */
-    public function getDateDebutValidite(): ?DateTime{
+    public function getDateDebutValidite(): ?DateTime {
         return $this->dateDebutValidite;
     }
 
@@ -371,7 +370,7 @@ class CdeTypeInspLignes {
      *
      * @return DateTime|null Returns the date fin validite.
      */
-    public function getDateFinValidite(): ?DateTime{
+    public function getDateFinValidite(): ?DateTime {
         return $this->dateFinValidite;
     }
 
@@ -380,7 +379,7 @@ class CdeTypeInspLignes {
      *
      * @return DateTime|null Returns the date validee.
      */
-    public function getDateValidee(): ?DateTime{
+    public function getDateValidee(): ?DateTime {
         return $this->dateValidee;
     }
 
@@ -389,7 +388,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the dec.
      */
-    public function getDec(): ?bool{
+    public function getDec(): ?bool {
         return $this->dec;
     }
 
@@ -398,7 +397,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the designation1.
      */
-    public function getDesignation1(): ?string{
+    public function getDesignation1(): ?string {
         return $this->designation1;
     }
 
@@ -407,7 +406,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the designation2.
      */
-    public function getDesignation2(): ?string{
+    public function getDesignation2(): ?string {
         return $this->designation2;
     }
 
@@ -416,7 +415,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the designation3.
      */
-    public function getDesignation3(): ?string{
+    public function getDesignation3(): ?string {
         return $this->designation3;
     }
 
@@ -425,7 +424,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the fev.
      */
-    public function getFev(): ?bool{
+    public function getFev(): ?bool {
         return $this->fev;
     }
 
@@ -434,7 +433,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the jan.
      */
-    public function getJan(): ?bool{
+    public function getJan(): ?bool {
         return $this->jan;
     }
 
@@ -443,7 +442,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the jour livraison.
      */
-    public function getJourLivraison(): ?string{
+    public function getJourLivraison(): ?string {
         return $this->jourLivraison;
     }
 
@@ -452,7 +451,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the juil.
      */
-    public function getJuil(): ?bool{
+    public function getJuil(): ?bool {
         return $this->juil;
     }
 
@@ -461,7 +460,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the juin.
      */
-    public function getJuin(): ?bool{
+    public function getJuin(): ?bool {
         return $this->juin;
     }
 
@@ -470,7 +469,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the mai.
      */
-    public function getMai(): ?bool{
+    public function getMai(): ?bool {
         return $this->mai;
     }
 
@@ -479,7 +478,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the maj stock by da.
      */
-    public function getMajStockByDa(): ?bool{
+    public function getMajStockByDa(): ?bool {
         return $this->majStockByDa;
     }
 
@@ -488,7 +487,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the mar.
      */
-    public function getMar(): ?bool{
+    public function getMar(): ?bool {
         return $this->mar;
     }
 
@@ -497,7 +496,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the nov.
      */
-    public function getNov(): ?bool{
+    public function getNov(): ?bool {
         return $this->nov;
     }
 
@@ -506,7 +505,7 @@ class CdeTypeInspLignes {
      *
      * @return int|null Returns the numero ligne.
      */
-    public function getNumeroLigne(): ?int{
+    public function getNumeroLigne(): ?int {
         return $this->numeroLigne;
     }
 
@@ -515,7 +514,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the oct.
      */
-    public function getOct(): ?bool{
+    public function getOct(): ?bool {
         return $this->oct;
     }
 
@@ -524,7 +523,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the poste rent.
      */
-    public function getPosteRent(): ?string{
+    public function getPosteRent(): ?string {
         return $this->posteRent;
     }
 
@@ -533,7 +532,7 @@ class CdeTypeInspLignes {
      *
      * @return float|null Returns the quantite.
      */
-    public function getQuantite(): ?float{
+    public function getQuantite(): ?float {
         return $this->quantite;
     }
 
@@ -542,7 +541,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the saisir modalite liv.
      */
-    public function getSaisirModaliteLiv(): ?bool{
+    public function getSaisirModaliteLiv(): ?bool {
         return $this->saisirModaliteLiv;
     }
 
@@ -551,7 +550,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the sep.
      */
-    public function getSep(): ?bool{
+    public function getSep(): ?bool {
         return $this->sep;
     }
 
@@ -560,7 +559,7 @@ class CdeTypeInspLignes {
      *
      * @return string|null Returns the type gestion.
      */
-    public function getTypeGestion(): ?string{
+    public function getTypeGestion(): ?string {
         return $this->typeGestion;
     }
 
@@ -569,7 +568,7 @@ class CdeTypeInspLignes {
      *
      * @return bool|null Returns the validee.
      */
-    public function getValidee(): ?bool{
+    public function getValidee(): ?bool {
         return $this->validee;
     }
 

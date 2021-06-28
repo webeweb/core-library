@@ -91,7 +91,6 @@ class CommentaireBulletins {
      */
     private $txtCommentaireSaisi;
 
-
     /**
      * Constructor.
      */
@@ -104,7 +103,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the commentaire1.
      */
-    public function getCommentaire1(): ?string{
+    public function getCommentaire1(): ?string {
         return $this->commentaire1;
     }
 
@@ -113,7 +112,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the commentaire2.
      */
-    public function getCommentaire2(): ?string{
+    public function getCommentaire2(): ?string {
         return $this->commentaire2;
     }
 
@@ -122,7 +121,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the commentaire3.
      */
-    public function getCommentaire3(): ?string{
+    public function getCommentaire3(): ?string {
         return $this->commentaire3;
     }
 
@@ -131,7 +130,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the commentaire4.
      */
-    public function getCommentaire4(): ?string{
+    public function getCommentaire4(): ?string {
         return $this->commentaire4;
     }
 
@@ -140,7 +139,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the commentaire5.
      */
-    public function getCommentaire5(): ?string{
+    public function getCommentaire5(): ?string {
         return $this->commentaire5;
     }
 
@@ -149,7 +148,7 @@ class CommentaireBulletins {
      *
      * @return int|null Returns the indice periode.
      */
-    public function getIndicePeriode(): ?int{
+    public function getIndicePeriode(): ?int {
         return $this->indicePeriode;
     }
 
@@ -158,7 +157,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -167,7 +166,7 @@ class CommentaireBulletins {
      *
      * @return DateTime|null Returns the periode.
      */
-    public function getPeriode(): ?DateTime{
+    public function getPeriode(): ?DateTime {
         return $this->periode;
     }
 
@@ -176,7 +175,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the txt commentaire rtf.
      */
-    public function getTxtCommentaireRtf(): ?string{
+    public function getTxtCommentaireRtf(): ?string {
         return $this->txtCommentaireRtf;
     }
 
@@ -185,7 +184,7 @@ class CommentaireBulletins {
      *
      * @return string|null Returns the txt commentaire saisi.
      */
-    public function getTxtCommentaireSaisi(): ?string{
+    public function getTxtCommentaireSaisi(): ?string {
         return $this->txtCommentaireSaisi;
     }
 

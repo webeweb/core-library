@@ -82,7 +82,6 @@ class DadsuPrevoyanceRegroupement {
      */
     private $valeurCotisInitiale;
 
-
     /**
      * Constructor.
      */
@@ -95,7 +94,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the code libelle.
      */
-    public function getCodeLibelle(): ?string{
+    public function getCodeLibelle(): ?string {
         return $this->codeLibelle;
     }
 
@@ -104,7 +103,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the code option.
      */
-    public function getCodeOption(): ?string{
+    public function getCodeOption(): ?string {
         return $this->codeOption;
     }
 
@@ -113,7 +112,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -122,7 +121,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the code population.
      */
-    public function getCodePopulation(): ?string{
+    public function getCodePopulation(): ?string {
         return $this->codePopulation;
     }
 
@@ -131,7 +130,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the code regroupement.
      */
-    public function getCodeRegroupement(): ?string{
+    public function getCodeRegroupement(): ?string {
         return $this->codeRegroupement;
     }
 
@@ -140,7 +139,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the ref contrat.
      */
-    public function getRefContrat(): ?string{
+    public function getRefContrat(): ?string {
         return $this->refContrat;
     }
 
@@ -149,7 +148,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return string|null Returns the type cotis.
      */
-    public function getTypeCotis(): ?string{
+    public function getTypeCotis(): ?string {
         return $this->typeCotis;
     }
 
@@ -158,7 +157,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return float|null Returns the valeur cotis.
      */
-    public function getValeurCotis(): ?float{
+    public function getValeurCotis(): ?float {
         return $this->valeurCotis;
     }
 
@@ -167,7 +166,7 @@ class DadsuPrevoyanceRegroupement {
      *
      * @return float|null Returns the valeur cotis initiale.
      */
-    public function getValeurCotisInitiale(): ?float{
+    public function getValeurCotisInitiale(): ?float {
         return $this->valeurCotisInitiale;
     }
 

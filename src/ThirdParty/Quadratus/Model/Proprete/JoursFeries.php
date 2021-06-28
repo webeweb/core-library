@@ -42,7 +42,6 @@ class JoursFeries {
      */
     private $numeroJf;
 
-
     /**
      * Constructor.
      */
@@ -55,7 +54,7 @@ class JoursFeries {
      *
      * @return string|null Returns the code pays.
      */
-    public function getCodePays(): ?string{
+    public function getCodePays(): ?string {
         return $this->codePays;
     }
 
@@ -64,7 +63,7 @@ class JoursFeries {
      *
      * @return DateTime|null Returns the jour.
      */
-    public function getJour(): ?DateTime{
+    public function getJour(): ?DateTime {
         return $this->jour;
     }
 
@@ -73,7 +72,7 @@ class JoursFeries {
      *
      * @return int|null Returns the numero jf.
      */
-    public function getNumeroJf(): ?int{
+    public function getNumeroJf(): ?int {
         return $this->numeroJf;
     }
 

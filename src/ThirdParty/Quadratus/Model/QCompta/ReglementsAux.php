@@ -175,7 +175,6 @@ class ReglementsAux {
      */
     private $typeReglement;
 
-
     /**
      * Constructor.
      */
@@ -188,7 +187,7 @@ class ReglementsAux {
      *
      * @return bool|null Returns the actif.
      */
-    public function getActif(): ?bool{
+    public function getActif(): ?bool {
         return $this->actif;
     }
 
@@ -197,7 +196,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the autre dom banque.
      */
-    public function getAutreDomBanque(): ?string{
+    public function getAutreDomBanque(): ?string {
         return $this->autreDomBanque;
     }
 
@@ -206,7 +205,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the autre rib.
      */
-    public function getAutreRib(): ?string{
+    public function getAutreRib(): ?string {
         return $this->autreRib;
     }
 
@@ -215,7 +214,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the code journal banque.
      */
-    public function getCodeJournalBanque(): ?string{
+    public function getCodeJournalBanque(): ?string {
         return $this->codeJournalBanque;
     }
 
@@ -224,7 +223,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the code mode paiement.
      */
-    public function getCodeModePaiement(): ?string{
+    public function getCodeModePaiement(): ?string {
         return $this->codeModePaiement;
     }
 
@@ -233,7 +232,7 @@ class ReglementsAux {
      *
      * @return bool|null Returns the dans1 groupe.
      */
-    public function getDans1Groupe(): ?bool{
+    public function getDans1Groupe(): ?bool {
         return $this->dans1Groupe;
     }
 
@@ -242,7 +241,7 @@ class ReglementsAux {
      *
      * @return DateTime|null Returns the date echeance.
      */
-    public function getDateEcheance(): ?DateTime{
+    public function getDateEcheance(): ?DateTime {
         return $this->dateEcheance;
     }
 
@@ -251,7 +250,7 @@ class ReglementsAux {
      *
      * @return float|null Returns the montant groupe.
      */
-    public function getMontantGroupe(): ?float{
+    public function getMontantGroupe(): ?float {
         return $this->montantGroupe;
     }
 
@@ -260,7 +259,7 @@ class ReglementsAux {
      *
      * @return float|null Returns the montant saisi credit.
      */
-    public function getMontantSaisiCredit(): ?float{
+    public function getMontantSaisiCredit(): ?float {
         return $this->montantSaisiCredit;
     }
 
@@ -269,7 +268,7 @@ class ReglementsAux {
      *
      * @return float|null Returns the montant saisi debit.
      */
-    public function getMontantSaisiDebit(): ?float{
+    public function getMontantSaisiDebit(): ?float {
         return $this->montantSaisiDebit;
     }
 
@@ -278,7 +277,7 @@ class ReglementsAux {
      *
      * @return float|null Returns the montant tenu credit.
      */
-    public function getMontantTenuCredit(): ?float{
+    public function getMontantTenuCredit(): ?float {
         return $this->montantTenuCredit;
     }
 
@@ -287,7 +286,7 @@ class ReglementsAux {
      *
      * @return float|null Returns the montant tenu debit.
      */
-    public function getMontantTenuDebit(): ?float{
+    public function getMontantTenuDebit(): ?float {
         return $this->montantTenuDebit;
     }
 
@@ -296,7 +295,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the no rib.
      */
-    public function getNoRib(): ?string{
+    public function getNoRib(): ?string {
         return $this->noRib;
     }
 
@@ -305,7 +304,7 @@ class ReglementsAux {
      *
      * @return int|null Returns the num groupe.
      */
-    public function getNumGroupe(): ?int{
+    public function getNumGroupe(): ?int {
         return $this->numGroupe;
     }
 
@@ -314,7 +313,7 @@ class ReglementsAux {
      *
      * @return int|null Returns the num lot lcr.
      */
-    public function getNumLotLcr(): ?int{
+    public function getNumLotLcr(): ?int {
         return $this->numLotLcr;
     }
 
@@ -323,7 +322,7 @@ class ReglementsAux {
      *
      * @return int|null Returns the num lot lettre p.
      */
-    public function getNumLotLettreP(): ?int{
+    public function getNumLotLettreP(): ?int {
         return $this->numLotLettreP;
     }
 
@@ -332,7 +331,7 @@ class ReglementsAux {
      *
      * @return int|null Returns the num lot traite.
      */
-    public function getNumLotTraite(): ?int{
+    public function getNumLotTraite(): ?int {
         return $this->numLotTraite;
     }
 
@@ -341,7 +340,7 @@ class ReglementsAux {
      *
      * @return int|null Returns the num uniq.
      */
-    public function getNumUniq(): ?int{
+    public function getNumUniq(): ?int {
         return $this->numUniq;
     }
 
@@ -350,7 +349,7 @@ class ReglementsAux {
      *
      * @return int|null Returns the num uniq ecriture.
      */
-    public function getNumUniqEcriture(): ?int{
+    public function getNumUniqEcriture(): ?int {
         return $this->numUniqEcriture;
     }
 
@@ -359,7 +358,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the numero compte.
      */
-    public function getNumeroCompte(): ?string{
+    public function getNumeroCompte(): ?string {
         return $this->numeroCompte;
     }
 
@@ -368,7 +367,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the reference tire.
      */
-    public function getReferenceTire(): ?string{
+    public function getReferenceTire(): ?string {
         return $this->referenceTire;
     }
 
@@ -377,7 +376,7 @@ class ReglementsAux {
      *
      * @return string|null Returns the type reglement.
      */
-    public function getTypeReglement(): ?string{
+    public function getTypeReglement(): ?string {
         return $this->typeReglement;
     }
 

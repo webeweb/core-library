@@ -70,7 +70,6 @@ class AbsencesCpPrevRempl {
      */
     private $typeRempl;
 
-
     /**
      * Constructor.
      */
@@ -83,7 +82,7 @@ class AbsencesCpPrevRempl {
      *
      * @return string|null Returns the code employe.
      */
-    public function getCodeEmploye(): ?string{
+    public function getCodeEmploye(): ?string {
         return $this->codeEmploye;
     }
 
@@ -92,7 +91,7 @@ class AbsencesCpPrevRempl {
      *
      * @return string|null Returns the code remplacant.
      */
-    public function getCodeRemplacant(): ?string{
+    public function getCodeRemplacant(): ?string {
         return $this->codeRemplacant;
     }
 
@@ -101,7 +100,7 @@ class AbsencesCpPrevRempl {
      *
      * @return DateTime|null Returns the date debut cp.
      */
-    public function getDateDebutCp(): ?DateTime{
+    public function getDateDebutCp(): ?DateTime {
         return $this->dateDebutCp;
     }
 
@@ -110,7 +109,7 @@ class AbsencesCpPrevRempl {
      *
      * @return DateTime|null Returns the date debut rempl.
      */
-    public function getDateDebutRempl(): ?DateTime{
+    public function getDateDebutRempl(): ?DateTime {
         return $this->dateDebutRempl;
     }
 
@@ -119,7 +118,7 @@ class AbsencesCpPrevRempl {
      *
      * @return DateTime|null Returns the date fin rempl.
      */
-    public function getDateFinRempl(): ?DateTime{
+    public function getDateFinRempl(): ?DateTime {
         return $this->dateFinRempl;
     }
 
@@ -128,7 +127,7 @@ class AbsencesCpPrevRempl {
      *
      * @return string|null Returns the indice.
      */
-    public function getIndice(): ?string{
+    public function getIndice(): ?string {
         return $this->indice;
     }
 
@@ -137,7 +136,7 @@ class AbsencesCpPrevRempl {
      *
      * @return string|null Returns the type rempl.
      */
-    public function getTypeRempl(): ?string{
+    public function getTypeRempl(): ?string {
         return $this->typeRempl;
     }
 

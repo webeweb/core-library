@@ -98,7 +98,6 @@ class Dadsubtp {
      */
     private $typeArret;
 
-
     /**
      * Constructor.
      */
@@ -111,7 +110,7 @@ class Dadsubtp {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -120,7 +119,7 @@ class Dadsubtp {
      *
      * @return string|null Returns the code organisme.
      */
-    public function getCodeOrganisme(): ?string{
+    public function getCodeOrganisme(): ?string {
         return $this->codeOrganisme;
     }
 
@@ -129,7 +128,7 @@ class Dadsubtp {
      *
      * @return string|null Returns the code temps arret.
      */
-    public function getCodeTempsArret(): ?string{
+    public function getCodeTempsArret(): ?string {
         return $this->codeTempsArret;
     }
 
@@ -138,7 +137,7 @@ class Dadsubtp {
      *
      * @return DateTime|null Returns the debut periode.
      */
-    public function getDebutPeriode(): ?DateTime{
+    public function getDebutPeriode(): ?DateTime {
         return $this->debutPeriode;
     }
 
@@ -147,7 +146,7 @@ class Dadsubtp {
      *
      * @return DateTime|null Returns the fin periode.
      */
-    public function getFinPeriode(): ?DateTime{
+    public function getFinPeriode(): ?DateTime {
         return $this->finPeriode;
     }
 
@@ -156,7 +155,7 @@ class Dadsubtp {
      *
      * @return float|null Returns the montant employeur.
      */
-    public function getMontantEmployeur(): ?float{
+    public function getMontantEmployeur(): ?float {
         return $this->montantEmployeur;
     }
 
@@ -165,7 +164,7 @@ class Dadsubtp {
      *
      * @return string|null Returns the numero.
      */
-    public function getNumero(): ?string{
+    public function getNumero(): ?string {
         return $this->numero;
     }
 
@@ -174,7 +173,7 @@ class Dadsubtp {
      *
      * @return int|null Returns the numero ordre.
      */
-    public function getNumeroOrdre(): ?int{
+    public function getNumeroOrdre(): ?int {
         return $this->numeroOrdre;
     }
 
@@ -183,7 +182,7 @@ class Dadsubtp {
      *
      * @return string|null Returns the qualif unite temps.
      */
-    public function getQualifUniteTemps(): ?string{
+    public function getQualifUniteTemps(): ?string {
         return $this->qualifUniteTemps;
     }
 
@@ -192,7 +191,7 @@ class Dadsubtp {
      *
      * @return float|null Returns the temps arret.
      */
-    public function getTempsArret(): ?float{
+    public function getTempsArret(): ?float {
         return $this->tempsArret;
     }
 
@@ -201,7 +200,7 @@ class Dadsubtp {
      *
      * @return string|null Returns the type arret.
      */
-    public function getTypeArret(): ?string{
+    public function getTypeArret(): ?string {
         return $this->typeArret;
     }
 

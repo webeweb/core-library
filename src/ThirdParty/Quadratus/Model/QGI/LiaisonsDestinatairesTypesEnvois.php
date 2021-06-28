@@ -33,7 +33,6 @@ class LiaisonsDestinatairesTypesEnvois {
      */
     private $codeTypeEnvoi;
 
-
     /**
      * Constructor.
      */
@@ -46,7 +45,7 @@ class LiaisonsDestinatairesTypesEnvois {
      *
      * @return string|null Returns the code destinataire.
      */
-    public function getCodeDestinataire(): ?string{
+    public function getCodeDestinataire(): ?string {
         return $this->codeDestinataire;
     }
 
@@ -55,7 +54,7 @@ class LiaisonsDestinatairesTypesEnvois {
      *
      * @return string|null Returns the code type envoi.
      */
-    public function getCodeTypeEnvoi(): ?string{
+    public function getCodeTypeEnvoi(): ?string {
         return $this->codeTypeEnvoi;
     }
 

@@ -36,20 +36,6 @@ class LignesMsaEmploye {
     private $agircEvo;
 
     /**
-     * Cddcdi.
-     *
-     * @var string|null
-     */
-    private $cddcdi;
-
-    /**
-     * Cddcdi evo.
-     *
-     * @var string|null
-     */
-    private $cddcdiEvo;
-
-    /**
      * Cadre.
      *
      * @var string|null
@@ -62,6 +48,20 @@ class LignesMsaEmploye {
      * @var string|null
      */
     private $cadreEvo;
+
+    /**
+     * Cddcdi.
+     *
+     * @var string|null
+     */
+    private $cddcdi;
+
+    /**
+     * Cddcdi evo.
+     *
+     * @var string|null
+     */
+    private $cddcdiEvo;
 
     /**
      * Code college prud.
@@ -211,11 +211,25 @@ class LignesMsaEmploye {
     private $evoAgirc;
 
     /**
+     * Evo cadre.
+     *
+     * @var bool|null
+     */
+    private $evoCadre;
+
+    /**
      * Evo cddcdi.
      *
      * @var bool|null
      */
     private $evoCddcdi;
+
+    /**
+     * Evo contrat.
+     *
+     * @var bool|null
+     */
+    private $evoContrat;
 
     /**
      * Evo crcca36.
@@ -230,20 +244,6 @@ class LignesMsaEmploye {
      * @var bool|null
      */
     private $evoCrcca4Bis;
-
-    /**
-     * Evo cadre.
-     *
-     * @var bool|null
-     */
-    private $evoCadre;
-
-    /**
-     * Evo contrat.
-     *
-     * @var bool|null
-     */
-    private $evoContrat;
 
     /**
      * Evo emploi.
@@ -491,13 +491,6 @@ class LignesMsaEmploye {
     private $montantSmicRetenu3;
 
     /**
-     * Nir.
-     *
-     * @var string|null
-     */
-    private $nir;
-
-    /**
      * Nb heures1.
      *
      * @var float|null
@@ -538,6 +531,13 @@ class LignesMsaEmploye {
      * @var int|null
      */
     private $nbJours3;
+
+    /**
+     * Nir.
+     *
+     * @var string|null
+     */
+    private $nir;
 
     /**
      * Nom employe.
@@ -917,7 +917,6 @@ class LignesMsaEmploye {
      */
     private $typeTravail;
 
-
     /**
      * Constructor.
      */
@@ -930,7 +929,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the agirc.
      */
-    public function getAgirc(): ?string{
+    public function getAgirc(): ?string {
         return $this->agirc;
     }
 
@@ -939,26 +938,8 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the agirc evo.
      */
-    public function getAgircEvo(): ?string{
+    public function getAgircEvo(): ?string {
         return $this->agircEvo;
-    }
-
-    /**
-     * Get the cddcdi.
-     *
-     * @return string|null Returns the cddcdi.
-     */
-    public function getCddcdi(): ?string{
-        return $this->cddcdi;
-    }
-
-    /**
-     * Get the cddcdi evo.
-     *
-     * @return string|null Returns the cddcdi evo.
-     */
-    public function getCddcdiEvo(): ?string{
-        return $this->cddcdiEvo;
     }
 
     /**
@@ -966,7 +947,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the cadre.
      */
-    public function getCadre(): ?string{
+    public function getCadre(): ?string {
         return $this->cadre;
     }
 
@@ -975,8 +956,26 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the cadre evo.
      */
-    public function getCadreEvo(): ?string{
+    public function getCadreEvo(): ?string {
         return $this->cadreEvo;
+    }
+
+    /**
+     * Get the cddcdi.
+     *
+     * @return string|null Returns the cddcdi.
+     */
+    public function getCddcdi(): ?string {
+        return $this->cddcdi;
+    }
+
+    /**
+     * Get the cddcdi evo.
+     *
+     * @return string|null Returns the cddcdi evo.
+     */
+    public function getCddcdiEvo(): ?string {
+        return $this->cddcdiEvo;
     }
 
     /**
@@ -984,7 +983,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the code college prud.
      */
-    public function getCodeCollegePrud(): ?string{
+    public function getCodeCollegePrud(): ?string {
         return $this->codeCollegePrud;
     }
 
@@ -993,7 +992,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the code college prud prec.
      */
-    public function getCodeCollegePrudPrec(): ?string{
+    public function getCodeCollegePrudPrec(): ?string {
         return $this->codeCollegePrudPrec;
     }
 
@@ -1002,7 +1001,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the code etablissement.
      */
-    public function getCodeEtablissement(): ?int{
+    public function getCodeEtablissement(): ?int {
         return $this->codeEtablissement;
     }
 
@@ -1011,7 +1010,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the code section prud.
      */
-    public function getCodeSectionPrud(): ?string{
+    public function getCodeSectionPrud(): ?string {
         return $this->codeSectionPrud;
     }
 
@@ -1020,7 +1019,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the code section prud prec.
      */
-    public function getCodeSectionPrudPrec(): ?string{
+    public function getCodeSectionPrudPrec(): ?string {
         return $this->codeSectionPrudPrec;
     }
 
@@ -1029,7 +1028,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the code unite.
      */
-    public function getCodeUnite(): ?string{
+    public function getCodeUnite(): ?string {
         return $this->codeUnite;
     }
 
@@ -1038,7 +1037,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the coeff emploi.
      */
-    public function getCoeffEmploi(): ?string{
+    public function getCoeffEmploi(): ?string {
         return $this->coeffEmploi;
     }
 
@@ -1047,7 +1046,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the coeff emploi evo.
      */
-    public function getCoeffEmploiEvo(): ?string{
+    public function getCoeffEmploiEvo(): ?string {
         return $this->coeffEmploiEvo;
     }
 
@@ -1056,7 +1055,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the commentaires.
      */
-    public function getCommentaires(): ?string{
+    public function getCommentaires(): ?string {
         return $this->commentaires;
     }
 
@@ -1065,7 +1064,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the contrat.
      */
-    public function getContrat(): ?string{
+    public function getContrat(): ?string {
         return $this->contrat;
     }
 
@@ -1074,7 +1073,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the contrat evo.
      */
-    public function getContratEvo(): ?string{
+    public function getContratEvo(): ?string {
         return $this->contratEvo;
     }
 
@@ -1083,7 +1082,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the date entree.
      */
-    public function getDateEntree(): ?DateTime{
+    public function getDateEntree(): ?DateTime {
         return $this->dateEntree;
     }
 
@@ -1092,7 +1091,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the date evo.
      */
-    public function getDateEvo(): ?DateTime{
+    public function getDateEvo(): ?DateTime {
         return $this->dateEvo;
     }
 
@@ -1101,7 +1100,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the date sortie.
      */
-    public function getDateSortie(): ?DateTime{
+    public function getDateSortie(): ?DateTime {
         return $this->dateSortie;
     }
 
@@ -1110,7 +1109,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the dt deb abs.
      */
-    public function getDtDebAbs(): ?DateTime{
+    public function getDtDebAbs(): ?DateTime {
         return $this->dtDebAbs;
     }
 
@@ -1119,7 +1118,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the dt fin abs.
      */
-    public function getDtFinAbs(): ?DateTime{
+    public function getDtFinAbs(): ?DateTime {
         return $this->dtFinAbs;
     }
 
@@ -1128,7 +1127,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the duree trav.
      */
-    public function getDureeTrav(): ?float{
+    public function getDureeTrav(): ?float {
         return $this->dureeTrav;
     }
 
@@ -1137,7 +1136,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the duree trav prec.
      */
-    public function getDureeTravPrec(): ?float{
+    public function getDureeTravPrec(): ?float {
         return $this->dureeTravPrec;
     }
 
@@ -1146,7 +1145,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the emploi.
      */
-    public function getEmploi(): ?string{
+    public function getEmploi(): ?string {
         return $this->emploi;
     }
 
@@ -1155,7 +1154,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the emploi evo.
      */
-    public function getEmploiEvo(): ?string{
+    public function getEmploiEvo(): ?string {
         return $this->emploiEvo;
     }
 
@@ -1164,8 +1163,17 @@ class LignesMsaEmploye {
      *
      * @return bool|null Returns the evo agirc.
      */
-    public function getEvoAgirc(): ?bool{
+    public function getEvoAgirc(): ?bool {
         return $this->evoAgirc;
+    }
+
+    /**
+     * Get the evo cadre.
+     *
+     * @return bool|null Returns the evo cadre.
+     */
+    public function getEvoCadre(): ?bool {
+        return $this->evoCadre;
     }
 
     /**
@@ -1173,8 +1181,17 @@ class LignesMsaEmploye {
      *
      * @return bool|null Returns the evo cddcdi.
      */
-    public function getEvoCddcdi(): ?bool{
+    public function getEvoCddcdi(): ?bool {
         return $this->evoCddcdi;
+    }
+
+    /**
+     * Get the evo contrat.
+     *
+     * @return bool|null Returns the evo contrat.
+     */
+    public function getEvoContrat(): ?bool {
+        return $this->evoContrat;
     }
 
     /**
@@ -1182,7 +1199,7 @@ class LignesMsaEmploye {
      *
      * @return bool|null Returns the evo crcca36.
      */
-    public function getEvoCrcca36(): ?bool{
+    public function getEvoCrcca36(): ?bool {
         return $this->evoCrcca36;
     }
 
@@ -1191,26 +1208,8 @@ class LignesMsaEmploye {
      *
      * @return bool|null Returns the evo crcca4 bis.
      */
-    public function getEvoCrcca4Bis(): ?bool{
+    public function getEvoCrcca4Bis(): ?bool {
         return $this->evoCrcca4Bis;
-    }
-
-    /**
-     * Get the evo cadre.
-     *
-     * @return bool|null Returns the evo cadre.
-     */
-    public function getEvoCadre(): ?bool{
-        return $this->evoCadre;
-    }
-
-    /**
-     * Get the evo contrat.
-     *
-     * @return bool|null Returns the evo contrat.
-     */
-    public function getEvoContrat(): ?bool{
-        return $this->evoContrat;
     }
 
     /**
@@ -1218,7 +1217,7 @@ class LignesMsaEmploye {
      *
      * @return bool|null Returns the evo emploi.
      */
-    public function getEvoEmploi(): ?bool{
+    public function getEvoEmploi(): ?bool {
         return $this->evoEmploi;
     }
 
@@ -1227,7 +1226,7 @@ class LignesMsaEmploye {
      *
      * @return bool|null Returns the evo fisc.
      */
-    public function getEvoFisc(): ?bool{
+    public function getEvoFisc(): ?bool {
         return $this->evoFisc;
     }
 
@@ -1236,7 +1235,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the fisc.
      */
-    public function getFisc(): ?string{
+    public function getFisc(): ?string {
         return $this->fisc;
     }
 
@@ -1245,7 +1244,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the fisc evo.
      */
-    public function getFiscEvo(): ?string{
+    public function getFiscEvo(): ?string {
         return $this->fiscEvo;
     }
 
@@ -1254,7 +1253,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the h equivalence.
      */
-    public function getHEquivalence(): ?string{
+    public function getHEquivalence(): ?string {
         return $this->hEquivalence;
     }
 
@@ -1263,7 +1262,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the h equivalence prec.
      */
-    public function getHEquivalencePrec(): ?string{
+    public function getHEquivalencePrec(): ?string {
         return $this->hEquivalencePrec;
     }
 
@@ -1272,7 +1271,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the lieu travail.
      */
-    public function getLieuTravail(): ?string{
+    public function getLieuTravail(): ?string {
         return $this->lieuTravail;
     }
 
@@ -1281,7 +1280,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the lieu travail evo.
      */
-    public function getLieuTravailEvo(): ?string{
+    public function getLieuTravailEvo(): ?string {
         return $this->lieuTravailEvo;
     }
 
@@ -1290,7 +1289,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant11.
      */
-    public function getMontant11(): ?int{
+    public function getMontant11(): ?int {
         return $this->montant11;
     }
 
@@ -1299,7 +1298,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant12.
      */
-    public function getMontant12(): ?int{
+    public function getMontant12(): ?int {
         return $this->montant12;
     }
 
@@ -1308,7 +1307,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant13.
      */
-    public function getMontant13(): ?int{
+    public function getMontant13(): ?int {
         return $this->montant13;
     }
 
@@ -1317,7 +1316,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant14.
      */
-    public function getMontant14(): ?int{
+    public function getMontant14(): ?int {
         return $this->montant14;
     }
 
@@ -1326,7 +1325,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant21.
      */
-    public function getMontant21(): ?int{
+    public function getMontant21(): ?int {
         return $this->montant21;
     }
 
@@ -1335,7 +1334,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant22.
      */
-    public function getMontant22(): ?int{
+    public function getMontant22(): ?int {
         return $this->montant22;
     }
 
@@ -1344,7 +1343,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant23.
      */
-    public function getMontant23(): ?int{
+    public function getMontant23(): ?int {
         return $this->montant23;
     }
 
@@ -1353,7 +1352,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant24.
      */
-    public function getMontant24(): ?int{
+    public function getMontant24(): ?int {
         return $this->montant24;
     }
 
@@ -1362,7 +1361,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant31.
      */
-    public function getMontant31(): ?int{
+    public function getMontant31(): ?int {
         return $this->montant31;
     }
 
@@ -1371,7 +1370,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant32.
      */
-    public function getMontant32(): ?int{
+    public function getMontant32(): ?int {
         return $this->montant32;
     }
 
@@ -1380,7 +1379,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant33.
      */
-    public function getMontant33(): ?int{
+    public function getMontant33(): ?int {
         return $this->montant33;
     }
 
@@ -1389,7 +1388,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant34.
      */
-    public function getMontant34(): ?int{
+    public function getMontant34(): ?int {
         return $this->montant34;
     }
 
@@ -1398,7 +1397,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre11.
      */
-    public function getMontantAutre11(): ?int{
+    public function getMontantAutre11(): ?int {
         return $this->montantAutre11;
     }
 
@@ -1407,7 +1406,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre12.
      */
-    public function getMontantAutre12(): ?int{
+    public function getMontantAutre12(): ?int {
         return $this->montantAutre12;
     }
 
@@ -1416,7 +1415,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre13.
      */
-    public function getMontantAutre13(): ?int{
+    public function getMontantAutre13(): ?int {
         return $this->montantAutre13;
     }
 
@@ -1425,7 +1424,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre14.
      */
-    public function getMontantAutre14(): ?int{
+    public function getMontantAutre14(): ?int {
         return $this->montantAutre14;
     }
 
@@ -1434,7 +1433,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre21.
      */
-    public function getMontantAutre21(): ?int{
+    public function getMontantAutre21(): ?int {
         return $this->montantAutre21;
     }
 
@@ -1443,7 +1442,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre22.
      */
-    public function getMontantAutre22(): ?int{
+    public function getMontantAutre22(): ?int {
         return $this->montantAutre22;
     }
 
@@ -1452,7 +1451,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre23.
      */
-    public function getMontantAutre23(): ?int{
+    public function getMontantAutre23(): ?int {
         return $this->montantAutre23;
     }
 
@@ -1461,7 +1460,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre24.
      */
-    public function getMontantAutre24(): ?int{
+    public function getMontantAutre24(): ?int {
         return $this->montantAutre24;
     }
 
@@ -1470,7 +1469,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre31.
      */
-    public function getMontantAutre31(): ?int{
+    public function getMontantAutre31(): ?int {
         return $this->montantAutre31;
     }
 
@@ -1479,7 +1478,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre32.
      */
-    public function getMontantAutre32(): ?int{
+    public function getMontantAutre32(): ?int {
         return $this->montantAutre32;
     }
 
@@ -1488,7 +1487,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre33.
      */
-    public function getMontantAutre33(): ?int{
+    public function getMontantAutre33(): ?int {
         return $this->montantAutre33;
     }
 
@@ -1497,7 +1496,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the montant autre34.
      */
-    public function getMontantAutre34(): ?int{
+    public function getMontantAutre34(): ?int {
         return $this->montantAutre34;
     }
 
@@ -1506,7 +1505,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the montant smic retenu1.
      */
-    public function getMontantSmicRetenu1(): ?float{
+    public function getMontantSmicRetenu1(): ?float {
         return $this->montantSmicRetenu1;
     }
 
@@ -1515,7 +1514,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the montant smic retenu2.
      */
-    public function getMontantSmicRetenu2(): ?float{
+    public function getMontantSmicRetenu2(): ?float {
         return $this->montantSmicRetenu2;
     }
 
@@ -1524,17 +1523,8 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the montant smic retenu3.
      */
-    public function getMontantSmicRetenu3(): ?float{
+    public function getMontantSmicRetenu3(): ?float {
         return $this->montantSmicRetenu3;
-    }
-
-    /**
-     * Get the nir.
-     *
-     * @return string|null Returns the nir.
-     */
-    public function getNir(): ?string{
-        return $this->nir;
     }
 
     /**
@@ -1542,7 +1532,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the nb heures1.
      */
-    public function getNbHeures1(): ?float{
+    public function getNbHeures1(): ?float {
         return $this->nbHeures1;
     }
 
@@ -1551,7 +1541,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the nb heures2.
      */
-    public function getNbHeures2(): ?float{
+    public function getNbHeures2(): ?float {
         return $this->nbHeures2;
     }
 
@@ -1560,7 +1550,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the nb heures3.
      */
-    public function getNbHeures3(): ?float{
+    public function getNbHeures3(): ?float {
         return $this->nbHeures3;
     }
 
@@ -1569,7 +1559,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the nb jours1.
      */
-    public function getNbJours1(): ?int{
+    public function getNbJours1(): ?int {
         return $this->nbJours1;
     }
 
@@ -1578,7 +1568,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the nb jours2.
      */
-    public function getNbJours2(): ?int{
+    public function getNbJours2(): ?int {
         return $this->nbJours2;
     }
 
@@ -1587,8 +1577,17 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the nb jours3.
      */
-    public function getNbJours3(): ?int{
+    public function getNbJours3(): ?int {
         return $this->nbJours3;
+    }
+
+    /**
+     * Get the nir.
+     *
+     * @return string|null Returns the nir.
+     */
+    public function getNir(): ?string {
+        return $this->nir;
     }
 
     /**
@@ -1596,7 +1595,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the nom employe.
      */
-    public function getNomEmploye(): ?string{
+    public function getNomEmploye(): ?string {
         return $this->nomEmploye;
     }
 
@@ -1605,7 +1604,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the numero employe.
      */
-    public function getNumeroEmploye(): ?string{
+    public function getNumeroEmploye(): ?string {
         return $this->numeroEmploye;
     }
 
@@ -1614,7 +1613,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the numero employe2.
      */
-    public function getNumeroEmploye2(): ?string{
+    public function getNumeroEmploye2(): ?string {
         return $this->numeroEmploye2;
     }
 
@@ -1623,7 +1622,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the p cent partiel.
      */
-    public function getPCentPartiel(): ?int{
+    public function getPCentPartiel(): ?int {
         return $this->pCentPartiel;
     }
 
@@ -1632,7 +1631,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the per deb1.
      */
-    public function getPerDeb1(): ?DateTime{
+    public function getPerDeb1(): ?DateTime {
         return $this->perDeb1;
     }
 
@@ -1641,7 +1640,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the per deb2.
      */
-    public function getPerDeb2(): ?DateTime{
+    public function getPerDeb2(): ?DateTime {
         return $this->perDeb2;
     }
 
@@ -1650,7 +1649,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the per deb3.
      */
-    public function getPerDeb3(): ?DateTime{
+    public function getPerDeb3(): ?DateTime {
         return $this->perDeb3;
     }
 
@@ -1659,7 +1658,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the per fin1.
      */
-    public function getPerFin1(): ?DateTime{
+    public function getPerFin1(): ?DateTime {
         return $this->perFin1;
     }
 
@@ -1668,7 +1667,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the per fin2.
      */
-    public function getPerFin2(): ?DateTime{
+    public function getPerFin2(): ?DateTime {
         return $this->perFin2;
     }
 
@@ -1677,7 +1676,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the per fin3.
      */
-    public function getPerFin3(): ?DateTime{
+    public function getPerFin3(): ?DateTime {
         return $this->perFin3;
     }
 
@@ -1686,7 +1685,7 @@ class LignesMsaEmploye {
      *
      * @return DateTime|null Returns the periode decla.
      */
-    public function getPeriodeDecla(): ?DateTime{
+    public function getPeriodeDecla(): ?DateTime {
         return $this->periodeDecla;
     }
 
@@ -1695,7 +1694,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the periodicite.
      */
-    public function getPeriodicite(): ?string{
+    public function getPeriodicite(): ?string {
         return $this->periodicite;
     }
 
@@ -1704,7 +1703,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the periodicite prec.
      */
-    public function getPeriodicitePrec(): ?string{
+    public function getPeriodicitePrec(): ?string {
         return $this->periodicitePrec;
     }
 
@@ -1713,7 +1712,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the prenom employe.
      */
-    public function getPrenomEmploye(): ?string{
+    public function getPrenomEmploye(): ?string {
         return $this->prenomEmploye;
     }
 
@@ -1722,7 +1721,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the saisonnier.
      */
-    public function getSaisonnier(): ?string{
+    public function getSaisonnier(): ?string {
         return $this->saisonnier;
     }
 
@@ -1731,7 +1730,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the saisonnier prec.
      */
-    public function getSaisonnierPrec(): ?string{
+    public function getSaisonnierPrec(): ?string {
         return $this->saisonnierPrec;
     }
 
@@ -1740,7 +1739,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the service.
      */
-    public function getService(): ?string{
+    public function getService(): ?string {
         return $this->service;
     }
 
@@ -1749,7 +1748,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the service evo.
      */
-    public function getServiceEvo(): ?string{
+    public function getServiceEvo(): ?string {
         return $this->serviceEvo;
     }
 
@@ -1758,7 +1757,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the suspension zrrzru1.
      */
-    public function getSuspensionZrrzru1(): ?string{
+    public function getSuspensionZrrzru1(): ?string {
         return $this->suspensionZrrzru1;
     }
 
@@ -1767,7 +1766,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the suspension zrrzru2.
      */
-    public function getSuspensionZrrzru2(): ?string{
+    public function getSuspensionZrrzru2(): ?string {
         return $this->suspensionZrrzru2;
     }
 
@@ -1776,7 +1775,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the suspension zrrzru3.
      */
-    public function getSuspensionZrrzru3(): ?string{
+    public function getSuspensionZrrzru3(): ?string {
         return $this->suspensionZrrzru3;
     }
 
@@ -1785,7 +1784,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the taux smic fillon1.
      */
-    public function getTauxSmicFillon1(): ?float{
+    public function getTauxSmicFillon1(): ?float {
         return $this->tauxSmicFillon1;
     }
 
@@ -1794,7 +1793,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the taux smic fillon2.
      */
-    public function getTauxSmicFillon2(): ?float{
+    public function getTauxSmicFillon2(): ?float {
         return $this->tauxSmicFillon2;
     }
 
@@ -1803,7 +1802,7 @@ class LignesMsaEmploye {
      *
      * @return float|null Returns the taux smic fillon3.
      */
-    public function getTauxSmicFillon3(): ?float{
+    public function getTauxSmicFillon3(): ?float {
         return $this->tauxSmicFillon3;
     }
 
@@ -1812,7 +1811,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the temps partiel.
      */
-    public function getTempsPartiel(): ?string{
+    public function getTempsPartiel(): ?string {
         return $this->tempsPartiel;
     }
 
@@ -1821,7 +1820,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the temps partiel evo.
      */
-    public function getTempsPartielEvo(): ?string{
+    public function getTempsPartielEvo(): ?string {
         return $this->tempsPartielEvo;
     }
 
@@ -1830,7 +1829,7 @@ class LignesMsaEmploye {
      *
      * @return int|null Returns the total general.
      */
-    public function getTotalGeneral(): ?int{
+    public function getTotalGeneral(): ?int {
         return $this->totalGeneral;
     }
 
@@ -1839,7 +1838,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type absence.
      */
-    public function getTypeAbsence(): ?string{
+    public function getTypeAbsence(): ?string {
         return $this->typeAbsence;
     }
 
@@ -1848,7 +1847,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun11.
      */
-    public function getTypeAutreRemun11(): ?string{
+    public function getTypeAutreRemun11(): ?string {
         return $this->typeAutreRemun11;
     }
 
@@ -1857,7 +1856,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun12.
      */
-    public function getTypeAutreRemun12(): ?string{
+    public function getTypeAutreRemun12(): ?string {
         return $this->typeAutreRemun12;
     }
 
@@ -1866,7 +1865,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun13.
      */
-    public function getTypeAutreRemun13(): ?string{
+    public function getTypeAutreRemun13(): ?string {
         return $this->typeAutreRemun13;
     }
 
@@ -1875,7 +1874,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun14.
      */
-    public function getTypeAutreRemun14(): ?string{
+    public function getTypeAutreRemun14(): ?string {
         return $this->typeAutreRemun14;
     }
 
@@ -1884,7 +1883,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun21.
      */
-    public function getTypeAutreRemun21(): ?string{
+    public function getTypeAutreRemun21(): ?string {
         return $this->typeAutreRemun21;
     }
 
@@ -1893,7 +1892,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun22.
      */
-    public function getTypeAutreRemun22(): ?string{
+    public function getTypeAutreRemun22(): ?string {
         return $this->typeAutreRemun22;
     }
 
@@ -1902,7 +1901,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun23.
      */
-    public function getTypeAutreRemun23(): ?string{
+    public function getTypeAutreRemun23(): ?string {
         return $this->typeAutreRemun23;
     }
 
@@ -1911,7 +1910,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun24.
      */
-    public function getTypeAutreRemun24(): ?string{
+    public function getTypeAutreRemun24(): ?string {
         return $this->typeAutreRemun24;
     }
 
@@ -1920,7 +1919,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun31.
      */
-    public function getTypeAutreRemun31(): ?string{
+    public function getTypeAutreRemun31(): ?string {
         return $this->typeAutreRemun31;
     }
 
@@ -1929,7 +1928,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun32.
      */
-    public function getTypeAutreRemun32(): ?string{
+    public function getTypeAutreRemun32(): ?string {
         return $this->typeAutreRemun32;
     }
 
@@ -1938,7 +1937,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun33.
      */
-    public function getTypeAutreRemun33(): ?string{
+    public function getTypeAutreRemun33(): ?string {
         return $this->typeAutreRemun33;
     }
 
@@ -1947,7 +1946,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type autre remun34.
      */
-    public function getTypeAutreRemun34(): ?string{
+    public function getTypeAutreRemun34(): ?string {
         return $this->typeAutreRemun34;
     }
 
@@ -1956,7 +1955,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type crcca emp.
      */
-    public function getTypeCrccaEmp(): ?string{
+    public function getTypeCrccaEmp(): ?string {
         return $this->typeCrccaEmp;
     }
 
@@ -1965,7 +1964,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun11.
      */
-    public function getTypeRemun11(): ?string{
+    public function getTypeRemun11(): ?string {
         return $this->typeRemun11;
     }
 
@@ -1974,7 +1973,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun12.
      */
-    public function getTypeRemun12(): ?string{
+    public function getTypeRemun12(): ?string {
         return $this->typeRemun12;
     }
 
@@ -1983,7 +1982,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun13.
      */
-    public function getTypeRemun13(): ?string{
+    public function getTypeRemun13(): ?string {
         return $this->typeRemun13;
     }
 
@@ -1992,7 +1991,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun14.
      */
-    public function getTypeRemun14(): ?string{
+    public function getTypeRemun14(): ?string {
         return $this->typeRemun14;
     }
 
@@ -2001,7 +2000,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun21.
      */
-    public function getTypeRemun21(): ?string{
+    public function getTypeRemun21(): ?string {
         return $this->typeRemun21;
     }
 
@@ -2010,7 +2009,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun22.
      */
-    public function getTypeRemun22(): ?string{
+    public function getTypeRemun22(): ?string {
         return $this->typeRemun22;
     }
 
@@ -2019,7 +2018,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun23.
      */
-    public function getTypeRemun23(): ?string{
+    public function getTypeRemun23(): ?string {
         return $this->typeRemun23;
     }
 
@@ -2028,7 +2027,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun24.
      */
-    public function getTypeRemun24(): ?string{
+    public function getTypeRemun24(): ?string {
         return $this->typeRemun24;
     }
 
@@ -2037,7 +2036,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun31.
      */
-    public function getTypeRemun31(): ?string{
+    public function getTypeRemun31(): ?string {
         return $this->typeRemun31;
     }
 
@@ -2046,7 +2045,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun32.
      */
-    public function getTypeRemun32(): ?string{
+    public function getTypeRemun32(): ?string {
         return $this->typeRemun32;
     }
 
@@ -2055,7 +2054,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun33.
      */
-    public function getTypeRemun33(): ?string{
+    public function getTypeRemun33(): ?string {
         return $this->typeRemun33;
     }
 
@@ -2064,7 +2063,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type remun34.
      */
-    public function getTypeRemun34(): ?string{
+    public function getTypeRemun34(): ?string {
         return $this->typeRemun34;
     }
 
@@ -2073,7 +2072,7 @@ class LignesMsaEmploye {
      *
      * @return string|null Returns the type travail.
      */
-    public function getTypeTravail(): ?string{
+    public function getTypeTravail(): ?string {
         return $this->typeTravail;
     }
 
@@ -2100,28 +2099,6 @@ class LignesMsaEmploye {
     }
 
     /**
-     * Set the cddcdi.
-     *
-     * @param string|null $cddcdi The cddcdi.
-     * @return LignesMsaEmploye Returns this Lignes msa employe.
-     */
-    public function setCddcdi(?string $cddcdi): LignesMsaEmploye {
-        $this->cddcdi = $cddcdi;
-        return $this;
-    }
-
-    /**
-     * Set the cddcdi evo.
-     *
-     * @param string|null $cddcdiEvo The cddcdi evo.
-     * @return LignesMsaEmploye Returns this Lignes msa employe.
-     */
-    public function setCddcdiEvo(?string $cddcdiEvo): LignesMsaEmploye {
-        $this->cddcdiEvo = $cddcdiEvo;
-        return $this;
-    }
-
-    /**
      * Set the cadre.
      *
      * @param string|null $cadre The cadre.
@@ -2140,6 +2117,28 @@ class LignesMsaEmploye {
      */
     public function setCadreEvo(?string $cadreEvo): LignesMsaEmploye {
         $this->cadreEvo = $cadreEvo;
+        return $this;
+    }
+
+    /**
+     * Set the cddcdi.
+     *
+     * @param string|null $cddcdi The cddcdi.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
+     */
+    public function setCddcdi(?string $cddcdi): LignesMsaEmploye {
+        $this->cddcdi = $cddcdi;
+        return $this;
+    }
+
+    /**
+     * Set the cddcdi evo.
+     *
+     * @param string|null $cddcdiEvo The cddcdi evo.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
+     */
+    public function setCddcdiEvo(?string $cddcdiEvo): LignesMsaEmploye {
+        $this->cddcdiEvo = $cddcdiEvo;
         return $this;
     }
 
@@ -2375,6 +2374,17 @@ class LignesMsaEmploye {
     }
 
     /**
+     * Set the evo cadre.
+     *
+     * @param bool|null $evoCadre The evo cadre.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
+     */
+    public function setEvoCadre(?bool $evoCadre): LignesMsaEmploye {
+        $this->evoCadre = $evoCadre;
+        return $this;
+    }
+
+    /**
      * Set the evo cddcdi.
      *
      * @param bool|null $evoCddcdi The evo cddcdi.
@@ -2382,6 +2392,17 @@ class LignesMsaEmploye {
      */
     public function setEvoCddcdi(?bool $evoCddcdi): LignesMsaEmploye {
         $this->evoCddcdi = $evoCddcdi;
+        return $this;
+    }
+
+    /**
+     * Set the evo contrat.
+     *
+     * @param bool|null $evoContrat The evo contrat.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
+     */
+    public function setEvoContrat(?bool $evoContrat): LignesMsaEmploye {
+        $this->evoContrat = $evoContrat;
         return $this;
     }
 
@@ -2404,28 +2425,6 @@ class LignesMsaEmploye {
      */
     public function setEvoCrcca4Bis(?bool $evoCrcca4Bis): LignesMsaEmploye {
         $this->evoCrcca4Bis = $evoCrcca4Bis;
-        return $this;
-    }
-
-    /**
-     * Set the evo cadre.
-     *
-     * @param bool|null $evoCadre The evo cadre.
-     * @return LignesMsaEmploye Returns this Lignes msa employe.
-     */
-    public function setEvoCadre(?bool $evoCadre): LignesMsaEmploye {
-        $this->evoCadre = $evoCadre;
-        return $this;
-    }
-
-    /**
-     * Set the evo contrat.
-     *
-     * @param bool|null $evoContrat The evo contrat.
-     * @return LignesMsaEmploye Returns this Lignes msa employe.
-     */
-    public function setEvoContrat(?bool $evoContrat): LignesMsaEmploye {
-        $this->evoContrat = $evoContrat;
         return $this;
     }
 
@@ -2815,17 +2814,6 @@ class LignesMsaEmploye {
     }
 
     /**
-     * Set the nir.
-     *
-     * @param string|null $nir The nir.
-     * @return LignesMsaEmploye Returns this Lignes msa employe.
-     */
-    public function setNir(?string $nir): LignesMsaEmploye {
-        $this->nir = $nir;
-        return $this;
-    }
-
-    /**
      * Set the nb heures1.
      *
      * @param float|null $nbHeures1 The nb heures1.
@@ -2888,6 +2876,17 @@ class LignesMsaEmploye {
      */
     public function setNbJours3(?int $nbJours3): LignesMsaEmploye {
         $this->nbJours3 = $nbJours3;
+        return $this;
+    }
+
+    /**
+     * Set the nir.
+     *
+     * @param string|null $nir The nir.
+     * @return LignesMsaEmploye Returns this Lignes msa employe.
+     */
+    public function setNir(?string $nir): LignesMsaEmploye {
+        $this->nir = $nir;
         return $this;
     }
 
