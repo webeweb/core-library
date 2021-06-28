@@ -1,10 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [7.0.0](https://github.com/webeweb/core-library/tree/v7.0.0) (2021-06-28)
 
-- Add Rate limit trait
-- Add string Token trait
+> IMPORTANT NOTICE: The following packages has been moved
+> - WBW\Library\Core\Model\Attribute
 
 ### [6.10.0](https://github.com/webeweb/core-library/tree/v6.10.0) (2020-04-08)
 
