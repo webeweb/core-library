@@ -41,7 +41,7 @@ trait OcrProviderTrait {
      * @param OcrProvider|null $ocrProvider The OCR provider.
      * @return self Returns this instance.
      */
-    protected function setOcrProvider(?OcrProvider $ocrProvider ): self {
+    protected function setOcrProvider(?OcrProvider $ocrProvider): self {
         $this->ocrProvider = $ocrProvider;
         return $this;
     }
