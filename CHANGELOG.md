@@ -1,9 +1,21 @@
 CHANGELOG
 =========
 
+### master
+
+> IMPORTANT NOTICE: The following packages has been removed
+> - WBW\Library\Core\Geometry
+> - WBW\Library\Core\Network\CURL
+> - WBW\Library\Core\Network\FTP
+> - WBW\Library\Core\Network\HTTP
+> - WBW\Library\Core\Security
+> - WBW\Library\Core\ThirdParty\Adoria
+> - WBW\Library\Core\ThirdParty\OcrLad
+> - WBW\Library\Core\ThirdParty\Quadratus
+
 ### [7.0.0](https://github.com/webeweb/core-library/tree/v7.0.0) (2021-06-28)
 
-> IMPORTANT NOTICE: The following packages has been moved
+> IMPORTANT NOTICE: The following packages has been removed
 > - WBW\Library\Core\Model\Attribute
 
 ### [6.10.0](https://github.com/webeweb/core-library/tree/v6.10.0) (2020-04-08)
