@@ -228,7 +228,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Detremines if date/time A is less than date/time B.
+     * Determines if date/time A is less than date/time B.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
