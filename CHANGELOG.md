@@ -13,6 +13,8 @@ CHANGELOG
 > - WBW\Library\Core\ThirdParty\OcrLad
 > - WBW\Library\Core\ThirdParty\Quadratus
 > - WBW\Library\Core\ThirdParty\SkiData
+> - WBW\Library\Core\Transformer
+> - WBW\Library\Core\Validator
 
 ### [7.0.0](https://github.com/webeweb/core-library/tree/v7.0.0) (2021-06-28)
 
