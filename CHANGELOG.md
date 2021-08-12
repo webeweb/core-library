@@ -4,10 +4,12 @@ CHANGELOG
 ### master
 
 > IMPORTANT NOTICE: The following packages has been removed
+> - WBW\Library\Core\Argument
 > - WBW\Library\Core\Geometry
 > - WBW\Library\Core\Network\CURL
 > - WBW\Library\Core\Network\FTP
 > - WBW\Library\Core\Network\HTTP
+> - WBW\Library\Core\Renderer
 > - WBW\Library\Core\Security
 > - WBW\Library\Core\ThirdParty\Adoria
 > - WBW\Library\Core\ThirdParty\OcrLad
