@@ -13,9 +13,9 @@
          stopOnFailure="false">
     <filter>
         <whitelist>
-            <directory>./</directory>
+            <directory>./src</directory>
             <exclude>
-                <directory>src/Resources</directory>
+                <directory>src/types/Resources</directory>
                 <directory>tests</directory>
                 <directory>vendor</directory>
             </exclude>
