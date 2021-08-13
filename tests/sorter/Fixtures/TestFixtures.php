@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures;
+namespace WBW\Library\Sorter\Tests\Fixtures;
 
-use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
+use WBW\Library\Sorter\Tests\Fixtures\Model\TestNode;
 
 /**
  * Test fixtures.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Fixtures
+ * @package WBW\Library\Sorter\Tests\Fixtures
  */
 class TestFixtures {
 

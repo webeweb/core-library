@@ -9,18 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Sorter;
+namespace WBW\Library\Sorter\Tests;
 
-use WBW\Library\Core\Sorter\AlphabeticalTreeNodeInterface;
-use WBW\Library\Core\Sorter\AlphabeticalTreeSort;
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\TestFixtures;
+use WBW\Library\Sorter\AlphabeticalTreeSort;
+use WBW\Library\Sorter\Model\AlphabeticalTreeNodeInterface;
+use WBW\Library\Sorter\Tests\Fixtures\TestFixtures;
 
 /**
  * Alphabetical tree sort test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Sorter
+ * @package WBW\Library\Sorter\Tests
  */
 class AlphabeticalTreeSortTest extends AbstractTestCase {
 

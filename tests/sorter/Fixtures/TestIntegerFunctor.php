@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures\Sorter;
+namespace WBW\Library\Sorter\Tests\Fixtures;
 
-use WBW\Library\Core\Sorter\FunctorInterface;
+use WBW\Library\Sorter\FunctorInterface;
 
 /**
  * Test integer functor.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Fixtures\Sorter
+ * @package WBW\Library\Sorter\Tests\Fixtures
  */
 class TestIntegerFunctor implements FunctorInterface {
 

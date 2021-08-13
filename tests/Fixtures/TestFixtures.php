@@ -24,54 +24,6 @@ use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 class TestFixtures {
 
     /**
-     * Get the images.
-     *
-     * @return string[] Returns the images.
-     */
-    public static function getImages(): array {
-        return [
-            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1037.jpg",
-            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1037.png",
-            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x1920.png",
-            getcwd() . "/tests/Fixtures/Utility/TestImage_1920x3554.png",
-        ];
-    }
-
-    /**
-     * Get the TestNode fixtures.
-     *
-     * @return TestNode[] Returns the TestNode fixtures.
-     */
-    public static function getTestNodes(): array {
-
-        $nodes = [
-            new TestNode("id01"),
-            new TestNode("id02"),
-            new TestNode("id03"),
-            new TestNode("id04"),
-            new TestNode("id05"),
-            new TestNode("id06"),
-            new TestNode("id07"),
-            new TestNode("id08"),
-            new TestNode("id09"),
-            new TestNode("id10"),
-        ];
-
-        $nodes[0]->addNode($nodes[9]);
-        $nodes[0]->addNode($nodes[8]);
-        $nodes[0]->addNode($nodes[7]);
-
-        $nodes[1]->addNode($nodes[6]);
-        $nodes[1]->addNode($nodes[5]);
-        $nodes[1]->addNode($nodes[4]);
-
-        $nodes[4]->addNode($nodes[3]);
-        $nodes[4]->addNode($nodes[2]);
-
-        return $nodes;
-    }
-
-    /**
      * Get the time slot date/times.
      *
      * @return DateTime[] Returns the time slot date/times.
