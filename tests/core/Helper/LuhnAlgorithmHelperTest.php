@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Algorithm;
+namespace WBW\Library\Core\Tests\Helper;
 
-use WBW\Library\Core\Algorithm\LuhnAlgorithmHelper;
+use WBW\Library\Core\Helper\LuhnAlgorithmHelper;
 use WBW\Library\Core\Tests\AbstractTestCase;
 
 /**
  * Luhn algorithm helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Algorithm
+ * @package WBW\Library\Core\Tests\Helper
  */
 class LuhnAlgorithmHelperTest extends AbstractTestCase {
 
