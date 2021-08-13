@@ -139,7 +139,7 @@ abstract class AbstractDatabaseConnector {
 
         $set = [];
         foreach ($values as $k => $v) {
-            $set[] = "`{$k}` = {$v}";
+            $set[] = "`$k` = $v";
         }
 
         $query = [

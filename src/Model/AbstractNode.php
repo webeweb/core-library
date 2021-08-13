@@ -147,7 +147,7 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
      * @param bool $recursively Recursively ?
      * @return AbstractNode|null Returns a node in case of success, null otherwise.
      */
-    public function getNodeById(string $id, $recursively = false): ?AbstractNode {
+    public function getNodeById(string $id, bool $recursively = false): ?AbstractNode {
         $found = null;
         if (true === array_key_exists($id, $this->index)) {
             $found = $this->getNodeAt($this->index[$id]);

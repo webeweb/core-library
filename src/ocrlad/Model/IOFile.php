@@ -64,7 +64,7 @@ class IOFile extends SplFileInfo {
      * @return string Returns the uniq filename.
      */
     protected function getUniqFilenameWithExtension(string $extension): string {
-        return $this->getUniqFilename() . ".{$extension}";
+        return $this->getUniqFilename() . ".$extension";
     }
 
     /**

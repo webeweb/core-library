@@ -151,7 +151,8 @@ class OcrProvider extends AbstractProvider {
          *
          * @param string $directory The directory.
          * @return void
-         * @var Closure
+         * @throws FtpException Throws a FTP exception if an error occurs.
+         * @var Closure $deleteClosure
          */
         $deleteClosure = function(string $directory) use ($provider, $file): void {
 
@@ -199,7 +200,8 @@ class OcrProvider extends AbstractProvider {
          * @param string $local The local file.
          * @param string $remote The remote file.
          * @return void
-         * @var Closure
+         * @throws FtpException Throws a FTP exception if an error occurs.
+         * @var Closure $downloadClosure
          */
         $downloadClosure = function(string $local, string $remote) use ($provider) {
             $provider->getLogger()->info("OCR provider downloads a file  from the FTP server", ["_local" => $local, "_remote" => $remote]);
