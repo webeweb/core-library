@@ -52,7 +52,7 @@ class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
     public function testGetConnectionWithPDOException(): void {
 
         // Set a MDB mock.
-        $mdb = getcwd() . "/tests/Fixtures/Database/Connector/test.mdb";
+        $mdb = realpath(__DIR__ . "/../Fixtures/test.mdb");
 
         $obj = new MicrosoftAccessDatabaseConnector($this->authenticator, $mdb);
 
