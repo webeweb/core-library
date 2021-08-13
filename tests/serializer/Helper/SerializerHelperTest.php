@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Serializer;
+namespace WBW\Library\Serializer\Tests\Helper;
 
 use Psr\Log\LoggerInterface;
-use WBW\Library\Provider\Serializer\SerializerHelper;
-use WBW\Library\Provider\Tests\AbstractTestCase;
+use WBW\Library\Serializer\Helper\SerializerHelper;
+use WBW\Library\Serializer\Tests\AbstractTestCase;
 
 /**
  * Serializer helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Tests\Serializer
+ * @package WBW\Library\Serializer\Tests\Helper
  */
 class SerializerHelperTest extends AbstractTestCase {
 

@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Model;
+namespace WBW\Library\Serializer\Model;
 
 /**
  * CSV serializable.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Model
+ * @package WBW\Library\Serializer\Model
  */
 interface CsvSerializable {
 

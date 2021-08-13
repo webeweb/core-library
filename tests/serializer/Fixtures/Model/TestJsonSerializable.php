@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures\Model;
+namespace WBW\Library\Serializer\Tests\Fixtures\Model;
 
 use JsonSerializable;
 
@@ -17,7 +17,7 @@ use JsonSerializable;
  * Test JSON serializable.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Tests\Fixtures\Model
+ * @package WBW\Library\Serializer\Tests\Fixtures\Model
  */
 class TestJsonSerializable implements JsonSerializable {
 

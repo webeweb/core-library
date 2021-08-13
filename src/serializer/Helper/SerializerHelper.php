@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Serializer;
+namespace WBW\Library\Serializer\Helper;
 
 use Psr\Log\LoggerInterface;
 
@@ -17,7 +17,7 @@ use Psr\Log\LoggerInterface;
  * Serializer helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Serializer
+ * @package WBW\Library\Serializer\Helper
  * @abstract
  */
 abstract class SerializerHelper {

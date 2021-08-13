@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures\Model;
+namespace WBW\Library\Serializer\Tests\Fixtures\Model;
 
-use WBW\Library\Provider\Model\XmlSerializable;
+use WBW\Library\Serializer\Model\XmlSerializable;
 
 /**
  * Test XML serializable.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Tests\Fixtures\Model
+ * @package WBW\Library\Serializer\Tests\Fixtures\Model
  */
 class TestXmlSerializable implements XmlSerializable {
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Serializer;
+namespace WBW\Library\Serializer\Helper;
 
 use DOMNode;
 use DOMNodeList;
@@ -18,7 +18,7 @@ use DOMNodeList;
  * XML deserializer helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Serializer
+ * @package WBW\Library\Serializer\Helper
  */
 class XmlDeserializerHelper extends SerializerHelper {
 

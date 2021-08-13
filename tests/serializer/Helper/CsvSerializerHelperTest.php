@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Serializer;
+namespace WBW\Library\Serializer\Tests\Helper;
 
-use WBW\Library\Provider\Serializer\CsvSerializerHelper;
-use WBW\Library\Provider\Tests\AbstractTestCase;
-use WBW\Library\Provider\Tests\Fixtures\Model\TestCsvSerializable;
+use WBW\Library\Serializer\Helper\CsvSerializerHelper;
+use WBW\Library\Serializer\Tests\AbstractTestCase;
+use WBW\Library\Serializer\Tests\Fixtures\Model\TestCsvSerializable;
 
 /**
  * CSV serializer helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Tests\Serializer
+ * @package WBW\Library\Serializer\Tests\Helper
  */
 class CsvSerializerHelperTest extends AbstractTestCase {
 

@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Serializer;
+namespace WBW\Library\Serializer\Tests\Helper;
 
 use DOMDocument;
-use WBW\Library\Provider\Serializer\XmlDeserializerHelper;
-use WBW\Library\Provider\Tests\AbstractTestCase;
+use WBW\Library\Serializer\Helper\XmlDeserializerHelper;
+use WBW\Library\Serializer\Tests\AbstractTestCase;
 
 /**
  * XML deserializer helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Tests\Serializer
+ * @package WBW\Library\Serializer\Tests\Helper
  */
 class XmlDeserializerHelperTest extends AbstractTestCase {
 
@@ -44,7 +44,7 @@ class XmlDeserializerHelperTest extends AbstractTestCase {
         parent::setUp();
 
         // Set a filename mock.
-        $this->filename = realpath(__DIR__ . "/../Serializer/XmlSerializerHelperTest.xml");
+        $this->filename = realpath(__DIR__ . "/XmlSerializerHelperTest.xml");
 
         $content = XmlDeserializerHelper::xmlEntities($this->filename);
 

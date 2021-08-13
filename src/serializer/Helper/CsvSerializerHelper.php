@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Serializer;
+namespace WBW\Library\Serializer\Helper;
 
-use WBW\Library\Provider\Model\CsvSerializable;
+use WBW\Library\Serializer\Model\CsvSerializable;
 
 /**
  * CSV serializer helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Serializer
+ * @package WBW\Library\Serializer\Helper
  */
 class CsvSerializerHelper extends SerializerHelper {
 

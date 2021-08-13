@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Serializer;
+namespace WBW\Library\Serializer\Tests\Helper;
 
-use WBW\Library\Provider\Serializer\XmlSerializerHelper;
-use WBW\Library\Provider\Tests\AbstractTestCase;
-use WBW\Library\Provider\Tests\Fixtures\Model\TestXmlSerializable;
+use WBW\Library\Serializer\Helper\XmlSerializerHelper;
+use WBW\Library\Serializer\Tests\AbstractTestCase;
+use WBW\Library\Serializer\Tests\Fixtures\Model\TestXmlSerializable;
 
 /**
  * XML serializer helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Provider\Tests\Serializer
+ * @package WBW\Library\Serializer\Tests\Helper
  */
 class XmlSerializerHelperTest extends AbstractTestCase {
 
