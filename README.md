@@ -15,14 +15,19 @@ projects.
 Provides:
 
 - Algorithm helpers (Luhn, etc.)
-- Argument helpers (array, boolean, double, float, integer, string, etc.)
+- cURL wrapper 
 - Database connectors (Access, SQL Server, MySQL, etc.)
-- Model classes (choices, contact, node, organizer, etc.)
-- Network utilities (cURL, FTP, HTTP, SFTP, etc)
+- FTP clients (FTP, FTPS, SFTP, etc.)
+- Image utilities
+- Logger models
+- Planning utilities (time slots, etc.)
+- Quadratus models
 - Security classes (authenticator, password authentication, etc.)
-- SkiData API (https://github.com/webeweb/skidata-library)
+- Serialization utilities
+- SkiData utilities (card, customer, user, etc.)
 - Sorting utilities (alphabetical tree sort, quick sort, etc.)
-- Transformer API (set, transformer, etc.)
+- Traits collection (array, boolean, double, float, integer, string, etc.)
+- Types utilities (array, boolean, double, float, integer, string, etc.)
 - Validation API (rule, rule set, validator, etc.)
 
 If you like this package, pay me a beer (or a coffee)
