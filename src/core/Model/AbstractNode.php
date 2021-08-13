@@ -11,8 +11,6 @@
 
 namespace WBW\Library\Core\Model;
 
-use WBW\Library\Core\Sorter\AlphabeticalTreeNodeInterface;
-
 /**
  * Abstract node.
  *
@@ -20,7 +18,7 @@ use WBW\Library\Core\Sorter\AlphabeticalTreeNodeInterface;
  * @package WBW\Library\Core\Model
  * @abstract
  */
-abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
+abstract class AbstractNode {
 
     /**
      * Id.
@@ -84,20 +82,6 @@ abstract class AbstractNode implements AlphabeticalTreeNodeInterface {
             $this->removeNode($node);
         }
         return $this;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getAlphabeticalTreeNodeLabel(): ?string {
-        return $this->id;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getAlphabeticalTreeNodeParent(): ?AlphabeticalTreeNodeInterface {
-        return $this->parent;
     }
 
     /**
