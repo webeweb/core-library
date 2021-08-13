@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Status;
+namespace WBW\Library\Validator\Status;
 
 use JsonSerializable;
-use WBW\Library\Validation\API\StatusInterface;
+use WBW\Library\Validator\API\StatusInterface;
 
 /**
  * Abstract status.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Status
+ * @package WBW\Library\Validator\Status
  * @abstract
  */
 abstract class AbstractStatus implements StatusInterface, JsonSerializable {

@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Tests\Rule;
+namespace WBW\Library\Validator\Tests\Rule;
 
-use WBW\Library\Validation\Tests\AbstractTestCase;
-use WBW\Library\Validation\Tests\Fixtures\Rule\TestRule;
+use WBW\Library\Validator\Tests\AbstractTestCase;
+use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 
 /**
  * Abstract rule test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Tests\Validation\Rule
+ * @package WBW\Library\Validator\Tests\Rule
  */
 class AbstractRuleTest extends AbstractTestCase {
 

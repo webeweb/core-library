@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Tests;
+namespace WBW\Library\Validator\Tests;
 
-use WBW\Library\Validation\API\RuleSetInterface;
-use WBW\Library\Validation\API\StatusInterface;
-use WBW\Library\Validation\DefaultValidator;
-use WBW\Library\Validation\RuleSet\DefaultRuleSet;
-use WBW\Library\Validation\Tests\Fixtures\Rule\TestRule;
+use WBW\Library\Validator\API\RuleSetInterface;
+use WBW\Library\Validator\API\StatusInterface;
+use WBW\Library\Validator\DefaultValidator;
+use WBW\Library\Validator\RuleSet\DefaultRuleSet;
+use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 
 /**
  * Default validator test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Tests\Validation
+ * @package WBW\Library\Validator\Tests
  */
 class DefaultValidatorTest extends AbstractTestCase {
 

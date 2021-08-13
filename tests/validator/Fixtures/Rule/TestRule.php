@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Tests\Fixtures\Rule;
+namespace WBW\Library\Validator\Tests\Fixtures\Rule;
 
-use WBW\Library\Validation\API\StatusInterface;
-use WBW\Library\Validation\Rule\AbstractRule;
-use WBW\Library\Validation\Status\DefaultStatus;
+use WBW\Library\Validator\API\StatusInterface;
+use WBW\Library\Validator\Rule\AbstractRule;
+use WBW\Library\Validator\Status\DefaultStatus;
 
 /**
  * Test rule.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Tests\Fixtures\Rule
+ * @package WBW\Library\Validator\Tests\Fixtures\Rule
  */
 class TestRule extends AbstractRule {
 

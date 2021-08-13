@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\RuleSet;
+namespace WBW\Library\Validator\RuleSet;
 
-use WBW\Library\Validation\API\RuleInterface;
-use WBW\Library\Validation\API\RuleSetInterface;
+use WBW\Library\Validator\API\RuleInterface;
+use WBW\Library\Validator\API\RuleSetInterface;
 
 /**
- * Abstract validation rule set.
+ * Abstract rule set.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\RuleSet
+ * @package WBW\Library\Validator\RuleSet
  * @abstract
  */
 abstract class AbstractRuleSet implements RuleSetInterface {
@@ -73,7 +73,7 @@ abstract class AbstractRuleSet implements RuleSetInterface {
      * Set the rules.
      *
      * @param RuleInterface[] $rules The rules.
-     * @return RuleSetInterface Returns this validation rule set.
+     * @return RuleSetInterface Returns this rule set.
      */
     public function setRules(array $rules): RuleSetInterface {
         $this->rules = $rules;

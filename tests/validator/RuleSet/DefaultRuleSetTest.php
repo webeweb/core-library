@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Tests\RuleSet;
+namespace WBW\Library\Validator\Tests\RuleSet;
 
-use WBW\Library\Validation\API\StatusInterface;
-use WBW\Library\Validation\RuleSet\DefaultRuleSet;
-use WBW\Library\Validation\Tests\AbstractTestCase;
-use WBW\Library\Validation\Tests\Fixtures\Rule\TestRule;
+use WBW\Library\Validator\API\StatusInterface;
+use WBW\Library\Validator\RuleSet\DefaultRuleSet;
+use WBW\Library\Validator\Tests\AbstractTestCase;
+use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;
 
 /**
  * Default rule set test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Tests\Validation\RuleSet
+ * @package WBW\Library\Validator\Tests\Validator\RuleSet
  */
 class DefaultRuleSetTest extends AbstractTestCase {
 

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Tests;
+namespace WBW\Library\Validator\Tests;
 
 use PHPUnit\Framework\TestCase;
 
@@ -17,7 +17,7 @@ use PHPUnit\Framework\TestCase;
  * Abstract test case.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Tests
+ * @package WBW\Library\Validator\Tests
  * @abstract
  */
 abstract class AbstractTestCase extends TestCase {

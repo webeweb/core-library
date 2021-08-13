@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validation\Tests\Status;
+namespace WBW\Library\Validator\Tests\Status;
 
-use WBW\Library\Validation\Status\DefaultStatus;
-use WBW\Library\Validation\Tests\AbstractTestCase;
+use WBW\Library\Validator\Status\DefaultStatus;
+use WBW\Library\Validator\Tests\AbstractTestCase;
 
 /**
  * Default status test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validation\Tests\Validation\Status
+ * @package WBW\Library\Validator\Tests\Status
  */
 class DefaultStatusTest extends AbstractTestCase {
 
