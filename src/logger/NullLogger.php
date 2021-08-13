@@ -9,28 +9,22 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Logger;
+namespace WBW\Library\Logger;
 
-use DateTime;
 use Psr\Log\AbstractLogger;
 
 /**
- * Terminal logger.
+ * Null logger.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Logger
+ * @package WBW\Library\Logger
  */
-class TerminalLogger extends AbstractLogger {
+class NullLogger extends AbstractLogger {
 
     /**
      *{@inheritDoc}
      */
     public function log($level, $message, array $context = []): void {
-        echo vsprintf("[%s] %s: %s, %s\n", [
-            (new DateTime())->format("Y-m-d h:i:s"),
-            $level,
-            $message,
-            json_encode($context),
-        ]);
+        // NOTHING TO DO
     }
 }

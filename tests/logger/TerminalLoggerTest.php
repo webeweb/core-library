@@ -9,16 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Logger;
+namespace WBW\Library\Logger\Tests;
 
-use WBW\Library\Core\Logger\TerminalLogger;
-use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Logger\TerminalLogger;
 
 /**
  * Terminal logger test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Tests\Logger
+ * @package WBW\Library\Logger\Tests
  */
 class TerminalLoggerTest extends AbstractTestCase {
 
