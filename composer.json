@@ -3,20 +3,22 @@
     "type": "library",
     "description": "Core library",
     "keywords": [
-        "algorithm",
-        "argument",
+        "adoria",
         "core",
         "curl",
         "database",
         "ftp",
-        "io",
+        "image",
         "library",
-        "network",
+        "logger",
+        "planning",
+        "provider",
         "security",
-        "sftp",
         "skidata",
-        "sorting",
-        "validation",
+        "sorter",
+        "traits",
+        "types",
+        "validator",
         "webeweb"
     ],
     "homepage": "https://github.com/webeweb/core-library",
@@ -30,6 +32,7 @@
     "require": {
         "php": "^7.1|^8.0",
         "ext-curl": "*",
+        "ext-dom": "*",
         "ext-fileinfo": "*",
         "ext-ftp": "*",
         "ext-gd": "*",
@@ -57,12 +60,46 @@
     },
     "autoload": {
         "psr-4": {
-            "WBW\\Library\\Core\\": "src/"
+            "WBW\\Library\\Adoria\\": "src/adoria/",
+            "WBW\\Library\\Core\\": "src/core/",
+            "WBW\\Library\\Curl\\": "src/curl/",
+            "WBW\\Library\\Database\\": "src/database/",
+            "WBW\\Library\\Ftp\\": "src/ftp/",
+            "WBW\\Library\\Image\\": "src/image/",
+            "WBW\\Library\\Logger\\": "src/logger/",
+            "WBW\\Library\\OcrLad\\": "src/ocrlad/",
+            "WBW\\Library\\Planning\\": "src/planning/",
+            "WBW\\Library\\Provider\\": "src/provider/",
+            "WBW\\Library\\Quadratus\\": "src/quadratus/",
+            "WBW\\Library\\Security\\": "src/security/",
+            "WBW\\Library\\Serializer\\": "src/serializer/",
+            "WBW\\Library\\SkiData\\": "src/skidata/",
+            "WBW\\Library\\Sorter\\": "src/sorter/",
+            "WBW\\Library\\Traits\\": "src/traits/",
+            "WBW\\Library\\Types\\": "src/types/",
+            "WBW\\Library\\Validator\\": "src/validator/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WBW\\Library\\Core\\Tests\\": "tests/"
+            "WBW\\Library\\Adoria\\Tests\\": "tests/adoria/",
+            "WBW\\Library\\Core\\Tests\\": "tests/core/",
+            "WBW\\Library\\Curl\\Tests\\": "tests/curl/",
+            "WBW\\Library\\Database\\Tests\\": "tests/database/",
+            "WBW\\Library\\Ftp\\Tests\\": "tests/ftp/",
+            "WBW\\Library\\Image\\Tests\\": "tests/image/",
+            "WBW\\Library\\Logger\\Tests\\": "tests/logger/",
+            "WBW\\Library\\OcrLad\\Tests\\": "tests/ocrlad/",
+            "WBW\\Library\\Planning\\Tests\\": "tests/planning/",
+            "WBW\\Library\\Provider\\Tests\\": "tests/provider/",
+            "WBW\\Library\\Quadratus\\Tests\\": "tests/quadratus/",
+            "WBW\\Library\\Security\\Tests\\": "tests/security/",
+            "WBW\\Library\\Serializer\\Tests\\": "tests/serializer/",
+            "WBW\\Library\\SkiData\\Tests\\": "tests/skidata/",
+            "WBW\\Library\\Sorter\\Tests\\": "tests/sorter/",
+            "WBW\\Library\\Traits\\Tests\\": "tests/traits/",
+            "WBW\\Library\\Types\\Tests\\": "tests/types/",
+            "WBW\\Library\\Validator\\Tests\\": "tests/validator/"
         }
     },
     "support": {
