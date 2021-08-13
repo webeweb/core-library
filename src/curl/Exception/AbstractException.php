@@ -11,20 +11,25 @@
 
 namespace WBW\Library\Curl\Exception;
 
+use WBW\Library\Core\Exception\AbstractException as BaseException;
+
 /**
- * cURL invalid argument exception.
+ * Abstract exception.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Exception
+ * @abstract
  */
-class CurlInvalidArgumentException extends AbstractCurlException {
+abstract class AbstractException extends BaseException {
 
     /**
      * Constructor.
      *
      * @param string $message The message.
+     * @param int $code The code.
+     * @param Exception|null $previous The previous exception.
      */
-    public function __construct(string $message) {
-        parent::__construct($message);
+    public function __construct(string $message, int $code = 500, Exception $previous = null) {
+        parent::__construct($message, $code, $previous);
     }
 }

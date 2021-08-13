@@ -1,7 +1,6 @@
 <?php
 
 /*
-  /*
  * This file is part of the core-library package.
  *
  * (c) 2017 WEBEWEB
@@ -13,16 +12,16 @@
 namespace WBW\Library\Curl\Tests\Request;
 
 use Exception;
-use WBW\Library\Curl\Request\CurlPatchRequest;
+use WBW\Library\Curl\Request\PutRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL "PATCH" request test.
+ * PUT request test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Request
  */
-class CurlPatchRequestTest extends AbstractTestCase {
+class PutRequestTest extends AbstractTestCase {
 
     /**
      * Tests call() method.
@@ -32,14 +31,14 @@ class CurlPatchRequestTest extends AbstractTestCase {
      */
     public function testCall(): void {
 
-        $obj = new CurlPatchRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PutRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
         $res = $obj->call();
         $this->assertEquals("header: header", $res->getRequestHeader()[0]);
         $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
-        $this->assertEquals(CurlPatchRequest::CURL_REQUEST_PATCH, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(PutRequest::METHOD_PUT, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -51,11 +50,11 @@ class CurlPatchRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new CurlPatchRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PutRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(CurlPatchRequest::CURL_REQUEST_PATCH, $obj->getMethod());
+        $this->assertEquals(PutRequest::METHOD_PUT, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());

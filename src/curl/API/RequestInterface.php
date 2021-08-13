@@ -12,127 +12,127 @@
 namespace WBW\Library\Curl\API;
 
 use Exception;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
+use WBW\Library\Curl\Configuration\Configuration;
 
 /**
- * cURL request interface.
+ * Request interface.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\API
  */
-interface CurlRequestInterface {
+interface RequestInterface {
 
     /**
-     * cURL request "DELETE".
+     * Method "DELETE".
      *
      * @var string
      */
-    const CURL_REQUEST_DELETE = "DELETE";
+    const METHOD_DELETE = "DELETE";
 
     /**
-     * cURL request "GET".
+     * Method "GET".
      *
      * @var string
      */
-    const CURL_REQUEST_GET = "GET";
+    const METHOD_GET = "GET";
 
     /**
-     * cURL request "HEAD".
+     * Method "HEAD".
      *
      * @var string
      */
-    const CURL_REQUEST_HEAD = "HEAD";
+    const METHOD_HEAD = "HEAD";
 
     /**
-     * cURL request "OPTIONS".
+     * Method "OPTIONS".
      *
      * @var string
      */
-    const CURL_REQUEST_OPTIONS = "OPTIONS";
+    const METHOD_OPTIONS = "OPTIONS";
 
     /**
-     * cURL request "PATCH".
+     * Method "PATCH".
      *
      * @var string
      */
-    const CURL_REQUEST_PATCH = "PATCH";
+    const METHOD_PATCH = "PATCH";
 
     /**
-     * cURL request "POST".
+     * Method "POST".
      *
      * @var string
      */
-    const CURL_REQUEST_POST = "POST";
+    const METHOD_POST = "POST";
 
     /**
-     * cURL request "PUT".
+     * Method "PUT".
      *
      * @var string
      */
-    const CURL_REQUEST_PUT = "PUT";
+    const METHOD_PUT = "PUT";
 
     /**
      * Add an header.
      *
      * @param string $name The header name.
      * @param string $value The header value.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function addHeader(string $name, string $value): CurlRequestInterface;
+    public function addHeader(string $name, string $value): RequestInterface;
 
     /**
      * Add a POST data.
      *
      * @param string $name The POST data name.
      * @param string $value The POST data value.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function addPostData(string $name, string $value): CurlRequestInterface;
+    public function addPostData(string $name, string $value): RequestInterface;
 
     /**
      * Add a query data.
      *
      * @param string $name The query data name.
      * @param string $value The query data value.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function addQueryData(string $name, string $value): CurlRequestInterface;
+    public function addQueryData(string $name, string $value): RequestInterface;
 
     /**
      * Call the request.
      *
-     * @return CurlResponseInterface Returns the response.
+     * @return ResponseInterface Returns the response.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public function call(): CurlResponseInterface;
+    public function call(): ResponseInterface;
 
     /**
      * Clear headers.
      *
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function clearHeaders(): CurlRequestInterface;
+    public function clearHeaders(): RequestInterface;
 
     /**
      * Clear post data.
      *
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function clearPostData(): CurlRequestInterface;
+    public function clearPostData(): RequestInterface;
 
     /**
      * Clear query data.
      *
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function clearQueryData(): CurlRequestInterface;
+    public function clearQueryData(): RequestInterface;
 
     /**
      * Get the configuration.
      *
-     * @return CurlConfiguration Returns the configuration.
+     * @return Configuration Returns the configuration.
      */
-    public function getConfiguration(): CurlConfiguration;
+    public function getConfiguration(): Configuration;
 
     /**
      * Get the headers.
@@ -173,31 +173,31 @@ interface CurlRequestInterface {
      * Remove an header.
      *
      * @param string $name The header name.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function removeHeader(string $name): CurlRequestInterface;
+    public function removeHeader(string $name): RequestInterface;
 
     /**
      * Remove a POST data.
      *
      * @param string $name The POST data name.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function removePostData(string $name): CurlRequestInterface;
+    public function removePostData(string $name): RequestInterface;
 
     /**
      * Remove a query data.
      *
      * @param string $name The query data name.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function removeQueryData(string $name): CurlRequestInterface;
+    public function removeQueryData(string $name): RequestInterface;
 
     /**
      * Set the resource path.
      *
      * @param string|null $resourcePath The resource path.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    public function setResourcePath(?string $resourcePath): CurlRequestInterface;
+    public function setResourcePath(?string $resourcePath): RequestInterface;
 }

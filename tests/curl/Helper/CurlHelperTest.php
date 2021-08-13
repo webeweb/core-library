@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Curl\Tests\Helper;
 
-use WBW\Library\Curl\API\CurlRequestInterface;
-use WBW\Library\Curl\API\CurlResponseInterface;
+use WBW\Library\Curl\API\RequestInterface;
+use WBW\Library\Curl\API\ResponseInterface;
 use WBW\Library\Curl\Helper\CurlHelper;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
@@ -25,90 +25,90 @@ use WBW\Library\Curl\Tests\AbstractTestCase;
 class CurlHelperTest extends AbstractTestCase {
 
     /**
-     * Tests the enumCurlRequests() method.
+     * Tests the enumCodes() method.
      *
      * @return void
      */
-    public function testGetHttpMethods(): void {
+    public function testEnumCodes(): void {
 
-        $res = CurlHelper::enumCurlRequests();
-        $this->assertCount(7, $res);
+        $res = CurlHelper::enumCodes();
+        $this->assertCount(57, $res);
 
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_DELETE, $res);
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_GET, $res);
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_HEAD, $res);
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_OPTIONS, $res);
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_PATCH, $res);
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_POST, $res);
-        $this->assertContains(CurlRequestInterface::CURL_REQUEST_PUT, $res);
+        $this->assertContains(ResponseInterface::CODE_CONTINUE, $res);
+        $this->assertContains(ResponseInterface::CODE_SWITCHING_PROTOCOLS, $res);
+        $this->assertContains(ResponseInterface::CODE_PROCESSING, $res);
+        $this->assertContains(ResponseInterface::CODE_OK, $res);
+        $this->assertContains(ResponseInterface::CODE_CREATED, $res);
+        $this->assertContains(ResponseInterface::CODE_ACCEPTED, $res);
+        $this->assertContains(ResponseInterface::CODE_NON_AUTHORITATIVE_INFORMATION, $res);
+        $this->assertContains(ResponseInterface::CODE_NO_CONTENT, $res);
+        $this->assertContains(ResponseInterface::CODE_RESET_CONTENT, $res);
+        $this->assertContains(ResponseInterface::CODE_PARTIAL_CONTENT, $res);
+        $this->assertContains(ResponseInterface::CODE_MULTI_STATUS, $res);
+        $this->assertContains(ResponseInterface::CODE_ALREADY_REPORTED, $res);
+        $this->assertContains(ResponseInterface::CODE_IM_USED, $res);
+        $this->assertContains(ResponseInterface::CODE_MULTIPLE_CHOICES, $res);
+        $this->assertContains(ResponseInterface::CODE_MOVED_PERMANENTLY, $res);
+        $this->assertContains(ResponseInterface::CODE_MOVED_TEMPORARILY, $res);
+        $this->assertContains(ResponseInterface::CODE_SEE_OTHER, $res);
+        $this->assertContains(ResponseInterface::CODE_NOT_MODIFIED, $res);
+        $this->assertContains(ResponseInterface::CODE_USE_PROXY, $res);
+        $this->assertContains(ResponseInterface::CODE_TEMPORARY_REDIRECT, $res);
+        $this->assertContains(ResponseInterface::CODE_PERMANENT_REDIRECT, $res);
+        $this->assertContains(ResponseInterface::CODE_BAD_REQUEST, $res);
+        $this->assertContains(ResponseInterface::CODE_UNAUTHORIZED, $res);
+        $this->assertContains(ResponseInterface::CODE_PAYMENT_REQUIRED, $res);
+        $this->assertContains(ResponseInterface::CODE_FORBIDDEN, $res);
+        $this->assertContains(ResponseInterface::CODE_NOT_FOUND, $res);
+        $this->assertContains(ResponseInterface::CODE_METHOD_NOT_ALLOWED, $res);
+        $this->assertContains(ResponseInterface::CODE_NOT_ACCEPTABLE, $res);
+        $this->assertContains(ResponseInterface::CODE_PROXY_AUTHENTICATION_REQUIRED, $res);
+        $this->assertContains(ResponseInterface::CODE_REQUEST_TIME_OUT, $res);
+        $this->assertContains(ResponseInterface::CODE_CONFLICT, $res);
+        $this->assertContains(ResponseInterface::CODE_GONE, $res);
+        $this->assertContains(ResponseInterface::CODE_LENGTH_REQUIRED, $res);
+        $this->assertContains(ResponseInterface::CODE_PRECONDITION_FAILED, $res);
+        $this->assertContains(ResponseInterface::CODE_REQUEST_ENTITY_TOO_LARGE, $res);
+        $this->assertContains(ResponseInterface::CODE_REQUEST_URI_TOO_LONG, $res);
+        $this->assertContains(ResponseInterface::CODE_UNSUPPORTED_MEDIA_TYPE, $res);
+        $this->assertContains(ResponseInterface::CODE_REQUESTED_RANGE_UNSATISFIABLE, $res);
+        $this->assertContains(ResponseInterface::CODE_EXPECTATION_FAILED, $res);
+        $this->assertContains(ResponseInterface::CODE_UNPROCESSABLE_ENTITY, $res);
+        $this->assertContains(ResponseInterface::CODE_LOCKED, $res);
+        $this->assertContains(ResponseInterface::CODE_METHOD_FAILURE, $res);
+        $this->assertContains(ResponseInterface::CODE_UPGRADE_REQUIRED, $res);
+        $this->assertContains(ResponseInterface::CODE_PRECONDITION_REQUIRED, $res);
+        $this->assertContains(ResponseInterface::CODE_TOO_MANY_REQUESTS, $res);
+        $this->assertContains(ResponseInterface::CODE_REQUEST_HEADER_FIELDS_TOO_LARGE, $res);
+        $this->assertContains(ResponseInterface::CODE_INTERNAL_SERVER_ERROR, $res);
+        $this->assertContains(ResponseInterface::CODE_NOT_IMPLEMENTED, $res);
+        $this->assertContains(ResponseInterface::CODE_BAD_GATEWAY_OU_PROXY_ERROR, $res);
+        $this->assertContains(ResponseInterface::CODE_SERVICE_UNAVAILABLE, $res);
+        $this->assertContains(ResponseInterface::CODE_GATEWAY_TIME_OUT, $res);
+        $this->assertContains(ResponseInterface::CODE_HTTP_VERSION_NOT_SUPPORTED, $res);
+        $this->assertContains(ResponseInterface::CODE_VARIANT_ALSO_NEGOTIATES, $res);
+        $this->assertContains(ResponseInterface::CODE_INSUFFICIENT_STORAGE, $res);
+        $this->assertContains(ResponseInterface::CODE_LOOP_DETECTED, $res);
+        $this->assertContains(ResponseInterface::CODE_NOT_EXTENDED, $res);
+        $this->assertContains(ResponseInterface::CODE_NETWORK_AUTHENTICATION_REQUIRED, $res);
     }
 
     /**
-     * Tests the enumCurlResponses() method.
+     * Tests the enumMethods() method.
      *
      * @return void
      */
-    public function testGetHttpStatus(): void {
+    public function testEnumMethods(): void {
 
-        $res = CurlHelper::enumCurlResponses();
-        $this->assertCount(57, $res);
+        $res = CurlHelper::enumMethods();
+        $this->assertCount(7, $res);
 
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_CONTINUE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_SWITCHING_PROTOCOLS, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PROCESSING, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_OK, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_CREATED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_ACCEPTED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NON_AUTHORITATIVE_INFORMATION, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NO_CONTENT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_RESET_CONTENT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PARTIAL_CONTENT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_MULTI_STATUS, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_ALREADY_REPORTED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_IM_USED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_MULTIPLE_CHOICES, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_MOVED_PERMANENTLY, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_MOVED_TEMPORARILY, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_SEE_OTHER, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NOT_MODIFIED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_USE_PROXY, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_TEMPORARY_REDIRECT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PERMANENT_REDIRECT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_BAD_REQUEST, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_UNAUTHORIZED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PAYMENT_REQUIRED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_FORBIDDEN, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NOT_FOUND, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_METHOD_NOT_ALLOWED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NOT_ACCEPTABLE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PROXY_AUTHENTICATION_REQUIRED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_REQUEST_TIME_OUT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_CONFLICT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_GONE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_LENGTH_REQUIRED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PRECONDITION_FAILED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_REQUEST_ENTITY_TOO_LARGE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_REQUEST_URI_TOO_LONG, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_UNSUPPORTED_MEDIA_TYPE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_REQUESTED_RANGE_UNSATISFIABLE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_EXPECTATION_FAILED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_UNPROCESSABLE_ENTITY, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_LOCKED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_METHOD_FAILURE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_UPGRADE_REQUIRED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_PRECONDITION_REQUIRED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_TOO_MANY_REQUESTS, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_REQUEST_HEADER_FIELDS_TOO_LARGE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_INTERNAL_SERVER_ERROR, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NOT_IMPLEMENTED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_BAD_GATEWAY_OU_PROXY_ERROR, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_SERVICE_UNAVAILABLE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_GATEWAY_TIME_OUT, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_HTTP_VERSION_NOT_SUPPORTED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_VARIANT_ALSO_NEGOTIATES, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_INSUFFICIENT_STORAGE, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_LOOP_DETECTED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NOT_EXTENDED, $res);
-        $this->assertContains(CurlResponseInterface::CURL_RESPONSE_NETWORK_AUTHENTICATION_REQUIRED, $res);
+        $this->assertContains(RequestInterface::METHOD_DELETE, $res);
+        $this->assertContains(RequestInterface::METHOD_GET, $res);
+        $this->assertContains(RequestInterface::METHOD_HEAD, $res);
+        $this->assertContains(RequestInterface::METHOD_OPTIONS, $res);
+        $this->assertContains(RequestInterface::METHOD_PATCH, $res);
+        $this->assertContains(RequestInterface::METHOD_POST, $res);
+        $this->assertContains(RequestInterface::METHOD_PUT, $res);
     }
 }

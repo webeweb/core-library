@@ -13,9 +13,9 @@ namespace WBW\Library\Curl\Helper;
 
 use DateTime;
 use Exception;
-use WBW\Library\Curl\API\CurlRequestInterface;
-use WBW\Library\Curl\API\CurlResponseInterface;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
+use WBW\Library\Curl\API\RequestInterface;
+use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Configuration\Configuration;
 
 /**
  * cURL helper.
@@ -26,97 +26,97 @@ use WBW\Library\Curl\Configuration\CurlConfiguration;
 class CurlHelper {
 
     /**
-     * Enumerates the cURL requests.
+     * Enumerates the codes.
      *
-     * @return string[] Returns the cURL requests enumeration.
+     * @return int[] Returns the codes enumeration.
      */
-    public static function enumCurlRequests(): array {
+    public static function enumCodes(): array {
         return [
-            CurlRequestInterface::CURL_REQUEST_DELETE,
-            CurlRequestInterface::CURL_REQUEST_GET,
-            CurlRequestInterface::CURL_REQUEST_HEAD,
-            CurlRequestInterface::CURL_REQUEST_OPTIONS,
-            CurlRequestInterface::CURL_REQUEST_PATCH,
-            CurlRequestInterface::CURL_REQUEST_POST,
-            CurlRequestInterface::CURL_REQUEST_PUT,
+            ResponseInterface::CODE_CONTINUE,
+            ResponseInterface::CODE_SWITCHING_PROTOCOLS,
+            ResponseInterface::CODE_PROCESSING,
+            ResponseInterface::CODE_OK,
+            ResponseInterface::CODE_CREATED,
+            ResponseInterface::CODE_ACCEPTED,
+            ResponseInterface::CODE_NON_AUTHORITATIVE_INFORMATION,
+            ResponseInterface::CODE_NO_CONTENT,
+            ResponseInterface::CODE_RESET_CONTENT,
+            ResponseInterface::CODE_PARTIAL_CONTENT,
+            ResponseInterface::CODE_MULTI_STATUS,
+            ResponseInterface::CODE_ALREADY_REPORTED,
+            ResponseInterface::CODE_IM_USED,
+            ResponseInterface::CODE_MULTIPLE_CHOICES,
+            ResponseInterface::CODE_MOVED_PERMANENTLY,
+            ResponseInterface::CODE_MOVED_TEMPORARILY,
+            ResponseInterface::CODE_SEE_OTHER,
+            ResponseInterface::CODE_NOT_MODIFIED,
+            ResponseInterface::CODE_USE_PROXY,
+            ResponseInterface::CODE_TEMPORARY_REDIRECT,
+            ResponseInterface::CODE_PERMANENT_REDIRECT,
+            ResponseInterface::CODE_BAD_REQUEST,
+            ResponseInterface::CODE_UNAUTHORIZED,
+            ResponseInterface::CODE_PAYMENT_REQUIRED,
+            ResponseInterface::CODE_FORBIDDEN,
+            ResponseInterface::CODE_NOT_FOUND,
+            ResponseInterface::CODE_METHOD_NOT_ALLOWED,
+            ResponseInterface::CODE_NOT_ACCEPTABLE,
+            ResponseInterface::CODE_PROXY_AUTHENTICATION_REQUIRED,
+            ResponseInterface::CODE_REQUEST_TIME_OUT,
+            ResponseInterface::CODE_CONFLICT,
+            ResponseInterface::CODE_GONE,
+            ResponseInterface::CODE_LENGTH_REQUIRED,
+            ResponseInterface::CODE_PRECONDITION_FAILED,
+            ResponseInterface::CODE_REQUEST_ENTITY_TOO_LARGE,
+            ResponseInterface::CODE_REQUEST_URI_TOO_LONG,
+            ResponseInterface::CODE_UNSUPPORTED_MEDIA_TYPE,
+            ResponseInterface::CODE_REQUESTED_RANGE_UNSATISFIABLE,
+            ResponseInterface::CODE_EXPECTATION_FAILED,
+            ResponseInterface::CODE_UNPROCESSABLE_ENTITY,
+            ResponseInterface::CODE_LOCKED,
+            ResponseInterface::CODE_METHOD_FAILURE,
+            ResponseInterface::CODE_UPGRADE_REQUIRED,
+            ResponseInterface::CODE_PRECONDITION_REQUIRED,
+            ResponseInterface::CODE_TOO_MANY_REQUESTS,
+            ResponseInterface::CODE_REQUEST_HEADER_FIELDS_TOO_LARGE,
+            ResponseInterface::CODE_INTERNAL_SERVER_ERROR,
+            ResponseInterface::CODE_NOT_IMPLEMENTED,
+            ResponseInterface::CODE_BAD_GATEWAY_OU_PROXY_ERROR,
+            ResponseInterface::CODE_SERVICE_UNAVAILABLE,
+            ResponseInterface::CODE_GATEWAY_TIME_OUT,
+            ResponseInterface::CODE_HTTP_VERSION_NOT_SUPPORTED,
+            ResponseInterface::CODE_VARIANT_ALSO_NEGOTIATES,
+            ResponseInterface::CODE_INSUFFICIENT_STORAGE,
+            ResponseInterface::CODE_LOOP_DETECTED,
+            ResponseInterface::CODE_NOT_EXTENDED,
+            ResponseInterface::CODE_NETWORK_AUTHENTICATION_REQUIRED,
         ];
     }
 
     /**
-     * Enumerates the cURL responses.
+     * Enumerates the methods.
      *
-     * @return int[] Returns the cURL responses enumeration.
+     * @return string[] Returns the methods enumeration.
      */
-    public static function enumCurlResponses(): array {
+    public static function enumMethods(): array {
         return [
-            CurlResponseInterface::CURL_RESPONSE_CONTINUE,
-            CurlResponseInterface::CURL_RESPONSE_SWITCHING_PROTOCOLS,
-            CurlResponseInterface::CURL_RESPONSE_PROCESSING,
-            CurlResponseInterface::CURL_RESPONSE_OK,
-            CurlResponseInterface::CURL_RESPONSE_CREATED,
-            CurlResponseInterface::CURL_RESPONSE_ACCEPTED,
-            CurlResponseInterface::CURL_RESPONSE_NON_AUTHORITATIVE_INFORMATION,
-            CurlResponseInterface::CURL_RESPONSE_NO_CONTENT,
-            CurlResponseInterface::CURL_RESPONSE_RESET_CONTENT,
-            CurlResponseInterface::CURL_RESPONSE_PARTIAL_CONTENT,
-            CurlResponseInterface::CURL_RESPONSE_MULTI_STATUS,
-            CurlResponseInterface::CURL_RESPONSE_ALREADY_REPORTED,
-            CurlResponseInterface::CURL_RESPONSE_IM_USED,
-            CurlResponseInterface::CURL_RESPONSE_MULTIPLE_CHOICES,
-            CurlResponseInterface::CURL_RESPONSE_MOVED_PERMANENTLY,
-            CurlResponseInterface::CURL_RESPONSE_MOVED_TEMPORARILY,
-            CurlResponseInterface::CURL_RESPONSE_SEE_OTHER,
-            CurlResponseInterface::CURL_RESPONSE_NOT_MODIFIED,
-            CurlResponseInterface::CURL_RESPONSE_USE_PROXY,
-            CurlResponseInterface::CURL_RESPONSE_TEMPORARY_REDIRECT,
-            CurlResponseInterface::CURL_RESPONSE_PERMANENT_REDIRECT,
-            CurlResponseInterface::CURL_RESPONSE_BAD_REQUEST,
-            CurlResponseInterface::CURL_RESPONSE_UNAUTHORIZED,
-            CurlResponseInterface::CURL_RESPONSE_PAYMENT_REQUIRED,
-            CurlResponseInterface::CURL_RESPONSE_FORBIDDEN,
-            CurlResponseInterface::CURL_RESPONSE_NOT_FOUND,
-            CurlResponseInterface::CURL_RESPONSE_METHOD_NOT_ALLOWED,
-            CurlResponseInterface::CURL_RESPONSE_NOT_ACCEPTABLE,
-            CurlResponseInterface::CURL_RESPONSE_PROXY_AUTHENTICATION_REQUIRED,
-            CurlResponseInterface::CURL_RESPONSE_REQUEST_TIME_OUT,
-            CurlResponseInterface::CURL_RESPONSE_CONFLICT,
-            CurlResponseInterface::CURL_RESPONSE_GONE,
-            CurlResponseInterface::CURL_RESPONSE_LENGTH_REQUIRED,
-            CurlResponseInterface::CURL_RESPONSE_PRECONDITION_FAILED,
-            CurlResponseInterface::CURL_RESPONSE_REQUEST_ENTITY_TOO_LARGE,
-            CurlResponseInterface::CURL_RESPONSE_REQUEST_URI_TOO_LONG,
-            CurlResponseInterface::CURL_RESPONSE_UNSUPPORTED_MEDIA_TYPE,
-            CurlResponseInterface::CURL_RESPONSE_REQUESTED_RANGE_UNSATISFIABLE,
-            CurlResponseInterface::CURL_RESPONSE_EXPECTATION_FAILED,
-            CurlResponseInterface::CURL_RESPONSE_UNPROCESSABLE_ENTITY,
-            CurlResponseInterface::CURL_RESPONSE_LOCKED,
-            CurlResponseInterface::CURL_RESPONSE_METHOD_FAILURE,
-            CurlResponseInterface::CURL_RESPONSE_UPGRADE_REQUIRED,
-            CurlResponseInterface::CURL_RESPONSE_PRECONDITION_REQUIRED,
-            CurlResponseInterface::CURL_RESPONSE_TOO_MANY_REQUESTS,
-            CurlResponseInterface::CURL_RESPONSE_REQUEST_HEADER_FIELDS_TOO_LARGE,
-            CurlResponseInterface::CURL_RESPONSE_INTERNAL_SERVER_ERROR,
-            CurlResponseInterface::CURL_RESPONSE_NOT_IMPLEMENTED,
-            CurlResponseInterface::CURL_RESPONSE_BAD_GATEWAY_OU_PROXY_ERROR,
-            CurlResponseInterface::CURL_RESPONSE_SERVICE_UNAVAILABLE,
-            CurlResponseInterface::CURL_RESPONSE_GATEWAY_TIME_OUT,
-            CurlResponseInterface::CURL_RESPONSE_HTTP_VERSION_NOT_SUPPORTED,
-            CurlResponseInterface::CURL_RESPONSE_VARIANT_ALSO_NEGOTIATES,
-            CurlResponseInterface::CURL_RESPONSE_INSUFFICIENT_STORAGE,
-            CurlResponseInterface::CURL_RESPONSE_LOOP_DETECTED,
-            CurlResponseInterface::CURL_RESPONSE_NOT_EXTENDED,
-            CurlResponseInterface::CURL_RESPONSE_NETWORK_AUTHENTICATION_REQUIRED,
+            RequestInterface::METHOD_DELETE,
+            RequestInterface::METHOD_GET,
+            RequestInterface::METHOD_HEAD,
+            RequestInterface::METHOD_OPTIONS,
+            RequestInterface::METHOD_PATCH,
+            RequestInterface::METHOD_POST,
+            RequestInterface::METHOD_PUT,
         ];
     }
 
     /**
-     * Initialize a cURL stream.
+     * Initialize a stream.
      *
      * @param string $url The URL.
-     * @param CurlConfiguration $config The cURL configuration.
-     * @return resource Returns the cURL stream.
+     * @param Configuration $config The configuration.
+     * @return resource Returns the stream.
      */
-    public static function initStream(string $url, CurlConfiguration $config) {
+    public static function initStream(string $url, Configuration $config) {
 
         $stream = curl_init();
 
@@ -134,7 +134,7 @@ class CurlHelper {
     }
 
     /**
-     * Set the cURL headers.
+     * Set the headers.
      *
      * @param resource $stream The stream.
      * @param array $headers The headers.
@@ -146,7 +146,7 @@ class CurlHelper {
     }
 
     /**
-     * Set cURL POST.
+     * Set POST.
      *
      * @param resource $stream The stream.
      * @param string $method The HTTP method.
@@ -157,19 +157,19 @@ class CurlHelper {
 
         switch ($method) {
 
-            case CurlRequestInterface::CURL_REQUEST_DELETE:
-            case CurlRequestInterface::CURL_REQUEST_OPTIONS:
-            case CurlRequestInterface::CURL_REQUEST_PATCH:
-            case CurlRequestInterface::CURL_REQUEST_PUT:
+            case RequestInterface::METHOD_DELETE:
+            case RequestInterface::METHOD_OPTIONS:
+            case RequestInterface::METHOD_PATCH:
+            case RequestInterface::METHOD_PUT:
                 curl_setopt($stream, CURLOPT_CUSTOMREQUEST, $method);
                 curl_setopt($stream, CURLOPT_POSTFIELDS, $postData);
                 break;
 
-            case CurlRequestInterface::CURL_REQUEST_HEAD:
+            case RequestInterface::METHOD_HEAD:
                 curl_setopt($stream, CURLOPT_NOBODY, true);
                 break;
 
-            case CurlRequestInterface::CURL_REQUEST_POST:
+            case RequestInterface::METHOD_POST:
                 curl_setopt($stream, CURLOPT_POST, true);
                 curl_setopt($stream, CURLOPT_POSTFIELDS, $postData);
                 break;
@@ -177,13 +177,13 @@ class CurlHelper {
     }
 
     /**
-     * Set cURL proxy.
+     * Set proxy.
      *
      * @param resource $stream The stream.
-     * @param CurlConfiguration $config The cURL configuration.
+     * @param Configuration $config The configuration.
      * @return void
      */
-    public static function setProxy($stream, CurlConfiguration $config): void {
+    public static function setProxy($stream, Configuration $config): void {
 
         if (null !== $config->getProxyHost()) {
             curl_setopt($stream, CURLOPT_PROXY, $config->getProxyHost());
@@ -203,7 +203,7 @@ class CurlHelper {
     }
 
     /**
-     * Set cURL return transfer.
+     * Set return transfer.
      *
      * @param resource $stream The stream.
      * @return void
@@ -213,13 +213,13 @@ class CurlHelper {
     }
 
     /**
-     * Set cURL SSL.
+     * Set SSL.
      *
      * @param resource $stream The stream.
-     * @param CurlConfiguration $config The cURL configuration.
+     * @param Configuration $config The configuration.
      * @return void
      */
-    public static function setSsl($stream, CurlConfiguration $config): void {
+    public static function setSsl($stream, Configuration $config): void {
         if (false === $config->getSslVerification()) {
             curl_setopt($stream, CURLOPT_SSL_VERIFYHOST, 0);
             curl_setopt($stream, CURLOPT_SSL_VERIFYPEER, 0);
@@ -227,40 +227,40 @@ class CurlHelper {
     }
 
     /**
-     * Set cURL timeout.
+     * Set timeout.
      *
      * @param resource $stream The stream.
-     * @param CurlConfiguration $config The cURL configuration.
+     * @param Configuration $config The configuration.
      * @return void
      */
-    public static function setTimeout($stream, CurlConfiguration $config): void {
+    public static function setTimeout($stream, Configuration $config): void {
         if (0 < $config->getRequestTimeout()) {
             curl_setopt($stream, CURLOPT_TIMEOUT, $config->getRequestTimeout());
         }
     }
 
     /**
-     * Set cURL user agent.
+     * Set user agent.
      *
      * @param resource $stream The stream.
-     * @param CurlConfiguration $config The cURL configuration.
+     * @param Configuration $config The configuration.
      * @return void
      */
-    public static function setUserAgent($stream, CurlConfiguration $config): void {
+    public static function setUserAgent($stream, Configuration $config): void {
         curl_setopt($stream, CURLOPT_USERAGENT, $config->getUserAgent());
     }
 
     /**
-     * Set cURL verbose.
+     * Set verbose.
      *
      * @param resource $stream The stream.
-     * @param CurlConfiguration $config The cURL configuration.
+     * @param Configuration $config The configuration.
      * @param string $url The URL.
      * @param string $postData The POST data.
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
-    public static function setVerbose($stream, CurlConfiguration $config, string $url, string $postData): void {
+    public static function setVerbose($stream, Configuration $config, string $url, string $postData): void {
 
         if (true === $config->getDebug()) {
 

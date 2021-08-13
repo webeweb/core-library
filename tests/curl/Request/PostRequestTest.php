@@ -12,16 +12,16 @@
 namespace WBW\Library\Curl\Tests\Request;
 
 use Exception;
-use WBW\Library\Curl\Request\CurlPostRequest;
+use WBW\Library\Curl\Request\PostRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL "POST" request test.
+ * POST request test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Request
  */
-class CurlPostRequestTest extends AbstractTestCase {
+class PostRequestTest extends AbstractTestCase {
 
     /**
      * Tests addPostData() method.
@@ -31,7 +31,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      */
     public function testAddPostData(): void {
 
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addPostData("name", "value");
         $res = ["name" => "value"];
@@ -46,14 +46,14 @@ class CurlPostRequestTest extends AbstractTestCase {
      */
     public function testCall(): void {
 
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
         $res = $obj->call();
         $this->assertEquals("header: header", $res->getRequestHeader()[0]);
         $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
-        $this->assertEquals(CurlPostRequest::CURL_REQUEST_POST, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertEquals(PostRequest::METHOD_POST, json_decode($res->getResponseBody(), true)["method"]);
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -65,7 +65,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      */
     public function testClearPostData(): void {
 
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addPostData("name", "value");
         $this->assertCount(1, $obj->getPostData());
@@ -82,7 +82,7 @@ class CurlPostRequestTest extends AbstractTestCase {
      */
     public function testRemovePostData(): void {
 
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $obj->addPostData("name", "value");
         $this->assertCount(1, $obj->getPostData());
@@ -102,11 +102,11 @@ class CurlPostRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new CurlPostRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new PostRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(CurlPostRequest::CURL_REQUEST_POST, $obj->getMethod());
+        $this->assertEquals(PostRequest::METHOD_POST, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());

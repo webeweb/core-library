@@ -12,16 +12,16 @@
 namespace WBW\Library\Curl\Tests\Configuration;
 
 use Exception;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
+use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL configuration test.
+ * Configuration test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Configuration
  */
-class CurlConfigurationTest extends AbstractTestCase {
+class ConfigurationTest extends AbstractTestCase {
 
     /**
      * Tests the clearHeader() method.
@@ -31,7 +31,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testClearHeaders(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $this->assertSame($obj, $obj->addHeader("name", "value"));
         $this->assertCount(1, $obj->getHeaders());
@@ -48,7 +48,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testRemoveHeader(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
         $obj->addHeader("name", "value");
 
         $obj->removeHeader("");
@@ -65,7 +65,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetAllowEncoding(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setAllowEncoding(true);
         $this->assertTrue($obj->getAllowEncoding());
@@ -78,7 +78,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetConnectTimeout(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setConnectTimeout(1);
         $this->assertEquals(1, $obj->getConnectTimeout());
@@ -91,7 +91,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetDebugFile(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setDebugFile("./debugfile.log");
         $this->assertEquals("./debugfile.log", $obj->getDebugFile());
@@ -104,7 +104,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetHost(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setHost("host");
         $this->assertEquals("host", $obj->getHost());
@@ -117,7 +117,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetHttpPassword(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setHttpPassword("httpPassword");
         $this->assertEquals("httpPassword", $obj->getHttpPassword());
@@ -130,7 +130,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetHttpUsername(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setHttpUsername("httpUsername");
         $this->assertEquals("httpUsername", $obj->getHttpUsername());
@@ -143,7 +143,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetProxyHost(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setProxyHost("proxyHost");
         $this->assertEquals("proxyHost", $obj->getProxyHost());
@@ -156,7 +156,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetProxyPassword(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setProxyPassword("proxyPassword");
         $this->assertEquals("proxyPassword", $obj->getProxyPassword());
@@ -169,7 +169,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetProxyPort(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setProxyPort(8080);
         $this->assertEquals(8080, $obj->getProxyPort());
@@ -182,7 +182,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetProxyType(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setProxyType(1);
         $this->assertEquals(1, $obj->getProxyType());
@@ -195,7 +195,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetProxyUsername(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setProxyUsername("proxyUsername");
         $this->assertEquals("proxyUsername", $obj->getProxyUsername());
@@ -208,7 +208,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetRequestTimeout(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setRequestTimeout(1);
         $this->assertEquals(1, $obj->getRequestTimeout());
@@ -221,7 +221,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetSslVerification(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setSslVerification(false);
         $this->assertFalse($obj->getSslVerification());
@@ -234,7 +234,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function testSetUserAgent(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $obj->setUserAgent("userAgent");
         $this->assertEquals("userAgent", $obj->getUserAgent());
@@ -247,7 +247,7 @@ class CurlConfigurationTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new CurlConfiguration();
+        $obj = new Configuration();
 
         $this->assertFalse($obj->getAllowEncoding());
         $this->assertEquals(0, $obj->getConnectTimeout());

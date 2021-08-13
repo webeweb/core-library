@@ -12,24 +12,24 @@
 namespace WBW\Library\Curl\Request;
 
 use InvalidArgumentException;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
+use WBW\Library\Curl\Configuration\Configuration;
 
 /**
- * cURL "DELETE" request.
+ * POST request.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Request
  */
-class CurlDeleteRequest extends AbstractCurlRequest {
+class PostRequest extends AbstractRequest {
 
     /**
      * Constructor.
      *
-     * @param CurlConfiguration $configuration The configuration.
+     * @param Configuration $configuration The configuration.
      * @param string|null $resourcePath The resource path.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is invalid.
      */
-    public function __construct(CurlConfiguration $configuration, ?string $resourcePath) {
-        parent::__construct(self::CURL_REQUEST_DELETE, $configuration, $resourcePath);
+    public function __construct(Configuration $configuration, ?string $resourcePath) {
+        parent::__construct(self::METHOD_POST, $configuration, $resourcePath);
     }
 }

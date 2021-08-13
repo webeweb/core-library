@@ -11,16 +11,16 @@
 
 namespace WBW\Library\Curl\Tests\Response;
 
-use WBW\Library\Curl\Response\CurlResponse;
+use WBW\Library\Curl\Response\Response;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL response test.
+ * Response test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Response
  */
-class CurlResponseTest extends AbstractTestCase {
+class ResponseTest extends AbstractTestCase {
 
     /**
      * Tests the setRequestBody() method.
@@ -29,7 +29,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function testSetRequestBody(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $obj->setRequestBody("requestBody");
         $this->assertEquals("requestBody", $obj->getRequestBody());
@@ -42,7 +42,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function testSetRequestHeader(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $obj->setRequestHeader(["requestHeader" => "requestHeader"]);
         $this->assertEquals(["requestHeader" => "requestHeader"], $obj->getRequestHeader());
@@ -55,7 +55,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function testSetRequestUrl(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $obj->setRequestUrl("requestURL");
         $this->assertEquals("requestURL", $obj->getRequestUrl());
@@ -68,7 +68,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function testSetResponseBody(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $obj->setResponseBody("responseBody");
         $this->assertEquals("responseBody", $obj->getResponseBody());
@@ -81,7 +81,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function testSetResponseHeader(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $obj->setResponseHeader(["responseHeader" => "responseHeader"]);
         $this->assertEquals(["responseHeader" => "responseHeader"], $obj->getResponseHeader());
@@ -94,7 +94,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function testSetResponseInfo(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $obj->setResponseInfo(["responseInfo" => "responseInfo"]);
         $this->assertEquals(["responseInfo" => "responseInfo"], $obj->getResponseInfo());
@@ -107,7 +107,7 @@ class CurlResponseTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new CurlResponse();
+        $obj = new Response();
 
         $this->assertNull($obj->getRequestBody());
         $this->assertEquals([], $obj->getRequestHeader());

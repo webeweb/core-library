@@ -11,16 +11,16 @@
 
 namespace WBW\Library\Curl\Tests\Exception;
 
-use WBW\Library\Curl\Exception\CurlMethodNotAllowedException;
+use WBW\Library\Curl\Exception\MethodNotAllowedException;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL method not allowed exception test.
+ * Method not allowed exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Exception
  */
-class CurlMethodNotAllowedExceptionTest extends AbstractTestCase {
+class MethodNotAllowedExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __construct() method.
@@ -29,7 +29,7 @@ class CurlMethodNotAllowedExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $ex = new CurlMethodNotAllowedException("exception");
+        $ex = new MethodNotAllowedException("exception");
 
         $this->assertEquals('The method "exception" is not allowed', $ex->getMessage());
     }

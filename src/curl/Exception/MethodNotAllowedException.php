@@ -11,25 +11,20 @@
 
 namespace WBW\Library\Curl\Exception;
 
-use Exception;
-
 /**
- * Abstract cURL exception.
+ * Method not allowed exception.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Exception
- * @abstract
  */
-abstract class AbstractCurlException extends Exception {
+class MethodNotAllowedException extends AbstractException {
 
     /**
      * Constructor.
      *
-     * @param string $message The message.
-     * @param int $code The code.
-     * @param Exception|null $previous The previous exception.
+     * @param string $method The method.
      */
-    public function __construct(string $message, int $code = 500, Exception $previous = null) {
-        parent::__construct($message, $code, $previous);
+    public function __construct(string $method) {
+        parent::__construct(sprintf('The method "%s" is not allowed', $method));
     }
 }

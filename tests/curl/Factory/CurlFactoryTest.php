@@ -13,16 +13,16 @@ namespace WBW\Library\Curl\Tests\Factory;
 
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Curl\API\CurlRequestInterface;
-use WBW\Library\Curl\API\CurlResponseInterface;
+use WBW\Library\Curl\API\RequestInterface;
+use WBW\Library\Curl\API\ResponseInterface;
 use WBW\Library\Curl\Factory\CurlFactory;
-use WBW\Library\Curl\Request\CurlDeleteRequest;
-use WBW\Library\Curl\Request\CurlGetRequest;
-use WBW\Library\Curl\Request\CurlHeadRequest;
-use WBW\Library\Curl\Request\CurlOptionsRequest;
-use WBW\Library\Curl\Request\CurlPatchRequest;
-use WBW\Library\Curl\Request\CurlPostRequest;
-use WBW\Library\Curl\Request\CurlPutRequest;
+use WBW\Library\Curl\Request\DeleteRequest;
+use WBW\Library\Curl\Request\GetRequest;
+use WBW\Library\Curl\Request\HeadRequest;
+use WBW\Library\Curl\Request\OptionsRequest;
+use WBW\Library\Curl\Request\PatchRequest;
+use WBW\Library\Curl\Request\PostRequest;
+use WBW\Library\Curl\Request\PutRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
@@ -41,9 +41,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithDelete(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_DELETE);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlDeleteRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_DELETE);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(DeleteRequest::class, $obj);
     }
 
     /**
@@ -54,9 +54,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithGet(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_GET);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlGetRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_GET);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(GetRequest::class, $obj);
     }
 
     /**
@@ -67,9 +67,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithHead(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_HEAD);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlHeadRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_HEAD);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(HeadRequest::class, $obj);
     }
 
     /**
@@ -98,9 +98,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithOptions(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_OPTIONS);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlOptionsRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_OPTIONS);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(OptionsRequest::class, $obj);
     }
 
     /**
@@ -111,9 +111,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithPatch(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_PATCH);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlPatchRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_PATCH);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(PatchRequest::class, $obj);
     }
 
     /**
@@ -124,9 +124,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithPost(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_POST);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlPostRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_POST);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(PostRequest::class, $obj);
     }
 
     /**
@@ -137,9 +137,9 @@ class CurlFactoryTest extends AbstractTestCase {
      */
     public function testNewCurlRequestWithPut(): void {
 
-        $obj = CurlFactory::newCurlRequest(CurlRequestInterface::CURL_REQUEST_PUT);
-        $this->assertInstanceOf(CurlRequestInterface::class, $obj);
-        $this->assertInstanceOf(CurlPutRequest::class, $obj);
+        $obj = CurlFactory::newCurlRequest(RequestInterface::METHOD_PUT);
+        $this->assertInstanceOf(RequestInterface::class, $obj);
+        $this->assertInstanceOf(PutRequest::class, $obj);
     }
 
     /**
@@ -151,6 +151,6 @@ class CurlFactoryTest extends AbstractTestCase {
     public function testNewCurlResponse(): void {
 
         $obj = CurlFactory::newCurlResponse();
-        $this->assertInstanceOf(CurlResponseInterface::class, $obj);
+        $this->assertInstanceOf(ResponseInterface::class, $obj);
     }
 }

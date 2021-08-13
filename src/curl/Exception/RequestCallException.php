@@ -11,20 +11,20 @@
 
 namespace WBW\Library\Curl\Exception;
 
-use WBW\Library\Curl\API\CurlResponseInterface;
+use WBW\Library\Curl\API\ResponseInterface;
 
 /**
- * cURL request call exception.
+ * Request call exception.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Exception
  */
-class CurlRequestCallException extends AbstractCurlException {
+class RequestCallException extends AbstractException {
 
     /**
-     * cURL response.
+     * Response.
      *
-     * @var CurlResponseInterface|null
+     * @var ResponseInterface|null
      */
     private $response;
 
@@ -33,9 +33,9 @@ class CurlRequestCallException extends AbstractCurlException {
      *
      * @param string $message The message.
      * @param int $code The code.
-     * @param CurlResponseInterface $response The response.
+     * @param ResponseInterface $response The response.
      */
-    public function __construct(string $message, int $code, CurlResponseInterface $response) {
+    public function __construct(string $message, int $code, ResponseInterface $response) {
         parent::__construct($message, $code);
         $this->setResponse($response);
     }
@@ -43,19 +43,19 @@ class CurlRequestCallException extends AbstractCurlException {
     /**
      * Get the response.
      *
-     * @return CurlResponseInterface|null Returns the response.
+     * @return ResponseInterface|null Returns the response.
      */
-    public function getResponse(): ?CurlResponseInterface {
+    public function getResponse(): ?ResponseInterface {
         return $this->response;
     }
 
     /**
      * Set the response.
      *
-     * @param CurlResponseInterface $response The response.
-     * @return CurlRequestCallException Returns this request call exception.
+     * @param ResponseInterface $response The response.
+     * @return RequestCallException Returns this request call exception.
      */
-    protected function setResponse(CurlResponseInterface $response): CurlRequestCallException {
+    protected function setResponse(ResponseInterface $response): RequestCallException {
         $this->response = $response;
         return $this;
     }

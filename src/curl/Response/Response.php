@@ -11,15 +11,15 @@
 
 namespace WBW\Library\Curl\Response;
 
-use WBW\Library\Curl\API\CurlResponseInterface;
+use WBW\Library\Curl\API\ResponseInterface;
 
 /**
- * cURL response.
+ * Response.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Response
  */
-class CurlResponse implements CurlResponseInterface {
+class Response implements ResponseInterface {
 
     /**
      * Request body.
@@ -118,9 +118,9 @@ class CurlResponse implements CurlResponseInterface {
      * Set the request body.
      *
      * @param string|null $requestBody The request body.
-     * @return CurlResponse Returns this CURL response.
+     * @return Response Returns this response.
      */
-    public function setRequestBody(?string $requestBody): CurlResponse {
+    public function setRequestBody(?string $requestBody): Response {
         $this->requestBody = $requestBody;
         return $this;
     }
@@ -129,9 +129,9 @@ class CurlResponse implements CurlResponseInterface {
      * Set the request header.
      *
      * @param array $requestHeader The request header.
-     * @return CurlResponse Returns this CURL response.
+     * @return Response Returns this response.
      */
-    public function setRequestHeader(array $requestHeader): CurlResponse {
+    public function setRequestHeader(array $requestHeader): Response {
         $this->requestHeader = $requestHeader;
         return $this;
     }
@@ -140,9 +140,9 @@ class CurlResponse implements CurlResponseInterface {
      * Set the request URL.
      *
      * @param string $requestUrl The request URL.
-     * @return CurlResponse Returns this CURL response.
+     * @return Response Returns this response.
      */
-    public function setRequestUrl(string $requestUrl): CurlResponse {
+    public function setRequestUrl(string $requestUrl): Response {
         $this->requestUrl = $requestUrl;
         return $this;
     }
@@ -151,9 +151,9 @@ class CurlResponse implements CurlResponseInterface {
      * Set the response body.
      *
      * @param string|null $responseBody The response body.
-     * @return CurlResponse Returns this CURL response.
+     * @return Response Returns this response.
      */
-    public function setResponseBody(?string $responseBody): CurlResponse {
+    public function setResponseBody(?string $responseBody): Response {
         $this->responseBody = $responseBody;
         return $this;
     }
@@ -162,9 +162,9 @@ class CurlResponse implements CurlResponseInterface {
      * Set the response header.
      *
      * @param array $responseHeader The response header.
-     * @return CurlResponse Returns this CURL response.
+     * @return Response Returns this response.
      */
-    public function setResponseHeader(array $responseHeader): CurlResponse {
+    public function setResponseHeader(array $responseHeader): Response {
         $this->responseHeader = $responseHeader;
         return $this;
     }
@@ -173,9 +173,9 @@ class CurlResponse implements CurlResponseInterface {
      * Set the response info.
      *
      * @param array $responseInfo The response info.
-     * @return CurlResponse Returns this CURL response.
+     * @return Response Returns this response.
      */
-    public function setResponseInfo(array $responseInfo): CurlResponse {
+    public function setResponseInfo(array $responseInfo): Response {
         $this->responseInfo = $responseInfo;
         return $this;
     }

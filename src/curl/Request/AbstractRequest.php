@@ -13,26 +13,26 @@ namespace WBW\Library\Curl\Request;
 
 use DateTime;
 use InvalidArgumentException;
-use WBW\Library\Curl\API\CurlRequestInterface;
-use WBW\Library\Curl\API\CurlResponseInterface;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
-use WBW\Library\Curl\Exception\CurlRequestCallException;
+use WBW\Library\Curl\API\RequestInterface;
+use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Configuration\Configuration;
+use WBW\Library\Curl\Exception\RequestCallException;
 use WBW\Library\Curl\Factory\CurlFactory;
 use WBW\Library\Curl\Helper\CurlHelper;
 
 /**
- * Abstract cURL request.
+ * Abstract request.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Request
  * @abstract
  */
-abstract class AbstractCurlRequest implements CurlRequestInterface {
+abstract class AbstractRequest implements RequestInterface {
 
     /**
      * Configuration.
      *
-     * @var CurlConfiguration
+     * @var Configuration
      */
     private $configuration;
 
@@ -75,11 +75,11 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
      * Constructor.
      *
      * @param string $method The Method.
-     * @param CurlConfiguration $configuration The configuration.
+     * @param Configuration $configuration The configuration.
      * @param string|null $resourcePath The resource path.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is invalid.
      */
-    protected function __construct(string $method, CurlConfiguration $configuration, ?string $resourcePath) {
+    protected function __construct(string $method, Configuration $configuration, ?string $resourcePath) {
         $this->setConfiguration($configuration);
         $this->setHeaders([]);
         $this->setMethod($method);
@@ -91,7 +91,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function addHeader(string $name, string $value): CurlRequestInterface {
+    public function addHeader(string $name, string $value): RequestInterface {
         $this->headers[$name] = $value;
         return $this;
     }
@@ -99,7 +99,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function addPostData(string $name, string $value): CurlRequestInterface {
+    public function addPostData(string $name, string $value): RequestInterface {
         $this->postData[$name] = $value;
         return $this;
     }
@@ -107,7 +107,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function addQueryData(string $name, string $value): CurlRequestInterface {
+    public function addQueryData(string $name, string $value): RequestInterface {
         $this->queryData[$name] = $value;
         return $this;
     }
@@ -115,7 +115,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function call(): CurlResponseInterface {
+    public function call(): ResponseInterface {
 
         $requestHeader = $this->mergeHeaders();
         $requestBody   = http_build_query($this->getPostData());
@@ -168,34 +168,34 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
             }
         }
 
-        throw new CurlRequestCallException($msg, $curlHttpCode, $response);
+        throw new RequestCallException($msg, $curlHttpCode, $response);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function clearHeaders(): CurlRequestInterface {
+    public function clearHeaders(): RequestInterface {
         return $this->setHeaders([]);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function clearPostData(): CurlRequestInterface {
+    public function clearPostData(): RequestInterface {
         return $this->setPostData([]);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function clearQueryData(): CurlRequestInterface {
+    public function clearQueryData(): RequestInterface {
         return $this->setQueryData([]);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function getConfiguration(): CurlConfiguration {
+    public function getConfiguration(): Configuration {
         return $this->configuration;
     }
 
@@ -311,9 +311,9 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
      * @param string $responseBody The response body.
      * @param array $responseHeader The response header.
      * @param array $responseInfo The response info.
-     * @return CurlResponseInterface Returns the response.
+     * @return ResponseInterface Returns the response.
      */
-    private function prepareResponse(string $requestBody, array $requestHeader, string $requestUri, string $responseBody, array $responseHeader, array $responseInfo): CurlResponseInterface {
+    private function prepareResponse(string $requestBody, array $requestHeader, string $requestUri, string $responseBody, array $responseHeader, array $responseInfo): ResponseInterface {
 
         $response = CurlFactory::newCURLResponse();
         $response->setRequestBody($requestBody);
@@ -329,7 +329,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function removeHeader(string $name): CurlRequestInterface {
+    public function removeHeader(string $name): RequestInterface {
         if (true === array_key_exists($name, $this->headers)) {
             unset($this->headers[$name]);
         }
@@ -339,7 +339,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function removePostData(string $name): CurlRequestInterface {
+    public function removePostData(string $name): RequestInterface {
         if (true === array_key_exists($name, $this->postData)) {
             unset($this->postData[$name]);
         }
@@ -349,7 +349,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function removeQueryData(string $name): CurlRequestInterface {
+    public function removeQueryData(string $name): RequestInterface {
         if (true === array_key_exists($name, $this->queryData)) {
             unset($this->queryData[$name]);
         }
@@ -359,10 +359,10 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * Set the configuration.
      *
-     * @param CurlConfiguration $configuration The configuration.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @param Configuration $configuration The configuration.
+     * @return RequestInterface Returns this request.
      */
-    protected function setConfiguration(CurlConfiguration $configuration): CurlRequestInterface {
+    protected function setConfiguration(Configuration $configuration): RequestInterface {
         $this->configuration = $configuration;
         return $this;
     }
@@ -371,9 +371,9 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
      * Set the headers.
      *
      * @param array $headers The headers.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    protected function setHeaders(array $headers): CurlRequestInterface {
+    protected function setHeaders(array $headers): RequestInterface {
         $this->headers = $headers;
         return $this;
     }
@@ -382,19 +382,19 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
      * Set the method.
      *
      * @param string $method The method.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      * @throws InvalidArgumentException Throws an invalid argument exception if the method is invalid.
      */
-    protected function setMethod(string $method): CurlRequestInterface {
+    protected function setMethod(string $method): RequestInterface {
 
         switch ($method) {
-            case self::CURL_REQUEST_DELETE:
-            case self::CURL_REQUEST_GET:
-            case self::CURL_REQUEST_HEAD:
-            case self::CURL_REQUEST_OPTIONS:
-            case self::CURL_REQUEST_PATCH:
-            case self::CURL_REQUEST_POST:
-            case self::CURL_REQUEST_PUT:
+            case self::METHOD_DELETE:
+            case self::METHOD_GET:
+            case self::METHOD_HEAD:
+            case self::METHOD_OPTIONS:
+            case self::METHOD_PATCH:
+            case self::METHOD_POST:
+            case self::METHOD_PUT:
                 $this->method = $method;
                 break;
             default:
@@ -408,9 +408,9 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
      * Set the POST data.
      *
      * @param array $postData The POST data.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    protected function setPostData(array $postData): CurlRequestInterface {
+    protected function setPostData(array $postData): RequestInterface {
         $this->postData = $postData;
         return $this;
     }
@@ -419,9 +419,9 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
      * Set the query data.
      *
      * @param array $queryData The query data.
-     * @return CurlRequestInterface Returns this cURL request.
+     * @return RequestInterface Returns this request.
      */
-    protected function setQueryData(array $queryData): CurlRequestInterface {
+    protected function setQueryData(array $queryData): RequestInterface {
         $this->queryData = $queryData;
         return $this;
     }
@@ -429,7 +429,7 @@ abstract class AbstractCurlRequest implements CurlRequestInterface {
     /**
      * {@inheritDoc}
      */
-    public function setResourcePath(?string $resourcePath): CurlRequestInterface {
+    public function setResourcePath(?string $resourcePath): RequestInterface {
         $this->resourcePath = preg_replace("/^\//", "", trim($resourcePath));
         return $this;
     }

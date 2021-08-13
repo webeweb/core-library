@@ -15,12 +15,12 @@ use WBW\Library\Traits\Booleans\BooleanDebugTrait;
 use WBW\Library\Traits\Booleans\BooleanVerboseTrait;
 
 /**
- * cURL configuration.
+ * Configuration.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Configuration
  */
-class CurlConfiguration {
+class Configuration {
 
     use BooleanDebugTrait;
     use BooleanVerboseTrait;
@@ -150,9 +150,9 @@ class CurlConfiguration {
      *
      * @param string $name The header name.
      * @param string $value The header value.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function addHeader(string $name, string $value): CurlConfiguration {
+    public function addHeader(string $name, string $value): Configuration {
         $this->headers[$name] = $value;
         return $this;
     }
@@ -160,9 +160,9 @@ class CurlConfiguration {
     /**
      * Clear the headers.
      *
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function clearHeaders(): CurlConfiguration {
+    public function clearHeaders(): Configuration {
         return $this->setHeaders([]);
     }
 
@@ -317,9 +317,9 @@ class CurlConfiguration {
      * Set the allow encoding.
      *
      * @param bool $allowEncoding The allow encoding.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setAllowEncoding(bool $allowEncoding): CurlConfiguration {
+    public function setAllowEncoding(bool $allowEncoding): Configuration {
         $this->allowEncoding = $allowEncoding;
         return $this;
     }
@@ -328,9 +328,9 @@ class CurlConfiguration {
      * Set the connect timeout.
      *
      * @param int $connectTimeout The connect timeout.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setConnectTimeout(int $connectTimeout): CurlConfiguration {
+    public function setConnectTimeout(int $connectTimeout): Configuration {
         $this->connectTimeout = $connectTimeout;
         return $this;
     }
@@ -339,9 +339,9 @@ class CurlConfiguration {
      * Set the debug file.
      *
      * @param string $debugFile The debug file.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setDebugFile(string $debugFile): CurlConfiguration {
+    public function setDebugFile(string $debugFile): Configuration {
         $this->debugFile = $debugFile;
         return $this;
     }
@@ -350,9 +350,9 @@ class CurlConfiguration {
      * Set the headers.
      *
      * @param array $headers The headers
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    protected function setHeaders(array $headers): CurlConfiguration {
+    protected function setHeaders(array $headers): Configuration {
         $this->headers = $headers;
         return $this;
     }
@@ -361,9 +361,9 @@ class CurlConfiguration {
      * Set the host.
      *
      * @param string $host The host.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setHost(string $host): CurlConfiguration {
+    public function setHost(string $host): Configuration {
         $this->host = preg_replace("/\/$/", "", trim($host));
         return $this;
     }
@@ -372,9 +372,9 @@ class CurlConfiguration {
      * Set the HTTP basic password.
      *
      * @param string|null $httpPassword The HTTP basic password.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setHttpPassword(?string $httpPassword): CurlConfiguration {
+    public function setHttpPassword(?string $httpPassword): Configuration {
         $this->httpPassword = $httpPassword;
         return $this;
     }
@@ -383,9 +383,9 @@ class CurlConfiguration {
      * Set the HTTP basic username.
      *
      * @param string|null $httpUsername The HTTP basic username.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setHttpUsername(?string $httpUsername): CurlConfiguration {
+    public function setHttpUsername(?string $httpUsername): Configuration {
         $this->httpUsername = $httpUsername;
         return $this;
     }
@@ -394,9 +394,9 @@ class CurlConfiguration {
      * Set the proxy host.
      *
      * @param string|null $proxyHost The proxy host.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setProxyHost(?string $proxyHost): CurlConfiguration {
+    public function setProxyHost(?string $proxyHost): Configuration {
         $this->proxyHost = $proxyHost;
         return $this;
     }
@@ -405,9 +405,9 @@ class CurlConfiguration {
      * Set the proxy password.
      *
      * @param string|null $proxyPassword The proxy password.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setProxyPassword(?string $proxyPassword): CurlConfiguration {
+    public function setProxyPassword(?string $proxyPassword): Configuration {
         $this->proxyPassword = $proxyPassword;
         return $this;
     }
@@ -416,9 +416,9 @@ class CurlConfiguration {
      * Set the proxy port.
      *
      * @param int|null $proxyPort The proxy port.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setProxyPort(?int $proxyPort): CurlConfiguration {
+    public function setProxyPort(?int $proxyPort): Configuration {
         $this->proxyPort = $proxyPort;
         return $this;
     }
@@ -427,9 +427,9 @@ class CurlConfiguration {
      * Set the proxy type.
      *
      * @param int|null $proxyType The proxy type.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setProxyType(?int $proxyType): CurlConfiguration {
+    public function setProxyType(?int $proxyType): Configuration {
         $this->proxyType = $proxyType;
         return $this;
     }
@@ -438,9 +438,9 @@ class CurlConfiguration {
      * Set the proxy username.
      *
      * @param string|null $proxyUsername The proxy username.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setProxyUsername(?string $proxyUsername): CurlConfiguration {
+    public function setProxyUsername(?string $proxyUsername): Configuration {
         $this->proxyUsername = $proxyUsername;
         return $this;
     }
@@ -449,9 +449,9 @@ class CurlConfiguration {
      * Set the request timeout.
      *
      * @param int $requestTimeout The request timeout.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setRequestTimeout(int $requestTimeout): CurlConfiguration {
+    public function setRequestTimeout(int $requestTimeout): Configuration {
         $this->requestTimeout = $requestTimeout;
         return $this;
     }
@@ -460,9 +460,9 @@ class CurlConfiguration {
      * Set the SSL verification.
      *
      * @param bool $sslVerification The SSL verification.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setSslVerification(bool $sslVerification): CurlConfiguration {
+    public function setSslVerification(bool $sslVerification): Configuration {
         $this->sslVerification = $sslVerification;
         return $this;
     }
@@ -471,9 +471,9 @@ class CurlConfiguration {
      * Set the user agent.
      *
      * @param string $userAgent The user agent.
-     * @return CurlConfiguration Returns this cURL configuration.
+     * @return Configuration Returns this configuration.
      */
-    public function setUserAgent(string $userAgent): CurlConfiguration {
+    public function setUserAgent(string $userAgent): Configuration {
         $this->userAgent = $userAgent;
         return $this;
     }

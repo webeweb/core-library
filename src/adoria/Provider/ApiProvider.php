@@ -18,8 +18,8 @@ use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Model\Result;
 use WBW\Library\Adoria\Serializer\RequestSerializer;
 use WBW\Library\Adoria\Serializer\ResponseDeserializer;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
-use WBW\Library\Curl\Request\CurlPostRequest;
+use WBW\Library\Curl\Configuration\Configuration;
+use WBW\Library\Curl\Request\PostRequest;
 use WBW\Library\Provider\Exception\ApiException;
 use WBW\Library\Provider\Provider\AbstractProvider;
 
@@ -48,11 +48,11 @@ class ApiProvider extends AbstractProvider implements ApiProviderInterface {
      * @return string Returns the response.
      * @throws ApiException Throws an API exception exception if an error occurs.
      */
-    protected function callAPI(string $resourcePath, array $postData): string {
+    protected function callApi(string $resourcePath, array $postData): string {
 
         try {
 
-            $cURLRequest = new CurlPostRequest(new CurlConfiguration(), $resourcePath);
+            $cURLRequest = new PostRequest(new Configuration(), $resourcePath);
             $cURLRequest->getConfiguration()->addHeader("Accept", "application/json");
             $cURLRequest->getConfiguration()->addHeader("Content-Type", "application/json");
             $cURLRequest->getConfiguration()->setDebug($this->getDebug());

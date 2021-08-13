@@ -12,16 +12,16 @@
 namespace WBW\Library\Curl\Tests\Request;
 
 use Exception;
-use WBW\Library\Curl\Request\CurlDeleteRequest;
+use WBW\Library\Curl\Request\HeadRequest;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL "DELETE" request test.
+ * HEAD request test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Request
  */
-class CurlDeleteRequestTest extends AbstractTestCase {
+class HeadRequestTest extends AbstractTestCase {
 
     /**
      * Tests call() method.
@@ -31,14 +31,14 @@ class CurlDeleteRequestTest extends AbstractTestCase {
      */
     public function testCall(): void {
 
-        $obj = new CurlDeleteRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new HeadRequest($this->curlConfiguration, $this->curlResourcePath);
         $obj->addHeader("header", "header");
         $obj->addQueryData("queryData", "queryData");
 
         $res = $obj->call();
         $this->assertEquals("header: header", $res->getRequestHeader()[0]);
         $this->assertStringContainsString("queryData=queryData", $res->getRequestUrl());
-        $this->assertEquals(CurlDeleteRequest::CURL_REQUEST_DELETE, json_decode($res->getResponseBody(), true)["method"]);
+        $this->assertNull(json_decode($res->getResponseBody(), true));
         $this->assertEquals(200, $res->getResponseInfo()["http_code"]);
     }
 
@@ -50,11 +50,11 @@ class CurlDeleteRequestTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new CurlDeleteRequest($this->curlConfiguration, $this->curlResourcePath);
+        $obj = new HeadRequest($this->curlConfiguration, $this->curlResourcePath);
 
         $this->assertSame($this->curlConfiguration, $obj->getConfiguration());
         $this->assertEquals([], $obj->getHeaders());
-        $this->assertEquals(CurlDeleteRequest::CURL_REQUEST_DELETE, $obj->getMethod());
+        $this->assertEquals(HeadRequest::METHOD_HEAD, $obj->getMethod());
         $this->assertEquals([], $obj->getPostData());
         $this->assertEquals([], $obj->getQueryData());
         $this->assertEquals($this->curlResourcePath, $obj->getResourcePath());

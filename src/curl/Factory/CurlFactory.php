@@ -12,17 +12,17 @@
 namespace WBW\Library\Curl\Factory;
 
 use InvalidArgumentException;
-use WBW\Library\Curl\API\CurlRequestInterface;
-use WBW\Library\Curl\API\CurlResponseInterface;
-use WBW\Library\Curl\Configuration\CurlConfiguration;
-use WBW\Library\Curl\Request\CurlDeleteRequest;
-use WBW\Library\Curl\Request\CurlGetRequest;
-use WBW\Library\Curl\Request\CurlHeadRequest;
-use WBW\Library\Curl\Request\CurlOptionsRequest;
-use WBW\Library\Curl\Request\CurlPatchRequest;
-use WBW\Library\Curl\Request\CurlPostRequest;
-use WBW\Library\Curl\Request\CurlPutRequest;
-use WBW\Library\Curl\Response\CurlResponse;
+use WBW\Library\Curl\API\RequestInterface;
+use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Configuration\Configuration;
+use WBW\Library\Curl\Request\DeleteRequest;
+use WBW\Library\Curl\Request\GetRequest;
+use WBW\Library\Curl\Request\HeadRequest;
+use WBW\Library\Curl\Request\OptionsRequest;
+use WBW\Library\Curl\Request\PatchRequest;
+use WBW\Library\Curl\Request\PostRequest;
+use WBW\Library\Curl\Request\PutRequest;
+use WBW\Library\Curl\Response\Response;
 
 /**
  * cURL factory.
@@ -33,52 +33,52 @@ use WBW\Library\Curl\Response\CurlResponse;
 class CurlFactory {
 
     /**
-     * Create a cURL request.
+     * Create a request.
      *
      * @param string $method The method.
-     * @param CurlConfiguration|null $configuration The configuration.
+     * @param Configuration|null $configuration The configuration.
      * @param string|null $resourcePath The resource path.
-     * @return CurlRequestInterface Returns the cURL request.
+     * @return RequestInterface Returns the request.
      */
-    public static function newCurlRequest(string $method, CurlConfiguration $configuration = null, string $resourcePath = null) {
+    public static function newCurlRequest(string $method, Configuration $configuration = null, string $resourcePath = null) {
 
         if (null === $configuration) {
-            $configuration = new CurlConfiguration();
+            $configuration = new Configuration();
         }
 
         switch ($method) {
 
-            case CurlRequestInterface::CURL_REQUEST_DELETE:
-                return new CurlDeleteRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_DELETE:
+                return new DeleteRequest($configuration, $resourcePath);
 
-            case CurlRequestInterface::CURL_REQUEST_GET:
-                return new CurlGetRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_GET:
+                return new GetRequest($configuration, $resourcePath);
 
-            case CurlRequestInterface::CURL_REQUEST_HEAD:
-                return new CurlHeadRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_HEAD:
+                return new HeadRequest($configuration, $resourcePath);
 
-            case CurlRequestInterface::CURL_REQUEST_OPTIONS:
-                return new CurlOptionsRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_OPTIONS:
+                return new OptionsRequest($configuration, $resourcePath);
 
-            case CurlRequestInterface::CURL_REQUEST_PATCH:
-                return new CurlPatchRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_PATCH:
+                return new PatchRequest($configuration, $resourcePath);
 
-            case CurlRequestInterface::CURL_REQUEST_POST:
-                return new CurlPostRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_POST:
+                return new PostRequest($configuration, $resourcePath);
 
-            case CurlRequestInterface::CURL_REQUEST_PUT:
-                return new CurlPutRequest($configuration, $resourcePath);
+            case RequestInterface::METHOD_PUT:
+                return new PutRequest($configuration, $resourcePath);
         }
 
         throw new InvalidArgumentException(sprintf('The HTTP method "%s" is invalid', $method));
     }
 
     /**
-     * Create a cURL response.
+     * Create a response.
      *
-     * @return CurlResponseInterface Returns the cURL response.
+     * @return ResponseInterface Returns the response.
      */
-    public static function newCurlResponse(): CurlResponseInterface {
-        return new CurlResponse();
+    public static function newCurlResponse(): ResponseInterface {
+        return new Response();
     }
 }

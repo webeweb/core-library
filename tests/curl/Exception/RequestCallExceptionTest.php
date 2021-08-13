@@ -11,17 +11,17 @@
 
 namespace WBW\Library\Curl\Tests\Exception;
 
-use WBW\Library\Curl\Exception\CurlRequestCallException;
-use WBW\Library\Curl\Response\CurlResponse;
+use WBW\Library\Curl\Exception\RequestCallException;
+use WBW\Library\Curl\Response\Response;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
- * cURL request call exception test.
+ * Request call exception test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Curl\Tests\Exception
  */
-class CurlRequestCallExceptionTest extends AbstractTestCase {
+class RequestCallExceptionTest extends AbstractTestCase {
 
     /**
      * Tests the __constructor() method.
@@ -30,7 +30,7 @@ class CurlRequestCallExceptionTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new CurlRequestCallException("exception", 404, new CurlResponse());
+        $obj = new RequestCallException("exception", 404, new Response());
 
         $this->assertEquals(404, $obj->getCode());
         $this->assertEquals("exception", $obj->getMessage());
