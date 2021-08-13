@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Archive\Helper;
 
 use InvalidArgumentException;
 use RecursiveDirectoryIterator;
@@ -20,7 +20,7 @@ use ZipArchive;
  * Archive helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Archive\Helper
  */
 class ArchiveHelper {
 

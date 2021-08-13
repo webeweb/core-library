@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Archive\Tests\Helper;
 
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Utility\ArchiveHelper;
+use WBW\Library\Archive\Helper\ArchiveHelper;
+use WBW\Library\Archive\Tests\AbstractTestCase;
 
 /**
  * Archive helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Archive\Tests\Helper
  */
 class ArchiveHelperTest extends AbstractTestCase {
 
