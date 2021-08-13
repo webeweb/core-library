@@ -12,6 +12,7 @@
 namespace WBW\Library\Provider\Exception;
 
 use Exception;
+use WBW\Library\Core\Exception\AbstractException as BaseException;
 
 /**
  * API exception.
@@ -19,7 +20,7 @@ use Exception;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Provider\Exception
  */
-class ApiException extends Exception {
+class ApiException extends BaseException {
 
     /**
      * Constructor.

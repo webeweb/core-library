@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Curl\Exception;
 
+use Exception;
 use WBW\Library\Core\Exception\AbstractException as BaseException;
 
 /**
