@@ -23,7 +23,7 @@ use WBW\Library\Image\Model\ImageInterface;
 class ImageHelper {
 
     /**
-     * Create new dimensions.
+     * Creates new dimensions.
      *
      * @param Image $image The image.
      * @param int $maxWidth The maximum width.
