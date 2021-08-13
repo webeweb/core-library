@@ -9,16 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Provider;
+namespace WBW\Library\Provider\Tests;
 
-use WBW\Library\Provider\Tests\AbstractTestCase;
-use WBW\Library\Provider\Tests\Fixtures\Provider\TestProvider;
+use WBW\Library\Provider\Tests\Fixtures\TestProvider;
 
 /**
  * Abstract provider test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Provider
+ * @package WBW\Library\Provider\Tests
  */
 class AbstractProviderTest extends AbstractTestCase {
 

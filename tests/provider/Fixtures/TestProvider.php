@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Tests\Fixtures\Provider;
+namespace WBW\Library\Provider\Tests\Fixtures;
 
 use Psr\Log\LoggerInterface;
-use WBW\Library\Provider\Provider\AbstractProvider;
+use WBW\Library\Provider\AbstractProvider;
 
 /**
  * Test provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Tests\Fixtures\Provider
+ * @package WBW\Library\Provider\Tests\Fixtures
  */
 class TestProvider extends AbstractProvider {
 

@@ -20,8 +20,8 @@ use WBW\Library\Adoria\Serializer\RequestSerializer;
 use WBW\Library\Adoria\Serializer\ResponseDeserializer;
 use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Request\PostRequest;
+use WBW\Library\Provider\AbstractProvider;
 use WBW\Library\Provider\Exception\ApiException;
-use WBW\Library\Provider\Provider\AbstractProvider;
 
 /**
  * API provider.

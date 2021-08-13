@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\Provider;
+namespace WBW\Library\Provider;
 
 use Psr\Log\LoggerInterface;
 use WBW\Library\Traits\Booleans\BooleanDebugTrait;
@@ -18,7 +18,7 @@ use WBW\Library\Traits\Booleans\BooleanDebugTrait;
  * Abstract provider.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\Provider
+ * @package WBW\Library\Provider
  * @abstract
  */
 abstract class AbstractProvider {
