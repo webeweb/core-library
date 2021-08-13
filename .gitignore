@@ -2,4 +2,4 @@
 /.phpunit.result.cache
 /composer.lock
 
-/tests/Fixtures/Utility/*thumb*
+/tests/image/Fixtures/*thumb*

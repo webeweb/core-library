@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Image\Tests\Model;
 
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\TestFixtures;
-use WBW\Library\Core\Utility\Image;
+use WBW\Library\Image\Model\Image;
+use WBW\Library\Image\Tests\AbstractTestCase;
+use WBW\Library\Image\Tests\Fixtures\TestFixtures;
 
 /**
  * Image test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Image\Tests\Model
  */
 class ImageTest extends AbstractTestCase {
 
@@ -53,7 +53,7 @@ class ImageTest extends AbstractTestCase {
 
         $obj->init();
         $this->assertEquals([1920, 1037], $obj->getDimensions());
-        $this->assertEquals(getcwd() . "/tests/Fixtures/Utility", $obj->getDirectory());
+        $this->assertEquals(realpath(__DIR__ . "/../Fixtures"), $obj->getDirectory());
         $this->assertEquals("png", $obj->getExtension());
         $this->assertEquals("TestImage_1920x1037.png", $obj->getFilename());
         $this->assertEquals(1037, $obj->getHeight());

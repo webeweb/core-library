@@ -9,13 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Image\Helper;
+
+use WBW\Library\Image\Model\Image;
+use WBW\Library\Image\Model\ImageInterface;
 
 /**
  * Image helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Image\Helper
  */
 class ImageHelper {
 

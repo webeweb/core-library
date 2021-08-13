@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Image\Model;
 
 /**
  * Image interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Image\Model
  */
 interface ImageInterface {
 

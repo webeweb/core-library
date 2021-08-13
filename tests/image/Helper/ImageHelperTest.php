@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Image\Tests\Helper;
 
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\TestFixtures;
-use WBW\Library\Core\Utility\Image;
-use WBW\Library\Core\Utility\ImageHelper;
+use WBW\Library\Image\Helper\ImageHelper;
+use WBW\Library\Image\Model\Image;
+use WBW\Library\Image\Tests\AbstractTestCase;
+use WBW\Library\Image\Tests\Fixtures\TestFixtures;
 
 /**
  * Image helper test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Image\Tests\Helper
  */
 class ImageHelperTest extends AbstractTestCase {
 
