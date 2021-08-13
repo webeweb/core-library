@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database\Connector;
+namespace WBW\Library\Database\Connector;
 
 use Exception;
 use PDO;
-use WBW\Library\Core\Security\Authenticator;
+use WBW\Library\Security\Authenticator;
 
 /**
  * Abstract database connector.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database\Connector
+ * @package WBW\Library\Database\Connector
  */
 abstract class AbstractDatabaseConnector {
 

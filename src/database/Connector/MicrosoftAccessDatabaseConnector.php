@@ -9,17 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database\Connector;
+namespace WBW\Library\Database\Connector;
 
 use InvalidArgumentException;
 use PDO;
-use WBW\Library\Core\Security\Authenticator;
+use WBW\Library\Security\Authenticator;
 
 /**
  * Microsoft Access database connector.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database\Connector
+ * @package WBW\Library\Database\Connector
  */
 class MicrosoftAccessDatabaseConnector extends AbstractDatabaseConnector {
 

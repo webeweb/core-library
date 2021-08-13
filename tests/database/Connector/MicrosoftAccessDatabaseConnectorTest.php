@@ -9,19 +9,19 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database\Connector;
+namespace WBW\Library\Database\Tests\Connector;
 
 use Exception;
 use InvalidArgumentException;
 use PDOException;
-use WBW\Library\Core\Database\Connector\MicrosoftAccessDatabaseConnector;
-use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Database\Connector\MicrosoftAccessDatabaseConnector;
+use WBW\Library\Database\Tests\AbstractTestCase;
 
 /**
  * Microsoft Access database connector test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database\Connector
+ * @package WBW\Library\Database\Tests\Connector
  */
 class MicrosoftAccessDatabaseConnectorTest extends AbstractTestCase {
 

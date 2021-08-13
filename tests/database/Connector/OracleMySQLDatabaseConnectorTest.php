@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Database\Connector;
+namespace WBW\Library\Database\Tests\Connector;
 
 use Exception;
 use PDOException;
-use WBW\Library\Core\Database\Connector\OracleMySQLDatabaseConnector;
-use WBW\Library\Core\Tests\AbstractTestCase;
+use WBW\Library\Database\Connector\OracleMySQLDatabaseConnector;
+use WBW\Library\Database\Tests\AbstractTestCase;
 
 /**
  * Microsoft SQL Server database connector test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Database\Connector
+ * @package WBW\Library\Database\Tests\Connector
  */
 class OracleMySQLDatabaseConnectorTest extends AbstractTestCase {
 

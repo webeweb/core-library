@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Database\Helper;
+namespace WBW\Library\Database\Helper;
 
 /**
  * Paginate helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Database\Helper
+ * @package WBW\Library\Database\Helper
  */
 class PaginateHelper {
 
