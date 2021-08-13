@@ -5,12 +5,16 @@ CHANGELOG
 
 > IMPORTANT NOTICE: The following packages has been moved
 > - WBW\Library\Core\Argument
+> - WBW\Library\Core\Database
 > - WBW\Library\Core\Geometry
+> - WBW\Library\Core\Logger
 > - WBW\Library\Core\Network\CURL
 > - WBW\Library\Core\Network\FTP
 > - WBW\Library\Core\Network\HTTP
+> - WBW\Library\Core\Provider
 > - WBW\Library\Core\Renderer
 > - WBW\Library\Core\Security
+> - WBW\Library\Core\Sorter
 > - WBW\Library\Core\ThirdParty\Adoria
 > - WBW\Library\Core\ThirdParty\OcrLad
 > - WBW\Library\Core\ThirdParty\Quadratus
@@ -19,6 +23,7 @@ CHANGELOG
 
 > IMPORTANT NOTICE: The following packages has been removed
 > - WBW\Library\Core\Transformer
+> - WBW\Library\Core\Utility
 
 ### [7.0.0](https://github.com/webeweb/core-library/tree/v7.0.0) (2021-06-28)
 
