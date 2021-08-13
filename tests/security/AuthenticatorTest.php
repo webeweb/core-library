@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
  *
@@ -9,17 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ftp\Tests\Security;
+namespace WBW\Library\Security\Tests;
 
-use WBW\Library\Ftp\Security\Authenticator;
-use WBW\Library\Ftp\Security\PasswordAuthentication;
-use WBW\Library\Ftp\Tests\AbstractTestCase;
+use WBW\Library\Security\Authenticator;
+use WBW\Library\Security\PasswordAuthentication;
 
 /**
  * Authenticator test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Ftp\Tests\Security
+ * @package WBW\Library\Security\Tests
  */
 class AuthenticatorTest extends AbstractTestCase {
 

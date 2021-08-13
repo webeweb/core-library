@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
  *
@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Ftp\Tests\Security;
 
-use WBW\Library\Ftp\Security\PasswordAuthentication;
+use WBW\Library\Security\PasswordAuthentication;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
 
 /**

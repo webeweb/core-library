@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
  *
@@ -12,7 +12,7 @@
 namespace WBW\Library\Ftp\Client;
 
 use WBW\Library\Ftp\Exception\FtpException;
-use WBW\Library\Ftp\Security\Authenticator;
+use WBW\Library\Security\Authenticator;
 
 /**
  * FTP client.

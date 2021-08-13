@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2021 WEBEWEB
  *
@@ -13,7 +13,7 @@ namespace WBW\Library\Ftp\Tests\Fixtures\Client;
 
 use WBW\Library\Ftp\Client\AbstractClient;
 use WBW\Library\Ftp\Exception\FtpException;
-use WBW\Library\Ftp\Security\Authenticator;
+use WBW\Library\Security\Authenticator;
 
 /**
  * Test client.

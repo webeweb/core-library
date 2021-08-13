@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2018 WEBEWEB
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ftp\Security;
+namespace WBW\Library\Security;
 
 use WBW\Library\Traits\Integers\IntegerPortTrait;
 use WBW\Library\Traits\Strings\StringHostnameTrait;
@@ -18,7 +18,7 @@ use WBW\Library\Traits\Strings\StringHostnameTrait;
  * Authenticator.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Ftp\Security
+ * @package WBW\Library\Security
  */
 class Authenticator {
 
