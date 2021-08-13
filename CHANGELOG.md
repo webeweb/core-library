@@ -3,7 +3,7 @@ CHANGELOG
 
 ### master
 
-> IMPORTANT NOTICE: The following packages has been removed
+> IMPORTANT NOTICE: The following packages has been moved
 > - WBW\Library\Core\Argument
 > - WBW\Library\Core\Geometry
 > - WBW\Library\Core\Network\CURL
@@ -15,8 +15,10 @@ CHANGELOG
 > - WBW\Library\Core\ThirdParty\OcrLad
 > - WBW\Library\Core\ThirdParty\Quadratus
 > - WBW\Library\Core\ThirdParty\SkiData
-> - WBW\Library\Core\Transformer
 > - WBW\Library\Core\Validator
+
+> IMPORTANT NOTICE: The following packages has been removed
+> - WBW\Library\Core\Transformer
 
 ### [7.0.0](https://github.com/webeweb/core-library/tree/v7.0.0) (2021-06-28)
 
