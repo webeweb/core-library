@@ -2,7 +2,7 @@
 
 /*
   /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2017 WEBEWEB
  *

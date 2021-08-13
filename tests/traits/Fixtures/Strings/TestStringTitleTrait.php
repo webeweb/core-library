@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the core-library-package.
+ * This file is part of the core-library package.
  *
  * (c) 2020 WEBEWEB
  *
