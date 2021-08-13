@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.0.0](https://github.com/webeweb/core-library/tree/v8.0.0) (2021-08-13)
 
 > IMPORTANT NOTICE: The following packages has been moved
 > - WBW\Library\Core\Argument
