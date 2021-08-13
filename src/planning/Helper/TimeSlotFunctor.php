@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Planning\Helper;
 
-use WBW\Library\Core\Argument\Helper\DateTimeHelper;
-use WBW\Library\Core\Sorter\FunctorInterface;
+use WBW\Library\Sorter\FunctorInterface;
+use WBW\Library\Types\Helper\DateTimeHelper;
 
 /**
  * Time slot functor.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Model\Organizer
+ * @package WBW\Library\Planning\Helper
  */
 class TimeSlotFunctor implements FunctorInterface {
 

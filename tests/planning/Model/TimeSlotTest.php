@@ -9,20 +9,20 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Utility;
+namespace WBW\Library\Planning\Tests\Model;
 
 use DateTime;
 use Exception;
 use InvalidArgumentException;
-use WBW\Library\Core\Tests\AbstractTestCase;
-use WBW\Library\Core\Tests\Fixtures\TestFixtures;
-use WBW\Library\Core\Utility\TimeSlot;
+use WBW\Library\Planning\Model\TimeSlot;
+use WBW\Library\Planning\Tests\AbstractTestCase;
+use WBW\Library\Planning\Tests\Fixtures\TestFixtures;
 
 /**
  * Time slot test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Utility
+ * @package WBW\Library\Planning\Tests\Model
  */
 class TimeSlotTest extends AbstractTestCase {
 
@@ -31,7 +31,7 @@ class TimeSlotTest extends AbstractTestCase {
      *
      * @var DateTime[]
      */
-    private $dates;
+    private $dateTimes;
 
     /**
      * End date.
@@ -54,7 +54,7 @@ class TimeSlotTest extends AbstractTestCase {
         parent::setUp();
 
         // Set Date/times mock.
-        $this->dates = TestFixtures::getTimeSlotDateTimes();
+        $this->dateTimes = TestFixtures::getDateTimes();
 
         // Set an End date mock.
         $this->endDate = new DateTime("2018-08-06 20:30");
@@ -72,13 +72,13 @@ class TimeSlotTest extends AbstractTestCase {
     public function testGetDuration(): void {
 
         // 08:00-11:00
-        $this->assertEquals(10800, (new TimeSlot($this->dates[0], $this->dates[1]))->getDuration());
+        $this->assertEquals(10800, (new TimeSlot($this->dateTimes[0], $this->dateTimes[1]))->getDuration());
 
         // 08:00-15:00
-        $this->assertEquals(25200, (new TimeSlot($this->dates[0], $this->dates[2]))->getDuration());
+        $this->assertEquals(25200, (new TimeSlot($this->dateTimes[0], $this->dateTimes[2]))->getDuration());
 
         // 08:00-18:00
-        $this->assertEquals(36000, (new TimeSlot($this->dates[0], $this->dates[3]))->getDuration());
+        $this->assertEquals(36000, (new TimeSlot($this->dateTimes[0], $this->dateTimes[3]))->getDuration());
     }
 
     /**

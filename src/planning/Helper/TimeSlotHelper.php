@@ -9,16 +9,17 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Planning\Helper;
 
-use WBW\Library\Core\Argument\Helper\DateTimeHelper;
-use WBW\Library\Core\Sorter\QuickSort;
+use WBW\Library\Planning\Model\TimeSlot;
+use WBW\Library\Sorter\QuickSort;
+use WBW\Library\Types\Helper\DateTimeHelper;
 
 /**
  * Time slot helper.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Planning\Helper
  */
 class TimeSlotHelper {
 

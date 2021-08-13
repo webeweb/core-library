@@ -9,17 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Tests\Fixtures;
+namespace WBW\Library\Planning\Tests\Fixtures;
 
 use DateTime;
 use Exception;
-use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 
 /**
  * Test fixtures.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Tests\Fixtures
+ * @package WBW\Library\Planning\Tests\Fixtures
  */
 class TestFixtures {
 
@@ -29,7 +28,7 @@ class TestFixtures {
      * @return DateTime[] Returns the time slot date/times.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public static function getTimeSlotDateTimes(): array {
+    public static function getDateTimes(): array {
         return [
             new DateTime("2018-08-22 08:00:00"),
             new DateTime("2018-08-22 11:00:00"),

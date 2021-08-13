@@ -9,17 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Core\Utility;
+namespace WBW\Library\Planning\Model;
 
 use DateTime;
 use InvalidArgumentException;
-use WBW\Library\Core\Argument\Helper\DateTimeHelper;
+use WBW\Library\Planning\Helper\TimeSlotHelper;
+use WBW\Library\Types\Helper\DateTimeHelper;
 
 /**
  * Time slot.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Core\Utility
+ * @package WBW\Library\Planning\Model
  */
 class TimeSlot {
 
@@ -52,9 +53,11 @@ class TimeSlot {
      * @throws InvalidArgumentException Throws an illegal argument exception.
      */
     public function __construct(DateTime $startDate, DateTime $endDate) {
+
         if (false === DateTimeHelper::isLessThan($startDate, $endDate)) {
             throw new InvalidArgumentException("The end date must be greater than start date");
         }
+
         $this->setEndDate($endDate);
         $this->setStartDate($startDate);
         $this->setTimeSlots([]);
@@ -114,41 +117,34 @@ class TimeSlot {
      */
     public function leftJoinWithout(): array {
 
-        // Sort and count the time slots.
         $buffer = TimeSlotHelper::merge($this->getTimeSlots());
-        $number = count($buffer);
 
-        // Check the time slots count.
+        $number = count($buffer);
         if (0 === $number) {
             return [$this];
         }
 
-        // Initialize the output.
         $output = [$this];
 
-        // Handle each time slot.
         for ($i = 0; $i < $number; ++$i) {
 
-            //
             $j = count($output) - 1;
 
-            // Left join without.
             $res = TimeSlotHelper::leftJoinWithout($output[$j], $buffer[$i]);
             if (null === $res) {
                 continue;
             }
 
-            //
             $output[$j] = $res[0];
             if (2 === count($res)) {
                 $output[] = $res[1];
             }
         }
 
-        // Return the output.
         if (1 === count($output) && $this === $output[0]) {
             return [];
         }
+
         return $output;
     }
 
@@ -159,12 +155,16 @@ class TimeSlot {
      * @return TimeSlot Returns this time slot.
      */
     public function removeTimeSlot(TimeSlot $timeSlot): TimeSlot {
+
         for ($i = count($this->timeSlots) - 1; 0 <= $i; --$i) {
+
             if (true !== TimeSlotHelper::equals($timeSlot, $this->timeSlots[$i])) {
                 continue;
             }
+
             unset($this->timeSlots[$i]);
         }
+
         return $this;
     }
 
