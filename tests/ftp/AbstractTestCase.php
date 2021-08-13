@@ -11,9 +11,7 @@
 
 namespace WBW\Library\Ftp\Tests;
 
-use PHPUnit\Framework\TestCase;
-use WBW\Library\Security\Authenticator;
-use WBW\Library\Security\PasswordAuthentication;
+use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 
 /**
  * Abstract test case.
@@ -22,14 +20,7 @@ use WBW\Library\Security\PasswordAuthentication;
  * @package WBW\Library\Ftp\Tests
  * @abstract
  */
-abstract class AbstractTestCase extends TestCase {
-
-    /**
-     * Authenticator.
-     *
-     * @var Authenticator
-     */
-    protected $authenticator;
+abstract class AbstractTestCase extends BaseTestCase {
 
     /**
      * Local directory.
@@ -44,13 +35,6 @@ abstract class AbstractTestCase extends TestCase {
      * @var string
      */
     protected $localFile;
-
-    /**
-     * Password authentication.
-     *
-     * @var PasswordAuthentication
-     */
-    protected $passwordAuthentication;
 
     /**
      * Remote directory.
@@ -83,11 +67,7 @@ abstract class AbstractTestCase extends TestCase {
             unlink($this->localFile);
         }
 
-        // Set a Password authentication mock.
-        $this->passwordAuthentication = new PasswordAuthentication("demo", "password");
-
-        // Set an Authenticator mock.
-        $this->authenticator = new Authenticator("test.rebex.net", $this->passwordAuthentication);
-        $this->authenticator->setPort(null);
+        // Set the Authenticator mock.
+        $this->authenticator->setHostname("test.rebex.net");
     }
 }

@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Quadratus\Tests;
 
-use PHPUnit\Framework\TestCase;
+use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 
 /**
  * Abstract test case.
@@ -20,6 +20,6 @@ use PHPUnit\Framework\TestCase;
  * @package WBW\Library\Quadratus\Tests
  * @abstract
  */
-abstract class AbstractTestCase extends TestCase {
+abstract class AbstractTestCase extends BaseTestCase {
 
 }

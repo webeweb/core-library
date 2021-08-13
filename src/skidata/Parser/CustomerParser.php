@@ -11,11 +11,11 @@
 
 namespace WBW\Library\SkiData\Parser;
 
+use WBW\Library\SkiData\Exception\TooLongDataException;
+use WBW\Library\SkiData\Model\Customer;
 use WBW\Library\Types\Exception\IntegerArgumentException;
 use WBW\Library\Types\Helper\BooleanHelper;
 use WBW\Library\Types\Helper\IntegerHelper;
-use WBW\Library\SkiData\Exception\TooLongDataException;
-use WBW\Library\SkiData\Model\Customer;
 
 /**
  * Customer parser.

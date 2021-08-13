@@ -11,9 +11,9 @@
 
 namespace WBW\Library\OcrLad\Tests\Serializer;
 
-use WBW\Library\OcrLad\Tests\Fixtures\Serializer\TestDerDeserializer;
 use WBW\Library\OcrLad\Serializer\DerDeserializer;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
+use WBW\Library\OcrLad\Tests\Fixtures\Serializer\TestDerDeserializer;
 
 /**
  * DER desrializer test.

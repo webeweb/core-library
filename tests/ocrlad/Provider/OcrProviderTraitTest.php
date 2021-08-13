@@ -11,9 +11,9 @@
 
 namespace WBW\Library\OcrLad\Tests\Provider;
 
-use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProviderTrait;
 use WBW\Library\OcrLad\Provider\OcrProvider;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
+use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProviderTrait;
 
 /**
  * OCR provider trait test.

@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Quadratus\Tests\Model\QGI;
 
-use WBW\Library\Quadratus\Tests\AbstractTestCase;
 use WBW\Library\Quadratus\Model\QGI\TypeEvenements;
+use WBW\Library\Quadratus\Tests\AbstractTestCase;
 
 /**
  * Type evenements test.

@@ -11,10 +11,10 @@
 
 namespace WBW\Library\OcrLad\Tests\Provider;
 
-use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProvider;
 use WBW\Library\OcrLad\Model\IOFile;
 use WBW\Library\OcrLad\Provider\OcrProvider;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
+use WBW\Library\OcrLad\Tests\Fixtures\Provider\TestOcrProvider;
 
 /**
  * OCR provider test.

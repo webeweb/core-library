@@ -11,8 +11,7 @@
 
 namespace WBW\Library\SkiData\Tests;
 
-use PHPUnit\Framework\TestCase;
-use Psr\Log\LoggerInterface;
+use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 
 /**
  * Abstract test case.
@@ -21,22 +20,6 @@ use Psr\Log\LoggerInterface;
  * @package WBW\Library\Core\Tests
  * @abstract
  */
-abstract class AbstractTestCase extends TestCase {
+abstract class AbstractTestCase extends BaseTestCase {
 
-    /**
-     * Logger.
-     *
-     * @var LoggerInterface
-     */
-    protected $logger;
-
-    /**
-     * {@inheritDoc}
-     */
-    protected function setUp(): void {
-        parent::setUp();
-
-        // Set a Logger mock.
-        $this->logger = $this->getMockBuilder(LoggerInterface::class)->getMock();
-    }
 }

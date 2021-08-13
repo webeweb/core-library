@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Ftp\Tests\Security;
+namespace WBW\Library\Security\Tests;
 
-use WBW\Library\Security\PasswordAuthentication;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
+use WBW\Library\Security\PasswordAuthentication;
 
 /**
  * Password authentication test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Ftp\Tests\Security
+ * @package WBW\Library\Security\Tests
  */
 class PasswordAuthenticationTest extends AbstractTestCase {
 

@@ -11,9 +11,9 @@
 
 namespace WBW\Library\OcrLad\Tests\Model\Attribute;
 
-use WBW\Library\OcrLad\Tests\Fixtures\Model\Attribute\TestArrayWordsTrait;
 use WBW\Library\OcrLad\Model\Word;
 use WBW\Library\OcrLad\Tests\AbstractTestCase;
+use WBW\Library\OcrLad\Tests\Fixtures\Model\Attribute\TestArrayWordsTrait;
 
 /**
  * Array words trait test.

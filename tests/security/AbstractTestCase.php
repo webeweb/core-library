@@ -11,8 +11,7 @@
 
 namespace WBW\Library\Security\Tests;
 
-use PHPUnit\Framework\TestCase;
-use WBW\Library\Security\PasswordAuthentication;
+use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 
 /**
  * Abstract test case.
@@ -21,22 +20,6 @@ use WBW\Library\Security\PasswordAuthentication;
  * @package WBW\Library\Security\Tests
  * @abstract
  */
-abstract class AbstractTestCase extends TestCase {
+abstract class AbstractTestCase extends BaseTestCase {
 
-    /**
-     * Password authentication.
-     *
-     * @var PasswordAuthentication
-     */
-    protected $passwordAuthentication;
-
-    /**
-     * {@inheritDoc}
-     */
-    protected function setUp(): void {
-        parent::setUp();
-
-        // Set a Password authentication mock.
-        $this->passwordAuthentication = new PasswordAuthentication("demo", "password");
-    }
 }

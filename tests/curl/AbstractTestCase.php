@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Curl\Tests;
 
-use PHPUnit\Framework\TestCase;
+use WBW\Library\Core\Tests\AbstractTestCase as BaseTestCase;
 use WBW\Library\Curl\Configuration\CurlConfiguration;
 
 /**
@@ -21,7 +21,7 @@ use WBW\Library\Curl\Configuration\CurlConfiguration;
  * @package WBW\Library\Curl\Tests
  * @abstract
  */
-abstract class AbstractTestCase extends TestCase {
+abstract class AbstractTestCase extends BaseTestCase {
 
     /**
      * cURL configuration.
