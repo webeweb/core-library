@@ -13,6 +13,7 @@ namespace WBW\Library\Provider\Tests\Fixtures;
 
 use Psr\Log\LoggerInterface;
 use WBW\Library\Provider\AbstractProvider;
+use WBW\Library\Provider\Request\AbstractRequest;
 
 /**
  * Test provider.
@@ -29,6 +30,13 @@ class TestProvider extends AbstractProvider {
      */
     public function __construct(LoggerInterface $logger = null) {
         parent::__construct($logger);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function buildResourcePath(AbstractRequest $request): string {
+        return parent::buildResourcePath($request);
     }
 
     /**

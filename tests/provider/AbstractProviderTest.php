@@ -11,6 +11,10 @@
 
 namespace WBW\Library\Provider\Tests;
 
+use Exception;
+use InvalidArgumentException;
+use WBW\Library\Provider\Tests\Fixtures\Request\TestRequest;
+use WBW\Library\Provider\Tests\Fixtures\Request\TestSubstituableRequest;
 use WBW\Library\Provider\Tests\Fixtures\TestProvider;
 
 /**
@@ -20,6 +24,59 @@ use WBW\Library\Provider\Tests\Fixtures\TestProvider;
  * @package WBW\Library\Provider\Tests
  */
 class AbstractProviderTest extends AbstractTestCase {
+
+    /**
+     * Tests the buildResourcePath() method.
+     *
+     * @return void
+     */
+    public function testBuildResourcePath(): void {
+
+        // Set a Request mock.
+        $request = new TestRequest();
+
+        $obj = new TestProvider();
+
+        $this->assertEquals("/resource-path", $obj->buildResourcePath($request));
+    }
+
+    /**
+     * Tests the buildResourcePath() method.
+     *
+     * @return void
+     */
+    public function testBuildResourcePathWithInvalidArgumentException(): void {
+
+        // Set a Substituable request mock.
+        $request = new TestSubstituableRequest();
+
+        $obj = new TestProvider();
+
+        try {
+
+            $obj->buildResourcePath($request);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals('The substituable value "{id}" is missing', $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the buildResourcePath() method.
+     *
+     * @return void
+     */
+    public function testBuildResourcePathWithSubstituableRequest(): void {
+
+        // Set a Substituable request mock.
+        $request = new TestSubstituableRequest();
+        $request->setId("id");
+
+        $obj = new TestProvider();
+
+        $this->assertEquals("/resource-path/id", $obj->buildResourcePath($request));
+    }
 
     /**
      * Tests the logInfo() method.

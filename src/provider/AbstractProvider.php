@@ -11,7 +11,10 @@
 
 namespace WBW\Library\Provider;
 
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
+use WBW\Library\Provider\API\SubstituableRequestInterface;
+use WBW\Library\Provider\Request\AbstractRequest;
 use WBW\Library\Traits\Booleans\BooleanDebugTrait;
 
 /**
@@ -43,6 +46,28 @@ abstract class AbstractProvider {
     }
 
     /**
+     * Build the resource path.
+     *
+     * @param AbstractRequest $request The request.
+     * @return string Returns the resource path.
+     */
+    protected function buildResourcePath(AbstractRequest $request): string {
+
+        if (false === ($request instanceof SubstituableRequestInterface)) {
+            return $request->getResourcePath();
+        }
+
+        $values = $request->getSubstituables();
+        foreach ($values as $k => $v) {
+            if (null === $v) {
+                throw new InvalidArgumentException(sprintf('The substituable value "%s" is missing', $k));
+            }
+        }
+
+        return str_replace(array_keys($values), array_values($values), $request->getResourcePath());
+    }
+
+    /**
      * Get the logger.
      *
      * @return LoggerInterface|null Returns the logger.
@@ -59,9 +84,11 @@ abstract class AbstractProvider {
      * @return AbstractProvider Returns this provider.
      */
     protected function logInfo(string $message, array $context): AbstractProvider {
+
         if (null !== $this->getLogger()) {
             $this->getLogger()->info($message, $context);
         }
+
         return $this;
     }
 
