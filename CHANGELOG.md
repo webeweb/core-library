@@ -1,9 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [8.1.0](https://github.com/webeweb/core-library/tree/v8.1.0) (2021-08-24)
 
 - Add Substituable request interface
+- Add string icon trait
 
 ### [8.0.0](https://github.com/webeweb/core-library/tree/v8.0.0) (2021-08-13)
 
