@@ -49,6 +49,22 @@ class StringHelper {
     }
 
     /**
+     * Extract upper case letters.
+     *
+     * @param string $str The string.
+     * @param bool $lower Lower case ?
+     * @return string Returns the extracted upper case letters.
+     */
+    public static function extractUpperCase(string $str, bool $lower = false): string {
+
+        preg_match_all("/[A-Z]/", $str, $matches);
+
+        $output = implode("", $matches[0]);
+
+        return true === $lower ? strtolower($output) : $output;
+    }
+
+    /**
      * File size.
      *
      * @param int|null $size The size.
@@ -140,5 +156,72 @@ class StringHelper {
      */
     public static function removeAccents(string $str): string {
         return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($str);
+    }
+
+    /**
+     * Convert a string into human readable.
+     *
+     * @param string $str The string.
+     * @return string Returns the human readable string.
+     */
+    public static function toHumanReadable(string $str): string {
+
+        $callback = function($m) {
+            $join = implode("", [" ", $m[1], $m[2]]);
+            return strtolower($join);
+        };
+
+        $pattern = "/(([a-z])([A-Z]))|(([A-Z])([A-Z][a-z]))/";
+        $replace = "$2$5%s$3$6";
+
+        $explode = preg_replace($pattern, sprintf($replace, " "), $str);
+
+        return preg_replace_callback("/\ ([A-Z])([a-z])/", $callback, $explode);
+    }
+
+    /**
+     * Convert a string into lower camel case.
+     *
+     * @param string $str The string.
+     * @return string Returns the lower camel case string.
+     */
+    public static function toLowerCamelCase(string $str): string {
+
+        $callback = function($m) {
+            return count($m) < 5 ? strtolower($m[2]) . $m[3] : strtolower($m[5]) . $m[6];
+        };
+
+        return preg_replace_callback("/(([A-Z]{1,})([A-Z][a-z].{1,}))|(([A-Z]{1})([a-z].{1,}))/", $callback, $str);
+    }
+
+    /**
+     * Convert a string into snake case.
+     *
+     * @param string $str The string.
+     * @param string $sep The separator.
+     * @return string Returns the snake case string.
+     */
+    public static function toSnakeCase(string $str, string $sep = "_"): string {
+
+        $output = static::toHumanReadable($str);
+        $join   = str_replace(" ", $sep, $output);
+
+        return strtolower($join);
+    }
+
+    /**
+     * Convert a string into upper camel case.
+     *
+     * @param string $str The string.
+     * @return string Returns the upper camel case string.
+     */
+    public static function toUpperCamelCase(string $str): string {
+
+        $output = [
+            strtoupper(substr($str, 0, 1)),
+            substr($str, 1),
+        ];
+
+        return implode("", $output);
     }
 }

@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Tests\Helper;
 
+use Exception;
 use WBW\Library\Types\Helper\StringHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
 
@@ -44,6 +45,25 @@ class StringHelperTest extends AbstractTestCase {
         $arg = ["type" => "text/javascript"];
         $res = '<script type="text/javascript"/>';
         $this->assertEquals($res, StringHelper::domNode("script", null, $arg, true));
+    }
+
+    /**
+     * Tests the extractUpperCase() method
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testExtractUpperCase(): void {
+
+        $this->assertEquals("SB", StringHelper::extractUpperCase("SkeletonBundle"));
+        $this->assertEquals("VATRB", StringHelper::extractUpperCase("VATRateBundle"));
+        $this->assertEquals("ECSVA", StringHelper::extractUpperCase("ExportCSVAction"));
+        $this->assertEquals("ECSV", StringHelper::extractUpperCase("ExportCSV"));
+
+        $this->assertEquals("sb", StringHelper::extractUpperCase("SkeletonBundle", true));
+        $this->assertEquals("vatrb", StringHelper::extractUpperCase("VATRateBundle", true));
+        $this->assertEquals("ecsva", StringHelper::extractUpperCase("ExportCSVAction", true));
+        $this->assertEquals("ecsv", StringHelper::extractUpperCase("ExportCSV", true));
     }
 
     /**
@@ -147,5 +167,61 @@ class StringHelperTest extends AbstractTestCase {
         $this->assertEquals("U", StringHelper::removeAccents("Û"));
         $this->assertEquals("U", StringHelper::removeAccents("Ü"));
         $this->assertEquals("Y", StringHelper::removeAccents("Ý"));
+    }
+
+    /**
+     * Tests the toHumanReadable() method
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testToHumanReadable(): void {
+
+        $this->assertEquals("Skeleton bundle", StringHelper::toHumanReadable("SkeletonBundle"));
+        $this->assertEquals("VAT rate bundle", StringHelper::toHumanReadable("VATRateBundle"));
+        $this->assertEquals("Export CSV action", StringHelper::toHumanReadable("ExportCSVAction"));
+        $this->assertEquals("Export CSV", StringHelper::toHumanReadable("ExportCSV"));
+    }
+
+    /**
+     * Tests the toLowerCamelCase() method
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testToLowerCamelCase(): void {
+
+        $this->assertEquals("skeletonBundle", StringHelper::toLowerCamelCase("SkeletonBundle"));
+        $this->assertEquals("vatRate", StringHelper::toLowerCamelCase("VATRate"));
+        $this->assertEquals("exportCSVAction", StringHelper::toLowerCamelCase("ExportCSVAction"));
+    }
+
+    /**
+     * Tests the toSnakeCase() method
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testToSnakeCase(): void {
+
+        $this->assertEquals("skeleton_bundle", StringHelper::toSnakeCase("SkeletonBundle"));
+        $this->assertEquals("skeleton-bundle", StringHelper::toSnakeCase("SkeletonBundle", "-"));
+
+        $this->assertEquals("vat_rate_bundle", StringHelper::toSnakeCase("VATRateBundle"));
+        $this->assertEquals("vat-rate-bundle", StringHelper::toSnakeCase("VATRateBundle", "-"));
+
+        $this->assertEquals("export_csv", StringHelper::toSnakeCase("exportCSV"));
+        $this->assertEquals("export-csv", StringHelper::toSnakeCase("exportCSV", "-"));
+    }
+
+    /**
+     * Tests the toUpperCamelCase() method
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testToUpperCamelCase(): void {
+
+        $this->assertEquals("SkeletonBundle", StringHelper::toUpperCamelCase("skeletonBundle"));
     }
 }
