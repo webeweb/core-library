@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.2.0](https://github.com/webeweb/core-library/tree/v8.2.0) (2021-08-25)
+
+- Add some methods to manipulate case into String helper
+
 ### [8.1.0](https://github.com/webeweb/core-library/tree/v8.1.0) (2021-08-24)
 
 - Add Substituable request interface
