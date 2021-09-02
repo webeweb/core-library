@@ -23,6 +23,23 @@ use WBW\Library\Types\Exception\StringArgumentException;
 class StringHelper {
 
     /**
+     * Canonicalize.
+     *
+     * @param string|null $str The string.
+     * @return string|null Returns the canonical string.
+     */
+    public function canonicalize(?string $str): ?string {
+
+        if (null === $str) {
+            return null;
+        }
+
+        $encoding = mb_detect_encoding($str);
+
+        return mb_convert_case($str, MB_CASE_LOWER, false !== $encoding ? $encoding : null);
+    }
+
+    /**
      * Create a DOM node.
      *
      * @param string $name The name.

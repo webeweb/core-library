@@ -24,6 +24,17 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class StringHelperTest extends AbstractTestCase {
 
     /**
+     * Tests the canonicalize() method.
+     *
+     * @return void
+     */
+    public function testCanonicalize(): void {
+
+        $this->assertNull(StringHelper::canonicalize(null));
+        $this->assertEquals("john.doe@github.com", StringHelper::canonicalize("John.DOE@GitHub.com"));
+    }
+
+    /**
      * Tests the domNode() method.
      *
      * @return void
