@@ -28,7 +28,7 @@ class StringHelper {
      * @param string|null $str The string.
      * @return string|null Returns the canonical string.
      */
-    public function canonicalize(?string $str): ?string {
+    public static function canonicalize(?string $str): ?string {
 
         if (null === $str) {
             return null;
