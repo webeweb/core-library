@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Update String helper with a canonicalize() method
+
 ### [8.2.0](https://github.com/webeweb/core-library/tree/v8.2.0) (2021-08-25)
 
 - Add some methods to manipulate case into String helper
