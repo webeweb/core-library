@@ -64,10 +64,11 @@ class DefaultRuleSetTest extends AbstractTestCase {
 
         $res = $obj->validate(new TestRule());
         $this->assertCount(1, $res);
+
         $this->assertInstanceOf(StatusInterface::class, $res[0]);
         $this->assertEquals(500, $res[0]->getCode());
         $this->assertEquals("The argument is not an int", $res[0]->getMessage());
-        $this->assertEquals("Test rule", $res[0]->getRuleName());
+        $this->assertNull($res[0]->getRuleName());
     }
 
     /**
