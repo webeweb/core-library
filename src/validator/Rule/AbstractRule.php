@@ -25,33 +25,33 @@ abstract class AbstractRule implements RuleInterface {
     /**
      * Name.
      *
-     * @var string
+     * @var string|null
      */
     private $name;
 
     /**
      * Constructor.
      *
-     * @param string $name The name.
+     * @param string|null $name The name.
      */
-    protected function __construct(string $name) {
+    protected function __construct(?string $name) {
         $this->setName($name);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function getName(): string {
+    public function getName(): ?string {
         return $this->name;
     }
 
     /**
      * Set the name.
      *
-     * @param string $name The name.
+     * @param string|null $name The name.
      * @return RuleInterface Returns this rule.
      */
-    protected function setName(string $name): RuleInterface {
+    protected function setName(?string $name): RuleInterface {
         $this->name = $name;
         return $this;
     }

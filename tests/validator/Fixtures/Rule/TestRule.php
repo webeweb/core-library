@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Validator\Tests\Fixtures\Rule;
 
+use WBW\Library\Validator\API\RuleInterface;
 use WBW\Library\Validator\API\StatusInterface;
 use WBW\Library\Validator\Rule\AbstractRule;
 use WBW\Library\Validator\Status\DefaultStatus;
@@ -28,6 +29,13 @@ class TestRule extends AbstractRule {
      */
     public function __construct() {
         parent::__construct("Test rule");
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setName(?string $name): RuleInterface {
+        return parent::setName($name);
     }
 
     /**

@@ -22,9 +22,9 @@ interface RuleInterface {
     /**
      * Get the name.
      *
-     * @return string Returns the name.
+     * @return string|null Returns the name.
      */
-    public function getName(): string;
+    public function getName(): ?string;
 
     /**
      * Validate.

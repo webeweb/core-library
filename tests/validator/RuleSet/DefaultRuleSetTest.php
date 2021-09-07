@@ -31,19 +31,20 @@ class DefaultRuleSetTest extends AbstractTestCase {
      */
     public function testRemoveRule(): void {
 
+        // Set a Rule mock.
+        $rule = new TestRule();
+
         $obj = new DefaultRuleSet();
 
-        $arg = new TestRule();
-
-        $this->assertSame($obj, $obj->addRule($arg));
+        $this->assertSame($obj, $obj->addRule($rule));
         $this->assertCount(1, $obj->getRules());
-        $this->assertSame($arg, $obj->getRules()[0]);
+        $this->assertSame($rule, $obj->getRules()[0]);
 
         $this->assertSame($obj, $obj->removeRule(new TestRule()));
         $this->assertCount(1, $obj->getRules());
-        $this->assertSame($arg, $obj->getRules()[0]);
+        $this->assertSame($rule, $obj->getRules()[0]);
 
-        $this->assertSame($obj, $obj->removeRule($arg));
+        $this->assertSame($obj, $obj->removeRule($rule));
         $this->assertCount(0, $obj->getRules());
     }
 
@@ -54,8 +55,12 @@ class DefaultRuleSetTest extends AbstractTestCase {
      */
     public function testValidate(): void {
 
+        // Set a Rule mock.
+        $rule = new TestRule();
+        $rule->setName(null);
+
         $obj = new DefaultRuleSet();
-        $obj->addRule(new TestRule());
+        $obj->addRule($rule);
 
         $res = $obj->validate(new TestRule());
         $this->assertCount(1, $res);
