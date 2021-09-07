@@ -13,6 +13,7 @@ namespace WBW\Library\Curl\Tests\Helper;
 
 use WBW\Library\Curl\API\RequestInterface;
 use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Helper\CurlHelper;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
@@ -110,5 +111,24 @@ class CurlHelperTest extends AbstractTestCase {
         $this->assertContains(RequestInterface::METHOD_PATCH, $res);
         $this->assertContains(RequestInterface::METHOD_POST, $res);
         $this->assertContains(RequestInterface::METHOD_PUT, $res);
+    }
+
+    /**
+     * Tests the setProxy() method.
+     *
+     * @retun void
+     */
+    public function testSetProxy(): void {
+
+        // Set a Configuration mock.
+        $config = new Configuration();
+        $config->setProxyHost("https://github.com");
+        $config->setProxyPort(443);
+        $config->setProxyType(0);
+        $config->setProxyUsername("username");
+
+        $stream = CurlHelper::initStream("https://github.com", $config);
+
+        $this->assertNull(CurlHelper::setProxy($stream, $config));
     }
 }
