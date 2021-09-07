@@ -29,4 +29,11 @@ class TestNode extends AbstractNode {
     public function __construct(string $id) {
         parent::__construct($id);
     }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setParent(AbstractNode $parent = null): AbstractNode {
+        return parent::setParent($parent);
+    }
 }

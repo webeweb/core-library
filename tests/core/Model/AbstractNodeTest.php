@@ -23,31 +23,17 @@ use WBW\Library\Core\Tests\Fixtures\Model\TestNode;
 class AbstractNodeTest extends AbstractTestCase {
 
     /**
-     * Tests the addNode() method.
-     *
-     * @return void
-     */
-    public function testAddNode(): void {
-
-        $obj = new TestNode("id");
-        $add = new TestNode("id2");
-
-        $this->assertSame($obj, $obj->addNode($add));
-        $this->assertEquals([$add], $obj->getNodes());
-    }
-
-    /**
      * Tests the clearNode() method.
      *
      * @return void
      */
     public function testClearNode(): void {
 
-        $obj = new TestNode("id");
-        $add = new TestNode("id2");
+        // Set a Node mock.
+        $node = new TestNode("node");
 
-        $this->assertSame($obj, $obj->addNode($add));
-        $this->assertEquals([$add], $obj->getNodes());
+        $obj = new TestNode("id");
+        $obj->addNode($node);
 
         $this->assertSame($obj, $obj->clearNodes());
         $this->assertEquals([], $obj->getNodes());
@@ -60,11 +46,13 @@ class AbstractNodeTest extends AbstractTestCase {
      */
     public function testGetFirstNode(): void {
 
-        $obj = new TestNode("id");
-        $add = new TestNode("id2");
+        // Set a Node mock.
+        $node = new TestNode("node");
 
-        $this->assertSame($obj, $obj->addNode($add));
-        $this->assertSame($add, $obj->getFirstNode());
+        $obj = new TestNode("id");
+        $obj->addNode($node);
+
+        $this->assertSame($node, $obj->getFirstNode());
     }
 
     /**
@@ -74,11 +62,13 @@ class AbstractNodeTest extends AbstractTestCase {
      */
     public function testGetLastNode(): void {
 
-        $obj = new TestNode("id");
-        $add = new TestNode("id2");
+        // Set a Node mock.
+        $node = new TestNode("node");
 
-        $this->assertSame($obj, $obj->addNode($add));
-        $this->assertSame($add, $obj->getLastNode());
+        $obj = new TestNode("id");
+        $obj->addNode($node);
+
+        $this->assertSame($node, $obj->getLastNode());
     }
 
     /**
@@ -88,12 +78,14 @@ class AbstractNodeTest extends AbstractTestCase {
      */
     public function testGetNodeAt(): void {
 
-        $obj = new TestNode("id");
-        $add = new TestNode("id2");
+        // Set a Node mock.
+        $node = new TestNode("node");
 
-        $this->assertSame($obj, $obj->addNode($add));
+        $obj = new TestNode("id");
+        $obj->addNode($node);
+
         $this->assertNull($obj->getNodeAt(-1));
-        $this->assertSame($add, $obj->getNodeAt(0));
+        $this->assertSame($node, $obj->getNodeAt(0));
         $this->assertNull($obj->getNodeAt(1));
     }
 
@@ -104,16 +96,18 @@ class AbstractNodeTest extends AbstractTestCase {
      */
     public function testGetNodeById(): void {
 
-        $obj  = new TestNode("id");
-        $add1 = new TestNode("id2");
-        $add2 = new TestNode("id3");
+        // Set the Node mocks.
+        $node1 = new TestNode("node1");
+        $node2 = new TestNode("node2");
 
-        $this->assertSame($obj, $obj->addNode($add1));
-        $this->assertSame($add1, $add1->addNode($add2));
+        $obj = new TestNode("id");
+        $obj->addNode($node1);
+        $obj->getFirstNode()->addNode($node2);
+
+        $this->assertSame($node1, $obj->getNodeById("node1"));
+        $this->assertSame($node2, $obj->getNodeById("node2", true));
         $this->assertNull($obj->getNodeById("exception"));
-        $this->assertSame($add1, $obj->getNodeById("id2"));
-        $this->assertNull($obj->getNodeById("id3"));
-        $this->assertSame($add2, $obj->getNodeById("id3", true));
+        $this->assertNull($obj->getNodeById("node3"));
     }
 
     /**
@@ -123,14 +117,32 @@ class AbstractNodeTest extends AbstractTestCase {
      */
     public function testRemoveNode(): void {
 
+        // Set a Node mock.
+        $node = new TestNode("node");
+
         $obj = new TestNode("id");
-        $add = new TestNode("id2");
+        $obj->addNode($node);
 
-        $this->assertSame($obj, $obj->addNode($add));
-        $this->assertEquals([$add], $obj->getNodes());
+        $this->assertEquals([$node], $obj->getNodes());
 
-        $this->assertSame($obj, $obj->removeNode($add));
+        $this->assertSame($obj, $obj->removeNode($node));
         $this->assertEquals([], $obj->getNodes());
+    }
+
+    /**
+     * Tests the setParent() method.
+     *
+     * @return void
+     */
+    public function testSetParent(): void {
+
+        // Set a Node mock.
+        $parent = new TestNode("");
+
+        $obj = new TestNode("id");
+        $obj->setParent($parent);
+
+        $this->assertSame($parent, $obj->getParent());
     }
 
     /**
@@ -140,12 +152,14 @@ class AbstractNodeTest extends AbstractTestCase {
      */
     public function testSize(): void {
 
+        // Set a Node mock.
+        $node = new TestNode("node");
+
         $obj = new TestNode("id");
-        $add = new TestNode("id2");
 
         $this->assertEquals(0, $obj->size());
 
-        $this->assertSame($obj, $obj->addNode($add));
+        $this->assertSame($obj, $obj->addNode($node));
         $this->assertEquals(1, $obj->size());
     }
 
