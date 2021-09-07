@@ -32,7 +32,13 @@ class JsonSerializerHelper {
         $output = [];
 
         foreach ($models as $current) {
-            $output[] = static::jsonSerializeModel($current);
+
+            $array = static::jsonSerializeModel($current);
+            if (null === $array) {
+                continue;
+            }
+
+            $output[] = $array;
         }
 
         return $output;
@@ -42,12 +48,12 @@ class JsonSerializerHelper {
      * Serializes a model.
      *
      * @param JsonSerializable|null $model The model.
-     * @return array Returns the serialized model.
+     * @return array|null Returns the serialized model.
      */
-    public static function jsonSerializeModel(?JsonSerializable $model): array {
+    public static function jsonSerializeModel(?JsonSerializable $model): ?array {
 
         if (null === $model) {
-            return [];
+            return null;
         }
 
         return $model->jsonSerialize();
