@@ -108,8 +108,6 @@ class StringHelper {
                 return sprintf("$format $k", $size / $v);
             }
         }
-
-        return "";
     }
 
     /**
