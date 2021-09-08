@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Bill\Tests\Helper;
 
-use WBW\Library\Bill\Helper\BillableDetailHelper;
+use WBW\Library\Bill\Helper\BillableHelper;
 use WBW\Library\Bill\Tests\AbstractTestCase;
+use WBW\Library\Bill\Tests\Fixtures\Helper\TestBillableHelper;
+use WBW\Library\Bill\Tests\Fixtures\Model\TestBillable;
 use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 
 /**
@@ -30,30 +32,35 @@ class BillableHelperTest extends AbstractTestCase {
      */
     public function testCalcDiscountTotal(): void {
 
-        // Set a Billable detail mock.
-        $billableDetail = new TestBillableDetail();
-        $billableDetail->setExcludingVatPrice(100);
-        $billableDetail->setDiscountRate(20);
+        // Set the Billable detail mocks.
+        $detail = new TestBillableDetail();
+        $detail->setExcludingVatPrice(100);
+        $detail->setQuantity(1);
+        $detail->setDiscountRate(20);
 
-        $this->assertEquals(0.0, BillableDetailHelper::calcDiscountTotal($billableDetail));
+        $obj = new TestBillable();
+        $obj->addDetail($detail);
 
-        $billableDetail->setQuantity(2);
-        $this->assertEquals(40.0, BillableDetailHelper::calcDiscountTotal($billableDetail));
+        $this->assertEquals(20, BillableHelper::calcDiscountTotal($obj));
     }
 
     /**
-     * Tests the calcIncludingVatTotal() method.
+     * Tests the calcExcludingVatTotal() method.
      *
      * @return void
      */
     public function testCalcExcludingVatTotal(): void {
 
-        // Set a Billable detail mock.
-        $billableDetail = new TestBillableDetail();
-        $billableDetail->setIncludingVatPrice(240);
-        $billableDetail->setVatRate(20);
+        // Set the Billable detail mocks.
+        $detail = new TestBillableDetail();
+        $detail->setExcludingVatPrice(100);
+        $detail->setQuantity(1);
+        $detail->setVatRate(20);
 
-        $this->assertEquals(200.0, BillableDetailHelper::calcExcludingVatTotal($billableDetail));
+        $obj = new TestBillable();
+        $obj->addDetail($detail);
+
+        $this->assertEquals(100, BillableHelper::calcExcludingVatTotal($obj));
     }
 
     /**
@@ -63,15 +70,35 @@ class BillableHelperTest extends AbstractTestCase {
      */
     public function testCalcIncludingVatTotal(): void {
 
-        // Set a Billable detail mock.
-        $billableDetail = new TestBillableDetail();
-        $billableDetail->setExcludingVatPrice(100);
-        $billableDetail->setVatRate(20);
+        // Set the Billable detail mocks.
+        $detail = new TestBillableDetail();
+        $detail->setExcludingVatPrice(100);
+        $detail->setQuantity(1);
+        $detail->setVatRate(20);
 
-        $this->assertEquals(0.0, BillableDetailHelper::calcIncludingVatTotal($billableDetail));
+        $obj = new TestBillable();
+        $obj->addDetail($detail);
 
-        $billableDetail->setQuantity(2);
-        $this->assertEquals(240.0, BillableDetailHelper::calcIncludingVatTotal($billableDetail));
+        $this->assertEquals(120, BillableHelper::calcIncludingVatTotal($obj));
+    }
+
+    /**
+     * Tests the calcTotal() method.
+     *
+     * @return void
+     */
+    public function testCalcTotal(): void {
+
+        // Set the Billable detail mocks.
+        $detail = new TestBillableDetail();
+        $detail->setExcludingVatPrice(100);
+        $detail->setQuantity(1);
+        $detail->setDiscountRate(20);
+
+        $obj = new TestBillable();
+        $obj->addDetail($detail);
+
+        $this->assertEquals(0.0, TestBillableHelper::calcTotal($obj, "exception"));
     }
 
     /**
@@ -81,14 +108,15 @@ class BillableHelperTest extends AbstractTestCase {
      */
     public function testCalcVatTotal(): void {
 
-        // Set a Billable detail mock.
-        $billableDetail = new TestBillableDetail();
-        $billableDetail->setExcludingVatPrice(100);
-        $billableDetail->setVatRate(20);
+        // Set the Billable detail mocks.
+        $detail = new TestBillableDetail();
+        $detail->setExcludingVatPrice(100);
+        $detail->setQuantity(1);
+        $detail->setVatRate(20);
 
-        $this->assertEquals(0.0, BillableDetailHelper::calcVatTotal($billableDetail));
+        $obj = new TestBillable();
+        $obj->addDetail($detail);
 
-        $billableDetail->setQuantity(2);
-        $this->assertEquals(40.0, BillableDetailHelper::calcVatTotal($billableDetail));
+        $this->assertEquals(20, BillableHelper::calcVatTotal($obj));
     }
 }
