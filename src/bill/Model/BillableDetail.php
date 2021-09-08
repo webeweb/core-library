@@ -29,8 +29,9 @@ use WBW\Library\Traits\Strings\StringReferenceTrait;
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
+ * @abstract
  */
-class BillableDetail implements BillableDetailInterface {
+abstract class BillableDetail implements BillableDetailInterface {
 
     use FloatDiscountRateTrait;
     use FloatQuantityTrait;
