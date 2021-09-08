@@ -24,14 +24,14 @@ class TestTaxableHelper extends TaxableHelper {
     /**
      * {@inheritDoc}
      */
-    public static function calcDiscountRatio(?float $discountRate, bool $minusOne = false): float {
-        return parent::calcDiscountRatio($discountRate, $minusOne);
+    public static function getDiscountRatio(?float $discountRate, bool $minusOne = false): float {
+        return parent::getDiscountRatio($discountRate, $minusOne);
     }
 
     /**
      * {@inheritDoc}
      */
-    public static function calcVatRatio(?float $vatRate, bool $plusOne = false): float {
-        return parent::calcVatRatio($vatRate, $plusOne);
+    public static function getVatRatio(?float $vatRate, bool $plusOne = false): float {
+        return parent::getVatRatio($vatRate, $plusOne);
     }
 }

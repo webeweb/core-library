@@ -44,20 +44,6 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcDiscountRatio() method.
-     *
-     * @return void
-     */
-    public function testCalcDiscountRatio(): void {
-
-        $this->assertEquals(0.0, TestTaxableHelper::calcDiscountRatio(null));
-        $this->assertEquals(0.0, TestTaxableHelper::calcDiscountRatio(-1));
-        $this->assertEquals(0.0, TestTaxableHelper::calcDiscountRatio(101));
-        $this->assertEquals(0.2, TestTaxableHelper::calcDiscountRatio(20));
-        $this->assertEquals(0.8, TestTaxableHelper::calcDiscountRatio(20, true));
-    }
-
-    /**
      * Tests the calcExcludingVatPrice() method.
      *
      * @return void
@@ -96,6 +82,9 @@ class TaxableHelperTest extends AbstractTestCase {
 
         $taxable->setVatRate(20);
         $this->assertEquals(120.0, TaxableHelper::calcIncludingVatPrice($taxable));
+
+        $taxable->setDiscountRate(20);
+        $this->assertEquals(96.0, TaxableHelper::calcIncludingVatPrice($taxable));
     }
 
     /**
@@ -121,17 +110,31 @@ class TaxableHelperTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the calcVatRatio() method.
+     * Tests the getDiscountRatio() method.
      *
      * @return void
      */
-    public function testCalcVatRatio(): void {
+    public function testGetDiscountRatio(): void {
 
-        $this->assertEquals(0.0, TestTaxableHelper::calcVatRatio(null));
-        $this->assertEquals(0.0, TestTaxableHelper::calcVatRatio(-1));
-        $this->assertEquals(0.0, TestTaxableHelper::calcVatRatio(101));
+        $this->assertEquals(0.0, TestTaxableHelper::getDiscountRatio(null));
+        $this->assertEquals(0.0, TestTaxableHelper::getDiscountRatio(-1));
+        $this->assertEquals(0.0, TestTaxableHelper::getDiscountRatio(101));
+        $this->assertEquals(0.2, TestTaxableHelper::getDiscountRatio(20));
+        $this->assertEquals(0.8, TestTaxableHelper::getDiscountRatio(20, true));
+    }
 
-        $this->assertEquals(0.2, TestTaxableHelper::calcVatRatio(20));
-        $this->assertEquals(1.2, TestTaxableHelper::calcVatRatio(20, true));
+    /**
+     * Tests the getVatRatio() method.
+     *
+     * @return void
+     */
+    public function testGetVatRatio(): void {
+
+        $this->assertEquals(0.0, TestTaxableHelper::getVatRatio(null));
+        $this->assertEquals(0.0, TestTaxableHelper::getVatRatio(-1));
+        $this->assertEquals(0.0, TestTaxableHelper::getVatRatio(101));
+
+        $this->assertEquals(0.2, TestTaxableHelper::getVatRatio(20));
+        $this->assertEquals(1.2, TestTaxableHelper::getVatRatio(20, true));
     }
 }

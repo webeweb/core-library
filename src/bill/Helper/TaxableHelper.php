@@ -33,25 +33,7 @@ class TaxableHelper {
             return 0.0;
         }
 
-        return $taxable->getExcludingVatPrice() * static::calcDiscountRatio($taxable->getDiscountRate());
-    }
-
-    /**
-     * Calculates a discount ratio.
-     *
-     * @param float|null $discountRate The discount rate.
-     * @param bool $minusOne Minus one ?
-     * @return float Returns the VAT ratio.
-     */
-    protected static function calcDiscountRatio(?float $discountRate, bool $minusOne = false): float {
-
-        if (null === $discountRate || 100 < $discountRate || $discountRate < 0) {
-            $discountRate = 0.0;
-        }
-
-        $ratio = $discountRate / 100;
-
-        return true === $minusOne ? 1 - $ratio : $ratio;
+        return $taxable->getExcludingVatPrice() * static::getDiscountRatio($taxable->getDiscountRate());
     }
 
     /**
@@ -66,8 +48,8 @@ class TaxableHelper {
             return 0.0;
         }
 
-        $dRatio = static::calcDiscountRatio($taxable->getDiscountRate(), true);
-        $tRatio = static::calcVatRatio($taxable->getVatRate(), true);
+        $dRatio = static::getDiscountRatio($taxable->getDiscountRate(), true);
+        $tRatio = static::getVatRatio($taxable->getVatRate(), true);
 
         return $taxable->getIncludingVatPrice() / $tRatio * $dRatio;
     }
@@ -84,8 +66,8 @@ class TaxableHelper {
             return 0.0;
         }
 
-        $dRatio = static::calcDiscountRatio($taxable->getDiscountRate(), true);
-        $tRatio = static::calcVatRatio($taxable->getVatRate(), true);
+        $dRatio = static::getDiscountRatio($taxable->getDiscountRate(), true);
+        $tRatio = static::getVatRatio($taxable->getVatRate(), true);
 
         return $taxable->getExcludingVatPrice() * $dRatio * $tRatio;
     }
@@ -102,20 +84,38 @@ class TaxableHelper {
             return 0.0;
         }
 
-        $dRatio = static::calcDiscountRatio($taxable->getDiscountRate(), true);
-        $tRatio = static::calcVatRatio($taxable->getVatRate());
+        $dRatio = static::getDiscountRatio($taxable->getDiscountRate(), true);
+        $tRatio = static::getVatRatio($taxable->getVatRate());
 
         return $taxable->getExcludingVatPrice() * $dRatio * $tRatio;
     }
 
     /**
-     * Calculates a VAT ratio.
+     * Get a discount ratio.
+     *
+     * @param float|null $discountRate The discount rate.
+     * @param bool $minusOne Minus one ?
+     * @return float Returns the VAT ratio.
+     */
+    protected static function getDiscountRatio(?float $discountRate, bool $minusOne = false): float {
+
+        if (null === $discountRate || 100 < $discountRate || $discountRate < 0) {
+            $discountRate = 0.0;
+        }
+
+        $ratio = $discountRate / 100;
+
+        return true === $minusOne ? 1 - $ratio : $ratio;
+    }
+
+    /**
+     * Get a VAT ratio.
      *
      * @param float|null $vatRate The VAT rate.
      * @param bool $plusOne Plus one ?
      * @return float Returns the VAT ratio.
      */
-    protected static function calcVatRatio(?float $vatRate, bool $plusOne = false): float {
+    protected static function getVatRatio(?float $vatRate, bool $plusOne = false): float {
 
         if (null === $vatRate || 100 < $vatRate || $vatRate < 0) {
             $vatRate = 0.0;
