@@ -42,6 +42,7 @@
         "ext-pdo": "*",
         "ext-zip": "*",
         "psr/log": "^1.0",
+        "doctrine/collections": "^1.5",
         "symfony/yaml": "^2.6|^3.0|^4.0|^5.0"
     },
     "require-dev": {
@@ -57,7 +58,9 @@
     },
     "autoload": {
         "psr-4": {
+            "WBW\\Library\\Accounting\\": "src/accounting/",
             "WBW\\Library\\Adoria\\": "src/adoria/",
+            "WBW\\Library\\Bill\\": "src/bill/",
             "WBW\\Library\\Core\\": "src/core/",
             "WBW\\Library\\Curl\\": "src/curl/",
             "WBW\\Library\\Database\\": "src/database/",
@@ -79,7 +82,9 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "WBW\\Library\\Accounting\\Tests\\": "tests/accounting/",
             "WBW\\Library\\Adoria\\Tests\\": "tests/adoria/",
+            "WBW\\Library\\Bill\\Tests\\": "tests/bill/",
             "WBW\\Library\\Core\\Tests\\": "tests/core/",
             "WBW\\Library\\Curl\\Tests\\": "tests/curl/",
             "WBW\\Library\\Database\\Tests\\": "tests/database/",
