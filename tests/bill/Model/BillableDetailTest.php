@@ -39,6 +39,7 @@ class BillableDetailTest extends AbstractTestCase {
         $this->assertEquals(0.0, $obj->getIncludingVatPrice());
         $this->assertEquals(0.0, $obj->getVatAmount());
         $this->assertEquals(0.0, $obj->getDiscountTotal());
+        $this->assertEquals(0.0, $obj->getExcludingVatTotal());
         $this->assertEquals(0.0, $obj->getIncludingVatTotal());
         $this->assertEquals(0.0, $obj->getVatTotal());
 
@@ -52,6 +53,7 @@ class BillableDetailTest extends AbstractTestCase {
         $this->assertEquals(96.0, $obj->getIncludingVatPrice());
         $this->assertEquals(16.0, $obj->getVatAmount());
         $this->assertEquals(40.0, $obj->getDiscountTotal());
+        $this->assertEquals(160.0, $obj->getExcludingVatTotal());
         $this->assertEquals(192.0, $obj->getIncludingVatTotal());
         $this->assertEquals(32.0, $obj->getVatTotal());
     }
@@ -86,6 +88,8 @@ class BillableDetailTest extends AbstractTestCase {
 
         $this->assertNull($obj->getBillable());
         $this->assertNull($obj->getComment());
+        $this->assertNull($obj->getDiscountAmount());
+        $this->assertNull($obj->getDiscountRate());
         $this->assertNull($obj->getDiscountTotal());
         $this->assertNull($obj->getExcludingVatTotal());
         $this->assertNull($obj->getIncludingVatTotal());

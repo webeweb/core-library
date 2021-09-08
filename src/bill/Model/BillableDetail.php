@@ -67,6 +67,7 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
         parent::onSubmit();
 
         $this->setDiscountTotal(BillableDetailHelper::calcDiscountTotal($this));
+        $this->setExcludingVatTotal(BillableDetailHelper::calcExcludingVatTotal($this));
         $this->setIncludingVatTotal(BillableDetailHelper::calcIncludingVatTotal($this));
         $this->setVatTotal(BillableDetailHelper::calcVatTotal($this));
     }
