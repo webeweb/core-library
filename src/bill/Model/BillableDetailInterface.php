@@ -17,7 +17,7 @@ namespace WBW\Library\Bill\Model;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface BillableDetailInterface {
+interface BillableDetailInterface extends TaxableInterface {
 
     /**
      * Get the billable.
@@ -34,18 +34,11 @@ interface BillableDetailInterface {
     public function getComment(): ?string;
 
     /**
-     * Get the discount rate.
+     * Get the discount total.
      *
-     * @return float|null The discount rate.
+     * @return float|null The discount total.
      */
-    public function getDiscountRate(): ?float;
-
-    /**
-     * Get the excluding VAT price.
-     *
-     * @return float|null The excluding VAT price.
-     */
-    public function getExcludingVatPrice(): ?float;
+    public function getDiscountTotal(): ?float;
 
     /**
      * Get the excluding VAT total.
@@ -53,13 +46,6 @@ interface BillableDetailInterface {
      * @return float|null The excluding VAT total.
      */
     public function getExcludingVatTotal(): ?float;
-
-    /**
-     * Get the including VAT price.
-     *
-     * @return float|null The including VAT price.
-     */
-    public function getIncludingVatPrice(): ?float;
 
     /**
      * Get the including VAT total.
@@ -90,20 +76,6 @@ interface BillableDetailInterface {
     public function getReference(): ?string;
 
     /**
-     * Get the VAT amount.
-     *
-     * @return float|null Returns the VAT amount.
-     */
-    public function getVatAmount(): ?float;
-
-    /**
-     * Get the VAT rate.
-     *
-     * @return float|null Returns the VAT rate.
-     */
-    public function getVatRate(): ?float;
-
-    /**
      * Get the VAT total.
      *
      * @return float|null Returns the VAT total.
@@ -113,9 +85,9 @@ interface BillableDetailInterface {
     /**
      * On submit.
      *
-     * @return BillableDetailInterface Returns this billable detail.
+     * @return void
      */
-    public function onSubmit(): BillableDetailInterface;
+    public function onSubmit(): void;
 
     /**
      * Set the billable.
@@ -134,20 +106,12 @@ interface BillableDetailInterface {
     public function setComment(?string $comment);
 
     /**
-     * Set the discount rate.
+     * Set the discount total.
      *
-     * @param float|null $discountRate The discount rate.
+     * @param float|null $excludingVatTotal The discount total.
      * @return BillableDetailInterface Returns this billable detail.
      */
-    public function setDiscountRate(?float $discountRate);
-
-    /**
-     * Set the excluding VAT price.
-     *
-     * @param float|null $excludingVatPrice The excluding VAT price.
-     * @return BillableDetailInterface Returns this billable detail.
-     */
-    public function setExcludingVatPrice(?float $excludingVatPrice);
+    public function setDiscountTotal(?float $excludingVatTotal);
 
     /**
      * Set the excluding VAT total.
@@ -156,14 +120,6 @@ interface BillableDetailInterface {
      * @return BillableDetailInterface Returns this billable detail.
      */
     public function setExcludingVatTotal(?float $excludingVatTotal);
-
-    /**
-     * Set the including VAT price.
-     *
-     * @param float|null $includingVatPrice The including VAT price.
-     * @return BillableDetailInterface Returns this billable detail.
-     */
-    public function setIncludingVatPrice(?float $includingVatPrice);
 
     /**
      * Set the including VAT total.
@@ -198,27 +154,10 @@ interface BillableDetailInterface {
     public function setReference(?string $reference);
 
     /**
-     * Set the VAT amount.
-     *
-     * @param float|null $vatAmount The VAT amount.
-     * @return BillableDetailInterface Returns this billable detail.
-     */
-    public function setVatAmount(?float $vatAmount);
-
-    /**
-     * Set the VAT rate.
-     *
-     * @param float|null $vatRate The VAT rate.
-     * @return BillableDetailInterface Returns this billable detail.
-     */
-    public function setVatRate(?float $vatRate);
-
-    /**
      * Set the VAT total.
      *
      * @param float|null $vatTotal The VAT total.
      * @return BillableDetailInterface Returns this billable detail.
      */
     public function setVatTotal(?float $vatTotal);
-
 }

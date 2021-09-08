@@ -11,14 +11,11 @@
 
 namespace WBW\Library\Bill\Model;
 
-use WBW\Library\Traits\Floats\FloatDiscountRateTrait;
-use WBW\Library\Traits\Floats\FloatExcludingVatPriceTrait;
+use WBW\Library\Bill\Helper\BillableDetailHelper;
+use WBW\Library\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Traits\Floats\FloatExcludingVatTotalTrait;
-use WBW\Library\Traits\Floats\FloatIncludingVatPriceTrait;
 use WBW\Library\Traits\Floats\FloatIncludingVatTotalTrait;
 use WBW\Library\Traits\Floats\FloatQuantityTrait;
-use WBW\Library\Traits\Floats\FloatVatAmountTrait;
-use WBW\Library\Traits\Floats\FloatVatRateTrait;
 use WBW\Library\Traits\Floats\FloatVatTotalTrait;
 use WBW\Library\Traits\Strings\StringCommentTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
@@ -31,16 +28,12 @@ use WBW\Library\Traits\Strings\StringReferenceTrait;
  * @package WBW\Library\Bill\Model
  * @abstract
  */
-abstract class BillableDetail implements BillableDetailInterface {
+abstract class BillableDetail extends Taxable implements BillableDetailInterface {
 
-    use FloatDiscountRateTrait;
-    use FloatQuantityTrait;
-    use FloatIncludingVatPriceTrait;
+    use FloatDiscountTotalTrait;
     use FloatIncludingVatTotalTrait;
-    use FloatExcludingVatPriceTrait;
     use FloatExcludingVatTotalTrait;
-    use FloatVatAmountTrait;
-    use FloatVatRateTrait;
+    use FloatQuantityTrait;
     use FloatVatTotalTrait;
     use StringCommentTrait;
     use StringLabelTrait;
@@ -70,8 +63,12 @@ abstract class BillableDetail implements BillableDetailInterface {
     /**
      * {@inheritDoc}
      */
-    public function onSubmit(): BillableDetailInterface {
+    public function onSubmit(): void {
+        parent::onSubmit();
 
+        $this->setDiscountTotal(BillableDetailHelper::calcDiscountTotal($this));
+        $this->setIncludingVatTotal(BillableDetailHelper::calcIncludingVatTotal($this));
+        $this->setVatTotal(BillableDetailHelper::calcVatTotal($this));
     }
 
     /**

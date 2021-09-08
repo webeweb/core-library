@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Bill\Tests\Model;
 
+use WBW\Library\Bill\Model\BillableDetail;
 use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
+use WBW\Library\Bill\Model\TaxableInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
 use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 
@@ -41,6 +43,37 @@ class BillableDetailTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the onSubmit() method.
+     *
+     * @return void
+     */
+    public function testOnSubmit(): void {
+
+        $obj = new TestBillableDetail();
+
+        $obj->onSubmit();
+        $this->assertEquals(0.0, $obj->getDiscountAmount());
+        $this->assertEquals(0.0, $obj->getIncludingVatPrice());
+        $this->assertEquals(0.0, $obj->getVatAmount());
+        $this->assertEquals(0.0, $obj->getDiscountTotal());
+        $this->assertEquals(0.0, $obj->getIncludingVatTotal());
+        $this->assertEquals(0.0, $obj->getVatTotal());
+
+        $obj->setExcludingVatPrice(100);
+        $obj->setDiscountRate(20);
+        $obj->setVatRate(20);
+        $obj->setQuantity(2);
+
+        $obj->onSubmit();
+        $this->assertEquals(20.0, $obj->getDiscountAmount());
+        $this->assertEquals(96.0, $obj->getIncludingVatPrice());
+        $this->assertEquals(16.0, $obj->getVatAmount());
+        $this->assertEquals(40.0, $obj->getDiscountTotal());
+        $this->assertEquals(192.0, $obj->getIncludingVatTotal());
+        $this->assertEquals(32.0, $obj->getVatTotal());
+    }
+
+    /**
      * Tests the __construct() method.
      *
      * @return void
@@ -50,19 +83,16 @@ class BillableDetailTest extends AbstractTestCase {
         $obj = new TestBillableDetail();
 
         $this->assertInstanceOf(BillableDetailInterface::class, $obj);
+        $this->assertInstanceOf(TaxableInterface::class, $obj);
 
         $this->assertNull($obj->getBillable());
         $this->assertNull($obj->getComment());
-        $this->assertNull($obj->getDiscountRate());
-        $this->assertNull($obj->getExcludingVatPrice());
+        $this->assertNull($obj->getDiscountTotal());
         $this->assertNull($obj->getExcludingVatTotal());
-        $this->assertNull($obj->getIncludingVatPrice());
         $this->assertNull($obj->getIncludingVatTotal());
         $this->assertNull($obj->getLabel());
         $this->assertNull($obj->getQuantity());
         $this->assertNull($obj->getReference());
-        $this->assertNull($obj->getVatAmount());
-        $this->assertNull($obj->getVatRate());
         $this->assertNull($obj->getVatTotal());
     }
 }
