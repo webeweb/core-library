@@ -32,5 +32,4 @@ class TestFixtures {
             realpath(__DIR__ . "/TestImage_1920x3554.png"),
         ];
     }
-
 }

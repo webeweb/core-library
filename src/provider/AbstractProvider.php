@@ -102,5 +102,4 @@ abstract class AbstractProvider {
         $this->logger = $logger;
         return $this;
     }
-
 }
