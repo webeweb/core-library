@@ -13,6 +13,7 @@ namespace WBW\Library\Bill\Model;
 
 use WBW\Library\Traits\Floats\FloatExcludingVatPriceTrait;
 use WBW\Library\Traits\Floats\FloatIncludingVatPriceTrait;
+use WBW\Library\Traits\Floats\FloatVatAmountTrait;
 use WBW\Library\Traits\Floats\FloatVatRateTrait;
 
 /**
@@ -26,6 +27,7 @@ abstract class Taxable implements TaxableInterface {
 
     use FloatExcludingVatPriceTrait;
     use FloatIncludingVatPriceTrait;
+    use FloatVatAmountTrait;
     use FloatVatRateTrait;
 
     /**

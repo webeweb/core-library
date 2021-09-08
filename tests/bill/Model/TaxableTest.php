@@ -36,6 +36,7 @@ class TaxableTest extends AbstractTestCase {
 
         $this->assertNull($obj->getExcludingVatPrice());
         $this->assertNull($obj->getIncludingVatPrice());
+        $this->assertNull($obj->getVatAmount());
         $this->assertNull($obj->getVatRate());
     }
 }

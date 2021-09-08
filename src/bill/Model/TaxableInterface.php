@@ -34,6 +34,13 @@ interface TaxableInterface {
     public function getIncludingVatPrice(): ?float;
 
     /**
+     * Get the VAT amount.
+     *
+     * @return float|null Returns the VAT amount.
+     */
+    public function getVatAmount(): ?float;
+
+    /**
      * Get the VAT rate.
      *
      * @return float|null Returns the VAT rate.
@@ -55,6 +62,14 @@ interface TaxableInterface {
      * @return TaxableInterface Returns this taxable.
      */
     public function setIncludingVatPrice(?float $includingVatPrice);
+
+    /**
+     * Set the VAT amount.
+     *
+     * @param float|null $vatAmount The VAT amount.
+     * @return TaxableInterface Returns this taxable.
+     */
+    public function setVatAmount(?float $vatAmount);
 
     /**
      * Set the VAT rate.
