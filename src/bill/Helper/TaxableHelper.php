@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Bill\Helper;
 
-use WBW\Library\Bill\Model\Taxable;
 use WBW\Library\Bill\Model\TaxableInterface;
 
 /**
@@ -23,29 +22,47 @@ use WBW\Library\Bill\Model\TaxableInterface;
 class TaxableHelper {
 
     /**
+     * Calculates a discount amount.
+     *
+     * @param TaxableInterface $taxable The taxable.
+     * @return float Returns the discount amount.
+     */
+    public static function calcDiscountAmount(TaxableInterface $taxable): float {
+
+        if (null === $taxable->getExcludingVatPrice()) {
+            return 0.0;
+        }
+
+        return $taxable->getExcludingVatPrice() * static::calcDiscountRatio($taxable->getDiscountRate());
+    }
+
+    /**
      * Calculates a discount ratio.
      *
      * @param float|null $discountRate The discount rate.
+     * @param bool $minusOne Minus one ?
      * @return float Returns the VAT ratio.
      */
-    public static function calcDiscountRatio(?float $discountRate): float {
+    public static function calcDiscountRatio(?float $discountRate, bool $minusOne = false): float {
 
-        if (null === $discountRate || $discountRate < 0) {
-            return 1.0;
+        if (null === $discountRate || 100 < $discountRate || $discountRate < 0) {
+            return 0.0;
         }
 
-        return 1 - $discountRate / 100;
+        $ratio = $discountRate / 100;
+
+        return true === $minusOne ? 1 - $ratio : $ratio;
     }
 
     /**
      * Calculates an excluding VAT price.
      *
-     * @param TaxableInterface|null $taxable The taxable.
+     * @param TaxableInterface $taxable The taxable.
      * @return float Returns the excluding VAT price.
      */
-    public static function calcExcludingVatPrice(?TaxableInterface $taxable): float {
+    public static function calcExcludingVatPrice(TaxableInterface $taxable): float {
 
-        if (null === $taxable || null === $taxable->getIncludingVatPrice()) {
+        if (null === $taxable->getIncludingVatPrice()) {
             return 0.0;
         }
 
@@ -60,12 +77,12 @@ class TaxableHelper {
     /**
      * Calculates an including VAT price.
      *
-     * @param Taxable|null $taxable The taxable.
+     * @param TaxableInterface $taxable The taxable.
      * @return float Returns the including VAT price.
      */
-    public static function calcIncludingVatPrice(?Taxable $taxable): float {
+    public static function calcIncludingVatPrice(TaxableInterface $taxable): float {
 
-        if (null === $taxable || null === $taxable->getExcludingVatPrice()) {
+        if (null === $taxable->getExcludingVatPrice()) {
             return 0.0;
         }
 
@@ -75,12 +92,12 @@ class TaxableHelper {
     /**
      * Calculates a VAT amount.
      *
-     * @param Taxable|null $taxable The taxable.
+     * @param TaxableInterface $taxable The taxable.
      * @return float Returns the VAT amount.
      */
-    public static function calcVatAmount(?Taxable $taxable): float {
+    public static function calcVatAmount(TaxableInterface $taxable): float {
 
-        if (null === $taxable || null === $taxable->getExcludingVatPrice()) {
+        if (null === $taxable->getExcludingVatPrice()) {
             return 0.0;
         }
 
@@ -96,7 +113,7 @@ class TaxableHelper {
      */
     public static function calcVatRatio(?float $vatRate, bool $plusOne = false): float {
 
-        if (null === $vatRate || $vatRate < 0) {
+        if (null === $vatRate || 100 < $vatRate || $vatRate < 0) {
             return 0.0;
         }
 
