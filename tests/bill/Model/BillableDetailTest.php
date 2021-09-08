@@ -12,6 +12,7 @@
 namespace WBW\Library\Bill\Tests\Model;
 
 use WBW\Library\Bill\Model\BillableDetail;
+use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
 
@@ -28,7 +29,7 @@ class BillableDetailTest extends AbstractTestCase {
      *
      * @return void
      */
-    public function tesSetBillable(): void {
+    public function testSetBillable(): void {
 
         // Set a Billable mock.
         $billable = $this->getMockBuilder(BillableInterface::class)->getMock();
@@ -47,6 +48,8 @@ class BillableDetailTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new BillableDetail();
+
+        $this->assertInstanceOf(BillableDetailInterface::class, $obj);
 
         $this->assertNull($obj->getBillable());
         $this->assertNull($obj->getComment());
