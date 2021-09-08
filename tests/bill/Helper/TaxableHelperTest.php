@@ -13,6 +13,7 @@ namespace WBW\Library\Bill\Tests\Helper;
 
 use WBW\Library\Bill\Helper\TaxableHelper;
 use WBW\Library\Bill\Tests\AbstractTestCase;
+use WBW\Library\Bill\Tests\Fixtures\Helper\TestTaxableHelper;
 use WBW\Library\Bill\Tests\Fixtures\Model\TestTaxable;
 
 /**
@@ -49,11 +50,11 @@ class TaxableHelperTest extends AbstractTestCase {
      */
     public function testCalcDiscountRatio(): void {
 
-        $this->assertEquals(0.0, TaxableHelper::calcDiscountRatio(null));
-        $this->assertEquals(0.0, TaxableHelper::calcDiscountRatio(-1));
-        $this->assertEquals(0.0, TaxableHelper::calcDiscountRatio(101));
-        $this->assertEquals(0.2, TaxableHelper::calcDiscountRatio(20));
-        $this->assertEquals(0.8, TaxableHelper::calcDiscountRatio(20, true));
+        $this->assertEquals(0.0, TestTaxableHelper::calcDiscountRatio(null));
+        $this->assertEquals(0.0, TestTaxableHelper::calcDiscountRatio(-1));
+        $this->assertEquals(0.0, TestTaxableHelper::calcDiscountRatio(101));
+        $this->assertEquals(0.2, TestTaxableHelper::calcDiscountRatio(20));
+        $this->assertEquals(0.8, TestTaxableHelper::calcDiscountRatio(20, true));
     }
 
     /**
@@ -69,10 +70,13 @@ class TaxableHelperTest extends AbstractTestCase {
         $this->assertEquals(0.0, TaxableHelper::calcExcludingVatPrice($taxable));
 
         $taxable->setIncludingVatPrice(120);
-        $this->assertEquals(0.0, TaxableHelper::calcExcludingVatPrice($taxable));
+        $this->assertEquals(120.0, TaxableHelper::calcExcludingVatPrice($taxable));
 
         $taxable->setVatRate(20);
         $this->assertEquals(100.0, TaxableHelper::calcExcludingVatPrice($taxable));
+
+        $taxable->setDiscountRate(20);
+        $this->assertEquals(80.0, TaxableHelper::calcExcludingVatPrice($taxable));
     }
 
     /**
@@ -88,7 +92,7 @@ class TaxableHelperTest extends AbstractTestCase {
         $this->assertEquals(0.0, TaxableHelper::calcIncludingVatPrice($taxable));
 
         $taxable->setExcludingVatPrice(100);
-        $this->assertEquals(0.0, TaxableHelper::calcIncludingVatPrice($taxable));
+        $this->assertEquals(100.0, TaxableHelper::calcIncludingVatPrice($taxable));
 
         $taxable->setVatRate(20);
         $this->assertEquals(120.0, TaxableHelper::calcIncludingVatPrice($taxable));
@@ -111,6 +115,9 @@ class TaxableHelperTest extends AbstractTestCase {
 
         $taxable->setVatRate(20);
         $this->assertEquals(20.0, TaxableHelper::calcVatAmount($taxable));
+
+        $taxable->setDiscountRate(20);
+        $this->assertEquals(16.0, TaxableHelper::calcVatAmount($taxable));
     }
 
     /**
@@ -120,11 +127,11 @@ class TaxableHelperTest extends AbstractTestCase {
      */
     public function testCalcVatRatio(): void {
 
-        $this->assertEquals(0.0, TaxableHelper::calcVatRatio(null));
-        $this->assertEquals(0.0, TaxableHelper::calcVatRatio(-1));
-        $this->assertEquals(0.0, TaxableHelper::calcVatRatio(101));
+        $this->assertEquals(0.0, TestTaxableHelper::calcVatRatio(null));
+        $this->assertEquals(0.0, TestTaxableHelper::calcVatRatio(-1));
+        $this->assertEquals(0.0, TestTaxableHelper::calcVatRatio(101));
 
-        $this->assertEquals(0.2, TaxableHelper::calcVatRatio(20));
-        $this->assertEquals(1.2, TaxableHelper::calcVatRatio(20, true));
+        $this->assertEquals(0.2, TestTaxableHelper::calcVatRatio(20));
+        $this->assertEquals(1.2, TestTaxableHelper::calcVatRatio(20, true));
     }
 }

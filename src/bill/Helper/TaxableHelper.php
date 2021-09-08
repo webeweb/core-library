@@ -43,10 +43,10 @@ class TaxableHelper {
      * @param bool $minusOne Minus one ?
      * @return float Returns the VAT ratio.
      */
-    public static function calcDiscountRatio(?float $discountRate, bool $minusOne = false): float {
+    protected static function calcDiscountRatio(?float $discountRate, bool $minusOne = false): float {
 
         if (null === $discountRate || 100 < $discountRate || $discountRate < 0) {
-            return 0.0;
+            $discountRate = 0.0;
         }
 
         $ratio = $discountRate / 100;
@@ -66,12 +66,10 @@ class TaxableHelper {
             return 0.0;
         }
 
-        $ratio = static::calcVatRatio($taxable->getVatRate(), true);
-        if (0.0 === $ratio) {
-            return 0.0;
-        }
+        $dRatio = static::calcDiscountRatio($taxable->getDiscountRate(), true);
+        $tRatio = static::calcVatRatio($taxable->getVatRate(), true);
 
-        return $taxable->getIncludingVatPrice() / $ratio;
+        return $taxable->getIncludingVatPrice() / $tRatio * $dRatio;
     }
 
     /**
@@ -86,7 +84,10 @@ class TaxableHelper {
             return 0.0;
         }
 
-        return $taxable->getExcludingVatPrice() * static::calcVatRatio($taxable->getVatRate(), true);
+        $dRatio = static::calcDiscountRatio($taxable->getDiscountRate(), true);
+        $tRatio = static::calcVatRatio($taxable->getVatRate(), true);
+
+        return $taxable->getExcludingVatPrice() * $dRatio * $tRatio;
     }
 
     /**
@@ -101,7 +102,10 @@ class TaxableHelper {
             return 0.0;
         }
 
-        return $taxable->getExcludingVatPrice() * static::calcVatRatio($taxable->getVatRate());
+        $dRatio = static::calcDiscountRatio($taxable->getDiscountRate(), true);
+        $tRatio = static::calcVatRatio($taxable->getVatRate());
+
+        return $taxable->getExcludingVatPrice() * $dRatio * $tRatio;
     }
 
     /**
@@ -111,10 +115,10 @@ class TaxableHelper {
      * @param bool $plusOne Plus one ?
      * @return float Returns the VAT ratio.
      */
-    public static function calcVatRatio(?float $vatRate, bool $plusOne = false): float {
+    protected static function calcVatRatio(?float $vatRate, bool $plusOne = false): float {
 
         if (null === $vatRate || 100 < $vatRate || $vatRate < 0) {
-            return 0.0;
+            $vatRate = 0.0;
         }
 
         $ratio = $vatRate / 100;
