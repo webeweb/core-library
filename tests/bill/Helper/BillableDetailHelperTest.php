@@ -13,6 +13,7 @@ namespace WBW\Library\Bill\Tests\Helper;
 
 use WBW\Library\Bill\Helper\BillableDetailHelper;
 use WBW\Library\Bill\Tests\AbstractTestCase;
+use WBW\Library\Bill\Tests\Fixtures\Helper\TestBillableDetailHelper;
 use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 
 /**
@@ -34,10 +35,8 @@ class BillableDetailHelperTest extends AbstractTestCase {
         $billableDetail = new TestBillableDetail();
         $billableDetail->setExcludingVatPrice(100);
         $billableDetail->setDiscountRate(20);
-
-        $this->assertEquals(0.0, BillableDetailHelper::calcDiscountTotal($billableDetail));
-
         $billableDetail->setQuantity(2);
+
         $this->assertEquals(40.0, BillableDetailHelper::calcDiscountTotal($billableDetail));
     }
 
@@ -50,10 +49,15 @@ class BillableDetailHelperTest extends AbstractTestCase {
 
         // Set a Billable detail mock.
         $billableDetail = new TestBillableDetail();
-        $billableDetail->setIncludingVatPrice(240);
-        $billableDetail->setVatRate(20);
+        $billableDetail->setQuantity(2);
 
+        $this->assertEquals(0.0, BillableDetailHelper::calcExcludingVatTotal($billableDetail));
+
+        $billableDetail->setExcludingVatPrice(100);
         $this->assertEquals(200.0, BillableDetailHelper::calcExcludingVatTotal($billableDetail));
+
+        $billableDetail->setDiscountRate(20);
+        $this->assertEquals(160.0, BillableDetailHelper::calcExcludingVatTotal($billableDetail));
     }
 
     /**
@@ -66,11 +70,9 @@ class BillableDetailHelperTest extends AbstractTestCase {
         // Set a Billable detail mock.
         $billableDetail = new TestBillableDetail();
         $billableDetail->setExcludingVatPrice(100);
+        $billableDetail->setQuantity(2);
         $billableDetail->setVatRate(20);
 
-        $this->assertEquals(0.0, BillableDetailHelper::calcIncludingVatTotal($billableDetail));
-
-        $billableDetail->setQuantity(2);
         $this->assertEquals(240.0, BillableDetailHelper::calcIncludingVatTotal($billableDetail));
     }
 
@@ -84,11 +86,25 @@ class BillableDetailHelperTest extends AbstractTestCase {
         // Set a Billable detail mock.
         $billableDetail = new TestBillableDetail();
         $billableDetail->setExcludingVatPrice(100);
+        $billableDetail->setQuantity(2);
         $billableDetail->setVatRate(20);
 
-        $this->assertEquals(0.0, BillableDetailHelper::calcVatTotal($billableDetail));
-
-        $billableDetail->setQuantity(2);
         $this->assertEquals(40.0, BillableDetailHelper::calcVatTotal($billableDetail));
+    }
+
+    /**
+     * Tests the getQuantity() method.
+     *
+     * @return void
+     */
+    public function testGetQuantity(): void {
+
+        // Set a Billable detail mock.
+        $billableDetail = new TestBillableDetail();
+
+        $this->assertEquals(0.0, TestBillableDetailHelper::getQuantity($billableDetail));
+
+        $billableDetail->setQuantity(1.0);
+        $this->assertEquals(1.0, TestBillableDetailHelper::getQuantity($billableDetail));
     }
 }

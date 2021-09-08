@@ -19,7 +19,7 @@ use WBW\Library\Bill\Model\BillableDetailInterface;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Helper
  */
-class BillableDetailHelper {
+class BillableDetailHelper extends TaxableHelper {
 
     /**
      * Calculates a discount total.
@@ -28,12 +28,7 @@ class BillableDetailHelper {
      * @return float Returns the VAT total.
      */
     public static function calcDiscountTotal(BillableDetailInterface $billableDetail): float {
-
-        if (null === $billableDetail->getQuantity()) {
-            return 0.0;
-        }
-
-        return TaxableHelper::calcDiscountAmount($billableDetail) * $billableDetail->getQuantity();
+        return TaxableHelper::calcDiscountAmount($billableDetail) * static::getQuantity($billableDetail);
     }
 
     /**
@@ -43,7 +38,14 @@ class BillableDetailHelper {
      * @return float Returns the excluding VAT total.
      */
     public static function calcExcludingVatTotal(BillableDetailInterface $billableDetail): float {
-        return TaxableHelper::calcExcludingVatPrice($billableDetail);
+
+        if (null === $billableDetail->getExcludingVatPrice()) {
+            return 0.0;
+        }
+
+        $dRatio = static::getDiscountRatio($billableDetail->getDiscountRate(), true);
+
+        return $billableDetail->getExcludingVatPrice() * $dRatio * static::getQuantity($billableDetail);
     }
 
     /**
@@ -53,12 +55,7 @@ class BillableDetailHelper {
      * @return float Returns the including VAT total.
      */
     public static function calcIncludingVatTotal(BillableDetailInterface $billableDetail): float {
-
-        if (null === $billableDetail->getQuantity()) {
-            return 0.0;
-        }
-
-        return TaxableHelper::calcIncludingVatPrice($billableDetail) * $billableDetail->getQuantity();
+        return TaxableHelper::calcIncludingVatPrice($billableDetail) * static::getQuantity($billableDetail);
     }
 
     /**
@@ -68,11 +65,21 @@ class BillableDetailHelper {
      * @return float Returns the VAT total.
      */
     public static function calcVatTotal(BillableDetailInterface $billableDetail): float {
+        return TaxableHelper::calcVatAmount($billableDetail) * static::getQuantity($billableDetail);
+    }
+
+    /**
+     * Get the quantity.
+     *
+     * @param BillableDetailInterface $billableDetail The billable detail.
+     * @return float Returns the quantity.
+     */
+    protected static function getQuantity(BillableDetailInterface $billableDetail): float {
 
         if (null === $billableDetail->getQuantity()) {
             return 0.0;
         }
 
-        return TaxableHelper::calcVatAmount($billableDetail) * $billableDetail->getQuantity();
+        return $billableDetail->getQuantity();
     }
 }
