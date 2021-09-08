@@ -26,9 +26,9 @@ class BillableFactory {
      *
      * @param BillableInterface $src The billable source.
      * @param BillableInterface $dst The billable destination.
-     * @return void
+     * @return BillableInterface Returns the billable destination.
      */
-    public static function copy(BillableInterface $src, BillableInterface $dst): void {
+    public static function copy(BillableInterface $src, BillableInterface $dst): BillableInterface {
 
         $dst->setComment($src->getComment());
         $dst->setCreatedAt($src->getCreatedAt());
@@ -47,5 +47,7 @@ class BillableFactory {
         foreach ($src->getDetails() as $current) {
             $dst->addDetail(clone $current);
         }
+
+        return $dst;
     }
 }

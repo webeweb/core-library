@@ -26,9 +26,9 @@ class BillableDetailFactory {
      *
      * @param BillableDetailInterface $src The billable detail source.
      * @param BillableDetailInterface $dst The billable detail destination.
-     * @return void
+     * @return BillableDetailInterface Returns the billable detail destination.
      */
-    public static function copy(BillableDetailInterface $src, BillableDetailInterface $dst): void {
+    public static function copy(BillableDetailInterface $src, BillableDetailInterface $dst): BillableDetailInterface {
         TaxableFactory::copy($src, $dst);
 
         $dst->setComment($src->getComment());
@@ -39,5 +39,7 @@ class BillableDetailFactory {
         $dst->setQuantity($src->getQuantity());
         $dst->setReference($src->getReference());
         $dst->setVatTotal($src->getVatTotal());
+
+        return $dst;
     }
 }

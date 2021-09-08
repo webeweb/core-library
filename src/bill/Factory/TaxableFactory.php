@@ -26,9 +26,9 @@ class TaxableFactory {
      *
      * @param TaxableInterface $src The taxable source.
      * @param TaxableInterface $dst The taxable destination.
-     * @return void
+     * @return TaxableInterface Returns the taxable destionation
      */
-    public static function copy(TaxableInterface $src, TaxableInterface $dst): void {
+    public static function copy(TaxableInterface $src, TaxableInterface $dst): TaxableInterface {
 
         $dst->setDiscountAmount($src->getDiscountAmount());
         $dst->setDiscountRate($src->getDiscountRate());
@@ -36,5 +36,7 @@ class TaxableFactory {
         $dst->setIncludingVatPrice($src->getIncludingVatPrice());
         $dst->setVatAmount($dst->getVatAmount());
         $dst->setVatRate($dst->getVatRate());
+
+        return $dst;
     }
 }
