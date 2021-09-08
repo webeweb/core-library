@@ -3,6 +3,11 @@ CHANGELOG
 
 ### master
 
+- Add accounting models
+- Add bill models
+- Add float discount amount trait
+- Add float discount total trait
+- Add float VAT rate trait
 - Improve unit tests
 
 ### [8.3.0](https://github.com/webeweb/core-library/tree/v8.3.0) (2021-09-07)
