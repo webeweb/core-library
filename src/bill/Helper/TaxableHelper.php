@@ -23,6 +23,21 @@ use WBW\Library\Bill\Model\TaxableInterface;
 class TaxableHelper {
 
     /**
+     * Calculates a discount ratio.
+     *
+     * @param float|null $discountRate The discount rate.
+     * @return float Returns the VAT ratio.
+     */
+    public static function calcDiscountRatio(?float $discountRate): float {
+
+        if (null === $discountRate || $discountRate < 0) {
+            return 1.0;
+        }
+
+        return 1 - $discountRate / 100;
+    }
+
+    /**
      * Calculates an excluding VAT price.
      *
      * @param TaxableInterface|null $taxable The taxable.
@@ -58,9 +73,25 @@ class TaxableHelper {
     }
 
     /**
-     * Calculates the VAT ratio.
+     * Calculates a VAT amount.
+     *
+     * @param Taxable|null $taxable The taxable.
+     * @return float Returns the VAT amount.
+     */
+    public static function calcVatAmount(?Taxable $taxable): float {
+
+        if (null === $taxable || null === $taxable->getExcludingVatPrice()) {
+            return 0.0;
+        }
+
+        return $taxable->getExcludingVatPrice() * static::calcVatRatio($taxable->getVatRate());
+    }
+
+    /**
+     * Calculates a VAT ratio.
      *
      * @param float|null $vatRate The VAT rate.
+     * @param bool $plusOne Plus one ?
      * @return float Returns the VAT ratio.
      */
     public static function calcVatRatio(?float $vatRate, bool $plusOne = false): float {

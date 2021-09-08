@@ -24,6 +24,19 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestTaxable;
 class TaxableHelperTest extends AbstractTestCase {
 
     /**
+     * Tests the calcDiscountRatio() method.
+     *
+     * @return void
+     */
+    public function testCalcDiscountRatio(): void {
+
+        $this->assertEquals(1.0, TaxableHelper::calcDiscountRatio(null));
+        $this->assertEquals(1.0, TaxableHelper::calcDiscountRatio(-1));
+
+        $this->assertEquals(0.8, TaxableHelper::calcDiscountRatio(20));
+    }
+
+    /**
      * Tests the calcExcludingVatPrice() method.
      *
      * @return void
@@ -61,6 +74,26 @@ class TaxableHelperTest extends AbstractTestCase {
 
         $taxable->setVatRate(20);
         $this->assertEquals(120.0, TaxableHelper::calcIncludingVatPrice($taxable));
+    }
+
+    /**
+     * Tests the calcVatAmount() method.
+     *
+     * @return void
+     */
+    public function testCalcVatAmount(): void {
+
+        // Set a Taxable mock.
+        $taxable = new TestTaxable();
+
+        $this->assertEquals(0.0, TaxableHelper::calcVatAmount(null));
+        $this->assertEquals(0.0, TaxableHelper::calcVatAmount($taxable));
+
+        $taxable->setExcludingVatPrice(100);
+        $this->assertEquals(0.0, TaxableHelper::calcVatAmount($taxable));
+
+        $taxable->setVatRate(20);
+        $this->assertEquals(20.0, TaxableHelper::calcVatAmount($taxable));
     }
 
     /**
