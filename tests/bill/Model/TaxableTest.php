@@ -34,6 +34,8 @@ class TaxableTest extends AbstractTestCase {
 
         $this->assertInstanceOf(TaxableInterface::class, $obj);
 
+        $this->assertNull($obj->getDiscountAmount());
+        $this->assertNull($obj->getDiscountRate());
         $this->assertNull($obj->getExcludingVatPrice());
         $this->assertNull($obj->getIncludingVatPrice());
         $this->assertNull($obj->getVatAmount());

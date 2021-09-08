@@ -20,6 +20,20 @@ namespace WBW\Library\Bill\Model;
 interface TaxableInterface {
 
     /**
+     * Get the discount amount.
+     *
+     * @return float|null Returns the discount amount.
+     */
+    public function getDiscountAmount(): ?float;
+
+    /**
+     * Get the discount rate.
+     *
+     * @return float|null The discount rate.
+     */
+    public function getDiscountRate(): ?float;
+
+    /**
      * Get the excluding VAT price.
      *
      * @return float|null The excluding VAT price.
@@ -46,6 +60,22 @@ interface TaxableInterface {
      * @return float|null Returns the VAT rate.
      */
     public function getVatRate(): ?float;
+
+    /**
+     * Set the discount amount.
+     *
+     * @param float|null $discountAmount The discount amount.
+     * @return TaxableInterface Returns this taxable.
+     */
+    public function setDiscountAmount(?float $discountAmount);
+
+    /**
+     * Set the discount rate.
+     *
+     * @param float|null $discountRate The discount rate.
+     * @return TaxableInterface Returns this taxable.
+     */
+    public function setDiscountRate(?float $discountRate);
 
     /**
      * Set the excluding VAT price.
