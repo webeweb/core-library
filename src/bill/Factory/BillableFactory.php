@@ -1,0 +1,51 @@
+<?php
+
+/*
+ * This file is part of the core-library package.
+ *
+ * (c) 2021 WEBEWEB
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace WBW\Library\Bill\Factory;
+
+use WBW\Library\Bill\Model\BillableInterface;
+
+/**
+ * Billable factory.
+ *
+ * @author webeweb <https://github.com/webeweb>
+ * @package WBW\Library\Bill\Factory
+ */
+class BillableFactory {
+
+    /**
+     * Copy.
+     *
+     * @param BillableInterface $src The billable source.
+     * @param BillableInterface $dst The billable destination.
+     * @return void
+     */
+    public static function copy(BillableInterface $src, BillableInterface $dst): void {
+
+        $dst->setComment($src->getComment());
+        $dst->setCreatedAt($src->getCreatedAt());
+        $dst->setDate($src->getDate());
+        $dst->setDiscountRate($src->getDiscountRate());
+        $dst->setDiscountTotal($src->getDiscountTotal());
+        $dst->setExcludingVatTotal($src->getExcludingVatTotal());
+        $dst->setIncludingVatTotal($src->getIncludingVatTotal());
+        $dst->setNumber($src->getNumber());
+        $dst->setParent($src->getParent());
+        $dst->setPaymentDate($src->getPaymentDate());
+        $dst->setReference($src->getReference());
+        $dst->setUpdatedAt($src->getUpdatedAt());
+        $dst->setVatTotal($src->getVatTotal());
+
+        foreach ($src->getDetails() as $current) {
+            $dst->addDetail(clone $current);
+        }
+    }
+}
