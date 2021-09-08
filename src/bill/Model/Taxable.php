@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Bill\Model;
 
+use WBW\Library\Bill\Helper\TaxableHelper;
 use WBW\Library\Traits\Floats\FloatDiscountAmountTrait;
 use WBW\Library\Traits\Floats\FloatDiscountRateTrait;
 use WBW\Library\Traits\Floats\FloatExcludingVatPriceTrait;
@@ -39,5 +40,15 @@ abstract class Taxable implements TaxableInterface {
      */
     public function __construct() {
         // NOTHING TO DO
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function onSubmit(): void {
+
+        $this->setDiscountAmount(TaxableHelper::calcDiscountAmount($this));
+        $this->setIncludingVatPrice(TaxableHelper::calcIncludingVatPrice($this));
+        $this->setVatAmount(TaxableHelper::calcVatAmount($this));
     }
 }

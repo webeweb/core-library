@@ -62,6 +62,13 @@ interface TaxableInterface {
     public function getVatRate(): ?float;
 
     /**
+     * On submit.
+     *
+     * @return void.
+     */
+    public function onSubmit(): void;
+
+    /**
      * Set the discount amount.
      *
      * @param float|null $discountAmount The discount amount.

@@ -24,6 +24,30 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestTaxable;
 class TaxableTest extends AbstractTestCase {
 
     /**
+     * Tests the onSubmit() method.
+     *
+     * @return void
+     */
+    public function testOnSubmit(): void {
+
+        $obj = new TestTaxable();
+
+        $obj->onSubmit();
+        $this->assertEquals(0.0, $obj->getDiscountAmount());
+        $this->assertEquals(0.0, $obj->getIncludingVatPrice());
+        $this->assertEquals(0.0, $obj->getVatAmount());
+
+        $obj->setExcludingVatPrice(100);
+        $obj->setDiscountRate(20);
+        $obj->setVatRate(20);
+
+        $obj->onSubmit();
+        $this->assertEquals(20.0, $obj->getDiscountAmount());
+        $this->assertEquals(96.0, $obj->getIncludingVatPrice());
+        $this->assertEquals(16.0, $obj->getVatAmount());
+    }
+
+    /**
      * Tests the __construct() method.
      *
      * @return void
