@@ -14,10 +14,12 @@ namespace WBW\Library\Bill\Model;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
+use WBW\Library\Bill\Helper\BillableHelper;
 use WBW\Library\Traits\DateTimes\DateTimeCreatedAtTrait;
 use WBW\Library\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Traits\DateTimes\DateTimeUpdatedAtTrait;
 use WBW\Library\Traits\Floats\FloatDiscountRateTrait;
+use WBW\Library\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Traits\Floats\FloatExcludingVatTotalTrait;
 use WBW\Library\Traits\Floats\FloatIncludingVatTotalTrait;
 use WBW\Library\Traits\Floats\FloatVatTotalTrait;
@@ -37,6 +39,7 @@ abstract class Billable implements BillableInterface {
     use DateTimeCreatedAtTrait;
     use DateTimeDateTrait;
     use DateTimeUpdatedAtTrait;
+    use FloatDiscountTotalTrait;
     use FloatDiscountRateTrait;
     use FloatExcludingVatTotalTrait;
     use FloatIncludingVatTotalTrait;
@@ -106,8 +109,12 @@ abstract class Billable implements BillableInterface {
     /**
      * {@inheritDoc}
      */
-    public function onSubmit(): BillableInterface {
+    public function onSubmit(): void {
 
+        $this->setDiscountTotal(BillableHelper::calcDiscountTotal($this));
+        $this->setExcludingVatTotal(BillableHelper::calcExcludingVatTotal($this));
+        $this->setIncludingVatTotal(BillableHelper::calcIncludingVatTotal($this));
+        $this->setVatTotal(BillableHelper::calcVatTotal($this));
     }
 
     /**

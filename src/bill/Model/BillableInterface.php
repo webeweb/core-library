@@ -58,6 +58,13 @@ interface BillableInterface {
     public function getDiscountRate(): ?float;
 
     /**
+     * Get the discount total.
+     *
+     * @return float|null Returns the discount total.
+     */
+    public function getDiscountTotal(): ?float;
+
+    /**
      * Get the excluding VAT total.
      *
      * @return float|null Returns the excluding VAT total.
@@ -109,9 +116,9 @@ interface BillableInterface {
     /**
      * On submit.
      *
-     * @return BillableInterface Returns this billable.
+     * @return void
      */
-    public function onSubmit(): BillableInterface;
+    public function onSubmit(): void;
 
     /**
      * Remove a detail.
@@ -144,6 +151,14 @@ interface BillableInterface {
      * @return BillableDetailInterface Returns this billable detail.
      */
     public function setDiscountRate(?float $discountRate);
+
+    /**
+     * Set the discount total.
+     *
+     * @param float|null $discountTotal The discount total.
+     * @return BillableInterface Returns this billable.
+     */
+    public function setDiscountTotal(?float $discountTotal);
 
     /**
      * Set the excluding VAT total.

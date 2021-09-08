@@ -17,6 +17,7 @@ use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
 use WBW\Library\Bill\Tests\Fixtures\Model\TestBillable;
+use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 
 /**
  * Billable test.
@@ -25,6 +26,37 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillable;
  * @package WBW\Library\Bill\Tests\Model
  */
 class BillableTest extends AbstractTestCase {
+
+    /**
+     * Tests the onSubmit() method.
+     *
+     * @return void
+     */
+    public function testOnSubmit(): void {
+
+        // Set a Billable detail mock.
+        $detail = new TestBillableDetail();
+
+        $obj = new TestBillable();
+        $obj->addDetail($detail);
+
+        $obj->onSubmit();
+        $this->assertEquals(0.0, $obj->getDiscountTotal());
+        $this->assertEquals(0.0, $obj->getExcludingVatTotal());
+        $this->assertEquals(0.0, $obj->getIncludingVatTotal());
+        $this->assertEquals(0.0, $obj->getVatTotal());
+
+        $detail->setExcludingVatPrice(100);
+        $detail->setDiscountRate(20);
+        $detail->setVatRate(20);
+        $detail->setQuantity(2);
+
+        $obj->onSubmit();
+        $this->assertEquals(40.0, $obj->getDiscountTotal());
+        $this->assertEquals(160.0, $obj->getExcludingVatTotal());
+        $this->assertEquals(192.0, $obj->getIncludingVatTotal());
+        $this->assertEquals(32.0, $obj->getVatTotal());
+    }
 
     /**
      * Tests the removeDetail() method.
@@ -94,6 +126,7 @@ class BillableTest extends AbstractTestCase {
         $this->assertNull($obj->getDate());
         $this->assertEquals([], $obj->getDetails());
         $this->assertNull($obj->getDiscountRate());
+        $this->assertNull($obj->getDiscountTotal());
         $this->assertNull($obj->getExcludingVatTotal());
         $this->assertNull($obj->getIncludingVatTotal());
         $this->assertNull($obj->getNumber());
