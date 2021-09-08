@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Bill\Tests\Model;
 
-use WBW\Library\Bill\Model\BillableDetail;
 use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Model\TaxableInterface;
@@ -25,22 +24,6 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
  * @package WBW\Library\Bill\Tests\Model
  */
 class BillableDetailTest extends AbstractTestCase {
-
-    /**
-     * Tests the setBillable() method.
-     *
-     * @return void
-     */
-    public function testSetBillable(): void {
-
-        // Set a Billable mock.
-        $billable = $this->getMockBuilder(BillableInterface::class)->getMock();
-
-        $obj = new TestBillableDetail();
-
-        $obj->setBillable($billable);
-        $this->assertSame($billable, $obj->getBillable());
-    }
 
     /**
      * Tests the onSubmit() method.
@@ -71,6 +54,22 @@ class BillableDetailTest extends AbstractTestCase {
         $this->assertEquals(40.0, $obj->getDiscountTotal());
         $this->assertEquals(192.0, $obj->getIncludingVatTotal());
         $this->assertEquals(32.0, $obj->getVatTotal());
+    }
+
+    /**
+     * Tests the setBillable() method.
+     *
+     * @return void
+     */
+    public function testSetBillable(): void {
+
+        // Set a Billable mock.
+        $billable = $this->getMockBuilder(BillableInterface::class)->getMock();
+
+        $obj = new TestBillableDetail();
+
+        $obj->setBillable($billable);
+        $this->assertSame($billable, $obj->getBillable());
     }
 
     /**
