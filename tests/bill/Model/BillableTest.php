@@ -13,10 +13,10 @@ namespace WBW\Library\Bill\Tests\Model;
 
 use DateTime;
 use Exception;
-use WBW\Library\Bill\Model\Billable;
 use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
+use WBW\Library\Bill\Tests\Fixtures\Model\TestBillable;
 
 /**
  * Billable test.
@@ -36,7 +36,7 @@ class BillableTest extends AbstractTestCase {
         // Set a Billable detail mock.
         $detail = $this->getMockBuilder(BillableDetailInterface::class)->getMock();
 
-        $obj = new Billable();
+        $obj = new TestBillable();
 
         $obj->addDetail($detail);
         $this->assertSame($detail, $obj->getDetails()[0]);
@@ -55,7 +55,7 @@ class BillableTest extends AbstractTestCase {
         // Set a Billable mock.
         $parent = $this->getMockBuilder(BillableInterface::class)->getMock();
 
-        $obj = new Billable();
+        $obj = new TestBillable();
 
         $obj->setParent($parent);
         $this->assertSame($parent, $obj->getParent());
@@ -72,7 +72,7 @@ class BillableTest extends AbstractTestCase {
         // Set a Payment date mock.
         $paymentDate = new DateTime();
 
-        $obj = new Billable();
+        $obj = new TestBillable();
 
         $obj->setPaymentDate($paymentDate);
         $this->assertSame($paymentDate, $obj->getPaymentDate());
@@ -85,7 +85,7 @@ class BillableTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $obj = new Billable();
+        $obj = new TestBillable();
 
         $this->assertInstanceOf(BillableInterface::class, $obj);
 

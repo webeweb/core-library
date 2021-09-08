@@ -32,7 +32,7 @@ use WBW\Library\Traits\Strings\StringReferenceTrait;
  * @package WBW\Library\Bill\Model
  * @abstract
  */
-class Billable implements BillableInterface {
+abstract class Billable implements BillableInterface {
 
     use DateTimeCreatedAtTrait;
     use DateTimeDateTrait;
