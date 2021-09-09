@@ -37,7 +37,7 @@ interface PaymentTermInterface {
      * Set the code.
      *
      * @param string|null $code The code.
-     * @return PaymentChoice Returns this payment choice.
+     * @return PaymentTermInterface Returns this payment term.
      */
     public function setCode(?string $code);
 
@@ -45,7 +45,7 @@ interface PaymentTermInterface {
      * Set the label.
      *
      * @param string|null $label The label.
-     * @return PaymentChoice Returns this payment choice.
+     * @return PaymentTermInterface Returns this payment term.
      */
     public function setLabel(?string $label);
 }
