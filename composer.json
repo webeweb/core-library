@@ -77,7 +77,8 @@
             "WBW\\Library\\Sorter\\": "src/sorter/",
             "WBW\\Library\\Traits\\": "src/traits/",
             "WBW\\Library\\Types\\": "src/types/",
-            "WBW\\Library\\Validator\\": "src/validator/"
+            "WBW\\Library\\Validator\\": "src/validator/",
+            "WBW\\Library\\Vehicle\\": "src/vehicle/"
         }
     },
     "autoload-dev": {
@@ -101,7 +102,8 @@
             "WBW\\Library\\Sorter\\Tests\\": "tests/sorter/",
             "WBW\\Library\\Traits\\Tests\\": "tests/traits/",
             "WBW\\Library\\Types\\Tests\\": "tests/types/",
-            "WBW\\Library\\Validator\\Tests\\": "tests/validator/"
+            "WBW\\Library\\Validator\\Tests\\": "tests/validator/",
+            "WBW\\Library\\Vehicle\\Tests\\": "tests/vehicle/"
         }
     },
     "support": {
