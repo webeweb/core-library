@@ -17,6 +17,12 @@ namespace WBW\Library\Bill\Model;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-class SalesBill implements SalesBillInterface {
+class SalesBill extends Billable implements SalesBillInterface {
 
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO
+    }
 }

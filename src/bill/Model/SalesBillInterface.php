@@ -17,6 +17,6 @@ namespace WBW\Library\Bill\Model;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface SalesBillInterface {
+interface SalesBillInterface extends BillableInterface {
 
 }
