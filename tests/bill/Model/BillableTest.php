@@ -12,7 +12,6 @@
 namespace WBW\Library\Bill\Tests\Model;
 
 use DateTime;
-use Exception;
 use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
@@ -94,23 +93,6 @@ class BillableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the setPaymentDate() method.
-     *
-     * @return void
-     * @throws Exception Throws an exception if an error occurs.
-     */
-    public function testSetPaymentDate(): void {
-
-        // Set a Payment date mock.
-        $paymentDate = new DateTime();
-
-        $obj = new TestBillable();
-
-        $obj->setPaymentDate($paymentDate);
-        $this->assertSame($paymentDate, $obj->getPaymentDate());
-    }
-
-    /**
      * Tests the __clone() method.
      *
      * @return void
@@ -134,7 +116,6 @@ class BillableTest extends AbstractTestCase {
         $obj->setIncludingVatTotal(0.04);
         $obj->setNumber("number");
         $obj->setParent($parent);
-        $obj->setPaymentDate(new DateTime());
         $obj->setReference("reference");
         $obj->setUpdatedAt(new DateTime());
         $obj->setVatTotal(0.05);
@@ -150,7 +131,6 @@ class BillableTest extends AbstractTestCase {
         $this->assertEquals($obj->getIncludingVatTotal(), $res->getIncludingVatTotal());
         $this->assertEquals($obj->getNumber(), $res->getNumber());
         $this->assertEquals($obj->getParent(), $res->getParent());
-        $this->assertEquals($obj->getPaymentDate(), $res->getPaymentDate());
         $this->assertEquals($obj->getReference(), $res->getReference());
         $this->assertEquals($obj->getUpdatedAt(), $res->getUpdatedAt());
         $this->assertEquals($obj->getVatTotal(), $res->getVatTotal());
@@ -177,7 +157,6 @@ class BillableTest extends AbstractTestCase {
         $this->assertNull($obj->getIncludingVatTotal());
         $this->assertNull($obj->getNumber());
         $this->assertNull($obj->getParent());
-        $this->assertNull($obj->getPaymentDate());
         $this->assertNull($obj->getReference());
         $this->assertNull($obj->getUpdatedAt());
         $this->assertNull($obj->getVatTotal());

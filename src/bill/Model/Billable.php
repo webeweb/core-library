@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Bill\Model;
 
-use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use WBW\Library\Bill\Factory\BillableFactory;
@@ -64,13 +63,6 @@ abstract class Billable implements BillableInterface {
     protected $parent;
 
     /**
-     * Payment date.
-     *
-     * @var DateTime|null
-     */
-    protected $paymentDate;
-
-    /**
      * Constructor.
      */
     public function __construct() {
@@ -112,13 +104,6 @@ abstract class Billable implements BillableInterface {
     /**
      * {@inheritDoc}
      */
-    public function getPaymentDate(): ?DateTime {
-        return $this->paymentDate;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function onSubmit(): void {
 
         $this->setDiscountTotal(BillableHelper::calcDiscountTotal($this));
@@ -152,14 +137,6 @@ abstract class Billable implements BillableInterface {
      */
     public function setParent(?BillableInterface $parent): BillableInterface {
         $this->parent = $parent;
-        return $this;
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setPaymentDate(?DateTime $paymentDate): BillableInterface {
-        $this->paymentDate = $paymentDate;
         return $this;
     }
 }

@@ -39,7 +39,6 @@ class BillableFactory {
         $dst->setIncludingVatTotal($src->getIncludingVatTotal());
         $dst->setNumber($src->getNumber());
         $dst->setParent($src->getParent());
-        $dst->setPaymentDate($src->getPaymentDate());
         $dst->setReference($src->getReference());
         $dst->setUpdatedAt($src->getUpdatedAt());
         $dst->setVatTotal($src->getVatTotal());

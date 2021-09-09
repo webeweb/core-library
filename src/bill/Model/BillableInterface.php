@@ -44,6 +44,13 @@ interface BillableInterface {
     public function getCreatedAt(): ?DateTime;
 
     /**
+     * Get the date.
+     *
+     * @return DateTime|null Returns the date.
+     */
+    public function getDate(): ?DateTime;
+
+    /**
      * Get the details.
      *
      * @return BillableDetailInterface[] Returns the details.
@@ -93,18 +100,18 @@ interface BillableInterface {
     public function getParent(): ?BillableInterface;
 
     /**
-     * Get the payment date.
-     *
-     * @return DateTime|null Returns the payment date.
-     */
-    public function getPaymentDate(): ?DateTime;
-
-    /**
      * Get the reference.
      *
      * @return string|null Returns the reference.
      */
     public function getReference(): ?string;
+
+    /**
+     * Get the updated at.
+     *
+     * @return DateTime|null Returns the updated at.
+     */
+    public function getUpdatedAt(): ?DateTime;
 
     /**
      * Get the VAT total.
@@ -143,6 +150,14 @@ interface BillableInterface {
      * @return BillableInterface Returns this billable.
      */
     public function setCreatedAt(?DateTime $createdAt);
+
+    /**
+     * Set the date.
+     *
+     * @param DateTime|null $date The date.
+     * @return BillableInterface Returns this billable.
+     */
+    public function setDate(?DateTime $date);
 
     /**
      * Set the discount rate.
@@ -193,20 +208,20 @@ interface BillableInterface {
     public function setParent(?BillableInterface $parent): BillableInterface;
 
     /**
-     * Set the payment date.
-     *
-     * @param DateTime|null $paymentDate The payment date.
-     * @return BillableInterface Returns this billable.
-     */
-    public function setPaymentDate(?DateTime $paymentDate): ?BillableInterface;
-
-    /**
      * Set the reference.
      *
      * @param string|null $reference The reference.
      * @return BillableInterface Returns this billable.
      */
     public function setReference(?string $reference);
+
+    /**
+     * Set the updated at.
+     *
+     * @param DateTime|null $updatedAt The updated at.
+     * @return BillableInterface Returns this billable.
+     */
+    public function setUpdatedAt(?DateTime $updatedAt);
 
     /**
      * Set the VAT total.
