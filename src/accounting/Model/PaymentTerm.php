@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Accounting\Model;
 
+use JsonSerializable;
+use WBW\Library\Accounting\Serializer\JsonSerializer;
 use WBW\Library\Traits\Strings\StringCodeTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
 
@@ -20,7 +22,7 @@ use WBW\Library\Traits\Strings\StringLabelTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Accounting\Model
  */
-class PaymentTerm implements PaymentTermInterface {
+class PaymentTerm implements PaymentTermInterface, JsonSerializable {
 
     use StringCodeTrait;
     use StringLabelTrait;
@@ -30,5 +32,12 @@ class PaymentTerm implements PaymentTermInterface {
      */
     public function __construct() {
         // NOTHING TO DO
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializePaymentTerm($this);
     }
 }

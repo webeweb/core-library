@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Accounting\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Accounting\Model\PaymentTerm;
 use WBW\Library\Accounting\Model\PaymentTermInterface;
+use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
 
 /**
@@ -24,6 +26,26 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
 class PaymentTermTest extends AbstractTestCase {
 
     /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        $data = file_get_contents(__DIR__ . "/PaymentTermTest.jsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new PaymentTerm();
+        $obj->setCode(SerializerKeys::CODE);
+        $obj->setLabel(SerializerKeys::LABEL);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(2, $res);
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests the __construct() method.
      *
      * @return void
@@ -33,6 +55,7 @@ class PaymentTermTest extends AbstractTestCase {
         $obj = new PaymentTerm();
 
         $this->assertInstanceOf(PaymentTermInterface::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getCode());
         $this->assertNull($obj->getLabel());
