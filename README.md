@@ -14,8 +14,10 @@ projects.
 
 Provides:
 
+- Accounting models
 - Algorithm helpers (Luhn, etc.)
-- cURL wrapper 
+- Bill models
+- cURL wrapper
 - Database connectors (Access, SQL Server, MySQL, etc.)
 - FTP clients (FTP, FTPS, SFTP, etc.)
 - Image utilities
@@ -29,6 +31,7 @@ Provides:
 - Traits collection (array, boolean, double, float, integer, string, etc.)
 - Types utilities (array, boolean, double, float, integer, string, etc.)
 - Validation API (rule, rule set, validator, etc.)
+- Vehicle models
 
 If you like this package, pay me a beer (or a coffee)
 [![paypal.me](https://img.shields.io/badge/paypal.me-webeweb-0070ba.svg?style=flat-square&logo=paypal)](https://www.paypal.me/webeweb)
