@@ -17,6 +17,6 @@ namespace WBW\Library\Bill\Model;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface DeliveryNoteInterface {
+interface DeliveryNoteInterface extends BillableInterface {
 
 }

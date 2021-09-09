@@ -17,6 +17,12 @@ namespace WBW\Library\Bill\Model;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-class DeliveryNote implements DeliveryNoteInterface {
+class DeliveryNote extends Billable implements DeliveryNoteInterface {
 
+    /**
+     * Constructor.
+     */
+    public function __construct() {
+        // NOTHING TO DO
+    }
 }
