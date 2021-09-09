@@ -32,16 +32,6 @@ class BillableHelper {
     }
 
     /**
-     * Calculates an including VAT total.
-     *
-     * @param BillableInterface $billable The billable.
-     * @return float Returns the including VAT total.
-     */
-    public static function calcIncludingVatTotal(BillableInterface $billable): float {
-        return static::calcTotal($billable, "getIncludingVatTotal");
-    }
-
-    /**
      * Calculates an excluding VAT total.
      *
      * @param BillableInterface $billable The billable.
@@ -49,6 +39,16 @@ class BillableHelper {
      */
     public static function calcExcludingVatTotal(BillableInterface $billable): float {
         return static::calcTotal($billable, "getExcludingVatTotal");
+    }
+
+    /**
+     * Calculates an including VAT total.
+     *
+     * @param BillableInterface $billable The billable.
+     * @return float Returns the including VAT total.
+     */
+    public static function calcIncludingVatTotal(BillableInterface $billable): float {
+        return static::calcTotal($billable, "getIncludingVatTotal");
     }
 
     /**
