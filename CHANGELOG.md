@@ -9,6 +9,7 @@ CHANGELOG
 - Add float discount amount trait
 - Add float discount total trait
 - Add float VAT rate trait
+- Add vehicle models
 - Improve unit tests
 
 ### [8.3.0](https://github.com/webeweb/core-library/tree/v8.3.0) (2021-09-07)
