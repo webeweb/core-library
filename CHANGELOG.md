@@ -5,6 +5,7 @@ CHANGELOG
 
 - Add accounting models
 - Add bill models
+- Add date/time payment date trait 
 - Add float discount amount trait
 - Add float discount total trait
 - Add float VAT rate trait
