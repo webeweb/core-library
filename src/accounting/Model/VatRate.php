@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Accounting\Model;
 
+use JsonSerializable;
+use WBW\Library\Accounting\Serializer\JsonSerializer;
 use WBW\Library\Traits\Floats\FloatRateTrait;
 use WBW\Library\Traits\Strings\StringLabelTrait;
 
@@ -20,7 +22,7 @@ use WBW\Library\Traits\Strings\StringLabelTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Accounting\Model
  */
-class VATRate implements VATRateInterface {
+class VatRate implements VatRateInterface, JsonSerializable {
 
     use FloatRateTrait;
     use StringLabelTrait;
@@ -63,7 +65,14 @@ class VATRate implements VATRateInterface {
     /**
      * {@inheritDoc}
      */
-    public function setPurchasesAccountingAccount(?AccountingAccountInterface $purchasesAccountingAccount): VATRateInterface {
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeVatRate($this);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPurchasesAccountingAccount(?AccountingAccountInterface $purchasesAccountingAccount): VatRateInterface {
         $this->purchasesAccountingAccount = $purchasesAccountingAccount;
         return $this;
     }
@@ -71,7 +80,7 @@ class VATRate implements VATRateInterface {
     /**
      * {@inheritDoc}
      */
-    public function setSalesAccountingAccount(?AccountingAccountInterface $salesAccountingAccount): VATRateInterface {
+    public function setSalesAccountingAccount(?AccountingAccountInterface $salesAccountingAccount): VatRateInterface {
         $this->salesAccountingAccount = $salesAccountingAccount;
         return $this;
     }

@@ -41,10 +41,30 @@ interface SerializerKeys {
     const NUMBER = "number";
 
     /**
+     * Serializer key "purchases accounting account".
+     *
+     * @var string
+     */
+    const PURCHASES_ACCOUNTING_ACCOUNT = "purchasesAccountingAccount";
+
+    /**
+     * Serializer key "rate".
+     *
+     * @var string
+     */
+    const RATE = "rate";
+
+    /**
+     * Serializer key "sales accounting account".
+     *
+     * @var string
+     */
+    const SALES_ACCOUNTING_ACCOUNT = "salesAccountingAccount";
+
+    /**
      * Serializer key "type".
      *
      * @var string
      */
     const TYPE = "type";
-
 }

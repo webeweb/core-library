@@ -32,6 +32,9 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("code", SerializerKeys::CODE);
         $this->assertEquals("label", SerializerKeys::LABEL);
         $this->assertEquals("number", SerializerKeys::NUMBER);
+        $this->assertEquals("purchasesAccountingAccount", SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT);
+        $this->assertEquals("rate", SerializerKeys::RATE);
+        $this->assertEquals("salesAccountingAccount", SerializerKeys::SALES_ACCOUNTING_ACCOUNT);
         $this->assertEquals("type", SerializerKeys::TYPE);
     }
 }
