@@ -33,7 +33,7 @@ class AccountingAccountTest extends AbstractTestCase {
     public function testJsonSerialize(): void {
 
         // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/AccountingAccountTest.jsonSerialize.json");
+        $data = file_get_contents(__DIR__ . "/AccountingAccountTest.testJsonSerialize.json");
         $json = json_decode($data, true);
 
         $obj = new AccountingAccount();

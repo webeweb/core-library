@@ -33,7 +33,7 @@ class PaymentChoiceTest extends AbstractTestCase {
     public function testJsonSerialize(): void {
 
         // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/PaymentChoiceTest.jsonSerialize.json");
+        $data = file_get_contents(__DIR__ . "/PaymentChoiceTest.testJsonSerialize.json");
         $json = json_decode($data, true);
 
         $obj = new PaymentChoice();

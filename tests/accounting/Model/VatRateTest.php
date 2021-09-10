@@ -35,7 +35,7 @@ class VatRateTest extends AbstractTestCase {
     public function testJsonSerialize(): void {
 
         // Set the expected data.
-        $data = file_get_contents(__DIR__ . "/VatRateTest.jsonSerialize.json");
+        $data = file_get_contents(__DIR__ . "/VatRateTest.testJsonSerialize.json");
         $json = json_decode($data, true);
 
         $obj = new VatRate();
