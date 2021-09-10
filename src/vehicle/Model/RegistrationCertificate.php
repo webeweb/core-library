@@ -12,6 +12,8 @@
 namespace WBW\Library\Vehicle\Model;
 
 use DateTime;
+use JsonSerializable;
+use WBW\Library\Vehicle\Serializer\JsonSerializer;
 
 /**
  * Registration certificate.
@@ -19,7 +21,7 @@ use DateTime;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Vehicle\Model
  */
-class RegistrationCertificate implements RegistrationCertificateInterface {
+class RegistrationCertificate implements RegistrationCertificateInterface, JsonSerializable {
 
     /**
      * A.
@@ -684,6 +686,13 @@ class RegistrationCertificate implements RegistrationCertificateInterface {
      */
     public function getZ4(): ?string {
         return $this->z4;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeRegistrationCertificate($this);
     }
 
     /**
