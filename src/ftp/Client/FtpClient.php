@@ -93,6 +93,10 @@ class FtpClient extends AbstractClient {
      */
     public function close(): FtpClient {
 
+        if (null === $this->getConnection() || false === $this->getConnection()) {
+            return $this;
+        }
+
         if (false === @ftp_close($this->getConnection())) {
             throw $this->newFtpException("ftp_close failed");
         }
