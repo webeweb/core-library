@@ -13,6 +13,7 @@ namespace WBW\Library\Ftp\Tests\Client;
 
 use Exception;
 use WBW\Library\Ftp\Client\FtpClient;
+use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
 
 /**
@@ -22,6 +23,33 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
  * @package WBW\Library\Ftp\Tests\Client
  */
 class FtpClientTest extends AbstractTestCase {
+
+    /**
+     * Message.
+     *
+     * @var string
+     */
+    private $message;
+
+    /**
+     * Myself.
+     *
+     * @var string
+     */
+    private $myself;
+
+    /**
+     * {@inheritDoc}
+     */
+    protected function setUp(): void {
+        parent::setUp();
+
+        // Set a message mock.
+        $this->message = "ftp://demo:password@test.rebex.net:21 ";
+
+        // Set a myself mock.
+        $this->myself = realpath(__DIR__ . "/FtpClientTest.php");
+    }
 
     /**
      * Tests the cdup() method.
@@ -38,6 +66,130 @@ class FtpClientTest extends AbstractTestCase {
 
         $this->assertSame($obj, $obj->chdir($this->remoteDir));
         $this->assertSame($obj, $obj->cdup());
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the chdir() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testChdirWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->chdir("/chdir");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_chdir failed: [/chdir]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the chmod() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testChmod(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->chmod(0644, $this->remoteFile);
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_chmod failed: [420, ",
+                $this->remoteFile,
+                "]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the connect() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testConnectWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->getAuthenticator()->setPort(80);
+
+        try {
+
+            $obj->connect(3);
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                str_replace(":21", ":80", $this->message),
+                "ftp_connect failed: [",
+                $this->authenticator->getHostname(),
+                ", 80, 3]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the delete() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testDelete(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->delete($this->remoteFile);
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_delete failed: [",
+                $this->remoteFile,
+                "]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }
@@ -66,6 +218,78 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the fget() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testFgetWithFtpException(): void {
+
+        // Set a local stream mock.
+        $localStream = fopen($this->localFile, "w");
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->fget($localStream, "/fget");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_fget failed: [",
+                $localStream,
+                ", /fget, 2, 0]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+
+        fclose($localStream);
+    }
+
+    /**
+     * Tests the fput() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testFput(): void {
+
+        // Set a local stream mock.
+        $localStream = fopen($this->myself, "r");
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->fput("/fput", $localStream);
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_fput failed: [/fput, Resource id #",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertStringContainsString($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+
+        fclose($localStream);
+    }
+
+    /**
      * Tests the get() method.
      *
      * @return void
@@ -84,6 +308,69 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the get() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->get($this->localFile, "/get");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_get failed: [",
+                $this->localFile,
+                ", /get, 2, 0]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the login() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testLoginWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->getAuthenticator()->getPasswordAuthentication()->setPassword(null);
+        $obj->connect();
+
+        try {
+
+            $obj->login();
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                str_replace(":password", ":", $this->message),
+                "ftp_login failed: [",
+                $this->authenticator->getPasswordAuthentication()->getUsername(),
+                "]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
      * Tests the mdtm() method.
      *
      * @return void
@@ -97,6 +384,66 @@ class FtpClientTest extends AbstractTestCase {
         $obj->pasv(true);
 
         $this->assertGreaterThanOrEqual(0, $obj->mdtm($this->remoteFile));
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the mdtm() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testMdtmWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->mdtm("/mdtm");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_mdtm failed: [/mdtm]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the mkdir() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testMkdir(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->mkdir("/mkdir");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_mkdir failed: [/mkdir]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }
@@ -125,6 +472,29 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the nbFput() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testNbFput(): void {
+
+        // Set a local stream mock.
+        $localStream = fopen($this->myself, "r");
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        $this->assertEquals(FTP_FAILED, $obj->nbFput("/nb_fput", $localStream));
+
+        $obj->close();
+
+        fclose($localStream);
+    }
+
+    /**
      * Tests the nbGet() method.
      *
      * @return void
@@ -143,6 +513,24 @@ class FtpClientTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the nbPut() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testNbPut(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        $this->assertEquals(FTP_FAILED, $obj->nbPut("/nb_fput", $this->myself));
+
+        $obj->close();
+    }
+
+    /**
      * Tests the nlist() method.
      *
      * @return void
@@ -156,6 +544,68 @@ class FtpClientTest extends AbstractTestCase {
         $obj->pasv(true);
 
         $this->assertIsArray($obj->nlist($this->remoteDir));
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the nlist() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testNlistWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->nlist("/nlist");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_nlist failed: [/nlist]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the put() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testPut(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->put($this->myself, "/put");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_put failed: [/put, ",
+                $this->myself,
+                ", 2, 0]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }
@@ -184,6 +634,36 @@ class FtpClientTest extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
+    public function testRawListWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->rawList("/rawList");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_rawList failed: [/rawList, false]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the rawList() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
     public function testRawlist(): void {
 
         $obj = new FtpClient($this->authenticator);
@@ -192,6 +672,70 @@ class FtpClientTest extends AbstractTestCase {
         $obj->pasv(true);
 
         $this->assertIsArray($obj->rawList($this->remoteDir));
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the rename() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testRename(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->rename($this->remoteDir, "/rename");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_rename failed: [",
+                $this->remoteDir,
+                ", /rename]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the rmdir() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testRmdir(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->rmdir($this->remoteDir);
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_rmdir failed: [",
+                $this->remoteDir,
+                "]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }
@@ -210,6 +754,36 @@ class FtpClientTest extends AbstractTestCase {
         $obj->pasv(true);
 
         $this->assertGreaterThanOrEqual(0, $obj->size($this->remoteFile));
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the size() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSizetWithFtpException(): void {
+
+        $obj = new FtpClient($this->authenticator);
+        $obj->connect();
+        $obj->login();
+        $obj->pasv(true);
+
+        try {
+
+            $obj->size("/size");
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                $this->message,
+                "ftp_size failed: [/size]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }

@@ -51,7 +51,11 @@ class SftpClient extends AbstractClient {
      */
     public function close(): SftpClient {
 
-        if (false === ssh2_exec($this->getConnection(), "exit")) {
+        if (null === $this->getConnection() || false === $this->getConnection()) {
+            return $this;
+        }
+
+        if (false === @ssh2_exec($this->getConnection(), "exit")) {
             throw $this->newFtpException("ssh2_exec failed: [exit]");
         }
 
@@ -69,7 +73,7 @@ class SftpClient extends AbstractClient {
         $host = $this->getAuthenticator()->getHostname();
         $port = $this->getAuthenticator()->getPort();
 
-        $this->setConnection(ssh2_connect($host, $port));
+        $this->setConnection(@ssh2_connect($host, $port));
         if (false === $this->getConnection()) {
             throw $this->newFtpException("ssh2_connect failed: [$host, $port]");
         }
@@ -138,7 +142,7 @@ class SftpClient extends AbstractClient {
         $username = $this->getAuthenticator()->getPasswordAuthentication()->getUsername();
         $password = $this->getAuthenticator()->getPasswordAuthentication()->getPassword();
 
-        if (false === ssh2_auth_password($this->getConnection(), $username, $password)) {
+        if (false === @ssh2_auth_password($this->getConnection(), $username, $password)) {
             throw $this->newFtpException("ssh2_auth_password failed: [$username]");
         }
 
@@ -169,11 +173,22 @@ class SftpClient extends AbstractClient {
      * @param string $localFile The local file.
      * @param string $remoteFile The remote file.
      * @return SftpClient Returns this SFTP client.
+     * @throws FtpException Throws a FTP exception if an I/O error occurs.
      */
     public function put(string $localFile, string $remoteFile): SftpClient {
 
-        $input  = fopen($localFile, "r");
-        $output = fopen("ssh2.sftp://" . intval($this->getSftp()) . $remoteFile, "w");
+        $filename = "ssh2.sftp://" . intval($this->getSftp()) . $remoteFile;
+
+        $input  = @fopen($localFile, "r");
+        $output = @fopen($filename, "w");
+
+        if (false === $input) {
+            throw $this->newFtpException("fopen failed: [$localFile]");
+        }
+
+        if (false === $output) {
+            throw $this->newFtpException("fopen failed: [$filename]");
+        }
 
         stream_copy_to_stream($input, $output);
 

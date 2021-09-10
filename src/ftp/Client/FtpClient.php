@@ -13,6 +13,7 @@ namespace WBW\Library\Ftp\Client;
 
 use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Security\Authenticator;
+use WBW\Library\Types\Helper\StringHelper;
 
 /**
  * FTP client.
@@ -237,7 +238,7 @@ class FtpClient extends AbstractClient {
     public function mkdir(string $directory): FtpClient {
 
         if (false === @ftp_mkdir($this->getConnection(), $directory)) {
-            throw $this->newFtpException("mkdir failed: [$directory]");
+            throw $this->newFtpException("ftp_mkdir failed: [$directory]");
         }
 
         return $this;
@@ -322,7 +323,7 @@ class FtpClient extends AbstractClient {
     public function pasv(bool $pasv): FtpClient {
 
         if (false === @ftp_pasv($this->getConnection(), $pasv)) {
-            throw $this->newFtpException("ftp_pasv failed: [$pasv]");
+            throw $this->newFtpException("ftp_pasv failed: [" . StringHelper::parseBoolean($pasv) . "]");
         }
 
         return $this;
@@ -375,7 +376,7 @@ class FtpClient extends AbstractClient {
 
         $result = @ftp_rawList($this->getConnection(), $directory, $recursive);
         if (false === $result) {
-            throw $this->newFtpException("ftp_rawlist failed: [$directory, $recursive]");
+            throw $this->newFtpException("ftp_rawList failed: [$directory, " . StringHelper::parseBoolean($recursive) . "]");
         }
 
         return $result;

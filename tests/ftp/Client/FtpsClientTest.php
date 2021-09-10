@@ -13,6 +13,7 @@ namespace WBW\Library\Ftp\Tests\Client;
 
 use Exception;
 use WBW\Library\Ftp\Client\FtpsClient;
+use WBW\Library\Ftp\Exception\FtpException;
 use WBW\Library\Ftp\Tests\AbstractTestCase;
 
 /**
@@ -24,6 +25,13 @@ use WBW\Library\Ftp\Tests\AbstractTestCase;
 class FtpsClientTest extends AbstractTestCase {
 
     /**
+     * Message.
+     *
+     * @var string
+     */
+    private $message;
+
+    /**
      * {@inheritDoc}
      */
     protected function setUp(): void {
@@ -31,6 +39,9 @@ class FtpsClientTest extends AbstractTestCase {
 
         // Set the Authenticator mock.
         $this->authenticator->setPort(21);
+
+        // Set a message mock.
+        $this->message = "ftp://demo:password@test.rebex.net:21 ";
     }
 
     /**
@@ -44,6 +55,36 @@ class FtpsClientTest extends AbstractTestCase {
         $obj = new FtpsClient($this->authenticator);
 
         $this->assertSame($obj, $obj->connect());
+
+        $obj->close();
+    }
+
+    /**
+     * Tests the connect() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testConnectWithFtpException(): void {
+
+        $obj = new FtpsClient($this->authenticator);
+        $obj->getAuthenticator()->setPort(80);
+
+        try {
+
+            $obj->connect(3);
+        } catch (Exception $ex) {
+
+            $msg = implode("", [
+                str_replace(":21", ":80", $this->message),
+                "ftp_ssl_connect failed: [",
+                $this->authenticator->getHostname(),
+                ", 80, 3]",
+            ]);
+
+            $this->assertInstanceOf(FtpException::class, $ex);
+            $this->assertEquals($msg, $ex->getMessage());
+        }
 
         $obj->close();
     }
