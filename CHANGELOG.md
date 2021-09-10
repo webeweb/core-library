@@ -11,6 +11,7 @@ CHANGELOG
 - Add float VAT rate trait
 - Add vehicle models
 - Improve unit tests
+- Minor fixes into FTP clients
 
 ### [8.3.0](https://github.com/webeweb/core-library/tree/v8.3.0) (2021-09-07)
 
