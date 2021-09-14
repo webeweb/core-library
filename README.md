@@ -24,7 +24,7 @@ Provides:
 - Logger models
 - Planning utilities (time slots, etc.)
 - Quadratus models
-- Security classes (authenticator, password authentication, etc.)
+- Security classes (authenticator, password authentication, token generator, etc.)
 - Serialization utilities
 - SkiData utilities (card, customer, user, etc.)
 - Sorting utilities (alphabetical tree sort, quick sort, etc.)
