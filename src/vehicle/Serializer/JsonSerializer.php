@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Vehicle\Serializer;
 
-use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 use WBW\Library\Vehicle\Model\RegistrationCertificateInterface;
+use WBW\Library\Vehicle\Model\VehicleBrandInterface;
 
 /**
  * JSON Serializer.
@@ -77,6 +77,18 @@ class JsonSerializer {
             SerializerKeys::Z2  => $model->getZ2(),
             SerializerKeys::Z3  => $model->getZ3(),
             SerializerKeys::Z4  => $model->getZ4(),
+        ];
+    }
+
+    /**
+     * Serializes a vehicle brand.
+     *
+     * @param VehicleBrandInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeVehicleBrand(VehicleBrandInterface $model): array {
+        return [
+            SerializerKeys::LABEL => $model->getLabel(),
         ];
     }
 }

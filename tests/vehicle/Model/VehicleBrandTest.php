@@ -11,8 +11,10 @@
 
 namespace WBW\Library\Vehicle\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Vehicle\Model\VehicleBrand;
 use WBW\Library\Vehicle\Model\VehicleBrandInterface;
+use WBW\Library\Vehicle\Serializer\SerializerKeys;
 use WBW\Library\Vehicle\Tests\AbstractTestCase;
 
 /**
@@ -24,6 +26,26 @@ use WBW\Library\Vehicle\Tests\AbstractTestCase;
 class VehicleBrandTest extends AbstractTestCase {
 
     /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/VehicleBrandTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new VehicleBrand();
+        $obj->setLabel(SerializerKeys::LABEL);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(1, $res);
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests the __construct() method.
      *
      * @return void
@@ -33,6 +55,7 @@ class VehicleBrandTest extends AbstractTestCase {
         $obj = new VehicleBrand();
 
         $this->assertInstanceOf(VehicleBrandInterface::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getLabel());
     }
