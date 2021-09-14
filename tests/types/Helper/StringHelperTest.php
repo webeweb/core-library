@@ -66,14 +66,22 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testExtractUpperCase(): void {
 
-        $this->assertEquals("SB", StringHelper::extractUpperCase("SkeletonBundle"));
-        $this->assertEquals("VATRB", StringHelper::extractUpperCase("VATRateBundle"));
-        $this->assertEquals("ECSVA", StringHelper::extractUpperCase("ExportCSVAction"));
-        $this->assertEquals("ECSV", StringHelper::extractUpperCase("ExportCSV"));
+        $this->assertEquals("CB", StringHelper::extractUpperCase("CoreBundle"));
+        $this->assertEquals("cb", StringHelper::extractUpperCase("CoreBundle", true));
 
-        $this->assertEquals("sb", StringHelper::extractUpperCase("SkeletonBundle", true));
-        $this->assertEquals("vatrb", StringHelper::extractUpperCase("VATRateBundle", true));
+        $this->assertEquals("BB", StringHelper::extractUpperCase("BootstrapBundle"));
+        $this->assertEquals("bb", StringHelper::extractUpperCase("BootstrapBundle", true));
+
+        $this->assertEquals("JQDTB", StringHelper::extractUpperCase("JQueryDataTablesBundle"));
+        $this->assertEquals("jqdtb", StringHelper::extractUpperCase("JQueryDataTablesBundle", true));
+
+        $this->assertEquals("EDMB", StringHelper::extractUpperCase("EDMBundle"));
+        $this->assertEquals("edmb", StringHelper::extractUpperCase("EDMBundle", true));
+
+        $this->assertEquals("ECSVA", StringHelper::extractUpperCase("ExportCSVAction"));
         $this->assertEquals("ecsva", StringHelper::extractUpperCase("ExportCSVAction", true));
+
+        $this->assertEquals("ECSV", StringHelper::extractUpperCase("ExportCSV"));
         $this->assertEquals("ecsv", StringHelper::extractUpperCase("ExportCSV", true));
     }
 
@@ -188,8 +196,10 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToHumanReadable(): void {
 
-        $this->assertEquals("Skeleton bundle", StringHelper::toHumanReadable("SkeletonBundle"));
-        $this->assertEquals("VAT rate bundle", StringHelper::toHumanReadable("VATRateBundle"));
+        $this->assertEquals("Core bundle", StringHelper::toHumanReadable("CoreBundle"));
+        $this->assertEquals("Bootstrap bundle", StringHelper::toHumanReadable("BootstrapBundle"));
+        $this->assertEquals("J query data tables bundle", StringHelper::toHumanReadable("JQueryDataTablesBundle"));
+        $this->assertEquals("EDM bundle", StringHelper::toHumanReadable("EDMBundle"));
         $this->assertEquals("Export CSV action", StringHelper::toHumanReadable("ExportCSVAction"));
         $this->assertEquals("Export CSV", StringHelper::toHumanReadable("ExportCSV"));
     }
@@ -202,9 +212,12 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToLowerCamelCase(): void {
 
-        $this->assertEquals("skeletonBundle", StringHelper::toLowerCamelCase("SkeletonBundle"));
-        $this->assertEquals("vatRate", StringHelper::toLowerCamelCase("VATRate"));
+        $this->assertEquals("coreBundle", StringHelper::toLowerCamelCase("CoreBundle"));
+        $this->assertEquals("bootstrapBundle", StringHelper::toLowerCamelCase("BootstrapBundle"));
+        $this->assertEquals("jQueryDataTablesBundle", StringHelper::toLowerCamelCase("JQueryDataTablesBundle"));
+        $this->assertEquals("edmBundle", StringHelper::toLowerCamelCase("EDMBundle"));
         $this->assertEquals("exportCSVAction", StringHelper::toLowerCamelCase("ExportCSVAction"));
+        $this->assertEquals("exportCSV", StringHelper::toLowerCamelCase("ExportCSV"));
     }
 
     /**
@@ -215,14 +228,23 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToSnakeCase(): void {
 
-        $this->assertEquals("skeleton_bundle", StringHelper::toSnakeCase("SkeletonBundle"));
-        $this->assertEquals("skeleton-bundle", StringHelper::toSnakeCase("SkeletonBundle", "-"));
+        $this->assertEquals("core_bundle", StringHelper::toSnakeCase("CoreBundle"));
+        $this->assertEquals("core-bundle", StringHelper::toSnakeCase("CoreBundle", "-"));
 
-        $this->assertEquals("vat_rate_bundle", StringHelper::toSnakeCase("VATRateBundle"));
-        $this->assertEquals("vat-rate-bundle", StringHelper::toSnakeCase("VATRateBundle", "-"));
+        $this->assertEquals("bootstrap_bundle", StringHelper::toSnakeCase("BootstrapBundle"));
+        $this->assertEquals("bootstrap-bundle", StringHelper::toSnakeCase("BootstrapBundle", "-"));
 
-        $this->assertEquals("export_csv", StringHelper::toSnakeCase("exportCSV"));
-        $this->assertEquals("export-csv", StringHelper::toSnakeCase("exportCSV", "-"));
+        $this->assertEquals("j_query_data_tables_bundle", StringHelper::toSnakeCase("JQueryDataTablesBundle"));
+        $this->assertEquals("j-query-data-tables-bundle", StringHelper::toSnakeCase("JQueryDataTablesBundle", "-"));
+
+        $this->assertEquals("edm_bundle", StringHelper::toSnakeCase("EDMBundle"));
+        $this->assertEquals("edm-bundle", StringHelper::toSnakeCase("EDMBundle", "-"));
+
+        $this->assertEquals("export_csv_action", StringHelper::toSnakeCase("ExportCSVAction"));
+        $this->assertEquals("export-csv-action", StringHelper::toSnakeCase("ExportCSVAction", "-"));
+
+        $this->assertEquals("export_csv", StringHelper::toSnakeCase("ExportCSV"));
+        $this->assertEquals("export-csv", StringHelper::toSnakeCase("ExportCSV", "-"));
     }
 
     /**
@@ -233,6 +255,11 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToUpperCamelCase(): void {
 
-        $this->assertEquals("SkeletonBundle", StringHelper::toUpperCamelCase("skeletonBundle"));
+        $this->assertEquals("CoreBundle", StringHelper::toUpperCamelCase("coreBundle"));
+        $this->assertEquals("BootstrapBundle", StringHelper::toUpperCamelCase("bootstrapBundle"));
+        $this->assertEquals("JQueryDataTablesBundle", StringHelper::toUpperCamelCase("jQueryDataTablesBundle"));
+        $this->assertEquals("EDMBundle", StringHelper::toUpperCamelCase("eDMBundle"));
+        $this->assertEquals("ExportCSVAction", StringHelper::toUpperCamelCase("exportCSVAction"));
+        $this->assertEquals("ExportCSV", StringHelper::toUpperCamelCase("exportCSV"));
     }
 }
