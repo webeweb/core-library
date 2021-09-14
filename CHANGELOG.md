@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.4.0](https://github.com/webeweb/core-library/tree/v8.4.0) (2021-09-14)
 
 - Add accounting models
 - Add bill models
