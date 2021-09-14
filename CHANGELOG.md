@@ -9,6 +9,7 @@ CHANGELOG
 - Add float discount amount trait
 - Add float discount total trait
 - Add float VAT rate trait
+- Add Token generator
 - Add vehicle models
 - Improve unit tests
 - Minor fixes into FTP clients
