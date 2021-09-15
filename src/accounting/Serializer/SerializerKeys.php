@@ -20,11 +20,53 @@ namespace WBW\Library\Accounting\Serializer;
 interface SerializerKeys {
 
     /**
+     * Serializer key "account number".
+     *
+     * @var string
+     */
+    const ACCOUNT_NUMBER = "accountNumber";
+
+    /**
+     * Serializer key "bank code".
+     *
+     * @var string
+     */
+    const BANK_CODE = "bankCode";
+
+    /**
+     * Serializer key "bank domiciliation".
+     *
+     * @var string
+     */
+    const BANK_DOMICILIATION = "bankDomiciliation";
+
+    /**
+     * Serializer key "BIC".
+     *
+     * @var string
+     */
+    const BIC = "bic";
+
+    /**
+     * Serializer key "branch code".
+     *
+     * @var string
+     */
+    const BRANCH_CODE = "branchCode";
+
+    /**
      * Serializer key "code".
      *
      * @var string
      */
     const CODE = "code";
+
+    /**
+     * Serializer key "IBAN".
+     *
+     * @var string
+     */
+    const IBAN = "iban";
 
     /**
      * Serializer key "label".
@@ -41,6 +83,13 @@ interface SerializerKeys {
     const NUMBER = "number";
 
     /**
+     * Serializer key "owner".
+     *
+     * @var string
+     */
+    const OWNER = "owner";
+
+    /**
      * Serializer key "purchases accounting account".
      *
      * @var string
@@ -53,6 +102,13 @@ interface SerializerKeys {
      * @var string
      */
     const RATE = "rate";
+
+    /**
+     * Serializer key "RIB key".
+     *
+     * @var string
+     */
+    const RIB_KEY = "ribKey";
 
     /**
      * Serializer key "sales accounting account".
