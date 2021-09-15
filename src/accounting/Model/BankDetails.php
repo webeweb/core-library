@@ -11,13 +11,16 @@
 
 namespace WBW\Library\Accounting\Model;
 
+use JsonSerializable;
+use WBW\Library\Accounting\Serializer\JsonSerializer;
+
 /**
  * Bank details.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Accounting\Model
  */
-class BankDetails implements BankDetailsInterface {
+class BankDetails implements BankDetailsInterface, JsonSerializable {
 
     /**
      * Account number.
@@ -136,6 +139,13 @@ class BankDetails implements BankDetailsInterface {
      */
     public function getRibKey(): ?string {
         return $this->ribKey;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeBankDetails($this);
     }
 
     /**

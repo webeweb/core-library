@@ -12,6 +12,7 @@
 namespace WBW\Library\Accounting\Serializer;
 
 use WBW\Library\Accounting\Model\AccountingAccountInterface;
+use WBW\Library\Accounting\Model\BankDetailsInterface;
 use WBW\Library\Accounting\Model\PaymentChoiceInterface;
 use WBW\Library\Accounting\Model\PaymentTermInterface;
 use WBW\Library\Accounting\Model\VatRateInterface;
@@ -36,6 +37,25 @@ class JsonSerializer {
             SerializerKeys::LABEL  => $model->getLabel(),
             SerializerKeys::NUMBER => $model->getNumber(),
             SerializerKeys::TYPE   => $model->getType(),
+        ];
+    }
+
+    /**
+     * Serializes a bank details.
+     *
+     * @param BankDetailsInterface $model The model.
+     * @return array Returns the serialized model.
+     */
+    public static function serializeBankDetails(BankDetailsInterface $model): array {
+        return [
+            SerializerKeys::ACCOUNT_NUMBER     => $model->getAccountNumber(),
+            SerializerKeys::BANK_CODE          => $model->getBankCode(),
+            SerializerKeys::BANK_DOMICILIATION => $model->getBankDomiciliation(),
+            SerializerKeys::BIC                => $model->getBic(),
+            SerializerKeys::BRANCH_CODE        => $model->getBranchCode(),
+            SerializerKeys::IBAN               => $model->getIban(),
+            SerializerKeys::OWNER              => $model->getOwner(),
+            SerializerKeys::RIB_KEY            => $model->getRibKey(),
         ];
     }
 

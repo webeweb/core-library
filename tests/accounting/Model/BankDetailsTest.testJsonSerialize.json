@@ -1,0 +1,10 @@
+{
+    "accountNumber": "accountNumber",
+    "bankCode": "bankCode",
+    "bankDomiciliation": "bankDomiciliation",
+    "bic": "bic",
+    "branchCode": "branchCode",
+    "iban": "iban",
+    "owner": "owner",
+    "ribKey": "ribKey"
+}

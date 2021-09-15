@@ -11,7 +11,10 @@
 
 namespace WBW\Library\Accounting\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Accounting\Model\BankDetails;
+use WBW\Library\Accounting\Model\BankDetailsInterface;
+use WBW\Library\Accounting\Serializer\SerializerKeys;
 use WBW\Library\Accounting\Tests\AbstractTestCase;
 
 /**
@@ -21,6 +24,33 @@ use WBW\Library\Accounting\Tests\AbstractTestCase;
  * @package WBW\Library\Accounting\Tests\Model
  */
 class BankDetailsTest extends AbstractTestCase {
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/BankDetailsTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new BankDetails();
+        $obj->setAccountNumber(SerializerKeys::ACCOUNT_NUMBER);
+        $obj->setBankCode(SerializerKeys::BANK_CODE);
+        $obj->setBankDomiciliation(SerializerKeys::BANK_DOMICILIATION);
+        $obj->setBic(SerializerKeys::BIC);
+        $obj->setBranchCode(SerializerKeys::BRANCH_CODE);
+        $obj->setIban(SerializerKeys::IBAN);
+        $obj->setOwner(SerializerKeys::OWNER);
+        $obj->setRibKey(SerializerKeys::RIB_KEY);
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(8, $res);
+
+        $this->assertEquals($json, $res);
+    }
 
     /**
      * Tests the setAccountNumber() method.
@@ -134,6 +164,9 @@ class BankDetailsTest extends AbstractTestCase {
     public function test__construct(): void {
 
         $obj = new BankDetails();
+
+        $this->assertInstanceOf(BankDetailsInterface::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getAccountNumber());
         $this->assertNull($obj->getBankCode());
