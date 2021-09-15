@@ -6,7 +6,7 @@
         "type": "purchaseType"
     },
     "rate": 0.123456789,
-    "salesAccountingAccount":  {
+    "salesAccountingAccount": {
         "label": "salesLabel",
         "number": "salesNumber",
         "type": "salesType"
