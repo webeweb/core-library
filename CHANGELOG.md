@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.6.0](https://github.com/webeweb/core-library/tree/v8.6.0) (2021-09-16)
+
+- Improve bank details
+
 ### [8.5.0](https://github.com/webeweb/core-library/tree/v8.5.0) (2021-09-15)
 
 - Add Bank details serialization
