@@ -44,6 +44,13 @@ class BankDetails implements BankDetailsInterface, JsonSerializable {
     protected $bankDomiciliation;
 
     /**
+     * Bank name.
+     *
+     * @var string|null
+     */
+    protected $bankName;
+
+    /**
      * BIC.
      *
      * @var string|null
@@ -109,6 +116,13 @@ class BankDetails implements BankDetailsInterface, JsonSerializable {
     /**
      * {@inheritDoc}
      */
+    public function getBankName(): ?string {
+        return $this->bankName;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function getBic(): ?string {
         return $this->bic;
     }
@@ -169,6 +183,14 @@ class BankDetails implements BankDetailsInterface, JsonSerializable {
      */
     public function setBankDomiciliation(?string $bankDomiciliation): BankDetailsInterface {
         $this->bankDomiciliation = $bankDomiciliation;
+        return $this;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setBankName(?string $bankName): BankDetailsInterface {
+        $this->bankName = $bankName;
         return $this;
     }
 

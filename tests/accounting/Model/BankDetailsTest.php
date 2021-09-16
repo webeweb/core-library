@@ -40,6 +40,7 @@ class BankDetailsTest extends AbstractTestCase {
         $obj->setAccountNumber(SerializerKeys::ACCOUNT_NUMBER);
         $obj->setBankCode(SerializerKeys::BANK_CODE);
         $obj->setBankDomiciliation(SerializerKeys::BANK_DOMICILIATION);
+        $obj->setBankName(SerializerKeys::BANK_NAME);
         $obj->setBic(SerializerKeys::BIC);
         $obj->setBranchCode(SerializerKeys::BRANCH_CODE);
         $obj->setIban(SerializerKeys::IBAN);
@@ -47,7 +48,7 @@ class BankDetailsTest extends AbstractTestCase {
         $obj->setRibKey(SerializerKeys::RIB_KEY);
 
         $res = $obj->jsonSerialize();
-        $this->assertCount(8, $res);
+        $this->assertCount(9, $res);
 
         $this->assertEquals($json, $res);
     }
@@ -89,6 +90,19 @@ class BankDetailsTest extends AbstractTestCase {
 
         $obj->setBankDomiciliation("bankDomiciliation");
         $this->assertEquals("bankDomiciliation", $obj->getBankDomiciliation());
+    }
+
+    /**
+     * Tests the setBankName() method.
+     *
+     * @return void
+     */
+    public function testSetBankName(): void {
+
+        $obj = new BankDetails();
+
+        $obj->setBankName("bankName");
+        $this->assertEquals("bankName", $obj->getBankName());
     }
 
     /**
@@ -171,6 +185,7 @@ class BankDetailsTest extends AbstractTestCase {
         $this->assertNull($obj->getAccountNumber());
         $this->assertNull($obj->getBankCode());
         $this->assertNull($obj->getBankDomiciliation());
+        $this->assertNull($obj->getBankName());
         $this->assertNull($obj->getBic());
         $this->assertNull($obj->getBranchCode());
         $this->assertNull($obj->getIban());

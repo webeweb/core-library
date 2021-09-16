@@ -41,6 +41,13 @@ interface BankDetailsInterface {
     public function getBankDomiciliation(): ?string;
 
     /**
+     * Get the bank name.
+     *
+     * @return string|null Returns the bank name.
+     */
+    public function getBankName(): ?string;
+
+    /**
      * Get the BIC.
      *
      * @return string|null Returns the BIC.
@@ -98,6 +105,14 @@ interface BankDetailsInterface {
      * @return BankDetailsInterface Returns this bank details.
      */
     public function setBankDomiciliation(?string $bankDomiciliation): BankDetailsInterface;
+
+    /**
+     * Set the bank name.
+     *
+     * @param string|null $bankName The bank name.
+     * @return BankDetailsInterface Returns this bank details.
+     */
+    public function setBankName(?string $bankName): BankDetailsInterface;
 
     /**
      * Set the BIC.

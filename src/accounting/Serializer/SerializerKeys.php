@@ -41,6 +41,13 @@ interface SerializerKeys {
     const BANK_DOMICILIATION = "bankDomiciliation";
 
     /**
+     * Serializer key "bank name".
+     *
+     * @var string
+     */
+    const BANK_NAME = "bankName";
+
+    /**
      * Serializer key "BIC".
      *
      * @var string

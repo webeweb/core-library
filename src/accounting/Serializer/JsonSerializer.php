@@ -51,6 +51,7 @@ class JsonSerializer {
             SerializerKeys::ACCOUNT_NUMBER     => $model->getAccountNumber(),
             SerializerKeys::BANK_CODE          => $model->getBankCode(),
             SerializerKeys::BANK_DOMICILIATION => $model->getBankDomiciliation(),
+            SerializerKeys::BANK_NAME          => $model->getBankName(),
             SerializerKeys::BIC                => $model->getBic(),
             SerializerKeys::BRANCH_CODE        => $model->getBranchCode(),
             SerializerKeys::IBAN               => $model->getIban(),

@@ -2,6 +2,7 @@
     "accountNumber": "accountNumber",
     "bankCode": "bankCode",
     "bankDomiciliation": "bankDomiciliation",
+    "bankName": "bankName",
     "bic": "bic",
     "branchCode": "branchCode",
     "iban": "iban",
