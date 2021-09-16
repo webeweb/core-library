@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.7.0](https://github.com/webeweb/core-library/tree/v8.7.0) (2021-09-16)
+
+- Add string NAF code trait
+- Add string SIRET number trait
+- Add string VAT number trait
+
 ### [8.6.0](https://github.com/webeweb/core-library/tree/v8.6.0) (2021-09-16)
 
 - Improve bank details
