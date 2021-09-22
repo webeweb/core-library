@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.8.0](https://github.com/webeweb/core-library/tree/v8.8.0) (2021-09-22)
+
+- Add string mobile trait
+- Add string phone trait
+
 ### [8.7.0](https://github.com/webeweb/core-library/tree/v8.7.0) (2021-09-16)
 
 - Add string NAF code trait
