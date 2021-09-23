@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Bill\Model;
 
+use WBW\Library\Bill\Serializer\JsonSerializer;
 use WBW\Library\Traits\DateTimes\DateTimePaymentDateTrait;
 
 /**
@@ -27,6 +28,13 @@ class PurchaseBill extends Billable implements PurchaseBillInterface {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO
+        parent::__construct();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializePurchaseBill($this);
     }
 }

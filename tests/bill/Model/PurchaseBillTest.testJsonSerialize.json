@@ -1,0 +1,63 @@
+{
+    "comment": "comment",
+    "createdAt": {
+        "date": "2021-09-23 15:20:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "date": {
+        "date": "2021-09-23 15:20:01.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "details": [
+        {
+            "discountAmount": null,
+            "discountRate": null,
+            "excludingVatPrice": null,
+            "includingVatPrice": null,
+            "vatAmount": null,
+            "vatRate": null,
+            "comment": null,
+            "discountTotal": null,
+            "excludingVatTotal": null,
+            "includingVatTotal": null,
+            "label": null,
+            "quantity": null,
+            "reference": null,
+            "vatTotal": null
+        }
+    ],
+    "discountRate": 0.1,
+    "discountTotal": 0.2,
+    "excludingVatTotal": 0.3,
+    "includingVatTotal": 0.4,
+    "number": "number",
+    "parent": {
+        "comment": null,
+        "createdAt": null,
+        "date": null,
+        "details": [],
+        "discountRate": null,
+        "discountTotal": null,
+        "excludingVatTotal": null,
+        "includingVatTotal": null,
+        "number": null,
+        "parent": null,
+        "reference": null,
+        "updatedAt": null,
+        "vatTotal": null
+    },
+    "reference": "reference",
+    "updatedAt": {
+        "date": "2021-09-23 15:20:02.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    },
+    "vatTotal": 0.5,
+    "paymentDate": {
+        "date": "2021-09-23 15:20:03.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    }
+}
