@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Bill\Model;
 
+use WBW\Library\Bill\Serializer\JsonSerializer;
+
 /**
  * Sales bill.
  *
@@ -23,6 +25,13 @@ class SalesBill extends Billable implements SalesBillInterface {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO
+        parent::__construct();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeSalesBill($this);
     }
 }
