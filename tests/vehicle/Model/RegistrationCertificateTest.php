@@ -37,7 +37,6 @@ class RegistrationCertificateTest extends AbstractTestCase {
 
         // Set the expected data.
         $data = file_get_contents(__DIR__ . "/RegistrationCertificateTest.testJsonSerialize.json");
-        $json = json_decode($data, true);
 
         // Set the date/time mocks.
         $b  = new DateTime("2021-09-10 09:02:00.00000", new DateTimeZone("UTC"));
