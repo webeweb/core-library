@@ -12,6 +12,7 @@
 namespace WBW\Library\Bill\Tests\Model;
 
 use DateTime;
+use JsonSerializable;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Model\Quotation;
 use WBW\Library\Bill\Model\QuotationInterface;
@@ -50,8 +51,9 @@ class QuotationTest extends AbstractTestCase {
 
         $obj = new Quotation();
 
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(QuotationInterface::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getExpirationDate());
     }

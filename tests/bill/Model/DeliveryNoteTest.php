@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Bill\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Model\DeliveryNote;
 use WBW\Library\Bill\Model\DeliveryNoteInterface;
@@ -33,7 +34,8 @@ class DeliveryNoteTest extends AbstractTestCase {
 
         $obj = new DeliveryNote();
 
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(DeliveryNoteInterface::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
     }
 }

@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Bill\Tests\Model;
 
+use JsonSerializable;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Model\PurchaseBill;
 use WBW\Library\Bill\Model\PurchaseBillInterface;
@@ -33,8 +34,9 @@ class PurchaseBillTest extends AbstractTestCase {
 
         $obj = new PurchaseBill();
 
-        $this->assertInstanceOf(BillableInterface::class, $obj);
         $this->assertInstanceOf(PurchaseBillInterface::class, $obj);
+        $this->assertInstanceOf(BillableInterface::class, $obj);
+        $this->assertInstanceOf(JsonSerializable::class, $obj);
 
         $this->assertNull($obj->getPaymentDate());
     }
