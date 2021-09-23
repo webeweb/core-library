@@ -12,6 +12,7 @@
 namespace WBW\Library\Bill\Model;
 
 use DateTime;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 
 /**
  * Quotation.
@@ -40,6 +41,13 @@ class Quotation extends Billable implements QuotationInterface {
      */
     public function getExpirationDate(): ?DateTime {
         return $this->expirationDate;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeQuotation($this);
     }
 
     /**

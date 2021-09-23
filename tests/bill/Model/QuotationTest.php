@@ -12,11 +12,15 @@
 namespace WBW\Library\Bill\Tests\Model;
 
 use DateTime;
+use DateTimeZone;
+use Exception;
 use JsonSerializable;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Model\Quotation;
 use WBW\Library\Bill\Model\QuotationInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
+use WBW\Library\Bill\Tests\Fixtures\Model\TestBillable;
+use WBW\Library\Bill\Tests\Fixtures\Model\TestBillableDetail;
 
 /**
  * Quotation test.
@@ -25,6 +29,40 @@ use WBW\Library\Bill\Tests\AbstractTestCase;
  * @package WBW\Library\Bill\Tests\Model
  */
 class QuotationTest extends AbstractTestCase {
+
+    /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/QuotationTest.testJsonSerialize.json");
+
+        $obj = new Quotation();
+        $obj->setComment("comment");
+        $obj->setCreatedAt(new DateTime("2021-09-23 15:20:00.000000", new DateTimeZone("UTC")));
+        $obj->setDate(new DateTime("2021-09-23 15:20:01.000000", new DateTimeZone("UTC")));
+        $obj->setDiscountRate(0.1);
+        $obj->setDiscountTotal(0.2);
+        $obj->setExcludingVatTotal(0.3);
+        $obj->setIncludingVatTotal(0.4);
+        $obj->setNumber("number");
+        $obj->setParent(new TestBillable());
+        $obj->setReference("reference");
+        $obj->setUpdatedAt(new DateTime("2021-09-23 15:20:02.000000", new DateTimeZone("UTC")));
+        $obj->setVatTotal(0.5);
+        $obj->setExpirationDate(new DateTime("2021-09-23 15:20:03.000000", new DateTimeZone("UTC")));
+
+        $obj->addDetail(new TestBillableDetail());
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(14, $res);
+
+        $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT));
+    }
 
     /**
      * Tests the setExpirationDate() method.
