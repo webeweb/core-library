@@ -11,10 +11,12 @@
 
 namespace WBW\Library\Bill\Serializer;
 
+use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillingAddressInterface;
 use WBW\Library\Bill\Model\DeliveryAddressInterface;
 use WBW\Library\Bill\Model\SendingAddressInterface;
 use WBW\Library\Bill\Model\TaxableInterface;
+use WBW\Library\Serializer\Helper\JsonSerializerHelper;
 
 /**
  * JSON serializer.
@@ -39,6 +41,29 @@ class JsonSerializer {
             SerializerKeys::BILLING_ADDRESS_LOCATION     => $model->getBillingAddressLocation(),
             SerializerKeys::BILLING_ADDRESS_COUNTRY      => $model->getBillingAddressCountry(),
         ];
+    }
+
+    /**
+     * Serializes a billable detail.
+     *
+     * @param BillableDetailInterface $model The model.
+     * @return array Returns the serialized billable detail.
+     */
+    public static function serializeBillableDetail(BillableDetailInterface $model): array {
+
+        $result = static::serializeTaxable($model);
+
+        return array_merge($result, [
+            //SerializerKeys::BILLABLE=> JsonSerializerHelper::jsonSerializeModel($model->getBillable()),
+            SerializerKeys::COMMENT=> $model->getComment(),
+            SerializerKeys::DISCOUNT_TOTAL=> $model->getDiscountTotal(),
+            SerializerKeys::EXCLUDING_VAT_TOTAL=> $model->getExcludingVatTotal(),
+            SerializerKeys::INCLUDING_VAT_TOTAL=> $model->getIncludingVatTotal(),
+            SerializerKeys::LABEL=> $model->getLabel(),
+            SerializerKeys::QUANTITY=> $model->getQuantity(),
+            SerializerKeys::REFERENCE=> $model->getReference(),
+            SerializerKeys::VAT_TOTAL=> $model->getVatTotal(),
+        ]);
     }
 
     /**

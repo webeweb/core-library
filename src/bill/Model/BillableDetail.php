@@ -13,6 +13,7 @@ namespace WBW\Library\Bill\Model;
 
 use WBW\Library\Bill\Factory\BillableDetailFactory;
 use WBW\Library\Bill\Helper\BillableDetailHelper;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 use WBW\Library\Traits\Floats\FloatDiscountTotalTrait;
 use WBW\Library\Traits\Floats\FloatExcludingVatTotalTrait;
 use WBW\Library\Traits\Floats\FloatIncludingVatTotalTrait;
@@ -32,8 +33,8 @@ use WBW\Library\Traits\Strings\StringReferenceTrait;
 abstract class BillableDetail extends Taxable implements BillableDetailInterface {
 
     use FloatDiscountTotalTrait;
-    use FloatIncludingVatTotalTrait;
     use FloatExcludingVatTotalTrait;
+    use FloatIncludingVatTotalTrait;
     use FloatQuantityTrait;
     use FloatVatTotalTrait;
     use StringCommentTrait;
@@ -68,6 +69,13 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
      */
     public function getBillable(): ?BillableInterface {
         return $this->billable;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeBillableDetail($this);
     }
 
     /**
