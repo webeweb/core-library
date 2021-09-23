@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Bill\Model;
 
+use WBW\Library\Bill\Serializer\JsonSerializer;
+
 /**
  * Purchase order.
  *
@@ -23,6 +25,13 @@ class PurchaseOrder extends Billable implements PurchaseOrderInterface {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO
+        parent::__construct();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializePurchaseOrder($this);
     }
 }
