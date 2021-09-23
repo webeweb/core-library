@@ -20,6 +20,13 @@ namespace WBW\Library\Bill\Serializer;
 interface SerializerKeys {
 
     /**
+     * Serializer key "billable".
+     *
+     * @var string
+     */
+    const BILLABLE = "billable";
+
+    /**
      * Serializer key "billing address addressee".
      *
      * @var string
@@ -60,6 +67,13 @@ interface SerializerKeys {
      * @var string
      */
     const BILLING_ADDRESS_STREET_NAME = "billingAddressStreetName";
+
+    /**
+     * Serializer key "comment".
+     *
+     * @var string
+     */
+    const COMMENT = "comment";
 
     /**
      * Serializer key "delivery address addressee".
@@ -118,6 +132,13 @@ interface SerializerKeys {
     const DISCOUNT_RATE = "discountRate";
 
     /**
+     * Serializer key "discount total".
+     *
+     * @var string
+     */
+    const DISCOUNT_TOTAL = "discountTotal";
+
+    /**
      * Serializer key "excluding VAT price".
      *
      * @var string
@@ -125,11 +146,46 @@ interface SerializerKeys {
     const EXCLUDING_VAT_PRICE = "excludingVatPrice";
 
     /**
+     * Serializer key "excluding VAT total".
+     *
+     * @var string
+     */
+    const EXCLUDING_VAT_TOTAL = "excludingVatTotal";
+
+    /**
      * Serializer key "including VAT price".
      *
      * @var string
      */
     const INCLUDING_VAT_PRICE = "includingVatPrice";
+
+    /**
+     * Serializer key "including VAT total".
+     *
+     * @var string
+     */
+    const INCLUDING_VAT_TOTAL = "includingVatTotal";
+
+    /**
+     * Serializer key "label".
+     *
+     * @var string
+     */
+    const LABEL = "label";
+
+    /**
+     * Serializer key "quantity".
+     *
+     * @var string
+     */
+    const QUANTITY = "quantity";
+
+    /**
+     * Serializer key "reference".
+     *
+     * @var string
+     */
+    const REFERENCE = "reference";
 
     /**
      * Serializer key "sending address addressee".
@@ -186,4 +242,11 @@ interface SerializerKeys {
      * @var string
      */
     const VAT_RATE = "vatRate";
+
+    /**
+     * Serializer key "vat total".
+     *
+     * @var string
+     */
+    const VAT_TOTAL = "vatTotal";
 }
