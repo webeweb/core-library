@@ -11,6 +11,8 @@
 
 namespace WBW\Library\Bill\Model;
 
+use WBW\Library\Bill\Serializer\JsonSerializer;
+
 /**
  * Delivery note.
  *
@@ -23,6 +25,13 @@ class DeliveryNote extends Billable implements DeliveryNoteInterface {
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO
+        parent::__construct();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeDeliveryNote($this);
     }
 }

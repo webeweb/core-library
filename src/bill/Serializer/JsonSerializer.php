@@ -15,6 +15,11 @@ use WBW\Library\Bill\Model\BillableDetailInterface;
 use WBW\Library\Bill\Model\BillableInterface;
 use WBW\Library\Bill\Model\BillingAddressInterface;
 use WBW\Library\Bill\Model\DeliveryAddressInterface;
+use WBW\Library\Bill\Model\DeliveryNoteInterface;
+use WBW\Library\Bill\Model\PurchaseBillInterface;
+use WBW\Library\Bill\Model\PurchaseOrderInterface;
+use WBW\Library\Bill\Model\QuotationInterface;
+use WBW\Library\Bill\Model\SalesBillInterface;
 use WBW\Library\Bill\Model\SendingAddressInterface;
 use WBW\Library\Bill\Model\TaxableInterface;
 use WBW\Library\Serializer\Helper\JsonSerializerHelper;
@@ -105,6 +110,66 @@ class JsonSerializer {
             SerializerKeys::DELIVERY_ADDRESS_LOCATION     => $model->getDeliveryAddressLocation(),
             SerializerKeys::DELIVERY_ADDRESS_COUNTRY      => $model->getDeliveryAddressCountry(),
         ];
+    }
+
+    /**
+     * Serializes a delivery note.
+     *
+     * @param DeliveryNoteInterface $model The model.
+     * @return array Returns the serialized delivery note.
+     */
+    public static function serializeDeliveryNote(DeliveryNoteInterface $model): array {
+        return static::serializeBillable($model);
+    }
+
+    /**
+     * Serializes a purchase bill.
+     *
+     * @param PurchaseBillInterface $model The model.
+     * @return array Returns the serialized purchase bill.
+     */
+    public static function serializePurchaseBill(PurchaseBillInterface $model): array {
+
+        $result = static::serializeBillable($model);
+
+        return array_merge($result, [
+            SerializerKeys::PAYMENT_DATE => $model->getPaymentDate(),
+        ]);
+    }
+
+    /**
+     * Serializes a purchase order.
+     *
+     * @param PurchaseOrderInterface $model The model.
+     * @return array Returns the serialized purchase order.
+     */
+    public static function serializePurchaseOrder(PurchaseOrderInterface $model): array {
+        return static::serializeBillable($model);
+    }
+
+    /**
+     * Serializes a quotation.
+     *
+     * @param QuotationInterface $model The model.
+     * @return array Returns the serialized quotation.
+     */
+    public static function serializeQuotation(QuotationInterface $model): array {
+
+        $result = static::serializeBillable($model);
+
+        return array_merge($result, [
+            SerializerKeys::EXPIRATION_DATE => $model->getExpirationDate(),
+        ]);
+    }
+
+    /**
+     * Serializes a sales bill.
+     *
+     * @param SalesBillInterface $model The model.
+     * @return array Returns the serialized sales bill.
+     */
+    public static function serializeSalesBill(SalesBillInterface $model): array {
+        return static::serializeBillable($model);
     }
 
     /**
