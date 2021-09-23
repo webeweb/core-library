@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Bill\Model;
 
+use JsonSerializable;
+
 /**
  * Delivery address interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface DeliveryAddressInterface {
+interface DeliveryAddressInterface extends JsonSerializable {
 
     /**
      * Get the delivery address "addressee".

@@ -1,0 +1,8 @@
+{
+    "deliveryAddressAddressee": "addressee",
+    "deliveryAddressHouseNumber": "houseNumber",
+    "deliveryAddressStreetName": "streetName",
+    "deliveryAddressPostalCode": "postalCode",
+    "deliveryAddressLocation": "location",
+    "deliveryAddressCountry": "country"
+}

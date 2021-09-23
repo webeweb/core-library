@@ -11,7 +11,9 @@
 
 namespace WBW\Library\Bill\Tests\Fixtures\Model;
 
+use WBW\Library\Bill\Model\DeliveryAddressInterface;
 use WBW\Library\Bill\Model\DeliveryAddressTrait;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 
 /**
  * Test delivery address trait.
@@ -19,7 +21,14 @@ use WBW\Library\Bill\Model\DeliveryAddressTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Tests\Fixtures\Model
  */
-class TestDeliveryAddressTrait {
+class TestDeliveryAddressTrait implements DeliveryAddressInterface {
 
     use DeliveryAddressTrait;
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeDeliveryAddress($this);
+    }
 }
