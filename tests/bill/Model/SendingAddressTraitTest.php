@@ -23,6 +23,31 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestSendingAddressTrait;
 class SendingAddressTraitTest extends AbstractTestCase {
 
     /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/SendingAddressTraitTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new TestSendingAddressTrait();
+        $obj->setSendingAddressAddressee("addressee");
+        $obj->setSendingAddressHouseNumber("houseNumber");
+        $obj->setSendingAddressStreetName("streetName");
+        $obj->setSendingAddressPostalCode("postalCode");
+        $obj->setSendingAddressLocation("location");
+        $obj->setSendingAddressCountry("country");
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(6, $res);
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests the setSendingAddressAddressee() method.
      *
      * @return void

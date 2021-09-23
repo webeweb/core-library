@@ -11,7 +11,9 @@
 
 namespace WBW\Library\Bill\Tests\Fixtures\Model;
 
+use WBW\Library\Bill\Model\SendingAddressInterface;
 use WBW\Library\Bill\Model\SendingAddressTrait;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 
 /**
  * Test sending address trait.
@@ -19,7 +21,14 @@ use WBW\Library\Bill\Model\SendingAddressTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Tests\Fixtures\Model
  */
-class TestSendingAddressTrait {
+class TestSendingAddressTrait implements SendingAddressInterface {
 
     use SendingAddressTrait;
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeSendingAddress($this);
+    }
 }
