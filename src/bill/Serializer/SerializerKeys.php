@@ -76,6 +76,20 @@ interface SerializerKeys {
     const COMMENT = "comment";
 
     /**
+     * Serializer key "created at".
+     *
+     * @var string
+     */
+    const CREATED_AT = "createdAt";
+
+    /**
+     * Serializer key "date".
+     *
+     * @var string
+     */
+    const DATE = "date";
+
+    /**
      * Serializer key "delivery address addressee".
      *
      * @var string
@@ -118,6 +132,13 @@ interface SerializerKeys {
     const DELIVERY_ADDRESS_STREET_NAME = "deliveryAddressStreetName";
 
     /**
+     * Serializer key "details".
+     *
+     * @var string
+     */
+    const DETAILS = "details";
+
+    /**
      * Serializer key "discount amount".
      *
      * @var string
@@ -153,6 +174,13 @@ interface SerializerKeys {
     const EXCLUDING_VAT_TOTAL = "excludingVatTotal";
 
     /**
+     * Serializer key "expiration date".
+     *
+     * @var string
+     */
+    const EXPIRATION_DATE = "expirationDate";
+
+    /**
      * Serializer key "including VAT price".
      *
      * @var string
@@ -172,6 +200,27 @@ interface SerializerKeys {
      * @var string
      */
     const LABEL = "label";
+
+    /**
+     * Serializer key "number".
+     *
+     * @var string
+     */
+    const NUMBER = "number";
+
+    /**
+     * Serializer key "parent".
+     *
+     * @var string
+     */
+    const PARENT = "parent";
+
+    /**
+     * Serializer key "payment date".
+     *
+     * @var string
+     */
+    const PAYMENT_DATE = "paymentDate";
 
     /**
      * Serializer key "quantity".
@@ -228,6 +277,13 @@ interface SerializerKeys {
      * @var string
      */
     const SENDING_ADDRESS_STREET_NAME = "sendingAddressStreetName";
+
+    /**
+     * Serializer key "updated at".
+     *
+     * @var string
+     */
+    const UPDATED_AT = "updatedAt";
 
     /**
      * Serializer key "vat amount".
