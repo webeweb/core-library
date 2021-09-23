@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Add JSON serialization into bill models
+
 ### [8.8.0](https://github.com/webeweb/core-library/tree/v8.8.0) (2021-09-22)
 
 - Add string mobile trait
