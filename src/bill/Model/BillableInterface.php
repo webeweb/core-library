@@ -12,6 +12,7 @@
 namespace WBW\Library\Bill\Model;
 
 use DateTime;
+use JsonSerializable;
 
 /**
  * Billable interface.
@@ -19,7 +20,7 @@ use DateTime;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface BillableInterface {
+interface BillableInterface extends JsonSerializable {
 
     /**
      * Add a detail.

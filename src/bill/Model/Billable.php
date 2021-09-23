@@ -15,6 +15,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use WBW\Library\Bill\Factory\BillableFactory;
 use WBW\Library\Bill\Helper\BillableHelper;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 use WBW\Library\Traits\DateTimes\DateTimeCreatedAtTrait;
 use WBW\Library\Traits\DateTimes\DateTimeDateTrait;
 use WBW\Library\Traits\DateTimes\DateTimeUpdatedAtTrait;
@@ -39,8 +40,8 @@ abstract class Billable implements BillableInterface {
     use DateTimeCreatedAtTrait;
     use DateTimeDateTrait;
     use DateTimeUpdatedAtTrait;
-    use FloatDiscountTotalTrait;
     use FloatDiscountRateTrait;
+    use FloatDiscountTotalTrait;
     use FloatExcludingVatTotalTrait;
     use FloatIncludingVatTotalTrait;
     use FloatVatTotalTrait;
@@ -99,6 +100,13 @@ abstract class Billable implements BillableInterface {
      */
     public function getParent(): ?BillableInterface {
         return $this->parent;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeBillable($this);
     }
 
     /**
