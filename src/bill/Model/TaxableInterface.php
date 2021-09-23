@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Bill\Model;
 
+use JsonSerializable;
+
 /**
  * Taxable interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface TaxableInterface {
+interface TaxableInterface extends JsonSerializable {
 
     /**
      * Get the discount amount.

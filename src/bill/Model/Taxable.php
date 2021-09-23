@@ -13,6 +13,7 @@ namespace WBW\Library\Bill\Model;
 
 use WBW\Library\Bill\Factory\TaxableFactory;
 use WBW\Library\Bill\Helper\TaxableHelper;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 use WBW\Library\Traits\Floats\FloatDiscountAmountTrait;
 use WBW\Library\Traits\Floats\FloatDiscountRateTrait;
 use WBW\Library\Traits\Floats\FloatExcludingVatPriceTrait;
@@ -50,6 +51,13 @@ abstract class Taxable implements TaxableInterface {
      */
     public function __clone() {
         return TaxableFactory::copy($this, new $this());
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeTaxable($this);
     }
 
     /**

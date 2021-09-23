@@ -1,0 +1,8 @@
+{
+    "discountAmount": 0.1,
+    "discountRate": 0.2,
+    "excludingVatPrice": 0.3,
+    "includingVatPrice": 0.4,
+    "vatAmount": 0.5,
+    "vatRate": 0.6
+}
