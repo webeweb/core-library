@@ -23,6 +23,31 @@ use WBW\Library\Bill\Tests\Fixtures\Model\TestBillingAddressTrait;
 class BillingAddressTraitTest extends AbstractTestCase {
 
     /**
+     * Tests the jsonSerialize() method.
+     *
+     * @return void
+     */
+    public function testJsonSerialize(): void {
+
+        // Set the expected data.
+        $data = file_get_contents(__DIR__ . "/BillingAddressTraitTest.testJsonSerialize.json");
+        $json = json_decode($data, true);
+
+        $obj = new TestBillingAddressTrait();
+        $obj->setBillingAddressAddressee("addressee");
+        $obj->setBillingAddressHouseNumber("houseNumber");
+        $obj->setBillingAddressStreetName("streetName");
+        $obj->setBillingAddressPostalCode("postalCode");
+        $obj->setBillingAddressLocation("location");
+        $obj->setBillingAddressCountry("country");
+
+        $res = $obj->jsonSerialize();
+        $this->assertCount(6, $res);
+
+        $this->assertEquals($json, $res);
+    }
+
+    /**
      * Tests the setBillingAddressAddressee() method.
      *
      * @return void

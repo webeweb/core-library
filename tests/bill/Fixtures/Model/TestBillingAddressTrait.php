@@ -11,7 +11,9 @@
 
 namespace WBW\Library\Bill\Tests\Fixtures\Model;
 
+use WBW\Library\Bill\Model\BillingAddressInterface;
 use WBW\Library\Bill\Model\BillingAddressTrait;
+use WBW\Library\Bill\Serializer\JsonSerializer;
 
 /**
  * Test billing address trait.
@@ -19,7 +21,14 @@ use WBW\Library\Bill\Model\BillingAddressTrait;
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Tests\Fixtures\Model
  */
-class TestBillingAddressTrait {
+class TestBillingAddressTrait implements BillingAddressInterface {
 
     use BillingAddressTrait;
+
+    /**
+     * {@inheritDoc}
+     */
+    public function jsonSerialize(): array {
+        return JsonSerializer::serializeBillingAddress($this);
+    }
 }

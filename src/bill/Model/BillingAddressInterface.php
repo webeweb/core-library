@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Bill\Model;
 
+use JsonSerializable;
+
 /**
  * Billing address interface.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Model
  */
-interface BillingAddressInterface {
+interface BillingAddressInterface extends JsonSerializable {
 
     /**
      * Get the billing address "addressee".
