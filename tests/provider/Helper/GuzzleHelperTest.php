@@ -29,7 +29,7 @@ class GuzzleHelperTest extends AbstractTestCase {
      */
     public function testGetStreamParameterName(): void {
 
-        $exp =  PHP_VERSION_ID < 70205 ? "save_as" : "sink";
+        $exp =  PHP_VERSION_ID < 70205 ? "save_to" : "sink";
 
         $this->assertEquals($exp, GuzzleHelper::getStreamParameterName());
     }

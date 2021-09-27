@@ -32,7 +32,7 @@ class GuzzleHelper {
 
         // Guzzle v6.x.x
         if (true === defined("GuzzleHttp\\ClientInterface::VERSION")) {
-            return "save_as";
+            return "save_to";
         }
 
         // Guzzle v7.x.x
