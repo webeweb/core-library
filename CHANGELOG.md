@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-### master
+### [8.9.0](https://github.com/webeweb/core-library/tree/v8.9.0) (2021-09-27)
 
+- Add Guzzle helper
 - Add JSON serialization into bill models
 
 ### [8.8.0](https://github.com/webeweb/core-library/tree/v8.8.0) (2021-09-22)
