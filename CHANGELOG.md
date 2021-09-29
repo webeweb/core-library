@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.10.0](https://github.com/webeweb/core-library/tree/v8.10.0) (2021-09-29)
+
+- Add string motif trait
+- Add string object trait
+- Add string subject trait
+
 ### [8.9.0](https://github.com/webeweb/core-library/tree/v8.9.0) (2021-09-27)
 
 - Add Guzzle helper
