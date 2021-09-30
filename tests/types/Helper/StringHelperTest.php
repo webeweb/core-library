@@ -66,6 +66,8 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testExtractUpperCase(): void {
 
+        $this->assertEquals(null, StringHelper::extractUpperCase(null));
+
         $this->assertEquals("CB", StringHelper::extractUpperCase("CoreBundle"));
         $this->assertEquals("cb", StringHelper::extractUpperCase("CoreBundle", true));
 
@@ -111,9 +113,17 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testParseArray(): void {
 
-        $arg = ["exception" => null, "id" => "id", "class" => ["class1", "class2", "class3   class4"]];
-        $res = 'id="id" class="class1 class2 class3 class4"';
-        $this->assertEquals($res, StringHelper::parseArray($arg));
+        $arg = [
+            "exception" => null,
+            "id"        => "id",
+            "class"     => [
+                "class1",
+                "class2",
+                "class3   class4",
+            ],
+        ];
+
+        $this->assertEquals('id="id" class="class1 class2 class3 class4"', StringHelper::parseArray($arg));
     }
 
     /**
@@ -135,6 +145,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testRemoveAccents(): void {
 
+        $this->assertEquals(null, StringHelper::removeAccents(null));
         $this->assertEquals("a", StringHelper::removeAccents("à"));
         $this->assertEquals("a", StringHelper::removeAccents("á"));
         $this->assertEquals("a", StringHelper::removeAccents("â"));
@@ -196,6 +207,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToHumanReadable(): void {
 
+        $this->assertEquals(null, StringHelper::toHumanReadable(null));
         $this->assertEquals("Core bundle", StringHelper::toHumanReadable("CoreBundle"));
         $this->assertEquals("Bootstrap bundle", StringHelper::toHumanReadable("BootstrapBundle"));
         $this->assertEquals("J query data tables bundle", StringHelper::toHumanReadable("JQueryDataTablesBundle"));
@@ -212,6 +224,7 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToLowerCamelCase(): void {
 
+        $this->assertEquals(null, StringHelper::toLowerCamelCase(null));
         $this->assertEquals("coreBundle", StringHelper::toLowerCamelCase("CoreBundle"));
         $this->assertEquals("bootstrapBundle", StringHelper::toLowerCamelCase("BootstrapBundle"));
         $this->assertEquals("jQueryDataTablesBundle", StringHelper::toLowerCamelCase("JQueryDataTablesBundle"));
@@ -227,6 +240,8 @@ class StringHelperTest extends AbstractTestCase {
      * @throws Exception Throws an exception if an error occurs.
      */
     public function testToSnakeCase(): void {
+
+        $this->assertEquals(null, StringHelper::toSnakeCase(null));
 
         $this->assertEquals("core_bundle", StringHelper::toSnakeCase("CoreBundle"));
         $this->assertEquals("core-bundle", StringHelper::toSnakeCase("CoreBundle", "-"));
@@ -255,11 +270,47 @@ class StringHelperTest extends AbstractTestCase {
      */
     public function testToUpperCamelCase(): void {
 
+        $this->assertEquals(null, StringHelper::toUpperCamelCase(null));
         $this->assertEquals("CoreBundle", StringHelper::toUpperCamelCase("coreBundle"));
         $this->assertEquals("BootstrapBundle", StringHelper::toUpperCamelCase("bootstrapBundle"));
         $this->assertEquals("JQueryDataTablesBundle", StringHelper::toUpperCamelCase("jQueryDataTablesBundle"));
         $this->assertEquals("EDMBundle", StringHelper::toUpperCamelCase("eDMBundle"));
         $this->assertEquals("ExportCSVAction", StringHelper::toUpperCamelCase("exportCSVAction"));
         $this->assertEquals("ExportCSV", StringHelper::toUpperCamelCase("exportCSV"));
+    }
+
+    /**
+     * Tests the ucfirst() method.
+     *
+     * @return void
+     */
+    public function testUcfirst(): void {
+
+        $this->assertEquals(null, StringHelper::ucfirst(null));
+        $this->assertEquals("String", StringHelper::ucfirst("string"));
+        $this->assertEquals("String", StringHelper::ucfirst("STRING"));
+        $this->assertEquals("String", StringHelper::ucfirst("String"));
+        $this->assertEquals("String", StringHelper::ucfirst("sTRING"));
+    }
+
+    /**
+     * Tests the ucwords() method.
+     *
+     * @return void
+     */
+    public function testUcwords(): void {
+
+        $this->assertEquals(null, StringHelper::ucwords(null));
+        $this->assertEquals("String", StringHelper::ucwords("string"));
+        $this->assertEquals("String", StringHelper::ucwords("STRING"));
+        $this->assertEquals("String", StringHelper::ucwords("String"));
+        $this->assertEquals("String", StringHelper::ucwords("sTRING"));
+
+        $this->assertEquals("String\tString", StringHelper::ucwords("string\tstring"));
+        $this->assertEquals("String\rString", StringHelper::ucwords("STRING\rSTRING"));
+        $this->assertEquals("String\nString", StringHelper::ucwords("String\nString"));
+        $this->assertEquals("String\fString", StringHelper::ucwords("sTRING\fsTRING"));
+        $this->assertEquals("String\vString", StringHelper::ucwords("sTrInG\vsTrInG"));
+        $this->assertEquals("String-String", StringHelper::ucwords("StRiNg-StRiNg"));
     }
 }

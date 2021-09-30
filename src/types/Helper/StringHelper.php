@@ -68,11 +68,15 @@ class StringHelper {
     /**
      * Extract upper case letters.
      *
-     * @param string $str The string.
+     * @param string|null $str The string.
      * @param bool $lower Lower case ?
-     * @return string Returns the extracted upper case letters.
+     * @return string|null Returns the extracted upper case letters.
      */
-    public static function extractUpperCase(string $str, bool $lower = false): string {
+    public static function extractUpperCase(?string $str, bool $lower = false): ?string {
+
+        if (null === $str) {
+            return null;
+        }
 
         preg_match_all("/[A-Z]/", $str, $matches);
 
@@ -168,20 +172,27 @@ class StringHelper {
     /**
      * Remove accents.
      *
-     * @param string $str The string.
-     * @return string Returns the string without accents.
+     * @param string|null $str The string.
+     * @return string|null Returns the string without accents.
      */
-    public static function removeAccents(string $str): string {
+    public static function removeAccents(?string $str): ?string {
+        if (null === $str) {
+            return null;
+        }
         return Transliterator::create("NFD; [:Nonspacing Mark:] Remove; NFC;")->transliterate($str);
     }
 
     /**
      * Convert a string into human readable.
      *
-     * @param string $str The string.
-     * @return string Returns the human readable string.
+     * @param string|null $str The string.
+     * @return string|null Returns the human readable string.
      */
-    public static function toHumanReadable(string $str): string {
+    public static function toHumanReadable(?string $str): ?string {
+
+        if (null === $str) {
+            return null;
+        }
 
         $callback = function($m) {
             $join = implode("", [" ", $m[1], $m[2]]);
@@ -199,10 +210,14 @@ class StringHelper {
     /**
      * Convert a string into lower camel case.
      *
-     * @param string $str The string.
-     * @return string Returns the lower camel case string.
+     * @param string|null $str The string.
+     * @return string|null Returns the lower camel case string.
      */
-    public static function toLowerCamelCase(string $str): string {
+    public static function toLowerCamelCase(?string $str): ?string {
+
+        if (null === $str) {
+            return null;
+        }
 
         $callback = function($m) {
             return count($m) < 5 ? strtolower($m[2]) . $m[3] : strtolower($m[5]) . $m[6];
@@ -214,11 +229,15 @@ class StringHelper {
     /**
      * Convert a string into snake case.
      *
-     * @param string $str The string.
+     * @param string|null $str The string.
      * @param string $sep The separator.
-     * @return string Returns the snake case string.
+     * @return string|null Returns the snake case string.
      */
-    public static function toSnakeCase(string $str, string $sep = "_"): string {
+    public static function toSnakeCase(?string $str, string $sep = "_"): ?string {
+
+        if (null === $str) {
+            return null;
+        }
 
         $output = static::toHumanReadable($str);
         $join   = str_replace(" ", $sep, $output);
@@ -229,10 +248,14 @@ class StringHelper {
     /**
      * Convert a string into upper camel case.
      *
-     * @param string $str The string.
-     * @return string Returns the upper camel case string.
+     * @param string|null $str The string.
+     * @return string|null Returns the upper camel case string.
      */
-    public static function toUpperCamelCase(string $str): string {
+    public static function toUpperCamelCase(?string $str): ?string {
+
+        if (null === $str) {
+            return null;
+        }
 
         $output = [
             strtoupper(substr($str, 0, 1)),
@@ -240,5 +263,32 @@ class StringHelper {
         ];
 
         return implode("", $output);
+    }
+
+    /**
+     * Upper case first.
+     *
+     * @param string|null $str The string.
+     * @return string|null Returns the converted string.
+     */
+    public static function ucfirst(?string $str): ?string {
+        if (null === $str) {
+            return null;
+        }
+        return ucfirst(strtolower($str));
+    }
+
+    /**
+     * Upper case words.
+     *
+     * @param string|null $str The string.
+     * @param string $seperators The seprators.
+     * @return string|null Returns the converted string.
+     */
+    public static function ucwords(?string $str, string $seperators = " \t\r\n\f\v-"): ?string {
+        if (null === $str) {
+            return null;
+        }
+        return ucwords(strtolower($str), $seperators);
     }
 }
