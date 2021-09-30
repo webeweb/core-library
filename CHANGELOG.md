@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.11.0](https://github.com/webeweb/core-library/tree/v8.11.0) (2021-09-30)
+
+- Add ucfirst() into String helper
+- Add ucwords() into String helper
+- Allow null into String helper methods
+
 ### [8.10.0](https://github.com/webeweb/core-library/tree/v8.10.0) (2021-09-29)
 
 - Add string motif trait
@@ -35,7 +41,7 @@ CHANGELOG
 
 - Add accounting models
 - Add bill models
-- Add date/time payment date trait 
+- Add date/time payment date trait
 - Add float discount amount trait
 - Add float discount total trait
 - Add float VAT rate trait
@@ -472,7 +478,7 @@ CHANGELOG
 
 - Add set() method into Array utility
 - Add Vehicle mark choices interface
-- Fix queries into Microsoft Access database 
+- Fix queries into Microsoft Access database
 
 ### [1.1.0](https://github.com/webeweb/core-library/tree/v1.1.0) (2018-03-08)
 
