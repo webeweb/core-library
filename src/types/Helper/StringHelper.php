@@ -272,9 +272,6 @@ class StringHelper {
      * @return string|null Returns the converted string.
      */
     public static function ucfirst(?string $str): ?string {
-        if (null === $str) {
-            return null;
-        }
         return ucfirst(strtolower($str));
     }
 
@@ -282,13 +279,10 @@ class StringHelper {
      * Upper case words.
      *
      * @param string|null $str The string.
-     * @param string $seperators The seprators.
+     * @param string $separators The separators.
      * @return string|null Returns the converted string.
      */
-    public static function ucwords(?string $str, string $seperators = " \t\r\n\f\v-"): ?string {
-        if (null === $str) {
-            return null;
-        }
-        return ucwords(strtolower($str), $seperators);
+    public static function ucwords(?string $str, string $separators = " \t\r\n\f\v-"): ?string {
+        return ucwords(strtolower($str), $separators);
     }
 }
