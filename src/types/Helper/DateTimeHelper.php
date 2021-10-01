@@ -284,27 +284,29 @@ class DateTimeHelper {
      *
      * @param DateTime|null $dateTime The date/time.
      * @param string $format The format.
-     * @return string Returns the converted date/time.
+     * @return string|null Returns the converted date/time.
      */
-    public static function toString(DateTime $dateTime = null, string $format = self::DATETIME_FORMAT): string {
-
+    public static function toString(?DateTime $dateTime, string $format = self::DATETIME_FORMAT): ?string {
         if (null === $dateTime) {
-            return "";
+            return null;
         }
-
         return $dateTime->format($format);
     }
 
     /**
      * Translate the weekday part.
      *
-     * @param string $date The date.
+     * @param string|null $date The date.
      * @param string $locale The locale.
-     * @return string Returns the weekday part translated.
+     * @return string|null Returns the weekday part translated.
      */
-    public static function translateWeekday(string $date, string $locale = "en"): string {
+    public static function translateWeekday(?string $date, string $locale = "en"): ?string {
 
-        $messages = __DIR__ . "/../Resources/translations/weekdays.%locale%.yml";
+        if (null === $date) {
+            return null;
+        }
+
+        $messages = __DIR__ . "/../Resources/translations/DateTimeHelper.%locale%.yml";
         $filename = str_replace("%locale%", $locale, $messages);
 
         if (false === file_exists($filename)) {

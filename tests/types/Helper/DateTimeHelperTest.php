@@ -320,9 +320,9 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testToString(): void {
 
+        $this->assertEquals(null, DateTimeHelper::toString(null));
         $this->assertEquals("2018-01-14 17:00", DateTimeHelper::toString(new DateTime("2018-01-14 17:00")));
         $this->assertEquals("14/01/2018 17:00", DateTimeHelper::toString(new DateTime("2018-01-14 17:00"), "d/m/Y H:i"));
-        $this->assertEquals("", DateTimeHelper::toString());
     }
 
     /**
@@ -333,28 +333,45 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testTranslateWeekday(): void {
 
+        // Set the date/time mocks.
         $arg = [];
         for ($i = 0; $i < 7; ++$i) {
             $arg[] = new DateTime("2018-04-" . ($i + 8));
         }
 
-        $res = [
-            "Dimanche, 2018-04-08",
-            "Lundi, 2018-04-09",
-            "Mardi, 2018-04-10",
-            "Mercredi, 2018-04-11",
-            "Jeudi, 2018-04-12",
-            "Vendredi, 2018-04-13",
-            "Samedi, 2018-04-14",
+        $exp = [
+            "en" => [
+                "Sunday, 2018-04-08",
+                "Monday, 2018-04-09",
+                "Tuesday, 2018-04-10",
+                "Wednesday, 2018-04-11",
+                "Thursday, 2018-04-12",
+                "Friday, 2018-04-13",
+                "Saturday, 2018-04-14",
+            ],
+            "fr" => [
+                "Dimanche, 2018-04-08",
+                "Lundi, 2018-04-09",
+                "Mardi, 2018-04-10",
+                "Mercredi, 2018-04-11",
+                "Jeudi, 2018-04-12",
+                "Vendredi, 2018-04-13",
+                "Samedi, 2018-04-14",
+            ],
         ];
+
+        $this->assertEquals(null, DateTimeHelper::translateWeekDay(null));
 
         // Handle each date/time.
         for ($i = 0; $i < 7; ++$i) {
 
-            // With FR language : translation.
-            $this->assertEquals($res[$i], DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "fr"));
+            // With EN locale => translation.
+            $this->assertEquals($exp["en"][$i], DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d")));
 
-            // With DE language : no translation.
+            // With FR locale => translation.
+            $this->assertEquals($exp["fr"][$i], DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "fr"));
+
+            // With DE locale => no translation.
             $this->assertEquals($arg[$i]->format("l, Y-m-d"), DateTimeHelper::translateWeekDay($arg[$i]->format("l, Y-m-d"), "de"));
         }
     }
