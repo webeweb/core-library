@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### master
+
+- Allow null into Date/time helper
+
 ### [8.11.0](https://github.com/webeweb/core-library/tree/v8.11.0) (2021-09-30)
 
 - Add ucfirst() into String helper
