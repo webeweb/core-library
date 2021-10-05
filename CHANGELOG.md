@@ -1,8 +1,9 @@
 CHANGELOG
 =========
 
-### master
+### [8.12.0](https://github.com/webeweb/core-library/tree/v8.12.0) (2021-10-05)
 
+- Add format() into String helper
 - Allow null into Date/time helper
 
 ### [8.11.0](https://github.com/webeweb/core-library/tree/v8.11.0) (2021-09-30)
