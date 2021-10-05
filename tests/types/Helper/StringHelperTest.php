@@ -107,6 +107,20 @@ class StringHelperTest extends AbstractTestCase {
     }
 
     /**
+     * Tests the format() method.
+     *
+     * @return void
+     */
+    public function testFormat(): void {
+
+        $this->assertEquals(null, StringHelper::format(null, "_____ _____ _"));
+        $this->assertEquals(null, StringHelper::format("Helloworld!", null));
+
+        $this->assertEquals("Hello world !", StringHelper::format("Helloworld!", "_____ _____ _"));
+        $this->assertEquals("+33 6 12 34 56 78", StringHelper::format("612345678", "+33 _ __ __ __ __"));
+    }
+
+    /**
      * Tests the parseArray() method.
      *
      * @return void
