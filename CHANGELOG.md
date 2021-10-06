@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### master
+
+- Add string logo trait
+- Add string picture trait
+
 ### [8.12.0](https://github.com/webeweb/core-library/tree/v8.12.0) (2021-10-05)
 
 - Add format() into String helper
