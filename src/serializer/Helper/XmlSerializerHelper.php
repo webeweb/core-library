@@ -51,11 +51,9 @@ class XmlSerializerHelper extends SerializerHelper {
      * @return string|null Returns the serialized model.
      */
     public static function xmlSerializeModel(?XmlSerializable $model): ?string {
-
         if (null === $model) {
             return null;
         }
-
         return $model->xmlSerialize();
     }
 
@@ -66,11 +64,9 @@ class XmlSerializerHelper extends SerializerHelper {
      * @return string|null Returns the serialized value.
      */
     public static function xmlSerializeValue(?string $value): ?string {
-
         if (null === $value) {
             return null;
         }
-
         return htmlentities($value, ENT_XML1 | ENT_QUOTES, "UTF-8");
     }
 }

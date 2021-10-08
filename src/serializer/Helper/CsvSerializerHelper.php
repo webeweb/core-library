@@ -51,11 +51,9 @@ class CsvSerializerHelper extends SerializerHelper {
      * @return string|null Returns the serialized model.
      */
     public static function csvSerializeModel(?CsvSerializable $model): ?string {
-
         if (null === $model) {
             return null;
         }
-
         return $model->csvSerialize();
     }
 }

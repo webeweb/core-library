@@ -51,11 +51,9 @@ class JsonSerializerHelper {
      * @return array|null Returns the serialized model.
      */
     public static function jsonSerializeModel(?JsonSerializable $model): ?array {
-
         if (null === $model) {
             return null;
         }
-
         return $model->jsonSerialize();
     }
 }
