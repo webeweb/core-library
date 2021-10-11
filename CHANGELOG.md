@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-### master
+### [8.13.0](https://github.com/webeweb/core-library/tree/v8.13.0) (2021-10-11)
 
 - Add JSON response model
 - Add string logo trait
