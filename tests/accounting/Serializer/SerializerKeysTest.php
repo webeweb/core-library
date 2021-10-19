@@ -35,15 +35,10 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("bankName", SerializerKeys::BANK_NAME);
         $this->assertEquals("bic", SerializerKeys::BIC);
         $this->assertEquals("branchCode", SerializerKeys::BRANCH_CODE);
-        $this->assertEquals("code", SerializerKeys::CODE);
         $this->assertEquals("iban", SerializerKeys::IBAN);
-        $this->assertEquals("label", SerializerKeys::LABEL);
-        $this->assertEquals("number", SerializerKeys::NUMBER);
         $this->assertEquals("owner", SerializerKeys::OWNER);
         $this->assertEquals("purchasesAccountingAccount", SerializerKeys::PURCHASES_ACCOUNTING_ACCOUNT);
-        $this->assertEquals("rate", SerializerKeys::RATE);
         $this->assertEquals("ribKey", SerializerKeys::RIB_KEY);
         $this->assertEquals("salesAccountingAccount", SerializerKeys::SALES_ACCOUNTING_ACCOUNT);
-        $this->assertEquals("type", SerializerKeys::TYPE);
     }
 }

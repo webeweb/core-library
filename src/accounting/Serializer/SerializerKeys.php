@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Accounting\Serializer;
 
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+
 /**
  * Serializer keys.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Accounting\Serializer
  */
-interface SerializerKeys {
+interface SerializerKeys extends BaseSerializerKeys {
 
     /**
      * Serializer key "account number".
@@ -62,32 +64,11 @@ interface SerializerKeys {
     const BRANCH_CODE = "branchCode";
 
     /**
-     * Serializer key "code".
-     *
-     * @var string
-     */
-    const CODE = "code";
-
-    /**
      * Serializer key "IBAN".
      *
      * @var string
      */
     const IBAN = "iban";
-
-    /**
-     * Serializer key "label".
-     *
-     * @var string
-     */
-    const LABEL = "label";
-
-    /**
-     * Serializer key "number".
-     *
-     * @var string
-     */
-    const NUMBER = "number";
 
     /**
      * Serializer key "owner".
@@ -104,13 +85,6 @@ interface SerializerKeys {
     const PURCHASES_ACCOUNTING_ACCOUNT = "purchasesAccountingAccount";
 
     /**
-     * Serializer key "rate".
-     *
-     * @var string
-     */
-    const RATE = "rate";
-
-    /**
      * Serializer key "RIB key".
      *
      * @var string
@@ -123,11 +97,4 @@ interface SerializerKeys {
      * @var string
      */
     const SALES_ACCOUNTING_ACCOUNT = "salesAccountingAccount";
-
-    /**
-     * Serializer key "type".
-     *
-     * @var string
-     */
-    const TYPE = "type";
 }
