@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Vehicle\Serializer;
 
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+
 /**
  * Serializer keys.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Vehicle\Serializer
  */
-interface SerializerKeys {
+interface SerializerKeys extends BaseSerializerKeys {
 
     /**
      * Serializer key "A".
@@ -195,13 +197,6 @@ interface SerializerKeys {
     const K = "k";
 
     /**
-     * Serializer key "label".
-     *
-     * @var string
-     */
-    const LABEL = "label";
-
-    /**
      * Serializer key "P.1".
      *
      * @var string
@@ -228,13 +223,6 @@ interface SerializerKeys {
      * @var string
      */
     const P6 = "p6";
-
-    /**
-     * Serializer key "Q".
-     *
-     * @var string
-     */
-    const Q = "q";
 
     /**
      * Serializer key "S.1".

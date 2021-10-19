@@ -29,8 +29,6 @@ class SerializerKeysTest extends AbstractTestCase {
      */
     public function test__construct(): void {
 
-        $this->assertEquals("label", SerializerKeys::LABEL);
-
         $this->assertEquals("a", SerializerKeys::A);
         $this->assertEquals("a1", SerializerKeys::A1);
         $this->assertEquals("b", SerializerKeys::B);
@@ -60,7 +58,6 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("p2", SerializerKeys::P2);
         $this->assertEquals("p3", SerializerKeys::P3);
         $this->assertEquals("p6", SerializerKeys::P6);
-        $this->assertEquals("q", SerializerKeys::Q);
         $this->assertEquals("s1", SerializerKeys::S1);
         $this->assertEquals("s2", SerializerKeys::S2);
         $this->assertEquals("u1", SerializerKeys::U1);
