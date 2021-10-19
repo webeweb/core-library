@@ -11,13 +11,15 @@
 
 namespace WBW\Library\Bill\Serializer;
 
+use WBW\Library\Serializer\SerializerKeys as BaseSerializerKeys;
+
 /**
  * Serializer keys.
  *
  * @author webeweb <https://github.com/webeweb>
  * @package WBW\Library\Bill\Serializer
  */
-interface SerializerKeys {
+interface SerializerKeys extends BaseSerializerKeys {
 
     /**
      * Serializer key "billable".
@@ -69,27 +71,6 @@ interface SerializerKeys {
     const BILLING_ADDRESS_STREET_NAME = "billingAddressStreetName";
 
     /**
-     * Serializer key "comment".
-     *
-     * @var string
-     */
-    const COMMENT = "comment";
-
-    /**
-     * Serializer key "created at".
-     *
-     * @var string
-     */
-    const CREATED_AT = "createdAt";
-
-    /**
-     * Serializer key "date".
-     *
-     * @var string
-     */
-    const DATE = "date";
-
-    /**
      * Serializer key "delivery address addressee".
      *
      * @var string
@@ -139,41 +120,6 @@ interface SerializerKeys {
     const DETAILS = "details";
 
     /**
-     * Serializer key "discount amount".
-     *
-     * @var string
-     */
-    const DISCOUNT_AMOUNT = "discountAmount";
-
-    /**
-     * Serializer key "discount rate".
-     *
-     * @var string
-     */
-    const DISCOUNT_RATE = "discountRate";
-
-    /**
-     * Serializer key "discount total".
-     *
-     * @var string
-     */
-    const DISCOUNT_TOTAL = "discountTotal";
-
-    /**
-     * Serializer key "excluding VAT price".
-     *
-     * @var string
-     */
-    const EXCLUDING_VAT_PRICE = "excludingVatPrice";
-
-    /**
-     * Serializer key "excluding VAT total".
-     *
-     * @var string
-     */
-    const EXCLUDING_VAT_TOTAL = "excludingVatTotal";
-
-    /**
      * Serializer key "expiration date".
      *
      * @var string
@@ -181,60 +127,11 @@ interface SerializerKeys {
     const EXPIRATION_DATE = "expirationDate";
 
     /**
-     * Serializer key "including VAT price".
-     *
-     * @var string
-     */
-    const INCLUDING_VAT_PRICE = "includingVatPrice";
-
-    /**
-     * Serializer key "including VAT total".
-     *
-     * @var string
-     */
-    const INCLUDING_VAT_TOTAL = "includingVatTotal";
-
-    /**
-     * Serializer key "label".
-     *
-     * @var string
-     */
-    const LABEL = "label";
-
-    /**
-     * Serializer key "number".
-     *
-     * @var string
-     */
-    const NUMBER = "number";
-
-    /**
      * Serializer key "parent".
      *
      * @var string
      */
     const PARENT = "parent";
-
-    /**
-     * Serializer key "payment date".
-     *
-     * @var string
-     */
-    const PAYMENT_DATE = "paymentDate";
-
-    /**
-     * Serializer key "quantity".
-     *
-     * @var string
-     */
-    const QUANTITY = "quantity";
-
-    /**
-     * Serializer key "reference".
-     *
-     * @var string
-     */
-    const REFERENCE = "reference";
 
     /**
      * Serializer key "sending address addressee".
@@ -277,32 +174,4 @@ interface SerializerKeys {
      * @var string
      */
     const SENDING_ADDRESS_STREET_NAME = "sendingAddressStreetName";
-
-    /**
-     * Serializer key "updated at".
-     *
-     * @var string
-     */
-    const UPDATED_AT = "updatedAt";
-
-    /**
-     * Serializer key "vat amount".
-     *
-     * @var string
-     */
-    const VAT_AMOUNT = "vatAmount";
-
-    /**
-     * Serializer key "vat rate".
-     *
-     * @var string
-     */
-    const VAT_RATE = "vatRate";
-
-    /**
-     * Serializer key "vat total".
-     *
-     * @var string
-     */
-    const VAT_TOTAL = "vatTotal";
 }
