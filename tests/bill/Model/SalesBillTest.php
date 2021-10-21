@@ -11,10 +11,10 @@
 
 namespace WBW\Library\Bill\Tests\Model;
 
-use WBW\Library\Bill\Model\Billable;
-use WBW\Library\Bill\Model\BillableDetail;
+use DateTime;
+use DateTimeZone;
+use Exception;
 use WBW\Library\Bill\Model\BillableInterface;
-use WBW\Library\Bill\Model\DeliveryNote;
 use WBW\Library\Bill\Model\SalesBill;
 use WBW\Library\Bill\Model\SalesBillInterface;
 use WBW\Library\Bill\Tests\AbstractTestCase;
@@ -33,7 +33,7 @@ class SalesBillTest extends AbstractTestCase {
      * Tests the jsonSerialize() method.
      *
      * @return void
-     * @throws \Exception Throws an exception if an error occurs.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public function testJsonSerialize(): void {
 
@@ -42,8 +42,8 @@ class SalesBillTest extends AbstractTestCase {
 
         $obj = new SalesBill();
         $obj->setComment("comment");
-        $obj->setCreatedAt(new \DateTime("2021-09-23 15:20:00.000000", new \DateTimeZone("UTC")));
-        $obj->setDate(new \DateTime("2021-09-23 15:20:01.000000", new \DateTimeZone("UTC")));
+        $obj->setCreatedAt(new DateTime("2021-09-23 15:20:00.000000", new DateTimeZone("UTC")));
+        $obj->setDate(new DateTime("2021-09-23 15:20:01.000000", new DateTimeZone("UTC")));
         $obj->setDiscountRate(0.1);
         $obj->setDiscountTotal(0.2);
         $obj->setExcludingVatTotal(0.3);
@@ -51,7 +51,7 @@ class SalesBillTest extends AbstractTestCase {
         $obj->setNumber("number");
         $obj->setParent(new TestBillable());
         $obj->setReference("reference");
-        $obj->setUpdatedAt(new \DateTime("2021-09-23 15:20:02.000000", new \DateTimeZone("UTC")));
+        $obj->setUpdatedAt(new DateTime("2021-09-23 15:20:02.000000", new DateTimeZone("UTC")));
         $obj->setVatTotal(0.5);
 
         $obj->addDetail(new TestBillableDetail());
