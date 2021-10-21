@@ -11,7 +11,6 @@
 
 namespace WBW\Library\Bill\Model;
 
-use WBW\Library\Bill\Factory\BillableDetailFactory;
 use WBW\Library\Bill\Helper\BillableDetailHelper;
 use WBW\Library\Bill\Serializer\JsonSerializer;
 use WBW\Library\Traits\Floats\FloatDiscountTotalTrait;
@@ -53,15 +52,6 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
      */
     public function __construct() {
         // NOTHING TO DO
-    }
-
-    /**
-     * Clone.
-     *
-     * @return BillableDetailInterface Returns this cloned billable detail.
-     */
-    public function __clone() {
-        return BillableDetailFactory::copy($this, new $this);
     }
 
     /**
