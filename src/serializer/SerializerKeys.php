@@ -69,6 +69,20 @@ interface SerializerKeys {
     const AVERAGE = "average";
 
     /**
+     * Serializer key "begins at".
+     *
+     * @var string
+     */
+    const BEGINS_AT = "beginsAt";
+
+    /**
+     * Serializer key "begins on".
+     *
+     * @var string
+     */
+    const BEGINS_ON = "beginsOn";
+
+    /**
      * Serializer key "birth date".
      *
      * @var string
@@ -258,6 +272,20 @@ interface SerializerKeys {
     const ENABLED = "enabled";
 
     /**
+     * Serializer key "ended at".
+     *
+     * @var string
+     */
+    const ENDED_AT = "endedAt";
+
+    /**
+     * Serializer key "ended on".
+     *
+     * @var string
+     */
+    const ENDED_ON = "endedOn";
+
+    /**
      * Serializer key "error".
      *
      * @var string
@@ -291,6 +319,20 @@ interface SerializerKeys {
      * @var string
      */
     const FILENAME = "filename";
+
+    /**
+     * Serializer key "finishes at".
+     *
+     * @var string
+     */
+    const FINISHES_AT = "finishesAt";
+
+    /**
+     * Serializer key "finishes on".
+     *
+     * @var string
+     */
+    const FINISHES_ON = "finishesOn";
 
     /**
      * Serializer key "first name".
@@ -802,6 +844,20 @@ interface SerializerKeys {
      * @var string
      */
     const SOURCE = "source";
+
+    /**
+     * Serializer key "started at".
+     *
+     * @var string
+     */
+    const STARTED_AT = "startedAt";
+
+    /**
+     * Serializer key "started on".
+     *
+     * @var string
+     */
+    const STARTED_ON = "startedOn";
 
     /**
      * Serializer key "state".

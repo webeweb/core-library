@@ -34,6 +34,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("addresseeDescription", SerializerKeys::ADDRESSEE_DESCRIPTION);
         $this->assertEquals("accessToken", SerializerKeys::API_TOKEN);
         $this->assertEquals("average", SerializerKeys::AVERAGE);
+        $this->assertEquals("beginsAt", SerializerKeys::BEGINS_AT);
+        $this->assertEquals("beginsOn", SerializerKeys::BEGINS_ON);
         $this->assertEquals("birthDate", SerializerKeys::BIRTH_DATE);
         $this->assertEquals("category", SerializerKeys::CATEGORY);
         $this->assertEquals("civility", SerializerKeys::CIVILITY);
@@ -60,12 +62,16 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("domain", SerializerKeys::DOMAIN);
         $this->assertEquals("duration", SerializerKeys::DURATION);
         $this->assertEquals("email", SerializerKeys::EMAIL);
+        $this->assertEquals("endedAt", SerializerKeys::ENDED_AT);
+        $this->assertEquals("endedOn", SerializerKeys::ENDED_ON);
         $this->assertEquals("enabled", SerializerKeys::ENABLED);
         $this->assertEquals("error", SerializerKeys::ERROR);
         $this->assertEquals("excludingVatPrice", SerializerKeys::EXCLUDING_VAT_PRICE);
         $this->assertEquals("excludingVatTotal", SerializerKeys::EXCLUDING_VAT_TOTAL);
         $this->assertEquals("extension", SerializerKeys::EXTENSION);
         $this->assertEquals("filename", SerializerKeys::FILENAME);
+        $this->assertEquals("finishesAt", SerializerKeys::FINISHES_AT);
+        $this->assertEquals("finishesOn", SerializerKeys::FINISHES_ON);
         $this->assertEquals("firstName", SerializerKeys::FIRST_NAME);
         $this->assertEquals("format", SerializerKeys::FORMAT);
         $this->assertEquals("from", SerializerKeys::FROM);
@@ -139,6 +145,8 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("siretNumber", SerializerKeys::SIRET_NUMBER);
         $this->assertEquals("size", SerializerKeys::SIZE);
         $this->assertEquals("source", SerializerKeys::SOURCE);
+        $this->assertEquals("startedAt", SerializerKeys::STARTED_AT);
+        $this->assertEquals("startedOn", SerializerKeys::STARTED_ON);
         $this->assertEquals("state", SerializerKeys::STATE);
         $this->assertEquals("streetName", SerializerKeys::STREET_NAME);
         $this->assertEquals("subject", SerializerKeys::SUBJECT);
