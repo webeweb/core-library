@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+### [8.15.0](https://github.com/webeweb/core-library/tree/v8.15.0) (2021-10-21)
+
+- Add date/time begins at trait
+- Add date/time begins on trait
+- Add date/time ended at trait
+- Add date/time ended on trait
+- Add date/time finishes at trait
+- Add date/time finishes on trait
+- Add date/time started at trait
+- Add date/time started on trait
+- Add serializer keys constants
+
 ### [8.14.1](https://github.com/webeweb/core-library/tree/v8.14.1) (2021-10-21)
 
 - Fix billable copy
