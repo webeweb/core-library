@@ -74,30 +74,6 @@ class TaxableTest extends AbstractTestCase {
     }
 
     /**
-     * Tests the __clone() method.
-     *
-     * @return void
-     */
-    public function test__clone(): void {
-
-        $obj = new TestTaxable();
-        $obj->setDiscountAmount(0.01);
-        $obj->setDiscountRate(0.02);
-        $obj->setExcludingVatPrice(0.03);
-        $obj->setIncludingVatPrice(0.04);
-        $obj->setVatAmount(0.05);
-        $obj->setVatRate(0.06);
-
-        $res = clone $obj;
-        $this->assertEquals($obj->getDiscountAmount(), $res->getDiscountAmount());
-        $this->assertEquals($obj->getDiscountRate(), $res->getDiscountRate());
-        $this->assertEquals($obj->getExcludingVatPrice(), $res->getExcludingVatPrice());
-        $this->assertEquals($obj->getIncludingVatPrice(), $res->getIncludingVatPrice());
-        $this->assertEquals($obj->getVatAmount(), $res->getVatAmount());
-        $this->assertEquals($obj->getVatRate(), $res->getVatRate());
-    }
-
-    /**
      * Tests the __construct() method.
      *
      * @return void

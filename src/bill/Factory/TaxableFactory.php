@@ -34,8 +34,8 @@ class TaxableFactory {
         $dst->setDiscountRate($src->getDiscountRate());
         $dst->setExcludingVatPrice($src->getExcludingVatPrice());
         $dst->setIncludingVatPrice($src->getIncludingVatPrice());
-        $dst->setVatAmount($dst->getVatAmount());
-        $dst->setVatRate($dst->getVatRate());
+        $dst->setVatAmount($src->getVatAmount());
+        $dst->setVatRate($src->getVatRate());
 
         return $dst;
     }
