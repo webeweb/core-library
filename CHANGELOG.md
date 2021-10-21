@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+### [8.14.1](https://github.com/webeweb/core-library/tree/v8.14.1) (2021-10-21)
+
+- Fix billable copy
+- Fix billable detail copy
+- Fix taxable copy
+- Improve code quality
+
 ### [8.14.0](https://github.com/webeweb/core-library/tree/v8.14.0) (2021-10-19)
 
 - Add Serializer keys interface
