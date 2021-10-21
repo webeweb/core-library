@@ -13,7 +13,6 @@ namespace WBW\Library\Bill\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use WBW\Library\Bill\Factory\BillableFactory;
 use WBW\Library\Bill\Helper\BillableHelper;
 use WBW\Library\Bill\Serializer\JsonSerializer;
 use WBW\Library\Traits\DateTimes\DateTimeCreatedAtTrait;
@@ -68,15 +67,6 @@ abstract class Billable implements BillableInterface {
      */
     public function __construct() {
         $this->setDetails(new ArrayCollection());
-    }
-
-    /**
-     * Clone.
-     *
-     * @return BillableInterface Returns this cloned billable.
-     */
-    public function __clone() {
-        return BillableFactory::copy($this, new $this());
     }
 
     /**

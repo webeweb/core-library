@@ -44,7 +44,7 @@ class BillableFactory {
         $dst->setVatTotal($src->getVatTotal());
 
         foreach ($src->getDetails() as $current) {
-            $dst->addDetail(clone $current);
+            $dst->addDetail(BillableDetailFactory::copy($current, new $current()));
         }
 
         return $dst;
