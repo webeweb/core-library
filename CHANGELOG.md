@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.16.0](https://github.com/webeweb/core-library/tree/v8.16.0) (2021-10-22)
+
+- Add getWeekPeriod() into Date/time helper
+- Improve PHPDoc
+
 ### [8.15.0](https://github.com/webeweb/core-library/tree/v8.15.0) (2021-10-21)
 
 - Add date/time begins at trait
