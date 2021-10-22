@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Helper;
 
+use DateInterval;
 use DateTime;
 use Exception;
 use InvalidArgumentException;
@@ -33,7 +34,7 @@ class DateTimeHelper {
     const DATETIME_FORMAT = "Y-m-d H:i";
 
     /**
-     * Compare two date/time.
+     * Compares two date/times.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -57,7 +58,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Compare tow date/time zones.
+     * Compares two date/time zones.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -83,7 +84,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Get the age.
+     * Get an age.
      *
      * @param DateTime $birthDate The birth date.
      * @param DateTime|null $refDate The reference date.
@@ -114,7 +115,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Get the duration.
+     * Get a duration.
      *
      * @param DateTime $a The date/time A.
      * @param DateTime $b The date/time B.
@@ -171,15 +172,15 @@ class DateTimeHelper {
     }
 
     /**
-     * Get a week number to apply with a schedule.
+     * Get a week number to apply with a planning.
      * <p>
      * For example:
-     * We have a schedule etablished over 5 weeks.
-     * We start the schedule with the week number 1.
+     * We have a planning established over 5 weeks.
+     * We start the planning with the week number 1.
      * If the current date is 2018-01-01 and the start date is 2018-01-01, the week number is 1
      * If the current date is 2018-01-08 and the start date is 2018-01-01, the week number is 2
      * etc.
-     * We start the schedule with the week number 3.
+     * We start the planning with the week number 3.
      * If the current date is 2018-01-01 and the start date is 2018-01-01, the week number is 3
      * If the current date is 2018-01-08 and the start date is 2018-01-01, the week number is 4
      * etc.
@@ -205,6 +206,32 @@ class DateTimeHelper {
         }
 
         return $result;
+    }
+
+    /**
+     * Get a week period.
+     *
+     * @param DateTime|null $date The date.
+     * @return DateTime[] Returns the week period.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function getWeekPeriod(?DateTime $date): array {
+
+        if (null === $date) {
+            $date = new DateTime();
+        }
+
+        $dates = [
+            clone $date,
+            clone $date,
+        ];
+
+        $day = static::getDayNumber($date);
+
+        $dates[0]->sub(new DateInterval("P" . ($day - 1) . "D"));
+        $dates[1]->add(new DateInterval("P" . (7 - $day) . "D"));
+
+        return $dates;
     }
 
     /**
@@ -280,7 +307,7 @@ class DateTimeHelper {
     }
 
     /**
-     * Convert a date/time.
+     * Converts a date/time.
      *
      * @param DateTime|null $dateTime The date/time.
      * @param string $format The format.
@@ -294,11 +321,11 @@ class DateTimeHelper {
     }
 
     /**
-     * Translate the weekday part.
+     * Translates a weekday part.
      *
      * @param string|null $date The date.
      * @param string $locale The locale.
-     * @return string|null Returns the weekday part translated.
+     * @return string|null Returns the translated weekday part.
      */
     public static function translateWeekday(?string $date, string $locale = "en"): ?string {
 

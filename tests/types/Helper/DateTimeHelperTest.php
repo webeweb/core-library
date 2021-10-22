@@ -24,7 +24,7 @@ use WBW\Library\Types\Tests\AbstractTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Types\Tests\Helper
  */
-class DateTimeHelperTest extends AbstractTestCase {
+class DateTimeHelperTests extends AbstractTestCase {
 
     /**
      * Tests the compare() method.
@@ -77,7 +77,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testGetAge(): void {
 
-        // Set a Date/time mock.
+        // Set a reference date/time mock.
         $ref = new DateTime("2019-02-14");
 
         $this->assertEquals(19, DateTimeHelper::getAge(new DateTime("2000-02-13"), $ref));
@@ -124,6 +124,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testGetGreater(): void {
 
+        // Set a date/time mock.
         $dt = new DateTime("2018-08-22");
 
         $this->assertSame($dt, DateTimeHelper::getGreater($dt, new DateTime("2018-08-21")));
@@ -161,6 +162,7 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testGetSmaller(): void {
 
+        // Set a date/time mock.
         $dt = new DateTime("2018-08-22");
 
         $this->assertNotSame($dt, DateTimeHelper::getSmaller($dt, new DateTime("2018-08-21")));
@@ -195,40 +197,40 @@ class DateTimeHelperTest extends AbstractTestCase {
      */
     public function testGetWeekNumberToApply(): void {
 
-        // Test with bad week arguments.
+        // Tests with bad week arguments.
         $this->assertEquals(-1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 0));
         $this->assertEquals(-1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 1, 0));
         $this->assertEquals(-1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-01"), new DateTime("2018-05-01"), 1, 2));
 
-        // Test with one week.
+        // Tests with one week.
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-02"), new DateTime("2018-05-01"), 1));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-09"), new DateTime("2018-05-01"), 1));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-16"), new DateTime("2018-05-01"), 1));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-23"), new DateTime("2018-05-01"), 1));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-30"), new DateTime("2018-05-01"), 1));
 
-        // Test with two weeks.
+        // Tests with two weeks.
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-02"), new DateTime("2018-05-01"), 2));
         $this->assertEquals(2, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-09"), new DateTime("2018-05-01"), 2));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-16"), new DateTime("2018-05-01"), 2));
         $this->assertEquals(2, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-23"), new DateTime("2018-05-01"), 2));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-30"), new DateTime("2018-05-01"), 2));
 
-        // Test with three weeks.
+        // Tests with three weeks.
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-02"), new DateTime("2018-05-01"), 3));
         $this->assertEquals(2, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-09"), new DateTime("2018-05-01"), 3));
         $this->assertEquals(3, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-16"), new DateTime("2018-05-01"), 3));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-23"), new DateTime("2018-05-01"), 3));
         $this->assertEquals(2, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-30"), new DateTime("2018-05-01"), 3));
 
-        // Test with four weeks.
+        // Tests with four weeks.
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-02"), new DateTime("2018-05-01"), 4));
         $this->assertEquals(2, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-09"), new DateTime("2018-05-01"), 4));
         $this->assertEquals(3, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-16"), new DateTime("2018-05-01"), 4));
         $this->assertEquals(4, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-23"), new DateTime("2018-05-01"), 4));
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-30"), new DateTime("2018-05-01"), 4));
 
-        // Test with five weeks.
+        // Tests with five weeks.
         $this->assertEquals(1, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-02"), new DateTime("2018-05-01"), 5));
         $this->assertEquals(2, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-09"), new DateTime("2018-05-01"), 5));
         $this->assertEquals(3, DateTimeHelper::getWeekNumberToApply(new DateTime("2018-05-16"), new DateTime("2018-05-01"), 5));
@@ -260,6 +262,64 @@ class DateTimeHelperTest extends AbstractTestCase {
         $this->assertEquals(3, DateTimeHelper::getWeekNumberToApply(new DateTime("2022-05-15"), new DateTime("2018-05-01"), 5));
         $this->assertEquals(4, DateTimeHelper::getWeekNumberToApply(new DateTime("2022-05-22"), new DateTime("2018-05-01"), 5));
         $this->assertEquals(5, DateTimeHelper::getWeekNumberToApply(new DateTime("2022-05-29"), new DateTime("2018-05-01"), 5));
+    }
+
+    /**
+     * Tests the getWeekPeriod() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetWeekPeriod(): void {
+
+        // Set a date/time mock.
+        $dt = new DateTime("2021-10-22");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2021-10-18", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2021-10-24", $res[1]->format("Y-m-d"));
+
+        // Tests with the start date.
+        $dt = new DateTime("2021-10-18");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2021-10-18", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2021-10-24", $res[1]->format("Y-m-d"));
+
+        // Tests with the end date.
+        $dt = new DateTime("2021-10-24");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2021-10-18", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2021-10-24", $res[1]->format("Y-m-d"));
+
+        // Tests with the last year.
+        $dt = new DateTime("2020-10-22");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2020-10-19", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2020-10-25", $res[1]->format("Y-m-d"));
+
+        // Tests with the next year.
+        $dt = new DateTime("2022-10-22");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2022-10-17", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-10-23", $res[1]->format("Y-m-d"));
+
+        // Tests with the end of year.
+        $dt = new DateTime("2021-12-31");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2021-12-27", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-01-02", $res[1]->format("Y-m-d"));
+
+        // Tests with the start of year.
+        $dt = new DateTime("2022-01-01");
+
+        $res = DateTimeHelper::getWeekPeriod($dt);
+        $this->assertEquals("2021-12-27", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-01-02", $res[1]->format("Y-m-d"));
     }
 
     /**
