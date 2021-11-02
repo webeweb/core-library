@@ -17,6 +17,7 @@
             <exclude>
                 <directory>src/types/Resources</directory>
                 <directory>tests</directory>
+                <directory>util</directory>
                 <directory>vendor</directory>
             </exclude>
         </whitelist>
