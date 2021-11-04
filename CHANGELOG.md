@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.17.0](https://github.com/webeweb/core-library/tree/v8.17.0) (2021-11-04)
+
+- Add calcPercent() into Float helper
+
 ### [8.16.0](https://github.com/webeweb/core-library/tree/v8.16.0) (2021-10-22)
 
 - Add getWeekPeriod() into Date/time helper
