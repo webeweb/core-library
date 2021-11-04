@@ -11,6 +11,7 @@
 
 namespace WBW\Library\Types\Helper;
 
+use InvalidArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
 
 /**
@@ -20,6 +21,23 @@ use WBW\Library\Types\Exception\FloatArgumentException;
  * @package WBW\Library\Types\Helper
  */
 class FloatHelper {
+
+    /**
+     * Calculates a percent.
+     *
+     * @param float $quotient The quotient.
+     * @param float $divider The divider.
+     * @return float Returns the percent.
+     * @throws InvalidArgumentException Throws an invalid argument exception if the divider is equal to zero.
+     */
+    public static function calcPercent(float $quotient, float $divider): float {
+
+        if (0.0 === $divider) {
+            throw new InvalidArgumentException("The divider must be greater than zero");
+        }
+
+        return ($quotient / $divider) * 100;
+    }
 
     /**
      * Determines if a value is a float.

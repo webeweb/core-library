@@ -12,6 +12,7 @@
 namespace WBW\Library\Types\Tests\Helper;
 
 use Exception;
+use InvalidArgumentException;
 use WBW\Library\Types\Exception\FloatArgumentException;
 use WBW\Library\Types\Helper\FloatHelper;
 use WBW\Library\Types\Tests\AbstractTestCase;
@@ -23,6 +24,38 @@ use WBW\Library\Types\Tests\AbstractTestCase;
  * @package WBW\Library\Types\Tests\Helper
  */
 class FloatHelperTest extends AbstractTestCase {
+
+    /**
+     * Tests the calcPercent() method.
+     *
+     * @return void
+     */
+    public function testCalcPercent(): void {
+
+        $this->assertEquals(25, FloatHelper::calcPercent(12.5, 50));
+        $this->assertEquals(25, FloatHelper::calcPercent(25, 100));
+        $this->assertEquals(25, FloatHelper::calcPercent(50, 200));
+        $this->assertEquals(25, FloatHelper::calcPercent(100, 400));
+        $this->assertEquals(25, FloatHelper::calcPercent(200, 800));
+        $this->assertEquals(25, FloatHelper::calcPercent(250, 1000));
+    }
+
+    /**
+     * Tests the calcPercent() method.
+     *
+     * @return void
+     */
+    public function testCalcPercentWithInvalidArgumentException(): void {
+
+        try {
+
+            FloatHelper::calcPercent(0, 0);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("The divider must be greater than zero", $ex->getMessage());
+        }
+    }
 
     /**
      * Tests the parseString() method.
