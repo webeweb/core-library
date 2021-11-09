@@ -1,6 +1,15 @@
 CHANGELOG
 =========
 
+### master
+
+- Add float max trait
+- Add float maximum trait
+- Add float min trait
+- Add float minimum trait
+- Add integer max trait
+- Add integer min trait
+
 ### [8.17.0](https://github.com/webeweb/core-library/tree/v8.17.0) (2021-11-04)
 
 - Add calcPercent() into Float helper
