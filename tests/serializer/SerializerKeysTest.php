@@ -105,12 +105,14 @@ class SerializerKeysTest extends AbstractTestCase {
         $this->assertEquals("longitude", SerializerKeys::LONGITUDE);
         $this->assertEquals("macAddress", SerializerKeys::MAC_ADDRESS);
         $this->assertEquals("maritalStatus", SerializerKeys::MARITAL_STATUS);
+        $this->assertEquals("max", SerializerKeys::MAX);
         $this->assertEquals("maximum", SerializerKeys::MAXIMUM);
         $this->assertEquals("maxDuration", SerializerKeys::MAX_DURATION);
         $this->assertEquals("maxWidth", SerializerKeys::MAX_WIDTH);
         $this->assertEquals("mention", SerializerKeys::MENTION);
         $this->assertEquals("message", SerializerKeys::MESSAGE);
         $this->assertEquals("mimeType", SerializerKeys::MIME_TYPE);
+        $this->assertEquals("min", SerializerKeys::MIN);
         $this->assertEquals("minimum", SerializerKeys::MINIMUM);
         $this->assertEquals("minDuration", SerializerKeys::MIN_DURATION);
         $this->assertEquals("minHeight", SerializerKeys::MIN_HEIGHT);

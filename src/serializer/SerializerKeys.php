@@ -566,6 +566,13 @@ interface SerializerKeys {
     const MARITAL_STATUS = "maritalStatus";
 
     /**
+     * Serializer key "max".
+     *
+     * @var string
+     */
+    const MAX = "max";
+
+    /**
      * Serializer key "maximum".
      *
      * @var string
@@ -606,6 +613,13 @@ interface SerializerKeys {
      * @var string
      */
     const MIME_TYPE = "mimeType";
+
+    /**
+     * Serializer key "min".
+     *
+     * @var string
+     */
+    const MIN = "min";
 
     /**
      * Serializer key "minimum".
