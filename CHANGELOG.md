@@ -1,8 +1,10 @@
 CHANGELOG
 =========
 
-### master
+### [8.18.0](https://github.com/webeweb/core-library/tree/v8.18.0) (2021-11-15)
 
+- Add float latitude trait
+- Add float longitude trait
 - Add float max trait
 - Add float maximum trait
 - Add float min trait
