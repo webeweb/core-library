@@ -185,10 +185,10 @@ EOT;
 
         foreach (scandir($dir) as $current) {
 
-            $buffer = implode(DIRECTORY_SEPARATOR, [
+            $buffer = realpath(implode(DIRECTORY_SEPARATOR, [
                 $dir,
                 $current,
-            ]);
+            ]));
 
             if (false === is_dir($buffer) || true === in_array($current, [".", ".."])) {
                 continue;
