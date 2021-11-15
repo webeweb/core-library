@@ -32,17 +32,17 @@ trait FloatLatitudeTrait {
      * @return float|null Returns the latitude.
      */
     public function getLatitude(): ?float {
-        return $this->lat;
+        return $this->latitude;
     }
 
     /**
      * Set the latitude.
      *
      * @param float|null $latitude The latitude.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setLatitude(?float $latitude): self {
-        $this->lat = $latitude;
+        $this->latitude = $latitude;
         return $this;
     }
 }
