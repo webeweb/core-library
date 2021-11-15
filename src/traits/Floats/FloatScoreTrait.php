@@ -39,7 +39,7 @@ trait FloatScoreTrait {
      * Set the score.
      *
      * @param string|null $score The score.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setScore(?string $score): self {
         $this->score = $score;

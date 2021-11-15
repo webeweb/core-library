@@ -39,7 +39,7 @@ trait StringCodeTrait {
      * Set the code.
      *
      * @param string|null $code The code.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setCode(?string $code): self {
         $this->code = $code;

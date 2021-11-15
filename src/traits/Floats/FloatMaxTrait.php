@@ -39,7 +39,7 @@ trait FloatMaxTrait {
      * Set the max.
      *
      * @param string|null $max The max.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setMax(?string $max): self {
         $this->max = $max;

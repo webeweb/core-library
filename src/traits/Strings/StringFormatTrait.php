@@ -39,7 +39,7 @@ trait StringFormatTrait {
      * Set the format.
      *
      * @param string|null $format The format.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setFormat(?string $format): self {
         $this->format = $format;

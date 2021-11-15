@@ -39,7 +39,7 @@ trait FloatMinTrait {
      * Set the min.
      *
      * @param string|null $min The min.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setMin(?string $min): self {
         $this->min = $min;

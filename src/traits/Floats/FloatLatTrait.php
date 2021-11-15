@@ -39,7 +39,7 @@ trait FloatLatTrait {
      * Set the latitude.
      *
      * @param float|null $lat The latitude.
-     * @return self Returns tis instance.
+     * @return self Returns this instance.
      */
     public function setLat(?float $lat): self {
         $this->lat = $lat;
