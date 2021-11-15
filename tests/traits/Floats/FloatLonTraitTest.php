@@ -15,7 +15,7 @@ use WBW\Library\Traits\Tests\AbstractTestCase;
 use WBW\Library\Traits\Tests\Fixtures\Floats\TestFloatLonTrait;
 
 /**
- * Float lon trait test.
+ * Float longitude trait test.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Traits\Tests\Floats

@@ -14,7 +14,7 @@ namespace WBW\Library\Traits\Tests\Fixtures\Floats;
 use WBW\Library\Traits\Floats\FloatLatTrait;
 
 /**
- * Test float lat trait.
+ * Test float latitude trait.
  *
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Traits\Tests\Fixtures\Floats
