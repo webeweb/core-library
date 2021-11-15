@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.18.1](https://github.com/webeweb/core-library/tree/v8.18.1) (2021-11-15)
+
+- Fix float latitude trait
+- Fix float longitude trait
+- Improve PHPDoc
+
 ### [8.18.0](https://github.com/webeweb/core-library/tree/v8.18.0) (2021-11-15)
 
 - Add float latitude trait
