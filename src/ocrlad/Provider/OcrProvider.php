@@ -91,6 +91,7 @@ class OcrProvider extends AbstractProvider {
      */
     public function __construct(LoggerInterface $logger) {
         parent::__construct($logger);
+
         $this->setRemoteDirectoryAfter("/Apres");
         $this->setRemoteDirectoryBefore("/Avant");
         $this->setRemoteDirectoryError("/Erreur");

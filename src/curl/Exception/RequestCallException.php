@@ -37,6 +37,7 @@ class RequestCallException extends AbstractException {
      */
     public function __construct(string $message, int $code, ResponseInterface $response) {
         parent::__construct($message, $code);
+
         $this->setResponse($response);
     }
 
