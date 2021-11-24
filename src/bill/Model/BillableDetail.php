@@ -51,7 +51,7 @@ abstract class BillableDetail extends Taxable implements BillableDetailInterface
      * Constructor.
      */
     public function __construct() {
-        // NOTHING TO DO
+        parent::__construct();
     }
 
     /**

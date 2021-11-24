@@ -377,10 +377,10 @@ interface RegistrationCertificateInterface {
     /**
      * Set the C.1.
      *
-     * @param string|null $c The C.1.
+     * @param string|null $c1 The C.1.
      * @return RegistrationCertificateInterface Returns this registration certificate.
      */
-    public function setC1(?string $c): RegistrationCertificateInterface;
+    public function setC1(?string $c1): RegistrationCertificateInterface;
 
     /**
      * Set the C.3.

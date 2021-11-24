@@ -223,7 +223,7 @@ class StringHelper {
 
         $explode = preg_replace($pattern, sprintf($replace, " "), $string);
 
-        return preg_replace_callback("/\ ([A-Z])([a-z])/", $callback, $explode);
+        return preg_replace_callback("/ ([A-Z])([a-z])/", $callback, $explode);
     }
 
     /**
