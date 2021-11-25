@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+### [8.21.0](https://github.com/webeweb/core-library/tree/v8.21.0) (2021-11-25)
+
+- Add parseInteger() into Boolean helper
+- Add range() into Date/time helper
+- Improve unit tests
+
 ### [8.20.0](https://github.com/webeweb/core-library/tree/v8.20.0) (2021-11-25)
 
 - Add compare() into Object helper
