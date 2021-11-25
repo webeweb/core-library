@@ -23,6 +23,18 @@ use WBW\Library\Types\Tests\AbstractTestCase;
 class BooleanHelperTest extends AbstractTestCase {
 
     /**
+     * Tests the parseInteger() method.
+     *
+     * @return void
+     */
+    public function testParseInteger(): void {
+
+        $this->assertFalse(BooleanHelper::parseInteger(null));
+        $this->assertFalse(BooleanHelper::parseInteger(0));
+        $this->assertTrue(BooleanHelper::parseInteger(1));
+    }
+
+    /**
      * Tests the parseString() method.
      *
      * @return void

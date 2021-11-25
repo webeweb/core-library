@@ -35,6 +35,21 @@ class BooleanHelper {
     }
 
     /**
+     * Parse an integer.
+     *
+     * @param int|null $value The value.
+     * @return bool Returns true in case of success, false otherwise.
+     */
+    public static function parseInteger(?int $value): bool {
+
+        if (1 === $value) {
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
      * Parse a string.
      *
      * @param string|null $value The string value.
