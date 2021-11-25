@@ -242,7 +242,7 @@ class StringHelper {
             return count($m) < 5 ? strtolower($m[2]) . $m[3] : strtolower($m[5]) . $m[6];
         };
 
-        return preg_replace_callback("/(([A-Z]{1,})([A-Z][a-z].{1,}))|(([A-Z]{1})([a-z].{1,}))/", $callback, $string);
+        return preg_replace_callback("/(([A-Z]+)([A-Z][a-z].+))|(([A-Z])([a-z].+))/", $callback, $string);
     }
 
     /**
