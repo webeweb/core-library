@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.19.0](https://github.com/webeweb/core-library/tree/v8.19.0) (2021-11-25)
+
+- Improve Date/time helper with support of ISO 8601
+
 ### [8.18.1](https://github.com/webeweb/core-library/tree/v8.18.1) (2021-11-15)
 
 - Fix float latitude trait
