@@ -448,6 +448,24 @@ class DateTimeHelperTests extends AbstractTestCase {
     }
 
     /**
+     * Tests the range() method.
+     *
+     * @return void
+     */
+    public function testRange(): void {
+
+        // Set the date/time mock.
+        $a = new DateTime("2021-11-25");
+        $b = new DateTime("2021-12-25");
+
+        $res = DateTimeHelper::range($a, $b);
+        $this->assertCount(31, $res);
+
+        $this->assertEquals($a->format("Y-m-d"), $res[0]->format("Y-m-d"));
+        $this->assertEquals($b->format("Y-m-d"), $res[30]->format("Y-m-d"));
+    }
+
+    /**
      * Tests the toString() method.
      *
      * @return void

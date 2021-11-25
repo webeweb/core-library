@@ -312,6 +312,34 @@ class DateTimeHelper {
     }
 
     /**
+     * Range from $a to $b.
+     *
+     * @param DateTime $a The date/time A.
+     * @param DateTime $b The date/time B.
+     * @return DateTime[]|null Returns the date/time range.
+     * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
+     */
+    public static function range(DateTime $a, DateTime $b): ?array {
+
+        if (false === static::isLessThan($a, $b)) {
+            return null;
+        }
+
+        $range = [];
+
+        $current = clone $a;
+
+        while (false === static::isGreaterThan($current, $b)) {
+
+            $range[] = clone $current;
+
+            $current->add(new DateInterval("P1D"));
+        }
+
+        return $range;
+    }
+
+    /**
      * Converts a date/time.
      *
      * @param DateTime|null $dateTime The date/time.
