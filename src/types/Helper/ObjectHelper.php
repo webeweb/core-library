@@ -22,6 +22,33 @@ use WBW\Library\Types\Exception\ObjectArgumentException;
 class ObjectHelper {
 
     /**
+     * Compare two objects.
+     *
+     * @param mixed|null $a The object A.
+     * @param mixed|null $b The object B.
+     * @return int|null Returns -1 when $a is not null and $b is null
+     *                      1 when $a is null and $b is not null
+     *                      0 when $a and $b are not null
+     *                      null when $a end $b are null
+     */
+    public static function compare($a, $b): ?int {
+
+        if (null === $a && null !== $b) {
+            return 1;
+        }
+
+        if (null === $a && null === $b) {
+            return null;
+        }
+
+        if (null !== $a && null === $b) {
+            return -1;
+        }
+
+        return 0;
+    }
+
+    /**
      * Determines if a value is an object.
      *
      * @param mixed $value The value.
