@@ -345,6 +345,18 @@ class DateTimeHelperTests extends AbstractTestCase {
      * @return void
      * @throws Exception Throws an exception if an error occurs.
      */
+    public function testGetWeekPeriodWithNull(): void {
+
+        $res = DateTimeHelper::getWeekPeriod(null);
+        $this->assertCount(2, $res);
+    }
+
+    /**
+     * Tests the getWeekPeriod() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
     public function testGetWeekPeriodWithoutIso8601(): void {
 
         // Set a date/time mock.
@@ -463,6 +475,8 @@ class DateTimeHelperTests extends AbstractTestCase {
 
         $this->assertEquals($a->format("Y-m-d"), $res[0]->format("Y-m-d"));
         $this->assertEquals($b->format("Y-m-d"), $res[30]->format("Y-m-d"));
+
+        $this->assertNull(DateTimeHelper::range($b, $a));
     }
 
     /**
