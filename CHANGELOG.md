@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.20.0](https://github.com/webeweb/core-library/tree/v8.20.0) (2021-11-25)
+
+- Add compare() into Object helper
+
 ### [8.19.0](https://github.com/webeweb/core-library/tree/v8.19.0) (2021-11-25)
 
 - Improve Date/time helper with support of ISO 8601
