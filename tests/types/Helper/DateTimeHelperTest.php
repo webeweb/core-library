@@ -105,6 +105,23 @@ class DateTimeHelperTests extends AbstractTestCase {
     }
 
     /**
+     * Tests the getDayNumber() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetDayNumberWithoutIso8601(): void {
+
+        $this->assertEquals(1, DateTimeHelper::getDayNumber(new DateTime("2018-05-21"), false));
+        $this->assertEquals(2, DateTimeHelper::getDayNumber(new DateTime("2018-05-22"), false));
+        $this->assertEquals(3, DateTimeHelper::getDayNumber(new DateTime("2018-05-23"), false));
+        $this->assertEquals(4, DateTimeHelper::getDayNumber(new DateTime("2018-05-24"), false));
+        $this->assertEquals(5, DateTimeHelper::getDayNumber(new DateTime("2018-05-25"), false));
+        $this->assertEquals(6, DateTimeHelper::getDayNumber(new DateTime("2018-05-26"), false));
+        $this->assertEquals(0, DateTimeHelper::getDayNumber(new DateTime("2018-05-27"), false));
+    }
+
+    /**
      * Tests the getDuration() method.
      *
      * @return void
@@ -320,6 +337,64 @@ class DateTimeHelperTests extends AbstractTestCase {
         $res = DateTimeHelper::getWeekPeriod($dt);
         $this->assertEquals("2021-12-27", $res[0]->format("Y-m-d"));
         $this->assertEquals("2022-01-02", $res[1]->format("Y-m-d"));
+    }
+
+    /**
+     * Tests the getWeekPeriod() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testGetWeekPeriodWithoutIso8601(): void {
+
+        // Set a date/time mock.
+        $dt = new DateTime("2021-10-22");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2021-10-17", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2021-10-23", $res[1]->format("Y-m-d"));
+
+        // Tests with the start date.
+        $dt = new DateTime("2021-10-17");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2021-10-17", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2021-10-23", $res[1]->format("Y-m-d"));
+
+        // Tests with the end date.
+        $dt = new DateTime("2021-10-23");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2021-10-17", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2021-10-23", $res[1]->format("Y-m-d"));
+
+        // Tests with the last year.
+        $dt = new DateTime("2020-10-22");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2020-10-18", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2020-10-24", $res[1]->format("Y-m-d"));
+
+        // Tests with the next year.
+        $dt = new DateTime("2022-10-22");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2022-10-16", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-10-22", $res[1]->format("Y-m-d"));
+
+        // Tests with the end of year.
+        $dt = new DateTime("2021-12-31");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2021-12-26", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-01-01", $res[1]->format("Y-m-d"));
+
+        // Tests with the start of year.
+        $dt = new DateTime("2022-01-01");
+
+        $res = DateTimeHelper::getWeekPeriod($dt, false);
+        $this->assertEquals("2021-12-26", $res[0]->format("Y-m-d"));
+        $this->assertEquals("2022-01-01", $res[1]->format("Y-m-d"));
     }
 
     /**

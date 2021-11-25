@@ -108,10 +108,12 @@ class DateTimeHelper {
      * Get a day number.
      *
      * @param DateTime $dateTime The date/time.
-     * @return int Returns the day number between 1 and 7 with monday equals to 1.
+     * @param bool $iso8601 ISO 8601 ?
+     * @return int Returns the day number between 1 and 7 according to ISO 8601, between 0 and 6 otherwise.
      */
-    public static function getDayNumber(DateTime $dateTime): int {
-        return intval($dateTime->format("N"));
+    public static function getDayNumber(DateTime $dateTime, bool $iso8601 = true): int {
+        $format = true === $iso8601 ? "N" : "w";
+        return intval($dateTime->format($format));
     }
 
     /**
@@ -146,7 +148,7 @@ class DateTimeHelper {
      * @return int Returns the month number.
      */
     public static function getMonthNumber(DateTime $dateTime): int {
-        return intval($dateTime->format("m"));
+        return intval($dateTime->format("n"));
     }
 
     /**
@@ -212,10 +214,11 @@ class DateTimeHelper {
      * Get a week period.
      *
      * @param DateTime|null $date The date.
+     * @param bool $iso8601 ISO 8601 ?
      * @return DateTime[] Returns the week period.
      * @throws Exception Throws an exception if an error occurs.
      */
-    public static function getWeekPeriod(?DateTime $date): array {
+    public static function getWeekPeriod(?DateTime $date, bool $iso8601 = true): array {
 
         if (null === $date) {
             $date = new DateTime();
@@ -226,10 +229,12 @@ class DateTimeHelper {
             clone $date,
         ];
 
-        $day = static::getDayNumber($date);
+        $day = static::getDayNumber($date, $iso8601);
+        $min = true === $iso8601 ? 1 : 0;
+        $max = true === $iso8601 ? 7 : 6;
 
-        $dates[0]->sub(new DateInterval("P" . ($day - 1) . "D"));
-        $dates[1]->add(new DateInterval("P" . (7 - $day) . "D"));
+        $dates[0]->sub(new DateInterval("P" . ($day - $min) . "D"));
+        $dates[1]->add(new DateInterval("P" . ($max - $day) . "D"));
 
         return $dates;
     }
