@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+### [8.22.0](https://github.com/webeweb/core-library/tree/v8.22.0) (2021-12-07)
+
+- Add boolean value trait
+- Add date/time value trait
+- Add integer value trait
+- Add string value trait
+
 ### [8.21.0](https://github.com/webeweb/core-library/tree/v8.21.0) (2021-11-25)
 
 - Add parseInteger() into Boolean helper
