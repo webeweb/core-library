@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Validator;
 
-use WBW\Library\Validator\API\RuleSetInterface;
+use WBW\Library\Validator\Api\RuleSetInterface;
 
 /**
  * Default validator.

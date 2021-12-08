@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Curl\API;
+namespace WBW\Library\Curl\Api;
 
 /**
  * Response interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Curl\API
+ * @package WBW\Library\Curl\Api
  */
 interface ResponseInterface {
 

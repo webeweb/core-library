@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\SkiData\Tests\API;
+namespace WBW\Library\SkiData\Tests\Api;
 
-use WBW\Library\SkiData\API\ParserInterface;
+use WBW\Library\SkiData\Api\ParserInterface;
 use WBW\Library\SkiData\Tests\AbstractTestCase;
 
 /**
  * Parser interface test.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\SkiData\Tests\API
+ * @package WBW\Library\SkiData\Tests\Api
  */
 class ParserInterfaceTest extends AbstractTestCase {
 

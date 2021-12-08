@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\SkiData\API;
+namespace WBW\Library\SkiData\Api;
 
 /**
  * Parser interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\SkiData\API
+ * @package WBW\Library\SkiData\Api
  */
 interface ParserInterface {
 

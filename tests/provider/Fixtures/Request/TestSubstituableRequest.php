@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Provider\Tests\Fixtures\Request;
 
-use WBW\Library\Provider\API\SubstituableRequestInterface;
+use WBW\Library\Provider\Api\SubstituableRequestInterface;
 use WBW\Library\Provider\Request\AbstractRequest;
 use WBW\Library\Traits\Strings\StringIdTrait;
 

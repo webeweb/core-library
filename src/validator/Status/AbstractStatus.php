@@ -12,7 +12,7 @@
 namespace WBW\Library\Validator\Status;
 
 use JsonSerializable;
-use WBW\Library\Validator\API\StatusInterface;
+use WBW\Library\Validator\Api\StatusInterface;
 
 /**
  * Abstract status.

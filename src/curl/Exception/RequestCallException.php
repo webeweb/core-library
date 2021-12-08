@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Curl\Exception;
 
-use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Api\ResponseInterface;
 
 /**
  * Request call exception.

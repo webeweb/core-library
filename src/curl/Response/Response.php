@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Curl\Response;
 
-use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Api\ResponseInterface;
 
 /**
  * Response.

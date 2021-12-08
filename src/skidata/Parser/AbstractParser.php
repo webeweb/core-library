@@ -12,7 +12,7 @@
 namespace WBW\Library\SkiData\Parser;
 
 use DateTime;
-use WBW\Library\SkiData\API\ParserInterface;
+use WBW\Library\SkiData\Api\ParserInterface;
 use WBW\Library\SkiData\Exception\TooLongDataException;
 use WBW\Library\SkiData\Model\StartRecordFormat;
 use WBW\Library\Types\Helper\IntegerHelper;

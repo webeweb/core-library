@@ -13,8 +13,8 @@ namespace WBW\Library\Curl\Helper;
 
 use DateTime;
 use Exception;
-use WBW\Library\Curl\API\RequestInterface;
-use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Api\RequestInterface;
+use WBW\Library\Curl\Api\ResponseInterface;
 use WBW\Library\Curl\Configuration\Configuration;
 
 /**

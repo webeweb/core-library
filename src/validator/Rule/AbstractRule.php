@@ -11,7 +11,7 @@
 
 namespace WBW\Library\Validator\Rule;
 
-use WBW\Library\Validator\API\RuleInterface;
+use WBW\Library\Validator\Api\RuleInterface;
 
 /**
  * Abstract rule.

@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Adoria\Tests\API;
+namespace WBW\Library\Adoria\Tests\Api;
 
-use WBW\Library\Adoria\API\ApiProviderInterface;
+use WBW\Library\Adoria\Api\ApiProviderInterface;
 use WBW\Library\Adoria\Tests\AbstractTestCase;
 
 /**
  * API provider interface test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Adoria\Tests\API
+ * @package WBW\Library\Adoria\Tests\Api
  */
 class ApiProviderInterfaceTest extends AbstractTestCase {
 

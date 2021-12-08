@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Validator\Tests\Fixtures\Rule;
 
-use WBW\Library\Validator\API\RuleInterface;
-use WBW\Library\Validator\API\StatusInterface;
+use WBW\Library\Validator\Api\RuleInterface;
+use WBW\Library\Validator\Api\StatusInterface;
 use WBW\Library\Validator\Rule\AbstractRule;
 use WBW\Library\Validator\Status\DefaultStatus;
 

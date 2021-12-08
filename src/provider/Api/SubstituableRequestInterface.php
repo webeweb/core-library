@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Provider\API;
+namespace WBW\Library\Provider\Api;
 
 /**
  * Substituable request interface.
  *
  * @author webeweb <https://github.com/webeweb>
- * @package WBW\Library\Provider\API
+ * @package WBW\Library\Provider\Api
  */
 interface SubstituableRequestInterface {
 

@@ -13,7 +13,7 @@ namespace WBW\Library\Adoria\Provider;
 
 use Exception;
 use Psr\Log\LoggerInterface;
-use WBW\Library\Adoria\API\ApiProviderInterface;
+use WBW\Library\Adoria\Api\ApiProviderInterface;
 use WBW\Library\Adoria\Model\RequestData;
 use WBW\Library\Adoria\Model\Result;
 use WBW\Library\Adoria\Serializer\RequestSerializer;

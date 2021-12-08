@@ -13,7 +13,7 @@ namespace WBW\Library\Provider;
 
 use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
-use WBW\Library\Provider\API\SubstituableRequestInterface;
+use WBW\Library\Provider\Api\SubstituableRequestInterface;
 use WBW\Library\Provider\Request\AbstractRequest;
 use WBW\Library\Traits\Booleans\BooleanDebugTrait;
 

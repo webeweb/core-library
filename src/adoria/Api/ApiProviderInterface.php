@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Adoria\API;
+namespace WBW\Library\Adoria\Api;
 
 /**
  * API provider interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Adoria\API
+ * @package WBW\Library\Adoria\Api
  */
 interface ApiProviderInterface {
 

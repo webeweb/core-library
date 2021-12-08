@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Validator\Tests;
 
-use WBW\Library\Validator\API\RuleSetInterface;
-use WBW\Library\Validator\API\StatusInterface;
+use WBW\Library\Validator\Api\RuleSetInterface;
+use WBW\Library\Validator\Api\StatusInterface;
 use WBW\Library\Validator\DefaultValidator;
 use WBW\Library\Validator\RuleSet\DefaultRuleSet;
 use WBW\Library\Validator\Tests\Fixtures\Rule\TestRule;

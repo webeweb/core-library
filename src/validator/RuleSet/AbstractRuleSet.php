@@ -11,8 +11,8 @@
 
 namespace WBW\Library\Validator\RuleSet;
 
-use WBW\Library\Validator\API\RuleInterface;
-use WBW\Library\Validator\API\RuleSetInterface;
+use WBW\Library\Validator\Api\RuleInterface;
+use WBW\Library\Validator\Api\RuleSetInterface;
 
 /**
  * Abstract rule set.

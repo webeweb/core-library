@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Curl\Tests\API;
+namespace WBW\Library\Curl\Tests\Api;
 
-use WBW\Library\Curl\API\RequestInterface;
+use WBW\Library\Curl\Api\RequestInterface;
 use WBW\Library\Curl\Tests\AbstractTestCase;
 
 /**
  * Request interface test.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Curl\Tests\API
+ * @package WBW\Library\Curl\Tests\Api
  */
 class RequestInterfaceTest extends AbstractTestCase {
 

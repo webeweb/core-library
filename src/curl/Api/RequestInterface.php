@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Curl\API;
+namespace WBW\Library\Curl\Api;
 
 use Exception;
 use WBW\Library\Curl\Configuration\Configuration;
@@ -18,7 +18,7 @@ use WBW\Library\Curl\Configuration\Configuration;
  * Request interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Curl\API
+ * @package WBW\Library\Curl\Api
  */
 interface RequestInterface {
 

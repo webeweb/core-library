@@ -12,8 +12,8 @@
 namespace WBW\Library\Curl\Factory;
 
 use InvalidArgumentException;
-use WBW\Library\Curl\API\RequestInterface;
-use WBW\Library\Curl\API\ResponseInterface;
+use WBW\Library\Curl\Api\RequestInterface;
+use WBW\Library\Curl\Api\ResponseInterface;
 use WBW\Library\Curl\Configuration\Configuration;
 use WBW\Library\Curl\Request\DeleteRequest;
 use WBW\Library\Curl\Request\GetRequest;

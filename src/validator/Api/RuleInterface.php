@@ -9,28 +9,28 @@
  * file that was distributed with this source code.
  */
 
-namespace WBW\Library\Validator\API;
+namespace WBW\Library\Validator\Api;
 
 /**
- * Validator interface.
+ * Rule interface.
  *
  * @author webeweb <https://github.com/webeweb/>
- * @package WBW\Library\Validator\API
+ * @package WBW\Library\Validator\Api
  */
-interface ValidatorInterface {
+interface RuleInterface {
 
     /**
-     * Get the rule set.
+     * Get the name.
      *
-     * @return RuleSetInterface Returns the rule set.
+     * @return string|null Returns the name.
      */
-    public function getRuleSet(): RuleSetInterface;
+    public function getName(): ?string;
 
     /**
      * Validate.
      *
      * @param mixed $object The object.
-     * @return StatusInterface[] Returns the status.
+     * @return StatusInterface Returns the status.
      */
-    public function validate($object): array;
+    public function validate($object): StatusInterface;
 }
