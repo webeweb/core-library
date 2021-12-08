@@ -138,7 +138,7 @@ abstract class AbstractNode {
         }
         if (null === $found && true === $recursively) {
             foreach ($this->nodes as $current) {
-                $found = $current->getNodeById($id, $recursively);
+                $found = $current->getNodeById($id, true);
                 if (null !== $found) {
                     break;
                 }
