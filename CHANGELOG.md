@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.23.0](https://github.com/webeweb/core-library/tree/v8.23.0) (2021-12-08)
+
+- Rename API packages
+
 ### [8.22.0](https://github.com/webeweb/core-library/tree/v8.22.0) (2021-12-07)
 
 - Add boolean value trait
