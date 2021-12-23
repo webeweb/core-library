@@ -24,7 +24,85 @@ use WBW\Library\Types\Tests\AbstractTestCase;
  * @author webeweb <https://github.com/webeweb/>
  * @package WBW\Library\Types\Tests\Helper
  */
-class DateTimeHelperTests extends AbstractTestCase {
+class DateTimeHelperTest extends AbstractTestCase {
+
+    /**
+     * Tests the addDay() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testAddDay(): void {
+
+        // Set a date/time mock.
+        $dateTime = new DateTime("2021-12-23");
+        $dateTime->setTime(0, 0);
+
+        $this->assertEquals("2021-12-23", DateTimeHelper::addDay(clone $dateTime, 0)->format("Y-m-d"));
+        $this->assertEquals("2021-12-24", DateTimeHelper::addDay(clone $dateTime, 1)->format("Y-m-d"));
+        $this->assertEquals("2021-12-25", DateTimeHelper::addDay(clone $dateTime, 2)->format("Y-m-d"));
+
+        try {
+
+            DateTimeHelper::addDay($dateTime, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the addMonth() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testAddMonth(): void {
+
+        // Set a date/time mock.
+        $dateTime = new DateTime("2021-12-23");
+        $dateTime->setTime(0, 0);
+
+        $this->assertEquals("2021-12-23", DateTimeHelper::addMonth(clone $dateTime, 0)->format("Y-m-d"));
+        $this->assertEquals("2022-01-23", DateTimeHelper::addMonth(clone $dateTime, 1)->format("Y-m-d"));
+        $this->assertEquals("2022-02-23", DateTimeHelper::addMonth(clone $dateTime, 2)->format("Y-m-d"));
+
+        try {
+
+            DateTimeHelper::addMonth($dateTime, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the addYear() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testAddYear(): void {
+
+        // Set a date/time mock.
+        $dateTime = new DateTime("2021-12-23");
+        $dateTime->setTime(0, 0);
+
+        $this->assertEquals("2021-12-23", DateTimeHelper::addYear(clone $dateTime, 0)->format("Y-m-d"));
+        $this->assertEquals("2022-12-23", DateTimeHelper::addYear(clone $dateTime, 1)->format("Y-m-d"));
+        $this->assertEquals("2023-12-23", DateTimeHelper::addYear(clone $dateTime, 2)->format("Y-m-d"));
+
+        try {
+
+            DateTimeHelper::addYear($dateTime, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
+        }
+    }
 
     /**
      * Tests the compare() method.
@@ -477,6 +555,81 @@ class DateTimeHelperTests extends AbstractTestCase {
         $this->assertEquals($b->format("Y-m-d"), $res[30]->format("Y-m-d"));
 
         $this->assertNull(DateTimeHelper::range($b, $a));
+    }
+
+    /**
+     * Tests the subDay() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSubDay(): void {
+
+        // Set a date/time mock.
+        $dateTime = new DateTime("2021-12-23");
+
+        $this->assertEquals("2021-12-23", DateTimeHelper::subDay(clone $dateTime, 0)->format("Y-m-d"));
+        $this->assertEquals("2021-12-22", DateTimeHelper::subDay(clone $dateTime, 1)->format("Y-m-d"));
+        $this->assertEquals("2021-12-21", DateTimeHelper::subDay(clone $dateTime, 2)->format("Y-m-d"));
+
+        try {
+
+            DateTimeHelper::subDay($dateTime, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the subMonth() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSubMonth(): void {
+
+        // Set a date/time mock.
+        $dateTime = new DateTime("2021-12-23");
+
+        $this->assertEquals("2021-12-23", DateTimeHelper::subMonth(clone $dateTime, 0)->format("Y-m-d"));
+        $this->assertEquals("2021-11-23", DateTimeHelper::subMonth(clone $dateTime, 1)->format("Y-m-d"));
+        $this->assertEquals("2021-10-23", DateTimeHelper::subMonth(clone $dateTime, 2)->format("Y-m-d"));
+
+        try {
+
+            DateTimeHelper::subMonth($dateTime, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
+        }
+    }
+
+    /**
+     * Tests the subYear() method.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function testSubYear(): void {
+
+        // Set a date/time mock.
+        $dateTime = new DateTime("2021-12-23");
+
+        $this->assertEquals("2021-12-23", DateTimeHelper::subYear(clone $dateTime, 0)->format("Y-m-d"));
+        $this->assertEquals("2020-12-23", DateTimeHelper::subYear(clone $dateTime, 1)->format("Y-m-d"));
+        $this->assertEquals("2019-12-23", DateTimeHelper::subYear(clone $dateTime, 2)->format("Y-m-d"));
+
+        try {
+
+            DateTimeHelper::subYear($dateTime, -1);
+        } catch (Exception $ex) {
+
+            $this->assertInstanceOf(InvalidArgumentException::class, $ex);
+            $this->assertEquals("Number must be positive or equal to zero", $ex->getMessage());
+        }
     }
 
     /**

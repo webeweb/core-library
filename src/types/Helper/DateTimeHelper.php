@@ -34,6 +34,70 @@ class DateTimeHelper {
     const DATETIME_FORMAT = "Y-m-d H:i";
 
     /**
+     * Add day.
+     *
+     * @param DateTime|null $dateTime The date/time.
+     * @param int $number The number.
+     * @return DateTime Returns the date/time.
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function addDay(DateTime $dateTime, int $number): DateTime {
+        static::isPositiveOrZero($number);
+        return static::applyDuration($dateTime, "P", $number, "D");
+    }
+
+    /**
+     * Add month.
+     *
+     * @param DateTime|null $dateTime The date/time.
+     * @param int $number The number.
+     * @return DateTime Returns the date/time.
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function addMonth(DateTime $dateTime, int $number): DateTime {
+        static::isPositiveOrZero($number);
+        return static::applyDuration($dateTime, "P", $number, "M");
+    }
+
+    /**
+     * Add year.
+     *
+     * @param DateTime|null $dateTime The date/time.
+     * @param int $number The number.
+     * @return DateTime Returns the date/time.
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function addYear(DateTime $dateTime, int $number): DateTime {
+        static::isPositiveOrZero($number);
+        return static::applyDuration($dateTime, "P", $number, "Y");
+    }
+
+    /**
+     * Apply a duration.
+     *
+     * @param DateTime $dateTime The date/time.
+     * @param string $prefix The duration prefix.
+     * @param int $number The duration number.
+     * @param string $unit The duration number.
+     * @return DateTime Returns the date/time.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    protected static function applyDuration(DateTime $dateTime, string $prefix, int $number, string $unit): DateTime {
+
+        $duration = sprintf("$prefix%d$unit", abs($number));
+        $interval = new DateInterval($duration);
+
+        if ($number < 0) {
+            return $dateTime->sub($interval);
+        }
+
+        return $dateTime->add($interval);
+    }
+
+    /**
      * Compares two date/times.
      *
      * @param DateTime $a The date/time A.
@@ -86,19 +150,19 @@ class DateTimeHelper {
     /**
      * Get an age.
      *
-     * @param DateTime $birthDate The birth date.
+     * @param DateTime $birthdate The birthdate.
      * @param DateTime|null $refDate The reference date.
      * @return int Returns the age.
      * @throws Exception Throws an exception if an errors occurs.
      */
-    public static function getAge(DateTime $birthDate, DateTime $refDate = null): int {
+    public static function getAge(DateTime $birthdate, DateTime $refDate = null): int {
 
         // Use the current date/time.
         if (null === $refDate) {
             $refDate = new DateTime();
         }
 
-        $diff  = $refDate->getTimestamp() - $birthDate->getTimestamp();
+        $diff  = $refDate->getTimestamp() - $birthdate->getTimestamp();
         $years = new DateTime("@$diff");
 
         return intval($years->format("Y")) - 1970;
@@ -290,9 +354,7 @@ class DateTimeHelper {
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isGreaterThan(DateTime $a, DateTime $b): bool {
-
         static::compareZone($a, $b);
-
         return $a->getTimestamp() > $b->getTimestamp();
     }
 
@@ -305,10 +367,21 @@ class DateTimeHelper {
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
      */
     public static function isLessThan(DateTime $a, DateTime $b): bool {
-
         static::compareZone($a, $b);
-
         return $a->getTimestamp() < $b->getTimestamp();
+    }
+
+    /**
+     * Determines if an offset is positive or zero.
+     *
+     * @param int $offset The offset.
+     * @return void
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     */
+    protected static function isPositiveOrZero(int $offset): void {
+        if ($offset < 0) {
+            throw new InvalidArgumentException("Number must be positive or equal to zero");
+        }
     }
 
     /**
@@ -337,6 +410,48 @@ class DateTimeHelper {
         }
 
         return $range;
+    }
+
+    /**
+     * Sub day.
+     *
+     * @param DateTime|null $dateTime The date/time.
+     * @param int $number The number.
+     * @return DateTime Returns the date/time.
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function subDay(DateTime $dateTime, int $number): DateTime {
+        static::isPositiveOrZero($number);
+        return static::applyDuration($dateTime, "P", -$number, "D");
+    }
+
+    /**
+     * Sub month.
+     *
+     * @param DateTime|null $dateTime The date/time.
+     * @param int $number The number.
+     * @return DateTime Returns the date/time.
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function subMonth(DateTime $dateTime, int $number): DateTime {
+        static::isPositiveOrZero($number);
+        return static::applyDuration($dateTime, "P", -$number, "M");
+    }
+
+    /**
+     * Sub year.
+     *
+     * @param DateTime|null $dateTime The date/time.
+     * @param int $number The number.
+     * @return DateTime Returns the date/time.
+     * @throws InvalidArgumentException Throws an invalid argument exception if number is less than zero.
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public static function subYear(DateTime $dateTime, int $number): DateTime {
+        static::isPositiveOrZero($number);
+        return static::applyDuration($dateTime, "P", -$number, "Y");
     }
 
     /**
