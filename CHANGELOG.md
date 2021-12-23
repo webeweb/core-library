@@ -1,6 +1,15 @@
 CHANGELOG
 =========
 
+### [8.24.0](https://github.com/webeweb/core-library/tree/v8.24.0) (2021-12-23)
+
+- Add addDay() into Date/time helper
+- Add addMonth() into Date/time helper
+- Add addYear() into Date/time helper
+- Add subDay() into Date/time helper
+- Add subMonth() into Date/time helper
+- Add subYear() into Date/time helper
+
 ### [8.23.0](https://github.com/webeweb/core-library/tree/v8.23.0) (2021-12-08)
 
 - Rename API packages
