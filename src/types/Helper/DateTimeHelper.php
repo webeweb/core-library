@@ -297,8 +297,8 @@ class DateTimeHelper {
         $min = true === $iso8601 ? 1 : 0;
         $max = true === $iso8601 ? 7 : 6;
 
-        $dates[0]->sub(new DateInterval("P" . ($day - $min) . "D"));
-        $dates[1]->add(new DateInterval("P" . ($max - $day) . "D"));
+        static::subDay($dates[0], $day - $min);
+        static::addDay($dates[1], $max - $day);
 
         return $dates;
     }
@@ -391,6 +391,7 @@ class DateTimeHelper {
      * @param DateTime $b The date/time B.
      * @return DateTime[]|null Returns the date/time range.
      * @throws InvalidArgumentException Throws an illegal argument exception if the two date/time does not have the same time zone.
+     * @throws Exception Throws an exception if an error occurs.
      */
     public static function range(DateTime $a, DateTime $b): ?array {
 
@@ -406,7 +407,7 @@ class DateTimeHelper {
 
             $range[] = clone $current;
 
-            $current->add(new DateInterval("P1D"));
+            static::addDay($current, 1);
         }
 
         return $range;
