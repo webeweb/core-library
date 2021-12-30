@@ -24,7 +24,7 @@ interface SerializerKeys {
      *
      * @var string
      */
-    const ACCESS_TOKEN = "apiToken";
+    const ACCESS_TOKEN = "accessToken";
 
     /**
      * Serializer key "account".
@@ -59,7 +59,7 @@ interface SerializerKeys {
      *
      * @var string
      */
-    const API_TOKEN = "accessToken";
+    const API_TOKEN = "apiToken";
 
     /**
      * Serializer key "average".
