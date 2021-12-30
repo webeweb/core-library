@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+### [8.24.1](https://github.com/webeweb/core-library/tree/v8.24.1) (2021-12-30)
+
+- Fix Serializer keys
+- Improve Date/time helper
+
 ### [8.24.0](https://github.com/webeweb/core-library/tree/v8.24.0) (2021-12-23)
 
 - Add addDay() into Date/time helper
