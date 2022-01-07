@@ -29,6 +29,7 @@ class BillableDetailFactory {
      * @return BillableDetailInterface Returns the billable detail destination.
      */
     public static function copy(BillableDetailInterface $src, BillableDetailInterface $dst): BillableDetailInterface {
+
         TaxableFactory::copy($src, $dst);
 
         $dst->setComment($src->getComment());

@@ -69,5 +69,4 @@ class BillableFactoryTest extends AbstractTestCase {
         $this->assertEquals($obj->getUpdatedAt(), $res->getUpdatedAt());
         $this->assertEquals($obj->getVatTotal(), $res->getVatTotal());
     }
-
 }

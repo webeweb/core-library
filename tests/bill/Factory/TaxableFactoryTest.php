@@ -46,5 +46,4 @@ class TaxableFactoryTest extends AbstractTestCase {
         $this->assertEquals($obj->getVatAmount(), $res->getVatAmount());
         $this->assertEquals($obj->getVatRate(), $res->getVatRate());
     }
-
 }
