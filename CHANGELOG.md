@@ -1,6 +1,22 @@
 CHANGELOG
 =========
 
+### [8.25.0](https://github.com/webeweb/core-library/tree/v8.25.0) (2022-01-07)
+
+- Add Accounting account factory
+- Add Bank details factory
+- Add Payment choice factory
+- Add Payment term factory
+- Add VAT rate factory
+- Add Billing address factory
+- Add Delivery address factory
+- Add Delivery note factory
+- Add Purchase bill factory
+- Add Purchase order factory
+- Add Quotation factory
+- Add Sending address factory
+- Add Registration certificate factory
+
 ### [8.24.1](https://github.com/webeweb/core-library/tree/v8.24.1) (2021-12-30)
 
 - Fix Serializer keys
