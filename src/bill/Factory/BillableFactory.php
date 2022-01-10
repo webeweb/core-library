@@ -31,7 +31,7 @@ class BillableFactory {
     public static function copy(BillableInterface $src, BillableInterface $dst): BillableInterface {
 
         $dst->setComment($src->getComment());
-        $dst->setCreatedAt($src->getCreatedAt());
+        $dst->setCreatedAt(null !== $src->getCreatedAt() ? clone $src->getCreatedAt() : null);
         $dst->setDate($src->getDate());
         $dst->setDiscountRate($src->getDiscountRate());
         $dst->setDiscountTotal($src->getDiscountTotal());
@@ -40,7 +40,7 @@ class BillableFactory {
         $dst->setNumber($src->getNumber());
         $dst->setParent($src->getParent());
         $dst->setReference($src->getReference());
-        $dst->setUpdatedAt($src->getUpdatedAt());
+        $dst->setUpdatedAt(null !== $src->getUpdatedAt() ? clone $src->getUpdatedAt() : null);
         $dst->setVatTotal($src->getVatTotal());
 
         foreach ($src->getDetails() as $current) {
