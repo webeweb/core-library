@@ -31,7 +31,7 @@ class PurchaseBillFactory {
     public static function copy(PurchaseBillInterface $src, PurchaseBillInterface $dst): PurchaseBillInterface {
 
         BillableFactory::copy($src, $dst);
-        $dst->setPaymentDate($src->getPaymentDate());
+        $dst->setPaymentDate(null !== $src->getPaymentDate() ? clone $src->getPaymentDate() : null);
 
         return $dst;
     }

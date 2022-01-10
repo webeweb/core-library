@@ -65,7 +65,7 @@ class PurchaseBillFactoryTest extends AbstractTestCase {
         $this->assertEquals($obj->getExcludingVatTotal(), $res->getExcludingVatTotal());
         $this->assertEquals($obj->getIncludingVatTotal(), $res->getIncludingVatTotal());
         $this->assertEquals($obj->getNumber(), $res->getNumber());
-        $this->assertEquals($obj->getParent(), $res->getParent());
+        $this->assertSame($obj->getParent(), $res->getParent());
         $this->assertEquals($obj->getPaymentDate(), $res->getPaymentDate());
         $this->assertEquals($obj->getReference(), $res->getReference());
         $this->assertEquals($obj->getUpdatedAt(), $res->getUpdatedAt());
