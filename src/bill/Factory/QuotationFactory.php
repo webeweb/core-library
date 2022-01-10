@@ -31,7 +31,7 @@ class QuotationFactory {
     public static function copy(QuotationInterface $src, QuotationInterface $dst): QuotationInterface {
 
         BillableFactory::copy($src, $dst);
-        $dst->setExpirationDate($src->getExpirationDate());
+        $dst->setExpirationDate(null !== $src->getExpirationDate() ? clone $src->getExpirationDate() : null);
 
         return $dst;
     }

@@ -66,7 +66,7 @@ class QuotationFactoryTest extends AbstractTestCase {
         $this->assertEquals($obj->getExpirationDate(), $res->getExpirationDate());
         $this->assertEquals($obj->getIncludingVatTotal(), $res->getIncludingVatTotal());
         $this->assertEquals($obj->getNumber(), $res->getNumber());
-        $this->assertEquals($obj->getParent(), $res->getParent());
+        $this->assertSame($obj->getParent(), $res->getParent());
         $this->assertEquals($obj->getReference(), $res->getReference());
         $this->assertEquals($obj->getUpdatedAt(), $res->getUpdatedAt());
         $this->assertEquals($obj->getVatTotal(), $res->getVatTotal());
