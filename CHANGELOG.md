@@ -1,6 +1,15 @@
 CHANGELOG
 =========
 
+### [8.26.0](https://github.com/webeweb/core-library/tree/v8.26.0) (2022-01-10)
+
+- Add Dropdown package
+- Fix Billable copy
+- Fix Purchase bill copy
+- Fix Quotation copy
+- Fix Registration certificate copy
+- Improve unit tests
+
 ### [8.25.0](https://github.com/webeweb/core-library/tree/v8.25.0) (2022-01-07)
 
 - Add Accounting account factory
