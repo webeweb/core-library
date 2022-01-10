@@ -43,8 +43,8 @@ class VatRateFactoryTest extends AbstractTestCase {
 
         $res = VatRateFactory::copy($obj, new VatRate());
         $this->assertEquals($obj->getLabel(), $res->getLabel());
-        $this->assertEquals($obj->getPurchasesAccountingAccount(), $res->getPurchasesAccountingAccount());
+        $this->assertSame($obj->getPurchasesAccountingAccount(), $res->getPurchasesAccountingAccount());
         $this->assertEquals($obj->getRate(), $res->getRate());
-        $this->assertEquals($obj->getSalesAccountingAccount(), $res->getSalesAccountingAccount());
+        $this->assertSame($obj->getSalesAccountingAccount(), $res->getSalesAccountingAccount());
     }
 }
