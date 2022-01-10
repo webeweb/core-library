@@ -32,7 +32,7 @@ class RegistrationCertificateFactory {
 
         $dst->setA($src->getA());
         $dst->setA1($src->getA1());
-        $dst->setB($src->getB());
+        $dst->setB(null !== $src->getB() ? clone $src->getB() : null);
         $dst->setC1($src->getC1());
         $dst->setC3($src->getC3());
         $dst->setC41($src->getC41());
@@ -48,8 +48,8 @@ class RegistrationCertificateFactory {
         $dst->setG($src->getG());
         $dst->setG1($src->getG1());
         $dst->setH($src->getH());
-        $dst->setI($src->getI());
-        $dst->setI1($src->getI1());
+        $dst->setI(null !== $src->getI() ? clone $src->getI() : null);
+        $dst->setI1(null !== $src->getI1() ? clone $src->getI1() : null);
         $dst->setJ($src->getJ());
         $dst->setJ1($src->getJ1());
         $dst->setJ2($src->getJ2());
@@ -66,7 +66,7 @@ class RegistrationCertificateFactory {
         $dst->setU2($src->getU2());
         $dst->setV7($src->getV7());
         $dst->setV9($src->getV9());
-        $dst->setX1($src->getX1());
+        $dst->setX1(null !== $src->getX1() ? clone $src->getX1() : null);
         $dst->setY1($src->getY1());
         $dst->setY2($src->getY2());
         $dst->setY3($src->getY3());
