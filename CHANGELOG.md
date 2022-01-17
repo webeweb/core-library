@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+### [8.27.0](https://github.com/webeweb/core-library/tree/v8.27.0) (2022-01-17)
+
+- Add integer quantity trait
+
 ### [8.26.0](https://github.com/webeweb/core-library/tree/v8.26.0) (2022-01-10)
 
 - Add Dropdown package
