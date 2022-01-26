@@ -150,6 +150,7 @@ EOT;
             "--git-status"          => "gitStatus",
             "--phpunit"             => "phpunit",
             "--license-update"      => "licenseUpdate",
+            "--sanitize"            => "sanitize",
         ];
     }
 
@@ -170,6 +171,7 @@ EOT;
             "--git-status"          => "Execute 'git status'",
             "--phpunit"             => "Execute 'vendor/bin/phpunit",
             "--license-update"      => "Update LICENSE",
+            "--sanitize"            => "",
         ];
     }
 
@@ -484,6 +486,26 @@ EOT;
         echo sprintf("%s --git-config-username=John\ Doe\n", $script);
         echo sprintf("%s --git-config-usermail=john.doe@gmail.com\n", $script);
         echo "\n";
+    }
+
+    /**
+     * Sanitize.
+     *
+     * @return void
+     * @throws Exception Throws an exception if an error occurs.
+     */
+    public function sanitize(): void {
+
+        if (false === $this->isGitRepository()) {
+            return;
+        }
+
+        $shf = __DIR__ . "/workspace.sanitize.sh";
+
+        $cmd = $this->executeCommand("tail -n1 $shf")[0];
+
+        $this->logCommand($cmd);
+        $this->executeCommand($this->chainCommand("/bin/bash $shf"));
     }
 
     /**
