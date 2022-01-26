@@ -59,7 +59,7 @@ class SalesBillTest extends AbstractTestCase {
         $res = $obj->jsonSerialize();
         $this->assertCount(13, $res);
 
-        $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT));
+        $this->assertEquals($data, json_encode($res, JSON_PRETTY_PRINT) . "\n");
     }
 
     /**
