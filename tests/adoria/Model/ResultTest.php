@@ -55,7 +55,7 @@ class ResultTest extends AbstractTestCase {
     /**
      * Tests setDatas()
      *
-     * @erturn void
+     * @return void
      */
     public function testSetDatas(): void {
 

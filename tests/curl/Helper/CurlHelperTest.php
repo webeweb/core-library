@@ -116,7 +116,7 @@ class CurlHelperTest extends AbstractTestCase {
     /**
      * Tests setProxy()
      *
-     * @retun void
+     * @retutn void
      */
     public function testSetProxy(): void {
 
